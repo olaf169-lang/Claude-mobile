@@ -18,13 +18,38 @@ from urllib.parse import quote
 import requests
 
 from .net import get
-from .textutil import overlap, shorten, token_set
+from .textutil import entity_counts, normalize, overlap, shorten, token_set
 
 log = logging.getLogger("przeglad.wiki")
 
 LANGS = ("pl", "en")
 #: Jak bardzo tytuł znalezionego hasła musi pokrywać się z szukaną nazwą.
 TITLE_MATCH = 0.6
+
+
+def candidates_for(title: str, text: str, *, source: str = "", domain: str = "") -> list[str]:
+    """Nazwy, o które warto zapytać Wikipedię — czyli temat, nie tło akapitu.
+
+    Nazwa wspomniana raz na marginesie prowadzi donikąd: artykuł o obronie
+    przed asteroidą przywoływał film „Armageddon", a wywiad z pisarzem imię
+    „Lucy". Bierzemy więc to, co jest w nagłówku, oraz to, co w tekście wraca
+    co najmniej dwa razy. Nazwa samej redakcji odpada zawsze — hasło
+    „Phys.org" nie jest tłem żadnej wiadomości.
+    """
+    zakazane = {normalize(source)} | {normalize(domain.split(".")[0])} if source or domain else set()
+    zakazane.discard("")
+
+    def wolno(nazwa: str) -> bool:
+        n = normalize(nazwa)
+        return bool(n) and len(nazwa) >= 4 and not any(z and (z in n or n in z) for z in zakazane)
+
+    w_naglowku = [e for e in entity_counts(title) if wolno(e)]
+    liczniki = entity_counts(f"{title} {text}")
+    powtorzone = [
+        nazwa for nazwa, ile in sorted(liczniki.items(), key=lambda kv: (-kv[1], -len(kv[0])))
+        if ile >= 2 and wolno(nazwa) and nazwa not in w_naglowku
+    ]
+    return (w_naglowku + powtorzone)[:4]
 
 
 def _api(session: requests.Session, lang: str, params: str) -> dict | None:

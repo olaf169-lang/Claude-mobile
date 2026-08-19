@@ -241,11 +241,10 @@ def translate_item(item: dict, translator: Translator, *, source: str = "en") ->
             przetlumaczone.append(wynik)
         sekcja["treść"] = przetlumaczone
 
-    for spojrzenie in kopia.get("inne_spojrzenia", []):
-        wynik = przetlumacz(spojrzenie.get("ujęcie", ""))
-        if wynik is None:
-            return False
-        spojrzenie["ujęcie"] = wynik
+    # „Jak piszą inni" to dodatek, a kosztuje jedną czwartą budżetu karty.
+    # Przy skromnym darmowym limicie lepiej mieć trzy karty po polsku bez tej
+    # sekcji niż dwie z nią i resztę po angielsku. Źródła zostają w wykazie.
+    kopia["inne_spojrzenia"] = []
 
     kopia["oryginalny_nagłówek"] = item.get("nagłówek", "")
     kopia["tłumaczenie"] = {"z": source, "silnik": translator.engine}

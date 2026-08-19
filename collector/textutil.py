@@ -140,13 +140,17 @@ def entities(text: str) -> list[str]:
     return out
 
 
-def top_entities(text: str, limit: int = 6) -> list[str]:
+def entity_counts(text: str) -> dict[str, int]:
     counts: dict[str, int] = {}
     for ent in entities(text):
         if len(ent) < 3:
             continue
         counts[ent] = counts.get(ent, 0) + 1
-    ordered = sorted(counts.items(), key=lambda kv: (-kv[1], -len(kv[0])))
+    return counts
+
+
+def top_entities(text: str, limit: int = 6) -> list[str]:
+    ordered = sorted(entity_counts(text).items(), key=lambda kv: (-kv[1], -len(kv[0])))
     return [e for e, _ in ordered[:limit]]
 
 

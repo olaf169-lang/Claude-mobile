@@ -85,3 +85,41 @@ def test_pomija_zbyt_krotkie_kandydaty(monkeypatch):
 def test_brak_wynikow_to_nie_blad(monkeypatch):
     monkeypatch.setattr(W, "get", odpowiedzi({}))
     assert W.background(session=None, candidates=["Cokolwiek"]) is None
+
+
+# --- dobór nazw, o które w ogóle pytamy Wikipedię ---------------------------
+
+def test_pomija_nazwe_redakcji():
+    """Hasło „Phys.org" nie jest tłem żadnej wiadomości."""
+    nazwy = W.candidates_for(
+        "A new approach to noise-resistant quantum sensors",
+        "Researchers at Cornell built it. Phys.org reports the work. The Cornell team published it.",
+        source="Phys.org", domain="phys.org",
+    )
+    assert "Phys.org" not in nazwy
+    assert "Cornell" in nazwy
+
+
+def test_pomija_nazwe_wspomniana_raz_na_marginesie():
+    """Film przywołany w jednym zdaniu nie jest tematem artykułu."""
+    nazwy = W.candidates_for(
+        "Obrona planetarna po nowemu",
+        "Czytelnicy pamiętają film Armageddon. Testy prowadzi Europejska Agencja Kosmiczna. "
+        "Kolejną misję zaplanowała Europejska Agencja Kosmiczna.",
+        source="Urania", domain="urania.edu.pl",
+    )
+    assert not any("Armageddon" in n for n in nazwy)
+    assert any("Agencja Kosmiczna" in n for n in nazwy)
+
+
+def test_nazwy_z_naglowka_maja_pierwszenstwo():
+    nazwy = W.candidates_for(
+        "Romanowski w Naddniestrzu? Poseł odpowiedział",
+        "Sprawa ciągnie się od miesięcy. Prokuratura milczy. Prokuratura nie komentuje.",
+        source="RMF24", domain="rmf24.pl",
+    )
+    assert nazwy and "Naddniestrzu" in nazwy[0]
+
+
+def test_brak_sensownych_nazw_to_pusta_lista():
+    assert W.candidates_for("krótki tytuł", "bez nazw własnych w tekście", source="X") == []

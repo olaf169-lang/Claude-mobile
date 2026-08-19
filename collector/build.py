@@ -26,8 +26,9 @@ from .net import get, make_session
 from .rank import MIN_FULLTEXT, pick
 from .sources import SEGMENTS
 from .translate import Translator, make_translator, translate_item
-from .textutil import token_set, overlap, top_entities
+from .textutil import token_set, overlap
 from .wiki import background as wiki_background
+from .wiki import candidates_for as wiki_candidates
 
 log = logging.getLogger("przeglad.build")
 
@@ -129,8 +130,13 @@ def build_segment(
     background = None
     if session is not None:
         lead_text = cluster.lead.fulltext or cluster.lead.summary
-        candidates = top_entities(f"{cluster.lead.title} {lead_text}", 4)
-        background = wiki_background(session, candidates)
+        background = wiki_background(
+            session,
+            wiki_candidates(
+                cluster.lead.title, lead_text,
+                source=cluster.lead.source, domain=cluster.lead.domain,
+            ),
+        )
 
     story = None
     if use_llm:

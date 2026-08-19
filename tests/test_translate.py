@@ -109,7 +109,7 @@ def test_tlumaczy_cala_pozycje(monkeypatch):
     assert item["lead"].startswith("PL:")
     assert item["dlaczego_to_ważne"].startswith("PL:")
     assert item["sekcje"][0]["treść"][0].startswith("PL:")
-    assert item["inne_spojrzenia"][0]["ujęcie"].startswith("PL:")
+    assert item["inne_spojrzenia"] == [], "sekcja poboczna ustępuje miejsca budżetowi"
     assert item["tłumaczenie"] == {"z": "en", "silnik": "MyMemory"}
     assert item["oryginalny_nagłówek"] == POZYCJA["nagłówek"]
     # Tytuły sekcji są nasze i już polskie — nie idą do tłumaczenia.
@@ -118,7 +118,7 @@ def test_tlumaczy_cala_pozycje(monkeypatch):
 
 def test_polowiczne_tlumaczenie_nie_trafia_do_wydania(monkeypatch):
     """Karta w połowie polska jest gorsza niż uczciwie oznaczona angielska."""
-    t = tlumacz(monkeypatch, FakeUsluga(awaria_po=2))
+    t = tlumacz(monkeypatch, FakeUsluga(awaria_po=1))
     item = json.loads(json.dumps(POZYCJA))
     assert T.translate_item(item, t) is False
     assert item == POZYCJA, "pozycja miała zostać nietknięta"
