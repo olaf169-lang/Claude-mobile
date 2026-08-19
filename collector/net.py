@@ -12,9 +12,11 @@ from requests.adapters import HTTPAdapter
 
 log = logging.getLogger("przeglad.net")
 
+# Wyłącznie ASCII: nagłówki HTTP są kodowane w latin-1, więc jedno „ą"
+# wywraca każde żądanie wyjątkiem UnicodeEncodeError.
 USER_AGENT = (
     "PrzegladNews/1.0 (+https://github.com/olaf169-lang/Claude-mobile; "
-    "codzienny przegląd prasy, kontakt przez GitHub Issues)"
+    "daily press digest; contact via GitHub Issues)"
 )
 DEFAULT_TIMEOUT = 20
 MAX_BYTES = 3_000_000
@@ -71,6 +73,9 @@ def get(session: requests.Session, url: str, *, timeout: int = DEFAULT_TIMEOUT, 
                 return Response(True, r.url, r.status_code, content)
         except requests.RequestException as exc:  # timeout, DNS, TLS, reset
             last = type(exc).__name__
+        except Exception as exc:  # np. wadliwy URL albo nagłówek nie do zakodowania
+            log.warning("nieoczekiwany błąd przy %s: %r", url, exc)
+            return Response(False, url, error=type(exc).__name__)
         if attempt < retries:
             time.sleep(1.5 * (attempt + 1) + random.random())
     log.debug("nie udało się pobrać %s (%s)", url, last)
