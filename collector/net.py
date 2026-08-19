@@ -13,7 +13,7 @@ from requests.adapters import HTTPAdapter
 log = logging.getLogger("przeglad.net")
 
 USER_AGENT = (
-    "PrzegladNews/1.0 (+https://github.com/olaf169-lang/claude-mobile; "
+    "PrzegladNews/1.0 (+https://github.com/olaf169-lang/Claude-mobile; "
     "codzienny przegląd prasy, kontakt przez GitHub Issues)"
 )
 DEFAULT_TIMEOUT = 20

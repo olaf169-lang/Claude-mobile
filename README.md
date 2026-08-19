@@ -48,7 +48,7 @@ Tryb bez klucza jest w pełni sprawny — klucz podnosi jakość, nie jest warun
 ## Szybki start
 
 ```bash
-git clone https://github.com/olaf169-lang/claude-mobile.git
+git clone https://github.com/olaf169-lang/Claude-mobile.git
 cd claude-mobile
 ./przeglad.sh
 ```
@@ -82,7 +82,12 @@ Workflow `.github/workflows/przeglad.yml` robi wszystko sam:
    nazwa `ANTHROPIC_API_KEY`. Bez niego wydania powstają w trybie ekstrakcyjnym.
 4. Scal gałąź do `main` — **harmonogram działa tylko z domyślnej gałęzi**.
 
-Przegląd pojawi się pod `https://olaf169-lang.github.io/claude-mobile/`.
+Przegląd pojawi się pod `https://olaf169-lang.github.io/Claude-mobile/`.
+
+> **Repozytorium musi być publiczne** (albo konto na planie GitHub Pro) — Pages dla prywatnych
+> repozytoriów to funkcja płatna. Zmiana: *Settings → General → Danger Zone → Change repository
+> visibility → Public*. Publiczny robi się wtedy kod, nie żadne Twoje dane; klucz API zostaje
+> w sekretach i nie jest widoczny.
 
 > **Skąd dwa crony?** GitHub liczy harmonogram w UTC i nie zna polskiego czasu letniego. Workflow odpala
 > się o 6:00 i 7:00 UTC, a krok kontrolny przepuszcza tylko ten przebieg, który trafia w polską ósmą

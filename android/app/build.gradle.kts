@@ -18,7 +18,7 @@ android {
         buildConfigField(
             "String",
             "PRZEGLAD_URL",
-            "\"${project.findProperty("przegladUrl") ?: "https://olaf169-lang.github.io/claude-mobile/"}\"",
+            "\"${project.findProperty("przegladUrl") ?: "https://olaf169-lang.github.io/Claude-mobile/"}\"",
         )
     }
 
