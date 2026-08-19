@@ -49,7 +49,12 @@ jobs:
           DZIS=$(TZ=Europe/Warsaw date +%F)
           GODZINA=$(TZ=Europe/Warsaw date +%-H)
           echo "W Polsce jest $DZIS, godzina $GODZINA."
-          if [ "${{ github.event_name }}" != "schedule" ]; then
+          if [ "${{ github.event_name }}" = "push" ]; then
+            # Zmiana w repozytorium ma tylko opublikować stronę z gotowymi
+            # danymi. Zbiórka o tej porze podmieniłaby dzisiejsze wydanie.
+            echo "Push — publikuję istniejące wydanie bez zbierania."
+            echo "uruchom=false" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "Uruchomienie ręczne — budujemy."
             echo "uruchom=true" >> "$GITHUB_OUTPUT"
           elif [ -f "web/data/$DZIS.json" ]; then
