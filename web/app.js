@@ -116,9 +116,11 @@
     if (item['liczba_źródeł'] > 1) {
       seg.append(el('span', 'dot', `· ${item['liczba_źródeł']} niezależne źródła`));
     }
-    // Polskiego źródła zabrakło — lepiej to powiedzieć wprost, niż zaskoczyć
-    // czytelnika angielskim akapitem w środku przeglądu.
-    if (item['język_źródła'] && item['język_źródła'] !== 'pl') {
+    // Polskiego źródła zabrakło. Mówimy wprost, czy tekst przetłumaczyliśmy,
+    // czy został w oryginale — to zmienia sposób, w jaki się go czyta.
+    if (item['tłumaczenie']) {
+      seg.append(el('span', 'obcy', 'tłumaczone'));
+    } else if (item['język_źródła'] && item['język_źródła'] !== 'pl') {
       seg.append(el('span', 'obcy', 'po angielsku'));
     }
     head.append(seg);
@@ -203,6 +205,18 @@
         list.append(li);
       });
       body.append(list);
+    }
+
+    if (item['tłumaczenie']) {
+      const nota = el('p', 'note');
+      nota.append(el('span', null,
+        `Tekst przetłumaczony maszynowo z języka: ${item['tłumaczenie'].z}. Oryginał: `));
+      const link = el('a', null, item['oryginalny_nagłówek'] || (item['źródło'] || {}).domena || 'źródło');
+      link.href = (item['źródło'] || {}).url || '#';
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      nota.append(link);
+      body.append(nota);
     }
 
     const tags = item.tagi || [];

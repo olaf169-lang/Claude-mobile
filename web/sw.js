@@ -1,6 +1,6 @@
 /* Service worker Przeglądu News: tryb offline i sygnał o nowym wydaniu. */
 
-const VERSION = 'pn-v2';
+const VERSION = 'pn-v3';
 const SHELL = `${VERSION}-shell`;
 const DATA_CACHE = `${VERSION}-dane`;
 
@@ -43,34 +43,26 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
 
-  if (isData(url)) {
-    // Dane: najpierw sieć (świeżość), kopia do cache, offline z cache.
-    event.respondWith(
-      fetch(request)
-        .then((response) => {
-          const copy = response.clone();
-          caches.open(DATA_CACHE).then((cache) => cache.put(request, copy));
-          return response;
-        })
-        .catch(() => caches.match(request))
-    );
-    return;
-  }
-
-  // Powłoka aplikacji: najpierw cache, w tle odświeżenie.
+  // Najpierw sieć, cache jako zapas. Odwrotna kolejność sprawiała, że po
+  // wgraniu nowej wersji użytkownik i tak dostawał starą powłokę z pamięci,
+  // a świeżą dopiero przy kolejnym otwarciu aplikacji.
+  const magazyn = isData(url) ? DATA_CACHE : SHELL;
   event.respondWith(
-    caches.match(request).then((hit) => {
-      const network = fetch(request)
-        .then((response) => {
-          if (response.ok) {
-            const copy = response.clone();
-            caches.open(SHELL).then((cache) => cache.put(request, copy));
-          }
-          return response;
-        })
-        .catch(() => hit);
-      return hit || network;
-    })
+    fetch(request)
+      .then((response) => {
+        if (response.ok) {
+          const copy = response.clone();
+          caches.open(magazyn).then((cache) => cache.put(request, copy));
+        }
+        return response;
+      })
+      .catch(async () => {
+        const hit = await caches.match(request);
+        if (hit) return hit;
+        // Offline i brak dokładnego trafienia: dla nawigacji podajemy powłokę.
+        if (request.mode === 'navigate') return caches.match('index.html');
+        return Response.error();
+      })
   );
 });
 

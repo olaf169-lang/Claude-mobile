@@ -25,6 +25,7 @@ from .model import Cluster, Entry, Segment
 from .net import get, make_session
 from .rank import MIN_FULLTEXT, pick
 from .sources import SEGMENTS
+from .translate import Translator, make_translator, translate_item
 from .textutil import token_set, overlap, top_entities
 from .wiki import background as wiki_background
 
@@ -101,6 +102,7 @@ def build_segment(
     use_llm: bool,
     used_urls: set[str],
     taken_signatures: list[set[str]],
+    translator: Translator | None = None,
 ) -> dict[str, Any] | None:
     entries = entries_for_segment(segment, fetched, window)
     if not entries:
@@ -143,11 +145,19 @@ def build_segment(
 
     used_urls.update(e.url for e in cluster.entries)
     taken_signatures.append(token_set(" ".join(e.title for e in cluster.entries[:3])))
+
+    item = story_to_dict(story)
+    # Temat obcojęzyczny przechodzi przez tłumacza; nieudane tłumaczenie
+    # zostawia kartę w oryginale z etykietą „po angielsku".
+    if translator is not None and story.mode != "llm" and cluster.lead.lang != "pl":
+        if translate_item(item, translator, source=cluster.lead.lang):
+            log.info("dział %-12s -> przetłumaczono z %s", segment.id, cluster.lead.lang)
+
     log.info(
-        "dział %-12s -> %s (%d źr., %s)",
-        segment.id, story.headline[:60], len(cluster.sources), story.mode,
+        "dział %-12s -> %s (%d wyd., %s)",
+        segment.id, item["nagłówek"][:60], len(cluster.publishers), story.mode,
     )
-    return story_to_dict(story)
+    return item
 
 
 def build_edition(
@@ -177,6 +187,9 @@ def build_edition(
         fetched, report = fetch_all(feeds)
         session = make_session()
 
+    # Bez modelu językowego obcojęzyczne tematy tłumaczy MyMemory.
+    translator = None if (session is None or use_llm) else make_translator(session)
+
     window = day_window(covers_date, tz)
     used_urls: set[str] = set()
     taken_signatures: list[set[str]] = []
@@ -188,6 +201,7 @@ def build_edition(
             segment, fetched, window, session,
             covers=covers_date, use_llm=use_llm,
             used_urls=used_urls, taken_signatures=taken_signatures,
+            translator=translator,
         )
         if item is None:
             missing.append(segment.id)
@@ -206,6 +220,7 @@ def build_edition(
         "braki": missing,
         "statystyki": {
             **report.summary,
+            "znaki_tłumaczone": translator.used if translator else 0,
             # Lista wprost w wydaniu: inaczej martwy kanał cicho ubywa z puli.
             "niedziałające_kanały": [
                 {"url": url, "powód": powod} for url, powod in sorted(report.failed.items())
