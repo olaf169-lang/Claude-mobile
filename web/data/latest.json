@@ -2,7 +2,7 @@
  "wersja": "1.0.0",
  "wydanie": "2026-08-19",
  "dotyczy_dnia": "2026-08-18",
- "wygenerowano": "2026-08-19T10:40:41+00:00",
+ "wygenerowano": "2026-08-19T10:46:34+00:00",
  "strefa": "Europe/Warsaw",
  "tryb": "ekstrakcyjny",
  "demo": false,
@@ -612,7 +612,7 @@
     "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
    },
    "nagłówek": "Krypton gas emerges as a new ingredient for quantum computing",
-   "lead": "edited by Lisa Lock , reviewed by Robert Egan This article has been reviewed according to Science X's editorial process and policies . Editors have highlighted the following attributes while ensuring the content's credibility: To commercialize quantum computing, manufacturers need high-quality superconducting materials…",
+   "lead": "To commercialize quantum computing, manufacturers need high-quality superconducting materials for microchips, but they also require a reliable, sustainable nanofabrication process. Tantalum is a corrosion-resistant metal that meets the first criterion but not the second.",
    "język_źródła": "en",
    "opublikowano": "2026-08-18T23:40:06+00:00",
    "źródło": {
@@ -626,11 +626,11 @@
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "edited by Lisa Lock , reviewed by Robert Egan This article has been reviewed according to Science X's editorial process and policies .",
-      "Editors have highlighted the following attributes while ensuring the content's credibility: To commercialize quantum computing, manufacturers need high-quality superconducting materials for microchips, but they also require a reliable, sustainable nanofabrication process.",
+      "To commercialize quantum computing, manufacturers need high-quality superconducting materials for microchips, but they also require a reliable, sustainable nanofabrication process.",
       "Tantalum is a corrosion-resistant metal that meets the first criterion but not the second.",
       "That's because it has to be deposited on a substrate at temperatures that typically exceed 400°C (752°F)—too hot for many semiconductor foundries' current tools.",
-      "Cornell researchers have developed a method that uses krypton gas to slash that deposition temperature to 200°C (392°F) while depositing tantalum on silicon, a standard high-quality substrate."
+      "Cornell researchers have developed a method that uses krypton gas to slash that deposition temperature to 200°C (392°F) while depositing tantalum on silicon, a standard high-quality substrate.",
+      "\"Tantalum as a material has been shown to be very exciting from a device performance perspective, but its manufacturability had some question marks because of integration challenges such as required process temperatures,\" said Valla Fatemi, assistant professor and Aref and Manon Lahham Faculty Fellow in the Cornell Duffield College of Engineering, who led the project."
      ]
     },
     {
@@ -698,7 +698,7 @@
     "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
    },
    "nagłówek": "Nuking an asteroid on short notice could save us",
-   "lead": "edited by Swati Mestri , reviewed by Andrew Zinin This article has been reviewed according to Science X's editorial process and policies . Editors have highlighted the following attributes while ensuring the content's credibility: Readers of a certain age will remember a golden era of asteroid films, capped by two with…",
+   "lead": "Readers of a certain age will remember a golden era of asteroid films, capped by two with very different endings. \"Deep Impact\" drove home the devastating consequences of letting a large piece of rock hit our planet, whereas \"Armageddon,\" though arguably the kitschier of the two films, was an uplifting story about…",
    "język_źródła": "en",
    "opublikowano": "2026-08-18T12:00:09+00:00",
    "źródło": {
@@ -712,21 +712,21 @@
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "edited by Swati Mestri , reviewed by Andrew Zinin This article has been reviewed according to Science X's editorial process and policies .",
-      "Editors have highlighted the following attributes while ensuring the content's credibility: Readers of a certain age will remember a golden era of asteroid films, capped by two with very different endings.",
+      "Readers of a certain age will remember a golden era of asteroid films, capped by two with very different endings.",
       "Now, the central premise of that movie's storyline—essentially blasting an asteroid with a nuclear detonation—is taking center stage as our last line of defense against a potential \"Deep Impact\" scenario.",
       "A new paper from researchers at the China Academy of Launch Vehicle Technology, published in Space: Science & Technology , describes two potential scenarios examining how we might actually be able to nuke a space rock—and whether it would save us.",
-      "As of July 2024, 10,933 of the 35,269 near-Earth asteroids (NEAs) discovered have diameters larger than 140 m (460 feet)."
+      "As of July 2024, 10,933 of the 35,269 near-Earth asteroids (NEAs) discovered have diameters larger than 140 m (460 feet).",
+      "Anyone familiar with the details of 1990s asteroid movies knows that the main characters in \"Armageddon\" weren't astronauts—they were oil prospectors."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "The helmethead sea Muppet is a species of ray-finned fish in the sea Muppet genus Australyichthys. Like other members of this genus, it has a superficially seahorse-like morphology, a result of convergent evolution of Australyichthys species on members of the genus Hippocampus. It is known from a single specimen incidentally collected by dredging activity off the coast of South Australia. The species has not been recorded since, in part because it occupies an understudied mesophotic habitat."
+      "Armageddon – amerykański film katastroficzny w reżyserii Michaela Baya z Bruce'em Willisem i Benem Affleckiem w rolach głównych, nakręcony w 1998 roku."
      ],
-     "przypis": "Wikipedia: Helmethead sea Muppet",
-     "url": "https://en.wikipedia.org/wiki/Helmethead_sea_Muppet"
+     "przypis": "Wikipedia: Armageddon (film)",
+     "url": "https://pl.wikipedia.org/wiki/Armageddon_(film)"
     }
    ],
    "dlaczego_to_ważne": "\"Deep Impact\" drove home the devastating consequences of letting a large piece of rock hit our planet, whereas \"Armageddon,\" though arguably the kitschier of the two films, was an uplifting story about technical ingenuity and sacrifice.",
@@ -747,17 +747,17 @@
    ],
    "pojęcia": [],
    "tło": {
-    "hasło": "Helmethead sea Muppet",
-    "opis": "Genus of ray-finned fish",
-    "tekst": "The helmethead sea Muppet is a species of ray-finned fish in the sea Muppet genus Australyichthys. Like other members of this genus, it has a superficially seahorse-like morphology, a result of convergent evolution of Australyichthys species on members of the genus Hippocampus. It is known from a single specimen incidentally collected by dredging activity off the coast of South Australia. The species has not been recorded since, in part because it occupies an understudied mesophotic habitat.",
-    "url": "https://en.wikipedia.org/wiki/Helmethead_sea_Muppet",
-    "język": "en"
+    "hasło": "Armageddon (film)",
+    "opis": "",
+    "tekst": "Armageddon – amerykański film katastroficzny w reżyserii Michaela Baya z Bruce'em Willisem i Benem Affleckiem w rolach głównych, nakręcony w 1998 roku.",
+    "url": "https://pl.wikipedia.org/wiki/Armageddon_(film)",
+    "język": "pl"
    },
    "tagi": [
-    "Swati Mestri",
-    "Science X's",
     "Armageddon",
-    "Technology"
+    "Technology",
+    "Earth",
+    "NEAs"
    ],
    "wszystkie_źródła": [
     {
@@ -795,7 +795,7 @@
     "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
    },
    "nagłówek": "Plants could transform how scientists measure the climate benefits of tidal marshes",
-   "lead": "edited by Gaby Clark , reviewed by Robert Egan This article has been reviewed according to Science X's editorial process and policies . Editors have highlighted the following attributes while ensuring the content's credibility: Growing up in New Jersey, Emily Wilson regularly passed tidal marshes without giving them…",
+   "lead": "Growing up in New Jersey, Emily Wilson regularly passed tidal marshes without giving them much thought. They were part of the coastal landscape—stretches of green and blue she saw from the road.",
    "język_źródła": "en",
    "opublikowano": "2026-08-18T20:50:02+00:00",
    "źródło": {
@@ -809,11 +809,11 @@
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "edited by Gaby Clark , reviewed by Robert Egan This article has been reviewed according to Science X's editorial process and policies .",
-      "Editors have highlighted the following attributes while ensuring the content's credibility: Growing up in New Jersey, Emily Wilson regularly passed tidal marshes without giving them much thought.",
+      "Growing up in New Jersey, Emily Wilson regularly passed tidal marshes without giving them much thought.",
+      "They were part of the coastal landscape—stretches of green and blue she saw from the road.",
       "Today, as a Boston University doctoral candidate in Earth & Environment, Wilson studies those same ecosystems—and has discovered that the plants she once drove past may hold important information for more accurately tracking the global climate.",
       "Tidal marshes are important natural climate solutions because they remove carbon dioxide from the atmosphere and store large amounts of carbon in their soils.",
-      "\"But beyond studies conducted at one to a few tidal marshes, there was no consensus that plant species could be used to estimate fluxes at larger scales.\" To find out, Wilson compiled more than 2,000 methane measurements from 87 published studies around the world."
+      "A new study led by Wilson and published in the Proceedings of the National Academy of Sciences finds that plant species are a far better predictor of methane emissions from tidal marshes than salinity, which scientists have relied on for decades."
      ]
     },
     {
@@ -1082,6 +1082,88 @@
  "statystyki": {
   "kanały_ok": 65,
   "kanały_błędne": 20,
+  "niedziałające_kanały": [
+   {
+    "url": "https://culture.pl/pl/rss",
+    "powód": "HTTP 404"
+   },
+   {
+    "url": "https://deadline.com/feed/",
+    "powód": "HTTP 402"
+   },
+   {
+    "url": "https://home.cern/api/news/news/feed.rss",
+    "powód": "HTTP 404"
+   },
+   {
+    "url": "https://naekranie.pl/rss",
+    "powód": "HTTP 404"
+   },
+   {
+    "url": "https://physics.aps.org/feed",
+    "powód": "HTTP 403"
+   },
+   {
+    "url": "https://serwisy.gazeta.pl/pub/rss/sport.htm",
+    "powód": "HTTP 404"
+   },
+   {
+    "url": "https://sport.tvp.pl/rss.xml",
+    "powód": "HTTP 404"
+   },
+   {
+    "url": "https://tvn24.pl/najwazniejsze.xml",
+    "powód": "brak wpisów / nieznany format"
+   },
+   {
+    "url": "https://variety.com/feed/",
+    "powód": "HTTP 402"
+   },
+   {
+    "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+    "powód": "HTTP 403"
+   },
+   {
+    "url": "https://www.espn.com/espn/rss/news",
+    "powód": "brak wpisów / nieznany format"
+   },
+   {
+    "url": "https://www.eurosport.com/rss.xml",
+    "powód": "HTTP 404"
+   },
+   {
+    "url": "https://www.hollywoodreporter.com/feed/",
+    "powód": "HTTP 402"
+   },
+   {
+    "url": "https://www.newyorker.com/feed/books",
+    "powód": "HTTP 400"
+   },
+   {
+    "url": "https://www.nybooks.com/feed/",
+    "powód": "brak wpisów / nieznany format"
+   },
+   {
+    "url": "https://www.pap.pl/rss.xml",
+    "powód": "brak wpisów / nieznany format"
+   },
+   {
+    "url": "https://www.przegladsportowy.onet.pl/.feed",
+    "powód": "HTTP 404"
+   },
+   {
+    "url": "https://www.rollingstone.com/feed/",
+    "powód": "HTTP 402"
+   },
+   {
+    "url": "https://www.science.org/rss/news_current.xml",
+    "powód": "HTTP 403"
+   },
+   {
+    "url": "https://www.symmetrymagazine.org/feed",
+    "powód": "HTTP 403"
+   }
+  ],
   "działy": 10,
   "artykuły_w_oknie": 31
  }
