@@ -2,7 +2,7 @@
  "wersja": "1.0.0",
  "wydanie": "2026-08-19",
  "dotyczy_dnia": "2026-08-18",
- "wygenerowano": "2026-08-19T11:23:00+00:00",
+ "wygenerowano": "2026-08-19T11:46:19+00:00",
  "strefa": "Europe/Warsaw",
  "tryb": "ekstrakcyjny",
  "demo": false,
@@ -29,11 +29,11 @@
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Aspirant Marek Kobiałko z Komendy Miejskiej Policji w Gdyni potwierdził, że w poniedziałek funkcjonariusze przyjęli oficjalne zawiadomienie dotyczące narażenia człowieka na bezpośrednie niebezpieczeństwo utraty życia albo ciężkiego uszczerbku na zdrowiu.",
-      "O zdarzeniu prezydent Gdyni Aleksandra Kosiorek poinformowała w rozmowie z Radiem Gdańsk.",
       "Jak wyjaśniła, w jej prywatnym samochodzie poluzowane zostały śruby w dwóch tylnych kołach.",
       "Podczas weekendowej podróży auto zgubiło koło na drodze , po wcześniejszej jeździe autostradą.",
-      "W pojeździe znajdował się mąż prezydent oraz trójka ich dzieci."
+      "W pojeździe znajdował się mąż prezydent oraz trójka ich dzieci.",
+      "W tej sprawie niezwłocznie podjęto czynności zmierzające do zebrania materiału dowodowego dającego pełny obraz zaistniałego zdarzenia.",
+      "Zebrany dotychczas materiał dowodowy został przekazany do Prokuratury Rejonowej w Gdyni celem dokonania oceny prawno-karnej oraz ustalenia dalszego toku postępowania – poinformował asp."
      ]
     },
     {
@@ -150,11 +150,11 @@
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "„Gdy już skończymy pokonywać Iran, który pokonujemy bardzo mocno...",
-      "Wkrótce ogłoszę cieśninę Ormuz terytorium Stanów Zjednoczonych” - oświadczył Trump w piątek.",
       "W poniedziałek Trump powtórzył, że to „świetny pomysł”.",
       "Cóż, po prostu uważam, że to świetny pomysł. (...) Kontrolujemy ją (cieśninę) dzięki blokadzie.",
-      "Mamy całkowitą kontrolę nad cieśniną - powiedział Trump mediom w Gabinecie Owalnym."
+      "Mamy całkowitą kontrolę nad cieśniną - powiedział Trump mediom w Gabinecie Owalnym.",
+      "Prezydent w ostatnim czasie wielokrotnie mówił, że Amerykanie mają „całkowitą kontrolę” nad cieśniną Ormuz, i zapowiedział, że ją utrzymają.",
+      "Z kolei serwis Axios przypomniał, że Donald Trump już wcześniej wzywał do rozszerzania terytorium USA."
      ]
     },
     {
@@ -175,7 +175,7 @@
      "url": "https://pl.wikipedia.org/wiki/Ormuz_(cie%C5%9Bnina)"
     }
    ],
-   "dlaczego_to_ważne": "",
+   "dlaczego_to_ważne": "Proponował m.in. by Kanada została „51. stanem”, a także rozważał przejęcie Grenlandii, co groziło rozłamem w NATO.",
    "liczby": [
     "51",
     "33 proc.",
@@ -290,11 +290,11 @@
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Wówczas zasilił on szeregi seniorskiej drużyny Lecha Poznań .",
       "Po 4 latach gry dla \"Kolejorza\" został on natomiast wykupiony przez włodarzy Sampdorii za 4 mln euro.",
       "Przenosiny do Włoch zapoczątkowały natomiast europejską tułaczkę siedmiokrotnego reprezentanta Polski.",
       "W swoim CV ma on występy w takich ekipach jak: Fortuna Dusseldorf , Hertha BSC czy Werder Brema .",
-      "W ostatnim z wymienionych klubów Polak przebywa aż do teraz."
+      "W ostatnim z wymienionych klubów Polak przebywa aż do teraz.",
+      "Okazuje się jednak, że jego przygoda w niemieckiej ekipie może zakończyć się lada dzień."
      ]
     },
     {
@@ -315,7 +315,7 @@
      "url": "https://pl.wikipedia.org/wiki/Werder_Brema"
     }
    ],
-   "dlaczego_to_ważne": "O Dawidzie Kownackim po raz pierwszy głośno zrobiło się w 2013 roku.",
+   "dlaczego_to_ważne": "",
    "liczby": [
     "4 lat",
     "4 mln eur",
@@ -395,9 +395,9 @@
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "W Bayernie Monachium pojawił się nieoczekiwany problem.",
-      "Wygląda bowiem na to, że poważne kłopoty ze zdrowiem może mieć Jamal Musiala.",
       "Gwiazdor reprezentacji Niemiec tak naprawdę stracił ostatni rok gry przez kontuzję odniesioną jeszcze na Klubowych Mistrzostwach Świata.",
+      "Wielki transfer w Anglii.",
+      "Wiadomość dla Matty'ego Casha.",
       "Padło \"Here we go!\" Do gry wrócił po przerwie zimowej, ale nie prezentował się nadzwyczajnie.",
       "Niemniej wystarczyło to na zapewnienie sobie miejsca w kadrze Niemców na turniej o mistrzostwo świata."
      ]
@@ -474,11 +474,11 @@
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 9.594,
+    "wynik": 9.324,
     "składowe": {
      "potwierdzenia": 5.7,
      "ranga_źródła": 1.772,
-     "eksponowanie": 0.27,
+     "eksponowanie": 0.0,
      "słowa_kluczowe": 0.35,
      "świeżość": 0.502,
      "treściwość": 0.5,
@@ -494,7 +494,7 @@
     "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
    },
    "nagłówek": "GPT-6 niemal gotowy do premiery. Czy OpenAI szykuje nam niespodziankę?",
-   "lead": "Niektórzy twierdzą, że miałby zostać udostępniony nawet w tym tygodniu. OpenAI wskazuje na jego osiągnięcia naukowe, ostrzega przed krytycznym ryzykiem niezamierzonych cyberataków z jego strony, a Sam Altman, szef firmy, obiecuje szeroką dostępność.",
+   "lead": "Rozpędza się karuzela plotek i doniesień o GPT-6. Niektórzy twierdzą, że miałby zostać udostępniony nawet w tym tygodniu.",
    "język_źródła": "pl",
    "opublikowano": "2026-08-18T12:24:34+00:00",
    "źródło": {
@@ -508,11 +508,11 @@
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Niektórzy twierdzą, że miałby zostać udostępniony nawet w tym tygodniu.",
       "Jak zapewne pamiętacie, 1 sierpnia OpenAI opisało dziesięć nowych wyników w zadaniach z zakresu matematyki i informatyki teoretycznej , uzyskanych z pomocą wewnętrznej wersji Astry.",
+      "Ta, nieprzypadkowo, została nazwana: \"kolejnym wiodącym modelem\".",
+      "Ten już nie tylko szukał rozwiązań, ale pomagał też przygotowywać manuskrypty i formalizować argumenty w Leanie.",
       "OpenAI, co zrozumiałe, nigdzie nie zestawiło publicznie słów \"GPT-6\" i \"Astra\".",
-      "Przejdźmy do początku: 6 sierpnia konto @synthwavedd, które wcześniej trafnie sygnalizowało ruchy wokół modeli OpenAI, napisało o planowanym wydaniu Astry, które miało nastąpić 10-16 sierpnia.",
-      "Jesteśmy \"po\" tej dacie, ale jednocześnie, wielu leakerów zaczęło wrzucać na początku tego tygodnia informacje o tym, iż Astra miałaby pojawić się własnie teraz (czyli od 17 do 24 sierpnia)."
+      "Firma zresztą też szczególnie się nie hamuje i rękami Tibo Sottiauxa i samego Altmana, wrzuca mniej lub bardziej sugestywne wpisy, które szturmem zdobywają popularność w serwisie X."
      ]
     },
     {
@@ -570,11 +570,11 @@
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 8.148,
+    "wynik": 8.058,
     "składowe": {
      "potwierdzenia": 3.8,
      "ranga_źródła": 1.335,
-     "eksponowanie": 1.17,
+     "eksponowanie": 1.08,
      "słowa_kluczowe": 0.35,
      "świeżość": 0.493,
      "treściwość": 0.5,
@@ -604,11 +604,11 @@
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "To commercialize quantum computing, manufacturers need high-quality superconducting materials for microchips, but they also require a reliable, sustainable nanofabrication process.",
-      "Tantalum is a corrosion-resistant metal that meets the first criterion but not the second.",
       "That's because it has to be deposited on a substrate at temperatures that typically exceed 400°C (752°F)—too hot for many semiconductor foundries' current tools.",
       "Cornell researchers have developed a method that uses krypton gas to slash that deposition temperature to 200°C (392°F) while depositing tantalum on silicon, a standard high-quality substrate.",
-      "\"Tantalum as a material has been shown to be very exciting from a device performance perspective, but its manufacturability had some question marks because of integration challenges such as required process temperatures,\" said Valla Fatemi, assistant professor and Aref and Manon Lahham Faculty Fellow in the Cornell Duffield College of Engineering, who led the project."
+      "The process resulted in thin films that also have substantially higher electronic conductivity.",
+      "\"Tantalum as a material has been shown to be very exciting from a device performance perspective, but its manufacturability had some question marks because of integration challenges such as required process temperatures,\" said Valla Fatemi, assistant professor and Aref and Manon Lahham Faculty Fellow in the Cornell Duffield College of Engineering, who led the project.",
+      "Quantum computing promises to handle faster, more complex computations by leveraging the unique quantum mechanical properties of superconductors, which carry current with little to no energy loss."
      ]
     },
     {
@@ -690,10 +690,10 @@
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Readers of a certain age will remember a golden era of asteroid films, capped by two with very different endings.",
-      "Now, the central premise of that movie's storyline—essentially blasting an asteroid with a nuclear detonation—is taking center stage as our last line of defense against a potential \"Deep Impact\" scenario.",
       "A new paper from researchers at the China Academy of Launch Vehicle Technology, published in Space: Science & Technology , describes two potential scenarios examining how we might actually be able to nuke a space rock—and whether it would save us.",
       "As of July 2024, 10,933 of the 35,269 near-Earth asteroids (NEAs) discovered have diameters larger than 140 m (460 feet).",
+      "Terrifyingly, asteroid defense experts consistently warn that simulations show there are a massive number of undiscovered NEAs that could easily blindside us.",
+      "In this fast scenario, selecting an ideal site for the nuclear impact is impractical, and the \"coupling energy\" (i.e., the energy transferred from the blast to the asteroid itself) might be relatively weak.",
       "Anyone familiar with the details of 1990s asteroid movies knows that the main characters in \"Armageddon\" weren't astronauts—they were oil prospectors."
      ]
     },
@@ -707,7 +707,7 @@
      "url": "https://pl.wikipedia.org/wiki/Armageddon_(film)"
     }
    ],
-   "dlaczego_to_ważne": "\"Deep Impact\" drove home the devastating consequences of letting a large piece of rock hit our planet, whereas \"Armageddon,\" though arguably the kitschier of the two films, was an uplifting story about technical ingenuity and sacrifice.",
+   "dlaczego_to_ważne": "Now, the central premise of that movie's storyline—essentially blasting an asteroid with a nuclear detonation—is taking center stage as our last line of defense against a potential \"Deep Impact\" scenario.",
    "liczby": [
     "2024, 10,933",
     "35,269",
@@ -787,10 +787,10 @@
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Growing up in New Jersey, Emily Wilson regularly passed tidal marshes without giving them much thought.",
-      "They were part of the coastal landscape—stretches of green and blue she saw from the road.",
+      "It wasn't until she began studying environmental science as an undergraduate that she realized how remarkable they were—plants thriving in salty, waterlogged environments amid the constant ebb and flow of tides.",
       "Today, as a Boston University doctoral candidate in Earth & Environment, Wilson studies those same ecosystems—and has discovered that the plants she once drove past may hold important information for more accurately tracking the global climate.",
       "Tidal marshes are important natural climate solutions because they remove carbon dioxide from the atmosphere and store large amounts of carbon in their soils.",
+      "Accurately accounting for both is critical to understanding their overall climate benefit—and to policies and carbon markets that put a value on protecting and restoring wetlands.",
       "A new study led by Wilson and published in the Proceedings of the National Academy of Sciences finds that plant species are a far better predictor of methane emissions from tidal marshes than salinity, which scientists have relied on for decades."
      ]
     },
@@ -804,7 +804,7 @@
      "url": "https://pl.wikipedia.org/wiki/National_Academy_of_Sciences"
     }
    ],
-   "dlaczego_to_ważne": "\"Because plant species are easier to identify than directly measuring methane fluxes and are often already mapped, this approach provides researchers and managers with a practical means of estimating methane emissions across tidal marshes.\" The discovery builds on more than a decade of research in the lab of Robinson \"Wally\" Fulweiler, a BU professor of Earth & Environment and Biology.",
+   "dlaczego_to_ważne": "",
    "liczby": [
     "2,000",
     "87",
@@ -884,11 +884,11 @@
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Gdy gasną światła wielkiego miasta, a codzienna rzeczywistość zaczyna pękać w szwach, na powierzchnię wychodzą najmroczniejsze sekrety.",
-      "Przedmioty znikające w niewyjaśnionych okolicznościach to dopiero początek.",
       "W mrocznych podziemiach Nowego Jorku czają się bowiem potwory z dziecięcych koszmarów – istoty, które żywią się ludzkim strachem i odbierają nam to, co najcenniejsze.",
       "Opublikowana przez Wydawnictwo Kropka „Agencja Perdido.",
-      "Droga przez mrok” to porywająca, wielowarstwowa podróż przez duszne labirynty pod miastem."
+      "Droga przez mrok” to porywająca, wielowarstwowa podróż przez duszne labirynty pod miastem.",
+      "Z autorem książki, Victorem Dixenem, rozmawiamy o opisywaniu świata, który budzi lęk i ciekawość, odzwierciedlaniu prawdziwego życia w fantastycznej konwencji, tworzeniu nietuzinkowych literackich duetów i znaczeniu pokonywania trudności w kształtowaniu młodych osób.",
+      "Marcin Waincetel: W życiu szukamy różnych rzeczy – spokoju, natchnienia, pomysłów…"
      ]
     },
     {
@@ -960,14 +960,6 @@
    "obraz": "https://fwcdn.pl/nph/49468/2026/76075.16.jpg",
    "sekcje": [
     {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Władimir Kliczko zabrał głos po śmierci swojej byłej narzeczonej Hayden Panettiere .",
-      "Aktorka, znana m.in. z seriali \" Herosi \" i \"<a"
-     ]
-    },
-    {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
@@ -1014,11 +1006,6 @@
      "url": "https://www.theguardian.com/tv-and-radio/2026/aug/18/hayden-panettiere-wladimir-klitschko-daughter-tribute"
     },
     {
-     "nazwa": "The Guardian Culture",
-     "tytuł": "Hollywood continues to fail child stars and Hayden Panettiere is the latest casualty | Jesse Hassenger",
-     "url": "https://www.theguardian.com/tv-and-radio/2026/aug/17/hayden-panettiere-hollywood-child-stars"
-    },
-    {
      "nazwa": "Pitchfork",
      "tytuł": "Solange Pays Tribute to Former Co-Star Hayden Panettiere",
      "url": "https://pitchfork.com/story/solange-pays-tribute-to-former-co-star-hayden-panettiere/"
@@ -1028,11 +1015,11 @@
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 11.447,
+    "wynik": 10.39,
     "składowe": {
      "potwierdzenia": 5.7,
-     "ranga_źródła": 1.837,
-     "eksponowanie": 2.07,
+     "ranga_źródła": 1.68,
+     "eksponowanie": 1.17,
      "słowa_kluczowe": 0.35,
      "świeżość": 0.49,
      "treściwość": 0.5,
@@ -1043,10 +1030,15 @@
  ],
  "braki": [],
  "statystyki": {
-  "kanały_ok": 80,
-  "kanały_błędne": 0,
-  "niedziałające_kanały": [],
+  "kanały_ok": 79,
+  "kanały_błędne": 1,
+  "niedziałające_kanały": [
+   {
+    "url": "https://kosmonauta.net/feed/",
+    "powód": "brak wpisów / nieznany format"
+   }
+  ],
   "działy": 10,
-  "artykuły_w_oknie": 33
+  "artykuły_w_oknie": 32
  }
 }
