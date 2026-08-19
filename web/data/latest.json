@@ -2,7 +2,7 @@
  "wersja": "1.0.0",
  "wydanie": "2026-08-19",
  "dotyczy_dnia": "2026-08-18",
- "wygenerowano": "2026-08-19T10:46:34+00:00",
+ "wygenerowano": "2026-08-19T10:52:51+00:00",
  "strefa": "Europe/Warsaw",
  "tryb": "ekstrakcyjny",
  "demo": false,
@@ -424,7 +424,9 @@
      "rodzaj": "punkty",
      "treść": [
       "The 30-year-old may be headed for a second Ballon d’Or after his displays in Spain’s triumphant World Cup campaign, so the loss of a midfielder capable of moulding games domestically and in the Champions League represents a sizeable blow for Maresca.",
-      "On the positive side, Elliot Anderson has joined for £116m from Nottingham Forest having impressed for England at the World Cup."
+      "On the positive side, Elliot Anderson has joined for £116m from Nottingham Forest having impressed for England at the World Cup.",
+      "Amazon Prime captures strain of manager’s final season Club chair says Spaniard threatened to leave ‘100 times’ Pep Guardiola clashed with his captain and almost broke down in tears as he railed at players during his worst run as Manchester City manager.",
+      "Guardiola stood down at the end of last season after winning 20 trophies in a 10-year spell at the Etihad Stadium."
      ]
     },
     {
@@ -446,7 +448,18 @@
     "53,400",
     "4,000"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "BBC Football",
+     "ujęcie": "Erling Haaland will hope for a record-equalling fourth Golden Boot this season - but who could challenge him as the Premier League's top-scorer?",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cvgwjgxend0o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "źródło": "The Guardian Football",
+     "ujęcie": "Kevin Lamour said Fifa administration was ‘deceived’ Chief operating officer knew he could lose his job The Fifa chief operating officer, Kevin Lamour, has been sacked after openly criticising Gianni Infantino’s ill-fated plan to sell parts of the World Cup to private investors.",
+     "url": "https://www.theguardian.com/football/2026/aug/17/fifa-chief-sacked-criticism-infantino-world-cup-sell-off-plan-kevin-lamour"
+    }
+   ],
    "pojęcia": [],
    "tło": {
     "hasło": "Premier League",
@@ -471,20 +484,60 @@
      "nazwa": "The Guardian Sport",
      "tytuł": "Premier League 2026-27 preview No 15: Manchester City",
      "url": "https://www.theguardian.com/football/2026/aug/19/premier-league-2026-27-preview-no-15-manchester-city"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Haaland's main rivals for the Premier League Golden Boot",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cvgwjgxend0o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Premier League to publish verdicts on referee and VAR decisions",
+     "url": "https://www.bbc.co.uk/sport/football/articles/c98v0mrerz2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Premier League chief on Fifa crisis, Man City charges & World Cup expansion",
+     "url": "https://www.bbc.co.uk/sounds/play/p0p5540m?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Guardiola’s row with Walker at Manchester City revealed in new Amazon documentary",
+     "url": "https://www.theguardian.com/football/2026/aug/18/pep-guardiola-row-kyle-walker-manchester-city-revealed-new-amazon-documentary"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Fifa chief sacked after criticism of Infantino’s World Cup sell-off plan",
+     "url": "https://www.theguardian.com/football/2026/aug/17/fifa-chief-sacked-criticism-infantino-world-cup-sell-off-plan-kevin-lamour"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Premier League 2026-27 preview No 14: Liverpool",
+     "url": "https://www.theguardian.com/football/2026/aug/18/premier-league-2026-27-preview-no-14-liverpool"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Premier League 2026-27 preview No 13: Leeds",
+     "url": "https://www.theguardian.com/football/2026/aug/18/premier-league-2026-27-preview-no-13-leeds"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "David Squires on … new managers causing a stir before Premier League’s return",
+     "url": "https://www.theguardian.com/football/picture/2026/aug/18/david-squires-new-managers-causing-stir-premier-league-return"
     }
    ],
-   "liczba_źródeł": 2,
+   "liczba_źródeł": 4,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.114,
+    "wynik": 10.641,
     "składowe": {
-     "potwierdzenia": 2.0,
-     "ranga_źródła": 1.48,
+     "potwierdzenia": 5.2,
+     "ranga_źródła": 2.763,
      "eksponowanie": 0.09,
      "słowa_kluczowe": 1.05,
      "świeżość": 0.538,
-     "treściwość": 0.456,
+     "treściwość": 0.5,
      "język_działu": 0.5
     }
    }
@@ -1015,6 +1068,11 @@
    ],
    "inne_spojrzenia": [
     {
+     "źródło": "BBC Kultura",
+     "ujęcie": "The former heavyweight boxing champion shares a child with the Heroes actress, who died on Sunday.",
+     "url": "https://www.bbc.co.uk/news/articles/c5ywe951z80o?at_medium=RSS&at_campaign=rss"
+    },
+    {
      "źródło": "The Guardian Culture",
      "ujęcie": "Their daughter, Kaya, has been raised by the Ukrainian retired boxer since 2018, when Panettiere ceded full custody to concentrate on her battles with alcoholism, depression and substance abuse.",
      "url": "https://www.theguardian.com/tv-and-radio/2026/aug/18/hayden-panettiere-wladimir-klitschko-daughter-tribute"
@@ -1046,6 +1104,11 @@
      "url": "https://www.filmweb.pl/news/W%C5%82adimir+Kliczko+%C5%BCegna+Hayden+Panettiere.+%22Pozostawa%C5%82a+wa%C5%BCn%C4%85+cz%C4%99%C5%9Bci%C4%85+mojego+%C5%BCycia%22-168107"
     },
     {
+     "nazwa": "BBC Kultura",
+     "tytuł": "Hayden Panettiere's ex Wladimir Klitschko says family in 'profound shock and grief'",
+     "url": "https://www.bbc.co.uk/news/articles/c5ywe951z80o?at_medium=RSS&at_campaign=rss"
+    },
+    {
      "nazwa": "The Guardian Culture",
      "tytuł": "Wladimir Klitschko pays tribute to ex-partner Hayden Panettiere: ‘She left this world too soon’",
      "url": "https://www.theguardian.com/tv-and-radio/2026/aug/18/hayden-panettiere-wladimir-klitschko-daughter-tribute"
@@ -1061,15 +1124,15 @@
      "url": "https://pitchfork.com/story/solange-pays-tribute-to-former-co-star-hayden-panettiere/"
     }
    ],
-   "liczba_źródeł": 3,
+   "liczba_źródeł": 4,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 8.763,
+    "wynik": 11.747,
     "składowe": {
-     "potwierdzenia": 4.0,
-     "ranga_źródła": 1.573,
-     "eksponowanie": 1.35,
+     "potwierdzenia": 6.0,
+     "ranga_źródła": 1.837,
+     "eksponowanie": 2.07,
      "słowa_kluczowe": 0.35,
      "świeżość": 0.49,
      "treściwość": 0.5,
@@ -1080,91 +1143,15 @@
  ],
  "braki": [],
  "statystyki": {
-  "kanały_ok": 65,
-  "kanały_błędne": 20,
+  "kanały_ok": 75,
+  "kanały_błędne": 1,
   "niedziałające_kanały": [
    {
-    "url": "https://culture.pl/pl/rss",
-    "powód": "HTTP 404"
-   },
-   {
-    "url": "https://deadline.com/feed/",
-    "powód": "HTTP 402"
-   },
-   {
-    "url": "https://home.cern/api/news/news/feed.rss",
-    "powód": "HTTP 404"
-   },
-   {
-    "url": "https://naekranie.pl/rss",
-    "powód": "HTTP 404"
-   },
-   {
-    "url": "https://physics.aps.org/feed",
-    "powód": "HTTP 403"
-   },
-   {
-    "url": "https://serwisy.gazeta.pl/pub/rss/sport.htm",
-    "powód": "HTTP 404"
-   },
-   {
-    "url": "https://sport.tvp.pl/rss.xml",
-    "powód": "HTTP 404"
-   },
-   {
-    "url": "https://tvn24.pl/najwazniejsze.xml",
-    "powód": "brak wpisów / nieznany format"
-   },
-   {
-    "url": "https://variety.com/feed/",
-    "powód": "HTTP 402"
-   },
-   {
-    "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-    "powód": "HTTP 403"
-   },
-   {
-    "url": "https://www.espn.com/espn/rss/news",
-    "powód": "brak wpisów / nieznany format"
-   },
-   {
-    "url": "https://www.eurosport.com/rss.xml",
-    "powód": "HTTP 404"
-   },
-   {
-    "url": "https://www.hollywoodreporter.com/feed/",
-    "powód": "HTTP 402"
-   },
-   {
-    "url": "https://www.newyorker.com/feed/books",
-    "powód": "HTTP 400"
-   },
-   {
-    "url": "https://www.nybooks.com/feed/",
-    "powód": "brak wpisów / nieznany format"
-   },
-   {
-    "url": "https://www.pap.pl/rss.xml",
-    "powód": "brak wpisów / nieznany format"
-   },
-   {
-    "url": "https://www.przegladsportowy.onet.pl/.feed",
-    "powód": "HTTP 404"
-   },
-   {
-    "url": "https://www.rollingstone.com/feed/",
-    "powód": "HTTP 402"
-   },
-   {
-    "url": "https://www.science.org/rss/news_current.xml",
-    "powód": "HTTP 403"
-   },
-   {
-    "url": "https://www.symmetrymagazine.org/feed",
+    "url": "https://tvn24.pl/najnowsze.xml",
     "powód": "HTTP 403"
    }
   ],
   "działy": 10,
-  "artykuły_w_oknie": 31
+  "artykuły_w_oknie": 40
  }
 }
