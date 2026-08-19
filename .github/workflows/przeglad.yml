@@ -1,0 +1,133 @@
+name: Przegląd News — wydanie poranne
+
+# Wydanie powstaje o 8:00 czasu polskiego z newsów z dnia poprzedniego.
+# GitHub liczy cron w UTC i nie zna czasu letniego, więc odpalamy dwa razy
+# (6:00 i 7:00 UTC), a krok kontrolny przepuszcza tylko ten przebieg, który
+# trafia w polską ósmą i nie powiela już zbudowanego wydania.
+on:
+  schedule:
+    - cron: "0 6 * * *"
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+    inputs:
+      data:
+        description: "Data wydania (RRRR-MM-DD), domyślnie dziś"
+        required: false
+      dotyczy:
+        description: "Dzień, z którego brać newsy (RRRR-MM-DD), domyślnie dzień wcześniej"
+        required: false
+
+concurrency:
+  group: przeglad-news
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  zbierz:
+    name: Zbierz newsy
+    runs-on: ubuntu-latest
+    outputs:
+      zbudowano: ${{ steps.kontrola.outputs.uruchom }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Czy to właściwa pora?
+        id: kontrola
+        run: |
+          set -euo pipefail
+          DZIS=$(TZ=Europe/Warsaw date +%F)
+          GODZINA=$(TZ=Europe/Warsaw date +%-H)
+          echo "W Polsce jest $DZIS, godzina $GODZINA."
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "Uruchomienie ręczne — budujemy."
+            echo "uruchom=true" >> "$GITHUB_OUTPUT"
+          elif [ -f "web/data/$DZIS.json" ]; then
+            echo "Wydanie na $DZIS już istnieje — pomijam."
+            echo "uruchom=false" >> "$GITHUB_OUTPUT"
+          elif [ "$GODZINA" -ge 8 ]; then
+            echo "Po ósmej i brak wydania — budujemy."
+            echo "uruchom=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Za wcześnie (to przebieg dla drugiej strefy czasowej) — pomijam."
+            echo "uruchom=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-python@v5
+        if: steps.kontrola.outputs.uruchom == 'true'
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Zainstaluj zależności
+        if: steps.kontrola.outputs.uruchom == 'true'
+        run: pip install -r requirements.txt
+
+      - name: Zbierz wydanie
+        if: steps.kontrola.outputs.uruchom == 'true'
+        env:
+          # Klucz jest opcjonalny. Bez niego przegląd powstaje w trybie
+          # ekstrakcyjnym (cytaty ze źródeł), z nim — pogłębione omówienia po polsku.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python -m collector.build \
+            ${{ inputs.data && format('--date {0}', inputs.data) || '' }} \
+            ${{ inputs.dotyczy && format('--covers {0}', inputs.dotyczy) || '' }} \
+            --out web/data
+
+      - name: Zapisz wydanie w repozytorium
+        if: steps.kontrola.outputs.uruchom == 'true'
+        run: |
+          set -euo pipefail
+          git config user.name "Przegląd News"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add web/data
+          if git diff --cached --quiet; then
+            echo "Brak zmian w danych."
+          else
+            git commit -m "Wydanie z $(TZ=Europe/Warsaw date +%F)"
+            for proba in 1 2 3 4; do
+              if git push; then break; fi
+              echo "Push nieudany, ponawiam za $((2**proba))s"
+              sleep $((2**proba))
+              git pull --rebase
+            done
+          fi
+
+      - name: Podsumowanie
+        if: steps.kontrola.outputs.uruchom == 'true'
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json, pathlib
+          d = json.loads(pathlib.Path("web/data/latest.json").read_text("utf-8"))
+          print(f"## Wydanie {d['wydanie']} (newsy z {d['dotyczy_dnia']})\n")
+          print(f"Tryb: **{d['tryb']}** · kanały: {d['statystyki'].get('kanały_ok', 0)} ok, "
+                f"{d['statystyki'].get('kanały_błędne', 0)} błędne\n")
+          for item in d["pozycje"]:
+              seg = item["dział"]
+              print(f"- {seg['emoji']} **{seg['nazwa']}** — {item['nagłówek']} "
+                    f"_({item['liczba_źródeł']} źr., {item['źródło']['nazwa']})_")
+          if d["braki"]:
+              print(f"\n⚠️ Brak materiału w działach: {', '.join(d['braki'])}")
+          PY
+
+      - name: Przygotuj stronę
+        if: steps.kontrola.outputs.uruchom == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+  publikuj:
+    name: Opublikuj stronę
+    needs: zbierz
+    if: needs.zbierz.outputs.zbudowano == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

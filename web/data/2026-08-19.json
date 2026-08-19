@@ -1,0 +1,781 @@
+{
+ "wersja": "1.0.0",
+ "wydanie": "2026-08-19",
+ "dotyczy_dnia": "2026-08-18",
+ "wygenerowano": "2026-08-19T10:13:26+00:00",
+ "strefa": "Europe/Warsaw",
+ "tryb": "ekstrakcyjny",
+ "demo": true,
+ "pozycje": [
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "RPP obniża stopy procentowe. Główna stopa spada do 4,50 proc.",
+   "lead": "Rada Polityki Pieniężnej obniżyła stopy procentowe o 25 punktów bazowych, to trzecia obniżka w tym roku. Inflacja w lipcu wyniosła 3,4 proc.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-08-18T12:05:00+00:00",
+   "źródło": {
+    "nazwa": "PAP",
+    "url": "https://pap.pl/rpp-stopy",
+    "domena": "pap.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Rada Polityki Pieniężnej obniżyła stopy procentowe o 25 punktów bazowych, to trzecia obniżka w tym roku.",
+      "Inflacja w lipcu wyniosła 3,4 proc."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Główna stopa wynosi teraz 4,50 proc.",
+      "Złoty osłabił się o 0,4 proc. wobec euro."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "25 punktów",
+    "3,4 proc.",
+    "4,50 proc.",
+    "0,4 proc."
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "RMF24",
+     "ujęcie": "RPP zdecydowała o obniżce stóp.",
+     "url": "https://rmf24.pl/fakty/polska/rpp-obnizka"
+    },
+    {
+     "źródło": "Bankier.pl",
+     "ujęcie": "Decyzja Rady Polityki Pieniężnej była zgodna z oczekiwaniami rynku.",
+     "url": "https://bankier.pl/rpp-ciecie"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Polityki Pieniężnej"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "PAP",
+     "tytuł": "RPP obniża stopy procentowe. Główna stopa spada do 4,50 proc.",
+     "url": "https://pap.pl/rpp-stopy"
+    },
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Rada Polityki Pieniężnej obniżyła stopy procentowe o 25 punktów bazowych",
+     "url": "https://rmf24.pl/fakty/polska/rpp-obnizka"
+    },
+    {
+     "nazwa": "Bankier.pl",
+     "tytuł": "Stopy procentowe w dół. RPP tnie o 25 pb, złoty reaguje osłabieniem",
+     "url": "https://bankier.pl/rpp-ciecie"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 9.83,
+    "składowe": {
+     "potwierdzenia": 4.0,
+     "ranga_źródła": 1.688,
+     "eksponowanie": 2.7,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.417,
+     "treściwość": 0.175,
+     "język_działu": 0.5
+    }
+   }
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "EU and India sign long-delayed free trade agreement",
+   "lead": "The deal removes tariffs on most goods and follows nine years of negotiations.",
+   "język_źródła": "en",
+   "opublikowano": "2026-08-18T16:00:00+00:00",
+   "źródło": {
+    "nazwa": "BBC News",
+    "url": "https://bbc.co.uk/news/eu-india-trade",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "The deal removes tariffs on most goods and follows nine years of negotiations."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Tariffs on 92% of goods will be phased out over seven years, officials say."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "92%"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "India"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC News",
+     "tytuł": "EU and India sign long-delayed free trade agreement",
+     "url": "https://bbc.co.uk/news/eu-india-trade"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "EU-India trade deal signed in Brussels after nine years of talks",
+     "url": "https://theguardian.com/world/eu-india-deal"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.594,
+    "składowe": {
+     "potwierdzenia": 2.0,
+     "ranga_źródła": 1.53,
+     "eksponowanie": 1.8,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.466,
+     "treściwość": 0.098,
+     "język_działu": 0.0
+    }
+   }
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Badmintonowe mistrzostwa świata: Polka Katarzyna Wróbel w półfinale",
+   "lead": "Wróbel pokonała rozstawioną z numerem trzy Chinkę 21:18, 19:21, 21:16 po meczu trwającym 74 minuty. To pierwszy polski półfinał w singlu na mistrzostwach świata od 2013 roku.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-08-18T17:40:00+00:00",
+   "źródło": {
+    "nazwa": "Przegląd Sportowy",
+    "url": "https://ps.pl/badminton-polfinal",
+    "domena": "ps.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Wróbel pokonała rozstawioną z numerem trzy Chinkę 21:18, 19:21, 21:16 po meczu trwającym 74 minuty."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "To pierwszy polski półfinał w singlu na mistrzostwach świata od 2013 roku.",
+   "liczby": [
+    "21",
+    "18, 19",
+    "16",
+    "74"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Sportowe Fakty",
+     "ujęcie": "Polska badmintonistka wygrała trzysetowy bój i zapewniła sobie co najmniej brązowy medal.",
+     "url": "https://sportowefakty.pl/wrobel-medal"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Polka Katarzyna Wróbel",
+    "Wróbel",
+    "Chinkę"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Przegląd Sportowy",
+     "tytuł": "Badmintonowe mistrzostwa świata: Polka Katarzyna Wróbel w półfinale",
+     "url": "https://ps.pl/badminton-polfinal"
+    },
+    {
+     "nazwa": "Sportowe Fakty",
+     "tytuł": "Sensacja w Kopenhadze. Katarzyna Wróbel zagra o medal mistrzostw świata w badmintonie",
+     "url": "https://sportowefakty.pl/wrobel-medal"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.767,
+    "składowe": {
+     "potwierdzenia": 2.0,
+     "ranga_źródła": 1.372,
+     "eksponowanie": 1.8,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.478,
+     "treściwość": 0.217,
+     "język_działu": 0.5
+    }
+   }
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Champions League: record 6-0 win sends holders through in style",
+   "lead": "The holders scored four goals in 18 second-half minutes, the fastest such sequence recorded in the competition since 2003.",
+   "język_źródła": "en",
+   "opublikowano": "2026-08-18T21:50:00+00:00",
+   "źródło": {
+    "nazwa": "BBC Sport",
+    "url": "https://bbc.co.uk/sport/cl-record",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "The holders scored four goals in 18 second-half minutes, the fastest such sequence recorded in the competition since 2003."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "A 6-0 aggregate rout equalled the largest winning margin in a knockout round, with the second-half blitz lasting just 18 minutes."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "18"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "League"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Champions League: record 6-0 win sends holders through in style",
+     "url": "https://bbc.co.uk/sport/cl-record"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Champions League holders hit six as records tumble in one-sided tie",
+     "url": "https://theguardian.com/sport/cl-six"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.167,
+    "składowe": {
+     "potwierdzenia": 2.0,
+     "ranga_źródła": 1.48,
+     "eksponowanie": 1.8,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.526,
+     "treściwość": 0.161,
+     "język_działu": 0.5
+    }
+   }
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Logical qubits run chemistry simulation below error threshold",
+   "lead": "A quantum processor with 48 error-corrected logical qubits completed a molecular simulation that classical hardware needs days to approximate, researchers report.",
+   "język_źródła": "en",
+   "opublikowano": "2026-08-18T16:30:00+00:00",
+   "źródło": {
+    "nazwa": "Nature",
+    "url": "https://nature.com/logical-qubits",
+    "domena": "nature.com"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "A quantum processor with 48 error-corrected logical qubits completed a molecular simulation that classical hardware needs days to approximate, researchers report."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "The team ran a chemistry simulation on 48 logical qubits assembled from 1,200 physical ones, with error rates below the threshold for the first time in a practical workload."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "48",
+    "1,200"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Ars Technica",
+     "ujęcie": "The results were published in Nature.",
+     "url": "https://arstechnica.com/quantum-logical"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Nature",
+     "tytuł": "Logical qubits run chemistry simulation below error threshold",
+     "url": "https://nature.com/logical-qubits"
+    },
+    {
+     "nazwa": "Ars Technica",
+     "tytuł": "Researchers demonstrate error-corrected logical qubits running a useful algorithm",
+     "url": "https://arstechnica.com/quantum-logical"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.708,
+    "składowe": {
+     "potwierdzenia": 2.0,
+     "ranga_źródła": 1.488,
+     "eksponowanie": 1.8,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.456,
+     "treściwość": 0.264,
+     "język_działu": 0.0
+    }
+   }
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Muon magnetic moment measured to 127 parts per billion, tension with theory persists",
+   "lead": "Fermilab's Muon g-2 collaboration released its final analysis, based on six years of data and 21 times the statistics of the original Brookhaven experiment.",
+   "język_źródła": "en",
+   "opublikowano": "2026-08-18T15:10:00+00:00",
+   "źródło": {
+    "nazwa": "APS Physics",
+    "url": "https://physics.aps.org/muon-final",
+    "domena": "physics.aps.org"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Fermilab's Muon g-2 collaboration released its final analysis, based on six years of data and 21 times the statistics of the original Brookhaven experiment."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "The final dataset from Fermilab pins the muon magnetic moment to 127 parts per billion, four times more precise than the 2021 measurement.",
+      "The gap with theory now stands at 5.1 sigma."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "21",
+    "127",
+    "5.1"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Fermilab's Muon",
+    "Brookhaven"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "APS Physics",
+     "tytuł": "Muon magnetic moment measured to 127 parts per billion, tension with theory persists",
+     "url": "https://physics.aps.org/muon-final"
+    },
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Muon g-2 final result deepens tension with Standard Model prediction",
+     "url": "https://phys.org/muon-g2-final"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.449,
+    "składowe": {
+     "potwierdzenia": 2.0,
+     "ranga_źródła": 1.48,
+     "eksponowanie": 1.8,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.44,
+     "treściwość": 0.229,
+     "język_działu": 0.5
+    }
+   }
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Teleskop Webba wykrył parę wodną w atmosferze superziemi w ekosferze",
+   "lead": "Planeta krąży wokół czerwonego karła w odległości 41 lat świetlnych. Analiza ośmiu tranzytów pozwoliła odróżnić sygnał pary wodnej od aktywności gwiazdy.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-08-18T17:00:00+00:00",
+   "źródło": {
+    "nazwa": "Urania",
+    "url": "https://urania.edu.pl/webb-superziemia",
+    "domena": "urania.edu.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Planeta krąży wokół czerwonego karła w odległości 41 lat świetlnych.",
+      "To najlepszy jak dotąd kandydat na planetę skalistą z atmosferą bogatą w wodę."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "[en] The James Webb Space Telescope detected a clear water vapour signature on a planet 41 light-years away, orbiting inside its star's habitable zone."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "Analiza ośmiu tranzytów pozwoliła odróżnić sygnał pary wodnej od aktywności gwiazdy.",
+   "liczby": [
+    "41 lat"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "NASA",
+     "ujęcie": "The James Webb Space Telescope detected a clear water vapour signature on a planet 41 light-years away, orbiting inside its star's habitable zone.",
+     "url": "https://nasa.gov/webb-super-earth"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Planeta",
+    "Webba"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Urania",
+     "tytuł": "Teleskop Webba wykrył parę wodną w atmosferze superziemi w ekosferze",
+     "url": "https://urania.edu.pl/webb-superziemia"
+    },
+    {
+     "nazwa": "NASA",
+     "tytuł": "Webb spots water vapour in the atmosphere of a temperate super-Earth",
+     "url": "https://nasa.gov/webb-super-earth"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.926,
+    "składowe": {
+     "potwierdzenia": 2.0,
+     "ranga_źródła": 1.473,
+     "eksponowanie": 1.8,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.463,
+     "treściwość": 0.29,
+     "język_działu": 0.5
+    }
+   }
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Mapping reveals the Congo Basin peatlands store a third more carbon than thought",
+   "lead": "A three-year survey with ground cores and radar mapping puts the peat complex at 167,000 square kilometres holding roughly 39 billion tonnes of carbon. The revision matters for deforestation policy across three countries.",
+   "język_źródła": "en",
+   "opublikowano": "2026-08-18T13:00:00+00:00",
+   "źródło": {
+    "nazwa": "Eos (AGU)",
+    "url": "https://eos.org/congo-peat",
+    "domena": "eos.org"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "A three-year survey with ground cores and radar mapping puts the peat complex at 167,000 square kilometres holding roughly 39 billion tonnes of carbon.",
+      "The revision matters for deforestation policy across three countries."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "167,000",
+    "39 billion"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Congo Basin"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Eos (AGU)",
+     "tytuł": "Mapping reveals the Congo Basin peatlands store a third more carbon than thought",
+     "url": "https://eos.org/congo-peat"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.639,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.413,
+     "treściwość": 0.276,
+     "język_działu": 0.5
+    }
+   }
+  },
+  {
+   "dział": {
+    "id": "literatura",
+    "nazwa": "Literatura",
+    "emoji": "📚",
+    "opis": "książki, nagrody, pisarze, rynek wydawniczy"
+   },
+   "nagłówek": "Znamy finałową szóstkę Nagrody Bookera. Trzy debiuty i powieść wierszem",
+   "lead": "Do finału Nagrody Bookera trafiło sześć powieści wybranych spośród 163 zgłoszeń. Zwycięzca otrzyma 50 tysięcy funtów, a ogłoszenie wyników zaplanowano na 12 listopada.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-08-18T18:30:00+00:00",
+   "źródło": {
+    "nazwa": "Booklips",
+    "url": "https://booklips.pl/booker-finalowa-szostka",
+    "domena": "booklips.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Do finału Nagrody Bookera trafiło sześć powieści wybranych spośród 163 zgłoszeń.",
+      "Zwycięzca otrzyma 50 tysięcy funtów, a ogłoszenie wyników zaplanowano na 12 listopada."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "[en] The six-book shortlist was chosen from 163 submissions.",
+      "[en] The winner receives 50,000 pounds on 12 November."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "163",
+    "50 tysięcy",
+    "12",
+    "50,000"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "The Guardian Books",
+     "ujęcie": "The six-book shortlist was chosen from 163 submissions.",
+     "url": "https://theguardian.com/books/booker-shortlist"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Nagrody Bookera"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Booklips",
+     "tytuł": "Znamy finałową szóstkę Nagrody Bookera. Trzy debiuty i powieść wierszem",
+     "url": "https://booklips.pl/booker-finalowa-szostka"
+    },
+    {
+     "nazwa": "The Guardian Books",
+     "tytuł": "Booker Prize shortlist features three debut novelists and a 400-page verse novel",
+     "url": "https://theguardian.com/books/booker-shortlist"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.832,
+    "składowe": {
+     "potwierdzenia": 2.0,
+     "ranga_źródła": 1.415,
+     "eksponowanie": 1.8,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.481,
+     "treściwość": 0.236,
+     "język_działu": 0.5
+    }
+   }
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Rekord sierpnia w kinach. Animacja zarobiła 187 mln dolarów na otwarciu",
+   "lead": "Rysowana klasycznie animacja zanotowała najlepsze otwarcie sierpnia w historii i najlepszy start filmu animowanego tradycyjnie. Budżet produkcji wyniósł 95 mln dolarów.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-08-18T20:10:00+00:00",
+   "źródło": {
+    "nazwa": "Filmweb",
+    "url": "https://filmweb.pl/rekord-sierpnia",
+    "domena": "filmweb.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Rysowana klasycznie animacja zanotowała najlepsze otwarcie sierpnia w historii i najlepszy start filmu animowanego tradycyjnie.",
+      "Budżet produkcji wyniósł 95 mln dolarów."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "[en] The hand-drawn film opened to 187 million dollars worldwide, the biggest August debut on record and the largest ever for a traditionally animated feature.",
+      "[en] It cost a reported 95 million dollars to make."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "95 mln",
+    "187 million",
+    "95 million"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Variety",
+     "ujęcie": "The hand-drawn film opened to 187 million dollars worldwide, the biggest August debut on record and the largest ever for a traditionally animated feature.",
+     "url": "https://variety.com/august-record"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Rysowana"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Filmweb",
+     "tytuł": "Rekord sierpnia w kinach. Animacja zarobiła 187 mln dolarów na otwarciu",
+     "url": "https://filmweb.pl/rekord-sierpnia"
+    },
+    {
+     "nazwa": "Variety",
+     "tytuł": "Animated feature breaks August box office record with 187 million dollar global opening",
+     "url": "https://variety.com/august-record"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.168,
+    "składowe": {
+     "potwierdzenia": 2.0,
+     "ranga_źródła": 1.415,
+     "eksponowanie": 1.8,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.502,
+     "treściwość": 0.251,
+     "język_działu": 0.5
+    }
+   }
+  }
+ ],
+ "braki": [],
+ "statystyki": {
+  "kanały_ok": 21,
+  "kanały_błędne": 0,
+  "działy": 10,
+  "artykuły_w_oknie": 20
+ }
+}

@@ -1,0 +1,23 @@
+name: Testy
+
+on:
+  push:
+    branches: ["**"]
+    paths-ignore: ["web/data/**", "**.md"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt -r requirements-dev.txt
+      - name: Testy jednostkowe (bez sieci)
+        run: pytest -q
+      - name: Przykładowe wydanie z fixture'ów
+        run: python -m collector.build --fixtures tests/fixtures/manifest.json --date 2026-08-19 --no-llm --stdout > /dev/null

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Przegląd News</title>
+<meta name="description" content="Codzienny, pogłębiony przegląd: po jednej najważniejszej informacji z dziesięciu dziedzin.">
+<meta name="theme-color" content="#11141a">
+<meta name="color-scheme" content="dark light">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#tresc">Przejdź do treści</a>
+
+<header class="topbar">
+  <div class="topbar__inner">
+    <div class="brand">
+      <span class="brand__mark" aria-hidden="true">PN</span>
+      <span class="brand__name">Przegląd&nbsp;News</span>
+    </div>
+    <div class="topbar__actions">
+      <button id="btn-archive" class="iconbtn" type="button" title="Archiwum wydań" aria-label="Archiwum wydań">🗂️</button>
+      <button id="btn-notify" class="iconbtn" type="button" title="Powiadomienia o nowym wydaniu" aria-label="Powiadomienia o nowym wydaniu">🔔</button>
+      <button id="btn-install" class="iconbtn iconbtn--hidden" type="button" title="Zainstaluj aplikację" aria-label="Zainstaluj aplikację">⬇️</button>
+      <button id="btn-theme" class="iconbtn" type="button" title="Zmień motyw" aria-label="Zmień motyw">◐</button>
+    </div>
+  </div>
+  <div id="statusbar" class="statusbar" hidden></div>
+</header>
+
+<main id="tresc">
+  <section class="masthead">
+    <p class="masthead__kicker" id="edition-kicker">Ładowanie wydania…</p>
+    <h1 class="masthead__title">Dziesięć rzeczy,<br>które warto dziś wiedzieć</h1>
+    <p class="masthead__note" id="edition-note"></p>
+  </section>
+
+  <nav class="chips" id="chips" aria-label="Działy"></nav>
+
+  <div id="feed" class="feed" aria-live="polite">
+    <div class="skeleton" aria-hidden="true"></div>
+    <div class="skeleton" aria-hidden="true"></div>
+    <div class="skeleton" aria-hidden="true"></div>
+  </div>
+
+  <p id="empty" class="empty" hidden></p>
+</main>
+
+<footer class="footer">
+  <p>Przegląd News — jedna najważniejsza informacja z każdej dziedziny, codziennie rano.</p>
+  <p class="footer__meta" id="footer-meta"></p>
+</footer>
+
+<dialog id="archive" class="sheet">
+  <div class="sheet__head">
+    <h2>Archiwum wydań</h2>
+    <button id="archive-close" class="iconbtn" type="button" aria-label="Zamknij">✕</button>
+  </div>
+  <ul id="archive-list" class="archive"></ul>
+</dialog>
+
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+<script src="app.js"></script>
+</body>
+</html>

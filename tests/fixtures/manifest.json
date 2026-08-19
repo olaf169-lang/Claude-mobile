@@ -1,0 +1,107 @@
+{
+  "https://www.rmf24.pl/fakty/polska/feed": {
+    "plik": "pl_rmf.xml",
+    "źródło": "RMF24",
+    "język": "pl"
+  },
+  "https://www.pap.pl/rss.xml": {
+    "plik": "pl_pap.xml",
+    "źródło": "PAP",
+    "język": "pl"
+  },
+  "https://www.bankier.pl/rss/wiadomosci.xml": {
+    "plik": "pl_bankier.xml",
+    "źródło": "Bankier.pl",
+    "język": "pl"
+  },
+  "https://wiadomosci.onet.pl/.feed": {
+    "plik": "pl_decoys.xml",
+    "źródło": "Onet Wiadomości",
+    "język": "pl"
+  },
+  "https://feeds.bbci.co.uk/news/world/rss.xml": {
+    "plik": "en_bbc_world.xml",
+    "źródło": "BBC News",
+    "język": "en"
+  },
+  "https://www.theguardian.com/world/rss": {
+    "plik": "en_guardian_world.xml",
+    "źródło": "The Guardian",
+    "język": "en"
+  },
+  "https://www.przegladsportowy.onet.pl/.feed": {
+    "plik": "pl_sport.xml",
+    "źródło": "Przegląd Sportowy",
+    "język": "pl"
+  },
+  "https://sportowefakty.wp.pl/rss.xml": {
+    "plik": "pl_sportowefakty.xml",
+    "źródło": "Sportowe Fakty",
+    "język": "pl"
+  },
+  "https://feeds.bbci.co.uk/sport/rss.xml": {
+    "plik": "en_bbc_sport.xml",
+    "źródło": "BBC Sport",
+    "język": "en"
+  },
+  "https://www.theguardian.com/sport/rss": {
+    "plik": "en_guardian_sport.xml",
+    "źródło": "The Guardian Sport",
+    "język": "en"
+  },
+  "https://feeds.arstechnica.com/arstechnica/index": {
+    "plik": "en_ars.xml",
+    "źródło": "Ars Technica",
+    "język": "en"
+  },
+  "https://www.nature.com/nature.rss": {
+    "plik": "en_nature.xml",
+    "źródło": "Nature",
+    "język": "en"
+  },
+  "https://phys.org/rss-feed/physics-news/": {
+    "plik": "en_phys_physics.xml",
+    "źródło": "Phys.org",
+    "język": "en"
+  },
+  "https://physics.aps.org/feed": {
+    "plik": "en_aps.xml",
+    "źródło": "APS Physics",
+    "język": "en"
+  },
+  "https://www.nasa.gov/feed/": {
+    "plik": "en_nasa.xml",
+    "źródło": "NASA",
+    "język": "en"
+  },
+  "https://www.urania.edu.pl/rss.xml": {
+    "plik": "pl_urania.xml",
+    "źródło": "Urania",
+    "język": "pl"
+  },
+  "https://eos.org/feed": {
+    "plik": "en_eos.xml",
+    "źródło": "Eos (AGU)",
+    "język": "en"
+  },
+  "https://www.theguardian.com/books/rss": {
+    "plik": "en_guardian_books.xml",
+    "źródło": "The Guardian Books",
+    "język": "en"
+  },
+  "https://booklips.pl/feed/": {
+    "plik": "pl_booklips.xml",
+    "źródło": "Booklips",
+    "język": "pl"
+  },
+  "https://variety.com/feed/": {
+    "plik": "en_variety.xml",
+    "źródło": "Variety",
+    "język": "en"
+  },
+  "https://www.filmweb.pl/rss/news": {
+    "plik": "pl_filmweb.xml",
+    "źródło": "Filmweb",
+    "język": "pl"
+  }
+}

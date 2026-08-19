@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Przegląd News</string>
+    <string name="kanal_wydania">Nowe wydania</string>
+    <string name="kanal_wydania_opis">Sygnał, gdy rano pojawi się nowy przegląd.</string>
+    <string name="powiadomienie_tytul">Przegląd News — nowe wydanie</string>
+    <string name="brak_sieci">Brak połączenia. Pokazuję ostatnio pobrane wydanie, gdy tylko będzie dostępne.</string>
+    <string name="ponow">Ponów</string>
+</resources>
