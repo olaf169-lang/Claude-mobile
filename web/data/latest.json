@@ -2,7 +2,7 @@
  "wersja": "1.0.0",
  "wydanie": "2026-08-19",
  "dotyczy_dnia": "2026-08-18",
- "wygenerowano": "2026-08-19T11:13:49+00:00",
+ "wygenerowano": "2026-08-19T11:18:58+00:00",
  "strefa": "Europe/Warsaw",
  "tryb": "ekstrakcyjny",
  "demo": false,
@@ -570,11 +570,11 @@
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 8.438,
+    "wynik": 8.348,
     "składowe": {
      "potwierdzenia": 4.0,
      "ranga_źródła": 1.335,
-     "eksponowanie": 1.26,
+     "eksponowanie": 1.17,
      "słowa_kluczowe": 0.35,
      "świeżość": 0.493,
      "treściwość": 0.5,
@@ -666,69 +666,93 @@
     "emoji": "🔭",
     "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
    },
-   "nagłówek": "II Ogólnopolska Konferencja Medycyny Kosmicznej",
-   "lead": "II Ogólnopolska Konferencja Medycyny Kosmicznej już 5-6 listopada w Gdańsku.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-08-19T03:50:00+00:00",
+   "nagłówek": "Nuking an asteroid on short notice could save us",
+   "lead": "Readers of a certain age will remember a golden era of asteroid films, capped by two with very different endings. \"Deep Impact\" drove home the devastating consequences of letting a large piece of rock hit our planet, whereas \"Armageddon,\" though arguably the kitschier of the two films, was an uplifting story about…",
+   "język_źródła": "en",
+   "opublikowano": "2026-08-18T12:00:09+00:00",
    "źródło": {
-    "nazwa": "Kosmonauta.net",
-    "url": "https://kosmonauta.net/2026/08/ii-ogolnopolska-konferencja-medycyny-kosmicznej/",
-    "domena": "kosmonauta.net"
+    "nazwa": "Phys.org Astronomy",
+    "url": "https://phys.org/news/2026-08-nuking-asteroid-short.html",
+    "domena": "phys.org"
    },
-   "obraz": null,
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/nuking-an-asteroid-on.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "II Ogólnopolska Konferencja Medycyny Kosmicznej już 5-6 listopada w Gdańsku."
+      "Readers of a certain age will remember a golden era of asteroid films, capped by two with very different endings.",
+      "Now, the central premise of that movie's storyline—essentially blasting an asteroid with a nuclear detonation—is taking center stage as our last line of defense against a potential \"Deep Impact\" scenario.",
+      "A new paper from researchers at the China Academy of Launch Vehicle Technology, published in Space: Science & Technology , describes two potential scenarios examining how we might actually be able to nuke a space rock—and whether it would save us.",
+      "As of July 2024, 10,933 of the 35,269 near-Earth asteroids (NEAs) discovered have diameters larger than 140 m (460 feet).",
+      "Anyone familiar with the details of 1990s asteroid movies knows that the main characters in \"Armageddon\" weren't astronauts—they were oil prospectors."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Promieniowanie jonizujące – wszystkie rodzaje promieniowania, które wywołują jonizację ośrodka materialnego, tj. oderwanie przynajmniej jednego elektronu od atomu lub cząsteczki albo wybicie go ze struktury krystalicznej. Za promieniowanie elektromagnetyczne jonizujące uznaje się promieniowanie, którego fotony mają energię większą od energii fotonów światła widzialnego."
+      "Armageddon – amerykański film katastroficzny w reżyserii Michaela Baya z Bruce'em Willisem i Benem Affleckiem w rolach głównych, nakręcony w 1998 roku."
      ],
-     "przypis": "Wikipedia: Promieniowanie jonizujące",
-     "url": "https://pl.wikipedia.org/wiki/Promieniowanie_jonizuj%C4%85ce"
+     "przypis": "Wikipedia: Armageddon (film)",
+     "url": "https://pl.wikipedia.org/wiki/Armageddon_(film)"
     }
    ],
-   "dlaczego_to_ważne": "",
-   "liczby": [],
-   "inne_spojrzenia": [],
+   "dlaczego_to_ważne": "\"Deep Impact\" drove home the devastating consequences of letting a large piece of rock hit our planet, whereas \"Armageddon,\" though arguably the kitschier of the two films, was an uplifting story about technical ingenuity and sacrifice.",
+   "liczby": [
+    "2024, 10,933",
+    "35,269",
+    "140",
+    "460",
+    "100,000",
+    "0.6"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Universe Today",
+     "ujęcie": "Deep Impact engrained the devastating consequences of letting a large piece of rock hit our planet, whereas Armageddon, though arguably the more kitschy of the two films, was an uplifting story about technical ingenuity and sacrifice.",
+     "url": "https://www.universetoday.com/articles/nuking-an-asteroid-on-short-notice-could-save-us"
+    }
+   ],
    "pojęcia": [],
    "tło": {
-    "hasło": "Promieniowanie jonizujące",
+    "hasło": "Armageddon (film)",
     "opis": "",
-    "tekst": "Promieniowanie jonizujące – wszystkie rodzaje promieniowania, które wywołują jonizację ośrodka materialnego, tj. oderwanie przynajmniej jednego elektronu od atomu lub cząsteczki albo wybicie go ze struktury krystalicznej. Za promieniowanie elektromagnetyczne jonizujące uznaje się promieniowanie, którego fotony mają energię większą od energii fotonów światła widzialnego.",
-    "url": "https://pl.wikipedia.org/wiki/Promieniowanie_jonizuj%C4%85ce",
+    "tekst": "Armageddon – amerykański film katastroficzny w reżyserii Michaela Baya z Bruce'em Willisem i Benem Affleckiem w rolach głównych, nakręcony w 1998 roku.",
+    "url": "https://pl.wikipedia.org/wiki/Armageddon_(film)",
     "język": "pl"
    },
    "tagi": [
-    "Ogólnopolska Konferencja Medycyny Kosmicznej",
-    "Gdańsku"
+    "Armageddon",
+    "Technology",
+    "Earth",
+    "NEAs"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Kosmonauta.net",
-     "tytuł": "II Ogólnopolska Konferencja Medycyny Kosmicznej",
-     "url": "https://kosmonauta.net/2026/08/ii-ogolnopolska-konferencja-medycyny-kosmicznej/"
+     "nazwa": "Phys.org Astronomy",
+     "tytuł": "Nuking an asteroid on short notice could save us",
+     "url": "https://phys.org/news/2026-08-nuking-asteroid-short.html"
+    },
+    {
+     "nazwa": "Universe Today",
+     "tytuł": "Nuking An Asteroid on Short Notice Could Save Us",
+     "url": "https://www.universetoday.com/articles/nuking-an-asteroid-on-short-notice-could-save-us"
     }
    ],
-   "liczba_źródeł": 1,
+   "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.093,
+    "wynik": 5.93,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.0,
-     "eksponowanie": 0.9,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.598,
-     "treściwość": 0.095,
-     "język_działu": 0.5
+     "potwierdzenia": 2.0,
+     "ranga_źródła": 1.35,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.4,
+     "treściwość": 0.5,
+     "język_działu": 0.0
     }
    }
   },
@@ -739,71 +763,93 @@
     "emoji": "🗺️",
     "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
    },
-   "nagłówek": "RaportyGML: rozbudowana przeglądarka plików GML",
-   "lead": "RaportyGML to nowa aplikacja desktopowa, która łączy wizualizację danych GML EGiB, RCN, planowanie przestrzenne z generowaniem gotowych zestawień, wykazów, wypisów, zawiadomień i protokołów. Codzienna praca z danymi w formacie GML wymaga zarówno ich podglądu, jak i przygotowania dokumentów.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-08-18T00:00:00+00:00",
+   "nagłówek": "Plants could transform how scientists measure the climate benefits of tidal marshes",
+   "lead": "Growing up in New Jersey, Emily Wilson regularly passed tidal marshes without giving them much thought. They were part of the coastal landscape—stretches of green and blue she saw from the road.",
+   "język_źródła": "en",
+   "opublikowano": "2026-08-18T20:50:02+00:00",
    "źródło": {
-    "nazwa": "Geoforum",
-    "url": "https://geoforum.pl/news/37239/raportygml-rozbudowana-przegladarka-plikow-gml",
-    "domena": "geoforum.pl"
+    "nazwa": "Phys.org Earth",
+    "url": "https://phys.org/news/2026-08-scientists-climate-benefits-tidal-marshes.html",
+    "domena": "phys.org"
    },
-   "obraz": null,
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/plants-could-transform.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "RaportyGML to nowa aplikacja desktopowa, która łączy wizualizację danych GML EGiB, RCN, planowanie przestrzenne z generowaniem gotowych zestawień, wykazów, wypisów, zawiadomień i protokołów.",
-      "Codzienna praca z danymi w formacie GML wymaga zarówno ich podglądu, jak i przygotowania dokumentów.",
-      "RaportyGML podkreśla twórca rozwiązania importuje pliki GML, prezentuje dane na interaktywnej mapie oraz w tabelach, a następnie pozwala jednym kliknięciem wygenerować gotowy dokument..."
+      "Growing up in New Jersey, Emily Wilson regularly passed tidal marshes without giving them much thought.",
+      "They were part of the coastal landscape—stretches of green and blue she saw from the road.",
+      "Today, as a Boston University doctoral candidate in Earth & Environment, Wilson studies those same ecosystems—and has discovered that the plants she once drove past may hold important information for more accurately tracking the global climate.",
+      "Tidal marshes are important natural climate solutions because they remove carbon dioxide from the atmosphere and store large amounts of carbon in their soils.",
+      "A new study led by Wilson and published in the Proceedings of the National Academy of Sciences finds that plant species are a far better predictor of methane emissions from tidal marshes than salinity, which scientists have relied on for decades."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "GEO-MAP – program do tworzenia zbiorów informacji o terenie, ich aktualizacji, analizy, udostępniania oraz wykonywania różnorodnych prac geodezyjnych i projektowych. GEO-MAP pozwala na prowadzenie wielkoskalowej mapy numerycznej. Oprogramowanie powstało w roku 1992, działa w środowisku Microsoft Windows i ma własny format pliku danych przestrzennych – MAP. GEO-MAP ma budowę modułową, pozwalającą na rozbudowanie go o dodatkowe funkcje potrzebne użytkownikowi."
+      "National Academy of Sciences (NAS) (Narodowa Akademia Nauk) – jest korporacją w Stanach Zjednoczonych, której członkowie pro publico bono służą jako doradcy w zakresie nauki, inżynierii oraz medycyny. Jej członkowie są co rok wybierani przez bieżących członków, biorąc pod uwagę ich dorobek naukowy i osiągnięcia badawcze."
      ],
-     "przypis": "Wikipedia: Geo-Map",
-     "url": "https://pl.wikipedia.org/wiki/Geo-Map"
+     "przypis": "Wikipedia: National Academy of Sciences",
+     "url": "https://pl.wikipedia.org/wiki/National_Academy_of_Sciences"
     }
    ],
-   "dlaczego_to_ważne": "",
-   "liczby": [],
-   "inne_spojrzenia": [],
+   "dlaczego_to_ważne": "\"Because plant species are easier to identify than directly measuring methane fluxes and are often already mapped, this approach provides researchers and managers with a practical means of estimating methane emissions across tidal marshes.\" The discovery builds on more than a decade of research in the lab of Robinson \"Wally\" Fulweiler, a BU professor of Earth & Environment and Biology.",
+   "liczby": [
+    "2,000",
+    "87",
+    "62%",
+    "71%",
+    "100,000",
+    "1%"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "ScienceDaily Earth",
+     "ujęcie": "Scientists have identified a previously unknown natural process in the Arctic that can cause the number of cloud-forming particles in the atmosphere to surge.",
+     "url": "https://www.sciencedaily.com/releases/2026/08/260816044839.htm"
+    }
+   ],
    "pojęcia": [],
    "tło": {
-    "hasło": "Geo-Map",
+    "hasło": "National Academy of Sciences",
     "opis": "",
-    "tekst": "GEO-MAP – program do tworzenia zbiorów informacji o terenie, ich aktualizacji, analizy, udostępniania oraz wykonywania różnorodnych prac geodezyjnych i projektowych. GEO-MAP pozwala na prowadzenie wielkoskalowej mapy numerycznej. Oprogramowanie powstało w roku 1992, działa w środowisku Microsoft Windows i ma własny format pliku danych przestrzennych – MAP. GEO-MAP ma budowę modułową, pozwalającą na rozbudowanie go o dodatkowe funkcje potrzebne użytkownikowi.",
-    "url": "https://pl.wikipedia.org/wiki/Geo-Map",
+    "tekst": "National Academy of Sciences (NAS) (Narodowa Akademia Nauk) – jest korporacją w Stanach Zjednoczonych, której członkowie pro publico bono służą jako doradcy w zakresie nauki, inżynierii oraz medycyny. Jej członkowie są co rok wybierani przez bieżących członków, biorąc pod uwagę ich dorobek naukowy i osiągnięcia badawcze.",
+    "url": "https://pl.wikipedia.org/wiki/National_Academy_of_Sciences",
     "język": "pl"
    },
    "tagi": [
-    "RaportyGML",
-    "EGiB"
+    "Wilson",
+    "National Academy",
+    "Proceedings",
+    "Sciences"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Geoforum",
-     "tytuł": "RaportyGML: rozbudowana przeglądarka plików GML",
-     "url": "https://geoforum.pl/news/37239/raportygml-rozbudowana-przegladarka-plikow-gml"
+     "nazwa": "Phys.org Earth",
+     "tytuł": "Plants could transform how scientists measure the climate benefits of tidal marshes",
+     "url": "https://phys.org/news/2026-08-scientists-climate-benefits-tidal-marshes.html"
+    },
+    {
+     "nazwa": "ScienceDaily Earth",
+     "tytuł": "Scientists discover a natural Arctic cloud factory missing from climate models",
+     "url": "https://www.sciencedaily.com/releases/2026/08/260816044839.htm"
     }
    ],
-   "liczba_źródeł": 1,
+   "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.23,
+    "wynik": 6.35,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.0,
-     "eksponowanie": 0.63,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.25,
+     "potwierdzenia": 2.0,
+     "ranga_źródła": 1.3,
+     "eksponowanie": 0.99,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.51,
      "treściwość": 0.5,
-     "język_działu": 0.5
+     "język_działu": 0.0
     }
    }
   },
@@ -988,10 +1034,19 @@
  ],
  "braki": [],
  "statystyki": {
-  "kanały_ok": 80,
-  "kanały_błędne": 0,
-  "niedziałające_kanały": [],
+  "kanały_ok": 78,
+  "kanały_błędne": 2,
+  "niedziałające_kanały": [
+   {
+    "url": "https://geoforum.pl/rss",
+    "powód": "HTTP 403"
+   },
+   {
+    "url": "https://kosmonauta.net/feed/",
+    "powód": "brak wpisów / nieznany format"
+   }
+  ],
   "działy": 10,
-  "artykuły_w_oknie": 31
+  "artykuły_w_oknie": 33
  }
 }
