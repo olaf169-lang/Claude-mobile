@@ -2,10 +2,10 @@
  "wersja": "1.0.0",
  "wydanie": "2026-08-19",
  "dotyczy_dnia": "2026-08-18",
- "wygenerowano": "2026-08-19T10:13:26+00:00",
+ "wygenerowano": "2026-08-19T10:40:41+00:00",
  "strefa": "Europe/Warsaw",
  "tryb": "ekstrakcyjny",
- "demo": true,
+ "demo": false,
  "pozycje": [
   {
    "dział": {
@@ -14,87 +14,125 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "RPP obniża stopy procentowe. Główna stopa spada do 4,50 proc.",
-   "lead": "Rada Polityki Pieniężnej obniżyła stopy procentowe o 25 punktów bazowych, to trzecia obniżka w tym roku. Inflacja w lipcu wyniosła 3,4 proc.",
+   "nagłówek": "Czy ktoś poluzował śruby w kołach auta? Prokuratura bada sprawę prezydent Gdyni",
+   "lead": "Aspirant Marek Kobiałko z Komendy Miejskiej Policji w Gdyni potwierdził, że w poniedziałek funkcjonariusze przyjęli oficjalne zawiadomienie dotyczące narażenia człowieka na bezpośrednie niebezpieczeństwo utraty życia albo ciężkiego uszczerbku na zdrowiu. O zdarzeniu prezydent Gdyni Aleksandra Kosiorek poinformowała w…",
    "język_źródła": "pl",
-   "opublikowano": "2026-08-18T12:05:00+00:00",
+   "opublikowano": "2026-08-18T15:48:00+00:00",
    "źródło": {
-    "nazwa": "PAP",
-    "url": "https://pap.pl/rpp-stopy",
-    "domena": "pap.pl"
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/regiony/trojmiasto/news-czy-ktos-poluzowal-sruby-w-kolach-auta-prokuratura-bada-spra,nIdn,1014180",
+    "domena": "rmf24.pl"
    },
-   "obraz": null,
+   "obraz": "https://rmf.rmffm.pl/news/attachments/3c/2a/aleksandra-kosiorek-prezydent-gdyni-fot-636x421-3c2ab083.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Rada Polityki Pieniężnej obniżyła stopy procentowe o 25 punktów bazowych, to trzecia obniżka w tym roku.",
-      "Inflacja w lipcu wyniosła 3,4 proc."
+      "Aspirant Marek Kobiałko z Komendy Miejskiej Policji w Gdyni potwierdził, że w poniedziałek funkcjonariusze przyjęli oficjalne zawiadomienie dotyczące narażenia człowieka na bezpośrednie niebezpieczeństwo utraty życia albo ciężkiego uszczerbku na zdrowiu.",
+      "O zdarzeniu prezydent Gdyni Aleksandra Kosiorek poinformowała w rozmowie z Radiem Gdańsk.",
+      "Jak wyjaśniła, w jej prywatnym samochodzie poluzowane zostały śruby w dwóch tylnych kołach.",
+      "Podczas weekendowej podróży auto zgubiło koło na drodze , po wcześniejszej jeździe autostradą.",
+      "W pojeździe znajdował się mąż prezydent oraz trójka ich dzieci."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Główna stopa wynosi teraz 4,50 proc.",
-      "Złoty osłabił się o 0,4 proc. wobec euro."
+      "W lipcu prezydent Karol Nawrocki skierował do Trybunału Konstytucyjnego ustawę o podatku od nadzwyczajnych zysków osiągniętych w okresie od marca do grudnia 2026 r.",
+      "Bliscy pokonali autostradą 120 kilometrów, ale koło odpadło, gdy samochód nie poruszał się zbyt szybko ."
      ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Gdynia – miasto na prawach powiatu w północnej Polsce, w województwie pomorskim, położone nad Morzem Bałtyckim, na Pobrzeżu Gdańskim i Pojezierzu Wschodniopomorskim. Wchodzi w skład Trójmiasta, jest zatem jednym z miast centralnych aglomeracji Trójmiasta. Według stanu na 31 grudnia 2025 roku Gdynia liczy 238 712 mieszkańców. Po nowym podziale działek terenu morskiego zwiększono jej powierzchnię do 391,51 km², z czego 66 proc. obejmuje obszar morski. Jest najludniejszym w Polsce miastem niewojewódzkim."
+     ],
+     "przypis": "Wikipedia: Gdynia",
+     "url": "https://pl.wikipedia.org/wiki/Gdynia"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "25 punktów",
-    "3,4 proc.",
-    "4,50 proc.",
-    "0,4 proc."
+    "120",
+    "20 proc.",
+    "30",
+    "4 mld zł",
+    "60 proc.",
+    "13 lat"
    ],
    "inne_spojrzenia": [
     {
-     "źródło": "RMF24",
-     "ujęcie": "RPP zdecydowała o obniżce stóp.",
-     "url": "https://rmf24.pl/fakty/polska/rpp-obnizka"
+     "źródło": "Polsat News",
+     "ujęcie": "- W dwóch tylnych kołach mojego samochodu zostały poluzowane śruby - mówiła w rozmowie z Radiem Gdańsk prezydent Gdyni Aleksandra Kosiorek.",
+     "url": "https://www.polsatnews.pl/wiadomosc/2026-08-18/odpadlo-kolo-w-samochodzie-prezydent-gdyni-poluzowano-sruby/"
     },
     {
-     "źródło": "Bankier.pl",
-     "ujęcie": "Decyzja Rady Polityki Pieniężnej była zgodna z oczekiwaniami rynku.",
-     "url": "https://bankier.pl/rpp-ciecie"
+     "źródło": "Money.pl",
+     "ujęcie": "Prezydent Karol Nawrocki uważa, że skutkiem wprowadzenia podatku od nadzwyczajnych zysków, planowanego przez rząd Donalda Tuska, będzie fala podwyżek.",
+     "url": "https://www.money.pl/podatki/prezydent-zablokowal-podatek-alarmuje-ws-kosztow-ma-racje-7319868812982400a.html"
+    },
+    {
+     "źródło": "Interia Fakty",
+     "ujęcie": "Prezydent Gdyni Aleksandra Kosiorek poinformowała, że w dwóch tylnych kołach jej samochodu zostały poluzowane śruby.",
+     "url": "https://wydarzenia.interia.pl/pomorskie/news-prezydent-gdyni-alarmuje-policje-ktos-mogl-poluzowac-sruby-w,nId,23530728"
     }
    ],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Gdynia",
+    "opis": "miasto w województwie pomorskim, na prawach powiatu",
+    "tekst": "Gdynia – miasto na prawach powiatu w północnej Polsce, w województwie pomorskim, położone nad Morzem Bałtyckim, na Pobrzeżu Gdańskim i Pojezierzu Wschodniopomorskim. Wchodzi w skład Trójmiasta, jest zatem jednym z miast centralnych aglomeracji Trójmiasta. Według stanu na 31 grudnia 2025 roku Gdynia liczy 238 712 mieszkańców. Po nowym podziale działek terenu morskiego zwiększono jej powierzchnię do 391,51 km², z czego 66 proc. obejmuje obszar morski. Jest najludniejszym w Polsce miastem niewojewódzkim.",
+    "url": "https://pl.wikipedia.org/wiki/Gdynia",
+    "język": "pl"
+   },
    "tagi": [
-    "Polityki Pieniężnej"
+    "Gdyni",
+    "Gdyni Aspirant Marek Kobiałko",
+    "Komendy Miejskiej Policji",
+    "Gdyni Aleksandra Kosiorek"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "PAP",
-     "tytuł": "RPP obniża stopy procentowe. Główna stopa spada do 4,50 proc.",
-     "url": "https://pap.pl/rpp-stopy"
-    },
-    {
      "nazwa": "RMF24",
-     "tytuł": "Rada Polityki Pieniężnej obniżyła stopy procentowe o 25 punktów bazowych",
-     "url": "https://rmf24.pl/fakty/polska/rpp-obnizka"
+     "tytuł": "Czy ktoś poluzował śruby w kołach auta? Prokuratura bada sprawę prezydent Gdyni",
+     "url": "https://www.rmf24.pl/regiony/trojmiasto/news-czy-ktos-poluzowal-sruby-w-kolach-auta-prokuratura-bada-spra,nIdn,1014180"
     },
     {
-     "nazwa": "Bankier.pl",
-     "tytuł": "Stopy procentowe w dół. RPP tnie o 25 pb, złoty reaguje osłabieniem",
-     "url": "https://bankier.pl/rpp-ciecie"
+     "nazwa": "Polsat News",
+     "tytuł": "Poluzowane śruby w aucie prezydent Gdyni. Wcześniej dostawała pogróżki",
+     "url": "https://www.polsatnews.pl/wiadomosc/2026-08-18/odpadlo-kolo-w-samochodzie-prezydent-gdyni-poluzowano-sruby/"
+    },
+    {
+     "nazwa": "Money.pl",
+     "tytuł": "Prezydent zablokował podatek. Alarmuje ws. kosztów. Ekspert odpowiada",
+     "url": "https://www.money.pl/podatki/prezydent-zablokowal-podatek-alarmuje-ws-kosztow-ma-racje-7319868812982400a.html"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Prezydent Gdyni alarmuje policję. Ktoś mógł poluzować śruby w jej aucie",
+     "url": "https://wydarzenia.interia.pl/pomorskie/news-prezydent-gdyni-alarmuje-policje-ktos-mogl-poluzowac-sruby-w,nId,23530728"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Prezydentka Gdyni: W moim samochodzie ktoś poluzował śruby w kołach. Jedno odpadło podczas jazdy",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,32975043,prezydentka-gdyni-w-moim-samochodzie-ktos-poluzowal-sruby-w.html"
     }
    ],
-   "liczba_źródeł": 3,
+   "liczba_źródeł": 5,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 9.83,
+    "wynik": 11.862,
     "składowe": {
-     "potwierdzenia": 4.0,
-     "ranga_źródła": 1.688,
-     "eksponowanie": 2.7,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.417,
-     "treściwość": 0.175,
+     "potwierdzenia": 8.0,
+     "ranga_źródła": 1.757,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.484,
+     "treściwość": 0.421,
      "język_działu": 0.5
     }
    }
@@ -106,67 +144,148 @@
     "emoji": "🌍",
     "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
    },
-   "nagłówek": "EU and India sign long-delayed free trade agreement",
-   "lead": "The deal removes tariffs on most goods and follows nine years of negotiations.",
-   "język_źródła": "en",
-   "opublikowano": "2026-08-18T16:00:00+00:00",
+   "nagłówek": "Trump ogłasza „nowe terytorium” USA. Opublikował kontrowersyjną grafikę",
+   "lead": "„Gdy już skończymy pokonywać Iran, który pokonujemy bardzo mocno... Wkrótce ogłoszę cieśninę Ormuz terytorium Stanów Zjednoczonych” - oświadczył Trump w piątek.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-08-18T16:49:00+00:00",
    "źródło": {
-    "nazwa": "BBC News",
-    "url": "https://bbc.co.uk/news/eu-india-trade",
-    "domena": "bbc.co.uk"
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-trump-oglasza-nowe-terytorium-usa-opublikowal-kontrowersyjna,nIdn,1014186",
+    "domena": "rmf24.pl"
    },
-   "obraz": null,
+   "obraz": "https://rmf.rmffm.pl/news/attachments/6d/93/donald-trump-zdj-636x421-6d93f6f9.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "The deal removes tariffs on most goods and follows nine years of negotiations."
+      "„Gdy już skończymy pokonywać Iran, który pokonujemy bardzo mocno...",
+      "Wkrótce ogłoszę cieśninę Ormuz terytorium Stanów Zjednoczonych” - oświadczył Trump w piątek.",
+      "W poniedziałek Trump powtórzył, że to „świetny pomysł”.",
+      "Cóż, po prostu uważam, że to świetny pomysł. (...) Kontrolujemy ją (cieśninę) dzięki blokadzie.",
+      "Mamy całkowitą kontrolę nad cieśniną - powiedział Trump mediom w Gabinecie Owalnym."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Tariffs on 92% of goods will be phased out over seven years, officials say."
+      "Działalność Donalda Trumpa w Białym Domu pozytywnie ocenia 33 proc. respondentów , podczas gdy 64 proc. uczestników badania wyraziło dezaprobatę dla jego działań.",
+      "Według agencji Reutera poparcie dla prezydenta USA spadło z poziomu 35 proc. na początku tego miesiąca i jest najniższe od czasu jego powrotu do Białego Domu .",
+      "[en] South Korea’s joint chiefs of staff said the Ulchi Freedom Shield exercise would end on 21 August at the request of the US Analysis: In cutting joint drills, Trump has given South Korea’s president what he wants.",
+      "[en] US president delays 50% tariffs by three days, and says contentious oil project ‘may be awoken from the grave’ Canada has temporarily avoided a bruising 50% US tariff, reaching a Tuesday-evening agreement with Trump administration officials hours before a hike that would have affected $20bn worth of goods was set to take effect."
      ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Ormuz – cieśnina Morza Arabskiego, pomiędzy Zatoką Perską od zachodu a Zatoką Omańską od wschodu. Północne wybrzeże należy do Iranu, południowe zaś do Zjednoczonych Emiratów Arabskich i Muhafazatu Masandam, eksklawy Omanu."
+     ],
+     "przypis": "Wikipedia: Ormuz (cieśnina)",
+     "url": "https://pl.wikipedia.org/wiki/Ormuz_(cie%C5%9Bnina)"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "92%"
+    "51",
+    "33 proc.",
+    "64 proc.",
+    "35 proc.",
+    "80 proc.",
+    "87 proc."
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Polsat News Świat",
+     "ujęcie": "Donald Trump ogłosił we wtorek, że cieśnina Ormuz stała się nowym terytorium Stanów Zjednoczonych. - Cóż, po prostu uważam, że to świetny pomysł. (...) Mamy nad nią całkowitą kontrolę – przekonywał w poniedziałek.",
+     "url": "https://www.polsatnews.pl/wiadomosc/2026-08-18/swietny-pomysl-donalda-trumpa-usa-oglosily-nowe-terytorium/"
+    },
+    {
+     "źródło": "The Guardian",
+     "ujęcie": "South Korea’s joint chiefs of staff said the Ulchi Freedom Shield exercise would end on 21 August at the request of the US Analysis: In cutting joint drills, Trump has given South Korea’s president what he wants.",
+     "url": "https://www.theguardian.com/world/2026/aug/19/us-south-korea-army-drills-cut-trump-push-kim-jong-un-talks"
+    },
+    {
+     "źródło": "Politico Europe",
+     "ujęcie": "The president announced late Tuesday night that the two governments had reached an initial agreement to avert the 50 percent duty.",
+     "url": "https://www.politico.com/news/2026/08/18/trump-hits-pause-on-new-canada-tariffs-01041402"
+    }
+   ],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Ormuz (cieśnina)",
+    "opis": "cieśnina Morza Arabskiego",
+    "tekst": "Ormuz – cieśnina Morza Arabskiego, pomiędzy Zatoką Perską od zachodu a Zatoką Omańską od wschodu. Północne wybrzeże należy do Iranu, południowe zaś do Zjednoczonych Emiratów Arabskich i Muhafazatu Masandam, eksklawy Omanu.",
+    "url": "https://pl.wikipedia.org/wiki/Ormuz_(cie%C5%9Bnina)",
+    "język": "pl"
+   },
    "tagi": [
-    "India"
+    "Ormuz",
+    "USA",
+    "Trump",
+    "Omanu"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "BBC News",
-     "tytuł": "EU and India sign long-delayed free trade agreement",
-     "url": "https://bbc.co.uk/news/eu-india-trade"
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Trump ogłasza „nowe terytorium” USA. Opublikował kontrowersyjną grafikę",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-trump-oglasza-nowe-terytorium-usa-opublikowal-kontrowersyjna,nIdn,1014186"
+    },
+    {
+     "nazwa": "Polsat News Świat",
+     "tytuł": "Poparcie dla Donalda Trumpa topnieje. Padł niechlubny rekord",
+     "url": "https://www.polsatnews.pl/wiadomosc/2026-08-18/poparcie-dla-donalda-trumpa-topnieje-padl-niechlubny-rekord/"
+    },
+    {
+     "nazwa": "Polsat News Świat",
+     "tytuł": "\"Świetny pomysł\" Donalda Trumpa. USA ogłosiły \"nowe terytorium\"",
+     "url": "https://www.polsatnews.pl/wiadomosc/2026-08-18/swietny-pomysl-donalda-trumpa-usa-oglosily-nowe-terytorium/"
     },
     {
      "nazwa": "The Guardian",
-     "tytuł": "EU-India trade deal signed in Brussels after nine years of talks",
-     "url": "https://theguardian.com/world/eu-india-deal"
+     "tytuł": "US-led drills to end six days early, South Korea says, amid Trump push for Kim Jong-un talks",
+     "url": "https://www.theguardian.com/world/2026/aug/19/us-south-korea-army-drills-cut-trump-push-kim-jong-un-talks"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "South Korea president calls for military independence in wake of Trump call to cut joint drills",
+     "url": "https://www.theguardian.com/world/2026/aug/18/south-korea-president-trump-military-drills-control-opcon-kim-jong-un"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Netanyahu and Kushner talks make no breakthrough on stalled Gaza deal",
+     "url": "https://www.theguardian.com/world/2026/aug/17/netanyahu-kushner-talks-gaza-israel-us-board-of-peace"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Trump hits pause on Canada tariffs threat, and hints at revival of Keystone XL oil pipeline project",
+     "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-delay-canada-tariffs-keystone-xl-oil-pipeline"
+    },
+    {
+     "nazwa": "Politico Europe",
+     "tytuł": "Trump hits pause on new Canada tariffs",
+     "url": "https://www.politico.com/news/2026/08/18/trump-hits-pause-on-new-canada-tariffs-01041402"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "S. Korea stresses US alliance amid confusion over Trump drill cut",
+     "url": "https://www.npr.org/2026/08/18/g-s1-139096/s-korea-stresses-us-alliance-amid-confusion-over-trump-drill-cut"
     }
    ],
-   "liczba_źródeł": 2,
+   "liczba_źródeł": 5,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.594,
+    "wynik": 13.52,
     "składowe": {
-     "potwierdzenia": 2.0,
-     "ranga_źródła": 1.53,
-     "eksponowanie": 1.8,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.466,
-     "treściwość": 0.098,
-     "język_działu": 0.0
+     "potwierdzenia": 8.0,
+     "ranga_źródła": 2.513,
+     "eksponowanie": 0.36,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.597,
+     "treściwość": 0.5,
+     "język_działu": 0.5
     }
    }
   },
@@ -177,70 +296,100 @@
     "emoji": "🏅",
     "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
    },
-   "nagłówek": "Badmintonowe mistrzostwa świata: Polka Katarzyna Wróbel w półfinale",
-   "lead": "Wróbel pokonała rozstawioną z numerem trzy Chinkę 21:18, 19:21, 21:16 po meczu trwającym 74 minuty. To pierwszy polski półfinał w singlu na mistrzostwach świata od 2013 roku.",
+   "nagłówek": "Koniec złudzeń. Niemcy zdecydowali ws. przyszłości reprezentanta Polski",
+   "lead": "O Dawidzie Kownackim po raz pierwszy głośno zrobiło się w 2013 roku. Wówczas zasilił on szeregi seniorskiej drużyny Lecha Poznań .",
    "język_źródła": "pl",
-   "opublikowano": "2026-08-18T17:40:00+00:00",
+   "opublikowano": "2026-08-18T20:11:42+00:00",
    "źródło": {
-    "nazwa": "Przegląd Sportowy",
-    "url": "https://ps.pl/badminton-polfinal",
-    "domena": "ps.pl"
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/bundesliga/news-koniec-zludzen-niemcy-zdecydowali-ws-przyszlosci-reprezentan,nId,23530743",
+    "domena": "sport.interia.pl"
    },
-   "obraz": null,
+   "obraz": "https://i.iplsc.com/-/000N6UPRPDSTQA9E-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Wróbel pokonała rozstawioną z numerem trzy Chinkę 21:18, 19:21, 21:16 po meczu trwającym 74 minuty."
+      "Wówczas zasilił on szeregi seniorskiej drużyny Lecha Poznań .",
+      "Po 4 latach gry dla \"Kolejorza\" został on natomiast wykupiony przez włodarzy Sampdorii za 4 mln euro.",
+      "Przenosiny do Włoch zapoczątkowały natomiast europejską tułaczkę siedmiokrotnego reprezentanta Polski.",
+      "W swoim CV ma on występy w takich ekipach jak: Fortuna Dusseldorf , Hertha BSC czy Werder Brema .",
+      "W ostatnim z wymienionych klubów Polak przebywa aż do teraz."
      ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Siatkarska reprezentacja Polski rozegra już w sobotę (22 sierpnia) pierwszy mecz fazy grupowej mistrzostw Europy.",
+      "W dniach 21 sierpnia - 6 września odbędą się mistrzostwa Europy w piłce siatkowej kobiet 2026."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Werder Brema – niemiecki klub sportowy z siedzibą w Bremie. Założony w 1899 roku, oprócz sekcji piłki nożnej posiada także sekcje piłki ręcznej, lekkiej atletyki, tenisa stołowego, gimnastyki, szachów oraz e-sportów. Był jednym z klubów założycielskich Bundesligi."
+     ],
+     "przypis": "Wikipedia: Werder Brema",
+     "url": "https://pl.wikipedia.org/wiki/Werder_Brema"
     }
    ],
-   "dlaczego_to_ważne": "To pierwszy polski półfinał w singlu na mistrzostwach świata od 2013 roku.",
+   "dlaczego_to_ważne": "O Dawidzie Kownackim po raz pierwszy głośno zrobiło się w 2013 roku.",
    "liczby": [
+    "4 lat",
+    "4 mln eur",
+    "22",
+    "24",
     "21",
-    "18, 19",
-    "16",
-    "74"
+    "23"
    ],
    "inne_spojrzenia": [
     {
-     "źródło": "Sportowe Fakty",
-     "ujęcie": "Polska badmintonistka wygrała trzysetowy bój i zapewniła sobie co najmniej brązowy medal.",
-     "url": "https://sportowefakty.pl/wrobel-medal"
+     "źródło": "Polsat Sport",
+     "ujęcie": "Przed starciem z Węgierkami o przygotowaniach i nastrojach w zespole opowiedziała Julita Piasecka w rozmowie z Dominikiem Woźniakiem.",
+     "url": "https://www.polsatsport.pl/wiadomosc/2026-08-18/gwiazda-reprezentacji-polski-zabrala-glos-tuz-przed-me-zloto-byloby-spelnieniem-marzen/"
     }
    ],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Werder Brema",
+    "opis": "niemiecki klub piłkarski",
+    "tekst": "Werder Brema – niemiecki klub sportowy z siedzibą w Bremie. Założony w 1899 roku, oprócz sekcji piłki nożnej posiada także sekcje piłki ręcznej, lekkiej atletyki, tenisa stołowego, gimnastyki, szachów oraz e-sportów. Był jednym z klubów założycielskich Bundesligi.",
+    "url": "https://pl.wikipedia.org/wiki/Werder_Brema",
+    "język": "pl"
+   },
    "tagi": [
-    "Polka Katarzyna Wróbel",
-    "Wróbel",
-    "Chinkę"
+    "Werderu Brema",
+    "Polski",
+    "Niclas Fullkrug Keke Topp Kenny Quetant Salim Musah",
+    "Fortuna Dusseldorf Hertha"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Przegląd Sportowy",
-     "tytuł": "Badmintonowe mistrzostwa świata: Polka Katarzyna Wróbel w półfinale",
-     "url": "https://ps.pl/badminton-polfinal"
+     "nazwa": "Interia Sport",
+     "tytuł": "Koniec złudzeń. Niemcy zdecydowali ws. przyszłości reprezentanta Polski",
+     "url": "https://sport.interia.pl/pilka-nozna/bundesliga/news-koniec-zludzen-niemcy-zdecydowali-ws-przyszlosci-reprezentan,nId,23530743"
     },
     {
-     "nazwa": "Sportowe Fakty",
-     "tytuł": "Sensacja w Kopenhadze. Katarzyna Wróbel zagra o medal mistrzostw świata w badmintonie",
-     "url": "https://sportowefakty.pl/wrobel-medal"
+     "nazwa": "Polsat Sport",
+     "tytuł": "Gwiazda reprezentacji Polski zabrała głos tuż przed ME. \"Złoto byłoby spełnieniem marzeń\"",
+     "url": "https://www.polsatsport.pl/wiadomosc/2026-08-18/gwiazda-reprezentacji-polski-zabrala-glos-tuz-przed-me-zloto-byloby-spelnieniem-marzen/"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 7.767,
+    "wynik": 5.402,
     "składowe": {
      "potwierdzenia": 2.0,
-     "ranga_źródła": 1.372,
-     "eksponowanie": 1.8,
-     "słowa_kluczowe": 1.4,
-     "świeżość": 0.478,
-     "treściwość": 0.217,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.502,
+     "treściwość": 0.5,
      "język_działu": 0.5
     }
    }
@@ -252,66 +401,90 @@
     "emoji": "🌐",
     "opis": "wielkie ligi, turnieje i rekordy poza Polską"
    },
-   "nagłówek": "Champions League: record 6-0 win sends holders through in style",
-   "lead": "The holders scored four goals in 18 second-half minutes, the fastest such sequence recorded in the competition since 2003.",
+   "nagłówek": "Fifa self-destructed over World Cup plan - Premier League chief",
+   "lead": "Premier League chief executive Richard Masters has criticised Fifa president Gianni Infantino's World Cup sell-off plan, saying the organisation has \"pressed the self-destruct button\" by delivering \"a self-inflicted wound\".",
    "język_źródła": "en",
-   "opublikowano": "2026-08-18T21:50:00+00:00",
+   "opublikowano": "2026-08-18T16:18:37+00:00",
    "źródło": {
     "nazwa": "BBC Sport",
-    "url": "https://bbc.co.uk/sport/cl-record",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cgjeqez58wno?at_medium=RSS&at_campaign=rss",
     "domena": "bbc.co.uk"
    },
-   "obraz": null,
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4a6e/live/b2537cf0-9b9e-11f1-a291-b542ee92de7c.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "The holders scored four goals in 18 second-half minutes, the fastest such sequence recorded in the competition since 2003."
+      "Premier League chief executive Richard Masters has criticised Fifa president Gianni Infantino's World Cup sell-off plan, saying the organisation has \"pressed the self-destruct button\" by delivering \"a self-inflicted wound\"."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "A 6-0 aggregate rout equalled the largest winning margin in a knockout round, with the second-half blitz lasting just 18 minutes."
+      "The 30-year-old may be headed for a second Ballon d’Or after his displays in Spain’s triumphant World Cup campaign, so the loss of a midfielder capable of moulding games domestically and in the Champions League represents a sizeable blow for Maresca.",
+      "On the positive side, Elliot Anderson has joined for £116m from Nottingham Forest having impressed for England at the World Cup."
      ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Premier League – najwyższa w hierarchii klasa męskich ligowych rozgrywek piłkarskich w Anglii, będąca jednocześnie najwyższym szczeblem centralnym, utworzona 20 lutego 1992 i od tego momentu zarządzana przez FA Premier League. Zmagania w jej ramach toczą się cyklicznie, systemem kołowym i przeznaczone są dla 20 najlepszych angielskich i walijskich klubów piłkarskich. Ich zwycięzca zostaje mistrzem Anglii, zaś najsłabsze drużyny są relegowane do EFL Championship."
+     ],
+     "przypis": "Wikipedia: Premier League",
+     "url": "https://pl.wikipedia.org/wiki/Premier_League"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "18"
+    "30",
+    "116",
+    "130",
+    "61,000",
+    "53,400",
+    "4,000"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Premier League",
+    "opis": "1. poziom rozgrywek ligowych w piłce nożnej mężczyzn w Anglii",
+    "tekst": "Premier League – najwyższa w hierarchii klasa męskich ligowych rozgrywek piłkarskich w Anglii, będąca jednocześnie najwyższym szczeblem centralnym, utworzona 20 lutego 1992 i od tego momentu zarządzana przez FA Premier League. Zmagania w jej ramach toczą się cyklicznie, systemem kołowym i przeznaczone są dla 20 najlepszych angielskich i walijskich klubów piłkarskich. Ich zwycięzca zostaje mistrzem Anglii, zaś najsłabsze drużyny są relegowane do EFL Championship.",
+    "url": "https://pl.wikipedia.org/wiki/Premier_League",
+    "język": "pl"
+   },
    "tagi": [
-    "League"
+    "Premier League",
+    "Gianni Infantino's World Cup",
+    "Richard Masters",
+    "World Cup"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "BBC Sport",
-     "tytuł": "Champions League: record 6-0 win sends holders through in style",
-     "url": "https://bbc.co.uk/sport/cl-record"
+     "tytuł": "Fifa self-destructed over World Cup plan - Premier League chief",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cgjeqez58wno?at_medium=RSS&at_campaign=rss"
     },
     {
      "nazwa": "The Guardian Sport",
-     "tytuł": "Champions League holders hit six as records tumble in one-sided tie",
-     "url": "https://theguardian.com/sport/cl-six"
+     "tytuł": "Premier League 2026-27 preview No 15: Manchester City",
+     "url": "https://www.theguardian.com/football/2026/aug/19/premier-league-2026-27-preview-no-15-manchester-city"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 7.167,
+    "wynik": 6.114,
     "składowe": {
      "potwierdzenia": 2.0,
      "ranga_źródła": 1.48,
-     "eksponowanie": 1.8,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.526,
-     "treściwość": 0.161,
+     "eksponowanie": 0.09,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.538,
+     "treściwość": 0.456,
      "język_działu": 0.5
     }
    }
@@ -323,72 +496,111 @@
     "emoji": "🧪",
     "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
    },
-   "nagłówek": "Logical qubits run chemistry simulation below error threshold",
-   "lead": "A quantum processor with 48 error-corrected logical qubits completed a molecular simulation that classical hardware needs days to approximate, researchers report.",
-   "język_źródła": "en",
-   "opublikowano": "2026-08-18T16:30:00+00:00",
+   "nagłówek": "GPT-6 niemal gotowy do premiery. Czy OpenAI szykuje nam niespodziankę?",
+   "lead": "Niektórzy twierdzą, że miałby zostać udostępniony nawet w tym tygodniu. OpenAI wskazuje na jego osiągnięcia naukowe, ostrzega przed krytycznym ryzykiem niezamierzonych cyberataków z jego strony, a Sam Altman, szef firmy, obiecuje szeroką dostępność.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-08-18T12:24:34+00:00",
    "źródło": {
-    "nazwa": "Nature",
-    "url": "https://nature.com/logical-qubits",
-    "domena": "nature.com"
+    "nazwa": "Antyweb",
+    "url": "https://antyweb.pl/gpt-6-premiera-sierpien-2026-doniesienia",
+    "domena": "antyweb.pl"
    },
-   "obraz": null,
+   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2026/08/gpt-6-nadchodzi.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "A quantum processor with 48 error-corrected logical qubits completed a molecular simulation that classical hardware needs days to approximate, researchers report."
+      "Niektórzy twierdzą, że miałby zostać udostępniony nawet w tym tygodniu.",
+      "Jak zapewne pamiętacie, 1 sierpnia OpenAI opisało dziesięć nowych wyników w zadaniach z zakresu matematyki i informatyki teoretycznej , uzyskanych z pomocą wewnętrznej wersji Astry.",
+      "OpenAI, co zrozumiałe, nigdzie nie zestawiło publicznie słów \"GPT-6\" i \"Astra\".",
+      "Przejdźmy do początku: 6 sierpnia konto @synthwavedd, które wcześniej trafnie sygnalizowało ruchy wokół modeli OpenAI, napisało o planowanym wydaniu Astry, które miało nastąpić 10-16 sierpnia.",
+      "Jesteśmy \"po\" tej dacie, ale jednocześnie, wielu leakerów zaczęło wrzucać na początku tego tygodnia informacje o tym, iż Astra miałaby pojawić się własnie teraz (czyli od 17 do 24 sierpnia)."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "The team ran a chemistry simulation on 48 logical qubits assembled from 1,200 physical ones, with error rates below the threshold for the first time in a practical workload."
+      "[en] The company’s “largest planned frontier RL run remains on hold.” For its frontier model research, OpenAI now requires stronger sandboxes for workloads that “execute model-generated or otherwise untrusted code,” and has more controls to “isolate higher-risk and untrusted workloads from the internet.” It has also updated its research environment to “remove potentially vulnerable shared services, reduce standing privileges, and improve security and trust boundaries.” As part of the company’s expanded monitoring setup, OpenAI now aims to issue an alert “within 30 minutes after concerning activity is surfaced,” OpenAI says.",
+      "[en] The new safeguards include more detailed monitoring of models during the development process, as well as greater emphasis on alignment and security during the post-training process. “As models become more capable, the risks associated with developing and testing them internally also grow,” the company said in a blog post . “Our standards for monitoring, alignment, and security must stay ahead of those risks.” The new measures are one of the first public changes in OpenAI’s safety practices since the immediate aftermath of the Hugging Face incident, which was disclosed on July 21 ."
      ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "OpenAI – amerykańskie przedsiębiorstwo i laboratorium badawcze założone w 2015 roku, specjalizujące się w dziedzinie sztucznej inteligencji. Celem organizacji jest rozwijanie ogólnej sztucznej inteligencji mającej przynosić korzyści całej ludzkości. OpenAI opracowało między innymi ChatGPT, DALL-E, Sorę oraz modele z rodziny GPT."
+     ],
+     "przypis": "Wikipedia: OpenAI",
+     "url": "https://pl.wikipedia.org/wiki/OpenAI"
     }
    ],
-   "dlaczego_to_ważne": "",
+   "dlaczego_to_ważne": "OpenAI wskazuje na jego osiągnięcia naukowe, ostrzega przed krytycznym ryzykiem niezamierzonych cyberataków z jego strony, a Sam Altman, szef firmy, obiecuje szeroką dostępność.",
    "liczby": [
-    "48",
-    "1,200"
+    "10",
+    "16",
+    "17",
+    "24",
+    "5.7",
+    "30"
    ],
    "inne_spojrzenia": [
     {
-     "źródło": "Ars Technica",
-     "ujęcie": "The results were published in Nature.",
-     "url": "https://arstechnica.com/quantum-logical"
+     "źródło": "The Verge",
+     "ujęcie": "OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face , including improvements to its research environments, monitoring, and alignment techniques.",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack"
+    },
+    {
+     "źródło": "TechCrunch",
+     "ujęcie": "On Tuesday, OpenAI announced a new batch of security policies focused on containing security incidents while models are being tested.",
+     "url": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/"
     }
    ],
    "pojęcia": [],
-   "tło": null,
-   "tagi": [],
+   "tło": {
+    "hasło": "OpenAI",
+    "opis": "amerykańska organizacja badawcza w dziedzinie sztucznej inteligencji",
+    "tekst": "OpenAI – amerykańskie przedsiębiorstwo i laboratorium badawcze założone w 2015 roku, specjalizujące się w dziedzinie sztucznej inteligencji. Celem organizacji jest rozwijanie ogólnej sztucznej inteligencji mającej przynosić korzyści całej ludzkości. OpenAI opracowało między innymi ChatGPT, DALL-E, Sorę oraz modele z rodziny GPT.",
+    "url": "https://pl.wikipedia.org/wiki/OpenAI",
+    "język": "pl"
+   },
+   "tagi": [
+    "OpenAI",
+    "Astra",
+    "Astry",
+    "Altman"
+   ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Nature",
-     "tytuł": "Logical qubits run chemistry simulation below error threshold",
-     "url": "https://nature.com/logical-qubits"
+     "nazwa": "Antyweb",
+     "tytuł": "GPT-6 niemal gotowy do premiery. Czy OpenAI szykuje nam niespodziankę?",
+     "url": "https://antyweb.pl/gpt-6-premiera-sierpien-2026-doniesienia"
     },
     {
-     "nazwa": "Ars Technica",
-     "tytuł": "Researchers demonstrate error-corrected logical qubits running a useful algorithm",
-     "url": "https://arstechnica.com/quantum-logical"
+     "nazwa": "The Verge",
+     "tytuł": "OpenAI lays out new security changes after its AI hacked Hugging Face",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack"
+    },
+    {
+     "nazwa": "TechCrunch",
+     "tytuł": "OpenAI institutes new safeguards after Hugging Face breach",
+     "url": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/"
     }
    ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.708,
+    "wynik": 8.348,
     "składowe": {
-     "potwierdzenia": 2.0,
-     "ranga_źródła": 1.488,
-     "eksponowanie": 1.8,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.456,
-     "treściwość": 0.264,
-     "język_działu": 0.0
+     "potwierdzenia": 4.0,
+     "ranga_źródła": 1.335,
+     "eksponowanie": 1.17,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.493,
+     "treściwość": 0.5,
+     "język_działu": 0.5
     }
    }
   },
@@ -399,70 +611,81 @@
     "emoji": "⚛️",
     "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
    },
-   "nagłówek": "Muon magnetic moment measured to 127 parts per billion, tension with theory persists",
-   "lead": "Fermilab's Muon g-2 collaboration released its final analysis, based on six years of data and 21 times the statistics of the original Brookhaven experiment.",
+   "nagłówek": "Krypton gas emerges as a new ingredient for quantum computing",
+   "lead": "edited by Lisa Lock , reviewed by Robert Egan This article has been reviewed according to Science X's editorial process and policies . Editors have highlighted the following attributes while ensuring the content's credibility: To commercialize quantum computing, manufacturers need high-quality superconducting materials…",
    "język_źródła": "en",
-   "opublikowano": "2026-08-18T15:10:00+00:00",
+   "opublikowano": "2026-08-18T23:40:06+00:00",
    "źródło": {
-    "nazwa": "APS Physics",
-    "url": "https://physics.aps.org/muon-final",
-    "domena": "physics.aps.org"
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-08-krypton-gas-emerges-ingredient-quantum.html",
+    "domena": "phys.org"
    },
-   "obraz": null,
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/krypton-gas-is-a-new-i.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Fermilab's Muon g-2 collaboration released its final analysis, based on six years of data and 21 times the statistics of the original Brookhaven experiment."
+      "edited by Lisa Lock , reviewed by Robert Egan This article has been reviewed according to Science X's editorial process and policies .",
+      "Editors have highlighted the following attributes while ensuring the content's credibility: To commercialize quantum computing, manufacturers need high-quality superconducting materials for microchips, but they also require a reliable, sustainable nanofabrication process.",
+      "Tantalum is a corrosion-resistant metal that meets the first criterion but not the second.",
+      "That's because it has to be deposited on a substrate at temperatures that typically exceed 400°C (752°F)—too hot for many semiconductor foundries' current tools.",
+      "Cornell researchers have developed a method that uses krypton gas to slash that deposition temperature to 200°C (392°F) while depositing tantalum on silicon, a standard high-quality substrate."
      ]
     },
     {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
      "treść": [
-      "The final dataset from Fermilab pins the muon magnetic moment to 127 parts per billion, four times more precise than the 2021 measurement.",
-      "The gap with theory now stands at 5.1 sigma."
-     ]
+      "Homofobia – negatywne postawy i uczucia wobec homoseksualności lub osób postrzeganych jako lesbijki lub geje. Definiowana jako nienawiść, pogarda, uprzedzenia, niechęć, wstręt lub antypatia wobec osób homoseksualnych, może być oparta na irracjonalnym lęku lub niewiedzy, często wiąże się z przekonaniami religijnymi oraz może skutkować dyskryminacją, prześladowaniem i innymi rodzajami przemocy."
+     ],
+     "przypis": "Wikipedia: Homofobia",
+     "url": "https://pl.wikipedia.org/wiki/Homofobia"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "21",
-    "127",
-    "5.1"
+    "400°C",
+    "752",
+    "200°C",
+    "392",
+    "26",
+    "100,000"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Homofobia",
+    "opis": "uprzedzenie do homoseksualności i dyskryminacja osób LGBT",
+    "tekst": "Homofobia – negatywne postawy i uczucia wobec homoseksualności lub osób postrzeganych jako lesbijki lub geje. Definiowana jako nienawiść, pogarda, uprzedzenia, niechęć, wstręt lub antypatia wobec osób homoseksualnych, może być oparta na irracjonalnym lęku lub niewiedzy, często wiąże się z przekonaniami religijnymi oraz może skutkować dyskryminacją, prześladowaniem i innymi rodzajami przemocy.",
+    "url": "https://pl.wikipedia.org/wiki/Homofobia",
+    "język": "pl"
+   },
    "tagi": [
-    "Fermilab's Muon",
-    "Brookhaven"
+    "Fatemi",
+    "Nature Materials",
+    "Olszewski",
+    "Josephson"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "APS Physics",
-     "tytuł": "Muon magnetic moment measured to 127 parts per billion, tension with theory persists",
-     "url": "https://physics.aps.org/muon-final"
-    },
-    {
      "nazwa": "Phys.org",
-     "tytuł": "Muon g-2 final result deepens tension with Standard Model prediction",
-     "url": "https://phys.org/muon-g2-final"
+     "tytuł": "Krypton gas emerges as a new ingredient for quantum computing",
+     "url": "https://phys.org/news/2026-08-krypton-gas-emerges-ingredient-quantum.html"
     }
    ],
-   "liczba_źródeł": 2,
+   "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.449,
+    "wynik": 4.256,
     "składowe": {
-     "potwierdzenia": 2.0,
-     "ranga_źródła": 1.48,
-     "eksponowanie": 1.8,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.44,
-     "treściwość": 0.229,
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.546,
+     "treściwość": 0.5,
      "język_działu": 0.5
     }
    }
@@ -474,75 +697,93 @@
     "emoji": "🔭",
     "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
    },
-   "nagłówek": "Teleskop Webba wykrył parę wodną w atmosferze superziemi w ekosferze",
-   "lead": "Planeta krąży wokół czerwonego karła w odległości 41 lat świetlnych. Analiza ośmiu tranzytów pozwoliła odróżnić sygnał pary wodnej od aktywności gwiazdy.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-08-18T17:00:00+00:00",
+   "nagłówek": "Nuking an asteroid on short notice could save us",
+   "lead": "edited by Swati Mestri , reviewed by Andrew Zinin This article has been reviewed according to Science X's editorial process and policies . Editors have highlighted the following attributes while ensuring the content's credibility: Readers of a certain age will remember a golden era of asteroid films, capped by two with…",
+   "język_źródła": "en",
+   "opublikowano": "2026-08-18T12:00:09+00:00",
    "źródło": {
-    "nazwa": "Urania",
-    "url": "https://urania.edu.pl/webb-superziemia",
-    "domena": "urania.edu.pl"
+    "nazwa": "Phys.org Astronomy",
+    "url": "https://phys.org/news/2026-08-nuking-asteroid-short.html",
+    "domena": "phys.org"
    },
-   "obraz": null,
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/nuking-an-asteroid-on.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Planeta krąży wokół czerwonego karła w odległości 41 lat świetlnych.",
-      "To najlepszy jak dotąd kandydat na planetę skalistą z atmosferą bogatą w wodę."
+      "edited by Swati Mestri , reviewed by Andrew Zinin This article has been reviewed according to Science X's editorial process and policies .",
+      "Editors have highlighted the following attributes while ensuring the content's credibility: Readers of a certain age will remember a golden era of asteroid films, capped by two with very different endings.",
+      "Now, the central premise of that movie's storyline—essentially blasting an asteroid with a nuclear detonation—is taking center stage as our last line of defense against a potential \"Deep Impact\" scenario.",
+      "A new paper from researchers at the China Academy of Launch Vehicle Technology, published in Space: Science & Technology , describes two potential scenarios examining how we might actually be able to nuke a space rock—and whether it would save us.",
+      "As of July 2024, 10,933 of the 35,269 near-Earth asteroids (NEAs) discovered have diameters larger than 140 m (460 feet)."
      ]
     },
     {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
      "treść": [
-      "[en] The James Webb Space Telescope detected a clear water vapour signature on a planet 41 light-years away, orbiting inside its star's habitable zone."
-     ]
+      "The helmethead sea Muppet is a species of ray-finned fish in the sea Muppet genus Australyichthys. Like other members of this genus, it has a superficially seahorse-like morphology, a result of convergent evolution of Australyichthys species on members of the genus Hippocampus. It is known from a single specimen incidentally collected by dredging activity off the coast of South Australia. The species has not been recorded since, in part because it occupies an understudied mesophotic habitat."
+     ],
+     "przypis": "Wikipedia: Helmethead sea Muppet",
+     "url": "https://en.wikipedia.org/wiki/Helmethead_sea_Muppet"
     }
    ],
-   "dlaczego_to_ważne": "Analiza ośmiu tranzytów pozwoliła odróżnić sygnał pary wodnej od aktywności gwiazdy.",
+   "dlaczego_to_ważne": "\"Deep Impact\" drove home the devastating consequences of letting a large piece of rock hit our planet, whereas \"Armageddon,\" though arguably the kitschier of the two films, was an uplifting story about technical ingenuity and sacrifice.",
    "liczby": [
-    "41 lat"
+    "2024, 10,933",
+    "35,269",
+    "140",
+    "460",
+    "100,000",
+    "0.6"
    ],
    "inne_spojrzenia": [
     {
-     "źródło": "NASA",
-     "ujęcie": "The James Webb Space Telescope detected a clear water vapour signature on a planet 41 light-years away, orbiting inside its star's habitable zone.",
-     "url": "https://nasa.gov/webb-super-earth"
+     "źródło": "Universe Today",
+     "ujęcie": "Deep Impact engrained the devastating consequences of letting a large piece of rock hit our planet, whereas Armageddon, though arguably the more kitschy of the two films, was an uplifting story about technical ingenuity and sacrifice.",
+     "url": "https://www.universetoday.com/articles/nuking-an-asteroid-on-short-notice-could-save-us"
     }
    ],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Helmethead sea Muppet",
+    "opis": "Genus of ray-finned fish",
+    "tekst": "The helmethead sea Muppet is a species of ray-finned fish in the sea Muppet genus Australyichthys. Like other members of this genus, it has a superficially seahorse-like morphology, a result of convergent evolution of Australyichthys species on members of the genus Hippocampus. It is known from a single specimen incidentally collected by dredging activity off the coast of South Australia. The species has not been recorded since, in part because it occupies an understudied mesophotic habitat.",
+    "url": "https://en.wikipedia.org/wiki/Helmethead_sea_Muppet",
+    "język": "en"
+   },
    "tagi": [
-    "Planeta",
-    "Webba"
+    "Swati Mestri",
+    "Science X's",
+    "Armageddon",
+    "Technology"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Urania",
-     "tytuł": "Teleskop Webba wykrył parę wodną w atmosferze superziemi w ekosferze",
-     "url": "https://urania.edu.pl/webb-superziemia"
+     "nazwa": "Phys.org Astronomy",
+     "tytuł": "Nuking an asteroid on short notice could save us",
+     "url": "https://phys.org/news/2026-08-nuking-asteroid-short.html"
     },
     {
-     "nazwa": "NASA",
-     "tytuł": "Webb spots water vapour in the atmosphere of a temperate super-Earth",
-     "url": "https://nasa.gov/webb-super-earth"
+     "nazwa": "Universe Today",
+     "tytuł": "Nuking An Asteroid on Short Notice Could Save Us",
+     "url": "https://www.universetoday.com/articles/nuking-an-asteroid-on-short-notice-could-save-us"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 7.926,
+    "wynik": 5.93,
     "składowe": {
      "potwierdzenia": 2.0,
-     "ranga_źródła": 1.473,
-     "eksponowanie": 1.8,
-     "słowa_kluczowe": 1.4,
-     "świeżość": 0.463,
-     "treściwość": 0.29,
-     "język_działu": 0.5
+     "ranga_źródła": 1.35,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.4,
+     "treściwość": 0.5,
+     "język_działu": 0.0
     }
    }
   },
@@ -553,56 +794,92 @@
     "emoji": "🗺️",
     "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
    },
-   "nagłówek": "Mapping reveals the Congo Basin peatlands store a third more carbon than thought",
-   "lead": "A three-year survey with ground cores and radar mapping puts the peat complex at 167,000 square kilometres holding roughly 39 billion tonnes of carbon. The revision matters for deforestation policy across three countries.",
+   "nagłówek": "Plants could transform how scientists measure the climate benefits of tidal marshes",
+   "lead": "edited by Gaby Clark , reviewed by Robert Egan This article has been reviewed according to Science X's editorial process and policies . Editors have highlighted the following attributes while ensuring the content's credibility: Growing up in New Jersey, Emily Wilson regularly passed tidal marshes without giving them…",
    "język_źródła": "en",
-   "opublikowano": "2026-08-18T13:00:00+00:00",
+   "opublikowano": "2026-08-18T20:50:02+00:00",
    "źródło": {
-    "nazwa": "Eos (AGU)",
-    "url": "https://eos.org/congo-peat",
-    "domena": "eos.org"
+    "nazwa": "Phys.org Earth",
+    "url": "https://phys.org/news/2026-08-scientists-climate-benefits-tidal-marshes.html",
+    "domena": "phys.org"
    },
-   "obraz": null,
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/plants-could-transform.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "A three-year survey with ground cores and radar mapping puts the peat complex at 167,000 square kilometres holding roughly 39 billion tonnes of carbon.",
-      "The revision matters for deforestation policy across three countries."
+      "edited by Gaby Clark , reviewed by Robert Egan This article has been reviewed according to Science X's editorial process and policies .",
+      "Editors have highlighted the following attributes while ensuring the content's credibility: Growing up in New Jersey, Emily Wilson regularly passed tidal marshes without giving them much thought.",
+      "Today, as a Boston University doctoral candidate in Earth & Environment, Wilson studies those same ecosystems—and has discovered that the plants she once drove past may hold important information for more accurately tracking the global climate.",
+      "Tidal marshes are important natural climate solutions because they remove carbon dioxide from the atmosphere and store large amounts of carbon in their soils.",
+      "\"But beyond studies conducted at one to a few tidal marshes, there was no consensus that plant species could be used to estimate fluxes at larger scales.\" To find out, Wilson compiled more than 2,000 methane measurements from 87 published studies around the world."
      ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "National Academy of Sciences (NAS) (Narodowa Akademia Nauk) – jest korporacją w Stanach Zjednoczonych, której członkowie pro publico bono służą jako doradcy w zakresie nauki, inżynierii oraz medycyny. Jej członkowie są co rok wybierani przez bieżących członków, biorąc pod uwagę ich dorobek naukowy i osiągnięcia badawcze."
+     ],
+     "przypis": "Wikipedia: National Academy of Sciences",
+     "url": "https://pl.wikipedia.org/wiki/National_Academy_of_Sciences"
     }
    ],
-   "dlaczego_to_ważne": "",
+   "dlaczego_to_ważne": "\"Because plant species are easier to identify than directly measuring methane fluxes and are often already mapped, this approach provides researchers and managers with a practical means of estimating methane emissions across tidal marshes.\" The discovery builds on more than a decade of research in the lab of Robinson \"Wally\" Fulweiler, a BU professor of Earth & Environment and Biology.",
    "liczby": [
-    "167,000",
-    "39 billion"
+    "2,000",
+    "87",
+    "62%",
+    "71%",
+    "100,000",
+    "1%"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "ScienceDaily Earth",
+     "ujęcie": "Scientists have identified a previously unknown natural process in the Arctic that can cause the number of cloud-forming particles in the atmosphere to surge.",
+     "url": "https://www.sciencedaily.com/releases/2026/08/260816044839.htm"
+    }
+   ],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "National Academy of Sciences",
+    "opis": "",
+    "tekst": "National Academy of Sciences (NAS) (Narodowa Akademia Nauk) – jest korporacją w Stanach Zjednoczonych, której członkowie pro publico bono służą jako doradcy w zakresie nauki, inżynierii oraz medycyny. Jej członkowie są co rok wybierani przez bieżących członków, biorąc pod uwagę ich dorobek naukowy i osiągnięcia badawcze.",
+    "url": "https://pl.wikipedia.org/wiki/National_Academy_of_Sciences",
+    "język": "pl"
+   },
    "tagi": [
-    "Congo Basin"
+    "Wilson",
+    "National Academy",
+    "Proceedings",
+    "Sciences"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Eos (AGU)",
-     "tytuł": "Mapping reveals the Congo Basin peatlands store a third more carbon than thought",
-     "url": "https://eos.org/congo-peat"
+     "nazwa": "Phys.org Earth",
+     "tytuł": "Plants could transform how scientists measure the climate benefits of tidal marshes",
+     "url": "https://phys.org/news/2026-08-scientists-climate-benefits-tidal-marshes.html"
+    },
+    {
+     "nazwa": "ScienceDaily Earth",
+     "tytuł": "Scientists discover a natural Arctic cloud factory missing from climate models",
+     "url": "https://www.sciencedaily.com/releases/2026/08/260816044839.htm"
     }
    ],
-   "liczba_źródeł": 1,
+   "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.639,
+    "wynik": 6.85,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.2,
-     "eksponowanie": 0.9,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.413,
-     "treściwość": 0.276,
+     "potwierdzenia": 2.0,
+     "ranga_źródła": 1.3,
+     "eksponowanie": 0.99,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.51,
+     "treściwość": 0.5,
      "język_działu": 0.5
     }
    }
@@ -614,77 +891,74 @@
     "emoji": "📚",
     "opis": "książki, nagrody, pisarze, rynek wydawniczy"
    },
-   "nagłówek": "Znamy finałową szóstkę Nagrody Bookera. Trzy debiuty i powieść wierszem",
-   "lead": "Do finału Nagrody Bookera trafiło sześć powieści wybranych spośród 163 zgłoszeń. Zwycięzca otrzyma 50 tysięcy funtów, a ogłoszenie wyników zaplanowano na 12 listopada.",
+   "nagłówek": "Jeśli w młodości wszystko podano ci na tacy, nie rozwiniesz się w pełni – wywiad z Victorem Dixenem, autorem powieści „Agencja Perdido. Droga przez mrok”",
+   "lead": "Gdy gasną światła wielkiego miasta, a codzienna rzeczywistość zaczyna pękać w szwach, na powierzchnię wychodzą najmroczniejsze sekrety. Przedmioty znikające w niewyjaśnionych okolicznościach to dopiero początek.",
    "język_źródła": "pl",
-   "opublikowano": "2026-08-18T18:30:00+00:00",
+   "opublikowano": "2026-08-18T16:29:50+00:00",
    "źródło": {
     "nazwa": "Booklips",
-    "url": "https://booklips.pl/booker-finalowa-szostka",
+    "url": "https://booklips.pl/wywiady/jesli-w-mlodosci-wszystko-podano-ci-na-tacy-nie-rozwiniesz-sie-w-pelni-wywiad-z-victorem-dixenem-autorem-powiesci-agencja-perdido-droga-przez-mrok/",
     "domena": "booklips.pl"
    },
-   "obraz": null,
+   "obraz": "https://booklips.pl/wp-content/uploads/2026/08/Victor_Dixen_wyw_feat.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Do finału Nagrody Bookera trafiło sześć powieści wybranych spośród 163 zgłoszeń.",
-      "Zwycięzca otrzyma 50 tysięcy funtów, a ogłoszenie wyników zaplanowano na 12 listopada."
+      "Gdy gasną światła wielkiego miasta, a codzienna rzeczywistość zaczyna pękać w szwach, na powierzchnię wychodzą najmroczniejsze sekrety.",
+      "Przedmioty znikające w niewyjaśnionych okolicznościach to dopiero początek.",
+      "W mrocznych podziemiach Nowego Jorku czają się bowiem potwory z dziecięcych koszmarów – istoty, które żywią się ludzkim strachem i odbierają nam to, co najcenniejsze.",
+      "Opublikowana przez Wydawnictwo Kropka „Agencja Perdido.",
+      "Droga przez mrok” to porywająca, wielowarstwowa podróż przez duszne labirynty pod miastem."
      ]
     },
     {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
      "treść": [
-      "[en] The six-book shortlist was chosen from 163 submissions.",
-      "[en] The winner receives 50,000 pounds on 12 November."
-     ]
+      "Lucy Maud Montgomery – kanadyjska pisarka, autorka m.in. cyklu powieściowego Ania z Zielonego Wzgórza."
+     ],
+     "przypis": "Wikipedia: Lucy Maud Montgomery",
+     "url": "https://pl.wikipedia.org/wiki/Lucy_Maud_Montgomery"
     }
    ],
    "dlaczego_to_ważne": "",
-   "liczby": [
-    "163",
-    "50 tysięcy",
-    "12",
-    "50,000"
-   ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "The Guardian Books",
-     "ujęcie": "The six-book shortlist was chosen from 163 submissions.",
-     "url": "https://theguardian.com/books/booker-shortlist"
-    }
-   ],
+   "liczby": [],
+   "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Lucy Maud Montgomery",
+    "opis": "pisarka kanadyjska",
+    "tekst": "Lucy Maud Montgomery – kanadyjska pisarka, autorka m.in. cyklu powieściowego Ania z Zielonego Wzgórza.",
+    "url": "https://pl.wikipedia.org/wiki/Lucy_Maud_Montgomery",
+    "język": "pl"
+   },
    "tagi": [
-    "Nagrody Bookera"
+    "Lucy",
+    "Jasper",
+    "Victorem Dixenem",
+    "Agencji Perdido"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Booklips",
-     "tytuł": "Znamy finałową szóstkę Nagrody Bookera. Trzy debiuty i powieść wierszem",
-     "url": "https://booklips.pl/booker-finalowa-szostka"
-    },
-    {
-     "nazwa": "The Guardian Books",
-     "tytuł": "Booker Prize shortlist features three debut novelists and a 400-page verse novel",
-     "url": "https://theguardian.com/books/booker-shortlist"
+     "tytuł": "Jeśli w młodości wszystko podano ci na tacy, nie rozwiniesz się w pełni – wywiad z Victorem Dixenem, autorem powieści „Agencja Perdido. Droga przez mrok”",
+     "url": "https://booklips.pl/wywiady/jesli-w-mlodosci-wszystko-podano-ci-na-tacy-nie-rozwiniesz-sie-w-pelni-wywiad-z-victorem-dixenem-autorem-powiesci-agencja-perdido-droga-przez-mrok/"
     }
    ],
-   "liczba_źródeł": 2,
+   "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 7.832,
+    "wynik": 3.72,
     "składowe": {
-     "potwierdzenia": 2.0,
-     "ranga_źródła": 1.415,
-     "eksponowanie": 1.8,
-     "słowa_kluczowe": 1.4,
-     "świeżość": 0.481,
-     "treściwość": 0.236,
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.1,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.456,
+     "treściwość": 0.414,
      "język_działu": 0.5
     }
    }
@@ -696,76 +970,109 @@
     "emoji": "🎬",
     "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
    },
-   "nagłówek": "Rekord sierpnia w kinach. Animacja zarobiła 187 mln dolarów na otwarciu",
-   "lead": "Rysowana klasycznie animacja zanotowała najlepsze otwarcie sierpnia w historii i najlepszy start filmu animowanego tradycyjnie. Budżet produkcji wyniósł 95 mln dolarów.",
+   "nagłówek": "Władimir Kliczko żegna Hayden Panettiere. \"Pozostawała ważną częścią mojego życia\"",
+   "lead": "Władimir Kliczko zabrał głos po śmierci swojej byłej narzeczonej Hayden Panettiere . Aktorka, znana m.in. z seriali \" Herosi \" i \"<a",
    "język_źródła": "pl",
-   "opublikowano": "2026-08-18T20:10:00+00:00",
+   "opublikowano": "2026-08-18T10:27:00+00:00",
    "źródło": {
     "nazwa": "Filmweb",
-    "url": "https://filmweb.pl/rekord-sierpnia",
+    "url": "https://www.filmweb.pl/news/W%C5%82adimir+Kliczko+%C5%BCegna+Hayden+Panettiere.+%22Pozostawa%C5%82a+wa%C5%BCn%C4%85+cz%C4%99%C5%9Bci%C4%85+mojego+%C5%BCycia%22-168107",
     "domena": "filmweb.pl"
    },
-   "obraz": null,
+   "obraz": "https://fwcdn.pl/nph/49468/2026/76075.16.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Rysowana klasycznie animacja zanotowała najlepsze otwarcie sierpnia w historii i najlepszy start filmu animowanego tradycyjnie.",
-      "Budżet produkcji wyniósł 95 mln dolarów."
+      "Władimir Kliczko zabrał głos po śmierci swojej byłej narzeczonej Hayden Panettiere .",
+      "Aktorka, znana m.in. z seriali \" Herosi \" i \"<a"
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "[en] The hand-drawn film opened to 187 million dollars worldwide, the biggest August debut on record and the largest ever for a traditionally animated feature.",
-      "[en] It cost a reported 95 million dollars to make."
+      "[en] Their daughter, Kaya, has been raised by the Ukrainian retired boxer since 2018, when Panettiere ceded full custody to concentrate on her battles with alcoholism, depression and substance abuse.",
+      "[en] Child stars from the 1970s and 1980s seemed particularly mistreated and/or self-destructive, whether born into dysfunctional Hollywood families, like Tatum O’Neal, or the result of more sui generis success, like…",
+      "[en] Panettiere and the singer co-starred in the 2006 teen cheerleading movie Bring It On: All or Nothing ."
      ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Hayden Lesley Panettiere was an American actress and singer. She starred as Claire Bennet on the NBC superhero series Heroes (2006–2010), Kirby Reed in the slasher horror franchise Scream (2011–2023), and Juliette Barnes in the ABC/CMT musical drama series Nashville (2012–2018). She received two nominations for acting in Nashville for a Golden Globe Award for Best Supporting Actress – Series, Miniseries or Television Film."
+     ],
+     "przypis": "Wikipedia: Hayden Panettiere",
+     "url": "https://en.wikipedia.org/wiki/Hayden_Panettiere"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "95 mln",
-    "187 million",
-    "95 million"
+    "20",
+    "36"
    ],
    "inne_spojrzenia": [
     {
-     "źródło": "Variety",
-     "ujęcie": "The hand-drawn film opened to 187 million dollars worldwide, the biggest August debut on record and the largest ever for a traditionally animated feature.",
-     "url": "https://variety.com/august-record"
+     "źródło": "The Guardian Culture",
+     "ujęcie": "Their daughter, Kaya, has been raised by the Ukrainian retired boxer since 2018, when Panettiere ceded full custody to concentrate on her battles with alcoholism, depression and substance abuse.",
+     "url": "https://www.theguardian.com/tv-and-radio/2026/aug/18/hayden-panettiere-wladimir-klitschko-daughter-tribute"
+    },
+    {
+     "źródło": "Pitchfork",
+     "ujęcie": "Solange has taken to Instagram to mourn Hayden Panettiere, who died of cardiac arrest on Sunday.",
+     "url": "https://pitchfork.com/story/solange-pays-tribute-to-former-co-star-hayden-panettiere/"
     }
    ],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Hayden Panettiere",
+    "opis": "American actress and singer (1989–2026)",
+    "tekst": "Hayden Lesley Panettiere was an American actress and singer. She starred as Claire Bennet on the NBC superhero series Heroes (2006–2010), Kirby Reed in the slasher horror franchise Scream (2011–2023), and Juliette Barnes in the ABC/CMT musical drama series Nashville (2012–2018). She received two nominations for acting in Nashville for a Golden Globe Award for Best Supporting Actress – Series, Miniseries or Television Film.",
+    "url": "https://en.wikipedia.org/wiki/Hayden_Panettiere",
+    "język": "en"
+   },
    "tagi": [
-    "Rysowana"
+    "Hayden Panettiere",
+    "Władimir Kliczko",
+    "Kliczko",
+    "Herosi"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Filmweb",
-     "tytuł": "Rekord sierpnia w kinach. Animacja zarobiła 187 mln dolarów na otwarciu",
-     "url": "https://filmweb.pl/rekord-sierpnia"
+     "tytuł": "Władimir Kliczko żegna Hayden Panettiere. \"Pozostawała ważną częścią mojego życia\"",
+     "url": "https://www.filmweb.pl/news/W%C5%82adimir+Kliczko+%C5%BCegna+Hayden+Panettiere.+%22Pozostawa%C5%82a+wa%C5%BCn%C4%85+cz%C4%99%C5%9Bci%C4%85+mojego+%C5%BCycia%22-168107"
     },
     {
-     "nazwa": "Variety",
-     "tytuł": "Animated feature breaks August box office record with 187 million dollar global opening",
-     "url": "https://variety.com/august-record"
+     "nazwa": "The Guardian Culture",
+     "tytuł": "Wladimir Klitschko pays tribute to ex-partner Hayden Panettiere: ‘She left this world too soon’",
+     "url": "https://www.theguardian.com/tv-and-radio/2026/aug/18/hayden-panettiere-wladimir-klitschko-daughter-tribute"
+    },
+    {
+     "nazwa": "The Guardian Culture",
+     "tytuł": "Hollywood continues to fail child stars and Hayden Panettiere is the latest casualty | Jesse Hassenger",
+     "url": "https://www.theguardian.com/tv-and-radio/2026/aug/17/hayden-panettiere-hollywood-child-stars"
+    },
+    {
+     "nazwa": "Pitchfork",
+     "tytuł": "Solange Pays Tribute to Former Co-Star Hayden Panettiere",
+     "url": "https://pitchfork.com/story/solange-pays-tribute-to-former-co-star-hayden-panettiere/"
     }
    ],
-   "liczba_źródeł": 2,
+   "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 7.168,
+    "wynik": 8.763,
     "składowe": {
-     "potwierdzenia": 2.0,
-     "ranga_źródła": 1.415,
-     "eksponowanie": 1.8,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.502,
-     "treściwość": 0.251,
+     "potwierdzenia": 4.0,
+     "ranga_źródła": 1.573,
+     "eksponowanie": 1.35,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.49,
+     "treściwość": 0.5,
      "język_działu": 0.5
     }
    }
@@ -773,9 +1080,9 @@
  ],
  "braki": [],
  "statystyki": {
-  "kanały_ok": 21,
-  "kanały_błędne": 0,
+  "kanały_ok": 65,
+  "kanały_błędne": 20,
   "działy": 10,
-  "artykuły_w_oknie": 20
+  "artykuły_w_oknie": 31
  }
 }
