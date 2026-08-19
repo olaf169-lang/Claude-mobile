@@ -201,7 +201,9 @@ i *brak* łączenia różnych newsów o tym samym polityku), ekstrakcję treści
   Dzięki temu notka branżowa z jednego serwisu nie wypiera odkrycia opisanego przez cztery redakcje.
   Tekst obcojęzyczny, który mimo to wygrał, jest **tłumaczony maszynowo na polski** (MyMemory,
   bez klucza i bez opłat) — całość albo nic: gdy tłumaczenie się nie powiedzie, karta zostaje
-  w oryginale i mówi o tym etykietą „po angielsku"
+  w oryginale i mówi o tym etykietą „po angielsku". Darmowy limit bez podania kontaktu to ok.
+  5000 znaków dziennie i tyle wynosi budżet jednego wydania; własny adres w zmiennej
+  `PRZEGLAD_TLUMACZ_EMAIL` podnosi limit usługi do 50 000 znaków
 , a całe
   omówienie jest wtedy w jednym języku — nigdy pół na pół. Klucz `ANTHROPIC_API_KEY` znosi ten
   kompromis: model pisze po polsku także z materiału angielskiego, więc o wyborze decyduje sama

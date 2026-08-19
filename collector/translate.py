@@ -26,9 +26,12 @@ log = logging.getLogger("przeglad.translate")
 
 #: MyMemory przyjmuje krótkie zapytania — dzielimy tekst na kawałki.
 MAX_CHUNK = 480
-#: Ile znaków wolno przetłumaczyć w jednym wydaniu. Darmowy limit dzienny jest
-#: skromny, więc lepiej zostawić kartę po angielsku niż dostać obcięty tekst.
-DEFAULT_BUDGET = 12_000
+#: Dzienny limit MyMemory bez podania adresu e-mail to ok. 5000 znaków.
+#: Trzymamy się poniżej: lepiej zostawić kartę po angielsku niż dostać
+#: obcięty tekst w połowie wydania.
+BUDGET_ANONIM = 4_500
+#: Z własnym adresem w PRZEGLAD_TLUMACZ_EMAIL usługa daje 50 000 znaków dziennie.
+BUDGET_Z_EMAILEM = 20_000
 #: Odstęp między zapytaniami — nie zasypujemy darmowej usługi.
 PAUSE = 0.25
 
@@ -38,9 +41,18 @@ _QUOTA_MARKERS = ("ALL AVAILABLE FREE TRANSLATIONS", "QUOTA", "TOO MANY REQUESTS
 class Translator:
     """Tłumacz z budżetem znaków i pamięcią powtórzeń."""
 
-    def __init__(self, session: requests.Session, *, budget: int = DEFAULT_BUDGET) -> None:
+    def __init__(
+        self,
+        session: requests.Session,
+        *,
+        budget: int | None = None,
+        email: str | None = None,
+    ) -> None:
         self._session = session
-        self._budget = budget
+        self._email = (email or "").strip()
+        self._budget = budget if budget is not None else (
+            BUDGET_Z_EMAILEM if self._email else BUDGET_ANONIM
+        )
         self._cache: dict[str, str] = {}
         self._enabled = True
         self.used = 0
@@ -87,10 +99,15 @@ class Translator:
             self._enabled = False
             return None
 
+        # `de` to adres kontaktowy podnoszący dzienny limit. Podajemy go tylko
+        # wtedy, gdy właściciel przeglądu sam go poda — zmyślony adres byłby
+        # nieuczciwy wobec darmowej usługi.
         url = (
             "https://api.mymemory.translated.net/get"
-            f"?q={quote(chunk)}&langpair={source}|pl&de=przeglad-news@users.noreply.github.com"
+            f"?q={quote(chunk)}&langpair={source}|pl"
         )
+        if self._email:
+            url += f"&de={quote(self._email)}"
         response = get(self._session, url, timeout=20, retries=1)
         if not response.ok:
             log.warning("tłumacz nie odpowiedział: %s", response.error)
@@ -109,9 +126,9 @@ class Translator:
             self._enabled = False
             return None
 
-        translated = ((data.get("responseData") or {}).get("translatedText") or "").strip()
-        if not translated or translated.upper().startswith("MYMEMORY WARNING"):
-            self._enabled = False
+        translated = self._pick(data, chunk)
+        if translated is None:
+            log.info("brak wiarygodnego tłumaczenia dla fragmentu (%d znaków)", len(chunk))
             return None
 
         self._budget -= len(chunk)
@@ -119,6 +136,52 @@ class Translator:
         self._cache[chunk] = translated
         time.sleep(PAUSE)
         return translated
+
+    @staticmethod
+    def _pick(data: dict, source_text: str) -> str | None:
+        """Wybiera wiarygodne tłumaczenie z odpowiedzi MyMemory.
+
+        Usługa zwraca nie tylko tłumaczenie maszynowe, ale też dopasowania
+        ze swojej pamięci tłumaczeniowej. Przy słabym dopasowaniu potrafi
+        podstawić zupełnie inny tekst — tak w dziale o kryptonie pojawiła się
+        definicja homofobii. Dlatego pierwszeństwo ma wpis oznaczony „MT!",
+        czyli czyste tłumaczenie maszynowe, a wpisy z pamięci przechodzą tylko
+        przy bardzo wysokim dopasowaniu.
+        """
+        kandydaci: list[str] = []
+
+        for wpis in data.get("matches") or []:
+            tekst = (wpis.get("translation") or "").strip()
+            if not tekst:
+                continue
+            if str(wpis.get("created-by") or "").upper().startswith("MT"):
+                kandydaci.append(tekst)
+                break
+            try:
+                dopasowanie = float(wpis.get("match") or 0)
+            except (TypeError, ValueError):
+                dopasowanie = 0.0
+            if dopasowanie >= 0.95:
+                kandydaci.append(tekst)
+
+        odpowiedz = data.get("responseData") or {}
+        try:
+            dopasowanie = float(odpowiedz.get("match") or 0)
+        except (TypeError, ValueError):
+            dopasowanie = 0.0
+        tekst = (odpowiedz.get("translatedText") or "").strip()
+        if tekst and dopasowanie >= 0.85:
+            kandydaci.append(tekst)
+
+        for kandydat in kandydaci:
+            if kandydat.upper().startswith("MYMEMORY WARNING"):
+                continue
+            # Tłumaczenie krótsze o połowę albo dwa razy dłuższe od oryginału
+            # to prawie zawsze podmieniony, niepowiązany tekst.
+            stosunek = len(kandydat) / max(1, len(source_text))
+            if 0.45 <= stosunek <= 2.2:
+                return kandydat
+        return None
 
     def text(self, value: str, source: str = "en") -> str | None:
         """Zwraca polski tekst albo None, gdy cokolwiek zawiodło."""
@@ -166,6 +229,10 @@ def translate_item(item: dict, translator: Translator, *, source: str = "en") ->
         kopia["dlaczego_to_ważne"] = wynik
 
     for sekcja in kopia.get("sekcje", []):
+        # Tło z polskiej Wikipedii jest już po polsku — tłumaczenie go
+        # z angielskiego potrafi zamienić hasło w coś zupełnie innego.
+        if sekcja.get("język") == "pl":
+            continue
         przetlumaczone: list[str] = []
         for tekst in sekcja.get("treść", []):
             wynik = przetlumacz(tekst)
@@ -188,7 +255,11 @@ def translate_item(item: dict, translator: Translator, *, source: str = "en") ->
 
 
 def make_translator(session: requests.Session) -> Translator | None:
-    """Tłumacz włączony domyślnie; PRZEGLAD_TLUMACZ=0 go wyłącza."""
+    """Tłumacz włączony domyślnie; PRZEGLAD_TLUMACZ=0 go wyłącza.
+
+    PRZEGLAD_TLUMACZ_EMAIL (twój własny adres) podnosi dzienny limit usługi
+    z ok. 5000 do 50 000 znaków.
+    """
     if os.environ.get("PRZEGLAD_TLUMACZ", "1").strip() in {"0", "off", "nie"}:
         return None
-    return Translator(session)
+    return Translator(session, email=os.environ.get("PRZEGLAD_TLUMACZ_EMAIL"))

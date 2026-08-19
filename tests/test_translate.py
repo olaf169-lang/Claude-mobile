@@ -31,8 +31,9 @@ class FakeUsluga:
         if self.awaria_po is not None and len(self.zapytania) > self.awaria_po:
             return Response(False, url, 503, error="HTTP 503")
         return Response(True, url, 200, json.dumps({
-            "responseData": {"translatedText": f"PL:{unquote(q)}"},
+            "responseData": {"translatedText": f"PL:{unquote(q)}", "match": 1},
             "responseDetails": "",
+            "matches": [{"translation": f"PL:{unquote(q)}", "created-by": "MT!", "match": 1}],
         }).encode())
 
 
@@ -121,3 +122,101 @@ def test_polowiczne_tlumaczenie_nie_trafia_do_wydania(monkeypatch):
     item = json.loads(json.dumps(POZYCJA))
     assert T.translate_item(item, t) is False
     assert item == POZYCJA, "pozycja miała zostać nietknięta"
+
+
+# --- wybór tłumaczenia spośród odpowiedzi MyMemory --------------------------
+
+def odpowiedz(matches=None, response=None, details=""):
+    return {
+        "responseData": response or {"translatedText": "", "match": 0},
+        "responseDetails": details,
+        "matches": matches or [],
+    }
+
+
+def test_wola_tlumaczenie_maszynowe_od_pamieci_spolecznosciowej():
+    """To pamięć tłumaczeniowa podstawiła kiedyś definicję homofobii."""
+    data = odpowiedz(
+        matches=[
+            {"translation": "Homofobia – negatywne postawy wobec homoseksualności i osób LGBT.",
+             "created-by": "user", "match": 0.62},
+            {"translation": "Jednorodne warstwy osadzono na krzemie.", "created-by": "MT!", "match": 0.85},
+        ],
+        response={"translatedText": "Homofobia – negatywne postawy wobec homoseksualności i osób LGBT.",
+                  "match": 0.62},
+    )
+    wybor = T.Translator._pick(data, "Homogeneous films were deposited on silicon.")
+    assert wybor == "Jednorodne warstwy osadzono na krzemie."
+
+
+def test_odrzuca_slabe_dopasowanie_z_pamieci():
+    data = odpowiedz(
+        matches=[{"translation": "Zupełnie inny tekst.", "created-by": "user", "match": 0.55}],
+        response={"translatedText": "Zupełnie inny tekst.", "match": 0.55},
+    )
+    assert T.Translator._pick(data, "Some sentence about quantum physics here.") is None
+
+
+def test_odrzuca_tlumaczenie_o_absurdalnej_dlugosci():
+    """Definicja encyklopedyczna w miejscu jednego zdania to podmiana, nie przekład."""
+    dlugie = "Homofobia – negatywne postawy i uczucia wobec homoseksualności. " * 6
+    data = odpowiedz(matches=[{"translation": dlugie, "created-by": "MT!", "match": 1}])
+    assert T.Translator._pick(data, "Krypton helps here.") is None
+
+
+def test_przyjmuje_bardzo_dobre_dopasowanie_z_pamieci():
+    data = odpowiedz(
+        matches=[{"translation": "Dobre tłumaczenie zdania.", "created-by": "user", "match": 0.98}],
+        response={"translatedText": "Dobre tłumaczenie zdania.", "match": 0.98},
+    )
+    assert T.Translator._pick(data, "A good sentence translation.") == "Dobre tłumaczenie zdania."
+
+
+def test_sekcja_po_polsku_nie_idzie_do_tlumaczenia(monkeypatch):
+    """Tło z polskiej Wikipedii jest już po polsku."""
+    t = tlumacz(monkeypatch, FakeUsluga())
+    item = {
+        "nagłówek": "Krypton gas", "lead": "Manufacturers need materials.",
+        "sekcje": [
+            {"tytuł": "Co się stało", "rodzaj": "akapity", "treść": ["The team annealed samples."]},
+            {"tytuł": "Tło", "rodzaj": "akapity", "język": "pl",
+             "treść": ["Krypton – pierwiastek chemiczny z grupy gazów szlachetnych."]},
+        ],
+        "inne_spojrzenia": [],
+    }
+    assert T.translate_item(item, t) is True
+    assert item["sekcje"][0]["treść"][0].startswith("PL:")
+    assert item["sekcje"][1]["treść"][0].startswith("Krypton – pierwiastek")
+
+
+def test_bez_adresu_email_nie_wysylamy_parametru_de(monkeypatch):
+    """Zmyślony adres kontaktowy byłby nieuczciwy wobec darmowej usługi."""
+    zapytania: list[str] = []
+
+    def zapisz(session, url, **kwargs):
+        zapytania.append(url)
+        return Response(True, url, 200, json.dumps({
+            "responseData": {"translatedText": "PL", "match": 1},
+            "matches": [{"translation": "PL", "created-by": "MT!", "match": 1}],
+        }).encode())
+
+    monkeypatch.setattr(T, "get", zapisz)
+    T.Translator(session=None).text("Hello there friend.")
+    assert "&de=" not in zapytania[0]
+
+
+def test_wlasny_adres_email_trafia_do_zapytania_i_podnosi_budzet(monkeypatch):
+    zapytania: list[str] = []
+
+    def zapisz(session, url, **kwargs):
+        zapytania.append(url)
+        return Response(True, url, 200, json.dumps({
+            "responseData": {"translatedText": "PL", "match": 1},
+            "matches": [{"translation": "PL", "created-by": "MT!", "match": 1}],
+        }).encode())
+
+    monkeypatch.setattr(T, "get", zapisz)
+    t = T.Translator(session=None, email="ja@example.com")
+    t.text("Hello there friend.")
+    assert "de=ja%40example.com" in zapytania[0]
+    assert t._budget > T.BUDGET_ANONIM

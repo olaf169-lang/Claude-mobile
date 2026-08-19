@@ -2,6 +2,11 @@
 
 Najpierw polska Wikipedia (bo przegląd jest po polsku), potem angielska.
 Brak wyniku nie jest błędem — sekcja tła po prostu się nie pojawi.
+
+Kluczowa jest tu trafność, nie kompletność. Wyszukiwanie pełnotekstowe
+potrafi na zapytanie o materiał półprzewodnikowy zwrócić hasło „Homofobia",
+bo gdzieś w treści zgadza się kilka słów. Dlatego bierzemy hasło tylko wtedy,
+gdy jego tytuł faktycznie odpowiada szukanej nazwie.
 """
 
 from __future__ import annotations
@@ -13,26 +18,52 @@ from urllib.parse import quote
 import requests
 
 from .net import get
-from .textutil import shorten
+from .textutil import overlap, shorten, token_set
 
 log = logging.getLogger("przeglad.wiki")
 
 LANGS = ("pl", "en")
+#: Jak bardzo tytuł znalezionego hasła musi pokrywać się z szukaną nazwą.
+TITLE_MATCH = 0.6
 
 
-def _search(session: requests.Session, lang: str, query: str) -> str | None:
-    url = (
-        f"https://{lang}.wikipedia.org/w/api.php?action=query&list=search"
-        f"&srsearch={quote(query)}&srlimit=1&format=json&utf8=1"
-    )
+def _api(session: requests.Session, lang: str, params: str) -> dict | None:
+    url = f"https://{lang}.wikipedia.org/w/api.php?format=json&utf8=1&{params}"
     response = get(session, url, timeout=12, retries=1)
     if not response.ok:
         return None
     try:
-        hits = json.loads(response.text)["query"]["search"]
-    except (ValueError, KeyError, TypeError):
+        return json.loads(response.text)
+    except ValueError:
         return None
-    return hits[0]["title"] if hits else None
+
+
+def _titles(session: requests.Session, lang: str, query: str) -> list[str]:
+    """Kandydaci na hasło: najpierw trafienie w sam tytuł, potem pełen tekst."""
+    found: list[str] = []
+    for what in ("nearmatch", "text"):
+        data = _api(
+            session, lang,
+            f"action=query&list=search&srwhat={what}&srlimit=3&srsearch={quote(query)}",
+        )
+        hits = ((data or {}).get("query") or {}).get("search") or []
+        for hit in hits:
+            title = hit.get("title")
+            if title and title not in found:
+                found.append(title)
+        if what == "nearmatch" and found:
+            break  # trafienie w tytuł jest pewne, nie trzeba szukać dalej
+    return found
+
+
+def _matches_query(title: str, query: str) -> bool:
+    """Czy znalezione hasło to naprawdę to, o co pytaliśmy?"""
+    tytul, szukane = token_set(title), token_set(query)
+    if not tytul or not szukane:
+        return False
+    if tytul == szukane:
+        return True
+    return overlap(tytul, szukane) >= TITLE_MATCH
 
 
 def _summary(session: requests.Session, lang: str, title: str) -> dict | None:
@@ -58,16 +89,17 @@ def _summary(session: requests.Session, lang: str, title: str) -> dict | None:
 
 
 def background(session: requests.Session, candidates: list[str]) -> dict | None:
-    """Pierwsze sensowne hasło dla listy kandydatów (od najważniejszego)."""
+    """Pierwsze *trafne* hasło dla listy kandydatów (od najważniejszego)."""
     for candidate in candidates[:4]:
-        if len(candidate) < 3:
+        if len(candidate) < 4:
             continue
         for lang in LANGS:
-            title = _search(session, lang, candidate)
-            if not title:
-                continue
-            summary = _summary(session, lang, title)
-            if summary:
-                log.debug("tło z Wikipedii (%s): %s", lang, title)
-                return summary
+            for title in _titles(session, lang, candidate):
+                if not _matches_query(title, candidate):
+                    log.debug("odrzucam hasło %r dla zapytania %r — nie o to pytaliśmy", title, candidate)
+                    continue
+                summary = _summary(session, lang, title)
+                if summary:
+                    log.debug("tło z Wikipedii (%s): %s", lang, title)
+                    return summary
     return None

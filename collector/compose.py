@@ -181,6 +181,9 @@ def compose_extractive(cluster: Cluster, segment: Segment, background: dict | No
                 "tytuł": "Tło",
                 "rodzaj": "akapity",
                 "treść": [background["tekst"]],
+                # Język hasła: polskiego tła nie wolno przepuścić przez
+                # tłumacza angielsko-polskiego.
+                "język": background.get("język", "pl"),
                 "przypis": f"Wikipedia: {background['hasło']}",
                 "url": background["url"],
             }
