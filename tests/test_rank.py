@@ -59,3 +59,22 @@ def test_wykluczone_adresy_sa_pomijane(wpisy, okno):
     drugi = pick(wpisy("polska"), segment, okno[1], exclude_urls=bez)
     assert drugi is not None
     assert not (bez & {e.url for e in drugi.entries})
+
+
+def test_ogolny_kanal_naukowy_nie_wpycha_medycyny_do_fizyki(wpisy, okno):
+    """„Nauka po polsku" to nie to samo co fizyka — filtr działu musi to rozróżnić."""
+    tytuly = [w.title for w in wpisy("fizyka")]
+    assert not any("szczepionek" in t for t in tytuly)
+    assert any("splątanie kwantowe" in t for t in tytuly)
+
+
+def test_fizyka_wybiera_polski_temat_z_wlasnej_dziedziny(wpisy, okno):
+    wybrany = pick(wpisy("fizyka"), SEGMENTS_BY_ID["fizyka"], okno[1])
+    assert wybrany.lead.lang == "pl"
+    assert "kwantowe" in wybrany.lead.title
+
+
+def test_ten_sam_kanal_bez_filtra_wpuszcza_medycyne_do_technologii(wpisy):
+    """Dział „Technologia i nauka" jest szeroki — tam ta sama wiadomość ma sens."""
+    tytuly = [w.title for w in wpisy("technologia")]
+    assert any("szczepionek" in t for t in tytuly)

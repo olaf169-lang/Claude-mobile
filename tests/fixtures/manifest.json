@@ -103,5 +103,10 @@
     "plik": "en_phys_quantum.xml",
     "źródło": "Phys.org Quantum",
     "język": "en"
+  },
+  "https://naukawpolsce.pl/rss.xml": {
+    "plik": "pl_nauka.xml",
+    "źródło": "Nauka w Polsce",
+    "język": "pl"
   }
 }
