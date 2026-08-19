@@ -18,10 +18,10 @@ W każdym dziale dokładnie jeden temat dnia — ten, który tego dnia opisało 
 ## Jak to działa
 
 ```
-85 kanałów RSS  →  filtr dnia X-1  →  grupowanie w tematy  →  ranking  →  pogłębienie  →  JSON  →  aplikacja
+76 kanałów RSS  →  filtr dnia X-1  →  grupowanie w tematy  →  ranking  →  pogłębienie  →  JSON  →  aplikacja
 ```
 
-1. **Zbiórka.** O 8:00 czasu polskiego kolektor pobiera 85 kanałów RSS (polskich i zagranicznych)
+1. **Zbiórka.** O 8:00 czasu polskiego kolektor pobiera 76 kanałów RSS (polskich i zagranicznych)
    i zostawia tylko materiały opublikowane poprzedniego dnia.
 2. **Grupowanie.** Wpisy opisujące to samo wydarzenie trafiają do jednego klastra. Podobieństwo liczone
    jest na rzadkich w danej puli tokenach plus n-gramach znakowych, więc „obniżyła" i „obniża" to nadal
@@ -154,7 +154,7 @@ mówi, który kanał nie odpowiada i który nie ma świeżych wpisów. Warto pu�
 
 ```
 collector/          kolektor: źródła, pobieranie, ranking, pogłębianie, zapis
-  sources.py        katalog 85 kanałów w 10 działach
+  sources.py        katalog 76 kanałów w 10 działach
   collect.py        pobieranie i normalizacja wpisów
   rank.py           grupowanie w tematy i wybór najważniejszego
   extract.py        wyciąganie treści artykułu ze strony
@@ -187,7 +187,7 @@ i *brak* łączenia różnych newsów o tym samym polityku), ekstrakcję treści
   i słowa `boost` to miejsce, w którym możesz to przechylić po swojemu.
 - **Bez klucza API omówienia bywają dwujęzyczne.** Fragmenty ze źródeł obcojęzycznych są cytowane
   w oryginale z etykietą `[en]`. Klucz `ANTHROPIC_API_KEY` rozwiązuje to całkowicie.
-- **Kanały RSS się psują.** Katalog 85 źródeł na pewno z czasem podniszczeje — stąd `collector.doctor`.
+- **Kanały RSS się psują.** Katalog źródeł na pewno z czasem podniszczeje — stąd `collector.doctor`.
   Martwy kanał nie psuje wydania, jest tylko liczony w statystykach.
 - **Wydanie nie może być pełniejsze niż źródła.** Jeśli w niedzielę nikt nie pisał o geografii,
   dział zostanie pusty i trafi na listę `braki`.

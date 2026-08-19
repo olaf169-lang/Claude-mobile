@@ -39,6 +39,6 @@ def test_filtr_odrzuca_material_spoza_dnia(wpisy):
 
 def test_kanal_ogolny_wymaga_slowa_kluczowego():
     segment = SEGMENTS_BY_ID["polska"]
-    wpisy = parse_feed((FIXTURES / "pl_pap.xml").read_bytes(), Feed("http://x", "PAP"))
+    wpisy = parse_feed((FIXTURES / "pl_agencja.xml").read_bytes(), Feed("http://x", "Gazeta.pl"))
     budzet = next(w for w in wpisy if "budżetu" in w.title)
     assert matches_segment(budzet, segment, require_boost=True)

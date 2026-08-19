@@ -4,11 +4,6 @@
     "źródło": "RMF24",
     "język": "pl"
   },
-  "https://www.pap.pl/rss.xml": {
-    "plik": "pl_pap.xml",
-    "źródło": "PAP",
-    "język": "pl"
-  },
   "https://www.bankier.pl/rss/wiadomosci.xml": {
     "plik": "pl_bankier.xml",
     "źródło": "Bankier.pl",
@@ -28,11 +23,6 @@
     "plik": "en_guardian_world.xml",
     "źródło": "The Guardian",
     "język": "en"
-  },
-  "https://www.przegladsportowy.onet.pl/.feed": {
-    "plik": "pl_sport.xml",
-    "źródło": "Przegląd Sportowy",
-    "język": "pl"
   },
   "https://sportowefakty.wp.pl/rss.xml": {
     "plik": "pl_sportowefakty.xml",
@@ -64,11 +54,6 @@
     "źródło": "Phys.org",
     "język": "en"
   },
-  "https://physics.aps.org/feed": {
-    "plik": "en_aps.xml",
-    "źródło": "APS Physics",
-    "język": "en"
-  },
   "https://www.nasa.gov/feed/": {
     "plik": "en_nasa.xml",
     "źródło": "NASA",
@@ -94,14 +79,29 @@
     "źródło": "Booklips",
     "język": "pl"
   },
-  "https://variety.com/feed/": {
-    "plik": "en_variety.xml",
-    "źródło": "Variety",
-    "język": "en"
-  },
   "https://www.filmweb.pl/rss/news": {
     "plik": "pl_filmweb.xml",
     "źródło": "Filmweb",
     "język": "pl"
+  },
+  "https://wiadomosci.gazeta.pl/pub/rss/wiadomosci.htm": {
+    "plik": "pl_agencja.xml",
+    "źródło": "Gazeta.pl",
+    "język": "pl"
+  },
+  "https://sport.onet.pl/.feed": {
+    "plik": "pl_sport.xml",
+    "źródło": "Onet Sport",
+    "język": "pl"
+  },
+  "https://www.theguardian.com/film/rss": {
+    "plik": "en_film.xml",
+    "źródło": "The Guardian Film",
+    "język": "en"
+  },
+  "https://phys.org/rss-feed/physics-news/quantum-physics/": {
+    "plik": "en_phys_quantum.xml",
+    "źródło": "Phys.org Quantum",
+    "język": "en"
   }
 }

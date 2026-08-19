@@ -1,5 +1,10 @@
 """Katalog źródeł: dziesięć segmentów Przeglądu News.
 
+Lista jest wynikiem prawdziwych przebiegów, nie zgadywania: kanały, które
+odpowiedziały błędem, zostały wymienione na inne — z domen, które w tym samym
+przebiegu działały. Każde wydanie niesie listę kanałów, które zawiodły
+(`statystyki.niedziałające_kanały`), więc ubytki widać od razu.
+
 Każdy segment miesza źródła polskie i zagraniczne. Polskie dają tekst po
 polsku nawet bez modelu językowego, zagraniczne dają potwierdzenie tematu
 z drugiej strony i szerszy kontekst. Martwy kanał nie psuje wydania —
@@ -25,9 +30,8 @@ SEGMENTS: tuple[Segment, ...] = (
         emoji="🇵🇱",
         blurb="polityka, gospodarka, handel, sprawy krajowe",
         feeds=(
-            _f("https://www.pap.pl/rss.xml", "PAP", weight=1.35, topical=False),
             _f("https://www.rmf24.pl/fakty/polska/feed", "RMF24", weight=1.15),
-            _f("https://tvn24.pl/najwazniejsze.xml", "TVN24", weight=1.15, topical=False),
+            _f("https://tvn24.pl/najnowsze.xml", "TVN24", weight=1.15, topical=False),
             _f("https://www.polsatnews.pl/rss/polska.xml", "Polsat News", weight=1.05),
             _f("https://wiadomosci.onet.pl/.feed", "Onet Wiadomości", weight=1.0, topical=False),
             _f("https://fakty.interia.pl/feed", "Interia Fakty", weight=1.0, topical=False),
@@ -54,14 +58,13 @@ SEGMENTS: tuple[Segment, ...] = (
             _f("https://www.rmf24.pl/fakty/swiat/feed", "RMF24 Świat", weight=1.05),
             _f("https://www.polsatnews.pl/rss/swiat.xml", "Polsat News Świat", weight=1.0),
             _f("https://wiadomosci.onet.pl/swiat.feed", "Onet Świat", weight=1.0),
-            _f("https://www.pap.pl/rss.xml", "PAP", weight=1.2, topical=False),
             _f("https://feeds.bbci.co.uk/news/world/rss.xml", "BBC News", lang=EN, weight=1.35),
             _f("https://www.theguardian.com/world/rss", "The Guardian", lang=EN, weight=1.2),
             _f("https://www.aljazeera.com/xml/rss/all.xml", "Al Jazeera", lang=EN, weight=1.05),
             _f("https://rss.dw.com/rdf/rss-en-world", "Deutsche Welle", lang=EN, weight=1.05),
             _f("https://feeds.npr.org/1004/rss.xml", "NPR", lang=EN, weight=1.0),
             _f("https://www.politico.eu/feed/", "Politico Europe", lang=EN, weight=1.1),
-            _f("https://www.cnbc.com/id/100003114/device/rss/rss.html", "CNBC World", lang=EN, weight=1.0),
+            _f("https://feeds.bbci.co.uk/news/business/rss.xml", "BBC Business", lang=EN, weight=1.15),
         ),
         boost=(
             "ue", "nato", "onz", "sankcje", "cła", "tariff", "trade", "summit",
@@ -78,12 +81,9 @@ SEGMENTS: tuple[Segment, ...] = (
         blurb="badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta",
         feeds=(
             _f("https://sportowefakty.wp.pl/rss.xml", "Sportowe Fakty", weight=1.15),
-            _f("https://www.przegladsportowy.onet.pl/.feed", "Przegląd Sportowy", weight=1.2),
             _f("https://sport.interia.pl/feed", "Interia Sport", weight=1.05),
             _f("https://sport.onet.pl/.feed", "Onet Sport", weight=1.0),
-            _f("https://serwisy.gazeta.pl/pub/rss/sport.htm", "Sport.pl", weight=1.1),
             _f("https://weszlo.com/feed/", "Weszło", weight=0.9),
-            _f("https://sport.tvp.pl/rss.xml", "TVP Sport", weight=1.0),
             _f("https://www.polsatsport.pl/rss/wszystkie.xml", "Polsat Sport", weight=1.0),
         ),
         boost=(
@@ -102,11 +102,10 @@ SEGMENTS: tuple[Segment, ...] = (
         feeds=(
             _f("https://feeds.bbci.co.uk/sport/rss.xml", "BBC Sport", lang=EN, weight=1.3),
             _f("https://www.theguardian.com/sport/rss", "The Guardian Sport", lang=EN, weight=1.2),
-            _f("https://www.espn.com/espn/rss/news", "ESPN", lang=EN, weight=1.05),
+            _f("https://feeds.bbci.co.uk/sport/football/rss.xml", "BBC Football", lang=EN, weight=1.1),
             _f("https://www.skysports.com/rss/12040", "Sky Sports", lang=EN, weight=1.0),
-            _f("https://www.eurosport.com/rss.xml", "Eurosport", lang=EN, weight=0.95),
+            _f("https://www.theguardian.com/football/rss", "The Guardian Football", lang=EN, weight=1.05),
             _f("https://sportowefakty.wp.pl/rss.xml", "Sportowe Fakty", weight=0.9),
-            _f("https://www.przegladsportowy.onet.pl/.feed", "Przegląd Sportowy", weight=0.9),
         ),
         boost=(
             "champions league", "premier league", "la liga", "nba", "nfl", "mlb",
@@ -130,7 +129,7 @@ SEGMENTS: tuple[Segment, ...] = (
             _f("https://www.theverge.com/rss/index.xml", "The Verge", lang=EN, weight=1.05),
             _f("https://techcrunch.com/feed/", "TechCrunch", lang=EN, weight=1.0),
             _f("https://www.nature.com/nature.rss", "Nature", lang=EN, weight=1.3),
-            _f("https://www.science.org/rss/news_current.xml", "Science", lang=EN, weight=1.25),
+            _f("https://phys.org/rss-feed/technology-news/", "Phys.org Technology", lang=EN, weight=1.1),
             _f("https://www.newscientist.com/feed/home/", "New Scientist", lang=EN, weight=1.05),
             _f("https://www.sciencedaily.com/rss/top/science.xml", "ScienceDaily", lang=EN, weight=1.0),
             _f("https://spectrum.ieee.org/feeds/feed.rss", "IEEE Spectrum", lang=EN, weight=1.05),
@@ -151,11 +150,10 @@ SEGMENTS: tuple[Segment, ...] = (
         feeds=(
             _f("https://phys.org/rss-feed/physics-news/", "Phys.org", lang=EN, weight=1.2),
             _f("https://www.sciencedaily.com/rss/matter_energy/physics.xml", "ScienceDaily Physics", lang=EN, weight=1.05),
-            _f("https://physics.aps.org/feed", "APS Physics", lang=EN, weight=1.3),
+            _f("https://phys.org/rss-feed/physics-news/quantum-physics/", "Phys.org Quantum", lang=EN, weight=1.2),
             _f("https://www.quantamagazine.org/feed/", "Quanta Magazine", lang=EN, weight=1.25),
-            _f("https://home.cern/api/news/news/feed.rss", "CERN", lang=EN, weight=1.2),
+            _f("https://www.sciencedaily.com/rss/matter_energy/quantum_physics.xml", "ScienceDaily Quantum", lang=EN, weight=1.05),
             _f("https://naukawpolsce.pl/rss.xml", "Nauka w Polsce", weight=1.0),
-            _f("https://www.symmetrymagazine.org/feed", "Symmetry Magazine", lang=EN, weight=1.05),
         ),
         boost=(
             "kwant", "quantum", "cząstk", "particle", "neutrino", "boson", "kwark",
@@ -225,12 +223,10 @@ SEGMENTS: tuple[Segment, ...] = (
         feeds=(
             _f("https://booklips.pl/feed/", "Booklips", weight=1.1),
             _f("https://www.granice.pl/rss", "Granice.pl", weight=1.0),
-            _f("https://culture.pl/pl/rss", "Culture.pl", weight=1.05),
             _f("https://www.theguardian.com/books/rss", "The Guardian Books", lang=EN, weight=1.25),
             _f("https://lithub.com/feed/", "Literary Hub", lang=EN, weight=1.1),
-            _f("https://www.nybooks.com/feed/", "New York Review of Books", lang=EN, weight=1.05),
             _f("https://www.publishersweekly.com/pw/feeds/recent/index.xml", "Publishers Weekly", lang=EN, weight=1.0),
-            _f("https://www.newyorker.com/feed/books", "The New Yorker Books", lang=EN, weight=1.05),
+            _f("https://www.theguardian.com/books/booksblog/rss", "Guardian Books Blog", lang=EN, weight=1.0),
         ),
         boost=(
             "nagroda", "prize", "award", "nobel", "booker", "pulitzer", "nike",
@@ -247,13 +243,11 @@ SEGMENTS: tuple[Segment, ...] = (
         blurb="film, seriale, muzyka, gry i to, o czym mówi internet",
         feeds=(
             _f("https://www.filmweb.pl/rss/news", "Filmweb", weight=1.1),
-            _f("https://naekranie.pl/rss", "naEKRANIE", weight=0.95),
             _f("https://kultura.onet.pl/.feed", "Onet Kultura", weight=1.0),
-            _f("https://variety.com/feed/", "Variety", lang=EN, weight=1.25),
-            _f("https://www.hollywoodreporter.com/feed/", "The Hollywood Reporter", lang=EN, weight=1.15),
-            _f("https://deadline.com/feed/", "Deadline", lang=EN, weight=1.1),
+            _f("https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml", "BBC Kultura", lang=EN, weight=1.2),
+            _f("https://www.theguardian.com/film/rss", "The Guardian Film", lang=EN, weight=1.15),
+            _f("https://www.theguardian.com/music/rss", "The Guardian Music", lang=EN, weight=1.05),
             _f("https://pitchfork.com/feed/feed-news/rss", "Pitchfork", lang=EN, weight=1.05),
-            _f("https://www.rollingstone.com/feed/", "Rolling Stone", lang=EN, weight=1.0),
             _f("https://www.theguardian.com/culture/rss", "The Guardian Culture", lang=EN, weight=1.05),
         ),
         boost=(
