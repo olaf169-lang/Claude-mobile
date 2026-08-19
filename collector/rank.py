@@ -21,6 +21,9 @@ NGRAM_FLOOR = 0.18
 NGRAM_STRONG = 0.45
 #: Ile tekstu wybranego artykułu wystarcza, by nie sięgać po kolejne źródła.
 MIN_FULLTEXT = 900
+#: Jaką część wyniku najlepszego tematu musi osiągnąć najlepszy temat polski,
+#: żeby to on trafił do wydania. Niżej = ostrzej trzymamy się polskiego.
+LANGUAGE_FLOOR = 0.7
 
 
 class _Similarity:
@@ -103,10 +106,9 @@ def _freshness(entry: Entry, window_end: datetime) -> float:
 
 def score_cluster(cluster: Cluster, segment: Segment, window_end: datetime) -> Cluster:
     entries = cluster.entries
-    distinct_sources = len({e.source for e in entries})
-    distinct_domains = len({e.domain for e in entries if e.domain})
-
-    corroboration = (distinct_sources - 1) * 1.6 + (distinct_domains - 1) * 0.4
+    # Liczą się niezależni wydawcy, nie kanały: kilka feedów jednej redakcji
+    # opisuje ten sam temat z tej samej perspektywy i nic nie potwierdza.
+    corroboration = (len(cluster.publishers) - 1) * 1.9
     authority = max(e.weight for e in entries) + 0.15 * (sum(e.weight for e in entries) - max(e.weight for e in entries))
     prominence = sum(max(0.0, 0.9 - 0.09 * e.feed_position) for e in entries[:5])
     keywords = max(_keyword_bonus(f"{e.title} {e.summary}", segment) for e in entries)
@@ -162,7 +164,16 @@ def pick(
     ranked = rank(usable, segment, window_end)
     if not ranked:
         return None
-    # Najważniejszy temat, który ma źródło w języku działu. Bez tego przegląd
-    # potrafił postawić na czele działu tekst, którego czytelnik nie przeczyta.
+
+    # Polski wygrywa domyślnie — przegląd jest do czytania po polsku. Ale nie
+    # za każdą cenę: gdy najlepszy polski temat jest wyraźnie słabszy od
+    # najlepszego dostępnego (typowo: notka branżowa z jednego serwisu kontra
+    # odkrycie opisane przez cztery redakcje), dział pokazuje ten mocniejszy.
+    # Aplikacja oznacza wtedy kartę plakietką „po angielsku".
     w_jezyku = [c for c in ranked if any(e.lang == segment.prefer_lang for e in c.entries)]
-    return w_jezyku[0] if w_jezyku else ranked[0]
+    if not w_jezyku:
+        return ranked[0]
+    najlepszy_w_jezyku, najlepszy = w_jezyku[0], ranked[0]
+    if najlepszy_w_jezyku.score >= najlepszy.score * LANGUAGE_FLOOR:
+        return najlepszy_w_jezyku
+    return najlepszy

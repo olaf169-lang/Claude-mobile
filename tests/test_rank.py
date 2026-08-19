@@ -68,13 +68,66 @@ def test_ogolny_kanal_naukowy_nie_wpycha_medycyny_do_fizyki(wpisy, okno):
     assert any("splątanie kwantowe" in t for t in tytuly)
 
 
-def test_fizyka_wybiera_polski_temat_z_wlasnej_dziedziny(wpisy, okno):
+def test_fizyka_wybiera_temat_z_wlasnej_dziedziny(wpisy, okno):
+    """Niezależnie od języka — byle była to fizyka, a nie medycyna."""
     wybrany = pick(wpisy("fizyka"), SEGMENTS_BY_ID["fizyka"], okno[1])
-    assert wybrany.lead.lang == "pl"
-    assert "kwantowe" in wybrany.lead.title
+    assert "szczepionek" not in wybrany.lead.title
+    assert any(slowo in wybrany.lead.title.lower() for slowo in ("kwant", "quantum", "muon"))
+
+
+def test_dwa_kanaly_jednej_redakcji_to_jedno_potwierdzenie():
+    """Phys.org i Phys.org Quantum to ta sama redakcja, nie dwa niezależne źródła."""
+    from collector.rank import cluster_entries
+
+    klaster = cluster_entries([
+        _wpis("Krypton boosts quantum computing", "Phys.org", "en"),
+        _wpis("Krypton gas boosts quantum computing chips", "Phys.org Quantum", "en"),
+    ])[0]
+    # Ten sam host w obu adresach — jeden wydawca mimo dwóch nazw kanałów.
+    klaster.entries[1].url = klaster.entries[0].url.rsplit("/", 1)[0] + "/inny"
+    assert len(klaster.sources) == 2
+    assert len(klaster.publishers) == 1
 
 
 def test_ten_sam_kanal_bez_filtra_wpuszcza_medycyne_do_technologii(wpisy):
     """Dział „Technologia i nauka" jest szeroki — tam ta sama wiadomość ma sens."""
     tytuly = [w.title for w in wpisy("technologia")]
     assert any("szczepionek" in t for t in tytuly)
+
+
+def _wpis(tytul, zrodlo, jezyk, waga=1.0, opis=""):
+    from datetime import datetime, timezone
+    from collector.model import Entry
+    return Entry(
+        title=tytul, url=f"https://{zrodlo}.example/{abs(hash(tytul)) % 9999}",
+        source=zrodlo, lang=jezyk, weight=waga,
+        published=datetime(2026, 8, 18, 12, tzinfo=timezone.utc),
+        summary=opis or tytul,
+    )
+
+
+def test_slaby_polski_temat_ustepuje_mocnemu_obcemu(okno):
+    """Notka branżowa z jednego serwisu nie może wygrać z odkryciem opisanym przez cztery."""
+    segment = SEGMENTS_BY_ID["fizyka"]
+    wpisy = [
+        _wpis("Nowa przeglądarka plików pomiarowych dla laboratoriów", "Geoforum", "pl"),
+        _wpis("Krypton gas emerges as ingredient for quantum computing", "Phys.org", "en", 1.2),
+        _wpis("Krypton as a new quantum computing ingredient, researchers show", "Nature", "en", 1.3),
+        _wpis("Quantum computing gets a krypton boost in new study", "New Scientist", "en", 1.05),
+        _wpis("Researchers use krypton to improve quantum computing chips", "ScienceDaily", "en"),
+    ]
+    wybrany = pick(wpisy, segment, okno[1])
+    assert wybrany.lead.lang == "en"
+    assert len(wybrany.sources) == 4
+
+
+def test_porownywalny_polski_temat_wygrywa(okno):
+    """Przy zbliżonej wadze tematów przegląd zostaje przy polskim."""
+    segment = SEGMENTS_BY_ID["fizyka"]
+    wpisy = [
+        _wpis("Polscy fizycy uzyskali splątanie kwantowe w temperaturze pokojowej", "Nauka w Polsce", "pl", 1.15),
+        _wpis("Kwantowe splątanie bez chłodzenia. Przełom z Warszawy", "Crazy Nauka", "pl"),
+        _wpis("Krypton gas emerges as ingredient for quantum computing", "Phys.org", "en", 1.2),
+    ]
+    wybrany = pick(wpisy, segment, okno[1])
+    assert wybrany.lead.lang == "pl"

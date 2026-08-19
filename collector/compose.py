@@ -271,7 +271,7 @@ def story_to_dict(story: Story) -> dict[str, Any]:
             {"nazwa": e.source, "tytuł": e.title, "url": e.url}
             for e in story.cluster.entries
         ],
-        "liczba_źródeł": len(story.cluster.sources),
+        "liczba_źródeł": len(story.cluster.publishers),
         "czas_czytania_min": reading_time(full_text) if full_text else 1,
         "tryb": story.mode,
         "ranking": {"wynik": story.cluster.score, "składowe": story.cluster.score_parts},

@@ -75,10 +75,26 @@ class Cluster:
 
     @property
     def sources(self) -> list[str]:
+        """Nazwy kanałów — do wyświetlenia."""
         seen: list[str] = []
         for e in self.entries:
             if e.source not in seen:
                 seen.append(e.source)
+        return seen
+
+    @property
+    def publishers(self) -> list[str]:
+        """Niezależni wydawcy, liczeni po domenie artykułu.
+
+        „Phys.org" i „Phys.org Quantum" to dwa kanały jednej redakcji, tak samo
+        jak siedem kanałów Guardiana. Liczone po nazwie kanału zawyżałyby
+        potwierdzenie tematu, czyli najważniejszy sygnał w całym rankingu.
+        """
+        seen: list[str] = []
+        for e in self.entries:
+            key = e.domain or e.source
+            if key not in seen:
+                seen.append(key)
         return seen
 
     @property

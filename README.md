@@ -27,8 +27,8 @@ W każdym dziale dokładnie jeden temat dnia — ten, który tego dnia opisało 
    jest na rzadkich w danej puli tokenach plus n-gramach znakowych, więc „obniżyła" i „obniża" to nadal
    jeden temat. Ponad barierą językową łączą liczby i nazwy własne — „Webb / 41 light-years"
    spotyka się z „Webba / 41 lat świetlnych".
-3. **Ranking.** Wygrywa temat z największą liczbą **niezależnych źródeł** — to najuczciwszy dostępny
-   sygnał ważności. Dalej liczą się ranga redakcji, miejsce w kanale, słowa kluczowe działu i świeżość.
+3. **Ranking.** Wygrywa temat z największą liczbą **niezależnych wydawców** — to najuczciwszy dostępny
+   sygnał ważności. Liczą się wydawcy, nie kanały: siedem feedów Guardiana to jedno potwierdzenie. Dalej liczą się ranga redakcji, miejsce w kanale, słowa kluczowe działu i świeżość.
    Punktacja każdego wybranego tematu ląduje w JSON-ie (pole `ranking`), więc zawsze widać, dlaczego coś wygrało.
 4. **Pogłębienie.** Kolektor dociąga pełne teksty do czterech artykułów z różnych redakcji, dokłada tło
    z Wikipedii i składa omówienie: co się stało, szczegóły z liczbami, tło, jak piszą inni, źródła.
@@ -185,12 +185,14 @@ i *brak* łączenia różnych newsów o tym samym polityku), ekstrakcję treści
 - **Wybór jest statystyczny, nie redakcyjny.** Kryterium „ile niezależnych redakcji o tym pisze" dobrze
   wyłapuje wydarzenia dnia, ale premiuje tematy głośne, nie zawsze najciekawsze. Wagi w `sources.py`
   i słowa `boost` to miejsce, w którym możesz to przechylić po swojemu.
-- **Polski ma pierwszeństwo przed „ważnością".** Temat bez polskiego źródła przegrywa w rankingu
-  z takim, który je ma, a omówienie składane jest wyłącznie z materiału w języku artykułu głównego.
-  Czasem oznacza to, że najgłośniejsza światowa historia dnia ustąpi miejsca nieco mniejszej, za to
-  opisanej po polsku. Gdy w dziale nie ma żadnego polskiego źródła, karta dostaje etykietę
-  „po angielsku" zamiast po cichu mieszać języki. Klucz `ANTHROPIC_API_KEY` znosi ten kompromis:
-  model pisze po polsku także z materiału angielskiego, więc wybór wraca do samej ważności tematu.
+- **Polski ma pierwszeństwo, ale nie za każdą cenę.** Temat opisany po polsku wygrywa z lepiej
+  potwierdzonym obcojęzycznym, dopóki nie jest od niego *wyraźnie* słabszy — próg to 70% wyniku
+  najlepszego tematu (`LANGUAGE_FLOOR` w `rank.py`; niżej = ostrzej trzymamy się polskiego).
+  Dzięki temu notka branżowa z jednego serwisu nie wypiera odkrycia opisanego przez cztery redakcje.
+  Gdy do wydania trafi tekst obcojęzyczny, karta mówi o tym wprost etykietą „po angielsku", a całe
+  omówienie jest wtedy w jednym języku — nigdy pół na pół. Klucz `ANTHROPIC_API_KEY` znosi ten
+  kompromis: model pisze po polsku także z materiału angielskiego, więc o wyborze decyduje sama
+  ważność tematu.
 - **Kanały RSS się psują.** Katalog źródeł na pewno z czasem podniszczeje — stąd `collector.doctor`.
   Martwy kanał nie psuje wydania, jest tylko liczony w statystykach.
 - **Wydanie nie może być pełniejsze niż źródła.** Jeśli w niedzielę nikt nie pisał o geografii,
