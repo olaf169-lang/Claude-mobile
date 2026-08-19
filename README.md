@@ -97,6 +97,16 @@ Przegląd pojawi się pod `https://olaf169-lang.github.io/Claude-mobile/`.
 Ręczne uruchomienie: zakładka *Actions → Przegląd News — wydanie poranne → Run workflow*
 (można podać własną datę).
 
+## Wysłanie przeglądu komuś innemu
+
+Wystarczy link: `https://olaf169-lang.github.io/Claude-mobile/`. Żadnych kont, instalatorów ani
+konfiguracji — każdy widzi to samo wydanie, każdy instaluje je u siebie tak samo. Przycisk 📤
+w aplikacji wysyła link systemowym oknem udostępniania (albo kopiuje go do schowka).
+
+Po wklejeniu w komunikatorze link pokazuje kartę z podglądem (`web/icons/podglad.png`).
+Adres w znacznikach `og:` w `web/index.html` jest bezwzględny — przy zmianie hostingu trzeba go
+tam podmienić.
+
 ## Aplikacja na telefon
 
 ### Wariant 1 — instalacja ze strony (najprostszy)

@@ -407,6 +407,33 @@
     return true;
   }
 
+  function initShare() {
+    const button = $('btn-share');
+    const adres = () => location.href.split('#')[0];
+    const dane = () => ({
+      title: 'Przegląd News',
+      text: 'Codziennie o 8:00 dziesięć najważniejszych informacji z dziesięciu dziedzin, po polsku.',
+      url: adres(),
+    });
+
+    button.addEventListener('click', async () => {
+      if (navigator.share) {
+        try {
+          await navigator.share(dane());
+          return;
+        } catch (error) {
+          if (error && error.name === 'AbortError') return;  // użytkownik zrezygnował
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(adres());
+        toast('Link skopiowany — wklej go komu chcesz.');
+      } catch {
+        toast(adres(), 8000);
+      }
+    });
+  }
+
   function initNotifications() {
     const button = $('btn-notify');
     const on = localStorage.getItem(STORE.notify) === '1'
@@ -461,6 +488,7 @@
   function init() {
     initTheme();
     initInstall();
+    initShare();
     initNotifications();
     $('btn-archive').addEventListener('click', openArchive);
     $('archive-close').addEventListener('click', () => $('archive').close());

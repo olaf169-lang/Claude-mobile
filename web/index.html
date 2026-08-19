@@ -7,6 +7,18 @@
 <meta name="description" content="Codzienny, pogłębiony przegląd: po jednej najważniejszej informacji z dziesięciu dziedzin.">
 <meta name="theme-color" content="#070C17">
 <meta name="color-scheme" content="dark light">
+<!-- Podgląd linku w komunikatorach. Adres musi być bezwzględny; przy zmianie
+     hostingu trzeba go tu podmienić. -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Przegląd News">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:url" content="https://olaf169-lang.github.io/Claude-mobile/">
+<meta property="og:title" content="Przegląd News — dziesięć rzeczy, które warto dziś wiedzieć">
+<meta property="og:description" content="Codziennie o 8:00 jedna najważniejsza informacja z dziesięciu dziedzin, z pogłębionym omówieniem. Za darmo, bez konta.">
+<meta property="og:image" content="https://olaf169-lang.github.io/Claude-mobile/icons/podglad.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
@@ -36,6 +48,7 @@
     <div class="topbar__actions">
       <button id="btn-archive" class="iconbtn" type="button" title="Archiwum wydań" aria-label="Archiwum wydań">🗂️</button>
       <button id="btn-notify" class="iconbtn" type="button" title="Powiadomienia o nowym wydaniu" aria-label="Powiadomienia o nowym wydaniu">🔔</button>
+      <button id="btn-share" class="iconbtn" type="button" title="Wyślij komuś przegląd" aria-label="Wyślij komuś przegląd">📤</button>
       <button id="btn-install" class="iconbtn iconbtn--hidden" type="button" title="Zainstaluj aplikację" aria-label="Zainstaluj aplikację">⬇️</button>
       <button id="btn-theme" class="themebtn" type="button" aria-label="Przełącz motyw">
         <span class="themebtn__icon" aria-hidden="true">☾</span>
