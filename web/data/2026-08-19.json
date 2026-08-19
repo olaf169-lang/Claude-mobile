@@ -2,7 +2,7 @@
  "wersja": "1.0.0",
  "wydanie": "2026-08-19",
  "dotyczy_dnia": "2026-08-18",
- "wygenerowano": "2026-08-19T12:11:55+00:00",
+ "wygenerowano": "2026-08-19T21:49:42+00:00",
  "strefa": "Europe/Warsaw",
  "tryb": "ekstrakcyjny",
  "demo": false,
@@ -49,25 +49,20 @@
      "treść": [
       "Naddniestrze – de iure region autonomiczny we wschodniej Mołdawii, de facto państwo nieuznawane ze stolicą w Tyraspolu, obejmujące tereny położone na lewym brzegu Dniestru oraz prawobrzeżne miasto Bendery (Tighina). Jest to pas ziemi o długości około 200 km i średniej szerokości około 12–15 km."
      ],
+     "język": "pl",
      "przypis": "Wikipedia: Naddniestrze",
      "url": "https://pl.wikipedia.org/wiki/Naddniestrze"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "99",
-    "1500"
+    "99"
    ],
    "inne_spojrzenia": [
     {
      "źródło": "Polsat News",
      "ujęcie": "Chyba nie trzeba tu komentarzy - przekazał premier Donald Tusk na początku posiedzenia rządu.",
      "url": "https://www.polsatnews.pl/wiadomosc/2026-08-18/premier-marcin-romanowski-na-99-procent-jest-w-naddniestrzu/"
-    },
-    {
-     "źródło": "Interia Fakty",
-     "ujęcie": "To tutaj przed polskim wymiarem sprawiedliwości ma się ukrywać Marcin Romanowski - były wiceminister sprawiedliwości.",
-     "url": "https://wydarzenia.interia.pl/zagranica/news-to-tutaj-ma-ukrywac-sie-romanowski-czym-jest-naddniestrze,nId,23530582"
     }
    ],
    "pojęcia": [],
@@ -96,25 +91,20 @@
      "url": "https://www.polsatnews.pl/wiadomosc/2026-08-18/premier-marcin-romanowski-na-99-procent-jest-w-naddniestrzu/"
     },
     {
-     "nazwa": "Interia Fakty",
-     "tytuł": "To tutaj ma ukrywać się Romanowski. Czym jest Naddniestrze?",
-     "url": "https://wydarzenia.interia.pl/zagranica/news-to-tutaj-ma-ukrywac-sie-romanowski-czym-jest-naddniestrze,nId,23530582"
-    },
-    {
      "nazwa": "Notes from Poland",
      "tytuł": "Poland “99% sure” fugitive opposition politician is in pro-Russian breakaway region of Moldova",
      "url": "https://notesfrompoland.com/2026/08/18/poland-99-sure-fugitive-opposition-politician-is-in-pro-russian-breakaway-region-of-moldova/"
     }
    ],
-   "liczba_źródeł": 3,
+   "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 8.532,
+    "wynik": 6.392,
     "składowe": {
-     "potwierdzenia": 3.8,
-     "ranga_źródła": 1.493,
-     "eksponowanie": 0.72,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.343,
+     "eksponowanie": 0.63,
      "słowa_kluczowe": 1.05,
      "świeżość": 0.473,
      "treściwość": 0.496,
@@ -163,10 +153,11 @@
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Ormuz – cieśnina Morza Arabskiego, pomiędzy Zatoką Perską od zachodu a Zatoką Omańską od wschodu. Północne wybrzeże należy do Iranu, południowe zaś do Zjednoczonych Emiratów Arabskich i Muhafazatu Masandam, eksklawy Omanu."
+      "The Kingdom of Hormuz was a kingdom ruled by a dynasty of southern Arab origin. It was located in the eastern side of the Persian Gulf and extended as far as Bahrain in the west at its zenith. The Kingdom was established in the 11th century initially as a dependency of the Kerman Seljuk Sultanate, and later as an autonomous tributary of the Salghurid Turkmens and the Ilkhanate. In its last phase Hormuz became a client state of the Portuguese Empire in the East."
      ],
-     "przypis": "Wikipedia: Ormuz (cieśnina)",
-     "url": "https://pl.wikipedia.org/wiki/Ormuz_(cie%C5%9Bnina)"
+     "język": "en",
+     "przypis": "Wikipedia: Kingdom of Hormuz",
+     "url": "https://en.wikipedia.org/wiki/Kingdom_of_Hormuz"
     }
    ],
    "dlaczego_to_ważne": "Proponował m.in. by Kanada została „51. stanem”, a także rozważał przejęcie Grenlandii, co groziło rozłamem w NATO.",
@@ -187,11 +178,11 @@
    ],
    "pojęcia": [],
    "tło": {
-    "hasło": "Ormuz (cieśnina)",
-    "opis": "cieśnina Morza Arabskiego",
-    "tekst": "Ormuz – cieśnina Morza Arabskiego, pomiędzy Zatoką Perską od zachodu a Zatoką Omańską od wschodu. Północne wybrzeże należy do Iranu, południowe zaś do Zjednoczonych Emiratów Arabskich i Muhafazatu Masandam, eksklawy Omanu.",
-    "url": "https://pl.wikipedia.org/wiki/Ormuz_(cie%C5%9Bnina)",
-    "język": "pl"
+    "hasło": "Kingdom of Hormuz",
+    "opis": "Kingdom in the Persian Gulf (11th century – 1622)",
+    "tekst": "The Kingdom of Hormuz was a kingdom ruled by a dynasty of southern Arab origin. It was located in the eastern side of the Persian Gulf and extended as far as Bahrain in the west at its zenith. The Kingdom was established in the 11th century initially as a dependency of the Kerman Seljuk Sultanate, and later as an autonomous tributary of the Salghurid Turkmens and the Ilkhanate. In its last phase Hormuz became a client state of the Portuguese Empire in the East.",
+    "url": "https://en.wikipedia.org/wiki/Kingdom_of_Hormuz",
+    "język": "en"
    },
    "tagi": [
     "Ormuz",
@@ -217,148 +208,21 @@
     },
     {
      "nazwa": "The Guardian",
-     "tytuł": "US-led drills to end six days early, South Korea says, amid Trump push for Kim Jong-un talks",
-     "url": "https://www.theguardian.com/world/2026/aug/19/us-south-korea-army-drills-cut-trump-push-kim-jong-un-talks"
-    },
-    {
-     "nazwa": "The Guardian",
-     "tytuł": "South Korea president calls for military independence in wake of Trump call to cut joint drills",
-     "url": "https://www.theguardian.com/world/2026/aug/18/south-korea-president-trump-military-drills-control-opcon-kim-jong-un"
-    },
-    {
-     "nazwa": "The Guardian",
-     "tytuł": "Netanyahu and Kushner talks make no breakthrough on stalled Gaza deal",
-     "url": "https://www.theguardian.com/world/2026/aug/17/netanyahu-kushner-talks-gaza-israel-us-board-of-peace"
-    },
-    {
-     "nazwa": "The Guardian",
-     "tytuł": "Trump hits pause on Canada tariffs threat, and hints at revival of Keystone XL oil pipeline project",
+     "tytuł": "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline",
      "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-delay-canada-tariffs-keystone-xl-oil-pipeline"
-    },
-    {
-     "nazwa": "Politico Europe",
-     "tytuł": "Trump hits pause on new Canada tariffs",
-     "url": "https://www.politico.com/news/2026/08/18/trump-hits-pause-on-new-canada-tariffs-01041402"
-    },
-    {
-     "nazwa": "NPR",
-     "tytuł": "S. Korea stresses US alliance amid confusion over Trump drill cut",
-     "url": "https://www.npr.org/2026/08/18/g-s1-139096/s-korea-stresses-us-alliance-amid-confusion-over-trump-drill-cut"
     }
    ],
-   "liczba_źródeł": 5,
+   "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 13.12,
+    "wynik": 8.374,
     "składowe": {
-     "potwierdzenia": 7.6,
-     "ranga_źródła": 2.513,
-     "eksponowanie": 0.36,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.657,
+     "eksponowanie": 0.27,
      "słowa_kluczowe": 1.05,
      "świeżość": 0.597,
-     "treściwość": 0.5,
-     "język_działu": 0.5
-    }
-   }
-  },
-  {
-   "dział": {
-    "id": "sport-pl",
-    "nazwa": "Sport w Polsce",
-    "emoji": "🏅",
-    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
-   },
-   "nagłówek": "Zieliński walczył z byłym partnerem. Zdecydował super tie-break",
-   "lead": "Jan Zieliński w tym sezonie występuje z Brytyjczykiem u swojego boku. Polak w parze gra z 32-letnim Lukiem Johnsonem.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-08-18T19:11:44+00:00",
-   "źródło": {
-    "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/tenis/news-zielinski-walczyl-z-bylym-partnerem-zdecydowal-super-tie-bre,nId,23530725",
-    "domena": "sport.interia.pl"
-   },
-   "obraz": "https://i.iplsc.com/-/000IG1UQRJFKJ2N4-C321.webp",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Jak na razie ta współpraca nie przynosi szczególnych rezultatów.",
-      "Tak naprawdę tylko dwa występy są takimi, na które warto zwrócić uwagę na przestrzeni sezonu.",
-      "Sceny w meczu Andriejewej, Rosjanka wpadła w szał.",
-      "Do tego doprowadziła ją rywalka Świątek Mowa o dwóch półfinałach.",
-      "Sezon rozpoczął się Polaka i Brytyjczyka naprawdę obiecująco."
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Rosjanka pokonała 6:1, 7:6 Indonezyjkę Janice Tjen."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Gaël Sébastien Monfils – francuski tenisista, reprezentant w Pucharze Davisa, olimpijczyk z Pekinu (2008), Rio de Janeiro (2016), Tokio (2020) i Paryża (2024)."
-     ],
-     "przypis": "Wikipedia: Gaël Monfils",
-     "url": "https://pl.wikipedia.org/wiki/Ga%C3%ABl_Monfils"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "32",
-    "16",
-    "10",
-    "1, 7"
-   ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "Polsat Sport",
-     "ujęcie": "Mirra Andriejewa awansowała do 1/8 finału turnieju WTA w Cincinnati.",
-     "url": "https://www.polsatsport.pl/wiadomosc/2026-08-18/andriejewa/"
-    }
-   ],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Gaël Monfils",
-    "opis": "tenisista francuski",
-    "tekst": "Gaël Sébastien Monfils – francuski tenisista, reprezentant w Pucharze Davisa, olimpijczyk z Pekinu (2008), Rio de Janeiro (2016), Tokio (2020) i Paryża (2024).",
-    "url": "https://pl.wikipedia.org/wiki/Ga%C3%ABl_Monfils",
-    "język": "pl"
-   },
-   "tagi": [
-    "Edouardem Rogerem Vasselinem",
-    "Zielińskiego Hugo Nysem",
-    "Andriejewej Rosjanka",
-    "Zieliński Johnson"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Zieliński walczył z byłym partnerem. Zdecydował super tie-break",
-     "url": "https://sport.interia.pl/tenis/news-zielinski-walczyl-z-bylym-partnerem-zdecydowal-super-tie-bre,nId,23530725"
-    },
-    {
-     "nazwa": "Polsat Sport",
-     "tytuł": "Indonezyjka postraszyła Andriejewą. Decydował tie-break",
-     "url": "https://www.polsatsport.pl/wiadomosc/2026-08-18/andriejewa/"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 5.29,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.2,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.49,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -371,110 +235,94 @@
     "emoji": "🌐",
     "opis": "wielkie ligi, turnieje i rekordy poza Polską"
    },
-   "nagłówek": "Koszmar gwiazdy Bayernu. Padł na murawę. \"Napady nieświadomości\"",
-   "lead": "W Bayernie Monachium pojawił się nieoczekiwany problem. Wygląda bowiem na to, że poważne kłopoty ze zdrowiem może mieć Jamal Musiala.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-08-18T18:44:12+00:00",
+   "nagłówek": "Buss próbuje zablokować sprzedaż rodzinnego udziału w Lakers przez jej rodzeństwo",
+   "lead": "Gubernator Los Angeles Lakers Jeanie Buss próbuje powstrzymać sprzedaż pozostałego udziału jej rodzeństwa w rozgrywkach NBA.",
+   "język_źródła": "en",
+   "opublikowano": "2026-08-18T13:39:42+00:00",
    "źródło": {
-    "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/pilka-nozna/bundesliga/news-koszmar-gwiazdy-bayernu-padl-na-murawe-napady-nieswiadomosci,nId,23530739",
-    "domena": "sport.interia.pl"
+    "nazwa": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/basketball/articles/c5yvdz79w11o?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
    },
-   "obraz": "https://i.iplsc.com/-/000N6UPG9Y5SNS32-C321.webp",
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/46f6/live/20058780-9afe-11f1-a27d-25dca26018ed.jpg",
    "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Gwiazdor reprezentacji Niemiec tak naprawdę stracił ostatni rok gry przez kontuzję odniesioną jeszcze na Klubowych Mistrzostwach Świata.",
-      "Wielki transfer w Anglii.",
-      "Wiadomość dla Matty'ego Casha.",
-      "Padło \"Here we go!\" Do gry wrócił po przerwie zimowej, ale nie prezentował się nadzwyczajnie.",
-      "Niemniej wystarczyło to na zapewnienie sobie miejsca w kadrze Niemców na turniej o mistrzostwo świata."
-     ]
-    },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Jamal Musiala, który zasłabł w trakcie ostatniego sparingu z RB Lipsk, pojawił się na boisku w 61. minucie."
+      "Godziny po tym, jak rodzina Buss wydała oświadczenie ujawniające ich zamiar sprzedaży 17,8% własności franczyzy Bobowi Igerowi i Joshowi Kushnerowi, CNBC i ESPN poinformowały, że prawnik Jeanie Buss starał się powstrzymać sprzedaż jej rodzeństwa z powodów prawnych.",
+      "Wytyczne NBA wymagają, aby właściciele lub gubernatorzy sprawujący kontrolę posiadali co najmniej 15% franszyzy."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "1. FC Heidenheim 1846 is a German professional association football club from the town of Heidenheim, Baden-Württemberg. The club currently plays in the Bundesliga, the top tier of the German football league system. They will play in the Bundesliga. 2 for the 2026–27 season following their relegation in the previous season, They're also the oldest professional football club in Germany."
+      "Los Angeles, oficjalnie City of Los Angeles, często skracane do L.A. – najludniejsze miasto amerykańskiego stanu Kalifornia, a zarazem drugie pod względem liczby mieszkańców miasto w Stanach Zjednoczonych, za sprawą populacji liczącej ok. 4 mln mieszkańców. Los Angeles zajmuje powierzchnię 1302 km² i położone jest w regionie Kalifornii Południowej. Miasto stanowi centrum aglomeracji Los Angeles-Long Beach-Santa Ana, którą w 2010 roku zamieszkiwało 12 828 837 osób, czyniąc z tego regionu 2. pod względem populacji obszar metropolitalny Stanów Zjednoczonych i jednocześnie jedną z najludniejszych metropolii świata. Wielkie Los Angeles to połączony obszar statystyczny z liczbą mieszkańców wynoszącą 18,8 mln. Los Angeles jest siedzibą hrabstwa Los Angeles, czyli najbardziej zaludnionego i jednego z najbardziej zróżnicowanych etnicznie hrabstw w Stanach Zjednoczonych. Z kolei obszar samego Los…"
      ],
-     "przypis": "Wikipedia: 1. FC Heidenheim",
-     "url": "https://en.wikipedia.org/wiki/1._FC_Heidenheim"
+     "język": "pl",
+     "przypis": "Wikipedia: Los Angeles",
+     "url": "https://pl.wikipedia.org/wiki/Los_Angeles"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "20",
-    "23",
-    "61",
-    "81",
-    "22"
+    "17.8%",
+    "15%",
+    "10",
+    "12.5",
+    "83%"
    ],
    "inne_spojrzenia": [
     {
-     "źródło": "Polsat Sport",
-     "ujęcie": "Do niepokojących scen doszło podczas wtorkowego sparingu Bayernu Monachium z zespołem Heidenheim.",
-     "url": "https://www.polsatsport.pl/wiadomosc/2026-08-18/musiala-zaslabl-po-osmiu-minutach-na-murawie-teraz-wydal-oswiadczenie/"
+     "źródło": "The Guardian Sport",
+     "ujęcie": "Czternaście miesięcy temu Jeanie Buss zapoczątkowała sprzedaż franczyzy Markowi Walterowi za 10 mld $, co było wówczas rekordem amerykańskiej franczyzy sportowej.",
+     "url": "https://www.theguardian.com/sport/2026/aug/17/jeanie-buss-reportedly-attempting-to-halt-her-siblings-attempt-to-sell-remaining-stake-in-lakers"
     }
    ],
    "pojęcia": [],
    "tło": {
-    "hasło": "1. FC Heidenheim",
-    "opis": "German professional football club",
-    "tekst": "1. FC Heidenheim 1846 is a German professional association football club from the town of Heidenheim, Baden-Württemberg. The club currently plays in the Bundesliga, the top tier of the German football league system. They will play in the Bundesliga. 2 for the 2026–27 season following their relegation in the previous season, They're also the oldest professional football club in Germany.",
-    "url": "https://en.wikipedia.org/wiki/1._FC_Heidenheim",
-    "język": "en"
+    "hasło": "Los Angeles",
+    "opis": "amerykańskie miasto w Kalifornii",
+    "tekst": "Los Angeles, oficjalnie City of Los Angeles, często skracane do L.A. – najludniejsze miasto amerykańskiego stanu Kalifornia, a zarazem drugie pod względem liczby mieszkańców miasto w Stanach Zjednoczonych, za sprawą populacji liczącej ok. 4 mln mieszkańców. Los Angeles zajmuje powierzchnię 1302 km² i położone jest w regionie Kalifornii Południowej. Miasto stanowi centrum aglomeracji Los Angeles-Long Beach-Santa Ana, którą w 2010 roku zamieszkiwało 12 828 837 osób, czyniąc z tego regionu 2. pod względem populacji obszar metropolitalny Stanów Zjednoczonych i jednocześnie jedną z najludniejszych metropolii świata. Wielkie Los Angeles to połączony obszar statystyczny z liczbą mieszkańców wynoszącą 18,8 mln. Los Angeles jest siedzibą hrabstwa Los Angeles, czyli najbardziej zaludnionego i jednego z najbardziej zróżnicowanych etnicznie hrabstw w Stanach Zjednoczonych. Z kolei obszar samego Los…",
+    "url": "https://pl.wikipedia.org/wiki/Los_Angeles",
+    "język": "pl"
    },
    "tagi": [
-    "Heidenheim",
-    "Niemiec",
-    "Musiala",
-    "Klubowych Mistrzostwach Świata"
+    "Lakers Los Angeles Lakers",
+    "Jeanie Buss"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Interia Sport",
-     "tytuł": "Koszmar gwiazdy Bayernu. Padł na murawę. \"Napady nieświadomości\"",
-     "url": "https://sport.interia.pl/pilka-nozna/bundesliga/news-koszmar-gwiazdy-bayernu-padl-na-murawe-napady-nieswiadomosci,nId,23530739"
-    },
-    {
-     "nazwa": "Polsat Sport",
-     "tytuł": "Gwiazdor kolejny raz zasłabł podczas meczu. Teraz wydał oświadczenie",
-     "url": "https://www.polsatsport.pl/wiadomosc/2026-08-18/musiala-zaslabl-po-osmiu-minutach-na-murawie-teraz-wydal-oswiadczenie/"
-    },
-    {
      "nazwa": "BBC Sport",
-     "tytuł": "Musiala collapses in match for second time in four days",
-     "url": "https://www.bbc.co.uk/sport/football/articles/c330kg5xm8no?at_medium=RSS&at_campaign=rss"
+     "tytuł": "Buss trying to block her siblings' sale of family stake in Lakers",
+     "url": "https://www.bbc.co.uk/sport/basketball/articles/c5yvdz79w11o?at_medium=RSS&at_campaign=rss"
     },
     {
      "nazwa": "The Guardian Sport",
-     "tytuł": "Jamal Musiala says ‘treatable seizures’ are reason for two collapses in four days",
-     "url": "https://www.theguardian.com/football/2026/aug/18/jamal-musiala-treatable-seizures-statement-collapses-bayern-munich"
+     "tytuł": "Jeanie Buss reportedly attempting to halt her siblings’ attempt to sell remaining stake in Lakers",
+     "url": "https://www.theguardian.com/sport/2026/aug/17/jeanie-buss-reportedly-attempting-to-halt-her-siblings-attempt-to-sell-remaining-stake-in-lakers"
     }
    ],
-   "liczba_źródeł": 4,
+   "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 9.594,
+    "wynik": 4.651,
     "składowe": {
-     "potwierdzenia": 5.7,
-     "ranga_źródła": 1.772,
-     "eksponowanie": 0.27,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.48,
+     "eksponowanie": 0.0,
      "słowa_kluczowe": 0.35,
-     "świeżość": 0.502,
+     "świeżość": 0.421,
      "treściwość": 0.5,
-     "język_działu": 0.5
+     "język_działu": 0.0
     }
+   },
+   "oryginalny_nagłówek": "Buss trying to block her siblings' sale of family stake in Lakers",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
    }
   },
   {
@@ -484,93 +332,185 @@
     "emoji": "🧪",
     "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
    },
-   "nagłówek": "GPT-6 niemal gotowy do premiery. Czy OpenAI szykuje nam niespodziankę?",
-   "lead": "Rozpędza się karuzela plotek i doniesień o GPT-6. Niektórzy twierdzą, że miałby zostać udostępniony nawet w tym tygodniu.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-08-18T12:24:34+00:00",
+   "nagłówek": "Odniesienie do pangenomu islandzkiego",
+   "lead": "Uprzedzenie referencyjne jest problemem, który wpływa na większość badań genomicznych analizujących krótkie odczyty zmapowane do genomu referencyjnego 1 , 2 . Za pomocą Emblask zebraliśmy 698 islandzkich haplotypów i dodaliśmy je do pangenomu 4 Human Pangenome Reference Consortium (HPRC), aby skonstruować islandzkie odniesienie do pangenomu (HPRC-ICE), w tym…",
+   "język_źródła": "en",
+   "opublikowano": "2026-08-19T00:00:00+00:00",
    "źródło": {
-    "nazwa": "Antyweb",
-    "url": "https://antyweb.pl/gpt-6-premiera-sierpien-2026-doniesienia",
-    "domena": "antyweb.pl"
+    "nazwa": "Nature",
+    "url": "https://www.nature.com/articles/s41586-026-10924-7",
+    "domena": "nature.com"
    },
-   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2026/08/gpt-6-nadchodzi.jpg",
+   "obraz": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-026-10924-7/MediaObjects/41586_2026_10924_Fig1_HTML.png",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Jak zapewne pamiętacie, 1 sierpnia OpenAI opisało dziesięć nowych wyników w zadaniach z zakresu matematyki i informatyki teoretycznej , uzyskanych z pomocą wewnętrznej wersji Astry.",
-      "Ta, nieprzypadkowo, została nazwana: \"kolejnym wiodącym modelem\".",
-      "Ten już nie tylko szukał rozwiązań, ale pomagał też przygotowywać manuskrypty i formalizować argumenty w Leanie.",
-      "OpenAI, co zrozumiałe, nigdzie nie zestawiło publicznie słów \"GPT-6\" i \"Astra\".",
-      "Firma zresztą też szczególnie się nie hamuje i rękami Tibo Sottiauxa i samego Altmana, wrzuca mniej lub bardziej sugestywne wpisy, które szturmem zdobywają popularność w serwisie X."
+      "Zmapowaliśmy krótkie odczyty 57 630 Islandczyków do HPRC-ICE z Weaver i nazwaliśmy 98,96 miliona wariantów, co stanowi wzrost o 6,17% w stosunku do mapowania do odniesienia liniowego.",
+      "Ponadto GRCh38 nadal jest niekompletną reprezentacją ludzkiego genomu, ponieważ jego główne rusztowania zawierają około 151 Mb przerw i 9 Mb błędnie zduplikowanych lub zapadniętych regionów 12 .",
+      "Niedawny postęp w długim sekwencjonowaniu 13 umożliwił pierwszy bezszczelinowy zespół ludzkiego genomu 14 , T2T-CHM13 , zawierający prawie bezbłędne zespoły 22 autosomów i chromosomu X, później uzupełniony przez zespół chromosomu Y 15 .",
+      "Tutaj wykorzystaliśmy rurociąg Emblask do złożenia 698 wysokiej jakości haplotypów islandzkich i połączyliśmy je z zespołami HPRC, aby utworzyć odniesienie do pangenomu HPRC-ICE, składające się z 788 haplotypów (ryc.",
+      "ICE set składa się z 698 zespołów haplotypów od 361 Islandczyków, których genomy zsekwencjonowano krótkimi odczytami Illumina, a także długimi odczytami PacBio HiFi ( n = 49) lub ONT R9.4 ( n = 312)."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Nature, Opublikowano online: 18 sierpnia 2026 r.; doi: 10.1038/d41586-026-02527-z Wsporniki robotyczne były kiedyś przeznaczone do użytku klinicznego, ale obecnie naukowcy opracowują tańsze, mniejsze urządzenia skierowane do wszystkich — od osób ze starzejącymi się kolanami po 20-latków chcących wspinać się po górach.",
+      "Nature, Opublikowano online: 19 sierpnia 2026 r.; doi: 10.1038/d41586-026-02376-w Od 2020 r. opady śniegu w dużej mierze równoważyły topnienie pokrywy lodowej Antarktyki.",
+      "Nature, Opublikowano online: 19 sierpnia 2026 r.; doi: 10.1038/d41586-026-02373-z Inżynieria kryształów polimerów znacznie zwiększyła aktywność tych materiałów jako katalizatorów do produkcji paliwa wodorowego z wody, wykorzystując tylko światło słoneczne.",
+      "Nature, Published online: 18 August 2026; doi:10.1038/d41586-026-02584-4 Zwolennicy twierdzą, że obecny system stwarza fałszywe poczucie precyzji, ale krytycy obawiają się, że zmiana może zwiększyć ingerencję polityczną."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "OpenAI – amerykańskie przedsiębiorstwo i laboratorium badawcze założone w 2015 roku, specjalizujące się w dziedzinie sztucznej inteligencji. Celem organizacji jest rozwijanie ogólnej sztucznej inteligencji mającej przynosić korzyści całej ludzkości. OpenAI opracowało między innymi ChatGPT, DALL-E, Sorę oraz modele z rodziny GPT."
+      "Genom referencyjny to zespół genomu, który reprezentuje pełną sekwencję genetyczną organizmu jako ciągły ciąg nukleotydów. Aby zespół służył jako genom referencyjny, zazwyczaj towarzyszą mu adnotacje, wytwarzane w procesie znanym jako adnotacja DNA lub genomu. Adnotacje określają współrzędne genomowe genów, eksonów, intronów i mRNA i często są sparowane z odpowiednimi sekwencjami transkryptu (mRNA) i białka."
      ],
-     "przypis": "Wikipedia: OpenAI",
-     "url": "https://pl.wikipedia.org/wiki/OpenAI"
+     "język": "en",
+     "przypis": "Wikipedia: Reference genome",
+     "url": "https://en.wikipedia.org/wiki/Reference_genome"
     }
    ],
-   "dlaczego_to_ważne": "OpenAI wskazuje na jego osiągnięcia naukowe, ostrzega przed krytycznym ryzykiem niezamierzonych cyberataków z jego strony, a Sam Altman, szef firmy, obiecuje szeroką dostępność.",
+   "dlaczego_to_ważne": "",
    "liczby": [
-    "10",
-    "16",
-    "17",
-    "24",
-    "5.7",
-    "30"
+    "1 , 2",
+    "3 , 4 , 5",
+    "698",
+    "51.41 million",
+    "57,630",
+    "98.96 million"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Nature",
+     "ujęcie": "Zidentyfikowano efekt atmosferyczny, który to powoduje — i jest on tymczasowy.",
+     "url": "https://www.nature.com/articles/d41586-026-02376-w"
+    }
+   ],
    "pojęcia": [],
    "tło": {
-    "hasło": "OpenAI",
-    "opis": "amerykańska organizacja badawcza w dziedzinie sztucznej inteligencji",
-    "tekst": "OpenAI – amerykańskie przedsiębiorstwo i laboratorium badawcze założone w 2015 roku, specjalizujące się w dziedzinie sztucznej inteligencji. Celem organizacji jest rozwijanie ogólnej sztucznej inteligencji mającej przynosić korzyści całej ludzkości. OpenAI opracowało między innymi ChatGPT, DALL-E, Sorę oraz modele z rodziny GPT.",
-    "url": "https://pl.wikipedia.org/wiki/OpenAI",
-    "język": "pl"
+    "hasło": "Reference genome",
+    "opis": "Digital nucleic acid sequence database",
+    "tekst": "A reference genome is a genome assembly that represents the complete genetic sequence of an organism as a continuous string of nucleotides. For an assembly to serve as a reference genome, it is typically accompanied by annotations, produced through a process known as DNA or genome annotation. The annotations specify the genomic coordinates of genes, exons, introns, and mRNA, and are often paired with corresponding transcript (mRNA) and protein sequences.",
+    "url": "https://en.wikipedia.org/wiki/Reference_genome",
+    "język": "en"
    },
    "tagi": [
-    "OpenAI",
-    "Astra",
-    "Astry",
-    "Altman"
+    "Weaver",
+    "GRCh38",
+    "Fig",
+    "Icelandic"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Antyweb",
-     "tytuł": "GPT-6 niemal gotowy do premiery. Czy OpenAI szykuje nam niespodziankę?",
-     "url": "https://antyweb.pl/gpt-6-premiera-sierpien-2026-doniesienia"
+     "nazwa": "Nature",
+     "tytuł": "An Icelandic pangenome reference",
+     "url": "https://www.nature.com/articles/s41586-026-10924-7"
     },
     {
-     "nazwa": "The Verge",
-     "tytuł": "OpenAI lays out new security changes after its AI hacked Hugging Face",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack"
+     "nazwa": "Nature",
+     "tytuł": "Will you be wearing an exoskeleton in ten years? The tech that could change how we move",
+     "url": "https://www.nature.com/articles/d41586-026-02527-z"
     },
     {
-     "nazwa": "TechCrunch",
-     "tytuł": "OpenAI institutes new safeguards after Hugging Face breach",
-     "url": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/"
+     "nazwa": "Nature",
+     "tytuł": "The Antarctic ice sheet has gained mass — but probably not for long",
+     "url": "https://www.nature.com/articles/d41586-026-02376-w"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Activity of solar-driven polymer catalysts unleashed to produce a potential green fuel",
+     "url": "https://www.nature.com/articles/d41586-026-02373-z"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "NIH proposes major revamp of how it scores research grant proposals",
+     "url": "https://www.nature.com/articles/d41586-026-02584-4"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "A revolutionary stem-cell therapy must proceed responsibly to achieve its full potential",
+     "url": "https://www.nature.com/articles/d41586-026-02524-2"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "How the Middle East can become a hub for sustainable aviation fuels",
+     "url": "https://www.nature.com/articles/d41586-026-02531-3"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Five ways 3D printing is improving lab work",
+     "url": "https://www.nature.com/articles/d41586-026-02535-z"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Human organoids that mimic brain development grown for years in lab",
+     "url": "https://www.nature.com/articles/d41586-026-02585-3"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "How to get the most out of an informational interview",
+     "url": "https://www.nature.com/articles/d41586-026-01932-8"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Mathematics holds the secret to ‘ladder-proof’ knitting",
+     "url": "https://www.nature.com/articles/d41586-026-02466-9"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Asia’s longevity gains must be translated into better health",
+     "url": "https://www.nature.com/articles/d41586-026-02576-4"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Treat biological databases as infrastructure, not projects",
+     "url": "https://www.nature.com/articles/d41586-026-02575-5"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Evidence for vacuum-enhanced superconductivity in NbSe 2",
+     "url": "https://www.nature.com/articles/s41586-026-11037-x"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Heatwaves expose weak links in food systems",
+     "url": "https://www.nature.com/articles/d41586-026-02577-3"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Europe must adapt to live with megafires",
+     "url": "https://www.nature.com/articles/d41586-026-02578-2"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Delisted",
+     "url": "https://www.nature.com/articles/d41586-026-02410-x"
     }
    ],
-   "liczba_źródeł": 3,
-   "czas_czytania_min": 1,
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 7.608,
+    "wynik": 6.994,
     "składowe": {
-     "potwierdzenia": 3.8,
-     "ranga_źródła": 1.335,
-     "eksponowanie": 0.63,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.493,
-     "treściwość": 0.5,
-     "język_działu": 0.5
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 4.42,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.55,
+     "treściwość": 0.424,
+     "język_działu": 0.0
     }
+   },
+   "oryginalny_nagłówek": "An Icelandic pangenome reference",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
    }
   },
   {
@@ -580,88 +520,81 @@
     "emoji": "⚛️",
     "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
    },
-   "nagłówek": "Gaz kryptonowy staje się nowym składnikiem komputerów kwantowych",
-   "lead": "Aby skomercjalizować przetwarzanie kwantowe, producenci potrzebują wysokiej jakości materiałów nadprzewodzących do mikroukładów, ale potrzebują również niezawodnego, zrównoważonego procesu nanofabrykacji. Tantal jest metalem odpornym na korozję, który spełnia pierwsze kryterium, ale nie drugie.",
+   "nagłówek": "A new approach to building noise-resistant quantum sensors",
+   "lead": "Quantum sensors, devices that collect measurements by exploiting quantum-mechanical phenomena, could potentially detect extremely weak magnetic, gravitational and electromagnetic signals with greater sensitivity than classical sensors. Some quantum sensors leverage entanglement, a phenomenon that prompts distant…",
    "język_źródła": "en",
-   "opublikowano": "2026-08-18T23:40:06+00:00",
+   "opublikowano": "2026-08-18T12:00:07+00:00",
    "źródło": {
     "nazwa": "Phys.org",
-    "url": "https://phys.org/news/2026-08-krypton-gas-emerges-ingredient-quantum.html",
+    "url": "https://phys.org/news/2026-08-approach-noise-resistant-quantum-sensors.html",
     "domena": "phys.org"
    },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/krypton-gas-is-a-new-i.jpg",
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-new-approach-to-buil-1.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Dzieje się tak, ponieważ musi być osadzany na podłożu w temperaturach, które zwykle przekraczają 400°C (752°F)- zbyt gorąco dla wielu obecnych narzędzi odlewni półprzewodnikowych.",
-      "Naukowcy z Cornell opracowali metodę, która wykorzystuje gaz kryptonowy do cięcia tej temperatury osadzania do 200°C (392°F) podczas osadzania tantalu na krzemie, standardowym podłożu wysokiej jakości.",
-      "W wyniku tego procesu powstały cienkie warstwy, które również mają znacznie wyższą przewodność elektronową.",
-      "„Wykazano, że tantal jako materiał jest bardzo ekscytujący z punktu widzenia wydajności urządzenia, ale jego wytwarzalność miała pewne znaki zapytania ze względu na wyzwania związane z integracją, takie jak wymagane temperatury procesu” - powiedziała Valla Fatemi, adiunkt oraz wykładowca na wydziale Aref i Manon Lahham w Cornell Duffield College of Engineering, która kierowała projektem.",
-      "Obliczenia kwantowe obiecują radzenie sobie z szybszymi, bardziej złożonymi obliczeniami dzięki wykorzystaniu unikalnych właściwości mechaniki kwantowej nadprzewodników, które przenoszą prąd przy niewielkiej lub zerowej utracie energii."
+      "Despite their potential, these sensors are often very sensitive to noise (i.e., external disturbances originating from the surrounding environment).",
+      "Researchers at the Quantum Science Center of Guangdong-Hong Kong-Macao Greater Bay Area, Southern University of Science and Technology and Shenzhen University recently introduced a new method to develop noise-adaptive sensors that can collect more precise measurements.",
+      "Their approach, outlined in a paper published in Physical Review Letters , relies on a variational quantum circuit, a sequence of quantum operations that can be adjusted to search for a state that performs well on specific measurement tasks.",
+      "\"A previous study established a direct connection between the out-of-time-order correlator (OTOC) and the quantum Fisher information (QFI),\" Xiaodong Yang, co-first and co-corresponding author of the paper, told Phys.org.",
+      "By integrating OTOC-based evaluation with parameterized quantum circuits, we thus developed the noise-adaptive quantum metrology scheme presented in this work.\" An OTOC is a quantity that can be used to track how strongly a disturbance spreads through a quantum system over time."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Homofobia – negatywne postawy i uczucia wobec homoseksualności lub osób postrzeganych jako lesbijki lub geje. Definiowana jako nienawiść, pogarda, uprzedzenia, niechęć, wstręt lub antypatia wobec osób homoseksualnych, może być oparta na irracjonalnym lęku lub niewiedzy, często wiąże się z przekonaniami religijnymi oraz może skutkować dyskryminacją, prześladowaniem i innymi rodzajami przemocy."
+      "Phys.org is an online science, research and technology news aggregator which re-publishes press releases and stories from news agencies. In 2012, PhysOrg.com was changed to Phys.org. As of 2014, Phys.org was posting an average of 98 items per day. It is part of the Science X network of websites, headquartered on the Isle of Man."
      ],
-     "przypis": "Wikipedia: Homofobia",
-     "url": "https://pl.wikipedia.org/wiki/Homofobia"
+     "język": "en",
+     "przypis": "Wikipedia: Phys.org",
+     "url": "https://en.wikipedia.org/wiki/Phys.org"
     }
    ],
-   "dlaczego_to_ważne": "",
+   "dlaczego_to_ważne": "This means that even small environmental disturbances and hardware imperfections can disrupt delicate quantum states and reduce the devices' sensing precision.",
    "liczby": [
-    "400°C",
-    "752",
-    "200°C",
-    "392",
-    "26",
-    "100,000"
+    "100,000",
+    "0.698",
+    "10.1103"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Homofobia",
-    "opis": "uprzedzenie do homoseksualności i dyskryminacja osób LGBT",
-    "tekst": "Homofobia – negatywne postawy i uczucia wobec homoseksualności lub osób postrzeganych jako lesbijki lub geje. Definiowana jako nienawiść, pogarda, uprzedzenia, niechęć, wstręt lub antypatia wobec osób homoseksualnych, może być oparta na irracjonalnym lęku lub niewiedzy, często wiąże się z przekonaniami religijnymi oraz może skutkować dyskryminacją, prześladowaniem i innymi rodzajami przemocy.",
-    "url": "https://pl.wikipedia.org/wiki/Homofobia",
-    "język": "pl"
+    "hasło": "Phys.org",
+    "opis": "Science news website",
+    "tekst": "Phys.org is an online science, research and technology news aggregator which re-publishes press releases and stories from news agencies. In 2012, PhysOrg.com was changed to Phys.org. As of 2014, Phys.org was posting an average of 98 items per day. It is part of the Science X network of websites, headquartered on the Isle of Man.",
+    "url": "https://en.wikipedia.org/wiki/Phys.org",
+    "język": "en"
    },
    "tagi": [
-    "Fatemi",
-    "Nature Materials",
-    "Olszewski",
-    "Josephson"
+    "Yang",
+    "Phys.org",
+    "Science",
+    "Guangdong-Hong Kong-Macao Greater Bay Area Southern University"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Phys.org",
-     "tytuł": "Krypton gas emerges as a new ingredient for quantum computing",
-     "url": "https://phys.org/news/2026-08-krypton-gas-emerges-ingredient-quantum.html"
+     "tytuł": "A new approach to building noise-resistant quantum sensors",
+     "url": "https://phys.org/news/2026-08-approach-noise-resistant-quantum-sensors.html"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.756,
+    "wynik": 3.5,
     "składowe": {
      "potwierdzenia": 0.0,
      "ranga_źródła": 1.2,
-     "eksponowanie": 0.81,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.546,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.4,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
-   },
-   "oryginalny_nagłówek": "Krypton gas emerges as a new ingredient for quantum computing",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
    }
   },
   {
@@ -671,8 +604,8 @@
     "emoji": "🔭",
     "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
    },
-   "nagłówek": "Zestrzelenie asteroidy w krótkim czasie może nas uratować",
-   "lead": "Czytelnicy w pewnym wieku zapamiętają złotą erę filmów o asteroidach, zwieńczoną dwoma o bardzo różnych zakończeniach. „Deep Impact” wywołało druzgocące konsekwencje uderzenia dużej skały w naszą planetę, podczas gdy „Armageddon”, choć zapewne kiczowaty w obu filmach, był podnoszącą na duchu opowieścią o…",
+   "nagłówek": "Nuking an asteroid on short notice could save us",
+   "lead": "Readers of a certain age will remember a golden era of asteroid films, capped by two with very different endings. \"Deep Impact\" drove home the devastating consequences of letting a large piece of rock hit our planet, whereas \"Armageddon,\" though arguably the kitschier of the two films, was an uplifting story about…",
    "język_źródła": "en",
    "opublikowano": "2026-08-18T12:00:09+00:00",
    "źródło": {
@@ -686,24 +619,25 @@
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Nowa praca naukowców z China Academy of Launch Vehicle Technology, opublikowana w czasopiśmie Space: Science & Technology , opisuje dwa potencjalne scenariusze badające, w jaki sposób możemy faktycznie być w stanie zbombardować kosmiczną skałę i czy to nas uratuje.",
-      "W lipcu 2024 r. 10 933 z 35 269 odkrytych planetoid bliskich Ziemi (Nea) miało średnicę większą niż 140 m (460 stóp).",
-      "Co przerażające, eksperci od obrony planetoid konsekwentnie ostrzegają, że symulacje pokazują, że istnieje ogromna liczba nieodkrytych Nea, które mogą nas łatwo zaskoczyć.",
-      "W tym szybkim scenariuszu wybór idealnego miejsca dla uderzenia jądrowego jest niepraktyczny, a „energia sprzężenia” (tj. energia przeniesiona z wybuchu na samą asteroidę) może być stosunkowo słaba.",
-      "Każdy zaznajomiony ze szczegółami filmów o asteroidach z lat 90. wie, że głównymi bohaterami „Armagedonu” nie byli astronauci - byli poszukiwaczami ropy naftowej."
+      "A new paper from researchers at the China Academy of Launch Vehicle Technology, published in Space: Science & Technology , describes two potential scenarios examining how we might actually be able to nuke a space rock—and whether it would save us.",
+      "As of July 2024, 10,933 of the 35,269 near-Earth asteroids (NEAs) discovered have diameters larger than 140 m (460 feet).",
+      "Terrifyingly, asteroid defense experts consistently warn that simulations show there are a massive number of undiscovered NEAs that could easily blindside us.",
+      "In this fast scenario, selecting an ideal site for the nuclear impact is impractical, and the \"coupling energy\" (i.e., the energy transferred from the blast to the asteroid itself) might be relatively weak.",
+      "Anyone familiar with the details of 1990s asteroid movies knows that the main characters in \"Armageddon\" weren't astronauts—they were oil prospectors."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Armageddon – amerykański film katastroficzny w reżyserii Michaela Baya z Bruce'em Willisem i Benem Affleckiem w rolach głównych, nakręcony w 1998 roku."
+      "Armageddon is the prophesied gathering of armies for a battle during the end times, according to the Book of Revelation in the New Testament of the Christian Bible. Armageddon is variously interpreted as either a literal or a symbolic location, although the term has since become more often used in a generic sense to refer to any end-of-the-world scenario. In Islamic theology, Armageddon is also mentioned in Hadith as the Greatest War or Al-Malhama Al-Kubra."
      ],
-     "przypis": "Wikipedia: Armageddon (film)",
-     "url": "https://pl.wikipedia.org/wiki/Armageddon_(film)"
+     "język": "en",
+     "przypis": "Wikipedia: Armageddon",
+     "url": "https://en.wikipedia.org/wiki/Armageddon"
     }
    ],
-   "dlaczego_to_ważne": "Teraz centralne założenie fabuły tego filmu - czyli zasadniczo wysadzenie asteroidy eksplozją jądrową - zajmuje centralne miejsce jako nasza ostatnia linia obrony przed potencjalnym scenariuszem „głębokiego uderzenia”.",
+   "dlaczego_to_ważne": "Now, the central premise of that movie's storyline—essentially blasting an asteroid with a nuclear detonation—is taking center stage as our last line of defense against a potential \"Deep Impact\" scenario.",
    "liczby": [
     "2024, 10,933",
     "35,269",
@@ -715,17 +649,17 @@
    "inne_spojrzenia": [
     {
      "źródło": "Universe Today",
-     "ujęcie": "Deep Impact zakorzenił druzgocące konsekwencje wpuszczenia na naszą planetę dużego kawałka skały, podczas gdy Armageddon, choć prawdopodobnie bardziej kiczowaty z tych dwóch filmów, był podnoszącą na duchu opowieścią o technicznej pomysłowości i poświęceniu.",
+     "ujęcie": "Deep Impact engrained the devastating consequences of letting a large piece of rock hit our planet, whereas Armageddon, though arguably the more kitschy of the two films, was an uplifting story about technical ingenuity and sacrifice.",
      "url": "https://www.universetoday.com/articles/nuking-an-asteroid-on-short-notice-could-save-us"
     }
    ],
    "pojęcia": [],
    "tło": {
-    "hasło": "Armageddon (film)",
-    "opis": "",
-    "tekst": "Armageddon – amerykański film katastroficzny w reżyserii Michaela Baya z Bruce'em Willisem i Benem Affleckiem w rolach głównych, nakręcony w 1998 roku.",
-    "url": "https://pl.wikipedia.org/wiki/Armageddon_(film)",
-    "język": "pl"
+    "hasło": "Armageddon",
+    "opis": "Biblical apocalyptic battle site",
+    "tekst": "Armageddon is the prophesied gathering of armies for a battle during the end times, according to the Book of Revelation in the New Testament of the Christian Bible. Armageddon is variously interpreted as either a literal or a symbolic location, although the term has since become more often used in a generic sense to refer to any end-of-the-world scenario. In Islamic theology, Armageddon is also mentioned in Hadith as the Greatest War or Al-Malhama Al-Kubra.",
+    "url": "https://en.wikipedia.org/wiki/Armageddon",
+    "język": "en"
    },
    "tagi": [
     "Armageddon",
@@ -749,21 +683,16 @@
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.74,
+    "wynik": 5.65,
     "składowe": {
      "potwierdzenia": 1.9,
      "ranga_źródła": 1.35,
-     "eksponowanie": 0.54,
+     "eksponowanie": 0.45,
      "słowa_kluczowe": 1.05,
      "świeżość": 0.4,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
-   },
-   "oryginalny_nagłówek": "Nuking an asteroid on short notice could save us",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
    }
   },
   {
@@ -773,8 +702,8 @@
     "emoji": "🗺️",
     "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
    },
-   "nagłówek": "Rośliny mogą zmienić sposób, w jaki naukowcy mierzą korzyści klimatyczne pływowych bagien",
-   "lead": "Dorastając w New Jersey, Emily Wilson regularnie mijała pływowe bagna, nie zastanawiając się nad tym. Były częścią nadmorskiego krajobrazu - pasm zieleni i błękitu, które widziała z drogi.",
+   "nagłówek": "Plants could transform how scientists measure the climate benefits of tidal marshes",
+   "lead": "Growing up in New Jersey, Emily Wilson regularly passed tidal marshes without giving them much thought. They were part of the coastal landscape—stretches of green and blue she saw from the road.",
    "język_źródła": "en",
    "opublikowano": "2026-08-18T20:50:02+00:00",
    "źródło": {
@@ -788,19 +717,20 @@
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Dopiero gdy zaczęła studiować nauki o środowisku na studiach licencjackich, zdała sobie sprawę, jak niezwykłe były rośliny kwitnące w słonych, podmokłych środowiskach wśród ciągłych przypływów i odpływów.",
-      "Dzisiaj, jako doktorantka z Uniwersytetu Bostońskiego w dziedzinie Ziemi i Środowiska, Wilson bada te same ekosystemy - i odkryła, że rośliny, które kiedyś mijała, mogą zawierać ważne informacje, aby dokładniej śledzić globalny klimat.",
-      "Bagna pływowe są ważnymi naturalnymi rozwiązaniami klimatycznymi, ponieważ usuwają dwutlenek węgla z atmosfery i magazynują duże ilości węgla w swoich glebach.",
-      "Dokładne uwzględnienie obu ma kluczowe znaczenie dla zrozumienia ich ogólnych korzyści dla klimatu, a także dla polityk i rynków emisji dwutlenku węgla, które kładą nacisk na ochronę i odbudowę terenów podmokłych.",
-      "Nowe badanie przeprowadzone przez Wilsona i opublikowane w Proceedings of the National Academy of Sciences wykazało, że gatunki roślin są znacznie lepszym predyktorem emisji metanu z mokradeł pływowych niż zasolenie, na którym naukowcy polegają od dziesięcioleci."
+      "It wasn't until she began studying environmental science as an undergraduate that she realized how remarkable they were—plants thriving in salty, waterlogged environments amid the constant ebb and flow of tides.",
+      "Today, as a Boston University doctoral candidate in Earth & Environment, Wilson studies those same ecosystems—and has discovered that the plants she once drove past may hold important information for more accurately tracking the global climate.",
+      "Tidal marshes are important natural climate solutions because they remove carbon dioxide from the atmosphere and store large amounts of carbon in their soils.",
+      "Accurately accounting for both is critical to understanding their overall climate benefit—and to policies and carbon markets that put a value on protecting and restoring wetlands.",
+      "A new study led by Wilson and published in the Proceedings of the National Academy of Sciences finds that plant species are a far better predictor of methane emissions from tidal marshes than salinity, which scientists have relied on for decades."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Narodowa Akademia Nauk – jest korporacją w Stanach Zjednoczonych, której członkowie pro publico bono służą jako doradcy w zakresie nauki, inżynierii oraz medycyny. Jej członkowie są co rok wybierani przez bieżących członków, biorąc pod uwagę ich dorobek naukowy i osiągnięcia badawcze."
+      "National Academy of Sciences (NAS) (Narodowa Akademia Nauk) – jest korporacją w Stanach Zjednoczonych, której członkowie pro publico bono służą jako doradcy w zakresie nauki, inżynierii oraz medycyny. Jej członkowie są co rok wybierani przez bieżących członków, biorąc pod uwagę ich dorobek naukowy i osiągnięcia badawcze."
      ],
+     "język": "pl",
      "przypis": "Wikipedia: National Academy of Sciences",
      "url": "https://pl.wikipedia.org/wiki/National_Academy_of_Sciences"
     }
@@ -817,7 +747,7 @@
    "inne_spojrzenia": [
     {
      "źródło": "ScienceDaily Earth",
-     "ujęcie": "Naukowcy zidentyfikowali wcześniej nieznany naturalny proces w Arktyce, który może spowodować wzrost liczby cząstek tworzących chmury w atmosferze.",
+     "ujęcie": "Scientists have identified a previously unknown natural process in the Arctic that can cause the number of cloud-forming particles in the atmosphere to surge.",
      "url": "https://www.sciencedaily.com/releases/2026/08/260816044839.htm"
     }
    ],
@@ -861,11 +791,6 @@
      "treściwość": 0.5,
      "język_działu": 0.0
     }
-   },
-   "oryginalny_nagłówek": "Plants could transform how scientists measure the climate benefits of tidal marshes",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
    }
   },
   {
@@ -901,10 +826,11 @@
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Lucy Maud Montgomery – kanadyjska pisarka, autorka m.in. cyklu powieściowego Ania z Zielonego Wzgórza."
+      "Lucy is an English feminine given name derived from the Latin masculine given name Lucius with the meaning as of light. Alternative spellings are Luci and Lucie."
      ],
-     "przypis": "Wikipedia: Lucy Maud Montgomery",
-     "url": "https://pl.wikipedia.org/wiki/Lucy_Maud_Montgomery"
+     "język": "en",
+     "przypis": "Wikipedia: Lucy",
+     "url": "https://en.wikipedia.org/wiki/Lucy"
     }
    ],
    "dlaczego_to_ważne": "",
@@ -912,11 +838,11 @@
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Lucy Maud Montgomery",
-    "opis": "pisarka kanadyjska",
-    "tekst": "Lucy Maud Montgomery – kanadyjska pisarka, autorka m.in. cyklu powieściowego Ania z Zielonego Wzgórza.",
-    "url": "https://pl.wikipedia.org/wiki/Lucy_Maud_Montgomery",
-    "język": "pl"
+    "hasło": "Lucy",
+    "opis": "Name list",
+    "tekst": "Lucy is an English feminine given name derived from the Latin masculine given name Lucius with the meaning as of light. Alternative spellings are Luci and Lucie.",
+    "url": "https://en.wikipedia.org/wiki/Lucy",
+    "język": "en"
    },
    "tagi": [
     "Lucy",
@@ -971,13 +897,13 @@
      "treść": [
       "Hayden Lesley Panettiere was an American actress and singer. She starred as Claire Bennet on the NBC superhero series Heroes (2006–2010), Kirby Reed in the slasher horror franchise Scream (2011–2023), and Juliette Barnes in the ABC/CMT musical drama series Nashville (2012–2018). She received two nominations for acting in Nashville for a Golden Globe Award for Best Supporting Actress – Series, Miniseries or Television Film."
      ],
+     "język": "en",
      "przypis": "Wikipedia: Hayden Panettiere",
      "url": "https://en.wikipedia.org/wiki/Hayden_Panettiere"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "20",
     "36"
    ],
    "inne_spojrzenia": [],
@@ -1007,45 +933,42 @@
      "url": "https://www.bbc.co.uk/news/articles/c5ywe951z80o?at_medium=RSS&at_campaign=rss"
     },
     {
-     "nazwa": "The Guardian Culture",
-     "tytuł": "Wladimir Klitschko pays tribute to ex-partner Hayden Panettiere: ‘She left this world too soon’",
-     "url": "https://www.theguardian.com/tv-and-radio/2026/aug/18/hayden-panettiere-wladimir-klitschko-daughter-tribute"
-    },
-    {
-     "nazwa": "The Guardian Culture",
-     "tytuł": "Hollywood continues to fail child stars and Hayden Panettiere is the latest casualty | Jesse Hassenger",
-     "url": "https://www.theguardian.com/tv-and-radio/2026/aug/17/hayden-panettiere-hollywood-child-stars"
-    },
-    {
      "nazwa": "Pitchfork",
      "tytuł": "Solange Pays Tribute to Former Co-Star Hayden Panettiere",
      "url": "https://pitchfork.com/story/solange-pays-tribute-to-former-co-star-hayden-panettiere/"
     }
    ],
-   "liczba_źródeł": 4,
+   "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 11.357,
+    "wynik": 7.173,
     "składowe": {
-     "potwierdzenia": 5.7,
-     "ranga_źródła": 1.837,
-     "eksponowanie": 1.98,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.522,
+     "eksponowanie": 0.36,
      "słowa_kluczowe": 0.35,
-     "świeżość": 0.49,
-     "treściwość": 0.5,
+     "świeżość": 0.476,
+     "treściwość": 0.165,
      "język_działu": 0.5
     }
    }
   }
  ],
- "braki": [],
+ "braki": [
+  "sport-pl"
+ ],
  "statystyki": {
-  "kanały_ok": 80,
-  "kanały_błędne": 0,
-  "znaki_tłumaczone": 5371,
-  "niedziałające_kanały": [],
-  "działy": 10,
-  "artykuły_w_oknie": 33
+  "kanały_ok": 79,
+  "kanały_błędne": 1,
+  "znaki_tłumaczone": 4412,
+  "niedziałające_kanały": [
+   {
+    "url": "https://earthsky.org/feed/",
+    "powód": "HTTP 502"
+   }
+  ],
+  "działy": 9,
+  "artykuły_w_oknie": 35
  }
 }
