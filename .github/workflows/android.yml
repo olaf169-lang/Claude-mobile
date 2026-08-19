@@ -2,8 +2,7 @@ name: Aplikacja Android (APK)
 
 on:
   push:
-    branches: [main]
-    paths: ["android/**", ".github/workflows/android.yml"]
+    paths: [".github/workflows/android.yml"]
   workflow_dispatch:
   release:
     types: [published]

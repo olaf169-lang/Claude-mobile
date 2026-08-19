@@ -5,6 +5,11 @@ name: Przegląd News — wydanie poranne
 # (6:00 i 7:00 UTC), a krok kontrolny przepuszcza tylko ten przebieg, który
 # trafia w polską ósmą i nie powiela już zbudowanego wydania.
 on:
+  # Zmiana tego pliku od razu buduje wydanie. To także sposób, w jaki GitHub
+  # w ogóle poznaje workflow — dopóki nic go nie uruchomi, nie pojawia się
+  # na liście Actions i nie da się go odpalić ręcznie.
+  push:
+    paths: [".github/workflows/przeglad.yml"]
   schedule:
     - cron: "0 6 * * *"
     - cron: "0 7 * * *"
@@ -74,8 +79,8 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           python -m collector.build \
-            ${{ inputs.data && format('--date {0}', inputs.data) || '' }} \
-            ${{ inputs.dotyczy && format('--covers {0}', inputs.dotyczy) || '' }} \
+            ${{ github.event.inputs.data && format('--date {0}', github.event.inputs.data) || '' }} \
+            ${{ github.event.inputs.dotyczy && format('--covers {0}', github.event.inputs.dotyczy) || '' }} \
             --out web/data
 
       - name: Zapisz wydanie w repozytorium
