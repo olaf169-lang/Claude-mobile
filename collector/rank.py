@@ -160,4 +160,9 @@ def pick(
     if not usable:
         return None
     ranked = rank(usable, segment, window_end)
-    return ranked[0] if ranked else None
+    if not ranked:
+        return None
+    # Najważniejszy temat, który ma źródło w języku działu. Bez tego przegląd
+    # potrafił postawić na czele działu tekst, którego czytelnik nie przeczyta.
+    w_jezyku = [c for c in ranked if any(e.lang == segment.prefer_lang for e in c.entries)]
+    return w_jezyku[0] if w_jezyku else ranked[0]

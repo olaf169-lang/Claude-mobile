@@ -33,7 +33,8 @@ class Segment:
     feeds: tuple[Feed, ...]
     boost: tuple[str, ...] = ()
     block: tuple[str, ...] = ()
-    #: Preferowany język głównego artykułu (reszta trafia jako konteksty).
+    #: Język, w którym dział ma być czytany. Temat bez źródła w tym języku
+    #: przegrywa z tematem, który je ma — nawet jeśli jest głośniejszy.
     prefer_lang: str = "pl"
 
 

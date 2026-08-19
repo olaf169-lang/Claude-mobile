@@ -23,11 +23,15 @@ def test_liczby_nie_powtarzaja_tej_samej_wartosci():
     assert "41" not in liczby
 
 
-def test_obcojezyczny_szczegol_dostaje_etykiete():
+def test_omowienie_nie_miesza_jezykow():
+    """Polski lead i angielski akapit pod nim czyta się gorzej niż krótszy tekst."""
     astronomia = pozycja("astronomia")
-    szczegoly = [s for s in astronomia["sekcje"] if s["tytuł"].startswith("Szczegóły")]
-    assert szczegoly, "brak sekcji ze szczegółami"
-    assert all(tekst.startswith("[en] ") for tekst in szczegoly[0]["treść"])
+    assert astronomia["język_źródła"] == "pl"
+    for sekcja in astronomia["sekcje"]:
+        for tekst in sekcja["treść"]:
+            assert not tekst.startswith("[en]")
+    for spojrzenie in astronomia["inne_spojrzenia"]:
+        assert not spojrzenie["ujęcie"].startswith("[en]")
 
 
 def test_kluczowe_zdania_pomijaja_zajawki_typu_czytaj_takze():

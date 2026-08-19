@@ -36,8 +36,19 @@ def test_dzial_preferuje_swoj_jezyk(wpisy, okno):
     assert wybrany.lead.source == "Urania"
 
 
-def test_dzial_anglojezyczny_zostaje_przy_angielskim(wpisy, okno):
-    wybrany = pick(wpisy("sport-swiat"), SEGMENTS_BY_ID["sport-swiat"], okno[1])
+def test_temat_z_polskim_zrodlem_wygrywa_z_glosniejszym_obcym(wpisy, okno):
+    """Przegląd jest do czytania po polsku — angielski lead to ostateczność."""
+    segment = SEGMENTS_BY_ID["sport-swiat"]
+    wybrany = pick(wpisy("sport-swiat"), segment, okno[1])
+    assert any(e.lang == "pl" for e in wybrany.entries)
+
+
+def test_bez_polskiego_zrodla_dzial_bierze_obce(wpisy, okno):
+    """Lepszy angielski temat niż pusty dział."""
+    segment = SEGMENTS_BY_ID["sport-swiat"]
+    tylko_obce = [w for w in wpisy("sport-swiat") if w.lang == "en"]
+    wybrany = pick(tylko_obce, segment, okno[1])
+    assert wybrany is not None
     assert wybrany.lead.lang == "en"
 
 

@@ -115,6 +115,11 @@
     if (item['liczba_źródeł'] > 1) {
       seg.append(el('span', 'dot', `· ${item['liczba_źródeł']} niezależne źródła`));
     }
+    // Polskiego źródła zabrakło — lepiej to powiedzieć wprost, niż zaskoczyć
+    // czytelnika angielskim akapitem w środku przeglądu.
+    if (item['język_źródła'] && item['język_źródła'] !== 'pl') {
+      seg.append(el('span', 'obcy', 'po angielsku'));
+    }
     head.append(seg);
     head.append(el('h2', 'card__title', item['nagłówek'] || ''));
     if (item.lead) head.append(el('p', 'card__lead', item.lead));

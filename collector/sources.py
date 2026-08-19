@@ -1,5 +1,8 @@
 """Katalog źródeł: dziesięć segmentów Przeglądu News.
 
+Każdy dział ma źródła polskie, bo temat bez polskiego artykułu przegrywa
+w rankingu z takim, który go ma — przegląd jest do czytania po polsku.
+
 Lista jest wynikiem prawdziwych przebiegów, nie zgadywania: kanały, które
 odpowiedziały błędem, zostały wymienione na inne — z domen, które w tym samym
 przebiegu działały. Każde wydanie niesie listę kanałów, które zawiodły
@@ -104,7 +107,10 @@ SEGMENTS: tuple[Segment, ...] = (
             _f("https://feeds.bbci.co.uk/sport/football/rss.xml", "BBC Football", lang=EN, weight=1.1),
             _f("https://www.skysports.com/rss/12040", "Sky Sports", lang=EN, weight=1.0),
             _f("https://www.theguardian.com/football/rss", "The Guardian Football", lang=EN, weight=1.05),
-            _f("https://sportowefakty.wp.pl/rss.xml", "Sportowe Fakty", weight=0.9),
+            _f("https://sportowefakty.wp.pl/rss.xml", "Sportowe Fakty", weight=1.0),
+            _f("https://sport.onet.pl/.feed", "Onet Sport", weight=1.0),
+            _f("https://sport.interia.pl/feed", "Interia Sport", weight=1.0),
+            _f("https://www.polsatsport.pl/rss/wszystkie.xml", "Polsat Sport", weight=0.95),
         ),
         boost=(
             "champions league", "premier league", "la liga", "nba", "nfl", "mlb",
@@ -113,7 +119,6 @@ SEGMENTS: tuple[Segment, ...] = (
             "final", "title", "medal", "championship",
         ),
         block=("betting", "odds", "how to watch", "live blog", "typy"),
-        prefer_lang=EN,
     ),
     Segment(
         id="technologia",
@@ -121,7 +126,9 @@ SEGMENTS: tuple[Segment, ...] = (
         emoji="🧪",
         blurb="AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe",
         feeds=(
-            _f("https://naukawpolsce.pl/rss.xml", "Nauka w Polsce", weight=1.15),
+            _f("https://naukawpolsce.pl/rss.xml", "Nauka w Polsce", weight=1.2),
+            _f("https://kopalniawiedzy.pl/rss.xml", "Kopalnia Wiedzy", weight=1.1),
+            _f("https://www.crazynauka.pl/feed/", "Crazy Nauka", weight=0.95),
             _f("https://www.spidersweb.pl/feed", "Spider's Web", weight=1.0),
             _f("https://antyweb.pl/feed", "Antyweb", weight=0.9),
             _f("https://feeds.arstechnica.com/arstechnica/index", "Ars Technica", lang=EN, weight=1.25),
@@ -152,7 +159,8 @@ SEGMENTS: tuple[Segment, ...] = (
             _f("https://phys.org/rss-feed/physics-news/quantum-physics/", "Phys.org Quantum", lang=EN, weight=1.2),
             _f("https://www.quantamagazine.org/feed/", "Quanta Magazine", lang=EN, weight=1.25),
             _f("https://www.sciencedaily.com/rss/matter_energy/quantum_physics.xml", "ScienceDaily Quantum", lang=EN, weight=1.05),
-            _f("https://naukawpolsce.pl/rss.xml", "Nauka w Polsce", weight=1.0),
+            _f("https://naukawpolsce.pl/rss.xml", "Nauka w Polsce", weight=1.15),
+            _f("https://kopalniawiedzy.pl/rss.xml", "Kopalnia Wiedzy", weight=1.1),
         ),
         boost=(
             "kwant", "quantum", "cząstk", "particle", "neutrino", "boson", "kwark",
@@ -161,7 +169,6 @@ SEGMENTS: tuple[Segment, ...] = (
             "lhc", "collider", "spin", "symetria", "relativity", "względności",
         ),
         block=("horoscope", "astrology", "opinion"),
-        prefer_lang=EN,
     ),
     Segment(
         id="astronomia",
@@ -172,6 +179,8 @@ SEGMENTS: tuple[Segment, ...] = (
             _f("https://www.urania.edu.pl/rss.xml", "Urania", weight=1.15),
             _f("https://kosmonauta.net/feed/", "Kosmonauta.net", weight=1.0),
             _f("https://astronet.pl/feed/", "AstroNET", weight=0.95),
+            _f("https://kopalniawiedzy.pl/rss.xml", "Kopalnia Wiedzy", weight=1.05),
+            _f("https://www.pulskosmosu.pl/feed/", "Puls Kosmosu", weight=0.9),
             _f("https://phys.org/rss-feed/space-news/astronomy/", "Phys.org Astronomy", lang=EN, weight=1.2),
             _f("https://www.nasa.gov/feed/", "NASA", lang=EN, weight=1.3),
             _f("https://www.esa.int/rssfeed/Our_Activities/Space_Science", "ESA", lang=EN, weight=1.2),
@@ -202,7 +211,8 @@ SEGMENTS: tuple[Segment, ...] = (
             _f("https://www.sciencedaily.com/rss/earth_climate.xml", "ScienceDaily Earth", lang=EN, weight=1.0),
             _f("https://www.theguardian.com/environment/rss", "The Guardian Environment", lang=EN, weight=1.05),
             _f("https://geoforum.pl/rss", "Geoforum", weight=1.0),
-            _f("https://naukawpolsce.pl/rss.xml", "Nauka w Polsce", weight=0.95),
+            _f("https://naukawpolsce.pl/rss.xml", "Nauka w Polsce", weight=1.1),
+            _f("https://kopalniawiedzy.pl/rss.xml", "Kopalnia Wiedzy", weight=1.05),
         ),
         boost=(
             "wulkan", "volcano", "trzęsienie ziemi", "earthquake", "lodowiec",
@@ -212,7 +222,6 @@ SEGMENTS: tuple[Segment, ...] = (
             "antarktyd", "antarctic", "wyspa", "island", "delta", "jezioro",
         ),
         block=("opinion", "editorial", "quiz"),
-        prefer_lang=EN,
     ),
     Segment(
         id="literatura",
@@ -222,6 +231,8 @@ SEGMENTS: tuple[Segment, ...] = (
         feeds=(
             _f("https://booklips.pl/feed/", "Booklips", weight=1.1),
             _f("https://www.granice.pl/rss", "Granice.pl", weight=1.0),
+            _f("https://xiegarnia.pl/feed/", "Xiegarnia", weight=1.0),
+            _f("https://kultura.onet.pl/.feed", "Onet Kultura", weight=0.95),
             _f("https://www.theguardian.com/books/rss", "The Guardian Books", lang=EN, weight=1.25),
             _f("https://lithub.com/feed/", "Literary Hub", lang=EN, weight=1.1),
             _f("https://www.publishersweekly.com/pw/feeds/recent/index.xml", "Publishers Weekly", lang=EN, weight=1.0),
@@ -243,6 +254,8 @@ SEGMENTS: tuple[Segment, ...] = (
         feeds=(
             _f("https://www.filmweb.pl/rss/news", "Filmweb", weight=1.1),
             _f("https://kultura.onet.pl/.feed", "Onet Kultura", weight=1.0),
+            _f("https://film.interia.pl/feed", "Interia Film", weight=0.95),
+            _f("https://muzyka.interia.pl/feed", "Interia Muzyka", weight=0.9),
             _f("https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml", "BBC Kultura", lang=EN, weight=1.2),
             _f("https://www.theguardian.com/film/rss", "The Guardian Film", lang=EN, weight=1.15),
             _f("https://www.theguardian.com/music/rss", "The Guardian Music", lang=EN, weight=1.05),

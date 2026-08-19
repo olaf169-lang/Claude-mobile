@@ -121,8 +121,9 @@ def _perspectives(cluster: Cluster, segment: Segment, used: list[str]) -> list[d
     used_norm = {normalize(u) for u in used}
     out: list[dict[str, str]] = []
     seen_sources: set[str] = set()
+    lead_lang = cluster.lead.lang
     for entry in cluster.entries[1:]:
-        if entry.source in seen_sources:
+        if entry.source in seen_sources or entry.lang != lead_lang:
             continue
         picks = key_sentences(_material_text(entry), segment, limit=2)
         pick = next((p for p in picks if normalize(p) not in used_norm), None)
@@ -152,20 +153,17 @@ def compose_extractive(cluster: Cluster, segment: Segment, background: dict | No
     if narrative:
         sections.append({"tytuł": "Co się stało", "rodzaj": "akapity", "treść": narrative[:5]})
 
-    # Najpierw źródła w języku głównego artykułu — mieszanie polskiego
-    # z angielskim w jednej sekcji czyta się źle. Obcojęzyczne wchodzą
-    # dopiero, gdy brakuje materiału, i z widoczną etykietą.
+    # Wyłącznie źródła w języku głównego artykułu. Wcześniej obcojęzyczne
+    # zdania wchodziły z etykietą [en] — czytelnik dostawał polski lead
+    # i angielski akapit pod nim, co jest gorsze niż krótsze omówienie.
     swoje: list[str] = []
-    obce: list[str] = []
     for entry in cluster.entries[1:]:
+        if entry.lang != lead.lang:
+            continue
         for sentence in key_sentences(_material_text(entry), segment, limit=3):
-            if not numbers_in(sentence):
-                continue
-            if entry.lang == lead.lang:
+            if numbers_in(sentence):
                 swoje.append(sentence)
-            else:
-                obce.append(f"[{entry.lang}] {sentence}")
-    extra = dedupe_sentences([s for s in swoje + obce if s not in narrative])[:4]
+    extra = dedupe_sentences([s for s in swoje if s not in narrative])[:4]
     if extra:
         sections.append({"tytuł": "Szczegóły i liczby", "rodzaj": "punkty", "treść": extra})
 
