@@ -113,7 +113,30 @@ def _summary(session: requests.Session, lang: str, title: str) -> dict | None:
     }
 
 
-def background(session: requests.Session, candidates: list[str]) -> dict | None:
+#: Ile słów poza samą nazwą musi łączyć hasło z artykułem, żeby uznać je za
+#: tło tematu, a nie za przypadkową zbieżność nazwy.
+MIN_WSPOLNYCH = 3
+
+
+def _on_topic(extract: str, article: str, candidate: str) -> bool:
+    """Czy hasło mówi o tym samym co artykuł, czy tylko nazywa się podobnie?
+
+    Sprawdzenie samej nazwy nie wystarcza: artykuł o islandzkim pangenomie
+    trafiał na hasło „Air Atlanta Icelandic", bo obie rzeczy są islandzkie.
+    Liczymy więc słowa wspólne dla hasła i artykułu *poza* samą nazwą.
+    """
+    if not article:
+        return True
+    wspolne = (token_set(extract) & token_set(article)) - token_set(candidate)
+    return len(wspolne) >= MIN_WSPOLNYCH
+
+
+def background(
+    session: requests.Session,
+    candidates: list[str],
+    *,
+    article_text: str = "",
+) -> dict | None:
     """Pierwsze *trafne* hasło dla listy kandydatów (od najważniejszego)."""
     for candidate in candidates[:4]:
         if len(candidate) < 4:
@@ -124,7 +147,11 @@ def background(session: requests.Session, candidates: list[str]) -> dict | None:
                     log.debug("odrzucam hasło %r dla zapytania %r — nie o to pytaliśmy", title, candidate)
                     continue
                 summary = _summary(session, lang, title)
-                if summary:
-                    log.debug("tło z Wikipedii (%s): %s", lang, title)
-                    return summary
+                if not summary:
+                    continue
+                if not _on_topic(summary["tekst"], article_text, candidate):
+                    log.debug("odrzucam hasło %r — zbieżna nazwa, inny temat", title)
+                    continue
+                log.debug("tło z Wikipedii (%s): %s", lang, title)
+                return summary
     return None

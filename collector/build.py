@@ -136,6 +136,7 @@ def build_segment(
                 cluster.lead.title, lead_text,
                 source=cluster.lead.source, domain=cluster.lead.domain,
             ),
+            article_text=f"{cluster.lead.title} {lead_text}",
         )
 
     story = None

@@ -123,3 +123,45 @@ def test_nazwy_z_naglowka_maja_pierwszenstwo():
 
 def test_brak_sensownych_nazw_to_pusta_lista():
     assert W.candidates_for("krótki tytuł", "bez nazw własnych w tekście", source="X") == []
+
+
+# --- hasło musi mówić o tym samym co artykuł --------------------------------
+
+ARTYKUL_PANGENOM = (
+    "Odniesienie do pangenomu islandzkiego. Naukowcy zsekwencjonowali genomy "
+    "kilkudziesięciu tysięcy mieszkańców Islandii i złożyli z nich pangenom, "
+    "czyli mapę zmienności genetycznej całej populacji."
+)
+
+
+def test_odrzuca_haslo_o_zbieznej_nazwie_ale_innym_temacie(monkeypatch):
+    """Islandzka linia lotnicza nie jest tłem artykułu o islandzkim pangenomie."""
+    linie = haslo("Air Atlanta Icelandic",
+                  "Air Atlanta Icelandic to islandzka linia lotnicza czarterowa z siedzibą "
+                  "w Kopavogur, obsługująca samoloty Boeing 747 w transporcie cargo.")
+    monkeypatch.setattr(W, "get", odpowiedzi({
+        "srwhat=nearmatch": szukanie("Air Atlanta Icelandic"),
+        "page/summary/Air_Atlanta_Icelandic": linie,
+    }))
+    assert W.background(session=None, candidates=["Air Atlanta Icelandic"],
+                        article_text=ARTYKUL_PANGENOM) is None
+
+
+def test_przyjmuje_haslo_faktycznie_o_temacie(monkeypatch):
+    pangenom = haslo("Pangenom",
+                     "Pangenom to zbiór wszystkich genomów populacji. Pangenom opisuje zmienność "
+                     "genetyczną mieszkańców danego obszaru i uzupełnia genom referencyjny.")
+    monkeypatch.setattr(W, "get", odpowiedzi({
+        "srwhat=nearmatch": szukanie("Pangenom"),
+        "page/summary/Pangenom": pangenom,
+    }))
+    wynik = W.background(session=None, candidates=["Pangenom"], article_text=ARTYKUL_PANGENOM)
+    assert wynik and wynik["hasło"] == "Pangenom"
+
+
+def test_bez_tekstu_artykulu_sprawdzenie_tematu_nie_blokuje(monkeypatch):
+    monkeypatch.setattr(W, "get", odpowiedzi({
+        "srwhat=nearmatch": szukanie("Tantal"),
+        "page/summary/Tantal": haslo("Tantal"),
+    }))
+    assert W.background(session=None, candidates=["Tantal"]) is not None
