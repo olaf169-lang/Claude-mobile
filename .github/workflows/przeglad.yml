@@ -8,8 +8,12 @@ on:
   # Zmiana tego pliku od razu buduje wydanie. To także sposób, w jaki GitHub
   # w ogóle poznaje workflow — dopóki nic go nie uruchomi, nie pojawia się
   # na liście Actions i nie da się go odpalić ręcznie.
+  # Zmiana strony lub tego pliku publikuje wydanie od nowa. Bez tego poprawki
+  # wyglądu czekałyby na stronie do następnej porannej zbiórki.
   push:
-    paths: [".github/workflows/przeglad.yml"]
+    paths:
+      - "web/**"
+      - ".github/workflows/przeglad.yml"
   schedule:
     - cron: "0 6 * * *"
     - cron: "0 7 * * *"
@@ -35,8 +39,6 @@ jobs:
   zbierz:
     name: Zbierz newsy
     runs-on: ubuntu-latest
-    outputs:
-      zbudowano: ${{ steps.kontrola.outputs.uruchom }}
     steps:
       - uses: actions/checkout@v4
 
@@ -120,7 +122,6 @@ jobs:
           PY
 
       - name: Przygotuj stronę
-        if: steps.kontrola.outputs.uruchom == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: web
@@ -128,7 +129,6 @@ jobs:
   publikuj:
     name: Opublikuj stronę
     needs: zbierz
-    if: needs.zbierz.outputs.zbudowano == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

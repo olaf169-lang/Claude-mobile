@@ -140,14 +140,22 @@ def compose_extractive(cluster: Cluster, segment: Segment, background: dict | No
     """Omówienie zbudowane z najlepszych zdań źródeł (tryb bez modelu)."""
     lead = cluster.lead
     body = _material_text(lead)
-    core = key_sentences(body, segment, limit=6)
-    dek = shorten(" ".join(core[:2]) or lead.summary or lead.title, 320)
+    core = key_sentences(body, segment, limit=8)
+    w_leadzie = core[:2]
+    dek = shorten(" ".join(w_leadzie) or lead.summary or lead.title, 320)
 
+    # „Dlaczego to ważne" też nie może powtarzać leadu.
     why = next(
-        (s for s in core if any(m in normalize(s) for m in _MEANING_MARKERS)),
+        (
+            s for s in core
+            if s not in w_leadzie and any(m in normalize(s) for m in _MEANING_MARKERS)
+        ),
         "",
     )
-    narrative = [s for s in core if s != why]
+    # Zdania z leadu nie wracają w „Co się stało" — czytelnik dostawał ten sam
+    # akapit dwa razy pod rząd. Gdy źródło jest tak krótkie, że lead wyczerpuje
+    # jego treść, sekcja po prostu się nie pojawia.
+    narrative = [s for s in core if s != why and s not in w_leadzie]
 
     sections: list[dict[str, Any]] = []
     if narrative:

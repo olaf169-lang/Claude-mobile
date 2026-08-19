@@ -23,11 +23,11 @@
   const MONTHS = ['stycznia', 'lutego', 'marca', 'kwietnia', 'maja', 'czerwca',
     'lipca', 'sierpnia', 'września', 'października', 'listopada', 'grudnia'];
 
-  function formatDate(iso) {
+  function formatDate(iso, { rok = true } = {}) {
     if (!iso) return '';
     const [y, m, d] = iso.split('-').map(Number);
     if (!y || !m || !d) return iso;
-    return `${d} ${MONTHS[m - 1]} ${y}`;
+    return rok ? `${d} ${MONTHS[m - 1]} ${y}` : `${d} ${MONTHS[m - 1]}`;
   }
 
   function formatTime(iso) {
@@ -109,7 +109,8 @@
 
     const head = el('div', 'card__head');
     const seg = el('div', 'card__seg');
-    seg.append(el('span', null, `${segment.emoji || ''} ${segment.nazwa || ''}`.trim()));
+    if (segment.emoji) seg.append(el('span', 'emoji', segment.emoji));
+    seg.append(el('span', 'nazwa', segment.nazwa || ''));
     const source = item['źródło'] || {};
     seg.append(el('span', 'dot', `· ${source.nazwa || 'źródło nieznane'}`));
     if (item['liczba_źródeł'] > 1) {
@@ -144,9 +145,11 @@
       card.append(row);
     }
 
-    const toggle = el('button', 'card__toggle', 'Czytaj pogłębione omówienie ▾');
+    const toggle = el('button', 'card__toggle');
     toggle.type = 'button';
     toggle.setAttribute('aria-expanded', 'false');
+    const toggleLabel = el('span', null, 'Czytaj pogłębione omówienie');
+    toggle.append(toggleLabel, el('span', 'chev', '▾'));
     card.append(toggle);
 
     const body = el('div', 'card__body');
@@ -212,7 +215,7 @@
     toggle.addEventListener('click', () => {
       const open = card.classList.toggle('card--open');
       toggle.setAttribute('aria-expanded', String(open));
-      toggle.textContent = open ? 'Zwiń omówienie ▴' : 'Czytaj pogłębione omówienie ▾';
+      toggleLabel.textContent = open ? 'Zwiń omówienie' : 'Czytaj pogłębione omówienie';
     });
 
     card.append(body);
@@ -222,13 +225,19 @@
   function renderEdition(edition, { fromCache } = {}) {
     const items = edition['pozycje'] || [];
 
-    $('edition-kicker').textContent =
-      `Wydanie z ${formatDate(edition['wydanie'])} · newsy z ${formatDate(edition['dotyczy_dnia'])}`;
+    // Rok pokazujemy tylko przy archiwalnych wydaniach — w winiecie bieżącego
+    // dnia zjadałby całą linijkę.
+    const rokWydania = String(edition['wydanie']).slice(0, 4);
+    const biezacy = rokWydania === String(new Date().getFullYear());
+    $('edition-kicker').textContent = `Wydanie ${formatDate(edition['wydanie'], { rok: !biezacy })}`
+      + ` · newsy z ${formatDate(edition['dotyczy_dnia'], { rok: !biezacy })}`;
 
     const noteParts = [`${items.length} ${items.length === 1 ? 'dział' : 'działów'}`];
     if (edition['tryb'] === 'llm') noteParts.push('omówienia pogłębione');
     if ((edition['braki'] || []).length) noteParts.push(`bez materiału: ${edition['braki'].join(', ')}`);
-    $('edition-note').textContent = noteParts.join(' · ');
+    const note = $('edition-note');
+    note.replaceChildren();
+    noteParts.forEach((part) => note.append(el('span', null, part)));
 
     const chips = $('chips');
     chips.replaceChildren();
@@ -305,15 +314,37 @@
   /* Motyw, instalacja, powiadomienia                                    */
   /* ------------------------------------------------------------------ */
 
+  const THEME_COLOR = { dark: '#070C17', light: '#F5F2EB' };
+
+  function currentTheme() {
+    return document.documentElement.dataset.theme
+      || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+  }
+
+  function applyTheme(next, { persist = true } = {}) {
+    document.documentElement.dataset.theme = next;
+    if (persist) localStorage.setItem(STORE.theme, next);
+
+    // Pasek systemowy telefonu też należy do aplikacji.
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.content = THEME_COLOR[next];
+
+    const button = $('btn-theme');
+    button.querySelector('.themebtn__icon').textContent = next === 'dark' ? '☾' : '☀';
+    button.querySelector('.themebtn__label').textContent = next === 'dark' ? 'Ciemny' : 'Jasny';
+    button.setAttribute('aria-label', next === 'dark' ? 'Włącz motyw jasny' : 'Włącz motyw ciemny');
+  }
+
   function initTheme() {
-    const saved = localStorage.getItem(STORE.theme);
-    if (saved) document.documentElement.dataset.theme = saved;
+    // Bez zapisu: dopóki użytkownik nie kliknie, motyw ma iść za systemem.
+    applyTheme(currentTheme(), { persist: false });
     $('btn-theme').addEventListener('click', () => {
-      const current = document.documentElement.dataset.theme
-        || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
-      const next = current === 'dark' ? 'light' : 'dark';
-      document.documentElement.dataset.theme = next;
-      localStorage.setItem(STORE.theme, next);
+      applyTheme(currentTheme() === 'dark' ? 'light' : 'dark');
+    });
+    matchMedia('(prefers-color-scheme: light)').addEventListener('change', (event) => {
+      if (!localStorage.getItem(STORE.theme)) {
+        applyTheme(event.matches ? 'light' : 'dark', { persist: false });
+      }
     });
   }
 

@@ -32,7 +32,12 @@ def test_kazda_pozycja_ma_naglowek_lead_i_segment():
         assert pozycja["lead"].strip()
         assert pozycja["dział"]["nazwa"].strip()
         assert pozycja["źródło"]["url"].startswith("http")
-        assert pozycja["sekcje"], f"brak sekcji w dziale {pozycja['dział']['id']}"
+        # Karta ma nieść coś ponad nagłówek. Sekcja „Co się stało" bywa pusta,
+        # gdy źródło jest tak krótkie, że lead wyczerpuje jego treść — wtedy
+        # rolę omówienia biorą liczby, inne spojrzenia albo tło.
+        assert (
+            pozycja["sekcje"] or pozycja["inne_spojrzenia"] or pozycja["liczby"]
+        ), f"pusta karta w dziale {pozycja['dział']['id']}"
 
 
 def test_zaden_temat_nie_powtarza_sie_miedzy_dzialami():

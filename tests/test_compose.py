@@ -58,3 +58,15 @@ def test_zdanie_z_nota_redakcyjna_jest_dyskwalifikowane():
     wybrane = key_sentences(tekst, SEGMENTS_BY_ID["fizyka"], limit=2)
     assert len(wybrane) == 1
     assert wybrane[0].startswith("The team annealed")
+
+
+def test_lead_nie_powtarza_sie_w_pierwszej_sekcji():
+    """Ten sam akapit dwa razy pod rząd to nie omówienie, tylko duplikat."""
+    for dzial in ("polska", "sport-pl", "popkultura"):
+        item = pozycja(dzial)
+        pierwsza = next(
+            (s for s in item["sekcje"] if s["tytuł"] == "Co się stało"), None
+        )
+        if not pierwsza or not pierwsza["treść"]:
+            continue
+        assert pierwsza["treść"][0] not in item["lead"], f"duplikat w dziale {dzial}"

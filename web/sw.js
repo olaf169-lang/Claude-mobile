@@ -1,6 +1,6 @@
 /* Service worker Przeglądu News: tryb offline i sygnał o nowym wydaniu. */
 
-const VERSION = 'pn-v1';
+const VERSION = 'pn-v2';
 const SHELL = `${VERSION}-shell`;
 const DATA_CACHE = `${VERSION}-dane`;
 
