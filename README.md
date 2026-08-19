@@ -18,10 +18,10 @@ W każdym dziale dokładnie jeden temat dnia — ten, który tego dnia opisało 
 ## Jak to działa
 
 ```
-76 kanałów RSS  →  filtr dnia X-1  →  grupowanie w tematy  →  ranking  →  pogłębienie  →  JSON  →  aplikacja
+75 kanałów RSS  →  filtr dnia X-1  →  grupowanie w tematy  →  ranking  →  pogłębienie  →  JSON  →  aplikacja
 ```
 
-1. **Zbiórka.** O 8:00 czasu polskiego kolektor pobiera 76 kanałów RSS (polskich i zagranicznych)
+1. **Zbiórka.** O 8:00 czasu polskiego kolektor pobiera 75 kanałów RSS (polskich i zagranicznych)
    i zostawia tylko materiały opublikowane poprzedniego dnia.
 2. **Grupowanie.** Wpisy opisujące to samo wydarzenie trafiają do jednego klastra. Podobieństwo liczone
    jest na rzadkich w danej puli tokenach plus n-gramach znakowych, więc „obniżyła" i „obniża" to nadal
@@ -154,7 +154,7 @@ mówi, który kanał nie odpowiada i który nie ma świeżych wpisów. Warto pu�
 
 ```
 collector/          kolektor: źródła, pobieranie, ranking, pogłębianie, zapis
-  sources.py        katalog 76 kanałów w 10 działach
+  sources.py        katalog 75 kanałów w 10 działach
   collect.py        pobieranie i normalizacja wpisów
   rank.py           grupowanie w tematy i wybór najważniejszego
   extract.py        wyciąganie treści artykułu ze strony

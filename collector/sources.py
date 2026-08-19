@@ -31,7 +31,6 @@ SEGMENTS: tuple[Segment, ...] = (
         blurb="polityka, gospodarka, handel, sprawy krajowe",
         feeds=(
             _f("https://www.rmf24.pl/fakty/polska/feed", "RMF24", weight=1.15),
-            _f("https://tvn24.pl/najnowsze.xml", "TVN24", weight=1.15, topical=False),
             _f("https://www.polsatnews.pl/rss/polska.xml", "Polsat News", weight=1.05),
             _f("https://wiadomosci.onet.pl/.feed", "Onet Wiadomości", weight=1.0, topical=False),
             _f("https://fakty.interia.pl/feed", "Interia Fakty", weight=1.0, topical=False),
