@@ -189,7 +189,8 @@ i *brak* łączenia różnych newsów o tym samym polityku), ekstrakcję treści
   potwierdzonym obcojęzycznym, dopóki nie jest od niego *wyraźnie* słabszy — próg to 70% wyniku
   najlepszego tematu (`LANGUAGE_FLOOR` w `rank.py`; niżej = ostrzej trzymamy się polskiego).
   Dzięki temu notka branżowa z jednego serwisu nie wypiera odkrycia opisanego przez cztery redakcje.
-  Gdy do wydania trafi tekst obcojęzyczny, karta mówi o tym wprost etykietą „po angielsku", a całe
+  Gdy do wydania trafi tekst obcojęzyczny, karta mówi o tym wprost etykietą „po angielsku"
+  (<img src="docs/zrzut-plakietka.png" width="12" alt=""> patrz `docs/zrzut-plakietka.png`), a całe
   omówienie jest wtedy w jednym języku — nigdy pół na pół. Klucz `ANTHROPIC_API_KEY` znosi ten
   kompromis: model pisze po polsku także z materiału angielskiego, więc o wyborze decyduje sama
   ważność tematu.
