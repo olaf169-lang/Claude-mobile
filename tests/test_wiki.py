@@ -165,3 +165,12 @@ def test_bez_tekstu_artykulu_sprawdzenie_tematu_nie_blokuje(monkeypatch):
         "page/summary/Tantal": haslo("Tantal"),
     }))
     assert W.background(session=None, candidates=["Tantal"]) is not None
+
+
+def test_odrzuca_haslo_ogolnikowe(monkeypatch):
+    """„Science" jako tło artykułu o czujnikach kwantowych nic nie wyjaśnia."""
+    monkeypatch.setattr(W, "get", odpowiedzi({
+        "srwhat=nearmatch": szukanie("Science"),
+        "page/summary/Science": haslo("Science"),
+    }))
+    assert W.background(session=None, candidates=["Science"]) is None

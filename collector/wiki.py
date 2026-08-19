@@ -113,6 +113,15 @@ def _summary(session: requests.Session, lang: str, title: str) -> dict | None:
     }
 
 
+#: Hasła zbyt ogólne, by cokolwiek wyjaśnić. Lista jest krótka i z założenia
+#: niepełna — łapie to, co realnie wychodziło w wydaniach.
+OGOLNIKI = frozenset({
+    "science", "university", "research", "technology", "internet", "computer",
+    "software", "engineering", "medicine", "history", "energy", "water",
+    "nauka", "uniwersytet", "badania", "technologia", "medycyna", "historia",
+    "energia", "woda", "czlowiek", "swiat", "kraj", "miasto", "rzad",
+})
+
 #: Ile słów poza samą nazwą musi łączyć hasło z artykułem, żeby uznać je za
 #: tło tematu, a nie za przypadkową zbieżność nazwy.
 MIN_WSPOLNYCH = 3
@@ -145,6 +154,9 @@ def background(
             for title in _titles(session, lang, candidate):
                 if not _matches_query(title, candidate):
                     log.debug("odrzucam hasło %r dla zapytania %r — nie o to pytaliśmy", title, candidate)
+                    continue
+                if normalize(title) in OGOLNIKI:
+                    log.debug("odrzucam hasło %r — zbyt ogólne, nic nie wyjaśnia", title)
                     continue
                 summary = _summary(session, lang, title)
                 if not summary:
