@@ -2,7 +2,7 @@
  "wersja": "1.0.0",
  "wydanie": "2026-08-19",
  "dotyczy_dnia": "2026-08-18",
- "wygenerowano": "2026-08-19T11:08:02+00:00",
+ "wygenerowano": "2026-08-19T11:13:49+00:00",
  "strefa": "Europe/Warsaw",
  "tryb": "ekstrakcyjny",
  "demo": false,
@@ -40,8 +40,8 @@
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "W lipcu prezydent Karol Nawrocki skierował do Trybunału Konstytucyjnego ustawę o podatku od nadzwyczajnych zysków osiągniętych w okresie od marca do grudnia 2026 r.",
-      "Bliscy pokonali autostradą 120 kilometrów, ale koło odpadło, gdy samochód nie poruszał się zbyt szybko ."
+      "Bliscy pokonali autostradą 120 kilometrów, ale koło odpadło, gdy samochód nie poruszał się zbyt szybko .",
+      "O niebezpiecznym incydencie prezydent Gdyni Aleksandra Kosiorek poinformowała we wtorek 18 sierpnia na antenie Radia Gdańsk ."
      ]
     },
     {
@@ -57,11 +57,7 @@
    "dlaczego_to_ważne": "",
    "liczby": [
     "120",
-    "20 proc.",
-    "30",
-    "4 mld zł",
-    "60 proc.",
-    "13 lat"
+    "18"
    ],
    "inne_spojrzenia": [
     {
@@ -70,14 +66,14 @@
      "url": "https://www.polsatnews.pl/wiadomosc/2026-08-18/odpadlo-kolo-w-samochodzie-prezydent-gdyni-poluzowano-sruby/"
     },
     {
-     "źródło": "Money.pl",
-     "ujęcie": "Prezydent Karol Nawrocki uważa, że skutkiem wprowadzenia podatku od nadzwyczajnych zysków, planowanego przez rząd Donalda Tuska, będzie fala podwyżek.",
-     "url": "https://www.money.pl/podatki/prezydent-zablokowal-podatek-alarmuje-ws-kosztow-ma-racje-7319868812982400a.html"
-    },
-    {
      "źródło": "Interia Fakty",
      "ujęcie": "Prezydent Gdyni Aleksandra Kosiorek poinformowała, że w dwóch tylnych kołach jej samochodu zostały poluzowane śruby.",
      "url": "https://wydarzenia.interia.pl/pomorskie/news-prezydent-gdyni-alarmuje-policje-ktos-mogl-poluzowac-sruby-w,nId,23530728"
+    },
+    {
+     "źródło": "Gazeta.pl",
+     "ujęcie": "Jak wyjaśniła, do ingerencji musiało dojść jeszcze przed wyjazdem. - Wiemy, że do poluzowania musiało dojść jeszcze w Gdyni, bo już w czwartek mąż słyszał niepokojące dźwięki.",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,32975043,prezydentka-gdyni-w-moim-samochodzie-ktos-poluzowal-sruby-w.html"
     }
    ],
    "pojęcia": [],
@@ -106,11 +102,6 @@
      "url": "https://www.polsatnews.pl/wiadomosc/2026-08-18/odpadlo-kolo-w-samochodzie-prezydent-gdyni-poluzowano-sruby/"
     },
     {
-     "nazwa": "Money.pl",
-     "tytuł": "Prezydent zablokował podatek. Alarmuje ws. kosztów. Ekspert odpowiada",
-     "url": "https://www.money.pl/podatki/prezydent-zablokowal-podatek-alarmuje-ws-kosztow-ma-racje-7319868812982400a.html"
-    },
-    {
      "nazwa": "Interia Fakty",
      "tytuł": "Prezydent Gdyni alarmuje policję. Ktoś mógł poluzować śruby w jej aucie",
      "url": "https://wydarzenia.interia.pl/pomorskie/news-prezydent-gdyni-alarmuje-policje-ktos-mogl-poluzowac-sruby-w,nId,23530728"
@@ -121,17 +112,17 @@
      "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,32975043,prezydentka-gdyni-w-moim-samochodzie-ktos-poluzowal-sruby-w.html"
     }
    ],
-   "liczba_źródeł": 5,
+   "liczba_źródeł": 4,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 11.862,
+    "wynik": 9.711,
     "składowe": {
-     "potwierdzenia": 8.0,
-     "ranga_źródła": 1.757,
+     "potwierdzenia": 6.0,
+     "ranga_źródła": 1.607,
      "eksponowanie": 0.0,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.484,
+     "świeżość": 0.483,
      "treściwość": 0.421,
      "język_działu": 0.5
     }
@@ -415,8 +406,7 @@
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Jamal Musiala, który zasłabł w trakcie ostatniego sparingu z RB Lipsk, pojawił się na boisku w 61. minucie.",
-      "Trzeciego gola strzelił w 81. minucie Jamal Musiala, który wszedł na boisko niedługo wcześniej."
+      "Jamal Musiala, który zasłabł w trakcie ostatniego sparingu z RB Lipsk, pojawił się na boisku w 61. minucie."
      ]
     },
     {
@@ -484,12 +474,12 @@
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 10.084,
+    "wynik": 9.894,
     "składowe": {
      "potwierdzenia": 6.0,
      "ranga_źródła": 1.772,
-     "eksponowanie": 0.81,
-     "słowa_kluczowe": 0.0,
+     "eksponowanie": 0.27,
+     "słowa_kluczowe": 0.35,
      "świeżość": 0.502,
      "treściwość": 0.5,
      "język_działu": 0.5
@@ -580,11 +570,11 @@
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 8.348,
+    "wynik": 8.438,
     "składowe": {
      "potwierdzenia": 4.0,
      "ranga_źródła": 1.335,
-     "eksponowanie": 1.17,
+     "eksponowanie": 1.26,
      "słowa_kluczowe": 0.35,
      "świeżość": 0.493,
      "treściwość": 0.5,
@@ -599,13 +589,13 @@
     "emoji": "⚛️",
     "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
    },
-   "nagłówek": "Rozpoczęto testowanie nowej generacji szczepionek przeciwnowotworowych",
-   "lead": "Rozpoczęto testowanie nowej generacji szczepionek przeciwnowotworowych tryton wt., 08/18/2026 - 13:11 2 minuty",
+   "nagłówek": "Kwantowe zabezpieczenie wyborów",
+   "lead": "Kwantowe zabezpieczenie wyborów tryton wt., 08/18/2026 - 07:11 3 minuty",
    "język_źródła": "pl",
-   "opublikowano": "2026-08-18T11:11:02+00:00",
+   "opublikowano": "2026-08-18T05:11:02+00:00",
    "źródło": {
     "nazwa": "Nauka w Polsce",
-    "url": "https://naukawpolsce.pl/aktualnosci/news%2C114400%2Crozpoczeto-testowanie-nowej-generacji-szczepionek-przeciwnowotworowych.html",
+    "url": "https://naukawpolsce.pl/aktualnosci/news%2C114397%2Ckwantowe-zabezpieczenie-wyborow.html",
     "domena": "naukawpolsce.pl"
    },
    "obraz": null,
@@ -614,71 +604,57 @@
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Rozpoczęto testowanie nowej generacji szczepionek przeciwnowotworowych tryton wt., 08/18/2026 - 13:11 2 minuty"
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Światło może ostrzec przed przeciążeniem konstrukcji tryton wt., 08/18/2026 - 07:57 3 minuty"
+      "Kwantowe zabezpieczenie wyborów tryton wt., 08/18/2026 - 07:11 3 minuty"
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Czarnogóra – państwo unitarne w Europie Południowej powstałe po rozpadzie Serbii i Czarnogóry. Wcześniej republika związkowa Socjalistycznej Federacyjnej Republiki Jugosławii (1945–1992), Federalnej Republiki Jugosławii (1992–2003) oraz Serbii i Czarnogóry (2003–2006). Leży na pobrzeżu Morza Adriatyckiego i graniczy z Serbią, Kosowem, Chorwacją, Bośnią i Hercegowiną oraz Albanią. Stolicą i największym miastem jest Podgorica."
+      "Mechanika kwantowa – teoria fizyczna rozszerzająca mechanikę klasyczną, konieczna do poprawnego opisu mikroświata, tj. pojedynczych cząstek elementarnych i ich układów jak atomy czy jony. Jest też konieczna do wyjaśnienia niektórych zjawisk makroskopowych jak nadprzewodnictwo i nadciekłość. Termin ten bywa synonimem fizyki kwantowej, jednak ta druga nazwa obejmuje też teorie pól kwantowych. Mechanika kwantowa bywa z nimi kontrastowana – to model zachowań cząstek w zadanych polach, zwykle klasycznych, ignorujący ich kwantową naturę."
      ],
-     "przypis": "Wikipedia: Czarnogóra",
-     "url": "https://pl.wikipedia.org/wiki/Czarnog%C3%B3ra"
+     "przypis": "Wikipedia: Mechanika kwantowa",
+     "url": "https://pl.wikipedia.org/wiki/Mechanika_kwantowa"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
     "08",
     "18",
-    "13",
-    "11 2",
     "07",
-    "57 3"
+    "11 3"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Czarnogóra",
-    "opis": "państwo w Europie Południowej",
-    "tekst": "Czarnogóra – państwo unitarne w Europie Południowej powstałe po rozpadzie Serbii i Czarnogóry. Wcześniej republika związkowa Socjalistycznej Federacyjnej Republiki Jugosławii (1945–1992), Federalnej Republiki Jugosławii (1992–2003) oraz Serbii i Czarnogóry (2003–2006). Leży na pobrzeżu Morza Adriatyckiego i graniczy z Serbią, Kosowem, Chorwacją, Bośnią i Hercegowiną oraz Albanią. Stolicą i największym miastem jest Podgorica.",
-    "url": "https://pl.wikipedia.org/wiki/Czarnog%C3%B3ra",
+    "hasło": "Mechanika kwantowa",
+    "opis": "dział fizyki, konieczny do modelowania skali atomowej",
+    "tekst": "Mechanika kwantowa – teoria fizyczna rozszerzająca mechanikę klasyczną, konieczna do poprawnego opisu mikroświata, tj. pojedynczych cząstek elementarnych i ich układów jak atomy czy jony. Jest też konieczna do wyjaśnienia niektórych zjawisk makroskopowych jak nadprzewodnictwo i nadciekłość. Termin ten bywa synonimem fizyki kwantowej, jednak ta druga nazwa obejmuje też teorie pól kwantowych. Mechanika kwantowa bywa z nimi kontrastowana – to model zachowań cząstek w zadanych polach, zwykle klasycznych, ignorujący ich kwantową naturę.",
+    "url": "https://pl.wikipedia.org/wiki/Mechanika_kwantowa",
     "język": "pl"
    },
    "tagi": [
-    "Rozpoczęto"
+    "Kwantowe"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Nauka w Polsce",
-     "tytuł": "Rozpoczęto testowanie nowej generacji szczepionek przeciwnowotworowych",
-     "url": "https://naukawpolsce.pl/aktualnosci/news%2C114400%2Crozpoczeto-testowanie-nowej-generacji-szczepionek-przeciwnowotworowych.html"
-    },
-    {
-     "nazwa": "Nauka w Polsce",
-     "tytuł": "Światło może ostrzec przed przeciążeniem konstrukcji",
-     "url": "https://naukawpolsce.pl/aktualnosci/news%2C114398%2Cswiatlo-moze-ostrzec-przed-przeciazeniem-konstrukcji.html"
+     "tytuł": "Kwantowe zabezpieczenie wyborów",
+     "url": "https://naukawpolsce.pl/aktualnosci/news%2C114397%2Ckwantowe-zabezpieczenie-wyborow.html"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 2.98,
+    "wynik": 2.494,
     "składowe": {
      "potwierdzenia": 0.0,
-     "ranga_źródła": 1.322,
-     "eksponowanie": 0.63,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.39,
-     "treściwość": 0.138,
+     "ranga_źródła": 1.15,
+     "eksponowanie": 0.09,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.315,
+     "treściwość": 0.089,
      "język_działu": 0.5
     }
    }
@@ -763,13 +739,13 @@
     "emoji": "🗺️",
     "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
    },
-   "nagłówek": "NIK: zagrożony majątek Skarbu Państwa. Tysiące działek poza ewidencją i użytkowanych bezumownie",
-   "lead": "Najwyższa Izba Kontroli zbadała gospodarowanie majątkiem Skarbu Państwa przez starostów i prezydentów miast. Kontrola wykazała wieloletnie zaniedbania, które sprzyjają bezprawnemu zajmowaniu gruntów, zwiększają ryzyko ich utraty przez zasiedzenie oraz powodują znaczne straty finansowe.",
+   "nagłówek": "RaportyGML: rozbudowana przeglądarka plików GML",
+   "lead": "RaportyGML to nowa aplikacja desktopowa, która łączy wizualizację danych GML EGiB, RCN, planowanie przestrzenne z generowaniem gotowych zestawień, wykazów, wypisów, zawiadomień i protokołów. Codzienna praca z danymi w formacie GML wymaga zarówno ich podglądu, jak i przygotowania dokumentów.",
    "język_źródła": "pl",
-   "opublikowano": "2026-08-19T00:00:00+00:00",
+   "opublikowano": "2026-08-18T00:00:00+00:00",
    "źródło": {
     "nazwa": "Geoforum",
-    "url": "https://geoforum.pl/news/37241/nik-zagrozony-majatek-skarbu-panstwa-tysiace-dzialek-poza-ewidencja-i-uzytkowanych",
+    "url": "https://geoforum.pl/news/37239/raportygml-rozbudowana-przegladarka-plikow-gml",
     "domena": "geoforum.pl"
    },
    "obraz": null,
@@ -778,57 +754,54 @@
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Najwyższa Izba Kontroli zbadała gospodarowanie majątkiem Skarbu Państwa przez starostów i prezydentów miast.",
-      "Kontrolę przeprowadzono w 17 jednostkach, w tym 12 starostwach powiatowych i czterech urzędach miast na prawach powiatu oraz jednej jednostce organizacyjnej powiatu Powiatowym Zarządzie Geodezji..."
+      "RaportyGML to nowa aplikacja desktopowa, która łączy wizualizację danych GML EGiB, RCN, planowanie przestrzenne z generowaniem gotowych zestawień, wykazów, wypisów, zawiadomień i protokołów.",
+      "Codzienna praca z danymi w formacie GML wymaga zarówno ich podglądu, jak i przygotowania dokumentów.",
+      "RaportyGML podkreśla twórca rozwiązania importuje pliki GML, prezentuje dane na interaktywnej mapie oraz w tabelach, a następnie pozwala jednym kliknięciem wygenerować gotowy dokument..."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Ministerstwo Skarbu Państwa (MSP) – polskie ministerstwo istniejące w latach 1990–2017, początkowo jako Ministerstwo Przekształceń Własnościowych zajmujące się procesami prywatyzacji przedsiębiorstw państwowych i spółek Skarbu Państwa, po rozszerzeniu kompetencji w 1996 kontynuowało pracę pod zmienioną nazwą. Zakończyło działalność 31 grudnia 2016. Jego następcą kompetencyjnym jest Ministerstwo Aktywów Państwowych."
+      "GEO-MAP – program do tworzenia zbiorów informacji o terenie, ich aktualizacji, analizy, udostępniania oraz wykonywania różnorodnych prac geodezyjnych i projektowych. GEO-MAP pozwala na prowadzenie wielkoskalowej mapy numerycznej. Oprogramowanie powstało w roku 1992, działa w środowisku Microsoft Windows i ma własny format pliku danych przestrzennych – MAP. GEO-MAP ma budowę modułową, pozwalającą na rozbudowanie go o dodatkowe funkcje potrzebne użytkownikowi."
      ],
-     "przypis": "Wikipedia: Ministerstwo Skarbu Państwa",
-     "url": "https://pl.wikipedia.org/wiki/Ministerstwo_Skarbu_Pa%C5%84stwa"
+     "przypis": "Wikipedia: Geo-Map",
+     "url": "https://pl.wikipedia.org/wiki/Geo-Map"
     }
    ],
-   "dlaczego_to_ważne": "Kontrola wykazała wieloletnie zaniedbania, które sprzyjają bezprawnemu zajmowaniu gruntów, zwiększają ryzyko ich utraty przez zasiedzenie oraz powodują znaczne straty finansowe.",
-   "liczby": [
-    "17",
-    "12"
-   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Ministerstwo Skarbu Państwa",
-    "opis": "dawne polskie ministerstwo",
-    "tekst": "Ministerstwo Skarbu Państwa (MSP) – polskie ministerstwo istniejące w latach 1990–2017, początkowo jako Ministerstwo Przekształceń Własnościowych zajmujące się procesami prywatyzacji przedsiębiorstw państwowych i spółek Skarbu Państwa, po rozszerzeniu kompetencji w 1996 kontynuowało pracę pod zmienioną nazwą. Zakończyło działalność 31 grudnia 2016. Jego następcą kompetencyjnym jest Ministerstwo Aktywów Państwowych.",
-    "url": "https://pl.wikipedia.org/wiki/Ministerstwo_Skarbu_Pa%C5%84stwa",
+    "hasło": "Geo-Map",
+    "opis": "",
+    "tekst": "GEO-MAP – program do tworzenia zbiorów informacji o terenie, ich aktualizacji, analizy, udostępniania oraz wykonywania różnorodnych prac geodezyjnych i projektowych. GEO-MAP pozwala na prowadzenie wielkoskalowej mapy numerycznej. Oprogramowanie powstało w roku 1992, działa w środowisku Microsoft Windows i ma własny format pliku danych przestrzennych – MAP. GEO-MAP ma budowę modułową, pozwalającą na rozbudowanie go o dodatkowe funkcje potrzebne użytkownikowi.",
+    "url": "https://pl.wikipedia.org/wiki/Geo-Map",
     "język": "pl"
    },
    "tagi": [
-    "Skarbu Państwa",
-    "Powiatowym Zarządzie Geodezji",
-    "Najwyższa Izba Kontroli"
+    "RaportyGML",
+    "EGiB"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Geoforum",
-     "tytuł": "NIK: zagrożony majątek Skarbu Państwa. Tysiące działek poza ewidencją i użytkowanych bezumownie",
-     "url": "https://geoforum.pl/news/37241/nik-zagrozony-majatek-skarbu-panstwa-tysiace-dzialek-poza-ewidencja-i-uzytkowanych"
+     "tytuł": "RaportyGML: rozbudowana przeglądarka plików GML",
+     "url": "https://geoforum.pl/news/37239/raportygml-rozbudowana-przegladarka-plikow-gml"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.45,
+    "wynik": 3.23,
     "składowe": {
      "potwierdzenia": 0.0,
      "ranga_źródła": 1.0,
-     "eksponowanie": 0.9,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.55,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.25,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -1016,14 +989,9 @@
  "braki": [],
  "statystyki": {
   "kanały_ok": 80,
-  "kanały_błędne": 1,
-  "niedziałające_kanały": [
-   {
-    "url": "https://kopalniawiedzy.pl/rss.xml",
-    "powód": "brak wpisów / nieznany format"
-   }
-  ],
+  "kanały_błędne": 0,
+  "niedziałające_kanały": [],
   "działy": 10,
-  "artykuły_w_oknie": 33
+  "artykuły_w_oknie": 31
  }
 }
