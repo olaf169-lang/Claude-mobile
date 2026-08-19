@@ -31,6 +31,15 @@ _BOILERPLATE = re.compile(
     r"written by|compiled by|editors have highlighted)",
     re.I,
 )
+#: Nagłówek strony sklejony w jeden akapit: autor, data, czas czytania.
+#: Trafia na początek tekstu, czyli prosto w lead.
+_METADATA = re.compile(
+    r"(\d{1,2}[./-]\d{1,2}[./-]\d{2,4}.{0,24}\d{1,2}:\d{2}"
+    r"|\b\d{1,2}\s*(minut\w*|min\.|min read)\b"
+    r"|\b(udostępnij|share|drukuj|print)\b.{0,30}$)",
+    re.I,
+)
+
 #: Serwisy naukowe (Science X: Phys.org, Medical Xpress) doklejają do każdego
 #: tekstu notę o procesie redakcyjnym. Trafiała prosto w lead — to nie jest news.
 _EDITORIAL_NOTE = re.compile(
@@ -97,6 +106,10 @@ def extract(html: str, *, base_url: str = "") -> Article:
     for p in root.find_all("p"):
         text = clean(p.get_text(" "))
         if len(text) < 40 or _BOILERPLATE.match(text) or _EDITORIAL_NOTE.search(text):
+            continue
+        # Metadane wykrywamy tylko w krótkich akapitach: w długim tekście data
+        # z godziną jest zwykle treścią, nie stopką redakcyjną.
+        if len(text) < 220 and _METADATA.search(text):
             continue
         if paragraphs and text == paragraphs[-1]:
             continue

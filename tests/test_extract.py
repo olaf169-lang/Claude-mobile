@@ -60,3 +60,27 @@ def test_odrzuca_note_o_procesie_redakcyjnym():
     assert artykul.paragraphs[0].startswith("To commercialize")
     assert "reviewed by" not in artykul.text
     assert "peer-reviewed publication" not in artykul.text
+
+
+METADANE = """
+<html><body><article>
+<p>Kwantowe zabezpieczenie wyborów tryton wt., 08/18/2026 - 07:11 3 minuty</p>
+<p>Fizycy z Uniwersytetu Warszawskiego pokazali protokół, w którym poprawność zliczania głosów
+gwarantuje splątanie kwantowe, a nie zaufanie do komisji.</p>
+<p>Zespół przetestował rozwiązanie na 512 symulowanych kartach do głosowania i opisał wynik
+w czasopiśmie Physical Review Letters z 17 sierpnia 2026 roku.</p>
+</article></body></html>
+"""
+
+
+def test_odrzuca_naglowek_z_data_autorem_i_czasem_czytania():
+    artykul = extract(METADANE)
+    assert len(artykul.paragraphs) == 2
+    assert artykul.paragraphs[0].startswith("Fizycy z Uniwersytetu")
+    assert "3 minuty" not in artykul.text
+
+
+def test_data_w_dlugim_akapicie_zostaje():
+    """Data z godziną w środku treści to fakt, nie stopka."""
+    artykul = extract(METADANE)
+    assert any("17 sierpnia 2026" in p for p in artykul.paragraphs)
