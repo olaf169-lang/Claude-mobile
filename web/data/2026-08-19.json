@@ -2,7 +2,7 @@
  "wersja": "1.0.0",
  "wydanie": "2026-08-19",
  "dotyczy_dnia": "2026-08-18",
- "wygenerowano": "2026-08-19T11:18:58+00:00",
+ "wygenerowano": "2026-08-19T11:23:00+00:00",
  "strefa": "Europe/Warsaw",
  "tryb": "ekstrakcyjny",
  "demo": false,
@@ -116,9 +116,9 @@
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 9.711,
+    "wynik": 9.411,
     "składowe": {
-     "potwierdzenia": 6.0,
+     "potwierdzenia": 5.7,
      "ranga_źródła": 1.607,
      "eksponowanie": 0.0,
      "słowa_kluczowe": 0.7,
@@ -256,9 +256,9 @@
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 13.52,
+    "wynik": 13.12,
     "składowe": {
-     "potwierdzenia": 8.0,
+     "potwierdzenia": 7.6,
      "ranga_źródła": 2.513,
      "eksponowanie": 0.36,
      "słowa_kluczowe": 1.05,
@@ -361,9 +361,9 @@
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.402,
+    "wynik": 5.302,
     "składowe": {
-     "potwierdzenia": 2.0,
+     "potwierdzenia": 1.9,
      "ranga_źródła": 1.2,
      "eksponowanie": 0.0,
      "słowa_kluczowe": 0.7,
@@ -474,9 +474,9 @@
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 9.894,
+    "wynik": 9.594,
     "składowe": {
-     "potwierdzenia": 6.0,
+     "potwierdzenia": 5.7,
      "ranga_źródła": 1.772,
      "eksponowanie": 0.27,
      "słowa_kluczowe": 0.35,
@@ -570,9 +570,9 @@
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 8.348,
+    "wynik": 8.148,
     "składowe": {
-     "potwierdzenia": 4.0,
+     "potwierdzenia": 3.8,
      "ranga_źródła": 1.335,
      "eksponowanie": 1.17,
      "słowa_kluczowe": 0.35,
@@ -589,73 +589,82 @@
     "emoji": "⚛️",
     "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
    },
-   "nagłówek": "Kwantowe zabezpieczenie wyborów",
-   "lead": "Kwantowe zabezpieczenie wyborów tryton wt., 08/18/2026 - 07:11 3 minuty",
-   "język_źródła": "pl",
-   "opublikowano": "2026-08-18T05:11:02+00:00",
+   "nagłówek": "Krypton gas emerges as a new ingredient for quantum computing",
+   "lead": "To commercialize quantum computing, manufacturers need high-quality superconducting materials for microchips, but they also require a reliable, sustainable nanofabrication process. Tantalum is a corrosion-resistant metal that meets the first criterion but not the second.",
+   "język_źródła": "en",
+   "opublikowano": "2026-08-18T23:40:06+00:00",
    "źródło": {
-    "nazwa": "Nauka w Polsce",
-    "url": "https://naukawpolsce.pl/aktualnosci/news%2C114397%2Ckwantowe-zabezpieczenie-wyborow.html",
-    "domena": "naukawpolsce.pl"
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-08-krypton-gas-emerges-ingredient-quantum.html",
+    "domena": "phys.org"
    },
-   "obraz": null,
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/krypton-gas-is-a-new-i.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Kwantowe zabezpieczenie wyborów tryton wt., 08/18/2026 - 07:11 3 minuty"
+      "To commercialize quantum computing, manufacturers need high-quality superconducting materials for microchips, but they also require a reliable, sustainable nanofabrication process.",
+      "Tantalum is a corrosion-resistant metal that meets the first criterion but not the second.",
+      "That's because it has to be deposited on a substrate at temperatures that typically exceed 400°C (752°F)—too hot for many semiconductor foundries' current tools.",
+      "Cornell researchers have developed a method that uses krypton gas to slash that deposition temperature to 200°C (392°F) while depositing tantalum on silicon, a standard high-quality substrate.",
+      "\"Tantalum as a material has been shown to be very exciting from a device performance perspective, but its manufacturability had some question marks because of integration challenges such as required process temperatures,\" said Valla Fatemi, assistant professor and Aref and Manon Lahham Faculty Fellow in the Cornell Duffield College of Engineering, who led the project."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Mechanika kwantowa – teoria fizyczna rozszerzająca mechanikę klasyczną, konieczna do poprawnego opisu mikroświata, tj. pojedynczych cząstek elementarnych i ich układów jak atomy czy jony. Jest też konieczna do wyjaśnienia niektórych zjawisk makroskopowych jak nadprzewodnictwo i nadciekłość. Termin ten bywa synonimem fizyki kwantowej, jednak ta druga nazwa obejmuje też teorie pól kwantowych. Mechanika kwantowa bywa z nimi kontrastowana – to model zachowań cząstek w zadanych polach, zwykle klasycznych, ignorujący ich kwantową naturę."
+      "Homofobia – negatywne postawy i uczucia wobec homoseksualności lub osób postrzeganych jako lesbijki lub geje. Definiowana jako nienawiść, pogarda, uprzedzenia, niechęć, wstręt lub antypatia wobec osób homoseksualnych, może być oparta na irracjonalnym lęku lub niewiedzy, często wiąże się z przekonaniami religijnymi oraz może skutkować dyskryminacją, prześladowaniem i innymi rodzajami przemocy."
      ],
-     "przypis": "Wikipedia: Mechanika kwantowa",
-     "url": "https://pl.wikipedia.org/wiki/Mechanika_kwantowa"
+     "przypis": "Wikipedia: Homofobia",
+     "url": "https://pl.wikipedia.org/wiki/Homofobia"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "08",
-    "18",
-    "07",
-    "11 3"
+    "400°C",
+    "752",
+    "200°C",
+    "392",
+    "26",
+    "100,000"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Mechanika kwantowa",
-    "opis": "dział fizyki, konieczny do modelowania skali atomowej",
-    "tekst": "Mechanika kwantowa – teoria fizyczna rozszerzająca mechanikę klasyczną, konieczna do poprawnego opisu mikroświata, tj. pojedynczych cząstek elementarnych i ich układów jak atomy czy jony. Jest też konieczna do wyjaśnienia niektórych zjawisk makroskopowych jak nadprzewodnictwo i nadciekłość. Termin ten bywa synonimem fizyki kwantowej, jednak ta druga nazwa obejmuje też teorie pól kwantowych. Mechanika kwantowa bywa z nimi kontrastowana – to model zachowań cząstek w zadanych polach, zwykle klasycznych, ignorujący ich kwantową naturę.",
-    "url": "https://pl.wikipedia.org/wiki/Mechanika_kwantowa",
+    "hasło": "Homofobia",
+    "opis": "uprzedzenie do homoseksualności i dyskryminacja osób LGBT",
+    "tekst": "Homofobia – negatywne postawy i uczucia wobec homoseksualności lub osób postrzeganych jako lesbijki lub geje. Definiowana jako nienawiść, pogarda, uprzedzenia, niechęć, wstręt lub antypatia wobec osób homoseksualnych, może być oparta na irracjonalnym lęku lub niewiedzy, często wiąże się z przekonaniami religijnymi oraz może skutkować dyskryminacją, prześladowaniem i innymi rodzajami przemocy.",
+    "url": "https://pl.wikipedia.org/wiki/Homofobia",
     "język": "pl"
    },
    "tagi": [
-    "Kwantowe"
+    "Fatemi",
+    "Nature Materials",
+    "Olszewski",
+    "Josephson"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Nauka w Polsce",
-     "tytuł": "Kwantowe zabezpieczenie wyborów",
-     "url": "https://naukawpolsce.pl/aktualnosci/news%2C114397%2Ckwantowe-zabezpieczenie-wyborow.html"
+     "nazwa": "Phys.org",
+     "tytuł": "Krypton gas emerges as a new ingredient for quantum computing",
+     "url": "https://phys.org/news/2026-08-krypton-gas-emerges-ingredient-quantum.html"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 2.494,
+    "wynik": 3.756,
     "składowe": {
      "potwierdzenia": 0.0,
-     "ranga_źródła": 1.15,
-     "eksponowanie": 0.09,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.315,
-     "treściwość": 0.089,
-     "język_działu": 0.5
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.546,
+     "treściwość": 0.5,
+     "język_działu": 0.0
     }
    }
   },
@@ -744,9 +753,9 @@
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.93,
+    "wynik": 5.83,
     "składowe": {
-     "potwierdzenia": 2.0,
+     "potwierdzenia": 1.9,
      "ranga_źródła": 1.35,
      "eksponowanie": 0.63,
      "słowa_kluczowe": 1.05,
@@ -841,11 +850,11 @@
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.35,
+    "wynik": 6.16,
     "składowe": {
-     "potwierdzenia": 2.0,
+     "potwierdzenia": 1.9,
      "ranga_źródła": 1.3,
-     "eksponowanie": 0.99,
+     "eksponowanie": 0.9,
      "słowa_kluczowe": 1.05,
      "świeżość": 0.51,
      "treściwość": 0.5,
@@ -1019,9 +1028,9 @@
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 11.747,
+    "wynik": 11.447,
     "składowe": {
-     "potwierdzenia": 6.0,
+     "potwierdzenia": 5.7,
      "ranga_źródła": 1.837,
      "eksponowanie": 2.07,
      "słowa_kluczowe": 0.35,
@@ -1034,18 +1043,9 @@
  ],
  "braki": [],
  "statystyki": {
-  "kanały_ok": 78,
-  "kanały_błędne": 2,
-  "niedziałające_kanały": [
-   {
-    "url": "https://geoforum.pl/rss",
-    "powód": "HTTP 403"
-   },
-   {
-    "url": "https://kosmonauta.net/feed/",
-    "powód": "brak wpisów / nieznany format"
-   }
-  ],
+  "kanały_ok": 80,
+  "kanały_błędne": 0,
+  "niedziałające_kanały": [],
   "działy": 10,
   "artykuły_w_oknie": 33
  }
