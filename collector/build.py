@@ -206,6 +206,10 @@ def build_edition(
         "braki": missing,
         "statystyki": {
             **report.summary,
+            # Lista wprost w wydaniu: inaczej martwy kanał cicho ubywa z puli.
+            "niedziałające_kanały": [
+                {"url": url, "powód": powod} for url, powod in sorted(report.failed.items())
+            ],
             "działy": len(items),
             "artykuły_w_oknie": sum(len(i["wszystkie_źródła"]) for i in items),
         },

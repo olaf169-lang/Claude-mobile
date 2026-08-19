@@ -37,3 +37,26 @@ def test_czyta_metadane_i_uzupelnia_adres_obrazka():
 def test_pusta_strona_nie_wywraca_potoku():
     assert not extract("")
     assert not extract("<html><body><p>za krótkie</p></body></html>")
+
+
+NAUKOWY = """
+<html><body><article>
+<p>edited by Lisa Lock , reviewed by Robert Egan This article has been reviewed according to
+Science X's editorial process and policies.</p>
+<p>Editors have highlighted the following attributes while ensuring the content's credibility:
+fact-checked, peer-reviewed publication, trusted source, proofread</p>
+<p>To commercialize quantum computing, manufacturers need high-quality superconducting materials
+that survive repeated thermal cycling without degrading.</p>
+<p>The team annealed the samples at 400°C in a krypton atmosphere and measured the resulting
+coherence times across twenty devices.</p>
+</article></body></html>
+"""
+
+
+def test_odrzuca_note_o_procesie_redakcyjnym():
+    """Science X dokleja do każdego tekstu notkę redakcyjną — nie jest newsem."""
+    artykul = extract(NAUKOWY)
+    assert len(artykul.paragraphs) == 2
+    assert artykul.paragraphs[0].startswith("To commercialize")
+    assert "reviewed by" not in artykul.text
+    assert "peer-reviewed publication" not in artykul.text

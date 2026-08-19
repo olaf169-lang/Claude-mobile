@@ -15,7 +15,17 @@ from .textutil import (
     top_entities,
 )
 
-_HEDGE = ("czytaj", "zobacz też", "read more", "advertisement", "reklama", "fot.", "źródło:")
+_HEDGE = (
+    "czytaj", "zobacz też", "read more", "advertisement", "reklama", "fot.", "źródło:",
+    "edited by", "reviewed by", "editors have highlighted",
+)
+#: Nota o procesie redakcyjnym Science X — potrafi wejść w środek zdania.
+_EDITORIAL_NOTE = (
+    "this article has been reviewed according to",
+    "editorial process and policies",
+    "editors have highlighted the following attributes",
+    "peer-reviewed publication",
+)
 _MEANING_MARKERS = (
     "oznacza", "skutk", "konsekwen", "wpłynie", "wpływ", "dzięki temu", "w praktyce",
     "to pierwszy", "po raz pierwszy", "means", "impact", "consequence", "for the first time",
@@ -26,6 +36,8 @@ _MEANING_MARKERS = (
 def _sentence_score(sentence: str, index: int, segment: Segment) -> float:
     lowered = normalize(sentence)
     if any(lowered.startswith(h) for h in _HEDGE):
+        return -1.0
+    if any(marker in lowered for marker in _EDITORIAL_NOTE):
         return -1.0
 
     score = 1.0 / (1.0 + index * 0.12)

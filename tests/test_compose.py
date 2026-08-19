@@ -44,3 +44,13 @@ def test_inne_spojrzenia_nie_powtarzaja_glownego_zrodla():
     polska = pozycja("polska")
     zrodla = {p["źródło"] for p in polska["inne_spojrzenia"]}
     assert polska["źródło"]["nazwa"] not in zrodla
+
+
+def test_zdanie_z_nota_redakcyjna_jest_dyskwalifikowane():
+    tekst = (
+        "This article has been reviewed according to Science X's editorial process and policies. "
+        "The team annealed the samples at 400°C in a krypton atmosphere and measured coherence times."
+    )
+    wybrane = key_sentences(tekst, SEGMENTS_BY_ID["fizyka"], limit=2)
+    assert len(wybrane) == 1
+    assert wybrane[0].startswith("The team annealed")

@@ -27,7 +27,16 @@ _DROP_HINT = re.compile(
 _BOILERPLATE = re.compile(
     r"^(czytaj (także|też|więcej)|zobacz (też|także)|read more|advertisement|"
     r"reklama|share this|follow us|zdjęcie:|fot\.|źródło:|autor:|photograph:|"
-    r"sign up|subscribe|copyright|wszelkie prawa)",
+    r"sign up|subscribe|copyright|wszelkie prawa|edited by|reviewed by|"
+    r"written by|compiled by|editors have highlighted)",
+    re.I,
+)
+#: Serwisy naukowe (Science X: Phys.org, Medical Xpress) doklejają do każdego
+#: tekstu notę o procesie redakcyjnym. Trafiała prosto w lead — to nie jest news.
+_EDITORIAL_NOTE = re.compile(
+    r"(this article has been reviewed according to|editorial process and policies|"
+    r"editors have highlighted the following attributes|while ensuring the content'?s "
+    r"credibility|fact-checked|peer-reviewed publication|trusted source|proofread)",
     re.I,
 )
 
@@ -87,7 +96,7 @@ def extract(html: str, *, base_url: str = "") -> Article:
     paragraphs: list[str] = []
     for p in root.find_all("p"):
         text = clean(p.get_text(" "))
-        if len(text) < 40 or _BOILERPLATE.match(text):
+        if len(text) < 40 or _BOILERPLATE.match(text) or _EDITORIAL_NOTE.search(text):
             continue
         if paragraphs and text == paragraphs[-1]:
             continue
