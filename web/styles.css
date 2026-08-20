@@ -129,73 +129,123 @@ body > * { position: relative; z-index: 1; }
 
 /* ---------------------------------------------------------------- topbar */
 
+.sprite { display: none; }
+
+/* Ikony rysowane wektorowo — emotki w pasku narzędzi wyglądają jak proteza. */
+.iconbtn svg, .themebtn svg {
+  width: 21px; height: 21px; display: block;
+  fill: none; stroke: currentColor; stroke-width: 1.7;
+  stroke-linecap: round; stroke-linejoin: round;
+}
+
 .topbar {
   position: sticky; top: 0; z-index: 10;
   background: var(--grad-topbar);
-  backdrop-filter: saturate(150%) blur(16px);
-  -webkit-backdrop-filter: saturate(150%) blur(16px);
+  backdrop-filter: saturate(160%) blur(18px);
+  -webkit-backdrop-filter: saturate(160%) blur(18px);
   padding-top: env(safe-area-inset-top);
   border-bottom: 1px solid var(--line-soft);
+  transition: box-shadow .25s ease;
 }
-.topbar::after {
-  content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: 1px;
-  background: var(--grad-accent); opacity: .5;
-}
-.topbar__inner {
+.topbar--przewiniety { box-shadow: 0 8px 24px -12px rgba(0,0,0,.55); }
+
+.topbar__bar {
   max-width: var(--maxw); margin: 0 auto;
   display: flex; align-items: center; justify-content: space-between;
   gap: .5rem; padding: .6rem 1rem;
+  transition: padding .25s ease;
 }
+.topbar--przewiniety .topbar__bar { padding-top: .4rem; padding-bottom: .4rem; }
 
 .brand { display: flex; align-items: center; gap: .6rem; min-width: 0; }
 .brand__mark {
-  position: relative;
   font-family: var(--serif); font-weight: 700; font-size: .84rem; letter-spacing: .02em;
   background: var(--grad-accent); color: var(--accent-ink);
-  width: 2.1rem; height: 2.1rem; border-radius: 10px;
+  width: 2.1rem; height: 2.1rem; border-radius: 11px;
   display: grid; place-items: center; flex: none;
-  box-shadow: 0 2px 10px -2px rgba(203,127,81,.55);
+  box-shadow: 0 2px 12px -3px rgba(203,127,81,.6);
+  transition: width .25s ease, height .25s ease, font-size .25s ease;
 }
+.topbar--przewiniety .brand__mark { width: 1.75rem; height: 1.75rem; font-size: .74rem; }
+
+.brand__text { display: flex; flex-direction: column; min-width: 0; line-height: 1.15; }
 .brand__name {
-  font-family: var(--serif); font-size: 1.16rem; font-weight: 600;
+  font-family: var(--serif); font-size: 1.08rem; font-weight: 600;
   letter-spacing: -.005em; white-space: nowrap;
 }
+/* Data w pasku pojawia się dopiero po przewinięciu — na górze mówi o niej
+   winieta i dwa razy to samo byłoby zbędne. */
+.brand__date {
+  font-size: .72rem; color: var(--text-faint); white-space: nowrap;
+  max-height: 0; opacity: 0;
+  transition: max-height .25s ease, opacity .2s ease;
+}
+.topbar--przewiniety .brand__date { max-height: 1.2em; opacity: 1; }
 
-.topbar__actions { display: flex; align-items: center; gap: .2rem; }
+.topbar__actions { display: flex; align-items: center; gap: .1rem; }
 
 .iconbtn {
   background: transparent; border: 1px solid transparent; color: var(--text-soft);
-  font-size: 1rem; line-height: 1; padding: .55rem; border-radius: 11px;
-  cursor: pointer; transition: background .16s ease, color .16s ease, border-color .16s ease;
+  padding: .5rem; border-radius: 12px; cursor: pointer;
+  display: grid; place-items: center;
+  transition: background .16s ease, color .16s ease, border-color .16s ease, transform .12s ease;
 }
 .iconbtn:hover { background: var(--surface-hover); color: var(--text); }
+.iconbtn:active { transform: scale(.93); }
 .iconbtn--hidden { display: none; }
 .iconbtn[aria-pressed="true"] {
   color: var(--gold); background: var(--tint-accent); border-color: var(--tint-accent-2);
 }
 
-/* Przełącznik motywu — jedno dotknięcie, widoczny stan. */
+/* Przełącznik motywu — jedno dotknięcie, stan widoczny od razu. */
 .themebtn {
-  display: inline-flex; align-items: center; gap: .35rem;
+  display: grid; place-items: center;
   background: var(--surface-2); border: 1px solid var(--line);
   color: var(--text-soft); cursor: pointer;
-  padding: .4rem .6rem .4rem .5rem; border-radius: 999px;
-  font: inherit; font-size: .78rem; font-weight: 600; letter-spacing: .01em;
-  transition: background .16s ease, border-color .16s ease, color .16s ease;
+  padding: .5rem; border-radius: 999px; margin-left: .25rem;
+  transition: border-color .16s ease, color .16s ease, transform .3s ease;
 }
-.themebtn:hover { border-color: var(--gold); color: var(--text); }
-.themebtn__icon { font-size: .95rem; line-height: 1; }
-.themebtn__label { display: none; }
-@media (min-width: 24rem) { .themebtn__label { display: inline; } }
+.themebtn:hover { border-color: var(--gold); color: var(--gold); }
+.themebtn:active { transform: rotate(-25deg); }
+
+/* Nawigacja działów mieszka w pasku, więc zostaje pod ręką przy przewijaniu. */
+.chips {
+  position: relative;
+  max-width: var(--maxw); margin: 0 auto; padding: 0 1rem .55rem;
+  display: flex; gap: .4rem; overflow-x: auto;
+  scrollbar-width: none; -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x proximity;
+}
+.chips::-webkit-scrollbar { display: none; }
+.chip {
+  flex: none; text-decoration: none; white-space: nowrap; scroll-snap-align: start;
+  border: 1px solid var(--line); border-radius: 999px;
+  background: var(--surface-2); color: var(--text-soft);
+  padding: .34rem .75rem; font-size: .82rem; font-weight: 500;
+  transition: color .16s ease, border-color .16s ease, background .16s ease;
+}
+.chip:hover, .chip:focus-visible { color: var(--text); border-color: var(--gold); }
+.chip--aktywny {
+  color: var(--accent-ink); background: var(--grad-accent);
+  border-color: transparent; font-weight: 650;
+}
 
 .statusbar {
-  max-width: var(--maxw); margin: 0 auto; padding: .35rem 1rem .6rem;
+  max-width: var(--maxw); margin: 0 auto; padding: 0 1rem .55rem;
   font-size: .79rem; color: var(--text-faint);
   display: flex; align-items: center; gap: .45rem;
 }
 .statusbar::before {
   content: ""; width: 6px; height: 6px; border-radius: 50%; flex: none;
   background: var(--gold); box-shadow: 0 0 0 3px var(--tint-accent);
+}
+
+/* Pasek postępu czytania — cienka kreska na dole nagłówka. */
+.progress { height: 2px; background: transparent; }
+.progress span {
+  display: block; height: 100%; width: 0;
+  background: var(--grad-accent);
+  transition: width .12s linear;
 }
 
 /* -------------------------------------------------------------- winieta */
@@ -237,24 +287,6 @@ body > * { position: relative; z-index: 1; }
   border: 1px solid var(--line); border-radius: 999px;
   padding: .1rem .55rem; font-size: .78rem; background: var(--surface-2);
 }
-
-/* ------------------------------------------------------------ nawigacja */
-
-.chips {
-  position: relative;
-  max-width: var(--maxw); margin: 1.3rem auto .2rem; padding: 0 1rem .6rem;
-  display: flex; gap: .4rem; overflow-x: auto;
-  scrollbar-width: none; -webkit-overflow-scrolling: touch;
-}
-.chips::-webkit-scrollbar { display: none; }
-.chip {
-  flex: none; text-decoration: none; white-space: nowrap;
-  border: 1px solid var(--line); border-radius: 999px;
-  background: var(--surface-2); color: var(--text-soft);
-  padding: .38rem .8rem; font-size: .84rem; font-weight: 500;
-  transition: color .16s ease, border-color .16s ease, transform .16s ease;
-}
-.chip:hover { color: var(--text); border-color: var(--gold); transform: translateY(-1px); }
 
 /* ----------------------------------------------------------------- karty */
 

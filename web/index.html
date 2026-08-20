@@ -39,24 +39,65 @@
 <body>
 <a class="skip" href="#tresc">Przejdź do treści</a>
 
-<header class="topbar">
-  <div class="topbar__inner">
+<svg class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-archiwum" viewBox="0 0 24 24">
+    <path d="M3 7h18v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7Z"/>
+    <path d="M3 7l1.5-3.2A1.5 1.5 0 0 1 5.9 3h12.2a1.5 1.5 0 0 1 1.4.8L21 7"/>
+    <path d="M9.5 12h5"/>
+  </symbol>
+  <symbol id="i-dzwonek" viewBox="0 0 24 24">
+    <path d="M18 9a6 6 0 1 0-12 0c0 5-2 6-2 6h16s-2-1-2-6Z"/>
+    <path d="M10.3 20a2 2 0 0 0 3.4 0"/>
+  </symbol>
+  <symbol id="i-udostepnij" viewBox="0 0 24 24">
+    <path d="M12 15V3"/><path d="m8 7 4-4 4 4"/>
+    <path d="M4 13v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6"/>
+  </symbol>
+  <symbol id="i-pobierz" viewBox="0 0 24 24">
+    <path d="M12 3v12"/><path d="m8 11 4 4 4-4"/>
+    <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/>
+  </symbol>
+  <symbol id="i-ksiezyc" viewBox="0 0 24 24">
+    <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z"/>
+  </symbol>
+  <symbol id="i-slonce" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="4"/>
+    <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>
+  </symbol>
+  <symbol id="i-zamknij" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+</svg>
+
+<header class="topbar" id="topbar">
+  <div class="topbar__bar">
     <div class="brand">
       <span class="brand__mark" aria-hidden="true">PN</span>
-      <span class="brand__name">Przegląd&nbsp;News</span>
+      <span class="brand__text">
+        <span class="brand__name">Przegląd&nbsp;News</span>
+        <span class="brand__date" id="brand-date"></span>
+      </span>
     </div>
     <div class="topbar__actions">
-      <button id="btn-archive" class="iconbtn" type="button" title="Archiwum wydań" aria-label="Archiwum wydań">🗂️</button>
-      <button id="btn-notify" class="iconbtn" type="button" title="Powiadomienia o nowym wydaniu" aria-label="Powiadomienia o nowym wydaniu">🔔</button>
-      <button id="btn-share" class="iconbtn" type="button" title="Wyślij komuś przegląd" aria-label="Wyślij komuś przegląd">📤</button>
-      <button id="btn-install" class="iconbtn iconbtn--hidden" type="button" title="Zainstaluj aplikację" aria-label="Zainstaluj aplikację">⬇️</button>
+      <button id="btn-archive" class="iconbtn" type="button" aria-label="Archiwum wydań">
+        <svg aria-hidden="true"><use href="#i-archiwum"/></svg>
+      </button>
+      <button id="btn-notify" class="iconbtn" type="button" aria-label="Powiadomienia o nowym wydaniu">
+        <svg aria-hidden="true"><use href="#i-dzwonek"/></svg>
+      </button>
+      <button id="btn-share" class="iconbtn" type="button" aria-label="Wyślij komuś przegląd">
+        <svg aria-hidden="true"><use href="#i-udostepnij"/></svg>
+      </button>
+      <button id="btn-install" class="iconbtn iconbtn--hidden" type="button" aria-label="Zainstaluj aplikację">
+        <svg aria-hidden="true"><use href="#i-pobierz"/></svg>
+      </button>
       <button id="btn-theme" class="themebtn" type="button" aria-label="Przełącz motyw">
-        <span class="themebtn__icon" aria-hidden="true">☾</span>
-        <span class="themebtn__label">Ciemny</span>
+        <svg class="themebtn__icon" aria-hidden="true"><use href="#i-ksiezyc"/></svg>
       </button>
     </div>
   </div>
+
+  <nav class="chips" id="chips" aria-label="Działy"></nav>
   <div id="statusbar" class="statusbar" hidden></div>
+  <div class="progress" aria-hidden="true"><span id="progress"></span></div>
 </header>
 
 <main id="tresc">
@@ -65,8 +106,6 @@
     <h1 class="masthead__title">Dziewięć dziedzin,<br><em>dwa tematy z każdej</em></h1>
     <p class="masthead__note" id="edition-note"></p>
   </section>
-
-  <nav class="chips" id="chips" aria-label="Działy"></nav>
 
   <div id="feed" class="feed" aria-live="polite">
     <div class="skeleton" aria-hidden="true"></div>
@@ -85,7 +124,7 @@
 <dialog id="archive" class="sheet">
   <div class="sheet__head">
     <h2>Archiwum wydań</h2>
-    <button id="archive-close" class="iconbtn" type="button" aria-label="Zamknij">✕</button>
+    <button id="archive-close" class="iconbtn" type="button" aria-label="Zamknij"><svg aria-hidden="true"><use href="#i-zamknij"/></svg></button>
   </div>
   <ul id="archive-list" class="archive"></ul>
 </dialog>

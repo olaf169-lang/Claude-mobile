@@ -39,8 +39,24 @@ jobs:
           path: android/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
 
-      - name: Dołącz APK do wydania
-        if: github.event_name == 'release'
+      - name: Nazwij plik po ludzku
+        run: |
+          cp android/app/build/outputs/apk/debug/app-debug.apk przeglad-news.apk
+
+      # Stały adres do pobrania, żeby nie trzeba było szukać w artefaktach:
+      # https://github.com/olaf169-lang/Claude-mobile/releases/latest/download/przeglad-news.apk
+      - name: Opublikuj jako wydanie do pobrania
         uses: softprops/action-gh-release@v2
         with:
-          files: android/app/build/outputs/apk/debug/app-debug.apk
+          tag_name: apk
+          name: Przegląd News — aplikacja na Androida
+          body: |
+            Najnowsza wersja aplikacji z powiadomieniami o porannym wydaniu.
+
+            **Pobierz:** [przeglad-news.apk](https://github.com/olaf169-lang/Claude-mobile/releases/latest/download/przeglad-news.apk)
+
+            Po instalacji aplikacja sprawdza co trzy godziny, czy pojawiło się
+            nowe wydanie, i powiadamia niezależnie od tego, czy jest otwarta.
+            Treść aktualizuje się sama — nie trzeba pobierać APK ponownie.
+          files: przeglad-news.apk
+          make_latest: true

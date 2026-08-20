@@ -250,12 +250,14 @@
   function renderEdition(edition, { fromCache } = {}) {
     const items = edition['pozycje'] || [];
 
-    // Rok pokazujemy tylko przy archiwalnych wydaniach — w winiecie bieżącego
-    // dnia zjadałby całą linijkę.
-    const rokWydania = String(edition['wydanie']).slice(0, 4);
+    // Liczy się dzień, który przegląd relacjonuje — data wydania to szczegół
+    // techniczny i tylko myliła czytelnika.
+    const rokWydania = String(edition['dotyczy_dnia']).slice(0, 4);
     const biezacy = rokWydania === String(new Date().getFullYear());
-    $('edition-kicker').textContent = `Wydanie ${formatDate(edition['wydanie'], { rok: !biezacy })}`
-      + ` · newsy z ${formatDate(edition['dotyczy_dnia'], { rok: !biezacy })}`;
+    const dzien = formatDate(edition['dotyczy_dnia'], { rok: !biezacy });
+    $('edition-kicker').textContent = `Przegląd News z ${dzien}`;
+    const podpisDaty = $('brand-date');
+    if (podpisDaty) podpisDaty.textContent = dzien;
 
     const dzialy = new Set(items.map((i) => (i['dział'] || {}).id)).size;
     const noteParts = [
@@ -322,7 +324,9 @@
         const li = el('li');
         const button = el('button');
         button.type = 'button';
-        button.append(el('span', 'date', `${formatDate(entry['wydanie'])} — ${entry['działy']} działów`));
+        const dzien = entry['dotyczy_dnia'] || entry['wydanie'];
+        button.append(el('span', 'date',
+          `${formatDate(dzien)} — ${entry['działy']} ${entry['działy'] === 1 ? 'dział' : 'działów'}`));
         button.append(el('span', 'headlines', (entry['nagłówki'] || []).slice(0, 3).join(' · ')));
         button.addEventListener('click', async () => {
           dialog.close();
@@ -362,8 +366,8 @@
     if (meta) meta.content = THEME_COLOR[next];
 
     const button = $('btn-theme');
-    button.querySelector('.themebtn__icon').textContent = next === 'dark' ? '☾' : '☀';
-    button.querySelector('.themebtn__label').textContent = next === 'dark' ? 'Ciemny' : 'Jasny';
+    button.querySelector('use')
+      .setAttribute('href', next === 'dark' ? '#i-ksiezyc' : '#i-slonce');
     button.setAttribute('aria-label', next === 'dark' ? 'Włącz motyw jasny' : 'Włącz motyw ciemny');
   }
 
@@ -475,7 +479,8 @@
   function announceIfNew(edition) {
     const seen = localStorage.getItem(STORE.seenEdition);
     if (seen && seen !== edition['wydanie']) {
-      toast(`Nowe wydanie z ${formatDate(edition['wydanie'])} — 10 świeżych tematów.`, 5000);
+      const ile = (edition['pozycje'] || []).length;
+      toast(`Przegląd News z ${formatDate(edition['dotyczy_dnia'])} — ${ile} świeżych tematów.`, 5000);
     }
     localStorage.setItem(STORE.seenEdition, edition['wydanie']);
     if (navigator.serviceWorker && navigator.serviceWorker.controller) {
@@ -503,7 +508,44 @@
     }
   }
 
+  function initPasek() {
+    const topbar = $('topbar');
+    const progress = $('progress');
+    let czeka = false;
+
+    const odswiez = () => {
+      czeka = false;
+      const y = window.scrollY;
+      topbar.classList.toggle('topbar--przewiniety', y > 24);
+
+      const wysokosc = document.documentElement.scrollHeight - window.innerHeight;
+      progress.style.width = wysokosc > 0 ? `${Math.min(100, (y / wysokosc) * 100)}%` : '0%';
+
+      // Podświetlamy dział, którego karta jest właśnie na ekranie.
+      let biezacy = null;
+      document.querySelectorAll('.card').forEach((karta) => {
+        if (karta.getBoundingClientRect().top <= 140) biezacy = karta.id;
+      });
+      if (biezacy) {
+        const cel = `#${biezacy.replace(/-\d+$/, '')}`;
+        document.querySelectorAll('.chip').forEach((chip) => {
+          const aktywny = chip.getAttribute('href') === cel;
+          chip.classList.toggle('chip--aktywny', aktywny);
+          if (aktywny) chip.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+        });
+      }
+    };
+
+    addEventListener('scroll', () => {
+      if (czeka) return;
+      czeka = true;
+      requestAnimationFrame(odswiez);
+    }, { passive: true });
+    odswiez();
+  }
+
   function init() {
+    initPasek();
     initTheme();
     initInstall();
     initShare();

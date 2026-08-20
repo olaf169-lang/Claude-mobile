@@ -2,10 +2,10 @@
  "wersja": "1.0.0",
  "wydanie": "2026-08-19",
  "dotyczy_dnia": "2026-08-18",
- "wygenerowano": "2026-08-19T21:56:04+00:00",
+ "wygenerowano": "2026-08-20T08:53:54+00:00",
  "strefa": "Europe/Warsaw",
  "tryb": "ekstrakcyjny",
- "demo": false,
+ "demo": true,
  "pozycje": [
   {
    "dział": {
@@ -14,103 +14,90 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "Romanowski w Naddniestrzu? Poseł PiS odpowiedział Tuskowi",
-   "lead": "- Jestem przekonany, że Marcina Romanowskiego nie ma w Naddniestrzu - powiedział w \"Punkcie Widzenia Szubartowicza\" poseł PiS Michał Wójcik. Polityk zwrócił uwagę, że wtorkowa deklaracja premiera Donalda Tuska co do miejsca pobytu Romanowskiego przeczy ustaleniom prokuratury. - Gdyby to była prawda, to byłaby zdrada -…",
+   "nagłówek": "Rada Polityki Pieniężnej obniżyła stopy procentowe o 25 punktów bazowych",
+   "lead": "RPP zdecydowała o obniżce stóp. Główna stopa wynosi teraz 4,50 proc.",
    "język_źródła": "pl",
-   "opublikowano": "2026-08-18T17:52:00+00:00",
+   "opublikowano": "2026-08-18T12:10:00+00:00",
    "źródło": {
-    "nazwa": "Polsat News",
-    "url": "https://www.polsatnews.pl/wiadomosc/2026-08-18/romanowski-w-naddnniestrzu-posel-pis-odpowiada-tuskowi/",
-    "domena": "polsatnews.pl"
+    "nazwa": "RMF24",
+    "url": "https://rmf24.pl/fakty/polska/rpp-obnizka",
+    "domena": "rmf24.pl"
    },
-   "obraz": "https://ipla.pluscdn.pl/dituel/cp/en/enasybb82ujm1zrxjdiadv6hsv14f9md.jpg",
+   "obraz": null,
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Przed wtorkowym posiedzeniem rządu Donald Tusk ogłosił, że ma 99-procentową pewność , iż poszukiwany były wiceminister sprawiedliwości Marcin Romanowski przebywa na terenie prorosyjskiego Naddniestrza .",
-      "ZOBACZ: Premier: Marcin Romanowski na 99 procent jest w Naddniestrzu - Ja bardzo wątpię, że Marcin Romanowski znajduje się w Naddniestrzu . (…) Przysłuchuję się tym różnym wypowiedziom medialnym, ale także komunikatom, które są wydawane.",
-      "Najpierw przez prokuraturę, która mówi tak: nie chcemy, nie będzie żadnego listu żelaznego dla Marcina Romanowskiego, ponieważ nie ma uprawdopodobnionego miejsca jego pobytu w Naddniestrzu - powiedział polityk. - A więc trzeba to czytać w ten sposób: nie wiemy, gdzie jest Marcin Romanowski, nie mamy pewnego adresu, nie będzie żadnego listu żelaznego.",
-      "I kilka godzin później pojawia się premier Donald Tusk, który radośnie oświadcza, że on wie, gdzie jest Marcin Romanowski , jest w Naddniestrzu - stwierdził Wójcik.",
-      "Poseł PiS stwierdził ponadto, że doniesienia, jakoby Romanowski przebywał w Tyraspolu w zakonie sercanów , zgromadzenia, do którego należy oskarżony w aferze Funduszu Sprawiedliwości ks."
+      "Prezes NBP Adam Glapiński ogłosi szczegóły na konferencji."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "- Służby innych państw z regionu, z którymi współpracujemy, potwierdziły nam tę informację, że pan Romanowski znajduje się na 99 procent - tak na wszelki wypadek to mówię - w Naddniestrzu, w Tyraspolu."
+      "Złoty osłabił się o 0,4 proc. wobec euro.",
+      "Rada Polityki Pieniężnej obniżyła stopy procentowe o 25 punktów bazowych, to trzecia obniżka w tym roku.",
+      "Inflacja w lipcu wyniosła 3,4 proc."
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Naddniestrze – de iure region autonomiczny we wschodniej Mołdawii, de facto państwo nieuznawane ze stolicą w Tyraspolu, obejmujące tereny położone na lewym brzegu Dniestru oraz prawobrzeżne miasto Bendery (Tighina). Jest to pas ziemi o długości około 200 km i średniej szerokości około 12–15 km."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Naddniestrze",
-     "url": "https://pl.wikipedia.org/wiki/Naddniestrze"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "99"
+    "4,50 proc.",
+    "0,4 proc.",
+    "25 punktów",
+    "3,4 proc."
    ],
    "inne_spojrzenia": [
     {
-     "źródło": "Polsat News",
-     "ujęcie": "Chyba nie trzeba tu komentarzy - przekazał premier Donald Tusk na początku posiedzenia rządu.",
-     "url": "https://www.polsatnews.pl/wiadomosc/2026-08-18/premier-marcin-romanowski-na-99-procent-jest-w-naddniestrzu/"
+     "źródło": "Bankier.pl",
+     "ujęcie": "Decyzja Rady Polityki Pieniężnej była zgodna z oczekiwaniami rynku.",
+     "url": "https://bankier.pl/rpp-ciecie"
     }
    ],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Naddniestrze",
-    "opis": "nieuznawane państwo w Europie, w oficjalnych granicach Mołdawii",
-    "tekst": "Naddniestrze – de iure region autonomiczny we wschodniej Mołdawii, de facto państwo nieuznawane ze stolicą w Tyraspolu, obejmujące tereny położone na lewym brzegu Dniestru oraz prawobrzeżne miasto Bendery (Tighina). Jest to pas ziemi o długości około 200 km i średniej szerokości około 12–15 km.",
-    "url": "https://pl.wikipedia.org/wiki/Naddniestrze",
-    "język": "pl"
-   },
+   "tło": null,
    "tagi": [
-    "Naddniestrzu",
-    "Marcin Romanowski",
-    "Romanowskiego",
-    "Donald Tusk"
+    "Polityki Pieniężnej",
+    "NBP Adam Glapiński"
+   ],
+   "emotki": [
+    "💰"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Polsat News",
-     "tytuł": "Romanowski w Naddniestrzu? Poseł PiS odpowiedział Tuskowi",
-     "url": "https://www.polsatnews.pl/wiadomosc/2026-08-18/romanowski-w-naddnniestrzu-posel-pis-odpowiada-tuskowi/"
+     "nazwa": "RMF24",
+     "tytuł": "Rada Polityki Pieniężnej obniżyła stopy procentowe o 25 punktów bazowych",
+     "url": "https://rmf24.pl/fakty/polska/rpp-obnizka"
     },
     {
-     "nazwa": "Polsat News",
-     "tytuł": "Premier: Marcin Romanowski na 99 procent jest w Naddniestrzu",
-     "url": "https://www.polsatnews.pl/wiadomosc/2026-08-18/premier-marcin-romanowski-na-99-procent-jest-w-naddniestrzu/"
+     "nazwa": "Bankier.pl",
+     "tytuł": "Stopy procentowe w dół. RPP tnie o 25 pb, złoty reaguje osłabieniem",
+     "url": "https://bankier.pl/rpp-ciecie"
     },
     {
-     "nazwa": "Notes from Poland",
-     "tytuł": "Poland “99% sure” fugitive opposition politician is in pro-Russian breakaway region of Moldova",
-     "url": "https://notesfrompoland.com/2026/08/18/poland-99-sure-fugitive-opposition-politician-is-in-pro-russian-breakaway-region-of-moldova/"
+     "nazwa": "Gazeta.pl",
+     "tytuł": "RPP obniża stopy procentowe. Główna stopa spada do 4,50 proc.",
+     "url": "https://pap.pl/rpp-stopy"
     }
    ],
-   "liczba_źródeł": 2,
+   "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.392,
+    "wynik": 9.407,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.343,
-     "eksponowanie": 0.63,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.473,
-     "treściwość": 0.496,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.465,
+     "eksponowanie": 2.7,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.417,
+     "treściwość": 0.175,
      "język_działu": 0.5
     }
-   }
+   },
+   "miejsce": 1
   },
   {
    "dział": {
@@ -119,114 +106,140 @@
     "emoji": "🌍",
     "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
    },
-   "nagłówek": "Trump ogłasza „nowe terytorium” USA. Opublikował kontrowersyjną grafikę",
-   "lead": "„Gdy już skończymy pokonywać Iran, który pokonujemy bardzo mocno... Wkrótce ogłoszę cieśninę Ormuz terytorium Stanów Zjednoczonych” - oświadczył Trump w piątek.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-08-18T16:49:00+00:00",
+   "nagłówek": "EU and India sign long-delayed free trade agreement",
+   "lead": "The deal removes tariffs on most goods and follows nine years of negotiations.",
+   "język_źródła": "en",
+   "opublikowano": "2026-08-18T16:00:00+00:00",
    "źródło": {
-    "nazwa": "RMF24 Świat",
-    "url": "https://www.rmf24.pl/fakty/swiat/news-trump-oglasza-nowe-terytorium-usa-opublikowal-kontrowersyjna,nIdn,1014186",
-    "domena": "rmf24.pl"
+    "nazwa": "BBC News",
+    "url": "https://bbc.co.uk/news/eu-india-trade",
+    "domena": "bbc.co.uk"
    },
-   "obraz": "https://rmf.rmffm.pl/news/attachments/6d/93/donald-trump-zdj-636x421-6d93f6f9.jpg",
+   "obraz": null,
    "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "W poniedziałek Trump powtórzył, że to „świetny pomysł”.",
-      "Cóż, po prostu uważam, że to świetny pomysł. (...) Kontrolujemy ją (cieśninę) dzięki blokadzie.",
-      "Mamy całkowitą kontrolę nad cieśniną - powiedział Trump mediom w Gabinecie Owalnym.",
-      "Prezydent w ostatnim czasie wielokrotnie mówił, że Amerykanie mają „całkowitą kontrolę” nad cieśniną Ormuz, i zapowiedział, że ją utrzymają.",
-      "Z kolei serwis Axios przypomniał, że Donald Trump już wcześniej wzywał do rozszerzania terytorium USA."
-     ]
-    },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Działalność Donalda Trumpa w Białym Domu pozytywnie ocenia 33 proc. respondentów , podczas gdy 64 proc. uczestników badania wyraziło dezaprobatę dla jego działań.",
-      "Według agencji Reutera poparcie dla prezydenta USA spadło z poziomu 35 proc. na początku tego miesiąca i jest najniższe od czasu jego powrotu do Białego Domu ."
+      "Tariffs on 92% of goods will be phased out over seven years, officials say."
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "The Kingdom of Hormuz was a kingdom ruled by a dynasty of southern Arab origin. It was located in the eastern side of the Persian Gulf and extended as far as Bahrain in the west at its zenith. The Kingdom was established in the 11th century initially as a dependency of the Kerman Seljuk Sultanate, and later as an autonomous tributary of the Salghurid Turkmens and the Ilkhanate. In its last phase Hormuz became a client state of the Portuguese Empire in the East."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Kingdom of Hormuz",
-     "url": "https://en.wikipedia.org/wiki/Kingdom_of_Hormuz"
     }
    ],
-   "dlaczego_to_ważne": "Proponował m.in. by Kanada została „51. stanem”, a także rozważał przejęcie Grenlandii, co groziło rozłamem w NATO.",
+   "dlaczego_to_ważne": "",
    "liczby": [
-    "51",
-    "33 proc.",
-    "64 proc.",
-    "35 proc.",
-    "80 proc.",
-    "87 proc."
+    "92%"
    ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "Polsat News Świat",
-     "ujęcie": "Donald Trump ogłosił we wtorek, że cieśnina Ormuz stała się nowym terytorium Stanów Zjednoczonych. - Cóż, po prostu uważam, że to świetny pomysł. (...) Mamy nad nią całkowitą kontrolę – przekonywał w poniedziałek.",
-     "url": "https://www.polsatnews.pl/wiadomosc/2026-08-18/swietny-pomysl-donalda-trumpa-usa-oglosily-nowe-terytorium/"
-    }
-   ],
+   "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Kingdom of Hormuz",
-    "opis": "Kingdom in the Persian Gulf (11th century – 1622)",
-    "tekst": "The Kingdom of Hormuz was a kingdom ruled by a dynasty of southern Arab origin. It was located in the eastern side of the Persian Gulf and extended as far as Bahrain in the west at its zenith. The Kingdom was established in the 11th century initially as a dependency of the Kerman Seljuk Sultanate, and later as an autonomous tributary of the Salghurid Turkmens and the Ilkhanate. In its last phase Hormuz became a client state of the Portuguese Empire in the East.",
-    "url": "https://en.wikipedia.org/wiki/Kingdom_of_Hormuz",
-    "język": "en"
-   },
+   "tło": null,
    "tagi": [
-    "Ormuz",
-    "USA",
-    "Trump",
-    "Omanu"
+    "India"
+   ],
+   "emotki": [
+    "🛒"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "RMF24 Świat",
-     "tytuł": "Trump ogłasza „nowe terytorium” USA. Opublikował kontrowersyjną grafikę",
-     "url": "https://www.rmf24.pl/fakty/swiat/news-trump-oglasza-nowe-terytorium-usa-opublikowal-kontrowersyjna,nIdn,1014186"
-    },
-    {
-     "nazwa": "Polsat News Świat",
-     "tytuł": "Poparcie dla Donalda Trumpa topnieje. Padł niechlubny rekord",
-     "url": "https://www.polsatnews.pl/wiadomosc/2026-08-18/poparcie-dla-donalda-trumpa-topnieje-padl-niechlubny-rekord/"
-    },
-    {
-     "nazwa": "Polsat News Świat",
-     "tytuł": "\"Świetny pomysł\" Donalda Trumpa. USA ogłosiły \"nowe terytorium\"",
-     "url": "https://www.polsatnews.pl/wiadomosc/2026-08-18/swietny-pomysl-donalda-trumpa-usa-oglosily-nowe-terytorium/"
+     "nazwa": "BBC News",
+     "tytuł": "EU and India sign long-delayed free trade agreement",
+     "url": "https://bbc.co.uk/news/eu-india-trade"
     },
     {
      "nazwa": "The Guardian",
-     "tytuł": "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline",
-     "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-delay-canada-tariffs-keystone-xl-oil-pipeline"
+     "tytuł": "EU-India trade deal signed in Brussels after nine years of talks",
+     "url": "https://theguardian.com/world/eu-india-deal"
     }
    ],
-   "liczba_źródeł": 3,
+   "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 8.374,
+    "wynik": 6.494,
     "składowe": {
-     "potwierdzenia": 3.8,
-     "ranga_źródła": 1.657,
-     "eksponowanie": 0.27,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.597,
-     "treściwość": 0.5,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.53,
+     "eksponowanie": 1.8,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.466,
+     "treściwość": 0.098,
+     "język_działu": 0.0
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Sensacja w Kopenhadze. Katarzyna Wróbel zagra o medal mistrzostw świata w badmintonie",
+   "lead": "Polska badmintonistka wygrała trzysetowy bój i zapewniła sobie co najmniej brązowy medal. W półfinale zmierzy się z liderką rankingu światowego.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-08-18T18:15:00+00:00",
+   "źródło": {
+    "nazwa": "Sportowe Fakty",
+    "url": "https://sportowefakty.pl/wrobel-medal",
+    "domena": "sportowefakty.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Wróbel pokonała rozstawioną z numerem trzy Chinkę 21:18, 19:21, 21:16 po meczu trwającym 74 minuty.",
+      "To pierwszy polski półfinał w singlu na mistrzostwach świata od 2013 roku."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "21",
+    "18, 19",
+    "16",
+    "74"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Wróbel",
+    "Polska"
+   ],
+   "emotki": [
+    "🏅",
+    "🏸"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Sportowe Fakty",
+     "tytuł": "Sensacja w Kopenhadze. Katarzyna Wróbel zagra o medal mistrzostw świata w badmintonie",
+     "url": "https://sportowefakty.pl/wrobel-medal"
+    },
+    {
+     "nazwa": "Onet Sport",
+     "tytuł": "Badmintonowe mistrzostwa świata: Polka Katarzyna Wróbel w półfinale",
+     "url": "https://ps.pl/badminton-polfinal"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.595,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.3,
+     "eksponowanie": 1.8,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.478,
+     "treściwość": 0.217,
      "język_działu": 0.5
     }
-   }
+   },
+   "miejsce": 1
   },
   {
    "dział": {
@@ -235,89 +248,66 @@
     "emoji": "🌐",
     "opis": "wielkie ligi, turnieje i rekordy poza Polską"
    },
-   "nagłówek": "Buss próbuje zablokować sprzedaż rodzinnego udziału w Lakers przez jej rodzeństwo",
-   "lead": "Gubernator Los Angeles Lakers Jeanie Buss próbuje powstrzymać sprzedaż pozostałego udziału jej rodzeństwa w rozgrywkach NBA.",
+   "nagłówek": "Champions League: record 6-0 win sends holders through in style",
+   "lead": "The holders scored four goals in 18 second-half minutes, the fastest such sequence recorded in the competition since 2003.",
    "język_źródła": "en",
-   "opublikowano": "2026-08-18T13:39:42+00:00",
+   "opublikowano": "2026-08-18T21:50:00+00:00",
    "źródło": {
     "nazwa": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/basketball/articles/c5yvdz79w11o?at_medium=RSS&at_campaign=rss",
+    "url": "https://bbc.co.uk/sport/cl-record",
     "domena": "bbc.co.uk"
    },
-   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/46f6/live/20058780-9afe-11f1-a27d-25dca26018ed.jpg",
+   "obraz": null,
    "sekcje": [
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Godziny po tym, jak rodzina Buss wydała oświadczenie ujawniające ich zamiar sprzedaży 17,8% własności franczyzy Bobowi Igerowi i Joshowi Kushnerowi, CNBC i ESPN poinformowały, że prawnik Jeanie Buss starał się powstrzymać sprzedaż jej rodzeństwa z powodów prawnych.",
-      "Wytyczne NBA wymagają, aby właściciele lub gubernatorzy sprawujący kontrolę posiadali co najmniej 15% franszyzy."
+      "A 6-0 aggregate rout equalled the largest winning margin in a knockout round, with the second-half blitz lasting just 18 minutes."
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Los Angeles Lakers to amerykańska profesjonalna drużyna koszykarska z siedzibą w Los Angeles. Lakers rywalizują w Narodowym Związku Koszykówki (NBA) jako członek Dywizji Pacyfiku Konferencji Zachodniej. Lakersi grają swoje domowe mecze na Crypto.com Arena, arenie, którą dzielą z Los Angeles Sparks of the Women's National Basketball Association (WNBA) i Los Angeles Kings of the National Hockey League (NHL). Lakersi są jedną z najbardziej udanych drużyn w historii NBA z 17 mistrzostwami, drugą po Boston Celtics."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Los Angeles Lakers",
-     "url": "https://en.wikipedia.org/wiki/Los_Angeles_Lakers"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "17.8%",
-    "15%",
-    "10",
-    "12.5",
-    "83%"
+    "18"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Los Angeles Lakers",
-    "opis": "National Basketball Association team in Los Angeles, California",
-    "tekst": "The Los Angeles Lakers are an American professional basketball team based in Los Angeles. The Lakers compete in the National Basketball Association (NBA) as a member of the Pacific Division of the Western Conference. The Lakers play their home games at Crypto.com Arena, an arena they share with the Los Angeles Sparks of the Women's National Basketball Association (WNBA) and the Los Angeles Kings of the National Hockey League (NHL). The Lakers are one of the most successful teams in the history of the NBA with 17 championships, second to the Boston Celtics.",
-    "url": "https://en.wikipedia.org/wiki/Los_Angeles_Lakers",
-    "język": "en"
-   },
+   "tło": null,
    "tagi": [
-    "Lakers Los Angeles Lakers",
-    "Jeanie Buss"
+    "League"
+   ],
+   "emotki": [
+    "⚽"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "BBC Sport",
-     "tytuł": "Buss trying to block her siblings' sale of family stake in Lakers",
-     "url": "https://www.bbc.co.uk/sport/basketball/articles/c5yvdz79w11o?at_medium=RSS&at_campaign=rss"
+     "tytuł": "Champions League: record 6-0 win sends holders through in style",
+     "url": "https://bbc.co.uk/sport/cl-record"
     },
     {
      "nazwa": "The Guardian Sport",
-     "tytuł": "Jeanie Buss reportedly attempting to halt her siblings’ attempt to sell remaining stake in Lakers",
-     "url": "https://www.theguardian.com/sport/2026/aug/17/jeanie-buss-reportedly-attempting-to-halt-her-siblings-attempt-to-sell-remaining-stake-in-lakers"
+     "tytuł": "Champions League holders hit six as records tumble in one-sided tie",
+     "url": "https://theguardian.com/sport/cl-six"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 4.651,
+    "wynik": 6.567,
     "składowe": {
      "potwierdzenia": 1.9,
      "ranga_źródła": 1.48,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.421,
-     "treściwość": 0.5,
+     "eksponowanie": 1.8,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.526,
+     "treściwość": 0.161,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Buss trying to block her siblings' sale of family stake in Lakers",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   }
+   "miejsce": 1
   },
   {
    "dział": {
@@ -326,180 +316,128 @@
     "emoji": "🧪",
     "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
    },
-   "nagłówek": "Odniesienie do pangenomu islandzkiego",
-   "lead": "Uprzedzenie referencyjne jest problemem, który wpływa na większość badań genomicznych analizujących krótkie odczyty zmapowane do genomu referencyjnego 1 , 2 . Za pomocą Emblask zebraliśmy 698 islandzkich haplotypów i dodaliśmy je do pangenomu 4 Human Pangenome Reference Consortium (HPRC), aby skonstruować islandzkie odniesienie do pangenomu (HPRC-ICE), w tym…",
+   "nagłówek": "Logical qubits run chemistry simulation below error threshold",
+   "lead": "A quantum processor with 48 error-corrected logical qubits completed a molecular simulation that classical hardware needs days to approximate, researchers report.",
    "język_źródła": "en",
-   "opublikowano": "2026-08-19T00:00:00+00:00",
+   "opublikowano": "2026-08-18T16:30:00+00:00",
    "źródło": {
     "nazwa": "Nature",
-    "url": "https://www.nature.com/articles/s41586-026-10924-7",
+    "url": "https://nature.com/logical-qubits",
     "domena": "nature.com"
    },
-   "obraz": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-026-10924-7/MediaObjects/41586_2026_10924_Fig1_HTML.png",
+   "obraz": null,
    "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Zmapowaliśmy krótkie odczyty 57 630 Islandczyków do HPRC-ICE z Weaver i nazwaliśmy 98,96 miliona wariantów, co stanowi wzrost o 6,17% w stosunku do mapowania do odniesienia liniowego.",
-      "Ponadto GRCh38 nadal jest niekompletną reprezentacją ludzkiego genomu, ponieważ jego główne rusztowania zawierają około 151 Mb przerw i 9 Mb błędnie zduplikowanych lub zapadniętych regionów 12 .",
-      "Niedawny postęp w długim sekwencjonowaniu 13 umożliwił pierwszy bezszczelinowy zespół ludzkiego genomu 14 , T2T-CHM13 , zawierający prawie bezbłędne zespoły 22 autosomów i chromosomu X, później uzupełniony przez zespół chromosomu Y 15 .",
-      "Tutaj wykorzystaliśmy rurociąg Emblask do złożenia 698 wysokiej jakości haplotypów islandzkich i połączyliśmy je z zespołami HPRC, aby utworzyć odniesienie do pangenomu HPRC-ICE, składające się z 788 haplotypów (ryc.",
-      "ICE set składa się z 698 zespołów haplotypów od 361 Islandczyków, których genomy zsekwencjonowano krótkimi odczytami Illumina, a także długimi odczytami PacBio HiFi ( n = 49) lub ONT R9.4 ( n = 312)."
-     ]
-    },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Nature, Opublikowano online: 18 sierpnia 2026 r.; doi: 10.1038/d41586-026-02527-z Wsporniki robotyczne były kiedyś przeznaczone do użytku klinicznego, ale obecnie naukowcy opracowują tańsze, mniejsze urządzenia skierowane do wszystkich — od osób ze starzejącymi się kolanami po 20-latków chcących wspinać się po górach.",
-      "Nature, Opublikowano online: 19 sierpnia 2026 r.; doi: 10.1038/d41586-026-02376-w Od 2020 r. opady śniegu w dużej mierze równoważyły topnienie pokrywy lodowej Antarktyki.",
-      "Nature, Opublikowano online: 19 sierpnia 2026 r.; doi: 10.1038/d41586-026-02373-z Inżynieria kryształów polimerów znacznie zwiększyła aktywność tych materiałów jako katalizatorów do produkcji paliwa wodorowego z wody, wykorzystując tylko światło słoneczne.",
-      "Nature, Published online: 18 August 2026; doi:10.1038/d41586-026-02584-4 Zwolennicy twierdzą, że obecny system stwarza fałszywe poczucie precyzji, ale krytycy obawiają się, że zmiana może zwiększyć ingerencję polityczną."
+      "The team ran a chemistry simulation on 48 logical qubits assembled from 1,200 physical ones, with error rates below the threshold for the first time in a practical workload."
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Air Atlanta Icelandic – islandzka linia lotnicza cargo założona 10 lutego 1986, z siedzibą w Kópavogur."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Air Atlanta Icelandic",
-     "url": "https://pl.wikipedia.org/wiki/Air_Atlanta_Icelandic"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "1 , 2",
-    "3 , 4 , 5",
-    "698",
-    "51.41 million",
-    "57,630",
-    "98.96 million"
+    "48",
+    "1,200"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Ars Technica",
+     "ujęcie": "The results were published in Nature.",
+     "url": "https://arstechnica.com/quantum-logical"
+    }
+   ],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Air Atlanta Icelandic",
-    "opis": "islandzka linia lotnicza",
-    "tekst": "Air Atlanta Icelandic – islandzka linia lotnicza cargo założona 10 lutego 1986, z siedzibą w Kópavogur.",
-    "url": "https://pl.wikipedia.org/wiki/Air_Atlanta_Icelandic",
-    "język": "pl"
-   },
-   "tagi": [
-    "Weaver",
-    "GRCh38",
-    "Fig",
-    "Icelandic"
+   "tło": null,
+   "tagi": [],
+   "emotki": [
+    "⚛️",
+    "🔬"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Nature",
-     "tytuł": "An Icelandic pangenome reference",
-     "url": "https://www.nature.com/articles/s41586-026-10924-7"
+     "tytuł": "Logical qubits run chemistry simulation below error threshold",
+     "url": "https://nature.com/logical-qubits"
     },
     {
-     "nazwa": "Nature",
-     "tytuł": "Will you be wearing an exoskeleton in ten years? The tech that could change how we move",
-     "url": "https://www.nature.com/articles/d41586-026-02527-z"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "The Antarctic ice sheet has gained mass — but probably not for long",
-     "url": "https://www.nature.com/articles/d41586-026-02376-w"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "Activity of solar-driven polymer catalysts unleashed to produce a potential green fuel",
-     "url": "https://www.nature.com/articles/d41586-026-02373-z"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "NIH proposes major revamp of how it scores research grant proposals",
-     "url": "https://www.nature.com/articles/d41586-026-02584-4"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "A revolutionary stem-cell therapy must proceed responsibly to achieve its full potential",
-     "url": "https://www.nature.com/articles/d41586-026-02524-2"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "How the Middle East can become a hub for sustainable aviation fuels",
-     "url": "https://www.nature.com/articles/d41586-026-02531-3"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "Five ways 3D printing is improving lab work",
-     "url": "https://www.nature.com/articles/d41586-026-02535-z"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "Human organoids that mimic brain development grown for years in lab",
-     "url": "https://www.nature.com/articles/d41586-026-02585-3"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "How to get the most out of an informational interview",
-     "url": "https://www.nature.com/articles/d41586-026-01932-8"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "Mathematics holds the secret to ‘ladder-proof’ knitting",
-     "url": "https://www.nature.com/articles/d41586-026-02466-9"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "Asia’s longevity gains must be translated into better health",
-     "url": "https://www.nature.com/articles/d41586-026-02576-4"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "Treat biological databases as infrastructure, not projects",
-     "url": "https://www.nature.com/articles/d41586-026-02575-5"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "Evidence for vacuum-enhanced superconductivity in NbSe 2",
-     "url": "https://www.nature.com/articles/s41586-026-11037-x"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "Heatwaves expose weak links in food systems",
-     "url": "https://www.nature.com/articles/d41586-026-02577-3"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "Europe must adapt to live with megafires",
-     "url": "https://www.nature.com/articles/d41586-026-02578-2"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "Delisted",
-     "url": "https://www.nature.com/articles/d41586-026-02410-x"
+     "nazwa": "Ars Technica",
+     "tytuł": "Researchers demonstrate error-corrected logical qubits running a useful algorithm",
+     "url": "https://arstechnica.com/quantum-logical"
     }
    ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 2,
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.994,
+    "wynik": 6.608,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 4.42,
-     "eksponowanie": 0.9,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.488,
+     "eksponowanie": 1.8,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.55,
-     "treściwość": 0.424,
+     "świeżość": 0.456,
+     "treściwość": 0.264,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "An Icelandic pangenome reference",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   }
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Rozpoczęto testowanie nowej generacji szczepionek przeciwnowotworowych",
+   "lead": "Badanie kliniczne obejmie 240 pacjentów w ośmiu ośrodkach. Pierwsze wyniki spodziewane są za 18 miesięcy.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-08-18T09:30:00+00:00",
+   "źródło": {
+    "nazwa": "Nauka w Polsce",
+    "url": "https://naukawpolsce.pl/szczepionki",
+    "domena": "naukawpolsce.pl"
+   },
+   "obraz": null,
+   "sekcje": [],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "240",
+    "18"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Badanie"
+   ],
+   "emotki": [
+    "💊"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Nauka w Polsce",
+     "tytuł": "Rozpoczęto testowanie nowej generacji szczepionek przeciwnowotworowych",
+     "url": "https://naukawpolsce.pl/szczepionki"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.45,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.369,
+     "treściwość": 0.131,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
   },
   {
    "dział": {
@@ -508,82 +446,124 @@
     "emoji": "⚛️",
     "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
    },
-   "nagłówek": "A new approach to building noise-resistant quantum sensors",
-   "lead": "Quantum sensors, devices that collect measurements by exploiting quantum-mechanical phenomena, could potentially detect extremely weak magnetic, gravitational and electromagnetic signals with greater sensitivity than classical sensors. Some quantum sensors leverage entanglement, a phenomenon that prompts distant…",
+   "nagłówek": "Muon g-2 final result deepens tension with Standard Model prediction",
+   "lead": "The final dataset from Fermilab pins the muon magnetic moment to 127 parts per billion, four times more precise than the 2021 measurement. The gap with theory now stands at 5.1 sigma.",
    "język_źródła": "en",
-   "opublikowano": "2026-08-18T12:00:07+00:00",
+   "opublikowano": "2026-08-18T14:00:00+00:00",
    "źródło": {
     "nazwa": "Phys.org",
-    "url": "https://phys.org/news/2026-08-approach-noise-resistant-quantum-sensors.html",
+    "url": "https://phys.org/muon-g2-final",
     "domena": "phys.org"
    },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-new-approach-to-buil-1.jpg",
+   "obraz": null,
    "sekcje": [
     {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
      "treść": [
-      "Despite their potential, these sensors are often very sensitive to noise (i.e., external disturbances originating from the surrounding environment).",
-      "Researchers at the Quantum Science Center of Guangdong-Hong Kong-Macao Greater Bay Area, Southern University of Science and Technology and Shenzhen University recently introduced a new method to develop noise-adaptive sensors that can collect more precise measurements.",
-      "Their approach, outlined in a paper published in Physical Review Letters , relies on a variational quantum circuit, a sequence of quantum operations that can be adjusted to search for a state that performs well on specific measurement tasks.",
-      "\"A previous study established a direct connection between the out-of-time-order correlator (OTOC) and the quantum Fisher information (QFI),\" Xiaodong Yang, co-first and co-corresponding author of the paper, told Phys.org.",
-      "By integrating OTOC-based evaluation with parameterized quantum circuits, we thus developed the noise-adaptive quantum metrology scheme presented in this work.\" An OTOC is a quantity that can be used to track how strongly a disturbance spreads through a quantum system over time."
+      "Fermilab's Muon g-2 collaboration released its final analysis, based on six years of data and 21 times the statistics of the original Brookhaven experiment."
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Science – recenzowane czasopismo naukowe wydawane przez American Association for the Advancement of Science. Ukazuje się jako tygodnik ilustrowany. Podstawowym zadaniem tygodnika jest publikowanie najnowszych, szczególnie doniosłych odkryć w dziedzinie nauk przyrodniczych i wszelkich materiałów wiążących się z rolą nauki we współczesnym świecie."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Science",
-     "url": "https://pl.wikipedia.org/wiki/Science"
     }
    ],
-   "dlaczego_to_ważne": "This means that even small environmental disturbances and hardware imperfections can disrupt delicate quantum states and reduce the devices' sensing precision.",
+   "dlaczego_to_ważne": "",
    "liczby": [
-    "100,000",
-    "0.698",
-    "10.1103"
+    "127",
+    "5.1",
+    "21"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Science",
-    "opis": "czasopismo naukowe",
-    "tekst": "Science – recenzowane czasopismo naukowe wydawane przez American Association for the Advancement of Science. Ukazuje się jako tygodnik ilustrowany. Podstawowym zadaniem tygodnika jest publikowanie najnowszych, szczególnie doniosłych odkryć w dziedzinie nauk przyrodniczych i wszelkich materiałów wiążących się z rolą nauki we współczesnym świecie.",
-    "url": "https://pl.wikipedia.org/wiki/Science",
-    "język": "pl"
-   },
+   "tło": null,
    "tagi": [
-    "Yang",
-    "Phys.org",
-    "Science",
-    "Guangdong-Hong Kong-Macao Greater Bay Area Southern University"
+    "Standard Model",
+    "Fermilab"
    ],
+   "emotki": [],
    "wszystkie_źródła": [
     {
      "nazwa": "Phys.org",
-     "tytuł": "A new approach to building noise-resistant quantum sensors",
-     "url": "https://phys.org/news/2026-08-approach-noise-resistant-quantum-sensors.html"
+     "tytuł": "Muon g-2 final result deepens tension with Standard Model prediction",
+     "url": "https://phys.org/muon-g2-final"
+    },
+    {
+     "nazwa": "Phys.org Quantum",
+     "tytuł": "Muon magnetic moment measured to 127 parts per billion, tension with theory persists",
+     "url": "https://physics.aps.org/muon-final"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.749,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.38,
+     "eksponowanie": 1.8,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.44,
+     "treściwość": 0.229,
+     "język_działu": 0.0
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Polscy fizycy uzyskali splątanie kwantowe w temperaturze pokojowej",
+   "lead": "Zespół z Uniwersytetu Warszawskiego utrzymał splątanie przez 12 mikrosekund bez chłodzenia kriogenicznego. Wyniki opublikowano w Nature Physics.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-08-18T11:45:00+00:00",
+   "źródło": {
+    "nazwa": "Nauka w Polsce",
+    "url": "https://naukawpolsce.pl/splatanie",
+    "domena": "naukawpolsce.pl"
+   },
+   "obraz": null,
+   "sekcje": [],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "12"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Uniwersytetu Warszawskiego",
+    "Nature Physics",
+    "Zespół"
+   ],
+   "emotki": [
+    "⚛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Nauka w Polsce",
+     "tytuł": "Polscy fizycy uzyskali splątanie kwantowe w temperaturze pokojowej",
+     "url": "https://naukawpolsce.pl/splatanie"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.5,
+    "wynik": 3.737,
     "składowe": {
      "potwierdzenia": 0.0,
-     "ranga_źródła": 1.2,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 1.4,
-     "świeżość": 0.4,
-     "treściwość": 0.5,
-     "język_działu": 0.0
+     "ranga_źródła": 1.15,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.397,
+     "treściwość": 0.18,
+     "język_działu": 0.5
     }
-   }
+   },
+   "miejsce": 2
   },
   {
    "dział": {
@@ -592,94 +572,68 @@
     "emoji": "🔭",
     "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
    },
-   "nagłówek": "Webb captures clearest image yet of the Lion Nebula",
-   "lead": "The NASA/ESA/CSA James Webb Space Telescope recently imaged NGC 2392 (also known as the Lion Nebula), named for its distinctive appearance, which resembles a lion's face seen head-on. The venerable Hubble Space Telescope (HST) also viewed this nebula in 2000, showcasing its population of hazy, comet-shaped objects.",
-   "język_źródła": "en",
-   "opublikowano": "2026-08-18T13:40:01+00:00",
+   "nagłówek": "Teleskop Webba wykrył parę wodną w atmosferze superziemi w ekosferze",
+   "lead": "Planeta krąży wokół czerwonego karła w odległości 41 lat świetlnych. Analiza ośmiu tranzytów pozwoliła odróżnić sygnał pary wodnej od aktywności gwiazdy.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-08-18T17:00:00+00:00",
    "źródło": {
-    "nazwa": "Phys.org Astronomy",
-    "url": "https://phys.org/news/2026-08-webb-captures-clearest-image-lion.html",
-    "domena": "phys.org"
+    "nazwa": "Urania",
+    "url": "https://urania.edu.pl/webb-superziemia",
+    "domena": "urania.edu.pl"
    },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/webb-captures-clearest.jpg",
+   "obraz": null,
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "By combining data from its Near-Infrared Camera (NIRCam) and Mid-Infrared Instrument (MIRI), Webb has provided the clearest, most detailed view yet of the Lion Nebula.",
-      "The image reveals the nebula's complex structure and the white dwarf at its center, which continues to shape it.",
-      "This stellar remnant created the nebula when it reached the end of its life cycle and shed its outer layers.",
-      "This star looks like the lion's nose, while the extended gaseous envelope, shells of dust and tendrils resemble its \"mane.\" The central star is so hot that it illuminates everything inside the bubble, ionizing hydrogen and causing it to expand and destroy much of the dust it encounters.",
-      "While more massive stars collapse at the end of their lives and shed their outer layers in an explosive event (a supernova), lower-mass stars that produce nebulae such as NGC 2392 are different."
+      "To najlepszy jak dotąd kandydat na planetę skalistą z atmosferą bogatą w wodę."
      ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "The NASA/ESA/CSA James Webb Space Telescope recently imaged NGC 2392 (aka. the Lion Nebula), so-named because of its distinctive appearance, which resembles a lion's face seen head-on.",
-      "The venerable Hubble Space Telescope (HST) also viewed this nebula in 2000, showcasing its population of hazy, comet-shaped objects."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Webb’s First Deep Field – pierwsze operacyjne zdjęcie wykonane przez Kosmiczny Teleskop Jamesa Webba przedstawiające gromadę galaktyk SMACS 0723 znajdującą się w odległości 4,6 miliarda lat świetlnych od Ziemi w konstelacji Ryby Latającej. Zdjęcie zostało wykonane za pomocą urządzenia NIRCam i upublicznione 11 lipca 2022."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Webb’s First Deep Field",
-     "url": "https://pl.wikipedia.org/wiki/Webb%E2%80%99s_First_Deep_Field"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "2392",
-    "10,000"
+    "41 lat"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Webb’s First Deep Field",
-    "opis": "pierwsze operacyjne zdjęcie wykonane przez Kosmiczny Teleskop Jamesa Webba",
-    "tekst": "Webb’s First Deep Field – pierwsze operacyjne zdjęcie wykonane przez Kosmiczny Teleskop Jamesa Webba przedstawiające gromadę galaktyk SMACS 0723 znajdującą się w odległości 4,6 miliarda lat świetlnych od Ziemi w konstelacji Ryby Latającej. Zdjęcie zostało wykonane za pomocą urządzenia NIRCam i upublicznione 11 lipca 2022.",
-    "url": "https://pl.wikipedia.org/wiki/Webb%E2%80%99s_First_Deep_Field",
-    "język": "pl"
-   },
+   "tło": null,
    "tagi": [
-    "Lion Nebula",
-    "Webb's",
-    "Webb",
-    "Near-Infrared Camera NIRCam"
+    "Planeta",
+    "Webba"
+   ],
+   "emotki": [
+    "🔭",
+    "🪐"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Phys.org Astronomy",
-     "tytuł": "Webb captures clearest image yet of the Lion Nebula",
-     "url": "https://phys.org/news/2026-08-webb-captures-clearest-image-lion.html"
+     "nazwa": "Urania",
+     "tytuł": "Teleskop Webba wykrył parę wodną w atmosferze superziemi w ekosferze",
+     "url": "https://urania.edu.pl/webb-superziemia"
     },
     {
-     "nazwa": "Universe Today",
-     "tytuł": "Webb Captures Clearest Image Yet of the Lion Nebula",
-     "url": "https://www.universetoday.com/articles/webb-captures-clearest-image-yet-of-the-lion-nebula"
+     "nazwa": "NASA",
+     "tytuł": "Webb spots water vapour in the atmosphere of a temperate super-Earth",
+     "url": "https://nasa.gov/webb-super-earth"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.4,
+    "wynik": 7.826,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.35,
-     "eksponowanie": 0.45,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.421,
-     "treściwość": 0.229,
-     "język_działu": 0.0
+     "ranga_źródła": 1.473,
+     "eksponowanie": 1.8,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.463,
+     "treściwość": 0.29,
+     "język_działu": 0.5
     }
-   }
+   },
+   "miejsce": 1
   },
   {
    "dział": {
@@ -688,176 +642,52 @@
     "emoji": "🗺️",
     "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
    },
-   "nagłówek": "Plants could transform how scientists measure the climate benefits of tidal marshes",
-   "lead": "Growing up in New Jersey, Emily Wilson regularly passed tidal marshes without giving them much thought. They were part of the coastal landscape—stretches of green and blue she saw from the road.",
+   "nagłówek": "Mapping reveals the Congo Basin peatlands store a third more carbon than thought",
+   "lead": "A three-year survey with ground cores and radar mapping puts the peat complex at 167,000 square kilometres holding roughly 39 billion tonnes of carbon. The revision matters for deforestation policy across three countries.",
    "język_źródła": "en",
-   "opublikowano": "2026-08-18T20:50:02+00:00",
+   "opublikowano": "2026-08-18T13:00:00+00:00",
    "źródło": {
-    "nazwa": "Phys.org Earth",
-    "url": "https://phys.org/news/2026-08-scientists-climate-benefits-tidal-marshes.html",
-    "domena": "phys.org"
+    "nazwa": "Eos (AGU)",
+    "url": "https://eos.org/congo-peat",
+    "domena": "eos.org"
    },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/plants-could-transform.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "It wasn't until she began studying environmental science as an undergraduate that she realized how remarkable they were—plants thriving in salty, waterlogged environments amid the constant ebb and flow of tides.",
-      "Today, as a Boston University doctoral candidate in Earth & Environment, Wilson studies those same ecosystems—and has discovered that the plants she once drove past may hold important information for more accurately tracking the global climate.",
-      "Tidal marshes are important natural climate solutions because they remove carbon dioxide from the atmosphere and store large amounts of carbon in their soils.",
-      "Accurately accounting for both is critical to understanding their overall climate benefit—and to policies and carbon markets that put a value on protecting and restoring wetlands.",
-      "A new study led by Wilson and published in the Proceedings of the National Academy of Sciences finds that plant species are a far better predictor of methane emissions from tidal marshes than salinity, which scientists have relied on for decades."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "National Academy of Sciences (NAS) (Narodowa Akademia Nauk) – jest korporacją w Stanach Zjednoczonych, której członkowie pro publico bono służą jako doradcy w zakresie nauki, inżynierii oraz medycyny. Jej członkowie są co rok wybierani przez bieżących członków, biorąc pod uwagę ich dorobek naukowy i osiągnięcia badawcze."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: National Academy of Sciences",
-     "url": "https://pl.wikipedia.org/wiki/National_Academy_of_Sciences"
-    }
-   ],
+   "obraz": null,
+   "sekcje": [],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "2,000",
-    "87",
-    "62%",
-    "71%",
-    "100,000",
-    "1%"
+    "167,000",
+    "39 billion"
    ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "ScienceDaily Earth",
-     "ujęcie": "Scientists have identified a previously unknown natural process in the Arctic that can cause the number of cloud-forming particles in the atmosphere to surge.",
-     "url": "https://www.sciencedaily.com/releases/2026/08/260816044839.htm"
-    }
-   ],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "National Academy of Sciences",
-    "opis": "",
-    "tekst": "National Academy of Sciences (NAS) (Narodowa Akademia Nauk) – jest korporacją w Stanach Zjednoczonych, której członkowie pro publico bono służą jako doradcy w zakresie nauki, inżynierii oraz medycyny. Jej członkowie są co rok wybierani przez bieżących członków, biorąc pod uwagę ich dorobek naukowy i osiągnięcia badawcze.",
-    "url": "https://pl.wikipedia.org/wiki/National_Academy_of_Sciences",
-    "język": "pl"
-   },
-   "tagi": [
-    "Wilson",
-    "National Academy",
-    "Proceedings",
-    "Sciences"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Phys.org Earth",
-     "tytuł": "Plants could transform how scientists measure the climate benefits of tidal marshes",
-     "url": "https://phys.org/news/2026-08-scientists-climate-benefits-tidal-marshes.html"
-    },
-    {
-     "nazwa": "ScienceDaily Earth",
-     "tytuł": "Scientists discover a natural Arctic cloud factory missing from climate models",
-     "url": "https://www.sciencedaily.com/releases/2026/08/260816044839.htm"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 6.16,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.3,
-     "eksponowanie": 0.9,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.51,
-     "treściwość": 0.5,
-     "język_działu": 0.0
-    }
-   }
-  },
-  {
-   "dział": {
-    "id": "literatura",
-    "nazwa": "Literatura",
-    "emoji": "📚",
-    "opis": "książki, nagrody, pisarze, rynek wydawniczy"
-   },
-   "nagłówek": "Jeśli w młodości wszystko podano ci na tacy, nie rozwiniesz się w pełni – wywiad z Victorem Dixenem, autorem powieści „Agencja Perdido. Droga przez mrok”",
-   "lead": "Gdy gasną światła wielkiego miasta, a codzienna rzeczywistość zaczyna pękać w szwach, na powierzchnię wychodzą najmroczniejsze sekrety. Przedmioty znikające w niewyjaśnionych okolicznościach to dopiero początek.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-08-18T16:29:50+00:00",
-   "źródło": {
-    "nazwa": "Booklips",
-    "url": "https://booklips.pl/wywiady/jesli-w-mlodosci-wszystko-podano-ci-na-tacy-nie-rozwiniesz-sie-w-pelni-wywiad-z-victorem-dixenem-autorem-powiesci-agencja-perdido-droga-przez-mrok/",
-    "domena": "booklips.pl"
-   },
-   "obraz": "https://booklips.pl/wp-content/uploads/2026/08/Victor_Dixen_wyw_feat.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "W mrocznych podziemiach Nowego Jorku czają się bowiem potwory z dziecięcych koszmarów – istoty, które żywią się ludzkim strachem i odbierają nam to, co najcenniejsze.",
-      "Opublikowana przez Wydawnictwo Kropka „Agencja Perdido.",
-      "Droga przez mrok” to porywająca, wielowarstwowa podróż przez duszne labirynty pod miastem.",
-      "Z autorem książki, Victorem Dixenem, rozmawiamy o opisywaniu świata, który budzi lęk i ciekawość, odzwierciedlaniu prawdziwego życia w fantastycznej konwencji, tworzeniu nietuzinkowych literackich duetów i znaczeniu pokonywania trudności w kształtowaniu młodych osób.",
-      "Marcin Waincetel: W życiu szukamy różnych rzeczy – spokoju, natchnienia, pomysłów…"
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Lucy is an English feminine given name derived from the Latin masculine given name Lucius with the meaning as of light. Alternative spellings are Luci and Lucie."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Lucy",
-     "url": "https://en.wikipedia.org/wiki/Lucy"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Lucy",
-    "opis": "Name list",
-    "tekst": "Lucy is an English feminine given name derived from the Latin masculine given name Lucius with the meaning as of light. Alternative spellings are Luci and Lucie.",
-    "url": "https://en.wikipedia.org/wiki/Lucy",
-    "język": "en"
-   },
+   "tło": null,
    "tagi": [
-    "Lucy",
-    "Jasper",
-    "Victorem Dixenem",
-    "Agencji Perdido"
+    "Congo Basin"
    ],
+   "emotki": [],
    "wszystkie_źródła": [
     {
-     "nazwa": "Booklips",
-     "tytuł": "Jeśli w młodości wszystko podano ci na tacy, nie rozwiniesz się w pełni – wywiad z Victorem Dixenem, autorem powieści „Agencja Perdido. Droga przez mrok”",
-     "url": "https://booklips.pl/wywiady/jesli-w-mlodosci-wszystko-podano-ci-na-tacy-nie-rozwiniesz-sie-w-pelni-wywiad-z-victorem-dixenem-autorem-powiesci-agencja-perdido-droga-przez-mrok/"
+     "nazwa": "Eos (AGU)",
+     "tytuł": "Mapping reveals the Congo Basin peatlands store a third more carbon than thought",
+     "url": "https://eos.org/congo-peat"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.63,
+    "wynik": 3.139,
     "składowe": {
      "potwierdzenia": 0.0,
-     "ranga_źródła": 1.1,
-     "eksponowanie": 0.81,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.9,
      "słowa_kluczowe": 0.35,
-     "świeżość": 0.456,
-     "treściwość": 0.414,
-     "język_działu": 0.5
+     "świeżość": 0.413,
+     "treściwość": 0.276,
+     "język_działu": 0.0
     }
-   }
+   },
+   "miejsce": 1
   },
   {
    "dział": {
@@ -866,90 +696,70 @@
     "emoji": "🎬",
     "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
    },
-   "nagłówek": "Władimir Kliczko żegna Hayden Panettiere. \"Pozostawała ważną częścią mojego życia\"",
-   "lead": "Władimir Kliczko zabrał głos po śmierci swojej byłej narzeczonej Hayden Panettiere . Aktorka, znana m.in. z seriali \" Herosi \" i \"<a",
+   "nagłówek": "Rekord sierpnia w kinach. Animacja zarobiła 187 mln dolarów na otwarciu",
+   "lead": "Rysowana klasycznie animacja zanotowała najlepsze otwarcie sierpnia w historii i najlepszy start filmu animowanego tradycyjnie. Budżet produkcji wyniósł 95 mln dolarów.",
    "język_źródła": "pl",
-   "opublikowano": "2026-08-18T10:27:00+00:00",
+   "opublikowano": "2026-08-18T20:10:00+00:00",
    "źródło": {
     "nazwa": "Filmweb",
-    "url": "https://www.filmweb.pl/news/W%C5%82adimir+Kliczko+%C5%BCegna+Hayden+Panettiere.+%22Pozostawa%C5%82a+wa%C5%BCn%C4%85+cz%C4%99%C5%9Bci%C4%85+mojego+%C5%BCycia%22-168107",
+    "url": "https://filmweb.pl/rekord-sierpnia",
     "domena": "filmweb.pl"
    },
-   "obraz": "https://fwcdn.pl/nph/49468/2026/76075.16.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Hayden Lesley Panettiere was an American actress and singer. She starred as Claire Bennet on the NBC superhero series Heroes (2006–2010), Kirby Reed in the slasher horror franchise Scream (2011–2023), and Juliette Barnes in the ABC/CMT musical drama series Nashville (2012–2018). She received two nominations for acting in Nashville for a Golden Globe Award for Best Supporting Actress – Series, Miniseries or Television Film."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Hayden Panettiere",
-     "url": "https://en.wikipedia.org/wiki/Hayden_Panettiere"
-    }
-   ],
+   "obraz": null,
+   "sekcje": [],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "36"
+    "95 mln",
+    "187 million",
+    "95 million"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Hayden Panettiere",
-    "opis": "American actress and singer (1989–2026)",
-    "tekst": "Hayden Lesley Panettiere was an American actress and singer. She starred as Claire Bennet on the NBC superhero series Heroes (2006–2010), Kirby Reed in the slasher horror franchise Scream (2011–2023), and Juliette Barnes in the ABC/CMT musical drama series Nashville (2012–2018). She received two nominations for acting in Nashville for a Golden Globe Award for Best Supporting Actress – Series, Miniseries or Television Film.",
-    "url": "https://en.wikipedia.org/wiki/Hayden_Panettiere",
-    "język": "en"
-   },
+   "tło": null,
    "tagi": [
-    "Hayden Panettiere",
-    "Władimir Kliczko",
-    "Kliczko",
-    "Herosi"
+    "Rysowana"
+   ],
+   "emotki": [
+    "🎬",
+    "💰"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Filmweb",
-     "tytuł": "Władimir Kliczko żegna Hayden Panettiere. \"Pozostawała ważną częścią mojego życia\"",
-     "url": "https://www.filmweb.pl/news/W%C5%82adimir+Kliczko+%C5%BCegna+Hayden+Panettiere.+%22Pozostawa%C5%82a+wa%C5%BCn%C4%85+cz%C4%99%C5%9Bci%C4%85+mojego+%C5%BCycia%22-168107"
+     "tytuł": "Rekord sierpnia w kinach. Animacja zarobiła 187 mln dolarów na otwarciu",
+     "url": "https://filmweb.pl/rekord-sierpnia"
     },
     {
-     "nazwa": "BBC Kultura",
-     "tytuł": "Hayden Panettiere's ex Wladimir Klitschko says family in 'profound shock and grief'",
-     "url": "https://www.bbc.co.uk/news/articles/c5ywe951z80o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "Pitchfork",
-     "tytuł": "Solange Pays Tribute to Former Co-Star Hayden Panettiere",
-     "url": "https://pitchfork.com/story/solange-pays-tribute-to-former-co-star-hayden-panettiere/"
+     "nazwa": "The Guardian Film",
+     "tytuł": "Animated feature breaks August box office record with 187 million dollar global opening",
+     "url": "https://variety.com/august-record"
     }
    ],
-   "liczba_źródeł": 3,
+   "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 7.173,
+    "wynik": 6.968,
     "składowe": {
-     "potwierdzenia": 3.8,
-     "ranga_źródła": 1.522,
-     "eksponowanie": 0.36,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.476,
-     "treściwość": 0.165,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.315,
+     "eksponowanie": 1.8,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.502,
+     "treściwość": 0.251,
      "język_działu": 0.5
     }
-   }
+   },
+   "miejsce": 1
   }
  ],
- "braki": [
-  "sport-pl"
- ],
+ "braki": [],
  "statystyki": {
-  "kanały_ok": 80,
+  "kanały_ok": 22,
   "kanały_błędne": 0,
-  "znaki_tłumaczone": 4295,
+  "znaki_tłumaczone": 0,
   "niedziałające_kanały": [],
-  "działy": 9,
-  "artykuły_w_oknie": 35
+  "działy": 11,
+  "artykuły_w_oknie": 20
  }
 }

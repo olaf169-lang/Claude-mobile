@@ -1,6 +1,6 @@
 /* Service worker Przeglądu News: tryb offline i sygnał o nowym wydaniu. */
 
-const VERSION = 'pn-v3';
+const VERSION = 'pn-v4';
 const SHELL = `${VERSION}-shell`;
 const DATA_CACHE = `${VERSION}-dane`;
 
@@ -100,7 +100,8 @@ async function checkForNewEdition() {
   const headline = items.length ? items[0]['nagłówek'] : 'Świeże wydanie jest gotowe.';
   const segments = items.map((i) => (i['dział'] || {}).nazwa).filter(Boolean).slice(0, 4).join(', ');
 
-  await self.registration.showNotification('Przegląd News — nowe wydanie', {
+  const dzien = edition['dotyczy_dnia'] || edition['wydanie'];
+  await self.registration.showNotification(`Przegląd News z ${dzien}`, {
     body: `${headline}\n${items.length} tematów: ${segments}…`,
     icon: 'icons/icon-192.png',
     badge: 'icons/notification.png',

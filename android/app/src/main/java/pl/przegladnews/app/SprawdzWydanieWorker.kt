@@ -71,6 +71,7 @@ class SprawdzWydanieWorker(
             return
         }
 
+        val dzien = wydanie.optString("dotyczy_dnia").ifEmpty { numer }
         val pozycje = wydanie.optJSONArray("pozycje")
         val czolowy = pozycje?.optJSONObject(0)?.optString("nagłówek").orEmpty()
         val dzialy = buildList {
@@ -97,7 +98,7 @@ class SprawdzWydanieWorker(
 
         val powiadomienie = NotificationCompat.Builder(applicationContext, PrzegladApp.KANAL_WYDANIA)
             .setSmallIcon(R.drawable.ic_powiadomienie)
-            .setContentTitle(applicationContext.getString(R.string.powiadomienie_tytul))
+            .setContentTitle("${applicationContext.getString(R.string.powiadomienie_tytul)} z $dzien")
             .setContentText(czolowy.ifEmpty { "Świeże wydanie jest gotowe." })
             .setStyle(NotificationCompat.BigTextStyle().bigText(tresc))
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
