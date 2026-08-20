@@ -2,7 +2,7 @@
  "wersja": "1.0.0",
  "wydanie": "2026-08-20",
  "dotyczy_dnia": "2026-08-19",
- "wygenerowano": "2026-08-19T22:03:22+00:00",
+ "wygenerowano": "2026-08-20T07:40:59+00:00",
  "strefa": "Europe/Warsaw",
  "tryb": "ekstrakcyjny",
  "demo": false,
@@ -14,156 +14,237 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "Podatkowa rewolucja Tuska. Takie zmiany czekają PIT",
-   "lead": "Podatek PIT czekają zmiany, pojawi się stawka 24%, a opodatkowane stawką 32% będą dochody powyżej 150 tys. zł rocznie. Podniesienie kwoty wolnej od podatku w 2027 i 2028 r. jest mało realne - dodał na zakończenie konferencji premier.",
+   "nagłówek": "Wypadek autokaru na Węgrzech. Polska chce przejąć śledztwo",
+   "lead": "Marta Kolendowska-Matejczuk z Prokuratury Rejonowej w Krośnie podczas środowej konferencji prasowej poinformowała, że polski prokurator nadzorujący śledztwo otrzymał w środę od prokuratury w Miszkolcu informacje potwierdzające fakt zatrzymania i przedstawienia zarzutu kierowcy autokaru, polegającego na nieumyślnym…",
    "język_źródła": "pl",
-   "opublikowano": "2026-08-19T11:11:00+00:00",
+   "opublikowano": "2026-08-19T12:32:00+00:00",
    "źródło": {
-    "nazwa": "Bankier.pl",
-    "url": "https://www.bankier.pl/wiadomosc/Podatkowa-rewolucja-Tuska-Takie-zmiany-czekaja-PIT-9184270.html",
-    "domena": "bankier.pl"
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/regiony/rzeszow/news-wypadek-autokaru-na-wegrzech-polska-chce-przejac-sledztwo,nIdn,1014316",
+    "domena": "rmf24.pl"
    },
-   "obraz": "https://galeria.bankier.pl/p/a/0/dd7fd789f66dc4-948-568-130-480-3650-2190.jpg",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/ee/27/wypadek-polskiegho-autokaru-na-wegrzech-fot-636x421-ee278be1.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Rząd podnosi próg podatkowy ze 120 tys. do 130 tys. zł, wprowadza stawkę PIT na poziomie 24 proc. dla dochodów 130-150 tys. zł - poinformował premier Donald Tusk podczas konferencji prasowej.",
-      "To są miliardy złotych, które trzeba znaleźć, żeby finansować podniesienie progu ze 120 tysięcy do 130 tysięcy .",
-      "Więc nie dość, że nie wchodzimy na próg podatkowy przy 120, dopiero przy 130 tysiącach, to wtedy, kiedy przekraczamy 130 tysięcy, nie łapiemy się na ten najwyższy próg 32 proc., tylko będziemy mieli 24 proc.\" - dodał.",
-      "Łukasz Kozłowski, główny ekonomista Federacji Przedsiębiorców Polskich, członek rady nadzorczej ZUS oraz rady NFZ, poinformował na platformie X, że zmiany te w przypadku osób pracujących na standardowych umowach o prace odczują zarabiający powyżej 11 tys.",
-      "Z załączonej przez niego grafiki wynika, że osoby zarabiające 12 tys. zł brutto miesięcznie zyskają 21 zł, a zarabiające 13 tys. zł - 178 zł miesięcznie."
+      "Z uwagi na przedmiot postępowania, w szczególności mając na względzie okoliczności, że podejrzanym, a także pokrzywdzonymi w sprawie są wyłącznie obywatele Polski, w tutejszej jednostce podjęto decyzję o skierowanie do polskiego ministra sprawiedliwości i Prokuratora Generalnego wniosku o przejęcie ścigania od strony węgierskiej, co jest uzasadnione interesem polskiego wymiaru sprawiedliwości - powiedziała.",
+      "Dopytywana dodała, że obecnie prokurator „pracuje” nad wnioskiem w tej sprawie.",
+      "Wniosek następnie trafi do ministra sprawiedliwości, Prokuratora Generalnego w Polsce, który „rozważy” jego przedłożenie minister sprawiedliwości na Węgrzech.",
+      "Jeśli będzie decyzja pozytywna ze strony węgierskiej, to wówczas śledztwo zostaje przekazane do prowadzenia, do kontynuowania po stronie polskiej – wyjaśniła, odpowiadając na pytanie o procedurę.",
+      "Dodała, że wówczas prokurator w Polsce otrzyma dokumentację w sprawie, dowody zebrane przez stronę węgierską do momentu przejęcia ścigania.",
+      "Przekazany zostanie także polskiej prokuraturze podejrzany, który obecnie przebywa w areszcie.",
+      "Uściśliła, że wtedy termin aresztowania biegnie od momentu przejęcia aresztowanego przez Polskę.",
+      "Prokurator dopytywana o czas, jaki mogą potrwać te procedury, odpowiedziała, że nie ma z góry przyjętych ram czasowych.",
+      "Mamy nadzieję, że stanie się to w pierwszym możliwym terminie – dodała."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Podniesiemy próg podatkowy ze 120 tys. zł do 130 tys. zł - zapowiedział Donald Tusk podczas konferencji prasowej z ministrem finansów Andrzejem Domańskim.",
-      "To są miliardy złotych, które trzeba znaleźć, aby sfinansować podniesienie progu ze 120 tys. do 130 tys. - mówił szef rządu.",
-      "Tusk poinformował, że wraz z Domańskim podjął jeszcze jedną decyzję w kwestii płatników PIT-u. - Ta decyzja oznacza, że dla tych, którzy przekroczą 130 tys. i osiągną zarobek między 130 a 150 tys., przygotowaliśmy stawkę 24 proc.",
-      "CIT ma wzrosnąć z 19 do 22 proc. dla podmiotów i grup kapitałowych o przychodach przekraczających 50 mln euro (ok."
+      "Oprac.: Dawid Szczyrbowski , Karol Płatek Prokuratura w Krośnie chce przejąć od strony węgierskiej śledztwo w sprawie tragicznego wypadku polskiego autokaru.",
+      "Węgierski sąd aresztował go na 30 dni.",
+      "Prokurator nadzorujący polskie śledztwo otrzymał w środę od prokuratury w Miszkolcu informacje potwierdzające zatrzymanie i przedstawienie zarzutu kierowcy autokaru."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Trzeci rząd Donalda Tuska – Rada Ministrów pod kierownictwem premiera Donalda Tuska."
+      "Polscy uchodźcy na Węgrzech w latach 1939–1945 – obywatele RP, którzy w konsekwencji agresji Niemiec i ZSRR na Polskę we wrześniu 1939 r. znaleźli schronienie na terytorium graniczącego z Polską od 15 marca 1939 r. Królestwa Węgier."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Trzeci rząd Donalda Tuska",
-     "url": "https://pl.wikipedia.org/wiki/Trzeci_rz%C4%85d_Donalda_Tuska"
+     "przypis": "Wikipedia: Polscy uchodźcy na Węgrzech w latach 1939–1945",
+     "url": "https://pl.wikipedia.org/wiki/Polscy_uchod%C5%BAcy_na_W%C4%99grzech_w_latach_1939%E2%80%931945"
     }
    ],
-   "dlaczego_to_ważne": "Do 130 tys. zł pozostaje stawka 12%, między 130 a 150 tys. zł pojawi się 24%, a 32% zacznie obowiązywać dopiero powyżej 150 tys. zł. 💰 #WięcejWPortfelu pic.twitter.com/1S2MpSkVoC \"A ta decyzja oznacza, że dla tych, którzy przekroczą 130 tysięcy i osiągną zarobek między 130 a 150 tysięcy, mówimy cały czas o płatnikach PIT-u oczywiście, przygotowaliśmy stawkę 24 proc.",
+   "dlaczego_to_ważne": "",
    "liczby": [
-    "24%",
-    "32%",
-    "150 tys. zł",
-    "120 tys.",
-    "130 tys. zł",
-    "24 proc."
+    "30 dni",
+    "18",
+    "59",
+    "12",
+    "11",
+    "57"
    ],
    "inne_spojrzenia": [
     {
-     "źródło": "Bankier.pl",
-     "ujęcie": "Reforma systemu podatkowego w Polsce przedstawiona przez premiera Donalda Tuska i ministra finansów i gospodarki Andrzeja Domańskiego odbiła się na kursach spółek i indeksów giełdowych.",
-     "url": "https://www.bankier.pl/wiadomosc/Gielda-zareagowala-na-podatkowa-rewolucje-Odbily-ceny-akcji-sieci-handlowych-i-bankow-9184375.html"
+     "źródło": "Interia Fakty",
+     "ujęcie": "Wcześniej kierowca usłyszał zarzut nieumyślnego spowodowania wypadku drogowego skutkującego śmiercią wielu osób.",
+     "url": "https://wydarzenia.interia.pl/kraj/news-tragiczny-wypadek-na-wegrzech-nowy-ruch-polskiej-prokuratury,nId,23531147"
     },
     {
-     "źródło": "Business Insider Polska",
-     "ujęcie": "Premier Tusk i wicepremier Domański zapowiedzieli korzystne dla indywidualnych podatników zmiany w podatku PIT od przyszłego roku.",
-     "url": "https://businessinsider.com.pl/gielda/wiadomosci/premier-tusk-zapowiada-zmiany-w-podatkach-gielda-reaguje-zaskakujaco/ezw4g6n"
-    },
-    {
-     "źródło": "Money.pl",
-     "ujęcie": "Premier Tusk z ministrem Domańskim potwierdzili to, co parę dni temu opisali dziennikarze money.pl – rząd zaproponował zmiany w podatku PIT, ale nie tylko w tym podatku.",
-     "url": "https://www.money.pl/podatki/jak-ukryta-podwyzka-podatku-tego-rzad-nie-mowi-oglaszajac-zmiany-w-pit-opinia-7320152971864192a.html"
+     "źródło": "Gazeta.pl",
+     "ujęcie": "Nadzorujący śledztwo polski prokurator w środę otrzymał od śledczych w Miszkolcu informacje potwierdzające fakt zatrzymania i przedstawienia zarzutu kierowcy autokaru.",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198072,32976642,wypadek-polskiego-autokaru-na-wegrzech-prokuratura-wnosi-o.html"
     }
    ],
    "pojęcia": [],
    "tło": {
-    "hasło": "Trzeci rząd Donalda Tuska",
-    "opis": "Rada Ministrów pod kierownictwem Donalda Tuska od 13 grudnia 2023",
-    "tekst": "Trzeci rząd Donalda Tuska – Rada Ministrów pod kierownictwem premiera Donalda Tuska.",
-    "url": "https://pl.wikipedia.org/wiki/Trzeci_rz%C4%85d_Donalda_Tuska",
+    "hasło": "Polscy uchodźcy na Węgrzech w latach 1939–1945",
+    "opis": "",
+    "tekst": "Polscy uchodźcy na Węgrzech w latach 1939–1945 – obywatele RP, którzy w konsekwencji agresji Niemiec i ZSRR na Polskę we wrześniu 1939 r. znaleźli schronienie na terytorium graniczącego z Polską od 15 marca 1939 r. Królestwa Węgier.",
+    "url": "https://pl.wikipedia.org/wiki/Polscy_uchod%C5%BAcy_na_W%C4%99grzech_w_latach_1939%E2%80%931945",
     "język": "pl"
    },
    "tagi": [
-    "Donald Tusk",
-    "Unii Europejskiej",
-    "Andrzej Domański",
-    "Domański"
+    "Węgrzech",
+    "Prokuratora Generalnego",
+    "Krośnie",
+    "Polski"
+   ],
+   "emotki": [
+    "🚑",
+    "🏛️",
+    "⚖️"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Bankier.pl",
-     "tytuł": "Podatkowa rewolucja Tuska. Takie zmiany czekają PIT",
-     "url": "https://www.bankier.pl/wiadomosc/Podatkowa-rewolucja-Tuska-Takie-zmiany-czekaja-PIT-9184270.html"
+     "nazwa": "RMF24",
+     "tytuł": "Wypadek autokaru na Węgrzech. Polska chce przejąć śledztwo",
+     "url": "https://www.rmf24.pl/regiony/rzeszow/news-wypadek-autokaru-na-wegrzech-polska-chce-przejac-sledztwo,nIdn,1014316"
     },
     {
-     "nazwa": "Bankier.pl",
-     "tytuł": "Giełda zareagowała na podatkową rewolucję. Odbiły ceny akcji sieci handlowych i banków",
-     "url": "https://www.bankier.pl/wiadomosc/Gielda-zareagowala-na-podatkowa-rewolucje-Odbily-ceny-akcji-sieci-handlowych-i-bankow-9184375.html"
+     "nazwa": "Interia Fakty",
+     "tytuł": "Tragiczny wypadek na Węgrzech. Nowy ruch polskiej prokuratury",
+     "url": "https://wydarzenia.interia.pl/kraj/news-tragiczny-wypadek-na-wegrzech-nowy-ruch-polskiej-prokuratury,nId,23531147"
     },
     {
-     "nazwa": "Polsat News",
-     "tytuł": "Zmiany w progu podatkowym. Tusk ogłosił decyzję",
-     "url": "https://www.polsatnews.pl/wiadomosc/2026-08-19/zmiany-w-progu-podatkowym-tusk-oglosil-decyzje/"
-    },
-    {
-     "nazwa": "Business Insider Polska",
-     "tytuł": "Zaskakująca reakcja giełdy na zmiany w podatkach. Oto kto sfinansuje obniżkę PIT",
-     "url": "https://businessinsider.com.pl/gielda/wiadomosci/premier-tusk-zapowiada-zmiany-w-podatkach-gielda-reaguje-zaskakujaco/ezw4g6n"
-    },
-    {
-     "nazwa": "Business Insider Polska",
-     "tytuł": "Donald Tusk nakłada kaganiec na deficyt. Decyzje agencji ratingowych coraz bliżej",
-     "url": "https://businessinsider.com.pl/gospodarka/donald-tusk-nalozyl-kaganiec-budzetowi-agencje-ratingowe-juz-w-blokach-startowych/6cw4nev"
-    },
-    {
-     "nazwa": "Business Insider Polska",
-     "tytuł": "\"Tusk kombinuje\". Przemysław Czarnek reaguje na zmiany w podatkach",
-     "url": "https://businessinsider.com.pl/gospodarka/tusk-kombinuje-przemyslaw-czarnek-o-propozycjach-podatkowych-rzadu/2j87y2c"
-    },
-    {
-     "nazwa": "Business Insider Polska",
-     "tytuł": "Zmiany w podatkach. Premier mówi, co dalej z kwotą wolną",
-     "url": "https://businessinsider.com.pl/gospodarka/premier-mowi-co-dalej-z-kwota-wolna/4lv5qls"
-    },
-    {
-     "nazwa": "Money.pl",
-     "tytuł": "\"Jak ukryta podwyżka podatku\". Tego rząd nie mówi, ogłaszając zmiany w PIT [OPINIA]",
-     "url": "https://www.money.pl/podatki/jak-ukryta-podwyzka-podatku-tego-rzad-nie-mowi-oglaszajac-zmiany-w-pit-opinia-7320152971864192a.html"
-    },
-    {
-     "nazwa": "Money.pl",
-     "tytuł": "Wielkie zmiany w podatkach. Rząd ogłosił, co zrobi prezydent? Tusk mówi wprost",
-     "url": "https://www.money.pl/gospodarka/wielkie-zmiany-w-podatkach-rzad-oglosil-co-zrobi-prezydent-tusk-mowi-wprost-7320106064758976a.html"
-    },
-    {
-     "nazwa": "Money.pl",
-     "tytuł": "Zmiany w podatkach. Ryszard Petru ostrzega. \"To przypomina Polski Ład\"",
-     "url": "https://www.money.pl/podatki/zmiany-w-podatkach-ryszard-petru-ostrzega-to-przypomina-polski-lad-7320161721469056a.html"
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Wypadek polskiego autokaru na Węgrzech. Prokuratura wnosi o przejęcie ścigania",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198072,32976642,wypadek-polskiego-autokaru-na-wegrzech-prokuratura-wnosi-o.html"
     }
    ],
-   "liczba_źródeł": 4,
+   "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 11.474,
+    "wynik": 6.842,
     "składowe": {
-     "potwierdzenia": 5.7,
-     "ranga_źródła": 2.503,
-     "eksponowanie": 0.81,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.446,
-     "treściwość": 0.465,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.45,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.408,
+     "treściwość": 0.334,
      "język_działu": 0.5
     }
-   }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Zmiany w ukraińskim rządzie. Rada Najwyższa zdecydowała, jest nowy minister",
+   "lead": "Zmiany w ukraińskim rządzie przyniosły w środę nominacje Jewhenija Chmary na ministra obrony i Andrija Sybihy na szefa dyplomacji. Pierwszy z nich obejmie stanowisko po zdymisjonowanym Mychajle Fedorowie, którego odejście doprowadziło do fali protestów.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-08-19T15:38:18+00:00",
+   "źródło": {
+    "nazwa": "Interia Fakty",
+    "url": "https://wydarzenia.interia.pl/zagranica/news-zmiany-w-ukrainskim-rzadzie-rada-najwyzsza-zdecydowala-jest,nId,23531199",
+    "domena": "wydarzenia.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000N716X2ET0GCDT-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Sybiha stanie na czele MSZ po raz trzeci.",
+      "Wnioski w sprawie powołania ministrów zgłosił prezydent Wołodymyr Zełenski .",
+      "Za wyborem Jewhenija Chmary na stanowisko szefa resortu obrony opowiedziało się 312 deputowanych .",
+      "Z kolei kandydaturę Andrija Sybihy poparło 266 głosujących .",
+      "Przed głosowaniem Chmara przedstawił w wystąpieniu w parlamencie kluczowe priorytety swojej pracy: przejęcie inicjatywy strategicznej we wszystkich obszarach działań w wojnie z Rosją , terminowe dostawy broni na front oraz przejrzyste procedury zamówień publicznych. - Mamy trzy kluczowe priorytety o równym znaczeniu.",
+      "Są to: front i wzmocnienie sił zbrojnych, ludzie oraz rozwój przemysłu obronnego.",
+      "Chodzi o przejęcie inicjatywy strategicznej we wszystkich obszarach działań wojennych: na lądzie, na morzu, w powietrzu oraz w przestrzeni informacyjnej - powiedział.",
+      "Chmara podkreślił, że potrzeby frontu muszą szybko docierać do ministerstwa, a decyzje ministerstwa - na front.",
+      "Jak zaznaczył, szczególny nacisk należy położyć na uderzenia dalekiego i średniego zasięgu ."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Wybory parlamentarne powinny odbyć się w Ukrainie w 2023 roku, a prezydenckie w 2024 roku, ale tak się nie stało z uwagi na obowiązujący stan wojenny.",
+      "Zdaniem byłego ministra obrony Ukrainy, Mychajła Fedorowa, wybory powinny odbyć się nawet podczas wojny, a Rosja nie może decydować o tym, kiedy Ukraińcy będą mogli wybrać swoje władze. - Demokracja nie może być zakładnikiem Rosji. (...) Musimy znaleźć legalny, bezpieczny i realistyczny mechanizm, który pozwoli Ukrainie przywrócić pełny proces demokratyczny nawet w warunkach długotrwałej wojny - powiedział Fedorow w wystąpieniu opublikowanym we wtorkową noc na platformie YouTube .",
+      "Fedorow podkreślił, że aby przeprowadzić wybory, należy zagwarantować prawo do głosowania wojskowym, milionom Ukraińców przebywających za granicą oraz mieszkańcom regionów przyfrontowych.",
+      "Trzeba też zapewnić bezpieczeństwo procesu wyborczego , niezależność instytucji i zaufanie do wyników głosowania, co jego zdaniem \"jest trudne\", ale nie niemożliwe. - Trudność nie oznacza niemożliwości."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Rada Najwyższa ZSRR – najwyższy organ władzy ustawodawczej ZSRR, a w latach 1939–1991, najwyższa władza ustawodawcza w okresach pomiędzy sesjami Zjazdu Rad. Do 1936 jej funkcje pełnił Ogólnorosyjski Centralny Komitet Wykonawczy Rad."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Rada Najwyższa ZSRR",
+     "url": "https://pl.wikipedia.org/wiki/Rada_Najwy%C5%BCsza_ZSRR"
+    }
+   ],
+   "dlaczego_to_ważne": "Za priorytet i największą wartość Chmara uznał kapitał ludzki oraz życie i zdrowie żołnierzy. - Technologie są potrzebne, aby ukraiński obrońca miał przewagę, a ryzyko dla człowieka było ograniczone do minimum.",
+   "liczby": [
+    "312",
+    "266",
+    "14",
+    "16",
+    "17",
+    "20"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Rada Najwyższa ZSRR",
+    "opis": "organ legislacyjny",
+    "tekst": "Rada Najwyższa ZSRR – najwyższy organ władzy ustawodawczej ZSRR, a w latach 1939–1991, najwyższa władza ustawodawcza w okresach pomiędzy sesjami Zjazdu Rad. Do 1936 jej funkcje pełnił Ogólnorosyjski Centralny Komitet Wykonawczy Rad.",
+    "url": "https://pl.wikipedia.org/wiki/Rada_Najwy%C5%BCsza_ZSRR",
+    "język": "pl"
+   },
+   "tagi": [
+    "Ukrainy",
+    "Jewhenija Chmary",
+    "Julii Swyrydenko",
+    "Andrija Sybihy"
+   ],
+   "emotki": [
+    "🌊",
+    "⚔️",
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Zmiany w ukraińskim rządzie. Rada Najwyższa zdecydowała, jest nowy minister",
+     "url": "https://wydarzenia.interia.pl/zagranica/news-zmiany-w-ukrainskim-rzadzie-rada-najwyzsza-zdecydowala-jest,nId,23531199"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Zdymisjonowany minister obrony wzywa do wyborów w Ukrainie. \"Systemowy kryzys zarządzania\"",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198013,32976961,zdymisjonowany-minister-obrony-wzywa-do-wyborow-w-ukrainie.html"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.419,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.15,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.45,
+     "treściwość": 0.369,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
   },
   {
    "dział": {
@@ -191,28 +272,37 @@
       "Trump zapowiedział 20 lipca, że od 19 sierpnia zaczną obowiązywać 50-procentowe cła na niektóre towary z Kanady: od wina, przez kije hokejowe, po cement.",
       "W uzasadnieniu decyzji Biały Dom napisał, że Ottawa dyskryminuje amerykańskie produkty (przemysł motoryzacyjny, mleczarski i alkoholowy).",
       "Chodziło m.in. o zasady kwotowego zarządzania produkcją mleczną w Kanadzie oraz wstrzymanie importu amerykańskich alkoholi i win, które w ub.r. wprowadziły kanadyjskie prowincje.",
-      "Jak napisał dziennik „Wall Street Journal”, cła, które miały objąć 5 proc. kanadyjskiego eksportu do USA, mogły doprowadzić do większego konfliktu handlowego."
+      "Jak napisał dziennik „Wall Street Journal”, cła, które miały objąć 5 proc. kanadyjskiego eksportu do USA, mogły doprowadzić do większego konfliktu handlowego.",
+      "Zapowiadając taryfy, Trump powołał się na zapisy ustawy z 1930 r., która pozwala na nałożenie ich w wysokości do 50 proc. bez zgody Kongresu, jeśli stwierdzono, że dany kraj dyskryminuje towary z USA.",
+      "Podkreślał wówczas, że nie wyklucza też podjęcia działań odwetowych.",
+      "Rurociąg Keystone XL , o którym prezydent USA napisał we wtorek wieczorem, miał transportować kanadyjską ropę do amerykańskich rafinerii.",
+      "Pierwsza administracja Trumpa dała zielone światło na realizację tego projektu."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "\"Wstrzymałem 50-procentowe cła na Kanadę, które miały wejść w życie jutro rano na okres trzech dni, ponieważ Kanada i USA - pod warunkiem sfinalizowania dokumentów - ZAWARŁY POROZUMIENIE!\" - ogłosił we wtorek wieczorem prezydent USA Donald Trump.",
-      "Trump zapowiedział 20 lipca, że od 19 sierpnia zaczną obowiązywać 50-procentowe cła na niektóre towary z Kanady : od wina, przez kije hokejowe, po cement."
+      "Prezydent USA Donald Trump powiedział, że wstrzymał wprowadzenie ceł na niektóre kanadyjskie towary, ponieważ sądzi, że porozumienie z premierem Kanady Markiem Carneyem zostało osiągnięte."
      ]
     }
    ],
-   "dlaczego_to_ważne": "",
+   "dlaczego_to_ważne": "Trump zagroził nałożeniem ceł, jeśli Waszyngton i Ottawa nie osiągną porozumienia, Carney zadeklarował, że Kanada jest gotowa do rozmów, ale będzie wspierać i chronić swoją gospodarkę.",
    "liczby": [
     "50",
     "20",
     "19",
     "5 proc.",
-    "60",
-    "57"
+    "57",
+    "40"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Onet Świat",
+     "ujęcie": "Ocenił, że umowa będzie dobra dla wszystkich.",
+     "url": "https://wiadomosci.onet.pl/swiat/donald-trump-wstrzymal-cla-dla-kanady-dobra-decyzja-dla-wszystkich/g4jgb7r"
+    }
+   ],
    "pojęcia": [],
    "tło": null,
    "tagi": [
@@ -221,6 +311,11 @@
     "Kanada",
     "Ottawa"
    ],
+   "emotki": [
+    "🏛️",
+    "🤝",
+    "🛒"
+   ],
    "wszystkie_źródła": [
     {
      "nazwa": "RMF24 Świat",
@@ -228,9 +323,9 @@
      "url": "https://www.rmf24.pl/fakty/swiat/news-trump-oglasza-decyzje-ws-kanady-wspomnial-spiacego-joe-biden,nIdn,1014213"
     },
     {
-     "nazwa": "Polsat News Świat",
-     "tytuł": "Nagły zwrot ws. 50-procentowych ceł na Kanadę. Donald Trump ogłosił decyzję w ostatniej chwili",
-     "url": "https://www.polsatnews.pl/wiadomosc/2026-08-19/nagly-zwrot-ws-50-procentowych-cel-na-kanade-donald-trump-oglasil-decyzje-w-ostatniej-chwili/"
+     "nazwa": "Onet Świat",
+     "tytuł": "Donald Trump wstrzymał cła dla Kanady. \"Dobra decyzja dla wszystkich\"",
+     "url": "https://wiadomosci.onet.pl/swiat/donald-trump-wstrzymal-cla-dla-kanady-dobra-decyzja-dla-wszystkich/g4jgb7r"
     },
     {
      "nazwa": "The Guardian",
@@ -239,8 +334,8 @@
     },
     {
      "nazwa": "The Guardian",
-     "tytuł": "In cutting joint drills, Trump has given South Korea’s president what he wants. So why is Seoul so uneasy?",
-     "url": "https://www.theguardian.com/world/2026/aug/19/trump-south-korea-alliance-military-seoul-security"
+     "tytuł": "Trump shows off White House renovations and ornate new helipad",
+     "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-white-house-renovations"
     },
     {
      "nazwa": "The Guardian",
@@ -251,16 +346,6 @@
      "nazwa": "The Guardian",
      "tytuł": "Activist forced out of US after criticising Trump-aligned Colombian politician",
      "url": "https://www.theguardian.com/world/2026/aug/19/activist-forced-out-of-us-after-criticising-trump-aligned-colombian-politician"
-    },
-    {
-     "nazwa": "The Guardian",
-     "tytuł": "Another democratic socialist victory – Angie Nixon in Florida – sends shock waves through party establishment",
-     "url": "https://www.theguardian.com/us-news/2026/aug/19/angie-nixon-florida-democratic-socialist"
-    },
-    {
-     "nazwa": "The Guardian",
-     "tytuł": "US gross national debt tops $40tn for first time",
-     "url": "https://www.theguardian.com/us-news/2026/aug/19/us-debt-40-trillion"
     },
     {
      "nazwa": "BBC Business",
@@ -284,30 +369,124 @@
     },
     {
      "nazwa": "Al Jazeera",
-     "tytuł": "North Korea leader’s sister denies talks with ‘hostile’ US",
-     "url": "https://www.aljazeera.com/news/2026/8/19/north-korea-leaders-sister-denies-talks-with-hostile-us?traffic_source=rss"
+     "tytuł": "US national debt passes record $40 trillion",
+     "url": "https://www.aljazeera.com/economy/2026/8/19/us-national-debt-passes-record-40-trillion?traffic_source=rss"
     },
     {
-     "nazwa": "NPR",
-     "tytuł": "U.S. delays 50% tariff on Canadian imports. And, takeaways from Florida's primaries",
-     "url": "https://www.npr.org/2026/08/19/g-s1-139173/up-first-newsletter-florida-primary-canada-tariffs-trump-meta-trial"
+     "nazwa": "Al Jazeera",
+     "tytuł": "Trump says he plans to meet Kim Jong Un later this year",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/i-get-along-with-him-very-well?traffic_source=rss"
     }
    ],
-   "liczba_źródeł": 8,
+   "liczba_źródeł": 7,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 20.223,
+    "wynik": 18.115,
     "składowe": {
-     "potwierdzenia": 13.3,
-     "ranga_źródła": 3.375,
-     "eksponowanie": 0.63,
+     "potwierdzenia": 11.4,
+     "ranga_źródła": 3.022,
+     "eksponowanie": 0.72,
      "słowa_kluczowe": 1.4,
-     "świeżość": 0.518,
+     "świeżość": 0.573,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
-   }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Donald Trump ogłasza pełną izolację Iranu. Zwrócił się do sojuszników",
+   "lead": "Prezydent USA Donald Trump ogłosił wojnę gospodarczą przeciwko Iranowi. Zapowiedział, że każdy kraj, który pozwala na pomaganie Teheranowi, poniesie \"ogromne\" konsekwencje gospodarcze.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-08-20T02:26:58+00:00",
+   "źródło": {
+    "nazwa": "Onet Świat",
+    "url": "https://wiadomosci.onet.pl/swiat/nowy-sposob-wojny-trumpa-w-iranie-chce-pelnej-izolacji-gospodarczej/nl7j7p5",
+    "domena": "wiadomosci.onet.pl"
+   },
+   "obraz": "https://cdn.wiadomosci.onet.pl/1/K6mk9l0aHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMtdHJhbnNmb3Jtcy8xL0Z2WWt0a3BUVVJCWHk5aE1URTNabUV4TURRME1EVXpPVGcyTWpSaVkyWmtaVEF4TnpKbE9ESTJaaTVxY0dlUmxRTUF6UUZielJvQXpRNmeRkwXNCWDNBkDeAAKhMAehMQQ",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Wezwał sojuszników, by dołączyli do USA w izolacji Teheranu."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "60"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Prezydent USA Donald Trump",
+    "Teheranowi",
+    "Teheranu",
+    "Iranowi"
+   ],
+   "emotki": [
+    "⚔️",
+    "🏛️",
+    "🤝"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Onet Świat",
+     "tytuł": "Donald Trump ogłasza pełną izolację Iranu. Zwrócił się do sojuszników",
+     "url": "https://wiadomosci.onet.pl/swiat/nowy-sposob-wojny-trumpa-w-iranie-chce-pelnej-izolacji-gospodarczej/nl7j7p5"
+    },
+    {
+     "nazwa": "BBC News",
+     "tytuł": "Trump vows tougher economic measures on Iran and supporting countries",
+     "url": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "Politico Europe",
+     "tytuł": "Trump’s snub of South Korea sends region scrambling",
+     "url": "https://www.politico.com/news/2026/08/19/trump-south-korea-snub-region-scrambling-01042987"
+    },
+    {
+     "nazwa": "Al Jazeera",
+     "tytuł": "Trump announces ‘most crushing economic operation ever’ against Iran",
+     "url": "https://www.aljazeera.com/news/2026/8/19/trump-announces-most-crushing-economic-operation-ever-against-iran?traffic_source=rss"
+    },
+    {
+     "nazwa": "Al Jazeera",
+     "tytuł": "Alarm in South Korea as Iran dispute with Trump shakes a 72-year alliance",
+     "url": "https://www.aljazeera.com/news/2026/8/20/alarm-in-south-korea-as-iran-dispute-with-trump-shakes-a-72-year-alliance?traffic_source=rss"
+    },
+    {
+     "nazwa": "Al Jazeera",
+     "tytuł": "Iran war live: Trump announces ‘most crushing’ Iran sanctions",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/8/20/iran-war-live-trump-announces-most-crushing-iran-sanctions?traffic_source=rss"
+    }
+   ],
+   "liczba_źródeł": 4,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 10.846,
+    "składowe": {
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 2.138,
+     "eksponowanie": 1.26,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.592,
+     "treściwość": 0.306,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
   },
   {
    "dział": {
@@ -316,162 +495,170 @@
     "emoji": "🏅",
     "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
    },
-   "nagłówek": "Polsat reaguje na mistrzostwa Europy. Jest decyzja ws. Polek",
-   "lead": "Komplet spotkań reprezentacji Polski kobiet w ramach fazy grupowej i zapewne pucharowej mistrzostw Europy siatkarek będzie można oglądać w otwartej telewizji. Polsat już oficjalnie potwierdził, że do tego dojdzie.",
+   "nagłówek": "Szczęście Świątek, wielki pech Rybakiny. Polka poznała rywalkę po północy",
+   "lead": "Skoro organizatorzy Cincinnati Open wiedzieli, że w czwartek muszą zostać rozegrane ćwierćfinale w dolnej części drabinki, czyli tej z udziałem Igi Świątek, a na środę zaplanowane zostały wszystkie mecze 1/8 finału, to zawodniczki z potencjalnych par w tym następnym etapie powinny grać jednocześnie. W Lindner Family…",
    "język_źródła": "pl",
-   "opublikowano": "2026-08-19T21:49:27+00:00",
+   "opublikowano": "2026-08-19T22:19:21+00:00",
    "źródło": {
-    "nazwa": "Sportowe Fakty",
-    "url": "https://sportowefakty.wp.pl/siatkowka/1269020/polsat-reaguje-na-mistrzostwa-europy-jest-decyzja-ws-polek",
-    "domena": "sportowefakty.wp.pl"
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/tenis/news-szczescie-swiatek-wielki-pech-rybakiny-po-polnocy-polka-pozn,nId,23531288",
+    "domena": "sport.interia.pl"
    },
-   "obraz": "https://sf-administracja.wpcdn.pl/storage2/featured_original/6a7c690ac47871_91344918.jpg",
+   "obraz": "https://i.iplsc.com/-/000N72IHIVUMMBL6-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "ZOBACZ WIDEO: Tak było na finałach Ligi Narodów."
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "24 reprezentacje przystępują do walki o medale tegorocznych Mistrzostw Europy siatkarek, które odbywają się w dniach 21 sierpnia - 6 września.",
-      "Polskie siatkarki już w sobotę 22 sierpnia rozegrają pierwszy mecz mistrzostw Europy, podopieczne Stefano Lavariniego zmierzą się tego dnia z Węgierkami.",
-      "Na kilka dni przed tym spotkaniem poznaliśmy 14-osobową kadrę naszej reprezentacji na zbliżający się turniej.",
-      "Sprawdź terminarz turnieju - daty i godziny meczów Memoriału Wagnera 2026."
+      "Sęk w tym, że żaden z tych kortów nie jest zadaszony - każdy opad powoduje przerwanie spotkania.",
+      "Mecz Igi Świątek z DIane Parry został ustawiony jako pierwszy na Grandstandzie, czyli drugim co do wielkości stadionie.",
+      "Polka gładko wygrała 6:3, 6:3 , po niej wyszła Jessica Pegula - rywalizowała z Soraną Cirsteą.",
+      "Mniej więcej o tej samej porze zaczęło się hitowe starcie Mirry Andriejewej i Marty Kostiuk , zakończone triumfem Ukrainki.",
+      "To o tyle dziwne, że obie są w górnej części drabinki i kolejny mecz zagrają w piątek.",
+      "A dopiero jako trzeci na Tony Trabert Stadium zaplanowano pojedynek Rybakiny i Sznajder , a przecież jedna z nich ma wystąpić już następnego dnia - przeciwko Świątek.",
+      "Można to tłumaczyć późniejszą, jeszcze w środę, grą deblową Kostiuk, niemniej potencjalna rywalka Polki musiała się liczyć z tym, że dostanie sporo mniej czasu na regenerację.",
+      "Tym bardziej, że wcześniejszy mecz ATP Tirante - Mensik był długi, trzysetowy.",
+      "A gdy panowie skończyli, zaczęło padać."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Mistrzostwa Europy w piłce siatkowej – międzynarodowe rozgrywki siatkarskie organizowane cyklicznie co 2 lata przez Europejską Konfederację Piłki Siatkowej (CEV) dla męskich reprezentacji narodowych wszystkich europejskich krajowych związków piłki siatkowej."
+      "Jelena Andriejewna Rybakina, ros. Елена Андреевна Рыбакина – kazachska tenisistka narodowości rosyjskiej, do czerwca 2018 roku reprezentująca Rosję, zwyciężczyni Wimbledonu 2022, Australian Open 2026 i WTA Finals 2025 oraz finalistka Australian Open 2023 w grze pojedynczej kobiet."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Mistrzostwa Europy w piłce siatkowej mężczyzn",
-     "url": "https://pl.wikipedia.org/wiki/Mistrzostwa_Europy_w_pi%C5%82ce_siatkowej_m%C4%99%C5%BCczyzn"
+     "przypis": "Wikipedia: Jelena Rybakina",
+     "url": "https://pl.wikipedia.org/wiki/Jelena_Rybakina"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "24",
-    "21",
-    "22",
-    "14",
-    "26",
-    "28"
+    "3, 6",
+    "4,5 godziny",
+    "84 procent",
+    "4, 6"
    ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "Interia Sport",
-     "ujęcie": "Mecze grupy A odbędą się w Stambule, grupa B gościć będzie w Brnie, starcia grupy C odbędą się w Baku, a grupa D rywalizować będzie w Göteborgu.",
-     "url": "https://sport.interia.pl/siatkowka/mistrzostwa-europy-kobiet/news-mistrzostwa-europy-siatkarek-od-piatku-w-telewizji-polsat-i,nId,23531224"
-    },
-    {
-     "źródło": "Polsat Sport",
-     "ujęcie": "Reprezentacja Polski siatkarzy przygotowuje się do imprezy docelowej w tym sezonie - mistrzostw Europy.",
-     "url": "https://www.polsatsport.pl/wiadomosc/2026-08-19/memorial-wagnera-2026-terminarz-turnieju-kiedy-mecze-o-ktorej-godzinie/"
-    }
-   ],
+   "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Mistrzostwa Europy w piłce siatkowej mężczyzn",
-    "opis": "Międzynarodowe rozgrywki siatkarskie organizowane cyklicznie co 2 lata",
-    "tekst": "Mistrzostwa Europy w piłce siatkowej – międzynarodowe rozgrywki siatkarskie organizowane cyklicznie co 2 lata przez Europejską Konfederację Piłki Siatkowej (CEV) dla męskich reprezentacji narodowych wszystkich europejskich krajowych związków piłki siatkowej.",
-    "url": "https://pl.wikipedia.org/wiki/Mistrzostwa_Europy_w_pi%C5%82ce_siatkowej_m%C4%99%C5%BCczyzn",
+    "hasło": "Jelena Rybakina",
+    "opis": "kazachska tenisistka narodowości rosyjskiej",
+    "tekst": "Jelena Andriejewna Rybakina, ros. Елена Андреевна Рыбакина – kazachska tenisistka narodowości rosyjskiej, do czerwca 2018 roku reprezentująca Rosję, zwyciężczyni Wimbledonu 2022, Australian Open 2026 i WTA Finals 2025 oraz finalistka Australian Open 2023 w grze pojedynczej kobiet.",
+    "url": "https://pl.wikipedia.org/wiki/Jelena_Rybakina",
     "język": "pl"
    },
    "tagi": [
-    "Europy",
-    "Ligi Narodów",
-    "Komplet",
-    "Polski"
+    "Sznajder",
+    "Świątek",
+    "Rybakina",
+    "Rosjanka"
+   ],
+   "emotki": [
+    "🏛️"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Sportowe Fakty",
-     "tytuł": "Polsat reaguje na mistrzostwa Europy. Jest decyzja ws. Polek",
-     "url": "https://sportowefakty.wp.pl/siatkowka/1269020/polsat-reaguje-na-mistrzostwa-europy-jest-decyzja-ws-polek"
-    },
-    {
      "nazwa": "Interia Sport",
-     "tytuł": "Mistrzostwa Europy siatkarek od piątku w Telewizji Polsat i Polsat Box Go",
-     "url": "https://sport.interia.pl/siatkowka/mistrzostwa-europy-kobiet/news-mistrzostwa-europy-siatkarek-od-piatku-w-telewizji-polsat-i,nId,23531224"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Lavarini ogłosił kadrę na mistrzostwa Europy. To one powalczą o medal",
-     "url": "https://sport.interia.pl/siatkowka/mistrzostwa-europy-kobiet/news-stefano-lavarini-skreslil-kilka-siatkarek-oto-kadra-na-mistr,nId,23530344"
-    },
-    {
-     "nazwa": "Polsat Sport",
-     "tytuł": "Memoriał Wagnera 2026. Terminarz turnieju. Kiedy mecze? O której godzinie?",
-     "url": "https://www.polsatsport.pl/wiadomosc/2026-08-19/memorial-wagnera-2026-terminarz-turnieju-kiedy-mecze-o-ktorej-godzinie/"
-    },
-    {
-     "nazwa": "Polsat Sport",
-     "tytuł": "Mistrzostwa Europy siatkarek od piątku w Telewizji Polsat i Polsat Box Go",
-     "url": "https://www.polsatsport.pl/wiadomosc/2026-08-19/mistrzostwa-europy-siatkarek-od-piatku-w-telewizji-polsat-i-polsat-box-go/"
-    },
-    {
-     "nazwa": "Polsat Sport",
-     "tytuł": "Memoriał Wagnera 2026. Mecze Polski. Kiedy? O której godzinie?",
-     "url": "https://www.polsatsport.pl/wiadomosc/2026-08-19/memorial-wagnera-2026-mecze-polski-kiedy-o-ktorej-godzinie-graja-polscy-siatkarze-terminarz-godziny-meczow-polskich-siatkarzy/"
-    },
-    {
-     "nazwa": "Polsat Sport",
-     "tytuł": "Polska - Brazylia. Kiedy mecz MŚ siatkarzy? O której godzinie grają Polacy?",
-     "url": "https://www.polsatsport.pl/wiadomosc/2026-08-19/polska-brazylia-kiedy-mecz-ms-siatkarzy-o-ktorej-godzinie-graja-polacy/"
-    },
-    {
-     "nazwa": "Polsat Sport",
-     "tytuł": "Zegar tyka, a gwiazda nie trenuje! Czy zdąży do mistrzostw Europy?",
-     "url": "https://www.polsatsport.pl/wiadomosc/2026-08-19/zegar-tyka-a-gwiazda-nie-trenuje-czy-zdazy-do-mistrzostw-europy/"
-    },
-    {
-     "nazwa": "Polsat Sport",
-     "tytuł": "Znamy skład reprezentacji Polski siatkarek na mistrzostwa Europy",
-     "url": "https://www.polsatsport.pl/wiadomosc/2026-08-19/znamy-sklad-reprezentacji-polski-siatkarek-na-mistrzostwa-europy/"
-    },
-    {
-     "nazwa": "Polsat Sport",
-     "tytuł": "Mistrzostwa Europy siatkarek 2026. Terminarz turnieju. Kiedy mecze?",
-     "url": "https://www.polsatsport.pl/wiadomosc/2026-08-05/mistrzostwa-europy-siatkarek-2026-terminarz-turnieju-kiedy-mecze/"
-    },
-    {
-     "nazwa": "Polsat Sport",
-     "tytuł": "Mistrzostwa Europy siatkarek 2026. Mecze Polski. Kiedy? O której godzinie?",
-     "url": "https://www.polsatsport.pl/wiadomosc/2026-08-05/mistrzostwa-europy-siatkarek-2026-mecze-polski-kiedy-o-ktorej-godzinie/"
-    },
-    {
-     "nazwa": "Polsat Sport",
-     "tytuł": "Hubert Hurkacz - Henrique Rocha. Kiedy mecz Hurkacza w ATP w Cancun? O której godzinie?",
-     "url": "https://www.polsatsport.pl/wiadomosc/2026-08-19/hubert-hurkacz-henrique-rocha-kiedy-mecz-hurkacza-w-atp-w-cancun-o-ktorej-godzinie/"
-    },
-    {
-     "nazwa": "Polsat Sport",
-     "tytuł": "Mistrzostwa świata siatkarzy 2026. Kiedy mecze Polski?",
-     "url": "https://www.polsatsport.pl/wiadomosc/2026-08-18/mistrzostwa-swiata-siatkarzy-2026-kiedy-mecze-polski-terminarz-godziny-daty-siatkowka/"
+     "tytuł": "Szczęście Świątek, wielki pech Rybakiny. Polka poznała rywalkę po północy",
+     "url": "https://sport.interia.pl/tenis/news-szczescie-swiatek-wielki-pech-rybakiny-po-polnocy-polka-pozn,nId,23531288"
     }
    ],
-   "liczba_źródeł": 3,
+   "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 10.778,
+    "wynik": 3.979,
     "składowe": {
-     "potwierdzenia": 3.8,
-     "ranga_źródła": 2.965,
-     "eksponowanie": 1.44,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.523,
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.529,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
-   }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Świątek idzie jak burza. Polka wskazała \"klucz do sukcesu\"",
+   "lead": "lga Świątek nie zwalnia tempa . Polka ma już na koncie dziewięć wygranych spotkań z rzędu.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-08-19T17:23:55+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/iga-swiatek/news-swiatek-idzie-jak-burza-zanim-zeszla-z-kortu-zwrocila-sie-do,nId,23531237",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000N71P2MR0OHDDS-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "W środowy wieczór awansowała do ćwierćfinału turnieju WTA 1000 w Cincinnati, pokonując Francuzkę Diane Parry 6:3, 6:3 .",
+      "Raszynianka potwierdza znakomitą dyspozycję z Toronto, gdzie w ubiegłym tygodniu sięgnęła po pierwszy tytuł w tym sezonie .",
+      "Po meczu Raszynianka była w znakomitym nastroju.",
+      "Nie celebrowała jednak przesadnie przedłużenia serii triumfów.",
+      "To była po prostu dobrze wykonana robota . - Byłam dzisiaj na korcie przede wszystkim solidna i jestem z tego powodu bardzo zadowolona - powiedziała Świątek jeszcze przed zejściem z kortu. - To był tenis na dużej intensywności.",
+      "Musiałam wkładać w każde uderzenie dużo energii, bo rywalka często grała mocnym slajsem. - Miło, że to mój 30. ćwierćfinał w turniejach WTA 1000 - dodała Polka. - Zdaję sobie sprawę, że regularnie gram bardzo dobrze do tych decydujących faz, ale naprawdę nigdy nie skupiam się na liczbach.",
+      "Wiele razy przekonałam się, że kluczem do sukcesu jest koncentracja na najbliższym spotkaniu .",
+      "Później rozmowa za sprawą prowadzącego zeszła na nieco luźniejsze tony.",
+      "Iga potwierdziła, że w ostatnim czasie fascynują ją filmy z lat 90 ."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "1000",
+    "3, 6",
+    "30",
+    "90"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Cincinnati",
+    "Świątek",
+    "Jelena Rybakina Diana Sznajder",
+    "Francuzkę Diane Parry"
+   ],
+   "emotki": [
+    "🎾",
+    "🤖",
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Świątek idzie jak burza. Polka wskazała \"klucz do sukcesu\"",
+     "url": "https://sport.interia.pl/iga-swiatek/news-swiatek-idzie-jak-burza-zanim-zeszla-z-kortu-zwrocila-sie-do,nId,23531237"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.917,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.467,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
   },
   {
    "dział": {
@@ -480,84 +667,251 @@
     "emoji": "🌐",
     "opis": "wielkie ligi, turnieje i rekordy poza Polską"
    },
-   "nagłówek": "Trzysetowa batalia Peguli. Mistrzyni z Madrytu odpadła. To połówka Świątek",
-   "lead": "Jessica Pegula w niezłym stylu rozpoczęła tegoroczną edycję turnieju WTA 1000 w Cincinnati. Dwa lata temu była tutaj w finale i teraz z pewnością marzy jej się co najmniej powtórka takiego scenariusza.",
+   "nagłówek": "Kane z drugim \"Złotym Butem\". Lewandowski pospieszył z gratulacjami",
+   "lead": "Środa 19 sierpnia była wyjątkowym dniem w życiu Harry'ego Kane'a . Angielski napastnik reprezentujący obecnie barwy Bayernu Monachium odebrał \"Złotego Buta\" - nagrodę przyznawaną dla najlepszego strzelca w europejskich ligach w danym sezonie.",
    "język_źródła": "pl",
-   "opublikowano": "2026-08-19T19:05:12+00:00",
+   "opublikowano": "2026-08-19T21:27:54+00:00",
    "źródło": {
     "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/tenis/news-6-2-4-2-dla-peguli-i-zwrot-mistrzyni-z-madrytu-pokonana-w-3,nId,23531254",
+    "url": "https://sport.interia.pl/pilka-nozna/bundesliga/news-kane-wyrownal-historyczny-sukces-lewandowskiego-polak-juz-za,nId,23531282",
     "domena": "sport.interia.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000N71Y2FKIX4QET-C321.webp",
+   "obraz": "https://i.iplsc.com/-/000N72EJ1DRPDPG7-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Amerykanka nie straciła seta na drodze do najlepszej \"16\", pokonując Simonę Waltert i Emmę Navarro.",
-      "Ze swoją rodaczką wygrała 7:5, 6:2.",
-      "Dzięki temu trzecia rakieta świata stanęła dziś do walki o ćwierćfinał.",
-      "Po drugiej stronie siatki zameldowała się Sorana Cirstea, czyli deblowa mistrzyni turnieju WTA 1000 w Madrycie z ubiegłego roku.",
-      "Dokonała tej sztuki po półfinale tysięcznika w Rzymie."
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "20:00 FC Barcelona rozpoczęła spotkanie o Puchar Gampera.",
-      "Już w najbliższy weekend odbędzie się gala UFC Fight Night 285.",
-      "Gdzie obejrzeć UFC Fight Night 285: Hernandez - Rodrigues?"
+      "Przed ceremonią, która odbyła się w klubowym muzeum na stadionie Allianz Arena oficjalny profil Bundesligi na portalu \"X\" udostępnił specjalny materiał filmowy, w którym sławy światowego futbolu gratulowały Kane'owi ww. osiągnięcia.",
+      "Wśród nich nie mogło zabraknąć Roberta Lewandowskiego , który w wyjątkowo ciepły sposób zwrócił się do reprezentanta Anglii. - Gratuluję zdobycia Złotego Buta.",
+      "To w pełni zasłużona nagroda.",
+      "Wiem, ile pracy, wytrwałości i determinacji trzeba włożyć, aby zdobyć tę nagrodę .",
+      "Ciesz się tą chwilą, ciesz się tym trofeum - powiedział Lewandowski.",
+      "Szczęsny \"zesłany\" na ławkę.",
+      "FC Barcelona z tytułem Oprócz Lewandowskiego swój głos w powyższym materiale zabrali również takie legendy jak Juergen Klinsmann, Bastian Schweinsteiger, Gary Lineker oraz Rio Ferdinand.",
+      "Każdy z nich gratulował Kane'owi zdobycia już drugiego w swojej karierze \"Złotego Buta\". - To był wyjątkowy sezon, wszyscy możemy być bardzo dumni.",
+      "To naprawdę wyjątkowa drużyna."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Sorana Mihaela Cîrstea – rumuńska tenisistka, reprezentantka kraju w Pucharze Federacji."
+      "Bundesliga – najwyższa w hierarchii klasa męskich ligowych rozgrywek piłkarskich w Niemczech, będąca jednocześnie najwyższym szczeblem centralnym, utworzona w 1962 r. i zarządzana przez Niemiecki Związek Piłki Nożnej (DFB) i Deutsche Fussball-Liga (DFL). Zmagania w jej ramach toczą się cyklicznie i przeznaczone są dla 18 najlepszych krajowych klubów piłkarskich. Jej triumfator zostaje mistrzem Niemiec, zaś najsłabsze drużyny są relegowane do 2. Bundesligi."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Sorana Cîrstea",
-     "url": "https://pl.wikipedia.org/wiki/Sorana_C%C3%AErstea"
+     "przypis": "Wikipedia: Bundesliga niemiecka w piłce nożnej",
+     "url": "https://pl.wikipedia.org/wiki/Bundesliga_niemiecka_w_pi%C5%82ce_no%C5%BCnej"
     }
    ],
-   "dlaczego_to_ważne": "Po raz pierwszy udało jej się znaleźć w czołowej \"20\" singlowego rankingu.",
+   "dlaczego_to_ważne": "",
    "liczby": [
-    "1000",
-    "16",
-    "5, 6",
+    "19",
+    "36",
+    "72 punkty",
+    "27",
+    "54 punkty",
+    "25"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Bundesliga niemiecka w piłce nożnej",
+    "opis": "1. poziom rozgrywek ligowych w piłce nożnej mężczyzn w Niemczech",
+    "tekst": "Bundesliga – najwyższa w hierarchii klasa męskich ligowych rozgrywek piłkarskich w Niemczech, będąca jednocześnie najwyższym szczeblem centralnym, utworzona w 1962 r. i zarządzana przez Niemiecki Związek Piłki Nożnej (DFB) i Deutsche Fussball-Liga (DFL). Zmagania w jej ramach toczą się cyklicznie i przeznaczone są dla 18 najlepszych krajowych klubów piłkarskich. Jej triumfator zostaje mistrzem Niemiec, zaś najsłabsze drużyny są relegowane do 2. Bundesligi.",
+    "url": "https://pl.wikipedia.org/wiki/Bundesliga_niemiecka_w_pi%C5%82ce_no%C5%BCnej",
+    "język": "pl"
+   },
+   "tagi": [
+    "Złotego Buta",
+    "Lewandowski",
+    "Bundesligi",
+    "Kane'owi"
+   ],
+   "emotki": [
+    "⚽",
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Kane z drugim \"Złotym Butem\". Lewandowski pospieszył z gratulacjami",
+     "url": "https://sport.interia.pl/pilka-nozna/bundesliga/news-kane-wyrownal-historyczny-sukces-lewandowskiego-polak-juz-za,nId,23531282"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Kane plays down returning to Premier League in future",
+     "url": "https://www.bbc.co.uk/sport/football/articles/clylkxekeleo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "How Carrick's Man Utd are shaping up for Premier League season",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cg5l9p58dv6o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "How will your club fare? Phil McNulty's Premier League predictions",
+     "url": "https://www.bbc.co.uk/sport/football/articles/c5ye50qz7yqo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "‘Believe your eyes’: Masters says Premier League’s integrity cannot be doubted",
+     "url": "https://www.theguardian.com/football/2026/aug/19/referees-chief-howard-webb-really-troubled-by-folarin-balogun-escaping-world-cup-ban"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Premier League 2026-27 preview No 17: Newcastle",
+     "url": "https://www.theguardian.com/football/2026/aug/20/premier-league-2026-27-preview-no-17-newcastle"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Premier League chief Masters says Fifa self-destructed over World Cup plan",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cgjeqez58wno?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Premier League chief on Fifa crisis, Man City charges & World Cup expansion",
+     "url": "https://www.bbc.co.uk/sounds/play/p0p5540m?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Premier League 2026-27 preview No 15: Manchester City",
+     "url": "https://www.theguardian.com/football/2026/aug/19/premier-league-2026-27-preview-no-15-manchester-city"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Premier League 2026-27 preview No 16: Manchester United",
+     "url": "https://www.theguardian.com/football/2026/aug/19/premier-league-2026-27-preview-no-16-manchester-united"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Premier League season preview: Arsenal to Fulham | Football Weekly video",
+     "url": "https://www.theguardian.com/football/video/2026/aug/19/premier-league-season-preview-arsenal-to-fulham-football-weekly"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 9.84,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 3.002,
+     "eksponowanie": 0.45,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.538,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Tego scenariusza nikt nie zakładał. Światowa \"1\" za burtą Cincinnati Open",
+   "lead": "Aryna Sabalenka, Iga Świątek, Jelena Rybakina, Coco Gauff, Mirra Andriejewa - i jeszcze kilka wybitnych obecnie tenisistek. Łącznie aż osiem z TOP 10 rankingu WTA.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-08-20T03:35:01+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/tenis/news-tego-scenariusza-nikt-nie-zakladal-swiatowa-1-za-burta-cinci,nId,23531303",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000N72KMMHLJX5TP-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jeśli ktoś interesuje się kobiecym tenisem i był w środę w Mason, mógł delektować się grą tych najlepszych.",
+      "Tego jednego dnia organizatorzy Cinacinnati Open zaplanowano bowiem wszystkie mecze 1/8 finału w singlu, a że wcześniej nie było sensacji, została właśnie elita.",
+      "Do tego doszły ciekawe spotkanie w męskim Mastersie, do 1/4 finału nie awansował m.in.",
+      "Alexander Zverev , mimo meczbola w starciu z pogromcą Huberta Hurkacza Tommym Paulem.",
+      "Jeszcze większym zaskoczeniem był końcowy wynik potyczki rozstawionych z \"1\" pań w turnieju deblistek - a to miano mają Katerina Siniakova i Taylor Townsend.",
+      "W poprzedni czwartek Siniakova umocniła się na pozycji liderki deblowego rankingu - triumfowała w WTA 1000 w Tornto, wspólnie z Shuai Zhang.",
+      "Jej \"regularną\" partnerką w deblu jest jednak Taylor Townsend, obecna \"2\" w rankingu WTA, wspólnie w tym sezonie wygrały tytuły m.in. w Indian Wells, Miami, Madrycie i Paryżu.",
+      "Teraz też były głównymi kandydatkami do zwycięstwa, choć już w pierwszej rundzie męczyły się z parą Jurak/Wu, wygrały trzysetową batalię.",
+      "W 1/8 finału trafiły na Caty McNally i Ivę Jovic - obie Amerykanki nieźle radzą sobie w singlu, młodsza z nich jest w TOP 20 singlowego rankingu, choć w grze podwójnej potrafią coś zdziałać."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Ostatecznie obrończyni tytułu triumfowała 6:3, 6:3.",
+      "Amerykanka walczyła o ćwierćfinał WTA 1000 w Cincinnati z mistrzynią ubiegłorocznego Mutua Madrid Open w grze podwójnej.",
+      "Tenisistka z USA wypuściła przewagę w drugiej partii, ale ostatecznie zwyciężyła 6:2, 4:6, 7:5.",
+      "W czwartej rundzie WTA 1000 w Cincinnati pojawiło się sporo ciekawych zestawień.",
+      "Jedno z nich utworzyły dwie tenisistki z TOP 10 rankingu - będące w tej samej połówce drabinki, co Iga Świątek.",
+      "W rywalizacji przerwanej na ponad godzinę przez deszcz lepiej poradziła sobie Amerykanka, notując zwycięstwo w potyczce z mistrzynią Wimbledonu 6:1, 6:4.",
+      "Rok temu Iga Świątek swój jedyny tytuł w imprezie rangi 1000 zdobyła właśnie w Ohio - w finale Cincinnati Open pokonała Jasmine Paolini."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "The Cincinnati Open is an annual professional tennis event held in suburban Cincinnati, United States. It is played on outdoor hard courts at the Lindner Family Tennis Center in Mason, Ohio, and is held in August. The event started on September 18, 1899, and is the oldest tennis tournament in the United States still played in its original city. It also is the third largest tennis event in the United States, after the US Open and the Indian Wells Open. It is one of the ATP 1000 tournaments on the ATP Tour, and one of the WTA 1000 tournaments on the WTA Tour."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Cincinnati Open",
+     "url": "https://en.wikipedia.org/wiki/Cincinnati_Open"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10",
     "20",
-    "30",
-    "40"
+    "1, 8",
+    "7, 6",
+    "4, 10",
+    "3, 6"
    ],
    "inne_spojrzenia": [
     {
      "źródło": "Interia Sport",
-     "ujęcie": "FC Barcelona jest na ostatniej prostej przygotowań do nowego sezonu i obrony tronu mistrzowskiego w rozgrywkach La Liga.",
-     "url": "https://sport.interia.pl/robert-lewandowski/news-show-lewego-i-koniec-teraz-oglaszaja-powrot-do-domu-barcelon,nId,23530877"
-    },
-    {
-     "źródło": "Sportowe Fakty",
-     "ujęcie": "FC Barcelona pokonała 2:1 ekipę Al-Ahli, zwyciężając w meczu o Puchar Gampera.",
-     "url": "https://sportowefakty.wp.pl/pilka-nozna/1269000/swieto-na-camp-nou-nowy-salah-blyszczy-w-barcelonie"
+     "ujęcie": "To dlatego, że na dziś zaplanowano wszystkie mecze czwartej rundy - zarówno WTA, jak i ATP.",
+     "url": "https://sport.interia.pl/iga-swiatek/news-swiatek-przelamana-na-starcie-taka-byla-riposta-88-minut-wal,nId,23531213"
     }
    ],
    "pojęcia": [],
    "tło": {
-    "hasło": "Sorana Cîrstea",
-    "opis": "rumuńska tenisistka",
-    "tekst": "Sorana Mihaela Cîrstea – rumuńska tenisistka, reprezentantka kraju w Pucharze Federacji.",
-    "url": "https://pl.wikipedia.org/wiki/Sorana_C%C3%AErstea",
-    "język": "pl"
+    "hasło": "Cincinnati Open",
+    "opis": "American tennis tournament",
+    "tekst": "The Cincinnati Open is an annual professional tennis event held in suburban Cincinnati, United States. It is played on outdoor hard courts at the Lindner Family Tennis Center in Mason, Ohio, and is held in August. The event started on September 18, 1899, and is the oldest tennis tournament in the United States still played in its original city. It also is the third largest tennis event in the United States, after the US Open and the Indian Wells Open. It is one of the ATP 1000 tournaments on the ATP Tour, and one of the WTA 1000 tournaments on the WTA Tour.",
+    "url": "https://en.wikipedia.org/wiki/Cincinnati_Open",
+    "język": "en"
    },
    "tagi": [
-    "Peguli",
-    "Sorana",
-    "Cirstei",
-    "Rumunka"
+    "Taylor Townsend",
+    "Cincinnati Open Aryna Sabalenka Iga Świątek Jelena Rybakina Coco Gauff Mirra Andriejewa",
+    "Huberta Hurkacza Tommym Paulem",
+    "Indian Wells Miami Madrycie"
+   ],
+   "emotki": [
+    "🎾"
    ],
    "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Tego scenariusza nikt nie zakładał. Światowa \"1\" za burtą Cincinnati Open",
+     "url": "https://sport.interia.pl/tenis/news-tego-scenariusza-nikt-nie-zakladal-swiatowa-1-za-burta-cinci,nId,23531303"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Dwusetowe starcie Świątek z rewelacją Roland Garros. Znamy ćwierćfinalistkę",
+     "url": "https://sport.interia.pl/iga-swiatek/news-swiatek-przelamana-na-starcie-taka-byla-riposta-88-minut-wal,nId,23531213"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Demolka w drugim i trzecim secie u Andriejewej. Mistrzyni Szlema za burtą",
+     "url": "https://sport.interia.pl/tenis/news-demolka-w-drugim-i-trzecim-secie-u-andriejewej-mistrzyni-szl,nId,23531262"
+    },
     {
      "nazwa": "Interia Sport",
      "tytuł": "Trzysetowa batalia Peguli. Mistrzyni z Madrytu odpadła. To połówka Świątek",
@@ -565,65 +919,36 @@
     },
     {
      "nazwa": "Interia Sport",
-     "tytuł": "Show Lewandowskiego to był koniec. Teraz powrót do domu w Barcelonie",
-     "url": "https://sport.interia.pl/robert-lewandowski/news-show-lewego-i-koniec-teraz-oglaszaja-powrot-do-domu-barcelon,nId,23530877"
+     "tytuł": "Mistrzyni wypada z drogi Świątek do finału. 1:6 już na starcie pojedynku",
+     "url": "https://sport.interia.pl/tenis/news-mistrzyni-wypada-z-drogi-swiatek-do-finalu-1-6-juz-na-starci,nId,23531268"
     },
     {
      "nazwa": "Interia Sport",
-     "tytuł": "Szczęsny \"zesłany\" na ławkę. Camp Nou zawrzało. FC Barcelona z tytułem",
-     "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-szczesny-zeslany-na-lawke-camp-nou-zawrzalo-fc-barcelona-z-t,nId,23531260"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Gwiazdor Barcelony wyszedł na Camp Nou. Natychmiastowe gwizdy",
-     "url": "https://sport.interia.pl/pilka-nozna/news-sceny-na-camp-nou-w-meczu-barcelony-gwiazdor-wygwizdany-bez,nId,23531266"
-    },
-    {
-     "nazwa": "Sportowe Fakty",
-     "tytuł": "Święto na Camp Nou. \"Nowy Salah\" błyszczy w Barcelonie",
-     "url": "https://sportowefakty.wp.pl/pilka-nozna/1269000/swieto-na-camp-nou-nowy-salah-blyszczy-w-barcelonie"
-    },
-    {
-     "nazwa": "Sportowe Fakty",
-     "tytuł": "Zgrzyt na Camp Nou. Gwiazdor Barcelony wygwizdany",
-     "url": "https://sportowefakty.wp.pl/pilka-nozna/1269001/zgrzyt-na-camp-nou-gwiazdor-barcelony-wygwizdany"
-    },
-    {
-     "nazwa": "Polsat Sport",
-     "tytuł": "UFC Fight Night 285: Hernandez - Rodrigues. Gdzie obejrzeć? Transmisja TV i stream online",
-     "url": "https://www.polsatsport.pl/wiadomosc/2026-08-19/ufc-fight-night-285-hernandez-rodrigues-gdzie-obejrzec-transmisja-tv-i-stream-online/"
-    },
-    {
-     "nazwa": "BBC Sport",
-     "tytuł": "Mourinho told Vinicius Jr it was 'not worth' leaving Real",
-     "url": "https://www.bbc.co.uk/sport/football/articles/cgq5wv43g8lo?at_medium=RSS&at_campaign=rss"
+     "tytuł": "88 minut Świątek z Parry w Cincinnati, będzie ciąg dalszy. Brak 55 punktów",
+     "url": "https://sport.interia.pl/iga-swiatek/news-88-minut-swiatek-z-parry-w-cincinnati-bedzie-ciag-dalszy-bra,nId,23531227"
     },
     {
      "nazwa": "The Guardian Sport",
-     "tytuł": "‘He doubted’: Mourinho says Real Madrid did not want Rodri after hesitation over move",
-     "url": "https://www.theguardian.com/football/2026/aug/19/jose-mourinho-real-madrid-rodri-barcelona-transfer-offer"
-    },
-    {
-     "nazwa": "The Guardian Football",
-     "tytuł": "Barcelona steal Rodri away from Real Madrid and plan to make him new Busquets",
-     "url": "https://www.theguardian.com/football/2026/aug/18/barcelona-snatch-rodri-from-madrid-and-make-him-new-busquets"
+     "tytuł": "Teenage ace Rafael Jódar endures defeat by Cobolli but his star is rising",
+     "url": "https://www.theguardian.com/sport/2026/aug/19/jodar-beaten-cobolli-teenager-continues-impress-cincinnati-open-tennis"
     }
    ],
-   "liczba_źródeł": 5,
-   "czas_czytania_min": 1,
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 12.834,
+    "wynik": 7.715,
     "składowe": {
-     "potwierdzenia": 7.6,
-     "ranga_źródła": 2.68,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.504,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 2.1,
+     "eksponowanie": 0.72,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.595,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
-   }
+   },
+   "miejsce": 2
   },
   {
    "dział": {
@@ -648,8 +973,11 @@
      "rodzaj": "punkty",
      "treść": [
       "Pixel 11, w teorii najsłabszy z całej rodziny nowych Pixeli, okazuje się w tym roku zdecydowanie wartą uwagi propozycją.",
+      "Rok 2026 nie rozpieszcza nikogo, kto planuje zakup elektroniki.",
+      "Google nie zamierza być wyjątkiem - cała seria Pixel 11 podrożała o względem poprzedniej generacji.",
       "Podstawowy Pixel 11 dzieli z wersjami Pro procesor, układ zabezpieczeń i podstawową pamięć, a do tego zachowuje teleobiektyw, który jeszcze dwie generacje temu był zarezerwowany wyłącznie dla droższych modeli.",
-      "Najbardziej rzucającą się w oczy zmianą w Pixelu 11 jest pasek aparatów, który zeszczuplał o mniej więcej 40% i został zabezpieczony jednolitą taflą szkła."
+      "Najbardziej rzucającą się w oczy zmianą w Pixelu 11 jest pasek aparatów, który zeszczuplał o mniej więcej 40% i został zabezpieczony jednolitą taflą szkła.",
+      "Ciekawostką jest natomiast unijna etykieta, którą producenci muszą dziś przyklejać każdemu smartfonowi - podstawowy Pixel 11 dostał bowiem najwyższą klasę odporności na upadki (wyższą niż droższy Pixel 11 Pro)."
      ]
     }
    ],
@@ -669,6 +997,7 @@
     "Sprawdziłem Pixel Watch",
     "Pixel Watch"
    ],
+   "emotki": [],
    "wszystkie_źródła": [
     {
      "nazwa": "Spider's Web",
@@ -690,17 +1019,185 @@
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 8.134,
+    "wynik": 7.414,
     "składowe": {
      "potwierdzenia": 3.8,
      "ranga_źródła": 1.335,
-     "eksponowanie": 1.26,
+     "eksponowanie": 0.54,
      "słowa_kluczowe": 0.35,
      "świeżość": 0.475,
      "treściwość": 0.414,
      "język_działu": 0.5
     }
-   }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "ChatGPT nie odrobi za dziecka pracy domowej. OpenAI zaskoczyło",
+   "lead": "ChatGPT nie odrobi za dziecka pracy domowej.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-08-19T04:23:00+00:00",
+   "źródło": {
+    "nazwa": "Spider's Web",
+    "url": "https://spidersweb.pl/2026/08/openai-chatgpt-for-teens.html",
+    "domena": "spidersweb.pl"
+   },
+   "obraz": null,
+   "sekcje": [],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "1,000",
+    "20%",
+    "24"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "ChatGPT"
+   ],
+   "emotki": [
+    "🤖"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Spider's Web",
+     "tytuł": "ChatGPT nie odrobi za dziecka pracy domowej. OpenAI zaskoczyło",
+     "url": "https://spidersweb.pl/2026/08/openai-chatgpt-for-teens.html"
+    },
+    {
+     "nazwa": "Phys.org Technology",
+     "tytuł": "OpenAI slows advanced AI development after its tools launched a cyberattack",
+     "url": "https://techxplore.com/news/2026-08-openai-advanced-ai-cyberattack.html"
+    },
+    {
+     "nazwa": "Phys.org Technology",
+     "tytuł": "OpenAI says ads are coming to ChatGPT in Europe next week",
+     "url": "https://techxplore.com/news/2026-08-openai-ads-chatgpt-europe-week.html"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.325,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.415,
+     "eksponowanie": 0.09,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.429,
+     "treściwość": 0.291,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Fizycy MIT odkrywają elektrony odbudowujące się jak lód wewnątrz materiału kwantowego",
+   "lead": "Szklanka wody lodowej stanowi znajomy przykład dwóch faz istniejących w tym samym czasie. Ta sama substancja może występować zarówno jako ciekła woda, jak i stały lód.",
+   "język_źródła": "en",
+   "opublikowano": "2026-08-20T01:32:04+00:00",
+   "źródło": {
+    "nazwa": "ScienceDaily Physics",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260819041231.htm",
+    "domena": "sciencedaily.com"
+   },
+   "obraz": "https://www.sciencedaily.com/images/1920/electronic-order-quantum-material.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "W niektórych materiałach kwantowych mogą również współistnieć różne fazy, chociaż leżące u ich podstaw zachowanie jest znacznie bardziej złożone.",
+      "Fizycy MIT odkryli teraz nowe szczegóły dotyczące tego, jak dwie różne formy organizacji elektronów mogą pojawić się w tym samym materiale kwantowym.",
+      "Odkrycia, opublikowane w Nature Physics , mogą poprawić zrozumienie przez naukowców materiałów, które wykazują nadprzewodnictwo, magnetyzm i inne fazy elektroniczne.",
+      "Poznanie, w jaki sposób te fazy powstają i wchodzą w interakcje, może ostatecznie pomóc naukowcom uzyskać większą kontrolę nad właściwościami elektronicznymi i opracować silniejsze urządzenia kwantowe.",
+      "„Ludzie uważają, że podstawą zastąpienia krzemu są materiały kwantowe, które mają wiele współistniejących faz” - mówi współautor Alfred Zong PhD '20, który współkierował badaniem jako absolwent MIT, a obecnie jest adiunktem na Uniwersytecie Stanforda.",
+      "„Nasz eksperyment zapewnia bardzo schludny sposób badania tych wielu faz.„ Naukowcy, pod kierunkiem Nuh Gedika, profesora fizyki Donnera z mit, badali tritelluryd erbowy, materiał ziem rzadkich o niezwykłym zachowaniu elektronicznym.",
+      "W normalnych warunkach elektrony są rozmieszczone stosunkowo równomiernie w całym tritellurydzie erbu.",
+      "Jednak po schłodzeniu materiału do określonych temperatur elektrony zaczynają organizować się w układ falowy zwany fazą „fali gęstości ładunku” (CDW).",
+      "Chłodzenie materiału jeszcze bardziej wytwarza drugi wzór fali biegnący prostopadle do pierwszej."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Stopień Celsjusza jest jednostką temperatury w skali temperatury Celsjusza, jedną z dwóch skal temperatury stosowanych w Międzynarodowym Układzie Jednostek Miar (SI), drugą jest ściśle spokrewniona skala Kelvina. Stopień Celsjusza może odnosić się do określonego punktu na skali temperatury Celsjusza lub do różnicy lub zakresu między dwiema temperaturami. Jej nazwa pochodzi od szwedzkiego astronoma Andersa Celsjusza (1701–1744), który zaproponował jej pierwszą wersję w 1742 roku. Jednostka przez wiele lat nazywana była stopniem Celsjusza w kilku językach. W 1948 r. Międzynarodowy Komitet Miar zmienił jego nazwę, aby uhonorować stopień Celsjusza, a także usunąć pomyłkę z terminem „jedna setna gradiana” w niektórych językach. Większość krajów korzysta z tej skali, z wyjątkiem Stanów Zjednoczonych, niektórych terytoriów wyspiarskich i Liberii, gdzie nadal używana jest skala Fahrenheita."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Celsius",
+     "url": "https://en.wikipedia.org/wiki/Celsius"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "20",
+    "24",
+    "17",
+    "-113",
+    "-230"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Celsius",
+    "opis": "Unit of measurement for temperature",
+    "tekst": "The degree Celsius is the unit of temperature on the Celsius temperature scale, one of two temperature scales used in the International System of Units (SI), the other being the closely related Kelvin scale. The degree Celsius can refer to a specific point on the Celsius temperature scale or to a difference or range between two temperatures. It is named after the Swedish astronomer Anders Celsius (1701–1744), who proposed the first version of it in 1742. The unit was called centigrade in several languages for many years. In 1948, the International Committee for Weights and Measures renamed it to honor Celsius and also to remove confusion with the term for one hundredth of a gradian in some languages. Most countries use this scale, with the exception of the United States, some island territories, and Liberia, where the Fahrenheit scale is still used.",
+    "url": "https://en.wikipedia.org/wiki/Celsius",
+    "język": "en"
+   },
+   "tagi": [
+    "Gedik",
+    "Celsius",
+    "Gedik's",
+    "Betty Moore Foundation's EPiQS Initiative"
+   ],
+   "emotki": [
+    "⚛️",
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "ScienceDaily Physics",
+     "tytuł": "MIT physicists discover electrons rebuilding like ice inside a quantum material",
+     "url": "https://www.sciencedaily.com/releases/2026/08/260819041231.htm"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.626,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.569,
+     "treściwość": 0.407,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "MIT physicists discover electrons rebuilding like ice inside a quantum material",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
   },
   {
    "dział": {
@@ -727,19 +1224,13 @@
       "Naukowcy z Uniwersytetu w Bazylei w Szwajcarii wprowadzili obecnie ramy teoretyczne mające na celu zapewnienie spójnej pracy termodynamiki i fizyki kwantowej w tym samym środowisku.",
       "Termodynamika pojawiła się w XIX wieku w dużej mierze, aby wyjaśnić, w jaki sposób duże maszyny, takie jak silniki parowe, przetwarzają i przekazują energię.",
       "Fizyka kwantowa, rozwinięta na początku XX wieku, skupia się na atomach i cząstkach subatomowych.",
+      "Dziś jednak te dwie dziedziny w coraz większym stopniu się pokrywają.",
       "Małe układy zbudowane z atomów i cząstek światła (fotonów) mogą pobierać energię, przekształcać ją i uwalniać, pozwalając im funkcjonować jako mikroskopijne maszyny kwantowe.",
-      "Dużym wyzwaniem jest znalezienie opisu, który pozostaje aktualny zarówno wtedy, gdy cały układ jest traktowany mechanicznie kwantowo, jak i w granicy półklasycznej."
+      "Dużym wyzwaniem jest znalezienie opisu, który pozostaje aktualny zarówno wtedy, gdy cały układ jest traktowany mechanicznie kwantowo, jak i w granicy półklasycznej.",
+      "Ten ostatni jest ograniczającym przypadkiem, w którym jedna część układu jest traktowana kwantowo mechanicznie, podczas gdy fizyka klasyczna jest wystarczająca dla drugiej części.",
+      "Badacze z grupy profesora Patricka Pottsa z Uniwersytetu w Bazylei przedstawili obecnie takie podejście w Physical Review Letters .",
+      "„Nasze obliczenia dotyczą konkretnego modelu fizycznego atomu, który jest umieszczony we wnęce między dwoma lustrami, gdzie może pochłaniać i emitować cząstki światła” - mówi po doktoracie Marcelo Janovitch."
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Uczelnia jest instytucją szkolnictwa wyższego i badań naukowych, która przyznaje stopnie naukowe w kilku dyscyplinach akademickich. Uniwersytet wywodzi się z łacińskiego zwrotu universitas magistrorum et scholarium, który z grubsza oznacza „wspólnotę nauczycieli i uczonych”. Uczelnie oferują zazwyczaj zarówno studia licencjackie, jak i podyplomowe."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: University",
-     "url": "https://en.wikipedia.org/wiki/University"
     }
    ],
    "dlaczego_to_ważne": "",
@@ -749,18 +1240,16 @@
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "University",
-    "opis": "Academic and research institution",
-    "tekst": "A university is an institution of tertiary education and research which awards academic degrees in several academic disciplines. University is derived from the Latin phrase universitas magistrorum et scholarium, which roughly means \"community of teachers and scholars\". Universities typically offer both undergraduate and postgraduate programs.",
-    "url": "https://en.wikipedia.org/wiki/University",
-    "język": "en"
-   },
+   "tło": null,
    "tagi": [
     "University",
     "Basel",
     "Professor Patrick Potts",
     "Physical Review Letters"
+   ],
+   "emotki": [
+    "⚛️",
+    "🔬"
    ],
    "wszystkie_źródła": [
     {
@@ -773,11 +1262,11 @@
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.523,
+    "wynik": 3.433,
     "składowe": {
      "potwierdzenia": 0.0,
      "ranga_źródła": 1.05,
-     "eksponowanie": 0.9,
+     "eksponowanie": 0.81,
      "słowa_kluczowe": 0.7,
      "świeżość": 0.398,
      "treściwość": 0.475,
@@ -788,7 +1277,8 @@
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
-   }
+   },
+   "miejsce": 2
   },
   {
    "dział": {
@@ -822,9 +1312,12 @@
      "rodzaj": "punkty",
      "treść": [
       "Gwiazda o nazwie S301 została wykryta za pomocą interferometru VLTI (Very Large Telescope Interferometer) Europejskiego Obserwatorium Południowego i osiąga prędkość 25 000 km/s (15 500 mil na sekundę) podczas podróży wokół czarnej dziury o masie czterech milionów mas Słońca.",
-      "Gwiazda nazywa się IRS 3 i jest wysoce rozwiniętą gwiazdą AGB zaledwie około 0,55 roku świetlnego od masywnego SMBH.",
-      "Gwiazdy AGB mogą stracić do 70% swojej masy w tej fazie, a ten materiał ma potężny wpływ na skład ISM.",
-      "Blazary, podobnie jak ten kluczowy dla tego badania, oznaczony jako PKS 2233-148, od dawna są proponowane jako kosmiczne akceleratory cząstek, które wyrzucają neutrina."
+      "Zbliża się do niego bardziej niż jakakolwiek inna obserwowana wcześniej gwiazda, tak blisko, że odczuwa skutki obrotu czarnej dziury.",
+      "„Dziesiątki lat uważnego śledzenia gwiazd krążących wokół centralnej czarnej dziury naszej galaktyki, Strzelca A*, doprowadziły do tego przełomowego odkrycia bardzo obiecującej gwiazdy.",
+      "„To, co jest wyjątkowe w tej gwieździe, to fakt, że orbituje ona wokół Strzelca A* na bardzo ciasnej orbicie, a jej ukończenie zajmuje zaledwie 8,7 roku i zbliża się do czarnej dziury w zaledwie 12-krotnej odległości Ziemi od Słońca.",
+      "Podczas swojego najbliższego przejścia do czarnej dziury gwiazda porusza się z prędkością około 25 000 km/s-100 000 razy szybciej niż samolot komercyjny lub ponad 8% prędkości światła, co czyni ją rekordzistką dla najszybszej gwiazdy w Drodze Mlecznej.",
+      "Materiały te zostały zrzucone z gwiazdy w pobliżu SMBH i istnieją tam pomimo przytłaczającego promieniowania pochodzącego z SMBH.",
+      "Gwiazda nazywa się IRS 3 i jest wysoce rozwiniętą gwiazdą AGB zaledwie około 0,55 roku świetlnego od masywnego SMBH."
      ]
     },
     {
@@ -861,6 +1354,10 @@
     "NASA’s Hubble Space Telescope",
     "NASA ESA Joseph Olmsted STScI",
     "Milky Way Merger"
+   ],
+   "emotki": [
+    "🔭",
+    "🌌"
    ],
    "wszystkie_źródła": [
     {
@@ -900,14 +1397,14 @@
     }
    ],
    "liczba_źródeł": 5,
-   "czas_czytania_min": 1,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 14.948,
+    "wynik": 14.768,
     "składowe": {
      "potwierdzenia": 7.6,
      "ranga_źródła": 2.223,
-     "eksponowanie": 2.7,
+     "eksponowanie": 2.52,
      "słowa_kluczowe": 1.4,
      "świeżość": 0.525,
      "treściwość": 0.5,
@@ -918,7 +1415,92 @@
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
-   }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Druga chińska częściowo odzyskiwalna rakieta. Wyczyn ZhuQue-3",
+   "lead": "Rakieta ZhuQue-3, stworzona przez chińską firmę LandSpace, osiągnęła status częściowo odzyskiwalnej. Dołączyła do elitarnego grona, którego wspólnym mianownikiem jest możliwość odzyskania dolnego stopnia, co jest istotną innowacją, szczególnie jeżeli chodzi o redukcję kosztów i skalowanie produkcji tych machin.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-08-19T15:19:06+00:00",
+   "źródło": {
+    "nazwa": "AstroNET",
+    "url": "https://astronet.pl/astronautyka/druga-chinska-czesciowo-odzyskiwalna-rakieta-wyczyn-zhuque-3/",
+    "domena": "astronet.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Waga tego wydarzenia jest nieoceniona.",
+      "Metoda zastosowana przez Zhuque-3 jest analogiczna do tej wykorzystywanej przez rakiety z rodziny Falcon, która wyniosła firmę SpaceX na rolę hegemona rynku kosmicznego.",
+      "Osiągnięcie potęguje także niedawny podobny sukces rakiety Long March 10B, której to dolny stopień także został odzyskany, lecz na inny sposób.",
+      "The post Druga chińska częściowo…"
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10",
+    "11",
+    "12",
+    "60",
+    "1.5",
+    "0.6"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "ZhuQue-3 Rakieta ZhuQue-3",
+    "Long March",
+    "LandSpace",
+    "Zhuque-3"
+   ],
+   "emotki": [
+    "🚀"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "AstroNET",
+     "tytuł": "Druga chińska częściowo odzyskiwalna rakieta. Wyczyn ZhuQue-3",
+     "url": "https://astronet.pl/astronautyka/druga-chinska-czesciowo-odzyskiwalna-rakieta-wyczyn-zhuque-3/"
+    },
+    {
+     "nazwa": "NASA",
+     "tytuł": "NASA’s LRO Images Falcon 9 Crater on Moon, Learns New Details",
+     "url": "https://science.nasa.gov/solar-system/moon/nasas-lro-images-falcon-9-crater-on-moon-learns-new-details/"
+    },
+    {
+     "nazwa": "Space.com",
+     "tytuł": "Touchdown! Private Chinese rocket aces landing on 2nd-ever flight (video)",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/touchdown-private-chinese-rocket-aces-landing-on-2nd-ever-flight"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.524,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.593,
+     "eksponowanie": 0.99,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.441,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
   },
   {
    "dział": {
@@ -927,8 +1509,126 @@
     "emoji": "🗺️",
     "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
    },
-   "nagłówek": "Lake Zurich sees water level hit record low amid drought",
-   "lead": "Lake Zurich's water level sank to its lowest level in 75 years on Wednesday, official measurements showed, as a drawn-out drought also took a toll on a range of other major Swiss lakes. Switzerland has been experiencing \"a marked drought\" since spring as it has been hit by repeated heat waves and below-average…",
+   "nagłówek": "Rośliny mogą zmienić sposób, w jaki naukowcy mierzą korzyści klimatyczne pływowych bagien",
+   "lead": "Dorastając w New Jersey, Emily Wilson regularnie mijała pływowe bagna, nie zastanawiając się nad tym. Były częścią nadmorskiego krajobrazu - pasm zieleni i błękitu, które widziała z drogi.",
+   "język_źródła": "en",
+   "opublikowano": "2026-08-18T20:50:02+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Earth",
+    "url": "https://phys.org/news/2026-08-scientists-climate-benefits-tidal-marshes.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/plants-could-transform.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Dopiero gdy zaczęła studiować nauki o środowisku na studiach licencjackich, zdała sobie sprawę, jak niezwykłe były rośliny kwitnące w słonych, podmokłych środowiskach wśród ciągłych przypływów i odpływów.",
+      "Dzisiaj, jako doktorantka z Uniwersytetu Bostońskiego w dziedzinie Ziemi i Środowiska, Wilson bada te same ekosystemy - i odkryła, że rośliny, które kiedyś mijała, mogą zawierać ważne informacje, aby dokładniej śledzić globalny klimat.",
+      "Bagna pływowe są ważnymi naturalnymi rozwiązaniami klimatycznymi, ponieważ usuwają dwutlenek węgla z atmosfery i magazynują duże ilości węgla w swoich glebach.",
+      "Dokładne uwzględnienie obu ma kluczowe znaczenie dla zrozumienia ich ogólnych korzyści dla klimatu, a także dla polityk i rynków emisji dwutlenku węgla, które kładą nacisk na ochronę i odbudowę terenów podmokłych.",
+      "Nowe badanie przeprowadzone przez Wilsona i opublikowane w Proceedings of the National Academy of Sciences wykazało, że gatunki roślin są znacznie lepszym predyktorem emisji metanu z mokradeł pływowych niż zasolenie, na którym naukowcy polegają od dziesięcioleci.",
+      "„Odkryliśmy, że gatunki roślin są solidnym wskaźnikiem zastępczym przepływów metanu, przewyższającym wszystkie wcześniej opisane wskaźniki zastępcze” - mówi Wilson.",
+      "Wcześniejsze prace w laboratorium Fulweiler zbadały szeroki zakres warunków środowiskowych, które zdaniem naukowców mogą wpływać na emisję gazów cieplarnianych.",
+      "„Przechodząc do tego badania, nasza hipoteza była taka, że rośliny były silnym predyktorem przepływów metanu w oparciu o nasze własne badania i wnioski z innych prac” - mówi Wilson.",
+      "„Ale poza badaniami przeprowadzonymi na jednym do kilku mokradłach pływowych nie było zgody co do tego, że gatunki roślin mogą być wykorzystywane do szacowania strumieni w większej skali.„ Aby się tego dowiedzieć, Wilson skompilował ponad 2000 pomiarów metanu z 87 opublikowanych badań na całym świecie."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Naukowcy zidentyfikowali wcześniej nieznany naturalny proces w Arktyce, który może spowodować wzrost liczby cząstek tworzących chmury w atmosferze.",
+      "Odkrycie może mieć ważne implikacje dla zachmurzenia, ilości światła słonecznego odbijanego z powrotem w przestrzeń kosmiczną i sposobu, w jaki Arktyka reaguje na przyszłe zmiany klimatu.",
+      "Odkrycia, opublikowane 5 sierpnia w Nature Geoscience , pochodzą od międzynarodowego zespołu kierowanego przez Uniwersytet w Birmingham, współpracującego z Chinami i Hiszpanią.",
+      "Naukowcy dostarczają pierwszych rzeczywistych dowodów na to, że potężny proces tworzenia cząstek zachodzi tam, gdzie arktyczny lód morski styka się z otwartym oceanem.",
+      "Cząsteczki tworzące chmury gwałtownie wzrastają w pobliżu lodu arktycznego. Proces ten obejmuje naturalnie występujący jod, siarkę i związki organiczne, które są uwalniane do powietrza i przyczyniają się do tworzenia nowych cząstek atmosferycznych.",
+      "Naukowcy zebrali swoje pomiary podczas ekspedycji na pokładzie Królewskiego Statku Badawczego Discovery wokół Grenlandii i Cieśniny Davisa wiosną i latem 2022 roku."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Akademia narodowa to organ organizacyjny, zwykle działający przy wsparciu i aprobacie finansowej państwa, który koordynuje działalność naukowo-badawczą i standardy w dyscyplinach akademickich oraz pełni funkcję doradców ds. polityki publicznej, instytutów badawczych, ośrodków analitycznych i konsultantów administracji publicznej dla rządów lub w kwestiach o znaczeniu publicznym, najczęściej w naukach ścisłych, ale także w naukach humanistycznych. Zazwyczaj towarzystwa naukowe danego kraju w poszczególnych dyscyplinach będą współpracować z akademią krajową lub być przez nią koordynowane. Narodowe akademie odgrywają ważną rolę organizacyjną w wymianie akademickiej i współpracy między krajami."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: National academy",
+     "url": "https://en.wikipedia.org/wiki/National_academy"
+    }
+   ],
+   "dlaczego_to_ważne": "„Ponieważ gatunki roślin są łatwiejsze do zidentyfikowania niż bezpośrednio mierzone strumienie metanu i często są już mapowane, podejście to zapewnia badaczom i menedżerom praktyczne sposoby szacowania emisji metanu na mokradłach pływowych.„ Odkrycie opiera się na ponad dziesięciu latach badań w laboratorium Robinsona „Wally 'ego” Fulweilera, profesora BU w dziedzinie Ziemi, Środowiska i Biologii.",
+   "liczby": [
+    "2,000",
+    "87",
+    "62%",
+    "71%",
+    "100,000",
+    "1%"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "National academy",
+    "opis": "Organizational body",
+    "tekst": "A national academy is an organizational body, usually operating with state financial support and approval, that co-ordinates scholarly research activities and standards for academic disciplines, and serves as public policy advisors, research institutes, think tanks, and public administration consultants for governments or on issues of public importance, most frequently in the sciences but also in the humanities. Typically the country's learned societies in individual disciplines will liaise with or be coordinated by the national academy. National academies play an important organisational role in academic exchanges and collaborations between countries.",
+    "url": "https://en.wikipedia.org/wiki/National_academy",
+    "język": "en"
+   },
+   "tagi": [
+    "Wilson",
+    "National Academy",
+    "Proceedings",
+    "Sciences"
+   ],
+   "emotki": [
+    "🪐",
+    "🛒"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Earth",
+     "tytuł": "Plants could transform how scientists measure the climate benefits of tidal marshes",
+     "url": "https://phys.org/news/2026-08-scientists-climate-benefits-tidal-marshes.html"
+    },
+    {
+     "nazwa": "ScienceDaily Earth",
+     "tytuł": "Scientists discover a natural Arctic cloud factory missing from climate models",
+     "url": "https://www.sciencedaily.com/releases/2026/08/260816044839.htm"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 3,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.86,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.3,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.21,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Plants could transform how scientists measure the climate benefits of tidal marshes",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Jezioro Zuryskie odnotowuje rekordowo niski poziom wody w czasie suszy",
+   "lead": "Poziom wody w jeziorze Zurych obniżył się do najniższego poziomu od 75 lat w środę, jak wykazały oficjalne pomiary, ponieważ ciągnąca się susza odbiła się również na szeregu innych głównych jezior szwajcarskich. Szwajcaria doświadcza „wyraźnej suszy” od wiosny, ponieważ została dotknięta powtarzającymi się falami upałów i poniżej średniej…",
    "język_źródła": "en",
    "opublikowano": "2026-08-19T21:40:04+00:00",
    "źródło": {
@@ -942,33 +1642,39 @@
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "\"The situation has resulted in dry soils and low levels of surface and groundwater,\" the office said on its website, noting that the drought had \"worsened in recent weeks.\" As a result, many lakes have below-average seasonal levels, it said, pointing, for instance, to Lake Constance, which straddles the Swiss, German and Austrian borders, and Lake Maggiore on the southern side of the Alps, divided between Switzerland and Italy.",
-      "Meanwhile, an agency spokesman told AFP that only Lake Zurich—the sixth-largest in the country—had so far seen water levels hit a record low.",
-      "The water level in the lake, which extends southeast of Switzerland's largest city, was no higher than 404.45 meters (1,327 feet) above sea level on Wednesday, falling below the previous record of 405.46 meters (1,330 feet), measured there in 1952, a year after measurements began at the station.",
-      "The annual mean is 405.93 meters (1,332 feet), according to FOEN.",
-      "The Zurich Lake Ferry company, which operates the crossing between Horgen on the west shore and Meilen on the east shore, informed customers this week of restrictions on vehicle loading due to the \"extraordinarily low\" water level, barring crossings by heavy trucks and several other vehicle types."
+      "„Sytuacja doprowadziła do suchych gleb i niskiego poziomu wód powierzchniowych i podziemnych” - poinformował urząd na swojej stronie internetowej, zauważając, że susza „pogorszyła się w ostatnich tygodniach.„ W rezultacie wiele jezior ma niższy od przeciętnego poziom sezonowy, powiedział, wskazując na przykład na jezioro Bodeńskie, które graniczy ze szwajcarską, niemiecką i austriacką granicą, oraz jezioro Maggiore po południowej stronie Alp, podzielone między Szwajcarię i Włochy.",
+      "Tymczasem rzecznik agencji powiedział AFP, że tylko Jezioro Zuryskie - szóste co do wielkości w kraju - do tej pory odnotowało rekordowo niski poziom wody.",
+      "Poziom wody w jeziorze, które rozciąga się na południowy wschód od największego miasta Szwajcarii, nie przekraczał 404,45 metra (1327 stóp) nad poziomem morza w środę, spadając poniżej poprzedniego rekordu 405,46 metra (1330 stóp), zmierzonego tam w 1952 roku, rok po rozpoczęciu pomiarów na stacji.",
+      "Średnia roczna wynosi 405,93 metra (1332 stopy), według FOEN.",
+      "Firma Zurich Lake Ferry, która obsługuje przejście między Horgen na zachodnim brzegu a Meilen na wschodnim brzegu, poinformowała w tym tygodniu klientów o ograniczeniach w załadunku pojazdów ze względu na „wyjątkowo niski” poziom wody, uniemożliwiając przejazd ciężkimi ciężarówkami i kilkoma innymi typami pojazdów.",
+      "W zeszłym tygodniu włosko-szwajcarski organ konsultacyjny odpowiedzialny za regulację poziomu wody w jeziorze Maggiore podjął decyzję po nadzwyczajnym spotkaniu, aby umożliwić większy odpływ z jeziora Lugano do większego zbiornika wodnego.",
+      "Jezioro Genewskie, największe jezioro Szwajcarii, w międzyczasie odnotowało poziom wody zbliżony do średniej rocznej, na wysokości 372 metrów (1220 stóp) nad poziomem morza, ponieważ korzystało z napływu rzek wzmocnionych przez topnienie lodowców, powiedział FOEN AFP.",
+      "Magister fizyki z doświadczeniem badawczym.",
+      "Wieloletni miłośnik wiadomości naukowych."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "These remains were discovered on 16 August, USA Today reported .",
-      "Authorities reportedly said the man seemed to have been shot, potentially during the late 1970s or early 1980s."
+      "Odkrycie oznacza najnowsze ponure odkrycie w jeziorze, ponieważ poziom wody w kluczowym zbiorniku poza Las Vegas nadal spada. Szczątki ludzkie zostały ponownie odkryte w jeziorze Mead poza Las Vegas w stanie Nevada, oznaczając najnowsze z serii makabrycznych odkryć, gdy poziom wody w kluczowym zbiorniku nadal spada, twierdzą władze.",
+      "Szczątki te zostały odkryte 16 sierpnia, donosi USA Today.",
+      "Lokalny koroner powiedział, że władze próbują zidentyfikować zmarłą osobę, a także ustalić sposób i przyczynę śmierci, powiedział USA Today.",
+      "W 2022 roku władze odzyskały ciało w beczce, zauważył USA Today."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Zurich is the largest city in Switzerland and the capital of the canton of Zurich. It is in north-central Switzerland, at the northwestern tip of Lake Zurich. As of the end of 2024, the municipality had a population of 436,551, while the urban area was home to 1.45 million people (2020), and the Zurich metropolitan area had a total population of 2.1 million (2020). Zurich is a hub for railways, roads, and air traffic. Both Zurich Airport and Zurich's main railway station are the largest and busiest in the country."
+      "Zurych jest największym miastem w Szwajcarii i stolicą kantonu Zurych. Znajduje się w północno-środkowej Szwajcarii, na północno-zachodnim krańcu jeziora Zurych. Na koniec 2024 roku gmina miała 436 551 mieszkańców, podczas gdy obszar miejski był domem dla 1,45 miliona osób (2020), a obszar metropolitalny Zurychu miał całkowitą populację 2,1 miliona (2020). Zurych jest węzłem kolejowym, drogowym i lotniczym. Zarówno lotnisko w Zurychu, jak i główny dworzec kolejowy w Zurychu są największe i najbardziej ruchliwe w kraju."
      ],
      "język": "en",
      "przypis": "Wikipedia: Zurich",
      "url": "https://en.wikipedia.org/wiki/Zurich"
     }
    ],
-   "dlaczego_to_ważne": "",
+   "dlaczego_to_ważne": "Decyzja ta nastąpiła po nadzwyczajnym spotkaniu, które odbyło się po tym, jak włoskie ministerstwo środowiska ogłosiło alarm o krytycznym poziomie wody w jeziorze Maggiore, wśród obaw o wpływ na obszary uprawy ryżu w dół rzeki we włoskich regionach Novara, Lomellina i Mediolan.",
    "liczby": [
     "75",
     "404.45",
@@ -977,13 +1683,7 @@
     "1,330",
     "405.93"
    ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "The Guardian Environment",
-     "ujęcie": "Weeks ago, Lake Mead’s water level dipped to 1,040.4ft above sea level, nearing the 28 July 2022 record low.",
-     "url": "https://www.theguardian.com/us-news/2026/aug/19/lake-mead-human-remains"
-    }
-   ],
+   "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
     "hasło": "Zurich",
@@ -998,6 +1698,7 @@
     "Wednesday",
     "Italian"
    ],
+   "emotki": [],
    "wszystkie_źródła": [
     {
      "nazwa": "Phys.org Earth",
@@ -1014,84 +1715,23 @@
    "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.028,
+    "wynik": 5.668,
     "składowe": {
      "potwierdzenia": 1.9,
      "ranga_źródła": 1.307,
-     "eksponowanie": 1.8,
+     "eksponowanie": 1.44,
      "słowa_kluczowe": 0.0,
      "świeżość": 0.521,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
-   }
-  },
-  {
-   "dział": {
-    "id": "literatura",
-    "nazwa": "Literatura",
-    "emoji": "📚",
-    "opis": "książki, nagrody, pisarze, rynek wydawniczy"
    },
-   "nagłówek": "Miliony za książki napisane przez AI? Rynek książki ma problem",
-   "lead": "Wydawcy są gotowi płacić miliony za prawa do wydania powieści, ale coraz częściej stają przed problemem, którego jeszcze niedawno niemal nie było: jak upewnić się, że kupowany tekst rzeczywiście powstał w sposób deklarowany przez autora? Głośna sprawa Jerry’ego Falade’a zaczęła się od spektakularnego sukcesu – prawa do…",
-   "język_źródła": "pl",
-   "opublikowano": "2026-08-19T09:06:43+00:00",
-   "źródło": {
-    "nazwa": "Granice.pl",
-    "url": "https://www.granice.pl/news/miliony-za-ksiazki-napisane-przez-ai-rynek-ksiazki-ma-problem/32533",
-    "domena": "granice.pl"
+   "oryginalny_nagłówek": "Lake Zurich sees water level hit record low amid drought",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
    },
-   "obraz": "https://www.granice.pl/sys6/pliki/text/18/08/2026/93f1f89a851127cd83be0411fb1cb3c4.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Później pojawiły się jednak podejrzenia dotyczące wykorzystania generatywnej AI, a publikację książki ostatecznie anulowano.",
-      "Sprawa wywołała pytania o to, jak wydawcy i agenci mogą weryfikować sposób, w jaki powstają oferowane im teksty.",
-      "Historia Jerry’ego Falade’a stała się wyrazistym przykładem problemów, z jakimi branża wydawnicza mierzy się w związku z rosnącą popularnością sztucznej inteligencji.",
-      "Jego debiutancka powieść Call Me, I’ll Hide the Body wzbudziła ogromne zainteresowanie.",
-      "O prawa do jej publikacji rywalizowało w Stanach Zjednoczonych 14 wydawców, a ostateczna wartość umowy wyniosła około 2,4 mln dolarów."
-     ]
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "2,4 mln",
-    "14"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": null,
-   "tagi": [
-    "Falade’a",
-    "Stanach Zjednoczonych",
-    "Wall Street Journal",
-    "Jerry’ego Falade’a"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Granice.pl",
-     "tytuł": "Miliony za książki napisane przez AI? Rynek książki ma problem",
-     "url": "https://www.granice.pl/news/miliony-za-ksiazki-napisane-przez-ai-rynek-ksiazki-ma-problem/32533"
-    }
-   ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 3.874,
-    "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.0,
-     "eksponowanie": 0.81,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.364,
-     "treściwość": 0.5,
-     "język_działu": 0.5
-    }
-   }
+   "miejsce": 2
   },
   {
    "dział": {
@@ -1117,6 +1757,15 @@
      "treść": [
       "Poniżej przedstawiamy skład Komisji Oscarowej, która pod przewodnictwem Jana Naszewskiego wyłoni"
      ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Poznaliśmy pełny skład Komisji Oscarowej, który został zaakceptowany przez Amerykańską Akademię Sztuki i Wiedzy Filmowej.",
+      "Komisja Oscarowa już niebawem zadecyduje o tym, która produkcja zostanie zgłoszona jako polski kandydat w kategorii Najlepszy Pełnometrażowy Film Międzynarodowy.",
+      "Przewodniczącym Komisji został producent Jan Naszewski , a we wskazaniu filmu pomogą Kamila Dorbach (Dyrektor Polskiego Instytutu Sztuki Filmowej), Milenia Fiedler (montażystka filmowa i doktor habilitowana sztuki filmowej), Agnieszka Odorowicz (ekonomistka, menadżerka kultury), Małgorzata Szumowska (reżyserka i scenarzystka), Artur Liebhart (działacz kulturalny i dystrybutor filmowy), Paweł Łoziński (reżyser filmów dokumentalnych), Mariusz Włodarski (producent) oraz Tadeusz Łysiak (student Reżyserii w Warszawskiej Szkole Filmowej)."
+     ]
     }
    ],
    "dlaczego_to_ważne": "",
@@ -1124,13 +1773,7 @@
     "98",
     "30"
    ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "Interia Film",
-     "ujęcie": "Poznaliśmy pełny skład Komisji Oscarowej, który został zaakceptowany przez Amerykańską Akademię Sztuki i Wiedzy Filmowej.",
-     "url": "https://film.interia.pl/wiadomosci/news-kto-wybierze-polskiego-kandydata-do-oscara-poznalismy-sklad,nId,23531124"
-    }
-   ],
+   "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": null,
    "tagi": [
@@ -1138,6 +1781,10 @@
     "Amerykańską Akademię Sztuki",
     "Komisji Oscarowej",
     "Jana Naszewskiego"
+   ],
+   "emotki": [
+    "🎬",
+    "🗳️"
    ],
    "wszystkie_źródła": [
     {
@@ -1155,26 +1802,128 @@
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.126,
+    "wynik": 5.676,
     "składowe": {
      "potwierdzenia": 1.9,
      "ranga_źródła": 1.243,
-     "eksponowanie": 1.26,
+     "eksponowanie": 0.81,
      "słowa_kluczowe": 0.35,
      "świeżość": 0.41,
      "treściwość": 0.463,
      "język_działu": 0.5
     }
-   }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Nieznany utwór Romualda Lipki. Napisał go dla Zenka Martyniuka",
+   "lead": "Zenek Martyniuk oburzył się nagraniami Jacka Kawalca, który parodiuje go w sieci. Tymczasem król disco polo zapewnia, że od dziecka jest fanem Budki Suflera i jak się okazuje, kilka lat temu Romuald Lipko napisał dla niego piosenkę, która jeszcze się nie ukazała.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-08-19T11:08:47+00:00",
+   "źródło": {
+    "nazwa": "Onet Kultura",
+    "url": "https://kultura.onet.pl/muzyka/wiadomosci/romuald-lipko-napisal-piosenke-dla-zenka-martyniuka-piekna/28bwwqr",
+    "domena": "kultura.onet.pl"
+   },
+   "obraz": "https://cdn.kultura.onet.pl/1/3C9k9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy8xMTI2YzkyMDM3MmEyMmMxNWFiZDM0NDYxNTVhMmQzYy5wbmeSlQMbAM0HTM0EG5MFzQlgzQZA3gACoTAHoTEE",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "\"Piękna pioseneczka\" — opowiada Martyniuk.",
+      "Wypiliśmy herbatę, pośpiewaliśmy, pograliśmy, dobraliśmy tonację.",
+      "Piękna pioseneczka, troszkę w klimatach, w jakich Urszula śpiewała \"Malinowego Króla\"."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Przypomnijmy, że chodzi o nagranie, na którym Jacek Kawalec opowiadał ze sceny o muzyce disco polo i sięgnął po utwór \"Przez twe oczy zielone\" .",
+      "\"Panie Zenku, nie jestem pana fanem (zapewne z wzajemnością) i nie bywam na pańskich koncertach, ale wiem, że ma pan wielomilionową rzeszę wielbicieli, którzy kochają pana i pańskie piosenki, a to zasługuje na wielki szacunek i podziw."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "89"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Muzyka",
+     "ujęcie": "Po aferze z nagraniem Jacka Kawalca, na którym parodiuje Zenka Martyniuka, głos zabrała Paula Karpowicz z zespołu Topky.",
+     "url": "https://muzyka.interia.pl/disco-polo/news-gwiazda-disco-polo-wspiera-zenka-martyniuka-uderzyla-w-jacka,nId,23531249"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Zenka Martyniuka Zenek Martyniuk",
+    "Malinowego Króla",
+    "Romualda Lipki",
+    "Jacka Kawalca"
+   ],
+   "emotki": [
+    "🌡️",
+    "🎵"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Onet Kultura",
+     "tytuł": "Nieznany utwór Romualda Lipki. Napisał go dla Zenka Martyniuka",
+     "url": "https://kultura.onet.pl/muzyka/wiadomosci/romuald-lipko-napisal-piosenke-dla-zenka-martyniuka-piekna/28bwwqr"
+    },
+    {
+     "nazwa": "Interia Muzyka",
+     "tytuł": "Gwiazda disco polo wspiera Zenka Martyniuka. Uderzyła w Jacka Kawalca",
+     "url": "https://muzyka.interia.pl/disco-polo/news-gwiazda-disco-polo-wspiera-zenka-martyniuka-uderzyla-w-jacka,nId,23531249"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.368,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.135,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.47,
+     "treściwość": 0.383,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
   }
  ],
  "braki": [],
  "statystyki": {
-  "kanały_ok": 80,
-  "kanały_błędne": 0,
-  "znaki_tłumaczone": 4496,
-  "niedziałające_kanały": [],
-  "działy": 10,
-  "artykuły_w_oknie": 63
+  "kanały_ok": 70,
+  "kanały_błędne": 3,
+  "znaki_tłumaczone": 13807,
+  "niedziałające_kanały": [
+   {
+    "url": "https://www.polsatnews.pl/rss/polska.xml",
+    "powód": "ConnectTimeout"
+   },
+   {
+    "url": "https://www.polsatnews.pl/rss/swiat.xml",
+    "powód": "ConnectTimeout"
+   },
+   {
+    "url": "https://www.polsatsport.pl/rss/wszystkie.xml",
+    "powód": "ConnectTimeout"
+   }
+  ],
+  "działy": 18,
+  "artykuły_w_oknie": 69
  }
 }
