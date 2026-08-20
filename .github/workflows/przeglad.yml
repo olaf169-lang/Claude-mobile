@@ -45,7 +45,7 @@ jobs:
       - name: Czy to właściwa pora?
         id: kontrola
         run: |
-          python - <<'PY' >> "$GITHUB_OUTPUT"
+          python - <<'PY'
           import json, os, pathlib
           from datetime import datetime, time, timezone
           from zoneinfo import ZoneInfo
@@ -78,7 +78,10 @@ jobs:
               return True, f"dzisiejsze wydanie jest sprzed poranka ({powstalo:%H:%M}) — buduję świeże"
 
           buduj, powod = decyzja()
-          print(f"uruchom={'true' if buduj else 'false'}")
+          # Wynik kroku idzie do pliku, komunikat na konsolę. Wcześniej jedno
+          # przekierowanie obejmowało oba i GitHub odrzucał całą linię ::notice::.
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as wyjscie:
+              wyjscie.write(f"uruchom={'true' if buduj else 'false'}\n")
           print(f"::notice::{powod}")
           PY
 
