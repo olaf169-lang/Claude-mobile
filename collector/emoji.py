@@ -20,7 +20,8 @@ REGULY: tuple[tuple[str, tuple[str, ...]], ...] = (
 
     # --- sport ---
     ("⚽", ("pilka nozna", "ekstraklasa", "premier league", "champions league", "bundesliga",
-            "la liga", "serie a", "futbol", "bramk", "pilkar", "football", "fifa", "uefa")),
+            "la liga", "serie a", "futbol", "bramk", "pilkar", "football", "fifa", "uefa",
+            "gol$", "gola$", "gole$", "golem$", "hat-trick", "asysta", "napastnik")),
     ("🎾", ("tenis", "wimbledon", "roland garros", "us open", "atp", "wta", "tie-break")),
     ("🏐", ("siatkow", "volleyball", "siatkarz")),
     ("🏀", ("koszykow", "basketball", "nba", "lakers", "euroliga")),
@@ -125,6 +126,9 @@ def topic_emoji(headline: str = "", lead: str = "", body: str = "",
     if not punkty:
         return []
     najlepsze = sorted(punkty, key=lambda t: (-t[0], t[1]))[:limit]
-    # Słabe dopasowania odpadają, gdy jest coś wyraźnie mocniejszego.
-    prog = max(1.0, najlepsze[0][0] / 4)
-    return [e for waga, _, e in najlepsze if waga >= prog]
+    # Próg jest stały, nie liczony od lidera: temat mocno obecny w tekście
+    # wypychał wcześniej poprawną drugą emotkę (wypadek autokaru gubił 🚑,
+    # bo „śledztwo" padało kilkanaście razy). Wystarczy jedno trafienie
+    # w nagłówku albo trzy w treści; lider wchodzi zawsze.
+    prog = min(WAGA_NAGLOWKA, 3)
+    return [najlepsze[0][2]] + [e for waga, _, e in najlepsze[1:] if waga >= prog]

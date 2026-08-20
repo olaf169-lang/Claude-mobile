@@ -34,3 +34,22 @@ def test_dopasowanie_od_poczatku_wyrazu():
     """„wygrała" to nie gra wideo, „premiera filmu" to nie polityka."""
     assert "🎮" not in topic_emoji("Polka wygrała mecz", "Wygrana w trzech setach")
     assert "🏛️" not in topic_emoji("Premiera filmu w kinach", "Nowy obraz reżysera")
+
+
+def test_dominujacy_watek_nie_wypycha_poprawnej_drugiej_emotki():
+    """Wypadek autokaru ma zostać wypadkiem, choćby o śledztwie było więcej."""
+    emotki = topic_emoji(
+        "Wypadek autokaru na Węgrzech. Polska chce przejąć śledztwo",
+        "Prokuratura wystąpiła o przejęcie sprawy",
+        "Śledztwo prowadzi prokuratura. Zarzuty jeszcze nie padły. Sądy czekają na wniosek.",
+    )
+    assert "🚑" in emotki and "⚖️" in emotki
+
+
+def test_slabe_dopasowanie_z_tresci_nie_wchodzi():
+    emotki = topic_emoji(
+        "Lewandowski znów bohaterem. Kolejny gol na wagę zwycięstwa",
+        "Napastnik trafił w 88. minucie",
+        "Kibice głosowali w sondzie na najlepszego zawodnika.",
+    )
+    assert emotki == ["⚽"], emotki
