@@ -45,28 +45,42 @@ jobs:
       - name: Czy to właściwa pora?
         id: kontrola
         run: |
-          set -euo pipefail
-          DZIS=$(TZ=Europe/Warsaw date +%F)
-          GODZINA=$(TZ=Europe/Warsaw date +%-H)
-          echo "W Polsce jest $DZIS, godzina $GODZINA."
-          if [ "${{ github.event_name }}" = "push" ]; then
-            # Zmiana w repozytorium ma tylko opublikować stronę z gotowymi
-            # danymi. Zbiórka o tej porze podmieniłaby dzisiejsze wydanie.
-            echo "Push — publikuję istniejące wydanie bez zbierania."
-            echo "uruchom=false" >> "$GITHUB_OUTPUT"
-          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "Uruchomienie ręczne — budujemy."
-            echo "uruchom=true" >> "$GITHUB_OUTPUT"
-          elif [ -f "web/data/$DZIS.json" ]; then
-            echo "Wydanie na $DZIS już istnieje — pomijam."
-            echo "uruchom=false" >> "$GITHUB_OUTPUT"
-          elif [ "$GODZINA" -ge 8 ]; then
-            echo "Po ósmej i brak wydania — budujemy."
-            echo "uruchom=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "Za wcześnie (to przebieg dla drugiej strefy czasowej) — pomijam."
-            echo "uruchom=false" >> "$GITHUB_OUTPUT"
-          fi
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os, pathlib
+          from datetime import datetime, time, timezone
+          from zoneinfo import ZoneInfo
+
+          zdarzenie = os.environ["GITHUB_EVENT_NAME"]
+          teraz = datetime.now(ZoneInfo("Europe/Warsaw"))
+          plik = pathlib.Path(f"web/data/{teraz:%Y-%m-%d}.json")
+
+          def decyzja() -> tuple[bool, str]:
+              if zdarzenie == "push":
+                  # Zmiana w repozytorium ma tylko opublikować stronę.
+                  return False, "push — publikuję gotowe wydanie bez zbierania"
+              if zdarzenie == "workflow_dispatch":
+                  return True, "uruchomienie ręczne"
+              if teraz.hour < 8:
+                  return False, "za wcześnie — to przebieg dla drugiej strefy czasowej"
+              if not plik.exists():
+                  return True, "po ósmej i brak dzisiejszego wydania"
+              # Wydanie zbudowane w nocy (np. ręcznym testem) nie zastępuje
+              # porannego: to ono ma się pojawić o ósmej i wywołać powiadomienie.
+              try:
+                  powstalo = datetime.fromisoformat(
+                      json.loads(plik.read_text("utf-8"))["wygenerowano"]
+                  ).astimezone(ZoneInfo("Europe/Warsaw"))
+              except Exception:
+                  return True, "nie umiem odczytać dzisiejszego wydania — buduję na nowo"
+              poranek = datetime.combine(teraz.date(), time(7), tzinfo=ZoneInfo("Europe/Warsaw"))
+              if powstalo >= poranek:
+                  return False, f"poranne wydanie już powstało o {powstalo:%H:%M}"
+              return True, f"dzisiejsze wydanie jest sprzed poranka ({powstalo:%H:%M}) — buduję świeże"
+
+          buduj, powod = decyzja()
+          print(f"uruchom={'true' if buduj else 'false'}")
+          print(f"::notice::{powod}")
+          PY
 
       - uses: actions/setup-python@v5
         if: steps.kontrola.outputs.uruchom == 'true'
@@ -84,6 +98,9 @@ jobs:
           # Klucz jest opcjonalny. Bez niego przegląd powstaje w trybie
           # ekstrakcyjnym (cytaty ze źródeł), z nim — pogłębione omówienia po polsku.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Twój adres podnosi dzienny limit darmowego tłumacza z ok. 5 tys.
+          # do 50 tys. znaków. Bez niego przegląd tłumaczy tyle, ile zdąży.
+          PRZEGLAD_TLUMACZ_EMAIL: ${{ secrets.PRZEGLAD_TLUMACZ_EMAIL }}
         run: |
           python -m collector.build \
             ${{ github.event.inputs.data && format('--date {0}', github.event.inputs.data) || '' }} \

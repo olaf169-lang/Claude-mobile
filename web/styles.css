@@ -322,7 +322,7 @@ body > * { position: relative; z-index: 1; }
 .card__meta a { color: var(--link); text-decoration: none; font-weight: 500; }
 .card__meta a:hover { text-decoration: underline; }
 
-.numbers { display: flex; flex-wrap: wrap; gap: .4rem; padding: .95rem 1.2rem 0; }
+.numbers { display: flex; flex-wrap: wrap; gap: .4rem; margin: 0 0 .8rem; }
 .number {
   background: var(--tint-accent); color: var(--gold);
   border: 1px solid var(--tint-accent-2);

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from typing import Any
 
+from .emoji import topic_emoji
 from .model import Cluster, Segment, Story
 from .textutil import (
     dedupe_sentences,
@@ -140,7 +141,7 @@ def compose_extractive(cluster: Cluster, segment: Segment, background: dict | No
     """Omówienie zbudowane z najlepszych zdań źródeł (tryb bez modelu)."""
     lead = cluster.lead
     body = _material_text(lead)
-    core = key_sentences(body, segment, limit=8)
+    core = key_sentences(body, segment, limit=14)
     w_leadzie = core[:2]
     dek = shorten(" ".join(w_leadzie) or lead.summary or lead.title, 320)
 
@@ -159,7 +160,7 @@ def compose_extractive(cluster: Cluster, segment: Segment, background: dict | No
 
     sections: list[dict[str, Any]] = []
     if narrative:
-        sections.append({"tytuł": "Co się stało", "rodzaj": "akapity", "treść": narrative[:5]})
+        sections.append({"tytuł": "Co się stało", "rodzaj": "akapity", "treść": narrative[:9]})
 
     # Wyłącznie źródła w języku głównego artykułu. Wcześniej obcojęzyczne
     # zdania wchodziły z etykietą [en] — czytelnik dostawał polski lead
@@ -168,10 +169,10 @@ def compose_extractive(cluster: Cluster, segment: Segment, background: dict | No
     for entry in cluster.entries[1:]:
         if entry.lang != lead.lang:
             continue
-        for sentence in key_sentences(_material_text(entry), segment, limit=3):
-            if numbers_in(sentence):
+        for sentence in key_sentences(_material_text(entry), segment, limit=6):
+            if numbers_in(sentence) or len(sentence) > 120:
                 swoje.append(sentence)
-    extra = dedupe_sentences([s for s in swoje if s not in narrative])[:4]
+    extra = dedupe_sentences([s for s in swoje if s not in narrative])[:7]
     if extra:
         sections.append({"tytuł": "Szczegóły i liczby", "rodzaj": "punkty", "treść": extra})
 
@@ -200,6 +201,7 @@ def compose_extractive(cluster: Cluster, segment: Segment, background: dict | No
         perspectives=_perspectives(cluster, segment, narrative + extra),
         background=background,
         tags=[t for t in top_entities(f"{lead.title} {body}", 4)],
+        emoji=topic_emoji(lead.title, dek, body[:1200]),
         mode="extractive",
     )
 
@@ -247,6 +249,10 @@ def compose_from_llm(
             if g.get("termin") and g.get("wyjasnienie")
         ],
         tags=[t for t in data.get("tagi", []) if t][:5],
+        emoji=topic_emoji(
+            data.get("naglowek", ""), data.get("lead", ""),
+            " ".join(data.get("co_sie_stalo", []))[:1200],
+        ),
         mode="llm",
     )
 
@@ -278,6 +284,7 @@ def story_to_dict(story: Story) -> dict[str, Any]:
         "pojęcia": story.glossary,
         "tło": story.background,
         "tagi": story.tags,
+        "emotki": story.emoji,
         "wszystkie_źródła": [
             {"nazwa": e.source, "tytuł": e.title, "url": e.url}
             for e in story.cluster.entries

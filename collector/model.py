@@ -118,4 +118,5 @@ class Story:
     background: dict[str, Any] | None = None
     glossary: list[dict[str, str]] = field(default_factory=list)
     tags: list[str] = field(default_factory=list)
+    emoji: list[str] = field(default_factory=list)
     mode: str = "extractive"

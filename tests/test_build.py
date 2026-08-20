@@ -16,14 +16,30 @@ def zbuduj():
     )
 
 
-def test_wydanie_ma_wszystkie_dziesiec_dzialow():
+DZIALY = [
+    "polska", "swiat", "sport-pl", "sport-swiat", "technologia",
+    "fizyka", "astronomia", "geografia", "popkultura",
+]
+
+
+def test_wydanie_obejmuje_wszystkie_dzialy():
     wydanie = zbuduj()
-    assert len(wydanie["pozycje"]) == 10
     assert wydanie["braki"] == []
-    assert [p["dział"]["id"] for p in wydanie["pozycje"]] == [
-        "polska", "swiat", "sport-pl", "sport-swiat", "technologia",
-        "fizyka", "astronomia", "geografia", "literatura", "popkultura",
-    ]
+    kolejnosc = [p["dział"]["id"] for p in wydanie["pozycje"]]
+    assert sorted(set(kolejnosc)) == sorted(DZIALY)
+    # Działy trzymają się razem — aplikacja grupuje karty po kolejności.
+    assert kolejnosc == sorted(kolejnosc, key=lambda d: DZIALY.index(d))
+
+
+def test_dzial_dostaje_do_dwoch_tematow():
+    wydanie = zbuduj()
+    from collections import Counter
+
+    ile = Counter(p["dział"]["id"] for p in wydanie["pozycje"])
+    assert all(1 <= n <= 2 for n in ile.values()), ile
+    assert any(n == 2 for n in ile.values()), "przy tym materiale któryś dział ma dwa tematy"
+    for pozycja in wydanie["pozycje"]:
+        assert pozycja["miejsce"] in (1, 2)
 
 
 def test_kazda_pozycja_ma_naglowek_lead_i_segment():
@@ -38,6 +54,8 @@ def test_kazda_pozycja_ma_naglowek_lead_i_segment():
         assert (
             pozycja["sekcje"] or pozycja["inne_spojrzenia"] or pozycja["liczby"]
         ), f"pusta karta w dziale {pozycja['dział']['id']}"
+        assert isinstance(pozycja["emotki"], list)
+        assert len(pozycja["emotki"]) <= 3
 
 
 def test_zaden_temat_nie_powtarza_sie_miedzy_dzialami():
@@ -59,7 +77,7 @@ def test_zapis_tworzy_wydanie_biezace_i_archiwum(tmp_path):
 
     indeks = json.loads((tmp_path / "index.json").read_text("utf-8"))
     assert indeks["wydania"][0]["wydanie"] == WYDANIE
-    assert len(indeks["wydania"][0]["nagłówki"]) == 10
+    assert len(indeks["wydania"][0]["nagłówki"]) == len(wydanie["pozycje"])
 
 
 def test_ponowny_zapis_nie_duplikuje_wpisu_w_archiwum(tmp_path):
@@ -80,8 +98,8 @@ def test_ograniczenie_do_wybranych_dzialow():
         use_llm=False,
         segments=(SEGMENTS_BY_ID["fizyka"],),
     )
-    assert len(wydanie["pozycje"]) == 1
-    assert wydanie["pozycje"][0]["dział"]["id"] == "fizyka"
+    assert wydanie["pozycje"], "dział fizyka ma materiał w fixture'ach"
+    assert {p["dział"]["id"] for p in wydanie["pozycje"]} == {"fizyka"}
 
 
 def test_wydanie_z_fixtures_jest_oznaczone_jako_demo():

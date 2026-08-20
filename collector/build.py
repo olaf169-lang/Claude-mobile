@@ -39,6 +39,8 @@ DEFAULT_OUT = Path("web/data")
 FULLTEXT_LIMIT = 4
 #: Powyżej tego podobieństwa uznajemy, że dwa działy mówią o tym samym.
 CROSS_SEGMENT_DUP = 0.6
+#: Ile tematów pokazujemy w każdym dziale.
+PER_SEGMENT = 2
 
 
 # --------------------------------------------------------------------------- #
@@ -121,7 +123,7 @@ def build_segment(
             break
         excluded = excluded | {e.url for e in candidate.entries}
     if cluster is None:
-        log.warning("dział %s: nie udało się wybrać tematu", segment.id)
+        log.debug("dział %s: brak kolejnego tematu", segment.id)
         return None
 
     if session is not None:
@@ -204,16 +206,29 @@ def build_edition(
     missing: list[str] = []
 
     for segment in segments:
-        item = build_segment(
-            segment, fetched, window, session,
-            covers=covers_date, use_llm=use_llm,
-            used_urls=used_urls, taken_signatures=taken_signatures,
-            translator=translator,
-        )
-        if item is None:
+        znalezione = 0
+        for miejsce in range(PER_SEGMENT):
+            item = build_segment(
+                segment, fetched, window, session,
+                covers=covers_date, use_llm=use_llm,
+                used_urls=used_urls, taken_signatures=taken_signatures,
+                translator=translator,
+            )
+            if item is None:
+                break
+            # Drugi temat musi mieć czym wypełnić omówienie. Sam nagłówek
+            # z jednozdaniową zajawką to nie jest karta warta miejsca.
+            if miejsce > 0 and not (item["sekcje"] or item["liczby"]):
+                log.info("dział %s: drugi temat zbyt ubogi, pomijam", segment.id)
+                break
+            item["miejsce"] = miejsce + 1
+            items.append(item)
+            znalezione += 1
+        if znalezione == 0:
             missing.append(segment.id)
-            continue
-        items.append(item)
+        elif znalezione < PER_SEGMENT:
+            log.info("dział %s: tylko %d temat(y) zamiast %d",
+                     segment.id, znalezione, PER_SEGMENT)
 
     return {
         "wersja": VERSION,

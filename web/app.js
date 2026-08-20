@@ -105,7 +105,8 @@
   function renderCard(item, index) {
     const segment = item['dział'] || {};
     const card = el('article', 'card');
-    card.id = `dzial-${segment.id || index}`;
+    const miejsce = item['miejsce'] || 1;
+    card.id = miejsce > 1 ? `dzial-${segment.id}-${miejsce}` : `dzial-${segment.id || index}`;
 
     const head = el('div', 'card__head');
     const seg = el('div', 'card__seg');
@@ -125,6 +126,15 @@
     }
     head.append(seg);
     head.append(el('h2', 'card__title', item['nagłówek'] || ''));
+
+    const emotki = item['emotki'] || [];
+    if (emotki.length) {
+      const rzad = el('div', 'card__emoji');
+      rzad.setAttribute('aria-hidden', 'true');
+      emotki.forEach((e) => rzad.append(el('span', null, e)));
+      head.append(rzad);
+    }
+
     if (item.lead) head.append(el('p', 'card__lead', item.lead));
     card.append(head);
 
@@ -139,13 +149,6 @@
       meta.append(link);
     }
     card.append(meta);
-
-    const numbers = item['liczby'] || [];
-    if (numbers.length) {
-      const row = el('div', 'numbers');
-      numbers.slice(0, 5).forEach((n) => row.append(el('span', 'number', n)));
-      card.append(row);
-    }
 
     const toggle = el('button', 'card__toggle');
     toggle.type = 'button';
@@ -164,6 +167,14 @@
     }
 
     (item['sekcje'] || []).forEach((section) => body.append(renderSection(section)));
+
+    const numbers = item['liczby'] || [];
+    if (numbers.length) {
+      body.append(el('h3', null, 'Liczby'));
+      const row = el('div', 'numbers');
+      numbers.slice(0, 6).forEach((n) => row.append(el('span', 'number', n)));
+      body.append(row);
+    }
 
     const glossary = item['pojęcia'] || [];
     if (glossary.length) {
@@ -246,7 +257,11 @@
     $('edition-kicker').textContent = `Wydanie ${formatDate(edition['wydanie'], { rok: !biezacy })}`
       + ` · newsy z ${formatDate(edition['dotyczy_dnia'], { rok: !biezacy })}`;
 
-    const noteParts = [`${items.length} ${items.length === 1 ? 'dział' : 'działów'}`];
+    const dzialy = new Set(items.map((i) => (i['dział'] || {}).id)).size;
+    const noteParts = [
+      `${dzialy} ${dzialy === 1 ? 'dział' : 'działów'}`,
+      `${items.length} tematów`,
+    ];
     if (edition['tryb'] === 'llm') noteParts.push('omówienia pogłębione');
     if ((edition['braki'] || []).length) noteParts.push(`bez materiału: ${edition['braki'].join(', ')}`);
     const note = $('edition-note');
@@ -255,8 +270,11 @@
 
     const chips = $('chips');
     chips.replaceChildren();
+    const widziane = new Set();
     items.forEach((item, i) => {
       const segment = item['dział'] || {};
+      if (widziane.has(segment.id)) return;   // w dziale bywa kilka kart
+      widziane.add(segment.id);
       const chip = el('a', 'chip', `${segment.emoji || ''} ${segment.nazwa || ''}`.trim());
       chip.href = `#dzial-${segment.id || i}`;
       chips.append(chip);

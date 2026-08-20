@@ -25,8 +25,9 @@ def test_wspolne_pospolite_slowo_nie_scala_roznych_tematow(wpisy):
 
 
 def test_scala_ten_sam_temat_po_polsku_i_angielsku(wpisy, okno):
-    wybrany = pick(wpisy("literatura"), SEGMENTS_BY_ID["literatura"], okno[1])
-    assert {"Booklips", "The Guardian Books"} == set(wybrany.sources)
+    """Ta sama premiera u Filmwebu i Guardiana to jeden temat, nie dwa."""
+    wybrany = pick(wpisy("popkultura"), SEGMENTS_BY_ID["popkultura"], okno[1])
+    assert {"Filmweb", "The Guardian Film"} == set(wybrany.sources)
 
 
 def test_dzial_preferuje_swoj_jezyk(wpisy, okno):

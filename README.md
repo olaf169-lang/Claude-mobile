@@ -8,12 +8,13 @@ czegoś uczy — a nie tylko donosi, że coś się wydarzyło.
 |---|---|
 | <img src="docs/zrzut-glowny.png" width="320" alt="Lista działów w aplikacji"> | <img src="docs/zrzut-omowienie.png" width="320" alt="Rozwinięte omówienie tematu"> |
 
-## Dziesięć działów
+## Dziewięć działów, po dwa tematy
 
 🇵🇱 Polska · 🌍 Świat · 🏅 Sport w Polsce · 🌐 Sport na świecie · 🧪 Technologia i nauka ·
-⚛️ Fizyka · 🔭 Astronomia · 🗺️ Geografia · 📚 Literatura · 🎬 Popkultura
+⚛️ Fizyka · 🔭 Astronomia · 🗺️ Geografia · 🎬 Popkultura
 
-W każdym dziale dokładnie jeden temat dnia — ten, który tego dnia opisało najwięcej niezależnych redakcji.
+W każdym dziale **dwa tematy dnia** — te, które opisało najwięcej niezależnych redakcji.
+Drugi temat pojawia się tylko wtedy, gdy ma czym wypełnić omówienie.
 
 ## Jak to działa
 
@@ -203,7 +204,7 @@ i *brak* łączenia różnych newsów o tym samym polityku), ekstrakcję treści
   bez klucza i bez opłat) — całość albo nic: gdy tłumaczenie się nie powiedzie, karta zostaje
   w oryginale i mówi o tym etykietą „po angielsku". Darmowy limit bez podania kontaktu to ok.
   5000 znaków dziennie i tyle wynosi budżet jednego wydania; własny adres w zmiennej
-  `PRZEGLAD_TLUMACZ_EMAIL` podnosi limit usługi do 50 000 znaków
+  `PRZEGLAD_TLUMACZ_EMAIL` (sekret repozytorium) podnosi limit usługi do 50 000 znaków
 , a całe
   omówienie jest wtedy w jednym języku — nigdy pół na pół. Klucz `ANTHROPIC_API_KEY` znosi ten
   kompromis: model pisze po polsku także z materiału angielskiego, więc o wyborze decyduje sama

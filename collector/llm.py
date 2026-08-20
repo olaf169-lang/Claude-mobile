@@ -50,20 +50,20 @@ SCHEMA: dict[str, Any] = {
         "co_sie_stalo": {
             "type": "array",
             "items": {"type": "string"},
-            "description": "3–5 akapitów opisujących wydarzenie i jego szczegóły.",
+            "description": "5–8 rozbudowanych akapitów: przebieg wydarzenia, liczby, mechanizm, kto za tym stoi i co dokładnie się zmienia.",
         },
         "dlaczego_to_wazne": {
             "type": "string",
-            "description": "Akapit o konsekwencjach i znaczeniu.",
+            "description": "Dwa akapity o konsekwencjach: dla czytelnika w Polsce i szerzej.",
         },
         "kontekst": {
             "type": "string",
-            "description": "Akapit tła: co było wcześniej, jak do tego doszło.",
+            "description": "Dwa–trzy akapity tła: co było wcześniej, jak do tego doszło, jakie są strony sporu lub konkurencyjne wyjaśnienia.",
         },
         "warto_wiedziec": {
             "type": "array",
             "items": {"type": "string"},
-            "description": "2–4 ciekawostki lub fakty poszerzające temat.",
+            "description": "3–5 faktów poszerzających temat, każdy pełnym zdaniem.",
         },
         "liczby": {
             "type": "array",
