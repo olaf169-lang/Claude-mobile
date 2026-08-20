@@ -2,7 +2,7 @@
  "wersja": "1.0.0",
  "wydanie": "2026-08-20",
  "dotyczy_dnia": "2026-08-19",
- "wygenerowano": "2026-08-20T07:40:59+00:00",
+ "wygenerowano": "2026-08-20T09:01:32+00:00",
  "strefa": "Europe/Warsaw",
  "tryb": "ekstrakcyjny",
  "demo": false,
@@ -96,8 +96,6 @@
     "Polski"
    ],
    "emotki": [
-    "🚑",
-    "🏛️",
     "⚖️"
    ],
    "wszystkie_źródła": [
@@ -141,106 +139,109 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "Zmiany w ukraińskim rządzie. Rada Najwyższa zdecydowała, jest nowy minister",
-   "lead": "Zmiany w ukraińskim rządzie przyniosły w środę nominacje Jewhenija Chmary na ministra obrony i Andrija Sybihy na szefa dyplomacji. Pierwszy z nich obejmie stanowisko po zdymisjonowanym Mychajle Fedorowie, którego odejście doprowadziło do fali protestów.",
+   "nagłówek": "Polskie wojsko poderwało myśliwce. „Zmasowany atak” Rosji na Kijów",
+   "lead": "Zgodnie z obowiązującymi procedurami Dowództwo Operacyjne RSZ poprzez Centrum Operacji Powietrznych - Dowództwo Komponentu Powietrznego uruchomiło niezbędne siły i środki pozostające w dyspozycji. Naziemne systemy obrony powietrznej oraz rozpoznania radiolokacyjnego osiągnęły stan gotowości.",
    "język_źródła": "pl",
-   "opublikowano": "2026-08-19T15:38:18+00:00",
+   "opublikowano": "2026-08-20T03:09:00+00:00",
    "źródło": {
-    "nazwa": "Interia Fakty",
-    "url": "https://wydarzenia.interia.pl/zagranica/news-zmiany-w-ukrainskim-rzadzie-rada-najwyzsza-zdecydowala-jest,nId,23531199",
-    "domena": "wydarzenia.interia.pl"
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/fakty/polska/news-polskie-wojsko-poderwalo-mysliwce-zmasowany-atak-rosji-na-ki,nIdn,1014375",
+    "domena": "rmf24.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000N716X2ET0GCDT-C321.webp",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/3b/e7/polska-poderwala-mysliwce-fot-zdj-636x421-3be7a02f.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Sybiha stanie na czele MSZ po raz trzeci.",
-      "Wnioski w sprawie powołania ministrów zgłosił prezydent Wołodymyr Zełenski .",
-      "Za wyborem Jewhenija Chmary na stanowisko szefa resortu obrony opowiedziało się 312 deputowanych .",
-      "Z kolei kandydaturę Andrija Sybihy poparło 266 głosujących .",
-      "Przed głosowaniem Chmara przedstawił w wystąpieniu w parlamencie kluczowe priorytety swojej pracy: przejęcie inicjatywy strategicznej we wszystkich obszarach działań w wojnie z Rosją , terminowe dostawy broni na front oraz przejrzyste procedury zamówień publicznych. - Mamy trzy kluczowe priorytety o równym znaczeniu.",
-      "Są to: front i wzmocnienie sił zbrojnych, ludzie oraz rozwój przemysłu obronnego.",
-      "Chodzi o przejęcie inicjatywy strategicznej we wszystkich obszarach działań wojennych: na lądzie, na morzu, w powietrzu oraz w przestrzeni informacyjnej - powiedział.",
-      "Chmara podkreślił, że potrzeby frontu muszą szybko docierać do ministerstwa, a decyzje ministerstwa - na front.",
-      "Jak zaznaczył, szczególny nacisk należy położyć na uderzenia dalekiego i średniego zasięgu ."
+      "Działania te mają charakter prewencyjny i są ukierunkowane na zabezpieczenie przestrzeni powietrznej i jej ochronę, zwłaszcza w rejonach przyległych do zagrożonych obszarów.",
+      "Dowództwo Operacyjne RSZ monitoruje bieżącą sytuację, a podległe siły i środki pozostają w gotowości do natychmiastowej reakcji.",
+      "Do mieszkańców dwóch województw wysłano alert RCB: „UWAGA!",
+      "Na obszarze zachodniej Ukrainy trwa zmasowany atak powietrzny.",
+      "Śledź komunikaty.” Alert RCB o tej treści został wysłany na teren województwa lubelskiego i podkarpackiego .",
+      "Rosja rozpoczęła w nocy „masowy atak” na Kijów pociskami batalistycznymi, zabijając co najmniej 12 osób i raniąc 34 .",
+      "Według Państwowej Służby Ratunkowej Ukrainy (DSNS) celem „zmasowanego ataku” były bloki mieszkalne i magazyny.",
+      "Ratownicy prowadzą działania w miejscach, gdzie mogą znajdować się osoby uwięzione pod gruzami.",
+      "Jak dotąd udało się wydobyć spod zawalonego budynku jednego ocalałego."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Wybory parlamentarne powinny odbyć się w Ukrainie w 2023 roku, a prezydenckie w 2024 roku, ale tak się nie stało z uwagi na obowiązujący stan wojenny.",
-      "Zdaniem byłego ministra obrony Ukrainy, Mychajła Fedorowa, wybory powinny odbyć się nawet podczas wojny, a Rosja nie może decydować o tym, kiedy Ukraińcy będą mogli wybrać swoje władze. - Demokracja nie może być zakładnikiem Rosji. (...) Musimy znaleźć legalny, bezpieczny i realistyczny mechanizm, który pozwoli Ukrainie przywrócić pełny proces demokratyczny nawet w warunkach długotrwałej wojny - powiedział Fedorow w wystąpieniu opublikowanym we wtorkową noc na platformie YouTube .",
-      "Fedorow podkreślił, że aby przeprowadzić wybory, należy zagwarantować prawo do głosowania wojskowym, milionom Ukraińców przebywających za granicą oraz mieszkańcom regionów przyfrontowych.",
-      "Trzeba też zapewnić bezpieczeństwo procesu wyborczego , niezależność instytucji i zaufanie do wyników głosowania, co jego zdaniem \"jest trudne\", ale nie niemożliwe. - Trudność nie oznacza niemożliwości."
+      "Polskie wojsko poderwało myśliwce w związku z nocnymi zmasowanymi atakami Rosji na terytorium Ukrainy - przekazało Dowództwo Operacyjne Rodzajów Sił Zbrojnych.",
+      "\"W związku z aktywnością lotnictwa dalekiego zasięgu Federacji Rosyjskiej, wykonującego uderzenia na terytorium Ukrainy, rozpoczęło się operowanie lotnictwa wojskowego w polskiej przestrzeni powietrznej\" - przekazano w komunikacie DORSZ, opublikowanym chwilę po godz."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Rada Najwyższa ZSRR – najwyższy organ władzy ustawodawczej ZSRR, a w latach 1939–1991, najwyższa władza ustawodawcza w okresach pomiędzy sesjami Zjazdu Rad. Do 1936 jej funkcje pełnił Ogólnorosyjski Centralny Komitet Wykonawczy Rad."
+      "Inwazja Rosji na Ukrainę, wojna rosyjsko-ukraińska – inwazja na Ukrainę rozpoczęta 24 lutego 2022 roku przez Rosję, stanowiąca eskalację wojny trwającej od 2014 roku. Została poprzedzona rosyjskimi żądaniami wykluczenia możliwości dalszego poszerzania NATO i redukcji potencjału militarnego sojuszu w Europie Środkowo-Wschodniej do stanu sprzed 1997 roku."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Rada Najwyższa ZSRR",
-     "url": "https://pl.wikipedia.org/wiki/Rada_Najwy%C5%BCsza_ZSRR"
+     "przypis": "Wikipedia: Inwazja Rosji na Ukrainę",
+     "url": "https://pl.wikipedia.org/wiki/Inwazja_Rosji_na_Ukrain%C4%99"
     }
    ],
-   "dlaczego_to_ważne": "Za priorytet i największą wartość Chmara uznał kapitał ludzki oraz życie i zdrowie żołnierzy. - Technologie są potrzebne, aby ukraiński obrońca miał przewagę, a ryzyko dla człowieka było ograniczone do minimum.",
+   "dlaczego_to_ważne": "",
    "liczby": [
-    "312",
-    "266",
-    "14",
-    "16",
-    "17",
-    "20"
+    "12",
+    "34",
+    "30",
+    "31",
+    "33"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Polsat News",
+     "ujęcie": "Nad ranem poinformowano, że operowanie wojskowego lotnictwa zostało zakończone.",
+     "url": "https://www.polsatnews.pl/wiadomosc/2026-08-20/nocny-atak-rosji-na-ukraine-polska-poderwala-mysliwce-wyslano-alerty-rcb/"
+    }
+   ],
    "pojęcia": [],
    "tło": {
-    "hasło": "Rada Najwyższa ZSRR",
-    "opis": "organ legislacyjny",
-    "tekst": "Rada Najwyższa ZSRR – najwyższy organ władzy ustawodawczej ZSRR, a w latach 1939–1991, najwyższa władza ustawodawcza w okresach pomiędzy sesjami Zjazdu Rad. Do 1936 jej funkcje pełnił Ogólnorosyjski Centralny Komitet Wykonawczy Rad.",
-    "url": "https://pl.wikipedia.org/wiki/Rada_Najwy%C5%BCsza_ZSRR",
+    "hasło": "Inwazja Rosji na Ukrainę",
+    "opis": "inwazja na Ukrainę rozpoczęta 24 lutego 2022 roku przez Federację Rosyjską",
+    "tekst": "Inwazja Rosji na Ukrainę, wojna rosyjsko-ukraińska – inwazja na Ukrainę rozpoczęta 24 lutego 2022 roku przez Rosję, stanowiąca eskalację wojny trwającej od 2014 roku. Została poprzedzona rosyjskimi żądaniami wykluczenia możliwości dalszego poszerzania NATO i redukcji potencjału militarnego sojuszu w Europie Środkowo-Wschodniej do stanu sprzed 1997 roku.",
+    "url": "https://pl.wikipedia.org/wiki/Inwazja_Rosji_na_Ukrain%C4%99",
     "język": "pl"
    },
    "tagi": [
-    "Ukrainy",
-    "Jewhenija Chmary",
-    "Julii Swyrydenko",
-    "Andrija Sybihy"
+    "Centrum Operacji Powietrznych Dowództwo Komponentu Powietrznego",
+    "Państwowej Służby Ratunkowej Ukrainy",
+    "Kijowa Witalij Kliczko",
+    "Dowództwo Operacyjne"
    ],
    "emotki": [
-    "🌊",
     "⚔️",
-    "🏛️"
+    "🚀",
+    "🗺️"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Interia Fakty",
-     "tytuł": "Zmiany w ukraińskim rządzie. Rada Najwyższa zdecydowała, jest nowy minister",
-     "url": "https://wydarzenia.interia.pl/zagranica/news-zmiany-w-ukrainskim-rzadzie-rada-najwyzsza-zdecydowala-jest,nId,23531199"
+     "nazwa": "RMF24",
+     "tytuł": "Polskie wojsko poderwało myśliwce. „Zmasowany atak” Rosji na Kijów",
+     "url": "https://www.rmf24.pl/fakty/polska/news-polskie-wojsko-poderwalo-mysliwce-zmasowany-atak-rosji-na-ki,nIdn,1014375"
     },
     {
-     "nazwa": "Gazeta.pl",
-     "tytuł": "Zdymisjonowany minister obrony wzywa do wyborów w Ukrainie. \"Systemowy kryzys zarządzania\"",
-     "url": "https://wiadomosci.gazeta.pl/polityka/7,198013,32976961,zdymisjonowany-minister-obrony-wzywa-do-wyborow-w-ukrainie.html"
+     "nazwa": "Polsat News",
+     "tytuł": "Nocny atak Rosji na Ukrainę. Polska poderwała myśliwce, wysłano alerty RCB",
+     "url": "https://www.polsatnews.pl/wiadomosc/2026-08-20/nocny-atak-rosji-na-ukraine-polska-poderwala-mysliwce-wyslano-alerty-rcb/"
     }
    ],
    "liczba_źródeł": 2,
-   "czas_czytania_min": 2,
+   "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.419,
+    "wynik": 5.54,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.15,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.45,
-     "treściwość": 0.369,
+     "ranga_źródła": 1.307,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.594,
+     "treściwość": 0.429,
      "język_działu": 0.5
     }
    },
@@ -253,79 +254,102 @@
     "emoji": "🌍",
     "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
    },
-   "nagłówek": "Trump ogłasza decyzję ws. Kanady. Wspomniał „Śpiącego Joe Bidena”",
-   "lead": "„Wstrzymałem 50-procentowe cła na Kanadę, które miały wejść w życie jutro rano na okres trzech dni, ponieważ Kanada i USA - pod warunkiem sfinalizowania dokumentów - ZAWARŁY POROZUMIENIE! Wielki rurociąg Keystone XL, dawno temu pogrzebany przez Śpiącego Joe Bidena, może zostać wskrzeszony!” - napisał Trump w swoim…",
+   "nagłówek": "\"Dobrze się dogadujemy\". Trump zapowiada spotkanie z dyktatorem",
+   "lead": "Donald Trump poinformował, że zamierza spotkać się z przywódcą Korei Północnej Kim Dzong Unem. Amerykański prezydent przekazał, że świetnie dogaduje się dyktatorem oraz zaznaczył swoją wiedzę o arsenale jądrowym Korei Płn., podając dokładną liczbę głowic, jakimi rzekomo dysponuje Pjongjang.",
    "język_źródła": "pl",
-   "opublikowano": "2026-08-19T04:18:00+00:00",
+   "opublikowano": "2026-08-19T17:32:00+00:00",
    "źródło": {
-    "nazwa": "RMF24 Świat",
-    "url": "https://www.rmf24.pl/fakty/swiat/news-trump-oglasza-decyzje-ws-kanady-wspomnial-spiacego-joe-biden,nIdn,1014213",
-    "domena": "rmf24.pl"
+    "nazwa": "Polsat News Świat",
+    "url": "https://www.polsatnews.pl/wiadomosc/2026-08-19/dobrze-sie-dogadujemy-trump-zapowiada-spotkanie-z-dyktatorem/",
+    "domena": "polsatnews.pl"
    },
-   "obraz": "https://rmf.rmffm.pl/news/attachments/b6/02/prezydent-usa-donald-trump-fot-636x421-b602c721.jpg",
+   "obraz": "https://ipla.pluscdn.pl/dituel/cp/j5/j5yh74z23wcycn8b3gowagzidhxjsmb5.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Wcześniej tego dnia prezydent USA rozmawiał na temat ceł z premierem Kanady Markiem Carneyem.",
-      "Trump zapowiedział 20 lipca, że od 19 sierpnia zaczną obowiązywać 50-procentowe cła na niektóre towary z Kanady: od wina, przez kije hokejowe, po cement.",
-      "W uzasadnieniu decyzji Biały Dom napisał, że Ottawa dyskryminuje amerykańskie produkty (przemysł motoryzacyjny, mleczarski i alkoholowy).",
-      "Chodziło m.in. o zasady kwotowego zarządzania produkcją mleczną w Kanadzie oraz wstrzymanie importu amerykańskich alkoholi i win, które w ub.r. wprowadziły kanadyjskie prowincje.",
-      "Jak napisał dziennik „Wall Street Journal”, cła, które miały objąć 5 proc. kanadyjskiego eksportu do USA, mogły doprowadzić do większego konfliktu handlowego.",
-      "Zapowiadając taryfy, Trump powołał się na zapisy ustawy z 1930 r., która pozwala na nałożenie ich w wysokości do 50 proc. bez zgody Kongresu, jeśli stwierdzono, że dany kraj dyskryminuje towary z USA.",
-      "Podkreślał wówczas, że nie wyklucza też podjęcia działań odwetowych.",
-      "Rurociąg Keystone XL , o którym prezydent USA napisał we wtorek wieczorem, miał transportować kanadyjską ropę do amerykańskich rafinerii.",
-      "Pierwsza administracja Trumpa dała zielone światło na realizację tego projektu."
+      "Wcześniej Trump zdecydował o ograniczeniu zakresu wspólnych ćwiczeń wojskowych z Koreą Południową.",
+      "Prezydent USA ogłosił swoje plany po tym, jak w niedzielę ograniczony został zakres wspólnych ćwiczeń wojskowych USA i Korei Południowej.",
+      "ZOBACZ: Strzały na granicy koreańskiej.",
+      "Żołnierze z Północy naruszyli linię demarkacyjną - Znam Kim Dzong Una bardzo dobrze, nic mu nie będzie tak długo, jak mamy inteligentnego prezydenta (…) To, że dobrze się dogadujemy, to dobra rzecz, a nie zła - powiedział Donald Trump dziennikarzom.",
+      "Donald Trump zdecydował się także na niecodzienną wzmiankę dotyczącą arsenału nuklearnego Korei Północnej.",
+      "Ale je ma - wyjawił prezydent USA, podczas gdy wielkość arsenału nuklearnego należy do jednej z najpilniej strzeżonych tajemnic reżimu Kim Dzong Una.",
+      "50-procentowych ceł na Kanadę.",
+      "Donald Trump ogłosił decyzję w ostatniej chwili Biały Dom dotąd nie podał, kiedy mogłoby dojść do spotkania.",
+      "\"The Wall Street Journal\" ustalił, że organizacja rozmów byłaby możliwa podczas szczytu Współpracy Gospodarczej Azji i Pacyfiku (APEC), który rozpocznie się 18 listopada ."
      ]
     },
     {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
      "treść": [
-      "Prezydent USA Donald Trump powiedział, że wstrzymał wprowadzenie ceł na niektóre kanadyjskie towary, ponieważ sądzi, że porozumienie z premierem Kanady Markiem Carneyem zostało osiągnięte."
-     ]
+      "Kim Dzong Il – Przywódca Korei Północnej w latach 1994–2011. Był następcą swego ojca i założyciela KRLD, Kim Ir Sena po jego śmierci w 1994 roku. Był również sekretarzem generalnym Partii Pracy Korei, przewodniczącym Narodowej Komisji Obrony, a także marszałkiem i dowódcą Koreańskiej Armii Ludowej."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Kim Dzong Il",
+     "url": "https://pl.wikipedia.org/wiki/Kim_Dzong_Il"
     }
    ],
-   "dlaczego_to_ważne": "Trump zagroził nałożeniem ceł, jeśli Waszyngton i Ottawa nie osiągną porozumienia, Carney zadeklarował, że Kanada jest gotowa do rozmów, ale będzie wspierać i chronić swoją gospodarkę.",
+   "dlaczego_to_ważne": "Prezydent USA podał dokładną liczbę głowic jądrowych , jaką w jego ocenie dysponuje Pjongjang. - Ma 57 bardzo potężnych broni jądrowych. (…) Nigdy nie powinniśmy na to pozwolić.",
    "liczby": [
-    "50",
-    "20",
-    "19",
-    "5 proc.",
     "57",
-    "40"
+    "50",
+    "18",
+    "60",
+    "40",
+    "20"
    ],
    "inne_spojrzenia": [
     {
+     "źródło": "Polsat News Świat",
+     "ujęcie": "Donald Trump ogłosił najbardziej dotkliwą operację gospodarczą, jaką kiedykolwiek przeprowadzono przeciwko Iranowi.",
+     "url": "https://www.polsatnews.pl/wiadomosc/2026-08-20/trump-grozi-iranowi-zapowiada-izolacje-gospodarcza-na-niespotykana-skale/"
+    },
+    {
      "źródło": "Onet Świat",
-     "ujęcie": "Ocenił, że umowa będzie dobra dla wszystkich.",
-     "url": "https://wiadomosci.onet.pl/swiat/donald-trump-wstrzymal-cla-dla-kanady-dobra-decyzja-dla-wszystkich/g4jgb7r"
+     "ujęcie": "Prezydent USA Donald Trump ogłosił wojnę gospodarczą przeciwko Iranowi.",
+     "url": "https://wiadomosci.onet.pl/swiat/nowy-sposob-wojny-trumpa-w-iranie-chce-pelnej-izolacji-gospodarczej/nl7j7p5"
     }
    ],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Kim Dzong Il",
+    "opis": "przywódca Korei Północnej",
+    "tekst": "Kim Dzong Il – Przywódca Korei Północnej w latach 1994–2011. Był następcą swego ojca i założyciela KRLD, Kim Ir Sena po jego śmierci w 1994 roku. Był również sekretarzem generalnym Partii Pracy Korei, przewodniczącym Narodowej Komisji Obrony, a także marszałkiem i dowódcą Koreańskiej Armii Ludowej.",
+    "url": "https://pl.wikipedia.org/wiki/Kim_Dzong_Il",
+    "język": "pl"
+   },
    "tagi": [
+    "Trump",
     "USA",
-    "Keystone",
-    "Kanada",
-    "Ottawa"
+    "Donald Trump",
+    "Korei Północnej Kim Dzong Unem"
    ],
    "emotki": [
     "🏛️",
-    "🤝",
-    "🛒"
+    "⚔️"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "RMF24 Świat",
-     "tytuł": "Trump ogłasza decyzję ws. Kanady. Wspomniał „Śpiącego Joe Bidena”",
-     "url": "https://www.rmf24.pl/fakty/swiat/news-trump-oglasza-decyzje-ws-kanady-wspomnial-spiacego-joe-biden,nIdn,1014213"
+     "nazwa": "Polsat News Świat",
+     "tytuł": "\"Dobrze się dogadujemy\". Trump zapowiada spotkanie z dyktatorem",
+     "url": "https://www.polsatnews.pl/wiadomosc/2026-08-19/dobrze-sie-dogadujemy-trump-zapowiada-spotkanie-z-dyktatorem/"
+    },
+    {
+     "nazwa": "Polsat News Świat",
+     "tytuł": "Trump grozi Iranowi. Zapowiada izolację gospodarczą \"na niespotykaną skalę\"",
+     "url": "https://www.polsatnews.pl/wiadomosc/2026-08-20/trump-grozi-iranowi-zapowiada-izolacje-gospodarcza-na-niespotykana-skale/"
     },
     {
      "nazwa": "Onet Świat",
-     "tytuł": "Donald Trump wstrzymał cła dla Kanady. \"Dobra decyzja dla wszystkich\"",
-     "url": "https://wiadomosci.onet.pl/swiat/donald-trump-wstrzymal-cla-dla-kanady-dobra-decyzja-dla-wszystkich/g4jgb7r"
+     "tytuł": "Donald Trump ogłasza pełną izolację Iranu. Zwrócił się do sojuszników",
+     "url": "https://wiadomosci.onet.pl/swiat/nowy-sposob-wojny-trumpa-w-iranie-chce-pelnej-izolacji-gospodarczej/nl7j7p5"
+    },
+    {
+     "nazwa": "BBC News",
+     "tytuł": "Trump vows tougher economic measures on Iran and supporting countries",
+     "url": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss"
     },
     {
      "nazwa": "The Guardian",
@@ -348,19 +372,9 @@
      "url": "https://www.theguardian.com/world/2026/aug/19/activist-forced-out-of-us-after-criticising-trump-aligned-colombian-politician"
     },
     {
-     "nazwa": "BBC Business",
-     "tytuł": "Trump pauses new tariffs on Canada for three days, saying deal close",
-     "url": "https://www.bbc.co.uk/news/articles/cy9wz79ze29o?at_medium=RSS&at_campaign=rss"
-    },
-    {
      "nazwa": "Politico Europe",
-     "tytuł": "Trump says he will meet with North Korea’s Kim Jong Un",
-     "url": "https://www.politico.com/news/2026/08/19/trump-says-he-will-meet-with-north-koreas-kim-jong-un-01041655"
-    },
-    {
-     "nazwa": "Politico Europe",
-     "tytuł": "Trump backed down from 50 percent tariffs on Canada. It’s not a TACO.",
-     "url": "https://www.politico.com/news/2026/08/19/trump-backed-down-from-50-percent-tariffs-on-canada-its-not-a-taco-01042377"
+     "tytuł": "Trump’s snub of South Korea sends region scrambling",
+     "url": "https://www.politico.com/news/2026/08/19/trump-south-korea-snub-region-scrambling-01042987"
     },
     {
      "nazwa": "Deutsche Welle",
@@ -369,26 +383,26 @@
     },
     {
      "nazwa": "Al Jazeera",
-     "tytuł": "US national debt passes record $40 trillion",
-     "url": "https://www.aljazeera.com/economy/2026/8/19/us-national-debt-passes-record-40-trillion?traffic_source=rss"
+     "tytuł": "Alarm in South Korea as Iran dispute with Trump shakes a 72-year alliance",
+     "url": "https://www.aljazeera.com/news/2026/8/20/alarm-in-south-korea-as-iran-dispute-with-trump-shakes-a-72-year-alliance?traffic_source=rss"
     },
     {
      "nazwa": "Al Jazeera",
-     "tytuł": "Trump says he plans to meet Kim Jong Un later this year",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/i-get-along-with-him-very-well?traffic_source=rss"
+     "tytuł": "Iran war live: Tehran says Trump’s ‘economic warfare’ will fail",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/8/20/iran-war-live-trump-announces-most-crushing-iran-sanctions?traffic_source=rss"
     }
    ],
    "liczba_źródeł": 7,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 18.115,
+    "wynik": 19.538,
     "składowe": {
      "potwierdzenia": 11.4,
-     "ranga_źródła": 3.022,
-     "eksponowanie": 0.72,
+     "ranga_źródła": 3.158,
+     "eksponowanie": 1.98,
      "słowa_kluczowe": 1.4,
-     "świeżość": 0.573,
+     "świeżość": 0.6,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -402,87 +416,102 @@
     "emoji": "🌍",
     "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
    },
-   "nagłówek": "Donald Trump ogłasza pełną izolację Iranu. Zwrócił się do sojuszników",
-   "lead": "Prezydent USA Donald Trump ogłosił wojnę gospodarczą przeciwko Iranowi. Zapowiedział, że każdy kraj, który pozwala na pomaganie Teheranowi, poniesie \"ogromne\" konsekwencje gospodarcze.",
+   "nagłówek": "Nagły zwrot ws. 50-procentowych ceł na Kanadę. Donald Trump ogłosił decyzję w ostatniej chwili",
+   "lead": "\"Wstrzymałem 50-procentowe cła na Kanadę, które miały wejść w życie jutro rano na okres trzech dni, ponieważ Kanada i USA - pod warunkiem sfinalizowania dokumentów - ZAWARŁY POROZUMIENIE!\" - ogłosił we wtorek wieczorem prezydent USA Donald Trump. Taryfy miały zacząć obowiązywać od środy.",
    "język_źródła": "pl",
-   "opublikowano": "2026-08-20T02:26:58+00:00",
+   "opublikowano": "2026-08-19T04:26:00+00:00",
    "źródło": {
-    "nazwa": "Onet Świat",
-    "url": "https://wiadomosci.onet.pl/swiat/nowy-sposob-wojny-trumpa-w-iranie-chce-pelnej-izolacji-gospodarczej/nl7j7p5",
-    "domena": "wiadomosci.onet.pl"
+    "nazwa": "Polsat News Świat",
+    "url": "https://www.polsatnews.pl/wiadomosc/2026-08-19/nagly-zwrot-ws-50-procentowych-cel-na-kanade-donald-trump-oglasil-decyzje-w-ostatniej-chwili/",
+    "domena": "polsatnews.pl"
    },
-   "obraz": "https://cdn.wiadomosci.onet.pl/1/K6mk9l0aHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMtdHJhbnNmb3Jtcy8xL0Z2WWt0a3BUVVJCWHk5aE1URTNabUV4TURRME1EVXpPVGcyTWpSaVkyWmtaVEF4TnpKbE9ESTJaaTVxY0dlUmxRTUF6UUZielJvQXpRNmeRkwXNCWDNBkDeAAKhMAehMQQ",
+   "obraz": "https://ipla.pluscdn.pl/dituel/cp/vj/vj36t8ydqkkogf4853vz75vd1grujnin.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Wezwał sojuszników, by dołączyli do USA w izolacji Teheranu."
+      "Wielki rurociąg Keystone XL, dawno temu pogrzebany przez Śpiącego Joe Bidena, może zostać wskrzeszony!\" - napisał Donald Trump w swoim serwisie Truth Social.",
+      "Wcześniej tego dnia prezydent USA rozmawiał na temat ceł z premierem Kanady Markiem Carneyem .",
+      "Trump zapowiedział 20 lipca, że od 19 sierpnia zaczną obowiązywać 50-procentowe cła na niektóre towary z Kanady : od wina, przez kije hokejowe, po cement.",
+      "W uzasadnieniu decyzji Biały Dom napisał, że Ottawa dyskryminuje amerykańskie produkty (przemysł motoryzacyjny, mleczarski i alkoholowy).",
+      "Chodziło m.in. o zasady kwotowego zarządzania produkcją mleczną w Kanadzie oraz wstrzymanie importu amerykańskich alkoholi i win, które w ubiegłym roku wprowadziły kanadyjskie prowincje.",
+      "Jak napisał dziennik \"Wall Street Journal\", cła, które miały objąć 5 proc. kanadyjskiego eksportu do USA , mogły doprowadzić do większego konfliktu handlowego.",
+      "ZOBACZ: USA nakładają nowe cła na 60 krajów.",
+      "Sprytny manewr administracji Trumpa Zapowiadając taryfy Trump powołał się na zapisy ustawy z 1930 r., która pozwala na nałożenie ich w wysokości do 50 proc. bez zgody Kongresu, jeśli stwierdzono, że dany kraj dyskryminuje towary z USA .",
+      "Podkreślał wówczas, że nie wyklucza też podjęcia działań odwetowych ."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Prezydent USA Donald Trump powiedział, że wstrzymał wprowadzenie ceł na niektóre kanadyjskie towary, ponieważ sądzi, że porozumienie z premierem Kanady Markiem Carneyem zostało osiągnięte."
      ]
     }
    ],
-   "dlaczego_to_ważne": "",
+   "dlaczego_to_ważne": "Kiedy w lipcu Trump zagroził nałożeniem ceł, jeśli Waszyngton i Ottawa nie osiągną porozumienia, Carney zadeklarował, że Kanada jest gotowa do rozmów, ale będzie wspierać i chronić swoją gospodarkę .",
    "liczby": [
+    "50",
+    "20",
+    "19",
+    "5 proc.",
     "60"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Onet Świat",
+     "ujęcie": "Ocenił, że umowa będzie dobra dla wszystkich.",
+     "url": "https://wiadomosci.onet.pl/swiat/donald-trump-wstrzymal-cla-dla-kanady-dobra-decyzja-dla-wszystkich/g4jgb7r"
+    }
+   ],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Prezydent USA Donald Trump",
-    "Teheranowi",
-    "Teheranu",
-    "Iranowi"
+    "USA",
+    "Kanadę",
+    "Kanada",
+    "Trump"
    ],
    "emotki": [
-    "⚔️",
     "🏛️",
-    "🤝"
+    "🤝",
+    "🛒"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Onet Świat",
-     "tytuł": "Donald Trump ogłasza pełną izolację Iranu. Zwrócił się do sojuszników",
-     "url": "https://wiadomosci.onet.pl/swiat/nowy-sposob-wojny-trumpa-w-iranie-chce-pelnej-izolacji-gospodarczej/nl7j7p5"
+     "nazwa": "Polsat News Świat",
+     "tytuł": "Nagły zwrot ws. 50-procentowych ceł na Kanadę. Donald Trump ogłosił decyzję w ostatniej chwili",
+     "url": "https://www.polsatnews.pl/wiadomosc/2026-08-19/nagly-zwrot-ws-50-procentowych-cel-na-kanade-donald-trump-oglasil-decyzje-w-ostatniej-chwili/"
     },
     {
-     "nazwa": "BBC News",
-     "tytuł": "Trump vows tougher economic measures on Iran and supporting countries",
-     "url": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss"
+     "nazwa": "Onet Świat",
+     "tytuł": "Donald Trump wstrzymał cła dla Kanady. \"Dobra decyzja dla wszystkich\"",
+     "url": "https://wiadomosci.onet.pl/swiat/donald-trump-wstrzymal-cla-dla-kanady-dobra-decyzja-dla-wszystkich/g4jgb7r"
+    },
+    {
+     "nazwa": "BBC Business",
+     "tytuł": "Trump pauses new tariffs on Canada for three days, saying deal close",
+     "url": "https://www.bbc.co.uk/news/articles/cy9wz79ze29o?at_medium=RSS&at_campaign=rss"
     },
     {
      "nazwa": "Politico Europe",
-     "tytuł": "Trump’s snub of South Korea sends region scrambling",
-     "url": "https://www.politico.com/news/2026/08/19/trump-south-korea-snub-region-scrambling-01042987"
-    },
-    {
-     "nazwa": "Al Jazeera",
-     "tytuł": "Trump announces ‘most crushing economic operation ever’ against Iran",
-     "url": "https://www.aljazeera.com/news/2026/8/19/trump-announces-most-crushing-economic-operation-ever-against-iran?traffic_source=rss"
-    },
-    {
-     "nazwa": "Al Jazeera",
-     "tytuł": "Alarm in South Korea as Iran dispute with Trump shakes a 72-year alliance",
-     "url": "https://www.aljazeera.com/news/2026/8/20/alarm-in-south-korea-as-iran-dispute-with-trump-shakes-a-72-year-alliance?traffic_source=rss"
-    },
-    {
-     "nazwa": "Al Jazeera",
-     "tytuł": "Iran war live: Trump announces ‘most crushing’ Iran sanctions",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/8/20/iran-war-live-trump-announces-most-crushing-iran-sanctions?traffic_source=rss"
+     "tytuł": "Trump backed down from 50 percent tariffs on Canada. It’s not a TACO.",
+     "url": "https://www.politico.com/news/2026/08/19/trump-backed-down-from-50-percent-tariffs-on-canada-its-not-a-taco-01042377"
     }
    ],
    "liczba_źródeł": 4,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 10.846,
+    "wynik": 10.369,
     "składowe": {
      "potwierdzenia": 5.7,
-     "ranga_źródła": 2.138,
-     "eksponowanie": 1.26,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.592,
-     "treściwość": 0.306,
+     "ranga_źródła": 1.615,
+     "eksponowanie": 0.27,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.527,
+     "treściwość": 0.357,
      "język_działu": 0.5
     }
    },
@@ -495,86 +524,135 @@
     "emoji": "🏅",
     "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
    },
-   "nagłówek": "Szczęście Świątek, wielki pech Rybakiny. Polka poznała rywalkę po północy",
-   "lead": "Skoro organizatorzy Cincinnati Open wiedzieli, że w czwartek muszą zostać rozegrane ćwierćfinale w dolnej części drabinki, czyli tej z udziałem Igi Świątek, a na środę zaplanowane zostały wszystkie mecze 1/8 finału, to zawodniczki z potencjalnych par w tym następnym etapie powinny grać jednocześnie. W Lindner Family…",
+   "nagłówek": "Lewandowski znów bohaterem Chicago. Kolejny gol na wagę trzech punktów",
+   "lead": "Chicago Fire z Robertem Lewandowskim na pokładzie po kiepskim początku wyraźnie łapie wiatr w żagle. Drużyna prowadzona przez Gregga Berhaltera przegrała dwa pierwsze spotkania po przerwie na mundial.",
    "język_źródła": "pl",
-   "opublikowano": "2026-08-19T22:19:21+00:00",
+   "opublikowano": "2026-08-20T03:09:34+00:00",
    "źródło": {
     "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/tenis/news-szczescie-swiatek-wielki-pech-rybakiny-po-polnocy-polka-pozn,nId,23531288",
+    "url": "https://sport.interia.pl/robert-lewandowski/news-lewandowski-znow-uratowal-chicago-gol-polaka-przedluza-zwyci,nId,23531304",
     "domena": "sport.interia.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000N72IHIVUMMBL6-C321.webp",
+   "obraz": "https://i.iplsc.com/-/000N72NXWBUFKK4W-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Sęk w tym, że żaden z tych kortów nie jest zadaszony - każdy opad powoduje przerwanie spotkania.",
-      "Mecz Igi Świątek z DIane Parry został ustawiony jako pierwszy na Grandstandzie, czyli drugim co do wielkości stadionie.",
-      "Polka gładko wygrała 6:3, 6:3 , po niej wyszła Jessica Pegula - rywalizowała z Soraną Cirsteą.",
-      "Mniej więcej o tej samej porze zaczęło się hitowe starcie Mirry Andriejewej i Marty Kostiuk , zakończone triumfem Ukrainki.",
-      "To o tyle dziwne, że obie są w górnej części drabinki i kolejny mecz zagrają w piątek.",
-      "A dopiero jako trzeci na Tony Trabert Stadium zaplanowano pojedynek Rybakiny i Sznajder , a przecież jedna z nich ma wystąpić już następnego dnia - przeciwko Świątek.",
-      "Można to tłumaczyć późniejszą, jeszcze w środę, grą deblową Kostiuk, niemniej potencjalna rywalka Polki musiała się liczyć z tym, że dostanie sporo mniej czasu na regenerację.",
-      "Tym bardziej, że wcześniejszy mecz ATP Tirante - Mensik był długi, trzysetowy.",
-      "A gdy panowie skończyli, zaczęło padać."
+      "Sierpień układa się dla \"Strażaków\" wręcz fenomenalnie.",
+      "Zespół Polaka wygrał wszystkie pięć spotkań , a sam Lewandowski ma na koncie trzy trafienia.",
+      "Kolejnym rywalem trzeciej drużyny konferencji wschodniej MLS jest Orlando City .",
+      "Kibice tego zespołu w ostatnim czasie przeżywali podobne emocje co ich obecni przeciwnicy.",
+      "Zespół z Florydy również postanowił sięgnąć po napastnika światowej klasy.",
+      "Wybór ostatecznie padł na Antoine'a Griezmanna - francuskiego mistrza świata z 2018 roku.",
+      "Póki co wieloletni snajper Atletico Madryt minimalnie przegrywał korespondencyjny pojedynek z Lewandowskim.",
+      "Szkoleniowiec zespołu z Chicago zaskoczył tuż przed rozpoczęciem spotkania.",
+      "Tuż obok Lewandowskiego w wyjściowym składzie gości znalazło się miejsce również dla drugiego Polaka - Davida Poreby ."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Początek o godzinie 21:00.",
+      "Ani Hapoel Beer Szewa, ani Sabah Baku nigdy wcześniej nie wystąpiły w fazie głównej najważniejszego i najbardziej prestiżowego europejskiego pucharu - Ligi Mistrzów.",
+      "Orlando City - Chicago Fire to spotkanie 20. kolejki MLS."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Jelena Andriejewna Rybakina, ros. Елена Андреевна Рыбакина – kazachska tenisistka narodowości rosyjskiej, do czerwca 2018 roku reprezentująca Rosję, zwyciężczyni Wimbledonu 2022, Australian Open 2026 i WTA Finals 2025 oraz finalistka Australian Open 2023 w grze pojedynczej kobiet."
+      "Robert Lewandowski – polski piłkarz, występujący na pozycji środkowego napastnika w amerykańskim klubie Chicago Fire. Od 2008 reprezentant Polski, w latach 2014–2025 i ponownie od 2025 kapitan reprezentacji Polski."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Jelena Rybakina",
-     "url": "https://pl.wikipedia.org/wiki/Jelena_Rybakina"
+     "przypis": "Wikipedia: Robert Lewandowski",
+     "url": "https://pl.wikipedia.org/wiki/Robert_Lewandowski"
     }
    ],
-   "dlaczego_to_ważne": "",
+   "dlaczego_to_ważne": "Tej nocy po raz pierwszy spotkali się za oceanem, co osoby odpowiadające za marketing w MLS z wielką ochotą wykorzystywali przed pierwszym gwizdkiem.",
    "liczby": [
-    "3, 6",
-    "4,5 godziny",
-    "84 procent",
-    "4, 6"
+    "23",
+    "31",
+    "37",
+    "10",
+    "52",
+    "66"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Sport",
+     "ujęcie": "W swoim ósmym spotkaniu w barwach Chicago Fire Robert Lewandowski zmierzy się z napastnikiem światowej sławy.",
+     "url": "https://sport.interia.pl/robert-lewandowski/news-trener-zdecydowal-ws-lewandowskiego-z-usa-nadszedl-oficjalny,nId,23531276"
+    },
+    {
+     "źródło": "Polsat Sport",
+     "ujęcie": "Hapoel Beer Szewa - Sabah Baku to pierwsze spotkanie rundy play-off eliminacji Ligi Mistrzów.",
+     "url": "https://www.polsatsport.pl/wiadomosc/2026-08-19/el-ligi-mistrzow-hapoel-beer-szewa-sabah-baku-relacja-live-i-wynik-na-zywo/"
+    }
+   ],
    "pojęcia": [],
    "tło": {
-    "hasło": "Jelena Rybakina",
-    "opis": "kazachska tenisistka narodowości rosyjskiej",
-    "tekst": "Jelena Andriejewna Rybakina, ros. Елена Андреевна Рыбакина – kazachska tenisistka narodowości rosyjskiej, do czerwca 2018 roku reprezentująca Rosję, zwyciężczyni Wimbledonu 2022, Australian Open 2026 i WTA Finals 2025 oraz finalistka Australian Open 2023 w grze pojedynczej kobiet.",
-    "url": "https://pl.wikipedia.org/wiki/Jelena_Rybakina",
+    "hasło": "Robert Lewandowski",
+    "opis": "polski piłkarz",
+    "tekst": "Robert Lewandowski – polski piłkarz, występujący na pozycji środkowego napastnika w amerykańskim klubie Chicago Fire. Od 2008 reprezentant Polski, w latach 2014–2025 i ponownie od 2025 kapitan reprezentacji Polski.",
+    "url": "https://pl.wikipedia.org/wiki/Robert_Lewandowski",
     "język": "pl"
    },
    "tagi": [
-    "Sznajder",
-    "Świątek",
-    "Rybakina",
-    "Rosjanka"
+    "Chicago",
+    "Lewandowskiego",
+    "Lewandowski",
+    "Orlando City"
    ],
    "emotki": [
-    "🏛️"
+    "⚽",
+    "🌊",
+    "🗳️"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Interia Sport",
-     "tytuł": "Szczęście Świątek, wielki pech Rybakiny. Polka poznała rywalkę po północy",
-     "url": "https://sport.interia.pl/tenis/news-szczescie-swiatek-wielki-pech-rybakiny-po-polnocy-polka-pozn,nId,23531288"
+     "tytuł": "Lewandowski znów bohaterem Chicago. Kolejny gol na wagę trzech punktów",
+     "url": "https://sport.interia.pl/robert-lewandowski/news-lewandowski-znow-uratowal-chicago-gol-polaka-przedluza-zwyci,nId,23531304"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Trener Chicago Fire znów postawił na Lewandowskiego. Przed nim hit MLS",
+     "url": "https://sport.interia.pl/robert-lewandowski/news-trener-zdecydowal-ws-lewandowskiego-z-usa-nadszedl-oficjalny,nId,23531276"
+    },
+    {
+     "nazwa": "Polsat Sport",
+     "tytuł": "El. Ligi Mistrzów: Hapoel Beer Szewa - Sabah Baku. Relacja live i wynik na żywo",
+     "url": "https://www.polsatsport.pl/wiadomosc/2026-08-19/el-ligi-mistrzow-hapoel-beer-szewa-sabah-baku-relacja-live-i-wynik-na-zywo/"
+    },
+    {
+     "nazwa": "Polsat Sport",
+     "tytuł": "MLS: Orlando City - Chicago Fire. Relacja live i wynik na żywo",
+     "url": "https://www.polsatsport.pl/robert-lewandowski/2026-08-19/mls-orlando-city-chicago-fire-relacja-live-i-wynik-na-zywo/"
+    },
+    {
+     "nazwa": "Polsat Sport",
+     "tytuł": "Hubert Hurkacz - Henrique Rocha. Relacja live i wynik na żywo",
+     "url": "https://www.polsatsport.pl/wiadomosc/2026-08-19/hubert-hurkacz-henrique-rocha-relacja-live-i-wynik-na-zywo/"
+    },
+    {
+     "nazwa": "Polsat Sport",
+     "tytuł": "Iga Świątek - Diane Parry. Relacja live i wynik na żywo",
+     "url": "https://www.polsatsport.pl/iga-swiatek/2026-08-19/iga-swiatek-diane-parry-relacja-live-i-wynik-na-zywo-wta-cincinnati-tenis-mecz-swiatek-dzis/"
     }
    ],
-   "liczba_źródeł": 1,
+   "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.979,
+    "wynik": 5.997,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.05,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.808,
      "eksponowanie": 0.0,
-     "słowa_kluczowe": 1.4,
-     "świeżość": 0.529,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.589,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -588,73 +666,106 @@
     "emoji": "🏅",
     "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
    },
-   "nagłówek": "Świątek idzie jak burza. Polka wskazała \"klucz do sukcesu\"",
-   "lead": "lga Świątek nie zwalnia tempa . Polka ma już na koncie dziewięć wygranych spotkań z rzędu.",
+   "nagłówek": "Dziewięć zwycięstw z rzędu. Głośno, co robi Świątek. \"Potężna broń\"",
+   "lead": "Jeszcze przed pierwszym gemem na łamach Interii Sport ukazała się analiza gry Diane Parry. 23-letnia reprezentantka Francji uwielbia zagrywać bekhendowe slajsy, z czego niezwykle często korzystała w spotkaniu 1/8 finału przeciwko Idze Świątek.",
    "język_źródła": "pl",
-   "opublikowano": "2026-08-19T17:23:55+00:00",
+   "opublikowano": "2026-08-19T17:42:09+00:00",
    "źródło": {
     "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/iga-swiatek/news-swiatek-idzie-jak-burza-zanim-zeszla-z-kortu-zwrocila-sie-do,nId,23531237",
+    "url": "https://sport.interia.pl/iga-swiatek/news-zauwazyl-co-zaczela-robic-swiatek-nie-ma-watpliwosci-potezna,nId,23531243",
     "domena": "sport.interia.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000N71P2MR0OHDDS-C321.webp",
+   "obraz": "https://i.iplsc.com/-/000N71YK2O98EEPG-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "W środowy wieczór awansowała do ćwierćfinału turnieju WTA 1000 w Cincinnati, pokonując Francuzkę Diane Parry 6:3, 6:3 .",
-      "Raszynianka potwierdza znakomitą dyspozycję z Toronto, gdzie w ubiegłym tygodniu sięgnęła po pierwszy tytuł w tym sezonie .",
-      "Po meczu Raszynianka była w znakomitym nastroju.",
-      "Nie celebrowała jednak przesadnie przedłużenia serii triumfów.",
-      "To była po prostu dobrze wykonana robota . - Byłam dzisiaj na korcie przede wszystkim solidna i jestem z tego powodu bardzo zadowolona - powiedziała Świątek jeszcze przed zejściem z kortu. - To był tenis na dużej intensywności.",
-      "Musiałam wkładać w każde uderzenie dużo energii, bo rywalka często grała mocnym slajsem. - Miło, że to mój 30. ćwierćfinał w turniejach WTA 1000 - dodała Polka. - Zdaję sobie sprawę, że regularnie gram bardzo dobrze do tych decydujących faz, ale naprawdę nigdy nie skupiam się na liczbach.",
-      "Wiele razy przekonałam się, że kluczem do sukcesu jest koncentracja na najbliższym spotkaniu .",
-      "Później rozmowa za sprawą prowadzącego zeszła na nieco luźniejsze tony.",
-      "Iga potwierdziła, że w ostatnim czasie fascynują ją filmy z lat 90 ."
+      "Mimo to Polka świetnie poradziła sobie ze stylem gry przeciwniczki, choć momentami irytacja brała górę.",
+      "Ostatecznie w półtorej godziny wygrała 6:3, 6:3 i awansowała do ćwierćfinał \"tysięcznika\" w Cincinnati.",
+      "\"Spokojna kontrola Igi Świątek w meczu z Diane Parry, która gra pięknie slajsem i zmusza do precyzyjnego ustawiania się do niskich piłek.",
+      "W większości przypadków Polka miała na te zagrania skuteczne odpowiedzi, umiejętnie \" odkręcając\" rotację dzięki dobrej pracy nóg i nadgarstka.",
+      "Nie czepiałbym się końcówki, pewnie koncentracja trochę spadła, ale przy tym natłoku spotkań to nic niepokojącego.",
+      "Szczególnie, że od Igi aktualnie bije na zewnątrz przekonanie do tego co robi na korcie, co dawało komfort w zarządzaniu meczem, a mi w trakcie jego oglądania przekonanie, że nic złego stać się nie powinno\" - czytamy na profilu Sofa Sportowa.",
+      "\"Iga awansuje do swojego 4. z rzędu ćwierćfinału w Cincinnati.",
+      "Fantastyczna regularność na tym turnieju.",
+      "8. zwycięstwo z rzędu w Cincinnati dla obrończyni tytułu."
      ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Iga Świątek awansowała do ćwierćfinału turnieju w Cincinnati po pokonaniu Francuzki Diane Parry 6:3, 6:3.",
+      "Mimo znakomitej passy dziewięciu zwycięstw z rzędu oraz niedawnego triumfu w Toronto, Polka na pewno zanotuje spadek w światowym rankingu.",
+      "Świątek pokonała w czwartej rundzie trwających zawodów Francuzkę Diane Parry 6:3, 6:3 , co dało jej awans do najlepszej \"ósemki\" imprezy.",
+      "Zaledwie kilka dni wcześniej zawodniczka pochodząca z Raszyna wygrała turniej rangi WTA 1000 w Toronto, pokonując w finale Jelenę Rybakinę 6:2, 6:3.",
+      "Wywalczyła ona swój pierwszy tytuł w cyklu WTA od 21 września 2025 roku, a zarazem 26. w karierze."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Iga Natalia Świątek – polska tenisistka, zwyciężczyni dwudziestu sześciu turniejów WTA w grze pojedynczej, w tym sześciu turniejów wielkoszlemowych: French Open 2020, 2022, 2023 i 2024, US Open 2022 oraz Wimbledonu 2025, a także WTA Finals 2023, brązowa medalistka igrzysk olimpijskich z Paryża (2024) w grze pojedynczej, uczestniczka igrzysk olimpijskich w 2020, od kwietnia 2022 do września 2023 i ponownie od listopada 2023 do października 2024 liderka rankingu singlowego WTA."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Iga Świątek",
+     "url": "https://pl.wikipedia.org/wiki/Iga_%C5%9Awi%C4%85tek"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "1000",
+    "23",
     "3, 6",
     "30",
-    "90"
+    "1000",
+    "25 lat",
+    "2, 6"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Iga Świątek",
+    "opis": "polska tenisistka",
+    "tekst": "Iga Natalia Świątek – polska tenisistka, zwyciężczyni dwudziestu sześciu turniejów WTA w grze pojedynczej, w tym sześciu turniejów wielkoszlemowych: French Open 2020, 2022, 2023 i 2024, US Open 2022 oraz Wimbledonu 2025, a także WTA Finals 2023, brązowa medalistka igrzysk olimpijskich z Paryża (2024) w grze pojedynczej, uczestniczka igrzysk olimpijskich w 2020, od kwietnia 2022 do września 2023 i ponownie od listopada 2023 do października 2024 liderka rankingu singlowego WTA.",
+    "url": "https://pl.wikipedia.org/wiki/Iga_%C5%9Awi%C4%85tek",
+    "język": "pl"
+   },
    "tagi": [
     "Cincinnati",
+    "Diane Parry",
     "Świątek",
-    "Jelena Rybakina Diana Sznajder",
-    "Francuzkę Diane Parry"
+    "Iga Świątek"
    ],
    "emotki": [
     "🎾",
-    "🤖",
-    "🎬"
+    "🏛️"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Interia Sport",
-     "tytuł": "Świątek idzie jak burza. Polka wskazała \"klucz do sukcesu\"",
-     "url": "https://sport.interia.pl/iga-swiatek/news-swiatek-idzie-jak-burza-zanim-zeszla-z-kortu-zwrocila-sie-do,nId,23531237"
+     "tytuł": "Dziewięć zwycięstw z rzędu. Głośno, co robi Świątek. \"Potężna broń\"",
+     "url": "https://sport.interia.pl/iga-swiatek/news-zauwazyl-co-zaczela-robic-swiatek-nie-ma-watpliwosci-potezna,nId,23531243"
+    },
+    {
+     "nazwa": "Polsat Sport",
+     "tytuł": "Dziewięć wygranych z rzędu i... spadek w rankingu. Niecodzienna sytuacja Świątek",
+     "url": "https://www.polsatsport.pl/iga-swiatek/2026-08-19/dziewiec-wygranych-z-rzedu-i-spadek-w-rankingu-niecodzienna-sytuacja-swiatek/"
     }
    ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.917,
+    "wynik": 5.509,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.05,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.2,
      "eksponowanie": 0.0,
-     "słowa_kluczowe": 1.4,
-     "świeżość": 0.467,
-     "treściwość": 0.5,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.478,
+     "treściwość": 0.381,
      "język_działu": 0.5
     }
    },
@@ -730,6 +841,7 @@
    ],
    "emotki": [
     "⚽",
+    "🏅",
     "🎬"
    ],
    "wszystkie_źródła": [
@@ -764,16 +876,6 @@
      "url": "https://www.theguardian.com/football/2026/aug/20/premier-league-2026-27-preview-no-17-newcastle"
     },
     {
-     "nazwa": "BBC Football",
-     "tytuł": "Premier League chief Masters says Fifa self-destructed over World Cup plan",
-     "url": "https://www.bbc.co.uk/sport/football/articles/cgjeqez58wno?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC Football",
-     "tytuł": "Premier League chief on Fifa crisis, Man City charges & World Cup expansion",
-     "url": "https://www.bbc.co.uk/sounds/play/p0p5540m?at_medium=RSS&at_campaign=rss"
-    },
-    {
      "nazwa": "The Guardian Football",
      "tytuł": "Premier League 2026-27 preview No 15: Manchester City",
      "url": "https://www.theguardian.com/football/2026/aug/19/premier-league-2026-27-preview-no-15-manchester-city"
@@ -782,23 +884,18 @@
      "nazwa": "The Guardian Football",
      "tytuł": "Premier League 2026-27 preview No 16: Manchester United",
      "url": "https://www.theguardian.com/football/2026/aug/19/premier-league-2026-27-preview-no-16-manchester-united"
-    },
-    {
-     "nazwa": "The Guardian Football",
-     "tytuł": "Premier League season preview: Arsenal to Fulham | Football Weekly video",
-     "url": "https://www.theguardian.com/football/video/2026/aug/19/premier-league-season-preview-arsenal-to-fulham-football-weekly"
     }
    ],
    "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 9.84,
+    "wynik": 9.093,
     "składowe": {
      "potwierdzenia": 3.8,
-     "ranga_źródła": 3.002,
-     "eksponowanie": 0.45,
-     "słowa_kluczowe": 1.05,
+     "ranga_źródła": 2.515,
+     "eksponowanie": 0.54,
+     "słowa_kluczowe": 0.7,
      "świeżość": 0.538,
      "treściwość": 0.5,
      "język_działu": 0.5
@@ -813,64 +910,64 @@
     "emoji": "🌐",
     "opis": "wielkie ligi, turnieje i rekordy poza Polską"
    },
-   "nagłówek": "Tego scenariusza nikt nie zakładał. Światowa \"1\" za burtą Cincinnati Open",
-   "lead": "Aryna Sabalenka, Iga Świątek, Jelena Rybakina, Coco Gauff, Mirra Andriejewa - i jeszcze kilka wybitnych obecnie tenisistek. Łącznie aż osiem z TOP 10 rankingu WTA.",
+   "nagłówek": "Szczęście Świątek, wielki pech Rybakiny. Polka poznała rywalkę po północy",
+   "lead": "Skoro organizatorzy Cincinnati Open wiedzieli, że w czwartek muszą zostać rozegrane ćwierćfinale w dolnej części drabinki, czyli tej z udziałem Igi Świątek, a na środę zaplanowane zostały wszystkie mecze 1/8 finału, to zawodniczki z potencjalnych par w tym następnym etapie powinny grać jednocześnie. W Lindner Family…",
    "język_źródła": "pl",
-   "opublikowano": "2026-08-20T03:35:01+00:00",
+   "opublikowano": "2026-08-19T22:19:21+00:00",
    "źródło": {
     "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/tenis/news-tego-scenariusza-nikt-nie-zakladal-swiatowa-1-za-burta-cinci,nId,23531303",
+    "url": "https://sport.interia.pl/tenis/news-szczescie-swiatek-wielki-pech-rybakiny-po-polnocy-polka-pozn,nId,23531288",
     "domena": "sport.interia.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000N72KMMHLJX5TP-C321.webp",
+   "obraz": "https://i.iplsc.com/-/000N72IHIVUMMBL6-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Jeśli ktoś interesuje się kobiecym tenisem i był w środę w Mason, mógł delektować się grą tych najlepszych.",
-      "Tego jednego dnia organizatorzy Cinacinnati Open zaplanowano bowiem wszystkie mecze 1/8 finału w singlu, a że wcześniej nie było sensacji, została właśnie elita.",
-      "Do tego doszły ciekawe spotkanie w męskim Mastersie, do 1/4 finału nie awansował m.in.",
-      "Alexander Zverev , mimo meczbola w starciu z pogromcą Huberta Hurkacza Tommym Paulem.",
-      "Jeszcze większym zaskoczeniem był końcowy wynik potyczki rozstawionych z \"1\" pań w turnieju deblistek - a to miano mają Katerina Siniakova i Taylor Townsend.",
-      "W poprzedni czwartek Siniakova umocniła się na pozycji liderki deblowego rankingu - triumfowała w WTA 1000 w Tornto, wspólnie z Shuai Zhang.",
-      "Jej \"regularną\" partnerką w deblu jest jednak Taylor Townsend, obecna \"2\" w rankingu WTA, wspólnie w tym sezonie wygrały tytuły m.in. w Indian Wells, Miami, Madrycie i Paryżu.",
-      "Teraz też były głównymi kandydatkami do zwycięstwa, choć już w pierwszej rundzie męczyły się z parą Jurak/Wu, wygrały trzysetową batalię.",
-      "W 1/8 finału trafiły na Caty McNally i Ivę Jovic - obie Amerykanki nieźle radzą sobie w singlu, młodsza z nich jest w TOP 20 singlowego rankingu, choć w grze podwójnej potrafią coś zdziałać."
+      "Sęk w tym, że żaden z tych kortów nie jest zadaszony - każdy opad powoduje przerwanie spotkania.",
+      "Mecz Igi Świątek z DIane Parry został ustawiony jako pierwszy na Grandstandzie, czyli drugim co do wielkości stadionie.",
+      "Polka gładko wygrała 6:3, 6:3 , po niej wyszła Jessica Pegula - rywalizowała z Soraną Cirsteą.",
+      "Mniej więcej o tej samej porze zaczęło się hitowe starcie Mirry Andriejewej i Marty Kostiuk , zakończone triumfem Ukrainki.",
+      "To o tyle dziwne, że obie są w górnej części drabinki i kolejny mecz zagrają w piątek.",
+      "A dopiero jako trzeci na Tony Trabert Stadium zaplanowano pojedynek Rybakiny i Sznajder , a przecież jedna z nich ma wystąpić już następnego dnia - przeciwko Świątek.",
+      "Można to tłumaczyć późniejszą, jeszcze w środę, grą deblową Kostiuk, niemniej potencjalna rywalka Polki musiała się liczyć z tym, że dostanie sporo mniej czasu na regenerację.",
+      "Tym bardziej, że wcześniejszy mecz ATP Tirante - Mensik był długi, trzysetowy.",
+      "A gdy panowie skończyli, zaczęło padać."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
+      "W środę w Cincinnati Open miały odbyć się wszystkie spotkania w 1/8 finału kobiecego singla, ale też pozostałe spotkania na tym samym etapie w zmaganiach deblistek.",
+      "Gdy kibice w Ohio czekali na występ Aryny Sabalenki, na Court 10 pojawiła się inna światowa \"1\" - Katerina Siniakova.",
+      "Wydawało się wręcz niemożliwe, by mogły mieć jakieś problemy z zawodniczkami, które świetnie radzą sobie w singlu, ale na co dzień nie tworzą pary w deblu.",
       "Ostatecznie obrończyni tytułu triumfowała 6:3, 6:3.",
       "Amerykanka walczyła o ćwierćfinał WTA 1000 w Cincinnati z mistrzynią ubiegłorocznego Mutua Madrid Open w grze podwójnej.",
       "Tenisistka z USA wypuściła przewagę w drugiej partii, ale ostatecznie zwyciężyła 6:2, 4:6, 7:5.",
-      "W czwartej rundzie WTA 1000 w Cincinnati pojawiło się sporo ciekawych zestawień.",
-      "Jedno z nich utworzyły dwie tenisistki z TOP 10 rankingu - będące w tej samej połówce drabinki, co Iga Świątek.",
-      "W rywalizacji przerwanej na ponad godzinę przez deszcz lepiej poradziła sobie Amerykanka, notując zwycięstwo w potyczce z mistrzynią Wimbledonu 6:1, 6:4.",
-      "Rok temu Iga Świątek swój jedyny tytuł w imprezie rangi 1000 zdobyła właśnie w Ohio - w finale Cincinnati Open pokonała Jasmine Paolini."
+      "W czwartej rundzie WTA 1000 w Cincinnati pojawiło się sporo ciekawych zestawień."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "The Cincinnati Open is an annual professional tennis event held in suburban Cincinnati, United States. It is played on outdoor hard courts at the Lindner Family Tennis Center in Mason, Ohio, and is held in August. The event started on September 18, 1899, and is the oldest tennis tournament in the United States still played in its original city. It also is the third largest tennis event in the United States, after the US Open and the Indian Wells Open. It is one of the ATP 1000 tournaments on the ATP Tour, and one of the WTA 1000 tournaments on the WTA Tour."
+      "Jelena Andriejewna Rybakina, ros. Елена Андреевна Рыбакина – kazachska tenisistka narodowości rosyjskiej, do czerwca 2018 roku reprezentująca Rosję, zwyciężczyni Wimbledonu 2022, Australian Open 2026 i WTA Finals 2025 oraz finalistka Australian Open 2023 w grze pojedynczej kobiet."
      ],
-     "język": "en",
-     "przypis": "Wikipedia: Cincinnati Open",
-     "url": "https://en.wikipedia.org/wiki/Cincinnati_Open"
+     "język": "pl",
+     "przypis": "Wikipedia: Jelena Rybakina",
+     "url": "https://pl.wikipedia.org/wiki/Jelena_Rybakina"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
+    "3, 6",
+    "4,5 godziny",
+    "84 procent",
+    "4, 6",
     "10",
-    "20",
-    "1, 8",
-    "7, 6",
-    "4, 10",
-    "3, 6"
+    "2, 4"
    ],
    "inne_spojrzenia": [
     {
@@ -881,22 +978,28 @@
    ],
    "pojęcia": [],
    "tło": {
-    "hasło": "Cincinnati Open",
-    "opis": "American tennis tournament",
-    "tekst": "The Cincinnati Open is an annual professional tennis event held in suburban Cincinnati, United States. It is played on outdoor hard courts at the Lindner Family Tennis Center in Mason, Ohio, and is held in August. The event started on September 18, 1899, and is the oldest tennis tournament in the United States still played in its original city. It also is the third largest tennis event in the United States, after the US Open and the Indian Wells Open. It is one of the ATP 1000 tournaments on the ATP Tour, and one of the WTA 1000 tournaments on the WTA Tour.",
-    "url": "https://en.wikipedia.org/wiki/Cincinnati_Open",
-    "język": "en"
+    "hasło": "Jelena Rybakina",
+    "opis": "kazachska tenisistka narodowości rosyjskiej",
+    "tekst": "Jelena Andriejewna Rybakina, ros. Елена Андреевна Рыбакина – kazachska tenisistka narodowości rosyjskiej, do czerwca 2018 roku reprezentująca Rosję, zwyciężczyni Wimbledonu 2022, Australian Open 2026 i WTA Finals 2025 oraz finalistka Australian Open 2023 w grze pojedynczej kobiet.",
+    "url": "https://pl.wikipedia.org/wiki/Jelena_Rybakina",
+    "język": "pl"
    },
    "tagi": [
-    "Taylor Townsend",
-    "Cincinnati Open Aryna Sabalenka Iga Świątek Jelena Rybakina Coco Gauff Mirra Andriejewa",
-    "Huberta Hurkacza Tommym Paulem",
-    "Indian Wells Miami Madrycie"
+    "Sznajder",
+    "Świątek",
+    "Rybakina",
+    "Rosjanka"
    ],
    "emotki": [
-    "🎾"
+    "🎾",
+    "🏛️"
    ],
    "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Szczęście Świątek, wielki pech Rybakiny. Polka poznała rywalkę po północy",
+     "url": "https://sport.interia.pl/tenis/news-szczescie-swiatek-wielki-pech-rybakiny-po-polnocy-polka-pozn,nId,23531288"
+    },
     {
      "nazwa": "Interia Sport",
      "tytuł": "Tego scenariusza nikt nie zakładał. Światowa \"1\" za burtą Cincinnati Open",
@@ -924,6 +1027,11 @@
     },
     {
      "nazwa": "Interia Sport",
+     "tytuł": "Świątek idzie jak burza. Polka wskazała \"klucz do sukcesu\"",
+     "url": "https://sport.interia.pl/iga-swiatek/news-swiatek-idzie-jak-burza-zanim-zeszla-z-kortu-zwrocila-sie-do,nId,23531237"
+    },
+    {
+     "nazwa": "Interia Sport",
      "tytuł": "88 minut Świątek z Parry w Cincinnati, będzie ciąg dalszy. Brak 55 punktów",
      "url": "https://sport.interia.pl/iga-swiatek/news-88-minut-swiatek-z-parry-w-cincinnati-bedzie-ciag-dalszy-bra,nId,23531227"
     },
@@ -937,10 +1045,10 @@
    "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 7.715,
+    "wynik": 8.015,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 2.1,
+     "ranga_źródła": 2.4,
      "eksponowanie": 0.72,
      "słowa_kluczowe": 1.4,
      "świeżość": 0.595,
@@ -1086,11 +1194,11 @@
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.325,
+    "wynik": 5.235,
     "składowe": {
      "potwierdzenia": 1.9,
      "ranga_źródła": 1.415,
-     "eksponowanie": 0.09,
+     "eksponowanie": 0.0,
      "słowa_kluczowe": 0.7,
      "świeżość": 0.429,
      "treściwość": 0.291,
@@ -1167,8 +1275,7 @@
     "Betty Moore Foundation's EPiQS Initiative"
    ],
    "emotki": [
-    "⚛️",
-    "🔬"
+    "⚛️"
    ],
    "wszystkie_źródła": [
     {
@@ -1248,8 +1355,7 @@
     "Physical Review Letters"
    ],
    "emotki": [
-    "⚛️",
-    "🔬"
+    "⚛️"
    ],
    "wszystkie_źródła": [
     {
@@ -1356,7 +1462,6 @@
     "Milky Way Merger"
    ],
    "emotki": [
-    "🔭",
     "🌌"
    ],
    "wszystkie_źródła": [
@@ -1583,8 +1688,7 @@
     "Sciences"
    ],
    "emotki": [
-    "🪐",
-    "🛒"
+    "🪐"
    ],
    "wszystkie_źródła": [
     {
@@ -1698,7 +1802,9 @@
     "Wednesday",
     "Italian"
    ],
-   "emotki": [],
+   "emotki": [
+    "🧊"
+   ],
    "wszystkie_źródła": [
     {
      "nazwa": "Phys.org Earth",
@@ -1715,11 +1821,11 @@
    "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.668,
+    "wynik": 5.578,
     "składowe": {
      "potwierdzenia": 1.9,
      "ranga_źródła": 1.307,
-     "eksponowanie": 1.44,
+     "eksponowanie": 1.35,
      "słowa_kluczowe": 0.0,
      "świeżość": 0.521,
      "treściwość": 0.5,
@@ -1783,8 +1889,7 @@
     "Jana Naszewskiego"
    ],
    "emotki": [
-    "🎬",
-    "🗳️"
+    "🎬"
    ],
    "wszystkie_źródła": [
     {
@@ -1802,11 +1907,11 @@
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.676,
+    "wynik": 5.316,
     "składowe": {
      "potwierdzenia": 1.9,
      "ranga_źródła": 1.243,
-     "eksponowanie": 0.81,
+     "eksponowanie": 0.45,
      "słowa_kluczowe": 0.35,
      "świeżość": 0.41,
      "treściwość": 0.463,
@@ -1822,108 +1927,105 @@
     "emoji": "🎬",
     "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
    },
-   "nagłówek": "Nieznany utwór Romualda Lipki. Napisał go dla Zenka Martyniuka",
-   "lead": "Zenek Martyniuk oburzył się nagraniami Jacka Kawalca, który parodiuje go w sieci. Tymczasem król disco polo zapewnia, że od dziecka jest fanem Budki Suflera i jak się okazuje, kilka lat temu Romuald Lipko napisał dla niego piosenkę, która jeszcze się nie ukazała.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-08-19T11:08:47+00:00",
+   "nagłówek": "Chrześcijański zespół metalowy Demon Hunter pozywa Netflixa przez KPop Demon Hunters",
+   "lead": "Zespół twierdzi, że stoi w obliczu „kryzysu egzystencjalnego” po sukcesie inspirowanego K-popem filmu Netflix.",
+   "język_źródła": "en",
+   "opublikowano": "2026-08-19T11:30:40+00:00",
    "źródło": {
-    "nazwa": "Onet Kultura",
-    "url": "https://kultura.onet.pl/muzyka/wiadomosci/romuald-lipko-napisal-piosenke-dla-zenka-martyniuka-piekna/28bwwqr",
-    "domena": "kultura.onet.pl"
+    "nazwa": "BBC Kultura",
+    "url": "https://www.bbc.co.uk/news/articles/c2dk64d10rko?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
    },
-   "obraz": "https://cdn.kultura.onet.pl/1/3C9k9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy8xMTI2YzkyMDM3MmEyMmMxNWFiZDM0NDYxNTVhMmQzYy5wbmeSlQMbAM0HTM0EG5MFzQlgzQZA3gACoTAHoTEE",
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce9f/live/c9fcf6d0-9bc4-11f1-aed2-8d6da8d75094.jpg",
    "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "\"Piękna pioseneczka\" — opowiada Martyniuk.",
-      "Wypiliśmy herbatę, pośpiewaliśmy, pograliśmy, dobraliśmy tonację.",
-      "Piękna pioseneczka, troszkę w klimatach, w jakich Urszula śpiewała \"Malinowego Króla\"."
-     ]
-    },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Przypomnijmy, że chodzi o nagranie, na którym Jacek Kawalec opowiadał ze sceny o muzyce disco polo i sięgnął po utwór \"Przez twe oczy zielone\" .",
-      "\"Panie Zenku, nie jestem pana fanem (zapewne z wzajemnością) i nie bywam na pańskich koncertach, ale wiem, że ma pan wielomilionową rzeszę wielbicieli, którzy kochają pana i pańskie piosenki, a to zasługuje na wielki szacunek i podziw."
+      "25-letni zespół Demon Hunter twierdzi, że nazwa hitu streamera powoduje „poważne zamieszanie” wśród konsumentów. Christian metalowy zespół Demon Hunter pozywa Netflix , oskarżając giganta rozrywki o naruszenie znaku towarowego i nieuczciwą konkurencję związaną z hitem \"KPop Demon Hunters\".",
+      "Pozew został złożony we wtorek przez Hyde Lane, firmę stojącą za Demon Hunter, i twierdzi, że Netflix Studios i promotor koncertu AEG Presents spowodowali „znaczne zamieszanie” wśród konsumentów. „Łowca demonów [to] znany i sławny metalowy zespół.",
+      "Demon Hunter powstał na przełomie wieków i od tego czasu konsekwentnie wydawał albumy, koncertował i sprzedawał towary dużej i oddanej publiczności ”- czytamy we wtorkowym dokumencie. „Niestety, w 2025 roku Netflix i Netflix Studios – mimo że prawie na pewno zdawały sobie sprawę z istnienia Demon Hunter – zdecydowały się wydać film zatytułowany „KPop Demon Hunters” - powiedziało archiwum, dodając, że film „osiągnął bezprecedensowe poziomy sukces, nie tylko jako film w serwisie streamingowym Netflix, ale także za pośrednictwem albumu ze ścieżką dźwiękową filmu „KPop Demon Hunters” i towaru”.",
+      "Zespół, który wydaje muzykę i koncertuje od 25 lat, twierdzi, że rzekome zamieszanie miało już realne konsekwencje.",
+      "Wśród przykładów zawartych w pozwie znajduje się e-mail od kogoś, kto wydał 500 $ na najwyższej klasy bilety na koncert Łowców Demonów w Albany w Nowym Jorku , wierząc, że bilety były na pokaz Łowców Demonów KPop, na którym planowali uczestniczyć ze swoimi pięcio- i sześcioletnimi dziewczynkami. „Czy w każdym razie ich [sic] zwraca mi pieniądze lub daje mi kredyt czy coś[?]” - zapytała osoba, według Complex . „Jeśli nie otrzymam zwrotu pieniędzy, nie będę mógł kupić biletów do rzeczywistego ‘K pop demon hunters show”. Skarga wskazuje również na inne domniemane pomyłki.",
+      "Producent telewizyjny podobno zwrócił się do kierownictwa Demon Hunter pod błędnym wrażeniem, że zespół był połączony z KPop Demon Hunters, podczas gdy użytkownicy mediów społecznościowych błędnie oznaczyli Demon Hunter we wpisach o filmie."
      ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "KPop Demon Hunters to amerykański animowany muzyczny miejski film fantasy z 2025 roku, napisany i wyreżyserowany przez Maggie Kang i Chrisa Appelhansa. Wyprodukowany przez Sony Pictures Animation dla Netflix, film gra głosy Arden Cho, Ahn Hyo-seop, May Hong, Ji-young Yoo, Yunjin Kim, Daniela Dae Kima, Kena Jeonga i Lee Byung-huna. Historia opowiada o dziewczynie z K-popu, Huntrixie, która prowadzi podwójne życie jako łowca demonów. Stają twarzą w twarz z konkurencyjnym boysbandem, Saja Boys, którego członkowie są potajemnie demonami."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: KPop Demon Hunters",
+     "url": "https://en.wikipedia.org/wiki/KPop_Demon_Hunters"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "89"
+    "25",
+    "500"
    ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "Interia Muzyka",
-     "ujęcie": "Po aferze z nagraniem Jacka Kawalca, na którym parodiuje Zenka Martyniuka, głos zabrała Paula Karpowicz z zespołu Topky.",
-     "url": "https://muzyka.interia.pl/disco-polo/news-gwiazda-disco-polo-wspiera-zenka-martyniuka-uderzyla-w-jacka,nId,23531249"
-    }
-   ],
+   "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "KPop Demon Hunters",
+    "opis": "2025 animated film by Maggie Kang and Chris Appelhans",
+    "tekst": "KPop Demon Hunters is a 2025 American animated musical urban fantasy film co-written and directed by Maggie Kang and Chris Appelhans. Produced by Sony Pictures Animation for Netflix, the film stars the voices of Arden Cho, Ahn Hyo-seop, May Hong, Ji-young Yoo, Yunjin Kim, Daniel Dae Kim, Ken Jeong, and Lee Byung-hun. The story follows a K-pop girl group, Huntrix, who lead double lives as demon hunters. They face off against a rival boy band, the Saja Boys, whose members are secretly demons.",
+    "url": "https://en.wikipedia.org/wiki/KPop_Demon_Hunters",
+    "język": "en"
+   },
    "tagi": [
-    "Zenka Martyniuka Zenek Martyniuk",
-    "Malinowego Króla",
-    "Romualda Lipki",
-    "Jacka Kawalca"
+    "K-pop-inspired Netflix",
+    "KPop Demon Hunters",
+    "Demon Hunter",
+    "Netflix"
    ],
    "emotki": [
-    "🌡️",
-    "🎵"
+    "🎬"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Onet Kultura",
-     "tytuł": "Nieznany utwór Romualda Lipki. Napisał go dla Zenka Martyniuka",
-     "url": "https://kultura.onet.pl/muzyka/wiadomosci/romuald-lipko-napisal-piosenke-dla-zenka-martyniuka-piekna/28bwwqr"
+     "nazwa": "BBC Kultura",
+     "tytuł": "Christian metal band Demon Hunter sue Netflix over KPop Demon Hunters",
+     "url": "https://www.bbc.co.uk/news/articles/c2dk64d10rko?at_medium=RSS&at_campaign=rss"
     },
     {
-     "nazwa": "Interia Muzyka",
-     "tytuł": "Gwiazda disco polo wspiera Zenka Martyniuka. Uderzyła w Jacka Kawalca",
-     "url": "https://muzyka.interia.pl/disco-polo/news-gwiazda-disco-polo-wspiera-zenka-martyniuka-uderzyla-w-jacka,nId,23531249"
+     "nazwa": "The Guardian Film",
+     "tytuł": "Christian metal band sues Netflix over KPop Demon Hunters name",
+     "url": "https://www.theguardian.com/film/2026/aug/19/kpop-demon-hunters-netflix-lawsuit"
     }
    ],
    "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.368,
+    "wynik": 6.356,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.135,
-     "eksponowanie": 0.63,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.47,
-     "treściwość": 0.383,
-     "język_działu": 0.5
+     "ranga_źródła": 1.372,
+     "eksponowanie": 1.44,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.444,
+     "treściwość": 0.5,
+     "język_działu": 0.0
     }
+   },
+   "oryginalny_nagłówek": "Christian metal band Demon Hunter sue Netflix over KPop Demon Hunters",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
    },
    "miejsce": 2
   }
  ],
  "braki": [],
  "statystyki": {
-  "kanały_ok": 70,
-  "kanały_błędne": 3,
-  "znaki_tłumaczone": 13807,
-  "niedziałające_kanały": [
-   {
-    "url": "https://www.polsatnews.pl/rss/polska.xml",
-    "powód": "ConnectTimeout"
-   },
-   {
-    "url": "https://www.polsatnews.pl/rss/swiat.xml",
-    "powód": "ConnectTimeout"
-   },
-   {
-    "url": "https://www.polsatsport.pl/rss/wszystkie.xml",
-    "powód": "ConnectTimeout"
-   }
-  ],
+  "kanały_ok": 73,
+  "kanały_błędne": 0,
+  "znaki_tłumaczone": 16560,
+  "niedziałające_kanały": [],
   "działy": 18,
-  "artykuły_w_oknie": 69
+  "artykuły_w_oknie": 72
  }
 }
