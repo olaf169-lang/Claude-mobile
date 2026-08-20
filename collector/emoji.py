@@ -100,13 +100,31 @@ _SKOMPILOWANE: tuple[tuple[str, re.Pattern[str]], ...] = tuple(
 )
 
 
-def topic_emoji(*parts: str, limit: int = MAX_EMOJI) -> list[str]:
-    """Od jednej do trzech emotek opisujących temat. Brak dopasowania = pusto."""
-    haystack = normalize(" ".join(p for p in parts if p))
-    wybrane: list[str] = []
-    for emotka, wzorzec in _SKOMPILOWANE:
-        if wzorzec.search(haystack):
-            wybrane.append(emotka)
-            if len(wybrane) >= limit:
-                break
-    return wybrane
+#: Trafienie w nagłówku waży tyle, co kilka trafień w treści — tytuł mówi,
+#: o czym jest tekst, a w akapitach da się znaleźć niemal wszystko.
+WAGA_NAGLOWKA = 4
+
+
+def topic_emoji(headline: str = "", lead: str = "", body: str = "",
+                *, limit: int = MAX_EMOJI) -> list[str]:
+    """Od jednej do trzech emotek opisujących temat. Brak dopasowania = pusto.
+
+    Emotki dobieramy po sile dopasowania, nie po kolejności w tabeli: inaczej
+    tekst o tenisie dostawał 🎬 tylko dlatego, że gdzieś w treści padło słowo
+    „serial".
+    """
+    czolo = normalize(f"{headline} {lead}")
+    tresc = normalize(body)
+    punkty: list[tuple[float, int, str]] = []
+    for kolejnosc, (emotka, wzorzec) in enumerate(_SKOMPILOWANE):
+        w_czole = len(wzorzec.findall(czolo))
+        w_tresci = len(wzorzec.findall(tresc))
+        if not (w_czole or w_tresci):
+            continue
+        punkty.append((w_czole * WAGA_NAGLOWKA + w_tresci, kolejnosc, emotka))
+    if not punkty:
+        return []
+    najlepsze = sorted(punkty, key=lambda t: (-t[0], t[1]))[:limit]
+    # Słabe dopasowania odpadają, gdy jest coś wyraźnie mocniejszego.
+    prog = max(1.0, najlepsze[0][0] / 4)
+    return [e for waga, _, e in najlepsze if waga >= prog]

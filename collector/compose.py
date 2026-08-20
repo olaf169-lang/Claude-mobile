@@ -201,7 +201,7 @@ def compose_extractive(cluster: Cluster, segment: Segment, background: dict | No
         perspectives=_perspectives(cluster, segment, narrative + extra),
         background=background,
         tags=[t for t in top_entities(f"{lead.title} {body}", 4)],
-        emoji=topic_emoji(lead.title, dek, body[:1200]),
+        emoji=topic_emoji(lead.title, dek, body[:2500]),
         mode="extractive",
     )
 
@@ -251,7 +251,7 @@ def compose_from_llm(
         tags=[t for t in data.get("tagi", []) if t][:5],
         emoji=topic_emoji(
             data.get("naglowek", ""), data.get("lead", ""),
-            " ".join(data.get("co_sie_stalo", []))[:1200],
+            " ".join(data.get("co_sie_stalo", []))[:2500],
         ),
         mode="llm",
     )
