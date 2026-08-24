@@ -1,4 +1,4 @@
-# Gacha Miast 🎰🌍
+# BANGladesz26 🎰🌍
 
 Losownik miast świata na zadaną literę. Wybierasz literę (albo zostawiasz kostkę),
 wybierasz kontynent, klikasz jeden guzik — wypada miasto, do którego **naprawdę warto pojechać**.
@@ -58,7 +58,7 @@ Dostajesz ikonę, pełny ekran bez paska przeglądarki i działanie offline — 
 **3. Jeden plik HTML (bez hostingu).** 
 
 ```bash
-node narzedzia/jeden-plik.mjs      # → dist/gacha-miast.html
+node narzedzia/jeden-plik.mjs      # → dist/bangladesz26.html
 ```
 
 Cała aplikacja — style, dane, kod, ikony — ląduje w jednym pliku (~125 kB). Można go wysłać
@@ -69,7 +69,7 @@ WhatsAppem czy mailem i otworzyć wprost z telefonu, bez internetu i bez żadneg
 To zwykła strona statyczna — żadnej budowy, żadnych zależności:
 
 ```bash
-cd miasta
+cd bangladesz26
 python3 -m http.server 8080      # → http://localhost:8080
 ```
 
@@ -78,21 +78,20 @@ po HTTP — do sprawdzenia trybu offline użyj serwera albo sklejki jednoplikowe
 
 ## Publikacja na GitHub Pages
 
-Workflow `.github/workflows/miasta.yml`:
+Aplikacja stoi pod **https://olaf169-lang.github.io/Claude-mobile/bangladesz26/** —
+jako podstrona tego samego adresu, pod którym działa Przegląd News. Pages serwuje jedną stronę
+na repozytorium, więc obie aplikacje jadą jednym wydaniem:
 
-- **przy każdym pushu** do `miasta/**` sprawdza katalog miast (`narzedzia/sprawdz-dane.mjs`);
-- **publikuje tylko na żądanie** — *Actions → Gacha Miast — strona → Run workflow*.
+- `web/` Przeglądu ląduje w korzeniu strony,
+- katalog `bangladesz26/` jest do niego dokładany przez workflow `przeglad.yml`
+  (krok *Dołóż BANGladesz26 do strony*) i trafia pod `/bangladesz26/`.
 
-Publikacja jest ręczna celowo: GitHub Pages serwuje **jedną stronę na repozytorium**, a pod tym
-adresem stoi już Przegląd News. Ręczne uruchomienie to świadoma decyzja, co ma być pod adresem
-`https://olaf169-lang.github.io/Claude-mobile/`, a nie efekt uboczny pushu.
+Publikacja rusza sama przy każdym pushu zmieniającym `web/**` lub `bangladesz26/**`,
+a także przy każdym porannym wydaniu Przeglądu. Workflow `bangladesz26.yml` nic nie publikuje —
+sprawdza katalog miast i odkłada w artefaktach gotowy plik do wysyłki.
 
-Chcesz obie aplikacje naraz? Trzy opcje, od najprostszej:
-
-1. wysyłaj kolegom **jeden plik** z `dist/` — nie potrzebuje w ogóle hostingu;
-2. postaw Gacha Miast w **osobnym repozytorium** (wystarczy skopiować katalog `miasta/`);
-3. albo dołóż katalog do artefaktu Przeglądu — wtedy aplikacja stanie pod `…/miasta/`.
-   Adres w znacznikach `og:` w `index.html` trzeba wtedy podmienić, bo jest bezwzględny.
+Przenosisz aplikację gdzie indziej? Adres w znacznikach `og:` w `index.html` jest bezwzględny —
+trzeba go tam podmienić, inaczej podgląd linku w komunikatorze pokaże starą kartę.
 
 ## Dopisanie miasta
 
@@ -120,7 +119,7 @@ Ten sam skrypt chodzi w GitHub Actions.
 ## Struktura
 
 ```
-miasta/
+bangladesz26/
   index.html          szkielet ekranu
   styles.css          motyw ciemny i jasny na zmiennych CSS
   app.js              losowanie, pamięć puli, historia, udostępnianie

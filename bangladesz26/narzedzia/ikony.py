@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Rysuje komplet ikon Gacha Miast — maskotkę-globus w gradiencie aplikacji.
+"""Rysuje komplet ikon BANGladesz26 — maskotkę-globus w gradiencie aplikacji.
 
     python3 narzedzia/ikony.py
 
-Zapisuje do miasta/icons/: favicon.png, icon-192.png, icon-512.png,
+Zapisuje do bangladesz26/icons/: favicon.png, icon-192.png, icon-512.png,
 maskable-192.png, maskable-512.png oraz podglad.png (karta linku 1200×630).
 Rysujemy w czterokrotnym powiększeniu i zmniejszamy — to najtańszy antyaliasing.
 """
@@ -143,7 +143,7 @@ def podglad() -> Image.Image:
             font = czcionka(rozmiar)
         rysuj.text((lewy, y), tekst, font=font, fill=kolor)
 
-    linia("Gacha Miast", 208, 96, (238, 241, 251, 255))
+    linia("BANGladesz26", 208, 96, (238, 241, 251, 255))
     linia("Wylosuj miasto, do którego warto pojechać", 332, 38, (169, 178, 212, 255))
     linia("430 miast  ·  6 kontynentów  ·  litera do wyboru", 396, 30, (125, 216, 255, 255))
     return plotno.convert("RGB")

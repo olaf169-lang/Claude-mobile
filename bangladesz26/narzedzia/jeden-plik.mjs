@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* Skleja całą aplikację w jeden plik HTML:
      node narzedzia/jeden-plik.mjs
-   Wynik ląduje w dist/gacha-miast.html — można go wysłać znajomym
+   Wynik ląduje w dist/bangladesz26.html — można go wysłać znajomym
    komunikatorem i otworzyć wprost z telefonu, bez internetu i bez hostingu. */
 
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
@@ -32,6 +32,6 @@ html = html.replace(/^\s*<meta property="og:[^>]*>\n/gm, '');
 html = html.replace(/^\s*<meta name="twitter:[^>]*>\n/gm, '');
 
 mkdirSync(join(korzen, 'dist'), { recursive: true });
-const wyjscie = join(korzen, 'dist', 'gacha-miast.html');
+const wyjscie = join(korzen, 'dist', 'bangladesz26.html');
 writeFileSync(wyjscie, html);
 console.log(`✓ ${wyjscie}  (${Math.round(html.length / 1024)} kB)`);

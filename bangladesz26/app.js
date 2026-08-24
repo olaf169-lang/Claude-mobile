@@ -1,10 +1,10 @@
 /* ==========================================================================
-   Gacha Miast — logika losowania
+   BANGladesz26 — logika losowania
    Stan mieści się w kilku polach: wybrane kontynenty, wybrana litera i pamięć
    tego, co już padło. Reszta to rysowanie.
    ========================================================================== */
 
-const KLUCZ = 'gm:';
+const KLUCZ = 'b26:';
 const LOSOWA = '*';                 // „dowolna litera" — kostka w siatce
 const HISTORIA_MAX = 14;
 
@@ -288,7 +288,7 @@ function pokazMiasto(m) {
   el.wynik.classList.add('wchodzi');
 
   document.getElementById('wyslij-miasto').addEventListener('click', () => {
-    udostepnij(`${m.nazwa} (${m.kraj}) — ${m.opis}`, 'Wylosowane w Gacha Miast');
+    udostepnij(`${m.nazwa} (${m.kraj}) — ${m.opis}`, 'Wylosowane w BANGladesz26');
   });
 }
 
@@ -361,7 +361,7 @@ async function udostepnij(tekst, tytul) {
 }
 
 el.udostepnij.addEventListener('click', () => {
-  udostepnij('Gacha Miast — losownik miast, do których warto pojechać', 'Gacha Miast');
+  udostepnij('BANGladesz26 — losownik miast, do których warto pojechać', 'BANGladesz26');
 });
 
 el.motyw.addEventListener('click', () => {

@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Gacha Miast — szata graficzna
+   BANGladesz26 — szata graficzna
    Noc nad mapą świata: granatowe tło, sakura i cyjan jako akcenty.
    Dwa motywy na zmiennych CSS, jeden przełącznik w pasku.
    ========================================================================== */
@@ -134,7 +134,7 @@ main {
 .tytul h1 {
   margin: 0;
   font-family: var(--display);
-  font-size: clamp(1.3rem, 5.8vw, 1.75rem);
+  font-size: clamp(1.12rem, 5.2vw, 1.6rem);
   font-weight: 800;
   letter-spacing: -.02em;
   line-height: 1.05;

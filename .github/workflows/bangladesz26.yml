@@ -1,0 +1,40 @@
+name: BANGladesz26 — kontrola
+
+# Sama strona publikuje się razem z Przeglądem News (workflow przeglad.yml
+# dokłada katalog bangladesz26/ do wydania Pages jako podstronę). Tutaj zostaje
+# to, co trzeba sprawdzić przy każdej zmianie aplikacji.
+on:
+  push:
+    paths:
+      - "bangladesz26/**"
+      - ".github/workflows/bangladesz26.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sprawdz:
+    name: Sprawdź katalog miast
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Kontrola danych
+        working-directory: bangladesz26
+        run: node narzedzia/sprawdz-dane.mjs >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Sklej wersję jednoplikową
+        working-directory: bangladesz26
+        run: node narzedzia/jeden-plik.mjs
+
+      # Jeden plik HTML do wysłania znajomym — czeka w artefaktach przebiegu.
+      - name: Zachowaj plik do wysyłki
+        uses: actions/upload-artifact@v4
+        with:
+          name: bangladesz26-jeden-plik
+          path: bangladesz26/dist/bangladesz26.html

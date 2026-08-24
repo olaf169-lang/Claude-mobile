@@ -1,8 +1,8 @@
-/* Service worker Gacha Miast: aplikacja ma działać bez sieci.
+/* Service worker BANGladesz26: aplikacja ma działać bez sieci.
    Cała zawartość jest statyczna, więc trzymamy prostą pamięć powłoki
    i podbijamy WERSJA przy każdej zmianie plików. */
 
-const WERSJA = 'gm-v1';
+const WERSJA = 'b26-v1';
 
 const POWLOKA = [
   './',

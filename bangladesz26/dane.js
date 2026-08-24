@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Gacha Miast — katalog miast
+   BANGladesz26 — katalog miast
    Jeden wiersz to jedno miasto:
      [ nazwa, kraj, flaga, kontynent, ludność w tysiącach, po co tam jechać ]
 
