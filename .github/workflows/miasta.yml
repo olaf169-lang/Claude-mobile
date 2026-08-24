@@ -1,0 +1,64 @@
+name: Gacha Miast — strona
+
+# Push sprawdza dane, publikacja idzie wyłącznie z ręki. GitHub Pages serwuje
+# jedną stronę na repozytorium, więc to, co stoi pod adresem projektu, ma być
+# świadomą decyzją, a nie skutkiem ubocznym commita.
+on:
+  push:
+    paths:
+      - "miasta/**"
+      - ".github/workflows/miasta.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: gacha-miast
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  sprawdz:
+    name: Sprawdź katalog miast
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Kontrola danych
+        working-directory: miasta
+        run: node narzedzia/sprawdz-dane.mjs >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Sklej wersję jednoplikową
+        working-directory: miasta
+        run: node narzedzia/jeden-plik.mjs
+
+      # Jeden plik HTML do wysłania znajomym — czeka w artefaktach przebiegu.
+      - name: Zachowaj plik do wysyłki
+        uses: actions/upload-artifact@v4
+        with:
+          name: gacha-miast-jeden-plik
+          path: miasta/dist/gacha-miast.html
+
+      - name: Przygotuj stronę
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: miasta
+
+  publikuj:
+    name: Opublikuj stronę
+    needs: sprawdz
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
