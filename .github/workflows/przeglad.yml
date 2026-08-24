@@ -13,6 +13,7 @@ on:
   push:
     paths:
       - "web/**"
+      - "bangladesz26/**"
       - ".github/workflows/przeglad.yml"
   schedule:
     - cron: "0 6 * * *"
@@ -145,6 +146,19 @@ jobs:
           if d["braki"]:
               print(f"\n⚠️ Brak materiału w działach: {', '.join(d['braki'])}")
           PY
+
+      # Druga aplikacja z repozytorium jedzie tym samym wydaniem Pages, tyle że
+      # pod adresem /bangladesz26/. Kopiujemy tylko to, co ma stanąć na stronie —
+      # narzędzia, zrzuty i README zostają w repozytorium.
+      - name: Dołóż BANGladesz26 do strony
+        run: |
+          set -euo pipefail
+          rm -rf web/bangladesz26
+          mkdir -p web/bangladesz26
+          cp -r bangladesz26/. web/bangladesz26/
+          rm -rf web/bangladesz26/narzedzia web/bangladesz26/docs \
+                 web/bangladesz26/dist web/bangladesz26/README.md web/bangladesz26/.gitignore
+          test -f web/bangladesz26/index.html
 
       - name: Przygotuj stronę
         uses: actions/upload-pages-artifact@v3

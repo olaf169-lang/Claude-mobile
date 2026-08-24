@@ -137,6 +137,16 @@ Publikujesz gdzie indziej niż na GitHub Pages? Zmień `przegladUrl` w `android/
 
 Powiadomienie pojawia się raz na wydanie — nie przy każdym sprawdzeniu.
 
+## Druga aplikacja w repozytorium
+
+Pod tym samym adresem stoi też **[BANGladesz26](bangladesz26/README.md)** —
+losownik miast świata na zadaną literę, do których warto pojechać:
+`https://olaf169-lang.github.io/Claude-mobile/bangladesz26/`.
+
+To osobna, statyczna aplikacja w katalogu `bangladesz26/`. Nie ma wspólnego kodu z Przeglądem;
+dzieli z nim tylko wydanie Pages — krok *Dołóż BANGladesz26 do strony* w `przeglad.yml`
+kopiuje ją do publikowanej strony jako podkatalog.
+
 ## Konfiguracja
 
 **Źródła i działy** — `collector/sources.py`. Jeden segment to nazwa, emoji, lista kanałów

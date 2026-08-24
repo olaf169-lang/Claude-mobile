@@ -10,3 +10,6 @@ android/build/
 android/app/build/
 android/local.properties
 *.apk
+
+# Podstrona BANGladesz26 składana w czasie publikacji, nie w repozytorium
+web/bangladesz26/
