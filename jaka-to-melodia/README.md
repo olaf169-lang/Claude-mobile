@@ -24,6 +24,21 @@ Miejsca jest na **20 telefonów**, wygodnie gra się do czternastu. Każdy potrz
 internetu, ale niekoniecznie tego samego wi-fi — telefony spotykają się przez
 publiczny broker w sieci, nie przez lokalną sieć.
 
+### We dwoje, w pojedynkę i w tłumie
+
+Domyślnie **prowadzący też gra**: na jego ekranie te same cztery kafelki są
+klikalne, a punkty liczą mu się na dokładnie tych samych zasadach co reszcie
+— czas od pokazania pytania, bez taryfy ulgowej. Dzięki temu do gry wystarczą
+**dwie osoby**, a nawet jedna, jeśli chce sprawdzić samą siebie. Gdy wszyscy
+odpowiedzą, runda odsłania się od razu, bez czekania do końca zegara.
+
+Na większej imprezie warto to wyłączyć (*Ja też gram* w ustawieniach): telefon
+prowadzącego leży wtedy przy głośniku i służy za tablicę, na którą wszyscy
+patrzą, a gra się wyłącznie ze swoich.
+
+Prowadzący nie ma przy tym przewagi — prawidłowa odpowiedź nie pojawia się
+nigdzie przed odsłoną, także na jego ekranie.
+
 ## Punkty
 
 Maksimum za rundę to **100 punktów** i dostaje je tylko ten, kto klika
@@ -108,6 +123,7 @@ i „Dawid Podsiadło & Taco Hemingway”.
 
 | | |
 |---|---|
+| **Ja też gram** | Prowadzący odpowiada na swoim telefonie. Wyłącz, gdy ma być tablicą przy głośniku. |
 | **Kategorie i dekady** | Dowolne połączenie; licznik od razu pokazuje, ile utworów zostaje w puli. |
 | **Czas na odpowiedź** | 5, 7, 10, 15 albo 20 sekund. |
 | **Liczba rund** | Od 5 do 25. Jeśli pula jest mniejsza, gra po prostu się skróci. |
@@ -165,10 +181,12 @@ npm test             # katalog, silnik, połączenie, dobieranie nagrań
 npm run test:przegladarka   # pełna rozgrywka: prowadzący i pięć telefonów
 ```
 
-Test przeglądarkowy stawia własny broker i własny serwer plików, otwiera sześć
-kart i przechodzi grę od lobby do podium. Sprawdza między innymi, czy szybsza
-odpowiedź daje więcej punktów, czy telefon wchodzący w środku rundy dostaje resztę
-czasu i czy poprawna odpowiedź nie pojawia się w eterze przed odsłoną.
+Test przeglądarkowy stawia własny broker i własny serwer plików, po czym rozgrywa
+dwie pełne gry: imprezową (prowadzący plus cztery telefony, od lobby do podium)
+i we dwoje (prowadzący w stawce plus jeden telefon). Sprawdza między innymi, czy
+szybsza odpowiedź daje więcej punktów — także wtedy, gdy szybszy jest prowadzący —
+czy telefon wchodzący w środku rundy dostaje resztę czasu i czy poprawna odpowiedź
+nie pojawia się w eterze przed odsłoną.
 
 ## Gdy coś nie działa
 

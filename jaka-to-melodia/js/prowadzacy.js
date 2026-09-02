@@ -9,7 +9,7 @@
    w połowie albo na moment stracił zasięg, dostraja się sam, bez proszenia.
    ========================================================================== */
 
-import { $, $$, el, wyczysc, pokazEkran, powiadom, odmiana, trzymajEkran } from './ui.js';
+import { $, $$, el, wyczysc, pokazEkran, powiadom, odmiana, stuknij, trzymajEkran } from './ui.js';
 import { KATEGORIE, DEKADY, przygotujKatalog } from './katalog.js';
 import {
   USTAWIENIA_DOMYSLNE, CZASY_ODPOWIEDZI, MAKS_GRACZY,
@@ -28,6 +28,12 @@ const CZAS_ZNIKNIECIA_MS = 25_000;        // po tylu bez znaku życia gracz szar
 
 const KLUCZ_USTAWIEN = 'jtm:ustawienia';
 
+// Prowadzący bywa też graczem. Siedzi wtedy w tej samej mapie co reszta, więc
+// punktacja, tabela i podium nie wiedzą, że jest w czymkolwiek wyjątkowy.
+// Krzyżyk na początku wyklucza zderzenie z identyfikatorem telefonu, bo te
+// składają się wyłącznie z liter i cyfr.
+const ID_PROWADZACEGO = '#prowadzacy';
+
 export function uruchom() {
   const katalog = przygotujKatalog();
   const zrodlo = new ZrodloPodgladow();
@@ -45,6 +51,7 @@ export function uruchom() {
     odpowiedzi: new Map(),
     ostatniaOdslona: null,
     blokadaEkranu: null,
+    pokazanoRunde: 0,        // od tego momentu liczy się czas odpowiedzi prowadzącego
   };
 
   let tykanie = null;
@@ -53,15 +60,24 @@ export function uruchom() {
   /* ------------------------------------------------------------ ustawienia */
 
   function wczytajUstawienia() {
+    let ustawienia = { ...USTAWIENIA_DOMYSLNE };
     try {
       const zapisane = JSON.parse(localStorage.getItem(KLUCZ_USTAWIEN) || 'null');
-      if (zapisane) return { ...USTAWIENIA_DOMYSLNE, ...zapisane };
+      if (zapisane) ustawienia = { ...ustawienia, ...zapisane };
+      // Ksywkę dzielimy z trybem gracza — kto raz grał na tym telefonie,
+      // nie musi jej wpisywać drugi raz.
+      ustawienia.ksywkaProwadzacego ||= localStorage.getItem('jtm:ksywka') || '';
     } catch { /* pierwszy raz albo zepsuty wpis */ }
-    return { ...USTAWIENIA_DOMYSLNE };
+    return ustawienia;
   }
 
   function zapiszUstawienia() {
-    try { localStorage.setItem(KLUCZ_USTAWIEN, JSON.stringify(stan.ustawienia)); } catch { /* nieistotne */ }
+    try {
+      localStorage.setItem(KLUCZ_USTAWIEN, JSON.stringify(stan.ustawienia));
+      if (stan.ustawienia.ksywkaProwadzacego) {
+        localStorage.setItem('jtm:ksywka', stan.ustawienia.ksywkaProwadzacego);
+      }
+    } catch { /* nieistotne */ }
   }
 
   function znaczek(tekst, wcisniety, przyKliknieciu) {
@@ -132,6 +148,9 @@ export function uruchom() {
       }));
     }
 
+    $('#opcja-ja-gram').checked = stan.ustawienia.prowadzacyGra;
+    $('#ksywka-prowadzacego').value = stan.ustawienia.ksywkaProwadzacego;
+    $('#pole-ksywki-prowadzacego').hidden = !stan.ustawienia.prowadzacyGra;
     $('#opcja-dzwiek').checked = stan.ustawienia.dzwiekWAplikacji;
     $('#opcja-fragment').checked = stan.ustawienia.losowyFragment;
     $('#opcja-seria').checked = stan.ustawienia.bonusSerii;
@@ -162,6 +181,42 @@ export function uruchom() {
     $('#otworz-pokoj').disabled = ile === 0;
   }
 
+  $('#opcja-ja-gram').addEventListener('change', (z) => {
+    stan.ustawienia.prowadzacyGra = z.target.checked;
+    $('#pole-ksywki-prowadzacego').hidden = !z.target.checked;
+    zsynchronizujProwadzacego();
+    zapiszUstawienia();
+  });
+
+  $('#ksywka-prowadzacego').addEventListener('input', (z) => {
+    stan.ustawienia.ksywkaProwadzacego = z.target.value.slice(0, 14);
+    zsynchronizujProwadzacego();
+    zapiszUstawienia();
+  });
+
+  /**
+   * Dopisuje prowadzącego do stawki albo go z niej wyjmuje. Wołane przy każdej
+   * zmianie ustawienia i przy otwieraniu pokoju, żeby lista graczy zawsze
+   * zgadzała się z tym, co widać na ekranie.
+   */
+  function zsynchronizujProwadzacego() {
+    const gra = stan.ustawienia.prowadzacyGra;
+    const ksywka = (stan.ustawienia.ksywkaProwadzacego || '').trim().slice(0, 14) || 'Ja';
+    const wpis = stan.gracze.get(ID_PROWADZACEGO);
+
+    if (!gra) {
+      stan.gracze.delete(ID_PROWADZACEGO);
+    } else if (wpis) {
+      wpis.ksywka = ksywka;
+      wpis.widziany = Date.now();
+    } else {
+      stan.gracze.set(ID_PROWADZACEGO, {
+        id: ID_PROWADZACEGO, ksywka, punkty: 0, trafienia: 0, seria: 0, widziany: Date.now(),
+      });
+    }
+    if (stan.faza === 'lobby') { rysujLobby(); nadajStan(); }
+  }
+
   for (const [pole, klucz] of [['#opcja-dzwiek', 'dzwiekWAplikacji'], ['#opcja-fragment', 'losowyFragment'], ['#opcja-seria', 'bonusSerii']]) {
     $(pole).addEventListener('change', (z) => {
       stan.ustawienia[klucz] = z.target.checked;
@@ -187,6 +242,7 @@ export function uruchom() {
       const miejsceQr = wyczysc($('#qr'));
       miejsceQr.append(kodQr(adres));
       $('#pojemnosc').textContent = `miejsc: ${MAKS_GRACZY} · łącze: ${broker}`;
+      zsynchronizujProwadzacego();
       stan.faza = 'lobby';
       pokazEkran('lobby');
       rysujLobby();
@@ -203,13 +259,15 @@ export function uruchom() {
     const lista = wyczysc($('#lista-graczy'));
     const gracze = [...stan.gracze.values()];
     for (const gracz of gracze) {
+      const toJa = gracz.id === ID_PROWADZACEGO;
       lista.append(el('li', {
         klasa: 'gracz',
-        'data-znikl': Date.now() - gracz.widziany > CZAS_ZNIKNIECIA_MS ? 'tak' : 'nie',
-      }, [el('span', { klasa: 'kropka' }), gracz.ksywka]));
+        'data-znikl': !toJa && Date.now() - gracz.widziany > CZAS_ZNIKNIECIA_MS ? 'tak' : 'nie',
+      }, [el('span', { klasa: 'kropka' }), toJa ? `${gracz.ksywka} (ty)` : gracz.ksywka]));
     }
     $('#liczba-graczy').textContent = String(gracze.length);
     $('#lobby-pusto').hidden = gracze.length > 0;
+    // Wystarczy jedna osoba w stawce — prowadzący, który gra, jest jedną z nich.
     $('#zacznij-gre').disabled = gracze.length === 0;
   }
 
@@ -272,6 +330,8 @@ export function uruchom() {
   function przyjmijGracza({ id, ksywka }) {
     const czysta = String(ksywka || '').trim().slice(0, 14) || 'Ktoś';
     let gracz = stan.gracze.get(id);
+
+    if (id === ID_PROWADZACEGO) return;        // to miejsce jest zajęte lokalnie
 
     if (!gracz) {
       if (stan.gracze.size >= MAKS_GRACZY) {
@@ -353,7 +413,9 @@ export function uruchom() {
     $('#pytanie-hosta').textContent = runda.pytanie;
     rysujOdpowiedziHosta(runda);
     $('#uwaga-dzwieku').textContent = stan.ustawienia.dzwiekWAplikacji ? '' : 'Puść fragment ze swojego źródła.';
+    $('#potwierdzenie-hosta').hidden = true;
     pokazEkran('runda');
+    stan.pokazanoRunde = performance.now();
 
     if (stan.ustawienia.dzwiekWAplikacji) await puscUtwor(runda.utwor);
 
@@ -365,12 +427,40 @@ export function uruchom() {
 
   function rysujOdpowiedziHosta(runda) {
     const miejsce = wyczysc($('#odpowiedzi-hosta'));
+    const gram = stan.ustawienia.prowadzacyGra;
+    // Ta sama siatka służy za tablicę dla pokoju i za brzęczyk prowadzącego —
+    // klikalna tylko wtedy, gdy prowadzący jest też w stawce.
+    miejsce.classList.toggle('grywalne', gram);
     runda.odpowiedzi.forEach((tresc, nr) => {
-      miejsce.append(el('div', { klasa: 'odp', 'data-kolor': nr, 'data-nr': nr }, [
+      const dzieci = [
         el('span', { klasa: 'ksztalt', 'aria-hidden': 'true', tekst: KSZTALTY[nr] }),
         el('span', { klasa: 'tresc', tekst: tresc }),
-      ]));
+      ];
+      miejsce.append(gram
+        ? el('button', { klasa: 'odp', type: 'button', 'data-kolor': nr, 'data-nr': nr,
+            naclick: () => odpowiedzProwadzacego(nr) }, dzieci)
+        : el('div', { klasa: 'odp', 'data-kolor': nr, 'data-nr': nr }, dzieci));
     });
+  }
+
+  /** Prowadzący klika u siebie; czas liczy się od pokazania rundy na tym ekranie. */
+  function odpowiedzProwadzacego(nr) {
+    if (stan.faza !== 'runda' || !stan.ustawienia.prowadzacyGra) return;
+    if (stan.odpowiedzi.has(ID_PROWADZACEGO)) return;
+
+    const czasMs = Math.round(performance.now() - stan.pokazanoRunde);
+    przyjmijOdpowiedz({ id: ID_PROWADZACEGO, nr: stan.nrRundy, wybor: nr, czasMs });
+    stuknij([12, 40, 12]);
+
+    for (const kafelek of $('#odpowiedzi-hosta').children) {
+      const jego = Number(kafelek.dataset.nr);
+      kafelek.dataset.wybrana = jego === nr ? 'tak' : 'nie';
+      if (jego !== nr) kafelek.dataset.stan = 'przygasla';
+      kafelek.disabled = true;
+    }
+    const sekundy = (czasMs / 1000).toFixed(1).replace('.', ',');
+    $('#potwierdzenie-hosta').textContent = `Zapisane po ${sekundy} s.`;
+    $('#potwierdzenie-hosta').hidden = false;
   }
 
   async function puscUtwor(utwor) {
@@ -500,8 +590,31 @@ export function uruchom() {
       trafili.append(el('p', { klasa: 'nikt-nie-trafil', tekst: 'Nikt nie trafił. Bywa.' }));
     }
 
-    rysujRanking($('#ranking-podglad'), tabela.slice(0, 5));
+    pokazWerdyktProwadzacego();
+    rysujRanking($('#ranking-podglad'), tabela.slice(0, 5),
+      stan.ustawienia.prowadzacyGra ? ID_PROWADZACEGO : null);
     $('#nastepna-runda').textContent = stan.ostatniaOdslona.ostatnia ? 'Podsumowanie' : 'Następna runda';
+  }
+
+  /** Gdy prowadzący gra, ma prawo wiedzieć, jak mu poszło — tak jak reszta. */
+  function pokazWerdyktProwadzacego() {
+    const werdykt = $('#werdykt-hosta');
+    const moj = stan.ostatniaOdslona?.wyniki?.[ID_PROWADZACEGO];
+    if (!stan.ustawienia.prowadzacyGra || !moj) {
+      werdykt.hidden = true;
+      return;
+    }
+    werdykt.hidden = false;
+    if (moj.trafil) {
+      werdykt.dataset.jak = 'dobrze';
+      werdykt.innerHTML = `Dobrze!<span class="punkty">+${moj.punkty} pkt · razem ${moj.razem}</span>`;
+    } else if (moj.odpowiedzial) {
+      werdykt.dataset.jak = 'zle';
+      werdykt.innerHTML = `Pudło<span class="punkty">razem ${moj.razem} pkt</span>`;
+    } else {
+      werdykt.dataset.jak = 'brak';
+      werdykt.innerHTML = `Nie zdążyłeś<span class="punkty">razem ${moj.razem} pkt</span>`;
+    }
   }
 
   function rysujRanking(lista, tabela, mojeId = null) {
@@ -535,7 +648,7 @@ export function uruchom() {
       ]));
     }
 
-    rysujRanking($('#ranking-koncowy'), tabela);
+    rysujRanking($('#ranking-koncowy'), tabela, stan.ustawienia.prowadzacyGra ? ID_PROWADZACEGO : null);
     nadajStan();
     pokazEkran('koniec');
   }

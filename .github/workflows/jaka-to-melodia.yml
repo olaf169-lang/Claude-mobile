@@ -24,7 +24,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: jaka-to-melodia
+  # Osobna kolejka na gałąź: push na roboczą nie ma blokować głównej.
+  group: jaka-to-melodia-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -87,18 +88,21 @@ jobs:
 
       - name: Pobierz podglądy
         working-directory: jaka-to-melodia
-        timeout-minutes: 25
+        timeout-minutes: 20
         run: |
           node narzedzia/pobierz-podglady.mjs \
             --czesc ${{ matrix.czesc }} --z 5 \
             --plik czesc-${{ matrix.czesc }}.json \
             ${{ github.event.inputs.odswiez == 'tak' && '--odswiez' || '' }}
 
+      # Skrypt zapisuje postęp na bieżąco, więc nawet część ucięta limitem
+      # czasu zostawia dorobek — i on też ma trafić do repozytorium.
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: podglady-${{ matrix.czesc }}
           path: jaka-to-melodia/czesc-${{ matrix.czesc }}.json
-          if-no-files-found: error
+          if-no-files-found: warn
 
   scal:
     name: Złóż i zapisz

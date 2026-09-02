@@ -72,7 +72,7 @@ export const UTWORY = [
   // --- rap / hip-hop (10) ---
   { tytul: 'The Message', wykonawca: 'Grandmaster Flash & The Furious Five', rok: 1982, gatunek: 'rap' },
   { tytul: '(You Gotta) Fight for Your Right (To Party!)', wykonawca: 'Beastie Boys', rok: 1986, gatunek: 'rap' },
-  { tytul: 'Walk This Way', wykonawca: 'Run-D.M.C.', rok: 1986, gatunek: 'rap' },
+  { tytul: 'Walk This Way', wykonawca: 'Run-DMC', rok: 1986, gatunek: 'rap' },
   { tytul: 'Paid in Full', wykonawca: 'Eric B. & Rakim', rok: 1987, gatunek: 'rap' },
   { tytul: 'I Need Love', wykonawca: 'LL Cool J', rok: 1987, gatunek: 'rap' },
   { tytul: 'Push It', wykonawca: 'Salt-N-Pepa', rok: 1987, gatunek: 'rap' },
@@ -300,7 +300,7 @@ export const UTWORY = [
   { tytul: 'Crank That (Soulja Boy)', wykonawca: 'Soulja Boy', rok: 2007, gatunek: 'rap' },
   { tytul: 'Lollipop', wykonawca: 'Lil Wayne', rok: 2008, gatunek: 'rap' },
   // --- dance / elektronika (20) ---
-  { tytul: 'Around the World (La La La La La)', wykonawca: 'ATC', rok: 2000, gatunek: 'dance' },
+  { tytul: 'Around the World', wykonawca: 'ATC', rok: 2000, gatunek: 'dance' },
   { tytul: 'One More Time', wykonawca: 'Daft Punk', rok: 2000, gatunek: 'dance' },
   { tytul: 'Castles in the Sky', wykonawca: 'Ian Van Dahl', rok: 2000, gatunek: 'dance' },
   { tytul: 'Lady (Hear Me Tonight)', wykonawca: 'Modjo', rok: 2000, gatunek: 'dance' },

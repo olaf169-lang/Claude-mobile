@@ -122,6 +122,18 @@
   </fieldset>
 
   <fieldset class="grupa">
+    <legend>Kto gra</legend>
+    <label class="przelacznik">
+      <input type="checkbox" id="opcja-ja-gram" checked>
+      <span><strong>Ja też gram</strong><small>Odpowiadasz na tym samym telefonie, na którym prowadzisz — wtedy wystarczą dwie osoby, a nawet jedna.</small></span>
+    </label>
+    <label class="pole wciete" id="pole-ksywki-prowadzacego">
+      <span>Twoja ksywka</span>
+      <input id="ksywka-prowadzacego" maxlength="14" placeholder="np. Olaf" autocomplete="off">
+    </label>
+  </fieldset>
+
+  <fieldset class="grupa">
     <legend>Dodatki</legend>
     <label class="przelacznik">
       <input type="checkbox" id="opcja-dzwiek" checked>
@@ -185,6 +197,7 @@
   </div>
   <h2 class="pytanie" id="pytanie-hosta">Co to za piosenka?</h2>
   <div class="odpowiedzi" id="odpowiedzi-hosta"></div>
+  <p class="potwierdzenie" id="potwierdzenie-hosta" hidden></p>
   <p class="drobne srodek" id="uwaga-dzwieku"></p>
   <div class="stopka-ekranu">
     <button class="klawisz" id="pomin-runde" type="button">Pomiń</button>
@@ -194,6 +207,7 @@
 
 <!-- =========================== ODSŁONA ============================ -->
 <section data-ekran="odslona" class="ekran" hidden>
+  <div class="werdykt maly" id="werdykt-hosta" hidden></div>
   <div class="odsloniete">
     <img class="okladka" id="okladka" alt="" hidden>
     <div class="odsloniete-tresc">

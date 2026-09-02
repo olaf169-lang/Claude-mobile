@@ -107,6 +107,7 @@ try {
   await host.click('#wybor-czasu .znaczek >> nth=2');        // 10 s
   await host.click('#wybor-rund .znaczek >> nth=0');         // 5 rund
   await host.uncheck('#opcja-dzwiek');                       // w teście nie ma czego grać
+  await host.uncheck('#opcja-ja-gram');                      // tu prowadzący tylko prowadzi
 
   await host.click('#otworz-pokoj');
   await host.waitForSelector('[data-ekran="lobby"]:not([hidden])', { timeout: 20_000 });
@@ -139,6 +140,11 @@ try {
   await host.click('#zacznij-gre');
   await host.waitForSelector('[data-ekran="runda"]:not([hidden])', { timeout: 10_000 });
   for (const g of gracze) await g.strona.waitForSelector('[data-ekran="gracz-runda"]:not([hidden])', { timeout: 10_000 });
+
+  // Prowadzący, który nie gra, ma tablicę, a nie brzęczyk — kafelki nie klikają.
+  assert.equal(await host.$$eval('#odpowiedzi-hosta .odp', (n) => n.filter((e) => e.tagName === 'BUTTON').length), 0,
+    'kafelki prowadzącego są klikalne, mimo że nie gra');
+  zapisz('prowadzący poza stawką ma kafelki tylko do pokazywania');
 
   const pytanieHosta = (await host.textContent('#pytanie-hosta')).trim();
   const odpowiedziHosta = await host.$$eval('#odpowiedzi-hosta .tresc', (n) => n.map((e) => e.textContent));
@@ -238,6 +244,65 @@ try {
   assert.match(await gracze[0].strona.textContent('#moje-miejsce'), /1\. miejsce/);
   await zrzut(gracze[0].strona, 'ekran-koniec-gracz');
   zapisz('gracze widzą swoje miejsce w tabeli końcowej');
+
+  /* ===================== gra we dwoje, bez osobnego prowadzącego ===================== */
+
+  const dwoje = await nowaKarta('Olaf', 420, 920);
+  await dwoje.goto(ADRES, { waitUntil: 'domcontentloaded' });
+  await dwoje.click('#rola-prowadzacy');
+  await dwoje.waitForSelector('[data-ekran="ustawienia"]:not([hidden])');
+  await dwoje.click('#wybor-czasu .znaczek >> nth=2');       // 10 s
+  await dwoje.click('#wybor-rund .znaczek >> nth=0');        // 5 rund
+  await dwoje.uncheck('#opcja-dzwiek');
+  assert.equal(await dwoje.isChecked('#opcja-ja-gram'), true, '„Ja też gram” powinno być domyślnie włączone');
+  await dwoje.fill('#ksywka-prowadzacego', 'Olaf');
+
+  await dwoje.click('#otworz-pokoj');
+  await dwoje.waitForSelector('[data-ekran="lobby"]:not([hidden])', { timeout: 20_000 });
+  const kodDwoje = (await dwoje.textContent('#kod-pokoju')).trim();
+
+  assert.equal(await dwoje.textContent('#liczba-graczy'), '1', 'prowadzący nie policzył się do stawki');
+  assert.match(await dwoje.textContent('#lista-graczy'), /Olaf \(ty\)/);
+  assert.equal(await dwoje.isDisabled('#zacznij-gre'), false, 'nie da się zacząć, choć jedna osoba już jest');
+  zapisz('prowadzący, który gra, stoi w stawce i sam wystarczy, żeby zacząć');
+
+  const drugi = await nowaKarta('Kasia', 390, 844);
+  await drugi.goto(`http://127.0.0.1:${PORT_STRON}/${PARAMETRY}#/dolacz/${kodDwoje}/0`, { waitUntil: 'domcontentloaded' });
+  await drugi.waitForSelector('[data-ekran="dolaczanie"]:not([hidden])');
+  await drugi.fill('#pole-ksywki', 'Kasia');
+  await drugi.click('#dolacz');
+  await drugi.waitForSelector('[data-ekran="poczekalnia"]:not([hidden])', { timeout: 20_000 });
+  await dwoje.waitForFunction(() => document.querySelector('#liczba-graczy').textContent === '2', undefined, { timeout: 10_000 });
+  zapisz('drugi telefon dołącza — gra we dwoje');
+
+  await dwoje.click('#zacznij-gre');
+  await dwoje.waitForSelector('[data-ekran="runda"]:not([hidden])', { timeout: 10_000 });
+  await drugi.waitForSelector('[data-ekran="gracz-runda"]:not([hidden])', { timeout: 10_000 });
+
+  const poprawnaDwoje = oczekiwaneRundy[0].poprawna;
+  await dwoje.click(`#odpowiedzi-hosta .odp >> nth=${poprawnaDwoje}`);
+  assert.match(await dwoje.textContent('#potwierdzenie-hosta'), /Zapisane po/);
+  zapisz('prowadzący odpowiada na swoim ekranie i dostaje potwierdzenie');
+
+  await czekaj(2500);
+  await drugi.click(`#odpowiedzi-gracza .odp >> nth=${poprawnaDwoje}`);
+
+  // Obie osoby kliknęły — runda nie ma na co czekać do końca czasu.
+  await dwoje.waitForSelector('[data-ekran="odslona"]:not([hidden])', { timeout: 8000 });
+  zapisz('gdy odpowiedzą wszyscy, runda odsłania się od razu');
+
+  const werdyktHosta = (await dwoje.textContent('#werdykt-hosta')).replace(/\s+/g, ' ').trim();
+  assert.match(werdyktHosta, /Dobrze!/, `prowadzący nie dostał werdyktu: ${werdyktHosta}`);
+  const punktyHosta = Number(werdyktHosta.match(/\+(\d+)/)[1]);
+  const punktyDrugiego = Number((await drugi.textContent('#werdykt')).match(/\+(\d+)/)?.[1] ?? 0);
+  assert.ok(punktyHosta > punktyDrugiego,
+    `prowadzący kliknął wcześniej, a ma mniej punktów: ${punktyHosta} vs ${punktyDrugiego}`);
+  zapisz(`prowadzący liczy się na tych samych zasadach: ${punktyHosta} vs ${punktyDrugiego} pkt`);
+
+  const mojWiersz = await dwoje.$$eval('#ranking-podglad li', (n) => n.map((e) => [e.dataset.ja, e.textContent.replace(/\s+/g, ' ').trim()]));
+  assert.ok(mojWiersz.some(([ja, tekst]) => ja === 'tak' && tekst.includes('Olaf')), 'własny wiersz w tabeli nie jest wyróżniony');
+  zapisz('w tabeli widać, który wiersz jest twój');
+  await zrzut(dwoje, 'ekran-odslona-we-dwoje', true);
 
   assert.deepEqual([...new Set(bledy)], [], 'błędy w konsoli przeglądarki');
   console.log(`\nPRZEGLĄDARKA OK — ${zdane.length} sprawdzeń`);

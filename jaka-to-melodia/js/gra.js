@@ -24,6 +24,8 @@ export const USTAWIENIA_DOMYSLNE = {
   bonusSerii: false,            // +10 pkt za każdą kolejną trafioną rundę (maks. +50)
   losowyFragment: false,        // zaczynaj podgląd w losowym miejscu — trudniej
   dzwiekWAplikacji: true,       // false = muzykę puszcza prowadzący z zewnątrz
+  prowadzacyGra: true,          // prowadzący odpowiada na swoim telefonie jak reszta
+  ksywkaProwadzacego: '',
 };
 
 /* --- losowanie z ziarnem: ta sama gra da się powtórzyć w testach --- */

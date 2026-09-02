@@ -42,11 +42,22 @@ const ODSTEP_DEEZERA_MS = 300;
 
 const spij = (ms) => (ms > 0 ? new Promise((r) => setTimeout(r, ms)) : Promise.resolve());
 
-/** Przepustnica: wpuszcza kolejne zapytanie nie częściej niż co `odstepMs`. */
+/**
+ * Przepustnica z własnym rozumem. Wpuszcza zapytania nie częściej niż co
+ * `odstepMs`, ale sama koryguje tempo: po odmowie zwalnia, po serii trafień
+ * wraca do bazowego odstępu.
+ *
+ * Potrzebne, bo prawdziwego limitu nie da się z góry policzyć. Maszyny
+ * GitHuba potrafią wychodzić do sieci wspólnym adresem, więc pięć równoległych
+ * części bywa liczone przez sklep jako jeden pytający — i wtedy nasze
+ * „osiemnaście na minutę” robi się dziewięćdziesiąt.
+ */
 class Bramka {
   constructor(odstepMs) {
+    this.odstepBazowy = odstepMs;
     this.odstepMs = odstepMs;
     this.wolneOd = 0;
+    this.podRzad = 0;
   }
 
   async przepusc() {
@@ -54,6 +65,19 @@ class Bramka {
     const czekanie = Math.max(0, this.wolneOd - teraz);
     this.wolneOd = Math.max(teraz, this.wolneOd) + this.odstepMs;
     await spij(czekanie);
+  }
+
+  odmowa() {
+    this.podRzad = 0;
+    this.odstepMs = Math.min(this.odstepMs * 1.6, Math.max(this.odstepBazowy * 6, 20_000));
+  }
+
+  trafienie() {
+    this.podRzad += 1;
+    if (this.podRzad >= 15 && this.odstepMs > this.odstepBazowy) {
+      this.podRzad = 0;
+      this.odstepMs = Math.max(this.odstepBazowy, this.odstepMs * 0.8);
+    }
   }
 }
 
@@ -70,12 +94,13 @@ async function pobierzJson(adres, { bramka, proby = 2, log } = {}) {
         signal: AbortSignal.timeout(20_000),
       });
       if (odpowiedz.status === 403 || odpowiedz.status === 429) {
+        bramka.odmowa();
         if (proba === proby) return null;
-        log?.('  (sklep przycina zapytania — dłuższa przerwa)');
-        await spij(30_000);
+        log?.(`  (sklep przycina — zwalniam do ${(bramka.odstepMs / 1000).toFixed(1)} s)`);
         continue;
       }
       if (!odpowiedz.ok) return null;
+      bramka.trafienie();
       return await odpowiedz.json();
     } catch (blad) {
       if (proba === proby) {
@@ -163,6 +188,23 @@ export async function uzupelnijPodglady({
   const znalezione = {};
   const braki = [];
 
+  // Wynik zapisujemy co kilkanaście utworów, a nie dopiero na końcu. Gdy
+  // zadanie zostanie ucięte limitem czasu, dorobek zostaje — następny przebieg
+  // pominie to, co już mamy, i pójdzie dalej.
+  const zapisz = () => {
+    const wynik = {
+      wersja: 1,
+      wygenerowano: new Date().toISOString(),
+      utwory: { ...znane, ...znalezione },
+      braki,
+      ukonczone: przerobione === doZrobienia.length,
+    };
+    mkdirSync(dirname(plikWyniku), { recursive: true });
+    writeFileSync(plikWyniku, `${JSON.stringify(wynik, null, 1)}\n`);
+    return wynik;
+  };
+  let przerobione = 0;
+
   for (const [nr, utwor] of doZrobienia.entries()) {
     const etykieta = `${utwor.wykonawca} — ${utwor.tytul}`;
     const trafienie = await znajdz(utwor, bramki, log);
@@ -180,19 +222,14 @@ export async function uzupelnijPodglady({
       braki.push(etykieta);
       log(`  ✗ ${etykieta}`);
     }
-    if (nr % 25 === 24) log(`  … ${nr + 1}/${doZrobienia.length}`);
+    przerobione = nr + 1;
+    if (nr % 10 === 9) {
+      zapisz();
+      log(`  … ${przerobione}/${doZrobienia.length} (tempo ${(bramki.itunes.odstepMs / 1000).toFixed(1)} s)`);
+    }
   }
 
-  const wynik = {
-    wersja: 1,
-    wygenerowano: new Date().toISOString(),
-    // Część przebiegu zapisuje tylko to, co sama znalazła; scalanie dokłada
-    // resztę. Pełny przebieg (bez --od/--do) od razu ma komplet.
-    utwory: { ...znane, ...znalezione },
-    braki,
-  };
-  mkdirSync(dirname(plikWyniku), { recursive: true });
-  writeFileSync(plikWyniku, `${JSON.stringify(wynik, null, 1)}\n`);
+  const wynik = zapisz();
 
   return {
     wynik,
