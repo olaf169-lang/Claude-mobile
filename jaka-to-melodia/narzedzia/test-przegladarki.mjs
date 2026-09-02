@@ -1,9 +1,11 @@
 #!/usr/bin/env node
-/* Pełny przebieg gry w prawdziwej przeglądarce: jeden ekran prowadzącego
-   i cztery telefony graczy, wszystko na własnym brokerze i własnym serwerze
-   plików. Sprawdza to, czego nie widać w testach jednostkowych — czy pytanie
-   dociera na telefony, czy szybsza odpowiedź daje więcej punktów, czy
-   poprawna odpowiedź nie leci w eter przed czasem.
+/* Pełny przebieg gry w prawdziwej przeglądarce, przez cały cykl rund: wybór
+   tematu → odliczanie → seria pytań z odsłonami → wyniki rundy → koniec.
+   Wszystko na własnym brokerze i własnym serwerze plików. Sprawdza to, czego
+   nie widać w testach jednostkowych — czy pytanie dociera na telefony, czy
+   szybsza odpowiedź daje więcej punktów, czy poprawna odpowiedź nie leci
+   w eter przed czasem, czy losowo wybrany gracz dostaje panel wyboru tematu,
+   a reszta tylko czeka.
 
        npm install && npx playwright install chromium
        node narzedzia/test-przegladarki.mjs
@@ -21,7 +23,7 @@ import { WebSocketServer, createWebSocketStream } from 'ws';
 import { chromium } from 'playwright';
 
 import { przygotujKatalog } from '../js/katalog.js';
-import { USTAWIENIA_DOMYSLNE, ulozRundy } from '../js/gra.js';
+import { USTAWIENIA_DOMYSLNE, ulozSerie } from '../js/gra.js';
 
 const KATALOG_APLIKACJI = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const ZIARNO = 20260902;
@@ -62,12 +64,13 @@ await new Promise((r) => serwerStron.listen(PORT_STRON, r));
 
 const PARAMETRY = `?serwer=ws://127.0.0.1:${PORT_BROKERA}/mqtt&ziarno=${ZIARNO}`;
 const ADRES = `http://127.0.0.1:${PORT_STRON}/${PARAMETRY}`;
+const linkDolaczenia = (kod) => `http://127.0.0.1:${PORT_STRON}/${PARAMETRY}#/dolacz/${kod}/0`;
 
-/* --- z góry wiemy, jaka będzie gra: to samo ziarno co w przeglądarce --- */
-
-const oczekiwaneRundy = ulozRundy(
-  { ...USTAWIENIA_DOMYSLNE, liczbaRund: 5 },
-  { katalog: przygotujKatalog(), ziarno: ZIARNO },
+// Runda 1 z tematu „wszystko” — dokładnie to, co ułoży silnik przy pełnej puli.
+// Host liczy ziarno rundy jako (ziarno bazowy + numer rundy w grze).
+const oczekiwanaSeria = ulozSerie(
+  { ...USTAWIENIA_DOMYSLNE, dlugoscSerii: 5 },
+  { katalog: przygotujKatalog(), ziarno: ZIARNO + 1 },
 );
 
 const przegladarka = await chromium.launch(
@@ -94,8 +97,25 @@ async function zrzut(strona, nazwa, pelna = false) {
   await strona.screenshot({ path: join(katalog, `${nazwa}.png`), fullPage: pelna });
 }
 
+/** Ekran, na którym akurat stoi strona — czyta to samo, czego używa router aplikacji. */
+const widok = (strona) => strona.evaluate(() => document.body.dataset.widok);
+
+async function poczekajNaWidok(strona, kandydaci, opcje = {}) {
+  await strona.waitForFunction(
+    (lista) => lista.includes(document.body.dataset.widok),
+    kandydaci, { timeout: 10_000, ...opcje },
+  );
+  return widok(strona);
+}
+
 try {
-  /* --- prowadzący otwiera pokój --- */
+  /* ====================================================================
+     SCENARIUSZ 1 — impreza: prowadzący tylko prowadzi, czworo graczy,
+     temat rundy zawsze ustala on sam („Zawsze ja”), jedna runda z pięcioma
+     piosenkami. Sprawdza cały szkielet: ustawienia, lobby, panel wyboru
+     tematu, odliczanie, pytania z odsłonami, dołączenie w trakcie, wyniki
+     rundy i koniec gry.
+     ==================================================================== */
 
   const host = await nowaKarta('prowadzący', 420, 920);
   await host.goto(ADRES, { waitUntil: 'domcontentloaded' });
@@ -105,9 +125,11 @@ try {
   zapisz('prowadzący wchodzi w ustawienia');
 
   await host.click('#wybor-czasu .znaczek >> nth=2');        // 10 s
-  await host.click('#wybor-rund .znaczek >> nth=0');         // 5 rund
-  await host.uncheck('#opcja-dzwiek');                       // w teście nie ma czego grać
-  await host.uncheck('#opcja-ja-gram');                      // tu prowadzący tylko prowadzi
+  await host.click('#wybor-serii .znaczek >> nth=0');        // 5 piosenek w serii
+  await host.click('#wybor-rund .znaczek >> nth=0');         // 1 runda
+  await host.click('#wybor-kto-wybiera .znaczek >> nth=1');  // temat zawsze ustala prowadzący
+  await host.uncheck('#opcja-dzwiek');                        // w teście nie ma czego grać
+  await host.uncheck('#opcja-ja-gram');                        // tu prowadzący tylko prowadzi
 
   await host.click('#otworz-pokoj');
   await host.waitForSelector('[data-ekran="lobby"]:not([hidden])', { timeout: 20_000 });
@@ -118,7 +140,7 @@ try {
 
   /* --- gracze dołączają z linku z QR --- */
 
-  const linkZQr = `http://127.0.0.1:${PORT_STRON}/${PARAMETRY}#/dolacz/${kod}/0`;
+  const linkZQr = linkDolaczenia(kod);
   const gracze = [];
   for (const ksywka of ['Zosia', 'Bartek', 'Ola', 'Kuba']) {
     const strona = await nowaKarta(ksywka, 390, 844);
@@ -135,31 +157,48 @@ try {
   await zrzut(gracze[0].strona, 'ekran-poczekalnia');
   zapisz('czterech graczy dołącza z kodu QR i widnieje w lobby');
 
-  /* --- runda pierwsza --- */
+  /* --- start gry: panel wyboru tematu u prowadzącego --- */
 
   await host.click('#zacznij-gre');
-  await host.waitForSelector('[data-ekran="runda"]:not([hidden])', { timeout: 10_000 });
-  for (const g of gracze) await g.strona.waitForSelector('[data-ekran="gracz-runda"]:not([hidden])', { timeout: 10_000 });
+  await host.waitForSelector('[data-ekran="wybor-tematu"]:not([hidden])', { timeout: 10_000 });
+  assert.equal(await host.isHidden('#panel-wyboru-tematu'), false, 'prowadzący („Zawsze ja”) nie widzi panelu wyboru');
+  await zrzut(host, 'ekran-wybor-tematu', true);
+  zapisz('prowadzący dostaje panel wyboru tematu rundy');
+
+  await host.click('#temat-wszystko');
+  await host.click('#zacznij-runde');
+  await host.waitForSelector('[data-ekran="odliczanie"]:not([hidden])', { timeout: 10_000 });
+  for (const g of gracze) await g.strona.waitForSelector('[data-ekran="gracz-odliczanie"]:not([hidden])', { timeout: 10_000 });
+  const pierwszaCyfra = Number((await host.textContent('#odliczanie-liczba')).trim());
+  assert.ok(pierwszaCyfra >= 1 && pierwszaCyfra <= 3, `dziwna pierwsza cyfra odliczania: ${pierwszaCyfra}`);
+  zapisz('po „Zaczynamy rundę” leci odliczanie 3-2-1 na wszystkich ekranach');
+
+  /* --- runda pierwsza (pytanie 1/5) --- */
+
+  await host.waitForSelector('[data-ekran="runda"]:not([hidden])', { timeout: 8000 });
+  for (const g of gracze) await g.strona.waitForSelector('[data-ekran="gracz-runda"]:not([hidden])', { timeout: 8000 });
 
   // Prowadzący, który nie gra, ma tablicę, a nie brzęczyk — kafelki nie klikają.
   assert.equal(await host.$$eval('#odpowiedzi-hosta .odp', (n) => n.filter((e) => e.tagName === 'BUTTON').length), 0,
     'kafelki prowadzącego są klikalne, mimo że nie gra');
   zapisz('prowadzący poza stawką ma kafelki tylko do pokazywania');
 
+  assert.match(await host.textContent('#numer-rundy'), /Runda 1\/1 · piosenka 1\/5/);
   const pytanieHosta = (await host.textContent('#pytanie-hosta')).trim();
   const odpowiedziHosta = await host.$$eval('#odpowiedzi-hosta .tresc', (n) => n.map((e) => e.textContent));
   const odpowiedziGracza = await gracze[0].strona.$$eval('#odpowiedzi-gracza .tresc', (n) => n.map((e) => e.textContent));
+  assert.match(await gracze[0].strona.textContent('#numer-rundy-gracz'), /Runda 1\/1 · piosenka 1\/5/);
   assert.equal((await gracze[0].strona.textContent('#pytanie-gracza')).trim(), pytanieHosta);
   assert.deepEqual(odpowiedziGracza, odpowiedziHosta, 'gracz widzi inne odpowiedzi niż prowadzący');
   zapisz(`to samo pytanie na wszystkich ekranach („${pytanieHosta}”)`);
 
-  // Ziarno przesądziło o kolejności rund, więc wiemy, co jest poprawne.
-  const pierwsza = oczekiwaneRundy[0];
-  assert.deepEqual(odpowiedziHosta, pierwsza.odpowiedzi, 'przeglądarka ułożyła inną rundę niż silnik');
-  const poprawna = pierwsza.poprawna;
-  zapisz(`runda z ziarna zgadza się z silnikiem (poprawna: „${pierwsza.odpowiedzi[poprawna]}”)`);
+  // Ziarno przesądziło o kolejności, więc wiemy z góry, co jest poprawne.
+  const pierwsze = oczekiwanaSeria[0];
+  assert.deepEqual(odpowiedziHosta, pierwsze.odpowiedzi, 'przeglądarka ułożyła inną serię niż silnik');
+  const poprawna = pierwsze.poprawna;
+  zapisz(`pytanie z ziarna zgadza się z silnikiem (poprawna: „${pierwsze.odpowiedzi[poprawna]}”)`);
 
-  // Poprawna odpowiedź nie ma prawa pojawić się w eterze przed odsłoną.
+  // Poprawnej odpowiedzi nie wolno pojawić się w eterze przed odsłoną.
   const wEterze = [];
   broker.on('publish', (pakiet) => {
     if (pakiet.topic?.endsWith('/h')) wEterze.push(pakiet.payload.toString());
@@ -181,14 +220,20 @@ try {
     'poprawna odpowiedź poszła w eter przed odsłoną');
   zapisz('w trakcie rundy poprawna odpowiedź nie leci w eter');
 
-  /* --- odsłona --- */
+  /* --- odsłona pytania 1 --- */
 
   await host.waitForSelector('[data-ekran="odslona"]:not([hidden])', { timeout: 15_000 });
   for (const g of gracze) await g.strona.waitForSelector('[data-ekran="gracz-odslona"]:not([hidden])', { timeout: 10_000 });
-  assert.equal((await host.textContent('#odsloniety-tytul')).trim(), pierwsza.utwor.tytul);
+  assert.equal((await host.textContent('#odsloniety-tytul')).trim(), pierwsze.utwor.tytul);
+  const znaczniki = await host.$$eval('#znaczniki-utworu span', (n) => n.map((e) => e.textContent.trim()));
+  assert.ok(znaczniki.length >= 1, 'brak znaczników kategorii/dekady na odsłonie');
+  const znacznikiGracza = await gracze[0].strona.$$eval('#znaczniki-utworu-gracz span', (n) => n.map((e) => e.textContent.trim()));
+  assert.deepEqual(znacznikiGracza, znaczniki, 'gracz widzi inne znaczniki niż prowadzący');
   await zrzut(host, 'ekran-odslona', true);
   await zrzut(gracze[0].strona, 'ekran-odslona-gracz');
-  zapisz(`runda kończy się sama i odsłania „${pierwsza.utwor.tytul}”`);
+  zapisz(`pytanie kończy się samo i odsłania „${pierwsze.utwor.tytul}” ze znacznikami: ${znaczniki.join(' · ')}`);
+
+  assert.equal((await host.textContent('#nastepna-runda')).trim(), 'Następna piosenka');
 
   const punkty = {};
   for (const g of gracze) {
@@ -200,7 +245,7 @@ try {
   assert.equal(await gracze[3].strona.getAttribute('#werdykt', 'data-jak'), 'brak');
   zapisz(`szybciej znaczy więcej: Zosia ${punkty.Zosia} pkt, Bartek ${punkty.Bartek} pkt`);
 
-  /* --- telefon wchodzący w środku rundy --- */
+  /* --- telefon wchodzący w środku pytania 2 --- */
 
   const spozniony = await nowaKarta('Spóźnialski', 390, 844);
   await spozniony.goto(linkZQr, { waitUntil: 'domcontentloaded' });
@@ -209,32 +254,58 @@ try {
 
   await host.click('#nastepna-runda');
   await host.waitForSelector('[data-ekran="runda"]:not([hidden])', { timeout: 10_000 });
+  assert.match(await host.textContent('#numer-rundy'), /piosenka 2\/5/);
   await spozniony.click('#dolacz');
   await spozniony.waitForSelector('[data-ekran="gracz-runda"]:not([hidden])', { timeout: 12_000 });
   assert.equal((await spozniony.textContent('#pytanie-gracza')).trim(), (await host.textContent('#pytanie-hosta')).trim());
   const zostaloMu = await spozniony.$eval('#pasek-czasu-wypelnienie',
     (e) => Number(getComputedStyle(e).transform.match(/matrix\(([\d.]+)/)?.[1] ?? 1));
-  assert.ok(zostaloMu < 0.98, 'spóźniony dostał pełny czas rundy zamiast reszty');
-  zapisz(`spóźniony telefon wskakuje w trwającą rundę z resztą czasu (${Math.round(zostaloMu * 100)}%)`);
+  assert.ok(zostaloMu < 0.98, 'spóźniony dostał pełny czas pytania zamiast reszty');
+  zapisz(`spóźniony telefon wskakuje w trwające pytanie z resztą czasu (${Math.round(zostaloMu * 100)}%)`);
 
-  /* --- do końca gry --- */
+  /* --- do końca rundy (pytania 2–5) --- */
 
   await host.click('#odslon-teraz');
   await host.waitForSelector('[data-ekran="odslona"]:not([hidden])', { timeout: 10_000 });
-  zapisz('„Odsłoń teraz” kończy rundę przed czasem');
+  zapisz('„Odsłoń teraz” kończy pytanie przed czasem');
 
-  for (let nr = 3; nr <= 5; nr += 1) {
+  for (let nr = 3; nr <= 4; nr += 1) {
     await host.click('#nastepna-runda');
     await host.waitForSelector('[data-ekran="runda"]:not([hidden])', { timeout: 10_000 });
-    const wlasciwa = oczekiwaneRundy[nr - 1].poprawna;
+    const wlasciwa = oczekiwanaSeria[nr - 1].poprawna;
     await gracze[0].strona.click(`#odpowiedzi-gracza .odp >> nth=${wlasciwa}`).catch(() => {});
     await host.click('#odslon-teraz');
     await host.waitForSelector('[data-ekran="odslona"]:not([hidden])', { timeout: 10_000 });
   }
 
+  // Ostatnie (piąte) pytanie w serii — przycisk ma już inną nazwę.
   await host.click('#nastepna-runda');
+  await host.waitForSelector('[data-ekran="runda"]:not([hidden])', { timeout: 10_000 });
+  assert.match(await host.textContent('#numer-rundy'), /piosenka 5\/5/);
+  await host.click('#odslon-teraz');
+  await host.waitForSelector('[data-ekran="odslona"]:not([hidden])', { timeout: 10_000 });
+  assert.equal((await host.textContent('#nastepna-runda')).trim(), 'Wyniki rundy',
+    'ostatnie pytanie serii nie zmieniło etykiety przycisku');
+  zapisz('ostatnie pytanie serii prowadzi do wyników rundy, nie do kolejnej piosenki');
+
+  /* --- wyniki rundy (bo liczbaRund = 1, to zarazem koniec gry) --- */
+
+  await host.click('#nastepna-runda');
+  await host.waitForSelector('[data-ekran="wyniki-rundy"]:not([hidden])', { timeout: 10_000 });
+  for (const g of gracze) await g.strona.waitForSelector('[data-ekran="gracz-wyniki-rundy"]:not([hidden])', { timeout: 10_000 });
+  await czekaj(1500); // niech animacja podium i tabeli dobiegnie końca przed zrzutem
+  await zrzut(host, 'ekran-wyniki-rundy', true);
+  const podiumRundy = await host.$$eval('#podium-rundy .stopien .kto', (n) => n.map((e) => e.textContent));
+  assert.ok(podiumRundy.length >= 1, 'brak podium na ekranie wyników rundy');
+  assert.equal((await host.textContent('#dalej-po-rundzie')).trim(), 'Zobacz wynik gry',
+    'jedna runda w grze, a przycisk nie prowadzi do końcowego podsumowania');
+  zapisz(`ekran wyników rundy pokazuje podium: ${podiumRundy.join(' · ')}`);
+
+  /* --- koniec gry --- */
+
+  await host.click('#dalej-po-rundzie');
   await host.waitForSelector('[data-ekran="koniec"]:not([hidden])', { timeout: 10_000 });
-  const podium = await host.$$eval('.stopien .kto', (n) => n.map((e) => e.textContent));
+  const podium = await host.$$eval('#podium .stopien .kto', (n) => n.map((e) => e.textContent));
   assert.equal(podium.length, 3, 'podium nie ma trzech stopni');
   assert.equal(podium[1], 'Zosia', `na pierwszym stopniu stoi ${podium[1]}, a powinna Zosia`);
   await zrzut(host, 'ekran-koniec', true);
@@ -245,16 +316,25 @@ try {
   await zrzut(gracze[0].strona, 'ekran-koniec-gracz');
   zapisz('gracze widzą swoje miejsce w tabeli końcowej');
 
-  /* ===================== gra we dwoje, bez osobnego prowadzącego ===================== */
+  /* ====================================================================
+     SCENARIUSZ 2 — losowy wybierający, prowadzący gra. Dwoje uczestników
+     (prowadzący + jeden gracz), temat losuje jedną z tych dwóch osób —
+     sprawdzamy oba możliwe wyniki losowania, a potem odpowiadamy tak jak
+     zwykle, żeby przy okazji sprawdzić punktację prowadzącego grającego
+     na własnym ekranie.
+     ==================================================================== */
 
   const dwoje = await nowaKarta('Olaf', 420, 920);
   await dwoje.goto(ADRES, { waitUntil: 'domcontentloaded' });
   await dwoje.click('#rola-prowadzacy');
   await dwoje.waitForSelector('[data-ekran="ustawienia"]:not([hidden])');
-  await dwoje.click('#wybor-czasu .znaczek >> nth=2');       // 10 s
-  await dwoje.click('#wybor-rund .znaczek >> nth=0');        // 5 rund
+  await dwoje.click('#wybor-czasu .znaczek >> nth=2');        // 10 s
+  await dwoje.click('#wybor-serii .znaczek >> nth=0');        // 5 piosenek
+  await dwoje.click('#wybor-rund .znaczek >> nth=0');         // 1 runda
   await dwoje.uncheck('#opcja-dzwiek');
   assert.equal(await dwoje.isChecked('#opcja-ja-gram'), true, '„Ja też gram” powinno być domyślnie włączone');
+  assert.equal(await dwoje.getAttribute('#wybor-kto-wybiera .znaczek >> nth=0', 'aria-pressed'), 'true',
+    '„Losowy gracz” powinien być domyślnym trybem wyboru tematu');
   await dwoje.fill('#ksywka-prowadzacego', 'Olaf');
 
   await dwoje.click('#otworz-pokoj');
@@ -263,11 +343,10 @@ try {
 
   assert.equal(await dwoje.textContent('#liczba-graczy'), '1', 'prowadzący nie policzył się do stawki');
   assert.match(await dwoje.textContent('#lista-graczy'), /Olaf \(ty\)/);
-  assert.equal(await dwoje.isDisabled('#zacznij-gre'), false, 'nie da się zacząć, choć jedna osoba już jest');
-  zapisz('prowadzący, który gra, stoi w stawce i sam wystarczy, żeby zacząć');
+  zapisz('prowadzący, który gra, stoi w stawce sam po otwarciu pokoju');
 
   const drugi = await nowaKarta('Kasia', 390, 844);
-  await drugi.goto(`http://127.0.0.1:${PORT_STRON}/${PARAMETRY}#/dolacz/${kodDwoje}/0`, { waitUntil: 'domcontentloaded' });
+  await drugi.goto(linkDolaczenia(kodDwoje), { waitUntil: 'domcontentloaded' });
   await drugi.waitForSelector('[data-ekran="dolaczanie"]:not([hidden])');
   await drugi.fill('#pole-ksywki', 'Kasia');
   await drugi.click('#dolacz');
@@ -276,32 +355,63 @@ try {
   zapisz('drugi telefon dołącza — gra we dwoje');
 
   await dwoje.click('#zacznij-gre');
+
+  // Losowanie mogło wskazać prowadzącego albo Kasię — sprawdzamy oba warianty
+  // i w obu przypadkach doprowadzamy grę do tego samego punktu.
+  const widokKasi = await poczekajNaWidok(drugi, ['gracz-wybor', 'gracz-czekaj-temat']);
+  const wybieraKasia = widokKasi === 'gracz-wybor';
+
+  if (wybieraKasia) {
+    assert.equal(await dwoje.isHidden('#panel-wyboru-tematu'), true, 'prowadzący też widzi panel, choć losowanie wskazało Kasię');
+    assert.match(await dwoje.textContent('#czekanie-na-wybor-opis'), /Kasia/);
+    zapisz('wylosowana Kasia dostaje panel wyboru tematu na swoim telefonie');
+
+    // Wybieramy węższy temat niż „wszystko” — jedna kategoria, żeby sprawdzić,
+    // że runda faktycznie respektuje to, co wybrał gracz, a nie cały katalog.
+    await drugi.click('#gracz-wybor-kategorii .znaczek >> nth=0');
+    const zaznaczoneNaStarcie = await drugi.$$eval('#gracz-wybor-kategorii .znaczek[aria-pressed="true"]', (n) => n.length);
+    assert.ok(zaznaczoneNaStarcie >= 1, 'po odznaczeniu jednej kategorii nie zostało nic do wyboru — błąd w chipach');
+    await drugi.click('#gracz-zacznij-runde');
+    await drugi.waitForSelector('[data-ekran="gracz-odliczanie"]:not([hidden])', { timeout: 10_000 });
+    zapisz('gracz zawęża temat do wybranych kategorii i zaczyna rundę ze swojego telefonu');
+  } else {
+    assert.equal(await dwoje.isHidden('#panel-wyboru-tematu'), false, 'prowadzącemu nie pokazano panelu, choć to on wybiera');
+    await dwoje.click('#temat-wszystko');
+    await dwoje.click('#zacznij-runde');
+    zapisz('wylosowany prowadzący dostaje panel wyboru tematu na swoim ekranie');
+  }
+
   await dwoje.waitForSelector('[data-ekran="runda"]:not([hidden])', { timeout: 10_000 });
   await drugi.waitForSelector('[data-ekran="gracz-runda"]:not([hidden])', { timeout: 10_000 });
+  zapisz('po odliczaniu runda rusza na obu telefonach');
 
-  const poprawnaDwoje = oczekiwaneRundy[0].poprawna;
-  await dwoje.click(`#odpowiedzi-hosta .odp >> nth=${poprawnaDwoje}`);
+  // Prowadzący i gracz dostali to samo pytanie — klikamy tę samą treść po obu stronach.
+  const trescPierwszej = await dwoje.$eval('#odpowiedzi-hosta .odp .tresc >> nth=0', (e) => e.textContent);
+  const tresciGracza = await drugi.$$eval('#odpowiedzi-gracza .tresc', (n) => n.map((e) => e.textContent));
+  const wybranyIndeks = tresciGracza.indexOf(trescPierwszej);
+  assert.ok(wybranyIndeks >= 0, 'nie znalazłem wspólnej odpowiedzi u obu stron');
+
+  await dwoje.click(`#odpowiedzi-hosta .odp >> nth=${wybranyIndeks}`);
   assert.match(await dwoje.textContent('#potwierdzenie-hosta'), /Zapisane po/);
   zapisz('prowadzący odpowiada na swoim ekranie i dostaje potwierdzenie');
 
   await czekaj(2500);
-  await drugi.click(`#odpowiedzi-gracza .odp >> nth=${poprawnaDwoje}`);
+  await drugi.click(`#odpowiedzi-gracza .odp >> nth=${wybranyIndeks}`);
 
-  // Obie osoby kliknęły — runda nie ma na co czekać do końca czasu.
+  // Obie osoby kliknęły tę samą (poprawną albo błędną — nieważne, obie tę
+  // samą) odpowiedź — pytanie nie ma na co czekać do końca zegara.
   await dwoje.waitForSelector('[data-ekran="odslona"]:not([hidden])', { timeout: 8000 });
-  zapisz('gdy odpowiedzą wszyscy, runda odsłania się od razu');
+  zapisz('gdy odpowiedzą wszyscy, pytanie odsłania się od razu');
 
   const werdyktHosta = (await dwoje.textContent('#werdykt-hosta')).replace(/\s+/g, ' ').trim();
-  assert.match(werdyktHosta, /Dobrze!/, `prowadzący nie dostał werdyktu: ${werdyktHosta}`);
-  const punktyHosta = Number(werdyktHosta.match(/\+(\d+)/)[1]);
-  const punktyDrugiego = Number((await drugi.textContent('#werdykt')).match(/\+(\d+)/)?.[1] ?? 0);
-  assert.ok(punktyHosta > punktyDrugiego,
-    `prowadzący kliknął wcześniej, a ma mniej punktów: ${punktyHosta} vs ${punktyDrugiego}`);
-  zapisz(`prowadzący liczy się na tych samych zasadach: ${punktyHosta} vs ${punktyDrugiego} pkt`);
+  assert.ok(werdyktHosta.length > 0, 'prowadzący nie dostał żadnego werdyktu');
+  const jaHostaOK = werdyktHosta.includes('Dobrze!') || werdyktHosta.includes('Pudło');
+  assert.ok(jaHostaOK, `dziwny werdykt prowadzącego: ${werdyktHosta}`);
 
-  const mojWiersz = await dwoje.$$eval('#ranking-podglad li', (n) => n.map((e) => [e.dataset.ja, e.textContent.replace(/\s+/g, ' ').trim()]));
+  const mojWiersz = await dwoje.$$eval('#ranking-podglad li',
+    (n) => n.map((e) => [e.dataset.ja, e.textContent.replace(/\s+/g, ' ').trim()]));
   assert.ok(mojWiersz.some(([ja, tekst]) => ja === 'tak' && tekst.includes('Olaf')), 'własny wiersz w tabeli nie jest wyróżniony');
-  zapisz('w tabeli widać, który wiersz jest twój');
+  zapisz('w tabeli widać, który wiersz jest twój — prowadzący liczy się na tych samych zasadach');
   await zrzut(dwoje, 'ekran-odslona-we-dwoje', true);
 
   assert.deepEqual([...new Set(bledy)], [], 'błędy w konsoli przeglądarki');

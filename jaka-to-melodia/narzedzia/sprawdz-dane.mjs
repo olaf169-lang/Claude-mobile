@@ -12,10 +12,10 @@ import { readFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { przygotujKatalog, KATEGORIE, DEKADY } from '../js/katalog.js';
+import { przygotujKatalog, KATEGORIE, DEKADY, istnieje } from '../js/katalog.js';
 
 const KATALOG_APLIKACJI = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const ROK_MIN = 1975;
+const ROK_MIN = 1958;
 const ROK_MAX = new Date().getFullYear() + 1;
 const NAJMNIEJ_W_KOSZYKU = 8;      // poniżej tego pytania zaczynają się powtarzać
 
@@ -59,6 +59,9 @@ for (const utwor of utwory) {
 }
 for (const dekada of DEKADY) {
   for (const kategoria of KATEGORIE) {
+    // Kombinacje w NIEISTNIEJACE (np. rap w latach 60.) są wykluczone celowo —
+    // filtry gry ich nie pokazują, więc pusty koszyk to tu poprawny stan.
+    if (!istnieje(dekada.id, kategoria.id)) continue;
     const ile = koszyki.get(`${dekada.id}/${kategoria.id}`) || 0;
     if (ile === 0) bledy.push(`Pusty zestaw: ${dekada.nazwa} × ${kategoria.nazwa}`);
     else if (ile < NAJMNIEJ_W_KOSZYKU) uwagi.push(`Chudy zestaw: ${dekada.nazwa} × ${kategoria.nazwa} — ${ile}`);

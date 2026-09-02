@@ -3,13 +3,25 @@
    Prowadzący trzyma tu cały stan rozgrywki; telefony graczy dostają tylko
    tyle, ile trzeba, żeby pokazać pytanie (poprawna odpowiedź jedzie do nich
    dopiero po upływie czasu — inaczej dałoby się ją podejrzeć w telefonie).
+
+   Trzy słowa, które warto rozróżniać:
+     pytanie — jeden utwór z czterema odpowiedziami,
+     seria   — ciąg pytań lecących jedno po drugim (np. dziesięć utworów),
+     runda   — jedna seria plus temat, który ktoś dla niej wybrał
+               (np. „rock i rap, lata 80. i 90.”). Gra to kilka rund.
    ========================================================================== */
 
-import { przygotujKatalog, DEKADY, KATEGORIE } from './katalog.js';
+import { przygotujKatalog, DEKADY, KATEGORIE, istnieje } from './katalog.js';
 
 export const MAKS_PUNKTOW = 100;
+// Ile puli zostaje temu, kto trafi w ostatniej chwili. Im niżej, tym mocniej
+// liczy się refleks: przy 0,3 zwłoka do końca czasu kosztuje siedemdziesiąt
+// procent stawki.
+export const MIN_UDZIAL_PUNKTOW = 0.3;
 export const MAKS_GRACZY = 20;         // wygodnie gra się do 14, ale miejsca jest więcej
 export const CZASY_ODPOWIEDZI = [5, 7, 10, 15, 20];
+export const LICZBY_RUND = [1, 3, 5, 8, 10];
+export const DLUGOSCI_SERII = [5, 8, 10, 12, 15, 20, 25];
 export const TYPY_PYTAN = {
   tytul: { pytanie: 'Co to za piosenka?', pole: 'tytul' },
   wykonawca: { pytanie: 'Kto to śpiewa?', pole: 'wykonawca' },
@@ -18,10 +30,12 @@ export const TYPY_PYTAN = {
 export const USTAWIENIA_DOMYSLNE = {
   kategorie: KATEGORIE.map((k) => k.id),
   dekady: DEKADY.map((d) => d.id),
-  liczbaRund: 12,
+  liczbaRund: 3,                // ile rund w grze
+  dlugoscSerii: 10,             // ile utworów w jednej rundzie
   czasOdpowiedzi: 15,           // sekundy
   typyPytan: 'mix',             // 'tytul' | 'wykonawca' | 'mix'
-  bonusSerii: false,            // +10 pkt za każdą kolejną trafioną rundę (maks. +50)
+  bonusSerii: false,            // +10 pkt za każde kolejne trafienie z rzędu (maks. +50)
+  ktoWybiera: 'losowy',         // 'losowy' | 'prowadzacy' — kto ustala temat rundy
   losowyFragment: false,        // zaczynaj podgląd w losowym miejscu — trudniej
   dzwiekWAplikacji: true,       // false = muzykę puszcza prowadzący z zewnątrz
   prowadzacyGra: true,          // prowadzący odpowiada na swoim telefonie jak reszta
@@ -144,19 +158,26 @@ export function zbudujRunde(utwor, katalog, typ, losuj) {
 }
 
 /**
- * Kolejność rund na całą grę. Losujemy z góry, żeby dało się od razu pobrać
- * pierwsze nagrania i żeby prowadzący wiedział, ile rund realnie wyjdzie.
+ * Seria pytań na jedną rundę. Losujemy ją w całości z góry, żeby dało się od
+ * razu pobrać pierwsze nagrania i żeby prowadzący wiedział, ile pytań realnie
+ * wyjdzie z wybranego tematu.
+ *
+ * `pomin` to utwory, które padły we wcześniejszych rundach tej gry — dwa razy
+ * ta sama piosenka w jeden wieczór psuje zabawę nawet przy zmianie tematu.
  */
-export function ulozRundy(ustawienia, { katalog = przygotujKatalog(), maPodglad = null, ziarno } = {}) {
+export function ulozSerie(ustawienia, {
+  katalog = przygotujKatalog(), maPodglad = null, ziarno, pomin = new Set(), ile,
+} = {}) {
   const losuj = losowanie(ziarno ?? Math.floor(Math.random() * 2 ** 31));
-  const pula = pulaUtworow(ustawienia, { katalog, maPodglad });
+  const pula = pulaUtworow(ustawienia, { katalog, maPodglad }).filter((u) => !pomin.has(u.id));
   const kolejka = przetasuj(pula, losuj);
+  const ileChcemy = ile ?? ustawienia.dlugoscSerii;
 
   const rundy = [];
   let poprzedniWykonawca = null;
   const odlozone = [];
 
-  while (kolejka.length && rundy.length < ustawienia.liczbaRund) {
+  while (kolejka.length && rundy.length < ileChcemy) {
     let utwor = kolejka.shift();
     // Ten sam wykonawca dwa razy z rzędu psuje rytm — odkładamy na później.
     if (utwor.kluczWykonawcy === poprzedniWykonawca && kolejka.length) {
@@ -177,14 +198,14 @@ export function ulozRundy(ustawienia, { katalog = przygotujKatalog(), maPodglad 
 /* --- punktacja --- */
 
 /**
- * Kahootowy schemat: trafienie w ostatniej chwili to połowa puli, trafienie
- * od razu — całość. Czas liczy telefon gracza od momentu pokazania pytania,
- * więc wolniejszy internet nie zabiera punktów.
+ * Trafienie od razu to cała stawka, trafienie w ostatniej sekundzie —
+ * trzydzieści punktów. Czas liczy telefon gracza od momentu pokazania
+ * pytania, więc wolniejszy internet nie zabiera punktów.
  */
 export function punktyZaOdpowiedz({ poprawna, czasMs, limitMs, seria = 0, bonusSerii = false }) {
   if (!poprawna) return 0;
   const udzial = Math.min(1, Math.max(0, czasMs / limitMs));
-  let punkty = Math.round(MAKS_PUNKTOW * (1 - 0.5 * udzial));
+  let punkty = Math.round(MAKS_PUNKTOW * (1 - (1 - MIN_UDZIAL_PUNKTOW) * udzial));
   if (bonusSerii && seria > 1) punkty += Math.min(seria - 1, 5) * 10;
   return punkty;
 }
@@ -199,4 +220,40 @@ export function ranking(gracze) {
 /** Ile pytań da się jeszcze ułożyć z wybranych ustawień (dla ekranu ustawień). */
 export function ileDostepnych(ustawienia, opcje) {
   return pulaUtworow(ustawienia, opcje).length;
+}
+
+/**
+ * Kto ustala temat następnej rundy. Losujemy spośród grających, ale omijamy
+ * tego, kto wybierał ostatnio — przy dwóch osobach daje to naprzemienność,
+ * przy większej gromadzie nikt nie wybiera dwa razy z rzędu.
+ */
+export function wylosujWybierajacego(idGraczy, poprzedni = null, losuj = Math.random) {
+  const wszyscy = [...idGraczy];
+  if (!wszyscy.length) return null;
+  const kandydaci = wszyscy.length > 1 ? wszyscy.filter((id) => id !== poprzedni) : wszyscy;
+  return kandydaci[Math.floor(losuj() * kandydaci.length)];
+}
+
+/** Krótki opis tematu rundy — „rock i rap · lata 80. i 90.”, „wszystko”. */
+export function opiszTemat({ kategorie, dekady }) {
+  const wszystkieKategorie = kategorie.length === KATEGORIE.length;
+  const wszystkieDekady = dekady.length === DEKADY.length;
+  if (wszystkieKategorie && wszystkieDekady) return 'wszystko, co jest';
+
+  const zlacz = (lista) => (lista.length <= 1 ? lista.join('')
+    : `${lista.slice(0, -1).join(', ')} i ${lista[lista.length - 1]}`);
+  const czesci = [];
+  if (!wszystkieKategorie) {
+    czesci.push(zlacz(kategorie.map((id) => KATEGORIE.find((k) => k.id === id)?.nazwa || id)));
+  }
+  if (!wszystkieDekady) {
+    // „lata 80. i 90.”, a nie „lata 80. i lata 90.” — słowo „lata” raz wystarczy.
+    const nazwy = dekady.map((id, i) => {
+      const dekada = DEKADY.find((d) => d.id === id);
+      if (!dekada) return String(id);
+      return i === 0 ? dekada.nazwa : (dekada.krotka || dekada.nazwa);
+    });
+    czesci.push(zlacz(nazwy));
+  }
+  return czesci.join(' · ');
 }

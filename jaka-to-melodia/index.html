@@ -2,7 +2,7 @@
 <html lang="pl">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <title>Jaka to Melodia</title>
 <meta name="description" content="Muzyczny quiz na imprezę. Prowadzący puszcza fragment, wszyscy zgadują z telefonu. Kto szybciej, ten więcej punktów.">
 <meta name="theme-color" content="#0A0714">
@@ -112,8 +112,19 @@
   </fieldset>
 
   <fieldset class="grupa">
-    <legend>Liczba rund</legend>
+    <legend>Długość serii <small>ile piosenek pod rząd</small></legend>
+    <div class="znaczki waskie" id="wybor-serii"></div>
+  </fieldset>
+
+  <fieldset class="grupa">
+    <legend>Liczba rund <small>ile serii w tej grze</small></legend>
     <div class="znaczki waskie" id="wybor-rund"></div>
+  </fieldset>
+
+  <fieldset class="grupa">
+    <legend>Kto wybiera temat rundy</legend>
+    <div class="znaczki" id="wybor-kto-wybiera"></div>
+    <p class="drobne">Przy więcej niż jednej rundzie przed każdą kolejną losujemy, kto ustala kategorie i dekady.</p>
   </fieldset>
 
   <fieldset class="grupa">
@@ -182,6 +193,40 @@
   </div>
 </section>
 
+<!-- ========================= WYBÓR TEMATU ========================= -->
+<section data-ekran="wybor-tematu" class="ekran" hidden>
+  <p class="nadtytul" id="nagrodek-tematu">Runda 1/3</p>
+  <h2 class="tytul-ekranu" id="wybor-tematu-tytul">Kto wybiera temat?</h2>
+
+  <div class="czekanie-na-wybor" id="czekanie-na-wybor" hidden>
+    <div class="puls maly" aria-hidden="true">🎲</div>
+    <p class="opis" id="czekanie-na-wybor-opis">Losujemy…</p>
+  </div>
+
+  <div id="panel-wyboru-tematu" hidden>
+    <fieldset class="grupa">
+      <legend>Kategorie</legend>
+      <div class="znaczki" id="wybor-tematu-kategorii"></div>
+    </fieldset>
+    <fieldset class="grupa">
+      <legend>Dekady</legend>
+      <div class="znaczki" id="wybor-tematu-dekad"></div>
+    </fieldset>
+    <p class="licznik-puli" id="licznik-tematu"></p>
+    <div class="stopka-ekranu">
+      <button class="klawisz" id="temat-wszystko" type="button">Wszystko</button>
+      <button class="klawisz glowny" id="zacznij-runde" type="button">Zaczynamy rundę</button>
+    </div>
+  </div>
+</section>
+
+<!-- =========================== ODLICZANIE ========================== -->
+<section data-ekran="odliczanie" class="ekran srodek" hidden>
+  <p class="etykieta" id="temat-rundy-opis"></p>
+  <div class="wielka-liczba" id="odliczanie-liczba">3</div>
+  <p class="opis">Zaczynamy…</p>
+</section>
+
 <!-- ============================ RUNDA ============================= -->
 <section data-ekran="runda" class="ekran ekran-gry" hidden>
   <div class="pasek-rundy">
@@ -214,6 +259,7 @@
       <p class="etykieta">Prawidłowa odpowiedź</p>
       <h2 class="odsloniety-tytul" id="odsloniety-tytul"></h2>
       <p class="odsloniety-wykonawca" id="odsloniety-wykonawca"></p>
+      <p class="znaczniki-utworu" id="znaczniki-utworu"></p>
     </div>
   </div>
   <div class="trafili" id="trafili"></div>
@@ -221,7 +267,19 @@
   <ol class="ranking" id="ranking-podglad"></ol>
   <div class="stopka-ekranu przyklejona">
     <button class="klawisz" id="zakoncz-gre" type="button">Zakończ</button>
-    <button class="klawisz glowny" id="nastepna-runda" type="button">Następna runda</button>
+    <button class="klawisz glowny" id="nastepna-runda" type="button">Następna piosenka</button>
+  </div>
+</section>
+
+<!-- ========================= WYNIKI RUNDY ========================== -->
+<section data-ekran="wyniki-rundy" class="ekran" hidden>
+  <p class="nadtytul" id="wyniki-rundy-nadtytul">Runda 1/3 — koniec</p>
+  <h2 class="tytul-ekranu srodek">Wyniki tej rundy</h2>
+  <div class="podium animowane" id="podium-rundy"></div>
+  <ol class="ranking animowana" id="ranking-rundy"></ol>
+  <div class="stopka-ekranu przyklejona">
+    <button class="klawisz" id="zakoncz-gre-z-wynikow" type="button">Zakończ</button>
+    <button class="klawisz glowny" id="dalej-po-rundzie" type="button">Następna runda</button>
   </div>
 </section>
 
@@ -263,6 +321,39 @@
   <ul class="gracze male" id="lista-graczy-gracz"></ul>
 </section>
 
+<!-- ==================== CZEKAMY NA TEMAT (GRACZ) =================== -->
+<section data-ekran="gracz-czekaj-temat" class="ekran srodek" hidden>
+  <div class="puls" aria-hidden="true">🎲</div>
+  <h2 class="tytul-ekranu" id="gracz-czekaj-temat-tytul">Losujemy…</h2>
+  <p class="opis" id="gracz-czekaj-temat-opis"></p>
+</section>
+
+<!-- ===================== WYBÓR TEMATU (GRACZ) ====================== -->
+<section data-ekran="gracz-wybor" class="ekran" hidden>
+  <p class="nadtytul">Twoja kolej!</p>
+  <h2 class="tytul-ekranu">Wybierz temat rundy</h2>
+  <fieldset class="grupa">
+    <legend>Kategorie</legend>
+    <div class="znaczki" id="gracz-wybor-kategorii"></div>
+  </fieldset>
+  <fieldset class="grupa">
+    <legend>Dekady</legend>
+    <div class="znaczki" id="gracz-wybor-dekad"></div>
+  </fieldset>
+  <p class="licznik-puli" id="gracz-licznik-tematu"></p>
+  <div class="stopka-ekranu">
+    <button class="klawisz" id="gracz-temat-wszystko" type="button">Wszystko</button>
+    <button class="klawisz glowny" id="gracz-zacznij-runde" type="button">Zaczynamy rundę</button>
+  </div>
+</section>
+
+<!-- ======================= ODLICZANIE (GRACZ) ======================= -->
+<section data-ekran="gracz-odliczanie" class="ekran srodek" hidden>
+  <p class="etykieta" id="gracz-temat-rundy-opis"></p>
+  <div class="wielka-liczba" id="gracz-odliczanie-liczba">3</div>
+  <p class="opis">Zaczynamy…</p>
+</section>
+
 <!-- ======================== RUNDA (GRACZ) ========================= -->
 <section data-ekran="gracz-runda" class="ekran ekran-gry" hidden>
   <div class="pasek-rundy">
@@ -281,7 +372,16 @@
   <p class="etykieta">To była</p>
   <h2 class="odsloniety-tytul" id="odsloniety-tytul-gracz"></h2>
   <p class="odsloniety-wykonawca" id="odsloniety-wykonawca-gracz"></p>
+  <p class="znaczniki-utworu" id="znaczniki-utworu-gracz"></p>
   <p class="moja-pozycja" id="moja-pozycja"></p>
+</section>
+
+<!-- ==================== WYNIKI RUNDY (GRACZ) ======================= -->
+<section data-ekran="gracz-wyniki-rundy" class="ekran srodek" hidden>
+  <div class="werdykt" id="werdykt-rundy"></div>
+  <h2 class="tytul-ekranu" id="gracz-moje-miejsce-rundy"></h2>
+  <ol class="ranking pelny animowana" id="ranking-gracza-rundy"></ol>
+  <p class="opis" id="gracz-wyniki-rundy-info"></p>
 </section>
 
 <!-- ======================== KONIEC (GRACZ) ======================== -->

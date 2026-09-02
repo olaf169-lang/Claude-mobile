@@ -8,21 +8,49 @@ Bez instalowania czegokolwiek: goście skanują kod QR i już grają.
 
 | | | |
 |---|---|---|
-| <img src="docs/ekran-lobby.png" width="240" alt="Lobby z kodem QR i listą graczy"> | <img src="docs/ekran-runda-prowadzacy.png" width="240" alt="Runda na ekranie prowadzącego"> | <img src="docs/ekran-koniec.png" width="240" alt="Podium na koniec gry"> |
-| Lobby: kod QR i kto już jest | Runda: zegar i cztery odpowiedzi | Koniec: podium i tabela |
+| <img src="docs/ekran-lobby.png" width="240" alt="Lobby z kodem QR i listą graczy"> | <img src="docs/ekran-wybor-tematu.png" width="240" alt="Wybór tematu rundy: kategorie i dekady"> | <img src="docs/ekran-runda-prowadzacy.png" width="240" alt="Runda na ekranie prowadzącego"> |
+| Lobby: kod QR i kto już jest | Temat rundy: kategorie i dekady | Runda: zegar i cztery odpowiedzi |
+| <img src="docs/ekran-odslona.png" width="240" alt="Odsłona: poprawna odpowiedź, kategoria i dekada"> | <img src="docs/ekran-wyniki-rundy.png" width="240" alt="Podium i tabela na koniec rundy"> | <img src="docs/ekran-koniec.png" width="240" alt="Podium na koniec gry"> |
+| Odsłona: kto trafił i ile dostał | Koniec rundy: podium i tabela | Koniec gry: podium i tabela |
 
 ## Jak się gra
 
-1. **Prowadzący** wybiera kategorie i dekady, ustawia czas na odpowiedź i otwiera
-   pokój. Jego telefon warto podpiąć do głośnika — to z niego leci muzyka.
+1. **Prowadzący** ustawia długość serii, liczbę rund i czas na odpowiedź, po czym
+   otwiera pokój. Jego telefon warto podpiąć do głośnika — to z niego leci muzyka.
 2. **Goście** skanują kod QR albo wchodzą na tę samą stronę i wpisują czteroznakowy
    kod pokoju oraz swoją ksywkę.
-3. Leci fragment, na telefonach pojawiają się cztery odpowiedzi. Zegar tyka.
-4. Po czasie prowadzący pokazuje, co to było, kto trafił i jak wygląda tabela.
+3. Na początku każdej rundy ktoś wybiera jej temat — kategorie i dekady (np. „rock
+   i rap, lata 80. i 90.”) albo po prostu wszystko. Potem krótkie odliczanie 3-2-1.
+4. Leci fragment, na telefonach pojawiają się cztery odpowiedzi. Zegar tyka.
+5. Po czasie prowadzący pokazuje, co to było (razem z kategorią i dekadą), kto
+   trafił i jak wygląda tabela — a utwór jeszcze chwilę gra w tle.
+6. Gdy seria się skończy, wszyscy widzą podium i tabelę tej rundy — a potem albo
+   kolejna runda z nowym tematem, albo, po ostatniej, podsumowanie całej gry.
 
 Miejsca jest na **20 telefonów**, wygodnie gra się do czternastu. Każdy potrzebuje
 internetu, ale niekoniecznie tego samego wi-fi — telefony spotykają się przez
 publiczny broker w sieci, nie przez lokalną sieć.
+
+### Serie, rundy i temat
+
+Gra dzieli się na **rundy** (1, 3, 5, 8 albo 10 — wybór prowadzącego), a każda runda
+to **seria** kolejnych piosenek (5 do 25, jak dawniej). Różnica jest w temacie: każda
+runda ma swój własny wybór kategorii i dekad, więc jedna runda potrafi być czystym
+rockiem z lat 80. i 90., a następna — wszystkim naraz.
+
+Kto wybiera temat, zależy od ustawienia **Kto wybiera temat rundy**:
+
+- **Losowy gracz** *(domyślnie)* — na początku rundy telefony losują jedną osobę
+  (może to być też prowadzący, jeśli akurat gra). Tylko ona widzi panel wyboru,
+  reszta czeka z podglądem, kto teraz decyduje.
+- **Zawsze ja** — temat za każdym razem ustala prowadzący, ze swojego telefonu.
+
+Zaznaczenie **Wszystko** jest jednym kliknięciem — nie trzeba klikać każdej
+kategorii i dekady osobno. Jeśli wybrany temat okaże się zbyt wąski (za mało
+utworów na całą serię), gra sama prosi o wybór jeszcze raz.
+
+Po ostatniej piosence serii wszystkie telefony — prowadzącego i graczy — widzą
+animowane podium i tabelę tej rundy, zanim gra przejdzie dalej.
 
 ### We dwoje, w pojedynkę i w tłumie
 
@@ -41,12 +69,13 @@ nigdzie przed odsłoną, także na jego ekranie.
 
 ## Punkty
 
-Maksimum za rundę to **100 punktów** i dostaje je tylko ten, kto klika
+Maksimum za pytanie to **100 punktów** i dostaje je tylko ten, kto klika
 natychmiast. Im dłużej się zastanawiasz, tym mniej zostaje — na sam koniec
-czasu trafiona odpowiedź jest warta 50. Zła odpowiedź albo brak odpowiedzi to zero.
+czasu trafiona odpowiedź jest warta **30**. Zła odpowiedź albo brak odpowiedzi
+to zero. Szybkość naprawdę się liczy.
 
 ```
-punkty = 100 × (1 − ½ × czas / limit)
+punkty = 100 × (1 − 0,7 × czas / limit)
 ```
 
 Czas mierzy telefon gracza, od chwili gdy pytanie faktycznie pojawi się na jego
@@ -83,19 +112,26 @@ wtedy tylko pytanie, zegar i odpowiedzi, a za dźwięk odpowiada prowadzący.
 
 ## Katalog
 
-493 utwory w sześciu kategoriach i pięciu dekadach:
+1469 utworów w siedmiu kategoriach i siedmiu dekadach:
 
-| dekada | Pop | Rock | Rap | Dance | R&B / soul | Polskie |
-|---|---:|---:|---:|---:|---:|---:|
-| lata 80. | 22 | 21 | 10 | 16 | 10 | 15 |
-| lata 90. | 13 | 21 | 15 | 25 | 12 | 21 |
-| lata 2000. | 16 | 23 | 16 | 20 | 15 | 14 |
-| lata 2010. | 24 | 19 | 19 | 23 | 12 | 19 |
-| lata 2020. | 20 | 12 | 10 | 11 | 10 | 9 |
+| dekada | Pop | Rock | Rap | Dance | R&B / soul | Filmowa | Polskie |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| lata 60. | 47 | 34 | — | — | 43 | 30 | 26 |
+| lata 70. | 35 | 35 | — | 30 | 30 | 24 | 26 |
+| lata 80. | 38 | 42 | 26 | 40 | 29 | 32 | 49 |
+| lata 90. | 32 | 44 | 35 | 42 | 24 | 23 | 53 |
+| lata 2000. | 36 | 45 | 36 | 35 | 30 | 12 | 44 |
+| lata 2010. | 39 | 32 | 37 | 37 | 23 | 22 | 27 |
+| lata 2020. | 35 | 16 | 25 | 19 | 17 | 15 | 18 |
 
-„Polskie” to osobna kategoria, bez dzielenia na gatunki — pozostałe pięć obejmuje
+„Polskie” to osobna kategoria, bez dzielenia na gatunki — pozostałe sześć obejmuje
 kawałki anglojęzyczne. Każdy polski wpis ma jednak w tle pole `styl`, dzięki
 któremu do polskiego rocka nie podstawi się disco polo.
+
+Trzy pola w tabeli są celowo puste: w latach 60. rap i dance jeszcze nie istniały,
+w 70. — rap. Taki gatunek po prostu nie da się wybrać dla tej dekady w ustawieniach
+(`js/katalog.js` → `NIEISTNIEJACE`), a odzyskane miejsce poszło na inne kategorie
+z tych lat, żeby dekady jako całość nie wypadały ubogo.
 
 ### Dopisanie piosenki
 
@@ -124,9 +160,11 @@ i „Dawid Podsiadło & Taco Hemingway”.
 | | |
 |---|---|
 | **Ja też gram** | Prowadzący odpowiada na swoim telefonie. Wyłącz, gdy ma być tablicą przy głośniku. |
-| **Kategorie i dekady** | Dowolne połączenie; licznik od razu pokazuje, ile utworów zostaje w puli. |
+| **Kategorie i dekady** | Pula na całą grę — z niej wybiera się temat każdej rundy. Dowolne połączenie; licznik od razu pokazuje, ile utworów zostaje. |
 | **Czas na odpowiedź** | 5, 7, 10, 15 albo 20 sekund. |
-| **Liczba rund** | Od 5 do 25. Jeśli pula jest mniejsza, gra po prostu się skróci. |
+| **Długość serii** | Ile piosenek pod rząd w jednej rundzie: od 5 do 25. Jeśli pula tematu jest mniejsza, seria po prostu się skróci. |
+| **Liczba rund** | Ile serii w tej grze: 1, 3, 5, 8 albo 10. |
+| **Kto wybiera temat rundy** | Losowy gracz (domyślnie) albo zawsze prowadzący. |
 | **O co pytamy** | O tytuł, o wykonawcę, albo raz o to, raz o to. |
 | **Muzyka z aplikacji** | Wyłącz, jeśli puszczasz z własnego źródła. |
 | **Losowy moment** | Fragment zaczyna się za każdym razem gdzie indziej — trudniej. |
@@ -172,6 +210,11 @@ podyktować przez pokój.
   i tam, gdzie się nie da, po prostu nie wyciszamy płynnie.
 - Ekran nie gaśnie w trakcie gry (Screen Wake Lock, gdzie jest dostępny).
 - Dwa elementy `<audio>` na zmianę: jeden gra, drugi doczytuje następny utwór.
+- Podwójne stuknięcie potrafi na iPhonie przybliżyć stronę zamiast trafić w kafelek
+  — `maximum-scale=1, user-scalable=no` w viewporcie i `touch-action: manipulation`
+  ustawione wprost na każdym klikalnym elemencie (nie tylko na `<body>`) usuwają ten
+  gest i 300-milisekundowe opóźnienie przed kliknięciem, bo Safari samo potrafi
+  zignorować regułę odziedziczoną tylko z rodzica.
 
 ### Testy
 
@@ -182,11 +225,14 @@ npm run test:przegladarka   # pełna rozgrywka: prowadzący i pięć telefonów
 ```
 
 Test przeglądarkowy stawia własny broker i własny serwer plików, po czym rozgrywa
-dwie pełne gry: imprezową (prowadzący plus cztery telefony, od lobby do podium)
-i we dwoje (prowadzący w stawce plus jeden telefon). Sprawdza między innymi, czy
-szybsza odpowiedź daje więcej punktów — także wtedy, gdy szybszy jest prowadzący —
-czy telefon wchodzący w środku rundy dostaje resztę czasu i czy poprawna odpowiedź
-nie pojawia się w eterze przed odsłoną.
+dwie pełne gry przez cały cykl rund — wybór tematu, odliczanie 3-2-1, seria pytań
+z odsłonami, wyniki rundy, koniec gry: imprezową (prowadzący plus cztery telefony,
+od lobby do podium) i we dwoje (prowadzący w stawce plus jeden telefon, temat losuje
+jedną z tych dwóch osób — sprawdzane są oba możliwe wyniki losowania). Sprawdza
+między innymi, czy szybsza odpowiedź daje więcej punktów — także wtedy, gdy szybszy
+jest prowadzący — czy telefon wchodzący w środku rundy dostaje resztę czasu, czy
+poprawna odpowiedź nie pojawia się w eterze przed odsłoną i czy losowo wybrany
+gracz rzeczywiście dostaje panel wyboru tematu, a reszta tylko czeka.
 
 ## Gdy coś nie działa
 
