@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jaka to Melodia</title>
+<meta name="description" content="Muzyczny quiz na imprezę. Prowadzący puszcza fragment, wszyscy zgadują z telefonu. Kto szybciej, ten więcej punktów.">
+<meta name="theme-color" content="#0A0714">
+<meta name="color-scheme" content="dark light">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Jaka to Melodia">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:url" content="https://olaf169-lang.github.io/Claude-mobile/jaka-to-melodia/">
+<meta property="og:title" content="Jaka to Melodia — muzyczny quiz na imprezę">
+<meta property="og:description" content="Skanujesz kod QR i grasz. Pięć dekad, sześć kategorii, punkty za refleks.">
+<meta property="og:image" content="https://olaf169-lang.github.io/Claude-mobile/jaka-to-melodia/icons/podglad.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Jaka to Melodia">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script>
+  // Motyw przed pierwszym malowaniem — inaczej ciemny ekran mrugnąłby bielą.
+  (() => {
+    const zapisany = localStorage.getItem('jtm:motyw');
+    if (zapisany) document.documentElement.dataset.theme = zapisany;
+    else if (matchMedia('(prefers-color-scheme: light)').matches) document.documentElement.dataset.theme = 'jasny';
+  })();
+</script>
+</head>
+<body>
+<div class="tlo" aria-hidden="true"></div>
+
+<header class="pasek">
+  <a class="znak" href="#/" id="do-startu">
+    <span class="znak-nuta" aria-hidden="true">♪</span>
+    <span class="znak-nazwa">Jaka to Melodia</span>
+  </a>
+  <div class="pasek-prawa">
+    <span class="lacze" id="stan-lacza" hidden></span>
+    <button class="ikona" id="przelacz-motyw" type="button" aria-label="Zmień motyw">◐</button>
+  </div>
+</header>
+
+<main>
+
+<!-- ============================ START ============================ -->
+<section data-ekran="start" class="ekran srodek">
+  <p class="nadtytul">Muzyczny quiz na wieczór</p>
+  <h1 class="tytul-duzy">Kto pierwszy<br>pozna kawałek?</h1>
+  <p class="opis">
+    Jeden telefon prowadzi i puszcza muzykę, reszta zgaduje ze swoich.
+    Punktów tym więcej, im szybciej klikniesz.
+  </p>
+  <div class="wybor-roli">
+    <button class="klawisz glowny duzy" id="rola-prowadzacy" type="button">
+      <span class="klawisz-emoji" aria-hidden="true">🎛️</span>
+      <span class="klawisz-tresc">
+        <strong>Prowadzę grę</strong>
+        <small>ten telefon puszcza muzykę</small>
+      </span>
+    </button>
+    <button class="klawisz duzy" id="rola-gracz" type="button">
+      <span class="klawisz-emoji" aria-hidden="true">📱</span>
+      <span class="klawisz-tresc">
+        <strong>Dołączam</strong>
+        <small>mam kod od prowadzącego</small>
+      </span>
+    </button>
+  </div>
+  <details class="pomoc">
+    <summary>Jak to działa?</summary>
+    <ol>
+      <li>Jedna osoba wybiera kategorie i otwiera pokój. Jej telefon warto podpiąć do głośnika.</li>
+      <li>Reszta skanuje kod QR albo wpisuje czteroznakowy kod i swoją ksywkę.</li>
+      <li>Leci fragment, na telefonach pojawiają się cztery odpowiedzi. Liczy się czas.</li>
+      <li>Po rundzie prowadzący pokazuje, co to było i kto trafił.</li>
+    </ol>
+    <p>Zmieści się czternaście telefonów z zapasem. Wszystko idzie przez internet, więc każdy musi mieć zasięg — niekoniecznie to samo wi-fi.</p>
+  </details>
+</section>
+
+<!-- ========================== USTAWIENIA ========================== -->
+<section data-ekran="ustawienia" class="ekran" hidden>
+  <h2 class="tytul-ekranu">Z czego gramy?</h2>
+
+  <fieldset class="grupa">
+    <legend>Kategorie</legend>
+    <div class="znaczki" id="wybor-kategorii"></div>
+  </fieldset>
+
+  <fieldset class="grupa">
+    <legend>Dekady</legend>
+    <div class="znaczki" id="wybor-dekad"></div>
+  </fieldset>
+
+  <p class="licznik-puli" id="licznik-puli"></p>
+
+  <fieldset class="grupa">
+    <legend>Czas na odpowiedź</legend>
+    <div class="znaczki waskie" id="wybor-czasu"></div>
+  </fieldset>
+
+  <fieldset class="grupa">
+    <legend>Liczba rund</legend>
+    <div class="znaczki waskie" id="wybor-rund"></div>
+  </fieldset>
+
+  <fieldset class="grupa">
+    <legend>O co pytamy</legend>
+    <div class="znaczki" id="wybor-pytan"></div>
+  </fieldset>
+
+  <fieldset class="grupa">
+    <legend>Dodatki</legend>
+    <label class="przelacznik">
+      <input type="checkbox" id="opcja-dzwiek" checked>
+      <span><strong>Muzyka z aplikacji</strong><small>30-sekundowe fragmenty ze sklepu. Wyłącz, jeśli puszczasz swoje.</small></span>
+    </label>
+    <label class="przelacznik">
+      <input type="checkbox" id="opcja-fragment">
+      <span><strong>Losowy moment</strong><small>Fragment zaczyna się w innym miejscu za każdym razem — trudniej.</small></span>
+    </label>
+    <label class="przelacznik">
+      <input type="checkbox" id="opcja-seria">
+      <span><strong>Bonus za serię</strong><small>Kolejne trafienia z rzędu dają do +50 punktów.</small></span>
+    </label>
+  </fieldset>
+
+  <div class="stopka-ekranu">
+    <button class="klawisz" id="test-polaczenia" type="button">Sprawdź połączenie</button>
+    <button class="klawisz glowny" id="otworz-pokoj" type="button">Otwórz pokój</button>
+  </div>
+  <p class="drobne" id="stan-podgladow"></p>
+</section>
+
+<!-- ============================ LOBBY ============================ -->
+<section data-ekran="lobby" class="ekran" hidden>
+  <h2 class="tytul-ekranu">Dołączcie do gry</h2>
+  <div class="karta-kodu">
+    <div class="qr" id="qr"></div>
+    <div class="kod-obok">
+      <p class="etykieta">Kod pokoju</p>
+      <p class="kod" id="kod-pokoju">····</p>
+      <p class="adres" id="adres-pokoju"></p>
+      <button class="klawisz maly" id="kopiuj-adres" type="button">Skopiuj link</button>
+    </div>
+  </div>
+
+  <div class="naglowek-listy">
+    <h3>W grze <span class="liczba" id="liczba-graczy">0</span></h3>
+    <p class="drobne" id="pojemnosc"></p>
+  </div>
+  <ul class="gracze" id="lista-graczy"></ul>
+  <p class="pusto" id="lobby-pusto">Nikt jeszcze nie dołączył. Pokażcie sobie ten kod.</p>
+
+  <div class="stopka-ekranu przyklejona">
+    <button class="klawisz" id="wroc-do-ustawien" type="button">Ustawienia</button>
+    <button class="klawisz glowny" id="zacznij-gre" type="button" disabled>Zaczynamy</button>
+  </div>
+</section>
+
+<!-- ============================ RUNDA ============================= -->
+<section data-ekran="runda" class="ekran ekran-gry" hidden>
+  <div class="pasek-rundy">
+    <span class="numer-rundy" id="numer-rundy">Runda 1/12</span>
+    <span class="odpowiedzi-licznik" id="ilu-odpowiedzialo">0 z 0</span>
+  </div>
+  <div class="zegar">
+    <svg viewBox="0 0 120 120" aria-hidden="true">
+      <circle class="zegar-tlo" cx="60" cy="60" r="52"></circle>
+      <circle class="zegar-wskaz" id="zegar-wskaz" cx="60" cy="60" r="52"></circle>
+    </svg>
+    <span class="zegar-liczba" id="zegar-liczba">15</span>
+  </div>
+  <h2 class="pytanie" id="pytanie-hosta">Co to za piosenka?</h2>
+  <div class="odpowiedzi" id="odpowiedzi-hosta"></div>
+  <p class="drobne srodek" id="uwaga-dzwieku"></p>
+  <div class="stopka-ekranu">
+    <button class="klawisz" id="pomin-runde" type="button">Pomiń</button>
+    <button class="klawisz glowny" id="odslon-teraz" type="button">Odsłoń teraz</button>
+  </div>
+</section>
+
+<!-- =========================== ODSŁONA ============================ -->
+<section data-ekran="odslona" class="ekran" hidden>
+  <div class="odsloniete">
+    <img class="okladka" id="okladka" alt="" hidden>
+    <div class="odsloniete-tresc">
+      <p class="etykieta">Prawidłowa odpowiedź</p>
+      <h2 class="odsloniety-tytul" id="odsloniety-tytul"></h2>
+      <p class="odsloniety-wykonawca" id="odsloniety-wykonawca"></p>
+    </div>
+  </div>
+  <div class="trafili" id="trafili"></div>
+  <h3 class="tytul-listy">Tabela</h3>
+  <ol class="ranking" id="ranking-podglad"></ol>
+  <div class="stopka-ekranu przyklejona">
+    <button class="klawisz" id="zakoncz-gre" type="button">Zakończ</button>
+    <button class="klawisz glowny" id="nastepna-runda" type="button">Następna runda</button>
+  </div>
+</section>
+
+<!-- ============================ KONIEC ============================ -->
+<section data-ekran="koniec" class="ekran" hidden>
+  <h2 class="tytul-ekranu srodek">Koniec gry</h2>
+  <div class="podium" id="podium"></div>
+  <ol class="ranking pelny" id="ranking-koncowy"></ol>
+  <div class="stopka-ekranu">
+    <button class="klawisz" id="nowe-ustawienia" type="button">Zmień ustawienia</button>
+    <button class="klawisz glowny" id="jeszcze-raz" type="button">Jeszcze raz</button>
+  </div>
+</section>
+
+<!-- ========================== DOŁĄCZANIE ========================== -->
+<section data-ekran="dolaczanie" class="ekran srodek" hidden>
+  <h2 class="tytul-ekranu">Dołącz do gry</h2>
+  <form class="formularz" id="formularz-dolaczenia" autocomplete="off">
+    <label class="pole">
+      <span>Kod pokoju</span>
+      <input id="pole-kodu" name="kod" inputmode="text" autocapitalize="characters"
+             spellcheck="false" maxlength="4" placeholder="ABCD" required>
+    </label>
+    <label class="pole">
+      <span>Twoja ksywka</span>
+      <input id="pole-ksywki" name="ksywka" maxlength="14" placeholder="np. Zosia" required>
+    </label>
+    <button class="klawisz glowny duzy" id="dolacz" type="submit">Wchodzę</button>
+  </form>
+  <p class="drobne" id="stan-dolaczania"></p>
+</section>
+
+<!-- ========================= POCZEKALNIA ========================== -->
+<section data-ekran="poczekalnia" class="ekran srodek" hidden>
+  <div class="puls" aria-hidden="true">♪</div>
+  <h2 class="tytul-ekranu">Jesteś w grze</h2>
+  <p class="ksywka-duza" id="moja-ksywka"></p>
+  <p class="opis" id="poczekalnia-info">Czekamy na prowadzącego.</p>
+  <ul class="gracze male" id="lista-graczy-gracz"></ul>
+</section>
+
+<!-- ======================== RUNDA (GRACZ) ========================= -->
+<section data-ekran="gracz-runda" class="ekran ekran-gry" hidden>
+  <div class="pasek-rundy">
+    <span class="numer-rundy" id="numer-rundy-gracz">Runda 1/12</span>
+    <span class="moje-punkty" id="moje-punkty">0 pkt</span>
+  </div>
+  <h2 class="pytanie male" id="pytanie-gracza">Co to za piosenka?</h2>
+  <div class="pasek-czasu"><span id="pasek-czasu-wypelnienie"></span></div>
+  <div class="odpowiedzi grywalne" id="odpowiedzi-gracza"></div>
+  <p class="potwierdzenie" id="potwierdzenie" hidden></p>
+</section>
+
+<!-- ======================= ODSŁONA (GRACZ) ======================== -->
+<section data-ekran="gracz-odslona" class="ekran srodek" hidden>
+  <div class="werdykt" id="werdykt"></div>
+  <p class="etykieta">To była</p>
+  <h2 class="odsloniety-tytul" id="odsloniety-tytul-gracz"></h2>
+  <p class="odsloniety-wykonawca" id="odsloniety-wykonawca-gracz"></p>
+  <p class="moja-pozycja" id="moja-pozycja"></p>
+</section>
+
+<!-- ======================== KONIEC (GRACZ) ======================== -->
+<section data-ekran="gracz-koniec" class="ekran srodek" hidden>
+  <div class="werdykt" id="werdykt-koncowy"></div>
+  <h2 class="tytul-ekranu" id="moje-miejsce"></h2>
+  <ol class="ranking pelny" id="ranking-gracza"></ol>
+</section>
+
+</main>
+
+<div id="powiadomienie" role="status" aria-live="polite" hidden></div>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

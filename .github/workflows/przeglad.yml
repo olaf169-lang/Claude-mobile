@@ -14,6 +14,7 @@ on:
     paths:
       - "web/**"
       - "bangladesz26/**"
+      - "jaka-to-melodia/**"
       - ".github/workflows/przeglad.yml"
   schedule:
     - cron: "0 6 * * *"
@@ -159,6 +160,21 @@ jobs:
           rm -rf web/bangladesz26/narzedzia web/bangladesz26/docs \
                  web/bangladesz26/dist web/bangladesz26/README.md web/bangladesz26/.gitignore
           test -f web/bangladesz26/index.html
+
+      # Trzecia aplikacja z repozytorium, pod adresem /jaka-to-melodia/.
+      # Na stronę idzie tylko to, co ma działać w przeglądarce — narzędzia,
+      # zrzuty i README zostają w repozytorium.
+      - name: Dołóż Jaką to Melodię do strony
+        run: |
+          set -euo pipefail
+          rm -rf web/jaka-to-melodia
+          mkdir -p web/jaka-to-melodia
+          cp -r jaka-to-melodia/. web/jaka-to-melodia/
+          rm -rf web/jaka-to-melodia/narzedzia web/jaka-to-melodia/docs \
+                 web/jaka-to-melodia/node_modules web/jaka-to-melodia/README.md \
+                 web/jaka-to-melodia/package.json web/jaka-to-melodia/package-lock.json \
+                 web/jaka-to-melodia/.gitignore
+          test -f web/jaka-to-melodia/index.html
 
       - name: Przygotuj stronę
         uses: actions/upload-pages-artifact@v3

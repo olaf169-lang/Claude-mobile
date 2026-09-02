@@ -1,3 +1,20 @@
+# Claude-mobile
+
+Trzy aplikacje na telefon, każda osobno, w jednym repozytorium. Wszystkie stoją
+na GitHub Pages pod wspólnym adresem i każda ma własne README ze szczegółami.
+
+| aplikacja | co robi | katalog | adres |
+|---|---|---|---|
+| **Przegląd News** | codzienny przegląd świata z 80 kanałów RSS — opis niżej | `collector/`, `web/`, `android/` | [/Claude-mobile/](https://olaf169-lang.github.io/Claude-mobile/) |
+| **[BANGladesz26](bangladesz26/)** | losownik miast świata na daną literę | `bangladesz26/` | [/bangladesz26/](https://olaf169-lang.github.io/Claude-mobile/bangladesz26/) |
+| **[Jaka to Melodia](jaka-to-melodia/)** | muzyczny quiz na imprezę, gra się z telefonów | `jaka-to-melodia/` | [/jaka-to-melodia/](https://olaf169-lang.github.io/Claude-mobile/jaka-to-melodia/) |
+
+Reszta tego pliku dotyczy **Przeglądu News** — to on zajmuje główny katalog
+repozytorium i to on publikuje stronę, do której dwie pozostałe aplikacje
+dokładają się jako podstrony.
+
+---
+
 # Przegląd News
 
 Codzienny, pogłębiony przegląd świata: **po jednej najważniejszej informacji z dziesięciu dziedzin**,
