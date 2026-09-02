@@ -65,11 +65,47 @@ jobs:
           node narzedzia/test-przegladarki.mjs
 
   podglady:
-    name: Dociągnij nagrania
+    name: Nagrania — część ${{ matrix.czesc }}
     runs-on: ubuntu-latest
     needs: sprawdz
     # Własny commit z podglądami nie ma odpalać workflowu od nowa.
     if: ${{ github.event_name != 'push' || !contains(github.event.head_commit.message, '[podglady]') }}
+    strategy:
+      fail-fast: false
+      # Wyszukiwarka iTunes przepuszcza około dwudziestu zapytań na minutę
+      # z jednego adresu — cały katalog na jednej maszynie zajmowałby godzinę.
+      # Pięć równoległych części to pięć różnych adresów i pięć osobnych
+      # limitów; każda schodzi poniżej dziesięciu minut.
+      matrix:
+        czesc: [0, 1, 2, 3, 4]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Pobierz podglądy
+        working-directory: jaka-to-melodia
+        timeout-minutes: 25
+        run: |
+          node narzedzia/pobierz-podglady.mjs \
+            --czesc ${{ matrix.czesc }} --z 5 \
+            --plik czesc-${{ matrix.czesc }}.json \
+            ${{ github.event.inputs.odswiez == 'tak' && '--odswiez' || '' }}
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: podglady-${{ matrix.czesc }}
+          path: jaka-to-melodia/czesc-${{ matrix.czesc }}.json
+          if-no-files-found: error
+
+  scal:
+    name: Złóż i zapisz
+    runs-on: ubuntu-latest
+    needs: podglady
+    # Nawet gdy jedna część polegnie, reszta ma trafić do repozytorium.
+    if: ${{ !cancelled() && needs.podglady.result != 'skipped' }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -79,15 +115,15 @@ jobs:
         with:
           node-version: "22"
 
-      # Wyszukiwarka iTunes przycina zbyt gęste pytania, więc idziemy spokojnie.
-      # Pierwszy przebieg (cały katalog) trwa kilkanaście minut, kolejne —
-      # tylko tyle, ile dopisanych utworów.
-      - name: Pobierz podglądy
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: podglady-*
+          merge-multiple: true
+          path: czesci
+
+      - name: Złóż części w jeden plik
         working-directory: jaka-to-melodia
-        timeout-minutes: 45
-        run: |
-          node narzedzia/pobierz-podglady.mjs \
-            ${{ github.event.inputs.odswiez == 'tak' && '--odswiez' || '' }}
+        run: node narzedzia/scal-podglady.mjs ../czesci/*.json --plik dane/podglady.json
 
       - name: Zapisz w repozytorium
         working-directory: jaka-to-melodia

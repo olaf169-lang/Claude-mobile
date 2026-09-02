@@ -52,6 +52,13 @@ dopasowuje utwory i zapisuje wynik w `dane/podglady.json`. Aplikacja tylko go cz
 więc runda rusza od razu. Wyszukiwanie w locie zostało jako zapas dla utworów
 dopisanych po ostatnim przebiegu.
 
+Wyszukiwarka iTunes przepuszcza około **dwudziestu zapytań na minutę z jednego
+adresu** i nie da się tego obejść ponawianiem — trzeba pytać wolniej. Skrypt ma
+więc bramkę pilnującą stałego odstępu, a workflow dzieli katalog na pięć części
+i puszcza je równolegle na osobnych maszynach: pięć adresów, pięć limitów, całość
+poniżej dziesięciu minut zamiast godziny. Potem `narzedzia/scal-podglady.mjs`
+składa części z powrotem w jeden plik.
+
 Dopasowanie nie jest naiwne: zapytanie „Queen Radio Ga Ga” zwraca też karaoke,
 składanki coverów i wersje koncertowe. `js/dopasowanie.js` odrzuca podejrzane
 dopiski, wymaga zgodnego wykonawcy i premiuje nagranie z roku wydania singla.

@@ -2,7 +2,7 @@
 /* ==========================================================================
    Dociąga 30-sekundowe podglądy do katalogu i zapisuje dane/podglady.json.
    --------------------------------------------------------------------------
-   Uruchamiany na runnerze GitHuba (workflow „Jaka to Melodia”) albo ręcznie:
+   Uruchamiany przez workflow „Jaka to Melodia” albo ręcznie:
 
        node narzedzia/pobierz-podglady.mjs            # tylko brakujące
        node narzedzia/pobierz-podglady.mjs --odswiez  # wszystko od nowa
@@ -12,6 +12,14 @@
    nagrań leżą gotowe w repozytorium i grają od razu. Wyszukiwanie w locie
    zostaje w aplikacji tylko jako zapas dla utworów dopisanych po ostatnim
    przebiegu.
+
+   TEMPO. Wyszukiwarka iTunes przepuszcza około dwudziestu zapytań na minutę
+   z jednego adresu, a potem zaczyna odpowiadać odmową. Nie da się tego obejść
+   ponawianiem — trzeba po prostu pytać wolniej. Stąd bramka, która pilnuje
+   stałego odstępu między zapytaniami, i podział katalogu na części (`--od`,
+   `--do`): workflow puszcza je równolegle na osobnych maszynach, a każda ma
+   własny adres i własny limit. Deezer jest znacznie łaskawszy, więc jego
+   bramka przepuszcza dziesięć razy szybciej.
 
    Utwór, którego nie da się znaleźć, ląduje na liście „braki” w podsumowaniu —
    to najprościej wyłapuje literówki i piosenki, których po prostu nie ma
@@ -26,20 +34,45 @@ import { przygotujKatalog } from '../js/katalog.js';
 import { wybierzNajlepszy, zITunes, zDeezera, zapytanie } from '../js/dopasowanie.js';
 
 const KATALOG_APLIKACJI = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+const PLIK_DOMYSLNY = resolve(KATALOG_APLIKACJI, 'dane/podglady.json');
+
+// Około osiemnastu zapytań na minutę — z zapasem pod limitem iTunes.
+const ODSTEP_ITUNES_MS = 3300;
+const ODSTEP_DEEZERA_MS = 300;
+
 const spij = (ms) => (ms > 0 ? new Promise((r) => setTimeout(r, ms)) : Promise.resolve());
 
-/** Pobranie JSON-a z ponawianiem — sklepy lubią przyciąć zbyt gęste pytania. */
-async function pobierzJson(adres, { proby = 4, log } = {}) {
+/** Przepustnica: wpuszcza kolejne zapytanie nie częściej niż co `odstepMs`. */
+class Bramka {
+  constructor(odstepMs) {
+    this.odstepMs = odstepMs;
+    this.wolneOd = 0;
+  }
+
+  async przepusc() {
+    const teraz = Date.now();
+    const czekanie = Math.max(0, this.wolneOd - teraz);
+    this.wolneOd = Math.max(teraz, this.wolneOd) + this.odstepMs;
+    await spij(czekanie);
+  }
+}
+
+/**
+ * Pobranie JSON-a. Odmowa z powodu limitu (403/429) oznacza, że mimo bramki
+ * pytamy za szybko — wtedy jedna dłuższa przerwa, a nie seria ponowień.
+ */
+async function pobierzJson(adres, { bramka, proby = 2, log } = {}) {
   for (let proba = 1; proba <= proby; proba += 1) {
+    await bramka.przepusc();
     try {
       const odpowiedz = await fetch(adres, {
         headers: { 'user-agent': 'jaka-to-melodia/1.0 (katalog gry towarzyskiej)' },
         signal: AbortSignal.timeout(20_000),
       });
       if (odpowiedz.status === 403 || odpowiedz.status === 429) {
-        const czekaj = 5000 * proba;
-        log?.(`  (limit zapytań, czekam ${czekaj / 1000}s)`);
-        await spij(czekaj);
+        if (proba === proby) return null;
+        log?.('  (sklep przycina zapytania — dłuższa przerwa)');
+        await spij(30_000);
         continue;
       }
       if (!odpowiedz.ok) return null;
@@ -49,7 +82,7 @@ async function pobierzJson(adres, { proby = 4, log } = {}) {
         log?.(`  (nie udało się: ${blad.message})`);
         return null;
       }
-      await spij(1500 * proba);
+      await spij(2000);
     }
   }
   return null;
@@ -73,16 +106,16 @@ async function szukajWDeezerze(utwor, opcje) {
   return (dane?.data || []).map(zDeezera);
 }
 
-async function znajdz(utwor, przerwaMs, opcje) {
+async function znajdz(utwor, bramki, log) {
   // Polskie wydania są w sklepie PL, reszta świata i tak tam jest — więc dla
-  // polskich najpierw PL, dla pozostałych najpierw US.
+  // polskich najpierw PL, dla pozostałych najpierw US. Drugi kraj tylko wtedy,
+  // gdy pierwszy nic nie zwróci: każde zapytanie kosztuje kilka sekund tempa.
   const kraje = utwor.gatunek === 'polskie' ? ['PL', 'US'] : ['US', 'PL'];
   for (const kraj of kraje) {
-    const trafienie = wybierzNajlepszy(utwor, await szukajWITunes(utwor, kraj, opcje));
+    const trafienie = wybierzNajlepszy(utwor, await szukajWITunes(utwor, kraj, { bramka: bramki.itunes, log }));
     if (trafienie) return trafienie;
-    await spij(przerwaMs);
   }
-  return wybierzNajlepszy(utwor, await szukajWDeezerze(utwor, opcje));
+  return wybierzNajlepszy(utwor, await szukajWDeezerze(utwor, { bramka: bramki.deezer, log }));
 }
 
 /**
@@ -92,34 +125,49 @@ async function znajdz(utwor, przerwaMs, opcje) {
  */
 export async function uzupelnijPodglady({
   katalog = przygotujKatalog(),
-  plikWyniku = resolve(KATALOG_APLIKACJI, 'dane/podglady.json'),
+  plikWejscia = PLIK_DOMYSLNY,
+  plikWyniku = PLIK_DOMYSLNY,
   odswiez = false,
   limit = Infinity,
-  przerwaMs = 300,
+  od = 0,
+  do: doIndeksu = Infinity,
+  czesc = null,
+  zIlu = 1,
+  odstepMs = ODSTEP_ITUNES_MS,
   log = console.log,
 } = {}) {
-  let wynik = { wersja: 1, wygenerowano: null, utwory: {} };
+  let znane = {};
   if (!odswiez) {
     try {
-      wynik = JSON.parse(readFileSync(plikWyniku, 'utf8'));
-      wynik.utwory ||= {};
-    } catch { /* pierwszy przebieg — plik jeszcze nie istnieje */ }
+      znane = JSON.parse(readFileSync(plikWejscia, 'utf8')).utwory || {};
+    } catch { /* pierwszy przebieg — pliku jeszcze nie ma */ }
   }
 
   // Wpisy dla utworów usuniętych z katalogu tylko puchłyby w nieskończoność.
   const znaneId = new Set(katalog.map((u) => u.id));
-  for (const id of Object.keys(wynik.utwory)) if (!znaneId.has(id)) delete wynik.utwory[id];
+  for (const id of Object.keys(znane)) if (!znaneId.has(id)) delete znane[id];
 
-  const doZrobienia = katalog.filter((u) => !wynik.utwory[u.id]?.podglad).slice(0, limit);
-  log(`Katalog: ${katalog.length} utworów. Do sprawdzenia: ${doZrobienia.length}.`);
+  // Podział na równe części liczymy tutaj, a nie w workflow: katalog rośnie,
+  // a granice mają się przesuwać razem z nim.
+  let poczatek = od;
+  let koniec = doIndeksu;
+  if (czesc !== null) {
+    poczatek = Math.floor((czesc * katalog.length) / zIlu);
+    koniec = Math.floor(((czesc + 1) * katalog.length) / zIlu);
+  }
+  const mojaCzesc = katalog.slice(poczatek, koniec === Infinity ? undefined : koniec);
+  const doZrobienia = mojaCzesc.filter((u) => !znane[u.id]?.podglad).slice(0, limit);
+  log(`Katalog: ${katalog.length} utworów, moja część: ${mojaCzesc.length}. Do sprawdzenia: ${doZrobienia.length}.`);
 
+  const bramki = { itunes: new Bramka(odstepMs), deezer: new Bramka(odstepMs ? ODSTEP_DEEZERA_MS : 0) };
+  const znalezione = {};
   const braki = [];
-  let znalezione = 0;
+
   for (const [nr, utwor] of doZrobienia.entries()) {
     const etykieta = `${utwor.wykonawca} — ${utwor.tytul}`;
-    const trafienie = await znajdz(utwor, przerwaMs, { log });
+    const trafienie = await znajdz(utwor, bramki, log);
     if (trafienie) {
-      wynik.utwory[utwor.id] = {
+      znalezione[utwor.id] = {
         podglad: trafienie.podglad,
         okladka: trafienie.okladka,
         zrodlo: trafienie.zrodlo,
@@ -127,22 +175,46 @@ export async function uzupelnijPodglady({
         tytulZrodla: trafienie.tytul,
         wykonawcaZrodla: trafienie.wykonawca,
       };
-      znalezione += 1;
       log(`  ✓ ${etykieta}`);
     } else {
       braki.push(etykieta);
       log(`  ✗ ${etykieta}`);
     }
     if (nr % 25 === 24) log(`  … ${nr + 1}/${doZrobienia.length}`);
-    await spij(przerwaMs);
   }
 
-  wynik.wygenerowano = new Date().toISOString();
-  wynik.braki = braki;
+  const wynik = {
+    wersja: 1,
+    wygenerowano: new Date().toISOString(),
+    // Część przebiegu zapisuje tylko to, co sama znalazła; scalanie dokłada
+    // resztę. Pełny przebieg (bez --od/--do) od razu ma komplet.
+    utwory: { ...znane, ...znalezione },
+    braki,
+  };
   mkdirSync(dirname(plikWyniku), { recursive: true });
   writeFileSync(plikWyniku, `${JSON.stringify(wynik, null, 1)}\n`);
 
-  return { wynik, znalezione, braki, zPodgladem: Object.keys(wynik.utwory).length, wKatalogu: katalog.length };
+  return {
+    wynik,
+    znalezione: Object.keys(znalezione).length,
+    braki,
+    zPodgladem: Object.keys(wynik.utwory).length,
+    wKatalogu: katalog.length,
+  };
+}
+
+export function raportTekstowy({ zPodgladem, wKatalogu, znalezione, braki }) {
+  const wiersze = [
+    '',
+    `## Podglądy: ${zPodgladem}/${wKatalogu} utworów`,
+    '',
+    `W tym przebiegu znaleziono: **${znalezione}**, nie znaleziono: **${braki.length}**.`,
+  ];
+  if (braki.length) {
+    wiersze.push('', '### Bez nagrania (sprawdź pisownię tytułu i wykonawcy)', '');
+    wiersze.push(...braki.map((b) => `- ${b}`));
+  }
+  return `${wiersze.join('\n')}\n`;
 }
 
 /* --- wiersz poleceń --- */
@@ -151,29 +223,26 @@ if (process.argv[1] && import.meta.url === `file://${resolve(process.argv[1])}`)
   const argumenty = process.argv.slice(2);
   const wartosc = (nazwa, domyslna) => {
     const i = argumenty.indexOf(nazwa);
-    return i >= 0 && argumenty[i + 1] ? argumenty[i + 1] : domyslna;
+    return i >= 0 && argumenty[i + 1] !== undefined ? argumenty[i + 1] : domyslna;
+  };
+  const liczba = (nazwa, domyslna) => {
+    const surowa = wartosc(nazwa, null);
+    return surowa === null ? domyslna : Number(surowa);
   };
 
   const raport = await uzupelnijPodglady({
     odswiez: argumenty.includes('--odswiez'),
-    limit: Number(wartosc('--limit', 0)) || Infinity,
-    przerwaMs: Number(wartosc('--przerwa', 300)),
-    plikWyniku: process.env.JTM_PLIK_PODGLADOW
-      ? resolve(process.env.JTM_PLIK_PODGLADOW)
-      : resolve(KATALOG_APLIKACJI, 'dane/podglady.json'),
+    limit: liczba('--limit', Infinity),
+    od: liczba('--od', 0),
+    do: liczba('--do', Infinity),
+    czesc: argumenty.includes('--czesc') ? liczba('--czesc', 0) : null,
+    zIlu: liczba('--z', 1),
+    odstepMs: liczba('--odstep', ODSTEP_ITUNES_MS),
+    plikWejscia: resolve(wartosc('--wejscie', process.env.JTM_PLIK_PODGLADOW || PLIK_DOMYSLNY)),
+    plikWyniku: resolve(wartosc('--plik', process.env.JTM_PLIK_PODGLADOW || PLIK_DOMYSLNY)),
   });
 
-  const wiersze = [
-    '',
-    `## Podglądy: ${raport.zPodgladem}/${raport.wKatalogu} utworów`,
-    '',
-    `W tym przebiegu znaleziono: **${raport.znalezione}**, nie znaleziono: **${raport.braki.length}**.`,
-  ];
-  if (raport.braki.length) {
-    wiersze.push('', '### Bez nagrania (sprawdź pisownię tytułu i wykonawcy)', '');
-    wiersze.push(...raport.braki.map((b) => `- ${b}`));
-  }
-  const tekst = `${wiersze.join('\n')}\n`;
+  const tekst = raportTekstowy(raport);
   console.log(tekst);
   if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, tekst);
 }

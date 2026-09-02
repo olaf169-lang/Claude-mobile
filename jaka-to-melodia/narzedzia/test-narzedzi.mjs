@@ -10,6 +10,7 @@ import assert from 'node:assert/strict';
 
 import { przygotujKatalog } from '../js/katalog.js';
 import { uzupelnijPodglady } from './pobierz-podglady.mjs';
+import { scal } from './scal-podglady.mjs';
 
 const plik = join(mkdtempSync(join(tmpdir(), 'jtm-')), 'podglady.json');
 
@@ -36,7 +37,8 @@ const mikroKatalog = przygotujKatalog([
   { tytul: 'Radio Ga Ga', wykonawca: 'Queen', rok: 1984, gatunek: 'rock' },
   { tytul: 'Piosenka Widmo', wykonawca: 'Zespół Bez Nagrań', rok: 1999, gatunek: 'pop' },
 ]);
-const opcje = { katalog: mikroKatalog, plikWyniku: plik, przerwaMs: 0, log: () => {} };
+// odstepMs: 0 wyłącza bramkę tempa — w teście nie ma po co czekać.
+const opcje = { katalog: mikroKatalog, plikWejscia: plik, plikWyniku: plik, odstepMs: 0, log: () => {} };
 
 const pierwszy = await uzupelnijPodglady(opcje);
 const queen = pierwszy.wynik.utwory['queen--radio-ga-ga'];
@@ -59,5 +61,30 @@ console.log('✓ drugi przebieg pomija utwory, które już mają nagranie');
 const trzeci = await uzupelnijPodglady({ ...opcje, katalog: mikroKatalog.slice(1) });
 assert.equal(trzeci.wynik.utwory['queen--radio-ga-ga'], undefined, 'nie sprzątnął po usuniętym utworze');
 console.log('✓ wpisy po usuniętych utworach znikają');
+
+// Podział katalogu na części — tak workflow omija limit zapytań iTunes.
+const pierwszaPolowa = await uzupelnijPodglady({
+  ...opcje, odswiez: true, od: 0, do: 1, plikWyniku: `${plik}.a`,
+});
+const drugaPolowa = await uzupelnijPodglady({
+  ...opcje, odswiez: true, od: 1, do: 2, plikWyniku: `${plik}.b`,
+});
+assert.deepEqual(Object.keys(pierwszaPolowa.wynik.utwory), ['queen--radio-ga-ga']);
+assert.deepEqual(Object.keys(drugaPolowa.wynik.utwory), []);
+assert.deepEqual(drugaPolowa.braki, ['Zespół Bez Nagrań — Piosenka Widmo']);
+console.log('✓ każda część bierze tylko swój wycinek katalogu');
+
+const scalone = scal([pierwszaPolowa.wynik, drugaPolowa.wynik], mikroKatalog);
+assert.equal(scalone.utwory['queen--radio-ga-ga'].podglad, 'dobre');
+assert.deepEqual(scalone.braki, ['Zespół Bez Nagrań — Piosenka Widmo']);
+console.log('✓ scalanie składa części z powrotem w komplet');
+
+// Utwór znaleziony przez jedną część nie może zostać brakiem przez drugą.
+const zeSprzecznoscia = scal([
+  { utwory: { 'queen--radio-ga-ga': { podglad: 'dobre' } }, braki: [] },
+  { utwory: {}, braki: ['Queen — Radio Ga Ga'] },
+], mikroKatalog);
+assert.deepEqual(zeSprzecznoscia.braki, [], 'znaleziony utwór został zgłoszony jako brak');
+console.log('✓ znaleziony w jednej części nie trafia na listę braków');
 
 console.log('\nNARZĘDZIA OK');
