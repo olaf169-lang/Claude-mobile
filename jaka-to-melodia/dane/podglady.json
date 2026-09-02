@@ -1,6 +1,6 @@
 {
  "wersja": 1,
- "wygenerowano": "2026-09-02T17:22:35.015Z",
+ "wygenerowano": "2026-09-02T17:23:04.864Z",
  "utwory": {
   "phil-collins--in-the-air-tonight": {
    "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/d5/19/0fd51913-f97c-b88b-a4d2-bbf833116daa/mzaf_13159865170747963555.plus.aac.p.m4a",
@@ -3873,15 +3873,29 @@
    "zrodloId": "1648264111",
    "tytulZrodla": "mori",
    "wykonawcaZrodla": "Dawid Podsiadło"
+  },
+  "run-dmc--walk-this-way": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0c/7d/b0/0c7db03a-edca-e054-8a40-29240e342d0f/mzaf_1265977749455777128.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/da/76/21/da762101-ee6b-d3b5-954e-9dab4c16c45a/078221640824.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "254344996",
+   "tytulZrodla": "Walk This Way (feat. Aerosmith)",
+   "wykonawcaZrodla": "Run-DMC"
+  },
+  "atc--around-the-world": {
+   "podglad": "https://cdnt-preview.dzcdn.net/api/1/1/5/0/0/0/50047ca27ba1e692fd1b3052204215b4.mp3?hdnea=exp=1788370664~acl=/api/1/1/5/0/0/0/50047ca27ba1e692fd1b3052204215b4.mp3*~data=user_id=0,application_id=42~hmac=3162289b14478d810f6934a9cdf8bb161bc6783bbcd72e1ce4f800b8044310d1",
+   "okladka": "https://cdn-images.dzcdn.net/images/cover/adb7796bb5bd61d893d47710b15e0d0f/500x500-000000-80-0-0.jpg",
+   "zrodlo": "deezer",
+   "zrodloId": "140013769",
+   "tytulZrodla": "Around the World",
+   "wykonawcaZrodla": "ATC"
   }
  },
  "braki": [
-  "ATC — Around the World (La La La La La)",
   "De Mono — Zostawcie Titanica",
   "Formacja Nieżywych Schabuff — Lato",
   "Igo — Wypijmy za błędy",
   "Oddział Zamknięty — Andzia i ja",
-  "Run-D.M.C. — Walk This Way",
   "Sobel — Puste kieszenie",
   "Strachy na Lachy — Żyletka",
   "Video — Bezsenność"
