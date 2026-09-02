@@ -20,7 +20,7 @@
 
   --tekst:          #F2EEFF;
   --tekst-cichy:    #ADA3C8;
-  --tekst-ledwie:   #776D96;
+  --tekst-ledwie:   #948AB8;
 
   --magenta:        #FF4D9D;
   --lazur:          #38E1D6;
@@ -67,7 +67,7 @@
 
   --tekst:          #170E30;
   --tekst-cichy:    #574B77;
-  --tekst-ledwie:   #857AA3;
+  --tekst-ledwie:   #6B5F8F;
 
   --magenta:        #D42077;
   --lazur:          #0E8C86;
@@ -279,7 +279,7 @@ main {
 }
 
 .opis { margin: 0 0 1.4rem; color: var(--tekst-cichy); }
-.drobne { font-size: .84rem; color: var(--tekst-ledwie); }
+.drobne { font-size: .84rem; font-weight: 500; color: var(--tekst-ledwie); }
 .drobne.srodek { text-align: center; }
 .etykieta {
   margin: 0 0 .15rem;
@@ -441,7 +441,7 @@ main {
 .przelacznik input { margin-top: .35rem; width: 1.15rem; height: 1.15rem; accent-color: var(--magenta); }
 .przelacznik span { display: flex; flex-direction: column; }
 .przelacznik strong { font-weight: 600; font-size: .98rem; }
-.przelacznik small { color: var(--tekst-ledwie); font-size: .84rem; }
+.przelacznik small { color: var(--tekst-ledwie); font-size: .84rem; font-weight: 500; }
 
 /* Pole zależne od przełącznika nad nim — wcięte, żeby było widać zależność. */
 .pole.wciete { margin: .2rem 0 .4rem 1.9rem; }
@@ -694,8 +694,17 @@ main {
   object-fit: cover;
   background: var(--plyta-mocna);
 }
+/* Na ekranie gracza (wyśrodkowanym, bez rzędu obok tekstu) okładka stoi sama,
+   nad tytułem, zamiast obok niego. */
+.okladka.srodek { display: block; margin: 0 auto 1rem; width: 7.2rem; height: 7.2rem; box-shadow: var(--cien-mm); }
 
 .odsloniete-tresc { min-width: 0; }
+
+/* Skrócona wersja karty „co leciało” — na ekranie wyników rundy, żeby
+   przypomnieć ostatnią piosenkę bez powtarzania całej odsłony. */
+.odsloniete.kompaktowe { padding: .7rem; margin-bottom: 1rem; }
+.odsloniete.kompaktowe .okladka { width: 4.4rem; height: 4.4rem; }
+.odsloniete.lewo { text-align: left; }
 
 .odsloniety-tytul {
   margin: 0 0 .2rem;
@@ -706,6 +715,7 @@ main {
   letter-spacing: -.02em;
   overflow-wrap: anywhere;
 }
+.odsloniety-tytul.maly { font-size: 1.1rem; }
 
 .odsloniety-wykonawca {
   margin: 0;

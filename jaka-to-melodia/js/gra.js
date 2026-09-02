@@ -77,6 +77,10 @@ export function pulaUtworow(ustawienia, { katalog = przygotujKatalog(), maPodgla
     (u) =>
       kategorie.has(u.gatunek) &&
       dekady.has(u.dekada) &&
+      // Filmowa pyta o film, w którym utwór usłyszałeś — bez znanego filmu
+      // nie da się z tego zrobić pytania, więc taki wpis po prostu nie wchodzi
+      // do puli (tak samo jak utwór bez nagrania przy grze z dźwiękiem).
+      (u.gatunek !== 'filmowa' || u.film) &&
       (!maPodglad || maPodglad(u)),
   );
 }
@@ -144,9 +148,63 @@ export function dobierzBledne(utwor, katalog, typ, losuj, ile = 3) {
 export const tekstOdpowiedzi = (utwor, typ) =>
   typ === 'wykonawca' ? utwor.wykonawca : utwor.tytul;
 
+/* --- muzyka filmowa: wyjątek od zwykłych pytań ---------------------------
+   Tu nie zgadujemy tytułu ani wykonawcy — jedno z nich jawnie podajemy jako
+   podpowiedź, a odpowiedzią jest film, w którym ten utwór usłyszysz. Złe
+   odpowiedzi to więc inne filmy (nie inne piosenki), a dystraktory wybieramy
+   po tym samym pomyśle co gdzie indziej: bliższa dekada wygrywa, w środku
+   grupy o tej samej wadze — losowo. */
+
+function dobierzBledneFilmy(utwor, katalog, losuj, ile = 3) {
+  const widziane = new Set([utwor.film]);
+  const kandydaci = [];
+  for (const k of katalog) {
+    if (k.gatunek !== 'filmowa' || !k.film || widziane.has(k.film)) continue;
+    widziane.add(k.film);
+    const waga = (k.dekada === utwor.dekada ? 2 : 0) + (Math.abs(k.rok - utwor.rok) <= 5 ? 1 : 0);
+    kandydaci.push({ film: k.film, waga });
+  }
+
+  const grupy = new Map();
+  for (const kandydat of kandydaci) {
+    if (!grupy.has(kandydat.waga)) grupy.set(kandydat.waga, []);
+    grupy.get(kandydat.waga).push(kandydat.film);
+  }
+
+  const wybrane = [];
+  for (const waga of [...grupy.keys()].sort((a, b) => b - a)) {
+    for (const film of przetasuj(grupy.get(waga), losuj)) {
+      if (wybrane.length >= ile) break;
+      wybrane.push(film);
+    }
+    if (wybrane.length >= ile) break;
+  }
+  return wybrane;
+}
+
+function zbudujRundeFilmowa(utwor, katalog, losuj) {
+  const bledne = dobierzBledneFilmy(utwor, katalog, losuj);
+  const wszystkieFilmy = przetasuj([utwor.film, ...bledne], losuj);
+  // Losujemy, co widać na ekranie — tytuł czy wykonawcę. To drugie zostaje
+  // tajemnicą aż do odsłony, tak jak przy zwykłym pytaniu.
+  const wskazany = losuj() < 0.5 ? 'tytul' : 'wykonawca';
+  const podpowiedz = wskazany === 'tytul'
+    ? `Ten utwór to „${utwor.tytul}” — w jakim filmie go usłyszysz?`
+    : `Tego utworu słuchasz w wykonaniu ${utwor.wykonawca} — w jakim filmie go usłyszysz?`;
+  return {
+    utwor,
+    typ: 'film',
+    wskazany,
+    pytanie: podpowiedz,
+    odpowiedzi: wszystkieFilmy,
+    poprawna: wszystkieFilmy.indexOf(utwor.film),
+  };
+}
+
 /* --- budowa rundy --- */
 
 export function zbudujRunde(utwor, katalog, typ, losuj) {
+  if (utwor.gatunek === 'filmowa') return zbudujRundeFilmowa(utwor, katalog, losuj);
   const bledne = dobierzBledne(utwor, katalog, typ, losuj);
   const wszystkie = przetasuj([utwor, ...bledne], losuj);
   return {

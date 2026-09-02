@@ -45,6 +45,12 @@ for (const utwor of utwory) {
   if (/\((remaster|remastered|live|radio edit)/i.test(utwor.tytul)) {
     uwagi.push(`${gdzie}: dopisek w tytule utrudni znalezienie nagrania`);
   }
+  if (utwor.gatunek === 'filmowa' && !utwor.film) {
+    uwagi.push(`${gdzie}: brak pola „film” — nie wejdzie do puli pytań o film`);
+  }
+  if (utwor.gatunek !== 'filmowa' && utwor.film) {
+    uwagi.push(`${gdzie}: „film” ma sens tylko przy muzyce filmowej`);
+  }
 
   if (widzianeId.has(utwor.id)) bledy.push(`Dwa razy to samo: ${gdzie}`);
   else widzianeId.set(utwor.id, utwor);

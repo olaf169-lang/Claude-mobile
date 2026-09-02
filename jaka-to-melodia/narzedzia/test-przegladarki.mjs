@@ -73,6 +73,13 @@ const oczekiwanaSeria = ulozSerie(
   { katalog: przygotujKatalog(), ziarno: ZIARNO + 1 },
 );
 
+// To samo, ale z tematu zawężonego tylko do „filmowa” — do scenariusza
+// sprawdzającego wyjątek od zwykłych pytań (patrz niżej).
+const oczekiwanaSeriaFilmowa = ulozSerie(
+  { ...USTAWIENIA_DOMYSLNE, kategorie: ['filmowa'], dlugoscSerii: 5 },
+  { katalog: przygotujKatalog(), ziarno: ZIARNO + 1 },
+);
+
 const przegladarka = await chromium.launch(
   process.env.JTM_CHROMIUM ? { executablePath: process.env.JTM_CHROMIUM } : {},
 );
@@ -303,11 +310,21 @@ try {
   for (const g of gracze) await g.strona.waitForSelector('[data-ekran="gracz-wyniki-rundy"]:not([hidden])', { timeout: 10_000 });
   await czekaj(1500); // niech animacja podium i tabeli dobiegnie końca przed zrzutem
   await zrzut(host, 'ekran-wyniki-rundy', true);
+  await zrzut(gracze[0].strona, 'ekran-wyniki-rundy-gracz');
   const podiumRundy = await host.$$eval('#podium-rundy .stopien .kto', (n) => n.map((e) => e.textContent));
   assert.ok(podiumRundy.length >= 1, 'brak podium na ekranie wyników rundy');
   assert.equal((await host.textContent('#dalej-po-rundzie')).trim(), 'Zobacz wynik gry',
     'jedna runda w grze, a przycisk nie prowadzi do końcowego podsumowania');
-  zapisz(`ekran wyników rundy pokazuje podium: ${podiumRundy.join(' · ')}`);
+  const ostatnie = oczekiwanaSeria[oczekiwanaSeria.length - 1];
+  assert.equal(await host.isHidden('#karta-ostatniej-piosenki'), false,
+    'brak karty z ostatnią piosenką na ekranie wyników rundy (prowadzący)');
+  assert.equal((await host.textContent('#ostatnia-piosenka-tytul')).trim(), ostatnie.utwor.tytul,
+    'karta ostatniej piosenki pokazuje zły tytuł');
+  assert.equal(await gracze[0].strona.isHidden('#karta-ostatniej-piosenki-gracz'), false,
+    'brak karty z ostatnią piosenką na ekranie wyników rundy (gracz)');
+  assert.equal((await gracze[0].strona.textContent('#ostatnia-piosenka-tytul-gracz')).trim(), ostatnie.utwor.tytul,
+    'gracz widzi inny tytuł ostatniej piosenki niż prowadzący');
+  zapisz(`ekran wyników rundy pokazuje podium (${podiumRundy.join(' · ')}) i ostatnią piosenkę (${ostatnie.utwor.tytul})`);
 
   /* --- koniec gry --- */
 
@@ -470,6 +487,53 @@ try {
   assert.equal(typeof pierwszaRundaZMuzyka.nagranie.startS, 'number', 'brak liczbowego momentu startu (startS) do zsynchronizowania telefonów');
   assert.ok(pierwszaRundaZMuzyka.nagranie.startS >= 0, 'moment startu nagrania jest ujemny');
   zapisz('„graj też na telefonach graczy”: adres nagrania i moment startu lecą w eter razem z pytaniem');
+
+  /* ====================================================================
+     SCENARIUSZ 4 — muzyka filmowa. Wyjątek od zwykłych pytań: na ekranie
+     jawnie widać tytuł albo wykonawcę (drugie zostaje tajemnicą), a zgadnąć
+     trzeba film, w którym ten utwór usłyszysz. Temat zawężony do samej
+     kategorii „filmowa” w Ustawieniach, więc panel wyboru tematu rundy i tak
+     ma tylko jedną opcję — „Wszystko” wystarczy.
+     ==================================================================== */
+
+  const filmowiec = await nowaKarta('Filmowiec', 420, 920);
+  await filmowiec.goto(ADRES, { waitUntil: 'domcontentloaded' });
+  await filmowiec.click('#rola-prowadzacy');
+  await filmowiec.waitForSelector('[data-ekran="ustawienia"]:not([hidden])');
+  // Zostawiamy zaznaczoną tylko „Filmowa” (indeks 5) — resztę wyłączamy.
+  for (const nth of [0, 1, 2, 3, 4, 6]) await filmowiec.click(`#wybor-kategorii .znaczek >> nth=${nth}`);
+  await filmowiec.click('#wybor-serii .znaczek >> nth=0');        // 5 piosenek
+  await filmowiec.click('#wybor-rund .znaczek >> nth=0');         // 1 runda
+  await filmowiec.click('#wybor-kto-wybiera .znaczek >> nth=1');  // temat zawsze ustala prowadzący
+  await filmowiec.uncheck('#opcja-dzwiek');
+  await filmowiec.fill('#ksywka-prowadzacego', 'Filmowiec');
+
+  await filmowiec.click('#otworz-pokoj');
+  await filmowiec.waitForSelector('[data-ekran="lobby"]:not([hidden])', { timeout: 20_000 });
+  await filmowiec.click('#zacznij-gre');
+  await filmowiec.waitForSelector('[data-ekran="wybor-tematu"]:not([hidden])', { timeout: 10_000 });
+  await filmowiec.click('#temat-wszystko');
+  await filmowiec.click('#zacznij-runde');
+  await filmowiec.waitForSelector('[data-ekran="runda"]:not([hidden])', { timeout: 10_000 });
+
+  const pierwszeFilmowe = oczekiwanaSeriaFilmowa[0];
+  assert.equal(pierwszeFilmowe.typ, 'film', 'silnik nie potraktował „filmowa” jako wyjątku');
+  assert.equal((await filmowiec.textContent('#pytanie-hosta')).trim(), pierwszeFilmowe.pytanie,
+    'pytanie na ekranie nie zgadza się z tym, co ułożył silnik');
+  const odpowiedziFilmowe = await filmowiec.$$eval('#odpowiedzi-hosta .tresc', (n) => n.map((e) => e.textContent));
+  assert.deepEqual(odpowiedziFilmowe, pierwszeFilmowe.odpowiedzi, 'odpowiedzi (nazwy filmów) nie zgadzają się z silnikiem');
+  await zrzut(filmowiec, 'ekran-runda-filmowa', true);
+  zapisz(`filmowa: na ekranie „${pierwszeFilmowe.wskazany === 'tytul' ? pierwszeFilmowe.utwor.tytul : pierwszeFilmowe.utwor.wykonawca}”, do zgadnięcia film`);
+
+  await filmowiec.click(`#odpowiedzi-hosta .odp >> nth=${pierwszeFilmowe.poprawna}`);
+  await filmowiec.waitForSelector('[data-ekran="odslona"]:not([hidden])', { timeout: 8000 });
+  assert.equal((await filmowiec.textContent('#odsloniety-tytul')).trim(), pierwszeFilmowe.utwor.film,
+    'odsłona nie pokazuje filmu jako prawidłowej odpowiedzi');
+  assert.equal((await filmowiec.textContent('#odsloniety-wykonawca')).trim(),
+    `${pierwszeFilmowe.utwor.tytul} — ${pierwszeFilmowe.utwor.wykonawca}`,
+    'odsłona nie pokazuje tytułu i wykonawcy jako podpisu przy filmie');
+  await zrzut(filmowiec, 'ekran-odslona-filmowa', true);
+  zapisz(`filmowa: odsłona pokazuje film „${pierwszeFilmowe.utwor.film}” z podpisem „${pierwszeFilmowe.utwor.tytul} — ${pierwszeFilmowe.utwor.wykonawca}”`);
 
   assert.deepEqual([...new Set(bledy)], [], 'błędy w konsoli przeglądarki');
   console.log(`\nPRZEGLĄDARKA OK — ${zdane.length} sprawdzeń`);

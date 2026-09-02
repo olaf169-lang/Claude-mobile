@@ -341,14 +341,15 @@ export function uruchom() {
         sterujeProwadzacy,
         probaTematu: stan.probaTematu,
         // Telefon wylosowanego gracza rysuje panel wyboru z tych gotowych opisów —
-        // sam nie musi znać katalogu ani stałych KATEGORIE/DEKADY.
-        kategorieDostepne: stan.ustawienia.kategorie
-          .map((id) => KATEGORIE.find((k) => k.id === id))
-          .filter(Boolean)
+        // sam nie musi znać katalogu ani stałych KATEGORIE/DEKADY. Idziemy po
+        // kanonicznej kolejności tych stałych (nie po stan.ustawienia.kategorie/
+        // dekady) — inaczej kolejność zależałaby od tego, w jakiej kolejności
+        // ktoś klikał kategorie w Ustawieniach, a dekady wychodziłyby pomieszane.
+        kategorieDostepne: KATEGORIE
+          .filter((k) => stan.ustawienia.kategorie.includes(k.id))
           .map((k) => ({ id: k.id, nazwa: k.nazwa, emoji: k.emoji })),
-        dekadyDostepne: stan.ustawienia.dekady
-          .map((id) => DEKADY.find((d) => d.id === id))
-          .filter(Boolean)
+        dekadyDostepne: DEKADY
+          .filter((d) => stan.ustawienia.dekady.includes(d.id))
           .map((d) => ({ id: d.id, nazwa: d.nazwa })),
         dlugoscSerii: stan.ustawienia.dlugoscSerii,
       });
@@ -427,7 +428,14 @@ export function uruchom() {
       gracz.widziany = Date.now();
     }
 
-    pokoj.nadaj({ t: 'witaj', id, ksywka: gracz.ksywka, punkty: gracz.punkty, faza: stan.faza });
+    // muzykaWszedzie jedzie tu, żeby telefon gracza wiedział od razu po dołączeniu,
+    // czy w ogóle warto „rozgrzewać” swój odtwarzacz — a nie robił tego na ślepo
+    // przy każdym dołączeniu, bo samo odtworzenie czegokolwiek (nawet ciszy) na
+    // iPhonie zwykle ucina muzykę graną w tle w innej aplikacji.
+    pokoj.nadaj({
+      t: 'witaj', id, ksywka: gracz.ksywka, punkty: gracz.punkty, faza: stan.faza,
+      muzykaWszedzie: stan.ustawienia.dzwiekWAplikacji && stan.ustawienia.muzykaWszedzie,
+    });
     if (stan.faza === 'lobby') { rysujLobby(); nadajStan(); }
   }
 
@@ -520,10 +528,12 @@ export function uruchom() {
   }
 
   function rysujWyborTematu() {
+    // Kanoniczna kolejność KATEGORIE/DEKADY, nie stan.ustawienia.kategorie/dekady —
+    // ta druga zależy od tego, w jakiej kolejności ktoś klikał w Ustawieniach.
     const kategorie = wyczysc($('#wybor-tematu-kategorii'));
-    for (const id of stan.ustawienia.kategorie) {
-      const kat = KATEGORIE.find((k) => k.id === id);
-      if (!kat) continue;
+    for (const kat of KATEGORIE) {
+      if (!stan.ustawienia.kategorie.includes(kat.id)) continue;
+      const id = kat.id;
       kategorie.append(znaczek(`${kat.emoji} ${kat.nazwa}`, stan.wybor.kategorie.includes(id), () => {
         stan.wybor.kategorie = przelacz(stan.wybor.kategorie, id);
         rysujWyborTematu();
@@ -531,9 +541,9 @@ export function uruchom() {
     }
 
     const dekady = wyczysc($('#wybor-tematu-dekad'));
-    for (const id of stan.ustawienia.dekady) {
-      const dek = DEKADY.find((d) => d.id === id);
-      if (!dek) continue;
+    for (const dek of DEKADY) {
+      if (!stan.ustawienia.dekady.includes(dek.id)) continue;
+      const id = dek.id;
       dekady.append(znaczek(dek.nazwa, stan.wybor.dekady.includes(id), () => {
         stan.wybor.dekady = przelacz(stan.wybor.dekady, id);
         rysujWyborTematu();
@@ -790,8 +800,12 @@ export function uruchom() {
       tytul: pytanie.utwor.tytul,
       wykonawca: pytanie.utwor.wykonawca,
       rok: pytanie.utwor.rok,
+      // Tylko przy pytaniu o film: prawidłowa odpowiedź to nazwa filmu, nie
+      // tytuł ani wykonawca (te dwa lecą jako podpis, patrz rysujOdslone).
+      film: pytanie.typ === 'film' ? pytanie.utwor.film : null,
       kategoria: kategoriaInfo ? { emoji: kategoriaInfo.emoji, nazwa: kategoriaInfo.nazwa } : null,
       dekada: dekadaInfo ? dekadaInfo.nazwa : null,
+      okladka: wpisPodgladu?.okladka || null,
       wyniki,
       ranking: tabela.slice(0, 5).map(lekkiWpis),
       ostatniePytanieRundy: stan.nrPytania + 1 >= stan.seria.length,
@@ -820,8 +834,13 @@ export function uruchom() {
       okladka.hidden = true;
     }
 
-    $('#odsloniety-tytul').textContent = pytanie.utwor.tytul;
-    $('#odsloniety-wykonawca').textContent = `${pytanie.utwor.wykonawca} · ${pytanie.utwor.rok}`;
+    if (pytanie.typ === 'film') {
+      $('#odsloniety-tytul').textContent = pytanie.utwor.film;
+      $('#odsloniety-wykonawca').textContent = `${pytanie.utwor.tytul} — ${pytanie.utwor.wykonawca}`;
+    } else {
+      $('#odsloniety-tytul').textContent = pytanie.utwor.tytul;
+      $('#odsloniety-wykonawca').textContent = `${pytanie.utwor.wykonawca} · ${pytanie.utwor.rok}`;
+    }
     rysujZnacznikiUtworu($('#znaczniki-utworu'), stan.ostatniaOdslona);
 
     for (const kafelek of $$('#odpowiedzi-hosta .odp')) {
@@ -902,21 +921,68 @@ export function uruchom() {
 
     const tabela = ranking(stan.gracze);
     const ostatniaRunda = stan.nrRundyGry >= stan.ustawienia.liczbaRund;
+
+    // Przypomnienie ostatniej piosenki tej rundy — ten sam kawałek danych co
+    // na odsłonie, więc ekran wyników nie jest gołą tabelą bez związku z tym,
+    // co się właśnie działo.
+    // Uwaga: stan.nrPytania w tym miejscu jest już ZA końcem serii (patrz
+    // nastepnePytanie — inkrementacja i porównanie z długością serii zdarzają
+    // się przed wywołaniem zakonczRunde) — ostatnie realne pytanie to ostatni
+    // element seria, nie seria[nrPytania].
+    const ostatniePytanie = stan.seria[stan.seria.length - 1];
+    const dekadaOst = DEKADY.find((d) => d.id === ostatniePytanie.utwor.dekada);
+    const kategoriaOst = KATEGORIE.find((k) => k.id === ostatniePytanie.utwor.gatunek);
+    const ostatniaPiosenka = {
+      tytul: ostatniePytanie.utwor.tytul,
+      wykonawca: ostatniePytanie.utwor.wykonawca,
+      rok: ostatniePytanie.utwor.rok,
+      film: ostatniePytanie.typ === 'film' ? ostatniePytanie.utwor.film : null,
+      okladka: zrodlo.zPamieci(ostatniePytanie.utwor)?.okladka || null,
+      kategoria: kategoriaOst ? { emoji: kategoriaOst.emoji, nazwa: kategoriaOst.nazwa } : null,
+      dekada: dekadaOst ? dekadaOst.nazwa : null,
+    };
+
     stan.ostatnieWynikiRundy = {
       t: 'wyniki-rundy',
       nrRundyGry: stan.nrRundyGry,
       ileRund: stan.ustawienia.liczbaRund,
       ranking: tabela.slice(0, 8).map(lekkiWpis),
+      ostatniaPiosenka,
       ostatniaRunda,
     };
 
     $('#wyniki-rundy-nadtytul').textContent = `Runda ${stan.nrRundyGry}/${stan.ustawienia.liczbaRund} — koniec`;
+    rysujOstatniaPiosenke($('#karta-ostatniej-piosenki'), $('#okladka-rundy'), $('#ostatnia-piosenka-tytul'),
+      $('#ostatnia-piosenka-wykonawca'), $('#ostatnia-piosenka-znaczniki'), ostatniaPiosenka);
     rysujPodiumRundy(tabela);
     rysujRanking($('#ranking-rundy'), tabela, stan.ustawienia.prowadzacyGra ? ID_PROWADZACEGO : null, true);
     $('#dalej-po-rundzie').textContent = ostatniaRunda ? 'Zobacz wynik gry' : 'Następna runda';
 
     nadajStan();
     pokazEkran('wyniki-rundy');
+  }
+
+  /** Wspólne dla prowadzącego i (przez broadcast) gracza — karta „co leciało”
+      na ekranie wyników rundy. */
+  function rysujOstatniaPiosenke(karta, okladka, tytul, wykonawca, znaczniki, dane) {
+    karta.hidden = false;
+    if (dane.okladka) {
+      okladka.src = dane.okladka;
+      okladka.alt = `Okładka: ${dane.tytul}`;
+      okladka.hidden = false;
+    } else {
+      okladka.hidden = true;
+    }
+    if (dane.film) {
+      tytul.textContent = dane.film;
+      wykonawca.textContent = `${dane.tytul} — ${dane.wykonawca}`;
+    } else {
+      tytul.textContent = dane.tytul;
+      wykonawca.textContent = `${dane.wykonawca} · ${dane.rok}`;
+    }
+    wyczysc(znaczniki);
+    if (dane.kategoria) znaczniki.append(el('span', { tekst: `${dane.kategoria.emoji} ${dane.kategoria.nazwa}` }));
+    if (dane.dekada) znaczniki.append(el('span', { tekst: dane.dekada }));
   }
 
   function rysujPodiumRundy(tabela) {

@@ -96,7 +96,11 @@ export class Odtwarzacz {
 
     const ustawStart = () => {
       if (startS <= 0) return;
-      const zapas = Math.max(0, DLUGOSC_PODGLADU_MS / 1000 - 1);
+      // Realna długość podglądu, jeśli już ją znamy — bywa krótsza niż 30 s,
+      // a przeskoczenie za koniec potrafi się różnie zachować w różnych
+      // przeglądarkach, więc zostawiamy sekundowy zapas.
+      const znanaDlugoscS = Number.isFinite(element.duration) ? element.duration : DLUGOSC_PODGLADU_MS / 1000;
+      const zapas = Math.max(0, znanaDlugoscS - 1);
       try { element.currentTime = Math.min(startS, zapas); } catch { /* jeszcze nie wie, ile trwa */ }
     };
     if (element.readyState >= 1) ustawStart();
