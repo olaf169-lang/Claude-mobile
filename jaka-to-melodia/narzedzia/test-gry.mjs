@@ -5,11 +5,12 @@
 
 import assert from 'node:assert/strict';
 
-import { przygotujKatalog, KATEGORIE } from '../js/katalog.js';
+import { przygotujKatalog, KATEGORIE, DEKADY } from '../js/katalog.js';
 import {
-  USTAWIENIA_DOMYSLNE, MAKS_PUNKTOW,
-  ulozRundy, pulaUtworow, zbudujRunde, dobierzBledne,
+  USTAWIENIA_DOMYSLNE, MAKS_PUNKTOW, MIN_UDZIAL_PUNKTOW,
+  ulozSerie, pulaUtworow, zbudujRunde, dobierzBledne,
   punktyZaOdpowiedz, ranking, losowanie, przetasuj,
+  wylosujWybierajacego, opiszTemat,
 } from '../js/gra.js';
 
 const katalog = przygotujKatalog();
@@ -83,46 +84,77 @@ sprawdz('błędne odpowiedzi trzymają się gatunku i dekady poprawnej', () => {
 
 /* --- cała gra --- */
 
-sprawdz('gra nie powtarza utworu i mieści się w zamówionej liczbie rund', () => {
-  const ustawienia = { ...USTAWIENIA_DOMYSLNE, liczbaRund: 20 };
+sprawdz('seria nie powtarza utworu i mieści się w zamówionej długości', () => {
+  const ustawienia = { ...USTAWIENIA_DOMYSLNE, dlugoscSerii: 20 };
   for (const ziarno of [1, 2, 3, 4, 5]) {
-    const rundy = ulozRundy(ustawienia, { katalog, ziarno });
-    assert.equal(rundy.length, 20);
-    assert.equal(new Set(rundy.map((r) => r.utwor.id)).size, 20, 'ten sam utwór dwa razy');
+    const seria = ulozSerie(ustawienia, { katalog, ziarno });
+    assert.equal(seria.length, 20);
+    assert.equal(new Set(seria.map((r) => r.utwor.id)).size, 20, 'ten sam utwór dwa razy');
   }
 });
 
-sprawdz('ten sam wykonawca nie wypada w dwóch rundach z rzędu', () => {
+sprawdz('ten sam wykonawca nie wypada w dwóch pytaniach z rzędu', () => {
   for (const ziarno of [11, 22, 33]) {
-    const rundy = ulozRundy({ ...USTAWIENIA_DOMYSLNE, liczbaRund: 25 }, { katalog, ziarno });
-    for (let i = 1; i < rundy.length; i += 1) {
-      assert.notEqual(rundy[i].utwor.kluczWykonawcy, rundy[i - 1].utwor.kluczWykonawcy,
-        `dwa razy z rzędu ${rundy[i].utwor.wykonawca}`);
+    const seria = ulozSerie({ ...USTAWIENIA_DOMYSLNE, dlugoscSerii: 25 }, { katalog, ziarno });
+    for (let i = 1; i < seria.length; i += 1) {
+      assert.notEqual(seria[i].utwor.kluczWykonawcy, seria[i - 1].utwor.kluczWykonawcy,
+        `dwa razy z rzędu ${seria[i].utwor.wykonawca}`);
     }
   }
 });
 
-sprawdz('mała pula skraca grę zamiast powtarzać utwory', () => {
-  const rundy = ulozRundy({ ...USTAWIENIA_DOMYSLNE, kategorie: ['rap'], dekady: [1980], liczbaRund: 40 }, { katalog });
+sprawdz('mała pula skraca serię zamiast powtarzać utwory', () => {
+  const seria = ulozSerie({ ...USTAWIENIA_DOMYSLNE, kategorie: ['rap'], dekady: [1980], dlugoscSerii: 999 }, { katalog });
   const dostepne = pulaUtworow({ kategorie: ['rap'], dekady: [1980] }, { katalog }).length;
-  assert.equal(rundy.length, dostepne);
-  assert.equal(new Set(rundy.map((r) => r.utwor.id)).size, rundy.length);
+  assert.equal(seria.length, dostepne);
+  assert.equal(new Set(seria.map((r) => r.utwor.id)).size, seria.length);
 });
 
-sprawdz('to samo ziarno daje tę samą grę', () => {
-  const a = ulozRundy(USTAWIENIA_DOMYSLNE, { katalog, ziarno: 4242 });
-  const b = ulozRundy(USTAWIENIA_DOMYSLNE, { katalog, ziarno: 4242 });
+sprawdz('utwory z poprzednich rund tej gry się nie powtarzają', () => {
+  const ustawienia = { ...USTAWIENIA_DOMYSLNE, kategorie: ['rap'], dekady: [1980], dlugoscSerii: 15 };
+  const pierwsza = ulozSerie(ustawienia, { katalog, ziarno: 5 });
+  const pominiete = new Set(pierwsza.map((r) => r.utwor.id));
+  const druga = ulozSerie(ustawienia, { katalog, ziarno: 6, pomin: pominiete });
+  const czescWspolna = druga.filter((r) => pominiete.has(r.utwor.id));
+  assert.equal(czescWspolna.length, 0, 'druga runda powtórzyła utwór z pierwszej');
+});
+
+sprawdz('to samo ziarno daje tę samą serię', () => {
+  const a = ulozSerie(USTAWIENIA_DOMYSLNE, { katalog, ziarno: 4242 });
+  const b = ulozSerie(USTAWIENIA_DOMYSLNE, { katalog, ziarno: 4242 });
   assert.deepEqual(a.map((r) => [r.utwor.id, r.poprawna]), b.map((r) => [r.utwor.id, r.poprawna]));
 });
 
 sprawdz('każda kategoria da się zagrać w pojedynkę', () => {
   for (const kategoria of KATEGORIE) {
-    const rundy = ulozRundy(
-      { ...USTAWIENIA_DOMYSLNE, kategorie: [kategoria.id], liczbaRund: 10 },
+    const seria = ulozSerie(
+      { ...USTAWIENIA_DOMYSLNE, kategorie: [kategoria.id], dlugoscSerii: 10 },
       { katalog },
     );
-    assert.equal(rundy.length, 10, `${kategoria.nazwa}: wyszło ${rundy.length} rund`);
+    assert.equal(seria.length, 10, `${kategoria.nazwa}: wyszło ${seria.length} pytań`);
   }
+});
+
+/* --- kto wybiera temat --- */
+
+sprawdz('losowanie wybierającego omija tego, kto wybierał poprzednio', () => {
+  const gracze = ['a', 'b', 'c'];
+  for (let proba = 0; proba < 30; proba += 1) {
+    const wybrany = wylosujWybierajacego(gracze, 'a', Math.random);
+    assert.notEqual(wybrany, 'a', 'wylosował tego samego, choć był wybór');
+  }
+  // Przy jednej osobie nie ma z kogo wybierać inaczej.
+  assert.equal(wylosujWybierajacego(['a'], 'a', Math.random), 'a');
+  assert.equal(wylosujWybierajacego([], 'a', Math.random), null);
+});
+
+sprawdz('opis tematu czyta się naturalnie', () => {
+  assert.equal(
+    opiszTemat({ kategorie: KATEGORIE.map((k) => k.id), dekady: DEKADY.map((d) => d.id) }),
+    'wszystko, co jest',
+  );
+  assert.equal(opiszTemat({ kategorie: ['rock'], dekady: DEKADY.map((d) => d.id) }), 'Rock');
+  assert.equal(opiszTemat({ kategorie: ['rock', 'rap'], dekady: [1980, 1990] }), 'Rock i Rap · lata 80. i 90.');
 });
 
 /* --- punktacja --- */
@@ -130,8 +162,8 @@ sprawdz('każda kategoria da się zagrać w pojedynkę', () => {
 sprawdz('szybciej znaczy więcej, a maksimum to setka', () => {
   const limitMs = 15_000;
   assert.equal(punktyZaOdpowiedz({ poprawna: true, czasMs: 0, limitMs }), MAKS_PUNKTOW);
-  assert.equal(punktyZaOdpowiedz({ poprawna: true, czasMs: limitMs, limitMs }), MAKS_PUNKTOW / 2);
-  assert.equal(punktyZaOdpowiedz({ poprawna: true, czasMs: limitMs / 2, limitMs }), 75);
+  assert.equal(punktyZaOdpowiedz({ poprawna: true, czasMs: limitMs, limitMs }), MAKS_PUNKTOW * MIN_UDZIAL_PUNKTOW);
+  assert.equal(punktyZaOdpowiedz({ poprawna: true, czasMs: limitMs / 2, limitMs }), 65);
   assert.equal(punktyZaOdpowiedz({ poprawna: false, czasMs: 0, limitMs }), 0);
 
   let poprzednie = Infinity;
@@ -142,8 +174,8 @@ sprawdz('szybciej znaczy więcej, a maksimum to setka', () => {
   }
 });
 
-sprawdz('czas ponad limit nie schodzi poniżej połowy puli', () => {
-  assert.equal(punktyZaOdpowiedz({ poprawna: true, czasMs: 99_000, limitMs: 10_000 }), 50);
+sprawdz('czas ponad limit nie schodzi poniżej progu minimalnego', () => {
+  assert.equal(punktyZaOdpowiedz({ poprawna: true, czasMs: 99_000, limitMs: 10_000 }), 30);
 });
 
 sprawdz('bonus za serię działa dopiero od drugiego trafienia i ma sufit', () => {

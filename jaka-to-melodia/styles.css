@@ -121,6 +121,18 @@ body {
     env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
+/* Samo touch-action na <body> nie zawsze wystarcza w Safari na iOS — potrafi
+   zignorować je dla konkretnego elementu pod palcem i i tak potraktować dwa
+   szybkie stuknięcia (np. w dwa sąsiednie kafelki) jako gest przybliżenia.
+   Ustawiamy to samo bezpośrednio na każdym klikalnym elemencie, plus blokujemy
+   zaznaczanie tekstu, które na telefonie potrafi „zjeść” dotknięcie. */
+button, .znaczek, .odp, .klawisz {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
 .tlo {
   position: fixed;
   inset: 0;
@@ -861,6 +873,88 @@ main {
   font-size: 1.6rem;
   font-weight: 800;
   letter-spacing: -.02em;
+}
+
+/* --------------------------------------------------- rundy: wybór tematu */
+
+.grupa legend small {
+  display: block;
+  margin-top: .1rem;
+  font-size: .78rem;
+  font-weight: 500;
+  color: var(--tekst-ledwie);
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.czekanie-na-wybor { text-align: center; padding: 1.4rem 0; }
+
+.puls.maly {
+  width: 3.6rem;
+  height: 3.6rem;
+  margin: .4rem auto .8rem;
+  font-size: 1.5rem;
+}
+
+/* ------------------------------------------------------------ odliczanie */
+
+.wielka-liczba {
+  margin: 1rem auto;
+  font-family: var(--naglowkowy);
+  font-size: clamp(5rem, 32vw, 8rem);
+  font-weight: 800;
+  line-height: 1;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: odliczTyknij .6s ease both;
+}
+/* Nowa liczba ma osobną animację za każdym razem, mimo że treść węzła się
+   zmienia — stąd `key` w JS-ie wymusza ponowne dołączenie elementu. */
+@keyframes odliczTyknij {
+  from { transform: scale(1.35); opacity: 0; }
+  to   { transform: scale(1); opacity: 1; }
+}
+
+/* -------------------------------------------------------- znaczniki utworu */
+
+.znaczniki-utworu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+  margin: .5rem 0 0;
+}
+.znaczniki-utworu span {
+  display: inline-flex;
+  align-items: center;
+  gap: .3rem;
+  padding: .2rem .65rem;
+  border-radius: 999px;
+  border: 1px solid var(--kreska);
+  background: var(--plyta);
+  font-size: .8rem;
+  font-weight: 600;
+  color: var(--tekst-cichy);
+}
+
+/* ------------------------------------------------------- wyniki rundy */
+
+/* Wiersze i stopnie podium wjeżdżają jeden po drugim — .animowana(-e) ustawia
+   opóźnienie na każde dziecko przez zmienną, którą JS wpisuje inline. */
+.ranking.animowana li,
+.podium.animowane .stopien {
+  animation: wjazdWiersza .42s cubic-bezier(.16, 1, .3, 1) both;
+  animation-delay: calc(var(--i, 0) * 90ms);
+}
+@keyframes wjazdWiersza {
+  from { opacity: 0; transform: translateY(14px) scale(.97); }
+  to   { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wielka-liczba { animation: none; }
+  .ranking.animowana li, .podium.animowane .stopien { animation: none; }
 }
 
 /* ---------------------------------------------------------- powiadomienie */

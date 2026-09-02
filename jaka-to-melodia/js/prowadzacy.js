@@ -1,19 +1,20 @@
 /* ==========================================================================
    Telefon prowadzącego — jedyne miejsce, w którym mieszka stan gry.
    --------------------------------------------------------------------------
-   Ekran po ekranie: ustawienia → lobby z kodem QR → runda → odsłona → podium.
+   Ekran po ekranie: ustawienia → lobby z kodem QR → (wybór tematu → odliczanie
+   → seria pytań z odsłonami → wyniki rundy) × liczba rund → podium.
    Prowadzący puszcza muzykę, liczy punkty i nadaje to, co telefony mają
    pokazać. Nikt inny niczego nie rozstrzyga.
 
-   Stan rundy leci w eter cyklicznie, nie jednorazowo — telefon, który wszedł
+   Stan leci w eter cyklicznie, nie jednorazowo — telefon, który wszedł
    w połowie albo na moment stracił zasięg, dostraja się sam, bez proszenia.
    ========================================================================== */
 
 import { $, $$, el, wyczysc, pokazEkran, powiadom, odmiana, stuknij, trzymajEkran } from './ui.js';
 import { KATEGORIE, DEKADY, przygotujKatalog } from './katalog.js';
 import {
-  USTAWIENIA_DOMYSLNE, CZASY_ODPOWIEDZI, MAKS_GRACZY,
-  ulozRundy, pulaUtworow, punktyZaOdpowiedz, ranking,
+  USTAWIENIA_DOMYSLNE, CZASY_ODPOWIEDZI, LICZBY_RUND, DLUGOSCI_SERII, MAKS_GRACZY,
+  ulozSerie, pulaUtworow, punktyZaOdpowiedz, ranking, wylosujWybierajacego, opiszTemat,
 } from './gra.js';
 import { PokojProwadzacego, BROKERY, adresDolaczenia } from './siec.js';
 import { ZrodloPodgladow } from './podglady.js';
@@ -21,10 +22,11 @@ import { Odtwarzacz } from './odtwarzacz.js';
 import { kodQr } from './qr.js';
 
 const KSZTALTY = ['▲', '◆', '●', '■'];
-const LICZBY_RUND = [5, 8, 10, 12, 15, 20, 25];
 const ODSTEP_NADAWANIA_MS = 1200;
 const ZWLOKA_PO_WSZYSTKICH_MS = 900;      // chwila na „wszyscy odpowiedzieli”
 const CZAS_ZNIKNIECIA_MS = 25_000;        // po tylu bez znaku życia gracz szarzeje
+const CZAS_WYBRZMIENIA_MS = 4000;         // ile jeszcze gra utwór na ekranie odsłony
+const CZAS_ODLICZANIA_MS = 3000;
 
 const KLUCZ_USTAWIEN = 'jtm:ustawienia';
 
@@ -33,6 +35,8 @@ const KLUCZ_USTAWIEN = 'jtm:ustawienia';
 // Krzyżyk na początku wyklucza zderzenie z identyfikatorem telefonu, bo te
 // składają się wyłącznie z liter i cyfr.
 const ID_PROWADZACEGO = '#prowadzacy';
+
+const MEDALE = ['🥇', '🥈', '🥉'];
 
 export function uruchom() {
   const katalog = przygotujKatalog();
@@ -43,19 +47,29 @@ export function uruchom() {
   const stan = {
     ustawienia: wczytajUstawienia(),
     gracze: new Map(),
-    rundy: [],
-    nrRundy: -1,
+    seria: [],                 // pytania (utwór + odpowiedzi) na bieżącą rundę
+    nrPytania: -1,              // indeks pytania w serii
+    nrRundyGry: 0,               // 1-based numer rundy w całej grze
+    temat: null,                // { kategorie, dekady } bieżącej rundy
+    wybor: null,                 // robocza (jeszcze niezatwierdzona) wersja tematu
+    wybierajacy: null,           // id gracza, który wybiera temat (null = prowadzący)
+    poprzedniWybierajacy: null,
+    probaTematu: 0,               // rośnie przy każdym wylosowaniu — odróżnia powtórkę transmisji od nowej próby
+    pominieteId: new Set(),      // utwory, które już padły w tej grze — nie powtarzamy
     faza: 'ustawienia',
     limitMs: 15_000,
     koniecRundy: 0,
+    koniecOdliczania: 0,
     odpowiedzi: new Map(),
     ostatniaOdslona: null,
+    ostatnieWynikiRundy: null,
     blokadaEkranu: null,
     pokazanoRunde: 0,        // od tego momentu liczy się czas odpowiedzi prowadzącego
   };
 
   let tykanie = null;
   let nadawanie = null;
+  let wygaszanieId = 0;         // pozwala anulować nieaktualne wygaszanie dźwięku
 
   /* ------------------------------------------------------------ ustawienia */
 
@@ -126,6 +140,15 @@ export function uruchom() {
       ));
     }
 
+    const seria = wyczysc($('#wybor-serii'));
+    for (const ile of DLUGOSCI_SERII) {
+      seria.append(znaczek(
+        String(ile),
+        stan.ustawienia.dlugoscSerii === ile,
+        () => { stan.ustawienia.dlugoscSerii = ile; rysujUstawienia(); },
+      ));
+    }
+
     const rundy = wyczysc($('#wybor-rund'));
     for (const ile of LICZBY_RUND) {
       rundy.append(znaczek(
@@ -133,6 +156,18 @@ export function uruchom() {
         stan.ustawienia.liczbaRund === ile,
         () => { stan.ustawienia.liczbaRund = ile; rysujUstawienia(); },
       ));
+    }
+
+    const ktoWybiera = wyczysc($('#wybor-kto-wybiera'));
+    const trybyWyboru = [
+      ['losowy', 'Losowy gracz'],
+      ['prowadzacy', 'Zawsze ja'],
+    ];
+    for (const [id, nazwa] of trybyWyboru) {
+      ktoWybiera.append(znaczek(nazwa, stan.ustawienia.ktoWybiera === id, () => {
+        stan.ustawienia.ktoWybiera = id;
+        rysujUstawienia();
+      }));
     }
 
     const pytania = wyczysc($('#wybor-pytan'));
@@ -173,10 +208,11 @@ export function uruchom() {
   function odswiezLicznikPuli() {
     const ile = pulaUtworow(stan.ustawienia, opcjePuli()).length;
     const licznik = $('#licznik-puli');
-    const zaMalo = ile < stan.ustawienia.liczbaRund;
+    const potrzeba = stan.ustawienia.dlugoscSerii;
+    const zaMalo = ile < potrzeba;
     licznik.dataset.alarm = zaMalo ? 'tak' : 'nie';
     licznik.innerHTML = zaMalo
-      ? `Do wyboru <strong>${ile}</strong> ${odmiana(ile, 'utwór', 'utwory', 'utworów')} — mniej niż rund. Gra skróci się sama albo dorzuć kategorię.`
+      ? `Do wyboru <strong>${ile}</strong> ${odmiana(ile, 'utwór', 'utwory', 'utworów')} — mniej niż piosenek w serii. Runda skróci się sama albo dorzuć kategorię.`
       : `Do wyboru <strong>${ile}</strong> ${odmiana(ile, 'utwór', 'utwory', 'utworów')}.`;
     $('#otworz-pokoj').disabled = ile === 0;
   }
@@ -286,14 +322,47 @@ export function uruchom() {
         kod: pokoj.kod,
         gracze: [...stan.gracze.values()].map((g) => ({ id: g.id, ksywka: g.ksywka })),
       });
+      rysujLobby();
+    } else if (stan.faza === 'wybor-tematu') {
+      const sterujeProwadzacy = stan.ustawienia.ktoWybiera === 'prowadzacy';
+      pokoj.nadaj({
+        t: 'wybor',
+        nrRundyGry: stan.nrRundyGry,
+        ileRund: stan.ustawienia.liczbaRund,
+        wybierajacy: sterujeProwadzacy ? null : stan.wybierajacy,
+        ksywka: stan.wybierajacy ? stan.gracze.get(stan.wybierajacy)?.ksywka || null : null,
+        sterujeProwadzacy,
+        probaTematu: stan.probaTematu,
+        // Telefon wylosowanego gracza rysuje panel wyboru z tych gotowych opisów —
+        // sam nie musi znać katalogu ani stałych KATEGORIE/DEKADY.
+        kategorieDostepne: stan.ustawienia.kategorie
+          .map((id) => KATEGORIE.find((k) => k.id === id))
+          .filter(Boolean)
+          .map((k) => ({ id: k.id, nazwa: k.nazwa, emoji: k.emoji })),
+        dekadyDostepne: stan.ustawienia.dekady
+          .map((id) => DEKADY.find((d) => d.id === id))
+          .filter(Boolean)
+          .map((d) => ({ id: d.id, nazwa: d.nazwa })),
+        dlugoscSerii: stan.ustawienia.dlugoscSerii,
+      });
+    } else if (stan.faza === 'odliczanie') {
+      pokoj.nadaj({
+        t: 'odliczanie',
+        nrRundyGry: stan.nrRundyGry,
+        ileRund: stan.ustawienia.liczbaRund,
+        temat: opiszTemat(stan.temat),
+        pozostaloMs: Math.max(0, stan.koniecOdliczania - performance.now()),
+      });
     } else if (stan.faza === 'runda') {
-      const runda = stan.rundy[stan.nrRundy];
+      const pytanie = stan.seria[stan.nrPytania];
       pokoj.nadaj({
         t: 'runda',
-        nr: stan.nrRundy,
-        ile: stan.rundy.length,
-        pytanie: runda.pytanie,
-        odpowiedzi: runda.odpowiedzi,
+        nr: stan.nrPytania,
+        ile: stan.seria.length,
+        nrRundyGry: stan.nrRundyGry,
+        ileRund: stan.ustawienia.liczbaRund,
+        pytanie: pytanie.pytanie,
+        odpowiedzi: pytanie.odpowiedzi,
         limitMs: stan.limitMs,
         pozostaloMs: Math.max(0, stan.koniecRundy - performance.now()),
         ilu: stan.odpowiedzi.size,
@@ -301,10 +370,11 @@ export function uruchom() {
       });
     } else if (stan.faza === 'odslona' && stan.ostatniaOdslona) {
       pokoj.nadaj(stan.ostatniaOdslona);
+    } else if (stan.faza === 'wyniki-rundy' && stan.ostatnieWynikiRundy) {
+      pokoj.nadaj(stan.ostatnieWynikiRundy);
     } else if (stan.faza === 'koniec') {
       pokoj.nadaj({ t: 'koniec', ranking: ranking(stan.gracze).map(lekkiWpis) });
     }
-    if (stan.faza === 'lobby') rysujLobby();
   }
 
   const lekkiWpis = (g) => ({ id: g.id, ksywka: g.ksywka, punkty: g.punkty, miejsce: g.miejsce });
@@ -321,6 +391,7 @@ export function uruchom() {
   pokoj.onWiadomosc = (wiadomosc) => {
     if (wiadomosc.t === 'hej') przyjmijGracza(wiadomosc);
     else if (wiadomosc.t === 'odp') przyjmijOdpowiedz(wiadomosc);
+    else if (wiadomosc.t === 'temat') przyjmijTemat(wiadomosc);
     else if (wiadomosc.t === 'puk') {
       const gracz = stan.gracze.get(wiadomosc.id);
       if (gracz) gracz.widziany = Date.now();
@@ -329,9 +400,8 @@ export function uruchom() {
 
   function przyjmijGracza({ id, ksywka }) {
     const czysta = String(ksywka || '').trim().slice(0, 14) || 'Ktoś';
-    let gracz = stan.gracze.get(id);
-
     if (id === ID_PROWADZACEGO) return;        // to miejsce jest zajęte lokalnie
+    let gracz = stan.gracze.get(id);
 
     if (!gracz) {
       if (stan.gracze.size >= MAKS_GRACZY) {
@@ -351,7 +421,7 @@ export function uruchom() {
   }
 
   function przyjmijOdpowiedz({ id, nr, wybor, czasMs }) {
-    if (stan.faza !== 'runda' || nr !== stan.nrRundy) return;
+    if (stan.faza !== 'runda' || nr !== stan.nrPytania) return;
     const gracz = stan.gracze.get(id);
     if (!gracz || stan.odpowiedzi.has(id)) return;
     gracz.widziany = Date.now();
@@ -370,6 +440,16 @@ export function uruchom() {
     }
   }
 
+  /** Temat rundy przychodzi tylko od tego, kto akurat został wylosowany. */
+  function przyjmijTemat({ id, kategorie, dekady }) {
+    if (stan.faza !== 'wybor-tematu' || id !== stan.wybierajacy) return;
+    if (!Array.isArray(kategorie) || !kategorie.length || !Array.isArray(dekady) || !dekady.length) return;
+    zacznijRunde({
+      kategorie: kategorie.filter((k) => stan.ustawienia.kategorie.includes(k)),
+      dekady: dekady.filter((d) => stan.ustawienia.dekady.includes(d)),
+    });
+  }
+
   /* ------------------------------------------------------------------- gra */
 
   async function zacznijGre() {
@@ -377,47 +457,179 @@ export function uruchom() {
     // w obsłudze kliknięcia, więc to jedyny dobry moment na rozgrzewkę.
     if (stan.ustawienia.dzwiekWAplikacji) await odtwarzacz.rozgrzej();
 
-    // `?ziarno=123` w adresie ustala kolejność rund — z tego korzysta test
-    // przeglądarkowy, żeby wiedzieć z góry, która odpowiedź jest poprawna.
-    // Bez tego parametru każda gra losuje się od nowa.
-    const ziarno = Number(new URLSearchParams(location.search).get('ziarno')) || undefined;
-    stan.rundy = ulozRundy(stan.ustawienia, { ...opcjePuli(), ziarno });
-    if (!stan.rundy.length) {
-      powiadom('Z tych ustawień nie da się ułożyć żadnej rundy.', 'blad');
-      return;
-    }
-    if (stan.rundy.length < stan.ustawienia.liczbaRund) {
-      powiadom(`Starczyło na ${stan.rundy.length} ${odmiana(stan.rundy.length, 'rundę', 'rundy', 'rund')}.`);
-    }
-
     for (const gracz of stan.gracze.values()) {
       gracz.punkty = 0; gracz.trafienia = 0; gracz.seria = 0;
     }
-    stan.nrRundy = -1;
-    stan.limitMs = stan.ustawienia.czasOdpowiedzi * 1000;
+    stan.pominieteId = new Set();
+    stan.nrRundyGry = 0;
+    stan.poprzedniWybierajacy = null;
     stan.blokadaEkranu ??= await trzymajEkran();
-    await nastepnaRunda();
+    nastepnaRundaGry();
   }
 
-  async function nastepnaRunda() {
-    stan.nrRundy += 1;
-    if (stan.nrRundy >= stan.rundy.length) { zakonczGre(); return; }
+  function nastepnaRundaGry() {
+    stan.nrRundyGry += 1;
+    if (stan.nrRundyGry > stan.ustawienia.liczbaRund) { zakonczGre(); return; }
+    wylosujTemat();
+  }
 
-    const runda = stan.rundy[stan.nrRundy];
+  /* ------------------------------------------------------------ wybór tematu */
+
+  function wylosujTemat() {
+    clearInterval(tykanie);
+    stan.faza = 'wybor-tematu';
+    stan.temat = null;
+    stan.probaTematu += 1;
+    const sterujeProwadzacy = stan.ustawienia.ktoWybiera === 'prowadzacy';
+    stan.wybierajacy = sterujeProwadzacy
+      ? null
+      : wylosujWybierajacego([...stan.gracze.keys()], stan.poprzedniWybierajacy, Math.random);
+    if (stan.wybierajacy) stan.poprzedniWybierajacy = stan.wybierajacy;
+
+    const jaSteruje = sterujeProwadzacy || stan.wybierajacy === ID_PROWADZACEGO;
+
+    $('#nagrodek-tematu').textContent = `Runda ${stan.nrRundyGry}/${stan.ustawienia.liczbaRund}`;
+    $('#czekanie-na-wybor').hidden = jaSteruje;
+    $('#panel-wyboru-tematu').hidden = !jaSteruje;
+
+    if (jaSteruje) {
+      $('#wybor-tematu-tytul').textContent = 'Wybierz temat rundy';
+      stan.wybor = { kategorie: [...stan.ustawienia.kategorie], dekady: [...stan.ustawienia.dekady] };
+      rysujWyborTematu();
+    } else {
+      $('#wybor-tematu-tytul').textContent = 'Kto wybiera temat?';
+      const gracz = stan.gracze.get(stan.wybierajacy);
+      $('#czekanie-na-wybor-opis').textContent = gracz
+        ? `Temat rundy wybiera: ${gracz.ksywka}`
+        : 'Losujemy, kto wybierze temat…';
+    }
+
+    pokazEkran('wybor-tematu');
+    nadajStan();
+  }
+
+  function rysujWyborTematu() {
+    const kategorie = wyczysc($('#wybor-tematu-kategorii'));
+    for (const id of stan.ustawienia.kategorie) {
+      const kat = KATEGORIE.find((k) => k.id === id);
+      if (!kat) continue;
+      kategorie.append(znaczek(`${kat.emoji} ${kat.nazwa}`, stan.wybor.kategorie.includes(id), () => {
+        stan.wybor.kategorie = przelacz(stan.wybor.kategorie, id);
+        rysujWyborTematu();
+      }));
+    }
+
+    const dekady = wyczysc($('#wybor-tematu-dekad'));
+    for (const id of stan.ustawienia.dekady) {
+      const dek = DEKADY.find((d) => d.id === id);
+      if (!dek) continue;
+      dekady.append(znaczek(dek.nazwa, stan.wybor.dekady.includes(id), () => {
+        stan.wybor.dekady = przelacz(stan.wybor.dekady, id);
+        rysujWyborTematu();
+      }));
+    }
+
+    const ile = pulaUtworow(stan.wybor, opcjePuli()).length;
+    const licznik = $('#licznik-tematu');
+    const zaMalo = ile < stan.ustawienia.dlugoscSerii;
+    licznik.dataset.alarm = zaMalo ? 'tak' : 'nie';
+    licznik.innerHTML = `Do wyboru <strong>${ile}</strong> ${odmiana(ile, 'utwór', 'utwory', 'utworów')}.`;
+    $('#zacznij-runde').disabled = ile === 0;
+  }
+
+  $('#temat-wszystko').addEventListener('click', () => {
+    stan.wybor = { kategorie: [...stan.ustawienia.kategorie], dekady: [...stan.ustawienia.dekady] };
+    rysujWyborTematu();
+  });
+  $('#zacznij-runde').addEventListener('click', () => zacznijRunde(stan.wybor));
+
+  /* -------------------------------------------------------------- odliczanie */
+
+  function zacznijRunde(temat) {
+    stan.temat = temat;
+    const ustawieniaRundy = { ...stan.ustawienia, kategorie: temat.kategorie, dekady: temat.dekady };
+    const ziarnoBazowe = Number(new URLSearchParams(location.search).get('ziarno')) || undefined;
+    stan.seria = ulozSerie(ustawieniaRundy, {
+      ...opcjePuli(),
+      ziarno: ziarnoBazowe ? ziarnoBazowe + stan.nrRundyGry : undefined,
+      pomin: stan.pominieteId,
+    });
+
+    if (!stan.seria.length) {
+      powiadom('Z tego tematu nie da się ułożyć żadnej piosenki — wybierzcie coś innego.', 'blad');
+      wylosujTemat();
+      return;
+    }
+    if (stan.seria.length < ustawieniaRundy.dlugoscSerii) {
+      powiadom(`Starczyło na ${stan.seria.length} ${odmiana(stan.seria.length, 'piosenkę', 'piosenki', 'piosenek')}.`);
+    }
+    for (const pytanie of stan.seria) stan.pominieteId.add(pytanie.utwor.id);
+
+    stan.nrPytania = -1;
+    stan.limitMs = stan.ustawienia.czasOdpowiedzi * 1000;
+    stan.faza = 'odliczanie';
+    stan.koniecOdliczania = performance.now() + CZAS_ODLICZANIA_MS;
+
+    $('#temat-rundy-opis').textContent = opiszTemat(stan.temat);
+    pokazEkran('odliczanie');
+
+    // Pierwszy utwór doczytuje się w tle, w te same trzy sekundy odliczania.
+    if (stan.ustawienia.dzwiekWAplikacji) {
+      zrodlo.znajdz(stan.seria[0].utwor).then((wpis) => {
+        if (wpis?.podglad) odtwarzacz.przygotuj(wpis.podglad);
+      });
+    }
+
+    wlaczOdliczanie();
+    nadajStan();
+  }
+
+  function wlaczOdliczanie() {
+    clearInterval(tykanie);
+    let poprzedniaLiczba = null;
+    const tyknij = () => {
+      const zostalo = Math.max(0, stan.koniecOdliczania - performance.now());
+      const liczba = Math.ceil(zostalo / 1000);
+      if (liczba !== poprzedniaLiczba && liczba > 0) {
+        poprzedniaLiczba = liczba;
+        const wezel = $('#odliczanie-liczba');
+        wezel.textContent = String(liczba);
+        // Odtwarzamy animację od nowa przy każdej cyfrze.
+        wezel.style.animation = 'none';
+        void wezel.offsetWidth;
+        wezel.style.animation = '';
+      }
+      if (zostalo <= 0) { clearInterval(tykanie); nastepnePytanie(); return; }
+      nadajStan();
+    };
+    tyknij();
+    tykanie = setInterval(tyknij, 100);
+  }
+
+  /* ------------------------------------------------------------------ pytanie */
+
+  async function nastepnePytanie() {
+    clearInterval(tykanie);
+    wygaszanieId += 1;      // unieważnia odroczone wygaszenie z poprzedniej odsłony
+    stan.nrPytania += 1;
+    if (stan.nrPytania >= stan.seria.length) { zakonczRunde(); return; }
+
+    const pytanie = stan.seria[stan.nrPytania];
     stan.odpowiedzi.clear();
     stan.faza = 'runda';
     stan.ostatniaOdslona = null;
 
-    $('#numer-rundy').textContent = `Runda ${stan.nrRundy + 1}/${stan.rundy.length}`;
+    $('#numer-rundy').textContent =
+      `Runda ${stan.nrRundyGry}/${stan.ustawienia.liczbaRund} · piosenka ${stan.nrPytania + 1}/${stan.seria.length}`;
     $('#ilu-odpowiedzialo').textContent = `0 z ${stan.gracze.size}`;
-    $('#pytanie-hosta').textContent = runda.pytanie;
-    rysujOdpowiedziHosta(runda);
+    $('#pytanie-hosta').textContent = pytanie.pytanie;
+    rysujOdpowiedziHosta(pytanie);
     $('#uwaga-dzwieku').textContent = stan.ustawienia.dzwiekWAplikacji ? '' : 'Puść fragment ze swojego źródła.';
     $('#potwierdzenie-hosta').hidden = true;
     pokazEkran('runda');
     stan.pokazanoRunde = performance.now();
 
-    if (stan.ustawienia.dzwiekWAplikacji) await puscUtwor(runda.utwor);
+    if (stan.ustawienia.dzwiekWAplikacji) await puscUtwor(pytanie.utwor);
 
     stan.koniecRundy = performance.now() + stan.limitMs;
     wlaczZegar();
@@ -425,13 +637,13 @@ export function uruchom() {
     przygotujNastepny();
   }
 
-  function rysujOdpowiedziHosta(runda) {
+  function rysujOdpowiedziHosta(pytanie) {
     const miejsce = wyczysc($('#odpowiedzi-hosta'));
     const gram = stan.ustawienia.prowadzacyGra;
     // Ta sama siatka służy za tablicę dla pokoju i za brzęczyk prowadzącego —
     // klikalna tylko wtedy, gdy prowadzący jest też w stawce.
     miejsce.classList.toggle('grywalne', gram);
-    runda.odpowiedzi.forEach((tresc, nr) => {
+    pytanie.odpowiedzi.forEach((tresc, nr) => {
       const dzieci = [
         el('span', { klasa: 'ksztalt', 'aria-hidden': 'true', tekst: KSZTALTY[nr] }),
         el('span', { klasa: 'tresc', tekst: tresc }),
@@ -443,13 +655,13 @@ export function uruchom() {
     });
   }
 
-  /** Prowadzący klika u siebie; czas liczy się od pokazania rundy na tym ekranie. */
+  /** Prowadzący klika u siebie; czas liczy się od pokazania pytania na tym ekranie. */
   function odpowiedzProwadzacego(nr) {
     if (stan.faza !== 'runda' || !stan.ustawienia.prowadzacyGra) return;
     if (stan.odpowiedzi.has(ID_PROWADZACEGO)) return;
 
     const czasMs = Math.round(performance.now() - stan.pokazanoRunde);
-    przyjmijOdpowiedz({ id: ID_PROWADZACEGO, nr: stan.nrRundy, wybor: nr, czasMs });
+    przyjmijOdpowiedz({ id: ID_PROWADZACEGO, nr: stan.nrPytania, wybor: nr, czasMs });
     stuknij([12, 40, 12]);
 
     for (const kafelek of $('#odpowiedzi-hosta').children) {
@@ -481,11 +693,11 @@ export function uruchom() {
     }
   }
 
-  /** Kolejny utwór doczytuje się w tle, żeby następna runda ruszyła bez ciszy. */
+  /** Kolejny utwór doczytuje się w tle, żeby następne pytanie ruszyło bez ciszy. */
   function przygotujNastepny() {
-    const nastepna = stan.rundy[stan.nrRundy + 1];
-    if (!nastepna || !stan.ustawienia.dzwiekWAplikacji) return;
-    zrodlo.znajdz(nastepna.utwor).then((wpis) => {
+    const nastepne = stan.seria[stan.nrPytania + 1];
+    if (!nastepne || !stan.ustawienia.dzwiekWAplikacji) return;
+    zrodlo.znajdz(nastepne.utwor).then((wpis) => {
       if (wpis?.podglad) odtwarzacz.przygotuj(wpis.podglad);
     });
   }
@@ -514,14 +726,13 @@ export function uruchom() {
     if (stan.faza !== 'runda') return;
     clearInterval(tykanie);
     stan.faza = 'odslona';
-    odtwarzacz.zatrzymaj();
 
-    const runda = stan.rundy[stan.nrRundy];
+    const pytanie = stan.seria[stan.nrPytania];
     const wyniki = {};
 
     for (const gracz of stan.gracze.values()) {
       const odpowiedz = stan.odpowiedzi.get(gracz.id);
-      const trafil = odpowiedz?.wybor === runda.poprawna;
+      const trafil = odpowiedz?.wybor === pytanie.poprawna;
       gracz.seria = trafil ? gracz.seria + 1 : 0;
       const punkty = punktyZaOdpowiedz({
         poprawna: trafil,
@@ -540,39 +751,54 @@ export function uruchom() {
       if (wyniki[wpis.id]) wyniki[wpis.id].miejsce = wpis.miejsce;
     }
 
-    const wpisPodgladu = zrodlo.zPamieci(runda.utwor);
+    const dekadaInfo = DEKADY.find((d) => d.id === pytanie.utwor.dekada);
+    const kategoriaInfo = KATEGORIE.find((k) => k.id === pytanie.utwor.gatunek);
+    const wpisPodgladu = zrodlo.zPamieci(pytanie.utwor);
     stan.ostatniaOdslona = {
       t: 'odslona',
-      nr: stan.nrRundy,
-      poprawna: runda.poprawna,
-      tytul: runda.utwor.tytul,
-      wykonawca: runda.utwor.wykonawca,
-      rok: runda.utwor.rok,
+      nr: stan.nrPytania,
+      nrRundyGry: stan.nrRundyGry,
+      poprawna: pytanie.poprawna,
+      tytul: pytanie.utwor.tytul,
+      wykonawca: pytanie.utwor.wykonawca,
+      rok: pytanie.utwor.rok,
+      kategoria: kategoriaInfo ? { emoji: kategoriaInfo.emoji, nazwa: kategoriaInfo.nazwa } : null,
+      dekada: dekadaInfo ? dekadaInfo.nazwa : null,
       wyniki,
       ranking: tabela.slice(0, 5).map(lekkiWpis),
-      ostatnia: stan.nrRundy + 1 >= stan.rundy.length,
+      ostatniePytanieRundy: stan.nrPytania + 1 >= stan.seria.length,
     };
+
+    // Utwór gra dalej na ekranie odsłony jeszcze przez chwilę, dopiero potem
+    // milknie — chyba że ktoś zdąży kliknąć dalej wcześniej (patrz niżej).
+    wygaszanieId += 1;
+    const mojeWygaszanie = wygaszanieId;
+    setTimeout(() => {
+      if (mojeWygaszanie === wygaszanieId) odtwarzacz.zatrzymaj();
+    }, CZAS_WYBRZMIENIA_MS);
+
     nadajStan();
-    rysujOdslone(runda, tabela, wpisPodgladu);
+    rysujOdslone(pytanie, tabela, wpisPodgladu);
     pokazEkran('odslona');
   }
 
-  function rysujOdslone(runda, tabela, wpisPodgladu) {
+  function rysujOdslone(pytanie, tabela, wpisPodgladu) {
     const okladka = $('#okladka');
     if (wpisPodgladu?.okladka) {
       okladka.src = wpisPodgladu.okladka;
-      okladka.alt = `Okładka: ${runda.utwor.tytul}`;
+      okladka.alt = `Okładka: ${pytanie.utwor.tytul}`;
       okladka.hidden = false;
     } else {
       okladka.hidden = true;
     }
 
-    $('#odsloniety-tytul').textContent = runda.utwor.tytul;
-    $('#odsloniety-wykonawca').textContent = `${runda.utwor.wykonawca} · ${runda.utwor.rok}`;
+    $('#odsloniety-tytul').textContent = pytanie.utwor.tytul;
+    $('#odsloniety-wykonawca').textContent = `${pytanie.utwor.wykonawca} · ${pytanie.utwor.rok}`;
+    rysujZnacznikiUtworu($('#znaczniki-utworu'), stan.ostatniaOdslona);
 
     for (const kafelek of $$('#odpowiedzi-hosta .odp')) {
       const nr = Number(kafelek.dataset.nr);
-      kafelek.dataset.stan = nr === runda.poprawna ? 'poprawna' : 'przygasla';
+      kafelek.dataset.stan = nr === pytanie.poprawna ? 'poprawna' : 'przygasla';
     }
 
     const trafili = wyczysc($('#trafili'));
@@ -593,7 +819,16 @@ export function uruchom() {
     pokazWerdyktProwadzacego();
     rysujRanking($('#ranking-podglad'), tabela.slice(0, 5),
       stan.ustawienia.prowadzacyGra ? ID_PROWADZACEGO : null);
-    $('#nastepna-runda').textContent = stan.ostatniaOdslona.ostatnia ? 'Podsumowanie' : 'Następna runda';
+    $('#nastepna-runda').textContent = stan.ostatniaOdslona.ostatniePytanieRundy ? 'Wyniki rundy' : 'Następna piosenka';
+  }
+
+  /** Dwa znaczniki pod tytułem: gatunek i dekada tego konkretnego utworu. */
+  function rysujZnacznikiUtworu(miejsce, odslona) {
+    wyczysc(miejsce);
+    if (odslona.kategoria) {
+      miejsce.append(el('span', { tekst: `${odslona.kategoria.emoji} ${odslona.kategoria.nazwa}` }));
+    }
+    if (odslona.dekada) miejsce.append(el('span', { tekst: odslona.dekada }));
   }
 
   /** Gdy prowadzący gra, ma prawo wiedzieć, jak mu poszło — tak jak reszta. */
@@ -617,16 +852,65 @@ export function uruchom() {
     }
   }
 
-  function rysujRanking(lista, tabela, mojeId = null) {
+  function rysujRanking(lista, tabela, mojeId = null, animuj = false) {
     wyczysc(lista);
-    for (const gracz of tabela) {
-      lista.append(el('li', { 'data-miejsce': gracz.miejsce, 'data-ja': gracz.id === mojeId ? 'tak' : 'nie' }, [
+    tabela.forEach((gracz, i) => {
+      const wiersz = el('li', { 'data-miejsce': gracz.miejsce, 'data-ja': gracz.id === mojeId ? 'tak' : 'nie' }, [
         el('span', { klasa: 'miejsce', tekst: `${gracz.miejsce}.` }),
         el('span', { klasa: 'kto', tekst: gracz.ksywka }),
         el('span', { klasa: 'ile', tekst: `${gracz.punkty}` }),
-      ]));
+      ]);
+      if (animuj) wiersz.style.setProperty('--i', String(i));
+      lista.append(wiersz);
+    });
+  }
+
+  /* ---------------------------------------------------------- wyniki rundy */
+
+  function zakonczRunde() {
+    clearInterval(tykanie);
+    odtwarzacz.zatrzymaj({ wygaszanieMs: 200 });
+    stan.faza = 'wyniki-rundy';
+
+    const tabela = ranking(stan.gracze);
+    const ostatniaRunda = stan.nrRundyGry >= stan.ustawienia.liczbaRund;
+    stan.ostatnieWynikiRundy = {
+      t: 'wyniki-rundy',
+      nrRundyGry: stan.nrRundyGry,
+      ileRund: stan.ustawienia.liczbaRund,
+      ranking: tabela.slice(0, 8).map(lekkiWpis),
+      ostatniaRunda,
+    };
+
+    $('#wyniki-rundy-nadtytul').textContent = `Runda ${stan.nrRundyGry}/${stan.ustawienia.liczbaRund} — koniec`;
+    rysujPodiumRundy(tabela);
+    rysujRanking($('#ranking-rundy'), tabela, stan.ustawienia.prowadzacyGra ? ID_PROWADZACEGO : null, true);
+    $('#dalej-po-rundzie').textContent = ostatniaRunda ? 'Zobacz wynik gry' : 'Następna runda';
+
+    nadajStan();
+    pokazEkran('wyniki-rundy');
+  }
+
+  function rysujPodiumRundy(tabela) {
+    const podium = wyczysc($('#podium-rundy'));
+    for (const [i, miejsce] of [2, 1, 3].entries()) {
+      const gracz = tabela[miejsce - 1];
+      if (!gracz) continue;
+      const stopien = el('div', { klasa: 'stopien', 'data-miejsce': miejsce }, [
+        el('span', { klasa: 'medal', tekst: MEDALE[miejsce - 1] }),
+        el('span', { klasa: 'kto', tekst: gracz.ksywka }),
+        el('span', { klasa: 'ile', tekst: `${gracz.punkty} pkt` }),
+      ]);
+      stopien.style.setProperty('--i', String(i));
+      podium.append(stopien);
     }
   }
+
+  $('#dalej-po-rundzie').addEventListener('click', () => {
+    if (stan.ostatnieWynikiRundy?.ostatniaRunda) zakonczGre();
+    else nastepnaRundaGry();
+  });
+  $('#zakoncz-gre-z-wynikow').addEventListener('click', zakonczGre);
 
   /* ---------------------------------------------------------------- koniec */
 
@@ -637,12 +921,11 @@ export function uruchom() {
     const tabela = ranking(stan.gracze);
 
     const podium = wyczysc($('#podium'));
-    const medale = ['🥇', '🥈', '🥉'];
     for (const miejsce of [2, 1, 3]) {                 // 2 – 1 – 3, jak na prawdziwym podium
       const gracz = tabela[miejsce - 1];
       if (!gracz) continue;
       podium.append(el('div', { klasa: 'stopien', 'data-miejsce': miejsce }, [
-        el('span', { klasa: 'medal', tekst: medale[miejsce - 1] }),
+        el('span', { klasa: 'medal', tekst: MEDALE[miejsce - 1] }),
         el('span', { klasa: 'kto', tekst: gracz.ksywka }),
         el('span', { klasa: 'ile', tekst: `${gracz.punkty} pkt` }),
       ]));
@@ -658,14 +941,15 @@ export function uruchom() {
   $('#otworz-pokoj').addEventListener('click', otworzPokoj);
   $('#wroc-do-ustawien').addEventListener('click', () => { stan.faza = 'lobby'; pokazEkran('ustawienia'); });
   $('#zacznij-gre').addEventListener('click', zacznijGre);
-  $('#nastepna-runda').addEventListener('click', nastepnaRunda);
+  $('#nastepna-runda').addEventListener('click', nastepnePytanie);
   $('#odslon-teraz').addEventListener('click', () => { stan.koniecRundy = performance.now(); });
   $('#pomin-runde').addEventListener('click', () => {
     clearInterval(tykanie);
+    wygaszanieId += 1;                                  // anuluj odroczone wygaszanie z odsłony, jeśli akurat trwa
     odtwarzacz.zatrzymaj({ wygaszanieMs: 200 });
-    stan.rundy.splice(stan.nrRundy, 1);
-    stan.nrRundy -= 1;
-    nastepnaRunda();
+    stan.seria.splice(stan.nrPytania, 1);
+    stan.nrPytania -= 1;
+    nastepnePytanie();
   });
   $('#zakoncz-gre').addEventListener('click', zakonczGre);
   $('#jeszcze-raz').addEventListener('click', () => { stan.faza = 'lobby'; zacznijGre(); });
