@@ -15,13 +15,18 @@
 
 import { $, el, wyczysc, pokazEkran, biezacyEkran, powiadom, stuknij, trzymajEkran } from './ui.js';
 import { PokojGracza, idUrzadzenia } from './siec.js';
+import { Odtwarzacz } from './odtwarzacz.js';
 
 const KSZTALTY = ['▲', '◆', '●', '■'];
 const ODSTEP_PUKANIA_MS = 6000;
+// Musi się zgadzać z CZAS_WYBRZMIENIA_MS w prowadzacy.js — telefon gracza nie
+// dostaje tej wartości w wiadomości, więc obie strony trzymają tę samą liczbę.
+const CZAS_WYBRZMIENIA_MS = 4000;
 
 export function uruchom() {
   const mojeId = idUrzadzenia();
   const pokoj = new PokojGracza(mojeId);
+  const odtwarzacz = new Odtwarzacz();
 
   const stan = {
     ksywka: localStorage.getItem('jtm:ksywka') || '',
@@ -38,12 +43,14 @@ export function uruchom() {
     kluczWyboru: null,           // `${nrRundyGry}/${probaTematu}` ostatnio pokazanego ekranu wyboru
     kluczOdliczania: null,
     kluczWynikowRundy: null,
+    kluczNagrania: null,          // `${nrRundyGry}/${nr}` pytania, dla którego już ruszyła muzyka u siebie
     tematOpcje: null,            // { kategorie, dekady } — opcje do wyboru, przysłane przez prowadzącego
     wyborTemat: null,            // robocza (jeszcze niewysłana) wersja wyboru
   };
 
   let tykanie = null;
   let pukanie = null;
+  let wygaszanieId = 0;         // pozwala anulować nieaktualne wygaszanie dźwięku (patrz prowadzacy.js)
 
   /* ------------------------------------------------------------ dołączanie */
 
@@ -64,6 +71,11 @@ export function uruchom() {
       powiadom('Wpisz czteroznakowy kod i swoją ksywkę.', 'blad');
       return;
     }
+
+    // Rozgrzewka musi wyjść z tego samego dotknięcia — stąd tu, przed jakimkolwiek
+    // czekaniem na sieć. Przyda się tylko, jeśli prowadzący włączy „muzykę
+    // wszędzie”, ale nic nie kosztuje zrobić ją zawsze, na wszelki wypadek.
+    odtwarzacz.rozgrzej();
 
     const przycisk = $('#dolacz');
     przycisk.disabled = true;
@@ -258,6 +270,7 @@ export function uruchom() {
       // który dołączył w połowie, to nie będzie zero.
       stan.offsetMs = Math.max(0, wiadomosc.limitMs - wiadomosc.pozostaloMs);
       stan.pokazano = performance.now();
+      wygaszanieId += 1;      // unieważnia odroczone wygaszenie z poprzedniej odsłony
 
       $('#numer-rundy-gracz').textContent =
         `Runda ${wiadomosc.nrRundyGry}/${wiadomosc.ileRund} · piosenka ${wiadomosc.nr + 1}/${wiadomosc.ile}`;
@@ -270,6 +283,28 @@ export function uruchom() {
     }
     stan.koniec = performance.now() + wiadomosc.pozostaloMs;
     wlaczPasek();
+    sprobujOdtworzycMuzyke(wiadomosc);
+  }
+
+  /** Gra tylko wtedy, gdy prowadzący włączył „muzykę wszędzie” — inaczej
+      `wiadomosc.nagranie` w ogóle nie przychodzi i telefon milczy jak dotąd.
+      Startujemy raz na pytanie, nie przy każdej powtórce transmisji — a start
+      liczymy tak, żeby trafić w to samo miejsce utworu co prowadzący: ile już
+      upłynęło od początku pytania plus jego własny losowy offset. Idealnej
+      synchronizacji to nie da (opóźnienia sieci są różne na różnych telefonach),
+      ale różnica to zwykle ułamek sekundy, nie rozjazd o całe frazy. */
+  function sprobujOdtworzycMuzyke(wiadomosc) {
+    const klucz = `${wiadomosc.nrRundyGry}/${wiadomosc.nr}`;
+    if (stan.kluczNagrania === klucz) return;
+    stan.kluczNagrania = klucz;
+
+    if (!wiadomosc.nagranie?.url) {
+      odtwarzacz.uciszWszystko();
+      return;
+    }
+    const uplynelo = Math.max(0, (wiadomosc.limitMs - wiadomosc.pozostaloMs) / 1000);
+    const startS = (wiadomosc.nagranie.startS || 0) + uplynelo;
+    odtwarzacz.zagraj(wiadomosc.nagranie.url, { startS, dlugoscMs: wiadomosc.limitMs });
   }
 
   function rysujKafelki(odpowiedzi) {
@@ -329,6 +364,14 @@ export function uruchom() {
     clearInterval(tykanie);
     stan.nrPytania = wiadomosc.nr;
 
+    // Muzyka (jeśli gra u nas) leci jeszcze chwilę na ekranie odsłony, tak
+    // samo jak u prowadzącego — potem cichnie, chyba że coś już ją zmieniło.
+    wygaszanieId += 1;
+    const mojeWygaszanie = wygaszanieId;
+    setTimeout(() => {
+      if (mojeWygaszanie === wygaszanieId) odtwarzacz.zatrzymaj();
+    }, CZAS_WYBRZMIENIA_MS);
+
     const moj = wiadomosc.wyniki?.[mojeId];
     stan.punkty = moj?.razem ?? stan.punkty;
 
@@ -370,6 +413,8 @@ export function uruchom() {
     if (stan.kluczWynikowRundy === klucz && biezacyEkran() === 'gracz-wyniki-rundy') return;
     stan.kluczWynikowRundy = klucz;
     clearInterval(tykanie);
+    wygaszanieId += 1;
+    odtwarzacz.uciszWszystko();
 
     const tabela = wiadomosc.ranking || [];
     const ja = tabela.find((g) => g.id === mojeId);
@@ -402,6 +447,8 @@ export function uruchom() {
 
   function pokazKoniec(wiadomosc) {
     clearInterval(tykanie);
+    wygaszanieId += 1;
+    odtwarzacz.uciszWszystko();
     const tabela = wiadomosc.ranking || [];
     const ja = tabela.find((g) => g.id === mojeId);
 
@@ -431,7 +478,11 @@ export function uruchom() {
       .toUpperCase().replace(/[^ABCDEFGHJKLMNPQRSTUVWXYZ2-9]/g, '').slice(0, 4);
   });
 
-  window.addEventListener('beforeunload', () => { clearInterval(pukanie); pokoj.zamknij(); });
+  window.addEventListener('beforeunload', () => {
+    clearInterval(pukanie);
+    odtwarzacz.uciszWszystko();
+    pokoj.zamknij();
+  });
 
   document.addEventListener('visibilitychange', async () => {
     if (document.visibilityState === 'visible' && stan.ksywka) {

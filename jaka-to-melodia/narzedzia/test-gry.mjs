@@ -41,6 +41,10 @@ sprawdz('utwory bez nagrania wypadają z puli, gdy gramy z dźwiękiem', () => {
   assert.equal(pula.length, 30);
 });
 
+sprawdz('domyślnie muzyka gra tylko u prowadzącego', () => {
+  assert.equal(USTAWIENIA_DOMYSLNE.muzykaWszedzie, false);
+});
+
 /* --- budowa rundy --- */
 
 sprawdz('każda runda ma cztery różne odpowiedzi i dokładnie jedną poprawną', () => {

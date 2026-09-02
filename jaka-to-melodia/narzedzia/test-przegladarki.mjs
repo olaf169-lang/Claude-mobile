@@ -220,6 +220,14 @@ try {
     'poprawna odpowiedź poszła w eter przed odsłoną');
   zapisz('w trakcie rundy poprawna odpowiedź nie leci w eter');
 
+  // „Graj też na telefonach graczy” jest domyślnie wyłączone — nikt nie
+  // powinien dostawać adresu nagrania, dopóki prowadzący sam tego nie włączy.
+  const rundyBezMuzykiWszedzie = wEterze.filter((t) => t.includes('"t":"runda"'));
+  assert.ok(rundyBezMuzykiWszedzie.length > 0, 'nie złapałem żadnej wiadomości „runda” do sprawdzenia');
+  assert.ok(rundyBezMuzykiWszedzie.every((t) => JSON.parse(t).nagranie === null),
+    'gracz dostał adres nagrania, mimo że „muzyka wszędzie” jest domyślnie wyłączona');
+  zapisz('domyślnie („muzyka wszędzie” wyłączona) gracze nie dostają adresu nagrania');
+
   /* --- odsłona pytania 1 --- */
 
   await host.waitForSelector('[data-ekran="odslona"]:not([hidden])', { timeout: 15_000 });
@@ -413,6 +421,55 @@ try {
   assert.ok(mojWiersz.some(([ja, tekst]) => ja === 'tak' && tekst.includes('Olaf')), 'własny wiersz w tabeli nie jest wyróżniony');
   zapisz('w tabeli widać, który wiersz jest twój — prowadzący liczy się na tych samych zasadach');
   await zrzut(dwoje, 'ekran-odslona-we-dwoje', true);
+
+  /* ====================================================================
+     SCENARIUSZ 3 — „graj też na telefonach graczy”. Sam prowadzący (gra
+     solo, bo „Ja też gram” zostaje domyślnie włączone) — sprawdzamy tylko,
+     czy po włączeniu tej opcji adres nagrania faktycznie leci w eter razem
+     z pytaniem. Samego odtwarzania w tle nie da się tu wiarygodnie sprawdzić
+     (headless przeglądarka i realna sieć do sklepu z muzyką to osobna
+     zmienna), więc pilnujemy tego, za co realnie odpowiada nasz kod: czy
+     protokół rozsyła to, co powinien.
+     ==================================================================== */
+
+  const solo = await nowaKarta('Solo', 420, 920);
+  await solo.goto(ADRES, { waitUntil: 'domcontentloaded' });
+  await solo.click('#rola-prowadzacy');
+  await solo.waitForSelector('[data-ekran="ustawienia"]:not([hidden])');
+  await solo.click('#wybor-serii .znaczek >> nth=0');        // 5 piosenek — ten sam pierwszy utwór co w scenariuszu 1
+  await solo.click('#wybor-rund .znaczek >> nth=0');         // 1 runda
+  await solo.click('#wybor-kto-wybiera .znaczek >> nth=1');  // temat zawsze ustala prowadzący
+  await solo.check('#opcja-muzyka-wszedzie');
+  assert.equal(await solo.isHidden('#pole-muzyka-wszedzie'), false,
+    'przełącznik „graj wszędzie” jest schowany, mimo że „Muzyka z aplikacji” jest włączona');
+  await solo.fill('#ksywka-prowadzacego', 'Solo');
+
+  await solo.click('#otworz-pokoj');
+  await solo.waitForSelector('[data-ekran="lobby"]:not([hidden])', { timeout: 20_000 });
+  const kodSolo = (await solo.textContent('#kod-pokoju')).trim();
+
+  const rundyZMuzyka = [];
+  broker.on('publish', (pakiet) => {
+    if (pakiet.topic === `jtm/${kodSolo}/h`) rundyZMuzyka.push(pakiet.payload.toString());
+  });
+
+  await solo.click('#zacznij-gre');
+  await solo.waitForSelector('[data-ekran="wybor-tematu"]:not([hidden])', { timeout: 10_000 });
+  await solo.click('#temat-wszystko');
+  await solo.click('#zacznij-runde');
+  await solo.waitForSelector('[data-ekran="runda"]:not([hidden])', { timeout: 10_000 });
+
+  let pierwszaRundaZMuzyka = null;
+  for (let i = 0; i < 50 && !pierwszaRundaZMuzyka; i += 1) {
+    pierwszaRundaZMuzyka = rundyZMuzyka.map((t) => JSON.parse(t)).find((w) => w.t === 'runda');
+    if (!pierwszaRundaZMuzyka) await czekaj(100);
+  }
+  assert.ok(pierwszaRundaZMuzyka, 'nie złapałem żadnej wiadomości „runda” po włączeniu „muzyki wszędzie”');
+  assert.ok(pierwszaRundaZMuzyka.nagranie?.url, 'brak adresu nagrania w wiadomości, mimo że „muzyka wszędzie” jest włączona');
+  assert.match(pierwszaRundaZMuzyka.nagranie.url, /^https?:\/\//, 'adres nagrania nie wygląda jak URL');
+  assert.equal(typeof pierwszaRundaZMuzyka.nagranie.startS, 'number', 'brak liczbowego momentu startu (startS) do zsynchronizowania telefonów');
+  assert.ok(pierwszaRundaZMuzyka.nagranie.startS >= 0, 'moment startu nagrania jest ujemny');
+  zapisz('„graj też na telefonach graczy”: adres nagrania i moment startu lecą w eter razem z pytaniem');
 
   assert.deepEqual([...new Set(bledy)], [], 'błędy w konsoli przeglądarki');
   console.log(`\nPRZEGLĄDARKA OK — ${zdane.length} sprawdzeń`);
