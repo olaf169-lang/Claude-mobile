@@ -157,6 +157,22 @@ w 70. — rap. Taki gatunek po prostu nie da się wybrać dla tej dekady w ustaw
 (`js/katalog.js` → `NIEISTNIEJACE`), a odzyskane miejsce poszło na inne kategorie
 z tych lat, żeby dekady jako całość nie wypadały ubogo.
 
+### Muzyka filmowa — wyjątek od zwykłych pytań
+
+W tej jednej kategorii nie zgadujesz tytułu ani wykonawcy — jedno z nich jawnie
+widać na ekranie (losowo które), a szukaną odpowiedzią jest **film, w którym ten
+utwór usłyszysz**. Złe odpowiedzi to więc inne filmy z katalogu, nie inne
+piosenki. Na odsłonie na pierwszym planie staje nazwa filmu, a tytuł
+z wykonawcą lądują jako podpis pod spodem — bo dopiero teraz oboje przestają
+być tajemnicą.
+
+Wymaga to dodatkowego pola `film` przy każdym wpisie tej kategorii — bez niego
+utwór po prostu nie wejdzie do puli (tak samo jak utwór bez nagrania przy grze
+z dźwiękiem). Filmów przypisywałem z pamięci, ale tam, gdzie nie miałem
+pewności, sprawdzałem to w sieci zamiast zgadywać — dwa utwory Ludwiga
+Göranssona z 2023 roku zostały bez przypisania, bo nie znalazłem wiarygodnego
+potwierdzenia.
+
 ### Dopisanie piosenki
 
 Jedna linijka w [`dane/utwory.js`](dane/utwory.js), w sekcji właściwej dekady
@@ -166,10 +182,16 @@ i kategorii:
 { tytul: 'Mój dom', wykonawca: 'Kortez', rok: 2015, gatunek: 'polskie', styl: 'pop' },
 ```
 
-Potem `node narzedzia/sprawdz-dane.mjs` (wyłapie duble i literówki w polach), a przy
-najbliższym pushu workflow sam znajdzie nagranie. Utwór, do którego nagrania nie ma,
-po prostu nie wejdzie do losowania — nazwa trafi na listę braków w podsumowaniu
-przebiegu, więc od razu widać, co poprawić.
+Przy kategorii „filmowa” dochodzi pole `film`:
+
+```js
+{ tytul: 'Eye of the Tiger', wykonawca: 'Survivor', rok: 1982, gatunek: 'filmowa', film: 'Rocky III' },
+```
+
+Potem `node narzedzia/sprawdz-dane.mjs` (wyłapie duble, literówki w polach i brak
+`film` przy „filmowej”), a przy najbliższym pushu workflow sam znajdzie nagranie.
+Utwór, do którego nagrania nie ma, po prostu nie wejdzie do losowania — nazwa
+trafi na listę braków w podsumowaniu przebiegu, więc od razu widać, co poprawić.
 
 ### Skąd biorą się złe odpowiedzi
 
@@ -189,7 +211,7 @@ i „Dawid Podsiadło & Taco Hemingway”.
 | **Długość serii** | Ile piosenek pod rząd w jednej rundzie: od 5 do 25. Jeśli pula tematu jest mniejsza, seria po prostu się skróci. |
 | **Liczba rund** | Ile serii w tej grze: 1, 3, 5, 8 albo 10. |
 | **Kto wybiera temat rundy** | Losowy gracz (domyślnie) albo zawsze prowadzący. |
-| **O co pytamy** | O tytuł, o wykonawcę, albo raz o to, raz o to. |
+| **O co pytamy** | O tytuł, o wykonawcę, albo raz o to, raz o to. Muzyka filmowa ma zawsze swoje własne pytanie — o film (patrz wyżej). |
 | **Muzyka z aplikacji** | Wyłącz, jeśli puszczasz z własnego źródła. |
 | **Graj też na telefonach graczy** | Dostępne, gdy „Muzyka z aplikacji” jest włączona. Każdy telefon gra u siebie, nie tylko prowadzący — z lekkim echem przy telefonach obok siebie (patrz wyżej). |
 | **Losowy moment** | Fragment zaczyna się za każdym razem gdzie indziej — trudniej. |
@@ -267,6 +289,11 @@ włączeniu — leci, razem z momentem startu do zsynchronizowania. Samego
 odtwarzania w tle nie sprawdzamy tu automatycznie — to już zależy od tego, czy
 telefon (i sieć w danym momencie) faktycznie odtworzy plik dźwiękowy, a nie od
 kodu gry, więc test pilnuje protokołu, nie prawdziwego dźwięku.
+
+Czwarty sprawdza muzykę filmową: że pytanie na ekranie rzeczywiście pokazuje
+tytuł albo wykonawcę (to, co ułożył silnik), że cztery odpowiedzi to nazwy
+filmów, a odsłona stawia film na pierwszym planie z tytułem i wykonawcą jako
+podpisem.
 
 ## Gdy coś nie działa
 

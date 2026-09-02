@@ -49,7 +49,8 @@ sprawdz('domyślnie muzyka gra tylko u prowadzącego', () => {
 
 sprawdz('każda runda ma cztery różne odpowiedzi i dokładnie jedną poprawną', () => {
   const losuj = losowanie(1234);
-  for (const utwor of przetasuj(katalog, losuj).slice(0, 120)) {
+  // Filmowa ma inną zasadę (patrz niżej) — ten test sprawdza klasyczne tytuł/wykonawca.
+  for (const utwor of przetasuj(katalog.filter((u) => u.gatunek !== 'filmowa'), losuj).slice(0, 120)) {
     for (const typ of ['tytul', 'wykonawca']) {
       const runda = zbudujRunde(utwor, katalog, typ, losuj);
       assert.equal(runda.odpowiedzi.length, 4, `${utwor.tytul}: nie cztery odpowiedzi`);
@@ -63,12 +64,44 @@ sprawdz('każda runda ma cztery różne odpowiedzi i dokładnie jedną poprawną
 
 sprawdz('przy pytaniu „kto śpiewa” nie stoją obok siebie ten sam artysta i jego duet', () => {
   const losuj = losowanie(77);
-  for (const utwor of katalog.filter((u) => u.kluczeWykonawcow.length > 1).slice(0, 40)) {
+  for (const utwor of katalog.filter((u) => u.gatunek !== 'filmowa' && u.kluczeWykonawcow.length > 1).slice(0, 40)) {
     const runda = zbudujRunde(utwor, katalog, 'wykonawca', losuj);
     const wszystkieNazwy = runda.odpowiedzi.flatMap((o) =>
       o.toLowerCase().split(/\s+(?:feat\.|ft\.|&|x|i)\s+|,\s+/).map((c) => c.trim()));
     assert.equal(new Set(wszystkieNazwy).size, wszystkieNazwy.length,
       `powtórzony artysta w pytaniu: ${runda.odpowiedzi.join(' / ')}`);
+  }
+});
+
+/* --- muzyka filmowa: wyjątek od zwykłych pytań --- */
+
+sprawdz('filmowa pyta o film, nie o tytuł ani wykonawcę', () => {
+  const losuj = losowanie(55);
+  const filmoweZFilmem = katalog.filter((u) => u.gatunek === 'filmowa' && u.film);
+  assert.ok(filmoweZFilmem.length > 100, `za mało filmowych z przypisanym filmem: ${filmoweZFilmem.length}`);
+  for (const utwor of przetasuj(filmoweZFilmem, losuj).slice(0, 60)) {
+    const runda = zbudujRunde(utwor, katalog, 'tytul', losuj);
+    assert.equal(runda.typ, 'film', `${utwor.tytul}: powinien być typ „film”`);
+    assert.ok(['tytul', 'wykonawca'].includes(runda.wskazany), `${utwor.tytul}: dziwna wartość wskazany`);
+    assert.equal(runda.odpowiedzi.length, 4, `${utwor.tytul}: nie cztery odpowiedzi`);
+    assert.equal(new Set(runda.odpowiedzi).size, 4, `${utwor.tytul}: powtórzony film wśród odpowiedzi`);
+    assert.equal(runda.odpowiedzi[runda.poprawna], utwor.film, `${utwor.tytul}: poprawna odpowiedź to nie ten film`);
+    // Podpowiedź na ekranie musi zdradzać dokładnie jedną z dwóch rzeczy —
+    // tę wskazaną w `wskazany` — a nie obie naraz.
+    if (runda.wskazany === 'tytul') {
+      assert.ok(runda.pytanie.includes(utwor.tytul), `${utwor.tytul}: pytanie nie pokazuje tytułu`);
+    } else {
+      assert.ok(runda.pytanie.includes(utwor.wykonawca), `${utwor.tytul}: pytanie nie pokazuje wykonawcy`);
+    }
+  }
+});
+
+sprawdz('filmowa bez przypisanego filmu nie wchodzi do puli', () => {
+  const bezFilmu = katalog.filter((u) => u.gatunek === 'filmowa' && !u.film);
+  assert.ok(bezFilmu.length > 0, 'w danych testowych powinno zostać choć jedno „filmowa” bez filmu');
+  const pula = pulaUtworow({ kategorie: ['filmowa'], dekady: DEKADY.map((d) => d.id) }, { katalog });
+  for (const utwor of bezFilmu) {
+    assert.ok(!pula.some((u) => u.id === utwor.id), `${utwor.tytul} nie powinien trafić do puli — brak pola „film”`);
   }
 });
 

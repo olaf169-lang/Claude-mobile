@@ -800,6 +800,9 @@ export function uruchom() {
       tytul: pytanie.utwor.tytul,
       wykonawca: pytanie.utwor.wykonawca,
       rok: pytanie.utwor.rok,
+      // Tylko przy pytaniu o film: prawidłowa odpowiedź to nazwa filmu, nie
+      // tytuł ani wykonawca (te dwa lecą jako podpis, patrz rysujOdslone).
+      film: pytanie.typ === 'film' ? pytanie.utwor.film : null,
       kategoria: kategoriaInfo ? { emoji: kategoriaInfo.emoji, nazwa: kategoriaInfo.nazwa } : null,
       dekada: dekadaInfo ? dekadaInfo.nazwa : null,
       okladka: wpisPodgladu?.okladka || null,
@@ -831,8 +834,13 @@ export function uruchom() {
       okladka.hidden = true;
     }
 
-    $('#odsloniety-tytul').textContent = pytanie.utwor.tytul;
-    $('#odsloniety-wykonawca').textContent = `${pytanie.utwor.wykonawca} · ${pytanie.utwor.rok}`;
+    if (pytanie.typ === 'film') {
+      $('#odsloniety-tytul').textContent = pytanie.utwor.film;
+      $('#odsloniety-wykonawca').textContent = `${pytanie.utwor.tytul} — ${pytanie.utwor.wykonawca}`;
+    } else {
+      $('#odsloniety-tytul').textContent = pytanie.utwor.tytul;
+      $('#odsloniety-wykonawca').textContent = `${pytanie.utwor.wykonawca} · ${pytanie.utwor.rok}`;
+    }
     rysujZnacznikiUtworu($('#znaczniki-utworu'), stan.ostatniaOdslona);
 
     for (const kafelek of $$('#odpowiedzi-hosta .odp')) {
@@ -928,6 +936,7 @@ export function uruchom() {
       tytul: ostatniePytanie.utwor.tytul,
       wykonawca: ostatniePytanie.utwor.wykonawca,
       rok: ostatniePytanie.utwor.rok,
+      film: ostatniePytanie.typ === 'film' ? ostatniePytanie.utwor.film : null,
       okladka: zrodlo.zPamieci(ostatniePytanie.utwor)?.okladka || null,
       kategoria: kategoriaOst ? { emoji: kategoriaOst.emoji, nazwa: kategoriaOst.nazwa } : null,
       dekada: dekadaOst ? dekadaOst.nazwa : null,
@@ -964,8 +973,13 @@ export function uruchom() {
     } else {
       okladka.hidden = true;
     }
-    tytul.textContent = dane.tytul;
-    wykonawca.textContent = `${dane.wykonawca} · ${dane.rok}`;
+    if (dane.film) {
+      tytul.textContent = dane.film;
+      wykonawca.textContent = `${dane.tytul} — ${dane.wykonawca}`;
+    } else {
+      tytul.textContent = dane.tytul;
+      wykonawca.textContent = `${dane.wykonawca} · ${dane.rok}`;
+    }
     wyczysc(znaczniki);
     if (dane.kategoria) znaczniki.append(el('span', { tekst: `${dane.kategoria.emoji} ${dane.kategoria.nazwa}` }));
     if (dane.dekada) znaczniki.append(el('span', { tekst: dane.dekada }));

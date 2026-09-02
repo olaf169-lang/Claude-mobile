@@ -402,8 +402,13 @@ export function uruchom() {
     } else {
       okladka.hidden = true;
     }
-    $('#odsloniety-tytul-gracz').textContent = wiadomosc.tytul;
-    $('#odsloniety-wykonawca-gracz').textContent = `${wiadomosc.wykonawca} · ${wiadomosc.rok}`;
+    if (wiadomosc.film) {
+      $('#odsloniety-tytul-gracz').textContent = wiadomosc.film;
+      $('#odsloniety-wykonawca-gracz').textContent = `${wiadomosc.tytul} — ${wiadomosc.wykonawca}`;
+    } else {
+      $('#odsloniety-tytul-gracz').textContent = wiadomosc.tytul;
+      $('#odsloniety-wykonawca-gracz').textContent = `${wiadomosc.wykonawca} · ${wiadomosc.rok}`;
+    }
     rysujZnacznikiUtworu($('#znaczniki-utworu-gracz'), wiadomosc);
     $('#moja-pozycja').textContent = moj?.miejsce
       ? `${moj.miejsce}. miejsce · ${stan.punkty} pkt`
@@ -454,8 +459,13 @@ export function uruchom() {
       } else {
         okladka.hidden = true;
       }
-      $('#ostatnia-piosenka-tytul-gracz').textContent = dane.tytul;
-      $('#ostatnia-piosenka-wykonawca-gracz').textContent = `${dane.wykonawca} · ${dane.rok}`;
+      if (dane.film) {
+        $('#ostatnia-piosenka-tytul-gracz').textContent = dane.film;
+        $('#ostatnia-piosenka-wykonawca-gracz').textContent = `${dane.tytul} — ${dane.wykonawca}`;
+      } else {
+        $('#ostatnia-piosenka-tytul-gracz').textContent = dane.tytul;
+        $('#ostatnia-piosenka-wykonawca-gracz').textContent = `${dane.wykonawca} · ${dane.rok}`;
+      }
       rysujZnacznikiUtworu($('#ostatnia-piosenka-znaczniki-gracz'), dane);
     }
 
