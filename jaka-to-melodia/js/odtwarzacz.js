@@ -13,7 +13,7 @@
    ========================================================================== */
 
 const CISZA = 'data:audio/wav;base64,UklGRiUAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQEAAACA';
-const DLUGOSC_PODGLADU_MS = 30_000;
+export const DLUGOSC_PODGLADU_MS = 30_000;
 
 export class Odtwarzacz {
   constructor() {
@@ -73,10 +73,12 @@ export class Odtwarzacz {
   }
 
   /**
-   * Puszcza fragment. `losowyStart` przesuwa początek w obrębie 30-sekundowego
-   * podglądu — ta sama piosenka brzmi wtedy inaczej niż poprzednim razem.
+   * Puszcza fragment. `startS` to konkretny moment (w sekundach) w obrębie
+   * 30-sekundowego podglądu, od którego ma ruszyć — podaje go wywołujący
+   * (a nie ten odtwarzacz), żeby dało się rozesłać dokładnie tę samą wartość
+   * na inne telefony i wszyscy usłyszeli to samo miejsce w piosence.
    */
-  async zagraj(url, { losowyStart = false, dlugoscMs = 0 } = {}) {
+  async zagraj(url, { startS = 0, dlugoscMs = 0 } = {}) {
     clearTimeout(this._wygaszanie);
     const nr = this._przygotowany.url === url ? this._przygotowany.nr : 1 - this.biezacy;
     const poprzedni = this.elementy[this.biezacy];
@@ -93,10 +95,9 @@ export class Odtwarzacz {
     if (this.steruje) element.volume = 1;
 
     const ustawStart = () => {
-      if (!losowyStart) return;
-      const zapas = Math.max(0, DLUGOSC_PODGLADU_MS - Math.max(dlugoscMs, 8000));
-      const przesuniecie = (Math.random() * zapas) / 1000;
-      try { element.currentTime = przesuniecie; } catch { /* jeszcze nie wie, ile trwa */ }
+      if (startS <= 0) return;
+      const zapas = Math.max(0, DLUGOSC_PODGLADU_MS / 1000 - 1);
+      try { element.currentTime = Math.min(startS, zapas); } catch { /* jeszcze nie wie, ile trwa */ }
     };
     if (element.readyState >= 1) ustawStart();
     else element.addEventListener('loadedmetadata', ustawStart, { once: true });

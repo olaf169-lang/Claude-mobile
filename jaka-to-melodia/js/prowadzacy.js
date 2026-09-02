@@ -18,7 +18,7 @@ import {
 } from './gra.js';
 import { PokojProwadzacego, BROKERY, adresDolaczenia } from './siec.js';
 import { ZrodloPodgladow } from './podglady.js';
-import { Odtwarzacz } from './odtwarzacz.js';
+import { Odtwarzacz, DLUGOSC_PODGLADU_MS } from './odtwarzacz.js';
 import { kodQr } from './qr.js';
 
 const KSZTALTY = ['▲', '◆', '●', '■'];
@@ -63,6 +63,7 @@ export function uruchom() {
     odpowiedzi: new Map(),
     ostatniaOdslona: null,
     ostatnieWynikiRundy: null,
+    nagranieBiezace: null,   // { url, startS } rozsyłane graczom, gdy „muzykaWszedzie” jest włączona
     blokadaEkranu: null,
     pokazanoRunde: 0,        // od tego momentu liczy się czas odpowiedzi prowadzącego
   };
@@ -187,6 +188,8 @@ export function uruchom() {
     $('#ksywka-prowadzacego').value = stan.ustawienia.ksywkaProwadzacego;
     $('#pole-ksywki-prowadzacego').hidden = !stan.ustawienia.prowadzacyGra;
     $('#opcja-dzwiek').checked = stan.ustawienia.dzwiekWAplikacji;
+    $('#opcja-muzyka-wszedzie').checked = stan.ustawienia.muzykaWszedzie;
+    $('#pole-muzyka-wszedzie').hidden = !stan.ustawienia.dzwiekWAplikacji;
     $('#opcja-fragment').checked = stan.ustawienia.losowyFragment;
     $('#opcja-seria').checked = stan.ustawienia.bonusSerii;
 
@@ -253,9 +256,13 @@ export function uruchom() {
     if (stan.faza === 'lobby') { rysujLobby(); nadajStan(); }
   }
 
-  for (const [pole, klucz] of [['#opcja-dzwiek', 'dzwiekWAplikacji'], ['#opcja-fragment', 'losowyFragment'], ['#opcja-seria', 'bonusSerii']]) {
+  for (const [pole, klucz] of [
+    ['#opcja-dzwiek', 'dzwiekWAplikacji'], ['#opcja-muzyka-wszedzie', 'muzykaWszedzie'],
+    ['#opcja-fragment', 'losowyFragment'], ['#opcja-seria', 'bonusSerii'],
+  ]) {
     $(pole).addEventListener('change', (z) => {
       stan.ustawienia[klucz] = z.target.checked;
+      if (pole === '#opcja-dzwiek') $('#pole-muzyka-wszedzie').hidden = !z.target.checked;
       odswiezLicznikPuli();
       zapiszUstawienia();
     });
@@ -367,6 +374,10 @@ export function uruchom() {
         pozostaloMs: Math.max(0, stan.koniecRundy - performance.now()),
         ilu: stan.odpowiedzi.size,
         zGrajacych: stan.gracze.size,
+        // Adres nagrania jedzie do graczy tylko, gdy prowadzący włączył granie
+        // „wszędzie” — inaczej telefony graczy nigdy nie dostają tego pola
+        // i zachowują się dokładnie tak jak wcześniej.
+        nagranie: stan.ustawienia.muzykaWszedzie ? stan.nagranieBiezace : null,
       });
     } else if (stan.faza === 'odslona' && stan.ostatniaOdslona) {
       pokoj.nadaj(stan.ostatniaOdslona);
@@ -618,6 +629,7 @@ export function uruchom() {
     stan.odpowiedzi.clear();
     stan.faza = 'runda';
     stan.ostatniaOdslona = null;
+    stan.nagranieBiezace = null;
 
     $('#numer-rundy').textContent =
       `Runda ${stan.nrRundyGry}/${stan.ustawienia.liczbaRund} · piosenka ${stan.nrPytania + 1}/${stan.seria.length}`;
@@ -675,21 +687,37 @@ export function uruchom() {
     $('#potwierdzenie-hosta').hidden = false;
   }
 
+  /** Losowy moment startu w obrębie podglądu — liczony raz, tu, żeby dało się
+      rozesłać graczom dokładnie tę samą wartość (patrz odtwarzacz.js). */
+  function wylosujStartS() {
+    if (!stan.ustawienia.losowyFragment) return 0;
+    const zapas = Math.max(0, DLUGOSC_PODGLADU_MS - Math.max(stan.limitMs, 8000));
+    return (Math.random() * zapas) / 1000;
+  }
+
   async function puscUtwor(utwor) {
     const wpis = await zrodlo.znajdz(utwor);
     if (!wpis?.podglad) {
       $('#uwaga-dzwieku').textContent = 'Nie znalazłem nagrania — puść ten kawałek sam albo pomiń rundę.';
       return;
     }
-    const zagrane = await odtwarzacz.zagraj(wpis.podglad, {
-      losowyStart: stan.ustawienia.losowyFragment,
-      dlugoscMs: stan.limitMs,
-    });
+    const startS = wylosujStartS();
+    // Adres rozsyłamy graczom od razu, jak tylko go znajdziemy — niezależnie od
+    // tego, czy odtwarzanie akurat wyjdzie na TYM konkretnym telefonie (różne
+    // przeglądarki różnie traktują autoodtwarzanie). Telefony graczy i tak
+    // próbują same, u siebie.
+    stan.nagranieBiezace = { url: wpis.podglad, startS };
+    const zagrane = await odtwarzacz.zagraj(wpis.podglad, { startS, dlugoscMs: stan.limitMs });
     if (!zagrane) {
       // Adres mógł wygasnąć (tak bywa z Deezerem) — pytamy o świeży i próbujemy raz.
       const swiezy = await zrodlo.odswiez(utwor);
-      if (swiezy?.podglad) await odtwarzacz.zagraj(swiezy.podglad, { losowyStart: stan.ustawienia.losowyFragment, dlugoscMs: stan.limitMs });
-      else $('#uwaga-dzwieku').textContent = 'Nagranie nie chce zagrać — puść je sam albo pomiń rundę.';
+      if (swiezy?.podglad) {
+        stan.nagranieBiezace = { url: swiezy.podglad, startS };
+        const zagraneSwiezy = await odtwarzacz.zagraj(swiezy.podglad, { startS, dlugoscMs: stan.limitMs });
+        if (!zagraneSwiezy) $('#uwaga-dzwieku').textContent = 'Nagranie nie chce zagrać — puść je sam albo pomiń rundę.';
+      } else {
+        $('#uwaga-dzwieku').textContent = 'Nagranie nie chce zagrać — puść je sam albo pomiń rundę.';
+      }
     }
   }
 

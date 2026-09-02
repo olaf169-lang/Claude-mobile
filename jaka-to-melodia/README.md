@@ -110,6 +110,22 @@ dopiski, wymaga zgodnego wykonawcy i premiuje nagranie z roku wydania singla.
 **Wolisz puszczać swoje?** Wyłącz „Muzykę z aplikacji” w ustawieniach. Gra pokazuje
 wtedy tylko pytanie, zegar i odpowiedzi, a za dźwięk odpowiada prowadzący.
 
+### Muzyka na wszystkich telefonach
+
+Domyślnie gra tylko telefon prowadzącego — reszta patrzy na swój ekran w ciszy.
+Włącznik **Graj też na telefonach graczy** (pod „Muzyką z aplikacji”) sprawia, że
+każdy telefon w pokoju sam odtwarza ten sam fragment.
+
+Uczciwie: to nie jest jeden głośnik, tylko kilka telefonów granych osobno przez
+internet, więc idealnej synchronizacji się nie da osiągnąć — każdy dostaje sygnał
+„graj teraz” z innym, niewielkim opóźnieniem sieci. Gra stara się to zniwelować
+najlepiej, jak może (każdy telefon liczy, ile utworu już minęło, i przeskakuje od
+razu w to samo miejsce, zamiast zaczynać od zera), ale przy telefonach leżących
+blisko siebie usłyszysz lekkie echo. Dla mniejszej grupy z osobnymi słuchawkami
+albo rozproszonej po większym pokoju to zwykle niezauważalne; przy stole, gdzie
+wszystkie telefony leżą obok siebie, lepiej zostawić muzykę na jednym urządzeniu
+przy głośniku.
+
 ## Katalog
 
 1469 utworów w siedmiu kategoriach i siedmiu dekadach:
@@ -167,6 +183,7 @@ i „Dawid Podsiadło & Taco Hemingway”.
 | **Kto wybiera temat rundy** | Losowy gracz (domyślnie) albo zawsze prowadzący. |
 | **O co pytamy** | O tytuł, o wykonawcę, albo raz o to, raz o to. |
 | **Muzyka z aplikacji** | Wyłącz, jeśli puszczasz z własnego źródła. |
+| **Graj też na telefonach graczy** | Dostępne, gdy „Muzyka z aplikacji” jest włączona. Każdy telefon gra u siebie, nie tylko prowadzący — z lekkim echem przy telefonach obok siebie (patrz wyżej). |
 | **Losowy moment** | Fragment zaczyna się za każdym razem gdzie indziej — trudniej. |
 | **Bonus za serię** | +10 za każde kolejne trafienie, do +50. |
 
@@ -205,7 +222,9 @@ podyktować przez pokój.
 ### iPhone i Android
 
 - Pierwsze odtworzenie musi wyjść z dotknięcia ekranu, więc przy „Zaczynamy”
-  rozgrzewamy odtwarzacz ciszą. Kolejne rundy ruszają już same.
+  rozgrzewamy odtwarzacz ciszą. Kolejne rundy ruszają już same. Gdy gra też
+  telefon gracza (patrz „Muzyka na wszystkich telefonach”), rozgrzewka wychodzi
+  z kliknięcia „Wchodzę” przy dołączaniu, z tego samego powodu.
 - Safari na iPhonie ignoruje ustawianie głośności z kodu — sprawdzamy to raz
   i tam, gdzie się nie da, po prostu nie wyciszamy płynnie.
 - Ekran nie gaśnie w trakcie gry (Screen Wake Lock, gdzie jest dostępny).
@@ -233,6 +252,13 @@ między innymi, czy szybsza odpowiedź daje więcej punktów — także wtedy, g
 jest prowadzący — czy telefon wchodzący w środku rundy dostaje resztę czasu, czy
 poprawna odpowiedź nie pojawia się w eterze przed odsłoną i czy losowo wybrany
 gracz rzeczywiście dostaje panel wyboru tematu, a reszta tylko czeka.
+
+Trzeci, krótszy scenariusz sprawdza samą „muzykę na wszystkich telefonach”: że
+domyślnie (opcja wyłączona) adres nagrania w ogóle nie leci do graczy, a po
+włączeniu — leci, razem z momentem startu do zsynchronizowania. Samego
+odtwarzania w tle nie sprawdzamy tu automatycznie — to już zależy od tego, czy
+telefon (i sieć w danym momencie) faktycznie odtworzy plik dźwiękowy, a nie od
+kodu gry, więc test pilnuje protokołu, nie prawdziwego dźwięku.
 
 ## Gdy coś nie działa
 

@@ -446,6 +446,7 @@ main {
 /* Pole zależne od przełącznika nad nim — wcięte, żeby było widać zależność. */
 .pole.wciete { margin: .2rem 0 .4rem 1.9rem; }
 .pole.wciete[hidden] { display: none; }
+.przelacznik.wciete { margin-left: 1.9rem; padding-top: 0; }
 
 /* ------------------------------------------------------------------ lobby */
 

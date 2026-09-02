@@ -38,6 +38,7 @@ export const USTAWIENIA_DOMYSLNE = {
   ktoWybiera: 'losowy',         // 'losowy' | 'prowadzacy' — kto ustala temat rundy
   losowyFragment: false,        // zaczynaj podgląd w losowym miejscu — trudniej
   dzwiekWAplikacji: true,       // false = muzykę puszcza prowadzący z zewnątrz
+  muzykaWszedzie: false,        // true = gra też na telefonach graczy, nie tylko u prowadzącego
   prowadzacyGra: true,          // prowadzący odpowiada na swoim telefonie jak reszta
   ksywkaProwadzacego: '',
 };
