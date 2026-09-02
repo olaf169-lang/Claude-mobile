@@ -184,6 +184,17 @@ jobs:
   publikuj:
     name: Opublikuj stronę
     needs: zbierz
+    # GitHub wpuszcza na Pages tylko gałąź główną. Push na gałąź roboczą
+    # (nowa aplikacja, poprawka w toku) wcześniej i tak odbijał się od tego
+    # zabezpieczenia i zostawiał czerwony krzyżyk przy przebiegu, choć nic
+    # złego się nie działo. Teraz taki przebieg po prostu pomija publikację:
+    # zbiórka i przygotowanie strony nadal się sprawdzają, a strona zmienia
+    # się dopiero wtedy, gdy zmiana trafi na gałąź główną.
+    # Warunek napisany „na korzyść publikacji”: gdyby GitHub kiedyś nie podał
+    # nazwy gałęzi głównej, poranne wydanie i tak się opublikuje.
+    if: >-
+      github.event.repository.default_branch == '' ||
+      github.ref_name == github.event.repository.default_branch
     runs-on: ubuntu-latest
     environment:
       name: github-pages
