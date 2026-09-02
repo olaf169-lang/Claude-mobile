@@ -44,6 +44,7 @@ export function uruchom() {
     kluczOdliczania: null,
     kluczWynikowRundy: null,
     kluczNagrania: null,          // `${nrRundyGry}/${nr}` pytania, dla którego już ruszyła muzyka u siebie
+    nagranieOczekiwane: false,    // czy bieżące pytanie w ogóle niesie adres nagrania
     tematOpcje: null,            // { kategorie, dekady } — opcje do wyboru, przysłane przez prowadzącego
     wyborTemat: null,            // robocza (jeszcze niewysłana) wersja wyboru
   };
@@ -72,11 +73,6 @@ export function uruchom() {
       return;
     }
 
-    // Rozgrzewka musi wyjść z tego samego dotknięcia — stąd tu, przed jakimkolwiek
-    // czekaniem na sieć. Przyda się tylko, jeśli prowadzący włączy „muzykę
-    // wszędzie”, ale nic nie kosztuje zrobić ją zawsze, na wszelki wypadek.
-    odtwarzacz.rozgrzej();
-
     const przycisk = $('#dolacz');
     przycisk.disabled = true;
     przycisk.textContent = 'Szukam pokoju…';
@@ -92,6 +88,11 @@ export function uruchom() {
         powiadom(powitanie.powod || 'Pokój jest pełny.', 'blad');
         return;
       }
+      // Rozgrzewka — tylko jeśli prowadzący faktycznie włączył „muzykę wszędzie”.
+      // Robiona zawsze, samo odtworzenie czegokolwiek (nawet ciszy) na iPhonie
+      // zwykle ucina muzykę graną w tle w innej aplikacji — nie chcemy robić
+      // tego niepotrzebnie każdemu, kto dołącza do zwykłej gry.
+      if (powitanie.muzykaWszedzie) odtwarzacz.rozgrzej();
       stan.ksywka = powitanie.ksywka || ksywka;
       stan.punkty = powitanie.punkty || 0;
       localStorage.setItem('jtm:ksywka', stan.ksywka);
@@ -298,6 +299,7 @@ export function uruchom() {
     if (stan.kluczNagrania === klucz) return;
     stan.kluczNagrania = klucz;
 
+    stan.nagranieOczekiwane = Boolean(wiadomosc.nagranie?.url);
     if (!wiadomosc.nagranie?.url) {
       odtwarzacz.uciszWszystko();
       return;
@@ -322,6 +324,10 @@ export function uruchom() {
 
   function odpowiedz(nr) {
     if (stan.wybor !== null) return;
+    // Zapasowa okazja do rozgrzewki: gdyby telefon dołączył do lobby zanim
+    // prowadzący włączył „muzykę wszędzie”, ten klik i tak jest prawdziwym
+    // dotknięciem ekranu — następne pytanie ma wtedy szansę zagrać.
+    if (stan.nagranieOczekiwane && !odtwarzacz.rozgrzany) odtwarzacz.rozgrzej();
     stan.wybor = nr;
     const czasMs = Math.round(stan.offsetMs + (performance.now() - stan.pokazano));
     pokoj.nadaj({ t: 'odp', id: mojeId, nr: stan.nrPytania, wybor: nr, czasMs });
@@ -388,6 +394,14 @@ export function uruchom() {
       werdykt.innerHTML = 'Nie zdążyłeś<span class="punkty">następnym razem szybciej</span>';
     }
 
+    const okladka = $('#okladka-gracz');
+    if (wiadomosc.okladka) {
+      okladka.src = wiadomosc.okladka;
+      okladka.alt = `Okładka: ${wiadomosc.tytul}`;
+      okladka.hidden = false;
+    } else {
+      okladka.hidden = true;
+    }
     $('#odsloniety-tytul-gracz').textContent = wiadomosc.tytul;
     $('#odsloniety-wykonawca-gracz').textContent = `${wiadomosc.wykonawca} · ${wiadomosc.rok}`;
     rysujZnacznikiUtworu($('#znaczniki-utworu-gracz'), wiadomosc);
@@ -428,6 +442,22 @@ export function uruchom() {
     $('#gracz-wyniki-rundy-info').textContent = wiadomosc.ostatniaRunda
       ? 'To była ostatnia runda — zaraz podsumowanie całej gry.'
       : 'Zaraz kolejna runda…';
+
+    if (wiadomosc.ostatniaPiosenka) {
+      const dane = wiadomosc.ostatniaPiosenka;
+      $('#karta-ostatniej-piosenki-gracz').hidden = false;
+      const okladka = $('#okladka-rundy-gracz');
+      if (dane.okladka) {
+        okladka.src = dane.okladka;
+        okladka.alt = `Okładka: ${dane.tytul}`;
+        okladka.hidden = false;
+      } else {
+        okladka.hidden = true;
+      }
+      $('#ostatnia-piosenka-tytul-gracz').textContent = dane.tytul;
+      $('#ostatnia-piosenka-wykonawca-gracz').textContent = `${dane.wykonawca} · ${dane.rok}`;
+      rysujZnacznikiUtworu($('#ostatnia-piosenka-znaczniki-gracz'), dane);
+    }
 
     const lista = wyczysc($('#ranking-gracza-rundy'));
     tabela.forEach((gracz, i) => {

@@ -50,7 +50,8 @@ kategorii i dekady osobno. Jeśli wybrany temat okaże się zbyt wąski (za mał
 utworów na całą serię), gra sama prosi o wybór jeszcze raz.
 
 Po ostatniej piosence serii wszystkie telefony — prowadzącego i graczy — widzą
-animowane podium i tabelę tej rundy, zanim gra przejdzie dalej.
+animowane podium i tabelę tej rundy (z przypomnieniem, jaka piosenka leciała na
+koniec — okładka, tytuł, wykonawca), zanim gra przejdzie dalej.
 
 ### We dwoje, w pojedynkę i w tłumie
 
@@ -125,6 +126,13 @@ blisko siebie usłyszysz lekkie echo. Dla mniejszej grupy z osobnymi słuchawkam
 albo rozproszonej po większym pokoju to zwykle niezauważalne; przy stole, gdzie
 wszystkie telefony leżą obok siebie, lepiej zostawić muzykę na jednym urządzeniu
 przy głośniku.
+
+Druga rzecz: każdy telefon ściąga swoją własną kopię fragmentu (to nie jest
+strumień z jednego źródła), więc przy większej grupie na słabszym wi-fi wszyscy
+naraz pobierają ten sam plik w tym samym momencie. Na przyzwoitej sieci to
+niezauważalne; na bardzo obciążonej może chwilowo spowolnić też samą grę
+(łączność z pokojem). Telefon, który na moment straci zasięg, i tak dostraja się
+sam — ale jeśli często coś się zacina, warto to po prostu wyłączyć.
 
 ## Katalog
 

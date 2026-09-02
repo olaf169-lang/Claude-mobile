@@ -303,11 +303,21 @@ try {
   for (const g of gracze) await g.strona.waitForSelector('[data-ekran="gracz-wyniki-rundy"]:not([hidden])', { timeout: 10_000 });
   await czekaj(1500); // niech animacja podium i tabeli dobiegnie końca przed zrzutem
   await zrzut(host, 'ekran-wyniki-rundy', true);
+  await zrzut(gracze[0].strona, 'ekran-wyniki-rundy-gracz');
   const podiumRundy = await host.$$eval('#podium-rundy .stopien .kto', (n) => n.map((e) => e.textContent));
   assert.ok(podiumRundy.length >= 1, 'brak podium na ekranie wyników rundy');
   assert.equal((await host.textContent('#dalej-po-rundzie')).trim(), 'Zobacz wynik gry',
     'jedna runda w grze, a przycisk nie prowadzi do końcowego podsumowania');
-  zapisz(`ekran wyników rundy pokazuje podium: ${podiumRundy.join(' · ')}`);
+  const ostatnie = oczekiwanaSeria[oczekiwanaSeria.length - 1];
+  assert.equal(await host.isHidden('#karta-ostatniej-piosenki'), false,
+    'brak karty z ostatnią piosenką na ekranie wyników rundy (prowadzący)');
+  assert.equal((await host.textContent('#ostatnia-piosenka-tytul')).trim(), ostatnie.utwor.tytul,
+    'karta ostatniej piosenki pokazuje zły tytuł');
+  assert.equal(await gracze[0].strona.isHidden('#karta-ostatniej-piosenki-gracz'), false,
+    'brak karty z ostatnią piosenką na ekranie wyników rundy (gracz)');
+  assert.equal((await gracze[0].strona.textContent('#ostatnia-piosenka-tytul-gracz')).trim(), ostatnie.utwor.tytul,
+    'gracz widzi inny tytuł ostatniej piosenki niż prowadzący');
+  zapisz(`ekran wyników rundy pokazuje podium (${podiumRundy.join(' · ')}) i ostatnią piosenkę (${ostatnie.utwor.tytul})`);
 
   /* --- koniec gry --- */
 
