@@ -1,6 +1,6 @@
 {
  "wersja": 1,
- "wygenerowano": "2026-09-03T10:12:29.503Z",
+ "wygenerowano": "2026-09-03T10:46:38.135Z",
  "utwory": {
   "phil-collins--in-the-air-tonight": {
    "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/d5/19/0fd51913-f97c-b88b-a4d2-bbf833116daa/mzaf_13159865170747963555.plus.aac.p.m4a",
@@ -11105,6 +11105,566 @@
    "zrodloId": "1750268244",
    "tytulZrodla": "100 BPM",
    "wykonawcaZrodla": "Kizo, Bletka & BeMelo"
+  },
+  "johnny-cash--ring-of-fire": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2c/12/68/2c126894-fd6b-b37c-d556-6d91bd8c0875/mzaf_17832761364720403968.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5f/13/bc/5f13bc30-0f68-ed45-466c-b491e9201558/dj.yjweejkt.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "251002253",
+   "tytulZrodla": "Ring of Fire",
+   "wykonawcaZrodla": "Johnny Cash"
+  },
+  "bob-dylan--mr-tambourine-man": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d3/84/60/d3846021-1555-0917-eb26-07276a75b557/mzaf_5279117102043235564.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/dc/e7/e3/dce7e385-5b40-bcda-4d09-ae4faab692ed/dj.fvugskmg.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "192688704",
+   "tytulZrodla": "Mr. Tambourine Man",
+   "wykonawcaZrodla": "Bob Dylan"
+  },
+  "jeannie-c-riley--harper-valley-pta": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/53/a1/1d/53a11def-f709-cd9e-4c44-d3db4d9df4ce/mzaf_1793842250662934129.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b2/b4/9b/b2b49bf4-49ce-b454-17a4-15fab0e7e535/027779021128.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1455526018",
+   "tytulZrodla": "Harper Valley PTA",
+   "wykonawcaZrodla": "Jeannie C. Riley"
+  },
+  "tammy-wynette--stand-by-your-man": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/31/1e/1e/311e1e3c-b77d-37db-2413-3a320dc2dd1d/mzaf_10967183345832315413.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ff/9f/74/ff9f7469-72d1-1458-ceba-7065a2c8f358/mzi.dtgeedfz.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "170588744",
+   "tytulZrodla": "Stand By Your Man",
+   "wykonawcaZrodla": "Tammy Wynette"
+  },
+  "merle-haggard--okie-from-muskogee": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/71/a4/06/71a406ef-918c-231f-87a5-f6efc2a049e3/mzaf_3821249346533027985.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a6/99/c9/a699c915-04a2-4c03-bce0-8dd44d3339a6/13UABIM51764.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "724314984",
+   "tytulZrodla": "Okie from Muskogee",
+   "wykonawcaZrodla": "Merle Haggard"
+  },
+  "the-band--the-night-they-drove-old-dixie-down": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6c/60/be/6c60be9c-76f5-9450-0135-c122c87a5885/mzaf_519492673581944672.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ca/b2/06/cab20688-46b7-e7be-c64a-dbbeeb2fc864/15UMGIM06558.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1440847001",
+   "tytulZrodla": "The Night They Drove Old Dixie Down",
+   "wykonawcaZrodla": "The Band"
+  },
+  "bill-lee--cruella-de-vil": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/62/33/91/62339180-324a-b37f-ecbd-e374a36f4cc6/mzaf_6274586531217793368.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/6d/e5/f2/6de5f263-85fd-2a6e-59dd-405f6da503f8/00050086078370.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1443823522",
+   "tytulZrodla": "Cruella de Vil",
+   "wykonawcaZrodla": "Bill Lee"
+  },
+  "joni-mitchell--big-yellow-taxi": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f7/3a/a8/f73aa8a2-c94a-ca77-f010-7a76eb69e127/mzaf_4965211714366492543.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Features2/v4/65/d2/17/65d217a9-a3e7-271f-93ba-6b5918f1fa0e/dj.uqndsgvp.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "128076098",
+   "tytulZrodla": "Big Yellow Taxi",
+   "wykonawcaZrodla": "Joni Mitchell"
+  },
+  "loretta-lynn--coal-miner-s-daughter": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ed/57/f9/ed57f940-8fd7-49d6-bf60-cc80c850d413/mzaf_17388438753422245310.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/79/71/36/7971368c-9138-1070-44fe-31f5fd821ba7/16UMGIM07485.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1442878762",
+   "tytulZrodla": "Coal Miner's Daughter",
+   "wykonawcaZrodla": "Loretta Lynn"
+  },
+  "simon-and-garfunkel--the-boxer": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/54/28/1a/54281a14-ec25-beb5-10fc-c545327f0755/mzaf_11859637591334715651.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/0e/db/7c0edb31-3d24-c264-abaa-411f862cdcf7/886447698259.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1463652895",
+   "tytulZrodla": "The Boxer",
+   "wykonawcaZrodla": "Simon & Garfunkel"
+  },
+  "john-denver--take-me-home-country-roads": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4f/1b/9e/4f1b9e3e-c21b-9991-ca27-6d16ee3dee62/mzaf_11503774327656204559.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/f4/2c/6c/f42c6c52-ec35-7951-0088-3ef8e57270c6/cover.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1482519924",
+   "tytulZrodla": "Take Me Home, Country Roads",
+   "wykonawcaZrodla": "John Denver"
+  },
+  "john-denver--rocky-mountain-high": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/98/bd/0a/98bd0a51-ee5a-78c4-22ed-bb176a2a747f/mzaf_1208214577006459919.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/50/ea/c9/50eac997-ed30-4a79-08a3-fb416f5413d2/886447612101.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1456799514",
+   "tytulZrodla": "Rocky Mountain High",
+   "wykonawcaZrodla": "John Denver"
+  },
+  "dolly-parton--jolene": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fc/bf/b6/fcbfb6fa-5293-1bb8-f250-7feaf5183892/mzaf_10820724967096911306.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0b/f8/1e/0bf81e88-de6e-aba3-9fd4-e7407bfbcc31/886445438048.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1062400330",
+   "tytulZrodla": "Jolene",
+   "wykonawcaZrodla": "Dolly Parton"
+  },
+  "glen-campbell--rhinestone-cowboy": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ea/95/a4/ea95a43d-26ee-048d-dfbf-dd4b75c9f872/mzaf_5763727911598680756.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3a/0f/bd/3a0fbd0c-fa61-8295-68a4-16c44aadeda6/15UMGIM01121.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1442453158",
+   "tytulZrodla": "Rhinestone Cowboy",
+   "wykonawcaZrodla": "Glen Campbell"
+  },
+  "kenny-rogers--the-gambler": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/de/10/af/de10af94-69c5-aede-f2f5-2939de823064/mzaf_1653661081429854804.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/04/74/a2/0474a210-0239-df57-1457-96339adf1e56/13UABIM74030.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1440840853",
+   "tytulZrodla": "The Gambler",
+   "wykonawcaZrodla": "Kenny Rogers"
+  },
+  "dolly-parton--9-to-5": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/71/83/42/7183429b-c504-9261-f5cb-5f41e3a532bc/mzaf_12589133056404920978.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music/37/fa/d1/mzi.ecmonpil.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "282883590",
+   "tytulZrodla": "9 to 5",
+   "wykonawcaZrodla": "Dolly Parton"
+  },
+  "willie-nelson--on-the-road-again": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d2/39/29/d23929da-125b-74f9-90c2-e34b693de068/mzaf_7859689012285102950.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/78/a5/e4/78a5e4a0-0a43-18fa-6c36-25ecd4587c1f/dj.gomnsxgu.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "158498945",
+   "tytulZrodla": "On the Road Again",
+   "wykonawcaZrodla": "Willie Nelson"
+  },
+  "kenny-rogers-and-dolly-parton--islands-in-the-stream": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/44/e1/b3/44e1b370-4d29-c686-d332-008ac5fe26d7/mzaf_12505497198581622728.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music/37/fa/d1/mzi.ecmonpil.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "282883594",
+   "tytulZrodla": "Islands In the Stream",
+   "wykonawcaZrodla": "Dolly Parton & Kenny Rogers"
+  },
+  "randy-travis--forever-and-ever-amen": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/93/13/c0/9313c0f7-7afe-8d0f-cbac-0b59686e9e2e/mzaf_7925152810007644231.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music/e8/1f/98/mzi.azfllboh.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "307031224",
+   "tytulZrodla": "Forever and Ever, Amen",
+   "wykonawcaZrodla": "Randy Travis"
+  },
+  "tracy-chapman--fast-car": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6f/52/41/6f5241a2-3e98-3c1f-3cda-11f34da680aa/mzaf_3951335061988287211.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b8/c4/31/b8c431e9-a67d-3917-72e5-be9f5a1ebc46/075596077460.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "79565507",
+   "tytulZrodla": "Fast Car",
+   "wykonawcaZrodla": "Tracy Chapman"
+  },
+  "garth-brooks--friends-in-low-places": {
+   "podglad": "https://cdnt-preview.dzcdn.net/api/1/1/9/9/2/0/992424ac027f7bd0f95652025eb33515.mp3?hdnea=exp=1788433216~acl=/api/1/1/9/9/2/0/992424ac027f7bd0f95652025eb33515.mp3*~data=user_id=0,application_id=42~hmac=0f87c6219c4b482ccad9dd12b0e3062bb94a641d232857310659c6ca240ea683",
+   "okladka": "https://cdn-images.dzcdn.net/images/cover/b59ba7caaa806201aaab4ef611a1ad22/500x500-000000-80-0-0.jpg",
+   "zrodlo": "deezer",
+   "zrodloId": "454775252",
+   "tytulZrodla": "Friends In Low Places",
+   "wykonawcaZrodla": "The Sounds Of Garth Brooks"
+  },
+  "garth-brooks--the-dance": {
+   "podglad": "https://cdnt-preview.dzcdn.net/api/1/1/1/2/3/0/12322d346e62c4a0919318cc89f34e31.mp3?hdnea=exp=1788433222~acl=/api/1/1/1/2/3/0/12322d346e62c4a0919318cc89f34e31.mp3*~data=user_id=0,application_id=42~hmac=4a8cbff2a858044c9054149acf0e135dba78d65e241b4c5f288451c3d4bd0fe3",
+   "okladka": "https://cdn-images.dzcdn.net/images/cover/57e653d6294537d1f5e5a4a8a6195910/500x500-000000-80-0-0.jpg",
+   "zrodlo": "deezer",
+   "zrodloId": "356070761",
+   "tytulZrodla": "The Dance",
+   "wykonawcaZrodla": "Garth Brooks"
+  },
+  "billy-ray-cyrus--achy-breaky-heart": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6a/0a/10/6a0a1012-86f5-c100-d443-31f95dba24bb/mzaf_12266939131850217262.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/e3/f5/cde3f5a9-2fa5-6ece-c31d-8bbb4e0e2d37/06UMGIM23363.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1440756026",
+   "tytulZrodla": "Achy Breaky Heart",
+   "wykonawcaZrodla": "Billy Ray Cyrus"
+  },
+  "brooks-and-dunn--boot-scootin-boogie": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cd/3c/ca/cd3cca34-ec7b-5621-990a-01a44796e77b/mzaf_6772277813911372274.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9a/48/05/9a48053f-66d8-88ed-4030-93e1de524ebb/078221865821.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "291896534",
+   "tytulZrodla": "Boot Scootin' Boogie",
+   "wykonawcaZrodla": "Brooks & Dunn"
+  },
+  "george-strait--i-cross-my-heart": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a8/6c/c4/a86cc410-381a-1439-4a2c-7f0361c3ad97/mzaf_12477389423990548664.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7a/fa/73/7afa73cc-c41c-cb7d-dc19-6b1eb5571bb4/06UMGIM05362.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1440782659",
+   "tytulZrodla": "I Cross My Heart",
+   "wykonawcaZrodla": "George Strait"
+  },
+  "alan-jackson--chattahoochee": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3f/ed/4a/3fed4ad8-5401-e7e0-06e2-ce13ce19c4f8/mzaf_7406951646983581292.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/40/9a/a7/409aa786-3918-f37b-1986-35d38391d62c/mzm.bpsvirpa.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "260758659",
+   "tytulZrodla": "Chattahoochee",
+   "wykonawcaZrodla": "Alan Jackson"
+  },
+  "martina-mcbride--independence-day": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/84/b7/5984b779-7754-f738-a917-887928f869b5/mzaf_7429541530702280988.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5b/d2/c4/5bd2c44e-5487-4a57-dabf-3591879bb045/mzi.lprvsbxk.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "256344593",
+   "tytulZrodla": "Independence Day",
+   "wykonawcaZrodla": "Martina McBride"
+  },
+  "leann-rimes--blue": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e5/dd/b6/e5ddb6ee-f859-362b-edf4-78d508307b97/mzaf_3911786771988145475.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/03/34/4b/03344b87-89aa-12e7-2f37-ae118c5703d4/715187782129.png/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "68869944",
+   "tytulZrodla": "Blue",
+   "wykonawcaZrodla": "LeAnn Rimes"
+  },
+  "shania-twain--you-re-still-the-one": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3c/0a/20/3c0a20c5-7fce-adf6-cb4e-95c76f3f13b9/mzaf_8666447038678467880.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1e/2f/98/1e2f98c2-3fa6-9601-9825-6a6d19a99cf3/06UMGIM07033.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1445669197",
+   "tytulZrodla": "You're Still the One",
+   "wykonawcaZrodla": "Shania Twain"
+  },
+  "shania-twain--man-i-feel-like-a-woman": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/99/5a/c9/995ac911-a854-5116-97c4-c497380c0de3/mzaf_17795781825956372203.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1e/2f/98/1e2f98c2-3fa6-9601-9825-6a6d19a99cf3/06UMGIM07033.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1445668856",
+   "tytulZrodla": "Man! I Feel Like a Woman!",
+   "wykonawcaZrodla": "Shania Twain"
+  },
+  "pawel-tucholski-and-katarzyna-skrzynecka--wspanialy-swiat": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/36/9c/92/369c92ee-2268-bfe5-8fb6-d1f17ea96581/mzaf_5781665682777972353.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ab/56/21/ab562169-8264-160c-f273-cd9f2068e63e/14DMGIM05021.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1442575556",
+   "tytulZrodla": "Wspaniały Świat (From \"Aladyn\")",
+   "wykonawcaZrodla": "Kasia Skrzynecka & Pawel Tucholski"
+  },
+  "robin-williams--friend-like-me": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dc/f0/79/dcf0799a-1089-494f-9335-7e9fd714888a/mzaf_17109716631619383808.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/28/ea/9a/28ea9a5c-a08a-6696-9265-5ccf2dc00d61/22UMGIM94890.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1645125139",
+   "tytulZrodla": "Friend Like Me",
+   "wykonawcaZrodla": "Robin Williams"
+  },
+  "robin-williams--prince-ali": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/78/55/cb/7855cbc4-17c0-ce8e-0a47-ccb60b08774b/mzaf_11521337879277128802.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/28/ea/9a/28ea9a5c-a08a-6696-9265-5ccf2dc00d61/22UMGIM94890.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1645125148",
+   "tytulZrodla": "Prince Ali",
+   "wykonawcaZrodla": "Robin Williams"
+  },
+  "jason-weaver--i-just-can-t-wait-to-be-king": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b3/33/01/b33301ce-06cf-87c9-e31f-1325c2b4956d/mzaf_12192518085259490821.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5a/75/1d/5a751de4-30c4-0433-4fa9-ee6a4e9d5f57/16DMGIM07634.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1442812968",
+   "tytulZrodla": "I Just Can't Wait To Be King",
+   "wykonawcaZrodla": "Jason Weaver, Rowan Atkinson & Laura Williams"
+  },
+  "edyta-gorniak--kolorowy-wiatr": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/01/42/0a/01420a82-1aae-cd0d-0beb-f9db9010b30f/mzaf_7192882797571583026.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/db/a0/dc/dba0dc62-feea-34d6-3808-0331168d080a/13UABIM54375.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "723441246",
+   "tytulZrodla": "Kolorowy Wiatr",
+   "wykonawcaZrodla": "Edyta Gorniak"
+  },
+  "judy-kuhn--just-around-the-riverbend": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2b/1f/1c/2b1f1cb9-558e-1146-df3a-0418dd31c7bc/mzaf_10595729833013002615.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/1f/93/1d1f93be-f6d3-1793-266f-904af82a51b7/12DMGIM03353.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1443798935",
+   "tytulZrodla": "Just Around the Riverbend",
+   "wykonawcaZrodla": "Judy Kuhn"
+  },
+  "michael-bolton--go-the-distance": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d4/cc/6d/d4cc6d94-8be3-e7d5-9589-87863b9c821a/mzaf_3534886255925637399.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5e/b9/a1/5eb9a11d-06f1-3ef5-a878-e93612740e5f/dj.vltzojvv.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "190470528",
+   "tytulZrodla": "Go the Distance",
+   "wykonawcaZrodla": "Michael Bolton"
+  },
+  "christina-aguilera--reflection": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b2/cd/89/b2cd8969-9f29-dcff-4e19-335b6992f336/mzaf_7918093206930430988.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a2/8d/7c/a28d7cf3-b9a3-9232-0414-771ead69a46c/06PNDIM00133.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1440663045",
+   "tytulZrodla": "Reflection",
+   "wykonawcaZrodla": "Christina Aguilera"
+  },
+  "donny-osmond--i-ll-make-a-man-out-of-you": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/36/68/0f36686c-5e20-6fa3-86d8-0aa19a1a8025/mzaf_12152013571508836328.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a2/8d/7c/a28d7cf3-b9a3-9232-0414-771ead69a46c/06PNDIM00133.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1440662805",
+   "tytulZrodla": "I'll Make a Man Out of You",
+   "wykonawcaZrodla": "Donny Osmond"
+  },
+  "toby-keith--american-soldier": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2b/ab/d5/2babd5ba-6679-6df5-9c5d-48f9281a48ce/mzaf_1810009267621299186.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e8/1b/44/e81b44cc-9a2f-9960-1a99-e6eb4389a113/08UMGIM03456.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1452802596",
+   "tytulZrodla": "American Soldier",
+   "wykonawcaZrodla": "Toby Keith"
+  },
+  "tim-mcgraw--live-like-you-were-dying": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3b/7a/7c/3b7a7c91-8434-5947-73da-6994568405a5/mzaf_11917475819748655360.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/82/33/d38233dc-8802-dc40-65af-c54419ef4b86/715187889125.png/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "129642110",
+   "tytulZrodla": "Live Like You Were Dying",
+   "wykonawcaZrodla": "Tim McGraw"
+  },
+  "carrie-underwood--jesus-take-the-wheel": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d0/77/ce/d077ce49-b1fe-45f0-f256-14a2f7315ddb/mzaf_3720450029775279610.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e7/14/80/e714805d-8aff-9e66-b25f-c75e5683a130/mzi.omppwbeg.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "214695747",
+   "tytulZrodla": "Jesus, Take the Wheel",
+   "wykonawcaZrodla": "Carrie Underwood"
+  },
+  "carrie-underwood--before-he-cheats": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0d/f9/89/0df98967-9b3b-0c52-66ba-d4934e546868/mzaf_1648549687321884445.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e7/14/80/e714805d-8aff-9e66-b25f-c75e5683a130/mzi.omppwbeg.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "214696369",
+   "tytulZrodla": "Before He Cheats",
+   "wykonawcaZrodla": "Carrie Underwood"
+  },
+  "zac-brown-band--chicken-fried": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7e/63/ed/7e63ed23-fb18-323c-2234-561a8f6077b7/mzaf_9919085947004125822.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c8/12/38/c8123827-453b-b1e3-b568-f3c8d506065e/075679987525.png/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1585172570",
+   "tytulZrodla": "Chicken Fried",
+   "wykonawcaZrodla": "Zac Brown Band"
+  },
+  "amy-adams--that-s-how-you-know": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/38/fd/2b/38fd2b3b-4199-a1cb-5ef5-49bacca24b24/mzaf_16575858789041017408.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/da/2f/81/da2f8113-7ed7-5a7d-cbfa-813d495b0046/07PNDIM00704.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1452871166",
+   "tytulZrodla": "That's How You Know",
+   "wykonawcaZrodla": "Amy Adams"
+  },
+  "anika-noni-rose--almost-there": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f6/5c/83/f65c83f4-8413-2130-ff0a-fd4189d9bc95/mzaf_3651942087661039941.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/01/24/5a/01245a71-c4a6-f242-b79c-75ce01127858/09DMGIM00059.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1443995765",
+   "tytulZrodla": "Almost There",
+   "wykonawcaZrodla": "Anika Noni Rose"
+  },
+  "ja-rule-feat-vita-and-o-1--furious": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/d8/15/18d8159d-740a-3698-c61b-7e8369cc1139/mzaf_11544913929012317563.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/b7/71/27/b77127f5-5384-96da-1060-9c3a07ee0ae3/06UMGIM01313.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1434544038",
+   "tytulZrodla": "Furious (feat. 01 & Vita)",
+   "wykonawcaZrodla": "Ja Rule"
+  },
+  "ludacris--act-a-fool": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/f1/98/19f19857-5b2d-45df-c8bc-80cd315e2c4a/mzaf_9880894262639255192.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cb/20/17/cb2017fe-d4a0-3e0a-fb1b-a481140ab119/06UMGIM09881.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1434544474",
+   "tytulZrodla": "Act a Fool",
+   "wykonawcaZrodla": "Ludacris"
+  },
+  "teriyaki-boyz--tokyo-drift-fast-and-furious": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/33/3d/20/333d2041-b73d-77f3-1c9f-5eb54205db5a/mzaf_17625346251960269797.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/24/bf/b2/24bfb261-e33d-7b7b-5765-d70753af65dd/06UMGIM25073.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1434529339",
+   "tytulZrodla": "Tokyo Drift (Fast & Furious) [From \"The Fast And The Furious: Tokyo Drift\" Soundtrack]",
+   "wykonawcaZrodla": "Teriyaki Boyz"
+  },
+  "edward-sharpe-and-the-magnetic-zeros--home": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1c/cc/31/1ccc316c-5583-eb2e-5129-a75242198306/mzaf_6746131601780773050.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/b2/a3/77/b2a377cb-1dd9-be0c-f5a5-71ae077ad2a1/05099963522853.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "716436758",
+   "tytulZrodla": "Home",
+   "wykonawcaZrodla": "Edward Sharpe & The Magnetic Zeros"
+  },
+  "florida-georgia-line--cruise": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/66/83/7e/66837e74-2823-8c1f-58f0-7aefea7839dd/mzaf_11564261909669543435.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/18/37/69/18376949-c4f9-18bd-0adf-7a473df55a7b/12UMGIM58533.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1440812204",
+   "tytulZrodla": "Cruise",
+   "wykonawcaZrodla": "Florida Georgia Line"
+  },
+  "chris-stapleton--tennessee-whiskey": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e3/7e/a3/e37ea341-37f0-9dcb-4d6a-e3f0a2c1ae26/mzaf_2775390428315622059.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/4b/60/e24b6016-8278-bb18-cf5d-d44bf68371da/00602547223838.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1440827492",
+   "tytulZrodla": "Tennessee Whiskey",
+   "wykonawcaZrodla": "Chris Stapleton"
+  },
+  "thomas-rhett--die-a-happy-man": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6f/80/ba/6f80ba33-2371-b138-f8be-947dcd81c3fc/mzaf_11382613734685635407.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b7/f9/e4/b7f9e48c-8e9d-8385-6680-26b9f2319204/15UMDIM00481.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1440934778",
+   "tytulZrodla": "Die a Happy Man",
+   "wykonawcaZrodla": "Thomas Rhett"
+  },
+  "tim-mcgraw--humble-and-kind": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9e/5b/e6/9e5be672-b561-c70d-4e4b-10565d16d75f/mzaf_3860458567688574386.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/99/cf/36/99cf3689-4166-7824-bb76-ccf030cc8d86/20BMR0001604.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1538094483",
+   "tytulZrodla": "Humble and Kind",
+   "wykonawcaZrodla": "Tim McGraw"
+  },
+  "bebe-rexha-and-florida-georgia-line--meant-to-be": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fc/03/cf/fc03cf1d-a302-341f-d5d5-38211d6f032d/mzaf_6396742547607138168.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4a/3b/65/4a3b65ee-a5c6-51e1-8476-e6501a98efa5/093624910763.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1251713725",
+   "tytulZrodla": "Meant to Be",
+   "wykonawcaZrodla": "Bebe Rexha & Florida Georgia Line"
+  },
+  "sam-hunt--body-like-a-back-road": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f9/1a/bf/f91abf27-bc0e-5d69-4c7d-a51e8113a367/mzaf_16756355287065047222.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a0/08/19/a00819ba-c2a2-f071-d3e1-c50ed53b4a21/20UMGIM07555.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1497391092",
+   "tytulZrodla": "Body Like a Back Road",
+   "wykonawcaZrodla": "Sam Hunt"
+  },
+  "mandy-moore--when-will-my-life-begin": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c0/02/fb/c002fbee-1167-9e4e-3025-5672ceebaf2a/mzaf_10665649192099727089.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/19/6b/26/196b26f1-375f-4272-d5e3-6d8c1d3b64d9/18UMGIM48431.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1436800958",
+   "tytulZrodla": "When Will My Life Begin?",
+   "wykonawcaZrodla": "Mandy Moore"
+  },
+  "mandy-moore-and-zachary-levi--i-see-the-light": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ee/07/75/ee077563-dbac-c760-c0cd-1edaa125962d/mzaf_554142050354887969.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c3/23/ae/c323aed2-ce1d-4081-52dc-a7d04c8d38dd/11DMGIM02810.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1442969880",
+   "tytulZrodla": "I See the Light",
+   "wykonawcaZrodla": "Mandy Moore & Zachary Levi"
+  },
+  "katarzyna-laska--mam-te-moc": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/78/60/ed/7860ed03-1703-b831-ea4c-93f5fd978b62/mzaf_15665337977113241261.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d3/a6/8d/d3a68dd9-9298-58aa-c1bf-16c84d597fb5/20UMGIM82927.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1537464429",
+   "tytulZrodla": "Mam Tę Moc (z filmu „Kraina lodu”)",
+   "wykonawcaZrodla": "Katarzyna Laska"
+  },
+  "weronika-bochat--pol-kroku-stad": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/91/d3/44/91d34495-bc1b-b5a3-574e-94b458c488e9/mzaf_4740043253538560814.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/11/d8/0e/11d80eb2-b272-322b-064c-9165ba94b2ae/26UMGIM49177.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "6762977580",
+   "tytulZrodla": "Pół kroku stąd (z filmu \"Vaiana - Skarb Oceanu\"/Ścieżka dźwiękowa polskiej wersji)",
+   "wykonawcaZrodla": "Weronika Bochat"
+  },
+  "idina-menzel-and-evan-rachel-wood--show-yourself": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d2/9e/56/d29e5604-f966-2bc3-0fd5-a2916d799645/mzaf_3842927868942773290.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/66/cf/70/66cf7012-98ed-b201-21ed-b1ee0e9ad26f/19UM1IM00155.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1487738499",
+   "tytulZrodla": "Show Yourself",
+   "wykonawcaZrodla": "Idina Menzel & Evan Rachel Wood"
+  },
+  "katarzyna-laska--chce-uwierzyc-snom": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/02/15/d7/0215d734-28b8-6588-64ec-b3155b7df500/mzaf_9148607378905827960.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ac/75/95/ac759555-62dc-baac-1937-11b9c302faa0/19UM1IM02293.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1488408942",
+   "tytulZrodla": "Chcę Uwierzyć Snom",
+   "wykonawcaZrodla": "Katarzyna Laska & AURORA"
+  },
+  "don-omar-feat-busta-rhymes-reek-da-villian-and-j-doe--how-we-roll-fast-five-remix": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/59/e2/50/59e25082-3952-836c-6773-3e34ae07ee3d/mzaf_3839007397214095658.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9d/de/92/9dde92c3-5b15-2c2f-0964-a1b4cda36e50/11ABKIM00016.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1440781219",
+   "tytulZrodla": "How We Roll (Fast Five Remix)",
+   "wykonawcaZrodla": "Don Omar, J-Doe, Busta Rhymes & Reek Da Villian"
+  },
+  "don-omar-feat-lucenzo--danza-kuduro": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/ee/06/19ee06be-a55b-39f2-c367-ffb0b577bc42/mzaf_864096193827270374.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/be/9d/22/be9d22c2-99b2-9e26-11dd-d1a043779b8d/10UMGIM27798.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1440636498",
+   "tytulZrodla": "Danza Kuduro (feat. Lucenzo)",
+   "wykonawcaZrodla": "Don Omar"
+  },
+  "ludacris-feat-usher-and-david-guetta--rest-of-my-life": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/97/8c/75/978c75e1-ddb7-2181-953a-a26c57cf244b/mzaf_8997112724237821026.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3f/be/ec/3fbeec65-4c5d-a4a2-ca4d-9da7d46b6df2/00602537223954.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1445301340",
+   "tytulZrodla": "Rest of My Life (feat. Usher & David Guetta)",
+   "wykonawcaZrodla": "Ludacris"
+  },
+  "pitbull-and-j-balvin-feat-camila-cabello--hey-ma": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/50/94/e3/5094e33a-431f-de59-398e-c258ea40cb45/mzaf_13864113941485120562.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ba/77/22/ba772286-cdd8-8925-aa93-784db1836d7b/075679900111.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1210538484",
+   "tytulZrodla": "Hey Ma (feat. Camila Cabello)",
+   "wykonawcaZrodla": "J Balvin & Pitbull"
+  },
+  "morgan-wallen--wasted-on-you": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/4b/26/184b2625-2be8-e79a-035f-d10ecec1f657/mzaf_9980193967122904947.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/54/3a/37/543a372b-ae7b-cca9-2a2b-16c5a6650d15/00602435458939_Cover.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1818409987",
+   "tytulZrodla": "Wasted On You",
+   "wykonawcaZrodla": "Morgan Wallen"
+  },
+  "morgan-wallen--you-proof": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b2/43/ad/b243ad52-3731-0872-b6ea-094be4f18cd4/mzaf_5882602874125492099.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/82/eb/b3/82ebb3c6-2bd4-31fd-0eb9-57667f3590e1/00602455239419_Cover.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1818425037",
+   "tytulZrodla": "You Proof",
+   "wykonawcaZrodla": "Morgan Wallen"
+  },
+  "walker-hayes--fancy-like": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b0/ba/7f/b0ba7f67-0a0c-9559-b921-d1d8b6f61189/mzaf_14690450010948312920.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7d/66/4c/7d664ceb-ae82-0645-4996-daf2f543e7b3/886449714209.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1595928077",
+   "tytulZrodla": "Fancy Like",
+   "wykonawcaZrodla": "Walker Hayes"
+  },
+  "morgan-wallen--last-night": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/35/80/6e/35806e18-1004-87f4-2657-c60a081278c6/mzaf_6990300031180670770.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/db/9f/8e/db9f8e0c-d947-b7fd-cc93-a832c81ce4ee/00602455241252_Cover.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1818408858",
+   "tytulZrodla": "Last Night",
+   "wykonawcaZrodla": "Morgan Wallen"
   }
  },
  "braki": [
@@ -11115,6 +11675,7 @@
   "Bajm — Chłopcy",
   "bambi & Young Leosia — Przester",
   "Bayer Full — Dziewczyny lubią brąz",
+  "Beata Jankowska-Tzimas — Naprawdę chcę",
   "Bedoes — Tiktak",
   "Big Cyc — Świnie",
   "Blue Café — Nasze rendez-vous",
@@ -11126,6 +11687,7 @@
   "Czerwone Gitary — Bądź gotowy dziś do drogi",
   "Dawid Podsiadło — Wiśnie",
   "De Mono — Zostawcie Titanica",
+  "Don Toliver, Lil Durk & Latto — Fast Lane",
   "Edyta Bartosiewicz — Ja to ja",
   "Emiliana Torrini — The Gollum Song",
   "Enej — Ostatni dzień tej zimy",
@@ -11184,9 +11746,11 @@
   "Toples — Ratujmy miłość",
   "Travis Scott feat. Playboi Carti — Fein",
   "TSA — Nie ma jak pompa",
+  "Ty Dolla $ign, Jack Harlow & 24kGoldn — I Won",
   "Video — Bezsenność",
   "Video — Nieprawda",
   "Wanda i Banda — Bo tutaj jest jak jest",
+  "YoungBoy Never Broke Again, Dermot Kennedy & Bailey Zimmerman — Won't Back Down",
   "Zeamsson — 5 INFLUENCEREK",
   "Żabson — Nike Air"
  ]

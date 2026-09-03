@@ -68,7 +68,10 @@ const linia = (u) => {
     `gatunek: '${u.gatunek}'`,
   ];
   if (u.gatunek === 'polskie' && u.styl) czesci.push(`styl: '${u.styl}'`);
-  if (u.gatunek === 'filmowa' && u.film) czesci.push(`film: ${apostrof(u.film)}`);
+  // Film to nie tylko mechanika zgadywania (gatunek 'filmowa') — bywa też
+  // samym znacznikiem na odsłonie przy innych gatunkach (np. 'furious'),
+  // patrz rysujZnacznikiUtworu w prowadzacy.js/gracz.js.
+  if (u.film) czesci.push(`film: ${apostrof(u.film)}`);
   return `  { ${czesci.join(', ')} },`;
 };
 
