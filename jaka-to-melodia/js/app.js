@@ -23,6 +23,7 @@ przelacznikMotywu?.addEventListener('click', () => {
 let prowadzacyWczytany = null;
 let graczWczytany = null;
 let wyzwanieWczytane = null;
+let turniejWczytany = null;
 
 async function wejdzJakoProwadzacy() {
   prowadzacyWczytany ??= import('./prowadzacy.js').then((m) => m.uruchom());
@@ -40,9 +41,15 @@ async function wejdzWyzwanie() {
   return wyzwanieWczytane;
 }
 
+async function wejdzTurniej() {
+  turniejWczytany ??= import('./turniej.js').then((m) => m.uruchom());
+  return turniejWczytany;
+}
+
 $('#rola-prowadzacy')?.addEventListener('click', () => { location.hash = '#/prowadze'; });
 $('#rola-gracz')?.addEventListener('click', () => { location.hash = '#/dolacz'; });
 $('#rola-wyzwanie')?.addEventListener('click', () => { location.hash = '#/wyzwanie'; });
+$('#rola-turniej')?.addEventListener('click', () => { location.hash = '#/turniej'; });
 
 /* --- adresy ---
    Kod QR prowadzi pod #/dolacz/KOD/NUMER-BROKERA, więc telefon gościa od razu
@@ -64,6 +71,13 @@ async function obsluzAdres() {
     const wyzwanie = await wejdzWyzwanie();
     if (sciezka[1]) await wyzwanie.pokazDolacz(sciezka[1]);
     else await wyzwanie.pokazNowe();
+    return;
+  }
+  if (sciezka[0] === 'turniej') {
+    const turniej = await wejdzTurniej();
+    if (sciezka[1] === 'tablica') await turniej.pokazRanking();
+    else if (sciezka[1]) await turniej.pokazDolacz(sciezka[1]);
+    else await turniej.pokazNowe();
     return;
   }
   pokazEkran('start');

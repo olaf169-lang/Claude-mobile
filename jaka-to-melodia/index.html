@@ -84,6 +84,13 @@
         <small>graj solo, wyślij wynik znajomym</small>
       </span>
     </button>
+    <button class="klawisz duzy turniej-start" id="rola-turniej" type="button">
+      <span class="klawisz-emoji turniej-puchar" aria-hidden="true">🏆<span class="turniej-plakietka">5</span></span>
+      <span class="klawisz-tresc">
+        <strong>Turniej Piąteczki</strong>
+        <small>pojedynek 1v1, wyzwij znajomego</small>
+      </span>
+    </button>
   </div>
   <details class="pomoc">
     <summary>Jak to działa?</summary>
@@ -532,6 +539,168 @@
 
   <div class="stopka-ekranu">
     <a class="klawisz" href="#/">Zakończ</a>
+  </div>
+</section>
+
+<!-- ===================== TURNIEJ — NOWY POJEDYNEK =================== -->
+<section data-ekran="turniej-nowe" class="ekran" hidden>
+  <h2 class="tytul-ekranu">Turniej Piąteczki</h2>
+  <p class="opis">
+    Pięć rund po pięć piosenek, 1 na 1. Ty wybierasz temat rund 1, 2 i 4,
+    przeciwnik — 3 i 5. Grasz swoją część, wysyłasz link, przeciwnik dogrywa
+    swoją — na koniec porównujecie wyniki na dokładnie tych samych piosenkach.
+  </p>
+
+  <label class="pole">
+    <span>Twoja ksywka</span>
+    <input id="turniej-ksywka" maxlength="24" placeholder="np. Olaf 🎤" required>
+  </label>
+
+  <fieldset class="grupa">
+    <legend>Czas na odpowiedź</legend>
+    <div class="znaczki waskie" id="turniej-wybor-czasu"></div>
+  </fieldset>
+
+  <fieldset class="grupa">
+    <legend>Dodatki</legend>
+    <label class="przelacznik">
+      <input type="checkbox" id="turniej-bonus-serii">
+      <span><strong>Bonus za serię</strong><small>Kolejne trafienia z rzędu dają do +50 punktów.</small></span>
+    </label>
+  </fieldset>
+
+  <p class="drobne">Temat każdej rundy wybierasz tuż przed jej rozegraniem — dowolnie, z całego katalogu.</p>
+
+  <div class="stopka-ekranu">
+    <button class="klawisz" id="turniej-wroc" type="button">Wstecz</button>
+    <a class="klawisz" href="#/turniej/tablica">Tablica wyników</a>
+    <button class="klawisz glowny" id="turniej-zacznij" type="button">Zaczynamy</button>
+  </div>
+</section>
+
+<!-- =================== TURNIEJ — PRZYGOTOWANIE ======================= -->
+<section data-ekran="turniej-tworzenie" class="ekran srodek" hidden>
+  <div class="puls" aria-hidden="true">♪</div>
+  <p class="opis" id="turniej-tworzenie-opis">Chwileczkę…</p>
+</section>
+
+<!-- ===================== TURNIEJ — JESZCZE NIE ======================= -->
+<section data-ekran="turniej-jeszcze" class="ekran srodek" hidden>
+  <h2 class="tytul-ekranu">Jeszcze chwila</h2>
+  <p class="opis" id="turniej-jeszcze-opis"></p>
+  <button class="klawisz glowny" id="turniej-jeszcze-sprawdz" type="button">Sprawdź teraz</button>
+</section>
+
+<!-- ======================= TURNIEJ — DOŁĄCZ ========================== -->
+<section data-ekran="turniej-dolacz" class="ekran srodek" hidden>
+  <h2 class="tytul-ekranu" id="turniej-dolacz-tytul">Ktoś Cię wyzwał!</h2>
+  <p class="opis">Zagrasz na dokładnie tych samych piosenkach, na których swoją część już rozegrał przeciwnik.</p>
+  <label class="pole">
+    <span>Twoja ksywka</span>
+    <input id="turniej-dolacz-ksywka" maxlength="24" placeholder="np. Bartek 🎧" required>
+  </label>
+  <button class="klawisz glowny duzy" id="turniej-przyjmij" type="button">Przyjmuję wyzwanie</button>
+</section>
+
+<!-- ======================== TURNIEJ — CZEKAJ ========================= -->
+<section data-ekran="turniej-czekaj" class="ekran srodek" hidden>
+  <h2 class="tytul-ekranu">Czekamy</h2>
+  <p class="opis" id="turniej-czekaj-opis"></p>
+  <div class="karta-kodu" id="turniej-czekaj-karta">
+    <div class="qr" id="turniej-czekaj-qr"></div>
+    <div class="kod-obok">
+      <p class="drobne">Wyślij ten link przeciwnikowi</p>
+      <button class="klawisz glowny" id="turniej-czekaj-udostepnij" type="button">Udostępnij link</button>
+    </div>
+  </div>
+  <button class="klawisz" id="turniej-czekaj-sprawdz" type="button">Sprawdź teraz</button>
+</section>
+
+<!-- ================== TURNIEJ — WYBÓR TEMATU RUNDY =================== -->
+<section data-ekran="turniej-wybor-tematu" class="ekran" hidden>
+  <h2 class="tytul-ekranu" id="turniej-numer-rundy-tematu">Runda 1/5</h2>
+  <p class="opis">Wybierz temat tej rundy — dowolnie, z całego katalogu.</p>
+  <fieldset class="grupa">
+    <legend>Kategorie</legend>
+    <div class="znaczki" id="turniej-wybor-kategorii"></div>
+  </fieldset>
+  <fieldset class="grupa">
+    <legend>Dekady</legend>
+    <div class="znaczki" id="turniej-wybor-dekad"></div>
+  </fieldset>
+  <p class="licznik-puli" id="turniej-licznik-tematu"></p>
+  <div class="stopka-ekranu">
+    <button class="klawisz glowny" id="turniej-zacznij-runde" type="button">Zaczynamy rundę</button>
+  </div>
+</section>
+
+<!-- ========================= TURNIEJ — RUNDA ========================= -->
+<section data-ekran="turniej-runda" class="ekran ekran-gry" hidden>
+  <div class="pasek-rundy">
+    <span class="numer-rundy" id="turniej-numer-rundy"></span>
+  </div>
+  <div class="zegar">
+    <svg viewBox="0 0 120 120" aria-hidden="true">
+      <circle class="zegar-tlo" cx="60" cy="60" r="52"></circle>
+      <circle class="zegar-wskaz" id="turniej-zegar-wskaz" cx="60" cy="60" r="52"></circle>
+    </svg>
+    <span class="zegar-liczba" id="turniej-zegar-liczba"></span>
+  </div>
+  <h2 class="pytanie" id="turniej-pytanie"></h2>
+  <div class="odpowiedzi" id="turniej-odpowiedzi"></div>
+</section>
+
+<!-- ======================== TURNIEJ — ODSŁONA ======================== -->
+<section data-ekran="turniej-odslona" class="ekran" hidden>
+  <div class="werdykt maly" id="turniej-werdykt" hidden></div>
+  <div class="odsloniete">
+    <img class="okladka" id="turniej-okladka" alt="" hidden>
+    <div class="odsloniete-tresc">
+      <p class="etykieta">Prawidłowa odpowiedź</p>
+      <h2 class="odsloniety-tytul" id="turniej-odsloniety-tytul"></h2>
+      <p class="odsloniety-wykonawca" id="turniej-odsloniety-wykonawca"></p>
+      <p class="znaczniki-utworu" id="turniej-znaczniki-utworu"></p>
+    </div>
+  </div>
+  <div class="stopka-ekranu przyklejona">
+    <button class="klawisz glowny" id="turniej-dalej" type="button">Następna piosenka</button>
+  </div>
+</section>
+
+<!-- ========================= TURNIEJ — WYNIK ========================= -->
+<section data-ekran="turniej-wynik" class="ekran srodek" hidden>
+  <div class="werdykt" id="turniej-wynik-werdykt"></div>
+  <h2 class="tytul-ekranu" id="turniej-wynik-opis"></h2>
+  <p class="opis" id="turniej-moj-wynik"></p>
+  <ol class="ranking pelny" id="turniej-rozbicie-rund"></ol>
+  <div class="turniej-akcje-koncowe" id="turniej-wynik-akcje"></div>
+  <div class="stopka-ekranu">
+    <a class="klawisz" href="#/turniej/tablica">Tablica wyników</a>
+    <a class="klawisz" href="#/">Zakończ</a>
+  </div>
+</section>
+
+<!-- ======================== TURNIEJ — TABLICA ======================== -->
+<section data-ekran="turniej-ranking" class="ekran" hidden>
+  <h2 class="tytul-ekranu">Turniej Piąteczki — tablica wyników</h2>
+  <div class="podium animowane" id="turniej-podium" hidden></div>
+  <ol class="ranking pelny" id="turniej-tablica-wynikow"></ol>
+
+  <details class="pomoc">
+    <summary>Panel administratora</summary>
+    <label class="pole">
+      <span>Kod administratora</span>
+      <input id="turniej-admin-kod" type="password" autocomplete="off" placeholder="••••••••">
+    </label>
+    <button class="klawisz" id="turniej-admin-odblokuj" type="button">Odblokuj</button>
+    <div id="turniej-admin-narzedzia" hidden>
+      <p class="drobne">Odblokowano. Przy każdej ksywce w tablicy pojawił się przycisk usuwania.</p>
+      <button class="klawisz" id="turniej-admin-czysc" type="button">Wyczyść całą tablicę</button>
+    </div>
+  </details>
+
+  <div class="stopka-ekranu">
+    <button class="klawisz glowny" id="turniej-ranking-wroc" type="button">Zakończ</button>
   </div>
 </section>
 

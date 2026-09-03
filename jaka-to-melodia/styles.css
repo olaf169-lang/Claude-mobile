@@ -336,7 +336,56 @@ main {
 .klawisz-tresc strong { font-size: 1.1rem; font-weight: 700; }
 .klawisz-tresc small { font-size: .84rem; font-weight: 400; opacity: .78; }
 
+/* Rewanż ma czuć się jak coś innego niż zwykłe "jeszcze raz" — ciemna
+   czerwień zamiast fioletowego gradientu appki, złota obwódka jak
+   rękojeść, sztylet zamiast neutralnej ikony. Celowo się wyróżnia. */
+.klawisz.rewanz {
+  border-color: color-mix(in srgb, var(--bursztyn) 55%, transparent);
+  background: linear-gradient(135deg, #5c0d20, #a3123a 55%, #6e0e28);
+  color: #fff3f0;
+  box-shadow: 0 .5rem 1.4rem color-mix(in srgb, #a3123a 45%, transparent);
+}
+.klawisz.rewanz .klawisz-tresc strong {
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
+.klawisz.rewanz .klawisz-tresc small { opacity: .88; font-style: italic; }
+
+.turniej-akcje-koncowe {
+  display: grid;
+  gap: .6rem;
+  width: 100%;
+  margin-top: 1.6rem;
+}
+
 .wybor-roli { display: grid; gap: .7rem; margin-bottom: 1.6rem; }
+
+/* Turniej Piąteczki wyróżnia się na ekranie startowym złotą obwódką
+   i lekką poświatą — to jedyny tryb "na punkty w czasie", więc ma wyglądać
+   jak coś, do czego się wraca, nie jak zwykła gra jednorazowa. */
+.klawisz.turniej-start {
+  border-color: color-mix(in srgb, var(--bursztyn) 60%, transparent);
+  background: linear-gradient(135deg, var(--plyta), color-mix(in srgb, var(--bursztyn) 14%, var(--plyta)));
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--bursztyn) 25%, transparent) inset;
+}
+.turniej-puchar { position: relative; }
+.turniej-plakietka {
+  position: absolute;
+  right: -.4rem;
+  bottom: -.3rem;
+  min-width: 1.15rem;
+  height: 1.15rem;
+  padding: 0 .2rem;
+  border-radius: 999px;
+  border: 2px solid var(--tlo);
+  background: var(--bursztyn);
+  color: #2b1600;
+  font-family: var(--naglowkowy);
+  font-size: .68rem;
+  font-weight: 800;
+  line-height: 1.05rem;
+  text-align: center;
+}
 
 /* Podpowiedź nie ma dyndać w połowie wysokiego ekranu. */
 [data-ekran="start"] .pomoc { margin-top: auto; }
