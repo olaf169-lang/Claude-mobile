@@ -346,6 +346,32 @@ tytuł albo wykonawcę (to, co ułożył silnik), że cztery odpowiedzi to nazwy
 filmów, a odsłona stawia film na pierwszym planie z tytułem i wykonawcą jako
 podpisem.
 
+### Powiadomienia push — jednorazowe włączenie
+
+Przyciski instalacji (⬇️) i powiadomień (🔔) obok przełącznika motywu działają
+od razu — appka da się doinstalować na telefonie i poprosi o zgodę na
+powiadomienia. Żeby powiadomienia faktycznie zaczęły przychodzić („Twoja
+kolej”, wynik pojedynku, podsumowanie tygodnia), trzeba raz, ręcznie,
+z własnego komputera:
+
+1. W [konsoli Firebase](https://console.firebase.google.com/) → projekt
+   `jaka-to-piosenka-8ca81` → ⚙️ Ustawienia projektu → zakładka **Cloud
+   Messaging** → sekcja „Certyfikaty push w internecie” → **Generuj parę
+   kluczy**. Skopiowany klucz wklej do `KLUCZ_VAPID` w
+   `jaka-to-melodia/js/powiadomienia.js`.
+2. Tamże w konsoli: ikonka trybu rozliczeniowego → przełącz projekt na plan
+   **Blaze** (pay-as-you-go — sam plan nic nie kosztuje, płaci się dopiero po
+   przekroczeniu darmowego limitu, do którego przy grze znajomych nigdy nie
+   dojdzie). Bez tego Cloud Functions w ogóle się nie wdrożą.
+3. `npm install -g firebase-tools` (jeśli jeszcze nie masz), potem
+   `firebase login`.
+4. `cd jaka-to-melodia && firebase deploy --only functions,firestore:rules`
+
+Od tego momentu ruch w Turnieju Piąteczki sam wysyła powiadomienia — appka
+(punkty 1 i wklejony klucz) już na to czeka, reszta dzieje się po stronie
+Firebase. Do czasu wdrożenia appka działa normalnie, dzwonek po prostu nie ma
+komu nic wysłać.
+
 ## Gdy coś nie działa
 
 **„Nie ma takiego pokoju”** — prowadzący musi mieć otwarte lobby. Sprawdź też, czy
