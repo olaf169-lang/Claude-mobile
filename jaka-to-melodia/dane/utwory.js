@@ -209,6 +209,15 @@ export const UTWORY = [
   { tytul: 'Takie ładne oczy', wykonawca: 'Czerwone Gitary', rok: 1969, gatunek: 'polskie', styl: 'rock' },
   { tytul: 'Prześliczna wiolonczelistka', wykonawca: 'Skaldowie', rok: 1969, gatunek: 'polskie', styl: 'rock' },
   { tytul: 'Znamy się tylko z widzenia', wykonawca: 'Trubadurzy', rok: 1969, gatunek: 'polskie', styl: 'pop' },
+  // --- country & folk (6) ---
+  { tytul: 'Ring of Fire', wykonawca: 'Johnny Cash', rok: 1963, gatunek: 'country' },
+  { tytul: 'Mr. Tambourine Man', wykonawca: 'Bob Dylan', rok: 1965, gatunek: 'country' },
+  { tytul: 'Harper Valley PTA', wykonawca: 'Jeannie C. Riley', rok: 1968, gatunek: 'country' },
+  { tytul: 'Stand by Your Man', wykonawca: 'Tammy Wynette', rok: 1968, gatunek: 'country' },
+  { tytul: 'Okie from Muskogee', wykonawca: 'Merle Haggard', rok: 1969, gatunek: 'country' },
+  { tytul: 'The Night They Drove Old Dixie Down', wykonawca: 'The Band', rok: 1969, gatunek: 'country' },
+  // --- disney (1) ---
+  { tytul: 'Cruella De Vil', wykonawca: 'Bill Lee', rok: 1961, gatunek: 'disney' },
 
   // ======================= LATA 70. =======================
   // --- pop (35) ---
@@ -397,6 +406,15 @@ export const UTWORY = [
   { tytul: 'Wyspa dzieci', wykonawca: '2 plus 1', rok: 1979, gatunek: 'polskie', styl: 'pop' },
   { tytul: 'Za duży, za mały', wykonawca: 'Andrzej Rosiewicz', rok: 1979, gatunek: 'polskie', styl: 'pop' },
   { tytul: 'Uciekaj moje serce', wykonawca: 'Seweryn Krajewski', rok: 1979, gatunek: 'polskie', styl: 'pop' },
+  // --- country & folk (8) ---
+  { tytul: 'Big Yellow Taxi', wykonawca: 'Joni Mitchell', rok: 1970, gatunek: 'country' },
+  { tytul: "Coal Miner's Daughter", wykonawca: 'Loretta Lynn', rok: 1970, gatunek: 'country' },
+  { tytul: 'The Boxer', wykonawca: 'Simon & Garfunkel', rok: 1970, gatunek: 'country' },
+  { tytul: 'Take Me Home, Country Roads', wykonawca: 'John Denver', rok: 1971, gatunek: 'country' },
+  { tytul: 'Rocky Mountain High', wykonawca: 'John Denver', rok: 1972, gatunek: 'country' },
+  { tytul: 'Jolene', wykonawca: 'Dolly Parton', rok: 1973, gatunek: 'country' },
+  { tytul: 'Rhinestone Cowboy', wykonawca: 'Glen Campbell', rok: 1975, gatunek: 'country' },
+  { tytul: 'The Gambler', wykonawca: 'Kenny Rogers', rok: 1978, gatunek: 'country' },
 
   // ======================= LATA 80. =======================
   // --- pop (38) ---
@@ -662,6 +680,12 @@ export const UTWORY = [
   { tytul: 'Polska', wykonawca: 'Kult', rok: 1988, gatunek: 'polskie', styl: 'rock' },
   { tytul: 'Nocny patrol', wykonawca: 'Kult', rok: 1989, gatunek: 'polskie', styl: 'rock' },
   { tytul: 'Sen o Warszawie', wykonawca: 'Lady Pank', rok: 1989, gatunek: 'polskie', styl: 'rock' },
+  // --- country & folk (5) ---
+  { tytul: '9 to 5', wykonawca: 'Dolly Parton', rok: 1980, gatunek: 'country' },
+  { tytul: 'On the Road Again', wykonawca: 'Willie Nelson', rok: 1980, gatunek: 'country' },
+  { tytul: 'Islands in the Stream', wykonawca: 'Kenny Rogers & Dolly Parton', rok: 1983, gatunek: 'country' },
+  { tytul: 'Forever and Ever, Amen', wykonawca: 'Randy Travis', rok: 1987, gatunek: 'country' },
+  { tytul: 'Fast Car', wykonawca: 'Tracy Chapman', rok: 1988, gatunek: 'country' },
 
   // ======================= LATA 90. =======================
   // --- pop (32) ---
@@ -924,6 +948,28 @@ export const UTWORY = [
   { tytul: 'Dumka na dwa serca', wykonawca: 'Edyta Górniak i Mieczysław Szcześniak', rok: 1999, gatunek: 'polskie', styl: 'pop' },
   { tytul: 'Fantazja', wykonawca: 'Ich Troje', rok: 1999, gatunek: 'polskie', styl: 'pop' },
   { tytul: 'Prawy do lewego', wykonawca: 'Kayah i Bregović', rok: 1999, gatunek: 'polskie', styl: 'pop' },
+  // --- country & folk (10) ---
+  { tytul: 'Friends in Low Places', wykonawca: 'Garth Brooks', rok: 1990, gatunek: 'country' },
+  { tytul: 'The Dance', wykonawca: 'Garth Brooks', rok: 1990, gatunek: 'country' },
+  { tytul: 'Achy Breaky Heart', wykonawca: 'Billy Ray Cyrus', rok: 1992, gatunek: 'country' },
+  { tytul: "Boot Scootin' Boogie", wykonawca: 'Brooks & Dunn', rok: 1992, gatunek: 'country' },
+  { tytul: 'I Cross My Heart', wykonawca: 'George Strait', rok: 1992, gatunek: 'country' },
+  { tytul: 'Chattahoochee', wykonawca: 'Alan Jackson', rok: 1993, gatunek: 'country' },
+  { tytul: 'Independence Day', wykonawca: 'Martina McBride', rok: 1994, gatunek: 'country' },
+  { tytul: 'Blue', wykonawca: 'LeAnn Rimes', rok: 1996, gatunek: 'country' },
+  { tytul: "You're Still the One", wykonawca: 'Shania Twain', rok: 1997, gatunek: 'country' },
+  { tytul: 'Man! I Feel Like a Woman!', wykonawca: 'Shania Twain', rok: 1997, gatunek: 'country' },
+  // --- disney (10) ---
+  { tytul: 'Wspaniały świat', wykonawca: 'Paweł Tucholski & Katarzyna Skrzynecka', rok: 1992, gatunek: 'disney' },
+  { tytul: 'Friend Like Me', wykonawca: 'Robin Williams', rok: 1992, gatunek: 'disney' },
+  { tytul: 'Prince Ali', wykonawca: 'Robin Williams', rok: 1992, gatunek: 'disney' },
+  { tytul: "I Just Can't Wait to Be King", wykonawca: 'Jason Weaver', rok: 1994, gatunek: 'disney' },
+  { tytul: 'Kolorowy Wiatr', wykonawca: 'Edyta Górniak', rok: 1995, gatunek: 'disney' },
+  { tytul: 'Just Around the Riverbend', wykonawca: 'Judy Kuhn', rok: 1995, gatunek: 'disney' },
+  { tytul: 'Go the Distance', wykonawca: 'Michael Bolton', rok: 1997, gatunek: 'disney' },
+  { tytul: 'Naprawdę chcę', wykonawca: 'Beata Jankowska-Tzimas', rok: 1998, gatunek: 'disney' },
+  { tytul: 'Reflection', wykonawca: 'Christina Aguilera', rok: 1998, gatunek: 'disney' },
+  { tytul: "I'll Make a Man Out of You", wykonawca: 'Donny Osmond', rok: 1998, gatunek: 'disney' },
 
   // ======================= LATA 2000. =======================
   // --- pop (36) ---
@@ -1171,6 +1217,19 @@ export const UTWORY = [
   { tytul: 'Pokonaj siebie', wykonawca: 'Feel', rok: 2008, gatunek: 'polskie', styl: 'pop' },
   { tytul: 'Znam ciebie na pamięć', wykonawca: 'Monika Brodka', rok: 2008, gatunek: 'polskie', styl: 'pop' },
   { tytul: 'Nieprawda', wykonawca: 'Video', rok: 2008, gatunek: 'polskie', styl: 'pop' },
+  // --- country & folk (5) ---
+  { tytul: 'American Soldier', wykonawca: 'Toby Keith', rok: 2003, gatunek: 'country' },
+  { tytul: 'Live Like You Were Dying', wykonawca: 'Tim McGraw', rok: 2004, gatunek: 'country' },
+  { tytul: 'Jesus, Take the Wheel', wykonawca: 'Carrie Underwood', rok: 2005, gatunek: 'country' },
+  { tytul: 'Before He Cheats', wykonawca: 'Carrie Underwood', rok: 2006, gatunek: 'country' },
+  { tytul: 'Chicken Fried', wykonawca: 'Zac Brown Band', rok: 2008, gatunek: 'country' },
+  // --- disney (2) ---
+  { tytul: "That's How You Know", wykonawca: 'Amy Adams', rok: 2007, gatunek: 'disney' },
+  { tytul: 'Almost There', wykonawca: 'Anika Noni Rose', rok: 2009, gatunek: 'disney' },
+  // --- szybcy i wściekli (3) ---
+  { tytul: 'Furious', wykonawca: 'Ja Rule feat. Vita & O-1', rok: 2001, gatunek: 'furious', film: 'The Fast and the Furious' },
+  { tytul: 'Act a Fool', wykonawca: 'Ludacris', rok: 2003, gatunek: 'furious', film: '2 Fast 2 Furious' },
+  { tytul: 'Tokyo Drift (Fast & Furious)', wykonawca: 'Teriyaki Boyz', rok: 2006, gatunek: 'furious', film: 'The Fast and the Furious: Tokyo Drift' },
 
   // ======================= LATA 2010. =======================
   // --- pop (39) ---
@@ -1397,6 +1456,26 @@ export const UTWORY = [
   { tytul: 'Autsajder', wykonawca: 'Otsochodzi', rok: 2019, gatunek: 'polskie', styl: 'rap' },
   { tytul: 'Melodia', wykonawca: 'sanah', rok: 2019, gatunek: 'polskie', styl: 'pop' },
   { tytul: 'Nike Air', wykonawca: 'Żabson', rok: 2019, gatunek: 'polskie', styl: 'rap' },
+  // --- country & folk (7) ---
+  { tytul: 'Home', wykonawca: 'Edward Sharpe & the Magnetic Zeros', rok: 2010, gatunek: 'country' },
+  { tytul: 'Cruise', wykonawca: 'Florida Georgia Line', rok: 2012, gatunek: 'country' },
+  { tytul: 'Tennessee Whiskey', wykonawca: 'Chris Stapleton', rok: 2015, gatunek: 'country' },
+  { tytul: 'Die a Happy Man', wykonawca: 'Thomas Rhett', rok: 2015, gatunek: 'country' },
+  { tytul: 'Humble and Kind', wykonawca: 'Tim McGraw', rok: 2016, gatunek: 'country' },
+  { tytul: 'Meant to Be', wykonawca: 'Bebe Rexha & Florida Georgia Line', rok: 2017, gatunek: 'country' },
+  { tytul: 'Body Like a Back Road', wykonawca: 'Sam Hunt', rok: 2017, gatunek: 'country' },
+  // --- disney (6) ---
+  { tytul: 'When Will My Life Begin', wykonawca: 'Mandy Moore', rok: 2010, gatunek: 'disney' },
+  { tytul: 'I See the Light', wykonawca: 'Mandy Moore & Zachary Levi', rok: 2010, gatunek: 'disney' },
+  { tytul: 'Mam tę moc', wykonawca: 'Katarzyna Łaska', rok: 2013, gatunek: 'disney' },
+  { tytul: 'Pół kroku stąd', wykonawca: 'Weronika Bochat', rok: 2016, gatunek: 'disney' },
+  { tytul: 'Show Yourself', wykonawca: 'Idina Menzel & Evan Rachel Wood', rok: 2019, gatunek: 'disney' },
+  { tytul: 'Chcę uwierzyć snom', wykonawca: 'Katarzyna Łaska', rok: 2019, gatunek: 'disney' },
+  // --- szybcy i wściekli (4) ---
+  { tytul: 'How We Roll (Fast Five Remix)', wykonawca: 'Don Omar feat. Busta Rhymes, Reek da Villian & J-Doe', rok: 2011, gatunek: 'furious', film: 'Fast Five' },
+  { tytul: 'Danza Kuduro', wykonawca: 'Don Omar feat. Lucenzo', rok: 2011, gatunek: 'furious', film: 'Fast Five' },
+  { tytul: 'Rest of My Life', wykonawca: 'Ludacris feat. Usher & David Guetta', rok: 2013, gatunek: 'furious', film: 'Fast & Furious 6' },
+  { tytul: 'Hey Ma', wykonawca: 'Pitbull & J Balvin feat. Camila Cabello', rok: 2017, gatunek: 'furious', film: 'The Fate of the Furious' },
 
   // ======================= LATA 2020. =======================
   // --- pop (35) ---
@@ -1551,6 +1630,15 @@ export const UTWORY = [
   { tytul: 'Zabierz mnie stąd', wykonawca: 'Kizo', rok: 2024, gatunek: 'polskie', styl: 'rap' },
   { tytul: '100 BPM', wykonawca: 'Kizo & Bletka', rok: 2024, gatunek: 'polskie', styl: 'rap' },
   { tytul: 'Mój świat', wykonawca: 'sanah', rok: 2024, gatunek: 'polskie', styl: 'pop' },
+  // --- country & folk (4) ---
+  { tytul: 'Wasted on You', wykonawca: 'Morgan Wallen', rok: 2020, gatunek: 'country' },
+  { tytul: 'You Proof', wykonawca: 'Morgan Wallen', rok: 2021, gatunek: 'country' },
+  { tytul: 'Fancy Like', wykonawca: 'Walker Hayes', rok: 2021, gatunek: 'country' },
+  { tytul: 'Last Night', wykonawca: 'Morgan Wallen', rok: 2023, gatunek: 'country' },
+  // --- szybcy i wściekli (3) ---
+  { tytul: 'Fast Lane', wykonawca: 'Don Toliver, Lil Durk & Latto', rok: 2021, gatunek: 'furious', film: 'F9' },
+  { tytul: 'I Won', wykonawca: 'Ty Dolla $ign, Jack Harlow & 24kGoldn', rok: 2021, gatunek: 'furious', film: 'F9' },
+  { tytul: "Won't Back Down", wykonawca: 'YoungBoy Never Broke Again, Dermot Kennedy & Bailey Zimmerman', rok: 2023, gatunek: 'furious', film: 'Fast X' },
 
   // Tu dopisuj świeżynki i to, czego brakuje — jedna linijka na utwór.
 ];

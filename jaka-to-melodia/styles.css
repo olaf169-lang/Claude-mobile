@@ -447,6 +447,16 @@ main {
   background: var(--gradient);
   color: var(--tusz);
 }
+/* Kategorie specjalne (Disney, Fast & Furious, szanty...) mają wąski,
+   konkretny temat zamiast szerokiego gatunku — inny kolor obwódki od razu
+   sygnalizuje "to coś innego", zanim ktoś w ogóle kliknie. */
+.znaczek.specjalna {
+  border-color: color-mix(in srgb, var(--bursztyn) 55%, transparent);
+  color: var(--bursztyn);
+}
+.znaczek.specjalna[aria-pressed="true"] {
+  color: var(--tusz);
+}
 .znaczki.waskie .znaczek { min-width: 3.6rem; justify-content: center; padding: .45rem .8rem; }
 
 .licznik-puli {

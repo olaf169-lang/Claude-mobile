@@ -200,9 +200,10 @@ export function uruchom() {
     return bez;
   }
 
-  function znaczekWyboru(tekst, wcisniety, naklik) {
+  function znaczekWyboru(tekst, wcisniety, naklik, specjalna = false) {
     return el('button', {
-      klasa: 'znaczek', type: 'button', 'aria-pressed': String(wcisniety), tekst, naclick: naklik,
+      klasa: specjalna ? 'znaczek specjalna' : 'znaczek', type: 'button', 'aria-pressed': String(wcisniety),
+      tekst, naclick: naklik,
     });
   }
 
@@ -212,7 +213,7 @@ export function uruchom() {
       kategorie.append(znaczekWyboru(`${kat.emoji} ${kat.nazwa}`, stan.wyborTemat.kategorie.includes(kat.id), () => {
         stan.wyborTemat.kategorie = przelaczWybor(stan.wyborTemat.kategorie, kat.id);
         rysujWyborGracza();
-      }));
+      }, kat.specjalna));
     }
     const dekady = wyczysc($('#gracz-wybor-dekad'));
     for (const dek of stan.tematOpcje.dekady) {
@@ -430,6 +431,7 @@ export function uruchom() {
       miejsce.append(el('span', { tekst: `${wiadomosc.kategoria.emoji} ${wiadomosc.kategoria.nazwa}` }));
     }
     if (wiadomosc.dekada) miejsce.append(el('span', { tekst: wiadomosc.dekada }));
+    if (wiadomosc.filmZnacznik) miejsce.append(el('span', { tekst: `🎬 ${wiadomosc.filmZnacznik}` }));
   }
 
   /* ---------------------------------------------------------- wyniki rundy */

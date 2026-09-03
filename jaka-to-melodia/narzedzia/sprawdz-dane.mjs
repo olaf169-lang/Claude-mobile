@@ -48,8 +48,11 @@ for (const utwor of utwory) {
   if (utwor.gatunek === 'filmowa' && !utwor.film) {
     uwagi.push(`${gdzie}: brak pola „film” — nie wejdzie do puli pytań o film`);
   }
-  if (utwor.gatunek !== 'filmowa' && utwor.film) {
-    uwagi.push(`${gdzie}: „film” ma sens tylko przy muzyce filmowej`);
+  // Poza 'filmowa' (gdzie napędza mechanikę zgadywania filmu) pole „film” ma
+  // sens jako sam znacznik na odsłonie — używa go dziś tylko 'furious'
+  // (np. z jakiej części Szybkich i wściekłych jest kawałek).
+  if (utwor.gatunek !== 'filmowa' && utwor.gatunek !== 'furious' && utwor.film) {
+    uwagi.push(`${gdzie}: „film” ma sens tylko przy muzyce filmowej albo Szybkich i wściekłych`);
   }
 
   if (widzianeId.has(utwor.id)) bledy.push(`Dwa razy to samo: ${gdzie}`);
@@ -65,6 +68,11 @@ for (const utwor of utwory) {
 }
 for (const dekada of DEKADY) {
   for (const kategoria of KATEGORIE) {
+    // Kategorie specjalne (Disney, Fast & Furious, szanty...) to wąski,
+    // konkretny temat, nie szeroki gatunek — naturalnie skupiają się w kilku
+    // latach zamiast rozkładać się po wszystkich dekadach. Nierówny rozkład
+    // to tu poprawny stan, nie brak.
+    if (kategoria.specjalna) continue;
     // Kombinacje w NIEISTNIEJACE (np. rap w latach 60.) są wykluczone celowo —
     // filtry gry ich nie pokazują, więc pusty koszyk to tu poprawny stan.
     if (!istnieje(dekada.id, kategoria.id)) continue;

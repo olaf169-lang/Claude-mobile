@@ -525,8 +525,14 @@ try {
   await filmowiec.goto(ADRES, { waitUntil: 'domcontentloaded' });
   await filmowiec.click('#rola-prowadzacy');
   await filmowiec.waitForSelector('[data-ekran="ustawienia"]:not([hidden])');
-  // Zostawiamy zaznaczoną tylko „Filmowa” (indeks 5) — resztę wyłączamy.
-  for (const nth of [0, 1, 2, 3, 4, 6]) await filmowiec.click(`#wybor-kategorii .znaczek >> nth=${nth}`);
+  // Zostawiamy zaznaczoną tylko „Filmowa” — resztę wyłączamy. Po tekście
+  // znaczka, nie po indeksie: liczba i kolejność kategorii się zmienia
+  // (kolejne kategorie specjalne/standardowe), a lista renderuje się zawsze
+  // w tej samej, kanonicznej kolejności KATEGORIE, więc indeksy są stabilne
+  // w obrębie jednego przebiegu — ale tylko po policzeniu ich na bieżąco.
+  const nieFilmowe = await filmowiec.$$eval('#wybor-kategorii .znaczek',
+    (n) => n.flatMap((e, i) => (e.textContent.includes('Filmowa') ? [] : [i])));
+  for (const nth of nieFilmowe) await filmowiec.click(`#wybor-kategorii .znaczek >> nth=${nth}`);
   await filmowiec.click('#wybor-serii .znaczek >> nth=0');        // 5 piosenek
   await filmowiec.click('#wybor-rund .znaczek >> nth=0');         // 1 runda
   await filmowiec.click('#wybor-kto-wybiera .znaczek >> nth=1');  // temat zawsze ustala prowadzący

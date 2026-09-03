@@ -148,26 +148,57 @@ sam — ale jeśli często coś się zacina, warto to po prostu wyłączyć.
 
 ## Katalog
 
-1469 utworów w siedmiu kategoriach i siedmiu dekadach:
+Ponad 1500 utworów (liczba rośnie — patrz niżej) w dziewięciu standardowych
+kategoriach i siedmiu dekadach, plus kategorie specjalne bez podziału na dekady:
 
-| dekada | Pop | Rock | Rap | Dance | R&B / soul | Filmowa | Polskie |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| lata 60. | 47 | 34 | — | — | 43 | 30 | 26 |
-| lata 70. | 35 | 35 | — | 30 | 30 | 24 | 26 |
-| lata 80. | 38 | 42 | 26 | 40 | 29 | 32 | 49 |
-| lata 90. | 32 | 44 | 35 | 42 | 24 | 23 | 53 |
-| lata 2000. | 36 | 45 | 36 | 35 | 30 | 12 | 44 |
-| lata 2010. | 39 | 32 | 37 | 37 | 23 | 22 | 27 |
-| lata 2020. | 35 | 16 | 25 | 19 | 17 | 15 | 18 |
+| dekada | Pop | Rock | Rap | Dance | R&B / soul | Filmowa | Polskie | Country & Folk |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| lata 60. | 47 | 34 | — | — | 43 | 30 | 26 | 6 |
+| lata 70. | 35 | 35 | — | 30 | 30 | 24 | 26 | 8 |
+| lata 80. | 38 | 42 | 26 | 40 | 29 | 32 | 49 | 5 |
+| lata 90. | 32 | 44 | 35 | 42 | 24 | 23 | 53 | 10 |
+| lata 2000. | 36 | 45 | 36 | 35 | 30 | 12 | 44 | 5 |
+| lata 2010. | 39 | 32 | 37 | 37 | 23 | 22 | 27 | 7 |
+| lata 2020. | 35 | 16 | 25 | 19 | 17 | 15 | 18 | 4 |
 
-„Polskie” to osobna kategoria, bez dzielenia na gatunki — pozostałe sześć obejmuje
-kawałki anglojęzyczne. Każdy polski wpis ma jednak w tle pole `styl`, dzięki
-któremu do polskiego rocka nie podstawi się disco polo.
+„Polskie” to osobna kategoria, bez dzielenia na gatunki — pozostałe kategorie
+standardowe obejmują głównie kawałki anglojęzyczne. Każdy polski wpis ma jednak
+w tle pole `styl`, dzięki któremu do polskiego rocka nie podstawi się disco polo.
+„Country & Folk” to najmłodsza kategoria standardowa — country przeważa nad
+folkiem, a niektóre dekady są na razie chude (poniżej progu ostrzeżenia
+w `sprawdz-dane.mjs`) — rosną z każdym przebiegiem automatycznego dobierania.
 
 Trzy pola w tabeli są celowo puste: w latach 60. rap i dance jeszcze nie istniały,
 w 70. — rap. Taki gatunek po prostu nie da się wybrać dla tej dekady w ustawieniach
 (`js/katalog.js` → `NIEISTNIEJACE`), a odzyskane miejsce poszło na inne kategorie
 z tych lat, żeby dekady jako całość nie wypadały ubogo.
+
+### Kategorie specjalne
+
+Disney i Szybcy i wściekli (`specjalna: true` w `js/katalog.js`) to wąski,
+konkretny temat, nie szeroki gatunek — kontrola danych (`sprawdz-dane.mjs`) nie
+wymaga od nich równego rozkładu po dekadach, bo z natury rzeczy się w kilku
+latach skupiają. W ustawieniach i panelu wyboru tematu wyróżniają się kolorem
+znaczka (bursztynowa obwódka zamiast standardowej).
+
+**Disney** miesza polskie i angielskie wersje piosenek — angielskie w
+przewadze. Klasyki, które już są w kategorii „filmowa” (i tam pytają, w jakim
+filmie usłyszysz dany utwór), się nie powtarzają — Disney to inny kąt: zwykłe
+pytanie o tytuł albo wykonawcę, czasem po polsku, czasem po angielsku.
+
+**Szybcy i wściekli** nie dzieli się na osobne kategorie per część serii —
+zamiast tego każdy wpis ma pole `film` z dokładnym tytułem części (np. „Fast
+Five”), które pokazuje się jako dodatkowy znacznik na odsłonie, obok kategorii
+i dekady. To nie jest ta sama mechanika co „filmowa” (nie zgadujesz filmu) —
+`film` tu tylko informuje, skąd jest ten kawałek.
+
+### Katalog rośnie sam
+
+Cykliczne zadanie (Routine w Claude) dokłada co jakiś czas kolejną,
+zweryfikowaną porcję utworów — celuje w progi 2200 → 3000 → 4000 → 5000,
+priorytetowo domykając kategorie specjalne i najchudsze koszyki. Zawsze
+najpierw sprawdza `node narzedzia/sprawdz-dane.mjs` i `test-gry.mjs` przed
+commitem — czerwone testy nigdy nie trafiają do repozytorium.
 
 ### Muzyka filmowa — wyjątek od zwykłych pytań
 
@@ -194,10 +225,18 @@ i kategorii:
 { tytul: 'Mój dom', wykonawca: 'Kortez', rok: 2015, gatunek: 'polskie', styl: 'pop' },
 ```
 
-Przy kategorii „filmowa” dochodzi pole `film`:
+Przy kategorii „filmowa” dochodzi pole `film` (napędza mechanikę zgadywania
+filmu):
 
 ```js
 { tytul: 'Eye of the Tiger', wykonawca: 'Survivor', rok: 1982, gatunek: 'filmowa', film: 'Rocky III' },
+```
+
+To samo pole przy „Szybkich i wściekłych” działa inaczej — nie zmienia
+mechaniki pytania, tylko dokłada znacznik na odsłonie:
+
+```js
+{ tytul: 'Hey Ma', wykonawca: 'Pitbull & J Balvin feat. Camila Cabello', rok: 2017, gatunek: 'furious', film: 'The Fate of the Furious' },
 ```
 
 Potem `node narzedzia/sprawdz-dane.mjs` (wyłapie duble, literówki w polach i brak

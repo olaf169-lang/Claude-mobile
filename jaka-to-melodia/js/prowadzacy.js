@@ -100,9 +100,9 @@ export function uruchom() {
     } catch { /* nieistotne */ }
   }
 
-  function znaczek(tekst, wcisniety, przyKliknieciu) {
+  function znaczek(tekst, wcisniety, przyKliknieciu, specjalna = false) {
     return el('button', {
-      klasa: 'znaczek', type: 'button', 'aria-pressed': String(wcisniety),
+      klasa: specjalna ? 'znaczek specjalna' : 'znaczek', type: 'button', 'aria-pressed': String(wcisniety),
       tekst, naclick: przyKliknieciu,
     });
   }
@@ -125,6 +125,7 @@ export function uruchom() {
         `${kat.emoji} ${kat.nazwa}`,
         stan.ustawienia.kategorie.includes(kat.id),
         () => { stan.ustawienia.kategorie = przelacz(stan.ustawienia.kategorie, kat.id); rysujUstawienia(); },
+        kat.specjalna,
       ));
     }
 
@@ -353,7 +354,7 @@ export function uruchom() {
         // ktoś klikał kategorie w Ustawieniach, a dekady wychodziłyby pomieszane.
         kategorieDostepne: KATEGORIE
           .filter((k) => stan.ustawienia.kategorie.includes(k.id))
-          .map((k) => ({ id: k.id, nazwa: k.nazwa, emoji: k.emoji })),
+          .map((k) => ({ id: k.id, nazwa: k.nazwa, emoji: k.emoji, specjalna: k.specjalna || false })),
         dekadyDostepne: DEKADY
           .filter((d) => stan.ustawienia.dekady.includes(d.id))
           .map((d) => ({ id: d.id, nazwa: d.nazwa })),
@@ -557,7 +558,7 @@ export function uruchom() {
       kategorie.append(znaczek(`${kat.emoji} ${kat.nazwa}`, stan.wybor.kategorie.includes(id), () => {
         stan.wybor.kategorie = przelacz(stan.wybor.kategorie, id);
         rysujWyborTematu();
-      }));
+      }, kat.specjalna));
     }
 
     const dekady = wyczysc($('#wybor-tematu-dekad'));
@@ -841,6 +842,9 @@ export function uruchom() {
       // Tylko przy pytaniu o film: prawidłowa odpowiedź to nazwa filmu, nie
       // tytuł ani wykonawca (te dwa lecą jako podpis, patrz rysujOdslone).
       film: pytanie.typ === 'film' ? pytanie.utwor.film : null,
+      // Poza tym typem pytania: film to tylko dodatkowy znacznik przy zwykłej
+      // odsłonie (np. z jakiej części Szybkich i wściekłych jest ten kawałek).
+      filmZnacznik: pytanie.typ !== 'film' && pytanie.utwor.film ? pytanie.utwor.film : null,
       kategoria: kategoriaInfo ? { emoji: kategoriaInfo.emoji, nazwa: kategoriaInfo.nazwa } : null,
       dekada: dekadaInfo ? dekadaInfo.nazwa : null,
       okladka: wpisPodgladu?.okladka || null,
@@ -914,6 +918,7 @@ export function uruchom() {
       miejsce.append(el('span', { tekst: `${odslona.kategoria.emoji} ${odslona.kategoria.nazwa}` }));
     }
     if (odslona.dekada) miejsce.append(el('span', { tekst: odslona.dekada }));
+    if (odslona.filmZnacznik) miejsce.append(el('span', { tekst: `🎬 ${odslona.filmZnacznik}` }));
   }
 
   /** Gdy prowadzący gra, ma prawo wiedzieć, jak mu poszło — tak jak reszta. */
@@ -994,6 +999,7 @@ export function uruchom() {
       wykonawca: ostatniePytanie.utwor.wykonawca,
       rok: ostatniePytanie.utwor.rok,
       film: ostatniePytanie.typ === 'film' ? ostatniePytanie.utwor.film : null,
+      filmZnacznik: ostatniePytanie.typ !== 'film' && ostatniePytanie.utwor.film ? ostatniePytanie.utwor.film : null,
       okladka: zrodlo.zPamieci(ostatniePytanie.utwor)?.okladka || null,
       kategoria: kategoriaOst ? { emoji: kategoriaOst.emoji, nazwa: kategoriaOst.nazwa } : null,
       dekada: dekadaOst ? dekadaOst.nazwa : null,
@@ -1041,6 +1047,7 @@ export function uruchom() {
     wyczysc(znaczniki);
     if (dane.kategoria) znaczniki.append(el('span', { tekst: `${dane.kategoria.emoji} ${dane.kategoria.nazwa}` }));
     if (dane.dekada) znaczniki.append(el('span', { tekst: dane.dekada }));
+    if (dane.filmZnacznik) znaczniki.append(el('span', { tekst: `🎬 ${dane.filmZnacznik}` }));
   }
 
   function rysujPodiumRundy(tabela) {

@@ -13,6 +13,15 @@ export const KATEGORIE = [
   { id: 'rnb',     nazwa: 'R&B / soul', emoji: '🎷' },
   { id: 'filmowa', nazwa: 'Filmowa',    emoji: '🎬' },
   { id: 'polskie', nazwa: 'Polskie',    emoji: '🇵🇱' },
+  { id: 'country', nazwa: 'Country & Folk', emoji: '🪕' },
+  // Specjalne: bez wymogu równomiernego rozkładu po dekadach (patrz
+  // sprawdz-dane.mjs) — wąski, konkretny temat zamiast szerokiego gatunku,
+  // więc naturalnie skupia się w kilku latach zamiast rozkładać się równo.
+  { id: 'disney',  nazwa: 'Disney',              emoji: '🏰', specjalna: true },
+  { id: 'furious', nazwa: 'Szybcy i wściekli',   emoji: '🏎️', specjalna: true },
+  // Szanty celowo jeszcze nie tutaj — wejdzie do listy dopiero, gdy w
+  // katalogu będzie ich wystarczająco dużo, żeby dało się z nich ułożyć
+  // pełną serię (patrz test „każda kategoria da się zagrać w pojedynkę”).
 ];
 
 export const DEKADY = [
