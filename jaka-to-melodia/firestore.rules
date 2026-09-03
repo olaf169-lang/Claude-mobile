@@ -1,12 +1,24 @@
-/* Reguły dostępu do Firestore dla trybu wyzwań (jaka-to-melodia).
+/* Reguły dostępu do Firestore dla trybu wyzwań i Turnieju Piąteczki
+   (jaka-to-melodia).
 
-   Aplikacja nie ma logowania — kto ma link/QR do wyzwania, ten może je
-   zobaczyć i dograć. To świadomy kompromis dla gry towarzyskiej między
-   znajomymi, nie produktu z realną stawką: ktoś naprawdę uparty i technicznie
-   obeznany mógłby spreparować własny zapis wyniku z poziomu konsoli
-   deweloperskiej. Reguły poniżej pilnują tego, co się da bez logowania:
-   raz zapisana runda/wynik już się nie da nadpisać, więc nie da się
-   poprawić wyniku po fakcie ani podmienić piosenek pod czyimś nosem.
+   Aplikacja nie ma logowania — kto ma link/QR do wyzwania albo pojedynku,
+   ten może je zobaczyć i dograć. To świadomy kompromis dla gry towarzyskiej
+   między znajomymi, nie produktu z realną stawką: ktoś naprawdę uparty
+   i technicznie obeznany mógłby spreparować własny zapis wyniku z poziomu
+   konsoli deweloperskiej. Reguły poniżej pilnują tego, co się da bez
+   logowania: raz zapisany dokument (runda, wynik, ruch) już się nie da
+   nadpisać, więc nie da się poprawić wyniku po fakcie ani podmienić
+   piosenek pod czyimś nosem.
+
+   Panel administratora (czyszczenie tablicy wyników Turnieju Piąteczki,
+   ukrywanie ksywki) też nie ma prawdziwego logowania — zamiast tego kod
+   administratora jest zaszyty tutaj jako hash SHA-256, wklejony wprost
+   w dwóch miejscach niżej (config/turniejReset i ukryteKsywki). Ktoś, kto
+   ma dostęp do tego repozytorium, teoretycznie mógłby złamać hash
+   brute-force'em — to nie jest sejf bankowy, tylko rozsądna zapora przed
+   znajomymi grającymi w tę samą grę. Sam kod (jawny tekst) nigdy nie
+   trafia do repozytorium ani do żadnego zapisanego dokumentu — appka po
+   jego wpisaniu trzyma tylko hash, lokalnie w tym urządzeniu.
 
    Wdrożenie: to plik źródłowy w repozytorium (do wersjonowania), ale
    samo repo go nie publikuje — trzeba go wkleić ręcznie w konsoli Firebase
@@ -36,6 +48,81 @@ service cloud.firestore {
         allow create: if request.resource.data.keys().hasAll(['ksywka', 'punkty', 'ukonczono']);
         allow update, delete: if false;
       }
+    }
+
+    /* ------------------------------------------------- Turniej Piąteczki */
+    // 1v1, 5 rund po 5 piosenek, sekwencja trzech ruchów — patrz opis
+    // mechaniki w js/turniej.js. Każdy dokument tu jest tworzony raz i już
+    // niezmienny (dokładnie ten sam wzorzec co /wyzwania wyżej), łącznie
+    // z pojedynczymi rundami i pojedynczymi ruchami graczy — więc nie da
+    // się podmienić piosenek w rundzie ani dograć wyniku po fakcie.
+    match /pojedynki/{pojedynekId} {
+      allow read: if true;
+      allow create: if request.resource.data.keys()
+                      .hasAll(['utworca', 'ustawienia', 'rundyTematyP1', 'rundyTematyP2', 'utworzono']);
+      allow update, delete: if false;
+
+      match /rundy/{indeks} {
+        allow read: if true;
+        allow create: if request.resource.data.keys().hasAll(['temat', 'seria']);
+        allow update, delete: if false;
+      }
+
+      match /gracze/{graczId} {
+        allow read: if true;
+        allow create: if request.resource.data.keys().hasAll(['ksywka', 'rola']);
+        allow update, delete: if false;
+
+        match /ruchy/{ruchNr} {
+          allow read: if true;
+          allow create: if request.resource.data.keys().hasAll(['rundyZagrane', 'wyniki']);
+          allow update, delete: if false;
+        }
+      }
+    }
+
+    // Jeden zapis na zakończony pojedynek — trwała tablica wyników liczy
+    // się z tych wpisów po stronie klienta (agreguje po ksywce), więc sam
+    // zapis meczu też jest tylko tworzony raz, nigdy nie modyfikowany.
+    match /rankingTurnieju/{meczId} {
+      allow read: if true;
+      allow create: if request.resource.data.keys()
+                      .hasAll(['pojedynekId', 'p1Ksywka', 'p2Ksywka', 'p1Punkty', 'p2Punkty', 'zwyciezca', 'resetId', 'zakonczono']);
+      allow update, delete: if false;
+    }
+
+    // Reguła resetu tablicy: kto zna kod administratora (patrz wyżej), ten
+    // może podbić resetId — tablica liczy tylko mecze z bieżącym resetId,
+    // więc to jedna, tania zmiana zamiast kasowania setek dokumentów.
+    match /config/turniejReset {
+      allow read: if true;
+      allow create, update: if request.resource.data.kodHash == '0cc9e820e268fd7bfe1dbef054e34e44751aa6f69aaa2c279f3222779620fb63';
+      allow delete: if false;
+    }
+
+    // Ukryte ksywki znikają z tablicy wyników (klient filtruje po odczycie),
+    // bez ruszania samych zapisanych meczów. Pod kodem administratora — tylko
+    // w jedną stronę (ukrycie), bo reguła kasowania nie widzi treści żądania
+    // (Firestore nie przekazuje danych przy delete), więc nie dałoby się jej
+    // tak samo zabezpieczyć. Cofnięcie ukrycia to ręczna zmiana w konsoli.
+    match /ukryteKsywki/{ksywkaKlucz} {
+      allow read: if true;
+      allow create: if request.resource.data.kodHash == '0cc9e820e268fd7bfe1dbef054e34e44751aa6f69aaa2c279f3222779620fb63';
+      allow update, delete: if false;
+    }
+
+    // Licznik pojedynków danej ksywki w danym tygodniu (klucz dokumentu =
+    // ksywka_tydzień) — max pięć tygodniowo, licząc rewanże i wyzwania
+    // ponowne. Jedyne pole, jakie wolno zmieniać, to sam licznik, i tylko
+    // o dokładnie jeden w górę na zapis — bez tego dałoby się sobie zresetować
+    // limit albo podbić go od razu na sto.
+    match /limityTygodniowe/{klucz} {
+      allow read: if true;
+      allow create: if request.resource.data.keys().hasAll(['ksywka', 'tydzien', 'pojedynki'])
+                    && request.resource.data.pojedynki == 1;
+      allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['pojedynki'])
+                    && request.resource.data.pojedynki == resource.data.pojedynki + 1;
+      allow delete: if false;
     }
   }
 }
