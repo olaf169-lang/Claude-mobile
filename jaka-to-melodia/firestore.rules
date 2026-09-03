@@ -124,5 +124,17 @@ service cloud.firestore {
                     && request.resource.data.pojedynki == resource.data.pojedynki + 1;
       allow delete: if false;
     }
+
+    // Tokeny FCM (powiadomienia push) — id dokumentu to sam token, więc
+    // ponowny zapis tego samego urządzenia po prostu nadpisuje wpis, nie
+    // mnoży ich. Odczyt zamknięty na kłódkę: to nie coś, co powinno być
+    // publicznie przeglądalne (czyjś token = możliwość spamowania go
+    // powiadomieniami). Cloud Function czyta i tak przez Admin SDK, które
+    // reguł w ogóle nie widzi.
+    match /tokenyPush/{token} {
+      allow read: if false;
+      allow create, update: if request.resource.data.keys().hasAll(['token', 'ksywka', 'urzadzenie']);
+      allow delete: if false;
+    }
   }
 }

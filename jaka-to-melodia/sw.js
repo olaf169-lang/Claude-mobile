@@ -3,7 +3,7 @@
    broker, nagrania lecą ze sklepu), ale ekran startowy, katalog i style mają
    być na miejscu od razu. WERSJA idzie w górę przy każdej zmianie plików. */
 
-const WERSJA = 'jtm-v1';
+const WERSJA = 'jtm-v2';
 
 const POWLOKA = [
   './',
@@ -22,6 +22,10 @@ const POWLOKA = [
   'js/odtwarzacz.js',
   'js/prowadzacy.js',
   'js/gracz.js',
+  'js/wyzwanie.js',
+  'js/turniej.js',
+  'js/firebase.js',
+  'js/powiadomienia.js',
   'dane/utwory.js',
   'dane/podglady.json',
   'vendor/qrcode.mjs',
@@ -65,5 +69,37 @@ self.addEventListener('fetch', (zdarzenie) => {
         return odpowiedz;
       })
       .catch(() => caches.match(zadanie).then((z) => z || caches.match('./'))),
+  );
+});
+
+/* --- powiadomienia push (Turniej Piąteczki) ---
+   FCM na webie dowozi wiadomość jako zwykły Web Push — nie trzeba tu
+   ładować SDK Firebase, wystarczy standardowe API service workera.
+   Wysyłający (Cloud Function, patrz funkcje/index.js) pakuje dane
+   jako czysty JSON, nie gotowe pole "notification", żeby mieć pełną
+   kontrolę nad tym, co się pokaże i dokąd prowadzi kliknięcie. */
+
+self.addEventListener('push', (zdarzenie) => {
+  let dane = {};
+  try { dane = zdarzenie.data ? zdarzenie.data.json() : {}; } catch { /* puste powiadomienie — nic nie tracimy */ }
+  const tytul = dane.tytul || 'Jaka to Melodia';
+  zdarzenie.waitUntil(self.registration.showNotification(tytul, {
+    body: dane.tresc || '',
+    icon: 'icons/icon-192.png',
+    badge: 'icons/icon-192.png',
+    data: { url: dane.url || './' },
+  }));
+});
+
+self.addEventListener('notificationclick', (zdarzenie) => {
+  zdarzenie.notification.close();
+  const url = new URL(zdarzenie.notification.data?.url || './', self.location.origin).href;
+  zdarzenie.waitUntil(
+    self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then((lista) => {
+      for (const klient of lista) {
+        if ('focus' in klient) { klient.navigate(url); return klient.focus(); }
+      }
+      return self.clients.openWindow(url);
+    }),
   );
 });

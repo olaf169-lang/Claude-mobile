@@ -205,6 +205,11 @@ button, .znaczek, .odp, .klawisz {
   font-size: 1rem;
   cursor: pointer;
 }
+.ikona[aria-pressed="true"] {
+  border-color: color-mix(in srgb, var(--magenta) 55%, transparent);
+  background: color-mix(in srgb, var(--magenta) 16%, transparent);
+  color: var(--magenta);
+}
 
 /* ----------------------------------------------------------------- ekrany */
 

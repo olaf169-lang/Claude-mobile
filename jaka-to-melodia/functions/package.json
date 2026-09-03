@@ -1,0 +1,13 @@
+{
+  "name": "jaka-to-melodia-functions",
+  "private": true,
+  "description": "Powiadomienia push dla Turnieju Piąteczki (jaka-to-melodia) — patrz komentarz na górze index.js.",
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^12.1.0",
+    "firebase-functions": "^5.0.0"
+  }
+}
