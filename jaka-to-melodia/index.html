@@ -612,9 +612,10 @@
     <div class="qr" id="turniej-czekaj-qr"></div>
     <div class="kod-obok">
       <p class="drobne">Wyślij ten link przeciwnikowi</p>
-      <button class="klawisz glowny" id="turniej-czekaj-udostepnij" type="button">Udostępnij link</button>
+      <button class="klawisz glowny" id="turniej-czekaj-kopiuj" type="button">Skopiuj link</button>
     </div>
   </div>
+  <button class="klawisz glowny" id="turniej-czekaj-powiadom" type="button" hidden>Powiadom gracza</button>
   <button class="klawisz" id="turniej-czekaj-sprawdz" type="button">Sprawdź teraz</button>
 </section>
 
@@ -634,6 +635,13 @@
   <div class="stopka-ekranu">
     <button class="klawisz glowny" id="turniej-zacznij-runde" type="button">Zaczynamy rundę</button>
   </div>
+</section>
+
+<!-- ======================= TURNIEJ — ODLICZANIE ======================= -->
+<section data-ekran="turniej-odliczanie" class="ekran srodek" hidden>
+  <p class="etykieta" id="turniej-odliczanie-opis"></p>
+  <div class="wielka-liczba" id="turniej-odliczanie-liczba">3</div>
+  <p class="opis">Zaczynamy…</p>
 </section>
 
 <!-- ========================= TURNIEJ — RUNDA ========================= -->

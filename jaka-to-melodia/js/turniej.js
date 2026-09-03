@@ -39,6 +39,7 @@ import { baza } from './firebase.js';
 const KSZTALTY = ['▲', '◆', '●', '■'];
 const MEDALE = ['🥇', '🥈', '🥉'];
 const CZAS_WYBRZMIENIA_MS = 4000;
+const CZAS_ODLICZANIA_MS = 3000;
 const PIOSENEK_W_RUNDZIE = 5;
 
 // Które rundy (0-based) wybiera który gracz — patrz opis mechaniki wyżej.
@@ -334,7 +335,8 @@ export function uruchom() {
         if (mojeRuchy.length === 1) {
           const p2 = (await pobierzGraczy(id)).find((g) => g.rola === 'p2');
           const p2Skonczyl = p2 ? (await pobierzRuchy(id, p2.id)).length >= 1 : false;
-          if (!p2Skonczyl) { pokazCzekaj('p2'); return; }
+          if (p2) stan.przeciwnik = p2.ksywka;
+          if (!p2Skonczyl) { pokazCzekaj('p2', { przeciwnikDolaczyl: Boolean(p2) }); return; }
           rozpocznijRuch(RUNDY_P2);
           return;
         }
@@ -347,23 +349,90 @@ export function uruchom() {
       await pokazWynikPojedynku(id, {});
     } catch {
       powiadom('Nie udało się sprawdzić stanu pojedynku — sprawdź internet i spróbuj ponownie.', 'blad');
-      $('#turniej-czekaj-opis').textContent = 'Nie udało się połączyć z bazą.';
-      $('#turniej-czekaj-qr').replaceChildren();
-      $('#turniej-czekaj-udostepnij').onclick = null;
-      $('#turniej-czekaj-sprawdz').onclick = () => wznowGre(id);
-      pokazEkran('turniej-czekaj');
+      pokazCzekajEkran({
+        opis: 'Nie udało się połączyć z bazą.', link: null, powiadomKogo: null, naSprawdz: () => wznowGre(id),
+      });
     }
   }
 
-  function pokazCzekaj(naKogo) {
-    $('#turniej-czekaj-opis').textContent = naKogo === 'p2'
+  /** naKogo: 'p2' — czekam, aż przeciwnik dograje swoją część (jeszcze mogę
+      nie znać jego ksywki, jeśli jeszcze nie dołączył). przeciwnikDolaczyl
+      steruje tym, czy w ogóle jest kogo bezpośrednio szturchnąć. */
+  function pokazCzekaj(naKogo, { przeciwnikDolaczyl = false } = {}) {
+    const opis = naKogo === 'p2'
       ? `Czekasz, aż ${stan.przeciwnik || 'przeciwnik'} dograje swoją część.`
       : 'Czekasz na ruch przeciwnika.';
-    const link = adresPojedynku(stan.id);
-    $('#turniej-czekaj-qr').replaceChildren(kodQr(link));
-    $('#turniej-czekaj-udostepnij').onclick = () => udostepnijLink(link);
-    $('#turniej-czekaj-sprawdz').onclick = () => wznowGre(stan.id);
+    pokazCzekajEkran({
+      opis,
+      link: adresPojedynku(stan.id),
+      powiadomKogo: naKogo === 'p2' && przeciwnikDolaczyl ? stan.przeciwnik : null,
+      naSprawdz: () => wznowGre(stan.id),
+    });
+  }
+
+  /** Wspólny ekran oczekiwania: link/QR do wysłania, dopóki nie wiadomo
+      jeszcze z kim się gra, i/albo przycisk do bezpośredniego szturchnięcia
+      już znanego przeciwnika powiadomieniem push (patrz utworzProsbe niżej —
+      to osobna, natychmiastowa ścieżka, niezależna od automatycznego
+      powiadomienia wysyłanego przez Cloud Function po zapisaniu ruchu). */
+  function pokazCzekajEkran({
+    opis, link, powiadomKogo, naSprawdz,
+  }) {
+    $('#turniej-czekaj-opis').textContent = opis;
+    $('#turniej-czekaj-karta').hidden = !link;
+    if (link) {
+      $('#turniej-czekaj-qr').replaceChildren(kodQr(link));
+      $('#turniej-czekaj-kopiuj').onclick = () => kopiujLink(link);
+    } else {
+      $('#turniej-czekaj-qr').replaceChildren();
+      $('#turniej-czekaj-kopiuj').onclick = null;
+    }
+    const przyciskPowiadom = $('#turniej-czekaj-powiadom');
+    przyciskPowiadom.hidden = !powiadomKogo;
+    if (powiadomKogo) {
+      przyciskPowiadom.disabled = false;
+      przyciskPowiadom.textContent = 'Powiadom gracza';
+      przyciskPowiadom.onclick = async () => {
+        przyciskPowiadom.disabled = true;
+        try {
+          await utworzProsbe(stan.id, stan.rola);
+          przyciskPowiadom.textContent = 'Wysłano ✓';
+          powiadom(`Wysłano powiadomienie do ${powiadomKogo}.`);
+        } catch {
+          powiadom('Nie udało się wysłać powiadomienia — sprawdź internet.', 'blad');
+          przyciskPowiadom.disabled = false;
+        }
+      };
+    } else {
+      przyciskPowiadom.onclick = null;
+    }
+    $('#turniej-czekaj-sprawdz').onclick = naSprawdz;
     pokazEkran('turniej-czekaj');
+  }
+
+  /** Kopiowanie linku bez polegania na navigator.share (na części urządzeń
+      albo w ogóle go nie ma, albo cicho nic nie robi) — Clipboard API, a gdy
+      i to zawiedzie (starszy WebView, brak uprawnień), execCommand jako
+      zapasowe wyjście, i dopiero na końcu goły link w powiadomieniu. */
+  async function kopiujLink(link) {
+    try {
+      await navigator.clipboard.writeText(link);
+      powiadom('Link skopiowany — wklej go, gdzie chcesz.');
+      return;
+    } catch { /* spróbujemy starszego sposobu niżej */ }
+    try {
+      const pole = document.createElement('textarea');
+      pole.value = link;
+      pole.style.position = 'fixed';
+      pole.style.opacity = '0';
+      document.body.append(pole);
+      pole.focus();
+      pole.select();
+      const udalo = document.execCommand('copy');
+      pole.remove();
+      if (udalo) { powiadom('Link skopiowany — wklej go, gdzie chcesz.'); return; }
+    } catch { /* i to się nie udało — pokaż chociaż sam link */ }
+    powiadom(link);
   }
 
   /* ------------------------------------------------------------- rozgrywka */
@@ -383,7 +452,7 @@ export function uruchom() {
     stan.punktyRundy = 0;
     stan.trafieniaRundy = 0;
     stan.nrPytania = -1;
-    if (stan.rundy[stan.biezacaRunda]) nastepnePytanie();
+    if (stan.rundy[stan.biezacaRunda]) pokazOdliczanieRundy();
     else pokazWyborTematuRundy(stan.biezacaRunda);
   }
 
@@ -437,8 +506,41 @@ export function uruchom() {
       return;
     }
     stan.rundy[indeksRundy] = danaRunda;
-    nastepnePytanie();
+    pokazOdliczanieRundy();
   });
+
+  /** Krótkie odliczanie 3-2-1 przed pierwszą piosenką rundy — bez tego
+      ekran rundy potrafił się jeszcze nie domalować, gdy muzyka już leciała
+      (pokazEkran + puszczenie utworu w tym samym takcie). Ten sam wzorzec
+      co ekran prowadzącego/gracza w grze wieloosobowej. */
+  function pokazOdliczanieRundy() {
+    clearInterval(tykanie);
+    $('#turniej-odliczanie-opis').textContent = `Runda ${stan.biezacaRunda + 1}/5`;
+    pokazEkran('turniej-odliczanie');
+
+    const pierwszePytanie = stan.rundy[stan.biezacaRunda].seria[0];
+    zrodlo.znajdz(pierwszePytanie.utwor).then((wpis) => {
+      if (wpis?.podglad) odtwarzacz.przygotuj(wpis.podglad);
+    });
+
+    const koniec = performance.now() + CZAS_ODLICZANIA_MS;
+    let poprzedniaLiczba = null;
+    const tyknij = () => {
+      const zostalo = Math.max(0, koniec - performance.now());
+      const liczba = Math.ceil(zostalo / 1000);
+      if (liczba !== poprzedniaLiczba && liczba > 0) {
+        poprzedniaLiczba = liczba;
+        const wezel = $('#turniej-odliczanie-liczba');
+        wezel.textContent = String(liczba);
+        wezel.style.animation = 'none';
+        void wezel.offsetWidth;
+        wezel.style.animation = '';
+      }
+      if (zostalo <= 0) { clearInterval(tykanie); nastepnePytanie(); return; }
+    };
+    tyknij();
+    tykanie = setInterval(tyknij, 100);
+  }
 
   function nastepnePytanie() {
     clearInterval(tykanie);
@@ -609,11 +711,9 @@ export function uruchom() {
       await pokazWynikPojedynku(stan.id, {});
     } catch {
       powiadom('Nie udało się zapisać wyniku — sprawdź internet i spróbuj ponownie.', 'blad');
-      $('#turniej-czekaj-opis').textContent = 'Nie udało się zapisać wyniku.';
-      $('#turniej-czekaj-qr').replaceChildren();
-      $('#turniej-czekaj-udostepnij').onclick = null;
-      $('#turniej-czekaj-sprawdz').onclick = () => zakonczRuch();
-      pokazEkran('turniej-czekaj');
+      pokazCzekajEkran({
+        opis: 'Nie udało się zapisać wyniku.', link: null, powiadomKogo: null, naSprawdz: () => zakonczRuch(),
+      });
     }
   }
 
@@ -645,12 +745,12 @@ export function uruchom() {
       const p1 = gracze.find((g) => g.rola === 'p1');
       const p2 = gracze.find((g) => g.rola === 'p2');
       if (!p1 || !p2) {
-        $('#turniej-czekaj-opis').textContent = 'Czekasz, aż ktoś przyjmie wyzwanie.';
-        const link = adresPojedynku(id);
-        $('#turniej-czekaj-qr').replaceChildren(kodQr(link));
-        $('#turniej-czekaj-udostepnij').onclick = () => udostepnijLink(link);
-        $('#turniej-czekaj-sprawdz').onclick = () => wznowGre(id);
-        pokazEkran('turniej-czekaj');
+        pokazCzekajEkran({
+          opis: 'Czekasz, aż ktoś przyjmie wyzwanie.',
+          link: adresPojedynku(id),
+          powiadomKogo: null,
+          naSprawdz: () => wznowGre(id),
+        });
         return;
       }
 
@@ -660,13 +760,17 @@ export function uruchom() {
 
       if (!wynikP1.ukonczono || !wynikP2.ukonczono) {
         const czyjaKolej = !wynikP1.ukonczono ? p1.ksywka : p2.ksywka;
-        $('#turniej-czekaj-opis').textContent = readOnly
-          ? `Pojedynek między ${p1.ksywka} a ${p2.ksywka} jeszcze trwa (czeka się na ${czyjaKolej}).`
-          : `Czekasz na ${czyjaKolej}.`;
-        $('#turniej-czekaj-qr').replaceChildren();
-        $('#turniej-czekaj-udostepnij').onclick = null;
-        $('#turniej-czekaj-sprawdz').onclick = () => (readOnly ? pokazDolacz(id) : wznowGre(id));
-        pokazEkran('turniej-czekaj');
+        pokazCzekajEkran({
+          opis: readOnly
+            ? `Pojedynek między ${p1.ksywka} a ${p2.ksywka} jeszcze trwa (czeka się na ${czyjaKolej}).`
+            : `Czekasz na ${czyjaKolej}.`,
+          link: null,
+          // !readOnly znaczy, że to ja jestem jednym z graczy — a skoro
+          // dotarłem tutaj (a nie do rozgrywki), to zawsze ja już skończyłem
+          // swoją część i to przeciwnik zwleka, nigdy odwrotnie.
+          powiadomKogo: readOnly ? null : czyjaKolej,
+          naSprawdz: () => (readOnly ? pokazDolacz(id) : wznowGre(id)),
+        });
         return;
       }
 
@@ -692,11 +796,12 @@ export function uruchom() {
       pokazEkran('turniej-wynik');
     } catch {
       powiadom('Nie udało się wczytać wyniku — sprawdź internet i spróbuj ponownie.', 'blad');
-      $('#turniej-czekaj-opis').textContent = 'Nie udało się połączyć z bazą.';
-      $('#turniej-czekaj-qr').replaceChildren();
-      $('#turniej-czekaj-udostepnij').onclick = null;
-      $('#turniej-czekaj-sprawdz').onclick = () => pokazWynikPojedynku(id, { readOnly });
-      pokazEkran('turniej-czekaj');
+      pokazCzekajEkran({
+        opis: 'Nie udało się połączyć z bazą.',
+        link: null,
+        powiadomKogo: null,
+        naSprawdz: () => pokazWynikPojedynku(id, { readOnly }),
+      });
     }
   }
 
@@ -749,19 +854,6 @@ export function uruchom() {
     const adres = new URL(location.href);
     adres.hash = `#/turniej/${id}`;
     return adres.toString();
-  }
-
-  async function udostepnijLink(link) {
-    const tekst = `${stan.ksywka || stan.utworca} wyzwał Cię na Turniej Piąteczki w Jaka to Melodia! Zagrasz?`;
-    if (navigator.share) {
-      try { await navigator.share({ title: 'Turniej Piąteczki', text: tekst, url: link }); return; } catch { /* anulowane */ }
-    }
-    try {
-      await navigator.clipboard.writeText(link);
-      powiadom('Link skopiowany — wklej go, gdzie chcesz.');
-    } catch {
-      powiadom(link);
-    }
   }
 
   /* ------------------------------------------------------------ tablica wyników */
@@ -926,6 +1018,18 @@ export function uruchom() {
     const { db, f } = await baza();
     await f.setDoc(f.doc(db, 'pojedynki', id, 'gracze', graczId, 'ruchy', String(numerRuchu)), {
       ...dane, ukonczono: f.serverTimestamp(),
+    });
+  }
+
+  /** Bezpośrednie "szturchnięcie" przeciwnika przyciskiem Powiadom gracza —
+      osobny, natychmiastowy zapis, który po stronie serwera obsługuje
+      Cloud Function naProsbePowiadomienia (functions/index.js). Niezależne
+      od automatycznego powiadomienia po zapisaniu ruchu (naRuchWTurnieju),
+      bo tu akurat żaden nowy ruch nie powstaje — czekamy na cudzy. */
+  async function utworzProsbe(id, odRoli) {
+    const { db, f } = await baza();
+    await f.setDoc(f.doc(f.collection(db, 'pojedynki', id, 'prosby')), {
+      od: odRoli, wyslano: f.serverTimestamp(),
     });
   }
 

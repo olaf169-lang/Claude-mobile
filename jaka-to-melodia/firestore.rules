@@ -79,6 +79,15 @@ service cloud.firestore {
           allow update, delete: if false;
         }
       }
+
+      // Ręczne "szturchnięcie" przeciwnika przyciskiem Powiadom gracza —
+      // Cloud Function nasłuchuje na nowy dokument tutaj i wysyła push,
+      // niezależnie od automatycznego powiadomienia po zapisaniu ruchu.
+      match /prosby/{prosbaId} {
+        allow read: if true;
+        allow create: if request.resource.data.od in ['p1', 'p2'];
+        allow update, delete: if false;
+      }
     }
 
     // Jeden zapis na zakończony pojedynek — trwała tablica wyników liczy

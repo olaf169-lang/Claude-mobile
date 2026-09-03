@@ -60,38 +60,33 @@ if (przyciskPowiadomien && 'Notification' in window
   && Notification.permission === 'granted' && localStorage.getItem('jtm:powiadomieniaToken')) {
   przyciskPowiadomien.setAttribute('aria-pressed', 'true');
 }
+// Ksywka nie jest tu wymagana: zgoda przeglądarki i token FCM dają się
+// załatwić od razu, jeszcze zanim ktoś zagra pierwszy pojedynek. Samo
+// dopisanie tokenu do konkretnej ksywki w Firestore doczepia się później,
+// automatycznie, gdy tylko appka się jej dowie (patrz turniej.js).
 przyciskPowiadomien?.addEventListener('click', async () => {
-  const ksywka = localStorage.getItem('jtm:ksywka');
-  if (!ksywka) {
-    powiadom('Zagraj chociaż raz i podaj ksywkę, żeby móc włączyć powiadomienia.', 'blad');
-    return;
-  }
   const { wlaczPowiadomienia } = await import('./powiadomienia.js');
+  const ksywka = localStorage.getItem('jtm:ksywka') || '';
   let wlaczone = false;
   try { wlaczone = await wlaczPowiadomienia(ksywka); } catch { /* zgłoszone niżej jako niepowodzenie */ }
   if (wlaczone) {
     przyciskPowiadomien.setAttribute('aria-pressed', 'true');
-    powiadom('Powiadomienia włączone.');
+    powiadom(ksywka
+      ? 'Powiadomienia włączone.'
+      : 'Powiadomienia włączone — dopiszemy je do Twojej ksywki, gdy zagrasz Turniej Piąteczki.');
   } else {
     powiadom('Nie udało się włączyć powiadomień — sprawdź uprawnienia przeglądarki.', 'blad');
   }
 });
 
-// Pytamy raz, przy pierwszej wizycie — jeśli appka jeszcze nie wie, ksywka
-// pewnie też nie jest jeszcze znana, więc od razu prosimy tylko o zgodę
-// przeglądarki; token FCM i tak da się dopisać później (przycisk dzwonka).
+// Pytamy raz, przy pierwszej wizycie.
 if ('Notification' in window && Notification.permission === 'default' && !localStorage.getItem('jtm:powiadomieniaPytane')) {
   localStorage.setItem('jtm:powiadomieniaPytane', '1');
   setTimeout(async () => {
     if (!confirm('Włączyć powiadomienia o Turnieju Piąteczki (Twoja kolej, wynik tygodnia)?')) return;
-    const zgoda = await Notification.requestPermission();
-    if (zgoda !== 'granted') return;
-    przyciskPowiadomien?.setAttribute('aria-pressed', 'true');
-    const ksywka = localStorage.getItem('jtm:ksywka');
-    if (ksywka) {
-      const { wlaczPowiadomienia } = await import('./powiadomienia.js');
-      wlaczPowiadomienia(ksywka).catch(() => {});
-    }
+    const { wlaczPowiadomienia } = await import('./powiadomienia.js');
+    const wlaczone = await wlaczPowiadomienia(localStorage.getItem('jtm:ksywka') || '').catch(() => false);
+    if (wlaczone) przyciskPowiadomien?.setAttribute('aria-pressed', 'true');
   }, 900);
 }
 

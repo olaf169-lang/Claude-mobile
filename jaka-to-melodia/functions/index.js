@@ -3,29 +3,29 @@
    karty) nie może obudzić się o określonej porze ani zareagować na cudzy
    zapis w Firestore — do tego trzeba czegoś, co działa po stronie serwera.
 
-   Dwie funkcje:
-     naRuchWTurnieju      — reaguje na każdy zapisany ruch w pojedynku:
-                             powiadamia, czyja jest kolej, albo że pojedynek
-                             się zakończył.
+   Trzy funkcje:
+     naRuchWTurnieju        — reaguje na każdy zapisany ruch w pojedynku:
+                               powiadamia, czyja jest kolej, albo że pojedynek
+                               się zakończył.
+     naProsbePowiadomienia  — reaguje na przycisk „Powiadom gracza” na
+                               ekranie oczekiwania: natychmiastowe ręczne
+                               przypomnienie, niezależne od naRuchWTurnieju.
      podsumowanieTygodniowe — w każdą niedzielę o 18:00 czasu polskiego
-                             wysyła podsumowanie do wszystkich ksywek, które
-                             rozegrały choć jeden mecz w ostatnim tygodniu.
+                               wysyła podsumowanie do wszystkich ksywek, które
+                               rozegrały choć jeden mecz w ostatnim tygodniu.
 
    Wdrożenie (jednorazowo, z Twojego komputera — ja nie mam jak stąd tego
    zrobić, to wymaga Twojego logowania do Firebase):
      1. npm install -g firebase-tools   (jeśli jeszcze nie masz)
      2. firebase login
-     3. w konsoli Firebase: Ustawienia projektu → Cloud Messaging →
-        „Certyfikaty push w internecie” → wygeneruj parę kluczy (VAPID) →
-        wklej wygenerowany klucz do KLUCZ_VAPID w js/powiadomienia.js
-     4. w konsoli Firebase: przełącz projekt na plan Blaze (płatność za
+     3. w konsoli Firebase: przełącz projekt na plan Blaze (płatność za
         użycie — sam plan nic nie kosztuje, płaci się dopiero po
         przekroczeniu darmowego limitu, przy grze znajomych się do niego
         nie zbliżycie)
-     5. cd jaka-to-melodia/functions && npm install
-     6. firebase deploy --only functions
+     4. cd jaka-to-melodia/functions && npm install
+     5. firebase deploy --only functions,firestore:rules
    Do momentu wdrożenia appka i tak działa normalnie — przycisk dzwonka
-   po prostu nie wyśle żadnego powiadomienia, bo nie ma kto. */
+   i przycisk „Powiadom gracza” po prostu nic nie wyślą, bo nie ma kto. */
 
 const { initializeApp } = require('firebase-admin/app');
 const { getFirestore } = require('firebase-admin/firestore');
@@ -93,6 +93,31 @@ exports.naRuchWTurnieju = onDocumentCreated(
         tytul: 'Turniej Piąteczki', tresc: `${p2.ksywka} czeka na dogranie przez Ciebie!`, url,
       });
     }
+  },
+);
+
+// Ręczne "szturchnięcie" — przycisk Powiadom gracza na ekranie oczekiwania.
+// Osobna ścieżka od naRuchWTurnieju wyżej: tu żaden nowy ruch nie powstaje,
+// czekający gracz sam prosi appkę o wysłanie przypomnienia drugiej stronie.
+exports.naProsbePowiadomienia = onDocumentCreated(
+  'pojedynki/{pojedynekId}/prosby/{prosbaId}',
+  async (zdarzenie) => {
+    const { pojedynekId } = zdarzenie.params;
+    const od = zdarzenie.data?.data()?.od;
+    if (od !== 'p1' && od !== 'p2') return;
+
+    const pojedynekRef = db.collection('pojedynki').doc(pojedynekId);
+    const graczeSnap = await pojedynekRef.collection('gracze').get();
+    const gracze = graczeSnap.docs.map((d) => d.data());
+    const nadawca = gracze.find((g) => g.rola === od);
+    const odbiorca = gracze.find((g) => g.rola !== od);
+    if (!nadawca || !odbiorca) return;
+
+    await wyslij(await pobierzTokeny(odbiorca.ksywka), {
+      tytul: 'Turniej Piąteczki',
+      tresc: `${nadawca.ksywka} czeka na Twój ruch!`,
+      url: `./#/turniej/${pojedynekId}`,
+    });
   },
 );
 

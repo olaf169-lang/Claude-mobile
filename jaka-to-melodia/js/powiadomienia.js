@@ -29,10 +29,15 @@ export function powiadomieniaWlaczone() {
   return wspierane() && Notification.permission === 'granted' && localStorage.getItem('jtm:powiadomieniaToken') != null;
 }
 
-/** Prosi o zgodę (jeśli jeszcze nie ma odpowiedzi) i zapisuje token FCM
-    w Firestore pod daną ksywką — tam Cloud Function będzie go szukać, gdy
-    przyjdzie pora komuś coś wysłać. Zwraca true, jeśli udało się włączyć. */
-export async function wlaczPowiadomienia(ksywka) {
+/** Prosi o zgodę (jeśli jeszcze nie ma odpowiedzi) i pobiera token FCM —
+    to działa BEZ znanej ksywki, żeby dało się włączyć powiadomienia od razu,
+    zanim ktoś w ogóle zagra. Sam zapis w Firestore (żeby Cloud Function
+    wiedziała, komu wysłać) wymaga ksywki i dopisuje się dopiero, gdy jest
+    znana — patrz odswiezTokenPowiadomien() w turniej.js, które wywołuje to
+    ponownie z tą samą (bo getToken() jest idempotentny) ksywką w momencie,
+    gdy appka się jej dowiaduje. Zwraca true, jeśli zgoda i token są gotowe,
+    niezależnie od tego, czy zapis w Firestore już poszedł. */
+export async function wlaczPowiadomienia(ksywka = '') {
   if (!wspierane()) return false;
   if (KLUCZ_VAPID.startsWith('WKLEJ_TU')) return false; // jeszcze nie skonfigurowane w konsoli
 
@@ -46,11 +51,12 @@ export async function wlaczPowiadomienia(ksywka) {
   const messaging = getMessaging(app);
   const token = await getToken(messaging, { vapidKey: KLUCZ_VAPID, serviceWorkerRegistration: rejestracja });
   if (!token) return false;
+  localStorage.setItem('jtm:powiadomieniaToken', token);
 
+  if (!ksywka) return true;
   const { db, f } = await baza();
   await f.setDoc(f.doc(db, 'tokenyPush', token), {
     token, ksywka, urzadzenie: idUrzadzenia(), zapisano: f.serverTimestamp(),
   });
-  localStorage.setItem('jtm:powiadomieniaToken', token);
   return true;
 }
