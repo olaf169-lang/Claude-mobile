@@ -789,11 +789,23 @@ main {
 }
 .ranking .kto-blok { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: .1rem; }
 .ranking .kto { overflow-wrap: anywhere; font-weight: 500; }
+.ranking .wiersz-rundy { display: flex; align-items: baseline; flex-wrap: wrap; gap: .1rem .5rem; }
 .ranking .staty-rundy {
   font-size: .78rem;
   font-weight: 600;
   color: var(--tekst-ledwie);
   font-variant-numeric: tabular-nums;
+}
+/* Sama seria trafień rośnie i się rozżarza wraz z wysokością streaka —
+   --strk leci od 0 (dwa trafienia z rzędu) do 1 (siedem i więcej), ustawiane
+   z JS przy tworzeniu odznaki (patrz wezelStreaka w ui.js). */
+.streak-rundy {
+  --strk: 0;
+  font-family: var(--naglowkowy);
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  font-size: calc(.78rem + var(--strk) * .5rem);
+  color: color-mix(in srgb, var(--tekst-ledwie), var(--magenta) calc(var(--strk) * 100%));
 }
 .ranking .ile {
   font-family: var(--naglowkowy);

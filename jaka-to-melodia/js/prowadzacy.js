@@ -12,6 +12,7 @@
 
 import {
   $, $$, el, wyczysc, pokazEkran, powiadom, odmiana, stuknij, trzymajEkran, utnijZnaki, formatujCzasS,
+  wezelStreaka,
 } from './ui.js';
 import { KATEGORIE, DEKADY, przygotujKatalog } from './katalog.js';
 import {
@@ -255,7 +256,7 @@ export function uruchom() {
     } else {
       stan.gracze.set(ID_PROWADZACEGO, {
         id: ID_PROWADZACEGO, ksywka, punkty: 0, trafienia: 0, seria: 0,
-        trafieniaRunda: 0, sumaCzasuTrafienRundaMs: 0, widziany: Date.now(),
+        trafieniaRunda: 0, sumaCzasuTrafienRundaMs: 0, seriaMaxRunda: 0, widziany: Date.now(),
       });
     }
     if (stan.faza === 'lobby') { rysujLobby(); nadajStan(); }
@@ -402,6 +403,7 @@ export function uruchom() {
     ...lekkiWpis(g),
     trafienRundy: g.trafieniaRunda,
     sredniCzasRundyMs: g.trafieniaRunda ? Math.round(g.sumaCzasuTrafienRundaMs / g.trafieniaRunda) : null,
+    streakMax: g.seriaMaxRunda,
   });
 
   /* ----------------------------------------------- wiadomości od telefonów */
@@ -435,7 +437,7 @@ export function uruchom() {
       }
       gracz = {
         id, ksywka: czysta, punkty: 0, trafienia: 0, seria: 0,
-        trafieniaRunda: 0, sumaCzasuTrafienRundaMs: 0, widziany: Date.now(),
+        trafieniaRunda: 0, sumaCzasuTrafienRundaMs: 0, seriaMaxRunda: 0, widziany: Date.now(),
       };
       stan.gracze.set(id, gracz);
       if (stan.faza !== 'lobby') powiadom(`${czysta} dołącza w trakcie.`);
@@ -495,7 +497,7 @@ export function uruchom() {
 
     for (const gracz of stan.gracze.values()) {
       gracz.punkty = 0; gracz.trafienia = 0; gracz.seria = 0;
-      gracz.trafieniaRunda = 0; gracz.sumaCzasuTrafienRundaMs = 0;
+      gracz.trafieniaRunda = 0; gracz.sumaCzasuTrafienRundaMs = 0; gracz.seriaMaxRunda = 0;
     }
     stan.pominieteId = new Set();
     stan.nrRundyGry = 0;
@@ -609,6 +611,7 @@ export function uruchom() {
     for (const gracz of stan.gracze.values()) {
       gracz.trafieniaRunda = 0;
       gracz.sumaCzasuTrafienRundaMs = 0;
+      gracz.seriaMaxRunda = 0;
     }
 
     stan.nrPytania = -1;
@@ -801,6 +804,7 @@ export function uruchom() {
       const odpowiedz = stan.odpowiedzi.get(gracz.id);
       const trafil = odpowiedz?.wybor === pytanie.poprawna;
       gracz.seria = trafil ? gracz.seria + 1 : 0;
+      gracz.seriaMaxRunda = Math.max(gracz.seriaMaxRunda, gracz.seria);
       const punkty = punktyZaOdpowiedz({
         poprawna: trafil,
         czasMs: odpowiedz?.czasMs ?? stan.limitMs,
@@ -946,11 +950,14 @@ export function uruchom() {
     tabela.forEach((gracz, i) => {
       const dzieciKto = [el('span', { klasa: 'kto', tekst: gracz.ksywka })];
       if (statystykiRundy) {
-        dzieciKto.push(el('span', {
+        const wiersz2 = [el('span', {
           klasa: 'staty-rundy',
           tekst: tekstStatystykRundy(gracz.trafieniaRunda, pytanRundy, gracz.trafieniaRunda
             ? Math.round(gracz.sumaCzasuTrafienRundaMs / gracz.trafieniaRunda) : null),
-        }));
+        })];
+        const streak = wezelStreaka(gracz.seriaMaxRunda);
+        if (streak) wiersz2.push(streak);
+        dzieciKto.push(el('span', { klasa: 'wiersz-rundy' }, wiersz2));
       }
       const wiersz = el('li', { 'data-miejsce': gracz.miejsce, 'data-ja': gracz.id === mojeId ? 'tak' : 'nie' }, [
         el('span', { klasa: 'miejsce', tekst: `${gracz.miejsce}.` }),

@@ -321,17 +321,23 @@ try {
   // lecą przez sieć.
   const wierszeRundyHost = await host.$$eval('#ranking-rundy li', (n) => n.map((li) => ({
     kto: li.querySelector('.kto')?.textContent, staty: li.querySelector('.staty-rundy')?.textContent,
+    streak: li.querySelector('.streak-rundy')?.textContent,
   })));
-  const statyZosiHost = wierszeRundyHost.find((w) => w.kto === 'Zosia')?.staty;
-  assert.match(statyZosiHost || '', /^3\/5 · śr\. \d+,\d s$/,
-    `statystyki rundy dla Zosi (prowadzący) nie pokazują 3/5 z czasem: „${statyZosiHost}”`);
+  const zosiaHost = wierszeRundyHost.find((w) => w.kto === 'Zosia');
+  assert.match(zosiaHost?.staty || '', /^3\/5 · śr\. \d+,\d s$/,
+    `statystyki rundy dla Zosi (prowadzący) nie pokazują 3/5 z czasem: „${zosiaHost?.staty}”`);
+  // Trafienia na 3. i 4. pytaniu z rzędu (2. i 5. to pudła/brak odpowiedzi) —
+  // najdłuższa seria tej rundy to dwa trafienia pod rząd.
+  assert.match(zosiaHost?.streak || '', /×2$/,
+    `najdłuższa seria Zosi (prowadzący) nie pokazuje ×2: „${zosiaHost?.streak}”`);
   const wierszeRundyGracz = await gracze[0].strona.$$eval('#ranking-gracza-rundy li', (n) => n.map((li) => ({
     kto: li.querySelector('.kto')?.textContent, staty: li.querySelector('.staty-rundy')?.textContent,
+    streak: li.querySelector('.streak-rundy')?.textContent,
   })));
-  const statyZosiGracz = wierszeRundyGracz.find((w) => w.kto === 'Zosia')?.staty;
-  assert.equal(statyZosiGracz, statyZosiHost,
-    `statystyki rundy u Zosi na telefonie (${statyZosiGracz}) nie zgadzają się z ekranem prowadzącego (${statyZosiHost})`);
-  zapisz(`statystyki rundy: Zosia ${statyZosiHost}`);
+  const zosiaGracz = wierszeRundyGracz.find((w) => w.kto === 'Zosia');
+  assert.deepEqual(zosiaGracz, zosiaHost,
+    `statystyki rundy u Zosi na telefonie (${JSON.stringify(zosiaGracz)}) nie zgadzają się z ekranem prowadzącego (${JSON.stringify(zosiaHost)})`);
+  zapisz(`statystyki rundy: Zosia ${zosiaHost.staty}, seria ${zosiaHost.streak}`);
   assert.equal((await host.textContent('#dalej-po-rundzie')).trim(), 'Zobacz wynik gry',
     'jedna runda w grze, a przycisk nie prowadzi do końcowego podsumowania');
   const ostatnie = oczekiwanaSeria[oczekiwanaSeria.length - 1];

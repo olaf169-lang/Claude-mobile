@@ -93,6 +93,10 @@ faktycznego startu utworu, nie od pojawienia się pytania na ekranie — te dwa
 momenty dzieli chwila potrzebna na znalezienie adresu nagrania, więc bez tej
 korekty średnia wyglądałaby na gorszą, niż naprawdę była.
 
+Tam też widać najdłuższą serię trafień z rzędu w tej rundzie (np. **🔥 ×4**) —
+im dłuższa, tym większa i bardziej intensywnie zabarwiona odznaka. Poniżej
+dwóch trafień pod rząd odznaka się nie pokazuje — to jeszcze nie seria.
+
 ## Skąd bierze się muzyka
 
 Z trzydziestosekundowych fragmentów, które sklepy muzyczne udostępniają publicznie
