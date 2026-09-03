@@ -347,16 +347,14 @@ export function uruchom() {
         ksywka: stan.wybierajacy ? stan.gracze.get(stan.wybierajacy)?.ksywka || null : null,
         sterujeProwadzacy,
         probaTematu: stan.probaTematu,
-        // Telefon wylosowanego gracza rysuje panel wyboru z tych gotowych opisów —
-        // sam nie musi znać katalogu ani stałych KATEGORIE/DEKADY. Idziemy po
-        // kanonicznej kolejności tych stałych (nie po stan.ustawienia.kategorie/
-        // dekady) — inaczej kolejność zależałaby od tego, w jakiej kolejności
-        // ktoś klikał kategorie w Ustawieniach, a dekady wychodziłyby pomieszane.
+        // Urządzenie wylosowanego gracza rysuje panel wyboru z tych gotowych
+        // opisów — samo nie musi znać katalogu ani stałych KATEGORIE/DEKADY.
+        // Cały katalog, nie tylko to, co zaznaczono w Ustawieniach na starcie
+        // gry — każda runda wybiera dowolnie z pełnej listy (patrz komentarz
+        // w wylosujTemat()).
         kategorieDostepne: KATEGORIE
-          .filter((k) => stan.ustawienia.kategorie.includes(k.id))
           .map((k) => ({ id: k.id, nazwa: k.nazwa, emoji: k.emoji, specjalna: k.specjalna || false })),
         dekadyDostepne: DEKADY
-          .filter((d) => stan.ustawienia.dekady.includes(d.id))
           .map((d) => ({ id: d.id, nazwa: d.nazwa })),
         dlugoscSerii: stan.ustawienia.dlugoscSerii,
       });
@@ -433,7 +431,7 @@ export function uruchom() {
 
     if (!gracz) {
       if (stan.gracze.size >= MAKS_GRACZY) {
-        pokoj.nadaj({ t: 'pelno', id, powod: `Komplet — ${MAKS_GRACZY} telefonów to maksimum.` });
+        pokoj.nadaj({ t: 'pelno', id, powod: `Komplet — ${MAKS_GRACZY} urządzeń to maksimum.` });
         return;
       }
       gracz = {
@@ -534,7 +532,10 @@ export function uruchom() {
 
     if (jaSteruje) {
       $('#wybor-tematu-tytul').textContent = 'Wybierz temat rundy';
-      stan.wybor = { kategorie: [...stan.ustawienia.kategorie], dekady: [...stan.ustawienia.dekady] };
+      // Ta runda wybiera z całego katalogu, nie tylko z tego, co zaznaczono
+      // w Ustawieniach na starcie gry — inaczej wąski wybór na starcie
+      // zamykałby wszystkie kolejne rundy w tym samym wąskim temacie.
+      stan.wybor = { kategorie: KATEGORIE.map((k) => k.id), dekady: DEKADY.map((d) => d.id) };
       rysujWyborTematu();
     } else {
       $('#wybor-tematu-tytul').textContent = 'Kto wybiera temat?';
@@ -549,11 +550,11 @@ export function uruchom() {
   }
 
   function rysujWyborTematu() {
-    // Kanoniczna kolejność KATEGORIE/DEKADY, nie stan.ustawienia.kategorie/dekady —
-    // ta druga zależy od tego, w jakiej kolejności ktoś klikał w Ustawieniach.
+    // Runda wybiera z całego katalogu (KATEGORIE/DEKADY), nie tylko z tego,
+    // co zaznaczono w Ustawieniach na starcie gry — patrz komentarz przy
+    // ustawianiu stan.wybor w wylosujTemat().
     const kategorie = wyczysc($('#wybor-tematu-kategorii'));
     for (const kat of KATEGORIE) {
-      if (!stan.ustawienia.kategorie.includes(kat.id)) continue;
       const id = kat.id;
       kategorie.append(znaczek(`${kat.emoji} ${kat.nazwa}`, stan.wybor.kategorie.includes(id), () => {
         stan.wybor.kategorie = przelacz(stan.wybor.kategorie, id);
@@ -563,7 +564,6 @@ export function uruchom() {
 
     const dekady = wyczysc($('#wybor-tematu-dekad'));
     for (const dek of DEKADY) {
-      if (!stan.ustawienia.dekady.includes(dek.id)) continue;
       const id = dek.id;
       dekady.append(znaczek(dek.nazwa, stan.wybor.dekady.includes(id), () => {
         stan.wybor.dekady = przelacz(stan.wybor.dekady, id);
@@ -580,7 +580,7 @@ export function uruchom() {
   }
 
   $('#temat-wszystko').addEventListener('click', () => {
-    stan.wybor = { kategorie: [...stan.ustawienia.kategorie], dekady: [...stan.ustawienia.dekady] };
+    stan.wybor = { kategorie: KATEGORIE.map((k) => k.id), dekady: DEKADY.map((d) => d.id) };
     rysujWyborTematu();
   });
   $('#zacznij-runde').addEventListener('click', () => zacznijRunde(stan.wybor));

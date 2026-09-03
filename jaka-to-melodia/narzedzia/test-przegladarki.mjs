@@ -516,9 +516,10 @@ try {
   /* ====================================================================
      SCENARIUSZ 4 — muzyka filmowa. Wyjątek od zwykłych pytań: na ekranie
      jawnie widać tytuł albo wykonawcę (drugie zostaje tajemnicą), a zgadnąć
-     trzeba film, w którym ten utwór usłyszysz. Temat zawężony do samej
-     kategorii „filmowa” w Ustawieniach, więc panel wyboru tematu rundy i tak
-     ma tylko jedną opcję — „Wszystko” wystarczy.
+     trzeba film, w którym ten utwór usłyszysz. Panel wyboru tematu rundy
+     pokazuje cały katalog niezależnie od tego, co zaznaczono w Ustawieniach
+     (każda runda wybiera dowolnie, patrz rysujWyborTematu w prowadzacy.js) —
+     więc temat do samej „filmowej” zawężamy osobno na obu ekranach.
      ==================================================================== */
 
   const filmowiec = await nowaKarta('Filmowiec', 420, 920);
@@ -543,7 +544,11 @@ try {
   await filmowiec.waitForSelector('[data-ekran="lobby"]:not([hidden])', { timeout: 20_000 });
   await filmowiec.click('#zacznij-gre');
   await filmowiec.waitForSelector('[data-ekran="wybor-tematu"]:not([hidden])', { timeout: 10_000 });
-  await filmowiec.click('#temat-wszystko');
+  // Panel wyboru tematu rundy pokazuje cały katalog niezależnie od Ustawień —
+  // zawężamy tu osobno, tak samo jak wcześniej w Ustawieniach.
+  const nieFilmoweRundy = await filmowiec.$$eval('#wybor-tematu-kategorii .znaczek',
+    (n) => n.flatMap((e, i) => (e.textContent.includes('Filmowa') ? [] : [i])));
+  for (const nth of nieFilmoweRundy) await filmowiec.click(`#wybor-tematu-kategorii .znaczek >> nth=${nth}`);
   await filmowiec.click('#zacznij-runde');
   await filmowiec.waitForSelector('[data-ekran="runda"]:not([hidden])', { timeout: 10_000 });
 
