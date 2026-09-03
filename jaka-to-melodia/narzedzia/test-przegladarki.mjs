@@ -313,6 +313,25 @@ try {
   await zrzut(gracze[0].strona, 'ekran-wyniki-rundy-gracz');
   const podiumRundy = await host.$$eval('#podium-rundy .stopien .kto', (n) => n.map((e) => e.textContent));
   assert.ok(podiumRundy.length >= 1, 'brak podium na ekranie wyników rundy');
+
+  // Zosia klikała poprawną odpowiedź na pytaniach 1, 3 i 4 — na 2. i 5. nikt
+  // w jej imieniu nic nie kliknął (patrz wyżej: telefon spóźnialskiego i
+  // ostatnie pytanie serii) — więc statystyki rundy powinny pokazać 3/5,
+  // ze średnim czasem, i to samo na jej własnym telefonie, dokąd te liczby
+  // lecą przez sieć.
+  const wierszeRundyHost = await host.$$eval('#ranking-rundy li', (n) => n.map((li) => ({
+    kto: li.querySelector('.kto')?.textContent, staty: li.querySelector('.staty-rundy')?.textContent,
+  })));
+  const statyZosiHost = wierszeRundyHost.find((w) => w.kto === 'Zosia')?.staty;
+  assert.match(statyZosiHost || '', /^3\/5 · śr\. \d+,\d s$/,
+    `statystyki rundy dla Zosi (prowadzący) nie pokazują 3/5 z czasem: „${statyZosiHost}”`);
+  const wierszeRundyGracz = await gracze[0].strona.$$eval('#ranking-gracza-rundy li', (n) => n.map((li) => ({
+    kto: li.querySelector('.kto')?.textContent, staty: li.querySelector('.staty-rundy')?.textContent,
+  })));
+  const statyZosiGracz = wierszeRundyGracz.find((w) => w.kto === 'Zosia')?.staty;
+  assert.equal(statyZosiGracz, statyZosiHost,
+    `statystyki rundy u Zosi na telefonie (${statyZosiGracz}) nie zgadzają się z ekranem prowadzącego (${statyZosiHost})`);
+  zapisz(`statystyki rundy: Zosia ${statyZosiHost}`);
   assert.equal((await host.textContent('#dalej-po-rundzie')).trim(), 'Zobacz wynik gry',
     'jedna runda w grze, a przycisk nie prowadzi do końcowego podsumowania');
   const ostatnie = oczekiwanaSeria[oczekiwanaSeria.length - 1];

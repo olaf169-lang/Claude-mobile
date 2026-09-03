@@ -10,7 +10,9 @@
    w połowie albo na moment stracił zasięg, dostraja się sam, bez proszenia.
    ========================================================================== */
 
-import { $, $$, el, wyczysc, pokazEkran, powiadom, odmiana, stuknij, trzymajEkran } from './ui.js';
+import {
+  $, $$, el, wyczysc, pokazEkran, powiadom, odmiana, stuknij, trzymajEkran, utnijZnaki, formatujCzasS,
+} from './ui.js';
 import { KATEGORIE, DEKADY, przygotujKatalog } from './katalog.js';
 import {
   USTAWIENIA_DOMYSLNE, CZASY_ODPOWIEDZI, LICZBY_RUND, DLUGOSCI_SERII, MAKS_GRACZY,
@@ -19,6 +21,7 @@ import {
 import { PokojProwadzacego, BROKERY, adresDolaczenia } from './siec.js';
 import { ZrodloPodgladow } from './podglady.js';
 import { Odtwarzacz, DLUGOSC_PODGLADU_MS } from './odtwarzacz.js';
+import { swietuj, odblokujDzwiekSwieta } from './swietowanie.js';
 import { kodQr } from './qr.js';
 
 const KSZTALTY = ['▲', '◆', '●', '■'];
@@ -66,6 +69,7 @@ export function uruchom() {
     nagranieBiezace: null,   // { url, startS } rozsyłane graczom, gdy „muzykaWszedzie” jest włączona
     blokadaEkranu: null,
     pokazanoRunde: 0,        // od tego momentu liczy się czas odpowiedzi prowadzącego
+    opoznienieStartuMs: 0,   // ile trwało, zanim ruszył utwór — patrz statystyki rundy w odslon()
   };
 
   let tykanie = null;
@@ -228,7 +232,7 @@ export function uruchom() {
   });
 
   $('#ksywka-prowadzacego').addEventListener('input', (z) => {
-    stan.ustawienia.ksywkaProwadzacego = z.target.value.slice(0, 14);
+    stan.ustawienia.ksywkaProwadzacego = utnijZnaki(z.target.value, 14);
     zsynchronizujProwadzacego();
     zapiszUstawienia();
   });
@@ -240,7 +244,7 @@ export function uruchom() {
    */
   function zsynchronizujProwadzacego() {
     const gra = stan.ustawienia.prowadzacyGra;
-    const ksywka = (stan.ustawienia.ksywkaProwadzacego || '').trim().slice(0, 14) || 'Ja';
+    const ksywka = utnijZnaki((stan.ustawienia.ksywkaProwadzacego || '').trim(), 14) || 'Ja';
     const wpis = stan.gracze.get(ID_PROWADZACEGO);
 
     if (!gra) {
@@ -250,7 +254,8 @@ export function uruchom() {
       wpis.widziany = Date.now();
     } else {
       stan.gracze.set(ID_PROWADZACEGO, {
-        id: ID_PROWADZACEGO, ksywka, punkty: 0, trafienia: 0, seria: 0, widziany: Date.now(),
+        id: ID_PROWADZACEGO, ksywka, punkty: 0, trafienia: 0, seria: 0,
+        trafieniaRunda: 0, sumaCzasuTrafienRundaMs: 0, widziany: Date.now(),
       });
     }
     if (stan.faza === 'lobby') { rysujLobby(); nadajStan(); }
@@ -391,6 +396,14 @@ export function uruchom() {
 
   const lekkiWpis = (g) => ({ id: g.id, ksywka: g.ksywka, punkty: g.punkty, miejsce: g.miejsce });
 
+  /** Jak lekkiWpis, ale z dorzuconymi statystykami tej jednej rundy — na
+      użytek ekranu wyników rundy (u gracza liczy je host, nie on sam). */
+  const lekkiWpisRundy = (g) => ({
+    ...lekkiWpis(g),
+    trafienRundy: g.trafieniaRunda,
+    sredniCzasRundyMs: g.trafieniaRunda ? Math.round(g.sumaCzasuTrafienRundaMs / g.trafieniaRunda) : null,
+  });
+
   /* ----------------------------------------------- wiadomości od telefonów */
 
   pokoj.onStanLacza = (jak) => {
@@ -411,7 +424,7 @@ export function uruchom() {
   };
 
   function przyjmijGracza({ id, ksywka }) {
-    const czysta = String(ksywka || '').trim().slice(0, 14) || 'Ktoś';
+    const czysta = utnijZnaki(String(ksywka || '').trim(), 14) || 'Ktoś';
     if (id === ID_PROWADZACEGO) return;        // to miejsce jest zajęte lokalnie
     let gracz = stan.gracze.get(id);
 
@@ -420,7 +433,10 @@ export function uruchom() {
         pokoj.nadaj({ t: 'pelno', id, powod: `Komplet — ${MAKS_GRACZY} telefonów to maksimum.` });
         return;
       }
-      gracz = { id, ksywka: czysta, punkty: 0, trafienia: 0, seria: 0, widziany: Date.now() };
+      gracz = {
+        id, ksywka: czysta, punkty: 0, trafienia: 0, seria: 0,
+        trafieniaRunda: 0, sumaCzasuTrafienRundaMs: 0, widziany: Date.now(),
+      };
       stan.gracze.set(id, gracz);
       if (stan.faza !== 'lobby') powiadom(`${czysta} dołącza w trakcie.`);
     } else {
@@ -475,9 +491,11 @@ export function uruchom() {
     // Pierwsze odtworzenie musi wyjść z dotknięcia ekranu — jesteśmy właśnie
     // w obsłudze kliknięcia, więc to jedyny dobry moment na rozgrzewkę.
     if (stan.ustawienia.dzwiekWAplikacji) await odtwarzacz.rozgrzej();
+    odblokujDzwiekSwieta(); // ta sama okazja, na wypadek konfetti na koniec gry
 
     for (const gracz of stan.gracze.values()) {
       gracz.punkty = 0; gracz.trafienia = 0; gracz.seria = 0;
+      gracz.trafieniaRunda = 0; gracz.sumaCzasuTrafienRundaMs = 0;
     }
     stan.pominieteId = new Set();
     stan.nrRundyGry = 0;
@@ -586,6 +604,13 @@ export function uruchom() {
     }
     for (const pytanie of stan.seria) stan.pominieteId.add(pytanie.utwor.id);
 
+    // Statystyki „ile trafień w tej rundzie” liczą się od zera przy każdej
+    // rundzie — inaczej od drugiej rundy ułamek nigdy by się nie zamknął.
+    for (const gracz of stan.gracze.values()) {
+      gracz.trafieniaRunda = 0;
+      gracz.sumaCzasuTrafienRundaMs = 0;
+    }
+
     stan.nrPytania = -1;
     stan.limitMs = stan.ustawienia.czasOdpowiedzi * 1000;
     stan.faza = 'odliczanie';
@@ -652,6 +677,11 @@ export function uruchom() {
     stan.pokazanoRunde = performance.now();
 
     if (stan.ustawienia.dzwiekWAplikacji) await puscUtwor(pytanie.utwor);
+    // Ile czasu minęło od pokazania pytania do faktycznego ruszenia utworu —
+    // wyszukanie adresu podglądu chwilę trwa. Statystyki „czas odgadnięcia”
+    // (patrz odslon()) odejmują to opóźnienie, żeby liczyć od muzyki, nie
+    // od samego pojawienia się pytania na ekranie.
+    stan.opoznienieStartuMs = Math.max(0, performance.now() - stan.pokazanoRunde);
 
     stan.koniecRundy = performance.now() + stan.limitMs;
     wlaczZegar();
@@ -692,8 +722,7 @@ export function uruchom() {
       if (jego !== nr) kafelek.dataset.stan = 'przygasla';
       kafelek.disabled = true;
     }
-    const sekundy = (czasMs / 1000).toFixed(1).replace('.', ',');
-    $('#potwierdzenie-hosta').textContent = `Zapisane po ${sekundy} s.`;
+    $('#potwierdzenie-hosta').textContent = `Zapisane po ${formatujCzasS(czasMs)}.`;
     $('#potwierdzenie-hosta').hidden = false;
   }
 
@@ -780,7 +809,12 @@ export function uruchom() {
         bonusSerii: stan.ustawienia.bonusSerii,
       });
       gracz.punkty += punkty;
-      if (trafil) gracz.trafienia += 1;
+      if (trafil) {
+        gracz.trafienia += 1;
+        gracz.trafieniaRunda += 1;
+        const czasOdUtworuMs = Math.max(0, (odpowiedz?.czasMs ?? 0) - (stan.opoznienieStartuMs || 0));
+        gracz.sumaCzasuTrafienRundaMs += czasOdUtworuMs;
+      }
       wyniki[gracz.id] = { punkty, razem: gracz.punkty, trafil, odpowiedzial: Boolean(odpowiedz) };
     }
 
@@ -899,12 +933,28 @@ export function uruchom() {
     }
   }
 
-  function rysujRanking(lista, tabela, mojeId = null, animuj = false) {
+  /** „4/8 · śr. 3,2 s” — ile trafień w tej rundzie i średni czas trafień
+      liczony od startu utworu. Bez średniej, gdy nikt jeszcze nic nie trafił. */
+  function tekstStatystykRundy(trafien, pytan, sredniMs) {
+    const bazowe = `${trafien}/${pytan}`;
+    return sredniMs == null ? bazowe : `${bazowe} · śr. ${formatujCzasS(sredniMs)}`;
+  }
+
+  function rysujRanking(lista, tabela, mojeId = null, animuj = false, statystykiRundy = false) {
     wyczysc(lista);
+    const pytanRundy = stan.seria?.length || 0;
     tabela.forEach((gracz, i) => {
+      const dzieciKto = [el('span', { klasa: 'kto', tekst: gracz.ksywka })];
+      if (statystykiRundy) {
+        dzieciKto.push(el('span', {
+          klasa: 'staty-rundy',
+          tekst: tekstStatystykRundy(gracz.trafieniaRunda, pytanRundy, gracz.trafieniaRunda
+            ? Math.round(gracz.sumaCzasuTrafienRundaMs / gracz.trafieniaRunda) : null),
+        }));
+      }
       const wiersz = el('li', { 'data-miejsce': gracz.miejsce, 'data-ja': gracz.id === mojeId ? 'tak' : 'nie' }, [
         el('span', { klasa: 'miejsce', tekst: `${gracz.miejsce}.` }),
-        el('span', { klasa: 'kto', tekst: gracz.ksywka }),
+        el('span', { klasa: 'kto-blok' }, dzieciKto),
         el('span', { klasa: 'ile', tekst: `${gracz.punkty}` }),
       ]);
       if (animuj) wiersz.style.setProperty('--i', String(i));
@@ -946,7 +996,8 @@ export function uruchom() {
       t: 'wyniki-rundy',
       nrRundyGry: stan.nrRundyGry,
       ileRund: stan.ustawienia.liczbaRund,
-      ranking: tabela.slice(0, 8).map(lekkiWpis),
+      pytanRundy: stan.seria.length,
+      ranking: tabela.slice(0, 8).map(lekkiWpisRundy),
       ostatniaPiosenka,
       ostatniaRunda,
     };
@@ -955,7 +1006,7 @@ export function uruchom() {
     rysujOstatniaPiosenke($('#karta-ostatniej-piosenki'), $('#okladka-rundy'), $('#ostatnia-piosenka-tytul'),
       $('#ostatnia-piosenka-wykonawca'), $('#ostatnia-piosenka-znaczniki'), ostatniaPiosenka);
     rysujPodiumRundy(tabela);
-    rysujRanking($('#ranking-rundy'), tabela, stan.ustawienia.prowadzacyGra ? ID_PROWADZACEGO : null, true);
+    rysujRanking($('#ranking-rundy'), tabela, stan.ustawienia.prowadzacyGra ? ID_PROWADZACEGO : null, true, true);
     $('#dalej-po-rundzie').textContent = ostatniaRunda ? 'Zobacz wynik gry' : 'Następna runda';
 
     nadajStan();
@@ -1023,6 +1074,13 @@ export function uruchom() {
         el('span', { klasa: 'kto', tekst: gracz.ksywka }),
         el('span', { klasa: 'ile', tekst: `${gracz.punkty} pkt` }),
       ]));
+    }
+
+    // Prowadzący, który sam gra, ma na tym ekranie to samo osobiste podsumowanie
+    // co reszta graczy (patrz pokazWerdyktProwadzacego) — konfetti też mu się należą.
+    if (stan.ustawienia.prowadzacyGra) {
+      const moje = tabela.find((g) => g.id === ID_PROWADZACEGO);
+      if (moje) swietuj(moje.miejsce);
     }
 
     rysujRanking($('#ranking-koncowy'), tabela, stan.ustawienia.prowadzacyGra ? ID_PROWADZACEGO : null);

@@ -351,11 +351,20 @@ main {
 .stopka-ekranu .klawisz { flex: 1; }
 .stopka-ekranu .glowny { flex: 1.4; }
 
+/* Stopka „doklejona” do dołu ekranu (odsłona, wyniki rundy) rozlewa się na
+   całą szerokość i rozmywa to, co jest pod nią (kolorowe poświaty z .tlo) —
+   inaczej płaskie tło gradientu kończyło się widocznym, kanciastym prostokątem
+   na tle tych poświat. Zaokrąglona górna krawędź czyta się jako karta, a nie
+   przypadkowe cięcie. */
 .stopka-ekranu.przyklejona {
   position: sticky;
   bottom: 0;
-  padding: .8rem 0 calc(.4rem + env(safe-area-inset-bottom));
-  background: linear-gradient(180deg, transparent, var(--tlo) 38%);
+  margin: 0 -1.1rem;
+  padding: 1.5rem 1.1rem calc(.7rem + env(safe-area-inset-bottom));
+  border-radius: var(--r) var(--r) 0 0;
+  background: linear-gradient(180deg, transparent, var(--tlo) 70%);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
 }
 
 /* ------------------------------------------------------------------ pomoc */
@@ -395,6 +404,23 @@ main {
   font-size: .96rem;
   font-weight: 600;
   color: var(--tekst-cichy);
+}
+
+/* Bez tego ludzie klikają znaczki, bo myślą, że trzeba je „zaznaczyć” — a
+   domyślnie wszystkie już grają. Słowo w tekście dostaje ten sam gradient
+   co same wybrane znaczki, żeby skojarzenie kolor → stan było natychmiastowe. */
+.podpowiedz-wyboru {
+  margin: .2rem 0 0;
+  font-size: .92rem;
+  line-height: 1.45;
+  color: var(--tekst-cichy);
+}
+.wybrane-slowo {
+  font-weight: 700;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .znaczki { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .7rem; }
@@ -761,7 +787,14 @@ main {
   color: var(--tekst-ledwie);
   font-variant-numeric: tabular-nums;
 }
-.ranking .kto { flex: 1; min-width: 0; overflow-wrap: anywhere; font-weight: 500; }
+.ranking .kto-blok { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: .1rem; }
+.ranking .kto { overflow-wrap: anywhere; font-weight: 500; }
+.ranking .staty-rundy {
+  font-size: .78rem;
+  font-weight: 600;
+  color: var(--tekst-ledwie);
+  font-variant-numeric: tabular-nums;
+}
 .ranking .ile {
   font-family: var(--naglowkowy);
   font-weight: 700;
