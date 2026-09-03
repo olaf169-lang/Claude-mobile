@@ -60,6 +60,18 @@ export function powiadom(tekst, rodzaj = 'info') {
   znikanie = setTimeout(() => { pasek.hidden = true; }, 4200);
 }
 
+/** Przycina tekst do `dlugosc` znaków licząc po code pointach, nie jednostkach
+    UTF-16 — zwykły `.slice()` potrafi rozciąć emoji w połowie (większość
+    zajmuje dwie jednostki) i zostawić po nim szpetny, połamany znak. */
+export function utnijZnaki(tekst, dlugosc) {
+  return Array.from(String(tekst)).slice(0, dlugosc).join('');
+}
+
+/** „3,2 s” — czas w sekundach z przecinkiem, po polsku. */
+export function formatujCzasS(ms) {
+  return `${(ms / 1000).toFixed(1).replace('.', ',')} s`;
+}
+
 /** Delikatne stuknięcie — Android potrafi, iPhone udaje, że nie słyszał. */
 export function stuknij(wzor = 12) {
   try { navigator.vibrate?.(wzor); } catch { /* nieistotne */ }

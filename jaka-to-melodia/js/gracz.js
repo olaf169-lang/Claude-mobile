@@ -13,9 +13,12 @@
    jedną z czterech odpowiedzi albo zaznaczyć temat swojej rundy.
    ========================================================================== */
 
-import { $, el, wyczysc, pokazEkran, biezacyEkran, powiadom, stuknij, trzymajEkran } from './ui.js';
+import {
+  $, el, wyczysc, pokazEkran, biezacyEkran, powiadom, stuknij, trzymajEkran, utnijZnaki, formatujCzasS,
+} from './ui.js';
 import { PokojGracza, idUrzadzenia } from './siec.js';
 import { Odtwarzacz } from './odtwarzacz.js';
+import { swietuj, odblokujDzwiekSwieta } from './swietowanie.js';
 
 const KSZTALTY = ['▲', '◆', '●', '■'];
 const ODSTEP_PUKANIA_MS = 6000;
@@ -67,7 +70,7 @@ export function uruchom() {
   $('#formularz-dolaczenia').addEventListener('submit', async (zdarzenie) => {
     zdarzenie.preventDefault();
     const kod = $('#pole-kodu').value.trim().toUpperCase();
-    const ksywka = $('#pole-ksywki').value.trim().slice(0, 14);
+    const ksywka = utnijZnaki($('#pole-ksywki').value.trim(), 14);
     if (kod.length !== 4 || !ksywka) {
       powiadom('Wpisz czteroznakowy kod i swoją ksywkę.', 'blad');
       return;
@@ -328,6 +331,10 @@ export function uruchom() {
     // prowadzący włączył „muzykę wszędzie”, ten klik i tak jest prawdziwym
     // dotknięciem ekranu — następne pytanie ma wtedy szansę zagrać.
     if (stan.nagranieOczekiwane && !odtwarzacz.rozgrzany) odtwarzacz.rozgrzej();
+    // Ta sama sztuczka co wyżej, tylko dla ewentualnych konfetti na koniec gry —
+    // ekran wyników przychodzi sam z sieci, bez dotknięcia, więc dźwięk trzeba
+    // odblokować wcześniej, przy pierwszej nadarzającej się okazji.
+    odblokujDzwiekSwieta();
     stan.wybor = nr;
     const czasMs = Math.round(stan.offsetMs + (performance.now() - stan.pokazano));
     pokoj.nadaj({ t: 'odp', id: mojeId, nr: stan.nrPytania, wybor: nr, czasMs });
@@ -339,8 +346,7 @@ export function uruchom() {
       if (jego !== nr) kafelek.dataset.stan = 'przygasla';
       kafelek.disabled = true;
     }
-    const sekundy = (czasMs / 1000).toFixed(1).replace('.', ',');
-    $('#potwierdzenie').textContent = `Zapisane po ${sekundy} s. Czekamy na resztę.`;
+    $('#potwierdzenie').textContent = `Zapisane po ${formatujCzasS(czasMs)}. Czekamy na resztę.`;
     $('#potwierdzenie').hidden = false;
   }
 
@@ -471,9 +477,14 @@ export function uruchom() {
 
     const lista = wyczysc($('#ranking-gracza-rundy'));
     tabela.forEach((gracz, i) => {
+      const bazowe = `${gracz.trafienRundy ?? 0}/${wiadomosc.pytanRundy ?? 0}`;
+      const staty = gracz.sredniCzasRundyMs == null ? bazowe : `${bazowe} · śr. ${formatujCzasS(gracz.sredniCzasRundyMs)}`;
       const wiersz = el('li', { 'data-miejsce': gracz.miejsce, 'data-ja': gracz.id === mojeId ? 'tak' : 'nie' }, [
         el('span', { klasa: 'miejsce', tekst: `${gracz.miejsce}.` }),
-        el('span', { klasa: 'kto', tekst: gracz.ksywka }),
+        el('span', { klasa: 'kto-blok' }, [
+          el('span', { klasa: 'kto', tekst: gracz.ksywka }),
+          el('span', { klasa: 'staty-rundy', tekst: staty }),
+        ]),
         el('span', { klasa: 'ile', tekst: String(gracz.punkty) }),
       ]);
       wiersz.style.setProperty('--i', String(i));
@@ -492,6 +503,8 @@ export function uruchom() {
     const tabela = wiadomosc.ranking || [];
     const ja = tabela.find((g) => g.id === mojeId);
 
+    if (ja?.miejsce) swietuj(ja.miejsce);
+
     const werdykt = $('#werdykt-koncowy');
     werdykt.dataset.jak = ja?.miejsce === 1 ? 'dobrze' : 'brak';
     werdykt.textContent = ['🥇', '🥈', '🥉'][(ja?.miejsce ?? 9) - 1] || '🎵';
@@ -503,7 +516,7 @@ export function uruchom() {
     for (const gracz of tabela) {
       lista.append(el('li', { 'data-miejsce': gracz.miejsce, 'data-ja': gracz.id === mojeId ? 'tak' : 'nie' }, [
         el('span', { klasa: 'miejsce', tekst: `${gracz.miejsce}.` }),
-        el('span', { klasa: 'kto', tekst: gracz.ksywka }),
+        el('span', { klasa: 'kto-blok' }, [el('span', { klasa: 'kto', tekst: gracz.ksywka })]),
         el('span', { klasa: 'ile', tekst: String(gracz.punkty) }),
       ]));
     }

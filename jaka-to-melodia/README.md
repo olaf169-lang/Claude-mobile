@@ -18,7 +18,7 @@ Bez instalowania czegokolwiek: goście skanują kod QR i już grają.
 1. **Prowadzący** ustawia długość serii, liczbę rund i czas na odpowiedź, po czym
    otwiera pokój. Jego telefon warto podpiąć do głośnika — to z niego leci muzyka.
 2. **Goście** skanują kod QR albo wchodzą na tę samą stronę i wpisują czteroznakowy
-   kod pokoju oraz swoją ksywkę.
+   kod pokoju oraz swoją ksywkę (emoji jak najbardziej można).
 3. Na początku każdej rundy ktoś wybiera jej temat — kategorie i dekady (np. „rock
    i rap, lata 80. i 90.”) albo po prostu wszystko. Potem krótkie odliczanie 3-2-1.
 4. Leci fragment, na telefonach pojawiają się cztery odpowiedzi. Zegar tyka.
@@ -26,6 +26,8 @@ Bez instalowania czegokolwiek: goście skanują kod QR i już grają.
    trafił i jak wygląda tabela — a utwór jeszcze chwilę gra w tle.
 6. Gdy seria się skończy, wszyscy widzą podium i tabelę tej rundy — a potem albo
    kolejna runda z nowym tematem, albo, po ostatniej, podsumowanie całej gry.
+   Kto skończy grę na podium, dostaje na swoim telefonie konfetti i krótką
+   fanfarkę — złotą za pierwsze miejsce, ciszej srebrną i brązową za kolejne.
 
 Miejsca jest na **20 telefonów**, wygodnie gra się do czternastu. Każdy potrzebuje
 internetu, ale niekoniecznie tego samego wi-fi — telefony spotykają się przez
@@ -84,6 +86,12 @@ ekranie. Wolniejsze łącze nie zabiera więc punktów.
 
 Opcjonalny **bonus za serię** dokłada +10 za każde kolejne trafienie z rzędu,
 maksymalnie +50.
+
+Na ekranie wyników rundy, obok punktów, widać też ile pytań tej rundy ktoś
+trafił (np. **4/8**) i średni czas trafienia. Ten czas liczy się od
+faktycznego startu utworu, nie od pojawienia się pytania na ekranie — te dwa
+momenty dzieli chwila potrzebna na znalezienie adresu nagrania, więc bez tej
+korekty średnia wyglądałaby na gorszą, niż naprawdę była.
 
 ## Skąd bierze się muzyka
 
