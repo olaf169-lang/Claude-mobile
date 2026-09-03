@@ -304,7 +304,7 @@ export function uruchom() {
       const udzial = zostalo / stan.limitMs;
       wskaz.style.strokeDashoffset = String(obwod * (1 - udzial));
       $('#wyzwanie-zegar-liczba').textContent = String(Math.ceil(zostalo / 1000));
-      $('#wyzwanie-runda .zegar').dataset.koniec = udzial > 0.34 ? 'daleko' : udzial > 0.14 ? 'blisko' : 'juz';
+      $('[data-ekran="wyzwanie-runda"] .zegar').dataset.koniec = udzial > 0.34 ? 'daleko' : udzial > 0.14 ? 'blisko' : 'juz';
       if (zostalo <= 0) odslon();
     };
     tyknij();
