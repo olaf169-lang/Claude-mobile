@@ -15,7 +15,7 @@
 
 import {
   $, el, wyczysc, pokazEkran, biezacyEkran, powiadom, stuknij, trzymajEkran, utnijZnaki, formatujCzasS,
-  wezelStreaka,
+  wezelStreaka, dopiszStreak,
 } from './ui.js';
 import { PokojGracza, idUrzadzenia } from './siec.js';
 import { Odtwarzacz } from './odtwarzacz.js';
@@ -393,6 +393,7 @@ export function uruchom() {
     if (moj?.trafil) {
       werdykt.dataset.jak = 'dobrze';
       werdykt.innerHTML = `Dobrze!<span class="punkty">+${moj.punkty} pkt</span>`;
+      dopiszStreak(werdykt.querySelector('.punkty'), moj.seria);
       stuknij([25, 60, 25]);
     } else if (moj?.odpowiedzial) {
       werdykt.dataset.jak = 'zle';
