@@ -690,6 +690,13 @@ export function uruchom() {
   });
 
   function zakonczRunde() {
+    // Twarde uciszenie obu elementów audio, niezależnie od tego, czy
+    // wcześniejsze wygaszanie (200 ms po kliknięciu „Dalej” albo naturalne po
+    // odsłonie) zdążyło dobiec końca — bez tego, przy szybkim przejściu prosto
+    // do kolejnej rundy (temat już ułożony, brak ekranu wyboru pomiędzy),
+    // ostatnia piosenka potrafiła zostać słyszalna jeszcze na ekranie wyboru
+    // tematu następnej rundy.
+    odtwarzacz.uciszWszystko();
     stan.wynikiRuchu.push({ punkty: stan.punktyRundy, trafienia: stan.trafieniaRundy });
     nastepnyKrokRuchu();
   }
