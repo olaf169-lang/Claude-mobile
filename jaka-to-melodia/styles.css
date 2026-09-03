@@ -513,6 +513,44 @@ main {
 }
 .znaczki.waskie .znaczek { min-width: 3.6rem; justify-content: center; padding: .45rem .8rem; }
 
+/* Odrzucenie kategorii/dekady w rundzie Turnieju Piąteczki: świadoma
+   rezygnacja za karę punktową, nie zwykłe zaznaczenie — stąd inny, mocno
+   czerwony i przekreślony wygląd niż zwyczajowe aria-pressed. */
+.znaczek[data-odrzucona="tak"],
+.znaczek.specjalna[data-odrzucona="tak"] {
+  border-color: color-mix(in srgb, var(--zle) 55%, transparent);
+  background: color-mix(in srgb, var(--zle) 16%, transparent);
+  color: var(--zle);
+  text-decoration: line-through;
+  opacity: .8;
+}
+
+.kara-tematu {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin: .9rem 0 -.1rem;
+  padding: .6rem .9rem;
+  border-radius: var(--r-s);
+  font-family: var(--naglowkowy);
+  font-weight: 800;
+  font-size: 1rem;
+  border: 1px solid color-mix(in srgb, var(--dobrze) 45%, transparent);
+  background: color-mix(in srgb, var(--dobrze) 14%, transparent);
+  color: var(--dobrze);
+}
+.kara-tematu[data-kara="tak"] {
+  border-color: color-mix(in srgb, var(--zle) 55%, transparent);
+  background: color-mix(in srgb, var(--zle) 20%, transparent);
+  color: var(--zle);
+  animation: karaPulsuj .4s ease;
+}
+@keyframes karaPulsuj {
+  0% { transform: scale(1); }
+  40% { transform: scale(1.04); }
+  100% { transform: scale(1); }
+}
+
 .licznik-puli {
   margin: -.3rem 0 1.1rem;
   font-size: .9rem;
