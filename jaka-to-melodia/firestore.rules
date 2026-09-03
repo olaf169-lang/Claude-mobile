@@ -1,0 +1,41 @@
+/* Reguły dostępu do Firestore dla trybu wyzwań (jaka-to-melodia).
+
+   Aplikacja nie ma logowania — kto ma link/QR do wyzwania, ten może je
+   zobaczyć i dograć. To świadomy kompromis dla gry towarzyskiej między
+   znajomymi, nie produktu z realną stawką: ktoś naprawdę uparty i technicznie
+   obeznany mógłby spreparować własny zapis wyniku z poziomu konsoli
+   deweloperskiej. Reguły poniżej pilnują tego, co się da bez logowania:
+   raz zapisana runda/wynik już się nie da nadpisać, więc nie da się
+   poprawić wyniku po fakcie ani podmienić piosenek pod czyimś nosem.
+
+   Wdrożenie: to plik źródłowy w repozytorium (do wersjonowania), ale
+   samo repo go nie publikuje — trzeba go wkleić ręcznie w konsoli Firebase
+   (Firestore Database → Reguły → wklej całość → Opublikuj) albo przez
+   `firebase deploy --only firestore:rules` po zalogowaniu Firebase CLI. */
+
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    match /wyzwania/{wyzwanieId} {
+      allow read: if true;
+
+      // Runda raz ułożona jest niezmienna — każdy uczestnik ma grać
+      // dokładnie te same piosenki w tej samej kolejności.
+      allow create: if request.resource.data.keys().hasAll(['ustawienia', 'rundy', 'utworzono'])
+                    && request.resource.data.rundy is list
+                    && request.resource.data.rundy.size() > 0;
+      allow update, delete: if false;
+
+      match /gracze/{graczId} {
+        allow read: if true;
+
+        // Wynik zapisuje się raz, na koniec rozgrywki — nie da się go
+        // później podbić.
+        allow create: if request.resource.data.keys().hasAll(['ksywka', 'punkty', 'ukonczono']);
+        allow update, delete: if false;
+      }
+    }
+  }
+}

@@ -22,6 +22,7 @@ przelacznikMotywu?.addEventListener('click', () => {
 
 let prowadzacyWczytany = null;
 let graczWczytany = null;
+let wyzwanieWczytane = null;
 
 async function wejdzJakoProwadzacy() {
   prowadzacyWczytany ??= import('./prowadzacy.js').then((m) => m.uruchom());
@@ -34,8 +35,14 @@ async function wejdzJakoGracz(kod = '', broker = null) {
   gracz.pokazFormularz(kod, broker);
 }
 
+async function wejdzWyzwanie() {
+  wyzwanieWczytane ??= import('./wyzwanie.js').then((m) => m.uruchom());
+  return wyzwanieWczytane;
+}
+
 $('#rola-prowadzacy')?.addEventListener('click', () => { location.hash = '#/prowadze'; });
 $('#rola-gracz')?.addEventListener('click', () => { location.hash = '#/dolacz'; });
+$('#rola-wyzwanie')?.addEventListener('click', () => { location.hash = '#/wyzwanie'; });
 
 /* --- adresy ---
    Kod QR prowadzi pod #/dolacz/KOD/NUMER-BROKERA, więc telefon gościa od razu
@@ -51,6 +58,12 @@ async function obsluzAdres() {
   if (sciezka[0] === 'dolacz') {
     const broker = sciezka[2] === undefined ? null : Number(sciezka[2]);
     await wejdzJakoGracz((sciezka[1] || '').toUpperCase(), Number.isInteger(broker) ? broker : null);
+    return;
+  }
+  if (sciezka[0] === 'wyzwanie') {
+    const wyzwanie = await wejdzWyzwanie();
+    if (sciezka[1]) await wyzwanie.pokazDolacz(sciezka[1]);
+    else await wyzwanie.pokazNowe();
     return;
   }
   pokazEkran('start');

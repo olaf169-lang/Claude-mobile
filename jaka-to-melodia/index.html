@@ -77,6 +77,13 @@
         <small>mam kod od prowadzącego</small>
       </span>
     </button>
+    <button class="klawisz duzy" id="rola-wyzwanie" type="button">
+      <span class="klawisz-emoji" aria-hidden="true">🕹️</span>
+      <span class="klawisz-tresc">
+        <strong>Gra turowa</strong>
+        <small>graj solo, wyślij wynik znajomym</small>
+      </span>
+    </button>
   </div>
   <details class="pomoc">
     <summary>Jak to działa?</summary>
@@ -415,6 +422,117 @@
   <div class="werdykt" id="werdykt-koncowy"></div>
   <h2 class="tytul-ekranu" id="moje-miejsce"></h2>
   <ol class="ranking pelny" id="ranking-gracza"></ol>
+</section>
+
+<!-- ===================== WYZWANIE — NOWE ========================== -->
+<section data-ekran="wyzwanie-nowe" class="ekran" hidden>
+  <h2 class="tytul-ekranu">Nowe wyzwanie</h2>
+  <p class="opis">
+    Grasz solo, w swoim tempie. Na koniec dostajesz link — wyślij go komu
+    chcesz, każdy zagra na tych samych piosenkach i zobaczycie, kto lepszy.
+  </p>
+
+  <label class="pole">
+    <span>Twoja ksywka</span>
+    <input id="wyzwanie-ksywka" maxlength="24" placeholder="np. Zosia 🎵" required>
+  </label>
+
+  <fieldset class="grupa">
+    <legend>Kategorie</legend>
+    <div class="znaczki" id="wyzwanie-wybor-kategorii"></div>
+  </fieldset>
+  <fieldset class="grupa">
+    <legend>Dekady</legend>
+    <div class="znaczki" id="wyzwanie-wybor-dekad"></div>
+  </fieldset>
+  <p class="licznik-puli" id="wyzwanie-licznik-puli"></p>
+  <fieldset class="grupa">
+    <legend>Czas na odpowiedź</legend>
+    <div class="znaczki waskie" id="wyzwanie-wybor-czasu"></div>
+  </fieldset>
+  <fieldset class="grupa">
+    <legend>Długość serii <small>ile piosenek w rundzie</small></legend>
+    <div class="znaczki waskie" id="wyzwanie-wybor-serii"></div>
+  </fieldset>
+  <fieldset class="grupa">
+    <legend>Liczba rund</legend>
+    <div class="znaczki waskie" id="wyzwanie-wybor-rund"></div>
+  </fieldset>
+
+  <div class="stopka-ekranu">
+    <button class="klawisz" id="wyzwanie-wroc" type="button">Wstecz</button>
+    <button class="klawisz glowny" id="wyzwanie-zacznij" type="button">Zaczynamy</button>
+  </div>
+</section>
+
+<!-- =================== WYZWANIE — PRZYGOTOWANIE ==================== -->
+<section data-ekran="wyzwanie-tworzenie" class="ekran srodek" hidden>
+  <div class="puls" aria-hidden="true">♪</div>
+  <p class="opis" id="wyzwanie-tworzenie-opis">Przygotowuję pytania…</p>
+</section>
+
+<!-- ======================= WYZWANIE — DOŁĄCZ ======================= -->
+<section data-ekran="wyzwanie-dolacz" class="ekran srodek" hidden>
+  <h2 class="tytul-ekranu" id="wyzwanie-dolacz-tytul">Ktoś Cię wyzwał!</h2>
+  <p class="opis" id="wyzwanie-dolacz-opis"></p>
+  <ol class="ranking pelny" id="wyzwanie-dolacz-ranking"></ol>
+  <label class="pole">
+    <span>Twoja ksywka</span>
+    <input id="wyzwanie-dolacz-ksywka" maxlength="24" placeholder="np. Bartek 🎧" required>
+  </label>
+  <button class="klawisz glowny duzy" id="wyzwanie-przyjmij" type="button">Przyjmuję wyzwanie</button>
+</section>
+
+<!-- ========================= WYZWANIE — RUNDA ======================= -->
+<section data-ekran="wyzwanie-runda" class="ekran ekran-gry" hidden>
+  <div class="pasek-rundy">
+    <span class="numer-rundy" id="wyzwanie-numer-rundy"></span>
+  </div>
+  <div class="zegar">
+    <svg viewBox="0 0 120 120" aria-hidden="true">
+      <circle class="zegar-tlo" cx="60" cy="60" r="52"></circle>
+      <circle class="zegar-wskaz" id="wyzwanie-zegar-wskaz" cx="60" cy="60" r="52"></circle>
+    </svg>
+    <span class="zegar-liczba" id="wyzwanie-zegar-liczba"></span>
+  </div>
+  <h2 class="pytanie" id="wyzwanie-pytanie"></h2>
+  <div class="odpowiedzi" id="wyzwanie-odpowiedzi"></div>
+</section>
+
+<!-- ======================== WYZWANIE — ODSŁONA ======================= -->
+<section data-ekran="wyzwanie-odslona" class="ekran" hidden>
+  <div class="werdykt maly" id="wyzwanie-werdykt" hidden></div>
+  <div class="odsloniete">
+    <img class="okladka" id="wyzwanie-okladka" alt="" hidden>
+    <div class="odsloniete-tresc">
+      <p class="etykieta">Prawidłowa odpowiedź</p>
+      <h2 class="odsloniety-tytul" id="wyzwanie-odsloniety-tytul"></h2>
+      <p class="odsloniety-wykonawca" id="wyzwanie-odsloniety-wykonawca"></p>
+      <p class="znaczniki-utworu" id="wyzwanie-znaczniki-utworu"></p>
+    </div>
+  </div>
+  <div class="stopka-ekranu przyklejona">
+    <button class="klawisz glowny" id="wyzwanie-dalej" type="button">Następna piosenka</button>
+  </div>
+</section>
+
+<!-- ======================== WYZWANIE — WYNIKI ======================= -->
+<section data-ekran="wyzwanie-wyniki" class="ekran srodek" hidden>
+  <div class="werdykt" id="wyzwanie-wyniki-werdykt"></div>
+  <h2 class="tytul-ekranu" id="wyzwanie-moj-wynik"></h2>
+  <ol class="ranking pelny" id="wyzwanie-ranking"></ol>
+
+  <div class="karta-kodu" id="wyzwanie-karta-linku">
+    <div class="qr" id="wyzwanie-qr"></div>
+    <div class="kod-obok">
+      <p class="drobne">Wyślij dalej, niech ktoś spróbuje pobić ten wynik</p>
+      <button class="klawisz glowny" id="wyzwanie-udostepnij" type="button">Udostępnij link</button>
+    </div>
+  </div>
+
+  <div class="stopka-ekranu">
+    <a class="klawisz" href="#/">Zakończ</a>
+  </div>
 </section>
 
 </main>
