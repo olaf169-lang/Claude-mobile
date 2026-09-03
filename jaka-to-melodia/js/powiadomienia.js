@@ -17,7 +17,7 @@ import { idUrzadzenia } from './siec.js';
 // Klucz VAPID (publiczny) z konsoli Firebase: Ustawienia projektu →
 // Cloud Messaging → Certyfikaty push w internecie → wygeneruj parę kluczy.
 // Bez niego getToken() się nie uda — patrz README, sekcja o powiadomieniach.
-const KLUCZ_VAPID = 'WKLEJ_TU_KLUCZ_VAPID_Z_KONSOLI_FIREBASE';
+const KLUCZ_VAPID = 'BEfJmOADnE8DtaRAQnHGy97JYp8qFrhYTUzLP36ocnAXVypEyuLnZiSz4bAoF880G_fTgL__R52g4hme4hK64b4';
 
 const WERSJA_SDK = '10.14.1';
 
