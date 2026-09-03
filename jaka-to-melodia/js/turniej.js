@@ -42,6 +42,13 @@ const CZAS_WYBRZMIENIA_MS = 4000;
 const CZAS_ODLICZANIA_MS = 3000;
 const PIOSENEK_W_RUNDZIE = 5;
 
+// Temat rundy losuje się, nie wybiera dowolnie — patrz pokazWyborTematuRundy.
+// Gracz może (ale nie musi) odrzucić po jednej wylosowanej kategorii i jednej
+// dekadzie, każde odrzucenie kosztuje punkty w tej rundzie.
+const LOSOWANYCH_KATEGORII = 4;
+const LOSOWANYCH_DEKAD = 3;
+const KARA_ODRZUCENIA = 50;
+
 // Które rundy (0-based) wybiera który gracz — patrz opis mechaniki wyżej.
 // P1 zaczyna, więc dostaje mniej rund do ułożenia niż P2 (który i tak dogania
 // wszystko na koniec) — inaczej P1 miałby zbyt dużą przewagę we wpływie na
@@ -148,11 +155,25 @@ export function uruchom() {
     });
   }
 
-  function przelacz(lista, wartosc) {
-    const bez = lista.filter((x) => x !== wartosc);
-    if (bez.length === lista.length) return [...lista, wartosc];
-    if (bez.length === 0) { powiadom('Zostaw przynajmniej jedną pozycję.'); return lista; }
-    return bez;
+  /** Jak znaczek(), ale dla tematu rundy: nie zaznaczenie, tylko świadome
+      odrzucenie za karę punktową (patrz KARA_ODRZUCENIA) — inny stan wizualny
+      niż zwykłe aria-pressed, więc osobny znacznik data-odrzucona. */
+  function znaczekOdrzucalny(tekst, odrzucona, naklik, specjalna = false) {
+    return el('button', {
+      klasa: specjalna ? 'znaczek specjalna' : 'znaczek', type: 'button',
+      'aria-pressed': String(odrzucona), 'data-odrzucona': odrzucona ? 'tak' : 'nie',
+      tekst, naclick: naklik,
+    });
+  }
+
+  /** Losowych n różnych elementów z listy (Fisher-Yates, bez powtórzeń). */
+  function losujN(lista, n) {
+    const kopia = [...lista];
+    for (let i = kopia.length - 1; i > 0; i -= 1) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [kopia[i], kopia[j]] = [kopia[j], kopia[i]];
+    }
+    return kopia.slice(0, n);
   }
 
   /* --------------------------------------------------------- nowy pojedynek */
@@ -456,30 +477,56 @@ export function uruchom() {
     else pokazWyborTematuRundy(stan.biezacaRunda);
   }
 
+  /** Losuje temat rundy zamiast dawać wybór z całego katalogu: cztery
+      kategorie i trzy dekady, po jednej z każdej wolno (ale nie trzeba)
+      odrzucić — węższy temat, ale kosztem punktów, patrz KARA_ODRZUCENIA
+      niżej. Bardziej konkurencyjne niż dotychczasowy dowolny wybór. */
   function pokazWyborTematuRundy(indeksRundy) {
-    stan.wyborTemat = { kategorie: KATEGORIE.map((k) => k.id), dekady: DEKADY.map((d) => d.id) };
+    stan.wyborTemat = {
+      kategorieLosowe: losujN(KATEGORIE.map((k) => k.id), LOSOWANYCH_KATEGORII),
+      dekadyLosowe: losujN(DEKADY.map((d) => d.id), LOSOWANYCH_DEKAD),
+      kategoriaOdrzucona: null,
+      dekadaOdrzucona: null,
+    };
     $('#turniej-numer-rundy-tematu').textContent = `Runda ${indeksRundy + 1}/5`;
     rysujWyborTematuRundy();
     pokazEkran('turniej-wybor-tematu');
   }
 
   function rysujWyborTematuRundy() {
+    const temat = stan.wyborTemat;
     const kategorie = wyczysc($('#turniej-wybor-kategorii'));
-    for (const kat of KATEGORIE) {
-      kategorie.append(znaczek(`${kat.emoji} ${kat.nazwa}`, stan.wyborTemat.kategorie.includes(kat.id), () => {
-        stan.wyborTemat.kategorie = przelacz(stan.wyborTemat.kategorie, kat.id);
+    for (const id of temat.kategorieLosowe) {
+      const kat = KATEGORIE.find((k) => k.id === id);
+      const odrzucona = temat.kategoriaOdrzucona === id;
+      kategorie.append(znaczekOdrzucalny(`${kat.emoji} ${kat.nazwa}`, odrzucona, () => {
+        temat.kategoriaOdrzucona = odrzucona ? null : id;
         rysujWyborTematuRundy();
       }, kat.specjalna));
     }
     const dekady = wyczysc($('#turniej-wybor-dekad'));
-    for (const dek of DEKADY) {
-      dekady.append(znaczek(dek.nazwa, stan.wyborTemat.dekady.includes(dek.id), () => {
-        stan.wyborTemat.dekady = przelacz(stan.wyborTemat.dekady, dek.id);
+    for (const id of temat.dekadyLosowe) {
+      const dek = DEKADY.find((d) => d.id === id);
+      const odrzucona = temat.dekadaOdrzucona === id;
+      dekady.append(znaczekOdrzucalny(dek.nazwa, odrzucona, () => {
+        temat.dekadaOdrzucona = odrzucona ? null : id;
         rysujWyborTematuRundy();
       }));
     }
+
+    const kara = (temat.kategoriaOdrzucona !== null ? KARA_ODRZUCENIA : 0)
+      + (temat.dekadaOdrzucona !== null ? KARA_ODRZUCENIA : 0);
+    const znacznikKary = $('#turniej-kara-tematu');
+    znacznikKary.dataset.kara = kara > 0 ? 'tak' : 'nie';
+    znacznikKary.textContent = kara > 0
+      ? `⚠️ Odrzucenie kosztuje w tej rundzie: −${kara} pkt`
+      : '✅ Bez kary — nic jeszcze nie odrzucono';
+
+    const aktywneKategorie = temat.kategorieLosowe.filter((id) => id !== temat.kategoriaOdrzucona);
+    const aktywneDekady = temat.dekadyLosowe.filter((id) => id !== temat.dekadaOdrzucona);
     const juzUzyte = new Set(stan.rundy.filter(Boolean).flatMap((r) => r.seria.map((p) => p.utwor.id)));
-    const ile = pulaUtworow(stan.wyborTemat, opcjePuli()).filter((u) => !juzUzyte.has(u.id)).length;
+    const ile = pulaUtworow({ kategorie: aktywneKategorie, dekady: aktywneDekady }, opcjePuli())
+      .filter((u) => !juzUzyte.has(u.id)).length;
     const licznik = $('#turniej-licznik-tematu');
     licznik.dataset.alarm = ile < PIOSENEK_W_RUNDZIE ? 'tak' : 'nie';
     licznik.innerHTML = `Do wyboru <strong>${ile}</strong> ${odmiana(ile, 'utwór', 'utwory', 'utworów')}.`;
@@ -489,16 +536,20 @@ export function uruchom() {
   $('#turniej-zacznij-runde').addEventListener('click', async () => {
     const indeksRundy = stan.biezacaRunda;
     const temat = stan.wyborTemat;
+    const aktywneKategorie = temat.kategorieLosowe.filter((id) => id !== temat.kategoriaOdrzucona);
+    const aktywneDekady = temat.dekadyLosowe.filter((id) => id !== temat.dekadaOdrzucona);
+    const kara = (temat.kategoriaOdrzucona !== null ? KARA_ODRZUCENIA : 0)
+      + (temat.dekadaOdrzucona !== null ? KARA_ODRZUCENIA : 0);
     const juzUzyte = new Set(stan.rundy.filter(Boolean).flatMap((r) => r.seria.map((p) => p.utwor.id)));
     const seria = ulozSerie(
-      { ...USTAWIENIA_DOMYSLNE, kategorie: temat.kategorie, dekady: temat.dekady, dlugoscSerii: PIOSENEK_W_RUNDZIE },
+      { ...USTAWIENIA_DOMYSLNE, kategorie: aktywneKategorie, dekady: aktywneDekady, dlugoscSerii: PIOSENEK_W_RUNDZIE },
       { ...opcjePuli(), ziarno: Math.floor(Math.random() * 2 ** 31), pomin: juzUzyte, ile: PIOSENEK_W_RUNDZIE },
     );
     if (!seria.length) {
       powiadom('Z tego tematu nie da się ułożyć rundy — wybierz coś innego.', 'blad');
       return;
     }
-    const danaRunda = { temat, seria };
+    const danaRunda = { temat: { kategorie: aktywneKategorie, dekady: aktywneDekady, kara }, seria };
     try {
       await utworzRunde(stan.id, indeksRundy, danaRunda);
     } catch {
@@ -506,6 +557,7 @@ export function uruchom() {
       return;
     }
     stan.rundy[indeksRundy] = danaRunda;
+    stan.punktyRundy = -kara;
     pokazOdliczanieRundy();
   });
 
