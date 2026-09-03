@@ -93,7 +93,11 @@ self.addEventListener('push', (zdarzenie) => {
 
 self.addEventListener('notificationclick', (zdarzenie) => {
   zdarzenie.notification.close();
-  const url = new URL(zdarzenie.notification.data?.url || './', self.location.origin).href;
+  // self.location.origin to tylko protokół+host, bez ścieżki — appka NIE
+  // siedzi w katalogu głównym domeny (GitHub Pages, /Claude-mobile/jaka-to-
+  // -melodia/), więc adres wychodził na sam root strony zamiast na appkę.
+  // self.registration.scope niesie pełną ścieżkę, do której serwisant należy.
+  const url = new URL(zdarzenie.notification.data?.url || './', self.registration.scope).href;
   zdarzenie.waitUntil(
     self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then((lista) => {
       for (const klient of lista) {
