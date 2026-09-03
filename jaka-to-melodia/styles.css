@@ -824,7 +824,9 @@ main {
 }
 .ranking .ile {
   font-family: var(--naglowkowy);
-  font-weight: 700;
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: var(--magenta);
   font-variant-numeric: tabular-nums;
 }
 .ranking li[data-ja="tak"] {
@@ -859,7 +861,7 @@ main {
 .stopien[data-miejsce="2"] { padding-block: 1.1rem .8rem; }
 .stopien .medal { font-size: 1.5rem; }
 .stopien .kto { font-family: var(--naglowkowy); font-weight: 700; overflow-wrap: anywhere; }
-.stopien .ile { font-size: .88rem; opacity: .85; font-variant-numeric: tabular-nums; }
+.stopien .ile { font-size: 1.1rem; font-weight: 700; font-variant-numeric: tabular-nums; }
 
 /* ------------------------------------------------------------ gracz: wynik */
 
@@ -886,7 +888,7 @@ main {
   flex-wrap: wrap;
   gap: .15rem .6rem;
   margin-top: .35rem;
-  font-size: clamp(1.05rem, 4.5vw, 1.4rem);
+  font-size: clamp(1.35rem, 5.5vw, 1.8rem);
   font-weight: 800;
   color: inherit;
 }
@@ -894,9 +896,9 @@ main {
 .moja-pozycja {
   margin-top: 1.4rem;
   font-family: var(--naglowkowy);
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: var(--tekst-cichy);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--tekst);
 }
 
 /* ------------------------------------------------------------ dołączanie */

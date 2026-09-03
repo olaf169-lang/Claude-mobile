@@ -20,7 +20,7 @@ export const MAKS_PUNKTOW = 100;
 export const MIN_UDZIAL_PUNKTOW = 0.3;
 export const MAKS_GRACZY = 20;         // wygodnie gra się do 14, ale miejsca jest więcej
 export const CZASY_ODPOWIEDZI = [5, 7, 10, 15, 20];
-export const LICZBY_RUND = [1, 3, 5, 8, 10];
+export const LICZBY_RUND = [1, 2, 3, 4, 5, 8, 10, 15];
 export const DLUGOSCI_SERII = [5, 8, 10, 12, 15, 20, 25];
 export const TYPY_PYTAN = {
   tytul: { pytanie: 'Co to za piosenka?', pole: 'tytul' },
