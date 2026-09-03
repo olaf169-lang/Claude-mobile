@@ -72,6 +72,16 @@ export function formatujCzasS(ms) {
   return `${(ms / 1000).toFixed(1).replace('.', ',')} s`;
 }
 
+/** Odznaka najdłuższej serii trafień w rundzie — „🔥 ×4”, coraz większa i
+    intensywniejsza w kolorze im wyższy streak (skala w CSS przez --strk).
+    Poniżej dwóch trafień z rzędu to jeszcze nie streak — nic się nie pokazuje. */
+export function wezelStreaka(streak) {
+  if (!streak || streak < 2) return null;
+  const wezel = el('span', { klasa: 'streak-rundy', tekst: `🔥 ×${streak}` });
+  wezel.style.setProperty('--strk', String(Math.min(1, (streak - 2) / 5)));
+  return wezel;
+}
+
 /** Delikatne stuknięcie — Android potrafi, iPhone udaje, że nie słyszał. */
 export function stuknij(wzor = 12) {
   try { navigator.vibrate?.(wzor); } catch { /* nieistotne */ }

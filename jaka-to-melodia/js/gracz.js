@@ -15,6 +15,7 @@
 
 import {
   $, el, wyczysc, pokazEkran, biezacyEkran, powiadom, stuknij, trzymajEkran, utnijZnaki, formatujCzasS,
+  wezelStreaka,
 } from './ui.js';
 import { PokojGracza, idUrzadzenia } from './siec.js';
 import { Odtwarzacz } from './odtwarzacz.js';
@@ -479,11 +480,14 @@ export function uruchom() {
     tabela.forEach((gracz, i) => {
       const bazowe = `${gracz.trafienRundy ?? 0}/${wiadomosc.pytanRundy ?? 0}`;
       const staty = gracz.sredniCzasRundyMs == null ? bazowe : `${bazowe} · śr. ${formatujCzasS(gracz.sredniCzasRundyMs)}`;
+      const wiersz2 = [el('span', { klasa: 'staty-rundy', tekst: staty })];
+      const streak = wezelStreaka(gracz.streakMax);
+      if (streak) wiersz2.push(streak);
       const wiersz = el('li', { 'data-miejsce': gracz.miejsce, 'data-ja': gracz.id === mojeId ? 'tak' : 'nie' }, [
         el('span', { klasa: 'miejsce', tekst: `${gracz.miejsce}.` }),
         el('span', { klasa: 'kto-blok' }, [
           el('span', { klasa: 'kto', tekst: gracz.ksywka }),
-          el('span', { klasa: 'staty-rundy', tekst: staty }),
+          el('span', { klasa: 'wiersz-rundy' }, wiersz2),
         ]),
         el('span', { klasa: 'ile', tekst: String(gracz.punkty) }),
       ]);
