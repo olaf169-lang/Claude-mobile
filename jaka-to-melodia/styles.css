@@ -814,8 +814,13 @@ main {
   font-family: var(--naglowkowy);
   font-weight: 800;
   font-variant-numeric: tabular-nums;
-  font-size: calc(.78rem + var(--strk) * .5rem);
-  color: color-mix(in srgb, var(--tekst-ledwie), var(--magenta) calc(var(--strk) * 100%));
+  font-size: calc(.85rem + var(--strk) * .55rem);
+  color: color-mix(in srgb, var(--tekst-cichy), var(--magenta) calc(35% + var(--strk) * 65%));
+}
+/* Na ekranie odsłony streak leci od razu, na żywo, po każdej odpowiedzi —
+   tam ma stać obok dużych punktów, więc dostaje własną, większą skalę. */
+.werdykt .streak-rundy {
+  font-size: calc(1.1rem + var(--strk) * .7rem);
 }
 .ranking .ile {
   font-family: var(--naglowkowy);
@@ -874,7 +879,17 @@ main {
   font-size: clamp(1.3rem, 6vw, 1.8rem);
 }
 .werdykt.maly[hidden] { display: none; }
-.werdykt .punkty { display: block; font-size: 1rem; font-weight: 600; color: var(--tekst-cichy); }
+.werdykt .punkty {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: .15rem .6rem;
+  margin-top: .35rem;
+  font-size: clamp(1.05rem, 4.5vw, 1.4rem);
+  font-weight: 800;
+  color: inherit;
+}
 
 .moja-pozycja {
   margin-top: 1.4rem;

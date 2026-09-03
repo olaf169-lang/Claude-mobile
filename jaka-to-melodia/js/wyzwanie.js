@@ -11,7 +11,7 @@
    ========================================================================== */
 
 import {
-  $, el, wyczysc, pokazEkran, powiadom, stuknij, odmiana, utnijZnaki,
+  $, el, wyczysc, pokazEkran, powiadom, stuknij, odmiana, utnijZnaki, dopiszStreak,
 } from './ui.js';
 import { KATEGORIE, DEKADY, przygotujKatalog } from './katalog.js';
 import {
@@ -348,6 +348,7 @@ export function uruchom() {
     if (trafil) {
       werdykt.dataset.jak = 'dobrze';
       werdykt.innerHTML = `Dobrze!<span class="punkty">+${punkty} pkt · razem ${stan.punkty}</span>`;
+      dopiszStreak(werdykt.querySelector('.punkty'), stan.seriaTrafien);
     } else if (stan.wybor !== null) {
       werdykt.dataset.jak = 'zle';
       werdykt.innerHTML = `Pudło<span class="punkty">razem ${stan.punkty} pkt</span>`;

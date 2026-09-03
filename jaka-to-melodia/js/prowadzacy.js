@@ -12,7 +12,7 @@
 
 import {
   $, $$, el, wyczysc, pokazEkran, powiadom, odmiana, stuknij, trzymajEkran, utnijZnaki, formatujCzasS,
-  wezelStreaka,
+  wezelStreaka, dopiszStreak,
 } from './ui.js';
 import { KATEGORIE, DEKADY, przygotujKatalog } from './katalog.js';
 import {
@@ -820,7 +820,7 @@ export function uruchom() {
         const czasOdUtworuMs = Math.max(0, (odpowiedz?.czasMs ?? 0) - (stan.opoznienieStartuMs || 0));
         gracz.sumaCzasuTrafienRundaMs += czasOdUtworuMs;
       }
-      wyniki[gracz.id] = { punkty, razem: gracz.punkty, trafil, odpowiedzial: Boolean(odpowiedz) };
+      wyniki[gracz.id] = { punkty, razem: gracz.punkty, trafil, odpowiedzial: Boolean(odpowiedz), seria: gracz.seria };
     }
 
     const tabela = ranking(stan.gracze);
@@ -933,6 +933,7 @@ export function uruchom() {
     if (moj.trafil) {
       werdykt.dataset.jak = 'dobrze';
       werdykt.innerHTML = `Dobrze!<span class="punkty">+${moj.punkty} pkt · razem ${moj.razem}</span>`;
+      dopiszStreak(werdykt.querySelector('.punkty'), moj.seria);
     } else if (moj.odpowiedzial) {
       werdykt.dataset.jak = 'zle';
       werdykt.innerHTML = `Pudło<span class="punkty">razem ${moj.razem} pkt</span>`;

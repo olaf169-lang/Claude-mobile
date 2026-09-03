@@ -82,6 +82,13 @@ export function wezelStreaka(streak) {
   return wezel;
 }
 
+/** Dokleja odznakę bieżącej serii do elementu `.punkty` na ekranie odsłony —
+    streak widać na żywo, zaraz po odpowiedzi, nie tylko w podsumowaniu rundy. */
+export function dopiszStreak(wezelPunktow, streak) {
+  const wezel = wezelStreaka(streak);
+  if (wezel) wezelPunktow.append(' · ', wezel);
+}
+
 /** Delikatne stuknięcie — Android potrafi, iPhone udaje, że nie słyszał. */
 export function stuknij(wzor = 12) {
   try { navigator.vibrate?.(wzor); } catch { /* nieistotne */ }
