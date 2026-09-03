@@ -18,6 +18,83 @@ przelacznikMotywu?.addEventListener('click', () => {
   document.querySelector('meta[name="theme-color"]')?.setAttribute('content', kolor);
 });
 
+/* --- instalacja na urządzeniu ---
+   beforeinstallprompt daje przycisk z prawdziwym oknem instalacji (Chrome,
+   Edge, Android). iOS (Safari) tego eventu nigdy nie wywoła — tam pokazujemy
+   przycisk zawsze (chyba że appka już działa jako zainstalowana) i po
+   kliknięciu tłumaczymy ręczne kroki, bo natywnego okna tam nie ma. */
+
+function jestZainstalowana() {
+  return window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+}
+function jestIOS() {
+  return /iphone|ipad|ipod/i.test(navigator.userAgent) && !window.MSStream;
+}
+
+let promptInstalacji = null;
+const przyciskInstalacji = $('#zainstaluj-app');
+if (przyciskInstalacji && !jestZainstalowana()) {
+  if (jestIOS()) przyciskInstalacji.hidden = false;
+  window.addEventListener('beforeinstallprompt', (zdarzenie) => {
+    zdarzenie.preventDefault();
+    promptInstalacji = zdarzenie;
+    przyciskInstalacji.hidden = false;
+  });
+  window.addEventListener('appinstalled', () => { przyciskInstalacji.hidden = true; });
+  przyciskInstalacji.addEventListener('click', async () => {
+    if (promptInstalacji) {
+      promptInstalacji.prompt();
+      await promptInstalacji.userChoice;
+      promptInstalacji = null;
+      przyciskInstalacji.hidden = true;
+      return;
+    }
+    powiadom('Otwórz menu udostępniania przeglądarki (ikona ze strzałką) i wybierz „Dodaj do ekranu początkowego”.');
+  });
+}
+
+/* --- powiadomienia push --- */
+
+const przyciskPowiadomien = $('#wlacz-powiadomienia');
+if (przyciskPowiadomien && 'Notification' in window
+  && Notification.permission === 'granted' && localStorage.getItem('jtm:powiadomieniaToken')) {
+  przyciskPowiadomien.setAttribute('aria-pressed', 'true');
+}
+przyciskPowiadomien?.addEventListener('click', async () => {
+  const ksywka = localStorage.getItem('jtm:ksywka');
+  if (!ksywka) {
+    powiadom('Zagraj chociaż raz i podaj ksywkę, żeby móc włączyć powiadomienia.', 'blad');
+    return;
+  }
+  const { wlaczPowiadomienia } = await import('./powiadomienia.js');
+  let wlaczone = false;
+  try { wlaczone = await wlaczPowiadomienia(ksywka); } catch { /* zgłoszone niżej jako niepowodzenie */ }
+  if (wlaczone) {
+    przyciskPowiadomien.setAttribute('aria-pressed', 'true');
+    powiadom('Powiadomienia włączone.');
+  } else {
+    powiadom('Nie udało się włączyć powiadomień — sprawdź uprawnienia przeglądarki.', 'blad');
+  }
+});
+
+// Pytamy raz, przy pierwszej wizycie — jeśli appka jeszcze nie wie, ksywka
+// pewnie też nie jest jeszcze znana, więc od razu prosimy tylko o zgodę
+// przeglądarki; token FCM i tak da się dopisać później (przycisk dzwonka).
+if ('Notification' in window && Notification.permission === 'default' && !localStorage.getItem('jtm:powiadomieniaPytane')) {
+  localStorage.setItem('jtm:powiadomieniaPytane', '1');
+  setTimeout(async () => {
+    if (!confirm('Włączyć powiadomienia o Turnieju Piąteczki (Twoja kolej, wynik tygodnia)?')) return;
+    const zgoda = await Notification.requestPermission();
+    if (zgoda !== 'granted') return;
+    przyciskPowiadomien?.setAttribute('aria-pressed', 'true');
+    const ksywka = localStorage.getItem('jtm:ksywka');
+    if (ksywka) {
+      const { wlaczPowiadomienia } = await import('./powiadomienia.js');
+      wlaczPowiadomienia(ksywka).catch(() => {});
+    }
+  }, 900);
+}
+
 /* --- role --- */
 
 let prowadzacyWczytany = null;

@@ -22,8 +22,10 @@ const WERSJA_SDK = '10.14.1';
 
 let bazaPromise = null;
 
-/** Zwraca { db, f } — f to cały moduł firebase-firestore (funkcje typu doc,
-    setDoc, getDoc...), żeby nie trzeba było ich osobno eksportować stąd. */
+/** Zwraca { app, db, f } — f to cały moduł firebase-firestore (funkcje typu
+    doc, setDoc, getDoc...), żeby nie trzeba było ich osobno eksportować stąd.
+    `app` samo w sobie przydaje się tylko poza Firestore (np. powiadomienia.js
+    woła nim getMessaging(app)). */
 export function baza() {
   bazaPromise ??= (async () => {
     const [{ initializeApp }, f] = await Promise.all([
@@ -31,7 +33,7 @@ export function baza() {
       import(`https://www.gstatic.com/firebasejs/${WERSJA_SDK}/firebase-firestore.js`),
     ]);
     const app = initializeApp(KONFIGURACJA);
-    return { db: f.getFirestore(app), f };
+    return { app, db: f.getFirestore(app), f };
   })();
   return bazaPromise;
 }

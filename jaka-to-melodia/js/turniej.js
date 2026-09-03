@@ -69,6 +69,15 @@ function kluczKsywki(ksywka) {
   return ksywka.trim().toLowerCase();
 }
 
+/** Jeśli zgoda na powiadomienia jest już dana (np. z pytania przy pierwszej
+    wizycie, gdy ksywka nie była jeszcze znana), po cichu dopina do niej
+    token — bez tego appka wiedziałaby "wolno wysyłać", ale nie miałaby
+    komu. Brak zgody albo brak sieci — nic się nie dzieje, to nie blokuje gry. */
+function odswiezTokenPowiadomien(ksywka) {
+  if (typeof Notification === 'undefined' || Notification.permission !== 'granted') return;
+  import('./powiadomienia.js').then((m) => m.wlaczPowiadomienia(ksywka)).catch(() => {});
+}
+
 /** Numer tygodnia ISO (poniedziałek–niedziela) liczony w czasie polskim,
     np. "2026-W36" — klucz do limitu tygodniowego i do przyszłego
     cotygodniowego podsumowania. */
@@ -211,6 +220,7 @@ export function uruchom() {
     stan.ksywka = ksywka;
     stan.utworca = ksywka;
     stan.przeciwnik = null;
+    odswiezTokenPowiadomien(ksywka);
     rozpocznijRuch(RUNDY_P1);
   }
 
@@ -309,6 +319,7 @@ export function uruchom() {
     stan.rola = 'p2';
     stan.ksywka = ksywka;
     stan.przeciwnik = stan.utworca;
+    odswiezTokenPowiadomien(ksywka);
     rozpocznijRuch(RUNDY_P2.concat(RUNDY_P1).sort((a, b) => a - b));
   });
 
