@@ -64,6 +64,13 @@
     Jedno urządzenie prowadzi i puszcza muzykę, reszta zgaduje ze swoich.
     Punktów tym więcej, im szybciej klikniesz.
   </p>
+  <button class="klawisz duzy wroc-turniej" id="wroc-do-turnieju" type="button" hidden>
+    <span class="klawisz-emoji" aria-hidden="true">↩️</span>
+    <span class="klawisz-tresc">
+      <strong>Wróć do Turnieju Piąteczki</strong>
+      <small>masz nieukończony pojedynek</small>
+    </span>
+  </button>
   <div class="wybor-roli">
     <button class="klawisz glowny duzy" id="rola-prowadzacy" type="button">
       <span class="klawisz-emoji" aria-hidden="true">🎛️</span>
@@ -110,6 +117,7 @@
 <section data-ekran="ustawienia" class="ekran" hidden>
   <h2 class="tytul-ekranu">Z czego gramy?</h2>
 
+  <p class="drobne">Wszystko jest domyślnie zaznaczone — stuknij, żeby odznaczyć to, czego nie chcesz. Możesz zostawić dowolnie dużo.</p>
   <fieldset class="grupa">
     <legend>Kategorie</legend>
     <div class="znaczki" id="wybor-kategorii"></div>
@@ -447,15 +455,6 @@
   </label>
 
   <fieldset class="grupa">
-    <legend>Kategorie</legend>
-    <div class="znaczki" id="wyzwanie-wybor-kategorii"></div>
-  </fieldset>
-  <fieldset class="grupa">
-    <legend>Dekady</legend>
-    <div class="znaczki" id="wyzwanie-wybor-dekad"></div>
-  </fieldset>
-  <p class="licznik-puli" id="wyzwanie-licznik-puli"></p>
-  <fieldset class="grupa">
     <legend>Czas na odpowiedź</legend>
     <div class="znaczki waskie" id="wyzwanie-wybor-czasu"></div>
   </fieldset>
@@ -467,10 +466,30 @@
     <legend>Liczba rund</legend>
     <div class="znaczki waskie" id="wyzwanie-wybor-rund"></div>
   </fieldset>
+  <p class="drobne">Temat (kategorie i dekady) ustalisz zaraz osobno dla każdej rundy.</p>
 
   <div class="stopka-ekranu">
     <button class="klawisz" id="wyzwanie-wroc" type="button">Wstecz</button>
     <button class="klawisz glowny" id="wyzwanie-zacznij" type="button">Zaczynamy</button>
+  </div>
+</section>
+
+<!-- ================ WYZWANIE — WYBÓR TEMATU RUNDY =================== -->
+<section data-ekran="wyzwanie-wybor-tematu" class="ekran" hidden>
+  <h2 class="tytul-ekranu" id="wyzwanie-numer-rundy-tematu">Runda 1/1</h2>
+  <p class="opis">Wybierz temat tej rundy — dowolnie, z całego katalogu.</p>
+  <p class="drobne">Wszystko jest domyślnie zaznaczone — stuknij, żeby odznaczyć to, czego nie chcesz.</p>
+  <fieldset class="grupa">
+    <legend>Kategorie</legend>
+    <div class="znaczki" id="wyzwanie-wybor-kategorii"></div>
+  </fieldset>
+  <fieldset class="grupa">
+    <legend>Dekady</legend>
+    <div class="znaczki" id="wyzwanie-wybor-dekad"></div>
+  </fieldset>
+  <p class="licznik-puli" id="wyzwanie-licznik-puli"></p>
+  <div class="stopka-ekranu">
+    <button class="klawisz glowny" id="wyzwanie-zacznij-runde" type="button">Dalej</button>
   </div>
 </section>
 
@@ -622,7 +641,8 @@
 <!-- ================== TURNIEJ — WYBÓR TEMATU RUNDY =================== -->
 <section data-ekran="turniej-wybor-tematu" class="ekran" hidden>
   <h2 class="tytul-ekranu" id="turniej-numer-rundy-tematu">Runda 1/5</h2>
-  <p class="opis">Losowo wybrane 4 kategorie i 3 dekady. Możesz odrzucić po jednej z każdej — ale to kosztuje punkty w tej rundzie.</p>
+  <p class="opis">Losowo wybrane 4 kategorie i 3 dekady.</p>
+  <p class="drobne">Nic nie musisz robić — stuknij tylko wtedy, gdy chcesz <strong>ODRZUCIĆ</strong> jedną z nich (za punkty, patrz niżej). Zostaw wszystko, żeby zagrać bez kary.</p>
   <fieldset class="grupa">
     <legend>Kategorie</legend>
     <div class="znaczki" id="turniej-wybor-kategorii"></div>

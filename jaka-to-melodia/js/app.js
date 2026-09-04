@@ -123,6 +123,16 @@ $('#rola-gracz')?.addEventListener('click', () => { location.hash = '#/dolacz'; 
 $('#rola-wyzwanie')?.addEventListener('click', () => { location.hash = '#/wyzwanie'; });
 $('#rola-turniej')?.addEventListener('click', () => { location.hash = '#/turniej'; });
 
+// Powiadomienie push o cudzym ruchu czasem nie dochodzi (wyłączony telefon,
+// zablokowana zgoda, appka zamknięta) — bez tego linku z powrotem ciężko
+// było w ogóle trafić na przerwany pojedynek.
+const przyciskWrocTurniej = $('#wroc-do-turnieju');
+const aktywnyPojedynek = localStorage.getItem('jtm:aktywnyPojedynek');
+if (przyciskWrocTurniej && aktywnyPojedynek) {
+  przyciskWrocTurniej.hidden = false;
+  przyciskWrocTurniej.addEventListener('click', () => { location.hash = `#/turniej/${aktywnyPojedynek}`; });
+}
+
 /* --- adresy ---
    Kod QR prowadzi pod #/dolacz/KOD/NUMER-BROKERA, więc telefon gościa od razu
    wie, gdzie się zgłosić. Wpisanie kodu ręcznie działa tak samo, tylko bez
