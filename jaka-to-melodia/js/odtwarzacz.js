@@ -42,15 +42,17 @@ export class Odtwarzacz {
    */
   async rozgrzej() {
     if (this.rozgrzany) return true;
-    const proby = this.elementy.map(async (element) => {
+    const proby = await Promise.all(this.elementy.map(async (element) => {
       element.src = CISZA;
       try {
         await element.play();
         element.pause();
         element.currentTime = 0;
-      } catch { /* zablokowane — spróbujemy przy następnym dotknięciu */ }
-    });
-    await Promise.all(proby);
+        return true;
+      } catch {
+        return false; // zablokowane — spróbujemy ponownie przy następnym dotknięciu
+      }
+    }));
 
     // Czy przeglądarka pozwala sterować głośnością? Safari na iOS udaje, że tak.
     const probny = this.elementy[0];
@@ -58,7 +60,11 @@ export class Odtwarzacz {
     this.steruje = Math.abs(probny.volume - 0.42) < 0.01;
     probny.volume = 1;
 
-    this.rozgrzany = this.elementy.every((e) => e.readyState > 0 || e.currentTime === 0);
+    // Musi się udać na OBU elementach — inaczej rozgrzany=true kłamałby,
+    // że telefon jest gotowy, mimo że kolejne odtworzenie i tak zostanie
+    // zablokowane (dawny błąd: readyState>0 jest prawdą nawet po zablokowanym
+    // play(), więc ta flaga zawsze wychodziła "gotowe", nawet gdy nie było).
+    this.rozgrzany = proby.every(Boolean);
     return this.rozgrzany;
   }
 

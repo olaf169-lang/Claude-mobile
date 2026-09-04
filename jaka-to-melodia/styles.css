@@ -373,6 +373,17 @@ main {
   background: linear-gradient(135deg, var(--plyta), color-mix(in srgb, var(--bursztyn) 14%, var(--plyta)));
   box-shadow: 0 0 0 1px color-mix(in srgb, var(--bursztyn) 25%, transparent) inset;
 }
+/* Przycisk powrotu do przerwanego pojedynku — pokazuje się tylko gdy jest
+   do czego wracać, więc ma wyglądać jak wyraźne, pilne CTA, nie kolejna
+   pozycja w liście trybów gry. */
+.klawisz.wroc-turniej {
+  border-color: transparent;
+  background: var(--gradient);
+  color: var(--tusz);
+  box-shadow: var(--cien-mm);
+  margin-bottom: .9rem;
+}
+
 .turniej-puchar { position: relative; }
 .turniej-plakietka {
   position: absolute;
@@ -529,7 +540,7 @@ main {
   display: flex;
   align-items: center;
   gap: .5rem;
-  margin: .9rem 0 -.1rem;
+  margin: 1rem 0;
   padding: .6rem .9rem;
   border-radius: var(--r-s);
   font-family: var(--naglowkowy);
@@ -554,6 +565,7 @@ main {
 .licznik-puli {
   margin: -.3rem 0 1.1rem;
   font-size: .9rem;
+  font-weight: 700;
   color: var(--tekst-cichy);
 }
 .licznik-puli strong { color: var(--tekst); }

@@ -48,6 +48,12 @@ export function uruchom() {
     koniecPytania: 0,
     pokazano: 0,
     wybor: null,
+    // tworzenie wyzwania — temat ustala się osobno dla każdej rundy, więc
+    // rundy powstają jedna po drugiej, zanim cokolwiek trafi do Firestore:
+    ksywkaTworzacego: '',
+    rundyBudowane: [],
+    pominieteBudowa: null,   // Set identyfikatorów już użytych utworów
+    nrRundyBudowanej: 0,
   };
   let tykanie = null;
   let wygaszanieId = 0;
@@ -90,20 +96,6 @@ export function uruchom() {
   }
 
   function rysujNowe() {
-    const kategorie = wyczysc($('#wyzwanie-wybor-kategorii'));
-    for (const kat of KATEGORIE) {
-      kategorie.append(znaczek(`${kat.emoji} ${kat.nazwa}`, stan.ustawienia.kategorie.includes(kat.id), () => {
-        stan.ustawienia.kategorie = przelacz(stan.ustawienia.kategorie, kat.id);
-        rysujNowe();
-      }, kat.specjalna));
-    }
-    const dekady = wyczysc($('#wyzwanie-wybor-dekad'));
-    for (const dek of DEKADY) {
-      dekady.append(znaczek(dek.nazwa, stan.ustawienia.dekady.includes(dek.id), () => {
-        stan.ustawienia.dekady = przelacz(stan.ustawienia.dekady, dek.id);
-        rysujNowe();
-      }));
-    }
     const czasy = wyczysc($('#wyzwanie-wybor-czasu'));
     for (const s of CZASY_ODPOWIEDZI) {
       czasy.append(znaczek(`${s} s`, stan.ustawienia.czasOdpowiedzi === s, () => {
@@ -125,9 +117,6 @@ export function uruchom() {
         rysujNowe();
       }));
     }
-    const ile = pulaUtworow(stan.ustawienia, opcjePuli()).length;
-    const licznik = $('#wyzwanie-licznik-puli');
-    licznik.innerHTML = `Do wyboru <strong>${ile}</strong> ${odmiana(ile, 'utwór', 'utwory', 'utworów')}.`;
   }
 
   $('#wyzwanie-wroc').addEventListener('click', () => { location.hash = '#/'; });
@@ -138,48 +127,84 @@ export function uruchom() {
     localStorage.setItem('jtm:ksywka', ksywka);
     await odtwarzacz.rozgrzej(); // prawdziwe dotknięcie ekranu — jedyna okazja na iOS
 
-    $('#wyzwanie-tworzenie-opis').textContent = 'Układam pytania…';
-    pokazEkran('wyzwanie-tworzenie');
+    stan.ksywkaTworzacego = ksywka;
+    stan.rundyBudowane = [];
+    stan.pominieteBudowa = new Set();
+    stan.nrRundyBudowanej = 0;
+    pokazWyborTematuWyzwania(0);
+  });
 
-    const seriaRund = zbudujRundy(stan.ustawienia);
-    if (!seriaRund.length || !seriaRund[0].seria.length) {
-      powiadom('Z tego tematu nie da się ułożyć żadnej piosenki — wybierz coś innego.', 'blad');
-      pokazEkran('wyzwanie-nowe');
+  /* ---------------------------------------------- wybór tematu (przy tworzeniu) */
+
+  /** Temat ustala się osobno dla każdej rundy — inaczej przy kilku rundach
+      wychodziłby ciągle ten sam koszyk piosenek. Ekran nawiguje się sam,
+      wywołując siebie ponownie, dopóki nie ułożymy tylu rund, ile trzeba. */
+  function pokazWyborTematuWyzwania(indeksRundy) {
+    stan.ustawienia.kategorie = KATEGORIE.map((k) => k.id);
+    stan.ustawienia.dekady = DEKADY.map((d) => d.id);
+    $('#wyzwanie-numer-rundy-tematu').textContent = `Runda ${indeksRundy + 1}/${stan.ustawienia.liczbaRund}`;
+    rysujWyborTematuWyzwania();
+    pokazEkran('wyzwanie-wybor-tematu');
+  }
+
+  function rysujWyborTematuWyzwania() {
+    const kategorie = wyczysc($('#wyzwanie-wybor-kategorii'));
+    for (const kat of KATEGORIE) {
+      kategorie.append(znaczek(`${kat.emoji} ${kat.nazwa}`, stan.ustawienia.kategorie.includes(kat.id), () => {
+        stan.ustawienia.kategorie = przelacz(stan.ustawienia.kategorie, kat.id);
+        rysujWyborTematuWyzwania();
+      }, kat.specjalna));
+    }
+    const dekady = wyczysc($('#wyzwanie-wybor-dekad'));
+    for (const dek of DEKADY) {
+      dekady.append(znaczek(dek.nazwa, stan.ustawienia.dekady.includes(dek.id), () => {
+        stan.ustawienia.dekady = przelacz(stan.ustawienia.dekady, dek.id);
+        rysujWyborTematuWyzwania();
+      }));
+    }
+    const ile = pulaUtworow(stan.ustawienia, opcjePuli()).filter((u) => !stan.pominieteBudowa.has(u.id)).length;
+    const licznik = $('#wyzwanie-licznik-puli');
+    licznik.dataset.alarm = ile < stan.ustawienia.dlugoscSerii ? 'tak' : 'nie';
+    licznik.innerHTML = `Do wyboru <strong>${ile}</strong> ${odmiana(ile, 'utwór', 'utwory', 'utworów')}.`;
+    $('#wyzwanie-zacznij-runde').disabled = ile === 0;
+  }
+
+  $('#wyzwanie-zacznij-runde').addEventListener('click', async () => {
+    const seria = ulozSerie(stan.ustawienia, {
+      ...opcjePuli(), ziarno: Math.floor(Math.random() * 2 ** 31), pomin: stan.pominieteBudowa,
+    });
+    if (!seria.length) {
+      powiadom('Z tego tematu nie da się ułożyć rundy — wybierz coś innego.', 'blad');
+      return;
+    }
+    for (const pytanie of seria) stan.pominieteBudowa.add(pytanie.utwor.id);
+    stan.rundyBudowane.push({ seria });
+    stan.nrRundyBudowanej += 1;
+
+    if (stan.nrRundyBudowanej < stan.ustawienia.liczbaRund) {
+      pokazWyborTematuWyzwania(stan.nrRundyBudowanej);
       return;
     }
 
     $('#wyzwanie-tworzenie-opis').textContent = 'Wysyłam do bazy…';
+    pokazEkran('wyzwanie-tworzenie');
     try {
       stan.id = await utworzWyzwanie({
         ustawienia: stan.ustawienia,
-        rundy: seriaRund,
-        utworca: ksywka,
+        rundy: stan.rundyBudowane,
+        utworca: stan.ksywkaTworzacego,
       });
-    } catch (blad) {
+    } catch {
       powiadom('Nie udało się utworzyć wyzwania — sprawdź internet i spróbuj ponownie.', 'blad');
       pokazEkran('wyzwanie-nowe');
       return;
     }
 
     history.replaceState(null, '', `#/wyzwanie/${stan.id}`);
-    stan.rundy = seriaRund;
-    stan.utworca = ksywka;
-    rozpocznijGre(ksywka);
+    stan.rundy = stan.rundyBudowane;
+    stan.utworca = stan.ksywkaTworzacego;
+    rozpocznijGre(stan.ksywkaTworzacego);
   });
-
-  /** Serie, jedna na rundę, bez powtórek utworu między rundami. */
-  function zbudujRundy(ustawienia) {
-    const pominiete = new Set();
-    const bazowe = Math.floor(Math.random() * 2 ** 31);
-    const wynik = [];
-    for (let i = 0; i < ustawienia.liczbaRund; i += 1) {
-      const seria = ulozSerie(ustawienia, { ...opcjePuli(), ziarno: bazowe + i, pomin: pominiete });
-      if (!seria.length) break;
-      for (const pytanie of seria) pominiete.add(pytanie.utwor.id);
-      wynik.push({ seria });
-    }
-    return wynik;
-  }
 
   /* ------------------------------------------------------- dołącz do cudzego */
 

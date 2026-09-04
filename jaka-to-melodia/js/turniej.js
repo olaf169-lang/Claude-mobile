@@ -47,7 +47,7 @@ const PIOSENEK_W_RUNDZIE = 5;
 // dekadzie, każde odrzucenie kosztuje punkty w tej rundzie.
 const LOSOWANYCH_KATEGORII = 4;
 const LOSOWANYCH_DEKAD = 3;
-const KARA_ODRZUCENIA = 50;
+const KARA_ODRZUCENIA = 30;
 
 // Które rundy (0-based) wybiera który gracz — patrz opis mechaniki wyżej.
 // P1 zaczyna, więc dostaje mniej rund do ułożenia niż P2 (który i tak dogania
@@ -75,6 +75,20 @@ async function shaHex(tekst) {
 
 function kluczKsywki(ksywka) {
   return ksywka.trim().toLowerCase();
+}
+
+// Ostatni pojedynek, w którym to urządzenie faktycznie brało udział — dzięki
+// temu ekran startowy może zaproponować „Wróć do Turnieju Piąteczki”, nawet
+// gdy powiadomienie push nie doszło (zerwane połączenie, wyłączona appka) i
+// link zaginął. Bez tego ciężko było wrócić do przerwanej rozgrywki.
+const KLUCZ_AKTYWNY_POJEDYNEK = 'jtm:aktywnyPojedynek';
+
+function zapamietajAktywnyPojedynek(id) {
+  localStorage.setItem(KLUCZ_AKTYWNY_POJEDYNEK, id);
+}
+
+function zapomnijAktywnyPojedynek(id) {
+  if (localStorage.getItem(KLUCZ_AKTYWNY_POJEDYNEK) === id) localStorage.removeItem(KLUCZ_AKTYWNY_POJEDYNEK);
 }
 
 /** Jeśli zgoda na powiadomienia jest już dana (np. z pytania przy pierwszej
@@ -111,6 +125,13 @@ export function uruchom() {
   const zrodlo = new ZrodloPodgladow();
   const odtwarzacz = new Odtwarzacz();
   const mojeId = idUrzadzenia();
+
+  // Bez tego niepowodzenie odtwarzania (typowo iOS: telefon jeszcze nie
+  // "rozgrzany" dotknięciem) mijało się bez śladu — ekran po prostu milczał,
+  // a gracz nie wiedział, że coś w ogóle poszło nie tak.
+  odtwarzacz.onBlad = () => {
+    powiadom('Nie udało się puścić fragmentu — stuknij gdziekolwiek na ekranie i spróbuj ponownie.', 'blad');
+  };
 
   const stan = {
     id: null,                 // id dokumentu pojedynku
@@ -235,6 +256,7 @@ export function uruchom() {
     }
 
     history.replaceState(null, '', `#/turniej/${noweId}`);
+    zapamietajAktywnyPojedynek(noweId);
     stan.id = noweId;
     stan.ustawienia = ustawienia;
     stan.rundy = [null, null, null, null, null];
@@ -280,6 +302,7 @@ export function uruchom() {
 
       const jaJuz = gracze.find((g) => g.id === mojeId);
       if (jaJuz) {
+        zapamietajAktywnyPojedynek(id);
         stan.rola = jaJuz.rola;
         stan.ksywka = jaJuz.ksywka;
         const drugi = gracze.find((g) => g.id !== mojeId);
@@ -338,6 +361,7 @@ export function uruchom() {
       powiadom('Nie udało się dołączyć — sprawdź internet i spróbuj ponownie.', 'blad');
       return;
     }
+    zapamietajAktywnyPojedynek(stan.id);
     stan.rola = 'p2';
     stan.ksywka = ksywka;
     stan.przeciwnik = stan.utworca;
@@ -835,6 +859,7 @@ export function uruchom() {
 
       const zwyciezca = wynikP1.punkty === wynikP2.punkty ? 'remis' : wynikP1.punkty > wynikP2.punkty ? 'p1' : 'p2';
       try { await zapiszWynikTurnieju(id, { p1, p2, wynikP1, wynikP2, zwyciezca }); } catch { /* ktoś już zapisał, albo brak sieci — nic straconego */ }
+      if (!readOnly) zapomnijAktywnyPojedynek(id);
 
       const jaWynik = stan.rola === 'p2' ? wynikP2 : wynikP1;
       const jaGracz = stan.rola === 'p2' ? p2 : p1;
