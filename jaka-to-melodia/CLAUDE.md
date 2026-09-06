@@ -115,28 +115,31 @@ zapamiętuje id ostatniego pojedynku gracza; ekran startowy pokazuje
 wtedy przycisk „Wróć do Turnieju Piąteczki”. Czyści się, gdy pojedynek
 się kończy (dla nie-`readOnly` widza).
 
-## Automatyczny Routine: rozbudowa katalogu
+## Automatyczny Routine: rozbudowa katalogu — WYŁĄCZONY (2026-09-06)
 
-Cykliczny Routine (`trig_01EHMdcxLvA2YDSb82DCncZX`, co ~5h, cron
-`18 */5 * * *`) sam dokłada utwory do `dane/utwory.js`, testuje,
-commituje i merguje na produkcję — bez udziału bieżącej sesji. Cel:
-2200 → 3000 → 4000 → 5000 utworów, priorytet na kategorie specjalne
-(Disney, Szybcy i wściekli), potem Country & Folk, potem najchudsze
-koszyki dekada×kategoria. Stan na 2026-09-04: **1543 utworów**.
+Był cykliczny Routine (`trig_01EHMdcxLvA2YDSb82DCncZX`, co ~5h) sam
+dokładający utwory do `dane/utwory.js`. **Użytkownik poprosił o jego
+trwałe zatrzymanie** (zużywał limit sesji przy każdym odnowieniu) —
+usunięty przez `mcp__Claude_Code_Remote__delete_trigger` 2026-09-06.
+Potwierdzone: `list_triggers` z `enabled:true` zwraca pustą listę.
 
-⚠️ **Do sprawdzenia**: ostatni zaplanowany przebieg (2026-09-04
-15:19 UTC) zgłosił się jako `SUCCEEDED` w ~3,5 minuty, ale katalog się
-nie zmienił (wciąż 1543) i nie ma nowego commitu w logu. To podejrzanie
-szybko jak na research+dopisanie+testy+push+merge. Warto sprawdzić
-transkrypt tej sesji (`session_id: cse_011MsiyFFRp5qABeJHSWwZrZ`,
-`get_session`) albo po prostu obejrzeć następny przebieg — jeśli katalog
-dalej stoi w miejscu, coś w promptcie/środowisku Routine'a się zepsuło.
+**Nie twórz go ponownie bez wyraźnej prośby użytkownika.** Jeśli
+użytkownik poprosi o wznowienie rozbudowy katalogu — zapytaj, czy chce
+z powrotem cykliczny Routine, czy wolałby raczej ręczne, jednorazowe
+odpalanie na żądanie.
 
-Można odpalić przebieg od razu (nie czekając na harmonogram) przez
-`mcp__Claude_Code_Remote__fire_trigger` z tym `trigger_id` — opcjonalnie
-z dodatkowym `text`, żeby np. zawęzić priorytet albo zmniejszyć rozmiar
-porcji na to jedno uruchomienie (użytkownik czasem prosi o mniejszy
-batch, żeby oszczędzić tokeny).
+Stan katalogu na dzień wyłączenia: **1543 utworów** (cel z czasów
+Routine'a: 2200 → 3000 → 4000 → 5000, priorytet: kategorie specjalne
+Disney/Szybcy i wściekli, potem Country & Folk, potem najchudsze koszyki
+dekada×kategoria — te priorytety nadal obowiązują, gdyby ktoś kiedyś
+wracał do tego ręcznie).
+
+⚠️ Zanim wyłączono Routine, jego ostatnie zaplanowane przebiegi (m.in.
+2026-09-04 15:19 UTC) zgłaszały `SUCCEEDED`, ale katalog się nie zmieniał
+i nie było nowych commitów — coś w tym mechanizmie faktycznie szwankowało
+(prawdopodobnie sesje kończyły się w stanie wymagającym przeglądu, a nie
+faktycznie commitowały). Gdyby ktoś kiedyś odpalał to ponownie, warto to
+najpierw zdiagnozować, zamiast zakładać, że po prostu zadziała.
 
 ## Preferencje użytkownika
 
