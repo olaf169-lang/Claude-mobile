@@ -216,8 +216,10 @@ export const UTWORY = [
   { tytul: 'Stand by Your Man', wykonawca: 'Tammy Wynette', rok: 1968, gatunek: 'country' },
   { tytul: 'Okie from Muskogee', wykonawca: 'Merle Haggard', rok: 1969, gatunek: 'country' },
   { tytul: 'The Night They Drove Old Dixie Down', wykonawca: 'The Band', rok: 1969, gatunek: 'country' },
-  // --- disney (1) ---
+  // --- disney (3) ---
   { tytul: 'Cruella De Vil', wykonawca: 'Bill Lee', rok: 1961, gatunek: 'disney' },
+  { tytul: 'Feed the Birds', wykonawca: 'Julie Andrews', rok: 1964, gatunek: 'disney' },
+  { tytul: 'Trust in Me', wykonawca: 'Sterling Holloway', rok: 1967, gatunek: 'disney' },
 
   // ======================= LATA 70. =======================
   // --- pop (35) ---
@@ -415,6 +417,8 @@ export const UTWORY = [
   { tytul: 'Jolene', wykonawca: 'Dolly Parton', rok: 1973, gatunek: 'country' },
   { tytul: 'Rhinestone Cowboy', wykonawca: 'Glen Campbell', rok: 1975, gatunek: 'country' },
   { tytul: 'The Gambler', wykonawca: 'Kenny Rogers', rok: 1978, gatunek: 'country' },
+  // --- disney (1) ---
+  { tytul: 'Everybody Wants to Be a Cat', wykonawca: 'Phil Harris & Scatman Crothers', rok: 1970, gatunek: 'disney' },
 
   // ======================= LATA 80. =======================
   // --- pop (38) ---
@@ -686,6 +690,10 @@ export const UTWORY = [
   { tytul: 'Islands in the Stream', wykonawca: 'Kenny Rogers & Dolly Parton', rok: 1983, gatunek: 'country' },
   { tytul: 'Forever and Ever, Amen', wykonawca: 'Randy Travis', rok: 1987, gatunek: 'country' },
   { tytul: 'Fast Car', wykonawca: 'Tracy Chapman', rok: 1988, gatunek: 'country' },
+  // --- disney (1) ---
+  { tytul: 'Best of Friends', wykonawca: 'Pearl Bailey', rok: 1981, gatunek: 'disney' },
+  // --- szanty (1) ---
+  { tytul: 'Samantha', wykonawca: 'Zejman & Garkumpel', rok: 1985, gatunek: 'szanty' },
 
   // ======================= LATA 90. =======================
   // --- pop (32) ---
@@ -959,7 +967,10 @@ export const UTWORY = [
   { tytul: 'Blue', wykonawca: 'LeAnn Rimes', rok: 1996, gatunek: 'country' },
   { tytul: "You're Still the One", wykonawca: 'Shania Twain', rok: 1997, gatunek: 'country' },
   { tytul: 'Man! I Feel Like a Woman!', wykonawca: 'Shania Twain', rok: 1997, gatunek: 'country' },
-  // --- disney (10) ---
+  // --- disney (13) ---
+  { tytul: 'Belle', wykonawca: "Paige O'Hara", rok: 1991, gatunek: 'disney' },
+  { tytul: 'Gaston', wykonawca: 'Richard White', rok: 1991, gatunek: 'disney' },
+  { tytul: 'One Jump Ahead', wykonawca: 'Brad Kane', rok: 1992, gatunek: 'disney' },
   { tytul: 'Wspaniały świat', wykonawca: 'Paweł Tucholski & Katarzyna Skrzynecka', rok: 1992, gatunek: 'disney' },
   { tytul: 'Friend Like Me', wykonawca: 'Robin Williams', rok: 1992, gatunek: 'disney' },
   { tytul: 'Prince Ali', wykonawca: 'Robin Williams', rok: 1992, gatunek: 'disney' },
@@ -1226,10 +1237,32 @@ export const UTWORY = [
   // --- disney (2) ---
   { tytul: "That's How You Know", wykonawca: 'Amy Adams', rok: 2007, gatunek: 'disney' },
   { tytul: 'Almost There', wykonawca: 'Anika Noni Rose', rok: 2009, gatunek: 'disney' },
-  // --- szybcy i wściekli (3) ---
+  // --- szybcy i wściekli (9) ---
+  { tytul: 'Good Life (Remix)', wykonawca: 'Faith Evans feat. Ja Rule, Vita & Cadillac Tah', rok: 2001, gatunek: 'furious', film: 'The Fast and the Furious' },
   { tytul: 'Furious', wykonawca: 'Ja Rule feat. Vita & O-1', rok: 2001, gatunek: 'furious', film: 'The Fast and the Furious' },
   { tytul: 'Act a Fool', wykonawca: 'Ludacris', rok: 2003, gatunek: 'furious', film: '2 Fast 2 Furious' },
+  { tytul: 'Six Days (Remix)', wykonawca: 'DJ Shadow feat. Mos Def', rok: 2006, gatunek: 'furious', film: 'The Fast and the Furious: Tokyo Drift' },
+  { tytul: 'Conteo', wykonawca: 'Don Omar', rok: 2006, gatunek: 'furious', film: 'The Fast and the Furious: Tokyo Drift' },
+  { tytul: 'Bandoleros', wykonawca: 'Don Omar feat. Tego Calderón', rok: 2006, gatunek: 'furious', film: 'The Fast and the Furious: Tokyo Drift' },
   { tytul: 'Tokyo Drift (Fast & Furious)', wykonawca: 'Teriyaki Boyz', rok: 2006, gatunek: 'furious', film: 'The Fast and the Furious: Tokyo Drift' },
+  { tytul: 'Cho Large', wykonawca: 'Teriyaki Boyz feat. Pharrell', rok: 2006, gatunek: 'furious', film: 'The Fast and the Furious: Tokyo Drift' },
+  { tytul: 'Krazy', wykonawca: 'Pitbull feat. Lil Jon', rok: 2009, gatunek: 'furious', film: 'Fast & Furious' },
+  // --- szanty (15) ---
+  { tytul: 'Szanta dziewicy', wykonawca: 'Zejman & Garkumpel', rok: 2000, gatunek: 'szanty' },
+  { tytul: 'Panta Rhei', wykonawca: 'Banana Boat', rok: 2005, gatunek: 'szanty' },
+  { tytul: 'Do Calais', wykonawca: 'Banana Boat', rok: 2005, gatunek: 'szanty' },
+  { tytul: 'Słodka Mała', wykonawca: 'Banana Boat', rok: 2005, gatunek: 'szanty' },
+  { tytul: 'Arktyka', wykonawca: 'Banana Boat', rok: 2005, gatunek: 'szanty' },
+  { tytul: 'Orabajo', wykonawca: 'Banana Boat', rok: 2005, gatunek: 'szanty' },
+  { tytul: 'Nawigator', wykonawca: 'Banana Boat', rok: 2005, gatunek: 'szanty' },
+  { tytul: 'Nowy Świat', wykonawca: 'Banana Boat', rok: 2005, gatunek: 'szanty' },
+  { tytul: 'Z Portu Dalej', wykonawca: 'Banana Boat', rok: 2005, gatunek: 'szanty' },
+  { tytul: 'Negroszanta', wykonawca: 'Banana Boat', rok: 2005, gatunek: 'szanty' },
+  { tytul: 'Zęza', wykonawca: 'Banana Boat', rok: 2005, gatunek: 'szanty' },
+  { tytul: 'A Morze Tak, A Może Nie', wykonawca: 'Banana Boat', rok: 2005, gatunek: 'szanty' },
+  { tytul: 'Round the Bay of Mexico', wykonawca: 'Banana Boat', rok: 2005, gatunek: 'szanty' },
+  { tytul: 'Les Filles des Forges', wykonawca: 'Banana Boat', rok: 2005, gatunek: 'szanty' },
+  { tytul: 'Requiem dla Nieznajomych Przyjaciół z Bieszczadów', wykonawca: 'Banana Boat', rok: 2005, gatunek: 'szanty' },
 
   // ======================= LATA 2010. =======================
   // --- pop (39) ---
@@ -1464,18 +1497,36 @@ export const UTWORY = [
   { tytul: 'Humble and Kind', wykonawca: 'Tim McGraw', rok: 2016, gatunek: 'country' },
   { tytul: 'Meant to Be', wykonawca: 'Bebe Rexha & Florida Georgia Line', rok: 2017, gatunek: 'country' },
   { tytul: 'Body Like a Back Road', wykonawca: 'Sam Hunt', rok: 2017, gatunek: 'country' },
-  // --- disney (6) ---
+  // --- disney (12) ---
   { tytul: 'When Will My Life Begin', wykonawca: 'Mandy Moore', rok: 2010, gatunek: 'disney' },
   { tytul: 'I See the Light', wykonawca: 'Mandy Moore & Zachary Levi', rok: 2010, gatunek: 'disney' },
   { tytul: 'Mam tę moc', wykonawca: 'Katarzyna Łaska', rok: 2013, gatunek: 'disney' },
+  { tytul: 'For the First Time in Forever', wykonawca: 'Kristen Bell & Idina Menzel', rok: 2013, gatunek: 'disney' },
+  { tytul: 'Love Is an Open Door', wykonawca: 'Kristen Bell & Santino Fontana', rok: 2013, gatunek: 'disney' },
+  { tytul: 'Where You Are', wykonawca: 'Temuera Morrison, Nicole Scherzinger & Jemaine Clement', rok: 2016, gatunek: 'disney' },
   { tytul: 'Pół kroku stąd', wykonawca: 'Weronika Bochat', rok: 2016, gatunek: 'disney' },
+  { tytul: 'Un Poco Loco', wykonawca: 'Anthony Gonzalez & Gael García Bernal', rok: 2017, gatunek: 'disney' },
+  { tytul: 'All Is Found', wykonawca: 'Evan Rachel Wood', rok: 2019, gatunek: 'disney' },
+  { tytul: 'Some Things Never Change', wykonawca: 'Frozen II Cast', rok: 2019, gatunek: 'disney' },
   { tytul: 'Show Yourself', wykonawca: 'Idina Menzel & Evan Rachel Wood', rok: 2019, gatunek: 'disney' },
   { tytul: 'Chcę uwierzyć snom', wykonawca: 'Katarzyna Łaska', rok: 2019, gatunek: 'disney' },
-  // --- szybcy i wściekli (4) ---
+  // --- szybcy i wściekli (16) ---
   { tytul: 'How We Roll (Fast Five Remix)', wykonawca: 'Don Omar feat. Busta Rhymes, Reek da Villian & J-Doe', rok: 2011, gatunek: 'furious', film: 'Fast Five' },
   { tytul: 'Danza Kuduro', wykonawca: 'Don Omar feat. Lucenzo', rok: 2011, gatunek: 'furious', film: 'Fast Five' },
+  { tytul: 'We Own It', wykonawca: '2 Chainz & Wiz Khalifa', rok: 2013, gatunek: 'furious', film: 'Fast & Furious 6' },
   { tytul: 'Rest of My Life', wykonawca: 'Ludacris feat. Usher & David Guetta', rok: 2013, gatunek: 'furious', film: 'Fast & Furious 6' },
+  { tytul: 'Ball', wykonawca: 'T.I. feat. Lil Wayne', rok: 2013, gatunek: 'furious', film: 'Fast & Furious 6' },
+  { tytul: 'Ride Out', wykonawca: 'Kid Ink, Tyga, Wale, YG & Rich Homie Quan', rok: 2015, gatunek: 'furious', film: 'Furious 7' },
+  { tytul: 'How Bad Do You Want It (Oh Yeah)', wykonawca: 'Sevyn Streeter', rok: 2015, gatunek: 'furious', film: 'Furious 7' },
+  { tytul: 'Go Hard or Go Home', wykonawca: 'Wiz Khalifa & Iggy Azalea', rok: 2015, gatunek: 'furious', film: 'Furious 7' },
+  { tytul: 'Good Life', wykonawca: 'G-Eazy & Kehlani', rok: 2017, gatunek: 'furious', film: 'The Fate of the Furious' },
+  { tytul: 'Go Off', wykonawca: 'Lil Uzi Vert, Quavo & Travis Scott', rok: 2017, gatunek: 'furious', film: 'The Fate of the Furious' },
   { tytul: 'Hey Ma', wykonawca: 'Pitbull & J Balvin feat. Camila Cabello', rok: 2017, gatunek: 'furious', film: 'The Fate of the Furious' },
+  { tytul: 'Candy Paint', wykonawca: 'Post Malone', rok: 2017, gatunek: 'furious', film: 'The Fate of the Furious' },
+  { tytul: 'Gang Up', wykonawca: 'Young Thug, 2 Chainz, Wiz Khalifa & PnB Rock', rok: 2017, gatunek: 'furious', film: 'The Fate of the Furious' },
+  { tytul: 'Getting Started', wykonawca: 'Aloe Blacc feat. J.I.D', rok: 2019, gatunek: 'furious', film: 'Hobbs & Shaw' },
+  { tytul: '100 Miles and Running', wykonawca: 'Logic feat. Wale & John Lindahl', rok: 2019, gatunek: 'furious', film: 'Hobbs & Shaw' },
+  { tytul: 'Time in a Bottle', wykonawca: 'YUNGBLUD', rok: 2019, gatunek: 'furious', film: 'Hobbs & Shaw' },
 
   // ======================= LATA 2020. =======================
   // --- pop (35) ---
@@ -1635,10 +1686,16 @@ export const UTWORY = [
   { tytul: 'You Proof', wykonawca: 'Morgan Wallen', rok: 2021, gatunek: 'country' },
   { tytul: 'Fancy Like', wykonawca: 'Walker Hayes', rok: 2021, gatunek: 'country' },
   { tytul: 'Last Night', wykonawca: 'Morgan Wallen', rok: 2023, gatunek: 'country' },
-  // --- szybcy i wściekli (3) ---
+  // --- szybcy i wściekli (7) ---
   { tytul: 'Fast Lane', wykonawca: 'Don Toliver, Lil Durk & Latto', rok: 2021, gatunek: 'furious', film: 'F9' },
   { tytul: 'I Won', wykonawca: 'Ty Dolla $ign, Jack Harlow & 24kGoldn', rok: 2021, gatunek: 'furious', film: 'F9' },
+  { tytul: 'My City', wykonawca: '24kGoldn, Kane Brown & G Herbo', rok: 2023, gatunek: 'furious', film: 'Fast X' },
+  { tytul: 'Toretto', wykonawca: 'J Balvin', rok: 2023, gatunek: 'furious', film: 'Fast X' },
+  { tytul: 'Angel Pt. 1', wykonawca: 'Kodak Black feat. Jimin, JVKE & Muni Long', rok: 2023, gatunek: 'furious', film: 'Fast X' },
+  { tytul: "Let's Ride", wykonawca: 'YG, Ty Dolla $ign & Lambo4oe', rok: 2023, gatunek: 'furious', film: 'Fast X' },
   { tytul: "Won't Back Down", wykonawca: 'YoungBoy Never Broke Again, Dermot Kennedy & Bailey Zimmerman', rok: 2023, gatunek: 'furious', film: 'Fast X' },
+  // --- szanty (1) ---
+  { tytul: 'My Mother Told Me', wykonawca: 'Perły i Łotry', rok: 2021, gatunek: 'szanty' },
 
   // Tu dopisuj świeżynki i to, czego brakuje — jedna linijka na utwór.
 ];
