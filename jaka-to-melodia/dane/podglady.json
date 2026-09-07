@@ -1,6 +1,6 @@
 {
  "wersja": 1,
- "wygenerowano": "2026-09-06T20:57:42.038Z",
+ "wygenerowano": "2026-09-07T23:11:38.763Z",
  "utwory": {
   "phil-collins--in-the-air-tonight": {
    "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/d5/19/0fd51913-f97c-b88b-a4d2-bbf833116daa/mzaf_13159865170747963555.plus.aac.p.m4a",
@@ -11665,6 +11665,366 @@
    "zrodloId": "1818408858",
    "tytulZrodla": "Last Night",
    "wykonawcaZrodla": "Morgan Wallen"
+  },
+  "julie-andrews--feed-the-birds": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/40/29/06/40290635-2467-69cc-eded-e4c0443c7936/mzaf_2331177100790516131.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0f/3c/6a/0f3c6adb-d72e-9a32-e6a0-97c2e44af4f1/00050087302832.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1442841196",
+   "tytulZrodla": "Feed the Birds (Tuppence a Bag)",
+   "wykonawcaZrodla": "Julie Andrews"
+  },
+  "sterling-holloway--trust-in-me": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dc/97/33/dc97337f-b51e-d8cb-01bd-f6a7bfcaa68d/mzaf_749821787158764488.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fc/00/fc/fc00fc2b-7351-7df0-6051-78f097bc5f33/20UMGIM55277.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1522611039",
+   "tytulZrodla": "Trust In Me (The Python's Song) [From \"The Jungle Book\"]",
+   "wykonawcaZrodla": "Sterling Holloway"
+  },
+  "pearl-bailey--best-of-friends": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5f/1b/0e/5f1b0e28-3aac-6023-6d3d-199d50994b53/mzaf_17866436029168121026.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/36/1d/72/361d724d-5ec1-43d0-617a-b4902570bf1e/09DMGIM00475.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1440715898",
+   "tytulZrodla": "Best of Friends",
+   "wykonawcaZrodla": "Pearl Bailey"
+  },
+  "zejman-and-garkumpel--samantha": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1e/b4/b6/1eb4b6ae-c907-204b-65a1-33fea66ba207/mzaf_8416172371793825460.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/79/bc/b4/79bcb47d-407e-1844-919f-26982e29a70b/cover.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1588039423",
+   "tytulZrodla": "Samantha",
+   "wykonawcaZrodla": "Zejman & Garkumpel"
+  },
+  "paige-o-hara--belle": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/89/14/15/89141553-41c5-d805-a048-46b10b900a3d/mzaf_4999339466592145511.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ee/15/30/ee153061-293c-d2be-0d71-d90347de5921/10DMGIM01646.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1440618895",
+   "tytulZrodla": "Belle",
+   "wykonawcaZrodla": "Paige O'Hara, RICHARD WHITE/JESSE CORTI & The Chorus of Beauty and the Beast"
+  },
+  "richard-white--gaston": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/12/b9/22/12b922d6-28cd-641a-ada5-56277cab8a26/mzaf_453700044127934864.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ee/15/30/ee153061-293c-d2be-0d71-d90347de5921/10DMGIM01646.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1440618898",
+   "tytulZrodla": "Gaston",
+   "wykonawcaZrodla": "Jesse Corti & RICHARD WHITE/JESSE CORTI"
+  },
+  "brad-kane--one-jump-ahead": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ac/7d/ef/ac7def20-59fb-4063-4abc-8e70cb064945/mzaf_619978111091658615.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/28/ea/9a/28ea9a5c-a08a-6696-9265-5ccf2dc00d61/22UMGIM94890.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1645124873",
+   "tytulZrodla": "One Jump Ahead",
+   "wykonawcaZrodla": "Brad Kane"
+  },
+  "dj-shadow-feat-mos-def--six-days-remix": {
+   "podglad": "https://cdnt-preview.dzcdn.net/api/1/1/3/3/7/0/33731542cf2fc4f8891542e095433af2.mp3?hdnea=exp=1788823516~acl=/api/1/1/3/3/7/0/33731542cf2fc4f8891542e095433af2.mp3*~data=user_id=0,application_id=42~hmac=5dfd6744468108614b1a836f3d0622c1ff401d114dbe142e9fd9a38fa3a54d49",
+   "okladka": "https://cdn-images.dzcdn.net/images/cover/ea864b49a7f8d27f03cb8d814c0e2b98/500x500-000000-80-0-0.jpg",
+   "zrodlo": "deezer",
+   "zrodloId": "2076461467",
+   "tytulZrodla": "Six Days (Remix)",
+   "wykonawcaZrodla": "DJ Shadow"
+  },
+  "don-omar--conteo": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/db/eb/e0/dbebe09b-652b-1220-a8c6-2e0104b6d9d0/mzaf_17755701425979618024.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ab/57/7b/ab577bde-2be5-b43d-5d20-23f1184b08c2/06UMGIM25073.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1434545242",
+   "tytulZrodla": "Conteo",
+   "wykonawcaZrodla": "Don Omar"
+  },
+  "don-omar-feat-tego-calderon--bandoleros": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c0/36/ef/c036efcf-8a34-d13b-fe11-48cae2dbf368/mzaf_10070059939233082296.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a5/5d/47/a55d4753-81c3-bbcd-a118-d72c0cc54713/BANDOLEROS_copy.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1750557062",
+   "tytulZrodla": "Bandoleros (feat. Tego Calderón)",
+   "wykonawcaZrodla": "Don Omar"
+  },
+  "pitbull-feat-lil-jon--krazy": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/05/cf/13/05cf1362-f3aa-425e-d5f2-a0f845b45d06/mzaf_10308922353851523498.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4e/c3/09/4ec3096e-4597-6469-f576-26658fff296d/mzi.botoocbc.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "327014505",
+   "tytulZrodla": "Krazy (feat. Lil Jon)",
+   "wykonawcaZrodla": "Pitbull"
+  },
+  "banana-boat--panta-rhei": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5c/06/34/5c0634b7-d3d0-8494-94f9-c213707996c2/mzaf_16510146864918350665.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c0/15/88/c015880c-9ace-50fb-ad70-d12c4e5b9075/889211259892.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "950605684",
+   "tytulZrodla": "Panta Rhei",
+   "wykonawcaZrodla": "BANANA BOAT"
+  },
+  "banana-boat--do-calais": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/99/95/5c/99955cb9-9a25-7602-a73c-cc3f18688933/mzaf_4244840356496738315.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c0/15/88/c015880c-9ace-50fb-ad70-d12c4e5b9075/889211259892.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "950605685",
+   "tytulZrodla": "Do Calais",
+   "wykonawcaZrodla": "BANANA BOAT"
+  },
+  "banana-boat--slodka-mala": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/08/ff/eb/08ffeb8e-4072-a752-517b-ef3191dace11/mzaf_15767790136821822474.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c0/15/88/c015880c-9ace-50fb-ad70-d12c4e5b9075/889211259892.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "950605687",
+   "tytulZrodla": "Słodka Mała",
+   "wykonawcaZrodla": "BANANA BOAT"
+  },
+  "banana-boat--arktyka": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/68/5d/64/685d641e-0558-938c-2cdd-be9fcfbfecf1/mzaf_11656145577044096608.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c0/15/88/c015880c-9ace-50fb-ad70-d12c4e5b9075/889211259892.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "950605688",
+   "tytulZrodla": "Arktyka",
+   "wykonawcaZrodla": "BANANA BOAT"
+  },
+  "banana-boat--orabajo": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/82/8a/12/828a12b6-7d17-29ae-c8ab-df9d78845198/mzaf_4443197530343049768.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c0/15/88/c015880c-9ace-50fb-ad70-d12c4e5b9075/889211259892.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "950605690",
+   "tytulZrodla": "Orabajo",
+   "wykonawcaZrodla": "BANANA BOAT"
+  },
+  "banana-boat--nawigator": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/26/0c/a8/260ca809-21b1-8087-47b5-8ab56001cba7/mzaf_12974253073494633565.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c0/15/88/c015880c-9ace-50fb-ad70-d12c4e5b9075/889211259892.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "950605702",
+   "tytulZrodla": "Nawigator",
+   "wykonawcaZrodla": "BANANA BOAT"
+  },
+  "banana-boat--nowy-swiat": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/da/fa/ac/dafaaca6-6bb4-708e-89af-280c21c0ab75/mzaf_4853820525251522837.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c0/15/88/c015880c-9ace-50fb-ad70-d12c4e5b9075/889211259892.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "950605704",
+   "tytulZrodla": "Nowy Świat",
+   "wykonawcaZrodla": "BANANA BOAT"
+  },
+  "banana-boat--z-portu-dalej": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9a/8c/11/9a8c11f4-b126-522b-c054-db38fa66f286/mzaf_1342472228862817056.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c0/15/88/c015880c-9ace-50fb-ad70-d12c4e5b9075/889211259892.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "950605705",
+   "tytulZrodla": "Z Portu Dalej",
+   "wykonawcaZrodla": "BANANA BOAT"
+  },
+  "banana-boat--negroszanta": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/be/db/60/bedb6034-f344-f011-5f60-427d3cdc7eed/mzaf_17481499099879136997.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c0/15/88/c015880c-9ace-50fb-ad70-d12c4e5b9075/889211259892.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "950605707",
+   "tytulZrodla": "Negroszanta",
+   "wykonawcaZrodla": "BANANA BOAT"
+  },
+  "banana-boat--zeza": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/55/72/d9/5572d9ff-45b5-841d-24a3-b837971dec5d/mzaf_5409083833372284716.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c0/15/88/c015880c-9ace-50fb-ad70-d12c4e5b9075/889211259892.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "950605709",
+   "tytulZrodla": "Zęza",
+   "wykonawcaZrodla": "BANANA BOAT"
+  },
+  "banana-boat--a-morze-tak-a-moze-nie": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6c/06/ba/6c06baac-a623-79da-fce2-e26855acd14c/mzaf_10892454475012687351.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c0/15/88/c015880c-9ace-50fb-ad70-d12c4e5b9075/889211259892.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "950605712",
+   "tytulZrodla": "A Morze Tak, A Może Nie",
+   "wykonawcaZrodla": "BANANA BOAT"
+  },
+  "banana-boat--round-the-bay-of-mexico": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6f/41/75/6f41752f-3807-9580-7219-fc8d89d3431c/mzaf_14536678979393780639.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c0/15/88/c015880c-9ace-50fb-ad70-d12c4e5b9075/889211259892.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "950605708",
+   "tytulZrodla": "Round The Bay Of Mexico",
+   "wykonawcaZrodla": "BANANA BOAT"
+  },
+  "banana-boat--les-filles-des-forges": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/95/f1/6e/95f16e04-f9a1-38bd-dee5-a18ee814d4ba/mzaf_16200444013747648181.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c0/15/88/c015880c-9ace-50fb-ad70-d12c4e5b9075/889211259892.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "950605689",
+   "tytulZrodla": "Les Filles Des Forges",
+   "wykonawcaZrodla": "BANANA BOAT"
+  },
+  "banana-boat--requiem-dla-nieznajomych-przyjaciol-z-bieszczadow": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/16/f3/b1/16f3b18a-192d-51c5-753c-bc055e52e2e5/mzaf_13040229527458211730.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c0/15/88/c015880c-9ace-50fb-ad70-d12c4e5b9075/889211259892.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "950605692",
+   "tytulZrodla": "Requiem Dla Nieznajomych Przyjaciół Z Bieszczadów (feat. Arkadiusz Loska, Maciej Gramatyka & Magdalena Tkaczyk)",
+   "wykonawcaZrodla": "BANANA BOAT"
+  },
+  "kristen-bell-and-idina-menzel--for-the-first-time-in-forever": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/40/7b/39/407b398a-ff06-777d-49f3-788bb8dbc301/mzaf_2748829864215357076.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e7/ed/8a/e7ed8a2c-4835-e4dc-efec-5e81abd6c241/13DMGIM04438.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1440626762",
+   "tytulZrodla": "For the First Time in Forever",
+   "wykonawcaZrodla": "Kristen Bell & Idina Menzel"
+  },
+  "kristen-bell-and-santino-fontana--love-is-an-open-door": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2d/33/b2/2d33b2cd-ad24-1c3e-5d4d-37591816c652/mzaf_9818210489355082413.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e7/ed/8a/e7ed8a2c-4835-e4dc-efec-5e81abd6c241/13DMGIM04438.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1440626763",
+   "tytulZrodla": "Love Is an Open Door",
+   "wykonawcaZrodla": "Kristen Bell & Santino Fontana"
+  },
+  "anthony-gonzalez-and-gael-garcia-bernal--un-poco-loco": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/01/c8/23/01c82378-2e20-9c98-9c91-7d5226b48c74/mzaf_2131918418545124741.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/de/77/a2/de77a26f-b88b-48a7-cd70-5e3cfdda4340/17UM1IM33595.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1440671253",
+   "tytulZrodla": "Un Poco Loco",
+   "wykonawcaZrodla": "Anthony Gonzalez & Gael García Bernal"
+  },
+  "evan-rachel-wood--all-is-found": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/36/99/fc/3699fc88-e169-3df9-0fdf-8ef05c26a271/mzaf_10059909333390794618.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/66/cf/70/66cf7012-98ed-b201-21ed-b1ee0e9ad26f/19UM1IM00155.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1487738281",
+   "tytulZrodla": "All Is Found",
+   "wykonawcaZrodla": "Evan Rachel Wood"
+  },
+  "2-chainz-and-wiz-khalifa--we-own-it": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1a/56/6c/1a566cbc-16ea-708b-5bad-e576598fd134/mzaf_6353919847010163362.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/12/c2/28/12c228c9-b268-0432-b4a1-e475fba22c68/13UMGIM59022.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1440862192",
+   "tytulZrodla": "We Own It (Fast & Furious)",
+   "wykonawcaZrodla": "2 Chainz & Wiz Khalifa"
+  },
+  "t-i-feat-lil-wayne--ball": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/36/e6/9d/36e69d32-83e2-a21c-95a1-0f1572ba08af/mzaf_8860472841748174246.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/03/74/e1/0374e17f-5400-91d1-3155-640df6a40291/050742347062_cover.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1437479998",
+   "tytulZrodla": "Ball (feat. Lil Wayne)",
+   "wykonawcaZrodla": "T.I."
+  },
+  "kid-ink-tyga-wale-yg-and-rich-homie-quan--ride-out": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/51/de/04/51de046c-8cb7-70ec-c151-d334d427b691/mzaf_12054668667608482991.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/71/c9/86/71c98649-0636-4df1-7a63-f577268a042a/dj.ukfzigab.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1030597940",
+   "tytulZrodla": "Ride Out",
+   "wykonawcaZrodla": "Kid Ink, Tyga, Wale, YG & Rich Homie Quan"
+  },
+  "sevyn-streeter--how-bad-do-you-want-it-oh-yeah": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/00/ba/77/00ba77ee-d467-6ff0-8166-6e74c1ce59ed/mzaf_17665099749291359426.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e6/8a/68/e68a688e-129e-cb9d-938f-bc3ee37059ae/075679930910.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "966411598",
+   "tytulZrodla": "How Bad Do You Want It (Oh Yeah)",
+   "wykonawcaZrodla": "Sevyn Streeter"
+  },
+  "wiz-khalifa-and-iggy-azalea--go-hard-or-go-home": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cd/5e/9c/cd5e9c13-b422-29e3-d3c8-786dae5cabec/mzaf_17516656645981659258.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e6/8a/68/e68a688e-129e-cb9d-938f-bc3ee37059ae/075679930910.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "966411600",
+   "tytulZrodla": "Go Hard Or Go Home",
+   "wykonawcaZrodla": "Wiz Khalifa & Iggy Azalea"
+  },
+  "g-eazy-and-kehlani--good-life": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/19/12/93/1912932b-b053-3682-0a46-2f7f58b0cf73/mzaf_1831570136354931732.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ba/77/22/ba772286-cdd8-8925-aa93-784db1836d7b/075679900111.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1210538351",
+   "tytulZrodla": "Good Life",
+   "wykonawcaZrodla": "G-Eazy & Kehlani"
+  },
+  "lil-uzi-vert-quavo-and-travis-scott--go-off": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/64/e6/fb/64e6fb31-4966-ba1a-e3ce-078993694ad1/mzaf_14189329048971622062.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ba/77/22/ba772286-cdd8-8925-aa93-784db1836d7b/075679900111.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1210538350",
+   "tytulZrodla": "Go Off",
+   "wykonawcaZrodla": "Lil Uzi Vert, Quavo & Travis Scott"
+  },
+  "post-malone--candy-paint": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/28/3e/61/283e6122-af0b-40b4-0aea-1dd88236a07c/mzaf_8016707088441672623.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/55/9f/fb/559ffb75-3c00-abd6-7b1f-8b6b1518b173/18UMGIM22101.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1373506327",
+   "tytulZrodla": "Candy Paint",
+   "wykonawcaZrodla": "Post Malone"
+  },
+  "young-thug-2-chainz-wiz-khalifa-and-pnb-rock--gang-up": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/02/d1/47/02d14779-1071-2a40-0c3a-4912ff10f05d/mzaf_4196323005946272969.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b8/9e/4a/b89e4acc-395b-df3a-bf1a-deded2485bf3/075679900098.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1210531922",
+   "tytulZrodla": "Gang Up",
+   "wykonawcaZrodla": "Young Thug, 2 Chainz, Wiz Khalifa & PnB Rock"
+  },
+  "aloe-blacc-feat-j-i-d--getting-started": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/59/ce/84/59ce847a-f0df-2beb-3e74-dc6017b34ca2/mzaf_9228241330209954035.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9b/8d/9f/9b8d9ffd-552f-fbdd-141e-f58506b0ffab/HSW_ALBUM_MAIN_WHITE_3000x3000px.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1473851143",
+   "tytulZrodla": "Getting Started (Hobbs & Shaw) [feat. JID]",
+   "wykonawcaZrodla": "Aloe Blacc"
+  },
+  "logic-feat-wale-and-john-lindahl--100-miles-and-running": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/47/7d/ac/477dac18-3c83-78e7-b9b3-0559fdd92d35/mzaf_12310228713494955963.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/fc/86/12/fc861212-5950-966a-3462-e865e57d9958/18UMGIM62923.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1437032813",
+   "tytulZrodla": "100 Miles and Running (feat. Wale & John Lindahl)",
+   "wykonawcaZrodla": "Logic"
+  },
+  "yungblud--time-in-a-bottle": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b9/23/80/b92380f6-12c8-b504-3822-089c1e223a45/mzaf_10269620107182295941.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9b/8d/9f/9b8d9ffd-552f-fbdd-141e-f58506b0ffab/HSW_ALBUM_MAIN_WHITE_3000x3000px.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1473851033",
+   "tytulZrodla": "Time In a Bottle",
+   "wykonawcaZrodla": "YUNGBLUD"
+  },
+  "24kgoldn-kane-brown-and-g-herbo--my-city": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/46/a9/01/46a90143-9548-9b1b-afae-16900f65a5d8/mzaf_4538289195255765463.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/88/c1/96/88c196a7-6155-1a5f-aed8-a1f7caa40e70/23SYMIM04378.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1685731986",
+   "tytulZrodla": "My City (feat. G Herbo)",
+   "wykonawcaZrodla": "24kGoldn, Kane Brown & Fast & Furious: The Fast Saga"
+  },
+  "j-balvin--toretto": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b2/79/6d/b2796dea-1a58-e878-1b08-7ca2d77a8839/mzaf_11017357764677628207.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/aa/24/67/aa246738-380b-363d-3c4a-1568cfe1872a/23SYMIM04457.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1685996943",
+   "tytulZrodla": "Toretto",
+   "wykonawcaZrodla": "J Balvin"
+  },
+  "yg-ty-dolla-ign-and-lambo4oe--let-s-ride": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a9/8e/4e/a98e4e7e-e8ee-47f3-2e58-5e601d72c3a5/mzaf_14019870227594605372.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/88/c1/96/88c196a7-6155-1a5f-aed8-a1f7caa40e70/23SYMIM04378.rgb.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1685732285",
+   "tytulZrodla": "Let's Ride (feat. Ty Dolla $ign, Lambo4oe & Bone Thugs-N-Harmony) [Trailer Anthem]",
+   "wykonawcaZrodla": "YG, The Notorious B.I.G. & Fast & Furious: The Fast Saga"
+  },
+  "perly-i-lotry--my-mother-told-me": {
+   "podglad": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/67/b3/86/67b386b2-7761-3819-230b-5d4d8702c6c4/mzaf_8431819463994488443.plus.aac.p.m4a",
+   "okladka": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/fd/34/82/fd348280-a2e9-31cc-b8a2-4ad26cc65806/0000000077316_cover.jpg/500x500bb.jpg",
+   "zrodlo": "itunes",
+   "zrodloId": "1514387011",
+   "tytulZrodla": "My Mother Told Me (Vikings Anthem)",
+   "wykonawcaZrodla": "L.B. One, Datamotion & Perly I Lotry"
   }
  },
  "braki": [
@@ -11693,9 +12053,11 @@
   "Enej — Ostatni dzień tej zimy",
   "Ewa Demarczyk — Grande Valse Brillante",
   "Ewa Demarczyk — Tomaszów",
+  "Faith Evans feat. Ja Rule, Vita & Cadillac Tah — Good Life (Remix)",
   "Faithless — Insomnia 2005",
   "Feel — Jest już za późno",
   "Formacja Nieżywych Schabuff — Lato",
+  "Frozen II Cast — Some Things Never Change",
   "Gabry Ponte — Sunshine",
   "Hey — Autobusy i tramwaje",
   "Ich Troje — Fantazja",
@@ -11707,6 +12069,7 @@
   "Kamil Bednarek — Blisko",
   "Kizo — Zabierz mnie stąd",
   "Kobranocka — Cisza jak ta",
+  "Kodak Black feat. Jimin, JVKE & Muni Long — Angel Pt. 1",
   "Kombii — Wolność",
   "Kortez — Bailamos",
   "Kult — Lewy czerwony, prawy biały",
@@ -11727,6 +12090,7 @@
   "Otsochodzi — Autsajder",
   "Paktofonika — 835 dni",
   "Peja — Szacunek ludzi ulicy",
+  "Phil Harris & Scatman Crothers — Everybody Wants to Be a Cat",
   "Republika — Nietykalni",
   "sanah — Mój świat",
   "Shazza — Ale mnie ponosi",
@@ -11741,6 +12105,8 @@
   "Sylwia Grzeszczak — Kraksa",
   "Sylwia Grzeszczak feat. Liber — Kryzysowa jednostka",
   "T.Love — Jestem jaki jestem",
+  "Temuera Morrison, Nicole Scherzinger & Jemaine Clement — Where You Are",
+  "Teriyaki Boyz feat. Pharrell — Cho Large",
   "The Rolling Stones — (I Cant Get No) Satisfaction",
   "Top One — Kolorowe sny",
   "Toples — Ratujmy miłość",
@@ -11752,6 +12118,7 @@
   "Wanda i Banda — Bo tutaj jest jak jest",
   "YoungBoy Never Broke Again, Dermot Kennedy & Bailey Zimmerman — Won't Back Down",
   "Zeamsson — 5 INFLUENCEREK",
+  "Zejman & Garkumpel — Szanta dziewicy",
   "Żabson — Nike Air"
  ]
 }
