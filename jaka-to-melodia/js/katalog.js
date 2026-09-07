@@ -19,9 +19,7 @@ export const KATEGORIE = [
   // więc naturalnie skupia się w kilku latach zamiast rozkładać się równo.
   { id: 'disney',  nazwa: 'Disney',              emoji: '🏰', specjalna: true },
   { id: 'furious', nazwa: 'Szybcy i wściekli',   emoji: '🏎️', specjalna: true },
-  // Szanty celowo jeszcze nie tutaj — wejdzie do listy dopiero, gdy w
-  // katalogu będzie ich wystarczająco dużo, żeby dało się z nich ułożyć
-  // pełną serię (patrz test „każda kategoria da się zagrać w pojedynkę”).
+  { id: 'szanty',  nazwa: 'Szanty',              emoji: '⚓', specjalna: true },
 ];
 
 export const DEKADY = [
