@@ -134,6 +134,19 @@ Disney/Szybcy i wściekli, potem Country & Folk, potem najchudsze koszyki
 dekada×kategoria — te priorytety nadal obowiązują, gdyby ktoś kiedyś
 wracał do tego ręcznie).
 
+**2026-09-07, ręczna dogrywka na żądanie użytkownika** (bez Routine'a):
++23 utwory „Szybcy i wściekli" (teraz 32 łącznie), +21 Disney (teraz 32
+łącznie), nowa kategoria specjalna **Szanty** (17 utworów — Zejman i
+Garkumpel, Banana Boat, Perły i Łotry; cel był ~30, ale nie dało się
+bezpiecznie zweryfikować więcej — słabo udokumentowane roki wydania
+polskich szant, ten sam problem co już wcześniej zgłaszał Routine).
+Katalog: 1595 utworów. Uwaga z tej sesji: `narzedzia/przebuduj-katalog.mjs`
+przy dodawaniu utworów **cicho kasuje duble tytuł+wykonawca, zostawiając
+PÓŹNIEJSZE wystąpienie** — złapało to raz nowy wpis „See You Again" (Wiz
+Khalifa), który nadpisał istniejący wpis w kategorii `rap` nowym w
+`furious`; zawsze grepuj nowe tytuły przed dodaniem i czytaj uważnie
+wynik przebuduj-katalog.mjs pod kątem „Usunięte duble".
+
 ⚠️ Zanim wyłączono Routine, jego ostatnie zaplanowane przebiegi (m.in.
 2026-09-04 15:19 UTC) zgłaszały `SUCCEEDED`, ale katalog się nie zmieniał
 i nie było nowych commitów — coś w tym mechanizmie faktycznie szwankowało
