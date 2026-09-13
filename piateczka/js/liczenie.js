@@ -1,16 +1,24 @@
 /* ==========================================================================
    Turniej Pana Piąteczki — cała matematyka sezonu w jednym miejscu.
 
-   Jedna waluta: SALDO małych punktów (zdobyte − stracone). Sumuje się do
-   zera w każdym wieczorze, więc opuszczony wtorek kosztuje dokładnie tyle,
-   co średnia — nic. To dlatego kalendarz może być umowny, a wieczór można
-   rozegrać w każdym składzie od dwóch osób w górę.
+   Waluta to SALDO: różnica małych punktów (zdobyte − stracone) plus
+   BONUS_WYGRANEJ za każdy wygrany mecz. Sama różnica punktów bilansuje się
+   w każdym meczu do zera; bonus dokłada się z boku i tylko zwycięzcom, żeby
+   wygrana znaczyła więcej niż ładna przegrana. Nieobecność nadal kosztuje
+   dokładnie zero — nie grasz, nic nie zyskujesz i nic nie tracisz — więc
+   kalendarz może być umowny, a wieczór da się rozegrać w każdym składzie
+   od dwóch osób w górę.
 
    Jedna definicja wygranego meczu, używana wszędzie (tabela, MVP, ELO):
-   więcej wygranych setów, a przy remisie w setach rozstrzyga saldo.
+   więcej wygranych setów, a przy remisie w setach rozstrzyga różnica punktów.
    ========================================================================== */
 
 import { GRACZE, GOSC } from './dane.js';
+
+/* Ile punktów do klasyfikacji dostaje KAŻDY z graczy wygranej pary, ponad
+   różnicę punktów. Decyzja użytkownika: samo saldo za słabo premiowało
+   zwycięstwo, bo przegrana 14:15 wyglądała prawie tak samo jak wygrana. */
+export const BONUS_WYGRANEJ = 3;
 
 /* --------------------------------------------------------- układ wieczoru */
 
@@ -86,7 +94,13 @@ export function wynikMeczu(mecz) {
   if (setyA > setyB || (setyA === setyB && saldo > 0)) werdykt = 'a';
   else if (setyB > setyA || (setyA === setyB && saldo < 0)) werdykt = 'b';
 
-  return { rozegrany: setow > 0, setow, setyA, setyB, pktA, pktB, saldo, werdykt };
+  // Bonus jest asymetryczny: zwycięzcy dostają, przegrani NIE tracą. Dlatego
+  // `saldo` zostaje surową różnicą punktów (używa jej ELO i podgląd meczu),
+  // a bonus podajemy osobno i doliczamy dopiero w statystykach gracza.
+  const bonusA = werdykt === 'a' ? BONUS_WYGRANEJ : 0;
+  const bonusB = werdykt === 'b' ? BONUS_WYGRANEJ : 0;
+
+  return { rozegrany: setow > 0, setow, setyA, setyB, pktA, pktB, saldo, werdykt, bonusA, bonusB };
 }
 
 /* ------------------------------------------------- statystyki gracza/dnia */
@@ -96,7 +110,7 @@ function pustyRekord(id) {
     id, saldo: 0, zdobyte: 0, stracone: 0,
     setyW: 0, setyP: 0, meczeW: 0, meczeP: 0, meczeR: 0, mecze: 0,
     wieczory: 0, seria: 0, najdluzszaSeria: 0,
-    setyNaStyk: 0, setyNaStykW: 0,
+    setyNaStyk: 0, setyNaStykW: 0, bonusy: 0,
     setyKolejno: [],       // kolejność wygranych/przegranych setów — do serii
     partnerzy: {},          // id → saldo zdobyte grając w parze z tą osobą
     historia: [],           // { data, saldo } — do wykresu formy
@@ -117,9 +131,9 @@ export function rekordyWieczoru(wieczor, wszyscy = false) {
     const r = wynikMeczu(mecz);
     if (!r.rozegrany) continue;
 
-    for (const [strona, moi, pkt, pktIch, setyMoje, setyIch] of [
-      ['a', mecz.a, r.pktA, r.pktB, r.setyA, r.setyB],
-      ['b', mecz.b, r.pktB, r.pktA, r.setyB, r.setyA],
+    for (const [strona, moi, pkt, pktIch, setyMoje, setyIch, bonus] of [
+      ['a', mecz.a, r.pktA, r.pktB, r.setyA, r.setyB, r.bonusA],
+      ['b', mecz.b, r.pktB, r.pktA, r.setyB, r.setyA, r.bonusB],
     ]) {
       for (const id of moi) {
         if (!nasz(id)) continue;
@@ -127,14 +141,18 @@ export function rekordyWieczoru(wieczor, wszyscy = false) {
         s.mecze += 1;
         s.zdobyte += pkt;
         s.stracone += pktIch;
-        s.saldo += pkt - pktIch;
+        // Bonus dostaje KAŻDY z wygranej pary, w całości — nie dzielimy go na pół.
+        s.saldo += pkt - pktIch + bonus;
+        s.bonusy += bonus;
         s.setyW += setyMoje;
         s.setyP += setyIch;
         if (r.werdykt === strona) s.meczeW += 1;
         else if (r.werdykt === 'remis') s.meczeR += 1;
         else s.meczeP += 1;
+        // Ta sama waluta co w tabeli, razem z bonusem — inaczej „saldo
+        // z partnerem" mówiłoby co innego niż saldo w klasyfikacji.
         for (const partner of moi) if (partner !== id) {
-          s.partnerzy[partner] = (s.partnerzy[partner] ?? 0) + (pkt - pktIch);
+          s.partnerzy[partner] = (s.partnerzy[partner] ?? 0) + (pkt - pktIch) + bonus;
         }
       }
     }
@@ -174,7 +192,7 @@ export function zbierz(wieczory, opcje = {}) {
       if (dzien.mecze === 0) continue;
       const s = daj(id);
       for (const pole of ['saldo', 'zdobyte', 'stracone', 'setyW', 'setyP',
-        'meczeW', 'meczeP', 'meczeR', 'mecze', 'setyNaStyk', 'setyNaStykW']) {
+        'meczeW', 'meczeP', 'meczeR', 'mecze', 'setyNaStyk', 'setyNaStykW', 'bonusy']) {
         s[pole] += dzien[pole];
       }
       for (const [partner, saldo] of Object.entries(dzien.partnerzy)) {

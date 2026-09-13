@@ -15,20 +15,31 @@ export const POMOC = {
   /* ------------------------------------------------------- jak liczymy */
 
   saldo: {
-    tytul: 'Saldo — jedyna waluta turnieju',
-    tresc: `<p>Po każdym secie dostajesz <b>tyle punktów, ile zdobyła Twoja para, minus tyle, ile straciła</b>.
-      Wygrany set 15:10 to <b class="plus">+5</b>, przegrany 12:15 to <b class="minus">−3</b>. Twoje saldo wieczoru
-      to suma z wszystkich setów, a saldo sezonu — suma z wszystkich wieczorów.</p>
-      <p>To dlatego liczy się nie tylko czy wygrałeś, ale <i>jak</i>. Walka w przegranym secie do samego końca
-      realnie ratuje tabelę.</p>
-      <p class="pomoc-nota">Saldo wszystkich grających sumuje się w każdym wieczorze dokładnie do zera.
-      Stąd bierze się cała reszta zasad — patrz „Opuszczone wtorki”.</p>`,
+    tytul: 'Saldo — waluta turnieju',
+    tresc: `<p>Saldo składa się z dwóch rzeczy: <b>różnicy punktów</b> i <b>bonusu za wygrany mecz</b>.</p>
+      <p>Różnica to tyle punktów, ile zdobyła Twoja para, minus tyle, ile straciła — set po secie.
+      Wygrany set 15:10 to <b class="plus">+5</b>, przegrany 12:15 to <b class="minus">−3</b>.
+      Do tego każdy wygrany mecz dokłada <b class="plus">+3</b> obu graczom wygranej pary.</p>
+      <p>Dzięki temu liczy się i to, <i>czy</i> wygrałeś, i to, <i>jak</i>. Walka w przegranym secie do
+      samego końca realnie ratuje tabelę, ale samo zwycięstwo zawsze jest coś warte.</p>
+      <p class="pomoc-nota">Saldo wieczoru to suma z wszystkich meczów, a saldo sezonu — suma
+      z wszystkich wieczorów. Nic się nie resetuje.</p>`,
+  },
+
+  bonus: {
+    tytul: 'Bonus za wygrany mecz',
+    tresc: `<p>Każdy wygrany mecz to <b class="plus">+3</b> do salda — <b>dla obu graczy wygranej pary</b>,
+      w całości, bez dzielenia na pół. Przegrani nic nie tracą ponad samą różnicę punktów.</p>
+      <p>Po co: sama różnica punktów za słabo premiowała zwycięstwo. Przegrana 14:15 wyglądała w tabeli
+      prawie tak samo jak wygrana 15:14, a to nie to samo uczucie przy siatce.</p>
+      <p class="pomoc-nota">Bonus liczy się do tabeli, MVP i tytułów, ale <b>nie do 🏸ELO🏸</b> — tam
+      chodzi o samą siłę gry, a bonus jest nagrodą, nie pomiarem.</p>`,
   },
 
   werdykt: {
     tytul: 'Kto wygrał mecz',
-    tresc: `<p>Najpierw <b>sety</b>. Gdy jest remis w setach (np. 1:1), rozstrzyga <b>saldo</b> — czyli suma punktów
-      z całego meczu. Mecz 15:5, 13:15 to saldo +8, więc to wygrana, choć sety są po jednym.</p>
+    tresc: `<p>Najpierw <b>sety</b>. Gdy jest remis w setach (np. 1:1), rozstrzyga <b>różnica punktów</b>
+      z całego meczu. Mecz 15:5, 13:15 to różnica +8, więc to wygrana, choć sety są po jednym.</p>
       <p>Ta jedna definicja obowiązuje wszędzie: w tabeli, przy MVP i w 🏸ELO🏸. Remis w meczu jest możliwy tylko wtedy,
       gdy i sety, i saldo wyjdą równo — czyli prawie nigdy.</p>`,
   },
@@ -37,6 +48,9 @@ export const POMOC = {
     tytul: 'Format meczu',
     tresc: `<p>Gramy <b>do dwóch wygranych setów, sety do 15</b> — i dokładnie tak samo w singlu.
       Jeden format na wszystko, żeby nie trzeba było się zastanawiać, co dziś obowiązuje.</p>
+      <p><b>Przy stanie 15:15 gra się na przewagę dwóch punktów</b> — bez górnego limitu. Set kończy się
+      więc na 17:15, 21:19 albo i dalej, jeśli nikt nie chce odpuścić. Wpisujecie dokładnie taki wynik,
+      jaki był na tablicy; pole przyjmuje liczby powyżej 15.</p>
       <p>Trzeci set pojawia się w aplikacji dopiero przy stanie 1:1, więc pola do wpisania są zawsze
       te, które faktycznie rozegraliście. Trzy mecze zajmują od 60 do 100 minut, zależnie od tego,
       ile z nich pójdzie na pełny dystans.</p>
@@ -60,8 +74,9 @@ export const POMOC = {
     tresc: `<p><b>Czterech</b> — trzy deble, pełna rotacja.<br>
       <b>Trzech</b> — single każdy z każdym: każdy gra dwa mecze i raz odpoczywa.<br>
       <b>Dwóch</b> — jeden singiel, a jak macie czas, dokładacie kolejne przyciskiem „Dograj mecz”.</p>
-      <p>Format jest ten sam co zawsze: do dwóch wygranych setów, sety do 15.</p>
-      <p>Wszystko wpada do tej samej tabeli, bo saldo w każdym z tych układów zachowuje się tak samo.
+      <p>Format jest ten sam co zawsze: do dwóch wygranych setów, sety do 15, przy 15:15 na przewagę dwóch.</p>
+      <p>Wszystko wpada do tej samej tabeli — różnica punktów i bonus +3 za wygraną liczą się w każdym
+      z tych układów identycznie.
       Jedyna różnica: przy trójce gra się dwa mecze zamiast trzech, więc taki wieczór <b>rusza tabelą słabiej</b>.
       Tak ma być — mniejszy wieczór waży mniej.</p>`,
   },
@@ -127,16 +142,19 @@ export const POMOC = {
       z kim akurat trafiłeś</b>. Każdy startuje z 1000, siła pary to średnia ratingów obu graczy,
       a po meczu wygrani zabierają przegranym tyle punktów, na ile wynik był niespodzianką.</p>
       <p>Wyższa wygrana rusza ELO mocniej, ale najwyżej o połowę. Mecze z Gościem są pomijane —
-      ktoś bez ratingu nie pozwala uczciwie wycenić zwycięstwa.</p>
-      <p class="pomoc-nota">ELO <b>nie liczy się do tytułu</b>. Jest po to, żeby appka mogła wyliczyć fory.</p>`,
+      ktoś bez ratingu nie pozwala uczciwie wycenić zwycięstwa. Bonus +3 za wygraną tu nie wchodzi:
+      ELO mierzy siłę gry, a nie punkty w tabeli.</p>
+      <p class="pomoc-nota">ELO <b>nie liczy się do tytułu</b> i nie daje nikomu żadnych ułatwień.
+      Jest po to, żeby było widać formę: kto jest w gazie i jak wyrównane jest dane zestawienie par.</p>`,
   },
 
-  fory: {
-    tytul: 'Fory',
-    tresc: `<p>Appka porównuje średnie ELO obu par i proponuje, ile punktów przewagi dać słabszej parze na start.
-      Jeden punkt fory za każde 40 punktów różnicy ELO, najwyżej pięć.</p>
-      <p>Fory są <b>dobrowolne</b> i niczego nie zmieniają w liczeniu — wpisujecie wynik taki, jaki był na tablicy.
-      Chodzi tylko o to, żeby mecz był ciekawy do ostatniej piłki.</p>`,
+  forma: {
+    tytul: 'Forma zestawień',
+    tresc: `<p>Appka porównuje średnie ELO obu par i pokazuje, jak rozkładają się szanse w każdym
+      z trzech możliwych zestawień debla. Nic poza tym.</p>
+      <p><b>Nikt nigdy nie dostaje punktów na start, wyrównania ani żadnego innego ułatwienia.</b> Gracie
+      normalnie, wpisujecie wynik z tablicy. Procenty są po to, żeby przed meczem wiedzieć, czy
+      zapowiada się równa walka, czy ktoś jest faworytem — i nic więcej.</p>`,
   },
 
   /* ------------------------------------------------------------ sezon */
@@ -160,10 +178,13 @@ export const POMOC = {
 
   nieobecnosci: {
     tytul: 'Opuszczone wtorki nic nie kosztują',
-    tresc: `<p>Saldo w każdym wieczorze sumuje się do zera, więc <b>nieobecność daje dokładnie 0 — czyli tyle,
-      co średnia</b>. Nie tracisz i nie zyskujesz.</p>
+    tresc: `<p><b>Nie grasz — nie zyskujesz i nie tracisz.</b> Twoje saldo po prostu stoi tam, gdzie stało.
+      Nie ma kary za nieobecność, bo nie ma czego odejmować.</p>
       <p>Dlatego nie ma tu żadnych średnich na wieczór, procentów frekwencji ani progu „musisz zagrać
-      minimum X razy”. Możecie opuścić pięć wtorków z rzędu i tabela dalej będzie uczciwa.</p>`,
+      minimum X razy”. Możecie opuścić pięć wtorków z rzędu i tabela dalej będzie miała sens.</p>
+      <p class="pomoc-nota">Uczciwie: kto gra częściej, ten ma więcej okazji do zbierania punktów —
+      bonusy za wygrane meczy się kumulują. Przy czwórce, która i tak gra razem albo wcale, to żaden
+      problem; gdyby kiedyś zaczęło przeszkadzać, wystarczy porównywać saldo na wieczór.</p>`,
   },
 
   /* --------------------------------------------------------- obsługa */
@@ -207,7 +228,7 @@ export const SEKCJE = [
   {
     id: 'punktacja', nazwa: 'Jak liczymy punkty', godlo: '🧮',
     wstep: 'Jedna waluta, jedna definicja zwycięstwa i trzy mecze, w których każdy gra z każdym. Reszta z tego wynika.',
-    hasla: ['saldo', 'werdykt', 'rotacja', 'format', 'sklady', 'gosc', 'towarzyski'],
+    hasla: ['saldo', 'bonus', 'werdykt', 'rotacja', 'format', 'sklady', 'gosc', 'towarzyski'],
   },
   {
     id: 'tytuly', nazwa: 'Tytuły i trofea', godlo: '🏆',
@@ -215,9 +236,9 @@ export const SEKCJE = [
     hasla: ['mvp', 'bigboss', 'przydomki', 'puchar'],
   },
   {
-    id: 'elo', nazwa: '🏸ELO🏸 i fory', godlo: '📈',
-    wstep: 'Ranking, który nie daje tytułu, tylko wyrównuje mecze.',
-    hasla: ['elo', 'fory'],
+    id: 'elo', nazwa: '🏸ELO🏸 i forma', godlo: '📈',
+    wstep: 'Ranking, który nie daje ani tytułu, ani żadnych ułatwień — tylko pokazuje formę.',
+    hasla: ['elo', 'forma'],
   },
   {
     id: 'sezon', nazwa: 'Sezon i kalendarz', godlo: '📅',

@@ -23,11 +23,17 @@ export function gracz(id) {
 /* ------------------------------------------------------------------ format */
 
 /* Format obowiązujący: DO DWÓCH WYGRANYCH SETÓW, sety do 15 — tak samo
-   w deblu i w singlu. Pozostałe warianty zostają w menu na wypadek krótszej
-   rezerwacji hali; saldo liczy się identycznie w każdym z nich, więc format
-   można zmienić nawet w środku sezonu bez psucia tabeli. */
+   w deblu i w singlu. Przy stanie 15:15 gra się na przewagę dwóch punktów,
+   bez górnego limitu (17:15, 21:19, i dalej), dlatego pola na wynik przyjmują
+   liczby dużo powyżej piętnastu.
+
+   Pozostałe warianty zostają w menu na wypadek krótszej rezerwacji hali;
+   saldo liczy się identycznie w każdym z nich, więc format można zmienić
+   nawet w środku sezonu bez psucia tabeli. */
 export const FORMATY = {
   '3x15': { nazwa: 'Do 2 wygranych setów (do 15)', setow: 3, doIlu: 15, dogrywka: true, czas: '60–100 minut' },
+  // Warianty awaryjne na krótszą halę. Zasada przewagi dwóch punktów przy
+  // remisie na styku obowiązuje w każdym z nich — to reguła gry, nie formatu.
   '2x15': { nazwa: '2 sety do 15, bez trzeciego', setow: 2, doIlu: 15, dogrywka: false, czas: 'około 70 minut' },
   '2x11': { nazwa: '2 sety do 11, bez trzeciego', setow: 2, doIlu: 11, dogrywka: false, czas: 'około 50 minut' },
   '1x21': { nazwa: '1 set do 21',  setow: 1, doIlu: 21, dogrywka: false, czas: 'około 55 minut' },

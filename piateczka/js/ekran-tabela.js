@@ -43,10 +43,11 @@ export function render(kontener, ctx) {
     </section>
 
     <section class="karta">
-      ${naglowekZPomoca('Dlaczego saldo, a nie wygrane mecze', 'nieobecnosci')}
-      <p class="wskazowka">Przy trzech meczach bilans wygranych może wyjść tylko na trzy sposoby
-      (3-1-1-1, 2-2-1-1 albo 2-2-2-0), więc remisy byłyby na porządku dziennym. Saldo rozróżnia
-      wszystko i sumuje się do zera, dzięki czemu opuszczony wtorek nic nie kosztuje.</p>
+      ${naglowekZPomoca('Skąd się bierze saldo', 'saldo')}
+      <p class="wskazowka">Przy trzech meczach bilans samych wygranych może wyjść tylko na trzy sposoby
+      (3-1-1-1, 2-2-1-1 albo 2-2-2-0), więc remisy byłyby na porządku dziennym. Dlatego liczymy różnicę
+      punktów, a do niej dokładamy <b>+3 za każdy wygrany mecz</b> — żeby zwycięstwo znaczyło więcej niż
+      ładna przegrana. Nieobecność nic nie kosztuje: nie grasz, saldo stoi w miejscu.</p>
     </section>`;
 
   kontener.querySelectorAll('[data-zakres]').forEach((el) =>

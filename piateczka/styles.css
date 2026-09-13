@@ -373,14 +373,16 @@ main {
 .karta-mecz { border-left: 3px solid var(--kreska); }
 .karta-mecz.rozegrany { border-left-color: var(--zloto); }
 .mecz-prawa { display: flex; align-items: center; gap: 4px; }
-.fora {
+/* Plakietka „+3 zwycięzcom” w stopce meczu — złota, bo to jednak nagroda. */
+.bonus-znacznik {
   font-size: 11px;
-  font-weight: 600;
-  color: var(--tekst-ledwie);
-  background: var(--plyta);
-  border: 1px dashed var(--kreska);
-  padding: 4px 8px;
+  font-weight: 700;
+  color: var(--zloto-jasne);
+  background: var(--zloto-mgla);
+  border: 1px solid color-mix(in srgb, var(--zloto) 34%, transparent);
+  padding: 3px 8px;
   border-radius: 999px;
+  white-space: nowrap;
 }
 
 .mecz-strona {
@@ -557,20 +559,35 @@ main {
 .dymek-wykresu span { display: flex; align-items: center; gap: 6px; }
 .dymek-wykresu b { font-family: var(--naglowkowy); font-size: 11px; color: var(--tekst-cichy); }
 
-.lista-for { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
-.lista-for li {
+.lista-formy { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.lista-formy li {
   display: grid;
-  gap: 3px;
+  gap: 6px;
   padding: 11px 12px;
   background: var(--plyta);
   border-radius: var(--r-s);
 }
-.fora-pary { font-size: 13.5px; font-weight: 600; }
-.fora-pary i { font-style: normal; color: var(--tekst-ledwie); font-weight: 400; margin: 0 3px; }
-.fora-wynik { font-size: 13px; color: var(--tekst-cichy); display: flex; align-items: baseline; gap: 8px; }
-.fora-wynik b { color: var(--zloto-jasne); font-family: var(--naglowkowy); font-size: 15px; }
-.fora-wynik b.rowno { color: var(--tekst-cichy); }
-.fora-wynik em { margin-left: auto; font-style: normal; font-size: 11px; color: var(--tekst-ledwie); }
+.forma-pary { display: flex; align-items: baseline; gap: 6px; font-size: 13.5px; font-weight: 600; }
+.forma-pary > span { flex: 1; }
+.forma-pary > span:last-child { text-align: right; }
+.forma-pary i { flex: none; font-style: normal; color: var(--tekst-ledwie); font-weight: 400; }
+
+/* Belka szans: lewa część to pierwsza para, reszta druga. Sam obrazek —
+   żadnej propozycji wyrównania, bo takich w tym turnieju nie dajemy. */
+.forma-belka {
+  display: block;
+  height: 5px;
+  border-radius: 999px;
+  background: var(--kreska-mocna);
+  overflow: hidden;
+}
+.forma-belka-a { display: block; height: 100%; background: var(--srebro); border-radius: 999px; }
+
+.forma-wynik { display: flex; align-items: baseline; gap: 8px; font-size: 13px; color: var(--tekst-cichy); }
+.forma-wynik b { font-family: var(--naglowkowy); font-size: 14px; color: var(--tekst); }
+.forma-wynik b:last-child { margin-left: auto; }
+.forma-wynik em { font-style: normal; font-size: 11px; color: var(--tekst-ledwie); }
+.forma-wynik em.rowno { color: var(--zloto); font-weight: 600; }
 
 /* ----------------------------------------------------------------- godła */
 

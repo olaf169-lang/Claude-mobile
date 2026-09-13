@@ -72,12 +72,14 @@ function kartaSciagi() {
     <table class="sciaga">
       <tbody>
         <tr><th>Format</th><td>${FORMATY['3x15'].nazwa} — tak samo w deblu i w singlu</td></tr>
+        <tr><th>Przy 15:15</th><td>gramy na przewagę dwóch punktów: 17:15, 21:19…</td></tr>
         <tr><th>Wieczór</th><td>3 mecze — każdy gra z każdym w parze dokładnie raz</td></tr>
         <tr><th>Punkty</th><td>saldo = zdobyte − stracone, w każdym secie</td></tr>
-        <tr><th>Wygrana</th><td>więcej setów; przy 1:1 decyduje saldo</td></tr>
+        <tr><th>Bonus</th><td>+3 do salda za wygrany mecz, dla obu z wygranej pary</td></tr>
+        <tr><th>Wygrana</th><td>więcej setów; przy 1:1 decyduje różnica punktów</td></tr>
         <tr><th>MVP</th><td>najlepsze saldo wieczoru</td></tr>
         <tr><th>Big Boss</th><td>najlepsze saldo miesiąca + przydomek</td></tr>
-        <tr><th>Nieobecność</th><td>0 punktów — czyli dokładnie tyle, co średnia</td></tr>
+        <tr><th>Nieobecność</th><td>0 punktów — nie zyskujesz i nie tracisz</td></tr>
         <tr><th>Trzech graczy</th><td>single każdy z każdym, liczy się normalnie</td></tr>
         <tr><th>Gość</th><td>gra i ma saldo, ale poza tabelą i poza ELO</td></tr>
         <tr><th>Koniec sezonu</th><td>Puchar Pana Piąteczki — single, ${SEZON.final.split('-').reverse().join('.')}</td></tr>

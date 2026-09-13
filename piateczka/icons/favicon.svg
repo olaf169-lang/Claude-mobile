@@ -1,11 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Turniej Pana Piąteczki">
   <rect width="64" height="64" rx="14" fill="#0A1628"/>
-  <g fill="none" stroke="#D9A441" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-    <ellipse cx="25" cy="24" rx="11" ry="14" transform="rotate(-38 25 24)"/>
-    <path d="M33 33l12 13"/>
-    <path d="M45 46l4 4"/>
-  </g>
-  <g stroke="#E8C77A" stroke-width="1.4" opacity=".75">
-    <path d="M19 18l11 12M25 13l8 9M15 25l9 10"/>
+  <defs>
+    <!-- Naciąg widać tylko w środku główki — inaczej struny wychodziłyby poza ramę. -->
+    <clipPath id="wnetrze"><ellipse cx="26" cy="25" rx="10.2" ry="13.2"/></clipPath>
+  </defs>
+  <!-- Cała rakieta rysowana pionowo i dopiero obracana: dzięki temu trzonek
+       wychodzi dokładnie z dolnego wierzchołka główki, a nie zza jej boku. -->
+  <g transform="rotate(-40 26 25)">
+    <g clip-path="url(#wnetrze)" stroke="#E8C77A" stroke-width="1.1" opacity=".5">
+      <path d="M20 10v30M26 10v30M32 10v30"/>
+      <path d="M14 16h24M14 22h24M14 28h24M14 34h24"/>
+    </g>
+    <ellipse cx="26" cy="25" rx="12" ry="15" fill="none" stroke="#D9A441" stroke-width="3"/>
+    <path d="M26 40v9" fill="none" stroke="#D9A441" stroke-width="3" stroke-linecap="round"/>
+    <path d="M26 48.5v9.5" fill="none" stroke="#D9A441" stroke-width="4.6" stroke-linecap="round"/>
   </g>
 </svg>

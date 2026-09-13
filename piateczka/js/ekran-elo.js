@@ -1,9 +1,12 @@
 /* ==========================================================================
-   Ekran „🏸ELO🏸” — ranking mocy i generator forów.
+   Ekran „🏸ELO🏸” — ranking mocy i forma zestawień.
+
+   Żadnych ułatwień: appka pokazuje wyłącznie, jak rozkładają się szanse
+   w danym zestawieniu par. Nikt nie dostaje punktów na start.
    ========================================================================== */
 
 import { GRACZE, gracz, krotkaData } from './dane.js';
-import { ranking, przelicz, oczekiwanie, START } from './elo.js';
+import { ranking, przelicz, szanse, START } from './elo.js';
 import { naglowekZPomoca } from './pomoc.js';
 import { zeZnakiem, klasaSalda } from './ui.js';
 import { linie, podepnijKrzyzyk, kolorGracza } from './wykresy.js';
@@ -26,7 +29,7 @@ export function render(kontener, ctx) {
   kontener.innerHTML = `
     <div class="ekran-naglowek">
       <h1>🏸ELO🏸</h1>
-      <p class="podtytul">Ranking mocy — nie daje tytułu, wyrównuje mecze</p>
+      <p class="podtytul">Ranking mocy — nie daje tytułu ani ułatwień, pokazuje formę</p>
     </div>
 
     <section class="karta">
@@ -55,11 +58,12 @@ export function render(kontener, ctx) {
     </section>` : ''}
 
     <section class="karta">
-      ${naglowekZPomoca('Fory na dziś', 'fory')}
-      <ul class="lista-for">
-        ${ZESTAWIENIA.map((z) => wierszFor(z, rating)).join('')}
+      ${naglowekZPomoca('Forma zestawień', 'forma')}
+      <ul class="lista-formy">
+        ${ZESTAWIENIA.map((z) => wierszFormy(z, rating)).join('')}
       </ul>
-      <p class="wskazowka">Fory są dobrowolne i nie zmieniają liczenia — wpisujecie wynik z tablicy.</p>
+      <p class="wskazowka">Sama informacja, jak rozkładają się szanse. Nikt nie dostaje punktów
+      na start ani żadnego innego ułatwienia — gracie normalnie i wpisujecie wynik z tablicy.</p>
     </section>`;
 
   if (jestWykres) {
@@ -67,21 +71,26 @@ export function render(kontener, ctx) {
   }
 }
 
-function wierszFor([indeksyA, indeksyB], rating) {
+function wierszFormy([indeksyA, indeksyB], rating) {
   const a = indeksyA.map((i) => GRACZE[i]);
   const b = indeksyB.map((i) => GRACZE[i]);
-  const ra = a.reduce((s, g) => s + rating[g.id], 0) / a.length;
-  const rb = b.reduce((s, g) => s + rating[g.id], 0) / b.length;
-  const roznica = Math.abs(ra - rb);
-  const punkty = Math.min(5, Math.round(roznica / 40));
-  const slabsza = ra > rb ? b : a;
-  const szansa = Math.round(oczekiwanie(Math.max(ra, rb), Math.min(ra, rb)) * 100);
+  const s = szanse(a.map((g) => g.id), b.map((g) => g.id), rating);
+  const procent = (x) => Math.round(x * 100);
 
   return `<li>
-    <span class="fora-pary">${a.map((g) => g.imie).join(' + ')} <i>vs</i> ${b.map((g) => g.imie).join(' + ')}</span>
-    <span class="fora-wynik">${punkty === 0
-      ? '<b class="rowno">równo</b>'
-      : `<b>+${punkty}</b> dla ${slabsza.map((g) => g.imie).join(' + ')}`}
-      <em>${szansa}%</em></span>
+    <span class="forma-pary">
+      <span>${a.map((g) => g.imie).join(' + ')}</span>
+      <i>vs</i>
+      <span>${b.map((g) => g.imie).join(' + ')}</span>
+    </span>
+    <span class="forma-belka" role="img"
+      aria-label="Szanse ${procent(s.a)} do ${procent(s.b)} procent">
+      <span class="forma-belka-a" style="width:${procent(s.a)}%"></span>
+    </span>
+    <span class="forma-wynik">
+      <b>${procent(s.a)}%</b>
+      ${s.wyrownany ? '<em class="rowno">wyrównane</em>' : ''}
+      <b>${procent(s.b)}%</b>
+    </span>
   </li>`;
 }

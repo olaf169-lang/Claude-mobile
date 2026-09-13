@@ -7,8 +7,8 @@
    ========================================================================== */
 
 import { GRACZE, GOSC, gracz, FORMATY, FORMAT_DOMYSLNY, najblizszyWtorek, poPolsku, dzisiajIso } from './dane.js';
-import { ukladMeczow, wynikMeczu, ilePolNaSety, rekordyWieczoru, mvpWieczoru, mecze as meczeZ } from './liczenie.js';
-import { przelicz, fora } from './elo.js';
+import { ukladMeczow, wynikMeczu, ilePolNaSety, rekordyWieczoru, mvpWieczoru,
+  mecze as meczeZ, BONUS_WYGRANEJ } from './liczenie.js';
 import { dymek, naglowekZPomoca } from './pomoc.js';
 import { bez, zeZnakiem, klasaSalda, potwierdz, komunikat } from './ui.js';
 import * as baza from './baza.js';
@@ -37,7 +37,7 @@ export function render(kontener, ctx) {
       <p class="podtytul">${poPolsku(wybranaData)}</p>
     </div>
     ${kartaTerminu(wieczor)}
-    ${wieczor ? kartyMeczow(wieczor, ctx) : kartaSkladu()}
+    ${wieczor ? kartyMeczow(wieczor) : kartaSkladu()}
     ${wieczor ? kartaPodsumowania(wieczor) : ''}
     ${wieczor ? kartaKoniec() : ''}`;
 
@@ -64,6 +64,7 @@ function kartaTerminu(wieczor) {
       </label>
     </div>
     <p class="wskazowka">${FORMATY[format].nazwa} — ${FORMATY[format].czas} na trzy mecze.
+      Przy 15:15 gracie na przewagę dwóch punktów, więc wynik seta może być wyższy niż 15.
       ${format === FORMAT_DOMYSLNY ? 'Trzeci set pojawi się dopiero przy stanie 1:1.' : ''}</p>
   </section>`;
 }
@@ -101,10 +102,9 @@ function opisUkladu(ilu) {
 
 /* -------------------------------------------------------------- mecze */
 
-function kartyMeczow(wieczor, ctx) {
+function kartyMeczow(wieczor) {
   const format = FORMATY[wieczor.format ?? FORMAT_DOMYSLNY];
   const lista = meczeZ(wieczor);
-  const { rating } = przelicz(ctx.wieczory.filter((w) => w.data < wieczor.data));
 
   const sklad = wieczor.sklad ?? [];
   const naglowek = `<section class="karta karta-skladu">
@@ -119,7 +119,7 @@ function kartyMeczow(wieczor, ctx) {
     </label>
   </section>`;
 
-  return naglowek + lista.map((m) => kartaMeczu(m, format, wieczor, rating)).join('')
+  return naglowek + lista.map((m) => kartaMeczu(m, format, wieczor)).join('')
     + `<button class="btn szeroki btn-obrys" type="button" id="dograj-mecz">+ Dograj mecz</button>`;
 }
 
@@ -128,14 +128,9 @@ function imie(wieczor, id) {
   return gracz(id).imie;
 }
 
-function kartaMeczu(mecz, format, wieczor, rating) {
+function kartaMeczu(mecz, format, wieczor) {
   const r = wynikMeczu(mecz);
   const pol = ilePolNaSety(format, mecz);
-  const f = fora(mecz.a, mecz.b, rating);
-  const podpowiedzFor = f.punkty > 0
-    ? `<span class="fora" title="Propozycja wyrównania na podstawie 🏸ELO🏸">
-         fora ${f.punkty} dla ${bez((f.mocniejsza === 'a' ? mecz.b : mecz.a).map((i) => imie(wieczor, i)).join(' + '))}
-       </span>` : '';
 
   const strona = (ids, klucz) => `
     <div class="mecz-strona">
@@ -152,7 +147,7 @@ function kartaMeczu(mecz, format, wieczor, rating) {
   return `<section class="karta karta-mecz ${r.rozegrany ? 'rozegrany' : ''}" data-karta-mecz="${mecz.nr}">
     <div class="karta-tytul-rzad">
       <h2 class="karta-tytul">Mecz ${mecz.nr} ${dymek('werdykt')}</h2>
-      <div class="mecz-prawa">${podpowiedzFor}
+      <div class="mecz-prawa">
         <button class="btn-ikona" type="button" data-usun-mecz="${mecz.nr}" aria-label="Usuń mecz ${mecz.nr}">🗑</button>
       </div>
     </div>
@@ -165,7 +160,9 @@ function kartaMeczu(mecz, format, wieczor, rating) {
 function podsumowanieMeczu(r) {
   if (!r.rozegrany) return '<span class="cichy">Wpisz wynik setów</span>';
   return `<span class="sety">sety ${r.setyA}:${r.setyB}</span>
-    <span class="saldo ${klasaSalda(r.saldo)}">saldo ${zeZnakiem(r.saldo)}</span>`;
+    <span class="saldo ${klasaSalda(r.saldo)}">różnica ${zeZnakiem(r.saldo)}</span>
+    ${r.werdykt === 'remis' ? '' : `<span class="bonus-znacznik">+${BONUS_WYGRANEJ} zwycięzcom</span>`}
+    ${dymek('bonus')}`;
 }
 
 /* ------------------------------------------------------- podsumowanie dnia */

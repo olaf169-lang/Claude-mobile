@@ -11,7 +11,7 @@ import { kolorGracza } from './wykresy.js';
 
 const KAFELKI = [
   { href: '#/tabela',    ikona: '📊', nazwa: 'Tabela',    opis: 'Klasyfikacja sezonu' },
-  { href: '#/elo',       ikona: '🏸', nazwa: 'ELO',       opis: 'Ranking mocy i fory' },
+  { href: '#/elo',       ikona: '🏸', nazwa: 'ELO',       opis: 'Ranking mocy i forma' },
   { href: '#/tytuly',    ikona: '🏆', nazwa: 'Tytuły',    opis: 'MVP, Big Boss, przydomki' },
   { href: '#/kalendarz', ikona: '📅', nazwa: 'Kalendarz', opis: 'Plan sezonu' },
   { href: '#/zasady',    ikona: '📖', nazwa: 'Zasady',    opis: 'Cała instrukcja' },

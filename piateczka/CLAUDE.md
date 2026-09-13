@@ -30,16 +30,31 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
 
 ## Zasady, które nie są przypadkowe
 
-- **Format: do dwóch wygranych setów, sety do 15** — decyzja użytkownika
+- **Format: do dwóch wygranych setów, sety do 15, przy 15:15 na przewagę
+  dwóch punktów** (17:15, 21:19, bez górnego limitu) — decyzja użytkownika
   (2026-09-13), podjęta świadomie mimo mojej uwagi o nieprzewidywalnym
   czasie w hali. Nie „poprawiaj” tego z powrotem. Krótsze warianty
-  zostają w menu jako opcje.
-- **Saldo, nie wygrane mecze** — bo przy trzech meczach bilans wygranych
-  może wyjść tylko na trzy sposoby (3-1-1-1, 2-2-1-1, 2-2-2-0). Saldo
-  sumuje się do zera w każdym wieczorze i to jest cała odpowiedź na
-  „nie zagramy w każdy wtorek”.
-- **Jedna definicja wygranej meczu** (sety, przy remisie saldo) obowiązuje
-  w tabeli, MVP i ELO. Jak ją zmieniasz, zmieniasz w `wynikMeczu()` i już.
+  zostają w menu jako opcje. Pola na wynik MUSZĄ przyjmować liczby
+  znacznie powyżej 15.
+- **Saldo = różnica punktów + 3 za wygrany mecz** (`BONUS_WYGRANEJ`
+  w `liczenie.js`). Bonus dostaje każdy z wygranej pary w całości,
+  przegrani nie tracą nic ponad różnicę. Świadoma decyzja użytkownika
+  z 2026-09-13: samo saldo za słabo premiowało zwycięstwo.
+  **Uwaga:** to łamie dawną własność „saldo sumuje się do zera
+  w każdym wieczorze”, na której opierała się część pierwotnych
+  uzasadnień. Argument „nieobecność nic nie kosztuje” nadal stoi
+  (nie grasz → saldo stoi w miejscu), ale nie pisz już nigdzie,
+  że salda bilansują się do zera — bo nie.
+- **Bonus NIE wchodzi do ELO.** Rating mierzy siłę gry, nie punkty
+  w tabeli. `wynikMeczu().saldo` zostaje surową różnicą punktów właśnie
+  po to; bonus jedzie osobno jako `bonusA`/`bonusB`.
+- **Żadnych forów.** Wyraźna decyzja użytkownika (2026-09-13): nikt nigdy
+  nie dostaje punktów na start ani innych ułatwień. ELO służy wyłącznie
+  do pokazania FORMY — procentowych szans par na ekranie 🏸ELO🏸.
+  Samo słowo „fora/fory” ma nie występować w interfejsie.
+- **Jedna definicja wygranej meczu** (sety, przy remisie różnica punktów)
+  obowiązuje w tabeli, MVP i ELO. Jak ją zmieniasz, zmieniasz
+  w `wynikMeczu()` i już.
 - **Złoto tylko przy zaszczytach.** Pierwsze miejsce, MVP, Big Boss, Puchar.
   Jak zacznie być wszędzie, przestanie cokolwiek znaczyć.
 - **Kolory serii na wykresach są przypisane do gracza, nie do miejsca**
@@ -52,7 +67,7 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
 |---|---|
 | `js/dane.js` | skład, formaty, kalendarz sezonu — same stałe |
 | `js/liczenie.js` | rotacja par, saldo, klasyfikacja, MVP |
-| `js/elo.js` | rating i fory |
+| `js/elo.js` | rating i szanse par (żadnych forów — patrz niżej) |
 | `js/tytuly.js` | okresy Big Bossa, dziewięć przydomków, godła SVG |
 | `js/pomoc.js` | **wszystkie** teksty regulaminu |
 | `js/wykresy.js` | iskry w tabeli, wykres ELO, paleta serii |

@@ -9,8 +9,8 @@ Adres: **[/Claude-mobile/piateczka/](https://olaf169-lang.github.io/Claude-mobil
 |---|---|
 | Skład | Jacek · Tomek · Kafaar · Piąteczka |
 | Kiedy | wtorki, sezon jesienno-zimowy (start 6 października 2026) |
-| Format | do dwóch wygranych setów, sety do 15 — tak samo w deblu i w singlu |
-| Waluta | saldo małych punktów |
+| Format | do dwóch wygranych setów, sety do 15 (przy 15:15 na przewagę 2) |
+| Waluta | saldo: różnica punktów + 3 za każdy wygrany mecz |
 | Finał | Puchar Pana Piąteczki, 23 marca 2027 |
 
 ---
@@ -38,21 +38,32 @@ Przy trzech meczach bilans wygranych może wyjść **tylko na trzy sposoby**:
 3-1-1-1, 2-2-1-1 albo 2-2-2-0. Nic innego nie jest matematycznie możliwe. Remisy
 byłyby więc regułą, a po sezonie tabela zbiłaby się w kupę.
 
-Dlatego walutą jest **saldo małych punktów**: `zdobyte − stracone`, set po secie.
-Wygrany set 15:10 to `+5`, przegrany 12:15 to `−3`. Trzy własności, dla których
-akurat to rozwiązanie wygrało:
+Dlatego walutą jest **saldo**, złożone z dwóch części:
 
-1. **Sumuje się do zera w każdym wieczorze.** Nieobecność daje 0, czyli dokładnie
-   średnią — ani nie karze, ani nie nagradza. Żadnych średnich na wieczór, procentów
-   frekwencji ani progu „musisz zagrać minimum X razy”. Sezon może mieć dziury po
-   świętach i tabela dalej jest uczciwa.
-2. **Działa w każdym składzie.** Przyszło trzech → single każdy z każdym. Dwóch →
-   jeden singiel. Saldo dalej sumuje się do zera i wpada do tej samej tabeli.
-3. **Rozróżnia wszystko.** 21:19 to nie to samo co 21:5, więc realnie nie ma remisów,
+```
+saldo = (zdobyte − stracone)  +  3 za każdy wygrany mecz
+```
+
+Różnica punktów liczy się set po secie: wygrany set 15:10 to `+5`, przegrany 12:15
+to `−3`. Bonus `+3` dostaje **każdy z graczy wygranej pary**, w całości, a przegrani
+nie tracą nic ponad samą różnicę.
+
+Trzy własności, dla których akurat to rozwiązanie wygrało:
+
+1. **Rozróżnia wszystko.** 17:15 to nie to samo co 15:2, więc realnie nie ma remisów,
    a walka w przegranym secie do końca faktycznie ratuje tabelę.
+2. **Premiuje wygraną.** Bez bonusu przegrana 14:15 wyglądałaby w tabeli prawie tak
+   samo jak wygrana 15:14 — a to nie to samo uczucie przy siatce.
+3. **Działa w każdym składzie i przy dziurawym kalendarzu.** Przyszło trzech → single
+   każdy z każdym. Dwóch → jeden singiel. Nie przyszedłeś → saldo stoi w miejscu,
+   bez kary. Żadnych progów frekwencji ani średnich na wieczór.
 
-O wygranej meczu decydują **sety, a przy remisie w setach — saldo**. Ta jedna
+O wygranej meczu decydują **sety, a przy remisie w setach — różnica punktów**. Ta jedna
 definicja obowiązuje wszędzie: w tabeli, przy MVP i w rankingu ELO.
+
+Sam set gra się **do 15, ale przy stanie 15:15 na przewagę dwóch punktów**, bez górnego
+limitu — set kończy się więc na 17:15, 21:19 albo dalej. Wpisuje się dokładnie taki
+wynik, jaki był na tablicy.
 
 ### Co, gdy nie ma kompletu
 
@@ -104,9 +115,12 @@ ratingów, o wygranej decyduje ten sam werdykt co w tabeli, a wyższa wygrana ru
 ratingiem mocniej — najwyżej o połowę. Mecze z Gościem są pomijane, bo ktoś bez
 ratingu nie pozwala uczciwie wycenić zwycięstwa.
 
-Jest po to, żeby aplikacja mogła policzyć **fory**: jeden punkt przewagi dla słabszej
-pary za każde 40 punktów różnicy ELO, najwyżej pięć. Fory są dobrowolne i nie zmieniają
-liczenia — wpisuje się wynik z tablicy.
+Jest po to, żeby było widać **formę**: aplikacja porównuje średnie ratingi obu par
+i pokazuje, jak rozkładają się szanse w każdym z trzech zestawień debla.
+
+**Nikt nigdy nie dostaje forów, punktów na start ani żadnego innego ułatwienia.**
+Procenty są czystą informacją — gra się normalnie i wpisuje wynik z tablicy.
+Bonus +3 za wygraną też nie wchodzi do ELO: rating mierzy siłę gry, a nie punkty w tabeli.
 
 ---
 
@@ -131,7 +145,7 @@ index.html          szkielet, pasek, dolna nawigacja
 styles.css          granat + złoto, dwa motywy na zmiennych
 js/dane.js          skład, formaty, kalendarz sezonu
 js/liczenie.js      rotacja par, saldo, klasyfikacja, MVP
-js/elo.js           rating i fory
+js/elo.js           rating i szanse par
 js/tytuly.js        okresy Big Bossa, przydomki, godła SVG
 js/pomoc.js         WSZYSTKIE teksty regulaminu
 js/wykresy.js       iskry w tabeli i wykres ELO

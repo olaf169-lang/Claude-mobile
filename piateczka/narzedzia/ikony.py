@@ -62,8 +62,18 @@ def rysuj(bok: int, margines: float, zaokraglenie: float | None) -> list[list[tu
     ra, rb = 26 * skala, 33 * skala
     grubosc = 5.2 * skala / 2
 
-    trzonek = (na(57, 57), na(74, 80))
-    nasada = (na(74, 80), na(82, 89))
+    # Trzonek MUSI wychodzić dokładnie z dolnego wierzchołka główki, inaczej
+    # rączka nachodzi na naciąg i rakieta wygląda jak przebita. Liczymy ten
+    # punkt z geometrii elipsy zamiast zgadywać współrzędne na oko.
+    kierunek = (-math.sin(kat), math.cos(kat))       # lokalne „w dół” po obrocie
+    wierzcholek = (gx + kierunek[0] * rb, gy + kierunek[1] * rb)
+
+    def wzdluz(t):
+        return (wierzcholek[0] + kierunek[0] * t * skala,
+                wierzcholek[1] + kierunek[1] * t * skala)
+
+    trzonek = (wzdluz(0), wzdluz(19))
+    nasada = (wzdluz(17), wzdluz(30))
 
     for y in range(duzy):
         for x in range(duzy):

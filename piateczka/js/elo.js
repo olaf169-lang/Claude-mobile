@@ -3,7 +3,8 @@
 
    Tabela sezonu (saldo) mówi, kto ma najlepszy bilans. ELO mówi co innego:
    jak mocno grasz względem tego, z kim akurat trafiłeś. Nie liczy się do
-   tytułu — jest po to, żeby appka mogła wyliczyć FORY i wyrównać mecze.
+   tytułu i NIE daje nikomu żadnych ułatwień — służy wyłącznie do pokazania
+   FORMY: kto jest w gazie i jak wyrównane jest dane zestawienie par.
 
    Zasady, celowo krótkie, żeby dało się je wytłumaczyć jednym zdaniem:
    • każdy startuje z 1000,
@@ -21,8 +22,6 @@ export const START = 1000;
 export const K = 20;
 export const K_MAX_BONUS = 0.5;   // +50% przy pogromie
 export const SALDO_PELNEGO_BONUSU = 20;
-export const FORA_NA_PUNKT = 40;  // ile różnicy ELO daje jeden punkt fory
-export const FORA_MAX = 5;
 
 export function oczekiwanie(mojRating, ichRating) {
   return 1 / (1 + 10 ** ((ichRating - mojRating) / 400));
@@ -87,16 +86,12 @@ export function ranking(wieczory) {
     .map((r, i) => ({ ...r, miejsce: i + 1 }));
 }
 
-/** Ile punktów fory dać mocniejszej parze, żeby mecz był wyrównany. */
-export function fora(paraA, paraB, rating) {
+/** Szanse obu par w danym zestawieniu — czysta informacja, zero ułatwień.
+    Nie proponujemy żadnych wyrównań ani punktów na start: wynik wpisuje się taki, jaki
+    wyszedł na tablicy. To ma tylko pokazać, czy mecz zapowiada się wyrównany. */
+export function szanse(paraA, paraB, rating) {
   const ra = srednia(paraA, rating);
   const rb = srednia(paraB, rating);
-  const roznica = ra - rb;
-  const punkty = Math.min(FORA_MAX, Math.round(Math.abs(roznica) / FORA_NA_PUNKT));
-  if (punkty === 0) return { punkty: 0, mocniejsza: null, szansa: oczekiwanie(ra, rb) };
-  return {
-    punkty,
-    mocniejsza: roznica > 0 ? 'a' : 'b',
-    szansa: oczekiwanie(ra, rb),
-  };
+  const a = oczekiwanie(ra, rb);
+  return { a, b: 1 - a, wyrownany: Math.abs(a - 0.5) < 0.06 };
 }
