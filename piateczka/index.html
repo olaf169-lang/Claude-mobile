@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pl" data-motyw="ciemny">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Turniej Pana Piąteczki</title>
+<meta name="description" content="Badmintonowa liga czterech graczy: wtorki, deble, punkty liczone osobno. Tabela, ranking ELO, MVP i Big Boss miesiąca.">
+<meta name="theme-color" content="#0A1628">
+<meta name="color-scheme" content="dark light">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Turniej Pana Piąteczki">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:url" content="https://olaf169-lang.github.io/Claude-mobile/piateczka/">
+<meta property="og:title" content="Turniej Pana Piąteczki — badmintonowa liga wtorkowa">
+<meta property="og:description" content="Cztery osoby, trzy deble co wtorek, jedna waluta: saldo. Tabela, 🏸ELO🏸, MVP i Big Boss z przydomkiem.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Piąteczka">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script>
+  // Motyw przed pierwszym malowaniem — inaczej granat mrugnąłby bielą.
+  (() => {
+    const zapisany = localStorage.getItem('pp:motyw');
+    document.documentElement.dataset.motyw = zapisany
+      || (matchMedia('(prefers-color-scheme: light)').matches ? 'jasny' : 'ciemny');
+  })();
+</script>
+</head>
+<body>
+<div class="tlo-poswiata" aria-hidden="true"></div>
+
+<header class="pasek">
+  <a class="znak" href="#/">
+    <span class="znak-lotka" aria-hidden="true">🏸</span>
+    <span class="znak-nazwa">Pan&nbsp;Piąteczka</span>
+  </a>
+  <div class="pasek-prawa">
+    <span class="lacze lacze-laczenie" id="stan-lacza" title="Łączę się z bazą wyników">…</span>
+    <a class="ikona" href="#/zasady" aria-label="Zasady — cała instrukcja" title="Zasady">📖</a>
+    <button class="ikona" id="przelacz-motyw" type="button" aria-label="Zmień motyw" title="Zmień motyw">◐</button>
+  </div>
+</header>
+
+<main id="tresc"></main>
+
+<nav class="dol" aria-label="Nawigacja główna">
+  <a href="#/"><span aria-hidden="true">🏠</span>Start</a>
+  <a href="#/wieczor"><span aria-hidden="true">✏️</span>Wieczór</a>
+  <a href="#/tabela"><span aria-hidden="true">📊</span>Tabela</a>
+  <a href="#/elo"><span aria-hidden="true">🏸</span>ELO</a>
+  <a href="#/tytuly"><span aria-hidden="true">🏆</span>Tytuły</a>
+</nav>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

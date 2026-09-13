@@ -1,0 +1,104 @@
+# Turniej Pana Piąteczki — pamięć projektu
+
+Badmintonowa liga wtorkowa czterech graczy. PWA, vanilla JS (moduły ES),
+zero buildu, zero frameworka — jak reszta aplikacji w tym monorepo.
+Pełny opis systemu i uzasadnienie każdej reguły: `README.md` obok.
+
+## Gałęzie
+
+- **`claude/pan-piateczki-badminton-k02uyh`** — gałąź robocza tej aplikacji.
+- **`claude/przeglad-news-app-iqyboa`** — gałąź produkcyjna; dopiero po
+  scaleniu tam GitHub Pages publikuje zmianę (workflow „Przegląd News —
+  wydanie poranne”, krok „Dołóż Turniej Pana Piąteczki do strony”).
+  **Nie pushuj tam bez wyraźnej zgody użytkownika.**
+- Monorepo — poza `piateczka/` siedzą tu inne, niepowiązane projekty
+  (`web/`, `collector/`, `jaka-to-melodia/`...). Nie ruszaj ich, z jednym
+  wyjątkiem niżej.
+
+## Wyjątek: reguły Firestore leżą w cudzym katalogu
+
+Aplikacja korzysta z **tego samego projektu Firebase** co „Jaka to Melodia”
+(`jaka-to-piosenka-8ca81`), bo jeden sezon to kilkadziesiąt dokumentów.
+Jeden projekt = jeden zestaw reguł, więc sekcja dla kolekcji
+`piateczkaWieczory` siedzi na dole `jaka-to-melodia/firestore.rules`.
+
+**Reguł nie da się wdrożyć z tego sandboksa.** Użytkownik musi raz puścić
+`firebase deploy --only firestore:rules` ze swojego komputera. Dopóki tego
+nie zrobi, zapisy są odbijane i aplikacja siedzi w trybie lokalnym
+(`localStorage`) — wygląda, jakby działała, ale nic nie dolatuje do reszty
+ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
+
+## Zasady, które nie są przypadkowe
+
+- **Format: do dwóch wygranych setów, sety do 15** — decyzja użytkownika
+  (2026-09-13), podjęta świadomie mimo mojej uwagi o nieprzewidywalnym
+  czasie w hali. Nie „poprawiaj” tego z powrotem. Krótsze warianty
+  zostają w menu jako opcje.
+- **Saldo, nie wygrane mecze** — bo przy trzech meczach bilans wygranych
+  może wyjść tylko na trzy sposoby (3-1-1-1, 2-2-1-1, 2-2-2-0). Saldo
+  sumuje się do zera w każdym wieczorze i to jest cała odpowiedź na
+  „nie zagramy w każdy wtorek”.
+- **Jedna definicja wygranej meczu** (sety, przy remisie saldo) obowiązuje
+  w tabeli, MVP i ELO. Jak ją zmieniasz, zmieniasz w `wynikMeczu()` i już.
+- **Złoto tylko przy zaszczytach.** Pierwsze miejsce, MVP, Big Boss, Puchar.
+  Jak zacznie być wszędzie, przestanie cokolwiek znaczyć.
+- **Kolory serii na wykresach są przypisane do gracza, nie do miejsca**
+  w tabeli, i przeszły walidację kontrastu i daltonizmu. Nie podmieniaj
+  ich bez ponownego sprawdzenia.
+
+## Mapa modułów
+
+| plik | za co odpowiada |
+|---|---|
+| `js/dane.js` | skład, formaty, kalendarz sezonu — same stałe |
+| `js/liczenie.js` | rotacja par, saldo, klasyfikacja, MVP |
+| `js/elo.js` | rating i fory |
+| `js/tytuly.js` | okresy Big Bossa, dziewięć przydomków, godła SVG |
+| `js/pomoc.js` | **wszystkie** teksty regulaminu |
+| `js/wykresy.js` | iskry w tabeli, wykres ELO, paleta serii |
+| `js/baza.js` | Firestore + kopia w localStorage + tryb offline |
+| `js/ekran-*.js` | po jednym module na ekran, każdy eksportuje `render()` |
+| `narzedzia/ikony.py` | generator ikon PWA (bez Pillow — własny zapis PNG) |
+
+### Podpowiedzi i instrukcja to jeden plik
+
+`js/pomoc.js` jest jedynym źródłem prawdy. Te same hasła lecą do dymków ⓘ
+przy nagłówkach kart **i** składają się na ekran „Zasady”. Dopisując regułę:
+hasło do `POMOC`, klucz do `SEKCJE`, `dymek('klucz')` przy karcie. Nic więcej
+— i nie pisz tekstu regulaminu bezpośrednio w ekranie, bo się rozjedzie.
+
+## Testowanie w tym sandboksie
+
+Firestore jest **nieosiągalny** (proxy blokuje `gstatic.com`), więc każdy test
+przeglądarkowy leci w trybie lokalnym. To nie jest usterka — tak ma być.
+
+```sh
+# serwer
+python3 -m http.server 8099 --bind 127.0.0.1     # z katalogu repo
+
+# logika, bez przeglądarki
+node --input-type=module -e "import('/home/user/Claude-mobile/piateczka/js/liczenie.js')..."
+
+# render + błędy JS + przepełnienia w poziomie na 360 px
+# (wzorzec: iframe 360 px w stronie pomocniczej, obejście minimum 500 px
+#  szerokości okna w headless Chromium)
+/opt/pw-browsers/chromium-1194/chrome-linux/chrome --headless --no-sandbox \
+  --disable-gpu --window-size=500,1600 --virtual-time-budget=6000 \
+  --screenshot=out.png 'http://127.0.0.1:8099/piateczka/#/tabela'
+```
+
+Dane testowe wsiewa się przez `localStorage['pp:wieczory']` (tablica wieczorów
+w tym samym kształcie co dokumenty Firestore) — najprościej stroną pomocniczą,
+która to zapisuje, odpaloną w tym samym profilu przeglądarki.
+
+**Uwaga z pierwszej sesji:** podmiany w plikach przez `str.replace` w Pythonie
+potrafią cicho nie trafić (jeden znak różnicy w cytowanym fragmencie) i wtedy
+`node --check` niczego nie wykryje, bo plik jest po prostu stary. Po każdej
+takiej podmianie sprawdź `grep`-em, że nowy tekst faktycznie jest w pliku.
+
+## Preferencje użytkownika
+
+- Rozmowa po polsku.
+- Ceni oszczędność tokenów: krótkie statusy, bez narracji.
+- Testuje realnie na swoich urządzeniach (iOS + PC) i zgłasza konkretne bugi.
+- Przy większych zmianach mechaniki dopytaj (AskUserQuestion), zamiast zgadywać.

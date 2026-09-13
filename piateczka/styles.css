@@ -1,0 +1,819 @@
+/* ==========================================================================
+   Turniej Pana Piąteczki — szata graficzna.
+
+   Granat i złoto. Złoto pojawia się WYŁĄCZNIE przy zaszczytach (pierwsze
+   miejsce, MVP, Big Boss, Puchar) — dzięki temu, że jest rzadkie, coś znaczy.
+   Zieleń i czerwień zostają zarezerwowane dla salda, a miedź dla trzeciego
+   miejsca na podium. Wszystkie te barwy przeszły sprawdzenie kontrastu
+   na granatowym tle.
+   ========================================================================== */
+
+:root {
+  /* ---- motyw ciemny (domyślny) ---- */
+  --tlo:            #0A1628;
+  --tlo-glebia:     #060E1C;
+  --plyta:          rgba(233, 240, 255, .045);
+  --plyta-mocna:    rgba(233, 240, 255, .085);
+  --plyta-pelna:    #101F38;
+  --kreska:         rgba(214, 228, 255, .12);
+  --kreska-mocna:   rgba(214, 228, 255, .26);
+
+  --tekst:          #EAF0F8;
+  --tekst-cichy:    #93A3BC;
+  --tekst-ledwie:   #6F819C;
+
+  --zloto:          #D9A441;
+  --zloto-jasne:    #E8C77A;
+  --zloto-mgla:     rgba(217, 164, 65, .14);
+  --srebro:         #B9C6D8;
+  --miedz:          #C4703A;
+
+  --zielen:         #3FBF8F;
+  --czerwien:       #E2685F;
+  --bursztyn:       #E3B341;
+
+  --poswiata: radial-gradient(70% 40% at 8% -6%, rgba(217, 164, 65, .13) 0%, transparent 66%),
+              radial-gradient(60% 42% at 96% 2%, rgba(47, 159, 204, .14) 0%, transparent 62%),
+              radial-gradient(90% 50% at 50% 104%, rgba(11, 42, 34, .55) 0%, transparent 70%);
+
+  --cien:           0 10px 30px -18px rgba(0, 0, 0, .95);
+  --cien-duzy:      0 26px 60px -28px rgba(0, 0, 0, .95);
+
+  --r:   18px;
+  --r-s: 12px;
+  --r-xs: 8px;
+
+  --naglowkowy: "Outfit", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --zwykly:     "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --szerokosc:  38rem;
+}
+
+:root[data-motyw="jasny"] {
+  --tlo:            #F3F6FB;
+  --tlo-glebia:     #E8EDF6;
+  --plyta:          rgba(10, 22, 40, .035);
+  --plyta-mocna:    rgba(10, 22, 40, .07);
+  --plyta-pelna:    #FFFFFF;
+  --kreska:         rgba(10, 22, 40, .12);
+  --kreska-mocna:   rgba(10, 22, 40, .28);
+
+  --tekst:          #0E1F38;
+  --tekst-cichy:    #55677F;
+  --tekst-ledwie:   #7386A0;
+
+  --zloto:          #8A5D12;
+  --zloto-jasne:    #A9761C;
+  --zloto-mgla:     rgba(138, 93, 18, .10);
+  --srebro:         #6C7C90;
+  --miedz:          #9C5322;
+
+  --zielen:         #157F5B;
+  --czerwien:       #B33B33;
+  --bursztyn:       #8A5D12;
+
+  --poswiata: radial-gradient(70% 40% at 8% -6%, rgba(138, 93, 18, .08) 0%, transparent 66%),
+              radial-gradient(60% 42% at 96% 2%, rgba(47, 159, 204, .10) 0%, transparent 62%);
+
+  --cien:      0 8px 22px -16px rgba(14, 31, 56, .5);
+  --cien-duzy: 0 22px 48px -26px rgba(14, 31, 56, .45);
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  min-height: 100svh;
+  background: var(--tlo);
+  color: var(--tekst);
+  font: 400 16px/1.55 var(--zwykly);
+  padding-bottom: calc(72px + env(safe-area-inset-bottom));
+  overflow-x: hidden;
+}
+
+.tlo-poswiata {
+  position: fixed;
+  inset: 0;
+  background: var(--poswiata);
+  pointer-events: none;
+  z-index: 0;
+}
+
+h1, h2, h3, h4 { font-family: var(--naglowkowy); font-weight: 700; margin: 0; letter-spacing: -.01em; }
+
+a { color: inherit; }
+
+/* ------------------------------------------------------------- nagłówek */
+
+.pasek {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: max(10px, env(safe-area-inset-top)) 16px 10px;
+  background: color-mix(in srgb, var(--tlo) 88%, transparent);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--kreska);
+}
+
+.znak { display: flex; align-items: center; gap: 8px; text-decoration: none; min-width: 0; }
+.znak-lotka { font-size: 20px; }
+.znak-nazwa {
+  font-family: var(--naglowkowy);
+  font-weight: 800;
+  font-size: 17px;
+  letter-spacing: -.02em;
+  background: linear-gradient(96deg, var(--zloto-jasne), var(--zloto));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.pasek-prawa { display: flex; align-items: center; gap: 6px; }
+
+.ikona {
+  display: grid;
+  place-items: center;
+  width: 38px; height: 38px;
+  border: 1px solid var(--kreska);
+  border-radius: 11px;
+  background: var(--plyta);
+  color: var(--tekst);
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.ikona:active { background: var(--plyta-mocna); }
+
+.lacze { font-size: 11px; line-height: 1; padding: 0 4px; }
+.lacze-online   { color: var(--zielen); }
+.lacze-lokalnie { color: var(--bursztyn); }
+.lacze-laczenie { color: var(--tekst-ledwie); }
+
+/* ------------------------------------------------------------ nawigacja */
+
+.dol {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  z-index: 20;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2px;
+  padding: 6px 6px calc(6px + env(safe-area-inset-bottom));
+  background: color-mix(in srgb, var(--tlo-glebia) 92%, transparent);
+  backdrop-filter: blur(14px);
+  border-top: 1px solid var(--kreska);
+}
+.dol a {
+  display: grid;
+  justify-items: center;
+  gap: 2px;
+  padding: 7px 2px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--tekst-ledwie);
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: .01em;
+}
+.dol a span { font-size: 17px; line-height: 1.1; filter: grayscale(.5) opacity(.75); }
+.dol a.aktywny { color: var(--zloto-jasne); background: var(--zloto-mgla); }
+.dol a.aktywny span { filter: none; }
+
+/* ----------------------------------------------------------------- main */
+
+main {
+  position: relative;
+  z-index: 1;
+  width: min(100%, var(--szerokosc));
+  margin: 0 auto;
+  padding: 18px 16px 28px;
+  display: grid;
+  gap: 14px;
+}
+
+.ekran-naglowek h1 { font-size: 27px; }
+.podtytul { margin: 3px 0 0; color: var(--tekst-cichy); font-size: 13.5px; }
+
+/* ----------------------------------------------------------------- karty */
+
+.karta {
+  background: var(--plyta-pelna);
+  border: 1px solid var(--kreska);
+  border-radius: var(--r);
+  padding: 16px;
+  box-shadow: var(--cien);
+}
+
+.karta-tytul {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  margin: 0 0 12px;
+}
+.karta-tytul-rzad { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.karta-tytul-rzad .karta-tytul { margin-bottom: 12px; }
+.naglowek-nota { font-size: 12px; font-weight: 500; margin-left: auto; }
+.naglowek-link {
+  margin-left: auto;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--zloto);
+  text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+}
+
+.wskazowka { margin: 10px 0 0; color: var(--tekst-cichy); font-size: 13px; line-height: 1.5; }
+.pusto { margin: 4px 0; color: var(--tekst-cichy); font-size: 14px; }
+.cichy { color: var(--tekst-cichy); font-weight: 500; }
+.pomoc-nota {
+  margin: 12px 0 0;
+  padding: 9px 12px;
+  border-left: 2px solid var(--zloto);
+  background: var(--zloto-mgla);
+  border-radius: 0 var(--r-xs) var(--r-xs) 0;
+  font-size: 13px;
+  color: var(--tekst-cichy);
+}
+
+/* ------------------------------------------------------------ dymek ⓘ */
+
+/* Ma być widoczne, że to się klika: złota obwódka, złoty tekst, wyraźny
+   obszar dotyku. To jedyny element w aplikacji o takim wyglądzie. */
+.dymek {
+  flex: none;
+  width: 19px; height: 19px;
+  display: inline-grid;
+  place-items: center;
+  border: 1.5px solid color-mix(in srgb, var(--zloto) 62%, transparent);
+  border-radius: 50%;
+  background: var(--zloto-mgla);
+  color: var(--zloto-jasne);
+  font: 700 11px/1 var(--naglowkowy);
+  font-style: italic;
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+  vertical-align: middle;
+}
+.dymek::after { content: ''; position: absolute; inset: -9px; }
+.dymek:active { background: color-mix(in srgb, var(--zloto) 30%, transparent); }
+.chip .dymek { border-color: currentColor; color: inherit; background: transparent; }
+
+/* ------------------------------------------------------------ przyciski */
+
+.btn {
+  appearance: none;
+  border: 1px solid var(--kreska-mocna);
+  background: var(--plyta);
+  color: var(--tekst);
+  font: 600 14.5px/1 var(--zwykly);
+  padding: 12px 16px;
+  border-radius: var(--r-s);
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 44px;
+}
+.btn:active { transform: translateY(1px); }
+.btn-glowny {
+  background: linear-gradient(96deg, var(--zloto-jasne), var(--zloto));
+  border-color: transparent;
+  color: #17120A;
+  font-weight: 700;
+}
+.btn-obrys { background: transparent; border-color: var(--kreska-mocna); }
+.btn-groza { background: transparent; border-color: color-mix(in srgb, var(--czerwien) 55%, transparent); color: var(--czerwien); }
+.btn-maly { min-height: 34px; padding: 7px 12px; font-size: 13px; border-radius: 10px; }
+.szeroki { width: 100%; }
+.btn:disabled { opacity: .45; cursor: not-allowed; }
+.btn-ikona {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: var(--tekst-ledwie);
+  font-size: 15px;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 9px;
+}
+.btn-ikona:active { background: var(--plyta-mocna); }
+
+/* ---------------------------------------------------------------- chipy */
+
+.chipy { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  appearance: none;
+  border: 1px solid var(--kreska-mocna);
+  background: var(--plyta);
+  color: var(--tekst-cichy);
+  font: 600 13.5px/1 var(--zwykly);
+  padding: 10px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 40px;
+}
+.chip.wybrany {
+  background: var(--zloto-mgla);
+  border-color: color-mix(in srgb, var(--zloto) 60%, transparent);
+  color: var(--zloto-jasne);
+}
+.chip-gosc { border-style: dashed; }
+.chipy-zakres { margin: -2px 0 0; }
+
+/* ------------------------------------------------------------ formularze */
+
+.pola-obok { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+@media (max-width: 380px) { .pola-obok { grid-template-columns: 1fr; } }
+
+.pole { display: grid; gap: 5px; }
+.pole > span { font-size: 12px; font-weight: 600; color: var(--tekst-cichy); letter-spacing: .01em; }
+.pole input, .pole select {
+  width: 100%;
+  border: 1px solid var(--kreska-mocna);
+  background: var(--plyta);
+  color: var(--tekst);
+  font: 500 15px/1 var(--zwykly);
+  padding: 12px;
+  border-radius: var(--r-s);
+  min-height: 46px;
+}
+.pole input:focus-visible, .pole select:focus-visible, .set:focus-visible,
+.btn:focus-visible, .chip:focus-visible, .dymek:focus-visible, .wiersz:focus-visible {
+  outline: 2px solid var(--zloto);
+  outline-offset: 2px;
+}
+
+.przelacznik { display: flex; align-items: center; gap: 10px; margin-top: 12px; font-size: 13.5px; color: var(--tekst-cichy); }
+.przelacznik input { width: 20px; height: 20px; accent-color: var(--zloto); flex: none; }
+
+/* ----------------------------------------------------------------- mecze */
+
+.karta-skladu .skladzik { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag {
+  font-size: 12.5px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: var(--plyta-mocna);
+  color: var(--tekst-cichy);
+}
+
+.karta-mecz { border-left: 3px solid var(--kreska); }
+.karta-mecz.rozegrany { border-left-color: var(--zloto); }
+.mecz-prawa { display: flex; align-items: center; gap: 4px; }
+.fora {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--tekst-ledwie);
+  background: var(--plyta);
+  border: 1px dashed var(--kreska);
+  padding: 4px 8px;
+  border-radius: 999px;
+}
+
+.mecz-strona {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 7px 0;
+}
+.mecz-para { display: flex; align-items: center; gap: 5px; font-weight: 600; font-size: 14.5px; min-width: 0; flex-wrap: wrap; }
+.mecz-para i { color: var(--tekst-ledwie); font-style: normal; font-weight: 400; }
+.mecz-sety { display: flex; gap: 6px; flex: none; }
+
+.set {
+  width: 52px;
+  height: 48px;
+  text-align: center;
+  border: 1px solid var(--kreska-mocna);
+  background: var(--plyta);
+  color: var(--tekst);
+  font: 700 19px/1 var(--naglowkowy);
+  border-radius: var(--r-s);
+  -moz-appearance: textfield;
+}
+.set::-webkit-outer-spin-button, .set::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+
+.mecz-stopka {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+  padding-top: 10px;
+  border-top: 1px solid var(--kreska);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--tekst-cichy);
+}
+
+.saldo.plus, .plus  { color: var(--zielen); }
+.saldo.minus, .minus { color: var(--czerwien); }
+.saldo.zero, .zero  { color: var(--tekst-ledwie); }
+.ostrzezenie { color: var(--bursztyn); }
+
+/* ------------------------------------------------------ podsumowanie dnia */
+
+.lista-salda { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.lista-salda li {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2px 10px;
+  align-items: center;
+  padding: 9px 10px;
+  border-radius: var(--r-s);
+}
+.lista-salda li.mvp { background: var(--zloto-mgla); }
+.lista-imie { grid-area: 1 / 1; font-weight: 600; font-size: 14.5px; }
+.lista-detal { grid-area: 2 / 1; font-size: 12px; color: var(--tekst-ledwie); }
+.lista-saldo { grid-area: 1 / 2 / span 2 / 3; align-self: center; font: 800 19px/1 var(--naglowkowy); }
+
+.plakietka-mvp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+  padding: 12px;
+  border: 1px solid color-mix(in srgb, var(--zloto) 40%, transparent);
+  border-radius: var(--r-s);
+  background: var(--zloto-mgla);
+}
+.plakietka-etykieta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10.5px;
+  font-weight: 800;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--zloto);
+}
+.plakietka-mvp strong { font-family: var(--naglowkowy); font-size: 16px; }
+.plakietka-mvp .saldo { margin-left: auto; font-weight: 700; }
+
+.karta-groza { border-color: color-mix(in srgb, var(--czerwien) 22%, var(--kreska)); }
+
+/* ---------------------------------------------------------------- tabela */
+
+.tabela { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; counter-reset: poz; }
+.wiersz {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 10px;
+  border-radius: var(--r-s);
+  background: var(--plyta);
+  cursor: pointer;
+}
+.tabela-skrot .wiersz, .tabela-elo .wiersz { cursor: default; }
+.wiersz.to-ja { box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--zloto) 45%, transparent); }
+.miejsce {
+  flex: none;
+  width: 24px; height: 24px;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  font: 800 12.5px/1 var(--naglowkowy);
+  background: var(--plyta-mocna);
+  color: var(--tekst-cichy);
+}
+.podium-1 .miejsce { background: var(--zloto); color: #17120A; }
+.podium-2 .miejsce { background: var(--srebro); color: #10203A; }
+.podium-3 .miejsce { background: var(--miedz); color: #1B0E06; }
+.wiersz-glowna { display: grid; gap: 2px; min-width: 0; flex: 1; }
+.wiersz-imie { font-weight: 700; font-size: 15px; }
+.wiersz-detal { font-size: 11.5px; color: var(--tekst-ledwie); }
+.wiersz-saldo { font: 800 18px/1 var(--naglowkowy); flex: none; min-width: 46px; text-align: right; }
+.wiersz-zmiana { font-size: 12px; font-weight: 600; flex: none; }
+.kropka-serii { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+
+.iskra { flex: none; overflow: visible; }
+.iskra-zero { stroke: var(--kreska); stroke-width: 1; stroke-dasharray: 2 3; }
+
+.statystyki {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.statystyki > div {
+  background: var(--plyta);
+  border-radius: var(--r-s);
+  padding: 10px 8px;
+  text-align: center;
+}
+.statystyki span { display: block; font: 800 17px/1.2 var(--naglowkowy); }
+.statystyki em { font-size: 10.5px; font-style: normal; color: var(--tekst-ledwie); }
+
+.lista-prosta { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 3px; }
+.lista-prosta li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 10px;
+  background: var(--plyta);
+  border-radius: var(--r-xs);
+  font-size: 14px;
+}
+
+/* --------------------------------------------------------------- wykresy */
+
+.legenda { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 10px; font-size: 12px; color: var(--tekst-cichy); }
+.legenda span { display: inline-flex; align-items: center; gap: 6px; }
+.legenda i, .dymek-wykresu i { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+
+.wykres-otoczka { position: relative; }
+.wykres { display: block; overflow: visible; }
+.os-linia { stroke: var(--kreska); stroke-width: 1; }
+.os-opis { fill: var(--tekst-ledwie); font: 500 9.5px var(--zwykly); }
+.krzyzyk { stroke: var(--kreska-mocna); stroke-width: 1; stroke-dasharray: 3 3; display: none; }
+.krzyzyk.widoczny { display: block; }
+
+.dymek-wykresu[hidden] { display: none; }
+.dymek-wykresu {
+  position: absolute;
+  top: 0; right: 0;
+  display: grid;
+  gap: 2px;
+  padding: 8px 10px;
+  background: var(--tlo-glebia);
+  border: 1px solid var(--kreska);
+  border-radius: var(--r-xs);
+  font-size: 11.5px;
+  pointer-events: none;
+  box-shadow: var(--cien);
+}
+.dymek-wykresu span { display: flex; align-items: center; gap: 6px; }
+.dymek-wykresu b { font-family: var(--naglowkowy); font-size: 11px; color: var(--tekst-cichy); }
+
+.lista-for { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.lista-for li {
+  display: grid;
+  gap: 3px;
+  padding: 11px 12px;
+  background: var(--plyta);
+  border-radius: var(--r-s);
+}
+.fora-pary { font-size: 13.5px; font-weight: 600; }
+.fora-pary i { font-style: normal; color: var(--tekst-ledwie); font-weight: 400; margin: 0 3px; }
+.fora-wynik { font-size: 13px; color: var(--tekst-cichy); display: flex; align-items: baseline; gap: 8px; }
+.fora-wynik b { color: var(--zloto-jasne); font-family: var(--naglowkowy); font-size: 15px; }
+.fora-wynik b.rowno { color: var(--tekst-cichy); }
+.fora-wynik em { margin-left: auto; font-style: normal; font-size: 11px; color: var(--tekst-ledwie); }
+
+/* ----------------------------------------------------------------- godła */
+
+.godlo { display: block; color: var(--zloto); }
+.godlo-tarcza { stroke: color-mix(in srgb, var(--zloto) 55%, transparent); fill: var(--zloto-mgla); }
+.godlo-glif { stroke: var(--zloto-jasne); }
+.mini-godlo { flex: none; display: block; }
+
+.karta-boss { border-color: color-mix(in srgb, var(--zloto) 32%, transparent); }
+.boss-tresc { display: flex; align-items: center; gap: 14px; }
+.boss-godlo { flex: none; }
+.boss-opis { display: grid; gap: 3px; min-width: 0; }
+.boss-imie { font-family: var(--naglowkowy); font-size: 21px; }
+.boss-przydomek { font-family: var(--naglowkowy); font-size: 15px; color: var(--zloto-jasne); font-weight: 700; }
+.boss-haslo { font-size: 13px; color: var(--tekst-cichy); font-style: italic; }
+.boss-okres { font-size: 12px; color: var(--tekst-ledwie); }
+.boss-opis .btn { margin-top: 7px; justify-self: start; }
+.boss-nota { margin: 12px 0 0; font-size: 12.5px; color: var(--tekst-cichy); }
+
+.karta-boss-mini, .karta-mvp-mini { display: flex; align-items: center; gap: 12px; }
+.karta-boss-mini .boss-opis strong, .karta-mvp-mini .boss-opis strong { font-family: var(--naglowkowy); font-size: 16px; }
+
+.lista-mvp, .lista-bossow { list-style: none; margin: 0; padding: 0; display: grid; gap: 3px; }
+.lista-mvp li, .lista-bossow li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 10px;
+  background: var(--plyta);
+  border-radius: var(--r-s);
+  font-size: 13.5px;
+}
+.mvp-data { color: var(--tekst-ledwie); font-size: 12px; flex: none; width: 54px; }
+.mvp-kto { font-weight: 600; flex: 1; }
+.mvp-saldo { font: 700 14px/1 var(--naglowkowy); }
+.boss-wiersz { flex: 1; display: grid; }
+.boss-wiersz em { font-style: normal; font-size: 11.5px; color: var(--tekst-ledwie); }
+
+.karta-puchar { border-color: color-mix(in srgb, var(--zloto) 26%, transparent); background:
+  linear-gradient(160deg, var(--zloto-mgla), transparent 60%), var(--plyta-pelna); }
+.karta-puchar p { margin: 0 0 8px; font-size: 14px; }
+
+.katalog { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+@media (max-width: 400px) { .katalog { grid-template-columns: repeat(2, 1fr); } }
+.katalog-kafel {
+  appearance: none;
+  border: 1px solid var(--kreska);
+  background: var(--plyta);
+  border-radius: var(--r-s);
+  padding: 12px 8px;
+  display: grid;
+  justify-items: center;
+  gap: 3px;
+  cursor: pointer;
+  color: var(--tekst);
+}
+.katalog-kafel:active { background: var(--plyta-mocna); }
+.katalog-kafel b { font-family: var(--naglowkowy); font-size: 13px; }
+.katalog-kafel em { font-style: normal; font-size: 10.5px; color: var(--tekst-ledwie); text-align: center; line-height: 1.35; }
+
+/* ------------------------------------------------------------- kalendarz */
+
+.kalendarz { list-style: none; margin: 0; padding: 0; display: grid; gap: 3px; }
+.kalendarz button {
+  width: 100%;
+  appearance: none;
+  border: 0;
+  background: var(--plyta);
+  color: var(--tekst);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 12px;
+  border-radius: var(--r-s);
+  cursor: pointer;
+  text-align: left;
+  font: inherit;
+  border-left: 3px solid transparent;
+}
+.kalendarz button:disabled { cursor: default; opacity: .55; }
+.termin-data { font-weight: 700; font-size: 14px; flex: none; width: 92px; }
+.termin-opis { flex: 1; font-size: 12.5px; color: var(--tekst-cichy); }
+.termin-znak { color: var(--tekst-ledwie); font-size: 13px; }
+.termin-rozegrany button { border-left-color: var(--zloto); }
+.termin-rozegrany .termin-znak { color: var(--zloto); }
+.termin-dzis button { border-left-color: var(--zielen); background: var(--plyta-mocna); }
+.termin-dzis .termin-znak { color: var(--zielen); }
+.termin-zaczety button { border-left-color: var(--bursztyn); }
+.termin-towarzyski button { border-left-color: var(--srebro); }
+.termin-przepadl .termin-data, .termin-wolne .termin-data { color: var(--tekst-ledwie); font-weight: 600; }
+
+/* ---------------------------------------------------------------- zasady */
+
+.spis {
+  display: flex;
+  gap: 7px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  scrollbar-width: none;
+}
+.spis::-webkit-scrollbar { display: none; }
+.spis a {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 13px;
+  border-radius: 999px;
+  background: var(--plyta);
+  border: 1px solid var(--kreska);
+  font-size: 12.5px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--tekst-cichy);
+}
+
+.sekcja-tytul { font-size: 17px; gap: 8px; }
+.sekcja-wstep { margin: -4px 0 14px; color: var(--tekst-cichy); font-size: 13.5px; }
+.haslo { padding: 14px 0; border-top: 1px solid var(--kreska); }
+.haslo:first-of-type { border-top: 0; padding-top: 0; }
+.haslo h3 { font-size: 14.5px; margin-bottom: 6px; color: var(--zloto-jasne); }
+.haslo p { margin: 0 0 8px; font-size: 14px; line-height: 1.6; }
+.haslo p:last-child { margin-bottom: 0; }
+.haslo b { font-weight: 700; }
+
+.karta-sciaga { background: linear-gradient(160deg, var(--zloto-mgla), transparent 55%), var(--plyta-pelna); }
+.sciaga { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+.sciaga th, .sciaga td { text-align: left; padding: 9px 0; border-top: 1px solid var(--kreska); vertical-align: top; }
+.sciaga tr:first-child th, .sciaga tr:first-child td { border-top: 0; }
+.sciaga th { width: 38%; color: var(--tekst-cichy); font-weight: 600; padding-right: 10px; }
+
+.lista-przydomkow { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.lista-przydomkow li { display: flex; gap: 12px; align-items: flex-start; }
+.lista-przydomkow b { font-family: var(--naglowkowy); font-size: 14.5px; }
+.lista-przydomkow em { font-style: italic; color: var(--tekst-cichy); font-size: 13px; }
+.lista-przydomkow p { margin: 4px 0 0; font-size: 13px; color: var(--tekst-cichy); line-height: 1.55; }
+
+.stopka-zasady { text-align: center; color: var(--tekst-ledwie); font-size: 12.5px; padding: 4px 12px 0; }
+
+/* ------------------------------------------------------------------ hero */
+
+.hero { padding: 10px 2px 4px; }
+.hero-nad {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--zloto);
+}
+.hero-nazwa {
+  margin: 6px 0 0;
+  font-size: clamp(32px, 11vw, 44px);
+  line-height: 1.02;
+  font-weight: 800;
+  letter-spacing: -.03em;
+}
+.hero-pod { margin: 10px 0 0; color: var(--tekst-cichy); font-size: 14px; max-width: 30ch; }
+.hero-akcje { display: flex; gap: 9px; margin-top: 16px; flex-wrap: wrap; }
+.hero-termin { margin: 12px 0 0; font-size: 13px; color: var(--tekst-cichy); }
+
+.kafelki { display: grid; grid-template-columns: repeat(2, 1fr); gap: 9px; }
+.kafel {
+  display: grid;
+  gap: 2px;
+  padding: 14px;
+  background: var(--plyta-pelna);
+  border: 1px solid var(--kreska);
+  border-radius: var(--r);
+  text-decoration: none;
+  box-shadow: var(--cien);
+}
+.kafel-ikona { font-size: 20px; }
+.kafel b { font-family: var(--naglowkowy); font-size: 14.5px; margin-top: 4px; }
+.kafel em { font-style: normal; font-size: 11.5px; color: var(--tekst-ledwie); }
+.kafelki .kafel:last-child:nth-child(odd) { grid-column: 1 / -1; }
+
+/* ---------------------------------------------------------------- arkusz */
+
+.arkusz-tlo {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background: rgba(3, 8, 18, .62);
+  backdrop-filter: blur(3px);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity .2s ease;
+}
+.arkusz-tlo.widoczny { opacity: 1; }
+.arkusz {
+  width: min(100%, var(--szerokosc));
+  max-height: 86svh;
+  overflow-y: auto;
+  background: var(--plyta-pelna);
+  border: 1px solid var(--kreska);
+  border-bottom: 0;
+  border-radius: 22px 22px 0 0;
+  padding: 10px 18px calc(18px + env(safe-area-inset-bottom));
+  box-shadow: var(--cien-duzy);
+  transform: translateY(14px);
+  transition: transform .22s cubic-bezier(.2, .8, .3, 1);
+}
+.arkusz-tlo.widoczny .arkusz { transform: none; }
+.arkusz-uchwyt {
+  width: 38px; height: 4px;
+  background: var(--kreska-mocna);
+  border-radius: 99px;
+  margin: 0 auto 12px;
+}
+.arkusz-tytul { font-size: 18px; margin-bottom: 10px; }
+.arkusz-tresc p { margin: 0 0 10px; font-size: 14.5px; line-height: 1.6; }
+.arkusz-tresc h4 { font-size: 13px; margin: 14px 0 0; color: var(--tekst-cichy); }
+.arkusz-godlo { display: flex; justify-content: center; margin: 4px 0 10px; }
+.arkusz-haslo { text-align: center; font-style: italic; color: var(--zloto-jasne); }
+.arkusz-stopka { display: flex; gap: 9px; margin-top: 16px; }
+.arkusz-stopka .btn { flex: 1; }
+.arkusz-stopka.dwa .btn { flex: 1; }
+
+/* ----------------------------------------------------------------- toast */
+
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: calc(84px + env(safe-area-inset-bottom));
+  transform: translate(-50%, 12px);
+  z-index: 50;
+  max-width: min(92vw, 24rem);
+  padding: 11px 16px;
+  background: var(--tlo-glebia);
+  border: 1px solid var(--kreska-mocna);
+  border-radius: 999px;
+  font-size: 13px;
+  text-align: center;
+  box-shadow: var(--cien-duzy);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .22s ease, transform .22s ease;
+}
+.toast.widoczny { opacity: 1; transform: translate(-50%, 0); }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition-duration: .01ms !important; animation-duration: .01ms !important; }
+}

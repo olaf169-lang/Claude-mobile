@@ -1,0 +1,126 @@
+/* ==========================================================================
+   Drobiazgi wspólne dla wszystkich ekranów: budowanie HTML, arkusz
+   wysuwany od dołu (pomoc, potwierdzenia) i krótkie komunikaty.
+   ========================================================================== */
+
+export const $  = (sel, gdzie = document) => gdzie.querySelector(sel);
+export const $$ = (sel, gdzie = document) => [...gdzie.querySelectorAll(sel)];
+
+/** Zamienia niebezpieczne znaki — wszystko, co wpisze użytkownik (imię Gościa),
+    przechodzi przez to zanim trafi do innerHTML. */
+export function bez(tekst) {
+  return String(tekst ?? '').replace(/[&<>"']/g, (z) =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[z]));
+}
+
+export function zeZnakiem(n) {
+  return n > 0 ? `+${n}` : String(n);
+}
+
+export function klasaSalda(n) {
+  return n > 0 ? 'plus' : n < 0 ? 'minus' : 'zero';
+}
+
+/* ---------------------------------------------------------------- arkusz */
+
+let arkuszEl = null;
+
+/** Panel wysuwany od dołu. Zwraca funkcję zamykającą. */
+export function arkusz({ tytul, tresc, stopka = '' }) {
+  zamknijArkusz();
+  arkuszEl = document.createElement('div');
+  arkuszEl.className = 'arkusz-tlo';
+  arkuszEl.innerHTML = `
+    <div class="arkusz" role="dialog" aria-modal="true" aria-label="${bez(tytul)}">
+      <div class="arkusz-uchwyt" aria-hidden="true"></div>
+      <h3 class="arkusz-tytul">${tytul}</h3>
+      <div class="arkusz-tresc">${tresc}</div>
+      <div class="arkusz-stopka">${stopka}
+        <button class="btn btn-glowny" type="button" data-zamknij>Rozumiem</button>
+      </div>
+    </div>`;
+  document.body.appendChild(arkuszEl);
+  requestAnimationFrame(() => arkuszEl?.classList.add('widoczny'));
+  arkuszEl.addEventListener('click', (e) => {
+    if (e.target === arkuszEl || e.target.closest('[data-zamknij]')) zamknijArkusz();
+  });
+  document.addEventListener('keydown', naEscape);
+  arkuszEl.querySelector('[data-zamknij]')?.focus();
+  return zamknijArkusz;
+}
+
+function naEscape(e) { if (e.key === 'Escape') zamknijArkusz(); }
+
+export function zamknijArkusz() {
+  document.removeEventListener('keydown', naEscape);
+  if (!arkuszEl) return;
+  const el = arkuszEl;
+  arkuszEl = null;
+  el.classList.remove('widoczny');
+  setTimeout(() => el.remove(), 220);
+}
+
+/** Pytanie tak/nie w tym samym arkuszu. */
+export function potwierdz(tytul, tresc, etykietaTak = 'Tak, usuń') {
+  return new Promise((gotowe) => {
+    zamknijArkusz();
+    const el = document.createElement('div');
+    el.className = 'arkusz-tlo';
+    el.innerHTML = `
+      <div class="arkusz" role="dialog" aria-modal="true">
+        <div class="arkusz-uchwyt" aria-hidden="true"></div>
+        <h3 class="arkusz-tytul">${bez(tytul)}</h3>
+        <div class="arkusz-tresc"><p>${bez(tresc)}</p></div>
+        <div class="arkusz-stopka dwa">
+          <button class="btn" type="button" data-nie>Anuluj</button>
+          <button class="btn btn-groza" type="button" data-tak>${bez(etykietaTak)}</button>
+        </div>
+      </div>`;
+    document.body.appendChild(el);
+    requestAnimationFrame(() => el.classList.add('widoczny'));
+    const koniec = (odp) => {
+      el.classList.remove('widoczny');
+      setTimeout(() => el.remove(), 220);
+      gotowe(odp);
+    };
+    el.addEventListener('click', (e) => {
+      if (e.target === el || e.target.closest('[data-nie]')) koniec(false);
+      if (e.target.closest('[data-tak]')) koniec(true);
+    });
+  });
+}
+
+/* ----------------------------------------------------------------- toast */
+
+let toastTimer = null;
+
+export function komunikat(tekst, rodzaj = '') {
+  let el = $('#toast');
+  if (!el) {
+    el = document.createElement('div');
+    el.id = 'toast';
+    document.body.appendChild(el);
+  }
+  el.className = `toast ${rodzaj} widoczny`;
+  el.textContent = tekst;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove('widoczny'), 2800);
+}
+
+/* ------------------------------------------------------- ostrożne skupienie */
+
+/** Zapamiętuje, w którym polu stoi kursor, żeby przerysowanie ekranu
+    (bo ktoś inny właśnie dopisał wynik) nie wyrzuciło Cię z pisania. */
+export function zapamietajSkupienie() {
+  const el = document.activeElement;
+  if (!el || !el.id || !['INPUT', 'SELECT'].includes(el.tagName)) return null;
+  return { id: el.id, start: el.selectionStart, koniec: el.selectionEnd };
+}
+
+export function przywrocSkupienie(zapis) {
+  if (!zapis) return;
+  const el = document.getElementById(zapis.id);
+  if (!el) return;
+  el.focus();
+  try { el.setSelectionRange(zapis.start, zapis.koniec); } catch { /* number input */ }
+}

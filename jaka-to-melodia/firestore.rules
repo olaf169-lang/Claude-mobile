@@ -1,5 +1,7 @@
 /* Reguły dostępu do Firestore dla trybu wyzwań i Turnieju Piąteczki
-   (jaka-to-melodia).
+   (jaka-to-melodia) oraz dla badmintonowego Turnieju Pana Piąteczki
+   (katalog piateczka/ — obie aplikacje dzielą jeden projekt Firebase,
+   więc i jeden zestaw reguł; sekcja badmintonowa jest na samym dole).
 
    Aplikacja nie ma logowania — kto ma link/QR do wyzwania albo pojedynku,
    ten może je zobaczyć i dograć. To świadomy kompromis dla gry towarzyskiej
@@ -144,6 +146,31 @@ service cloud.firestore {
       allow read: if false;
       allow create, update: if request.resource.data.keys().hasAll(['token', 'ksywka', 'urzadzenie']);
       allow delete: if false;
+    }
+
+    /* ------------------------------------------ Turniej Pana Piąteczki
+       Badmintonowa liga wtorkowa (katalog piateczka/ w tym repozytorium)
+       korzysta z tego samego projektu Firebase, bo to kilkadziesiąt
+       dokumentów na sezon — osobny projekt byłby stratą czasu.
+
+       Tu ŚWIADOMIE odchodzimy od zasady „zapis raz i nigdy więcej”, która
+       obowiązuje wyżej. Tam chodziło o to, żeby nie dało się poprawić wyniku
+       quizu po fakcie. Tutaj poprawianie jest podstawową funkcją: ktoś wpisze
+       15:31 zamiast 15:13 i musi to naprawić, a wieczór dopisuje się na raty,
+       mecz po meczu, często z dwóch telefonów naraz. Reguła pilnuje więc
+       kształtu dokumentu, a nie jego niezmienności.
+
+       Jeden dokument na wieczór, id = data (RRRR-MM-DD), mecze jako mapa
+       w polu `mecze` — dzięki temu dwie osoby mogą wpisywać różne mecze
+       tego samego wieczoru bez nadpisywania się nawzajem. */
+    match /piateczkaWieczory/{data} {
+      allow read: if true;
+      allow create, update: if request.resource.data.keys().hasOnly(
+                                 ['data', 'format', 'sklad', 'goscImie',
+                                  'towarzyski', 'mecze', 'zaktualizowano'])
+                            && request.resource.data.data is string
+                            && request.resource.data.data.size() == 10;
+      allow delete: if true;
     }
   }
 }
