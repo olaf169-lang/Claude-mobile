@@ -79,6 +79,16 @@ export function isoData(d) {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 }
 
+/** Numer tygodnia od startu sezonu (0 = tydzień startowy). Służy do rotacji
+    kolejności meczów: co wtorek wypada następna z trzech kolejności, więc dwa
+    sąsiednie wtorki nigdy nie mają tej samej. Liczone z daty, więc deterministyczne
+    — wszyscy widzą identyczny układ. */
+export function indeksTygodnia(iso) {
+  const start = new Date(SEZON.pierwszy + 'T12:00:00');
+  const d = new Date(iso + 'T12:00:00');
+  return Math.floor((d - start) / (7 * 24 * 60 * 60 * 1000));
+}
+
 export function dzisiajIso() {
   return isoData(new Date());
 }
