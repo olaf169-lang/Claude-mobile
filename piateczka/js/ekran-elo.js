@@ -29,7 +29,7 @@ export function render(kontener, ctx) {
   kontener.innerHTML = `
     <div class="ekran-naglowek">
       <h1>🏸ELO🏸</h1>
-      <p class="podtytul">Ranking mocy — nie daje tytułu ani ułatwień, pokazuje formę</p>
+      <p class="podtytul">Twoja forma i siła gry — bez tytułów, bez ułatwień</p>
     </div>
 
     <section class="karta">
@@ -55,7 +55,15 @@ export function render(kontener, ctx) {
         <div class="dymek-wykresu" data-dymek-wykresu hidden></div>
       </div>
       <p class="wskazowka">Dotknij wykresu, żeby zobaczyć rating po konkretnym wtorku.</p>
-    </section>` : ''}
+    </section>` : `<section class="karta karta-pusty-wykres">
+      ${naglowekZPomoca('Przebieg sezonu', 'elo')}
+      <div class="pusty-wykres">
+        <span class="pusty-wykres-ikona" aria-hidden="true">📈</span>
+        <p><b>Wykres formy pojawi się po pierwszym rozegranym wtorku.</b></p>
+        <p class="cichy">Każdy startuje z 1000. Po pierwszej grze zaczyna się rysować linia,
+        a po kilku wtorkach widać, kto rośnie, a kto spada.</p>
+      </div>
+    </section>`}
 
     <section class="karta">
       ${naglowekZPomoca('Forma zestawień', 'forma')}

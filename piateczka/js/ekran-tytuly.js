@@ -7,6 +7,7 @@
 
 import { gracz, poPolsku, krotkaData, SEZON } from './dane.js';
 import { bigBoss, historiaMvp, PRZYDOMKI, godlo } from './tytuly.js';
+import { rekordySezonu } from './liczenie.js';
 import { naglowekZPomoca, dymek } from './pomoc.js';
 import { zeZnakiem, arkusz, bez } from './ui.js';
 
@@ -22,6 +23,7 @@ export function render(kontener, ctx) {
 
     ${kartaBigBossa(aktualny, wToku)}
     ${kartaMvp(mvpy)}
+    ${kartaRekordy(rekordySezonu(ctx.wieczory))}
     ${kartaHistorii(wszystkie)}
     ${kartaPucharu()}
     ${kartaKatalogu()}`;
@@ -33,30 +35,34 @@ export function render(kontener, ctx) {
 /* ---------------------------------------------------------- Big Boss */
 
 function kartaBigBossa(aktualny, wToku) {
-  if (!aktualny) {
+  // Po jednym wtorku ktoś już prowadzi i od razu dostaje odznakę. Różnica jest
+  // tylko w podpisie: zamknięty miesiąc = tytuł pewny, bieżący = „na żywo".
+  const okres = aktualny ?? (wToku?.zwyciezca ? wToku : null);
+  if (!okres) {
     return `<section class="karta karta-boss pusta">
       ${naglowekZPomoca('Big Boss', 'bigboss')}
-      <p class="pusto">Tytuł czeka na pierwszy zamknięty miesiąc.
-      ${wToku?.zwyciezca ? `W tej chwili prowadzi <b>${gracz(wToku.zwyciezca.id).imie}</b>
-        (${zeZnakiem(wToku.zwyciezca.saldo)}).` : 'Potrzebne są przynajmniej dwa rozegrane wieczory w miesiącu.'}</p>
+      <p class="pusto">Pierwszy Big Boss zostanie koronowany, gdy tylko rozegracie pierwszy wtorek.</p>
     </section>`;
   }
-  const p = aktualny.przydomek;
+  const biezacy = !aktualny;
+  const p = okres.przydomek;
   return `<section class="karta karta-boss">
-    ${naglowekZPomoca('Big Boss', 'bigboss')}
+    ${naglowekZPomoca('Big Boss', 'bigboss', { dodatek: biezacy
+      ? '<span class="plakietka-live">na żywo</span>' : '' })}
     <div class="boss-tresc">
       <div class="boss-godlo">${godlo(p.id, { rozmiar: 84 })}</div>
       <div class="boss-opis">
-        <strong class="boss-imie">${gracz(aktualny.zwyciezca.id).imie}</strong>
+        <strong class="boss-imie">${gracz(okres.zwyciezca.id).imie}</strong>
         <span class="boss-przydomek">„${p.nazwa}”</span>
         <span class="boss-haslo">${p.haslo}</span>
-        <span class="boss-okres">${aktualny.nazwa} · saldo ${zeZnakiem(aktualny.zwyciezca.saldo)}</span>
+        <span class="boss-okres">${biezacy ? 'Prowadzi — ' : ''}${okres.nazwa} · saldo ${zeZnakiem(okres.zwyciezca.saldo)}</span>
         <button class="btn btn-maly" type="button" data-przydomek="${p.id}">Za co ten przydomek?</button>
       </div>
     </div>
-    ${wToku?.zwyciezca ? `<p class="boss-nota">W bieżącym okresie (${wToku.nazwa}) prowadzi
-      <b>${gracz(wToku.zwyciezca.id).imie}</b> — ${zeZnakiem(wToku.zwyciezca.saldo)}. Tytuł przechodzi,
-      gdy miesiąc się zamknie.</p>` : ''}
+    ${biezacy ? `<p class="boss-nota">To układ na dziś — tytuł zamknie się z końcem miesiąca.
+      Do tego czasu każdy dobry wieczór może go przejąć.</p>` : (wToku?.zwyciezca ? `<p class="boss-nota">
+      W bieżącym okresie (${wToku.nazwa}) prowadzi <b>${gracz(wToku.zwyciezca.id).imie}</b> —
+      ${zeZnakiem(wToku.zwyciezca.saldo)}.</p>` : '')}
   </section>`;
 }
 
@@ -72,6 +78,33 @@ function kartaMvp(mvpy) {
         <span class="mvp-saldo plus">${zeZnakiem(x.mvp.saldo)}</span>
       </li>`).join('')}
     </ul>` : '<p class="pusto">Pierwszy MVP czeka na pierwszy rozegrany wtorek.</p>'}
+  </section>`;
+}
+
+/* ------------------------------------------------------------- rekordy */
+
+function kartaRekordy(rek) {
+  if (!rek) return '';
+  const im = (id) => bez(gracz(id).imie);
+  const para = (ids) => ids.map(im).join(' + ');
+  const wiersze = [];
+  if (rek.najlepszyWieczor) wiersze.push(['🔥', 'Najlepszy wieczór',
+    `${im(rek.najlepszyWieczor.id)} · ${zeZnakiem(rek.najlepszyWieczor.saldo)} · ${poPolsku(rek.najlepszyWieczor.data)}`]);
+  if (rek.najwiekszyPogrom) wiersze.push(['💥', 'Największy pogrom',
+    `${para(rek.najwiekszyPogrom.wygrani)} rozbili ${para(rek.najwiekszyPogrom.przegrani)} · różnica ${rek.najwiekszyPogrom.roznica}`]);
+  if (rek.najdluzszaSeria) wiersze.push(['🚂', 'Najdłuższa seria setów',
+    `${im(rek.najdluzszaSeria.id)} · ${rek.najdluzszaSeria.dlugosc} z rzędu`]);
+  if (rek.najlepszyDuet) wiersze.push(['🤝', 'Najlepszy duet',
+    `${para(rek.najlepszyDuet.para)} · ${zeZnakiem(rek.najlepszyDuet.saldo)} razem`]);
+  if (!wiersze.length) return '';
+  return `<section class="karta">
+    <h2 class="karta-tytul">Rekordy sezonu</h2>
+    <ul class="rekordy">
+      ${wiersze.map(([ikona, tytul, opis]) => `<li>
+        <span class="rekord-ikona" aria-hidden="true">${ikona}</span>
+        <span class="rekord-tresc"><b>${tytul}</b><em>${opis}</em></span>
+      </li>`).join('')}
+    </ul>
   </section>`;
 }
 

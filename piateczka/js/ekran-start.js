@@ -10,11 +10,11 @@ import { zeZnakiem, klasaSalda, bez } from './ui.js';
 import { kolorGracza } from './wykresy.js';
 
 const KAFELKI = [
-  { href: '#/tabela',    ikona: '📊', nazwa: 'Tabela',    opis: 'Klasyfikacja sezonu' },
-  { href: '#/elo',       ikona: '🏸', nazwa: 'ELO',       opis: 'Ranking mocy i forma' },
-  { href: '#/tytuly',    ikona: '🏆', nazwa: 'Tytuły',    opis: 'MVP, Big Boss, przydomki' },
-  { href: '#/kalendarz', ikona: '📅', nazwa: 'Kalendarz', opis: 'Plan sezonu' },
-  { href: '#/zasady',    ikona: '📖', nazwa: 'Zasady',    opis: 'Cała instrukcja' },
+  { href: '#/tabela',    ikona: '📊', nazwa: 'Tabela',    opis: 'Kto prowadzi w lidze' },
+  { href: '#/elo',       ikona: '🏸', nazwa: 'ELO',       opis: 'Twoja forma i siła gry' },
+  { href: '#/tytuly',    ikona: '🏆', nazwa: 'Tytuły',    opis: 'MVP, Big Boss i Puchar' },
+  { href: '#/kalendarz', ikona: '📅', nazwa: 'Kalendarz', opis: 'Terminy i wyniki' },
+  { href: '#/zasady',    ikona: '📖', nazwa: 'Zasady',    opis: 'Jak to działa' },
 ];
 
 export function render(kontener, ctx) {
@@ -23,7 +23,8 @@ export function render(kontener, ctx) {
     .sort((a, b) => b.data.localeCompare(a.data))[0] ?? null;
   const mvp = ostatni ? mvpWieczoru(ostatni) : null;
   const tabela = klasyfikacja(ctx.wieczory.filter((w) => !w.towarzyski));
-  const { aktualny } = bigBoss(ctx.wieczory);
+  const { aktualny, wToku } = bigBoss(ctx.wieczory);
+  const boss = aktualny ?? (wToku?.zwyciezca ? wToku : null);
   const dzis = dzisiajIso();
   const nastepny = najblizszyWtorek();
 
@@ -31,7 +32,7 @@ export function render(kontener, ctx) {
     <section class="hero">
       <p class="hero-nad">Sezon ${SEZON.nazwa}</p>
       <h1 class="hero-nazwa">Turniej<br>Pana Piąteczki</h1>
-      <p class="hero-pod">Badminton, wtorki, cztery osoby i jedna liczba, która o wszystkim decyduje.</p>
+      <p class="hero-pod">Liga czterech graczy w badmintona. Sprawdź formę, pokonaj rywali i sięgnij po Puchar Pana Piąteczki.</p>
       <div class="hero-akcje">
         <a class="btn btn-glowny" href="#/wieczor">${nastepny === dzis ? 'Gramy dziś — wpisz wynik' : 'Wpisz wynik'}</a>
         <a class="btn btn-obrys" href="#/zasady">Jak to działa</a>
@@ -42,7 +43,7 @@ export function render(kontener, ctx) {
     </section>
 
     ${kartaCzworki(tabela, ctx.ja)}
-    ${aktualny ? kartaBossa(aktualny) : ''}
+    ${boss ? kartaBossa(boss, !aktualny) : ''}
     ${mvp ? kartaMvp(ostatni, mvp) : ''}
 
     <nav class="kafelki">
@@ -80,13 +81,13 @@ function kartaCzworki(tabela, ja) {
   </section>`;
 }
 
-function kartaBossa(okres) {
+function kartaBossa(okres, biezacy) {
   return `<section class="karta karta-boss-mini">
     <div class="boss-godlo">${godlo(okres.przydomek.id, { rozmiar: 58 })}</div>
     <div class="boss-opis">
-      <span class="plakietka-etykieta">Big Boss ${dymek('bigboss')}</span>
+      <span class="plakietka-etykieta">Big Boss${biezacy ? ' — na żywo' : ''} ${dymek('bigboss')}</span>
       <strong>${gracz(okres.zwyciezca.id).imie} „${okres.przydomek.nazwa}”</strong>
-      <span class="cichy">${okres.nazwa} · ${zeZnakiem(okres.zwyciezca.saldo)}</span>
+      <span class="cichy">${biezacy ? 'prowadzi · ' : ''}${okres.nazwa} · ${zeZnakiem(okres.zwyciezca.saldo)}</span>
     </div>
     <a class="naglowek-link" href="#/tytuly">więcej</a>
   </section>`;

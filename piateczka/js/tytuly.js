@@ -16,7 +16,7 @@
 import { nazwaMiesiaca, dzisiajIso } from './dane.js';
 import { klasyfikacja, mvpWieczoru, wieczorRozegrany } from './liczenie.js';
 
-export const MIN_WIECZOROW_NA_TYTUL = 2;
+export const MIN_WIECZOROW_NA_TYTUL = 1;  // jeden wtorek wystarczy, żeby przyznać tytuł
 
 /* ------------------------------------------------------------- przydomki */
 

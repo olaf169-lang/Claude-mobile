@@ -44,11 +44,11 @@ export const FORMAT_DOMYSLNY = '3x15';
 
 export const SEZON = {
   nazwa: '2026/27',
-  pierwszy: '2026-10-06',
+  pierwszy: '2026-09-15',
   ostatni: '2027-03-30',
   final: '2027-03-23',
   rundy: [
-    { id: 'jesien', nazwa: 'Runda Jesienna', od: '2026-10-01', do: '2026-12-31' },
+    { id: 'jesien', nazwa: 'Runda Jesienna', od: '2026-09-01', do: '2026-12-31' },
     { id: 'zima',   nazwa: 'Runda Zimowa',   od: '2027-01-01', do: '2027-03-31' },
   ],
   /* Wtorki, których z góry nie planujemy. Reszta terminów jest umowna —
