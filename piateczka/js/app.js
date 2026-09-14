@@ -16,6 +16,7 @@ import * as elo from './ekran-elo.js';
 import * as tytuly from './ekran-tytuly.js';
 import * as kalendarz from './ekran-kalendarz.js';
 import * as zasady from './ekran-zasady.js';
+import * as podsumowanie from './ekran-podsumowanie.js';
 
 const EKRANY = {
   '':          { modul: start,     nazwa: 'Start' },
@@ -25,6 +26,7 @@ const EKRANY = {
   'tytuly':    { modul: tytuly,    nazwa: 'Tytuły' },
   'kalendarz': { modul: kalendarz, nazwa: 'Kalendarz' },
   'zasady':    { modul: zasady,    nazwa: 'Zasady' },
+  'podsumowanie': { modul: podsumowanie, nazwa: 'Podsumowanie' },
 };
 
 const KLUCZ_JA = 'pp:ja';
@@ -67,8 +69,10 @@ function rysuj() {
   const skupienie = zmianaEkranu ? null : zapamietajSkupienie();
 
   kontener.innerHTML = '';
+  const ctx = kontekst();
+  ctx.kotwica = kotwica;
   try {
-    EKRANY[ekran].modul.render(kontener, kontekst());
+    EKRANY[ekran].modul.render(kontener, ctx);
   } catch (blad) {
     console.error(blad);
     kontener.innerHTML = `<section class="karta"><h2 class="karta-tytul">Coś się posypało</h2>
@@ -78,7 +82,7 @@ function rysuj() {
   odswiezNawigacje(ekran);
   przywrocSkupienie(skupienie);
   if (zmianaEkranu) {
-    if (kotwica) {
+    if (ekran === 'zasady' && kotwica) {
       document.getElementById(`zasady-${kotwica}`)?.scrollIntoView({ block: 'start' });
     } else {
       window.scrollTo({ top: 0 });

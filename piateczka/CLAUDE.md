@@ -83,6 +83,8 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
 | `js/pomoc.js` | **wszystkie** teksty regulaminu |
 | `js/wykresy.js` | iskry w tabeli, wykres ELO, paleta serii |
 | `js/baza.js` | Firestore + kopia w localStorage + tryb offline |
+| `js/pochwal.js` | udostępnianie wieczoru (Web Share + fallback schowek) |
+| `js/ekran-podsumowanie.js` | laurka wieczoru pod link `#/podsumowanie/<data>` |
 | `js/ekran-*.js` | po jednym module na ekran, każdy eksportuje `render()` |
 | `narzedzia/ikony.py` | generator ikon PWA (bez Pillow — własny zapis PNG) |
 

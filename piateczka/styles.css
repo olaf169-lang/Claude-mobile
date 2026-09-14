@@ -992,3 +992,63 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
 .akord-tresc { padding: 4px 16px 8px; }
 .akord-tresc .haslo:first-of-type { padding-top: 12px; border-top: 0; }
 .akord-tresc .lista-przydomkow { margin-top: 12px; }
+
+/* ============================ Podsumowanie / laurka ================== */
+.karta-laurka { background: linear-gradient(170deg, var(--zloto-mgla), transparent 55%), var(--plyta-pelna); }
+.laurka-mvp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid color-mix(in srgb, var(--zloto) 40%, transparent);
+  border-radius: var(--r-s);
+  background: var(--zloto-mgla);
+}
+.laurka-mvp strong { font-family: var(--naglowkowy); font-size: 17px; }
+.laurka-mvp .saldo { margin-left: auto; font: 800 18px/1 var(--naglowkowy); }
+
+.laurka-tabela { list-style: none; margin: 0; padding: 0; display: grid; gap: 3px; }
+.laurka-tabela li {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 9px 10px;
+  border-radius: var(--r-s);
+  background: var(--plyta);
+}
+.laurka-tabela li.mvp { background: var(--zloto-mgla); }
+.laurka-miejsce {
+  flex: none;
+  width: 22px; height: 22px;
+  display: grid; place-items: center;
+  border-radius: 7px;
+  background: var(--plyta-mocna);
+  font: 800 12px/1 var(--naglowkowy);
+  color: var(--tekst-cichy);
+}
+.laurka-tabela li:first-child .laurka-miejsce { background: var(--zloto); color: #17120A; }
+.laurka-kto { flex: 1; min-width: 0; display: grid; gap: 1px; font-weight: 700; font-size: 14.5px; }
+.laurka-detal { font-style: normal; font-weight: 500; font-size: 11.5px; color: var(--tekst-ledwie); }
+
+.laurka-mecze { margin-top: 12px; display: grid; gap: 5px; }
+.laurka-mecz {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: var(--r-xs);
+  background: var(--plyta);
+  font-size: 12.5px;
+  color: var(--tekst-cichy);
+}
+.laurka-mecz > span { min-width: 0; }
+.laurka-mecz > span:last-child { text-align: right; }
+.laurka-mecz .wygrany { color: var(--tekst); font-weight: 700; }
+.laurka-mecz b { font-family: var(--naglowkowy); font-size: 13.5px; color: var(--tekst); }
+
+.laurka-boss { margin: 14px 0 0; text-align: center; font-size: 13.5px; color: var(--tekst-cichy); }
+.laurka-boss b { color: var(--zloto-jasne); }
+
+.kafelki-dol { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin-top: 10px; }
