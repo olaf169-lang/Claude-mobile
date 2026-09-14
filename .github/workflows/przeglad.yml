@@ -15,6 +15,7 @@ on:
       - "web/**"
       - "bangladesz26/**"
       - "jaka-to-melodia/**"
+      - "piateczka/**"
       - ".github/workflows/przeglad.yml"
   schedule:
     - cron: "0 6 * * *"
@@ -175,6 +176,17 @@ jobs:
                  web/jaka-to-melodia/package.json web/jaka-to-melodia/package-lock.json \
                  web/jaka-to-melodia/.gitignore
           test -f web/jaka-to-melodia/index.html
+
+      # Czwarta aplikacja, pod adresem /piateczka/ — badmintonowy Turniej Pana
+      # Piąteczki. Znów tylko to, co ma działać w przeglądarce.
+      - name: Dołóż Turniej Pana Piąteczki do strony
+        run: |
+          set -euo pipefail
+          rm -rf web/piateczka
+          mkdir -p web/piateczka
+          cp -r piateczka/. web/piateczka/
+          rm -rf web/piateczka/narzedzia web/piateczka/docs web/piateczka/README.md
+          test -f web/piateczka/index.html
 
       - name: Przygotuj stronę
         uses: actions/upload-pages-artifact@v3
