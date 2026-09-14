@@ -12,6 +12,7 @@ import { ukladMeczow, wynikMeczu, ilePolNaSety, rekordyWieczoru, mvpWieczoru,
 import { dymek, naglowekZPomoca } from './pomoc.js';
 import { bez, zeZnakiem, klasaSalda, potwierdz, komunikat } from './ui.js';
 import * as baza from './baza.js';
+import { pochwalSie } from './pochwal.js';
 
 let wybranaData = null;
 let szkicSkladu = null;      // skład wybierany, zanim wieczór powstanie w bazie
@@ -189,6 +190,8 @@ function kartaPodsumowania(wieczor) {
       <strong>${mvp.gracze.map((i) => bez(imie(wieczor, i))).join(' i ')}</strong>
       <span class="saldo plus">${zeZnakiem(mvp.saldo)}</span>
     </div>` : ''}
+    <button class="btn btn-glowny szeroki" type="button" id="pochwal-sie" style="margin-top:12px">
+      📣 Pochwal się na grupie</button>
   </section>`;
 }
 
@@ -266,6 +269,11 @@ function podepnij(kontener, ctx) {
   }));
 
   kontener.querySelector('#dograj-mecz')?.addEventListener('click', () => dograjMecz(wieczor));
+
+  kontener.querySelector('#pochwal-sie')?.addEventListener('click', () => {
+    const w = ctx.wieczory.find((x) => x.data === wybranaData);
+    if (w) pochwalSie(w);
+  });
 
   kontener.querySelector('#usun-wieczor')?.addEventListener('click', async () => {
     if (!await potwierdz('Usunąć cały wieczór?',

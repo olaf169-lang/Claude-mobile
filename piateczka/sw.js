@@ -2,13 +2,14 @@
    wyniki w localStorage, więc service worker odpowiada wyłącznie za to, żeby
    w hali bez zasięgu w ogóle dało się ją otworzyć. */
 
-const POLKA = 'piateczka-v2';
+const POLKA = 'piateczka-v3';
 const SZKIELET = [
   './', './index.html', './styles.css', './manifest.webmanifest',
   './js/app.js', './js/dane.js', './js/liczenie.js', './js/elo.js', './js/tytuly.js',
   './js/pomoc.js', './js/ui.js', './js/baza.js', './js/wykresy.js',
   './js/ekran-start.js', './js/ekran-wieczor.js', './js/ekran-tabela.js',
   './js/ekran-elo.js', './js/ekran-tytuly.js', './js/ekran-kalendarz.js', './js/ekran-zasady.js',
+  './js/ekran-podsumowanie.js', './js/pochwal.js',
 ];
 
 self.addEventListener('install', (e) => {
