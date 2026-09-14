@@ -11,50 +11,73 @@ import { PRZYDOMKI, godlo } from './tytuly.js';
 import { FORMATY, SEZON, GRACZE } from './dane.js';
 import { arkusz } from './ui.js';
 
-export function render(kontener, ctx) {
+export function render(kontener) {
   kontener.innerHTML = `
     <div class="ekran-naglowek">
       <h1>Zasady</h1>
-      <p class="podtytul">Cały regulamin Turnieju Pana Piąteczki</p>
+      <p class="podtytul">Najważniejsze na górze. Szczegóły rozwijasz, gdy zechcesz.</p>
     </div>
 
-    <nav class="spis" aria-label="Spis treści">
-      ${SEKCJE.map((s) => `<a href="#/zasady/${s.id}" data-skok="${s.id}">
-        <span aria-hidden="true">${s.godlo}</span>${s.nazwa}</a>`).join('')}
-      <a href="#/zasady/sciaga" data-skok="sciaga"><span aria-hidden="true">⚡</span>Ściąga na halę</a>
-    </nav>
+    <section class="karta karta-esencja">
+      <h2 class="karta-tytul">W 20 sekund</h2>
+      <ol class="esencja">
+        <li><span><b>Gracie trzy mecze.</b> Co wieczór każdy zagra z każdym w parze — składy ustawia
+          appka, nic nie losujecie.</span></li>
+        <li><span><b>Liczy się saldo.</b> Różnica punktów z setów plus <b class="plus">+3</b> za każdy
+          wygrany mecz. Im ładniej grasz, tym więcej.</span></li>
+        <li><span><b>Nic nie liczycie w głowie.</b> Wpisujecie tylko wyniki setów — tabelę, formę
+          i tytuły appka wylicza sama.</span></li>
+      </ol>
+      <p class="esencja-nota">Najlepiej po prostu zagrać pierwszy wtorek — po jednym wieczorze reszta
+        wchodzi sama. A przy każdej karcie w apce jest <span class="dymek-przyklad" aria-hidden="true">i</span>
+        — dotknij, a wyjaśni to, co masz akurat przed oczami.</p>
+    </section>
 
     ${kartaSciagi()}
 
-    ${SEKCJE.map((s) => `
-      <section class="karta karta-sekcja" id="zasady-${s.id}">
-        <h2 class="karta-tytul sekcja-tytul"><span aria-hidden="true">${s.godlo}</span> ${s.nazwa}</h2>
-        <p class="sekcja-wstep">${s.wstep}</p>
-        ${s.hasla.map((k) => haslo(k)).join('')}
-      </section>`).join('')}
+    <p class="zasady-drogowskaz">Chcesz wejść głębiej? Rozwiń temat, który Cię interesuje:</p>
 
-    <section class="karta karta-sekcja" id="zasady-przydomki">
-      <h2 class="karta-tytul sekcja-tytul"><span aria-hidden="true">🎖️</span> Dziewięć przydomków</h2>
-      <p class="sekcja-wstep">Big Boss nosi przydomek opisujący, czym wygrał swój miesiąc.
-      Warunki sprawdzane są w tej kolejności — pierwszy pasujący wygrywa.</p>
+    ${SEKCJE.map((s) => sekcjaAkord(s)).join('')}
+    ${przydomkiAkord()}
+
+    <p class="stopka-zasady">Nie musicie znać wszystkiego na pamięć — od tego jest ta appka.
+    Wpiszcie pierwszy wynik i grajcie.</p>`;
+}
+
+function sekcjaAkord(s) {
+  return `<details class="karta akord">
+    <summary class="akord-glowa">
+      <span class="akord-godlo" aria-hidden="true">${s.godlo}</span>
+      <span class="akord-tytul"><b>${s.nazwa}</b><em>${s.wstep}</em></span>
+      <span class="akord-chevron" aria-hidden="true">\u203a</span>
+    </summary>
+    <div class="akord-tresc">
+      ${s.hasla.map((k) => haslo(k)).join('')}
+    </div>
+  </details>`;
+}
+
+function przydomkiAkord() {
+  return `<details class="karta akord">
+    <summary class="akord-glowa">
+      <span class="akord-godlo" aria-hidden="true">\ud83c\udf96\ufe0f</span>
+      <span class="akord-tytul"><b>Dziewięć przydomków</b><em>Za co Big Boss dostaje swoją ksywkę</em></span>
+      <span class="akord-chevron" aria-hidden="true">\u203a</span>
+    </summary>
+    <div class="akord-tresc">
+      <p class="sekcja-wstep">Przydomek nie jest losowy — opisuje, czym wygrałeś miesiąc. Appka sprawdza
+      warunki po kolei, od najrzadszego do najzwyklejszego, i przyznaje pierwszy pasujący.</p>
       <ol class="lista-przydomkow">
         ${PRZYDOMKI.map((p, i) => `<li>
           <span class="mini-godlo">${godlo(p.id, { rozmiar: 44 })}</span>
           <div>
-            <b>${i + 1}. ${p.nazwa}</b> <em>— ${p.haslo}</em>
+            <b>${i + 1}. ${p.nazwa}</b> <em>\u2014 ${p.haslo}</em>
             <p>${p.opis}</p>
           </div>
         </li>`).join('')}
       </ol>
-    </section>
-
-    <p class="stopka-zasady">Coś jest niejasne albo chcecie zmienić regułę? Wszystko siedzi w jednym
-    pliku i da się poprawić w pięć minut — razem z tym, co widzisz na ekranach.</p>`;
-
-  kontener.querySelectorAll('[data-skok]').forEach((el) => el.addEventListener('click', (e) => {
-    e.preventDefault();
-    document.getElementById(`zasady-${el.dataset.skok}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }));
+    </div>
+  </details>`;
 }
 
 function haslo(klucz) {
