@@ -892,3 +892,103 @@ main {
 .rekord-tresc { display: grid; gap: 2px; min-width: 0; }
 .rekord-tresc b { font-family: var(--naglowkowy); font-size: 13.5px; }
 .rekord-tresc em { font-style: normal; font-size: 12px; color: var(--tekst-cichy); line-height: 1.4; }
+
+/* ============================ Zasady: esencja + accordion ============= */
+
+.karta-esencja {
+  background: linear-gradient(165deg, var(--zloto-mgla), transparent 60%), var(--plyta-pelna);
+}
+.esencja {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+  counter-reset: e;
+  display: grid;
+  gap: 11px;
+}
+.esencja li {
+  counter-increment: e;
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.esencja li > span { flex: 1; min-width: 0; }
+.esencja li::before {
+  content: counter(e);
+  flex: none;
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: linear-gradient(150deg, var(--zloto-jasne), var(--zloto));
+  color: #17120A;
+  font: 800 13px/1 var(--naglowkowy);
+  margin-top: 1px;
+}
+.esencja-nota {
+  margin: 13px 0 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--kreska);
+  font-size: 13px;
+  color: var(--tekst-cichy);
+  line-height: 1.55;
+}
+.dymek-przyklad {
+  display: inline-grid;
+  place-items: center;
+  width: 17px; height: 17px;
+  border: 1.5px solid color-mix(in srgb, var(--zloto) 62%, transparent);
+  border-radius: 50%;
+  background: var(--zloto-mgla);
+  color: var(--zloto-jasne);
+  font: italic 700 10px/1 var(--naglowkowy);
+  vertical-align: middle;
+}
+
+.zasady-drogowskaz {
+  margin: 4px 2px -4px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--tekst-ledwie);
+}
+
+/* Zwijane sekcje — ekran to lista tematów, nie ściana tekstu. */
+details.akord { padding: 0; overflow: hidden; }
+.akord-glowa {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 15px 16px;
+  -webkit-tap-highlight-color: transparent;
+}
+.akord-glowa::-webkit-details-marker { display: none; }
+.akord-godlo {
+  flex: none;
+  width: 38px; height: 38px;
+  display: grid;
+  place-items: center;
+  font-size: 20px;
+  background: var(--plyta-mocna);
+  border-radius: 11px;
+}
+.akord-tytul { display: grid; gap: 2px; min-width: 0; flex: 1; }
+.akord-tytul b { font-family: var(--naglowkowy); font-size: 15px; }
+.akord-tytul em { font-style: normal; font-size: 12px; color: var(--tekst-cichy); line-height: 1.4; }
+.akord-chevron {
+  flex: none;
+  font-family: var(--naglowkowy);
+  font-size: 24px;
+  line-height: 1;
+  color: var(--tekst-ledwie);
+  transition: transform .18s ease, color .18s ease;
+}
+details.akord[open] .akord-chevron { transform: rotate(90deg); color: var(--zloto); }
+details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
+.akord-tresc { padding: 4px 16px 8px; }
+.akord-tresc .haslo:first-of-type { padding-top: 12px; border-top: 0; }
+.akord-tresc .lista-przydomkow { margin-top: 12px; }
