@@ -6,7 +6,7 @@
    i cała reszta (tabela, ELO, tytuły) przelicza się od nowa.
    ========================================================================== */
 
-import { GRACZE, GOSC, gracz, FORMATY, FORMAT_DOMYSLNY, najblizszyWtorek, poPolsku, dzisiajIso } from './dane.js';
+import { GRACZE, GOSC, gracz, FORMATY, FORMAT_DOMYSLNY, najblizszyWtorek, poPolsku, dzisiajIso, indeksTygodnia } from './dane.js';
 import { ukladMeczow, wynikMeczu, ilePolNaSety, rekordyWieczoru, mvpWieczoru,
   mecze as meczeZ, BONUS_WYGRANEJ } from './liczenie.js';
 import { dymek, naglowekZPomoca } from './pomoc.js';
@@ -228,7 +228,8 @@ function podepnij(kontener, ctx) {
   kontener.querySelector('#ustaw-mecze')?.addEventListener('click', async () => {
     const sklad = szkicSkladu ?? GRACZE.map((g) => g.id);
     const goscImie = kontener.querySelector('#pole-gosc')?.value.trim() || null;
-    const przesuniecie = Math.abs(hasz(wybranaData)) % 3;
+    // Kolejność meczów rotuje co tydzień: 0→1→2→0… — sąsiednie wtorki się różnią.
+    const przesuniecie = ((indeksTygodnia(wybranaData) % 3) + 3) % 3;
     const lista = ukladMeczow(sklad, przesuniecie);
     const mecze = Object.fromEntries(lista.map((m) => [m.nr, m]));
     await baza.zapiszWieczor(wybranaData, {
@@ -310,8 +311,3 @@ function dograjMecz(wieczor) {
   baza.zapiszMecz(wybranaData, nr, nowy);
 }
 
-function hasz(tekst) {
-  let h = 0;
-  for (const z of tekst) h = (h * 31 + z.charCodeAt(0)) | 0;
-  return h;
-}
