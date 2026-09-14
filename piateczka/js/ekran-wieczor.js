@@ -54,6 +54,7 @@ function kartaTerminu(wieczor) {
       <label class="pole">
         <span>Data</span>
         <input type="date" id="pole-data" value="${wybranaData}">
+        <small class="pole-hint">dowolny dzień — nie musi być wtorek</small>
       </label>
       <label class="pole">
         <span>Format meczu</span>

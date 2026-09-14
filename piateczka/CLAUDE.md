@@ -55,6 +55,17 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
 - **Jedna definicja wygranej meczu** (sety, przy remisie różnica punktów)
   obowiązuje w tabeli, MVP i ELO. Jak ją zmieniasz, zmieniasz
   w `wynikMeczu()` i już.
+- **Sezon startuje 2026-09-15** (pierwszy wtorek), nie w październiku — decyzja
+  użytkownika 2026-09-14, chcą grać od razu. `SEZON.pierwszy` w `dane.js`.
+- **Tytuł (Big Boss + odznaka) po JEDNYM wtorku.** `MIN_WIECZOROW_NA_TYTUL = 1`
+  w `tytuly.js`. Lider bieżącego, jeszcze niezamkniętego miesiąca pokazuje się
+  od razu z odznaką i plakietką „na żywo” (klasa `.plakietka-live`); tytuł
+  twardnieje z końcem miesiąca. Nie podnoś tego progu z powrotem.
+- **Head-to-head i rekordy sezonu** liczy `liczenie.js` (`przeciwnicy`
+  w rekordzie gracza, `rekordySezonu()`) — wyprowadzone z samych wyników
+  setów, bez dodatkowego wpisywania.
+- **Czcionka nagłówkowa: Space Grotesk** (był Outfit) — `index.html` + zmienna
+  `--naglowkowy` w `styles.css`.
 - **Złoto tylko przy zaszczytach.** Pierwsze miejsce, MVP, Big Boss, Puchar.
   Jak zacznie być wszędzie, przestanie cokolwiek znaczyć.
 - **Kolory serii na wykresach są przypisane do gracza, nie do miejsca**

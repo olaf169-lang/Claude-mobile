@@ -8,7 +8,7 @@ Adres: **[/Claude-mobile/piateczka/](https://olaf169-lang.github.io/Claude-mobil
 | | |
 |---|---|
 | Skład | Jacek · Tomek · Kafaar · Piąteczka |
-| Kiedy | wtorki, sezon jesienno-zimowy (start 6 października 2026) |
+| Kiedy | wtorki, sezon jesienno-zimowy (start 15 września 2026) |
 | Format | do dwóch wygranych setów, sety do 15 (przy 15:15 na przewagę 2) |
 | Waluta | saldo: różnica punktów + 3 za każdy wygrany mecz |
 | Finał | Puchar Pana Piąteczki, 23 marca 2027 |
@@ -60,6 +60,10 @@ Trzy własności, dla których akurat to rozwiązanie wygrało:
 
 O wygranej meczu decydują **sety, a przy remisie w setach — różnica punktów**. Ta jedna
 definicja obowiązuje wszędzie: w tabeli, przy MVP i w rankingu ELO.
+
+Aplikacja liczy też **head-to-head** (bilans z każdym rywalem osobno) i **rekordy
+sezonu** (najlepszy wieczór, największy pogrom, najdłuższa seria, najlepszy duet) —
+wszystko z tych samych wyników, bez żadnego dodatkowego wpisywania.
 
 Sam set gra się **do 15, ale przy stanie 15:15 na przewagę dwóch punktów**, bez górnego
 limitu — set kończy się więc na 17:15, 21:19 albo dalej. Wpisuje się dokładnie taki
@@ -126,7 +130,7 @@ Bonus +3 za wygraną też nie wchodzi do ELO: rating mierzy siłę gry, a nie pu
 
 ## Kalendarz sezonu 2026/27
 
-26 wtorków od 6 października do 30 marca. Z góry odpuszczone: **22 i 29 grudnia**
+29 wtorków (26 grywalnych) od 15 września do 30 marca. Z góry odpuszczone: **22 i 29 grudnia**
 (święta, Sylwester) oraz **30 marca** — wypada zaraz po Wielkanocy i zostaje terminem
 rezerwowym. Przerwa świąteczna sama dzieli sezon na **Rundę Jesienną** i **Zimową**,
 każda ze swoim mistrzem, obok klasyfikacja generalna.

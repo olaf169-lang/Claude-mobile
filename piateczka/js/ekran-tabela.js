@@ -82,10 +82,12 @@ function wiersz(r) {
 function szczegoly(id, tabela) {
   const r = tabela.find((x) => x.id === id);
   if (!r) return;
-  const partnerzy = Object.entries(r.partnerzy)
+  const listaSald = (obj) => Object.entries(obj)
     .sort((a, b) => b[1] - a[1])
     .map(([pid, saldo]) => `<li><span>${bez(gracz(pid).imie)}</span>
       <b class="${klasaSalda(saldo)}">${zeZnakiem(saldo)}</b></li>`).join('');
+  const partnerzy = listaSald(r.partnerzy);
+  const rywale = listaSald(r.przeciwnicy);
 
   arkusz({
     tytul: `${bez(gracz(id).imie)} — szczegóły`,
@@ -98,8 +100,12 @@ function szczegoly(id, tabela) {
         <div><span>${r.setyNaStyk ? Math.round((r.setyNaStykW / r.setyNaStyk) * 100) : 0}%</span><em>setów na styk</em></div>
         <div><span>${r.wieczory}</span><em>wieczorów</em></div>
       </div>
-      ${partnerzy ? `<h4>Saldo z partnerem</h4>
+      ${partnerzy ? `<h4>Najlepszy duet</h4>
         <ul class="lista-prosta">${partnerzy}</ul>
-        <p class="pomoc-nota">Ile punktów na plus (lub minus) wychodziło, gdy graliście razem w parze.</p>` : ''}`,
+        <p class="pomoc-nota">Saldo, gdy graliście w jednej parze — z kim Ci po drodze.</p>` : ''}
+      ${rywale ? `<h4>Bilans z rywalem</h4>
+        <ul class="lista-prosta">${rywale}</ul>
+        <p class="pomoc-nota">Twój wynik przeciw każdemu. Na plus — to Ty jesteś ich zmorą,
+        na minus — oni Twoją.</p>` : ''}`,
   });
 }

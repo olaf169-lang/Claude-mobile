@@ -113,6 +113,7 @@ function pustyRekord(id) {
     setyNaStyk: 0, setyNaStykW: 0, bonusy: 0,
     setyKolejno: [],       // kolejność wygranych/przegranych setów — do serii
     partnerzy: {},          // id → saldo zdobyte grając w parze z tą osobą
+    przeciwnicy: {},        // id → saldo w meczach przeciw tej osobie (kto jest czyim pogromcą)
     historia: [],           // { data, saldo } — do wykresu formy
   };
 }
@@ -131,9 +132,9 @@ export function rekordyWieczoru(wieczor, wszyscy = false) {
     const r = wynikMeczu(mecz);
     if (!r.rozegrany) continue;
 
-    for (const [strona, moi, pkt, pktIch, setyMoje, setyIch, bonus] of [
-      ['a', mecz.a, r.pktA, r.pktB, r.setyA, r.setyB, r.bonusA],
-      ['b', mecz.b, r.pktB, r.pktA, r.setyB, r.setyA, r.bonusB],
+    for (const [strona, moi, ich, pkt, pktIch, setyMoje, setyIch, bonus] of [
+      ['a', mecz.a, mecz.b, r.pktA, r.pktB, r.setyA, r.setyB, r.bonusA],
+      ['b', mecz.b, mecz.a, r.pktB, r.pktA, r.setyB, r.setyA, r.bonusB],
     ]) {
       for (const id of moi) {
         if (!nasz(id)) continue;
@@ -153,6 +154,10 @@ export function rekordyWieczoru(wieczor, wszyscy = false) {
         // z partnerem" mówiłoby co innego niż saldo w klasyfikacji.
         for (const partner of moi) if (partner !== id) {
           s.partnerzy[partner] = (s.partnerzy[partner] ?? 0) + (pkt - pktIch) + bonus;
+        }
+        // Bilans przeciw każdemu, kto stał po drugiej stronie siatki.
+        for (const opp of ich) {
+          s.przeciwnicy[opp] = (s.przeciwnicy[opp] ?? 0) + (pkt - pktIch) + bonus;
         }
       }
     }
@@ -197,6 +202,9 @@ export function zbierz(wieczory, opcje = {}) {
       }
       for (const [partner, saldo] of Object.entries(dzien.partnerzy)) {
         s.partnerzy[partner] = (s.partnerzy[partner] ?? 0) + saldo;
+      }
+      for (const [opp, saldo] of Object.entries(dzien.przeciwnicy)) {
+        s.przeciwnicy[opp] = (s.przeciwnicy[opp] ?? 0) + saldo;
       }
       // Seria wygranych setów biegnie przez cały sezon, także między wtorkami.
       for (const wygrany of dzien.setyKolejno) {
@@ -262,4 +270,62 @@ export function mvpWieczoru(wieczor) {
   const remis = rek.filter((r) =>
     r.saldo === naj.saldo && (r.setyW - r.setyP) === (naj.setyW - naj.setyP) && r.zdobyte === naj.zdobyte);
   return { gracze: remis.map((r) => r.id), saldo: naj.saldo, rekord: naj };
+}
+
+/* ---------------------------------------------------------- rekordy sezonu */
+
+/** Kilka „fajnych" liczb, których nie widać w samej tabeli: najlepszy pojedynczy
+    wieczór, najdłuższa seria wygranych setów, najskuteczniejszy duet i największy
+    pogrom w jednym meczu. Wszystko wyprowadzone z tych samych danych, bez żadnego
+    dodatkowego wpisywania. Zwraca null-e, gdy nie ma jeszcze materiału. */
+export function rekordySezonu(wieczory) {
+  const grane = wieczory.filter((w) => !w.towarzyski && wieczorRozegrany(w));
+  if (!grane.length) return null;
+
+  // Najlepszy pojedynczy wieczór (najwyższe saldo dnia u stałego gracza).
+  let najlepszyWieczor = null;
+  for (const w of grane) {
+    for (const [id, r] of rekordyWieczoru(w)) {
+      if (r.mecze === 0) continue;
+      if (!najlepszyWieczor || r.saldo > najlepszyWieczor.saldo) {
+        najlepszyWieczor = { id, saldo: r.saldo, data: w.data };
+      }
+    }
+  }
+
+  // Największy pogrom w jednym meczu (największa różnica punktów).
+  let najwiekszyPogrom = null;
+  for (const w of grane) {
+    for (const mecz of mecze(w)) {
+      const r = wynikMeczu(mecz);
+      if (!r.rozegrany || r.werdykt === 'remis') continue;
+      const roznica = Math.abs(r.saldo);
+      if (!najwiekszyPogrom || roznica > najwiekszyPogrom.roznica) {
+        const wygrani = r.werdykt === 'a' ? mecz.a : mecz.b;
+        const przegrani = r.werdykt === 'a' ? mecz.b : mecz.a;
+        najwiekszyPogrom = { roznica, wygrani, przegrani, data: w.data };
+      }
+    }
+  }
+
+  // Sezonowe rekordy z sumy: najdłuższa seria i najlepszy duet.
+  const suma = zbierz(grane);
+  let najdluzszaSeria = null;
+  for (const [id, r] of suma) {
+    if (r.najdluzszaSeria > 0 && (!najdluzszaSeria || r.najdluzszaSeria > najdluzszaSeria.dlugosc)) {
+      najdluzszaSeria = { id, dlugosc: r.najdluzszaSeria };
+    }
+  }
+  let najlepszyDuet = null;
+  for (const [id, r] of suma) {
+    for (const [partner, saldo] of Object.entries(r.partnerzy)) {
+      // Para liczy się raz — bierzemy tylko id < partner, żeby nie dublować.
+      if (id >= partner) continue;
+      if (!najlepszyDuet || saldo > najlepszyDuet.saldo) {
+        najlepszyDuet = { para: [id, partner], saldo };
+      }
+    }
+  }
+
+  return { najlepszyWieczor, najwiekszyPogrom, najdluzszaSeria, najlepszyDuet };
 }

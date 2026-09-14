@@ -43,7 +43,7 @@
   --r-s: 12px;
   --r-xs: 8px;
 
-  --naglowkowy: "Outfit", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --naglowkowy: "Space Grotesk", "Outfit", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --zwykly:     "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --szerokosc:  38rem;
 }
@@ -202,11 +202,23 @@ main {
 /* ----------------------------------------------------------------- karty */
 
 .karta {
-  background: var(--plyta-pelna);
+  position: relative;
+  background:
+    linear-gradient(180deg, rgba(233, 240, 255, .035), transparent 46%),
+    var(--plyta-pelna);
   border: 1px solid var(--kreska);
   border-radius: var(--r);
   padding: 16px;
   box-shadow: var(--cien);
+}
+/* Cienka złota kreska u góry karty — dodaje głębi bez krzykliwości. */
+.karta::before {
+  content: '';
+  position: absolute;
+  inset: 0 14px auto;
+  height: 1px;
+  border-radius: 1px;
+  background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--zloto) 22%, transparent), transparent);
 }
 
 .karta-tytul {
@@ -397,16 +409,18 @@ main {
 .mecz-sety { display: flex; gap: 6px; flex: none; }
 
 .set {
-  width: 52px;
-  height: 48px;
+  width: 54px;
+  height: 52px;
   text-align: center;
-  border: 1px solid var(--kreska-mocna);
-  background: var(--plyta);
+  border: 1.5px solid var(--kreska-mocna);
+  background: var(--plyta-mocna);
   color: var(--tekst);
-  font: 700 19px/1 var(--naglowkowy);
+  font: 700 21px/1 var(--naglowkowy);
   border-radius: var(--r-s);
   -moz-appearance: textfield;
+  transition: border-color .12s ease, background .12s ease;
 }
+.set:focus { border-color: var(--zloto); background: var(--zloto-mgla); }
 .set::-webkit-outer-spin-button, .set::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
 
 .mecz-stopka {
@@ -739,13 +753,13 @@ main {
   color: var(--zloto);
 }
 .hero-nazwa {
-  margin: 6px 0 0;
-  font-size: clamp(32px, 11vw, 44px);
-  line-height: 1.02;
-  font-weight: 800;
-  letter-spacing: -.03em;
+  margin: 8px 0 0;
+  font-size: clamp(34px, 12vw, 48px);
+  line-height: 1.0;
+  font-weight: 700;
+  letter-spacing: -.02em;
 }
-.hero-pod { margin: 10px 0 0; color: var(--tekst-cichy); font-size: 14px; max-width: 30ch; }
+.hero-pod { margin: 12px 0 0; color: var(--tekst); font-size: 15px; line-height: 1.5; max-width: 34ch; opacity: .92; }
 .hero-akcje { display: flex; gap: 9px; margin-top: 16px; flex-wrap: wrap; }
 .hero-termin { margin: 12px 0 0; font-size: 13px; color: var(--tekst-cichy); }
 
@@ -834,3 +848,47 @@ main {
 @media (prefers-reduced-motion: reduce) {
   * { transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
+
+
+/* ---- drobne podpowiedzi pod polem ---- */
+.pole-hint { font-size: 11px; color: var(--tekst-ledwie); margin-top: 1px; }
+
+/* ---- plakietka „na żywo" przy Big Bossie ---- */
+.plakietka-live {
+  margin-left: auto;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--zielen);
+  background: color-mix(in srgb, var(--zielen) 15%, transparent);
+  border: 1px solid color-mix(in srgb, var(--zielen) 40%, transparent);
+  padding: 3px 8px;
+  border-radius: 999px;
+}
+
+/* ---- pusty wykres ELO (przed pierwszym wtorkiem) ---- */
+.pusty-wykres {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  gap: 6px;
+  padding: 20px 10px 8px;
+}
+.pusty-wykres-ikona { font-size: 30px; opacity: .8; }
+.pusty-wykres p { margin: 0; font-size: 14px; max-width: 34ch; line-height: 1.5; }
+
+/* ---- rekordy sezonu ---- */
+.rekordy { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.rekordy li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 11px 12px;
+  background: var(--plyta);
+  border-radius: var(--r-s);
+}
+.rekord-ikona { font-size: 20px; flex: none; }
+.rekord-tresc { display: grid; gap: 2px; min-width: 0; }
+.rekord-tresc b { font-family: var(--naglowkowy); font-size: 13.5px; }
+.rekord-tresc em { font-style: normal; font-size: 12px; color: var(--tekst-cichy); line-height: 1.4; }

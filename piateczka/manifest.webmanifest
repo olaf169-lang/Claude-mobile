@@ -1,7 +1,7 @@
 {
   "name": "Turniej Pana Piąteczki",
   "short_name": "Piąteczka",
-  "description": "Badmintonowa liga wtorkowa czterech graczy — tabela, ELO, MVP i Big Boss.",
+  "description": "Wtorkowa liga badmintona: tabela, forma, tytuły i Puchar Pana Piąteczki.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
