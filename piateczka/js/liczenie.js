@@ -111,6 +111,8 @@ function pustyRekord(id) {
     setyW: 0, setyP: 0, meczeW: 0, meczeP: 0, meczeR: 0, mecze: 0,
     wieczory: 0, seria: 0, najdluzszaSeria: 0,
     setyNaStyk: 0, setyNaStykW: 0, bonusy: 0,
+    setyPrzewagaW: 0,       // sety wygrane na przewagi (własny wynik > 15, np. 18:15)
+    setyMiazga: 0,          // sety wygrane różnicą co najmniej 11 (miazga)
     setyKolejno: [],       // kolejność wygranych/przegranych setów — do serii
     partnerzy: {},          // id → saldo zdobyte grając w parze z tą osobą
     przeciwnicy: {},        // id → saldo w meczach przeciw tej osobie (kto jest czyim pogromcą)
@@ -170,6 +172,10 @@ export function rekordyWieczoru(wieczor, wszyscy = false) {
           if (!nasz(id)) continue;
           const s = daj(id);
           if (styk) { s.setyNaStyk += 1; if (mojePkt > ichPkt) s.setyNaStykW += 1; }
+          if (mojePkt > ichPkt) {
+            if (mojePkt > 15) s.setyPrzewagaW += 1;          // wygrany po dogrywce 15:15
+            if (mojePkt - ichPkt >= 11) s.setyMiazga += 1;   // set rozjechany
+          }
           s.setyKolejno.push(mojePkt > ichPkt);
         }
       }
@@ -197,7 +203,8 @@ export function zbierz(wieczory, opcje = {}) {
       if (dzien.mecze === 0) continue;
       const s = daj(id);
       for (const pole of ['saldo', 'zdobyte', 'stracone', 'setyW', 'setyP',
-        'meczeW', 'meczeP', 'meczeR', 'mecze', 'setyNaStyk', 'setyNaStykW', 'bonusy']) {
+        'meczeW', 'meczeP', 'meczeR', 'mecze', 'setyNaStyk', 'setyNaStykW', 'bonusy',
+        'setyPrzewagaW', 'setyMiazga']) {
         s[pole] += dzien[pole];
       }
       for (const [partner, saldo] of Object.entries(dzien.partnerzy)) {

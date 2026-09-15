@@ -1,8 +1,8 @@
 /* ==========================================================================
-   Tytuły: MVP dnia i Big Boss miesiąca wraz z przydomkiem.
+   Tytuły: MVP dnia i Gracz Miesiąca wraz z przydomkiem.
 
    MVP — najlepsze saldo wieczoru. Znika w następny wtorek.
-   Big Boss — najlepsze saldo miesiąca. Nosi tytuł, dopóki ktoś go nie zdejmie,
+   Gracz Miesiąca — najlepsze saldo miesiąca. Nosi tytuł, dopóki ktoś go nie zdejmie,
    a razem z tytułem dostaje PRZYDOMEK opisujący, CZYM ten miesiąc wygrał.
    Przydomek nie jest losowy: appka sprawdza warunki po kolei i bierze
    pierwszy pasujący, od najrzadszego do najzwyklejszego.
@@ -87,9 +87,9 @@ export const PRZYDOMKI = [
   },
   {
     id: 'boss',
-    nazwa: 'Big Boss',
-    haslo: 'Po prostu najlepszy',
-    opis: 'Wygrałeś okres bez żadnej spektakularnej statystyki obok. Sam tytuł też jest niezły.',
+    nazwa: 'Kozak',
+    haslo: 'Po prostu równy chłop',
+    opis: 'Wygrałeś miesiąc bez jednej statystyki, która by biła po oczach — po prostu klasa równa i pełna. Papier mistrza broni się sam.',
     warunek: () => true,
   },
 ];
@@ -124,7 +124,7 @@ export function godlo(id, { rozmiar = 56, klasa = '' } = {}) {
 
 /* --------------------------------------------------------- okresy i tytuł */
 
-/** Dzieli sezon na okresy Big Bossa: zwykle kalendarzowy miesiąc, ale miesiąc
+/** Dzieli sezon na okresy Gracza Miesiąca: zwykle kalendarzowy miesiąc, ale miesiąc
     z jednym wieczorem dokleja się do następnego. */
 export function okresy(wieczory) {
   const grane = wieczory
@@ -138,7 +138,7 @@ export function okresy(wieczory) {
     const nastepny = grane[i + 1];
     const koniecMiesiaca = !nastepny || nastepny.data.slice(0, 7) !== w.data.slice(0, 7);
     if (koniecMiesiaca && bufor.length >= MIN_WIECZOROW_NA_TYTUL) {
-      // Miesiąc, który jeszcze trwa, ma dopiero prowadzącego, nie Big Bossa.
+      // Miesiąc, który jeszcze trwa, ma dopiero prowadzącego, nie Gracza Miesiąca.
       wynik.push({ wieczory: bufor, otwarty: w.data.slice(0, 7) >= dzisiajIso().slice(0, 7) });
       bufor = [];
     }
@@ -174,9 +174,9 @@ export function okresy(wieczory) {
   });
 }
 
-/** Aktualny Big Boss — z ostatniego ZAMKNIĘTEGO okresu. Dopóki bieżący
+/** Aktualny Gracz Miesiąca — z ostatniego ZAMKNIĘTEGO okresu. Dopóki bieżący
     miesiąc trwa, tytuł nosi zwycięzca poprzedniego. */
-export function bigBoss(wieczory) {
+export function graczMiesiaca(wieczory) {
   const lista = okresy(wieczory);
   const zamkniete = lista.filter((o) => !o.otwarty && o.zwyciezca);
   const aktualny = zamkniete.at(-1) ?? null;

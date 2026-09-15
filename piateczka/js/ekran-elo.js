@@ -6,7 +6,7 @@
    ========================================================================== */
 
 import { GRACZE, gracz, krotkaData } from './dane.js';
-import { ranking, przelicz, szanse, START } from './elo.js';
+import { ranking, przelicz, szanse, poziomFormy, START } from './elo.js';
 import { naglowekZPomoca } from './pomoc.js';
 import { zeZnakiem, klasaSalda } from './ui.js';
 import { linie, podepnijKrzyzyk, kolorGracza } from './wykresy.js';
@@ -38,7 +38,10 @@ export function render(kontener, ctx) {
         ${lista.map((r) => `<li class="wiersz">
           <span class="miejsce">${r.miejsce}</span>
           <span class="kropka-serii" style="background:${kolorGracza(r.id)}" aria-hidden="true"></span>
-          <span class="wiersz-glowna"><span class="wiersz-imie">${gracz(r.id).imie}</span></span>
+          <span class="wiersz-glowna">
+            <span class="wiersz-imie">${gracz(r.id).imie}</span>
+            <span class="poziom-formy" title="Poziom formy wg ELO">${poziomFormy(r.dokladny).emoji} ${poziomFormy(r.dokladny).nazwa}</span>
+          </span>
           <span class="wiersz-zmiana ${klasaSalda(r.zmiana)}">${r.zmiana ? zeZnakiem(r.zmiana) : '—'}</span>
           <span class="wiersz-saldo">${r.rating}</span>
         </li>`).join('')}

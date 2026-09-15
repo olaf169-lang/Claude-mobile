@@ -7,7 +7,7 @@
 
 import { poPolsku, krotkaData, gracz, GOSC } from './dane.js';
 import { rekordyWieczoru, mvpWieczoru, wynikMeczu, wieczorRozegrany, mecze } from './liczenie.js';
-import { bigBoss } from './tytuly.js';
+import { graczMiesiaca } from './tytuly.js';
 import { zeZnakiem, klasaSalda, bez } from './ui.js';
 import { pochwalSie } from './pochwal.js';
 
@@ -33,7 +33,7 @@ export function render(kontener, ctx) {
   const rek = [...rekordyWieczoru(wieczor, true).values()]
     .filter((r) => r.mecze > 0).sort((a, b) => b.saldo - a.saldo);
   const mvp = mvpWieczoru(wieczor);
-  const { aktualny, wToku } = bigBoss(ctx.wieczory);
+  const { aktualny, wToku } = graczMiesiaca(ctx.wieczory);
   const boss = aktualny ?? (wToku?.zwyciezca ? wToku : null);
 
   kontener.innerHTML = `
@@ -62,7 +62,7 @@ export function render(kontener, ctx) {
         ${mecze(wieczor).map((m) => wierszMeczu(m, wieczor)).join('')}
       </div>
 
-      ${boss && !wieczor.towarzyski ? `<p class="laurka-boss">👑 Big Boss${aktualny ? '' : ' (prowadzi)'}:
+      ${boss && !wieczor.towarzyski ? `<p class="laurka-boss">👑 Gracz Miesiąca${aktualny ? '' : ' (prowadzi)'}:
         <b>${imie(wieczor, boss.zwyciezca.id)}</b> „${boss.przydomek.nazwa}"</p>` : ''}
     </section>
 

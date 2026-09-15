@@ -71,6 +71,23 @@ export function przelicz(wieczory) {
   return { rating, historia, zmiany };
 }
 
+/* --------------------------------------------------------- poziom formy */
+
+/* Żartobliwa etykieta przy ratingu — im wyższe ELO, tym wyżej w drabince.
+   Na starcie wszyscy stoją na 1000, czyli „Drewno": każdy jest drewnem,
+   dopóki nie udowodni inaczej. Progi liczone względem 1000. */
+export const POZIOMY_FORMY = [
+  { prog: 1075, emoji: '👑', nazwa: 'Legenda' },
+  { prog: 1035, emoji: '🤖', nazwa: 'Maszyna' },
+  { prog: 1005, emoji: '🔥', nazwa: 'Rozgrzany' },
+  { prog: 965,  emoji: '🪵', nazwa: 'Drewno' },
+  { prog: -Infinity, emoji: '🫠', nazwa: 'Pierdoła' },
+];
+
+export function poziomFormy(rating) {
+  return POZIOMY_FORMY.find((p) => rating >= p.prog);
+}
+
 /** Lista do wyświetlenia: posortowana, z zaokrągleniem i trendem. */
 export function ranking(wieczory) {
   const { rating, historia, zmiany } = przelicz(wieczory);

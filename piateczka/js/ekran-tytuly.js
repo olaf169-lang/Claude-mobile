@@ -1,18 +1,18 @@
 /* ==========================================================================
-   Ekran „Tytuły” — MVP, Big Boss, katalog przydomków i Puchar.
+   Ekran „Tytuły” — MVP, Gracz Miesiąca, katalog przydomków i Puchar.
 
    Katalog na dole jest jednocześnie instrukcją: każdy przydomek ma godło,
    hasło i dokładny warunek, jaki trzeba spełnić, żeby go dostać.
    ========================================================================== */
 
 import { gracz, poPolsku, krotkaData, SEZON } from './dane.js';
-import { bigBoss, historiaMvp, PRZYDOMKI, godlo } from './tytuly.js';
+import { graczMiesiaca, historiaMvp, PRZYDOMKI, godlo } from './tytuly.js';
 import { rekordySezonu } from './liczenie.js';
 import { naglowekZPomoca, dymek } from './pomoc.js';
 import { zeZnakiem, arkusz, bez } from './ui.js';
 
 export function render(kontener, ctx) {
-  const { aktualny, wToku, wszystkie } = bigBoss(ctx.wieczory);
+  const { aktualny, wToku, wszystkie } = graczMiesiaca(ctx.wieczory);
   const mvpy = historiaMvp(ctx.wieczory);
 
   kontener.innerHTML = `
@@ -32,7 +32,7 @@ export function render(kontener, ctx) {
     el.addEventListener('click', () => opisPrzydomka(el.dataset.przydomek)));
 }
 
-/* ---------------------------------------------------------- Big Boss */
+/* ------------------------------------------------------- Gracz Miesiąca */
 
 function kartaBigBossa(aktualny, wToku) {
   // Po jednym wtorku ktoś już prowadzi i od razu dostaje odznakę. Różnica jest
@@ -40,14 +40,14 @@ function kartaBigBossa(aktualny, wToku) {
   const okres = aktualny ?? (wToku?.zwyciezca ? wToku : null);
   if (!okres) {
     return `<section class="karta karta-boss pusta">
-      ${naglowekZPomoca('Big Boss', 'bigboss')}
-      <p class="pusto">Pierwszy Big Boss zostanie koronowany, gdy tylko rozegracie pierwszy wtorek.</p>
+      ${naglowekZPomoca('Gracz Miesiąca', 'bigboss')}
+      <p class="pusto">Pierwszy Gracz Miesiąca zostanie koronowany, gdy tylko rozegracie pierwszy wtorek.</p>
     </section>`;
   }
   const biezacy = !aktualny;
   const p = okres.przydomek;
   return `<section class="karta karta-boss">
-    ${naglowekZPomoca('Big Boss', 'bigboss', { dodatek: biezacy
+    ${naglowekZPomoca('Gracz Miesiąca', 'bigboss', { dodatek: biezacy
       ? '<span class="plakietka-live">na żywo</span>' : '' })}
     <div class="boss-tresc">
       <div class="boss-godlo">${godlo(p.id, { rozmiar: 84 })}</div>
@@ -114,7 +114,7 @@ function kartaHistorii(okresy) {
   const zamkniete = okresy.filter((o) => o.zwyciezca);
   if (!zamkniete.length) return '';
   return `<section class="karta">
-    <h2 class="karta-tytul">Galeria Big Bossów</h2>
+    <h2 class="karta-tytul">Galeria Graczy Miesiąca</h2>
     <ul class="lista-bossow">
       ${zamkniete.slice().reverse().map((o) => `<li>
         <span class="mini-godlo">${godlo(o.przydomek.id, { rozmiar: 34 })}</span>
@@ -165,6 +165,6 @@ function opisPrzydomka(id) {
     tresc: `<div class="arkusz-godlo">${godlo(p.id, { rozmiar: 96 })}</div>
       <p class="arkusz-haslo">${p.haslo}</p>
       <p>${p.opis}</p>
-      <p class="pomoc-nota">Przydomek nosi Big Boss danego okresu — do chwili, gdy ktoś zdejmie mu tytuł.</p>`,
+      <p class="pomoc-nota">Przydomek nosi Gracz Miesiąca danego okresu — do chwili, gdy ktoś zdejmie mu tytuł.</p>`,
   });
 }

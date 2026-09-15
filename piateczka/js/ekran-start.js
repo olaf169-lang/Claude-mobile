@@ -4,7 +4,7 @@
 
 import { GRACZE, gracz, SEZON, poPolsku, najblizszyWtorek, dzisiajIso, krotkaData } from './dane.js';
 import { klasyfikacja, wieczorRozegrany, mvpWieczoru } from './liczenie.js';
-import { bigBoss, godlo } from './tytuly.js';
+import { graczMiesiaca, godlo } from './tytuly.js';
 import { naglowekZPomoca, dymek } from './pomoc.js';
 import { zeZnakiem, klasaSalda, bez } from './ui.js';
 import { kolorGracza } from './wykresy.js';
@@ -12,7 +12,7 @@ import { kolorGracza } from './wykresy.js';
 const KAFELKI = [
   { href: '#/tabela',    ikona: '📊', nazwa: 'Tabela',    opis: 'Kto prowadzi w lidze' },
   { href: '#/elo',       ikona: '🏸', nazwa: 'ELO',       opis: 'Twoja forma i siła gry' },
-  { href: '#/tytuly',    ikona: '🏆', nazwa: 'Tytuły',    opis: 'MVP, Big Boss i Puchar' },
+  { href: '#/tytuly',    ikona: '🏆', nazwa: 'Tytuły',    opis: 'MVP, Gracz Miesiąca, Puchar' },
   { href: '#/kalendarz', ikona: '📅', nazwa: 'Kalendarz', opis: 'Terminy i wyniki' },
   { href: '#/zasady',    ikona: '📖', nazwa: 'Zasady',    opis: 'Jak to działa' },
 ];
@@ -23,7 +23,7 @@ export function render(kontener, ctx) {
     .sort((a, b) => b.data.localeCompare(a.data))[0] ?? null;
   const mvp = ostatni ? mvpWieczoru(ostatni) : null;
   const tabela = klasyfikacja(ctx.wieczory.filter((w) => !w.towarzyski));
-  const { aktualny, wToku } = bigBoss(ctx.wieczory);
+  const { aktualny, wToku } = graczMiesiaca(ctx.wieczory);
   const boss = aktualny ?? (wToku?.zwyciezca ? wToku : null);
   const dzis = dzisiajIso();
   const nastepny = najblizszyWtorek();
@@ -85,7 +85,7 @@ function kartaBossa(okres, biezacy) {
   return `<section class="karta karta-boss-mini">
     <div class="boss-godlo">${godlo(okres.przydomek.id, { rozmiar: 58 })}</div>
     <div class="boss-opis">
-      <span class="plakietka-etykieta">Big Boss${biezacy ? ' — na żywo' : ''} ${dymek('bigboss')}</span>
+      <span class="plakietka-etykieta">Gracz Miesiąca${biezacy ? ' — na żywo' : ''} ${dymek('bigboss')}</span>
       <strong>${gracz(okres.zwyciezca.id).imie} „${okres.przydomek.nazwa}”</strong>
       <span class="cichy">${biezacy ? 'prowadzi · ' : ''}${okres.nazwa} · ${zeZnakiem(okres.zwyciezca.saldo)}</span>
     </div>
