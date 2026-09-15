@@ -8,6 +8,7 @@ import { graczMiesiaca, godlo } from './tytuly.js';
 import { naglowekZPomoca, dymek } from './pomoc.js';
 import { bez } from './ui.js';
 import { kolorGracza } from './wykresy.js';
+import { zapros } from './pochwal.js';
 
 const KAFELKI = [
   { href: '#/tabela',    ikona: '📊', nazwa: 'Tabela',    opis: 'Debel i singiel osobno' },
@@ -52,6 +53,14 @@ export function render(kontener, ctx) {
         <b>${k.nazwa}</b><em>${k.opis}</em></a>`).join('')}
     </nav>
 
+    <section class="karta karta-zapros">
+      <div class="zapros-tresc">
+        <b>Ktoś jeszcze nie ma appki?</b>
+        <span class="cichy">Wyślij mu link — otwiera się w przeglądarce, nic się nie instaluje.</span>
+      </div>
+      <button class="btn btn-obrys" type="button" id="wyslij-link">🔗 Wyślij link</button>
+    </section>
+
     <section class="karta karta-ja">
       <h2 class="karta-tytul">Kim jesteś? ${dymek('ktowpisuje')}</h2>
       <div class="chipy">
@@ -63,6 +72,8 @@ export function render(kontener, ctx) {
 
   kontener.querySelectorAll('[data-ja]').forEach((el) =>
     el.addEventListener('click', () => ctx.ustawJa(el.dataset.ja)));
+
+  kontener.querySelector('#wyslij-link')?.addEventListener('click', () => zapros());
 }
 
 function kartaCzworki(pelna, ja) {
