@@ -1374,3 +1374,27 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
   .tryb-przycisk { font-size: 14px; }
 }
 .chip:disabled { opacity: .45; cursor: not-allowed; }
+
+/* Zaproszenie do aplikacji — jeden przycisk na ekranie startowym. */
+.karta-zapros {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.zapros-tresc { min-width: 12rem; flex: 1; }
+.zapros-tresc b { display: block; font-family: var(--naglowkowy); }
+.zapros-tresc span { font-size: 13px; }
+.karta-zapros .btn { flex: 0 0 auto; }
+
+.pole-link {
+  width: 100%;
+  margin-top: 8px;
+  padding: 11px 12px;
+  border: 1px solid var(--kreska-mocna);
+  border-radius: var(--r-s);
+  background: var(--plyta);
+  color: var(--tekst);
+  font: 400 14px/1.4 var(--zwykly);
+}

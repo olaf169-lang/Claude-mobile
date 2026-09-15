@@ -3,7 +3,17 @@
 Badmintonowa liga wtorkowa dla czterech osób. Gramy deble, ale **punkty liczą się
 osobno każdemu** — i o to była cała trudność.
 
-Adres: **[/Claude-mobile/piateczka/](https://olaf169-lang.github.io/Claude-mobile/piateczka/)**
+## Adres do rozesłania
+
+```
+https://olaf169-lang.github.io/Claude-mobile/piateczka/
+```
+
+To pełny link do wysłania na grupę — otwiera się w każdej przeglądarce, bez logowania
+i bez instalowania. Na telefonie warto raz dać **„Dodaj do ekranu głównego”** (Android:
+menu ⋮ → *Dodaj do ekranu głównego*; iPhone: przycisk udostępniania → *Do ekranu
+początkowego*) — wtedy zachowuje się jak zwykła aplikacja i działa nawet bez zasięgu
+w hali.
 
 | | |
 |---|---|
