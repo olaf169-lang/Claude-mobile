@@ -21,6 +21,17 @@ export function klasaSalda(n) {
   return n > 0 ? 'plus' : n < 0 ? 'minus' : 'zero';
 }
 
+/** Polska odmiana przez liczbę: 1 mecz, 2 mecze, 5 meczów. */
+export function odmiana(n, poj, malo, duzo) {
+  const d = n % 10, s = n % 100;
+  if (n === 1) return poj;
+  return (d >= 2 && d <= 4 && !(s >= 12 && s <= 14)) ? malo : duzo;
+}
+
+export const odmianaWygranych = (n) => odmiana(n, 'wygrana', 'wygrane', 'wygranych');
+export const odmianaMeczow = (n) => odmiana(n, 'mecz', 'mecze', 'meczów');
+export const odmianaWieczorow = (n) => odmiana(n, 'wieczór', 'wieczory', 'wieczorów');
+
 /* ---------------------------------------------------------------- arkusz */
 
 let arkuszEl = null;
@@ -46,7 +57,8 @@ export function arkusz({ tytul, tresc, stopka = '' }) {
   });
   document.addEventListener('keydown', naEscape);
   arkuszEl.querySelector('[data-zamknij]')?.focus();
-  return zamknijArkusz;
+  const el = arkuszEl;
+  return { el, zamknij: zamknijArkusz };
 }
 
 function naEscape(e) { if (e.key === 'Escape') zamknijArkusz(); }
@@ -86,6 +98,53 @@ export function potwierdz(tytul, tresc, etykietaTak = 'Tak, usuń') {
     el.addEventListener('click', (e) => {
       if (e.target === el || e.target.closest('[data-nie]')) koniec(false);
       if (e.target.closest('[data-tak]')) koniec(true);
+    });
+  });
+}
+
+/** Arkusz z jednym polem — imię dopisanej osoby, kod administratora.
+    Zwraca wpisany tekst albo null, gdy ktoś się rozmyślił. */
+export function zapytaj({ tytul, opis = '', etykieta, wartosc = '', placeholder = '',
+  typ = 'text', ok = 'Zapisz' }) {
+  return new Promise((gotowe) => {
+    zamknijArkusz();
+    const el = document.createElement('div');
+    el.className = 'arkusz-tlo';
+    el.innerHTML = `
+      <div class="arkusz" role="dialog" aria-modal="true">
+        <div class="arkusz-uchwyt" aria-hidden="true"></div>
+        <h3 class="arkusz-tytul">${bez(tytul)}</h3>
+        <div class="arkusz-tresc">
+          ${opis ? `<p>${opis}</p>` : ''}
+          <label class="pole">
+            <span>${bez(etykieta)}</span>
+            <input type="${typ}" id="arkusz-pole" value="${bez(wartosc)}"
+              placeholder="${bez(placeholder)}" autocomplete="off" maxlength="24">
+          </label>
+        </div>
+        <div class="arkusz-stopka dwa">
+          <button class="btn" type="button" data-nie>Anuluj</button>
+          <button class="btn btn-glowny" type="button" data-tak>${bez(ok)}</button>
+        </div>
+      </div>`;
+    document.body.appendChild(el);
+    requestAnimationFrame(() => {
+      el.classList.add('widoczny');
+      el.querySelector('#arkusz-pole')?.focus();
+    });
+    const koniec = (odp) => {
+      el.classList.remove('widoczny');
+      setTimeout(() => el.remove(), 220);
+      gotowe(odp);
+    };
+    const zatwierdz = () => {
+      const v = el.querySelector('#arkusz-pole')?.value.trim() ?? '';
+      koniec(v || null);
+    };
+    el.addEventListener('keydown', (e) => { if (e.key === 'Enter') zatwierdz(); });
+    el.addEventListener('click', (e) => {
+      if (e.target === el || e.target.closest('[data-nie]')) koniec(null);
+      if (e.target.closest('[data-tak]')) zatwierdz();
     });
   });
 }

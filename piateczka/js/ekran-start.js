@@ -6,12 +6,12 @@ import { GRACZE, gracz, SEZON, poPolsku, najblizszyWtorek, dzisiajIso, krotkaDat
 import { klasyfikacja, wieczorRozegrany, mvpWieczoru } from './liczenie.js';
 import { graczMiesiaca, godlo } from './tytuly.js';
 import { naglowekZPomoca, dymek } from './pomoc.js';
-import { zeZnakiem, klasaSalda, bez } from './ui.js';
+import { bez } from './ui.js';
 import { kolorGracza } from './wykresy.js';
 
 const KAFELKI = [
-  { href: '#/tabela',    ikona: '📊', nazwa: 'Tabela',    opis: 'Kto prowadzi w lidze' },
-  { href: '#/elo',       ikona: '🏸', nazwa: 'ELO',       opis: 'Twoja forma i siła gry' },
+  { href: '#/tabela',    ikona: '📊', nazwa: 'Tabela',    opis: 'Debel i singiel osobno' },
+  { href: '#/elo',       ikona: '🏸', nazwa: 'ELO',       opis: 'Forma i seria zwycięstw' },
   { href: '#/tytuly',    ikona: '🏆', nazwa: 'Tytuły',    opis: 'MVP, Gracz Miesiąca, Puchar' },
   { href: '#/kalendarz', ikona: '📅', nazwa: 'Kalendarz', opis: 'Terminy i wyniki' },
   { href: '#/zasady',    ikona: '📖', nazwa: 'Zasady',    opis: 'Jak to działa' },
@@ -22,7 +22,7 @@ export function render(kontener, ctx) {
   const ostatni = rozegrane.filter((w) => !w.towarzyski)
     .sort((a, b) => b.data.localeCompare(a.data))[0] ?? null;
   const mvp = ostatni ? mvpWieczoru(ostatni) : null;
-  const tabela = klasyfikacja(ctx.wieczory.filter((w) => !w.towarzyski));
+  const tabela = klasyfikacja(ctx.wieczory.filter((w) => !w.towarzyski), { tryb: 'debel' });
   const { aktualny, wToku } = graczMiesiaca(ctx.wieczory);
   const boss = aktualny ?? (wToku?.zwyciezca ? wToku : null);
   const dzis = dzisiajIso();
@@ -65,16 +65,17 @@ export function render(kontener, ctx) {
     el.addEventListener('click', () => ctx.ustawJa(el.dataset.ja)));
 }
 
-function kartaCzworki(tabela, ja) {
-  const cokolwiek = tabela.some((r) => r.mecze > 0);
+function kartaCzworki(pelna, ja) {
+  const tabela = pelna.filter((r) => r.mecze > 0);
+  const cokolwiek = tabela.length > 0;
   return `<section class="karta">
-    ${naglowekZPomoca('Klasyfikacja', 'saldo', { dodatek: '<a class="naglowek-link" href="#/tabela">pełna tabela</a>' })}
+    ${naglowekZPomoca('Tabela debla', 'punktacja', { dodatek: '<a class="naglowek-link" href="#/tabela">pełna tabela</a>' })}
     ${cokolwiek ? `<ol class="tabela tabela-skrot">
       ${tabela.map((r) => `<li class="wiersz ${r.id === ja ? 'to-ja' : ''} podium-${r.miejsce <= 3 ? r.miejsce : 'x'}">
         <span class="miejsce">${r.miejsce}</span>
         <span class="kropka-serii" style="background:${kolorGracza(r.id)}" aria-hidden="true"></span>
         <span class="wiersz-glowna"><span class="wiersz-imie">${gracz(r.id).imie}</span></span>
-        <span class="wiersz-saldo ${klasaSalda(r.saldo)}">${zeZnakiem(r.saldo)}</span>
+        <span class="wiersz-wygrane"><b>${r.meczeW}</b><em>W</em></span>
       </li>`).join('')}
     </ol>` : `<p class="pusto">Sezon jeszcze się nie zaczął. Pierwszy wynik wpiszecie na ekranie
       <a href="#/wieczor">Wieczór</a>.</p>`}
@@ -83,11 +84,11 @@ function kartaCzworki(tabela, ja) {
 
 function kartaBossa(okres, biezacy) {
   return `<section class="karta karta-boss-mini">
-    <div class="boss-godlo">${godlo(okres.przydomek.id, { rozmiar: 58, reign: true })}</div>
+    <div class="boss-godlo">${godlo(okres.przydomek?.id ?? null, { rozmiar: 58, reign: true })}</div>
     <div class="boss-opis">
       <span class="plakietka-etykieta">Gracz Miesiąca${biezacy ? ' — na żywo' : ''} ${dymek('bigboss')}</span>
-      <strong>${gracz(okres.zwyciezca.id).imie} „${okres.przydomek.nazwa}”</strong>
-      <span class="cichy">${biezacy ? 'prowadzi · ' : ''}${okres.nazwa} · ${zeZnakiem(okres.zwyciezca.saldo)}</span>
+      <strong>${gracz(okres.zwyciezca.id).imie}${okres.przydomek ? ` „${bez(okres.przydomek.nazwa)}”` : ''}</strong>
+      <span class="cichy">${biezacy ? 'prowadzi · ' : ''}${okres.nazwa} · ${okres.zwyciezca.meczeW} W</span>
     </div>
     <a class="naglowek-link" href="#/tytuly">więcej</a>
   </section>`;
@@ -98,7 +99,7 @@ function kartaMvp(wieczor, mvp) {
     <div class="boss-opis">
       <span class="plakietka-etykieta">MVP ${krotkaData(wieczor.data)} ${dymek('mvp')}</span>
       <strong>${mvp.gracze.map((i) => bez(gracz(i).imie)).join(' i ')}</strong>
-      <span class="cichy">saldo ${zeZnakiem(mvp.saldo)}</span>
+      <span class="cichy">${mvp.wygrane} wygrane mecze</span>
     </div>
     <a class="naglowek-link" href="#/wieczor">wieczór</a>
   </section>`;

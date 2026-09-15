@@ -5,15 +5,14 @@
    Read-only, ładne, do zrzutu ekranu albo dalszego podania dalej.
    ========================================================================== */
 
-import { poPolsku, krotkaData, gracz, GOSC } from './dane.js';
-import { rekordyWieczoru, mvpWieczoru, wynikMeczu, wieczorRozegrany, mecze } from './liczenie.js';
+import { poPolsku, krotkaData, imieW, czyGosc } from './dane.js';
+import { rekordyWieczoru, mvpWieczoru, wynikMeczu, wieczorRozegrany, mecze,
+  trybMeczu } from './liczenie.js';
 import { graczMiesiaca } from './tytuly.js';
-import { zeZnakiem, klasaSalda, bez } from './ui.js';
+import { bez } from './ui.js';
 import { pochwalSie } from './pochwal.js';
 
-function imie(wieczor, id) {
-  return id === GOSC.id ? bez(wieczor.goscImie || 'Gość') : bez(gracz(id).imie);
-}
+const imie = (wieczor, id) => bez(imieW(wieczor, id));
 
 export function render(kontener, ctx) {
   const data = ctx.kotwica;
@@ -30,8 +29,9 @@ export function render(kontener, ctx) {
     return;
   }
 
-  const rek = [...rekordyWieczoru(wieczor, true).values()]
-    .filter((r) => r.mecze > 0).sort((a, b) => b.saldo - a.saldo);
+  const rek = [...rekordyWieczoru(wieczor, { wszyscy: true }).values()]
+    .filter((r) => r.mecze > 0)
+    .sort((a, b) => b.meczeW - a.meczeW || b.setyW - a.setyW || b.zdobyte - a.zdobyte);
   const mvp = mvpWieczoru(wieczor);
   const { aktualny, wToku } = graczMiesiaca(ctx.wieczory);
   const boss = aktualny ?? (wToku?.zwyciezca ? wToku : null);
@@ -46,15 +46,15 @@ export function render(kontener, ctx) {
       ${mvp && !wieczor.towarzyski ? `<div class="laurka-mvp">
         <span class="plakietka-etykieta">MVP wieczoru</span>
         <strong>${mvp.gracze.map((i) => imie(wieczor, i)).join(' i ')}</strong>
-        <span class="saldo plus">${zeZnakiem(mvp.saldo)}</span>
+        <span class="mvp-liczba">${mvp.wygrane} W</span>
       </div>` : ''}
 
       <ol class="laurka-tabela">
         ${rek.map((r, i) => `<li class="${mvp?.gracze.includes(r.id) ? 'mvp' : ''}">
           <span class="laurka-miejsce">${i + 1}</span>
-          <span class="laurka-kto">${imie(wieczor, r.id)}${r.id === GOSC.id ? '<em class="cichy"> (gość)</em>' : ''}
-            <em class="laurka-detal">${r.meczeW}W ${r.meczeP}P · sety ${r.setyW}:${r.setyP}</em></span>
-          <span class="lista-saldo ${klasaSalda(r.saldo)}">${zeZnakiem(r.saldo)}</span>
+          <span class="laurka-kto">${imie(wieczor, r.id)}${czyGosc(r.id) ? '<em class="cichy"> (gość)</em>' : ''}
+            <em class="laurka-detal">sety ${r.setyW}:${r.setyP} · ${r.zdobyte} pkt</em></span>
+          <span class="lista-wygrane"><b>${r.meczeW}</b><em>W</em></span>
         </li>`).join('')}
       </ol>
 
@@ -63,7 +63,7 @@ export function render(kontener, ctx) {
       </div>
 
       ${boss && !wieczor.towarzyski ? `<p class="laurka-boss">👑 Gracz Miesiąca${aktualny ? '' : ' (prowadzi)'}:
-        <b>${imie(wieczor, boss.zwyciezca.id)}</b> „${boss.przydomek.nazwa}"</p>` : ''}
+        <b>${imie(wieczor, boss.zwyciezca.id)}</b>${boss.przydomek ? ` „${bez(boss.przydomek.nazwa)}”` : ''}</p>` : ''}
     </section>
 
     <button class="btn btn-glowny szeroki" type="button" id="pochwal">📣 Pochwal się na grupie</button>
@@ -83,7 +83,7 @@ function wierszMeczu(mecz, wieczor) {
   const wa = r.werdykt === 'a';
   return `<div class="laurka-mecz">
     <span class="${wa ? 'wygrany' : ''}">${paraA}</span>
-    <b>${r.setyA}:${r.setyB}</b>
+    <b>${r.setyA}:${r.setyB}<i class="laurka-tryb">${trybMeczu(mecz) === 'singiel' ? 'S' : 'D'}</i></b>
     <span class="${r.werdykt === 'b' ? 'wygrany' : ''}">${paraB}</span>
   </div>`;
 }

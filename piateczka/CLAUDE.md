@@ -30,24 +30,26 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
 
 ## Zasady, które nie są przypadkowe
 
-- **Format: do dwóch wygranych setów, sety do 15, przy 15:15 na przewagę
-  dwóch punktów** (17:15, 21:19, bez górnego limitu) — decyzja użytkownika
-  (2026-09-13), podjęta świadomie mimo mojej uwagi o nieprzewidywalnym
-  czasie w hali. Nie „poprawiaj” tego z powrotem. Krótsze warianty
-  zostają w menu jako opcje. Pola na wynik MUSZĄ przyjmować liczby
-  znacznie powyżej 15.
-- **Saldo = różnica punktów + 3 za wygrany mecz** (`BONUS_WYGRANEJ`
-  w `liczenie.js`). Bonus dostaje każdy z wygranej pary w całości,
-  przegrani nie tracą nic ponad różnicę. Świadoma decyzja użytkownika
-  z 2026-09-13: samo saldo za słabo premiowało zwycięstwo.
-  **Uwaga:** to łamie dawną własność „saldo sumuje się do zera
-  w każdym wieczorze”, na której opierała się część pierwotnych
-  uzasadnień. Argument „nieobecność nic nie kosztuje” nadal stoi
-  (nie grasz → saldo stoi w miejscu), ale nie pisz już nigdzie,
-  że salda bilansują się do zera — bo nie.
-- **Bonus NIE wchodzi do ELO.** Rating mierzy siłę gry, nie punkty
-  w tabeli. `wynikMeczu().saldo` zostaje surową różnicą punktów właśnie
-  po to; bonus jedzie osobno jako `bonusA`/`bonusB`.
+- **WALUTĄ SĄ ZWYCIĘSTWA** (przebudowa 2026-09-15, decyzja użytkownika).
+  Kolejność w tabeli: **wygrane mecze → wygrane sety → zdobyte punkty →
+  mecz bezpośredni**. Punkty STRACONE nie liczą się do tabeli w ogóle:
+  „przegranie seta 15-2 waży tak samo jak przegranie go 15-13”.
+  Saldo i `BONUS_WYGRANEJ` zostały **skasowane** — nie przywracaj ich.
+- **Singiel i debel to DWIE OSOBNE rozgrywki**: osobna tabela, osobne
+  statystyki, osobne ELO. Tryb wynika z obsady (`trybMeczu()`), nic się
+  dodatkowo nie wpisuje. W tabelach pokazujemy tylko tych, którzy w danym
+  trybie zagrali (`r.mecze > 0`) — wyraźna prośba użytkownika.
+  Wyjątek: wynik wieczoru i MVP liczą wszystkie mecze razem.
+- **Format jest zmienny**: `{ setow: 1|2, doIlu: N }`, per mecz, dziedziczony
+  z wieczoru (`formatMeczu()`). Stare klucze tekstowe ('3x15') mapuje
+  `normalizujFormat()` w `dane.js` — nie usuwaj tego, bo w bazie siedzą
+  wieczory w starym kształcie. Domyślnie 2×15; przy remisie na styku
+  zawsze przewaga dwóch punktów, bez limitu, więc pola przyjmują liczby
+  znacznie powyżej granicy seta.
+- **ELO liczy się samymi zwycięstwami.** `wartoscWyniku()`: 2:0 → 1,0,
+  2:1 → 0,85, 1:2 → 0,15, 0:2 → 0,0. Punkty w setach nie wchodzą wcale.
+  Osobny rating dla debla i singla (`przelicz(wieczory, tryb)`).
+  Przy nazwisku seria zwycięstw `×3 🔥` od dwóch z rzędu (`znaczekSerii`).
 - **Żadnych forów.** Wyraźna decyzja użytkownika (2026-09-13): nikt nigdy
   nie dostaje punktów na start ani innych ułatwień. ELO służy wyłącznie
   do pokazania FORMY — procentowych szans par na ekranie 🏸ELO🏸.
@@ -66,19 +68,41 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
   setów, bez dodatkowego wpisywania.
 - **Czcionka nagłówkowa: Space Grotesk** (był Outfit) — `index.html` + zmienna
   `--naglowkowy` w `styles.css`.
-- **Przydomki: 3 poziomy (brąz/srebro/złoto), per-gracz, na bieżąco.** Każdy
-  gracz ZAWSZE ma przydomek liczony z sezonowych statystyk (`przydomekGracza`
-  / `przydomkiGraczy` w `tytuly.js`); zdobywane awansują nad startowe, w obrębie
-  poziomu rotują z tygodniami. Na starcie każdy dostaje inny startowy. Gracz
-  Miesiąca NIE ma osobnego znaczka ani 4. poziomu — jego przydomek zostaje
+- **Przydomki: 3 poziomy (brąz/srebro/złoto), per-gracz, na bieżąco.**
+  Liczone z sezonowych statystyk (`przydomekGracza` / `przydomkiGraczy`
+  w `tytuly.js`); zawsze nosisz najlepszy, na jaki się łapiesz, a w obrębie
+  poziomu rotują z wieczorami. Gracz Miesiąca NIE ma osobnego znaczka ani
+  4. poziomu — jego przydomek zostaje
   w swoim kolorze, dostaje tylko poświatę w tym kolorze + koronę (`reign` w
   `godlo()`). Godła to SVG z metalicznym gradientem wg poziomu. Nazwy poziomów
   w UI po polsku (Brąz/Srebro/Złoto); id w kodzie ascii (braz/srebro/zloto).
   Kolejność w katalogu: brąz→srebro→złoto. NIE dawaj forów/4. poziomu.
+- **Zapisany wieczór jest zamknięty.** `wieczor.zamkniety === true` po
+  naciśnięciu „Zapisz wieczór”; odblokowanie wymaga kodu administratora
+  (`js/zamek.js`, SHA-256). Reguły Firestore przepuszczają zapis do
+  zamkniętego dokumentu TYLKO gdy zdejmuje zamek i niesie prawidłowy skrót.
+  **Zmiana kodu = podmiana skrótu w DWÓCH miejscach**: `js/zamek.js`
+  i sekcja `piateczkaWieczory` w `jaka-to-melodia/firestore.rules`.
+  Jawny kod nigdy nie trafia do repozytorium. To nie sejf i tak jest
+  opisane w apce — nie udawaj, że to zabezpieczenie kryptograficzne.
+- **Dopisane osoby (goście) żyją tylko w swoim wieczorze**:
+  `wieczor.goscie = { gosc1: 'Michał' }`, imię czyta `imieW(wieczor, id)`.
+  Poza tabelą i poza ELO. `gracz()` bez kontekstu wieczoru zwraca dla nich
+  ogólne „Gość” — nigdy surowego id.
+- **Przydomki: NIKT nie startuje z przydomkiem.** Poprzednia wersja dawała
+  każdemu startowy — użytkownik to skasował 2026-09-15. `przydomekGracza`
+  i `przydomkiGraczy` zwracają `null`, gdy nic nie pasuje; `godlo(null)`
+  rysuje pustą tarczę. Katalog: 15 pozycji, brąz = pocieszne (za pech),
+  srebro = solidne, złoto = wyczyn.
+- **Hasła przydomków zawierają DOSŁOWNE cytaty użytkownika.** „Robisz strzał
+  i miażdżysz przeciwników”, „Spaliłeś się dziś smyku za mocno”, „Forma top,
+  rozjebałbyś Kwintę”, „Zapierdalasz, ale formą w dół”, „Nie pykło, ale nie
+  łam się, #NiePłakał”. Wyraźna prośba — nie łagodź ich i nie parafrazuj.
 - **Zmiana ksywek: świadomie NIE robiona.** Zostają Jacek/Tomek/Kafaar/
   Piąteczka na sztywno w `GRACZE` (dane.js); zmiana na życzenie = edycja w
   kodzie, bez edytora w apce (decyzja użytkownika 2026-09-15).
-- **Złoto tylko przy zaszczytach.** Pierwsze miejsce, MVP, Big Boss, Puchar.
+- **Złoto tylko przy zaszczytach.** Pierwsze miejsce, MVP, Gracz Miesiąca,
+  seria zwycięstw, Puchar.
   Jak zacznie być wszędzie, przestanie cokolwiek znaczyć.
 - **Kolory serii na wykresach są przypisane do gracza, nie do miejsca**
   w tabeli, i przeszły walidację kontrastu i daltonizmu. Nie podmieniaj
@@ -89,8 +113,9 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
 | plik | za co odpowiada |
 |---|---|
 | `js/dane.js` | skład, formaty, kalendarz sezonu — same stałe |
-| `js/liczenie.js` | rotacja par, saldo, klasyfikacja, MVP |
-| `js/elo.js` | rating i szanse par (żadnych forów — patrz niżej) |
+| `js/liczenie.js` | rotacja par, tryby, klasyfikacja, MVP |
+| `js/elo.js` | rating osobno dla debla i singla, seria zwycięstw, szanse par |
+| `js/zamek.js` | kod administratora do zapisanych wieczorów |
 | `js/tytuly.js` | Gracz Miesiąca, przydomki (3 poziomy, per-gracz), godła SVG z gradientem |
 | `js/pomoc.js` | **wszystkie** teksty regulaminu |
 | `js/wykresy.js` | iskry w tabeli, wykres ELO, paleta serii |
@@ -130,6 +155,13 @@ node --input-type=module -e "import('/home/user/Claude-mobile/piateczka/js/licze
 Dane testowe wsiewa się przez `localStorage['pp:wieczory']` (tablica wieczorów
 w tym samym kształcie co dokumenty Firestore) — najprościej stroną pomocniczą,
 która to zapisuje, odpaloną w tym samym profilu przeglądarki.
+
+Szybki test logiki bez przeglądarki siedzi w scratchpadzie sesji
+(`test2.mjs`) — sprawdza werdykty, obie tabele, MVP, ELO, format i przydomki.
+Do testów klikalnych (arkusz formatu, „Dograj mecz”, zapis + odblokowanie
+kodem) używałem strony pomocniczej w iframe, która steruje apką z zewnątrz
+i zbiera log — wzorzec wart odtworzenia, bo inaczej nie da się sprawdzić
+arkuszy.
 
 **Uwaga z pierwszej sesji:** podmiany w plikach przez `str.replace` w Pythonie
 potrafią cicho nie trafić (jeden znak różnicy w cytowanym fragmencie) i wtedy

@@ -6,9 +6,10 @@
    ========================================================================== */
 
 import { wtorkiSezonu, poPolsku, dzisiajIso, nazwaMiesiaca, gracz } from './dane.js';
-import { wieczorRozegrany, mvpWieczoru, mecze } from './liczenie.js';
+import { wieczorRozegrany, mvpWieczoru, mecze, trybyWieczoru } from './liczenie.js';
+import { zamkniety } from './zamek.js';
 import { naglowekZPomoca } from './pomoc.js';
-import { zeZnakiem, bez } from './ui.js';
+import { bez } from './ui.js';
 
 export function render(kontener, ctx) {
   const dzis = dzisiajIso();
@@ -62,20 +63,22 @@ function wiersz(termin, wieczor, dzis) {
   else if (rozegrany) {
     const mvp = mvpWieczoru(wieczor);
     stan = wieczor.towarzyski ? 'towarzyski' : 'rozegrany';
+    const rodzaje = trybyWieczoru(wieczor).map((t) => t.nazwa.toLowerCase()).join(' + ');
     opis = wieczor.towarzyski
       ? `Towarzyski · ${mecze(wieczor).length} mecze`
-      : mvp ? `MVP: ${bez(gracz(mvp.gracze[0]).imie)} ${zeZnakiem(mvp.saldo)}` : 'Rozegrany';
+      : mvp ? `MVP: ${bez(gracz(mvp.gracze[0]).imie)} (${mvp.wygrane} W) · ${rodzaje}` : `Rozegrany · ${rodzaje}`;
   } else if (wieczor) { stan = 'zaczety'; opis = 'Zaczęty — brak wyników'; }
   else if (termin.data < dzis) { stan = 'przepadl'; opis = 'Nie graliśmy'; }
   else if (termin.data === dzis) { stan = 'dzis'; opis = 'Dzisiaj!'; }
 
   if (termin.dodatkowy && stan !== 'wolne') opis += ' · termin dodatkowy';
+  const zamek = zamkniety(wieczor);
 
-  return `<li class="termin termin-${stan}">
+  return `<li class="termin termin-${stan} ${zamek ? 'termin-zamkniety' : ''}">
     <button type="button" data-idz="${termin.data}" ${termin.wolne ? 'disabled' : ''}>
       <span class="termin-data">${poPolsku(termin.data).replace(/ \d{4}$/, '')}</span>
-      <span class="termin-opis">${opis}</span>
-      <span class="termin-znak" aria-hidden="true">${{
+      <span class="termin-opis">${opis}${zamek ? ' · zapisany' : ''}</span>
+      <span class="termin-znak" aria-hidden="true">${zamek ? '🔒' : {
         rozegrany: '✓', towarzyski: '≈', wolne: '—', dzis: '●', zaczety: '…', przepadl: '·', plan: '›',
       }[stan]}</span>
     </button>

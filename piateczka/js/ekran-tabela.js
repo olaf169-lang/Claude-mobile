@@ -1,18 +1,24 @@
 /* ==========================================================================
    Ekran „Tabela” — oficjalna klasyfikacja sezonu.
+
+   Dwie osobne rozgrywki: debel i singiel. Przełącznik u góry, a niżej
+   zakres (generalna / runda). Kolejność: zwycięstwa → sety → punkty →
+   mecz bezpośredni.
    ========================================================================== */
 
-import { GRACZE, gracz, SEZON } from './dane.js';
-import { klasyfikacja, wFiltrze } from './liczenie.js';
+import { gracz, SEZON } from './dane.js';
+import { klasyfikacja, wFiltrze, TRYBY, mecze, trybMeczu, wynikMeczu } from './liczenie.js';
 import { naglowekZPomoca, dymek } from './pomoc.js';
-import { zeZnakiem, klasaSalda, arkusz, bez } from './ui.js';
+import { arkusz, bez, odmianaMeczow } from './ui.js';
 import { iskra, kolorGracza } from './wykresy.js';
 import { przydomekGracza, godlo } from './tytuly.js';
+import { znaczekSerii, przelicz } from './elo.js';
 
 let zakres = 'sezon';
+let tryb = 'debel';
 
 const ZAKRESY = [
-  { id: 'sezon', nazwa: 'Generalna' },
+  { id: 'sezon', nazwa: 'Cały sezon' },
   ...SEZON.rundy.map((r) => ({ id: r.id, nazwa: r.nazwa, od: r.od, do: r.do })),
 ];
 
@@ -20,13 +26,26 @@ export function render(kontener, ctx) {
   const wybrany = ZAKRESY.find((z) => z.id === zakres) ?? ZAKRESY[0];
   const wieczory = wFiltrze(ctx.wieczory, { od: wybrany.od, do: wybrany.do })
     .filter((w) => !w.towarzyski);
-  const tabela = klasyfikacja(wieczory);
-  const cokolwiek = tabela.some((r) => r.mecze > 0);
+  // W tabeli pokazujemy TYLKO tych, którzy w tym trybie w ogóle zagrali.
+  // Zagraliście singla we dwóch — reszta się tu nie pojawia.
+  const pelna = klasyfikacja(wieczory, { tryb });
+  const tabela = pelna.filter((r) => r.mecze > 0);
+  const cokolwiek = tabela.length > 0;
+  const { seria } = przelicz(ctx.wieczory, tryb);
+  const ileMeczow = wieczory.reduce((s, w) =>
+    s + mecze(w).filter((m) => trybMeczu(m) === tryb && wynikMeczu(m).rozegrany).length, 0);
 
   kontener.innerHTML = `
     <div class="ekran-naglowek">
       <h1>Tabela</h1>
-      <p class="podtytul">Sezon ${SEZON.nazwa} · ${wieczory.length} ${odmiana(wieczory.length)}</p>
+      <p class="podtytul">Sezon ${SEZON.nazwa} · ${ileMeczow} ${odmianaMeczow(ileMeczow)} ${tryb === 'debel' ? 'debla' : 'singla'}</p>
+    </div>
+
+    <div class="przelacznik-trybu" role="tablist" aria-label="Rodzaj gry">
+      ${TRYBY.map((t) => `<button class="tryb-przycisk ${t.id === tryb ? 'wybrany' : ''}" type="button"
+        role="tab" aria-selected="${t.id === tryb}" data-tryb="${t.id}">
+        <span aria-hidden="true">${t.id === 'debel' ? '👥' : '🙋'}</span>${t.nazwa}</button>`).join('')}
+      ${dymek('tryby')}
     </div>
 
     <div class="chipy chipy-zakres">
@@ -35,21 +54,30 @@ export function render(kontener, ctx) {
     </div>
 
     <section class="karta">
-      ${naglowekZPomoca('Klasyfikacja', 'saldo', { dodatek: '<span class="cichy naglowek-nota">wg salda</span>' })}
+      ${naglowekZPomoca('Klasyfikacja', 'punktacja', { dodatek: '<span class="cichy naglowek-nota">wg zwycięstw</span>' })}
       ${cokolwiek ? `<ol class="tabela">
-        ${tabela.map((r) => wiersz(r)).join('')}
+        ${tabela.map((r) => wiersz(r, ctx.ja, seria[r.id] ?? 0)).join('')}
       </ol>
       <p class="wskazowka">Dotknij wiersza, żeby zobaczyć szczegóły gracza.</p>`
-      : `<p class="pusto">Jeszcze nic nie rozegrano. Wpisz pierwszy wynik na ekranie <a href="#/wieczor">Wieczór</a>.</p>`}
+      : `<p class="pusto">Nic tu jeszcze nie rozegrano. ${tryb === 'singiel'
+          ? 'Singla dorzucisz przyciskiem „Dograj mecz” na ekranie'
+          : 'Pierwszy wynik wpiszecie na ekranie'} <a href="#/wieczor">Wieczór</a>.</p>`}
     </section>
 
     <section class="karta">
-      ${naglowekZPomoca('Skąd się bierze saldo', 'saldo')}
-      <p class="wskazowka">Przy trzech meczach bilans samych wygranych może wyjść tylko na trzy sposoby
-      (3-1-1-1, 2-2-1-1 albo 2-2-2-0), więc remisy byłyby na porządku dziennym. Dlatego liczymy różnicę
-      punktów, a do niej dokładamy <b>+3 za każdy wygrany mecz</b> — żeby zwycięstwo znaczyło więcej niż
-      ładna przegrana. Nieobecność nic nie kosztuje: nie grasz, saldo stoi w miejscu.</p>
+      ${naglowekZPomoca('Skąd się bierze kolejność', 'punktacja')}
+      <ol class="lista-kryteriow">
+        <li><b>Wygrane mecze</b> — to jest waluta. 15:2 i 15:13 znaczą tyle samo.</li>
+        <li><b>Wygrane sety</b> — kto urywał więcej, ten wyżej.</li>
+        <li><b>Zdobyte punkty</b> — dopiero tutaj liczą się liczby z tablicy.</li>
+        <li><b>Mecz bezpośredni</b> — jak wszystko równe, decyduje, kto kogo ogrywał.</li>
+      </ol>
+      <p class="wskazowka">Punkty stracone nie liczą się w ogóle. Przegrana to przegrana —
+      a to, że przegrałeś na styku, widać w 🏸ELO🏸.</p>
     </section>`;
+
+  kontener.querySelectorAll('[data-tryb]').forEach((el) =>
+    el.addEventListener('click', () => { tryb = el.dataset.tryb; ctx.odswiez(); }));
 
   kontener.querySelectorAll('[data-zakres]').forEach((el) =>
     el.addEventListener('click', () => { zakres = el.dataset.zakres; ctx.odswiez(); }));
@@ -58,61 +86,57 @@ export function render(kontener, ctx) {
     el.addEventListener('click', () => szczegoly(el.dataset.gracz, tabela, ctx.wieczory)));
 }
 
-function odmiana(n) {
-  if (n === 1) return 'wieczór';
-  const d = n % 10, s = n % 100;
-  return (d >= 2 && d <= 4 && !(s >= 12 && s <= 14)) ? 'wieczory' : 'wieczorów';
-}
-
-function wiersz(r) {
+function wiersz(r, ja, seria) {
   const narastajaco = [];
   let suma = 0;
-  for (const h of r.historia) { suma += h.saldo; narastajaco.push(suma); }
-  return `<li class="wiersz podium-${r.miejsce <= 3 ? r.miejsce : 'x'}" data-gracz="${r.id}" tabindex="0" role="button">
+  for (const h of r.historia) { suma += h.w; narastajaco.push(suma); }
+  const znak = znaczekSerii(seria);
+  return `<li class="wiersz ${r.id === ja ? 'to-ja' : ''} podium-${r.miejsce <= 3 ? r.miejsce : 'x'}"
+    data-gracz="${r.id}" tabindex="0" role="button">
     <span class="miejsce">${r.miejsce}</span>
     <span class="wiersz-glowna">
-      <span class="wiersz-imie">${gracz(r.id).imie}</span>
-      <span class="wiersz-detal">${r.meczeW}W ${r.meczeR ? r.meczeR + 'R ' : ''}${r.meczeP}P
-        · sety ${r.setyW}:${r.setyP} · ${r.wieczory} ${odmiana(r.wieczory)}</span>
+      <span class="wiersz-imie">${gracz(r.id).imie}${znak ? `<b class="seria-znak">${znak}</b>` : ''}</span>
+      <span class="wiersz-detal">sety ${r.setyW}:${r.setyP} · ${r.zdobyte} pkt · ${r.mecze} ${odmianaMeczow(r.mecze)}</span>
     </span>
     ${iskra(narastajaco, kolorGracza(r.id))}
-    <span class="wiersz-saldo ${klasaSalda(r.saldo)}">${zeZnakiem(r.saldo)}</span>
+    <span class="wiersz-wygrane"><b>${r.meczeW}</b><em>W</em></span>
   </li>`;
 }
 
 function szczegoly(id, tabela, wieczory) {
   const r = tabela.find((x) => x.id === id);
   if (!r) return;
-  const listaSald = (obj) => Object.entries(obj)
-    .sort((a, b) => b[1] - a[1])
-    .map(([pid, saldo]) => `<li><span>${bez(gracz(pid).imie)}</span>
-      <b class="${klasaSalda(saldo)}">${zeZnakiem(saldo)}</b></li>`).join('');
-  const partnerzy = listaSald(r.partnerzy);
-  const rywale = listaSald(r.przeciwnicy);
+  const lista = (obj, pusty) => {
+    const wpisy = Object.entries(obj).filter(([, b]) => b.w + b.p > 0);
+    if (!wpisy.length) return `<p class="pomoc-nota">${pusty}</p>`;
+    return `<ul class="lista-prosta">${wpisy
+      .sort((a, b) => (b[1].w - b[1].p) - (a[1].w - a[1].p))
+      .map(([pid, b]) => `<li><span>${bez(gracz(pid).imie)}</span>
+        <b class="${b.w > b.p ? 'plus' : b.w < b.p ? 'minus' : 'zero'}">${b.w}:${b.p}</b></li>`).join('')}</ul>`;
+  };
 
   const p = przydomekGracza(id, wieczory);
+  const skutecznosc = r.mecze ? Math.round((r.meczeW / r.mecze) * 100) : 0;
   arkusz({
     tytul: `${bez(gracz(id).imie)} — szczegóły`,
     tresc: `
       <div class="szczegoly-przydomek">
-        ${godlo(p.id, { rozmiar: 60 })}
-        <b>${p.nazwa}</b>
-        <em>Przydomek</em>
+        ${godlo(p?.id ?? null, { rozmiar: 60 })}
+        <b>${p ? bez(p.nazwa) : 'Bez przydomka'}</b>
+        <em>${p ? bez(p.haslo) : 'Jeszcze nic nie wpadło — zagraj kilka meczów'}</em>
       </div>
       <div class="statystyki">
-        <div><span>${zeZnakiem(r.saldo)}</span><em>saldo</em></div>
-        <div><span>${r.zdobyte}</span><em>zdobyte</em></div>
-        <div><span>${r.stracone}</span><em>stracone</em></div>
-        <div><span>${r.najdluzszaSeria}</span><em>seria setów</em></div>
-        <div><span>${r.setyNaStyk ? Math.round((r.setyNaStykW / r.setyNaStyk) * 100) : 0}%</span><em>setów na styk</em></div>
-        <div><span>${r.wieczory}</span><em>wieczorów</em></div>
+        <div><span>${r.meczeW}</span><em>wygranych</em></div>
+        <div><span>${r.meczeP}</span><em>przegranych</em></div>
+        <div><span>${skutecznosc}%</span><em>skuteczność</em></div>
+        <div><span>${r.setyW}:${r.setyP}</span><em>sety</em></div>
+        <div><span>${r.zdobyte}</span><em>zdobyte pkt</em></div>
+        <div><span>${r.najdluzszaSeria}</span><em>najdłuższa seria</em></div>
       </div>
-      ${partnerzy ? `<h4>Najlepszy duet</h4>
-        <ul class="lista-prosta">${partnerzy}</ul>
-        <p class="pomoc-nota">Saldo, gdy graliście w jednej parze — z kim Ci po drodze.</p>` : ''}
-      ${rywale ? `<h4>Bilans z rywalem</h4>
-        <ul class="lista-prosta">${rywale}</ul>
-        <p class="pomoc-nota">Twój wynik przeciw każdemu. Na plus — to Ty jesteś ich zmorą,
-        na minus — oni Twoją.</p>` : ''}`,
+      <h4>W parze z kim (bilans W:P)</h4>
+      ${lista(r.partnerzy, 'W tym trybie nie było jeszcze partnerów — singiel gra się sam.')}
+      <h4>Przeciw komu (bilans W:P)</h4>
+      ${lista(r.przeciwnicy, 'Brak rozegranych meczów.')}
+      <p class="pomoc-nota">Na plus — to Ty jesteś ich zmorą, na minus — oni Twoją.</p>`,
   });
 }
