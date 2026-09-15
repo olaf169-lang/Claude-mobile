@@ -83,7 +83,7 @@ function kartaCzworki(tabela, ja) {
 
 function kartaBossa(okres, biezacy) {
   return `<section class="karta karta-boss-mini">
-    <div class="boss-godlo">${godlo(okres.przydomek.id, { rozmiar: 58 })}</div>
+    <div class="boss-godlo">${godlo(okres.przydomek.id, { rozmiar: 58, reign: true })}</div>
     <div class="boss-opis">
       <span class="plakietka-etykieta">Gracz Miesiąca${biezacy ? ' — na żywo' : ''} ${dymek('bigboss')}</span>
       <strong>${gracz(okres.zwyciezca.id).imie} „${okres.przydomek.nazwa}”</strong>

@@ -116,11 +116,15 @@ export const POMOC = {
 
   przydomki: {
     tytul: 'Przydomki',
-    tresc: `<p>Przydomek nie jest losowy — opisuje, <b>czym</b> wygrałeś ten miesiąc. Appka sprawdza warunki
-      po kolei, od najrzadszego do najzwyklejszego, i przyznaje pierwszy pasujący.</p>
-      <p>Jest ich dziewięć, każdy z własnym godłem. „Feniks” za skok z ostatniego miejsca na pierwsze,
-      „Walec” za zmiażdżenie stawki, „Cwaniak” za wygraną o włos, „Mur” za najmniej straconych punktów…</p>
-      <p class="pomoc-nota">Pełna lista z godłami i warunkami jest na ekranie „Tytuły”.</p>`,
+    tresc: `<p><b>Każdy ma swój przydomek przez cały czas</b> — to ksywka bojowa liczona na bieżąco
+      z Twoich statystyk. Nie jest losowa: appka sprawdza warunki od najtrudniejszego do najzwyklejszego
+      i daje pierwszy pasujący.</p>
+      <p>Trzy poziomy: <b>🥉 brąz</b> (na start i za drobiazgi), <b>🥈 srebro</b> (dla ambitnych),
+      <b>🥇 złoto</b> (najtrudniejsze — jak Gladiator za sety na przewagi czy Nieustępliwy za frekwencję).
+      Zakwalifikujesz się na lepszy — stary znika. Kto długo tkwi na jednym poziomie, temu appka
+      podmienia ksywkę na inną równorzędną, żeby się nie znudziło.</p>
+      <p class="pomoc-nota">Gracz Miesiąca nie dostaje osobnego znaczka — to jego przydomek świeci wtedy
+      na złoto, z koroną. Pełna lista z godłami i warunkami jest na ekranie „Tytuły”.</p>`,
     wiecej: '#/tytuly',
   },
 

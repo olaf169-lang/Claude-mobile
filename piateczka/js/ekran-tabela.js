@@ -7,6 +7,7 @@ import { klasyfikacja, wFiltrze } from './liczenie.js';
 import { naglowekZPomoca, dymek } from './pomoc.js';
 import { zeZnakiem, klasaSalda, arkusz, bez } from './ui.js';
 import { iskra, kolorGracza } from './wykresy.js';
+import { przydomekGracza, godlo } from './tytuly.js';
 
 let zakres = 'sezon';
 
@@ -54,7 +55,7 @@ export function render(kontener, ctx) {
     el.addEventListener('click', () => { zakres = el.dataset.zakres; ctx.odswiez(); }));
 
   kontener.querySelectorAll('[data-gracz]').forEach((el) =>
-    el.addEventListener('click', () => szczegoly(el.dataset.gracz, tabela)));
+    el.addEventListener('click', () => szczegoly(el.dataset.gracz, tabela, ctx.wieczory)));
 }
 
 function odmiana(n) {
@@ -79,7 +80,7 @@ function wiersz(r) {
   </li>`;
 }
 
-function szczegoly(id, tabela) {
+function szczegoly(id, tabela, wieczory) {
   const r = tabela.find((x) => x.id === id);
   if (!r) return;
   const listaSald = (obj) => Object.entries(obj)
@@ -89,9 +90,15 @@ function szczegoly(id, tabela) {
   const partnerzy = listaSald(r.partnerzy);
   const rywale = listaSald(r.przeciwnicy);
 
+  const p = przydomekGracza(id, wieczory);
   arkusz({
     tytul: `${bez(gracz(id).imie)} — szczegóły`,
     tresc: `
+      <div class="szczegoly-przydomek">
+        ${godlo(p.id, { rozmiar: 60 })}
+        <b>${p.nazwa}</b>
+        <em>Przydomek</em>
+      </div>
       <div class="statystyki">
         <div><span>${zeZnakiem(r.saldo)}</span><em>saldo</em></div>
         <div><span>${r.zdobyte}</span><em>zdobyte</em></div>
