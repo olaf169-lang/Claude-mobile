@@ -162,15 +162,40 @@ service cloud.firestore {
 
        Jeden dokument na wieczór, id = data (RRRR-MM-DD), mecze jako mapa
        w polu `mecze` — dzięki temu dwie osoby mogą wpisywać różne mecze
-       tego samego wieczoru bez nadpisywania się nawzajem. */
+       tego samego wieczoru bez nadpisywania się nawzajem.
+
+       ZAMEK (od 2026-09-15). Poprawianie w locie zostaje, ale tylko dopóki
+       wieczór jest otwarty. Po naciśnięciu „Zapisz wieczór” dokument dostaje
+       `zamkniety: true` i od tej chwili jedyny dozwolony zapis to taki, który
+       ten zamek zdejmuje i niesie prawidłowy skrót kodu administratora
+       (to samo SHA-256 co w piateczka/js/zamek.js). Po odblokowaniu
+       `zamkniety` jest już false, więc dalsze poprawki idą normalnie —
+       aż ktoś znowu zapisze wieczór.
+
+       To nie jest sejf: skrót kodu jest i tak w kodzie aplikacji, więc ktoś
+       uparty i obeznany z konsolą to obejdzie. Chodzi o to, żeby wynik nie
+       zmieniał się przypadkiem ani po cichu. */
     match /piateczkaWieczory/{data} {
       allow read: if true;
-      allow create, update: if request.resource.data.keys().hasOnly(
-                                 ['data', 'format', 'sklad', 'goscImie',
-                                  'towarzyski', 'mecze', 'zaktualizowano'])
-                            && request.resource.data.data is string
-                            && request.resource.data.data.size() == 10;
-      allow delete: if true;
+
+      function ksztaltOk() {
+        return request.resource.data.keys().hasOnly(
+                 ['data', 'format', 'sklad', 'goscImie', 'goscie',
+                  'towarzyski', 'mecze', 'zamkniety', 'kod', 'zaktualizowano'])
+               && request.resource.data.data is string
+               && request.resource.data.data.size() == 10;
+      }
+
+      function zdejmujeZamek() {
+        return request.resource.data.zamkniety == false
+               && request.resource.data.kod ==
+                  'd53091710a15a2c668ab497907078c174b5d3afbfafd0e5bcfbc2ad27b628b1f';
+      }
+
+      allow create: if ksztaltOk();
+      allow update: if ksztaltOk()
+                    && (resource.data.get('zamkniety', false) == false || zdejmujeZamek());
+      allow delete: if resource.data.get('zamkniety', false) == false;
     }
   }
 }

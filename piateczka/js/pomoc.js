@@ -14,49 +14,54 @@ export const POMOC = {
 
   /* ------------------------------------------------------- jak liczymy */
 
-  saldo: {
-    tytul: 'Saldo — waluta turnieju',
-    tresc: `<p>Saldo składa się z dwóch rzeczy: <b>różnicy punktów</b> i <b>bonusu za wygrany mecz</b>.</p>
-      <p>Różnica to tyle punktów, ile zdobyła Twoja para, minus tyle, ile straciła — set po secie.
-      Wygrany set 15:10 to <b class="plus">+5</b>, przegrany 12:15 to <b class="minus">−3</b>.
-      Do tego każdy wygrany mecz dokłada <b class="plus">+3</b> obu graczom wygranej pary.</p>
-      <p>Dzięki temu liczy się i to, <i>czy</i> wygrałeś, i to, <i>jak</i>. Walka w przegranym secie do
-      samego końca realnie ratuje tabelę, ale samo zwycięstwo zawsze jest coś warte.</p>
-      <p class="pomoc-nota">Saldo wieczoru to suma z wszystkich meczów, a saldo sezonu — suma
-      z wszystkich wieczorów. Nic się nie resetuje.</p>`,
+  punktacja: {
+    tytul: 'Jak liczymy punkty',
+    tresc: `<p><b>Liczą się zwycięstwa.</b> Wygrany mecz to wygrany mecz — nieważne, czy poszło 15:2,
+      czy 15:13. Kto wygrał ich więcej, ten jest wyżej. Koniec.</p>
+      <p>Gdy dwie osoby mają tyle samo zwycięstw, tabela schodzi po kolei niżej:</p>
+      <ol class="lista-kryteriow">
+        <li><b>wygrane mecze</b></li>
+        <li><b>wygrane sety</b></li>
+        <li><b>zdobyte punkty</b></li>
+        <li><b>mecz bezpośredni</b> — kto kogo ogrywał</li>
+      </ol>
+      <p><b>Punkty stracone nie liczą się wcale.</b> Przegrana 15:2 waży w tabeli dokładnie tyle samo co
+      przegrana 15:13 — przegrana to przegrana. Za to urwany set widać i w tabeli, i w 🏸ELO🏸.</p>
+      <p class="pomoc-nota">Nieobecność kosztuje dokładnie zero: nie grasz, nic nie zyskujesz i nic
+      nie tracisz.</p>`,
   },
 
-  bonus: {
-    tytul: 'Bonus za wygrany mecz',
-    tresc: `<p>Każdy wygrany mecz to <b class="plus">+3</b> do salda — <b>dla obu graczy wygranej pary</b>,
-      w całości, bez dzielenia na pół. Przegrani nic nie tracą ponad samą różnicę punktów.</p>
-      <p>Po co: sama różnica punktów za słabo premiowała zwycięstwo. Przegrana 14:15 wyglądała w tabeli
-      prawie tak samo jak wygrana 15:14, a to nie to samo uczucie przy siatce.</p>
-      <p class="pomoc-nota">Bonus liczy się do tabeli, MVP i tytułów, ale <b>nie do 🏸ELO🏸</b> — tam
-      chodzi o samą siłę gry, a bonus jest nagrodą, nie pomiarem.</p>`,
+  tryby: {
+    tytul: 'Singiel i debel to dwie rozgrywki',
+    tresc: `<p><b>Osobna tabela, osobne statystyki, osobne 🏸ELO🏸.</b> Debel i singiel to dwie różne gry,
+      więc nie mieszamy ich w jednym worku.</p>
+      <p>Trybu się nie wpisuje — bierze się sam z obsady: jeden na jednego to singiel, dwóch na dwóch
+      to debel. Na ekranach Tabela i 🏸ELO🏸 przełączasz się między nimi jednym dotknięciem.</p>
+      <p class="pomoc-nota">W wyniku wieczoru i przy MVP liczą się wszystkie mecze razem — tam chodzi
+      o to, kto miał dobry dzień, a nie o osobne ligi.</p>`,
   },
 
   werdykt: {
     tytul: 'Kto wygrał mecz',
-    tresc: `<p>Najpierw <b>sety</b>. Gdy jest remis w setach (np. 1:1), rozstrzyga <b>różnica punktów</b>
-      z całego meczu. Mecz 15:5, 13:15 to różnica +8, więc to wygrana, choć sety są po jednym.</p>
-      <p>Ta jedna definicja obowiązuje wszędzie: w tabeli, przy MVP i w 🏸ELO🏸. Remis w meczu jest możliwy tylko wtedy,
-      gdy i sety, i saldo wyjdą równo — czyli prawie nigdy.</p>`,
+    tresc: `<p>Najpierw <b>sety</b>. Gdy jest remis w setach (np. 1:1), rozstrzyga <b>suma punktów</b>
+      z całego meczu. Mecz 15:5, 13:15 to 28:20, więc to wygrana, choć sety są po jednym.</p>
+      <p>Ta jedna definicja obowiązuje wszędzie: w tabeli, przy MVP i w 🏸ELO🏸. Remis w meczu jest możliwy
+      tylko wtedy, gdy i sety, i punkty wyjdą równo — czyli prawie nigdy.</p>`,
   },
 
   format: {
     tytul: 'Format meczu',
-    tresc: `<p>Gramy <b>do dwóch wygranych setów, sety do 15</b> — i dokładnie tak samo w singlu.
-      Jeden format na wszystko, żeby nie trzeba było się zastanawiać, co dziś obowiązuje.</p>
-      <p><b>Przy stanie 15:15 gra się na przewagę dwóch punktów</b> — bez górnego limitu. Set kończy się
-      więc na 17:15, 21:19 albo i dalej, jeśli nikt nie chce odpuścić. Wpisujecie dokładnie taki wynik,
-      jaki był na tablicy; pole przyjmuje liczby powyżej 15.</p>
+    tresc: `<p>Domyślnie gramy <b>do dwóch wygranych setów, sety do 15</b> — tak samo w deblu i w singlu.
+      Ale format nie jest sztywny: ustawiasz <b>ile setów</b> (jeden albo dwa wygrane) i <b>do ilu punktów</b>.
+      Chcecie szybką gierkę do siedmiu w jednym secie? Proszę bardzo.</p>
+      <p><b>Przy remisie na styku gra się na przewagę dwóch punktów</b> — bez górnego limitu. Set kończy się
+      więc na 17:15, 21:19 albo i dalej. Wpisujecie dokładnie taki wynik, jaki był na tablicy; pole
+      przyjmuje liczby powyżej granicy seta.</p>
       <p>Trzeci set pojawia się w aplikacji dopiero przy stanie 1:1, więc pola do wpisania są zawsze
-      te, które faktycznie rozegraliście. Trzy mecze zajmują od 60 do 100 minut, zależnie od tego,
-      ile z nich pójdzie na pełny dystans.</p>
-      <p class="pomoc-nota">W menu zostają też krótsze warianty (2 sety do 15 bez trzeciego, 2 do 11,
-      1 set do 21) na wypadek krótszej rezerwacji hali. Saldo liczy się identycznie w każdym z nich,
-      więc zmiana formatu — nawet w środku sezonu — niczego w tabeli nie psuje.</p>`,
+      te, które faktycznie rozegraliście.</p>
+      <p class="pomoc-nota">Format wybrany na karcie wieczoru jest domyślny dla nowych meczów, ale
+      <b>każdy mecz może mieć swój</b> — dotknij małego przycisku z formatem przy jego nagłówku.
+      Tabela liczy zwycięstwa, więc mieszanie formatów niczego nie psuje.</p>`,
   },
 
   rotacja: {
@@ -64,9 +69,10 @@ export const POMOC = {
     tresc: `<p>Przy czwórce istnieją <b>dokładnie trzy</b> możliwe zestawienia debla — i appka ustawia wszystkie trzy.
       Po takim wieczorze każdy zagrał <b>raz w parze z każdym</b> i <b>dwa razy przeciw każdemu</b>.</p>
       <p>Nic się nie losuje i nikt nie siedzi na ławce. To jest fundament, na którym stoi cała tabela:
-      skoro wszyscy mieli identyczne warunki, saldo mierzy grę, a nie szczęście do partnera.</p>
+      skoro wszyscy mieli identyczne warunki, liczba zwycięstw mierzy grę, a nie szczęście do partnera.</p>
       <p class="pomoc-nota">Kolejność meczów przesuwa się co tydzień, żeby nie zawsze ta sama para
-      rozgrzewała halę.</p>`,
+      rozgrzewała halę. Dodatkowe mecze — także singlowe — dorzucacie przyciskiem „Dograj mecz”
+      i sami wybieracie, kto z kim.</p>`,
   },
 
   sklady: {
@@ -74,19 +80,22 @@ export const POMOC = {
     tresc: `<p><b>Czterech</b> — trzy deble, pełna rotacja.<br>
       <b>Trzech</b> — single każdy z każdym: każdy gra dwa mecze i raz odpoczywa.<br>
       <b>Dwóch</b> — jeden singiel, a jak macie czas, dokładacie kolejne przyciskiem „Dograj mecz”.</p>
-      <p>Format jest ten sam co zawsze: do dwóch wygranych setów, sety do 15, przy 15:15 na przewagę dwóch.</p>
-      <p>Wszystko wpada do tej samej tabeli — różnica punktów i bonus +3 za wygraną liczą się w każdym
-      z tych układów identycznie.
-      Jedyna różnica: przy trójce gra się dwa mecze zamiast trzech, więc taki wieczór <b>rusza tabelą słabiej</b>.
-      Tak ma być — mniejszy wieczór waży mniej.</p>`,
+      <p>Deble wpadają do tabeli debla, single do tabeli singla. W wyniku wieczoru i przy MVP
+      liczą się wszystkie mecze razem.</p>
+      <p class="pomoc-nota">W podsumowaniu wieczoru widać <b>tylko tych, którzy faktycznie grali</b>.
+      Zagracie singla we dwóch — nieobecni się nie pojawią.</p>`,
   },
 
   gosc: {
-    tytul: 'Gość',
-    tresc: `<p>Ktoś spoza czwórki może wskoczyć za nieobecnego — wtedy gracie normalne trzy deble.
-      Gość ma swoje saldo w podsumowaniu wieczoru, ale <b>nie wchodzi do tabeli sezonu</b> ani do 🏸ELO🏸.</p>
-      <p>Dla obecnych stałych graczy taki wieczór liczy się normalnie: każdy z nich i tak trafia na Gościa
-      w parze dokładnie raz, więc układ pozostaje symetryczny.</p>`,
+    tytul: 'Dopisane osoby',
+    tresc: `<p>Przyciskiem <b>„+ dopisz osobę”</b> dorzucasz do wieczoru kogokolwiek spoza czwórki — ilu
+      chcesz, każdy ze swoim imieniem. Grają normalnie i mają swój wynik wieczoru, ale
+      <b>nie wchodzą do tabeli sezonu</b> ani do 🏸ELO🏸.</p>
+      <p>Dlaczego: tabela i rating mają sens tylko wtedy, gdy wszyscy grają przez cały sezon.
+      Ktoś, kto wpadł raz, nie ma się do czego porównać — a mecz z nim nie pozwala uczciwie wycenić
+      niczyjego zwycięstwa.</p>
+      <p class="pomoc-nota">Dopisana osoba żyje tylko w tym jednym wieczorze. Następnym razem
+      dopisujesz ją od nowa.</p>`,
   },
 
   towarzyski: {
@@ -100,31 +109,34 @@ export const POMOC = {
 
   mvp: {
     tytul: 'MVP — najlepszy tego wieczoru',
-    tresc: `<p>Dostaje go osoba z <b>najwyższym saldem danego wtorku</b>. Przy remisie decyduje bilans setów,
-      potem liczba zdobytych punktów. Gdy i to jest równe, MVP jest dzielone.</p>
-      <p>Tytuł jest jednorazowy: obowiązuje do następnego wtorku i nie przenosi się na sezon.</p>`,
+    tresc: `<p>Dostaje go osoba z <b>największą liczbą wygranych meczów danego dnia</b> — licząc single
+      i deble razem. Przy remisie decydują wygrane sety, potem zdobyte punkty. Gdy i to jest równe,
+      MVP jest dzielone.</p>
+      <p>Tytuł jest jednorazowy: obowiązuje do następnej gry i nie przenosi się na sezon.</p>`,
   },
 
   bigboss: {
     tytul: 'Gracz Miesiąca',
-    tresc: `<p>Najwyższe <b>saldo w miesiącu</b>. Tytuł nosi się przez cały następny miesiąc — do chwili,
-      aż ktoś go zdejmie. Nie dostajesz osobnego znaczka „Gracz Miesiąca": zamiast tego <b>Twój przydomek
-      zaczyna świecić na złoto</b>, żeby było widać, kto tu rządzi.</p>
-      <p class="pomoc-nota">Wystarczy jeden rozegrany wtorek. Dopóki miesiąc trwa, widać
+    tresc: `<p>Kto w danym miesiącu wygrał <b>najwięcej meczów</b>. Tytuł nosi się przez cały następny
+      miesiąc — do chwili, aż ktoś go zdejmie. Nie dostajesz osobnego znaczka „Gracz Miesiąca”: zamiast
+      tego <b>Twój przydomek zaczyna świecić</b> i dostaje koronę, żeby było widać, kto tu rządzi.</p>
+      <p class="pomoc-nota">Wystarczy jeden rozegrany wieczór. Dopóki miesiąc trwa, widać
       <i>prowadzącego</i> — tytuł twardnieje z końcem miesiąca.</p>`,
   },
 
   przydomki: {
     tytul: 'Przydomki',
-    tresc: `<p><b>Każdy ma swój przydomek przez cały czas</b> — to ksywka bojowa liczona na bieżąco
-      z Twoich statystyk. Nie jest losowa: appka sprawdza warunki od najtrudniejszego do najzwyklejszego
-      i daje pierwszy pasujący.</p>
-      <p>Trzy poziomy: <b>🥉 brąz</b> (na start i za drobiazgi), <b>🥈 srebro</b> (dla ambitnych),
-      <b>🥇 złoto</b> (najtrudniejsze — jak Gladiator za sety na przewagi czy Nieustępliwy za frekwencję).
-      Zakwalifikujesz się na lepszy — stary znika. Kto długo tkwi na jednym poziomie, temu appka
-      podmienia ksywkę na inną równorzędną, żeby się nie znudziło.</p>
-      <p class="pomoc-nota">Gracz Miesiąca nie dostaje osobnego znaczka — to jego przydomek świeci wtedy
-      na złoto, z koroną. Pełna lista z godłami i warunkami jest na ekranie „Tytuły”.</p>`,
+    tresc: `<p><b>Na starcie nikt nie ma przydomka.</b> Trzeba sobie na niego zasłużyć — albo go
+      przechlapać. Appka liczy je na bieżąco z Twoich wyników, nic się nie losuje.</p>
+      <p>Trzy poziomy: <b>🥉 brąz</b> — pocieszne, za pech i słabszą passę (Klątwa Kamisha, Spalona
+      Gierka). <b>🥈 srebro</b> — solidne, tu już coś umiesz (Młot, Hounter, Mistrz Podwórka).
+      <b>🥇 złoto</b> — wyczyn (Mmmpuuu!, Piąteczkowy Szał, Forma Kwincioka).</p>
+      <p>Zawsze nosisz <b>najlepszy</b>, na jaki się aktualnie łapiesz — złoto przykrywa srebro, srebro
+      przykrywa brąz. Kto spełnia kilka warunków z tego samego poziomu, temu ksywka podmienia się
+      z tygodniami, żeby się nie znudziło.</p>
+      <p class="pomoc-nota">Gracz Miesiąca nie dostaje osobnego znaczka ani czwartego poziomu — to jego
+      przydomek świeci wtedy własnym kolorem i dostaje koronę. Pełna lista z godłami i warunkami
+      jest na ekranie „Tytuły”.</p>`,
     wiecej: '#/tytuly',
   },
 
@@ -139,21 +151,30 @@ export const POMOC = {
   /* -------------------------------------------------------------- ELO */
 
   elo: {
-    tytul: '🏸ELO🏸 — ranking mocy',
-    tresc: `<p>Tabela mówi, kto ma najlepszy bilans. ELO mówi co innego: <b>jak mocno grasz względem tego,
+    tytul: '🏸ELO🏸 — forma',
+    tresc: `<p>Tabela mówi, kto wygrał więcej meczów. ELO mówi co innego: <b>jak mocno grasz względem tego,
       z kim akurat trafiłeś</b>. Każdy startuje z 1000, siła pary to średnia ratingów obu graczy,
-      a po meczu wygrani zabierają przegranym tyle punktów, na ile wynik był niespodzianką.</p>
-      <p>Wyższa wygrana rusza ELO mocniej, ale najwyżej o połowę. Mecze z Gościem są pomijane —
-      ktoś bez ratingu nie pozwala uczciwie wycenić zwycięstwa. Bonus +3 za wygraną tu nie wchodzi:
-      ELO mierzy siłę gry, a nie punkty w tabeli.</p>
-      <p class="pomoc-nota">ELO <b>nie liczy się do tytułu</b> i nie daje nikomu żadnych ułatwień.
-      Jest po to, żeby było widać formę: kto jest w gazie i jak wyrównane jest dane zestawienie par.</p>`,
+      a po meczu wygrani zabierają przegranym tyle, na ile wynik był niespodzianką.</p>
+      <p><b>Punkty zdobyte w setach nie mają tu żadnego znaczenia</b> — liczy się, kto wygrał. Jedyny
+      wyjątek: urwany set. Wygrana 2:0 waży więcej niż 2:1, a przegrana 1:2 boli mniej niż 0:2 — bo
+      urwać komuś seta to jednak coś.</p>
+      <p><b>Singiel i debel mają osobne ratingi.</b> Mecze z dopisanymi osobami są pomijane: ktoś bez
+      ratingu nie pozwala uczciwie wycenić zwycięstwa.</p>
+      <p class="pomoc-nota">ELO <b>nie liczy się do tytułu</b> i nie daje nikomu żadnych ułatwień.</p>`,
+  },
+
+  seria: {
+    tytul: 'Seria zwycięstw — ×3 🔥',
+    tresc: `<p>Znaczek przy nazwisku to <b>ile meczów z rzędu właśnie wygrałeś</b> w danym trybie.
+      Pokazuje się od dwóch — jedna wygrana to jeszcze nie passa. Od pięciu zapala się drugi płomień.</p>
+      <p>Seria biegnie przez cały sezon, także między wtorkami. Jedna przegrana i zeruje się do zera —
+      dlatego to jest miara formy, a nie dorobku.</p>`,
   },
 
   forma: {
     tytul: 'Forma zestawień',
-    tresc: `<p>Appka porównuje średnie ELO obu par i pokazuje, jak rozkładają się szanse w każdym
-      z trzech możliwych zestawień debla. Nic poza tym.</p>
+    tresc: `<p>Appka porównuje średnie ELO obu stron i pokazuje, jak rozkładają się szanse w każdym
+      z możliwych zestawień. Nic poza tym.</p>
       <p><b>Nikt nigdy nie dostaje punktów na start, wyrównania ani żadnego innego ułatwienia.</b> Gracie
       normalnie, wpisujecie wynik z tablicy. Procenty są po to, żeby przed meczem wiedzieć, czy
       zapowiada się równa walka, czy ktoś jest faworytem — i nic więcej.</p>`,
@@ -180,31 +201,46 @@ export const POMOC = {
 
   nieobecnosci: {
     tytul: 'Opuszczone wtorki nic nie kosztują',
-    tresc: `<p><b>Nie grasz — nie zyskujesz i nie tracisz.</b> Twoje saldo po prostu stoi tam, gdzie stało.
+    tresc: `<p><b>Nie grasz — nie zyskujesz i nie tracisz.</b> Twój dorobek po prostu stoi tam, gdzie stał.
       Nie ma kary za nieobecność, bo nie ma czego odejmować.</p>
-      <p>Dlatego nie ma tu żadnych średnich na wieczór, procentów frekwencji ani progu „musisz zagrać
-      minimum X razy”. Możecie opuścić pięć wtorków z rzędu i tabela dalej będzie miała sens.</p>
-      <p class="pomoc-nota">Uczciwie: kto gra częściej, ten ma więcej okazji do zbierania punktów —
-      bonusy za wygrane meczy się kumulują. Przy czwórce, która i tak gra razem albo wcale, to żaden
-      problem; gdyby kiedyś zaczęło przeszkadzać, wystarczy porównywać saldo na wieczór.</p>`,
+      <p>Dlatego nie ma tu żadnych progów „musisz zagrać minimum X razy”. Możecie opuścić pięć wtorków
+      z rzędu i tabela dalej będzie miała sens.</p>
+      <p class="pomoc-nota">Uczciwie: kto gra częściej, ten ma więcej okazji na zwycięstwa, a tabela
+      liczy je sumarycznie. Przy czwórce, która i tak gra razem albo wcale, to żaden problem —
+      a kto opuścił wieczór, ten po prostu nie miał szansy dołożyć.</p>`,
   },
 
   /* --------------------------------------------------------- obsługa */
 
   wpisywanie: {
     tytul: 'Jak wpisać wynik',
-    tresc: `<p>Wchodzisz w <b>Wieczór</b>, zaznaczasz kto przyszedł, a appka sama ustawia mecze.
-      Potem wpisujesz wyniki setów — po jednej liczbie na pole. Saldo przelicza się na bieżąco,
-      nie trzeba niczego zatwierdzać.</p>
-      <p>Można wpisywać na żywo między meczami albo wszystko naraz po grze. Można też wrócić do wieczoru
-      sprzed tygodnia i uzupełnić.</p>`,
+    tresc: `<p>Wchodzisz w <b>Wieczór</b>, wybierasz dzień gry, zaznaczasz kto przyszedł — a appka sama
+      ustawia mecze. Potem wpisujesz wyniki setów, po jednej liczbie na pole. Wszystko przelicza się
+      na bieżąco, nie trzeba nic zatwierdzać w trakcie.</p>
+      <p>Grę można dorzucić w dowolnym momencie: przycisk <b>„Dograj mecz”</b> pyta, kto gra po której
+      stronie i w jakim formacie. Singla i debla wpisujesz tak samo — tryb bierze się z obsady.</p>
+      <p class="pomoc-nota">Dzień gry to zwykłe pole daty. Graliście w sobotę? Ustawiasz sobotę i tyle.</p>`,
+  },
+
+  zamykanie: {
+    tytul: 'Zapisanie wieczoru i kod',
+    tresc: `<p>Gdy wszystko jest wpisane, naciskasz <b>„Zapisz wieczór”</b>. Wynik zostaje policzony,
+      a wieczór <b>zamyka się na klucz</b> — od tej chwili nikt już w nim nic nie zmieni.</p>
+      <p>Po co: żeby raz ustalony wynik nie „poprawiał się” tydzień później. Dopóki wieczór jest otwarty,
+      poprawiacie do woli — po zapisaniu jest ustalony.</p>
+      <p><b>Poprawka po zapisaniu</b> wymaga kodu, który ma tylko Pan Piąteczka. Napisz na grupie, co się
+      nie zgadza; jak się zgodzi, poda kod, wtedy przycisk „Mam kod — odblokuj edycję” otwiera wieczór
+      z powrotem. Po poprawce zapisujesz go na nowo.</p>
+      <p class="pomoc-nota">Uczciwie: to zapora przed pomyłką i cichą zmianą wyniku, nie sejf.
+      Kto się zna na przeglądarce i bardzo chce, ten to obejdzie — ale wtedy już wie, że oszukuje.</p>`,
   },
 
   poprawianie: {
     tytul: 'Pomyłka przy wpisywaniu',
-    tresc: `<p>Po prostu wpisz poprawną liczbę na miejsce błędnej — wszystko przeliczy się od nowa,
-      łącznie z tabelą, ELO i tytułami. Nic nie jest zamrożone.</p>
-      <p>Cały mecz kasuje się przyciskiem 🗑 przy jego nagłówku, a cały wieczór — na dole ekranu „Wieczór”.</p>`,
+    tresc: `<p>Dopóki wieczór jest otwarty: po prostu wpisz poprawną liczbę na miejsce błędnej —
+      wszystko przeliczy się od nowa, łącznie z tabelą, ELO i przydomkami.</p>
+      <p>Cały mecz kasuje się przyciskiem 🗑 przy jego nagłówku, a cały wieczór — na dole ekranu „Wieczór”.</p>
+      <p class="pomoc-nota">Po naciśnięciu „Zapisz wieczór” trzeba już kodu — patrz „Zapisanie wieczoru”.</p>`,
   },
 
   ktowpisuje: {
@@ -229,8 +265,8 @@ export const POMOC = {
 export const SEKCJE = [
   {
     id: 'punktacja', nazwa: 'Jak liczymy punkty', godlo: '🧮',
-    wstep: 'Jedna waluta, jedna definicja zwycięstwa i trzy mecze, w których każdy gra z każdym. Reszta z tego wynika.',
-    hasla: ['saldo', 'bonus', 'werdykt', 'rotacja', 'format', 'sklady', 'gosc', 'towarzyski'],
+    wstep: 'Liczą się zwycięstwa. Reszta to rozstrzyganie remisów.',
+    hasla: ['punktacja', 'tryby', 'werdykt', 'rotacja', 'format', 'sklady', 'gosc', 'towarzyski'],
   },
   {
     id: 'tytuly', nazwa: 'Tytuły i trofea', godlo: '🏆',
@@ -240,7 +276,7 @@ export const SEKCJE = [
   {
     id: 'elo', nazwa: '🏸ELO🏸 i forma', godlo: '📈',
     wstep: 'Ranking, który nie daje ani tytułu, ani żadnych ułatwień — tylko pokazuje formę.',
-    hasla: ['elo', 'forma'],
+    hasla: ['elo', 'seria', 'forma'],
   },
   {
     id: 'sezon', nazwa: 'Sezon i kalendarz', godlo: '📅',
@@ -249,8 +285,8 @@ export const SEKCJE = [
   },
   {
     id: 'obsluga', nazwa: 'Obsługa aplikacji', godlo: '📱',
-    wstep: 'Wpisywanie, poprawianie i co się dzieje, gdy w hali nie ma zasięgu.',
-    hasla: ['wpisywanie', 'poprawianie', 'ktowpisuje', 'offline'],
+    wstep: 'Wpisywanie, zapisywanie, poprawianie i co się dzieje, gdy w hali nie ma zasięgu.',
+    hasla: ['wpisywanie', 'zamykanie', 'poprawianie', 'ktowpisuje', 'offline'],
   },
 ];
 

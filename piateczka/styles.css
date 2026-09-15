@@ -48,35 +48,47 @@
   --szerokosc:  38rem;
 }
 
+/* Motyw jasny. Wcześniej był zbyt wyprany — biel na bieli, nic się nie działo.
+   Teraz tło jest wyraźnie chłodne i barwne, karty są czystą bielą (więc same
+   się odcinają), a kreski i cienie mają realną siłę. Kontrasty sprawdzone:
+   tekst 4,5:1+ na płycie, złoto i czerwień w wersji ciemniejszej niż w nocy,
+   bo na bieli jasne złoto jest nieczytelne. */
 :root[data-motyw="jasny"] {
-  --tlo:            #F3F6FB;
-  --tlo-glebia:     #E8EDF6;
-  --plyta:          rgba(10, 22, 40, .035);
-  --plyta-mocna:    rgba(10, 22, 40, .07);
+  --tlo:            #E7EDF8;
+  --tlo-glebia:     #D7E0F0;
+  --plyta:          rgba(16, 38, 74, .055);
+  --plyta-mocna:    rgba(16, 38, 74, .11);
   --plyta-pelna:    #FFFFFF;
-  --kreska:         rgba(10, 22, 40, .12);
-  --kreska-mocna:   rgba(10, 22, 40, .28);
+  --kreska:         rgba(16, 38, 74, .16);
+  --kreska-mocna:   rgba(16, 38, 74, .34);
 
-  --tekst:          #0E1F38;
-  --tekst-cichy:    #55677F;
-  --tekst-ledwie:   #7386A0;
+  --tekst:          #0B1B33;
+  --tekst-cichy:    #4A5D79;
+  --tekst-ledwie:   #6B7D98;
 
   --zloto:          #8A5D12;
   --zloto-jasne:    #A9761C;
-  --zloto-mgla:     rgba(138, 93, 18, .10);
-  --srebro:         #6C7C90;
+  --zloto-mgla:     rgba(196, 140, 33, .18);
+  --srebro:         #64748B;
   --miedz:          #9C5322;
 
-  --zielen:         #157F5B;
-  --czerwien:       #B33B33;
+  --zielen:         #0E7150;
+  --czerwien:       #B3332B;
   --bursztyn:       #8A5D12;
 
-  --poswiata: radial-gradient(70% 40% at 8% -6%, rgba(138, 93, 18, .08) 0%, transparent 66%),
-              radial-gradient(60% 42% at 96% 2%, rgba(47, 159, 204, .10) 0%, transparent 62%);
+  --poswiata: radial-gradient(72% 42% at 6% -8%, rgba(196, 140, 33, .20) 0%, transparent 64%),
+              radial-gradient(64% 44% at 98% 0%, rgba(47, 132, 204, .22) 0%, transparent 60%),
+              radial-gradient(100% 46% at 50% 106%, rgba(16, 60, 110, .14) 0%, transparent 70%);
 
-  --cien:      0 8px 22px -16px rgba(14, 31, 56, .5);
-  --cien-duzy: 0 22px 48px -26px rgba(14, 31, 56, .45);
+  --cien:      0 6px 18px -10px rgba(11, 27, 51, .28);
+  --cien-duzy: 0 24px 46px -22px rgba(11, 27, 51, .34);
 }
+
+/* Karta w jasnym motywie: czysta biel bez przydymienia i odrobinę mocniejsza
+   krawędź, żeby na barwnym tle była wyraźnym prostokątem, a nie plamą. */
+:root[data-motyw="jasny"] .karta { background: var(--plyta-pelna); }
+:root[data-motyw="jasny"] .karta::before { opacity: .5; }
+:root[data-motyw="jasny"] .hero-nazwa { color: #0B1B33; }
 
 * { box-sizing: border-box; }
 
@@ -608,7 +620,7 @@ main {
 /* Godła malowane metalicznym gradientem (stroke = url z <defs> w każdym svg),
    kolor wg poziomu; wypełnienie i obrys idą z atrybutów inline, więc CSS ich
    nie nadpisuje. Oprawa Gracza Miesiąca dokłada koronę i złotą poświatę. */
-.godlo { display: block; overflow: visible; }
+.godlo { display: block; margin-inline: auto; overflow: visible; }
 .godlo-korona { fill: color-mix(in srgb, currentColor 30%, transparent); }
 .mini-godlo { flex: none; display: block; }
 
@@ -1113,3 +1125,252 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
   text-transform: uppercase; letter-spacing: .05em; }
 
 .arkusz-poziom { text-align: center; font-size: 12px; color: var(--tekst-cichy); margin: -4px 0 8px; }
+
+/* ==========================================================================
+   Przebudowa 2026-09-15: zwycięstwa zamiast salda, singiel obok debla,
+   elastyczny format i zamek na zapisany wieczór.
+   ========================================================================== */
+
+/* ---------------------------------------- przełącznik Debel / Singiel */
+
+.przelacznik-trybu {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 12px;
+  padding: 4px;
+  background: var(--plyta);
+  border: 1px solid var(--kreska);
+  border-radius: 14px;
+}
+.tryb-przycisk {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 42px;
+  padding: 8px 10px;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  color: var(--tekst-cichy);
+  font: 700 15px/1 var(--naglowkowy);
+  cursor: pointer;
+  transition: background .16s, color .16s;
+}
+.tryb-przycisk span { font-size: 15px; }
+.tryb-przycisk.wybrany {
+  background: var(--plyta-pelna);
+  color: var(--tekst);
+  box-shadow: var(--cien);
+}
+.przelacznik-trybu .dymek { flex: 0 0 auto; margin-right: 4px; }
+
+/* ------------------------------------------------ liczby zwycięstw */
+
+.wiersz-wygrane,
+.lista-wygrane {
+  display: flex;
+  align-items: baseline;
+  gap: 3px;
+  justify-self: end;
+}
+.wiersz-wygrane b,
+.lista-wygrane b {
+  font: 800 20px/1 var(--naglowkowy);
+  font-variant-numeric: tabular-nums;
+  color: var(--tekst);
+}
+.wiersz-wygrane em,
+.lista-wygrane em {
+  font: 700 11px/1 var(--zwykly);
+  font-style: normal;
+  letter-spacing: .06em;
+  color: var(--tekst-ledwie);
+}
+.podium-1 .wiersz-wygrane b { color: var(--zloto); }
+
+.seria-znak {
+  margin-left: 7px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: var(--zloto-mgla);
+  color: var(--zloto);
+  font: 800 11px/1.4 var(--zwykly);
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.mvp-liczba {
+  font: 800 15px/1 var(--naglowkowy);
+  color: var(--zloto);
+  font-variant-numeric: tabular-nums;
+}
+
+.lista-kryteriow {
+  margin: 4px 0 10px;
+  padding-left: 1.25em;
+  color: var(--tekst-cichy);
+  font-size: 14px;
+}
+.lista-kryteriow li { margin: 4px 0; }
+.lista-kryteriow b { color: var(--tekst); }
+
+/* ------------------------------------------------- lista wyniku dnia */
+
+.lista-wynikow { list-style: none; margin: 0; padding: 0; }
+.lista-wynikow li {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: "imie wygrane" "detal wygrane";
+  align-items: center;
+  gap: 2px 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--kreska);
+}
+.lista-wynikow li:last-child { border-bottom: 0; }
+.lista-wynikow .lista-imie { grid-area: imie; font-weight: 700; }
+.lista-wynikow .lista-detal {
+  grid-area: detal;
+  font-size: 12.5px;
+  color: var(--tekst-ledwie);
+  font-variant-numeric: tabular-nums;
+}
+.lista-wynikow .lista-wygrane { grid-area: wygrane; }
+.lista-wynikow li.mvp .lista-imie { color: var(--zloto); }
+
+/* ------------------------------------------------------ format meczu */
+
+.format-wybor { margin-top: 12px; }
+.pole-etykieta {
+  display: block;
+  margin-bottom: 7px;
+  font: 700 12px/1 var(--zwykly);
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: var(--tekst-ledwie);
+}
+.chip-wlasny, .chip-dopisz { border-style: dashed; }
+.chipy-format { margin-top: 4px; }
+
+.btn-format {
+  min-height: 32px;
+  padding: 5px 10px;
+  border: 1px solid var(--kreska-mocna);
+  border-radius: 9px;
+  background: var(--plyta);
+  color: var(--tekst-cichy);
+  font: 700 12.5px/1 var(--zwykly);
+  font-variant-numeric: tabular-nums;
+  cursor: pointer;
+}
+.btn-format:active { background: var(--plyta-mocna); }
+.btn-format:disabled { opacity: .45; cursor: not-allowed; }
+
+.znacznik-trybu {
+  margin-left: 7px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font: 700 11px/1.5 var(--zwykly);
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  border: 1px solid var(--kreska-mocna);
+  color: var(--tekst-cichy);
+}
+.znacznik-singiel {
+  border-color: color-mix(in srgb, var(--zloto) 45%, transparent);
+  color: var(--zloto);
+  background: var(--zloto-mgla);
+}
+
+/* --------------------------------------------------- karta meczu */
+
+.mecz-strona.wygrala .mecz-para { color: var(--tekst); font-weight: 800; }
+.mecz-ptaszek {
+  margin-left: 6px;
+  color: var(--zielen);
+  font-size: 14px;
+}
+.mecz-stopka .punkciki {
+  color: var(--tekst-ledwie);
+  font-variant-numeric: tabular-nums;
+}
+.znak-ok { color: var(--zielen); font-weight: 700; }
+.znak-toku { color: var(--tekst-ledwie); }
+
+.chip .chip-strona {
+  display: inline-grid;
+  place-items: center;
+  width: 17px; height: 17px;
+  margin-right: 6px;
+  border-radius: 5px;
+  background: currentColor;
+  color: var(--tlo);
+  font: 800 10px/1 var(--zwykly);
+  font-style: normal;
+}
+.chip.strona-a { border-color: var(--zielen); color: var(--zielen); }
+.chip.strona-b { border-color: var(--zloto); color: var(--zloto); }
+.chip.strona-a .chip-strona,
+.chip.strona-b .chip-strona { color: var(--plyta-pelna); }
+
+/* ---------------------------------------------------------- zamek */
+
+.pasek-zamka {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  padding: 12px 14px;
+  border: 1px solid color-mix(in srgb, var(--zloto) 40%, transparent);
+  border-radius: var(--r-s);
+  background: var(--zloto-mgla);
+}
+.pasek-zamka-ikona { font-size: 20px; }
+.pasek-zamka b { display: block; color: var(--zloto); }
+.pasek-zamka span { font-size: 13px; color: var(--tekst-cichy); }
+
+.karta-zapis .btn-glowny { margin-top: 4px; }
+.karta-zapis.zapisany { border-color: color-mix(in srgb, var(--zloto) 32%, transparent); }
+.ostrzezenie-tekst { color: var(--bursztyn); }
+
+.termin-zamkniety .termin-znak { opacity: .9; }
+
+/* -------------------------------------------------------- przydomki */
+
+.godlo-puste { opacity: .55; }
+.druzyna-pusty { opacity: .8; }
+.druzyna-pusty em { font-style: italic; color: var(--tekst-ledwie); }
+
+.przydomek-poziom {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 8px;
+  border-radius: 999px;
+  font: 700 10.5px/1.6 var(--zwykly);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  border: 1px solid currentColor;
+}
+.poziom-braz   { color: var(--miedz); }
+.poziom-srebro { color: var(--srebro); }
+.poziom-zloto  { color: var(--zloto); }
+
+/* ------------------------------------------------------- drobiazgi */
+
+.laurka-tryb {
+  margin-left: 5px;
+  font: 700 10px/1 var(--zwykly);
+  font-style: normal;
+  color: var(--tekst-ledwie);
+  vertical-align: super;
+}
+
+.arkusz .pola-obok { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+@media (max-width: 380px) {
+  .arkusz .pola-obok { grid-template-columns: 1fr; }
+  .tryb-przycisk { font-size: 14px; }
+}
+.chip:disabled { opacity: .45; cursor: not-allowed; }

@@ -142,6 +142,29 @@ export async function usunMecz(data, nr) {
   } catch (blad) { console.warn('Kasowanie meczu poszło do kolejki:', blad); }
 }
 
+/* Zamek — patrz zamek.js. Zamknięcie to zwykły zapis pola; odblokowanie musi
+   dodatkowo nieść skrót kodu, bo tego wymagają reguły Firestore. */
+
+export async function zamknijWieczor(data) {
+  podmienLokalnie(data, (w) => ({ ...w, zamkniety: true }));
+  try {
+    const { db, f } = await baza();
+    await f.setDoc(f.doc(db, KOLEKCJA, data),
+      { data, zamkniety: true, kod: f.deleteField(), zaktualizowano: f.serverTimestamp() },
+      { merge: true });
+  } catch (blad) { console.warn('Zamknięcie wieczoru poszło do kolejki:', blad); }
+}
+
+export async function odblokujWieczor(data, hashKodu) {
+  podmienLokalnie(data, (w) => ({ ...w, zamkniety: false }));
+  try {
+    const { db, f } = await baza();
+    await f.setDoc(f.doc(db, KOLEKCJA, data),
+      { data, zamkniety: false, kod: hashKodu, zaktualizowano: f.serverTimestamp() },
+      { merge: true });
+  } catch (blad) { console.warn('Odblokowanie wieczoru poszło do kolejki:', blad); }
+}
+
 export async function usunWieczor(data) {
   ostatnie = ostatnie.filter((w) => w.data !== data);
   zapiszKopie(ostatnie);

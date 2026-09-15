@@ -17,28 +17,75 @@ export const GRACZE = [
 export const GOSC = { id: 'gosc', imie: 'Gość', skrot: 'GOŚ' };
 
 export function gracz(id) {
-  return GRACZE.find((g) => g.id === id) ?? (id === GOSC.id ? GOSC : { id, imie: id, skrot: '???' });
+  const stały = GRACZE.find((g) => g.id === id);
+  if (stały) return stały;
+  // Dopisane osoby (gosc, gosc1, gosc2…) mają imię tylko w swoim wieczorze —
+  // patrz imieW niżej. Tu, bez kontekstu wieczoru, zostaje ogólne „Gość”,
+  // żeby nigdzie nie wyświetlił się surowy identyfikator.
+  if (String(id).startsWith('gosc')) return { id, imie: 'Gość', skrot: 'GOŚ' };
+  return { id, imie: String(id), skrot: '???' };
 }
+
+/** Imię widoczne na ekranie. Dopisane osoby („goście”) siedzą w samym
+    wieczorze — dzięki temu na jeden wtorek można zaprosić kogo się chce,
+    a stała czwórka zostaje stałą czwórką. */
+export function imieW(wieczor, id) {
+  const dopisani = wieczor?.goscie ?? {};
+  if (dopisani[id]) return dopisani[id];
+  if (id === GOSC.id) return wieczor?.goscImie || 'Gość';
+  return gracz(id).imie;
+}
+
+export const czyGosc = (id) => id === GOSC.id || String(id).startsWith('gosc');
 
 /* ------------------------------------------------------------------ format */
 
-/* Format obowiązujący: DO DWÓCH WYGRANYCH SETÓW, sety do 15 — tak samo
-   w deblu i w singlu. Przy stanie 15:15 gra się na przewagę dwóch punktów,
-   bez górnego limitu (17:15, 21:19, i dalej), dlatego pola na wynik przyjmują
-   liczby dużo powyżej piętnastu.
+/* Format jest teraz DWIEMA liczbami, nie jednym sztywnym wyborem:
+     setow — ile wygranych setów kończy mecz (1 albo 2),
+     doIlu — do ilu punktów gra się seta.
+   Domyślnie „do dwóch wygranych setów, sety do 15”, ale można ustawić
+   szybką gierkę do 7 w jednym secie i nic w tabeli się nie sypie — liczymy
+   wygrane mecze, a mecz to mecz. Przy remisie na styku (np. 15:15) zawsze
+   gra się na przewagę dwóch punktów, bez górnego limitu, więc pola na wynik
+   przyjmują liczby dużo powyżej granicy seta. */
+export const FORMAT_DOMYSLNY = { setow: 2, doIlu: 15 };
 
-   Pozostałe warianty zostają w menu na wypadek krótszej rezerwacji hali;
-   saldo liczy się identycznie w każdym z nich, więc format można zmienić
-   nawet w środku sezonu bez psucia tabeli. */
-export const FORMATY = {
-  '3x15': { nazwa: 'Do 2 wygranych setów (do 15)', setow: 3, doIlu: 15, dogrywka: true, czas: '60–100 minut' },
-  // Warianty awaryjne na krótszą halę. Zasada przewagi dwóch punktów przy
-  // remisie na styku obowiązuje w każdym z nich — to reguła gry, nie formatu.
-  '2x15': { nazwa: '2 sety do 15, bez trzeciego', setow: 2, doIlu: 15, dogrywka: false, czas: 'około 70 minut' },
-  '2x11': { nazwa: '2 sety do 11, bez trzeciego', setow: 2, doIlu: 11, dogrywka: false, czas: 'około 50 minut' },
-  '1x21': { nazwa: '1 set do 21',  setow: 1, doIlu: 21, dogrywka: false, czas: 'około 55 minut' },
+/** Gotowce do jednego dotknięcia. Ostatnia pozycja („własny”) otwiera pola. */
+export const FORMATY_SZYBKIE = [
+  { setow: 2, doIlu: 15 },
+  { setow: 2, doIlu: 11 },
+  { setow: 1, doIlu: 21 },
+  { setow: 1, doIlu: 15 },
+  { setow: 1, doIlu: 11 },
+  { setow: 1, doIlu: 7 },
+];
+
+/* Stare wieczory trzymały format jako klucz tekstowy ('3x15'). Mapujemy je
+   na nowy kształt, żeby nic z historii nie zniknęło. */
+const STARE_FORMATY = {
+  '3x15': { setow: 2, doIlu: 15 },
+  '2x15': { setow: 2, doIlu: 15 },
+  '2x11': { setow: 2, doIlu: 11 },
+  '1x21': { setow: 1, doIlu: 21 },
 };
-export const FORMAT_DOMYSLNY = '3x15';
+
+export function normalizujFormat(f) {
+  if (typeof f === 'string') return STARE_FORMATY[f] ?? { ...FORMAT_DOMYSLNY };
+  const setow = f?.setow === 1 ? 1 : 2;
+  const doIlu = Number.isFinite(f?.doIlu) && f.doIlu >= 3 && f.doIlu <= 99
+    ? Math.round(f.doIlu) : FORMAT_DOMYSLNY.doIlu;
+  return { setow, doIlu };
+}
+
+export function opisFormatu(f) {
+  const { setow, doIlu } = normalizujFormat(f);
+  return setow === 1 ? `1 set do ${doIlu}` : `do 2 wygranych setów, do ${doIlu}`;
+}
+
+export function krotkiFormat(f) {
+  const { setow, doIlu } = normalizujFormat(f);
+  return setow === 1 ? `1×${doIlu}` : `2×${doIlu}`;
+}
 
 /* ---------------------------------------------------------------- kalendarz */
 

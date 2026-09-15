@@ -5,11 +5,11 @@
    hasło i dokładny warunek, jaki trzeba spełnić, żeby go dostać.
    ========================================================================== */
 
-import { GRACZE, gracz, poPolsku, krotkaData, SEZON } from './dane.js';
+import { GRACZE, gracz, imieW, poPolsku, krotkaData, SEZON } from './dane.js';
 import { graczMiesiaca, przydomkiGraczy, historiaMvp, PRZYDOMKI, POZIOMY, godlo } from './tytuly.js';
 import { rekordySezonu } from './liczenie.js';
 import { naglowekZPomoca, dymek } from './pomoc.js';
-import { zeZnakiem, arkusz, bez } from './ui.js';
+import { arkusz, bez, odmianaWygranych, odmianaMeczow } from './ui.js';
 
 export function render(kontener, ctx) {
   const { aktualny, wToku, wszystkie } = graczMiesiaca(ctx.wieczory);
@@ -24,7 +24,7 @@ export function render(kontener, ctx) {
     ${kartaBigBossa(aktualny, wToku)}
     ${kartaDruzyna(ctx.wieczory)}
     ${kartaMvp(mvpy)}
-    ${kartaRekordy(rekordySezonu(ctx.wieczory))}
+    ${kartaRekordy(rekordySezonu(ctx.wieczory), ctx.wieczory)}
     ${kartaHistorii(wszystkie)}
     ${kartaPucharu()}
     ${kartaKatalogu()}`;
@@ -51,19 +51,19 @@ function kartaBigBossa(aktualny, wToku) {
     ${naglowekZPomoca('Gracz Miesiąca', 'bigboss', { dodatek: biezacy
       ? '<span class="plakietka-live">na żywo</span>' : '' })}
     <div class="boss-tresc">
-      <div class="boss-godlo">${godlo(p.id, { rozmiar: 96, reign: true })}</div>
+      <div class="boss-godlo">${godlo(p?.id ?? null, { rozmiar: 96, reign: true })}</div>
       <div class="boss-opis">
         <strong class="boss-imie">${gracz(okres.zwyciezca.id).imie}</strong>
-        <span class="boss-przydomek">„${p.nazwa}”</span>
-        <span class="boss-haslo">${p.haslo}</span>
-        <span class="boss-okres">${biezacy ? 'Prowadzi — ' : ''}${okres.nazwa} · saldo ${zeZnakiem(okres.zwyciezca.saldo)}</span>
-        <button class="btn btn-maly" type="button" data-przydomek="${p.id}">Za co ten przydomek?</button>
+        <span class="boss-przydomek">${p ? `„${bez(p.nazwa)}”` : 'bez przydomka'}</span>
+        <span class="boss-haslo">${p ? bez(p.haslo) : 'Wygrywa, ale na ksywkę jeszcze nie zapracował'}</span>
+        <span class="boss-okres">${biezacy ? 'Prowadzi — ' : ''}${okres.nazwa} · ${okres.zwyciezca.meczeW} ${odmianaWygranych(okres.zwyciezca.meczeW)}</span>
+        ${p ? `<button class="btn btn-maly" type="button" data-przydomek="${p.id}">Za co ten przydomek?</button>` : ''}
       </div>
     </div>
     ${biezacy ? `<p class="boss-nota">To układ na dziś — tytuł zamknie się z końcem miesiąca.
       Do tego czasu każdy dobry wieczór może go przejąć.</p>` : (wToku?.zwyciezca ? `<p class="boss-nota">
       W bieżącym okresie (${wToku.nazwa}) prowadzi <b>${gracz(wToku.zwyciezca.id).imie}</b> —
-      ${zeZnakiem(wToku.zwyciezca.saldo)}.</p>` : '')}
+      ${wToku.zwyciezca.meczeW} ${odmianaWygranych(wToku.zwyciezca.meczeW)}.</p>` : '')}
   </section>`;
 }
 
@@ -76,16 +76,17 @@ function kartaDruzyna(wieczory) {
     <div class="druzyna">
       ${GRACZE.map((g) => {
         const { przydomek: p, reign } = mapa.get(g.id);
-        return `<button class="druzyna-kafel ${reign ? 'druzyna-krol' : ''}" type="button" data-przydomek="${p.id}">
-          ${godlo(p.id, { rozmiar: 60, reign })}
+        return `<button class="druzyna-kafel ${reign ? 'druzyna-krol' : ''} ${p ? '' : 'druzyna-pusty'}"
+          type="button" ${p ? `data-przydomek="${p.id}"` : 'disabled'}>
+          ${godlo(p?.id ?? null, { rozmiar: 60, reign })}
           <b>${gracz(g.id).imie}</b>
-          <em>${p.nazwa}</em>
+          <em>${p ? bez(p.nazwa) : 'bez przydomka'}</em>
           ${reign ? '<span class="druzyna-krol-tag">👑 Gracz Miesiąca</span>' : ''}
         </button>`;
       }).join('')}
     </div>
-    <p class="wskazowka">Każdy nosi swój przydomek — rośnie razem z formą. Kto jest Graczem Miesiąca,
-    tego godło świeci na złoto.</p>
+    <p class="wskazowka">Na starcie nikt nie ma przydomka — trzeba sobie zasłużyć albo przechlapać.
+    Kto jest Graczem Miesiąca, tego godło świeci i dostaje koronę.</p>
   </section>`;
 }
 
@@ -96,7 +97,7 @@ function kartaMvp(mvpy) {
       ${mvpy.slice(0, 12).map((x) => `<li>
         <span class="mvp-data">${krotkaData(x.data)}</span>
         <span class="mvp-kto">${x.mvp.gracze.map((i) => bez(gracz(i).imie)).join(' i ')}</span>
-        <span class="mvp-saldo plus">${zeZnakiem(x.mvp.saldo)}</span>
+        <span class="mvp-liczba">${x.mvp.wygrane} W</span>
       </li>`).join('')}
     </ul>` : '<p class="pusto">Pierwszy MVP czeka na pierwszy rozegrany wtorek.</p>'}
   </section>`;
@@ -104,19 +105,23 @@ function kartaMvp(mvpy) {
 
 /* ------------------------------------------------------------- rekordy */
 
-function kartaRekordy(rek) {
+function kartaRekordy(rek, wieczory) {
   if (!rek) return '';
   const im = (id) => bez(gracz(id).imie);
-  const para = (ids) => ids.map(im).join(' + ');
+  // Dopisane osoby żyją tylko w swoim wieczorze, więc imię trzeba wziąć stamtąd
+  // — inaczej w rekordzie wyświetliłoby się surowe „gosc1”.
+  const imDnia = (id, data) => bez(imieW(wieczory.find((w) => w.data === data), id));
+  const para = (ids, data) => ids.map((id) => imDnia(id, data)).join(' + ');
   const wiersze = [];
   if (rek.najlepszyWieczor) wiersze.push(['🔥', 'Najlepszy wieczór',
-    `${im(rek.najlepszyWieczor.id)} · ${zeZnakiem(rek.najlepszyWieczor.saldo)} · ${poPolsku(rek.najlepszyWieczor.data)}`]);
+    `${im(rek.najlepszyWieczor.id)} · ${rek.najlepszyWieczor.wygrane}W-${rek.najlepszyWieczor.przegrane}P · ${poPolsku(rek.najlepszyWieczor.data)}`]);
   if (rek.najwiekszyPogrom) wiersze.push(['💥', 'Największy pogrom',
-    `${para(rek.najwiekszyPogrom.wygrani)} rozbili ${para(rek.najwiekszyPogrom.przegrani)} · różnica ${rek.najwiekszyPogrom.roznica}`]);
-  if (rek.najdluzszaSeria) wiersze.push(['🚂', 'Najdłuższa seria setów',
-    `${im(rek.najdluzszaSeria.id)} · ${rek.najdluzszaSeria.dlugosc} z rzędu`]);
+    `${para(rek.najwiekszyPogrom.wygrani, rek.najwiekszyPogrom.data)} rozbili `
+    + `${para(rek.najwiekszyPogrom.przegrani, rek.najwiekszyPogrom.data)} · różnica ${rek.najwiekszyPogrom.roznica}`]);
+  if (rek.najdluzszaSeria) wiersze.push(['🚂', 'Najdłuższa seria zwycięstw',
+    `${im(rek.najdluzszaSeria.id)} · ${rek.najdluzszaSeria.dlugosc} ${odmianaMeczow(rek.najdluzszaSeria.dlugosc)} z rzędu`]);
   if (rek.najlepszyDuet) wiersze.push(['🤝', 'Najlepszy duet',
-    `${para(rek.najlepszyDuet.para)} · ${zeZnakiem(rek.najlepszyDuet.saldo)} razem`]);
+    `${rek.najlepszyDuet.para.map(im).join(' + ')} · ${rek.najlepszyDuet.wygrane}W-${rek.najlepszyDuet.przegrane}P razem`]);
   if (!wiersze.length) return '';
   return `<section class="karta">
     <h2 class="karta-tytul">Rekordy sezonu</h2>
@@ -138,12 +143,12 @@ function kartaHistorii(okresy) {
     <h2 class="karta-tytul">Galeria Graczy Miesiąca</h2>
     <ul class="lista-bossow">
       ${zamkniete.slice().reverse().map((o) => `<li>
-        <span class="mini-godlo">${godlo(o.przydomek.id, { rozmiar: 34, reign: true })}</span>
+        <span class="mini-godlo">${godlo(o.przydomek?.id ?? null, { rozmiar: 34, reign: true })}</span>
         <span class="boss-wiersz">
-          <b>${gracz(o.zwyciezca.id).imie}</b> „${o.przydomek.nazwa}”
+          <b>${gracz(o.zwyciezca.id).imie}</b>${o.przydomek ? ` „${bez(o.przydomek.nazwa)}”` : ''}
           <em>${o.nazwa}${o.otwarty ? ' · w toku' : ''}</em>
         </span>
-        <span class="mvp-saldo">${zeZnakiem(o.zwyciezca.saldo)}</span>
+        <span class="mvp-liczba">${o.zwyciezca.meczeW} W</span>
       </li>`).join('')}
     </ul>
   </section>`;
@@ -165,14 +170,14 @@ function kartaPucharu() {
 
 function kartaKatalogu() {
   const grupy = [
-    ['braz', '🥉 Brąz — na start i za drobne wyczyny'],
-    ['srebro', '🥈 Srebro — dla ambitnych'],
-    ['zloto', '🥇 Złoto — najtrudniejsze'],
+    ['braz', '🥉 Brąz — pocieszne, za pech i słabszą passę'],
+    ['srebro', '🥈 Srebro — solidne, tu już coś umiesz'],
+    ['zloto', '🥇 Złoto — wyczyn'],
   ];
   return `<section class="karta">
     ${naglowekZPomoca('Wszystkie przydomki', 'przydomki')}
-    <p class="wskazowka">Każdy ma przydomek cały czas. Zakwalifikujesz się na lepszy — stary znika.
-    Dotknij godła, żeby zobaczyć pełny opis.</p>
+    <p class="wskazowka">Na starcie nikt nie ma przydomka. Zakwalifikujesz się na lepszy — stary znika.
+    Dotknij godła, żeby zobaczyć pełny opis i warunek.</p>
     ${grupy.map(([poz, tytul]) => `
       <h4 class="katalog-grupa">${tytul}</h4>
       <div class="katalog">
@@ -190,11 +195,12 @@ function opisPrzydomka(id) {
   const p = PRZYDOMKI.find((x) => x.id === id);
   if (!p) return;
   arkusz({
-    tytul: `„${p.nazwa}”`,
+    tytul: `„${bez(p.nazwa)}”`,
     tresc: `<div class="arkusz-godlo">${godlo(p.id, { rozmiar: 96 })}</div>
       <p class="arkusz-poziom">${{ zloto: '🥇 Złoto', srebro: '🥈 Srebro', braz: '🥉 Brąz' }[p.poziom]}</p>
-      <p class="arkusz-haslo">${p.haslo}</p>
-      <p>${p.opis}</p>
-      <p class="pomoc-nota">Przydomek nosi Gracz Miesiąca danego okresu — do chwili, gdy ktoś zdejmie mu tytuł.</p>`,
+      <p class="arkusz-haslo">${bez(p.haslo)}</p>
+      <p>${bez(p.opis)}</p>
+      <p class="pomoc-nota">Przydomki liczą się same, z Twoich wyników. Zawsze nosisz ten najlepszy,
+      na jaki się aktualnie łapiesz.</p>`,
   });
 }
