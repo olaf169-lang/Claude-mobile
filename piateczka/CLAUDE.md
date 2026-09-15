@@ -66,6 +66,18 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
   setów, bez dodatkowego wpisywania.
 - **Czcionka nagłówkowa: Space Grotesk** (był Outfit) — `index.html` + zmienna
   `--naglowkowy` w `styles.css`.
+- **Przydomki: 3 poziomy (brąz/srebro/złoto), per-gracz, na bieżąco.** Każdy
+  gracz ZAWSZE ma przydomek liczony z sezonowych statystyk (`przydomekGracza`
+  / `przydomkiGraczy` w `tytuly.js`); zdobywane awansują nad startowe, w obrębie
+  poziomu rotują z tygodniami. Na starcie każdy dostaje inny startowy. Gracz
+  Miesiąca NIE ma osobnego znaczka ani 4. poziomu — jego przydomek zostaje
+  w swoim kolorze, dostaje tylko poświatę w tym kolorze + koronę (`reign` w
+  `godlo()`). Godła to SVG z metalicznym gradientem wg poziomu. Nazwy poziomów
+  w UI po polsku (Brąz/Srebro/Złoto); id w kodzie ascii (braz/srebro/zloto).
+  Kolejność w katalogu: brąz→srebro→złoto. NIE dawaj forów/4. poziomu.
+- **Zmiana ksywek: świadomie NIE robiona.** Zostają Jacek/Tomek/Kafaar/
+  Piąteczka na sztywno w `GRACZE` (dane.js); zmiana na życzenie = edycja w
+  kodzie, bez edytora w apce (decyzja użytkownika 2026-09-15).
 - **Złoto tylko przy zaszczytach.** Pierwsze miejsce, MVP, Big Boss, Puchar.
   Jak zacznie być wszędzie, przestanie cokolwiek znaczyć.
 - **Kolory serii na wykresach są przypisane do gracza, nie do miejsca**
@@ -79,7 +91,7 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
 | `js/dane.js` | skład, formaty, kalendarz sezonu — same stałe |
 | `js/liczenie.js` | rotacja par, saldo, klasyfikacja, MVP |
 | `js/elo.js` | rating i szanse par (żadnych forów — patrz niżej) |
-| `js/tytuly.js` | okresy Big Bossa, dziewięć przydomków, godła SVG |
+| `js/tytuly.js` | Gracz Miesiąca, przydomki (3 poziomy, per-gracz), godła SVG z gradientem |
 | `js/pomoc.js` | **wszystkie** teksty regulaminu |
 | `js/wykresy.js` | iskry w tabeli, wykres ELO, paleta serii |
 | `js/baza.js` | Firestore + kopia w localStorage + tryb offline |

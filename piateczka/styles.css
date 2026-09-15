@@ -605,21 +605,23 @@ main {
 
 /* ----------------------------------------------------------------- godła */
 
-.godlo { display: block; color: var(--zloto); }
-.godlo-tarcza { stroke: color-mix(in srgb, var(--zloto) 55%, transparent); fill: var(--zloto-mgla); }
-.godlo-glif { stroke: var(--zloto-jasne); }
+/* Godła malowane metalicznym gradientem (stroke = url z <defs> w każdym svg),
+   kolor wg poziomu; wypełnienie i obrys idą z atrybutów inline, więc CSS ich
+   nie nadpisuje. Oprawa Gracza Miesiąca dokłada koronę i złotą poświatę. */
+.godlo { display: block; overflow: visible; }
+.godlo-korona { fill: color-mix(in srgb, currentColor 30%, transparent); }
 .mini-godlo { flex: none; display: block; }
 
 .karta-boss { border-color: color-mix(in srgb, var(--zloto) 32%, transparent); }
-.boss-tresc { display: flex; align-items: center; gap: 14px; }
+.boss-tresc { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 8px; }
 .boss-godlo { flex: none; }
-.boss-opis { display: grid; gap: 3px; min-width: 0; }
+.boss-opis { display: grid; gap: 3px; justify-items: center; min-width: 0; }
 .boss-imie { font-family: var(--naglowkowy); font-size: 21px; }
 .boss-przydomek { font-family: var(--naglowkowy); font-size: 15px; color: var(--zloto-jasne); font-weight: 700; }
 .boss-haslo { font-size: 13px; color: var(--tekst-cichy); font-style: italic; }
 .boss-okres { font-size: 12px; color: var(--tekst-ledwie); }
-.boss-opis .btn { margin-top: 7px; justify-self: start; }
-.boss-nota { margin: 12px 0 0; font-size: 12.5px; color: var(--tekst-cichy); }
+.boss-opis .btn { margin-top: 9px; justify-self: center; }
+.boss-nota { margin: 12px 0 0; font-size: 12.5px; color: var(--tekst-cichy); text-align: center; }
 
 .karta-boss-mini, .karta-mvp-mini { display: flex; align-items: center; gap: 12px; }
 .karta-boss-mini .boss-opis strong, .karta-mvp-mini .boss-opis strong { font-family: var(--naglowkowy); font-size: 16px; }
@@ -1061,3 +1063,53 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
   color: var(--tekst-ledwie);
   margin-top: 1px;
 }
+
+
+/* ---- Przydomki drużyny: emblemat na górze, tekst pod nim ---- */
+.druzyna { display: grid; grid-template-columns: repeat(2, 1fr); gap: 9px; }
+.druzyna-kafel {
+  appearance: none;
+  border: 1px solid var(--kreska);
+  background: var(--plyta);
+  border-radius: var(--r-s);
+  padding: 12px 8px 11px;
+  display: grid;
+  justify-items: center;
+  gap: 3px;
+  cursor: pointer;
+  color: var(--tekst);
+}
+.druzyna-kafel:active { background: var(--plyta-mocna); }
+.druzyna-kafel b { font-family: var(--naglowkowy); font-size: 15px; margin-top: 3px; }
+.druzyna-kafel em { font-style: normal; font-size: 12.5px; color: var(--tekst-cichy); }
+.druzyna-krol {
+  border-color: color-mix(in srgb, var(--zloto) 45%, transparent);
+  background: linear-gradient(180deg, var(--zloto-mgla), transparent 70%), var(--plyta);
+}
+.druzyna-krol em { color: var(--zloto-jasne); font-weight: 600; }
+.druzyna-krol-tag {
+  font-size: 10px; font-weight: 800; letter-spacing: .04em;
+  color: var(--zloto); text-transform: uppercase; margin-top: 2px;
+}
+
+/* ---- Katalog: nagłówki poziomów ---- */
+.katalog-grupa {
+  font-size: 13px;
+  color: var(--tekst-cichy);
+  margin: 16px 0 8px;
+  font-family: var(--naglowkowy);
+}
+.katalog-grupa:first-of-type { margin-top: 10px; }
+
+/* ---- Przydomek w szczegółach gracza: emblemat, pod nim tekst ---- */
+.szczegoly-przydomek {
+  display: grid;
+  justify-items: center;
+  gap: 2px;
+  margin-bottom: 14px;
+}
+.szczegoly-przydomek b { font-family: var(--naglowkowy); font-size: 16px; }
+.szczegoly-przydomek em { font-style: normal; font-size: 11px; color: var(--tekst-ledwie);
+  text-transform: uppercase; letter-spacing: .05em; }
+
+.arkusz-poziom { text-align: center; font-size: 12px; color: var(--tekst-cichy); margin: -4px 0 8px; }

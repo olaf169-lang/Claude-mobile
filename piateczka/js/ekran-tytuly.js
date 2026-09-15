@@ -5,8 +5,8 @@
    hasło i dokładny warunek, jaki trzeba spełnić, żeby go dostać.
    ========================================================================== */
 
-import { gracz, poPolsku, krotkaData, SEZON } from './dane.js';
-import { graczMiesiaca, historiaMvp, PRZYDOMKI, godlo } from './tytuly.js';
+import { GRACZE, gracz, poPolsku, krotkaData, SEZON } from './dane.js';
+import { graczMiesiaca, przydomkiGraczy, historiaMvp, PRZYDOMKI, POZIOMY, godlo } from './tytuly.js';
 import { rekordySezonu } from './liczenie.js';
 import { naglowekZPomoca, dymek } from './pomoc.js';
 import { zeZnakiem, arkusz, bez } from './ui.js';
@@ -22,6 +22,7 @@ export function render(kontener, ctx) {
     </div>
 
     ${kartaBigBossa(aktualny, wToku)}
+    ${kartaDruzyna(ctx.wieczory)}
     ${kartaMvp(mvpy)}
     ${kartaRekordy(rekordySezonu(ctx.wieczory))}
     ${kartaHistorii(wszystkie)}
@@ -50,7 +51,7 @@ function kartaBigBossa(aktualny, wToku) {
     ${naglowekZPomoca('Gracz Miesiąca', 'bigboss', { dodatek: biezacy
       ? '<span class="plakietka-live">na żywo</span>' : '' })}
     <div class="boss-tresc">
-      <div class="boss-godlo">${godlo(p.id, { rozmiar: 84 })}</div>
+      <div class="boss-godlo">${godlo(p.id, { rozmiar: 96, reign: true })}</div>
       <div class="boss-opis">
         <strong class="boss-imie">${gracz(okres.zwyciezca.id).imie}</strong>
         <span class="boss-przydomek">„${p.nazwa}”</span>
@@ -67,6 +68,26 @@ function kartaBigBossa(aktualny, wToku) {
 }
 
 /* --------------------------------------------------------------- MVP */
+
+function kartaDruzyna(wieczory) {
+  const mapa = przydomkiGraczy(wieczory);
+  return `<section class="karta">
+    ${naglowekZPomoca('Przydomki drużyny', 'przydomki')}
+    <div class="druzyna">
+      ${GRACZE.map((g) => {
+        const { przydomek: p, reign } = mapa.get(g.id);
+        return `<button class="druzyna-kafel ${reign ? 'druzyna-krol' : ''}" type="button" data-przydomek="${p.id}">
+          ${godlo(p.id, { rozmiar: 60, reign })}
+          <b>${gracz(g.id).imie}</b>
+          <em>${p.nazwa}</em>
+          ${reign ? '<span class="druzyna-krol-tag">👑 Gracz Miesiąca</span>' : ''}
+        </button>`;
+      }).join('')}
+    </div>
+    <p class="wskazowka">Każdy nosi swój przydomek — rośnie razem z formą. Kto jest Graczem Miesiąca,
+    tego godło świeci na złoto.</p>
+  </section>`;
+}
 
 function kartaMvp(mvpy) {
   return `<section class="karta">
@@ -117,7 +138,7 @@ function kartaHistorii(okresy) {
     <h2 class="karta-tytul">Galeria Graczy Miesiąca</h2>
     <ul class="lista-bossow">
       ${zamkniete.slice().reverse().map((o) => `<li>
-        <span class="mini-godlo">${godlo(o.przydomek.id, { rozmiar: 34 })}</span>
+        <span class="mini-godlo">${godlo(o.przydomek.id, { rozmiar: 34, reign: true })}</span>
         <span class="boss-wiersz">
           <b>${gracz(o.zwyciezca.id).imie}</b> „${o.przydomek.nazwa}”
           <em>${o.nazwa}${o.otwarty ? ' · w toku' : ''}</em>
@@ -143,17 +164,25 @@ function kartaPucharu() {
 /* ------------------------------------------------------------- katalog */
 
 function kartaKatalogu() {
+  const grupy = [
+    ['braz', '🥉 Brąz — na start i za drobne wyczyny'],
+    ['srebro', '🥈 Srebro — dla ambitnych'],
+    ['zloto', '🥇 Złoto — najtrudniejsze'],
+  ];
   return `<section class="karta">
     ${naglowekZPomoca('Wszystkie przydomki', 'przydomki')}
-    <p class="wskazowka">Przydomek nie jest losowy — appka sprawdza warunki po kolei, od najrzadszego
-    do najzwyklejszego, i przyznaje pierwszy pasujący. Dotknij godła, żeby zobaczyć pełny opis.</p>
-    <div class="katalog">
-      ${PRZYDOMKI.map((p) => `<button class="katalog-kafel" type="button" data-przydomek="${p.id}">
-        ${godlo(p.id, { rozmiar: 52 })}
-        <b>${p.nazwa}</b>
-        <em>${p.haslo}</em>
-      </button>`).join('')}
-    </div>
+    <p class="wskazowka">Każdy ma przydomek cały czas. Zakwalifikujesz się na lepszy — stary znika.
+    Dotknij godła, żeby zobaczyć pełny opis.</p>
+    ${grupy.map(([poz, tytul]) => `
+      <h4 class="katalog-grupa">${tytul}</h4>
+      <div class="katalog">
+        ${PRZYDOMKI.filter((p) => p.poziom === poz).map((p) => `
+          <button class="katalog-kafel" type="button" data-przydomek="${p.id}">
+            ${godlo(p.id, { rozmiar: 56 })}
+            <b>${p.nazwa}</b>
+            <em>${p.haslo}</em>
+          </button>`).join('')}
+      </div>`).join('')}
   </section>`;
 }
 
@@ -163,6 +192,7 @@ function opisPrzydomka(id) {
   arkusz({
     tytul: `„${p.nazwa}”`,
     tresc: `<div class="arkusz-godlo">${godlo(p.id, { rozmiar: 96 })}</div>
+      <p class="arkusz-poziom">${{ zloto: '🥇 Złoto', srebro: '🥈 Srebro', braz: '🥉 Brąz' }[p.poziom]}</p>
       <p class="arkusz-haslo">${p.haslo}</p>
       <p>${p.opis}</p>
       <p class="pomoc-nota">Przydomek nosi Gracz Miesiąca danego okresu — do chwili, gdy ktoś zdejmie mu tytuł.</p>`,
