@@ -1052,3 +1052,12 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
 .laurka-boss b { color: var(--zloto-jasne); }
 
 .kafelki-dol { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin-top: 10px; }
+
+/* Żartobliwy poziom formy przy ksywce w ELO */
+.poziom-formy {
+  display: inline-block;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--tekst-ledwie);
+  margin-top: 1px;
+}

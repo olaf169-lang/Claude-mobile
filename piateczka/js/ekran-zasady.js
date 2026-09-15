@@ -61,7 +61,7 @@ function przydomkiAkord() {
   return `<details class="karta akord">
     <summary class="akord-glowa">
       <span class="akord-godlo" aria-hidden="true">\ud83c\udf96\ufe0f</span>
-      <span class="akord-tytul"><b>Dziewięć przydomków</b><em>Za co Big Boss dostaje swoją ksywkę</em></span>
+      <span class="akord-tytul"><b>Dziewięć przydomków</b><em>Za co Gracz Miesiąca dostaje przydomek</em></span>
       <span class="akord-chevron" aria-hidden="true">\u203a</span>
     </summary>
     <div class="akord-tresc">
@@ -101,7 +101,7 @@ function kartaSciagi() {
         <tr><th>Bonus</th><td>+3 do salda za wygrany mecz, dla obu z wygranej pary</td></tr>
         <tr><th>Wygrana</th><td>więcej setów; przy 1:1 decyduje różnica punktów</td></tr>
         <tr><th>MVP</th><td>najlepsze saldo wieczoru</td></tr>
-        <tr><th>Big Boss</th><td>najlepsze saldo miesiąca + przydomek</td></tr>
+        <tr><th>Gracz Miesiąca</th><td>najlepsze saldo miesiąca + przydomek</td></tr>
         <tr><th>Nieobecność</th><td>0 punktów — nie zyskujesz i nie tracisz</td></tr>
         <tr><th>Trzech graczy</th><td>single każdy z każdym, liczy się normalnie</td></tr>
         <tr><th>Gość</th><td>gra i ma saldo, ale poza tabelą i poza ELO</td></tr>

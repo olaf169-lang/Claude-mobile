@@ -106,18 +106,16 @@ export const POMOC = {
   },
 
   bigboss: {
-    tytul: 'Big Boss — gracz miesiąca',
+    tytul: 'Gracz Miesiąca',
     tresc: `<p>Najwyższe <b>saldo w miesiącu</b>. Tytuł nosi się przez cały następny miesiąc — do chwili,
-      gdy ktoś go zdejmie. Razem z tytułem dostaje się <b>przydomek</b>.</p>
-      <p>Miesiąc, w którym graliście tylko raz, to za mało na tytuł — taki miesiąc dokleja się do następnego
-      i powstaje okres typu „Grudzień + Styczeń”. To ukłon w stronę świąt: sezon ma dziury i tytuł nie może
-      zależeć od tego, ile razy udało się wyjść z domu.</p>
-      <p class="pomoc-nota">Dopóki miesiąc trwa, appka pokazuje tylko <i>prowadzącego</i>. Big Bossem
-      zostaje się dopiero, gdy miesiąc się zamknie.</p>`,
+      aż ktoś go zdejmie. Nie dostajesz osobnego znaczka „Gracz Miesiąca": zamiast tego <b>Twój przydomek
+      zaczyna świecić na złoto</b>, żeby było widać, kto tu rządzi.</p>
+      <p class="pomoc-nota">Wystarczy jeden rozegrany wtorek. Dopóki miesiąc trwa, widać
+      <i>prowadzącego</i> — tytuł twardnieje z końcem miesiąca.</p>`,
   },
 
   przydomki: {
-    tytul: 'Przydomki Big Bossa',
+    tytul: 'Przydomki',
     tresc: `<p>Przydomek nie jest losowy — opisuje, <b>czym</b> wygrałeś ten miesiąc. Appka sprawdza warunki
       po kolei, od najrzadszego do najzwyklejszego, i przyznaje pierwszy pasujący.</p>
       <p>Jest ich dziewięć, każdy z własnym godłem. „Feniks” za skok z ostatniego miejsca na pierwsze,
