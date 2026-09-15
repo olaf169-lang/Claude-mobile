@@ -16,7 +16,7 @@ import { ukladMeczow, wynikMeczu, ilePolNaSety, formatMeczu, meczKompletny,
 import { dymek, naglowekZPomoca } from './pomoc.js';
 import { bez, potwierdz, komunikat, zapytaj, arkusz, zamknijArkusz,
   odmianaMeczow } from './ui.js';
-import { kodPasuje, skrot, zamkniety } from './zamek.js';
+import { kodPasuje, skrot, ujednolic, zamkniety } from './zamek.js';
 import * as baza from './baza.js';
 import { pochwalSie } from './pochwal.js';
 
@@ -378,7 +378,7 @@ function podepnij(kontener, ctx) {
     });
     if (!kod) return;
     if (!await kodPasuje(kod)) { komunikat('Kod się nie zgadza', 'blad'); return; }
-    await baza.odblokujWieczor(wybranaData, await skrot(kod.trim().toUpperCase()));
+    await baza.odblokujWieczor(wybranaData, await skrot(ujednolic(kod)));
     komunikat('🔓 Wieczór otwarty — poprawiaj i zapisz na nowo');
   });
 

@@ -189,7 +189,7 @@ service cloud.firestore {
       function zdejmujeZamek() {
         return request.resource.data.zamkniety == false
                && request.resource.data.kod ==
-                  'd53091710a15a2c668ab497907078c174b5d3afbfafd0e5bcfbc2ad27b628b1f';
+                  '41412a63136be8612bf0f25c80c89c18bb1d2b3aa0caff9bd6f4070c736474c1';
       }
 
       allow create: if ksztaltOk();

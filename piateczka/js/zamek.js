@@ -16,7 +16,7 @@
    tekst) nigdy nie trafia do repozytorium.
    ========================================================================== */
 
-export const HASH_KODU = 'd53091710a15a2c668ab497907078c174b5d3afbfafd0e5bcfbc2ad27b628b1f';
+export const HASH_KODU = '41412a63136be8612bf0f25c80c89c18bb1d2b3aa0caff9bd6f4070c736474c1';
 
 export async function skrot(tekst) {
   const bajty = new TextEncoder().encode(tekst);
@@ -24,10 +24,18 @@ export async function skrot(tekst) {
   return [...new Uint8Array(bufor)].map((b) => b.toString(16).padStart(2, '0')).join('');
 }
 
+/** Kod sprowadzony do jednej postaci przed policzeniem skrótu: bez spacji
+    wokół, wielkimi literami i w NFC. Normalizacja NIE jest ozdobnikiem —
+    w kodzie jest polski znak, a klawiatury potrafią wysłać „ą” jako jedną
+    literę (U+0105) albo jako „a” plus ogonek doklejony osobno (U+0061 U+0328).
+    Bajty wychodzą wtedy różne, więc bez NFC ten sam wpisany kod raz by
+    pasował, a raz nie. */
+export const ujednolic = (kod) => String(kod ?? '').normalize('NFC').trim().toUpperCase();
+
 /** Czy podany kod pasuje. Wielkość liter i spacje wokół nie mają znaczenia. */
 export async function kodPasuje(kod) {
   try {
-    return await skrot(String(kod ?? '').trim().toUpperCase()) === HASH_KODU;
+    return await skrot(ujednolic(kod)) === HASH_KODU;
   } catch {
     return false;   // brak crypto.subtle (http bez TLS) — lepiej nie wpuszczać
   }
