@@ -64,7 +64,7 @@ export function render(kontener, ctx) {
       <p class="wskazowka">Dotknij wiersza, żeby zobaczyć szczegóły gracza.</p>`
       : `<p class="pusto">Nic tu jeszcze nie rozegrano. ${tryb === 'singiel'
           ? 'Singla dorzucisz przyciskiem „Dograj mecz” na ekranie'
-          : 'Pierwszy wynik wpiszecie na ekranie'} <a href="#/wieczor">Wieczór</a>.</p>`}
+          : 'Pierwszy wynik wpiszecie na ekranie'} <a href="#/wieczor">Gra</a>.</p>`}
     </section>
 
     <section class="karta">
@@ -76,7 +76,7 @@ export function render(kontener, ctx) {
         <li><b>Mecz bezpośredni</b>: jak wszystko równe, decyduje, kto kogo ogrywał.</li>
       </ol>
       <p class="wskazowka">Punkty stracone nie liczą się w ogóle. Przegrana to przegrana,
-      a to, że przegrałeś na styku, widać w 🏸ELO🏸.</p>
+      a to, że przegrałeś na styku, widać w Formie.</p>
     </section>`;
 
   kontener.querySelectorAll('[data-tryb]').forEach((el) =>
@@ -151,7 +151,7 @@ function szczegoly(id, tabela, wieczory, tryb) {
             <b class="plus">${skutecznosc(zagr).procent}%</b></li>
         </ul>
         <p class="pomoc-nota">Z ${sedziowanych} ${sedziowanych === 1 ? 'sędziowanego meczu' : 'sędziowanych meczów'}.
-        Nie liczy się do tabeli ani do 🏸ELO🏸.</p>` : ''}
+        Nie liczy się do tabeli ani do Formy.</p>` : ''}
       <h4>W parze z kim (bilans W:P)</h4>
       ${lista(r.partnerzy, 'W tym trybie nie było jeszcze partnerów, singla gra się samemu.')}
       <h4>Przeciw komu (bilans W:P)</h4>

@@ -12,7 +12,7 @@ import { zapros } from './pochwal.js';
 
 const KAFELKI = [
   { href: '#/tabela',    ikona: '📊', nazwa: 'Tabela',    opis: 'Debel i singiel osobno' },
-  { href: '#/elo',       ikona: '🏸', nazwa: 'ELO',       opis: 'Forma i seria zwycięstw' },
+  { href: '#/elo',       ikona: '🏸', nazwa: 'Forma',     opis: 'Krzywa i seria zwycięstw' },
   { href: '#/tytuly',    ikona: '🏆', nazwa: 'Tytuły',    opis: 'MVP, Gracz Miesiąca, Puchar' },
   { href: '#/kalendarz', ikona: '📅', nazwa: 'Kalendarz', opis: 'Terminy i wyniki' },
   { href: '#/zasady',    ikona: '📖', nazwa: 'Zasady',    opis: 'Jak to działa' },
@@ -102,7 +102,7 @@ function kartaCzworki(pelna, ja) {
     </ol>` : `<p class="pusto">${trybSkrotu === 'singiel'
         ? 'Żadnego singla jeszcze nie rozegraliście.'
         : 'Sezon jeszcze się nie zaczął.'} Pierwszy wynik wpiszecie na ekranie
-      <a href="#/wieczor">Wieczór</a>.</p>`}
+      <a href="#/wieczor">Gra</a>.</p>`}
   </section>`;
 }
 

@@ -147,6 +147,14 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
   w tabeli. Złapane testem 2026-09-16; `pasujacePrzydomki(id, wieczory)`
   pokazuje WSZYSTKIE trafione warunki, nie tylko zwycięski, bez tego
   słabszy trafiony warunek jest niewidoczny i takie wpadki przechodzą.
+- **Nazwy w UI: „Gra” i „Forma”.** Ekran wpisywania to w menu i w tytule „Gra”
+  (nie „Wieczór”), a rating to „Forma” (nie „ELO”), decyzja użytkownika
+  2026-09-16. W tekstach widocznych piszemy Gra/Forma. ALE trasy (`#/wieczor`,
+  `#/elo`), nazwy modułów (`ekran-wieczor.js`, `ekran-elo.js`, `elo.js`),
+  klucze pomocy (`elo`, `wieczor`) i komentarze techniczne (to wciąż rating
+  Elo) zostają, żeby nic nie popsuć. Słowo „wieczór” jako SESJA gry
+  (np. „Zapisz wieczór”, „wynik wieczoru”, „wieczór towarzyski”) też zostaje,
+  bo to co innego niż pozycja menu.
 - **Noszony przydomek można wybrać ręcznie i jest to WSPÓLNE.** Gdy gracz łapie
   się na kilka, sam wskazuje, który nosi (karta gracza na „Tytuły” i wiersz
   w tabeli, komponent `js/wybor-przydomka.js`). Wybór leci do wszystkich przez

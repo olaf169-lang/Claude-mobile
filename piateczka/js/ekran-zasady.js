@@ -99,16 +99,16 @@ function kartaSciagi() {
       <tbody>
         <tr><th>Format</th><td>${opisFormatu(FORMAT_DOMYSLNY)}, da się zmienić przy każdym meczu</td></tr>
         <tr><th>Przy 15:15</th><td>gramy na przewagę dwóch punktów: 17:15, 21:19…</td></tr>
-        <tr><th>Wieczór</th><td>na starcie wybieracie: deble (3 mecze, pełna rotacja) albo single (każdy z każdym)</td></tr>
+        <tr><th>Gra</th><td>na starcie wybieracie: deble (3 mecze, pełna rotacja) albo single (każdy z każdym)</td></tr>
         <tr><th>Tabela</th><td>zwycięstwa → sety → punkty → mecz bezpośredni</td></tr>
         <tr><th>Stracone punkty</th><td>nie liczą się wcale, przegrana to przegrana</td></tr>
         <tr><th>Wygrana</th><td>więcej setów; przy 1:1 decyduje suma punktów</td></tr>
-        <tr><th>Singiel i debel</th><td>osobna tabela i osobne 🏸ELO🏸</td></tr>
+        <tr><th>Singiel i debel</th><td>osobna tabela i osobna Forma</td></tr>
         <tr><th>MVP</th><td>najwięcej wygranych meczów danego dnia</td></tr>
         <tr><th>Gracz Miesiąca</th><td>najwięcej wygranych w miesiącu, jego godło świeci</td></tr>
         <tr><th>Nieobecność</th><td>zero, nie zyskujesz i nie tracisz</td></tr>
         <tr><th>Zapisany wieczór</th><td>🔒 zamknięty; poprawka tylko na kod</td></tr>
-        <tr><th>Dopisane osoby</th><td>grają i mają wynik dnia, ale poza tabelą i ELO</td></tr>
+        <tr><th>Dopisane osoby</th><td>grają i mają wynik dnia, ale poza tabelą i Formą</td></tr>
         <tr><th>Koniec sezonu</th><td>Puchar Pana Piąteczki, single, ${SEZON.final.split('-').reverse().join('.')}</td></tr>
       </tbody>
     </table>

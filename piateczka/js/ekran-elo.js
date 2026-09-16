@@ -37,8 +37,8 @@ export function render(kontener, ctx) {
 
   kontener.innerHTML = `
     <div class="ekran-naglowek">
-      <h1>🏸ELO🏸</h1>
-      <p class="podtytul">Forma liczona zwycięstwami, bez tytułów i bez ułatwień</p>
+      <h1>Forma</h1>
+      <p class="podtytul">Liczona zwycięstwami, bez tytułów i bez ułatwień</p>
     </div>
 
     <div class="przelacznik-trybu" role="tablist" aria-label="Rodzaj gry">
