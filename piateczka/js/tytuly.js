@@ -38,7 +38,7 @@ export const PRZYDOMKI = [
   {
     id: 'plakal', nazwa: 'Płakał', poziom: 'braz',
     haslo: 'Nie pykło, ale nie łam się, #NiePłakał',
-    opis: 'Z ostatnich 6 meczów 2 przegrałeś dopiero w 3. secie. Urwać urwałeś, dowieźć nie dowiozłeś. #NiePłakał',
+    opis: 'Z ostatnich 6 meczów 2 przegrałeś dopiero w 3. secie. Urwać urwałeś, dowieźć nie dowiozłeś — ale szło się bić do końca. #NiePłakał',
     warunek: (r) => ostatnie(r, 6).filter((m) => !m.wygrany && m.trzySety).length >= 2,
   },
   {
@@ -94,7 +94,7 @@ export const PRZYDOMKI = [
   {
     id: 'robin', nazwa: 'Robin', poziom: 'srebro',
     haslo: 'Do peleryny jeszcze trochę',
-    opis: '2. miejsce w tabeli. Do superbohatera brakuje niewiele — na razie latasz obok Batmana i podajesz mu rakietę.',
+    opis: 'Zawsze drugi. Batman ma różne gadżety, a Ty możesz co najwyżej potrzymać rakietę kolegi.',
     warunek: (r, c) => c.drugiId === r.id,
   },
   {
@@ -110,8 +110,8 @@ export const PRZYDOMKI = [
     warunek: (r) => r.setyPrzewagaW >= 2,
   },
   {
-    id: 'podworko', nazwa: 'Mistrz Podwórka', poziom: 'srebro',
-    haslo: 'Jeden na jednego, bez wymówek',
+    id: 'wilk', nazwa: 'Samotny Wilk', poziom: 'srebro',
+    haslo: 'Poluje sam i wraca z łupem',
     opis: '1. miejsce w tabeli singla. W deblu zawsze można zwalić na partnera — tu nie ma na kogo.',
     warunek: (r, c) => c.liderSingla === r.id,
   },
@@ -175,7 +175,7 @@ function kontekst(wieczory) {
   const statDebel = zbierz(grane, { tryb: 'debel' });
   const statSingiel = zbierz(grane, { tryb: 'singiel' });
   // Lider singla: najlepszy spośród tych, którzy zagrali co najmniej dwa
-  // single I cokolwiek wygrali. Bez warunku na wygrane „Mistrzem Podwórka"
+  // single I cokolwiek wygrali. Bez warunku na wygrane „Samotnym Wilkiem"
   // zostawał ktoś, kto przegrał wszystko — wystarczyło, że reszta zagrała
   // po jednym meczu i wypadła spod progu.
   const liderSingla = klasyfikacja(grane, { tryb: 'singiel' })
@@ -312,17 +312,20 @@ const GLIFY = {
 
   /* ----------------------------------------------------------- srebro */
 
-  // Młot z obuchem i trzonkiem — bryła zamiast samego konturu.
-  // Masz Wbite: młotek dobija gwóźdź w deskę — plus iskry od uderzenia.
-  // Masz Wbite: młotek zaraz dobije gwóźdź. Obuch wyżej, gwóźdź niżej —
-  // przy jednej osi pionowej obuch po prostu go zasłaniał.
-  wbite: '<path d="M12 48.5h40" opacity=".5"/>'
-    + '<path d="M24 35v12" stroke-width="3.4"/>'
-    + '<path d="M18.5 35h11" stroke-width="3.2"/>'
-    + '<path d="M15 20.5h16v8.5H15Z" fill="url(#@)" fill-opacity=".3"/>'
-    + '<path d="M28 21.5h3v6.5h-3Z" fill="url(#@)" fill-opacity=".5"/>'
-    + '<path d="M31 24.5 45 16" stroke-width="3.6"/>'
-    + '<path d="M19 31.5 17 34.5M28 31.5 30 34.5M23.5 32.5V36" opacity=".45"/>',
+  // Masz Wbite: młotek z pazurem w zamachu — czoło spada na łepek gwoździa
+  // od GÓRY (cała bryła przechylona o 15°, nie leży bokiem), gwóźdź w desce.
+  wbite: '<path d="M11 48.5h42" opacity=".5"/>'
+    + '<path d="M27.5 36h9v3.2h-9Z" fill="url(#@)" fill-opacity=".45"/>'
+    + '<path d="M32 39.4v8.6" stroke-width="3.6"/>'
+    + '<g transform="rotate(-15 32 34)">'
+    + '<path d="M25.5 21C21 18.3 17.5 17.8 14.5 19" stroke-width="3.2"/>'
+    + '<path d="M25.5 26.5C21.5 25 18.5 25 16 26" stroke-width="3.2"/>'
+    + '<path d="M25 20h14v11H25Z" fill="url(#@)" fill-opacity=".3"/>'
+    + '<path d="M26.5 31h11v3.6h-11Z" fill="url(#@)" fill-opacity=".55"/>'
+    + '<path d="M39 25.5 50.5 21.5" stroke-width="4.6"/>'
+    + '<path d="M46.5 22.8 50.8 21.3" stroke-width="5.8" opacity=".6"/>'
+    + '<path d="M44.5 24.4 45.4 26.9M47.5 23.4 48.4 25.9" stroke-width="1.6" opacity=".5"/>'
+    + '</g>',
 
   // Mur obronny z blankami i wiązaniem cegieł.
   // Bezrobocie: leżak w słońcu. Rywale nie punktowali, więc nie było roboty.
@@ -343,22 +346,33 @@ const GLIFY = {
     + '<path d="M32 21.5v6M32 37.5v6M21 32.5h6M37 32.5h6"/>'
     + '<circle cx="32" cy="32.5" r="1.8" fill="url(#@)" stroke="none"/>',
 
-  // Hełm gladiatora: pióropusz z fakturą, nanośnik i nauszniki.
-  // Psim Swędem: pies z nosem przy ziemi. Nie wiadomo jak, ale wywęszył.
-  swed: '<path d="M25 31.5h13a6.5 6.5 0 0 1 0 13H26.5a7 7 0 0 1-1.5-13.8Z" fill="url(#@)" fill-opacity=".22"/>'
-    + '<path d="M24.5 33.5 16.5 41.5l1 4.5 6.5.5 4.5-6.5Z" fill="url(#@)" fill-opacity=".28"/>'
-    + '<circle cx="16.5" cy="45" r="2.1" fill="url(#@)" stroke="none"/>'
-    + '<path d="M26 31 29.5 25.5 32 31.5" fill="url(#@)" fill-opacity=".3"/>'
-    + '<path d="M38.5 35.5c4.5-1 6.8-4.2 6-8.5"/>'
-    + '<path d="M29 44.5v5M34.5 44.5v5M39 44v5" />'
-    + '<path d="M12.5 40c-2.2 1.8-2.2 4.2 0 6M9 37c-3.2 3-3.2 7.5 0 10.5" opacity=".38"/>',
+  // Psim Swędem: kundelek w profilu — łeb opuszczony, nos przy samej ziemi,
+  // przy pysku drobinki zapachu (węszy trop). Obok to, po czym poznać, że tu był.
+  swed: '<path d="M10 48h44" opacity=".5"/>'
+    + '<path d="M27 30h11a5.2 5.2 0 0 1 0 10.4H27A5.2 5.2 0 0 1 27 30Z" fill="url(#@)" fill-opacity=".22"/>'
+    + '<path d="M24.8 33.5 27.5 31.5" stroke-width="3.4"/>'
+    + '<circle cx="20.5" cy="36.5" r="5" fill="url(#@)" fill-opacity=".26"/>'
+    + '<path d="M17.8 40 13.2 44.2 16.2 46.8 21 42.6Z" fill="url(#@)" fill-opacity=".3"/>'
+    + '<path d="M15.2 42.6 17.8 45" stroke-width="1.6" opacity=".55"/>'
+    + '<path d="M22.6 32.2 26.2 33.6 23.8 40.2Z" fill="url(#@)" fill-opacity=".34"/>'
+    + '<circle cx="19.4" cy="35.4" r="1.1" fill="url(#@)" stroke="none"/>'
+    + '<circle cx="14.4" cy="44.8" r="1.5" fill="url(#@)" stroke="none"/>'
+    + '<path d="M28 40.4l-1.3 7.2M31.4 40.4l-1 7.2M37 40.4v7.2M40.4 40.4l.9 7.2"/>'
+    + '<path d="M43 32.8c4-1.2 5.4-4.2 4-7.2"/>'
+    + '<circle cx="11.2" cy="43.6" r=".9" fill="url(#@)" stroke="none" opacity=".5"/>'
+    + '<circle cx="9.6" cy="40.6" r=".7" fill="url(#@)" stroke="none" opacity=".4"/>'
+    + '<path d="M42.8 47.6c.3-2.3 2.8-3.6 5.8-3.6s5.5 1.3 5.8 3.6Z" fill="url(#@)" fill-opacity=".35"/>'
+    + '<path d="M44.4 44.2c.3-2 2-3.1 4.2-3.1s3.8 1.1 4.1 3.1Z" fill="url(#@)" fill-opacity=".3"/>'
+    + '<path d="M46.2 41.2c0-1.9 1.1-3.2 2.4-3.6.5.6.3 1.4-.3 1.9 1 .4 1.8 1 1.8 1.7Z" fill="url(#@)" fill-opacity=".28"/>',
 
   // Puchar podwórkowy między dwiema sztachetami płotu.
-  podworko: '<path d="M23 19h18v11.5a9 9 0 0 1-18 0Z" fill="url(#@)" fill-opacity=".3"/>'
-    + '<path d="M41 22h6a6 6 0 0 1-6 7.6M23 22h-6a6 6 0 0 0 6 7.6" opacity=".7"/>'
-    + '<path d="M27.5 22.5h9" opacity=".45"/>'
-    + '<path d="M32 39.5v6"/>'
-    + '<path d="M24.5 51h15l-1.6-5.5H26.1Z" fill="url(#@)" fill-opacity=".3"/>',
+  // Samotny Wilk: kanciasty łeb z kresek — ten znany, geometryczny motyw.
+  wilk: '<path d="M32 51 17 38.5 14.5 20.5 23 26.5h18l8.5-6-2.5 18Z" fill="url(#@)" fill-opacity=".2"/>'
+    + '<path d="M14.5 20.5 23 26.5M49.5 20.5 41 26.5" opacity=".75"/>'
+    + '<path d="M17 38.5 24 34.5M47 38.5 40 34.5" opacity=".5"/>'
+    + '<path d="M21.5 31.5 26 33.5M42.5 31.5 38 33.5" stroke-width="2.6"/>'
+    + '<path d="M32 36.5 27.5 41.5 32 44 36.5 41.5Z" fill="url(#@)" fill-opacity=".45"/>'
+    + '<path d="M32 44v4" opacity=".55"/>',
 
   /* ------------------------------------------------------------ złoto */
 

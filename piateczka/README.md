@@ -154,7 +154,7 @@ do sezonu.
   | 🥈 | Robin | 2. miejsce w tabeli |
   | 🥈 | Hounter | wygrany mecz z liderem tabeli |
   | 🥈 | Psim Swędem | ≥ 2 sety wygrane po dogrywce |
-  | 🥈 | Mistrz Podwórka | 1. miejsce w tabeli singla |
+  | 🥈 | Samotny Wilk | 1. miejsce w tabeli singla |
   | 🥇 | Mmmpuuu! | 5 wygranych meczów z rzędu (seria bieżąca) |
   | 🥇 | Na Fali | komplet zwycięstw w jednym wieczorze (min. 3 mecze) |
   | 🥇 | Forma Kwincioka | ≥ 75% wygranych w bieżącym miesiącu, przy min. 4 meczach |
