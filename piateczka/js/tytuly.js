@@ -312,30 +312,27 @@ const GLIFY = {
 
   /* ----------------------------------------------------------- srebro */
 
-  // Masz Wbite: młotek z pazurem w zamachu — czoło spada na łepek gwoździa
-  // od GÓRY (cała bryła przechylona o 15°, nie leży bokiem), gwóźdź w desce.
-  wbite: '<path d="M11 48.5h42" opacity=".5"/>'
-    + '<path d="M27.5 36h9v3.2h-9Z" fill="url(#@)" fill-opacity=".45"/>'
-    + '<path d="M32 39.4v8.6" stroke-width="3.6"/>'
-    + '<g transform="rotate(-15 32 34)">'
-    + '<path d="M25.5 21C21 18.3 17.5 17.8 14.5 19" stroke-width="3.2"/>'
-    + '<path d="M25.5 26.5C21.5 25 18.5 25 16 26" stroke-width="3.2"/>'
-    + '<path d="M25 20h14v11H25Z" fill="url(#@)" fill-opacity=".3"/>'
-    + '<path d="M26.5 31h11v3.6h-11Z" fill="url(#@)" fill-opacity=".55"/>'
-    + '<path d="M39 25.5 50.5 21.5" stroke-width="4.6"/>'
-    + '<path d="M46.5 22.8 50.8 21.3" stroke-width="5.8" opacity=".6"/>'
-    + '<path d="M44.5 24.4 45.4 26.9M47.5 23.4 48.4 25.9" stroke-width="1.6" opacity=".5"/>'
-    + '</g>',
+  // Masz Wbite: sam młotek widziany z boku, przechylony jak w zamachu —
+  // obuch z pazurem u góry, trzonek opada w dół-prawo, z tyłu smugi ruchu.
+  // Gwoździa i deski nie ma: scenka czytała się jak sprzęt na statywie.
+  wbite: '<g transform="rotate(-22 32 32)">'
+    + '<path d="M22 19C18 17.6 14.6 18.6 12 21.6" stroke-width="3.2"/>'
+    + '<path d="M22.5 26.4C19 25.4 16.2 26.4 14.2 29.2" stroke-width="3.2"/>'
+    + '<path d="M22 17.5h19a3.5 3.5 0 0 1 3.5 3.5v4.5a3.5 3.5 0 0 1-3.5 3.5H22Z" fill="url(#@)" fill-opacity=".3"/>'
+    + '<path d="M40 17.5h1a3.5 3.5 0 0 1 3.5 3.5v4.5a3.5 3.5 0 0 1-3.5 3.5h-1Z" fill="url(#@)" fill-opacity=".55"/>'
+    + '<path d="M24.5 29h7.5l-.8 3.2h-6Z" fill="url(#@)" fill-opacity=".38"/>'
+    + '<path d="M25.2 32 31.4 32 33.4 45.6c.2 1.3-.8 2.4-2.3 2.6-1.5.2-2.8-.6-3-1.9Z" fill="url(#@)" fill-opacity=".26"/>'
+    + '<path d="M32.4 41.2 26.5 42" opacity=".4"/>'
+    + '</g>'
+    + '<path d="M47.5 18.5c2.4 1.8 4 4.2 4.5 7M44 14c2.2 1.2 4 3 5.2 5.2" opacity=".3"/>',
 
-  // Mur obronny z blankami i wiązaniem cegieł.
-  // Bezrobocie: leżak w słońcu. Rywale nie punktowali, więc nie było roboty.
   // Bezrobocie: kubek z parą. Rywale nie punktowali, więc było się czym zająć
   // tylko między akcjami. Leżak przy tym rozmiarze czytał się jak flaga.
-  bezrobocie: '<path d="M18 28h22v12a11 11 0 0 1-22 0Z" fill="url(#@)" fill-opacity=".25"/>'
-    + '<path d="M40 31h4.5a5.5 5.5 0 0 1-4.5 8.5" />'
-    + '<path d="M15 51h28" opacity=".5"/>'
-    + '<path d="M24 22.5c2.5-2.5 2.5-5 0-7.5M32 22.5c2.5-2.5 2.5-5 0-7.5" opacity=".5"/>'
-    + '<path d="M21 33.5h16" opacity=".35"/>',
+  bezrobocie: '<path d="M22 28h22v12a11 11 0 0 1-22 0Z" fill="url(#@)" fill-opacity=".25"/>'
+    + '<path d="M44 31h4.5a5.5 5.5 0 0 1-4.5 8.5" />'
+    + '<path d="M18 50.5h29" opacity=".5"/>'
+    + '<path d="M28 22.5c2.5-2.5 2.5-5 0-7.5M36 22.5c2.5-2.5 2.5-5 0-7.5" opacity=".5"/>'
+    + '<path d="M25 33.5h16" opacity=".35"/>',
 
   // Wąska maska Robina — oczy wycięte regułą evenodd, więc prześwituje tarcza.
   robin: '<path fill-rule="evenodd" d="M13 31.5c5.4-3.6 12.2-5.4 19-5.4s13.6 1.8 19 5.4c-1.1 6.8-5.8 11.6-11 11.6-3.4 0-6.1-2-8-5.3-1.9 3.3-4.6 5.3-8 5.3-5.2 0-9.9-4.8-11-11.6Zm7.4 1.6c1.5-1.5 5.4-1.5 7 .4-1.4 1.9-5.5 1.9-7-.4Zm16.2.4c1.6-1.9 5.5-1.9 7-.4-1.5 2.3-5.6 2.3-7 .4Z" fill="url(#@)" fill-opacity=".3"/>',
@@ -346,26 +343,27 @@ const GLIFY = {
     + '<path d="M32 21.5v6M32 37.5v6M21 32.5h6M37 32.5h6"/>'
     + '<circle cx="32" cy="32.5" r="1.8" fill="url(#@)" stroke="none"/>',
 
-  // Psim Swędem: kundelek w profilu — łeb opuszczony, nos przy samej ziemi,
+  // Psim Swędem: kundelek w profilu — okrągły łeb ze sterczącym uchem i krótką
+  // kufą przy samej ziemi (jeden długi klin czytał się jak pysk konia),
   // przy pysku drobinki zapachu (węszy trop). Obok to, po czym poznać, że tu był.
   swed: '<path d="M10 48h44" opacity=".5"/>'
-    + '<path d="M27 30h11a5.2 5.2 0 0 1 0 10.4H27A5.2 5.2 0 0 1 27 30Z" fill="url(#@)" fill-opacity=".22"/>'
-    + '<path d="M24.8 33.5 27.5 31.5" stroke-width="3.4"/>'
-    + '<circle cx="20.5" cy="36.5" r="5" fill="url(#@)" fill-opacity=".26"/>'
-    + '<path d="M17.8 40 13.2 44.2 16.2 46.8 21 42.6Z" fill="url(#@)" fill-opacity=".3"/>'
-    + '<path d="M15.2 42.6 17.8 45" stroke-width="1.6" opacity=".55"/>'
-    + '<path d="M22.6 32.2 26.2 33.6 23.8 40.2Z" fill="url(#@)" fill-opacity=".34"/>'
-    + '<circle cx="19.4" cy="35.4" r="1.1" fill="url(#@)" stroke="none"/>'
-    + '<circle cx="14.4" cy="44.8" r="1.5" fill="url(#@)" stroke="none"/>'
-    + '<path d="M28 40.4l-1.3 7.2M31.4 40.4l-1 7.2M37 40.4v7.2M40.4 40.4l.9 7.2"/>'
-    + '<path d="M43 32.8c4-1.2 5.4-4.2 4-7.2"/>'
-    + '<circle cx="11.2" cy="43.6" r=".9" fill="url(#@)" stroke="none" opacity=".5"/>'
-    + '<circle cx="9.6" cy="40.6" r=".7" fill="url(#@)" stroke="none" opacity=".4"/>'
+    + '<path d="M28 30h9a5 5 0 0 1 0 10h-9a5 5 0 0 1 0-10Z" fill="url(#@)" fill-opacity=".22"/>'
+    + '<path d="M22.6 36.4 26.6 32.8" stroke-width="3.8"/>'
+    + '<circle cx="18.2" cy="39" r="4.4" fill="url(#@)" fill-opacity=".26"/>'
+    + '<path d="M15.6 42.4C13.8 43.4 12.6 44.4 12.8 45.6 13 46.8 14.4 47.2 15.8 46.6'
+      + ' 17 46 18 44.8 18.8 43.6Z" fill="url(#@)" fill-opacity=".3"/>'
+    + '<path d="M17.4 34.8 21.8 33.8 20.4 38Z" fill="url(#@)" fill-opacity=".36"/>'
+    + '<circle cx="17" cy="38" r="1.2" fill="url(#@)" stroke="none"/>'
+    + '<circle cx="13.8" cy="45.8" r="1.5" fill="url(#@)" stroke="none"/>'
+    + '<path d="M15 44.6 16.8 45.4" stroke-width="1.4" opacity=".5"/>'
+    + '<path d="M27.5 40l-1.2 7.6M31 40l-1 7.6M37 40v7.6M40 40l.9 7.6"/>'
+    + '<path d="M42 32.6c4-1.2 5.4-4.2 4-7.2"/>'
+    + '<circle cx="10.6" cy="43.4" r=".9" fill="url(#@)" stroke="none" opacity=".5"/>'
+    + '<circle cx="9.4" cy="40.4" r=".7" fill="url(#@)" stroke="none" opacity=".4"/>'
     + '<path d="M42.8 47.6c.3-2.3 2.8-3.6 5.8-3.6s5.5 1.3 5.8 3.6Z" fill="url(#@)" fill-opacity=".35"/>'
     + '<path d="M44.4 44.2c.3-2 2-3.1 4.2-3.1s3.8 1.1 4.1 3.1Z" fill="url(#@)" fill-opacity=".3"/>'
     + '<path d="M46.2 41.2c0-1.9 1.1-3.2 2.4-3.6.5.6.3 1.4-.3 1.9 1 .4 1.8 1 1.8 1.7Z" fill="url(#@)" fill-opacity=".28"/>',
 
-  // Puchar podwórkowy między dwiema sztachetami płotu.
   // Samotny Wilk: kanciasty łeb z kresek — ten znany, geometryczny motyw.
   wilk: '<path d="M32 51 17 38.5 14.5 20.5 23 26.5h18l8.5-6-2.5 18Z" fill="url(#@)" fill-opacity=".2"/>'
     + '<path d="M14.5 20.5 23 26.5M49.5 20.5 41 26.5" opacity=".75"/>'
@@ -394,16 +392,19 @@ const GLIFY = {
     + '<circle cx="45.6" cy="43.3" r="1.8" fill="url(#@)" stroke="none"/>'
     + '<circle cx="39.3" cy="50" r="1.5" fill="url(#@)" stroke="none" opacity=".75"/>',
 
-  // Szał: lotka w środku eksplozji promieni, plus iskry.
-  // Na Fali: surfer na grzbiecie zawijającej się fali.
-  // Na Fali: zawijająca się fala plus sylwetka na desce na jej stoku.
-  nafali: '<path d="M9 47c0-14.5 9.5-26 23-26 8.5 0 13.5 5.5 13.5 11.5 0 5.2-3.7 8.5-8.4 8.5-3.7 0-6.3-2.4-6.3-5.5 0-2.7 1.9-4.5 4.2-4.5" fill="url(#@)" fill-opacity=".16"/>'
-    + '<path d="M9 48.5h44" opacity=".5"/>'
-    + '<path d="M14 43c3.5-8.5 8.5-14.5 15-16.5" opacity=".3"/>'
-    + '<path d="M15.5 41 27.5 34.5" stroke-width="3.2"/>'
-    + '<circle cx="24.5" cy="25" r="2.4" fill="url(#@)" fill-opacity=".5"/>'
-    + '<path d="M24.5 27.4 23 33M23 33 20 36M23 33 26.5 35"/>'
-    + '<path d="M24 29 19.5 27.5M24 29 28.5 30.5"/>',
+  // Na Fali: sama fala, bez surfera. Długi grzbiet z prawej i grzywa zawijająca
+  // się w lewo, z pianą na czubku. Symetryczny łuk czytał się jak tęcza,
+  // a zamknięty zawijas jak ślimak — stąd ta asymetria.
+  nafali: '<path d="M53 46C46.5 43.5 40.5 37.5 35.5 30 32.5 25.5 28.5 22.5 24 22.5'
+      + ' 17.5 22.5 12.5 27.5 12.5 34 12.5 38.6 15.6 42 19.6 42.6'
+      + ' 16 40.4 14.6 36 16.2 32.4 18.4 27.6 24.4 26 29.4 28.8'
+      + ' 34.4 31.8 38.6 37 41.4 41.6 44.6 46.8 49 47.4 53 46Z" fill="url(#@)" fill-opacity=".22"/>'
+    + '<circle cx="18.6" cy="43.4" r="2" fill="url(#@)" fill-opacity=".4"/>'
+    + '<circle cx="14" cy="44.6" r="1.5" fill="url(#@)" fill-opacity=".35"/>'
+    + '<path d="M9 48.5h46" opacity=".5"/>'
+    + '<path d="M26 19c1.6-1 3.4-1.2 5.2-.6" opacity=".3"/>'
+    + '<path d="M20.4 38.6c.6-3.4 3.4-6 6.8-6.2" opacity=".35"/>'
+    + '<path d="M15 52h11M32 52h15" opacity=".28"/>',
 
   // Płomień z rozgrzanym rdzeniem, iskrami i podmuchem po bokach.
   kwinciok: '<path d="M19.4 43.3 20.7 38.1 17.5 35.0 20.0 31.4 15.7 25.6 22.9 25.3 22.6 18.5 28.6 21.8 32.0 13.2 35.4 21.8 41.2 18.8 41.1 25.3 47.9 25.7 44.0 31.4 46.5 35.0 43.3 38.1 45.2 43.8" stroke-width="1.4" stroke-linejoin="miter" opacity=".24"/>'

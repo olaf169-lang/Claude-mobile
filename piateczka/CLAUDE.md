@@ -110,6 +110,10 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
   `userSpaceOnUse`, więc obraca się razem z kształtem i nic nie znika)
   i wycięcie iskier. Jak glif nie czyta się po dwóch poprawkach, zmień
   kompozycję, nie grubość kresek.
+- **Fala: asymetria albo nic.** Symetryczny łuk czytał się jak tęcza, ciasno
+  zawinięta grzywa jak ślimak, a domknięty obrys jak liść. Działa dopiero
+  długi grzbiet z jednej strony + grzywa zawijająca się w drugą + kilka
+  kółek piany na czubku.
 - **Zwierzę składaj z osobnych brył, nie z jednej sylwetki.** Pies z „Psim
   Swędem" jako jeden ciągły kształt wyszedł żółwiem. Czytelny jest dopiero
   z kółka-łba, kufy-klina, walca-tułowia i czterech nóg osobno — wtedy widać
