@@ -312,27 +312,21 @@ const GLIFY = {
 
   /* ----------------------------------------------------------- srebro */
 
-  // Masz Wbite: sam młotek widziany z boku, przechylony jak w zamachu —
-  // obuch z pazurem u góry, trzonek opada w dół-prawo, z tyłu smugi ruchu.
-  // Gwoździa i deski nie ma: scenka czytała się jak sprzęt na statywie.
-  wbite: '<g transform="rotate(-22 32 32)">'
-    + '<path d="M22 19C18 17.6 14.6 18.6 12 21.6" stroke-width="3.2"/>'
-    + '<path d="M22.5 26.4C19 25.4 16.2 26.4 14.2 29.2" stroke-width="3.2"/>'
-    + '<path d="M22 17.5h19a3.5 3.5 0 0 1 3.5 3.5v4.5a3.5 3.5 0 0 1-3.5 3.5H22Z" fill="url(#@)" fill-opacity=".3"/>'
-    + '<path d="M40 17.5h1a3.5 3.5 0 0 1 3.5 3.5v4.5a3.5 3.5 0 0 1-3.5 3.5h-1Z" fill="url(#@)" fill-opacity=".55"/>'
-    + '<path d="M24.5 29h7.5l-.8 3.2h-6Z" fill="url(#@)" fill-opacity=".38"/>'
-    + '<path d="M25.2 32 31.4 32 33.4 45.6c.2 1.3-.8 2.4-2.3 2.6-1.5.2-2.8-.6-3-1.9Z" fill="url(#@)" fill-opacity=".26"/>'
-    + '<path d="M32.4 41.2 26.5 42" opacity=".4"/>'
-    + '</g>'
-    + '<path d="M47.5 18.5c2.4 1.8 4 4.2 4.5 7M44 14c2.2 1.2 4 3 5.2 5.2" opacity=".3"/>',
+  // Masz Wbite: najprostszy młotek pod kątem, jak 🔨 — obuch, jaśniejsze czoło
+  // i trzonek. Bez gwoździa, deski i smug: każdy dodatek psuł czytelność.
+  wbite: '<g transform="rotate(45 32 32)">'
+    + '<path d="M30 27h4.4v16.4a2.2 2.2 0 0 1-4.4 0Z" fill="url(#@)" fill-opacity=".3"/>'
+    + '<path d="M21 18h22a2.6 2.6 0 0 1 2.6 2.6v5A2.6 2.6 0 0 1 43 28.2H21Z" fill="url(#@)" fill-opacity=".3"/>'
+    + '<path d="M39.5 18h3.5a2.6 2.6 0 0 1 2.6 2.6v5A2.6 2.6 0 0 1 43 28.2h-3.5Z" fill="url(#@)" fill-opacity=".55"/>'
+    + '</g>',
 
   // Bezrobocie: kubek z parą. Rywale nie punktowali, więc było się czym zająć
   // tylko między akcjami. Leżak przy tym rozmiarze czytał się jak flaga.
-  bezrobocie: '<path d="M22 28h22v12a11 11 0 0 1-22 0Z" fill="url(#@)" fill-opacity=".25"/>'
-    + '<path d="M44 31h4.5a5.5 5.5 0 0 1-4.5 8.5" />'
-    + '<path d="M18 50.5h29" opacity=".5"/>'
-    + '<path d="M28 22.5c2.5-2.5 2.5-5 0-7.5M36 22.5c2.5-2.5 2.5-5 0-7.5" opacity=".5"/>'
-    + '<path d="M25 33.5h16" opacity=".35"/>',
+  bezrobocie: '<path d="M20 28h22v12a11 11 0 0 1-22 0Z" fill="url(#@)" fill-opacity=".25"/>'
+    + '<path d="M42 31h4.5a5.5 5.5 0 0 1-4.5 8.5" />'
+    + '<path d="M16 50.5h29" opacity=".5"/>'
+    + '<path d="M26 22.5c2.5-2.5 2.5-5 0-7.5M34 22.5c2.5-2.5 2.5-5 0-7.5" opacity=".5"/>'
+    + '<path d="M23 33.5h16" opacity=".35"/>',
 
   // Wąska maska Robina — oczy wycięte regułą evenodd, więc prześwituje tarcza.
   robin: '<path fill-rule="evenodd" d="M13 31.5c5.4-3.6 12.2-5.4 19-5.4s13.6 1.8 19 5.4c-1.1 6.8-5.8 11.6-11 11.6-3.4 0-6.1-2-8-5.3-1.9 3.3-4.6 5.3-8 5.3-5.2 0-9.9-4.8-11-11.6Zm7.4 1.6c1.5-1.5 5.4-1.5 7 .4-1.4 1.9-5.5 1.9-7-.4Zm16.2.4c1.6-1.9 5.5-1.9 7-.4-1.5 2.3-5.6 2.3-7 .4Z" fill="url(#@)" fill-opacity=".3"/>',
@@ -392,19 +386,14 @@ const GLIFY = {
     + '<circle cx="45.6" cy="43.3" r="1.8" fill="url(#@)" stroke="none"/>'
     + '<circle cx="39.3" cy="50" r="1.5" fill="url(#@)" stroke="none" opacity=".75"/>',
 
-  // Na Fali: sama fala, bez surfera. Długi grzbiet z prawej i grzywa zawijająca
-  // się w lewo, z pianą na czubku. Symetryczny łuk czytał się jak tęcza,
-  // a zamknięty zawijas jak ślimak — stąd ta asymetria.
-  nafali: '<path d="M53 46C46.5 43.5 40.5 37.5 35.5 30 32.5 25.5 28.5 22.5 24 22.5'
-      + ' 17.5 22.5 12.5 27.5 12.5 34 12.5 38.6 15.6 42 19.6 42.6'
-      + ' 16 40.4 14.6 36 16.2 32.4 18.4 27.6 24.4 26 29.4 28.8'
-      + ' 34.4 31.8 38.6 37 41.4 41.6 44.6 46.8 49 47.4 53 46Z" fill="url(#@)" fill-opacity=".22"/>'
-    + '<circle cx="18.6" cy="43.4" r="2" fill="url(#@)" fill-opacity=".4"/>'
-    + '<circle cx="14" cy="44.6" r="1.5" fill="url(#@)" fill-opacity=".35"/>'
-    + '<path d="M9 48.5h46" opacity=".5"/>'
-    + '<path d="M26 19c1.6-1 3.4-1.2 5.2-.6" opacity=".3"/>'
-    + '<path d="M20.4 38.6c.6-3.4 3.4-6 6.8-6.2" opacity=".35"/>'
-    + '<path d="M15 52h11M32 52h15" opacity=".28"/>',
+  // Na Fali: prosta fala jak z infografiki — stroma ściana, grzywa zawinięta
+  // w prawo, długi ogon i osobna smuga wody pod spodem.
+  nafali: '<path d="M12.5 41C18 33 23 27.5 28 24.5 33 21.5 37.5 23 39.5 26.5'
+      + ' 41.5 30 40 33.5 37 34 34.5 34.4 33 32.8 33.6 31'
+      + ' 31.5 33.5 32 36.5 35 37.5 40 39 46 37.5 51.5 33.5'
+      + ' 47 39.5 40.5 42.5 34 42 27 41.5 19.5 41.5 12.5 41Z" fill="url(#@)" fill-opacity=".26"/>'
+    + '<path d="M12.5 47C19.5 44 27.5 44 34.5 46 40.5 47.7 46 47.5 50.5 45.5'
+      + ' 46 49.5 40 50.3 33.5 48.7 27 47.1 19.5 46.7 12.5 47Z" fill="url(#@)" fill-opacity=".26"/>',
 
   // Płomień z rozgrzanym rdzeniem, iskrami i podmuchem po bokach.
   kwinciok: '<path d="M19.4 43.3 20.7 38.1 17.5 35.0 20.0 31.4 15.7 25.6 22.9 25.3 22.6 18.5 28.6 21.8 32.0 13.2 35.4 21.8 41.2 18.8 41.1 25.3 47.9 25.7 44.0 31.4 46.5 35.0 43.3 38.1 45.2 43.8" stroke-width="1.4" stroke-linejoin="miter" opacity=".24"/>'

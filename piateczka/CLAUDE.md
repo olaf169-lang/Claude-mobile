@@ -101,19 +101,16 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
 - **Glify rysujemy bryłą + obrysem**, nie samym cienkim konturem: wypełnienie
   gradientem na 0,18–0,3 krycia plus stroke 2,6, a najważniejszy detal
   (iskra, żar, oko) solidny. Sam kontur przy 56 px znikał.
-- **Symetryczna bryła na „nóżce" czyta się jak sprzęt, nie jak narzędzie.**
-  Młotek z „Masz Wbite" przez cztery podejścia wyglądał jak kamera na statywie
-  albo stempel: winne były szeroki łepek gwoździa (czytał się jak blat),
-  iskry rozchodzące się na boki (nogi statywu) i idealnie symetryczny obuch.
-  Pomogło dopiero: pazur z dwóch wypustek (to on mówi „młotek"), przechył
-  całej bryły o 15° (`<g transform="rotate(-15 32 34)">` — gradient jest
-  `userSpaceOnUse`, więc obraca się razem z kształtem i nic nie znika)
-  i wycięcie iskier. Jak glif nie czyta się po dwóch poprawkach, zmień
-  kompozycję, nie grubość kresek.
-- **Fala: asymetria albo nic.** Symetryczny łuk czytał się jak tęcza, ciasno
-  zawinięta grzywa jak ślimak, a domknięty obrys jak liść. Działa dopiero
-  długi grzbiet z jednej strony + grzywa zawijająca się w drugą + kilka
-  kółek piany na czubku.
+- **Jeden przedmiot pod kątem bije każdą scenkę.** „Masz Wbite" przeszło przez
+  młotek z gwoździem, deską, iskrami i smugami ruchu — wychodziła kamera na
+  statywie albo stempel. Skończyło się na trzech kształtach: obuch, jaśniejsze
+  czoło, trzonek, całość w `<g transform="rotate(45 32 32)">` (gradient jest
+  `userSpaceOnUse`, więc obraca się razem z bryłą i nic nie znika). Jak glif
+  nie czyta się po dwóch poprawkach, wyrzucaj elementy, nie dorzucaj.
+- **Fala: asymetria i piana, bez zdobników.** Symetryczny łuk czytał się jak
+  tęcza, ciasno zawinięta grzywa jak ślimak, domknięty obrys jak liść.
+  Działa wzór z infografik: stroma ściana z lewej, grzywa zawinięta w prawo,
+  długi ogon i osobna smuga wody pod spodem — dwie bryły, zero kresek.
 - **Zwierzę składaj z osobnych brył, nie z jednej sylwetki.** Pies z „Psim
   Swędem" jako jeden ciągły kształt wyszedł żółwiem. Czytelny jest dopiero
   z kółka-łba, kufy-klina, walca-tułowia i czterech nóg osobno — wtedy widać
