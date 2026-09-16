@@ -67,7 +67,7 @@ export const PRZYDOMKI = [
   },
   {
     id: 'pedal', nazwa: 'Mistrz Pedałowania', poziom: 'braz',
-    haslo: 'W parze orzeł, sam już niekoniecznie',
+    haslo: 'W parze orzeł, a sam nie może',
     opis: 'Min. 60% wygranych w deblu i najwyżej 35% w singlu. Na tandemie jedzie się raźniej, bo zawsze można uznać, że to drugi mocniej pedałuje.',
     warunek: (r, c) => {
       const d = c.statDebel.get(r.id);
