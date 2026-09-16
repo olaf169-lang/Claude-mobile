@@ -3,7 +3,7 @@
    ========================================================================== */
 
 import { GRACZE, gracz, SEZON, poPolsku, najblizszyWtorek, dzisiajIso, krotkaData } from './dane.js';
-import { klasyfikacja, wieczorRozegrany, mvpWieczoru } from './liczenie.js';
+import { klasyfikacja, wieczorRozegrany, mvpWieczoru, TRYBY } from './liczenie.js';
 import { graczMiesiaca, godlo } from './tytuly.js';
 import { naglowekZPomoca, dymek } from './pomoc.js';
 import { bez } from './ui.js';
@@ -18,12 +18,16 @@ const KAFELKI = [
   { href: '#/zasady',    ikona: '📖', nazwa: 'Zasady',    opis: 'Jak to działa' },
 ];
 
+/* Który rodzaj gry pokazuje skrót tabeli na Starcie. Przełącznik jest tu
+   celowo mały — na Starcie chodzi o rzut oka, pełna tabela jest obok. */
+let trybSkrotu = 'debel';
+
 export function render(kontener, ctx) {
   const rozegrane = ctx.wieczory.filter(wieczorRozegrany);
   const ostatni = rozegrane.filter((w) => !w.towarzyski)
     .sort((a, b) => b.data.localeCompare(a.data))[0] ?? null;
   const mvp = ostatni ? mvpWieczoru(ostatni) : null;
-  const tabela = klasyfikacja(ctx.wieczory.filter((w) => !w.towarzyski), { tryb: 'debel' });
+  const tabela = klasyfikacja(ctx.wieczory.filter((w) => !w.towarzyski), { tryb: trybSkrotu });
   const { aktualny, wToku } = graczMiesiaca(ctx.wieczory);
   const boss = aktualny ?? (wToku?.zwyciezca ? wToku : null);
   const dzis = dzisiajIso();
@@ -70,6 +74,9 @@ export function render(kontener, ctx) {
       <p class="wskazowka">Służy tylko do podświetlenia Twojego wiersza w tabeli. Wpisywać może każdy.</p>
     </section>`;
 
+  kontener.querySelectorAll('[data-skrot-tryb]').forEach((el) =>
+    el.addEventListener('click', () => { trybSkrotu = el.dataset.skrotTryb; ctx.odswiez(); }));
+
   kontener.querySelectorAll('[data-ja]').forEach((el) =>
     el.addEventListener('click', () => ctx.ustawJa(el.dataset.ja)));
 
@@ -80,7 +87,11 @@ function kartaCzworki(pelna, ja) {
   const tabela = pelna.filter((r) => r.mecze > 0);
   const cokolwiek = tabela.length > 0;
   return `<section class="karta">
-    ${naglowekZPomoca('Tabela debla', 'punktacja', { dodatek: '<a class="naglowek-link" href="#/tabela">pełna tabela</a>' })}
+    ${naglowekZPomoca('Tabela', 'punktacja', { dodatek: '<a class="naglowek-link" href="#/tabela">pełna tabela</a>' })}
+    <div class="chipy chipy-skrot">
+      ${TRYBY.map((t) => `<button class="chip chip-maly ${t.id === trybSkrotu ? 'wybrany' : ''}"
+        type="button" data-skrot-tryb="${t.id}" aria-pressed="${t.id === trybSkrotu}">${t.nazwa}</button>`).join('')}
+    </div>
     ${cokolwiek ? `<ol class="tabela tabela-skrot">
       ${tabela.map((r) => `<li class="wiersz ${r.id === ja ? 'to-ja' : ''} podium-${r.miejsce <= 3 ? r.miejsce : 'x'}">
         <span class="miejsce">${r.miejsce}</span>
@@ -88,7 +99,9 @@ function kartaCzworki(pelna, ja) {
         <span class="wiersz-glowna"><span class="wiersz-imie">${gracz(r.id).imie}</span></span>
         <span class="wiersz-wygrane"><b>${r.meczeW}</b><em>W</em></span>
       </li>`).join('')}
-    </ol>` : `<p class="pusto">Sezon jeszcze się nie zaczął. Pierwszy wynik wpiszecie na ekranie
+    </ol>` : `<p class="pusto">${trybSkrotu === 'singiel'
+        ? 'Żadnego singla jeszcze nie rozegraliście.'
+        : 'Sezon jeszcze się nie zaczął.'} Pierwszy wynik wpiszecie na ekranie
       <a href="#/wieczor">Wieczór</a>.</p>`}
   </section>`;
 }

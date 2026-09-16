@@ -2,7 +2,7 @@
    wyniki w localStorage, więc service worker odpowiada wyłącznie za to, żeby
    w hali bez zasięgu w ogóle dało się ją otworzyć. */
 
-const POLKA = 'piateczka-v12';
+const POLKA = 'piateczka-v13';
 const SZKIELET = [
   './', './index.html', './styles.css', './manifest.webmanifest',
   './js/app.js', './js/dane.js', './js/liczenie.js', './js/elo.js', './js/tytuly.js',

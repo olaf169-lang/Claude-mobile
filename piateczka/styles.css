@@ -1667,3 +1667,12 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
 @media (max-width: 360px) {
   .sedzia-klawisz b { font-size: 10.5px; }
 }
+
+/* Skrót tabeli na Starcie: nagłówek mówi po prostu „Tabela", a rodzaj gry
+   wybiera się małymi chipami pod nim — na Starcie chodzi o rzut oka. */
+.chipy-skrot { margin: -2px 0 10px; }
+.chip-maly { min-height: 30px; padding: 5px 13px; font-size: 13px; }
+
+/* Przycisk tuż pod rzędem chipów przyklejał się do nich — brakowało oddechu
+   po tym, jak opis układu meczów przeniósł się na kartę „W co gracie?". */
+.chipy + .btn.szeroki { margin-top: 14px; }
