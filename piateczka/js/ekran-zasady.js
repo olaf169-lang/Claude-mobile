@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Ekran „Zasady” — wszystko w jednym miejscu.
+   Ekran „Zasady”: wszystko w jednym miejscu.
 
    Nie ma tu ani jednego zdania napisanego osobno: treść składa się z tych
    samych haseł, które wyskakują po dotknięciu ⓘ na ekranach. Dopisujesz
@@ -26,11 +26,11 @@ export function render(kontener) {
           się wcale.</span></li>
         <li><span><b>Debel i singiel osobno.</b> Dwie tabele, dwa rankingi. Rodzaj wybieracie na
           starcie wieczoru.</span></li>
-        <li><span><b>Wpisujecie i zapisujecie.</b> Tylko wyniki setów — resztę appka liczy sama.
+        <li><span><b>Wpisujecie i zapisujecie.</b> Tylko wyniki setów, resztę appka liczy sama.
           „Zapisz wieczór” zamyka go na klucz; poprawka wymaga kodu.</span></li>
       </ol>
       <p class="esencja-nota">Przy każdej karcie jest <span class="dymek-przyklad" aria-hidden="true">i</span>
-        — dotknij, a wyjaśni to, co masz przed oczami.</p>
+        Dotknij, a wyjaśni to, co masz przed oczami.</p>
     </section>
 
     ${kartaSciagi()}
@@ -40,7 +40,7 @@ export function render(kontener) {
     ${SEKCJE.map((s) => sekcjaAkord(s)).join('')}
     ${przydomkiAkord()}
 
-    <p class="stopka-zasady">Nie musicie znać wszystkiego na pamięć — od tego jest ta appka.
+    <p class="stopka-zasady">Nie musicie znać wszystkiego na pamięć, od tego jest ta appka.
     Wpiszcie pierwszy wynik i grajcie.</p>`;
 }
 
@@ -61,11 +61,11 @@ function przydomkiAkord() {
   return `<details class="karta akord">
     <summary class="akord-glowa">
       <span class="akord-godlo" aria-hidden="true">\ud83c\udf96\ufe0f</span>
-      <span class="akord-tytul"><b>Wszystkie przydomki</b><em>Za co się je dostaje — i za co obrywa</em></span>
+      <span class="akord-tytul"><b>Wszystkie przydomki</b><em>Za co się je dostaje i za co obrywa</em></span>
       <span class="akord-chevron" aria-hidden="true">\u203a</span>
     </summary>
     <div class="akord-tresc">
-      <p class="sekcja-wstep">Na starcie nikt nie ma przydomka — liczą się same z Twoich wyników.
+      <p class="sekcja-wstep">Na starcie nikt nie ma przydomka, liczą się same z Twoich wyników.
       Zawsze nosisz ten najlepszy, na jaki się aktualnie łapiesz: złoto przykrywa srebro,
       srebro przykrywa brąz.</p>
       <ol class="lista-przydomkow">
@@ -97,25 +97,25 @@ function kartaSciagi() {
     <h2 class="karta-tytul sekcja-tytul"><span aria-hidden="true">⚡</span> Ściąga na halę</h2>
     <table class="sciaga">
       <tbody>
-        <tr><th>Format</th><td>${opisFormatu(FORMAT_DOMYSLNY)} — da się zmienić przy każdym meczu</td></tr>
+        <tr><th>Format</th><td>${opisFormatu(FORMAT_DOMYSLNY)}, da się zmienić przy każdym meczu</td></tr>
         <tr><th>Przy 15:15</th><td>gramy na przewagę dwóch punktów: 17:15, 21:19…</td></tr>
         <tr><th>Wieczór</th><td>na starcie wybieracie: deble (3 mecze, pełna rotacja) albo single (każdy z każdym)</td></tr>
         <tr><th>Tabela</th><td>zwycięstwa → sety → punkty → mecz bezpośredni</td></tr>
-        <tr><th>Stracone punkty</th><td>nie liczą się wcale — przegrana to przegrana</td></tr>
+        <tr><th>Stracone punkty</th><td>nie liczą się wcale, przegrana to przegrana</td></tr>
         <tr><th>Wygrana</th><td>więcej setów; przy 1:1 decyduje suma punktów</td></tr>
         <tr><th>Singiel i debel</th><td>osobna tabela i osobne 🏸ELO🏸</td></tr>
         <tr><th>MVP</th><td>najwięcej wygranych meczów danego dnia</td></tr>
-        <tr><th>Gracz Miesiąca</th><td>najwięcej wygranych w miesiącu — jego godło świeci</td></tr>
-        <tr><th>Nieobecność</th><td>zero — nie zyskujesz i nie tracisz</td></tr>
+        <tr><th>Gracz Miesiąca</th><td>najwięcej wygranych w miesiącu, jego godło świeci</td></tr>
+        <tr><th>Nieobecność</th><td>zero, nie zyskujesz i nie tracisz</td></tr>
         <tr><th>Zapisany wieczór</th><td>🔒 zamknięty; poprawka tylko na kod</td></tr>
         <tr><th>Dopisane osoby</th><td>grają i mają wynik dnia, ale poza tabelą i ELO</td></tr>
-        <tr><th>Koniec sezonu</th><td>Puchar Pana Piąteczki — single, ${SEZON.final.split('-').reverse().join('.')}</td></tr>
+        <tr><th>Koniec sezonu</th><td>Puchar Pana Piąteczki, single, ${SEZON.final.split('-').reverse().join('.')}</td></tr>
       </tbody>
     </table>
   </section>`;
 }
 
-/** Otwiera pojedyncze hasło w arkuszu — używane przez dymki ⓘ na innych ekranach. */
+/** Otwiera pojedyncze hasło w arkuszu, używane przez dymki ⓘ na innych ekranach. */
 export function pokazHaslo(klucz) {
   const h = POMOC[klucz];
   if (!h) return;

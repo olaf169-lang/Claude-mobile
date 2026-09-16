@@ -1,7 +1,7 @@
 /* ==========================================================================
    Wspólna baza wyników (Firestore).
 
-   Ten sam projekt Firebase co „Jaka to Melodia” — darmowy plan spokojnie to
+   Ten sam projekt Firebase co „Jaka to Melodia”. Darmowy plan spokojnie to
    udźwignie, bo cały sezon to kilkadziesiąt dokumentów. Dzięki temu KAŻDY
    z czwórki wpisuje wynik ze swojego telefonu i wszyscy widzą go od razu.
 
@@ -62,7 +62,7 @@ async function baza() {
 }
 
 /** Podpina się pod zmiany. Callback dostaje (wieczory, stanLacza) i odpala
-    się od razu z tym, co jest w kopii lokalnej — ekran nigdy nie mruga pustką. */
+    się od razu z tym, co jest w kopii lokalnej, więc ekran nigdy nie mruga pustką. */
 export function nasluchuj(cb) {
   sluchacze.add(cb);
   cb(ostatnie, stanLacza);
@@ -85,13 +85,13 @@ async function start() {
         rozeslij();
       },
       (blad) => {
-        console.warn('Firestore nie odpowiada — jedziemy na kopii lokalnej.', blad);
+        console.warn('Firestore nie odpowiada, jedziemy na kopii lokalnej.', blad);
         stanLacza = 'lokalnie';
         rozeslij();
       },
     );
   } catch (blad) {
-    console.warn('Nie udało się wczytać Firebase — tryb lokalny.', blad);
+    console.warn('Nie udało się wczytać Firebase, tryb lokalny.', blad);
     stanLacza = 'lokalnie';
     rozeslij();
   }
@@ -142,7 +142,7 @@ export async function usunMecz(data, nr) {
   } catch (blad) { console.warn('Kasowanie meczu poszło do kolejki:', blad); }
 }
 
-/* Zamek — patrz zamek.js. Zamknięcie to zwykły zapis pola; odblokowanie musi
+/* Zamek, patrz zamek.js. Zamknięcie to zwykły zapis pola; odblokowanie musi
    dodatkowo nieść skrót kodu, bo tego wymagają reguły Firestore. */
 
 export async function zamknijWieczor(data) {

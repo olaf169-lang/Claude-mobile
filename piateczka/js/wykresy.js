@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Dwa wykresy, oba rysowane ręcznie w SVG — żadnej biblioteki.
+   Dwa wykresy, oba rysowane ręcznie w SVG, bez żadnej biblioteki.
 
    Paleta serii jest przypisana NA STAŁE do gracza (Jacek zawsze ten sam
    kolor, niezależnie od miejsca w tabeli) i przeszła walidację kontrastu
@@ -20,7 +20,7 @@ const zaokr = (n) => Math.round(n * 10) / 10;
 /* --------------------------------------------------------------- iskra */
 
 /** Mikro-wykres do wiersza tabeli: przebieg salda narastająco.
-    Jedna seria, więc bez legendy — opisuje ją wiersz, przy którym stoi. */
+    Jedna seria, więc bez legendy: opisuje ją wiersz, przy którym stoi. */
 export function iskra(wartosci, kolor, { szer = 66, wys = 24 } = {}) {
   if (!wartosci || wartosci.length < 2) return `<svg class="iskra" width="${szer}" height="${wys}" aria-hidden="true"></svg>`;
   const min = Math.min(0, ...wartosci);
@@ -89,7 +89,7 @@ export function linie({ serie, etykiety, szer = 340, wys = 190 }) {
   </svg>`;
 }
 
-/** Krzyżyk + dymek z wartościami — działa i myszą, i palcem. */
+/** Krzyżyk + dymek z wartościami, działa i myszą, i palcem. */
 export function podepnijKrzyzyk(svg, serie, etykiety, kontener) {
   if (!svg) return;
   const krzyzyk = svg.querySelector('.krzyzyk');
@@ -113,7 +113,7 @@ export function podepnijKrzyzyk(svg, serie, etykiety, kontener) {
       <span><i style="background:${s.kolor}"></i>${s.nazwa} ${Math.round(s.wartosci[i] ?? s.wartosci.at(-1))}</span>`).join('');
   };
   // W SVG atrybut `hidden` bywa ignorowany, a klasa .dymek-wykresu ma własne
-  // `display`, które przebiłoby regułę [hidden] — stąd jawne klasy i reguły CSS.
+  // `display`, które przebiłoby regułę [hidden], stąd jawne klasy i reguły CSS.
   const schowaj = () => { krzyzyk.classList.remove('widoczny'); dymek.hidden = true; };
 
   svg.addEventListener('pointermove', rusz);

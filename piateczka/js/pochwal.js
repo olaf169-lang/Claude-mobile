@@ -1,8 +1,8 @@
 /* ==========================================================================
-   „Pochwal się" — udostępnianie wieczoru na grupę.
+   „Pochwal się": udostępnianie wieczoru na grupę.
 
    Jeden przycisk: na telefonie odpala systemowe okno „wyślij do…" (Web Share),
-   a jak go nie ma (np. desktop) — kopiuje do schowka. W obu przypadkach leci
+   a jak go nie ma (np. desktop), kopiuje do schowka. W obu przypadkach leci
    gotowa laurka + link do widoku podsumowania tego konkretnego wieczoru.
    ========================================================================== */
 
@@ -11,7 +11,7 @@ import { rekordyWieczoru, mvpWieczoru, trybyWieczoru } from './liczenie.js';
 import { komunikat, arkusz, bez } from './ui.js';
 
 /** Adres aplikacji bez ogona. Ktoś, kto wszedł przez „…/piateczka/index.html”,
-    rozsyłałby ten sam brzydki adres dalej — obcinamy końcówkę, żeby na grupę
+    rozsyłałby ten sam brzydki adres dalej, więc obcinamy końcówkę, żeby na grupę
     zawsze szło czyste „…/piateczka/”. */
 function adresBazowy() {
   return `${location.origin}${location.pathname.replace(/index\.html$/, '')}`;
@@ -21,7 +21,7 @@ export function linkPodsumowania(data) {
   return `${adresBazowy()}#/podsumowanie/${data}`;
 }
 
-/** Krótka laurka do wklejenia na czacie — bez ozdobników, żeby dobrze
+/** Krótka laurka do wklejenia na czacie, bez ozdobników, żeby dobrze
     wyglądała też jako zwykły tekst. */
 export function tekstPodsumowania(wieczor) {
   const rek = [...rekordyWieczoru(wieczor, { wszyscy: true }).values()]
@@ -37,11 +37,11 @@ export function tekstPodsumowania(wieczor) {
   linie.push('');
   rek.forEach((r, i) => linie.push(
     `${i + 1}. ${imieW(wieczor, r.id)}  ${r.meczeW}W-${r.meczeP}P  (sety ${r.setyW}:${r.setyP})`));
-  if (wieczor.towarzyski) linie.push('\n(wieczór towarzyski — poza sezonem)');
+  if (wieczor.towarzyski) linie.push('\n(wieczór towarzyski, poza sezonem)');
   return linie.join('\n');
 }
 
-/** Zaproszenie do samej aplikacji — do wysłania na grupę. Adres liczymy
+/** Zaproszenie do samej aplikacji, do wysłania na grupę. Adres liczymy
     z bieżącej lokalizacji, więc działa tak samo lokalnie i na GitHub Pages. */
 export function linkAplikacji() {
   return adresBazowy();
@@ -51,11 +51,11 @@ export async function zapros() {
   const url = linkAplikacji();
   const text = [
     '🏸 Turniej Pana Piąteczki',
-    'Nasza liga badmintona — tabela, forma i przydomki.',
+    'Nasza liga badmintona: tabela, forma i przydomki.',
     'Otwiera się w przeglądarce, nic nie trzeba instalować:',
   ].join('\n');
   await wyslij({ title: 'Turniej Pana Piąteczki', text, url },
-    'Link skopiowany — wklej na grupie 📋');
+    'Link skopiowany, wklej na grupie 📋');
 }
 
 export async function pochwalSie(wieczor) {
@@ -63,12 +63,12 @@ export async function pochwalSie(wieczor) {
     title: 'Turniej Pana Piąteczki',
     text: tekstPodsumowania(wieczor),
     url: linkPodsumowania(wieczor.data),
-  }, 'Skopiowane — wklej na grupie 📋');
+  }, 'Skopiowane, wklej na grupie 📋');
 }
 
-/** Systemowe „wyślij do…”, a jak go nie ma (zwykle desktop) — schowek.
+/** Systemowe „wyślij do…”, a jak go nie ma (zwykle desktop), schowek.
     Gdy i schowek odmówi (np. brak HTTPS), pokazujemy sam adres, żeby dało się
-    go przepisać — lepsze to niż komunikat „nie udało się” i nic więcej. */
+    go przepisać, bo to lepsze niż komunikat „nie udało się” i nic więcej. */
 async function wyslij({ title, text, url }, potwierdzenie) {
   try {
     if (navigator.share) {
@@ -76,7 +76,7 @@ async function wyslij({ title, text, url }, potwierdzenie) {
       return;
     }
   } catch (e) {
-    if (e && e.name === 'AbortError') return;   // user zamknął okno — to nie błąd
+    if (e && e.name === 'AbortError') return;   // user zamknął okno, to nie błąd
   }
   try {
     await navigator.clipboard.writeText(`${text}\n${url}`);
@@ -87,7 +87,7 @@ async function wyslij({ title, text, url }, potwierdzenie) {
 }
 
 /** Ostatnia deska ratunku: adres w arkuszu, w polu tekstowym, zaznaczony
-    w całości — wtedy kopiuje się nawet tam, gdzie API schowka nie działa. */
+    w całości, wtedy kopiuje się nawet tam, gdzie API schowka nie działa. */
 function pokazLink(url) {
   const { el } = arkusz({
     tytul: 'Link do skopiowania',

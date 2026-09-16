@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Ekran „Podsumowanie" — laurka jednego wieczoru pod link do udostępnienia.
+   Ekran „Podsumowanie": laurka jednego wieczoru pod link do udostępnienia.
 
    Tu ląduje ktoś, kto kliknie link z grupy (#/podsumowanie/RRRR-MM-DD).
    Read-only, ładne, do zrzutu ekranu albo dalszego podania dalej.

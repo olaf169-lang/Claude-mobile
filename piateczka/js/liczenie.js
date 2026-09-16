@@ -1,7 +1,7 @@
 /* ==========================================================================
-   Turniej Pana Piąteczki — cała matematyka sezonu w jednym miejscu.
+   Turniej Pana Piąteczki: cała matematyka sezonu w jednym miejscu.
 
-   WALUTĄ SĄ ZWYCIĘSTWA. Wygrany mecz to wygrany mecz — nieważne, czy poszło
+   WALUTĄ SĄ ZWYCIĘSTWA. Wygrany mecz to wygrany mecz, nieważne, czy poszło
    15:2 czy 15:13. Punkty zdobyte w setach są tylko rozstrzygnięciem remisu,
    a punkty stracone nie liczą się do tabeli w ogóle (decyzja z 2026-09-15:
    „przegranie seta 15-2 waży tak samo jak przegranie go 15-13”).
@@ -40,7 +40,7 @@ export function trybMeczu(mecz) {
 
 /* Przy czwórce istnieją DOKŁADNIE trzy zestawienia debla i po tych trzech
    meczach każdy zagrał z każdym raz w parze i dwa razy przeciw. Zero
-   losowania, pełna symetria — to jest fundament uczciwości tabeli. */
+   losowania, pełna symetria. To jest fundament uczciwości tabeli. */
 const ROTACJA_4 = [
   [[0, 1], [2, 3]],
   [[0, 2], [1, 3]],
@@ -83,7 +83,7 @@ export function ukladMeczow(sklad, przesuniecie = 0, format = FORMAT_DOMYSLNY, t
   });
 }
 
-/** Format konkretnego meczu — własny, a jak go nie ma, to domyślny wieczoru. */
+/** Format konkretnego meczu: własny, a jak go nie ma, to domyślny wieczoru. */
 export function formatMeczu(mecz, wieczor) {
   return normalizujFormat(mecz?.format ?? wieczor?.format ?? FORMAT_DOMYSLNY);
 }
@@ -95,7 +95,7 @@ export function ilePolNaSety(format, mecz) {
   const { setyA, setyB } = wynikMeczu(mecz);
   const zapisane = (mecz?.sety ?? []).filter((s) => setRozegrany(s)).length;
   const zFormatu = f.setow === 1 ? 1 : (setyA === 1 && setyB === 1 ? 3 : 2);
-  // Nigdy nie chowamy seta, który już jest zapisany — inaczej po zmianie
+  // Nigdy nie chowamy seta, który już jest zapisany, bo inaczej po zmianie
   // formatu wynik zniknąłby z oczu, choć dalej liczyłby się do tabeli.
   return Math.max(zFormatu, zapisane);
 }
@@ -133,7 +133,7 @@ export function wynikMeczu(mecz) {
   };
 }
 
-/** Czy mecz jest już rozstrzygnięty zgodnie ze swoim formatem — czyli czy
+/** Czy mecz jest już rozstrzygnięty zgodnie ze swoim formatem, czyli czy
     jest co zapisywać. Przy „do 2 wygranych” trzeba mieć 2:0 albo 2:1. */
 export function meczKompletny(mecz, wieczor) {
   const f = formatMeczu(mecz, wieczor);
@@ -156,11 +156,11 @@ function pustyRekord(id) {
     przegraneZRzedu: 0,        // ile PRZEGRANYCH z rzędu (remis też ją zeruje)
     setyPrzewagaW: 0,          // sety wygrane po dogrywce (powyżej granicy seta)
     najgorszyPrzegranySet: null, // ile punktów zdobyłem w najgorzej przegranym secie
-    meczeKolejno: [],          // { data, wygrany, trzySety, tryb } — chronologicznie
-    dni: [],                   // { data, w, p } — bilans pojedynczego wieczoru
+    meczeKolejno: [],          // { data, wygrany, trzySety, tryb }, chronologicznie
+    dni: [],                   // { data, w, p }, bilans pojedynczego wieczoru
     partnerzy: {},             // id → { w, p }
     przeciwnicy: {},           // id → { w, p }
-    historia: [],              // { data, w } — do iskry w tabeli
+    historia: [],              // { data, w }, do iskry w tabeli
   };
 }
 
@@ -244,7 +244,7 @@ export function rekordyWieczoru(wieczor, { wszyscy = false, tryb = null } = {}) 
           if (!nasz(id)) continue;
           const s = daj(id);
           if (mojePkt > ichPkt) {
-            // Set wygrany po dogrywce — własny wynik przebił granicę seta.
+            // Set wygrany po dogrywce: własny wynik przebił granicę seta.
             if (mojePkt > granica) s.setyPrzewagaW += 1;
           } else if (ichPkt > mojePkt) {
             s.najgorszyPrzegranySet = s.najgorszyPrzegranySet === null
@@ -356,7 +356,7 @@ export function klasyfikacja(wieczory, zakres = {}) {
     a.id.localeCompare(b.id));
 
   // Mecz bezpośredni rozstrzyga dopiero wewnątrz grupy o identycznych trzech
-  // pierwszych kryteriach — inaczej wywracałby cały porządek tabeli.
+  // pierwszych kryteriach, bo inaczej wywracałby cały porządek tabeli.
   const grupy = new Map();
   for (const r of rek) {
     const k = klucz(r);
@@ -386,9 +386,9 @@ export function wFiltrze(wieczory, { od, do: dokad } = {}) {
 
 /* ------------------------------------------------------------------- MVP */
 
-/** Najlepszy gracz wieczoru — po wszystkich meczach, singlowych i deblowych
+/** Najlepszy gracz wieczoru, po wszystkich meczach, singlowych i deblowych
     razem. Ta sama kolejność co w tabeli: wygrane mecze, potem wygrane sety,
-    potem zdobyte punkty. Jeśli i to równe — MVP jest dzielone. */
+    potem zdobyte punkty. Jeśli i to równe, MVP jest dzielone. */
 export function mvpWieczoru(wieczor) {
   if (!wieczor || wieczor.towarzyski || !wieczorRozegrany(wieczor)) return null;
   const rek = [...rekordyWieczoru(wieczor, { wszyscy: true }).values()]
@@ -396,7 +396,7 @@ export function mvpWieczoru(wieczor) {
   if (!rek.length) return null;
   rek.sort((a, b) => b.meczeW - a.meczeW || b.setyW - a.setyW || b.zdobyte - a.zdobyte);
   const naj = rek[0];
-  if (naj.meczeW === 0) return null;   // nikt nic nie wygrał — nie ma kogo chwalić
+  if (naj.meczeW === 0) return null;   // nikt nic nie wygrał, nie ma kogo chwalić
   const remis = rek.filter((r) =>
     r.meczeW === naj.meczeW && r.setyW === naj.setyW && r.zdobyte === naj.zdobyte);
   return { gracze: remis.map((r) => r.id), wygrane: naj.meczeW, rekord: naj };
@@ -448,7 +448,7 @@ export function rekordySezonu(wieczory) {
   let najlepszyDuet = null;
   for (const [id, r] of suma) {
     for (const [partner, b] of Object.entries(r.partnerzy)) {
-      // Para liczy się raz — bierzemy tylko id < partner, żeby nie dublować.
+      // Para liczy się raz: bierzemy tylko id < partner, żeby nie dublować.
       if (id >= partner) continue;
       if (!najlepszyDuet || b.w > najlepszyDuet.wygrane) {
         najlepszyDuet = { para: [id, partner], wygrane: b.w, przegrane: b.p };

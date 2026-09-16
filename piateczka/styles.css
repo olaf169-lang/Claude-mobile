@@ -1,8 +1,8 @@
 /* ==========================================================================
-   Turniej Pana Piąteczki — szata graficzna.
+   Turniej Pana Piąteczki, szata graficzna.
 
    Granat i złoto. Złoto pojawia się WYŁĄCZNIE przy zaszczytach (pierwsze
-   miejsce, MVP, Big Boss, Puchar) — dzięki temu, że jest rzadkie, coś znaczy.
+   miejsce, MVP, Big Boss, Puchar): dzięki temu, że jest rzadkie, coś znaczy.
    Zieleń i czerwień zostają zarezerwowane dla salda, a miedź dla trzeciego
    miejsca na podium. Wszystkie te barwy przeszły sprawdzenie kontrastu
    na granatowym tle.
@@ -32,7 +32,7 @@
   --czerwien:       #E2685F;
   --bursztyn:       #E3B341;
 
-  /* Barwy rodzajów gry — błękit dla debla, złoto dla singla. Wracają
+  /* Barwy rodzajów gry, błękit dla debla, złoto dla singla. Wracają
      w wyborze wieczoru, na kartach meczów i w przełącznikach tabel. */
   --tryb-debel:     #5FB3E0;
   --tryb-singiel:   #E3B341;
@@ -53,7 +53,7 @@
   --szerokosc:  38rem;
 }
 
-/* Motyw jasny. Wcześniej był zbyt wyprany — biel na bieli, nic się nie działo.
+/* Motyw jasny. Wcześniej był zbyt wyprany, biel na bieli, nic się nie działo.
    Teraz tło jest wyraźnie chłodne i barwne, karty są czystą bielą (więc same
    się odcinają), a kreski i cienie mają realną siłę. Kontrasty sprawdzone:
    tekst 4,5:1+ na płycie, złoto i czerwień w wersji ciemniejszej niż w nocy,
@@ -231,7 +231,7 @@ main {
   padding: 16px;
   box-shadow: var(--cien);
 }
-/* Cienka złota kreska u góry karty — dodaje głębi bez krzykliwości. */
+/* Cienka złota kreska u góry karty, dodaje głębi bez krzykliwości. */
 .karta::before {
   content: '';
   position: absolute;
@@ -405,7 +405,7 @@ main {
 .karta-mecz { border-left: 3px solid var(--kreska); }
 .karta-mecz.rozegrany { border-left-color: var(--zloto); }
 .mecz-prawa { display: flex; align-items: center; gap: 4px; }
-/* Plakietka „+3 zwycięzcom” w stopce meczu — złota, bo to jednak nagroda. */
+/* Plakietka „+3 zwycięzcom” w stopce meczu, złota, bo to jednak nagroda. */
 .bonus-znacznik {
   font-size: 11px;
   font-weight: 700;
@@ -606,7 +606,7 @@ main {
 .forma-pary > span:last-child { text-align: right; }
 .forma-pary i { flex: none; font-style: normal; color: var(--tekst-ledwie); font-weight: 400; }
 
-/* Belka szans: lewa część to pierwsza para, reszta druga. Sam obrazek —
+/* Belka szans: lewa część to pierwsza para, reszta druga. Sam obrazek -
    żadnej propozycji wyrównania, bo takich w tym turnieju nie dajemy. */
 .forma-belka {
   display: block;
@@ -631,7 +631,7 @@ main {
 .godlo { display: block; margin-inline: auto; overflow: visible; }
 
 /* Metale odznak. Każdy poziom ustawia sobie parę zmiennych, a gradient w SVG
-   czyta je przez var() — dlatego motyw jasny (niżej) może mieć własny, znacznie
+   czyta je przez var(): dlatego motyw jasny (niżej) może mieć własny, znacznie
    ciemniejszy komplet. Poprzednio kolory siedziały na sztywno w JS i górny stop
    srebra (#EDF3FB) miał na białej karcie kontrast 1,12:1: odznaka była biała
    na białym i po prostu jej nie było widać. */
@@ -645,7 +645,7 @@ main {
 :root[data-motyw="jasny"] .godlo-zloto  { --metal-1: #C08A1E; --metal-2: #7A5210; }
 :root[data-motyw="jasny"] .godlo-puste  { --metal-1: #8C9BB0; --metal-2: #4A5A72; }
 
-/* Gracz Miesiąca: poświata w kolorze WŁASNEGO poziomu — żadnego czwartego
+/* Gracz Miesiąca: poświata w kolorze WŁASNEGO poziomu, żadnego czwartego
    metalu, o co była wyraźna prośba. */
 .godlo-reign { filter: drop-shadow(0 0 5px color-mix(in srgb, var(--metal-1) 70%, transparent)); }
 .godlo-korona { fill: color-mix(in srgb, var(--metal-1) 30%, transparent); }
@@ -675,6 +675,33 @@ main {
   border-radius: var(--r-s);
   font-size: 13.5px;
 }
+/* Lista przydomków jednego gracza: wszystko, co ma trafione, noszony wyżej. */
+.moje-przydomki { list-style: none; margin: 0 0 12px; padding: 0; display: grid; gap: 6px; }
+.moje-przydomki li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  background: var(--plyta);
+  border-radius: var(--r-s);
+  border: 1px solid transparent;
+}
+.moje-przydomki li.noszony { border-color: var(--zloto); background: var(--plyta-pelna); }
+.moje-tresc { flex: 1; display: grid; gap: 2px; }
+.moje-tresc b { font-size: 14px; }
+.moje-tresc em { font-style: normal; font-size: 12px; color: var(--tekst-ledwie); line-height: 1.35; }
+.moje-znacznik {
+  flex: none;
+  align-self: flex-start;
+  font: 700 10.5px/1 var(--naglowkowy);
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--zloto);
+  background: var(--zloto-mgla);
+  padding: 4px 7px;
+  border-radius: 999px;
+}
+
 .mvp-data { color: var(--tekst-ledwie); font-size: 12px; flex: none; width: 54px; }
 .mvp-kto { font-weight: 600; flex: 1; }
 .mvp-saldo { font: 700 14px/1 var(--naglowkowy); }
@@ -936,7 +963,7 @@ main {
 
 /* ============================ Zasady: esencja + accordion ============= */
 
-/* Karta „W 20 sekund” to jedyna rzecz, którą trzeba przeczytać — więc nie
+/* Karta „W 20 sekund” to jedyna rzecz, którą trzeba przeczytać, więc nie
    może wyglądać jak każda inna biała karta. Ten sam boks (tło + złoty pasek
    z lewej) dostają wyróżnione hasła w rozwijanych sekcjach, żeby w całej
    instrukcji „ważne” miało jeden, rozpoznawalny wygląd. */
@@ -1004,7 +1031,7 @@ main {
   color: var(--tekst-ledwie);
 }
 
-/* Zwijane sekcje — ekran to lista tematów, nie ściana tekstu. */
+/* Zwijane sekcje, ekran to lista tematów, nie ściana tekstu. */
 details.akord { padding: 0; overflow: hidden; }
 .akord-glowa {
   list-style: none;
@@ -1410,7 +1437,7 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
 }
 .chip:disabled { opacity: .45; cursor: not-allowed; }
 
-/* Zaproszenie do aplikacji — jeden przycisk na ekranie startowym. */
+/* Zaproszenie do aplikacji, jeden przycisk na ekranie startowym. */
 .karta-zapros {
   display: flex;
   align-items: center;
@@ -1438,7 +1465,7 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
 
    Musi być pierwszą decyzją wieczoru i musi się rzucać w oczy, dlatego to
    duże kafle w kolorach trybu, a nie kolejny rząd szarych chipów. Debel
-   dostaje błękit, singiel złoto — te same barwy wracają potem na kartach
+   dostaje błękit, singiel złoto, te same barwy wracają potem na kartach
    meczów, więc po kolorze widać, co się gdzie rozegrało. */
 
 .karta-rodzaj { border-color: color-mix(in srgb, var(--kreska-mocna) 60%, transparent); }
@@ -1478,7 +1505,7 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
   background: color-mix(in srgb, var(--tryb-singiel) 14%, transparent);
 }
 
-/* Karta meczu dostaje pasek w kolorze swojego trybu — po przewinięciu
+/* Karta meczu dostaje pasek w kolorze swojego trybu, po przewinięciu
    ekranu od razu widać, gdzie kończą się deble, a zaczynają single. */
 .karta-mecz { border-left: 4px solid transparent; }
 .karta-debel   { border-left-color: color-mix(in srgb, var(--tryb-debel) 65%, transparent); }
@@ -1524,7 +1551,7 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
 .haslo-klucz .pomoc-nota { margin-bottom: 14px; }
 
 /* ==========================================================================
-   Tryb sędziego — zliczanie pojedynczych zagrań.
+   Tryb sędziego, zliczanie pojedynczych zagrań.
    ========================================================================== */
 
 .btn-sedzia {
@@ -1669,10 +1696,10 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
 }
 
 /* Skrót tabeli na Starcie: nagłówek mówi po prostu „Tabela", a rodzaj gry
-   wybiera się małymi chipami pod nim — na Starcie chodzi o rzut oka. */
+   wybiera się małymi chipami pod nim, na Starcie chodzi o rzut oka. */
 .chipy-skrot { margin: -2px 0 10px; }
 .chip-maly { min-height: 30px; padding: 5px 13px; font-size: 13px; }
 
-/* Przycisk tuż pod rzędem chipów przyklejał się do nich — brakowało oddechu
+/* Przycisk tuż pod rzędem chipów przyklejał się do nich, brakowało oddechu
    po tym, jak opis układu meczów przeniósł się na kartę „W co gracie?". */
 .chipy + .btn.szeroki { margin-top: 14px; }
