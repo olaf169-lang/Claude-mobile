@@ -65,6 +65,17 @@ export const PRZYDOMKI = [
     opis: 'Zapierdalasz, ale formą w dół: z ostatnich siedmiu meczów wygrałeś najwyżej dwa. Roboty jest, biegania jest, punktów brak.',
     warunek: (r) => r.meczeKolejno.length >= 7 && ostatnie(r, 7).filter((m) => m.wygrany).length <= 2,
   },
+  {
+    id: 'pedal', nazwa: 'Mistrz Pedałowania', poziom: 'braz',
+    haslo: 'W parze orzeł, sam — niekoniecznie',
+    opis: 'Solidny bilans w deblu, mizerny w singlu. Na tandemie jedzie się raźniej, bo zawsze można uznać, że to drugi mocniej pedałuje.',
+    warunek: (r, c) => {
+      const d = c.statDebel.get(r.id);
+      const p = c.statSingiel.get(r.id);
+      if (!d || !p || d.mecze < 2 || p.mecze < 2) return false;
+      return d.meczeW / d.mecze >= 0.6 && p.meczeW / p.mecze <= 0.35;
+    },
+  },
 
   /* ----------------------------------------------------------- SREBRO */
   {
@@ -103,18 +114,6 @@ export const PRZYDOMKI = [
     opis: 'Pierwszy w tabeli singla. W deblu zawsze można zwalić na partnera — tu nie ma na kogo.',
     warunek: (r, c) => c.liderSingla === r.id,
   },
-  {
-    id: 'pedal', nazwa: 'Mistrz Pedałowania', poziom: 'braz',
-    haslo: 'W parze orzeł, sam — niekoniecznie',
-    opis: 'Solidny bilans w deblu, mizerny w singlu. Na tandemie jedzie się raźniej, bo zawsze można uznać, że to drugi mocniej pedałuje.',
-    warunek: (r, c) => {
-      const d = c.statDebel.get(r.id);
-      const p = c.statSingiel.get(r.id);
-      if (!d || !p || d.mecze < 2 || p.mecze < 2) return false;
-      return d.meczeW / d.mecze >= 0.6 && p.meczeW / p.mecze <= 0.35;
-    },
-  },
-
   /* ------------------------------------------------------------ ZŁOTO */
   {
     id: 'mmmpuuu', nazwa: 'Mmmpuuu!', poziom: 'zloto',
