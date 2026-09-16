@@ -43,21 +43,33 @@ const ROTACJA_4 = [
   [[0, 3], [1, 2]],
 ];
 
-const ROTACJA_3 = [
-  [[0], [1]],
-  [[0], [2]],
-  [[1], [2]],
-];
+/* Single układamy metodą karuzeli (round robin): jeden gracz stoi, reszta
+   obraca się wokół niego. Dzięki temu w każdej rundzie każdy gra dokładnie
+   raz, więc nikt nie ma trzech meczów pod rząd, a przy nieparzystej liczbie
+   chętnych ktoś po prostu pauzuje. */
+function paryKazdyZKazdym(n) {
+  const idx = [...Array(n).keys()];
+  if (n % 2) idx.push(-1);                 // pauza dla nieparzystych
+  const m = idx.length;
+  const pary = [];
+  for (let r = 0; r < m - 1; r += 1) {
+    for (let i = 0; i < m / 2; i += 1) {
+      const a = idx[i], b = idx[m - 1 - i];
+      if (a !== -1 && b !== -1) pary.push([[a], [b]]);
+    }
+    idx.splice(1, 0, idx.pop());           // obrót karuzeli, pierwszy stoi
+  }
+  return pary;
+}
 
-/** Mecze wieczoru dla danego składu. `przesuniecie` obraca kolejność, żeby
-    nie zawsze te same pary otwierały grę. */
-export function ukladMeczow(sklad, przesuniecie = 0, format = FORMAT_DOMYSLNY) {
+/** Mecze wieczoru dla danego składu. `tryb` mówi, czy układamy deble, czy
+    single; przy mniej niż czterech chętnych debel i tak schodzi na singla,
+    bo nie ma z kogo złożyć par. `przesuniecie` obraca kolejność, żeby nie
+    zawsze te same osoby otwierały grę. */
+export function ukladMeczow(sklad, przesuniecie = 0, format = FORMAT_DOMYSLNY, tryb = 'debel') {
   const n = sklad.length;
-  let wzor;
-  if (n >= 4) wzor = ROTACJA_4;
-  else if (n === 3) wzor = ROTACJA_3;
-  else if (n === 2) wzor = [[[0], [1]]];
-  else return [];
+  if (n < 2) return [];
+  const wzor = (tryb === 'singiel' || n < 4) ? paryKazdyZKazdym(n) : ROTACJA_4;
 
   const f = normalizujFormat(format);
   const obrot = ((przesuniecie % wzor.length) + wzor.length) % wzor.length;

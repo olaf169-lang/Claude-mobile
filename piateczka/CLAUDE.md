@@ -37,9 +37,18 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
   Saldo i `BONUS_WYGRANEJ` zostały **skasowane** — nie przywracaj ich.
 - **Singiel i debel to DWIE OSOBNE rozgrywki**: osobna tabela, osobne
   statystyki, osobne ELO. Tryb wynika z obsady (`trybMeczu()`), nic się
-  dodatkowo nie wpisuje. W tabelach pokazujemy tylko tych, którzy w danym
-  trybie zagrali (`r.mecze > 0`) — wyraźna prośba użytkownika.
-  Wyjątek: wynik wieczoru i MVP liczą wszystkie mecze razem.
+  dodatkowo nie wpisuje ani nie zapisuje w dokumencie. W tabelach pokazujemy
+  tylko tych, którzy w danym trybie zagrali (`r.mecze > 0`) — wyraźna prośba
+  użytkownika. Wyjątek: wynik wieczoru i MVP liczą wszystkie mecze razem.
+- **Rodzaj gry wybiera się NA STARCIE wieczoru**, nie chowa pod „Dograj mecz”
+  (prośba użytkownika 2026-09-16). Karta „W co gracie?” stoi przed składem,
+  a `ukladMeczow(sklad, przesuniecie, format, tryb)` układa albo trzy deble,
+  albo single każdy z każdym (karuzela round-robin w `paryKazdyZKazdym`,
+  więc nikt nie gra trzech meczów pod rząd). Przy mniej niż czterech debel
+  i tak schodzi na singla. Drugi rodzaj dorzuca się potem „Dograj mecz”.
+- **Debel = błękit, singiel = złoto** (`--tryb-debel` / `--tryb-singiel`,
+  osobne w obu motywach). Te same barwy w wyborze rodzaju, na kartach meczów
+  (pasek z lewej) i w przełącznikach na Tabeli i ELO — nie rozjeżdżaj tego.
 - **Format jest zmienny**: `{ setow: 1|2, doIlu: N }`, per mecz, dziedziczony
   z wieczoru (`formatMeczu()`). Stare klucze tekstowe ('3x15') mapuje
   `normalizujFormat()` w `dane.js` — nie usuwaj tego, bo w bazie siedzą
@@ -77,6 +86,14 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
   `godlo()`). Godła to SVG z metalicznym gradientem wg poziomu. Nazwy poziomów
   w UI po polsku (Brąz/Srebro/Złoto); id w kodzie ascii (braz/srebro/zloto).
   Kolejność w katalogu: brąz→srebro→złoto. NIE dawaj forów/4. poziomu.
+- **Kolory godeł siedzą w CSS, nie w JS** (`--metal-1`/`--metal-2` na klasach
+  `.godlo-braz|srebro|zloto|puste`, osobny komplet dla motywu jasnego).
+  Powód: wcześniej były na sztywno w `tytuly.js` i górny stop srebra
+  (#EDF3FB) miał na białej karcie kontrast **1,12:1** — odznaka była
+  niewidoczna. Jak ruszasz metale, przelicz kontrast (min. 3:1 na białym).
+- **Glify rysujemy bryłą + obrysem**, nie samym cienkim konturem: wypełnienie
+  gradientem na 0,18–0,3 krycia plus stroke 2,6, a najważniejszy detal
+  (iskra, żar, oko) solidny. Sam kontur przy 56 px znikał.
 - **Zapisany wieczór jest zamknięty.** `wieczor.zamkniety === true` po
   naciśnięciu „Zapisz wieczór”; odblokowanie wymaga kodu administratora
   (`js/zamek.js`, SHA-256). Reguły Firestore przepuszczają zapis do
@@ -124,6 +141,13 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
 | `js/ekran-podsumowanie.js` | laurka wieczoru pod link `#/podsumowanie/<data>` |
 | `js/ekran-*.js` | po jednym module na ekran, każdy eksportuje `render()` |
 | `narzedzia/ikony.py` | generator ikon PWA (bez Pillow — własny zapis PNG) |
+
+### Wyróżnione hasła w instrukcji
+
+`kluczowe: true` przy haśle w `POMOC` sprawia, że ekran „Zasady” rysuje je
+w złotym boksie z plakietką „Najważniejsze” (`.haslo-klucz`) — tym samym,
+co karta „W 20 sekund” (`.karta-esencja`). To jeden język wizualny dla
+„to musisz przeczytać”; nie rozmnażaj wariantów.
 
 ### Podpowiedzi i instrukcja to jeden plik
 

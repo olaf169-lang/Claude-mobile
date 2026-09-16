@@ -32,6 +32,11 @@
   --czerwien:       #E2685F;
   --bursztyn:       #E3B341;
 
+  /* Barwy rodzajów gry — błękit dla debla, złoto dla singla. Wracają
+     w wyborze wieczoru, na kartach meczów i w przełącznikach tabel. */
+  --tryb-debel:     #5FB3E0;
+  --tryb-singiel:   #E3B341;
+
   --poswiata: radial-gradient(70% 40% at 8% -6%, rgba(217, 164, 65, .13) 0%, transparent 66%),
               radial-gradient(60% 42% at 96% 2%, rgba(47, 159, 204, .14) 0%, transparent 62%),
               radial-gradient(90% 50% at 50% 104%, rgba(11, 42, 34, .55) 0%, transparent 70%);
@@ -75,6 +80,9 @@
   --zielen:         #0E7150;
   --czerwien:       #B3332B;
   --bursztyn:       #8A5D12;
+
+  --tryb-debel:     #1C6FA8;
+  --tryb-singiel:   #8A5D12;
 
   --poswiata: radial-gradient(72% 42% at 6% -8%, rgba(196, 140, 33, .20) 0%, transparent 64%),
               radial-gradient(64% 44% at 98% 0%, rgba(47, 132, 204, .22) 0%, transparent 60%),
@@ -621,7 +629,26 @@ main {
    kolor wg poziomu; wypełnienie i obrys idą z atrybutów inline, więc CSS ich
    nie nadpisuje. Oprawa Gracza Miesiąca dokłada koronę i złotą poświatę. */
 .godlo { display: block; margin-inline: auto; overflow: visible; }
-.godlo-korona { fill: color-mix(in srgb, currentColor 30%, transparent); }
+
+/* Metale odznak. Każdy poziom ustawia sobie parę zmiennych, a gradient w SVG
+   czyta je przez var() — dlatego motyw jasny (niżej) może mieć własny, znacznie
+   ciemniejszy komplet. Poprzednio kolory siedziały na sztywno w JS i górny stop
+   srebra (#EDF3FB) miał na białej karcie kontrast 1,12:1: odznaka była biała
+   na białym i po prostu jej nie było widać. */
+.godlo-braz   { --metal-1: #F0A868; --metal-2: #9C5223; color: var(--metal-1); }
+.godlo-srebro { --metal-1: #EDF3FB; --metal-2: #8496AC; color: var(--metal-1); }
+.godlo-zloto  { --metal-1: #FBE38F; --metal-2: #C68A24; color: var(--metal-1); }
+.godlo-puste  { --metal-1: #7D8DA6; --metal-2: #3B4A63; color: var(--metal-1); }
+
+:root[data-motyw="jasny"] .godlo-braz   { --metal-1: #C4702E; --metal-2: #7A3D12; }
+:root[data-motyw="jasny"] .godlo-srebro { --metal-1: #7A90AD; --metal-2: #3E4F66; }
+:root[data-motyw="jasny"] .godlo-zloto  { --metal-1: #C08A1E; --metal-2: #7A5210; }
+:root[data-motyw="jasny"] .godlo-puste  { --metal-1: #8C9BB0; --metal-2: #4A5A72; }
+
+/* Gracz Miesiąca: poświata w kolorze WŁASNEGO poziomu — żadnego czwartego
+   metalu, o co była wyraźna prośba. */
+.godlo-reign { filter: drop-shadow(0 0 5px color-mix(in srgb, var(--metal-1) 70%, transparent)); }
+.godlo-korona { fill: color-mix(in srgb, var(--metal-1) 30%, transparent); }
 .mini-godlo { flex: none; display: block; }
 
 .karta-boss { border-color: color-mix(in srgb, var(--zloto) 32%, transparent); }
@@ -909,9 +936,17 @@ main {
 
 /* ============================ Zasady: esencja + accordion ============= */
 
+/* Karta „W 20 sekund” to jedyna rzecz, którą trzeba przeczytać — więc nie
+   może wyglądać jak każda inna biała karta. Ten sam boks (tło + złoty pasek
+   z lewej) dostają wyróżnione hasła w rozwijanych sekcjach, żeby w całej
+   instrukcji „ważne” miało jeden, rozpoznawalny wygląd. */
 .karta-esencja {
-  background: linear-gradient(165deg, var(--zloto-mgla), transparent 60%), var(--plyta-pelna);
+  background: color-mix(in srgb, var(--zloto) 11%, var(--plyta-pelna));
+  border-color: color-mix(in srgb, var(--zloto) 42%, transparent);
+  border-left: 4px solid var(--zloto);
 }
+.karta-esencja::before { display: none; }
+.karta-esencja .karta-tytul { color: var(--zloto); }
 .esencja {
   list-style: none;
   margin: 6px 0 0;
@@ -1398,3 +1433,92 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
   color: var(--tekst);
   font: 400 14px/1.4 var(--zwykly);
 }
+
+/* ---------------------------------------- wybór rodzaju gry (debel/singiel)
+
+   Musi być pierwszą decyzją wieczoru i musi się rzucać w oczy, dlatego to
+   duże kafle w kolorach trybu, a nie kolejny rząd szarych chipów. Debel
+   dostaje błękit, singiel złoto — te same barwy wracają potem na kartach
+   meczów, więc po kolorze widać, co się gdzie rozegrało. */
+
+.karta-rodzaj { border-color: color-mix(in srgb, var(--kreska-mocna) 60%, transparent); }
+
+.rodzaj-wybor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.rodzaj-kafel {
+  display: grid;
+  justify-items: center;
+  gap: 2px;
+  padding: 14px 8px;
+  border: 2px solid var(--kreska);
+  border-radius: var(--r-s);
+  background: var(--plyta);
+  color: var(--tekst-cichy);
+  cursor: pointer;
+  transition: border-color .16s, background .16s, color .16s;
+}
+.rodzaj-ikona { font-size: 24px; line-height: 1.1; filter: grayscale(.55) opacity(.7); }
+.rodzaj-kafel b { font: 800 16px/1.2 var(--naglowkowy); }
+.rodzaj-kafel em { font-style: normal; font-size: 12px; color: var(--tekst-ledwie); }
+.rodzaj-kafel:active { transform: translateY(1px); }
+
+.rodzaj-kafel.wybrany { color: var(--tekst); }
+.rodzaj-kafel.wybrany .rodzaj-ikona { filter: none; }
+
+.rodzaj-debel.wybrany {
+  border-color: var(--tryb-debel);
+  background: color-mix(in srgb, var(--tryb-debel) 14%, transparent);
+}
+.rodzaj-singiel.wybrany {
+  border-color: var(--tryb-singiel);
+  background: color-mix(in srgb, var(--tryb-singiel) 14%, transparent);
+}
+
+/* Karta meczu dostaje pasek w kolorze swojego trybu — po przewinięciu
+   ekranu od razu widać, gdzie kończą się deble, a zaczynają single. */
+.karta-mecz { border-left: 4px solid transparent; }
+.karta-debel   { border-left-color: color-mix(in srgb, var(--tryb-debel) 65%, transparent); }
+.karta-singiel { border-left-color: color-mix(in srgb, var(--tryb-singiel) 70%, transparent); }
+
+.znacznik-debel {
+  border-color: color-mix(in srgb, var(--tryb-debel) 50%, transparent);
+  color: var(--tryb-debel);
+  background: color-mix(in srgb, var(--tryb-debel) 12%, transparent);
+}
+
+/* Przełącznik na Tabeli i ELO w tych samych barwach, żeby język był jeden. */
+.tryb-przycisk[data-tryb="debel"].wybrany   { color: var(--tryb-debel); }
+.tryb-przycisk[data-tryb="singiel"].wybrany { color: var(--tryb-singiel); }
+
+/* ------------------------------------------- wyróżnione hasła w instrukcji
+
+   Reszta akapitów leci na tle karty; te, bez których nie da się grać,
+   dostają własny boks z paskiem i plakietką. Chodzi o to, żeby po
+   rozwinięciu sekcji od razu było widać, co trzeba przeczytać, a co można
+   przejrzeć. */
+.haslo-klucz {
+  position: relative;
+  margin: 14px 0;
+  padding: 16px 16px 4px;
+  border: 1px solid color-mix(in srgb, var(--zloto) 42%, transparent);
+  border-left: 4px solid var(--zloto);
+  border-radius: var(--r-s);
+  background: color-mix(in srgb, var(--zloto) 11%, var(--plyta-pelna));
+}
+.haslo-klucz h3 { margin-top: 2px; }
+.haslo-plakietka {
+  display: inline-block;
+  margin-bottom: 6px;
+  padding: 2px 9px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--zloto) 22%, transparent);
+  color: var(--zloto);
+  font: 800 10.5px/1.6 var(--zwykly);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.haslo-klucz .pomoc-nota { margin-bottom: 14px; }

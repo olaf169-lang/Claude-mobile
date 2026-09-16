@@ -12,7 +12,7 @@ import { GRACZE, gracz, imieW, czyGosc, FORMAT_DOMYSLNY, FORMATY_SZYBKIE,
   normalizujFormat, opisFormatu, krotkiFormat,
   najblizszyWtorek, poPolsku, dzisiajIso, indeksTygodnia } from './dane.js';
 import { ukladMeczow, wynikMeczu, ilePolNaSety, formatMeczu, meczKompletny,
-  rekordyWieczoru, mvpWieczoru, trybMeczu, mecze as meczeZ } from './liczenie.js';
+  rekordyWieczoru, mvpWieczoru, trybMeczu, TRYBY, mecze as meczeZ } from './liczenie.js';
 import { dymek, naglowekZPomoca } from './pomoc.js';
 import { bez, potwierdz, komunikat, zapytaj, arkusz, zamknijArkusz,
   odmianaMeczow } from './ui.js';
@@ -24,6 +24,7 @@ let wybranaData = null;
 let szkicSkladu = null;      // skład wybierany, zanim wieczór powstanie w bazie
 let szkicFormatu = null;     // format wybrany przed utworzeniem wieczoru
 let szkicGosci = {};         // dopisane osoby przed utworzeniem wieczoru
+let szkicTrybu = 'debel';    // deble czy single — wybierane PRZED ustawieniem meczów
 
 export function ustawDate(data) { wybranaData = data; szkicSkladu = null; szkicGosci = {}; }
 
@@ -97,10 +98,32 @@ const rowneFormaty = (a, b) => a.setow === b.setow && a.doIlu === b.doIlu;
 
 /* -------------------------------------------------------------- skład */
 
+const OPISY_TRYBU = {
+  debel:   { ikona: '👥', pod: 'dwóch na dwóch' },
+  singiel: { ikona: '🙋', pod: 'jeden na jednego' },
+};
+
+function kartaRodzaju(iluGra) {
+  return `<section class="karta karta-rodzaj">
+    ${naglowekZPomoca('W co gracie?', 'tryby')}
+    <div class="rodzaj-wybor">
+      ${TRYBY.map((t) => `<button class="rodzaj-kafel rodzaj-${t.id} ${t.id === szkicTrybu ? 'wybrany' : ''}"
+        type="button" data-rodzaj="${t.id}" aria-pressed="${t.id === szkicTrybu}">
+        <span class="rodzaj-ikona" aria-hidden="true">${OPISY_TRYBU[t.id].ikona}</span>
+        <b>${t.nazwa}</b>
+        <em>${OPISY_TRYBU[t.id].pod}</em>
+      </button>`).join('')}
+    </div>
+    <p class="wskazowka">${opisUkladu(iluGra, szkicTrybu)}</p>
+    <p class="wskazowka cichy">Drugi rodzaj dorzucisz w każdej chwili przyciskiem
+    „Dograj mecz” — po deblach można jeszcze zagrać szybkiego singielka.</p>
+  </section>`;
+}
+
 function kartaSkladu() {
   const wybrani = szkicSkladu ?? GRACZE.map((g) => g.id);
   const udawany = { goscie: szkicGosci };
-  return `<section class="karta">
+  return kartaRodzaju(wybrani.length) + `<section class="karta">
     ${naglowekZPomoca('Kto przyszedł?', 'sklady')}
     <div class="chipy">
       ${GRACZE.map((g) => `
@@ -111,17 +134,32 @@ function kartaSkladu() {
           data-przelacz="${id}" aria-pressed="${wybrani.includes(id)}">${bez(imieW(udawany, id))}</button>`).join('')}
       <button class="chip chip-dopisz" type="button" id="dopisz-osobe">+ dopisz osobę ${dymek('gosc')}</button>
     </div>
-    <p class="wskazowka">${opisUkladu(wybrani.length)}</p>
     <button class="btn btn-glowny szeroki" type="button" id="ustaw-mecze"
-      ${wybrani.length < 2 ? 'disabled' : ''}>Ustaw mecze</button>
+      ${wybrani.length < 2 ? 'disabled' : ''}>${etykietaUstaw(wybrani.length)}</button>
   </section>`;
 }
 
-function opisUkladu(ilu) {
-  if (ilu >= 4) return 'Czterech grających → trzy deble, pełna rotacja: każdy zagra w parze z każdym.';
-  if (ilu === 3) return 'Trzech grających → single każdy z każdym, każdy gra dwa mecze i raz odpoczywa.';
-  if (ilu === 2) return 'Dwóch grających → jeden singiel. Kolejne mecze dorzucisz przyciskiem na dole.';
-  return 'Zaznacz przynajmniej dwie osoby.';
+function etykietaUstaw(ilu) {
+  if (ilu < 2) return 'Ustaw mecze';
+  const n = ileMeczow(ilu, szkicTrybu);
+  return `Ustaw ${n} ${odmianaMeczow(n)}`;
+}
+
+function ileMeczow(ilu, tryb) {
+  return ukladMeczow(Array.from({ length: ilu }, (_, i) => i), 0, FORMAT_DOMYSLNY, tryb).length;
+}
+
+function opisUkladu(ilu, tryb) {
+  if (ilu < 2) return 'Zaznacz przynajmniej dwie osoby.';
+  const n = ileMeczow(ilu, tryb);
+  if (tryb === 'debel' && ilu >= 4) {
+    return `${ilu} grających → ${n} deble, pełna rotacja: każdy zagra w parze z każdym i dwa razy przeciw.`;
+  }
+  if (tryb === 'debel') {
+    return `Na debla trzeba czterech — przy ${ilu} appka ułoży ${n} single, każdy z każdym.`;
+  }
+  if (ilu === 2) return 'Dwóch grających → jeden singiel. Kolejne dorzucisz przyciskiem na dole.';
+  return `${ilu} grających → ${n} singli, każdy z każdym. W każdej rundzie gracie po jednym meczu.`;
 }
 
 /* -------------------------------------------------------------- mecze */
@@ -169,7 +207,7 @@ function kartaMeczu(mecz, wieczor, zamek) {
     </div>`;
   };
 
-  return `<section class="karta karta-mecz ${r.rozegrany ? 'rozegrany' : ''}" data-karta-mecz="${mecz.nr}">
+  return `<section class="karta karta-mecz karta-${tryb} ${r.rozegrany ? 'rozegrany' : ''}" data-karta-mecz="${mecz.nr}">
     <div class="karta-tytul-rzad">
       <h2 class="karta-tytul">Mecz ${mecz.nr}
         <span class="znacznik-trybu znacznik-${tryb}">${tryb === 'singiel' ? 'singiel' : 'debel'}</span>
@@ -280,6 +318,11 @@ function podepnij(kontener, ctx) {
     if (nowy) ustawFormatWieczoru(wieczor, nowy, ctx);
   });
 
+  kontener.querySelectorAll('[data-rodzaj]').forEach((el) => el.addEventListener('click', () => {
+    szkicTrybu = el.dataset.rodzaj;
+    ctx.odswiez();
+  }));
+
   kontener.querySelectorAll('[data-przelacz]').forEach((el) => el.addEventListener('click', () => {
     const id = el.dataset.przelacz;
     const teraz = szkicSkladu ?? GRACZE.map((g) => g.id);
@@ -308,7 +351,7 @@ function podepnij(kontener, ctx) {
     const format = normalizujFormat(szkicFormatu ?? FORMAT_DOMYSLNY);
     // Kolejność meczów rotuje co tydzień: 0→1→2→0… — sąsiednie wtorki się różnią.
     const przesuniecie = ((indeksTygodnia(wybranaData) % 3) + 3) % 3;
-    const lista = ukladMeczow(sklad, przesuniecie, format);
+    const lista = ukladMeczow(sklad, przesuniecie, format, szkicTrybu);
     const mecze = Object.fromEntries(lista.map((m) => [m.nr, m]));
     await baza.zapiszWieczor(wybranaData, {
       sklad, mecze, towarzyski: false, zamkniety: false,
