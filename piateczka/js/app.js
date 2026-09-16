@@ -17,6 +17,7 @@ import * as tytuly from './ekran-tytuly.js';
 import * as kalendarz from './ekran-kalendarz.js';
 import * as zasady from './ekran-zasady.js';
 import * as podsumowanie from './ekran-podsumowanie.js';
+import * as sedzia from './ekran-sedzia.js';
 
 const EKRANY = {
   '':          { modul: start,     nazwa: 'Start' },
@@ -27,6 +28,7 @@ const EKRANY = {
   'kalendarz': { modul: kalendarz, nazwa: 'Kalendarz' },
   'zasady':    { modul: zasady,    nazwa: 'Zasady' },
   'podsumowanie': { modul: podsumowanie, nazwa: 'Podsumowanie' },
+  'sedzia':    { modul: sedzia,    nazwa: 'Sędzia' },
 };
 
 const KLUCZ_JA = 'pp:ja';
@@ -50,6 +52,10 @@ const kontekst = () => ({
   przejdzDoWieczoru: (data) => {
     wieczor.ustawDate(data);
     location.hash = '#/wieczor';
+  },
+  przejdzDoSedziego: (data, nr) => {
+    sedzia.ustawMecz(data, nr);
+    location.hash = '#/sedzia';
   },
 });
 

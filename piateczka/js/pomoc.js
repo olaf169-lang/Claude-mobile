@@ -178,6 +178,31 @@ export const POMOC = {
       <p class="pomoc-nota">Kto gra częściej, ma więcej okazji na zwycięstwa — tabela liczy je sumarycznie.</p>`,
   },
 
+  /* -------------------------------------------------------- sędziowanie */
+
+  sedzia: {
+    tytul: 'Tryb sędziego',
+    tresc: `<p>Zliczanie pojedynczych zagrań w jednym meczu: <b>winner, as, aut, siatka, błąd serwisu,
+      błąd</b>. Wybierasz gracza, klikasz zdarzenie — gracz zostaje wybrany, więc serię akcji jednej
+      osoby klikasz jednym palcem. Ostatnie zagranie cofa „↶”.</p>
+      <p>Wchodzi się przyciskiem 🎙 przy nagłówku meczu. Liczba obok ikony mówi, ile zagrań już jest.</p>
+      <p class="pomoc-nota"><b>Te liczby nie wchodzą do tabeli ani do 🏸ELO🏸.</b> Nie każdy mecz będzie
+      sędziowany, więc porównywanie ich byłoby nieuczciwe — to ciekawostka, nie waluta.</p>`,
+  },
+
+  transkrypcja: {
+    tytul: 'Sędziowanie z transkrypcji',
+    tresc: `<p>Zamiast klikać, można mówić. Appka rozumie zwykłe zdania:
+      <i>„Tomek serwis w aut. Przy moim serwisie winner. Błąd Jacka.”</i> Rozpoznaje odmianę imion
+      i „mój/moim” jako siebie.</p>
+      <p>Tekst bierze się z trzech miejsc: mikrofon na klawiaturze telefonu (działa wszędzie),
+      przycisk 🎤 w apce (Android/Chrome) albo wklejenie gotowej transkrypcji z notatki głosowej.</p>
+      <p><b>Nic nie zapisuje się od razu</b> — najpierw widzisz listę tego, co appka zrozumiała,
+      możesz wyrzucić błędne pozycje, dopiero potem „Dopisz do meczu”. Kawałki, których nie
+      rozumie, wypisuje osobno zamiast zgadywać.</p>
+      <p class="pomoc-nota">Pliku audio appka nie przerobi — najpierw musi powstać tekst.</p>`,
+  },
+
   /* --------------------------------------------------------- obsługa */
 
   wpisywanie: {
@@ -249,7 +274,7 @@ export const SEKCJE = [
   {
     id: 'obsluga', nazwa: 'Obsługa aplikacji', godlo: '📱',
     wstep: 'Wpisywanie, zapisywanie, poprawianie i co się dzieje, gdy w hali nie ma zasięgu.',
-    hasla: ['wpisywanie', 'zamykanie', 'poprawianie', 'ktowpisuje', 'offline'],
+    hasla: ['wpisywanie', 'zamykanie', 'poprawianie', 'sedzia', 'transkrypcja', 'ktowpisuje', 'offline'],
   },
 ];
 
