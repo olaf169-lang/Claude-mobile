@@ -22,6 +22,10 @@
 
 import { GRACZE, czyGosc, normalizujFormat, FORMAT_DOMYSLNY } from './dane.js';
 
+/* Próg „rozjechanego seta": rywal utknął na tylu punktach albo niżej.
+   Używa go przydomek Nietykalny. */
+export const SET_DO_OSMIU = 8;
+
 export const TRYBY = [
   { id: 'debel',   nazwa: 'Debel',   krotko: 'debla' },
   { id: 'singiel', nazwa: 'Singiel', krotko: 'singla' },
@@ -148,7 +152,8 @@ function pustyRekord(id) {
     wieczory: 0,
     seria: 0,                  // bieżąca seria wygranych MECZÓW
     najdluzszaSeria: 0,
-    bezZwyciestwa: 0,          // ile meczów z rzędu bez wygranej (do klątwy)
+    bezZwyciestwa: 0,          // ile meczów z rzędu bez wygranej
+    przegraneZRzedu: 0,        // ile PRZEGRANYCH z rzędu (remis też ją zeruje)
     setyPrzewagaW: 0,          // sety wygrane po dogrywce (powyżej granicy seta)
     najgorszyPrzegranySet: null, // ile punktów zdobyłem w najgorzej przegranym secie
     meczeKolejno: [],          // { data, wygrany, trzySety, tryb } — chronologicznie
@@ -186,6 +191,15 @@ export function rekordyWieczoru(wieczor, { wszyscy = false, tryb = null } = {}) 
     if (!r.rozegrany) continue;
     const granica = formatMeczu(mecz, wieczor).doIlu;
 
+    // Sety rozjechane na zero: wygrane, w których rywal utknął na ośmiu punktach
+    // albo niżej. Liczone per mecz, bo „Nietykalny" patrzy na ostatnie pięć.
+    const doOsmiu = { a: 0, b: 0 };
+    for (const set of mecz.sety ?? []) {
+      if (!setRozegrany(set)) continue;
+      if (set[0] > set[1] && set[1] <= SET_DO_OSMIU) doOsmiu.a += 1;
+      if (set[1] > set[0] && set[0] <= SET_DO_OSMIU) doOsmiu.b += 1;
+    }
+
     for (const [strona, moi, ich, pkt, pktIch, setyMoje, setyIch] of [
       ['a', mecz.a, mecz.b, r.pktA, r.pktB, r.setyA, r.setyB],
       ['b', mecz.b, mecz.a, r.pktB, r.pktA, r.setyB, r.setyA],
@@ -208,6 +222,7 @@ export function rekordyWieczoru(wieczor, { wszyscy = false, tryb = null } = {}) 
           wygrany,
           remis: r.werdykt === 'remis',
           trzySety: r.setow >= 3,
+          setyDoOsmiu: doOsmiu[strona],
           tryb: r.tryb,
         });
         for (const partner of moi) if (partner !== id) {
@@ -284,10 +299,13 @@ export function zbierz(wieczory, opcje = {}) {
         if (m.wygrany) {
           s.seria += 1;
           s.bezZwyciestwa = 0;
+          s.przegraneZRzedu = 0;
           s.najdluzszaSeria = Math.max(s.najdluzszaSeria, s.seria);
         } else {
           s.seria = 0;
           s.bezZwyciestwa += 1;
+          // Remis nie jest przegraną, więc serię przegranych też zeruje.
+          s.przegraneZRzedu = m.remis ? 0 : s.przegraneZRzedu + 1;
         }
       }
       s.dni.push(...dzien.dni);

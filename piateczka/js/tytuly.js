@@ -56,8 +56,8 @@ export const PRZYDOMKI = [
   {
     id: 'klatwa', nazwa: 'Klątwa Kamisha', poziom: 'braz',
     haslo: 'Kamish BBK przyszedł i rzucił urok',
-    opis: 'Sześć meczów z rzędu bez zwycięstwa. To już nie forma, to zaklęcie — ktoś Ci narobił pod rakietą.',
-    warunek: (r) => r.bezZwyciestwa >= 6,
+    opis: 'Pięć przegranych meczów z rzędu. To już nie forma, to zaklęcie — ktoś Ci narobił pod rakietą.',
+    warunek: (r) => r.przegraneZRzedu >= 5,
   },
   {
     id: 'majkel', nazwa: 'Majkel Schmeichel', poziom: 'braz',
@@ -103,6 +103,17 @@ export const PRZYDOMKI = [
     opis: 'Pierwszy w tabeli singla. W deblu zawsze można zwalić na partnera — tu nie ma na kogo.',
     warunek: (r, c) => c.liderSingla === r.id,
   },
+  {
+    id: 'pedal', nazwa: 'Mistrz Pedałowania', poziom: 'braz',
+    haslo: 'W parze orzeł, sam — niekoniecznie',
+    opis: 'Solidny bilans w deblu, mizerny w singlu. Na tandemie jedzie się raźniej, bo zawsze można uznać, że to drugi mocniej pedałuje.',
+    warunek: (r, c) => {
+      const d = c.statDebel.get(r.id);
+      const p = c.statSingiel.get(r.id);
+      if (!d || !p || d.mecze < 2 || p.mecze < 2) return false;
+      return d.meczeW / d.mecze >= 0.6 && p.meczeW / p.mecze <= 0.35;
+    },
+  },
 
   /* ------------------------------------------------------------ ZŁOTO */
   {
@@ -129,8 +140,8 @@ export const PRZYDOMKI = [
   {
     id: 'nietykalny', nazwa: 'Nietykalny', poziom: 'zloto',
     haslo: 'Ani jednej rysy',
-    opis: 'Co najmniej pięć rozegranych meczów i ani jednego oddanego. Nikt Cię nawet nie musnął.',
-    warunek: (r) => r.mecze >= 5 && r.meczeP === 0,
+    opis: 'Z ostatnich pięciu meczów cztery sety wygrane tak, że rywal utknął najwyżej na ośmiu punktach. Nikt Cię nawet nie musnął.',
+    warunek: (r) => ostatnie(r, 5).reduce((suma, m) => suma + (m.setyDoOsmiu ?? 0), 0) >= 4,
   },
 ];
 
@@ -154,8 +165,14 @@ function kontekst(wieczory) {
   const graja = [...stat.values()].filter((r) => r.mecze > 0);
 
   const tabela = klasyfikacja(grane);
+  const statDebel = zbierz(grane, { tryb: 'debel' });
+  const statSingiel = zbierz(grane, { tryb: 'singiel' });
+  // Lider singla: najlepszy spośród tych, którzy zagrali co najmniej dwa
+  // single I cokolwiek wygrali. Bez warunku na wygrane „Mistrzem Podwórka"
+  // zostawał ktoś, kto przegrał wszystko — wystarczyło, że reszta zagrała
+  // po jednym meczu i wypadła spod progu.
   const liderSingla = klasyfikacja(grane, { tryb: 'singiel' })
-    .find((r) => r.mecze >= 2)?.id ?? null;
+    .find((r) => r.mecze >= 2 && r.meczeW > 0)?.id ?? null;
 
   // Statystyki bieżącego miesiąca — do „Formy Kwincioka”.
   const biezacyMies = grane.at(-1)?.data.slice(0, 7) ?? null;
@@ -163,8 +180,12 @@ function kontekst(wieczory) {
 
   return {
     stat,
+    statDebel,
+    statSingiel,
     tabela,
-    liderId: tabela.find((r) => r.mecze > 0)?.id ?? null,
+    // Lider musi mieć choć jedną wygraną — inaczej „Hounter" (pokonałeś
+    // lidera) dawałoby się zdobyć na kimś, kto nie wygrał nic.
+    liderId: tabela.find((r) => r.meczeW > 0)?.id ?? null,
     drugiId: tabela.filter((r) => r.mecze > 0)[1]?.id ?? null,
     liderSingla,
     statMiesiaca,
@@ -193,6 +214,19 @@ function wybierz(id, ctx) {
   const najlepszy = Math.max(...pasuja.map((p) => RANGA[p.poziom]));
   const grupa = pasuja.filter((p) => RANGA[p.poziom] === najlepszy);
   return grupa[(r.wieczory + seedId(id)) % grupa.length];
+}
+
+/** Wszystkie przydomki, na które gracz się aktualnie łapie — nie tylko ten
+    noszony. Przydaje się, żeby sprawdzić, czy warunek w ogóle działa, bo
+    `przydomekGracza` pokazuje wyłącznie zwycięzcę i słabszy trafiony warunek
+    jest w nim niewidoczny. */
+export function pasujacePrzydomki(id, wieczory) {
+  const ctx = kontekst(wieczory);
+  const r = ctx.stat.get(id);
+  if (!r || r.mecze === 0) return [];
+  return PRZYDOMKI.filter((pp) => {
+    try { return pp.warunek(r, ctx); } catch { return false; }
+  });
 }
 
 /** Przydomek pojedynczego gracza — wygodne, samodzielne wywołanie. */
@@ -298,14 +332,22 @@ const GLIFY = {
     + '<path d="M24.5 41.5v8M39.5 41.5v8" opacity=".4"/>',
 
   // Puchar podwórkowy między dwiema sztachetami płotu.
-  podworko: '<path d="M14.5 47V30.5l3-3.2 3 3.2V47M43.5 47V30.5l3-3.2 3 3.2V47" opacity=".38"/>'
-    + '<path d="M11.5 34.5h12M40.5 34.5h12M11.5 41h12M40.5 41h12" opacity=".3"/>'
-    + '<path d="M25 18.5h14v9.5a7 7 0 0 1-14 0Z" fill="url(#@)" fill-opacity=".3"/>'
-    + '<path d="M39 21h5.5a5.5 5.5 0 0 1-5.5 7M25 21h-5.5a5.5 5.5 0 0 0 5.5 7" opacity=".7"/>'
-    + '<path d="M32 35v5"/>'
-    + '<path d="M25.5 47h13l-1.3-7h-10.4Z" fill="url(#@)" fill-opacity=".3"/>',
+  podworko: '<path d="M23 19h18v11.5a9 9 0 0 1-18 0Z" fill="url(#@)" fill-opacity=".3"/>'
+    + '<path d="M41 22h6a6 6 0 0 1-6 7.6M23 22h-6a6 6 0 0 0 6 7.6" opacity=".7"/>'
+    + '<path d="M27.5 22.5h9" opacity=".45"/>'
+    + '<path d="M32 39.5v6"/>'
+    + '<path d="M24.5 51h15l-1.6-5.5H26.1Z" fill="url(#@)" fill-opacity=".3"/>',
 
   /* ------------------------------------------------------------ złoto */
+
+  // Tandem: dwa koła, rama na dwa siodełka, dwie kierownice, korby z pedałami.
+  pedal: '<circle cx="17" cy="42" r="8.5"/><circle cx="47" cy="42" r="8.5"/>'
+    + '<circle cx="32" cy="42" r="3" fill="url(#@)" stroke="none" opacity=".6"/>'
+    + '<path d="M17 42 26 28h8l-4.5 14M32 42 41 28h6" fill="url(#@)" fill-opacity=".14"/>'
+    + '<path d="M26 28h-3.5M41 28h-3.5" stroke-width="2.2"/>'
+    + '<path d="M22.5 25.5v3M37.5 25.5v3" opacity=".8"/>'
+    + '<path d="M20.5 30.5h6M35.5 30.5h6" stroke-width="2.6"/>'
+    + '<path d="M28 44.5h8" opacity=".5"/>',
 
   // Trysk ze źródła — dysza i wachlarz strug z kroplami na końcach.
   mmmpuuu: '<path d="M12.5 33.5h8.5l4.5 3.2v3.6L21 43.5h-8.5Z" fill="url(#@)" fill-opacity=".32"/>'

@@ -109,8 +109,15 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
 - **Przydomki: NIKT nie startuje z przydomkiem.** Poprzednia wersja dawała
   każdemu startowy — użytkownik to skasował 2026-09-15. `przydomekGracza`
   i `przydomkiGraczy` zwracają `null`, gdy nic nie pasuje; `godlo(null)`
-  rysuje pustą tarczę. Katalog: 15 pozycji, brąz = pocieszne (za pech),
+  rysuje pustą tarczę. Katalog: 16 pozycji, brąz = pocieszne (za pech),
   srebro = solidne, złoto = wyczyn.
+- **`liderId` i `liderSingla` wymagają choć jednej wygranej.** Bez tego
+  „Mistrz Podwórka" trafiał do kogoś, kto przegrał wszystkie single —
+  wystarczyło, że reszta zagrała po jednym meczu i wypadła spod progu dwóch.
+  Ta sama pułapka dotyczy „Hountera" (pokonałeś lidera). Złapane testem
+  2026-09-16; `pasujacePrzydomki(id, wieczory)` pokazuje WSZYSTKIE trafione
+  warunki, nie tylko zwycięski — bez tego słabszy trafiony warunek jest
+  niewidoczny i takie wpadki przechodzą.
 - **Hasła przydomków zawierają DOSŁOWNE cytaty użytkownika.** „Robisz strzał
   i miażdżysz przeciwników”, „Spaliłeś się dziś smyku za mocno”, „Forma top,
   rozjebałbyś Kwintę”, „Zapierdalasz, ale formą w dół”, „Nie pykło, ale nie
