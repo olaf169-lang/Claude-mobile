@@ -223,6 +223,7 @@ export function rekordyWieczoru(wieczor, { wszyscy = false, tryb = null } = {}) 
           remis: r.werdykt === 'remis',
           trzySety: r.setow >= 3,
           setyDoOsmiu: doOsmiu[strona],
+          zdobyte: pkt,
           tryb: r.tryb,
         });
         for (const partner of moi) if (partner !== id) {

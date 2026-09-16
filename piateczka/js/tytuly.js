@@ -38,37 +38,37 @@ export const PRZYDOMKI = [
   {
     id: 'plakal', nazwa: 'Płakał', poziom: 'braz',
     haslo: 'Nie pykło, ale nie łam się, #NiePłakał',
-    opis: 'Nie pykło, ale nie łam się, #NiePłakał. Z ostatnich sześciu meczów dwa przegrałeś dopiero w trzecim secie — urwać urwałeś, dowieźć nie dowiozłeś.',
+    opis: 'Z ostatnich 6 meczów 2 przegrałeś dopiero w 3. secie. Urwać urwałeś, dowieźć nie dowiozłeś. #NiePłakał',
     warunek: (r) => ostatnie(r, 6).filter((m) => !m.wygrany && m.trzySety).length >= 2,
   },
   {
     id: 'spalona', nazwa: 'Spalona Gierka', poziom: 'braz',
     haslo: 'Spaliłeś się dziś smyku za mocno',
-    opis: 'Spaliłeś się dziś smyku za mocno — trzy przegrane w jeden wieczór. Zaczęło się obiecująco, pary poszły w pierwszym secie.',
+    opis: 'Spaliłeś się dziś smyku za mocno — 3 przegrane w jeden wieczór. Zaczęło się obiecująco, pary poszły w 1. secie.',
     warunek: (r) => (r.dni.at(-1)?.p ?? 0) >= 3,
   },
   {
     id: 'pierd', nazwa: 'Pierd w Cwelsalce', poziom: 'braz',
     haslo: 'Było głośno, nie było efektu',
-    opis: 'Przegrałeś seta, zdobywając najwyżej cztery punkty. Huku dużo, śladu żadnego.',
+    opis: 'Przegrałeś seta, zdobywając najwyżej 4 punkty. Huku dużo, śladu żadnego.',
     warunek: (r) => r.najgorszyPrzegranySet !== null && r.najgorszyPrzegranySet <= 4,
   },
   {
     id: 'klatwa', nazwa: 'Klątwa Kamisha', poziom: 'braz',
     haslo: 'Kamish BBK przyszedł i rzucił urok',
-    opis: 'Pięć przegranych meczów z rzędu. To już nie forma, to zaklęcie — ktoś Ci narobił pod rakietą.',
+    opis: '5 przegranych meczów z rzędu. To już nie forma, to zaklęcie — ktoś Ci narobił pod rakietą.',
     warunek: (r) => r.przegraneZRzedu >= 5,
   },
   {
     id: 'majkel', nazwa: 'Majkel Schmeichel', poziom: 'braz',
     haslo: 'Zapierdalasz, ale formą w dół',
-    opis: 'Zapierdalasz, ale formą w dół: z ostatnich siedmiu meczów wygrałeś najwyżej dwa. Roboty jest, biegania jest, punktów brak.',
+    opis: 'Zapierdalasz, ale formą w dół: z ostatnich 7 meczów wygrałeś najwyżej 2. Roboty jest, biegania jest, punktów brak.',
     warunek: (r) => r.meczeKolejno.length >= 7 && ostatnie(r, 7).filter((m) => m.wygrany).length <= 2,
   },
   {
     id: 'pedal', nazwa: 'Mistrz Pedałowania', poziom: 'braz',
     haslo: 'W parze orzeł, sam — niekoniecznie',
-    opis: 'Solidny bilans w deblu, mizerny w singlu. Na tandemie jedzie się raźniej, bo zawsze można uznać, że to drugi mocniej pedałuje.',
+    opis: 'Min. 60% wygranych w deblu i najwyżej 35% w singlu. Na tandemie jedzie się raźniej — zawsze można uznać, że to drugi mocniej pedałuje.',
     warunek: (r, c) => {
       const d = c.statDebel.get(r.id);
       const p = c.statSingiel.get(r.id);
@@ -79,67 +79,69 @@ export const PRZYDOMKI = [
 
   /* ----------------------------------------------------------- SREBRO */
   {
-    id: 'mlot', nazwa: 'Młot', poziom: 'srebro',
-    haslo: 'Wali do skutku',
-    opis: 'Zdobyłeś najwięcej punktów ze wszystkich. Metoda prosta: przywalać, aż przestanie wracać.',
-    warunek: (r, c) => r.mecze > 0 && c.iluGra >= 2 && r.zdobyte === c.maxZdobyte,
+    id: 'wbite', nazwa: 'Masz Wbite', poziom: 'srebro',
+    haslo: '10 pkt za styl',
+    opis: 'Zdobyłeś najwięcej punktów w ostatnich 5 meczach i się nawet nie spociłeś.',
+    warunek: (r, c) => c.iluGra >= 2 && c.najlepszeZOstatnich5 > 0
+      && sumaZOstatnich(r, 5) === c.najlepszeZOstatnich5,
   },
   {
-    id: 'mur', nazwa: 'Mur', poziom: 'srebro',
-    haslo: 'Beton nie do przejścia',
-    opis: 'Straciłeś najmniej punktów ze wszystkich. Wygrana zaczyna się od tego, że rywal w ogóle nie punktuje.',
+    id: 'bezrobocie', nazwa: 'Bezrobocie', poziom: 'srebro',
+    haslo: 'Nie było przy czym pracować',
+    opis: 'Straciłeś najmniej punktów ze wszystkich. Rywale trafiali tak rzadko, że mogłeś rozłożyć leżak i poczekać na koniec seta.',
     warunek: (r, c) => r.mecze > 0 && c.iluGra >= 2 && r.stracone === c.minStracone,
   },
   {
     id: 'robin', nazwa: 'Robin', poziom: 'srebro',
     haslo: 'Do peleryny jeszcze trochę',
-    opis: 'Drugie miejsce w tabeli. Do superbohatera jeszcze trochę brakuje — jesteś tym, co lata obok Batmana i podaje mu rakietę.',
+    opis: '2. miejsce w tabeli. Do superbohatera brakuje niewiele — na razie latasz obok Batmana i podajesz mu rakietę.',
     warunek: (r, c) => c.drugiId === r.id,
   },
   {
     id: 'hounter', nazwa: 'Hounter', poziom: 'srebro',
     haslo: 'Trochę straszy, trochę sprzedaje',
-    opis: 'Pokonałeś lidera tabeli. Nie „hunter”, tylko Hounter — nigdy nie wiadomo, czy polujesz, czy sprzedajesz. Lider i tak leży.',
+    opis: 'Pokonałeś lidera tabeli. Polujesz na graczy jak menel na kaucyjne. Prawdziwy łowca!',
     warunek: (r, c) => c.liderId && c.liderId !== r.id && (r.przeciwnicy[c.liderId]?.w ?? 0) > 0,
   },
   {
-    id: 'gladiator', nazwa: 'Gladiator', poziom: 'srebro',
-    haslo: 'Dobija na przewagi',
-    opis: 'Wygrałeś co najmniej dwa sety po dogrywce — takie na 17:15 czy 21:19. W boju o życie ręka nie drży.',
+    id: 'swed', nazwa: 'Psim Swędem', poziom: 'srebro',
+    haslo: 'Nie wiadomo jak, ale jest',
+    opis: '2 sety wygrane po dogrywce — takie na 17:15 czy 21:19. Nikt nie wie, skąd je wytrzasnąłeś, ale wywęszyłeś i masz.',
     warunek: (r) => r.setyPrzewagaW >= 2,
   },
   {
     id: 'podworko', nazwa: 'Mistrz Podwórka', poziom: 'srebro',
     haslo: 'Jeden na jednego, bez wymówek',
-    opis: 'Pierwszy w tabeli singla. W deblu zawsze można zwalić na partnera — tu nie ma na kogo.',
+    opis: '1. miejsce w tabeli singla. W deblu zawsze można zwalić na partnera — tu nie ma na kogo.',
     warunek: (r, c) => c.liderSingla === r.id,
   },
+
   /* ------------------------------------------------------------ ZŁOTO */
   {
     id: 'mmmpuuu', nazwa: 'Mmmpuuu!', poziom: 'zloto',
     haslo: 'Robisz strzał i miażdżysz przeciwników',
-    opis: 'Robisz strzał i miażdżysz przeciwników — pięć wygranych meczów z rzędu, licząc też te z zeszłego wtorku. Rozpędziłeś się i nikt Cię nie zatrzymał.',
+    opis: 'Robisz strzał i miażdżysz przeciwników — 5 wygranych meczów z rzędu, licząc też te z zeszłego wtorku. Rozpędziłeś się i nikt Cię nie zatrzymał.',
     warunek: (r) => r.seria >= 5,
   },
   {
-    id: 'szal', nazwa: 'Piąteczkowy Szał', poziom: 'zloto',
-    haslo: 'Komplet, bez litości',
-    opis: 'Wygrałeś wszystkie mecze jednego wieczoru — minimum trzy, zero przegranych. Wieczór wzięty w całości.',
+    id: 'nafali', nazwa: 'Na Fali', poziom: 'zloto',
+    haslo: 'Złapałeś i jedziesz',
+    opis: 'Wygrałeś wszystkie mecze wieczoru — minimum 3, zero przegranych. Złapałeś falę i pojechałeś na niej do samej plaży.',
     warunek: (r) => r.dni.some((d) => d.w >= 3 && d.p === 0),
   },
   {
     id: 'kwinciok', nazwa: 'Forma Kwincioka', poziom: 'zloto',
     haslo: 'Forma top, rozjebałbyś Kwintę',
-    opis: 'Forma top, rozjebałbyś Kwintę: w tym miesiącu wygrałeś co najmniej trzy czwarte swoich meczów, przy minimum czterech rozegranych. Szczyt możliwości.',
+    opis: 'Forma top, rozjebałbyś Kwintę: w tym miesiącu wygrałeś 75% swoich meczów, przy minimum 4 rozegranych. Szczyt możliwości.',
     warunek: (r, c) => {
       const m = c.statMiesiaca.get(r.id);
       return !!m && m.mecze >= 4 && m.meczeW / m.mecze >= 0.75;
     },
   },
   {
-    id: 'nietykalny', nazwa: 'Nietykalny', poziom: 'zloto',
-    haslo: 'Ani jednej rysy',
-    opis: 'Z ostatnich pięciu meczów cztery sety wygrane tak, że rywal utknął najwyżej na ośmiu punktach. Nikt Cię nawet nie musnął.',
+    id: 'sanjay', nazwa: 'Sanjay Kapoor', poziom: 'zloto',
+    haslo: 'Lśnisz jak diament',
+    opis: 'W ostatnich 5 meczach wygrałeś 4 sety, w których rywal nie doszedł nawet do 9 punktów. Gra jak hinduski mistrz badmintona — czysto i bez wysiłku.',
     warunek: (r) => ostatnie(r, 5).reduce((suma, m) => suma + (m.setyDoOsmiu ?? 0), 0) >= 4,
   },
 ];
@@ -148,6 +150,12 @@ export const przydomek = (id) => PRZYDOMKI.find((p) => p.id === id) ?? null;
 
 function ostatnie(r, ile) {
   return r.meczeKolejno.slice(-ile);
+}
+
+/** Punkty zdobyte w ostatnich `ile` meczach — „Masz Wbite" patrzy na formę,
+    nie na dorobek całego sezonu. */
+function sumaZOstatnich(r, ile) {
+  return ostatnie(r, ile).reduce((s, m) => s + (m.zdobyte ?? 0), 0);
 }
 
 /* ------------------------------------------ przydomek gracza (na bieżąco) */
@@ -192,6 +200,7 @@ function kontekst(wieczory) {
     iluGra: graja.length,
     minStracone: graja.length ? Math.min(...graja.map((r) => r.stracone)) : 0,
     maxZdobyte: graja.length ? Math.max(...graja.map((r) => r.zdobyte)) : 0,
+    najlepszeZOstatnich5: graja.length ? Math.max(...graja.map((r) => sumaZOstatnich(r, 5))) : 0,
   };
 }
 
@@ -304,14 +313,26 @@ const GLIFY = {
   /* ----------------------------------------------------------- srebro */
 
   // Młot z obuchem i trzonkiem — bryła zamiast samego konturu.
-  mlot: '<path d="M17.5 18h29v12.5h-29Z" fill="url(#@)" fill-opacity=".28"/>'
-    + '<path d="M28.3 30.5 26.8 51h10.4L35.7 30.5" fill="url(#@)" fill-opacity=".2"/>'
-    + '<path d="M22 24h20" opacity=".4"/>',
+  // Masz Wbite: młotek dobija gwóźdź w deskę — plus iskry od uderzenia.
+  // Masz Wbite: młotek zaraz dobije gwóźdź. Obuch wyżej, gwóźdź niżej —
+  // przy jednej osi pionowej obuch po prostu go zasłaniał.
+  wbite: '<path d="M12 48.5h40" opacity=".5"/>'
+    + '<path d="M24 35v12" stroke-width="3.4"/>'
+    + '<path d="M18.5 35h11" stroke-width="3.2"/>'
+    + '<path d="M15 20.5h16v8.5H15Z" fill="url(#@)" fill-opacity=".3"/>'
+    + '<path d="M28 21.5h3v6.5h-3Z" fill="url(#@)" fill-opacity=".5"/>'
+    + '<path d="M31 24.5 45 16" stroke-width="3.6"/>'
+    + '<path d="M19 31.5 17 34.5M28 31.5 30 34.5M23.5 32.5V36" opacity=".45"/>',
 
   // Mur obronny z blankami i wiązaniem cegieł.
-  mur: '<path d="M16 28.5h4.5v-4.5h5.5v4.5h5.5v-4.5h5.5v4.5H43V24h5v24H16Z" fill="url(#@)" fill-opacity=".2"/>'
-    + '<path d="M16 35h32M16 41.5h32" opacity=".55"/>'
-    + '<path d="M26 28.5V35M37 28.5V35M21 35v6.5M32 35v6.5M43 35v6.5M26 41.5V48M37 41.5V48" opacity=".45"/>',
+  // Bezrobocie: leżak w słońcu. Rywale nie punktowali, więc nie było roboty.
+  // Bezrobocie: kubek z parą. Rywale nie punktowali, więc było się czym zająć
+  // tylko między akcjami. Leżak przy tym rozmiarze czytał się jak flaga.
+  bezrobocie: '<path d="M18 28h22v12a11 11 0 0 1-22 0Z" fill="url(#@)" fill-opacity=".25"/>'
+    + '<path d="M40 31h4.5a5.5 5.5 0 0 1-4.5 8.5" />'
+    + '<path d="M15 51h28" opacity=".5"/>'
+    + '<path d="M24 22.5c2.5-2.5 2.5-5 0-7.5M32 22.5c2.5-2.5 2.5-5 0-7.5" opacity=".5"/>'
+    + '<path d="M21 33.5h16" opacity=".35"/>',
 
   // Wąska maska Robina — oczy wycięte regułą evenodd, więc prześwituje tarcza.
   robin: '<path fill-rule="evenodd" d="M13 31.5c5.4-3.6 12.2-5.4 19-5.4s13.6 1.8 19 5.4c-1.1 6.8-5.8 11.6-11 11.6-3.4 0-6.1-2-8-5.3-1.9 3.3-4.6 5.3-8 5.3-5.2 0-9.9-4.8-11-11.6Zm7.4 1.6c1.5-1.5 5.4-1.5 7 .4-1.4 1.9-5.5 1.9-7-.4Zm16.2.4c1.6-1.9 5.5-1.9 7-.4-1.5 2.3-5.6 2.3-7 .4Z" fill="url(#@)" fill-opacity=".3"/>',
@@ -323,12 +344,14 @@ const GLIFY = {
     + '<circle cx="32" cy="32.5" r="1.8" fill="url(#@)" stroke="none"/>',
 
   // Hełm gladiatora: pióropusz z fakturą, nanośnik i nauszniki.
-  gladiator: '<path d="M26.5 17c3-4.8 8-4.8 11 0l-1.2 6.5h-8.6Z" fill="url(#@)" fill-opacity=".3"/>'
-    + '<path d="M29 18.5c1.6-1.2 4.4-1.2 6 0M28.5 21.5c1.8-1.2 5.2-1.2 7 0" opacity=".45"/>'
-    + '<path d="M19.5 49.5c0-18 5.6-26 12.5-26s12.5 8 12.5 26h-6.4l-1.5-8.8h-9.2L25.9 49.5Z" fill="url(#@)" fill-opacity=".18"/>'
-    + '<path d="M25 34.5h5.6M33.4 34.5H39" stroke-width="3"/>'
-    + '<path d="M32 30v9" opacity=".55"/>'
-    + '<path d="M24.5 41.5v8M39.5 41.5v8" opacity=".4"/>',
+  // Psim Swędem: pies z nosem przy ziemi. Nie wiadomo jak, ale wywęszył.
+  swed: '<path d="M25 31.5h13a6.5 6.5 0 0 1 0 13H26.5a7 7 0 0 1-1.5-13.8Z" fill="url(#@)" fill-opacity=".22"/>'
+    + '<path d="M24.5 33.5 16.5 41.5l1 4.5 6.5.5 4.5-6.5Z" fill="url(#@)" fill-opacity=".28"/>'
+    + '<circle cx="16.5" cy="45" r="2.1" fill="url(#@)" stroke="none"/>'
+    + '<path d="M26 31 29.5 25.5 32 31.5" fill="url(#@)" fill-opacity=".3"/>'
+    + '<path d="M38.5 35.5c4.5-1 6.8-4.2 6-8.5"/>'
+    + '<path d="M29 44.5v5M34.5 44.5v5M39 44v5" />'
+    + '<path d="M12.5 40c-2.2 1.8-2.2 4.2 0 6M9 37c-3.2 3-3.2 7.5 0 10.5" opacity=".38"/>',
 
   // Puchar podwórkowy między dwiema sztachetami płotu.
   podworko: '<path d="M23 19h18v11.5a9 9 0 0 1-18 0Z" fill="url(#@)" fill-opacity=".3"/>'
@@ -358,16 +381,15 @@ const GLIFY = {
     + '<circle cx="39.3" cy="50" r="1.5" fill="url(#@)" stroke="none" opacity=".75"/>',
 
   // Szał: lotka w środku eksplozji promieni, plus iskry.
-  szal: '<ellipse cx="26" cy="25.5" rx="10" ry="12" transform="rotate(-30 26 25.5)" fill="url(#@)" fill-opacity=".16"/>'
-    + '<path d="M18.2 16.6 33.4 29.8M15.4 21.2 30.6 34.4M21.6 13.6 35 25.2" opacity=".4" stroke-width="1.4"/>'
-    + '<path d="M20 30.8 31.4 19.4M16.6 26.4 28 15M24 34.4 35.4 23" opacity=".4" stroke-width="1.4"/>'
-    + '<path d="M30.4 33.2 34.6 38.4M37.8 29.8 34.6 38.4" opacity=".75"/>'
-    + '<path d="M34.6 38.4 41 45.6" stroke-width="3"/>'
-    + '<path d="M39.8 44.2 44 49" stroke-width="5.6" opacity=".75"/>'
-    + '<path d="M42 12.5l1 2.7 2.7 1-2.7 1-1 2.7-1-2.7-2.7-1 2.7-1Z" fill="url(#@)" stroke="none"/>'
-    + '<path d="M48 24l.8 2.1 2.1.8-2.1.8-.8 2.1-.8-2.1-2.1-.8 2.1-.8Z" fill="url(#@)" stroke="none" opacity=".85"/>'
-    + '<path d="M13.5 36l.7 1.9 1.9.7-1.9.7-.7 1.9-.7-1.9-1.9-.7 1.9-.7Z" fill="url(#@)" stroke="none" opacity=".6"/>'
-    + '<path d="M39 17.5c3.6-1.1 6.9-.4 9.6 2M43.5 33c2.6 1.7 4.2 4.3 4.7 7.6" opacity=".32"/>',
+  // Na Fali: surfer na grzbiecie zawijającej się fali.
+  // Na Fali: zawijająca się fala plus sylwetka na desce na jej stoku.
+  nafali: '<path d="M9 47c0-14.5 9.5-26 23-26 8.5 0 13.5 5.5 13.5 11.5 0 5.2-3.7 8.5-8.4 8.5-3.7 0-6.3-2.4-6.3-5.5 0-2.7 1.9-4.5 4.2-4.5" fill="url(#@)" fill-opacity=".16"/>'
+    + '<path d="M9 48.5h44" opacity=".5"/>'
+    + '<path d="M14 43c3.5-8.5 8.5-14.5 15-16.5" opacity=".3"/>'
+    + '<path d="M15.5 41 27.5 34.5" stroke-width="3.2"/>'
+    + '<circle cx="24.5" cy="25" r="2.4" fill="url(#@)" fill-opacity=".5"/>'
+    + '<path d="M24.5 27.4 23 33M23 33 20 36M23 33 26.5 35"/>'
+    + '<path d="M24 29 19.5 27.5M24 29 28.5 30.5"/>',
 
   // Płomień z rozgrzanym rdzeniem, iskrami i podmuchem po bokach.
   kwinciok: '<path d="M19.4 43.3 20.7 38.1 17.5 35.0 20.0 31.4 15.7 25.6 22.9 25.3 22.6 18.5 28.6 21.8 32.0 13.2 35.4 21.8 41.2 18.8 41.1 25.3 47.9 25.7 44.0 31.4 46.5 35.0 43.3 38.1 45.2 43.8" stroke-width="1.4" stroke-linejoin="miter" opacity=".24"/>'
@@ -378,9 +400,12 @@ const GLIFY = {
     + '<path d="M32 41.4 28.1 47.7M32 41.4 35.9 47.7"/>',
 
   // Brylant z fasetami — plus jedna iskra, żeby błyszczał.
-  nietykalny: '<path d="M21 25.5h22l7.5 8.5L32 53 13.5 34Z" fill="url(#@)" fill-opacity=".2"/>'
+  // Sanjay Kapoor: brylant z fasetami — lśni, bo o to w tym przydomku chodzi.
+  sanjay: '<path d="M21 25.5h22l7.5 8.5L32 53 13.5 34Z" fill="url(#@)" fill-opacity=".22"/>'
     + '<path d="M21 25.5l3.6 8.5h14.8l3.6-8.5M13.5 34h37M24.6 34 32 53M39.4 34 32 53" opacity=".5"/>'
-    + '<path d="M47.5 19l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8Z" fill="url(#@)" stroke="none" opacity=".85"/>',
+    + '<path d="M47.5 17l1 2.6 2.6 1-2.6 1-1 2.6-1-2.6-2.6-1 2.6-1Z" fill="url(#@)" stroke="none" opacity=".9"/>'
+    + '<path d="M15 20l.8 2.1 2.1.8-2.1.8-.8 2.1-.8-2.1-2.1-.8 2.1-.8Z" fill="url(#@)" stroke="none" opacity=".6"/>'
+    + '<path d="M32 38.5l.9 2.4 2.4.9-2.4.9-.9 2.4-.9-2.4-2.4-.9 2.4-.9Z" fill="url(#@)" stroke="none" opacity=".55"/>',
 };
 
 let _gid = 0;
@@ -391,7 +416,15 @@ let _gid = 0;
 
     Kolory idą przez klasę `godlo-<poziom>` i zmienne CSS, nie przez styl
     w atrybucie — dlatego motyw jasny może mieć własny, ciemniejszy komplet
-    metali, a poświata sama się do niego dostraja. */
+    metali, a poświata sama się do niego dostraja.
+
+    `gradientUnits="userSpaceOnUse"` NIE jest ozdobnikiem. Domyślnie gradient
+    liczy się względem ramki każdego kształtu z osobna, a ramka pojedynczej
+    pionowej albo poziomej kreski ma zerową szerokość lub wysokość — taki
+    kształt zostaje wtedy NIEPOMALOWANY i po prostu znika. Kosztowało to
+    gwóźdź w „Masz Wbite" (rysowany, niewidoczny). Przy tej wersji gradient
+    rozciąga się na całą tarczę, więc proste kreski działają, a metal jest
+    spójny w obrębie odznaki zamiast startować od nowa w każdym kształcie. */
 export function godlo(id, { rozmiar = 56, klasa = '', reign = false } = {}) {
   const p = id ? przydomek(id) : null;
   const poziom = p && POZIOMY[p.poziom] ? p.poziom : (p ? 'braz' : 'puste');
@@ -406,7 +439,7 @@ export function godlo(id, { rozmiar = 56, klasa = '', reign = false } = {}) {
     style="width:${rozmiar}px" viewBox="0 3 64 77" fill="none" stroke="url(#${gid})"
     stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"
     role="img" aria-label="${etykieta}">
-    <defs><linearGradient id="${gid}" x1="0" y1="0" x2="0" y2="1">
+    <defs><linearGradient id="${gid}" gradientUnits="userSpaceOnUse" x1="0" y1="6" x2="0" y2="76">
       <stop offset="0" stop-color="var(--metal-1)"/><stop offset="1" stop-color="var(--metal-2)"/>
     </linearGradient></defs>
     ${korona}
