@@ -142,6 +142,14 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
 | `js/ekran-*.js` | po jednym module na ekran, każdy eksportuje `render()` |
 | `narzedzia/ikony.py` | generator ikon PWA (bez Pillow — własny zapis PNG) |
 
+### Ton instrukcji
+
+Rzeczowo i krótko. Zasada, a uzasadnienie tylko tam, gdzie bez niego reguła
+wygląda na przypadkową. **Żadnych „dzięki temu jest fajnie", „i o to chodzi",
+„nie będzie tak źle"** — wyraźna uwaga użytkownika z 2026-09-16, że ekran
+„Zasady" tłumaczył za dużo. Przy dopisywaniu hasła: sprawdź, czy da się je
+skrócić o połowę bez utraty treści; zwykle da się.
+
 ### Wyróżnione hasła w instrukcji
 
 `kluczowe: true` przy haśle w `POMOC` sprawia, że ekran „Zasady” rysuje je

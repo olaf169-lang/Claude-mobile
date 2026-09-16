@@ -21,16 +21,16 @@ export function render(kontener) {
     <section class="karta karta-esencja">
       <h2 class="karta-tytul">W 20 sekund</h2>
       <ol class="esencja">
-        <li><span><b>Liczą się zwycięstwa.</b> Wygrany mecz to wygrany mecz — 15:2 i 15:13 znaczą
-          dokładnie tyle samo.</span></li>
-        <li><span><b>Debel i singiel osobno.</b> Dwie tabele, dwa rankingi. Tryb bierze się sam
-          z tego, ilu was stoi po stronie.</span></li>
+        <li><span><b>Liczą się zwycięstwa.</b> 15:2 i 15:13 znaczą tyle samo. Przy remisie decyduje
+          po kolei: <b>wygrane sety → zdobyte punkty → mecz bezpośredni</b>. Punkty stracone nie liczą
+          się wcale.</span></li>
+        <li><span><b>Debel i singiel osobno.</b> Dwie tabele, dwa rankingi. Rodzaj wybieracie na
+          starcie wieczoru.</span></li>
         <li><span><b>Wpisujecie i zapisujecie.</b> Tylko wyniki setów — resztę appka liczy sama.
-          Na koniec „Zapisz wieczór” i wynik jest ustalony.</span></li>
+          „Zapisz wieczór” zamyka go na klucz; poprawka wymaga kodu.</span></li>
       </ol>
-      <p class="esencja-nota">Najlepiej po prostu zagrać pierwszy wieczór — reszta wchodzi sama.
-        A przy każdej karcie w apce jest <span class="dymek-przyklad" aria-hidden="true">i</span>
-        — dotknij, a wyjaśni to, co masz akurat przed oczami.</p>
+      <p class="esencja-nota">Przy każdej karcie jest <span class="dymek-przyklad" aria-hidden="true">i</span>
+        — dotknij, a wyjaśni to, co masz przed oczami.</p>
     </section>
 
     ${kartaSciagi()}
@@ -99,7 +99,7 @@ function kartaSciagi() {
       <tbody>
         <tr><th>Format</th><td>${opisFormatu(FORMAT_DOMYSLNY)} — da się zmienić przy każdym meczu</td></tr>
         <tr><th>Przy 15:15</th><td>gramy na przewagę dwóch punktów: 17:15, 21:19…</td></tr>
-        <tr><th>Wieczór</th><td>3 deble — każdy gra z każdym w parze dokładnie raz</td></tr>
+        <tr><th>Wieczór</th><td>na starcie wybieracie: deble (3 mecze, pełna rotacja) albo single (każdy z każdym)</td></tr>
         <tr><th>Tabela</th><td>zwycięstwa → sety → punkty → mecz bezpośredni</td></tr>
         <tr><th>Stracone punkty</th><td>nie liczą się wcale — przegrana to przegrana</td></tr>
         <tr><th>Wygrana</th><td>więcej setów; przy 1:1 decyduje suma punktów</td></tr>
