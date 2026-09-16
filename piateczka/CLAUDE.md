@@ -101,6 +101,19 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
 - **Glify rysujemy bryłą + obrysem**, nie samym cienkim konturem: wypełnienie
   gradientem na 0,18–0,3 krycia plus stroke 2,6, a najważniejszy detal
   (iskra, żar, oko) solidny. Sam kontur przy 56 px znikał.
+- **Symetryczna bryła na „nóżce" czyta się jak sprzęt, nie jak narzędzie.**
+  Młotek z „Masz Wbite" przez cztery podejścia wyglądał jak kamera na statywie
+  albo stempel: winne były szeroki łepek gwoździa (czytał się jak blat),
+  iskry rozchodzące się na boki (nogi statywu) i idealnie symetryczny obuch.
+  Pomogło dopiero: pazur z dwóch wypustek (to on mówi „młotek"), przechył
+  całej bryły o 15° (`<g transform="rotate(-15 32 34)">` — gradient jest
+  `userSpaceOnUse`, więc obraca się razem z kształtem i nic nie znika)
+  i wycięcie iskier. Jak glif nie czyta się po dwóch poprawkach, zmień
+  kompozycję, nie grubość kresek.
+- **Zwierzę składaj z osobnych brył, nie z jednej sylwetki.** Pies z „Psim
+  Swędem" jako jeden ciągły kształt wyszedł żółwiem. Czytelny jest dopiero
+  z kółka-łba, kufy-klina, walca-tułowia i czterech nóg osobno — wtedy widać
+  szyję i opuszczony łeb (czyli węszenie).
 - **Zapisany wieczór jest zamknięty.** `wieczor.zamkniety === true` po
   naciśnięciu „Zapisz wieczór”; odblokowanie wymaga kodu administratora
   (`js/zamek.js`, SHA-256). Reguły Firestore przepuszczają zapis do
@@ -119,7 +132,8 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
   rysuje pustą tarczę. Katalog: 16 pozycji, brąz = pocieszne (za pech),
   srebro = solidne, złoto = wyczyn.
 - **`liderId` i `liderSingla` wymagają choć jednej wygranej.** Bez tego
-  „Mistrz Podwórka" trafiał do kogoś, kto przegrał wszystkie single —
+  „Samotny Wilk" (wtedy „Mistrz Podwórka") trafiał do kogoś, kto przegrał
+  wszystkie single —
   wystarczyło, że reszta zagrała po jednym meczu i wypadła spod progu dwóch.
   Ta sama pułapka dotyczy „Hountera" (pokonałeś lidera). Złapane testem
   2026-09-16; `pasujacePrzydomki(id, wieczory)` pokazuje WSZYSTKIE trafione
