@@ -136,7 +136,7 @@ do sezonu.
 - **Gracz Miesiąca** — najwięcej wygranych w miesiącu, tytuł na cały następny miesiąc.
   Miesiąc z jednym wieczorem też się liczy. Nie ma osobnego znaczka „Gracz Miesiąca”:
   **jego przydomek dostaje poświatę i koronę**, zostając w swoim kolorze.
-- **Przydomki** — piętnaście ksywek bojowych z własnymi godłami SVG, liczonych na
+- **Przydomki** — szesnaście ksywek bojowych z własnymi godłami SVG, liczonych na
   bieżąco ze statystyk. **Na starcie nikt nie ma żadnej** — trzeba sobie zasłużyć
   albo przechlapać. Zawsze nosisz najlepszą, na jaką się aktualnie łapiesz; kto
   spełnia kilka warunków z tego samego poziomu, temu ksywka rotuje z wieczorami.
@@ -146,8 +146,9 @@ do sezonu.
   | 🥉 | Płakał | z ostatnich 6 meczów ≥ 2 przegrane dopiero w trzecim secie |
   | 🥉 | Spalona Gierka | trzy przegrane w jeden wieczór |
   | 🥉 | Pierd w Cwelsalce | przegrany set przy własnym wyniku ≤ 4 |
-  | 🥉 | Klątwa Kamisha | sześć meczów z rzędu bez zwycięstwa |
+  | 🥉 | Klątwa Kamisha | pięć przegranych meczów z rzędu |
   | 🥉 | Majkel Schmeichel | z ostatnich 7 meczów wygrane najwyżej 2 |
+  | 🥉 | Mistrz Pedałowania | dobry bilans w deblu (≥60%), słaby w singlu (≤35%) |
   | 🥈 | Młot | najwięcej zdobytych punktów |
   | 🥈 | Mur | najmniej straconych punktów |
   | 🥈 | Robin | drugie miejsce w tabeli |
@@ -157,7 +158,7 @@ do sezonu.
   | 🥇 | Mmmpuuu! | pięć wygranych meczów z rzędu (seria bieżąca) |
   | 🥇 | Piąteczkowy Szał | komplet zwycięstw w jednym wieczorze (min. 3 mecze) |
   | 🥇 | Forma Kwincioka | ≥ 75% wygranych w bieżącym miesiącu, przy min. 4 meczach |
-  | 🥇 | Nietykalny | ≥ 5 meczów i ani jednego przegranego |
+  | 🥇 | Nietykalny | 4 sety z ostatnich 5 meczów wygrane tak, że rywal utknął na ≤ 8 pkt |
 
   Brąz to poziom pocieszny (za pech i słabszą passę), srebro solidny, złoto to wyczyn.
 
