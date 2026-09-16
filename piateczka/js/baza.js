@@ -24,15 +24,21 @@ const KONFIGURACJA = {
 };
 const WERSJA_SDK = '10.14.1';
 const KOLEKCJA = 'piateczkaWieczory';
+const USTAWIENIA = 'piateczkaUstawienia';   // wspólne ustawienia, jeden dokument
+const DOK_PRZYDOMKI = 'przydomki';          // { jacek: 'wilk', tomek: null, ... }
 const KOPIA = 'pp:wieczory';
+const KOPIA_WYB = 'pp:wybory-przydomkow';
 
 let bazaPromise = null;
 const sluchacze = new Set();
 let ostatnie = wczytajKopie();
+let wyboryMapa = wczytajWybory();
 let stanLacza = 'laczenie';   // laczenie | online | lokalnie
 
 export function wieczory() { return ostatnie; }
 export function stan() { return stanLacza; }
+/** Wspólny wybór noszonego przydomka: mapa id gracza -> id przydomka. */
+export function wybory() { return wyboryMapa; }
 
 function wczytajKopie() {
   try {
@@ -43,6 +49,17 @@ function wczytajKopie() {
 
 function zapiszKopie(lista) {
   try { localStorage.setItem(KOPIA, JSON.stringify(lista)); } catch { /* prywatne okno */ }
+}
+
+function wczytajWybory() {
+  try {
+    const s = localStorage.getItem(KOPIA_WYB);
+    return s ? JSON.parse(s) : {};
+  } catch { return {}; }
+}
+
+function zapiszWyboryKopie() {
+  try { localStorage.setItem(KOPIA_WYB, JSON.stringify(wyboryMapa)); } catch { /* prywatne okno */ }
 }
 
 function rozeslij() {
@@ -89,6 +106,19 @@ async function start() {
         stanLacza = 'lokalnie';
         rozeslij();
       },
+    );
+
+    // Osobny, malutki dokument: wspólny wybór noszonych przydomków.
+    f.onSnapshot(
+      f.doc(db, USTAWIENIA, DOK_PRZYDOMKI),
+      (migawka) => {
+        const dane = migawka.data() ?? {};
+        delete dane.zaktualizowano;
+        wyboryMapa = dane;
+        zapiszWyboryKopie();
+        rozeslij();
+      },
+      (blad) => console.warn('Wybory przydomków offline, jedziemy z kopii.', blad),
     );
   } catch (blad) {
     console.warn('Nie udało się wczytać Firebase, tryb lokalny.', blad);
@@ -173,4 +203,19 @@ export async function usunWieczor(data) {
     const { db, f } = await baza();
     await f.deleteDoc(f.doc(db, KOLEKCJA, data));
   } catch (blad) { console.warn('Kasowanie wieczoru poszło do kolejki:', blad); }
+}
+
+/** Wspólny wybór noszonego przydomka. `przydomekId === null` czyści wybór
+    (gracz wraca na automat). Zmiana leci do wszystkich, tak jak wyniki. */
+export async function zapiszWybor(gracz, przydomekId) {
+  if (przydomekId) wyboryMapa = { ...wyboryMapa, [gracz]: przydomekId };
+  else { wyboryMapa = { ...wyboryMapa }; delete wyboryMapa[gracz]; }
+  zapiszWyboryKopie();
+  rozeslij();
+  try {
+    const { db, f } = await baza();
+    await f.setDoc(f.doc(db, USTAWIENIA, DOK_PRZYDOMKI),
+      { [gracz]: przydomekId ? przydomekId : f.deleteField(), zaktualizowano: f.serverTimestamp() },
+      { merge: true });
+  } catch (blad) { console.warn('Zapis wyboru przydomka poszedł do kolejki:', blad); }
 }

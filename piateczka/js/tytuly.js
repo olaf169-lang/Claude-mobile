@@ -205,7 +205,7 @@ const RANGA = { zloto: 3, srebro: 2, braz: 1 };
 
 /** Wybiera przydomek jednego gracza. Zwraca null, gdy nic jeszcze nie pasuje
     (na starcie sezonu każdy ma czysto i tak ma być). */
-function wybierz(id, ctx) {
+function wybierz(id, ctx, wybory = {}) {
   const r = ctx.stat.get(id);
   if (!r || r.mecze === 0) return null;
 
@@ -214,7 +214,15 @@ function wybierz(id, ctx) {
   });
   if (!pasuja.length) return null;
 
-  // Bierzemy najwyższy poziom, a wśród równorzędnych rotujemy z wieczorami,
+  // Ręczny wybór gracza wygrywa, o ile ten przydomek nadal się łapie. Gdy
+  // przestał (warunek już nie zachodzi), spokojnie spadamy na automat.
+  const chce = wybory[id];
+  if (chce) {
+    const trafiony = pasuja.find((p) => p.id === chce);
+    if (trafiony) return trafiony;
+  }
+
+  // Automat: najwyższy poziom, a wśród równorzędnych rotacja z wieczorami,
   // żeby ta sama osoba nie nosiła w kółko jednej ksywki.
   const najlepszy = Math.max(...pasuja.map((p) => RANGA[p.poziom]));
   const grupa = pasuja.filter((p) => RANGA[p.poziom] === najlepszy);
@@ -235,28 +243,31 @@ export function pasujacePrzydomki(id, wieczory) {
 }
 
 /** Przydomek pojedynczego gracza: wygodne, samodzielne wywołanie. */
-export function przydomekGracza(id, wieczory) {
-  return wybierz(id, kontekst(wieczory));
+export function przydomekGracza(id, wieczory, wybory = {}) {
+  return wybierz(id, kontekst(wieczory), wybory);
 }
 
 /** Przydomki całej czwórki naraz + kto jest Graczem Miesiąca.
     Zwraca mapę id → { przydomek (może być null), reign }. */
-export function przydomkiGraczy(wieczory) {
+export function przydomkiGraczy(wieczory, wybory = {}) {
   const ctx = kontekst(wieczory);
   const gm = graczMiesiaca(wieczory);
   const krolId = gm.aktualny?.zwyciezca.id ?? gm.wToku?.zwyciezca?.id ?? null;
   const mapa = new Map();
-  for (const g of GRACZE) mapa.set(g.id, { przydomek: wybierz(g.id, ctx), reign: g.id === krolId });
+  for (const g of GRACZE) mapa.set(g.id, { przydomek: wybierz(g.id, ctx, wybory), reign: g.id === krolId });
   return mapa;
 }
 
 /** Lista WSZYSTKICH trafionych przydomków gracza, z zaznaczeniem noszonego.
     Katalog jest jeden dla obu trybów, więc gracz musi widzieć, co już wpadło,
     a nie tylko ten jeden, który akurat wygrał. */
-export function mojePrzydomki(id, wieczory) {
+export function mojePrzydomki(id, wieczory, wybory = {}) {
   const trafione = pasujacePrzydomki(id, wieczory);
-  const noszony = przydomekGracza(id, wieczory);
-  return { trafione, noszonyId: noszony?.id ?? null };
+  const noszony = przydomekGracza(id, wieczory, wybory);
+  // reczny = true, gdy gracz ma zapisany wybór i ten przydomek nadal się łapie.
+  const chce = wybory[id];
+  const reczny = !!chce && trafione.some((p) => p.id === chce);
+  return { trafione, noszonyId: noszony?.id ?? null, reczny };
 }
 
 /* ----------------------------------------------------------------- godła */

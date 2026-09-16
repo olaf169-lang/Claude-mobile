@@ -147,6 +147,16 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
   w tabeli. Złapane testem 2026-09-16; `pasujacePrzydomki(id, wieczory)`
   pokazuje WSZYSTKIE trafione warunki, nie tylko zwycięski, bez tego
   słabszy trafiony warunek jest niewidoczny i takie wpadki przechodzą.
+- **Noszony przydomek można wybrać ręcznie i jest to WSPÓLNE.** Gdy gracz łapie
+  się na kilka, sam wskazuje, który nosi (karta gracza na „Tytuły” i wiersz
+  w tabeli, komponent `js/wybor-przydomka.js`). Wybór leci do wszystkich przez
+  nowy dokument `piateczkaUstawienia/przydomki` (mapa id gracza -> id przydomka),
+  obsługiwany w `baza.js` (`wybory()`, `zapiszWybor()`), z kopią w localStorage.
+  `wybierz()` w `tytuly.js` respektuje wybór TYLKO gdy dany przydomek nadal się
+  łapie, inaczej spada na automat (najlepszy). „Auto” czyści wybór.
+  **To wymaga wdrożenia reguł Firestore** (nowy `match /piateczkaUstawienia`),
+  do tego czasu wybór działa lokalnie na jednym urządzeniu i zsynchronizuje się
+  po `firebase deploy --only firestore:rules`.
 - **Hasła przydomków zawierają DOSŁOWNE cytaty użytkownika.** „Robisz strzał
   i miażdżysz przeciwników”, „Spaliłeś się dziś smyku za mocno”, „Forma top,
   rozjebałbyś Kwintę”, „Zapierdalasz, ale formą w dół”, „Nie pykło, ale nie
@@ -186,6 +196,7 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
 | `js/sedzia.js` | katalog zdarzeń, bilanse zagrań, parser polskiej transkrypcji |
 | `js/ekran-sedzia.js` | ekran sędziego: klikanie, dyktowanie, podgląd parsera |
 | `js/tytuly.js` | Gracz Miesiąca, przydomki (3 poziomy, per-gracz), godła SVG z gradientem |
+| `js/wybor-przydomka.js` | wspólny wybór noszonego przydomka (lista + podpięcie) |
 | `js/pomoc.js` | **wszystkie** teksty regulaminu |
 | `js/wykresy.js` | iskry w tabeli, wykres ELO, paleta serii |
 | `js/baza.js` | Firestore + kopia w localStorage + tryb offline |
