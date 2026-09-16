@@ -132,14 +132,14 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
   i `przydomkiGraczy` zwracają `null`, gdy nic nie pasuje; `godlo(null)`
   rysuje pustą tarczę. Katalog: 16 pozycji, brąz = pocieszne (za pech),
   srebro = solidne, złoto = wyczyn.
-- **`liderId` i `liderSingla` wymagają choć jednej wygranej.** Bez tego
-  „Samotny Wilk" (wtedy „Mistrz Podwórka") trafiał do kogoś, kto przegrał
-  wszystkie single —
-  wystarczyło, że reszta zagrała po jednym meczu i wypadła spod progu dwóch.
-  Ta sama pułapka dotyczy „Hountera" (pokonałeś lidera). Złapane testem
-  2026-09-16; `pasujacePrzydomki(id, wieczory)` pokazuje WSZYSTKIE trafione
-  warunki, nie tylko zwycięski — bez tego słabszy trafiony warunek jest
-  niewidoczny i takie wpadki przechodzą.
+- **`liderId` wymaga choć jednej wygranej.** Bez tego „Hounter" (pokonałeś
+  lidera) dawał się zdobyć na kimś, kto nie wygrał nic — wystarczyło, że
+  reszta zagrała po jednym meczu i wypadła spod progu. Ta sama pułapka
+  siedziała w przydomku za 1. miejsce w singlu, dlatego „Samotny Wilk"
+  liczy się dziś z procentów (≥60% w singlu, ≤35% w deblu), a nie z miejsca
+  w tabeli. Złapane testem 2026-09-16; `pasujacePrzydomki(id, wieczory)`
+  pokazuje WSZYSTKIE trafione warunki, nie tylko zwycięski — bez tego
+  słabszy trafiony warunek jest niewidoczny i takie wpadki przechodzą.
 - **Hasła przydomków zawierają DOSŁOWNE cytaty użytkownika.** „Robisz strzał
   i miażdżysz przeciwników”, „Spaliłeś się dziś smyku za mocno”, „Forma top,
   rozjebałbyś Kwintę”, „Zapierdalasz, ale formą w dół”, „Nie pykło, ale nie

@@ -112,8 +112,13 @@ export const PRZYDOMKI = [
   {
     id: 'wilk', nazwa: 'Samotny Wilk', poziom: 'srebro',
     haslo: 'Poluje sam i wraca z łupem',
-    opis: '1. miejsce w tabeli singla. W deblu zawsze można zwalić na partnera — tu nie ma na kogo.',
-    warunek: (r, c) => c.liderSingla === r.id,
+    opis: 'Min. 60% wygranych w singlu i najwyżej 35% w deblu. Sam sobie radzisz, ale jak trzeba się dogadać z partnerem, to już gorzej.',
+    warunek: (r, c) => {
+      const d = c.statDebel.get(r.id);
+      const p = c.statSingiel.get(r.id);
+      if (!d || !p || d.mecze < 2 || p.mecze < 2) return false;
+      return p.meczeW / p.mecze >= 0.6 && d.meczeW / d.mecze <= 0.35;
+    },
   },
 
   /* ------------------------------------------------------------ ZŁOTO */
@@ -174,13 +179,6 @@ function kontekst(wieczory) {
   const tabela = klasyfikacja(grane);
   const statDebel = zbierz(grane, { tryb: 'debel' });
   const statSingiel = zbierz(grane, { tryb: 'singiel' });
-  // Lider singla: najlepszy spośród tych, którzy zagrali co najmniej dwa
-  // single I cokolwiek wygrali. Bez warunku na wygrane „Samotnym Wilkiem"
-  // zostawał ktoś, kto przegrał wszystko — wystarczyło, że reszta zagrała
-  // po jednym meczu i wypadła spod progu.
-  const liderSingla = klasyfikacja(grane, { tryb: 'singiel' })
-    .find((r) => r.mecze >= 2 && r.meczeW > 0)?.id ?? null;
-
   // Statystyki bieżącego miesiąca — do „Formy Kwincioka”.
   const biezacyMies = grane.at(-1)?.data.slice(0, 7) ?? null;
   const statMiesiaca = zbierz(grane.filter((w) => w.data.slice(0, 7) === biezacyMies));
@@ -194,7 +192,6 @@ function kontekst(wieczory) {
     // lidera) dawałoby się zdobyć na kimś, kto nie wygrał nic.
     liderId: tabela.find((r) => r.meczeW > 0)?.id ?? null,
     drugiId: tabela.filter((r) => r.mecze > 0)[1]?.id ?? null,
-    liderSingla,
     statMiesiaca,
     wieczorowRazem: grane.length,
     iluGra: graja.length,
@@ -314,7 +311,7 @@ const GLIFY = {
 
   // Masz Wbite: najprostszy młotek pod kątem, jak 🔨 — obuch, jaśniejsze czoło
   // i trzonek. Bez gwoździa, deski i smug: każdy dodatek psuł czytelność.
-  wbite: '<g transform="translate(-5 11) rotate(45 32 32)">'
+  wbite: '<g transform="translate(-3 8) rotate(45 32 32)">'
     + '<path d="M30 27h4.4v16.4a2.2 2.2 0 0 1-4.4 0Z" fill="url(#@)" fill-opacity=".3"/>'
     + '<path d="M21 18h22a2.6 2.6 0 0 1 2.6 2.6v5A2.6 2.6 0 0 1 43 28.2H21Z" fill="url(#@)" fill-opacity=".3"/>'
     + '<path d="M39.5 18h3.5a2.6 2.6 0 0 1 2.6 2.6v5A2.6 2.6 0 0 1 43 28.2h-3.5Z" fill="url(#@)" fill-opacity=".55"/>'
