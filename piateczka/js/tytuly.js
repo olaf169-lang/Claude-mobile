@@ -314,7 +314,7 @@ const GLIFY = {
 
   // Masz Wbite: najprostszy młotek pod kątem, jak 🔨 — obuch, jaśniejsze czoło
   // i trzonek. Bez gwoździa, deski i smug: każdy dodatek psuł czytelność.
-  wbite: '<g transform="rotate(45 32 32)">'
+  wbite: '<g transform="translate(0 4) rotate(45 32 32)">'
     + '<path d="M30 27h4.4v16.4a2.2 2.2 0 0 1-4.4 0Z" fill="url(#@)" fill-opacity=".3"/>'
     + '<path d="M21 18h22a2.6 2.6 0 0 1 2.6 2.6v5A2.6 2.6 0 0 1 43 28.2H21Z" fill="url(#@)" fill-opacity=".3"/>'
     + '<path d="M39.5 18h3.5a2.6 2.6 0 0 1 2.6 2.6v5A2.6 2.6 0 0 1 43 28.2h-3.5Z" fill="url(#@)" fill-opacity=".55"/>'
