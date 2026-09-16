@@ -266,7 +266,7 @@ const GLIFY = {
     + '<circle cx="22.5" cy="40" r="5.6"/><circle cx="22.5" cy="40" r="2" fill="url(#@)" stroke="none" opacity=".5"/>'
     + '<circle cx="43" cy="40" r="5.2"/><circle cx="43" cy="40" r="1.9" fill="url(#@)" stroke="none" opacity=".5"/>'
     + '<path d="M47.5 43.5h5" stroke-width="2.8"/><path d="M52 41.5v4" opacity=".85"/>'
-    + '<path d="M8 17h8M9.5 21.5h5.5" opacity=".28"/>',
+,
 
   /* ----------------------------------------------------------- srebro */
 
@@ -329,11 +329,12 @@ const GLIFY = {
     + '<path d="M39 17.5c3.6-1.1 6.9-.4 9.6 2M43.5 33c2.6 1.7 4.2 4.3 4.7 7.6" opacity=".32"/>',
 
   // Płomień z rozgrzanym rdzeniem, iskrami i podmuchem po bokach.
-  kwinciok: '<path d="M32 13c7.6 9.6 6.6 14.6 2.8 18.6 4.9-1.2 7.9-4.9 8.9-9.6 5.4 8.6 3.2 20.2-5.4 26-3.2 2.2-2.6 6.5-1 10.4-6.5-1.6-10.7-6.1-10.7-13 0-5.8 2.6-9.7 2.6-14.5 0-5.4-1.6-10.1 2.8-17.9Z" fill="url(#@)" fill-opacity=".18"/>'
-    + '<path d="M32 29c3.3 3.9 3.7 7.1 1.9 10.4-2.7 4.9-7.5 2.8-7.5-2.1 0-3.2 2.8-5.5 5.6-8.3Z" fill="url(#@)" stroke="none" opacity=".8"/>'
-    + '<path d="M47 16l.9 2.4 2.4.9-2.4.9-.9 2.4-.9-2.4-2.4-.9 2.4-.9Z" fill="url(#@)" stroke="none" opacity=".9"/>'
-    + '<path d="M16.5 23l.7 1.9 1.9.7-1.9.7-.7 1.9-.7-1.9-1.9-.7 1.9-.7Z" fill="url(#@)" stroke="none" opacity=".65"/>'
-    + '<path d="M14.5 37c-1.6 3.2-1 6.4 1.6 8.6M49.5 37c1.6 3.2 1 6.4-1.6 8.6" opacity=".35"/>',
+  kwinciok: '<path d="M19.4 43.3 20.7 38.1 17.5 35.0 20.0 31.4 15.7 25.6 22.9 25.3 22.6 18.5 28.6 21.8 32.0 13.2 35.4 21.8 41.2 18.8 41.1 25.3 47.9 25.7 44.0 31.4 46.5 35.0 43.3 38.1 45.2 43.8" stroke-width="1.4" stroke-linejoin="miter" opacity=".24"/>'
+    + '<path d="M21.7 41.6 22.0 37.5 20.2 34.7 21.4 31.6 18.3 26.8 24.0 26.3 24.1 20.9 29.0 23.1 32.0 16.0 35.0 23.1 39.7 21.1 40.0 26.3 45.4 27.0 42.6 31.6 43.8 34.7 42.0 37.5 43.0 42.1" stroke-width="1.9" stroke-linejoin="miter" opacity=".9"/>'
+    + '<circle cx="32" cy="31" r="4" fill="url(#@)" fill-opacity=".4"/>'
+    + '<path d="M32 35v6.4"/>'
+    + '<path d="M32 36.4 26.9 38.9 27.9 43.1M32 36.4 37.1 38.9 36.1 43.1"/>'
+    + '<path d="M32 41.4 28.1 47.7M32 41.4 35.9 47.7"/>',
 
   // Brylant z fasetami — plus jedna iskra, żeby błyszczał.
   nietykalny: '<path d="M21 25.5h22l7.5 8.5L32 53 13.5 34Z" fill="url(#@)" fill-opacity=".2"/>'
