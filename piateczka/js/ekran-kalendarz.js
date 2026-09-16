@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Ekran „Kalendarz” — plan sezonu i to, co faktycznie zagraliście.
+   Ekran „Kalendarz”: plan sezonu i to, co faktycznie zagraliście.
 
    Plan jest umowny: obok zaplanowanych wtorków pokazujemy każdy wieczór
    dopisany w innym terminie.
@@ -38,7 +38,7 @@ export function render(kontener, ctx) {
 
     <section class="karta">
       ${naglowekZPomoca('Terminy są umowne', 'kalendarz')}
-      <p class="wskazowka">Nie zagracie w każdy wtorek i nic się nie stanie — opuszczony termin nie
+      <p class="wskazowka">Nie zagracie w każdy wtorek i nic się nie stanie, bo opuszczony termin nie
       kosztuje w tabeli ani jednego punktu. Możesz też dopisać wieczór w dowolnym innym dniu.</p>
     </section>
 
@@ -67,7 +67,7 @@ function wiersz(termin, wieczor, dzis) {
     opis = wieczor.towarzyski
       ? `Towarzyski · ${mecze(wieczor).length} mecze`
       : mvp ? `MVP: ${bez(gracz(mvp.gracze[0]).imie)} (${mvp.wygrane} W) · ${rodzaje}` : `Rozegrany · ${rodzaje}`;
-  } else if (wieczor) { stan = 'zaczety'; opis = 'Zaczęty — brak wyników'; }
+  } else if (wieczor) { stan = 'zaczety'; opis = 'Zaczęty, brak wyników'; }
   else if (termin.data < dzis) { stan = 'przepadl'; opis = 'Nie graliśmy'; }
   else if (termin.data === dzis) { stan = 'dzis'; opis = 'Dzisiaj!'; }
 
@@ -79,7 +79,7 @@ function wiersz(termin, wieczor, dzis) {
       <span class="termin-data">${poPolsku(termin.data).replace(/ \d{4}$/, '')}</span>
       <span class="termin-opis">${opis}${zamek ? ' · zapisany' : ''}</span>
       <span class="termin-znak" aria-hidden="true">${zamek ? '🔒' : {
-        rozegrany: '✓', towarzyski: '≈', wolne: '—', dzis: '●', zaczety: '…', przepadl: '·', plan: '›',
+        rozegrany: '✓', towarzyski: '≈', wolne: '·', dzis: '●', zaczety: '…', przepadl: '·', plan: '›',
       }[stan]}</span>
     </button>
   </li>`;

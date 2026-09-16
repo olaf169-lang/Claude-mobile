@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Ekran startowy — co się dzieje teraz i skrót do wpisania wyniku.
+   Ekran startowy: co się dzieje teraz i skrót do wpisania wyniku.
    ========================================================================== */
 
 import { GRACZE, gracz, SEZON, poPolsku, najblizszyWtorek, dzisiajIso, krotkaData } from './dane.js';
@@ -19,7 +19,7 @@ const KAFELKI = [
 ];
 
 /* Który rodzaj gry pokazuje skrót tabeli na Starcie. Przełącznik jest tu
-   celowo mały — na Starcie chodzi o rzut oka, pełna tabela jest obok. */
+   celowo mały, bo na Starcie chodzi o rzut oka, a pełna tabela jest obok. */
 let trybSkrotu = 'debel';
 
 export function render(kontener, ctx) {
@@ -39,11 +39,11 @@ export function render(kontener, ctx) {
       <h1 class="hero-nazwa">Turniej<br>Pana Piąteczki</h1>
       <p class="hero-pod">Liga czterech graczy w badmintona. Sprawdź formę, pokonaj rywali i sięgnij po Puchar Pana Piąteczki.</p>
       <div class="hero-akcje">
-        <a class="btn btn-glowny" href="#/wieczor">${nastepny === dzis ? 'Gramy dziś — wpisz wynik' : 'Wpisz wynik'}</a>
+        <a class="btn btn-glowny" href="#/wieczor">${nastepny === dzis ? 'Gramy dziś, wpisz wynik' : 'Wpisz wynik'}</a>
         <a class="btn btn-obrys" href="#/zasady">Jak to działa</a>
       </div>
       <p class="hero-termin">${nastepny === dzis
-        ? 'Dziś wtorek — miłego grania.'
+        ? 'Dziś wtorek, miłego grania.'
         : `Najbliższy wtorek: <b>${poPolsku(nastepny)}</b>`}</p>
     </section>
 
@@ -60,7 +60,7 @@ export function render(kontener, ctx) {
     <section class="karta karta-zapros">
       <div class="zapros-tresc">
         <b>Ktoś jeszcze nie ma appki?</b>
-        <span class="cichy">Wyślij mu link — otwiera się w przeglądarce, nic się nie instaluje.</span>
+        <span class="cichy">Wyślij mu link, otwiera się w przeglądarce i nic się nie instaluje.</span>
       </div>
       <button class="btn btn-obrys" type="button" id="wyslij-link">🔗 Wyślij link</button>
     </section>
@@ -110,7 +110,7 @@ function kartaBossa(okres, biezacy) {
   return `<section class="karta karta-boss-mini">
     <div class="boss-godlo">${godlo(okres.przydomek?.id ?? null, { rozmiar: 58, reign: true })}</div>
     <div class="boss-opis">
-      <span class="plakietka-etykieta">Gracz Miesiąca${biezacy ? ' — na żywo' : ''} ${dymek('bigboss')}</span>
+      <span class="plakietka-etykieta">Gracz Miesiąca${biezacy ? ' · na żywo' : ''} ${dymek('bigboss')}</span>
       <strong>${gracz(okres.zwyciezca.id).imie}${okres.przydomek ? ` „${bez(okres.przydomek.nazwa)}”` : ''}</strong>
       <span class="cichy">${biezacy ? 'prowadzi · ' : ''}${okres.nazwa} · ${okres.zwyciezca.meczeW} W</span>
     </div>

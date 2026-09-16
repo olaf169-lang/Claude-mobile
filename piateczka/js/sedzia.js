@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Tryb sędziego — zliczanie pojedynczych zagrań.
+   Tryb sędziego: zliczanie pojedynczych zagrań.
 
    Dwa wejścia, ten sam wynik:
    • klikanie na żywo (ekran-sedzia.js),
@@ -19,7 +19,7 @@ import { mecze, trybMeczu, wynikMeczu } from './liczenie.js';
 
 export const ZDARZENIA = [
   { id: 'winner', nazwa: 'Winner',       krotko: 'W',   ikona: '🎯', dobre: true,
-    opis: 'Zagranie, które kończy wymianę — rywal nawet nie dotknął.' },
+    opis: 'Zagranie, które kończy wymianę, rywal nawet nie dotknął.' },
   { id: 'as',     nazwa: 'As',           krotko: 'AS',  ikona: '⚡', dobre: true,
     opis: 'Serwis nie do odebrania.' },
   { id: 'aut',    nazwa: 'Aut',          krotko: 'AUT', ikona: '↗️', dobre: false,
@@ -27,7 +27,7 @@ export const ZDARZENIA = [
   { id: 'siatka', nazwa: 'Siatka',       krotko: 'SIA', ikona: '🥅', dobre: false,
     opis: 'Lotka w siatkę.' },
   { id: 'serwis', nazwa: 'Błąd serwisu', krotko: 'BS',  ikona: '🚫', dobre: false,
-    opis: 'Zepsuty własny serwis — w aut, w siatkę, nieprawidłowy.' },
+    opis: 'Zepsuty własny serwis: w aut, w siatkę, nieprawidłowy.' },
   { id: 'blad',   nazwa: 'Błąd',         krotko: 'B',   ikona: '✖', dobre: false,
     opis: 'Inna pomyłka, która oddała punkt.' },
 ];
@@ -80,7 +80,7 @@ export function statystykiSezonu(wieczory, { tryb = null, pomijajTowarzyskie = t
   return bilansZagran(lista);
 }
 
-/** Ile meczów w ogóle było sędziowanych — bez tego liczby nie mają skali. */
+/** Ile meczów w ogóle było sędziowanych, bo bez tego liczby nie mają skali. */
 export function ileSedziowanych(wieczory, { tryb = null } = {}) {
   let ile = 0;
   for (const w of wieczory) {
@@ -92,7 +92,7 @@ export function ileSedziowanych(wieczory, { tryb = null } = {}) {
   return ile;
 }
 
-/** Stosunek winnerów do błędów — jedyna liczba, którą warto pokazać jako
+/** Stosunek winnerów do błędów: jedyna liczba, którą warto pokazać jako
     „skuteczność”. Zwraca null, gdy nie ma z czego liczyć. */
 export function skutecznosc(bilans) {
   if (!bilans || bilans.razem === 0) return null;
@@ -113,7 +113,7 @@ export function uprosc(tekst) {
 
 /* Odmiana przez przypadki załatwiona rdzeniem: „Tomek/Tomka/Tomkowi” mają
    wspólny początek. Rdzeń liczymy jako najkrótszy prefiks, który jednoznacznie
-   wskazuje jedną osobę w tym składzie — minimum trzy znaki. */
+   wskazuje jedną osobę w tym składzie, minimum trzy znaki. */
 function rdzenie(sklad, wieczor) {
   const imiona = sklad.map((id) => [id, uprosc(imieW(wieczor, id))]);
   return imiona.map(([id, imie]) => {
@@ -144,7 +144,7 @@ function rozpoznajRodzaj(t) {
   return REGULY.find((r) => r.test(t))?.k ?? null;
 }
 
-/** Pozycja słowa kluczowego rodzaju — potrzebna, żeby przypisać zdarzenie
+/** Pozycja słowa kluczowego rodzaju, potrzebna, żeby przypisać zdarzenie
     osobie stojącej NAJBLIŻEJ niego. Bez tego „Tomek wygrał po błędzie Jacka”
     przypisałoby błąd Tomkowi, bo pada pierwszy. */
 function pozycjaKluczowa(t, k) {
@@ -157,7 +157,7 @@ function pozycjaKluczowa(t, k) {
 }
 
 /** Dzieli transkrypcję na kawałki. Kropka i nowa linia zawsze; przecinek
-    tylko wtedy, gdy w kawałku siedzą dwa różne zdarzenia — inaczej rozerwałby
+    tylko wtedy, gdy w kawałku siedzą dwa różne zdarzenia, bo inaczej rozerwałby
     „przy moim serwisie, winner” na dwa nieczytelne strzępy. */
 function nakawalki(tekst) {
   const grube = String(tekst ?? '').split(/[.;!?\n\r]+/).map((x) => x.trim()).filter(Boolean);
@@ -171,7 +171,7 @@ function nakawalki(tekst) {
   return wynik;
 }
 
-/** Zamienia tekst na listę zdarzeń. NIC nie zapisuje — zwraca też kawałki,
+/** Zamienia tekst na listę zdarzeń. NIC nie zapisuje, zwraca też kawałki,
     których nie zrozumiał, żeby dało się je pokazać i poprawić ręcznie. */
 export function parsujTranskrypcje(tekst, { sklad = [], wieczor = null, ja = null } = {}) {
   const osoby = rdzenie(sklad, wieczor);
@@ -217,7 +217,7 @@ export function podsumowanieMeczu(mecz, wieczor) {
   };
 }
 
-/** Wszyscy, którzy w ogóle mają jakieś zsędziowane zagranie — do list. */
+/** Wszyscy, którzy w ogóle mają jakieś zsędziowane zagranie, do list. */
 export function graczeZeStatystykami(mapa) {
   return GRACZE.map((g) => g.id).filter((id) => (mapa.get(id)?.razem ?? 0) > 0);
 }

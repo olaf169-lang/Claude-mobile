@@ -1,10 +1,10 @@
 /* ==========================================================================
-   Ekran „Wieczór” — jedyne miejsce, gdzie się cokolwiek wpisuje.
+   Ekran „Wieczór”: jedyne miejsce, gdzie się cokolwiek wpisuje.
 
    Dwa stany:
-   • OTWARTY — wpisujesz liczby, wynik leci do wszystkich od razu, poprawiasz
+   • OTWARTY: wpisujesz liczby, wynik leci do wszystkich od razu, poprawiasz
      do woli. Nic nie trzeba zatwierdzać w trakcie.
-   • ZAPISANY — po naciśnięciu „Zapisz wieczór” dokument jest zamknięty
+   • ZAPISANY: po naciśnięciu „Zapisz wieczór” dokument jest zamknięty
      i nic się w nim już nie zmieni. Odblokowanie wymaga kodu (patrz zamek.js).
    ========================================================================== */
 
@@ -25,7 +25,7 @@ let wybranaData = null;
 let szkicSkladu = null;      // skład wybierany, zanim wieczór powstanie w bazie
 let szkicFormatu = null;     // format wybrany przed utworzeniem wieczoru
 let szkicGosci = {};         // dopisane osoby przed utworzeniem wieczoru
-let szkicTrybu = 'debel';    // deble czy single — wybierane PRZED ustawieniem meczów
+let szkicTrybu = 'debel';    // deble czy single, wybierane PRZED ustawieniem meczów
 
 export function ustawDate(data) { wybranaData = data; szkicSkladu = null; szkicGosci = {}; }
 
@@ -77,7 +77,7 @@ function kartaTerminu(wieczor, zamek) {
     <label class="pole">
       <span>Dzień gry</span>
       <input type="date" id="pole-data" value="${wybranaData}">
-      <small class="pole-hint">dowolny dzień — wtorek, sobota, kiedy chcecie</small>
+      <small class="pole-hint">dowolny dzień: wtorek, sobota, kiedy chcecie</small>
     </label>
     <div class="format-wybor">
       <span class="pole-etykieta">Domyślny format ${dymek('format')}</span>
@@ -90,7 +90,7 @@ function kartaTerminu(wieczor, zamek) {
       </div>
       <p class="wskazowka">Teraz: <b>${opisFormatu(format)}</b>. Przy remisie na styku gracie
       na przewagę dwóch punktów, więc pole przyjmuje wynik wyższy niż granica seta.
-      Każdy mecz może mieć swój format — zmienisz go na jego karcie.</p>
+      Każdy mecz może mieć swój format, zmienisz go na jego karcie.</p>
     </div>
   </section>`;
 }
@@ -117,7 +117,7 @@ function kartaRodzaju(iluGra) {
     </div>
     <p class="wskazowka">${opisUkladu(iluGra, szkicTrybu)}</p>
     <p class="wskazowka cichy">Drugi rodzaj dorzucisz w każdej chwili przyciskiem
-    „Dograj mecz” — po deblach można jeszcze zagrać szybkiego singielka.</p>
+    „Dograj mecz”, bo po deblach można jeszcze zagrać szybkiego singielka.</p>
   </section>`;
 }
 
@@ -157,7 +157,7 @@ function opisUkladu(ilu, tryb) {
     return `${ilu} grających → ${n} deble, pełna rotacja: każdy zagra w parze z każdym i dwa razy przeciw.`;
   }
   if (tryb === 'debel') {
-    return `Na debla trzeba czterech — przy ${ilu} appka ułoży ${n} single, każdy z każdym.`;
+    return `Na debla trzeba czterech, więc przy ${ilu} appka ułoży ${n} single, każdy z każdym.`;
   }
   if (ilu === 2) return 'Dwóch grających → jeden singiel. Kolejne dorzucisz przyciskiem na dole.';
   return `${ilu} grających → ${n} singli, każdy z każdym. W każdej rundzie gracie po jednym meczu.`;
@@ -178,7 +178,7 @@ function kartyMeczow(wieczor, zamek) {
     <label class="przelacznik">
       <input type="checkbox" id="pole-towarzyski" ${wieczor.towarzyski ? 'checked' : ''}
         ${zamek ? 'disabled' : ''}>
-      <span>Wieczór towarzyski — nie liczy się do sezonu ${dymek('towarzyski')}</span>
+      <span>Wieczór towarzyski, nie liczy się do sezonu ${dymek('towarzyski')}</span>
     </label>
   </section>`;
 
@@ -217,7 +217,7 @@ function kartaMeczu(mecz, wieczor, zamek) {
         <button class="btn-format" type="button" data-format-meczu="${mecz.nr}"
           ${zamek ? 'disabled' : ''} title="Format tego meczu">${krotkiFormat(format)}</button>
         <button class="btn-sedzia" type="button" data-sedziuj="${mecz.nr}"
-          title="Tryb sędziego — zliczanie zagrań">🎙${sedziaPodsumowanie(mecz, wieczor)
+          title="Tryb sędziego: zliczanie zagrań">🎙${sedziaPodsumowanie(mecz, wieczor)
             ? `<i>${sedziaPodsumowanie(mecz, wieczor).ile}</i>` : ''}</button>
         ${zamek ? '' : `<button class="btn-ikona" type="button" data-usun-mecz="${mecz.nr}"
           aria-label="Usuń mecz ${mecz.nr}">🗑</button>`}
@@ -278,8 +278,8 @@ function kartaZapisu(wieczor, zamek) {
     return `<section class="karta karta-zapis zapisany">
       ${naglowekZPomoca('Zapisany na klucz', 'zamykanie')}
       <p class="wskazowka">Ten wieczór jest policzony i zamknięty. Żeby cokolwiek w nim poprawić,
-      potrzebny jest kod od Pana Piąteczki — napisz na grupie, o co chodzi, i poproś o odblokowanie.</p>
-      <button class="btn btn-obrys szeroki" type="button" id="odblokuj">🔑 Mam kod — odblokuj edycję</button>
+      potrzebny jest kod od Pana Piąteczki. Napisz na grupie, o co chodzi, i poproś o odblokowanie.</p>
+      <button class="btn btn-obrys szeroki" type="button" id="odblokuj">🔑 Mam kod, odblokuj edycję</button>
     </section>`;
   }
 
@@ -289,7 +289,7 @@ function kartaZapisu(wieczor, zamek) {
       ? '<p class="wskazowka">Wpiszcie choć jeden wynik, a pojawi się przycisk zapisu.</p>'
       : `${niedokonczone.length ? `<p class="wskazowka ostrzezenie-tekst">
           ${niedokonczone.length === 1 ? 'Jeden mecz nie jest jeszcze dograny' : `${niedokonczone.length} mecze nie są jeszcze dograne`}
-          do końca formatu. Możesz zapisać mimo to — wynik policzy się z tego, co jest.</p>` : ''}
+          do końca formatu. Możesz zapisać mimo to, wynik policzy się z tego, co jest.</p>` : ''}
         <button class="btn btn-glowny szeroki" type="button" id="zapisz-wieczor">
           ✅ Zapisz wieczór (${rozegrane.length} ${odmianaMeczow(rozegrane.length)})</button>
         <p class="wskazowka">Po zapisaniu wieczór się zamyka: wynik jest policzony i nikt go już
@@ -331,7 +331,7 @@ function podepnij(kontener, ctx) {
     const id = el.dataset.przelacz;
     const teraz = szkicSkladu ?? GRACZE.map((g) => g.id);
     szkicSkladu = teraz.includes(id) ? teraz.filter((x) => x !== id) : [...teraz, id];
-    // Dopisane osoby zawsze na końcu — pilnuje kolejności w rotacji par.
+    // Dopisane osoby zawsze na końcu, to pilnuje kolejności w rotacji par.
     szkicSkladu.sort((a, b) => (czyGosc(a) ? 1 : 0) - (czyGosc(b) ? 1 : 0));
     ctx.odswiez();
   }));
@@ -353,7 +353,7 @@ function podepnij(kontener, ctx) {
   kontener.querySelector('#ustaw-mecze')?.addEventListener('click', async () => {
     const sklad = szkicSkladu ?? GRACZE.map((g) => g.id);
     const format = normalizujFormat(szkicFormatu ?? FORMAT_DOMYSLNY);
-    // Kolejność meczów rotuje co tydzień: 0→1→2→0… — sąsiednie wtorki się różnią.
+    // Kolejność meczów rotuje co tydzień: 0→1→2→0…, więc sąsiednie wtorki się różnią.
     const przesuniecie = ((indeksTygodnia(wybranaData) % 3) + 3) % 3;
     const lista = ukladMeczow(sklad, przesuniecie, format, szkicTrybu);
     const mecze = Object.fromEntries(lista.map((m) => [m.nr, m]));
@@ -363,7 +363,7 @@ function podepnij(kontener, ctx) {
     });
     szkicSkladu = null;
     szkicGosci = {};
-    komunikat('Mecze ustawione — wpisujcie wyniki');
+    komunikat('Mecze ustawione, wpisujcie wyniki');
   });
 
   kontener.querySelector('#zmien-sklad')?.addEventListener('click', async () => {
@@ -418,7 +418,7 @@ function podepnij(kontener, ctx) {
       'Wynik zostanie policzony, a wieczór zamknięty. Późniejsza poprawka wymaga kodu.',
       'Tak, zapisz')) return;
     await baza.zamknijWieczor(wybranaData);
-    komunikat('✅ Zapisane — wieczór policzony i zamknięty');
+    komunikat('✅ Zapisane, wieczór policzony i zamknięty');
   });
 
   kontener.querySelector('#odblokuj')?.addEventListener('click', async () => {
@@ -430,7 +430,7 @@ function podepnij(kontener, ctx) {
     if (!kod) return;
     if (!await kodPasuje(kod)) { komunikat('Kod się nie zgadza', 'blad'); return; }
     await baza.odblokujWieczor(wybranaData, await skrot(ujednolic(kod)));
-    komunikat('🔓 Wieczór otwarty — poprawiaj i zapisz na nowo');
+    komunikat('🔓 Wieczór otwarty, poprawiaj i zapisz na nowo');
   });
 
   kontener.querySelector('#usun-wieczor')?.addEventListener('click', async () => {
@@ -453,7 +453,7 @@ function wolneIdGoscia(wieczor) {
   return `gosc${Date.now()}`;
 }
 
-/** Podgląd wyniku w trakcie pisania — bez przerysowywania całego ekranu. */
+/** Podgląd wyniku w trakcie pisania, bez przerysowywania całego ekranu. */
 function podgladMeczu(kontener, wieczor, nr) {
   const mecz = zbudujMecz(wieczor, nr, kontener);
   const cel = kontener.querySelector(`[data-podsumowanie="${nr}"]`);
@@ -507,7 +507,7 @@ function wybierzFormat(teraz) {
         </div>`,
       stopka: '<button class="btn btn-glowny" type="button" data-zastosuj>Ustaw format</button>',
     });
-    // Domyślny przycisk „Rozumiem” jest tu zbędny — zostaje „Ustaw format”.
+    // Domyślny przycisk „Rozumiem” jest tu zbędny, zostaje „Ustaw format”.
     el.querySelector('[data-zamknij]')?.remove();
 
     el.querySelectorAll('[data-szybki]').forEach((b) => b.addEventListener('click', () => {
@@ -538,7 +538,7 @@ function dograjMecz(wieczor, ctx) {
     tytul: `Mecz ${nr}`,
     tresc: `
       <p>Dotknij imienia, żeby wstawić je do strony <b>lewej</b>, potem <b>prawej</b>.
-      Jeden na jednego to singiel, dwóch na dwóch — debel.</p>
+      Jeden na jednego to singiel, dwóch na dwóch to debel.</p>
       <div data-obsada></div>
       <p class="wskazowka" data-podglad></p>
       <div class="chipy chipy-format" style="margin-top:6px">

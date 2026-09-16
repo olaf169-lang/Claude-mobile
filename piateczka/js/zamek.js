@@ -2,12 +2,12 @@
    Zamek na wieczory.
 
    Zasada, o którą prosił właściciel ligi: RAZ ZAPISANY WIECZÓR ZOSTAJE.
-   Kto chce poprawić stary wynik, musi poprosić o kod — i dopiero wtedy
+   Kto chce poprawić stary wynik, musi poprosić o kod i dopiero wtedy
    wieczór wraca do edycji.
 
    Czym to NIE jest: sejfem. Kod sprawdza się po stronie przeglądarki, a jego
    skrót (SHA-256) siedzi i tutaj, i w regułach Firestore. Ktoś, kto zna się
-   na konsoli deweloperskiej i chce się uprzeć, obejdzie to — tak samo jak
+   na konsoli deweloperskiej i chce się uprzeć, obejdzie to, tak samo jak
    panel administratora w „Jakiej to Melodii”. To zapora przed pomyłką
    i przed cichym „poprawieniem” wyniku po fakcie, nie przed włamywaczem.
 
@@ -25,7 +25,7 @@ export async function skrot(tekst) {
 }
 
 /** Kod sprowadzony do jednej postaci przed policzeniem skrótu: bez spacji
-    wokół, wielkimi literami i w NFC. Normalizacja NIE jest ozdobnikiem —
+    wokół, wielkimi literami i w NFC. Normalizacja NIE jest ozdobnikiem,
     w kodzie jest polski znak, a klawiatury potrafią wysłać „ą” jako jedną
     literę (U+0105) albo jako „a” plus ogonek doklejony osobno (U+0061 U+0328).
     Bajty wychodzą wtedy różne, więc bez NFC ten sam wpisany kod raz by
@@ -37,7 +37,7 @@ export async function kodPasuje(kod) {
   try {
     return await skrot(ujednolic(kod)) === HASH_KODU;
   } catch {
-    return false;   // brak crypto.subtle (http bez TLS) — lepiej nie wpuszczać
+    return false;   // brak crypto.subtle (http bez TLS), lepiej nie wpuszczać
   }
 }
 

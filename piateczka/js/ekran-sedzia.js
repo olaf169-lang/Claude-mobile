@@ -1,9 +1,9 @@
 /* ==========================================================================
-   Ekran „Sędzia” — zliczanie zagrań w jednym meczu.
+   Ekran „Sędzia”: zliczanie zagrań w jednym meczu.
 
    Trzy drogi wejścia, wszystkie kończą się tą samą listą `mecz.zagrania`:
    • klikanie na żywo: wybierasz gracza, klikasz zdarzenie,
-   • dyktowanie w apce (rozpoznawanie mowy przeglądarki — Android/Chrome),
+   • dyktowanie w apce (rozpoznawanie mowy przeglądarki, Android/Chrome),
    • wklejenie gotowej transkrypcji.
 
    Przy tekście NIC nie zapisuje się od razu: najpierw pokazujemy, co appka
@@ -20,7 +20,7 @@ import { naglowekZPomoca, dymek } from './pomoc.js';
 import { bez, komunikat, potwierdz } from './ui.js';
 import * as baza from './baza.js';
 
-let cel = null;             // { data, nr } — który mecz sędziujemy
+let cel = null;             // { data, nr }, czyli który mecz sędziujemy
 let wybrany = null;         // podświetlony gracz
 let szkicTekstu = '';       // treść pola transkrypcji, przeżywa przerysowania
 let podglad = null;         // wynik parsowania czekający na zatwierdzenie
@@ -76,7 +76,7 @@ export function render(kontener, ctx) {
 
     ${zamek ? `<div class="pasek-zamka">
       <span class="pasek-zamka-ikona" aria-hidden="true">🔒</span>
-      <div><b>Wieczór zapisany</b><span>Zagrań już nie dopiszesz — najpierw odblokuj wieczór kodem.</span></div>
+      <div><b>Wieczór zapisany</b><span>Zagrań już nie dopiszesz, najpierw odblokuj wieczór kodem.</span></div>
     </div>` : klikanie(wieczor, strony) + tekstowanie(wieczor)}
 
     ${kartaBilansu(wieczor, strony, bil)}
@@ -103,7 +103,7 @@ function klikanie(wieczor, strony) {
         <span aria-hidden="true">${z.ikona}</span><b>${z.nazwa}</b></button>`).join('')}
     </div>
     <p class="wskazowka">${kto
-      ? `Klikasz zdarzenie — dopisuje się do <b>${bez(imieW(wieczor, kto))}</b>. Gracz zostaje wybrany, więc serię akcji jednej osoby klikasz jednym palcem.`
+      ? `Klikasz zdarzenie i dopisuje się do <b>${bez(imieW(wieczor, kto))}</b>. Gracz zostaje wybrany, więc serię akcji jednej osoby klikasz jednym palcem.`
       : 'Najpierw dotknij gracza, potem zdarzenie.'}</p>
   </section>`;
 }
@@ -122,7 +122,7 @@ function tekstowanie(wieczor) {
         ${sluchanie ? '⏹ Zatrzymaj' : '🎤 Dyktuj'}</button>` : ''}
       <button class="btn btn-glowny" type="button" id="rozpoznaj">Rozpoznaj</button>
     </div>
-    ${mowaDostepna() ? '' : `<p class="pomoc-nota">Ta przeglądarka nie ma rozpoznawania mowy —
+    ${mowaDostepna() ? '' : `<p class="pomoc-nota">Ta przeglądarka nie ma rozpoznawania mowy,
       użyj mikrofonu na klawiaturze telefonu, wychodzi na to samo.</p>`}
     ${podglad ? kartaPodgladu(wieczor) : ''}
   </section>`;
@@ -138,14 +138,14 @@ function kartaPodgladu(wieczor) {
         const def = zdarzenie(z.k);
         return `<li class="${def.dobre ? 'dobre' : 'zle'}">
           <span class="zagranie-ikona" aria-hidden="true">${def.ikona}</span>
-          <span class="zagranie-tresc"><b>${bez(imieW(wieczor, z.kto))} — ${def.nazwa}</b>
+          <span class="zagranie-tresc"><b>${bez(imieW(wieczor, z.kto))}: ${def.nazwa}</b>
             <em>„${bez(z.tekst)}”</em></span>
           <button class="btn-ikona" type="button" data-usun-podglad="${i}" aria-label="Wyrzuć">✕</button>
         </li>`;
       }).join('')}
     </ul>` : '<p class="pusto">Nic nie rozpoznałem.</p>'}
     ${nierozumiane.length ? `<p class="pomoc-nota"><b>Pominięte (${nierozumiane.length}):</b>
-      ${nierozumiane.map((n) => `„${bez(n.tekst)}” — ${n.czemu}`).join('; ')}</p>` : ''}
+      ${nierozumiane.map((n) => `„${bez(n.tekst)}”: ${n.czemu}`).join('; ')}</p>` : ''}
     ${zdarzenia.length ? `<button class="btn btn-glowny szeroki" type="button" id="zatwierdz-podglad">
       ✓ Dopisz ${zdarzenia.length} do meczu</button>` : ''}
   </div>`;
@@ -169,7 +169,7 @@ function kartaBilansu(wieczor, strony, bil) {
             const s = skutecznosc(b);
             return `<tr><th>${bez(imieW(wieczor, id))}</th>
               ${ZDARZENIA.map((z) => `<td class="${b && b[z.id] ? (z.dobre ? 'plus' : 'minus') : 'cichy'}">${b?.[z.id] ?? 0}</td>`).join('')}
-              <td><b>${s ? `${s.procent}%` : '—'}</b></td></tr>`;
+              <td><b>${s ? `${s.procent}%` : '-'}</b></td></tr>`;
           }).join('')}
         </tbody>
       </table>
@@ -193,7 +193,7 @@ function kartaHistorii(wieczor, lista, zamek) {
         const nr = lista.length - 1 - i;
         return `<li class="${def.dobre ? 'dobre' : 'zle'}">
           <span class="zagranie-ikona" aria-hidden="true">${def.ikona}</span>
-          <span class="zagranie-tresc"><b>${bez(imieW(wieczor, z.kto))} — ${def.nazwa}</b></span>
+          <span class="zagranie-tresc"><b>${bez(imieW(wieczor, z.kto))}: ${def.nazwa}</b></span>
           ${zamek ? '' : `<button class="btn-ikona" type="button" data-usun-zagranie="${nr}"
             aria-label="Usuń zagranie">🗑</button>`}
         </li>`;
@@ -220,7 +220,7 @@ function podepnij(kontener, ctx, wieczor, mecz, strony) {
     if (!strony.includes(wybrany)) return;
     const k = el.dataset.zdarzenie;
     await zapisz(wieczor, mecz, [...zagrania(mecz), { k, kto: wybrany }]);
-    komunikat(`${zdarzenie(k).ikona} ${imieW(wieczor, wybrany)} — ${zdarzenie(k).nazwa}`);
+    komunikat(`${zdarzenie(k).ikona} ${imieW(wieczor, wybrany)}: ${zdarzenie(k).nazwa}`);
   }));
 
   kontener.querySelector('#cofnij')?.addEventListener('click', async () => {
@@ -264,7 +264,7 @@ function podepnij(kontener, ctx, wieczor, mecz, strony) {
     const nowe = podglad.zdarzenia.map(({ k, kto }) => ({ k, kto }));
     // Czyścimy PRZED zapisem: zapis przerysowuje ekran jeszcze w trakcie
     // `await`, więc stan wyzerowany po nim zostałby na ekranie do następnego
-    // odświeżenia — podgląd wisiałby mimo zatwierdzenia.
+    // odświeżenia, bo podgląd wisiałby mimo zatwierdzenia.
     podglad = null;
     szkicTekstu = '';
     await zapisz(wieczor, mecz, [...zagrania(mecz), ...nowe]);
@@ -276,7 +276,7 @@ function podepnij(kontener, ctx, wieczor, mecz, strony) {
 }
 
 /* Rozpoznawanie mowy przeglądarki. Na Androidzie/Chrome działa, na iPhonie
-   nie — stąd fallback na mikrofon z klawiatury opisany w karcie. */
+   nie, stąd fallback na mikrofon z klawiatury opisany w karcie. */
 function przelaczDyktowanie(ctx, pole) {
   if (sluchanie) {
     try { rozpoznawacz?.stop(); } catch { /* już zatrzymany */ }
@@ -304,7 +304,7 @@ function przelaczDyktowanie(ctx, pole) {
   try {
     rozpoznawacz.start();
     sluchanie = true;
-    komunikat('🎤 Mów — tekst leci do pola');
+    komunikat('🎤 Mów, tekst leci do pola');
     ctx.odswiez();
   } catch {
     komunikat('Nie udało się włączyć mikrofonu', 'blad');

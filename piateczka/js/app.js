@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Turniej Pana Piąteczki — wejście do aplikacji.
+   Turniej Pana Piąteczki: wejście do aplikacji.
 
    Routing po hashu, jeden nasłuch na bazę, jeden delegowany listener na
    wszystkie dymki ⓘ. Ekrany są głupie: dostają kontener i kontekst,
@@ -111,8 +111,8 @@ function odswiezLacze() {
   if (!el) return;
   const opisy = {
     laczenie: ['…', 'Łączę się z bazą wyników'],
-    online:   ['●', 'Na żywo — wszyscy widzą to samo'],
-    lokalnie: ['●', 'Tryb lokalny — wyniki wyślą się, gdy wróci sieć'],
+    online:   ['●', 'Na żywo, wszyscy widzą to samo'],
+    lokalnie: ['●', 'Tryb lokalny, wyniki wyślą się, gdy wróci sieć'],
   };
   const [znak, tytul] = opisy[stanLacza] ?? opisy.laczenie;
   el.textContent = znak;
@@ -162,7 +162,7 @@ baza.nasluchuj((wieczory, stan) => {
 /* Pierwsze wejście: powiedz wprost, że te kółeczka ⓘ są klikalne. */
 if (!localStorage.getItem(KLUCZ_PODPOWIEDZ)) {
   setTimeout(() => {
-    komunikat('Widzisz ⓘ przy nagłówku? Dotknij — wytłumaczy, co jest na ekranie.');
+    komunikat('Widzisz ⓘ przy nagłówku? Dotknij, a wytłumaczy, co jest na ekranie.');
     localStorage.setItem(KLUCZ_PODPOWIEDZ, '1');
   }, 1200);
 }

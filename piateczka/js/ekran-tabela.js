@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Ekran „Tabela” — oficjalna klasyfikacja sezonu.
+   Ekran „Tabela”: oficjalna klasyfikacja sezonu.
 
    Dwie osobne rozgrywki: debel i singiel. Przełącznik u góry, a niżej
    zakres (generalna / runda). Kolejność: zwycięstwa → sety → punkty →
@@ -11,7 +11,7 @@ import { klasyfikacja, wFiltrze, TRYBY, mecze, trybMeczu, wynikMeczu } from './l
 import { naglowekZPomoca, dymek } from './pomoc.js';
 import { arkusz, bez, odmianaMeczow } from './ui.js';
 import { iskra, kolorGracza } from './wykresy.js';
-import { przydomekGracza, godlo } from './tytuly.js';
+import { mojePrzydomki, godlo } from './tytuly.js';
 import { znaczekSerii, przelicz } from './elo.js';
 import { ZDARZENIA, statystykiSezonu, ileSedziowanych, skutecznosc } from './sedzia.js';
 
@@ -28,7 +28,7 @@ export function render(kontener, ctx) {
   const wieczory = wFiltrze(ctx.wieczory, { od: wybrany.od, do: wybrany.do })
     .filter((w) => !w.towarzyski);
   // W tabeli pokazujemy TYLKO tych, którzy w tym trybie w ogóle zagrali.
-  // Zagraliście singla we dwóch — reszta się tu nie pojawia.
+  // Zagraliście singla we dwóch, to reszta się tu nie pojawia.
   const pelna = klasyfikacja(wieczory, { tryb });
   const tabela = pelna.filter((r) => r.mecze > 0);
   const cokolwiek = tabela.length > 0;
@@ -68,12 +68,12 @@ export function render(kontener, ctx) {
     <section class="karta">
       ${naglowekZPomoca('Skąd się bierze kolejność', 'punktacja')}
       <ol class="lista-kryteriow">
-        <li><b>Wygrane mecze</b> — to jest waluta. 15:2 i 15:13 znaczą tyle samo.</li>
-        <li><b>Wygrane sety</b> — kto urywał więcej, ten wyżej.</li>
-        <li><b>Zdobyte punkty</b> — dopiero tutaj liczą się liczby z tablicy.</li>
-        <li><b>Mecz bezpośredni</b> — jak wszystko równe, decyduje, kto kogo ogrywał.</li>
+        <li><b>Wygrane mecze</b>: to jest waluta. 15:2 i 15:13 znaczą tyle samo.</li>
+        <li><b>Wygrane sety</b>: kto urywał więcej, ten wyżej.</li>
+        <li><b>Zdobyte punkty</b>: dopiero tutaj liczą się liczby z tablicy.</li>
+        <li><b>Mecz bezpośredni</b>: jak wszystko równe, decyduje, kto kogo ogrywał.</li>
       </ol>
-      <p class="wskazowka">Punkty stracone nie liczą się w ogóle. Przegrana to przegrana —
+      <p class="wskazowka">Punkty stracone nie liczą się w ogóle. Przegrana to przegrana,
       a to, że przegrałeś na styku, widać w 🏸ELO🏸.</p>
     </section>`;
 
@@ -118,16 +118,27 @@ function szczegoly(id, tabela, wieczory, tryb) {
         <b class="${b.w > b.p ? 'plus' : b.w < b.p ? 'minus' : 'zero'}">${b.w}:${b.p}</b></li>`).join('')}</ul>`;
   };
 
-  const p = przydomekGracza(id, wieczory);
+  const { trafione, noszonyId } = mojePrzydomki(id, wieczory);
+  const p = trafione.find((x) => x.id === noszonyId) ?? null;
   const procentWygranych = r.mecze ? Math.round((r.meczeW / r.mecze) * 100) : 0;
   arkusz({
-    tytul: `${bez(gracz(id).imie)} — szczegóły`,
+    tytul: `${bez(gracz(id).imie)}: szczegóły`,
     tresc: `
       <div class="szczegoly-przydomek">
         ${godlo(p?.id ?? null, { rozmiar: 60 })}
         <b>${p ? bez(p.nazwa) : 'Bez przydomka'}</b>
-        <em>${p ? bez(p.haslo) : 'Jeszcze nic nie wpadło — zagraj kilka meczów'}</em>
+        <em>${p ? bez(p.haslo) : 'Jeszcze nic nie wpadło, zagraj kilka meczów'}</em>
       </div>
+      ${trafione.length > 1 ? `<h4>Wszystkie trafione przydomki</h4>
+        <ul class="moje-przydomki">
+          ${trafione.map((x) => `<li class="${x.id === noszonyId ? 'noszony' : ''}">
+            ${godlo(x.id, { rozmiar: 40 })}
+            <span class="moje-tresc"><b>${bez(x.nazwa)}</b><em>${bez(x.opis)}</em></span>
+            ${x.id === noszonyId ? '<span class="moje-znacznik">nosisz</span>' : ''}
+          </li>`).join('')}
+        </ul>` : ''}
+      <p class="pomoc-nota">Przydomki liczą się z wszystkich meczów, debla i singla razem.
+      Oba tryby porównują tylko „Mistrz Pedałowania” i „Samotny Wilk”.</p>
       <div class="statystyki">
         <div><span>${r.meczeW}</span><em>wygranych</em></div>
         <div><span>${r.meczeP}</span><em>przegranych</em></div>
@@ -146,9 +157,9 @@ function szczegoly(id, tabela, wieczory, tryb) {
         <p class="pomoc-nota">Z ${sedziowanych} ${sedziowanych === 1 ? 'sędziowanego meczu' : 'sędziowanych meczów'}.
         Nie liczy się do tabeli ani do 🏸ELO🏸.</p>` : ''}
       <h4>W parze z kim (bilans W:P)</h4>
-      ${lista(r.partnerzy, 'W tym trybie nie było jeszcze partnerów — singiel gra się sam.')}
+      ${lista(r.partnerzy, 'W tym trybie nie było jeszcze partnerów, singla gra się samemu.')}
       <h4>Przeciw komu (bilans W:P)</h4>
       ${lista(r.przeciwnicy, 'Brak rozegranych meczów.')}
-      <p class="pomoc-nota">Na plus — to Ty jesteś ich zmorą, na minus — oni Twoją.</p>`,
+      <p class="pomoc-nota">Na plus to Ty jesteś ich zmorą, na minus oni Twoją.</p>`,
   });
 }

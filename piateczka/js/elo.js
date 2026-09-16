@@ -1,5 +1,5 @@
 /* ==========================================================================
-   🏸ELO🏸 — forma.
+   🏸ELO🏸, czyli forma.
 
    Tabela mówi, kto wygrał więcej meczów. ELO mówi co innego: jak mocno grasz
    względem tego, z kim akurat trafiłeś. Nie liczy się do tytułu i NIE daje
@@ -8,11 +8,11 @@
    Zasady, celowo krótkie:
    • każdy startuje z 1000,
    • siła pary = średnia ratingów obu graczy,
-   • liczy się TYLKO to, kto wygrał — punkty zdobyte w setach nie mają
+   • liczy się TYLKO to, kto wygrał. Punkty zdobyte w setach nie mają
      tu żadnego znaczenia,
    • urwany set robi jednak różnicę: wygrana 2:0 waży więcej niż 2:1,
      a przegrana 1:2 boli mniej niż 0:2,
-   • singiel i debel mają OSOBNE ratingi — to dwie różne gry,
+   • singiel i debel mają OSOBNE ratingi, bo to dwie różne gry,
    • mecze z osobami spoza czwórki są pomijane: ktoś bez ratingu nie pozwala
      uczciwie wycenić zwycięstwa.
    ========================================================================== */
@@ -40,7 +40,7 @@ function srednia(ids, rating) {
 }
 
 /** Przelicza cały sezon od zera dla jednego trybu ('debel' albo 'singiel').
-    Zwraca { rating, historia, zmiany, seria } — `seria` to aktualna liczba
+    Zwraca { rating, historia, zmiany, seria }, gdzie `seria` to aktualna liczba
     wygranych meczów z rzędu, ta od 🔥 przy nazwisku. */
 export function przelicz(wieczory, tryb = 'debel') {
   const rating = {};
@@ -63,7 +63,7 @@ export function przelicz(wieczory, tryb = 'debel') {
       if (trybMeczu(mecz) !== tryb) continue;
       const r = wynikMeczu(mecz);
       if (!r.rozegrany) continue;
-      // Mecz z kimkolwiek spoza czwórki nie rusza ratingu — patrz nagłówek.
+      // Mecz z kimkolwiek spoza czwórki nie rusza ratingu, patrz nagłówek.
       if (![...mecz.a, ...mecz.b].every((id) => id in rating)) continue;
 
       const ea = oczekiwanie(srednia(mecz.a, rating), srednia(mecz.b, rating));
@@ -91,7 +91,7 @@ export function przelicz(wieczory, tryb = 'debel') {
 
 /* --------------------------------------------------------- poziom formy */
 
-/* Żartobliwa etykieta przy ratingu — im wyższe ELO, tym wyżej w drabince.
+/* Żartobliwa etykieta przy ratingu: im wyższe ELO, tym wyżej w drabince.
    Na starcie wszyscy stoją na 1000, czyli „Drewno”: każdy jest drewnem,
    dopóki nie udowodni inaczej. Progi liczone względem 1000. */
 export const POZIOMY_FORMY = [
@@ -107,7 +107,7 @@ export function poziomFormy(rating) {
 }
 
 /** Znaczek serii przy nazwisku: ×3 🔥. Poniżej dwóch wygranych z rzędu
-    nic nie pokazujemy — jedna wygrana to jeszcze nie passa. */
+    nic nie pokazujemy, bo jedna wygrana to jeszcze nie passa. */
 export function znaczekSerii(ile) {
   if (!ile || ile < 2) return '';
   const ogien = ile >= 5 ? '🔥🔥' : '🔥';
@@ -130,7 +130,7 @@ export function ranking(wieczory, tryb = 'debel') {
     .map((r, i) => ({ ...r, miejsce: i + 1 }));
 }
 
-/** Szanse obu stron w danym zestawieniu — czysta informacja, zero ułatwień. */
+/** Szanse obu stron w danym zestawieniu: czysta informacja, zero ułatwień. */
 export function szanse(paraA, paraB, rating) {
   const a = oczekiwanie(srednia(paraA, rating), srednia(paraB, rating));
   return { a, b: 1 - a, wyrownany: Math.abs(a - 0.5) < 0.06 };

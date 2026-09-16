@@ -2,13 +2,13 @@
    Tytuły: Gracz Miesiąca, MVP i przydomki.
 
    Przydomek to ksywka bojowa liczona na bieżąco ze statystyk. NIKT NIE
-   STARTUJE Z PRZYDOMKIEM — na początku sezonu wszyscy mają czysto i trzeba
+   STARTUJE Z PRZYDOMKIEM. Na początku sezonu wszyscy mają czysto i trzeba
    sobie cokolwiek zasłużyć (albo przechlapać).
 
    Trzy poziomy:
-     🥉 brąz   — pocieszne. Dostajesz je za pech i za słabszą passę.
-     🥈 srebro — solidne. Tu już coś umiesz.
-     🥇 złoto  — wyczyn. Trzeba się napracować.
+     🥉 brąz   pocieszne. Dostajesz je za pech i za słabszą passę.
+     🥈 srebro solidne. Tu już coś umiesz.
+     🥇 złoto  wyczyn. Trzeba się napracować.
 
    Gracz Miesiąca NIE ma osobnego znaczka ani czwartego poziomu: jego
    przydomek zostaje w swoim kolorze i dostaje tylko poświatę i koronę.
@@ -18,7 +18,7 @@ import { GRACZE, dzisiajIso, nazwaMiesiaca } from './dane.js';
 import { klasyfikacja, zbierz, rekordyWieczoru, wieczorRozegrany, mvpWieczoru } from './liczenie.js';
 
 /** Ile wieczorów musi mieć okres, żeby wyłonić Gracza Miesiąca. Jeden
-    wystarczy — decyzja użytkownika, nie podnoś tego z powrotem. */
+    wystarczy (decyzja użytkownika, nie podnoś tego z powrotem). */
 export const MIN_WIECZOROW_NA_TYTUL = 1;
 
 export const POZIOMY = {
@@ -31,20 +31,20 @@ export const POZIOMY = {
 
    Kolejność: brąz → srebro → złoto. `warunek(r, ctx)` dostaje rekord gracza
    z całego sezonu (patrz liczenie.js) i kontekst z porównaniami. Wszystko
-   liczy się z samych wyników — nic się nie wpisuje ręcznie. */
+   liczy się z samych wyników, nic się nie wpisuje ręcznie. */
 
 export const PRZYDOMKI = [
   /* ------------------------------------------------------------- BRĄZ */
   {
     id: 'plakal', nazwa: 'Płakał', poziom: 'braz',
     haslo: 'Nie pykło, ale nie łam się, #NiePłakał',
-    opis: 'Z ostatnich 6 meczów 2 przegrałeś dopiero w 3. secie. Urwać urwałeś, dowieźć nie dowiozłeś — ale szło się bić do końca. #NiePłakał',
+    opis: 'Z ostatnich 6 meczów 2 przegrałeś dopiero w 3. secie. Urwać urwałeś, dowieźć nie dowiozłeś, ale szło się bić do końca. #NiePłakał',
     warunek: (r) => ostatnie(r, 6).filter((m) => !m.wygrany && m.trzySety).length >= 2,
   },
   {
     id: 'spalona', nazwa: 'Spalona Gierka', poziom: 'braz',
     haslo: 'Spaliłeś się dziś smyku za mocno',
-    opis: 'Spaliłeś się dziś smyku za mocno — 3 przegrane w jeden wieczór. Zaczęło się obiecująco, pary poszły w 1. secie.',
+    opis: 'Spaliłeś się dziś smyku za mocno, 3 przegrane w jeden wieczór. Zaczęło się obiecująco, pary poszły w 1. secie.',
     warunek: (r) => (r.dni.at(-1)?.p ?? 0) >= 3,
   },
   {
@@ -56,7 +56,7 @@ export const PRZYDOMKI = [
   {
     id: 'klatwa', nazwa: 'Klątwa Kamisha', poziom: 'braz',
     haslo: 'Kamish BBK przyszedł i rzucił urok',
-    opis: '5 przegranych meczów z rzędu. To już nie forma, to zaklęcie — ktoś Ci narobił pod rakietą.',
+    opis: '5 przegranych meczów z rzędu. To już nie forma, to zaklęcie. Ktoś Ci narobił pod rakietą.',
     warunek: (r) => r.przegraneZRzedu >= 5,
   },
   {
@@ -67,8 +67,8 @@ export const PRZYDOMKI = [
   },
   {
     id: 'pedal', nazwa: 'Mistrz Pedałowania', poziom: 'braz',
-    haslo: 'W parze orzeł, sam — niekoniecznie',
-    opis: 'Min. 60% wygranych w deblu i najwyżej 35% w singlu. Na tandemie jedzie się raźniej — zawsze można uznać, że to drugi mocniej pedałuje.',
+    haslo: 'W parze orzeł, sam już niekoniecznie',
+    opis: 'Min. 60% wygranych w deblu i najwyżej 35% w singlu. Na tandemie jedzie się raźniej, bo zawsze można uznać, że to drugi mocniej pedałuje.',
     warunek: (r, c) => {
       const d = c.statDebel.get(r.id);
       const p = c.statSingiel.get(r.id);
@@ -106,7 +106,7 @@ export const PRZYDOMKI = [
   {
     id: 'swed', nazwa: 'Psim Swędem', poziom: 'srebro',
     haslo: 'Nie wiadomo jak, ale jest',
-    opis: '2 sety wygrane po dogrywce — takie na 17:15 czy 21:19. Nikt nie wie, skąd je wytrzasnąłeś, ale wywęszyłeś i masz.',
+    opis: '2 sety wygrane po dogrywce, takie na 17:15 czy 21:19. Nikt nie wie, skąd je wytrzasnąłeś, ale wywęszyłeś i masz.',
     warunek: (r) => r.setyPrzewagaW >= 2,
   },
   {
@@ -125,13 +125,13 @@ export const PRZYDOMKI = [
   {
     id: 'mmmpuuu', nazwa: 'Mmmpuuu!', poziom: 'zloto',
     haslo: 'Robisz strzał i miażdżysz przeciwników',
-    opis: 'Robisz strzał i miażdżysz przeciwników — 5 wygranych meczów z rzędu, licząc też te z zeszłego wtorku. Rozpędziłeś się i nikt Cię nie zatrzymał.',
+    opis: 'Robisz strzał i miażdżysz przeciwników, 5 wygranych meczów z rzędu, licząc też te z zeszłego wtorku. Rozpędziłeś się i nikt Cię nie zatrzymał.',
     warunek: (r) => r.seria >= 5,
   },
   {
     id: 'nafali', nazwa: 'Na Fali', poziom: 'zloto',
-    haslo: 'Złapałeś i jedziesz',
-    opis: 'Wygrałeś wszystkie mecze wieczoru — minimum 3, zero przegranych. Złapałeś falę i pojechałeś na niej do samej plaży.',
+    haslo: 'Tak trzymaj, płyń dalej!',
+    opis: 'Wygrałeś wszystkie mecze wieczoru, minimum 3 i zero przegranych. Złapałeś falę i pojechałeś na niej do samej plaży.',
     warunek: (r) => r.dni.some((d) => d.w >= 3 && d.p === 0),
   },
   {
@@ -146,7 +146,7 @@ export const PRZYDOMKI = [
   {
     id: 'sanjay', nazwa: 'Sanjay Kapoor', poziom: 'zloto',
     haslo: 'Lśnisz jak diament',
-    opis: 'W ostatnich 5 meczach wygrałeś 4 sety, w których rywal nie doszedł nawet do 9 punktów. Gra jak hinduski mistrz badmintona — czysto i bez wysiłku.',
+    opis: 'W ostatnich 5 meczach wygrałeś 4 sety, w których rywal nie doszedł nawet do 9 punktów. Gra jak hinduski mistrz badmintona: czysto i bez wysiłku.',
     warunek: (r) => ostatnie(r, 5).reduce((suma, m) => suma + (m.setyDoOsmiu ?? 0), 0) >= 4,
   },
 ];
@@ -157,7 +157,7 @@ function ostatnie(r, ile) {
   return r.meczeKolejno.slice(-ile);
 }
 
-/** Punkty zdobyte w ostatnich `ile` meczach — „Masz Wbite" patrzy na formę,
+/** Punkty zdobyte w ostatnich `ile` meczach. „Masz Wbite" patrzy na formę,
     nie na dorobek całego sezonu. */
 function sumaZOstatnich(r, ile) {
   return ostatnie(r, ile).reduce((s, m) => s + (m.zdobyte ?? 0), 0);
@@ -179,7 +179,7 @@ function kontekst(wieczory) {
   const tabela = klasyfikacja(grane);
   const statDebel = zbierz(grane, { tryb: 'debel' });
   const statSingiel = zbierz(grane, { tryb: 'singiel' });
-  // Statystyki bieżącego miesiąca — do „Formy Kwincioka”.
+  // Statystyki bieżącego miesiąca, do „Formy Kwincioka”.
   const biezacyMies = grane.at(-1)?.data.slice(0, 7) ?? null;
   const statMiesiaca = zbierz(grane.filter((w) => w.data.slice(0, 7) === biezacyMies));
 
@@ -188,7 +188,7 @@ function kontekst(wieczory) {
     statDebel,
     statSingiel,
     tabela,
-    // Lider musi mieć choć jedną wygraną — inaczej „Hounter" (pokonałeś
+    // Lider musi mieć choć jedną wygraną, inaczej „Hounter" (pokonałeś
     // lidera) dawałoby się zdobyć na kimś, kto nie wygrał nic.
     liderId: tabela.find((r) => r.meczeW > 0)?.id ?? null,
     drugiId: tabela.filter((r) => r.mecze > 0)[1]?.id ?? null,
@@ -204,7 +204,7 @@ function kontekst(wieczory) {
 const RANGA = { zloto: 3, srebro: 2, braz: 1 };
 
 /** Wybiera przydomek jednego gracza. Zwraca null, gdy nic jeszcze nie pasuje
-    — na starcie sezonu każdy ma czysto i tak ma być. */
+    (na starcie sezonu każdy ma czysto i tak ma być). */
 function wybierz(id, ctx) {
   const r = ctx.stat.get(id);
   if (!r || r.mecze === 0) return null;
@@ -221,7 +221,7 @@ function wybierz(id, ctx) {
   return grupa[(r.wieczory + seedId(id)) % grupa.length];
 }
 
-/** Wszystkie przydomki, na które gracz się aktualnie łapie — nie tylko ten
+/** Wszystkie przydomki, na które gracz się aktualnie łapie, nie tylko ten
     noszony. Przydaje się, żeby sprawdzić, czy warunek w ogóle działa, bo
     `przydomekGracza` pokazuje wyłącznie zwycięzcę i słabszy trafiony warunek
     jest w nim niewidoczny. */
@@ -234,7 +234,7 @@ export function pasujacePrzydomki(id, wieczory) {
   });
 }
 
-/** Przydomek pojedynczego gracza — wygodne, samodzielne wywołanie. */
+/** Przydomek pojedynczego gracza: wygodne, samodzielne wywołanie. */
 export function przydomekGracza(id, wieczory) {
   return wybierz(id, kontekst(wieczory));
 }
@@ -250,26 +250,35 @@ export function przydomkiGraczy(wieczory) {
   return mapa;
 }
 
+/** Lista WSZYSTKICH trafionych przydomków gracza, z zaznaczeniem noszonego.
+    Katalog jest jeden dla obu trybów, więc gracz musi widzieć, co już wpadło,
+    a nie tylko ten jeden, który akurat wygrał. */
+export function mojePrzydomki(id, wieczory) {
+  const trafione = pasujacePrzydomki(id, wieczory);
+  const noszony = przydomekGracza(id, wieczory);
+  return { trafione, noszonyId: noszony?.id ?? null };
+}
+
 /* ----------------------------------------------------------------- godła */
 
-/* Rysowane w SVG, nie emoji — mają wyglądać jak odznaka. Każde godło nawiązuje
+/* Rysowane w SVG, nie emoji, bo mają wyglądać jak odznaka. Każde godło nawiązuje
    wprost do treści przydomka.
 
    Zasada rysowania, wspólna dla wszystkich: bryła wypełniona gradientem na
-   niskim kryciu (0,18–0,3) PLUS obrys tym samym gradientem, a najważniejszy
-   detal — iskra, żar, oko — solidnym wypełnieniem. Sam cienki obrys, jak było
+   niskim kryciu (od 0,18 do 0,3) PLUS obrys tym samym gradientem, a najważniejszy
+   detal (iskra, żar, oko) solidnym wypełnieniem. Sam cienki obrys, jak było
    wcześniej, przy 56 px po prostu znikał.
 
    Kolory NIE są tutaj, tylko w styles.css jako zmienne `--metal-1` / `--metal-2`
    ustawiane klasą poziomu. Dzięki temu motyw jasny ma własny, ciemniejszy
-   komplet metali — poprzednio górny stop srebra (#EDF3FB) miał na białej
+   komplet metali. Poprzednio górny stop srebra (#EDF3FB) miał na białej
    karcie kontrast 1,12:1, czyli był po prostu niewidoczny.
 
    `#@` w ścieżkach to podmieniany znacznik gradientu tej konkretnej odznaki. */
 const GLIFY = {
   /* ------------------------------------------------------------- brąz */
 
-  // Łza — duża, spadająca, z refleksem światła.
+  // Łza: duża, spadająca, z refleksem światła.
   plakal: '<path d="M32 16.5c8.2 11.2 12.8 18.3 12.8 24A12.8 12.8 0 0 1 19.2 40.5c0-5.7 4.6-12.8 12.8-24Z" fill="url(#@)" fill-opacity=".2"/>'
     + '<path d="M25 41c0 4.4 2.9 8.1 7.2 9.1" opacity=".55"/>'
     + '<ellipse cx="27" cy="34" rx="1.9" ry="2.8" transform="rotate(-20 27 34)" fill="url(#@)" stroke="none" opacity=".55"/>',
@@ -283,7 +292,7 @@ const GLIFY = {
     + '<path d="M49 25c2.8-2.6 1.3-5.8-1-7.5" opacity=".3"/>'
     + '<path d="M30 39.5 26 42M34 34.5 30 37" opacity=".3"/>',
 
-  // Falki wiatru — klasyczny znak podmuchu, trzy smugi z zawijasem.
+  // Falki wiatru: klasyczny znak podmuchu, trzy smugi z zawijasem.
   pierd: '<path d="M14.5 26.5h19a5.6 5.6 0 1 0-5.6-5.6"/>'
     + '<path d="M14.5 35.5h25.5a6.2 6.2 0 1 1-6.2 6.2"/>'
     + '<path d="M16.5 44.5h13" opacity=".65"/>',
@@ -309,7 +318,7 @@ const GLIFY = {
 
   /* ----------------------------------------------------------- srebro */
 
-  // Masz Wbite: najprostszy młotek pod kątem, jak 🔨 — obuch, jaśniejsze czoło
+  // Masz Wbite: najprostszy młotek pod kątem, jak 🔨: obuch, jaśniejsze czoło
   // i trzonek. Bez gwoździa, deski i smug: każdy dodatek psuł czytelność.
   wbite: '<g transform="translate(-3 8) rotate(45 32 32)">'
     + '<path d="M30 27h4.4v16.4a2.2 2.2 0 0 1-4.4 0Z" fill="url(#@)" fill-opacity=".3"/>'
@@ -325,7 +334,7 @@ const GLIFY = {
     + '<path d="M26 22.5c2.5-2.5 2.5-5 0-7.5M34 22.5c2.5-2.5 2.5-5 0-7.5" opacity=".5"/>'
     + '<path d="M23 33.5h16" opacity=".35"/>',
 
-  // Wąska maska Robina — oczy wycięte regułą evenodd, więc prześwituje tarcza.
+  // Wąska maska Robina. Oczy wycięte regułą evenodd, więc prześwituje tarcza.
   robin: '<path fill-rule="evenodd" d="M13 31.5c5.4-3.6 12.2-5.4 19-5.4s13.6 1.8 19 5.4c-1.1 6.8-5.8 11.6-11 11.6-3.4 0-6.1-2-8-5.3-1.9 3.3-4.6 5.3-8 5.3-5.2 0-9.9-4.8-11-11.6Zm7.4 1.6c1.5-1.5 5.4-1.5 7 .4-1.4 1.9-5.5 1.9-7-.4Zm16.2.4c1.6-1.9 5.5-1.9 7-.4-1.5 2.3-5.6 2.3-7 .4Z" fill="url(#@)" fill-opacity=".3"/>',
 
   // Duch z celownikiem zamiast twarzy.
@@ -334,7 +343,7 @@ const GLIFY = {
     + '<path d="M32 21.5v6M32 37.5v6M21 32.5h6M37 32.5h6"/>'
     + '<circle cx="32" cy="32.5" r="1.8" fill="url(#@)" stroke="none"/>',
 
-  // Psim Swędem: kundelek w profilu — okrągły łeb ze sterczącym uchem i krótką
+  // Psim Swędem: kundelek w profilu, okrągły łeb ze sterczącym uchem i krótką
   // kufą przy samej ziemi (jeden długi klin czytał się jak pysk konia),
   // przy pysku drobinki zapachu (węszy trop). Obok to, po czym poznać, że tu był.
   swed: '<path d="M10 48h44" opacity=".5"/>'
@@ -355,7 +364,7 @@ const GLIFY = {
     + '<path d="M44.4 44.2c.3-2 2-3.1 4.2-3.1s3.8 1.1 4.1 3.1Z" fill="url(#@)" fill-opacity=".3"/>'
     + '<path d="M46.2 41.2c0-1.9 1.1-3.2 2.4-3.6.5.6.3 1.4-.3 1.9 1 .4 1.8 1 1.8 1.7Z" fill="url(#@)" fill-opacity=".28"/>',
 
-  // Samotny Wilk: kanciasty łeb z kresek — ten znany, geometryczny motyw.
+  // Samotny Wilk: kanciasty łeb z kresek, ten znany, geometryczny motyw.
   wilk: '<path d="M32 51 17 38.5 14.5 20.5 23 26.5h18l8.5-6-2.5 18Z" fill="url(#@)" fill-opacity=".2"/>'
     + '<path d="M14.5 20.5 23 26.5M49.5 20.5 41 26.5" opacity=".75"/>'
     + '<path d="M17 38.5 24 34.5M47 38.5 40 34.5" opacity=".5"/>'
@@ -374,7 +383,7 @@ const GLIFY = {
     + '<path d="M20.5 30.5h6M35.5 30.5h6" stroke-width="2.6"/>'
     + '<path d="M28 44.5h8" opacity=".5"/>',
 
-  // Trysk ze źródła — dysza i wachlarz strug z kroplami na końcach.
+  // Trysk ze źródła: dysza i wachlarz strug z kroplami na końcach.
   mmmpuuu: '<path d="M12.5 33.5h8.5l4.5 3.2v3.6L21 43.5h-8.5Z" fill="url(#@)" fill-opacity=".32"/>'
     + '<path d="M29.8 35.5 36.2 29.8M30.5 36.4 38 32.4M30.9 37.4 41.5 34.8M31 38.5 42 38.5M30.9 39.6 41.5 42.2M30.5 40.6 38 44.6M29.8 41.5 36.2 47.2" stroke-width="2.8"/>'
     + '<circle cx="39.3" cy="27" r="1.5" fill="url(#@)" stroke="none" opacity=".75"/>'
@@ -383,7 +392,7 @@ const GLIFY = {
     + '<circle cx="45.6" cy="43.3" r="1.8" fill="url(#@)" stroke="none"/>'
     + '<circle cx="39.3" cy="50" r="1.5" fill="url(#@)" stroke="none" opacity=".75"/>',
 
-  // Na Fali: prosta fala jak z infografiki — stroma ściana, grzywa zawinięta
+  // Na Fali: prosta fala jak z infografiki: stroma ściana, grzywa zawinięta
   // w prawo, długi ogon i osobna smuga wody pod spodem.
   nafali: '<path d="M12.5 41C18 33 23 27.5 28 24.5 33 21.5 37.5 23 39.5 26.5'
       + ' 41.5 30 40 33.5 37 34 34.5 34.4 33 32.8 33.6 31'
@@ -400,8 +409,8 @@ const GLIFY = {
     + '<path d="M32 36.4 26.9 38.9 27.9 43.1M32 36.4 37.1 38.9 36.1 43.1"/>'
     + '<path d="M32 41.4 28.1 47.7M32 41.4 35.9 47.7"/>',
 
-  // Brylant z fasetami — plus jedna iskra, żeby błyszczał.
-  // Sanjay Kapoor: brylant z fasetami — lśni, bo o to w tym przydomku chodzi.
+  // Brylant z fasetami, plus jedna iskra, żeby błyszczał.
+  // Sanjay Kapoor: brylant z fasetami, lśni, bo o to w tym przydomku chodzi.
   sanjay: '<path d="M21 25.5h22l7.5 8.5L32 53 13.5 34Z" fill="url(#@)" fill-opacity=".22"/>'
     + '<path d="M21 25.5l3.6 8.5h14.8l3.6-8.5M13.5 34h37M24.6 34 32 53M39.4 34 32 53" opacity=".5"/>'
     + '<path d="M47.5 17l1 2.6 2.6 1-2.6 1-1 2.6-1-2.6-2.6-1 2.6-1Z" fill="url(#@)" stroke="none" opacity=".9"/>'
@@ -413,15 +422,15 @@ let _gid = 0;
 
 /** Odznaka jako gotowy HTML. `reign` = oprawa Gracza Miesiąca: korona nad
     tarczą i poświata, ale kolor zostaje ten od poziomu przydomka.
-    `id === null` rysuje pustą tarczę — tak wygląda „jeszcze nic”.
+    `id === null` rysuje pustą tarczę, tak wygląda „jeszcze nic”.
 
     Kolory idą przez klasę `godlo-<poziom>` i zmienne CSS, nie przez styl
-    w atrybucie — dlatego motyw jasny może mieć własny, ciemniejszy komplet
+    w atrybucie, dlatego motyw jasny może mieć własny, ciemniejszy komplet
     metali, a poświata sama się do niego dostraja.
 
     `gradientUnits="userSpaceOnUse"` NIE jest ozdobnikiem. Domyślnie gradient
     liczy się względem ramki każdego kształtu z osobna, a ramka pojedynczej
-    pionowej albo poziomej kreski ma zerową szerokość lub wysokość — taki
+    pionowej albo poziomej kreski ma zerową szerokość lub wysokość, więc taki
     kształt zostaje wtedy NIEPOMALOWANY i po prostu znika. Kosztowało to
     gwóźdź w „Masz Wbite" (rysowany, niewidoczny). Przy tej wersji gradient
     rozciąga się na całą tarczę, więc proste kreski działają, a metal jest
@@ -494,7 +503,7 @@ export function okresy(wieczory) {
   });
 }
 
-/** Aktualny Gracz Miesiąca — z ostatniego ZAMKNIĘTEGO okresu. Dopóki bieżący
+/** Aktualny Gracz Miesiąca z ostatniego ZAMKNIĘTEGO okresu. Dopóki bieżący
     miesiąc trwa, tytuł nosi zwycięzca poprzedniego. */
 export function graczMiesiaca(wieczory) {
   const lista = okresy(wieczory);
@@ -504,7 +513,7 @@ export function graczMiesiaca(wieczory) {
   return { aktualny, wToku, wszystkie: lista };
 }
 
-/** Historia MVP — od najnowszego. */
+/** Historia MVP, od najnowszego. */
 export function historiaMvp(wieczory) {
   return wieczory
     .filter((w) => !w.towarzyski && wieczorRozegrany(w))

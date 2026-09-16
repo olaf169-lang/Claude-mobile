@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Turniej Pana Piąteczki — stałe rozgrywek.
+   Turniej Pana Piąteczki: stałe rozgrywek.
 
    Wszystko, co da się zmienić bez ruszania logiki, siedzi tutaj: skład,
    formaty meczów, kalendarz sezonu. Reszta modułów tego nie duplikuje.
@@ -13,13 +13,13 @@ export const GRACZE = [
 ];
 
 /** Ktoś spoza czwórki, kto wskoczył za nieobecnego. Gra i ma swoje saldo,
-    ale nigdy nie wchodzi do klasyfikacji sezonu — patrz liczenie.js. */
+    ale nigdy nie wchodzi do klasyfikacji sezonu, patrz liczenie.js. */
 export const GOSC = { id: 'gosc', imie: 'Gość', skrot: 'GOŚ' };
 
 export function gracz(id) {
   const stały = GRACZE.find((g) => g.id === id);
   if (stały) return stały;
-  // Dopisane osoby (gosc, gosc1, gosc2…) mają imię tylko w swoim wieczorze —
+  // Dopisane osoby (gosc, gosc1, gosc2…) mają imię tylko w swoim wieczorze,
   // patrz imieW niżej. Tu, bez kontekstu wieczoru, zostaje ogólne „Gość”,
   // żeby nigdzie nie wyświetlił się surowy identyfikator.
   if (String(id).startsWith('gosc')) return { id, imie: 'Gość', skrot: 'GOŚ' };
@@ -27,7 +27,7 @@ export function gracz(id) {
 }
 
 /** Imię widoczne na ekranie. Dopisane osoby („goście”) siedzą w samym
-    wieczorze — dzięki temu na jeden wtorek można zaprosić kogo się chce,
+    wieczorze. Dzięki temu na jeden wtorek można zaprosić kogo się chce,
     a stała czwórka zostaje stałą czwórką. */
 export function imieW(wieczor, id) {
   const dopisani = wieczor?.goscie ?? {};
@@ -41,10 +41,10 @@ export const czyGosc = (id) => id === GOSC.id || String(id).startsWith('gosc');
 /* ------------------------------------------------------------------ format */
 
 /* Format jest teraz DWIEMA liczbami, nie jednym sztywnym wyborem:
-     setow — ile wygranych setów kończy mecz (1 albo 2),
-     doIlu — do ilu punktów gra się seta.
+     setow: ile wygranych setów kończy mecz (1 albo 2),
+     doIlu: do ilu punktów gra się seta.
    Domyślnie „do dwóch wygranych setów, sety do 15”, ale można ustawić
-   szybką gierkę do 7 w jednym secie i nic w tabeli się nie sypie — liczymy
+   szybką gierkę do 7 w jednym secie i nic w tabeli się nie sypie, bo liczymy
    wygrane mecze, a mecz to mecz. Przy remisie na styku (np. 15:15) zawsze
    gra się na przewagę dwóch punktów, bez górnego limitu, więc pola na wynik
    przyjmują liczby dużo powyżej granicy seta. */
@@ -98,12 +98,12 @@ export const SEZON = {
     { id: 'jesien', nazwa: 'Runda Jesienna', od: '2026-09-01', do: '2026-12-31' },
     { id: 'zima',   nazwa: 'Runda Zimowa',   od: '2027-01-01', do: '2027-03-31' },
   ],
-  /* Wtorki, których z góry nie planujemy. Reszta terminów jest umowna —
+  /* Wtorki, których z góry nie planujemy. Reszta terminów jest umowna,
      appka i tak przyjmuje wynik z dowolnej daty. */
   wolne: {
     '2026-12-22': 'Tydzień Wigilii',
     '2026-12-29': 'Między świętami',
-    '2027-03-30': 'Wtorek po Wielkanocy — termin rezerwowy',
+    '2027-03-30': 'Wtorek po Wielkanocy, termin rezerwowy',
   },
 };
 
@@ -129,7 +129,7 @@ export function isoData(d) {
 /** Numer tygodnia od startu sezonu (0 = tydzień startowy). Służy do rotacji
     kolejności meczów: co wtorek wypada następna z trzech kolejności, więc dwa
     sąsiednie wtorki nigdy nie mają tej samej. Liczone z daty, więc deterministyczne
-    — wszyscy widzą identyczny układ. */
+    (wszyscy widzą identyczny układ). */
 export function indeksTygodnia(iso) {
   const start = new Date(SEZON.pierwszy + 'T12:00:00');
   const d = new Date(iso + 'T12:00:00');

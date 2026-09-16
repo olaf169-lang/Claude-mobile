@@ -6,7 +6,7 @@
 export const $  = (sel, gdzie = document) => gdzie.querySelector(sel);
 export const $$ = (sel, gdzie = document) => [...gdzie.querySelectorAll(sel)];
 
-/** Zamienia niebezpieczne znaki — wszystko, co wpisze użytkownik (imię Gościa),
+/** Zamienia niebezpieczne znaki. Wszystko, co wpisze użytkownik (imię Gościa),
     przechodzi przez to zanim trafi do innerHTML. */
 export function bez(tekst) {
   return String(tekst ?? '').replace(/[&<>"']/g, (z) =>
@@ -102,7 +102,7 @@ export function potwierdz(tytul, tresc, etykietaTak = 'Tak, usuń') {
   });
 }
 
-/** Arkusz z jednym polem — imię dopisanej osoby, kod administratora.
+/** Arkusz z jednym polem: imię dopisanej osoby, kod administratora.
     Zwraca wpisany tekst albo null, gdy ktoś się rozmyślił. */
 export function zapytaj({ tytul, opis = '', etykieta, wartosc = '', placeholder = '',
   typ = 'text', ok = 'Zapisz' }) {

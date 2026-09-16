@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Ekran „🏸ELO🏸” — forma i szanse zestawień.
+   Ekran „🏸ELO🏸”: forma i szanse zestawień.
 
    Osobno dla debla i singla, bo to dwie różne gry. Żadnych ułatwień:
    appka pokazuje wyłącznie, jak rozkładają się szanse.
@@ -14,7 +14,7 @@ import { linie, podepnijKrzyzyk, kolorGracza } from './wykresy.js';
 
 let tryb = 'debel';
 
-/* Trzy możliwe zestawienia debla i sześć par singlowych — te same, w których
+/* Trzy możliwe zestawienia debla i sześć par singlowych, te same, w których
    i tak gracie. */
 const ZESTAWIENIA_DEBEL = [[[0, 1], [2, 3]], [[0, 2], [1, 3]], [[0, 3], [1, 2]]];
 const ZESTAWIENIA_SINGIEL = [[[0], [1]], [[0], [2]], [[0], [3]], [[1], [2]], [[1], [3]], [[2], [3]]];
@@ -38,7 +38,7 @@ export function render(kontener, ctx) {
   kontener.innerHTML = `
     <div class="ekran-naglowek">
       <h1>🏸ELO🏸</h1>
-      <p class="podtytul">Forma liczona zwycięstwami — bez tytułów, bez ułatwień</p>
+      <p class="podtytul">Forma liczona zwycięstwami, bez tytułów i bez ułatwień</p>
     </div>
 
     <div class="przelacznik-trybu" role="tablist" aria-label="Rodzaj gry">
@@ -61,12 +61,12 @@ export function render(kontener, ctx) {
               <span class="wiersz-imie">${gracz(r.id).imie}${znak ? `<b class="seria-znak">${znak}</b>` : ''}</span>
               <span class="poziom-formy" title="Poziom formy wg ELO">${poziom.emoji} ${poziom.nazwa}</span>
             </span>
-            <span class="wiersz-zmiana ${klasaSalda(r.zmiana)}">${r.zmiana ? zeZnakiem(r.zmiana) : '—'}</span>
+            <span class="wiersz-zmiana ${klasaSalda(r.zmiana)}">${r.zmiana ? zeZnakiem(r.zmiana) : '·'}</span>
             <span class="wiersz-saldo">${r.rating}</span>
           </li>`;
         }).join('')}
       </ol>
-      <p class="wskazowka">Znaczek przy nazwisku to seria zwycięstw ${dymek('seria')} — pokazuje się
+      <p class="wskazowka">Znaczek przy nazwisku to seria zwycięstw ${dymek('seria')}, pokazuje się
       od dwóch wygranych z rzędu.</p>
     </section>
 
@@ -96,7 +96,7 @@ export function render(kontener, ctx) {
         ${zestawienia.map((z) => wierszFormy(z, rating)).join('')}
       </ul>
       <p class="wskazowka">Sama informacja, jak rozkładają się szanse. Nikt nie dostaje punktów
-      na start ani żadnego innego ułatwienia — gracie normalnie i wpisujecie wynik z tablicy.</p>
+      na start ani żadnego innego ułatwienia. Gracie normalnie i wpisujecie wynik z tablicy.</p>
     </section>`;
 
   kontener.querySelectorAll('[data-tryb]').forEach((el) =>

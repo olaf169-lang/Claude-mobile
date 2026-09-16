@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Rysuje komplet ikon Turnieju Pana Piąteczki — złotą rakietę na granacie.
+"""Rysuje komplet ikon Turnieju Pana Piąteczki, złotą rakietę na granacie.
 
     python3 narzedzia/ikony.py
 
 Zapisuje do piateczka/icons/: icon-192.png, icon-512.png, icon-maskable.png
 oraz podglad.png (karta linku 1200x630).
 
-Bez Pillow — w tym środowisku go nie ma, więc rasteryzujemy ręcznie
+Bez Pillow, w tym środowisku go nie ma, więc rasteryzujemy ręcznie
 (funkcje odległości + nadpróbkowanie 3x) i zapisujemy własnym, minimalnym
 zapisem PNG. Kształty są proste, więc to naprawdę wystarcza.
 """
@@ -77,7 +77,7 @@ def rysuj(bok: int, margines: float, zaokraglenie: float | None) -> list[list[tu
 
     for y in range(duzy):
         for x in range(duzy):
-            # główka rakiety — pierścień
+            # główka rakiety, pierścień
             lx, ly = x - gx, y - gy
             ex = (lx * cos_k + ly * sin_k) / ra
             ey = (-lx * sin_k + ly * cos_k) / rb
@@ -87,7 +87,7 @@ def rysuj(bok: int, margines: float, zaokraglenie: float | None) -> list[list[tu
                 pokrycie = 1.0
                 kolor = ZLOTO
             elif r < 1.0:
-                # naciąg — cienkie linie wewnątrz główki
+                # naciąg, cienkie linie wewnątrz główki
                 sx, sy = ex * ra, ey * rb
                 krok = 7.2 * skala
                 blisko = min(abs(sx % krok - krok / 2), abs(sy % krok - krok / 2))
@@ -155,7 +155,7 @@ def zapisz_png(sciezka: pathlib.Path, piksele) -> None:
 
 
 def podglad() -> None:
-    """Karta linku 1200x630 — ikona po lewej, granatowe tło."""
+    """Karta linku 1200x630, ikona po lewej, granatowe tło."""
     szer, wys = 1200, 630
     ikona = rysuj(360, 0.10, None)
     piksele = []
