@@ -10,11 +10,14 @@
    dymek(klucz) przy odpowiedniej karcie. Nic więcej.
    ========================================================================== */
 
+/* `kluczowe: true` = hasło, bez którego nie da się grać. Ekran „Zasady”
+   rysuje takie w wyróżnionym boksie, żeby nie utonęły między resztą. */
 export const POMOC = {
 
   /* ------------------------------------------------------- jak liczymy */
 
   punktacja: {
+    kluczowe: true,
     tytul: 'Jak liczymy punkty',
     tresc: `<p><b>Liczą się zwycięstwa.</b> Wygrany mecz to wygrany mecz — nieważne, czy poszło 15:2,
       czy 15:13. Kto wygrał ich więcej, ten jest wyżej. Koniec.</p>
@@ -32,16 +35,21 @@ export const POMOC = {
   },
 
   tryby: {
+    kluczowe: true,
     tytul: 'Singiel i debel to dwie rozgrywki',
     tresc: `<p><b>Osobna tabela, osobne statystyki, osobne 🏸ELO🏸.</b> Debel i singiel to dwie różne gry,
       więc nie mieszamy ich w jednym worku.</p>
-      <p>Trybu się nie wpisuje — bierze się sam z obsady: jeden na jednego to singiel, dwóch na dwóch
-      to debel. Na ekranach Tabela i 🏸ELO🏸 przełączasz się między nimi jednym dotknięciem.</p>
+      <p><b>Wybierasz na starcie wieczoru</b> — pierwsza karta pyta „w co gracie?”. Appka układa wtedy
+      albo trzy deble z pełną rotacją, albo single każdy z każdym. Drugi rodzaj dorzucisz w każdej
+      chwili przyciskiem „Dograj mecz”: po deblach można jeszcze zagrać szybkiego singielka.</p>
+      <p>Na ekranach Tabela i 🏸ELO🏸 przełączasz się między nimi jednym dotknięciem. Debel chodzi
+      w błękicie, singiel w złocie — te same barwy wracają na kartach meczów.</p>
       <p class="pomoc-nota">W wyniku wieczoru i przy MVP liczą się wszystkie mecze razem — tam chodzi
       o to, kto miał dobry dzień, a nie o osobne ligi.</p>`,
   },
 
   werdykt: {
+    kluczowe: true,
     tytul: 'Kto wygrał mecz',
     tresc: `<p>Najpierw <b>sety</b>. Gdy jest remis w setach (np. 1:1), rozstrzyga <b>suma punktów</b>
       z całego meczu. Mecz 15:5, 13:15 to 28:20, więc to wygrana, choć sety są po jednym.</p>
@@ -50,6 +58,7 @@ export const POMOC = {
   },
 
   format: {
+    kluczowe: true,
     tytul: 'Format meczu',
     tresc: `<p>Domyślnie gramy <b>do dwóch wygranych setów, sety do 15</b> — tak samo w deblu i w singlu.
       Ale format nie jest sztywny: ustawiasz <b>ile setów</b> (jeden albo dwa wygrane) i <b>do ilu punktów</b>.
@@ -77,9 +86,11 @@ export const POMOC = {
 
   sklady: {
     tytul: 'Przyszło mniej niż czterech',
-    tresc: `<p><b>Czterech</b> — trzy deble, pełna rotacja.<br>
-      <b>Trzech</b> — single każdy z każdym: każdy gra dwa mecze i raz odpoczywa.<br>
-      <b>Dwóch</b> — jeden singiel, a jak macie czas, dokładacie kolejne przyciskiem „Dograj mecz”.</p>
+    tresc: `<p>Przy <b>deblach</b>: czterech to trzy mecze z pełną rotacją. Jak przyszło mniej,
+      appka i tak ułoży single — z trójki nie da się złożyć par.</p>
+      <p>Przy <b>singlach</b>: każdy z każdym. Czterech → sześć meczów, trzech → trzy, dwóch → jeden.
+      Karuzela jest ułożona tak, że w każdej rundzie gracie po jednym meczu, więc nikt nie ma trzech
+      pod rząd.</p>
       <p>Deble wpadają do tabeli debla, single do tabeli singla. W wyniku wieczoru i przy MVP
       liczą się wszystkie mecze razem.</p>
       <p class="pomoc-nota">W podsumowaniu wieczoru widać <b>tylko tych, którzy faktycznie grali</b>.
@@ -223,6 +234,7 @@ export const POMOC = {
   },
 
   zamykanie: {
+    kluczowe: true,
     tytul: 'Zapisanie wieczoru i kod',
     tresc: `<p>Gdy wszystko jest wpisane, naciskasz <b>„Zapisz wieczór”</b>. Wynik zostaje policzony,
       a wieczór <b>zamyka się na klucz</b> — od tej chwili nikt już w nim nic nie zmieni.</p>

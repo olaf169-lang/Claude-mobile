@@ -213,62 +213,163 @@ export function przydomkiGraczy(wieczory) {
 
 /* ----------------------------------------------------------------- godła */
 
-/* Rysowane w SVG, nie emoji — mają wyglądać jak odznaka. Godło nawiązuje
-   wprost do treści przydomka, a kolor bierze się z poziomu trudności. */
+/* Rysowane w SVG, nie emoji — mają wyglądać jak odznaka. Każde godło nawiązuje
+   wprost do treści przydomka.
+
+   Zasada rysowania, wspólna dla wszystkich: bryła wypełniona gradientem na
+   niskim kryciu (0,18–0,3) PLUS obrys tym samym gradientem, a najważniejszy
+   detal — iskra, żar, oko — solidnym wypełnieniem. Sam cienki obrys, jak było
+   wcześniej, przy 56 px po prostu znikał.
+
+   Kolory NIE są tutaj, tylko w styles.css jako zmienne `--metal-1` / `--metal-2`
+   ustawiane klasą poziomu. Dzięki temu motyw jasny ma własny, ciemniejszy
+   komplet metali — poprzednio górny stop srebra (#EDF3FB) miał na białej
+   karcie kontrast 1,12:1, czyli był po prostu niewidoczny.
+
+   `#@` w ścieżkach to podmieniany znacznik gradientu tej konkretnej odznaki. */
 const GLIFY = {
-  // brąz — pocieszne
-  plakal: '<path d="M32 19c7.5 10.5 12 17 12 22.5A12 12 0 0 1 20 41.5C20 36 24.5 29.5 32 19Z"/><path d="M26 42c0 4 2.5 7.5 6.5 8.5" opacity=".5"/><path d="M36 26.5c2 3 3 5 3.5 6.5" opacity=".35"/>',
-  spalona: '<path d="M22 53l16-24" stroke-width="3"/><ellipse cx="41" cy="24" rx="5.5" ry="7"/><path d="M41 13c2.5 3.5 3.5 5.5 3.5 7.5" opacity=".45"/><path d="M47 29c3 2 3.5 5 1.5 7" opacity=".4"/><path d="M30 41l-6 2M34 35l-6 2" opacity=".35"/>',
-  pierd: '<path d="M24 43a7.5 7.5 0 0 1 2-14.5 9.5 9.5 0 0 1 18 1.5 6.5 6.5 0 0 1-1.5 13Z"/><path d="M27 48c2.5 1.5 5 1.5 7.5 0M38 50c2 1 4 1 6 0" opacity=".45"/><path d="M18 33c-2.5-1.5-3-4-1-6M49 26c2.5-1 4.5.5 4.5 3" opacity=".35"/>',
-  klatwa: '<path d="M32 19c9.5 0 15.5 6.5 15.5 14.5 0 5-2.5 8.5-5 10.5V49H21.5v-5c-2.5-2-5-5.5-5-10.5C16.5 25.5 22.5 19 32 19Z"/><circle cx="25.5" cy="34" r="3.6" fill="currentColor" stroke="none"/><circle cx="38.5" cy="34" r="3.6" fill="currentColor" stroke="none"/><path d="M32 39l-2 4h4Z"/><path d="M27 49v-4M32 49v-4M37 49v-4" opacity=".5"/>',
-  majkel: '<path d="M25 52V33a3.2 3.2 0 0 1 6.4 0v-7a3.2 3.2 0 0 1 6.4 0v7a3.2 3.2 0 0 1 6.4 0v19Z"/><path d="M25 40l-4 2v6l4 2" opacity=".45"/><path d="M16 24v13M11.5 32.5 16 37l4.5-4.5" opacity=".8"/>',
+  /* ------------------------------------------------------------- brąz */
 
-  // srebro — solidne
-  mlot: '<rect x="19" y="19" width="26" height="11" rx="2.5"/><path d="M29 30l-1.5 24h9L35 30"/><path d="M23 24.5h18" opacity=".4"/>',
-  mur: '<rect x="15" y="26" width="34" height="8" rx="1.5"/><rect x="15" y="34" width="34" height="8" rx="1.5"/><rect x="15" y="42" width="34" height="8" rx="1.5"/><path d="M26 26v8M38 26v8M20 34v8M32 34v8M44 34v8M26 42v8M38 42v8" opacity=".45"/>',
-  robin: '<path d="M15 30h34c0 9-5.5 15-11 15-3.5 0-5.5-2.5-6-4.5-.5 2-2.5 4.5-6 4.5-5.5 0-11-6-11-15Z"/><path d="M23 36.5h7M34 36.5h7" opacity=".4"/><path d="M26 48c3 4 9 4 12 0" opacity=".5"/>',
-  hounter: '<circle cx="30" cy="39" r="13"/><circle cx="30" cy="39" r="5.5"/><path d="M30 39 48 21" stroke-width="2.8"/><path d="M41 19h9v9" opacity=".8"/>',
-  gladiator: '<path d="M27 19c3-4 7-4 10 0l-1.5 5h-7Z"/><path d="M20 49c0-17 5-25 12-25s12 8 12 25h-6l-1.5-8h-9L26 49Z"/><path d="M25 36h5.5M33.5 36h5.5" opacity=".55"/><path d="M32 31v6" opacity=".45"/>',
-  podworko: '<path d="M25 19h14v8.5a7 7 0 0 1-14 0Z"/><path d="M39 21h5.5a5.5 5.5 0 0 1-5.5 6.5M25 21h-5.5a5.5 5.5 0 0 0 5.5 6.5" opacity=".6"/><path d="M32 34.5V40M26.5 46h11l-1-6h-9Z"/><path d="M14 33v19M50 33v19M11 39h6M47 39h6" opacity=".35"/>',
+  // Łza — duża, spadająca, z refleksem światła.
+  plakal: '<path d="M32 16.5c8.2 11.2 12.8 18.3 12.8 24A12.8 12.8 0 0 1 19.2 40.5c0-5.7 4.6-12.8 12.8-24Z" fill="url(#@)" fill-opacity=".2"/>'
+    + '<path d="M25 41c0 4.4 2.9 8.1 7.2 9.1" opacity=".55"/>'
+    + '<ellipse cx="27" cy="34" rx="1.9" ry="2.8" transform="rotate(-20 27 34)" fill="url(#@)" stroke="none" opacity=".55"/>',
 
-  // złoto — wyczyn
-  mmmpuuu: '<circle cx="26" cy="44" r="6"/><path d="M30.5 39.5 42 22l4.5 3.5-12 18.5Z"/><path d="M33 26l-4.5-4.5M39 21.5V15M46 25l5.5-4" opacity=".55"/><path d="M15 50c1.5-4 4.5-7 8.5-8.5" opacity=".4"/>',
-  szal: '<path d="M34.5 15 24 35h7l-3 15 14-21h-7.5Z"/><path d="M17 27c-3 4-4 9-3 14M47 27c3 4 4 9 3 14" opacity=".45"/><path d="M22 51c6 3 14 3 20 0" opacity=".4"/>',
-  kwinciok: '<path d="M32 16c5 7 4 11.5 1.5 15 3.5-1 6-3.5 7-7 4 6.5 2.5 15.5-4 20.5-2.5 2-2 5-1 8.5-4.5-1-7.5-4.5-7.5-9.5 0-4.5 2-7.5 2-11 0-4-1-7.5 2-16.5Z"/><path d="M20 30l-3-3M44 30l3-3M17 42h-4M51 42h-4" opacity=".45"/>',
-  nietykalny: '<path d="M21 30h22l6 7.5-17 18.5-17-18.5Z"/><path d="M21 30l3.5 7.5h15L43 30M25 37.5l7 18.5M39 37.5l-7 18.5" opacity=".45"/>',
+  // Dopalający się „joincik": ustnik, żar na końcu i dym unoszący się w górę.
+  spalona: '<path d="M19.5 47 36 30.5" stroke-width="6"/>'
+    + '<path d="M19.5 47 24 42.5" stroke-width="6" opacity=".4"/>'
+    + '<circle cx="39.4" cy="27.2" r="3.9" fill="url(#@)" stroke="none"/>'
+    + '<circle cx="39.4" cy="27.2" r="1.7" fill="url(#@)" stroke="none" opacity=".45"/>'
+    + '<path d="M44.5 21.5c2.8-2.6 1.4-5.4-.8-7.2" opacity=".5"/>'
+    + '<path d="M49 25c2.8-2.6 1.3-5.8-1-7.5" opacity=".3"/>'
+    + '<path d="M30 39.5 26 42M34 34.5 30 37" opacity=".3"/>',
+
+  // Falki wiatru — klasyczny znak podmuchu, trzy smugi z zawijasem.
+  pierd: '<path d="M14.5 26.5h19a5.6 5.6 0 1 0-5.6-5.6"/>'
+    + '<path d="M14.5 35.5h25.5a6.2 6.2 0 1 1-6.2 6.2"/>'
+    + '<path d="M16.5 44.5h13" opacity=".65"/>',
+
+  // Czaszka z klątwy: wypełniona, oczodoły solidne, zęby u dołu.
+  klatwa: '<path d="M32 17.5c9.8 0 16 6.8 16 15 0 5.2-2.6 8.8-5.2 10.9V49H21.2v-5.6C18.6 41.3 16 37.7 16 32.5c0-8.2 6.2-15 16-15Z" fill="url(#@)" fill-opacity=".2"/>'
+    + '<circle cx="25.2" cy="33.5" r="3.9" fill="url(#@)" stroke="none"/>'
+    + '<circle cx="38.8" cy="33.5" r="3.9" fill="url(#@)" stroke="none"/>'
+    + '<path d="M32 38.5l-2.2 4.4h4.4Z" fill="url(#@)" stroke="none" opacity=".8"/>'
+    + '<path d="M26.5 49v-4.2M32 49v-4.2M37.5 49v-4.2" opacity=".5"/>',
+
+  // Bolid F1 z boku: tylne skrzydło, klin nadwozia, halo i dwa grube koła.
+  majkel: '<path d="M14 25h10M14 28.5h10" stroke-width="2.8"/>'
+    + '<path d="M14.5 23v7.5M23.5 23v7.5" opacity=".85"/>'
+    + '<path d="M19 30.5V36" opacity=".7"/>'
+    + '<path d="M15 41.5v-5.2l8-1.4h13l9.5 2.3 6 2.3v2Z" fill="url(#@)" fill-opacity=".28"/>'
+    + '<circle cx="30.5" cy="31.6" r="3.2" fill="url(#@)" fill-opacity=".6"/>'
+    + '<path d="M25.8 32.4a5.4 5.4 0 0 1 9.4 0" opacity=".55"/>'
+    + '<circle cx="22.5" cy="40" r="5.6"/><circle cx="22.5" cy="40" r="2" fill="url(#@)" stroke="none" opacity=".5"/>'
+    + '<circle cx="43" cy="40" r="5.2"/><circle cx="43" cy="40" r="1.9" fill="url(#@)" stroke="none" opacity=".5"/>'
+    + '<path d="M47.5 43.5h5" stroke-width="2.8"/><path d="M52 41.5v4" opacity=".85"/>'
+    + '<path d="M8 17h8M9.5 21.5h5.5" opacity=".28"/>',
+
+  /* ----------------------------------------------------------- srebro */
+
+  // Młot z obuchem i trzonkiem — bryła zamiast samego konturu.
+  mlot: '<path d="M17.5 18h29v12.5h-29Z" fill="url(#@)" fill-opacity=".28"/>'
+    + '<path d="M28.3 30.5 26.8 51h10.4L35.7 30.5" fill="url(#@)" fill-opacity=".2"/>'
+    + '<path d="M22 24h20" opacity=".4"/>',
+
+  // Mur obronny z blankami i wiązaniem cegieł.
+  mur: '<path d="M16 28.5h4.5v-4.5h5.5v4.5h5.5v-4.5h5.5v4.5H43V24h5v24H16Z" fill="url(#@)" fill-opacity=".2"/>'
+    + '<path d="M16 35h32M16 41.5h32" opacity=".55"/>'
+    + '<path d="M26 28.5V35M37 28.5V35M21 35v6.5M32 35v6.5M43 35v6.5M26 41.5V48M37 41.5V48" opacity=".45"/>',
+
+  // Wąska maska Robina — oczy wycięte regułą evenodd, więc prześwituje tarcza.
+  robin: '<path fill-rule="evenodd" d="M13 31.5c5.4-3.6 12.2-5.4 19-5.4s13.6 1.8 19 5.4c-1.1 6.8-5.8 11.6-11 11.6-3.4 0-6.1-2-8-5.3-1.9 3.3-4.6 5.3-8 5.3-5.2 0-9.9-4.8-11-11.6Zm7.4 1.6c1.5-1.5 5.4-1.5 7 .4-1.4 1.9-5.5 1.9-7-.4Zm16.2.4c1.6-1.9 5.5-1.9 7-.4-1.5 2.3-5.6 2.3-7 .4Z" fill="url(#@)" fill-opacity=".3"/>',
+
+  // Duch z celownikiem zamiast twarzy.
+  hounter: '<path d="M21 47.5V33.5a11 11 0 0 1 22 0v14l-3.7-3.2-3.6 3.2-3.7-3.2-3.6 3.2Z" fill="url(#@)" fill-opacity=".2"/>'
+    + '<circle cx="32" cy="32.5" r="7.4" stroke-width="2.1"/>'
+    + '<path d="M32 21.5v6M32 37.5v6M21 32.5h6M37 32.5h6"/>'
+    + '<circle cx="32" cy="32.5" r="1.8" fill="url(#@)" stroke="none"/>',
+
+  // Hełm gladiatora: pióropusz z fakturą, nanośnik i nauszniki.
+  gladiator: '<path d="M26.5 17c3-4.8 8-4.8 11 0l-1.2 6.5h-8.6Z" fill="url(#@)" fill-opacity=".3"/>'
+    + '<path d="M29 18.5c1.6-1.2 4.4-1.2 6 0M28.5 21.5c1.8-1.2 5.2-1.2 7 0" opacity=".45"/>'
+    + '<path d="M19.5 49.5c0-18 5.6-26 12.5-26s12.5 8 12.5 26h-6.4l-1.5-8.8h-9.2L25.9 49.5Z" fill="url(#@)" fill-opacity=".18"/>'
+    + '<path d="M25 34.5h5.6M33.4 34.5H39" stroke-width="3"/>'
+    + '<path d="M32 30v9" opacity=".55"/>'
+    + '<path d="M24.5 41.5v8M39.5 41.5v8" opacity=".4"/>',
+
+  // Puchar podwórkowy między dwiema sztachetami płotu.
+  podworko: '<path d="M14.5 47V30.5l3-3.2 3 3.2V47M43.5 47V30.5l3-3.2 3 3.2V47" opacity=".38"/>'
+    + '<path d="M11.5 34.5h12M40.5 34.5h12M11.5 41h12M40.5 41h12" opacity=".3"/>'
+    + '<path d="M25 18.5h14v9.5a7 7 0 0 1-14 0Z" fill="url(#@)" fill-opacity=".3"/>'
+    + '<path d="M39 21h5.5a5.5 5.5 0 0 1-5.5 7M25 21h-5.5a5.5 5.5 0 0 0 5.5 7" opacity=".7"/>'
+    + '<path d="M32 35v5"/>'
+    + '<path d="M25.5 47h13l-1.3-7h-10.4Z" fill="url(#@)" fill-opacity=".3"/>',
+
+  /* ------------------------------------------------------------ złoto */
+
+  // Trysk ze źródła — dysza i wachlarz strug z kroplami na końcach.
+  mmmpuuu: '<path d="M12.5 33.5h8.5l4.5 3.2v3.6L21 43.5h-8.5Z" fill="url(#@)" fill-opacity=".32"/>'
+    + '<path d="M29.8 35.5 36.2 29.8M30.5 36.4 38 32.4M30.9 37.4 41.5 34.8M31 38.5 42 38.5M30.9 39.6 41.5 42.2M30.5 40.6 38 44.6M29.8 41.5 36.2 47.2" stroke-width="2.8"/>'
+    + '<circle cx="39.3" cy="27" r="1.5" fill="url(#@)" stroke="none" opacity=".75"/>'
+    + '<circle cx="45.6" cy="33.7" r="1.8" fill="url(#@)" stroke="none"/>'
+    + '<circle cx="46.2" cy="38.5" r="2.4" fill="url(#@)" stroke="none"/>'
+    + '<circle cx="45.6" cy="43.3" r="1.8" fill="url(#@)" stroke="none"/>'
+    + '<circle cx="39.3" cy="50" r="1.5" fill="url(#@)" stroke="none" opacity=".75"/>',
+
+  // Szał: lotka w środku eksplozji promieni, plus iskry.
+  szal: '<ellipse cx="26" cy="25.5" rx="10" ry="12" transform="rotate(-30 26 25.5)" fill="url(#@)" fill-opacity=".16"/>'
+    + '<path d="M18.2 16.6 33.4 29.8M15.4 21.2 30.6 34.4M21.6 13.6 35 25.2" opacity=".4" stroke-width="1.4"/>'
+    + '<path d="M20 30.8 31.4 19.4M16.6 26.4 28 15M24 34.4 35.4 23" opacity=".4" stroke-width="1.4"/>'
+    + '<path d="M30.4 33.2 34.6 38.4M37.8 29.8 34.6 38.4" opacity=".75"/>'
+    + '<path d="M34.6 38.4 41 45.6" stroke-width="3"/>'
+    + '<path d="M39.8 44.2 44 49" stroke-width="5.6" opacity=".75"/>'
+    + '<path d="M42 12.5l1 2.7 2.7 1-2.7 1-1 2.7-1-2.7-2.7-1 2.7-1Z" fill="url(#@)" stroke="none"/>'
+    + '<path d="M48 24l.8 2.1 2.1.8-2.1.8-.8 2.1-.8-2.1-2.1-.8 2.1-.8Z" fill="url(#@)" stroke="none" opacity=".85"/>'
+    + '<path d="M13.5 36l.7 1.9 1.9.7-1.9.7-.7 1.9-.7-1.9-1.9-.7 1.9-.7Z" fill="url(#@)" stroke="none" opacity=".6"/>'
+    + '<path d="M39 17.5c3.6-1.1 6.9-.4 9.6 2M43.5 33c2.6 1.7 4.2 4.3 4.7 7.6" opacity=".32"/>',
+
+  // Płomień z rozgrzanym rdzeniem, iskrami i podmuchem po bokach.
+  kwinciok: '<path d="M32 13c7.6 9.6 6.6 14.6 2.8 18.6 4.9-1.2 7.9-4.9 8.9-9.6 5.4 8.6 3.2 20.2-5.4 26-3.2 2.2-2.6 6.5-1 10.4-6.5-1.6-10.7-6.1-10.7-13 0-5.8 2.6-9.7 2.6-14.5 0-5.4-1.6-10.1 2.8-17.9Z" fill="url(#@)" fill-opacity=".18"/>'
+    + '<path d="M32 29c3.3 3.9 3.7 7.1 1.9 10.4-2.7 4.9-7.5 2.8-7.5-2.1 0-3.2 2.8-5.5 5.6-8.3Z" fill="url(#@)" stroke="none" opacity=".8"/>'
+    + '<path d="M47 16l.9 2.4 2.4.9-2.4.9-.9 2.4-.9-2.4-2.4-.9 2.4-.9Z" fill="url(#@)" stroke="none" opacity=".9"/>'
+    + '<path d="M16.5 23l.7 1.9 1.9.7-1.9.7-.7 1.9-.7-1.9-1.9-.7 1.9-.7Z" fill="url(#@)" stroke="none" opacity=".65"/>'
+    + '<path d="M14.5 37c-1.6 3.2-1 6.4 1.6 8.6M49.5 37c1.6 3.2 1 6.4-1.6 8.6" opacity=".35"/>',
+
+  // Brylant z fasetami — plus jedna iskra, żeby błyszczał.
+  nietykalny: '<path d="M21 25.5h22l7.5 8.5L32 53 13.5 34Z" fill="url(#@)" fill-opacity=".2"/>'
+    + '<path d="M21 25.5l3.6 8.5h14.8l3.6-8.5M13.5 34h37M24.6 34 32 53M39.4 34 32 53" opacity=".5"/>'
+    + '<path d="M47.5 19l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8Z" fill="url(#@)" stroke="none" opacity=".85"/>',
 };
 
 let _gid = 0;
-const METALE = {
-  braz:   ['#F0A868', '#9C5223'],
-  srebro: ['#EDF3FB', '#8496AC'],
-  zloto:  ['#FBE38F', '#C68A24'],
-};
-const BEZ_PRZYDOMKA = ['#7D8DA6', '#3B4A63'];
 
 /** Odznaka jako gotowy HTML. `reign` = oprawa Gracza Miesiąca: korona nad
     tarczą i poświata, ale kolor zostaje ten od poziomu przydomka.
-    `id === null` rysuje pustą tarczę — tak wygląda „jeszcze nic”. */
+    `id === null` rysuje pustą tarczę — tak wygląda „jeszcze nic”.
+
+    Kolory idą przez klasę `godlo-<poziom>` i zmienne CSS, nie przez styl
+    w atrybucie — dlatego motyw jasny może mieć własny, ciemniejszy komplet
+    metali, a poświata sama się do niego dostraja. */
 export function godlo(id, { rozmiar = 56, klasa = '', reign = false } = {}) {
   const p = id ? przydomek(id) : null;
-  const metal = p ? (METALE[p.poziom] ?? METALE.braz) : BEZ_PRZYDOMKA;
+  const poziom = p && POZIOMY[p.poziom] ? p.poziom : (p ? 'braz' : 'puste');
   const gid = `ppg${(_gid += 1)}`;
-  const glif = p ? (GLIFY[p.id] ?? '') : '<path d="M32 24v14M32 44v2" opacity=".55"/>';
+  const glif = p
+    ? (GLIFY[p.id] ?? '').replaceAll('#@', `#${gid}`)
+    : '<path d="M32 25v13M32 44v2.5" opacity=".6"/>';
   const korona = reign && p
     ? '<path class="godlo-korona" d="M21 12l4.5 5.5L32 9l6.5 8.5L43 12l-2 11.5H23Z"/>' : '';
-  const poswiata = reign && p ? `; filter: drop-shadow(0 0 5px ${metal[0]}aa)` : '';
   const etykieta = p ? `Godło: ${p.nazwa}${reign ? ' (Gracz Miesiąca)' : ''}` : 'Brak przydomka';
-  return `<svg class="godlo ${reign && p ? 'godlo-reign' : ''} ${p ? '' : 'godlo-puste'} ${klasa}"
-    style="width:${rozmiar}px; color:${metal[0]}${poswiata}"
-    viewBox="0 3 64 77" fill="none" stroke="url(#${gid})" stroke-width="2.4"
-    stroke-linejoin="round" stroke-linecap="round"
+  return `<svg class="godlo godlo-${poziom} ${reign && p ? 'godlo-reign' : ''} ${klasa}"
+    style="width:${rozmiar}px" viewBox="0 3 64 77" fill="none" stroke="url(#${gid})"
+    stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"
     role="img" aria-label="${etykieta}">
     <defs><linearGradient id="${gid}" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="${metal[0]}"/><stop offset="1" stop-color="${metal[1]}"/>
+      <stop offset="0" stop-color="var(--metal-1)"/><stop offset="1" stop-color="var(--metal-2)"/>
     </linearGradient></defs>
     ${korona}
     <path class="godlo-tarcza" d="M32 9 60 21v25c0 16-12 28-28 33C16 74 4 62 4 46V21Z"
-      fill="${metal[1]}22" stroke-width="2.6"/>
+      fill="url(#${gid})" fill-opacity=".1" stroke-width="2.8"/>
     <path class="godlo-tarcza-in" d="M32 15 54 24v21c0 13-10 23-22 27C20 68 10 58 10 45V24Z"
       fill="none" opacity=".35" stroke-width="1.3"/>
     <g class="godlo-glif" transform="translate(0 6)">${glif}</g>

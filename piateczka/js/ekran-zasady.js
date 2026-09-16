@@ -85,7 +85,8 @@ function przydomkiAkord() {
 function haslo(klucz) {
   const h = POMOC[klucz];
   if (!h) return '';
-  return `<article class="haslo" id="haslo-${klucz}">
+  return `<article class="haslo ${h.kluczowe ? 'haslo-klucz' : ''}" id="haslo-${klucz}">
+    ${h.kluczowe ? '<span class="haslo-plakietka">Najważniejsze</span>' : ''}
     <h3>${h.tytul}</h3>
     ${h.tresc}
   </article>`;
