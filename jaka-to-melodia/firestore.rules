@@ -197,5 +197,16 @@ service cloud.firestore {
                     && (resource.data.get('zamkniety', false) == false || zdejmujeZamek());
       allow delete: if resource.data.get('zamkniety', false) == false;
     }
+
+    /* Wspólne ustawienia appki, na razie jeden dokument: `przydomki`.
+       Trzyma wybór noszonego przydomka per gracz, mapa id gracza -> id
+       przydomka. Każdy może to ustawiać (tak jak wyniki), pilnujemy tylko,
+       żeby nie dało się tu wrzucić czegokolwiek: dozwolone klucze to czwórka
+       graczy plus znacznik czasu, a wartości są tekstem. */
+    match /piateczkaUstawienia/{dokument} {
+      allow read: if true;
+      allow write: if request.resource.data.keys().hasOnly(
+                        ['jacek', 'tomek', 'kafaar', 'piateczka', 'zaktualizowano']);
+    }
   }
 }

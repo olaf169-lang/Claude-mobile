@@ -6,7 +6,9 @@
    ========================================================================== */
 
 import { GRACZE, gracz, imieW, poPolsku, krotkaData, SEZON } from './dane.js';
-import { graczMiesiaca, przydomkiGraczy, historiaMvp, mojePrzydomki, PRZYDOMKI, POZIOMY, godlo } from './tytuly.js';
+import { graczMiesiaca, przydomkiGraczy, przydomekGracza, historiaMvp, mojePrzydomki, PRZYDOMKI, POZIOMY, godlo } from './tytuly.js';
+import { wybory as wyboryPrzydomkow } from './baza.js';
+import { listaWyboru, podepnijWybor } from './wybor-przydomka.js';
 import { rekordySezonu } from './liczenie.js';
 import { naglowekZPomoca, dymek } from './pomoc.js';
 import { arkusz, bez, odmianaWygranych, odmianaMeczow } from './ui.js';
@@ -21,8 +23,8 @@ export function render(kontener, ctx) {
       <p class="podtytul">Jeden wieczór, jeden miesiąc, cały sezon</p>
     </div>
 
-    ${kartaBigBossa(aktualny, wToku)}
-    ${kartaDruzyna(ctx.wieczory)}
+    ${kartaBigBossa(aktualny, wToku, ctx.wieczory, ctx.wybory)}
+    ${kartaDruzyna(ctx.wieczory, ctx.wybory)}
     ${kartaMvp(mvpy)}
     ${kartaRekordy(rekordySezonu(ctx.wieczory), ctx.wieczory)}
     ${kartaHistorii(wszystkie)}
@@ -38,7 +40,7 @@ export function render(kontener, ctx) {
 
 /* ------------------------------------------------------- Gracz Miesiąca */
 
-function kartaBigBossa(aktualny, wToku) {
+function kartaBigBossa(aktualny, wToku, wieczory, wybory) {
   // Po jednym wtorku ktoś już prowadzi i od razu dostaje odznakę. Różnica jest
   // tylko w podpisie: zamknięty miesiąc = tytuł pewny, bieżący = „na żywo".
   const okres = aktualny ?? (wToku?.zwyciezca ? wToku : null);
@@ -49,7 +51,9 @@ function kartaBigBossa(aktualny, wToku) {
     </section>`;
   }
   const biezacy = !aktualny;
-  const p = okres.przydomek;
+  // Odznaka bossa pokazuje przydomek, który zwycięzca AKTUALNIE nosi (z jego
+  // wyborem), a nie sztywno auto-najlepszy: żeby zgadzało się z kartą drużyny.
+  const p = przydomekGracza(okres.zwyciezca.id, wieczory, wybory) ?? okres.przydomek;
   return `<section class="karta karta-boss">
     ${naglowekZPomoca('Gracz Miesiąca', 'bigboss', { dodatek: biezacy
       ? '<span class="plakietka-live">na żywo</span>' : '' })}
@@ -72,8 +76,8 @@ function kartaBigBossa(aktualny, wToku) {
 
 /* --------------------------------------------------------------- MVP */
 
-function kartaDruzyna(wieczory) {
-  const mapa = przydomkiGraczy(wieczory);
+function kartaDruzyna(wieczory, wybory) {
+  const mapa = przydomkiGraczy(wieczory, wybory);
   return `<section class="karta">
     ${naglowekZPomoca('Przydomki', 'przydomki')}
     <div class="druzyna">
@@ -89,8 +93,8 @@ function kartaDruzyna(wieczory) {
       }).join('')}
     </div>
     <p class="wskazowka">Na starcie nikt nie ma przydomka, trzeba sobie zasłużyć albo przechlapać.
-    Kto jest Graczem Miesiąca, tego godło świeci i dostaje koronę. Dotknij kafelka,
-    żeby zobaczyć wszystkie przydomki tej osoby.</p>
+    Kto jest Graczem Miesiąca, tego godło świeci i dostaje koronę. <b>Dotknij kafelka,
+    żeby zobaczyć wszystkie swoje przydomki i wybrać, który nosisz.</b></p>
   </section>`;
 }
 
@@ -204,31 +208,27 @@ function opisPrzydomka(id) {
       <p class="arkusz-poziom">${{ zloto: '🥇 Złoto', srebro: '🥈 Srebro', braz: '🥉 Brąz' }[p.poziom]}</p>
       <p class="arkusz-haslo">${bez(p.haslo)}</p>
       <p>${bez(p.opis)}</p>
-      <p class="pomoc-nota">Przydomki liczą się same, z Twoich wyników. Zawsze nosisz ten najlepszy,
-      na jaki się aktualnie łapiesz.</p>`,
+      <p class="pomoc-nota">Przydomki liczą się same, z Twoich wyników. Domyślnie nosisz najlepszy,
+      na jaki się łapiesz, ale jak masz kilka, możesz wybrać swój ulubiony na karcie gracza.</p>`,
   });
 }
 
 /* --------------------------------------------- karta jednego zawodnika */
 
-/** Wszystko, co dany gracz ma aktualnie trafione. Noszony jest jeden, ale
-    warunki bywają spełnione równolegle i to też warto widzieć. */
+/** Wszystko, co dany gracz ma aktualnie trafione, plus wybór noszonego.
+    Noszony jest jeden, ale warunki bywają spełnione równolegle i to też
+    warto widzieć, a przy dwóch i więcej gracz może sam wskazać, co nosi. */
 export function kartaGracza(id, wieczory) {
-  const { trafione, noszonyId } = mojePrzydomki(id, wieczory);
-  arkusz({
+  const { trafione, noszonyId, reczny } = mojePrzydomki(id, wieczory, wyboryPrzydomkow());
+  const a = arkusz({
     tytul: `${bez(gracz(id).imie)}: przydomki`,
     tresc: trafione.length ? `
-      <ul class="moje-przydomki">
-        ${trafione.map((p) => `<li class="${p.id === noszonyId ? 'noszony' : ''}">
-          ${godlo(p.id, { rozmiar: 46 })}
-          <span class="moje-tresc"><b>${bez(p.nazwa)}</b><em>${bez(p.opis)}</em></span>
-          ${p.id === noszonyId ? '<span class="moje-znacznik">nosisz</span>' : ''}
-        </li>`).join('')}
-      </ul>
-      <p class="pomoc-nota">Nosi się ten najwyższy: złoto bije srebro, srebro bije brąz.
-      Warunki liczą się z wszystkich meczów, debla i singla razem. Osobno patrzą tylko
-      „Mistrz Pedałowania” i „Samotny Wilk”, bo te dwa porównują oba tryby.</p>`
+      ${listaWyboru({ id, trafione, noszonyId, reczny })}
+      <p class="pomoc-nota">Trafionych może być kilka, ale nosi się jeden. Warunki liczą się
+      z wszystkich meczów, debla i singla razem. Osobno patrzą tylko „Mistrz Pedałowania”
+      i „Samotny Wilk”, bo te dwa porównują oba tryby.</p>`
       : `<p class="pusto">Nic jeszcze nie wpadło. Warunki liczą się z wszystkich meczów,
         debla i singla razem.</p>`,
   });
+  podepnijWybor(a.el, () => kartaGracza(id, wieczory));
 }

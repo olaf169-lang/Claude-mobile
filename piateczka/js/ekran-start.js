@@ -4,7 +4,7 @@
 
 import { GRACZE, gracz, SEZON, poPolsku, najblizszyWtorek, dzisiajIso, krotkaData } from './dane.js';
 import { klasyfikacja, wieczorRozegrany, mvpWieczoru, TRYBY } from './liczenie.js';
-import { graczMiesiaca, godlo } from './tytuly.js';
+import { graczMiesiaca, przydomekGracza, godlo } from './tytuly.js';
 import { naglowekZPomoca, dymek } from './pomoc.js';
 import { bez } from './ui.js';
 import { kolorGracza } from './wykresy.js';
@@ -48,7 +48,7 @@ export function render(kontener, ctx) {
     </section>
 
     ${kartaCzworki(tabela, ctx.ja)}
-    ${boss ? kartaBossa(boss, !aktualny) : ''}
+    ${boss ? kartaBossa(boss, !aktualny, przydomekGracza(boss.zwyciezca.id, ctx.wieczory, ctx.wybory)) : ''}
     ${mvp ? kartaMvp(ostatni, mvp) : ''}
 
     <nav class="kafelki">
@@ -106,12 +106,12 @@ function kartaCzworki(pelna, ja) {
   </section>`;
 }
 
-function kartaBossa(okres, biezacy) {
+function kartaBossa(okres, biezacy, noszony) {
   return `<section class="karta karta-boss-mini">
-    <div class="boss-godlo">${godlo(okres.przydomek?.id ?? null, { rozmiar: 58, reign: true })}</div>
+    <div class="boss-godlo">${godlo((noszony ?? okres.przydomek)?.id ?? null, { rozmiar: 58, reign: true })}</div>
     <div class="boss-opis">
       <span class="plakietka-etykieta">Gracz Miesiąca${biezacy ? ' · na żywo' : ''} ${dymek('bigboss')}</span>
-      <strong>${gracz(okres.zwyciezca.id).imie}${okres.przydomek ? ` „${bez(okres.przydomek.nazwa)}”` : ''}</strong>
+      <strong>${gracz(okres.zwyciezca.id).imie}${(noszony ?? okres.przydomek) ? ` „${bez((noszony ?? okres.przydomek).nazwa)}”` : ''}</strong>
       <span class="cichy">${biezacy ? 'prowadzi · ' : ''}${okres.nazwa} · ${okres.zwyciezca.meczeW} W</span>
     </div>
     <a class="naglowek-link" href="#/tytuly">więcej</a>

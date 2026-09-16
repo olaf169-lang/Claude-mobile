@@ -12,6 +12,8 @@ import { naglowekZPomoca, dymek } from './pomoc.js';
 import { arkusz, bez, odmianaMeczow } from './ui.js';
 import { iskra, kolorGracza } from './wykresy.js';
 import { mojePrzydomki, godlo } from './tytuly.js';
+import { wybory as wyboryPrzydomkow } from './baza.js';
+import { listaWyboru, podepnijWybor } from './wybor-przydomka.js';
 import { znaczekSerii, przelicz } from './elo.js';
 import { ZDARZENIA, statystykiSezonu, ileSedziowanych, skutecznosc } from './sedzia.js';
 
@@ -118,10 +120,10 @@ function szczegoly(id, tabela, wieczory, tryb) {
         <b class="${b.w > b.p ? 'plus' : b.w < b.p ? 'minus' : 'zero'}">${b.w}:${b.p}</b></li>`).join('')}</ul>`;
   };
 
-  const { trafione, noszonyId } = mojePrzydomki(id, wieczory);
+  const { trafione, noszonyId, reczny } = mojePrzydomki(id, wieczory, wyboryPrzydomkow());
   const p = trafione.find((x) => x.id === noszonyId) ?? null;
   const procentWygranych = r.mecze ? Math.round((r.meczeW / r.mecze) * 100) : 0;
-  arkusz({
+  const a = arkusz({
     tytul: `${bez(gracz(id).imie)}: szczegóły`,
     tresc: `
       <div class="szczegoly-przydomek">
@@ -129,14 +131,8 @@ function szczegoly(id, tabela, wieczory, tryb) {
         <b>${p ? bez(p.nazwa) : 'Bez przydomka'}</b>
         <em>${p ? bez(p.haslo) : 'Jeszcze nic nie wpadło, zagraj kilka meczów'}</em>
       </div>
-      ${trafione.length > 1 ? `<h4>Wszystkie trafione przydomki</h4>
-        <ul class="moje-przydomki">
-          ${trafione.map((x) => `<li class="${x.id === noszonyId ? 'noszony' : ''}">
-            ${godlo(x.id, { rozmiar: 40 })}
-            <span class="moje-tresc"><b>${bez(x.nazwa)}</b><em>${bez(x.opis)}</em></span>
-            ${x.id === noszonyId ? '<span class="moje-znacznik">nosisz</span>' : ''}
-          </li>`).join('')}
-        </ul>` : ''}
+      ${trafione.length > 1 ? `<h4>Twoje przydomki</h4>
+        ${listaWyboru({ id, trafione, noszonyId, reczny })}` : ''}
       <p class="pomoc-nota">Przydomki liczą się z wszystkich meczów, debla i singla razem.
       Oba tryby porównują tylko „Mistrz Pedałowania” i „Samotny Wilk”.</p>
       <div class="statystyki">
@@ -162,4 +158,5 @@ function szczegoly(id, tabela, wieczory, tryb) {
       ${lista(r.przeciwnicy, 'Brak rozegranych meczów.')}
       <p class="pomoc-nota">Na plus to Ty jesteś ich zmorą, na minus oni Twoją.</p>`,
   });
+  podepnijWybor(a.el, () => szczegoly(id, tabela, wieczory, tryb));
 }

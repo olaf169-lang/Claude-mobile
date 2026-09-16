@@ -702,6 +702,41 @@ main {
   border-radius: 999px;
 }
 
+/* Lista wybieralna: każdy wiersz to przycisk „noszę ten”. */
+.wybor-info { margin: 0 0 8px; font-size: 13px; color: var(--tekst-cichy); }
+.moje-wybor li { padding: 0; background: none; border: 0; }
+.moje-wybor li > button,
+.moje-przydomki li > .moje-statyczny {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  text-align: left;
+  padding: 8px 10px;
+  background: var(--plyta);
+  border: 1px solid transparent;
+  border-radius: var(--r-s);
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.moje-wybor li > button:hover { background: var(--plyta-pelna); }
+.moje-wybor li.noszony > button {
+  border-color: var(--zloto);
+  background: var(--plyta-pelna);
+}
+.moje-tag {
+  flex: none;
+  align-self: flex-start;
+  font: 700 10px/1 var(--naglowkowy);
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--tekst-ledwie);
+  background: var(--plyta-pelna);
+  padding: 4px 7px;
+  border-radius: 999px;
+}
+
 .mvp-data { color: var(--tekst-ledwie); font-size: 12px; flex: none; width: 54px; }
 .mvp-kto { font-weight: 600; flex: 1; }
 .mvp-saldo { font: 700 14px/1 var(--naglowkowy); }

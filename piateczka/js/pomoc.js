@@ -122,9 +122,10 @@ export const POMOC = {
       <p><b>Debel i singiel liczą się razem</b>, do jednej puli meczów. Oba tryby porównują tylko
       dwa przydomki: „Mistrz Pedałowania” (mocny w deblu, słaby w singlu) i „Samotny Wilk”
       (odwrotnie).</p>
-      <p class="pomoc-nota">Wszystkie swoje trafione przydomki zobaczysz po dotknięciu swojego
-      kafelka na ekranie „Tytuły” albo swojego wiersza w tabeli. Pełna lista z godłami
-      i warunkami też jest na ekranie „Tytuły”.</p>`,
+      <p><b>Masz kilka? Możesz wybrać, który nosisz.</b> Dotknij swojego kafelka na ekranie
+      „Tytuły” albo swojego wiersza w tabeli i wskaż przydomek. „Auto” wraca na najlepszy.
+      Wybór widzą wszyscy.</p>
+      <p class="pomoc-nota">Pełna lista z godłami i warunkami jest na ekranie „Tytuły”.</p>`,
     wiecej: '#/tytuly',
   },
 

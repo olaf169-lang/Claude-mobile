@@ -40,6 +40,7 @@ let stanLacza = 'laczenie';
 
 const kontekst = () => ({
   wieczory: daneWieczorow,
+  wybory: baza.wybory(),
   stan: stanLacza,
   ja: localStorage.getItem(KLUCZ_JA),
   odswiez: () => rysuj(),
