@@ -13,6 +13,7 @@ import { arkusz, bez, odmianaMeczow } from './ui.js';
 import { iskra, kolorGracza } from './wykresy.js';
 import { przydomekGracza, godlo } from './tytuly.js';
 import { znaczekSerii, przelicz } from './elo.js';
+import { ZDARZENIA, statystykiSezonu, ileSedziowanych, skutecznosc } from './sedzia.js';
 
 let zakres = 'sezon';
 let tryb = 'debel';
@@ -83,7 +84,7 @@ export function render(kontener, ctx) {
     el.addEventListener('click', () => { zakres = el.dataset.zakres; ctx.odswiez(); }));
 
   kontener.querySelectorAll('[data-gracz]').forEach((el) =>
-    el.addEventListener('click', () => szczegoly(el.dataset.gracz, tabela, ctx.wieczory)));
+    el.addEventListener('click', () => szczegoly(el.dataset.gracz, tabela, ctx.wieczory, tryb)));
 }
 
 function wiersz(r, ja, seria) {
@@ -103,9 +104,11 @@ function wiersz(r, ja, seria) {
   </li>`;
 }
 
-function szczegoly(id, tabela, wieczory) {
+function szczegoly(id, tabela, wieczory, tryb) {
   const r = tabela.find((x) => x.id === id);
   if (!r) return;
+  const zagr = statystykiSezonu(wieczory, { tryb }).get(id);
+  const sedziowanych = ileSedziowanych(wieczory, { tryb });
   const lista = (obj, pusty) => {
     const wpisy = Object.entries(obj).filter(([, b]) => b.w + b.p > 0);
     if (!wpisy.length) return `<p class="pomoc-nota">${pusty}</p>`;
@@ -116,7 +119,7 @@ function szczegoly(id, tabela, wieczory) {
   };
 
   const p = przydomekGracza(id, wieczory);
-  const skutecznosc = r.mecze ? Math.round((r.meczeW / r.mecze) * 100) : 0;
+  const procentWygranych = r.mecze ? Math.round((r.meczeW / r.mecze) * 100) : 0;
   arkusz({
     tytul: `${bez(gracz(id).imie)} — szczegóły`,
     tresc: `
@@ -128,11 +131,20 @@ function szczegoly(id, tabela, wieczory) {
       <div class="statystyki">
         <div><span>${r.meczeW}</span><em>wygranych</em></div>
         <div><span>${r.meczeP}</span><em>przegranych</em></div>
-        <div><span>${skutecznosc}%</span><em>skuteczność</em></div>
+        <div><span>${procentWygranych}%</span><em>skuteczność</em></div>
         <div><span>${r.setyW}:${r.setyP}</span><em>sety</em></div>
         <div><span>${r.zdobyte}</span><em>zdobyte pkt</em></div>
         <div><span>${r.najdluzszaSeria}</span><em>najdłuższa seria</em></div>
       </div>
+      ${zagr && zagr.razem ? `<h4>Zagrania ${dymek('sedzia')}</h4>
+        <ul class="lista-prosta lista-zagran-staty">
+          ${ZDARZENIA.map((z) => `<li><span>${z.ikona} ${z.nazwa}</span>
+            <b class="${zagr[z.id] ? (z.dobre ? 'plus' : 'minus') : 'zero'}">${zagr[z.id]}</b></li>`).join('')}
+          <li><span><b>Zagrania wygrywające</b></span>
+            <b class="plus">${skutecznosc(zagr).procent}%</b></li>
+        </ul>
+        <p class="pomoc-nota">Z ${sedziowanych} ${sedziowanych === 1 ? 'sędziowanego meczu' : 'sędziowanych meczów'}.
+        Nie liczy się do tabeli ani do 🏸ELO🏸.</p>` : ''}
       <h4>W parze z kim (bilans W:P)</h4>
       ${lista(r.partnerzy, 'W tym trybie nie było jeszcze partnerów — singiel gra się sam.')}
       <h4>Przeciw komu (bilans W:P)</h4>

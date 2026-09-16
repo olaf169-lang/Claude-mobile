@@ -13,6 +13,7 @@ import { GRACZE, gracz, imieW, czyGosc, FORMAT_DOMYSLNY, FORMATY_SZYBKIE,
   najblizszyWtorek, poPolsku, dzisiajIso, indeksTygodnia } from './dane.js';
 import { ukladMeczow, wynikMeczu, ilePolNaSety, formatMeczu, meczKompletny,
   rekordyWieczoru, mvpWieczoru, trybMeczu, TRYBY, mecze as meczeZ } from './liczenie.js';
+import { podsumowanieMeczu as sedziaPodsumowanie } from './sedzia.js';
 import { dymek, naglowekZPomoca } from './pomoc.js';
 import { bez, potwierdz, komunikat, zapytaj, arkusz, zamknijArkusz,
   odmianaMeczow } from './ui.js';
@@ -215,6 +216,9 @@ function kartaMeczu(mecz, wieczor, zamek) {
       <div class="mecz-prawa">
         <button class="btn-format" type="button" data-format-meczu="${mecz.nr}"
           ${zamek ? 'disabled' : ''} title="Format tego meczu">${krotkiFormat(format)}</button>
+        <button class="btn-sedzia" type="button" data-sedziuj="${mecz.nr}"
+          title="Tryb sędziego — zliczanie zagrań">🎙${sedziaPodsumowanie(mecz, wieczor)
+            ? `<i>${sedziaPodsumowanie(mecz, wieczor).ile}</i>` : ''}</button>
         ${zamek ? '' : `<button class="btn-ikona" type="button" data-usun-mecz="${mecz.nr}"
           aria-label="Usuń mecz ${mecz.nr}">🗑</button>`}
       </div>
@@ -383,6 +387,10 @@ function podepnij(kontener, ctx) {
       input.addEventListener('change', () => zapiszSet(wieczor, input));
     });
   }
+
+  kontener.querySelectorAll('[data-sedziuj]').forEach((el) => el.addEventListener('click', () => {
+    ctx.przejdzDoSedziego(wybranaData, el.dataset.sedziuj);
+  }));
 
   kontener.querySelectorAll('[data-format-meczu]').forEach((el) => el.addEventListener('click', async () => {
     const nr = el.dataset.formatMeczu;

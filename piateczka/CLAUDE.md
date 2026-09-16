@@ -125,6 +125,20 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
   w tabeli, i przeszły walidację kontrastu i daltonizmu. Nie podmieniaj
   ich bez ponownego sprawdzenia.
 
+- **Tryb sędziego liczy zagrania, ale NIC nie waży.** `mecz.zagrania` to lista
+  `{k, kto}` z sześcioma rodzajami (`ZDARZENIA` w `sedzia.js`). Świadomie poza
+  tabelą i poza ELO (decyzja użytkownika 2026-09-16): nie każdy mecz będzie
+  sędziowany, więc porównywanie tych liczb byłoby nieuczciwe.
+  **Sprawdzone na żywo:** pole siedzi WEWNĄTRZ `mecze.<nr>`, a reguły Firestore
+  ograniczają tylko klucze najwyższego poziomu — dopisanie go nie wymagało
+  wdrażania reguł od nowa. Jak dokładasz kolejne pola do meczu, masz tę samą
+  swobodę; pola na poziomie dokumentu wymagają już zmiany `hasOnly`.
+- **Parser transkrypcji nigdy nie zapisuje po cichu.** `parsujTranskrypcje`
+  zwraca `{ zdarzenia, nierozumiane }`, ekran pokazuje jedno i drugie, a zapis
+  idzie dopiero po zatwierdzeniu. Rozpoznawanie mowy (`SpeechRecognition`)
+  działa na Androidzie/Chrome; na iPhonie zostaje mikrofon z klawiatury i to
+  jest w apce napisane wprost. Pliku audio nie przerobi ani apka, ani model.
+
 ## Mapa modułów
 
 | plik | za co odpowiada |
@@ -133,6 +147,8 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
 | `js/liczenie.js` | rotacja par, tryby, klasyfikacja, MVP |
 | `js/elo.js` | rating osobno dla debla i singla, seria zwycięstw, szanse par |
 | `js/zamek.js` | kod administratora do zapisanych wieczorów |
+| `js/sedzia.js` | katalog zdarzeń, bilanse zagrań, parser polskiej transkrypcji |
+| `js/ekran-sedzia.js` | ekran sędziego: klikanie, dyktowanie, podgląd parsera |
 | `js/tytuly.js` | Gracz Miesiąca, przydomki (3 poziomy, per-gracz), godła SVG z gradientem |
 | `js/pomoc.js` | **wszystkie** teksty regulaminu |
 | `js/wykresy.js` | iskry w tabeli, wykres ELO, paleta serii |
