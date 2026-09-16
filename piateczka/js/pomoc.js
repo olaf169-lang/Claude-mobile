@@ -37,7 +37,7 @@ export const POMOC = {
   tryby: {
     kluczowe: true,
     tytul: 'Singiel i debel to dwie rozgrywki',
-    tresc: `<p>Osobna tabela, osobne statystyki, osobne 🏸ELO🏸.</p>
+    tresc: `<p>Osobna tabela, osobne statystyki, osobna Forma.</p>
       <p><b>Rodzaj wybierasz na starcie wieczoru</b>, na karcie „W co gracie?”. Appka układa wtedy trzy
       deble z pełną rotacją albo single każdy z każdym. Drugi rodzaj dorzucisz w każdej chwili
       przyciskiem „Dograj mecz”.</p>
@@ -50,7 +50,7 @@ export const POMOC = {
     tytul: 'Kto wygrał mecz',
     tresc: `<p>Najpierw <b>sety</b>. Przy remisie w setach rozstrzyga <b>suma punktów</b> z całego meczu:
       15:5, 13:15 to 28:20, czyli wygrana mimo 1:1 w setach.</p>
-      <p>Ta definicja obowiązuje w tabeli, przy MVP i w 🏸ELO🏸.</p>`,
+      <p>Ta definicja obowiązuje w tabeli, przy MVP i w Formie.</p>`,
   },
 
   format: {
@@ -84,7 +84,7 @@ export const POMOC = {
     tytul: 'Dopisane osoby',
     tresc: `<p>Przycisk <b>„+ dopisz osobę”</b> dorzuca do wieczoru kogoś spoza czwórki, ilu chcecie,
       każdy ze swoim imieniem.</p>
-      <p>Grają normalnie i mają swój wynik dnia, ale <b>nie wchodzą do tabeli sezonu ani do 🏸ELO🏸</b>:
+      <p>Grają normalnie i mają swój wynik dnia, ale <b>nie wchodzą do tabeli sezonu ani do Formy</b>:
       ktoś, kto wpadł raz, nie ma się do czego porównać.</p>
       <p class="pomoc-nota">Dopisana osoba żyje tylko w tym jednym wieczorze.</p>`,
   },
@@ -92,7 +92,7 @@ export const POMOC = {
   towarzyski: {
     tytul: 'Wieczór towarzyski',
     tresc: `<p>Przełącznik „zapisz wyniki, ale nie licz ich do sezonu”. Wyniki zostają w historii,
-      ale nie ruszają tabeli, ELO ani tytułów.</p>`,
+      ale nie ruszają tabeli, Formy ani tytułów.</p>`,
   },
 
   /* ------------------------------------------------------------ tytuły */
@@ -138,14 +138,14 @@ export const POMOC = {
   /* -------------------------------------------------------------- ELO */
 
   elo: {
-    tytul: '🏸ELO🏸, czyli forma',
-    tresc: `<p>Tabela mówi, kto wygrał więcej. ELO mówi, <b>jak mocno grasz względem tego, z kim
+    tytul: 'Forma',
+    tresc: `<p>Tabela mówi, kto wygrał więcej. Forma mówi, <b>jak mocno grasz względem tego, z kim
       trafiłeś</b>. Każdy startuje z 1000, siła pary to średnia ratingów, a wygrani zabierają tyle,
       na ile wynik był niespodzianką.</p>
       <p><b>Punkty w setach nie mają znaczenia</b>, liczy się, kto wygrał. Wyjątek: urwany set.
       Wygrana 2:0 waży więcej niż 2:1, przegrana 1:2 mniej niż 0:2.</p>
       <p><b>Singiel i debel mają osobne ratingi.</b> Mecze z dopisanymi osobami są pomijane.</p>
-      <p class="pomoc-nota">ELO nie liczy się do tytułu i nie daje nikomu ułatwień.</p>`,
+      <p class="pomoc-nota">Forma nie liczy się do tytułu i nie daje nikomu ułatwień.</p>`,
   },
 
   seria: {
@@ -157,7 +157,7 @@ export const POMOC = {
 
   forma: {
     tytul: 'Forma zestawień',
-    tresc: `<p>Porównanie średnich ELO obu stron, czyli jak rozkładają się szanse w danym zestawieniu.</p>
+    tresc: `<p>Porównanie średniej Formy obu stron, czyli jak rozkładają się szanse w danym zestawieniu.</p>
       <p><b>Nikt nie dostaje punktów na start ani żadnego wyrównania.</b> Procenty są tylko informacją
       przed meczem.</p>`,
   },
@@ -192,7 +192,7 @@ export const POMOC = {
       błąd</b>. Wybierasz gracza, klikasz zdarzenie i gracz zostaje wybrany, więc serię akcji jednej
       osoby klikasz jednym palcem. Ostatnie zagranie cofa „↶”.</p>
       <p>Wchodzi się przyciskiem 🎙 przy nagłówku meczu. Liczba obok ikony mówi, ile zagrań już jest.</p>
-      <p class="pomoc-nota"><b>Te liczby nie wchodzą do tabeli ani do 🏸ELO🏸.</b> Nie każdy mecz będzie
+      <p class="pomoc-nota"><b>Te liczby nie wchodzą do tabeli ani do Formy.</b> Nie każdy mecz będzie
       sędziowany, więc porównywanie ich byłoby nieuczciwe. To ciekawostka, nie waluta.</p>`,
   },
 
@@ -213,7 +213,7 @@ export const POMOC = {
 
   wpisywanie: {
     tytul: 'Jak wpisać wynik',
-    tresc: `<p><b>Wieczór</b> → dzień gry → w co gracie → kto przyszedł. Appka ustawia mecze, Wy wpisujecie
+    tresc: `<p><b>Gra</b> → dzień gry → w co gracie → kto przyszedł. Appka ustawia mecze, Wy wpisujecie
       wyniki setów. Przelicza się na bieżąco, nic nie trzeba zatwierdzać w trakcie.</p>
       <p>Dodatkowy mecz w dowolnym momencie: <b>„Dograj mecz”</b>. Wybierasz, kto gra po której stronie
       i w jakim formacie.</p>
@@ -233,7 +233,7 @@ export const POMOC = {
   poprawianie: {
     tytul: 'Pomyłka przy wpisywaniu',
     tresc: `<p>W otwartym wieczorze: wpisz poprawną liczbę na miejsce błędnej. Przeliczy się wszystko,
-      tabela, ELO, przydomki.</p>
+      tabela, Forma, przydomki.</p>
       <p>Mecz kasuje 🗑 przy jego nagłówku, a cały wieczór przycisk na dole ekranu.</p>
       <p class="pomoc-nota">Po zapisaniu potrzebny jest kod, patrz „Zapisanie wieczoru”.</p>`,
   },
@@ -268,7 +268,7 @@ export const SEKCJE = [
     hasla: ['mvp', 'bigboss', 'przydomki', 'puchar'],
   },
   {
-    id: 'elo', nazwa: '🏸ELO🏸 i forma', godlo: '📈',
+    id: 'elo', nazwa: 'Forma', godlo: '📈',
     wstep: 'Ranking, który nie daje ani tytułu, ani żadnych ułatwień, tylko pokazuje formę.',
     hasla: ['elo', 'seria', 'forma'],
   },

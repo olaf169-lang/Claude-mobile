@@ -21,9 +21,9 @@ import * as sedzia from './ekran-sedzia.js';
 
 const EKRANY = {
   '':          { modul: start,     nazwa: 'Start' },
-  'wieczor':   { modul: wieczor,   nazwa: 'Wieczór' },
+  'wieczor':   { modul: wieczor,   nazwa: 'Gra' },
   'tabela':    { modul: tabela,    nazwa: 'Tabela' },
-  'elo':       { modul: elo,       nazwa: 'ELO' },
+  'elo':       { modul: elo,       nazwa: 'Forma' },
   'tytuly':    { modul: tytuly,    nazwa: 'Tytuły' },
   'kalendarz': { modul: kalendarz, nazwa: 'Kalendarz' },
   'zasady':    { modul: zasady,    nazwa: 'Zasady' },

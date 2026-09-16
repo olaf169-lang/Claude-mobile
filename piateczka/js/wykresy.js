@@ -83,7 +83,7 @@ export function linie({ serie, etykiety, szer = 340, wys = 190 }) {
   const punkty = serie.map((s) => s.wartosci.map((v, i) => `${x(i)},${y(v)}`).join(';')).join('|');
 
   return `<svg class="wykres" viewBox="0 0 ${szer} ${wys}" width="100%" role="img"
-    aria-label="Przebieg ELO w sezonie" data-punkty="${punkty}" data-lewo="${margines.lewo}" data-prawo="${szer - margines.prawo}">
+    aria-label="Przebieg formy w sezonie" data-punkty="${punkty}" data-lewo="${margines.lewo}" data-prawo="${szer - margines.prawo}">
     ${siatka}${podpisyX}${linie}
     <line class="krzyzyk" x1="0" y1="${margines.gora}" x2="0" y2="${margines.gora + h}"/>
   </svg>`;

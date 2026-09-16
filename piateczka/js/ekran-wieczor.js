@@ -44,7 +44,7 @@ export function render(kontener, ctx) {
 
   kontener.innerHTML = `
     <div class="ekran-naglowek">
-      <h1>Wieczór</h1>
+      <h1>Gra</h1>
       <p class="podtytul">${poPolsku(wybranaData)}${zamek ? ' · 🔒 zapisany' : ''}</p>
     </div>
     ${zamek ? pasekZamka() : ''}
@@ -339,7 +339,7 @@ function podepnij(kontener, ctx) {
   kontener.querySelector('#dopisz-osobe')?.addEventListener('click', async () => {
     const imie = await zapytaj({
       tytul: 'Kto jeszcze gra?',
-      opis: 'Osoba spoza czwórki gra normalnie i ma swój wynik wieczoru, ale nie wchodzi do tabeli sezonu ani do ELO.',
+      opis: 'Osoba spoza czwórki gra normalnie i ma swój wynik wieczoru, ale nie wchodzi do tabeli sezonu ani do formy.',
       etykieta: 'Imię', placeholder: 'np. Michał', ok: 'Dopisz',
     });
     if (!imie) return;
