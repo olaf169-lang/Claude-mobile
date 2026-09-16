@@ -91,6 +91,13 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
   Powód: wcześniej były na sztywno w `tytuly.js` i górny stop srebra
   (#EDF3FB) miał na białej karcie kontrast **1,12:1** — odznaka była
   niewidoczna. Jak ruszasz metale, przelicz kontrast (min. 3:1 na białym).
+- **Gradient godeł MUSI mieć `gradientUnits="userSpaceOnUse"`.** Domyślnie SVG
+  liczy gradient względem ramki KAŻDEGO kształtu z osobna, a ramka pojedynczej
+  pionowej albo poziomej kreski ma zerową szerokość lub wysokość — taki kształt
+  zostaje niepomalowany i po prostu znika. Siedziało to cicho w 13 ścieżkach
+  w 8 godłach (m.in. przednie skrzydło bolidu, nóżka pucharu, tułów ludka
+  z Formy Kwincioka, cały gwóźdź w „Masz Wbite"). Nie wracaj do domyślnych
+  jednostek; jak rysujesz prostą kreskę, sprawdź, że widać ją na zrzucie.
 - **Glify rysujemy bryłą + obrysem**, nie samym cienkim konturem: wypełnienie
   gradientem na 0,18–0,3 krycia plus stroke 2,6, a najważniejszy detal
   (iskra, żar, oko) solidny. Sam kontur przy 56 px znikał.

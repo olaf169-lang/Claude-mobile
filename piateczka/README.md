@@ -143,22 +143,22 @@ do sezonu.
 
   | poziom | przydomek | za co |
   |---|---|---|
-  | 🥉 | Płakał | z ostatnich 6 meczów ≥ 2 przegrane dopiero w trzecim secie |
-  | 🥉 | Spalona Gierka | trzy przegrane w jeden wieczór |
+  | 🥉 | Płakał | z ostatnich 6 meczów ≥ 2 przegrane dopiero w 3. secie |
+  | 🥉 | Spalona Gierka | 3 przegrane w jeden wieczór |
   | 🥉 | Pierd w Cwelsalce | przegrany set przy własnym wyniku ≤ 4 |
-  | 🥉 | Klątwa Kamisha | pięć przegranych meczów z rzędu |
+  | 🥉 | Klątwa Kamisha | 5 przegranych meczów z rzędu |
   | 🥉 | Majkel Schmeichel | z ostatnich 7 meczów wygrane najwyżej 2 |
-  | 🥉 | Mistrz Pedałowania | dobry bilans w deblu (≥60%), słaby w singlu (≤35%) |
-  | 🥈 | Młot | najwięcej zdobytych punktów |
-  | 🥈 | Mur | najmniej straconych punktów |
-  | 🥈 | Robin | drugie miejsce w tabeli |
+  | 🥉 | Mistrz Pedałowania | ≥ 60% wygranych w deblu i ≤ 35% w singlu |
+  | 🥈 | Masz Wbite | najwięcej punktów zdobytych w ostatnich 5 meczach |
+  | 🥈 | Bezrobocie | najmniej straconych punktów |
+  | 🥈 | Robin | 2. miejsce w tabeli |
   | 🥈 | Hounter | wygrany mecz z liderem tabeli |
-  | 🥈 | Gladiator | ≥ 2 sety wygrane po dogrywce |
-  | 🥈 | Mistrz Podwórka | pierwsze miejsce w tabeli singla |
-  | 🥇 | Mmmpuuu! | pięć wygranych meczów z rzędu (seria bieżąca) |
-  | 🥇 | Piąteczkowy Szał | komplet zwycięstw w jednym wieczorze (min. 3 mecze) |
+  | 🥈 | Psim Swędem | ≥ 2 sety wygrane po dogrywce |
+  | 🥈 | Mistrz Podwórka | 1. miejsce w tabeli singla |
+  | 🥇 | Mmmpuuu! | 5 wygranych meczów z rzędu (seria bieżąca) |
+  | 🥇 | Na Fali | komplet zwycięstw w jednym wieczorze (min. 3 mecze) |
   | 🥇 | Forma Kwincioka | ≥ 75% wygranych w bieżącym miesiącu, przy min. 4 meczach |
-  | 🥇 | Nietykalny | 4 sety z ostatnich 5 meczów wygrane tak, że rywal utknął na ≤ 8 pkt |
+  | 🥇 | Sanjay Kapoor | 4 sety z ostatnich 5 meczów, w których rywal nie doszedł do 9 pkt |
 
   Brąz to poziom pocieszny (za pech i słabszą passę), srebro solidny, złoto to wyczyn.
 
