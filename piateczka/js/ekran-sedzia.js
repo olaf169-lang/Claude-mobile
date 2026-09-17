@@ -42,12 +42,42 @@ export function render(kontener, ctx) {
   const mecz = wieczor?.mecze?.[cel?.nr] ?? null;
 
   if (!mecz) {
+    // Wejście z kafelka na Starcie: nie ma jeszcze wybranego meczu. Zamiast
+    // ślepej uliczki pokazujemy mecze z ostatniego wieczoru do wyboru.
+    const ostatni = [...ctx.wieczory]
+      .filter((w) => meczeZ(w).length > 0)
+      .sort((a, b) => b.data.localeCompare(a.data))[0] ?? null;
+    const doWyboru = ostatni ? meczeZ(ostatni) : [];
+
     kontener.innerHTML = `
-      <div class="ekran-naglowek"><h1>Sędzia</h1></div>
-      <section class="karta">
-        <p class="pusto">Nie widzę tego meczu. Wejdź na ekran <a href="#/wieczor">Wieczór</a>
-        i wybierz mecz przyciskiem „Sędziuj”.</p>
-      </section>`;
+      <div class="ekran-naglowek">
+        <h1>Sędzia</h1>
+        <p class="podtytul">Zliczanie zagrań w jednym meczu</p>
+      </div>
+      ${doWyboru.length ? `<section class="karta">
+        ${naglowekZPomoca('Który mecz sędziujesz?', 'sedzia')}
+        <p class="wskazowka">Mecze z ${poPolsku(ostatni.data)}. Dotknij, żeby zacząć liczyć.</p>
+        <div class="wybor-meczu">
+          ${doWyboru.map((m) => {
+            const ile = zagrania(m).length;
+            return `<button type="button" data-mecz="${bez(m.nr)}">
+              <span class="wybor-mecz-nr">${bez(m.nr)}</span>
+              <span class="wybor-mecz-kto">${m.a.map((i) => bez(imieW(ostatni, i))).join(' + ')}
+                <em>vs</em> ${m.b.map((i) => bez(imieW(ostatni, i))).join(' + ')}</span>
+              <span class="wybor-mecz-ile">${ile ? `${ile} zagrań` : ''}</span>
+            </button>`;
+          }).join('')}
+        </div>
+      </section>` : `<section class="karta">
+        <p class="pusto">Nie ma jeszcze żadnego meczu do sędziowania. Ustaw mecze na ekranie
+        <a href="#/wieczor">Gra</a> i wróć tutaj.</p>
+      </section>`}`;
+
+    kontener.querySelectorAll('[data-mecz]').forEach((b) =>
+      b.addEventListener('click', () => {
+        ustawMecz(ostatni.data, b.dataset.mecz);
+        ctx.odswiez();
+      }));
     return;
   }
 
