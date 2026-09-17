@@ -882,6 +882,20 @@ main {
 .kafel em { font-style: normal; font-size: 11.5px; color: var(--tekst-ledwie); }
 .kafelki .kafel:last-child:nth-child(odd) { grid-column: 1 / -1; }
 
+/* Sędziowanie na żywo: gdy słucha, karta ma czerwone obramowanie i pulsuje,
+   żeby było widać z odległości ręki, że mikrofon jest otwarty. */
+.nazywo-rzad { display: flex; align-items: center; gap: 12px; }
+.nazywo-opis { flex: 1; display: grid; gap: 2px; }
+.nazywo-opis b { font-size: 15px; }
+.nazywo-opis em { font-style: normal; font-size: 12.5px; color: var(--tekst-cichy); line-height: 1.35; }
+.nazywo-rzad .btn { flex: none; }
+.karta-nazywo.sluchamy { border-color: var(--czerwien); }
+.karta-nazywo.sluchamy .nazywo-opis b { color: var(--czerwien); animation: puls-mikrofon 1.6s ease-in-out infinite; }
+@keyframes puls-mikrofon { 0%, 100% { opacity: 1; } 50% { opacity: .45; } }
+@media (prefers-reduced-motion: reduce) {
+  .karta-nazywo.sluchamy .nazywo-opis b { animation: none; }
+}
+
 /* Podsumowanie sezonu: dwa kafle mistrzów obok siebie. */
 .mistrzowie { display: grid; grid-template-columns: repeat(2, 1fr); gap: 9px; margin-bottom: 4px; }
 .mistrz-kafel {

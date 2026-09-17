@@ -24,8 +24,11 @@ let cel = null;             // { data, nr }, czyli który mecz sędziujemy
 let wybrany = null;         // podświetlony gracz
 let szkicTekstu = '';       // treść pola transkrypcji, przeżywa przerysowania
 let podglad = null;         // wynik parsowania czekający na zatwierdzenie
-let sluchanie = false;      // czy trwa dyktowanie
+let sluchanie = false;      // czy trwa dyktowanie do pola
 let rozpoznawacz = null;
+let naZywo = false;         // tryb ciągły: zagrania lecą do bazy od razu
+let blokadaEkranu = null;   // WakeLock, żeby telefon nie gasł w trakcie meczu
+let ostatniNasluch = 0;     // do wykrycia, że silnik zamyka się w kółko
 
 export function ustawMecz(data, nr) {
   cel = { data, nr: String(nr) };
@@ -107,14 +110,33 @@ export function render(kontener, ctx) {
     ${zamek ? `<div class="pasek-zamka">
       <span class="pasek-zamka-ikona" aria-hidden="true">🔒</span>
       <div><b>Wieczór zapisany</b><span>Zagrań już nie dopiszesz, najpierw odblokuj wieczór kodem.</span></div>
-    </div>` : klikanie(wieczor, strony) + tekstowanie(wieczor)}
+    </div>` : kartaNaZywo() + klikanie(wieczor, strony) + tekstowanie(wieczor)}
 
     ${kartaBilansu(wieczor, strony, bil)}
     ${kartaHistorii(wieczor, lista, zamek)}
 
-    <a class="btn btn-obrys szeroki" href="#/wieczor">← Wróć do wieczoru</a>`;
+    <a class="btn btn-obrys szeroki" href="#/wieczor">← Wróć do gry</a>`;
 
   podepnij(kontener, ctx, wieczor, mecz, strony);
+}
+
+/* Sędziowanie głosem przez cały set: jedno wielkie wejście, żeby dało się
+   je trafić bez patrzenia w telefon. */
+function kartaNaZywo() {
+  if (!mowaDostepna()) return '';
+  return `<section class="karta karta-nazywo ${naZywo ? 'sluchamy' : ''}">
+    <div class="nazywo-rzad">
+      <div class="nazywo-opis">
+        <b>${naZywo ? '🔴 Słucham' : 'Sędziuj głosem'}</b>
+        <em>${naZywo
+          ? 'Mów, co się dzieje. Zagrania lecą od razu, ekran nie zgaśnie.'
+          : 'Mikrofon stoi otwarty przez cały set, a zagrania wpadają od razu.'}</em>
+      </div>
+      <button class="btn ${naZywo ? 'btn-groza' : 'btn-glowny'}" type="button" id="na-zywo">
+        ${naZywo ? '⏹ Koniec' : '🎙 Start'}</button>
+    </div>
+    ${naZywo ? '<p class="wskazowka">Pomyłkę kasujesz przyciskiem „↶ Cofnij” niżej albo ✕ przy wpisie.</p>' : ''}
+  </section>`;
 }
 
 /* ------------------------------------------------------ klikanie na żywo */
@@ -303,6 +325,9 @@ function podepnij(kontener, ctx, wieczor, mecz, strony) {
   });
 
   kontener.querySelector('#dyktuj')?.addEventListener('click', () => przelaczDyktowanie(ctx, pole));
+
+  kontener.querySelector('#na-zywo')?.addEventListener('click', () =>
+    przelaczNaZywo(ctx, wieczor, mecz, strony));
 }
 
 /* Rozpoznawanie mowy przeglądarki. Na Androidzie/Chrome działa, na iPhonie
@@ -339,6 +364,119 @@ function przelaczDyktowanie(ctx, pole) {
   } catch {
     komunikat('Nie udało się włączyć mikrofonu', 'blad');
   }
+}
+
+/* ---------------------------------------------------- sędziowanie na żywo */
+
+/* Tryb ciągły: mikrofon stoi otwarty przez cały set, a rozpoznane zagrania
+   lecą do bazy OD RAZU. Świadomie bez zatwierdzania, bo przy ciągłym słuchaniu
+   nikt nie będzie klikał po każdej akcji. Pomyłkę kasuje się „↶ Cofnij” albo
+   ✕ przy konkretnym wpisie, czyli tym samym, co przy klikaniu ręcznym.
+
+   Silnik przeglądarki i tak sam się urywa (po ciszy albo po kilkudziesięciu
+   sekundach), więc w `onend` startujemy go od nowa, dopóki nie wyłączysz
+   trybu. Z zewnątrz wygląda to jak jedno długie nasłuchiwanie. */
+async function wlaczBlokadeEkranu() {
+  try {
+    if ('wakeLock' in navigator) blokadaEkranu = await navigator.wakeLock.request('screen');
+  } catch { blokadaEkranu = null; }   // odmowa nie może psuć sędziowania
+}
+
+function zwolnijBlokadeEkranu() {
+  try { blokadaEkranu?.release?.(); } catch { /* i tak już zwolniona */ }
+  blokadaEkranu = null;
+}
+
+/* Przeglądarka zwalnia WakeLock, gdy karta schodzi w tło (np. przyjdzie
+   powiadomienie). Po powrocie bierzemy go z powrotem. */
+function pilnujBlokady() {
+  document.addEventListener('visibilitychange', () => {
+    if (naZywo && document.visibilityState === 'visible' && !blokadaEkranu) wlaczBlokadeEkranu();
+  });
+}
+pilnujBlokady();
+
+async function przelaczNaZywo(ctx, wieczor, mecz, strony) {
+  if (naZywo) {
+    naZywo = false;
+    try { rozpoznawacz?.stop(); } catch { /* już stoi */ }
+    rozpoznawacz = null;
+    zwolnijBlokadeEkranu();
+    komunikat('⏹ Koniec sędziowania na żywo');
+    ctx.odswiez();
+    return;
+  }
+
+  const Silnik = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!Silnik) { komunikat('Ta przeglądarka nie ma rozpoznawania mowy', 'blad'); return; }
+
+  rozpoznawacz = new Silnik();
+  rozpoznawacz.lang = 'pl-PL';
+  rozpoznawacz.continuous = true;
+  rozpoznawacz.interimResults = false;
+
+  rozpoznawacz.onresult = async (e) => {
+    let tekst = '';
+    for (let i = e.resultIndex; i < e.results.length; i += 1) {
+      if (e.results[i].isFinal) tekst += `${e.results[i][0].transcript.trim()}. `;
+    }
+    if (!tekst.trim()) return;
+    await dopiszZMowy(ctx, wieczor, mecz, strony, tekst);
+  };
+
+  rozpoznawacz.onerror = (e) => {
+    // „no-speech” i „aborted” to normalna cisza między akcjami, nie awaria.
+    if (e?.error === 'not-allowed' || e?.error === 'service-not-allowed') {
+      naZywo = false;
+      zwolnijBlokadeEkranu();
+      komunikat('Brak zgody na mikrofon', 'blad');
+      ctx.odswiez();
+    }
+  };
+
+  rozpoznawacz.onend = () => {
+    if (!naZywo) return;
+    const teraz = Date.now();
+    // Gdyby silnik zaczął się zamykać natychmiast po starcie, nie kręcimy
+    // pętli w nieskończoność, tylko odpuszczamy i mówimy o tym wprost.
+    if (teraz - ostatniNasluch < 400) {
+      naZywo = false;
+      zwolnijBlokadeEkranu();
+      komunikat('Mikrofon się rozłącza, spróbuj jeszcze raz', 'blad');
+      ctx.odswiez();
+      return;
+    }
+    ostatniNasluch = teraz;
+    try { rozpoznawacz.start(); } catch { /* start w locie bywa odrzucony */ }
+  };
+
+  try {
+    rozpoznawacz.start();
+    ostatniNasluch = Date.now();
+    naZywo = true;
+    await wlaczBlokadeEkranu();
+    komunikat('🔴 Słucham. Mów, co się dzieje');
+    ctx.odswiez();
+  } catch {
+    komunikat('Nie udało się włączyć mikrofonu', 'blad');
+  }
+}
+
+/** Rozpoznany kawałek mowy prosto do bazy. Zwraca liczbę dopisanych zagrań. */
+async function dopiszZMowy(ctx, wieczor, mecz, strony, tekst) {
+  const { zdarzenia, nierozumiane } = parsujTranskrypcje(tekst, {
+    sklad: strony, wieczor, ja: ctx.ja,
+  });
+  const dobre = zdarzenia.filter((z) => strony.includes(z.kto));
+  if (dobre.length) {
+    const swiezy = ctx.wieczory.find((w) => w.data === cel.data)?.mecze?.[cel.nr] ?? mecz;
+    await zapisz(wieczor, swiezy,
+      [...zagrania(swiezy), ...dobre.map((z) => ({ k: z.k, kto: z.kto }))]);
+    komunikat(dobre.map((z) => `${zdarzenie(z.k).ikona} ${imieW(wieczor, z.kto)}`).join(', '));
+  } else if (nierozumiane.length) {
+    komunikat(`Nie załapałem: „${nierozumiane[0].tekst}”`);
+  }
+  return dobre.length;
 }
 
 export { meczeZ };
