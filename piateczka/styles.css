@@ -882,6 +882,31 @@ main {
 .kafel em { font-style: normal; font-size: 11.5px; color: var(--tekst-ledwie); }
 .kafelki .kafel:last-child:nth-child(odd) { grid-column: 1 / -1; }
 
+/* Ile meczów gracie: licznik z dużą liczbą pośrodku. */
+.ile-stepper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin: 6px 0 10px;
+}
+.ile-krok {
+  width: 46px;
+  height: 46px;
+  flex: none;
+  border-radius: 50%;
+  border: 1px solid var(--kreska);
+  background: var(--plyta);
+  color: inherit;
+  font: 700 22px/1 var(--naglowkowy);
+  cursor: pointer;
+}
+.ile-krok:disabled { opacity: .35; cursor: default; }
+.ile-liczba { display: grid; justify-items: center; min-width: 88px; }
+.ile-liczba span { font: 700 34px/1 var(--naglowkowy); color: var(--zloto); }
+.ile-liczba em { font-style: normal; font-size: 12px; color: var(--tekst-ledwie); }
+.sklad-ok { color: var(--zielen); font-weight: 600; }
+
 /* Wybór meczu do sędziowania, gdy wchodzi się z kafelka na Starcie. */
 .wybor-meczu { display: grid; gap: 6px; }
 .wybor-meczu button {

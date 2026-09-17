@@ -11,7 +11,7 @@
 import { GRACZE, gracz, imieW, czyGosc, FORMAT_DOMYSLNY, FORMATY_SZYBKIE,
   normalizujFormat, opisFormatu, krotkiFormat,
   najblizszyWtorek, poPolsku, dzisiajIso, indeksTygodnia } from './dane.js';
-import { ukladMeczow, wynikMeczu, ilePolNaSety, formatMeczu, meczKompletny,
+import { ukladMeczow, dlugoscCyklu, wynikMeczu, ilePolNaSety, formatMeczu, meczKompletny,
   rekordyWieczoru, mvpWieczoru, trybMeczu, TRYBY, mecze as meczeZ } from './liczenie.js';
 import { podsumowanieMeczu as sedziaPodsumowanie } from './sedzia.js';
 import { dymek, naglowekZPomoca } from './pomoc.js';
@@ -26,8 +26,16 @@ let szkicSkladu = null;      // skład wybierany, zanim wieczór powstanie w baz
 let szkicFormatu = null;     // format wybrany przed utworzeniem wieczoru
 let szkicGosci = {};         // dopisane osoby przed utworzeniem wieczoru
 let szkicTrybu = 'debel';    // deble czy single, wybierane PRZED ustawieniem meczów
+let szkicZatwierdzony = false;  // czy skład jest zatwierdzony (wtedy pytamy o liczbę meczów)
+let szkicIle = null;            // ile meczów gracie, null = jeszcze nie wybrano
 
-export function ustawDate(data) { wybranaData = data; szkicSkladu = null; szkicGosci = {}; }
+export function ustawDate(data) {
+  wybranaData = data;
+  szkicSkladu = null;
+  szkicGosci = {};
+  szkicZatwierdzony = false;
+  szkicIle = null;
+}
 
 function domyslnaData(wieczory) {
   const dzis = dzisiajIso();
@@ -135,32 +143,55 @@ function kartaSkladu() {
           data-przelacz="${id}" aria-pressed="${wybrani.includes(id)}">${bez(imieW(udawany, id))}</button>`).join('')}
       <button class="chip chip-dopisz" type="button" id="dopisz-osobe">+ dopisz osobę ${dymek('gosc')}</button>
     </div>
-    <button class="btn btn-glowny szeroki" type="button" id="ustaw-mecze"
-      ${wybrani.length < 2 ? 'disabled' : ''}>${etykietaUstaw(wybrani.length)}</button>
+    ${szkicZatwierdzony
+      ? `<p class="wskazowka sklad-ok">✓ Skład zatwierdzony. Dotknij osoby, żeby go zmienić.</p>`
+      : `<button class="btn btn-glowny szeroki" type="button" id="zatwierdz-sklad"
+          ${wybrani.length < 2 ? 'disabled' : ''}>Zatwierdź skład</button>`}
+  </section>` + (szkicZatwierdzony ? kartaIle(wybrani.length) : '');
+}
+
+/* Ile meczów gracie. Pełna rotacja to tylko podpowiedź: można zagrać mniej
+   albo więcej, bo kolejność par i tak zostaje ta sama (wzór się zapętla). */
+function kartaIle(ilu) {
+  const cykl = ileMeczow(ilu, szkicTrybu);
+  const n = szkicIle ?? cykl;
+  return `<section class="karta karta-ile">
+    <h2 class="karta-tytul">Ile meczów gracie?</h2>
+    <div class="ile-stepper">
+      <button class="ile-krok" type="button" data-ile-krok="-1" aria-label="Mniej meczów"
+        ${n <= 1 ? 'disabled' : ''}>−</button>
+      <div class="ile-liczba"><span>${n}</span><em>${odmianaMeczow(n)}</em></div>
+      <button class="ile-krok" type="button" data-ile-krok="1" aria-label="Więcej meczów"
+        ${n >= 30 ? 'disabled' : ''}>+</button>
+    </div>
+    <p class="wskazowka">${opisIlosci(n, cykl, ilu)}</p>
+    <button class="btn btn-glowny szeroki" type="button" id="ustaw-mecze">Ustaw ${n} ${odmianaMeczow(n)}</button>
   </section>`;
 }
 
-function etykietaUstaw(ilu) {
-  if (ilu < 2) return 'Ustaw mecze';
-  const n = ileMeczow(ilu, szkicTrybu);
-  return `Ustaw ${n} ${odmianaMeczow(n)}`;
+function opisIlosci(n, cykl, ilu) {
+  if (cykl <= 1) return `Dwóch grających, więc gracie ze sobą ${n} ${odmianaMeczow(n)} pod rząd.`;
+  if (n === cykl) return `Pełna rotacja: ${cykl} ${odmianaMeczow(cykl)}, każdy zagra z każdym.`;
+  if (n < cykl) return `Pełna rotacja to ${cykl} ${odmianaMeczow(cykl)}, gracie krócej. Kolejność par zostaje ta sama.`;
+  return `Pełna rotacja to ${cykl} ${odmianaMeczow(cykl)}, więc po niej kolejność zapętla się od początku.`;
 }
 
 function ileMeczow(ilu, tryb) {
-  return ukladMeczow(Array.from({ length: ilu }, (_, i) => i), 0, FORMAT_DOMYSLNY, tryb).length;
+  return dlugoscCyklu(ilu, tryb);
 }
 
 function opisUkladu(ilu, tryb) {
   if (ilu < 2) return 'Zaznacz przynajmniej dwie osoby.';
   const n = ileMeczow(ilu, tryb);
+  const dopisek = ' Ile meczów zagracie, ustawicie po zatwierdzeniu składu.';
   if (tryb === 'debel' && ilu >= 4) {
-    return `${ilu} grających → ${n} deble, pełna rotacja: każdy zagra w parze z każdym i dwa razy przeciw.`;
+    return `${ilu} grających, pełna rotacja to ${n} ${odmianaMeczow(n)}: każdy w parze z każdym i dwa razy przeciw.${dopisek}`;
   }
   if (tryb === 'debel') {
-    return `Na debla trzeba czterech, więc przy ${ilu} appka ułoży ${n} single, każdy z każdym.`;
+    return `Na debla trzeba czterech, więc przy ${ilu} appka ułoży single.${dopisek}`;
   }
-  if (ilu === 2) return 'Dwóch grających → jeden singiel. Kolejne dorzucisz przyciskiem na dole.';
-  return `${ilu} grających → ${n} singli, każdy z każdym. W każdej rundzie gracie po jednym meczu.`;
+  if (ilu === 2) return `Dwóch grających, czyli single między sobą.${dopisek}`;
+  return `${ilu} grających, każdy z każdym to ${n} ${odmianaMeczow(n)}.${dopisek}`;
 }
 
 /* -------------------------------------------------------------- mecze */
@@ -324,6 +355,9 @@ function podepnij(kontener, ctx) {
 
   kontener.querySelectorAll('[data-rodzaj]').forEach((el) => el.addEventListener('click', () => {
     szkicTrybu = el.dataset.rodzaj;
+    // Inny rodzaj to inna długość rotacji, więc liczbę meczów ustala się od nowa.
+    szkicZatwierdzony = false;
+    szkicIle = null;
     ctx.odswiez();
   }));
 
@@ -333,6 +367,8 @@ function podepnij(kontener, ctx) {
     szkicSkladu = teraz.includes(id) ? teraz.filter((x) => x !== id) : [...teraz, id];
     // Dopisane osoby zawsze na końcu, to pilnuje kolejności w rotacji par.
     szkicSkladu.sort((a, b) => (czyGosc(a) ? 1 : 0) - (czyGosc(b) ? 1 : 0));
+    szkicZatwierdzony = false;
+    szkicIle = null;
     ctx.odswiez();
   }));
 
@@ -350,12 +386,26 @@ function podepnij(kontener, ctx) {
     ctx.odswiez();
   });
 
+  kontener.querySelector('#zatwierdz-sklad')?.addEventListener('click', () => {
+    szkicZatwierdzony = true;
+    szkicIle = null;          // null = podpowiedź, czyli pełna rotacja
+    ctx.odswiez();
+  });
+
+  kontener.querySelectorAll('[data-ile-krok]').forEach((el) => el.addEventListener('click', () => {
+    const wybrani = szkicSkladu ?? GRACZE.map((g) => g.id);
+    const teraz = szkicIle ?? ileMeczow(wybrani.length, szkicTrybu);
+    szkicIle = Math.min(30, Math.max(1, teraz + Number(el.dataset.ileKrok)));
+    ctx.odswiez();
+  }));
+
   kontener.querySelector('#ustaw-mecze')?.addEventListener('click', async () => {
     const sklad = szkicSkladu ?? GRACZE.map((g) => g.id);
     const format = normalizujFormat(szkicFormatu ?? FORMAT_DOMYSLNY);
     // Kolejność meczów rotuje co tydzień: 0→1→2→0…, więc sąsiednie wtorki się różnią.
     const przesuniecie = ((indeksTygodnia(wybranaData) % 3) + 3) % 3;
-    const lista = ukladMeczow(sklad, przesuniecie, format, szkicTrybu);
+    const lista = ukladMeczow(sklad, przesuniecie, format, szkicTrybu,
+      szkicIle ?? ileMeczow(sklad.length, szkicTrybu));
     const mecze = Object.fromEntries(lista.map((m) => [m.nr, m]));
     await baza.zapiszWieczor(wybranaData, {
       sklad, mecze, towarzyski: false, zamkniety: false,
@@ -363,6 +413,8 @@ function podepnij(kontener, ctx) {
     });
     szkicSkladu = null;
     szkicGosci = {};
+    szkicZatwierdzony = false;
+    szkicIle = null;
     komunikat('Mecze ustawione, wpisujcie wyniki');
   });
 

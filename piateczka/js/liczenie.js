@@ -70,17 +70,28 @@ function paryKazdyZKazdym(n) {
     single; przy mniej niż czterech chętnych debel i tak schodzi na singla,
     bo nie ma z kogo złożyć par. `przesuniecie` obraca kolejność, żeby nie
     zawsze te same osoby otwierały grę. */
-export function ukladMeczow(sklad, przesuniecie = 0, format = FORMAT_DOMYSLNY, tryb = 'debel') {
+export function ukladMeczow(sklad, przesuniecie = 0, format = FORMAT_DOMYSLNY, tryb = 'debel', ile = null) {
   const n = sklad.length;
   if (n < 2) return [];
   const wzor = (tryb === 'singiel' || n < 4) ? paryKazdyZKazdym(n) : ROTACJA_4;
 
+  // `ile` pozwala zagrać dowolną liczbę meczów, nie tylko pełną rotację.
+  // Kolejność par zostaje ta sama, wzór po prostu zapętla się od początku,
+  // więc przy 5 meczach i rotacji trójkowej wychodzi 1-2-3-1-2.
+  const ilosc = Math.max(1, Math.round(ile ?? wzor.length));
   const f = normalizujFormat(format);
   const obrot = ((przesuniecie % wzor.length) + wzor.length) % wzor.length;
-  return wzor.map((_, i) => {
+  return Array.from({ length: ilosc }, (_, i) => {
     const [a, b] = wzor[(i + obrot) % wzor.length];
     return { nr: i + 1, a: a.map((k) => sklad[k]), b: b.map((k) => sklad[k]), sety: [], format: f };
   });
+}
+
+/** Ile meczów ma pełna rotacja przy tylu grających. To tylko podpowiedź dla
+    ekranu: zagrać można dowolną liczbę, patrz `ile` w `ukladMeczow`. */
+export function dlugoscCyklu(ilu, tryb = 'debel') {
+  if (ilu < 2) return 0;
+  return ((tryb === 'singiel' || ilu < 4) ? paryKazdyZKazdym(ilu) : ROTACJA_4).length;
 }
 
 /** Format konkretnego meczu: własny, a jak go nie ma, to domyślny wieczoru. */
