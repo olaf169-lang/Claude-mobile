@@ -16,6 +16,7 @@ const KAFELKI = [
   { href: '#/tytuly',    ikona: '🏆', nazwa: 'Tytuły',    opis: 'MVP, Gracz Miesiąca, Puchar' },
   { href: '#/kalendarz', ikona: '📅', nazwa: 'Kalendarz', opis: 'Terminy i wyniki' },
   { href: '#/zasady',    ikona: '📖', nazwa: 'Zasady',    opis: 'Jak to działa' },
+  { href: '#/sedzia',    ikona: '🎙', nazwa: 'Sędzia',    opis: 'Zliczaj zagrania w meczu' },
 ];
 
 /* Który rodzaj gry pokazuje skrót tabeli na Starcie. Przełącznik jest tu

@@ -882,6 +882,38 @@ main {
 .kafel em { font-style: normal; font-size: 11.5px; color: var(--tekst-ledwie); }
 .kafelki .kafel:last-child:nth-child(odd) { grid-column: 1 / -1; }
 
+/* Wybór meczu do sędziowania, gdy wchodzi się z kafelka na Starcie. */
+.wybor-meczu { display: grid; gap: 6px; }
+.wybor-meczu button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  background: var(--plyta);
+  border: 1px solid transparent;
+  border-radius: var(--r-s);
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.wybor-meczu button:hover { background: var(--plyta-pelna); }
+.wybor-mecz-nr {
+  flex: none;
+  width: 26px;
+  height: 26px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--plyta-pelna);
+  font: 700 12px/1 var(--naglowkowy);
+  color: var(--tekst-cichy);
+}
+.wybor-mecz-kto { flex: 1; font-size: 13.5px; }
+.wybor-mecz-kto em { font-style: normal; color: var(--tekst-ledwie); margin: 0 3px; }
+.wybor-mecz-ile { flex: none; font-size: 11.5px; color: var(--tekst-ledwie); }
+
 /* ---------------------------------------------------------------- arkusz */
 
 .arkusz-tlo {
