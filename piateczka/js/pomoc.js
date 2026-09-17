@@ -206,6 +206,9 @@ export const POMOC = {
       <p><b>Nic nie zapisuje się od razu</b>: najpierw widzisz listę tego, co appka zrozumiała,
       możesz wyrzucić błędne pozycje, dopiero potem „Dopisz do meczu”. Kawałki, których nie
       rozumie, wypisuje osobno zamiast zgadywać.</p>
+      <p><b>Sędziowanie na żywo</b> (Android i Chrome): przycisk „🎙 Start” otwiera mikrofon
+      na cały set. Zagrania wpadają od razu, bez zatwierdzania, a ekran nie gaśnie.
+      Pomyłkę kasuje „↶ Cofnij” albo ✕ przy wpisie.</p>
       <p class="pomoc-nota">Pliku audio appka nie przerobi, najpierw musi powstać tekst.</p>`,
   },
 

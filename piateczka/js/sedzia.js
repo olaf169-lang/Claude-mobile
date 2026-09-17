@@ -94,6 +94,56 @@ export function ileSedziowanych(wieczory, { tryb = null } = {}) {
 
 /** Stosunek winnerów do błędów: jedyna liczba, którą warto pokazać jako
     „skuteczność”. Zwraca null, gdy nie ma z czego liczyć. */
+/** Sportowe wskaźniki wyliczone z bilansu jednego gracza. Świadomie NIE ma
+    tu „% udanych serwisów”: liczymy tylko błędy serwisowe i asy, a łącznej
+    liczby serwisów nikt nie klika, więc procent byłby zmyślony. */
+export function wskazniki(b) {
+  if (!b || !b.razem) return null;
+  const winnery = b.winner + b.as;
+  const bledy = b.aut + b.siatka + b.serwis + b.blad;
+  return {
+    winnery,
+    bledy,
+    asy: b.as,
+    bledySerwisowe: b.serwis,
+    bilans: winnery - bledy,
+    skutecznosc: Math.round((winnery / b.razem) * 100),
+    udzialSerwisowych: bledy ? Math.round((b.serwis / bledy) * 100) : 0,
+  };
+}
+
+/** Statystyki jednego meczu: całość i podział na sety. Zagrania sprzed
+    wprowadzenia numeru setu nie mają pola `s`, więc lądują w `bezSetu`. */
+export function statystykiMeczu(mecz) {
+  const lista = zagrania(mecz);
+  const numery = [...new Set(lista.map((z) => Number(z.s) || 0))]
+    .filter((n) => n > 0).sort((a, b) => a - b);
+  return {
+    ile: lista.length,
+    razem: bilansZagran([mecz]),
+    sety: numery.map((nr) => ({
+      nr,
+      bilans: bilansZagran([{ zagrania: lista.filter((z) => Number(z.s) === nr) }]),
+    })),
+    bezSetu: lista.filter((z) => !Number(z.s)).length,
+  };
+}
+
+/** Ile sędziowanych meczów rozegrał dany gracz. Potrzebne, żeby średnie na
+    karcie gracza mówiły, z ilu meczów są liczone. */
+export function sedziowaneGracza(wieczory, id, { tryb = null, pomijajTowarzyskie = true } = {}) {
+  let ile = 0;
+  for (const w of wieczory) {
+    if (pomijajTowarzyskie && w.towarzyski) continue;
+    for (const m of mecze(w)) {
+      if (tryb && trybMeczu(m) !== tryb) continue;
+      if (!meczSedziowany(m)) continue;
+      if ([...(m.a ?? []), ...(m.b ?? [])].includes(id)) ile += 1;
+    }
+  }
+  return ile;
+}
+
 export function skutecznosc(bilans) {
   if (!bilans || bilans.razem === 0) return null;
   return { dobre: bilans.dobre, zle: bilans.zle, procent: Math.round((bilans.dobre / bilans.razem) * 100) };
@@ -158,17 +208,64 @@ function pozycjaKluczowa(t, k) {
 
 /** Dzieli transkrypcję na kawałki. Kropka i nowa linia zawsze; przecinek
     tylko wtedy, gdy w kawałku siedzą dwa różne zdarzenia, bo inaczej rozerwałby
-    „przy moim serwisie, winner” na dwa nieczytelne strzępy. */
-function nakawalki(tekst) {
+    „przy moim serwisie, winner” na dwa nieczytelne strzępy. Na końcu każdy
+    kawałek przechodzi jeszcze przez cięcie na imionach, bo dyktowanie
+    interpunkcji nie stawia wcale. */
+function nakawalki(tekst, osoby = []) {
   const grube = String(tekst ?? '').split(/[.;!?\n\r]+/).map((x) => x.trim()).filter(Boolean);
   const wynik = [];
   for (const kawalek of grube) {
     const czesci = kawalek.split(',').map((x) => x.trim()).filter(Boolean);
     const ileZdarzen = czesci.filter((c) => rozpoznajRodzaj(uprosc(c))).length;
-    if (czesci.length > 1 && ileZdarzen > 1) wynik.push(...czesci);
-    else wynik.push(kawalek);
+    const bazowe = (czesci.length > 1 && ileZdarzen > 1) ? czesci : [kawalek];
+    for (const cz of bazowe) wynik.push(...poImionach(cz, osoby));
   }
   return wynik;
+}
+
+function ileRodzajow(t) {
+  return REGULY.filter((r) => r.test(t)).length;
+}
+
+/* Rozpoznawanie mowy oddaje goły ciąg bez kropek, więc cały set potrafi
+   przyjść jako jedno zdanie: „tomek serwis w aut piateczka podawal kafar
+   w siatke”. Tniemy taki ciąg na imionach, ale tylko wtedy, gdy naprawdę
+   siedzą w nim co najmniej dwa rodzaje zdarzeń. Fragment bez zdarzenia
+   („piąteczka podawał”) doklejamy do następnego, bo to kontekst akcji,
+   a nie osobne zagranie. */
+function poImionach(kawalek, osoby) {
+  const t = uprosc(kawalek);
+  // uprosc() nie zmienia długości (same zamiany 1:1), ale gdyby kiedyś
+  // zmieniło, wolimy nie ciąć po błędnych indeksach.
+  if (!osoby.length || t.length !== kawalek.length || ileRodzajow(t) < 2) return [kawalek];
+
+  const ciecia = new Set();
+  for (const { rdzen } of osoby) {
+    let i = t.indexOf(rdzen);
+    while (i !== -1) {
+      if (i > 0 && /[^a-z0-9]/.test(t[i - 1])) ciecia.add(i);
+      i = t.indexOf(rdzen, i + 1);
+    }
+  }
+  if (!ciecia.size) return [kawalek];
+
+  const czesci = [];
+  let od = 0;
+  for (const p of [...[...ciecia].sort((a, b) => a - b), kawalek.length]) {
+    const czesc = kawalek.slice(od, p).trim();
+    if (czesc) czesci.push(czesc);
+    od = p;
+  }
+
+  const scalone = [];
+  let bufor = '';
+  for (const cz of czesci) {
+    const razem = bufor ? `${bufor} ${cz}` : cz;
+    if (rozpoznajRodzaj(uprosc(cz))) { scalone.push(razem); bufor = ''; }
+    else bufor = razem;
+  }
+  if (bufor) scalone.push(bufor);
+  return scalone.length ? scalone : [kawalek];
 }
 
 /** Zamienia tekst na listę zdarzeń. NIC nie zapisuje, zwraca też kawałki,
@@ -178,7 +275,7 @@ export function parsujTranskrypcje(tekst, { sklad = [], wieczor = null, ja = nul
   const zdarzenia = [];
   const nierozumiane = [];
 
-  for (const kawalek of nakawalki(tekst)) {
+  for (const kawalek of nakawalki(tekst, osoby)) {
     const t = uprosc(kawalek);
     const k = rozpoznajRodzaj(t);
     if (!k) { nierozumiane.push({ tekst: kawalek, czemu: 'nie widzę zdarzenia' }); continue; }

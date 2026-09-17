@@ -198,6 +198,19 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
   ograniczają tylko klucze najwyższego poziomu, dopisanie go nie wymagało
   wdrażania reguł od nowa. Jak dokładasz kolejne pola do meczu, masz tę samą
   swobodę; pola na poziomie dokumentu wymagają już zmiany `hasOnly`.
+- **Statystyki sędziowania: tylko to, co da się policzyć uczciwie.** Z zagrań
+  liczymy winnery (winner + as), błędy (aut + siatka + błąd serwisu + błąd),
+  bilans i skuteczność (`wskazniki()` w `sedzia.js`). **Nie ma „% udanych
+  serwisów”** i nie dopisuj go: zapisujemy tylko BŁĘDY serwisowe i asy, łącznej
+  liczby serwisów nikt nie kliknie, a z samego wyniku setu nie da się jej
+  wyprowadzić (trzeba by znać kolejność wymian). Procent byłby zmyślony.
+- **Numer setu siedzi w zagraniu (`z.s`).** Wybiera się go chipami na ekranie
+  sędziego, bo w trakcie meczu pola wyniku bywają jeszcze puste i nie da się
+  go wywnioskować. Zagrania sprzed tej zmiany nie mają `s` i lecą do `bezSetu`.
+- **Tryb na żywo pisze od razu, bez zatwierdzania** (decyzja użytkownika
+  2026-09-17): przy otwartym mikrofonie nikt nie klika po każdej akcji.
+  Poprawia się istniejącym „↶ Cofnij” i ✕ przy wpisie. WakeLock trzyma ekran,
+  a `onend` restartuje silnik, bo przeglądarka urywa nasłuch sama z siebie.
 - **Parser transkrypcji nigdy nie zapisuje po cichu.** `parsujTranskrypcje`
   zwraca `{ zdarzenia, nierozumiane }`, ekran pokazuje jedno i drugie, a zapis
   idzie dopiero po zatwierdzeniu. Rozpoznawanie mowy (`SpeechRecognition`)

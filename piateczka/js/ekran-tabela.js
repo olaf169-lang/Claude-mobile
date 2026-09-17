@@ -15,7 +15,8 @@ import { mojePrzydomki, godlo } from './tytuly.js';
 import { wybory as wyboryPrzydomkow } from './baza.js';
 import { listaWyboru, podepnijWybor } from './wybor-przydomka.js';
 import { znaczekSerii, przelicz } from './elo.js';
-import { ZDARZENIA, statystykiSezonu, ileSedziowanych, skutecznosc } from './sedzia.js';
+import { ZDARZENIA, statystykiSezonu, ileSedziowanych, skutecznosc, wskazniki,
+  sedziowaneGracza } from './sedzia.js';
 
 let zakres = 'sezon';
 let tryb = 'debel';
@@ -143,7 +144,23 @@ function szczegoly(id, tabela, wieczory, tryb) {
         <div><span>${r.zdobyte}</span><em>zdobyte pkt</em></div>
         <div><span>${r.najdluzszaSeria}</span><em>najdłuższa seria</em></div>
       </div>
-      ${zagr && zagr.razem ? `<h4>Zagrania ${dymek('sedzia')}</h4>
+      ${zagr && zagr.razem ? `<h4>Statystyki z sędziowania ${dymek('sedzia')}</h4>
+        ${(() => {
+          const w = wskazniki(zagr);
+          const ileMeczow = sedziowaneGracza(wieczory, id, { tryb });
+          const na = (x) => (ileMeczow ? (x / ileMeczow).toFixed(1).replace('.', ',') : '0');
+          return `<div class="statystyki">
+            <div><span>${w.winnery}</span><em>winnerów</em></div>
+            <div><span>${w.bledy}</span><em>błędów</em></div>
+            <div><span>${w.skutecznosc}%</span><em>skuteczność</em></div>
+            <div><span>${na(w.winnery)}</span><em>winnerów/mecz</em></div>
+            <div><span>${na(w.bledy)}</span><em>błędów/mecz</em></div>
+            <div><span>${w.bilans > 0 ? '+' : ''}${w.bilans}</span><em>bilans</em></div>
+          </div>
+          <p class="pomoc-nota">Średnie z <b>${ileMeczow}</b> ${ileMeczow === 1 ? 'sędziowanego meczu' : 'sędziowanych meczów'}
+          tej osoby. Asy: ${w.asy}, błędy serwisowe: ${w.bledySerwisowe}.</p>`;
+        })()}
+        <h4>Zagrania po rodzajach</h4>
         <ul class="lista-prosta lista-zagran-staty">
           ${ZDARZENIA.map((z) => `<li><span>${z.ikona} ${z.nazwa}</span>
             <b class="${zagr[z.id] ? (z.dobre ? 'plus' : 'minus') : 'zero'}">${zagr[z.id]}</b></li>`).join('')}
