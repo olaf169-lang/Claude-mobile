@@ -28,6 +28,9 @@ let szkicGosci = {};         // dopisane osoby przed utworzeniem wieczoru
 let szkicTrybu = 'debel';    // deble czy single, wybierane PRZED ustawieniem meczów
 let szkicZatwierdzony = false;  // czy skład jest zatwierdzony (wtedy pytamy o liczbę meczów)
 let szkicIle = null;            // ile meczów gracie, null = jeszcze nie wybrano
+// Stos cofania wpisanych wyników: każdy wpis to stan meczu SPRZED zmiany.
+// Żyje tylko w tej sesji i tylko dla oglądanego dnia, patrz ustawDate().
+let cofanie = [];
 
 export function ustawDate(data) {
   wybranaData = data;
@@ -35,6 +38,7 @@ export function ustawDate(data) {
   szkicGosci = {};
   szkicZatwierdzony = false;
   szkicIle = null;
+  cofanie = [];
 }
 
 function domyslnaData(wieczory) {
@@ -196,6 +200,20 @@ function opisUkladu(ilu, tryb) {
 
 /* -------------------------------------------------------------- mecze */
 
+/* Pasek cofania stoi nad kartami meczów, czyli tam, gdzie się wpisuje, i mówi
+   wprost, co zniknie po dotknięciu. Bez tego „cofnij” jest ruletką. */
+function pasekCofania(zamek) {
+  const ostatni = cofanie.at(-1);
+  if (zamek || !ostatni) return '';
+  return `<section class="pasek-cofnij">
+    <span class="pasek-cofnij-opis">
+      <b>Ostatnio wpisane</b>
+      <em>${bez(ostatni.opis)}</em>
+    </span>
+    <button class="btn btn-maly" type="button" id="cofnij-wpis">↩ Cofnij wynik</button>
+  </section>`;
+}
+
 function kartyMeczow(wieczor, zamek) {
   const lista = meczeZ(wieczor);
   const sklad = wieczor.sklad ?? [];
@@ -213,7 +231,7 @@ function kartyMeczow(wieczor, zamek) {
     </label>
   </section>`;
 
-  return naglowek + lista.map((m) => kartaMeczu(m, wieczor, zamek)).join('')
+  return naglowek + pasekCofania(zamek) + lista.map((m) => kartaMeczu(m, wieczor, zamek)).join('')
     + (zamek ? '' : `<button class="btn szeroki btn-obrys" type="button" id="dograj-mecz">+ Dograj mecz</button>`);
 }
 
@@ -418,6 +436,14 @@ function podepnij(kontener, ctx) {
     komunikat('Mecze ustawione, wpisujcie wyniki');
   });
 
+  kontener.querySelector('#cofnij-wpis')?.addEventListener('click', async () => {
+    const ostatni = cofanie.pop();
+    if (!ostatni) return;
+    await baza.zapiszMecz(wybranaData, ostatni.nr, ostatni.mecz);
+    komunikat('↩ Cofnięto ostatni wynik');
+    ctx.odswiez();
+  });
+
   kontener.querySelector('#zmien-sklad')?.addEventListener('click', async () => {
     if (!await potwierdz('Zmienić skład?',
       'Mecze zostaną ustawione od nowa, a wpisane wyniki przepadną.', 'Tak, ustaw od nowa')) return;
@@ -528,7 +554,15 @@ function zbudujMecz(wieczor, nr, kontener) {
 function zapiszSet(wieczor, input) {
   const nr = input.dataset.mecz;
   const mecz = zbudujMecz(wieczor, nr, input.closest('main') ?? document);
-  if (mecz) baza.zapiszMecz(wybranaData, nr, mecz);
+  if (!mecz) return;
+  const poprzedni = wieczor?.mecze?.[nr];
+  if (poprzedni) {
+    const set = Number(input.dataset.set) + 1;
+    const opis = `mecz ${nr}, set ${set}`;
+    cofanie.push({ nr, mecz: JSON.parse(JSON.stringify(poprzedni)), opis });
+    if (cofanie.length > 20) cofanie.shift();
+  }
+  baza.zapiszMecz(wybranaData, nr, mecz);
 }
 
 /* ------------------------------------------------- arkusz: format meczu */
