@@ -14,7 +14,7 @@
 import { imieW, poPolsku } from './dane.js';
 import { wynikMeczu, formatMeczu, trybMeczu, mecze as meczeZ } from './liczenie.js';
 import { ZDARZENIA, zdarzenie, zagrania, bilansZagran, parsujTranskrypcje,
-  skutecznosc } from './sedzia.js';
+  skutecznosc, wskazniki, statystykiMeczu } from './sedzia.js';
 import { zamkniety } from './zamek.js';
 import { naglowekZPomoca, dymek } from './pomoc.js';
 import { bez, komunikat, potwierdz } from './ui.js';
@@ -29,9 +29,11 @@ let rozpoznawacz = null;
 let naZywo = false;         // tryb ciągły: zagrania lecą do bazy od razu
 let blokadaEkranu = null;   // WakeLock, żeby telefon nie gasł w trakcie meczu
 let ostatniNasluch = 0;     // do wykrycia, że silnik zamyka się w kółko
+let aktywnySet = 1;         // w którym secie lądują kolejne zagrania
 
 export function ustawMecz(data, nr) {
   cel = { data, nr: String(nr) };
+  aktywnySet = 1;
   wybrany = null;
   szkicTekstu = '';
   podglad = null;
@@ -89,6 +91,7 @@ export function render(kontener, ctx) {
   const r = wynikMeczu(mecz);
   const strony = [...mecz.a, ...mecz.b];
   const bil = bilansZagran([mecz]);
+  const maksSetow = Math.max(1, formatMeczu(mecz, wieczor).setow * 2 - 1);
 
   kontener.innerHTML = `
     <div class="ekran-naglowek">
@@ -110,8 +113,9 @@ export function render(kontener, ctx) {
     ${zamek ? `<div class="pasek-zamka">
       <span class="pasek-zamka-ikona" aria-hidden="true">🔒</span>
       <div><b>Wieczór zapisany</b><span>Zagrań już nie dopiszesz, najpierw odblokuj wieczór kodem.</span></div>
-    </div>` : kartaNaZywo() + klikanie(wieczor, strony) + tekstowanie(wieczor)}
+    </div>` : kartaNaZywo() + klikanie(wieczor, strony, maksSetow) + tekstowanie(wieczor)}
 
+    ${kartaStatystyk(wieczor, strony, mecz)}
     ${kartaBilansu(wieczor, strony, bil)}
     ${kartaHistorii(wieczor, lista, zamek)}
 
@@ -141,10 +145,16 @@ function kartaNaZywo() {
 
 /* ------------------------------------------------------ klikanie na żywo */
 
-function klikanie(wieczor, strony) {
+function klikanie(wieczor, strony, ileSetow) {
   const kto = strony.includes(wybrany) ? wybrany : null;
   return `<section class="karta">
     ${naglowekZPomoca('Kto zagrał?', 'sedzia')}
+    <div class="chipy chipy-set">
+      <span class="chipy-etykieta">Set</span>
+      ${Array.from({ length: ileSetow }, (_, i) => i + 1).map((nr) => `
+        <button class="chip chip-maly ${nr === aktywnySet ? 'wybrany' : ''}" type="button"
+          data-set-sedzia="${nr}" aria-pressed="${nr === aktywnySet}">${nr}</button>`).join('')}
+    </div>
     <div class="chipy chipy-sedzia">
       ${strony.map((id) => `<button class="chip chip-duzy ${id === kto ? 'wybrany' : ''}" type="button"
         data-kto="${id}" aria-pressed="${id === kto}">${bez(imieW(wieczor, id))}</button>`).join('')}
@@ -204,6 +214,44 @@ function kartaPodgladu(wieczor) {
 }
 
 /* --------------------------------------------------------------- bilans */
+
+/* Sportowe liczby meczu: winnery, błędy, bilans i skuteczność, plus rozbicie
+   na sety. To jest to, po co w ogóle się sędziuje, więc stoi nad surową
+   tabelką zdarzeń. Do tabeli i do Formy nadal nie wchodzi nic z tego. */
+function kartaStatystyk(wieczor, strony, mecz) {
+  const st = statystykiMeczu(mecz);
+  if (!st.ile) return '';
+  const kafelek = (id, bilans) => {
+    const w = wskazniki(bilans.get(id));
+    if (!w) return '';
+    return `<div class="staty-gracz">
+      <b>${bez(imieW(wieczor, id))}</b>
+      <div class="staty-rzad">
+        <span class="staty-poz"><em>Winnery</em><b class="plus">${w.winnery}</b></span>
+        <span class="staty-poz"><em>Błędy</em><b class="minus">${w.bledy}</b></span>
+        <span class="staty-poz"><em>Bilans</em><b class="${w.bilans > 0 ? 'plus' : w.bilans < 0 ? 'minus' : 'zero'}">${w.bilans > 0 ? '+' : ''}${w.bilans}</b></span>
+        <span class="staty-poz"><em>Skuteczność</em><b>${w.skutecznosc}%</b></span>
+      </div>
+      <span class="staty-detal">asy: ${w.asy} · błędy serwisowe: ${w.bledySerwisowe}</span>
+    </div>`;
+  };
+
+  return `<section class="karta">
+    ${naglowekZPomoca('Statystyki meczu', 'sedzia')}
+    <div class="staty-lista">${strony.map((id) => kafelek(id, st.razem)).join('')}</div>
+    ${st.sety.length > 1 ? `<h4>Po setach</h4>
+      ${st.sety.map((se) => `<div class="staty-set">
+        <span class="staty-set-nr">Set ${se.nr}</span>
+        <span class="staty-set-tresc">${strony.map((id) => {
+          const w = wskazniki(se.bilans.get(id));
+          return w ? `${bez(imieW(wieczor, id))} ${w.winnery}/${w.bledy}` : '';
+        }).filter(Boolean).join(' · ')}</span>
+      </div>`).join('')}
+      <p class="wskazowka">W rozbiciu na sety: winnery/błędy.</p>` : ''}
+    ${st.bezSetu ? `<p class="pomoc-nota">${st.bezSetu} ${st.bezSetu === 1 ? 'zagranie' : 'zagrań'}
+      bez przypisanego setu, sprzed wprowadzenia tego podziału.</p>` : ''}
+  </section>`;
+}
 
 function kartaBilansu(wieczor, strony, bil) {
   const cokolwiek = strony.some((id) => (bil.get(id)?.razem ?? 0) > 0);
@@ -271,7 +319,7 @@ function podepnij(kontener, ctx, wieczor, mecz, strony) {
   kontener.querySelectorAll('[data-zdarzenie]').forEach((el) => el.addEventListener('click', async () => {
     if (!strony.includes(wybrany)) return;
     const k = el.dataset.zdarzenie;
-    await zapisz(wieczor, mecz, [...zagrania(mecz), { k, kto: wybrany }]);
+    await zapisz(wieczor, mecz, [...zagrania(mecz), { k, kto: wybrany, s: aktywnySet }]);
     komunikat(`${zdarzenie(k).ikona} ${imieW(wieczor, wybrany)}: ${zdarzenie(k).nazwa}`);
   }));
 
@@ -313,7 +361,7 @@ function podepnij(kontener, ctx, wieczor, mecz, strony) {
     }));
 
   kontener.querySelector('#zatwierdz-podglad')?.addEventListener('click', async () => {
-    const nowe = podglad.zdarzenia.map(({ k, kto }) => ({ k, kto }));
+    const nowe = podglad.zdarzenia.map(({ k, kto }) => ({ k, kto, s: aktywnySet }));
     // Czyścimy PRZED zapisem: zapis przerysowuje ekran jeszcze w trakcie
     // `await`, więc stan wyzerowany po nim zostałby na ekranie do następnego
     // odświeżenia, bo podgląd wisiałby mimo zatwierdzenia.
@@ -328,6 +376,11 @@ function podepnij(kontener, ctx, wieczor, mecz, strony) {
 
   kontener.querySelector('#na-zywo')?.addEventListener('click', () =>
     przelaczNaZywo(ctx, wieczor, mecz, strony));
+
+  kontener.querySelectorAll('[data-set-sedzia]').forEach((el) => el.addEventListener('click', () => {
+    aktywnySet = Number(el.dataset.setSedzia);
+    ctx.odswiez();
+  }));
 }
 
 /* Rozpoznawanie mowy przeglądarki. Na Androidzie/Chrome działa, na iPhonie
@@ -471,7 +524,7 @@ async function dopiszZMowy(ctx, wieczor, mecz, strony, tekst) {
   if (dobre.length) {
     const swiezy = ctx.wieczory.find((w) => w.data === cel.data)?.mecze?.[cel.nr] ?? mecz;
     await zapisz(wieczor, swiezy,
-      [...zagrania(swiezy), ...dobre.map((z) => ({ k: z.k, kto: z.kto }))]);
+      [...zagrania(swiezy), ...dobre.map((z) => ({ k: z.k, kto: z.kto, s: aktywnySet }))]);
     komunikat(dobre.map((z) => `${zdarzenie(z.k).ikona} ${imieW(wieczor, z.kto)}`).join(', '));
   } else if (nierozumiane.length) {
     komunikat(`Nie załapałem: „${nierozumiane[0].tekst}”`);

@@ -94,6 +94,56 @@ export function ileSedziowanych(wieczory, { tryb = null } = {}) {
 
 /** Stosunek winnerów do błędów: jedyna liczba, którą warto pokazać jako
     „skuteczność”. Zwraca null, gdy nie ma z czego liczyć. */
+/** Sportowe wskaźniki wyliczone z bilansu jednego gracza. Świadomie NIE ma
+    tu „% udanych serwisów”: liczymy tylko błędy serwisowe i asy, a łącznej
+    liczby serwisów nikt nie klika, więc procent byłby zmyślony. */
+export function wskazniki(b) {
+  if (!b || !b.razem) return null;
+  const winnery = b.winner + b.as;
+  const bledy = b.aut + b.siatka + b.serwis + b.blad;
+  return {
+    winnery,
+    bledy,
+    asy: b.as,
+    bledySerwisowe: b.serwis,
+    bilans: winnery - bledy,
+    skutecznosc: Math.round((winnery / b.razem) * 100),
+    udzialSerwisowych: bledy ? Math.round((b.serwis / bledy) * 100) : 0,
+  };
+}
+
+/** Statystyki jednego meczu: całość i podział na sety. Zagrania sprzed
+    wprowadzenia numeru setu nie mają pola `s`, więc lądują w `bezSetu`. */
+export function statystykiMeczu(mecz) {
+  const lista = zagrania(mecz);
+  const numery = [...new Set(lista.map((z) => Number(z.s) || 0))]
+    .filter((n) => n > 0).sort((a, b) => a - b);
+  return {
+    ile: lista.length,
+    razem: bilansZagran([mecz]),
+    sety: numery.map((nr) => ({
+      nr,
+      bilans: bilansZagran([{ zagrania: lista.filter((z) => Number(z.s) === nr) }]),
+    })),
+    bezSetu: lista.filter((z) => !Number(z.s)).length,
+  };
+}
+
+/** Ile sędziowanych meczów rozegrał dany gracz. Potrzebne, żeby średnie na
+    karcie gracza mówiły, z ilu meczów są liczone. */
+export function sedziowaneGracza(wieczory, id, { tryb = null, pomijajTowarzyskie = true } = {}) {
+  let ile = 0;
+  for (const w of wieczory) {
+    if (pomijajTowarzyskie && w.towarzyski) continue;
+    for (const m of mecze(w)) {
+      if (tryb && trybMeczu(m) !== tryb) continue;
+      if (!meczSedziowany(m)) continue;
+      if ([...(m.a ?? []), ...(m.b ?? [])].includes(id)) ile += 1;
+    }
+  }
+  return ile;
+}
+
 export function skutecznosc(bilans) {
   if (!bilans || bilans.razem === 0) return null;
   return { dobre: bilans.dobre, zle: bilans.zle, procent: Math.round((bilans.dobre / bilans.razem) * 100) };
