@@ -29,6 +29,7 @@ export function render(kontener, ctx) {
     ${kartaRekordy(rekordySezonu(ctx.wieczory), ctx.wieczory)}
     ${kartaHistorii(wszystkie)}
     ${kartaPucharu()}
+    ${kartaSezonu()}
     ${kartaKatalogu()}`;
 
   kontener.querySelectorAll('[data-przydomek]').forEach((el) =>
@@ -171,6 +172,19 @@ function kartaPucharu() {
     ${poPolsku(SEZON.final)}, każdy z każdym, rozstawienie według tabeli.</p>
     <p class="wskazowka">Mistrz sezonu i zdobywca Pucharu to mogą być dwie różne osoby.
     Sezon nagradza regularność, a Puchar jeden dobry wieczór.</p>
+  </section>`;
+}
+
+/* Wejście do zbiorczego podsumowania sezonu. Stoi pod Pucharem, bo to
+   ta sama półka: rzeczy, które domykają sezon. */
+function kartaSezonu() {
+  return `<section class="karta karta-sezon-wejscie">
+    <div class="boss-opis">
+      <span class="plakietka-etykieta">Na koniec sezonu</span>
+      <strong>Podsumowanie sezonu</strong>
+      <span class="cichy">Mistrzowie, rekordy i liczby, gotowe do wysłania na grupę.</span>
+    </div>
+    <a class="btn btn-obrys" href="#/sezon">Zobacz</a>
   </section>`;
 }
 

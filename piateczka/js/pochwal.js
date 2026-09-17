@@ -6,9 +6,10 @@
    gotowa laurka + link do widoku podsumowania tego konkretnego wieczoru.
    ========================================================================== */
 
-import { poPolsku, imieW } from './dane.js';
-import { rekordyWieczoru, mvpWieczoru, trybyWieczoru } from './liczenie.js';
-import { komunikat, arkusz, bez } from './ui.js';
+import { poPolsku, imieW, gracz, SEZON } from './dane.js';
+import { rekordyWieczoru, mvpWieczoru, trybyWieczoru, klasyfikacja, mecze as meczeZ,
+  wynikMeczu, trybMeczu, TRYBY } from './liczenie.js';
+import { komunikat, arkusz, bez, odmianaMeczow, odmianaWieczorow, odmianaSetow } from './ui.js';
 
 /** Adres aplikacji bez ogona. Ktoś, kto wszedł przez „…/piateczka/index.html”,
     rozsyłałby ten sam brzydki adres dalej, więc obcinamy końcówkę, żeby na grupę
@@ -56,6 +57,41 @@ export async function zapros() {
   ].join('\n');
   await wyslij({ title: 'Turniej Pana Piąteczki', text, url },
     'Link skopiowany, wklej na grupie 📋');
+}
+
+/** Podsumowanie całego sezonu jako tekst na grupę: mistrzowie obu rozgrywek,
+    podium i kilka liczb. Bez ozdobników, bo ma się kleić do czatu. */
+export function tekstSezonu(wieczory) {
+  let meczow = 0, setow = 0;
+  for (const w of wieczory) {
+    for (const m of meczeZ(w)) {
+      const r = wynikMeczu(m);
+      if (!r.rozegrany) continue;
+      meczow += 1;
+      setow += r.setyA + r.setyB;
+    }
+  }
+
+  const linie = ['🏸 Turniej Pana Piąteczki', `Sezon ${SEZON.nazwa}, podsumowanie`, ''];
+  for (const t of TRYBY) {
+    const tabela = klasyfikacja(wieczory, { tryb: t.id }).filter((r) => r.mecze > 0);
+    if (!tabela.length) continue;
+    linie.push(`${t.nazwa.toUpperCase()}`);
+    tabela.forEach((r, i) => linie.push(
+      `${i + 1}. ${gracz(r.id).imie}  ${r.meczeW}W-${r.meczeP}P  (sety ${r.setyW}:${r.setyP})`));
+    linie.push('');
+  }
+  linie.push(`Razem: ${wieczory.length} ${odmianaWieczorow(wieczory.length)}, `
+    + `${meczow} ${odmianaMeczow(meczow)}, ${setow} ${odmianaSetow(setow)}.`);
+  return linie.join('\n');
+}
+
+export async function pochwalSezonem(wieczory) {
+  await wyslij({
+    title: `Turniej Pana Piąteczki, sezon ${SEZON.nazwa}`,
+    text: tekstSezonu(wieczory),
+    url: linkAplikacji(),
+  }, 'Skopiowane, wklej na grupie 📋');
 }
 
 export async function pochwalSie(wieczor) {

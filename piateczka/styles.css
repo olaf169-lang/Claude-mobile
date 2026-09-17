@@ -882,6 +882,79 @@ main {
 .kafel em { font-style: normal; font-size: 11.5px; color: var(--tekst-ledwie); }
 .kafelki .kafel:last-child:nth-child(odd) { grid-column: 1 / -1; }
 
+/* Podsumowanie sezonu: dwa kafle mistrzów obok siebie. */
+.mistrzowie { display: grid; grid-template-columns: repeat(2, 1fr); gap: 9px; margin-bottom: 4px; }
+.mistrz-kafel {
+  display: grid;
+  justify-items: center;
+  gap: 3px;
+  padding: 14px 10px;
+  background: var(--plyta);
+  border: 1px solid var(--kreska);
+  border-radius: var(--r-s);
+  text-align: center;
+}
+.mistrz-tryb {
+  font: 700 10.5px/1 var(--naglowkowy);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--tekst-ledwie);
+  margin-bottom: 4px;
+}
+.mistrz-imie { font-size: 15px; }
+.mistrz-ksywka { font-style: italic; font-size: 12.5px; color: var(--zloto); }
+.karta-sezon-wejscie { display: flex; align-items: center; gap: 12px; }
+.karta-sezon-wejscie .btn { flex: none; }
+
+/* Pasek cofania wpisu: celowo w złotej ramce, bo dotyczy wpisywania wyników
+   i ma się odcinać od kart meczów, nad którymi stoi. */
+.pasek-cofnij {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 9px;
+  padding: 10px 12px;
+  background: var(--zloto-mgla);
+  border: 1px solid var(--zloto);
+  border-radius: var(--r-s);
+}
+.pasek-cofnij-opis { flex: 1; display: grid; gap: 2px; min-width: 0; }
+.pasek-cofnij-opis b { font-size: 12px; letter-spacing: .03em; text-transform: uppercase; color: var(--zloto); }
+.pasek-cofnij-opis em {
+  font-style: normal;
+  font-size: 12.5px;
+  color: var(--tekst-cichy);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pasek-cofnij .btn { flex: none; }
+
+/* Ile meczów gracie: licznik z dużą liczbą pośrodku. */
+.ile-stepper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin: 6px 0 10px;
+}
+.ile-krok {
+  width: 46px;
+  height: 46px;
+  flex: none;
+  border-radius: 50%;
+  border: 1px solid var(--kreska);
+  background: var(--plyta);
+  color: inherit;
+  font: 700 22px/1 var(--naglowkowy);
+  cursor: pointer;
+}
+.ile-krok:disabled { opacity: .35; cursor: default; }
+.ile-liczba { display: grid; justify-items: center; min-width: 88px; }
+.ile-liczba span { font: 700 34px/1 var(--naglowkowy); color: var(--zloto); }
+.ile-liczba em { font-style: normal; font-size: 12px; color: var(--tekst-ledwie); }
+.sklad-ok { color: var(--zielen); font-weight: 600; }
+
 /* Wybór meczu do sędziowania, gdy wchodzi się z kafelka na Starcie. */
 .wybor-meczu { display: grid; gap: 6px; }
 .wybor-meczu button {
