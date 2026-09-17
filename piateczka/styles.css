@@ -882,6 +882,30 @@ main {
 .kafel em { font-style: normal; font-size: 11.5px; color: var(--tekst-ledwie); }
 .kafelki .kafel:last-child:nth-child(odd) { grid-column: 1 / -1; }
 
+/* Podsumowanie sezonu: dwa kafle mistrzów obok siebie. */
+.mistrzowie { display: grid; grid-template-columns: repeat(2, 1fr); gap: 9px; margin-bottom: 4px; }
+.mistrz-kafel {
+  display: grid;
+  justify-items: center;
+  gap: 3px;
+  padding: 14px 10px;
+  background: var(--plyta);
+  border: 1px solid var(--kreska);
+  border-radius: var(--r-s);
+  text-align: center;
+}
+.mistrz-tryb {
+  font: 700 10.5px/1 var(--naglowkowy);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--tekst-ledwie);
+  margin-bottom: 4px;
+}
+.mistrz-imie { font-size: 15px; }
+.mistrz-ksywka { font-style: italic; font-size: 12.5px; color: var(--zloto); }
+.karta-sezon-wejscie { display: flex; align-items: center; gap: 12px; }
+.karta-sezon-wejscie .btn { flex: none; }
+
 /* Pasek cofania wpisu: celowo w złotej ramce, bo dotyczy wpisywania wyników
    i ma się odcinać od kart meczów, nad którymi stoi. */
 .pasek-cofnij {

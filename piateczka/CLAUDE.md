@@ -147,6 +147,17 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
   w tabeli. Złapane testem 2026-09-16; `pasujacePrzydomki(id, wieczory)`
   pokazuje WSZYSTKIE trafione warunki, nie tylko zwycięski, bez tego
   słabszy trafiony warunek jest niewidoczny i takie wpadki przechodzą.
+- **Liczba meczów jest dowolna.** `ukladMeczow(..., ile)` generuje tyle meczów,
+  ile poprosisz, zapętlając wzór rotacji, więc kolejność par zostaje ta sama
+  (czwórka w deblu, 5 meczów = 1-2-3-1-2). `dlugoscCyklu()` zwraca długość
+  pełnej rotacji, ale to tylko podpowiedź na ekranie. Przepływ: wybór rodzaju,
+  „Zatwierdź skład”, dopiero potem „Ile meczów gracie?”. Zmiana składu albo
+  rodzaju cofa zatwierdzenie, bo zmienia się długość rotacji.
+- **Cofanie wpisu żyje tylko w sesji.** `cofanie` w `ekran-wieczor.js` trzyma
+  stany meczu SPRZED zmiany (max 20), pasek stoi nad kartami meczów i nazywa
+  mecz oraz set. Czyści się przy zmianie dnia i nie pokazuje się przy zamku.
+  Świadomie nie zapisujemy tego do bazy: to ma ratować literówkę sprzed chwili,
+  a nie być historią zmian.
 - **Nazwy w UI: „Gra” i „Forma”.** Ekran wpisywania to w menu i w tytule „Gra”
   (nie „Wieczór”), a rating to „Forma” (nie „ELO”), decyzja użytkownika
   2026-09-16. W tekstach widocznych piszemy Gra/Forma. ALE trasy (`#/wieczor`,
@@ -210,6 +221,7 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
 | `js/baza.js` | Firestore + kopia w localStorage + tryb offline |
 | `js/pochwal.js` | udostępnianie wieczoru (Web Share + fallback schowek) |
 | `js/ekran-podsumowanie.js` | laurka wieczoru pod link `#/podsumowanie/<data>` |
+| `js/ekran-sezon.js` | zbiorcze podsumowanie sezonu, gotowe do wysłania na grupę |
 | `js/ekran-*.js` | po jednym module na ekran, każdy eksportuje `render()` |
 | `narzedzia/ikony.py` | generator ikon PWA (bez Pillow, własny zapis PNG) |
 

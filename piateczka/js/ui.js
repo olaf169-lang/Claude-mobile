@@ -31,6 +31,7 @@ export function odmiana(n, poj, malo, duzo) {
 export const odmianaWygranych = (n) => odmiana(n, 'wygrana', 'wygrane', 'wygranych');
 export const odmianaMeczow = (n) => odmiana(n, 'mecz', 'mecze', 'meczów');
 export const odmianaWieczorow = (n) => odmiana(n, 'wieczór', 'wieczory', 'wieczorów');
+export const odmianaSetow = (n) => odmiana(n, 'set', 'sety', 'setów');
 
 /* ---------------------------------------------------------------- arkusz */
 

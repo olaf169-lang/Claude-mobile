@@ -6,6 +6,7 @@
    rysują HTML od nowa i podpinają swoje przyciski.
    ========================================================================== */
 
+import * as sezon from './ekran-sezon.js';
 import * as baza from './baza.js';
 import { $, zapamietajSkupienie, przywrocSkupienie, komunikat, zamknijArkusz } from './ui.js';
 import { pokazHaslo } from './ekran-zasady.js';
@@ -29,6 +30,7 @@ const EKRANY = {
   'zasady':    { modul: zasady,    nazwa: 'Zasady' },
   'podsumowanie': { modul: podsumowanie, nazwa: 'Podsumowanie' },
   'sedzia':    { modul: sedzia,    nazwa: 'Sędzia' },
+  'sezon':     { modul: sezon,     nazwa: 'Sezon' },
 };
 
 const KLUCZ_JA = 'pp:ja';
