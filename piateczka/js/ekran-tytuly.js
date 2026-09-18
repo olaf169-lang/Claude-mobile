@@ -179,10 +179,10 @@ function kartaPucharu() {
    ta sama półka: rzeczy, które domykają sezon. */
 function kartaSezonu() {
   return `<section class="karta karta-sezon-wejscie">
-    <div class="boss-opis">
+    <div class="sezon-wejscie-tresc">
       <span class="plakietka-etykieta">Na koniec sezonu</span>
-      <strong>Podsumowanie sezonu</strong>
-      <span class="cichy">Mistrzowie, rekordy i liczby, gotowe do wysłania na grupę.</span>
+      <h2 class="karta-tytul sezon-tytul">Podsumowanie sezonu</h2>
+      <p class="wskazowka">Mistrzowie, rekordy i liczby, gotowe na grupę.</p>
     </div>
     <a class="btn btn-obrys" href="#/sezon">Zobacz</a>
   </section>`;
