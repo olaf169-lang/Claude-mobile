@@ -122,8 +122,9 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
   Swędem" jako jeden ciągły kształt wyszedł żółwiem. Czytelny jest dopiero
   z kółka-łba, kufy-klina, walca-tułowia i czterech nóg osobno, wtedy widać
   szyję i opuszczony łeb (czyli węszenie).
-- **Zapisany wieczór jest zamknięty.** `wieczor.zamkniety === true` po
-  naciśnięciu „Zapisz wieczór”; odblokowanie wymaga kodu administratora
+- **Zapisany wieczór jest zamknięty.** Wyniki zapisują się na bieżąco (autosave).
+  „Zapisz i wyjdź” tylko wychodzi (wieczór zostaje otwarty, wraca się do niego
+  z kalendarza). „Zatwierdź i zamknij” ustawia `wieczor.zamkniety === true`; odblokowanie wymaga kodu administratora
   (`js/zamek.js`, SHA-256). Reguły Firestore przepuszczają zapis do
   zamkniętego dokumentu TYLKO gdy zdejmuje zamek i niesie prawidłowy skrót.
   **Zmiana kodu = podmiana skrótu w DWÓCH miejscach**: `js/zamek.js`

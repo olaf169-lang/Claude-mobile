@@ -68,16 +68,6 @@ export function render(kontener, ctx) {
           : 'Pierwszy wynik wpiszecie na ekranie'} <a href="#/wieczor">Gra</a>.</p>`}
     </section>
 
-    <section class="karta">
-      ${naglowekZPomoca('Skąd się bierze kolejność', 'punktacja')}
-      <ol class="lista-kryteriow">
-        <li><b>Wygrane mecze</b>: to jest waluta. 15:2 i 15:13 znaczą tyle samo.</li>
-        <li><b>Wygrane sety</b>: kto urywał więcej, ten wyżej.</li>
-        <li><b>Zdobyte punkty</b>: dopiero tutaj liczą się liczby z tablicy.</li>
-        <li><b>Mecz bezpośredni</b>: jak wszystko równe, decyduje, kto kogo ogrywał.</li>
-      </ol>
-      <p class="wskazowka">Punkty stracone nie liczą się w ogóle. Przegrana to przegrana,
-      a to, że przegrałeś na styku, widać w Formie.</p>
     </section>`;
 
   kontener.querySelectorAll('[data-tryb]').forEach((el) =>

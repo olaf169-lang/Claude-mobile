@@ -193,7 +193,7 @@ export const POMOC = {
       osoby klikasz jednym palcem. Ostatnie zagranie cofa „↶”.</p>
       <p>Wchodzi się przyciskiem 🎙 przy nagłówku meczu. Liczba obok ikony mówi, ile zagrań już jest.</p>
       <p class="pomoc-nota"><b>Te liczby nie wchodzą do tabeli ani do Formy.</b> Nie każdy mecz będzie
-      sędziowany, więc porównywanie ich byłoby nieuczciwe. To ciekawostka, nie waluta.</p>`,
+      sędziowany, więc to tylko ciekawostka.</p>`,
   },
 
   transkrypcja: {
@@ -225,12 +225,11 @@ export const POMOC = {
 
   zamykanie: {
     kluczowe: true,
-    tytul: 'Zapisanie wieczoru i kod',
-    tresc: `<p>Przycisk <b>„Zapisz wieczór”</b> zamyka wieczór na klucz. Od tej chwili nikt już w nim
-      nic nie zmieni. Dopóki jest otwarty, poprawiacie do woli.</p>
-      <p><b>Poprawka po zapisaniu wymaga kodu</b>, który ma tylko Pan Piąteczka. Po odblokowaniu
-      zapisujecie wieczór na nowo.</p>
-      <p class="pomoc-nota">Uczciwie: to zapora przed pomyłką i cichą zmianą wyniku, nie sejf.</p>`,
+    tytul: 'Zapisywanie i zatwierdzanie',
+    tresc: `<p>Wyniki <b>zapisują się same</b>. Możesz wyjść i wrócić do wieczoru z kalendarza,
+      żeby dograć resztę.</p>
+      <p><b>„Zatwierdź i zamknij”</b> kończy wieczór na klucz. Poprawka po zatwierdzeniu wymaga
+      kodu od Pana Piąteczki.</p>`,
   },
 
   poprawianie: {

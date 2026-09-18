@@ -133,8 +133,8 @@ function kartaNaZywo() {
       <div class="nazywo-opis">
         <b>${naZywo ? '🔴 Słucham' : 'Sędziuj głosem'}</b>
         <em>${naZywo
-          ? 'Mów, co się dzieje. Zagrania lecą od razu, ekran nie zgaśnie.'
-          : 'Mikrofon stoi otwarty przez cały set, a zagrania wpadają od razu.'}</em>
+          ? 'Mów, co się dzieje. Ekran nie zgaśnie.'
+          : 'Mikrofon otwarty przez cały set, zagrania wpadają od razu.'}</em>
       </div>
       <button class="btn ${naZywo ? 'btn-groza' : 'btn-glowny'}" type="button" id="na-zywo">
         ${naZywo ? '⏹ Koniec' : '🎙 Start'}</button>
@@ -165,7 +165,7 @@ function klikanie(wieczor, strony, ileSetow) {
         <span aria-hidden="true">${z.ikona}</span><b>${z.nazwa}</b></button>`).join('')}
     </div>
     <p class="wskazowka">${kto
-      ? `Klikasz zdarzenie i dopisuje się do <b>${bez(imieW(wieczor, kto))}</b>. Gracz zostaje wybrany, więc serię akcji jednej osoby klikasz jednym palcem.`
+      ? `Zdarzenia dopisują się do <b>${bez(imieW(wieczor, kto))}</b>, aż wybierzesz kogoś innego.`
       : 'Najpierw dotknij gracza, potem zdarzenie.'}</p>
   </section>`;
 }
@@ -175,8 +175,7 @@ function klikanie(wieczor, strony, ileSetow) {
 function tekstowanie(wieczor) {
   return `<section class="karta">
     ${naglowekZPomoca('Z transkrypcji', 'transkrypcja')}
-    <p class="wskazowka">Wklej tekst albo podyktuj mikrofonem z klawiatury. Mów zwyczajnie:
-    <i>„Tomek serwis w aut. Przy moim serwisie winner. Błąd Jacka.”</i></p>
+    <p class="wskazowka">Mów albo wklej zwyczajnie: <i>„Tomek serwis w aut. Błąd Jacka.”</i></p>
     <textarea id="pole-transkrypcja" class="pole-tekst" rows="4"
       placeholder="Tomek serwis w aut. Winner Kafaara. Piąteczka w siatkę…">${bez(szkicTekstu)}</textarea>
     <div class="sedzia-akcje">
@@ -184,8 +183,8 @@ function tekstowanie(wieczor) {
         ${sluchanie ? '⏹ Zatrzymaj' : '🎤 Dyktuj'}</button>` : ''}
       <button class="btn btn-glowny" type="button" id="rozpoznaj">Rozpoznaj</button>
     </div>
-    ${mowaDostepna() ? '' : `<p class="pomoc-nota">Ta przeglądarka nie ma rozpoznawania mowy,
-      użyj mikrofonu na klawiaturze telefonu, wychodzi na to samo.</p>`}
+    ${mowaDostepna() ? '' : `<p class="pomoc-nota">Brak rozpoznawania mowy w tej przeglądarce,
+      użyj mikrofonu na klawiaturze.</p>`}
     ${podglad ? kartaPodgladu(wieczor) : ''}
   </section>`;
 }
@@ -443,6 +442,7 @@ function zwolnijBlokadeEkranu() {
 /* Przeglądarka zwalnia WakeLock, gdy karta schodzi w tło (np. przyjdzie
    powiadomienie). Po powrocie bierzemy go z powrotem. */
 function pilnujBlokady() {
+  if (typeof document === 'undefined') return;
   document.addEventListener('visibilitychange', () => {
     if (naZywo && document.visibilityState === 'visible' && !blokadaEkranu) wlaczBlokadeEkranu();
   });
