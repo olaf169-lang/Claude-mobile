@@ -38,8 +38,8 @@ export function render(kontener, ctx) {
 
     <section class="karta">
       ${naglowekZPomoca('Terminy są umowne', 'kalendarz')}
-      <p class="wskazowka">Nie zagracie w każdy wtorek i nic się nie stanie, bo opuszczony termin nie
-      kosztuje w tabeli ani jednego punktu. Możesz też dopisać wieczór w dowolnym innym dniu.</p>
+      <p class="wskazowka">Opuszczony wtorek nic nie kosztuje. Dotknij dnia, żeby wpisać albo
+      dograć wieczór.</p>
     </section>
 
     ${[...miesiace].map(([klucz, dni]) => `

@@ -38,7 +38,7 @@ export function render(kontener, ctx) {
     <section class="hero">
       <p class="hero-nad">Sezon ${SEZON.nazwa}</p>
       <h1 class="hero-nazwa">Turniej<br>Pana Piąteczki</h1>
-      <p class="hero-pod">Liga czterech graczy w badmintona. Sprawdź formę, pokonaj rywali i sięgnij po Puchar Pana Piąteczki.</p>
+      <p class="hero-pod">Liga czterech graczy w badmintona.</p>
       <div class="hero-akcje">
         <a class="btn btn-glowny" href="#/wieczor">${nastepny === dzis ? 'Gramy dziś, wpisz wynik' : 'Wpisz wynik'}</a>
         <a class="btn btn-obrys" href="#/zasady">Jak to działa</a>
@@ -60,8 +60,8 @@ export function render(kontener, ctx) {
 
     <section class="karta karta-zapros">
       <div class="zapros-tresc">
-        <b>Ktoś jeszcze nie ma appki?</b>
-        <span class="cichy">Wyślij mu link, otwiera się w przeglądarce i nic się nie instaluje.</span>
+        <b>Ktoś nie ma appki?</b>
+        <span class="cichy">Wyślij link, otwiera się w przeglądarce.</span>
       </div>
       <button class="btn btn-obrys" type="button" id="wyslij-link">🔗 Wyślij link</button>
     </section>
@@ -72,7 +72,7 @@ export function render(kontener, ctx) {
         ${GRACZE.map((g) => `<button class="chip ${ctx.ja === g.id ? 'wybrany' : ''}" type="button"
           data-ja="${g.id}">${g.imie}</button>`).join('')}
       </div>
-      <p class="wskazowka">Służy tylko do podświetlenia Twojego wiersza w tabeli. Wpisywać może każdy.</p>
+      <p class="wskazowka">Podświetla Twój wiersz w tabeli. Wpisywać może każdy.</p>
     </section>`;
 
   kontener.querySelectorAll('[data-skrot-tryb]').forEach((el) =>

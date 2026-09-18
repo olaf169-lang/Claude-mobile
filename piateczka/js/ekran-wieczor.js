@@ -100,9 +100,8 @@ function kartaTerminu(wieczor, zamek) {
         <button class="chip chip-wlasny" type="button" id="format-wlasny"
           ${zamek ? 'disabled' : ''}>✎ własny</button>
       </div>
-      <p class="wskazowka">Teraz: <b>${opisFormatu(format)}</b>. Przy remisie na styku gracie
-      na przewagę dwóch punktów, więc pole przyjmuje wynik wyższy niż granica seta.
-      Każdy mecz może mieć swój format, zmienisz go na jego karcie.</p>
+      <p class="wskazowka">Teraz: <b>${opisFormatu(format)}</b>. Każdy mecz może mieć swój
+      format, zmienisz go na jego karcie.</p>
     </div>
   </section>`;
 }
@@ -128,8 +127,6 @@ function kartaRodzaju(iluGra) {
       </button>`).join('')}
     </div>
     <p class="wskazowka">${opisUkladu(iluGra, szkicTrybu)}</p>
-    <p class="wskazowka cichy">Drugi rodzaj dorzucisz w każdej chwili przyciskiem
-    „Dograj mecz”, bo po deblach można jeszcze zagrać szybkiego singielka.</p>
   </section>`;
 }
 
@@ -187,7 +184,7 @@ function ileMeczow(ilu, tryb) {
 function opisUkladu(ilu, tryb) {
   if (ilu < 2) return 'Zaznacz przynajmniej dwie osoby.';
   const n = ileMeczow(ilu, tryb);
-  const dopisek = ' Ile meczów zagracie, ustawicie po zatwierdzeniu składu.';
+  const dopisek = ' Liczbę meczów wybierzecie po zatwierdzeniu składu.';
   if (tryb === 'debel' && ilu >= 4) {
     return `${ilu} grających, pełna rotacja to ${n} ${odmianaMeczow(n)}: każdy w parze z każdym i dwa razy przeciw.${dopisek}`;
   }
@@ -325,24 +322,24 @@ function kartaZapisu(wieczor, zamek) {
 
   if (zamek) {
     return `<section class="karta karta-zapis zapisany">
-      ${naglowekZPomoca('Zapisany na klucz', 'zamykanie')}
-      <p class="wskazowka">Ten wieczór jest policzony i zamknięty. Żeby cokolwiek w nim poprawić,
-      potrzebny jest kod od Pana Piąteczki. Napisz na grupie, o co chodzi, i poproś o odblokowanie.</p>
-      <button class="btn btn-obrys szeroki" type="button" id="odblokuj">🔑 Mam kod, odblokuj edycję</button>
+      ${naglowekZPomoca('Zatwierdzony', 'zamykanie')}
+      <p class="wskazowka">Wieczór jest zamknięty. Poprawka wymaga kodu od Pana Piąteczki.</p>
+      <button class="btn btn-obrys szeroki" type="button" id="odblokuj">🔑 Mam kod, odblokuj</button>
     </section>`;
   }
 
   return `<section class="karta karta-zapis">
     ${naglowekZPomoca('Koniec grania?', 'zamykanie')}
     ${rozegrane.length === 0
-      ? '<p class="wskazowka">Wpiszcie choć jeden wynik, a pojawi się przycisk zapisu.</p>'
-      : `${niedokonczone.length ? `<p class="wskazowka ostrzezenie-tekst">
-          ${niedokonczone.length === 1 ? 'Jeden mecz nie jest jeszcze dograny' : `${niedokonczone.length} mecze nie są jeszcze dograne`}
-          do końca formatu. Możesz zapisać mimo to, wynik policzy się z tego, co jest.</p>` : ''}
-        <button class="btn btn-glowny szeroki" type="button" id="zapisz-wieczor">
-          ✅ Zapisz wieczór (${rozegrane.length} ${odmianaMeczow(rozegrane.length)})</button>
-        <p class="wskazowka">Po zapisaniu wieczór się zamyka: wynik jest policzony i nikt go już
-        przypadkiem nie ruszy. Odblokowanie wymaga kodu.</p>`}
+      ? '<p class="wskazowka">Wpiszcie choć jeden wynik.</p>'
+      : `<p class="wskazowka">Wyniki zapisują się same. Możesz wyjść i wrócić tu z kalendarza,
+          żeby dograć resztę.</p>
+        <button class="btn btn-glowny szeroki" type="button" id="zapisz-wyjdz">💾 Zapisz i wyjdź</button>
+        <button class="btn btn-obrys szeroki" type="button" id="zatwierdz-wieczor" style="margin-top:8px">
+          🔒 Zatwierdź i zamknij (${rozegrane.length} ${odmianaMeczow(rozegrane.length)})</button>
+        ${niedokonczone.length ? `<p class="wskazowka ostrzezenie-tekst">
+          ${niedokonczone.length === 1 ? 'Jeden mecz nie jest dograny' : `${niedokonczone.length} mecze nie są dograne`}.
+          Zatwierdzenie policzy je z tego, co jest.</p>` : ''}`}
     <button class="btn btn-groza szeroki" type="button" id="usun-wieczor"
       style="margin-top:14px">Usuń cały wieczór</button>
   </section>`;
@@ -491,12 +488,17 @@ function podepnij(kontener, ctx) {
     if (w) pochwalSie(w);
   });
 
-  kontener.querySelector('#zapisz-wieczor')?.addEventListener('click', async () => {
-    if (!await potwierdz('Zapisać i zamknąć wieczór?',
+  kontener.querySelector('#zapisz-wyjdz')?.addEventListener('click', () => {
+    komunikat('💾 Zapisane. Wróć tu z kalendarza, żeby dograć.');
+    location.hash = '#/';
+  });
+
+  kontener.querySelector('#zatwierdz-wieczor')?.addEventListener('click', async () => {
+    if (!await potwierdz('Zatwierdzić i zamknąć wieczór?',
       'Wynik zostanie policzony, a wieczór zamknięty. Późniejsza poprawka wymaga kodu.',
-      'Tak, zapisz')) return;
+      'Tak, zatwierdź')) return;
     await baza.zamknijWieczor(wybranaData);
-    komunikat('✅ Zapisane, wieczór policzony i zamknięty');
+    komunikat('🔒 Zatwierdzone i zamknięte');
   });
 
   kontener.querySelector('#odblokuj')?.addEventListener('click', async () => {
