@@ -100,6 +100,10 @@ function wiersz(r, ja, seria) {
 function szczegoly(id, tabela, wieczory, tryb) {
   const r = tabela.find((x) => x.id === id);
   if (!r) return;
+  // Zawsze pokazujemy oba tryby, niezależnie od tego, którą tabelę ktoś otworzył.
+  const sezonowe = wieczory.filter((w) => !w.towarzyski);
+  const wTrybie = (t) => klasyfikacja(sezonowe, { tryb: t }).find((x) => x.id === id) ?? null;
+  const dwaTryby = [['Debel', wTrybie('debel')], ['Singiel', wTrybie('singiel')]];
   const zagr = statystykiSezonu(wieczory, { tryb }).get(id);
   const sedziowanych = ileSedziowanych(wieczory, { tryb });
   const lista = (obj, pusty) => {
@@ -113,7 +117,6 @@ function szczegoly(id, tabela, wieczory, tryb) {
 
   const { trafione, noszonyId, reczny } = mojePrzydomki(id, wieczory, wyboryPrzydomkow());
   const p = trafione.find((x) => x.id === noszonyId) ?? null;
-  const procentWygranych = r.mecze ? Math.round((r.meczeW / r.mecze) * 100) : 0;
   const a = arkusz({
     tytul: `${bez(gracz(id).imie)}: szczegóły`,
     tresc: `
@@ -126,14 +129,19 @@ function szczegoly(id, tabela, wieczory, tryb) {
         ${listaWyboru({ id, trafione, noszonyId, reczny })}` : ''}
       <p class="pomoc-nota">Przydomki liczą się z wszystkich meczów, debla i singla razem.
       Oba tryby porównują tylko „Mistrz Pedałowania” i „Samotny Wilk”.</p>
-      <div class="statystyki">
-        <div><span>${r.meczeW}</span><em>wygranych</em></div>
-        <div><span>${r.meczeP}</span><em>przegranych</em></div>
-        <div><span>${procentWygranych}%</span><em>skuteczność</em></div>
-        <div><span>${r.setyW}:${r.setyP}</span><em>sety</em></div>
-        <div><span>${r.zdobyte}</span><em>zdobyte pkt</em></div>
-        <div><span>${r.najdluzszaSeria}</span><em>najdłuższa seria</em></div>
-      </div>
+      <h4>Wyniki: debel i singiel</h4>
+      <table class="staty-tryby">
+        <thead><tr><th></th><th>W:P</th><th>sety</th><th>pkt</th><th>%</th></tr></thead>
+        <tbody>
+          ${dwaTryby.map(([nazwa, rr]) => rr && rr.mecze
+            ? `<tr><th>${nazwa}</th>
+                <td><b class="${rr.meczeW > rr.meczeP ? 'plus' : rr.meczeW < rr.meczeP ? 'minus' : 'zero'}">${rr.meczeW}:${rr.meczeP}</b></td>
+                <td>${rr.setyW}:${rr.setyP}</td>
+                <td>${rr.zdobyte}</td>
+                <td>${Math.round((rr.meczeW / rr.mecze) * 100)}%</td></tr>`
+            : `<tr><th>${nazwa}</th><td colspan="4" class="cichy">nie grał</td></tr>`).join('')}
+        </tbody>
+      </table>
       ${zagr && zagr.razem ? `<h4>Statystyki z sędziowania ${dymek('sedzia')}</h4>
         ${(() => {
           const w = wskazniki(zagr);
