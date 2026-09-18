@@ -180,16 +180,15 @@ SEGMENTS: tuple[Segment, ...] = (
         feeds=(
             _f("https://www.urania.edu.pl/rss.xml", "Urania", weight=1.15),
             _f("https://kosmonauta.net/feed/", "Kosmonauta.net", weight=1.0),
-            _f("https://astronet.pl/feed/", "AstroNET", weight=0.95),
+            _f("https://www.astronomy.com/feed/", "Astronomy Magazine", lang=EN, weight=1.05),
             _f("https://www.pulskosmosu.pl/feed/", "Puls Kosmosu", weight=0.9),
             _f("https://naukawpolsce.pl/rss.xml", "Nauka w Polsce", weight=1.0, topical=False),
             _f("https://phys.org/rss-feed/space-news/astronomy/", "Phys.org Astronomy", lang=EN, weight=1.2),
             _f("https://www.nasa.gov/feed/", "NASA", lang=EN, weight=1.3),
             _f("https://www.esa.int/rssfeed/Our_Activities/Space_Science", "ESA", lang=EN, weight=1.2),
-            _f("https://skyandtelescope.org/feed/", "Sky & Telescope", lang=EN, weight=1.1),
+            _f("https://skyandtelescope.org/astronomy-news/feed/", "Sky & Telescope News", lang=EN, weight=1.05),
             _f("https://www.universetoday.com/feed/", "Universe Today", lang=EN, weight=1.0),
             _f("https://earthsky.org/feed/", "EarthSky", lang=EN, weight=0.95),
-            _f("https://www.space.com/feeds/all", "Space.com", lang=EN, weight=1.0),
         ),
         boost=(
             "teleskop", "telescope", "galaktyk", "galaxy", "gwiazd", "star",
