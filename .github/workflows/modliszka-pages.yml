@@ -1,0 +1,43 @@
+name: MANTIS — publikacja na GitHub Pages
+
+# Publikuje katalog modliszka/ jako stronę Pages, więc gra jest dostępna
+# pod adresem https://<uzytkownik>.github.io/<repo>/ i można ją zainstalować
+# na telefonie jak aplikację. Uruchamia się przy zmianach w modliszka/ na
+# gałęzi roboczej oraz ręcznie z zakładki Actions.
+on:
+  push:
+    branches:
+      - claude/game-review-planning-9vbfs7
+    paths:
+      - "modliszka/**"
+      - ".github/workflows/modliszka-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  publikuj:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Włącz i skonfiguruj Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Spakuj katalog modliszka
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: modliszka
+      - name: Wdróż na Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
