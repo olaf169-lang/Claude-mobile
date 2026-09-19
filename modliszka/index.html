@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no, maximum-scale=1">
+<meta name="theme-color" content="#8fce8c">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<title>MANTIS</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    width: 100%; height: 100%; overflow: hidden;
+    background: #6cb673; touch-action: none;
+    -webkit-user-select: none; user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    overscroll-behavior: none;
+  }
+  #gra { display: block; touch-action: none; }
+
+  /* prosty panel testowy na czas M1, znika w wersji dla dziecka */
+  #test {
+    position: fixed; left: env(safe-area-inset-left, 8px); top: env(safe-area-inset-top, 8px);
+    display: flex; gap: 6px; flex-wrap: wrap; max-width: 60vw;
+    font: 13px system-ui, sans-serif; z-index: 10;
+  }
+  #test button {
+    border: 0; border-radius: 8px; padding: 7px 10px;
+    background: rgba(255,255,255,0.82); color: #3d5c1e; font-weight: 600;
+  }
+  #test button.akt { background: #6e9a33; color: #fff; }
+  #podp {
+    position: fixed; left: 0; right: 0; bottom: calc(env(safe-area-inset-bottom, 10px) + 8px);
+    text-align: center; font: 13px system-ui, sans-serif; color: rgba(40,60,20,.6);
+    pointer-events: none;
+  }
+</style>
+</head>
+<body>
+<canvas id="gra"></canvas>
+
+<div id="test">
+  <button data-st="1">L1</button>
+  <button data-st="4" class="akt">L4</button>
+  <button data-st="8">L8</button>
+  <button data-gat="zwyczajna" class="akt">zielona</button>
+  <button data-gat="duchowa">duchowa</button>
+  <button data-gat="storczykowa">storczyk</button>
+</div>
+<div id="podp">M1: dotknij ekranu, modliszka pójdzie w tamtą stronę</div>
+
+<script src="silnik/modliszka.js"></script>
+<script src="silnik/swiat.js"></script>
+<script src="silnik/gra.js"></script>
+<script>
+  document.querySelectorAll('#test button').forEach(b => {
+    b.addEventListener('click', () => {
+      if (b.dataset.st) {
+        MantisTest.stadium(+b.dataset.st);
+        document.querySelectorAll('[data-st]').forEach(x => x.classList.remove('akt'));
+      } else {
+        MantisTest.gatunek(b.dataset.gat);
+        document.querySelectorAll('[data-gat]').forEach(x => x.classList.remove('akt'));
+      }
+      b.classList.add('akt');
+    });
+  });
+</script>
+</body>
+</html>

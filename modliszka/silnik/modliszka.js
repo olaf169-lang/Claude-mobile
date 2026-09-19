@@ -369,9 +369,27 @@
       ctx.beginPath(); ctx.ellipse(-4, 1.5, pr.odwlok * 0.9, 3.6, 0, 0, 7); ctx.fill();
     }
 
+    /* Chód: każde z czterech odnóży krocznych stąpa według wspólnej fazy
+       (z.krok, rośnie z przebytą drogą), pary po przekątnej na zmianę.
+       intensywnosc = ile z pełnego kroku, 0 gdy modliszka stoi. */
+    const krok = z.krok || 0;
+    const chodzi = z.intensywnosc || 0;
+    function stopaChodu(bazaX, faza) {
+      const c = (krok + faza) % 1;
+      const podnos = Math.max(0, Math.sin(c * Math.PI * 2)) * chodzi;   // uniesienie
+      const przod = Math.cos(c * Math.PI * 2) * chodzi;                 // wymach
+      return pkt(bazaX + przod * 4 * n, -podnos * 5 * n);
+    }
+    function noga(ctx2, biodro, bazaX, faza, kolanoX, kolanoY, dalekie) {
+      const stopa = stopaChodu(bazaX, faza);
+      const kolano = pkt(mieszaj(biodro.x, stopa.x, 0.5) + kolanoX,
+                         Math.min(biodro.y, kolanoY) - Math.max(0, -stopa.y) * 0.4);
+      odnozeKroczne(ctx2, biodro, kolano, stopa, gr, pal, dalekie);
+    }
+
     /* dalsza strona ciała */
-    odnozeKroczne(ctx, przesun(s.biodro, 3, 0), pkt(-10 * n + 3, s.biodro.y - 19 * n), pkt(-24 * n, 0), gr, pal, true);
-    odnozeKroczne(ctx, przesun(s.meso, 3, 0), pkt(17 * n + 3, s.meso.y - 17 * n), pkt(25 * n, 0), gr, pal, true);
+    noga(ctx, przesun(s.biodro, 3, 0), -24 * n + 3, 0.5, 0, s.biodro.y - 19 * n, true);
+    noga(ctx, przesun(s.meso, 3, 0), 25 * n + 3, 0.0, 4 * n, s.meso.y - 17 * n, true);
     odnozeChwytne(ctx, pr, s, pal, u, true);
 
     skrzydla(ctx, pr, s, pal, !!z.skrzydlaRozlozone);
@@ -380,8 +398,8 @@
     tulow(ctx, pr, s, pal);
 
     /* bliższa strona */
-    odnozeKroczne(ctx, s.biodro, pkt(-13 * n, s.biodro.y - 21 * n), pkt(-29 * n, 0), gr, pal, false);
-    odnozeKroczne(ctx, s.meso, pkt(19 * n, s.meso.y - 19 * n), pkt(29 * n, 0), gr, pal, false);
+    noga(ctx, s.biodro, -29 * n, 0.0, -2 * n, s.biodro.y - 21 * n, false);
+    noga(ctx, s.meso, 29 * n, 0.5, 5 * n, s.meso.y - 19 * n, false);
     odnozeChwytne(ctx, pr, s, pal, u, false);
     glowa(ctx, pr, s, pal, o.patrzy);
 
