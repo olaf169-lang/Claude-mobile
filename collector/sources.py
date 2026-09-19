@@ -34,7 +34,7 @@ SEGMENTS: tuple[Segment, ...] = (
         blurb="polityka, gospodarka, handel, sprawy krajowe",
         feeds=(
             _f("https://www.rmf24.pl/fakty/polska/feed", "RMF24", weight=1.15),
-            _f("https://www.polsatnews.pl/rss/polska.xml", "Polsat News", weight=1.05),
+            _f("https://www.rp.pl/rss/1019", "Rzeczpospolita", weight=1.1),
             _f("https://wiadomosci.onet.pl/.feed", "Onet Wiadomości", weight=1.0, topical=False),
             _f("https://fakty.interia.pl/feed", "Interia Fakty", weight=1.0, topical=False),
             _f("https://wiadomosci.gazeta.pl/pub/rss/wiadomosci.htm", "Gazeta.pl", weight=1.0, topical=False),
@@ -58,7 +58,7 @@ SEGMENTS: tuple[Segment, ...] = (
         blurb="polityka międzynarodowa, dyplomacja, handel globalny",
         feeds=(
             _f("https://www.rmf24.pl/fakty/swiat/feed", "RMF24 Świat", weight=1.05),
-            _f("https://www.polsatnews.pl/rss/swiat.xml", "Polsat News Świat", weight=1.0),
+            _f("https://feeds.bbci.co.uk/news/world/europe/rss.xml", "BBC Europe", lang=EN, weight=1.15),
             _f("https://wiadomosci.onet.pl/swiat.feed", "Onet Świat", weight=1.0),
             _f("https://feeds.bbci.co.uk/news/world/rss.xml", "BBC News", lang=EN, weight=1.35),
             _f("https://www.theguardian.com/world/rss", "The Guardian", lang=EN, weight=1.2),
@@ -86,7 +86,7 @@ SEGMENTS: tuple[Segment, ...] = (
             _f("https://sport.interia.pl/feed", "Interia Sport", weight=1.05),
             _f("https://sport.onet.pl/.feed", "Onet Sport", weight=1.0),
             _f("https://weszlo.com/feed/", "Weszło", weight=0.9),
-            _f("https://www.polsatsport.pl/rss/wszystkie.xml", "Polsat Sport", weight=1.0),
+            _f("https://www.tvpsport.pl/rss", "TVP Sport", weight=1.0),
         ),
         boost=(
             "polska", "polak", "polka", "polacy", "reprezentacja", "ekstraklasa",
@@ -110,7 +110,7 @@ SEGMENTS: tuple[Segment, ...] = (
             _f("https://sportowefakty.wp.pl/rss.xml", "Sportowe Fakty", weight=1.0, topical=False),
             _f("https://sport.onet.pl/.feed", "Onet Sport", weight=1.0, topical=False),
             _f("https://sport.interia.pl/feed", "Interia Sport", weight=1.0, topical=False),
-            _f("https://www.polsatsport.pl/rss/wszystkie.xml", "Polsat Sport", weight=0.95, topical=False),
+            _f("https://feeds.bbci.co.uk/sport/tennis/rss.xml", "BBC Tennis", lang=EN, weight=1.05),
         ),
         boost=(
             "champions league", "premier league", "la liga", "nba", "nfl", "mlb",
@@ -179,7 +179,6 @@ SEGMENTS: tuple[Segment, ...] = (
         blurb="kosmos, misje, teleskopy i to, co widać nad głową",
         feeds=(
             _f("https://www.urania.edu.pl/rss.xml", "Urania", weight=1.15),
-            _f("https://kosmonauta.net/feed/", "Kosmonauta.net", weight=1.0),
             _f("https://www.astronomy.com/feed/", "Astronomy Magazine", lang=EN, weight=1.05),
             _f("https://www.pulskosmosu.pl/feed/", "Puls Kosmosu", weight=0.9),
             _f("https://naukawpolsce.pl/rss.xml", "Nauka w Polsce", weight=1.0, topical=False),
