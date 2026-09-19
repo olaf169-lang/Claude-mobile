@@ -1,9 +1,9 @@
 /* ==========================================================================
-   MANTIS, pętla gry (etap M2)
-   Dochodzi: owady, czujność i płoszenie, atak odnóżami, jedzenie, pasek
-   wzrostu segmentowy, osiem stadiów z rosnącą skalą i odjeżdżającą kamerą.
-   Wylinka jest na tym etapie uproszczona (błysk plus zmiana rozmiaru).
-   Pełną, wiszącą wylinkę robimy w M3.
+   MANTIS, pętla gry (etap M3)
+   M2 dało: owady, czujność, atak, jedzenie, pasek, osiem stadiów.
+   M3 dokłada: prawdziwą wylinkę (wiszenie głową w dół, pękanie pancerza,
+   wychodzenie większej modliszki), ekran zwycięstwa ze skrzydłami i
+   gwiazdkami, wolne polowanie z ważką oraz ootekę jako epilog.
    ========================================================================== */
 
 (function () {
@@ -35,14 +35,14 @@
      rośnie, podczas gdy zoom maleje, więc świat kurczy się względem
      modliszki. To daje odczucie wzrostu mocniej niż samo powiększenie. */
   const STADIA = [
-    { food: 2, dl: 90,  zoom: 1.30 },
-    { food: 2, dl: 106, zoom: 1.20 },
-    { food: 2, dl: 124, zoom: 1.10 },
-    { food: 3, dl: 146, zoom: 1.00 },
-    { food: 3, dl: 172, zoom: 0.90 },
-    { food: 4, dl: 205, zoom: 0.80 },
-    { food: 4, dl: 240, zoom: 0.72 },
-    { food: 0, dl: 285, zoom: 0.64 }   // L8 dorosła, koniec wzrostu
+    { food: 2, dl: 90,  zoom: 1.040 },
+    { food: 2, dl: 106, zoom: 0.960 },
+    { food: 2, dl: 124, zoom: 0.880 },
+    { food: 3, dl: 146, zoom: 0.800 },
+    { food: 3, dl: 172, zoom: 0.720 },
+    { food: 4, dl: 205, zoom: 0.640 },
+    { food: 4, dl: 240, zoom: 0.576 },
+    { food: 0, dl: 285, zoom: 0.512 }   // L8 dorosła, koniec wzrostu
   ];
 
   const SWIAT_SZER = 1600;
@@ -89,6 +89,7 @@
     owady: [],
     kamera: SWIAT_SZER * 0.5,
     wylinka: 0,                                   // postęp animacji wylinki 0..1
+    zwyc: 0, wolneCzas: 0, konfetti: [], ooteka: null,
     czas: 0, iskry: []
   };
 
@@ -106,6 +107,7 @@
     return Object.keys(Owad.TYPY).filter(k => {
       const t = Owad.TYPY[k];
       if (t.ruch === 'tlo') return true;                   // mrówka zawsze jako tło
+      if (k === 'wazka') return stan.faza === 'wolne';      // ważka tylko po zwycięstwie
       return t.odStadium <= st && st < t.odStadium + 4;    // owady znikają, gdy modliszka za duża
     });
   }
@@ -191,6 +193,9 @@
       case 'lot-chwiej':
         o.x += Math.sin(o.faza * 0.8) * 30 * dt;
         o.y = o.bazaY + Math.sin(o.faza * 1.7) * 22; break;
+      case 'lot-szybki':
+        o.x += Math.cos(o.faza * 2.2) * 110 * dt * o.kierunek;
+        o.y = o.bazaY + Math.sin(o.faza * 4) * 26; break;
     }
     if (o.kierunek === undefined) o.kierunek = o.vx >= 0 ? 1 : -1;
     else if (Math.abs(o.vx) > 1) o.kierunek = o.vx > 0 ? 1 : -1;
@@ -218,7 +223,10 @@
 
   let wcisniete = false;
   function celuj(clientX, clientY) {
-    if (stan.faza !== 'gra') return;
+    /* po zwycięstwie (gdy skrzydła już rozłożone) dotknięcie przechodzi
+       do wolnego polowania */
+    if (stan.faza === 'zwyciestwo') { if (stan.zwyc > 2.5) wejdzWolne(); return; }
+    if (stan.faza !== 'gra' && stan.faza !== 'wolne') return;
     const p = ekranNaSwiat(clientX, clientY);
     const m = stan.modliszka;
     /* szukamy owada blisko punktu dotyku, z dużym marginesem wybaczania */
@@ -273,6 +281,7 @@
     stan.iskry.forEach(s => { s.x += s.vx * dt; s.y += s.vy * dt; s.vy += 120 * dt; });
 
     if (stan.faza === 'wylinka') { aktualizujWylinke(dt); return; }
+    if (stan.faza === 'zwyciestwo') { aktualizujZwyciestwo(dt); return; }
 
     uzupelnijOwady(dt);
     stan.owady.forEach(o => {
@@ -339,10 +348,37 @@
     /* automatyczny atak, gdy cel w zasięgu */
     if (m.owadCel) sprobujAtak();
 
+    /* wolne polowanie: ważka i ooteka */
+    if (stan.faza === 'wolne') {
+      stan.wolneCzas += dt;
+      if (!stan.owady.some(o => o.typ === 'wazka' && o.zyje) && Math.random() < dt * 0.25) {
+        const o = nowyOwad(true); if (o) { o.typ = 'wazka'; o.naZiemi = false; o.bazaY = gruntY - 90; }
+      }
+      if (stan.wolneCzas > 22 && !stan.ooteka) rozpocznijOoteke();
+    }
+
     /* kamera z uwzględnieniem zoomu: modliszka blisko środka */
     const widoczne = SZER / m.zoom;
     const celKamery = Math.max(widoczne / 2, Math.min(SWIAT_SZER - widoczne / 2, m.x));
     stan.kamera += (celKamery - stan.kamera) * Math.min(1, dt * 7);
+
+    if (stan.ooteka) aktualizujOoteke(dt);
+  }
+
+  /* --- ooteka: epilog, dorosła samica składa kokon, wychodzą maleństwa - */
+  function rozpocznijOoteke() {
+    const m = stan.modliszka;
+    stan.ooteka = { x: m.x + m.kierunek * 40, y: gruntY - m.dlugosc * 0.9, t: 0, male: [] };
+    m.cel = null; m.owadCel = null;
+  }
+  function aktualizujOoteke(dt) {
+    const o = stan.ooteka; o.t += dt;
+    if (o.t > 6 && o.male.length === 0) {
+      for (let i = 0; i < 12; i++) {
+        o.male.push({ x: o.x, y: o.y + 20, vx: (Math.random() - 0.5) * 90, faza: Math.random() * 6, zyc: 0 });
+      }
+    }
+    o.male.forEach(mm => { mm.zyc += dt; mm.x += mm.vx * dt; mm.faza += dt; });
   }
 
   function zjedz(o) {
@@ -356,30 +392,166 @@
     if (potrzeba > 0 && m.food >= potrzeba) rozpocznijWylinke();
   }
 
-  /* --- wylinka (uproszczona na M2) ------------------------------------- */
+  /* --- wylinka (M3, prawdziwa) -----------------------------------------
+     Prawdziwa modliszka linieje wisząc głową w dół: grawitacja pomaga wyjść
+     ze starej skóry. Sekwencja: wspina się na gałązkę, zawisa, pancerz pęka,
+     nowa modliszka wysuwa się w dół, blada i miękka, stara skóra zostaje
+     wisząca. Ostatnia wylinka daje skrzydła i prowadzi do zwycięstwa. */
+  const WYL = { czas: 5.5 };
   function rozpocznijWylinke() {
-    if (stan.modliszka.stadiumIdx >= STADIA.length - 1) { stan.faza = 'zwyciestwo'; return; }
-    stan.faza = 'wylinka'; stan.wylinka = 0;
-    stan.modliszka.predkosc = 0; stan.modliszka.cel = null; stan.modliszka.owadCel = null;
+    const m = stan.modliszka;
+    stan.faza = 'wylinka'; stan.wylinka = 0; m.wyrosla = false;
+    m.predkosc = 0; m.cel = null; m.owadCel = null;
+    m.finalowa = (m.stadiumIdx >= STADIA.length - 2);   // wylinka do L8
+    /* punkt zawieszenia nad modliszką (gałązka) */
+    m.pinX = m.x; m.pinY = gruntY - m.dlugosc * 1.55;
+    if (dzwiek) dzwiek('wylinka');
   }
 
   function aktualizujWylinke(dt) {
     const m = stan.modliszka;
-    stan.wylinka += dt / 3;                       // około 3 sekundy
-    if (stan.wylinka >= 0.5 && m.stadiumIdx < STADIA.length - 1 && !m.wyrosla) {
+    stan.wylinka += dt / WYL.czas;
+    const w = stan.wylinka;
+    /* zmiana stadium następuje, gdy nowa modliszka zaczyna wychodzić */
+    if (w >= 0.45 && !m.wyrosla) {
       m.wyrosla = true;
-      m.stadiumIdx++;
+      if (m.stadiumIdx < STADIA.length - 1) m.stadiumIdx++;
       m.food = 0;
       const st = STADIA[m.stadiumIdx];
       m.dlugoscCel = st.dl; m.zoomCel = st.zoom;
       if (dzwiek) dzwiek('wzrost');
     }
-    m.dlugosc += (m.dlugoscCel - m.dlugosc) * Math.min(1, dt * 4);
-    m.zoom += (m.zoomCel - m.zoom) * Math.min(1, dt * 4);
+    /* kamera i zoom dojeżdżają dopiero pod koniec, przy odsłonięciu */
+    if (w > 0.8) {
+      m.zoom += (m.zoomCel - m.zoom) * Math.min(1, dt * 3);
+    }
     const widoczne = SZER / m.zoom;
-    const celKamery = Math.max(widoczne / 2, Math.min(SWIAT_SZER - widoczne / 2, m.x));
-    stan.kamera += (celKamery - stan.kamera) * Math.min(1, dt * 4);
-    if (stan.wylinka >= 1) { stan.faza = 'gra'; m.wyrosla = false; }
+    const celKamery = Math.max(widoczne / 2, Math.min(SWIAT_SZER - widoczne / 2, m.pinX));
+    stan.kamera += (celKamery - stan.kamera) * Math.min(1, dt * 3);
+    if (w >= 1) {
+      stan.wylinka = 1;
+      if (m.finalowa) { stan.faza = 'zwyciestwo'; stan.zwyc = 0; }
+      else { stan.faza = 'gra'; m.dlugosc = m.dlugoscCel; m.zoom = m.zoomCel; }
+    }
+  }
+
+  /* Rysunek jednej modliszki z dowolnym obrotem, skalą i przezroczystością.
+     Pozwala pokazać starą skórę (wisząca, przezroczysta) i nową (wychodzącą). */
+  function rysujModliszke(px, py, dlugosc, stadium, obrot, alpha, poza, biel) {
+    const m = stan.modliszka;
+    ctx.save();
+    ctx.translate(px, py); ctx.rotate(obrot || 0);
+    ctx.globalAlpha = alpha === undefined ? 1 : alpha;
+    if (biel > 0.01) {                            // świeżo po wylince blada i jasna: miękka poświata
+      const gl = ctx.createRadialGradient(0, -dlugosc * 0.4, 0, 0, -dlugosc * 0.4, dlugosc * 0.9);
+      gl.addColorStop(0, 'rgba(255,255,255,' + (biel * 0.5) + ')');
+      gl.addColorStop(1, 'rgba(255,255,255,0)');
+      ctx.fillStyle = gl;
+      ctx.beginPath(); ctx.arc(0, -dlugosc * 0.4, dlugosc * 0.9, 0, 7); ctx.fill();
+    }
+    Modliszka.rysuj(ctx, { x: 0, y: 0, dlugosc, stadium, gatunek: m.gatunek, kierunek: m.kierunek, poza });
+    ctx.restore();
+    ctx.globalAlpha = 1;
+  }
+
+  function rysujWylinke() {
+    const m = stan.modliszka;
+    const w = stan.wylinka;
+    const staraDl = STADIA[Math.max(0, m.stadiumIdx - (m.wyrosla ? 1 : 0))].dl;
+
+    /* gałązka, na której wisi */
+    ctx.strokeStyle = '#7d6a3f'; ctx.lineCap = 'round';
+    ctx.lineWidth = 10;
+    ctx.beginPath();
+    ctx.moveTo(m.pinX - 120, m.pinY - 14);
+    ctx.quadraticCurveTo(m.pinX, m.pinY - 4, m.pinX + 120, m.pinY - 16);
+    ctx.stroke();
+
+    const kol = Math.sin(stan.czas * 2) * 0.03;
+
+    if (w < 0.15) {
+      /* wspinaczka i zawiśnięcie: modliszka unosi się do gałązki */
+      const t = w / 0.15;
+      const y = mieszaj(gruntY, m.pinY, t);
+      const obrot = mieszaj(0, Math.PI, t);
+      rysujModliszke(m.pinX, y, staraDl, m.stadium, obrot, 1,
+        { kolysanie: kol, rozlozoneOdnoza: 0.2 }, 0);
+      return;
+    }
+
+    /* stara skóra wisi cały czas; po pęknięciu blednie do husk */
+    const skoraAlpha = w < 0.45 ? 1 : mieszaj(1, 0.4, Math.min(1, (w - 0.45) / 0.4));
+    rysujModliszke(m.pinX, m.pinY, staraDl, m.stadium, Math.PI, skoraAlpha,
+      { kolysanie: kol, rozlozoneOdnoza: 0.15, pekniecie: w > 0.3 ? Math.min(1, (w - 0.3) / 0.2) : 0 }, 0);
+
+    if (w >= 0.42) {
+      /* nowa modliszka wychodzi: z początku zwisa tuż pod skórą, potem
+         prostuje się i schodzi na gałązkę, na końcu staje normalnie */
+      const e = Math.min(1, (w - 0.42) / 0.46);          // wyłanianie 0..1
+      const nowaDl = mieszaj(staraDl * 0.85, m.dlugoscCel, e);
+      const biel = 1 - Math.min(1, (w - 0.55) / 0.3);    // blednie przez pierwsze chwile
+      if (w < 0.86) {
+        /* wisi głową w dół, wysuwa się coraz niżej */
+        const zsun = mieszaj(nowaDl * 0.25, nowaDl * 0.7, e);
+        rysujModliszke(m.pinX, m.pinY + zsun, nowaDl, m.stadium, Math.PI, Math.min(1, e * 1.6),
+          { kolysanie: kol * 2, rozlozoneOdnoza: mieszaj(-0.1, 0.25, e) }, biel);
+      } else {
+        /* prostuje się i schodzi na ziemię */
+        const s = (w - 0.86) / 0.14;
+        const obrot = mieszaj(Math.PI, 0, s);
+        const y = mieszaj(m.pinY + nowaDl * 0.7, gruntY, s);
+        m.dlugosc = nowaDl;
+        rysujModliszke(m.pinX, y, nowaDl, m.stadium, obrot, 1,
+          { kolysanie: kol, rozlozoneOdnoza: 0.2, katGlowy: 0,
+            skrzydlaRozlozone: false }, biel * 0.5);
+      }
+    }
+
+    /* iskry i pyłek podczas wychodzenia */
+    if (w > 0.5 && Math.random() < 0.4) iskra(m.pinX + (Math.random() - 0.5) * 80, m.pinY + Math.random() * 100);
+  }
+
+  const mieszaj = (a, b, t) => a + (b - a) * t;
+
+  /* --- zwycięstwo, wolne polowanie, ooteka ----------------------------- */
+  function aktualizujZwyciestwo(dt) {
+    stan.zwyc = (stan.zwyc || 0) + dt;
+    /* skrzydła rozprostowują się przez pierwsze dwie sekundy, potem
+       konfetti; po chwili dotknięcie ekranu przechodzi do wolnego polowania */
+    if (stan.zwyc < 3 && Math.random() < dt * 8) {
+      stan.konfetti.push(nowyKawalek());
+    }
+    stan.kamera += ((SZER / stan.modliszka.zoom / 2 > stan.modliszka.x
+      ? SZER / stan.modliszka.zoom / 2 : stan.modliszka.x) - stan.kamera) * Math.min(1, dt * 3);
+    aktualizujKonfetti(dt);
+  }
+
+  let konfettiInit = false;
+  function nowyKawalek() {
+    const W = stan.szerEkranuCss, kolory = ['#ffd23f', '#f2789f', '#7ec4ff', '#9be870', '#c79bff'];
+    return { x: Math.random() * W, y: -20, vx: (Math.random() - 0.5) * 40, vy: 60 + Math.random() * 120,
+      obrot: Math.random() * 6, vobrot: (Math.random() - 0.5) * 8,
+      kolor: kolory[(Math.random() * kolory.length) | 0], r: 5 + Math.random() * 6 };
+  }
+  function aktualizujKonfetti(dt) {
+    stan.konfetti.forEach(k => { k.x += k.vx * dt; k.y += k.vy * dt; k.obrot += k.vobrot * dt; });
+    stan.konfetti = stan.konfetti.filter(k => k.y < stan.wysEkranuCss + 30);
+  }
+  function rysujKonfetti() {
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    stan.konfetti.forEach(k => {
+      ctx.save(); ctx.translate(k.x, k.y); ctx.rotate(k.obrot);
+      ctx.fillStyle = k.kolor;
+      ctx.fillRect(-k.r / 2, -k.r / 2, k.r, k.r * 0.6);
+      ctx.restore();
+    });
+  }
+
+  /* wolne polowanie po zwycięstwie: dorosła modliszka zostaje na planszy,
+     bez paska, pojawia się ważka; po chwili modliszka składa ootekę */
+  function wejdzWolne() {
+    stan.faza = 'wolne'; stan.wolneCzas = 0; stan.owady = [];
+    for (let i = 0; i < 3; i++) { const o = nowyOwad(false); if (o) stan.owady.push(o); }
   }
 
   /* --- rysowanie ------------------------------------------------------- */
@@ -408,43 +580,42 @@
       if (o.zlapany) return;                       // złapany owad znika w chwycie
       Owad.rysuj(ctx, {
         x: o.x, y: o.y, typ: o.typ, faza: o.faza, kierunek: o.kierunek,
-        naZiemi: o.naZiemi, rozmiar: 40
+        naZiemi: o.naZiemi, rozmiar: 66
       });
     });
 
     /* modliszka */
-    const migotanie = stan.faza === 'wylinka'
-      ? (Math.sin(stan.wylinka * 40) * 0.5 + 0.5) * (1 - Math.abs(stan.wylinka - 0.5) * 2)
-      : 0;
-    const kol = Math.sin(m.kolysanieFaza) * (0.05 + 0.05 * (1 - m.intensywnosc));
-    /* głowa śledzi cel albo najbliższego owada */
-    let katG = kol * 0.5;
-    const patrzOwad = m.owadCel && m.owadCel.zyje ? m.owadCel : najblizszyOwad();
-    if (patrzOwad) {
-      const dx = (patrzOwad.x - glowaX(m)) * m.kierunek;
-      katG = Math.max(-0.5, Math.min(0.5, (patrzOwad.y - (gruntY - m.dlugosc * 0.4)) / 120)) + (dx < 0 ? 0.2 : 0);
-    }
-    m.katGlowyWyg += (katG - m.katGlowyWyg) * Math.min(1, 0.15);
-
-    Modliszka.rysuj(ctx, {
-      x: m.x, y: gruntY, dlugosc: m.dlugosc,
-      stadium: m.stadium, gatunek: m.gatunek, kierunek: m.kierunek,
-      poza: {
-        krok: m.krok, intensywnosc: m.intensywnosc,
-        kolysanie: kol, katGlowy: m.katGlowyWyg,
-        rozlozoneOdnoza: 0.15, atak: Math.sin(Math.min(1, m.atak) * Math.PI)
+    if (stan.faza === 'wylinka') {
+      rysujWylinke();
+    } else {
+      const kol = Math.sin(m.kolysanieFaza) * (0.05 + 0.05 * (1 - m.intensywnosc));
+      /* głowa śledzi cel albo najbliższego owada */
+      let katG = kol * 0.5;
+      const patrzOwad = m.owadCel && m.owadCel.zyje ? m.owadCel : najblizszyOwad();
+      if (patrzOwad) {
+        const dx = (patrzOwad.x - glowaX(m)) * m.kierunek;
+        katG = Math.max(-0.5, Math.min(0.5, (patrzOwad.y - (gruntY - m.dlugosc * 0.4)) / 120)) + (dx < 0 ? 0.2 : 0);
       }
-    });
+      m.katGlowyWyg += (katG - m.katGlowyWyg) * Math.min(1, 0.15);
 
-    if (migotanie > 0.01) {
-      ctx.save(); ustawSwiat();
-      ctx.globalAlpha = migotanie * 0.5;
-      ctx.fillStyle = '#ffffff';
-      ctx.beginPath(); ctx.arc(m.x, gruntY - m.dlugosc * 0.3, m.dlugosc * 0.7, 0, 7); ctx.fill();
-      ctx.restore();
+      const dorosla = m.stadium >= STADIA.length;
+      const skrzydlaRoz = dorosla && (stan.faza === 'zwyciestwo' || stan.faza === 'wolne');
+      Modliszka.rysuj(ctx, {
+        x: m.x, y: gruntY, dlugosc: m.dlugosc,
+        stadium: m.stadium, gatunek: m.gatunek, kierunek: m.kierunek,
+        poza: {
+          krok: m.krok, intensywnosc: m.intensywnosc,
+          kolysanie: kol, katGlowy: m.katGlowyWyg,
+          rozlozoneOdnoza: 0.15, atak: Math.sin(Math.min(1, m.atak) * Math.PI),
+          skrzydlaRozlozone: skrzydlaRoz
+        }
+      });
     }
 
-    /* iskry energii */
+    /* ooteka i maleństwa (świat) */
+    if (stan.ooteka) rysujOoteke();
+
+    /* iskry energii (świat) */
     stan.iskry.forEach(s => {
       ctx.globalAlpha = Math.max(0, s.zyc / 0.6);
       ctx.fillStyle = '#fff2a0';
@@ -452,7 +623,29 @@
     });
     ctx.globalAlpha = 1;
 
+    /* konfetti (ekran) na zwycięstwie i w wolnym polowaniu */
+    if (stan.faza === 'zwyciestwo' || stan.faza === 'wolne') rysujKonfetti();
+
     rysujHUD();
+  }
+
+  function rysujOoteke() {
+    const o = stan.ooteka;
+    /* kokon z pianki na gałązce */
+    ctx.fillStyle = '#e6d3a0'; ctx.strokeStyle = '#b79a63'; ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.ellipse(o.x, o.y, 22, 13, 0, 0, 7); ctx.fill(); ctx.stroke();
+    ctx.strokeStyle = 'rgba(150,120,70,0.5)'; ctx.lineWidth = 1;
+    for (let i = -2; i <= 2; i++) {
+      ctx.beginPath(); ctx.moveTo(o.x + i * 7, o.y - 11); ctx.lineTo(o.x + i * 7, o.y + 11); ctx.stroke();
+    }
+    /* maleństwa L1 */
+    o.male.forEach(mm => {
+      ctx.globalAlpha = Math.min(1, mm.zyc * 2);
+      Modliszka.rysuj(ctx, { x: mm.x, y: gruntY, dlugosc: 26, stadium: 1,
+        gatunek: stan.modliszka.gatunek, kierunek: mm.vx >= 0 ? 1 : -1,
+        poza: { krok: mm.faza, intensywnosc: 1, kolysanie: 0, rozlozoneOdnoza: 0.2 } });
+    });
+    ctx.globalAlpha = 1;
   }
 
   function najblizszyOwad() {
@@ -471,9 +664,10 @@
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     const W = stan.szerEkranuCss;
     const potrzeba = STADIA[m.stadiumIdx].food;
+    const graWtoku = stan.faza === 'gra';
 
     /* pasek segmentowy na górze */
-    if (potrzeba > 0) {
+    if (potrzeba > 0 && graWtoku) {
       const seg = potrzeba, sz = 26, odstep = 6;
       const calk = seg * sz + (seg - 1) * odstep;
       const x0 = (W - calk) / 2, y0 = 54;
@@ -487,12 +681,14 @@
       }
     }
     /* numer stadium po prawej */
-    ctx.fillStyle = 'rgba(255,255,255,0.85)';
-    ctx.strokeStyle = 'rgba(60,80,30,0.6)'; ctx.lineWidth = 2;
-    okragly(ctx, W - 62, 46, 46, 32, 10); ctx.fill(); ctx.stroke();
-    ctx.fillStyle = '#3d5c1e'; ctx.font = '700 22px system-ui, sans-serif';
-    ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-    ctx.fillText('L' + m.stadium, W - 39, 63);
+    if (graWtoku) {
+      ctx.fillStyle = 'rgba(255,255,255,0.85)';
+      ctx.strokeStyle = 'rgba(60,80,30,0.6)'; ctx.lineWidth = 2;
+      okragly(ctx, W - 62, 46, 46, 32, 10); ctx.fill(); ctx.stroke();
+      ctx.fillStyle = '#3d5c1e'; ctx.font = '700 22px system-ui, sans-serif';
+      ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+      ctx.fillText('L' + m.stadium, W - 39, 63);
+    }
 
     /* duża cyfra stadium podczas wylinki */
     if (stan.faza === 'wylinka' && stan.wylinka > 0.5) {
@@ -506,12 +702,51 @@
     }
 
     if (stan.faza === 'zwyciestwo') {
-      ctx.fillStyle = 'rgba(255,255,255,0.5)'; ctx.fillRect(0, 0, W, stan.wysEkranuCss);
-      ctx.fillStyle = '#3d5c1e'; ctx.font = '800 56px system-ui, sans-serif';
+      const a = Math.min(1, stan.zwyc / 1.5);
+      /* rozświetlenie */
+      ctx.globalAlpha = a * 0.35; ctx.fillStyle = '#fffbe0'; ctx.fillRect(0, 0, W, stan.wysEkranuCss);
+      ctx.globalAlpha = 1;
+      /* osiem gwiazdek, po jednej za stadium */
+      const gy = stan.wysEkranuCss * 0.26;
+      for (let i = 0; i < 8; i++) {
+        const gx = W / 2 + (i - 3.5) * 34;
+        const wejscie = Math.max(0, Math.min(1, stan.zwyc * 3 - i * 0.2));
+        gwiazdka(ctx, gx, gy, 13 * wejscie, '#ffd23f');
+      }
+      /* BRAWO */
       ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-      ctx.fillText('BRAWO!', W / 2, stan.wysEkranuCss * 0.4);
-      ctx.font = '400 18px system-ui'; ctx.fillText('(ekran zwycięstwa w M3)', W / 2, stan.wysEkranuCss * 0.4 + 44);
+      const skala = 1 + Math.sin(stan.zwyc * 3) * 0.03 * Math.max(0, 1 - stan.zwyc / 3);
+      ctx.save(); ctx.translate(W / 2, stan.wysEkranuCss * 0.34); ctx.scale(skala, skala);
+      ctx.lineWidth = 8; ctx.strokeStyle = '#6e9a33'; ctx.fillStyle = '#fff';
+      ctx.font = '800 64px system-ui, sans-serif';
+      ctx.globalAlpha = a; ctx.strokeText('BRAWO!', 0, 0); ctx.fillText('BRAWO!', 0, 0);
+      ctx.globalAlpha = 1; ctx.restore();
+      /* podpowiedź po chwili */
+      if (stan.zwyc > 2.5) {
+        ctx.fillStyle = 'rgba(40,60,20,' + (0.5 + Math.sin(stan.czas * 3) * 0.3) + ')';
+        ctx.font = '600 18px system-ui, sans-serif';
+        ctx.fillText('dotknij, aby polować dalej', W / 2, stan.wysEkranuCss * 0.7);
+      }
     }
+
+    if (stan.faza === 'wolne' && stan.ooteka && stan.ooteka.male.length > 0) {
+      ctx.fillStyle = 'rgba(40,60,20,0.7)'; ctx.textAlign = 'center';
+      ctx.font = '600 18px system-ui, sans-serif';
+      ctx.fillText('Wykluły się małe modliszki', W / 2, stan.wysEkranuCss * 0.14);
+    }
+  }
+
+  function gwiazdka(c, x, y, r, kolor) {
+    if (r < 0.5) return;
+    c.save(); c.translate(x, y); c.fillStyle = kolor;
+    c.strokeStyle = 'rgba(150,110,20,0.6)'; c.lineWidth = 1.5;
+    c.beginPath();
+    for (let i = 0; i < 10; i++) {
+      const rr = i % 2 ? r * 0.45 : r, a = i / 10 * Math.PI * 2 - Math.PI / 2;
+      const px = Math.cos(a) * rr, py = Math.sin(a) * rr;
+      i ? c.lineTo(px, py) : c.moveTo(px, py);
+    }
+    c.closePath(); c.fill(); c.stroke(); c.restore();
   }
 
   function okragly(c, x, y, w, h, r) {
@@ -547,6 +782,11 @@
       m.dlugoscCel = STADIA[m.stadiumIdx].dl; m.zoomCel = STADIA[m.stadiumIdx].zoom;
       m.dlugosc = m.dlugoscCel; m.zoom = m.zoomCel; stan.faza = 'gra'; zasiej(); },
     gatunek: (g) => { stan.modliszka.gatunek = g; },
+    wylinka: () => rozpocznijWylinke(),
+    zwyciestwo: () => { const m = stan.modliszka; m.stadiumIdx = STADIA.length - 1;
+      m.dlugosc = m.dlugoscCel = STADIA[m.stadiumIdx].dl; m.zoom = m.zoomCel = STADIA[m.stadiumIdx].zoom;
+      stan.faza = 'zwyciestwo'; stan.zwyc = 0; },
+    postep: () => stan.wylinka,
     stan: stan
   };
 

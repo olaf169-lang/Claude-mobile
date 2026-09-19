@@ -24,7 +24,9 @@
     cma:      { nazwa: 'ćma', ruch: 'lot-chwiej', czujnosc: 0.3, pozywienie: 2, odStadium: 5,
                 skala: 1.05, korpus: '#b7a184', oko: '#3a2a18', skrzydla: true, cma: true },
     swierszcz:{ nazwa: 'świerszcz', ruch: 'skok', czujnosc: 0.7, pozywienie: 3, odStadium: 5,
-                skala: 1.15, korpus: '#5f7a34', oko: '#20130a', skrzydla: false, dlugonogi: true }
+                skala: 1.15, korpus: '#5f7a34', oko: '#20130a', skrzydla: false, dlugonogi: true },
+    wazka:    { nazwa: 'ważka', ruch: 'lot-szybki', czujnosc: 0.9, pozywienie: 5, odStadium: 8,
+                skala: 1.35, korpus: '#3aa6b0', oko: '#123', skrzydla: true, wazka: true, dlugie: true }
   };
 
   const mieszaj = (a, b, t) => a + (b - a) * t;
@@ -87,9 +89,16 @@
     /* skrzydła machają, gdy leci */
     if (typ.skrzydla) {
       const trzepot = o.naZiemi ? 0.15 : Math.sin(faza * 30) * 0.5 + 0.2;
-      const dl = typ.cma ? 26 : 18, sz = typ.cma ? 12 : 6;
-      skrzydlo(ctx, -2, -3, dl, sz, -0.3 - trzepot, typ.cma);
-      skrzydlo(ctx, -2, -3, dl, sz, -0.3 + trzepot, typ.cma);
+      if (typ.wazka) {
+        skrzydlo(ctx, -1, -2, 22, 4, -0.2 - trzepot * 0.4, false);
+        skrzydlo(ctx, -1, -2, 22, 4, 0.2 + trzepot * 0.4, false);
+        skrzydlo(ctx, -5, -1, 20, 3.5, -0.15 - trzepot * 0.4, false);
+        skrzydlo(ctx, -5, -1, 20, 3.5, 0.15 + trzepot * 0.4, false);
+      } else {
+        const dl = typ.cma ? 26 : 18, sz = typ.cma ? 12 : 6;
+        skrzydlo(ctx, -2, -3, dl, sz, -0.3 - trzepot, typ.cma);
+        skrzydlo(ctx, -2, -3, dl, sz, -0.3 + trzepot, typ.cma);
+      }
     }
 
     /* korpus */
@@ -101,6 +110,10 @@
     else if (typ.segmenty) {
       ctx.ellipse(-7, 2, 5, 4.5, 0, 0, 7); ctx.fill();
       ctx.beginPath(); ctx.ellipse(2, 2, 6, 5, 0, 0, 7);
+    } else if (typ.wazka) {
+      ctx.ellipse(-2, 2, 8, 5, 0, 0, 7); ctx.fill();
+      ctx.beginPath(); ctx.moveTo(-6, 0);
+      ctx.lineTo(-26, -1); ctx.lineTo(-26, 3); ctx.lineTo(-6, 4); ctx.closePath();
     } else ctx.ellipse(0, 2, 12, 6, 0, 0, 7);
     ctx.fill(); ctx.stroke();
 

@@ -403,6 +403,22 @@
     zawiazkiSkrzydel(ctx, pr, s, pal);
     tulow(ctx, pr, s, pal);
 
+    /* pęknięcie pancerza na karku i grzbiecie (wylinka) */
+    if (z.pekniecie > 0) {
+      ctx.save();
+      ctx.strokeStyle = 'rgba(255,255,255,0.9)';
+      ctx.lineWidth = 1.4 + z.pekniecie * 2;
+      ctx.beginPath();
+      ctx.moveTo(s.kark.x - 2, s.kark.y);
+      const rozejscie = z.pekniecie * 3;
+      ctx.lineTo(s.pro.x + rozejscie, s.pro.y);
+      ctx.lineTo(s.meso.x - rozejscie, s.meso.y - 2);
+      ctx.stroke();
+      ctx.strokeStyle = 'rgba(20,30,10,0.4)'; ctx.lineWidth = 1;
+      ctx.stroke();
+      ctx.restore();
+    }
+
     /* bliższa strona */
     noga(ctx, s.biodro, -29 * n, 0.0, -2 * n, s.biodro.y - 21 * n, false);
     noga(ctx, s.meso, 29 * n, 0.5, 5 * n, s.meso.y - 19 * n, false);
