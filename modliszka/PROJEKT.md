@@ -174,16 +174,16 @@ skrzydła.** Tak właśnie robimy. To jest prawie dwa razy więcej wylinek niż 
 ale wylinka jest najlepszym momentem gry, więc więcej wylinek to lepsza gra, o ile
 pojedyncze stadium jest krótkie.
 
-| stadium | punkty do awansu | długość ciała | zasięg kamery | budżet czasu |
-|---|---|---|---|---|
-| L1 | 2 | ok. 6 mm | 1,00 | ok. 40 s |
-| L2 | 2 | ok. 9 mm | 1,05 | ok. 50 s |
-| L3 | 2 | ok. 13 mm | 1,11 | ok. 55 s |
-| L4 | 3 | ok. 18 mm | 1,17 | ok. 80 s |
-| L5 | 3 | ok. 25 mm, pierwsze zawiązki skrzydeł | 1,24 | ok. 90 s |
-| L6 | 4 | ok. 34 mm | 1,31 | ok. 110 s |
-| L7 | 4 | ok. 45 mm, wyraźne zawiązki skrzydeł | 1,38 | ok. 120 s |
-| L8 dorosła | koniec | ok. 65 mm, skrzydła | 1,45 | finał |
+| stadium | punkty do awansu | długość ciała | zasięg kamery |
+|---|---|---|---|
+| L1 | 2 | ok. 6 mm | 1,00 |
+| L2 | 2 | ok. 9 mm | 1,05 |
+| L3 | 2 | ok. 13 mm | 1,11 |
+| L4 | 3 | ok. 18 mm | 1,17 |
+| L5 | 3 | ok. 25 mm, pierwsze zawiązki skrzydeł | 1,24 |
+| L6 | 4 | ok. 34 mm | 1,31 |
+| L7 | 4 | ok. 45 mm, wyraźne zawiązki skrzydeł | 1,38 |
+| L8 dorosła | koniec | ok. 65 mm, skrzydła | 1,45 |
 
 **Razem 20 punktów, czyli jakieś 13 do 16 owadów.** Do tego siedem wylinek po 5 do 6 sekund
 (około 45 sekund) oraz wejście do gry i finał. Cała ścieżka wychodzi na **12 do 13 minut**
@@ -509,7 +509,7 @@ rzeczy, ale żadna nie blokuje startu prac:
 
 1. **Wygląd.** Etap M0 kończy się obrazkiem modliszki w L1 i L8 oraz kadrem świata.
    Dopiero Twoja akceptacja odblokowuje resztę.
-2. **Liczby.** Budżet czasu z rozdziału 6 jest hipotezą. Prawdziwe liczby ustawiamy po
-   pierwszym teście z synem i stoperem.
+2. **Liczby.** Punkty na stadium są hipotezą. Stroimy je po prostu patrząc, jak synowi
+   idzie, bez mierzenia.
 3. **Treść kart w albumie.** Napiszę je przy etapie M6, ale jeżeli syn ma ulubione fakty
    o modliszkach albo pytania, które już zadaje, wrzuć je, to je tam wpiszę.

@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>MANTIS, test wyglądu</title>
+<style>
+  body { margin:0; background:#f4f1e8; font-family:system-ui,sans-serif; color:#33402a; }
+  .panel { padding:18px 20px 26px; }
+  h2 { margin:0 0 4px; font-size:19px; letter-spacing:.02em; }
+  p.op { margin:0 0 14px; font-size:14px; color:#6a7660; }
+  canvas { display:block; border-radius:14px; box-shadow:0 6px 20px rgba(60,70,40,.18); background:#fff; }
+  .podpisy { display:flex; gap:10px; font-size:13px; color:#6a7660; margin-top:8px; }
+</style>
+</head>
+<body>
+
+<div class="panel" id="p1">
+  <h2>1. Modliszka zwyczajna, L1 i L8</h2>
+  <p class="op">Ten sam zestaw części, inne proporcje. Po lewej nimfa zaraz po wykluciu, po prawej dorosła ze skrzydłami.</p>
+  <canvas id="c1" width="1120" height="560"></canvas>
+</div>
+
+<div class="panel" id="p2">
+  <h2>2. Osiem stadiów w prawdziwej skali</h2>
+  <p class="op">Od 6 mm do 65 mm. Zawiązki skrzydeł pojawiają się od L5 i rosną z każdą wylinką.</p>
+  <canvas id="c2" width="1120" height="420"></canvas>
+</div>
+
+<div class="panel" id="p3">
+  <h2>3. Kadr świata, tak jak na telefonie</h2>
+  <p class="op">Letnia łąka, modliszka na liściu, kropla rosy, pyłki w powietrzu.</p>
+  <canvas id="c3" width="540" height="960"></canvas>
+</div>
+
+<div class="panel" id="p4">
+  <h2>4. Trzy gatunki, dorosłe</h2>
+  <p class="op">Ta sama budowa, inna paleta i inne detale.</p>
+  <canvas id="c4" width="1120" height="420"></canvas>
+</div>
+
+<script>
+/* ?panel=N pokazuje tylko jeden panel, na potrzeby zrzutów ekranu */
+(function(){
+  const n = new URLSearchParams(location.search).get('panel');
+  if (!n) return;
+  document.addEventListener('DOMContentLoaded', () => {
+    ['p1','p2','p3','p4'].forEach(id => {
+      if (id !== 'p' + n) document.getElementById(id).remove();
+    });
+  });
+})();
+</script>
+<script src="silnik/modliszka.js"></script>
+<script src="silnik/swiat.js"></script>
+<script>
+function tlo(ctx, w, h, a, b) {
+  const g = ctx.createLinearGradient(0,0,0,h);
+  g.addColorStop(0,a); g.addColorStop(1,b);
+  ctx.fillStyle = g; ctx.fillRect(0,0,w,h);
+}
+function podpis(ctx, tekst, x, y, rozmiar) {
+  ctx.fillStyle = 'rgba(50,64,40,.75)';
+  ctx.font = (rozmiar||22) + 'px system-ui, sans-serif';
+  ctx.textAlign = 'center';
+  ctx.fillText(tekst, x, y);
+}
+
+/* 1. L1 i L8 pokazane w tym samym rozmiarze, żeby porównać rysunek */
+(function(){
+  const c = document.getElementById('c1'), ctx = c.getContext('2d');
+  tlo(ctx, c.width, c.height, '#fbfaf2', '#eef2e0');
+  Modliszka.rysuj(ctx, { x: 300, y: 430, dlugosc: 250, stadium: 1, gatunek: 'zwyczajna',
+    poza: { katGlowy: -0.15, rozlozoneOdnoza: 0.2 } });
+  podpis(ctx, 'L1, zaraz po wykluciu, ok. 6 mm', 300, 500);
+  Modliszka.rysuj(ctx, { x: 790, y: 430, dlugosc: 250, stadium: 8, gatunek: 'zwyczajna',
+    poza: { katGlowy: -0.1, rozlozoneOdnoza: 0.35 } });
+  podpis(ctx, 'L8, dorosła ze skrzydłami, ok. 65 mm', 790, 500);
+})();
+
+/* 2. wszystkie stadia w prawdziwej proporcji wielkości */
+(function(){
+  const c = document.getElementById('c2'), ctx = c.getContext('2d');
+  tlo(ctx, c.width, c.height, '#fbfaf2', '#eef2e0');
+  const mm = [6,9,13,18,25,34,45,65];
+  const skala = 330 / 65;
+  let x = 90;
+  mm.forEach((d,i) => {
+    const dl = d * skala;
+    Modliszka.rysuj(ctx, { x: x, y: 360, dlugosc: dl, stadium: i+1, gatunek: 'zwyczajna',
+      poza: { katGlowy: -0.12, rozlozoneOdnoza: 0.25 } });
+    podpis(ctx, 'L' + (i+1), x, 395, 18);
+    x += dl * 0.72 + 34;
+  });
+})();
+
+/* 3. kadr świata */
+(function(){
+  const c = document.getElementById('c3'), ctx = c.getContext('2d');
+  const info = Swiat.rysujSwiat(ctx, c.width, c.height);
+  Modliszka.rysuj(ctx, { x: c.width*0.52, y: info.liscY, dlugosc: 250, stadium: 6,
+    gatunek: 'zwyczajna', poza: { katGlowy: -0.2, rozlozoneOdnoza: 0.3, kolysanie: -0.05 } });
+  Swiat.planBliski(ctx, c.width, c.height);
+})();
+
+/* 4. trzy gatunki */
+(function(){
+  const c = document.getElementById('c4'), ctx = c.getContext('2d');
+  tlo(ctx, c.width, c.height, '#fbfaf2', '#eef2e0');
+  ['zwyczajna','duchowa','storczykowa'].forEach((g,i) => {
+    const x = 200 + i*360;
+    Modliszka.rysuj(ctx, { x: x, y: 330, dlugosc: 230, stadium: 8, gatunek: g,
+      poza: { katGlowy: -0.12, rozlozoneOdnoza: 0.3 } });
+    podpis(ctx, Modliszka.GATUNKI[g].nazwa, x, 380, 20);
+  });
+})();
+</script>
+</body>
+</html>
