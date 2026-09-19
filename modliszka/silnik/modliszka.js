@@ -170,13 +170,18 @@
 
   /* Odnóże chwytne: biodro do przodu, grube udo w dół i do tyłu, goleń
      złożona z powrotem do góry. Kolce po wewnętrznej stronie. */
-  function odnozeChwytne(ctx, pr, s, pal, uniesienie, dalekie) {
+  function odnozeChwytne(ctx, pr, s, pal, uniesienie, dalekie, atak) {
     const p = dalekie ? przyciemniona(pal) : pal;
-    const gr = pr.grubosc, n = pr.nogi, u = uniesienie || 0;
+    const gr = pr.grubosc, n = pr.nogi, u = uniesienie || 0, at = atak || 0;
     const a = przesun(s.kark, -3, 4);
-    const b = pkt(a.x + 11 * n, a.y + (11 - u * 5) * n);
-    const c = pkt(b.x - 7 * n, b.y + (17 - u * 6) * n);
-    const d = pkt(c.x + 14 * n, c.y - (11 + u * 3) * n);
+    const b = pkt(a.x + (11 + at * 7) * n, a.y + (11 - u * 5 - at * 2) * n);
+    /* przy ataku goleń wyrzuca się do przodu i w górę, chwytając zdobycz */
+    const cZloz = pkt(b.x - 7 * n, b.y + (17 - u * 6) * n);
+    const cWyrzut = pkt(b.x + 6 * n, b.y + 9 * n);
+    const c = pkt(mieszaj(cZloz.x, cWyrzut.x, at), mieszaj(cZloz.y, cWyrzut.y, at));
+    const dZloz = pkt(c.x + 14 * n, c.y - (11 + u * 3) * n);
+    const dWyrzut = pkt(c.x + 20 * n, c.y - 3 * n);
+    const d = pkt(mieszaj(dZloz.x, dWyrzut.x, at), mieszaj(dZloz.y, dWyrzut.y, at));
     segment(ctx, a, b, 2.3 * gr, 2.6 * gr, p);
     segment(ctx, b, c, 4.8 * gr, 2.7 * gr, p);
     kolce(ctx, b, c, 5, 2.8 * gr, 1, p);
@@ -358,6 +363,7 @@
     const s = szkielet(pr, z);
     const gr = pr.grubosc, n = pr.nogi;
     const u = z.rozlozoneOdnoza || 0;
+    const atak = z.atak || 0;
 
     ctx.save();
     ctx.translate(o.x, o.y);
@@ -390,7 +396,7 @@
     /* dalsza strona ciała */
     noga(ctx, przesun(s.biodro, 3, 0), -24 * n + 3, 0.5, 0, s.biodro.y - 19 * n, true);
     noga(ctx, przesun(s.meso, 3, 0), 25 * n + 3, 0.0, 4 * n, s.meso.y - 17 * n, true);
-    odnozeChwytne(ctx, pr, s, pal, u, true);
+    odnozeChwytne(ctx, pr, s, pal, u, true, atak);
 
     skrzydla(ctx, pr, s, pal, !!z.skrzydlaRozlozone);
     odwlok(ctx, pr, s, pal);
@@ -400,7 +406,7 @@
     /* bliższa strona */
     noga(ctx, s.biodro, -29 * n, 0.0, -2 * n, s.biodro.y - 21 * n, false);
     noga(ctx, s.meso, 29 * n, 0.5, 5 * n, s.meso.y - 19 * n, false);
-    odnozeChwytne(ctx, pr, s, pal, u, false);
+    odnozeChwytne(ctx, pr, s, pal, u, false, atak);
     glowa(ctx, pr, s, pal, o.patrzy);
 
     ctx.restore();
