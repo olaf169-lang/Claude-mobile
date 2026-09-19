@@ -1,10 +1,12 @@
-# MODLISZKA (roboczo MANTIS), projekt gry
+# MANTIS, projekt gry
 
-Wersja robocza, 2026-09-19, po pierwszej rundzie decyzji. Zastępuje pierwotny brief,
+Nazwa gry: MANTIS. Interfejs po polsku.
+
+Wersja robocza, 2026-09-19, po drugiej rundzie decyzji. Zastępuje pierwotny brief,
 którego kopia leży obok w `brief-pierwotny.md`. Nic nie jest jeszcze zakodowane.
 
 Oznaczenia: **ZMIANA** = odejście od briefu, **DECYZJA** = ustalone, **PYTANIE** = czekam
-na Ciebie (zebrane w rozdziale 18).
+na Ciebie (zebrane w rozdziale 19).
 
 ---
 
@@ -17,6 +19,13 @@ na Ciebie (zebrane w rozdziale 18).
 | telefon | Android |
 | odblokowania | po kolei: pierwsza otwiera drugą, druga trzecią |
 | prawda przyrodnicza | priorytet, patrz rozdział 5. Gra ma uczyć prawdziwej modliszki, nie bajkowej |
+| nazwa | MANTIS, interfejs po polsku |
+| telefony | Realme 12 Pro 5G oraz iPhone 15 i nowsze |
+| długość przejścia | 12 do 13 minut razem z wylinkami |
+| stadia | osiem stadiów, siedem wylinek |
+| ooteka | tak, jako epilog po zwycięstwie |
+| nazwy gatunkowe | tak, prawdziwe, polskie i łacińskie |
+| ciekawostki | osobny album kart, w pełni opcjonalny, pod wspólną grę z tatą |
 
 ---
 
@@ -50,7 +59,7 @@ i złapie”. Rozdział 22: satysfakcja ma płynąć z „podejścia i dobrego m
 wyklucza. Jeżeli wszystko dzieje się samo, nie ma momentu, jest ekran do stukania.
 Rozstrzygnięcie: skradanie, rozdział 4.
 
-**Brak technologii i brak odpowiedzi, skąd obrazki.** Rozstrzygnięcie: rozdziały 3 i 12.
+**Brak technologii i brak odpowiedzi, skąd obrazki.** Rozstrzygnięcie: rozdziały 3 i 13.
 
 **Płaskie zakończenie.** Trzy modliszki różniące się kolorem to ta sama gra trzy razy.
 Rozstrzygnięcie: trzy prawdziwe gatunki, trzy światy i trzy różne sposoby polowania,
@@ -165,21 +174,26 @@ skrzydła.** Tak właśnie robimy. To jest prawie dwa razy więcej wylinek niż 
 ale wylinka jest najlepszym momentem gry, więc więcej wylinek to lepsza gra, o ile
 pojedyncze stadium jest krótkie.
 
-| stadium | punkty do awansu | długość ciała | zasięg kamery |
-|---|---|---|---|
-| L1 | 2 | ok. 6 mm | 1,00 |
-| L2 | 2 | ok. 9 mm | 1,05 |
-| L3 | 3 | ok. 13 mm | 1,11 |
-| L4 | 3 | ok. 18 mm | 1,17 |
-| L5 | 4 | ok. 25 mm, pierwsze zawiązki skrzydeł | 1,24 |
-| L6 | 4 | ok. 34 mm | 1,31 |
-| L7 | 5 | ok. 45 mm, wyraźne zawiązki skrzydeł | 1,38 |
-| L8 dorosła | koniec | ok. 65 mm, skrzydła | 1,45 |
+| stadium | punkty do awansu | długość ciała | zasięg kamery | budżet czasu |
+|---|---|---|---|---|
+| L1 | 2 | ok. 6 mm | 1,00 | ok. 40 s |
+| L2 | 2 | ok. 9 mm | 1,05 | ok. 50 s |
+| L3 | 2 | ok. 13 mm | 1,11 | ok. 55 s |
+| L4 | 3 | ok. 18 mm | 1,17 | ok. 80 s |
+| L5 | 3 | ok. 25 mm, pierwsze zawiązki skrzydeł | 1,24 | ok. 90 s |
+| L6 | 4 | ok. 34 mm | 1,31 | ok. 110 s |
+| L7 | 4 | ok. 45 mm, wyraźne zawiązki skrzydeł | 1,38 | ok. 120 s |
+| L8 dorosła | koniec | ok. 65 mm, skrzydła | 1,45 | finał |
 
-Razem 23 punkty, czyli mniej więcej 14 do 18 owadów. Pierwsze stadia idą szybko (dwa
-łatwe owady i już wylinka), późniejsze wolniej. Cała ścieżka to jakieś 15 minut, z czego
-siedem wylinek zajmuje około minuty. Zapis po każdym owadzie, więc można to rozłożyć
-na kilka dni.
+**Razem 20 punktów, czyli jakieś 13 do 16 owadów.** Do tego siedem wylinek po 5 do 6 sekund
+(około 45 sekund) oraz wejście do gry i finał. Cała ścieżka wychodzi na **12 do 13 minut**
+i to jest twarde założenie, a nie luźny szacunek: kolumna z budżetem czasu jest po to, żeby
+przy teście na dziecku mierzyć stoperem, które stadium się rozjeżdża, i stroić liczbę
+punktów albo częstotliwość pojawiania się owadów.
+
+Pierwsze trzy stadia idą szybko (dwa łatwe owady i już wylinka), żeby dziecko dostało
+pierwszą wylinkę w niecałą minutę od startu. Późniejsze zwalniają, bo owady robią się
+ostrożniejsze. Zapis po każdym owadzie, więc można to rozłożyć na kilka podejść.
 
 Proporcje też są prawdziwe: nimfa ma większą głowę i krótszy odwłok względem ciała,
 dorosła jest smuklejsza i długoskrzydła. Modliszka nie zmienia się tylko przez pomnożenie
@@ -321,7 +335,32 @@ Trzy gatunki, trzy światy, trzy rytmy polowania i zero wymyślonych supermocy.
 
 ---
 
-## 11. Ekrany
+## 11. Ciekawostki i wspólna gra
+
+Syn będzie grał głównie sam, więc **nic w grze nie wymaga czytania i nic nie zatrzymuje
+rozgrywki tekstem**. Ale zostawiamy na to osobne miejsce, na wspólne granie z Tobą.
+
+**Album kart.** Ikona (nie napis) na ekranie domowym otwiera album. Karty odkrywają się
+same: za każdą wylinkę, za każdy nowy gatunek owada spotkany po raz pierwszy, za każdą
+modliszkę i za dwie rzeczy finałowe (skrzydła, ooteka). Razem jakieś 24 karty.
+
+Karta to duży rysunek, nazwa polska i łacińska oraz jedno lub dwa zdania dla dorosłego,
+na przykład: „Modliszka obraca głowę prawie dookoła, jako jedyny owad. Dzięki temu widzi,
+co dzieje się za nią, nie ruszając ciałem.”
+
+**W grze solo** po zdobyciu nowej karty pojawia się tylko mały listek w rogu na dwie
+sekundy. Dziecko może go dotknąć albo zignorować i nic się nie dzieje. Gra nigdy nie
+czeka na przeczytanie.
+
+**We wspólnej grze** masz gotowy materiał: album rośnie razem z postępem, więc jest o czym
+rozmawiać dokładnie wtedy, kiedy dziecko coś zobaczyło po raz pierwszy.
+
+Nazwy gatunkowe pokazujemy też przy wyborze modliszki: duży rysunek, pod nim „modliszka
+duchowa” i mniejszym, kursywą, *Phyllocrania paradoxa*.
+
+---
+
+## 12. Ekrany
 
 1. **DOM**: duża animowana modliszka, pod nią trzy karty gatunków (zablokowane jako
    ciemne sylwetki z kłódką), pod spodem wielki przycisk **GRAJ**, w rogu wyciszenie.
@@ -329,7 +368,8 @@ Trzy gatunki, trzy światy, trzy rytmy polowania i zero wymyślonych supermocy.
    powrotu z dala od kciuka.
 3. **NOWE STADIUM**: nakładka po wylince, duża cyfra, dwie sekundy, znika sama.
 4. **ZWYCIĘSTWO**: BRAWO, skrzydła, gwiazdki, odsłonięcie następnej karty.
-5. Wybór modliszki to ten sam ekran co DOM, nie osobny (brief dublował to jako
+5. **ALBUM**: siatka kart, odkryte kolorowe, nieodkryte jako sylwetki. Poza rozgrywką.
+6. Wybór modliszki to ten sam ekran co DOM, nie osobny (brief dublował to jako
    SCREEN 1 i SCREEN 6).
 
 Żadnych ustawień poza dźwiękiem. Ukończoną modliszką da się zagrać od nowa: karta
@@ -337,7 +377,7 @@ dostaje znaczek ukończenia, a wybranie jej startuje od L1 bez ruszania odblokow
 
 ---
 
-## 12. Grafika: hybryda
+## 13. Grafika: hybryda
 
 **DECYZJA, zgodnie z Twoim wyborem: ilustrowane tło plus postacie złożone z osobnych,
 ładnie narysowanych części, animowanych kodem. Bez figur geometrycznych.**
@@ -373,7 +413,7 @@ różnicy. Liczy się wygląd i płynność.
 
 ---
 
-## 13. Dźwięk
+## 14. Dźwięk
 
 Efekty syntezowane w Web Audio, bez plików: klap uderzenia, chrupnięcie, dzwoneczek
 wzrostu, akord wylinki, fanfara odblokowania. Tło: delikatny szum łąki, u trzeciej
@@ -385,7 +425,7 @@ dźwięku przy pierwszym dotknięciu ekranu.
 
 ---
 
-## 14. Zapis
+## 15. Zapis
 
 `localStorage`, przedrostek `mantis:`, jak `b26:` w BANGladesz26. Zapisujemy wersję
 formatu, wybraną modliszkę, dla każdej jej stadium i punkty, odblokowane, ukończone,
@@ -394,19 +434,37 @@ zamknięcie gry w dowolnym momencie nic nie kosztuje.
 
 ---
 
-## 15. Telefon (Android)
+## 16. Telefony: Realme 12 Pro 5G oraz iPhone 15 i nowsze
 
-Pion na sztywno, brak przewijania i przybliżania dwoma palcami, brak menu po
-przytrzymaniu, bezpieczne marginesy, cele dotykowe od 48 punktów, pauza przy przejściu
-w tło, wibracja przy złapaniu, cel 60 klatek z sensownym wyglądem przy 30.
-Instalacja: Chrome, menu, „Zainstaluj aplikację”, ikona na ekranie głównym.
+Dwa cele, budujemy pod wolniejszy, testujemy na obu.
 
-**PYTANIE: jaki to model telefonu i z którego roku?** Od tego zależy budżet cząsteczek
-i to, jak bogate może być tło.
+**Realme 12 Pro 5G.** Sprzęt w zupełności wystarczający. Jedna pułapka: ekran ma 120 Hz,
+więc pętla gry potrafi chodzić 120 razy na sekundę. Cała logika liczona na czasie
+(delta), a rysowanie ograniczone do 60 klatek, żeby nie palić baterii przy dłuższej
+zabawie. Instalacja: Chrome, menu, „Zainstaluj aplikację”.
+
+**iPhone 15 i nowsze.** Instalacja: Safari, Udostępnij, Do ekranu głównego. Rzeczy, o
+których trzeba pamiętać od początku, bo dopisane później bolą:
+
+- dźwięk na iOS odblokowuje się dopiero po pierwszym dotknięciu ekranu, więc pierwszy
+  dotyk w grze musi go budzić,
+- Safari nie obsługuje wibracji, więc wibracja przy złapaniu jest dodatkiem na Androidzie,
+  a nie elementem, na którym opiera się informacja zwrotna,
+- pełny ekran na iOS istnieje tylko w aplikacji zainstalowanej na ekranie głównym, więc
+  instalacja to nie bonus, tylko właściwy sposób grania,
+- bezpieczne marginesy: `viewport-fit=cover` plus `env(safe-area-inset-*)`, dolny pasek
+  gestów nie może zasłaniać niczego, co się dotyka,
+- Safari potrafi kasować dane strony, która nie jest zainstalowana i długo nieużywana,
+  więc zapis trzymamy mały i prosty, a instalację na ekranie głównym traktujemy jako
+  zalecany tryb.
+
+Wspólne dla obu: pion na sztywno, brak przewijania i przybliżania dwoma palcami, brak
+menu po przytrzymaniu, cele dotykowe od 48 punktów, pauza przy przejściu w tło,
+cel 60 klatek z sensownym wyglądem przy 30.
 
 ---
 
-## 16. Plan prac
+## 17. Plan prac
 
 Kolejność ułożona według ryzyka, nie według listy funkcji.
 
@@ -428,13 +486,14 @@ ze skrzydłami, ekran zwycięstwa, wolne polowanie, ooteka.
 **M5. Drugi i trzeci gatunek.** Modliszka duchowa z kamuflażem i jesiennym światem,
 storczykowa z wabieniem, zmianą koloru po pierwszej wylince i wieczornym światem.
 
-**M6. Oprawa.** Dopracowanie animacji, cząsteczki, dźwięki, ikona, instalacja, offline.
+**M6. Oprawa i album.** Dopracowanie animacji, cząsteczki, dźwięki, album kart z
+ciekawostkami, ikona, instalacja, działanie offline, test na obu telefonach.
 
 Po każdym etapie gra jest uruchamialna na telefonie. Po M2 jest już grą.
 
 ---
 
-## 17. Czego świadomie nie robimy
+## 18. Czego świadomie nie robimy
 
 Bez śmierci, pasków życia, głodu i timerów. Bez waluty, sklepu i skórek. Bez reklam,
 konta i chmury. Bez rankingów i poziomów trudności. Bez samouczka z tekstem, bez
@@ -443,19 +502,14 @@ jedzenia.
 
 ---
 
-## 18. Pytania do Ciebie
+## 19. Co zostało otwarte
 
-1. **Osiem stadiów i siedem wylinek zamiast czterech poziomów.** Zgoda? To jest zgodne
-   z prawdą o samicy modliszki, daje dużo więcej najlepszego momentu gry, ale wydłuża
-   jedno przejście do jakichś 15 minut (z zapisem, więc można na raty).
-2. **Ooteka jako epilog.** Dorosła samica składa kokon, wychodzą z niego maleńkie L1.
-   Piękne i prawdziwe, ale to jest temat rozmnażania. Wchodzimy w to, czy zostajemy na
-   skrzydłach i ważce?
-3. **Nazwy gatunkowe.** Czy pokazujemy przy wyborze modliszki prawdziwe nazwy
-   („modliszka zwyczajna”, „*Mantis religiosa*”)? Syn ich nie przeczyta, ale Ty możesz
-   mu je przeczytać i dla dokładnego dziecka to może być atut.
-4. **Telefon.** Jaki model i rok?
-5. **Nazwa gry.** „MANTIS” czy „MODLISZKA”? Pięciolatek zrozumie to drugie, a „mantis”
-   nic mu nie mówi.
-6. **Jak gracie.** Gra do zostawienia dziecku z telefonem, czy do grania razem z Tobą?
-   Przy wersji „razem” mogę śmielej wchodzić w nazwy i ciekawostki, bo jest kto przeczyta.
+Pytania z poprzedniej rundy są rozstrzygnięte i wpisane w rozdział 0. Zostają trzy
+rzeczy, ale żadna nie blokuje startu prac:
+
+1. **Wygląd.** Etap M0 kończy się obrazkiem modliszki w L1 i L8 oraz kadrem świata.
+   Dopiero Twoja akceptacja odblokowuje resztę.
+2. **Liczby.** Budżet czasu z rozdziału 6 jest hipotezą. Prawdziwe liczby ustawiamy po
+   pierwszym teście z synem i stoperem.
+3. **Treść kart w albumie.** Napiszę je przy etapie M6, ale jeżeli syn ma ulubione fakty
+   o modliszkach albo pytania, które już zadaje, wrzuć je, to je tam wpiszę.
