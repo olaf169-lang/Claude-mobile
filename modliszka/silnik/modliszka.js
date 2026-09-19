@@ -84,8 +84,8 @@
         ctx.stroke();
       }
     };
-    rysuj(0.8, pal.kontur);
-    rysuj(0, gradientProstopadly(ctx, a, b, Math.max(wa, wb), pal));
+    rysuj(pal.tlo ? 0.35 : 0.8, pal.kontur);
+    rysuj(0, pal.tlo ? pal.sredni : gradientProstopadly(ctx, a, b, Math.max(wa, wb), pal));
   }
 
   function kolce(ctx, a, b, ile, dlugosc, strona, pal) {
@@ -112,7 +112,10 @@
   }
 
   const przyciemniona = (pal) =>
-    Object.assign({}, pal, { jasny: pal.sredni, sredni: pal.ciemny, ciemny: pal.kontur });
+    Object.assign({}, pal, {
+      jasny: pal.sredni, sredni: pal.ciemny, ciemny: pal.kontur,
+      kontur: 'rgba(40,50,25,0.45)', tlo: true
+    });
 
   /* --- szkielet ---------------------------------------------------------- */
 
@@ -131,9 +134,36 @@
   /* --- części ------------------------------------------------------------ */
 
   /* Odnóże kroczne: cienkie szczudło z kolanem wysoko nad ciałem. */
+  /* Liściasty płatek na udzie: u modliszki duchowej wygląda jak zeschły listek. */
+  function platekNaUdzie(ctx, a, b, wielkosc, pal, ksztaltP) {
+    const mx = mieszaj(a.x, b.x, 0.5), my = mieszaj(a.y, b.y, 0.5);
+    const kat = Math.atan2(b.y - a.y, b.x - a.x);
+    ctx.save(); ctx.translate(mx, my); ctx.rotate(kat);
+    if (ksztaltP === 'lisc') {
+      ksztalt(ctx, () => {
+        ctx.moveTo(-wielkosc, 0);
+        ctx.quadraticCurveTo(0, -wielkosc * 1.15, wielkosc, 0);
+        ctx.quadraticCurveTo(0, wielkosc * 0.5, -wielkosc, 0);
+        ctx.closePath();
+      }, pal.sredni, pal, 1.2);
+      ctx.strokeStyle = pal.kontur; ctx.lineWidth = 0.6; ctx.globalAlpha = 0.5;
+      ctx.beginPath(); ctx.moveTo(-wielkosc, 0); ctx.lineTo(wielkosc, 0); ctx.stroke();
+      ctx.globalAlpha = 1;
+    } else {
+      const g = ctx.createRadialGradient(0, -wielkosc * 0.3, wielkosc * 0.1, 0, 0, wielkosc);
+      g.addColorStop(0, pal.jasny); g.addColorStop(1, pal.sredni);
+      ksztalt(ctx, () => ctx.ellipse(0, 0, wielkosc, wielkosc * 0.62, 0, 0, 7), g, pal, 1.1);
+    }
+    ctx.restore();
+  }
+
   function odnozeKroczne(ctx, biodro, kolano, stopa, gr, pal, dalekie) {
     const p = dalekie ? przyciemniona(pal) : pal;
     segment(ctx, biodro, kolano, 1.9 * gr, 1.25 * gr, p);
+    if (!dalekie && (pal.lisciasta || pal.platki)) {
+      platekNaUdzie(ctx, biodro, kolano, (pal.platki ? 4.6 : 3.4) * gr, pal,
+        pal.lisciasta ? 'lisc' : 'platek');
+    }
     segment(ctx, kolano, stopa, 1.25 * gr, 0.62 * gr, p);
     segment(ctx, stopa, przesun(stopa, -7 * (stopa.x < 0 ? 1 : -1), -1.2), 0.62 * gr, 0.3 * gr, p);
   }
@@ -182,6 +212,19 @@
         s.meso.x - w * 0.6, s.meso.y + w * 1.1, s.meso.x + 2, s.meso.y + w * 0.75);
       ctx.closePath();
     }, g, pal, 1.7);
+    if (pal.lisciasta) {                       // postrzępiony, liściasty odwłok
+      ctx.fillStyle = pal.sredni; ctx.strokeStyle = pal.kontur; ctx.lineWidth = 1.1;
+      for (let i = 0; i < 4; i++) {
+        const t = 0.25 + i * 0.2;
+        const x = mieszaj(s.meso.x, hak.x, t), y = mieszaj(s.meso.y, hak.y, t) + w * 0.7;
+        const r = w * (0.5 - i * 0.06);
+        ctx.beginPath();
+        ctx.moveTo(x - r, y - r * 0.4);
+        ctx.quadraticCurveTo(x, y + r * 1.3, x + r, y - r * 0.4);
+        ctx.quadraticCurveTo(x, y + r * 0.2, x - r, y - r * 0.4);
+        ctx.closePath(); ctx.fill(); ctx.stroke();
+      }
+    }
     ctx.strokeStyle = 'rgba(0,0,0,0.14)'; ctx.lineWidth = 0.85;
     for (let i = 1; i <= 6; i++) {
       const t = i / 7;
