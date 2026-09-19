@@ -280,6 +280,7 @@
     stan.iskry = stan.iskry.filter(s => (s.zyc -= dt) > 0);
     stan.iskry.forEach(s => { s.x += s.vx * dt; s.y += s.vy * dt; s.vy += 120 * dt; });
 
+    if (stan.faza === 'menu') return;             // ekran domowy, gra stoi
     if (stan.faza === 'wylinka') { aktualizujWylinke(dt); return; }
     if (stan.faza === 'zwyciestwo') { aktualizujZwyciestwo(dt); return; }
 
@@ -430,8 +431,10 @@
     stan.kamera += (celKamery - stan.kamera) * Math.min(1, dt * 3);
     if (w >= 1) {
       stan.wylinka = 1;
-      if (m.finalowa) { stan.faza = 'zwyciestwo'; stan.zwyc = 0; }
-      else { stan.faza = 'gra'; m.dlugosc = m.dlugoscCel; m.zoom = m.zoomCel; }
+      if (m.finalowa) {
+        stan.faza = 'zwyciestwo'; stan.zwyc = 0;
+        if (onUkonczono) onUkonczono(m.gatunek);   // zapis i odblokowanie następnej
+      } else { stan.faza = 'gra'; m.dlugosc = m.dlugoscCel; m.zoom = m.zoomCel; }
     }
   }
 
@@ -799,8 +802,33 @@
       kierunek: -1, vx: 0, faza: 0, naZiemi: true, zyje: true, sploszenia: 0, ucieka: false, siedziDo: 0, celY: 0 });
   }
 
+  /* --- publiczne API dla menu (M4) ------------------------------------- */
+  let onUkonczono = null;
+  function startGry(gatunek) {
+    const m = stan.modliszka;
+    m.gatunek = gatunek || 'zwyczajna';
+    m.stadiumIdx = 0; m.food = 0; m.predkosc = 0; m.krok = 0; m.atak = 0; m.je = 0;
+    m.cel = null; m.owadCel = null; m.finalowa = false; m.wyrosla = false;
+    m.dlugosc = m.dlugoscCel = STADIA[0].dl;
+    m.zoom = m.zoomCel = STADIA[0].zoom;
+    m.x = SWIAT_SZER * 0.5; stan.kamera = m.x;
+    stan.wylinka = 0; stan.zwyc = 0; stan.wolneCzas = 0; stan.konfetti = []; stan.ooteka = null;
+    stan.iskry = [];
+    stan.faza = 'gra';
+    zasiej();
+  }
+
+  window.MantisGra = {
+    start: startGry,
+    doMenu: () => { stan.faza = 'menu'; },
+    naUkonczenie: (cb) => { onUkonczono = cb; },
+    ustawDzwiek: (wl) => { stan.dzwiekWl = wl; },
+    faza: () => stan.faza,
+    stan: stan
+  };
+
   dopasuj();
   przygotujTlo();
-  zasiej();
+  stan.faza = 'menu';        // start od ekranu domowego; menu wywoła start()
   requestAnimationFrame(klatka);
 })();
