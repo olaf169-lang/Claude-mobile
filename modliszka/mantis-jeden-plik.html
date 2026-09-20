@@ -1,0 +1,1979 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no, maximum-scale=1">
+<meta name="theme-color" content="#8fce8c">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<title>MANTIS</title>
+<!-- Wersja w jednym pliku, dziala offline bez serwera. Otworz w przegladarce telefonu i dodaj do ekranu glownego. -->
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    width: 100%; height: 100%; overflow: hidden;
+    background: #6cb673; touch-action: none;
+    -webkit-user-select: none; user-select: none;
+    -webkit-tap-highlight-color: transparent; overscroll-behavior: none;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+  #gra { display: block; touch-action: none; }
+
+  /* --- ekran domowy --- */
+  #dom {
+    position: fixed; inset: 0; z-index: 20;
+    display: flex; flex-direction: column; align-items: center;
+    padding: calc(env(safe-area-inset-top, 12px) + 12px) 16px calc(env(safe-area-inset-bottom, 12px) + 16px);
+    background:
+      radial-gradient(120% 60% at 75% 0%, rgba(255,251,205,0.95), rgba(255,246,180,0) 60%),
+      linear-gradient(180deg, #eaf7cf 0%, #b6e0a0 55%, #6cb673 100%);
+  }
+  #dom.ukryty { display: none; }
+  #dom { overflow-x: hidden; }
+  #tytul { font-size: 40px; font-weight: 800; color: #3d5c1e; letter-spacing: .06em; margin-top: 4px; }
+  #domModliszka { display: block; width: 240px; height: 150px; }
+  #naglowekWyboru { font-size: 15px; font-weight: 700; color: #6a7d4a; letter-spacing: .08em; margin: 2px 0 10px; }
+  #karty { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; width: 100%; max-width: 440px; }
+  .karta {
+    min-width: 0; background: rgba(255,255,255,0.55); border: 3px solid transparent;
+    border-radius: 18px; padding: 8px 6px 10px; text-align: center; position: relative;
+    transition: transform .12s, border-color .12s, background .2s;
+  }
+  .karta.wybrana { border-color: #6e9a33; background: rgba(255,255,255,0.85); transform: translateY(-3px); }
+  .karta.zablokowana { opacity: .96; }
+  .karta canvas { display: block; width: 100%; max-width: 100%; height: 84px; }
+  .karta .nazwa { font-size: 13px; font-weight: 700; color: #3d5c1e; margin-top: 2px; line-height: 1.15; }
+  .karta .lac { font-size: 10px; font-style: italic; color: #7a8a5c; }
+  .karta .klodka { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+    font-size: 34px; }
+  .karta .odznaka { position: absolute; top: 6px; right: 8px; font-size: 16px; }
+  #graj {
+    margin-top: auto; margin-bottom: 4px; border: 0; border-radius: 22px;
+    background: linear-gradient(180deg, #7fb63f, #5d8a2a); color: #fff;
+    font-size: 26px; font-weight: 800; letter-spacing: .06em;
+    padding: 16px 64px; box-shadow: 0 6px 0 #4a6e22, 0 10px 20px rgba(60,80,30,.35);
+  }
+  #graj:active { transform: translateY(3px); box-shadow: 0 3px 0 #4a6e22, 0 6px 12px rgba(60,80,30,.35); }
+
+  /* --- przyciski w rogu --- */
+  .rogPrzycisk {
+    position: fixed; z-index: 15; border: 0; border-radius: 50%;
+    width: 46px; height: 46px; font-size: 22px;
+    background: rgba(255,255,255,0.7); color: #3d5c1e;
+    display: flex; align-items: center; justify-content: center;
+  }
+  #dzwiek { top: calc(env(safe-area-inset-top, 10px) + 8px); right: calc(env(safe-area-inset-right, 10px) + 10px); }
+  #doDomu { top: calc(env(safe-area-inset-top, 10px) + 8px); left: calc(env(safe-area-inset-left, 10px) + 10px); display: none; }
+</style>
+</head>
+<body>
+<canvas id="gra"></canvas>
+
+<button id="dzwiek" class="rogPrzycisk" aria-label="dźwięk">🔊</button>
+<button id="doDomu" class="rogPrzycisk" aria-label="dom">🏠</button>
+
+<div id="dom">
+  <div id="tytul">MANTIS</div>
+  <canvas id="domModliszka" width="480" height="300"></canvas>
+  <div id="naglowekWyboru">WYBIERZ MODLISZKĘ</div>
+  <div id="karty"></div>
+  <button id="graj">GRAJ</button>
+</div>
+
+<script>
+/* ==========================================================================
+   MANTIS, rysunek modliszki
+   Modliszka jest złożona z osobnych części (głowa, oczy, czułki, przedtułów,
+   tułów, odwłok, dwie pary odnóży krocznych, odnóża chwytne, zawiązki
+   skrzydeł, skrzydła). Kod ustawia je w przegubach, więc ten sam zestaw
+   obsługuje osiem stadiów, trzy gatunki i całą animację.
+
+   Sylwetka trzyma się prawdziwej modliszki: długi przedtułów uniesiony
+   skośnie do góry, głowa wysoko z przodu, odnóża chwytne złożone przed
+   ciałem, odnóża kroczne cienkie jak szczudła, odwłok u nimfy podwinięty.
+
+   Układ lokalny: długość ciała to 100 jednostek, punkt (0,0) leży na ziemi
+   pod biodrem, oś Y rośnie w dół, modliszka patrzy w prawo.
+   ========================================================================== */
+
+(function (globalny) {
+  'use strict';
+
+  const mieszaj = (a, b, t) => a + (b - a) * t;
+  const pkt = (x, y) => ({ x, y });
+  const przesun = (p, dx, dy) => ({ x: p.x + dx, y: p.y + dy });
+
+  /* --- gatunki --------------------------------------------------------- */
+
+  const GATUNKI = {
+    zwyczajna: {
+      nazwa: 'modliszka zwyczajna', lacinska: 'Mantis religiosa',
+      jasny: '#d2e98a', sredni: '#9fc957', ciemny: '#6e9a33',
+      kontur: '#3d5c1e', oko: '#f4f8dc', zrenica: '#2a3d13',
+      skrzydlo: 'rgba(208,233,152,0.70)', plamka: true
+    },
+    duchowa: {
+      nazwa: 'modliszka duchowa', lacinska: 'Phyllocrania paradoxa',
+      jasny: '#ddc396', sredni: '#b58a5c', ciemny: '#855d39',
+      kontur: '#4b3220', oko: '#f0e2c6', zrenica: '#392615',
+      skrzydlo: 'rgba(216,188,144,0.70)', plamka: false, lisciasta: true
+    },
+    storczykowa: {
+      nazwa: 'modliszka storczykowa', lacinska: 'Hymenopus coronatus',
+      jasny: '#fff5f8', sredni: '#f8cfdf', ciemny: '#e09ab8',
+      kontur: '#8f5471', oko: '#fff8fb', zrenica: '#5e2d45',
+      skrzydlo: 'rgba(255,240,246,0.74)', plamka: false, platki: true
+    }
+  };
+
+  /* --- proporcje stadium ------------------------------------------------ */
+
+  function proporcje(stadium) {
+    const p = Math.min(1, Math.max(0, (stadium - 1) / 7));
+    return {
+      p,
+      glowa: mieszaj(1.45, 1.0, p),        // nimfa ma proporcjonalnie dużą głowę i oczy
+      przedtulow: mieszaj(15, 30, p),      // przedtułów wydłuża się z każdą wylinką
+      odwlok: mieszaj(32, 46, p),
+      podwiniecie: mieszaj(0.42, 0.10, p), // nimfa trzyma odwłok podwinięty do góry
+      grubosc: mieszaj(1.35, 0.92, p),
+      nogi: mieszaj(0.80, 1.14, p),
+      biodro: mieszaj(21, 28, p),
+      zawiazki: stadium >= 5 && stadium <= 7 ? mieszaj(10, 22, (stadium - 5) / 2) : 0,
+      skrzydla: stadium >= 8
+    };
+  }
+
+  /* --- pomocnicze -------------------------------------------------------- */
+
+  function gradientProstopadly(ctx, a, b, szer, pal) {
+    const dx = b.x - a.x, dy = b.y - a.y, d = Math.hypot(dx, dy) || 1;
+    const nx = -dy / d * szer, ny = dx / d * szer;
+    const g = ctx.createLinearGradient(a.x + nx, a.y + ny, a.x - nx, a.y - ny);
+    g.addColorStop(0, pal.jasny); g.addColorStop(0.5, pal.sredni); g.addColorStop(1, pal.ciemny);
+    return g;
+  }
+
+  function segment(ctx, a, b, wa, wb, pal) {
+    const n = 14;
+    const rysuj = (dodatek, styl) => {
+      ctx.strokeStyle = styl; ctx.lineCap = 'round';
+      for (let i = 0; i < n; i++) {
+        const t0 = i / n, t1 = (i + 1) / n;
+        ctx.beginPath();
+        ctx.moveTo(mieszaj(a.x, b.x, t0), mieszaj(a.y, b.y, t0));
+        ctx.lineTo(mieszaj(a.x, b.x, t1), mieszaj(a.y, b.y, t1));
+        ctx.lineWidth = (mieszaj(wa, wb, (t0 + t1) / 2) + dodatek) * 2;
+        ctx.stroke();
+      }
+    };
+    rysuj(pal.tlo ? 0.35 : 0.8, pal.kontur);
+    rysuj(0, pal.tlo ? pal.sredni : gradientProstopadly(ctx, a, b, Math.max(wa, wb), pal));
+  }
+
+  function kolce(ctx, a, b, ile, dlugosc, strona, pal) {
+    const dx = b.x - a.x, dy = b.y - a.y, d = Math.hypot(dx, dy) || 1;
+    const nx = -dy / d * strona, ny = dx / d * strona;
+    ctx.fillStyle = pal.kontur;
+    for (let i = 1; i <= ile; i++) {
+      const t = i / (ile + 1);
+      const x = mieszaj(a.x, b.x, t), y = mieszaj(a.y, b.y, t);
+      const dl = dlugosc * (0.55 + 0.45 * Math.sin(Math.PI * t));
+      ctx.beginPath();
+      ctx.moveTo(x + nx * 0.4 - dx / d * dl * 0.3, y + ny * 0.4 - dy / d * dl * 0.3);
+      ctx.lineTo(x + nx * dl, y + ny * dl);
+      ctx.lineTo(x + nx * 0.4 + dx / d * dl * 0.3, y + ny * 0.4 + dy / d * dl * 0.3);
+      ctx.closePath(); ctx.fill();
+    }
+  }
+
+  function ksztalt(ctx, sciezka, wypelnienie, pal, konturSzer) {
+    ctx.beginPath(); sciezka();
+    ctx.lineJoin = 'round'; ctx.lineWidth = konturSzer || 1.6;
+    ctx.strokeStyle = pal.kontur; ctx.stroke();
+    ctx.fillStyle = wypelnienie; ctx.fill();
+  }
+
+  const przyciemniona = (pal) =>
+    Object.assign({}, pal, {
+      jasny: pal.sredni, sredni: pal.ciemny, ciemny: pal.kontur,
+      kontur: 'rgba(40,50,25,0.45)', tlo: true
+    });
+
+  /* --- szkielet ---------------------------------------------------------- */
+
+  function szkielet(pr, poza) {
+    const z = poza || {};
+    const kol = z.kolysanie || 0;
+    const biodro = pkt(0, -pr.biodro);
+    const meso = pkt(11, -pr.biodro - 4);
+    const pro = pkt(17, -pr.biodro - 7);
+    const kat = -0.72 + kol;                       // przedtułów skośnie do góry
+    const kark = pkt(pro.x + Math.cos(kat) * pr.przedtulow, pro.y + Math.sin(kat) * pr.przedtulow);
+    const ogon = pkt(biodro.x - pr.odwlok, biodro.y - pr.odwlok * pr.podwiniecie);
+    return { biodro, meso, pro, kark, ogon, katGlowy: z.katGlowy || 0 };
+  }
+
+  /* --- części ------------------------------------------------------------ */
+
+  /* Odnóże kroczne: cienkie szczudło z kolanem wysoko nad ciałem. */
+  /* Liściasty płatek na udzie: u modliszki duchowej wygląda jak zeschły listek. */
+  function platekNaUdzie(ctx, a, b, wielkosc, pal, ksztaltP) {
+    const mx = mieszaj(a.x, b.x, 0.5), my = mieszaj(a.y, b.y, 0.5);
+    const kat = Math.atan2(b.y - a.y, b.x - a.x);
+    ctx.save(); ctx.translate(mx, my); ctx.rotate(kat);
+    if (ksztaltP === 'lisc') {
+      ksztalt(ctx, () => {
+        ctx.moveTo(-wielkosc, 0);
+        ctx.quadraticCurveTo(0, -wielkosc * 1.15, wielkosc, 0);
+        ctx.quadraticCurveTo(0, wielkosc * 0.5, -wielkosc, 0);
+        ctx.closePath();
+      }, pal.sredni, pal, 1.2);
+      ctx.strokeStyle = pal.kontur; ctx.lineWidth = 0.6; ctx.globalAlpha = 0.5;
+      ctx.beginPath(); ctx.moveTo(-wielkosc, 0); ctx.lineTo(wielkosc, 0); ctx.stroke();
+      ctx.globalAlpha = 1;
+    } else {
+      const g = ctx.createRadialGradient(0, -wielkosc * 0.3, wielkosc * 0.1, 0, 0, wielkosc);
+      g.addColorStop(0, pal.jasny); g.addColorStop(1, pal.sredni);
+      ksztalt(ctx, () => ctx.ellipse(0, 0, wielkosc, wielkosc * 0.62, 0, 0, 7), g, pal, 1.1);
+    }
+    ctx.restore();
+  }
+
+  function odnozeKroczne(ctx, biodro, kolano, stopa, gr, pal, dalekie) {
+    const p = dalekie ? przyciemniona(pal) : pal;
+    segment(ctx, biodro, kolano, 1.9 * gr, 1.25 * gr, p);
+    if (!dalekie && (pal.lisciasta || pal.platki)) {
+      platekNaUdzie(ctx, biodro, kolano, (pal.platki ? 4.6 : 3.4) * gr, pal,
+        pal.lisciasta ? 'lisc' : 'platek');
+    }
+    segment(ctx, kolano, stopa, 1.25 * gr, 0.62 * gr, p);
+    segment(ctx, stopa, przesun(stopa, -7 * (stopa.x < 0 ? 1 : -1), -1.2), 0.62 * gr, 0.3 * gr, p);
+  }
+
+  /* Odnóże chwytne: biodro do przodu, grube udo w dół i do tyłu, goleń
+     złożona z powrotem do góry. Kolce po wewnętrznej stronie. */
+  function odnozeChwytne(ctx, pr, s, pal, uniesienie, dalekie, atak) {
+    const p = dalekie ? przyciemniona(pal) : pal;
+    const gr = pr.grubosc, n = pr.nogi, u = uniesienie || 0, at = atak || 0;
+    const a = przesun(s.kark, -3, 4);
+    const b = pkt(a.x + (11 + at * 7) * n, a.y + (11 - u * 5 - at * 2) * n);
+    /* przy ataku goleń wyrzuca się do przodu i w górę, chwytając zdobycz */
+    const cZloz = pkt(b.x - 7 * n, b.y + (17 - u * 6) * n);
+    const cWyrzut = pkt(b.x + 6 * n, b.y + 9 * n);
+    const c = pkt(mieszaj(cZloz.x, cWyrzut.x, at), mieszaj(cZloz.y, cWyrzut.y, at));
+    const dZloz = pkt(c.x + 14 * n, c.y - (11 + u * 3) * n);
+    const dWyrzut = pkt(c.x + 20 * n, c.y - 3 * n);
+    const d = pkt(mieszaj(dZloz.x, dWyrzut.x, at), mieszaj(dZloz.y, dWyrzut.y, at));
+    segment(ctx, a, b, 2.3 * gr, 2.6 * gr, p);
+    segment(ctx, b, c, 4.8 * gr, 2.7 * gr, p);
+    kolce(ctx, b, c, 5, 2.8 * gr, 1, p);
+    segment(ctx, c, d, 2.5 * gr, 1.1 * gr, p);
+    kolce(ctx, c, d, 5, 2.2 * gr, -1, p);
+    segment(ctx, d, przesun(d, 5 * n, -3.5 * n), 1.0 * gr, 0.45 * gr, p);
+    if (pal.plamka && !dalekie) {
+      const px = mieszaj(b.x, c.x, 0.3), py = mieszaj(b.y, c.y, 0.3);
+      ctx.fillStyle = pal.kontur;
+      ctx.beginPath(); ctx.arc(px, py, 2.8 * gr, 0, 7); ctx.fill();
+      ctx.fillStyle = pal.oko;
+      ctx.beginPath(); ctx.arc(px, py, 1.2 * gr, 0, 7); ctx.fill();
+    }
+    if (pal.platki && !dalekie) {          // płatkowate rozszerzenia u storczykowej
+      ksztalt(ctx, () => {
+        const mx = mieszaj(b.x, c.x, 0.5), my = mieszaj(b.y, c.y, 0.5);
+        ctx.ellipse(mx - 3, my, 7.5 * gr, 4.6 * gr, 1.1, 0, 7);
+      }, pal.jasny, pal, 1.3);
+    }
+  }
+
+  function odwlok(ctx, pr, s, pal) {
+    const w = (6.2 + (1 - pr.p) * 2.4) * pr.grubosc * 0.9;
+    const hak = pkt(s.ogon.x - 2, s.ogon.y - w * 0.55);      // zadarty koniec odwłoka
+    const g = ctx.createLinearGradient(0, s.meso.y - w * 2, 0, s.meso.y + w * 1.6);
+    g.addColorStop(0, pal.jasny); g.addColorStop(0.5, pal.sredni); g.addColorStop(1, pal.ciemny);
+    ksztalt(ctx, () => {
+      ctx.moveTo(s.meso.x + 2, s.meso.y - w * 0.85);
+      ctx.bezierCurveTo(s.meso.x - w * 1.4, s.meso.y - w * 1.5,
+        mieszaj(s.meso.x, hak.x, 0.6), mieszaj(s.meso.y, hak.y, 0.55) - w * 1.25, hak.x, hak.y);
+      ctx.quadraticCurveTo(hak.x + w * 0.5, hak.y + w * 0.7, s.ogon.x + w * 0.9, s.ogon.y + w * 0.35);
+      ctx.bezierCurveTo(mieszaj(s.meso.x, s.ogon.x, 0.5), mieszaj(s.meso.y, s.ogon.y, 0.5) + w * 1.1,
+        s.meso.x - w * 0.6, s.meso.y + w * 1.1, s.meso.x + 2, s.meso.y + w * 0.75);
+      ctx.closePath();
+    }, g, pal, 1.7);
+    if (pal.lisciasta) {                       // postrzępiony, liściasty odwłok
+      ctx.fillStyle = pal.sredni; ctx.strokeStyle = pal.kontur; ctx.lineWidth = 1.1;
+      for (let i = 0; i < 4; i++) {
+        const t = 0.25 + i * 0.2;
+        const x = mieszaj(s.meso.x, hak.x, t), y = mieszaj(s.meso.y, hak.y, t) + w * 0.7;
+        const r = w * (0.5 - i * 0.06);
+        ctx.beginPath();
+        ctx.moveTo(x - r, y - r * 0.4);
+        ctx.quadraticCurveTo(x, y + r * 1.3, x + r, y - r * 0.4);
+        ctx.quadraticCurveTo(x, y + r * 0.2, x - r, y - r * 0.4);
+        ctx.closePath(); ctx.fill(); ctx.stroke();
+      }
+    }
+    ctx.strokeStyle = 'rgba(0,0,0,0.14)'; ctx.lineWidth = 0.85;
+    for (let i = 1; i <= 6; i++) {
+      const t = i / 7;
+      const x = mieszaj(s.meso.x, hak.x, t), y = mieszaj(s.meso.y, hak.y, t);
+      ctx.beginPath();
+      ctx.moveTo(x, y - w * (1 - t * 0.55));
+      ctx.quadraticCurveTo(x - 1.5, y, x, y + w * 0.8 * (1 - t * 0.55));
+      ctx.stroke();
+    }
+  }
+
+  /* Tułów środkowy i długi przedtułów. */
+  function tulow(ctx, pr, s, pal) {
+    const gr = pr.grubosc;
+    ksztalt(ctx, () => {
+      ctx.moveTo(s.meso.x + 4, s.meso.y - 5 * gr);
+      ctx.quadraticCurveTo(s.pro.x + 3, s.pro.y - 5.4 * gr, s.pro.x + 4, s.pro.y + 1);
+      ctx.quadraticCurveTo(s.meso.x + 2, s.meso.y + 5 * gr, s.meso.x - 3, s.meso.y + 3 * gr);
+      ctx.quadraticCurveTo(s.meso.x - 4, s.meso.y - 3 * gr, s.meso.x + 4, s.meso.y - 5 * gr);
+      ctx.closePath();
+    }, gradientProstopadly(ctx, s.meso, s.pro, 6 * gr, pal), pal, 1.7);
+    segment(ctx, s.pro, s.kark, 3.7 * gr, 2.5 * gr, pal);
+    /* delikatny grzbiet przedtułowia */
+    ctx.strokeStyle = 'rgba(255,255,255,0.28)'; ctx.lineWidth = 0.9;
+    ctx.beginPath();
+    ctx.moveTo(s.pro.x - 1, s.pro.y - 2.2 * gr);
+    ctx.lineTo(s.kark.x - 1, s.kark.y - 1.6 * gr);
+    ctx.stroke();
+  }
+
+  function zawiazkiSkrzydel(ctx, pr, s, pal) {
+    if (!pr.zawiazki) return;
+    const a = przesun(s.meso, 3, -4.5);
+    const b = pkt(a.x - pr.zawiazki, a.y + pr.zawiazki * 0.22);
+    ksztalt(ctx, () => {
+      ctx.moveTo(a.x, a.y - 3.4);
+      ctx.quadraticCurveTo(b.x + 3, b.y - 5, b.x, b.y);
+      ctx.quadraticCurveTo(b.x + 5, b.y + 3, a.x, a.y + 3);
+      ctx.closePath();
+    }, pal.sredni, pal, 1.3);
+  }
+
+  function skrzydla(ctx, pr, s, pal, rozlozone) {
+    if (!pr.skrzydla) return;
+    const a = przesun(s.meso, 4, -5);
+    const dl = pr.odwlok + 14;
+    const b = rozlozone ? pkt(a.x - dl * 0.86, a.y - dl * 0.42) : pkt(a.x - dl, a.y + 3);
+    ksztalt(ctx, () => {
+      ctx.moveTo(a.x, a.y - 2);
+      ctx.bezierCurveTo(mieszaj(a.x, b.x, 0.35), a.y - 12, mieszaj(a.x, b.x, 0.78), b.y - 12, b.x, b.y);
+      ctx.bezierCurveTo(mieszaj(a.x, b.x, 0.78), b.y + 5, mieszaj(a.x, b.x, 0.35), a.y + 7, a.x, a.y + 4);
+      ctx.closePath();
+    }, pal.skrzydlo, pal, 1.2);
+    ctx.strokeStyle = 'rgba(60,80,35,0.25)'; ctx.lineWidth = 0.65;
+    for (let i = 1; i <= 5; i++) {
+      ctx.beginPath();
+      ctx.moveTo(a.x - 1, a.y - 2 + i * 1.2);
+      ctx.quadraticCurveTo(mieszaj(a.x, b.x, 0.5), mieszaj(a.y, b.y, 0.5) - 7 + i * 2.6, b.x + 2, b.y + i * 0.5);
+      ctx.stroke();
+    }
+  }
+
+  /* Głowa: trójkąt szerszy niż wyższy, w profilu widać jedno duże oko,
+     drugie tylko wystaje zza niego. Fałszywa źrenica patrzy na cel. */
+  function glowa(ctx, pr, s, pal, patrzy) {
+    const sk = pr.glowa * 1.15;
+    ctx.save();
+    ctx.translate(s.kark.x, s.kark.y);
+    ctx.rotate(s.katGlowy + 0.18);
+
+    /* dalsze oko */
+    ksztalt(ctx, () => ctx.ellipse(1.5 * sk, -5.6 * sk, 3.5 * sk, 4.0 * sk, 0.1, 0, 7),
+      pal.ciemny, pal, 1.2);
+
+    const g = ctx.createLinearGradient(0, -6 * sk, 2 * sk, 5 * sk);
+    g.addColorStop(0, pal.jasny); g.addColorStop(0.65, pal.sredni); g.addColorStop(1, pal.ciemny);
+    ksztalt(ctx, () => {
+      ctx.moveTo(-3.8 * sk, -6.2 * sk);
+      ctx.quadraticCurveTo(5 * sk, -8.2 * sk, 11.8 * sk, -5.4 * sk);
+      ctx.quadraticCurveTo(11.2 * sk, -0.4 * sk, 7.4 * sk, 3.2 * sk);
+      ctx.quadraticCurveTo(4.4 * sk, 6.4 * sk, 1.2 * sk, 4.4 * sk);
+      ctx.quadraticCurveTo(-3.2 * sk, 1.6 * sk, -3.8 * sk, -6.2 * sk);
+      ctx.closePath();
+    }, g, pal, 1.6);
+
+    if (pal.lisciasta) {                     // wyrostek na głowie modliszki duchowej
+      ksztalt(ctx, () => {
+        ctx.moveTo(1 * sk, -6 * sk);
+        ctx.quadraticCurveTo(-1 * sk, -14 * sk, 4 * sk, -16 * sk);
+        ctx.quadraticCurveTo(8 * sk, -13 * sk, 5.5 * sk, -5.6 * sk);
+        ctx.closePath();
+      }, pal.sredni, pal, 1.3);
+    }
+
+    /* bliższe oko, duże, na górno przednim rogu głowy */
+    const ox = 8.4 * sk, oy = -4.4 * sk, r = 4.0 * sk;
+    const go = ctx.createRadialGradient(ox - r * 0.3, oy - r * 0.45, r * 0.1, ox, oy, r);
+    go.addColorStop(0, pal.oko); go.addColorStop(0.55, pal.jasny); go.addColorStop(1, pal.sredni);
+    ksztalt(ctx, () => ctx.ellipse(ox, oy, r * 0.94, r * 1.24, 0.3, 0, 7), go, pal, 1.4);
+    /* fałszywa źrenica, ciemny punkt, który zawsze zdaje się patrzeć na gracza */
+    ctx.fillStyle = pal.zrenica;
+    ctx.beginPath();
+    ctx.arc(ox + (patrzy === false ? 0 : 1.2) * sk, oy + 0.9 * sk, r * 0.36, 0, 7);
+    ctx.fill();
+    ctx.fillStyle = 'rgba(255,255,255,0.75)';
+    ctx.beginPath();
+    ctx.arc(ox - r * 0.36, oy - r * 0.52, r * 0.2, 0, 7);
+    ctx.fill();
+
+    /* czułki */
+    ctx.strokeStyle = pal.kontur; ctx.lineWidth = 1.0 * pr.grubosc; ctx.lineCap = 'round';
+    [[1, -1], [0.85, 0.35]].forEach(([dl, od]) => {
+      ctx.beginPath();
+      ctx.moveTo(7 * sk, -6.2 * sk);
+      ctx.quadraticCurveTo(22 * sk * dl, -14 * sk * dl, 38 * sk * dl, (-9 + od * 5) * sk * dl);
+      ctx.stroke();
+    });
+
+    /* aparat gębowy */
+    ctx.fillStyle = pal.ciemny;
+    ctx.beginPath(); ctx.ellipse(5.6 * sk, 3.6 * sk, 2.1 * sk, 1.5 * sk, 0.5, 0, 7); ctx.fill();
+    ctx.restore();
+  }
+
+  /* --- całość ------------------------------------------------------------ */
+
+  /* Modliszka storczykowa w L1 jest czarno-czerwona i udaje mrówkę.
+     Kwiatowe barwy pojawiają się dopiero po pierwszej wylince (L2). */
+  const MIMIKRA = {
+    nazwa: 'modliszka storczykowa', lacinska: 'Hymenopus coronatus',
+    jasny: '#e05a4a', sredni: '#b0342a', ciemny: '#3a1512',
+    kontur: '#241010', oko: '#f0d0c0', zrenica: '#1a0808',
+    skrzydlo: 'rgba(60,30,25,0.5)', plamka: false, platki: false
+  };
+
+  function rysuj(ctx, o) {
+    const pr = proporcje(o.stadium || 1);
+    let pal = GATUNKI[o.gatunek || 'zwyczajna'];
+    if ((o.gatunek === 'storczykowa') && (o.stadium || 1) === 1) pal = MIMIKRA;
+    const z = o.poza || {};
+    const s = szkielet(pr, z);
+    const gr = pr.grubosc, n = pr.nogi;
+    const u = z.rozlozoneOdnoza || 0;
+    const atak = z.atak || 0;
+
+    ctx.save();
+    ctx.translate(o.x, o.y);
+    const skala = (o.dlugosc || 100) / 100;
+    ctx.scale(skala * (o.kierunek === -1 ? -1 : 1), skala);
+
+    if (o.cien !== false) {
+      ctx.fillStyle = 'rgba(40,60,20,0.15)';
+      ctx.beginPath(); ctx.ellipse(-4, 1.5, pr.odwlok * 0.9, 3.6, 0, 0, 7); ctx.fill();
+    }
+
+    /* Chód: każde z czterech odnóży krocznych stąpa według wspólnej fazy
+       (z.krok, rośnie z przebytą drogą), pary po przekątnej na zmianę.
+       intensywnosc = ile z pełnego kroku, 0 gdy modliszka stoi. */
+    const krok = z.krok || 0;
+    const chodzi = z.intensywnosc || 0;
+    function stopaChodu(bazaX, faza) {
+      const c = (krok + faza) % 1;
+      const podnos = Math.max(0, Math.sin(c * Math.PI * 2)) * chodzi;   // uniesienie
+      const przod = Math.cos(c * Math.PI * 2) * chodzi;                 // wymach
+      return pkt(bazaX + przod * 4 * n, -podnos * 5 * n);
+    }
+    function noga(ctx2, biodro, bazaX, faza, kolanoX, kolanoY, dalekie) {
+      const stopa = stopaChodu(bazaX, faza);
+      const kolano = pkt(mieszaj(biodro.x, stopa.x, 0.5) + kolanoX,
+                         Math.min(biodro.y, kolanoY) - Math.max(0, -stopa.y) * 0.4);
+      odnozeKroczne(ctx2, biodro, kolano, stopa, gr, pal, dalekie);
+    }
+
+    /* dalsza strona ciała */
+    noga(ctx, przesun(s.biodro, 3, 0), -24 * n + 3, 0.5, 0, s.biodro.y - 19 * n, true);
+    noga(ctx, przesun(s.meso, 3, 0), 25 * n + 3, 0.0, 4 * n, s.meso.y - 17 * n, true);
+    odnozeChwytne(ctx, pr, s, pal, u, true, atak);
+
+    skrzydla(ctx, pr, s, pal, !!z.skrzydlaRozlozone);
+    odwlok(ctx, pr, s, pal);
+    zawiazkiSkrzydel(ctx, pr, s, pal);
+    tulow(ctx, pr, s, pal);
+
+    /* pęknięcie pancerza na karku i grzbiecie (wylinka) */
+    if (z.pekniecie > 0) {
+      ctx.save();
+      ctx.strokeStyle = 'rgba(255,255,255,0.9)';
+      ctx.lineWidth = 1.4 + z.pekniecie * 2;
+      ctx.beginPath();
+      ctx.moveTo(s.kark.x - 2, s.kark.y);
+      const rozejscie = z.pekniecie * 3;
+      ctx.lineTo(s.pro.x + rozejscie, s.pro.y);
+      ctx.lineTo(s.meso.x - rozejscie, s.meso.y - 2);
+      ctx.stroke();
+      ctx.strokeStyle = 'rgba(20,30,10,0.4)'; ctx.lineWidth = 1;
+      ctx.stroke();
+      ctx.restore();
+    }
+
+    /* bliższa strona */
+    noga(ctx, s.biodro, -29 * n, 0.0, -2 * n, s.biodro.y - 21 * n, false);
+    noga(ctx, s.meso, 29 * n, 0.5, 5 * n, s.meso.y - 19 * n, false);
+    odnozeChwytne(ctx, pr, s, pal, u, false, atak);
+    glowa(ctx, pr, s, pal, o.patrzy);
+
+    ctx.restore();
+  }
+
+  globalny.Modliszka = { rysuj, proporcje, GATUNKI };
+})(window);
+
+</script>
+<script>
+/* ==========================================================================
+   MANTIS, rysunek świata
+   Tło jest rysowane warstwami (niebo, plan daleki, plan średni, gałązka
+   z liściem, plan bliski). W grze powstanie raz na ukrytym canvasie i będzie
+   tylko przesuwane, więc rozmycie i gradienty nic nie kosztują w klatce.
+   ========================================================================== */
+
+(function (globalny) {
+  'use strict';
+
+  function losowy(ziarno) {
+    let s = ziarno;
+    return () => (s = (s * 1103515245 + 12345) % 2147483648) / 2147483648;
+  }
+
+  /* --- palety trzech światów -------------------------------------------
+     Każdy gatunek modliszki ma własne środowisko. Paleta steruje kolorami
+     nieba, trawy, kwiatów i gruntu oraz rodzajem cząsteczek w powietrzu. */
+  const SWIATY = {
+    laka: {           // modliszka zwyczajna: letnia łąka w słońcu
+      niebo: ['#fdf6d8', '#e7f2b8', '#b6e0a0', '#6cb673'],
+      slonce: 'rgba(255,251,205,', slonceX: 0.76, slonceY: 0.11,
+      promienie: true,
+      daleko: 'rgba(150,200,140,0.75)', srednio: 'rgba(112,178,105,0.9)', lodyga: 'rgba(90,155,88,0.95)',
+      grunt: ['rgba(120,150,70,0.0)', 'rgba(96,132,60,0.55)', 'rgba(70,104,44,0.85)'],
+      gruntZdzblo: 'rgba(88,132,58,0.8)',
+      lisc: ['#b6e07f', '#84c25c', '#5d9a3c'],
+      kwiaty: [[0.15, 0.52, '#f2a8c8', '#ffd34d', 6], [0.87, 0.62, '#c6a8ee', '#ffe27a', 5], [0.71, 0.76, '#ffd27a', '#ff9b3d', 6]],
+      dalekieKwiaty: ['rgba(255,200,120,0.55)', 'rgba(240,150,190,0.5)', 'rgba(200,170,240,0.5)', 'rgba(255,235,140,0.6)'],
+      czasteczki: 'pylki', rosa: true
+    },
+    sciolka: {        // modliszka duchowa: sucha ściółka jesienią
+      niebo: ['#f6e6c0', '#e8cf9a', '#c99a63', '#8a6238'],
+      slonce: 'rgba(255,226,160,', slonceX: 0.7, slonceY: 0.14,
+      promienie: true,
+      daleko: 'rgba(180,140,90,0.7)', srednio: 'rgba(150,108,64,0.9)', lodyga: 'rgba(120,86,50,0.95)',
+      grunt: ['rgba(150,110,60,0.0)', 'rgba(120,84,46,0.6)', 'rgba(86,58,32,0.9)'],
+      gruntZdzblo: 'rgba(120,84,46,0.85)',
+      lisc: ['#d8b877', '#b8894e', '#8a5f34'],
+      kwiaty: [[0.16, 0.55, '#e08a4a', '#ffcf6a', 6], [0.85, 0.64, '#c96a3a', '#ffb35a', 5]],
+      dalekieKwiaty: ['rgba(230,150,80,0.5)', 'rgba(200,120,60,0.5)', 'rgba(240,190,100,0.55)'],
+      czasteczki: 'liscie', rosa: false
+    },
+    zmierzch: {       // modliszka storczykowa: kwiat o zmierzchu
+      niebo: ['#f3d9e6', '#c9a9d6', '#8a7ab0', '#4a4a78'],
+      slonce: 'rgba(255,214,180,', slonceX: 0.3, slonceY: 0.16,
+      promienie: false,
+      daleko: 'rgba(150,130,170,0.6)', srednio: 'rgba(120,100,150,0.8)', lodyga: 'rgba(90,80,120,0.9)',
+      grunt: ['rgba(90,80,120,0.0)', 'rgba(70,62,100,0.55)', 'rgba(44,40,72,0.9)'],
+      gruntZdzblo: 'rgba(90,80,120,0.85)',
+      lisc: ['#f6d6e6', '#e3a6c6', '#c078a0'],
+      kwiaty: [[0.16, 0.5, '#ffd1e6', '#ffe27a', 6], [0.86, 0.6, '#e6b3ff', '#fff0a0', 6], [0.7, 0.74, '#ffc1dd', '#ffd86a', 5]],
+      dalekieKwiaty: ['rgba(255,200,230,0.5)', 'rgba(220,180,255,0.5)', 'rgba(255,230,150,0.5)'],
+      czasteczki: 'swietliki', rosa: true
+    }
+  };
+
+
+  /* Źdźbło trawy: zakrzywiona, zwężająca się kreska. */
+  function zdzblo(ctx, x, y, dl, odchyl, szer, kolor) {
+    ctx.fillStyle = kolor;
+    ctx.beginPath();
+    ctx.moveTo(x - szer, y);
+    ctx.quadraticCurveTo(x + odchyl * 0.4, y - dl * 0.55, x + odchyl, y - dl);
+    ctx.quadraticCurveTo(x + odchyl * 0.4 + szer * 0.8, y - dl * 0.5, x + szer, y);
+    ctx.closePath();
+    ctx.fill();
+  }
+
+  /* Liść: dwie krzywe plus nerw główny i boczne. */
+  function lisc(ctx, x, y, dl, szer, kat, kolory) {
+    ctx.save();
+    ctx.translate(x, y);
+    ctx.rotate(kat);
+    const g = ctx.createLinearGradient(0, -szer, dl, szer);
+    g.addColorStop(0, kolory[0]); g.addColorStop(0.55, kolory[1]); g.addColorStop(1, kolory[2]);
+    ctx.beginPath();
+    ctx.moveTo(0, 0);
+    ctx.bezierCurveTo(dl * 0.25, -szer, dl * 0.72, -szer * 0.92, dl, -szer * 0.06);
+    ctx.bezierCurveTo(dl * 0.72, szer * 0.86, dl * 0.25, szer, 0, 0);
+    ctx.closePath();
+    ctx.fillStyle = g; ctx.fill();
+    ctx.strokeStyle = 'rgba(30,60,20,0.35)'; ctx.lineWidth = Math.max(1, dl * 0.006); ctx.stroke();
+    ctx.strokeStyle = 'rgba(30,70,25,0.22)'; ctx.lineWidth = Math.max(0.8, dl * 0.004);
+    ctx.beginPath(); ctx.moveTo(dl * 0.02, -szer * 0.02);
+    ctx.quadraticCurveTo(dl * 0.6, -szer * 0.12, dl * 0.97, -szer * 0.05); ctx.stroke();
+    for (let i = 1; i <= 6; i++) {
+      const t = i / 7;
+      const bx = mieszajL(dl * 0.02, dl * 0.95, t), by = -szer * 0.08 * (1 - t);
+      ctx.beginPath(); ctx.moveTo(bx, by);
+      ctx.quadraticCurveTo(bx + dl * 0.08, by - szer * 0.35, bx + dl * 0.12, by - szer * 0.55 * (1 - t * 0.5));
+      ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(bx, by);
+      ctx.quadraticCurveTo(bx + dl * 0.08, by + szer * 0.35, bx + dl * 0.12, by + szer * 0.6 * (1 - t * 0.5));
+      ctx.stroke();
+    }
+    ctx.restore();
+  }
+
+  const mieszajL = (a, b, t) => a + (b - a) * t;
+
+  /* Kwiatek: kilka płatków wokół środka, dowolny kolor. */
+  function kwiat(ctx, x, y, r, platek, srodek, ileP) {
+    ctx.save(); ctx.translate(x, y);
+    const n = ileP || 6;
+    for (let i = 0; i < n; i++) {
+      const k = i / n * Math.PI * 2;
+      const g = ctx.createLinearGradient(0, 0, Math.cos(k) * r, Math.sin(k) * r);
+      g.addColorStop(0, srodek); g.addColorStop(1, platek);
+      ctx.fillStyle = g;
+      ctx.beginPath();
+      ctx.ellipse(Math.cos(k) * r * 0.6, Math.sin(k) * r * 0.6, r * 0.5, r * 0.3, k, 0, 7);
+      ctx.fill();
+    }
+    ctx.fillStyle = srodek;
+    ctx.beginPath(); ctx.arc(0, 0, r * 0.3, 0, 7); ctx.fill();
+    ctx.fillStyle = 'rgba(255,240,180,0.9)';
+    ctx.beginPath(); ctx.arc(-r * 0.08, -r * 0.08, r * 0.16, 0, 7); ctx.fill();
+    ctx.restore();
+  }
+
+  function koniczyna(ctx, x, y, r, kolor) {
+    ctx.save(); ctx.translate(x, y);
+    ctx.fillStyle = kolor;
+    for (let i = 0; i < 9; i++) {
+      const k = i / 9 * Math.PI * 2;
+      ctx.beginPath();
+      ctx.ellipse(Math.cos(k) * r * 0.55, Math.sin(k) * r * 0.55, r * 0.42, r * 0.3, k, 0, 7);
+      ctx.fill();
+    }
+    ctx.fillStyle = 'rgba(255,255,255,0.75)';
+    ctx.beginPath(); ctx.arc(-r * 0.15, -r * 0.2, r * 0.35, 0, 7); ctx.fill();
+    ctx.restore();
+  }
+
+  function rysujSwiat(ctx, w, h, swiatKey) {
+    const p = SWIATY[swiatKey] || SWIATY.laka;
+    const r = losowy(7);
+
+    /* niebo */
+    const g = ctx.createLinearGradient(0, 0, 0, h);
+    g.addColorStop(0, p.niebo[0]); g.addColorStop(0.30, p.niebo[1]);
+    g.addColorStop(0.60, p.niebo[2]); g.addColorStop(1, p.niebo[3]);
+    ctx.fillStyle = g; ctx.fillRect(0, 0, w, h);
+
+    /* słońce lub księżycowa poświata */
+    const sx = w * p.slonceX, sy = h * p.slonceY;
+    const slonce = ctx.createRadialGradient(sx, sy, 0, sx, sy, w * 0.85);
+    slonce.addColorStop(0, p.slonce + '0.98)');
+    slonce.addColorStop(0.22, p.slonce + '0.5)');
+    slonce.addColorStop(0.5, p.slonce + '0.16)');
+    slonce.addColorStop(1, p.slonce + '0)');
+    ctx.fillStyle = slonce; ctx.fillRect(0, 0, w, h);
+
+    /* promienie światła (tylko dzień) */
+    if (p.promienie) {
+      ctx.save(); ctx.globalCompositeOperation = 'screen';
+      for (let i = 0; i < 5; i++) {
+        const x = w * (0.55 + i * 0.11);
+        const gr = ctx.createLinearGradient(x, 0, x - w * 0.18, h);
+        gr.addColorStop(0, 'rgba(255,250,210,0.10)'); gr.addColorStop(1, 'rgba(255,250,210,0)');
+        ctx.fillStyle = gr;
+        ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x + w * 0.05, 0);
+        ctx.lineTo(x - w * 0.13, h); ctx.lineTo(x - w * 0.20, h); ctx.closePath(); ctx.fill();
+      }
+      ctx.restore();
+    }
+
+    /* plan daleki, mocno rozmyty */
+    ctx.save(); ctx.filter = 'blur(' + (w * 0.012) + 'px)';
+    for (let i = 0; i < 38; i++) {
+      const x = r() * w, dl = h * (0.22 + r() * 0.3);
+      zdzblo(ctx, x, h * 0.86, dl, (r() - 0.5) * w * 0.12, w * 0.012, p.daleko);
+    }
+    for (let i = 0; i < 14; i++) {
+      ctx.fillStyle = p.dalekieKwiaty[i % p.dalekieKwiaty.length];
+      ctx.beginPath(); ctx.arc(r() * w, h * (0.5 + r() * 0.3), w * (0.01 + r() * 0.02), 0, 7); ctx.fill();
+    }
+    for (let i = 0; i < 16; i++) {
+      ctx.fillStyle = 'rgba(255,255,225,' + (0.14 + r() * 0.22) + ')';
+      ctx.beginPath(); ctx.arc(r() * w, r() * h * 0.7, w * (0.012 + r() * 0.03), 0, 7); ctx.fill();
+    }
+    ctx.restore();
+
+    /* plan średni */
+    ctx.save(); ctx.filter = 'blur(' + (w * 0.003) + 'px)';
+    for (let i = 0; i < 26; i++) {
+      const x = r() * w, dl = h * (0.3 + r() * 0.34);
+      zdzblo(ctx, x, h * 0.95, dl, (r() - 0.5) * w * 0.16, w * 0.016, p.srednio);
+    }
+    ctx.restore();
+    /* kwiaty na łodygach */
+    p.kwiaty.forEach(k => {
+      zdzblo(ctx, w * k[0], h * 0.97, h * (0.95 - k[1]), (k[0] - 0.5) * w * 0.05, w * 0.012, p.lodyga);
+      kwiat(ctx, w * k[0], h * k[1], w * 0.055, k[2], k[3], k[4]);
+    });
+
+    /* gałązka z liściem (albo płatkiem), na której stoi modliszka */
+    const lx = w * 0.06, ly = h * 0.74;
+    ctx.strokeStyle = swiatKey === 'zmierzch' ? '#6a5a48' : (swiatKey === 'sciolka' ? '#6e5327' : '#7d6a3f');
+    ctx.lineCap = 'round'; ctx.lineWidth = w * 0.026;
+    ctx.beginPath(); ctx.moveTo(-w * 0.02, h * 0.97); ctx.quadraticCurveTo(w * 0.1, h * 0.88, w * 0.36, ly + h * 0.012); ctx.stroke();
+    ctx.save(); ctx.filter = 'blur(' + (w * 0.02) + 'px)';
+    ctx.fillStyle = 'rgba(30,40,20,0.22)';
+    ctx.beginPath(); ctx.ellipse(w * 0.4, ly + h * 0.055, w * 0.36, h * 0.02, -0.04, 0, 7); ctx.fill();
+    ctx.restore();
+    lisc(ctx, lx + w * 0.02, ly + h * 0.004, w * 0.86, h * 0.052, -0.045, p.lisc);
+
+    if (p.rosa && swiatKey !== 'zmierzch') {
+      const kropla = ctx.createRadialGradient(w * 0.63, ly - h * 0.012, 0, w * 0.63, ly - h * 0.01, w * 0.022);
+      kropla.addColorStop(0, 'rgba(255,255,255,0.95)');
+      kropla.addColorStop(0.6, 'rgba(225,245,255,0.55)');
+      kropla.addColorStop(1, 'rgba(200,235,255,0.15)');
+      ctx.fillStyle = kropla;
+      ctx.beginPath(); ctx.ellipse(w * 0.63, ly - h * 0.012, w * 0.022, w * 0.019, 0, 0, 7); ctx.fill();
+    }
+
+    /* grunt (dodawany w gra.js osobno, tu zwracamy tylko dane) */
+    return { liscY: ly - h * 0.006, liscX: w * 0.3, paleta: p };
+  }
+
+  globalny.Swiat = { rysujSwiat, lisc, zdzblo, kwiat, SWIATY };
+})(window);
+
+</script>
+<script>
+/* ==========================================================================
+   MANTIS, rysunek owadów (etap M2)
+   Owady są złożone z części tak samo jak modliszka: korpus, głowa, skrzydła
+   (machają), odnóża, czułki. Typ decyduje o rozmiarze, kolorze, kształcie
+   i sposobie poruszania. Wartości polowania (czujność, pożywienie, od
+   którego stadium) są w danych, żeby dało się je stroić bez ruszania kodu.
+
+   Układ lokalny: owad ma około 40 jednostek długości, (0,0) to środek
+   korpusu, patrzy w prawo.
+   ========================================================================== */
+
+(function (globalny) {
+  'use strict';
+
+  const TYPY = {
+    muszka:   { nazwa: 'muszka owocówka', ruch: 'lot-zryw', czujnosc: 0.0, pozywienie: 1, odStadium: 1,
+                skala: 0.62, korpus: '#6b6f78', oko: '#a33', skrzydla: true, dlugie: false },
+    mszyca:   { nazwa: 'mszyca', ruch: 'pelza', czujnosc: 0.0, pozywienie: 1, odStadium: 1,
+                skala: 0.58, korpus: '#9ccb6a', oko: '#2b3f14', skrzydla: false, pekata: true },
+    mrowka:   { nazwa: 'mrówka', ruch: 'tlo', czujnosc: 1, pozywienie: 0, odStadium: 1,
+                skala: 0.62, korpus: '#7a3b22', oko: '#1a0d06', skrzydla: false, segmenty: true },
+    mucha:    { nazwa: 'mucha domowa', ruch: 'lot-luk', czujnosc: 0.5, pozywienie: 1, odStadium: 3,
+                skala: 0.82, korpus: '#3b3f47', oko: '#8a2f2f', skrzydla: true, dlugie: false },
+    cma:      { nazwa: 'ćma', ruch: 'lot-chwiej', czujnosc: 0.3, pozywienie: 2, odStadium: 5,
+                skala: 1.05, korpus: '#b7a184', oko: '#3a2a18', skrzydla: true, cma: true },
+    swierszcz:{ nazwa: 'świerszcz', ruch: 'skok', czujnosc: 0.7, pozywienie: 3, odStadium: 5,
+                skala: 1.15, korpus: '#5f7a34', oko: '#20130a', skrzydla: false, dlugonogi: true },
+    wazka:    { nazwa: 'ważka', ruch: 'lot-szybki', czujnosc: 0.9, pozywienie: 5, odStadium: 8,
+                skala: 1.35, korpus: '#3aa6b0', oko: '#123', skrzydla: true, wazka: true, dlugie: true }
+  };
+
+  const mieszaj = (a, b, t) => a + (b - a) * t;
+
+  function przyciemnij(hex, ile) {
+    const n = parseInt(hex.slice(1), 16);
+    const r = Math.max(0, ((n >> 16) & 255) * (1 - ile)) | 0;
+    const g = Math.max(0, ((n >> 8) & 255) * (1 - ile)) | 0;
+    const b = Math.max(0, (n & 255) * (1 - ile)) | 0;
+    return 'rgb(' + r + ',' + g + ',' + b + ')';
+  }
+
+  function skrzydlo(ctx, x, y, dl, sz, kat, cma) {
+    ctx.save(); ctx.translate(x, y); ctx.rotate(kat);
+    const g = ctx.createLinearGradient(0, 0, dl, 0);
+    if (cma) { g.addColorStop(0, 'rgba(210,196,170,0.9)'); g.addColorStop(1, 'rgba(180,160,130,0.55)'); }
+    else { g.addColorStop(0, 'rgba(230,238,250,0.75)'); g.addColorStop(1, 'rgba(200,215,235,0.35)'); }
+    ctx.fillStyle = g;
+    ctx.strokeStyle = cma ? 'rgba(120,100,70,0.5)' : 'rgba(150,170,200,0.6)';
+    ctx.lineWidth = 0.8;
+    ctx.beginPath();
+    ctx.ellipse(dl * 0.5, 0, dl * 0.5, sz, 0, 0, 7);
+    ctx.fill(); ctx.stroke();
+    ctx.restore();
+  }
+
+  function rysuj(ctx, o) {
+    const typ = TYPY[o.typ];
+    const faza = o.faza || 0;
+    ctx.save();
+    ctx.translate(o.x, o.y);
+    const sk = (o.skala || 1) * typ.skala * (o.rozmiar || 40);
+    ctx.scale((o.kierunek === -1 ? -1 : 1) * sk / 40, sk / 40);
+
+    const ciemny = przyciemnij(typ.korpus, 0.35);
+
+    /* cień pod owadem, jeśli chodzi po ziemi */
+    if (o.naZiemi) {
+      ctx.fillStyle = 'rgba(30,50,15,0.14)';
+      ctx.beginPath(); ctx.ellipse(0, 16, 15, 3, 0, 0, 7); ctx.fill();
+    }
+
+    /* odnóża */
+    ctx.strokeStyle = ciemny; ctx.lineCap = 'round';
+    ctx.lineWidth = typ.dlugonogi ? 2.2 : 1.6;
+    const roznogi = typ.dlugonogi ? 3 : 3;
+    for (let i = 0; i < roznogi; i++) {
+      const bx = -6 + i * 6;
+      const ruchN = Math.sin(faza * 6 + i) * (o.naZiemi ? 3 : 1);
+      ctx.beginPath();
+      ctx.moveTo(bx, 6);
+      if (typ.dlugonogi && i === roznogi - 1) {          // tylne skoczne nogi świerszcza
+        ctx.lineTo(bx - 4, 2); ctx.lineTo(bx + 6 + ruchN, 18);
+      } else {
+        ctx.lineTo(bx + ruchN, 15);
+      }
+      ctx.stroke();
+    }
+
+    /* skrzydła machają, gdy leci */
+    if (typ.skrzydla) {
+      const trzepot = o.naZiemi ? 0.15 : Math.sin(faza * 30) * 0.5 + 0.2;
+      if (typ.wazka) {
+        skrzydlo(ctx, -1, -2, 22, 4, -0.2 - trzepot * 0.4, false);
+        skrzydlo(ctx, -1, -2, 22, 4, 0.2 + trzepot * 0.4, false);
+        skrzydlo(ctx, -5, -1, 20, 3.5, -0.15 - trzepot * 0.4, false);
+        skrzydlo(ctx, -5, -1, 20, 3.5, 0.15 + trzepot * 0.4, false);
+      } else {
+        const dl = typ.cma ? 26 : 18, sz = typ.cma ? 12 : 6;
+        skrzydlo(ctx, -2, -3, dl, sz, -0.3 - trzepot, typ.cma);
+        skrzydlo(ctx, -2, -3, dl, sz, -0.3 + trzepot, typ.cma);
+      }
+    }
+
+    /* korpus */
+    const g = ctx.createLinearGradient(0, -8, 0, 9);
+    g.addColorStop(0, typ.korpus); g.addColorStop(1, ciemny);
+    ctx.fillStyle = g; ctx.strokeStyle = ciemny; ctx.lineWidth = 1;
+    ctx.beginPath();
+    if (typ.pekata) ctx.ellipse(0, 2, 9, 8, 0, 0, 7);
+    else if (typ.segmenty) {
+      ctx.ellipse(-7, 2, 5, 4.5, 0, 0, 7); ctx.fill();
+      ctx.beginPath(); ctx.ellipse(2, 2, 6, 5, 0, 0, 7);
+    } else if (typ.wazka) {
+      ctx.ellipse(-2, 2, 8, 5, 0, 0, 7); ctx.fill();
+      ctx.beginPath(); ctx.moveTo(-6, 0);
+      ctx.lineTo(-26, -1); ctx.lineTo(-26, 3); ctx.lineTo(-6, 4); ctx.closePath();
+    } else ctx.ellipse(0, 2, 12, 6, 0, 0, 7);
+    ctx.fill(); ctx.stroke();
+
+    /* głowa */
+    ctx.fillStyle = ciemny;
+    ctx.beginPath(); ctx.arc(typ.segmenty ? 9 : 11, 0, typ.pekata ? 3.5 : 4.2, 0, 7); ctx.fill();
+    /* oko */
+    ctx.fillStyle = typ.oko;
+    ctx.beginPath(); ctx.arc((typ.segmenty ? 10 : 12), -1, 1.8, 0, 7); ctx.fill();
+    /* czułki */
+    ctx.strokeStyle = ciemny; ctx.lineWidth = 0.9;
+    ctx.beginPath();
+    ctx.moveTo(12, -2); ctx.quadraticCurveTo(20, -8, 24, -5);
+    ctx.moveTo(12, -2); ctx.quadraticCurveTo(20, -5, 25, -1);
+    ctx.stroke();
+
+    ctx.restore();
+  }
+
+  globalny.Owad = { rysuj, TYPY };
+})(window);
+
+</script>
+<script>
+/* ==========================================================================
+   MANTIS, zapis lokalny (etap M4)
+   Trzyma stan gry w localStorage pod przedrostkiem mantis:, tak jak
+   BANGladesz26 używa b26:. Numer wersji od początku, żeby dało się później
+   zmienić strukturę bez psucia postępu dziecka.
+   ========================================================================== */
+
+(function (globalny) {
+  'use strict';
+
+  const KLUCZ = 'mantis:stan';
+  const KOLEJNOSC = ['zwyczajna', 'duchowa', 'storczykowa'];
+
+  const domyslny = {
+    wersja: 1,
+    dzwiek: true,
+    wybrana: 'zwyczajna',
+    odblokowane: ['zwyczajna'],
+    ukonczone: []
+  };
+
+  function wczytaj() {
+    try {
+      const s = localStorage.getItem(KLUCZ);
+      if (!s) return Object.assign({}, domyslny);
+      const d = JSON.parse(s);
+      /* dokładamy brakujące pola, gdyby format urósł */
+      return Object.assign({}, domyslny, d,
+        { odblokowane: d.odblokowane || domyslny.odblokowane.slice(),
+          ukonczone: d.ukonczone || [] });
+    } catch (e) {
+      return Object.assign({}, domyslny);
+    }
+  }
+
+  function zapisz(d) {
+    try { localStorage.setItem(KLUCZ, JSON.stringify(d)); } catch (e) { /* prywatne okno itp. */ }
+  }
+
+  /* Ukończenie modliszki: oznacza ją jako ukończoną i odblokowuje następną. */
+  function ukoncz(d, gatunek) {
+    if (!d.ukonczone.includes(gatunek)) d.ukonczone.push(gatunek);
+    const i = KOLEJNOSC.indexOf(gatunek);
+    const nast = KOLEJNOSC[i + 1];
+    let nowaOdblokowana = null;
+    if (nast && !d.odblokowane.includes(nast)) {
+      d.odblokowane.push(nast);
+      nowaOdblokowana = nast;
+    }
+    zapisz(d);
+    return nowaOdblokowana;     // nazwa nowo odblokowanej modliszki albo null
+  }
+
+  globalny.Zapis = { wczytaj, zapisz, ukoncz, KOLEJNOSC };
+})(window);
+
+</script>
+<script>
+/* ==========================================================================
+   MANTIS, pętla gry (etap M3)
+   M2 dało: owady, czujność, atak, jedzenie, pasek, osiem stadiów.
+   M3 dokłada: prawdziwą wylinkę (wiszenie głową w dół, pękanie pancerza,
+   wychodzenie większej modliszki), ekran zwycięstwa ze skrzydłami i
+   gwiazdkami, wolne polowanie z ważką oraz ootekę jako epilog.
+   ========================================================================== */
+
+(function () {
+  'use strict';
+
+  const canvas = document.getElementById('gra');
+  const ctx = canvas.getContext('2d');
+
+  const SZER = 540, WYS = 960;
+  let dpr = 1;
+
+  function dopasuj() {
+    const w = window.innerWidth, h = window.innerHeight;
+    dpr = Math.min(2, window.devicePixelRatio || 1);
+    canvas.width = Math.round(w * dpr);
+    canvas.height = Math.round(h * dpr);
+    canvas.style.width = w + 'px';
+    canvas.style.height = h + 'px';
+    const s = Math.max((w * dpr) / SZER, (h * dpr) / WYS);
+    stan.skalaEkranu = s;
+    stan.marginX = (w * dpr - SZER * s) / 2;
+    stan.marginY = (h * dpr - WYS * s) / 2;
+    stan.szerEkranuCss = w; stan.wysEkranuCss = h;
+  }
+
+  /* --- stadia -----------------------------------------------------------
+     Dla każdego stadium: ile owadów do wylinki, długość ciała w pikselach
+     i zoom świata. Iloczyn długości i zoomu to rozmiar na ekranie, który
+     rośnie, podczas gdy zoom maleje, więc świat kurczy się względem
+     modliszki. To daje odczucie wzrostu mocniej niż samo powiększenie. */
+  const STADIA = [
+    { food: 2, dl: 90,  zoom: 1.040 },
+    { food: 2, dl: 106, zoom: 0.960 },
+    { food: 2, dl: 124, zoom: 0.880 },
+    { food: 3, dl: 146, zoom: 0.800 },
+    { food: 3, dl: 172, zoom: 0.720 },
+    { food: 4, dl: 205, zoom: 0.640 },
+    { food: 4, dl: 240, zoom: 0.576 },
+    { food: 0, dl: 285, zoom: 0.512 }   // L8 dorosła, koniec wzrostu
+  ];
+
+  const SWIAT_SZER = 1600;
+  const tloCanvas = document.createElement('canvas');
+  tloCanvas.width = SWIAT_SZER; tloCanvas.height = WYS;
+  const gruntY = WYS * 0.80;
+
+  /* który świat dla którego gatunku */
+  const SWIAT_GATUNKU = { zwyczajna: 'laka', duchowa: 'sciolka', storczykowa: 'zmierzch' };
+
+  function przygotujTlo(swiatKey) {
+    const c = tloCanvas.getContext('2d');
+    let pal = null;
+    for (let x = 0; x < SWIAT_SZER; x += SZER) {
+      c.save(); c.translate(x, 0);
+      c.beginPath(); c.rect(0, 0, SZER, WYS); c.clip();
+      const info = Swiat.rysujSwiat(c, SZER, WYS, swiatKey);
+      pal = info.paleta;
+      c.restore();
+    }
+    /* ciągły pas gruntu w kolorze świata */
+    const grunt = c.createLinearGradient(0, gruntY - 10, 0, WYS);
+    grunt.addColorStop(0, pal.grunt[0]);
+    grunt.addColorStop(0.25, pal.grunt[1]);
+    grunt.addColorStop(1, pal.grunt[2]);
+    c.fillStyle = grunt;
+    c.fillRect(0, gruntY - 6, SWIAT_SZER, WYS - gruntY + 6);
+    for (let x = 0; x < SWIAT_SZER; x += 26) {
+      const dl = 24 + (x * 7 % 30);
+      Swiat.zdzblo(c, x, gruntY + 6, dl, ((x % 3) - 1) * 10, 3, pal.gruntZdzblo);
+    }
+    stan.paleta = pal;
+  }
+
+  /* --- stan ------------------------------------------------------------ */
+  const stan = {
+    skalaEkranu: 1, marginX: 0, marginY: 0, szerEkranuCss: 360, wysEkranuCss: 640,
+    faza: 'gra',                                 // 'gra' | 'wylinka'
+    modliszka: {
+      x: SWIAT_SZER * 0.5, kierunek: 1, predkosc: 0, krok: 0, intensywnosc: 0,
+      stadiumIdx: 0, gatunek: 'zwyczajna',
+      dlugosc: STADIA[0].dl, dlugoscCel: STADIA[0].dl,
+      zoom: STADIA[0].zoom, zoomCel: STADIA[0].zoom,
+      kolysanieFaza: 0, katGlowyWyg: 0,
+      food: 0, atak: 0, je: 0,                    // atak 0..1, je = licznik jedzenia
+      cel: null, owadCel: null
+    },
+    owady: [],
+    kamera: SWIAT_SZER * 0.5,
+    wylinka: 0,                                   // postęp animacji wylinki 0..1
+    zwyc: 0, wolneCzas: 0, konfetti: [], ooteka: null,
+    czas: 0, iskry: []
+  };
+
+  const MAX_PREDKOSC = 88, SKRADANIE = 24;
+
+  function stadium() { return stan.modliszka.stadium; }   // 1-based numer
+
+  Object.defineProperty(stan.modliszka, 'stadium', {
+    get() { return this.stadiumIdx + 1; }
+  });
+
+  /* --- owady ----------------------------------------------------------- */
+  function dostepneTypy() {
+    const st = stan.modliszka.stadium;
+    return Object.keys(Owad.TYPY).filter(k => {
+      const t = Owad.TYPY[k];
+      if (t.ruch === 'tlo') return true;                   // mrówka zawsze jako tło
+      if (k === 'wazka') return stan.faza === 'wolne';      // ważka tylko po zwycięstwie
+      return t.odStadium <= st && st < t.odStadium + 4;    // owady znikają, gdy modliszka za duża
+    });
+  }
+
+  function nowyOwad(zaKadrem) {
+    const typy = dostepneTypy().filter(k => Owad.TYPY[k].ruch !== 'tlo');
+    /* zawsze trzymamy przynajmniej jeden łatwy owad na planszy */
+    const latwe = typy.filter(k => Owad.TYPY[k].czujnosc === 0);
+    const brakLatwego = !stan.owady.some(o => o.zyje && Owad.TYPY[o.typ].czujnosc === 0 && Owad.TYPY[o.typ].ruch !== 'tlo');
+    const pula = (brakLatwego && latwe.length) ? latwe : typy;
+    const typ = pula[(Math.random() * pula.length) | 0];
+    if (!typ) return null;
+    const t = Owad.TYPY[typ];
+    const m = stan.modliszka;
+    const strona = Math.random() < 0.5 ? -1 : 1;
+    const x = zaKadrem
+      ? stan.kamera + strona * (SZER / m.zoom / 2 + 60)
+      : m.x + strona * (90 + Math.random() * 130);
+    const lata = t.ruch.startsWith('lot') || t.ruch === 'lot-chwiej';
+    const naZiemi = !lata;
+    return {
+      typ, x: Math.max(40, Math.min(SWIAT_SZER - 40, x)),
+      bazaY: naZiemi ? gruntY : gruntY - (40 + Math.random() * 40),
+      y: naZiemi ? gruntY : gruntY - 60,
+      kierunek: -strona, vx: 0, faza: Math.random() * 6,
+      naZiemi, zyje: true, sploszenia: 0, ucieka: false,
+      siedziDo: 0, celY: 0
+    };
+  }
+
+  function uzupelnijOwady(dt) {
+    stan.owady = stan.owady.filter(o => o.zyje || o.znika > 0);
+    const zywe = stan.owady.filter(o => o.zyje && Owad.TYPY[o.typ].ruch !== 'tlo').length;
+    const ile = 4;
+    if (zywe < ile && Math.random() < dt * 1.4) {
+      const o = nowyOwad(true);
+      if (o) stan.owady.push(o);
+    }
+    /* mrówka tła, jeśli żadnej nie ma */
+    if (!stan.owady.some(o => o.typ === 'mrowka' && o.zyje) && Math.random() < dt * 0.25) {
+      const m = stan.modliszka, strona = Math.random() < 0.5 ? -1 : 1;
+      stan.owady.push({ typ: 'mrowka', x: stan.kamera + strona * (SZER / m.zoom / 2 + 50),
+        bazaY: gruntY, y: gruntY, kierunek: -strona, vx: 0, faza: 0, naZiemi: true,
+        zyje: true, sploszenia: 0, ucieka: false, siedziDo: 0, celY: 0 });
+    }
+  }
+
+  function ruchOwada(o, dt) {
+    const t = Owad.TYPY[o.typ];
+    o.faza += dt;
+    if (o.ucieka) {
+      o.x += o.vx * dt;
+      o.y += (o.bazaY - 120 - o.y) * Math.min(1, dt * 2);
+      o.znika = (o.znika || 1) - dt * 0.5;
+      if (o.znika <= 0) o.zyje = false;
+      return;
+    }
+    switch (t.ruch) {
+      case 'pelza':
+        o.x += Math.sin(o.faza * 0.6) * 6 * dt; break;
+      case 'tlo':
+        o.x += o.kierunek * 34 * dt;
+        if (o.x < 30 || o.x > SWIAT_SZER - 30) o.kierunek *= -1;
+        break;
+      case 'skok':
+        if (stan.czas > o.siedziDo) {
+          o.vx = o.kierunek * (70 + Math.random() * 40);
+          o.siedziDo = stan.czas + 0.8 + Math.random() * 1.5;
+          o.skokDo = stan.czas + 0.35;
+        }
+        if (stan.czas < o.skokDo) { o.x += o.vx * dt; o.y = o.bazaY - Math.sin((o.skokDo - stan.czas) / 0.35 * Math.PI) * 40; }
+        else o.y = o.bazaY;
+        break;
+      case 'lot-zryw':
+        if (stan.czas > o.siedziDo) {
+          o.vx = (Math.random() - 0.5) * 90; o.celY = o.bazaY + (Math.random() - 0.5) * 50;
+          o.siedziDo = stan.czas + 0.4 + Math.random() * 0.9;
+        }
+        o.x += o.vx * dt; o.y += (o.celY - o.y) * Math.min(1, dt * 3); break;
+      case 'lot-luk':
+        o.x += Math.cos(o.faza * 1.5) * 55 * dt * o.kierunek;
+        o.y = o.bazaY + Math.sin(o.faza * 3) * 18; break;
+      case 'lot-chwiej':
+        o.x += Math.sin(o.faza * 0.8) * 30 * dt;
+        o.y = o.bazaY + Math.sin(o.faza * 1.7) * 22; break;
+      case 'lot-szybki':
+        o.x += Math.cos(o.faza * 2.2) * 110 * dt * o.kierunek;
+        o.y = o.bazaY + Math.sin(o.faza * 4) * 26; break;
+    }
+    if (o.kierunek === undefined) o.kierunek = o.vx >= 0 ? 1 : -1;
+    else if (Math.abs(o.vx) > 1) o.kierunek = o.vx > 0 ? 1 : -1;
+    o.x = Math.max(30, Math.min(SWIAT_SZER - 30, o.x));
+  }
+
+  function sploszenie(o) {
+    const m = stan.modliszka;
+    o.ucieka = true; o.sploszenia++;
+    o.vx = (o.x >= m.x ? 1 : -1) * (140 + Math.random() * 60);
+    o.kierunek = o.vx > 0 ? 1 : -1;
+    o.znika = 1.4;
+  }
+
+  /* --- wejście --------------------------------------------------------- */
+  function ekranNaSwiat(clientX, clientY) {
+    const m = stan.modliszka;
+    const px = clientX * dpr, py = clientY * dpr;
+    const logX = (px - stan.marginX) / stan.skalaEkranu;
+    const logY = (py - stan.marginY) / stan.skalaEkranu;
+    const wx = stan.kamera + (logX - SZER / 2) / m.zoom;
+    const wy = gruntY + (logY - gruntY) / m.zoom;
+    return { x: wx, y: wy };
+  }
+
+  let wcisniete = false;
+  function celuj(clientX, clientY) {
+    /* po zwycięstwie (gdy skrzydła już rozłożone) dotknięcie przechodzi
+       do wolnego polowania */
+    if (stan.faza === 'zwyciestwo') { if (stan.zwyc > 2.5) wejdzWolne(); return; }
+    if (stan.faza !== 'gra' && stan.faza !== 'wolne') return;
+    const p = ekranNaSwiat(clientX, clientY);
+    const m = stan.modliszka;
+    /* szukamy owada blisko punktu dotyku, z dużym marginesem wybaczania */
+    let naj = null, najD = 170;
+    stan.owady.forEach(o => {
+      if (!o.zyje || o.ucieka || Owad.TYPY[o.typ].ruch === 'tlo') return;
+      const d = Math.hypot(o.x - p.x, o.y - p.y);
+      if (d < najD) { najD = d; naj = o; }
+    });
+    if (naj) { m.owadCel = naj; m.cel = naj.x; }
+    else { m.owadCel = null; m.cel = p.x; }
+  }
+  function start(x, y) { wcisniete = true; celuj(x, y); }
+  function ruch(x, y) { if (wcisniete) celuj(x, y); }
+  function koniec() { wcisniete = false; }
+
+  canvas.addEventListener('touchstart', e => { e.preventDefault(); start(e.touches[0].clientX, e.touches[0].clientY); }, { passive: false });
+  canvas.addEventListener('touchmove', e => { e.preventDefault(); ruch(e.touches[0].clientX, e.touches[0].clientY); }, { passive: false });
+  canvas.addEventListener('touchend', e => { e.preventDefault(); koniec(); }, { passive: false });
+  canvas.addEventListener('mousedown', e => start(e.clientX, e.clientY));
+  window.addEventListener('mousemove', e => ruch(e.clientX, e.clientY));
+  window.addEventListener('mouseup', koniec);
+
+  /* --- łapanie i jedzenie --------------------------------------------- */
+  function glowaX(m) { return m.x + m.kierunek * m.dlugosc * 0.42; }
+
+  function sprobujAtak() {
+    const m = stan.modliszka;
+    if (!m.owadCel || !m.owadCel.zyje || m.owadCel.ucieka) { m.owadCel = null; return; }
+    const o = m.owadCel;
+    const dx = o.x - glowaX(m), dy = o.y - (gruntY - m.dlugosc * 0.35);
+    const zasieg = m.dlugosc * 0.55;
+    if (Math.abs(dx) < zasieg && dy > -zasieg && dy < m.dlugosc * 0.4 && m.atak === 0 && m.je === 0) {
+      m.atak = 0.001;                 // zaczyna uderzenie
+      m.kierunek = o.x >= m.x ? 1 : -1;
+    }
+  }
+
+  function iskra(x, y) {
+    for (let i = 0; i < 10; i++) {
+      stan.iskry.push({ x, y, vx: (Math.random() - 0.5) * 60, vy: -20 - Math.random() * 60, zyc: 0.6 });
+    }
+  }
+
+  /* --- aktualizacja ---------------------------------------------------- */
+  function aktualizuj(dt) {
+    stan.czas += dt;
+    const m = stan.modliszka;
+
+    /* iskry energii */
+    stan.iskry = stan.iskry.filter(s => (s.zyc -= dt) > 0);
+    stan.iskry.forEach(s => { s.x += s.vx * dt; s.y += s.vy * dt; s.vy += 120 * dt; });
+    aktualizujCzasteczki(dt);
+
+    if (stan.faza === 'menu') return;             // ekran domowy, gra stoi
+    if (stan.faza === 'wylinka') { aktualizujWylinke(dt); return; }
+    if (stan.faza === 'zwyciestwo') { aktualizujZwyciestwo(dt); return; }
+
+    uzupelnijOwady(dt);
+    stan.owady.forEach(o => {
+      if (!o.zyje && !(o.znika > 0)) return;
+      ruchOwada(o, dt);
+      const t = Owad.TYPY[o.typ];
+      const lata = t.ruch.indexOf('lot') === 0;
+      /* czujność: szybki ruch modliszki w promieniu płoszy owada.
+         Modliszka duchowa maskuje się (kamuflaż): może iść szybciej bez
+         spłoszenia, bo wygląda jak zeschły liść. */
+      if (t.czujnosc > 0 && o.zyje && !o.ucieka && o !== m.owadCel) {
+        const d = Math.abs(o.x - glowaX(m));
+        const prog = (m.gatunek === 'duchowa') ? SKRADANIE * 2 + 6 : SKRADANIE + 6;
+        if (m.predkosc > prog && d < t.czujnosc * 130) sploszenie(o);
+      }
+      /* wabienie: modliszka storczykowa stojąc nieruchomo przyciąga
+         latające owady, bo wygląda i wabi jak kwiat. */
+      if (m.gatunek === 'storczykowa' && lata && o.zyje && !o.ucieka && m.predkosc < 12) {
+        const dx = glowaX(m) - o.x;
+        if (Math.abs(dx) < 320) o.x += Math.sign(dx) * 30 * dt;
+      }
+    });
+
+    /* ruch modliszki */
+    let docelowa = 0;
+    if (m.atak === 0 && m.je === 0 && m.cel !== null) {
+      const cx = m.owadCel && m.owadCel.zyje ? m.owadCel.x : m.cel;
+      const roznica = cx - m.x, odl = Math.abs(roznica);
+      if (odl > 4) {
+        m.kierunek = roznica > 0 ? 1 : -1;
+        docelowa = Math.min(1, odl / 90) * MAX_PREDKOSC;
+        /* skradanie: przy podchodzeniu do celu zwalniamy, by nie płoszyć */
+        if (m.owadCel && m.owadCel.zyje) {
+          const t = Owad.TYPY[m.owadCel.typ];
+          if (t.czujnosc > 0 && odl < t.czujnosc * 150 + 40) docelowa = Math.min(docelowa, SKRADANIE);
+        }
+      } else if (!m.owadCel) { m.cel = null; }
+    }
+    m.predkosc += (docelowa - m.predkosc) * Math.min(1, dt * 2.6);
+    if (m.atak > 0 || m.je > 0) m.predkosc *= (1 - Math.min(1, dt * 10));
+    m.x += m.kierunek * m.predkosc * dt;
+    m.x = Math.max(60, Math.min(SWIAT_SZER - 60, m.x));
+    m.krok += (m.predkosc * dt) / 34;
+    m.intensywnosc = Math.min(1, m.predkosc / 42);
+    m.kolysanieFaza += dt * (1.1 + m.predkosc * 0.01);
+
+    /* atak */
+    if (m.atak > 0) {
+      m.atak += dt * 6;
+      if (m.atak >= 0.5 && m.owadCel && m.owadCel.zyje && !m.owadCel.zlapany) {
+        /* w połowie ruchu chwytamy owada */
+        const o = m.owadCel;
+        const dx = o.x - glowaX(m);
+        if (Math.abs(dx) < m.dlugosc * 0.7) { o.zlapany = true; }
+      }
+      if (m.atak >= 1) {
+        m.atak = 0;
+        const o = m.owadCel;
+        if (o && o.zlapany) { o.zyje = false; zjedz(o); }
+        m.owadCel = null; m.cel = null;
+      }
+    }
+
+    /* jedzenie (krótka animacja po złapaniu) */
+    if (m.je > 0) { m.je -= dt; if (m.je < 0) m.je = 0; }
+
+    /* płynne dorastanie rozmiaru i zoomu podczas wylinki, tu tylko domykanie */
+    m.dlugosc += (m.dlugoscCel - m.dlugosc) * Math.min(1, dt * 5);
+    m.zoom += (m.zoomCel - m.zoom) * Math.min(1, dt * 5);
+
+    /* automatyczny atak, gdy cel w zasięgu */
+    if (m.owadCel) sprobujAtak();
+
+    /* wolne polowanie: ważka i ooteka */
+    if (stan.faza === 'wolne') {
+      stan.wolneCzas += dt;
+      if (!stan.owady.some(o => o.typ === 'wazka' && o.zyje) && Math.random() < dt * 0.25) {
+        const o = nowyOwad(true); if (o) { o.typ = 'wazka'; o.naZiemi = false; o.bazaY = gruntY - 90; }
+      }
+      if (stan.wolneCzas > 22 && !stan.ooteka) rozpocznijOoteke();
+    }
+
+    /* kamera z uwzględnieniem zoomu: modliszka blisko środka */
+    const widoczne = SZER / m.zoom;
+    const celKamery = Math.max(widoczne / 2, Math.min(SWIAT_SZER - widoczne / 2, m.x));
+    stan.kamera += (celKamery - stan.kamera) * Math.min(1, dt * 7);
+
+    if (stan.ooteka) aktualizujOoteke(dt);
+  }
+
+  /* --- ooteka: epilog, dorosła samica składa kokon, wychodzą maleństwa - */
+  function rozpocznijOoteke() {
+    const m = stan.modliszka;
+    stan.ooteka = { x: m.x + m.kierunek * 40, y: gruntY - m.dlugosc * 0.9, t: 0, male: [] };
+    m.cel = null; m.owadCel = null;
+  }
+  function aktualizujOoteke(dt) {
+    const o = stan.ooteka; o.t += dt;
+    if (o.t > 6 && o.male.length === 0) {
+      for (let i = 0; i < 12; i++) {
+        o.male.push({ x: o.x, y: o.y + 20, vx: (Math.random() - 0.5) * 90, faza: Math.random() * 6, zyc: 0 });
+      }
+    }
+    o.male.forEach(mm => { mm.zyc += dt; mm.x += mm.vx * dt; mm.faza += dt; });
+  }
+
+  function zjedz(o) {
+    const m = stan.modliszka;
+    m.je = 1.1;
+    iskra(glowaX(m), gruntY - m.dlugosc * 0.4);
+    const t = Owad.TYPY[o.typ];
+    m.food += t.pozywienie;
+    if (dzwiek) dzwiek('jedz');
+    const potrzeba = STADIA[m.stadiumIdx].food;
+    if (potrzeba > 0 && m.food >= potrzeba) rozpocznijWylinke();
+  }
+
+  /* --- wylinka (M3, prawdziwa) -----------------------------------------
+     Prawdziwa modliszka linieje wisząc głową w dół: grawitacja pomaga wyjść
+     ze starej skóry. Sekwencja: wspina się na gałązkę, zawisa, pancerz pęka,
+     nowa modliszka wysuwa się w dół, blada i miękka, stara skóra zostaje
+     wisząca. Ostatnia wylinka daje skrzydła i prowadzi do zwycięstwa. */
+  const WYL = { czas: 5.5 };
+  function rozpocznijWylinke() {
+    const m = stan.modliszka;
+    stan.faza = 'wylinka'; stan.wylinka = 0; m.wyrosla = false;
+    m.predkosc = 0; m.cel = null; m.owadCel = null;
+    m.finalowa = (m.stadiumIdx >= STADIA.length - 2);   // wylinka do L8
+    /* punkt zawieszenia nad modliszką (gałązka) */
+    m.pinX = m.x; m.pinY = gruntY - m.dlugosc * 1.55;
+    if (dzwiek) dzwiek('wylinka');
+  }
+
+  function aktualizujWylinke(dt) {
+    const m = stan.modliszka;
+    stan.wylinka += dt / WYL.czas;
+    const w = stan.wylinka;
+    /* zmiana stadium następuje, gdy nowa modliszka zaczyna wychodzić */
+    if (w >= 0.45 && !m.wyrosla) {
+      m.wyrosla = true;
+      if (m.stadiumIdx < STADIA.length - 1) m.stadiumIdx++;
+      m.food = 0;
+      const st = STADIA[m.stadiumIdx];
+      m.dlugoscCel = st.dl; m.zoomCel = st.zoom;
+      if (dzwiek) dzwiek('wzrost');
+    }
+    /* kamera i zoom dojeżdżają dopiero pod koniec, przy odsłonięciu */
+    if (w > 0.8) {
+      m.zoom += (m.zoomCel - m.zoom) * Math.min(1, dt * 3);
+    }
+    const widoczne = SZER / m.zoom;
+    const celKamery = Math.max(widoczne / 2, Math.min(SWIAT_SZER - widoczne / 2, m.pinX));
+    stan.kamera += (celKamery - stan.kamera) * Math.min(1, dt * 3);
+    if (w >= 1) {
+      stan.wylinka = 1;
+      if (m.finalowa) {
+        stan.faza = 'zwyciestwo'; stan.zwyc = 0;
+        if (onUkonczono) onUkonczono(m.gatunek);   // zapis i odblokowanie następnej
+      } else { stan.faza = 'gra'; m.dlugosc = m.dlugoscCel; m.zoom = m.zoomCel; }
+    }
+  }
+
+  /* Rysunek jednej modliszki z dowolnym obrotem, skalą i przezroczystością.
+     Pozwala pokazać starą skórę (wisząca, przezroczysta) i nową (wychodzącą). */
+  function rysujModliszke(px, py, dlugosc, stadium, obrot, alpha, poza, biel) {
+    const m = stan.modliszka;
+    ctx.save();
+    ctx.translate(px, py); ctx.rotate(obrot || 0);
+    ctx.globalAlpha = alpha === undefined ? 1 : alpha;
+    if (biel > 0.01) {                            // świeżo po wylince blada i jasna: miękka poświata
+      const gl = ctx.createRadialGradient(0, -dlugosc * 0.4, 0, 0, -dlugosc * 0.4, dlugosc * 0.9);
+      gl.addColorStop(0, 'rgba(255,255,255,' + (biel * 0.5) + ')');
+      gl.addColorStop(1, 'rgba(255,255,255,0)');
+      ctx.fillStyle = gl;
+      ctx.beginPath(); ctx.arc(0, -dlugosc * 0.4, dlugosc * 0.9, 0, 7); ctx.fill();
+    }
+    Modliszka.rysuj(ctx, { x: 0, y: 0, dlugosc, stadium, gatunek: m.gatunek, kierunek: m.kierunek, poza });
+    ctx.restore();
+    ctx.globalAlpha = 1;
+  }
+
+  function rysujWylinke() {
+    const m = stan.modliszka;
+    const w = stan.wylinka;
+    const staraDl = STADIA[Math.max(0, m.stadiumIdx - (m.wyrosla ? 1 : 0))].dl;
+
+    /* gałązka, na której wisi */
+    ctx.strokeStyle = '#7d6a3f'; ctx.lineCap = 'round';
+    ctx.lineWidth = 10;
+    ctx.beginPath();
+    ctx.moveTo(m.pinX - 120, m.pinY - 14);
+    ctx.quadraticCurveTo(m.pinX, m.pinY - 4, m.pinX + 120, m.pinY - 16);
+    ctx.stroke();
+
+    const kol = Math.sin(stan.czas * 2) * 0.03;
+
+    if (w < 0.15) {
+      /* wspinaczka i zawiśnięcie: modliszka unosi się do gałązki */
+      const t = w / 0.15;
+      const y = mieszaj(gruntY, m.pinY, t);
+      const obrot = mieszaj(0, Math.PI, t);
+      rysujModliszke(m.pinX, y, staraDl, m.stadium, obrot, 1,
+        { kolysanie: kol, rozlozoneOdnoza: 0.2 }, 0);
+      return;
+    }
+
+    /* stara skóra wisi cały czas; po pęknięciu blednie do husk */
+    const skoraAlpha = w < 0.45 ? 1 : mieszaj(1, 0.4, Math.min(1, (w - 0.45) / 0.4));
+    rysujModliszke(m.pinX, m.pinY, staraDl, m.stadium, Math.PI, skoraAlpha,
+      { kolysanie: kol, rozlozoneOdnoza: 0.15, pekniecie: w > 0.3 ? Math.min(1, (w - 0.3) / 0.2) : 0 }, 0);
+
+    if (w >= 0.42) {
+      /* nowa modliszka wychodzi: z początku zwisa tuż pod skórą, potem
+         prostuje się i schodzi na gałązkę, na końcu staje normalnie */
+      const e = Math.min(1, (w - 0.42) / 0.46);          // wyłanianie 0..1
+      const nowaDl = mieszaj(staraDl * 0.85, m.dlugoscCel, e);
+      const biel = 1 - Math.min(1, (w - 0.55) / 0.3);    // blednie przez pierwsze chwile
+      if (w < 0.86) {
+        /* wisi głową w dół, wysuwa się coraz niżej */
+        const zsun = mieszaj(nowaDl * 0.25, nowaDl * 0.7, e);
+        rysujModliszke(m.pinX, m.pinY + zsun, nowaDl, m.stadium, Math.PI, Math.min(1, e * 1.6),
+          { kolysanie: kol * 2, rozlozoneOdnoza: mieszaj(-0.1, 0.25, e) }, biel);
+      } else {
+        /* prostuje się i schodzi na ziemię */
+        const s = (w - 0.86) / 0.14;
+        const obrot = mieszaj(Math.PI, 0, s);
+        const y = mieszaj(m.pinY + nowaDl * 0.7, gruntY, s);
+        m.dlugosc = nowaDl;
+        rysujModliszke(m.pinX, y, nowaDl, m.stadium, obrot, 1,
+          { kolysanie: kol, rozlozoneOdnoza: 0.2, katGlowy: 0,
+            skrzydlaRozlozone: false }, biel * 0.5);
+      }
+    }
+
+    /* iskry i pyłek podczas wychodzenia */
+    if (w > 0.5 && Math.random() < 0.4) iskra(m.pinX + (Math.random() - 0.5) * 80, m.pinY + Math.random() * 100);
+  }
+
+  const mieszaj = (a, b, t) => a + (b - a) * t;
+
+  /* --- zwycięstwo, wolne polowanie, ooteka ----------------------------- */
+  function aktualizujZwyciestwo(dt) {
+    stan.zwyc = (stan.zwyc || 0) + dt;
+    /* skrzydła rozprostowują się przez pierwsze dwie sekundy, potem
+       konfetti; po chwili dotknięcie ekranu przechodzi do wolnego polowania */
+    if (stan.zwyc < 3 && Math.random() < dt * 8) {
+      stan.konfetti.push(nowyKawalek());
+    }
+    stan.kamera += ((SZER / stan.modliszka.zoom / 2 > stan.modliszka.x
+      ? SZER / stan.modliszka.zoom / 2 : stan.modliszka.x) - stan.kamera) * Math.min(1, dt * 3);
+    aktualizujKonfetti(dt);
+  }
+
+  let konfettiInit = false;
+  function nowyKawalek() {
+    const W = stan.szerEkranuCss, kolory = ['#ffd23f', '#f2789f', '#7ec4ff', '#9be870', '#c79bff'];
+    return { x: Math.random() * W, y: -20, vx: (Math.random() - 0.5) * 40, vy: 60 + Math.random() * 120,
+      obrot: Math.random() * 6, vobrot: (Math.random() - 0.5) * 8,
+      kolor: kolory[(Math.random() * kolory.length) | 0], r: 5 + Math.random() * 6 };
+  }
+  function aktualizujKonfetti(dt) {
+    stan.konfetti.forEach(k => { k.x += k.vx * dt; k.y += k.vy * dt; k.obrot += k.vobrot * dt; });
+    stan.konfetti = stan.konfetti.filter(k => k.y < stan.wysEkranuCss + 30);
+  }
+  function rysujKonfetti() {
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    stan.konfetti.forEach(k => {
+      ctx.save(); ctx.translate(k.x, k.y); ctx.rotate(k.obrot);
+      ctx.fillStyle = k.kolor;
+      ctx.fillRect(-k.r / 2, -k.r / 2, k.r, k.r * 0.6);
+      ctx.restore();
+    });
+  }
+
+  /* wolne polowanie po zwycięstwie: dorosła modliszka zostaje na planszy,
+     bez paska, pojawia się ważka; po chwili modliszka składa ootekę */
+  function wejdzWolne() {
+    stan.faza = 'wolne'; stan.wolneCzas = 0; stan.owady = [];
+    for (let i = 0; i < 3; i++) { const o = nowyOwad(false); if (o) stan.owady.push(o); }
+  }
+
+  /* --- rysowanie ------------------------------------------------------- */
+  function ustawSwiat() {
+    const m = stan.modliszka;
+    const sx = stan.skalaEkranu * m.zoom;
+    const tx = stan.marginX + stan.skalaEkranu * (SZER / 2 - m.zoom * stan.kamera);
+    const ty = stan.marginY + stan.skalaEkranu * gruntY * (1 - m.zoom);
+    ctx.setTransform(sx, 0, 0, sx, tx, ty);
+  }
+
+  function rysuj() {
+    const m = stan.modliszka;
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    /* tło zapasowe w kolorach bieżącego świata, żeby przy zoomie nie było
+       gołych rogów ani obcego koloru u dołu */
+    const pal = stan.paleta || Swiat.SWIATY.laka;
+    const g = ctx.createLinearGradient(0, 0, 0, canvas.height);
+    g.addColorStop(0, pal.niebo[1]); g.addColorStop(0.6, pal.niebo[2]); g.addColorStop(1, pal.grunt[2].replace(/0\.\d+\)$/, '1)'));
+    ctx.fillStyle = g; ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    ustawSwiat();
+    ctx.drawImage(tloCanvas, 0, 0);
+    rysujCzasteczki();
+
+    /* owady za modliszką (tło) i przed nią rozdzielamy po wysokości */
+    stan.owady.forEach(o => {
+      if (!o.zyje && !(o.znika > 0)) return;
+      if (o.zlapany) return;                       // złapany owad znika w chwycie
+      Owad.rysuj(ctx, {
+        x: o.x, y: o.y, typ: o.typ, faza: o.faza, kierunek: o.kierunek,
+        naZiemi: o.naZiemi, rozmiar: 66
+      });
+    });
+
+    /* modliszka */
+    if (stan.faza === 'wylinka') {
+      rysujWylinke();
+    } else {
+      const kol = Math.sin(m.kolysanieFaza) * (0.05 + 0.05 * (1 - m.intensywnosc));
+      /* głowa śledzi cel albo najbliższego owada */
+      let katG = kol * 0.5;
+      const patrzOwad = m.owadCel && m.owadCel.zyje ? m.owadCel : najblizszyOwad();
+      if (patrzOwad) {
+        const dx = (patrzOwad.x - glowaX(m)) * m.kierunek;
+        katG = Math.max(-0.5, Math.min(0.5, (patrzOwad.y - (gruntY - m.dlugosc * 0.4)) / 120)) + (dx < 0 ? 0.2 : 0);
+      }
+      m.katGlowyWyg += (katG - m.katGlowyWyg) * Math.min(1, 0.15);
+
+      const dorosla = m.stadium >= STADIA.length;
+      const skrzydlaRoz = dorosla && (stan.faza === 'zwyciestwo' || stan.faza === 'wolne');
+      Modliszka.rysuj(ctx, {
+        x: m.x, y: gruntY, dlugosc: m.dlugosc,
+        stadium: m.stadium, gatunek: m.gatunek, kierunek: m.kierunek,
+        poza: {
+          krok: m.krok, intensywnosc: m.intensywnosc,
+          kolysanie: kol, katGlowy: m.katGlowyWyg,
+          rozlozoneOdnoza: 0.15, atak: Math.sin(Math.min(1, m.atak) * Math.PI),
+          skrzydlaRozlozone: skrzydlaRoz
+        }
+      });
+    }
+
+    /* ooteka i maleństwa (świat) */
+    if (stan.ooteka) rysujOoteke();
+
+    /* iskry energii (świat) */
+    stan.iskry.forEach(s => {
+      ctx.globalAlpha = Math.max(0, s.zyc / 0.6);
+      ctx.fillStyle = '#fff2a0';
+      ctx.beginPath(); ctx.arc(s.x, s.y, 3, 0, 7); ctx.fill();
+    });
+    ctx.globalAlpha = 1;
+
+    /* konfetti (ekran) na zwycięstwie i w wolnym polowaniu */
+    if (stan.faza === 'zwyciestwo' || stan.faza === 'wolne') rysujKonfetti();
+
+    rysujHUD();
+  }
+
+  function rysujOoteke() {
+    const o = stan.ooteka;
+    /* kokon z pianki na gałązce */
+    ctx.fillStyle = '#e6d3a0'; ctx.strokeStyle = '#b79a63'; ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.ellipse(o.x, o.y, 22, 13, 0, 0, 7); ctx.fill(); ctx.stroke();
+    ctx.strokeStyle = 'rgba(150,120,70,0.5)'; ctx.lineWidth = 1;
+    for (let i = -2; i <= 2; i++) {
+      ctx.beginPath(); ctx.moveTo(o.x + i * 7, o.y - 11); ctx.lineTo(o.x + i * 7, o.y + 11); ctx.stroke();
+    }
+    /* maleństwa L1 */
+    o.male.forEach(mm => {
+      ctx.globalAlpha = Math.min(1, mm.zyc * 2);
+      Modliszka.rysuj(ctx, { x: mm.x, y: gruntY, dlugosc: 26, stadium: 1,
+        gatunek: stan.modliszka.gatunek, kierunek: mm.vx >= 0 ? 1 : -1,
+        poza: { krok: mm.faza, intensywnosc: 1, kolysanie: 0, rozlozoneOdnoza: 0.2 } });
+    });
+    ctx.globalAlpha = 1;
+  }
+
+  function najblizszyOwad() {
+    const m = stan.modliszka; let naj = null, d = 400;
+    stan.owady.forEach(o => {
+      if (!o.zyje || o.ucieka || Owad.TYPY[o.typ].ruch === 'tlo') return;
+      const dd = Math.abs(o.x - m.x);
+      if (dd < d) { d = dd; naj = o; }
+    });
+    return naj;
+  }
+
+  /* --- HUD (rysowany w pikselach ekranu) ------------------------------ */
+  function rysujHUD() {
+    const m = stan.modliszka;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    const W = stan.szerEkranuCss;
+    const potrzeba = STADIA[m.stadiumIdx].food;
+    const graWtoku = stan.faza === 'gra';
+
+    /* pasek segmentowy na górze */
+    if (potrzeba > 0 && graWtoku) {
+      const seg = potrzeba, sz = 26, odstep = 6;
+      const calk = seg * sz + (seg - 1) * odstep;
+      const x0 = (W - calk) / 2, y0 = 54;
+      for (let i = 0; i < seg; i++) {
+        const x = x0 + i * (sz + odstep);
+        ctx.fillStyle = i < m.food ? '#ffd23f' : 'rgba(255,255,255,0.35)';
+        ctx.strokeStyle = 'rgba(60,80,30,0.5)'; ctx.lineWidth = 2;
+        okragly(ctx, x, y0, sz, 16, 7);
+        ctx.fill(); ctx.stroke();
+        if (i < m.food) { ctx.fillStyle = 'rgba(255,255,255,0.6)'; okragly(ctx, x + 4, y0 + 3, sz - 8, 5, 3); ctx.fill(); }
+      }
+    }
+    /* numer stadium po prawej */
+    if (graWtoku) {
+      ctx.fillStyle = 'rgba(255,255,255,0.85)';
+      ctx.strokeStyle = 'rgba(60,80,30,0.6)'; ctx.lineWidth = 2;
+      okragly(ctx, W - 62, 46, 46, 32, 10); ctx.fill(); ctx.stroke();
+      ctx.fillStyle = '#3d5c1e'; ctx.font = '700 22px system-ui, sans-serif';
+      ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+      ctx.fillText('L' + m.stadium, W - 39, 63);
+    }
+
+    /* duża cyfra stadium podczas wylinki */
+    if (stan.faza === 'wylinka' && stan.wylinka > 0.5) {
+      const a = Math.min(1, (stan.wylinka - 0.5) * 4) * Math.min(1, (1 - stan.wylinka) * 4 + 0.3);
+      ctx.globalAlpha = a;
+      ctx.fillStyle = '#fff'; ctx.strokeStyle = '#6e9a33'; ctx.lineWidth = 6;
+      ctx.font = '800 120px system-ui, sans-serif'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+      ctx.strokeText('L' + m.stadium, W / 2, stan.wysEkranuCss * 0.42);
+      ctx.fillText('L' + m.stadium, W / 2, stan.wysEkranuCss * 0.42);
+      ctx.globalAlpha = 1;
+    }
+
+    if (stan.faza === 'zwyciestwo') {
+      const a = Math.min(1, stan.zwyc / 1.5);
+      /* rozświetlenie */
+      ctx.globalAlpha = a * 0.35; ctx.fillStyle = '#fffbe0'; ctx.fillRect(0, 0, W, stan.wysEkranuCss);
+      ctx.globalAlpha = 1;
+      /* osiem gwiazdek, po jednej za stadium */
+      const gy = stan.wysEkranuCss * 0.26;
+      for (let i = 0; i < 8; i++) {
+        const gx = W / 2 + (i - 3.5) * 34;
+        const wejscie = Math.max(0, Math.min(1, stan.zwyc * 3 - i * 0.2));
+        gwiazdka(ctx, gx, gy, 13 * wejscie, '#ffd23f');
+      }
+      /* BRAWO */
+      ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+      const skala = 1 + Math.sin(stan.zwyc * 3) * 0.03 * Math.max(0, 1 - stan.zwyc / 3);
+      ctx.save(); ctx.translate(W / 2, stan.wysEkranuCss * 0.34); ctx.scale(skala, skala);
+      ctx.lineWidth = 8; ctx.strokeStyle = '#6e9a33'; ctx.fillStyle = '#fff';
+      ctx.font = '800 64px system-ui, sans-serif';
+      ctx.globalAlpha = a; ctx.strokeText('BRAWO!', 0, 0); ctx.fillText('BRAWO!', 0, 0);
+      ctx.globalAlpha = 1; ctx.restore();
+      /* podpowiedź po chwili */
+      if (stan.zwyc > 2.5) {
+        ctx.fillStyle = 'rgba(40,60,20,' + (0.5 + Math.sin(stan.czas * 3) * 0.3) + ')';
+        ctx.font = '600 18px system-ui, sans-serif';
+        ctx.fillText('dotknij, aby polować dalej', W / 2, stan.wysEkranuCss * 0.7);
+      }
+    }
+
+    if (stan.faza === 'wolne' && stan.ooteka && stan.ooteka.male.length > 0) {
+      ctx.fillStyle = 'rgba(40,60,20,0.7)'; ctx.textAlign = 'center';
+      ctx.font = '600 18px system-ui, sans-serif';
+      ctx.fillText('Wykluły się małe modliszki', W / 2, stan.wysEkranuCss * 0.14);
+    }
+  }
+
+  function gwiazdka(c, x, y, r, kolor) {
+    if (r < 0.5) return;
+    c.save(); c.translate(x, y); c.fillStyle = kolor;
+    c.strokeStyle = 'rgba(150,110,20,0.6)'; c.lineWidth = 1.5;
+    c.beginPath();
+    for (let i = 0; i < 10; i++) {
+      const rr = i % 2 ? r * 0.45 : r, a = i / 10 * Math.PI * 2 - Math.PI / 2;
+      const px = Math.cos(a) * rr, py = Math.sin(a) * rr;
+      i ? c.lineTo(px, py) : c.moveTo(px, py);
+    }
+    c.closePath(); c.fill(); c.stroke(); c.restore();
+  }
+
+  function okragly(c, x, y, w, h, r) {
+    c.beginPath();
+    c.moveTo(x + r, y);
+    c.arcTo(x + w, y, x + w, y + h, r);
+    c.arcTo(x + w, y + h, x, y + h, r);
+    c.arcTo(x, y + h, x, y, r);
+    c.arcTo(x, y, x + w, y, r);
+    c.closePath();
+  }
+
+  /* --- dźwięk (zaślepka do M5) ---------------------------------------- */
+  let dzwiek = null;
+
+  /* --- pętla ---------------------------------------------------------- */
+  let ostatni = 0;
+  function klatka(teraz) {
+    if (!ostatni) ostatni = teraz;
+    let dt = (teraz - ostatni) / 1000;
+    ostatni = teraz;
+    if (dt > 0.05) dt = 0.05;
+    aktualizuj(dt);
+    rysuj();
+    requestAnimationFrame(klatka);
+  }
+
+  document.addEventListener('visibilitychange', () => { ostatni = 0; });
+  window.addEventListener('resize', dopasuj);
+
+  window.MantisTest = {
+    stadium: (s) => { const m = stan.modliszka; m.stadiumIdx = s - 1; m.food = 0;
+      m.dlugoscCel = STADIA[m.stadiumIdx].dl; m.zoomCel = STADIA[m.stadiumIdx].zoom;
+      m.dlugosc = m.dlugoscCel; m.zoom = m.zoomCel; stan.faza = 'gra'; zasiej(); },
+    gatunek: (g) => { stan.modliszka.gatunek = g; },
+    wylinka: () => rozpocznijWylinke(),
+    zwyciestwo: () => { const m = stan.modliszka; m.stadiumIdx = STADIA.length - 1;
+      m.dlugosc = m.dlugoscCel = STADIA[m.stadiumIdx].dl; m.zoom = m.zoomCel = STADIA[m.stadiumIdx].zoom;
+      stan.faza = 'zwyciestwo'; stan.zwyc = 0; },
+    postep: () => stan.wylinka,
+    stan: stan
+  };
+
+  function zasiej() {
+    stan.owady = [];
+    for (let i = 0; i < 3; i++) { const o = nowyOwad(false); if (o) stan.owady.push(o); }
+    /* jedna mrówka tła */
+    const m = stan.modliszka;
+    stan.owady.push({ typ: 'mrowka', x: m.x + 160, bazaY: gruntY, y: gruntY,
+      kierunek: -1, vx: 0, faza: 0, naZiemi: true, zyje: true, sploszenia: 0, ucieka: false, siedziDo: 0, celY: 0 });
+  }
+
+  /* --- publiczne API dla menu (M4) ------------------------------------- */
+  let onUkonczono = null;
+  function startGry(gatunek) {
+    const m = stan.modliszka;
+    m.gatunek = gatunek || 'zwyczajna';
+    m.stadiumIdx = 0; m.food = 0; m.predkosc = 0; m.krok = 0; m.atak = 0; m.je = 0;
+    m.cel = null; m.owadCel = null; m.finalowa = false; m.wyrosla = false;
+    m.dlugosc = m.dlugoscCel = STADIA[0].dl;
+    m.zoom = m.zoomCel = STADIA[0].zoom;
+    m.x = SWIAT_SZER * 0.5; stan.kamera = m.x;
+    stan.wylinka = 0; stan.zwyc = 0; stan.wolneCzas = 0; stan.konfetti = []; stan.ooteka = null;
+    stan.iskry = [];
+    stan.faza = 'gra';
+    stan.swiatKey = SWIAT_GATUNKU[m.gatunek] || 'laka';
+    przygotujTlo(stan.swiatKey);      // tło pod dany gatunek
+    zasiejCzasteczki();
+    zasiej();
+  }
+
+  /* --- cząsteczki w powietrzu, zależne od świata ----------------------- */
+  function zasiejCzasteczki() {
+    stan.czasteczki = [];
+    const typ = stan.paleta ? stan.paleta.czasteczki : 'pylki';
+    const ile = typ === 'liscie' ? 14 : 26;
+    for (let i = 0; i < ile; i++) stan.czasteczki.push(nowaCzasteczka(typ, true));
+  }
+  function nowaCzasteczka(typ, gdziekolwiek) {
+    const x = stan.kamera + (Math.random() - 0.5) * SZER * 1.6;
+    return { typ, x, y: gdziekolwiek ? Math.random() * WYS : -20,
+      faza: Math.random() * 6, vx: (Math.random() - 0.5) * 12,
+      vy: typ === 'liscie' ? 18 + Math.random() * 20 : (typ === 'swietliki' ? (Math.random() - 0.5) * 8 : -6 - Math.random() * 8),
+      r: typ === 'liscie' ? 6 + Math.random() * 5 : 1.5 + Math.random() * 2.5 };
+  }
+  function aktualizujCzasteczki(dt) {
+    if (!stan.czasteczki) return;
+    stan.czasteczki.forEach(c => {
+      c.faza += dt;
+      c.x += (c.vx + Math.sin(c.faza * 1.3) * 10) * dt;
+      c.y += c.vy * dt;
+      if (c.typ === 'swietliki') c.y += Math.sin(c.faza * 0.8) * 6 * dt;
+      /* zawijanie w pionie */
+      if (c.typ === 'liscie' && c.y > WYS + 20) { Object.assign(c, nowaCzasteczka('liscie', false)); }
+      if (c.typ === 'pylki' && c.y < -20) { Object.assign(c, nowaCzasteczka('pylki', false)); c.y = WYS + 20; }
+    });
+  }
+  function rysujCzasteczki() {
+    if (!stan.czasteczki) return;
+    stan.czasteczki.forEach(c => {
+      if (c.typ === 'liscie') {
+        Swiat.lisc(ctx, c.x, c.y, c.r * 3, c.r * 1.3, c.faza, ['#d8a860', '#b8823e', '#8a5a2e']);
+      } else if (c.typ === 'swietliki') {
+        const pul = 0.5 + 0.5 * Math.sin(c.faza * 3);
+        const gl = ctx.createRadialGradient(c.x, c.y, 0, c.x, c.y, c.r * 5);
+        gl.addColorStop(0, 'rgba(255,246,150,' + (0.6 * pul) + ')');
+        gl.addColorStop(1, 'rgba(255,246,150,0)');
+        ctx.fillStyle = gl; ctx.beginPath(); ctx.arc(c.x, c.y, c.r * 5, 0, 7); ctx.fill();
+        ctx.fillStyle = 'rgba(255,250,200,' + (0.7 + 0.3 * pul) + ')';
+        ctx.beginPath(); ctx.arc(c.x, c.y, c.r * 0.8, 0, 7); ctx.fill();
+      } else {
+        ctx.fillStyle = 'rgba(255,255,220,0.5)';
+        ctx.beginPath(); ctx.arc(c.x, c.y, c.r, 0, 7); ctx.fill();
+      }
+    });
+  }
+
+  window.MantisGra = {
+    start: startGry,
+    doMenu: () => { stan.faza = 'menu'; },
+    naUkonczenie: (cb) => { onUkonczono = cb; },
+    ustawDzwiek: (wl) => { stan.dzwiekWl = wl; },
+    faza: () => stan.faza,
+    stan: stan
+  };
+
+  dopasuj();
+  stan.swiatKey = 'laka';
+  przygotujTlo('laka');
+  zasiejCzasteczki();
+  stan.faza = 'menu';        // start od ekranu domowego; menu wywoła start()
+  requestAnimationFrame(klatka);
+})();
+
+</script>
+<script>
+/* ==========================================================================
+   MANTIS, menu i ekran domowy (etap M4)
+   Łączy zapis (Zapis), grę (MantisGra) i rysunek modliszki (Modliszka).
+   Ekran domowy: duża modliszka, wybór z trzech gatunków (odblokowywane po
+   kolei), przycisk GRAJ, wyciszenie. Po ukończeniu gatunku odblokowuje się
+   następny i zapis trafia do localStorage.
+   ========================================================================== */
+
+(function () {
+  'use strict';
+
+  const KOLEJNOSC = Zapis.KOLEJNOSC;
+  const dane = Zapis.wczytaj();
+
+  const elDom = document.getElementById('dom');
+  const elKarty = document.getElementById('karty');
+  const elGraj = document.getElementById('graj');
+  const elDzwiek = document.getElementById('dzwiek');
+  const elDoDomu = document.getElementById('doDomu');
+
+  let wybrana = dane.wybrana && dane.odblokowane.includes(dane.wybrana)
+    ? dane.wybrana : 'zwyczajna';
+
+  /* --- duża modliszka na ekranie domowym, lekko się kołysze ------------ */
+  const domCanvas = document.getElementById('domModliszka');
+  const domCtx = domCanvas.getContext('2d');
+  let domFaza = 0, domCzas = 0;
+  function rysujDomModliszke(dt) {
+    domFaza += dt;
+    domCtx.clearRect(0, 0, domCanvas.width, domCanvas.height);
+    const kol = Math.sin(domFaza * 1.2) * 0.06;
+    Modliszka.rysuj(domCtx, {
+      x: domCanvas.width / 2, y: domCanvas.height - 40, dlugosc: 250,
+      stadium: 8, gatunek: wybrana, kierunek: 1,
+      poza: { kolysanie: kol, katGlowy: kol * 0.6, rozlozoneOdnoza: 0.25, krok: 0, intensywnosc: 0 }
+    });
+  }
+  let domOstatni = 0;
+  function domPetla(t) {
+    if (!domOstatni) domOstatni = t;
+    const dt = Math.min(0.05, (t - domOstatni) / 1000); domOstatni = t;
+    if (!elDom.classList.contains('ukryty')) rysujDomModliszke(dt);
+    requestAnimationFrame(domPetla);
+  }
+  requestAnimationFrame(domPetla);
+
+  /* --- karty gatunków -------------------------------------------------- */
+  function rysujMiniModliszke(canvas, gatunek, zablokowana) {
+    const c = canvas.getContext('2d');
+    c.clearRect(0, 0, canvas.width, canvas.height);
+    Modliszka.rysuj(c, { x: canvas.width / 2, y: canvas.height - 12, dlugosc: 128,
+      stadium: 8, gatunek, kierunek: 1, cien: false,
+      poza: { kolysanie: 0, rozlozoneOdnoza: 0.25, krok: 0, intensywnosc: 0 } });
+    if (zablokowana) {
+      /* ciemna sylwetka: przyciemniamy tylko narysowaną modliszkę */
+      c.globalCompositeOperation = 'source-atop';
+      c.fillStyle = 'rgba(30,45,20,0.82)';
+      c.fillRect(0, 0, canvas.width, canvas.height);
+      c.globalCompositeOperation = 'source-over';
+    }
+  }
+
+  function budujKarty() {
+    elKarty.innerHTML = '';
+    KOLEJNOSC.forEach(gat => {
+      const info = Modliszka.GATUNKI[gat];
+      const odblokowana = dane.odblokowane.includes(gat);
+      const ukonczona = dane.ukonczone.includes(gat);
+      const karta = document.createElement('div');
+      karta.className = 'karta' + (odblokowana ? '' : ' zablokowana') + (gat === wybrana ? ' wybrana' : '');
+      const cv = document.createElement('canvas'); cv.width = 150; cv.height = 138;
+      karta.appendChild(cv);
+      if (odblokowana) {
+        const nz = document.createElement('div'); nz.className = 'nazwa'; nz.textContent = info.nazwa;
+        const lc = document.createElement('div'); lc.className = 'lac'; lc.textContent = info.lacinska;
+        karta.appendChild(nz); karta.appendChild(lc);
+        if (ukonczona) { const o = document.createElement('div'); o.className = 'odznaka'; o.textContent = '⭐'; karta.appendChild(o); }
+        karta.addEventListener('click', () => { wybrana = gat; dane.wybrana = gat; Zapis.zapisz(dane); budujKarty(); });
+      } else {
+        const nz = document.createElement('div'); nz.className = 'nazwa'; nz.textContent = '???';
+        karta.appendChild(nz);
+        const k = document.createElement('div'); k.className = 'klodka'; k.textContent = '🔒'; karta.appendChild(k);
+      }
+      elKarty.appendChild(karta);
+      rysujMiniModliszke(cv, gat, !odblokowana);
+    });
+  }
+  budujKarty();
+
+  /* --- dźwięk ---------------------------------------------------------- */
+  function odswiezDzwiek() {
+    elDzwiek.textContent = dane.dzwiek ? '🔊' : '🔇';
+    MantisGra.ustawDzwiek(dane.dzwiek);
+  }
+  elDzwiek.addEventListener('click', () => { dane.dzwiek = !dane.dzwiek; Zapis.zapisz(dane); odswiezDzwiek(); });
+  odswiezDzwiek();
+
+  /* --- start i powrót -------------------------------------------------- */
+  function pokazDom() {
+    elDom.classList.remove('ukryty');
+    elDoDomu.style.display = 'none';
+    MantisGra.doMenu();
+    budujKarty();
+  }
+  function graj() {
+    elDom.classList.add('ukryty');
+    elDoDomu.style.display = 'flex';
+    MantisGra.start(wybrana);
+  }
+  elGraj.addEventListener('click', graj);
+  elDoDomu.addEventListener('click', pokazDom);
+
+  /* po ukończeniu gatunku: zapis, odblokowanie następnego */
+  MantisGra.naUkonczenie((gat) => {
+    const nowa = Zapis.ukoncz(dane, gat);
+    /* karta odświeży się przy powrocie do domu; nowa modliszka będzie
+       wtedy odblokowana i podświetli się jako świeżo dostępna */
+    dane._nowoOdblokowana = nowa;
+  });
+})();
+
+</script>
+</body>
+</html>

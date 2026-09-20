@@ -11,8 +11,22 @@ polowania.
 
 ## Jak zagrać
 
-To zwykła strona (PWA), działa offline po pierwszym otwarciu, jak BANGladesz26.
-Otwórz `index.html` w przeglądarce telefonu i dodaj do ekranu głównego.
+Najprościej: plik `mantis-jeden-plik.html` zawiera całą grę w jednym pliku,
+działa offline bez serwera. Otwórz go w przeglądarce telefonu i dodaj do ekranu
+głównego. Ten plik można też wysłać znajomym, nic więcej nie potrzebuje.
+
+Wersja rozdzielona na pliki to `index.html` plus katalog `silnik/`. Działa tak
+samo, wygodniejsza do dalszych prac nad kodem.
+
+### Publikacja na GitHub Pages (na później)
+
+Pages tego repozytorium jest przypięte do gałęzi domyślnej
+(`claude/przeglad-news-app-iqyboa`), bo środowisko `github-pages` puszcza
+wdrożenia tylko z niej. Żeby wystawić MANTIS pod stałym adresem, trzeba katalog
+`modliszka/` dołożyć do publikacji na gałęzi domyślnej (tak jak dokładany jest
+tam `bangladesz26/`), albo założyć osobne repozytorium tylko na grę. To decyzja
+do podjęcia świadomie, dlatego nie ma tu workflow, który publikuje z gałęzi
+roboczej (taki i tak byłby odrzucany przez to środowisko).
 
 ## Sterowanie
 
