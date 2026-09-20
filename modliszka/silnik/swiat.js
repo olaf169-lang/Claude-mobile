@@ -13,6 +13,49 @@
     return () => (s = (s * 1103515245 + 12345) % 2147483648) / 2147483648;
   }
 
+  /* --- palety trzech światów -------------------------------------------
+     Każdy gatunek modliszki ma własne środowisko. Paleta steruje kolorami
+     nieba, trawy, kwiatów i gruntu oraz rodzajem cząsteczek w powietrzu. */
+  const SWIATY = {
+    laka: {           // modliszka zwyczajna: letnia łąka w słońcu
+      niebo: ['#fdf6d8', '#e7f2b8', '#b6e0a0', '#6cb673'],
+      slonce: 'rgba(255,251,205,', slonceX: 0.76, slonceY: 0.11,
+      promienie: true,
+      daleko: 'rgba(150,200,140,0.75)', srednio: 'rgba(112,178,105,0.9)', lodyga: 'rgba(90,155,88,0.95)',
+      grunt: ['rgba(120,150,70,0.0)', 'rgba(96,132,60,0.55)', 'rgba(70,104,44,0.85)'],
+      gruntZdzblo: 'rgba(88,132,58,0.8)',
+      lisc: ['#b6e07f', '#84c25c', '#5d9a3c'],
+      kwiaty: [[0.15, 0.52, '#f2a8c8', '#ffd34d', 6], [0.87, 0.62, '#c6a8ee', '#ffe27a', 5], [0.71, 0.76, '#ffd27a', '#ff9b3d', 6]],
+      dalekieKwiaty: ['rgba(255,200,120,0.55)', 'rgba(240,150,190,0.5)', 'rgba(200,170,240,0.5)', 'rgba(255,235,140,0.6)'],
+      czasteczki: 'pylki', rosa: true
+    },
+    sciolka: {        // modliszka duchowa: sucha ściółka jesienią
+      niebo: ['#f6e6c0', '#e8cf9a', '#c99a63', '#8a6238'],
+      slonce: 'rgba(255,226,160,', slonceX: 0.7, slonceY: 0.14,
+      promienie: true,
+      daleko: 'rgba(180,140,90,0.7)', srednio: 'rgba(150,108,64,0.9)', lodyga: 'rgba(120,86,50,0.95)',
+      grunt: ['rgba(150,110,60,0.0)', 'rgba(120,84,46,0.6)', 'rgba(86,58,32,0.9)'],
+      gruntZdzblo: 'rgba(120,84,46,0.85)',
+      lisc: ['#d8b877', '#b8894e', '#8a5f34'],
+      kwiaty: [[0.16, 0.55, '#e08a4a', '#ffcf6a', 6], [0.85, 0.64, '#c96a3a', '#ffb35a', 5]],
+      dalekieKwiaty: ['rgba(230,150,80,0.5)', 'rgba(200,120,60,0.5)', 'rgba(240,190,100,0.55)'],
+      czasteczki: 'liscie', rosa: false
+    },
+    zmierzch: {       // modliszka storczykowa: kwiat o zmierzchu
+      niebo: ['#f3d9e6', '#c9a9d6', '#8a7ab0', '#4a4a78'],
+      slonce: 'rgba(255,214,180,', slonceX: 0.3, slonceY: 0.16,
+      promienie: false,
+      daleko: 'rgba(150,130,170,0.6)', srednio: 'rgba(120,100,150,0.8)', lodyga: 'rgba(90,80,120,0.9)',
+      grunt: ['rgba(90,80,120,0.0)', 'rgba(70,62,100,0.55)', 'rgba(44,40,72,0.9)'],
+      gruntZdzblo: 'rgba(90,80,120,0.85)',
+      lisc: ['#f6d6e6', '#e3a6c6', '#c078a0'],
+      kwiaty: [[0.16, 0.5, '#ffd1e6', '#ffe27a', 6], [0.86, 0.6, '#e6b3ff', '#fff0a0', 6], [0.7, 0.74, '#ffc1dd', '#ffd86a', 5]],
+      dalekieKwiaty: ['rgba(255,200,230,0.5)', 'rgba(220,180,255,0.5)', 'rgba(255,230,150,0.5)'],
+      czasteczki: 'swietliki', rosa: true
+    }
+  };
+
+
   /* Źdźbło trawy: zakrzywiona, zwężająca się kreska. */
   function zdzblo(ctx, x, y, dl, odchyl, szer, kolor) {
     ctx.fillStyle = kolor;
@@ -90,50 +133,49 @@
     ctx.restore();
   }
 
-  function rysujSwiat(ctx, w, h) {
+  function rysujSwiat(ctx, w, h, swiatKey) {
+    const p = SWIATY[swiatKey] || SWIATY.laka;
     const r = losowy(7);
 
-    /* niebo i światło */
+    /* niebo */
     const g = ctx.createLinearGradient(0, 0, 0, h);
-    g.addColorStop(0, '#fdf6d8'); g.addColorStop(0.30, '#e7f2b8');
-    g.addColorStop(0.60, '#b6e0a0'); g.addColorStop(1, '#6cb673');
+    g.addColorStop(0, p.niebo[0]); g.addColorStop(0.30, p.niebo[1]);
+    g.addColorStop(0.60, p.niebo[2]); g.addColorStop(1, p.niebo[3]);
     ctx.fillStyle = g; ctx.fillRect(0, 0, w, h);
 
-    const slonce = ctx.createRadialGradient(w * 0.76, h * 0.11, 0, w * 0.76, h * 0.11, w * 0.85);
-    slonce.addColorStop(0, 'rgba(255,251,205,0.98)');
-    slonce.addColorStop(0.22, 'rgba(255,248,190,0.55)');
-    slonce.addColorStop(0.5, 'rgba(255,246,180,0.16)');
-    slonce.addColorStop(1, 'rgba(255,246,180,0)');
+    /* słońce lub księżycowa poświata */
+    const sx = w * p.slonceX, sy = h * p.slonceY;
+    const slonce = ctx.createRadialGradient(sx, sy, 0, sx, sy, w * 0.85);
+    slonce.addColorStop(0, p.slonce + '0.98)');
+    slonce.addColorStop(0.22, p.slonce + '0.5)');
+    slonce.addColorStop(0.5, p.slonce + '0.16)');
+    slonce.addColorStop(1, p.slonce + '0)');
     ctx.fillStyle = slonce; ctx.fillRect(0, 0, w, h);
 
-    /* promienie światła, ukośne smugi */
-    ctx.save(); ctx.globalCompositeOperation = 'screen';
-    for (let i = 0; i < 5; i++) {
-      const x = w * (0.55 + i * 0.11);
-      const gr = ctx.createLinearGradient(x, 0, x - w * 0.18, h);
-      gr.addColorStop(0, 'rgba(255,250,210,0.10)'); gr.addColorStop(1, 'rgba(255,250,210,0)');
-      ctx.fillStyle = gr;
-      ctx.beginPath();
-      ctx.moveTo(x, 0); ctx.lineTo(x + w * 0.05, 0);
-      ctx.lineTo(x - w * 0.13, h); ctx.lineTo(x - w * 0.20, h);
-      ctx.closePath(); ctx.fill();
+    /* promienie światła (tylko dzień) */
+    if (p.promienie) {
+      ctx.save(); ctx.globalCompositeOperation = 'screen';
+      for (let i = 0; i < 5; i++) {
+        const x = w * (0.55 + i * 0.11);
+        const gr = ctx.createLinearGradient(x, 0, x - w * 0.18, h);
+        gr.addColorStop(0, 'rgba(255,250,210,0.10)'); gr.addColorStop(1, 'rgba(255,250,210,0)');
+        ctx.fillStyle = gr;
+        ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x + w * 0.05, 0);
+        ctx.lineTo(x - w * 0.13, h); ctx.lineTo(x - w * 0.20, h); ctx.closePath(); ctx.fill();
+      }
+      ctx.restore();
     }
-    ctx.restore();
 
     /* plan daleki, mocno rozmyty */
     ctx.save(); ctx.filter = 'blur(' + (w * 0.012) + 'px)';
     for (let i = 0; i < 38; i++) {
       const x = r() * w, dl = h * (0.22 + r() * 0.3);
-      zdzblo(ctx, x, h * 0.86, dl, (r() - 0.5) * w * 0.12, w * 0.012, 'rgba(150,200,140,0.75)');
+      zdzblo(ctx, x, h * 0.86, dl, (r() - 0.5) * w * 0.12, w * 0.012, p.daleko);
     }
-    /* kwiaty w oddali, jako kolorowe rozmyte plamki */
-    const dalKol = ['rgba(255,200,120,0.55)', 'rgba(240,150,190,0.5)',
-                    'rgba(200,170,240,0.5)', 'rgba(255,235,140,0.6)'];
     for (let i = 0; i < 14; i++) {
-      ctx.fillStyle = dalKol[i % dalKol.length];
+      ctx.fillStyle = p.dalekieKwiaty[i % p.dalekieKwiaty.length];
       ctx.beginPath(); ctx.arc(r() * w, h * (0.5 + r() * 0.3), w * (0.01 + r() * 0.02), 0, 7); ctx.fill();
     }
-    /* punkty światła */
     for (let i = 0; i < 16; i++) {
       ctx.fillStyle = 'rgba(255,255,225,' + (0.14 + r() * 0.22) + ')';
       ctx.beginPath(); ctx.arc(r() * w, r() * h * 0.7, w * (0.012 + r() * 0.03), 0, 7); ctx.fill();
@@ -144,56 +186,38 @@
     ctx.save(); ctx.filter = 'blur(' + (w * 0.003) + 'px)';
     for (let i = 0; i < 26; i++) {
       const x = r() * w, dl = h * (0.3 + r() * 0.34);
-      zdzblo(ctx, x, h * 0.95, dl, (r() - 0.5) * w * 0.16, w * 0.016, 'rgba(112,178,105,0.9)');
+      zdzblo(ctx, x, h * 0.95, dl, (r() - 0.5) * w * 0.16, w * 0.016, p.srednio);
     }
     ctx.restore();
-    /* kwiaty na łodygach na planie średnim */
-    zdzblo(ctx, w * 0.15, h * 0.95, h * 0.42, -w * 0.02, w * 0.013, 'rgba(90,155,88,0.95)');
-    kwiat(ctx, w * 0.15, h * 0.52, w * 0.06, '#f2a8c8', '#ffd34d', 6);
-    zdzblo(ctx, w * 0.86, h * 0.97, h * 0.34, w * 0.03, w * 0.012, 'rgba(90,155,88,0.9)');
-    kwiat(ctx, w * 0.87, h * 0.62, w * 0.052, '#c6a8ee', '#ffe27a', 5);
-    zdzblo(ctx, w * 0.7, h * 0.98, h * 0.22, w * 0.015, w * 0.01, 'rgba(96,160,92,0.85)');
-    kwiat(ctx, w * 0.71, h * 0.76, w * 0.04, '#ffd27a', '#ff9b3d', 6);
+    /* kwiaty na łodygach */
+    p.kwiaty.forEach(k => {
+      zdzblo(ctx, w * k[0], h * 0.97, h * (0.95 - k[1]), (k[0] - 0.5) * w * 0.05, w * 0.012, p.lodyga);
+      kwiat(ctx, w * k[0], h * k[1], w * 0.055, k[2], k[3], k[4]);
+    });
 
-    /* gałązka z dużym liściem, na której stoi modliszka */
+    /* gałązka z liściem (albo płatkiem), na której stoi modliszka */
     const lx = w * 0.06, ly = h * 0.74;
-    ctx.strokeStyle = '#7d6a3f'; ctx.lineCap = 'round';
-    ctx.lineWidth = w * 0.026;
+    ctx.strokeStyle = swiatKey === 'zmierzch' ? '#6a5a48' : (swiatKey === 'sciolka' ? '#6e5327' : '#7d6a3f');
+    ctx.lineCap = 'round'; ctx.lineWidth = w * 0.026;
     ctx.beginPath(); ctx.moveTo(-w * 0.02, h * 0.97); ctx.quadraticCurveTo(w * 0.1, h * 0.88, w * 0.36, ly + h * 0.012); ctx.stroke();
-    ctx.strokeStyle = 'rgba(255,255,220,0.35)'; ctx.lineWidth = w * 0.006;
-    ctx.beginPath(); ctx.moveTo(-w * 0.02, h * 0.96); ctx.quadraticCurveTo(w * 0.1, h * 0.87, w * 0.36, ly + h * 0.006); ctx.stroke();
-    /* miękki cień rzucany przez liść na trawę pod spodem */
     ctx.save(); ctx.filter = 'blur(' + (w * 0.02) + 'px)';
-    ctx.fillStyle = 'rgba(40,80,30,0.22)';
+    ctx.fillStyle = 'rgba(30,40,20,0.22)';
     ctx.beginPath(); ctx.ellipse(w * 0.4, ly + h * 0.055, w * 0.36, h * 0.02, -0.04, 0, 7); ctx.fill();
     ctx.restore();
-    lisc(ctx, lx + w * 0.02, ly + h * 0.004, w * 0.86, h * 0.052, -0.045, ['#b6e07f', '#84c25c', '#5d9a3c']);
+    lisc(ctx, lx + w * 0.02, ly + h * 0.004, w * 0.86, h * 0.052, -0.045, p.lisc);
 
-    /* kropla rosy na liściu */
-    const kropla = ctx.createRadialGradient(w * 0.63, ly - h * 0.012, 0, w * 0.63, ly - h * 0.01, w * 0.022);
-    kropla.addColorStop(0, 'rgba(255,255,255,0.95)');
-    kropla.addColorStop(0.6, 'rgba(225,245,255,0.55)');
-    kropla.addColorStop(1, 'rgba(200,235,255,0.15)');
-    ctx.fillStyle = kropla;
-    ctx.beginPath(); ctx.ellipse(w * 0.63, ly - h * 0.012, w * 0.022, w * 0.019, 0, 0, 7); ctx.fill();
+    if (p.rosa && swiatKey !== 'zmierzch') {
+      const kropla = ctx.createRadialGradient(w * 0.63, ly - h * 0.012, 0, w * 0.63, ly - h * 0.01, w * 0.022);
+      kropla.addColorStop(0, 'rgba(255,255,255,0.95)');
+      kropla.addColorStop(0.6, 'rgba(225,245,255,0.55)');
+      kropla.addColorStop(1, 'rgba(200,235,255,0.15)');
+      ctx.fillStyle = kropla;
+      ctx.beginPath(); ctx.ellipse(w * 0.63, ly - h * 0.012, w * 0.022, w * 0.019, 0, 0, 7); ctx.fill();
+    }
 
-    return { liscY: ly - h * 0.006, liscX: w * 0.3 };
+    /* grunt (dodawany w gra.js osobno, tu zwracamy tylko dane) */
+    return { liscY: ly - h * 0.006, liscX: w * 0.3, paleta: p };
   }
 
-  function planBliski(ctx, w, h) {
-    const r = losowy(19);
-    ctx.save(); ctx.filter = 'blur(' + (w * 0.016) + 'px)';
-    for (let i = 0; i < 9; i++) {
-      const x = r() * w;
-      zdzblo(ctx, x, h * 1.02, h * (0.24 + r() * 0.26), (r() - 0.5) * w * 0.2, w * 0.03, 'rgba(70,130,64,0.55)');
-    }
-    ctx.restore();
-    /* pyłki w powietrzu */
-    for (let i = 0; i < 26; i++) {
-      ctx.fillStyle = 'rgba(255,255,220,' + (0.25 + r() * 0.45) + ')';
-      ctx.beginPath(); ctx.arc(r() * w, r() * h, w * (0.002 + r() * 0.005), 0, 7); ctx.fill();
-    }
-  }
-
-  globalny.Swiat = { rysujSwiat, planBliski, lisc, zdzblo, kwiat };
+  globalny.Swiat = { rysujSwiat, lisc, zdzblo, kwiat, SWIATY };
 })(window);

@@ -50,27 +50,31 @@
   tloCanvas.width = SWIAT_SZER; tloCanvas.height = WYS;
   const gruntY = WYS * 0.80;
 
-  function przygotujTlo() {
+  /* który świat dla którego gatunku */
+  const SWIAT_GATUNKU = { zwyczajna: 'laka', duchowa: 'sciolka', storczykowa: 'zmierzch' };
+
+  function przygotujTlo(swiatKey) {
     const c = tloCanvas.getContext('2d');
+    let pal = null;
     for (let x = 0; x < SWIAT_SZER; x += SZER) {
       c.save(); c.translate(x, 0);
       c.beginPath(); c.rect(0, 0, SZER, WYS); c.clip();
-      Swiat.rysujSwiat(c, SZER, WYS);
+      const info = Swiat.rysujSwiat(c, SZER, WYS, swiatKey);
+      pal = info.paleta;
       c.restore();
     }
-    /* ciągły pas gruntu, żeby modliszka i owady chodziły po jednej
-       powierzchni, a nie po powietrzu między liśćmi */
+    /* ciągły pas gruntu w kolorze świata */
     const grunt = c.createLinearGradient(0, gruntY - 10, 0, WYS);
-    grunt.addColorStop(0, 'rgba(120,150,70,0.0)');
-    grunt.addColorStop(0.25, 'rgba(96,132,60,0.55)');
-    grunt.addColorStop(1, 'rgba(70,104,44,0.85)');
+    grunt.addColorStop(0, pal.grunt[0]);
+    grunt.addColorStop(0.25, pal.grunt[1]);
+    grunt.addColorStop(1, pal.grunt[2]);
     c.fillStyle = grunt;
     c.fillRect(0, gruntY - 6, SWIAT_SZER, WYS - gruntY + 6);
-    /* źdźbła na krawędzi gruntu */
     for (let x = 0; x < SWIAT_SZER; x += 26) {
       const dl = 24 + (x * 7 % 30);
-      Swiat.zdzblo(c, x, gruntY + 6, dl, ((x % 3) - 1) * 10, 3, 'rgba(88,132,58,0.8)');
+      Swiat.zdzblo(c, x, gruntY + 6, dl, ((x % 3) - 1) * 10, 3, pal.gruntZdzblo);
     }
+    stan.paleta = pal;
   }
 
   /* --- stan ------------------------------------------------------------ */
@@ -279,6 +283,7 @@
     /* iskry energii */
     stan.iskry = stan.iskry.filter(s => (s.zyc -= dt) > 0);
     stan.iskry.forEach(s => { s.x += s.vx * dt; s.y += s.vy * dt; s.vy += 120 * dt; });
+    aktualizujCzasteczki(dt);
 
     if (stan.faza === 'menu') return;             // ekran domowy, gra stoi
     if (stan.faza === 'wylinka') { aktualizujWylinke(dt); return; }
@@ -288,14 +293,21 @@
     stan.owady.forEach(o => {
       if (!o.zyje && !(o.znika > 0)) return;
       ruchOwada(o, dt);
-      /* czujność: szybki ruch modliszki w promieniu płoszy owada */
       const t = Owad.TYPY[o.typ];
+      const lata = t.ruch.indexOf('lot') === 0;
+      /* czujność: szybki ruch modliszki w promieniu płoszy owada.
+         Modliszka duchowa maskuje się (kamuflaż): może iść szybciej bez
+         spłoszenia, bo wygląda jak zeschły liść. */
       if (t.czujnosc > 0 && o.zyje && !o.ucieka && o !== m.owadCel) {
         const d = Math.abs(o.x - glowaX(m));
-        /* na M2 każde spłoszenie = ucieczka i pojawia się nowy owad.
-           Powrót po 1. i 2. spłoszeniu (jak w projekcie) dostroimy przy
-           testach na dziecku. */
-        if (m.predkosc > SKRADANIE + 6 && d < t.czujnosc * 130) sploszenie(o);
+        const prog = (m.gatunek === 'duchowa') ? SKRADANIE * 2 + 6 : SKRADANIE + 6;
+        if (m.predkosc > prog && d < t.czujnosc * 130) sploszenie(o);
+      }
+      /* wabienie: modliszka storczykowa stojąc nieruchomo przyciąga
+         latające owady, bo wygląda i wabi jak kwiat. */
+      if (m.gatunek === 'storczykowa' && lata && o.zyje && !o.ucieka && m.predkosc < 12) {
+        const dx = glowaX(m) - o.x;
+        if (Math.abs(dx) < 320) o.x += Math.sign(dx) * 30 * dt;
       }
     });
 
@@ -569,13 +581,16 @@
   function rysuj() {
     const m = stan.modliszka;
     ctx.setTransform(1, 0, 0, 1, 0, 0);
-    /* tło zapasowe, żeby przy zoomie nie było gołych rogów */
+    /* tło zapasowe w kolorach bieżącego świata, żeby przy zoomie nie było
+       gołych rogów ani obcego koloru u dołu */
+    const pal = stan.paleta || Swiat.SWIATY.laka;
     const g = ctx.createLinearGradient(0, 0, 0, canvas.height);
-    g.addColorStop(0, '#e7f2b8'); g.addColorStop(0.6, '#a9d894'); g.addColorStop(1, '#5c9a4c');
+    g.addColorStop(0, pal.niebo[1]); g.addColorStop(0.6, pal.niebo[2]); g.addColorStop(1, pal.grunt[2].replace(/0\.\d+\)$/, '1)'));
     ctx.fillStyle = g; ctx.fillRect(0, 0, canvas.width, canvas.height);
 
     ustawSwiat();
     ctx.drawImage(tloCanvas, 0, 0);
+    rysujCzasteczki();
 
     /* owady za modliszką (tło) i przed nią rozdzielamy po wysokości */
     stan.owady.forEach(o => {
@@ -815,7 +830,56 @@
     stan.wylinka = 0; stan.zwyc = 0; stan.wolneCzas = 0; stan.konfetti = []; stan.ooteka = null;
     stan.iskry = [];
     stan.faza = 'gra';
+    stan.swiatKey = SWIAT_GATUNKU[m.gatunek] || 'laka';
+    przygotujTlo(stan.swiatKey);      // tło pod dany gatunek
+    zasiejCzasteczki();
     zasiej();
+  }
+
+  /* --- cząsteczki w powietrzu, zależne od świata ----------------------- */
+  function zasiejCzasteczki() {
+    stan.czasteczki = [];
+    const typ = stan.paleta ? stan.paleta.czasteczki : 'pylki';
+    const ile = typ === 'liscie' ? 14 : 26;
+    for (let i = 0; i < ile; i++) stan.czasteczki.push(nowaCzasteczka(typ, true));
+  }
+  function nowaCzasteczka(typ, gdziekolwiek) {
+    const x = stan.kamera + (Math.random() - 0.5) * SZER * 1.6;
+    return { typ, x, y: gdziekolwiek ? Math.random() * WYS : -20,
+      faza: Math.random() * 6, vx: (Math.random() - 0.5) * 12,
+      vy: typ === 'liscie' ? 18 + Math.random() * 20 : (typ === 'swietliki' ? (Math.random() - 0.5) * 8 : -6 - Math.random() * 8),
+      r: typ === 'liscie' ? 6 + Math.random() * 5 : 1.5 + Math.random() * 2.5 };
+  }
+  function aktualizujCzasteczki(dt) {
+    if (!stan.czasteczki) return;
+    stan.czasteczki.forEach(c => {
+      c.faza += dt;
+      c.x += (c.vx + Math.sin(c.faza * 1.3) * 10) * dt;
+      c.y += c.vy * dt;
+      if (c.typ === 'swietliki') c.y += Math.sin(c.faza * 0.8) * 6 * dt;
+      /* zawijanie w pionie */
+      if (c.typ === 'liscie' && c.y > WYS + 20) { Object.assign(c, nowaCzasteczka('liscie', false)); }
+      if (c.typ === 'pylki' && c.y < -20) { Object.assign(c, nowaCzasteczka('pylki', false)); c.y = WYS + 20; }
+    });
+  }
+  function rysujCzasteczki() {
+    if (!stan.czasteczki) return;
+    stan.czasteczki.forEach(c => {
+      if (c.typ === 'liscie') {
+        Swiat.lisc(ctx, c.x, c.y, c.r * 3, c.r * 1.3, c.faza, ['#d8a860', '#b8823e', '#8a5a2e']);
+      } else if (c.typ === 'swietliki') {
+        const pul = 0.5 + 0.5 * Math.sin(c.faza * 3);
+        const gl = ctx.createRadialGradient(c.x, c.y, 0, c.x, c.y, c.r * 5);
+        gl.addColorStop(0, 'rgba(255,246,150,' + (0.6 * pul) + ')');
+        gl.addColorStop(1, 'rgba(255,246,150,0)');
+        ctx.fillStyle = gl; ctx.beginPath(); ctx.arc(c.x, c.y, c.r * 5, 0, 7); ctx.fill();
+        ctx.fillStyle = 'rgba(255,250,200,' + (0.7 + 0.3 * pul) + ')';
+        ctx.beginPath(); ctx.arc(c.x, c.y, c.r * 0.8, 0, 7); ctx.fill();
+      } else {
+        ctx.fillStyle = 'rgba(255,255,220,0.5)';
+        ctx.beginPath(); ctx.arc(c.x, c.y, c.r, 0, 7); ctx.fill();
+      }
+    });
   }
 
   window.MantisGra = {
@@ -828,7 +892,9 @@
   };
 
   dopasuj();
-  przygotujTlo();
+  stan.swiatKey = 'laka';
+  przygotujTlo('laka');
+  zasiejCzasteczki();
   stan.faza = 'menu';        // start od ekranu domowego; menu wywoła start()
   requestAnimationFrame(klatka);
 })();

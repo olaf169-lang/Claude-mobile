@@ -356,9 +356,19 @@
 
   /* --- całość ------------------------------------------------------------ */
 
+  /* Modliszka storczykowa w L1 jest czarno-czerwona i udaje mrówkę.
+     Kwiatowe barwy pojawiają się dopiero po pierwszej wylince (L2). */
+  const MIMIKRA = {
+    nazwa: 'modliszka storczykowa', lacinska: 'Hymenopus coronatus',
+    jasny: '#e05a4a', sredni: '#b0342a', ciemny: '#3a1512',
+    kontur: '#241010', oko: '#f0d0c0', zrenica: '#1a0808',
+    skrzydlo: 'rgba(60,30,25,0.5)', plamka: false, platki: false
+  };
+
   function rysuj(ctx, o) {
     const pr = proporcje(o.stadium || 1);
-    const pal = GATUNKI[o.gatunek || 'zwyczajna'];
+    let pal = GATUNKI[o.gatunek || 'zwyczajna'];
+    if ((o.gatunek === 'storczykowa') && (o.stadium || 1) === 1) pal = MIMIKRA;
     const z = o.poza || {};
     const s = szkielet(pr, z);
     const gr = pr.grubosc, n = pr.nogi;
