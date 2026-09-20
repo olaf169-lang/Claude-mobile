@@ -122,6 +122,17 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
   Swędem" jako jeden ciągły kształt wyszedł żółwiem. Czytelny jest dopiero
   z kółka-łba, kufy-klina, walca-tułowia i czterech nóg osobno, wtedy widać
   szyję i opuszczony łeb (czyli węszenie).
+- **Ustawianie meczów NADPISUJE dokument, reszta zapisów SCALA.** `zapiszWieczor`
+  ma flagę `{ zastap: true }`: `setDoc` bez `merge`, pełne nadpisanie. Używa jej
+  tylko „Zatwierdź skład” (`#ustaw-mecze`). Bez tego `setDoc(merge)` scalał mapę
+  `mecze` ze starą i przy ponownym ustawianiu tego samego wieczoru odżywały mecze
+  z poprzedniego układu (zgłoszony bug 2026-09-20). Zapis pojedynczego meczu i
+  przełączniki dalej scalają (`merge`), żeby dwie osoby mogły pisać naraz.
+- **„Zatwierdź” jest ważniejsze kolorystycznie niż „Zapisz”** (prośba
+  użytkownika 2026-09-20). „Zatwierdź i zamknij” to zielony wypełniony
+  `.btn-zatwierdz` (biały tekst na jasnym; ciemny na ciemnym, kontrast liczony),
+  „Zapisz i wyjdź” to zwykły `.btn-obrys`. Złoto zostaje przy zaszczytach, nie na
+  tym przycisku.
 - **Zapisany wieczór jest zamknięty.** Wyniki zapisują się na bieżąco (autosave).
   „Zapisz i wyjdź” tylko wychodzi (wieczór zostaje otwarty, wraca się do niego
   z kalendarza). „Zatwierdź i zamknij” ustawia `wieczor.zamkniety === true`; odblokowanie wymaga kodu administratora

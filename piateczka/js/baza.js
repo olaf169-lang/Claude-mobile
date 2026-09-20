@@ -142,12 +142,17 @@ function podmienLokalnie(data, zmiana) {
   return nowy;
 }
 
-export async function zapiszWieczor(data, pola) {
-  podmienLokalnie(data, (w) => ({ ...w, ...pola, data }));
+export async function zapiszWieczor(data, pola, { zastap = false } = {}) {
+  // `zastap` = pełne nadpisanie dokumentu (ustawianie meczów od nowa). Bez tego
+  // setDoc(merge) scala mapę `mecze` z poprzednią i stare mecze z wcześniejszych
+  // ustawień tego samego wieczoru zostają. Reszta zapisów (pojedynczy mecz,
+  // przełączniki) dalej scala, żeby dwie osoby mogły pisać naraz.
+  podmienLokalnie(data, (w) => (zastap ? { ...pola, data } : { ...w, ...pola, data }));
   try {
     const { db, f } = await baza();
     await f.setDoc(f.doc(db, KOLEKCJA, data),
-      { ...pola, data, zaktualizowano: f.serverTimestamp() }, { merge: true });
+      { ...pola, data, zaktualizowano: f.serverTimestamp() },
+      zastap ? {} : { merge: true });
   } catch (blad) { console.warn('Zapis wieczoru poszedł do kolejki:', blad); }
 }
 

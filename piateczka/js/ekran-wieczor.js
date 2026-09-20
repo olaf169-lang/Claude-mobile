@@ -334,13 +334,13 @@ function kartaZapisu(wieczor, zamek) {
       ? '<p class="wskazowka">Wpiszcie choć jeden wynik.</p>'
       : `<p class="wskazowka">Wyniki zapisują się same. Możesz wyjść i wrócić tu z kalendarza,
           żeby dograć resztę.</p>
-        <button class="btn btn-glowny szeroki" type="button" id="zapisz-wyjdz">💾 Zapisz i wyjdź</button>
-        <button class="btn btn-obrys szeroki" type="button" id="zatwierdz-wieczor" style="margin-top:8px">
+        <button class="btn btn-zatwierdz szeroki" type="button" id="zatwierdz-wieczor">
           🔒 Zatwierdź i zamknij (${rozegrane.length} ${odmianaMeczow(rozegrane.length)})</button>
+        <button class="btn btn-obrys szeroki" type="button" id="zapisz-wyjdz" style="margin-top:8px">💾 Zapisz i wyjdź</button>
         ${niedokonczone.length ? `<p class="wskazowka ostrzezenie-tekst">
           ${niedokonczone.length === 1 ? 'Jeden mecz nie jest dograny' : `${niedokonczone.length} mecze nie są dograne`}.
           Zatwierdzenie policzy je z tego, co jest.</p>` : ''}`}
-    <button class="btn btn-groza szeroki" type="button" id="usun-wieczor"
+        <button class="btn btn-groza szeroki" type="button" id="usun-wieczor"
       style="margin-top:14px">Usuń cały wieczór</button>
   </section>`;
 }
@@ -425,7 +425,7 @@ function podepnij(kontener, ctx) {
     await baza.zapiszWieczor(wybranaData, {
       sklad, mecze, towarzyski: false, zamkniety: false,
       goscie: szkicGosci, format,
-    });
+    }, { zastap: true });
     szkicSkladu = null;
     szkicGosci = {};
     szkicZatwierdzony = false;
