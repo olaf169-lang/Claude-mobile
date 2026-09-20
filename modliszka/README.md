@@ -54,7 +54,11 @@ modliszka/
     swiat.js          trzy światy (palety, tło, cząsteczki)
     gra.js            pętla gry, kamera, polowanie, wzrost, wylinka
     zapis.js          zapis lokalny (localStorage)
-    menu.js           ekran domowy, wybór modliszki, odblokowania
+    menu.js           ekran domowy, wybór modliszki, odblokowania, album
+    dzwiek.js         dźwięki w Web Audio (chód, jedzenie, wzrost, wylinka)
+    album.js          album ciekawostek (karty i fakty)
+  ikony/              ikona aplikacji (192, 512)
+  manifest.webmanifest, sw.js   instalacja jako aplikacja i offline
   narzedzia/
     podglad.html      podgląd rysunków do prac nad grafiką (dev)
   PROJEKT.md          projekt gry i podjęte decyzje
@@ -64,6 +68,6 @@ modliszka/
 ## Stan prac
 
 Zrobione: M0 wygląd, M1 chodzenie, M2 owady i polowanie, M3 wylinka i zwycięstwo,
-M4 ekran domowy i zapis, M5 trzy światy i style polowania.
-Zostało: M6 oprawa (dźwięk, album ciekawostek, dopracowanie animacji, instalacja PWA
-i pełne działanie offline).
+M4 ekran domowy i zapis, M5 trzy światy i style polowania, M6 oprawa (dźwięk chodu
+i jedzenia, album ciekawostek, ikona, manifest i service worker do instalacji jako
+aplikacja i działania offline).

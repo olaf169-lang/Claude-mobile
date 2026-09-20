@@ -96,15 +96,18 @@
   odswiezDzwiek();
 
   /* --- start i powrót -------------------------------------------------- */
+  const elAlbumBtn = document.getElementById('album');
   function pokazDom() {
     elDom.classList.remove('ukryty');
     elDoDomu.style.display = 'none';
+    elAlbumBtn.style.display = 'flex';
     MantisGra.doMenu();
     budujKarty();
   }
   function graj() {
     elDom.classList.add('ukryty');
     elDoDomu.style.display = 'flex';
+    elAlbumBtn.style.display = 'none';
     MantisGra.start(wybrana);
   }
   elGraj.addEventListener('click', graj);
@@ -113,8 +116,63 @@
   /* po ukończeniu gatunku: zapis, odblokowanie następnego */
   MantisGra.naUkonczenie((gat) => {
     const nowa = Zapis.ukoncz(dane, gat);
-    /* karta odświeży się przy powrocie do domu; nowa modliszka będzie
-       wtedy odblokowana i podświetli się jako świeżo dostępna */
     dane._nowoOdblokowana = nowa;
+  });
+
+  /* --- album ciekawostek ---------------------------------------------- */
+  const elAlbumEkran = document.getElementById('albumEkran');
+  const elAlbumSiatka = document.getElementById('albumSiatka');
+  const elAlbumLicznik = document.getElementById('albumLicznik');
+  const elAlbumZamknij = document.getElementById('albumZamknij');
+  const elKartaOpis = document.getElementById('kartaOpis');
+  const elKartaOpisTresc = document.getElementById('kartaOpisTresc');
+  const elListek = document.getElementById('listek');
+
+  function budujAlbum() {
+    elAlbumSiatka.innerHTML = '';
+    const odkryte = dane.odkryte.length, wszystkie = Album.KARTY.length;
+    elAlbumLicznik.textContent = odkryte + ' z ' + wszystkie + ' kart';
+    Album.KARTY.forEach(def => {
+      const jest = dane.odkryte.includes(def.id);
+      const k = document.createElement('div'); k.className = 'albKarta';
+      const cv = document.createElement('canvas'); cv.width = 130; cv.height = 100;
+      k.appendChild(cv);
+      const t = document.createElement('div'); t.className = 't';
+      t.textContent = jest ? def.tytul : '???';
+      k.appendChild(t);
+      elAlbumSiatka.appendChild(k);
+      Album.rysujMini(cv, def, jest);
+      if (jest) k.addEventListener('click', () => pokazKarte(def));
+    });
+  }
+  function pokazKarte(def) {
+    elKartaOpisTresc.innerHTML = '';
+    const cv = document.createElement('canvas'); cv.width = 260; cv.height = 190;
+    elKartaOpisTresc.appendChild(cv);
+    Album.rysujMini(cv, def, true);
+    const t = document.createElement('div'); t.className = 't'; t.textContent = def.tytul;
+    elKartaOpisTresc.appendChild(t);
+    if (def.lac) { const l = document.createElement('div'); l.className = 'lac'; l.textContent = def.lac; elKartaOpisTresc.appendChild(l); }
+    const f = document.createElement('div'); f.className = 'f'; f.textContent = def.fakt;
+    elKartaOpisTresc.appendChild(f);
+    elKartaOpis.classList.add('pokaz');
+  }
+  function otworzAlbum() { budujAlbum(); elAlbumEkran.classList.add('pokaz'); elAlbumZamknij.classList.add('pokaz'); }
+  function zamknijAlbum() { elAlbumEkran.classList.remove('pokaz'); elAlbumZamknij.classList.remove('pokaz'); }
+  elAlbumBtn.addEventListener('click', otworzAlbum);
+  elAlbumZamknij.addEventListener('click', zamknijAlbum);
+  elKartaOpis.addEventListener('click', () => elKartaOpis.classList.remove('pokaz'));
+
+  /* odkrycie karty w trakcie gry: zapis plus mały listek w rogu, gra się
+     nie zatrzymuje */
+  let listekTimer = null;
+  MantisGra.naKarta((id) => {
+    const nowa = Zapis.odkryj(dane, id);
+    if (!nowa) return;
+    const def = Album.karta(id);
+    elListek.textContent = '🍃 ' + (def ? def.tytul : 'nowa karta');
+    elListek.classList.add('pokaz');
+    clearTimeout(listekTimer);
+    listekTimer = setTimeout(() => elListek.classList.remove('pokaz'), 2200);
   });
 })();

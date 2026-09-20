@@ -387,13 +387,14 @@
   function rozpocznijOoteke() {
     const m = stan.modliszka;
     stan.ooteka = { x: m.x + m.kierunek * 40, y: gruntY - m.dlugosc * 0.9, t: 0, male: [] };
+    karta('ikona:ooteka');
     m.cel = null; m.owadCel = null;
   }
   function aktualizujOoteke(dt) {
     const o = stan.ooteka; o.t += dt;
     if (o.t > 6 && o.male.length === 0) {
       for (let i = 0; i < 12; i++) {
-        o.male.push({ x: o.x, y: o.y + 20, vx: (Math.random() - 0.5) * 90, faza: Math.random() * 6, zyc: 0 });
+        o.male.push({ x: o.x + (Math.random()-0.5)*40, y: o.y + 20, vx: (Math.random() - 0.5) * 120, faza: Math.random() * 6, zyc: 0 });
       }
     }
     o.male.forEach(mm => { mm.zyc += dt; mm.x += mm.vx * dt; mm.faza += dt; });
@@ -405,6 +406,7 @@
     iskra(glowaX(m), gruntY - m.dlugosc * 0.4);
     const t = Owad.TYPY[o.typ];
     m.food += t.pozywienie;
+    karta('owad:' + o.typ); karta('ikona:atak');
     if (dzwiek) dzwiek('jedz');
     const potrzeba = STADIA[m.stadiumIdx].food;
     if (potrzeba > 0 && m.food >= potrzeba) rozpocznijWylinke();
@@ -437,6 +439,7 @@
       m.food = 0;
       const st = STADIA[m.stadiumIdx];
       m.dlugoscCel = st.dl; m.zoomCel = st.zoom;
+      karta('ikona:wylinka');
       if (dzwiek) dzwiek('wzrost');
     }
     /* kamera i zoom dojeżdżają dopiero pod koniec, przy odsłonięciu */
@@ -450,6 +453,7 @@
       stan.wylinka = 1;
       if (m.finalowa) {
         stan.faza = 'zwyciestwo'; stan.zwyc = 0;
+        karta('ikona:skrzydla');
         if (onUkonczono) onUkonczono(m.gatunek);   // zapis i odblokowanie następnej
       } else { stan.faza = 'gra'; m.dlugosc = m.dlugoscCel; m.zoom = m.zoomCel; }
     }
@@ -674,7 +678,7 @@
     /* maleństwa L1 */
     o.male.forEach(mm => {
       ctx.globalAlpha = Math.min(1, mm.zyc * 2);
-      Modliszka.rysuj(ctx, { x: mm.x, y: gruntY, dlugosc: 26, stadium: 1,
+      Modliszka.rysuj(ctx, { x: mm.x, y: gruntY, dlugosc: 46, stadium: 1,
         gatunek: stan.modliszka.gatunek, kierunek: mm.vx >= 0 ? 1 : -1,
         poza: { krok: mm.faza, intensywnosc: 1, kolysanie: 0, rozlozoneOdnoza: 0.2 } });
     });
@@ -836,7 +840,8 @@
   }
 
   /* --- publiczne API dla menu (M4) ------------------------------------- */
-  let onUkonczono = null;
+  let onUkonczono = null, onKarta = null;
+  function karta(id) { if (onKarta) onKarta(id); }
   function startGry(gatunek) {
     const m = stan.modliszka;
     m.gatunek = gatunek || 'zwyczajna';
@@ -848,6 +853,7 @@
     stan.wylinka = 0; stan.zwyc = 0; stan.wolneCzas = 0; stan.konfetti = []; stan.ooteka = null;
     stan.iskry = [];
     stan.faza = 'gra';
+    karta('modliszka:' + m.gatunek); karta('ikona:glowa');
     stan.swiatKey = SWIAT_GATUNKU[m.gatunek] || 'laka';
     przygotujTlo(stan.swiatKey);      // tło pod dany gatunek
     zasiejCzasteczki();
@@ -904,6 +910,7 @@
     start: startGry,
     doMenu: () => { stan.faza = 'menu'; },
     naUkonczenie: (cb) => { onUkonczono = cb; },
+    naKarta: (cb) => { onKarta = cb; },
     ustawDzwiek: (wl) => { stan.dzwiekWl = wl; if (globalThis.Dzwiek) globalThis.Dzwiek.ustaw(wl); },
     faza: () => stan.faza,
     stan: stan

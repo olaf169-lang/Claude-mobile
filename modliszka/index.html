@@ -4,6 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no, maximum-scale=1">
 <meta name="theme-color" content="#8fce8c">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="ikony/icon-192.png">
+<link rel="icon" href="ikony/icon-192.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <title>MANTIS</title>
@@ -62,13 +65,56 @@
     display: flex; align-items: center; justify-content: center;
   }
   #dzwiek { top: calc(env(safe-area-inset-top, 10px) + 8px); right: calc(env(safe-area-inset-right, 10px) + 10px); }
+  #album { top: calc(env(safe-area-inset-top, 10px) + 8px); left: calc(env(safe-area-inset-left, 10px) + 10px); }
   #doDomu { top: calc(env(safe-area-inset-top, 10px) + 8px); left: calc(env(safe-area-inset-left, 10px) + 10px); display: none; }
+
+  /* --- album ciekawostek --- */
+  #albumEkran {
+    position: fixed; inset: 0; z-index: 25; display: none; flex-direction: column;
+    padding: calc(env(safe-area-inset-top, 12px) + 12px) 14px calc(env(safe-area-inset-bottom, 12px) + 14px);
+    background: linear-gradient(180deg, #eef4dc 0%, #cfe4b4 100%); overflow-y: auto;
+  }
+  #albumEkran.pokaz { display: flex; }
+  #albumEkran h2 { text-align: center; color: #3d5c1e; font-size: 24px; margin-bottom: 4px; }
+  #albumEkran .licznik { text-align: center; color: #6a7d4a; font-size: 13px; margin-bottom: 12px; }
+  #albumSiatka { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+  .albKarta { background: rgba(255,255,255,0.6); border-radius: 14px; padding: 6px; text-align: center; }
+  .albKarta canvas { width: 100%; height: 74px; display: block; }
+  .albKarta .t { font-size: 11px; font-weight: 700; color: #3d5c1e; line-height: 1.1; margin-top: 3px; }
+  #albumZamknij {
+    position: fixed; top: calc(env(safe-area-inset-top, 10px) + 8px); right: calc(env(safe-area-inset-right, 10px) + 10px);
+    z-index: 26; border: 0; border-radius: 50%; width: 46px; height: 46px; font-size: 22px;
+    background: rgba(255,255,255,0.8); color: #3d5c1e; display: none;
+  }
+  #albumZamknij.pokaz { display: flex; align-items: center; justify-content: center; }
+  /* okno z opisem karty */
+  #kartaOpis {
+    position: fixed; inset: 0; z-index: 27; display: none; align-items: center; justify-content: center;
+    background: rgba(20,30,15,0.5); padding: 24px;
+  }
+  #kartaOpis.pokaz { display: flex; }
+  #kartaOpis .karta { background: #fbfdf3; border-radius: 20px; padding: 18px; max-width: 340px; text-align: center; }
+  #kartaOpis canvas { width: 180px; height: 130px; }
+  #kartaOpis .t { font-size: 20px; font-weight: 800; color: #3d5c1e; margin-top: 6px; }
+  #kartaOpis .lac { font-size: 13px; font-style: italic; color: #7a8a5c; }
+  #kartaOpis .f { font-size: 15px; color: #45532f; margin-top: 10px; line-height: 1.4; }
+
+  /* listek-powiadomienie o nowej karcie (w grze, nie zatrzymuje gry) */
+  #listek {
+    position: fixed; z-index: 16; left: 50%; transform: translateX(-50%) translateY(-80px);
+    top: calc(env(safe-area-inset-top, 10px) + 60px);
+    background: rgba(255,255,255,0.92); color: #3d5c1e; font-weight: 700; font-size: 14px;
+    padding: 8px 16px 8px 12px; border-radius: 20px; box-shadow: 0 4px 12px rgba(60,80,30,.3);
+    opacity: 0; transition: transform .4s, opacity .4s; pointer-events: none;
+  }
+  #listek.pokaz { transform: translateX(-50%) translateY(0); opacity: 1; }
 </style>
 </head>
 <body>
 <canvas id="gra"></canvas>
 
 <button id="dzwiek" class="rogPrzycisk" aria-label="dźwięk">🔊</button>
+<button id="album" class="rogPrzycisk" aria-label="album">📖</button>
 <button id="doDomu" class="rogPrzycisk" aria-label="dom">🏠</button>
 
 <div id="dom">
@@ -79,12 +125,28 @@
   <button id="graj">GRAJ</button>
 </div>
 
+<div id="albumEkran">
+  <h2>Album ciekawostek</h2>
+  <div class="licznik" id="albumLicznik"></div>
+  <div id="albumSiatka"></div>
+</div>
+<button id="albumZamknij" aria-label="zamknij">✕</button>
+<div id="kartaOpis"><div class="karta" id="kartaOpisTresc"></div></div>
+
+<div id="listek">🍃 nowa karta</div>
+
 <script src="silnik/modliszka.js"></script>
 <script src="silnik/swiat.js"></script>
 <script src="silnik/owad.js"></script>
 <script src="silnik/zapis.js"></script>
 <script src="silnik/dzwiek.js"></script>
+<script src="silnik/album.js"></script>
 <script src="silnik/gra.js"></script>
 <script src="silnik/menu.js"></script>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+  }
+</script>
 </body>
 </html>

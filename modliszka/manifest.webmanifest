@@ -1,0 +1,17 @@
+{
+  "name": "MANTIS",
+  "short_name": "MANTIS",
+  "description": "Gra dla dziecka: prowadź modliszkę, poluj, rośnij i przeżyj wylinkę.",
+  "lang": "pl",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#6cb673",
+  "theme_color": "#8fce8c",
+  "icons": [
+    { "src": "ikony/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "ikony/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "ikony/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

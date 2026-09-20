@@ -4,10 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no, maximum-scale=1">
 <meta name="theme-color" content="#8fce8c">
+<link rel="apple-touch-icon" href="ikony/icon-192.png">
+<link rel="icon" href="ikony/icon-192.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <title>MANTIS</title>
-<!-- Wersja w jednym pliku, dziala offline bez serwera. Otworz w przegladarce telefonu i dodaj do ekranu glownego. -->
+<!-- Wersja w jednym pliku, offline bez serwera. -->
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html, body {
@@ -63,13 +65,56 @@
     display: flex; align-items: center; justify-content: center;
   }
   #dzwiek { top: calc(env(safe-area-inset-top, 10px) + 8px); right: calc(env(safe-area-inset-right, 10px) + 10px); }
+  #album { top: calc(env(safe-area-inset-top, 10px) + 8px); left: calc(env(safe-area-inset-left, 10px) + 10px); }
   #doDomu { top: calc(env(safe-area-inset-top, 10px) + 8px); left: calc(env(safe-area-inset-left, 10px) + 10px); display: none; }
+
+  /* --- album ciekawostek --- */
+  #albumEkran {
+    position: fixed; inset: 0; z-index: 25; display: none; flex-direction: column;
+    padding: calc(env(safe-area-inset-top, 12px) + 12px) 14px calc(env(safe-area-inset-bottom, 12px) + 14px);
+    background: linear-gradient(180deg, #eef4dc 0%, #cfe4b4 100%); overflow-y: auto;
+  }
+  #albumEkran.pokaz { display: flex; }
+  #albumEkran h2 { text-align: center; color: #3d5c1e; font-size: 24px; margin-bottom: 4px; }
+  #albumEkran .licznik { text-align: center; color: #6a7d4a; font-size: 13px; margin-bottom: 12px; }
+  #albumSiatka { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+  .albKarta { background: rgba(255,255,255,0.6); border-radius: 14px; padding: 6px; text-align: center; }
+  .albKarta canvas { width: 100%; height: 74px; display: block; }
+  .albKarta .t { font-size: 11px; font-weight: 700; color: #3d5c1e; line-height: 1.1; margin-top: 3px; }
+  #albumZamknij {
+    position: fixed; top: calc(env(safe-area-inset-top, 10px) + 8px); right: calc(env(safe-area-inset-right, 10px) + 10px);
+    z-index: 26; border: 0; border-radius: 50%; width: 46px; height: 46px; font-size: 22px;
+    background: rgba(255,255,255,0.8); color: #3d5c1e; display: none;
+  }
+  #albumZamknij.pokaz { display: flex; align-items: center; justify-content: center; }
+  /* okno z opisem karty */
+  #kartaOpis {
+    position: fixed; inset: 0; z-index: 27; display: none; align-items: center; justify-content: center;
+    background: rgba(20,30,15,0.5); padding: 24px;
+  }
+  #kartaOpis.pokaz { display: flex; }
+  #kartaOpis .karta { background: #fbfdf3; border-radius: 20px; padding: 18px; max-width: 340px; text-align: center; }
+  #kartaOpis canvas { width: 180px; height: 130px; }
+  #kartaOpis .t { font-size: 20px; font-weight: 800; color: #3d5c1e; margin-top: 6px; }
+  #kartaOpis .lac { font-size: 13px; font-style: italic; color: #7a8a5c; }
+  #kartaOpis .f { font-size: 15px; color: #45532f; margin-top: 10px; line-height: 1.4; }
+
+  /* listek-powiadomienie o nowej karcie (w grze, nie zatrzymuje gry) */
+  #listek {
+    position: fixed; z-index: 16; left: 50%; transform: translateX(-50%) translateY(-80px);
+    top: calc(env(safe-area-inset-top, 10px) + 60px);
+    background: rgba(255,255,255,0.92); color: #3d5c1e; font-weight: 700; font-size: 14px;
+    padding: 8px 16px 8px 12px; border-radius: 20px; box-shadow: 0 4px 12px rgba(60,80,30,.3);
+    opacity: 0; transition: transform .4s, opacity .4s; pointer-events: none;
+  }
+  #listek.pokaz { transform: translateX(-50%) translateY(0); opacity: 1; }
 </style>
 </head>
 <body>
 <canvas id="gra"></canvas>
 
 <button id="dzwiek" class="rogPrzycisk" aria-label="dźwięk">🔊</button>
+<button id="album" class="rogPrzycisk" aria-label="album">📖</button>
 <button id="doDomu" class="rogPrzycisk" aria-label="dom">🏠</button>
 
 <div id="dom">
@@ -79,6 +124,16 @@
   <div id="karty"></div>
   <button id="graj">GRAJ</button>
 </div>
+
+<div id="albumEkran">
+  <h2>Album ciekawostek</h2>
+  <div class="licznik" id="albumLicznik"></div>
+  <div id="albumSiatka"></div>
+</div>
+<button id="albumZamknij" aria-label="zamknij">✕</button>
+<div id="kartaOpis"><div class="karta" id="kartaOpisTresc"></div></div>
+
+<div id="listek">🍃 nowa karta</div>
 
 <script>
 /* ==========================================================================
@@ -909,11 +964,12 @@
   const KOLEJNOSC = ['zwyczajna', 'duchowa', 'storczykowa'];
 
   const domyslny = {
-    wersja: 1,
+    wersja: 2,
     dzwiek: true,
     wybrana: 'zwyczajna',
     odblokowane: ['zwyczajna'],
-    ukonczone: []
+    ukonczone: [],
+    odkryte: []            // odkryte karty w albumie ciekawostek
   };
 
   function wczytaj() {
@@ -924,7 +980,8 @@
       /* dokładamy brakujące pola, gdyby format urósł */
       return Object.assign({}, domyslny, d,
         { odblokowane: d.odblokowane || domyslny.odblokowane.slice(),
-          ukonczone: d.ukonczone || [] });
+          ukonczone: d.ukonczone || [],
+          odkryte: d.odkryte || [] });
     } catch (e) {
       return Object.assign({}, domyslny);
     }
@@ -948,7 +1005,15 @@
     return nowaOdblokowana;     // nazwa nowo odblokowanej modliszki albo null
   }
 
-  globalny.Zapis = { wczytaj, zapisz, ukoncz, KOLEJNOSC };
+  /* Odkrycie karty w albumie. Zwraca true, jeśli była nowa. */
+  function odkryj(d, id) {
+    if (d.odkryte.includes(id)) return false;
+    d.odkryte.push(id);
+    zapisz(d);
+    return true;
+  }
+
+  globalny.Zapis = { wczytaj, zapisz, ukoncz, odkryj, KOLEJNOSC };
 })(window);
 
 </script>
@@ -1013,11 +1078,21 @@
     szum(0.05, 0.05 + Math.random() * 0.02, 320 + Math.random() * 120);
   }
 
-  /* złapanie i jedzenie: krótki „chrup" plus miękki, opadający ton. */
+  /* złapanie i jedzenie. Najpierw krótki „klap" chwytu, potem seria
+     miękkich chrupnięć przez około sekundę, żeby słychać było jedzenie. */
   function jedz() {
-    szum(0.09, 0.09, 900);
-    ton(520, 0.12, 'sine', 0.12, 0.02);
-    ton(360, 0.16, 'sine', 0.10, 0.10);
+    /* klap chwytu */
+    szum(0.06, 0.12, 1400, 0);
+    ton(520, 0.10, 'sine', 0.10, 0.01);
+    /* chrupanie: kilka cichych kęsów rozłożonych w czasie */
+    const kesy = 5;
+    for (let i = 0; i < kesy; i++) {
+      const t = 0.18 + i * 0.19;
+      szum(0.08, 0.06 + Math.random() * 0.03, 500 + Math.random() * 500, t);
+      ton(200 + Math.random() * 80, 0.09, 'triangle', 0.05, t + 0.01);
+    }
+    /* miękki ton sytości na końcu */
+    ton(300, 0.2, 'sine', 0.07, 0.18 + kesy * 0.19);
   }
 
   /* wzrost po najedzeniu: krótki, wesoły dzwoneczek w górę. */
@@ -1037,6 +1112,86 @@
   function odblukajBezpiecznie() { try { odblokuj(); } catch (e) {} }
 
   globalny.Dzwiek = { odblokuj, ustaw, krok, jedz, wzrost, wylinka };
+})(window);
+
+</script>
+<script>
+/* ==========================================================================
+   MANTIS, album ciekawostek (etap M6)
+   Karty odkrywają się w trakcie gry: za spotkane owady, wylinkę, każdą
+   modliszkę, skrzydła i ootekę. W grze solo nic nie zatrzymuje rozgrywki,
+   pojawia się tylko mały listek w rogu. We wspólnej grze z dorosłym album
+   daje o czym rozmawiać: każda karta ma jedno lub dwa zdania dla dorosłego.
+   ========================================================================== */
+
+(function (globalny) {
+  'use strict';
+
+  /* Definicje kart. id musi być stałe (trafia do zapisu).
+     rys: jak narysować miniaturę ('owad:typ', 'modliszka:gatunek', 'ikona:...'). */
+  const KARTY = [
+    { id: 'owad:muszka', tytul: 'Muszka owocówka', rys: 'owad:muszka',
+      fakt: 'Malutka i wszędobylska. Idealny pierwszy kąsek dla młodej modliszki.' },
+    { id: 'owad:mszyca', tytul: 'Mszyca', rys: 'owad:mszyca',
+      fakt: 'Prawie się nie rusza, siedzi na łodygach. Łatwa zdobycz.' },
+    { id: 'owad:mrowka', tytul: 'Mrówka', rys: 'owad:mrowka',
+      fakt: 'Modliszki mrówek nie jadą, bo te gryzą i bronią się kwasem. Dlatego w grze mrówki tylko chodzą.' },
+    { id: 'owad:mucha', tytul: 'Mucha domowa', rys: 'owad:mucha',
+      fakt: 'Szybka i czujna. Trzeba podejść wolno, żeby jej nie spłoszyć.' },
+    { id: 'owad:cma', tytul: 'Ćma', rys: 'owad:cma',
+      fakt: 'Lata chwiejnie i ciągnie do światła. Miękka, więc smaczna.' },
+    { id: 'owad:swierszcz', tytul: 'Świerszcz', rys: 'owad:swierszcz',
+      fakt: 'Kiedy się przestraszy, robi ogromny skok. Duży posiłek dla większej modliszki.' },
+    { id: 'owad:wazka', tytul: 'Ważka', rys: 'owad:wazka',
+      fakt: 'Najszybszy owad na planszy. Złapać ważkę potrafi tylko dorosła modliszka, i to jest nie lada wyczyn.' },
+    { id: 'modliszka:zwyczajna', tytul: 'Modliszka zwyczajna', lac: 'Mantis religiosa', rys: 'modliszka:zwyczajna',
+      fakt: 'Żyje także w Polsce i jest pod ochroną. Pod odnóżem ma czarną plamkę jak oko, którą straszy.' },
+    { id: 'modliszka:duchowa', tytul: 'Modliszka duchowa', lac: 'Phyllocrania paradoxa', rys: 'modliszka:duchowa',
+      fakt: 'Wygląda jak zeschły liść i kołysze się na wietrze. Stojąc nieruchomo jest prawie niewidzialna.' },
+    { id: 'modliszka:storczykowa', tytul: 'Modliszka storczykowa', lac: 'Hymenopus coronatus', rys: 'modliszka:storczykowa',
+      fakt: 'Wygląda jak kwiat i wabi owady lepiej niż prawdziwe kwiaty. Młoda udaje mrówkę, żeby jej nie zjedzono.' },
+    { id: 'ikona:glowa', tytul: 'Ruchoma głowa', rys: 'ikona:glowa',
+      fakt: 'Modliszka jako jedyny owad obraca głowę prawie dookoła i patrzy wprost na ciebie.' },
+    { id: 'ikona:atak', tytul: 'Błyskawiczny chwyt', rys: 'ikona:atak',
+      fakt: 'Uderzenie odnóży trwa krócej niż mrugnięcie oka, około pięć setnych sekundy. W grze jest zwolnione, żeby dało się je zobaczyć.' },
+    { id: 'ikona:wylinka', tytul: 'Wylinka', rys: 'ikona:wylinka',
+      fakt: 'Żeby urosnąć, modliszka zrzuca starą skórę. Robi to wisząc głową w dół, bo grawitacja pomaga jej wyjść.' },
+    { id: 'ikona:skrzydla', tytul: 'Skrzydła', rys: 'ikona:skrzydla',
+      fakt: 'Skrzydła pojawiają się dopiero po ostatniej wylince, u dorosłej modliszki. Wychodzą zmięte i prostują się przez chwilę.' },
+    { id: 'ikona:ooteka', tytul: 'Ooteka', rys: 'ikona:ooteka',
+      fakt: 'Dorosła samica składa kokon z pianki, która twardnieje. Wychodzą z niego dziesiątki maleńkich modliszek.' }
+  ];
+
+  function karta(id) { return KARTY.find(k => k.id === id); }
+
+  /* Rysuje miniaturę karty na podanym canvasie. */
+  function rysujMini(canvas, def, odkryta) {
+    const c = canvas.getContext('2d');
+    c.clearRect(0, 0, canvas.width, canvas.height);
+    const W = canvas.width, H = canvas.height;
+    if (def.rys.startsWith('owad:')) {
+      const typ = def.rys.slice(5);
+      globalny.Owad.rysuj(c, { x: W / 2, y: H / 2 + 6, typ, faza: 1.2, kierunek: 1, naZiemi: false, rozmiar: 90 });
+    } else if (def.rys.startsWith('modliszka:')) {
+      const g = def.rys.slice(10);
+      globalny.Modliszka.rysuj(c, { x: W / 2, y: H - 14, dlugosc: 120, stadium: 8, gatunek: g, kierunek: 1, cien: false,
+        poza: { kolysanie: 0, rozlozoneOdnoza: 0.25, krok: 0, intensywnosc: 0 } });
+    } else {
+      /* ikony pojęć: prosty symbol */
+      c.fillStyle = '#6e9a33'; c.font = '600 44px system-ui'; c.textAlign = 'center'; c.textBaseline = 'middle';
+      const znak = { 'ikona:glowa': '👁️', 'ikona:atak': '⚡', 'ikona:wylinka': '🍃', 'ikona:skrzydla': '🦋', 'ikona:ooteka': '🥚' }[def.rys] || '⭐';
+      c.fillText(znak, W / 2, H / 2);
+    }
+    if (!odkryta) {
+      c.globalCompositeOperation = 'source-atop';
+      c.fillStyle = 'rgba(40,50,30,0.9)'; c.fillRect(0, 0, W, H);
+      c.globalCompositeOperation = 'source-over';
+      c.fillStyle = 'rgba(80,100,60,0.5)'; c.font = '40px system-ui'; c.textAlign = 'center'; c.textBaseline = 'middle';
+      c.fillText('?', W / 2, H / 2);
+    }
+  }
+
+  globalny.Album = { KARTY, karta, rysujMini };
 })(window);
 
 </script>
@@ -1430,13 +1585,14 @@
   function rozpocznijOoteke() {
     const m = stan.modliszka;
     stan.ooteka = { x: m.x + m.kierunek * 40, y: gruntY - m.dlugosc * 0.9, t: 0, male: [] };
+    karta('ikona:ooteka');
     m.cel = null; m.owadCel = null;
   }
   function aktualizujOoteke(dt) {
     const o = stan.ooteka; o.t += dt;
     if (o.t > 6 && o.male.length === 0) {
       for (let i = 0; i < 12; i++) {
-        o.male.push({ x: o.x, y: o.y + 20, vx: (Math.random() - 0.5) * 90, faza: Math.random() * 6, zyc: 0 });
+        o.male.push({ x: o.x + (Math.random()-0.5)*40, y: o.y + 20, vx: (Math.random() - 0.5) * 120, faza: Math.random() * 6, zyc: 0 });
       }
     }
     o.male.forEach(mm => { mm.zyc += dt; mm.x += mm.vx * dt; mm.faza += dt; });
@@ -1448,6 +1604,7 @@
     iskra(glowaX(m), gruntY - m.dlugosc * 0.4);
     const t = Owad.TYPY[o.typ];
     m.food += t.pozywienie;
+    karta('owad:' + o.typ); karta('ikona:atak');
     if (dzwiek) dzwiek('jedz');
     const potrzeba = STADIA[m.stadiumIdx].food;
     if (potrzeba > 0 && m.food >= potrzeba) rozpocznijWylinke();
@@ -1480,6 +1637,7 @@
       m.food = 0;
       const st = STADIA[m.stadiumIdx];
       m.dlugoscCel = st.dl; m.zoomCel = st.zoom;
+      karta('ikona:wylinka');
       if (dzwiek) dzwiek('wzrost');
     }
     /* kamera i zoom dojeżdżają dopiero pod koniec, przy odsłonięciu */
@@ -1493,6 +1651,7 @@
       stan.wylinka = 1;
       if (m.finalowa) {
         stan.faza = 'zwyciestwo'; stan.zwyc = 0;
+        karta('ikona:skrzydla');
         if (onUkonczono) onUkonczono(m.gatunek);   // zapis i odblokowanie następnej
       } else { stan.faza = 'gra'; m.dlugosc = m.dlugoscCel; m.zoom = m.zoomCel; }
     }
@@ -1717,7 +1876,7 @@
     /* maleństwa L1 */
     o.male.forEach(mm => {
       ctx.globalAlpha = Math.min(1, mm.zyc * 2);
-      Modliszka.rysuj(ctx, { x: mm.x, y: gruntY, dlugosc: 26, stadium: 1,
+      Modliszka.rysuj(ctx, { x: mm.x, y: gruntY, dlugosc: 46, stadium: 1,
         gatunek: stan.modliszka.gatunek, kierunek: mm.vx >= 0 ? 1 : -1,
         poza: { krok: mm.faza, intensywnosc: 1, kolysanie: 0, rozlozoneOdnoza: 0.2 } });
     });
@@ -1879,7 +2038,8 @@
   }
 
   /* --- publiczne API dla menu (M4) ------------------------------------- */
-  let onUkonczono = null;
+  let onUkonczono = null, onKarta = null;
+  function karta(id) { if (onKarta) onKarta(id); }
   function startGry(gatunek) {
     const m = stan.modliszka;
     m.gatunek = gatunek || 'zwyczajna';
@@ -1891,6 +2051,7 @@
     stan.wylinka = 0; stan.zwyc = 0; stan.wolneCzas = 0; stan.konfetti = []; stan.ooteka = null;
     stan.iskry = [];
     stan.faza = 'gra';
+    karta('modliszka:' + m.gatunek); karta('ikona:glowa');
     stan.swiatKey = SWIAT_GATUNKU[m.gatunek] || 'laka';
     przygotujTlo(stan.swiatKey);      // tło pod dany gatunek
     zasiejCzasteczki();
@@ -1947,6 +2108,7 @@
     start: startGry,
     doMenu: () => { stan.faza = 'menu'; },
     naUkonczenie: (cb) => { onUkonczono = cb; },
+    naKarta: (cb) => { onKarta = cb; },
     ustawDzwiek: (wl) => { stan.dzwiekWl = wl; if (globalThis.Dzwiek) globalThis.Dzwiek.ustaw(wl); },
     faza: () => stan.faza,
     stan: stan
@@ -2060,15 +2222,18 @@
   odswiezDzwiek();
 
   /* --- start i powrót -------------------------------------------------- */
+  const elAlbumBtn = document.getElementById('album');
   function pokazDom() {
     elDom.classList.remove('ukryty');
     elDoDomu.style.display = 'none';
+    elAlbumBtn.style.display = 'flex';
     MantisGra.doMenu();
     budujKarty();
   }
   function graj() {
     elDom.classList.add('ukryty');
     elDoDomu.style.display = 'flex';
+    elAlbumBtn.style.display = 'none';
     MantisGra.start(wybrana);
   }
   elGraj.addEventListener('click', graj);
@@ -2077,12 +2242,68 @@
   /* po ukończeniu gatunku: zapis, odblokowanie następnego */
   MantisGra.naUkonczenie((gat) => {
     const nowa = Zapis.ukoncz(dane, gat);
-    /* karta odświeży się przy powrocie do domu; nowa modliszka będzie
-       wtedy odblokowana i podświetli się jako świeżo dostępna */
     dane._nowoOdblokowana = nowa;
+  });
+
+  /* --- album ciekawostek ---------------------------------------------- */
+  const elAlbumEkran = document.getElementById('albumEkran');
+  const elAlbumSiatka = document.getElementById('albumSiatka');
+  const elAlbumLicznik = document.getElementById('albumLicznik');
+  const elAlbumZamknij = document.getElementById('albumZamknij');
+  const elKartaOpis = document.getElementById('kartaOpis');
+  const elKartaOpisTresc = document.getElementById('kartaOpisTresc');
+  const elListek = document.getElementById('listek');
+
+  function budujAlbum() {
+    elAlbumSiatka.innerHTML = '';
+    const odkryte = dane.odkryte.length, wszystkie = Album.KARTY.length;
+    elAlbumLicznik.textContent = odkryte + ' z ' + wszystkie + ' kart';
+    Album.KARTY.forEach(def => {
+      const jest = dane.odkryte.includes(def.id);
+      const k = document.createElement('div'); k.className = 'albKarta';
+      const cv = document.createElement('canvas'); cv.width = 130; cv.height = 100;
+      k.appendChild(cv);
+      const t = document.createElement('div'); t.className = 't';
+      t.textContent = jest ? def.tytul : '???';
+      k.appendChild(t);
+      elAlbumSiatka.appendChild(k);
+      Album.rysujMini(cv, def, jest);
+      if (jest) k.addEventListener('click', () => pokazKarte(def));
+    });
+  }
+  function pokazKarte(def) {
+    elKartaOpisTresc.innerHTML = '';
+    const cv = document.createElement('canvas'); cv.width = 260; cv.height = 190;
+    elKartaOpisTresc.appendChild(cv);
+    Album.rysujMini(cv, def, true);
+    const t = document.createElement('div'); t.className = 't'; t.textContent = def.tytul;
+    elKartaOpisTresc.appendChild(t);
+    if (def.lac) { const l = document.createElement('div'); l.className = 'lac'; l.textContent = def.lac; elKartaOpisTresc.appendChild(l); }
+    const f = document.createElement('div'); f.className = 'f'; f.textContent = def.fakt;
+    elKartaOpisTresc.appendChild(f);
+    elKartaOpis.classList.add('pokaz');
+  }
+  function otworzAlbum() { budujAlbum(); elAlbumEkran.classList.add('pokaz'); elAlbumZamknij.classList.add('pokaz'); }
+  function zamknijAlbum() { elAlbumEkran.classList.remove('pokaz'); elAlbumZamknij.classList.remove('pokaz'); }
+  elAlbumBtn.addEventListener('click', otworzAlbum);
+  elAlbumZamknij.addEventListener('click', zamknijAlbum);
+  elKartaOpis.addEventListener('click', () => elKartaOpis.classList.remove('pokaz'));
+
+  /* odkrycie karty w trakcie gry: zapis plus mały listek w rogu, gra się
+     nie zatrzymuje */
+  let listekTimer = null;
+  MantisGra.naKarta((id) => {
+    const nowa = Zapis.odkryj(dane, id);
+    if (!nowa) return;
+    const def = Album.karta(id);
+    elListek.textContent = '🍃 ' + (def ? def.tytul : 'nowa karta');
+    elListek.classList.add('pokaz');
+    clearTimeout(listekTimer);
+    listekTimer = setTimeout(() => elListek.classList.remove('pokaz'), 2200);
   });
 })();
 
 </script>
+
 </body>
 </html>

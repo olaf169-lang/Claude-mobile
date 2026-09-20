@@ -12,11 +12,12 @@
   const KOLEJNOSC = ['zwyczajna', 'duchowa', 'storczykowa'];
 
   const domyslny = {
-    wersja: 1,
+    wersja: 2,
     dzwiek: true,
     wybrana: 'zwyczajna',
     odblokowane: ['zwyczajna'],
-    ukonczone: []
+    ukonczone: [],
+    odkryte: []            // odkryte karty w albumie ciekawostek
   };
 
   function wczytaj() {
@@ -27,7 +28,8 @@
       /* dokładamy brakujące pola, gdyby format urósł */
       return Object.assign({}, domyslny, d,
         { odblokowane: d.odblokowane || domyslny.odblokowane.slice(),
-          ukonczone: d.ukonczone || [] });
+          ukonczone: d.ukonczone || [],
+          odkryte: d.odkryte || [] });
     } catch (e) {
       return Object.assign({}, domyslny);
     }
@@ -51,5 +53,13 @@
     return nowaOdblokowana;     // nazwa nowo odblokowanej modliszki albo null
   }
 
-  globalny.Zapis = { wczytaj, zapisz, ukoncz, KOLEJNOSC };
+  /* Odkrycie karty w albumie. Zwraca true, jeśli była nowa. */
+  function odkryj(d, id) {
+    if (d.odkryte.includes(id)) return false;
+    d.odkryte.push(id);
+    zapisz(d);
+    return true;
+  }
+
+  globalny.Zapis = { wczytaj, zapisz, ukoncz, odkryj, KOLEJNOSC };
 })(window);

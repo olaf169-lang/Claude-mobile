@@ -58,11 +58,21 @@
     szum(0.05, 0.05 + Math.random() * 0.02, 320 + Math.random() * 120);
   }
 
-  /* złapanie i jedzenie: krótki „chrup" plus miękki, opadający ton. */
+  /* złapanie i jedzenie. Najpierw krótki „klap" chwytu, potem seria
+     miękkich chrupnięć przez około sekundę, żeby słychać było jedzenie. */
   function jedz() {
-    szum(0.09, 0.09, 900);
-    ton(520, 0.12, 'sine', 0.12, 0.02);
-    ton(360, 0.16, 'sine', 0.10, 0.10);
+    /* klap chwytu */
+    szum(0.06, 0.12, 1400, 0);
+    ton(520, 0.10, 'sine', 0.10, 0.01);
+    /* chrupanie: kilka cichych kęsów rozłożonych w czasie */
+    const kesy = 5;
+    for (let i = 0; i < kesy; i++) {
+      const t = 0.18 + i * 0.19;
+      szum(0.08, 0.06 + Math.random() * 0.03, 500 + Math.random() * 500, t);
+      ton(200 + Math.random() * 80, 0.09, 'triangle', 0.05, t + 0.01);
+    }
+    /* miękki ton sytości na końcu */
+    ton(300, 0.2, 'sine', 0.07, 0.18 + kesy * 0.19);
   }
 
   /* wzrost po najedzeniu: krótki, wesoły dzwoneczek w górę. */
