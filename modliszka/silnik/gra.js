@@ -35,13 +35,13 @@
      rośnie, podczas gdy zoom maleje, więc świat kurczy się względem
      modliszki. To daje odczucie wzrostu mocniej niż samo powiększenie. */
   const STADIA = [
-    { food: 2, dl: 90,  zoom: 1.040 },
-    { food: 2, dl: 106, zoom: 0.960 },
-    { food: 2, dl: 124, zoom: 0.880 },
-    { food: 3, dl: 146, zoom: 0.800 },
-    { food: 3, dl: 172, zoom: 0.720 },
-    { food: 4, dl: 205, zoom: 0.640 },
-    { food: 4, dl: 240, zoom: 0.576 },
+    { food: 3, dl: 90,  zoom: 1.040 },
+    { food: 4, dl: 106, zoom: 0.960 },
+    { food: 4, dl: 124, zoom: 0.880 },
+    { food: 5, dl: 146, zoom: 0.800 },
+    { food: 5, dl: 172, zoom: 0.720 },
+    { food: 6, dl: 205, zoom: 0.640 },
+    { food: 6, dl: 240, zoom: 0.576 },
     { food: 0, dl: 285, zoom: 0.512 }   // L8 dorosła, koniec wzrostu
   ];
 
@@ -243,7 +243,7 @@
     if (naj) { m.owadCel = naj; m.cel = naj.x; }
     else { m.owadCel = null; m.cel = p.x; }
   }
-  function start(x, y) { wcisniete = true; celuj(x, y); }
+  function start(x, y) { wcisniete = true; if (globalThis.Dzwiek) globalThis.Dzwiek.odblokuj(); celuj(x, y); }
   function ruch(x, y) { if (wcisniete) celuj(x, y); }
   function koniec() { wcisniete = false; }
 
@@ -301,7 +301,9 @@
       if (t.czujnosc > 0 && o.zyje && !o.ucieka && o !== m.owadCel) {
         const d = Math.abs(o.x - glowaX(m));
         const prog = (m.gatunek === 'duchowa') ? SKRADANIE * 2 + 6 : SKRADANIE + 6;
-        if (m.predkosc > prog && d < t.czujnosc * 130) sploszenie(o);
+        /* im wyższe stadium, tym owady czujniejsze: promień rośnie z L */
+        const stMnoznik = 1 + (m.stadium - 1) * 0.12;    // L1 x1.0 ... L8 x1.84
+        if (m.predkosc > prog && d < t.czujnosc * 130 * stMnoznik) sploszenie(o);
       }
       /* wabienie: modliszka storczykowa stojąc nieruchomo przyciąga
          latające owady, bo wygląda i wabi jak kwiat. */
@@ -330,9 +332,12 @@
     if (m.atak > 0 || m.je > 0) m.predkosc *= (1 - Math.min(1, dt * 10));
     m.x += m.kierunek * m.predkosc * dt;
     m.x = Math.max(60, Math.min(SWIAT_SZER - 60, m.x));
+    const krokPrzed = m.krok;
     m.krok += (m.predkosc * dt) / 34;
     m.intensywnosc = Math.min(1, m.predkosc / 42);
     m.kolysanieFaza += dt * (1.1 + m.predkosc * 0.01);
+    /* stąpnięcie przy każdym półkroku, jeśli modliszka rzeczywiście idzie */
+    if (m.intensywnosc > 0.25 && Math.floor(krokPrzed * 2) !== Math.floor(m.krok * 2)) dzwiek('krok');
 
     /* atak */
     if (m.atak > 0) {
@@ -616,6 +621,16 @@
       }
       m.katGlowyWyg += (katG - m.katGlowyWyg) * Math.min(1, 0.15);
 
+      /* poświata pod modliszką, żeby zawsze odcinała się od tła.
+         W jasnym świecie ciemna, w ciemnych światach jasna. */
+      const halo = { laka: 'rgba(30,55,18,', sciolka: 'rgba(255,238,200,', zmierzch: 'rgba(255,240,255,' }[stan.swiatKey] || 'rgba(30,55,18,';
+      const hx = m.x, hy = gruntY - m.dlugosc * 0.32, hr = m.dlugosc * 0.85;
+      const hg = ctx.createRadialGradient(hx, hy, hr * 0.2, hx, hy, hr);
+      hg.addColorStop(0, halo + '0.34)');
+      hg.addColorStop(1, halo + '0)');
+      ctx.fillStyle = hg;
+      ctx.beginPath(); ctx.ellipse(hx, hy, hr, hr * 0.9, 0, 0, 7); ctx.fill();
+
       const dorosla = m.stadium >= STADIA.length;
       const skrzydlaRoz = dorosla && (stan.faza === 'zwyciestwo' || stan.faza === 'wolne');
       Modliszka.rysuj(ctx, {
@@ -777,8 +792,11 @@
     c.closePath();
   }
 
-  /* --- dźwięk (zaślepka do M5) ---------------------------------------- */
-  let dzwiek = null;
+  /* --- dźwięk ---------------------------------------------------------- */
+  stan.dzwiekWl = true;
+  function dzwiek(co) {
+    if (stan.dzwiekWl && globalThis.Dzwiek && globalThis.Dzwiek[co]) globalThis.Dzwiek[co]();
+  }
 
   /* --- pętla ---------------------------------------------------------- */
   let ostatni = 0;
@@ -886,7 +904,7 @@
     start: startGry,
     doMenu: () => { stan.faza = 'menu'; },
     naUkonczenie: (cb) => { onUkonczono = cb; },
-    ustawDzwiek: (wl) => { stan.dzwiekWl = wl; },
+    ustawDzwiek: (wl) => { stan.dzwiekWl = wl; if (globalThis.Dzwiek) globalThis.Dzwiek.ustaw(wl); },
     faza: () => stan.faza,
     stan: stan
   };

@@ -29,28 +29,31 @@
       dalekieKwiaty: ['rgba(255,200,120,0.55)', 'rgba(240,150,190,0.5)', 'rgba(200,170,240,0.5)', 'rgba(255,235,140,0.6)'],
       czasteczki: 'pylki', rosa: true
     },
-    sciolka: {        // modliszka duchowa: sucha ściółka jesienią
-      niebo: ['#f6e6c0', '#e8cf9a', '#c99a63', '#8a6238'],
-      slonce: 'rgba(255,226,160,', slonceX: 0.7, slonceY: 0.14,
+    sciolka: {        // modliszka duchowa: sucha ściółka jesienią, tło ciemne
+                      // i chłodne, żeby jasna brązowa modliszka mocno wybijała
+      niebo: ['#e6d6b0', '#b89a6a', '#6e5236', '#3a2c1c'],
+      slonce: 'rgba(255,216,150,', slonceX: 0.72, slonceY: 0.12,
       promienie: true,
-      daleko: 'rgba(180,140,90,0.7)', srednio: 'rgba(150,108,64,0.9)', lodyga: 'rgba(120,86,50,0.95)',
-      grunt: ['rgba(150,110,60,0.0)', 'rgba(120,84,46,0.6)', 'rgba(86,58,32,0.9)'],
-      gruntZdzblo: 'rgba(120,84,46,0.85)',
-      lisc: ['#d8b877', '#b8894e', '#8a5f34'],
-      kwiaty: [[0.16, 0.55, '#e08a4a', '#ffcf6a', 6], [0.85, 0.64, '#c96a3a', '#ffb35a', 5]],
-      dalekieKwiaty: ['rgba(230,150,80,0.5)', 'rgba(200,120,60,0.5)', 'rgba(240,190,100,0.55)'],
+      daleko: 'rgba(120,96,66,0.7)', srednio: 'rgba(92,72,48,0.92)', lodyga: 'rgba(70,52,34,0.95)',
+      grunt: ['rgba(70,54,34,0.0)', 'rgba(58,42,26,0.7)', 'rgba(34,24,15,0.95)'],
+      gruntZdzblo: 'rgba(70,52,34,0.9)',
+      lisc: ['#8a6a3e', '#6a4e2c', '#48331d'],
+      kwiaty: [[0.16, 0.55, '#e8843a', '#ffd06a', 6], [0.85, 0.64, '#d0662e', '#ffb35a', 5]],
+      dalekieKwiaty: ['rgba(230,140,70,0.55)', 'rgba(255,180,90,0.5)', 'rgba(255,205,110,0.5)'],
       czasteczki: 'liscie', rosa: false
     },
-    zmierzch: {       // modliszka storczykowa: kwiat o zmierzchu
-      niebo: ['#f3d9e6', '#c9a9d6', '#8a7ab0', '#4a4a78'],
-      slonce: 'rgba(255,214,180,', slonceX: 0.3, slonceY: 0.16,
+    zmierzch: {       // modliszka storczykowa: kwiat o zmierzchu. Niebo mocno
+                      // ciemnieje ku dołowi, a liść pod modliszką jest zielony
+                      // (jak liść lilii), żeby różowa modliszka nie ginęła
+      niebo: ['#f0cfe0', '#b48fc6', '#5f5090', '#2a2450'],
+      slonce: 'rgba(255,204,170,', slonceX: 0.3, slonceY: 0.14,
       promienie: false,
-      daleko: 'rgba(150,130,170,0.6)', srednio: 'rgba(120,100,150,0.8)', lodyga: 'rgba(90,80,120,0.9)',
-      grunt: ['rgba(90,80,120,0.0)', 'rgba(70,62,100,0.55)', 'rgba(44,40,72,0.9)'],
-      gruntZdzblo: 'rgba(90,80,120,0.85)',
-      lisc: ['#f6d6e6', '#e3a6c6', '#c078a0'],
+      daleko: 'rgba(110,92,140,0.6)', srednio: 'rgba(84,70,120,0.85)', lodyga: 'rgba(60,52,92,0.92)',
+      grunt: ['rgba(60,52,92,0.0)', 'rgba(44,38,74,0.6)', 'rgba(24,20,44,0.95)'],
+      gruntZdzblo: 'rgba(60,52,92,0.9)',
+      lisc: ['#5f9a72', '#417253', '#2b4d38'],
       kwiaty: [[0.16, 0.5, '#ffd1e6', '#ffe27a', 6], [0.86, 0.6, '#e6b3ff', '#fff0a0', 6], [0.7, 0.74, '#ffc1dd', '#ffd86a', 5]],
-      dalekieKwiaty: ['rgba(255,200,230,0.5)', 'rgba(220,180,255,0.5)', 'rgba(255,230,150,0.5)'],
+      dalekieKwiaty: ['rgba(255,200,230,0.55)', 'rgba(220,180,255,0.5)', 'rgba(255,230,150,0.5)'],
       czasteczki: 'swietliki', rosa: true
     }
   };
