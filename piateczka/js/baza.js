@@ -209,19 +209,36 @@ export async function usunMecz(data, nr) {
   } catch (blad) { console.warn('Kasowanie meczu poszło do kolejki:', blad); }
 }
 
-/* Zamek, patrz zamek.js. Zamknięcie to zwykły zapis pola; odblokowanie musi
-   dodatkowo nieść skrót kodu, bo tego wymagają reguły Firestore. */
-
-export async function zamknijWieczor(data) {
-  podmienLokalnie(data, (w) => ({ ...w, zamkniety: true }));
+/* Zapisuje CAŁY bieżący wieczór (wszystkie mecze z wynikami) jednym zapisem.
+   Pojedyncze `zapiszMecz` lecą bez `await` przy każdej zmianie pola, więc przy
+   wyjściu albo zamknięciu któryś może jeszcze wisieć w locie. Zamknięcie blokuje
+   dokument, a wtedy reguły odbijają spóźniony zapis meczu i wynik przepada
+   (zgłoszony bug 2026-09-22: po zamknięciu zostawała pusta struktura). Dlatego
+   wyjście i zamknięcie wysyłają pełny stan lokalny naraz, atomowo. */
+async function wyslijPelny(data, { zamykaj = false } = {}) {
+  const biezacy = ostatnie.find((w) => w.data === data);
+  if (!biezacy) return;
   brudnyPlus(data);
   try {
     const { db, f } = await baza();
-    await f.setDoc(f.doc(db, KOLEKCJA, data),
-      { data, zamkniety: true, kod: f.deleteField(), zaktualizowano: f.serverTimestamp() },
-      { merge: true });
+    const { zaktualizowano, kod, ...pola } = biezacy;
+    const ladunek = { ...pola, data, zaktualizowano: f.serverTimestamp() };
+    if (zamykaj) { ladunek.zamkniety = true; ladunek.kod = f.deleteField(); }
+    await f.setDoc(f.doc(db, KOLEKCJA, data), ladunek, { merge: true });
     brudnyMinus(data);
-  } catch (blad) { console.warn('Zamknięcie wieczoru poszło do kolejki:', blad); }
+  } catch (blad) { console.warn('Pełny zapis wieczoru poszedł do kolejki:', blad); }
+}
+
+/** „Zapisz i wyjdź”: dosyła cały bieżący stan wieczoru, żeby nic z wpisanych
+    wyników nie zostało tylko lokalnie. */
+export async function zsynchronizuj(data) { return wyslijPelny(data); }
+
+/* Zamek, patrz zamek.js. Zamknięcie niesie cały wieczór + `zamkniety: true`
+   w jednym zapisie; odblokowanie musi dodatkowo nieść skrót kodu (reguły). */
+
+export async function zamknijWieczor(data) {
+  podmienLokalnie(data, (w) => ({ ...w, zamkniety: true }));
+  return wyslijPelny(data, { zamykaj: true });
 }
 
 export async function odblokujWieczor(data, hashKodu) {

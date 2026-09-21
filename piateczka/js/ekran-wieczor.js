@@ -491,7 +491,8 @@ function podepnij(kontener, ctx) {
     if (w) pochwalSie(w);
   });
 
-  kontener.querySelector('#zapisz-wyjdz')?.addEventListener('click', () => {
+  kontener.querySelector('#zapisz-wyjdz')?.addEventListener('click', async () => {
+    await baza.zsynchronizuj(wybranaData);
     komunikat('💾 Zapisane. Wróć tu z kalendarza, żeby dograć.');
     location.hash = '#/';
   });
