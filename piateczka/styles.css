@@ -94,6 +94,7 @@
 
 /* Karta w jasnym motywie: czysta biel bez przydymienia i odrobinę mocniejsza
    krawędź, żeby na barwnym tle była wyraźnym prostokątem, a nie plamą. */
+:root[data-motyw="jasny"] .btn-zatwierdz { color: #fff; }
 :root[data-motyw="jasny"] .karta { background: var(--plyta-pelna); }
 :root[data-motyw="jasny"] .karta::before { opacity: .5; }
 :root[data-motyw="jasny"] .hero-nazwa { color: #0B1B33; }
@@ -324,6 +325,13 @@ main {
 }
 .btn-obrys { background: transparent; border-color: var(--kreska-mocna); }
 .btn-groza { background: transparent; border-color: color-mix(in srgb, var(--czerwien) 55%, transparent); color: var(--czerwien); }
+.btn-zatwierdz {
+  background: linear-gradient(96deg, color-mix(in srgb, var(--zielen) 82%, white), var(--zielen));
+  border-color: transparent;
+  color: #06231A;
+  font-weight: 700;
+  box-shadow: 0 2px 10px color-mix(in srgb, var(--zielen) 30%, transparent);
+}
 .btn-maly { min-height: 34px; padding: 7px 12px; font-size: 13px; border-radius: 10px; }
 .szeroki { width: 100%; }
 .btn:disabled { opacity: .45; cursor: not-allowed; }

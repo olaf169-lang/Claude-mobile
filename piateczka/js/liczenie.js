@@ -199,7 +199,10 @@ export function rekordyWieczoru(wieczor, { wszyscy = false, tryb = null } = {}) 
 
   for (const mecz of mecze(wieczor, tryb)) {
     const r = wynikMeczu(mecz);
-    if (!r.rozegrany) continue;
+    // Liczą się tylko mecze DOGRANE do końca (2:0/2:1, a w formacie 1-setowym
+    // jeden set). Mecz w toku, np. 1:1 przed decydującym setem, nie dokłada ani
+    // zwycięstwa, ani punktów, dopóki się nie skończy.
+    if (!meczKompletny(mecz, wieczor)) continue;
     const granica = formatMeczu(mecz, wieczor).doIlu;
 
     // Sety rozjechane na zero: wygrane, w których rywal utknął na ośmiu punktach
@@ -438,7 +441,7 @@ export function rekordySezonu(wieczory) {
   for (const w of grane) {
     for (const mecz of mecze(w)) {
       const r = wynikMeczu(mecz);
-      if (!r.rozegrany || r.werdykt === 'remis') continue;
+      if (!meczKompletny(mecz, w) || r.werdykt === 'remis') continue;
       const roznica = Math.abs(r.roznica);
       if (!najwiekszyPogrom || roznica > najwiekszyPogrom.roznica) {
         const wygrani = r.werdykt === 'a' ? mecz.a : mecz.b;

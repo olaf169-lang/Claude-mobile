@@ -31,6 +31,11 @@ const KOPIA_WYB = 'pp:wybory-przydomkow';
 
 let bazaPromise = null;
 const sluchacze = new Set();
+// Daty z lokalnym, jeszcze niepotwierdzonym zapisem. Póki data tu siedzi,
+// migawka z serwera jej nie nadpisuje, żeby odbity zapis (np. reguły) nie
+// skasował świeżo wpisanych wyników. data -> licznik zapisów w locie; zostaje
+// >0, gdy któryś się nie udał, więc lokalna wersja przeżywa do skutku.
+const brudne = new Map();
 let ostatnie = wczytajKopie();
 let wyboryMapa = wczytajWybory();
 let stanLacza = 'laczenie';   // laczenie | online | lokalnie
@@ -96,7 +101,8 @@ async function start() {
     f.onSnapshot(
       f.query(f.collection(db, KOLEKCJA), f.orderBy('data', 'desc'), f.limit(120)),
       (migawka) => {
-        ostatnie = migawka.docs.map((d) => ({ ...d.data(), data: d.id }));
+        const serwer = migawka.docs.map((d) => ({ ...d.data(), data: d.id }));
+        ostatnie = scalZBrudnymi(serwer);
         stanLacza = migawka.metadata.fromCache ? 'lokalnie' : 'online';
         zapiszKopie(ostatnie);
         rozeslij();
@@ -130,6 +136,26 @@ async function start() {
 /* Zapisy aktualizują od razu kopię lokalną (żeby ekran zareagował natychmiast),
    a potem lecą do Firestore. Gdy nie ma sieci, SDK je zakolejkuje. */
 
+/** Migawka z serwera, ale daty z niepotwierdzonym lokalnym zapisem zostają
+    przy wersji lokalnej, żeby nie zgubić świeżych wyników. */
+function scalZBrudnymi(serwer) {
+  if (!brudne.size) return serwer;
+  const lokalne = new Map(ostatnie.map((w) => [w.data, w]));
+  const znaSerwer = new Set(serwer.map((w) => w.data));
+  const wynik = serwer.map((w) =>
+    (brudne.has(w.data) && lokalne.has(w.data) ? lokalne.get(w.data) : w));
+  for (const [data, w] of lokalne) {
+    if (brudne.has(data) && !znaSerwer.has(data)) wynik.push(w);
+  }
+  return wynik.sort((a, b) => b.data.localeCompare(a.data));
+}
+
+function brudnyPlus(data) { brudne.set(data, (brudne.get(data) ?? 0) + 1); }
+function brudnyMinus(data) {
+  const n = (brudne.get(data) ?? 1) - 1;
+  if (n > 0) brudne.set(data, n); else brudne.delete(data);
+}
+
 function podmienLokalnie(data, zmiana) {
   const i = ostatnie.findIndex((w) => w.data === data);
   const stary = i >= 0 ? ostatnie[i] : { data, mecze: {} };
@@ -142,21 +168,30 @@ function podmienLokalnie(data, zmiana) {
   return nowy;
 }
 
-export async function zapiszWieczor(data, pola) {
-  podmienLokalnie(data, (w) => ({ ...w, ...pola, data }));
+export async function zapiszWieczor(data, pola, { zastap = false } = {}) {
+  // `zastap` = pełne nadpisanie dokumentu (ustawianie meczów od nowa). Bez tego
+  // setDoc(merge) scala mapę `mecze` z poprzednią i stare mecze z wcześniejszych
+  // ustawień tego samego wieczoru zostają. Reszta zapisów (pojedynczy mecz,
+  // przełączniki) dalej scala, żeby dwie osoby mogły pisać naraz.
+  podmienLokalnie(data, (w) => (zastap ? { ...pola, data } : { ...w, ...pola, data }));
+  brudnyPlus(data);
   try {
     const { db, f } = await baza();
     await f.setDoc(f.doc(db, KOLEKCJA, data),
-      { ...pola, data, zaktualizowano: f.serverTimestamp() }, { merge: true });
+      { ...pola, data, zaktualizowano: f.serverTimestamp() },
+      zastap ? {} : { merge: true });
+    brudnyMinus(data);
   } catch (blad) { console.warn('Zapis wieczoru poszedł do kolejki:', blad); }
 }
 
 export async function zapiszMecz(data, nr, mecz) {
   podmienLokalnie(data, (w) => ({ ...w, mecze: { ...(w.mecze ?? {}), [nr]: mecz } }));
+  brudnyPlus(data);
   try {
     const { db, f } = await baza();
     await f.setDoc(f.doc(db, KOLEKCJA, data),
       { data, mecze: { [nr]: mecz }, zaktualizowano: f.serverTimestamp() }, { merge: true });
+    brudnyMinus(data);
   } catch (blad) { console.warn('Zapis meczu poszedł do kolejki:', blad); }
 }
 
@@ -166,9 +201,11 @@ export async function usunMecz(data, nr) {
     delete m[nr];
     return { ...w, mecze: m };
   });
+  brudnyPlus(data);
   try {
     const { db, f } = await baza();
     await f.updateDoc(f.doc(db, KOLEKCJA, data), { [`mecze.${nr}`]: f.deleteField() });
+    brudnyMinus(data);
   } catch (blad) { console.warn('Kasowanie meczu poszło do kolejki:', blad); }
 }
 
@@ -177,25 +214,30 @@ export async function usunMecz(data, nr) {
 
 export async function zamknijWieczor(data) {
   podmienLokalnie(data, (w) => ({ ...w, zamkniety: true }));
+  brudnyPlus(data);
   try {
     const { db, f } = await baza();
     await f.setDoc(f.doc(db, KOLEKCJA, data),
       { data, zamkniety: true, kod: f.deleteField(), zaktualizowano: f.serverTimestamp() },
       { merge: true });
+    brudnyMinus(data);
   } catch (blad) { console.warn('Zamknięcie wieczoru poszło do kolejki:', blad); }
 }
 
 export async function odblokujWieczor(data, hashKodu) {
   podmienLokalnie(data, (w) => ({ ...w, zamkniety: false }));
+  brudnyPlus(data);
   try {
     const { db, f } = await baza();
     await f.setDoc(f.doc(db, KOLEKCJA, data),
       { data, zamkniety: false, kod: hashKodu, zaktualizowano: f.serverTimestamp() },
       { merge: true });
+    brudnyMinus(data);
   } catch (blad) { console.warn('Odblokowanie wieczoru poszło do kolejki:', blad); }
 }
 
 export async function usunWieczor(data) {
+  brudne.delete(data);   // kasujemy: nie chronimy już lokalnej wersji
   ostatnie = ostatnie.filter((w) => w.data !== data);
   zapiszKopie(ostatnie);
   rozeslij();

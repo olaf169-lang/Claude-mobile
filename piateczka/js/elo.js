@@ -18,7 +18,7 @@
    ========================================================================== */
 
 import { GRACZE } from './dane.js';
-import { mecze, wynikMeczu, trybMeczu } from './liczenie.js';
+import { mecze, wynikMeczu, meczKompletny, trybMeczu } from './liczenie.js';
 
 export const START = 1000;
 export const K = 24;
@@ -62,7 +62,7 @@ export function przelicz(wieczory, tryb = 'debel') {
     for (const mecz of mecze(w)) {
       if (trybMeczu(mecz) !== tryb) continue;
       const r = wynikMeczu(mecz);
-      if (!r.rozegrany) continue;
+      if (!meczKompletny(mecz, w)) continue;   // tylko mecze dograne do końca
       // Mecz z kimkolwiek spoza czwórki nie rusza ratingu, patrz nagłówek.
       if (![...mecz.a, ...mecz.b].every((id) => id in rating)) continue;
 
