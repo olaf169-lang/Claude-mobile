@@ -66,6 +66,15 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
 - **Jedna definicja wygranej meczu** (sety, przy remisie różnica punktów)
   obowiązuje w tabeli, MVP i ELO. Jak ją zmieniasz, zmieniasz
   w `wynikMeczu()` i już.
+- **Liczą się TYLKO mecze dograne do końca** (`meczKompletny`), nie sam fakt
+  wpisania seta (`rozegrany`). Mecz w toku, np. 1:1 przed decydującym setem,
+  nie dokłada zwycięstwa, punktów ani setów, dopóki się nie skończy. Bramka
+  siedzi w `rekordyWieczoru` (tabela, MVP, statystyki), w `elo.js` i w pogromie
+  z `rekordySezonu`. Zgłoszony bug 2026-09-21: wynik 1:1 z przewagą punktową
+  liczył się jako wygrana (Piąteczka 3 W zamiast 2). `wynikMeczu().werdykt`
+  dalej liczy się na bieżąco tylko do PODGLĄDU karty meczu, nie do statystyk.
+  Karta zapisu liczy `zakonczone`, nie `rozegrane`, i ostrzega, że mecz w toku
+  się nie policzy.
 - **Sezon startuje 2026-09-15** (pierwszy wtorek), nie w październiku, decyzja
   użytkownika 2026-09-14, chcą grać od razu. `SEZON.pierwszy` w `dane.js`.
 - **Tytuł (Big Boss + odznaka) po JEDNYM wtorku.** `MIN_WIECZOROW_NA_TYTUL = 1`
@@ -122,6 +131,15 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
   Swędem" jako jeden ciągły kształt wyszedł żółwiem. Czytelny jest dopiero
   z kółka-łba, kufy-klina, walca-tułowia i czterech nóg osobno, wtedy widać
   szyję i opuszczony łeb (czyli węszenie).
+- **Migawka z serwera nie kasuje lokalnych, niepotwierdzonych zapisów.**
+  `baza.js` trzyma `brudne` (mapa data -> licznik zapisów w locie). Każdy zapis
+  robi `brudnyPlus`, a `brudnyMinus` dopiero po potwierdzeniu z Firestore; gdy
+  zapis się odbije (np. reguły), licznik zostaje i data jest chroniona. W
+  `onSnapshot` `scalZBrudnymi` dla brudnych dat zostawia wersję lokalną zamiast
+  serwerowej. Bez tego świeżo wpisane wyniki znikały: zapis leciał do kolejki,
+  a kolejna migawka nadpisywała `ostatnie` i localStorage pustym dokumentem
+  (zgłoszony bug 2026-09-21, „wieczór Zaczęty, brak wyników"). To ratuje
+  utratę w obrębie sesji; po reloadzie chroni tyle, ile jest w localStorage.
 - **Ustawianie meczów NADPISUJE dokument, reszta zapisów SCALA.** `zapiszWieczor`
   ma flagę `{ zastap: true }`: `setDoc` bez `merge`, pełne nadpisanie. Używa jej
   tylko „Zatwierdź skład” (`#ustaw-mecze`). Bez tego `setDoc(merge)` scalał mapę

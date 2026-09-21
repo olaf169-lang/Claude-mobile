@@ -318,6 +318,7 @@ function kartaPodsumowania(wieczor) {
 function kartaZapisu(wieczor, zamek) {
   const lista = meczeZ(wieczor);
   const rozegrane = lista.filter((m) => wynikMeczu(m).rozegrany);
+  const zakonczone = lista.filter((m) => meczKompletny(m, wieczor));
   const niedokonczone = rozegrane.filter((m) => !meczKompletny(m, wieczor));
 
   if (zamek) {
@@ -330,16 +331,18 @@ function kartaZapisu(wieczor, zamek) {
 
   return `<section class="karta karta-zapis">
     ${naglowekZPomoca('Koniec grania?', 'zamykanie')}
-    ${rozegrane.length === 0
-      ? '<p class="wskazowka">Wpiszcie choć jeden wynik.</p>'
-      : `<p class="wskazowka">Wyniki zapisują się same. Możesz wyjść i wrócić tu z kalendarza,
-          żeby dograć resztę.</p>
+    ${zakonczone.length === 0
+      ? '<p class="wskazowka">Dograjcie choć jeden mecz do końca, żeby było co liczyć.</p>'
+      : `<p class="wskazowka">Wyniki zapisują się same. Liczą się tylko mecze dograne do końca.
+          Możesz wyjść i wrócić tu z kalendarza, żeby dokończyć resztę.</p>
         <button class="btn btn-zatwierdz szeroki" type="button" id="zatwierdz-wieczor">
-          🔒 Zatwierdź i zamknij (${rozegrane.length} ${odmianaMeczow(rozegrane.length)})</button>
+          🔒 Zatwierdź i zamknij (${zakonczone.length} ${odmianaMeczow(zakonczone.length)})</button>
         <button class="btn btn-obrys szeroki" type="button" id="zapisz-wyjdz" style="margin-top:8px">💾 Zapisz i wyjdź</button>
         ${niedokonczone.length ? `<p class="wskazowka ostrzezenie-tekst">
-          ${niedokonczone.length === 1 ? 'Jeden mecz nie jest dograny' : `${niedokonczone.length} mecze nie są dograne`}.
-          Zatwierdzenie policzy je z tego, co jest.</p>` : ''}`}
+          ${niedokonczone.length === 1
+            ? 'Jeden mecz jest w toku i nie liczy się do wyniku, dopóki go nie dograsz'
+            : `${niedokonczone.length} mecze są w toku i nie liczą się do wyniku, dopóki ich nie dograsz`}.
+          Zamknięcie nic w nich nie policzy.</p>` : ''}`}
         <button class="btn btn-groza szeroki" type="button" id="usun-wieczor"
       style="margin-top:14px">Usuń cały wieczór</button>
   </section>`;
