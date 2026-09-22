@@ -101,7 +101,7 @@ async function start() {
     f.onSnapshot(
       f.query(f.collection(db, KOLEKCJA), f.orderBy('data', 'desc'), f.limit(120)),
       (migawka) => {
-        const serwer = migawka.docs.map((d) => ({ ...d.data(), data: d.id }));
+        const serwer = migawka.docs.map(wieczorZBazy);
         ostatnie = scalZBrudnymi(serwer);
         stanLacza = migawka.metadata.fromCache ? 'lokalnie' : 'online';
         zapiszKopie(ostatnie);
@@ -150,6 +150,54 @@ function scalZBrudnymi(serwer) {
   return wynik.sort((a, b) => b.data.localeCompare(a.data));
 }
 
+/* ------------------------------------------------ kształt setów a Firestore
+
+   Firestore NIE przyjmuje tablicy wewnątrz tablicy, a set trzymamy w apce jako
+   `[a, b]`, czyli `sety` to tablica tablic. Każdy zapis meczu Z WYNIKIEM leciał
+   więc wyjątkiem jeszcze w SDK, zanim cokolwiek poszło na serwer, i ginął
+   w `catch`. Do bazy zapisywała się tylko pusta struktura (`sety: []`) i zamek,
+   dlatego po restarcie apki wyniki znikały (zgłoszony bug 2026-09-22).
+
+   Dlatego na granicy bazy tłumaczymy kształt: do Firestore `[{a, b}]`, z powrotem
+   `[[a, b]]`. Reszta aplikacji i kopia w localStorage zostają przy `[a, b]`. */
+
+export function setyDoBazy(sety) {
+  if (!Array.isArray(sety)) return [];
+  return sety.map((s) => (Array.isArray(s) ? { a: s[0] ?? null, b: s[1] ?? null } : s));
+}
+
+export function setyZBazy(sety) {
+  if (!Array.isArray(sety)) return [];
+  return sety.map((s) => (Array.isArray(s) ? s : [s?.a ?? null, s?.b ?? null]));
+}
+
+const meczDoBazy = (m) => (m && typeof m === 'object' ? { ...m, sety: setyDoBazy(m.sety) } : m);
+const meczZBazy = (m) => (m && typeof m === 'object' ? { ...m, sety: setyZBazy(m.sety) } : m);
+
+function mapujMecze(mecze, konwerter) {
+  const wynik = {};
+  for (const [klucz, m] of Object.entries(mecze ?? {})) wynik[klucz] = konwerter(m);
+  return wynik;
+}
+
+/** Pola wieczoru gotowe do zapisu: sama mapa `mecze` dostaje bezpieczne sety. */
+export const polaDoBazy = (pola) =>
+  ('mecze' in (pola ?? {}) ? { ...pola, mecze: mapujMecze(pola.mecze, meczDoBazy) } : pola);
+
+/** Dokument z Firestore z powrotem w kształcie, jakiego używa cała apka. */
+const wieczorZBazy = (d) => {
+  const dane = d.data() ?? {};
+  return { ...dane, mecze: mapujMecze(dane.mecze, meczZBazy), data: d.id };
+};
+
+/** Zapis nie przeszedł: kropka łącza ma to pokazać, zamiast cicho udawać, że
+    wszystko poszło. Data zostaje brudna, więc migawka nie zdepcze lokalnych wyników. */
+function zapisPadl(blad, co) {
+  console.warn(`${co} nie przeszedł do Firestore:`, blad);
+  stanLacza = 'lokalnie';
+  rozeslij();
+}
+
 function brudnyPlus(data) { brudne.set(data, (brudne.get(data) ?? 0) + 1); }
 function brudnyMinus(data) {
   const n = (brudne.get(data) ?? 1) - 1;
@@ -178,10 +226,10 @@ export async function zapiszWieczor(data, pola, { zastap = false } = {}) {
   try {
     const { db, f } = await baza();
     await f.setDoc(f.doc(db, KOLEKCJA, data),
-      { ...pola, data, zaktualizowano: f.serverTimestamp() },
+      { ...polaDoBazy(pola), data, zaktualizowano: f.serverTimestamp() },
       zastap ? {} : { merge: true });
     brudnyMinus(data);
-  } catch (blad) { console.warn('Zapis wieczoru poszedł do kolejki:', blad); }
+  } catch (blad) { zapisPadl(blad, 'Zapis wieczoru'); }
 }
 
 export async function zapiszMecz(data, nr, mecz) {
@@ -190,9 +238,10 @@ export async function zapiszMecz(data, nr, mecz) {
   try {
     const { db, f } = await baza();
     await f.setDoc(f.doc(db, KOLEKCJA, data),
-      { data, mecze: { [nr]: mecz }, zaktualizowano: f.serverTimestamp() }, { merge: true });
+      { data, mecze: { [nr]: meczDoBazy(mecz) }, zaktualizowano: f.serverTimestamp() },
+      { merge: true });
     brudnyMinus(data);
-  } catch (blad) { console.warn('Zapis meczu poszedł do kolejki:', blad); }
+  } catch (blad) { zapisPadl(blad, 'Zapis meczu'); }
 }
 
 export async function usunMecz(data, nr) {
@@ -206,7 +255,7 @@ export async function usunMecz(data, nr) {
     const { db, f } = await baza();
     await f.updateDoc(f.doc(db, KOLEKCJA, data), { [`mecze.${nr}`]: f.deleteField() });
     brudnyMinus(data);
-  } catch (blad) { console.warn('Kasowanie meczu poszło do kolejki:', blad); }
+  } catch (blad) { zapisPadl(blad, 'Kasowanie meczu'); }
 }
 
 /* Zapisuje CAŁY bieżący wieczór (wszystkie mecze z wynikami) jednym zapisem.
@@ -222,11 +271,11 @@ async function wyslijPelny(data, { zamykaj = false } = {}) {
   try {
     const { db, f } = await baza();
     const { zaktualizowano, kod, ...pola } = biezacy;
-    const ladunek = { ...pola, data, zaktualizowano: f.serverTimestamp() };
+    const ladunek = { ...polaDoBazy(pola), data, zaktualizowano: f.serverTimestamp() };
     if (zamykaj) { ladunek.zamkniety = true; ladunek.kod = f.deleteField(); }
     await f.setDoc(f.doc(db, KOLEKCJA, data), ladunek, { merge: true });
     brudnyMinus(data);
-  } catch (blad) { console.warn('Pełny zapis wieczoru poszedł do kolejki:', blad); }
+  } catch (blad) { zapisPadl(blad, 'Pełny zapis wieczoru'); }
 }
 
 /** „Zapisz i wyjdź”: dosyła cały bieżący stan wieczoru, żeby nic z wpisanych
@@ -250,7 +299,7 @@ export async function odblokujWieczor(data, hashKodu) {
       { data, zamkniety: false, kod: hashKodu, zaktualizowano: f.serverTimestamp() },
       { merge: true });
     brudnyMinus(data);
-  } catch (blad) { console.warn('Odblokowanie wieczoru poszło do kolejki:', blad); }
+  } catch (blad) { zapisPadl(blad, 'Odblokowanie wieczoru'); }
 }
 
 export async function usunWieczor(data) {
@@ -261,7 +310,7 @@ export async function usunWieczor(data) {
   try {
     const { db, f } = await baza();
     await f.deleteDoc(f.doc(db, KOLEKCJA, data));
-  } catch (blad) { console.warn('Kasowanie wieczoru poszło do kolejki:', blad); }
+  } catch (blad) { zapisPadl(blad, 'Kasowanie wieczoru'); }
 }
 
 /** Wspólny wybór noszonego przydomka. `przydomekId === null` czyści wybór
@@ -276,5 +325,5 @@ export async function zapiszWybor(gracz, przydomekId) {
     await f.setDoc(f.doc(db, USTAWIENIA, DOK_PRZYDOMKI),
       { [gracz]: przydomekId ? przydomekId : f.deleteField(), zaktualizowano: f.serverTimestamp() },
       { merge: true });
-  } catch (blad) { console.warn('Zapis wyboru przydomka poszedł do kolejki:', blad); }
+  } catch (blad) { zapisPadl(blad, 'Zapis wyboru przydomka'); }
 }

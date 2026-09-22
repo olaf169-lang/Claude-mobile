@@ -131,6 +131,20 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
   Swędem" jako jeden ciągły kształt wyszedł żółwiem. Czytelny jest dopiero
   z kółka-łba, kufy-klina, walca-tułowia i czterech nóg osobno, wtedy widać
   szyję i opuszczony łeb (czyli węszenie).
+- **FIRESTORE NIE PRZYJMUJE TABLICY W TABLICY.** Set trzymamy jako `[a, b]`,
+  więc `mecz.sety` to tablica tablic i każdy zapis meczu Z WYNIKIEM leciał
+  wyjątkiem jeszcze w SDK, zanim cokolwiek poszło na serwer. Wyjątek ginął
+  w cichym `catch`, do bazy szła tylko pusta struktura (`sety: []`) i zamek,
+  więc apka działała na localStorage, a po restarcie wyniki znikały. Kosztowało
+  to kilka dni zgadywania (reguły, wyścigi, cache), zanim znalazło się źródło.
+  Na granicy bazy tłumaczymy kształt: `setyDoBazy` robi `[{a, b}]`, `setyZBazy`
+  wraca do `[[a, b]]`, a `polaDoBazy`/`wieczorZBazy` robią to dla całej mapy
+  `mecze`. Reszta apki i kopia lokalna zostają przy `[a, b]`.
+  **Jak dokładasz nowe pole do meczu albo wieczoru, sprawdź, czy nie jest
+  tablicą tablic.** Tablica map (jak `zagrania`) jest OK, tablica tablic nie.
+- **Błąd zapisu ma być widoczny, nie połknięty.** Każdy `catch` przy zapisie
+  woła `zapisPadl()`, które przestawia kropkę łącza na „lokalnie”. Cichy
+  `console.warn` ukrywał powyższy bug tygodniami. Nie wracaj do samego `warn`.
 - **Migawka z serwera nie kasuje lokalnych, niepotwierdzonych zapisów.**
   `baza.js` trzyma `brudne` (mapa data -> licznik zapisów w locie). Każdy zapis
   robi `brudnyPlus`, a `brudnyMinus` dopiero po potwierdzeniu z Firestore; gdy
