@@ -18,6 +18,10 @@ on:
         description: "Docelowa wielkość katalogu"
         required: false
         default: "4000"
+      tryb:
+        description: "Co zbierać: wykonawcy / filmy / oba"
+        required: false
+        default: "oba"
       kategorie:
         description: "Kategorie po przecinku (puste = wszystkie gatunkowe)"
         required: false
@@ -67,6 +71,7 @@ jobs:
           node narzedzia/zbierz-kandydatow.mjs \
             --czesc ${{ matrix.czesc }} --z 5 \
             --cel ${{ github.event.inputs.cel }} \
+            --tryb ${{ github.event.inputs.tryb || 'oba' }} \
             ${{ github.event.inputs.kategorie && format('--kategorie {0}', github.event.inputs.kategorie) || '' }} \
             ${{ github.event.inputs.limit_wykonawcow && format('--limit {0}', github.event.inputs.limit_wykonawcow) || '' }} \
             --plik kandydaci-${{ matrix.czesc }}.json
