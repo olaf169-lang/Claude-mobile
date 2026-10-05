@@ -118,8 +118,32 @@ się kończy (dla nie-`readOnly` widza).
 ## Rozbudowa katalogu, jak to działa teraz (2026-10-05)
 
 Stan: **3982 utwory**, 1140 wykonawców, 601 pytań filmowych, cel ~4000
-osiągnięty w czterech porcjach z 1595. Proporcje dekad i kategorii zachowane
-(plan je pilnuje). Następny cel ustawia się przez `--cel` / wejście workflowu.
+osiągnięty w czterech porcjach z 1595. Następny cel ustawia się przez `--cel`
+albo wejście workflowu.
+
+**Co wyszło, a co nie, przy zachowaniu proporcji** (sprawdzone na danych):
+dekady trzymają się bardzo dobrze, odchylenie poniżej punktu procentowego
+(lata 80. 16,5% przed i po, 2000. 16,9% przed i po), jedyny wyjątek to lata
+2020. z 9,8% na 8,9%, bo ta dekada trwa dopiero sześć lat i po prostu jest
+mniej muzyki. **Kategorie się natomiast rozjechały**: Polskie spadły z 15,2%
+na 10,4%, a Filmowa podskoczyła z 9,9% na 15,2% (Rock z 15,5% na 19,2%).
+Powody: polscy wykonawcy mają w sklepie chudszy dorobek (dużo wznowień),
+czterech wypisano z listy, a kategoria filmowa jest wyłączona z limitu na
+wykonawcę, więc zbierała się bez ograniczeń.
+
+Użytkownik świadomie zdecydował, że **tego nie wyrównujemy** (2026-10-05).
+Gdyby kiedyś wracać do rozbudowy: planer liczy niedobory od OBECNYCH
+proporcji, więc celowanie w pierwotne udziały kategorii wymaga podania
+własnych kwot, a najwięcej brakuje polskich (około 190 utworów do 15,2%).
+Do tego trzeba najpierw dopisać polskich wykonawców do `dane/wykonawcy.js`,
+bo obecni są wyczerpani.
+
+**Jak głęboko sięgnęliśmy**: 535 wykonawców ma w katalogu 1 utwór (swój
+największy przebój), ale 87 ma od 12 do 14, a tam pozycja dwunasta to już
+płytowy wypełniacz. Sklep oddaje nagrania od najpopularniejszych, więc
+pierwsza porcja wzięła hity, a każda następna sięgała głębiej u tych samych
+wykonawców. Przy kolejnej rozbudowie lepiej dokładać nowych wykonawców niż
+podnosić limit na wykonawcę.
 
 **Sandbox NIE MA dostępu do API muzycznych.** iTunes, MusicBrainz i Deezer
 odpowiadają `403 CONNECT` przez proxy, sprawdzone. Ale **CI na GitHubie ma**
