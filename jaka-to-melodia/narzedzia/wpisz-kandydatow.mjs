@@ -22,8 +22,11 @@ import { readFileSync, appendFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 import { UTWORY } from '../dane/utwory.js';
-import { KATEGORIE, DEKADY, idUtworu, dekada, daSieSpytacOFilm } from '../js/katalog.js';
+import {
+  KATEGORIE, DEKADY, idUtworu, dekada, daSieSpytacOFilm, przygotujKatalog,
+} from '../js/katalog.js';
 import { przebuduj, raportPrzebudowy } from './przebuduj-katalog.mjs';
+import { planKoszykow, CEL_DOMYSLNY } from './plan-katalogu.mjs';
 
 const ROK_MIN = 1958;
 const ROK_MAX = new Date().getFullYear() + 1;
@@ -31,16 +34,50 @@ const DOZWOLONE_KATEGORIE = new Set(KATEGORIE.map((k) => k.id));
 const DOZWOLONE_DEKADY = new Set(DEKADY.map((d) => d.id));
 
 /**
+ * Przeplata kandydatów wykonawcami: najpierw najlepszy utwór każdego, potem
+ * drugi każdego, i tak dalej.
+ *
+ * Koszyki wypełniają się po kolei i przestają przyjmować, gdy osiągną plan.
+ * Bez przeplatania koszyk „lata 60. × pop” zapełniłoby ośmioma kawałkami
+ * pierwszych dziewięciu wykonawców z listy, a pozostałych dwudziestu nie
+ * weszłoby wcale. Tak każdy wykonawca wnosi najpierw to, co ma
+ * najpopularniejsze — a w grze, w której utwór trzeba rozpoznać, to jest
+ * dokładnie ta kolejność, o którą nam chodzi.
+ */
+export function naPrzemianWykonawcami(kandydaci) {
+  const wedlugWykonawcy = new Map();
+  for (const utwor of kandydaci) {
+    const klucz = `${utwor.gatunek}/${utwor.wykonawca}`;
+    if (!wedlugWykonawcy.has(klucz)) wedlugWykonawcy.set(klucz, []);
+    wedlugWykonawcy.get(klucz).push(utwor);
+  }
+  const kolejki = [...wedlugWykonawcy.values()];
+  const wynik = [];
+  for (let runda = 0; wynik.length < kandydaci.length; runda += 1) {
+    for (const kolejka of kolejki) if (kolejka[runda]) wynik.push(kolejka[runda]);
+  }
+  return wynik;
+}
+
+/**
  * Przesiewa kandydatów. Zwraca to, co wolno wpisać, i powód odrzucenia dla
  * reszty — nic nie wchodzi do katalogu „na wiarę”.
  */
-export function przesiej(kandydaci, { katalog = UTWORY, maks = Infinity } = {}) {
+export function przesiej(kandydaci, { katalog = UTWORY, maks = Infinity, cel = CEL_DOMYSLNY } = {}) {
   const zajete = new Map(katalog.map((u) => [idUtworu(u), u]));
+  // Limity koszyków pilnujemy TUTAJ, a nie przy zbieraniu. Zbieranie dzieli się
+  // na pięć równoległych części, z których żadna nie wie, co wzięły pozostałe —
+  // każda widzi ten sam niedobór i każda mogłaby go wypełnić w całości. Dopiero
+  // tu widać wszystkie części razem, więc dopiero tu da się dopilnować, żeby
+  // proporcje katalogu zostały takie, jakie mają być.
+  const plan = planKoszykow(przygotujKatalog(katalog), { cel });
+  const miejsce = new Map(plan.koszyki.map((k) => [`${k.dekada}/${k.kategoria}`, k.brak]));
+
   const przyjete = [];
   const odrzucone = [];
   const odrzuc = (utwor, powod) => odrzucone.push({ utwor, powod });
 
-  for (const utwor of kandydaci) {
+  for (const utwor of naPrzemianWykonawcami(kandydaci)) {
     if (przyjete.length >= maks) { odrzuc(utwor, 'limit tego przebiegu'); continue; }
     if (!utwor?.tytul?.trim() || !utwor?.wykonawca?.trim()) { odrzuc(utwor, 'pusty tytuł albo wykonawca'); continue; }
     if (!DOZWOLONE_KATEGORIE.has(utwor.gatunek)) { odrzuc(utwor, `nieznana kategoria „${utwor.gatunek}”`); continue; }
@@ -119,6 +156,14 @@ if (process.argv[1] && import.meta.url === `file://${resolve(process.argv[1])}`)
   }
 
   if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, tekst);
+  if (process.env.GITHUB_ACTIONS) {
+    const powody = new Map();
+    for (const { powod } of wynik.odrzucone) powody.set(powod, (powody.get(powod) || 0) + 1);
+    const najczestsze = [...powody].sort((a, b) => b[1] - a[1]).slice(0, 4)
+      .map(([p, n]) => `${p}: ${n}`).join('; ');
+    console.log(`::notice title=Wpisane::przyjęte ${wynik.przyjete.length}, `
+      + `odrzucone ${wynik.odrzucone.length} z ${kandydaci.length} kandydatów. ${najczestsze}`);
+  }
   // Zero przyjętych przy niepustym wejściu to sygnał, że coś jest nie tak —
   // workflow ma to pokazać jako problem, a nie „zrobione”.
   if (kandydaci.length && !wynik.przyjete.length && !naProbe) process.exit(2);
