@@ -188,6 +188,21 @@ const zWariantem = przesiej(
 assert.equal(zWariantem.przyjete.length, 0, 'wariant w nawiasie przeszedł jako nowy utwór');
 console.log('✓ wariant tytułu w nawiasie jest rozpoznawany jako ten sam utwór');
 
+// Lista odrzuconych musi trafiać W TEN JEDEN utwór, a nie w jego oryginał.
+// Przy porównaniu po tytule bez nawiasów wpis „Don't Stop Me Now (Queen Forever
+// Revisited)” blokował też „Don't Stop Me Now” — i oryginał z 1978 wypadł
+// z katalogu. Stąd porównanie po pełnym tytule.
+const oryginal = { tytul: "Don't Stop Me Now", wykonawca: 'Queen', rok: 1978, gatunek: 'rock' };
+assert.equal(przesiej([oryginal], { katalog: [] }).przyjete.length, 1,
+  'oryginał został zablokowany przez wpis o wariancie na liście odrzuconych');
+const zOdrzuconych = przesiej(
+  [{ tytul: 'Let Go', wykonawca: 'Lulu', rok: 2024, gatunek: 'pop' }],
+  { katalog: [] },
+);
+assert.equal(zOdrzuconych.przyjete.length, 0, 'wpis z listy odrzuconych przeszedł');
+assert.ok(zOdrzuconych.odrzucone[0].powod.includes('odrzuconych'));
+console.log('✓ lista odrzuconych blokuje dokładnie swój wpis, nie jego oryginał');
+
 // Płyty świąteczne: sklep stawia je wysoko, a kolędy nadają się do tej gry
 // najgorzej — każdy je zna i każdy je nagrał, więc nie da się zgadnąć wykonawcy.
 const zeSwietami = najwczesniejszeWydania([

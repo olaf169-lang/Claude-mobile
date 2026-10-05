@@ -1395,7 +1395,7 @@ export const UTWORY = [
   { tytul: 'Samantha', wykonawca: 'Zejman & Garkumpel', rok: 1985, gatunek: 'szanty' },
 
   // ======================= LATA 90. =======================
-  // --- pop (57) ---
+  // --- pop (55) ---
   { tytul: "Freedom! '90", wykonawca: 'George Michael', rok: 1990, gatunek: 'pop' },
   { tytul: 'Vogue', wykonawca: 'Madonna', rok: 1990, gatunek: 'pop' },
   { tytul: 'It Must Have Been Love', wykonawca: 'Roxette', rok: 1990, gatunek: 'pop' },
@@ -1409,7 +1409,6 @@ export const UTWORY = [
   { tytul: 'Something Special', wykonawca: '10cc', rok: 1992, gatunek: 'pop' },
   { tytul: 'All That She Wants', wykonawca: 'Ace of Base', rok: 1992, gatunek: 'pop' },
   { tytul: 'Another Life', wykonawca: 'Barry Manilow', rok: 1992, gatunek: 'pop' },
-  { tytul: "You're the One (Un Mal Pour Un Bien)", wykonawca: 'Petula Clark', rok: 1992, gatunek: 'pop' },
   { tytul: 'Call Me', wykonawca: 'Petula Clark', rok: 1992, gatunek: 'pop' },
   { tytul: 'Dreams', wykonawca: 'The Cranberries', rok: 1992, gatunek: 'pop' },
   { tytul: 'The Sign', wykonawca: 'Ace of Base', rok: 1993, gatunek: 'pop' },
@@ -1422,7 +1421,6 @@ export const UTWORY = [
   { tytul: "Say You'll Stay Until Tomorrow", wykonawca: 'Tom Jones', rok: 1995, gatunek: 'pop' },
   { tytul: 'Quit Playing Games (with My Heart)', wykonawca: 'Backstreet Boys', rok: 1996, gatunek: 'pop' },
   { tytul: "I Don't Like to Sleep Alone", wykonawca: 'Paul Anka', rok: 1996, gatunek: 'pop' },
-  { tytul: 'Sailor', wykonawca: 'Petula Clark', rok: 1996, gatunek: 'pop' },
   { tytul: 'Wannabe', wykonawca: 'Spice Girls', rok: 1996, gatunek: 'pop' },
   { tytul: 'Say You Will Be There', wykonawca: 'Spice Girls', rok: 1996, gatunek: 'pop' },
   { tytul: '2 Become 1', wykonawca: 'Spice Girls', rok: 1996, gatunek: 'pop' },
@@ -2493,7 +2491,7 @@ export const UTWORY = [
   { tytul: 'Like a Dog Chasing Cars', wykonawca: 'James Newton Howard & Hans Zimmer', rok: 2008, gatunek: 'filmowa', film: 'The Dark Knight' },
   { tytul: 'Why So Serious?', wykonawca: 'James Newton Howard & Hans Zimmer', rok: 2008, gatunek: 'filmowa', film: 'The Dark Knight' },
   { tytul: 'When All Is Said and Done', wykonawca: 'Pierce Brosnan & Meryl Streep', rok: 2008, gatunek: 'filmowa', film: 'Mamma Mia!' },
-  // --- polskie (65) ---
+  // --- polskie (63) ---
   { tytul: 'A wszystko to... (bo ciebie kocham)', wykonawca: 'Ich Troje', rok: 2000, gatunek: 'polskie', styl: 'pop' },
   { tytul: 'Wyścig', wykonawca: 'Myslovitz', rok: 2000, gatunek: 'polskie', styl: 'rock' },
   { tytul: 'Sprzedawcy marzeń', wykonawca: 'Myslovitz', rok: 2000, gatunek: 'polskie', styl: 'rock' },
@@ -2556,8 +2554,6 @@ export const UTWORY = [
   { tytul: 'Nieprawda', wykonawca: 'Video', rok: 2008, gatunek: 'polskie', styl: 'pop' },
   { tytul: 'Chwila Ta Nadeszla Juz', wykonawca: 'Andrzej Dąbrowski', rok: 2009, gatunek: 'polskie', styl: 'pop' },
   { tytul: 'A Ty się bracie nie denerwuj [Mistrzostwa Świata 1974]', wykonawca: 'Andrzej Dąbrowski', rok: 2009, gatunek: 'polskie', styl: 'pop' },
-  { tytul: 'Chłopiec Z Gitarą', wykonawca: 'Karin Stanek', rok: 2009, gatunek: 'polskie', styl: 'rock' },
-  { tytul: 'O Jimmy Joe', wykonawca: 'Karin Stanek', rok: 2009, gatunek: 'polskie', styl: 'rock' },
   { tytul: 'Gaz Panie Szofer', wykonawca: 'Karin Stanek', rok: 2009, gatunek: 'polskie', styl: 'rock' },
   // --- country & folk (13) ---
   { tytul: "Ol' Red", wykonawca: 'Blake Shelton', rok: 2001, gatunek: 'country' },
@@ -2604,7 +2600,7 @@ export const UTWORY = [
   { tytul: 'Requiem dla Nieznajomych Przyjaciół z Bieszczadów', wykonawca: 'Banana Boat', rok: 2005, gatunek: 'szanty' },
 
   // ======================= LATA 2010. =======================
-  // --- pop (71) ---
+  // --- pop (70) ---
   { tytul: 'Rolling in the Deep', wykonawca: 'Adele', rok: 2010, gatunek: 'pop' },
   { tytul: 'Just the Way You Are', wykonawca: 'Bruno Mars', rok: 2010, gatunek: 'pop' },
   { tytul: 'Grenade', wykonawca: 'Bruno Mars', rok: 2010, gatunek: 'pop' },
@@ -2666,7 +2662,6 @@ export const UTWORY = [
   { tytul: 'Despacito', wykonawca: 'Luis Fonsi', rok: 2017, gatunek: 'pop' },
   { tytul: "I Don't", wykonawca: 'Mariah Carey', rok: 2017, gatunek: 'pop' },
   { tytul: 'After All', wykonawca: 'All Saints', rok: 2018, gatunek: 'pop' },
-  { tytul: 'Baby Love', wykonawca: 'Lulu', rok: 2018, gatunek: 'pop' },
   { tytul: 'A No No', wykonawca: 'Mariah Carey', rok: 2018, gatunek: 'pop' },
   { tytul: '8th Grade', wykonawca: 'Mariah Carey', rok: 2018, gatunek: 'pop' },
   { tytul: "One Mo' Gen", wykonawca: 'Mariah Carey', rok: 2018, gatunek: 'pop' },
@@ -3160,7 +3155,7 @@ export const UTWORY = [
   { tytul: 'Time in a Bottle', wykonawca: 'YUNGBLUD', rok: 2019, gatunek: 'furious', film: 'Hobbs & Shaw' },
 
   // ======================= LATA 2020. =======================
-  // --- pop (65) ---
+  // --- pop (62) ---
   { tytul: 'Message in a Bottle', wykonawca: 'All Saints', rok: 2020, gatunek: 'pop' },
   { tytul: 'Loyal Brave True', wykonawca: 'Christina Aguilera', rok: 2020, gatunek: 'pop' },
   { tytul: 'Say So', wykonawca: 'Doja Cat', rok: 2020, gatunek: 'pop' },
@@ -3198,7 +3193,6 @@ export const UTWORY = [
   { tytul: 'After Love (Part 1)', wykonawca: 'Jennifer Lopez', rok: 2022, gatunek: 'pop' },
   { tytul: 'Golden Hour', wykonawca: 'JVKE', rok: 2022, gatunek: 'pop' },
   { tytul: 'About Damn Time', wykonawca: 'Lizzo', rok: 2022, gatunek: 'pop' },
-  { tytul: '字字句句', wykonawca: 'Lulu', rok: 2022, gatunek: 'pop' },
   { tytul: 'Made You Look', wykonawca: 'Meghan Trainor', rok: 2022, gatunek: 'pop' },
   { tytul: 'Stick Season', wykonawca: 'Noah Kahan', rok: 2022, gatunek: 'pop' },
   { tytul: 'Unholy', wykonawca: 'Sam Smith & Kim Petras', rok: 2022, gatunek: 'pop' },
@@ -3206,7 +3200,6 @@ export const UTWORY = [
   { tytul: 'Cupid', wykonawca: 'Fifty Fifty', rok: 2023, gatunek: 'pop' },
   { tytul: 'mine', wykonawca: 'Kelly Clarkson', rok: 2023, gatunek: 'pop' },
   { tytul: 'Tension', wykonawca: 'Kylie Minogue', rok: 2023, gatunek: 'pop' },
-  { tytul: 'Yesterdays', wykonawca: 'Lulu', rok: 2023, gatunek: 'pop' },
   { tytul: 'Flowers', wykonawca: 'Miley Cyrus', rok: 2023, gatunek: 'pop' },
   { tytul: 'Vampire', wykonawca: 'Olivia Rodrigo', rok: 2023, gatunek: 'pop' },
   { tytul: 'Windows', wykonawca: 'Take That', rok: 2023, gatunek: 'pop' },
@@ -3216,7 +3209,6 @@ export const UTWORY = [
   { tytul: 'Good Luck, Babe!', wykonawca: 'Chappell Roan', rok: 2024, gatunek: 'pop' },
   { tytul: 'Houdini', wykonawca: 'Dua Lipa', rok: 2024, gatunek: 'pop' },
   { tytul: 'Die with a Smile', wykonawca: 'Lady Gaga & Bruno Mars', rok: 2024, gatunek: 'pop' },
-  { tytul: 'Let Go', wykonawca: 'Lulu', rok: 2024, gatunek: 'pop' },
   { tytul: 'Stargazing', wykonawca: 'Myles Smith', rok: 2024, gatunek: 'pop' },
   { tytul: 'I Had Some Help', wykonawca: 'Post Malone feat. Morgan Wallen', rok: 2024, gatunek: 'pop' },
   { tytul: 'Espresso', wykonawca: 'Sabrina Carpenter', rok: 2024, gatunek: 'pop' },
@@ -3322,7 +3314,7 @@ export const UTWORY = [
   { tytul: 'Fein', wykonawca: 'Travis Scott feat. Playboi Carti', rok: 2024, gatunek: 'rap' },
   { tytul: 'King Carter', wykonawca: 'Lil Wayne', rok: 2025, gatunek: 'rap' },
   { tytul: 'HOW FAR WE CAME', wykonawca: 'Meek Mill', rok: 2025, gatunek: 'rap' },
-  // --- dance (35) ---
+  // --- dance (31) ---
   { tytul: 'Dákiti', wykonawca: 'Bad Bunny & Jhay Cortez', rok: 2020, gatunek: 'dance' },
   { tytul: 'El Rey De Mi Coronas (En Vivo)', wykonawca: 'Corona', rok: 2020, gatunek: 'dance' },
   { tytul: 'Suspiros (En Vivo)', wykonawca: 'Corona', rok: 2020, gatunek: 'dance' },
@@ -3340,7 +3332,6 @@ export const UTWORY = [
   { tytul: 'Bam Bam', wykonawca: 'Camila Cabello feat. Ed Sheeran', rok: 2022, gatunek: 'dance' },
   { tytul: "I'm Good (Blue)", wykonawca: 'David Guetta & Bebe Rexha', rok: 2022, gatunek: 'dance' },
   { tytul: 'The World Is Yours', wykonawca: 'Giorgio Moroder', rok: 2022, gatunek: 'dance' },
-  { tytul: 'Main Title', wykonawca: 'Giorgio Moroder', rok: 2022, gatunek: 'dance' },
   { tytul: 'Ferrari', wykonawca: 'James Hype & Miggy Dela Rosa', rok: 2022, gatunek: 'dance' },
   { tytul: 'Sunroof', wykonawca: 'Nicky Youre & dazy', rok: 2022, gatunek: 'dance' },
   { tytul: "I Ain't Worried", wykonawca: 'OneRepublic', rok: 2022, gatunek: 'dance' },
@@ -3354,10 +3345,7 @@ export const UTWORY = [
   { tytul: 'Padam Padam', wykonawca: 'Kylie Minogue', rok: 2023, gatunek: 'dance' },
   { tytul: 'Escapism', wykonawca: 'RAYE feat. 070 Shake', rok: 2023, gatunek: 'dance' },
   { tytul: 'Rumble', wykonawca: 'Skrillex, Fred again.. & Flowdan', rok: 2023, gatunek: 'dance' },
-  { tytul: 'Heal Me', wykonawca: 'C.C. Catch', rok: 2024, gatunek: 'dance' },
-  { tytul: 'Taste', wykonawca: 'Sabrina', rok: 2024, gatunek: 'dance' },
   { tytul: 'Bed Chem', wykonawca: 'Sabrina', rok: 2024, gatunek: 'dance' },
-  { tytul: 'House Tour', wykonawca: 'Sabrina', rok: 2025, gatunek: 'dance' },
   // --- r&b / soul (31) ---
   { tytul: 'Underdog', wykonawca: 'Alicia Keys', rok: 2020, gatunek: 'rnb' },
   { tytul: 'U Move, I Move', wykonawca: 'John Legend', rok: 2020, gatunek: 'rnb' },

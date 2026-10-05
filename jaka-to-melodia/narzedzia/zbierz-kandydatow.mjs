@@ -129,11 +129,15 @@ export function nadajeSie(nagranie, wykonawca) {
   const opis = `${normalizuj(nagranie.tytul)} ${normalizuj(nagranie.album || '')}`;
   if (PODEJRZANE.some((slowo) => zawiera(opis, slowo))) return false;
 
-  // Wyszukiwanie po wykonawcy zwraca też składanki, na których ktoś tylko
-  // gościnnie wystąpił — bierzemy tylko to, gdzie on jest głównym nazwiskiem.
-  const szukany = normalizuj(wykonawca);
+  /* Nazwa wykonawcy musi zgadzać się DOKŁADNIE (po odcięciu gości przez
+     glownyWykonawca). Zawieranie się nazw brzmiało rozsądnie, a wpuściło
+     cudze piosenki: przy haśle „Nas” sklep oddaje też Lil Nas X, więc do
+     katalogu wszedł „Nas — INDUSTRY BABY”. W quizie to nie literówka, to
+     błędna odpowiedź. Tak samo czyhają „Sabrina” / „Sabrina Carpenter”
+     i „Dave” / „Dave Matthews Band”. */
+  const szukany = normalizuj(glownyWykonawca(wykonawca));
   const znaleziony = normalizuj(glownyWykonawca(nagranie.wykonawca));
-  return znaleziony === szukany || zawiera(znaleziony, szukany) || zawiera(szukany, znaleziony);
+  return znaleziony === szukany;
 }
 
 /**
