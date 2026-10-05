@@ -9,7 +9,7 @@ import { join } from 'node:path';
 import assert from 'node:assert/strict';
 
 import { przygotujKatalog } from '../js/katalog.js';
-import { uzupelnijPodglady } from './pobierz-podglady.mjs';
+import { uzupelnijPodglady, raportTekstowy } from './pobierz-podglady.mjs';
 import { scal } from './scal-podglady.mjs';
 import {
   wyczyscTytul, najwczesniejszeWydania, bezWznowien, toSciezkaZFilmu, utworyZeSciezki,
@@ -65,6 +65,17 @@ console.log('✓ drugi przebieg pomija utwory, które już mają nagranie');
 const trzeci = await uzupelnijPodglady({ ...opcje, katalog: mikroKatalog.slice(1) });
 assert.equal(trzeci.wynik.utwory['queen--radio-ga-ga'], undefined, 'nie sprzątnął po usuniętym utworze');
 console.log('✓ wpisy po usuniętych utworach znikają');
+
+// Budżet czasu: skrypt ma skończyć sam, zanim limit zadania w CI go zabije,
+// i powiedzieć, ile zostało. Inaczej każdy przebieg przy dużym katalogu wychodzi
+// na czerwono i zasypuje właściciela repozytorium powiadomieniami o awarii,
+// mimo że pobieranie szło prawidłowo.
+const zBudzetem = await uzupelnijPodglady({ ...opcje, odswiez: true, budzetMs: 0, plikWyniku: `${plik}.c` });
+assert.equal(zBudzetem.znalezione, 0, 'przy zerowym budżecie nie powinien nic pobrać');
+assert.equal(zBudzetem.zabraklo, 2, 'powinien zgłosić, ile utworów zostało');
+assert.equal(zBudzetem.wynik.ukonczone, false, 'przerwany przebieg nie jest ukończony');
+assert.match(raportTekstowy(zBudzetem), /Budżet czasu się skończył/);
+console.log('✓ budżet czasu kończy przebieg spokojnie i mówi, ile zostało');
 
 // Podział katalogu na części — tak workflow omija limit zapytań iTunes.
 const pierwszaPolowa = await uzupelnijPodglady({

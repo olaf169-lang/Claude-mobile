@@ -159,6 +159,7 @@ export async function uzupelnijPodglady({
   czesc = null,
   zIlu = 1,
   odstepMs = ODSTEP_ITUNES_MS,
+  budzetMs = Infinity,
   log = console.log,
 } = {}) {
   let znane = {};
@@ -205,7 +206,23 @@ export async function uzupelnijPodglady({
   };
   let przerobione = 0;
 
+  /* Budżet czasu, czyli po co to jest: zadanie w CI ma twardy limit minut,
+     a sklep przepuszcza tylko kilkanaście zapytań na minutę. Przy dużym
+     katalogu część nie zdąży przejść swojego wycinka i limit ją ZABIJA.
+     Dorobek wtedy zostaje (zapisujemy na bieżąco), ale zadanie wychodzi
+     na czerwono i każdy przebieg zasypuje właściciela repozytorium
+     powiadomieniami o awarii, choć wszystko działa jak trzeba.
+     Dlatego skrypt pilnuje czasu sam: kończy spokojnie przed limitem,
+     zapisuje i mówi, ile zostało na następny raz. */
+  const koniecBudzetu = Date.now() + budzetMs;
+  let zabraklo = 0;
+
   for (const [nr, utwor] of doZrobienia.entries()) {
+    if (Date.now() >= koniecBudzetu) {
+      zabraklo = doZrobienia.length - nr;
+      log(`  (budżet czasu wyczerpany, zostaje ${zabraklo} na następny przebieg)`);
+      break;
+    }
     const etykieta = `${utwor.wykonawca} — ${utwor.tytul}`;
     const trafienie = await znajdz(utwor, bramki, log);
     if (trafienie) {
@@ -237,16 +254,21 @@ export async function uzupelnijPodglady({
     braki,
     zPodgladem: Object.keys(wynik.utwory).length,
     wKatalogu: katalog.length,
+    zabraklo,
   };
 }
 
-export function raportTekstowy({ zPodgladem, wKatalogu, znalezione, braki }) {
+export function raportTekstowy({ zPodgladem, wKatalogu, znalezione, braki, zabraklo = 0 }) {
   const wiersze = [
     '',
     `## Podglądy: ${zPodgladem}/${wKatalogu} utworów`,
     '',
     `W tym przebiegu znaleziono: **${znalezione}**, nie znaleziono: **${braki.length}**.`,
   ];
+  if (zabraklo) {
+    wiersze.push('', `Budżet czasu się skończył, zostaje **${zabraklo}** utworów. `
+      + 'Odpal workflow jeszcze raz, żeby dociągnąć resztę.');
+  }
   if (braki.length) {
     wiersze.push('', '### Bez nagrania (sprawdź pisownię tytułu i wykonawcy)', '');
     wiersze.push(...braki.map((b) => `- ${b}`));
@@ -275,6 +297,7 @@ if (process.argv[1] && import.meta.url === `file://${resolve(process.argv[1])}`)
     czesc: argumenty.includes('--czesc') ? liczba('--czesc', 0) : null,
     zIlu: liczba('--z', 1),
     odstepMs: liczba('--odstep', ODSTEP_ITUNES_MS),
+    budzetMs: liczba('--budzet-minut', Infinity) * 60_000,
     plikWejscia: resolve(wartosc('--wejscie', process.env.JTM_PLIK_PODGLADOW || PLIK_DOMYSLNY)),
     plikWyniku: resolve(wartosc('--plik', process.env.JTM_PLIK_PODGLADOW || PLIK_DOMYSLNY)),
   });
