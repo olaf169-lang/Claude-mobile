@@ -7,12 +7,12 @@
 
    Rok przy filmie jest po to, żeby sprawdzić rok ze sklepu. Ścieżka dźwiękowa
    wychodzi razem z filmem, więc wydanie oddalone o kilka lat to prawie na pewno
-   wznowienie albo zupełnie inny album — i takie odrzucamy. To mocniejsze
+   wznowienie albo zupełnie inny album, i takie odrzucamy. To mocniejsze
    zabezpieczenie niż przy wykonawcach, gdzie nie ma się do czego odwołać.
 
    Czego tu świadomie NIE ma: filmów, w których najbardziej znany utwór nazywa
    się tak samo jak film. Takie wpisy nadal działają (gra pokaże wtedy
-   wykonawcę zamiast tytułu — patrz zdradzaFilm w js/katalog.js), ale dobre
+   wykonawcę zamiast tytułu, patrz zdradzaFilm w js/katalog.js), ale dobre
    pytanie filmowe wychodzi przede wszystkim z piosenki, której tytuł nie jest
    nazwą filmu.
    ========================================================================== */

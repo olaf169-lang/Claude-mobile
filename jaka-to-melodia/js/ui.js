@@ -1,4 +1,4 @@
-/* Drobiazgi do DOM-u — tyle, żeby reszta kodu czytała się jak opis ekranu. */
+/* Drobiazgi do DOM-u, tyle, żeby reszta kodu czytała się jak opis ekranu. */
 
 export const $ = (wybor, gdzie = document) => gdzie.querySelector(wybor);
 export const $$ = (wybor, gdzie = document) => [...gdzie.querySelectorAll(wybor)];
@@ -26,7 +26,7 @@ export function wyczysc(element) {
 }
 
 /** Pokazuje jeden ekran z <main>, resztę chowa.
-    Nazwa bieżącego ekranu ląduje na <body> jako `data-widok` — celowo pod inną
+    Nazwa bieżącego ekranu ląduje na <body> jako `data-widok`, celowo pod inną
     nazwą niż `data-ekran` na sekcjach, żeby pętla niżej nie schowała <body>. */
 export function pokazEkran(nazwa) {
   for (const ekran of $$('main [data-ekran]')) {
@@ -61,20 +61,20 @@ export function powiadom(tekst, rodzaj = 'info') {
 }
 
 /** Przycina tekst do `dlugosc` znaków licząc po code pointach, nie jednostkach
-    UTF-16 — zwykły `.slice()` potrafi rozciąć emoji w połowie (większość
+    UTF-16, zwykły `.slice()` potrafi rozciąć emoji w połowie (większość
     zajmuje dwie jednostki) i zostawić po nim szpetny, połamany znak. */
 export function utnijZnaki(tekst, dlugosc) {
   return Array.from(String(tekst)).slice(0, dlugosc).join('');
 }
 
-/** „3,2 s” — czas w sekundach z przecinkiem, po polsku. */
+/** „3,2 s”, czas w sekundach z przecinkiem, po polsku. */
 export function formatujCzasS(ms) {
   return `${(ms / 1000).toFixed(1).replace('.', ',')} s`;
 }
 
-/** Odznaka najdłuższej serii trafień w rundzie — „🔥 ×4”, coraz większa i
+/** Odznaka najdłuższej serii trafień w rundzie, „🔥 ×4”, coraz większa i
     intensywniejsza w kolorze im wyższy streak (skala w CSS przez --strk).
-    Poniżej dwóch trafień z rzędu to jeszcze nie streak — nic się nie pokazuje. */
+    Poniżej dwóch trafień z rzędu to jeszcze nie streak, nic się nie pokazuje. */
 export function wezelStreaka(streak) {
   if (!streak || streak < 2) return null;
   const wezel = el('span', { klasa: 'streak-rundy', tekst: `🔥 ×${streak}` });
@@ -82,14 +82,14 @@ export function wezelStreaka(streak) {
   return wezel;
 }
 
-/** Dokleja odznakę bieżącej serii do elementu `.punkty` na ekranie odsłony —
+/** Dokleja odznakę bieżącej serii do elementu `.punkty` na ekranie odsłony,
     streak widać na żywo, zaraz po odpowiedzi, nie tylko w podsumowaniu rundy. */
 export function dopiszStreak(wezelPunktow, streak) {
   const wezel = wezelStreaka(streak);
   if (wezel) wezelPunktow.append(' · ', wezel);
 }
 
-/** Delikatne stuknięcie — Android potrafi, iPhone udaje, że nie słyszał. */
+/** Delikatne stuknięcie. Android potrafi, iPhone udaje, że nie słyszał. */
 export function stuknij(wzor = 12) {
   try { navigator.vibrate?.(wzor); } catch { /* nieistotne */ }
 }
@@ -100,6 +100,6 @@ export async function trzymajEkran() {
     if (!('wakeLock' in navigator)) return null;
     return await navigator.wakeLock.request('screen');
   } catch {
-    return null;                      // np. bateria na wyczerpaniu — trudno
+    return null;                      // np. bateria na wyczerpaniu, trudno
   }
 }

@@ -1,26 +1,26 @@
 /* ==========================================================================
-   Turniej Piąteczki — pojedynek 1v1, asynchroniczny, przez Firestore.
+   Turniej Piąteczki, pojedynek 1v1, asynchroniczny, przez Firestore.
    Pięć rund po pięć piosenek. Zapraszający (P1) wybiera temat rund 2 i 4
    w miarę jak do nich dochodzi; przeciwnik (P2) wybiera temat rund 1, 3 i 5.
-   Celowo mniej rund dla P1 (dwie, nie trzy) — P1 i tak rusza pierwszy,
+   Celowo mniej rund dla P1 (dwie, nie trzy). P1 i tak rusza pierwszy,
    więc z trzema rundami miałby zbyt duży wpływ na temat całego pojedynku.
    Sekwencja trzech ruchów:
      1. P1 gra swoje rundy (2, 4) i wysyła link.
-     2. P2 gra WSZYSTKIE pięć rund — rundy P1 już gotowe, swoje (1, 3, 5)
+     2. P2 gra WSZYSTKIE pięć rund, rundy P1 już gotowe, swoje (1, 3, 5)
         układa w locie tak jak P1 układał swoje.
-     3. P1 wraca i dogrywa już gotowe rundy 1, 3 i 5 — pojedynek zamknięty,
+     3. P1 wraca i dogrywa już gotowe rundy 1, 3 i 5, pojedynek zamknięty,
         obaj gracze mają dokładnie te same dwadzieścia pięć piosenek.
 
    Ta sama filozofia co wyzwanie.js: zero MQTT, telefon rozmawia z bazą
    tylko wtedy, gdy trzeba coś dograć albo odebrać. Każdy zapis w Firestore
-   jest tworzony raz i już niezmienny (patrz firestore.rules) — runda raz
+   jest tworzony raz i już niezmienny (patrz firestore.rules), runda raz
    ułożona zostaje taka sama dla obu graczy, ruch raz zapisany się nie da
    poprawić.
 
    Trwała tablica wyników liczy się z zapisanych meczów po stronie klienta
    (agregacja po ksywce), a panel administratora (czyszczenie tablicy,
    ukrywanie ksywki) działa pod kodem, którego hash siedzi w regułach
-   Firestore — patrz komentarz na górze firestore.rules.
+   Firestore, patrz komentarz na górze firestore.rules.
    ========================================================================== */
 
 import {
@@ -42,30 +42,30 @@ const CZAS_WYBRZMIENIA_MS = 4000;
 const CZAS_ODLICZANIA_MS = 3000;
 const PIOSENEK_W_RUNDZIE = 5;
 
-// Temat rundy losuje się, nie wybiera dowolnie — patrz pokazWyborTematuRundy.
+// Temat rundy losuje się, nie wybiera dowolnie, patrz pokazWyborTematuRundy.
 // Gracz może (ale nie musi) odrzucić po jednej wylosowanej kategorii i jednej
 // dekadzie, każde odrzucenie kosztuje punkty w tej rundzie.
 const LOSOWANYCH_KATEGORII = 4;
 const LOSOWANYCH_DEKAD = 3;
 const KARA_ODRZUCENIA = 30;
 
-// Które rundy (0-based) wybiera który gracz — patrz opis mechaniki wyżej.
+// Które rundy (0-based) wybiera który gracz, patrz opis mechaniki wyżej.
 // P1 zaczyna, więc dostaje mniej rund do ułożenia niż P2 (który i tak dogania
-// wszystko na koniec) — inaczej P1 miałby zbyt dużą przewagę we wpływie na
+// wszystko na koniec), inaczej P1 miałby zbyt dużą przewagę we wpływie na
 // temat całego pojedynku, bo ustalałby go jako pierwszy i w większości.
 const RUNDY_P1 = [1, 3];      // rundy 2, 4
 const RUNDY_P2 = [0, 2, 4];   // rundy 1, 3, 5
 
-// Hash SHA-256 kodu administratora — dokładnie ten sam literał co
+// Hash SHA-256 kodu administratora, dokładnie ten sam literał co
 // w firestore.rules. Tu służy tylko do lokalnego sprawdzenia, czy wpisany
 // kod jest poprawny, zanim appka w ogóle spróbuje zapisu (żeby nie strzelać
-// na ślepo w regułę, która i tak by go odrzuciła) — prawdziwe wymuszenie
+// na ślepo w regułę, która i tak by go odrzuciła), prawdziwe wymuszenie
 // jest po stronie Firestore, nie tutaj.
 const KOD_ADMINA_HASH = '0cc9e820e268fd7bfe1dbef054e34e44751aa6f69aaa2c279f3222779620fb63';
 const KLUCZ_ADMIN_HASH = 'jtm:turniejAdminHash';
 
 // Ile pojedynków (licząc rewanże i wyzwania ponowne) może rozegrać jedna
-// ksywka w ciągu tygodnia — patrz sprawdzITykajLimitTygodniowy() niżej.
+// ksywka w ciągu tygodnia, patrz sprawdzITykajLimitTygodniowy() niżej.
 const LIMIT_TYGODNIOWY = 5;
 
 async function shaHex(tekst) {
@@ -77,7 +77,7 @@ function kluczKsywki(ksywka) {
   return ksywka.trim().toLowerCase();
 }
 
-// Ostatni pojedynek, w którym to urządzenie faktycznie brało udział — dzięki
+// Ostatni pojedynek, w którym to urządzenie faktycznie brało udział, dzięki
 // temu ekran startowy może zaproponować „Wróć do Turnieju Piąteczki”, nawet
 // gdy powiadomienie push nie doszło (zerwane połączenie, wyłączona appka) i
 // link zaginął. Bez tego ciężko było wrócić do przerwanej rozgrywki.
@@ -93,15 +93,15 @@ function zapomnijAktywnyPojedynek(id) {
 
 /** Jeśli zgoda na powiadomienia jest już dana (np. z pytania przy pierwszej
     wizycie, gdy ksywka nie była jeszcze znana), po cichu dopina do niej
-    token — bez tego appka wiedziałaby "wolno wysyłać", ale nie miałaby
-    komu. Brak zgody albo brak sieci — nic się nie dzieje, to nie blokuje gry. */
+    token, bez tego appka wiedziałaby "wolno wysyłać", ale nie miałaby
+    komu. Brak zgody albo brak sieci, nic się nie dzieje, to nie blokuje gry. */
 function odswiezTokenPowiadomien(ksywka) {
   if (typeof Notification === 'undefined' || Notification.permission !== 'granted') return;
   import('./powiadomienia.js').then((m) => m.wlaczPowiadomienia(ksywka)).catch(() => {});
 }
 
-/** Numer tygodnia ISO (poniedziałek–niedziela) liczony w czasie polskim,
-    np. "2026-W36" — klucz do limitu tygodniowego i do przyszłego
+/** Numer tygodnia ISO (poniedziałek-niedziela) liczony w czasie polskim,
+    np. "2026-W36", klucz do limitu tygodniowego i do przyszłego
     cotygodniowego podsumowania. */
 function tydzienTygodniowy(teraz = new Date()) {
   const czesci = new Intl.DateTimeFormat('en-CA', {
@@ -127,17 +127,17 @@ export function uruchom() {
   const mojeId = idUrzadzenia();
 
   // Bez tego niepowodzenie odtwarzania (typowo iOS: telefon jeszcze nie
-  // "rozgrzany" dotknięciem) mijało się bez śladu — ekran po prostu milczał,
+  // "rozgrzany" dotknięciem) mijało się bez śladu, ekran po prostu milczał,
   // a gracz nie wiedział, że coś w ogóle poszło nie tak.
   odtwarzacz.onBlad = () => {
-    powiadom('Nie udało się puścić fragmentu — stuknij gdziekolwiek na ekranie i spróbuj ponownie.', 'blad');
+    powiadom('Nie udało się puścić fragmentu. Stuknij gdziekolwiek na ekranie i spróbuj ponownie.', 'blad');
   };
 
   const stan = {
     id: null,                 // id dokumentu pojedynku
     rola: null,                // 'p1' | 'p2'
     ksywka: '',
-    utworca: null,             // ksywka P1 — do ekranów dołączania/oczekiwania
+    utworca: null,             // ksywka P1, do ekranów dołączania/oczekiwania
     przeciwnik: null,          // ksywka drugiego gracza, gdy już znana
     ustawienia: { czasOdpowiedzi: 15, bonusSerii: false },
     rundy: [null, null, null, null, null],     // {temat, seria} albo null
@@ -177,7 +177,7 @@ export function uruchom() {
   }
 
   /** Jak znaczek(), ale dla tematu rundy: nie zaznaczenie, tylko świadome
-      odrzucenie za karę punktową (patrz KARA_ODRZUCENIA) — inny stan wizualny
+      odrzucenie za karę punktową (patrz KARA_ODRZUCENIA), inny stan wizualny
       niż zwykłe aria-pressed, więc osobny znacznik data-odrzucona. */
   function znaczekOdrzucalny(tekst, odrzucona, naklik, specjalna = false) {
     return el('button', {
@@ -221,7 +221,7 @@ export function uruchom() {
     stan.ustawienia.bonusSerii = z.target.checked;
   });
 
-  /** Zakłada nowy pojedynek i od razu wchodzi w niego jako P1 — używane
+  /** Zakłada nowy pojedynek i od razu wchodzi w niego jako P1, używane
       zarówno z ekranu ustawień, jak i z przycisków Rewanż/Wyzwij ponownie
       pod wynikiem poprzedniego pojedynku. Czyści cały stan gry, więc stara
       rozgrywka nie miesza się z nową. */
@@ -236,10 +236,10 @@ export function uruchom() {
     try {
       wolnoGrac = await sprawdzITykajLimitTygodniowy(ksywka);
     } catch {
-      wolnoGrac = true; // brak sieci przy samym sprawdzaniu — spróbujemy dalej, zapis i tak może się nie udać
+      wolnoGrac = true; // brak sieci przy samym sprawdzaniu, spróbujemy dalej, zapis i tak może się nie udać
     }
     if (!wolnoGrac) {
-      powiadom(`Masz już ${LIMIT_TYGODNIOWY} pojedynków w tym tygodniu — wróć w przyszłym tygodniu.`, 'blad');
+      powiadom(`Masz już ${LIMIT_TYGODNIOWY} pojedynków w tym tygodniu. Wróć w przyszłym tygodniu.`, 'blad');
       pokazEkran(ekranPowrotu);
       return;
     }
@@ -250,7 +250,7 @@ export function uruchom() {
       noweId = await utworzPojedynek({ ustawienia, utworca: ksywka });
       await utworzGracza(noweId, mojeId, { ksywka, rola: 'p1' });
     } catch {
-      powiadom('Nie udało się założyć pojedynku — sprawdź internet i spróbuj ponownie.', 'blad');
+      powiadom('Nie udało się założyć pojedynku. Sprawdź internet i spróbuj ponownie.', 'blad');
       pokazEkran(ekranPowrotu);
       return;
     }
@@ -288,7 +288,7 @@ export function uruchom() {
       dane = null;
     }
     if (!dane) {
-      powiadom('Nie znalazłem tego pojedynku — link mógł się urwać.', 'blad');
+      powiadom('Nie znalazłem tego pojedynku, link mógł się urwać.', 'blad');
       location.hash = '#/';
       return;
     }
@@ -312,7 +312,7 @@ export function uruchom() {
       }
 
       if (gracze.length >= 2) {
-        // Ktoś trzeci trafił na link cudzego pojedynku — może tylko popatrzeć.
+        // Ktoś trzeci trafił na link cudzego pojedynku, może tylko popatrzeć.
         stan.przeciwnik = gracze.find((g) => g.rola === 'p2')?.ksywka || null;
         await pokazWynikPojedynku(id, { readOnly: true });
         return;
@@ -322,7 +322,7 @@ export function uruchom() {
       const p1Skonczyl = p1 ? (await pobierzRuchy(id, p1.id)).length >= 1 : false;
       if (!p1Skonczyl) {
         $('#turniej-jeszcze-opis').textContent =
-          `${dane.utworca} jeszcze gra swoją część — spróbuj dołączyć za chwilę.`;
+          `${dane.utworca} jeszcze gra swoją część, spróbuj dołączyć za chwilę.`;
         pokazEkran('turniej-jeszcze');
         return;
       }
@@ -331,7 +331,7 @@ export function uruchom() {
       $('#turniej-dolacz-ksywka').value = localStorage.getItem('jtm:ksywka') || '';
       pokazEkran('turniej-dolacz');
     } catch {
-      powiadom('Nie udało się wczytać pojedynku — sprawdź internet i spróbuj ponownie.', 'blad');
+      powiadom('Nie udało się wczytać pojedynku. Sprawdź internet i spróbuj ponownie.', 'blad');
       location.hash = '#/';
     }
   }
@@ -351,14 +351,14 @@ export function uruchom() {
       wolnoGrac = true;
     }
     if (!wolnoGrac) {
-      powiadom(`Masz już ${LIMIT_TYGODNIOWY} pojedynków w tym tygodniu — wróć w przyszłym tygodniu.`, 'blad');
+      powiadom(`Masz już ${LIMIT_TYGODNIOWY} pojedynków w tym tygodniu. Wróć w przyszłym tygodniu.`, 'blad');
       return;
     }
 
     try {
       await utworzGracza(stan.id, mojeId, { ksywka, rola: 'p2' });
     } catch {
-      powiadom('Nie udało się dołączyć — sprawdź internet i spróbuj ponownie.', 'blad');
+      powiadom('Nie udało się dołączyć. Sprawdź internet i spróbuj ponownie.', 'blad');
       return;
     }
     zapamietajAktywnyPojedynek(stan.id);
@@ -393,14 +393,14 @@ export function uruchom() {
       if (mojeRuchy.length === 0) { rozpocznijRuch(RUNDY_P2.concat(RUNDY_P1).sort((a, b) => a - b)); return; }
       await pokazWynikPojedynku(id, {});
     } catch {
-      powiadom('Nie udało się sprawdzić stanu pojedynku — sprawdź internet i spróbuj ponownie.', 'blad');
+      powiadom('Nie udało się sprawdzić stanu pojedynku. Sprawdź internet i spróbuj ponownie.', 'blad');
       pokazCzekajEkran({
         opis: 'Nie udało się połączyć z bazą.', link: null, powiadomKogo: null, naSprawdz: () => wznowGre(id),
       });
     }
   }
 
-  /** naKogo: 'p2' — czekam, aż przeciwnik dograje swoją część (jeszcze mogę
+  /** naKogo: 'p2', czekam, aż przeciwnik dograje swoją część (jeszcze mogę
       nie znać jego ksywki, jeśli jeszcze nie dołączył). przeciwnikDolaczyl
       steruje tym, czy w ogóle jest kogo bezpośrednio szturchnąć. */
   function pokazCzekaj(naKogo, { przeciwnikDolaczyl = false } = {}) {
@@ -417,7 +417,7 @@ export function uruchom() {
 
   /** Wspólny ekran oczekiwania: link/QR do wysłania, dopóki nie wiadomo
       jeszcze z kim się gra, i/albo przycisk do bezpośredniego szturchnięcia
-      już znanego przeciwnika powiadomieniem push (patrz utworzProsbe niżej —
+      już znanego przeciwnika powiadomieniem push (patrz utworzProsbe niżej,
       to osobna, natychmiastowa ścieżka, niezależna od automatycznego
       powiadomienia wysyłanego przez Cloud Function po zapisaniu ruchu). */
   function pokazCzekajEkran({
@@ -444,7 +444,7 @@ export function uruchom() {
           przyciskPowiadom.textContent = 'Wysłano ✓';
           powiadom(`Wysłano powiadomienie do ${powiadomKogo}.`);
         } catch {
-          powiadom('Nie udało się wysłać powiadomienia — sprawdź internet.', 'blad');
+          powiadom('Nie udało się wysłać powiadomienia. Sprawdź internet.', 'blad');
           przyciskPowiadom.disabled = false;
         }
       };
@@ -456,13 +456,13 @@ export function uruchom() {
   }
 
   /** Kopiowanie linku bez polegania na navigator.share (na części urządzeń
-      albo w ogóle go nie ma, albo cicho nic nie robi) — Clipboard API, a gdy
+      albo w ogóle go nie ma, albo cicho nic nie robi). Clipboard API, a gdy
       i to zawiedzie (starszy WebView, brak uprawnień), execCommand jako
       zapasowe wyjście, i dopiero na końcu goły link w powiadomieniu. */
   async function kopiujLink(link) {
     try {
       await navigator.clipboard.writeText(link);
-      powiadom('Link skopiowany — wklej go, gdzie chcesz.');
+      powiadom('Link skopiowany. Wklej go, gdzie chcesz.');
       return;
     } catch { /* spróbujemy starszego sposobu niżej */ }
     try {
@@ -475,8 +475,8 @@ export function uruchom() {
       pole.select();
       const udalo = document.execCommand('copy');
       pole.remove();
-      if (udalo) { powiadom('Link skopiowany — wklej go, gdzie chcesz.'); return; }
-    } catch { /* i to się nie udało — pokaż chociaż sam link */ }
+      if (udalo) { powiadom('Link skopiowany. Wklej go, gdzie chcesz.'); return; }
+    } catch { /* i to się nie udało, pokaż chociaż sam link */ }
     powiadom(link);
   }
 
@@ -503,7 +503,7 @@ export function uruchom() {
 
   /** Losuje temat rundy zamiast dawać wybór z całego katalogu: cztery
       kategorie i trzy dekady, po jednej z każdej wolno (ale nie trzeba)
-      odrzucić — węższy temat, ale kosztem punktów, patrz KARA_ODRZUCENIA
+      odrzucić, węższy temat, ale kosztem punktów, patrz KARA_ODRZUCENIA
       niżej. Bardziej konkurencyjne niż dotychczasowy dowolny wybór. */
   function pokazWyborTematuRundy(indeksRundy) {
     stan.wyborTemat = {
@@ -544,7 +544,7 @@ export function uruchom() {
     znacznikKary.dataset.kara = kara > 0 ? 'tak' : 'nie';
     znacznikKary.textContent = kara > 0
       ? `⚠️ Odrzucenie kosztuje w tej rundzie: −${kara} pkt`
-      : '✅ Bez kary — nic jeszcze nie odrzucono';
+      : '✅ Bez kary, nic jeszcze nie odrzucono';
 
     const aktywneKategorie = temat.kategorieLosowe.filter((id) => id !== temat.kategoriaOdrzucona);
     const aktywneDekady = temat.dekadyLosowe.filter((id) => id !== temat.dekadaOdrzucona);
@@ -570,14 +570,14 @@ export function uruchom() {
       { ...opcjePuli(), ziarno: Math.floor(Math.random() * 2 ** 31), pomin: juzUzyte, ile: PIOSENEK_W_RUNDZIE },
     );
     if (!seria.length) {
-      powiadom('Z tego tematu nie da się ułożyć rundy — wybierz coś innego.', 'blad');
+      powiadom('Z tego tematu nie da się ułożyć rundy. Wybierz coś innego.', 'blad');
       return;
     }
     const danaRunda = { temat: { kategorie: aktywneKategorie, dekady: aktywneDekady, kara }, seria };
     try {
       await utworzRunde(stan.id, indeksRundy, danaRunda);
     } catch {
-      powiadom('Nie udało się zapisać rundy — sprawdź internet i spróbuj ponownie.', 'blad');
+      powiadom('Nie udało się zapisać rundy. Sprawdź internet i spróbuj ponownie.', 'blad');
       return;
     }
     stan.rundy[indeksRundy] = danaRunda;
@@ -585,7 +585,7 @@ export function uruchom() {
     pokazOdliczanieRundy();
   });
 
-  /** Krótkie odliczanie 3-2-1 przed pierwszą piosenką rundy — bez tego
+  /** Krótkie odliczanie 3-2-1 przed pierwszą piosenką rundy, bez tego
       ekran rundy potrafił się jeszcze nie domalować, gdy muzyka już leciała
       (pokazEkran + puszczenie utworu w tym samym takcie). Ten sam wzorzec
       co ekran prowadzącego/gracza w grze wieloosobowej. */
@@ -732,7 +732,7 @@ export function uruchom() {
     }
     if (pytanie.typ === 'film') {
       $('#turniej-odsloniety-tytul').textContent = pytanie.utwor.film;
-      $('#turniej-odsloniety-wykonawca').textContent = `${pytanie.utwor.tytul} — ${pytanie.utwor.wykonawca}`;
+      $('#turniej-odsloniety-wykonawca').textContent = `${pytanie.utwor.tytul} · ${pytanie.utwor.wykonawca}`;
     } else {
       $('#turniej-odsloniety-tytul').textContent = pytanie.utwor.tytul;
       $('#turniej-odsloniety-wykonawca').textContent = `${pytanie.utwor.wykonawca} · ${pytanie.utwor.rok}`;
@@ -768,7 +768,7 @@ export function uruchom() {
   function zakonczRunde() {
     // Twarde uciszenie obu elementów audio, niezależnie od tego, czy
     // wcześniejsze wygaszanie (200 ms po kliknięciu „Dalej” albo naturalne po
-    // odsłonie) zdążyło dobiec końca — bez tego, przy szybkim przejściu prosto
+    // odsłonie) zdążyło dobiec końca, bez tego, przy szybkim przejściu prosto
     // do kolejnej rundy (temat już ułożony, brak ekranu wyboru pomiędzy),
     // ostatnia piosenka potrafiła zostać słyszalna jeszcze na ekranie wyboru
     // tematu następnej rundy.
@@ -793,7 +793,7 @@ export function uruchom() {
       }
       await pokazWynikPojedynku(stan.id, {});
     } catch {
-      powiadom('Nie udało się zapisać wyniku — sprawdź internet i spróbuj ponownie.', 'blad');
+      powiadom('Nie udało się zapisać wyniku. Sprawdź internet i spróbuj ponownie.', 'blad');
       pokazCzekajEkran({
         opis: 'Nie udało się zapisać wyniku.', link: null, powiadomKogo: null, naSprawdz: () => zakonczRuch(),
       });
@@ -803,7 +803,7 @@ export function uruchom() {
   /* --------------------------------------------------------------- wyniki */
 
   /** Sumuje wszystkie ruchy jednego gracza w komplet 5 wyników rund
-      (indeks = numer rundy) — działa niezależnie od tego, w jakiej
+      (indeks = numer rundy), działa niezależnie od tego, w jakiej
       kolejności i w ilu ruchach ten gracz je rozegrał. */
   function scalRuchy(ruchy) {
     const wynikiRund = Array(5).fill(null);
@@ -848,7 +848,7 @@ export function uruchom() {
             ? `Pojedynek między ${p1.ksywka} a ${p2.ksywka} jeszcze trwa (czeka się na ${czyjaKolej}).`
             : `Czekasz na ${czyjaKolej}.`,
           link: null,
-          // !readOnly znaczy, że to ja jestem jednym z graczy — a skoro
+          // !readOnly znaczy, że to ja jestem jednym z graczy, a skoro
           // dotarłem tutaj (a nie do rozgrywki), to zawsze ja już skończyłem
           // swoją część i to przeciwnik zwleka, nigdy odwrotnie.
           powiadomKogo: readOnly ? null : czyjaKolej,
@@ -858,7 +858,7 @@ export function uruchom() {
       }
 
       const zwyciezca = wynikP1.punkty === wynikP2.punkty ? 'remis' : wynikP1.punkty > wynikP2.punkty ? 'p1' : 'p2';
-      try { await zapiszWynikTurnieju(id, { p1, p2, wynikP1, wynikP2, zwyciezca }); } catch { /* ktoś już zapisał, albo brak sieci — nic straconego */ }
+      try { await zapiszWynikTurnieju(id, { p1, p2, wynikP1, wynikP2, zwyciezca }); } catch { /* ktoś już zapisał, albo brak sieci, nic straconego */ }
       if (!readOnly) zapomnijAktywnyPojedynek(id);
 
       const jaWynik = stan.rola === 'p2' ? wynikP2 : wynikP1;
@@ -869,8 +869,8 @@ export function uruchom() {
       werdykt.dataset.jak = readOnly ? 'brak' : jaWygral ? 'dobrze' : zwyciezca === 'remis' ? 'brak' : 'zle';
       werdykt.textContent = readOnly ? '🎯' : zwyciezca === 'remis' ? '🤝' : jaWygral ? '🏆' : '🎯';
       $('#turniej-wynik-opis').textContent = zwyciezca === 'remis'
-        ? `Remis: ${p1.ksywka} ${wynikP1.punkty} – ${wynikP2.punkty} ${p2.ksywka}`
-        : `${zwyciezca === 'p1' ? p1.ksywka : p2.ksywka} wygrywa ${Math.max(wynikP1.punkty, wynikP2.punkty)} – ${Math.min(wynikP1.punkty, wynikP2.punkty)}`;
+        ? `Remis: ${p1.ksywka} ${wynikP1.punkty} : ${wynikP2.punkty} ${p2.ksywka}`
+        : `${zwyciezca === 'p1' ? p1.ksywka : p2.ksywka} wygrywa ${Math.max(wynikP1.punkty, wynikP2.punkty)} : ${Math.min(wynikP1.punkty, wynikP2.punkty)}`;
       if (!readOnly) $('#turniej-moj-wynik').textContent = `Twój wynik: ${jaWynik.punkty} pkt, ${jaGracz.ksywka}`;
       $('#turniej-moj-wynik').hidden = readOnly;
 
@@ -879,7 +879,7 @@ export function uruchom() {
 
       pokazEkran('turniej-wynik');
     } catch {
-      powiadom('Nie udało się wczytać wyniku — sprawdź internet i spróbuj ponownie.', 'blad');
+      powiadom('Nie udało się wczytać wyniku. Sprawdź internet i spróbuj ponownie.', 'blad');
       pokazCzekajEkran({
         opis: 'Nie udało się połączyć z bazą.',
         link: null,
@@ -895,18 +895,18 @@ export function uruchom() {
       const runda = stan.rundy[i];
       const kategoriaOpis = runda
         ? runda.temat.kategorie.length === KATEGORIE.length ? 'wszystko' : `${runda.temat.kategorie.length} kat.`
-        : '—';
+        : '·';
       lista.append(el('li', {}, [
         el('span', { klasa: 'miejsce', tekst: `${i + 1}.` }),
         el('span', { klasa: 'kto-blok' }, [
           el('span', { klasa: 'kto', tekst: kategoriaOpis }),
         ]),
-        el('span', { klasa: 'ile', tekst: `${wynikP1.wynikiRund[i]?.punkty ?? '—'} : ${wynikP2.wynikiRund[i]?.punkty ?? '—'}` }),
+        el('span', { klasa: 'ile', tekst: `${wynikP1.wynikiRund[i]?.punkty ?? '·'} : ${wynikP2.wynikiRund[i]?.punkty ?? '·'}` }),
       ]));
     }
   }
 
-  /** P2 (przyjmujący wyzwanie) dostaje Rewanż — od razu, bez ekranu ustawień,
+  /** P2 (przyjmujący wyzwanie) dostaje Rewanż, od razu, bez ekranu ustawień,
       zakłada nowy pojedynek, w którym role się odwracają i to on rusza
       pierwszy. P1 tego przycisku nie widzi: rewanż ma sens tylko wtedy, gdy
       ktoś faktycznie odpowiada na cudze wyzwanie, nie kiedy sam je rzucił. */
@@ -923,7 +923,7 @@ export function uruchom() {
         el('span', { klasa: 'klawisz-emoji', 'aria-hidden': 'true', tekst: '🗡️' }),
         el('span', { klasa: 'klawisz-tresc' }, [
           el('strong', { tekst: 'Rewanż' }),
-          el('small', { tekst: przeciwnik ? `Odwet na ${przeciwnik} — tym razem to Ty ruszasz pierwszy` : 'Odwróćcie role — tym razem to Ty ruszasz pierwszy' }),
+          el('small', { tekst: przeciwnik ? `Odwet na ${przeciwnik}, tym razem to Ty ruszasz pierwszy` : 'Odwróćcie role, tym razem to Ty ruszasz pierwszy' }),
         ]),
       ]));
     }
@@ -948,7 +948,7 @@ export function uruchom() {
     try {
       await rysujRanking();
     } catch {
-      powiadom('Nie udało się wczytać tablicy wyników — sprawdź internet i spróbuj ponownie.', 'blad');
+      powiadom('Nie udało się wczytać tablicy wyników. Sprawdź internet i spróbuj ponownie.', 'blad');
       location.hash = '#/';
       return;
     }
@@ -1045,7 +1045,7 @@ export function uruchom() {
 
   /** Sprawdza i od razu podbija licznik pojedynków tej ksywki w bieżącym
       tygodniu (transakcyjnie, żeby dwa jednoczesne zapisy się nie
-      pogubiły). Zwraca false, gdy limit już wyczerpany — wtedy nic nie
+      pogubiły). Zwraca false, gdy limit już wyczerpany, wtedy nic nie
       zapisuje. */
   async function sprawdzITykajLimitTygodniowy(ksywka) {
     const { db, f } = await baza();
@@ -1105,11 +1105,11 @@ export function uruchom() {
     });
   }
 
-  /** Bezpośrednie "szturchnięcie" przeciwnika przyciskiem Powiadom gracza —
+  /** Bezpośrednie "szturchnięcie" przeciwnika przyciskiem Powiadom gracza,
       osobny, natychmiastowy zapis, który po stronie serwera obsługuje
       Cloud Function naProsbePowiadomienia (functions/index.js). Niezależne
       od automatycznego powiadomienia po zapisaniu ruchu (naRuchWTurnieju),
-      bo tu akurat żaden nowy ruch nie powstaje — czekamy na cudzy. */
+      bo tu akurat żaden nowy ruch nie powstaje, czekamy na cudzy. */
   async function utworzProsbe(id, odRoli) {
     const { db, f } = await baza();
     await f.setDoc(f.doc(f.collection(db, 'pojedynki', id, 'prosby')), {

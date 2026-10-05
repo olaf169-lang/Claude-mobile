@@ -1,10 +1,10 @@
 /* ==========================================================================
-   Odtwarzacz fragmentów — z myślą o telefonie prowadzącego.
+   Odtwarzacz fragmentów, z myślą o telefonie prowadzącego.
    --------------------------------------------------------------------------
    Trzy rzeczy, które trzeba tu obejść:
 
    • iOS puszcza dźwięk tylko wtedy, gdy pierwsze odtworzenie wyszło z dotknięcia
-     ekranu. Dlatego przy starcie gry „rozgrzewamy” oba elementy <audio> ciszą —
+     ekranu. Dlatego przy starcie gry „rozgrzewamy” oba elementy <audio> ciszą,
      potem można je już włączać z kodu, między rundami.
    • Safari na iPhonie ignoruje ustawianie głośności z JavaScriptu. Sprawdzamy
      to raz i tam, gdzie się nie da, po prostu nie wyciszamy płynnie.
@@ -50,7 +50,7 @@ export class Odtwarzacz {
         element.currentTime = 0;
         return true;
       } catch {
-        return false; // zablokowane — spróbujemy ponownie przy następnym dotknięciu
+        return false; // zablokowane, spróbujemy ponownie przy następnym dotknięciu
       }
     }));
 
@@ -60,7 +60,7 @@ export class Odtwarzacz {
     this.steruje = Math.abs(probny.volume - 0.42) < 0.01;
     probny.volume = 1;
 
-    // Musi się udać na OBU elementach — inaczej rozgrzany=true kłamałby,
+    // Musi się udać na OBU elementach, inaczej rozgrzany=true kłamałby,
     // że telefon jest gotowy, mimo że kolejne odtworzenie i tak zostanie
     // zablokowane (dawny błąd: readyState>0 jest prawdą nawet po zablokowanym
     // play(), więc ta flaga zawsze wychodziła "gotowe", nawet gdy nie było).
@@ -80,7 +80,7 @@ export class Odtwarzacz {
 
   /**
    * Puszcza fragment. `startS` to konkretny moment (w sekundach) w obrębie
-   * 30-sekundowego podglądu, od którego ma ruszyć — podaje go wywołujący
+   * 30-sekundowego podglądu, od którego ma ruszyć, podaje go wywołujący
    * (a nie ten odtwarzacz), żeby dało się rozesłać dokładnie tę samą wartość
    * na inne telefony i wszyscy usłyszeli to samo miejsce w piosence.
    */
@@ -102,7 +102,7 @@ export class Odtwarzacz {
 
     const ustawStart = () => {
       if (startS <= 0) return;
-      // Realna długość podglądu, jeśli już ją znamy — bywa krótsza niż 30 s,
+      // Realna długość podglądu, jeśli już ją znamy, bywa krótsza niż 30 s,
       // a przeskoczenie za koniec potrafi się różnie zachować w różnych
       // przeglądarkach, więc zostawiamy sekundowy zapas.
       const znanaDlugoscS = Number.isFinite(element.duration) ? element.duration : DLUGOSC_PODGLADU_MS / 1000;
@@ -122,7 +122,7 @@ export class Odtwarzacz {
     }
   }
 
-  /** Ścisza i zatrzymuje. Tam, gdzie głośności nie da się zmieniać — ucina. */
+  /** Ścisza i zatrzymuje. Tam, gdzie głośności nie da się zmieniać, ucina. */
   zatrzymaj({ wygaszanieMs = 700 } = {}) {
     clearTimeout(this._wygaszanie);
     const element = this.elementy[this.biezacy];

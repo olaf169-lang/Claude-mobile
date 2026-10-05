@@ -1,13 +1,13 @@
 /* ==========================================================================
-   Telefon gracza — brzęczyk z czterema kafelkami.
+   Telefon gracza, brzęczyk z czterema kafelkami.
    --------------------------------------------------------------------------
    Nic tu nie jest rozstrzygane: telefon pokazuje to, co nadał prowadzący,
    i odsyła jedno kliknięcie (albo, gdy przyjdzie kolej, wybrany temat rundy).
-   Czas mierzy jednak u siebie — od chwili, w której pytanie faktycznie
+   Czas mierzy jednak u siebie, od chwili, w której pytanie faktycznie
    pojawiło się na ekranie. Dzięki temu wolniejsze łącze nie zabiera punktów,
    a szybsze ich nie dodaje.
 
-   Telefon gracza celowo nie zna katalogu utworów — prowadzący dosyła w każdej
+   Telefon gracza celowo nie zna katalogu utworów, prowadzący dosyła w każdej
    wiadomości gotowe opisy (nazwy kategorii, emoji, liczbę pytań), żeby nie
    trzeba było ściągać tu tysiąca kilkuset piosenek tylko po to, żeby kliknąć
    jedną z czterech odpowiedzi albo zaznaczyć temat swojej rundy.
@@ -23,7 +23,7 @@ import { swietuj, odblokujDzwiekSwieta } from './swietowanie.js';
 
 const KSZTALTY = ['▲', '◆', '●', '■'];
 const ODSTEP_PUKANIA_MS = 6000;
-// Musi się zgadzać z CZAS_WYBRZMIENIA_MS w prowadzacy.js — telefon gracza nie
+// Musi się zgadzać z CZAS_WYBRZMIENIA_MS w prowadzacy.js, telefon gracza nie
 // dostaje tej wartości w wiadomości, więc obie strony trzymają tę samą liczbę.
 const CZAS_WYBRZMIENIA_MS = 4000;
 
@@ -49,7 +49,7 @@ export function uruchom() {
     kluczWynikowRundy: null,
     kluczNagrania: null,          // `${nrRundyGry}/${nr}` pytania, dla którego już ruszyła muzyka u siebie
     nagranieOczekiwane: false,    // czy bieżące pytanie w ogóle niesie adres nagrania
-    tematOpcje: null,            // { kategorie, dekady } — opcje do wyboru, przysłane przez prowadzącego
+    tematOpcje: null,            // { kategorie, dekady }, opcje do wyboru, przysłane przez prowadzącego
     wyborTemat: null,            // robocza (jeszcze niewysłana) wersja wyboru
   };
 
@@ -92,9 +92,9 @@ export function uruchom() {
         powiadom(powitanie.powod || 'Pokój jest pełny.', 'blad');
         return;
       }
-      // Rozgrzewka — tylko jeśli prowadzący faktycznie włączył „muzykę wszędzie”.
+      // Rozgrzewka, tylko jeśli prowadzący faktycznie włączył „muzykę wszędzie”.
       // Robiona zawsze, samo odtworzenie czegokolwiek (nawet ciszy) na iPhonie
-      // zwykle ucina muzykę graną w tle w innej aplikacji — nie chcemy robić
+      // zwykle ucina muzykę graną w tle w innej aplikacji, nie chcemy robić
       // tego niepotrzebnie każdemu, kto dołącza do zwykłej gry.
       if (powitanie.muzykaWszedzie) odtwarzacz.rozgrzej();
       stan.ksywka = powitanie.ksywka || ksywka;
@@ -118,7 +118,7 @@ export function uruchom() {
   function pierwszyPowod(tekst) {
     const wiersze = String(tekst).split('\n').filter(Boolean);
     const oPokoju = wiersze.find((w) => w.includes('nikt nie prowadzi'));
-    if (oPokoju) return 'Nie ma takiego pokoju. Sprawdź kod — prowadzący musi mieć otwarte lobby.';
+    if (oPokoju) return 'Nie ma takiego pokoju. Sprawdź kod, prowadzący musi mieć otwarte lobby.';
     return wiersze[0] || 'Nie udało się połączyć.';
   }
 
@@ -166,7 +166,7 @@ export function uruchom() {
     const jaWybieram = !wiadomosc.sterujeProwadzacy && wiadomosc.wybierajacy === mojeId;
 
     if (jaWybieram) {
-      if (stan.kluczWyboru === klucz) return;      // ten sam panel już stoi — nie zrywaj wyboru w trakcie klikania
+      if (stan.kluczWyboru === klucz) return;      // ten sam panel już stoi, nie zrywaj wyboru w trakcie klikania
       stan.kluczWyboru = klucz;
       stan.tematOpcje = { kategorie: wiadomosc.kategorieDostepne || [], dekady: wiadomosc.dekadyDostepne || [] };
       stan.wyborTemat = {
@@ -237,7 +237,7 @@ export function uruchom() {
     if (!stan.wyborTemat) return;
     pokoj.nadaj({ t: 'temat', id: mojeId, kategorie: stan.wyborTemat.kategorie, dekady: stan.wyborTemat.dekady });
     $('#gracz-zacznij-runde').disabled = true;
-    $('#gracz-zacznij-runde').textContent = 'Wysłano — czekamy…';
+    $('#gracz-zacznij-runde').textContent = 'Wysłano, czekamy…';
   });
 
   /* -------------------------------------------------------------- odliczanie */
@@ -292,9 +292,9 @@ export function uruchom() {
     sprobujOdtworzycMuzyke(wiadomosc);
   }
 
-  /** Gra tylko wtedy, gdy prowadzący włączył „muzykę wszędzie” — inaczej
+  /** Gra tylko wtedy, gdy prowadzący włączył „muzykę wszędzie”, inaczej
       `wiadomosc.nagranie` w ogóle nie przychodzi i telefon milczy jak dotąd.
-      Startujemy raz na pytanie, nie przy każdej powtórce transmisji — a start
+      Startujemy raz na pytanie, nie przy każdej powtórce transmisji, a start
       liczymy tak, żeby trafić w to samo miejsce utworu co prowadzący: ile już
       upłynęło od początku pytania plus jego własny losowy offset. Idealnej
       synchronizacji to nie da (opóźnienia sieci są różne na różnych telefonach),
@@ -331,9 +331,9 @@ export function uruchom() {
     if (stan.wybor !== null) return;
     // Zapasowa okazja do rozgrzewki: gdyby telefon dołączył do lobby zanim
     // prowadzący włączył „muzykę wszędzie”, ten klik i tak jest prawdziwym
-    // dotknięciem ekranu — następne pytanie ma wtedy szansę zagrać.
+    // dotknięciem ekranu, następne pytanie ma wtedy szansę zagrać.
     if (stan.nagranieOczekiwane && !odtwarzacz.rozgrzany) odtwarzacz.rozgrzej();
-    // Ta sama sztuczka co wyżej, tylko dla ewentualnych konfetti na koniec gry —
+    // Ta sama sztuczka co wyżej, tylko dla ewentualnych konfetti na koniec gry,
     // ekran wyników przychodzi sam z sieci, bez dotknięcia, więc dźwięk trzeba
     // odblokować wcześniej, przy pierwszej nadarzającej się okazji.
     odblokujDzwiekSwieta();
@@ -379,7 +379,7 @@ export function uruchom() {
     stan.nrPytania = wiadomosc.nr;
 
     // Muzyka (jeśli gra u nas) leci jeszcze chwilę na ekranie odsłony, tak
-    // samo jak u prowadzącego — potem cichnie, chyba że coś już ją zmieniło.
+    // samo jak u prowadzącego, potem cichnie, chyba że coś już ją zmieniło.
     wygaszanieId += 1;
     const mojeWygaszanie = wygaszanieId;
     setTimeout(() => {
@@ -413,7 +413,7 @@ export function uruchom() {
     }
     if (wiadomosc.film) {
       $('#odsloniety-tytul-gracz').textContent = wiadomosc.film;
-      $('#odsloniety-wykonawca-gracz').textContent = `${wiadomosc.tytul} — ${wiadomosc.wykonawca}`;
+      $('#odsloniety-wykonawca-gracz').textContent = `${wiadomosc.tytul} · ${wiadomosc.wykonawca}`;
     } else {
       $('#odsloniety-tytul-gracz').textContent = wiadomosc.tytul;
       $('#odsloniety-wykonawca-gracz').textContent = `${wiadomosc.wykonawca} · ${wiadomosc.rok}`;
@@ -455,7 +455,7 @@ export function uruchom() {
       ? `${ja.miejsce}. miejsce · ${ja.punkty} pkt`
       : `Runda ${wiadomosc.nrRundyGry} zakończona`;
     $('#gracz-wyniki-rundy-info').textContent = wiadomosc.ostatniaRunda
-      ? 'To była ostatnia runda — zaraz podsumowanie całej gry.'
+      ? 'To była ostatnia runda, zaraz podsumowanie całej gry.'
       : 'Zaraz kolejna runda…';
 
     if (wiadomosc.ostatniaPiosenka) {
@@ -471,7 +471,7 @@ export function uruchom() {
       }
       if (dane.film) {
         $('#ostatnia-piosenka-tytul-gracz').textContent = dane.film;
-        $('#ostatnia-piosenka-wykonawca-gracz').textContent = `${dane.tytul} — ${dane.wykonawca}`;
+        $('#ostatnia-piosenka-wykonawca-gracz').textContent = `${dane.tytul} · ${dane.wykonawca}`;
       } else {
         $('#ostatnia-piosenka-tytul-gracz').textContent = dane.tytul;
         $('#ostatnia-piosenka-wykonawca-gracz').textContent = `${dane.wykonawca} · ${dane.rok}`;
@@ -531,7 +531,7 @@ export function uruchom() {
   }
 
   /* Kod wpisywany ręcznie: przepuszczamy tylko znaki, które w kodach w ogóle
-     występują. Nie ma wśród nich O, I ani cyfr 0 i 1 — właśnie po to, żeby nie
+     występują. Nie ma wśród nich O, I ani cyfr 0 i 1, właśnie po to, żeby nie
      dało się ich pomylić. Litera wklepana z pomyłki po prostu się nie pokaże. */
   $('#pole-kodu').addEventListener('input', (zdarzenie) => {
     zdarzenie.target.value = zdarzenie.target.value

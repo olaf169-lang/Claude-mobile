@@ -1,4 +1,4 @@
-/* Kod QR do zeskanowania telefonem — rysowany jako SVG, żeby był ostry
+/* Kod QR do zeskanowania telefonem, rysowany jako SVG, żeby był ostry
    niezależnie od tego, jak duży zrobi się kafelek w lobby. */
 
 import { qrcode } from '../vendor/qrcode.mjs';
@@ -19,7 +19,7 @@ export function kodQr(tekst, { margines = 3 } = {}) {
   const modulow = kod.getModuleCount();
   const bok = modulow + margines * 2;
 
-  // Jedna ścieżka na wszystkie ciemne moduły — mniej węzłów niż tysiąc <rect>.
+  // Jedna ścieżka na wszystkie ciemne moduły, mniej węzłów niż tysiąc <rect>.
   const kawalki = [];
   for (let wiersz = 0; wiersz < modulow; wiersz += 1) {
     for (let kolumna = 0; kolumna < modulow; kolumna += 1) {

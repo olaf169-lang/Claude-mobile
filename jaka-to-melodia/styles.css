@@ -1,10 +1,10 @@
 /* ==========================================================================
-   Jaka to Melodia — szata graficzna
+   Jaka to Melodia, szata graficzna
    Wieczór, przyciemnione światło, kolorowe kafelki odpowiedzi.
    Dwa motywy na zmiennych, jeden przełącznik w pasku.
 
    Zasada nadrzędna: ekran prowadzącego ma być czytelny z drugiego końca
-   pokoju, ekran gracza — klikalny bez patrzenia. Stąd duże litery i kafelki
+   pokoju, ekran gracza, klikalny bez patrzenia. Stąd duże litery i kafelki
    na pół ekranu.
    ========================================================================== */
 
@@ -36,7 +36,7 @@
   --cien-mm:        0 10px 28px -14px rgba(0, 0, 0, .9);
   --cien-dd:        0 26px 60px -24px rgba(0, 0, 0, .95);
 
-  /* kolory odpowiedzi — do tego kształty, żeby dało się grać bez rozróżniania barw */
+  /* kolory odpowiedzi, do tego kształty, żeby dało się grać bez rozróżniania barw */
   --odp-a:          #E8384F;
   --odp-b:          #2A7FE8;
   --odp-c:          #F0A020;
@@ -96,7 +96,7 @@
 * { box-sizing: border-box; }
 
 /* Ekrany chowamy atrybutem `hidden`, a niżej niektóre z nich mają
-   `display: flex` — a selektor klasy bije wbudowany styl `[hidden]`.
+   `display: flex`, a selektor klasy bije wbudowany styl `[hidden]`.
    Bez tej linijki schowany ekran nadal by się układał. */
 [hidden] { display: none !important; }
 
@@ -121,7 +121,7 @@ body {
     env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
-/* Samo touch-action na <body> nie zawsze wystarcza w Safari na iOS — potrafi
+/* Samo touch-action na <body> nie zawsze wystarcza w Safari na iOS, potrafi
    zignorować je dla konkretnego elementu pod palcem i i tak potraktować dwa
    szybkie stuknięcia (np. w dwa sąsiednie kafelki) jako gest przybliżenia.
    Ustawiamy to samo bezpośrednio na każdym klikalnym elemencie, plus blokujemy
@@ -341,7 +341,7 @@ main {
 .klawisz-tresc strong { font-size: 1.1rem; font-weight: 700; }
 .klawisz-tresc small { font-size: .84rem; font-weight: 400; opacity: .78; }
 
-/* Rewanż ma czuć się jak coś innego niż zwykłe "jeszcze raz" — ciemna
+/* Rewanż ma czuć się jak coś innego niż zwykłe "jeszcze raz", ciemna
    czerwień zamiast fioletowego gradientu appki, złota obwódka jak
    rękojeść, sztylet zamiast neutralnej ikony. Celowo się wyróżnia. */
 .klawisz.rewanz {
@@ -366,14 +366,14 @@ main {
 .wybor-roli { display: grid; gap: .7rem; margin-bottom: 1.6rem; }
 
 /* Turniej Piąteczki wyróżnia się na ekranie startowym złotą obwódką
-   i lekką poświatą — to jedyny tryb "na punkty w czasie", więc ma wyglądać
+   i lekką poświatą, to jedyny tryb "na punkty w czasie", więc ma wyglądać
    jak coś, do czego się wraca, nie jak zwykła gra jednorazowa. */
 .klawisz.turniej-start {
   border-color: color-mix(in srgb, var(--bursztyn) 60%, transparent);
   background: linear-gradient(135deg, var(--plyta), color-mix(in srgb, var(--bursztyn) 14%, var(--plyta)));
   box-shadow: 0 0 0 1px color-mix(in srgb, var(--bursztyn) 25%, transparent) inset;
 }
-/* Przycisk powrotu do przerwanego pojedynku — pokazuje się tylko gdy jest
+/* Przycisk powrotu do przerwanego pojedynku, pokazuje się tylko gdy jest
    do czego wracać, więc ma wyglądać jak wyraźne, pilne CTA, nie kolejna
    pozycja w liście trybów gry. */
 .klawisz.wroc-turniej {
@@ -417,7 +417,7 @@ main {
 .stopka-ekranu .glowny { flex: 1.4; }
 
 /* Stopka „doklejona” do dołu ekranu (odsłona, wyniki rundy) rozlewa się na
-   całą szerokość i rozmywa to, co jest pod nią (kolorowe poświaty z .tlo) —
+   całą szerokość i rozmywa to, co jest pod nią (kolorowe poświaty z .tlo),
    inaczej płaskie tło gradientu kończyło się widocznym, kanciastym prostokątem
    na tle tych poświat. Zaokrąglona górna krawędź czyta się jako karta, a nie
    przypadkowe cięcie. */
@@ -471,7 +471,7 @@ main {
   color: var(--tekst-cichy);
 }
 
-/* Bez tego ludzie klikają znaczki, bo myślą, że trzeba je „zaznaczyć” — a
+/* Bez tego ludzie klikają znaczki, bo myślą, że trzeba je „zaznaczyć”, a
    domyślnie wszystkie już grają. Słowo w tekście dostaje ten sam gradient
    co same wybrane znaczki, żeby skojarzenie kolor → stan było natychmiastowe. */
 .podpowiedz-wyboru {
@@ -513,7 +513,7 @@ main {
   color: var(--tusz);
 }
 /* Kategorie specjalne (Disney, Fast & Furious, szanty...) mają wąski,
-   konkretny temat zamiast szerokiego gatunku — inny kolor obwódki od razu
+   konkretny temat zamiast szerokiego gatunku, inny kolor obwódki od razu
    sygnalizuje "to coś innego", zanim ktoś w ogóle kliknie. */
 .znaczek.specjalna {
   border-color: color-mix(in srgb, var(--bursztyn) 55%, transparent);
@@ -525,7 +525,7 @@ main {
 .znaczki.waskie .znaczek { min-width: 3.6rem; justify-content: center; padding: .45rem .8rem; }
 
 /* Odrzucenie kategorii/dekady w rundzie Turnieju Piąteczki: świadoma
-   rezygnacja za karę punktową, nie zwykłe zaznaczenie — stąd inny, mocno
+   rezygnacja za karę punktową, nie zwykłe zaznaczenie, stąd inny, mocno
    czerwony i przekreślony wygląd niż zwyczajowe aria-pressed. */
 .znaczek[data-odrzucona="tak"],
 .znaczek.specjalna[data-odrzucona="tak"] {
@@ -583,7 +583,7 @@ main {
 .przelacznik strong { font-weight: 600; font-size: .98rem; }
 .przelacznik small { color: var(--tekst-ledwie); font-size: .84rem; font-weight: 500; }
 
-/* Pole zależne od przełącznika nad nim — wcięte, żeby było widać zależność. */
+/* Pole zależne od przełącznika nad nim, wcięte, żeby było widać zależność. */
 .pole.wciete { margin: .2rem 0 .4rem 1.9rem; }
 .pole.wciete[hidden] { display: none; }
 .przelacznik.wciete { margin-left: 1.9rem; padding-top: 0; }
@@ -840,7 +840,7 @@ main {
 
 .odsloniete-tresc { min-width: 0; }
 
-/* Skrócona wersja karty „co leciało” — na ekranie wyników rundy, żeby
+/* Skrócona wersja karty „co leciało”, na ekranie wyników rundy, żeby
    przypomnieć ostatnią piosenkę bez powtarzania całej odsłony. */
 .odsloniete.kompaktowe { padding: .7rem; margin-bottom: 1rem; }
 .odsloniete.kompaktowe .okladka { width: 4.4rem; height: 4.4rem; }
@@ -910,7 +910,7 @@ main {
   color: var(--tekst-ledwie);
   font-variant-numeric: tabular-nums;
 }
-/* Sama seria trafień rośnie i się rozżarza wraz z wysokością streaka —
+/* Sama seria trafień rośnie i się rozżarza wraz z wysokością streaka,
    --strk leci od 0 (dwa trafienia z rzędu) do 1 (siedem i więcej), ustawiane
    z JS przy tworzeniu odznaki (patrz wezelStreaka w ui.js). */
 .streak-rundy {
@@ -921,7 +921,7 @@ main {
   font-size: calc(.85rem + var(--strk) * .55rem);
   color: color-mix(in srgb, var(--tekst-cichy), var(--magenta) calc(35% + var(--strk) * 65%));
 }
-/* Na ekranie odsłony streak leci od razu, na żywo, po każdej odpowiedzi —
+/* Na ekranie odsłony streak leci od razu, na żywo, po każdej odpowiedzi,
    tam ma stać obok dużych punktów, więc dostaje własną, większą skalę. */
 .werdykt .streak-rundy {
   font-size: calc(1.1rem + var(--strk) * .7rem);
@@ -1098,7 +1098,7 @@ main {
   animation: odliczTyknij .6s ease both;
 }
 /* Nowa liczba ma osobną animację za każdym razem, mimo że treść węzła się
-   zmienia — stąd `key` w JS-ie wymusza ponowne dołączenie elementu. */
+   zmienia, stąd `key` w JS-ie wymusza ponowne dołączenie elementu. */
 @keyframes odliczTyknij {
   from { transform: scale(1.35); opacity: 0; }
   to   { transform: scale(1); opacity: 1; }
@@ -1127,7 +1127,7 @@ main {
 
 /* ------------------------------------------------------- wyniki rundy */
 
-/* Wiersze i stopnie podium wjeżdżają jeden po drugim — .animowana(-e) ustawia
+/* Wiersze i stopnie podium wjeżdżają jeden po drugim, .animowana(-e) ustawia
    opóźnienie na każde dziecko przez zmienną, którą JS wpisuje inline. */
 .ranking.animowana li,
 .podium.animowane .stopien {

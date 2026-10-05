@@ -7,7 +7,7 @@
        node narzedzia/zbierz-kandydatow.mjs --czesc 0 --z 5        # w CI
 
    Czego ten skrypt NIE robi: nie wymyśla tytułów ani lat. Dostaje listę
-   wykonawców (dane/wykonawcy.js) i dla każdego pyta sklep, co ma w katalogu —
+   wykonawców (dane/wykonawcy.js) i dla każdego pyta sklep, co ma w katalogu,
    tytuł, rok wydania i adres 30-sekundowego podglądu biorą się stamtąd. Dzięki
    temu rok jest taki, jaki wpisał wydawca, a nie zapamiętany z grubsza, i każdy
    dopisany utwór od razu ma czym zagrać.
@@ -16,13 +16,13 @@
    premiery utworu: piosenka z 1967 trafiona na składance z 2015 ma w danych
    2015. Dekada jest w tej grze mechaniką (temat rundy to m.in. „lata 80.”),
    więc pomyłka o trzydzieści lat psuje rozgrywkę. Stąd dwa zabezpieczenia:
-     1. dla każdego tytułu bierzemy NAJWCZEŚNIEJSZE wydanie, jakie sklep zna —
+     1. dla każdego tytułu bierzemy NAJWCZEŚNIEJSZE wydanie, jakie sklep zna,
         oryginalny album zwykle też tam leży;
-     2. odrzucamy utwory odstające od mediany lat danego wykonawcy — jeśli
+     2. odrzucamy utwory odstające od mediany lat danego wykonawcy, jeśli
         dwadzieścia kawałków The Supremes wychodzi z lat 60., a jeden z 2015,
         to ten jeden jest wznowieniem, nie premierą.
    Czego się nie da wyłapać: wykonawcy, którego CAŁY dorobek leży w sklepie
-   tylko jako wznowienia. Dlatego raport pokazuje rozrzut lat na wykonawcę —
+   tylko jako wznowienia. Dlatego raport pokazuje rozrzut lat na wykonawcę,
    to się przegląda OCZAMI przed wpisaniem do katalogu (narzedzia/wpisz-kandydatow.mjs).
 
    Zbieramy tylko do niedoborów z planu (narzedzia/plan-katalogu.mjs): koszyk
@@ -45,12 +45,12 @@ import { planKoszykow, CEL_DOMYSLNY } from './plan-katalogu.mjs';
 
 const KATALOG_APLIKACJI = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 
-// Te same ograniczenia tempa co przy pobieraniu podglądów — ten sam sklep.
+// Te same ograniczenia tempa co przy pobieraniu podglądów, ten sam sklep.
 const ODSTEP_ITUNES_MS = 3300;
 // Jeden wykonawca nie ma zdominować kategorii: silnik i tak nie stawia dwóch
 // kawałków tego samego artysty obok siebie, a katalog ma być różnorodny.
 const MAKS_NA_WYKONAWCE = 8;
-// Utwór krótszy to zwykle skit albo intro, dłuższy — suita albo cały koncert.
+// Utwór krótszy to zwykle skit albo intro, dłuższy, suita albo cały koncert.
 const MIN_DLUGOSC_MS = 90_000;
 const MAKS_DLUGOSC_MS = 600_000;
 // Odstęp od mediany lat wykonawcy, po którym uznajemy wydanie za wznowienie.
@@ -62,12 +62,12 @@ const spij = (ms) => (ms > 0 ? new Promise((r) => setTimeout(r, ms)) : Promise.r
 /* --- czyszczenie tytułu ----------------------------------------------------
    Sklep dopisuje do tytułów rzeczy, których w katalogu nie chcemy
    („Remastered 2011”, „Single Version”). Część da się odciąć, a przy części
-   lepiej odpuścić cały wpis, niż zgadywać — bo „Live” w tytule może być
+   lepiej odpuścić cały wpis, niż zgadywać, bo „Live” w tytule może być
    częścią nazwy, a może znaczyć, że to koncertówka. */
 
 const DO_ODCIECIA = /\s*[([](?:[^()[\]]*\b(?:remaster(?:ed)?|single version|album version|radio edit|mono|stereo|re-?recorded|bonus track|deluxe|expanded|anniversary|edit(?:ed)?)\b[^()[\]]*)[)\]]\s*/gi;
 const PO_PAUZIE = /\s+-\s+(?:.*\b(?:remaster(?:ed)?|single version|album version|radio edit|mono|stereo|bonus track|deluxe|edit)\b.*)$/i;
-/* Tylko „feat.” i „ft.” — jednoznaczne. Samego „with” tu NIE MA, bo „(with My
+/* Tylko „feat.” i „ft.”, jednoznaczne. Samego „with” tu NIE MA, bo „(with My
    Heart)” w „Quit Playing Games (with My Heart)” to część prawdziwego tytułu,
    a nie dopisek o gościu. */
 const FEAT_W_TYTULE = /\s*[([]\s*(?:feat|ft)\.?\s[^()[\]]*[)\]]\s*/gi;
@@ -79,8 +79,8 @@ const SKAD_WYDANIE = /\s*[([][^()[\]]*\bfrom\b[^()[\]]*[)\]]\s*/gi;
    nadają się najgorzej: kolędę zna każdy, tylko nikt nie zgadnie, KTO ją
    śpiewa, bo nagrał ją każdy. */
 const SWIATECZNE = /\b(?:christmas|xmas|santa|noel|jingle bells?|silent night|cicha noc|kol[ęe]d|wigilij|miko[łl]aj|m[ęe]drcy|auld lang syne)\b/i;
-/* Nagranie inne niż studyjny oryginał. Słowo musi stać w DOPISKU — po pauzie
-   albo w nawiasie — bo w samym tytule bywa zupełnie niewinne: „Live and Let
+/* Nagranie inne niż studyjny oryginał. Słowo musi stać w DOPISKU, po pauzie
+   albo w nawiasie, bo w samym tytule bywa zupełnie niewinne: „Live and Let
    Die” to piosenka Wingsów, a nie koncertówka. */
 const NIE_ORYGINAL_W_DOPISKU = /(?:\s+-\s+|[([])[^()[\]]*\b(?:live|remix|acoustic|demo|karaoke|tribute|instrumental|re-?recorded|cover|unplugged|session|rehearsal|mix|take|alternate)\b/i;
 // Jeśli po czyszczeniu tytuł nadal to zdradza, utwór nie jest oryginałem.
@@ -104,7 +104,7 @@ export function wyczyscTytul(surowy) {
  * Klucz do rozpoznania, że to ten sam utwór w innym wydaniu. Sklep dopisuje do
  * tytułów skąd pochodzi wydanie („… [Greatest Hits]”, „… (Deluxe Edition)”),
  * a każda taka wersja ma swoją datę. Gdybyśmy grupowali po pełnym tytule, ta
- * sama piosenka weszłaby kilka razy — raz z prawdziwym rokiem, raz z rokiem
+ * sama piosenka weszłaby kilka razy, raz z prawdziwym rokiem, raz z rokiem
  * składanki. Dopisywanie kolejnych słów do listy wyjątków to walka z wiatrakami,
  * więc do porównania ucinamy WSZYSTKO w nawiasach.
  */
@@ -132,7 +132,7 @@ export function nadajeSie(nagranie, wykonawca) {
   /* Nazwa wykonawcy musi zgadzać się DOKŁADNIE (po odcięciu gości przez
      glownyWykonawca). Zawieranie się nazw brzmiało rozsądnie, a wpuściło
      cudze piosenki: przy haśle „Nas” sklep oddaje też Lil Nas X, więc do
-     katalogu wszedł „Nas — INDUSTRY BABY”. W quizie to nie literówka, to
+     katalogu wszedł „Nas: INDUSTRY BABY”. W quizie to nie literówka, to
      błędna odpowiedź. Tak samo czyhają „Sabrina” / „Sabrina Carpenter”
      i „Dave” / „Dave Matthews Band”. */
   const szukany = normalizuj(glownyWykonawca(wykonawca));
@@ -161,7 +161,7 @@ export function najwczesniejszeWydania(nagrania, wykonawca) {
   return [...wedlugTytulu.values()];
 }
 
-/** Mediana lat — kotwica, względem której poznajemy wznowienia. */
+/** Mediana lat, kotwica, względem której poznajemy wznowienia. */
 export function mediana(liczby) {
   if (!liczby.length) return null;
   const posortowane = [...liczby].sort((a, b) => a - b);
@@ -173,7 +173,7 @@ export function mediana(liczby) {
 
 /**
  * Odsiewa wydania odstające od dorobku wykonawcy. Przy jednym czy dwóch
- * trafieniach nie ma od czego liczyć mediany, więc puszczamy je dalej — i tak
+ * trafieniach nie ma od czego liczyć mediany, więc puszczamy je dalej, i tak
  * przejdą przez przegląd raportu.
  */
 export function bezWznowien(wydania) {
@@ -213,7 +213,7 @@ async function pobierzJson(adres, bramka, log) {
       });
       if (odpowiedz.status === 403 || odpowiedz.status === 429) {
         bramka.odmowa();
-        log?.(`    (sklep przycina — zwalniam do ${(bramka.odstepMs / 1000).toFixed(1)} s)`);
+        log?.(`    (sklep przycina, zwalniam do ${(bramka.odstepMs / 1000).toFixed(1)} s)`);
         continue;
       }
       if (!odpowiedz.ok) return null;
@@ -243,7 +243,7 @@ async function dorobekWykonawcy(nazwa, kraj, bramka, log) {
 
 /* --- ścieżki dźwiękowe -----------------------------------------------------
    Kategoria „filmowa” nie zbiera się po wykonawcach, bo odpowiedzią w pytaniu
-   jest FILM — utwór bez przypisanego filmu nie wchodzi do puli. Więc tu pytamy
+   jest FILM, utwór bez przypisanego filmu nie wchodzi do puli. Więc tu pytamy
    sklep o albumy, a nie o artystów, i film bierzemy z własnej listy. */
 
 const ZNACZNIK_SCIEZKI = /\b(?:soundtrack|motion picture|original score|music from|cast recording|musical)\b/i;
@@ -304,12 +304,12 @@ export function utworyZeSciezki(nagrania, film, { maksNaFilm = 3 } = {}) {
       film: film.nazwa,
     };
     // Utwór, w którym film zdradza i tytuł, i wykonawca, dałby pytanie
-    // z odpowiedzią w treści — takiego nie bierzemy wcale.
+    // z odpowiedzią w treści, takiego nie bierzemy wcale.
     if (!daSieSpytacOFilm(utwor)) continue;
     const klucz = kluczUtworu(tytul);
     if (!wedlugTytulu.has(klucz)) wedlugTytulu.set(klucz, utwor);
   }
-  // Najpierw te, których tytuł nie zdradza filmu — z nich wychodzą
+  // Najpierw te, których tytuł nie zdradza filmu, z nich wychodzą
   // najlepsze pytania. Wewnątrz grupy zostaje kolejność ze sklepu.
   const wszystkie = [...wedlugTytulu.values()];
   return [
@@ -399,7 +399,7 @@ export async function zbierzKandydatow({
   const zajeteId = new Set(katalog.map((u) => u.id));
   // Limit na wykonawcę liczy też to, co już jest w katalogu. Bez tego każdy
   // przebieg dokładał swoje osiem i po trzech rundach John Williams miał
-  // dwadzieścia trzy utwory, a Madonna dziewiętnaście — zwykle już nie przeboje,
+  // dwadzieścia trzy utwory, a Madonna dziewiętnaście, zwykle już nie przeboje,
   // tylko wypełniacze z płyt, bo przeboje poszły w pierwszej rundzie.
   const juzWKatalogu = new Map();
   for (const u of katalog) {
@@ -434,7 +434,7 @@ export async function zbierzKandydatow({
     const kraj = zadanie.kategoria === 'polskie' ? 'PL' : 'US';
     const nagrania = await pobierz(zadanie.nazwa, kraj, bramka, log);
     // KOLEJNOŚCI ZE SKLEPU NIE WOLNO RUSZAĆ. Sklep oddaje nagrania od
-    // najpopularniejszych, a w tej grze trzeba utwór ROZPOZNAĆ — nieznany
+    // najpopularniejszych, a w tej grze trzeba utwór ROZPOZNAĆ, nieznany
     // kawałek z trzeciej płyty jest bezużyteczny, choćby rok był idealny.
     // Pierwszy przebieg sortował te wydania po roku rosnąco i brał osiem
     // najstarszych, czyli systematycznie nagrania sprzed popularności artysty:
@@ -459,7 +459,7 @@ export async function zbierzKandydatow({
       };
       const id = idUtworu(utwor);
       // Dubel nie ma trafić do pliku: przebuduj-katalog.mjs rozwiązuje duble po
-      // cichu, zostawiając wpis późniejszy — czyli nadpisałby istniejący,
+      // cichu, zostawiając wpis późniejszy, czyli nadpisałby istniejący,
       // ręcznie przypisany utwór tym świeżym. Tego nie chcemy nigdy.
       if (zajeteId.has(id)) continue;
       zajeteId.add(id);
@@ -474,7 +474,7 @@ export async function zbierzKandydatow({
       kategoria: zadanie.kategoria,
       wSklepie: wydania.length,
       przyjete: zTegoWykonawcy.length,
-      lata: lata.length ? `${Math.min(...lata)}–${Math.max(...lata)}` : '—',
+      lata: lata.length ? `${Math.min(...lata)}-${Math.max(...lata)}` : '·',
     });
     log(`  [${nr + 1}/${mojeZadania.length}] ${zadanie.nazwa} (${zadanie.kategoria}): `
       + `${zTegoWykonawcy.length} z ${wydania.length} dostępnych${lata.length ? `, lata ${wykonawcyRaport.at(-1).lata}` : ''}`);
@@ -499,13 +499,13 @@ export function podsumowanieJednymZdaniem({ przyjete, wykonawcy }) {
   const probka = przyjete
     .filter((_, i) => i % Math.max(1, Math.floor(przyjete.length / 8)) === 0)
     .slice(0, 8)
-    .map((u) => `${u.rok} ${u.wykonawca} — ${u.tytul}`)
+    .map((u) => `${u.rok} ${u.wykonawca} · ${u.tytul}`)
     .join(' // ');
   return [
     `${przyjete.length} utworów z ${wykonawcy.length} wykonawców`,
     `(sklep nie znał ${bezNiczego}).`,
-    `Kategorie: ${[...wgKategorii].map(([k, n]) => `${k} ${n}`).join(', ') || '—'}.`,
-    `Dekady: ${[...wgDekady].sort((a, b) => a[0] - b[0]).map(([d, n]) => `${d} ${n}`).join(', ') || '—'}.`,
+    `Kategorie: ${[...wgKategorii].map(([k, n]) => `${k} ${n}`).join(', ') || '·'}.`,
+    `Dekady: ${[...wgDekady].sort((a, b) => a[0] - b[0]).map(([d, n]) => `${d} ${n}`).join(', ') || '·'}.`,
     probka ? `Próbka: ${probka}` : '',
   ].join(' ');
 }
@@ -532,7 +532,7 @@ export function raportZbierania({ przyjete, wykonawcy }) {
     ...[...wgDekady].sort((a, b) => a[0] - b[0]).map(([d, n]) => `| ${d} | ${n} |`),
   ];
 
-  // Rozrzut lat na wykonawcę — to się przegląda oczami. Wykonawca z lat 60.,
+  // Rozrzut lat na wykonawcę, to się przegląda oczami. Wykonawca z lat 60.,
   // któremu wyszły lata 2010., leży w sklepie tylko jako wznowienie.
   const podejrzani = wykonawcy.filter((w) => w.przyjete === 0 && w.wSklepie > 0);
   if (podejrzani.length) {
@@ -542,7 +542,7 @@ export function raportZbierania({ przyjete, wykonawcy }) {
   }
   const pusci = wykonawcy.filter((w) => w.wSklepie === 0);
   if (pusci.length) {
-    wiersze.push('', `### Sklep nic nie zwrócił (${pusci.length}) — sprawdź pisownię nazwy`, '',
+    wiersze.push('', `### Sklep nic nie zwrócił (${pusci.length}). Sprawdź pisownię nazwy`, '',
       ...pusci.map((w) => `- ${w.nazwa} (${w.kategoria})`));
   }
   wiersze.push('', '### Rozrzut lat na wykonawcę (do przejrzenia oczami)', '',

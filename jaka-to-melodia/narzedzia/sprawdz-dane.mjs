@@ -32,7 +32,7 @@ const uwagi = [];
 
 const widzianeId = new Map();
 for (const utwor of utwory) {
-  const gdzie = `${utwor.wykonawca} — ${utwor.tytul}`;
+  const gdzie = `${utwor.wykonawca} · ${utwor.tytul}`;
   if (!utwor.tytul?.trim()) bledy.push(`Pusty tytuł przy „${utwor.wykonawca}”`);
   if (!utwor.wykonawca?.trim()) bledy.push(`Pusty wykonawca przy „${utwor.tytul}”`);
   if (!dozwoloneKategorie.has(utwor.gatunek)) bledy.push(`${gdzie}: nieznana kategoria „${utwor.gatunek}”`);
@@ -40,7 +40,7 @@ for (const utwor of utwory) {
     bledy.push(`${gdzie}: rok poza zakresem (${utwor.rok})`);
   }
   if (!dozwoloneDekady.has(utwor.dekada)) bledy.push(`${gdzie}: dekada ${utwor.dekada} nie ma swojego filtra`);
-  if (utwor.gatunek === 'polskie' && !utwor.styl) uwagi.push(`${gdzie}: brak pola „styl” — błędne odpowiedzi dobiorą się gorzej`);
+  if (utwor.gatunek === 'polskie' && !utwor.styl) uwagi.push(`${gdzie}: brak pola „styl”, błędne odpowiedzi dobiorą się gorzej`);
   if (utwor.gatunek !== 'polskie' && utwor.styl && utwor.styl !== utwor.gatunek) {
     uwagi.push(`${gdzie}: „styl” ma sens tylko przy polskich`);
   }
@@ -48,21 +48,21 @@ for (const utwor of utwory) {
     uwagi.push(`${gdzie}: dopisek w tytule utrudni znalezienie nagrania`);
   }
   if (utwor.gatunek === 'filmowa' && !utwor.film) {
-    uwagi.push(`${gdzie}: brak pola „film” — nie wejdzie do puli pytań o film`);
+    uwagi.push(`${gdzie}: brak pola „film”, nie wejdzie do puli pytań o film`);
   }
   // Pytanie filmowe pokazuje tytuł albo wykonawcę i każe zgadnąć film. Gdy
   // nazwę filmu zdradzają oba, nie zostaje uczciwa podpowiedź i gra musiałaby
-  // zadać pytanie z odpowiedzią w treści — więc taki wpis odpada z puli i jest
+  // zadać pytanie z odpowiedzią w treści, więc taki wpis odpada z puli i jest
   // tu błędem, a nie uwagą.
   if (utwor.gatunek === 'filmowa' && utwor.film && !daSieSpytacOFilm(utwor)) {
     bledy.push(
-      `${gdzie}: i tytuł, i wykonawca zdradzają film „${utwor.film}” — ` +
+      `${gdzie}: i tytuł, i wykonawca zdradzają film „${utwor.film}”, ` +
       'pytanie odpowiadałoby samo sobie. Zmień tytuł na dokładny albo przenieś ' +
       'utwór do zwykłej kategorii gatunkowej.',
     );
   }
   // Poza 'filmowa' (gdzie napędza mechanikę zgadywania filmu) pole „film” ma
-  // sens jako sam znacznik na odsłonie — używa go dziś tylko 'furious'
+  // sens jako sam znacznik na odsłonie, używa go dziś tylko 'furious'
   // (np. z jakiej części Szybkich i wściekłych jest kawałek).
   if (utwor.gatunek !== 'filmowa' && utwor.gatunek !== 'furious' && utwor.film) {
     uwagi.push(`${gdzie}: „film” ma sens tylko przy muzyce filmowej albo Szybkich i wściekłych`);
@@ -82,16 +82,16 @@ for (const utwor of utwory) {
 for (const dekada of DEKADY) {
   for (const kategoria of KATEGORIE) {
     // Kategorie specjalne (Disney, Fast & Furious, szanty...) to wąski,
-    // konkretny temat, nie szeroki gatunek — naturalnie skupiają się w kilku
+    // konkretny temat, nie szeroki gatunek, naturalnie skupiają się w kilku
     // latach zamiast rozkładać się po wszystkich dekadach. Nierówny rozkład
     // to tu poprawny stan, nie brak.
     if (kategoria.specjalna) continue;
-    // Kombinacje w NIEISTNIEJACE (np. rap w latach 60.) są wykluczone celowo —
+    // Kombinacje w NIEISTNIEJACE (np. rap w latach 60.) są wykluczone celowo,
     // filtry gry ich nie pokazują, więc pusty koszyk to tu poprawny stan.
     if (!istnieje(dekada.id, kategoria.id)) continue;
     const ile = koszyki.get(`${dekada.id}/${kategoria.id}`) || 0;
     if (ile === 0) bledy.push(`Pusty zestaw: ${dekada.nazwa} × ${kategoria.nazwa}`);
-    else if (ile < NAJMNIEJ_W_KOSZYKU) uwagi.push(`Chudy zestaw: ${dekada.nazwa} × ${kategoria.nazwa} — ${ile}`);
+    else if (ile < NAJMNIEJ_W_KOSZYKU) uwagi.push(`Chudy zestaw: ${dekada.nazwa} × ${kategoria.nazwa}, ${ile}`);
   }
 }
 

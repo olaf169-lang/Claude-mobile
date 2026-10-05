@@ -1,13 +1,13 @@
 /* ==========================================================================
-   Silnik gry — czysta logika, bez DOM-u i bez sieci.
+   Silnik gry, czysta logika, bez DOM-u i bez sieci.
    Prowadzący trzyma tu cały stan rozgrywki; telefony graczy dostają tylko
    tyle, ile trzeba, żeby pokazać pytanie (poprawna odpowiedź jedzie do nich
-   dopiero po upływie czasu — inaczej dałoby się ją podejrzeć w telefonie).
+   dopiero po upływie czasu, inaczej dałoby się ją podejrzeć w telefonie).
 
    Trzy słowa, które warto rozróżniać:
-     pytanie — jeden utwór z czterema odpowiedziami,
-     seria   — ciąg pytań lecących jedno po drugim (np. dziesięć utworów),
-     runda   — jedna seria plus temat, który ktoś dla niej wybrał
+     pytanie, jeden utwór z czterema odpowiedziami,
+     seria  : ciąg pytań lecących jedno po drugim (np. dziesięć utworów),
+     runda  : jedna seria plus temat, który ktoś dla niej wybrał
                (np. „rock i rap, lata 80. i 90.”). Gra to kilka rund.
    ========================================================================== */
 
@@ -37,8 +37,8 @@ export const USTAWIENIA_DOMYSLNE = {
   czasOdpowiedzi: 15,           // sekundy
   typyPytan: 'mix',             // 'tytul' | 'wykonawca' | 'mix'
   bonusSerii: false,            // +10 pkt za każde kolejne trafienie z rzędu (maks. +50)
-  ktoWybiera: 'losowy',         // 'losowy' | 'prowadzacy' — kto ustala temat rundy
-  losowyFragment: false,        // zaczynaj podgląd w losowym miejscu — trudniej
+  ktoWybiera: 'losowy',         // 'losowy' | 'prowadzacy', kto ustala temat rundy
+  losowyFragment: false,        // zaczynaj podgląd w losowym miejscu, trudniej
   dzwiekWAplikacji: true,       // false = muzykę puszcza prowadzący z zewnątrz
   muzykaWszedzie: false,        // true = gra też na telefonach graczy, nie tylko u prowadzącego
   prowadzacyGra: true,          // prowadzący odpowiada na swoim telefonie jak reszta
@@ -70,7 +70,7 @@ export function przetasuj(tablica, losuj) {
 
 /**
  * Utwory pasujące do ustawień. `maPodglad` pozwala odsiać te, do których nie
- * udało się znaleźć nagrania — przy grze z dźwiękiem nie ma z nich pożytku.
+ * udało się znaleźć nagrania, przy grze z dźwiękiem nie ma z nich pożytku.
  */
 export function pulaUtworow(ustawienia, { katalog = przygotujKatalog(), maPodglad = null } = {}) {
   const kategorie = new Set(ustawienia.kategorie);
@@ -79,7 +79,7 @@ export function pulaUtworow(ustawienia, { katalog = przygotujKatalog(), maPodgla
     (u) =>
       kategorie.has(u.gatunek) &&
       dekady.has(u.dekada) &&
-      // Filmowa pyta o film, w którym utwór usłyszałeś — bez znanego filmu
+      // Filmowa pyta o film, w którym utwór usłyszałeś, bez znanego filmu
       // nie da się z tego zrobić pytania, więc taki wpis po prostu nie wchodzi
       // do puli (tak samo jak utwór bez nagrania przy grze z dźwiękiem).
       // Odpada też utwór, w którym nazwę filmu zdradza i tytuł, i wykonawca:
@@ -108,7 +108,7 @@ export function dobierzBledne(utwor, katalog, typ, losuj, ile = 3) {
   const pole = typ === 'wykonawca' ? 'kluczWykonawcy' : 'kluczTytulu';
   const zajete = new Set([utwor[pole]]);
   // Przy pytaniu o wykonawcę odpowiedzią jest nazwa artysty, więc blokujemy
-  // wszystkich wymienionych w poprawnym wpisie — inaczej obok „Taco Hemingway”
+  // wszystkich wymienionych w poprawnym wpisie, inaczej obok „Taco Hemingway”
   // mógłby stanąć „Dawid Podsiadło & Taco Hemingway”.
   const zajeciArtysci = new Set(typ === 'wykonawca' ? utwor.kluczeWykonawcow : []);
 
@@ -153,11 +153,11 @@ export const tekstOdpowiedzi = (utwor, typ) =>
   typ === 'wykonawca' ? utwor.wykonawca : utwor.tytul;
 
 /* --- muzyka filmowa: wyjątek od zwykłych pytań ---------------------------
-   Tu nie zgadujemy tytułu ani wykonawcy — jedno z nich jawnie podajemy jako
+   Tu nie zgadujemy tytułu ani wykonawcy, jedno z nich jawnie podajemy jako
    podpowiedź, a odpowiedzią jest film, w którym ten utwór usłyszysz. Złe
    odpowiedzi to więc inne filmy (nie inne piosenki), a dystraktory wybieramy
    po tym samym pomyśle co gdzie indziej: bliższa dekada wygrywa, w środku
-   grupy o tej samej wadze — losowo. */
+   grupy o tej samej wadze, losowo. */
 
 function dobierzBledneFilmy(utwor, katalog, losuj, ile = 3) {
   const widziane = new Set([utwor.film]);
@@ -189,9 +189,9 @@ function dobierzBledneFilmy(utwor, katalog, losuj, ile = 3) {
 function zbudujRundeFilmowa(utwor, katalog, losuj) {
   const bledne = dobierzBledneFilmy(utwor, katalog, losuj);
   const wszystkieFilmy = przetasuj([utwor.film, ...bledne], losuj);
-  // Co widać na ekranie — tytuł czy wykonawcę? To drugie zostaje tajemnicą aż
+  // Co widać na ekranie, tytuł czy wykonawcę? To drugie zostaje tajemnicą aż
   // do odsłony, tak jak przy zwykłym pytaniu. Wybieramy losowo, ale tylko
-  // spośród podpowiedzi, które nie zawierają nazwy filmu: „Theme from Jaws —
+  // spośród podpowiedzi, które nie zawierają nazwy filmu: „Theme from Jaws,
   // w jakim filmie go usłyszysz?” to pytanie z odpowiedzią w treści.
   const uczciwe = ['tytul', 'wykonawca'].filter(
     (pole) => !zdradzaFilm(utwor[pole], utwor.film),
@@ -200,8 +200,8 @@ function zbudujRundeFilmowa(utwor, katalog, losuj) {
     ? (losuj() < 0.5 ? 'tytul' : 'wykonawca')
     : (uczciwe[0] || 'wykonawca');
   const podpowiedz = wskazany === 'tytul'
-    ? `Ten utwór to „${utwor.tytul}” — w jakim filmie go usłyszysz?`
-    : `Tego utworu słuchasz w wykonaniu ${utwor.wykonawca} — w jakim filmie go usłyszysz?`;
+    ? `Ten utwór to „${utwor.tytul}”. W jakim filmie go usłyszysz?`
+    : `Tego utworu słuchasz w wykonaniu ${utwor.wykonawca}. W jakim filmie go usłyszysz?`;
   return {
     utwor,
     typ: 'film',
@@ -232,7 +232,7 @@ export function zbudujRunde(utwor, katalog, typ, losuj) {
  * razu pobrać pierwsze nagrania i żeby prowadzący wiedział, ile pytań realnie
  * wyjdzie z wybranego tematu.
  *
- * `pomin` to utwory, które padły we wcześniejszych rundach tej gry — dwa razy
+ * `pomin` to utwory, które padły we wcześniejszych rundach tej gry, dwa razy
  * ta sama piosenka w jeden wieczór psuje zabawę nawet przy zmianie tematu.
  */
 export function ulozSerie(ustawienia, {
@@ -249,7 +249,7 @@ export function ulozSerie(ustawienia, {
 
   while (kolejka.length && rundy.length < ileChcemy) {
     let utwor = kolejka.shift();
-    // Ten sam wykonawca dwa razy z rzędu psuje rytm — odkładamy na później.
+    // Ten sam wykonawca dwa razy z rzędu psuje rytm, odkładamy na później.
     if (utwor.kluczWykonawcy === poprzedniWykonawca && kolejka.length) {
       odlozone.push(utwor);
       utwor = kolejka.shift();
@@ -268,7 +268,7 @@ export function ulozSerie(ustawienia, {
 /* --- punktacja --- */
 
 /**
- * Trafienie od razu to cała stawka, trafienie w ostatniej sekundzie —
+ * Trafienie od razu to cała stawka, trafienie w ostatniej sekundzie,
  * trzydzieści punktów. Czas liczy telefon gracza od momentu pokazania
  * pytania, więc wolniejszy internet nie zabiera punktów.
  */
@@ -294,7 +294,7 @@ export function ileDostepnych(ustawienia, opcje) {
 
 /**
  * Kto ustala temat następnej rundy. Losujemy spośród grających, ale omijamy
- * tego, kto wybierał ostatnio — przy dwóch osobach daje to naprzemienność,
+ * tego, kto wybierał ostatnio, przy dwóch osobach daje to naprzemienność,
  * przy większej gromadzie nikt nie wybiera dwa razy z rzędu.
  */
 export function wylosujWybierajacego(idGraczy, poprzedni = null, losuj = Math.random) {
@@ -304,7 +304,7 @@ export function wylosujWybierajacego(idGraczy, poprzedni = null, losuj = Math.ra
   return kandydaci[Math.floor(losuj() * kandydaci.length)];
 }
 
-/** Krótki opis tematu rundy — „rock i rap · lata 80. i 90.”, „wszystko”. */
+/** Krótki opis tematu rundy, „rock i rap · lata 80. i 90.”, „wszystko”. */
 export function opiszTemat({ kategorie, dekady }) {
   const wszystkieKategorie = kategorie.length === KATEGORIE.length;
   const wszystkieDekady = dekady.length === DEKADY.length;
@@ -317,7 +317,7 @@ export function opiszTemat({ kategorie, dekady }) {
     czesci.push(zlacz(kategorie.map((id) => KATEGORIE.find((k) => k.id === id)?.nazwa || id)));
   }
   if (!wszystkieDekady) {
-    // „lata 80. i 90.”, a nie „lata 80. i lata 90.” — słowo „lata” raz wystarczy.
+    // „lata 80. i 90.”, a nie „lata 80. i lata 90.”, słowo „lata” raz wystarczy.
     const nazwy = dekady.map((id, i) => {
       const dekada = DEKADY.find((d) => d.id === id);
       if (!dekada) return String(id);

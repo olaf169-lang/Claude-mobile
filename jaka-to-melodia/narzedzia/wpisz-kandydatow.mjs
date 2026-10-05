@@ -7,11 +7,11 @@
        node narzedzia/wpisz-kandydatow.mjs kandydaci.json --na-probe
 
    Osobny krok od zbierania, bo zbieranie potrzebuje sieci i dzieli się na
-   równoległe części, a wpisywanie musi zobaczyć wszystkie części razem — inaczej
+   równoległe części, a wpisywanie musi zobaczyć wszystkie części razem, inaczej
    dwie części dopisałyby ten sam utwór.
 
    TU JEST BRAMKA NA DUBLE. przebuduj-katalog.mjs rozwiązuje duble po cichu,
-   zostawiając wpis późniejszy — czyli świeżo zebrany nadpisałby istniejący,
+   zostawiając wpis późniejszy, czyli świeżo zebrany nadpisałby istniejący,
    ręcznie przypisany do kategorii. Raz już tak zniknął „See You Again” z rapu,
    bo doszedł pod „Szybcy i wściekli”. Dlatego kandydat, którego identyfikator
    już jest w katalogu, jest tutaj ODRZUCANY i wypisany w raporcie, a nie
@@ -37,7 +37,7 @@ const kluczWpisu = (utwor) =>
 
 /* Lista odrzuconych porównuje się po PEŁNYM tytule, nie po tytule bez nawiasów.
    Z kluczem obciętym wpis „Don't Stop Me Now (Queen Forever Revisited)” blokuje
-   też „Don't Stop Me Now” — i tak zniknął z katalogu oryginał z 1978. Wariantów
+   też „Don't Stop Me Now”, i tak zniknął z katalogu oryginał z 1978. Wariantów
    pilnuje bramka na duble, bo przy nich oryginał jest już w katalogu. */
 const kluczOdrzucenia = (utwor) => idUtworu(utwor);
 
@@ -54,7 +54,7 @@ const DOZWOLONE_DEKADY = new Set(DEKADY.map((d) => d.id));
  * Bez przeplatania koszyk „lata 60. × pop” zapełniłoby ośmioma kawałkami
  * pierwszych dziewięciu wykonawców z listy, a pozostałych dwudziestu nie
  * weszłoby wcale. Tak każdy wykonawca wnosi najpierw to, co ma
- * najpopularniejsze — a w grze, w której utwór trzeba rozpoznać, to jest
+ * najpopularniejsze, a w grze, w której utwór trzeba rozpoznać, to jest
  * dokładnie ta kolejność, o którą nam chodzi.
  */
 export function naPrzemianWykonawcami(kandydaci) {
@@ -74,13 +74,13 @@ export function naPrzemianWykonawcami(kandydaci) {
 
 /**
  * Przesiewa kandydatów. Zwraca to, co wolno wpisać, i powód odrzucenia dla
- * reszty — nic nie wchodzi do katalogu „na wiarę”.
+ * reszty, nic nie wchodzi do katalogu „na wiarę”.
  */
 export function przesiej(kandydaci, { katalog = UTWORY, maks = Infinity, cel = CEL_DOMYSLNY } = {}) {
   const zajete = new Map(katalog.map((u) => [idUtworu(u), u]));
   // Sam identyfikator nie wystarcza, bo liczy pełny tytuł: „Don't Stop Me Now”
   // i „Don't Stop Me Now (Revisited)” to dla niego dwa różne utwory, więc
-  // wariant z nawiasu wchodził do katalogu obok oryginału — z rokiem wznowienia,
+  // wariant z nawiasu wchodził do katalogu obok oryginału, z rokiem wznowienia,
   // czyli w złej dekadzie. Drugi klucz, bez nawiasów, zamyka tę drogę.
   const zajeteBezNawiasow = new Map(katalog.map((u) => [kluczWpisu(u), u]));
   // Usunięcie wpisu z katalogu nie wystarcza, żeby nie wrócił: następna dosypka
@@ -88,7 +88,7 @@ export function przesiej(kandydaci, { katalog = UTWORY, maks = Infinity, cel = C
   // osobno, na stałe.
   const nigdy = new Set(ODRZUCONE.map(kluczOdrzucenia));
   // Limity koszyków pilnujemy TUTAJ, a nie przy zbieraniu. Zbieranie dzieli się
-  // na pięć równoległych części, z których żadna nie wie, co wzięły pozostałe —
+  // na pięć równoległych części, z których żadna nie wie, co wzięły pozostałe,
   // każda widzi ten sam niedobór i każda mogłaby go wypełnić w całości. Dopiero
   // tu widać wszystkie części razem, więc dopiero tu da się dopilnować, żeby
   // proporcje katalogu zostały takie, jakie mają być.
@@ -143,8 +143,8 @@ export function raportWpisywania({ przyjete, odrzucone }) {
   }
   const duble = odrzucone.filter((o) => o.powod.startsWith('już jest w katalogu'));
   if (duble.length) {
-    wiersze.push('', `### Duble — zostaje wpis z katalogu (${duble.length})`, '',
-      ...duble.slice(0, 30).map((o) => `- ${o.utwor.wykonawca} — ${o.utwor.tytul}: ${o.powod}`));
+    wiersze.push('', `### Duble: zostaje wpis z katalogu (${duble.length})`, '',
+      ...duble.slice(0, 30).map((o) => `- ${o.utwor.wykonawca} · ${o.utwor.tytul}: ${o.powod}`));
   }
   return `${wiersze.join('\n')}\n`;
 }
@@ -191,7 +191,7 @@ if (process.argv[1] && import.meta.url === `file://${resolve(process.argv[1])}`)
     console.log(`::notice title=Wpisane::przyjęte ${wynik.przyjete.length}, `
       + `odrzucone ${wynik.odrzucone.length} z ${kandydaci.length} kandydatów. ${najczestsze}`);
   }
-  // Zero przyjętych przy niepustym wejściu to sygnał, że coś jest nie tak —
+  // Zero przyjętych przy niepustym wejściu to sygnał, że coś jest nie tak,
   // workflow ma to pokazać jako problem, a nie „zrobione”.
   if (kandydaci.length && !wynik.przyjete.length && !naProbe) process.exit(2);
 }

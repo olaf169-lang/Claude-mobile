@@ -2,7 +2,7 @@
 /* Pełny przebieg gry w prawdziwej przeglądarce, przez cały cykl rund: wybór
    tematu → odliczanie → seria pytań z odsłonami → wyniki rundy → koniec.
    Wszystko na własnym brokerze i własnym serwerze plików. Sprawdza to, czego
-   nie widać w testach jednostkowych — czy pytanie dociera na telefony, czy
+   nie widać w testach jednostkowych, czy pytanie dociera na telefony, czy
    szybsza odpowiedź daje więcej punktów, czy poprawna odpowiedź nie leci
    w eter przed czasem, czy losowo wybrany gracz dostaje panel wyboru tematu,
    a reszta tylko czeka.
@@ -66,14 +66,14 @@ const PARAMETRY = `?serwer=ws://127.0.0.1:${PORT_BROKERA}/mqtt&ziarno=${ZIARNO}`
 const ADRES = `http://127.0.0.1:${PORT_STRON}/${PARAMETRY}`;
 const linkDolaczenia = (kod) => `http://127.0.0.1:${PORT_STRON}/${PARAMETRY}#/dolacz/${kod}/0`;
 
-// Runda 1 z tematu „wszystko” — dokładnie to, co ułoży silnik przy pełnej puli.
+// Runda 1 z tematu „wszystko”, dokładnie to, co ułoży silnik przy pełnej puli.
 // Host liczy ziarno rundy jako (ziarno bazowy + numer rundy w grze).
 const oczekiwanaSeria = ulozSerie(
   { ...USTAWIENIA_DOMYSLNE, dlugoscSerii: 5 },
   { katalog: przygotujKatalog(), ziarno: ZIARNO + 1 },
 );
 
-// To samo, ale z tematu zawężonego tylko do „filmowa” — do scenariusza
+// To samo, ale z tematu zawężonego tylko do „filmowa”, do scenariusza
 // sprawdzającego wyjątek od zwykłych pytań (patrz niżej).
 const oczekiwanaSeriaFilmowa = ulozSerie(
   { ...USTAWIENIA_DOMYSLNE, kategorie: ['filmowa'], dlugoscSerii: 5 },
@@ -91,7 +91,7 @@ async function nowaKarta(nazwa, szerokosc = 400, wysokosc = 880) {
   const strona = await kontekst.newPage();
   strona.on('pageerror', (blad) => bledy.push(`[${nazwa}] ${blad.message}`));
   strona.on('console', (m) => {
-    // Brak czcionek z sieci to nie awaria aplikacji — w CI i tak ich nie ma.
+    // Brak czcionek z sieci to nie awaria aplikacji, w CI i tak ich nie ma.
     if (m.type() === 'error' && !m.text().includes('Failed to load resource')) bledy.push(`[${nazwa}] ${m.text()}`);
   });
   return strona;
@@ -104,7 +104,7 @@ async function zrzut(strona, nazwa, pelna = false) {
   await strona.screenshot({ path: join(katalog, `${nazwa}.png`), fullPage: pelna });
 }
 
-/** Ekran, na którym akurat stoi strona — czyta to samo, czego używa router aplikacji. */
+/** Ekran, na którym akurat stoi strona, czyta to samo, czego używa router aplikacji. */
 const widok = (strona) => strona.evaluate(() => document.body.dataset.widok);
 
 async function poczekajNaWidok(strona, kandydaci, opcje = {}) {
@@ -117,7 +117,7 @@ async function poczekajNaWidok(strona, kandydaci, opcje = {}) {
 
 try {
   /* ====================================================================
-     SCENARIUSZ 1 — impreza: prowadzący tylko prowadzi, czworo graczy,
+     SCENARIUSZ 1, impreza: prowadzący tylko prowadzi, czworo graczy,
      temat rundy zawsze ustala on sam („Zawsze ja”), jedna runda z pięcioma
      piosenkami. Sprawdza cały szkielet: ustawienia, lobby, panel wyboru
      tematu, odliczanie, pytania z odsłonami, dołączenie w trakcie, wyniki
@@ -185,7 +185,7 @@ try {
   await host.waitForSelector('[data-ekran="runda"]:not([hidden])', { timeout: 8000 });
   for (const g of gracze) await g.strona.waitForSelector('[data-ekran="gracz-runda"]:not([hidden])', { timeout: 8000 });
 
-  // Prowadzący, który nie gra, ma tablicę, a nie brzęczyk — kafelki nie klikają.
+  // Prowadzący, który nie gra, ma tablicę, a nie brzęczyk, kafelki nie klikają.
   assert.equal(await host.$$eval('#odpowiedzi-hosta .odp', (n) => n.filter((e) => e.tagName === 'BUTTON').length), 0,
     'kafelki prowadzącego są klikalne, mimo że nie gra');
   zapisz('prowadzący poza stawką ma kafelki tylko do pokazywania');
@@ -227,7 +227,7 @@ try {
     'poprawna odpowiedź poszła w eter przed odsłoną');
   zapisz('w trakcie rundy poprawna odpowiedź nie leci w eter');
 
-  // „Graj też na telefonach graczy” jest domyślnie wyłączone — nikt nie
+  // „Graj też na telefonach graczy” jest domyślnie wyłączone, nikt nie
   // powinien dostawać adresu nagrania, dopóki prowadzący sam tego nie włączy.
   const rundyBezMuzykiWszedzie = wEterze.filter((t) => t.includes('"t":"runda"'));
   assert.ok(rundyBezMuzykiWszedzie.length > 0, 'nie złapałem żadnej wiadomości „runda” do sprawdzenia');
@@ -278,7 +278,7 @@ try {
   assert.ok(zostaloMu < 0.98, 'spóźniony dostał pełny czas pytania zamiast reszty');
   zapisz(`spóźniony telefon wskakuje w trwające pytanie z resztą czasu (${Math.round(zostaloMu * 100)}%)`);
 
-  /* --- do końca rundy (pytania 2–5) --- */
+  /* --- do końca rundy (pytania 2-5) --- */
 
   await host.click('#odslon-teraz');
   await host.waitForSelector('[data-ekran="odslona"]:not([hidden])', { timeout: 10_000 });
@@ -293,7 +293,7 @@ try {
     await host.waitForSelector('[data-ekran="odslona"]:not([hidden])', { timeout: 10_000 });
   }
 
-  // Ostatnie (piąte) pytanie w serii — przycisk ma już inną nazwę.
+  // Ostatnie (piąte) pytanie w serii, przycisk ma już inną nazwę.
   await host.click('#nastepna-runda');
   await host.waitForSelector('[data-ekran="runda"]:not([hidden])', { timeout: 10_000 });
   assert.match(await host.textContent('#numer-rundy'), /piosenka 5\/5/);
@@ -314,9 +314,9 @@ try {
   const podiumRundy = await host.$$eval('#podium-rundy .stopien .kto', (n) => n.map((e) => e.textContent));
   assert.ok(podiumRundy.length >= 1, 'brak podium na ekranie wyników rundy');
 
-  // Zosia klikała poprawną odpowiedź na pytaniach 1, 3 i 4 — na 2. i 5. nikt
+  // Zosia klikała poprawną odpowiedź na pytaniach 1, 3 i 4, na 2. i 5. nikt
   // w jej imieniu nic nie kliknął (patrz wyżej: telefon spóźnialskiego i
-  // ostatnie pytanie serii) — więc statystyki rundy powinny pokazać 3/5,
+  // ostatnie pytanie serii), więc statystyki rundy powinny pokazać 3/5,
   // ze średnim czasem, i to samo na jej własnym telefonie, dokąd te liczby
   // lecą przez sieć.
   const wierszeRundyHost = await host.$$eval('#ranking-rundy li', (n) => n.map((li) => ({
@@ -326,7 +326,7 @@ try {
   const zosiaHost = wierszeRundyHost.find((w) => w.kto === 'Zosia');
   assert.match(zosiaHost?.staty || '', /^3\/5 · śr\. \d+,\d s$/,
     `statystyki rundy dla Zosi (prowadzący) nie pokazują 3/5 z czasem: „${zosiaHost?.staty}”`);
-  // Trafienia na 3. i 4. pytaniu z rzędu (2. i 5. to pudła/brak odpowiedzi) —
+  // Trafienia na 3. i 4. pytaniu z rzędu (2. i 5. to pudła/brak odpowiedzi),
   // najdłuższa seria tej rundy to dwa trafienia pod rząd.
   assert.match(zosiaHost?.streak || '', /×2$/,
     `najdłuższa seria Zosi (prowadzący) nie pokazuje ×2: „${zosiaHost?.streak}”`);
@@ -367,8 +367,8 @@ try {
   zapisz('gracze widzą swoje miejsce w tabeli końcowej');
 
   /* ====================================================================
-     SCENARIUSZ 2 — losowy wybierający, prowadzący gra. Dwoje uczestników
-     (prowadzący + jeden gracz), temat losuje jedną z tych dwóch osób —
+     SCENARIUSZ 2, losowy wybierający, prowadzący gra. Dwoje uczestników
+     (prowadzący + jeden gracz), temat losuje jedną z tych dwóch osób,
      sprawdzamy oba możliwe wyniki losowania, a potem odpowiadamy tak jak
      zwykle, żeby przy okazji sprawdzić punktację prowadzącego grającego
      na własnym ekranie.
@@ -402,11 +402,11 @@ try {
   await drugi.click('#dolacz');
   await drugi.waitForSelector('[data-ekran="poczekalnia"]:not([hidden])', { timeout: 20_000 });
   await dwoje.waitForFunction(() => document.querySelector('#liczba-graczy').textContent === '2', undefined, { timeout: 10_000 });
-  zapisz('drugi telefon dołącza — gra we dwoje');
+  zapisz('drugi telefon dołącza, gra we dwoje');
 
   await dwoje.click('#zacznij-gre');
 
-  // Losowanie mogło wskazać prowadzącego albo Kasię — sprawdzamy oba warianty
+  // Losowanie mogło wskazać prowadzącego albo Kasię, sprawdzamy oba warianty
   // i w obu przypadkach doprowadzamy grę do tego samego punktu.
   const widokKasi = await poczekajNaWidok(drugi, ['gracz-wybor', 'gracz-czekaj-temat']);
   const wybieraKasia = widokKasi === 'gracz-wybor';
@@ -416,11 +416,11 @@ try {
     assert.match(await dwoje.textContent('#czekanie-na-wybor-opis'), /Kasia/);
     zapisz('wylosowana Kasia dostaje panel wyboru tematu na swoim telefonie');
 
-    // Wybieramy węższy temat niż „wszystko” — jedna kategoria, żeby sprawdzić,
+    // Wybieramy węższy temat niż „wszystko”, jedna kategoria, żeby sprawdzić,
     // że runda faktycznie respektuje to, co wybrał gracz, a nie cały katalog.
     await drugi.click('#gracz-wybor-kategorii .znaczek >> nth=0');
     const zaznaczoneNaStarcie = await drugi.$$eval('#gracz-wybor-kategorii .znaczek[aria-pressed="true"]', (n) => n.length);
-    assert.ok(zaznaczoneNaStarcie >= 1, 'po odznaczeniu jednej kategorii nie zostało nic do wyboru — błąd w chipach');
+    assert.ok(zaznaczoneNaStarcie >= 1, 'po odznaczeniu jednej kategorii nie zostało nic do wyboru, błąd w chipach');
     await drugi.click('#gracz-zacznij-runde');
     await drugi.waitForSelector('[data-ekran="gracz-odliczanie"]:not([hidden])', { timeout: 10_000 });
     zapisz('gracz zawęża temat do wybranych kategorii i zaczyna rundę ze swojego telefonu');
@@ -435,7 +435,7 @@ try {
   await drugi.waitForSelector('[data-ekran="gracz-runda"]:not([hidden])', { timeout: 10_000 });
   zapisz('po odliczaniu runda rusza na obu telefonach');
 
-  // Prowadzący i gracz dostali to samo pytanie — klikamy tę samą treść po obu stronach.
+  // Prowadzący i gracz dostali to samo pytanie, klikamy tę samą treść po obu stronach.
   const trescPierwszej = await dwoje.$eval('#odpowiedzi-hosta .odp .tresc >> nth=0', (e) => e.textContent);
   const tresciGracza = await drugi.$$eval('#odpowiedzi-gracza .tresc', (n) => n.map((e) => e.textContent));
   const wybranyIndeks = tresciGracza.indexOf(trescPierwszej);
@@ -448,8 +448,8 @@ try {
   await czekaj(2500);
   await drugi.click(`#odpowiedzi-gracza .odp >> nth=${wybranyIndeks}`);
 
-  // Obie osoby kliknęły tę samą (poprawną albo błędną — nieważne, obie tę
-  // samą) odpowiedź — pytanie nie ma na co czekać do końca zegara.
+  // Obie osoby kliknęły tę samą (poprawną albo błędną, nieważne, obie tę
+  // samą) odpowiedź, pytanie nie ma na co czekać do końca zegara.
   await dwoje.waitForSelector('[data-ekran="odslona"]:not([hidden])', { timeout: 8000 });
   zapisz('gdy odpowiedzą wszyscy, pytanie odsłania się od razu');
 
@@ -461,12 +461,12 @@ try {
   const mojWiersz = await dwoje.$$eval('#ranking-podglad li',
     (n) => n.map((e) => [e.dataset.ja, e.textContent.replace(/\s+/g, ' ').trim()]));
   assert.ok(mojWiersz.some(([ja, tekst]) => ja === 'tak' && tekst.includes('Olaf')), 'własny wiersz w tabeli nie jest wyróżniony');
-  zapisz('w tabeli widać, który wiersz jest twój — prowadzący liczy się na tych samych zasadach');
+  zapisz('w tabeli widać, który wiersz jest twój, prowadzący liczy się na tych samych zasadach');
   await zrzut(dwoje, 'ekran-odslona-we-dwoje', true);
 
   /* ====================================================================
-     SCENARIUSZ 3 — „graj też na telefonach graczy”. Sam prowadzący (gra
-     solo, bo „Ja też gram” zostaje domyślnie włączone) — sprawdzamy tylko,
+     SCENARIUSZ 3, „graj też na telefonach graczy”. Sam prowadzący (gra
+     solo, bo „Ja też gram” zostaje domyślnie włączone), sprawdzamy tylko,
      czy po włączeniu tej opcji adres nagrania faktycznie leci w eter razem
      z pytaniem. Samego odtwarzania w tle nie da się tu wiarygodnie sprawdzić
      (headless przeglądarka i realna sieć do sklepu z muzyką to osobna
@@ -478,7 +478,7 @@ try {
   await solo.goto(ADRES, { waitUntil: 'domcontentloaded' });
   await solo.click('#rola-prowadzacy');
   await solo.waitForSelector('[data-ekran="ustawienia"]:not([hidden])');
-  await solo.click('#wybor-serii .znaczek >> nth=0');        // 5 piosenek — ten sam pierwszy utwór co w scenariuszu 1
+  await solo.click('#wybor-serii .znaczek >> nth=0');        // 5 piosenek, ten sam pierwszy utwór co w scenariuszu 1
   await solo.click('#wybor-rund .znaczek >> nth=0');         // 1 runda
   await solo.click('#wybor-kto-wybiera .znaczek >> nth=1');  // temat zawsze ustala prowadzący
   await solo.check('#opcja-muzyka-wszedzie');
@@ -514,11 +514,11 @@ try {
   zapisz('„graj też na telefonach graczy”: adres nagrania i moment startu lecą w eter razem z pytaniem');
 
   /* ====================================================================
-     SCENARIUSZ 4 — muzyka filmowa. Wyjątek od zwykłych pytań: na ekranie
+     SCENARIUSZ 4, muzyka filmowa. Wyjątek od zwykłych pytań: na ekranie
      jawnie widać tytuł albo wykonawcę (drugie zostaje tajemnicą), a zgadnąć
      trzeba film, w którym ten utwór usłyszysz. Panel wyboru tematu rundy
      pokazuje cały katalog niezależnie od tego, co zaznaczono w Ustawieniach
-     (każda runda wybiera dowolnie, patrz rysujWyborTematu w prowadzacy.js) —
+     (każda runda wybiera dowolnie, patrz rysujWyborTematu w prowadzacy.js),
      więc temat do samej „filmowej” zawężamy osobno na obu ekranach.
      ==================================================================== */
 
@@ -526,11 +526,11 @@ try {
   await filmowiec.goto(ADRES, { waitUntil: 'domcontentloaded' });
   await filmowiec.click('#rola-prowadzacy');
   await filmowiec.waitForSelector('[data-ekran="ustawienia"]:not([hidden])');
-  // Zostawiamy zaznaczoną tylko „Filmowa” — resztę wyłączamy. Po tekście
+  // Zostawiamy zaznaczoną tylko „Filmowa”, resztę wyłączamy. Po tekście
   // znaczka, nie po indeksie: liczba i kolejność kategorii się zmienia
   // (kolejne kategorie specjalne/standardowe), a lista renderuje się zawsze
   // w tej samej, kanonicznej kolejności KATEGORIE, więc indeksy są stabilne
-  // w obrębie jednego przebiegu — ale tylko po policzeniu ich na bieżąco.
+  // w obrębie jednego przebiegu, ale tylko po policzeniu ich na bieżąco.
   const nieFilmowe = await filmowiec.$$eval('#wybor-kategorii .znaczek',
     (n) => n.flatMap((e, i) => (e.textContent.includes('Filmowa') ? [] : [i])));
   for (const nth of nieFilmowe) await filmowiec.click(`#wybor-kategorii .znaczek >> nth=${nth}`);
@@ -544,7 +544,7 @@ try {
   await filmowiec.waitForSelector('[data-ekran="lobby"]:not([hidden])', { timeout: 20_000 });
   await filmowiec.click('#zacznij-gre');
   await filmowiec.waitForSelector('[data-ekran="wybor-tematu"]:not([hidden])', { timeout: 10_000 });
-  // Panel wyboru tematu rundy pokazuje cały katalog niezależnie od Ustawień —
+  // Panel wyboru tematu rundy pokazuje cały katalog niezależnie od Ustawień,
   // zawężamy tu osobno, tak samo jak wcześniej w Ustawieniach.
   const nieFilmoweRundy = await filmowiec.$$eval('#wybor-tematu-kategorii .znaczek',
     (n) => n.flatMap((e, i) => (e.textContent.includes('Filmowa') ? [] : [i])));
@@ -566,13 +566,13 @@ try {
   assert.equal((await filmowiec.textContent('#odsloniety-tytul')).trim(), pierwszeFilmowe.utwor.film,
     'odsłona nie pokazuje filmu jako prawidłowej odpowiedzi');
   assert.equal((await filmowiec.textContent('#odsloniety-wykonawca')).trim(),
-    `${pierwszeFilmowe.utwor.tytul} — ${pierwszeFilmowe.utwor.wykonawca}`,
+    `${pierwszeFilmowe.utwor.tytul} · ${pierwszeFilmowe.utwor.wykonawca}`,
     'odsłona nie pokazuje tytułu i wykonawcy jako podpisu przy filmie');
   await zrzut(filmowiec, 'ekran-odslona-filmowa', true);
-  zapisz(`filmowa: odsłona pokazuje film „${pierwszeFilmowe.utwor.film}” z podpisem „${pierwszeFilmowe.utwor.tytul} — ${pierwszeFilmowe.utwor.wykonawca}”`);
+  zapisz(`filmowa: odsłona pokazuje film „${pierwszeFilmowe.utwor.film}” z podpisem „${pierwszeFilmowe.utwor.tytul} · ${pierwszeFilmowe.utwor.wykonawca}”`);
 
   assert.deepEqual([...new Set(bledy)], [], 'błędy w konsoli przeglądarki');
-  console.log(`\nPRZEGLĄDARKA OK — ${zdane.length} sprawdzeń`);
+  console.log(`\nPRZEGLĄDARKA OK: ${zdane.length} sprawdzeń`);
 } finally {
   await przegladarka.close();
   broker.close();

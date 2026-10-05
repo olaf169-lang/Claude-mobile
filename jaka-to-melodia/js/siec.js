@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Pokój gry — protokół między telefonem prowadzącego a telefonami graczy.
+   Pokój gry, protokół między telefonem prowadzącego a telefonami graczy.
    --------------------------------------------------------------------------
    Nie ma tu żadnego naszego serwera. Prowadzący i gracze spotykają się na
    publicznym brokerze MQTT, na dwóch tematach:
@@ -8,7 +8,7 @@
        jtm/<KOD>/g   gracz → prowadzący     (dołączenie, odpowiedzi)
 
    Prowadzący jest jedynym źródłem prawdy. Poprawna odpowiedź nie jedzie w
-   eterze przed czasem — telefony dostają ją dopiero na odsłonie, więc nie da
+   eterze przed czasem, telefony dostają ją dopiero na odsłonie, więc nie da
    się jej podejrzeć w podglądzie ruchu.
 
    Stan rundy jest nadawany cyklicznie, nie raz. Dzięki temu telefon, który
@@ -34,13 +34,13 @@ function brokerZAdresu() {
   try {
     const podany = new URLSearchParams(location.search).get('serwer');
     if (podany && /^wss?:\/\//.test(podany)) return [{ nazwa: 'własny', adres: podany }];
-  } catch { /* brak location — np. w teście modułu */ }
+  } catch { /* brak location, np. w teście modułu */ }
   return [];
 }
 
 export const BROKERY = [...brokerZAdresu(), ...BROKERY_PUBLICZNE];
 
-// Bez O/0 i I/1 — kod ma być czytelny z ekranu i do podyktowania przez pokój.
+// Bez O/0 i I/1, kod ma być czytelny z ekranu i do podyktowania przez pokój.
 const ZNAKI_KODU = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
 
 export function losowyKod(dlugosc = 4) {
@@ -49,7 +49,7 @@ export function losowyKod(dlugosc = 4) {
   return [...bajty].map((b) => ZNAKI_KODU[b % ZNAKI_KODU.length]).join('');
 }
 
-/** Identyfikator telefonu — przeżywa odświeżenie strony, więc wracasz z punktami. */
+/** Identyfikator telefonu, przeżywa odświeżenie strony, więc wracasz z punktami. */
 export function idUrzadzenia() {
   const klucz = 'jtm:urzadzenie';
   let id = localStorage.getItem(klucz);
@@ -63,7 +63,7 @@ export function idUrzadzenia() {
 export const tematProwadzacego = (kod) => `jtm/${kod}/h`;
 export const tematGraczy = (kod) => `jtm/${kod}/g`;
 
-/** Adres z kodem pokoju i numerem brokera — to ląduje w kodzie QR. */
+/** Adres z kodem pokoju i numerem brokera, to ląduje w kodzie QR. */
 export function adresDolaczenia(kod, brokerNr) {
   const adres = new URL(location.href);
   adres.hash = `#/dolacz/${kod}/${brokerNr}`;
@@ -127,7 +127,7 @@ class Pokoj {
     this.onStanLacza('polaczono');
   }
 
-  /** Po zerwaniu wracamy na ten sam broker — kod pokoju ma zostać ten sam. */
+  /** Po zerwaniu wracamy na ten sam broker, kod pokoju ma zostać ten sam. */
   _wznow() {
     clearTimeout(this._ponowienie);
     const opoznienie = Math.min(1000 * 2 ** this._probaNr, 15000);
@@ -219,7 +219,7 @@ export class PokojGracza extends Pokoj {
     throw new Error(bledy.join('\n'));
   }
 
-  /** Trzy zawołania po sekundzie — pakiet potrafi zginąć, prowadzący nie. */
+  /** Trzy zawołania po sekundzie, pakiet potrafi zginąć, prowadzący nie. */
   _zapukaj(klient, ksywka) {
     return new Promise((spelnij) => {
       let gotowe = false;
@@ -247,7 +247,7 @@ export class PokojGracza extends Pokoj {
     });
   }
 
-  /** Po zerwaniu łącza wracamy z tym samym „hej” — prowadzący rozpozna nas po
+  /** Po zerwaniu łącza wracamy z tym samym „hej”, prowadzący rozpozna nas po
       identyfikatorze urządzenia i odda dotychczasowe punkty. */
   _podepnij(klient) {
     super._podepnij(klient);

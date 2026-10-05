@@ -5,7 +5,7 @@
        node narzedzia/sprawdz-wdrozenie.mjs
 
    Po co osobne narzędzie na coś tak prostego: bo „zrobione” ma tu cztery
-   ogniwa, a pęknięcie każdego wygląda identycznie — pliki na dysku są zmienione
+   ogniwa, a pęknięcie każdego wygląda identycznie, pliki na dysku są zmienione
    i wszystko zdaje się gotowe.
 
        1. zmiana zacommitowana          (inaczej zostaje tylko na dysku)
@@ -14,7 +14,7 @@
        4. katalog na produkcyjnej ma tyle samo utworów co lokalnie
 
    Tak właśnie zgubiła się kiedyś cała rozbudowa katalogu: cykliczny Routine
-   raportował SUKCES, bo u siebie faktycznie dopisał utwory — tylko nigdy nie
+   raportował SUKCES, bo u siebie faktycznie dopisał utwory, tylko nigdy nie
    doszedł do ogniwa drugiego. Ten skrypt przechodzi łańcuch do końca i kończy
    się błędem na pierwszym pękniętym ogniwie, zamiast zapewniać, że „gotowe”.
    ========================================================================== */
@@ -31,7 +31,7 @@ const PLIK_KATALOGU = 'jaka-to-melodia/dane/utwory.js';
 const git = (...argumenty) =>
   execFileSync('git', argumenty, { encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] }).trim();
 
-/** Ile utworów ma katalog w danej wersji pliku — bez importowania go. */
+/** Ile utworów ma katalog w danej wersji pliku, bez importowania go. */
 const ileUtworow = (wskazanie) =>
   (git('show', `${wskazanie}:${PLIK_KATALOGU}`).match(/^\s*\{ tytul:/gm) || []).length;
 
@@ -61,7 +61,7 @@ export function sprawdzLancuch({
     Number(przed) === 0,
     Number(przed) === 0
       ? `HEAD ${lokalny.slice(0, 8)} jest na zdalnej gałęzi`
-      : `${przed} ${przed === '1' ? 'commit' : 'commitów'} tylko lokalnie — zrób git push`,
+      : `${przed} ${przed === '1' ? 'commit' : 'commitów'} tylko lokalnie. Zrób git push`,
   )) return ogniwa;
 
   /* 3. Czy gałąź robocza jest wmergowana w produkcyjną. */
@@ -72,7 +72,7 @@ export function sprawdzLancuch({
     Number(nieWmergowane) === 0,
     Number(nieWmergowane) === 0
       ? 'gałąź produkcyjna ma wszystko z roboczej'
-      : `${nieWmergowane} ${nieWmergowane === '1' ? 'commit' : 'commitów'} jeszcze nie w produkcji — zmerguj i wypchnij`,
+      : `${nieWmergowane} ${nieWmergowane === '1' ? 'commit' : 'commitów'} jeszcze nie w produkcji. Zmerguj i wypchnij`,
   )) return ogniwa;
 
   /* 4. Czy katalog na produkcji jest ten sam. */
@@ -84,14 +84,14 @@ export function sprawdzLancuch({
       ? `${naProdukcji} utworów, tyle samo co lokalnie`
       : `na produkcji ${naProdukcji}, lokalnie ${lokalnieUtworow}`,
   );
-  // Nieużywane wprost, ale trzymamy w raporcie — przy rozjechanym stanie to
+  // Nieużywane wprost, ale trzymamy w raporcie, przy rozjechanym stanie to
   // pierwsza rzecz, na którą człowiek patrzy.
   ogniwa.push({ nazwa: 'commit produkcyjny', ok: true, szczegol: zdalnyRoboczy.slice(0, 8) });
   return ogniwa;
 }
 
 export const raportLancucha = (ogniwa) => ogniwa
-  .map((o) => `  ${o.ok ? '✓' : '✗'} ${o.nazwa} — ${o.szczegol}`)
+  .map((o) => `  ${o.ok ? '✓' : '✗'} ${o.nazwa}: ${o.szczegol}`)
   .join('\n');
 
 if (process.argv[1] && import.meta.url === `file://${resolve(process.argv[1])}`) {
@@ -103,5 +103,5 @@ if (process.argv[1] && import.meta.url === `file://${resolve(process.argv[1])}`)
     console.error(`\nZmiana NIE jest jeszcze w aplikacji: ${pekniete[0].nazwa}.`);
     process.exit(1);
   }
-  console.log('\nWszystko na miejscu — zmiana jest w aplikacji.');
+  console.log('\nWszystko na miejscu, zmiana jest w aplikacji.');
 }

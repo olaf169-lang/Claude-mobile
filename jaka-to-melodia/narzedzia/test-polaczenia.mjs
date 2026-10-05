@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /* Test klienta MQTT na własnym brokerze uruchomionym na czas testu.
-   Sprawdza dokładnie ten kod, który potem chodzi w telefonach — Node 22 ma
+   Sprawdza dokładnie ten kod, który potem chodzi w telefonach. Node 22 ma
    globalne WebSocket, więc js/mqtt.js działa tu bez żadnych podmianek.
 
    Wymaga pakietów deweloperskich: npm install (w katalogu jaka-to-melodia). */
@@ -46,7 +46,7 @@ assert.equal(doProwadzacego[0]?.ksywka, 'Zosia');
 zapisz('wiadomość od gracza dochodzi do prowadzącego');
 
 // Pakiet dłuższy niż 127 bajtów sprawdza wielobajtowe pole długości,
-// a polskie znaki — kodowanie UTF-8 w obie strony.
+// a polskie znaki, kodowanie UTF-8 w obie strony.
 const duzy = {
   t: 'runda',
   odpowiedzi: ['Żółta łódź podwodna', 'Ćma barowa', 'Świerszcze za oknem', 'Ósmy dzień tygodnia'],
@@ -58,7 +58,7 @@ assert.equal(doGracza[0]?.wypelniacz.length, 400, 'duży pakiet doszedł ucięty
 assert.equal(doGracza[0]?.odpowiedzi[0], 'Żółta łódź podwodna', 'zepsute polskie znaki');
 zapisz('duże pakiety i polskie znaki przechodzą bez szwanku');
 
-// Kilkanaście pakietów pod rząd potrafi wylądować w jednej ramce WebSocket —
+// Kilkanaście pakietów pod rząd potrafi wylądować w jednej ramce WebSocket,
 // bufor musi je rozdzielić z powrotem.
 let policzone = 0;
 gracz.onWiadomosc = () => { policzone += 1; };
@@ -67,7 +67,7 @@ await czekaj(500);
 assert.equal(policzone, 60, `zgubione pakiety w serii: ${policzone}/60`);
 zapisz('seria 60 pakietów dochodzi w komplecie');
 
-// Zerwane łącze ma zawołać onRozlaczenie, ale własne wyjście z gry — nie.
+// Zerwane łącze ma zawołać onRozlaczenie, ale własne wyjście z gry, nie.
 const drugi = new KlientMqtt({ adres, klientId: 'test-zrywany' });
 await drugi.polacz();
 let zerwane = false;
@@ -94,5 +94,5 @@ prowadzacy.rozlacz();
 broker.close();
 gniazda.close();
 serwer.close();
-console.log(`\nPOŁĄCZENIE OK — ${zdane.length} sprawdzeń`);
+console.log(`\nPOŁĄCZENIE OK: ${zdane.length} sprawdzeń`);
 process.exit(0);

@@ -1,30 +1,30 @@
-/* Cloud Functions dla Turnieju Piąteczki — jedyne miejsce w tym projekcie,
+/* Cloud Functions dla Turnieju Piąteczki, jedyne miejsce w tym projekcie,
    które faktycznie WYSYŁA powiadomienia push. Appka sama (bez otwartej
    karty) nie może obudzić się o określonej porze ani zareagować na cudzy
-   zapis w Firestore — do tego trzeba czegoś, co działa po stronie serwera.
+   zapis w Firestore, do tego trzeba czegoś, co działa po stronie serwera.
 
    Trzy funkcje:
-     naRuchWTurnieju        — reaguje na każdy zapisany ruch w pojedynku:
+     naRuchWTurnieju       : reaguje na każdy zapisany ruch w pojedynku:
                                powiadamia, czyja jest kolej, albo że pojedynek
                                się zakończył.
-     naProsbePowiadomienia  — reaguje na przycisk „Powiadom gracza” na
+     naProsbePowiadomienia , reaguje na przycisk „Powiadom gracza” na
                                ekranie oczekiwania: natychmiastowe ręczne
                                przypomnienie, niezależne od naRuchWTurnieju.
-     podsumowanieTygodniowe — w każdą niedzielę o 18:00 czasu polskiego
+     podsumowanieTygodniowe, w każdą niedzielę o 18:00 czasu polskiego
                                wysyła podsumowanie do wszystkich ksywek, które
                                rozegrały choć jeden mecz w ostatnim tygodniu.
 
-   Wdrożenie (jednorazowo, z Twojego komputera — ja nie mam jak stąd tego
+   Wdrożenie (jednorazowo, z Twojego komputera, ja nie mam jak stąd tego
    zrobić, to wymaga Twojego logowania do Firebase):
      1. npm install -g firebase-tools   (jeśli jeszcze nie masz)
      2. firebase login
      3. w konsoli Firebase: przełącz projekt na plan Blaze (płatność za
-        użycie — sam plan nic nie kosztuje, płaci się dopiero po
+        użycie, sam plan nic nie kosztuje, płaci się dopiero po
         przekroczeniu darmowego limitu, przy grze znajomych się do niego
         nie zbliżycie)
      4. cd jaka-to-melodia/functions && npm install
      5. firebase deploy --only functions,firestore:rules
-   Do momentu wdrożenia appka i tak działa normalnie — przycisk dzwonka
+   Do momentu wdrożenia appka i tak działa normalnie, przycisk dzwonka
    i przycisk „Powiadom gracza” po prostu nic nie wyślą, bo nie ma kto. */
 
 const { initializeApp } = require('firebase-admin/app');
@@ -46,7 +46,7 @@ async function wyslij(tokeny, dane) {
   try {
     await getMessaging().sendEachForMulticast({ tokens: tokeny, data: dane });
   } catch {
-    // Token mógł wygasnąć albo appka zostać odinstalowana — nic wielkiego,
+    // Token mógł wygasnąć albo appka zostać odinstalowana, nic wielkiego,
     // po prostu to jedno powiadomienie przepada.
   }
 }
@@ -61,7 +61,7 @@ exports.naRuchWTurnieju = onDocumentCreated(
     const gracze = graczeSnap.docs.map((d) => ({ id: d.id, ...d.data() }));
     const p1 = gracze.find((g) => g.rola === 'p1');
     const p2 = gracze.find((g) => g.rola === 'p2');
-    if (!p1 || !p2) return; // P2 jeszcze nie dołączył — nie ma kogo powiadamiać
+    if (!p1 || !p2) return; // P2 jeszcze nie dołączył, nie ma kogo powiadamiać
 
     const [ruchyP1, ruchyP2] = await Promise.all([
       pojedynekRef.collection('gracze').doc(p1.id).collection('ruchy').get(),
@@ -72,7 +72,7 @@ exports.naRuchWTurnieju = onDocumentCreated(
     const url = `./#/turniej/${pojedynekId}`;
 
     if (liczbaP1 >= 2) {
-      // P1 dograł resztę — pojedynek zamknięty, informujemy obu.
+      // P1 dograł resztę, pojedynek zamknięty, informujemy obu.
       const [tP1, tP2] = await Promise.all([pobierzTokeny(p1.ksywka), pobierzTokeny(p2.ksywka)]);
       await Promise.all([
         wyslij(tP1, { tytul: 'Turniej Piąteczki', tresc: `Pojedynek z ${p2.ksywka} zakończony!`, url }),
@@ -81,14 +81,14 @@ exports.naRuchWTurnieju = onDocumentCreated(
       return;
     }
     if (liczbaP1 >= 1 && liczbaP2 === 0) {
-      // P1 skończył swoją część — teraz kolej P2.
+      // P1 skończył swoją część, teraz kolej P2.
       await wyslij(await pobierzTokeny(p2.ksywka), {
         tytul: 'Turniej Piąteczki', tresc: `${p1.ksywka} czeka na Twój ruch!`, url,
       });
       return;
     }
     if (liczbaP2 >= 1 && liczbaP1 === 1) {
-      // P2 skończył swoją część — teraz kolej P1 na dogranie.
+      // P2 skończył swoją część, teraz kolej P1 na dogranie.
       await wyslij(await pobierzTokeny(p1.ksywka), {
         tytul: 'Turniej Piąteczki', tresc: `${p2.ksywka} czeka na dogranie przez Ciebie!`, url,
       });
@@ -96,7 +96,7 @@ exports.naRuchWTurnieju = onDocumentCreated(
   },
 );
 
-// Ręczne "szturchnięcie" — przycisk Powiadom gracza na ekranie oczekiwania.
+// Ręczne "szturchnięcie", przycisk Powiadom gracza na ekranie oczekiwania.
 // Osobna ścieżka od naRuchWTurnieju wyżej: tu żaden nowy ruch nie powstaje,
 // czekający gracz sam prosi appkę o wysłanie przypomnienia drugiej stronie.
 exports.naProsbePowiadomienia = onDocumentCreated(
@@ -125,7 +125,7 @@ exports.podsumowanieTygodniowe = onSchedule(
   { schedule: '0 18 * * 0', timeZone: 'Europe/Warsaw' },
   async () => {
     // Ostatnie 7 dni zamiast precyzyjnych granic tygodnia poniedziałek-
-    // -niedziela — funkcja i tak odpala się w niedzielę o 18, więc to
+    // -niedziela, funkcja i tak odpala się w niedzielę o 18, więc to
     // w praktyce ten sam tydzień, dużo prościej niż liczenie stref czasowych.
     const tydzienTemu = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
     const mecze = await db.collection('rankingTurnieju').where('zakonczono', '>=', tydzienTemu).get();
@@ -142,7 +142,7 @@ exports.podsumowanieTygodniowe = onSchedule(
       const tokeny = await pobierzTokeny(ksywka);
       await wyslij(tokeny, {
         tytul: 'Turniej Piąteczki',
-        tresc: 'Tydzień Turnieju Piąteczki zakończony — sprawdź tablicę wyników!',
+        tresc: 'Tydzień Turnieju Piąteczki zakończony. Sprawdź tablicę wyników!',
         url: './#/turniej/tablica',
       });
     }));

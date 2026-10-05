@@ -1,15 +1,15 @@
-name: Katalog — rozbudowa
+name: Katalog: rozbudowa
 
 # Dociąga nowe utwory do dane/utwory.js prosto ze sklepu iTunes.
 #
 # Dlaczego w CI, a nie „ręcznie w sesji”: wcześniej katalog rozbudowywał
 # cykliczny Routine, który raportował SUKCES, a w repozytorium nie zostawało
-# nic — bo między „znalazłem utwory” a „zacommitowałem” nie było nic, co by
+# nic, bo między „znalazłem utwory” a „zacommitowałem” nie było nic, co by
 # tego pilnowało. Tutaj każdy krok jest sprawdzany maszynowo, a zadanie NIE
 # MOŻE zakończyć się powodzeniem, jeśli katalog nie urósł i commit nie wszedł
 # na zdalną gałąź (patrz krok „Potwierdź, że zmiana naprawdę weszła”).
 #
-# Uruchamia się tylko z ręki (workflow_dispatch) — rozbudowa katalogu to
+# Uruchamia się tylko z ręki (workflow_dispatch), rozbudowa katalogu to
 # decyzja, a nie coś, co ma się dziać samo w tle.
 on:
   workflow_dispatch:
@@ -49,7 +49,7 @@ concurrency:
 
 jobs:
   zbierz:
-    name: Zbieranie — część ${{ matrix.czesc }}
+    name: Zbieranie, część ${{ matrix.czesc }}
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -123,7 +123,7 @@ jobs:
             ${{ github.event.inputs.maks && format('--maks {0}', github.event.inputs.maks) || '' }} \
             ${{ github.event.inputs.na_probe == 'tak' && '--na-probe' || '' }}
 
-      # Dopiero teraz testy — katalog jest już zmieniony, więc sprawdzamy to,
+      # Dopiero teraz testy, katalog jest już zmieniony, więc sprawdzamy to,
       # co faktycznie wejdzie do repozytorium, a nie stan sprzed zmiany.
       - name: Kontrola katalogu utworów
         if: ${{ github.event.inputs.na_probe != 'tak' }}
@@ -152,7 +152,7 @@ jobs:
           PRZED=${{ steps.przed.outputs.ile }}
           echo "Katalog: $PRZED → $PO utworów."
           if [ "$PO" -le "$PRZED" ]; then
-            echo "::error::Katalog nie urósł ($PRZED → $PO). Zebrane utwory były dublami albo koszyki są pełne — nie ma czego commitować."
+            echo "::error::Katalog nie urósł ($PRZED → $PO). Zebrane utwory były dublami albo koszyki są pełne, nie ma czego commitować."
             exit 1
           fi
           git config user.name "Jaka to Melodia"

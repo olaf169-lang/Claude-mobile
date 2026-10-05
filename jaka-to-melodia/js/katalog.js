@@ -1,4 +1,4 @@
-/* Katalog — wszystko, co obie strony (przeglądarka i skrypty w narzedzia/)
+/* Katalog, wszystko, co obie strony (przeglądarka i skrypty w narzedzia/)
    muszą rozumieć tak samo: identyfikator utworu, dekada, porównywanie tytułów. */
 
 import { UTWORY } from '../dane/utwory.js';
@@ -15,7 +15,7 @@ export const KATEGORIE = [
   { id: 'polskie', nazwa: 'Polskie',    emoji: '🇵🇱' },
   { id: 'country', nazwa: 'Country & Folk', emoji: '🪕' },
   // Specjalne: bez wymogu równomiernego rozkładu po dekadach (patrz
-  // sprawdz-dane.mjs) — wąski, konkretny temat zamiast szerokiego gatunku,
+  // sprawdz-dane.mjs), wąski, konkretny temat zamiast szerokiego gatunku,
   // więc naturalnie skupia się w kilku latach zamiast rozkładać się równo.
   { id: 'disney',  nazwa: 'Disney',              emoji: '🏰', specjalna: true },
   { id: 'furious', nazwa: 'Szybcy i wściekli',   emoji: '🏎️', specjalna: true },
@@ -33,7 +33,7 @@ export const DEKADY = [
 ];
 
 /**
- * Nie każdy gatunek istniał w każdej epoce — rapu w latach 60. po prostu nie
+ * Nie każdy gatunek istniał w każdej epoce, rapu w latach 60. po prostu nie
  * było, a disco to dopiero druga połowa lat 70. Zamiast wpisywać do katalogu
  * naciągane „przykłady”, te pary są wykluczone: filtry ich nie pokazują,
  * a kontrola danych nie zgłasza ich jako braków. Utwory, które w innej epoce
@@ -45,7 +45,7 @@ export const istnieje = (dekada, kategoria) => !NIEISTNIEJACE.has(`${dekada}/${k
 
 export const dekada = (utwor) => Math.floor(utwor.rok / 10) * 10;
 
-/** Tekst bez ogonków, znaków przestankowych i wielkich liter — do porównań. */
+/** Tekst bez ogonków, znaków przestankowych i wielkich liter, do porównań. */
 export function normalizuj(tekst) {
   return String(tekst)
     .normalize('NFD')
@@ -62,7 +62,7 @@ export function normalizuj(tekst) {
    pokazana podpowiedź zawiera nazwę filmu („Theme from Jaws” przy filmie
    „Jaws”, wykonawca „Encanto Cast” przy „Encanto”), pytanie odpowiada samo
    sobie. Gra pokazuje wtedy drugą podpowiedź, a kontrola danych zgłasza wpis,
-   w którym zdradzają obie — z takiego utworu nie da się zrobić zagadki. */
+   w którym zdradzają obie, z takiego utworu nie da się zrobić zagadki. */
 
 /** Słowa, które same z siebie nie wskazują na konkretny film. */
 const SLOWA_NIEISTOTNE = new Set([
@@ -72,7 +72,7 @@ const SLOWA_NIEISTOTNE = new Set([
   'w', 'z', 'na', 'do', 'motyw', 'temat', 'piosenka',
 ]);
 
-/** Liczba pojedyncza zamiast mnogiej — „Raiders” i „Raider” to to samo słowo. */
+/** Liczba pojedyncza zamiast mnogiej, „Raiders” i „Raider” to to samo słowo. */
 const rdzen = (slowo) => slowo.replace(/(ies|es|s)$/, '');
 
 const slowaIstotne = (tekst) =>
@@ -84,7 +84,7 @@ const slowaIstotne = (tekst) =>
 /**
  * Czy ta podpowiedź zdradza, z jakiego filmu jest utwór?
  *
- * Wychodzimy tu raczej na „tak”, bo pomyłka w tę stronę nic nie psuje —
+ * Wychodzimy tu raczej na „tak”, bo pomyłka w tę stronę nic nie psuje,
  * gra pokaże drugą podpowiedź i pytanie nadal będzie dobre. Pomyłka w drugą
  * stronę daje pytanie z odpowiedzią w treści, czyli dokładnie to, czego nie
  * chcemy.
@@ -101,7 +101,7 @@ export function zdradzaFilm(podpowiedz, film) {
   return slowaFilmu.some((slowo) => slowo.length >= 5 && wPodpowiedzi.has(slowo));
 }
 
-/** Czy z utworu da się zrobić pytanie o film — czy została jakaś uczciwa podpowiedź. */
+/** Czy z utworu da się zrobić pytanie o film, czy została jakaś uczciwa podpowiedź. */
 export const daSieSpytacOFilm = (utwor) =>
   Boolean(utwor.film) &&
   (!zdradzaFilm(utwor.tytul, utwor.film) || !zdradzaFilm(utwor.wykonawca, utwor.film));
@@ -112,14 +112,14 @@ export const idUtworu = (utwor) =>
 
 const ROZDZIELACZ = /\s+(?:feat\.|ft\.|with|vs\.?|&|x|i)\s+|,\s+/i;
 
-/** Wykonawca bez dopisków typu „feat. X” — do sprawdzania, czy to ten sam artysta. */
+/** Wykonawca bez dopisków typu „feat. X”, do sprawdzania, czy to ten sam artysta. */
 export const glownyWykonawca = (wykonawca) =>
   String(wykonawca).split(ROZDZIELACZ)[0].trim();
 
 /**
  * Wszyscy wymienieni w polu „wykonawca”, znormalizowani. Dzięki temu w jednym
  * pytaniu nie wylądują obok siebie „Taco Hemingway” i „Dawid Podsiadło & Taco
- * Hemingway” — to byłaby ta sama odpowiedź napisana dwa razy.
+ * Hemingway”, to byłaby ta sama odpowiedź napisana dwa razy.
  */
 export const wszyscyWykonawcy = (wykonawca) =>
   String(wykonawca)

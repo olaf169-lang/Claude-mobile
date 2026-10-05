@@ -9,11 +9,11 @@
    Dlaczego proporcjonalnie, a nie równo po wszystkich koszykach: dzisiejszy
    rozkład nie jest przypadkowy. Rapu w latach 60. nie było, lata 2020. jeszcze
    się nie skończyły, a „polskie” są mocniejsze, bo to gra dla polskich graczy.
-   Równanie wszystkiego do jednej liczby zepsułoby to, co działa — więc każdy
+   Równanie wszystkiego do jednej liczby zepsułoby to, co działa, więc każdy
    koszyk rośnie tym samym mnożnikiem.
 
    Kategorie specjalne (Disney, Szybcy i wściekli, szanty) też są tu liczone,
-   ale ich się nie da dociągnąć wyszukiwaniem po wykonawcach — to wąskie,
+   ale ich się nie da dociągnąć wyszukiwaniem po wykonawcach, to wąskie,
    skończone tematy, które rosną tylko ręczną robotą. Plan pokazuje ich
    niedobór osobno, żeby nie ginął w sumie.
    ========================================================================== */
@@ -42,7 +42,7 @@ export function planKoszykow(katalog, { cel = CEL_DOMYSLNY } = {}) {
       // Kombinacje wykluczone celowo (rap w latach 60.) nie są niedoborem.
       if (!kategoria.specjalna && !istnieje(dekada.id, kategoria.id)) continue;
       const jest = teraz.get(`${dekada.id}/${kategoria.id}`) || 0;
-      // Koszyk, którego dziś nie ma, ma zostać pusty — tak wygląda „te same
+      // Koszyk, którego dziś nie ma, ma zostać pusty, tak wygląda „te same
       // proporcje”. Inaczej plan kazałby wymyślić disneyowskie lata 60.
       if (!jest) continue;
       const docelowo = Math.round(jest * mnoznik);
@@ -70,7 +70,7 @@ export function planKoszykow(katalog, { cel = CEL_DOMYSLNY } = {}) {
   };
 }
 
-/** Niedobór zsumowany po kategoriach — do raportu i do doboru wykonawców. */
+/** Niedobór zsumowany po kategoriach, do raportu i do doboru wykonawców. */
 export function brakiWgKategorii(plan) {
   const wynik = new Map();
   for (const koszyk of plan.koszyki) {
@@ -85,7 +85,7 @@ export function raportPlanu(plan) {
     '',
     `Mnożnik ${plan.mnoznik.toFixed(2)}×. Do dołożenia **${plan.brakRazem}**: ` +
     `${plan.brakZwykle} w kategoriach gatunkowych (da się pobrać po wykonawcach) ` +
-    `i ${plan.brakSpecjalne} w specjalnych (Disney, Szybcy i wściekli, szanty — ręcznie).`,
+    `i ${plan.brakSpecjalne} w specjalnych (Disney, Szybcy i wściekli, szanty, ręcznie).`,
     '',
     '| dekada | kategoria | jest | cel | brak |',
     '|---|---|---:|---:|---:|',
@@ -95,7 +95,7 @@ export function raportPlanu(plan) {
     const nazwaDekady = DEKADY.find((x) => x.id === k.dekada)?.nazwa || k.dekada;
     wiersze.push(`| ${nazwaDekady} | ${nazwaKategorii}${k.specjalna ? ' ★' : ''} | ${k.jest} | ${k.docelowo} | ${k.brak} |`);
   }
-  wiersze.push('', '★ kategoria specjalna — wąski temat, nie dociągnie się wyszukiwaniem po wykonawcach.');
+  wiersze.push('', '★ kategoria specjalna, wąski temat, nie dociągnie się wyszukiwaniem po wykonawcach.');
   return `${wiersze.join('\n')}\n`;
 }
 
