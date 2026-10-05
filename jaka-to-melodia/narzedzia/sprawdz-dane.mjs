@@ -12,7 +12,9 @@ import { readFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { przygotujKatalog, KATEGORIE, DEKADY, istnieje } from '../js/katalog.js';
+import {
+  przygotujKatalog, KATEGORIE, DEKADY, istnieje, zdradzaFilm, daSieSpytacOFilm,
+} from '../js/katalog.js';
 
 const KATALOG_APLIKACJI = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const ROK_MIN = 1958;
@@ -47,6 +49,17 @@ for (const utwor of utwory) {
   }
   if (utwor.gatunek === 'filmowa' && !utwor.film) {
     uwagi.push(`${gdzie}: brak pola „film” — nie wejdzie do puli pytań o film`);
+  }
+  // Pytanie filmowe pokazuje tytuł albo wykonawcę i każe zgadnąć film. Gdy
+  // nazwę filmu zdradzają oba, nie zostaje uczciwa podpowiedź i gra musiałaby
+  // zadać pytanie z odpowiedzią w treści — więc taki wpis odpada z puli i jest
+  // tu błędem, a nie uwagą.
+  if (utwor.gatunek === 'filmowa' && utwor.film && !daSieSpytacOFilm(utwor)) {
+    bledy.push(
+      `${gdzie}: i tytuł, i wykonawca zdradzają film „${utwor.film}” — ` +
+      'pytanie odpowiadałoby samo sobie. Zmień tytuł na dokładny albo przenieś ' +
+      'utwór do zwykłej kategorii gatunkowej.',
+    );
   }
   // Poza 'filmowa' (gdzie napędza mechanikę zgadywania filmu) pole „film” ma
   // sens jako sam znacznik na odsłonie — używa go dziś tylko 'furious'
@@ -103,6 +116,18 @@ for (const dekada of DEKADY) {
 }
 wiersze.push('');
 wiersze.push(`Nagrania gotowe dla **${zNagraniem}** z ${utwory.length} utworów.`);
+
+// Ile pytań filmowych musi pokazać wykonawcę, bo tytuł zdradza film. Samo w
+// sobie to nie problem (pytanie zostaje dobre), ale gdy odsetek rośnie, warto
+// dokładać utwory z tytułem niezawierającym nazwy filmu.
+const filmowe = utwory.filter((u) => u.gatunek === 'filmowa' && u.film);
+const tytulZdradza = filmowe.filter((u) => zdradzaFilm(u.tytul, u.film)).length;
+if (filmowe.length) {
+  wiersze.push(
+    `Pytania filmowe: **${filmowe.length}**, w tym ${tytulZdradza} pokaże wykonawcę ` +
+    '(tytuł zdradzałby film).',
+  );
+}
 if (podglady.braki?.length) {
   wiersze.push(`Bez nagrania po ostatnim pobraniu: ${podglady.braki.length}.`);
 }

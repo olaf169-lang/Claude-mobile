@@ -11,7 +11,9 @@
                (np. „rock i rap, lata 80. i 90.”). Gra to kilka rund.
    ========================================================================== */
 
-import { przygotujKatalog, DEKADY, KATEGORIE, istnieje } from './katalog.js';
+import {
+  przygotujKatalog, DEKADY, KATEGORIE, istnieje, zdradzaFilm, daSieSpytacOFilm,
+} from './katalog.js';
 
 export const MAKS_PUNKTOW = 100;
 // Ile puli zostaje temu, kto trafi w ostatniej chwili. Im niżej, tym mocniej
@@ -80,7 +82,9 @@ export function pulaUtworow(ustawienia, { katalog = przygotujKatalog(), maPodgla
       // Filmowa pyta o film, w którym utwór usłyszałeś — bez znanego filmu
       // nie da się z tego zrobić pytania, więc taki wpis po prostu nie wchodzi
       // do puli (tak samo jak utwór bez nagrania przy grze z dźwiękiem).
-      (u.gatunek !== 'filmowa' || u.film) &&
+      // Odpada też utwór, w którym nazwę filmu zdradza i tytuł, i wykonawca:
+      // nie zostaje wtedy żadna uczciwa podpowiedź.
+      (u.gatunek !== 'filmowa' || daSieSpytacOFilm(u)) &&
       (!maPodglad || maPodglad(u)),
   );
 }
@@ -185,9 +189,16 @@ function dobierzBledneFilmy(utwor, katalog, losuj, ile = 3) {
 function zbudujRundeFilmowa(utwor, katalog, losuj) {
   const bledne = dobierzBledneFilmy(utwor, katalog, losuj);
   const wszystkieFilmy = przetasuj([utwor.film, ...bledne], losuj);
-  // Losujemy, co widać na ekranie — tytuł czy wykonawcę. To drugie zostaje
-  // tajemnicą aż do odsłony, tak jak przy zwykłym pytaniu.
-  const wskazany = losuj() < 0.5 ? 'tytul' : 'wykonawca';
+  // Co widać na ekranie — tytuł czy wykonawcę? To drugie zostaje tajemnicą aż
+  // do odsłony, tak jak przy zwykłym pytaniu. Wybieramy losowo, ale tylko
+  // spośród podpowiedzi, które nie zawierają nazwy filmu: „Theme from Jaws —
+  // w jakim filmie go usłyszysz?” to pytanie z odpowiedzią w treści.
+  const uczciwe = ['tytul', 'wykonawca'].filter(
+    (pole) => !zdradzaFilm(utwor[pole], utwor.film),
+  );
+  const wskazany = uczciwe.length === 2
+    ? (losuj() < 0.5 ? 'tytul' : 'wykonawca')
+    : (uczciwe[0] || 'wykonawca');
   const podpowiedz = wskazany === 'tytul'
     ? `Ten utwór to „${utwor.tytul}” — w jakim filmie go usłyszysz?`
     : `Tego utworu słuchasz w wykonaniu ${utwor.wykonawca} — w jakim filmie go usłyszysz?`;

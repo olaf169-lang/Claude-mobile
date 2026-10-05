@@ -12,7 +12,7 @@
 import { normalizuj, glownyWykonawca } from './katalog.js';
 
 /** Dopiski, które zdradzają, że to nie jest oryginał. */
-const PODEJRZANE = [
+export const PODEJRZANE = [
   'karaoke', 'tribute', 'made famous', 'in the style of', 'instrumental',
   'cover version', 'covered by', 'lullaby', 'workout', 'ringtone',
   'as made popular', 'originally performed',

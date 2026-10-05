@@ -38,29 +38,8 @@ const naprawApostrofy = (tekst) =>
     ? SKROTY.reduce((t, [wzor, na]) => t.replace(wzor, na), tekst)
     : tekst);
 
-const naprawione = [];
-for (const utwor of UTWORY) {
-  const tytul = naprawApostrofy(utwor.tytul);
-  const wykonawca = naprawApostrofy(utwor.wykonawca);
-  if (tytul !== utwor.tytul || wykonawca !== utwor.wykonawca) {
-    naprawione.push(`${utwor.wykonawca} — ${utwor.tytul}  →  ${wykonawca} — ${tytul}`);
-    utwor.tytul = tytul;
-    utwor.wykonawca = wykonawca;
-  }
-}
-
-/* --- duble: wygrywa wpis późniejszy --- */
-const wedlugId = new Map();
-const usuniete = [];
-for (const utwor of UTWORY) {
-  const id = idUtworu(utwor);
-  if (wedlugId.has(id)) usuniete.push(`${utwor.wykonawca} — ${utwor.tytul} (było: ${wedlugId.get(id).gatunek})`);
-  wedlugId.set(id, utwor);
-}
-const utwory = [...wedlugId.values()];
-
 const apostrof = (t) => (t.includes("'") ? `"${t.replace(/"/g, '\\"')}"` : `'${t}'`);
-const linia = (u) => {
+export const linia = (u) => {
   const czesci = [
     `tytul: ${apostrof(u.tytul)}`,
     `wykonawca: ${apostrof(u.wykonawca)}`,
@@ -75,48 +54,86 @@ const linia = (u) => {
   return `  { ${czesci.join(', ')} },`;
 };
 
-const naglowek = readFileSync(PLIK, 'utf8').split('export const UTWORY = [')[0];
-const kawalki = [`${naglowek}export const UTWORY = [`];
-const tabela = {};
+/**
+ * Zapisuje dane/utwory.js od nowa, z `dodatkowe` wmieszanymi w katalog.
+ * Zwraca podsumowanie — kto wywołuje, ten decyduje, co z nim zrobić.
+ */
+export function przebuduj(dodatkowe = []) {
+  const wszystkie = [...UTWORY, ...dodatkowe];
 
-for (const dek of DEKADY) {
-  const wDekadzie = utwory.filter((u) => dekada(u) === dek.id);
-  kawalki.push(`\n  // ======================= ${dek.nazwa.toUpperCase()} =======================`);
-  tabela[dek.id] = {};
-  for (const kat of KOLEJNOSC) {
-    const grupa = wDekadzie.filter((u) => u.gatunek === kat);
-    tabela[dek.id][kat] = grupa.length;
-    if (!grupa.length) continue;
-    grupa.sort((a, b) => a.rok - b.rok || a.wykonawca.localeCompare(b.wykonawca, 'pl'));
-    const nazwa = KATEGORIE.find((k) => k.id === kat).nazwa;
-    kawalki.push(`  // --- ${nazwa.toLowerCase()} (${grupa.length}) ---`);
-    kawalki.push(grupa.map(linia).join('\n'));
+  const naprawione = [];
+  for (const utwor of wszystkie) {
+    const tytul = naprawApostrofy(utwor.tytul);
+    const wykonawca = naprawApostrofy(utwor.wykonawca);
+    if (tytul !== utwor.tytul || wykonawca !== utwor.wykonawca) {
+      naprawione.push(`${utwor.wykonawca} — ${utwor.tytul}  →  ${wykonawca} — ${tytul}`);
+      utwor.tytul = tytul;
+      utwor.wykonawca = wykonawca;
+    }
   }
-}
-kawalki.push('\n  // Tu dopisuj świeżynki i to, czego brakuje — jedna linijka na utwór.\n];\n');
-writeFileSync(PLIK, kawalki.join('\n'));
 
-/* --- raport --- */
-if (naprawione.length) {
-  console.log(`Poprawione apostrofy (${naprawione.length}):`);
-  for (const n of naprawione) console.log('  ', n);
-  console.log('');
+  /* --- duble: wygrywa wpis późniejszy --- */
+  const wedlugId = new Map();
+  const usuniete = [];
+  for (const utwor of wszystkie) {
+    const id = idUtworu(utwor);
+    if (wedlugId.has(id)) usuniete.push(`${utwor.wykonawca} — ${utwor.tytul} (było: ${wedlugId.get(id).gatunek})`);
+    wedlugId.set(id, utwor);
+  }
+  const utwory = [...wedlugId.values()];
+
+  const naglowek = readFileSync(PLIK, 'utf8').split('export const UTWORY = [')[0];
+  const kawalki = [`${naglowek}export const UTWORY = [`];
+  const tabela = {};
+
+  for (const dek of DEKADY) {
+    const wDekadzie = utwory.filter((u) => dekada(u) === dek.id);
+    kawalki.push(`\n  // ======================= ${dek.nazwa.toUpperCase()} =======================`);
+    tabela[dek.id] = {};
+    for (const kat of KOLEJNOSC) {
+      const grupa = wDekadzie.filter((u) => u.gatunek === kat);
+      tabela[dek.id][kat] = grupa.length;
+      if (!grupa.length) continue;
+      grupa.sort((a, b) => a.rok - b.rok || a.wykonawca.localeCompare(b.wykonawca, 'pl'));
+      const nazwa = KATEGORIE.find((k) => k.id === kat).nazwa;
+      kawalki.push(`  // --- ${nazwa.toLowerCase()} (${grupa.length}) ---`);
+      kawalki.push(grupa.map(linia).join('\n'));
+    }
+  }
+  kawalki.push('\n  // Tu dopisuj świeżynki i to, czego brakuje — jedna linijka na utwór.\n];\n');
+  writeFileSync(PLIK, kawalki.join('\n'));
+
+  return { utwory, naprawione, usuniete, tabela };
 }
-if (usuniete.length) {
-  console.log(`Usunięte duble (${usuniete.length}):`);
-  for (const d of usuniete) console.log('  -', d);
-  console.log('');
+
+export function raportPrzebudowy({ naprawione, usuniete, tabela }) {
+  const wiersze = [];
+  if (naprawione.length) {
+    wiersze.push(`Poprawione apostrofy (${naprawione.length}):`);
+    for (const n of naprawione) wiersze.push(`   ${n}`);
+    wiersze.push('');
+  }
+  if (usuniete.length) {
+    wiersze.push(`Usunięte duble (${usuniete.length}):`);
+    for (const d of usuniete) wiersze.push(`  - ${d}`);
+    wiersze.push('');
+  }
+  const szer = 9;
+  wiersze.push('dekada  ' + KOLEJNOSC.map((k) => k.padStart(szer)).join('') + '    razem');
+  let suma = 0;
+  for (const dek of DEKADY) {
+    const komorki = KOLEJNOSC.map((k) => {
+      if (!istnieje(dek.id, k)) return '·'.padStart(szer);
+      return String(tabela[dek.id][k]).padStart(szer);
+    });
+    const wDekadzie = Object.values(tabela[dek.id]).reduce((a, b) => a + b, 0);
+    suma += wDekadzie;
+    wiersze.push(String(dek.id).padEnd(8) + komorki.join('') + String(wDekadzie).padStart(9));
+  }
+  wiersze.push(`\nrazem: ${suma}`);
+  return wiersze.join('\n');
 }
-const szer = 9;
-console.log('dekada  ' + KOLEJNOSC.map((k) => k.padStart(szer)).join('') + '    razem');
-let suma = 0;
-for (const dek of DEKADY) {
-  const komorki = KOLEJNOSC.map((k) => {
-    if (!istnieje(dek.id, k)) return '·'.padStart(szer);
-    return String(tabela[dek.id][k]).padStart(szer);
-  });
-  const wDekadzie = Object.values(tabela[dek.id]).reduce((a, b) => a + b, 0);
-  suma += wDekadzie;
-  console.log(String(dek.id).padEnd(8) + komorki.join('') + String(wDekadzie).padStart(9));
+
+if (process.argv[1] && import.meta.url === `file://${resolve(process.argv[1])}`) {
+  console.log(raportPrzebudowy(przebuduj()));
 }
-console.log(`\nrazem: ${suma}`);

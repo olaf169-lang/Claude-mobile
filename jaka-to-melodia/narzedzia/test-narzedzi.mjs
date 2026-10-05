@@ -11,6 +11,8 @@ import assert from 'node:assert/strict';
 import { przygotujKatalog } from '../js/katalog.js';
 import { uzupelnijPodglady } from './pobierz-podglady.mjs';
 import { scal } from './scal-podglady.mjs';
+import { wyczyscTytul, najwczesniejszeWydania, bezWznowien } from './zbierz-kandydatow.mjs';
+import { przesiej } from './wpisz-kandydatow.mjs';
 
 const plik = join(mkdtempSync(join(tmpdir(), 'jtm-')), 'podglady.json');
 
@@ -86,5 +88,71 @@ const zeSprzecznoscia = scal([
 ], mikroKatalog);
 assert.deepEqual(zeSprzecznoscia.braki, [], 'znaleziony utwór został zgłoszony jako brak');
 console.log('✓ znaleziony w jednej części nie trafia na listę braków');
+
+/* --- zbieranie nowych utworów ze sklepu --- */
+
+for (const [surowy, oczekiwany] of [
+  ['Bohemian Rhapsody (Remastered 2011)', 'Bohemian Rhapsody'],
+  ['Billie Jean - Single Version', 'Billie Jean'],
+  ['Sugar (feat. Francesco Yates)', 'Sugar'],
+  // Nawias bywa częścią prawdziwego tytułu — tego nie wolno uciąć.
+  ["(I Can't Get No) Satisfaction", "(I Can't Get No) Satisfaction"],
+  // „Live” w dopisku to koncertówka, ale w samym tytule nic nie znaczy.
+  ['Hotel California - Live', null],
+  ['Live and Let Die', 'Live and Let Die'],
+  ['Layla (Acoustic)', null],
+  ['Imagine (Karaoke Version)', null],
+  ['Smells Like Teen Spirit (Remix)', null],
+]) {
+  assert.equal(wyczyscTytul(surowy), oczekiwany, `wyczyscTytul("${surowy}")`);
+}
+console.log('✓ tytuł ze sklepu obiera się z dopisków, a koncertówki odpadają');
+
+// Ta sama piosenka leży w sklepie w kilku wydaniach, każde z własną datą.
+// Do katalogu ma wejść raz, z rokiem premiery — inaczej „Gee Whiz” z 1961
+// trafiłoby do lat 2000. jako utwór ze składanki.
+const zeSklepu = [
+  { tytul: 'Gee Whiz (Look at His Eyes)', wykonawca: 'Carla Thomas', album: 'Gee Whiz', podglad: 'p', data: '1961-01-05', dlugoscMs: 155_000 },
+  { tytul: 'Gee Whiz (Look at His Eyes) [Greatest Hits]', wykonawca: 'Carla Thomas', album: 'Hits', podglad: 'p', data: '2001-01-05', dlugoscMs: 155_000 },
+  { tytul: 'B-A-B-Y', wykonawca: 'Carla Thomas', album: 'Carla', podglad: 'p', data: '1966-07-01', dlugoscMs: 160_000 },
+  { tytul: 'Tramp - Live', wykonawca: 'Carla Thomas', album: 'Koncert', podglad: 'p', data: '1967-01-01', dlugoscMs: 160_000 },
+  { tytul: 'Bez Podglądu', wykonawca: 'Carla Thomas', album: 'X', podglad: '', data: '1966-01-01', dlugoscMs: 160_000 },
+  { tytul: 'Skit', wykonawca: 'Carla Thomas', album: 'X', podglad: 'p', data: '1966-01-01', dlugoscMs: 20_000 },
+  { tytul: 'Coś Innego', wykonawca: 'Kto Inny', album: 'X', podglad: 'p', data: '1966-01-01', dlugoscMs: 160_000 },
+];
+const wydania = najwczesniejszeWydania(zeSklepu, 'Carla Thomas').sort((a, b) => a.rok - b.rok);
+assert.deepEqual(
+  wydania.map((w) => `${w.rok} ${w.tytul}`),
+  ['1961 Gee Whiz (Look at His Eyes)', '1966 B-A-B-Y'],
+  `złe wydania: ${wydania.map((w) => `${w.rok} ${w.tytul}`).join(' | ')}`,
+);
+console.log('✓ z kilku wydań utworu zostaje jedno, z rokiem premiery');
+
+// Wykonawca z lat 60., któremu jeden kawałek wyszedł z 2015, ma w sklepie
+// wznowienie — a nie nagrał nic nowego po pięćdziesięciu latach.
+assert.deepEqual(
+  bezWznowien([1965, 1966, 1967, 1968, 2015].map((rok) => ({ tytul: String(rok), rok }))).map((w) => w.rok),
+  [1965, 1966, 1967, 1968],
+);
+// Przy dwóch trafieniach nie ma od czego liczyć mediany — niczego nie zgadujemy.
+assert.equal(bezWznowien([{ tytul: 'a', rok: 1965 }, { tytul: 'b', rok: 2015 }]).length, 2);
+console.log('✓ rok odstający od dorobku wykonawcy jest odsiewany jako wznowienie');
+
+// Najważniejsza bramka: kandydat, który już jest w katalogu, nie wchodzi.
+// Bez tego przebudowa katalogu po cichu podmieniłaby istniejący wpis nowym
+// (zostaje późniejszy), zmieniając utworowi kategorię.
+const istniejacy = { tytul: 'Radio Ga Ga', wykonawca: 'Queen', rok: 1984, gatunek: 'rock' };
+const przesiane = przesiej([
+  { ...istniejacy, gatunek: 'pop', rok: 1999 },
+  { tytul: 'Zupełnie Nowy Utwór', wykonawca: 'Ktoś Nowy', rok: 1985, gatunek: 'rock' },
+  { tytul: 'Zły Rok', wykonawca: 'Ktoś', rok: 1900, gatunek: 'rock' },
+  { tytul: 'Nieznana Kategoria', wykonawca: 'Ktoś', rok: 1985, gatunek: 'jazz' },
+  { tytul: 'Oppenheimer Main Theme', wykonawca: 'Oppenheimer Orchestra', rok: 2023, gatunek: 'filmowa', film: 'Oppenheimer' },
+], { katalog: [istniejacy] });
+assert.deepEqual(przesiane.przyjete.map((u) => u.tytul), ['Zupełnie Nowy Utwór'],
+  `przesiew przepuścił za dużo: ${przesiane.przyjete.map((u) => u.tytul).join(', ')}`);
+assert.ok(przesiane.odrzucone.some((o) => o.powod.includes('już jest w katalogu')),
+  'dubel nie został rozpoznany jako dubel');
+console.log('✓ kandydat będący już w katalogu nie podmienia istniejącego wpisu');
 
 console.log('\nNARZĘDZIA OK');

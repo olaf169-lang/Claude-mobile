@@ -57,6 +57,55 @@ export function normalizuj(tekst) {
     .trim();
 }
 
+/* --- czy podpowiedź nie zdradza filmu? ------------------------------------
+   Pytanie filmowe pokazuje tytuł ALBO wykonawcę i każe zgadnąć film. Jeśli
+   pokazana podpowiedź zawiera nazwę filmu („Theme from Jaws” przy filmie
+   „Jaws”, wykonawca „Encanto Cast” przy „Encanto”), pytanie odpowiada samo
+   sobie. Gra pokazuje wtedy drugą podpowiedź, a kontrola danych zgłasza wpis,
+   w którym zdradzają obie — z takiego utworu nie da się zrobić zagadki. */
+
+/** Słowa, które same z siebie nie wskazują na konkretny film. */
+const SLOWA_NIEISTOTNE = new Set([
+  'the', 'a', 'an', 'of', 'and', 'or', 'from', 'in', 'on', 'at', 'to', 'for',
+  'with', 'theme', 'main', 'title', 'song', 'suite', 'overture', 'soundtrack',
+  'my', 'me', 'you', 'it', 'is', 'part', 'i', 'ii', 'iii',
+  'w', 'z', 'na', 'do', 'motyw', 'temat', 'piosenka',
+]);
+
+/** Liczba pojedyncza zamiast mnogiej — „Raiders” i „Raider” to to samo słowo. */
+const rdzen = (slowo) => slowo.replace(/(ies|es|s)$/, '');
+
+const slowaIstotne = (tekst) =>
+  normalizuj(tekst)
+    .split(' ')
+    .filter((slowo) => slowo && !SLOWA_NIEISTOTNE.has(slowo))
+    .map(rdzen);
+
+/**
+ * Czy ta podpowiedź zdradza, z jakiego filmu jest utwór?
+ *
+ * Wychodzimy tu raczej na „tak”, bo pomyłka w tę stronę nic nie psuje —
+ * gra pokaże drugą podpowiedź i pytanie nadal będzie dobre. Pomyłka w drugą
+ * stronę daje pytanie z odpowiedzią w treści, czyli dokładnie to, czego nie
+ * chcemy.
+ */
+export function zdradzaFilm(podpowiedz, film) {
+  const slowaFilmu = slowaIstotne(film || '');
+  const wPodpowiedzi = new Set(slowaIstotne(podpowiedz || ''));
+  if (!slowaFilmu.length || !wPodpowiedzi.size) return false;
+  // Cała nazwa filmu w podpowiedzi: „Goldfinger”, „Live and Let Die”.
+  if (slowaFilmu.every((slowo) => wPodpowiedzi.has(slowo))) return true;
+  // Albo choćby jedno dość charakterystyczne słowo: „Raiders March” przy
+  // „Raiders of the Lost Ark”. Krótkie słowa („Top Gun”, „The Lion King”)
+  // same niczego nie zdradzają, więc liczą się dopiero od pięciu znaków.
+  return slowaFilmu.some((slowo) => slowo.length >= 5 && wPodpowiedzi.has(slowo));
+}
+
+/** Czy z utworu da się zrobić pytanie o film — czy została jakaś uczciwa podpowiedź. */
+export const daSieSpytacOFilm = (utwor) =>
+  Boolean(utwor.film) &&
+  (!zdradzaFilm(utwor.tytul, utwor.film) || !zdradzaFilm(utwor.wykonawca, utwor.film));
+
 /** Identyfikator utworu: stały tak długo, jak nie zmieni się tytuł ani wykonawca. */
 export const idUtworu = (utwor) =>
   `${normalizuj(utwor.wykonawca).replace(/ /g, '-')}--${normalizuj(utwor.tytul).replace(/ /g, '-')}`;

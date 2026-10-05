@@ -5,7 +5,7 @@
 
 import assert from 'node:assert/strict';
 
-import { przygotujKatalog, KATEGORIE, DEKADY } from '../js/katalog.js';
+import { przygotujKatalog, KATEGORIE, DEKADY, zdradzaFilm } from '../js/katalog.js';
 import {
   USTAWIENIA_DOMYSLNE, MAKS_PUNKTOW, MIN_UDZIAL_PUNKTOW,
   ulozSerie, pulaUtworow, zbudujRunde, dobierzBledne,
@@ -94,6 +94,54 @@ sprawdz('filmowa pyta o film, nie o tytuł ani wykonawcę', () => {
       assert.ok(runda.pytanie.includes(utwor.wykonawca), `${utwor.tytul}: pytanie nie pokazuje wykonawcy`);
     }
   }
+});
+
+sprawdz('pytanie o film nie zawiera odpowiedzi w treści', () => {
+  // Najpierw sama reguła: „Theme from Jaws” zdradza film, „Let It Go” nie.
+  for (const [podpowiedz, film] of [
+    ['Theme from Jaws', 'Jaws'],
+    ['Goldfinger', 'Goldfinger'],
+    ['Raiders March', 'Raiders of the Lost Ark'],
+    ['Encanto Cast', 'Encanto'],
+  ]) {
+    assert.ok(zdradzaFilm(podpowiedz, film), `„${podpowiedz}” zdradza „${film}”, a reguła tego nie widzi`);
+  }
+  for (const [podpowiedz, film] of [
+    ['Let It Go', 'Frozen'],
+    ['Eye of the Tiger', 'Rocky'],
+    ['Circle of Life', 'The Lion King'],
+    ['Take My Breath Away', 'Top Gun'],
+    ['John Williams', 'Jaws'],
+  ]) {
+    assert.ok(!zdradzaFilm(podpowiedz, film), `„${podpowiedz}” nie zdradza „${film}”, a reguła twierdzi inaczej`);
+  }
+
+  // A teraz całe pytania: cokolwiek gra pokaże na ekranie, nie może zdradzać
+  // filmu, który ma być odpowiedzią.
+  const losuj = losowanie(77);
+  const pula = pulaUtworow({ kategorie: ['filmowa'], dekady: DEKADY.map((d) => d.id) }, { katalog });
+  assert.ok(pula.length > 100, `za mało filmowych w puli: ${pula.length}`);
+  for (const utwor of pula) {
+    const runda = zbudujRunde(utwor, katalog, 'tytul', losuj);
+    const pokazane = runda.wskazany === 'tytul' ? utwor.tytul : utwor.wykonawca;
+    assert.ok(
+      !zdradzaFilm(pokazane, utwor.film),
+      `pytanie zdradza odpowiedź: pokazuje „${pokazane}”, a odpowiedź to „${utwor.film}”`,
+    );
+  }
+});
+
+sprawdz('utwór, w którym film zdradza i tytuł, i wykonawca, odpada z puli', () => {
+  const zdradzajacy = {
+    tytul: 'Oppenheimer Main Theme', wykonawca: 'Oppenheimer Orchestra',
+    rok: 2023, gatunek: 'filmowa', film: 'Oppenheimer',
+  };
+  const zMieszanka = przygotujKatalog([...katalog, zdradzajacy]);
+  const pula = pulaUtworow({ kategorie: ['filmowa'], dekady: DEKADY.map((d) => d.id) }, { katalog: zMieszanka });
+  assert.ok(
+    !pula.some((u) => u.tytul === zdradzajacy.tytul),
+    'utwór bez uczciwej podpowiedzi nie powinien trafić do puli',
+  );
 });
 
 sprawdz('filmowa bez przypisanego filmu nie wchodzi do puli', () => {
