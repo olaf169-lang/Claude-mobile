@@ -34,6 +34,32 @@ const DOZWOLONE_KATEGORIE = new Set(KATEGORIE.map((k) => k.id));
 const DOZWOLONE_DEKADY = new Set(DEKADY.map((d) => d.id));
 
 /**
+ * Przeplata kandydatów wykonawcami: najpierw najlepszy utwór każdego, potem
+ * drugi każdego, i tak dalej.
+ *
+ * Koszyki wypełniają się po kolei i przestają przyjmować, gdy osiągną plan.
+ * Bez przeplatania koszyk „lata 60. × pop” zapełniłoby ośmioma kawałkami
+ * pierwszych dziewięciu wykonawców z listy, a pozostałych dwudziestu nie
+ * weszłoby wcale. Tak każdy wykonawca wnosi najpierw to, co ma
+ * najpopularniejsze — a w grze, w której utwór trzeba rozpoznać, to jest
+ * dokładnie ta kolejność, o którą nam chodzi.
+ */
+export function naPrzemianWykonawcami(kandydaci) {
+  const wedlugWykonawcy = new Map();
+  for (const utwor of kandydaci) {
+    const klucz = `${utwor.gatunek}/${utwor.wykonawca}`;
+    if (!wedlugWykonawcy.has(klucz)) wedlugWykonawcy.set(klucz, []);
+    wedlugWykonawcy.get(klucz).push(utwor);
+  }
+  const kolejki = [...wedlugWykonawcy.values()];
+  const wynik = [];
+  for (let runda = 0; wynik.length < kandydaci.length; runda += 1) {
+    for (const kolejka of kolejki) if (kolejka[runda]) wynik.push(kolejka[runda]);
+  }
+  return wynik;
+}
+
+/**
  * Przesiewa kandydatów. Zwraca to, co wolno wpisać, i powód odrzucenia dla
  * reszty — nic nie wchodzi do katalogu „na wiarę”.
  */
@@ -51,7 +77,7 @@ export function przesiej(kandydaci, { katalog = UTWORY, maks = Infinity, cel = C
   const odrzucone = [];
   const odrzuc = (utwor, powod) => odrzucone.push({ utwor, powod });
 
-  for (const utwor of kandydaci) {
+  for (const utwor of naPrzemianWykonawcami(kandydaci)) {
     if (przyjete.length >= maks) { odrzuc(utwor, 'limit tego przebiegu'); continue; }
     if (!utwor?.tytul?.trim() || !utwor?.wykonawca?.trim()) { odrzuc(utwor, 'pusty tytuł albo wykonawca'); continue; }
     if (!DOZWOLONE_KATEGORIE.has(utwor.gatunek)) { odrzuc(utwor, `nieznana kategoria „${utwor.gatunek}”`); continue; }

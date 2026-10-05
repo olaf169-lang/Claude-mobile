@@ -11,7 +11,9 @@ import assert from 'node:assert/strict';
 import { przygotujKatalog } from '../js/katalog.js';
 import { uzupelnijPodglady } from './pobierz-podglady.mjs';
 import { scal } from './scal-podglady.mjs';
-import { wyczyscTytul, najwczesniejszeWydania, bezWznowien } from './zbierz-kandydatow.mjs';
+import {
+  wyczyscTytul, najwczesniejszeWydania, bezWznowien, toSciezkaZFilmu, utworyZeSciezki,
+} from './zbierz-kandydatow.mjs';
 import { przesiej } from './wpisz-kandydatow.mjs';
 
 const plik = join(mkdtempSync(join(tmpdir(), 'jtm-')), 'podglady.json');
@@ -170,5 +172,32 @@ assert.deepEqual(przesiane.przyjete.map((u) => u.tytul), ['Zupełnie Nowy Utwór
 assert.ok(przesiane.odrzucone.some((o) => o.powod.includes('już jest w katalogu')),
   'dubel nie został rozpoznany jako dubel');
 console.log('✓ kandydat będący już w katalogu nie podmienia istniejącego wpisu');
+
+/* --- ścieżki dźwiękowe: kategoria filmowa --- */
+
+// Sama nazwa filmu w tytule albumu nie wystarcza — film „Up” pasowałby wtedy
+// do połowy sklepu.
+for (const [album, film, oczekiwane] of [
+  ['Top Gun (Original Motion Picture Soundtrack)', 'Top Gun', true],
+  ['Up (Original Motion Picture Soundtrack)', 'Up', true],
+  ['Up All Night', 'Up', false],
+  ['Greatest Hits', 'Top Gun', false],
+]) {
+  assert.equal(toSciezkaZFilmu(album, film), oczekiwane, `toSciezkaZFilmu("${album}", "${film}")`);
+}
+
+const zeSciezki = utworyZeSciezki([
+  { tytul: 'Top Gun Anthem', wykonawca: 'Harold Faltermeyer', album: 'Top Gun (Original Motion Picture Soundtrack)', podglad: 'p', data: '1986-05-01', dlugoscMs: 200_000 },
+  { tytul: 'Danger Zone', wykonawca: 'Kenny Loggins', album: 'Top Gun (Original Motion Picture Soundtrack)', podglad: 'p', data: '1986-05-01', dlugoscMs: 210_000 },
+  { tytul: 'Obcy Album', wykonawca: 'X', album: 'Zupełnie Co Innego', podglad: 'p', data: '1986-05-01', dlugoscMs: 200_000 },
+  { tytul: 'Nie Z Tego Wydania', wykonawca: 'Y', album: 'Top Gun (Original Motion Picture Soundtrack)', podglad: 'p', data: '2020-01-01', dlugoscMs: 200_000 },
+], { nazwa: 'Top Gun', rok: 1986 }, { maksNaFilm: 5 });
+assert.deepEqual(zeSciezki.map((u) => u.tytul), ['Danger Zone', 'Top Gun Anthem'],
+  `ze ścieżki wyszło co innego: ${zeSciezki.map((u) => u.tytul).join(', ')}`);
+// Utwór, którego tytuł zdradza film, ma być NA KOŃCU kolejki: gra pokaże przy
+// nim wykonawcę, więc pytanie zostaje dobre, ale lepszych bierzemy pierwsze.
+assert.equal(zeSciezki.at(-1).tytul, 'Top Gun Anthem');
+assert.ok(zeSciezki.every((u) => u.film === 'Top Gun' && u.rok === 1986 && u.gatunek === 'filmowa'));
+console.log('✓ ze ścieżki dźwiękowej wchodzą utwory tego filmu, z rokiem premiery');
 
 console.log('\nNARZĘDZIA OK');

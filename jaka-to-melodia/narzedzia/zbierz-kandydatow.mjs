@@ -34,9 +34,13 @@ import { writeFileSync, mkdirSync, appendFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { przygotujKatalog, idUtworu, normalizuj, glownyWykonawca, dekada } from '../js/katalog.js';
+import {
+  przygotujKatalog, idUtworu, normalizuj, glownyWykonawca, dekada,
+  zdradzaFilm, daSieSpytacOFilm,
+} from '../js/katalog.js';
 import { PODEJRZANE, zITunes } from '../js/dopasowanie.js';
 import { wykonawcyKategorii, KATEGORIE_ZBIERANE } from '../dane/wykonawcy.js';
+import { FILMY } from '../dane/filmy.js';
 import { planKoszykow, CEL_DOMYSLNY } from './plan-katalogu.mjs';
 
 const KATALOG_APLIKACJI = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -67,7 +71,7 @@ const FEAT_W_TYTULE = /\s*[([]\s*(?:feat|ft|with)\.?\s[^()[\]]*[)\]]\s*/gi;
 /* Nagranie inne niż studyjny oryginał. Słowo musi stać w DOPISKU — po pauzie
    albo w nawiasie — bo w samym tytule bywa zupełnie niewinne: „Live and Let
    Die” to piosenka Wingsów, a nie koncertówka. */
-const NIE_ORYGINAL_W_DOPISKU = /(?:\s+-\s+|[([])[^()[\]]*\b(?:live|remix|acoustic|demo|karaoke|tribute|instrumental|re-?recorded|cover|unplugged|session|rehearsal|mix)\b/i;
+const NIE_ORYGINAL_W_DOPISKU = /(?:\s+-\s+|[([])[^()[\]]*\b(?:live|remix|acoustic|demo|karaoke|tribute|instrumental|re-?recorded|cover|unplugged|session|rehearsal|mix|take|alternate)\b/i;
 // Jeśli po czyszczeniu tytuł nadal to zdradza, utwór nie jest oryginałem.
 const NADAL_PODEJRZANY = /\b(?:remaster|remastered|re-?recorded|version|rerecord|karaoke|tribute|instrumental|demo|remix|live at|live in|live from)\b/i;
 
@@ -214,6 +218,138 @@ async function dorobekWykonawcy(nazwa, kraj, bramka, log) {
   adres.searchParams.set('country', kraj);
   const dane = await pobierzJson(adres.toString(), bramka, log);
   return (dane?.results || []).map(zITunes);
+}
+
+/* --- ścieżki dźwiękowe -----------------------------------------------------
+   Kategoria „filmowa” nie zbiera się po wykonawcach, bo odpowiedzią w pytaniu
+   jest FILM — utwór bez przypisanego filmu nie wchodzi do puli. Więc tu pytamy
+   sklep o albumy, a nie o artystów, i film bierzemy z własnej listy. */
+
+const ZNACZNIK_SCIEZKI = /\b(?:soundtrack|motion picture|original score|music from|cast recording|musical)\b/i;
+// Ścieżka wychodzi razem z filmem. Wydanie oddalone bardziej to wznowienie
+// albo zupełnie inny album o podobnej nazwie.
+const MAKS_ODSTEP_OD_PREMIERY = 2;
+
+/**
+ * Czy ten album to na pewno ścieżka z TEGO filmu. Sama nazwa filmu w tytule
+ * albumu nie wystarcza: film „Up” pasowałby do połowy sklepu, więc wymagamy
+ * jeszcze znacznika ścieżki dźwiękowej albo dokładnej zgodności nazwy.
+ */
+export function toSciezkaZFilmu(album, film) {
+  const nazwaAlbumu = normalizuj(album || '');
+  const nazwaFilmu = normalizuj(film);
+  if (!nazwaAlbumu || !nazwaFilmu) return false;
+  const slowaFilmu = nazwaFilmu.split(' ').filter((s) => s.length >= 3);
+  const wAlbumie = new Set(nazwaAlbumu.split(' '));
+  const maNazweFilmu = slowaFilmu.length
+    ? slowaFilmu.every((s) => wAlbumie.has(s))
+    : nazwaAlbumu.includes(nazwaFilmu);
+  if (!maNazweFilmu) return false;
+  return nazwaAlbumu === nazwaFilmu || ZNACZNIK_SCIEZKI.test(album);
+}
+
+async function sciezkaFilmu(nazwa, _kraj, bramka, log) {
+  const adres = new URL('https://itunes.apple.com/search');
+  adres.searchParams.set('term', `${nazwa} soundtrack`);
+  adres.searchParams.set('entity', 'song');
+  adres.searchParams.set('limit', '100');
+  adres.searchParams.set('country', 'US');
+  const dane = await pobierzJson(adres.toString(), bramka, log);
+  return (dane?.results || []).map(zITunes);
+}
+
+/** Utwory z jednej ścieżki dźwiękowej, już sprawdzone i opisane filmem. */
+export function utworyZeSciezki(nagrania, film, { maksNaFilm = 3 } = {}) {
+  const wedlugTytulu = new Map();
+  for (const nagranie of nagrania) {
+    if (!nagranie.podglad) continue;
+    const dlugosc = Number(nagranie.dlugoscMs) || 0;
+    if (dlugosc < MIN_DLUGOSC_MS || dlugosc > MAKS_DLUGOSC_MS) continue;
+    if (!toSciezkaZFilmu(nagranie.album, film.nazwa)) continue;
+    const opis = `${normalizuj(nagranie.tytul)} ${normalizuj(nagranie.album || '')}`;
+    if (PODEJRZANE.some((slowo) => zawiera(opis, slowo))) continue;
+    const tytul = wyczyscTytul(nagranie.tytul);
+    if (!tytul) continue;
+    const rok = Number(String(nagranie.data || '').slice(0, 4));
+    if (!rok || Math.abs(rok - film.rok) > MAKS_ODSTEP_OD_PREMIERY) continue;
+
+    const utwor = {
+      tytul,
+      wykonawca: nagranie.wykonawca,
+      rok: film.rok,
+      gatunek: 'filmowa',
+      film: film.nazwa,
+    };
+    // Utwór, w którym film zdradza i tytuł, i wykonawca, dałby pytanie
+    // z odpowiedzią w treści — takiego nie bierzemy wcale.
+    if (!daSieSpytacOFilm(utwor)) continue;
+    const klucz = kluczUtworu(tytul);
+    if (!wedlugTytulu.has(klucz)) wedlugTytulu.set(klucz, utwor);
+  }
+  // Najpierw te, których tytuł nie zdradza filmu — z nich wychodzą
+  // najlepsze pytania. Wewnątrz grupy zostaje kolejność ze sklepu.
+  const wszystkie = [...wedlugTytulu.values()];
+  return [
+    ...wszystkie.filter((u) => !zdradzaFilm(u.tytul, u.film)),
+    ...wszystkie.filter((u) => zdradzaFilm(u.tytul, u.film)),
+  ].slice(0, maksNaFilm);
+}
+
+export async function zbierzFilmowe({
+  katalog = przygotujKatalog(),
+  cel = CEL_DOMYSLNY,
+  filmy = FILMY,
+  maksNaFilm = 3,
+  limitFilmow = Infinity,
+  czesc = null,
+  zIlu = 1,
+  odstepMs = ODSTEP_ITUNES_MS,
+  pobierz = sciezkaFilmu,
+  log = console.log,
+} = {}) {
+  const plan = planKoszykow(katalog, { cel });
+  const miejsce = new Map();
+  for (const koszyk of plan.koszyki) {
+    if (koszyk.kategoria === 'filmowa') miejsce.set(koszyk.dekada, koszyk.brak);
+  }
+
+  const zajeteId = new Set(katalog.map((u) => u.id));
+  const bramka = new Bramka(odstepMs);
+  const przyjete = [];
+  const raport = [];
+
+  const mojeFilmy = (czesc === null
+    ? filmy
+    : filmy.slice(
+      Math.floor((czesc * filmy.length) / zIlu),
+      Math.floor(((czesc + 1) * filmy.length) / zIlu),
+    )).slice(0, limitFilmow);
+
+  log(`Filmów do przejścia: ${mojeFilmy.length} z ${filmy.length}.`);
+
+  for (const [nr, film] of mojeFilmy.entries()) {
+    const nagrania = await pobierz(film.nazwa, 'US', bramka, log);
+    const kandydaci = utworyZeSciezki(nagrania, film, { maksNaFilm });
+    const zTegoFilmu = [];
+    for (const utwor of kandydaci) {
+      const dek = dekada(utwor);
+      if (!miejsce.has(dek) || miejsce.get(dek) <= 0) continue;
+      const id = idUtworu(utwor);
+      if (zajeteId.has(id)) continue;
+      zajeteId.add(id);
+      miejsce.set(dek, miejsce.get(dek) - 1);
+      zTegoFilmu.push(utwor);
+      przyjete.push(utwor);
+    }
+    raport.push({
+      nazwa: film.nazwa, kategoria: 'filmowa',
+      wSklepie: kandydaci.length, przyjete: zTegoFilmu.length,
+      lata: String(film.rok),
+    });
+    log(`  [${nr + 1}/${mojeFilmy.length}] ${film.nazwa} (${film.rok}): ${zTegoFilmu.length} utworów`);
+  }
+
+  return { przyjete, wykonawcy: raport, plan };
 }
 
 /* --- zbieranie --- */
@@ -397,15 +533,35 @@ if (process.argv[1] && import.meta.url === `file://${resolve(process.argv[1])}`)
   };
 
   const kategorieArg = wartosc('--kategorie', null);
-  const wynik = await zbierzKandydatow({
+  const wspolne = {
     cel: liczba('--cel', CEL_DOMYSLNY),
-    kategorie: kategorieArg ? kategorieArg.split(',') : KATEGORIE_ZBIERANE,
-    maksNaWykonawce: liczba('--maks-na-wykonawce', MAKS_NA_WYKONAWCE),
-    limitWykonawcow: liczba('--limit', Infinity),
     czesc: argumenty.includes('--czesc') ? liczba('--czesc', 0) : null,
     zIlu: liczba('--z', 1),
     odstepMs: liczba('--odstep', ODSTEP_ITUNES_MS),
-  });
+  };
+  // „wykonawcy” zbiera kategorie gatunkowe, „filmy” kategorię filmową (tam
+  // utwór musi mieć przypisany film), „oba” jedno po drugim.
+  const tryb = wartosc('--tryb', 'wykonawcy');
+  const wynik = { przyjete: [], wykonawcy: [] };
+  if (tryb === 'wykonawcy' || tryb === 'oba') {
+    const zWykonawcow = await zbierzKandydatow({
+      ...wspolne,
+      kategorie: kategorieArg ? kategorieArg.split(',') : KATEGORIE_ZBIERANE,
+      maksNaWykonawce: liczba('--maks-na-wykonawce', MAKS_NA_WYKONAWCE),
+      limitWykonawcow: liczba('--limit', Infinity),
+    });
+    wynik.przyjete.push(...zWykonawcow.przyjete);
+    wynik.wykonawcy.push(...zWykonawcow.wykonawcy);
+  }
+  if (tryb === 'filmy' || tryb === 'oba') {
+    const zeSciezek = await zbierzFilmowe({
+      ...wspolne,
+      maksNaFilm: liczba('--maks-na-film', 3),
+      limitFilmow: liczba('--limit', Infinity),
+    });
+    wynik.przyjete.push(...zeSciezek.przyjete);
+    wynik.wykonawcy.push(...zeSciezek.wykonawcy);
+  }
 
   const plik = resolve(wartosc('--plik', 'kandydaci.json'));
   mkdirSync(dirname(plik), { recursive: true });
