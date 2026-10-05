@@ -397,6 +397,15 @@ export async function zbierzKandydatow({
   }
 
   const zajeteId = new Set(katalog.map((u) => u.id));
+  // Limit na wykonawcę liczy też to, co już jest w katalogu. Bez tego każdy
+  // przebieg dokładał swoje osiem i po trzech rundach John Williams miał
+  // dwadzieścia trzy utwory, a Madonna dziewiętnaście — zwykle już nie przeboje,
+  // tylko wypełniacze z płyt, bo przeboje poszły w pierwszej rundzie.
+  const juzWKatalogu = new Map();
+  for (const u of katalog) {
+    const klucz = `${u.gatunek}/${normalizuj(glownyWykonawca(u.wykonawca))}`;
+    juzWKatalogu.set(klucz, (juzWKatalogu.get(klucz) || 0) + 1);
+  }
   const bramka = new Bramka(odstepMs);
   const przyjete = [];
   const wykonawcyRaport = [];
@@ -433,9 +442,10 @@ export async function zbierzKandydatow({
     // „Kools Back Again”. Bierzemy więc po kolei to, co sklep podaje najwyżej.
     const wydania = bezWznowien(najwczesniejszeWydania(nagrania, zadanie.nazwa));
 
+    const juzMa = juzWKatalogu.get(`${zadanie.kategoria}/${normalizuj(glownyWykonawca(zadanie.nazwa))}`) || 0;
     const zTegoWykonawcy = [];
     for (const wydanie of wydania) {
-      if (zTegoWykonawcy.length >= maksNaWykonawce) break;
+      if (juzMa + zTegoWykonawcy.length >= maksNaWykonawce) break;
       const dek = dekada(wydanie);
       const klucz = `${dek}/${zadanie.kategoria}`;
       if (!miejsce.has(klucz) || miejsce.get(klucz) <= 0) continue;
