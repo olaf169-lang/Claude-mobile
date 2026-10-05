@@ -47,6 +47,28 @@ zawsze `git status` przed jakimkolwiek `checkout`/`reset`: jeśli są
 niezacommitowane zmiany na złej gałęzi, `git stash push -u` PRZED
 przełączeniem, nigdy `reset --hard` bez uprzedniego stasha.
 
+## Po zbiorczej podmianie tekstu sprawdź pliki strukturalne
+
+Nauczka z 2026-10-05, kosztowała serię powiadomień o awarii. Zbiorcze
+sprzątanie pauz zamieniło je na dwukropki także w nazwach zadań workflow,
+a `name: Katalog: rozbudowa` to w YAML **niepoprawna składnia**: niecytowany
+dwukropek ze spacją zaczyna zagnieżdżone mapowanie. GitHub nie potrafił
+wczytać pliku, więc każde zdarzenie tworzyło przebieg kończący się „No jobs
+were run”. Testy jednostkowe i przeglądarkowe tego nie widziały, bo dotyczyły
+kodu, a nie konfiguracji CI.
+
+Po każdej zbiorczej podmianie w tekstach uruchom:
+```
+python3 -c "
+import glob, json, yaml
+for f in glob.glob('.github/workflows/*.yml'): yaml.safe_load(open(f))
+for f in glob.glob('jaka-to-melodia/**/*.json', recursive=True):
+    if 'node_modules' not in f: json.load(open(f))
+print('yml i json OK')"
+```
+Rozpoznanie takiej awarii: jeśli przebiegi uruchamiane ręcznie przechodzą,
+a te z pusha padają z „No jobs were run”, to plik workflow się nie parsuje.
+
 ## Testy
 
 - `npm test`: jednostkowe (silnik gry, katalog, MQTT, narzędzia). Zawsze
