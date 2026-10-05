@@ -59,7 +59,7 @@ jobs:
         working-directory: jaka-to-melodia
         run: node narzedzia/test-narzedzi.mjs
 
-      - name: Przeglądarka: pełna rozgrywka
+      - name: Przeglądarka, pełna rozgrywka
         working-directory: jaka-to-melodia
         run: |
           npx playwright install --with-deps chromium
