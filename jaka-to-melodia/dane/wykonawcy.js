@@ -17,15 +17,20 @@
    tematy, w których liczy się przypisanie do filmu czy nurtu, a nie dorobek
    wykonawcy. Rosną ręcznie. Tak samo „filmowa” — tam utwór musi mieć film,
    więc zbiera się ją osobnym trybem (po ścieżkach dźwiękowych).
+
+   Kogo tu świadomie NIE MA, choć pasowałby do epoki: wykonawców, których
+   dorobek w sklepie to niemal wyłącznie ponowne nagrania dawnych przebojów.
+   Karin Stanek, Petula Clark, Anita Ward i Lulu wracały po każdej dosypce
+   z nagraniami z lat 2005-2015 pod utwory z lat 60., czyli w złej dekadzie,
+   a jedno „Lulu” w sklepie to w ogóle inna artystka. Ich dobre utwory są już
+   w katalogu — pytanie o nich sklepu dokłada tylko śmieci.
    ========================================================================== */
 
 export const WYKONAWCY = {
   pop: [
     // lata 60.
-    'The Beach Boys', 'The Supremes', 'Dusty Springfield', 'Petula Clark',
-    'The Monkees', 'Frankie Valli', 'Tom Jones', 'Cilla Black',
-    "Herman's Hermits", 'The Mamas & the Papas', 'Sandie Shaw', 'Lulu',
-    'Gene Pitney', 'Bobby Vinton', 'Connie Francis', 'Paul Anka',
+    'The Beach Boys', 'The Supremes', 'Dusty Springfield',     'The Monkees', 'Frankie Valli', 'Tom Jones', 'Cilla Black',
+    "Herman's Hermits", 'The Mamas & the Papas', 'Sandie Shaw',     'Gene Pitney', 'Bobby Vinton', 'Connie Francis', 'Paul Anka',
     'Neil Sedaka', 'Roy Orbison', 'The Turtles', 'The Hollies',
     // lata 70.
     'ABBA', 'Bee Gees', 'Elton John', 'Carpenters', 'Olivia Newton-John',
@@ -138,7 +143,7 @@ export const WYKONAWCY = {
     // lata 70. — disco
     'Donna Summer', 'CHIC', 'Giorgio Moroder', 'Village People',
     'Sister Sledge', 'KC & The Sunshine Band', 'Boney M.', 'Gloria Gaynor',
-    'Anita Ward', 'The Trammps', 'Baccara', 'Silver Convention',
+    'The Trammps', 'Baccara', 'Silver Convention',
     'Amii Stewart', 'Tavares', 'Kraftwerk', 'Hot Chocolate',
     // lata 80.
     'New Order', 'Pet Shop Boys', 'Depeche Mode', 'Erasure', 'Soft Cell',
@@ -258,7 +263,6 @@ export const WYKONAWCY = {
     { nazwa: 'Breakout', styl: 'rock' },
     { nazwa: 'Trubadurzy', styl: 'pop' },
     { nazwa: 'Filipinki', styl: 'pop' },
-    { nazwa: 'Karin Stanek', styl: 'rock' },
     { nazwa: 'Helena Majdaniec', styl: 'pop' },
     { nazwa: 'Katarzyna Sobczyk', styl: 'pop' },
     { nazwa: 'Jerzy Połomski', styl: 'pop' },

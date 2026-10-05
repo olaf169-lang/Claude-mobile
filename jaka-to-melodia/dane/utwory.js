@@ -984,7 +984,7 @@ export const UTWORY = [
   { tytul: 'Everybody Wants to Be a Cat', wykonawca: 'Phil Harris & Scatman Crothers', rok: 1970, gatunek: 'disney' },
 
   // ======================= LATA 80. =======================
-  // --- pop (82) ---
+  // --- pop (81) ---
   { tytul: 'The Winner Takes It All', wykonawca: 'ABBA', rok: 1980, gatunek: 'pop' },
   { tytul: 'Lay All Your Love On Me', wykonawca: 'ABBA', rok: 1980, gatunek: 'pop' },
   { tytul: 'Super Trouper', wykonawca: 'ABBA', rok: 1980, gatunek: 'pop' },
@@ -1064,7 +1064,6 @@ export const UTWORY = [
   { tytul: 'Lost a Friend', wykonawca: 'Gilbert O’Sullivan', rok: 1989, gatunek: 'pop' },
   { tytul: 'Like a Prayer', wykonawca: 'Madonna', rok: 1989, gatunek: 'pop' },
   { tytul: 'Warm and Tender', wykonawca: 'Olivia Newton-John', rok: 1989, gatunek: 'pop' },
-  { tytul: "The Other Man's Grass Is Always Greener", wykonawca: 'Petula Clark', rok: 1989, gatunek: 'pop' },
   { tytul: 'I Want It All', wykonawca: 'Queen', rok: 1989, gatunek: 'pop' },
   { tytul: 'Listen to Your Heart', wykonawca: 'Roxette', rok: 1989, gatunek: 'pop' },
   // --- rock (167) ---
@@ -1653,7 +1652,7 @@ export const UTWORY = [
   { tytul: 'Samantha', wykonawca: 'Zejman & Garkumpel', rok: 1985, gatunek: 'szanty' },
 
   // ======================= LATA 90. =======================
-  // --- pop (58) ---
+  // --- pop (56) ---
   { tytul: "Freedom! '90", wykonawca: 'George Michael', rok: 1990, gatunek: 'pop' },
   { tytul: 'Vogue', wykonawca: 'Madonna', rok: 1990, gatunek: 'pop' },
   { tytul: 'It Must Have Been Love', wykonawca: 'Roxette', rok: 1990, gatunek: 'pop' },
@@ -1690,8 +1689,6 @@ export const UTWORY = [
   { tytul: 'MMMBop', wykonawca: 'Hanson', rok: 1997, gatunek: 'pop' },
   { tytul: 'Torn', wykonawca: 'Natalie Imbruglia', rok: 1997, gatunek: 'pop' },
   { tytul: 'Tearin Up My Heart', wykonawca: 'NSYNC', rok: 1997, gatunek: 'pop' },
-  { tytul: 'Who Am I?', wykonawca: 'Petula Clark', rok: 1997, gatunek: 'pop' },
-  { tytul: 'Happy Heart', wykonawca: 'Petula Clark', rok: 1997, gatunek: 'pop' },
   { tytul: 'Angels', wykonawca: 'Robbie Williams', rok: 1997, gatunek: 'pop' },
   { tytul: 'Truly Madly Deeply', wykonawca: 'Savage Garden', rok: 1997, gatunek: 'pop' },
   { tytul: 'Spice Up Your Life', wykonawca: 'Spice Girls', rok: 1997, gatunek: 'pop' },
@@ -1978,8 +1975,7 @@ export const UTWORY = [
   { tytul: 'Forgot About Dre', wykonawca: 'Dr. Dre', rok: 1999, gatunek: 'rap' },
   { tytul: 'My Name Is', wykonawca: 'Eminem', rok: 1999, gatunek: 'rap' },
   { tytul: 'Guilty Conscience', wykonawca: 'Eminem', rok: 1999, gatunek: 'rap' },
-  // --- dance (91) ---
-  { tytul: 'Lady Bodybuilder', wykonawca: 'Anita Ward', rok: 1990, gatunek: 'dance' },
+  // --- dance (88) ---
   { tytul: 'Somewhere In Paradise', wykonawca: 'Baccara', rok: 1990, gatunek: 'dance' },
   { tytul: "(Baby, Why Don't You Reach Out?) Light My Fire", wykonawca: 'Baccara', rok: 1990, gatunek: 'dance' },
   { tytul: 'Adelita', wykonawca: 'Baccara', rok: 1990, gatunek: 'dance' },
@@ -2039,8 +2035,6 @@ export const UTWORY = [
   { tytul: 'Just an Illusion', wykonawca: 'Tavares', rok: 1994, gatunek: 'dance' },
   { tytul: 'Move It to the Rhythm', wykonawca: 'Technotronic', rok: 1994, gatunek: 'dance' },
   { tytul: 'Saturday Night', wykonawca: 'Whigfield', rok: 1994, gatunek: 'dance' },
-  { tytul: 'Touch Love', wykonawca: 'Anita Ward', rok: 1995, gatunek: 'dance' },
-  { tytul: 'Someone Like You', wykonawca: 'Anita Ward', rok: 1995, gatunek: 'dance' },
   { tytul: "Ain't Necessarily So", wykonawca: 'Bronski Beat', rok: 1995, gatunek: 'dance' },
   { tytul: 'Da Funk', wykonawca: 'Daft Punk', rok: 1995, gatunek: 'dance' },
   { tytul: 'Insomnia', wykonawca: 'Faithless', rok: 1995, gatunek: 'dance' },
@@ -2380,7 +2374,7 @@ export const UTWORY = [
   { tytul: "I'll Make a Man Out of You", wykonawca: 'Donny Osmond', rok: 1998, gatunek: 'disney' },
 
   // ======================= LATA 2000. =======================
-  // --- pop (83) ---
+  // --- pop (81) ---
   { tytul: 'Summer Moved On', wykonawca: 'a-ha', rok: 2000, gatunek: 'pop' },
   { tytul: 'Shape of My Heart', wykonawca: 'Backstreet Boys', rok: 2000, gatunek: 'pop' },
   { tytul: 'If', wykonawca: 'Bananarama', rok: 2000, gatunek: 'pop' },
@@ -2414,8 +2408,6 @@ export const UTWORY = [
   { tytul: 'On the Sunny Side of the Street', wykonawca: 'Cyndi Lauper', rok: 2003, gatunek: 'pop' },
   { tytul: 'Hey Ya!', wykonawca: 'OutKast', rok: 2003, gatunek: 'pop' },
   { tytul: 'Heart Full of Rain', wykonawca: 'Paul Young', rok: 2003, gatunek: 'pop' },
-  { tytul: 'Neon Rainbow', wykonawca: 'Petula Clark', rok: 2003, gatunek: 'pop' },
-  { tytul: 'The Song Is Love', wykonawca: 'Petula Clark', rok: 2003, gatunek: 'pop' },
   { tytul: 'Amazing', wykonawca: 'George Michael', rok: 2004, gatunek: 'pop' },
   { tytul: 'Flawless (Go to the City)', wykonawca: 'George Michael', rok: 2004, gatunek: 'pop' },
   { tytul: 'Just for You', wykonawca: 'Lionel Richie', rok: 2004, gatunek: 'pop' },
@@ -2681,7 +2673,7 @@ export const UTWORY = [
   { tytul: "Ridin'", wykonawca: 'Kurtis Blow', rok: 2009, gatunek: 'rap' },
   { tytul: 'Boom Boom Pow', wykonawca: 'The Black Eyed Peas', rok: 2009, gatunek: 'rap' },
   { tytul: 'I Gotta Feeling', wykonawca: 'The Black Eyed Peas', rok: 2009, gatunek: 'rap' },
-  // --- dance (76) ---
+  // --- dance (72) ---
   { tytul: 'Around the World', wykonawca: 'ATC', rok: 2000, gatunek: 'dance' },
   { tytul: 'Freestyler', wykonawca: "Bomfunk MC's", rok: 2000, gatunek: 'dance' },
   { tytul: 'Heartbreaks', wykonawca: 'Bronski Beat', rok: 2000, gatunek: 'dance' },
@@ -2692,7 +2684,6 @@ export const UTWORY = [
   { tytul: "Don't Take Away My Heart", wykonawca: 'Modern Talking', rok: 2000, gatunek: 'dance' },
   { tytul: 'Lady (Hear Me Tonight)', wykonawca: 'Modjo', rok: 2000, gatunek: 'dance' },
   { tytul: 'The Mariachi', wykonawca: 'Technotronic', rok: 2000, gatunek: 'dance' },
-  { tytul: 'Be My Baby', wykonawca: 'Anita Ward', rok: 2001, gatunek: 'dance' },
   { tytul: 'Harder, Better, Faster, Stronger', wykonawca: 'Daft Punk', rok: 2001, gatunek: 'dance' },
   { tytul: 'We Come 1', wykonawca: 'Faithless', rok: 2001, gatunek: 'dance' },
   { tytul: 'One Step Too Far', wykonawca: 'Faithless', rok: 2001, gatunek: 'dance' },
@@ -2733,9 +2724,6 @@ export const UTWORY = [
   { tytul: 'Galvanize', wykonawca: 'The Chemical Brothers', rok: 2004, gatunek: 'dance' },
   { tytul: 'Spitfire', wykonawca: 'The Prodigy', rok: 2004, gatunek: 'dance' },
   { tytul: 'Adagio for Strings', wykonawca: 'Tiësto', rok: 2004, gatunek: 'dance' },
-  { tytul: "I Won't Stop Loving You", wykonawca: 'Anita Ward', rok: 2005, gatunek: 'dance' },
-  { tytul: 'Spoiled By Your Love', wykonawca: 'Anita Ward', rok: 2005, gatunek: 'dance' },
-  { tytul: 'If I Could Feel That Old Feeling Again', wykonawca: 'Anita Ward', rok: 2005, gatunek: 'dance' },
   { tytul: 'Love Generation', wykonawca: 'Bob Sinclar', rok: 2005, gatunek: 'dance' },
   { tytul: 'Everytime We Touch', wykonawca: 'Cascada', rok: 2005, gatunek: 'dance' },
   { tytul: 'Axel F', wykonawca: 'Crazy Frog', rok: 2005, gatunek: 'dance' },
@@ -3611,7 +3599,7 @@ export const UTWORY = [
   { tytul: 'Operation Pull Toy', wykonawca: 'Randy Newman', rok: 2019, gatunek: 'filmowa', film: 'Toy Story 4' },
   { tytul: 'Crocodile Rock', wykonawca: 'Taron Egerton', rok: 2019, gatunek: 'filmowa', film: 'Rocketman' },
   { tytul: 'Goodbye Yellow Brick Road', wykonawca: 'Taron Egerton & Jamie Bell', rok: 2019, gatunek: 'filmowa', film: 'Rocketman' },
-  // --- polskie (51) ---
+  // --- polskie (49) ---
   { tytul: 'Varsovie', wykonawca: 'Brodka', rok: 2010, gatunek: 'polskie', styl: 'rock' },
   { tytul: 'Filipinki To My', wykonawca: 'Filipinki', rok: 2010, gatunek: 'polskie', styl: 'pop' },
   { tytul: 'I To Ma Być Miłość', wykonawca: 'Filipinki', rok: 2010, gatunek: 'polskie', styl: 'pop' },
@@ -3634,8 +3622,6 @@ export const UTWORY = [
   { tytul: 'Thank You Very Much', wykonawca: 'Margaret', rok: 2014, gatunek: 'polskie', styl: 'pop' },
   { tytul: 'Mississippi w ogniu', wykonawca: 'Organek', rok: 2014, gatunek: 'polskie', styl: 'rock' },
   { tytul: 'Wakacje z Deszczem', wykonawca: 'Helena Majdaniec', rok: 2015, gatunek: 'polskie', styl: 'pop' },
-  { tytul: 'Piosenka i Uśmiech', wykonawca: 'Karin Stanek', rok: 2015, gatunek: 'polskie', styl: 'rock' },
-  { tytul: 'Karolinka, Ta z Piosenki', wykonawca: 'Karin Stanek', rok: 2015, gatunek: 'polskie', styl: 'rock' },
   { tytul: 'Mój dom', wykonawca: 'Kortez', rok: 2015, gatunek: 'polskie', styl: 'pop' },
   { tytul: 'Bądź duży', wykonawca: 'Natalia Nykiel', rok: 2015, gatunek: 'polskie', styl: 'pop' },
   { tytul: 'Naucz mnie', wykonawca: 'Sarsa', rok: 2015, gatunek: 'polskie', styl: 'pop' },
