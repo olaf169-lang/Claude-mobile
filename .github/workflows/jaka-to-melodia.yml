@@ -74,11 +74,14 @@ jobs:
     strategy:
       fail-fast: false
       # Wyszukiwarka iTunes przepuszcza około dwudziestu zapytań na minutę
-      # z jednego adresu — cały katalog na jednej maszynie zajmowałby godzinę.
-      # Pięć równoległych części to pięć różnych adresów i pięć osobnych
-      # limitów; każda schodzi poniżej dziesięciu minut.
+      # z jednego adresu, więc cały katalog na jednej maszynie to godziny.
+      # Każda część to osobna maszyna, czyli osobny adres i osobny limit.
+      # Części było pięć, gdy katalog miał tysiąc kilkaset utworów. Po
+      # rozbudowie do blisko czterech tysięcy pięć części przestało się
+      # wyrabiać w limicie czasu i wszystkie wychodziły na czerwono, więc
+      # jest ich teraz dwanaście.
       matrix:
-        czesc: [0, 1, 2, 3, 4]
+        czesc: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
     steps:
       - uses: actions/checkout@v4
 
@@ -86,12 +89,17 @@ jobs:
         with:
           node-version: "22"
 
+      # Budżet skryptu (25 min) jest KRÓTSZY od limitu zadania (35 min), żeby
+      # skrypt kończył się sam: zapisuje dorobek, mówi, ile zostało, i wychodzi
+      # zielono. Wcześniej limit zabijał go w trakcie i każdy przebieg wysyłał
+      # powiadomienia o awarii, choć pobieranie szło prawidłowo.
       - name: Pobierz podglądy
         working-directory: jaka-to-melodia
-        timeout-minutes: 20
+        timeout-minutes: 35
         run: |
           node narzedzia/pobierz-podglady.mjs \
-            --czesc ${{ matrix.czesc }} --z 5 \
+            --czesc ${{ matrix.czesc }} --z 12 \
+            --budzet-minut 25 \
             --plik czesc-${{ matrix.czesc }}.json \
             ${{ github.event.inputs.odswiez == 'tak' && '--odswiez' || '' }}
 
@@ -128,6 +136,27 @@ jobs:
       - name: Złóż części w jeden plik
         working-directory: jaka-to-melodia
         run: node narzedzia/scal-podglady.mjs ../czesci/*.json --plik dane/podglady.json
+
+      # Ile jeszcze zostało. Pobieranie całego katalogu bywa dłuższe niż jeden
+      # przebieg, więc to tutaj widać, czy trzeba odpalić workflow ponownie.
+      - name: Policz, ile utworów wciąż czeka na nagranie
+        id: braki
+        working-directory: jaka-to-melodia
+        run: |
+          set -euo pipefail
+          BRAK=$(node -e "
+            const { readFileSync } = require('node:fs');
+            import('./js/katalog.js').then(({ przygotujKatalog }) => {
+              const p = JSON.parse(readFileSync('dane/podglady.json', 'utf8')).utwory || {};
+              console.log(przygotujKatalog().filter((u) => !p[u.id]?.podglad).length);
+            });
+          ")
+          echo "brak=$BRAK" >> "$GITHUB_OUTPUT"
+          if [ "$BRAK" -gt 0 ]; then
+            echo "::notice title=Podglądy::Bez nagrania zostaje $BRAK utworów. Odpal workflow ponownie, żeby dociągnąć resztę."
+          else
+            echo "::notice title=Podglądy::Wszystkie utwory mają nagranie."
+          fi
 
       - name: Zapisz w repozytorium
         working-directory: jaka-to-melodia

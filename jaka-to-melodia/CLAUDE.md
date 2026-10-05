@@ -117,7 +117,9 @@ się kończy (dla nie-`readOnly` widza).
 
 ## Rozbudowa katalogu — jak to działa teraz (2026-10-05)
 
-Cel: **~4000 utworów** z zachowaniem dzisiejszych proporcji dekada × kategoria.
+Stan: **3982 utwory**, 1140 wykonawców, 601 pytań filmowych — cel ~4000
+osiągnięty w czterech porcjach z 1595. Proporcje dekad i kategorii zachowane
+(plan je pilnuje). Następny cel ustawia się przez `--cel` / wejście workflowu.
 
 **Sandbox NIE MA dostępu do API muzycznych.** iTunes, MusicBrainz i Deezer
 odpowiadają `403 CONNECT` przez proxy — sprawdzone. Ale **CI na GitHubie ma**
