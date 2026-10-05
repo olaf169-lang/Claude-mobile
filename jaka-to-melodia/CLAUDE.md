@@ -152,6 +152,26 @@ nie przez sesję. Nie próbuj tego obchodzić z sandboksa.
    (`workflow_dispatch`), 5 równoległych części, wejście `na_probe: tak`
    pokazuje wynik bez zapisu, `maks` ogranicza porcję.
 
+**Ile utworów na wykonawcę**: limit (`MAKS_NA_WYKONAWCE`, dziś 8) liczy się
+GLOBALNIE — razem z tym, co już jest w katalogu. Kiedy liczył się osobno
+w każdym przebiegu, po trzech rundach John Williams miał 23 utwory, a Madonna
+19, i to już nie przeboje, bo te weszły w rundzie pierwszej. Punkt odniesienia:
+pierwotny, ręcznie dobrany katalog miał **średnio 1,81 utworu na wykonawcę**
+i tylko jednego powyżej dwunastu. Kategorii filmowej limit nie dotyczy — tam
+każdy wpis to inny film, więc więcej utworów jednego kompozytora znaczy więcej
+różnych pytań (John Williams ma ich ~39 i to jest w porządku).
+
+**`dane/odrzucone.js`** — utwory, których nie dopisujemy, choć sklep je podaje.
+Samo usunięcie wpisu z katalogu NIE WYSTARCZA: następna dosypka nie widzi już
+dubla i wpisuje go z powrotem (tak wróciły „Lulu — Let Go” i „Karin Stanek —
+Chłopiec Z Gitarą” dzień po usunięciu). Lista porównuje się po PEŁNYM tytule —
+przy porównaniu bez nawiasów wpis o wariancie „Don't Stop Me Now (…Revisited)”
+zablokował też oryginał z 1978 i ten wypadł z katalogu.
+
+**Sprzątanie nie rusza wpisów ręcznie dobranych.** Przy każdym porządkowaniu
+odfiltruj to, co było w katalogu przed dosypkami (`git show <commit>^:...`) —
+inaczej limit skasuje świadome decyzje (np. 14 szant Banana Boat).
+
 **Dwie rzeczy, których NIE WOLNO zepsuć** (jedna już raz zepsuta):
 - **Kolejności nagrań ze sklepu się nie sortuje.** Sklep oddaje je od
   najpopularniejszych, a w tej grze utwór trzeba ROZPOZNAĆ. Pierwszy
