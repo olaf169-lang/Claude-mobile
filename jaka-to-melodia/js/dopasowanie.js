@@ -34,7 +34,7 @@ export function ocenTrafienie(cel, kandydat) {
 
   const opis = `${tytul} ${normalizuj(kandydat.album || '')}`;
   for (const slowo of PODEJRZANE) {
-    // „Live” w tytule oryginału jest w porządku — odrzucamy tylko dopiski,
+    // „Live” w tytule oryginału jest w porządku, odrzucamy tylko dopiski,
     // których nie ma we wpisie z katalogu.
     if (zawiera(opis, slowo) && !zawiera(celTytul, slowo)) return null;
   }

@@ -4,7 +4,7 @@
        node narzedzia/scal-podglady.mjs czesc-*.json --plik dane/podglady.json
 
    Workflow dzieli katalog na kilka części i puszcza je równolegle na osobnych
-   maszynach — inaczej limit zapytań iTunes rozciągnąłby całość na godzinę.
+   maszynach, inaczej limit zapytań iTunes rozciągnąłby całość na godzinę.
    Tutaj części wracają do jednego pliku. Wpisy dla utworów, których nie ma
    już w katalogu, wypadają przy okazji. */
 
@@ -29,7 +29,7 @@ export function scal(czesci, katalog = przygotujKatalog()) {
   // Utwór znaleziony w jednej części nie jest brakiem tylko dlatego, że inna
   // część go u siebie nie miała.
   const zNagraniem = new Set(
-    katalog.filter((u) => utwory[u.id]).map((u) => `${u.wykonawca} — ${u.tytul}`),
+    katalog.filter((u) => utwory[u.id]).map((u) => `${u.wykonawca} · ${u.tytul}`),
   );
 
   return {

@@ -3,15 +3,15 @@
    --------------------------------------------------------------------------
    Trzy warstwy, od najszybszej:
 
-     1. dane/podglady.json — gotowe adresy, dobrane wcześniej na serwerze
+     1. dane/podglady.json, gotowe adresy, dobrane wcześniej na serwerze
         GitHuba. To normalna droga: nic nie trzeba pytać, gra zaczyna od razu.
-     2. pamięć przeglądarki — to, co telefon sam kiedyś znalazł.
-     3. wyszukiwanie w locie — dla utworów dopisanych po ostatnim przebiegu
+     2. pamięć przeglądarki, to, co telefon sam kiedyś znalazł.
+     3. wyszukiwanie w locie, dla utworów dopisanych po ostatnim przebiegu
         workflowu.
 
    Wyszukiwarki iTunes i Deezera nie wystawiają nagłówków CORS, więc z poziomu
    strony nie da się do nich zwyczajnie zapytać. Oba za to obsługują JSONP,
-   czyli odpowiedź w postaci skryptu — i tą drogą idziemy. Samo nagranie to już
+   czyli odpowiedź w postaci skryptu, i tą drogą idziemy. Samo nagranie to już
    zwykły plik dźwiękowy, do którego <audio> nie potrzebuje żadnej zgody.
    ========================================================================== */
 
@@ -53,7 +53,7 @@ export class ZrodloPodgladow {
     this.brakiZPliku = [];
   }
 
-  /** Wczytuje plik z podglądami. Brak pliku nie jest błędem — gra pójdzie w locie. */
+  /** Wczytuje plik z podglądami. Brak pliku nie jest błędem, gra pójdzie w locie. */
   async wczytaj() {
     try {
       const odpowiedz = await fetch('dane/podglady.json', { cache: 'no-cache' });
@@ -106,7 +106,7 @@ export class ZrodloPodgladow {
     return szukanie;
   }
 
-  /** Nowy adres do tego samego nagrania — podglądy Deezera wygasają. */
+  /** Nowy adres do tego samego nagrania, podglądy Deezera wygasają. */
   async odswiez(utwor) {
     this.gotowe.delete(utwor.id);
     try { localStorage.removeItem(PREFIKS_PAMIECI + utwor.id); } catch { /* nieistotne */ }
@@ -146,6 +146,6 @@ export class ZrodloPodgladow {
     this.gotowe.set(id, wpis);
     try {
       localStorage.setItem(PREFIKS_PAMIECI + id, JSON.stringify(wpis));
-    } catch { /* pamięć pełna — wpis został przynajmniej w tej sesji */ }
+    } catch { /* pamięć pełna, wpis został przynajmniej w tej sesji */ }
   }
 }

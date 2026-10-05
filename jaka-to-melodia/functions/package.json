@@ -1,7 +1,7 @@
 {
   "name": "jaka-to-melodia-functions",
   "private": true,
-  "description": "Powiadomienia push dla Turnieju Piąteczki (jaka-to-melodia) — patrz komentarz na górze index.js.",
+  "description": "Powiadomienia push dla Turnieju Piąteczki (jaka-to-melodia), patrz komentarz na górze index.js.",
   "engines": {
     "node": "20"
   },

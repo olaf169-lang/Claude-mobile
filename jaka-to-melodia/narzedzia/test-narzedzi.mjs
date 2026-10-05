@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/* Test resolvera podglądów na podstawionym sklepie — bez ruszania sieci.
+/* Test resolvera podglądów na podstawionym sklepie, bez ruszania sieci.
    Sprawdza to, co najłatwiej zepsuć: wybór właściwego nagrania spośród
    karaoke i wznowień, pomijanie już pobranych i raport braków. */
 
@@ -41,7 +41,7 @@ const mikroKatalog = przygotujKatalog([
   { tytul: 'Radio Ga Ga', wykonawca: 'Queen', rok: 1984, gatunek: 'rock' },
   { tytul: 'Piosenka Widmo', wykonawca: 'Zespół Bez Nagrań', rok: 1999, gatunek: 'pop' },
 ]);
-// odstepMs: 0 wyłącza bramkę tempa — w teście nie ma po co czekać.
+// odstepMs: 0 wyłącza bramkę tempa, w teście nie ma po co czekać.
 const opcje = { katalog: mikroKatalog, plikWejscia: plik, plikWyniku: plik, odstepMs: 0, log: () => {} };
 
 const pierwszy = await uzupelnijPodglady(opcje);
@@ -51,7 +51,7 @@ assert.equal(queen.podglad, 'dobre', `wybrał złe nagranie: ${queen.podglad}`);
 assert.equal(queen.okladka, 'https://x/500x500bb.jpg', 'nie podmienił rozmiaru okładki');
 console.log('✓ resolver wybiera oryginał, nie karaoke ani koncertówkę');
 
-assert.deepEqual(pierwszy.braki, ['Zespół Bez Nagrań — Piosenka Widmo']);
+assert.deepEqual(pierwszy.braki, ['Zespół Bez Nagrań · Piosenka Widmo']);
 console.log('✓ nieznalezione utwory trafiają na listę braków');
 
 const przed = zapytania;
@@ -77,7 +77,7 @@ assert.equal(zBudzetem.wynik.ukonczone, false, 'przerwany przebieg nie jest uko�
 assert.match(raportTekstowy(zBudzetem), /Budżet czasu się skończył/);
 console.log('✓ budżet czasu kończy przebieg spokojnie i mówi, ile zostało');
 
-// Podział katalogu na części — tak workflow omija limit zapytań iTunes.
+// Podział katalogu na części, tak workflow omija limit zapytań iTunes.
 const pierwszaPolowa = await uzupelnijPodglady({
   ...opcje, odswiez: true, od: 0, do: 1, plikWyniku: `${plik}.a`,
 });
@@ -86,18 +86,18 @@ const drugaPolowa = await uzupelnijPodglady({
 });
 assert.deepEqual(Object.keys(pierwszaPolowa.wynik.utwory), ['queen--radio-ga-ga']);
 assert.deepEqual(Object.keys(drugaPolowa.wynik.utwory), []);
-assert.deepEqual(drugaPolowa.braki, ['Zespół Bez Nagrań — Piosenka Widmo']);
+assert.deepEqual(drugaPolowa.braki, ['Zespół Bez Nagrań · Piosenka Widmo']);
 console.log('✓ każda część bierze tylko swój wycinek katalogu');
 
 const scalone = scal([pierwszaPolowa.wynik, drugaPolowa.wynik], mikroKatalog);
 assert.equal(scalone.utwory['queen--radio-ga-ga'].podglad, 'dobre');
-assert.deepEqual(scalone.braki, ['Zespół Bez Nagrań — Piosenka Widmo']);
+assert.deepEqual(scalone.braki, ['Zespół Bez Nagrań · Piosenka Widmo']);
 console.log('✓ scalanie składa części z powrotem w komplet');
 
 // Utwór znaleziony przez jedną część nie może zostać brakiem przez drugą.
 const zeSprzecznoscia = scal([
   { utwory: { 'queen--radio-ga-ga': { podglad: 'dobre' } }, braki: [] },
-  { utwory: {}, braki: ['Queen — Radio Ga Ga'] },
+  { utwory: {}, braki: ['Queen · Radio Ga Ga'] },
 ], mikroKatalog);
 assert.deepEqual(zeSprzecznoscia.braki, [], 'znaleziony utwór został zgłoszony jako brak');
 console.log('✓ znaleziony w jednej części nie trafia na listę braków');
@@ -108,7 +108,7 @@ for (const [surowy, oczekiwany] of [
   ['Bohemian Rhapsody (Remastered 2011)', 'Bohemian Rhapsody'],
   ['Billie Jean - Single Version', 'Billie Jean'],
   ['Sugar (feat. Francesco Yates)', 'Sugar'],
-  // Nawias bywa częścią prawdziwego tytułu — tego nie wolno uciąć.
+  // Nawias bywa częścią prawdziwego tytułu, tego nie wolno uciąć.
   ["(I Can't Get No) Satisfaction", "(I Can't Get No) Satisfaction"],
   // „Live” w dopisku to koncertówka, ale w samym tytule nic nie znaczy.
   ['Hotel California - Live', null],
@@ -116,7 +116,7 @@ for (const [surowy, oczekiwany] of [
   ['Layla (Acoustic)', null],
   ['Imagine (Karaoke Version)', null],
   ['Smells Like Teen Spirit (Remix)', null],
-  // Skąd pochodzi wydanie — na ekranie śmieć, a przy muzyce filmowej wykłada
+  // Skąd pochodzi wydanie, na ekranie śmieć, a przy muzyce filmowej wykłada
   // nazwę filmu wprost w tytule.
   ['If You Leave (From "Pretty In Pink" Soundtrack)', 'If You Leave'],
   ['Let It Flow (from "Waiting to Exhale" Original Soundtrack)', 'Let It Flow'],
@@ -127,7 +127,7 @@ for (const [surowy, oczekiwany] of [
 console.log('✓ tytuł ze sklepu obiera się z dopisków, a koncertówki odpadają');
 
 // Ta sama piosenka leży w sklepie w kilku wydaniach, każde z własną datą.
-// Do katalogu ma wejść raz, z rokiem premiery — inaczej „Gee Whiz” z 1961
+// Do katalogu ma wejść raz, z rokiem premiery, inaczej „Gee Whiz” z 1961
 // trafiłoby do lat 2000. jako utwór ze składanki.
 const zeSklepu = [
   { tytul: 'Gee Whiz (Look at His Eyes)', wykonawca: 'Carla Thomas', album: 'Gee Whiz', podglad: 'p', data: '1961-01-05', dlugoscMs: 155_000 },
@@ -160,15 +160,15 @@ assert.deepEqual(
   ['Wielki Przebój', 'Mniejszy Przebój', 'Zupełnie Nieznany Kawałek'],
   'kolejność ze sklepu (od najpopularniejszych) nie może się zmienić',
 );
-console.log('✓ kolejność ze sklepu przeżywa przesiewanie — bierzemy przeboje, nie deep cuty');
+console.log('✓ kolejność ze sklepu przeżywa przesiewanie, bierzemy przeboje, nie deep cuty');
 
 // Wykonawca z lat 60., któremu jeden kawałek wyszedł z 2015, ma w sklepie
-// wznowienie — a nie nagrał nic nowego po pięćdziesięciu latach.
+// wznowienie, a nie nagrał nic nowego po pięćdziesięciu latach.
 assert.deepEqual(
   bezWznowien([1965, 1966, 1967, 1968, 2015].map((rok) => ({ tytul: String(rok), rok }))).map((w) => w.rok),
   [1965, 1966, 1967, 1968],
 );
-// Przy dwóch trafieniach nie ma od czego liczyć mediany — niczego nie zgadujemy.
+// Przy dwóch trafieniach nie ma od czego liczyć mediany, niczego nie zgadujemy.
 assert.equal(bezWznowien([{ tytul: 'a', rok: 1965 }, { tytul: 'b', rok: 2015 }]).length, 2);
 console.log('✓ rok odstający od dorobku wykonawcy jest odsiewany jako wznowienie');
 
@@ -190,7 +190,7 @@ assert.ok(przesiane.odrzucone.some((o) => o.powod.includes('już jest w katalogu
 console.log('✓ kandydat będący już w katalogu nie podmienia istniejącego wpisu');
 
 // Wariant tego samego utworu w nawiasie też jest dublem. Identyfikator liczy
-// pełny tytuł, więc sam go nie wyłapie — i tak wszedł kiedyś „Don't Stop Me
+// pełny tytuł, więc sam go nie wyłapie, i tak wszedł kiedyś „Don't Stop Me
 // Now (Revisited)” z 2018 obok oryginału z 1978, czyli w złej dekadzie.
 const zWariantem = przesiej(
   [{ tytul: "Don't Stop Me Now (Queen Forever Revisited)", wykonawca: 'Queen', rok: 2018, gatunek: 'rock' }],
@@ -201,7 +201,7 @@ console.log('✓ wariant tytułu w nawiasie jest rozpoznawany jako ten sam utwó
 
 // Lista odrzuconych musi trafiać W TEN JEDEN utwór, a nie w jego oryginał.
 // Przy porównaniu po tytule bez nawiasów wpis „Don't Stop Me Now (Queen Forever
-// Revisited)” blokował też „Don't Stop Me Now” — i oryginał z 1978 wypadł
+// Revisited)” blokował też „Don't Stop Me Now”, i oryginał z 1978 wypadł
 // z katalogu. Stąd porównanie po pełnym tytule.
 const oryginal = { tytul: "Don't Stop Me Now", wykonawca: 'Queen', rok: 1978, gatunek: 'rock' };
 assert.equal(przesiej([oryginal], { katalog: [] }).przyjete.length, 1,
@@ -215,7 +215,7 @@ assert.ok(zOdrzuconych.odrzucone[0].powod.includes('odrzuconych'));
 console.log('✓ lista odrzuconych blokuje dokładnie swój wpis, nie jego oryginał');
 
 // Płyty świąteczne: sklep stawia je wysoko, a kolędy nadają się do tej gry
-// najgorzej — każdy je zna i każdy je nagrał, więc nie da się zgadnąć wykonawcy.
+// najgorzej, każdy je zna i każdy je nagrał, więc nie da się zgadnąć wykonawcy.
 const zeSwietami = najwczesniejszeWydania([
   { tytul: 'Silent Night', wykonawca: 'Lulu', album: 'Christmas Album', podglad: 'p', data: '2017-01-01', dlugoscMs: 180_000 },
   { tytul: 'Cicha noc', wykonawca: 'Lulu', album: 'Kolędy', podglad: 'p', data: '1994-01-01', dlugoscMs: 180_000 },
@@ -228,7 +228,7 @@ console.log('✓ kolędy i konta wrzucające cudze piosenki nie wchodzą do kata
 
 /* --- ścieżki dźwiękowe: kategoria filmowa --- */
 
-// Sama nazwa filmu w tytule albumu nie wystarcza — film „Up” pasowałby wtedy
+// Sama nazwa filmu w tytule albumu nie wystarcza, film „Up” pasowałby wtedy
 // do połowy sklepu.
 for (const [album, film, oczekiwane] of [
   ['Top Gun (Original Motion Picture Soundtrack)', 'Top Gun', true],

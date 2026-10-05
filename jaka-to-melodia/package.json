@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Muzyczny quiz na imprezę — prowadzący puszcza fragment, gracze zgadują z telefonów.",
+  "description": "Muzyczny quiz na imprezę, prowadzący puszcza fragment, gracze zgadują z telefonów.",
   "scripts": {
     "test": "node narzedzia/sprawdz-dane.mjs && node narzedzia/test-gry.mjs && node narzedzia/test-polaczenia.mjs && node narzedzia/test-narzedzi.mjs",
     "test:przegladarka": "node narzedzia/test-przegladarki.mjs",

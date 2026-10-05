@@ -5,14 +5,14 @@
        node narzedzia/audyt-dosypki.mjs            # względem HEAD~1
        node narzedzia/audyt-dosypki.mjs HEAD~3
 
-   Po co, skoro są testy: testy pilnują tego, co da się sprawdzić maszynowo —
+   Po co, skoro są testy: testy pilnują tego, co da się sprawdzić maszynowo,
    dubli, zakresów lat, kategorii z listy. Nie powiedzą, czy utwór nadaje się
    do gry, w której trzeba go ROZPOZNAĆ, ani czy rok ze sklepu to rok premiery,
    czy rok wznowienia. To się przegląda oczami, a ten skrypt układa dane tak,
    żeby dało się to zrobić w minutę zamiast czytać dwa tysiące linijek.
 
    Pierwszy przebieg w CI zebrał 345 utworów z poprawnymi latami i prawie
-   wszystkie były nieznanymi kawałkami z płyt — testy były zielone. Drugi
+   wszystkie były nieznanymi kawałkami z płyt, testy były zielone. Drugi
    dołożył kolędy i wznowienia w złych dekadach, też przy zielonych testach.
    Oba razy wyłapał to dopiero ten audyt.
 
@@ -89,7 +89,7 @@ export function porownaj(stare, nowe) {
 }
 
 export function raportAudytu(w, { ileProbki = 30 } = {}) {
-  const opis = (u) => `${u.rok} [${u.gatunek}${u.film ? ` / ${u.film}` : ''}] ${u.wykonawca} — ${u.tytul}`;
+  const opis = (u) => `${u.rok} [${u.gatunek}${u.film ? ` / ${u.film}` : ''}] ${u.wykonawca} · ${u.tytul}`;
   const wiersze = [
     `Katalog: ${w.bylo} → ${w.jest} (nowych ${w.dodane.length})`,
     '',
@@ -105,15 +105,15 @@ export function raportAudytu(w, { ileProbki = 30 } = {}) {
     wiersze.push('', `${naglowek} (${lista.length}):`);
     for (const x of lista.slice(0, 20)) wiersze.push(`  ${formatuj(x)}`);
   };
-  sekcja('⚠ Rozstrzał lat wykonawcy — możliwe wznowienie w złej dekadzie', w.rozstrzelone,
-    (r) => `${r.wykonawca}: ${r.od}–${r.do}`);
+  sekcja('⚠ Rozstrzał lat wykonawcy, możliwe wznowienie w złej dekadzie', w.rozstrzelone,
+    (r) => `${r.wykonawca}: ${r.od}-${r.do}`);
   sekcja('⚠ Świąteczne', w.swiateczne);
   sekcja('⚠ Tytuł z podejrzanym dopiskiem', w.zDopiskiem);
   sekcja('⚠ Filmowa bez filmu', w.filmoweBezFilmu);
   sekcja('⚠ Filmowa, w której film zdradzają oba pola', w.filmoweZdradzajaOba);
 
   if (w.dodane.length) {
-    wiersze.push('', `PRÓBKA — czy te utwory da się rozpoznać ze słuchu?`, '');
+    wiersze.push('', `PRÓBKA, czy te utwory da się rozpoznać ze słuchu?`, '');
     const krok = Math.max(1, Math.floor(w.dodane.length / ileProbki));
     for (let i = 0; i < w.dodane.length && i / krok < ileProbki; i += krok) {
       wiersze.push(`  ${opis(w.dodane[i])}`);

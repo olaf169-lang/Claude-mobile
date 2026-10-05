@@ -8,20 +8,20 @@
        node narzedzia/pobierz-podglady.mjs --odswiez  # wszystko od nowa
        node narzedzia/pobierz-podglady.mjs --limit 20 # kawałek, na próbę
 
-   Dzięki temu w trakcie gry telefon nie musi o nic pytać sklepu — adresy
+   Dzięki temu w trakcie gry telefon nie musi o nic pytać sklepu, adresy
    nagrań leżą gotowe w repozytorium i grają od razu. Wyszukiwanie w locie
    zostaje w aplikacji tylko jako zapas dla utworów dopisanych po ostatnim
    przebiegu.
 
    TEMPO. Wyszukiwarka iTunes przepuszcza około dwudziestu zapytań na minutę
    z jednego adresu, a potem zaczyna odpowiadać odmową. Nie da się tego obejść
-   ponawianiem — trzeba po prostu pytać wolniej. Stąd bramka, która pilnuje
+   ponawianiem, trzeba po prostu pytać wolniej. Stąd bramka, która pilnuje
    stałego odstępu między zapytaniami, i podział katalogu na części (`--od`,
    `--do`): workflow puszcza je równolegle na osobnych maszynach, a każda ma
    własny adres i własny limit. Deezer jest znacznie łaskawszy, więc jego
    bramka przepuszcza dziesięć razy szybciej.
 
-   Utwór, którego nie da się znaleźć, ląduje na liście „braki” w podsumowaniu —
+   Utwór, którego nie da się znaleźć, ląduje na liście „braki” w podsumowaniu,
    to najprościej wyłapuje literówki i piosenki, których po prostu nie ma
    w sklepie.
    ========================================================================== */
@@ -36,7 +36,7 @@ import { wybierzNajlepszy, zITunes, zDeezera, zapytanie } from '../js/dopasowani
 const KATALOG_APLIKACJI = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const PLIK_DOMYSLNY = resolve(KATALOG_APLIKACJI, 'dane/podglady.json');
 
-// Około osiemnastu zapytań na minutę — z zapasem pod limitem iTunes.
+// Około osiemnastu zapytań na minutę, z zapasem pod limitem iTunes.
 const ODSTEP_ITUNES_MS = 3300;
 const ODSTEP_DEEZERA_MS = 300;
 
@@ -49,7 +49,7 @@ const spij = (ms) => (ms > 0 ? new Promise((r) => setTimeout(r, ms)) : Promise.r
  *
  * Potrzebne, bo prawdziwego limitu nie da się z góry policzyć. Maszyny
  * GitHuba potrafią wychodzić do sieci wspólnym adresem, więc pięć równoległych
- * części bywa liczone przez sklep jako jeden pytający — i wtedy nasze
+ * części bywa liczone przez sklep jako jeden pytający, i wtedy nasze
  * „osiemnaście na minutę” robi się dziewięćdziesiąt.
  */
 class Bramka {
@@ -83,7 +83,7 @@ class Bramka {
 
 /**
  * Pobranie JSON-a. Odmowa z powodu limitu (403/429) oznacza, że mimo bramki
- * pytamy za szybko — wtedy jedna dłuższa przerwa, a nie seria ponowień.
+ * pytamy za szybko, wtedy jedna dłuższa przerwa, a nie seria ponowień.
  */
 async function pobierzJson(adres, { bramka, proby = 2, log } = {}) {
   for (let proba = 1; proba <= proby; proba += 1) {
@@ -96,7 +96,7 @@ async function pobierzJson(adres, { bramka, proby = 2, log } = {}) {
       if (odpowiedz.status === 403 || odpowiedz.status === 429) {
         bramka.odmowa();
         if (proba === proby) return null;
-        log?.(`  (sklep przycina — zwalniam do ${(bramka.odstepMs / 1000).toFixed(1)} s)`);
+        log?.(`  (sklep przycina, zwalniam do ${(bramka.odstepMs / 1000).toFixed(1)} s)`);
         continue;
       }
       if (!odpowiedz.ok) return null;
@@ -132,7 +132,7 @@ async function szukajWDeezerze(utwor, opcje) {
 }
 
 async function znajdz(utwor, bramki, log) {
-  // Polskie wydania są w sklepie PL, reszta świata i tak tam jest — więc dla
+  // Polskie wydania są w sklepie PL, reszta świata i tak tam jest, więc dla
   // polskich najpierw PL, dla pozostałych najpierw US. Drugi kraj tylko wtedy,
   // gdy pierwszy nic nie zwróci: każde zapytanie kosztuje kilka sekund tempa.
   const kraje = utwor.gatunek === 'polskie' ? ['PL', 'US'] : ['US', 'PL'];
@@ -166,7 +166,7 @@ export async function uzupelnijPodglady({
   if (!odswiez) {
     try {
       znane = JSON.parse(readFileSync(plikWejscia, 'utf8')).utwory || {};
-    } catch { /* pierwszy przebieg — pliku jeszcze nie ma */ }
+    } catch { /* pierwszy przebieg, pliku jeszcze nie ma */ }
   }
 
   // Wpisy dla utworów usuniętych z katalogu tylko puchłyby w nieskończoność.
@@ -190,7 +190,7 @@ export async function uzupelnijPodglady({
   const braki = [];
 
   // Wynik zapisujemy co kilkanaście utworów, a nie dopiero na końcu. Gdy
-  // zadanie zostanie ucięte limitem czasu, dorobek zostaje — następny przebieg
+  // zadanie zostanie ucięte limitem czasu, dorobek zostaje, następny przebieg
   // pominie to, co już mamy, i pójdzie dalej.
   const zapisz = () => {
     const wynik = {
@@ -223,7 +223,7 @@ export async function uzupelnijPodglady({
       log(`  (budżet czasu wyczerpany, zostaje ${zabraklo} na następny przebieg)`);
       break;
     }
-    const etykieta = `${utwor.wykonawca} — ${utwor.tytul}`;
+    const etykieta = `${utwor.wykonawca} · ${utwor.tytul}`;
     const trafienie = await znajdz(utwor, bramki, log);
     if (trafienie) {
       znalezione[utwor.id] = {

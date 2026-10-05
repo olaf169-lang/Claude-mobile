@@ -1,7 +1,7 @@
 /* ==========================================================================
    Mini-klient MQTT 3.1.1 po WebSocket.
    --------------------------------------------------------------------------
-   Telefony gadają ze sobą przez publiczny broker MQTT — nie trzeba stawiać
+   Telefony gadają ze sobą przez publiczny broker MQTT, nie trzeba stawiać
    serwera, wystarczy internet w telefonie. Gotowe biblioteki ważą ponad sto
    kilobajtów i ciągną zależności; nam potrzeba czterech typów pakietów, więc
    są tutaj napisane wprost. Wszystko idzie z QoS 0: gra i tak co chwilę
@@ -23,7 +23,7 @@ const ROZLACZ = 0xe0;
 const koder = new TextEncoder();
 const dekoder = new TextDecoder();
 
-/** Długość pozostałej części pakietu — MQTT zapisuje ją po 7 bitów na bajt. */
+/** Długość pozostałej części pakietu. MQTT zapisuje ją po 7 bitów na bajt. */
 function zapiszDlugosc(dlugosc) {
   const bajty = [];
   let reszta = dlugosc;

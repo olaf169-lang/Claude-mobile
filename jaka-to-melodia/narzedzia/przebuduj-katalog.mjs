@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* Porządkuje dane/utwory.js: grupuje po dekadach i kategoriach, sortuje po
    roku i wykonawcy, usuwa duble. Uruchamiane ręcznie po większej dosypce
-   utworów — plik dopisywany na końcu robi się inaczej nieczytelny.
+   utworów, plik dopisywany na końcu robi się inaczej nieczytelny.
 
        node narzedzia/przebuduj-katalog.mjs
 
@@ -47,7 +47,7 @@ export const linia = (u) => {
     `gatunek: '${u.gatunek}'`,
   ];
   if (u.gatunek === 'polskie' && u.styl) czesci.push(`styl: '${u.styl}'`);
-  // Film to nie tylko mechanika zgadywania (gatunek 'filmowa') — bywa też
+  // Film to nie tylko mechanika zgadywania (gatunek 'filmowa'), bywa też
   // samym znacznikiem na odsłonie przy innych gatunkach (np. 'furious'),
   // patrz rysujZnacznikiUtworu w prowadzacy.js/gracz.js.
   if (u.film) czesci.push(`film: ${apostrof(u.film)}`);
@@ -56,7 +56,7 @@ export const linia = (u) => {
 
 /**
  * Zapisuje dane/utwory.js od nowa, z `dodatkowe` wmieszanymi w katalog.
- * Zwraca podsumowanie — kto wywołuje, ten decyduje, co z nim zrobić.
+ * Zwraca podsumowanie, kto wywołuje, ten decyduje, co z nim zrobić.
  */
 export function przebuduj(dodatkowe = []) {
   const wszystkie = [...UTWORY, ...dodatkowe];
@@ -66,7 +66,7 @@ export function przebuduj(dodatkowe = []) {
     const tytul = naprawApostrofy(utwor.tytul);
     const wykonawca = naprawApostrofy(utwor.wykonawca);
     if (tytul !== utwor.tytul || wykonawca !== utwor.wykonawca) {
-      naprawione.push(`${utwor.wykonawca} — ${utwor.tytul}  →  ${wykonawca} — ${tytul}`);
+      naprawione.push(`${utwor.wykonawca} · ${utwor.tytul}  →  ${wykonawca} · ${tytul}`);
       utwor.tytul = tytul;
       utwor.wykonawca = wykonawca;
     }
@@ -77,7 +77,7 @@ export function przebuduj(dodatkowe = []) {
   const usuniete = [];
   for (const utwor of wszystkie) {
     const id = idUtworu(utwor);
-    if (wedlugId.has(id)) usuniete.push(`${utwor.wykonawca} — ${utwor.tytul} (było: ${wedlugId.get(id).gatunek})`);
+    if (wedlugId.has(id)) usuniete.push(`${utwor.wykonawca} · ${utwor.tytul} (było: ${wedlugId.get(id).gatunek})`);
     wedlugId.set(id, utwor);
   }
   const utwory = [...wedlugId.values()];
@@ -100,7 +100,7 @@ export function przebuduj(dodatkowe = []) {
       kawalki.push(grupa.map(linia).join('\n'));
     }
   }
-  kawalki.push('\n  // Tu dopisuj świeżynki i to, czego brakuje — jedna linijka na utwór.\n];\n');
+  kawalki.push('\n  // Tu dopisuj świeżynki i to, czego brakuje, jedna linijka na utwór.\n];\n');
   writeFileSync(PLIK, kawalki.join('\n'));
 
   return { utwory, naprawione, usuniete, tabela };

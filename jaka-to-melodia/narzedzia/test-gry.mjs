@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/* Testy silnika gry — bez przeglądarki i bez sieci.
+/* Testy silnika gry, bez przeglądarki i bez sieci.
    Pilnują tego, co psuje wieczór: powtórzonej odpowiedzi w pytaniu, tej samej
    piosenki dwa razy w jednej grze i punktacji, która nie nagradza refleksu. */
 
@@ -49,13 +49,13 @@ sprawdz('domyślnie muzyka gra tylko u prowadzącego', () => {
 
 sprawdz('każda runda ma cztery różne odpowiedzi i dokładnie jedną poprawną', () => {
   const losuj = losowanie(1234);
-  // Filmowa ma inną zasadę (patrz niżej) — ten test sprawdza klasyczne tytuł/wykonawca.
+  // Filmowa ma inną zasadę (patrz niżej), ten test sprawdza klasyczne tytuł/wykonawca.
   for (const utwor of przetasuj(katalog.filter((u) => u.gatunek !== 'filmowa'), losuj).slice(0, 120)) {
     for (const typ of ['tytul', 'wykonawca']) {
       const runda = zbudujRunde(utwor, katalog, typ, losuj);
       assert.equal(runda.odpowiedzi.length, 4, `${utwor.tytul}: nie cztery odpowiedzi`);
       assert.equal(new Set(runda.odpowiedzi.map((o) => o.toLowerCase())).size, 4,
-        `${utwor.tytul} (${typ}): powtórzona odpowiedź — ${runda.odpowiedzi.join(' / ')}`);
+        `${utwor.tytul} (${typ}): powtórzona odpowiedź: ${runda.odpowiedzi.join(' / ')}`);
       const oczekiwana = typ === 'wykonawca' ? utwor.wykonawca : utwor.tytul;
       assert.equal(runda.odpowiedzi[runda.poprawna], oczekiwana);
     }
@@ -86,8 +86,8 @@ sprawdz('filmowa pyta o film, nie o tytuł ani wykonawcę', () => {
     assert.equal(runda.odpowiedzi.length, 4, `${utwor.tytul}: nie cztery odpowiedzi`);
     assert.equal(new Set(runda.odpowiedzi).size, 4, `${utwor.tytul}: powtórzony film wśród odpowiedzi`);
     assert.equal(runda.odpowiedzi[runda.poprawna], utwor.film, `${utwor.tytul}: poprawna odpowiedź to nie ten film`);
-    // Podpowiedź na ekranie musi zdradzać dokładnie jedną z dwóch rzeczy —
-    // tę wskazaną w `wskazany` — a nie obie naraz.
+    // Podpowiedź na ekranie musi zdradzać dokładnie jedną z dwóch rzeczy,
+    // tę wskazaną w `wskazany`, a nie obie naraz.
     if (runda.wskazany === 'tytul') {
       assert.ok(runda.pytanie.includes(utwor.tytul), `${utwor.tytul}: pytanie nie pokazuje tytułu`);
     } else {
@@ -149,7 +149,7 @@ sprawdz('filmowa bez przypisanego filmu nie wchodzi do puli', () => {
   assert.ok(bezFilmu.length > 0, 'w danych testowych powinno zostać choć jedno „filmowa” bez filmu');
   const pula = pulaUtworow({ kategorie: ['filmowa'], dekady: DEKADY.map((d) => d.id) }, { katalog });
   for (const utwor of bezFilmu) {
-    assert.ok(!pula.some((u) => u.id === utwor.id), `${utwor.tytul} nie powinien trafić do puli — brak pola „film”`);
+    assert.ok(!pula.some((u) => u.id === utwor.id), `${utwor.tytul} nie powinien trafić do puli, brak pola „film”`);
   }
 });
 
@@ -284,4 +284,4 @@ sprawdz('tabela sortuje po punktach, przy remisie po trafieniach', () => {
   assert.deepEqual(tabela.map((g) => g.miejsce), [1, 2, 3]);
 });
 
-console.log(`\nSILNIK OK — ${zdane.length} sprawdzeń`);
+console.log(`\nSILNIK OK: ${zdane.length} sprawdzeń`);

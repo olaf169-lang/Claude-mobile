@@ -38,7 +38,7 @@ self.addEventListener('install', (zdarzenie) => {
   zdarzenie.waitUntil(
     caches.open(WERSJA)
       // addAll wykłada się w całości, gdy brakuje jednego pliku (np. podglądów
-      // przed pierwszym przebiegiem workflowu) — stąd pojedynczo.
+      // przed pierwszym przebiegiem workflowu), stąd pojedynczo.
       .then((magazyn) => Promise.all(POWLOKA.map((plik) => magazyn.add(plik).catch(() => {}))))
       .then(() => self.skipWaiting()),
   );
@@ -73,7 +73,7 @@ self.addEventListener('fetch', (zdarzenie) => {
 });
 
 /* --- powiadomienia push (Turniej Piąteczki) ---
-   FCM na webie dowozi wiadomość jako zwykły Web Push — nie trzeba tu
+   FCM na webie dowozi wiadomość jako zwykły Web Push, nie trzeba tu
    ładować SDK Firebase, wystarczy standardowe API service workera.
    Wysyłający (Cloud Function, patrz funkcje/index.js) pakuje dane
    jako czysty JSON, nie gotowe pole "notification", żeby mieć pełną
@@ -81,7 +81,7 @@ self.addEventListener('fetch', (zdarzenie) => {
 
 self.addEventListener('push', (zdarzenie) => {
   let dane = {};
-  try { dane = zdarzenie.data ? zdarzenie.data.json() : {}; } catch { /* puste powiadomienie — nic nie tracimy */ }
+  try { dane = zdarzenie.data ? zdarzenie.data.json() : {}; } catch { /* puste powiadomienie, nic nie tracimy */ }
   const tytul = dane.tytul || 'Jaka to Melodia';
   zdarzenie.waitUntil(self.registration.showNotification(tytul, {
     body: dane.tresc || '',
@@ -93,7 +93,7 @@ self.addEventListener('push', (zdarzenie) => {
 
 self.addEventListener('notificationclick', (zdarzenie) => {
   zdarzenie.notification.close();
-  // self.location.origin to tylko protokół+host, bez ścieżki — appka NIE
+  // self.location.origin to tylko protokół+host, bez ścieżki, appka NIE
   // siedzi w katalogu głównym domeny (GitHub Pages, /Claude-mobile/jaka-to-
   // -melodia/), więc adres wychodził na sam root strony zamiast na appkę.
   // self.registration.scope niesie pełną ścieżkę, do której serwisant należy.

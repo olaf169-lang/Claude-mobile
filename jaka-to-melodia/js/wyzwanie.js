@@ -1,10 +1,10 @@
 /* ==========================================================================
-   Tryb wyzwań — asynchroniczna gra solo. Grasz sam, w swoim tempie, a na
+   Tryb wyzwań, asynchroniczna gra solo. Grasz sam, w swoim tempie, a na
    koniec dostajesz link. Kto go otworzy, gra na dokładnie tych samych
    piosenkach (ułożonych raz przy tworzeniu wyzwania i zapisanych w bazie)
    i widzi, jak wypadł na tle reszty.
 
-   To NIE jest ten sam silnik co prowadzacy.js/gracz.js — zero MQTT, zero
+   To NIE jest ten sam silnik co prowadzacy.js/gracz.js, zero MQTT, zero
    "na żywo". Telefon nie rozmawia z innymi telefonami, tylko raz na
    początku i raz na końcu z bazą (Firestore), żeby przekazać dalej te same
    pytania i zebrać wyniki. Stąd osobny, dużo prostszy stan gry.
@@ -37,7 +37,7 @@ export function uruchom() {
     ustawienia: { ...USTAWIENIA_DOMYSLNE },
     id: null,             // id dokumentu wyzwania w Firestore
     utworca: null,        // ksywka tego, kto wyzwanie stworzył (do ekranu "dołącz")
-    rundy: [],            // [{ seria: [pytanie...] }] — ułożone raz, wspólne dla wszystkich
+    rundy: [],            // [{ seria: [pytanie...] }], ułożone raz, wspólne dla wszystkich
     lacznaLiczbaPytan: 0,
     nrRundy: 0,
     nrPytania: -1,
@@ -48,7 +48,7 @@ export function uruchom() {
     koniecPytania: 0,
     pokazano: 0,
     wybor: null,
-    // tworzenie wyzwania — temat ustala się osobno dla każdej rundy, więc
+    // tworzenie wyzwania, temat ustala się osobno dla każdej rundy, więc
     // rundy powstają jedna po drugiej, zanim cokolwiek trafi do Firestore:
     ksywkaTworzacego: '',
     rundyBudowane: [],
@@ -125,7 +125,7 @@ export function uruchom() {
     const ksywka = utnijZnaki($('#wyzwanie-ksywka').value.trim(), 24);
     if (!ksywka) { powiadom('Wpisz swoją ksywkę.', 'blad'); return; }
     localStorage.setItem('jtm:ksywka', ksywka);
-    await odtwarzacz.rozgrzej(); // prawdziwe dotknięcie ekranu — jedyna okazja na iOS
+    await odtwarzacz.rozgrzej(); // prawdziwe dotknięcie ekranu, jedyna okazja na iOS
 
     stan.ksywkaTworzacego = ksywka;
     stan.rundyBudowane = [];
@@ -136,7 +136,7 @@ export function uruchom() {
 
   /* ---------------------------------------------- wybór tematu (przy tworzeniu) */
 
-  /** Temat ustala się osobno dla każdej rundy — inaczej przy kilku rundach
+  /** Temat ustala się osobno dla każdej rundy, inaczej przy kilku rundach
       wychodziłby ciągle ten sam koszyk piosenek. Ekran nawiguje się sam,
       wywołując siebie ponownie, dopóki nie ułożymy tylu rund, ile trzeba. */
   function pokazWyborTematuWyzwania(indeksRundy) {
@@ -174,7 +174,7 @@ export function uruchom() {
       ...opcjePuli(), ziarno: Math.floor(Math.random() * 2 ** 31), pomin: stan.pominieteBudowa,
     });
     if (!seria.length) {
-      powiadom('Z tego tematu nie da się ułożyć rundy — wybierz coś innego.', 'blad');
+      powiadom('Z tego tematu nie da się ułożyć rundy. Wybierz coś innego.', 'blad');
       return;
     }
     for (const pytanie of seria) stan.pominieteBudowa.add(pytanie.utwor.id);
@@ -195,7 +195,7 @@ export function uruchom() {
         utworca: stan.ksywkaTworzacego,
       });
     } catch {
-      powiadom('Nie udało się utworzyć wyzwania — sprawdź internet i spróbuj ponownie.', 'blad');
+      powiadom('Nie udało się utworzyć wyzwania. Sprawdź internet i spróbuj ponownie.', 'blad');
       pokazEkran('wyzwanie-nowe');
       return;
     }
@@ -220,7 +220,7 @@ export function uruchom() {
       dane = null;
     }
     if (!dane) {
-      powiadom('Nie znalazłem tego wyzwania — link mógł wygasnąć albo się urwać.', 'blad');
+      powiadom('Nie znalazłem tego wyzwania, link mógł wygasnąć albo się urwać.', 'blad');
       location.hash = '#/';
       return;
     }
@@ -233,7 +233,7 @@ export function uruchom() {
     let jaGralem = null;
     try {
       jaGralem = await pobierzWynikGracza(id, mojeId);
-    } catch { /* brak sieci — spróbujemy zagrać, zapis i tak może się nie udać */ }
+    } catch { /* brak sieci, spróbujemy zagrać, zapis i tak może się nie udać */ }
     if (jaGralem) {
       await pokazWyniki(id);
       return;
@@ -393,7 +393,7 @@ export function uruchom() {
     }
     if (pytanie.typ === 'film') {
       $('#wyzwanie-odsloniety-tytul').textContent = pytanie.utwor.film;
-      $('#wyzwanie-odsloniety-wykonawca').textContent = `${pytanie.utwor.tytul} — ${pytanie.utwor.wykonawca}`;
+      $('#wyzwanie-odsloniety-wykonawca').textContent = `${pytanie.utwor.tytul} · ${pytanie.utwor.wykonawca}`;
     } else {
       $('#wyzwanie-odsloniety-tytul').textContent = pytanie.utwor.tytul;
       $('#wyzwanie-odsloniety-wykonawca').textContent = `${pytanie.utwor.wykonawca} · ${pytanie.utwor.rok}`;
@@ -430,7 +430,7 @@ export function uruchom() {
     try {
       await zapiszWynikGracza(stan.id, mojeId, { ksywka: stan.ksywka, punkty: stan.punkty, trafienia: stan.trafienia });
     } catch {
-      powiadom('Nie udało się zapisać wyniku do wspólnej tabeli — sprawdź internet.', 'blad');
+      powiadom('Nie udało się zapisać wyniku do wspólnej tabeli. Sprawdź internet.', 'blad');
     }
     await pokazWyniki(stan.id);
   }
@@ -461,7 +461,7 @@ export function uruchom() {
     pokazEkran('wyzwanie-wyniki');
   }
 
-  /** Punkty, przy remisie trafienia, przy dalszym remisie ksywka — tak samo
+  /** Punkty, przy remisie trafienia, przy dalszym remisie ksywka, tak samo
       jak w rankingu na żywo (patrz ranking() w gra.js). */
   function uszereguj(gracze) {
     return gracze
@@ -494,7 +494,7 @@ export function uruchom() {
     }
     try {
       await navigator.clipboard.writeText(link);
-      powiadom('Link skopiowany — wklej go, gdzie chcesz.');
+      powiadom('Link skopiowany. Wklej go, gdzie chcesz.');
     } catch {
       powiadom(link);
     }

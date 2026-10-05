@@ -2,9 +2,9 @@
    Utwory, których NIE dopisujemy do katalogu, choć sklep je podaje.
    --------------------------------------------------------------------------
    Po co osobna lista: usunięcie wpisu z dane/utwory.js nie wystarcza. Kolejna
-   dosypka pyta sklep o to samo i — skoro utworu już nie ma w katalogu — nie
-   widzi dubla, więc wpisuje go z powrotem. Tak wróciły „Lulu — Let Go” (2024)
-   i „Karin Stanek — Chłopiec Z Gitarą” (2009) dzień po tym, jak je usunąłem.
+   dosypka pyta sklep o to samo i, skoro utworu już nie ma w katalogu, nie
+   widzi dubla, więc wpisuje go z powrotem. Tak wróciły „Lulu: Let Go” (2024)
+   i „Karin Stanek: Chłopiec Z Gitarą” (2009) dzień po tym, jak je usunąłem.
 
    Co tu trafia:
      - wznowienia i ponowne nagrania z rokiem wydania zamiast roku premiery
@@ -45,7 +45,7 @@ export const ODRZUCONE = [
   { wykonawca: 'Sabrina', tytul: 'Taste' },
   { wykonawca: 'Sabrina', tytul: 'House Tour' },
 
-  // Nie Nas, a Lil Nas X — sklep oddaje go przy haśle „Nas”.
+  // Nie Nas, a Lil Nas X, sklep oddaje go przy haśle „Nas”.
   { wykonawca: 'Nas', tytul: 'INDUSTRY BABY' },
 
   // Płyty świąteczne: kolędę zna każdy, ale nikt nie zgadnie wykonawcy.

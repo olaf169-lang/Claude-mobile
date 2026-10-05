@@ -1,7 +1,7 @@
 # Jaka to Melodia
 
 Muzyczny quiz na wieczór. Jeden telefon prowadzi i puszcza trzydziestosekundowe
-fragmenty, reszta zgaduje ze swoich — kto szybciej kliknie, ten ma więcej punktów.
+fragmenty, reszta zgaduje ze swoich, kto szybciej kliknie, ten ma więcej punktów.
 Bez instalowania czegokolwiek: goście skanują kod QR i już grają.
 
 **→ [olaf169-lang.github.io/Claude-mobile/jaka-to-melodia](https://olaf169-lang.github.io/Claude-mobile/jaka-to-melodia/)**
@@ -16,50 +16,49 @@ Bez instalowania czegokolwiek: goście skanują kod QR i już grają.
 ## Jak się gra
 
 1. **Prowadzący** ustawia długość serii, liczbę rund i czas na odpowiedź, po czym
-   otwiera pokój. Jego telefon warto podpiąć do głośnika — to z niego leci muzyka.
+   otwiera pokój. Jego telefon warto podpiąć do głośnika, to z niego leci muzyka.
 2. **Goście** skanują kod QR albo wchodzą na tę samą stronę i wpisują czteroznakowy
    kod pokoju oraz swoją ksywkę (emoji jak najbardziej można).
-3. Na początku każdej rundy ktoś wybiera jej temat — kategorie i dekady (np. „rock
+3. Na początku każdej rundy ktoś wybiera jej temat, kategorie i dekady (np. „rock
    i rap, lata 80. i 90.”) albo po prostu wszystko. Potem krótkie odliczanie 3-2-1.
 4. Leci fragment, na telefonach pojawiają się cztery odpowiedzi. Zegar tyka.
 5. Po czasie prowadzący pokazuje, co to było (razem z kategorią i dekadą), kto
-   trafił i jak wygląda tabela — a utwór jeszcze chwilę gra w tle.
-6. Gdy seria się skończy, wszyscy widzą podium i tabelę tej rundy — a potem albo
+   trafił i jak wygląda tabela, a utwór jeszcze chwilę gra w tle.
+6. Gdy seria się skończy, wszyscy widzą podium i tabelę tej rundy, a potem albo
    kolejna runda z nowym tematem, albo, po ostatniej, podsumowanie całej gry.
    Kto skończy grę na podium, dostaje na swoim telefonie konfetti i krótką
-   fanfarkę — złotą za pierwsze miejsce, ciszej srebrną i brązową za kolejne.
+   fanfarkę, złotą za pierwsze miejsce, ciszej srebrną i brązową za kolejne.
 
 Miejsca jest na **20 telefonów**, wygodnie gra się do czternastu. Każdy potrzebuje
-internetu, ale niekoniecznie tego samego wi-fi — telefony spotykają się przez
+internetu, ale niekoniecznie tego samego wi-fi, telefony spotykają się przez
 publiczny broker w sieci, nie przez lokalną sieć.
 
 ### Serie, rundy i temat
 
-Gra dzieli się na **rundy** (1, 3, 5, 8 albo 10 — wybór prowadzącego), a każda runda
+Gra dzieli się na **rundy** (1, 3, 5, 8 albo 10, wybór prowadzącego), a każda runda
 to **seria** kolejnych piosenek (5 do 25, jak dawniej). Różnica jest w temacie: każda
 runda ma swój własny wybór kategorii i dekad, więc jedna runda potrafi być czystym
-rockiem z lat 80. i 90., a następna — wszystkim naraz.
+rockiem z lat 80. i 90., a następna, wszystkim naraz.
 
 Kto wybiera temat, zależy od ustawienia **Kto wybiera temat rundy**:
 
-- **Losowy gracz** *(domyślnie)* — na początku rundy telefony losują jedną osobę
+- **Losowy gracz** *(domyślnie)*, na początku rundy telefony losują jedną osobę
   (może to być też prowadzący, jeśli akurat gra). Tylko ona widzi panel wyboru,
   reszta czeka z podglądem, kto teraz decyduje.
-- **Zawsze ja** — temat za każdym razem ustala prowadzący, ze swojego telefonu.
+- **Zawsze ja**: temat za każdym razem ustala prowadzący, ze swojego telefonu.
 
-Zaznaczenie **Wszystko** jest jednym kliknięciem — nie trzeba klikać każdej
+Zaznaczenie **Wszystko** jest jednym kliknięciem, nie trzeba klikać każdej
 kategorii i dekady osobno. Jeśli wybrany temat okaże się zbyt wąski (za mało
 utworów na całą serię), gra sama prosi o wybór jeszcze raz.
 
-Po ostatniej piosence serii wszystkie telefony — prowadzącego i graczy — widzą
+Po ostatniej piosence serii wszystkie telefony, prowadzącego i graczy, widzą
 animowane podium i tabelę tej rundy (z przypomnieniem, jaka piosenka leciała na
-koniec — okładka, tytuł, wykonawca), zanim gra przejdzie dalej.
+koniec, okładka, tytuł, wykonawca), zanim gra przejdzie dalej.
 
 ### We dwoje, w pojedynkę i w tłumie
 
 Domyślnie **prowadzący też gra**: na jego ekranie te same cztery kafelki są
-klikalne, a punkty liczą mu się na dokładnie tych samych zasadach co reszcie
-— czas od pokazania pytania, bez taryfy ulgowej. Dzięki temu do gry wystarczą
+klikalne, a punkty liczą mu się na dokładnie tych samych zasadach co reszcie, czyli czas od pokazania pytania, bez taryfy ulgowej. Dzięki temu do gry wystarczą
 **dwie osoby**, a nawet jedna, jeśli chce sprawdzić samą siebie. Gdy wszyscy
 odpowiedzą, runda odsłania się od razu, bez czekania do końca zegara.
 
@@ -67,13 +66,13 @@ Na większej imprezie warto to wyłączyć (*Ja też gram* w ustawieniach): tele
 prowadzącego leży wtedy przy głośniku i służy za tablicę, na którą wszyscy
 patrzą, a gra się wyłącznie ze swoich.
 
-Prowadzący nie ma przy tym przewagi — prawidłowa odpowiedź nie pojawia się
+Prowadzący nie ma przy tym przewagi, prawidłowa odpowiedź nie pojawia się
 nigdzie przed odsłoną, także na jego ekranie.
 
 ## Punkty
 
 Maksimum za pytanie to **100 punktów** i dostaje je tylko ten, kto klika
-natychmiast. Im dłużej się zastanawiasz, tym mniej zostaje — na sam koniec
+natychmiast. Im dłużej się zastanawiasz, tym mniej zostaje, na sam koniec
 czasu trafiona odpowiedź jest warta **30**. Zła odpowiedź albo brak odpowiedzi
 to zero. Szybkość naprawdę się liczy.
 
@@ -89,18 +88,18 @@ maksymalnie +50.
 
 Na ekranie wyników rundy, obok punktów, widać też ile pytań tej rundy ktoś
 trafił (np. **4/8**) i średni czas trafienia. Ten czas liczy się od
-faktycznego startu utworu, nie od pojawienia się pytania na ekranie — te dwa
+faktycznego startu utworu, nie od pojawienia się pytania na ekranie, te dwa
 momenty dzieli chwila potrzebna na znalezienie adresu nagrania, więc bez tej
 korekty średnia wyglądałaby na gorszą, niż naprawdę była.
 
-Tam też widać najdłuższą serię trafień z rzędu w tej rundzie (np. **🔥 ×4**) —
+Tam też widać najdłuższą serię trafień z rzędu w tej rundzie (np. **🔥 ×4**),
 im dłuższa, tym większa i bardziej intensywnie zabarwiona odznaka. Poniżej
-dwóch trafień pod rząd odznaka się nie pokazuje — to jeszcze nie seria.
+dwóch trafień pod rząd odznaka się nie pokazuje, to jeszcze nie seria.
 
 ## Skąd bierze się muzyka
 
 Z trzydziestosekundowych fragmentów, które sklepy muzyczne udostępniają publicznie
-do przesłuchania — w pierwszej kolejności **iTunes Search API**, a gdy tam czegoś
+do przesłuchania, w pierwszej kolejności **iTunes Search API**, a gdy tam czegoś
 nie ma, **Deezer**. Żaden z nich nie wymaga konta ani klucza.
 
 Adresy nagrań nie są szukane w trakcie imprezy. Raz w miesiącu (i po każdej zmianie
@@ -110,7 +109,7 @@ więc runda rusza od razu. Wyszukiwanie w locie zostało jako zapas dla utworów
 dopisanych po ostatnim przebiegu.
 
 Wyszukiwarka iTunes przepuszcza około **dwudziestu zapytań na minutę z jednego
-adresu** i nie da się tego obejść ponawianiem — trzeba pytać wolniej. Skrypt ma
+adresu** i nie da się tego obejść ponawianiem, trzeba pytać wolniej. Skrypt ma
 więc bramkę pilnującą stałego odstępu, a workflow dzieli katalog na pięć części
 i puszcza je równolegle na osobnych maszynach: pięć adresów, pięć limitów, całość
 poniżej dziesięciu minut zamiast godziny. Potem `narzedzia/scal-podglady.mjs`
@@ -125,12 +124,12 @@ wtedy tylko pytanie, zegar i odpowiedzi, a za dźwięk odpowiada prowadzący.
 
 ### Muzyka na wszystkich telefonach
 
-Domyślnie gra tylko telefon prowadzącego — reszta patrzy na swój ekran w ciszy.
+Domyślnie gra tylko telefon prowadzącego, reszta patrzy na swój ekran w ciszy.
 Włącznik **Graj też na telefonach graczy** (pod „Muzyką z aplikacji”) sprawia, że
 każdy telefon w pokoju sam odtwarza ten sam fragment.
 
 Uczciwie: to nie jest jeden głośnik, tylko kilka telefonów granych osobno przez
-internet, więc idealnej synchronizacji się nie da osiągnąć — każdy dostaje sygnał
+internet, więc idealnej synchronizacji się nie da osiągnąć, każdy dostaje sygnał
 „graj teraz” z innym, niewielkim opóźnieniem sieci. Gra stara się to zniwelować
 najlepiej, jak może (każdy telefon liczy, ile utworu już minęło, i przeskakuje od
 razu w to samo miejsce, zamiast zaczynać od zera), ale przy telefonach leżących
@@ -144,75 +143,75 @@ strumień z jednego źródła), więc przy większej grupie na słabszym wi-fi w
 naraz pobierają ten sam plik w tym samym momencie. Na przyzwoitej sieci to
 niezauważalne; na bardzo obciążonej może chwilowo spowolnić też samą grę
 (łączność z pokojem). Telefon, który na moment straci zasięg, i tak dostraja się
-sam — ale jeśli często coś się zacina, warto to po prostu wyłączyć.
+sam, ale jeśli często coś się zacina, warto to po prostu wyłączyć.
 
 ## Katalog
 
-Ponad 1500 utworów (liczba rośnie — patrz niżej) w dziewięciu standardowych
+Ponad 1500 utworów (liczba rośnie, patrz niżej) w dziewięciu standardowych
 kategoriach i siedmiu dekadach, plus kategorie specjalne bez podziału na dekady:
 
 | dekada | Pop | Rock | Rap | Dance | R&B / soul | Filmowa | Polskie | Country & Folk |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| lata 60. | 47 | 34 | — | — | 43 | 30 | 26 | 6 |
-| lata 70. | 35 | 35 | — | 30 | 30 | 24 | 26 | 8 |
+| lata 60. | 47 | 34 |, |, | 43 | 30 | 26 | 6 |
+| lata 70. | 35 | 35 |, | 30 | 30 | 24 | 26 | 8 |
 | lata 80. | 38 | 42 | 26 | 40 | 29 | 32 | 49 | 5 |
 | lata 90. | 32 | 44 | 35 | 42 | 24 | 23 | 53 | 10 |
 | lata 2000. | 36 | 45 | 36 | 35 | 30 | 12 | 44 | 5 |
 | lata 2010. | 39 | 32 | 37 | 37 | 23 | 22 | 27 | 7 |
 | lata 2020. | 35 | 16 | 25 | 19 | 17 | 15 | 18 | 4 |
 
-„Polskie” to osobna kategoria, bez dzielenia na gatunki — pozostałe kategorie
+„Polskie” to osobna kategoria, bez dzielenia na gatunki, pozostałe kategorie
 standardowe obejmują głównie kawałki anglojęzyczne. Każdy polski wpis ma jednak
 w tle pole `styl`, dzięki któremu do polskiego rocka nie podstawi się disco polo.
-„Country & Folk” to najmłodsza kategoria standardowa — country przeważa nad
+„Country & Folk” to najmłodsza kategoria standardowa, country przeważa nad
 folkiem, a niektóre dekady są na razie chude (poniżej progu ostrzeżenia
-w `sprawdz-dane.mjs`) — rosną z każdym przebiegiem automatycznego dobierania.
+w `sprawdz-dane.mjs`), rosną z każdym przebiegiem automatycznego dobierania.
 
 Trzy pola w tabeli są celowo puste: w latach 60. rap i dance jeszcze nie istniały,
-w 70. — rap. Taki gatunek po prostu nie da się wybrać dla tej dekady w ustawieniach
+w 70., rap. Taki gatunek po prostu nie da się wybrać dla tej dekady w ustawieniach
 (`js/katalog.js` → `NIEISTNIEJACE`), a odzyskane miejsce poszło na inne kategorie
 z tych lat, żeby dekady jako całość nie wypadały ubogo.
 
 ### Kategorie specjalne
 
 Disney i Szybcy i wściekli (`specjalna: true` w `js/katalog.js`) to wąski,
-konkretny temat, nie szeroki gatunek — kontrola danych (`sprawdz-dane.mjs`) nie
+konkretny temat, nie szeroki gatunek, kontrola danych (`sprawdz-dane.mjs`) nie
 wymaga od nich równego rozkładu po dekadach, bo z natury rzeczy się w kilku
 latach skupiają. W ustawieniach i panelu wyboru tematu wyróżniają się kolorem
 znaczka (bursztynowa obwódka zamiast standardowej).
 
-**Disney** miesza polskie i angielskie wersje piosenek — angielskie w
+**Disney** miesza polskie i angielskie wersje piosenek, angielskie w
 przewadze. Klasyki, które już są w kategorii „filmowa” (i tam pytają, w jakim
-filmie usłyszysz dany utwór), się nie powtarzają — Disney to inny kąt: zwykłe
+filmie usłyszysz dany utwór), się nie powtarzają. Disney to inny kąt: zwykłe
 pytanie o tytuł albo wykonawcę, czasem po polsku, czasem po angielsku.
 
-**Szybcy i wściekli** nie dzieli się na osobne kategorie per część serii —
+**Szybcy i wściekli** nie dzieli się na osobne kategorie per część serii,
 zamiast tego każdy wpis ma pole `film` z dokładnym tytułem części (np. „Fast
 Five”), które pokazuje się jako dodatkowy znacznik na odsłonie, obok kategorii
-i dekady. To nie jest ta sama mechanika co „filmowa” (nie zgadujesz filmu) —
+i dekady. To nie jest ta sama mechanika co „filmowa” (nie zgadujesz filmu),
 `film` tu tylko informuje, skąd jest ten kawałek.
 
 ### Katalog rośnie sam
 
 Cykliczne zadanie (Routine w Claude) dokłada co jakiś czas kolejną,
-zweryfikowaną porcję utworów — celuje w progi 2200 → 3000 → 4000 → 5000,
+zweryfikowaną porcję utworów, celuje w progi 2200 → 3000 → 4000 → 5000,
 priorytetowo domykając kategorie specjalne i najchudsze koszyki. Zawsze
 najpierw sprawdza `node narzedzia/sprawdz-dane.mjs` i `test-gry.mjs` przed
-commitem — czerwone testy nigdy nie trafiają do repozytorium.
+commitem, czerwone testy nigdy nie trafiają do repozytorium.
 
-### Muzyka filmowa — wyjątek od zwykłych pytań
+### Muzyka filmowa, wyjątek od zwykłych pytań
 
-W tej jednej kategorii nie zgadujesz tytułu ani wykonawcy — jedno z nich jawnie
+W tej jednej kategorii nie zgadujesz tytułu ani wykonawcy, jedno z nich jawnie
 widać na ekranie (losowo które), a szukaną odpowiedzią jest **film, w którym ten
 utwór usłyszysz**. Złe odpowiedzi to więc inne filmy z katalogu, nie inne
 piosenki. Na odsłonie na pierwszym planie staje nazwa filmu, a tytuł
-z wykonawcą lądują jako podpis pod spodem — bo dopiero teraz oboje przestają
+z wykonawcą lądują jako podpis pod spodem, bo dopiero teraz oboje przestają
 być tajemnicą.
 
-Wymaga to dodatkowego pola `film` przy każdym wpisie tej kategorii — bez niego
+Wymaga to dodatkowego pola `film` przy każdym wpisie tej kategorii, bez niego
 utwór po prostu nie wejdzie do puli (tak samo jak utwór bez nagrania przy grze
 z dźwiękiem). Filmów przypisywałem z pamięci, ale tam, gdzie nie miałem
-pewności, sprawdzałem to w sieci zamiast zgadywać — dwa utwory Ludwiga
+pewności, sprawdzałem to w sieci zamiast zgadywać, dwa utwory Ludwiga
 Göranssona z 2023 roku zostały bez przypisania, bo nie znalazłem wiarygodnego
 potwierdzenia.
 
@@ -232,7 +231,7 @@ filmu):
 { tytul: 'Eye of the Tiger', wykonawca: 'Survivor', rok: 1982, gatunek: 'filmowa', film: 'Rocky III' },
 ```
 
-To samo pole przy „Szybkich i wściekłych” działa inaczej — nie zmienia
+To samo pole przy „Szybkich i wściekłych” działa inaczej, nie zmienia
 mechaniki pytania, tylko dokłada znacznik na odsłonie:
 
 ```js
@@ -241,7 +240,7 @@ mechaniki pytania, tylko dokłada znacznik na odsłonie:
 
 Potem `node narzedzia/sprawdz-dane.mjs` (wyłapie duble, literówki w polach i brak
 `film` przy „filmowej”), a przy najbliższym pushu workflow sam znajdzie nagranie.
-Utwór, do którego nagrania nie ma, po prostu nie wejdzie do losowania — nazwa
+Utwór, do którego nagrania nie ma, po prostu nie wejdzie do losowania, nazwa
 trafi na listę braków w podsumowaniu przebiegu, więc od razu widać, co poprawić.
 
 ### Skąd biorą się złe odpowiedzi
@@ -257,22 +256,22 @@ i „Dawid Podsiadło & Taco Hemingway”.
 | | |
 |---|---|
 | **Ja też gram** | Prowadzący odpowiada na swoim telefonie. Wyłącz, gdy ma być tablicą przy głośniku. |
-| **Kategorie i dekady** | Pula na całą grę — z niej wybiera się temat każdej rundy. Dowolne połączenie; licznik od razu pokazuje, ile utworów zostaje. |
+| **Kategorie i dekady** | Pula na całą grę, z niej wybiera się temat każdej rundy. Dowolne połączenie; licznik od razu pokazuje, ile utworów zostaje. |
 | **Czas na odpowiedź** | 5, 7, 10, 15 albo 20 sekund. |
 | **Długość serii** | Ile piosenek pod rząd w jednej rundzie: od 5 do 25. Jeśli pula tematu jest mniejsza, seria po prostu się skróci. |
 | **Liczba rund** | Ile serii w tej grze: 1, 3, 5, 8 albo 10. |
 | **Kto wybiera temat rundy** | Losowy gracz (domyślnie) albo zawsze prowadzący. |
-| **O co pytamy** | O tytuł, o wykonawcę, albo raz o to, raz o to. Muzyka filmowa ma zawsze swoje własne pytanie — o film (patrz wyżej). |
+| **O co pytamy** | O tytuł, o wykonawcę, albo raz o to, raz o to. Muzyka filmowa ma zawsze swoje własne pytanie, o film (patrz wyżej). |
 | **Muzyka z aplikacji** | Wyłącz, jeśli puszczasz z własnego źródła. |
-| **Graj też na telefonach graczy** | Dostępne, gdy „Muzyka z aplikacji” jest włączona. Każdy telefon gra u siebie, nie tylko prowadzący — z lekkim echem przy telefonach obok siebie (patrz wyżej). |
-| **Losowy moment** | Fragment zaczyna się za każdym razem gdzie indziej — trudniej. |
+| **Graj też na telefonach graczy** | Dostępne, gdy „Muzyka z aplikacji” jest włączona. Każdy telefon gra u siebie, nie tylko prowadzący, z lekkim echem przy telefonach obok siebie (patrz wyżej). |
+| **Losowy moment** | Fragment zaczyna się za każdym razem gdzie indziej, trudniej. |
 | **Bonus za serię** | +10 za każde kolejne trafienie, do +50. |
 
 Ustawienia zapamiętują się na telefonie prowadzącego.
 
 ## Jak to jest zrobione
 
-Statyczna strona — HTML, CSS i moduły ES, bez budowania i bez frameworka. Wszystko
+Statyczna strona. HTML, CSS i moduły ES, bez budowania i bez frameworka. Wszystko
 w [`js/`](js):
 
 | plik | za co odpowiada |
@@ -290,14 +289,14 @@ w [`js/`](js):
 
 Telefony rozmawiają przez publiczny broker MQTT (EMQX, w razie czego HiveMQ albo
 Mosquitto) na dwóch tematach: `jtm/<KOD>/h` od prowadzącego i `jtm/<KOD>/g` od graczy.
-Prowadzący jest jedynym źródłem prawdy — telefony niczego nie rozstrzygają.
+Prowadzący jest jedynym źródłem prawdy, telefony niczego nie rozstrzygają.
 
 Stan rundy jest nadawany co 1,2 sekundy, a nie raz. Dzięki temu telefon, który
 dołączył w połowie albo na chwilę stracił zasięg, dostraja się sam. Poprawna
 odpowiedź nie leci w eter przed odsłoną, więc nie da się jej podejrzeć
 w podglądzie ruchu sieciowego.
 
-Kod pokoju ma cztery znaki z alfabetu bez `O`, `0`, `I` i `1` — żeby dało się go
+Kod pokoju ma cztery znaki z alfabetu bez `O`, `0`, `I` i `1`: żeby dało się go
 podyktować przez pokój.
 
 ### iPhone i Android
@@ -306,12 +305,12 @@ podyktować przez pokój.
   rozgrzewamy odtwarzacz ciszą. Kolejne rundy ruszają już same. Gdy gra też
   telefon gracza (patrz „Muzyka na wszystkich telefonach”), rozgrzewka wychodzi
   z kliknięcia „Wchodzę” przy dołączaniu, z tego samego powodu.
-- Safari na iPhonie ignoruje ustawianie głośności z kodu — sprawdzamy to raz
+- Safari na iPhonie ignoruje ustawianie głośności z kodu, sprawdzamy to raz
   i tam, gdzie się nie da, po prostu nie wyciszamy płynnie.
 - Ekran nie gaśnie w trakcie gry (Screen Wake Lock, gdzie jest dostępny).
 - Dwa elementy `<audio>` na zmianę: jeden gra, drugi doczytuje następny utwór.
 - Podwójne stuknięcie potrafi na iPhonie przybliżyć stronę zamiast trafić w kafelek
-  — `maximum-scale=1, user-scalable=no` w viewporcie i `touch-action: manipulation`
+ , `maximum-scale=1, user-scalable=no` w viewporcie i `touch-action: manipulation`
   ustawione wprost na każdym klikalnym elemencie (nie tylko na `<body>`) usuwają ten
   gest i 300-milisekundowe opóźnienie przed kliknięciem, bo Safari samo potrafi
   zignorować regułę odziedziczoną tylko z rodzica.
@@ -319,25 +318,25 @@ podyktować przez pokój.
 ### Testy
 
 ```bash
-npm install          # aedes, ws, playwright — tylko do testów
+npm install          # aedes, ws, playwright, tylko do testów
 npm test             # katalog, silnik, połączenie, dobieranie nagrań
 npm run test:przegladarka   # pełna rozgrywka: prowadzący i pięć telefonów
 ```
 
 Test przeglądarkowy stawia własny broker i własny serwer plików, po czym rozgrywa
-dwie pełne gry przez cały cykl rund — wybór tematu, odliczanie 3-2-1, seria pytań
+dwie pełne gry przez cały cykl rund, wybór tematu, odliczanie 3-2-1, seria pytań
 z odsłonami, wyniki rundy, koniec gry: imprezową (prowadzący plus cztery telefony,
 od lobby do podium) i we dwoje (prowadzący w stawce plus jeden telefon, temat losuje
-jedną z tych dwóch osób — sprawdzane są oba możliwe wyniki losowania). Sprawdza
-między innymi, czy szybsza odpowiedź daje więcej punktów — także wtedy, gdy szybszy
-jest prowadzący — czy telefon wchodzący w środku rundy dostaje resztę czasu, czy
+jedną z tych dwóch osób, sprawdzane są oba możliwe wyniki losowania). Sprawdza
+między innymi, czy szybsza odpowiedź daje więcej punktów, także wtedy, gdy szybszy
+jest prowadzący, czy telefon wchodzący w środku rundy dostaje resztę czasu, czy
 poprawna odpowiedź nie pojawia się w eterze przed odsłoną i czy losowo wybrany
 gracz rzeczywiście dostaje panel wyboru tematu, a reszta tylko czeka.
 
 Trzeci, krótszy scenariusz sprawdza samą „muzykę na wszystkich telefonach”: że
 domyślnie (opcja wyłączona) adres nagrania w ogóle nie leci do graczy, a po
-włączeniu — leci, razem z momentem startu do zsynchronizowania. Samego
-odtwarzania w tle nie sprawdzamy tu automatycznie — to już zależy od tego, czy
+włączeniu, leci, razem z momentem startu do zsynchronizowania. Samego
+odtwarzania w tle nie sprawdzamy tu automatycznie, to już zależy od tego, czy
 telefon (i sieć w danym momencie) faktycznie odtworzy plik dźwiękowy, a nie od
 kodu gry, więc test pilnuje protokołu, nie prawdziwego dźwięku.
 
@@ -346,10 +345,10 @@ tytuł albo wykonawcę (to, co ułożył silnik), że cztery odpowiedzi to nazwy
 filmów, a odsłona stawia film na pierwszym planie z tytułem i wykonawcą jako
 podpisem.
 
-### Powiadomienia push — jednorazowe włączenie
+### Powiadomienia push, jednorazowe włączenie
 
 Przyciski instalacji (⬇️) i powiadomień (🔔) obok przełącznika motywu działają
-od razu — appka da się doinstalować na telefonie i poprosi o zgodę na
+od razu, appka da się doinstalować na telefonie i poprosi o zgodę na
 powiadomienia. Żeby powiadomienia faktycznie zaczęły przychodzić („Twoja
 kolej”, wynik pojedynku, podsumowanie tygodnia), trzeba raz, ręcznie,
 z własnego komputera:
@@ -360,44 +359,44 @@ z własnego komputera:
    kluczy**. Skopiowany klucz wklej do `KLUCZ_VAPID` w
    `jaka-to-melodia/js/powiadomienia.js`.
 2. Tamże w konsoli: ikonka trybu rozliczeniowego → przełącz projekt na plan
-   **Blaze** (pay-as-you-go — sam plan nic nie kosztuje, płaci się dopiero po
+   **Blaze** (pay-as-you-go, sam plan nic nie kosztuje, płaci się dopiero po
    przekroczeniu darmowego limitu, do którego przy grze znajomych nigdy nie
    dojdzie). Bez tego Cloud Functions w ogóle się nie wdrożą.
 3. `npm install -g firebase-tools` (jeśli jeszcze nie masz), potem
    `firebase login`.
 4. `cd jaka-to-melodia && firebase deploy --only functions,firestore:rules`
 
-Od tego momentu ruch w Turnieju Piąteczki sam wysyła powiadomienia — appka
+Od tego momentu ruch w Turnieju Piąteczki sam wysyła powiadomienia, appka
 (punkty 1 i wklejony klucz) już na to czeka, reszta dzieje się po stronie
 Firebase. Do czasu wdrożenia appka działa normalnie, dzwonek po prostu nie ma
 komu nic wysłać.
 
 ## Gdy coś nie działa
 
-**„Nie ma takiego pokoju”** — prowadzący musi mieć otwarte lobby. Sprawdź też, czy
+**„Nie ma takiego pokoju”**: prowadzący musi mieć otwarte lobby. Sprawdź też, czy
 kod jest przepisany dokładnie; w kodach nie występują `O`, `0`, `I` ani `1`.
 
-**Nikt nie może dołączyć** — w ustawieniach jest przycisk *Sprawdź połączenie*.
+**Nikt nie może dołączyć**: w ustawieniach jest przycisk *Sprawdź połączenie*.
 Pokaże, który z trzech brokerów odpowiada. Warto go kliknąć przed imprezą,
 zwłaszcza w obcej sieci.
 
-**Cisza zamiast muzyki** — na iPhonie zdarza się, gdy gra ruszyła bez dotknięcia
+**Cisza zamiast muzyki**: na iPhonie zdarza się, gdy gra ruszyła bez dotknięcia
 ekranu. Wyjdź do lobby i naciśnij „Zaczynamy” jeszcze raz. Jeśli konkretny utwór
 nie chce zagrać, przycisk *Pomiń* wyrzuca go z tej gry.
 
-**Sieć blokuje publiczne brokery** — można wskazać własny, dopisując do adresu
+**Sieć blokuje publiczne brokery**: można wskazać własny, dopisując do adresu
 `?serwer=wss://twoj.broker/mqtt`. Parametr zostaje w linku do dołączenia, więc
 wystarczy ustawić go raz, u prowadzącego.
 
 ## O prywatności
 
 Broker jest publiczny i nieszyfrowany na poziomie treści: kto zna czteroznakowy kod
-pokoju, może podejrzeć ruch. W eterze są tylko ksywki, pytania i punkty — nic, czego
+pokoju, może podejrzeć ruch. W eterze są tylko ksywki, pytania i punkty, nic, czego
 nie widać na ekranie. Poprawna odpowiedź jedzie dopiero na odsłonie, więc nawet
 podglądanie nie pomoże wygrać.
 
 ## Licencja
 
-Kod aplikacji — jak reszta repozytorium. Generator kodów QR w `vendor/` pochodzi
+Kod aplikacji, jak reszta repozytorium. Generator kodów QR w `vendor/` pochodzi
 z pakietu `qrcode-generator` (Kazuhiko Arase, MIT) i leży tam bez zmian; szczegóły
 w [`vendor/CZYTAJ.md`](vendor/CZYTAJ.md).

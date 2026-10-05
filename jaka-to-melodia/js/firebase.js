@@ -1,10 +1,10 @@
 /* ==========================================================================
-   Cienka warstwa nad Firestore — jedyna rzecz, jakiej potrzebuje tryb
+   Cienka warstwa nad Firestore, jedyna rzecz, jakiej potrzebuje tryb
    wyzwań (asynchroniczna gra solo + wysyłanie linku). Reszta aplikacji
-   (granie na żywo przez MQTT) o tym nie wie i niczego stąd nie ściąga —
+   (granie na żywo przez MQTT) o tym nie wie i niczego stąd nie ściąga,
    SDK ładuje się z CDN dopiero, gdy ktoś naprawdę wejdzie w ten tryb.
 
-   Klucze poniżej to publiczna konfiguracja klienta Firebase — nie są
+   Klucze poniżej to publiczna konfiguracja klienta Firebase, nie są
    tajne (bezpieczeństwo pilnują reguły Firestore, nie ukrywanie tego
    obiektu), więc mogą bezpiecznie siedzieć w kodzie źródłowym.
    ========================================================================== */
@@ -22,7 +22,7 @@ const WERSJA_SDK = '10.14.1';
 
 let bazaPromise = null;
 
-/** Zwraca { app, db, f } — f to cały moduł firebase-firestore (funkcje typu
+/** Zwraca { app, db, f }, f to cały moduł firebase-firestore (funkcje typu
     doc, setDoc, getDoc...), żeby nie trzeba było ich osobno eksportować stąd.
     `app` samo w sobie przydaje się tylko poza Firestore (np. powiadomienia.js
     woła nim getMessaging(app)). */

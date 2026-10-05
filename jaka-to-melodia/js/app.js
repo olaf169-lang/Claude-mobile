@@ -1,6 +1,6 @@
 /* ==========================================================================
    Wejście do aplikacji: motyw, adresy i rozdzielenie ról.
-   Dwa tryby — prowadzący i gracz — siedzą w osobnych plikach i doczytują się
+   Dwa tryby, prowadzący i gracz, siedzą w osobnych plikach i doczytują się
    dopiero wtedy, gdy ktoś je wybierze. Telefon gracza nie musi wciągać
    katalogu pięciuset utworów, żeby kliknąć jedną z czterech odpowiedzi.
    ========================================================================== */
@@ -20,7 +20,7 @@ przelacznikMotywu?.addEventListener('click', () => {
 
 /* --- instalacja na urządzeniu ---
    beforeinstallprompt daje przycisk z prawdziwym oknem instalacji (Chrome,
-   Edge, Android). iOS (Safari) tego eventu nigdy nie wywoła — tam pokazujemy
+   Edge, Android). iOS (Safari) tego eventu nigdy nie wywoła, tam pokazujemy
    przycisk zawsze (chyba że appka już działa jako zainstalowana) i po
    kliknięciu tłumaczymy ręczne kroki, bo natywnego okna tam nie ma. */
 
@@ -73,9 +73,9 @@ przyciskPowiadomien?.addEventListener('click', async () => {
     przyciskPowiadomien.setAttribute('aria-pressed', 'true');
     powiadom(ksywka
       ? 'Powiadomienia włączone.'
-      : 'Powiadomienia włączone — dopiszemy je do Twojej ksywki, gdy zagrasz Turniej Piąteczki.');
+      : 'Powiadomienia włączone, dopiszemy je do Twojej ksywki, gdy zagrasz Turniej Piąteczki.');
   } else {
-    powiadom('Nie udało się włączyć powiadomień — sprawdź uprawnienia przeglądarki.', 'blad');
+    powiadom('Nie udało się włączyć powiadomień. Sprawdź uprawnienia przeglądarki.', 'blad');
   }
 });
 
@@ -124,7 +124,7 @@ $('#rola-wyzwanie')?.addEventListener('click', () => { location.hash = '#/wyzwan
 $('#rola-turniej')?.addEventListener('click', () => { location.hash = '#/turniej'; });
 
 // Powiadomienie push o cudzym ruchu czasem nie dochodzi (wyłączony telefon,
-// zablokowana zgoda, appka zamknięta) — bez tego linku z powrotem ciężko
+// zablokowana zgoda, appka zamknięta), bez tego linku z powrotem ciężko
 // było w ogóle trafić na przerwany pojedynek.
 const przyciskWrocTurniej = $('#wroc-do-turnieju');
 const aktywnyPojedynek = localStorage.getItem('jtm:aktywnyPojedynek');

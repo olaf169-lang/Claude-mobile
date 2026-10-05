@@ -5,17 +5,17 @@
    grze mechanika, nie ozdoba („lata 80.” to filtr tematu rundy), a przepisywany
    z pamięci bywa o rok czy dwa obok. Nazwa zespołu i epoka, w której grał, to
    natomiast fakt trudny do pomylenia. Więc tutaj trzymamy wykonawców, a tytuły,
-   lata i podglądy dociąga narzedzia/zbierz-kandydatow.mjs ze sklepu — stamtąd
+   lata i podglądy dociąga narzedzia/zbierz-kandydatow.mjs ze sklepu, stamtąd
    rok jest taki, jaki wydawca wpisał przy wydaniu.
 
    Listy mają dawać pokrycie WSZYSTKICH dekad w każdej kategorii, bo plan
    rozbudowy (narzedzia/plan-katalogu.mjs) dokłada utwory do koszyków
    dekada × kategoria, a nie do kategorii na raz. Dekada przy nazwiskach jest
-   tylko wskazówką dla człowieka — przydział do koszyka robi rok ze sklepu.
+   tylko wskazówką dla człowieka, przydział do koszyka robi rok ze sklepu.
 
    Kategorii specjalnych (Disney, Szybcy i wściekli, szanty) tu nie ma: to wąskie
    tematy, w których liczy się przypisanie do filmu czy nurtu, a nie dorobek
-   wykonawcy. Rosną ręcznie. Tak samo „filmowa” — tam utwór musi mieć film,
+   wykonawcy. Rosną ręcznie. Tak samo „filmowa”, tam utwór musi mieć film,
    więc zbiera się ją osobnym trybem (po ścieżkach dźwiękowych).
 
    Kogo tu świadomie NIE MA, choć pasowałby do epoki: wykonawców, których
@@ -23,7 +23,7 @@
    Karin Stanek, Petula Clark, Anita Ward i Lulu wracały po każdej dosypce
    z nagraniami z lat 2005-2015 pod utwory z lat 60., czyli w złej dekadzie,
    a jedno „Lulu” w sklepie to w ogóle inna artystka. Ich dobre utwory są już
-   w katalogu — pytanie o nich sklepu dokłada tylko śmieci.
+   w katalogu, pytanie o nich sklepu dokłada tylko śmieci.
    ========================================================================== */
 
 export const WYKONAWCY = {
@@ -140,7 +140,7 @@ export const WYKONAWCY = {
   ],
 
   dance: [
-    // lata 70. — disco
+    // lata 70., disco
     'Donna Summer', 'CHIC', 'Giorgio Moroder', 'Village People',
     'Sister Sledge', 'KC & The Sunshine Band', 'Boney M.', 'Gloria Gaynor',
     'The Trammps', 'Baccara', 'Silver Convention',
@@ -175,7 +175,7 @@ export const WYKONAWCY = {
   ],
 
   rnb: [
-    // lata 60. — soul
+    // lata 60., soul
     'Aretha Franklin', 'Otis Redding', 'Marvin Gaye', 'Sam Cooke',
     'Wilson Pickett', 'James Brown', 'Stevie Wonder', 'The Temptations',
     'Four Tops', 'Smokey Robinson & The Miracles', 'Ben E. King',
@@ -251,7 +251,7 @@ export const WYKONAWCY = {
     'Ashley McBryde', 'Tyler Childers',
   ],
 
-  // Polskie mają dodatkowo „styl” — to on dobiera błędne odpowiedzi wewnątrz
+  // Polskie mają dodatkowo „styl”, to on dobiera błędne odpowiedzi wewnątrz
   // kategorii (patrz podobienstwo() w js/gra.js), bo sama etykieta „polskie”
   // zbiera i rock, i rap, i disco polo.
   polskie: [

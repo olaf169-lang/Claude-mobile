@@ -11,7 +11,7 @@
 <meta property="og:site_name" content="Jaka to Melodia">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:url" content="https://olaf169-lang.github.io/Claude-mobile/jaka-to-melodia/">
-<meta property="og:title" content="Jaka to Melodia — muzyczny quiz na imprezę">
+<meta property="og:title" content="Jaka to Melodia: muzyczny quiz na imprezę">
 <meta property="og:description" content="Skanujesz kod QR i grasz. Pięć dekad, sześć kategorii, punkty za refleks.">
 <meta property="og:image" content="https://olaf169-lang.github.io/Claude-mobile/jaka-to-melodia/icons/podglad.png">
 <meta property="og:image:width" content="1200">
@@ -30,7 +30,7 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="styles.css">
 <script>
-  // Motyw przed pierwszym malowaniem — inaczej ciemny ekran mrugnąłby bielą.
+  // Motyw przed pierwszym malowaniem, bo inaczej ciemny ekran mrugnąłby bielą.
   (() => {
     const zapisany = localStorage.getItem('jtm:motyw');
     if (zapisany) document.documentElement.dataset.theme = zapisany;
@@ -109,7 +109,7 @@
       <li>Leci fragment, na urządzeniach pojawiają się cztery odpowiedzi. Liczy się czas.</li>
       <li>Po rundzie prowadzący pokazuje, co to było i kto trafił.</li>
     </ol>
-    <p>Zmieści się czternaście urządzeń z zapasem — telefon, tablet czy komputer, wystarczy przeglądarka. Wszystko idzie przez internet, więc każde musi mieć zasięg — niekoniecznie to samo wi-fi.</p>
+    <p>Zmieści się czternaście urządzeń z zapasem: telefon, tablet czy komputer, wystarczy przeglądarka. Wszystko idzie przez internet, więc każde musi mieć zasięg, niekoniecznie to samo wi-fi.</p>
   </details>
 </section>
 
@@ -117,7 +117,7 @@
 <section data-ekran="ustawienia" class="ekran" hidden>
   <h2 class="tytul-ekranu">Z czego gramy?</h2>
 
-  <p class="drobne">Wszystko jest domyślnie zaznaczone — stuknij, żeby odznaczyć to, czego nie chcesz. Możesz zostawić dowolnie dużo.</p>
+  <p class="drobne">Wszystko jest domyślnie zaznaczone. Stuknij, żeby odznaczyć to, czego nie chcesz, możesz zostawić dowolnie dużo.</p>
   <fieldset class="grupa">
     <legend>Kategorie</legend>
     <div class="znaczki" id="wybor-kategorii"></div>
@@ -160,7 +160,7 @@
     <legend>Kto gra</legend>
     <label class="przelacznik">
       <input type="checkbox" id="opcja-ja-gram" checked>
-      <span><strong>Ja też gram</strong><small>Odpowiadasz na tym samym urządzeniu, na którym prowadzisz — wtedy wystarczą dwie osoby, a nawet jedna.</small></span>
+      <span><strong>Ja też gram</strong><small>Odpowiadasz na tym samym urządzeniu, na którym prowadzisz, więc wystarczą dwie osoby, a nawet jedna.</small></span>
     </label>
     <label class="pole wciete" id="pole-ksywki-prowadzacego">
       <span>Twoja ksywka</span>
@@ -176,11 +176,11 @@
     </label>
     <label class="przelacznik wciete" id="pole-muzyka-wszedzie">
       <input type="checkbox" id="opcja-muzyka-wszedzie">
-      <span><strong>Graj też na urządzeniach graczy</strong><small>Każde urządzenie gra u siebie, nie tylko prowadzący. Przy urządzeniach blisko siebie usłyszycie lekkie echo — to naturalne przy graniu przez sieć.</small></span>
+      <span><strong>Graj też na urządzeniach graczy</strong><small>Każde urządzenie gra u siebie, nie tylko prowadzący. Przy urządzeniach blisko siebie usłyszycie lekkie echo. To naturalne przy graniu przez sieć.</small></span>
     </label>
     <label class="przelacznik">
       <input type="checkbox" id="opcja-fragment">
-      <span><strong>Losowy moment</strong><small>Fragment zaczyna się w innym miejscu za każdym razem — trudniej.</small></span>
+      <span><strong>Losowy moment</strong><small>Fragment zaczyna się w innym miejscu za każdym razem, czyli trudniej.</small></span>
     </label>
     <label class="przelacznik">
       <input type="checkbox" id="opcja-seria">
@@ -233,7 +233,7 @@
 
   <div id="panel-wyboru-tematu" hidden>
     <p class="podpowiedz-wyboru">
-      <strong class="wybrane-slowo">Zaznaczone</strong> znaczki grają w tej rundzie — domyślnie wszystkie. Dotknij znaczka, żeby go wyłączyć.
+      <strong class="wybrane-slowo">Zaznaczone</strong> znaczki grają w tej rundzie, domyślnie wszystkie. Dotknij znaczka, żeby go wyłączyć.
     </p>
     <fieldset class="grupa">
       <legend>Kategorie</legend>
@@ -304,7 +304,7 @@
 
 <!-- ========================= WYNIKI RUNDY ========================== -->
 <section data-ekran="wyniki-rundy" class="ekran" hidden>
-  <p class="nadtytul" id="wyniki-rundy-nadtytul">Runda 1/3 — koniec</p>
+  <p class="nadtytul" id="wyniki-rundy-nadtytul">Runda 1/3, koniec</p>
   <h2 class="tytul-ekranu srodek">Wyniki tej rundy</h2>
   <div class="odsloniete kompaktowe" id="karta-ostatniej-piosenki" hidden>
     <img class="okladka" id="okladka-rundy" alt="" hidden>
@@ -441,11 +441,11 @@
   <ol class="ranking pelny" id="ranking-gracza"></ol>
 </section>
 
-<!-- ===================== WYZWANIE — NOWE ========================== -->
+<!-- ===================== WYZWANIE · NOWE ========================== -->
 <section data-ekran="wyzwanie-nowe" class="ekran" hidden>
   <h2 class="tytul-ekranu">Nowe wyzwanie</h2>
   <p class="opis">
-    Grasz solo, w swoim tempie. Na koniec dostajesz link — wyślij go komu
+    Grasz solo, w swoim tempie. Na koniec dostajesz link. Wyślij go komu
     chcesz, każdy zagra na tych samych piosenkach i zobaczycie, kto lepszy.
   </p>
 
@@ -474,11 +474,11 @@
   </div>
 </section>
 
-<!-- ================ WYZWANIE — WYBÓR TEMATU RUNDY =================== -->
+<!-- ================ WYZWANIE · WYBÓR TEMATU RUNDY =================== -->
 <section data-ekran="wyzwanie-wybor-tematu" class="ekran" hidden>
   <h2 class="tytul-ekranu" id="wyzwanie-numer-rundy-tematu">Runda 1/1</h2>
-  <p class="opis">Wybierz temat tej rundy — dowolnie, z całego katalogu.</p>
-  <p class="drobne">Wszystko jest domyślnie zaznaczone — stuknij, żeby odznaczyć to, czego nie chcesz.</p>
+  <p class="opis">Wybierz temat tej rundy. Dowolnie, z całego katalogu.</p>
+  <p class="drobne">Wszystko jest domyślnie zaznaczone. Stuknij, żeby odznaczyć to, czego nie chcesz.</p>
   <fieldset class="grupa">
     <legend>Kategorie</legend>
     <div class="znaczki" id="wyzwanie-wybor-kategorii"></div>
@@ -493,13 +493,13 @@
   </div>
 </section>
 
-<!-- =================== WYZWANIE — PRZYGOTOWANIE ==================== -->
+<!-- =================== WYZWANIE · PRZYGOTOWANIE ==================== -->
 <section data-ekran="wyzwanie-tworzenie" class="ekran srodek" hidden>
   <div class="puls" aria-hidden="true">♪</div>
   <p class="opis" id="wyzwanie-tworzenie-opis">Przygotowuję pytania…</p>
 </section>
 
-<!-- ======================= WYZWANIE — DOŁĄCZ ======================= -->
+<!-- ======================= WYZWANIE · DOŁĄCZ ======================= -->
 <section data-ekran="wyzwanie-dolacz" class="ekran srodek" hidden>
   <h2 class="tytul-ekranu" id="wyzwanie-dolacz-tytul">Ktoś Cię wyzwał!</h2>
   <p class="opis" id="wyzwanie-dolacz-opis"></p>
@@ -511,7 +511,7 @@
   <button class="klawisz glowny duzy" id="wyzwanie-przyjmij" type="button">Przyjmuję wyzwanie</button>
 </section>
 
-<!-- ========================= WYZWANIE — RUNDA ======================= -->
+<!-- ========================= WYZWANIE · RUNDA ======================= -->
 <section data-ekran="wyzwanie-runda" class="ekran ekran-gry" hidden>
   <div class="pasek-rundy">
     <span class="numer-rundy" id="wyzwanie-numer-rundy"></span>
@@ -527,7 +527,7 @@
   <div class="odpowiedzi" id="wyzwanie-odpowiedzi"></div>
 </section>
 
-<!-- ======================== WYZWANIE — ODSŁONA ======================= -->
+<!-- ======================== WYZWANIE · ODSŁONA ======================= -->
 <section data-ekran="wyzwanie-odslona" class="ekran" hidden>
   <div class="werdykt maly" id="wyzwanie-werdykt" hidden></div>
   <div class="odsloniete">
@@ -544,7 +544,7 @@
   </div>
 </section>
 
-<!-- ======================== WYZWANIE — WYNIKI ======================= -->
+<!-- ======================== WYZWANIE · WYNIKI ======================= -->
 <section data-ekran="wyzwanie-wyniki" class="ekran srodek" hidden>
   <div class="werdykt" id="wyzwanie-wyniki-werdykt"></div>
   <h2 class="tytul-ekranu" id="wyzwanie-moj-wynik"></h2>
@@ -563,13 +563,13 @@
   </div>
 </section>
 
-<!-- ===================== TURNIEJ — NOWY POJEDYNEK =================== -->
+<!-- ===================== TURNIEJ · NOWY POJEDYNEK =================== -->
 <section data-ekran="turniej-nowe" class="ekran" hidden>
   <h2 class="tytul-ekranu">Turniej Piąteczki</h2>
   <p class="opis">
     Pięć rund po pięć piosenek, 1 na 1. Ty wybierasz temat rund 1, 2 i 4,
-    przeciwnik — 3 i 5. Grasz swoją część, wysyłasz link, przeciwnik dogrywa
-    swoją — na koniec porównujecie wyniki na dokładnie tych samych piosenkach.
+    a przeciwnik 3 i 5. Grasz swoją część, wysyłasz link, przeciwnik dogrywa
+    swoją, a na koniec porównujecie wyniki na dokładnie tych samych piosenkach.
   </p>
 
   <label class="pole">
@@ -590,7 +590,7 @@
     </label>
   </fieldset>
 
-  <p class="drobne">Temat każdej rundy wybierasz tuż przed jej rozegraniem — dowolnie, z całego katalogu.</p>
+  <p class="drobne">Temat każdej rundy wybierasz tuż przed jej rozegraniem. Dowolnie, z całego katalogu.</p>
 
   <div class="stopka-ekranu">
     <button class="klawisz" id="turniej-wroc" type="button">Wstecz</button>
@@ -599,20 +599,20 @@
   </div>
 </section>
 
-<!-- =================== TURNIEJ — PRZYGOTOWANIE ======================= -->
+<!-- =================== TURNIEJ · PRZYGOTOWANIE ======================= -->
 <section data-ekran="turniej-tworzenie" class="ekran srodek" hidden>
   <div class="puls" aria-hidden="true">♪</div>
   <p class="opis" id="turniej-tworzenie-opis">Chwileczkę…</p>
 </section>
 
-<!-- ===================== TURNIEJ — JESZCZE NIE ======================= -->
+<!-- ===================== TURNIEJ · JESZCZE NIE ======================= -->
 <section data-ekran="turniej-jeszcze" class="ekran srodek" hidden>
   <h2 class="tytul-ekranu">Jeszcze chwila</h2>
   <p class="opis" id="turniej-jeszcze-opis"></p>
   <button class="klawisz glowny" id="turniej-jeszcze-sprawdz" type="button">Sprawdź teraz</button>
 </section>
 
-<!-- ======================= TURNIEJ — DOŁĄCZ ========================== -->
+<!-- ======================= TURNIEJ · DOŁĄCZ ========================== -->
 <section data-ekran="turniej-dolacz" class="ekran srodek" hidden>
   <h2 class="tytul-ekranu" id="turniej-dolacz-tytul">Ktoś Cię wyzwał!</h2>
   <p class="opis">Zagrasz na dokładnie tych samych piosenkach, na których swoją część już rozegrał przeciwnik.</p>
@@ -623,7 +623,7 @@
   <button class="klawisz glowny duzy" id="turniej-przyjmij" type="button">Przyjmuję wyzwanie</button>
 </section>
 
-<!-- ======================== TURNIEJ — CZEKAJ ========================= -->
+<!-- ======================== TURNIEJ · CZEKAJ ========================= -->
 <section data-ekran="turniej-czekaj" class="ekran srodek" hidden>
   <h2 class="tytul-ekranu">Czekamy</h2>
   <p class="opis" id="turniej-czekaj-opis"></p>
@@ -638,11 +638,11 @@
   <button class="klawisz" id="turniej-czekaj-sprawdz" type="button">Sprawdź teraz</button>
 </section>
 
-<!-- ================== TURNIEJ — WYBÓR TEMATU RUNDY =================== -->
+<!-- ================== TURNIEJ · WYBÓR TEMATU RUNDY =================== -->
 <section data-ekran="turniej-wybor-tematu" class="ekran" hidden>
   <h2 class="tytul-ekranu" id="turniej-numer-rundy-tematu">Runda 1/5</h2>
   <p class="opis">Losowo wybrane 4 kategorie i 3 dekady.</p>
-  <p class="drobne">Nic nie musisz robić — stuknij tylko wtedy, gdy chcesz <strong>ODRZUCIĆ</strong> jedną z nich (za punkty, patrz niżej). Zostaw wszystko, żeby zagrać bez kary.</p>
+  <p class="drobne">Nic nie musisz robić. Stuknij tylko wtedy, gdy chcesz <strong>ODRZUCIĆ</strong> jedną z nich (za punkty, patrz niżej). Zostaw wszystko, żeby zagrać bez kary.</p>
   <fieldset class="grupa">
     <legend>Kategorie</legend>
     <div class="znaczki" id="turniej-wybor-kategorii"></div>
@@ -658,14 +658,14 @@
   </div>
 </section>
 
-<!-- ======================= TURNIEJ — ODLICZANIE ======================= -->
+<!-- ======================= TURNIEJ · ODLICZANIE ======================= -->
 <section data-ekran="turniej-odliczanie" class="ekran srodek" hidden>
   <p class="etykieta" id="turniej-odliczanie-opis"></p>
   <div class="wielka-liczba" id="turniej-odliczanie-liczba">3</div>
   <p class="opis">Zaczynamy…</p>
 </section>
 
-<!-- ========================= TURNIEJ — RUNDA ========================= -->
+<!-- ========================= TURNIEJ · RUNDA ========================= -->
 <section data-ekran="turniej-runda" class="ekran ekran-gry" hidden>
   <div class="pasek-rundy">
     <span class="numer-rundy" id="turniej-numer-rundy"></span>
@@ -681,7 +681,7 @@
   <div class="odpowiedzi" id="turniej-odpowiedzi"></div>
 </section>
 
-<!-- ======================== TURNIEJ — ODSŁONA ======================== -->
+<!-- ======================== TURNIEJ · ODSŁONA ======================== -->
 <section data-ekran="turniej-odslona" class="ekran" hidden>
   <div class="werdykt maly" id="turniej-werdykt" hidden></div>
   <div class="odsloniete">
@@ -698,7 +698,7 @@
   </div>
 </section>
 
-<!-- ========================= TURNIEJ — WYNIK ========================= -->
+<!-- ========================= TURNIEJ · WYNIK ========================= -->
 <section data-ekran="turniej-wynik" class="ekran srodek" hidden>
   <div class="werdykt" id="turniej-wynik-werdykt"></div>
   <h2 class="tytul-ekranu" id="turniej-wynik-opis"></h2>
@@ -711,9 +711,9 @@
   </div>
 </section>
 
-<!-- ======================== TURNIEJ — TABLICA ======================== -->
+<!-- ======================== TURNIEJ · TABLICA ======================== -->
 <section data-ekran="turniej-ranking" class="ekran" hidden>
-  <h2 class="tytul-ekranu">Turniej Piąteczki — tablica wyników</h2>
+  <h2 class="tytul-ekranu">Turniej Piąteczki: tablica wyników</h2>
   <div class="podium animowane" id="turniej-podium" hidden></div>
   <ol class="ranking pelny" id="turniej-tablica-wynikow"></ol>
 

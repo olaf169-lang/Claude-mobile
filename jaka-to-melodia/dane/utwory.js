@@ -1,22 +1,22 @@
 /* ==========================================================================
-   Jaka to Melodia — katalog utworów
+   Jaka to Melodia: katalog utworów
    --------------------------------------------------------------------------
    Jeden wpis = jedna piosenka. Adresy 30-sekundowych podglądów nie stoją tutaj;
    dokłada je narzedzia/pobierz-podglady.mjs, dopasowując wpis do iTunes po
    tytule i wykonawcy (wynik ląduje w dane/podglady.json).
 
    Pola:
-     tytul      — dokładnie tak, jak w sklepie muzycznym (bez „(Remastered)” itp.)
-     wykonawca  — główny wykonawca; featuringi jako „A feat. B”
-     rok        — rok wydania singla; z niego bierze się dekada 80/90/00/10/20
-     gatunek    — kategoria wybierana w grze:
+     tytul     : dokładnie tak, jak w sklepie muzycznym (bez „(Remastered)” itp.)
+     wykonawca : główny wykonawca; featuringi jako „A feat. B”
+     rok       : rok wydania singla; z niego bierze się dekada 80/90/00/10/20
+     gatunek   : kategoria wybierana w grze:
                   'pop' | 'rock' | 'rap' | 'dance' | 'rnb' | 'polskie'
-     styl       — tylko przy polskich: pod jaki gatunek podpada. Gra nie pokazuje
+     styl      : tylko przy polskich: pod jaki gatunek podpada. Gra nie pokazuje
                   tego nigdzie, używa wyłącznie do dobierania błędnych odpowiedzi,
                   żeby do polskiego rocka nie podstawiała disco polo.
 
    Dopisanie piosenki to jedna linijka w odpowiedniej sekcji. Potem:
-     node narzedzia/sprawdz-dane.mjs      — kontrola (duble, literówki, braki)
+     node narzedzia/sprawdz-dane.mjs     : kontrola (duble, literówki, braki)
    a workflow „Jaka to Melodia” sam dociągnie podgląd przy najbliższym pushu.
    Utwór bez znalezionego podglądu po prostu nie wejdzie do losowania.
    ========================================================================== */
@@ -2235,7 +2235,7 @@ export const UTWORY = [
   { tytul: 'Iris', wykonawca: 'The Goo Goo Dolls', rok: 1998, gatunek: 'filmowa', film: 'City of Angels' },
   { tytul: 'Main Title / Trinity Infinity', wykonawca: 'DON DAVIS', rok: 1999, gatunek: 'filmowa', film: 'The Matrix' },
   { tytul: 'Anything Is Possible', wykonawca: 'DON DAVIS', rok: 1999, gatunek: 'filmowa', film: 'The Matrix' },
-  { tytul: 'Duel of the Fates', wykonawca: 'John Williams', rok: 1999, gatunek: 'filmowa', film: 'Star Wars: Episode I – The Phantom Menace' },
+  { tytul: 'Duel of the Fates', wykonawca: 'John Williams', rok: 1999, gatunek: 'filmowa', film: 'Star Wars: Episode I, The Phantom Menace' },
   { tytul: "You'll Be In My Heart", wykonawca: 'Phil Collins', rok: 1999, gatunek: 'filmowa', film: 'Tarzan' },
   { tytul: 'Strangers Like Me', wykonawca: 'Phil Collins', rok: 1999, gatunek: 'filmowa', film: 'Tarzan' },
   { tytul: 'Calm Like a Bomb', wykonawca: 'Rage Against the Machine', rok: 1999, gatunek: 'filmowa', film: 'The Matrix' },
@@ -4084,5 +4084,5 @@ export const UTWORY = [
   // --- szanty (1) ---
   { tytul: 'My Mother Told Me', wykonawca: 'Perły i Łotry', rok: 2021, gatunek: 'szanty' },
 
-  // Tu dopisuj świeżynki i to, czego brakuje — jedna linijka na utwór.
+  // Tu dopisuj świeżynki i to, czego brakuje, jedna linijka na utwór.
 ];

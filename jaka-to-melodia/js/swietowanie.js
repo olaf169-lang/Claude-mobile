@@ -1,10 +1,10 @@
 /* ==========================================================================
-   Świętowanie na koniec gry — konfetti i krótka fanfarka na telefonie
+   Świętowanie na koniec gry, konfetti i krótka fanfarka na telefonie
    zwycięzcy (i, ciszej, drugiego i trzeciego miejsca).
    --------------------------------------------------------------------------
-   Żadnych plików dźwiękowych do ściągania — melodyjki to kilka oscylatorów
+   Żadnych plików dźwiękowych do ściągania, melodyjki to kilka oscylatorów
    Web Audio, więc działa offline i waży prawie nic. Złoto dostaje najdłuższy,
-   najjaśniejszy efekt; srebro i brąz — coraz skromniejszy, tak jak było
+   najjaśniejszy efekt; srebro i brąz, coraz skromniejszy, tak jak było
    zamówione: pierwsze miejsce ma wyraźnie świętować najbardziej.
    ========================================================================== */
 
@@ -19,7 +19,7 @@ const MOTYWY = {
       { f: 523.25, t: 0, d: 0.16 },   // C5
       { f: 659.25, t: 0.14, d: 0.16 }, // E5
       { f: 783.99, t: 0.28, d: 0.16 }, // G5
-      { f: 1046.50, t: 0.42, d: 0.55 }, // C6 — trzymana na koniec
+      { f: 1046.50, t: 0.42, d: 0.55 }, // C6, trzymana na koniec
     ],
   },
   srebro: {
@@ -58,7 +58,7 @@ function pobierzKontekst() {
   return kontekst;
 }
 
-/** Wołane z prawdziwego dotknięcia ekranu w trakcie gry (patrz gracz.js) —
+/** Wołane z prawdziwego dotknięcia ekranu w trakcie gry (patrz gracz.js),
     na iOS dźwięk startuje tylko z gestu, a ekran końcowy przychodzi sam,
     z sieci, więc trzeba się „rozgrzać” wcześniej. */
 export function odblokujDzwiekSwieta() {
@@ -119,7 +119,7 @@ function sypnijKonfetti(motyw) {
 
   const czasteczki = [];
   const startAnimacji = performance.now();
-  // Sypią się porcjami przez pierwszy ułamek sekundy, nie wszystkie naraz —
+  // Sypią się porcjami przez pierwszy ułamek sekundy, nie wszystkie naraz,
   // wygląda to jak prawdziwe konfetti, nie jak jednorazowy wybuch.
   const rozlozenieMs = Math.min(700, motyw.czasMs * .25);
 
@@ -164,7 +164,7 @@ function sypnijKonfetti(motyw) {
 /* -------------------------------------------------------------- wejście */
 
 /** Konfetti + fanfarka dobrane do miejsca (1 = złoto, 2 = srebro, 3 = brąz).
-    Miejsca niżej niż trzecie nic nie dostają — tam już nie ma medalu. */
+    Miejsca niżej niż trzecie nic nie dostają, tam już nie ma medalu. */
 export function swietuj(miejsce) {
   const klucz = MOTYW_MIEJSCA[miejsce];
   if (!klucz) return;

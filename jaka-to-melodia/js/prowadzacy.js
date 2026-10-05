@@ -1,12 +1,12 @@
 /* ==========================================================================
-   Telefon prowadzącego — jedyne miejsce, w którym mieszka stan gry.
+   Telefon prowadzącego, jedyne miejsce, w którym mieszka stan gry.
    --------------------------------------------------------------------------
    Ekran po ekranie: ustawienia → lobby z kodem QR → (wybór tematu → odliczanie
    → seria pytań z odsłonami → wyniki rundy) × liczba rund → podium.
    Prowadzący puszcza muzykę, liczy punkty i nadaje to, co telefony mają
    pokazać. Nikt inny niczego nie rozstrzyga.
 
-   Stan leci w eter cyklicznie, nie jednorazowo — telefon, który wszedł
+   Stan leci w eter cyklicznie, nie jednorazowo, telefon, który wszedł
    w połowie albo na moment stracił zasięg, dostraja się sam, bez proszenia.
    ========================================================================== */
 
@@ -58,8 +58,8 @@ export function uruchom() {
     wybor: null,                 // robocza (jeszcze niezatwierdzona) wersja tematu
     wybierajacy: null,           // id gracza, który wybiera temat (null = prowadzący)
     poprzedniWybierajacy: null,
-    probaTematu: 0,               // rośnie przy każdym wylosowaniu — odróżnia powtórkę transmisji od nowej próby
-    pominieteId: new Set(),      // utwory, które już padły w tej grze — nie powtarzamy
+    probaTematu: 0,               // rośnie przy każdym wylosowaniu, odróżnia powtórkę transmisji od nowej próby
+    pominieteId: new Set(),      // utwory, które już padły w tej grze, nie powtarzamy
     faza: 'ustawienia',
     limitMs: 15_000,
     koniecRundy: 0,
@@ -70,7 +70,7 @@ export function uruchom() {
     nagranieBiezace: null,   // { url, startS } rozsyłane graczom, gdy „muzykaWszedzie” jest włączona
     blokadaEkranu: null,
     pokazanoRunde: 0,        // od tego momentu liczy się czas odpowiedzi prowadzącego
-    opoznienieStartuMs: 0,   // ile trwało, zanim ruszył utwór — patrz statystyki rundy w odslon()
+    opoznienieStartuMs: 0,   // ile trwało, zanim ruszył utwór, patrz statystyki rundy w odslon()
   };
 
   let tykanie = null;
@@ -84,7 +84,7 @@ export function uruchom() {
     try {
       const zapisane = JSON.parse(localStorage.getItem(KLUCZ_USTAWIEN) || 'null');
       if (zapisane) ustawienia = { ...ustawienia, ...zapisane };
-      // Ksywkę dzielimy z trybem gracza — kto raz grał na tym telefonie,
+      // Ksywkę dzielimy z trybem gracza, kto raz grał na tym telefonie,
       // nie musi jej wpisywać drugi raz.
       ustawienia.ksywkaProwadzacego ||= localStorage.getItem('jtm:ksywka') || '';
     } catch { /* pierwszy raz albo zepsuty wpis */ }
@@ -204,7 +204,7 @@ export function uruchom() {
   }
 
   /**
-   * Do losowania biorą się tylko utwory, które mają czym zabrzmieć — ale
+   * Do losowania biorą się tylko utwory, które mają czym zabrzmieć, ale
    * dopiero wtedy, gdy plik z podglądami rzeczywiście coś zawiera. Inaczej
    * (np. przy pierwszym uruchomieniu) pula zostaje pełna, a brakujące
    * nagrania aplikacja doszuka w locie.
@@ -221,7 +221,7 @@ export function uruchom() {
     const zaMalo = ile < potrzeba;
     licznik.dataset.alarm = zaMalo ? 'tak' : 'nie';
     licznik.innerHTML = zaMalo
-      ? `Do wyboru <strong>${ile}</strong> ${odmiana(ile, 'utwór', 'utwory', 'utworów')} — mniej niż piosenek w serii. Runda skróci się sama albo dorzuć kategorię.`
+      ? `Do wyboru <strong>${ile}</strong> ${odmiana(ile, 'utwór', 'utwory', 'utworów')}, czyli mniej niż piosenek w serii. Runda skróci się sama albo dorzuć kategorię.`
       : `Do wyboru <strong>${ile}</strong> ${odmiana(ile, 'utwór', 'utwory', 'utworów')}.`;
     $('#otworz-pokoj').disabled = ile === 0;
   }
@@ -286,7 +286,7 @@ export function uruchom() {
       $('#kod-pokoju').textContent = kod;
       const adres = adresDolaczenia(kod, brokerNr);
       // Pełny link (z kodem i numerem brokera) siedzi w QR. Na ekranie zostaje
-      // sam adres strony — tyle, ile ktoś realnie przepisze do przeglądarki.
+      // sam adres strony, tyle, ile ktoś realnie przepisze do przeglądarki.
       const krotki = `${location.host}${location.pathname}`.replace(/\/$/, '/');
       $('#adres-pokoju').textContent = `albo wejdź na ${krotki} i wpisz kod`;
       const miejsceQr = wyczysc($('#qr'));
@@ -317,7 +317,7 @@ export function uruchom() {
     }
     $('#liczba-graczy').textContent = String(gracze.length);
     $('#lobby-pusto').hidden = gracze.length > 0;
-    // Wystarczy jedna osoba w stawce — prowadzący, który gra, jest jedną z nich.
+    // Wystarczy jedna osoba w stawce, prowadzący, który gra, jest jedną z nich.
     $('#zacznij-gre').disabled = gracze.length === 0;
   }
 
@@ -348,9 +348,9 @@ export function uruchom() {
         sterujeProwadzacy,
         probaTematu: stan.probaTematu,
         // Urządzenie wylosowanego gracza rysuje panel wyboru z tych gotowych
-        // opisów — samo nie musi znać katalogu ani stałych KATEGORIE/DEKADY.
+        // opisów, samo nie musi znać katalogu ani stałych KATEGORIE/DEKADY.
         // Cały katalog, nie tylko to, co zaznaczono w Ustawieniach na starcie
-        // gry — każda runda wybiera dowolnie z pełnej listy (patrz komentarz
+        // gry, każda runda wybiera dowolnie z pełnej listy (patrz komentarz
         // w wylosujTemat()).
         kategorieDostepne: KATEGORIE
           .map((k) => ({ id: k.id, nazwa: k.nazwa, emoji: k.emoji, specjalna: k.specjalna || false })),
@@ -381,7 +381,7 @@ export function uruchom() {
         ilu: stan.odpowiedzi.size,
         zGrajacych: stan.gracze.size,
         // Adres nagrania jedzie do graczy tylko, gdy prowadzący włączył granie
-        // „wszędzie” — inaczej telefony graczy nigdy nie dostają tego pola
+        // „wszędzie”, inaczej telefony graczy nigdy nie dostają tego pola
         // i zachowują się dokładnie tak jak wcześniej.
         nagranie: stan.ustawienia.muzykaWszedzie ? stan.nagranieBiezace : null,
       });
@@ -396,7 +396,7 @@ export function uruchom() {
 
   const lekkiWpis = (g) => ({ id: g.id, ksywka: g.ksywka, punkty: g.punkty, miejsce: g.miejsce });
 
-  /** Jak lekkiWpis, ale z dorzuconymi statystykami tej jednej rundy — na
+  /** Jak lekkiWpis, ale z dorzuconymi statystykami tej jednej rundy, na
       użytek ekranu wyników rundy (u gracza liczy je host, nie on sam). */
   const lekkiWpisRundy = (g) => ({
     ...lekkiWpis(g),
@@ -431,7 +431,7 @@ export function uruchom() {
 
     if (!gracz) {
       if (stan.gracze.size >= MAKS_GRACZY) {
-        pokoj.nadaj({ t: 'pelno', id, powod: `Komplet — ${MAKS_GRACZY} urządzeń to maksimum.` });
+        pokoj.nadaj({ t: 'pelno', id, powod: `Komplet: ${MAKS_GRACZY} urządzeń to maksimum.` });
         return;
       }
       gracz = {
@@ -446,7 +446,7 @@ export function uruchom() {
     }
 
     // muzykaWszedzie jedzie tu, żeby telefon gracza wiedział od razu po dołączeniu,
-    // czy w ogóle warto „rozgrzewać” swój odtwarzacz — a nie robił tego na ślepo
+    // czy w ogóle warto „rozgrzewać” swój odtwarzacz, a nie robił tego na ślepo
     // przy każdym dołączeniu, bo samo odtworzenie czegokolwiek (nawet ciszy) na
     // iPhonie zwykle ucina muzykę graną w tle w innej aplikacji.
     pokoj.nadaj({
@@ -468,7 +468,7 @@ export function uruchom() {
     });
     $('#ilu-odpowiedzialo').textContent = `${stan.odpowiedzi.size} z ${stan.gracze.size}`;
 
-    // Wszyscy kliknęli — nie ma na co czekać, ale zostawiamy chwilę na
+    // Wszyscy kliknęli, nie ma na co czekać, ale zostawiamy chwilę na
     // odpowiedź, która właśnie leci przez sieć.
     if (stan.odpowiedzi.size >= stan.gracze.size) {
       const zostalo = stan.koniecRundy - performance.now();
@@ -489,7 +489,7 @@ export function uruchom() {
   /* ------------------------------------------------------------------- gra */
 
   async function zacznijGre() {
-    // Pierwsze odtworzenie musi wyjść z dotknięcia ekranu — jesteśmy właśnie
+    // Pierwsze odtworzenie musi wyjść z dotknięcia ekranu, jesteśmy właśnie
     // w obsłudze kliknięcia, więc to jedyny dobry moment na rozgrzewkę.
     if (stan.ustawienia.dzwiekWAplikacji) await odtwarzacz.rozgrzej();
     odblokujDzwiekSwieta(); // ta sama okazja, na wypadek konfetti na koniec gry
@@ -533,7 +533,7 @@ export function uruchom() {
     if (jaSteruje) {
       $('#wybor-tematu-tytul').textContent = 'Wybierz temat rundy';
       // Ta runda wybiera z całego katalogu, nie tylko z tego, co zaznaczono
-      // w Ustawieniach na starcie gry — inaczej wąski wybór na starcie
+      // w Ustawieniach na starcie gry, inaczej wąski wybór na starcie
       // zamykałby wszystkie kolejne rundy w tym samym wąskim temacie.
       stan.wybor = { kategorie: KATEGORIE.map((k) => k.id), dekady: DEKADY.map((d) => d.id) };
       rysujWyborTematu();
@@ -551,7 +551,7 @@ export function uruchom() {
 
   function rysujWyborTematu() {
     // Runda wybiera z całego katalogu (KATEGORIE/DEKADY), nie tylko z tego,
-    // co zaznaczono w Ustawieniach na starcie gry — patrz komentarz przy
+    // co zaznaczono w Ustawieniach na starcie gry, patrz komentarz przy
     // ustawianiu stan.wybor w wylosujTemat().
     const kategorie = wyczysc($('#wybor-tematu-kategorii'));
     for (const kat of KATEGORIE) {
@@ -598,7 +598,7 @@ export function uruchom() {
     });
 
     if (!stan.seria.length) {
-      powiadom('Z tego tematu nie da się ułożyć żadnej piosenki — wybierzcie coś innego.', 'blad');
+      powiadom('Z tego tematu nie da się ułożyć żadnej piosenki. Wybierzcie coś innego.', 'blad');
       wylosujTemat();
       return;
     }
@@ -608,7 +608,7 @@ export function uruchom() {
     for (const pytanie of stan.seria) stan.pominieteId.add(pytanie.utwor.id);
 
     // Statystyki „ile trafień w tej rundzie” liczą się od zera przy każdej
-    // rundzie — inaczej od drugiej rundy ułamek nigdy by się nie zamknął.
+    // rundzie, inaczej od drugiej rundy ułamek nigdy by się nie zamknął.
     for (const gracz of stan.gracze.values()) {
       gracz.trafieniaRunda = 0;
       gracz.sumaCzasuTrafienRundaMs = 0;
@@ -681,7 +681,7 @@ export function uruchom() {
     stan.pokazanoRunde = performance.now();
 
     if (stan.ustawienia.dzwiekWAplikacji) await puscUtwor(pytanie.utwor);
-    // Ile czasu minęło od pokazania pytania do faktycznego ruszenia utworu —
+    // Ile czasu minęło od pokazania pytania do faktycznego ruszenia utworu,
     // wyszukanie adresu podglądu chwilę trwa. Statystyki „czas odgadnięcia”
     // (patrz odslon()) odejmują to opóźnienie, żeby liczyć od muzyki, nie
     // od samego pojawienia się pytania na ekranie.
@@ -696,7 +696,7 @@ export function uruchom() {
   function rysujOdpowiedziHosta(pytanie) {
     const miejsce = wyczysc($('#odpowiedzi-hosta'));
     const gram = stan.ustawienia.prowadzacyGra;
-    // Ta sama siatka służy za tablicę dla pokoju i za brzęczyk prowadzącego —
+    // Ta sama siatka służy za tablicę dla pokoju i za brzęczyk prowadzącego,
     // klikalna tylko wtedy, gdy prowadzący jest też w stawce.
     miejsce.classList.toggle('grywalne', gram);
     pytanie.odpowiedzi.forEach((tresc, nr) => {
@@ -730,7 +730,7 @@ export function uruchom() {
     $('#potwierdzenie-hosta').hidden = false;
   }
 
-  /** Losowy moment startu w obrębie podglądu — liczony raz, tu, żeby dało się
+  /** Losowy moment startu w obrębie podglądu, liczony raz, tu, żeby dało się
       rozesłać graczom dokładnie tę samą wartość (patrz odtwarzacz.js). */
   function wylosujStartS() {
     if (!stan.ustawienia.losowyFragment) return 0;
@@ -741,25 +741,25 @@ export function uruchom() {
   async function puscUtwor(utwor) {
     const wpis = await zrodlo.znajdz(utwor);
     if (!wpis?.podglad) {
-      $('#uwaga-dzwieku').textContent = 'Nie znalazłem nagrania — puść ten kawałek sam albo pomiń rundę.';
+      $('#uwaga-dzwieku').textContent = 'Nie znalazłem nagrania. Puść ten kawałek sam albo pomiń rundę.';
       return;
     }
     const startS = wylosujStartS();
-    // Adres rozsyłamy graczom od razu, jak tylko go znajdziemy — niezależnie od
+    // Adres rozsyłamy graczom od razu, jak tylko go znajdziemy, niezależnie od
     // tego, czy odtwarzanie akurat wyjdzie na TYM konkretnym telefonie (różne
     // przeglądarki różnie traktują autoodtwarzanie). Telefony graczy i tak
     // próbują same, u siebie.
     stan.nagranieBiezace = { url: wpis.podglad, startS };
     const zagrane = await odtwarzacz.zagraj(wpis.podglad, { startS, dlugoscMs: stan.limitMs });
     if (!zagrane) {
-      // Adres mógł wygasnąć (tak bywa z Deezerem) — pytamy o świeży i próbujemy raz.
+      // Adres mógł wygasnąć (tak bywa z Deezerem), pytamy o świeży i próbujemy raz.
       const swiezy = await zrodlo.odswiez(utwor);
       if (swiezy?.podglad) {
         stan.nagranieBiezace = { url: swiezy.podglad, startS };
         const zagraneSwiezy = await odtwarzacz.zagraj(swiezy.podglad, { startS, dlugoscMs: stan.limitMs });
-        if (!zagraneSwiezy) $('#uwaga-dzwieku').textContent = 'Nagranie nie chce zagrać — puść je sam albo pomiń rundę.';
+        if (!zagraneSwiezy) $('#uwaga-dzwieku').textContent = 'Nagranie nie chce zagrać. Puść je sam albo pomiń rundę.';
       } else {
-        $('#uwaga-dzwieku').textContent = 'Nagranie nie chce zagrać — puść je sam albo pomiń rundę.';
+        $('#uwaga-dzwieku').textContent = 'Nagranie nie chce zagrać. Puść je sam albo pomiń rundę.';
       }
     }
   }
@@ -854,7 +854,7 @@ export function uruchom() {
     };
 
     // Utwór gra dalej na ekranie odsłony jeszcze przez chwilę, dopiero potem
-    // milknie — chyba że ktoś zdąży kliknąć dalej wcześniej (patrz niżej).
+    // milknie, chyba że ktoś zdąży kliknąć dalej wcześniej (patrz niżej).
     wygaszanieId += 1;
     const mojeWygaszanie = wygaszanieId;
     setTimeout(() => {
@@ -878,7 +878,7 @@ export function uruchom() {
 
     if (pytanie.typ === 'film') {
       $('#odsloniety-tytul').textContent = pytanie.utwor.film;
-      $('#odsloniety-wykonawca').textContent = `${pytanie.utwor.tytul} — ${pytanie.utwor.wykonawca}`;
+      $('#odsloniety-wykonawca').textContent = `${pytanie.utwor.tytul} · ${pytanie.utwor.wykonawca}`;
     } else {
       $('#odsloniety-tytul').textContent = pytanie.utwor.tytul;
       $('#odsloniety-wykonawca').textContent = `${pytanie.utwor.wykonawca} · ${pytanie.utwor.rok}`;
@@ -921,7 +921,7 @@ export function uruchom() {
     if (odslona.filmZnacznik) miejsce.append(el('span', { tekst: `🎬 ${odslona.filmZnacznik}` }));
   }
 
-  /** Gdy prowadzący gra, ma prawo wiedzieć, jak mu poszło — tak jak reszta. */
+  /** Gdy prowadzący gra, ma prawo wiedzieć, jak mu poszło, tak jak reszta. */
   function pokazWerdyktProwadzacego() {
     const werdykt = $('#werdykt-hosta');
     const moj = stan.ostatniaOdslona?.wyniki?.[ID_PROWADZACEGO];
@@ -943,7 +943,7 @@ export function uruchom() {
     }
   }
 
-  /** „4/8 · śr. 3,2 s” — ile trafień w tej rundzie i średni czas trafień
+  /** „4/8 · śr. 3,2 s”, ile trafień w tej rundzie i średni czas trafień
       liczony od startu utworu. Bez średniej, gdy nikt jeszcze nic nie trafił. */
   function tekstStatystykRundy(trafien, pytan, sredniMs) {
     const bazowe = `${trafien}/${pytan}`;
@@ -985,12 +985,12 @@ export function uruchom() {
     const tabela = ranking(stan.gracze);
     const ostatniaRunda = stan.nrRundyGry >= stan.ustawienia.liczbaRund;
 
-    // Przypomnienie ostatniej piosenki tej rundy — ten sam kawałek danych co
+    // Przypomnienie ostatniej piosenki tej rundy, ten sam kawałek danych co
     // na odsłonie, więc ekran wyników nie jest gołą tabelą bez związku z tym,
     // co się właśnie działo.
     // Uwaga: stan.nrPytania w tym miejscu jest już ZA końcem serii (patrz
-    // nastepnePytanie — inkrementacja i porównanie z długością serii zdarzają
-    // się przed wywołaniem zakonczRunde) — ostatnie realne pytanie to ostatni
+    // nastepnePytanie, inkrementacja i porównanie z długością serii zdarzają
+    // się przed wywołaniem zakonczRunde), ostatnie realne pytanie to ostatni
     // element seria, nie seria[nrPytania].
     const ostatniePytanie = stan.seria[stan.seria.length - 1];
     const dekadaOst = DEKADY.find((d) => d.id === ostatniePytanie.utwor.dekada);
@@ -1016,7 +1016,7 @@ export function uruchom() {
       ostatniaRunda,
     };
 
-    $('#wyniki-rundy-nadtytul').textContent = `Runda ${stan.nrRundyGry}/${stan.ustawienia.liczbaRund} — koniec`;
+    $('#wyniki-rundy-nadtytul').textContent = `Runda ${stan.nrRundyGry}/${stan.ustawienia.liczbaRund}, koniec`;
     rysujOstatniaPiosenke($('#karta-ostatniej-piosenki'), $('#okladka-rundy'), $('#ostatnia-piosenka-tytul'),
       $('#ostatnia-piosenka-wykonawca'), $('#ostatnia-piosenka-znaczniki'), ostatniaPiosenka);
     rysujPodiumRundy(tabela);
@@ -1027,7 +1027,7 @@ export function uruchom() {
     pokazEkran('wyniki-rundy');
   }
 
-  /** Wspólne dla prowadzącego i (przez broadcast) gracza — karta „co leciało”
+  /** Wspólne dla prowadzącego i (przez broadcast) gracza, karta „co leciało”
       na ekranie wyników rundy. */
   function rysujOstatniaPiosenke(karta, okladka, tytul, wykonawca, znaczniki, dane) {
     karta.hidden = false;
@@ -1040,7 +1040,7 @@ export function uruchom() {
     }
     if (dane.film) {
       tytul.textContent = dane.film;
-      wykonawca.textContent = `${dane.tytul} — ${dane.wykonawca}`;
+      wykonawca.textContent = `${dane.tytul} · ${dane.wykonawca}`;
     } else {
       tytul.textContent = dane.tytul;
       wykonawca.textContent = `${dane.wykonawca} · ${dane.rok}`;
@@ -1081,7 +1081,7 @@ export function uruchom() {
     const tabela = ranking(stan.gracze);
 
     const podium = wyczysc($('#podium'));
-    for (const miejsce of [2, 1, 3]) {                 // 2 – 1 – 3, jak na prawdziwym podium
+    for (const miejsce of [2, 1, 3]) {                 // 2 : 1 : 3, jak na prawdziwym podium
       const gracz = tabela[miejsce - 1];
       if (!gracz) continue;
       podium.append(el('div', { klasa: 'stopien', 'data-miejsce': miejsce }, [
@@ -1092,7 +1092,7 @@ export function uruchom() {
     }
 
     // Prowadzący, który sam gra, ma na tym ekranie to samo osobiste podsumowanie
-    // co reszta graczy (patrz pokazWerdyktProwadzacego) — konfetti też mu się należą.
+    // co reszta graczy (patrz pokazWerdyktProwadzacego), konfetti też mu się należą.
     if (stan.ustawienia.prowadzacyGra) {
       const moje = tabela.find((g) => g.id === ID_PROWADZACEGO);
       if (moje) swietuj(moje.miejsce);
@@ -1126,7 +1126,7 @@ export function uruchom() {
     const adres = adresDolaczenia(pokoj.kod, pokoj.brokerNr);
     try {
       await navigator.clipboard.writeText(adres);
-      powiadom('Link skopiowany — wklej go na grupę.', 'sukces');
+      powiadom('Link skopiowany. Wklej go na grupę.', 'sukces');
     } catch {
       powiadom(adres);
     }
@@ -1154,11 +1154,11 @@ export function uruchom() {
     przycisk.disabled = false;
     przycisk.textContent = 'Sprawdź połączenie';
     const dziala = wyniki.filter((w) => w.includes('✓')).length;
-    powiadom(dziala ? wyniki.join(' · ') : 'Żaden serwer nie odpowiada — sprawdź internet.', dziala ? 'sukces' : 'blad');
+    powiadom(dziala ? wyniki.join(' · ') : 'Żaden serwer nie odpowiada. Sprawdź internet.', dziala ? 'sukces' : 'blad');
   }
 
   odtwarzacz.onBlad = () => {
-    $('#uwaga-dzwieku').textContent = 'Coś nie zagrało — puść ten kawałek sam albo pomiń rundę.';
+    $('#uwaga-dzwieku').textContent = 'Coś nie zagrało. Puść ten kawałek sam albo pomiń rundę.';
   };
 
   /* ------------------------------------------------------------------ start */
@@ -1171,7 +1171,7 @@ export function uruchom() {
     const ile = zrodlo.gotowe.size;
     $('#stan-podgladow').textContent = ile
       ? `Nagrania gotowe dla ${ile} ${odmiana(ile, 'utworu', 'utworów', 'utworów')}.`
-      : 'Brak wcześniej pobranych nagrań — aplikacja poszuka ich w trakcie gry.';
+      : 'Brak wcześniej pobranych nagrań, aplikacja poszuka ich w trakcie gry.';
   });
 
   // Ekran nie ma gasnąć w środku rundy; po powrocie z tła blokadę trzeba wziąć na nowo.
