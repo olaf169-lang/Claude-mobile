@@ -24,9 +24,22 @@ import { resolve } from 'node:path';
 import { UTWORY } from '../dane/utwory.js';
 import {
   KATEGORIE, DEKADY, idUtworu, dekada, daSieSpytacOFilm, przygotujKatalog,
+  normalizuj, glownyWykonawca,
 } from '../js/katalog.js';
+import { ODRZUCONE } from '../dane/odrzucone.js';
 import { przebuduj, raportPrzebudowy } from './przebuduj-katalog.mjs';
 import { planKoszykow, CEL_DOMYSLNY } from './plan-katalogu.mjs';
+import { kluczUtworu } from './zbierz-kandydatow.mjs';
+
+/** Klucz „ten sam utwór tego samego wykonawcy”, odporny na dopiski w nawiasach. */
+const kluczWpisu = (utwor) =>
+  `${normalizuj(glownyWykonawca(utwor.wykonawca))}--${kluczUtworu(utwor.tytul)}`;
+
+/* Lista odrzuconych porównuje się po PEŁNYM tytule, nie po tytule bez nawiasów.
+   Z kluczem obciętym wpis „Don't Stop Me Now (Queen Forever Revisited)” blokuje
+   też „Don't Stop Me Now” — i tak zniknął z katalogu oryginał z 1978. Wariantów
+   pilnuje bramka na duble, bo przy nich oryginał jest już w katalogu. */
+const kluczOdrzucenia = (utwor) => idUtworu(utwor);
 
 const ROK_MIN = 1958;
 const ROK_MAX = new Date().getFullYear() + 1;
@@ -65,6 +78,15 @@ export function naPrzemianWykonawcami(kandydaci) {
  */
 export function przesiej(kandydaci, { katalog = UTWORY, maks = Infinity, cel = CEL_DOMYSLNY } = {}) {
   const zajete = new Map(katalog.map((u) => [idUtworu(u), u]));
+  // Sam identyfikator nie wystarcza, bo liczy pełny tytuł: „Don't Stop Me Now”
+  // i „Don't Stop Me Now (Revisited)” to dla niego dwa różne utwory, więc
+  // wariant z nawiasu wchodził do katalogu obok oryginału — z rokiem wznowienia,
+  // czyli w złej dekadzie. Drugi klucz, bez nawiasów, zamyka tę drogę.
+  const zajeteBezNawiasow = new Map(katalog.map((u) => [kluczWpisu(u), u]));
+  // Usunięcie wpisu z katalogu nie wystarcza, żeby nie wrócił: następna dosypka
+  // nie widzi już dubla i wpisuje go ponownie. Dlatego odrzucone trzymamy
+  // osobno, na stałe.
+  const nigdy = new Set(ODRZUCONE.map(kluczOdrzucenia));
   // Limity koszyków pilnujemy TUTAJ, a nie przy zbieraniu. Zbieranie dzieli się
   // na pięć równoległych części, z których żadna nie wie, co wzięły pozostałe —
   // każda widzi ten sam niedobór i każda mogłaby go wypełnić w całości. Dopiero
@@ -90,12 +112,17 @@ export function przesiej(kandydaci, { katalog = UTWORY, maks = Infinity, cel = C
     if (utwor.gatunek === 'filmowa' && !daSieSpytacOFilm(utwor)) {
       odrzuc(utwor, 'filmowa bez filmu albo z filmem zdradzonym w tytule i u wykonawcy'); continue;
     }
+    const bezNawiasow = kluczWpisu(utwor);
     const id = idUtworu(utwor);
-    const kolizja = zajete.get(id);
+    if (nigdy.has(id)) {
+      odrzuc(utwor, 'na liście odrzuconych (dane/odrzucone.js)'); continue;
+    }
+    const kolizja = zajete.get(id) || zajeteBezNawiasow.get(bezNawiasow);
     if (kolizja) {
       odrzuc(utwor, `już jest w katalogu jako „${kolizja.gatunek}” (${kolizja.rok})`); continue;
     }
     zajete.set(id, utwor);
+    zajeteBezNawiasow.set(bezNawiasow, utwor);
     przyjete.push(utwor);
   }
   return { przyjete, odrzucone };

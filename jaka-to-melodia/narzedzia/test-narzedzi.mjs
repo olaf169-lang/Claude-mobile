@@ -105,6 +105,11 @@ for (const [surowy, oczekiwany] of [
   ['Layla (Acoustic)', null],
   ['Imagine (Karaoke Version)', null],
   ['Smells Like Teen Spirit (Remix)', null],
+  // Skąd pochodzi wydanie — na ekranie śmieć, a przy muzyce filmowej wykłada
+  // nazwę filmu wprost w tytule.
+  ['If You Leave (From "Pretty In Pink" Soundtrack)', 'If You Leave'],
+  ['Let It Flow (from "Waiting to Exhale" Original Soundtrack)', 'Let It Flow'],
+  ['Loyal Brave True (From "Mulan")', 'Loyal Brave True'],
 ]) {
   assert.equal(wyczyscTytul(surowy), oczekiwany, `wyczyscTytul("${surowy}")`);
 }
@@ -172,6 +177,43 @@ assert.deepEqual(przesiane.przyjete.map((u) => u.tytul), ['Zupełnie Nowy Utwór
 assert.ok(przesiane.odrzucone.some((o) => o.powod.includes('już jest w katalogu')),
   'dubel nie został rozpoznany jako dubel');
 console.log('✓ kandydat będący już w katalogu nie podmienia istniejącego wpisu');
+
+// Wariant tego samego utworu w nawiasie też jest dublem. Identyfikator liczy
+// pełny tytuł, więc sam go nie wyłapie — i tak wszedł kiedyś „Don't Stop Me
+// Now (Revisited)” z 2018 obok oryginału z 1978, czyli w złej dekadzie.
+const zWariantem = przesiej(
+  [{ tytul: "Don't Stop Me Now (Queen Forever Revisited)", wykonawca: 'Queen', rok: 2018, gatunek: 'rock' }],
+  { katalog: [{ tytul: "Don't Stop Me Now", wykonawca: 'Queen', rok: 1978, gatunek: 'rock' }] },
+);
+assert.equal(zWariantem.przyjete.length, 0, 'wariant w nawiasie przeszedł jako nowy utwór');
+console.log('✓ wariant tytułu w nawiasie jest rozpoznawany jako ten sam utwór');
+
+// Lista odrzuconych musi trafiać W TEN JEDEN utwór, a nie w jego oryginał.
+// Przy porównaniu po tytule bez nawiasów wpis „Don't Stop Me Now (Queen Forever
+// Revisited)” blokował też „Don't Stop Me Now” — i oryginał z 1978 wypadł
+// z katalogu. Stąd porównanie po pełnym tytule.
+const oryginal = { tytul: "Don't Stop Me Now", wykonawca: 'Queen', rok: 1978, gatunek: 'rock' };
+assert.equal(przesiej([oryginal], { katalog: [] }).przyjete.length, 1,
+  'oryginał został zablokowany przez wpis o wariancie na liście odrzuconych');
+const zOdrzuconych = przesiej(
+  [{ tytul: 'Let Go', wykonawca: 'Lulu', rok: 2024, gatunek: 'pop' }],
+  { katalog: [] },
+);
+assert.equal(zOdrzuconych.przyjete.length, 0, 'wpis z listy odrzuconych przeszedł');
+assert.ok(zOdrzuconych.odrzucone[0].powod.includes('odrzuconych'));
+console.log('✓ lista odrzuconych blokuje dokładnie swój wpis, nie jego oryginał');
+
+// Płyty świąteczne: sklep stawia je wysoko, a kolędy nadają się do tej gry
+// najgorzej — każdy je zna i każdy je nagrał, więc nie da się zgadnąć wykonawcy.
+const zeSwietami = najwczesniejszeWydania([
+  { tytul: 'Silent Night', wykonawca: 'Lulu', album: 'Christmas Album', podglad: 'p', data: '2017-01-01', dlugoscMs: 180_000 },
+  { tytul: 'Cicha noc', wykonawca: 'Lulu', album: 'Kolędy', podglad: 'p', data: '1994-01-01', dlugoscMs: 180_000 },
+  { tytul: 'To Sir with Love', wykonawca: 'Lulu', album: 'To Sir with Love', podglad: 'p', data: '1967-01-01', dlugoscMs: 180_000 },
+  { tytul: 'Proud Corazon', wykonawca: 'daigoro789', album: 'Coco (Soundtrack)', podglad: 'p', data: '2017-01-01', dlugoscMs: 180_000 },
+], 'Lulu');
+assert.deepEqual(zeSwietami.map((w) => w.tytul), ['To Sir with Love'],
+  `świąteczne albo konto wrzucające cudze piosenki przeszło: ${zeSwietami.map((w) => w.tytul).join(', ')}`);
+console.log('✓ kolędy i konta wrzucające cudze piosenki nie wchodzą do katalogu');
 
 /* --- ścieżki dźwiękowe: kategoria filmowa --- */
 

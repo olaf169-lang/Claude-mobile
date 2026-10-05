@@ -132,17 +132,43 @@ nie przez sesję. Nie próbuj tego obchodzić z sandboksa.
 2. `dane/wykonawcy.js` — ~830 wykonawców w 7 kategoriach gatunkowych,
    z pokryciem wszystkich dekad. **To jest miejsce do rozbudowy**, gdy
    zabraknie utworów: dopisz wykonawców, nie tytuły.
-3. `narzedzia/zbierz-kandydatow.mjs` — pyta iTunes o dorobek każdego
-   wykonawcy. Tytuł, rok i podgląd biorą się ze sklepu, nie z pamięci
-   modelu. Dwa zabezpieczenia na rok: najwcześniejsze wydanie danego
-   tytułu + odsiew lat odstających od mediany wykonawcy (wznowienia).
-4. `narzedzia/wpisz-kandydatow.mjs` — **bramka na duble**. Kandydat, którego
+3. `dane/filmy.js` — ~230 filmów pod kategorię filmową. Jej NIE da się
+   zbierać po wykonawcach: odpowiedzią w pytaniu jest film, więc utwór musi
+   mieć przypisany film. Tryb filmowy pyta o albumy ze ścieżkami i sprawdza
+   rok ze sklepu rokiem filmu (ścieżka wychodzi razem z filmem, więc odstęp
+   większy niż 2 lata = wznowienie albo inny album).
+4. `narzedzia/zbierz-kandydatow.mjs` — pyta iTunes o dorobek każdego
+   wykonawcy (`--tryb wykonawcy`) albo o ścieżki filmowe (`--tryb filmy`,
+   `oba`). Tytuł, rok i podgląd biorą się ze sklepu, nie z pamięci modelu.
+   Dwa zabezpieczenia na rok: najwcześniejsze wydanie danego tytułu + odsiew
+   lat odstających od mediany wykonawcy (wznowienia).
+5. `narzedzia/wpisz-kandydatow.mjs` — **bramka na duble**. Kandydat, którego
    `idUtworu` już jest w katalogu, jest odrzucany z podaniem powodu. Bez tego
    `przebuduj-katalog.mjs` po cichu podmieniłby istniejący wpis nowym
-   (zostaje późniejszy) — tak kiedyś zniknęło „See You Again” z rapu.
-5. Workflow `.github/workflows/katalog-rozbudowa.yml` — tylko z ręki
+   (zostaje późniejszy) — tak kiedyś zniknęło „See You Again” z rapu. Tu też
+   pilnowane są limity koszyków, bo zbieranie dzieli się na 5 części i żadna
+   nie wie, co wzięły pozostałe.
+6. Workflow `.github/workflows/katalog-rozbudowa.yml` — tylko z ręki
    (`workflow_dispatch`), 5 równoległych części, wejście `na_probe: tak`
-   pokazuje wynik bez zapisu.
+   pokazuje wynik bez zapisu, `maks` ogranicza porcję.
+
+**Dwie rzeczy, których NIE WOLNO zepsuć** (jedna już raz zepsuta):
+- **Kolejności nagrań ze sklepu się nie sortuje.** Sklep oddaje je od
+  najpopularniejszych, a w tej grze utwór trzeba ROZPOZNAĆ. Pierwszy
+  przebieg sortował po roku rosnąco i zebrał 345 nieznanych kawałków sprzed
+  popularności artystów („Tom Jones — The Vaults of Heaven”, „Kool & The Gang
+  — Kools Back Again”). Po poprawce ci sami wykonawcy dali „Sexbomb”
+  i „Everybody Hurts”. Test w `test-narzedzi.mjs` tego pilnuje.
+- **Kandydatów przeplata się wykonawcami** (`naPrzemianWykonawcami`), bo
+  koszyki przestają przyjmować po osiągnięciu planu — inaczej koszyk
+  zapełniłoby po osiem kawałków kilku pierwszych wykonawców z listy.
+
+**Jak odczytać wynik przebiegu z tego sandboksa**: logi zadań i artefakty są
+nieosiągalne (host logów i Azure blob odrzucają połączenie). Czytelne są
+**adnotacje**: narzędzia wypisują podsumowanie przez `::notice::`, a odbiera
+się je przez `gh api repos/.../check-runs/<id>/annotations`. Dlatego
+podsumowanie zawiera próbkę utworów z latami — po samej liczbie nie widać,
+czy rok się zgadza.
 
 **Zabezpieczenie przed „niby się pobrało”** (poprzedni Routine raportował
 SUKCES, a w repo nic nie zostawało):
