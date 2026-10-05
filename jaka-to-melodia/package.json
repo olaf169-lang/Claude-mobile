@@ -9,6 +9,8 @@
     "test:przegladarka": "node narzedzia/test-przegladarki.mjs",
     "dane": "node narzedzia/sprawdz-dane.mjs",
     "podglady": "node narzedzia/pobierz-podglady.mjs",
+    "plan": "node narzedzia/plan-katalogu.mjs",
+    "wdrozenie": "node narzedzia/sprawdz-wdrozenie.mjs",
     "ikony": "python3 narzedzia/ikony.py",
     "start": "python3 -m http.server 8080"
   },

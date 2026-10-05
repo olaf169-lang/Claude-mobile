@@ -115,6 +115,56 @@ zapamiętuje id ostatniego pojedynku gracza; ekran startowy pokazuje
 wtedy przycisk „Wróć do Turnieju Piąteczki”. Czyści się, gdy pojedynek
 się kończy (dla nie-`readOnly` widza).
 
+## Rozbudowa katalogu — jak to działa teraz (2026-10-05)
+
+Cel: **~4000 utworów** z zachowaniem dzisiejszych proporcji dekada × kategoria.
+
+**Sandbox NIE MA dostępu do API muzycznych.** iTunes, MusicBrainz i Deezer
+odpowiadają `403 CONNECT` przez proxy — sprawdzone. Ale **CI na GitHubie ma**
+(tak powstaje `podglady.json`), więc pobieranie musi iść przez workflow,
+nie przez sesję. Nie próbuj tego obchodzić z sandboksa.
+
+Łańcuch narzędzi:
+1. `narzedzia/plan-katalogu.mjs` — liczy, ile dołożyć do każdego koszyka
+   dekada × kategoria, żeby dojść do celu nie psując proporcji
+   (`npm run plan`). Kategorie specjalne pokazuje osobno, bo ich się nie
+   da pobrać po wykonawcach.
+2. `dane/wykonawcy.js` — ~830 wykonawców w 7 kategoriach gatunkowych,
+   z pokryciem wszystkich dekad. **To jest miejsce do rozbudowy**, gdy
+   zabraknie utworów: dopisz wykonawców, nie tytuły.
+3. `narzedzia/zbierz-kandydatow.mjs` — pyta iTunes o dorobek każdego
+   wykonawcy. Tytuł, rok i podgląd biorą się ze sklepu, nie z pamięci
+   modelu. Dwa zabezpieczenia na rok: najwcześniejsze wydanie danego
+   tytułu + odsiew lat odstających od mediany wykonawcy (wznowienia).
+4. `narzedzia/wpisz-kandydatow.mjs` — **bramka na duble**. Kandydat, którego
+   `idUtworu` już jest w katalogu, jest odrzucany z podaniem powodu. Bez tego
+   `przebuduj-katalog.mjs` po cichu podmieniłby istniejący wpis nowym
+   (zostaje późniejszy) — tak kiedyś zniknęło „See You Again” z rapu.
+5. Workflow `.github/workflows/katalog-rozbudowa.yml` — tylko z ręki
+   (`workflow_dispatch`), 5 równoległych części, wejście `na_probe: tak`
+   pokazuje wynik bez zapisu.
+
+**Zabezpieczenie przed „niby się pobrało”** (poprzedni Routine raportował
+SUKCES, a w repo nic nie zostawało):
+- workflow kończy się BŁĘDEM, jeśli katalog nie urósł, jeśli plik się nie
+  zmienił, albo jeśli commit nie wszedł na zdalną gałąź — nie ma drogi do
+  zielonego bez faktycznej zmiany w repozytorium;
+- `narzedzia/sprawdz-wdrozenie.mjs` (`npm run wdrozenie`) przechodzi cały
+  łańcuch: zacommitowane → wypchnięte → wmergowane w produkcyjną → ta sama
+  liczba utworów na produkcji. **Odpalaj to zawsze, zanim powiesz
+  użytkownikowi, że coś jest w aplikacji.**
+
+## Pytania filmowe — reguła „bez odpowiedzi w treści" (2026-10-05)
+
+Pytanie filmowe pokazuje tytuł ALBO wykonawcę i każe zgadnąć film. Przy
+utworze „Theme from Jaws” pokazanie tytułu dawało pytanie, które odpowiada
+samo sobie — tak było z 53 wpisami na 155. `zdradzaFilm()` w `js/katalog.js`
+rozstrzyga, czy podpowiedź nie zawiera nazwy filmu; silnik wybiera tylko
+uczciwą podpowiedź, a utwór, w którym zdradzają OBA pola, odpada z puli
+i jest błędem w `sprawdz-dane.mjs`. Reguła celowo bywa nadwrażliwa — koszt
+fałszywego trafienia to pokazanie wykonawcy zamiast tytułu, czyli nic.
+Dotyczy to też utworów pobieranych automatycznie (`wpisz-kandydatow.mjs`).
+
 ## Automatyczny Routine: rozbudowa katalogu — WYŁĄCZONY (2026-09-06)
 
 Był cykliczny Routine (`trig_01EHMdcxLvA2YDSb82DCncZX`, co ~5h) sam

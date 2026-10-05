@@ -1,0 +1,189 @@
+name: Katalog — rozbudowa
+
+# Dociąga nowe utwory do dane/utwory.js prosto ze sklepu iTunes.
+#
+# Dlaczego w CI, a nie „ręcznie w sesji”: wcześniej katalog rozbudowywał
+# cykliczny Routine, który raportował SUKCES, a w repozytorium nie zostawało
+# nic — bo między „znalazłem utwory” a „zacommitowałem” nie było nic, co by
+# tego pilnowało. Tutaj każdy krok jest sprawdzany maszynowo, a zadanie NIE
+# MOŻE zakończyć się powodzeniem, jeśli katalog nie urósł i commit nie wszedł
+# na zdalną gałąź (patrz krok „Potwierdź, że zmiana naprawdę weszła”).
+#
+# Uruchamia się tylko z ręki (workflow_dispatch) — rozbudowa katalogu to
+# decyzja, a nie coś, co ma się dziać samo w tle.
+on:
+  workflow_dispatch:
+    inputs:
+      cel:
+        description: "Docelowa wielkość katalogu"
+        required: false
+        default: "4000"
+      kategorie:
+        description: "Kategorie po przecinku (puste = wszystkie gatunkowe)"
+        required: false
+        default: ""
+      maks:
+        description: "Najwięcej utworów do wpisania w tym przebiegu (puste = bez limitu)"
+        required: false
+        default: ""
+      limit_wykonawcow:
+        description: "Najwięcej wykonawców na część (puste = wszyscy)"
+        required: false
+        default: ""
+      na_probe:
+        description: "Tylko pokazać, co by weszło, bez zapisu (tak/nie)"
+        required: false
+        default: "nie"
+
+permissions:
+  contents: write
+
+concurrency:
+  # Dwa przebiegi naraz dopisałyby te same utwory dwa razy.
+  group: katalog-rozbudowa-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  zbierz:
+    name: Zbieranie — część ${{ matrix.czesc }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      # Sklep przepuszcza około dwudziestu zapytań na minutę z jednego adresu.
+      # Pięć równoległych części to pięć adresów i pięć osobnych limitów.
+      matrix:
+        czesc: [0, 1, 2, 3, 4]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Zbierz kandydatów ze sklepu
+        working-directory: jaka-to-melodia
+        timeout-minutes: 50
+        run: |
+          node narzedzia/zbierz-kandydatow.mjs \
+            --czesc ${{ matrix.czesc }} --z 5 \
+            --cel ${{ github.event.inputs.cel }} \
+            ${{ github.event.inputs.kategorie && format('--kategorie {0}', github.event.inputs.kategorie) || '' }} \
+            ${{ github.event.inputs.limit_wykonawcow && format('--limit {0}', github.event.inputs.limit_wykonawcow) || '' }} \
+            --plik kandydaci-${{ matrix.czesc }}.json
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: kandydaci-${{ matrix.czesc }}
+          path: jaka-to-melodia/kandydaci-${{ matrix.czesc }}.json
+          if-no-files-found: warn
+
+  wpisz:
+    name: Wpisz do katalogu
+    runs-on: ubuntu-latest
+    needs: zbierz
+    # Nawet gdy jedna część polegnie, dorobek reszty ma trafić do katalogu.
+    if: ${{ !cancelled() }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: kandydaci-*
+          merge-multiple: true
+          path: czesci
+
+      - name: Zainstaluj zależności testowe
+        working-directory: jaka-to-melodia
+        run: npm install --no-audit --no-fund
+
+      - name: Policz katalog przed zmianą
+        id: przed
+        working-directory: jaka-to-melodia
+        run: |
+          ILE=$(node -e "import('./dane/utwory.js').then((m) => console.log(m.UTWORY.length))")
+          echo "ile=$ILE" >> "$GITHUB_OUTPUT"
+          echo "Katalog przed: $ILE utworów."
+
+      - name: Wpisz kandydatów
+        working-directory: jaka-to-melodia
+        run: |
+          node narzedzia/wpisz-kandydatow.mjs ../czesci/*.json \
+            ${{ github.event.inputs.maks && format('--maks {0}', github.event.inputs.maks) || '' }} \
+            ${{ github.event.inputs.na_probe == 'tak' && '--na-probe' || '' }}
+
+      # Dopiero teraz testy — katalog jest już zmieniony, więc sprawdzamy to,
+      # co faktycznie wejdzie do repozytorium, a nie stan sprzed zmiany.
+      - name: Kontrola katalogu utworów
+        if: ${{ github.event.inputs.na_probe != 'tak' }}
+        working-directory: jaka-to-melodia
+        run: node narzedzia/sprawdz-dane.mjs
+
+      - name: Silnik gry
+        if: ${{ github.event.inputs.na_probe != 'tak' }}
+        working-directory: jaka-to-melodia
+        run: node narzedzia/test-gry.mjs
+
+      - name: Dobieranie nagrań i zbieranie utworów
+        if: ${{ github.event.inputs.na_probe != 'tak' }}
+        working-directory: jaka-to-melodia
+        run: node narzedzia/test-narzedzi.mjs
+
+      # Tu jest sedno zabezpieczenia. Zadanie ma prawo zakończyć się sukcesem
+      # tylko wtedy, gdy katalog naprawdę urósł, commit powstał i wszedł na
+      # zdalną gałąź. Każde „niby się pobrało” kończy się tutaj błędem.
+      - name: Zapisz w repozytorium
+        if: ${{ github.event.inputs.na_probe != 'tak' }}
+        working-directory: jaka-to-melodia
+        run: |
+          set -euo pipefail
+          PO=$(node -e "import('./dane/utwory.js').then((m) => console.log(m.UTWORY.length))")
+          PRZED=${{ steps.przed.outputs.ile }}
+          echo "Katalog: $PRZED → $PO utworów."
+          if [ "$PO" -le "$PRZED" ]; then
+            echo "::error::Katalog nie urósł ($PRZED → $PO). Zebrane utwory były dublami albo koszyki są pełne — nie ma czego commitować."
+            exit 1
+          fi
+          git config user.name "Jaka to Melodia"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dane/utwory.js
+          if git diff --cached --quiet; then
+            echo "::error::Plik dane/utwory.js się nie zmienił, choć liczba utworów wzrosła. Coś jest nie tak ze zapisem."
+            exit 1
+          fi
+          git commit -m "Katalog: $PRZED → $PO utworów [katalog]"
+          for proba in 1 2 3 4; do
+            if git push; then break; fi
+            echo "Push nieudany, ponawiam za $((2**proba))s"
+            sleep $((2**proba))
+            git pull --rebase
+          done
+
+      - name: Potwierdź, że zmiana naprawdę weszła
+        if: ${{ github.event.inputs.na_probe != 'tak' }}
+        working-directory: jaka-to-melodia
+        run: |
+          set -euo pipefail
+          git fetch origin "${{ github.ref_name }}"
+          LOKALNIE=$(git rev-parse HEAD)
+          ZDALNIE=$(git rev-parse "origin/${{ github.ref_name }}")
+          if [ "$LOKALNIE" != "$ZDALNIE" ]; then
+            echo "::error::Commit nie wszedł na origin/${{ github.ref_name }} (lokalnie $LOKALNIE, zdalnie $ZDALNIE)."
+            exit 1
+          fi
+          ILE=$(git show "origin/${{ github.ref_name }}:jaka-to-melodia/dane/utwory.js" | grep -c "tytul:")
+          echo "Na gałęzi ${{ github.ref_name }} jest $ILE utworów. ✓"
+          {
+            echo ""
+            echo "## Zmiana weszła do repozytorium"
+            echo ""
+            echo "Gałąź \`${{ github.ref_name }}\`, commit \`$ZDALNIE\`, utworów w katalogu: **$ILE**."
+            echo ""
+            echo "Żeby trafiło do aplikacji, trzeba jeszcze zmergować tę gałąź do gałęzi produkcyjnej."
+          } >> "$GITHUB_STEP_SUMMARY"
