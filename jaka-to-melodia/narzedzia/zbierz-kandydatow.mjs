@@ -65,9 +65,20 @@ const spij = (ms) => (ms > 0 ? new Promise((r) => setTimeout(r, ms)) : Promise.r
    lepiej odpuścić cały wpis, niż zgadywać — bo „Live” w tytule może być
    częścią nazwy, a może znaczyć, że to koncertówka. */
 
-const DO_ODCIECIA = /\s*[([](?:[^()[\]]*\b(?:remaster(?:ed)?|single version|album version|radio edit|mono|stereo|re-?recorded|bonus track|deluxe|expanded|anniversary|edit)\b[^()[\]]*)[)\]]\s*/gi;
+const DO_ODCIECIA = /\s*[([](?:[^()[\]]*\b(?:remaster(?:ed)?|single version|album version|radio edit|mono|stereo|re-?recorded|bonus track|deluxe|expanded|anniversary|edit(?:ed)?)\b[^()[\]]*)[)\]]\s*/gi;
 const PO_PAUZIE = /\s+-\s+(?:.*\b(?:remaster(?:ed)?|single version|album version|radio edit|mono|stereo|bonus track|deluxe|edit)\b.*)$/i;
-const FEAT_W_TYTULE = /\s*[([]\s*(?:feat|ft|with)\.?\s[^()[\]]*[)\]]\s*/gi;
+/* Tylko „feat.” i „ft.” — jednoznaczne. Samego „with” tu NIE MA, bo „(with My
+   Heart)” w „Quit Playing Games (with My Heart)” to część prawdziwego tytułu,
+   a nie dopisek o gościu. */
+const FEAT_W_TYTULE = /\s*[([]\s*(?:feat|ft)\.?\s[^()[\]]*[)\]]\s*/gi;
+/* Skąd pochodzi wydanie: „(From »Pretty In Pink« Soundtrack)”, „(From »Coco«)”,
+   „(from Waiting to Exhale - Original Soundtrack)”. Na ekranie to śmieć, a przy
+   muzyce filmowej dodatkowo wykłada nazwę filmu wprost w tytule. */
+const SKAD_WYDANIE = /\s*[([][^()[\]]*\bfrom\b[^()[\]]*[)\]]\s*/gi;
+/* Płyty świąteczne. Sklep stawia je wysoko (sezonowa popularność), a do tej gry
+   nadają się najgorzej: kolędę zna każdy, tylko nikt nie zgadnie, KTO ją
+   śpiewa, bo nagrał ją każdy. */
+const SWIATECZNE = /\b(?:christmas|xmas|santa|noel|jingle bells?|silent night|cicha noc|kol[ęe]d|wigilij|miko[łl]aj|m[ęe]drcy|auld lang syne)\b/i;
 /* Nagranie inne niż studyjny oryginał. Słowo musi stać w DOPISKU — po pauzie
    albo w nawiasie — bo w samym tytule bywa zupełnie niewinne: „Live and Let
    Die” to piosenka Wingsów, a nie koncertówka. */
@@ -80,6 +91,7 @@ export function wyczyscTytul(surowy) {
   if (NIE_ORYGINAL_W_DOPISKU.test(surowyTekst)) return null;
   const tytul = surowyTekst
     .replace(DO_ODCIECIA, ' ')
+    .replace(SKAD_WYDANIE, ' ')
     .replace(FEAT_W_TYTULE, ' ')
     .replace(PO_PAUZIE, '')
     .replace(/\s{2,}/g, ' ')
@@ -108,6 +120,11 @@ export function nadajeSie(nagranie, wykonawca) {
   if (!nagranie.podglad) return false;
   const dlugosc = Number(nagranie.dlugoscMs) || 0;
   if (dlugosc < MIN_DLUGOSC_MS || dlugosc > MAKS_DLUGOSC_MS) return false;
+  if (SWIATECZNE.test(`${nagranie.tytul} ${nagranie.album || ''}`)) return false;
+  // „daigoro789” i podobne to konta wrzucające cudze piosenki, nie wykonawcy.
+  // Prawdziwe nazwy z cyframi („2 Chainz”, „Eiffel 65”, „blink-182”) mają je
+  // oddzielone albo na początku, więc ten wzór ich nie rusza.
+  if (/^[a-z]+\d{3,}$/i.test(String(nagranie.wykonawca || '').trim())) return false;
 
   const opis = `${normalizuj(nagranie.tytul)} ${normalizuj(nagranie.album || '')}`;
   if (PODEJRZANE.some((slowo) => zawiera(opis, slowo))) return false;
@@ -266,6 +283,8 @@ export function utworyZeSciezki(nagrania, film, { maksNaFilm = 3 } = {}) {
     const dlugosc = Number(nagranie.dlugoscMs) || 0;
     if (dlugosc < MIN_DLUGOSC_MS || dlugosc > MAKS_DLUGOSC_MS) continue;
     if (!toSciezkaZFilmu(nagranie.album, film.nazwa)) continue;
+    if (SWIATECZNE.test(`${nagranie.tytul} ${nagranie.album || ''}`)) continue;
+    if (/^[a-z]+\d{3,}$/i.test(String(nagranie.wykonawca || '').trim())) continue;
     const opis = `${normalizuj(nagranie.tytul)} ${normalizuj(nagranie.album || '')}`;
     if (PODEJRZANE.some((slowo) => zawiera(opis, slowo))) continue;
     const tytul = wyczyscTytul(nagranie.tytul);
