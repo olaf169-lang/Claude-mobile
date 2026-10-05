@@ -64,12 +64,18 @@ jobs:
         with:
           node-version: "22"
 
+      # Budżet skryptu (40 min) jest krótszy od limitu zadania (50 min), żeby
+      # skrypt kończył się sam: zapisuje, co zebrał, mówi, ilu wykonawców nie
+      # zdążył przejrzeć, i wychodzi zielono. Inaczej przy dłuższej liście
+      # wykonawców limit zabija go w trakcie i przebieg sypie powiadomieniami
+      # o awarii, choć zbieranie szło prawidłowo (tak było z pobieraniem nagrań).
       - name: Zbierz kandydatów ze sklepu
         working-directory: jaka-to-melodia
         timeout-minutes: 50
         run: |
           node narzedzia/zbierz-kandydatow.mjs \
             --czesc ${{ matrix.czesc }} --z 5 \
+            --budzet-minut 40 \
             --cel ${{ github.event.inputs.cel }} \
             --tryb ${{ github.event.inputs.tryb || 'oba' }} \
             ${{ github.event.inputs.kategorie && format('--kategorie {0}', github.event.inputs.kategorie) || '' }} \
