@@ -56,6 +56,13 @@ const MAKS_DLUGOSC_MS = 600_000;
 // Odstęp od mediany lat wykonawcy, po którym uznajemy wydanie za wznowienie.
 const MAKS_ODSTAJACE_LATA = 15;
 const ROK_MIN = 1958;
+/* Budżet czasu. Zadanie w CI ma twardy limit minut, a sklep przepuszcza
+   kilkanaście zapytań na minutę, więc przy długiej liście wykonawców część
+   nie zdąży przejść swojego wycinka i limit ją ZABIJA. Dorobek zostaje (każda
+   część zapisuje swój plik), ale zadanie wychodzi na czerwono i sypie
+   powiadomieniami o awarii, choć wszystko działa. Dlatego skrypt pilnuje czasu
+   sam: kończy spokojnie przed limitem i mówi, ilu wykonawców nie zdążył. */
+const BUDZET_DOMYSLNY_MS = Infinity;
 
 const spij = (ms) => (ms > 0 ? new Promise((r) => setTimeout(r, ms)) : Promise.resolve());
 
@@ -327,6 +334,7 @@ export async function zbierzFilmowe({
   czesc = null,
   zIlu = 1,
   odstepMs = ODSTEP_ITUNES_MS,
+  budzetMs = BUDZET_DOMYSLNY_MS,
   pobierz = sciezkaFilmu,
   log = console.log,
 } = {}) {
@@ -350,7 +358,15 @@ export async function zbierzFilmowe({
 
   log(`Filmów do przejścia: ${mojeFilmy.length} z ${filmy.length}.`);
 
+  const koniecBudzetu = Date.now() + budzetMs;
+  let niedokonczone = 0;
+
   for (const [nr, film] of mojeFilmy.entries()) {
+    if (Date.now() >= koniecBudzetu) {
+      niedokonczone = mojeFilmy.length - nr;
+      log(`  (budżet czasu wyczerpany, zostaje ${niedokonczone} filmów na następny przebieg)`);
+      break;
+    }
     const nagrania = await pobierz(film.nazwa, 'US', bramka, log);
     const kandydaci = utworyZeSciezki(nagrania, film, { maksNaFilm });
     const zTegoFilmu = [];
@@ -372,7 +388,7 @@ export async function zbierzFilmowe({
     log(`  [${nr + 1}/${mojeFilmy.length}] ${film.nazwa} (${film.rok}): ${zTegoFilmu.length} utworów`);
   }
 
-  return { przyjete, wykonawcy: raport, plan };
+  return { przyjete, wykonawcy: raport, plan, niedokonczone };
 }
 
 /* --- zbieranie --- */
@@ -386,6 +402,7 @@ export async function zbierzKandydatow({
   czesc = null,
   zIlu = 1,
   odstepMs = ODSTEP_ITUNES_MS,
+  budzetMs = BUDZET_DOMYSLNY_MS,
   pobierz = dorobekWykonawcy,
   log = console.log,
 } = {}) {
@@ -430,7 +447,15 @@ export async function zbierzKandydatow({
   log(`Plan: ${plan.teraz} → ${plan.cel}. Do dołożenia ${plan.brakZwykle} w kategoriach gatunkowych.`);
   log(`Wykonawców do przejścia: ${mojeZadania.length} z ${zadania.length}.`);
 
+  const koniecBudzetu = Date.now() + budzetMs;
+  let niedokonczone = 0;
+
   for (const [nr, zadanie] of mojeZadania.entries()) {
+    if (Date.now() >= koniecBudzetu) {
+      niedokonczone = mojeZadania.length - nr;
+      log(`  (budżet czasu wyczerpany, zostaje ${niedokonczone} wykonawców na następny przebieg)`);
+      break;
+    }
     const kraj = zadanie.kategoria === 'polskie' ? 'PL' : 'US';
     const nagrania = await pobierz(zadanie.nazwa, kraj, bramka, log);
     // KOLEJNOŚCI ZE SKLEPU NIE WOLNO RUSZAĆ. Sklep oddaje nagrania od
@@ -480,7 +505,7 @@ export async function zbierzKandydatow({
       + `${zTegoWykonawcy.length} z ${wydania.length} dostępnych${lata.length ? `, lata ${wykonawcyRaport.at(-1).lata}` : ''}`);
   }
 
-  return { przyjete, wykonawcy: wykonawcyRaport, plan };
+  return { przyjete, wykonawcy: wykonawcyRaport, plan, niedokonczone };
 }
 
 /**
@@ -488,7 +513,7 @@ export async function zbierzKandydatow({
  * tu celowo: po samej liczbie nie widać, czy lata się zgadzają, a to jedyna
  * rzecz, której maszyna za nas nie sprawdzi.
  */
-export function podsumowanieJednymZdaniem({ przyjete, wykonawcy }) {
+export function podsumowanieJednymZdaniem({ przyjete, wykonawcy, niedokonczone = 0 }) {
   const wgKategorii = new Map();
   const wgDekady = new Map();
   for (const u of przyjete) {
@@ -506,6 +531,7 @@ export function podsumowanieJednymZdaniem({ przyjete, wykonawcy }) {
     `(sklep nie znał ${bezNiczego}).`,
     `Kategorie: ${[...wgKategorii].map(([k, n]) => `${k} ${n}`).join(', ') || '·'}.`,
     `Dekady: ${[...wgDekady].sort((a, b) => a[0] - b[0]).map(([d, n]) => `${d} ${n}`).join(', ') || '·'}.`,
+    niedokonczone ? `Budżet czasu się skończył, nieprzejrzanych zostaje ${niedokonczone}.` : '',
     probka ? `Próbka: ${probka}` : '',
   ].join(' ');
 }
@@ -572,26 +598,39 @@ if (process.argv[1] && import.meta.url === `file://${resolve(process.argv[1])}`)
     zIlu: liczba('--z', 1),
     odstepMs: liczba('--odstep', ODSTEP_ITUNES_MS),
   };
+  // Budżet jest WSPÓLNY dla obu trybów, bo wspólny jest limit czasu zadania.
+  // Liczymy więc jeden termin, a filmy dostają tyle, ile zostanie po
+  // wykonawcach. Bez tego „oba” zużyłoby budżet dwa razy i wpadło w limit.
+  const budzetMinut = liczba('--budzet-minut', Infinity);
+  const termin = Date.now() + budzetMinut * 60_000;
+  const ileZostalo = () => termin - Date.now();
+
   // „wykonawcy” zbiera kategorie gatunkowe, „filmy” kategorię filmową (tam
   // utwór musi mieć przypisany film), „oba” jedno po drugim.
   const tryb = wartosc('--tryb', 'wykonawcy');
-  const wynik = { przyjete: [], wykonawcy: [] };
+  const wynik = { przyjete: [], wykonawcy: [], niedokonczone: 0 };
   if (tryb === 'wykonawcy' || tryb === 'oba') {
     const zWykonawcow = await zbierzKandydatow({
       ...wspolne,
+      // Przy „oba” zostawiamy filmom trzecią część budżetu: wykonawców jest
+      // kilkukrotnie więcej, ale kategoria filmowa też ma się czym napełniać.
+      budzetMs: tryb === 'oba' ? ileZostalo() * 0.67 : ileZostalo(),
       kategorie: kategorieArg ? kategorieArg.split(',') : KATEGORIE_ZBIERANE,
       maksNaWykonawce: liczba('--maks-na-wykonawce', MAKS_NA_WYKONAWCE),
       limitWykonawcow: liczba('--limit', Infinity),
     });
+    wynik.niedokonczone += zWykonawcow.niedokonczone || 0;
     wynik.przyjete.push(...zWykonawcow.przyjete);
     wynik.wykonawcy.push(...zWykonawcow.wykonawcy);
   }
   if (tryb === 'filmy' || tryb === 'oba') {
     const zeSciezek = await zbierzFilmowe({
       ...wspolne,
+      budzetMs: ileZostalo(),
       maksNaFilm: liczba('--maks-na-film', 3),
       limitFilmow: liczba('--limit', Infinity),
     });
+    wynik.niedokonczone += zeSciezek.niedokonczone || 0;
     wynik.przyjete.push(...zeSciezek.przyjete);
     wynik.wykonawcy.push(...zeSciezek.wykonawcy);
   }

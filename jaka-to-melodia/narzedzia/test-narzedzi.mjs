@@ -13,6 +13,7 @@ import { uzupelnijPodglady, raportTekstowy } from './pobierz-podglady.mjs';
 import { scal } from './scal-podglady.mjs';
 import {
   wyczyscTytul, najwczesniejszeWydania, bezWznowien, toSciezkaZFilmu, utworyZeSciezki,
+  zbierzKandydatow,
 } from './zbierz-kandydatow.mjs';
 import { przesiej } from './wpisz-kandydatow.mjs';
 
@@ -161,6 +162,20 @@ assert.deepEqual(
   'kolejność ze sklepu (od najpopularniejszych) nie może się zmienić',
 );
 console.log('✓ kolejność ze sklepu przeżywa przesiewanie, bierzemy przeboje, nie deep cuty');
+
+// Budżet czasu w zbieraniu, z tego samego powodu co w pobieraniu nagrań:
+// limit zadania w CI nie ma zabijać skryptu w trakcie.
+const zebraneZBudzetem = await zbierzKandydatow({
+  katalog: przygotujKatalog([{ tytul: 'X', wykonawca: 'Y', rok: 1985, gatunek: 'rock' }]),
+  kategorie: ['rock'],
+  budzetMs: 0,
+  odstepMs: 0,
+  pobierz: async () => { throw new Error('przy zerowym budżecie sklep nie powinien być pytany'); },
+  log: () => {},
+});
+assert.equal(zebraneZBudzetem.przyjete.length, 0);
+assert.ok(zebraneZBudzetem.niedokonczone > 0, 'powinien zgłosić, ilu wykonawców nie przejrzał');
+console.log('✓ budżet czasu przerywa zbieranie, zanim limit zadania je zabije');
 
 // Wykonawca z lat 60., któremu jeden kawałek wyszedł z 2015, ma w sklepie
 // wznowienie, a nie nagrał nic nowego po pięćdziesięciu latach.
