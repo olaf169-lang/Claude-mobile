@@ -265,8 +265,14 @@ export async function zbierzKandydatow({
   for (const [nr, zadanie] of mojeZadania.entries()) {
     const kraj = zadanie.kategoria === 'polskie' ? 'PL' : 'US';
     const nagrania = await pobierz(zadanie.nazwa, kraj, bramka, log);
-    const wydania = bezWznowien(najwczesniejszeWydania(nagrania, zadanie.nazwa))
-      .sort((a, b) => a.rok - b.rok);
+    // KOLEJNOŚCI ZE SKLEPU NIE WOLNO RUSZAĆ. Sklep oddaje nagrania od
+    // najpopularniejszych, a w tej grze trzeba utwór ROZPOZNAĆ — nieznany
+    // kawałek z trzeciej płyty jest bezużyteczny, choćby rok był idealny.
+    // Pierwszy przebieg sortował te wydania po roku rosnąco i brał osiem
+    // najstarszych, czyli systematycznie nagrania sprzed popularności artysty:
+    // Tomowi Jonesowi wyszło „The Vaults of Heaven”, a Kool & The Gang
+    // „Kools Back Again”. Bierzemy więc po kolei to, co sklep podaje najwyżej.
+    const wydania = bezWznowien(najwczesniejszeWydania(nagrania, zadanie.nazwa));
 
     const zTegoWykonawcy = [];
     for (const wydanie of wydania) {

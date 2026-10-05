@@ -128,6 +128,22 @@ assert.deepEqual(
 );
 console.log('✓ z kilku wydań utworu zostaje jedno, z rokiem premiery');
 
+// Sklep oddaje nagrania od najpopularniejszych i ta kolejność musi przeżyć
+// przesiewanie: w tej grze utwór trzeba ROZPOZNAĆ, więc bierzemy z góry listy.
+// Gdyby kolejność się gubiła (albo gdyby ktoś posortował wynik po roku), do
+// katalogu trafiałyby nagrania sprzed popularności artysty.
+const wKolejnosciSklepu = [
+  { tytul: 'Wielki Przebój', wykonawca: 'Ktoś', album: 'Hity', podglad: 'p', data: '1975-01-01', dlugoscMs: 200_000 },
+  { tytul: 'Mniejszy Przebój', wykonawca: 'Ktoś', album: 'Hity', podglad: 'p', data: '1972-01-01', dlugoscMs: 200_000 },
+  { tytul: 'Zupełnie Nieznany Kawałek', wykonawca: 'Ktoś', album: 'Debiut', podglad: 'p', data: '1969-01-01', dlugoscMs: 200_000 },
+];
+assert.deepEqual(
+  najwczesniejszeWydania(wKolejnosciSklepu, 'Ktoś').map((w) => w.tytul),
+  ['Wielki Przebój', 'Mniejszy Przebój', 'Zupełnie Nieznany Kawałek'],
+  'kolejność ze sklepu (od najpopularniejszych) nie może się zmienić',
+);
+console.log('✓ kolejność ze sklepu przeżywa przesiewanie — bierzemy przeboje, nie deep cuty');
+
 // Wykonawca z lat 60., któremu jeden kawałek wyszedł z 2015, ma w sklepie
 // wznowienie — a nie nagrał nic nowego po pięćdziesięciu latach.
 assert.deepEqual(
