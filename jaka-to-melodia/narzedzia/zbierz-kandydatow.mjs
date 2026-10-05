@@ -308,6 +308,33 @@ export async function zbierzKandydatow({
   return { przyjete, wykonawcy: wykonawcyRaport, plan };
 }
 
+/**
+ * Najważniejsze liczby w jednej linijce, razem z próbką utworów. Próbka jest
+ * tu celowo: po samej liczbie nie widać, czy lata się zgadzają, a to jedyna
+ * rzecz, której maszyna za nas nie sprawdzi.
+ */
+export function podsumowanieJednymZdaniem({ przyjete, wykonawcy }) {
+  const wgKategorii = new Map();
+  const wgDekady = new Map();
+  for (const u of przyjete) {
+    wgKategorii.set(u.gatunek, (wgKategorii.get(u.gatunek) || 0) + 1);
+    wgDekady.set(dekada(u), (wgDekady.get(dekada(u)) || 0) + 1);
+  }
+  const bezNiczego = wykonawcy.filter((w) => w.wSklepie === 0).length;
+  const probka = przyjete
+    .filter((_, i) => i % Math.max(1, Math.floor(przyjete.length / 8)) === 0)
+    .slice(0, 8)
+    .map((u) => `${u.rok} ${u.wykonawca} — ${u.tytul}`)
+    .join(' // ');
+  return [
+    `${przyjete.length} utworów z ${wykonawcy.length} wykonawców`,
+    `(sklep nie znał ${bezNiczego}).`,
+    `Kategorie: ${[...wgKategorii].map(([k, n]) => `${k} ${n}`).join(', ') || '—'}.`,
+    `Dekady: ${[...wgDekady].sort((a, b) => a[0] - b[0]).map(([d, n]) => `${d} ${n}`).join(', ') || '—'}.`,
+    probka ? `Próbka: ${probka}` : '',
+  ].join(' ');
+}
+
 export function raportZbierania({ przyjete, wykonawcy }) {
   const wgKategorii = new Map();
   const wgDekady = new Map();
@@ -387,4 +414,8 @@ if (process.argv[1] && import.meta.url === `file://${resolve(process.argv[1])}`)
   console.log(tekst);
   console.log(`Zapisano ${wynik.przyjete.length} utworów do ${plik}`);
   if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, tekst);
+  // Adnotacja, bo logi i artefakty przebiegu bywają nieosiągalne z zewnątrz
+  // (blokada sieci), a adnotacje da się odczytać przez API. To jedyny pewny
+  // kanał, którym wynik przebiegu wraca do człowieka.
+  if (process.env.GITHUB_ACTIONS) console.log(`::notice title=Zebrane::${podsumowanieJednymZdaniem(wynik)}`);
 }

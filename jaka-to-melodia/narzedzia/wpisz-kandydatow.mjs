@@ -22,8 +22,11 @@ import { readFileSync, appendFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 import { UTWORY } from '../dane/utwory.js';
-import { KATEGORIE, DEKADY, idUtworu, dekada, daSieSpytacOFilm } from '../js/katalog.js';
+import {
+  KATEGORIE, DEKADY, idUtworu, dekada, daSieSpytacOFilm, przygotujKatalog,
+} from '../js/katalog.js';
 import { przebuduj, raportPrzebudowy } from './przebuduj-katalog.mjs';
+import { planKoszykow, CEL_DOMYSLNY } from './plan-katalogu.mjs';
 
 const ROK_MIN = 1958;
 const ROK_MAX = new Date().getFullYear() + 1;
@@ -34,8 +37,16 @@ const DOZWOLONE_DEKADY = new Set(DEKADY.map((d) => d.id));
  * Przesiewa kandydatów. Zwraca to, co wolno wpisać, i powód odrzucenia dla
  * reszty — nic nie wchodzi do katalogu „na wiarę”.
  */
-export function przesiej(kandydaci, { katalog = UTWORY, maks = Infinity } = {}) {
+export function przesiej(kandydaci, { katalog = UTWORY, maks = Infinity, cel = CEL_DOMYSLNY } = {}) {
   const zajete = new Map(katalog.map((u) => [idUtworu(u), u]));
+  // Limity koszyków pilnujemy TUTAJ, a nie przy zbieraniu. Zbieranie dzieli się
+  // na pięć równoległych części, z których żadna nie wie, co wzięły pozostałe —
+  // każda widzi ten sam niedobór i każda mogłaby go wypełnić w całości. Dopiero
+  // tu widać wszystkie części razem, więc dopiero tu da się dopilnować, żeby
+  // proporcje katalogu zostały takie, jakie mają być.
+  const plan = planKoszykow(przygotujKatalog(katalog), { cel });
+  const miejsce = new Map(plan.koszyki.map((k) => [`${k.dekada}/${k.kategoria}`, k.brak]));
+
   const przyjete = [];
   const odrzucone = [];
   const odrzuc = (utwor, powod) => odrzucone.push({ utwor, powod });
@@ -119,6 +130,14 @@ if (process.argv[1] && import.meta.url === `file://${resolve(process.argv[1])}`)
   }
 
   if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, tekst);
+  if (process.env.GITHUB_ACTIONS) {
+    const powody = new Map();
+    for (const { powod } of wynik.odrzucone) powody.set(powod, (powody.get(powod) || 0) + 1);
+    const najczestsze = [...powody].sort((a, b) => b[1] - a[1]).slice(0, 4)
+      .map(([p, n]) => `${p}: ${n}`).join('; ');
+    console.log(`::notice title=Wpisane::przyjęte ${wynik.przyjete.length}, `
+      + `odrzucone ${wynik.odrzucone.length} z ${kandydaci.length} kandydatów. ${najczestsze}`);
+  }
   // Zero przyjętych przy niepustym wejściu to sygnał, że coś jest nie tak —
   // workflow ma to pokazać jako problem, a nie „zrobione”.
   if (kandydaci.length && !wynik.przyjete.length && !naProbe) process.exit(2);
