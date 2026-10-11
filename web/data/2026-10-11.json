@@ -1,0 +1,1938 @@
+{
+ "wersja": "1.0.0",
+ "wydanie": "2026-10-11",
+ "dotyczy_dnia": "2026-10-10",
+ "wygenerowano": "2026-10-11T12:00:32+00:00",
+ "strefa": "Europe/Warsaw",
+ "tryb": "ekstrakcyjny",
+ "demo": false,
+ "pozycje": [
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Premier zwołuje odprawę ws. przemocy w szkołach i dezinformacji",
+   "lead": "Premier Donald Tusk zwołał odprawę na niedzielę, na godzinę 8:30. Oprócz szefa rządu obecni będą szefowie resortów: edukacji, spraw wewnętrznych i administracji, zdrowia, cyfryzacji oraz koordynator służb specjalnych .",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-10T20:23:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/fakty/polska/news-premier-zwoluje-odprawe-ws-przemocy-w-szkolach-i-dezinformac,nIdn,1021336",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/2f/1a/premier-donald-tusk-fot-636x421-2f1a0553.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "W odprawie wezmą udział również przedstawiciele służb – przekazał Adam Szłapka.",
+      "Odprawa ma związek z aktami przemocy w szkołach i falą dezinformacji.",
+      "W ostatnich dniach na Mazowszu mieliśmy do czynienia z serią niebezpiecznych incydentów z udziałem bardzo młodych osób.",
+      "Ze względu na te zdarzenia w piątek mazowieckie szkoły i przedszkola zostały objęte dodatkowym monitoringiem przez policję wspieraną przez straże miejskie.",
+      "W sobotę rano policja poinformowała na portalu X, że na terenie całej Polski trwają działania, które mają na celu zapewnienie bezpieczeństwa dzieciom, młodzieży oraz wszystkim pracownikom placówek oświatowych.",
+      "Do godziny 6 rano odnotowano 231 zdarzeń, w których funkcjonariusze realizują czynności w związku z uzasadnionym podejrzeniem popełnienia czynu zabronionego.",
+      "Dotychczas skontrolowanych zostało blisko 50 tys. placówek i zatrzymano 76 osób.",
+      "Iwona Kijowska z Zespołu Prasowego Komendy Głównej Policji poinformowała w sobotę w rozmowie z PAP, że patrole policji wrócą w poniedziałek do szkół i będą tam obecne do odwołania ."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Dorota Gawryluk w programie \"Kalejdoskop wydarzeń\" w Polsat News skrytykowała premiera Donalda Tuska za rozpowszechnianie plotek o \"challengu\" w związku z ostatnimi atakami w szkołach.",
+      "W środę 19-latek ranił nożem dziewięć osób w szkole w Ostrołęce.",
+      "Z kolej dzień później w miejscowości Leszczydół-Nowiny (woj. mazowieckie) 15-latek zabił szkolną woźną, a następnie ranił jedną z nauczycielek i dyrektora placówki.",
+      "W związku z atakami w internecie pojawiły się plotki o rzekomym \"challengu\" , w ramach którego młodzież miała zmawiać się w internecie do ataków na szkoły.",
+      "8.30 odprawę z udziałem szefów kilku resortów oraz koordynatora służb specjalnych."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "30",
+    "231",
+    "50 tys.",
+    "76",
+    "19",
+    "15"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Fakty",
+     "ujęcie": "Pochwaliła natomiast minister edukacji Barbarę Nowacką za jej komunikat w sprawie do nauczycieli.",
+     "url": "https://wydarzenia.interia.pl/kraj/news-ataki-w-szkolach-gawryluk-premier-rozpowszechnial-plotki,nId,23556327"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Zespołu Prasowego Komendy Głównej Policji",
+    "Premier Donald Tusk",
+    "Adam Szłapka",
+    "Mazowszu"
+   ],
+   "emotki": [
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Premier zwołuje odprawę ws. przemocy w szkołach i dezinformacji",
+     "url": "https://www.rmf24.pl/fakty/polska/news-premier-zwoluje-odprawe-ws-przemocy-w-szkolach-i-dezinformac,nIdn,1021336"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Ataki w szkołach. Gawryluk: Premier rozpowszechniał plotki",
+     "url": "https://wydarzenia.interia.pl/kraj/news-ataki-w-szkolach-gawryluk-premier-rozpowszechnial-plotki,nId,23556327"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Ataki w szkołach. Tusk zwołuje pilną odprawę",
+     "url": "https://wydarzenia.interia.pl/kraj/news-ataki-w-szkolach-tusk-zwoluje-pilna-odprawe,nId,23556441"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.407,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.45,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.505,
+     "treściwość": 0.352,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Rosyjski ślad w atakach na szkoły? Siemoniak zabrał głos",
+   "lead": "Pytany w sobotę w Stalowej Woli na Podkarpaciu o ewentualne tło zagraniczne fali fałszywych alarmów i dezinformacji skierowanej do placówek oświatowych, Siemoniak zaznaczył, że służby sprawdzają wszystkie hipotezy. Trzeba dużej pracy operacyjnej, policji, służb, NASK-u, żeby różne kwestie powyjaśniać.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-10T13:23:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/fakty/polska/news-rosyjski-slad-w-atakach-na-szkoly-siemoniak-zabral-glos,nIdn,1021308",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/fc/8a/minister-koordynator-sluzb-specjalnych-tomasz-siemoniak-fot-636x421-fc8a7434.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Natomiast na pewno jest tak we wszystkich sprawach (...) które wstrząsają polską opinią publiczną, że Rosja, ich zdolności internetowe dolewają oliwy do ognia – wskazał minister.",
+      "Szef służb wyjaśnił, że celem działań dezinformacyjnych strony rosyjskiej jest podważanie zaufania do organów państwa.",
+      "Próbują zawsze pokazywać Polskę jako państwo niestabilne, jako państwo, którego władze są słabe, którego wojsko i służby są słabe.",
+      "Zatem można się domyślać, że tu też palce mogły być maczane, ale najpierw dowody, konkrety, a potem będziemy kogokolwiek oskarżać – zastrzegł Siemoniak.",
+      "Minister wysoko ocenił również decyzję szefa rządu o skierowaniu patroli policyjnych do placówek oświatowych.",
+      "Doskonała decyzja premiera o tym, żeby policja była w każdej szkole (...) na dzieciach zrobiło to ogromne wrażenie.",
+      "To znaczy takiego zaangażowania państwa, pewności, bezpieczeństwa, tego, że policjant w mundurze jest po to, żeby właśnie dzieci się czuły bezpiecznie – powiedział.",
+      "Zapowiedział przy tym kontynuację działań profilaktycznych i edukacyjnych, przypominając o prowadzonej przez ABW i NASK akcji „Nie bój się netu”.",
+      "W piątek 24 tys. policjantów wspieranych przez straże miejskie monitorowało szkoły i ich otoczenie."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Policja, służby specjalne i NASK analizują zgłoszenia dotyczące zagrożeń w placówkach edukacyjnych oraz możliwe działania dezinformacyjne - zapewnił Tomasz Siemoniak.",
+      "W sobotę w Stalowej Woli Tomasz Siemoniak, minister koordynator służb specjalnych odniósł się do niepokojących informacji, pojawiających się w związku z serią ataków w polskich szkołach.",
+      "Jak wyjaśnił Siemoniak, ustalenie okoliczności poszczególnych zdarzeń wymaga współpracy kilku instytucji i szczegółowego sprawdzania różnych tropów. - Badamy wszystkie wątki."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "24 tys.",
+    "50 tys.",
+    "76",
+    "15",
+    "37",
+    "19"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Fakty",
+     "ujęcie": "Minister koordynator służb specjalnych zaznaczył, że badane są wszystkie hipotezy, w tym ewentualne zaangażowanie Rosji.",
+     "url": "https://wydarzenia.interia.pl/kraj/news-siemoniak-o-falszywych-alarmach-w-szkolach-badaja-rosyjski-t,nId,23556419"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Siemoniak",
+    "Zespole Szkół Zawodowych",
+    "Leszczydole-Nowinach",
+    "Stalowej Woli"
+   ],
+   "emotki": [
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Rosyjski ślad w atakach na szkoły? Siemoniak zabrał głos",
+     "url": "https://www.rmf24.pl/fakty/polska/news-rosyjski-slad-w-atakach-na-szkoly-siemoniak-zabral-glos,nIdn,1021308"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Siemoniak o fałszywych alarmach w szkołach. Badają rosyjski trop",
+     "url": "https://wydarzenia.interia.pl/kraj/news-siemoniak-o-falszywych-alarmach-w-szkolach-badaja-rosyjski-t,nId,23556419"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.006,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.3,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.456,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Trump uderza w Zełenskiego: Czas, by Ukraina wybrała nowego prezydenta",
+   "lead": "Dzień po tym, jak Trump ogłosił porozumienie z Władimirem Putinem w kwestii dostarczenia przez Rosję oleju napędowego na rynek światowy, amerykański przywódca publicznie skrytykował prezydenta Ukrainy, Wołodymyra Zełenskiego. Powiedzieliśmy mu: możecie robić z Rosją, co chcecie.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-10T17:33:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-trump-uderza-w-zelenskiego-czas-by-ukraina-wybrala-nowego-pr,nIdn,1021328",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/39/1a/donald-trump-i-wolodymyr-zelenski-fot-636x421-391aa2d5.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nie atakujcie rafinerii, ponieważ to stwarza problem dla całego świata.",
+      "A on chce przysparzać problemów światu -powiedział Trump dziennikarzom przed Białym Domem.",
+      "Zarzucił Zełenskiemu, że chce zaszkodzić amerykańskim rolnikom i hodowcom, powodując problemy z olejem napędowym .",
+      "Może robić, co chce, ale tego robić nie może, ponieważ mamy problem o zasięgu globalnym, a jego przyczyną jest niedostateczna liczba rafinerii produkujących olej napędowy.",
+      "Powiedziałem mu: „Rób, co chcesz.",
+      "Jest mnóstwo innych celów.",
+      "A on i tak je zaatakował — podkreślił prezydent USA przed odlotem do Tennessee.",
+      "Nie pozwolimy też, by ucierpiała reszta świata.",
+      "Dlatego lepiej, żeby, do cholery, przestał - stwierdził Trump."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "Dodał także, że USA nie pozwoli na to, by „ucierpieli nasi rolnicy i hodowcy”.",
+   "liczby": [
+    "12",
+    "300",
+    "403",
+    "401",
+    "22",
+    "13"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Onet Świat",
+     "ujęcie": "Prezydent Ukrainy mógł wiele razy zakończyć wojnę, ale woli tego nie robić — ocenił prezydent USA Donald Trump.",
+     "url": "https://wiadomosci.onet.pl/swiat/donald-trump-czas-by-ukraina-wybrala-nowego-prezydenta/9wqwsgw"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Trump",
+    "Ukraina",
+    "Rosją",
+    "USA"
+   ],
+   "emotki": [
+    "🏛️",
+    "🤝",
+    "🛒"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Trump uderza w Zełenskiego: Czas, by Ukraina wybrała nowego prezydenta",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-trump-uderza-w-zelenskiego-czas-by-ukraina-wybrala-nowego-pr,nIdn,1021328"
+    },
+    {
+     "nazwa": "Onet Świat",
+     "tytuł": "Donald Trump: czas, by Ukraina wybrała nowego prezydenta",
+     "url": "https://wiadomosci.onet.pl/swiat/donald-trump-czas-by-ukraina-wybrala-nowego-prezydenta/9wqwsgw"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Twelve killed and hundreds injured in Houthi attack at Riyadh airport",
+     "url": "https://www.theguardian.com/world/2026/oct/10/yemen-government-allied-forces-recapture-bab-al-mandab-strait-houthis-taiz"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Zelenskyy furious as Trump announces deal to buy Russian diesel",
+     "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Trump says Ukraine needs a new leader after diesel deal with Russia",
+     "url": "https://www.theguardian.com/world/2026/oct/10/ukraine-russia-strikes-war-trump-diesel-deal-zelenskyy"
+    },
+    {
+     "nazwa": "Politico Europe",
+     "tytuł": "Strikes killing 17 are Russia’s ‘thanks’ for US diesel sanctions lift, Zelenskyy says",
+     "url": "https://www.politico.eu/article/russia-strike-eastern-ukraine-kills-11-regional-authorities-state/"
+    },
+    {
+     "nazwa": "Politico Europe",
+     "tytuł": "Trump lifts sanctions on Russian diesel, suggests US may buy amid surging fuel prices",
+     "url": "https://www.politico.com/news/2026/10/09/trump-diesel-sanctions-lifted-russia-01114977"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "Trump says U.S. to get diesel from Russia, relaxing pressure on Moscow to ease prices before midterms",
+     "url": "https://www.npr.org/2026/10/09/nx-s1-5996912/trump-says-u-s-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "U.S. and Russia tout diesel deal to ease sanctions and reopen fuel flows",
+     "url": "https://www.npr.org/2026/10/10/nx-s1-5996938/u-s-and-russia-tout-diesel-deal-to-ease-sanctions-and-reopen-fuel-flows"
+    }
+   ],
+   "liczba_źródeł": 6,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 14.943,
+    "składowe": {
+     "potwierdzenia": 9.5,
+     "ranga_źródła": 2.498,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.545,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Trump przeprowadził „bardzo udaną” rozmowę z Putinem. Oto co ustalili",
+   "lead": "Donald Trump przekazał we wpisie na platformie Truth Social, że zakończył „bardzo udaną” rozmowę z prezydentem Rosji Władimirem Putinem . Ujawnił, że uzgodnili ruch Rosji ws. sytuacji na światowych rynkach paliw.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-09T19:01:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-trump-przeprowadzil-bardzo-udana-rozmowe-z-putinem-oto-co-us,nIdn,1021274",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/f4/fa/pool-636x421-f4fa27b6.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "„Rosja natychmiast dostarczy ponad 300 000 ton oleju napędowego na rynek amerykański i światowy ” – ogłosił.",
+      "Jak wskazał, kolejne 500 000 ton ma zostać dostarczone w ciągu listopada, 1 000 000 ton zaraz po tym.",
+      "„Co więcej, w zależności od stanu ich rafinerii oleju napędowego, Rosja dostarczy w krótkim czasie 3 000 000 ton oleju napędowego ” – napisał amerykański przywódca.",
+      "Zdaniem prezydenta USA dzięki temu ruchowi Rosji, a także „całkowitej kontroli USA nad cieśniną Ormuz”, ceny oleju napędowego zarówno dla Amerykanów, jak i całego świata „spadną i to rekordowo, i bardzo szybko”.",
+      "Departament Skarbu Stanów Zjednoczonych wkrótce poinformował, że w piątek na polecenie prezydenta Trumpa Biuro Kontroli Aktywów Zagranicznych „natychmiast wydaje tymczasową ogólną licencję, która zezwala na dostawy rosyjskiego oleju napędowego na globalny rynek”.",
+      "„Niższe ceny dla Amerykanów , w szczególności dla naszych wielkich rolników, ranczerów i kierowców ciężarówek, to mój najwyższy priorytet” – zadeklarował Donald Trump.",
+      "Przypomnijmy, w Stanach Zjednoczonych zbliżają się wybory „połówkowe” do Kongresu, zaplanowane na 3 listopada.",
+      "Wysokie ceny paliw , wywołane między innymi wojną USA i Izraela z Iranem, wywierają poważną presję na kandydatów republikanów i zagrażają ich większości w Kongresie.",
+      "„Ponadto należy jasno powiedzieć, że Iran nie będzie posiadał broni nuklearnej” – dodał na koniec prezydent USA."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "— Te 300 tys. ton z pierwszej transzy od Władimira Putina odpowiada 14 godzinom amerykańskiego zużycia diesla — mówi Onetowi o paliwowym układzie Amerykanów z Rosjanami prof.",
+      "Decyzja Donalda Trumpa o zawieszeniu sankcji wobec rosyjskiego paliwa spotkała się z ostrą krytyką zarówno ze strony demokratów, jak i części republikanów.",
+      "Mike Pence, który pełnił funkcję wiceprezydenta w latach 2017-2021, wezwał do cofnięcia tego kroku.",
+      "Amerykański prezydent odniósł się również do kwestii wyborów prezydenckich w Ukrainie oraz skrytykował Wołodymyra Zełenskiego.",
+      "Wysłannik Władimira Putina określił jako \"historyczne\" najnowsze wypowiedzi Donalda Trumpa dotyczące przyszłości ukraińskiego przywództwa."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Inwazja Rosji na Ukrainę, wojna rosyjsko-ukraińska – pełnoskalowa inwazja na Ukrainę rozpoczęta 24 lutego 2022 roku przez Rosję, stanowiąca eskalację wojny trwającej od 2014 roku. Została poprzedzona rosyjskimi żądaniami wykluczenia możliwości dalszego poszerzania NATO i redukcji potencjału militarnego sojuszu w Europie Środkowo-Wschodniej do stanu sprzed 1997 roku."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Inwazja Rosji na Ukrainę",
+     "url": "https://pl.wikipedia.org/wiki/Inwazja_Rosji_na_Ukrain%C4%99"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "300 000 ton",
+    "500 000 ton",
+    "1 000 000 ton",
+    "3 000 000 ton",
+    "300 tys.",
+    "14 godzinom"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Onet Świat",
+     "ujęcie": "Ryszard Piasecki, ekonomista z Uniwersytetu Łódzkiego.",
+     "url": "https://wiadomosci.onet.pl/swiat/oto-co-donald-trump-zyskal-na-umowie-z-wladimirem-putinem-najpierw-14-godzin/cfk0zc1"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Inwazja Rosji na Ukrainę",
+    "opis": "inwazja na Ukrainę rozpoczęta 24 lutego 2022 roku przez Federację Rosyjską",
+    "tekst": "Inwazja Rosji na Ukrainę, wojna rosyjsko-ukraińska – pełnoskalowa inwazja na Ukrainę rozpoczęta 24 lutego 2022 roku przez Rosję, stanowiąca eskalację wojny trwającej od 2014 roku. Została poprzedzona rosyjskimi żądaniami wykluczenia możliwości dalszego poszerzania NATO i redukcji potencjału militarnego sojuszu w Europie Środkowo-Wschodniej do stanu sprzed 1997 roku.",
+    "url": "https://pl.wikipedia.org/wiki/Inwazja_Rosji_na_Ukrain%C4%99",
+    "język": "pl"
+   },
+   "tagi": [
+    "USA",
+    "Rosji",
+    "Donald Trump",
+    "Amerykanów"
+   ],
+   "emotki": [
+    "🏛️",
+    "🛒"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Trump przeprowadził „bardzo udaną” rozmowę z Putinem. Oto co ustalili",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-trump-przeprowadzil-bardzo-udana-rozmowe-z-putinem-oto-co-us,nIdn,1021274"
+    },
+    {
+     "nazwa": "Onet Świat",
+     "tytuł": "\"To wystarczy zaledwie na 14 godzin\". Ekspert o prawdziwym celu układu Trumpa z Putinem",
+     "url": "https://wiadomosci.onet.pl/swiat/oto-co-donald-trump-zyskal-na-umowie-z-wladimirem-putinem-najpierw-14-godzin/cfk0zc1"
+    },
+    {
+     "nazwa": "Onet Świat",
+     "tytuł": "Donald Trump w ogniu krytyki za umowę z Władimirem Putinem. \"Pakt z diabłem\", \"niech się wycofa\"",
+     "url": "https://wiadomosci.onet.pl/swiat/donald-trump-dogadal-sie-z-wladimirem-putinem-krytyka-plynie-z-obu-partii-w-usa/g2rnbt3"
+    },
+    {
+     "nazwa": "Onet Świat",
+     "tytuł": "Donald Trump mówi, co miał usłyszeć od Władimira Putina. \"Bardzo by tego chciał\"",
+     "url": "https://wiadomosci.onet.pl/swiat/donald-trump-przekazal-slowa-putina-o-zakonczeniu-wojny-bardzo-chcialby/2rhewn2"
+    },
+    {
+     "nazwa": "Onet Świat",
+     "tytuł": "Donald Trump uderza w Ukrainę. Kreml już ogłasza \"historyczny\" zwrot",
+     "url": "https://wiadomosci.onet.pl/swiat/wyslannik-putina-chwali-trumpa-nazwal-jego-slowa-historycznymi/5qvhs00"
+    },
+    {
+     "nazwa": "BBC News",
+     "tytuł": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
+     "url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Europe",
+     "tytuł": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+     "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 9.091,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 2.28,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.579,
+     "treściwość": 0.422,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Wieści prosto z USA. Chicago Fire podjęło decyzję ws. Lewandowskiego",
+   "lead": "Po powrocie ze zgrupowania reprezentacji Polski Robert Lewandowski błyskawicznie przypomniał o sobie kibicom Chicago Fire . Niedawne ligowe starcie z Vancouver Whitecaps FC rozpoczął on co prawda na ławce rezerwowych, jednak w 76. minucie trener Gregg Berhalter zdecydował się sięgnął po polskiego napastnika.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-10T17:36:43+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/news-wiesci-prosto-z-usa-chicago-fire-podjelo-decyzje-ws-lewandow,nId,23556410",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NE2N9SV4V2O84-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Zrobił to w momencie, w którym Chicago Fire prowadziło już tylko jedną bramką.",
+      "Lewandowski błyskawicznie odwdzięczył się za ten ruch, asystując przy bramce Marena Haile-Selassie .",
+      "Dzięki temu trafieniu Chicago Fire ostatecznie przypieczętowało swoje zwycięstwo, pokonując Vancouver Whitecaps FC wynikiem 3:1 .",
+      "Na kolejną dawkę sportowych emocji fani \"Strażaków\" nie musieli czekać przesadnie długo.",
+      "Już 10 października o godzinie 20:30 (czasu polskiego) ekipa z Illinois ponownie zamelduje się bowiem na murawie, aby powalczyć o kolejne ligowe punkty.",
+      "Tym razem podopieczni Berhaltera zmierzą się z New York City , a więc obecnie 9. drużyną konferencji wschodniej ligi MLS.",
+      "Wartko przypomnieć, że na tym etapie sezonu Chicago Fire zajmuje 4. lokatę we wspomnianej wyżej konferencji.",
+      "Tuż przed rozpoczęciem meczu z nowojorczykami dowiedzieliśmy się, którzy zawodnicy znajdą się tego dnia w wyjściowej jedenastce Chicago Fire.",
+      "Jak można było przewidzieć, po jednorazowym wejściu z ławki rezerwowych Robert Lewandowski ponownie znalazł się w podstawowym składzie \"Strażaków\" ."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Sprawdź terminarz MLS w sezonie 2026"
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Chicago Fire Football Club – amerykański klub piłkarski z Chicago, występujący w Major League Soccer. Popularnie nazywany Strażakami. Nazwa zespołu pochodzi od wielkiego pożaru Chicago i założony został 8 października 1997, w 126. rocznicę pożaru. W swoim pierwszym sezonie w 1998 roku drużyna wygrała zarówno MLS Cup, jak i U.S. Open Cup. Inne tryumfy w U.S. Open Cup odnosiła w latach: 2000, 2003, 2006. Zdobyła także MLS Supporters’ Shield w roku 2003."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Chicago Fire",
+     "url": "https://pl.wikipedia.org/wiki/Chicago_Fire"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "76",
+    "10",
+    "20",
+    "30"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "Kiedy mecze Roberta Lewandowskiego w Chicago Fire?",
+     "url": "https://sport.tvp.pl/94493543/kiedy-mecze-lewandowskiego-w-chicago-fire-w-sezonie-mls-2026-terminarz"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Chicago Fire",
+    "opis": "amerykański klub piłki nożnej",
+    "tekst": "Chicago Fire Football Club – amerykański klub piłkarski z Chicago, występujący w Major League Soccer. Popularnie nazywany Strażakami. Nazwa zespołu pochodzi od wielkiego pożaru Chicago i założony został 8 października 1997, w 126. rocznicę pożaru. W swoim pierwszym sezonie w 1998 roku drużyna wygrała zarówno MLS Cup, jak i U.S. Open Cup. Inne tryumfy w U.S. Open Cup odnosiła w latach: 2000, 2003, 2006. Zdobyła także MLS Supporters’ Shield w roku 2003.",
+    "url": "https://pl.wikipedia.org/wiki/Chicago_Fire",
+    "język": "pl"
+   },
+   "tagi": [
+    "Chicago Fire",
+    "Vancouver Whitecaps",
+    "Strażaków",
+    "Brady Jonathan Dean Jack Elliott Mbekezeli Mbokazi Leonardo Barroso Philip Zinckernagel Anton Salétros Djé D'Avilla Jonathan Bamba Robert Lewandowski Maren Haile-Selassie"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Wieści prosto z USA. Chicago Fire podjęło decyzję ws. Lewandowskiego",
+     "url": "https://sport.interia.pl/pilka-nozna/news-wiesci-prosto-z-usa-chicago-fire-podjelo-decyzje-ws-lewandow,nId,23556410"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Kiedy mecze Roberta Lewandowskiego w Chicago Fire? Sprawdź terminarz MLS w sezonie 2026",
+     "url": "https://sport.tvp.pl/94493543/kiedy-mecze-lewandowskiego-w-chicago-fire-w-sezonie-mls-2026-terminarz"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "MLS. Chicago Fire pokonało New York City. Anonimowy występ Roberta Lewandowskiego",
+     "url": "https://sport.tvp.pl/95865602/mls-chicago-fire-pokonalo-new-york-city-anonimowy-wystep-roberta-lewandowskiego"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.103,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.35,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.509,
+     "treściwość": 0.494,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Kuriozalny błąd bramkarza. \"Podarował' Lewandowskiemu zwycięstwo. [WIDEO]",
+   "lead": "W ostatnich dwóch ligowych spotkania Chicago Fire zanotowało dwa zwycięstwa. To miła odmiana dla kibiców z Illinois, którzy przez kilka tygodni obserwowali wyłącznie serię potknięć swoich ulubieńców.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-10T21:08:59+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/news-to-nie-mialo-prawa-sie-wydarzyc-koszmarny-blad-na-oczach-lew,nId,23556461",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NE33CA3LTAXXS-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Szczęśliwa passa mogła potrwać natomiast nieco dłużej.",
+      "10 października podopieczni Gregga Berhaltera mierzyli się bowiem z plasującymi się na 9. miejscu w tabeli konferencji wschodniej MLS graczami New York City .",
+      "Na papierze to właśnie zawodnicy z Chicago byli faworytami tego spotkania.",
+      "Mecz ten zapewnił jednak kibicom prawdziwy rollercoaster emocji.",
+      "Już na początku meczu gracze New York City dwukrotnie postraszyli gospodarzy.",
+      "Za trzecim razem nie było natomiast taryfy ulgowej.",
+      "W 19. minucie gola otwierającego wynik meczu zdobył Hannes Wolf .",
+      "To wydarzenie nieco ożywiło \"Strażaków\" jednak do przerwy nie zdołali oni doprowadzić do wyrównania.",
+      "Na domiar złego, w 44. minucie drugą żółtą kartkę za bardzo nierozważne zagrania obejrzał Dje D'Avilla ."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Robert Lewandowski – polski piłkarz, występujący na pozycji środkowego napastnika w amerykańskim klubie Chicago Fire. Od 2008 reprezentant Polski, w latach 2014–2025 i ponownie od 2025 kapitan reprezentacji Polski."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Robert Lewandowski",
+     "url": "https://pl.wikipedia.org/wiki/Robert_Lewandowski"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10",
+    "19",
+    "44",
+    "45",
+    "55",
+    "88"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "Lech Poznań znów liderem PKO BP Ekstraklasy.",
+     "url": "https://sport.tvp.pl/95863134/lech-poznan-znow-liderem-pko-bp-ekstraklasy-zwyciestwo-nad-slaskiem-wroclaw-wideo"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Robert Lewandowski",
+    "opis": "polski piłkarz",
+    "tekst": "Robert Lewandowski – polski piłkarz, występujący na pozycji środkowego napastnika w amerykańskim klubie Chicago Fire. Od 2008 reprezentant Polski, w latach 2014–2025 i ponownie od 2025 kapitan reprezentacji Polski.",
+    "url": "https://pl.wikipedia.org/wiki/Robert_Lewandowski",
+    "język": "pl"
+   },
+   "tagi": [
+    "Gregga Berhaltera",
+    "Chicago Fire",
+    "York City",
+    "Anton Jonsson Saletros"
+   ],
+   "emotki": [
+    "⚽",
+    "🎮"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Kuriozalny błąd bramkarza. \"Podarował' Lewandowskiemu zwycięstwo. [WIDEO]",
+     "url": "https://sport.interia.pl/pilka-nozna/news-to-nie-mialo-prawa-sie-wydarzyc-koszmarny-blad-na-oczach-lew,nId,23556461"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Lech Poznań znów liderem PKO BP Ekstraklasy. Zwycięstwo nad Śląskiem Wrocław [WIDEO]",
+     "url": "https://sport.tvp.pl/95863134/lech-poznan-znow-liderem-pko-bp-ekstraklasy-zwyciestwo-nad-slaskiem-wroclaw-wideo"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.964,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.514,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "FC Barcelona wraca do gry. Spekulacje ws. Szczęsnego. Jest decyzja Flicka",
+   "lead": "FC Barcelona praktycznie nie odczuła, przynajmniej na razie, przerwy na mecze reprezentacji. W ostatnich miesiącach Hansi Flick po spotkaniach drużyn narodowych swoich piłkarzy często musiał mierzyć się z kontuzjami.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-10T15:16:49+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-fc-barcelona-wraca-do-gry-fala-spekulacji-ws-szczesnego-jest,nId,23556390",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000MWV8B8FIB2DL0-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Tym razem los potraktował Niemca bardzo łagodnie.",
+      "Gwiazdor Barcelony zagra w Paryżu.",
+      "Wściekły prezes ujawnia ws.",
+      "Raphinhi , otwiera się w nowym oknie Jedyną stratą personalną dla trenera Barcelony jest bowiem Raphinha.",
+      "U Brazylijczyka nie wykryto jednak żadnej poważnej kontuzji, a jedynie obrzęk na mięśniu.",
+      "Ten wymaga odpoczynku, ale nie jest to nic poważnego.",
+      "Kapitan \"Blaugrany\" nie znalazł się jednak w kadrze na spotkanie z Getafe.",
+      "W tej Hansi Flick umieścił wracającego do zdrowia Joana Garcię .",
+      "Hiszpan przepracował całą przerwe na mecze reprezentacyjnej i doprowadził się do pełnej gotowości do gry."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Hans-Dieter „Hansi” Flick – niemiecki piłkarz, który występował na pozycji pomocnika oraz trener piłkarski. Obecnie pełni funkcję trenera hiszpańskiego klubu FC Barcelona."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Hansi Flick",
+     "url": "https://pl.wikipedia.org/wiki/Hansi_Flick"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "18",
+    "30",
+    "13",
+    "48",
+    "64",
+    "40"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Hansi Flick",
+    "opis": "niemiecki piłkarz i trener piłkarski",
+    "tekst": "Hans-Dieter „Hansi” Flick – niemiecki piłkarz, który występował na pozycji pomocnika oraz trener piłkarski. Obecnie pełni funkcję trenera hiszpańskiego klubu FC Barcelona.",
+    "url": "https://pl.wikipedia.org/wiki/Hansi_Flick",
+    "język": "pl"
+   },
+   "tagi": [
+    "Barcelona",
+    "Barcelony",
+    "Getafe",
+    "Hansi Flick"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "FC Barcelona wraca do gry. Spekulacje ws. Szczęsnego. Jest decyzja Flicka",
+     "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-fc-barcelona-wraca-do-gry-fala-spekulacji-ws-szczesnego-jest,nId,23556390"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Time to rise? Ranking European football's sleeping giants",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cq5yjyyzd35do?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "European football: Gordon boosts Barcelona, Neuer errors cost Bayern in draw",
+     "url": "https://www.theguardian.com/football/2026/oct/10/european-football-bayern-concede-fastest-goal-bundeliga-history"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.319,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.63,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.489,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Szok na Bernabeu. Szalona radość Mourinho, potem gwizdy. Zdecydował jeden gol",
+   "lead": "Real Madryt w ten sezon La Liga wszedł dobrze. Trzy wygrane w trzech meczach, 9 punktów po trzech kolejkach.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-10T20:58:19+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-szok-na-bernabeu-szalona-radosc-mourinho-a-potem-gwizdy-zdec,nId,23556445",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NE32P8GMPRQBG-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Wszystko się zgadzało, ale forma \"Królewskich\" załamała się wraz z wyjazdem do Sevilli.",
+      "Na stadionie La Cartuja Real wykreował sobie mnóstwo sytuacji, ale żadnej z nich nie wykorzystał.",
+      "Wina za porażkę spadła na barki Kyliana Mbappe, który był koszmarnie nieskuteczny.",
+      "Kolejna wpadka przytrafiła się Realowi w siódmej kolejce - w derbach Madrytu.",
+      "Real poległ na stadionie odwiecznego rywala 1:2.",
+      "Sześć straconych punktów po siedmiu kolejkach to bilans daleki od oczekiwanego.",
+      "Taki miała z kolei Barcelona.",
+      "\"Blaugrana\" wygrała bowiem wszystkie mecze w tym sezonie i przed przerwą na mecze reprezentacji \"odjechała\" Realowi na sześć oczek.",
+      "Co więcej, w ósmej kolejce gier \"Duma Katalonii\" rozbiła na Camp Nou Getafe, wychodząc na aż dziewięciopunktowe prowadzenie."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "José Mário dos Santos Mourinho Félix is a Portuguese professional football manager and former player who is the head coach of La Liga club Real Madrid. Nicknamed \"The Special One\", he is one of the most decorated managers of all time. Mourinho has won league championships in four countries, is one of only seven managers to have won the European Cup with two clubs, and is the only manager to have won all three current UEFA club competitions. He was named Portuguese Coach of the Century by the Portuguese Football Federation (FPF) in 2015. Due to his tactical knowledge, charismatic and controversial personality, and a reputation for prioritising results over attractive football, he has drawn comparisons—from both admirers and critics—with Argentine manager Helenio Herrera."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: José Mourinho",
+     "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Mourinho"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "9 punktów",
+    "22",
+    "12",
+    "72",
+    "63",
+    "10"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "José Mourinho",
+    "opis": "Portuguese football manager (born 1963)",
+    "tekst": "José Mário dos Santos Mourinho Félix is a Portuguese professional football manager and former player who is the head coach of La Liga club Real Madrid. Nicknamed \"The Special One\", he is one of the most decorated managers of all time. Mourinho has won league championships in four countries, is one of only seven managers to have won the European Cup with two clubs, and is the only manager to have won all three current UEFA club competitions. He was named Portuguese Coach of the Century by the Portuguese Football Federation (FPF) in 2015. Due to his tactical knowledge, charismatic and controversial personality, and a reputation for prioritising results over attractive football, he has drawn comparisons—from both admirers and critics—with Argentine manager Helenio Herrera.",
+    "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Mourinho",
+    "język": "en"
+   },
+   "tagi": [
+    "Viniciusa",
+    "Realowi",
+    "Mourinho",
+    "Vinicius Junior"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Szok na Bernabeu. Szalona radość Mourinho, potem gwizdy. Zdecydował jeden gol",
+     "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-szok-na-bernabeu-szalona-radosc-mourinho-a-potem-gwizdy-zdec,nId,23556445"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Real Madrid’s Vinícius Júnior sent off for hair-pulling in victory over Villarreal",
+     "url": "https://www.theguardian.com/football/2026/oct/10/real-madrids-vinicius-junior-sent-off-for-hair-pulling-in-victory-over-villarreal"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "Crazy scenes! Vinicius Jr SENT OFF and has goal disallowed for hair pull!",
+     "url": "https://www.skysports.com/watch/video/13597628/from-celebrations-to-despair-vinicius-junior-is-red-carded-after-his-goal-is-disallowed-for-hair-pull"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "Jose 'misses news conference' after Vini Jr sent off for hair pull",
+     "url": "https://www.skysports.com/football/live-blog/12040/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.685,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.65,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.535,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Antropiczny model sztucznej inteligencji wysłał fałszywy cynk o morderstwie do filadelfijskiej policji",
+   "lead": "Opracowany przez Anthropic model sztucznej inteligencji przesłał sfabrykowaną informację o nierozwiązanym zabójstwie do filadelfijskiej policji, władze powiedziały w piątek, krytykując firmę za to, że zgłoszenie incydentu zajęło dwa miesiące. Wydział Policji w Filadelfii poinformował, że fałszywe oświadczenie złożono w lipcu za pośrednictwem…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-10T11:58:54+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Technology",
+    "url": "https://techxplore.com/news/2026-10-anthropic-ai-fake-philadelphia-police.html",
+    "domena": "techxplore.com"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/police-said-anthropics.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Według relacji Anthropic, przekazanej przez policję, model przeprowadzał test, który obejmował interakcję z losowo wybranymi stronami internetowymi, gdy dotarł na stronę i złożył fałszywe informacje o nierozwiązanym morderstwie.",
+      "Model AI prezentował się jako ktoś, kto może mieć wiedzę o sprawie.",
+      "Incydent powtórzył inne niedawne przypadki niezamierzonego zachowania obejmującego modele sztucznej inteligencji, w tym taki, w którym agent OpenAI przechodzący ocenę bezpieczeństwa wyłamał się ze swojego środowiska testowego i naruszył systemy na platformie AI Hugging Face.",
+      "Naruszenia Anthropic skłoniły Biały Dom do nakazania firmom zajmującym się sztuczną inteligencją powiadamiania władz o incydentach związanych z bezpieczeństwem i ich korygowania - poinformował serwis informacyjny Axios, powołując się na urzędników administracji.",
+      "„Ten proces powiadamiania i naprawy nie jest opcjonalny ...",
+      "Jest to krytyczny obowiązek bezpieczeństwa narodowego ”- powiedzieli w oświadczeniu dla Axios szefowie sił wywiadowczych Białego Domu.",
+      "Wydarzenie nasiliło obawy dotyczące zwiększonego wykorzystania przez branżę agentów AI, systemów zaprogramowanych do podejmowania wieloetapowych działań bez nadzoru człowieka.",
+      "Anthropic opublikował w piątek raport przedstawiający wiele rodzajów „niezamierzonych” działań, które podjęły jej modele, w tym incydent z udziałem strony internetowej Wydziału Policji Filadelfii.",
+      "Inne organizacje, których to dotyczy, to Biały Dom i inne agencje rządowe USA."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Antropiczny model sztucznej inteligencji przesłał fałszywą wskazówkę na stronę internetową policji w Filadelfii na temat nierozwiązanej sprawy o zabójstwo, władze i Anthropic powiedziały, że",
+      "Sztuczna inteligencja rzekomo przesłała te nieprawidłowe informacje do publicznej linii policyjnej w Filadelfii (PPD) 18 lipca, ale Anthropic odkrył to zachowanie dopiero 28 września.",
+      "Anthropic powiadomił PPD o incydencie w środę i spotkał się z wydziałem następnego dnia. „Firma musi wzmocnić swoje zabezpieczenia, aby zapobiec wpływowi podobnych incydentów na systemy miejskie bez wiedzy miasta.",
+      "Dwumiesięczne opóźnienie w wykrywaniu i zgłaszaniu incydentu do władz miasta jest niedopuszczalne ”- poinformowała PPD w oświadczeniu dla 6abc .",
+      "Anthropic nie odpowiedział od razu na prośbę o komentarz, ale PPD omówiło incydent w przesłanym e-mailem komunikacie prasowym udostępnionym TechCrunch. „Według Anthropic, jego model przeprowadzał test obejmujący interakcje z losowo wybranymi stronami internetowymi, gdy wchodził na PhillyUnsolvedMurders.com i podawał fałszywe informacje dotyczące nierozwiązanego zabójstwa.",
+      "Zgłoszenie, datowane na 18 lipca 2026 r., o 23:27, miało pochodzić od kogoś, kto może mieć informacje o sprawie ”- powiedział PPD."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Filadelfia, potocznie nazywana Filadelfią, jest najbardziej zaludnionym miastem w amerykańskim stanie Pensylwania i szóstym najbardziej zaludnionym miastem w Stanach Zjednoczonych. Liczba ludności wynosiła 1,60 miliona w spisie powszechnym w 2020 roku i szacowana była na 1,57 miliona w 2025 roku. Obszar metropolitalny Filadelfii, znany również jako Dolina Delaware, znajduje się zarówno w środkowoatlantyckich, jak i północno-wschodnich Stanach Zjednoczonych; jest to dziewiąty co do wielkości obszar metropolitalny kraju, zamieszkały przez 6,33 miliona mieszkańców. Filadelfia jest znana ze swojej kultury, kuchni i historii, utrzymując współczesne wpływy w technologii i biznesie, sporcie i muzyce."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Philadelphia",
+     "url": "https://en.wikipedia.org/wiki/Philadelphia"
+    }
+   ],
+   "dlaczego_to_ważne": "Nowo ujawnione incydenty „miały minimalny wpływ na rzeczywistość” i były „znacznie mniej poważne” niż inne incydenty cyberbezpieczeństwa wcześniej zgłoszone, powiedział Anthropic.",
+   "liczby": [
+    "18",
+    "28",
+    "11",
+    "27"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Philadelphia",
+    "opis": "Most populous city in Pennsylvania, US",
+    "tekst": "Philadelphia, colloquially referred to as Philly, is the most populous city in the U.S. state of Pennsylvania and the sixth-most populous city in the United States. Its population was 1.60 million at the 2020 census and estimated at 1.57 million in 2025. The Philadelphia metropolitan area, also known as the Delaware Valley, is located in both the Mid-Atlantic and northeastern United States; home to 6.33 million residents, it is the nation's ninth-largest metropolitan area. Philadelphia is known for its culture, cuisine, and history, maintaining contemporary influence in technology and business, sports, and music.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia",
+    "język": "en"
+   },
+   "tagi": [
+    "Philadelphia Police Department",
+    "Philadelphia",
+    "White House",
+    "Anthropic"
+   ],
+   "emotki": [
+    "🤖"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Technology",
+     "tytuł": "Anthropic AI model sent fake murder tip to Philadelphia police",
+     "url": "https://techxplore.com/news/2026-10-anthropic-ai-fake-philadelphia-police.html"
+    },
+    {
+     "nazwa": "Phys.org Technology",
+     "tytuł": "Anthropic's Claude AI submits a false tip on an unsolved Philadelphia homicide case",
+     "url": "https://techxplore.com/news/2026-10-anthropic-claude-ai-submits-false.html"
+    },
+    {
+     "nazwa": "TechCrunch",
+     "tytuł": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
+     "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.245,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.415,
+     "eksponowanie": 1.44,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.505,
+     "treściwość": 0.285,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Anthropic AI model sent fake murder tip to Philadelphia police",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Satya Nadella mówi, że powinniśmy założyć, że wszystkie modele sztucznej inteligencji są „zagrożone”",
+   "lead": "Dyrektor generalny Microsoftu wzywa do zastosowania „hamulca awaryjnego” w sztucznej inteligencji. W długim poście na X , dyrektor generalny Microsoftu przedstawił swoje poglądy na temat zagrożeń związanych z wysoce zaawansowanymi modelami sztucznej inteligencji i tego, jak stawić czoła tym zagrożeniom.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-10T22:10:17+00:00",
+   "źródło": {
+    "nazwa": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+    "domena": "theverge.com"
+   },
+   "obraz": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK178_Satya_Nadella_B.jpg?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nadella mówi, że nie możemy dłużej akceptować świata, w którym sztuczna inteligencja jest traktowana jako „zestaw zagnieżdżonych czarnych skrzynek”, których rady i działania po prostu akceptujemy lub odrzucamy.",
+      "Wzywa do zbudowania bardziej przejrzystego systemu, w którym modele mogą być przechowywane, obserwowane i pozostawia „odporne na manipulacje dowody czytelne dla człowieka.\" Wiele z jego zaleceń jest zgodnych z tym, co usłyszeliśmy od innych w branży: terminowe ujawnianie incydentów, niezależne audyty, weryfikowalne dane i powstrzymywanie.",
+      "To właśnie w tej ostatniej kwestii wydaje się, że posuwa się nieco dalej niż niektórzy inni w tej dziedzinie, mówiąc: Musimy założyć, że model jest zagrożony i powstrzymać go od samego początku.",
+      "Pomyśl o tym jak o hamulcu bezpieczeństwa.",
+      "Osoba upoważniona powinna zawsze mieć możliwość wstrzymania lub wyłączenia modelu w trakcie wykonywania zadania.",
+      "Bardziej zaawansowane modele będą wymagały bardziej zaawansowanych technologii ograniczających, w odniesieniu do których musimy dokonać standaryzacji.",
+      "Niestety, Nadella odnosi się również do sztucznej inteligencji jako „super inteligencji” w całym poście.",
+      "Zaloguj się, aby zobaczyć powiadomienia lub utwórz konto, aby dołączyć do rozmowy."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "W sobotnim porannym poście na X Nadella napisała, że nadszedł czas, aby „cofnąć się i ocenić architekturę zaufania” sztucznej inteligencji. „Nie możemy traktować Super Inteligencji jako zestawu zagnieżdżonych czarnych skrzynek i po prostu akceptować lub odrzucać jej zaleceń, odpowiedzi i działań” - napisała Nadella, używając preferowanego przez administrację Trumpa terminu dla sztucznej inteligencji .",
+      "Jak podkreśliła Nadella, podejście to „oznacza oddzielenie modelu od uprzęży, która koordynuje jego pracę”, a także „uzewnętrznienie kontroli i zabezpieczeń. Wezwał również, aby„ każde znaczące działanie modelu ”było udokumentowane„ dowodami czytelnymi dla człowieka odpornymi na manipulacje ”, a w przypadku systemów, w których„ osoba upoważniona ”zawsze ma możliwość„ wstrzymania lub wyłączenia modelu w trakcie wykonywania zadania. „Musimy założyć, że model jest zagrożony i powstrzymać go od samego początku” - powiedział. „Pomyśl o tym jak hamulec awaryjny.\"Komentarze Nadelli pojawiają się, gdy wiodące firmy zajmujące się sztuczną inteligencją przyznają się do coraz większej liczby incydentów, w których wydawało się, że tracą kontrolę nad swoimi modelami , a po tym, jak dyrektor generalny Anthropic Dario Amodei opublikował plan bardziej ostrożnego rozwoju sztucznej inteligencji."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Satya Narayana Nadella – amerykańsko-hinduski menedżer. Jest dyrektorem generalnym firmy Microsoft, powołany na prezesa zarządu 4 lutego 2014. Zanim został CEO w firmie Microsoft, był wiceprezesem grupy Enterprise oraz Microsoft Cloud, odpowiedzialny za tworzenie i uruchomienie platform, narzędzi programistycznych oraz chmury obliczeniowej."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Satya Nadella",
+     "url": "https://pl.wikipedia.org/wiki/Satya_Nadella"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Satya Nadella",
+    "opis": "amerykańsko-hinduski menedżer, CEO Microsoftu od 2014",
+    "tekst": "Satya Narayana Nadella – amerykańsko-hinduski menedżer. Jest dyrektorem generalnym firmy Microsoft, powołany na prezesa zarządu 4 lutego 2014. Zanim został CEO w firmie Microsoft, był wiceprezesem grupy Enterprise oraz Microsoft Cloud, odpowiedzialny za tworzenie i uruchomienie platform, narzędzi programistycznych oraz chmury obliczeniowej.",
+    "url": "https://pl.wikipedia.org/wiki/Satya_Nadella",
+    "język": "pl"
+   },
+   "tagi": [
+    "Microsoft’s",
+    "Nadella",
+    "Many"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "The Verge",
+     "tytuł": "Satya Nadella says we should assume all AI models are ‘compromised’",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised"
+    },
+    {
+     "nazwa": "TechCrunch",
+     "tytuł": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+     "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.047,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 1.71,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.527,
+     "treściwość": 0.36,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Satya Nadella says we should assume all AI models are ‘compromised’",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Impulsy lasera ultrafioletowego projektują defekty diamentowe selektywnie, pozostawiając kubity kwantowe nienaruszone",
+   "lead": "Kiedy myślimy o diamencie, często myślimy o materiale, którego wartość wynika z jego doskonałości. W moich badaniach interesuje mnie jednak coś wręcz przeciwnego: drobne niedoskonałości wewnątrz diamentów.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-10T21:20:01+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-10-ultraviolet-laser-pulses-diamond-defects.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/ultraviolet-laser-puls.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Te wady w skali atomowej mogą nadawać diamentom nowe właściwości optyczne i elektroniczne, a niektóre z nich mogą służyć jako układy kwantowe.",
+      "Wyzwaniem jest nauczenie się, jak kontrolować te defekty bez przeszkadzania innym.",
+      "Problem ten staje się szczególnie istotny dla technologii kwantowych.",
+      "Na przykład centrum azot-wakancja (NV) jest defektem powstającym, gdy w sieci diamentowej występuje atom azotu i sąsiednia pusta przestrzeń.",
+      "Centra NV mogą być używane jako bity kwantowe lub kubity oraz jako wysoce czułe czujniki pól magnetycznych i elektrycznych.",
+      "Jednak utworzenie lub modyfikacja jednego rodzaju wady może również wpłynąć na inne wady w pobliżu.",
+      "Nasza praca, opublikowana obecnie w czasopiśmie Diamond and Related Materials , badała, czy impulsy lasera ultrafioletowego mogą zapewnić taką kontrolę.",
+      "Zastosowałem jednokrystaliczny diament do chemicznego osadzania z fazy gazowej (CVD) i napromieniowane zlokalizowane obszary kryształu z 266-nanometrowymi impulsami lasera ultrafioletowego.",
+      "Impulsy trwały tylko kilka nanosekund, umożliwiając dostarczanie energii lasera do bardzo małego obszaru materiału."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Diamond and Related Materials to recenzowane czasopismo naukowe w dziedzinie materiałoznawstwa, obejmujące badania wszystkich form diamentów i innych pokrewnych materiałów, w tym węgli diamentopodobnych, nanorurek węglowych, grafenu oraz azotków boru i węgla. Czasopismo wydaje Elsevier, a redaktorem naczelnym jest Ken Haenen."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Diamond and Related Materials",
+     "url": "https://en.wikipedia.org/wiki/Diamond_and_Related_Materials"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "266",
+    "563",
+    "579",
+    "100,000",
+    "10.1016"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Diamond and Related Materials",
+    "opis": "Academic journal",
+    "tekst": "Diamond and Related Materials is a peer-reviewed scientific journal in materials science covering research on all forms of diamond and other related materials, including diamond-like carbons, carbon nanotubes, graphene, and boron and carbon nitrides. The journal is published by Elsevier and the editor-in-chief is Ken Haenen.",
+    "url": "https://en.wikipedia.org/wiki/Diamond_and_Related_Materials",
+    "język": "en"
+   },
+   "tagi": [
+    "Related Materials",
+    "Diamond",
+    "Science",
+    "NV-center"
+   ],
+   "emotki": [
+    "⚛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Ultraviolet laser pulses engineer diamond defects selectively, leaving quantum qubits intact",
+     "url": "https://phys.org/news/2026-10-ultraviolet-laser-pulses-diamond-defects.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.817,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.517,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Ultraviolet laser pulses engineer diamond defects selectively, leaving quantum qubits intact",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Hybrydowy komputer kwantowy obserwuje fundamentalny efekt kwantowy w nowym otoczeniu",
+   "lead": "Fizycy na Wydziale Fizyki Uniwersytetu Oksfordzkiego wykorzystali hybrydowy komputer kwantowy, składający się z kubitów i oscylatorów kwantowych, do obserwacji efektu Aharonova-Bohma w symulacji kwantowej. Efektem jest zjawisko kwantowe, w którym cząstka może uzyskać mierzalną fazę, podróżując wokół…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-10T10:57:07+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-10-hybrid-quantum-foundational-effect.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/hybrid-quantum-compute.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Wynik pokazuje, w jaki sposób hybrydowe układy kwantowe mogą być wykorzystywane do symulacji interakcji między materią a polami cechowania, które stają się coraz trudniejsze do modelowania na klasycznych komputerach.",
+      "Artykuł został opublikowany w czasopiśmie Nature Physics .",
+      "W klasycznej, codziennej fizyce ruch naładowanej cząstki jest określany lokalnie przez napotkane pola elektryczne i magnetyczne.",
+      "Mechanika kwantowa pozwala uzyskać bardziej subtelny efekt.",
+      "W 1959 roku fizycy Yakir Aharonov i David Bohm przewidzieli, że naładowana cząstka przemieszczająca się wokół, a nie przez, regionu zawierającego pole magnetyczne nadal wychwyci wymierny ślad obecności tego pola.",
+      "Stało się to znane jako efekt Aharonova-Bohma, który został później potwierdzony w eksperymentach z prawdziwymi elektronami.",
+      "Fizycy są teraz zainteresowani tym, aby zobaczyć efekt wyłaniający się w innym otoczeniu: teoriach cechowania sieci.",
+      "Są to ramy matematyczne używane do opisywania interakcji między materią a polami mierników, w tym ważnych modeli w fizyce cząstek elementarnych i wysokoenergetycznej.",
+      "W teorii cechowania kratowego materia znajduje się w punktach siatki, a pola żyją na połączeniach łączących te punkty."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Efekt Aharonova-Bohma, czasami nazywany efektem Ehrenberga-Sidaya-Aharonova-Bohma, jest zjawiskiem kwantowo-mechanicznym, w którym na naładowaną elektrycznie cząstkę wpływa potencjał elektromagnetyczny, mimo że jest ograniczona do obszaru, w którym zarówno pole magnetyczne, jak i pole elektryczne są zerowe. Podstawowym mechanizmem jest sprzężenie potencjału elektromagnetycznego ze złożoną fazą funkcji fali naładowanej cząstki, a efekt Aharonova-Bohma jest odpowiednio zilustrowany eksperymentami interferencyjnymi."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Aharonov–Bohm effect",
+     "url": "https://en.wikipedia.org/wiki/Aharonov%E2%80%93Bohm_effect"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "100,000",
+    "2 lat",
+    "10.1038",
+    "026",
+    "03400",
+    "03402"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Aharonov–Bohm effect",
+    "opis": "Electromagnetic quantum-mechanical effect in regions of zero magnetic and electric field",
+    "tekst": "The Aharonov–Bohm effect, sometimes called the Ehrenberg–Siday–Aharonov–Bohm effect, is a quantum-mechanical phenomenon in which an electrically charged particle is affected by an electromagnetic potential, despite being confined to a region in which both the magnetic field and electric field are zero. The underlying mechanism is the coupling of the electromagnetic potential with the complex phase of a charged particle's wave function, and the Aharonov–Bohm effect is accordingly illustrated by interference experiments.",
+    "url": "https://en.wikipedia.org/wiki/Aharonov%E2%80%93Bohm_effect",
+    "język": "en"
+   },
+   "tagi": [
+    "Aharonov–Bohm",
+    "Nature Physics",
+    "University",
+    "Oxford"
+   ],
+   "emotki": [
+    "⚛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Hybrid quantum computer observes foundational quantum effect in a new setting",
+     "url": "https://phys.org/news/2026-10-hybrid-quantum-foundational-effect.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.507,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.72,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.387,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Hybrid quantum computer observes foundational quantum effect in a new setting",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "The Sky Today w sobotę, 10 października: Catch the zodiacal light",
+   "lead": "Szukasz wydarzenia na niebie w tym tygodniu? Sprawdź naszą pełną kolumnę „Niebo w tym tygodniu”.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-10T08:00:00+00:00",
+   "źródło": {
+    "nazwa": "Astronomy Magazine",
+    "url": "https://www.astronomy.com/observing/the-sky-today-saturday-october-10-2026/",
+    "domena": "astronomy.com"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "9 października: Gęsty, starożytny nowiu Księżyc M30 pojawia się O 11:50.",
+      "Dzięki wyjątkowo ciemnemu niebu masz szansę dostrzec zodiakalne światło we wczesnych godzinach porannych, sięgając ze wschodniego horyzontu przed świtem.",
+      "Ten słaby blask jest generowany przez czytanie \"The Sky Today on Saturday, October 10: Catch the zodiacal light\" The post The Sky Today on Saturday, October 10: Catch the zodiacal light appeared first on Astronomy Magazine ."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Jest prawdopodobne, że zarówno Wenus, jak i Merkury zniknęły z naszego wieczornego nieba, patrząc z szerokości geograficznych tak daleko na południe, jak południowe Stany Zjednoczone.",
+      "Jeśli jesteś dalej na południe na półkuli północnej — na przykład w Meksyku lub gdzieś w tropikach — nadal możesz je zobaczyć.",
+      "Merkury ma swój najlepszy wieczorny występ w 2026 roku dla obserwatorów półkuli południowej w październiku 2026 roku.",
+      "Dan Gaussen z EarthSky pokazuje, gdzie szukać zarówno Wenus, jak i Merkurego z półkuli południowej, i wyjaśnia, dlaczego może to mieć dla CIEBIE znaczenie."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "11",
+    "50",
+    "10",
+    "27",
+    "21",
+    "22"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Saturday October",
+    "Sky Today",
+    "Catch",
+    "Astronomy Magazine"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Astronomy Magazine",
+     "tytuł": "The Sky Today on Saturday, October 10: Catch the zodiacal light",
+     "url": "https://www.astronomy.com/observing/the-sky-today-saturday-october-10-2026/"
+    },
+    {
+     "nazwa": "EarthSky",
+     "tytuł": "Visible planets and night sky guide for October",
+     "url": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.866,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.193,
+     "eksponowanie": 1.17,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.403,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "The Sky Today on Saturday, October 10: Catch the zodiacal light",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Odkrycie oznacza pierwsze wykrycie zmiennych chmur wodnych poza Układem Słonecznym",
+   "lead": "hannah Hindley, University of Arizona Świat wielkości Jowisza oddalony o zaledwie 7,5 roku świetlnego jest pochmurny, chemicznie złożony i, jak się okazuje, bardziej przypominający dom, niż ktokolwiek się spodziewał. Korzystając z Kosmicznego Teleskopu Jamesa Webba, Brittany Miles, asystentka astronoma w Obserwatorium Stewarda Uniwersytetu Arizony, kierowała zespołem, który…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-09T18:20:12+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Astronomy",
+    "url": "https://phys.org/news/2026-10-discovery-variable-clouds-solar.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/discovery-marks-the-fi.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Rezultatem jest najbardziej szczegółowy portret z serii czasowej tego mroźnego świata - i pierwsze bezpośrednie potwierdzenie, że chmury wody na innym ciele zmieniają grubość w czasie, podobnie jak pogoda na Ziemi.",
+      "Badanie ujawnia, że atmosfera WISE 0855 jest kształtowana przez co najmniej dwa różne procesy rozgrywające się jednocześnie: chmury wody na dużych wysokościach, które stają się grubsze i cieńsze wraz z obrotem obiektu, oraz głębokie gazy chemiczne pogłębiane w górę przez konwekcję z daleka od dołu.",
+      "Rozplątanie tych dwóch sygnałów - wcześniej niemożliwe przy użyciu starszych teleskopów - jest tym, co sprawia, że dane JWST są tak potężne.",
+      "„Po raz pierwszy udało nam się potwierdzić, że chmury wodne stają się cieńsze i grubsze w pobliskim świecie” - powiedział Miles, badacz po habilitacji w Steward Observatory.",
+      "„Przed JWST mieliśmy tylko fotometrię, która mieszała ze sobą efekty chmur, chemii i temperatury.",
+      "Teraz możemy je właściwie wyróżnić.„ Badania są dostępne na serwerze preprintowym arXiv i zostały przyjęte do publikacji w The Astrophysical Journal .",
+      "Zbyt masywne, aby mogły być planetami, zbyt małe, aby zapalały się jako gwiazdy, świecą słabo resztkami ciepła z ich powstawania.",
+      "WISE 0855, w temperaturze około 265 kelwinów (-8°C, 17°F)- niższej niż powierzchnia Ziemi - znajduje się na samym dole tej kategorii, jeszcze bardziej zacierając linię.",
+      "Przy około dwukrotnej masie Jowisza i prawie tej samej wielkości, wygląda i zachowuje się pod wieloma względami jak swobodnie unosząca się gigantyczna planeta."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Mila, czasami międzynarodowa mila lub mila statutowa, aby odróżnić ją od innych mil, jest brytyjską jednostką imperialną i zwyczajową jednostką długości Stanów Zjednoczonych; obie są oparte na starszej angielskiej jednostce długości równej 5280 stopom angielskim, czyli 1760 jardom. Statut mila została znormalizowana jako jednostka długości między Wspólnotą Narodów a Stanami Zjednoczonymi na mocy umowy międzynarodowej w 1959 roku, kiedy stocznia została formalnie zdefiniowana na nowo w odniesieniu do jednostek SI jako 0,9144 metra, co oznacza, że mila ta ma dokładnie 1609,344 metrów. Do codziennego użytku, pięć mil równa się mniej więcej ośmiu kilometrom. Przebieg to termin używany nieformalnie dla odległości wyrażonej w milach."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Mile",
+     "url": "https://en.wikipedia.org/wiki/Mile"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "7.5",
+    "11",
+    "0855",
+    "15",
+    "265",
+    "8°C"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Mile",
+    "opis": "Unit of length",
+    "tekst": "The mile, sometimes the international mile or statute mile to distinguish it from other miles, is a British imperial unit and United States customary unit of length; both are based on the older English unit of length equal to 5,280 English feet, or 1,760 yards. The statute mile was standardised as a unit of length between the Commonwealth of Nations and the United States by an international agreement in 1959, when the yard was formally redefined with respect to SI units as 0.9144 metres, making the mile exactly 1609.344 metres. For everyday use, five miles equates roughly to eight kilometres. Mileage is the term used informally for a distance expressed in miles.",
+    "url": "https://en.wikipedia.org/wiki/Mile",
+    "język": "en"
+   },
+   "tagi": [
+    "Miles",
+    "Astrophysical Journal",
+    "Jupiter",
+    "James Webb Space Telescope Brittany Miles"
+   ],
+   "emotki": [
+    "🔭",
+    "🪐"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Astronomy",
+     "tytuł": "Discovery marks the first detection of variable water clouds outside of the solar system",
+     "url": "https://phys.org/news/2026-10-discovery-variable-clouds-solar.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.735,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.179,
+     "treściwość": 0.496,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Discovery marks the first detection of variable water clouds outside of the solar system",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Aktualizacja huraganu Isaias: co najmniej cztery osoby nie żyją, a setki tysięcy nie ma prądu – jak to się stało",
+   "lead": "Ten blog na żywo jest teraz zamknięty. Przeczytaj pełną historię tutaj Najważniejsze informacje o huraganie Isaias Na Florydzie jedna osoba zginęła po tym, jak drzewo spadło na jej dom - powiedział gubernator stanu Ron DeSantis na popołudniowej konferencji prasowej w sobotę.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-10T22:18:05+00:00",
+   "źródło": {
+    "nazwa": "The Guardian Environment",
+    "url": "https://www.theguardian.com/world/live/2026/oct/10/hurricane-isaias-gulf-coast-alabama-florida-louisiana-mississippi-latest-updates",
+    "domena": "theguardian.com"
+   },
+   "obraz": "https://i.guim.co.uk/img/media/2f12969ea8df6b4085d441942784740b2e1e4d40/928_0_2190_1754/master/2190.jpg?width=140&quality=85&auto=format&fit=max&s=51364563108ea8cbc2e699f2eed7f917",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Kolejna osoba została znaleziona martwa w ich garażu z włączonym generatorem.",
+      "Według gubernatora tego stanu, Kay Ivey, w Alabamie zginęły dwie osoby.",
+      "Wcześniejsze doniesienia wskazywały na jedną ofiarę z powodu uderzenia powalonego drzewa w dom, ale szczegóły dotyczące drugiej śmierci pozostają nieznane. „Ta burza nie może minąć wystarczająco szybko” - napisała Ivey w sobotnim oświadczeniu w mediach społecznościowych. „Przyniosło to silne wiatry w całej Alabamie, niszcząc drzewa, wyłączając zasilanie i wyrządzając pewne szkody.",
+      "Niestety dowiedzieliśmy się również, że dwóch Alabamczyków straciło życie.",
+      "Dziś rano modlę się za ich bliskich. Co najmniej cztery osoby zmarły z powodu huraganu Isaias.",
+      "Po rozpoczęciu jako huragan kategorii 2, Isaias osłabił się do posttropikalnego cyklonu wcześnie w sobotę po wylądowaniu na Florydzie i uderzył w wybrzeże Zatoki Meksykańskiej ulewnym deszczem i gwałtownymi wiatrami.",
+      "Klienci powoli odzyskują zasilanie, ponieważ całkowita liczba przerw w dostawie prądu w USA spadła po osiągnięciu szczytu ponad 850 000 wcześniej w ciągu dnia.",
+      "Według danych poweroutage.com w sobotni wieczór wynosi ona około 630 000 .",
+      "Donald Trump zezwolił Federalnej Agencji Zarządzania Kryzysowego ( Fema) na zapewnienie Gruzji zasobów, które pomogą w zmaganiu się z trwającą burzą, w tym możliwymi tornadami - poinformowała w sobotę agencja."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Oto, co prognostycy mówią o tym, gdzie uderzy Isaias i jak silny huragan Isaias, który uderzył w wybrzeże Zatoki Meksykańskiej w piątek wieczorem, miał przynieść w ten weekend niebezpieczną falę burzową, znaczne opady deszczu, powodzie i silne wiatry na wybrzeżu Zatoki Meksykańskiej.",
+      "Miliony ludzi w kilku stanach, w tym Florydzie, Georgii i Alabamie, otrzymało rozkaz ewakuacji jako urzędnicy przygotowani na burzę."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Sobota to dzień tygodnia między piątkiem a niedzielą. Nie później niż w II wieku naszej ery Rzymianie nazwali Saturday diēs Sāturnī na cześć boga Saturna. Jego planeta, Saturn, kontrolowała pierwszą godzinę tego dnia, według Wetiusza Walensa."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Saturday",
+     "url": "https://en.wikipedia.org/wiki/Saturday"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "850,000",
+    "630,000",
+    "60",
+    "10",
+    "22 million",
+    "300"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Saturday",
+    "opis": "Day of the week",
+    "tekst": "Saturday is the day of the week between Friday and Sunday. No later than the 2nd century AD, the Romans named Saturday diēs Sāturnī for the god Saturn. His planet, Saturn, controlled the first hour of that day, according to Vettius Valens.",
+    "url": "https://en.wikipedia.org/wiki/Saturday",
+    "język": "en"
+   },
+   "tagi": [
+    "Saturday",
+    "Florida",
+    "Alabama",
+    "Hurricane Isaias"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "The Guardian Environment",
+     "tytuł": "Hurricane Isaias updates: at least four people dead and hundreds of thousands without power – as it happened",
+     "url": "https://www.theguardian.com/world/live/2026/oct/10/hurricane-isaias-gulf-coast-alabama-florida-louisiana-mississippi-latest-updates"
+    },
+    {
+     "nazwa": "The Guardian Environment",
+     "tytuł": "Key things to know about Hurricane Isaias as millions under evacuation orders",
+     "url": "https://www.theguardian.com/global/2026/oct/09/hurricane-isaias-where-path-landfall-preparation"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.677,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.208,
+     "eksponowanie": 1.44,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.529,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Hurricane Isaias updates: at least four people dead and hundreds of thousands without power – as it happened",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Geolodzy odkrywają dowody braku późnokredowego łuku magmowego w północno-zachodnim Iranie",
+   "lead": "Góry zachowały dowody starożytnych oceanów, poruszających się kontynentów i procesów tektonicznych, które kształtowały Ziemię przez miliony lat. Późniejsze odkształcenia, erozja i zakopanie mogą jednak zasłonić ważne części tego zapisu geologicznego.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-10T00:20:05+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Earth",
+    "url": "https://phys.org/news/2026-10-geologists-uncover-evidence-late-cretaceous.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/geologists-uncover-evi.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Międzynarodowy zespół badawczy pod kierownictwem Politechniki Stambulskiej (ITU) zidentyfikował dowody na istnienie wcześniej nierozpoznanego późnokredowego kontynentalnego łuku magmowego w północno-zachodnim Iranie.",
+      "Badanie przeprowadzono we współpracy z naukowcami z Institute of Tibetan Plateau Research i Xinjiang Institute of Ecology and Geography, Chinese Academy of Sciences; ETH Zurich, Szwajcaria; Karadeniz Technical University, Turcja; oraz Damghan University, Iran.",
+      "Badacze nazywają ten system Azerbejdżańskim Kontynentalnym Łukiem Magmatycznym (Azerbaijan Continental Magmatic Arc), dostarczając nowych ograniczeń dla ewolucji tektonicznej regionu, który jest obecnie częścią strefy kolizji Arabia-Eurasia.",
+      "Opublikowane w Geoscience Frontiers badania wskazują, że Arc był aktywny około 101-97 milionów lat temu, podczas ewolucji Oceanu Neotetydy.",
+      "Jego zapis geologiczny został następnie przesłonięty przez deformację tektoniczną, erozję, zakopanie niecki i młodszy magmatyzm eocenu.",
+      "Naukowcy badali skały wulkaniczne i plutoniczne z kilku miejsc w północno-zachodnim Iranie, szczególnie wzdłuż uskoku Siah Cheshmeh-Khoy-Misho-Tabriz.",
+      "Wykorzystując geochronologię cyrkonu U-Pb, analizy izotopów Hf i geochemię całej skały, zespół ograniczył wiek i źródła skał oraz zidentyfikował cechy zgodne z subdukcyjnym magmatyzmem łuku kontynentalnego.",
+      "Ali Mohammadi, autor korespondent badania na Politechnice w Stambule, wyjaśnił: „To badanie pokazuje, że magmowa historia północno-zachodniego Iranu jest bardziej złożona niż wcześniej sądzono.",
+      "Integrując dowody geochronologiczne, izotopowe i geochemiczne, zidentyfikowaliśmy łuk kontynentalny późnej kredy, który został następnie zasłonięty przez późniejsze procesy tektoniczne.„ Odkrycie rozszerza konwencjonalne ramy magmowej historii Iranu, która w dużej mierze koncentruje się na Łuku Magmatycznym Sanandaj-Sirjan i Łuku Magmatycznym Urumieh-Dokhtar."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Późna kreda jest nowszą z dwóch epok, na które okres kredowy jest podzielony w geologicznej skali czasu. Warstwy skalne z tej epoki tworzą Górną Serię Kredową. Kreda została nazwana na cześć krety, łacińskiego słowa oznaczającego biały wapień, znanego jako kreda. Kreda północnej Francji i białe klify południowo-wschodniej Anglii pochodzą z okresu kredowego."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Late Cretaceous",
+     "url": "https://en.wikipedia.org/wiki/Late_Cretaceous"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "101",
+    "97 million",
+    "10.1016"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Late Cretaceous",
+    "opis": "Subdivision of Cretaceous Period",
+    "tekst": "The Late Cretaceous is the more recent of two epochs into which the Cretaceous Period is divided in the geologic time scale. Rock strata from this epoch form the Upper Cretaceous Series. The Cretaceous is named after creta, the Latin word for the white limestone known as chalk. The chalk of northern France and the white cliffs of south-eastern England date from the Cretaceous Period.",
+    "url": "https://en.wikipedia.org/wiki/Late_Cretaceous",
+    "język": "en"
+   },
+   "tagi": [
+    "Iran",
+    "Late Cretaceous",
+    "Neo-Tethyan",
+    "Siah Cheshmeh–Khoy–Misho–Tabriz Fault"
+   ],
+   "emotki": [
+    "🌊",
+    "🛒",
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Earth",
+     "tytuł": "Geologists uncover evidence of a missing Late Cretaceous magmatic arc in northwestern Iran",
+     "url": "https://phys.org/news/2026-10-geologists-uncover-evidence-late-cretaceous.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.314,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.15,
+     "eksponowanie": 0.36,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.254,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Geologists uncover evidence of a missing Late Cretaceous magmatic arc in northwestern Iran",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Danny Boyle ocenia szanse na powstanie \"28 lat później 3\". \"Niski priorytet\"",
+   "lead": "Jeszcze niedawno Danny Boyle dawał wyraz wiary w to, że trzecia odsłona serii \" 28 lat później \" powstanie. Czy wciąż są na to szanse?",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-10T09:22:00+00:00",
+   "źródło": {
+    "nazwa": "Filmweb",
+    "url": "https://www.filmweb.pl/news/Danny+Boyle+ocenia+szanse+na+powstanie+%2228+lat+p%C3%B3%C5%BAniej+3%22.+%22Niski+priorytet%22-169032",
+    "domena": "filmweb.pl"
+   },
+   "obraz": "https://fwcdn.pl/nph/1985708/2026/77837_1.16.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Reżyser ujawnił, jaki jest obecny status projektu."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Fani \"28 lat później\" nie będą zadowoleni.",
+      "Zeszłego lata kina na całym świecie podbijał wyczekiwany horror Danny'ego Boyle'a \"28 lat później\", będący kontynuacją słynnego filmu z Cillianem Murphym.",
+      "Niedługo później do dystrybucji trafił \"28 lat później: Świątynia kości\", za który odpowiedzialna była Nia DaCosta.",
+      "Danny Boyle przekonywał, że jest to dopiero początek nowej ery jego postapokaliptycznej serii, jednak wszystko wskazuje na to, że na kolejną część sagi fani będą musieli poczekać dłużej, niż zapowiadano."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "28 lat",
+    "28 dni",
+    "60 milionów"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Danny Boyle",
+    "Jeszcze",
+    "Boyle"
+   ],
+   "emotki": [
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Filmweb",
+     "tytuł": "Danny Boyle ocenia szanse na powstanie \"28 lat później 3\". \"Niski priorytet\"",
+     "url": "https://www.filmweb.pl/news/Danny+Boyle+ocenia+szanse+na+powstanie+%2228+lat+p%C3%B3%C5%BAniej+3%22.+%22Niski+priorytet%22-169032"
+    },
+    {
+     "nazwa": "Interia Film",
+     "tytuł": "Sequel \"28 lat później\" nie powstanie? Reżyser nie ma pieniędzy",
+     "url": "https://film.interia.pl/wiadomosci/news-sequel-28-lat-pozniej-nie-powstanie-rezyser-nie-ma-pieniedzy,nId,23556395"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.0,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.243,
+     "eksponowanie": 0.54,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.441,
+     "treściwość": 0.326,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "\"Zaproszona\": Sadie Sink w adaptacji bestsellerowej książki",
+   "lead": "Znana m.in. ze \" Stranger Things \" i nowego \" Spider-Mana \" Sadie Sink negocjuje główną rolę oraz stanowisko",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-10T08:30:06+00:00",
+   "źródło": {
+    "nazwa": "Filmweb",
+    "url": "https://www.filmweb.pl/news/%22Zaproszona%22%3A+Sadie+Sink+w+adaptacji+bestsellerowej+ksi%C4%85%C5%BCki-169029",
+    "domena": "filmweb.pl"
+   },
+   "obraz": "https://fwcdn.pl/nph/2920047/2026/75837_1.16.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Powieść \"The Guest\" Emmy Cline uznana została za jedną z najlepszych książek roku przez wiele zagranicznych czasopism - \"New Yorker\", \"Time\", \"Washington Post\", \"Harper's Bazaar\", \"Elle\", \"Vogue\", \"Glamour\", \"Newsweek\".",
+      "Gdy latem tego roku pojawiła się informacja, że prawa do tytułu trafią na rynek, aktorka natychmiast ruszyła do działania."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Sadie Elizabeth Sink – amerykańska aktorka, która grała w serialu Stranger Things, filmach Spider-Man: Całkiem nowy dzień i Wieloryb oraz trylogii Ulica Strachu."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Sadie Sink",
+     "url": "https://pl.wikipedia.org/wiki/Sadie_Sink"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Film",
+     "ujęcie": "Studio A24 negocjuje prawa do bestsellerowej książki \"The Guest\" autorstwa Emmy Cline.",
+     "url": "https://film.interia.pl/wiadomosci/news-zagra-w-adaptacji-bestsellerowej-powiesci-od-miesiecy-walczy,nId,23556298"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Sadie Sink",
+    "opis": "amerykańska aktorka",
+    "tekst": "Sadie Elizabeth Sink – amerykańska aktorka, która grała w serialu Stranger Things, filmach Spider-Man: Całkiem nowy dzień i Wieloryb oraz trylogii Ulica Strachu.",
+    "url": "https://pl.wikipedia.org/wiki/Sadie_Sink",
+    "język": "pl"
+   },
+   "tagi": [
+    "Spider-Mana Sadie Sink",
+    "Stranger Things",
+    "Sadie Sink",
+    "Znana"
+   ],
+   "emotki": [
+    "📖"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Filmweb",
+     "tytuł": "\"Zaproszona\": Sadie Sink w adaptacji bestsellerowej książki",
+     "url": "https://www.filmweb.pl/news/%22Zaproszona%22%3A+Sadie+Sink+w+adaptacji+bestsellerowej+ksi%C4%85%C5%BCki-169029"
+    },
+    {
+     "nazwa": "Interia Film",
+     "tytuł": "Zagra w adaptacji bestsellerowej powieści? Od miesięcy walczy o ten projekt",
+     "url": "https://film.interia.pl/wiadomosci/news-zagra-w-adaptacji-bestsellerowej-powiesci-od-miesiecy-walczy,nId,23556298"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.629,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.243,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.356,
+     "treściwość": 0.23,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  }
+ ],
+ "braki": [],
+ "statystyki": {
+  "kanały_ok": 70,
+  "kanały_błędne": 2,
+  "znaki_tłumaczone": 18399,
+  "niedziałające_kanały": [
+   {
+    "url": "https://earthobservatory.nasa.gov/feeds/earth-observatory.rss",
+    "powód": "brak wpisów / nieznany format"
+   },
+   {
+    "url": "https://wiadomosci.gazeta.pl/pub/rss/wiadomosci.htm",
+    "powód": "ConnectionError"
+   }
+  ],
+  "działy": 18,
+  "artykuły_w_oknie": 50
+ }
+}
