@@ -1,0 +1,1826 @@
+{
+ "wersja": "1.0.0",
+ "wydanie": "2026-10-12",
+ "dotyczy_dnia": "2026-10-11",
+ "wygenerowano": "2026-10-12T14:12:58+00:00",
+ "strefa": "Europe/Warsaw",
+ "tryb": "ekstrakcyjny",
+ "demo": false,
+ "pozycje": [
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Wybory prezydenta Krakowa. Są najnowsze wyniki late poll",
+   "lead": "Najnowszy sondaż OGB wskazuje na wyraźną przewagę Łukasza Gibały. Kandydat zdobył ponad 62 proc. głosów , podczas gdy jego rywalka, Monika Piątkowska, otrzymała 37,9 proc.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-11T20:18:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/regiony/krakow/news-wybory-prezydenta-krakowa-sa-najnowsze-wyniki-late-poll,nIdn,1021394",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/ee/4e/lukasz-gagulski-636x421-ee4efee5.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Z sondażu late poll przeprowadzonego przez Ipsos na zlecenie Polsat News wynika z kolei, że Łukasz Gibała uzyskał 62,3 proc. poparcia, a Monika Piątkowska 37,7 proc.",
+      "W niedzielę, 11 października, odbył się specjalny Krakowski Wieczór Wyborczy w RMF FM i RMF24 podczas którego eksperci, politycy oraz publicyści dyskutowali o przyszłości stolicy Małopolski.",
+      "Według sondażowych wyników wyborów Łukasz Gibała, radny Miasta Krakowa, ma zostać nowym prezydentem Krakowa.",
+      "Sam zainteresowany podkreśla jednak, że czeka na oficjalne potwierdzenie danych z Państwowej Komisji Wyborczej.",
+      "Natomiast, no jeśli by się okazało, że faktycznie dane się potwierdzą, to jest to spora przewaga.",
+      "No i jest to wielki sukces wszystkich tych osób, które tyle lat walczyły o to, żeby w Krakowie doszło do realnej zmiany.",
+      "Więc to będzie dzień historyczny - powiedział Gibała w rozmowie z RMF FM i Polsat News.",
+      "Gibała zapowiedział, że niezależnie od ostatecznego wyniku, zamierza podziękować mieszkańcom Krakowa za oddane głosy.",
+      "„Jutro nie zaskoczę pewnie państwa."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Kandydatka na prezydenta Krakowa podziękowała m.in. premierowi Donaldowi Tuskowi i wicepremierowi Władysławowi Kosiniakowi-Kamyszowi.",
+      "Chwilę po ogłoszeniu wyników exit poll OGB dla Polsat News i Newsmax Polska oraz IPSOS, Monika Piątkowska zabrała głos, zwracając się do osób, które oddały na nią głos. - Chciałam wam wszystkim bardzo serdecznie podziękować , każdemu, kto poszedł do wyborów - mówiła.",
+      "Ciężko pracowaliśmy w tej kampanii, każdego dnia, rozmawiając z mieszkańcami miasta - dodała. - To był fantastyczny czas, mnóstwo dobrej energii, fantastycznych rozmów, rad, sugestii i owszem, słów krytyki.",
+      "Wszystkie wasze sugestie - zarówno pozytywne, jak i negatywne - zabieram ze sobą ja i mój zespół do dalszej pracy w kolejnych tygodniach - podkreśliła kontrkandydatka Łukasza Gibały .",
+      "Łukasz Gibała może liczyć na 62,1 proc. poparcia w II turze wyborów prezydenckich w Krakowie według late poll OGB dla Polsat News i Newsmax Polska oraz 62,3 proc. wg.",
+      "Monika Piątkowska zdobyła poparcie 37,9 proc. wg."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Prezydent Miasta Krakowa – najwyższy organ wykonawczy Miasta Krakowa. Jest zwierzchnikiem służbowym pracowników urzędu miasta, zwierzchnikiem kierowników miejskich jednostek organizacyjnych, a także służb, inspekcji i straży. Urząd ten został powołany 16 kwietnia 1792, a jego powstanie wiązało się z wprowadzeniem 18 kwietnia 1791 Prawa o miastach."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Prezydent Miasta Krakowa",
+     "url": "https://pl.wikipedia.org/wiki/Prezydent_Miasta_Krakowa"
+    }
+   ],
+   "dlaczego_to_ważne": "Według sondażu OGB frekwencja wyniosła 45,9 proc. , co oznacza, że mniej niż połowa uprawnionych do głosowania wzięła udział w wyborach.",
+   "liczby": [
+    "62 proc.",
+    "37,9 proc.",
+    "45,9 proc.",
+    "62,3 proc.",
+    "37,7 proc.",
+    "44,2 proc."
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "RMF24",
+     "ujęcie": "Wybory prezydenta Krakowa.",
+     "url": "https://www.rmf24.pl/regiony/krakow/news-wybory-prezydenckie-w-krakowie-2026-znamy-wyniki-exit-poll-i,nIdn,1021389"
+    },
+    {
+     "źródło": "Interia Fakty",
+     "ujęcie": "Miałam tego pełną świadomość - przekazała Monika Piątkowska, podczas przemówienia po ogłoszeniu wyników exit poll.",
+     "url": "https://wydarzenia.interia.pl/malopolskie/news-piatkowska-zabrala-glos-po-wynikach-exit-poll-zwrocila-sie-d,nId,23556625"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Prezydent Miasta Krakowa",
+    "opis": "najwyższy organ wykonawczy Miasta Krakowa",
+    "tekst": "Prezydent Miasta Krakowa – najwyższy organ wykonawczy Miasta Krakowa. Jest zwierzchnikiem służbowym pracowników urzędu miasta, zwierzchnikiem kierowników miejskich jednostek organizacyjnych, a także służb, inspekcji i straży. Urząd ten został powołany 16 kwietnia 1792, a jego powstanie wiązało się z wprowadzeniem 18 kwietnia 1791 Prawa o miastach.",
+    "url": "https://pl.wikipedia.org/wiki/Prezydent_Miasta_Krakowa",
+    "język": "pl"
+   },
+   "tagi": [
+    "Krakowa",
+    "Państwowej Komisji Wyborczej",
+    "Monika Piątkowska",
+    "Łukasz Gibała"
+   ],
+   "emotki": [
+    "🗳️",
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Wybory prezydenta Krakowa. Są najnowsze wyniki late poll",
+     "url": "https://www.rmf24.pl/regiony/krakow/news-wybory-prezydenta-krakowa-sa-najnowsze-wyniki-late-poll,nIdn,1021394"
+    },
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Wybory prezydenta Krakowa. Mamy wyniki exit poll!",
+     "url": "https://www.rmf24.pl/regiony/krakow/news-wybory-prezydenckie-w-krakowie-2026-znamy-wyniki-exit-poll-i,nIdn,1021389"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Piątkowska zabrała głos po wynikach exit poll. Zwróciła się do Gibały",
+     "url": "https://wydarzenia.interia.pl/malopolskie/news-piatkowska-zabrala-glos-po-wynikach-exit-poll-zwrocila-sie-d,nId,23556625"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Wybory prezydenta Krakowa. Pierwsze wyniki late poll",
+     "url": "https://wydarzenia.interia.pl/malopolskie/news-wybory-prezydenta-krakowa-pierwsze-wyniki-late-poll,nId,23556628"
+    },
+    {
+     "nazwa": "Notes from Poland",
+     "tytuł": "Polish security services report alleged assassination plot against PM Tusk",
+     "url": "https://notesfrompoland.com/2026/10/11/polish-security-services-report-alleged-assassination-plot-against-pm-tusk/"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.206,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.757,
+     "eksponowanie": 0.54,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.504,
+     "treściwość": 0.405,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Gibała o pierwszej decyzji jako prezydent. Piątkowska gratuluje i zapowiada kontrole",
+   "lead": "Według sondaży late poll Łukasz Gibała wygrał drugą turę wyborów prezydenckich w Krakowie, zdobywając ponad 60 proc . głosów. Jego kontrkandydatka przekonała niecałe 40 proc . głosujących.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-11T19:37:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/regiony/krakow/news-gibala-o-pierwszej-decyzji-jako-prezydent-piatkowska-gratulu,nIdn,1021392",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/54/32/artservice-636x421-54324301.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Gibała podczas wieczoru wyborczego powiedział, że trzeba poczekać na ostateczne wyniki z PKW, jednak – jak ocenił – wszystko wskazuje na to, że 11 października przejdzie do historii i że „po 24 latach Krakowianie odzyskali swoje miasto”.",
+      "Dodał, że najbliższe dwa lata będą bardzo trudne, ponieważ w mieście trzeba wiele naprawić.",
+      "Wierzę, że wspólnie damy radę – mówił Gibała.",
+      "Goście wieczoru wyborczego w Forum Horyzonty skandowali „ Tu jest Kraków, nie Warszawa ”, „ Łukasz \".",
+      "W rozmowie z RMF FM i Polsat News Gibała nie chciał stawiać definitywnej kropki nad „i” w kwestii swojego zwycięstwa i zapewnił, że z pokorą czeka na oficjalne wyniki.",
+      "Natomiast, jeśli by się okazało, że faktycznie te dane się potwierdzą, to jest to spora przewaga.",
+      "I jest to wielki sukces wszystkich tych osób, które tyle lat walczyły o to, żeby w Krakowie doszło do realnej zmiany – powiedział.",
+      "Polityk mówił, że w przypadku objęcia urzędu przed nim dwa ciężkie lata – budowanie większości w Radzie Miasta czy „naprawa miejskich finansów”.",
+      "W poniedziałek rano o 6:45 zamierza pojawić się na Rondzie Mogilskim i rozdając obwarzanki, dziękować za oddane na niego głosy."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Prezydent Miasta Krakowa – najwyższy organ wykonawczy Miasta Krakowa. Jest zwierzchnikiem służbowym pracowników urzędu miasta, zwierzchnikiem kierowników miejskich jednostek organizacyjnych, a także służb, inspekcji i straży. Urząd ten został powołany 16 kwietnia 1792, a jego powstanie wiązało się z wprowadzeniem 18 kwietnia 1791 Prawa o miastach."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Prezydent Miasta Krakowa",
+     "url": "https://pl.wikipedia.org/wiki/Prezydent_Miasta_Krakowa"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "60",
+    "40",
+    "11",
+    "24 lat",
+    "45",
+    "200"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "RMF24",
+     "ujęcie": "Są oficjalne wyniki wyborów.",
+     "url": "https://www.rmf24.pl/regiony/krakow/news-lukasz-gibala-wygrywa-wybory-w-krakowie-pierwsze-decyzje-i-p,nIdn,1021398"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Prezydent Miasta Krakowa",
+    "opis": "najwyższy organ wykonawczy Miasta Krakowa",
+    "tekst": "Prezydent Miasta Krakowa – najwyższy organ wykonawczy Miasta Krakowa. Jest zwierzchnikiem służbowym pracowników urzędu miasta, zwierzchnikiem kierowników miejskich jednostek organizacyjnych, a także służb, inspekcji i straży. Urząd ten został powołany 16 kwietnia 1792, a jego powstanie wiązało się z wprowadzeniem 18 kwietnia 1791 Prawa o miastach.",
+    "url": "https://pl.wikipedia.org/wiki/Prezydent_Miasta_Krakowa",
+    "język": "pl"
+   },
+   "tagi": [
+    "Krakowa",
+    "Gibała",
+    "Kraków",
+    "Krakowie"
+   ],
+   "emotki": [
+    "🗳️",
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Gibała o pierwszej decyzji jako prezydent. Piątkowska gratuluje i zapowiada kontrole",
+     "url": "https://www.rmf24.pl/regiony/krakow/news-gibala-o-pierwszej-decyzji-jako-prezydent-piatkowska-gratulu,nIdn,1021392"
+    },
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Są oficjalne wyniki wyborów. Wiadomo, kto został prezydentem Krakowa",
+     "url": "https://www.rmf24.pl/regiony/krakow/news-lukasz-gibala-wygrywa-wybory-w-krakowie-pierwsze-decyzje-i-p,nIdn,1021398"
+    },
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Łukasz Gibała. Kim jest nowy prezydent Krakowa?",
+     "url": "https://www.rmf24.pl/regiony/krakow/news-lukasz-gibala-kim-jest-nowy-prezydent-krakowa,nIdn,1019598"
+    },
+    {
+     "nazwa": "Notes from Poland",
+     "tytuł": "Independent beats PM Tusk’s candidate in Kraków mayoral election",
+     "url": "https://notesfrompoland.com/2026/10/11/independent-beats-pm-tusks-candidate-in-krakow-mayoral-election/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.677,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.63,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.539,
+     "treściwość": 0.128,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Wiadomo, że nic nie wiadomo. Trump chciał postawić Iran pod ścianą, sam utknął w cieśninie",
+   "lead": "Pod koniec września, podczas sesji Zgromadzenia Ogólnego ONZ, Iran przedstawił propozycję zakładającą ponowne otwarcie szlaku wodnego w cieśninie Ormuz i przywrócenie normalnego ruchu morskiego w ciągu siedmiu dni po spełnieniu przez USA określonych warunków. Strona amerykańska odpowiedziała na nią później za…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-11T17:40:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-wiadomo-ze-nic-nie-wiadomo-trump-chcial-postawic-iran-pod-sc,nIdn,1021386",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/79/90/donald-trump-fot-636x421-7990bc28.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Waszyngton musi wyjaśnić kwestie, które dla Teheranu pozostają niejasne - stwierdził Rezaei, sekretarz Najwyższej Rady Bezpieczeństwa Narodowego.",
+      "Agencja Reutera informuje, że Rezaei miał dodać: Przedstawiliśmy Amerykanom siedem warunków i jasno daliśmy do zrozumienia, że cieśnina Ormuz nie zostanie dla nich otwarta, a negocjacje nie zostaną podjęte, dopóki warunki te nie zostaną spełnione .",
+      "Biały Dom nie odpowiedział niezwłocznie na prośbę o komentarz.",
+      "Rezaei powiedział natomiast, że Iran „nie jest już w trakcie odpowiadania Amerykanom”.",
+      "W swojej odpowiedzi zaakceptowali oni część naszych warunków, podczas gdy inne pozostają niejasne - poinformował.",
+      "Pod koniec września Teheran poinformował o otrzymaniu amerykańskiej odpowiedzi na swoją najnowszą propozycję reaktywacji zerwanego rozejmu w rejonie Zatoki Perskiej.",
+      "Prezydent USA Donald Trump oświadczył, że odrzucił tę ofertę.",
+      "Katar i inni mediatorzy przekazywali wiadomości między Waszyngtonem a Teheranem, dążąc do zakończenia konfliktu i ponownego otwarcia cieśniny Ormuz – szlaku transportowego, przez który przed wybuchem wojny - zapoczątkowanej pod koniec lutego atakami USA i Izraela na Iran - przepływała jedna piąta światowych zasobów ropy naftowej i skroplonego gazu ziemnego .",
+      "W czwartek, 8 października, prezydent USA Donald Trump zamieścił na swojej platformie Truth Social optymistyczny, odbiegający od narracji Iranu, wpis."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Iran, pełna nazwa Islamska Republika Iranu, w Europie dawniej znany jako Persja – państwo na Bliskim Wschodzie, leżące między Morzem Kaspijskim na północy a Zatoką Perską i Zatoką Omańską na południu."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Iran",
+     "url": "https://pl.wikipedia.org/wiki/Iran"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "11",
+    "13",
+    "300",
+    "200",
+    "10%",
+    "91"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Iran",
+    "opis": "państwo w Azji",
+    "tekst": "Iran, pełna nazwa Islamska Republika Iranu, w Europie dawniej znany jako Persja – państwo na Bliskim Wschodzie, leżące między Morzem Kaspijskim na północy a Zatoką Perską i Zatoką Omańską na południu.",
+    "url": "https://pl.wikipedia.org/wiki/Iran",
+    "język": "pl"
+   },
+   "tagi": [
+    "Ormuz",
+    "Iran",
+    "USA Donald Trump",
+    "Truth Social"
+   ],
+   "emotki": [
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Wiadomo, że nic nie wiadomo. Trump chciał postawić Iran pod ścianą, sam utknął w cieśninie",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-wiadomo-ze-nic-nie-wiadomo-trump-chcial-postawic-iran-pod-sc,nIdn,1021386"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Riyadh airport hit again after deadly Houthi missile attack, Saudi authorities say",
+     "url": "https://www.theguardian.com/world/2026/oct/11/saudi-coalition-retaliation-houthi-attack-riyadh-airport"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Houthi attack on Riyadh airport forces swift rethink of Trump’s new strategy",
+     "url": "https://www.theguardian.com/world/2026/oct/11/houthi-attack-riyadh-airport-donald-trump-strategy"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "Trump weighs joining the fight against Houthis after Riyadh airport attack",
+     "url": "https://www.npr.org/2026/10/10/nx-s1-5997512/saudi-arabia-riyadh-airport-bombing-attack"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "Saudi airport passenger terminal is struck again, a day after 12 were killed",
+     "url": "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.578,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.837,
+     "eksponowanie": 0.36,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.531,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Obejrzyj: Co stoi za roszczeniem Trumpa o zawieszenie broni?",
+   "lead": "Prezydent USA ogłosił to w poście w mediach społecznościowych, co było pozornym zaskoczeniem dla Ukrainy, a Rosja jeszcze nie skomentowała.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-11T20:55:02+00:00",
+   "źródło": {
+    "nazwa": "BBC Europe",
+    "url": "https://www.bbc.co.uk/news/videos/cwvgde9vrdd9o?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a6d5/live/bfca61a0-c5b5-11f1-ad08-b9eb6b599088.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Prezydent USA Donald Trump powiedział w niedzielę, że Rosja i Ukraina zgodziły się wstrzymać wzajemne strajki w infrastrukturze energetycznej.",
+      "„Ze skutkiem natychmiastowym dochodzi do ZAWIESZENIA BRONI w wojnie między Rosją a Ukrainą” - napisał prezydent na swoim portalu społecznościowym Truth Social.",
+      "Trump kontynuował: „Obie strony się zgodziły”, a następnie nalegał na powściągliwość zarówno ze strony Kijowa, jak i Moskwy: „Nie łam tego!„ Nie było natychmiastowego ​potwierdzenia ze strony Moskwy, ale prezydent Ukrainy Wołodymyr Zełenski powiedział na stronie informacyjnej Aksjos w ciągu kilku minut od postu Trumpa, że zawieszenie broni było dla mnie „wiadomością”. „Ogłoszenie zawieszenia broni było dla mnie nowością.",
+      "Jeśli Trump negocjował to z Putinem, powiedz nam, kiedy zacznie się zawieszenie broni; jesteśmy gotowi i przyjmiemy to ”- powiedział Axios .",
+      "Trump i Zełenski w tym tygodniu spierali się o ataki Ukrainy na rosyjskie instalacje diesla, które zdaniem prezydenta USA przyczyniły się do globalnego niedoboru oleju napędowego, a nie do wojny w Iranie."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Trump's",
+    "Ukraine",
+    "What's",
+    "Russia"
+   ],
+   "emotki": [
+    "🕊️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC Europe",
+     "tytuł": "Watch: What's behind Trump's energy ceasefire claim?",
+     "url": "https://www.bbc.co.uk/news/videos/cwvgde9vrdd9o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "Trump claims Russia and Ukraine agreed to 'energy ceasefire'",
+     "url": "https://www.dw.com/en/trump-claims-russia-and-ukraine-agreed-to-energy-ceasefire/a-79634509?maca=en-rss-en-world-4025-rdf"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.959,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.307,
+     "eksponowanie": 0.36,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.511,
+     "treściwość": 0.181,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Watch: What's behind Trump's energy ceasefire claim?",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Sportowy wieczór (11.10.2026)",
+   "lead": "Magazyn Sportowy Wieczór, a w nim: Hubert Hurkacz awansował do 1/8 finału ATP w Szanghaju, Legia Warszawa pokonała Wisłę Kraków w ligowym klasyku, Manchester City lepszy w hicie od Liverpoolu. Program poprowadził Marcin Rams.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-11T20:48:00+00:00",
+   "źródło": {
+    "nazwa": "TVP Sport",
+    "url": "https://sport.tvp.pl/95642708/sportowy-wieczor-11102026-transmisja-na-zywo-online-live-stream",
+    "domena": "sport.tvp.pl"
+   },
+   "obraz": null,
+   "sekcje": [],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Magazyn Sportowy Wieczór",
+    "Szanghaju Legia Warszawa",
+    "Manchester City",
+    "Hubert Hurkacz"
+   ],
+   "emotki": [
+    "🎾"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Sportowy wieczór (11.10.2026)",
+     "url": "https://sport.tvp.pl/95642708/sportowy-wieczor-11102026-transmisja-na-zywo-online-live-stream"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 2.991,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.51,
+     "treściwość": 0.281,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Wygrali, ale szefowi Pogoni i tak puściły hamulce. \"Skandal, dyskryminacja\"",
+   "lead": "W niedzielny wieczór Pogoń Szczecin pokonała 2:0 (1:0) Koronę Kielce , otwiera się w nowym oknie w ramach 10. kolejki Ekstraklasy. Pierwszoplanową postacią spotkania okazał się Paul Mukairu.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-12T03:30:02+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/news-boss-klubu-ekstraklasy-zaatakowal-nie-patrzyl-na-wynik-uderz,nId,23556630",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NE59DUBYXTB6U-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nigeryjczyk zdobył w tym spotkaniu bramkę i zaliczył asystę.",
+      "Wydawało się, że po końcowym gwizdku w obozie zwycięzców panują doskonałe nastroje.",
+      "\"Portowcy\" przedłużyli do ośmiu passę potyczek bez porażki.",
+      "Szef klubu Alex Haditaghi nie zamierzał jednak popadać w zachwyt .",
+      "Systematyczna stronniczość, dyskryminacja i jawne sędziowanie z premedytacją przeciwko Pogoni w kolejnym meczu.",
+      "Dzisiejszy sędzia, Lasyk, to jeden z najgorszych, jakich widziałem od lat!\" - napisał Haditaghi na platformie X.",
+      "\"Czy Lasyk i jego asystenci w ogóle oglądali ten sam mecz?",
+      "Widać wyraźnie, że niektórzy są zdeterminowani, żeby uniemożliwić Pogoni odniesienie sukcesu\" - to dalszy fragment posta.",
+      "Kanadyjski biznesmen irańskiego pochodzenia nie sprecyzował, które fragmenty meczu tak go rozsierdziły."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Pogoni",
+    "Ekstraklasy",
+    "Lasyk",
+    "Pogoń Szczecin"
+   ],
+   "emotki": [
+    "⚽",
+    "🌳"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Wygrali, ale szefowi Pogoni i tak puściły hamulce. \"Skandal, dyskryminacja\"",
+     "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/news-boss-klubu-ekstraklasy-zaatakowal-nie-patrzyl-na-wynik-uderz,nId,23556630"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 2.641,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.594,
+     "treściwość": 0.497,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Europejska piłka nożna: Freiburg przesuwa się na szczyt Bundesligi, podczas gdy Isco utrzymuje Betis latający wysoko",
+   "lead": "Goto zapieczętowuje późne zwycięstwo 2-1 nad Schalke dla 10-osobowego Freiburga Lazio, dołączając do Interu na szczycie Serie A, podczas gdy Roma na Como Ten-man Freiburg zdobył 85-minutowego zwycięzcę przez Keisuke Goto, aby zdobyć 2-1 zwycięstwo domowe nad Schalke 04 w ​niedzielę i awansować na szczyt Bundesligi. Fryburg, który już nagrał płytę klubową…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-11T21:15:26+00:00",
+   "źródło": {
+    "nazwa": "The Guardian Sport",
+    "url": "https://www.theguardian.com/football/2026/oct/11/european-football-lazio-maintain-strong-start-with-win-over-monza",
+    "domena": "theguardian.com"
+   },
+   "obraz": "https://i.guim.co.uk/img/media/4dfca5bfebf95e778103b8778ac15e00be40de4a/117_0_4185_3348/master/4185.jpg?width=140&quality=85&auto=format&fit=max&s=39a00978c9243ce94a568b2bfa6e14f5",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Mistrzowie, Bayern Monachium, którzy w sobotę zremisowali 2-2 z Augsburgiem, są na trzecim miejscu 11.",
+      "Mając Freiburg pod kontrolą, Maximilian Eggestein postawił gospodarzy na czele po 10 minutach, ale Schalke uderzył ponownie przez Adriana Gantenbeina w ciągu pół godziny.",
+      "Freiburg został zredukowany do ​10 mężczyzn, gdy Yuito Suzuki otrzymał drugą żółtą kartkę w 64 minucie, pozornie przekazując Schalke 'owi inicjatywę.",
+      "Ale odwiedzający byli zbyt bierni i ​bezzębni ​w ataku, aby dodatkowy człowiek się liczył, a Fryburg ukarał ich ​pięć ​minut przed końcem, gdy międzynarodowy japoński Goto złapał zwycięzcę zerkającym nagłówkiem.",
+      "Borussia Mönchengladbach pozostała na dnie Bundesligi po niedzielnej porażce 2: 1 z lokalnymi rywalami w Kolonii, w meczu przyćmionym brzydkimi scenami na tarasach.",
+      "Gra została zawieszona na kilka minut, a oddziały prewencji otoczyły blok wypadowy po tym, jak fani Gladbach pojawili się, by wystrzelić fajerwerki do sekcji domowych po wspaniałym zwycięzcy drugiej połowy Saida El Mala.",
+      "To utrzymywało bezsensowny start Gladbacha do sezonu, ponieważ nowy trener, Alexander Blessin, nie zdołał zapobiec piątej porażce klubu w tylu meczach.",
+      "Prawdziwy gracz Betis Isco strzelił w każdej połowie gola, gdy jego strona wygrała 5-2 z Osasuną w niedzielę, co podnosi ich ​na trzecie miejsce w La Liga, pięć punktów za liderami, Barceloną i jeden przed Realem Madrytem.",
+      "Isco strzelił do domu z pola karnego w 10 minucie, aby otworzyć punktację, a Abde Ezzalzouli dodał sekundę ​przed przerwą po tym, jak Betis wygrał piłkę wysoko na boisku i szybko się skontrował."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Dowiedz się, jak słuchać innych stacji BBC Radio 5 Live , · 11 października 2026 r., · 45 minut Rick Edwards, Luke Edwards i Clinton Morrison omawiają najnowszy weekend Premier League.",
+      "Manchester City utrzymał swój idealny start do sezonu na boisku z wygodnym zwycięstwem w Anfield - ale co przyniesie im przyszłość i Premier League po tym, jak zostaną uznani za winnych naruszenia przepisów finansowych?",
+      "Czy po bezzębnym występie któryś ze 100 milionów £ graczy z Liverpoolu okaże się dobry?",
+      "Oliver Glasner przegrał po powrocie do Selhurst Park, a Nottingham Forest przegrało 3: 1 z Crystal Palace - w tym niezwykłe pudło od napastnika Liama Delapa.",
+      "Washington Commanders i New York Giants NFL zakończyły się remisem po tym, jak żadna z drużyn nie mogła zdobyć punktów w dogrywce."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Bundesliga, czasami określana jako Bundesliga Fußball lub 1. Bundesliga, to profesjonalna liga piłkarska w Niemczech i najwyższy poziom niemieckiego systemu ligowego piłki nożnej. Bundesliga składa się z 18 drużyn i działa w systemie awansów i spadków z 2. Sezony trwają od sierpnia do maja. Gry rozgrywane są w piątki, soboty i niedziele, z naciskiem na soboty. Wszystkie kluby Bundesligi biorą udział w rozgrywkach Pucharu Dfb-Pokal. Zwycięzca Bundesligi kwalifikuje się do Superpucharu DFL."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Bundesliga",
+     "url": "https://en.wikipedia.org/wiki/Bundesliga"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10",
+    "85",
+    "04",
+    "13",
+    "11",
+    "64"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Bundesliga",
+    "opis": "German association football league",
+    "tekst": "The Bundesliga, sometimes referred to as the Fußball-Bundesliga or 1. Bundesliga, is a professional association football league in Germany and the highest level of the German football league system. The Bundesliga comprises 18 teams and operates on a system of promotion and relegation with the 2. Bundesliga. Seasons run from August to May. Games are played on Fridays, Saturdays and Sundays, with a focus on Saturdays. All Bundesliga clubs take part in the DFB-Pokal cup competition. The winner of the Bundesliga qualifies for the DFL-Supercup.",
+    "url": "https://en.wikipedia.org/wiki/Bundesliga",
+    "język": "en"
+   },
+   "tagi": [
+    "Schalke",
+    "Inter",
+    "Bundesliga",
+    "Marseille"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "European football: Freiburg move top of Bundesliga while Isco keeps Betis flying high",
+     "url": "https://www.theguardian.com/football/2026/oct/11/european-football-lazio-maintain-strong-start-with-win-over-monza"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Football Daily",
+     "url": "https://www.bbc.co.uk/sounds/play/p0pg61sx?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "The worst football you'll see? Commanders and Giants tie after sloppy overtime!",
+     "url": "https://www.skysports.com/watch/video/13597994/neither-team-wanted-to-win-commanders-and-giants-draw-after-sloppy-ot"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.745,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.515,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.53,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "European football: Freiburg move top of Bundesliga while Isco keeps Betis flying high",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Doku zachwyca rejsem do Manchesteru po 10-osobowym Liverpoolu",
+   "lead": "W swoim pierwszym meczu od czasu uznania go za winnego naruszenia zasad finansowych Premier League, Manchester City odniósł komfortowe zwycięstwo 3: 0 z Liverpoolem na Anfield, przedłużając swój idealny start do sześciu meczów, zdobywając trzy punkty na szczycie Premier League.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-11T18:59:19+00:00",
+   "źródło": {
+    "nazwa": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c6vgy2ll1zypo?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e1f6/live/040fab80-c599-11f1-a64c-550be9e3c66b.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Brighton utrzymało swój doskonały start w nowym sezonie Premier League, pokonując Sunderland 2: 0 na Stadionie Światła, pomimo konieczności grania przez większość drugiej połowy z dziesięcioma mężczyznami, po tym jak Pascal Struijk otrzymał kontrowersyjną czerwoną kartkę.",
+      "Przemawiając na Match of the Day, Wayne Rooney i Toby Alderweireld analizują, jak Jeremy Doku zmienił grę na korzyść Manchesteru City, po tym, jak pojawił się jako zastępca w wygranym 3-0 meczu z Liverpoolem w Anfield.",
+      "Przeżyj pięć klasycznych chwil między Liverpoolem a Manchesterem przed niedzielnym meczem Premier League w Anfield (16:30 BST).",
+      "Jestem tutaj, aby wygrać„ City win 3-0 w Anfield w pierwszym meczu od wyroku skazującego Enzo Maresca pochwalił Manchester City za„ robienie własnego hałasu ”w Liverpoolu, gdy odsuwali na bok kontrowersje i zagrożenia otaczające klub z kompleksową wygraną 3-0 w Anfield.",
+      "Miasto, podczas swojej pierwszej wycieczki po tym, jak klub został uznany za winnego 114 zarzutów związanych z zasadami finansowymi Premier League, utrzymało swój 100% start do sezonu dzięki golom od Erlinga Haalanda, doskonałego Jérémy 'ego Doku i Rayana Cherkiego.",
+      "Szóste z rzędu zwycięstwo w lidze sprawiło, że Maresca zrównał najlepszy start z menadżerskim panowaniem w historii Premier League i utrzymał City na szczycie tabeli.",
+      "Mam nadzieję, że będę mógł opowiedzieć o tej sytuacji, kiedy wygramy apelację.\"Dyrektor generalny miasta, Ferran Soriano, był obecny w Anfield, gdy konsekwencje wyroku skazującego klubu nadal się utrzymują."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Manchester City Football Club, powszechnie nazywany Man City lub po prostu City, to profesjonalny klub piłkarski z siedzibą w Manchesterze w Anglii, który rywalizuje w Premier League, najwyższym locie angielskiej piłki nożnej. Marka, w 1887 roku zostali klubem piłkarskim Ardwick Association, a w 1894 roku Manchester City. Stadionem klubu jest City of Manchester Stadium we wschodnim Manchesterze, do którego przeniósł się w 2003 roku, grając na Maine Road od 1923 roku. Manchester City przyjął swoje niebieskie koszule domowe w 1894 roku, pierwszym sezonie z obecną nazwą."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Manchester City F.C.",
+     "url": "https://en.wikipedia.org/wiki/Manchester_City_F.C."
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "16",
+    "30",
+    "114",
+    "100%",
+    "62",
+    "15"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Manchester City F.C.",
+    "opis": "Association football club in England",
+    "tekst": "Manchester City Football Club, commonly referred to as Man City or simply City, is a professional football club based in Manchester, England, that competes in the Premier League, the top flight of English football. Founded in 1880 as St. Mark's, they became Ardwick Association Football Club in 1887 and Manchester City in 1894. The club's home ground is the City of Manchester Stadium in east Manchester, to which they moved in 2003, having played at Maine Road since 1923. Manchester City adopted their sky blue home shirts in 1894, the first season with the current name.",
+    "url": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
+    "język": "en"
+   },
+   "tagi": [
+    "Manchester City",
+    "Premier League",
+    "Liverpool",
+    "Anfield"
+   ],
+   "emotki": [
+    "⚽",
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Doku delights as Manchester City cruise past 10-man Liverpool",
+     "url": "https://www.bbc.co.uk/sport/football/videos/c6vgy2ll1zypo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Struijk sees red but Brighton march on with win against Sunderland",
+     "url": "https://www.bbc.co.uk/sport/football/videos/c6n8m3k7egd9o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "'Big star' - How Doku delivered for Man City in win against Liverpool",
+     "url": "https://www.bbc.co.uk/sport/football/videos/c8g47knxqvgdo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Top five Liverpool-Man City moments",
+     "url": "https://www.bbc.co.uk/sport/football/videos/cqvg0m1my97go?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "‘We make our own noise’: Maresca hails Manchester City after Liverpool triumph",
+     "url": "https://www.theguardian.com/football/2026/oct/11/enzo-maresca-manchester-city-liverpool-premier-league"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Who 'simply has to do better'? Liverpool v Man City player ratings",
+     "url": "https://www.bbc.co.uk/sport/football/articles/ck87z1jjynyqo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Tension, ‘cheat’ banners and inflatable bananas: Manchester City’s welcome to Anfield",
+     "url": "https://www.theguardian.com/football/2026/oct/11/tension-banners-and-inflatable-bananas-manchester-citys-welcome-to-anfield"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Manchester United and Spurs come back to reality as City saga offers brief distraction | John Brewin",
+     "url": "https://www.theguardian.com/football/2026/oct/10/draw-brings-no-respite-for-manchester-united-and-tottenham-as-crises-continue"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Cherki cracker caps Manchester City win at Liverpool in face of Anfield taunts",
+     "url": "https://www.theguardian.com/football/2026/oct/11/liverpool-manchester-city-premier-league-match-report"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.04,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 2.702,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.538,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Doku delights as Manchester City cruise past 10-man Liverpool",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "To może być największy serial sci-fi tego roku. Blade Runner 2099 coraz bliżej",
+   "lead": "Amazon Prime Video prezentuje najnowszy zwiastun serialu „Blade Runner 2099”, który jeszcze w tym roku zabierze widzów do futurystycznego Los Angeles, gdzie ludzie i replikanci ponownie staną po przeciwnych stronach barykady. Na ten serial fani science fiction czekają od lat.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-11T11:15:23+00:00",
+   "źródło": {
+    "nazwa": "Antyweb",
+    "url": "https://antyweb.pl/to-moze-byc-najwiekszy-serial-sci-fi-tego-roku-blade-runner-2099-coraz-blizej",
+    "domena": "antyweb.pl"
+   },
+   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2026/10/blade-runner.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Po kultowym „Łowcy androidów” Ridleya Scotta z 1982 roku oraz bardzo dobrze przyjętym „Blade Runner 2049” w reżyserii Denisa Villeneuve'a przyszedł czas na kolejny rozdział historii, którą swoje początki ma w książce „Czy androidy śnią o elektrycznych owcach?” autorstwa Philipa K.",
+      "Jednak tym razem nie będzie to pełnometrażowy film, lecz ośmioodcinkowy serial przygotowany dla platformy Amazon Prime Video.",
+      "Amazon zaprezentował właśnie nowy zwiastun produkcji podczas trwającego jeszcze konwentu New York Comic Con.",
+      "W wydarzeniu uczestniczyły między innymi odtwórczynie głównych ról, czyli Michelle Yeoh oraz Hunter Schafer, które pojawiły się na specjalnym panelu dyskusyjnym w pełni poświeconym serialowi.",
+      "Akcja serialu „ Blade Runner 2099” rozgrywa się 50 lat po wydarzeniach przedstawionych w „Blade Runner 2049”.",
+      "Los Angeles przeszło ogromną transformację, a dominującą pozycję zajmują teraz replikanci.",
+      "Ludzie, którzy wcześniej kontrolowali sztucznych ludzi, muszą odnaleźć się w rzeczywistości, w której dotychczasowy porządek został całkowicie odwrócony.",
+      "Główną bohaterką opowieści ma być Cora, grana przez Hunter Schafer, którą widzowie z pewnością pamiętają z roli Jules serialu „Euforia”.",
+      "Cora od lat ukrywa się przed replikantami i podejmuje desperacką próbę rozpoczęcia nowego życia, przyjmując tożsamość łowczyni androidów."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Blade Runner is a 1982 science fiction film directed by Ridley Scott from a screenplay by Hampton Fancher and David Peoples. Starring Harrison Ford, Rutger Hauer, Sean Young, and Edward James Olmos, it is an adaptation of the 1968 novel Do Androids Dream of Electric Sheep? by Philip K. Dick. The film is set in a dystopian future Los Angeles of 2019, in which synthetic humans known as replicants are bio-engineered by the powerful Tyrell Corporation to work on space colonies. When a fugitive group of advanced replicants led by Roy Batty (Hauer) escapes back to Earth, former cop Rick Deckard (Ford) is recalled to hunt them down."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Blade Runner",
+     "url": "https://en.wikipedia.org/wiki/Blade_Runner"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "50 lat",
+    "25"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Blade Runner",
+    "opis": "1982 film by Ridley Scott",
+    "tekst": "Blade Runner is a 1982 science fiction film directed by Ridley Scott from a screenplay by Hampton Fancher and David Peoples. Starring Harrison Ford, Rutger Hauer, Sean Young, and Edward James Olmos, it is an adaptation of the 1968 novel Do Androids Dream of Electric Sheep? by Philip K. Dick. The film is set in a dystopian future Los Angeles of 2019, in which synthetic humans known as replicants are bio-engineered by the powerful Tyrell Corporation to work on space colonies. When a fugitive group of advanced replicants led by Roy Batty (Hauer) escapes back to Earth, former cop Rick Deckard (Ford) is recalled to hunt them down.",
+    "url": "https://en.wikipedia.org/wiki/Blade_Runner",
+    "język": "en"
+   },
+   "tagi": [
+    "Blade Runner",
+    "Amazon Prime Video",
+    "Hunter Schafer",
+    "Michelle Yeoh"
+   ],
+   "emotki": [
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Antyweb",
+     "tytuł": "To może być największy serial sci-fi tego roku. Blade Runner 2099 coraz bliżej",
+     "url": "https://antyweb.pl/to-moze-byc-najwiekszy-serial-sci-fi-tego-roku-blade-runner-2099-coraz-blizej"
+    },
+    {
+     "nazwa": "Ars Technica",
+     "tytuł": "Prime Video unveils Blade Runner 2099 full trailer at NYCC",
+     "url": "https://arstechnica.com/culture/2026/10/prime-video-unveils-blade-runner-2099-full-trailer-at-nycc/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.222,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.385,
+     "eksponowanie": 0.72,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.436,
+     "treściwość": 0.281,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Google mierzy się z indyjskim centrum danych",
+   "lead": "Kajdanki otaczają logo Google na jednym plakacie kampanii, podczas gdy inny ostrzega, że ludzie „nie mogą pić danych”, ponieważ opozycja wzrasta do planowanego mega udogodnienia AI giganta technologicznego w Indiach. Koparki ruszyły do akcji, oczyszczając lasy i pola uprawne na południowo-wschodnim wybrzeżu za 15 miliardów $ na budowę...",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-11T15:29:03+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Technology",
+    "url": "https://techxplore.com/news/2026-10-google-backlash-india-center.html",
+    "domena": "techxplore.com"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/india-connectivity-upg.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Projekt w Visakhapatnam w stanie Andhra Pradesh, port często nazywany Vizag, jest promowany przez Indie jako kamień węgielny ich ambicji technologicznych.",
+      "Ale wielu mieszkańców obawia się, że centrum danych - jedna z kilku ogromnych nowych lokalizacji technologicznych w Vizag - nadwyręży zasoby wody i energii, zaszkodzi środowisku i przyniesie w zamian zbyt mało miejsc pracy.",
+      "Rolnik Chandala Sadamma powiedział AFP, że kiedy widzi blizny po czerwonej ziemi, gdzie kiedyś stała jej działka z drzewami mango i orzechów nerkowca, „Mam ochotę płakać.„ Zapłacono jej ponad 82 000 $ za dwa akry (0,8 hektara) ziemi, ale transakcja pozostała gorzka.",
+      "„Jakaś firma przyszła i nie okazując szacunku, zabrali ziemię, a my ją przyjęliśmy” - powiedział 50-latek.",
+      "Vizag jest miejscem lądowania podmorskich kabli internetowych łączących kraj z Singapurem, więc dla Indii lokalizacja 600-akrowego obiektu (243 hektary)- ponad 340 boisk piłkarskich - jest idealna.",
+      "„Inwestycja AI Hub to wieloletnie zobowiązanie” niosące „obowiązek bycia dobrym sąsiadem” - powiedział Alexander Smith, szef infrastruktury i energii Google dla regionu Azji i Pacyfiku.",
+      "„Dział wodny, siatka i społeczności wokół naszych obiektów muszą być dla nas lepsze.„ Rząd Andhra Pradesh powiedział AFP, że oprócz rekompensaty finansowej buduje się nowe mieszkania i przekazuje je ludziom, którzy mieszkali na miejscu.",
+      "Rządy i firmy technologiczne na całym świecie wydają biliony dolarów na centra danych - okularowe budynki wypełnione szafami serwerowymi z serwerami, które zasilają aplikacje i narzędzia sztucznej inteligencji.",
+      "Jednak zmiany te wywołały reakcję w wielu krajach, a fińskie władze nakazały niedawno wstrzymanie prac nad dwoma witrynami centrum danych Google w oczekiwaniu na obowiązkowe oceny środowiskowe."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Budowa ogromnego centrum danych Google w indyjskim mieście Visakhapatnam spotkała się z oporem mieszkańców, którzy obawiają się wpływu na środowisko i swoje życie.",
+      "Amazon podążył ostatnio za przykładem Microsoftu i oświadczył, że nie będzie już korzystać z umów o zachowaniu poufności (NDA) podczas negocjacji z lokalnymi władzami w sprawie centrów danych.",
+      "W najnowszym odcinku podcastu TechCrunch Equity Sean O’Kane, Rebecca Bellan i ja omówiliśmy ogłoszenie Amazona, które pojawiło się w środku dłuższego postu na blogu, twierdząc, że centra danych są w rzeczywistości dobre dla społeczności.",
+      "Rebecca była nieco sceptyczna co do tego, że niedawna fala moratorium na centra danych będzie miała trwały wpływ, zwłaszcza że moratorium trwa tylko rok lub dwa i „te centra danych nie będą dostępne przez następne dwa, trzy, cztery, pięć lat”, chociaż odpowiedziałem, że zwolennicy centrów danych zdecydowanie wydają się zaniepokojeni.",
+      "Sean: To ciekawe, że zostało to zakopane w poście na blogu i jest częścią większej historii, którą Amazon wyraźnie próbuje opowiedzieć.",
+      "Chyba rozumiem, dlaczego nie umieszczali tego na pierwszym planie, ale dla mnie jest to źródło tak wielu problemów, z którymi boryka się obecnie branża technologiczna, jeśli chodzi o szeroko pojętą sztuczną inteligencję, ale w szczególności centra danych."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Indie, oficjalnie Republika Indii, to kraj w Azji Południowej. Jest siódmym co do wielkości krajem na świecie pod względem powierzchni i najbardziej zaludnionym. Ograniczony Oceanem Indyjskim na południu, Morzem Arabskim na południowym zachodzie i Zatoką Bengalską na południowym wschodzie, graniczy z Pakistanem na zachodzie, Chinami, Nepalem i Bhutanem na północy oraz Bangladeszem i Mjanmą na wschodzie. Na Oceanie Indyjskim Indie znajdują się w pobliżu Sri Lanki i Malediwów."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: India",
+     "url": "https://en.wikipedia.org/wiki/India"
+    }
+   ],
+   "dlaczego_to_ważne": "Aktywiści w Andhra Pradesh domagają się również moratorium na nowe centra danych w całym stanie do czasu opublikowania niezależnych ocen wpływu na środowisko i społeczeństwo.",
+   "liczby": [
+    "15 billion",
+    "82,000",
+    "0.8",
+    "50",
+    "600",
+    "243"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "India",
+    "opis": "Country in South Asia",
+    "tekst": "India, officially the Republic of India, is a country in South Asia. It is the world's seventh-largest country by area and its most populous. Bounded by the Indian Ocean on the south, the Arabian Sea on the southwest, and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west, China, Nepal, and Bhutan to the north, and Bangladesh and Myanmar to the east. In the Indian Ocean, India is near Sri Lanka and the Maldives.",
+    "url": "https://en.wikipedia.org/wiki/India",
+    "język": "en"
+   },
+   "tagi": [
+    "India",
+    "Andhra Pradesh",
+    "United States",
+    "Visakhapatnam"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Technology",
+     "tytuł": "Google faces backlash against India data center",
+     "url": "https://techxplore.com/news/2026-10-google-backlash-india-center.html"
+    },
+    {
+     "nazwa": "Phys.org Technology",
+     "tytuł": "Power, water, jobs: Google on India data center concerns",
+     "url": "https://techxplore.com/news/2026-10-power-jobs-google-india-center.html"
+    },
+    {
+     "nazwa": "TechCrunch",
+     "tytuł": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+     "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 3,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.277,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.415,
+     "eksponowanie": 0.27,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.461,
+     "treściwość": 0.231,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Google faces backlash against India data center",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Naukowcy dokonują oszałamiającego odkrycia, które może pomóc wyjaśnić, dlaczego życie istnieje",
+   "lead": "Wyobraź sobie wszechświat, w którym gwiazdy wciąż świecą, planety wciąż się formują, a woda istnieje, ale ciecze są tak gęste, że żywe komórki ledwo mogą funkcjonować. Nawet ze składnikami chemicznymi do życia, warunki mogą uniemożliwić żywe organizmy.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-11T16:35:58+00:00",
+   "źródło": {
+    "nazwa": "ScienceDaily Physics",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261009025602.htm",
+    "domena": "sciencedaily.com"
+   },
+   "obraz": "https://www.sciencedaily.com/images/1920/universe-laws-liquids.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Naukowcy odkryli niezwykły związek między podstawowymi prawami fizyki a zdolnością życia do istnienia.",
+      "Ich odkrycia sugerują, że nawet stosunkowo niewielkie zmiany niektórych podstawowych stałych fizycznych wszechświata mogą radykalnie zmienić sposób przepływu cieczy, potencjalnie uniemożliwiając zachodzenie istotnych procesów biologicznych.",
+      "Odkrycie, szczegółowo opisane w badaniu opublikowanym w Science Advances , pochodzi od fizyka Kostyi Trachenko z Queen Mary University of London.",
+      "Jego analiza teoretyczna zidentyfikowała dodatkowe ograniczenie wartości podstawowych stałych fizycznych: muszą one umożliwiać przepływ płynów w sposób podtrzymujący życie w komórkach i między nimi.",
+      "Dlaczego fundamentalne prawa natury mają wartości, które wydają się tak dobrze dopasowane do istnienia życia?",
+      "Podstawowymi stałymi, które kształtują nasze podstawowe stałe fizyczne Wszechświata, są liczby, które rządzą tym, jak działa wszechświat.",
+      "Przykłady obejmują masę i ładunek elektryczny elektronu oraz stałą Plancka, która odgrywa centralną rolę w mechanice kwantowej, gałęzi fizyki opisującej materię i energię w niezwykle małych skalach.",
+      "Ilości te są ogólnie uważane za uniwersalne i niezmienne w czasie.",
+      "Ich wartości wpływają na wszystko, od zachowania atomów i wiązań chemicznych po reakcje jądrowe, które napędzają gwiazdy i wytwarzają pierwiastki niezbędne do życia."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Naukowcy w Wiedniu dokonali ogromnego przełomu w mierzeniu czasu, tworząc pierwszy na świecie samostabilizujący się zegar jądrowy, technologię, która może ostatecznie przewyższyć nawet najbardziej precyzyjne zegary atomowe.",
+      "Zamiast polegać na elektronach w atomach, zegar wykorzystuje maleńkie jądra atomów toru, które są znacznie mniej wrażliwe na zakłócenia zewnętrzne."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Londyn jest stolicą i największym miastem Anglii i Wielkiej Brytanii, z populacją 9,14 miliona ludzi w 2025 roku. Jej szerszy obszar metropolitalny jest największy w Europie Zachodniej i liczy 15,4 mln mieszkańców. Londyn stoi nad Tamizą w południowo-wschodniej Anglii, u szczytu 50-milowego (80 km) ujścia pływowego do Morza Północnego i jest główną osadą od prawie 2000 lat. Jego starożytny rdzeń i centrum finansowe, City of London, zostało założone przez Rzymian jako Londinium i zachowało swoje średniowieczne granice. Miasto Westminster, na zachód od Londynu, od wieków jest siedzibą rządu i parlamentu narodowego. Londyn szybko się rozwijał w XIX wieku, stając się wówczas największym miastem na świecie. Od XIX wieku nazwa „Londyn” odnosi się do metropolii wokół Londynu, historycznie podzielonej między…"
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: London",
+     "url": "https://en.wikipedia.org/wiki/London"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "London",
+    "opis": "Capital of England and the United Kingdom",
+    "tekst": "London is the capital and largest city of England and the United Kingdom, with a population of 9.14 million people in 2025. Its wider metropolitan area is the largest in Western Europe, with a population of 15.4 million. London stands on the River Thames in southeast England, at the head of a 50-mile (80 km) tidal estuary down to the North Sea, and has been a major settlement for nearly 2,000 years. Its ancient core and financial centre, the City of London, was founded by the Romans as Londinium and has retained its medieval boundaries. The City of Westminster, to the west of the City of London, has been the site of the national government and parliament for centuries. London grew rapidly in the 19th century, becoming the world's largest city at the time. Since the 19th century the name \"London\" has referred to the metropolis around the City of London, historically split among the…",
+    "url": "https://en.wikipedia.org/wiki/London",
+    "język": "en"
+   },
+   "tagi": [
+    "Trachenko",
+    "Queen Mary University",
+    "London",
+    "Planck"
+   ],
+   "emotki": [
+    "🪐"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "ScienceDaily Physics",
+     "tytuł": "Scientists make stunning discovery that could help explain why life exists",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261009025602.htm"
+    },
+    {
+     "nazwa": "ScienceDaily Physics",
+     "tytuł": "Scientists build a nuclear clock that could make atomic clocks obsolete",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261008102701.htm"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.875,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.208,
+     "eksponowanie": 1.71,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.457,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Scientists make stunning discovery that could help explain why life exists",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Impulsy lasera ultrafioletowego projektują defekty diamentowe selektywnie, pozostawiając kubity kwantowe nienaruszone",
+   "lead": "Kiedy myślimy o diamencie, często myślimy o materiale, którego wartość wynika z jego doskonałości. W moich badaniach interesuje mnie jednak coś wręcz przeciwnego: drobne niedoskonałości wewnątrz diamentów.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-10T21:20:01+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-10-ultraviolet-laser-pulses-diamond-defects.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/ultraviolet-laser-puls.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Te wady w skali atomowej mogą nadawać diamentom nowe właściwości optyczne i elektroniczne, a niektóre z nich mogą służyć jako układy kwantowe.",
+      "Wyzwaniem jest nauczenie się, jak kontrolować te defekty bez przeszkadzania innym.",
+      "Problem ten staje się szczególnie istotny dla technologii kwantowych.",
+      "Na przykład centrum azot-wakancja (NV) jest defektem powstającym, gdy w sieci diamentowej występuje atom azotu i sąsiednia pusta przestrzeń.",
+      "Centra NV mogą być używane jako bity kwantowe lub kubity oraz jako wysoce czułe czujniki pól magnetycznych i elektrycznych.",
+      "Jednak utworzenie lub modyfikacja jednego rodzaju wady może również wpłynąć na inne wady w pobliżu.",
+      "Nasza praca, opublikowana obecnie w czasopiśmie Diamond and Related Materials , badała, czy impulsy lasera ultrafioletowego mogą zapewnić taką kontrolę.",
+      "Zastosowałem jednokrystaliczny diament do chemicznego osadzania z fazy gazowej (CVD) i napromieniowane zlokalizowane obszary kryształu z 266-nanometrowymi impulsami lasera ultrafioletowego.",
+      "Impulsy trwały tylko kilka nanosekund, umożliwiając dostarczanie energii lasera do bardzo małego obszaru materiału."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Diamond and Related Materials to recenzowane czasopismo naukowe w dziedzinie materiałoznawstwa, obejmujące badania wszystkich form diamentów i innych pokrewnych materiałów, w tym węgli diamentopodobnych, nanorurek węglowych, grafenu oraz azotków boru i węgla. Czasopismo wydaje Elsevier, a redaktorem naczelnym jest Ken Haenen."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Diamond and Related Materials",
+     "url": "https://en.wikipedia.org/wiki/Diamond_and_Related_Materials"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "266",
+    "563",
+    "579",
+    "100,000",
+    "10.1016"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Diamond and Related Materials",
+    "opis": "Academic journal",
+    "tekst": "Diamond and Related Materials is a peer-reviewed scientific journal in materials science covering research on all forms of diamond and other related materials, including diamond-like carbons, carbon nanotubes, graphene, and boron and carbon nitrides. The journal is published by Elsevier and the editor-in-chief is Ken Haenen.",
+    "url": "https://en.wikipedia.org/wiki/Diamond_and_Related_Materials",
+    "język": "en"
+   },
+   "tagi": [
+    "Related Materials",
+    "Diamond",
+    "Science",
+    "NV-center"
+   ],
+   "emotki": [
+    "⚛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Ultraviolet laser pulses engineer diamond defects selectively, leaving quantum qubits intact",
+     "url": "https://phys.org/news/2026-10-ultraviolet-laser-pulses-diamond-defects.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.337,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.72,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.217,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Ultraviolet laser pulses engineer diamond defects selectively, leaving quantum qubits intact",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Astronomowie wykrywają potencjalną planetę „drugiej generacji” wokół umierającego białego karła",
+   "lead": "Astronomowie potencjalnie wykryli pierwszą znaną planetę drugiej generacji; w tym przypadku planetę podobną do Jowisza, która prawdopodobnie powstała z nagromadzenia szczątków wyrzuconych przez umierającego białego karła gwiazdowego. Zidentyfikowany jako HS 0209+0832, niezwykły makijaż atmosferyczny tego konkretnego białego karła jest tym, co jako pierwsze skłoniło…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-11T02:49:08+00:00",
+   "źródło": {
+    "nazwa": "Universe Today",
+    "url": "https://www.universetoday.com/articles/astronomers-detect-potential-second-generation-planet-around-dying-stellar-white-dwarf",
+    "domena": "universetoday.com"
+   },
+   "obraz": "https://www.universetoday.com/article_images/STScI-01M3CBK3T6SRKP4Q7WV9CGFGW9_20261011_024203.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Położony około 270 lat świetlnych dalej w południowej konstelacji Wieloryba, HS 0209+0832 ma atmosferę, która zawiera cynk, miedź, aluminium, krzem i tytan.",
+      "Ale co najważniejsze, zawiera niezwykle rzadki pierwiastek ziem rzadkich niob, który brytyjski zespół odkrył na poziomach ponad 1000 razy wyższych niż nasze Słońce.",
+      "Zespół zauważył w artykule opublikowanym w czasopiśmie Nature Astronomy, że ich zdaniem najbardziej prawdopodobnym wyjaśnieniem jest to, że biały karzeł, HS 0209 +0832, żywi się nowo utworzoną, drugą generacją gigantycznej planety, która skondensowała się z nowego dysku materiału utworzonego podczas śmierci gwiazdy, donosi Uniwersytet w Warwick.",
+      "Wiemy teraz, że pierwiastki takie jak niob mogą być używane jako sygnatury akrecji z planet drugiej generacji - powiedział Jamie Williams, główny autor artykułu Nature Astronomy i doktorant fizyki na Uniwersytecie Warwick w Wielkiej Brytanii.",
+      "Williams powiedział mi, że obserwowanie kolejnych gorących białych krasnoludków z Hubble 'em mogłoby odkryć więcej kandydatów.",
+      "Korzystając z archiwalnych danych z teleskopu Hubble 'a i FUSE (Far Ultraviolet Spectroscopic Explorer), a także TESS (Transiting Exoplanet Survey Satellite) NASA, badania wykazały, że przypuszczalna planeta krąży wokół HS 0209 +0832 na niezwykle krótkiej orbicie wynoszącej zaledwie 4,4 dnia.",
+      "Przede wszystkim odkrycie pokazuje, że planety blisko siebie wokół białych karłów mogą tworzyć się po spalającej wodór sekwencji głównej gwiazdy.",
+      "Od dziesięcioleci astrofizycy spierają się o to, czy możliwe byłoby uformowanie się planety z resztek gwiazdy, a to wykrycie oznacza pierwsze takie zdarzenie.",
+      "Wynik ten otwiera drzwi do idei, że nawet w przypadku śmierci gwiazdy typu słonecznego mogą produkować planety, które mogą potencjalnie oferować ograniczoną możliwość zamieszkania."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "0209",
+    "0832",
+    "25",
+    "270",
+    "1000",
+    "4.4"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Williams",
+    "University",
+    "Earth",
+    "Sun"
+   ],
+   "emotki": [
+    "🪐",
+    "🔭"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Universe Today",
+     "tytuł": "Astronomers Detect Potential ‘Second Generation’ Planet Around Dying Stellar White Dwarf",
+     "url": "https://www.universetoday.com/articles/astronomers-detect-potential-second-generation-planet-around-dying-stellar-white-dwarf"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.13,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.285,
+     "treściwość": 0.165,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Astronomers Detect Potential ‘Second Generation’ Planet Around Dying Stellar White Dwarf",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Honda chce umieścić zrobotyzowanego asystenta laboratoryjnego na przyszłych komercyjnych stacjach kosmicznych",
+   "lead": "Pisząc to, jestem w stanie wpatrywać się w mój podjazd na moją wierną Hondę Odyseję. Większość opinii publicznej kojarzy się z Hondą poprzez ich produkty „mobilne” - tj. ich samochody.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-11T12:33:57+00:00",
+   "źródło": {
+    "nazwa": "Universe Today",
+    "url": "https://www.universetoday.com/articles/honda-wants-to-put-a-robotic-lab-assistant-on-future-commercial-space-stations",
+    "domena": "universetoday.com"
+   },
+   "obraz": "https://www.universetoday.com/article_images/Embed_20261007_121216.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Firma ma jednak imponujące doświadczenie w innych osiągnięciach technicznych, w tym w robotyce.",
+      "Teraz współpracuje z firmą Redwire zajmującą się infrastrukturą kosmiczną, aby opracować zautomatyzowany system wsparcia laboratoryjnego do wykorzystania na przyszłych komercyjnych stacjach kosmicznych.",
+      "Zapytaj każdego, kto kiedykolwiek pracował na Międzynarodowej Stacji Kosmicznej (ISS), a powie Ci, że najbardziej ograniczonym zasobem jest czas astronauty.",
+      "Kiedy są na pokładzie, ludzie na ISS zasadniczo planują dla nich każdą minutę każdego dnia.",
+      "Niektóre z tych minut zajmują bardzo przyziemne rzeczy, takie jak skanowanie kodów kreskowych do zarządzania zapasami lub wymiana biologicznych tac na próbki.",
+      "Astronauci to jedni z najbardziej wykształconych ludzi na świecie, a ich czas jest niezwykle cenny - ale muszą też poradzić sobie z podstawowymi zadaniami utrzymania laboratorium na stacjach kosmicznych, ponieważ nie ma na to dosłownie nikogo innego.",
+      "W rzeczywistości czas jest zasobem, którego brakuje nawet samemu ISS.",
+      "Około 2030 roku NASA planuje deorbitację stacji, która jest mniej więcej wielkości boiska piłkarskiego, rozbijając ją w najodleglejszej części Oceanu Spokojnego.",
+      "W jego miejsce kilka prywatnych firm, takich jak Axiom Space, Vast i Orbital Reef, ma nadzieję uruchomić własne wersje stacji kosmicznych, w których NASA będzie po prostu jednym z wielu klientów."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Ideę chęci można rozpatrywać z wielu perspektyw. W społeczeństwach świeckich chęć można uznać za zbliżoną do pragnienia emocjonalnego, które można badać naukowo poprzez dyscypliny psychologii czy socjologii. Alternatywnie pragnienie może być badane w sposób niesekularny, duchowy, moralistyczny lub religijny, szczególnie przez buddyzm, ale także chrześcijaństwo, islam i judaizm."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Want",
+     "url": "https://en.wikipedia.org/wiki/Want"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Want",
+    "opis": "Economic term for something that is desired",
+    "tekst": "The idea of want can be examined from many perspectives. In secular societies want might be considered similar to the emotion desire, which can be studied scientifically through the disciplines of psychology or sociology. Alternatively want can be studied in a non-secular, spiritual, moralistic or religious way, particularly by Buddhism but also Christianity, Islam and Judaism.",
+    "url": "https://en.wikipedia.org/wiki/Want",
+    "język": "en"
+   },
+   "tagi": [
+    "ISS",
+    "Honda",
+    "Redwire",
+    "I’m"
+   ],
+   "emotki": [
+    "🤖"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Universe Today",
+     "tytuł": "Honda Wants to Put a Robotic Lab Assistant on Future Commercial Space Stations",
+     "url": "https://www.universetoday.com/articles/honda-wants-to-put-a-robotic-lab-assistant-on-future-commercial-space-stations"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.067,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.407,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Honda Wants to Put a Robotic Lab Assistant on Future Commercial Space Stations",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "At least 4 dead as cyclone Isaias drenches southern U.S.",
+   "lead": "Four people died in the southeastern United States as post-tropical cyclone Isaias posed flooding and tornado risks Saturday as it moved northward after making landfall on Florida's Gulf Coast. Isaias roared ashore late Friday as a Category 2 hurricane near the resort community of Destin, packing sustained winds of 105…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-11T16:20:04+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Earth",
+    "url": "https://phys.org/news/2026-10-dead-cyclone-isaias-drenches-southern.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-strong-wind-overtu.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "It was the first hurricane of an Atlantic season tamed by a historic El Niño weather phenomenon, and the first hurricane since 2024 to hit the U.S. mainland.",
+      "In Mary Esther, a coastal community near Destin, Matt Howard said he was fortunate the storm weakened ahead of landfall.",
+      "Despite losing power and having his neighbor's metal shed crash into his backyard, \"overall, we were OK,\" he told AFP.",
+      "\"We hunkered down, got in the center of our house, and did all the things you're supposed to do, and luckily came out on the other side,\" he said.",
+      "Officials reported at least four deaths related to the storm, including two from trees falling on homes—one near Pensacola in Florida and another in Birmingham, Alabama.",
+      "AFP reporters saw overturned vehicles, downed trees and power lines, and numerous buildings with damaged roofs.",
+      "Streets along the coast were largely deserted after authorities ordered mandatory evacuations ahead of the storm.",
+      "Ron DeSantis warned at a briefing Saturday afternoon that threats remained even though the storm had passed.",
+      "Downed power lines, standing water, any of that can be very, very hazardous."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Read the full story here Key things to know about Hurricane Isaias In Florida , one person was killed after a tree fell on their home, the state’s governor, Ron DeSantis , said at an afternoon news conference on Saturday.",
+      "Earlier reports indicated one casualty due to a downed tree hitting a home, but details around the second death remain unknown. “This storm cannot clear fast enough,” Ivey wrote in a Saturday statement to social media. “It brought heavy winds throughout Alabama, taking down trees, knocking out power and doing some damage.",
+      "After beginning as a category 2 hurricane, Isaias weakened to a post-tropical cyclone early on Saturday after it made landfall in Florida and lashed the US Gulf coast with heavy rain and fierce winds.",
+      "As of Saturday evening, it is hovering at about 630,000, according to poweroutage.com ."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Saturday is the day of the week between Friday and Sunday. No later than the 2nd century AD, the Romans named Saturday diēs Sāturnī for the god Saturn. His planet, Saturn, controlled the first hour of that day, according to Vettius Valens."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Saturday",
+     "url": "https://en.wikipedia.org/wiki/Saturday"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "105",
+    "165",
+    "440,000",
+    "4 million",
+    "636 million",
+    "25"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "The Guardian Environment",
+     "ujęcie": "In Alabama , two people are dead, according to that state’s governor, Kay Ivey .",
+     "url": "https://www.theguardian.com/world/live/2026/oct/10/hurricane-isaias-gulf-coast-alabama-florida-louisiana-mississippi-latest-updates"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Saturday",
+    "opis": "Day of the week",
+    "tekst": "Saturday is the day of the week between Friday and Sunday. No later than the 2nd century AD, the Romans named Saturday diēs Sāturnī for the god Saturn. His planet, Saturn, controlled the first hour of that day, according to Vettius Valens.",
+    "url": "https://en.wikipedia.org/wiki/Saturday",
+    "język": "en"
+   },
+   "tagi": [
+    "Saturday",
+    "Isaias",
+    "Atlantic",
+    "El Niño"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Earth",
+     "tytuł": "At least 4 dead as cyclone Isaias drenches southern U.S.",
+     "url": "https://phys.org/news/2026-10-dead-cyclone-isaias-drenches-southern.html"
+    },
+    {
+     "nazwa": "The Guardian Environment",
+     "tytuł": "Hurricane Isaias updates: at least four people dead and hundreds of thousands without power – as it happened",
+     "url": "https://www.theguardian.com/world/live/2026/oct/10/hurricane-isaias-gulf-coast-alabama-florida-louisiana-mississippi-latest-updates"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.061,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.307,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.454,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Śląskie: przetarg na cyfryzację danych PZGiK",
+   "lead": "Do 2 listopada br. można składać oferty w przetargu na cyfryzację zbiorów danych baz PZGiK wybranych jednostek województwa śląskiego. Zamówienie realizowane jest w ramach projektu pn.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-12T00:00:00+00:00",
+   "źródło": {
+    "nazwa": "Geoforum",
+    "url": "https://geoforum.pl/news/37417/slaskie-przetarg-na-cyfryzacje-danych-pzgik",
+    "domena": "geoforum.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Podniesienie jakości, dostępności oraz zwiększenie wykorzystania administracyjnych zasobów mapowych etap II .",
+      "Zamówienie zostało podzielone na sześć części, których przedmiotem jest: części I powiat bielski , II m.",
+      "Bielsko-Biała , III gmina Czechowice-Dziedzice i V powiat..."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "PZGiK",
+    "Czechowice-Dziedzice"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Geoforum",
+     "tytuł": "Śląskie: przetarg na cyfryzację danych PZGiK",
+     "url": "https://geoforum.pl/news/37417/slaskie-przetarg-na-cyfryzacje-danych-pzgik"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.44,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.54,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.55,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Córka Jana Borysewicza zamieściła sprostowanie. Chodzi o jedną scenę filmu",
+   "lead": "Córka Jana Borysewicza, Joanna Borysewicz, opublikowała w mediach społecznościowych sprostowanie. Pisząc o nowym filmie Netfliksa przedstawiającym losy lidera Lady Pank napisała, że niektórzy \"opowiadają swoje życie tak, jak chcieliby je przeżyć, a nie tak, jakim naprawdę było\".",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-11T09:06:35+00:00",
+   "źródło": {
+    "nazwa": "Interia Film",
+    "url": "https://film.interia.pl/wiadomosci/news-corka-jana-borysewicza-zamiescila-sprostowanie-chodzi-o-jedn,nId,23556512",
+    "domena": "film.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NE3VCLXY2DN9B-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "\"Chciałabym napisać małe sprostowanie do mojego ostatniego postu o ludziach, którzy opowiadają swoje życie tak, jak chcieliby je przeżyć, a nie tak, jakim naprawdę było…\" - zaczyna swój wpis na Facebooku Joanna Borysewicz.",
+      "W kolejnej części Joanna Borysewicz odnosi się do jednej ze scen, jakie pojawiły się w filmie \"Mniej obcy\" w reżyserii Kristoffera Rusa, w której Jan Borysewicz prosi swoją pierwszą żonę, Danutę Borysewicz o drugą szansę.",
+      "Zostaje odrzucony, ponieważ w życiu Danuty miał pojawić się inny mężczyzna.",
+      "\"W związku z filmem o moim ojcu, który pojawił się na Netflixie, chciałabym odnieść się do jednej ze scen (nie do całego filmu), w której tata prosi mamę, żeby zaczęli od nowa\".",
+      "\"Zależy mi na tym, żeby sprostować jedną rzecz: moja mama nie miała nikogo, kiedy tata odchodził od nas.",
+      "Chcę, żeby ta część naszej historii wybrzmiała zgodnie z prawdą.",
+      "Chciałabym też powiedzieć coś od siebie, bo nie chciałabym, żeby ktokolwiek odebrał moje słowa jako atak na mojego ojca.",
+      "Mój tata jest i zawsze będzie bardzo ważną częścią mojego życia.",
+      "Nasze relacje bywały różne, raz byliśmy bliżej siebie, innym razem dalej."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Starsza córka Jana Borysewicza opublikowała w mediach społecznościowych sprostowanie dotyczące okoliczności rozstania rodziców."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Lady Pank – polski zespół muzyczny założony w 1981 we Wrocławiu przez Jana Borysewicza i Andrzeja Mogielnickiego."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Lady Pank",
+     "url": "https://pl.wikipedia.org/wiki/Lady_Pank"
+    }
+   ],
+   "dlaczego_to_ważne": "Nie pozwoliłabym sobie świadomie powiedzieć o nim czegoś złego czy niezgodnego z prawdą - czytamy na Facebooku.",
+   "liczby": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Muzyka",
+     "ujęcie": "W opublikowanym na Facebooku wpisie zakwestionowała sposób przedstawienia jednego z rodzinnych wątków.",
+     "url": "https://muzyka.interia.pl/rock/news-corka-jana-borysewicza-przerwala-milczenie-po-premierze-mnie,nId,23556490"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Lady Pank",
+    "opis": "polski zespół muzyczny",
+    "tekst": "Lady Pank – polski zespół muzyczny założony w 1981 we Wrocławiu przez Jana Borysewicza i Andrzeja Mogielnickiego.",
+    "url": "https://pl.wikipedia.org/wiki/Lady_Pank",
+    "język": "pl"
+   },
+   "tagi": [
+    "Lady Pank",
+    "Joanna Borysewicz",
+    "Jana Borysewicza",
+    "Mniej"
+   ],
+   "emotki": [
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Film",
+     "tytuł": "Córka Jana Borysewicza zamieściła sprostowanie. Chodzi o jedną scenę filmu",
+     "url": "https://film.interia.pl/wiadomosci/news-corka-jana-borysewicza-zamiescila-sprostowanie-chodzi-o-jedn,nId,23556512"
+    },
+    {
+     "nazwa": "Interia Muzyka",
+     "tytuł": "Córka Borysewicza dementuje plotki po filmie. \"Moja mama nie miała nikogo\"",
+     "url": "https://muzyka.interia.pl/rock/news-corka-jana-borysewicza-przerwala-milczenie-po-premierze-mnie,nId,23556490"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.198,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.085,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.364,
+     "treściwość": 0.349,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Tylko u nas: Serial Netflixa o zapomnianej historii schyłku PRL-u. Mamy zwiastun \"Buntu\"",
+   "lead": "Zapowiada się serialowy hit końcówki roku w Netflixie. Jako pierwsi publikujemy dziś zwiastun \"Buntu\", inspirowanego prawdziwymi wydarzeniami z 1989 r., kiedy to w Polsce w zepchniętych na margines więzieniach wybucha największy bunt w powojennej Europie.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-11T16:00:00+00:00",
+   "źródło": {
+    "nazwa": "Onet Kultura",
+    "url": "https://kultura.onet.pl/telewizja/seriale-polskie/bunt-ta-historia-wstrzasnie-widzami-borys-szyc-w-przelomowej-roli-mamy-zwiastun/0309vqt",
+    "domena": "kultura.onet.pl"
+   },
+   "obraz": "https://cdn.kultura.onet.pl/1/nqrk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy8xMzZmNmI4ZmExMTI0Mzc1Y2M4MjMzMDFkZjg5NzMzYi5qcGeSlQPNAcfNAQvNBabNAy2TBc0JYM0GQN4AAqEwB6ExBA",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "W centrum brutalnego konfliktu stają bohaterowie grani przez Borysa Szyca i Filipa Pławiaka."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Służba Bezpieczeństwa – formacja powołana m.in. do zapewniania bezpieczeństwa wewnętrznego i zewnętrznego kraju, działająca w Ministerstwie Spraw Wewnętrznych Polskiej Rzeczypospolitej Ludowej i strukturach podległych w latach 1956–1989, a także w pierwszym roku istnienia III RP, ostatecznie rozwiązana w 1990 r. W końcowej fazie swojego istnienia ta służba specjalna zatrudniała 24 300 funkcjonariuszy, którzy nadzorowali 90 tys. tajnych współpracowników (TW) w Polsce i wielu agentów wywiadu pośród obywateli obcych państw. Oznacza to, że na jednego funkcjonariusza przypadało statystycznie 1564 obywateli, a TW stanowili w przybliżeniu 0,2% ogółu ludności PRL."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Służba Bezpieczeństwa (PRL)",
+     "url": "https://pl.wikipedia.org/wiki/S%C5%82u%C5%BCba_Bezpiecze%C5%84stwa_(PRL)"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Służba Bezpieczeństwa (PRL)",
+    "opis": "organ bezpieczeństwa PRL",
+    "tekst": "Służba Bezpieczeństwa – formacja powołana m.in. do zapewniania bezpieczeństwa wewnętrznego i zewnętrznego kraju, działająca w Ministerstwie Spraw Wewnętrznych Polskiej Rzeczypospolitej Ludowej i strukturach podległych w latach 1956–1989, a także w pierwszym roku istnienia III RP, ostatecznie rozwiązana w 1990 r. W końcowej fazie swojego istnienia ta służba specjalna zatrudniała 24 300 funkcjonariuszy, którzy nadzorowali 90 tys. tajnych współpracowników (TW) w Polsce i wielu agentów wywiadu pośród obywateli obcych państw. Oznacza to, że na jednego funkcjonariusza przypadało statystycznie 1564 obywateli, a TW stanowili w przybliżeniu 0,2% ogółu ludności PRL.",
+    "url": "https://pl.wikipedia.org/wiki/S%C5%82u%C5%BCba_Bezpiecze%C5%84stwa_(PRL)",
+    "język": "pl"
+   },
+   "tagi": [
+    "Serial Netflixa",
+    "Buntu Zapowiada",
+    "Filipa Pławiaka",
+    "Borysa Szyca"
+   ],
+   "emotki": [
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Onet Kultura",
+     "tytuł": "Tylko u nas: Serial Netflixa o zapomnianej historii schyłku PRL-u. Mamy zwiastun \"Buntu\"",
+     "url": "https://kultura.onet.pl/telewizja/seriale-polskie/bunt-ta-historia-wstrzasnie-widzami-borys-szyc-w-przelomowej-roli-mamy-zwiastun/0309vqt"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.435,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.45,
+     "treściwość": 0.435,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  }
+ ],
+ "braki": [],
+ "statystyki": {
+  "kanały_ok": 71,
+  "kanały_błędne": 1,
+  "znaki_tłumaczone": 19943,
+  "niedziałające_kanały": [
+   {
+    "url": "https://earthobservatory.nasa.gov/feeds/earth-observatory.rss",
+    "powód": "brak wpisów / nieznany format"
+   }
+  ],
+  "działy": 18,
+  "artykuły_w_oknie": 46
+ }
+}
