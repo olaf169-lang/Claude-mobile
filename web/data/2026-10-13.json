@@ -1,0 +1,1671 @@
+{
+ "wersja": "1.0.0",
+ "wydanie": "2026-10-13",
+ "dotyczy_dnia": "2026-10-12",
+ "wygenerowano": "2026-10-13T13:23:44+00:00",
+ "strefa": "Europe/Warsaw",
+ "tryb": "ekstrakcyjny",
+ "demo": false,
+ "pozycje": [
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Prezydent stawia warunek ws. ambasadorów. „Nie z Sikorskim”",
+   "lead": "Spór dotyczący nominacji ambasadorów był jednym z tematów rozmowy z prezydentem Karolem Nawrockim, opublikowanej we wtorkowej „Rzeczpospolitej”. Zapytany o to, czy jest gotowy na powrót do negocjacji na ten temat, Nawrocki postawił warunek.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-13T03:52:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/fakty/polityka/news-prezydent-stawia-warunek-ws-ambasadorow-nie-z-sikorskim,nIdn,1021571",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/6b/c7/ryan-murphy-636x421-6bc78671.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Z wicepremierem Sikorskim nie jestem gotów.",
+      "Bo rozmowy z nim w sprawie ambasadorów nie mają żadnego znaczenia.",
+      "Po co mam rozmawiać z ministrem, który nie jest gospodarzem sytuacji?",
+      "Mogę rozmawiać z szefem ministra Sikorskiego, czyli z premierem Tuskiem.",
+      "Jeśli pan premier chce wrócić do porozumienia, które nadal leży na stole, jestem gotów - powiedział prezydent.",
+      "Zaznaczył przy tym, że sam nie zamierza prosić o spotkanie, ale wysyła - udzielając wywiadu - „jasny sygnał” .",
+      "Nawrocki dodał, że w polskich placówkach spotyka „świetnych dyplomatów”, ale nie podpisze ich nominacji, bo chce „rozwiązać problem systemowo” .",
+      "Dodał, że Sikorski nie uporządkował tej kwestii także w czasach prezydentury Andrzeja Dudy.",
+      "Chcę (...) zapewnić, że z ministrem Sikorskim podczas dwóch bardzo dobrych, kulturalnych i merytorycznych spotkań ustaliliśmy całą mapę drogową wyjścia z tego kryzysu."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Konflikt ambasadorski trwa od marca 2024 roku, kiedy MSZ podjęło decyzję o odwołaniu ponad 50 urzędników oraz wycofaniu kilkunastu kandydatur na szefów placówek dyplomatycznych, na co zgody nie wyraził ówczesny prezydent Andrzej Duda.",
+      "Zapytany przez dziennikarza \" Rzeczpospolitej \" Michała Kolankę o opcje przełamania dyplomatycznego sporu prezydent Karol Nawrocki jednoznacznie odrzucił możliwość powrotu do stolika negocjacyjnego z szefem dyplomacji.",
+      "W ocenie głowy państwa wicepremier Radosław Sikorski nie jest partnerem zdolnym do podjęcia ostatecznych ustaleń. - Z wicepremierem Sikorskim nie jestem gotów."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Władysław Eugeniusz Sikorski, ps. Strażnica, Eugeniusz Strażnica, Gazda – generał broni Wojska Polskiego, premier i minister spraw wojskowych II Rzeczypospolitej, od 30 września 1939 premier rządu Rzeczypospolitej Polskiej na uchodźstwie, początkowo we Francji, następnie w Wielkiej Brytanii, oraz twórca i naczelny wódz Polskich Sił Zbrojnych ; zginął w katastrofie lotniczej w Gibraltarze; pośmiertnie odznaczony Orderem Orła Białego (1943)."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Władysław Sikorski",
+     "url": "https://pl.wikipedia.org/wiki/W%C5%82adys%C5%82aw_Sikorski"
+    }
+   ],
+   "dlaczego_to_ważne": "To miał być pierwszy krok i wyraz dobrej woli w sprawie konkretnych stanowisk, który pozwoliłby rozwiązać cały problem.",
+   "liczby": [
+    "39",
+    "50",
+    "88"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Władysław Sikorski",
+    "opis": "generał polski, były premier",
+    "tekst": "Władysław Eugeniusz Sikorski, ps. Strażnica, Eugeniusz Strażnica, Gazda – generał broni Wojska Polskiego, premier i minister spraw wojskowych II Rzeczypospolitej, od 30 września 1939 premier rządu Rzeczypospolitej Polskiej na uchodźstwie, początkowo we Francji, następnie w Wielkiej Brytanii, oraz twórca i naczelny wódz Polskich Sił Zbrojnych ; zginął w katastrofie lotniczej w Gibraltarze; pośmiertnie odznaczony Orderem Orła Białego (1943).",
+    "url": "https://pl.wikipedia.org/wiki/W%C5%82adys%C5%82aw_Sikorski",
+    "język": "pl"
+   },
+   "tagi": [
+    "Sikorskim",
+    "Sikorski",
+    "Waszyngtonie Bogdana Klicha",
+    "Karola Nawrockiego"
+   ],
+   "emotki": [
+    "🏛️",
+    "🤝"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Prezydent stawia warunek ws. ambasadorów. „Nie z Sikorskim”",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-prezydent-stawia-warunek-ws-ambasadorow-nie-z-sikorskim,nIdn,1021571"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Prezydent nie chce negocjować z Sikorskim w sprawie ambasadorów. \"Mogę rozmawiać z jego szefem\"",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33074300,prezydent-nie-chce-negocjowac-z-sikorskim-w-sprawie-ambasadorow.html"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.972,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.3,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.598,
+     "treściwość": 0.324,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Nawrocki gotowy do rozmów, stawia rządowi jeden warunek. W tle głośny spór",
+   "lead": "Karol Nawrocki zadeklarował w wywiadzie dla \"Rzeczpospolitej\", że chce \"systemowo\" rozwiązać spór dotyczący nominacji ambasadorskich. Partnerem do rozmów w tej sprawie ma być premier Tusk. - Po co mam rozmawiać z ministrem, który nie jest gospodarzem sytuacji? - pytał retorycznie prezydent.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-13T03:27:03+00:00",
+   "źródło": {
+    "nazwa": "Interia Fakty",
+    "url": "https://wydarzenia.interia.pl/kraj/news-nawrocki-gotowy-do-rozmow-stawia-rzadowi-jeden-warunek-chodz,nId,23557327",
+    "domena": "wydarzenia.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000LXIV3SKFH6FMV-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nawrocki zdradził kulisy dwóch spotkań z szefem MSZ.",
+      "Wyjaśnił też, dlaczego Donald Tusk jest \"antyamerykańskim premierem\".",
+      "Spór dotyczący nominacji ambasadorów był jednym z tematów rozmowy z prezydentem Karolem Nawrockim , otwiera się w nowym oknie , opublikowanym we wtorkowej \"Rzeczpospolitej\".",
+      "Zapytany o to, czy jest gotowy na powrót do negocjacji na ten temat, Nawrocki postawił warunek . - Z wicepremierem Sikorskim nie jestem gotów.",
+      "Mogę rozmawiać z szefem ministra Sikorskiego, czyli z premierem Tuskiem.",
+      "Jeśli pan premier chce wrócić do porozumienia, które nadal leży na stole, jestem gotów - powiedział prezydent.",
+      "Zaznaczył przy tym, że sam nie zamierza prosić o spotkanie, ale wysyła - udzielając wywiadu - \"jasny sygnał\".",
+      "Nawrocki dodał, że w polskich placówkach spotyka \"świetnych dyplomatów\", ale nie podpisze ich nominacji, bo chce \"rozwiązać problem systemowo\".",
+      "Dodał, że Sikorski nie uporządkował tej kwestii także w czasach prezydentury Andrzeja Dudy. - Chcę (...) zapewnić, że z ministrem Sikorskim podczas dwóch bardzo dobrych, kulturalnych i merytorycznych spotkań ustaliliśmy całą mapę drogową wyjścia z tego kryzysu ."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "II Rzeczpospolita – historyczne państwo polskie istniejące w latach 1918–1945, tj. od odzyskania suwerenności (1918) do wycofania uznania międzynarodowego dla rządu Rzeczypospolitej Polskiej na uchodźstwie (1945), które było konsekwencją wykonania porozumień zawartych na konferencji jałtańskiej (1945) między mocarstwami wielkiej trójki. Nazwa podkreśla ciągłość z I Rzeczpospolitą (1569–1795), zlikwidowaną traktatami rozbiorowymi zawartymi pomiędzy Austrią, Prusami i Rosją w drugiej połowie XVIII wieku (1772–1795). Pomysłodawcą nazwy w 1946 roku na łamach tygodnika Odrodzenie był Adam Mauersberger."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: II Rzeczpospolita",
+     "url": "https://pl.wikipedia.org/wiki/II_Rzeczpospolita"
+    }
+   ],
+   "dlaczego_to_ważne": "To miał być pierwszy krok i wyraz dobrej woli w sprawie konkretnych stanowisk, który pozwoliłby rozwiązać cały problem.",
+   "liczby": [
+    "50",
+    "39"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "II Rzeczpospolita",
+    "opis": "Rzeczpospolita Polska w latach 1918–1945",
+    "tekst": "II Rzeczpospolita – historyczne państwo polskie istniejące w latach 1918–1945, tj. od odzyskania suwerenności (1918) do wycofania uznania międzynarodowego dla rządu Rzeczypospolitej Polskiej na uchodźstwie (1945), które było konsekwencją wykonania porozumień zawartych na konferencji jałtańskiej (1945) między mocarstwami wielkiej trójki. Nazwa podkreśla ciągłość z I Rzeczpospolitą (1569–1795), zlikwidowaną traktatami rozbiorowymi zawartymi pomiędzy Austrią, Prusami i Rosją w drugiej połowie XVIII wieku (1772–1795). Pomysłodawcą nazwy w 1946 roku na łamach tygodnika Odrodzenie był Adam Mauersberger.",
+    "url": "https://pl.wikipedia.org/wiki/II_Rzeczpospolita",
+    "język": "pl"
+   },
+   "tagi": [
+    "Rzeczpospolitej",
+    "Donald Tusk",
+    "Nawrocki",
+    "Karol Nawrocki"
+   ],
+   "emotki": [
+    "🏛️",
+    "🤝"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Nawrocki gotowy do rozmów, stawia rządowi jeden warunek. W tle głośny spór",
+     "url": "https://wydarzenia.interia.pl/kraj/news-nawrocki-gotowy-do-rozmow-stawia-rzadowi-jeden-warunek-chodz,nId,23557327"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.643,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.593,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Tysiące maszeruje do indyjskiego Sądu Najwyższego, aby zażądać dymisji szefa wyborów",
+   "lead": "Marsz następuje po chaotycznym weekendzie w Delhi, w którym tysiące protestujących zostało zatrzymanych przez policję.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-12T15:19:17+00:00",
+   "źródło": {
+    "nazwa": "BBC News",
+    "url": "https://www.bbc.co.uk/news/articles/cwr5y2lgr4gdo?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1774/live/1fce2710-c630-11f1-9a39-31b474234113.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Tysiące ludzi dołączyło do wiecu, aby złożyć petycję wzywającą do rezygnacji komisarza wyborczego policji w Delhi, który ponownie zablokował protesty w stolicy Indii, gdy tysiące ludzi wróciło na ulice, na czele z liderami opozycji, domagając się rezygnacji komisarza wyborczego.",
+      "Po masowych zamieszkach w stolicy w weekend, kiedy tysiące ludzi zostało zatrzymanych i nękanych przez policję, gdy próbowali wziąć udział w proteście prowadzonym przez ruch karaluchów gen. Z, w poniedziałek główni przywódcy opozycji poprowadzili kolejną procesję przez Delhi, tym razem do sądu najwyższego.",
+      "Przywódca indyjskiego sojuszu opozycyjnego, Rahul Gandhi , wraz z innymi opozycjonistami i grupami studenckimi, zadeklarował zamiar przemarszu do sądu i złożenia petycji wzywającej głównego komisarza wyborczego Indii, Gyanesha Kumara, do ustąpienia.",
+      "Kumar stał się głęboko kontrowersyjną postacią ze względu na swoją rolę w ćwiczeniu weryfikacji i „oczyszczenia” list wyborczych Indii, co doprowadziło do usunięcia ponad 130 milionów nazwisk – więcej niż populacja Japonii – z list wyborców od zeszłego roku.",
+      "Partie opozycyjne i grupy społeczeństwa obywatelskiego twierdzą, że Kumar wprowadził tę specjalną intensywną rewizję (sir), aby pomóc umocnić władzę rządu Narendry Modiego i jego hinduskiej nacjonalistycznej partii Bharatiya Janata (BJP).",
+      "Komisja wyborcza zaprzeczyła faworyzowaniu jakiejkolwiek partii i stwierdziła, że niesłusznie usunięci wyborcy mogą ponownie się zarejestrować, podczas gdy BJP oskarżyło swoich rywali o próbę podważenia demokracji poprzez kwestionowanie legalnych procesów wyborczych.",
+      "Pracownicy ochrony w sprzętach prewencyjnych przybywają, aby eskortować pracowników indyjskiej opozycyjnej partii Kongresu, którzy zbierają się na marsz w kierunku Sądu Najwyższego, domagając się dymisji głównego komisarza wyborczego Gyanesha Kumara w New Delhi w Indiach w poniedziałek."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "130",
+    "600",
+    "10,000"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Indian Supreme Court",
+    "Delhi"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC News",
+     "tytuł": "Thousands march to Indian Supreme Court to demand election chief resign",
+     "url": "https://www.bbc.co.uk/news/articles/cwr5y2lgr4gdo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Indian opposition figures lead march to police barricades around supreme court",
+     "url": "https://www.theguardian.com/world/2026/oct/12/india-election-protests-delhi-police-shut-metro-stations-ahead-march"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "India's opposition parties march to top court as protests over voter lists escalate",
+     "url": "https://www.npr.org/2026/10/12/nx-s1-5998831/india-opposition-protests"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.31,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.68,
+     "eksponowanie": 0.18,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.45,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Thousands march to Indian Supreme Court to demand election chief resign",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Obejrzyj: CCTV pokazuje, że ludzie ukrywają się, gdy pocisk uderza w lotnisko w Rijadzie",
+   "lead": "Nagranie z wnętrza lotniska pokazuje moment uderzenia strajku w sobotę.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-12T09:38:03+00:00",
+   "źródło": {
+    "nazwa": "BBC News",
+    "url": "https://www.bbc.co.uk/news/videos/cj4g17wz7gv0o?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/317e/live/50e05140-c61f-11f1-8c89-b96b8469b965.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Niezidentyfikowany pocisk uderza w lotnisko King Khalid, zabijając jednego i raniąc 11 osób, ponieważ eskalacja ataków grozi wciągnięciem większej liczby krajów do konfliktu w Jemenie Analiza: atak zmusi do przemyślenia strategii Trumpa Pocisk uderzył w terminal pasażerski na lotnisku w Rijadzie w niedzielę, dzień po śmiertelnym ataku rakietowym na obiekt przeprowadzonym przez wspieraną przez Iran grupę rebeliantów Huti, która zabiła 13 osób.",
+      "Według saudyjskich władz lotnictwa cywilnego niezidentyfikowany pocisk uderzył w terminal 4 na międzynarodowym lotnisku King Khalid, wywołując pożar, zabijając jedną osobę i raniąc 11 osób.",
+      "Eskalacja ataków groziła wciągnięciem kolejnych państw w konflikt jemeński i dalszym pogłębieniem regionalnych skutków wojny amerykańsko-irańskiej, która już rozprzestrzeniła się na Liban i Irak.",
+      "W poście na X brytyjska ambasada w Arabii Saudyjskiej odradziła wszelkie niezbędne podróże do miast Dżudda i Dammam oraz unikanie prawie wszystkich lotnisk.",
+      "Po sobotnim strajku na lotnisku w Rijadzie prezydent USA, Donald Trump, powiedział, że zastanawia się, czy dołączyć do saudyjskiej kampanii wojskowej w Jemenie, mówiąc dziennikarzom: „Przyjrzymy się temu.„ Sprzymierzeni z Iranem Huti twierdzili, że przeprowadzili kilka ataków na lotnisko, w tym atak w sobotę, w którym zginęło 13 osób, a ponad 300 zostało rannych – najgroźniejszy atak na kraj Zatoki Perskiej od czasu rozpoczęcia wojny z Iranem w marcu i widoczna eskalacja w Wojna Huti z Arabią Saudyjską i rządem Jemenu sponsorowana przez Rijad.",
+      "Huti podwoili swoje groźby w niedzielę, ostrzegając linie lotnicze, pasażerów i personel, aby trzymali się z dala od lotnisk w Arabii Saudyjskiej.",
+      "Jemeńscy rebelianci z Huti przyznali się do serii ataków na międzynarodowe lotnisko Khalida w Arabii Saudyjskiej w ostatnich dniach."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "11",
+    "13",
+    "300",
+    "200",
+    "10%",
+    "91"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Saturday",
+    "Footage",
+    "Riyadh"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC News",
+     "tytuł": "Watch: CCTV shows people take cover as missile hits Riyadh airport",
+     "url": "https://www.bbc.co.uk/news/videos/cj4g17wz7gv0o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Riyadh airport hit again after deadly Houthi missile attack, Saudi authorities say",
+     "url": "https://www.theguardian.com/world/2026/oct/11/saudi-coalition-retaliation-houthi-attack-riyadh-airport"
+    },
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "Fact check: Viral videos falsely linked to Riyadh airport attacks",
+     "url": "https://www.dw.com/en/fact-check-viral-videos-falsely-linked-to-riyadh-airport-attacks/a-79643037?maca=en-rss-en-world-4025-rdf"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.814,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.688,
+     "eksponowanie": 0.36,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.466,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Watch: CCTV shows people take cover as missile hits Riyadh airport",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Strzelecka reprezentacja rywalizuje w Pucharze Świata ISSF w Kairze [WIDEO]",
+   "lead": "Kairski Puchar Świata ISSF w strzelectwie sportowym to ostatni sprawdzian formy przed listopadowymi mistrzostwami świata w Katarze będącymi przepustką do Igrzysk Olimpijskich w Los Angeles. W rywalizacji bierze udział jedenastoosobowa reprezentacja Polski.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-12T19:58:00+00:00",
+   "źródło": {
+    "nazwa": "TVP Sport",
+    "url": "https://sport.tvp.pl/95897245/strzelecka-reprezentacja-rywalizuje-w-pucharze-swiata-issf-w-kairze-wideo",
+    "domena": "sport.tvp.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Agata Nowak i Maciej Kowalewicz."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Kairski Puchar Świata",
+    "Igrzysk Olimpijskich",
+    "Maciej Kowalewicz",
+    "Pucharze Świata"
+   ],
+   "emotki": [
+    "🏅"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Strzelecka reprezentacja rywalizuje w Pucharze Świata ISSF w Kairze [WIDEO]",
+     "url": "https://sport.tvp.pl/95897245/strzelecka-reprezentacja-rywalizuje-w-pucharze-swiata-issf-w-kairze-wideo"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.441,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.5,
+     "treściwość": 0.391,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Magazyn Betclic 1 Ligi po 10. kolejce (12.10.2026)",
+   "lead": "Magazyn Betclic 1 Ligi po meczach 10. kolejki. W studiu prowadzący Aleksander Roj oraz Łukasz Gikiewicz i Tomasz Łapiński.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-12T18:53:00+00:00",
+   "źródło": {
+    "nazwa": "TVP Sport",
+    "url": "https://sport.tvp.pl/95896876/magazyn-betclic-1-ligi-po-10-kolejce-12102026",
+    "domena": "sport.tvp.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Magazyn \"Gol\" po 10. kolejce sezonu PKO BP Ekstraklasy.",
+      "Niezbędnik kibica 10. kolejki PKO BP Ekstraklasy 2026/27.",
+      "Sprawdź terminarz i wyniki (9.-12.10.2026)",
+      "Betclic 1 Liga 2026/27: mecze 10. kolejki w TVP.",
+      "Terminarz Betclic 1 Ligi 2026/27."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10",
+    "27",
+    "12.10.2026",
+    "11"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "W studiu prowadzący Kacper Tomczyk oraz Jakub Wawrzyniak.",
+     "url": "https://sport.tvp.pl/95644633/gol-magazyn-pilkarski-po-10-kolejce-pko-bp-ekstraklasy-transmisja-na-zywo-online-live-stream-12102026"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Ligi",
+    "Łukasz Gikiewicz",
+    "Magazyn Betclic",
+    "Tomasz Łapiński"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Magazyn Betclic 1 Ligi po 10. kolejce (12.10.2026)",
+     "url": "https://sport.tvp.pl/95896876/magazyn-betclic-1-ligi-po-10-kolejce-12102026"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "GOL – magazyn piłkarski po 10. kolejce PKO BP Ekstraklasy (12.10.2026)",
+     "url": "https://sport.tvp.pl/95644633/gol-magazyn-pilkarski-po-10-kolejce-pko-bp-ekstraklasy-transmisja-na-zywo-online-live-stream-12102026"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Niezbędnik kibica 10. kolejki PKO BP Ekstraklasy 2026/27. Sprawdź terminarz i wyniki (9.-12.10.2026)",
+     "url": "https://sport.tvp.pl/95818296/niezbednik-kibica-10-kolejki-pko-bp-ekstraklasy-202627-sprawdz-terminarz-i-wyniki-9-12102026"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Terminarz PKO BP Ekstraklasy 2026/27. Kiedy mecze w sezonie? Sprawdź kalendarz i wyniki",
+     "url": "https://sport.tvp.pl/92868963/terminarz-pko-bp-ekstraklasy-202627-kiedy-mecze-w-kolejnym-sezonie-sprawdz-kalendarz"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Betclic 2. Liga 2026/27: terminarz i wyniki 11. kolejki (9.-12.10.2026)",
+     "url": "https://sport.tvp.pl/95761159/betclic-2-liga-202627-terminarz-i-wyniki-11-kolejki-9-12102026"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Betclic 1 Liga 2026/27: mecze 10. kolejki w TVP. Sprawdź terminarz i wyniki (9-12.10.2026)",
+     "url": "https://sport.tvp.pl/95442517/betclic-1-liga-202627-mecze-10-kolejki-w-tvp-sprawdz-terminarz-i-wyniki-9-12102026"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Terminarz Betclic 1 Ligi 2026/27. Kiedy mecze w nowym sezonie? Sprawdź kalendarz",
+     "url": "https://sport.tvp.pl/92873939/terminarz-betclic-1-ligi-202627-kiedy-mecze-kalendarz"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.075,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.9,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.523,
+     "treściwość": 0.152,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Powrót do wielkich czasów - Coventry kończy się 25 lat, czekamy na zwycięstwo w czołówce",
+   "lead": "Coventry wychodzi ze strefy spadkowej po zakończeniu 25-letniego oczekiwania na najwyższą bramkę i zwycięstwo przed własnymi fanami.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-12T22:34:32+00:00",
+   "źródło": {
+    "nazwa": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cw78p7l7rp30o?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d3bb/live/75fce310-c68a-11f1-a387-7d6d38bf2d79.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Coventry City ogłusza Newcastle United zdecydowanym zwycięstwem 4: 1, wygrywając swój pierwszy mecz Premier League w domu od 25 lat.",
+      "Raporty Jacka Rudoniego, Sidiki Cherifa, Ellisa Simmsa i Stephena Mfuniego – niewidomych Cherifa i Mfuniego – dały Coventry pierwsze domowe zwycięstwo w Premier League od 25 lat Righto, raport Petera Lansleya jest z nami.",
+      "90+3 min Alan Smith daje graczowi Bobby 'emu Thomasowi mecz i zasługuje na to za swoją ostatnią obronę.",
+      "90 minut Toure jest ranny, więc łódź podwodna jest podwodna, Burn pojawia się na swoim pierwszym występie w sezonie; będziemy mieli cztery dodatkowe minuty.",
+      "89-minutowym golem Simmsa był jego pierwszy dotyk, Mfuni swoją pierwszą, er akcją, co oznacza, że Lampard zagrał tutaj na ślepo.",
+      "83 min Dwie kolejne zmiany dla Coventry, Mfuni i Torp dla Grimes i Rudoni.",
+      "Coventry wyszło ze strefy spadkowej na wyżyny 14 miejsca po tym, jak ich druga wygrana z rzędu pokazała korzyści płynące z chęci menedżera do zrównoważenia ryzyka z nagrodą."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "25",
+    "90",
+    "89",
+    "10",
+    "88",
+    "19"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Coventry"
+   ],
+   "emotki": [
+    "⚔️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Back in the big time - Coventry end 25-year wait for top-flight home win",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cw78p7l7rp30o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Coventry thrash Newcastle to claim first home win of season",
+     "url": "https://www.bbc.co.uk/sport/football/videos/c65y71z4rjj2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Coventry City 4-1 Newcastle United: Premier League – as it happened",
+     "url": "https://www.theguardian.com/football/live/2026/oct/12/coventry-city-newcastle-united-premier-league-live-score-updates"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Coventry land long-awaited home win as Mfuni seals rout of Newcastle",
+     "url": "https://www.theguardian.com/football/2026/oct/12/coventry-newcastle-premier-league-match-report"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Premier League: 10 talking points from the weekend’s action",
+     "url": "https://www.theguardian.com/football/2026/oct/12/premier-league-10-talking-points-from-the-weekend-action"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "Jaissle sorry for Coventry loss as Carra says Newcastle 'beaten up' again",
+     "url": "https://www.skysports.com/football/news/12040/13598360/matthias-jaissle-newcastle-boss-apologises-for-coventry-loss-as-jamie-carragher-says-they-were-beaten-up"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "Coventry thump Newcastle for first home win to move out of drop zone",
+     "url": "https://www.skysports.com/football/coventry-city-vs-newcastle-united/report/559497"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.555,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 2.312,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.543,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Back in the big time - Coventry end 25-year wait for top-flight home win",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Doku zachwyca rejsem do Manchesteru po 10-osobowym Liverpoolu",
+   "lead": "W swoim pierwszym meczu od czasu uznania go za winnego naruszenia zasad finansowych Premier League, Manchester City odniósł komfortowe zwycięstwo 3: 0 z Liverpoolem na Anfield, przedłużając swój idealny start do sześciu meczów, zdobywając trzy punkty na szczycie Premier League.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-11T18:59:19+00:00",
+   "źródło": {
+    "nazwa": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c6vgy2ll1zypo?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e1f6/live/040fab80-c599-11f1-a64c-550be9e3c66b.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Przemawiając na Match of the Day, Wayne Rooney i Toby Alderweireld analizują, jak Jeremy Doku zmienił grę na korzyść Manchesteru City, po tym, jak pojawił się jako zastępca w wygranym 3-0 meczu z Liverpoolem w Anfield.",
+      "To, co zostało uznane za dzień rozrachunku dla mistrzów Premier League, zamieniło się w niedzielny popołudniowy spacer. Anfield powitało Manchester City w ich nowej rzeczywistości, brudnym miejscu, w którym każdemu dotykowi towarzyszą krzyki „oszustwa”, każda korzystna decyzja jest uważana za dowód dalszego spisku i każdego pustego zwycięstwa.",
+      "Jedynym niezbitym dowodem na korzyść miasta od czasu wydania wyroku skazującego jest to, że liderzy ligi Enzo Maresca wydają się być odporni na oskarżenia i prześladowania.",
+      "Może to ulec zmianie w zależności od wyniku apelacji miasta i wszelkich kar, które ostatecznie się pojawią, podobnie jak zalety i wartość zwycięstwa 3-0 na ziemi Liverpoolu.",
+      "Widok Erlinga Haalanda delektującego się deklaracyjnym zwycięstwem przed zwolennikami Miasta po ostatnim gwizdku, podczas gdy śpiewy o „zejściu w dół” odbiły się echem wokół reszty stadionu, uchwycił rozłam w samym sercu tego sezonu Premier League.",
+      "Chociaż nie było to Boca Juniors przeciwko River Plate w La Bombonera, niedzielny, z niecierpliwością oczekiwany mecz między Liverpoolem a Manchesterem City ocenił około 8,5 na oficjalnym feist-o-metrze Football Daily według stosunkowo oswojonych standardów Premier League.",
+      "Odwiedzający wyszli na głośny chór pantomimicznego buczenia i kilka lekko zabawnych sztandarów przypominających im o ich seryjnym oszustwie, na końcu było jakieś buntownicze „robienie” Poznania i … er, to było to."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Manchester City Football Club, powszechnie nazywany Man City lub po prostu City, to profesjonalny klub piłkarski z siedzibą w Manchesterze w Anglii, który rywalizuje w Premier League, najwyższym locie angielskiej piłki nożnej. Marka, w 1887 roku zostali klubem piłkarskim Ardwick Association, a w 1894 roku Manchester City. Stadionem klubu jest City of Manchester Stadium we wschodnim Manchesterze, do którego przeniósł się w 2003 roku, grając na Maine Road od 1923 roku. Manchester City przyjął swoje niebieskie koszule domowe w 1894 roku, pierwszym sezonie z obecną nazwą."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Manchester City F.C.",
+     "url": "https://en.wikipedia.org/wiki/Manchester_City_F.C."
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "17",
+    "114",
+    "62",
+    "50",
+    "8.5",
+    "115"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Manchester City F.C.",
+    "opis": "Association football club in England",
+    "tekst": "Manchester City Football Club, commonly referred to as Man City or simply City, is a professional football club based in Manchester, England, that competes in the Premier League, the top flight of English football. Founded in 1880 as St. Mark's, they became Ardwick Association Football Club in 1887 and Manchester City in 1894. The club's home ground is the City of Manchester Stadium in east Manchester, to which they moved in 2003, having played at Maine Road since 1923. Manchester City adopted their sky blue home shirts in 1894, the first season with the current name.",
+    "url": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
+    "język": "en"
+   },
+   "tagi": [
+    "Manchester City",
+    "Premier League",
+    "Liverpool",
+    "Anfield"
+   ],
+   "emotki": [
+    "⚽",
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Doku delights as Manchester City cruise past 10-man Liverpool",
+     "url": "https://www.bbc.co.uk/sport/football/videos/c6vgy2ll1zypo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "How 'big star' Doku delivered for Man City in win at Liverpool",
+     "url": "https://www.bbc.co.uk/sport/football/videos/c8g47knxqvgdo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Police officer hurt after Liverpool-Man City game",
+     "url": "https://www.bbc.co.uk/news/articles/c8x23ekvp3ywo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Manchester City shrug off chaos and controversy in public shaming at Anfield | Andy Hunter",
+     "url": "https://www.theguardian.com/football/2026/oct/11/impervious-city-shrug-off-chaos-and-controversy-to-silence-anfield"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Football Daily | Manchester City, Liverpool and the multibillion-pound mirage",
+     "url": "https://www.theguardian.com/football/2026/oct/12/football-daily-email-manchester-city-liverpool"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Cherki cracker caps Manchester City win at Liverpool in face of Anfield taunts",
+     "url": "https://www.theguardian.com/football/2026/oct/11/liverpool-manchester-city-premier-league-match-report"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Triumphant Manchester City unfazed by Liverpool and Anfield hostility: Football Weekly – video",
+     "url": "https://www.theguardian.com/football/video/2026/oct/12/manchester-city-unfazed-by-anfield-anticlimax-football-weekly"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.176,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 2.29,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.436,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Doku delights as Manchester City cruise past 10-man Liverpool",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Uparte i pamiętliwe. Meta pokazuje konkurentów dla Claude'a i ChatGPT",
+   "lead": "Gigant prezentuje Muse Wonder i Muse Wonder Full, które mają rywalizować z najlepszymi modelami od OpenAI i Anthropica. Firma stawia na AI z pamięcią wcześniejszych rozmów i potrafiącą pracować nad zadaniem długo i wytrwale.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-13T03:45:13+00:00",
+   "źródło": {
+    "nazwa": "Antyweb",
+    "url": "https://antyweb.pl/muse-wonder-full-premiera",
+    "domena": "antyweb.pl"
+   },
+   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2026/10/meta1.jpeg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Premiera Mety to przede wszystkim zaawansowane systemy AI, szczególnie w programowaniu i zadaniach wymagających wysokiej samodzielności oraz działania etapami.",
+      "Przydadzą się od pracy z dokumentami prawnymi przez te z informacjami finansowymi i zdrowotnymi, a skończywszy na rzeczach jeszcze grubszych: bo w programowaniu.",
+      "Goni, Meta, ach goni resztę stawki.",
+      "Mechanizm Active Memory ma ograniczyć konieczność ponownego tłumaczenia asystentowi tego samego w kółko.",
+      "System powinien zachowywać kontekst z rozmów i odnajdywać szczegóły przydatne w kolejnych zadaniach.",
+      "Active Focus tyczy się zaś utrzymywania pracy nad konkretnym efektem: również wtedy, gdy pierwsze podejście zawiedzie.",
+      "Model ma próbować innej drogi, reagować na nowe znaleziska w formie informacji i pytać o dodatkowe rzeczy, gdy ich będzie potrzebował.",
+      "Meta sprawdzała owe zdolności między innymi w testach długotrwałej pracy nad software'em.",
+      "Wonder ma radzić sobie z zadaniami spoza obszarów szczególnie ćwiczonych podczas sesji treningowych."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "ChatGPT – chatbot opracowany przez OpenAI, oparty na generatywnej sztucznej inteligencji, służący do generowania odpowiedzi na dane wprowadzane przez użytkownika. Model ten został opracowany na podstawie dużych zbiorów danych, aby mógł prowadzić rozmowę i angażować się w różne tematy, od ogólnych rozmów po określone obszary wiedzy."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: ChatGPT",
+     "url": "https://pl.wikipedia.org/wiki/ChatGPT"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "5.6",
+    "6.1",
+    "14 billion",
+    "145 billion",
+    "3.6 billion",
+    "5.1"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "ChatGPT",
+    "opis": "chatbot firmy OpenAI",
+    "tekst": "ChatGPT – chatbot opracowany przez OpenAI, oparty na generatywnej sztucznej inteligencji, służący do generowania odpowiedzi na dane wprowadzane przez użytkownika. Model ten został opracowany na podstawie dużych zbiorów danych, aby mógł prowadzić rozmowę i angażować się w różne tematy, od ogólnych rozmów po określone obszary wiedzy.",
+    "url": "https://pl.wikipedia.org/wiki/ChatGPT",
+    "język": "pl"
+   },
+   "tagi": [
+    "Muse Wonder Full",
+    "Muse Code",
+    "OpenAI",
+    "Wonder"
+   ],
+   "emotki": [
+    "🤖"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Antyweb",
+     "tytuł": "Uparte i pamiętliwe. Meta pokazuje konkurentów dla Claude'a i ChatGPT",
+     "url": "https://antyweb.pl/muse-wonder-full-premiera"
+    },
+    {
+     "nazwa": "Phys.org Technology",
+     "tytuł": "Meta says its new AI models on par with OpenAI, Anthropic",
+     "url": "https://techxplore.com/news/2026-10-meta-ai-par-openai-anthropic.html"
+    },
+    {
+     "nazwa": "IEEE Spectrum",
+     "tytuł": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
+     "url": "https://spectrum.ieee.org/anthropic-engineer-ai-agent"
+    },
+    {
+     "nazwa": "TechCrunch",
+     "tytuł": "Meta releases its first frontier model, Muse Wonder",
+     "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
+    }
+   ],
+   "liczba_źródeł": 4,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 11.069,
+    "składowe": {
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 1.542,
+     "eksponowanie": 1.53,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.597,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Prof. Jan Teorell: tegoroczny Nobel pokazuje, że decyzje polityczne powinny mieć podstawę naukową",
+   "lead": "Jan Teorell: tegoroczny Nobel pokazuje, że decyzje polityczne powinny mieć podstawę naukową tryton pon., 10/12/2026 - 20:25 2 minuty",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-12T18:25:00+00:00",
+   "źródło": {
+    "nazwa": "Nauka w Polsce",
+    "url": "https://naukawpolsce.pl/aktualnosci/news%2C115394%2Cprof-jan-teorell-tegoroczny-nobel-pokazuje-ze-decyzje-polityczne-powinny",
+    "domena": "naukawpolsce.pl"
+   },
+   "obraz": null,
+   "sekcje": [],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10",
+    "12",
+    "20",
+    "25 2",
+    "1.2 million",
+    "19"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Teorell",
+    "Nobel",
+    "Prof"
+   ],
+   "emotki": [
+    "📖"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Nauka w Polsce",
+     "tytuł": "Prof. Jan Teorell: tegoroczny Nobel pokazuje, że decyzje polityczne powinny mieć podstawę naukową",
+     "url": "https://naukawpolsce.pl/aktualnosci/news%2C115394%2Cprof-jan-teorell-tegoroczny-nobel-pokazuje-ze-decyzje-polityczne-powinny"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Economics Nobel awarded for work on stabilizing economies in crisis",
+     "url": "https://www.nature.com/articles/d41586-026-03251-4"
+    },
+    {
+     "nazwa": "Phys.org Technology",
+     "tytuł": "Just 10 minutes of AI use may erode persistence on hard tasks",
+     "url": "https://techxplore.com/news/2026-10-minutes-ai-erode-persistence-hard.html"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.895,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.645,
+     "eksponowanie": 0.27,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.48,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Rzeźbienie magnetyczne przekształca pola z jednego źródła w z góry określone kształty z matematyczną precyzją",
+   "lead": "Pola magnetyczne są niewidocznymi, ale niezbędnymi komponentami w technologiach, od skanerów MRI i akceleratorów cząstek po zegary atomowe i przyszłe komputery kwantowe. Każde z tych zastosowań wymaga pól magnetycznych o określonych kształtach i właściwościach.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-12T22:40:01+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-10-magnetic-sculpting-source-fields-predetermined.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/tailored-magnetic-fiel.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Teraz zespół fizyków z Universitat Autònoma de Barcelona (UAB) i Chalmers University of Technology opracował metodę, która umożliwia przekształcenie pola magnetycznego z jednego źródła, takiego jak cewka lub magnes trwały, w szeroką klasę z góry określonych pól magnetycznych z dokładną matematyczną precyzją.",
+      "Metoda ta, znana jako omnikonwersja magnetyczna, umożliwia wykorzystanie prostych źródeł magnetycznych do szerokiego zakresu ważnych zastosowań.",
+      "Wyniki badań opublikowano w czasopiśmie Science Advances .",
+      "„Jest to uniwersalna metoda, która usuwa wcześniejsze ograniczenia dotyczące dokładności przekształcania istniejącego pola magnetycznego w inne” - mówi Witlef Wieczorek, profesor technologii kwantowej na Politechnice Chalmers i jeden ze współautorów badania.",
+      "Tworzenie pól magnetycznych o określonym kształcie, takich jak pola jednorodne lub czterobiegunowe, zwykle wymaga specjalnie skonstruowanych magnesów lub zaawansowanych systemów cewek starannie zoptymalizowanych do określonego celu.",
+      "„Stosując kombinacje cewek, można przybliżyć pożądane pole magnetyczne do wysokiej precyzji, ale przy omnikonwersji magnetycznej generowane pole jest matematycznie dokładne” - wyjaśnia Fabian Resare, doktorant w dziedzinie technologii kwantowej w Chalmers i współautor badania.",
+      "Omnikonwersja magnetyczna badaczy pełni rolę pewnego rodzaju rzeźbiarza magnetycznego.",
+      "Łącząc materiały, które przyciągają lub odpychają pola magnetyczne, takie jak materiały ferromagnetyczne i nadprzewodzące, mogą sterować i przekształcać pole magnetyczne w dokładnie pożądaną formę.",
+      "Gdy materiały te są rozmieszczone w starannie obliczonej geometrii, określają one, w jaki sposób pole magnetyczne jest rozprowadzane w przestrzeni."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Chalmers University of Technology (Chalmers) to prywatna uczelnia badawcza w Göteborgu w Szwecji, specjalizująca się w inżynierii, nauce, architekturze, studiach morskich i zarządzaniu. Liczy około 10 000 studentów i 3 000 pracowników."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Chalmers University of Technology",
+     "url": "https://en.wikipedia.org/wiki/Chalmers_University_of_Technology"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10.1126"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Chalmers University of Technology",
+    "opis": "University in Gothenburg, Sweden",
+    "tekst": "Chalmers University of Technology (Chalmers) is a private research university in Gothenburg, Sweden, specializing in engineering, science, architecture, maritime studies, and management. It has approximately 10,000 students and 3,000 employees.",
+    "url": "https://en.wikipedia.org/wiki/Chalmers_University_of_Technology",
+    "język": "en"
+   },
+   "tagi": [
+    "Chalmers University",
+    "Technology",
+    "Magnetic",
+    "Science Advances"
+   ],
+   "emotki": [
+    "⚛️",
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Magnetic sculpting transforms single-source fields into predetermined shapes with mathematical precision",
+     "url": "https://phys.org/news/2026-10-magnetic-sculpting-source-fields-predetermined.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.743,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.533,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Magnetic sculpting transforms single-source fields into predetermined shapes with mathematical precision",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Od niemagnetycznego do magnetycznego: półprzewodnik 2D z elektrycznie regulowanym magnetyzmem",
+   "lead": "Naukowcy z Narodowego Uniwersytetu Singapuru (NUS), we współpracy z naukowcami z instytucji w Szwajcarii, Czechach i Niemczech, zademonstrowali sposób na wprowadzenie magnetyzmu do niemagnetycznego dwuwymiarowego (2D) półprzewodnika, a następnie kontrolowanie jego właściwości magnetycznych…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-12T21:40:11+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-10-nonmagnetic-magnetic-2d-semiconductor-electrically.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/from-nonmagnetic-to-ma.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Badanie, prowadzone przez adiunkta Ahmeta Avsara z Wydziału Inżynierii Materiałowej w NUS, z doktorantem Qi Zhangiem jako pierwszym autorem, pokazuje, w jaki sposób magnetyzm można wprowadzić do stabilnego powietrznie półprzewodnika 2D, a następnie kontrolować za pomocą bramkowania elektrycznego.",
+      "Konwencjonalna elektronika wykorzystuje ładunek elektronów do przetwarzania i przechowywania informacji, podczas gdy spintronika stara się wykorzystać dodatkową właściwość: spin elektronu.",
+      "Połączenie tych dwóch funkcjonalności może umożliwić nowe podejście do przetwarzania i zapamiętywania informacji.",
+      "Jednak materiały, które wykazują silny porządek magnetyczny, często nie mają możliwości elektrycznego dostrajania półprzewodników, podczas gdy konwencjonalne półprzewodniki są na ogół niemagnetyczne.",
+      "Dwuwymiarowe materiały oferują obiecującą drogę do przezwyciężenia tego ograniczenia, ponieważ ich właściwości elektroniczne można silnie zmodyfikować poprzez przyłożenie zewnętrznego napięcia bramki i dostrojenie ich grubości.",
+      "Wyzwaniem jest wprowadzenie porządku magnetycznego bez uszczerbku dla ich funkcjonalności półprzewodnikowej lub stabilności środowiskowej.",
+      "Naukowcy skupili się na diselenku platyny (PtSe 2 ), stabilnym powietrznie materiale warstwowym, którego właściwości elektroniczne zmieniają się dramatycznie wraz z grubością.",
+      "Podczas gdy luzem PtSe 2 jest metaliczny, zmniejszenie jego grubości poniżej około sześciu warstw atomowych przekształca go w półprzewodnik.",
+      "Wprowadzając niewielkie stężenie atomów żelaza (Fe) do kryształu PtSe 2, zespół indukował porządek magnetyczny, zachowując jednocześnie właściwości elektroniczne zależne od grubości materiału."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Uczelnia narodowa to głównie uczelnia utworzona lub zarządzana przez rząd, ale mogąca jednocześnie działać autonomicznie bez bezpośredniej kontroli państwa. W Stanach Zjednoczonych termin „uniwersytet narodowy” kojarzy się z najwyższym poziomem instytucjonalnym w edukacji, różniącym się znaczeniem od „uniwersytetu o nazwie federalnej”. „Na całym świecie niektóre krajowe uniwersytety są związane z narodowymi aspiracjami kulturowymi lub politycznymi. Na przykład National University of Ireland w pierwszych dniach niepodległości Irlandii zebrał dużą ilość informacji na temat języka irlandzkiego i kultury irlandzkiej. W Argentynie uniwersytety narodowe są wynikiem argentyńskiej reformy uniwersyteckiej z 1918 r. i późniejszych reform, które miały na celu zapewnienie świeckiego systemu uniwersyteckiego bez bezpośredniego wpływu urzędniczego lub rządowego poprzez nadanie instytucjom samorządu."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: National university",
+     "url": "https://en.wikipedia.org/wiki/National_university"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "320",
+    "25",
+    "55",
+    "52",
+    "105",
+    "100,000"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "National university",
+    "opis": "University created or managed by a government",
+    "tekst": "A national university is mainly a university created or managed by a government, but which may also at the same time operate autonomously without direct control by the state. In the United States, the term \"national university\" connotes the highest institutional level in education, differing in meaning from a \"federally-chartered university.\" Globally, some national universities are associated with national cultural or political aspirations. For example, the National University of Ireland during the early days of Irish independence collected a large amount of information about the Irish language and Irish culture. In Argentina, the national universities are the result of the 1918 Argentine university reform and subsequent reforms, which were intended to provide a secular university system without direct clerical or government influence by bestowing self-government on the institutions.",
+    "url": "https://en.wikipedia.org/wiki/National_university",
+    "język": "en"
+   },
+   "tagi": [
+    "PtSe",
+    "Science",
+    "National University",
+    "Assistant Professor"
+   ],
+   "emotki": [
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "From nonmagnetic to magnetic: A 2D semiconductor with electrically tunable magnetism",
+     "url": "https://phys.org/news/2026-10-nonmagnetic-magnetic-2d-semiconductor-electrically.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.291,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.72,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.521,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "From nonmagnetic to magnetic: A 2D semiconductor with electrically tunable magnetism",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Jak ocenić stadium ewolucji biologicznej egzoplanet?",
+   "lead": "Skumulowany efekt działania fotosyntezy w całej historii planety, w formie całkowitej ilości węgla pochłoniętej z atmosfery i przekształconej w materię organiczną, może nam pozwolić oceniać, na jaki stadium ewolucji biologicznej jest dana planeta, jeśli istnieje na niej życie. W \"International Journal of Astrobiology\"…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-12T15:55:25+00:00",
+   "źródło": {
+    "nazwa": "Urania",
+    "url": "https://www.urania.edu.pl/wiadomosci/jak-ocenic-stadium-ewolucji-biologicznej-egzoplanet",
+    "domena": "urania.edu.pl"
+   },
+   "obraz": null,
+   "sekcje": [],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "International Journal",
+    "Astrobiology"
+   ],
+   "emotki": [
+    "🪐"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Urania",
+     "tytuł": "Jak ocenić stadium ewolucji biologicznej egzoplanet?",
+     "url": "https://www.urania.edu.pl/wiadomosci/jak-ocenic-stadium-ewolucji-biologicznej-egzoplanet"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.524,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.15,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.449,
+     "treściwość": 0.475,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Pierwotny hel dodatkowo potwierdza nasze zrozumienie Wielkiego Wybuchu",
+   "lead": "We wczesnych momentach wielkiego wybuchu kute były dwa pierwiastki: wodór i hel. Technicznie rzecz biorąc, powstały również najmniejsze ślady lekkich pierwiastków, takich jak lit, ale nic istotnego.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-12T19:20:07+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Astronomy",
+    "url": "https://phys.org/news/2026-10-primordial-helium-big.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/hubble-space-telescope.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Wczesny wszechświat składał się z około trzech części wodoru na jedną część helu.",
+      "Wszystkie cięższe pierwiastki, od tlenu w płucach po żelazo we krwi, powstały w procesach astrofizycznych - skondensowane w gwiazdach, utworzone w supernowych lub rozproszone przez zderzenia gwiazd neutronowych.",
+      "Nawet w obecnym kosmosie cięższe pierwiastki są tak kosmicznie rzadkie, że astronomowie grupują je wszystkie jako metale.",
+      "Jednym ze sposobów badania Wielkiego Wybuchu jest względna obfitość różnych pierwiastków, zwłaszcza pierwotna obfitość wodoru i helu.",
+      "To może wydawać się łatwe, ponieważ były to dwa elementy utworzone przez Wielki Wybuch, ale jest pewien haczyk.",
+      "Chociaż cały wodór, który obserwujemy, powstał podczas Wielkiego Wybuchu, nie cały hel, który obserwujemy, był.",
+      "Większość helu powstała już na początku, ale hel jest również najczęstszym produktem ubocznym fuzji gwiazd.",
+      "Podczas gdy gwiazdy produkują wszystkie atomy potrzebne do stworzenia centrów danych i lalek Labubu, produkują również dużo helu.",
+      "Projekt Large Binocular Telescope Primordial Helium Abundance (LBT Y P ) stara się przezwyciężyć ten problem i niedawno opublikował szereg wyników."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Wszystkie cięższe pierwiastki, od tlenu w płucach po żelazo we krwi, powstały w procesach astrofizycznych.",
+      "Źródło: Yeh, Tsung-Han i in. The Large Binocular Telescope Primordial Helium Abundance (LBT Y P ) Project stara się przezwyciężyć ten problem i niedawno opublikował szereg wyników."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Wielki Wybuch to teoria fizyczna, która opisuje, w jaki sposób wszechświat rozszerzył się z wczesnego stanu wysokiej gęstości i temperatury. Różne modele kosmologiczne oparte na koncepcji Wielkiego Wybuchu wyjaśniają szeroki zakres zjawisk, w tym obfitość elementów świetlnych, promieniowanie kosmicznego tła mikrofalowego (CMB), przesunięcie ku czerwieni galaktyk i wielkoskalową strukturę wszechświata. Obserwowana jednorodność wszechświata, która prowadzi do problemów z horyzontem i płaskością, wyjaśniana jest przez kosmiczną inflację: fazę przyspieszonej ekspansji na najwcześniejszych etapach. Szczegółowe pomiary tempa ekspansji wszechświata wskazują, że inflacja kosmiczna wynosiła około 13,787 ±0,02 miliarda lat temu, co jest uważane za wiek wszechświata. Szeroki wachlarz dowodów empirycznych zdecydowanie przemawia za modelem Wielkiego Wybuchu, który jest obecnie powszechnie akceptowany."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Big Bang",
+     "url": "https://en.wikipedia.org/wiki/Big_Bang"
+    }
+   ],
+   "dlaczego_to_ważne": "Oznacza to, że przez miliardy lat względna obfitość helu rosła, a to wypacza dane.",
+   "liczby": [
+    "54",
+    "24.58%",
+    "24.67%",
+    "90%",
+    "10%",
+    "10.3847"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Big Bang",
+    "opis": "Physical theory of the cosmos",
+    "tekst": "The Big Bang is a physical theory that describes how the universe expanded from an early state of high density and temperature. Various cosmological models based on the Big Bang concept explain a broad range of phenomena, including the abundance of light elements, the cosmic microwave background (CMB) radiation, the redshift of galaxies and the large-scale structure of the universe. The observed uniformity of the universe, which leads to the horizon and flatness problems, is explained through cosmic inflation: a phase of accelerated expansion during the earliest stages. Detailed measurements of the expansion rate of the universe place the cosmic inflation at an estimated 13.787±0.02 billion years ago, which is considered the age of the universe. A wide range of empirical evidence strongly favors the Big Bang model, which is now widely accepted.",
+    "url": "https://en.wikipedia.org/wiki/Big_Bang",
+    "język": "en"
+   },
+   "tagi": [
+    "Astrophysical Journal",
+    "Project",
+    "Big Bang",
+    "Primordial Helium Abundance—Project Description Sample Selection Observations"
+   ],
+   "emotki": [
+    "🔭"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Astronomy",
+     "tytuł": "Primordial helium further confirms our understanding of the Big Bang",
+     "url": "https://phys.org/news/2026-10-primordial-helium-big.html"
+    },
+    {
+     "nazwa": "Universe Today",
+     "tytuł": "Primordial Helium Further Confirms Our Understanding Of The Big Bang",
+     "url": "https://www.universetoday.com/articles/primordial-helium-further-confirms-our-understanding-of-the-big-bang"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.382,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.35,
+     "eksponowanie": 1.44,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.492,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Primordial helium further confirms our understanding of the Big Bang",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Pliki GML z baz geodezyjnych na e-mapie",
+   "lead": "Firma Geo-System poinformowała na swoim blogu o rozbudowie narzędzia do wyświetlania plików w portalach e-mapa o obsługę plików GML zawierających dane z baz EGiB, BDOT i GESUT. Nowa funkcjonalność umożliwia przeglądanie zawartości plików bezpośrednio w przeglądarce internetowej, a także analizę atrybutów poszczególnych…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-13T00:00:00+00:00",
+   "źródło": {
+    "nazwa": "Geoforum",
+    "url": "https://geoforum.pl/news/37426/pliki-gml-z-baz-geodezyjnych-na-e-mapie",
+    "domena": "geoforum.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Co istotne, wczytane pliki nie są przesyłane na serwer pozostają w pamięci przeglądarki na komputerze użytkownika.",
+      "Aby skorzystać z narzędzia..."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Firma Geo-System",
+    "EGiB"
+   ],
+   "emotki": [
+    "🗺️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Geoforum",
+     "tytuł": "Pliki GML z baz geodezyjnych na e-mapie",
+     "url": "https://geoforum.pl/news/37426/pliki-gml-z-baz-geodezyjnych-na-e-mapie"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.06,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.55,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Zaproszenie na GIS Day w Stolicy 2026",
+   "lead": "19 listopada br. na Wydziale Nauk Leśnych i Drzewnych Szkoły Głównej Gospodarstwa Wiejskiego w Warszawie odbędzie się konferencja GIS Day w Stolicy 2026. Wstęp wolny Tegoroczna edycja wydarzenia obchodzona będzie pod hasłem Zielony GIS geoprzestrzeń jutra .",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-13T00:00:00+00:00",
+   "źródło": {
+    "nazwa": "Geoforum",
+    "url": "https://geoforum.pl/news/37424/zaproszenie-na-gis-day-w-stolicy-2026",
+    "domena": "geoforum.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "W jej trakcie szczególnie mocno zostaną poruszone kwestie związane z zastosowaniem narzędzi GIS w monitorowaniu i ochronie środowiska, adaptacji miast do zmian klimatu, zarządzaniu środowiskiem i planowaniu..."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "19"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Stolicy",
+    "Day",
+    "Drzewnych Szkoły Głównej Gospodarstwa Wiejskiego",
+    "Wydziale Nauk Leśnych"
+   ],
+   "emotki": [
+    "🌳"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Geoforum",
+     "tytuł": "Zaproszenie na GIS Day w Stolicy 2026",
+     "url": "https://geoforum.pl/news/37424/zaproszenie-na-gis-day-w-stolicy-2026"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.62,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.72,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.55,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Tarantino miał nakręcić ostatni film. Jego nowy projekt zaskoczył fanów kina",
+   "lead": "Quentin Tarantino, ikona współczesnego kina, ponownie zaskakuje świat. Tym razem nie na planie filmowym, lecz… w teatrze.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-12T18:39:29+00:00",
+   "źródło": {
+    "nazwa": "Onet Kultura",
+    "url": "https://kultura.onet.pl/teatr/fani-czekali-na-nowy-film-tarantino-rezyser-obral-inny-kierunek/ws275em",
+    "domena": "kultura.onet.pl"
+   },
+   "obraz": "https://cdn.kultura.onet.pl/1/dRdk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy9lNDE2NTQyYjRhZTBmYjJkMTUxNTI2NzhjMDFiMzUyNC5qcGeSlQMAzNPNGpnNDvaTBc0JYM0GQN4AAqEwB6ExBA",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Słynny reżyser \"Pulp Fiction\" i \"Wściekłych psów\" zapowiedział swój debiut na deskach West Endu, gdzie wiosną 2027 r. wystawi własną farsę \"The Popinjay Cavalier\".",
+      "Jak informuje magazyn \"Deadline\", Tarantino nie tylko napisał sztukę, ale już znalazł odtwórcę głównej roli — będzie nim nie kto inny, jak Sacha Baron Cohen.",
+      "Obserwowanie Quentina w akcji na sali prób to niezwykłe doświadczenie.",
+      "Jego radość ze współpracy z aktorami, szermierzami, akrobatami, muzykami i naszym zespołem kreatywnym jest zaraźliwa.",
+      "To wielka przyjemność słyszeć, jak jego barwny język ożywa, i odkrywać jego świat na scenie."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Bezkompromisowy hollywoodzki twórca wystawi na West Endzie napisaną przez siebie farsę \"The Popinjay Cavalier\", której akcja będzie rozgrywać się na początku XIX wieku.",
+      "Oczekiwanie na dziesiąty film Quentina Tarantino, zapowiadany jako zwieńczenie jego imponującej kariery, zdaje się nie mieć końca.",
+      "Twórca \"Pulp Fiction\" i \"Wściekłych psów\" narobił fanom nadziei, opowiadając w mediach o swoim nowym projekcie \"The Movie Critic\", który - ku ogromnemu rozczarowaniu widowni - nigdy nie doszedł do skutku.",
+      "Zdobywca Oscara coraz bardziej dystansuje się od przemysłu filmowego, oddając sequel \"Pewnego razu... w Hollywood\" w ręce Davida Finchera."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "18",
+    "63",
+    "54",
+    "12",
+    "25",
+    "16,000"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Deadline Tarantino",
+    "Quentin Tarantino",
+    "Popinjay Cavalier",
+    "Sacha Baron Cohen"
+   ],
+   "emotki": [
+    "🎬",
+    "🎭"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Onet Kultura",
+     "tytuł": "Tarantino miał nakręcić ostatni film. Jego nowy projekt zaskoczył fanów kina",
+     "url": "https://kultura.onet.pl/teatr/fani-czekali-na-nowy-film-tarantino-rezyser-obral-inny-kierunek/ws275em"
+    },
+    {
+     "nazwa": "Interia Film",
+     "tytuł": "Quentin Tarantino powraca! Jego nowy projekt może zaskoczyć",
+     "url": "https://film.interia.pl/wiadomosci/news-quentin-tarantino-powraca-jego-nowy-projekt-moze-zaskoczyc,nId,23556887"
+    },
+    {
+     "nazwa": "BBC Kultura",
+     "tytuł": "Sacha Baron Cohen to star in Quentin Tarantino's West End play",
+     "url": "https://www.bbc.co.uk/news/articles/cqj9k23rynnpo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Culture",
+     "tytuł": "Sacha Baron Cohen to star in Quentin Tarantino’s West End play The Popinjay Cavalier",
+     "url": "https://www.theguardian.com/stage/2026/oct/12/sacha-baron-cohen-quentin-tarantinos-west-end-popinjay-cavalier"
+    }
+   ],
+   "liczba_źródeł": 4,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 9.713,
+    "składowe": {
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 1.65,
+     "eksponowanie": 0.18,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.483,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Selma Blair aresztowana po zajściu w samolocie. Jej sprawą zajmuje się FBI",
+   "lead": "Znana m.in. z \" Hellboya \" i serii \" After \" aktorka Selma Blair została aresztowana w niedzielę po incydencie na pokładzie samolotu linii Delta lecącego z Los Angeles do Nowego",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-12T19:06:00+00:00",
+   "źródło": {
+    "nazwa": "Filmweb",
+    "url": "https://www.filmweb.pl/news/Selma+Blair+aresztowana+po+zaj%C5%9Bciu+w+samolocie.+Jej+spraw%C4%85+zajmuje+si%C4%99+FBI-169059",
+    "domena": "filmweb.pl"
+   },
+   "obraz": "https://fwcdn.pl/nph/49468/2026/77900_1.16.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Selma Blair to amerykańska aktorka znana z ról w takich produkcjach jak \"Legalna blondynka\", \"Szkoła uwodzenia\" czy \"Hellboy\".",
+      "W 2018 roku poinformowała, że choruje na stwardnienie rozsiane.",
+      "Od tego czasu otwarcie opowiada o swoich zmaganiach z chorobą, zwracając uwagę na codzienne wyzwania związane z życiem z przewlekłym schorzeniem.",
+      "Jak informuje Variety, Selma Blair została aresztowana w niedzielę, 11 października, po incydencie na pokładzie samolotu lecącego z Los Angeles do Nowego Jorku."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "11",
+    "54",
+    "938",
+    "20,000",
+    "60,000"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Film",
+     "ujęcie": "Media donoszą o incydencie na pokładzie samolotu z Selmą Blair w roli głównej.",
+     "url": "https://film.interia.pl/mocny-temat/news-selma-blair-aresztowana-po-incydencie-na-pokladzie-samolotu,nId,23557288"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Selma Blair",
+    "Los Angeles",
+    "Hellboya",
+    "Nowego"
+   ],
+   "emotki": [
+    "🎭"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Filmweb",
+     "tytuł": "Selma Blair aresztowana po zajściu w samolocie. Jej sprawą zajmuje się FBI",
+     "url": "https://www.filmweb.pl/news/Selma+Blair+aresztowana+po+zaj%C5%9Bciu+w+samolocie.+Jej+spraw%C4%85+zajmuje+si%C4%99+FBI-169059"
+    },
+    {
+     "nazwa": "Interia Film",
+     "tytuł": "Selma Blair aresztowana po incydencie na pokładzie samolotu. Co się stało?",
+     "url": "https://film.interia.pl/mocny-temat/news-selma-blair-aresztowana-po-incydencie-na-pokladzie-samolotu,nId,23557288"
+    },
+    {
+     "nazwa": "The Guardian Film",
+     "tytuł": "Selma Blair charged with assault of police officer and nurse after allegedly attacking flight attendants",
+     "url": "https://www.theguardian.com/film/2026/oct/12/selma-blair-arrested-jfk-plane-incident"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.481,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.458,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.593,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  }
+ ],
+ "braki": [],
+ "statystyki": {
+  "kanały_ok": 71,
+  "kanały_błędne": 1,
+  "znaki_tłumaczone": 15376,
+  "niedziałające_kanały": [
+   {
+    "url": "https://earthobservatory.nasa.gov/feeds/earth-observatory.rss",
+    "powód": "brak wpisów / nieznany format"
+   }
+  ],
+  "działy": 18,
+  "artykuły_w_oknie": 52
+ }
+}
