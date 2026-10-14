@@ -1,0 +1,1830 @@
+{
+ "wersja": "1.0.0",
+ "wydanie": "2026-10-14",
+ "dotyczy_dnia": "2026-10-13",
+ "wygenerowano": "2026-10-14T11:03:01+00:00",
+ "strefa": "Europe/Warsaw",
+ "tryb": "ekstrakcyjny",
+ "demo": false,
+ "pozycje": [
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Materiały wybuchowe w mieszkaniu mężczyzny, który miał planować zamach na premiera",
+   "lead": "Do Służby Ochrony Państwa została skierowana wiadomość przez osobę anonimową, do której zostało dołączone nagranie rozmowy dokonanej przez osobę informującą – sygnalistę – z mężczyzną, obywatelem Polski, lat 66, mieszkańcem Wrocławia. W ramach rozmowy, która została zrejestrowana i przekazana, mężczyzna ten informował…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-13T15:54:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/fakty/polska/news-materialy-wybuchowe-w-mieszkaniu-mezczyzny-ktory-mial-planow,nIdn,1021715",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/b9/91/doprowadzenie-podejrzanego-o-planowanie-zamachu-na-premiera-fot-636x421-b9912bc9.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Z nagrania rozmowy, które zostało przekazane do SOP-u wynika, że wokół mężczyzny skupiło się kilkuset ludzi, w różnym wieku, różnej płci, na całym terenie Polski.",
+      "Rzecznik przekazał, że w niedzielę funkcjonariusze przeszukali mieszkanie 66-latka.",
+      "Ujawniono w nim m.in. improwizowane materiały wybuchowe.",
+      "Wewnątrz petardy hukowej ujawniono kulki metalowe, co doprowadziło do zatrzymania właściciela mieszkania – przekazał Skiba.",
+      "Jak dodał, w rezultacie zabezpieczono kilkanaście takich materiałów , które zostały przeanalizowane przez biegłego.",
+      "Oprócz tego w mieszkaniu znaleziono także kuszę szeroką, bardzo dużą ilość metalowych bełtów o ostrych zakończeniach, a także inne przedmioty przypominające broń.",
+      "Wstępnie zostały zakwalifikowane jako broń albo alarmowa albo o charakterze pneumatycznym – wyjaśnił Skiba.",
+      "Funkcjonariusze zabezpieczyli także listę osób, które nawiązywały kontakt z 66-latkiem oraz sprzęt informatyczny, z którego materiały zostały przekazane do analizy.",
+      "Skiba, materiały te były pierwotnie zamieszczane w internecie i wskazują na utworzenie określonej grupy o charakterze ekstremistycznym ."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Piotr Antoni Skiba po przesłuchaniu 66-latka, który groził zamachem na premiera i szefa MON.",
+      "Mężczyźnie przedstawiono dziewięć zarzutów, skierowano również wniosek o tymczasowy areszt na trzy miesiące. - Do Służby Ochrony Państwa została skierowana wiadomość przez osobę anonimową, do której dołączone zostało nagranie z rozmowy dokonanej przez osobę informującą, sygnalistę, z mężczyzną, obywatelem Polski, lat 66 lat, mieszkańcem Wrocławia - przekazał prok.",
+      "Piotr Antoni Skiba , rzecznik Prokuratury Okręgowej w Warszawie . - W ramach rozmowy, która została zarejestrowana i przekazana, mężczyzna ten informował, iż poszukuje osób i gromadzi wokół siebie osoby, które mają takie same przekonania ideologiczne jak on, zmierzające do obalenia ustroju w Polsce , do zmiany władzy przy użyciu siły - poinformował rzecznik.",
+      "SOP przeprowadziła przeszukanie \"w mieszkaniu wytypowanym w oparciu o informacje przekazane przez anonimowego informatora\". - W trakcie tych czynności ujawniono kilkanaście przedmiotów (...).",
+      "Prokuratura przedstawiła dziewięć zarzutów 66-latkowi - poinformował rzecznik prasowy Prokuratury Okręgowej w Warszawie Piotr Antoni Skiba na konferencji prasowej we wtorek (13 października).",
+      "Podejrzanemu grozi za to od dwóch do 15 lat więzienia."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Prezes Rady Ministrów (premier) – zgodnie z Konstytucją RP osoba kierująca Radą Ministrów oraz zapewniająca wykonywanie polityki Rady Ministrów w ustroju politycznym Polski. Zwyczajowo nazywany jest premierem. Jest zarazem przewodniczącym Rady Ministrów oraz odrębnym naczelnym organem administracji rządowej."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Prezes Rady Ministrów",
+     "url": "https://pl.wikipedia.org/wiki/Prezes_Rady_Ministr%C3%B3w"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "66",
+    "15 lat",
+    "13",
+    "30"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Gazeta.pl",
+     "ujęcie": "Chodzi o planowany zamach na Radę Ministrów oraz premiera Donalda Tuska.",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198072,33076051,mial-planowac-zamach-na-tuska-prokuratura-przedstawila-dziewiec.html"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Prezes Rady Ministrów",
+    "opis": "lider rządu Rzeczypospolitej Polskiej",
+    "tekst": "Prezes Rady Ministrów (premier) – zgodnie z Konstytucją RP osoba kierująca Radą Ministrów oraz zapewniająca wykonywanie polityki Rady Ministrów w ustroju politycznym Polski. Zwyczajowo nazywany jest premierem. Jest zarazem przewodniczącym Rady Ministrów oraz odrębnym naczelnym organem administracji rządowej.",
+    "url": "https://pl.wikipedia.org/wiki/Prezes_Rady_Ministr%C3%B3w",
+    "język": "pl"
+   },
+   "tagi": [
+    "Polsce",
+    "Rady Ministrów",
+    "Polski",
+    "Skiba"
+   ],
+   "emotki": [
+    "⚖️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Materiały wybuchowe w mieszkaniu mężczyzny, który miał planować zamach na premiera",
+     "url": "https://www.rmf24.pl/fakty/polska/news-materialy-wybuchowe-w-mieszkaniu-mezczyzny-ktory-mial-planow,nIdn,1021715"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Planował zamach na premiera i szefa MON. Prokuratura o kulisach operacji",
+     "url": "https://wydarzenia.interia.pl/kraj/news-planowal-zamach-na-premiera-i-szefa-mon-prokuratura-ujawnia,nId,23557826"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Miał planować zamach na Tuska. Prokuratura przedstawiła dziewięć zarzutów",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198072,33076051,mial-planowac-zamach-na-tuska-prokuratura-przedstawila-dziewiec.html"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.261,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.45,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.449,
+     "treściwość": 0.362,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "„Skończyła się cierpliwość”. Czarzasty zapowiada ws. Trybunału Konstytucyjnego",
+   "lead": "Czarzasty zabrał głos we wtorek podczas spotkania z wyborcami w Tychach. Marszałek Sejmu powołał się na opublikowaną we wtorek opinię Komisji Weneckiej , która wskazała, że jeśli prezydent „odmawia odebrania ślubowania od sędziego wybranego przez Sejm lub opóźnia to, uniemożliwiając w ten sposób ukończenie zwykłej…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-13T18:45:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/fakty/polska/news-skonczyla-sie-cierpliwosc-czarzasty-zapowiada-ws-trybunalu-k,nIdn,1021734",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/e2/b0/fot-636x421-e2b01d1d.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Komisja Wenecka dała jednoznaczną wykładnię.",
+      "Po pierwsze, wszystkie decyzje Sejmu w tej sprawie są zgodne z prawem.",
+      "Po drugie, prezydent ma natychmiast zaprzysiąc wszystkich sędziów Trybunału Konstytucyjnego. (…) Po trzecie, jeżeli prezydent tego nie zrobi, to sędziowie Trybunału Konstytucyjnego mają złożyć przysięgę w innej formie.",
+      "I chciałem wam powiedzieć – złożą .",
+      "Mamy dość po prostu łamania prawa – mówił Czarzasty.",
+      "Jak dodał, „TK musi działać stabilnie”.",
+      "Ocenił postawę prezydenta w tej sprawie jako „skandaliczną”.",
+      "Marszałek Sejmu zaznaczył, że rządzącym „skończyła się cierpliwość” w sprawach związanych z przywracaniem praworządności w Polsce.",
+      "Zasygnalizował, że w najbliższym czasie podjęte zostaną „bardzo sprawne działania”."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Sędziowie Trybunału Konstytucyjnego, od których prezydent Karol Nawrocki nie odebrał ślubowania, mają zostać zaprzysiężeni w inny sposób.",
+      "Marszałek Sejmu powołał się na opublikowaną we wtorek opinię Komisji Weneckiej , która wskazała, że jeśli prezydent \"odmawia odebrania ślubowania od sędziego wybranego przez Sejm lub opóźnia to, uniemożliwiając w ten sposób ukończenie zwykłej procedury składania ślubowania\", możliwe jest \"dopełnienia aktu ślubowania bez fizycznego udziału prezydenta\". - Komisja Wenecka dała jednoznaczną wykładnię.",
+      "Po drugie, prezydent ma natychmiast zaprzysiąc wszystkich sędziów Trybunału Konstytucyjnego . (…) Po trzecie, jeżeli prezydent tego nie zrobi, to sędziowie Trybunału Konstytucyjnego mają złożyć przysięgę w innej formie.",
+      "Marszałek Sejmu zaznaczył, że rządzącym \"skończyła się cierpliwość\" w sprawach związanych z przywracaniem praworządności w Polsce."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Trybunał Konstytucyjny (TK) – polski sąd konstytucyjny, organ władzy sądowniczej. Został utworzony w 1982 i rozpoczął działalność orzeczniczą w 1986. Jego podstawowym zadaniem jest sądowa kontrola konstytucyjności prawa: kontrolowanie zgodności norm prawnych niższego rzędu z normami prawnymi wyższego rzędu, przede wszystkim z Konstytucją i niektórymi umowami międzynarodowymi."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Trybunał Konstytucyjny (Polska)",
+     "url": "https://pl.wikipedia.org/wiki/Trybuna%C5%82_Konstytucyjny_(Polska)"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Trybunał Konstytucyjny (Polska)",
+    "opis": "polski sąd konstytucyjny",
+    "tekst": "Trybunał Konstytucyjny (TK) – polski sąd konstytucyjny, organ władzy sądowniczej. Został utworzony w 1982 i rozpoczął działalność orzeczniczą w 1986. Jego podstawowym zadaniem jest sądowa kontrola konstytucyjności prawa: kontrolowanie zgodności norm prawnych niższego rzędu z normami prawnymi wyższego rzędu, przede wszystkim z Konstytucją i niektórymi umowami międzynarodowymi.",
+    "url": "https://pl.wikipedia.org/wiki/Trybuna%C5%82_Konstytucyjny_(Polska)",
+    "język": "pl"
+   },
+   "tagi": [
+    "Sejm",
+    "Trybunału Konstytucyjnego",
+    "Komisji Weneckiej",
+    "Wenecka"
+   ],
+   "emotki": [
+    "🏛️",
+    "🪐",
+    "🗳️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24",
+     "tytuł": "„Skończyła się cierpliwość”. Czarzasty zapowiada ws. Trybunału Konstytucyjnego",
+     "url": "https://www.rmf24.pl/fakty/polska/news-skonczyla-sie-cierpliwosc-czarzasty-zapowiada-ws-trybunalu-k,nIdn,1021734"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Czarzasty zapowiada ślubowanie sędziów TK bez prezydenta. \"Mamy dość\"",
+     "url": "https://wydarzenia.interia.pl/kraj/news-czarzasty-zapowiada-slubowanie-sedziow-tk-bez-prezydenta-sko,nId,23557889"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.638,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.3,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.507,
+     "treściwość": 0.381,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Dlaczego Moskwa milczy na temat zawieszenia broni Trumpa?",
+   "lead": "Podczas gdy Wołodymyr Zełenski sugeruje, że podpisze zawieszenie broni w sprawie infrastruktury energetycznej, Rosja niewiele mówi.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-12T20:17:37+00:00",
+   "źródło": {
+    "nazwa": "BBC Europe",
+    "url": "https://www.bbc.co.uk/news/articles/cjx2359qekrdo?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6601/live/5861b070-c670-11f1-8c1b-356b863d8549.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Brytyjski przywódca poprosił ministrów o przygotowanie propozycji dalszych sankcji, wsparcia militarnego i pakietów fiskalnych, aby pomóc krajowi ogarniętemu wojną.",
+      "We wtorkowym wywiadzie dla NPR Zełenski powiedział, że decyzja administracji Trumpa o zniesieniu sankcji na rosyjski olej napędowy nie obniży cen paliwa.",
+      "Z powodu zablokowania cieśniny Ormuz - powiedział Zełenski, odnosząc się do ważnego punktu żeglugowego między Zatoką Perską a Zatoką Omańską.",
+      "Spotkanie prezydenta Zełenskiego z NPR zbliża się do pięciu lat, kiedy to Biały Dom wznowił starania o zakończenie wojny rosyjsko-ukraińskiej."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "6.27",
+    "70%",
+    "3.65"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "While Ukraine's Volodymyr Zelensky",
+    "Trump's",
+    "Moscow",
+    "Russia"
+   ],
+   "emotki": [
+    "🕊️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC Europe",
+     "tytuł": "Why Moscow is staying tight-lipped on Trump's energy ceasefire",
+     "url": "https://www.bbc.co.uk/news/articles/cjx2359qekrdo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Europe",
+     "tytuł": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
+     "url": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "Politico Europe",
+     "tytuł": "Burnham pledges ‘rock-solid support’ for Ukraine as Zelenskyy makes UK trip",
+     "url": "https://www.politico.eu/article/andy-burnham-ukraine-support-volodymyr-zelenskyy-uk-trip/"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "The Trump administration warns Ukraine it could cut off intel, Zelenskyy tells NPR",
+     "url": "https://www.npr.org/2026/10/13/nx-s1-6000051/ukraine-zelenskyy-npr-interview-russia-war"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.822,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.637,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.519,
+     "treściwość": 0.186,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Why Moscow is staying tight-lipped on Trump's energy ceasefire",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Polska donosi o aresztowaniach 2 obywateli tureckich w Niemczech w związku z pożarem stacji Starlink w zeszłym miesiącu",
+   "lead": "Polscy urzędnicy powiedzieli w poniedziałek, że dwóch obywateli tureckich zostało zatrzymanych w Niemczech w związku z pożarem w zeszłym miesiącu na stacji Starlink w Polsce . Satelitarny serwis internetowy Starlink jest szeroko wykorzystywany przez wojsko sąsiada Polski, Ukrainy, w czasie rosyjskiej inwazji .",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-12T18:05:00+00:00",
+   "źródło": {
+    "nazwa": "Deutsche Welle",
+    "url": "https://www.dw.com/en/poland-reports-arrests-of-2-turkish-citizens-in-germany-in-connection-with-starlink-station-fire-last-month/a-79646138?maca=en-rss-en-world-4025-rdf",
+    "domena": "dw.com"
+   },
+   "obraz": "https://static.dw.com/image/79410514_6.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Polscy urzędnicy nie określili dokładnie, gdzie lub kiedy obaj mężczyźni zostali rzekomo zatrzymani w Niemczech.",
+      "Minister spraw wewnętrznych Polski Marcin Kierwinski poinformował o aresztowaniach w poniedziałek, a wkrótce potem premier Donald Tusk.",
+      "„W imieniu polskich służb niemiecka policja zatrzymała dwóch obywateli Turcji podejrzanych o podpalenie stacji Starlink na Mazowszu” - powiedział w mediach społecznościowych.",
+      "- To kolejny akt wojny hybrydowej.",
+      "Sprawcy sabotażu odpowiedzą przed polskim wymiarem sprawiedliwości.„ Województwo mazowieckie obejmuje stolicę Polski, Warszawę, niedaleko wschodnich granic Polski do Białorusi i Ukrainy.",
+      "Minister ds. służb specjalnych Tomasz Siemoniak twierdził, że za incydentem stoi Rosja.",
+      "Powiedział też na konferencji prasowej, że „​warto dodać, że rosyjskie służby coraz częściej zwracają się ​do osób powiązanych z przestępczym podziemiem” za takie ataki.",
+      "Rosja zazwyczaj odrzuca europejskie twierdzenia o wojnie hybrydowej lub sabotażu systemowym jako antyrosyjskiej histerii lub dezinformacji.",
+      "Jeśli polegasz na naszym zespole w zakresie wiarygodnego raportowania, poświęć chwilę, aby wybrać nas jako preferowane źródło w Google , aby zawsze najpierw zobaczyć nasze zweryfikowane wiadomości."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Niemiecki prezydent Johann Wadephul powiedział, że plany hybrydowe, takie jak pożar Starlink, pokazują, że Europa jest „na celowniku Rosji”. „Brytyjski Ed Miliband powiedział, że rosyjski kontrakt Diesla Trumpa doprowadził do„ bardzo trudnych kilku dni ”dyplomatycznie.",
+      "Umowa Trumpa z Rosją na olej napędowy budzi europejską furię, a prezydent Zełenski kwestionuje motywy i sojuszników Waszyngtonu, by utrzymać presję na Moskwę.",
+      "Trump mówił też o zawieszeniu broni w atakach na infrastrukturę energetyczną, o którym nie wiedzą ani Ukraina, ani Rosja.",
+      "Prezydent zniósł również sankcje na rosyjski olej napędowy, nawet gdy Europejczycy nałożyli nowe sankcje na rosyjski kompleks wojskowy.",
+      "Wiesz, że prezydent Zełenski przemawiał tutaj zdalnie w Warszawie i powiedział, że nawet gdy to zawieszenie broni zostało ogłoszone przez prezydenta Trumpa, ukraińskie rafinerie były bombardowane."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Niemcy, oficjalnie Republika Federalna Niemiec, to kraj w Europie Zachodniej i Środkowej. Leży między Morzem Bałtyckim a Morzem Północnym na północy z Alpami na południu. Łącznie 16 państw członkowskich liczy ponad 83 mln mieszkańców, co czyni je najbardziej zaludnionym państwem członkowskim Unii Europejskiej (UE). Od północy Niemcy graniczą z Danią, od wschodu z Polską i Czechami, od południa z Austrią i Szwajcarią, a od zachodu z Francją, Luksemburgiem, Belgią i Holandią. Stolicą i najbardziej zaludnionym miastem kraju jest Berlin, a jego głównym centrum finansowym jest Frankfurt; największym obszarem miejskim jest Zagłębie Ruhry."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Germany",
+     "url": "https://en.wikipedia.org/wiki/Germany"
+    }
+   ],
+   "dlaczego_to_ważne": "Urzędnicy z kilku krajów UE ostrzegają przed rosyjskim sabotażem, atakami cybernetycznymi i hybrydowymi w całej Europie, których celem jest albo osłabienie wsparcia dla Ukrainy, albo bezpośredni wpływ na Ukrainę.",
+   "liczby": [
+    "1,600"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Germany",
+    "opis": "Country in Europe",
+    "tekst": "Germany, officially the Federal Republic of Germany, is a country in Western and Central Europe. It lies between the Baltic Sea and the North Sea to the north with the Alps to the south. Its 16 constituent states have a total population of over 83 million, making it the most populous member state of the European Union (EU). Germany borders Denmark to the north; Poland and the Czech Republic to the east; Austria and Switzerland to the south; and France, Luxembourg, Belgium, and the Netherlands to the west. The nation's capital and most populous city is Berlin and its main financial centre is Frankfurt; the largest urban area is the Ruhr.",
+    "url": "https://en.wikipedia.org/wiki/Germany",
+    "język": "en"
+   },
+   "tagi": [
+    "Starlink",
+    "Ukraine",
+    "Polish",
+    "Turkish"
+   ],
+   "emotki": [
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "Poland reports arrests of 2 Turkish citizens in Germany in connection with Starlink station fire last month",
+     "url": "https://www.dw.com/en/poland-reports-arrests-of-2-turkish-citizens-in-germany-in-connection-with-starlink-station-fire-last-month/a-79646138?maca=en-rss-en-world-4025-rdf"
+    },
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "Ukraine allies in Poland after Starlink sabotage, Trump diesel deal",
+     "url": "https://www.dw.com/en/ukraine-allies-in-poland-after-starlink-sabotage-trump-diesel-deal/a-79653869?maca=en-rss-en-world-4025-rdf"
+    },
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "Ukraine and the US: What's next after Trump's diesel deal with Russia?",
+     "url": "https://www.dw.com/en/ukraine-and-the-us-what-s-next-after-trump-s-diesel-deal-with-russia/a-79650785?maca=en-rss-en-world-4025-rdf"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "Trump's diesel deal with Putin angers Europe",
+     "url": "https://www.npr.org/2026/10/13/nx-s1-5998764/trumps-diesel-deal-with-putin-angers-europe"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "How will a diesel deal with Russia impact the U.S. market?",
+     "url": "https://www.npr.org/2026/10/13/nx-s1-6000118/how-will-a-diesel-deal-with-russia-impact-the-u-s-market"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.471,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.665,
+     "eksponowanie": 2.43,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.501,
+     "treściwość": 0.275,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Poland reports arrests of 2 Turkish citizens in Germany in connection with Starlink station fire last month",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Polacy rywalizują w Pucharze Świata w strzelectwie. \"Trochę smutek\" [WIDEO]",
+   "lead": "Trochę smutek, bo zabrakło mi dwóch punktów do finału. Tak naprawdę jednym strzałem sobie to załatwiłam.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-13T19:51:00+00:00",
+   "źródło": {
+    "nazwa": "TVP Sport",
+    "url": "https://sport.tvp.pl/95914689/polacy-rywalizuja-w-pucharze-swiata-w-strzelectwie-troche-smutek-wideo",
+    "domena": "sport.tvp.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Strzelałam bez wiatru, a byłam \"wkręcona\" na wiatr, no i tym sposobem wypadłam z finału.",
+      "Więc jest niedosyt – przyznała po zawodach Pucharu Świata ISSF w Kairze, Natalia Kochańska.",
+      "Polka zajęła ostatecznie 16. miejsce."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "16"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Kairze Natalia Kochańska",
+    "Pucharze Świata",
+    "Pucharu Świata",
+    "Trochę"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Polacy rywalizują w Pucharze Świata w strzelectwie. \"Trochę smutek\" [WIDEO]",
+     "url": "https://sport.tvp.pl/95914689/polacy-rywalizuja-w-pucharze-swiata-w-strzelectwie-troche-smutek-wideo"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.802,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.498,
+     "treściwość": 0.404,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Polska – Belgia. Eliminacje MŚ 2027 kobiet – półfinał baraży, Gdańsk [SKRÓT]",
+   "lead": "Skrót rewanżowego spotkania reprezentacji Polski z Belgią w półfinale baraży o awans do mistrzostw świata kobiet 2027.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-13T19:10:00+00:00",
+   "źródło": {
+    "nazwa": "TVP Sport",
+    "url": "https://sport.tvp.pl/95911737/polska-belgia-eliminacje-ms-2027-kobiet-polfinal-barazy-gdansk-skrot",
+    "domena": "sport.tvp.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Rewanżowe spotkanie reprezentacji Polski z Belgią w półfinale baraży o awans do mistrzostw świata kobiet 2027."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "Kiedy Polska zagra finał baraży o mundial?",
+     "url": "https://sport.tvp.pl/95914031/el-ms-2027-pilkarek-kiedy-polska-zagra-final-barazy-o-mundial-kto-rywalem"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Gdańsk",
+    "Polski",
+    "Belgią",
+    "Skrót"
+   ],
+   "emotki": [
+    "🏅"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Polska – Belgia. Eliminacje MŚ 2027 kobiet – półfinał baraży, Gdańsk [SKRÓT]",
+     "url": "https://sport.tvp.pl/95911737/polska-belgia-eliminacje-ms-2027-kobiet-polfinal-barazy-gdansk-skrot"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Polska – Belgia. Eliminacje MŚ 2027 kobiet – półfinał baraży, Gdańsk [MECZ]",
+     "url": "https://sport.tvp.pl/95644891/polska-belgia-eliminacje-ms-2027-kobiet-polfinal-barazy-gdansk-transmisja-na-zywo-online-live-stream-13102026"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "El. MŚ 2027 piłkarek. Kiedy Polska zagra finał baraży o mundial? Kto rywalem?",
+     "url": "https://sport.tvp.pl/95914031/el-ms-2027-pilkarek-kiedy-polska-zagra-final-barazy-o-mundial-kto-rywalem"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.503,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.3,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.506,
+     "treściwość": 0.147,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Łabędzie Eom celem rzekomego rasizmu w Millwall",
+   "lead": "Trener Swansea City, Vitor Matos, mówi, że długi postój podczas wygranej 1: 0 w Millwall był wynikiem rasistowskich nadużyć wymierzonych w skrzydłowego Ji-sung Eom.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-13T22:23:48+00:00",
+   "źródło": {
+    "nazwa": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmdx3nk7kwwro?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2917/live/2bdbfd10-c74e-11f1-b4d5-87f9c6c95a29.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Mecz w Den trwał siedem minut Middlesbrough edge Stoke w thrillerze; więcej Watford ponurego zwycięstwa Swansea 1-0 w Millwall zostało wstrzymane na prawie siedem minut po tym, jak Swansea zgłosiła urzędnikom zarzut rasistowskiego znęcania się ze strony tłumu nad Eom Ji-sung.",
+      "Sędzia, Edward Duckworth, przerwał mecz w 65. minucie i podszedł do ławek rezerwowych, aby porozmawiać z Alexem Neilem, menadżerem Millwall, menadżerem Swansea, Vítorem Matosem i czwartym urzędnikiem, Ruebynem Ricardo.",
+      "Na miejscu był również strażnik, a Duckworth zdawał się wskazywać na obszar na trybunach za ławką ziemną Swansea.",
+      "Neil powiedział: „Zostało to zgłoszone i jest nie do przyjęcia.„ Jako klub potępiamy rasizm i dyskryminację we wszystkich formach i nie ma miejsca na takie zachowania w piłce nożnej ani w społeczeństwie ”- powiedział Swansea.„ Klub chce zapisać w protokole swoje podziękowania za szybki i zdecydowany sposób, w jaki urzędnicy meczowi, klub piłkarski Millwall i policja zajęli się incydentem.",
+      "Popieramy Ji-sung, a on ma naszą niezachwianą miłość i wsparcie.\" Millwall powiedział: \"Każda osoba, która zaangażowała się w takie zachowanie, stanie w obliczu najsilniejszego możliwego działania.",
+      "[Współpracujemy] z odpowiednimi organami w celu ustalenia faktów i nie możemy dalej komentować, ponieważ domniemany incydent jest przedmiotem trwającego dochodzenia policyjnego, które klub w pełni popiera.\" Zastępca Ronald zdobył zwycięzcę w ostatniej chwili, aby utrzymać Swansea na szczycie mistrzostw .",
+      "Inter 3-4 Club Brugge; Galatasaray 1-4 Barcelona Olise wystartował, gdy Bayern odbył 3-3 w Viking Stavanger Club Brugge, a ich młody napastnik Nicolò Tresoldi zszokował Inter 4-3 w San Siro w wieczornym wyniku Ligi Mistrzów."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "65",
+    "18",
+    "21",
+    "10",
+    "11",
+    "35"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Millwall Swansea City",
+    "Vitor Matos",
+    "Ji-sung Eom",
+    "Millwall"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Swans' Eom the target of alleged racism at Millwall",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cmdx3nk7kwwro?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Championship roundup: Swansea’s win at Millwall marred by alleged racist abuse of Eom Ji-sung",
+     "url": "https://www.theguardian.com/football/2026/oct/13/championship-roundup-racist-chanting-mars-swanseas-win-at-millwall"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Champions League roundup: Tresoldi treble stuns Inter in Club Brugge win",
+     "url": "https://www.theguardian.com/football/2026/oct/13/champions-league-lens-sporting-inter-barcelona-bayern-napoli"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Atlético Madrid 2-0 Manchester United: Champions League – as it happened",
+     "url": "https://www.theguardian.com/football/live/2026/oct/13/atletico-madrid-v-manchester-united-champions-league-live"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Arsenal 3-0 Lille: Champions League – as it happened",
+     "url": "https://www.theguardian.com/football/live/2026/oct/13/arsenal-v-lille-champions-league-live-score-updates"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Viking’s two head coaches on Champions League adventure: ‘For us, it’s the best team in the world’",
+     "url": "https://www.theguardian.com/football/2026/oct/13/viking-stavanger-morten-jensen-bjarte-lunde-aarsheim-champions-league-bayern-munich"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "Saka shines as Arsenal cruise to Champions League win over Lille",
+     "url": "https://www.skysports.com/football/arsenal-vs-lille/report/577615"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.208,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 2.328,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.53,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Swans' Eom the target of alleged racism at Millwall",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Niezależny regulator czekający na apelację Man City",
+   "lead": "David Kogan, przewodniczący niezależnego organu nadzoru piłki nożnej, mówi, że organ musi „przedstawić dowody” przed podjęciem jakiejkolwiek decyzji w sprawie przeciwko Manchesterowi City.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-13T16:14:23+00:00",
+   "źródło": {
+    "nazwa": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cmze418n8ke9o?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/832e/live/0c4a1770-c71c-11f1-9a39-31b474234113.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Szef niezależnego organu regulacyjnego piłki nożnej w Anglii mówi, że zrezygnuje, jeśli napotka jakąkolwiek polityczną ingerencję w przyszłość Manchesteru City.",
+      "Kogan może usunąć City's Abu Dhabi United Group (ADUG), jeśli obciążający werdykt niezależnej komisji zostanie utrzymany w mocy po zakończeniu trwającego procesu odwoławczego. ­Pojawiły się jednak obawy, że bliskość własności miasta do władców Abu Zabi może wywołać polityczną interwencję rządu Zjednoczonego Królestwa i natychmiastowy test uprawnień nowego organu regulacyjnego.",
+      "Obawy te zostały odrzucone przez Kogana. „Nasza niezależność jest absolutna, a moja własna jest absolutna” - powiedział. „Wyraziłem się bardzo jasno … każda forma ingerencji politycznej w sposób, w jaki działamy, spowoduje, że zrezygnuję z tej roli i całkowicie ją popieram.",
+      "I tak dla jasności, nie znaleźliśmy się pod żadną presją polityczną w tym ani żadnym innym temacie.\" Kogan przemawiał we wtorek podczas premiery długo oczekiwanego raportu State of the Game, dokumentu, który przedstawia wyzwania finansowe stojące przed angielską piramidą piłkarską.",
+      "Przyspieszenie przychodów wśród największych klubów Premier League jest jednym z kluczowych ustaleń raportu State of the Game.",
+      "Najlepiej zarabiający klub najwyższej klasy zarabia obecnie 605 razy więcej niż najsłabiej zarabiający klub ligi narodowej.",
+      "Zespół BBC Sport Ask Me Anything sprawdza, czy któryś z zawodników Manchesteru City został podpisany w czasie, gdy klub został uznany za winnego naruszenia zasad finansowych Premier League."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "605",
+    "94%",
+    "116",
+    "26",
+    "320",
+    "80"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Manchester City",
+    "David Kogan",
+    "Man City"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Independent regulator waiting for Man City appeal",
+     "url": "https://www.bbc.co.uk/sport/football/videos/cmze418n8ke9o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Football regulator says he would quit over Man City political interference",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cjkge245n0gzo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Football regulator chair insists he will resign if politically pressured over Manchester City",
+     "url": "https://www.theguardian.com/football/2026/oct/13/football-regulator-chair-david-kogan-manchester-city"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Were any current Man City players signed during charges period?",
+     "url": "https://www.bbc.co.uk/sport/articles/cmje5wl5ek32o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Why are some football shin pads so small?",
+     "url": "https://www.bbc.co.uk/sport/football/articles/c8d75jn2057o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "BBC Women's Football Weekly",
+     "url": "https://www.bbc.co.uk/sounds/play/p0pgjk3h?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Football Daily",
+     "url": "https://www.bbc.co.uk/sounds/play/p0pgjm3k?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "The Ballon d’Or doesn’t capture football’s wonder – Michael Olise is proof | Zito Madu",
+     "url": "https://www.theguardian.com/football/2026/oct/13/michael-olise-ballon-dor-france-belgium"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Football Daily | Coventry come to life at last – are their slapstick days behind them?",
+     "url": "https://www.theguardian.com/football/2026/oct/13/coventry-city-football-daily-newsletter"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "David Squires on … the endless growth of football vodcasts and banal digital banter",
+     "url": "https://www.theguardian.com/football/picture/2026/oct/13/david-squires-on-endless-growth-football-podcasts-vodcasts-banal-digital-banter"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.801,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 2.808,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.543,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Independent regulator waiting for Man City appeal",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Apple HomeView już tu jest. Centrum sterowania domem z jabłkiem",
+   "lead": "Apple HomeView już tu jest. Centrum sterowania domem z jabłkiem",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-13T13:42:00+00:00",
+   "źródło": {
+    "nazwa": "Spider's Web",
+    "url": "https://spidersweb.pl/2026/10/apple-homeview-premiera-smart-home.html",
+    "domena": "spidersweb.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Apple zaprezentowało HomeView, czyli połączenie HomePoda i iPada, które ma stać się centrum sterowania inteligentnym domem.",
+      "Za nami prezentacja Welcome Home, w ramach której Apple pokazało nowe urządzenia, rozbudowujące ekosystem inteligentnego domu.",
+      "Główną gwiazdą zgodnie z przewidywaniami okazał się HomeView, czyli centrum sterowania multimediami i akcesoriami smart home, jakiego jeszcze w ofercie Apple nie było.",
+      "Zarówno jednak design, jak i dokładna specyfikacja były przez Apple skutecznie ukrywane, co czyni HomeView jedną z najciekawszych premier ekipy z Cupertino tej jesieni."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "299",
+    "15",
+    "13",
+    "18"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Apple HomeView",
+    "HomeView"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Spider's Web",
+     "tytuł": "Apple HomeView już tu jest. Centrum sterowania domem z jabłkiem",
+     "url": "https://spidersweb.pl/2026/10/apple-homeview-premiera-smart-home.html"
+    },
+    {
+     "nazwa": "Antyweb",
+     "tytuł": "Apple HomeView oficjalnie zaprezentowany. Potwierdziło się najgorsze",
+     "url": "https://antyweb.pl/apple-homeview-oficjalnie-zaprezentowany-potwierdzilo-sie-najgorsze"
+    },
+    {
+     "nazwa": "Ars Technica",
+     "tytuł": "Apple’s first smart display is the 7-inch HomeView for $299",
+     "url": "https://arstechnica.com/apple/2026/10/apple-homeview-smart-home-hub-opens-for-preorders-at-299/"
+    },
+    {
+     "nazwa": "Phys.org Technology",
+     "tytuł": "Apple unveils HomeView smart display in renewed home push",
+     "url": "https://techxplore.com/news/2026-10-apple-unveils-homeview-smart-display.html"
+    },
+    {
+     "nazwa": "The Verge",
+     "tytuł": "Apple’s HomeView ad is confusing to everyone except parents",
+     "url": "https://www.theverge.com/tech/1010561/apple-homeview-commercial-reaction"
+    }
+   ],
+   "liczba_źródeł": 5,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 11.729,
+    "składowe": {
+     "potwierdzenia": 7.6,
+     "ranga_źródła": 1.857,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.527,
+     "treściwość": 0.435,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Jestem pod wrażeniem. Gemini 4 w twoim Gemini już dostępny",
+   "lead": "Gemini 4 w twoim Gemini już dostępny",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-13T16:00:00+00:00",
+   "źródło": {
+    "nazwa": "Spider's Web",
+    "url": "https://spidersweb.pl/2026/10/gemini-4-argon-dostepnosc.html",
+    "domena": "spidersweb.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Jeszcze niedawno firma opowiadała, jak to Gemini 3.6 Flash potrafi naprawdę wiele i to przed premierą Gemini 3.5 Pro.",
+      "Teraz Amerykanie odpalają petardę i udostępniają na całym świecie Gemini 4 Argon, który ma zawstydzać zarówno konkurencję, jak i poprzednie modele.",
+      "Już od dzisiaj, 13 października, mogą z niego korzystać programiści, firmy, naukowcy, a także użytkownicy posiadający odpowiednie subskrypcje Google AI."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "3.6",
+    "3.5",
+    "13",
+    "35 proc.",
+    "30",
+    "10"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Antyweb",
+     "ujęcie": "Google udostępnił właśnie swój najpotężniejszy model AI Gemini 4 Argon deweloperom i przedsiębiorstwom na całym świecie.",
+     "url": "https://antyweb.pl/google-odpala-swoja-najpotezniejsza-ai-gemini-4-argon-juz-dostepny"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Gemini",
+    "Jestem"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Spider's Web",
+     "tytuł": "Jestem pod wrażeniem. Gemini 4 w twoim Gemini już dostępny",
+     "url": "https://spidersweb.pl/2026/10/gemini-4-argon-dostepnosc.html"
+    },
+    {
+     "nazwa": "Antyweb",
+     "tytuł": "Google odpala swoją najpotężniejszą AI. Gemini 4 Argon już dostępny",
+     "url": "https://antyweb.pl/google-odpala-swoja-najpotezniejsza-ai-gemini-4-argon-juz-dostepny"
+    },
+    {
+     "nazwa": "Ars Technica",
+     "tytuł": "Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay",
+     "url": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.065,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.535,
+     "eksponowanie": 0.18,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.45,
+     "treściwość": 0.25,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Ultrakrótkie impulsy laserowe oferują nowy sposób badania geometrii kwantowej elektronów",
+   "lead": "friedricha Schillera w Jenie Naukowcy z Uniwersytetu Friedricha Schillera w Jenie i Uniwersytetu w Regensburgu opracowali metodę określania, przy użyciu światła, kwantowej właściwości elektronów, która do tej pory była trudno dostępna. Skupiamy się na tak zwanej krzywiźnie jagód - ilości, która…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-13T23:40:02+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-10-ultrashort-laser-pulses-probe-electrons.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/using-light-to-reveal.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Naukowcy zmierzyli ją w warstwie półprzewodnikowego diselenku wolframu, o grubości zaledwie jednej warstwy atomowej, za pomocą ultrakrótkich impulsów laserowych.",
+      "Wyniki opublikowano w najnowszym numerze czasopisma Nature Photonics .",
+      "Elektrony w krysztale nie poruszają się tak po prostu jak drobne cząsteczki po ustalonych ścieżkach.",
+      "Badacze podsumowują właściwości geometryczne tych stanów pod pojęciem „geometrii kwantowej.„ Ważnym parametrem jest tutaj krzywizna jagód.",
+      "Między innymi wpływa na to, jak elektrony reagują na światło lub pola elektryczne.",
+      "Do tej pory krzywizna jagód była głównie obliczana teoretycznie lub badana przy użyciu stosunkowo złożonych metod doświadczalnych.",
+      "Zespół z Jeny i Regensburga przyjmuje inne podejście: łączy pomiary optyczne z modelem analitycznym, dzięki czemu jest w stanie oszacować ilościowo lokalne zakrzywienie materiału.",
+      "„Chcieliśmy udostępnić właściwość kwantową, która do tej pory była trudna do określenia eksperymentalnie” - mówi naczelna autorka Nele Tornow z Instytutu Fizyki Ciała Stałego Uniwersytetu w Jenie.",
+      "„To, co wyróżnia nasze podejście, to to, że łączymy eksperyment optyczny z modelem teoretycznym, aby uzyskać określoną wartość krzywizny Berry.„ Do eksperymentu naukowcy wykorzystali diselenek wolframu, półprzewodnik, którego badana warstwa ma mniej niż jeden nanometr grubości."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jena to miasto w Niemczech i drugie co do wielkości miasto w Turyngii. Wraz z pobliskimi miastami Erfurt i Weimar tworzy centralny obszar metropolitalny Turyngii z około 500 000 mieszkańców, podczas gdy samo miasto liczy około 110 000 mieszkańców. Jena jest ośrodkiem edukacyjno-badawczym. Uniwersytet w Jenie został założony w 1558 roku i miał 18 000 studentów w 2017 roku, a Ernst-Abbe-Hochschule Jena obsługuje kolejne 5000 studentów. Ponadto istnieje wiele instytutów wiodących niemieckich towarzystw badawczych."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Jena",
+     "url": "https://en.wikipedia.org/wiki/Jena"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10.1038",
+    "026",
+    "02025"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Jena",
+    "opis": "City in Germany",
+    "tekst": "Jena is a city in Germany and the second largest city in Thuringia. Together with the nearby cities of Erfurt and Weimar, it forms the central metropolitan area of Thuringia with approximately 500,000 inhabitants, while the city itself has a population of about 110,000. Jena is a centre of education and research. The University of Jena was founded in 1558 and had 18,000 students in 2017 and the Ernst-Abbe-Hochschule Jena serves another 5,000 students. Furthermore, there are many institutes of the leading German research societies.",
+    "url": "https://en.wikipedia.org/wiki/Jena",
+    "język": "en"
+   },
+   "tagi": [
+    "Berry",
+    "University",
+    "Jena",
+    "Friedrich Schiller University"
+   ],
+   "emotki": [
+    "⚛️",
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Ultrashort laser pulses offer a new way to probe electrons' quantum geometry",
+     "url": "https://phys.org/news/2026-10-ultrashort-laser-pulses-probe-electrons.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.756,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.546,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Ultrashort laser pulses offer a new way to probe electrons' quantum geometry",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Fizycy kwantowi śledzą stulecie kontrolowania spinu",
+   "lead": "Koncepcja z zakresu mechaniki kwantowej spin jest właściwością cząstek, która nie ma bezpośredniego odpowiednika w codziennym doświadczeniu. Od początku XX wieku badacze nauczyli się celowo manipulować nim za pomocą precyzyjnie ukształtowanych impulsów elektromagnetycznych.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-13T20:30:01+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-10-quantum-physicists-century.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/quantum-physicists-tra.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Doprowadziło to do powstania dwóch technologii, które są obecnie szeroko rozpowszechnione: obrazowanie metodą rezonansu magnetycznego (MRI) jest powszechne w szpitalach, a spektroskopia magnetycznego rezonansu jądrowego (NMR) jest wykorzystywana do określania struktur białek i opracowywania nowych leków.",
+      "Do doskonalenia tych technologii można wykorzystać matematyczne ramy teorii optymalnego sterowania.",
+      "„Pytanie, na które odpowiada, jest praktyczne” - wyjaśnia Christiane Koch, profesor fizyki teoretycznej na Freie Universität Berlin.",
+      "„Biorąc pod uwagę system kwantowy i pola, które mogę do niego zastosować, jak mogę osiągnąć pożądany stan tak szybko, niezawodnie i tak dokładnie, jak to możliwe - i jak dobrze można to w ogóle zrobić?„ Zyski są znaczne: impulsy zaprojektowane w ten sposób odwracają spiny jądrowe około 10 razy szybciej niż impulsy konwencjonalne stosowane wcześniej, a w obrazowaniu rezonansem magnetycznym umożliwiają wbudowanie ograniczeń prawdziwego skanera bezpośrednio w konstrukcję eksperymencie.",
+      "Badanie opublikowano w czasopiśmie Science Advances .",
+      "Artykuł przeglądowy pokazuje, że te same metody sięgają obecnie daleko poza rezonans magnetyczny; nawet cząsteczki można precyzyjnie kontrolować za pomocą dostosowanych impulsów elektromagnetycznych.",
+      "Jest to szczególnie interesujące w przypadku cząsteczek chiralnych, które występują w formach leworęcznych i praworęcznych i mogą się znacznie różnić swoim działaniem biologicznym.",
+      "Dopasowane sekwencje impulsów mikrofalowych mogą przenosić jedną z dwóch form do wybranego stanu kwantowego, pozostawiając drugą nienaruszoną - jest to warunek wstępny ich rozdzielenia.",
+      "Powiązane metody były stosowane do nawigacji poszczególnych atomów przez szeroki zakres możliwych stanów."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Science Advances to recenzowane, multidyscyplinarne, ogólnodostępne czasopismo naukowe założone na początku 2015 roku i opublikowane przez American Association for the Advancement of Science. Zakres czasopisma obejmuje wszystkie dziedziny nauki."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Science Advances",
+     "url": "https://en.wikipedia.org/wiki/Science_Advances"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "20",
+    "10"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Science Advances",
+    "opis": "American academic journal",
+    "tekst": "Science Advances is a peer-reviewed multidisciplinary open-access scientific journal established in early 2015 and published by the American Association for the Advancement of Science. The journal's scope includes all areas of science.",
+    "url": "https://en.wikipedia.org/wiki/Science_Advances",
+    "język": "en"
+   },
+   "tagi": [
+    "Science Advances",
+    "Optimal",
+    "Koch",
+    "Munich Aarhus University Université"
+   ],
+   "emotki": [
+    "⚛️",
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Quantum physicists trace a century of controlling spin",
+     "url": "https://phys.org/news/2026-10-quantum-physicists-century.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.436,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.18,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.506,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Quantum physicists trace a century of controlling spin",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Porównywanie odległości poza światem Rovera",
+   "lead": "Infografika ta ilustruje odległości pokonywane przez różne łaziki na powierzchni Księżyca i Marsa. Spośród pokazanych pojazdów, łaziki marsjańskie NASA Perseverance i Curiosity są nadal sprawne i poruszają się po powierzchni; liczby pokazane dla tych dwóch są odległościami przejechanymi od października",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-13T17:56:08+00:00",
+   "źródło": {
+    "nazwa": "NASA",
+    "url": "https://science.nasa.gov/photojournal/comparing-off-world-rover-driving-distances/",
+    "domena": "science.nasa.gov"
+   },
+   "obraz": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia26/pia26814/PIA26814.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "W tym dniu Perseverance przekroczył rekord odległości posiadany przez łazik Opportunity NASA, który ostatecznie zatrzymał się w 2018 roku na przejechanych około 45,16 kilometrów.",
+      "Laboratorium Napędu Odrzutowego NASA, które jest zarządzane dla NASA przez Caltech w Pasadenie w Kalifornii, zbudowało i zarządza operacjami łazika Perseverance w imieniu Dyrekcji Misji Naukowych agencji w Waszyngtonie, w ramach portfolio NASA Mars Exploration Program."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "11 października 2026 roku łazik NASA Perseverance przejechał na Marsie 45,22 km.",
+      "Poprzedni rekord 28,06 mili (45,16 kilometrów) był utrzymywany przez łazik Opportunity należący do NASA.",
+      "Wytrwałość osiągnęła ten poziom w 2 006 dniu marsjańskim swojej misji.",
+      "Sześciokołowy geolog w niecałe sześć lat przekroczył wyznaczony przez agencję znak Opportunity, która badała czerwoną planetę przez prawie 15 lat.",
+      "Tam, gdzie pierwszy łazik marsjański NASA, Sojourner , ocenił ścieżkę przed sobą za pomocą 20 punktów pomiarowych, Perseverance przetwarza 600 000 z każdym spojrzeniem.",
+      "Rover Sojourner wielkości kuchenki mikrofalowej pokonał około 330 stóp (100 metrów) podczas misji z 83 solami w 1997 roku."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Rover 75 to duży samochód rodzinny lub samochód typu executive, który był produkowany w latach 1998-2005 przez brytyjską markę Rover. Istnieją dwa style nadwozia - czterodrzwiowy sedan i pięciodrzwiowy kombi. Początkowo zbudowany tylko z napędem na przednie koła, później został sprzedany wariant z napędem na tylne koła z silnikiem V8. Istniał również model z wydłużonym rozstawem osi. W 2001 roku MG Rover wprowadził na rynek zaprojektowany przez BADGE wariant MG ZT. Zbudowano koncepcję coupé, ale nie poddano jej dalszemu rozwojowi."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Rover 75",
+     "url": "https://en.wikipedia.org/wiki/Rover_75"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "11, 2026",
+    "28.1",
+    "45.16",
+    "45.22 km",
+    "28.06",
+    "2,006"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Rover 75",
+    "opis": "Large British saloon car",
+    "tekst": "The Rover 75 is a large family car or executive car which was manufactured from 1998 to 2005 by the British Rover marque. There are two body styles—a four-door saloon car and a five-door estate car. Initially built only with front-wheel drive, a rear-wheel-drive variant with a V8 engine was later sold. There was also an extended-wheelbase model. In 2001, MG Rover launched a badge engineered variant, the MG ZT. A coupé concept was built, but did not receive further development.",
+    "url": "https://en.wikipedia.org/wiki/Rover_75",
+    "język": "en"
+   },
+   "tagi": [
+    "Perseverance",
+    "Off-World Rover Driving Distances",
+    "NASA’s Mars Exploration Program",
+    "Science Mission Directorate"
+   ],
+   "emotki": [
+    "🪐"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "NASA",
+     "tytuł": "Comparing Off-World Rover Driving Distances",
+     "url": "https://science.nasa.gov/photojournal/comparing-off-world-rover-driving-distances/"
+    },
+    {
+     "nazwa": "EarthSky",
+     "tytuł": "NASA’s Perseverance rover on Mars sets off-world driving record",
+     "url": "https://earthsky.org/space/nasas-perseverance-rover-on-mars-sets-off-world-driving-record/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.201,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.443,
+     "eksponowanie": 1.26,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.474,
+     "treściwość": 0.424,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Comparing Off-World Rover Driving Distances",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Voyager Technologies Griffin-1 przeprowadza testy środowiskowe w NASA JPL",
+   "lead": "Lądownik księżycowy Voyager Technologies zakończył prawie trzy miesiące testów środowiskowych w Laboratorium Napędu Odrzutowego NASA w południowej Kalifornii pod koniec września 2026 roku. Testy pokazują, że statek kosmiczny jest przygotowany na trudne warunki wystrzelenia, podróży na Księżyc i lądowania na…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-13T17:11:11+00:00",
+   "źródło": {
+    "nazwa": "NASA",
+    "url": "https://science.nasa.gov/photojournal/voyager-technologies-griffin-1-completes-environmental-testing-at-nasa-jpl/",
+    "domena": "science.nasa.gov"
+   },
+   "obraz": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia26/pia26708/PIA26708.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Ostateczna próba odbyła się w historycznym 25-stopowym symulatorze kosmicznym JPL, termicznej komorze próżniowej wpisanej do Krajowego Rejestru Miejsc Historycznych za rolę we wspieraniu historycznych misji, takich jak programy Ranger, Surveyor, Mariner i Voyager.",
+      "Inżynierowie i technicy w sierpniu",
+      "31, 2026 r., użył dźwigu do ustawienia statku kosmicznego w wysokiej komorze, gdzie Griffin-1 naprzemiennie piekł w temperaturze do 167 stopni Fahrenheita (75 stopni Celsjusza) i zamarzał w temperaturach tak niskich, jak minus 148 F (minus 100 C).",
+      "Ten test próżni termicznej symuluje ekstremalne temperatury, których doświadczy statek kosmiczny podczas swojej misji.",
+      "Żółte paski na lądowniku symulują ładunek, który zostanie później przymocowany do statku kosmicznego: łazik FLIP Astrolab (FLEX Lunar Innovation Platform).",
+      "Korytarz wyłożony jest fotografiami części zabytkowych statków kosmicznych, które są testowane w obiekcie od lat 60.",
+      "Rysunek B przedstawia Griffin-1 29 lipca w komorze bezechowej do badań zakłóceń elektromagnetycznych i kompatybilności elektromagnetycznej, która zapewnia, że sygnały z komponentów elektronicznych statku kosmicznego nie zakłócają się wzajemnie.",
+      "Długie kolce piankowe pokrywają ściany komory, pochłaniając fale dźwiękowe i elektromagnetyczne.",
+      "Na Rysunku C, wykonanym 20 lipca, Griffin-1 obraca się szybko na specjalnym stole, aby zmierzyć jego właściwości masowe, umożliwiając inżynierom poszukiwanie nieoczekiwanych wahań podczas oceny, w jaki sposób pojazd będzie poruszał się w przestrzeni kosmicznej — jest to ważna informacja dla określenia gotowości statku kosmicznego do lotu i operacji naziemnych."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "NASA ogłosiła trzy nowe ładunki naukowe, które skierują się na Księżyc, aby lepiej zrozumieć zagrożenia i zasoby księżycowe.",
+      "Jeśli tym razem zamierzamy pozostać na Księżycu, zgodnie z intencjami NASA, astronauci, inżynierowie i naukowcy będą musieli zrozumieć codzienne środowisko na powierzchni Księżyca.",
+      "Projekty te będą w najbliższych latach łączyć się z różnymi komercyjnymi lądownikami księżycowymi w ramach nowej inicjatywy NASA „Ładunki użyteczne i badania na powierzchni Księżyca” (PRISM).",
+      "Ładunki użyteczne będą badać zagrożenia środowiskowe i zasoby krytyczne, a także badać możliwe obszary osłonięte na Księżycu.",
+      "Celem jest położenie podwalin pod przyszły ludzki posterunek na Księżycu. „NASA Science buduje ostateczny międzyplanetarny przewodnik przetrwania, aby zapewnić, że nauka najpierw dotrze na powierzchnię Księżyca, aby zapewnić naszym przyszłym załogom astronautów ważne informacje, zasoby i środki ostrożności potrzebne z wyprzedzeniem do przetrwania nocy na Księżycu” - mówi Nicky Fox (Dyrekcja Misji Naukowych NASA) w komunikacie prasowym ."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Griffin Mission One to misja lądowania na Księżycu opracowana przez Astrobotic Technology w ramach programu Commercial Lunar Payload Services (CLPS) NASA. Misja ma na celu dostarczenie zestawu ładunków naukowych, technologicznych i kulturowych na biegun południowy Księżyca, w szczególności do regionu krateru Nobile w pobliżu Mons Mouton. Griffin-1, którego wystrzelenie zaplanowano nie wcześniej niż w listopadzie 2026 r., jest kluczowym elementem programu ARTEMIS NASA, wspierającym naukę o Księżycu i eksplorację w przyszłych misjach załogowych."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Griffin Mission One",
+     "url": "https://en.wikipedia.org/wiki/Griffin_Mission_One"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "25",
+    "31, 2026",
+    "167",
+    "75",
+    "148",
+    "100"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Griffin Mission One",
+    "opis": "Lunar lander built by Astrobotic Technology",
+    "tekst": "Griffin Mission One is a lunar lander mission developed by Astrobotic Technology as part of NASA's Commercial Lunar Payload Services (CLPS) program. The mission aims to deliver a suite of scientific, technological, and cultural payloads to the Moon's South Pole, specifically targeting the Nobile Crater region near Mons Mouton. Scheduled for launch no earlier than November 2026, Griffin-1 is a key component of NASA's Artemis program, supporting lunar science and exploration for future crewed missions.",
+    "url": "https://en.wikipedia.org/wiki/Griffin_Mission_One",
+    "język": "en"
+   },
+   "tagi": [
+    "Griffin-1",
+    "Figure",
+    "Aug",
+    "Space Simulator"
+   ],
+   "emotki": [
+    "🚀"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "NASA",
+     "tytuł": "Voyager Technologies’ Griffin-1 Completes Environmental Testing at NASA JPL",
+     "url": "https://science.nasa.gov/photojournal/voyager-technologies-griffin-1-completes-environmental-testing-at-nasa-jpl/"
+    },
+    {
+     "nazwa": "Sky & Telescope News",
+     "tytuł": "NASA Initiative to Study the Moon's Environment",
+     "url": "https://skyandtelescope.org/astronomy-news/nasa-initiative-to-study-the-moons-environment/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.054,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.458,
+     "eksponowanie": 1.08,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.465,
+     "treściwość": 0.451,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Voyager Technologies’ Griffin-1 Completes Environmental Testing at NASA JPL",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Cyrkulacja oceaniczna, która utrzymuje się nawet po awarii kluczowego komponentu AMOC",
+   "lead": "Góra lodowa unosi się w Morzu Amundsena na Oceanie Południowym, obszarze, który może być drastycznie dotknięty osłabieniem AMOC.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-13T12:00:23+00:00",
+   "źródło": {
+    "nazwa": "Eos (AGU)",
+    "url": "https://eos.org/research-spotlights/the-ocean-circulation-that-persists-even-after-a-key-amoc-component-fails",
+    "domena": "eos.org"
+   },
+   "obraz": "https://eos.org/wp-content/uploads/2026/10/abundsen-iceberg-1024x576.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "nathaniel Scharping, Amerykańska Unia Geofizyczna Uważa się, że południowy obieg Atlantyku (AMOC) stoi w obliczu potencjalnego egzystencjalnego zagrożenia ze strony zmian klimatycznych.",
+      "W artykule opublikowanym w AGU Advances Shantong Sun i Andrew Thompson wykorzystują hierarchię modeli, aby pokazać, że obalenie się półkul może trwać przez wieki, nawet gdy formacja North Atlantic Deep Water (NADW) zostanie zamknięta.",
+      "Jako przykład naukowcy zbadali symulację opracowaną przez National Center for Atmospheric Research's Community Earth System Model 2 (CESM2 ), w pełni sprzężonego modelu systemu ziemskiego.",
+      "Naukowcy znaleźli te same wyniki, gdy przeprowadzili wyidealizowany model oceanu o zmniejszonej grawitacji, który symuluje kluczową dynamikę regulującą przewracającą się cyrkulację.",
+      "Model zredukowanej grawitacji wykazał, że to ciągłe przewracanie się jest napędzane stopniowym pogłębianiem się warstw gęstości lub rearanżacją stratyfikacji oceanu, a nie stałą równowagą tonięcia i podnoszenia się wody, twierdzą autorzy."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10.1029"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Southern Ocean’s Amundsen Sea",
+    "Ocean Circulation",
+    "Component Fails",
+    "Persists Even"
+   ],
+   "emotki": [
+    "🌊"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Eos (AGU)",
+     "tytuł": "The Ocean Circulation That Persists Even After a Key AMOC Component Fails",
+     "url": "https://eos.org/research-spotlights/the-ocean-circulation-that-persists-even-after-a-key-amoc-component-fails"
+    },
+    {
+     "nazwa": "Phys.org Earth",
+     "tytuł": "The ocean circulation that persists even after a key AMOC component fails",
+     "url": "https://phys.org/news/2026-10-ocean-circulation-persists-key-amoc.html"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.318,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.372,
+     "eksponowanie": 1.35,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.496,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "The Ocean Circulation That Persists Even After a Key AMOC Component Fails",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Scientists deploy a 24-armed secret weapon to save California’s kelp forests",
+   "lead": "Team works to restore the sunflower sea star as 95% of these key underwater ecosystems have been decimated along the Pacific coast in past decade Off the coast of Monterey, California , a team of researchers is gearing up for its first dive of the day into the cold and choppy waters of the Pacific Ocean. On the back…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-13T12:00:01+00:00",
+   "źródło": {
+    "nazwa": "The Guardian Environment",
+    "url": "https://www.theguardian.com/environment/2026/oct/13/sunflower-sea-star-california-kelp-forests",
+    "domena": "theguardian.com"
+   },
+   "obraz": "https://i.guim.co.uk/img/media/dfcb746c1eb83c289abdeb6dc4a0d699c51d1f17/329_0_2388_1911/master/2388.jpg?width=140&quality=85&auto=format&fit=max&s=a992cbb39e8be1ca9e292b3413a21cc4",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "On the ocean floor, they place the creatures inside specialized cages but keep the doors wide open.",
+      "The goal is to encourage these alien-like predators to roam the seabed where they were once a crucial part of this underwater ecosystem. “We have a star that decided to go for a walk today,” Kidd said, tracking the progress of one particularly mobile subject.",
+      "Kidd’s team is working to restore the sunflower sea star, a critically endangered marine invertebrate that looks less like a traditional starfish and more like something out of science fiction. “They are a sea star, but the cool thing with these guys is they have more than five arms,” Kidd said. “They can have up to 24 arms, and we want to bring them back.” The underwater landscape here was once dominated by towering kelp forests .",
+      "Often described as the redwoods of the sea, kelp can grow taller than a 10-story building at rates of up to 2ft per day.",
+      "These dense aquatic canopies form a critical habitat for thousands of marine species and contribute to the ocean’s ecological engine that produces roughly half of the oxygen on Earth.",
+      "They are also a crucial defense against global heating.",
+      "Worldwide, kelp forests sequester approximately 200m tons of carbon dioxide every year by pulling large amounts of planet-warming emissions out of the atmosphere, which they use to grow.",
+      "Beginning around 2013, a marine heatwave fueled by the climate crisis raised water temperatures across the west coast.",
+      "The warm water accelerated the spread of sea star wasting syndrome , a disease that literally dissolved the bodies of sunflower sea stars, wiping out more than 90% of the Pacific population. “There were 6bn sunflower stars from Alaska down to Baja California ,” said Reuven Bank, a co-founder of the Sunflower Star Laboratory. “Six billion with a B.” When the stars disappeared, the delicate ecological balance dissolved with them. “95% of our kelp forests have disappeared in the last 10 to 12 years,” Bank said."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "More than 2 billion years ago, Earth underwent a dramatic transformation as oxygen began building up in its atmosphere.",
+      "But that change left scientists with a major mystery: How did the planet maintain enough oxygen to remain habitable over millions of years?",
+      "By studying rocks from South Africa, they found that changes in ocean chemistry helped create a natural cycle in which biological activity supported the continued accumulation of atmospheric oxygen.",
+      "The research, published in Nature Communications , involved scientists including University of California, Riverside geologist Andrey Bekker.",
+      "How Ancient Oceans Helped Sustain Earth's Oxygen About 2.3 billion years ago, Earth experienced the Great Oxidation Event, a major turning point when oxygen became a lasting component of the atmosphere."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "California is a state in the Western United States. It is bordered by Oregon to the north, the Mexican state of Baja California to the south, Nevada to the east, Arizona to the southeast, and the Pacific Ocean to the west. With a population of over 39 million across an area of 163,696 square miles (423,970 km2), it is the most populous U.S. state and the third largest by land area."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: California",
+     "url": "https://en.wikipedia.org/wiki/California"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "95%",
+    "24",
+    "10",
+    "200",
+    "90%",
+    "12"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "ScienceDaily Earth",
+     "ujęcie": "Researchers have now uncovered evidence that the answer may lie in an ancient recycling system within Earth's oceans.",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261011211602.htm"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "California",
+    "opis": "U.S. state",
+    "tekst": "California is a state in the Western United States. It is bordered by Oregon to the north, the Mexican state of Baja California to the south, Nevada to the east, Arizona to the southeast, and the Pacific Ocean to the west. With a population of over 39 million across an area of 163,696 square miles (423,970 km2), it is the most populous U.S. state and the third largest by land area.",
+    "url": "https://en.wikipedia.org/wiki/California",
+    "język": "en"
+   },
+   "tagi": [
+    "Bank",
+    "Pacific",
+    "Sunflower Star Laboratory",
+    "Monterey Bay"
+   ],
+   "emotki": [
+    "🌊",
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "The Guardian Environment",
+     "tytuł": "Scientists deploy a 24-armed secret weapon to save California’s kelp forests",
+     "url": "https://www.theguardian.com/environment/2026/oct/13/sunflower-sea-star-california-kelp-forests"
+    },
+    {
+     "nazwa": "ScienceDaily Earth",
+     "tytuł": "Scientists uncover the 2.3-billion-year-old secret that helped keep Earth habitable",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261011211602.htm"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 3,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.15,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 1.8,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.4,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Sąd wymierzył karę w sprawie zabójstwa Tupaca Shakura. Jaki zapadł wyrok?",
+   "lead": "Sąd w Las Vegas późnym wieczorem polskiego czasu ogłosił wymiar kary, na którą został skazany Duane \"Keffe D\" Davis. 63-letni obecnie mężczyzna już w sierpniu został uznany przez ławę przysięgłych za winnego śmierci rapera Tupaca Shakura.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-13T18:59:50+00:00",
+   "źródło": {
+    "nazwa": "Interia Muzyka",
+    "url": "https://muzyka.interia.pl/mocny-temat/news-jest-decyzja-sadu-w-sprawie-zabojstwa-tupaca-tyle-czasu-duan,nId,23557399",
+    "domena": "muzyka.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NEDC29HO1293O-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "30 lat po śmierci Tupaca Shakura sąd w Las Vegas wymierzył karę człowiekowi winnemu zorganizowania jego zabójstwa.",
+      "Duane \"Keffe D\" Davis 31 sierpnia uznany został przez ławę przysięgłych za winnego zabójstwa pierwszego stopnia z użyciem broni w związku ze zorganizowaniem ataku na rapera.",
+      "Po ogłoszeniu wyroku Davis zapowiedział, że będzie chciał się odwołać.",
+      "Przed ogłoszeniem wymiaru kary głos zabrali m.in. siostra Tupaca - Sekyiwa \"Set\" Shakur , która nie kryła łez wspominając swojego brata, oraz przyrodni brat rapera - Maurice \"Mopreme\" Shakur .",
+      "Od tego wyroku należy odjąć 731 dni, które skazany już odsiedział.",
+      "To oznacza, że o zwolnienie warunkowe Davis może się ubiegać najwcześniej za 38 lat.",
+      "Dodajmy, że Duane \"Keffe D\" Davis jest jedyną osobą, którą dotychczas oskarżono i uznano za winną w sprawie śmierci rapera.",
+      "Kluczową rolę w procesie odegrały wcześniejsze wypowiedzi samego Davisa.",
+      "Śledztwo nabrało nowego tempa, gdy Davis zaczął publicznie opisywać swój udział w wydarzeniach z września 1996 roku."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Zabójstwo Tupaca Shakura – zabójstwo amerykańskiego rapera Tupaca Shakura, dokonane 7 września 1996 r. w Las Vegas."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Zabójstwo Tupaca Shakura",
+     "url": "https://pl.wikipedia.org/wiki/Zab%C3%B3jstwo_Tupaca_Shakura"
+    }
+   ],
+   "dlaczego_to_ważne": "63-letniemu obecnie Davisowi groziło od 40 lat więzienia do dożywocia bez możliwości ubiegania się o zwolnienie warunkowe.",
+   "liczby": [
+    "63",
+    "30 lat",
+    "31",
+    "40 lat",
+    "13",
+    "731 dni"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Zabójstwo Tupaca Shakura",
+    "opis": "",
+    "tekst": "Zabójstwo Tupaca Shakura – zabójstwo amerykańskiego rapera Tupaca Shakura, dokonane 7 września 1996 r. w Las Vegas.",
+    "url": "https://pl.wikipedia.org/wiki/Zab%C3%B3jstwo_Tupaca_Shakura",
+    "język": "pl"
+   },
+   "tagi": [
+    "Davis",
+    "Tupaca",
+    "Davisa",
+    "Tupaca Shakura"
+   ],
+   "emotki": [
+    "⚖️",
+    "🌳"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Muzyka",
+     "tytuł": "Sąd wymierzył karę w sprawie zabójstwa Tupaca Shakura. Jaki zapadł wyrok?",
+     "url": "https://muzyka.interia.pl/mocny-temat/news-jest-decyzja-sadu-w-sprawie-zabojstwa-tupaca-tyle-czasu-duan,nId,23557399"
+    },
+    {
+     "nazwa": "The Guardian Music",
+     "tytuł": "Duane ‘Keffe D’ Davis sentenced to 40 years to life over Tupac Shakur’s murder",
+     "url": "https://www.theguardian.com/music/2026/oct/13/duane-davis-sentencing-tupac-shakur-murder"
+    },
+    {
+     "nazwa": "Pitchfork",
+     "tytuł": "Man Who Orchestrated Tupac Shakur Murder Sentenced to 40 Years to Life in Prison",
+     "url": "https://pitchfork.com/story/man-convicted-of-orchestrating-tupac-shakur-murder-sentenced-to-40-years-to-life/"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.43,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.343,
+     "eksponowanie": 1.44,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.497,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Selma Blair usłyszała zarzuty. Wyszła na wolność po wpłaceniu 20 tysięcy dolarów kaucji",
+   "lead": "Aktorka Selma Blair stanęła w poniedziałek przed nowojorskim sądem okręgowym. Podczas posiedzenia usłyszała zarzuty karne.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-13T07:22:05+00:00",
+   "źródło": {
+    "nazwa": "Filmweb",
+    "url": "https://www.filmweb.pl/news/Selma+Blair+oskar%C5%BCona+o+napa%C5%9B%C4%87.+To+pok%C5%82osie+wydarze%C5%84%2C+do+kt%C3%B3rych+dosz%C5%82o+w+niedziel%C4%99+w+samolocie-169065",
+    "domena": "filmweb.pl"
+   },
+   "obraz": "https://fwcdn.pl/nph/867323/2026/77911_1.16.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "O co oskarżono Selmę Blair?",
+      "Przypomnijmy, że Selma Blair została aresztowana na lotnisku JFK w"
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "To konsekwencja wydarzeń, do których doszło w niedzielę.",
+   "liczby": [
+    "11",
+    "938",
+    "54",
+    "20,000",
+    "60,000"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Aktorka Selma Blair",
+    "Selmę Blair",
+    "Selma Blair",
+    "Blair"
+   ],
+   "emotki": [
+    "⚖️",
+    "🎭"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Filmweb",
+     "tytuł": "Selma Blair usłyszała zarzuty. Wyszła na wolność po wpłaceniu 20 tysięcy dolarów kaucji",
+     "url": "https://www.filmweb.pl/news/Selma+Blair+oskar%C5%BCona+o+napa%C5%9B%C4%87.+To+pok%C5%82osie+wydarze%C5%84%2C+do+kt%C3%B3rych+dosz%C5%82o+w+niedziel%C4%99+w+samolocie-169065"
+    },
+    {
+     "nazwa": "BBC Kultura",
+     "tytuł": "Actress Selma Blair faces charges for kicking nurse and officer after plane incident",
+     "url": "https://www.bbc.co.uk/news/articles/ck86zje2z4pwo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Film",
+     "tytuł": "Selma Blair charged with assault of police officer and nurse after allegedly attacking flight attendants",
+     "url": "https://www.theguardian.com/film/2026/oct/12/selma-blair-arrested-jfk-plane-incident"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.414,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.537,
+     "eksponowanie": 0.54,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.537,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  }
+ ],
+ "braki": [],
+ "statystyki": {
+  "kanały_ok": 71,
+  "kanały_błędne": 1,
+  "znaki_tłumaczone": 19645,
+  "niedziałające_kanały": [
+   {
+    "url": "https://earthobservatory.nasa.gov/feeds/earth-observatory.rss",
+    "powód": "brak wpisów / nieznany format"
+   }
+  ],
+  "działy": 18,
+  "artykuły_w_oknie": 59
+ }
+}
