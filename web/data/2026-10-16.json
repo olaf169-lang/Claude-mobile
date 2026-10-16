@@ -1,0 +1,1910 @@
+{
+ "wersja": "1.0.0",
+ "wydanie": "2026-10-16",
+ "dotyczy_dnia": "2026-10-15",
+ "wygenerowano": "2026-10-16T10:33:08+00:00",
+ "strefa": "Europe/Warsaw",
+ "tryb": "ekstrakcyjny",
+ "demo": false,
+ "pozycje": [
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Alert RCB dla mieszkańców woj. lubelskiego odwołany. „Zakończony atak na Ukrainę”",
+   "lead": "Po godzinie 20:00 RCB rozesłało alert o zakończeniu ataku powietrznego na Ukrainę. „Brak zagrożenia na terenie Polski” - poinformowano.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-15T16:54:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/regiony/lublin/news-alert-rcb-dla-mieszkancow-woj-lubelskiego-odwolany-zakonczon,nIdn,1022083",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/cb/ad/zdjecie-ilustracyjne-636x421-cbadf3c0.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Komunikat był skierowany do mieszkańców powiatów m.in. puławskiego, opolskiego, lubelskiego, kraśnickiego, janowskiego, włodawskiego, łęczyńskiego, świdnickiego, chełmskiego, krasnostawskiego, hrubieszowskiego, zamojskiego, tomaszowskiego, biłgorajskiego, łukowskiego, bialskiego, ryckiego, radzyńskiego, parczewskiego oraz lubartowskiego .",
+      "Obejmował zarówno większe miasta, jak Lublin, Chełm, Zamość czy Biała Podlaska, jak i mniejsze miejscowości regionu.",
+      "Alert RCB to system powiadamiania obywateli o zagrożeniach, takich jak klęski żywiołowe, katastrofy czy – jak w tym przypadku – potencjalne zagrożenia militarne .",
+      "W treści wiadomości podkreślono, że sytuacja jest monitorowana, a polskie lotnictwo prowadziło operacje w przestrzeni powietrznej naszego kraju.",
+      "Mieszkańców poproszono o zachowanie spokoju i oczekiwanie na dalsze komunikaty."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "\"Zgodnie z obowiązującymi procedurami Dowództwo Operacyjne RSZ, poprzez Centrum Operacji Powietrznych - Dowództwo Komponentu Powietrznego, uruchomiło niezbędne siły i środki pozostające w jego dyspozycji.",
+      "Jak podano, alert został wysłany do odbiorców na terenie województwa lubelskiego w powiatach: puławskim, opolskim, Lublin, lubelskim, kraśnickim, janowskim, włodawskim, łęczyńskim, świdnickim, Chełm, chełmskim, krasnostawskim, hrubieszowskim, Zamość, zamojskim, tomaszowskim, biłgorajskim, łukowskim, Biała Podlaska, bialskim, ryckim, radzyńskim, parczewskim, lubartowskim."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Inwazja Rosji na Ukrainę, wojna rosyjsko-ukraińska – pełnoskalowa inwazja na Ukrainę rozpoczęta 24 lutego 2022 roku przez Rosję, stanowiąca eskalację wojny trwającej od 2014 roku. Została poprzedzona rosyjskimi żądaniami wykluczenia możliwości dalszego poszerzania NATO i redukcji potencjału militarnego sojuszu w Europie Środkowo-Wschodniej do stanu sprzed 1997 roku."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Inwazja Rosji na Ukrainę",
+     "url": "https://pl.wikipedia.org/wiki/Inwazja_Rosji_na_Ukrain%C4%99"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "20",
+    "00",
+    "1.25",
+    "50",
+    "80",
+    "34"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "RMF24",
+     "ujęcie": "Tym razem dla Podkarpacia i Lubelszczyzny",
+     "url": "https://www.rmf24.pl/regiony/lublin/news-drugi-dzis-alert-rcb-tym-razem-dla-podkarpacia-i-lubelszczyz,nIdn,1022104"
+    },
+    {
+     "źródło": "Interia Fakty",
+     "ujęcie": "W związku z rosyjskimi uderzeniami na cele w zachodniej Ukrainie w polskiej przestrzeni powietrznej operowało lotnictwo.",
+     "url": "https://wydarzenia.interia.pl/kraj/news-rosyjski-atak-na-ukraine-operowalo-polskie-lotnictwo-wydano,nId,23559111"
+    },
+    {
+     "źródło": "Gazeta.pl",
+     "ujęcie": "W czwartek Rządowe Centrum Bezpieczeństwa wysłało alert o treści: \"UWAGA!",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198073,33080971,rosyjski-atak-na-terenie-ukrainy-sluzby-wydaly-alert-rcb.html"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Inwazja Rosji na Ukrainę",
+    "opis": "inwazja na Ukrainę rozpoczęta 24 lutego 2022 roku przez Federację Rosyjską",
+    "tekst": "Inwazja Rosji na Ukrainę, wojna rosyjsko-ukraińska – pełnoskalowa inwazja na Ukrainę rozpoczęta 24 lutego 2022 roku przez Rosję, stanowiąca eskalację wojny trwającej od 2014 roku. Została poprzedzona rosyjskimi żądaniami wykluczenia możliwości dalszego poszerzania NATO i redukcji potencjału militarnego sojuszu w Europie Środkowo-Wschodniej do stanu sprzed 1997 roku.",
+    "url": "https://pl.wikipedia.org/wiki/Inwazja_Rosji_na_Ukrain%C4%99",
+    "język": "pl"
+   },
+   "tagi": [
+    "Ukrainę",
+    "Lublin Chełm Zamość",
+    "Biała Podlaska",
+    "Polski"
+   ],
+   "emotki": [
+    "🚑"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Alert RCB dla mieszkańców woj. lubelskiego odwołany. „Zakończony atak na Ukrainę”",
+     "url": "https://www.rmf24.pl/regiony/lublin/news-alert-rcb-dla-mieszkancow-woj-lubelskiego-odwolany-zakonczon,nIdn,1022083"
+    },
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Drugi dziś alert RCB. Tym razem dla Podkarpacia i Lubelszczyzny",
+     "url": "https://www.rmf24.pl/regiony/lublin/news-drugi-dzis-alert-rcb-tym-razem-dla-podkarpacia-i-lubelszczyz,nIdn,1022104"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Rosyjski atak na Ukrainę. Operowało polskie lotnictwo. Wydano serię alertów",
+     "url": "https://wydarzenia.interia.pl/kraj/news-rosyjski-atak-na-ukraine-operowalo-polskie-lotnictwo-wydano,nId,23559111"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Rosyjski atak na terenie Ukrainy. Służby wydały alert RCB",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198073,33080971,rosyjski-atak-na-terenie-ukrainy-sluzby-wydaly-alert-rcb.html"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.291,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.622,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.598,
+     "treściwość": 0.421,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Sprawa immunitetu Obajtka wystartuje od razu? Urzędnik PE: Nie sądzę",
+   "lead": "Parlament Europejski zgodził się już wcześniej na uchylenie immunitetu byłemu prezesowi Orlenu w trzech sprawach, np. w kwestii dotyczącej inwigilacji opozycji. Procedura uchylania immunitetu w Parlamencie Europejskim jest wieloetapowa.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-15T13:39:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/fakty/polityka/news-sprawa-immunitetu-obajtka-wystartuje-od-razu-urzednik-pe-nie,nIdn,1022057",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/30/ec/urzednik-pe-procedura-uchylenia-immunitetu-danielowi-obajtkowi-raczej-nie-ruszy-w-poniedzialek-zdjecie-ilustracyjne-fot-636x421-30ec3f4f.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Rozpoczyna się, gdy przewodnicząca PE Roberta Metsola ogłasza wniosek na sesji plenarnej, z reguły pierwszego dnia.",
+      "Rozmówca RMF FM w Parlamencie Europejskim nie sądzi jednak, by nastąpiło to już w najbliższy poniedziałek, kiedy rozpoczyna się sesja.",
+      "Po ogłoszeniu sprawą zajmuje się Komisja Prawna, która wysłuchuje argumentów europosła i przygotowuje raport z rekomendacją.",
+      "Ostateczną decyzję w sprawie uchylenia immunitetu podejmuje cały Parlament w głosowaniu.",
+      "Każdy wniosek rozpatrywany jest osobno, a europoseł ma prawo do obrony.",
+      "W przypadku Daniela Obajtka wcześniejsze procedury pokazują, że na decyzję można czekać wiele miesięcy.",
+      "Prokurator Generalny Waldemar Żurek poinformował w czwartek, iż skierował do Parlamentu Europejskiego wniosek o uchylenie immunitetu i zatrzymanie Daniela Obajtka w związku ze sprawą dotyczącą zaniżania cen paliw w 2023 r.",
+      "Według prokuratury zebrany materiał pokazuje, że Obajtek jako prezes Orlenu polecił podległym pracownikom obniżenie cen hurtowych i detalicznych tak, aby od 1 do 15 października 2023 roku litr paliwa na stacjach kosztował maksymalnie 5,99 zł .",
+      "„Zrobił to wbrew obowiązującym procedurom oraz sytuacji produkcyjnej, podażowej, bilansowej i logistycznej koncernu, a mimo narastających problemów i strat osobiście monitorował akcję i wydawał bieżące polecenia utrzymywania zaniżonych stawek” – przekazał Żurek."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Dla tych, którzy w czwartek 15 października nie mieli czasu śledzić wiadomości, przygotowaliśmy skróconą wersję najważniejszych informacji."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "Mówimy o przestępstwie niegospodarności w wielkich rozmiarach, za które grozi do 25 lat pozbawienia wolności ” – zaznaczył Minister Sprawiedliwości.",
+   "liczby": [
+    "15",
+    "5,99 zł",
+    "600",
+    "4,1 mld zł",
+    "25 lat",
+    "6 zł"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Orlenu",
+    "Parlamentu Europejskiego",
+    "Parlamencie Europejskim",
+    "Daniela Obajtka"
+   ],
+   "emotki": [
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Sprawa immunitetu Obajtka wystartuje od razu? Urzędnik PE: Nie sądzę",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-sprawa-immunitetu-obajtka-wystartuje-od-razu-urzednik-pe-nie,nIdn,1022057"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Echa przysięgi Berka, nowe weta prezydenta i sprawa immunitetu Obajtka [NA POCZĄTEK DNIA]",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198072,33080975,echa-przysiegi-berka-nowe-weta-prezydenta-i-sprawa-immunitetu.html"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.82,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.3,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.596,
+     "treściwość": 0.174,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Tusk spotkał się z Zełenskim. „Jestem tutaj po to, żeby ci to zagwarantować”",
+   "lead": "Podczas czwartkowego spotkania w kuluarach szczytu Unii Europejskiej w Brukseli premier Donald Tusk wyraził zdecydowane stanowisko w sprawie sankcji nałożonych na Rosję. W rozmowie z prezydentem Ukrainy Wołodymyrem Zełenskim premier zapewnił, że Europa nie zamierza ustępować w tej kwestii.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-15T17:49:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-tusk-spotkal-sie-z-zelenskim-jestem-tutaj-po-to-zeby-ci-to-z,nIdn,1022090",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/62/ce/donald-tusk-i-wolodymyr-zelenski-w-636x421-62cebb1c.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nie ma absolutnie żadnego powodu, dla którego Unia Europejska miałaby osłabić sankcje wobec Rosji.",
+      "Jestem tutaj po to, żeby ci to zagwarantować – powiedział Tusk, zwracając się bezpośrednio do ukraińskiego przywódcy.",
+      "Są to decyzje, które zależą nie tylko ode mnie, od Polski, ale od Unii Europejskiej.",
+      "W czasie moich rozmów tutaj dla wszystkich liderów absolutnie jasne jest to, że nic, co może pomóc Putinowi i Rosji w prowadzeniu tej wojny, nie będzie do zaakceptowania dla Europy.",
+      "Prezydent Zełenski wyraził wdzięczność za wsparcie, jakie Ukraina otrzymuje od Polski i całej Unii Europejskiej.",
+      "Politycznie jestem wdzięczny, geopolitycznie, i są również inne sprawy, niektóre sprawy muszą być poruszone pomiędzy nami dwoma , ale jesteśmy bardzo wdzięczni za wszystko, dlatego, że naprawdę bardzo trudno jest bronić naszego kraju przed tymi zmasowanymi atakami.",
+      "Jesteśmy za to wdzięczni – powiedział prezydent Ukrainy."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Prezydent USA Donald Trump powiedział w czwartek, że z Zełenskim negocjuje się trudniej niż z Putinem. — Zełenski nie jest dobrym człowiekiem do prowadzenia z nami rozmów — stwierdził Trump w wywiadzie dla Newsmax."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Wołodymyr Ołeksandrowycz Zełenski – ukraiński polityk, satyryk, aktor, scenarzysta, prezenter telewizyjny, producent filmowy i przedsiębiorca, z wykształcenia prawnik. Od 2019 prezydent Ukrainy."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Wołodymyr Zełenski",
+     "url": "https://pl.wikipedia.org/wiki/Wo%C5%82odymyr_Ze%C5%82enski"
+    }
+   ],
+   "dlaczego_to_ważne": "Premier podkreślił, że nie można pozwolić na finansowanie „rosyjskiej machiny wojennej” ani na jakiekolwiek działania, które mogłyby osłabić presję wywieraną na Kreml.",
+   "liczby": [
+    "150",
+    "100",
+    "500",
+    "27",
+    "28",
+    "23"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Wołodymyr Zełenski",
+    "opis": "ukraiński polityk, prezydent Ukrainy od 2019 roku, wcześniej aktor i satyryk",
+    "tekst": "Wołodymyr Ołeksandrowycz Zełenski – ukraiński polityk, satyryk, aktor, scenarzysta, prezenter telewizyjny, producent filmowy i przedsiębiorca, z wykształcenia prawnik. Od 2019 prezydent Ukrainy.",
+    "url": "https://pl.wikipedia.org/wiki/Wo%C5%82odymyr_Ze%C5%82enski",
+    "język": "pl"
+   },
+   "tagi": [
+    "Unii Europejskiej",
+    "Polski",
+    "Rosji",
+    "Ukrainy Wołodymyrem Zełenskim"
+   ],
+   "emotki": [
+    "🏛️",
+    "🤝"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Tusk spotkał się z Zełenskim. „Jestem tutaj po to, żeby ci to zagwarantować”",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-tusk-spotkal-sie-z-zelenskim-jestem-tutaj-po-to-zeby-ci-to-z,nIdn,1022090"
+    },
+    {
+     "nazwa": "Onet Świat",
+     "tytuł": "Trump przyznał, że woli rozmawiać z Putinem niż Zełenskim. \"Nie jestem fanem\"",
+     "url": "https://wiadomosci.onet.pl/swiat/donald-trump-z-zelenskim-negocjuje-sie-trudniej-niz-z-putinem/p0wjmr8"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Israel blocks construction of key Gaza base created by Trump peace board",
+     "url": "https://www.theguardian.com/us-news/2026/oct/14/israel-trump-peace-board-gaza-base"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Two container ships sink near strait of Hormuz amid surge in Iranian attacks",
+     "url": "https://www.theguardian.com/world/2026/oct/14/container-ship-sinks-strait-of-hormuz-surge-iranian-attacks-iran-us-midterm-elections"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.114,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.688,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.576,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Czekali na to 12 lat. Chiny i Korea Północna oficjalnie otworzyły potężną inwestycję",
+   "lead": "„15 października oficjalnie oddano do użytku Nowy Most na rzece Jalu łączący Chiny i Koreę Północną” — poinformowała agencja Xinhua. „Jako ważny obiekt zapewniający wzajemne połączenia między oboma krajami, jego otwarcie przyczyni się do dalszego ożywienia wymiany gospodarczej i handlowej oraz kontaktów międzyludzkich…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-15T10:14:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-czekali-na-to-12-lat-chiny-i-korea-polnocna-oficjalnie-otwor,nIdn,1022003",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/35/ac/nowy-most-ma-zastapic-przeprawe-z-czasow-636x421-35ac4e4a.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Przeprawa łączy chińskie miasto Dandong z północnokoreańskim Sinuiju.",
+      "Nowy most, którego budowa rozpoczęła się w 2010 roku, powstał w wyniku porozumienia zawartego rok wcześniej podczas wizyty ówczesnego premiera Chin Wen Jiabao w stolicy Korei Północnej.",
+      "Ponad trzykilometrowa konstrukcja została ukończona już w 2014 roku, a jej koszt wyniósł około 2,2 miliarda juanów, czyli blisko 300 milionów dolarów.",
+      "Całość inwestycji sfinansował Pekin.",
+      "Mimo zakończenia prac budowlanych, most przez długie lata pozostawał nieużywany .",
+      "Główną przeszkodą były opóźnienia w budowie dróg dojazdowych i infrastruktury celnej po stronie północnokoreańskiej .",
+      "Dopiero w ostatnich miesiącach udało się przezwyciężyć te trudności, co umożliwiło oficjalne otwarcie przeprawy.",
+      "Dotychczas głównym połączeniem drogowym pomiędzy Chinami a Koreą Północną był Most Przyjaźni Chińsko-Koreańskiej, zbudowany jeszcze podczas II wojny światowej.",
+      "Jego przestarzała konstrukcja i ograniczona przepustowość – tylko jeden pas ruchu – wymuszały ruch wahadłowy, co znacznie utrudniało sprawną wymianę towarów i podróże."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Korea Północna, oficjalna nazwa Koreańska Republika Ludowo-Demokratyczna, w skrócie KRLD – państwo w Azji Wschodniej, powstałe w północnej części Półwyspu Koreańskiego po II wojnie światowej na terenach zajętych przez Armię Czerwoną. Jedno z nielicznych na świecie państw totalitarnych."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Korea Północna",
+     "url": "https://pl.wikipedia.org/wiki/Korea_P%C3%B3%C5%82nocna"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "15",
+    "2,2 miliarda",
+    "300 milionów",
+    "19"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Korea Północna",
+    "opis": "państwo na Półwyspie Koreańskim",
+    "tekst": "Korea Północna, oficjalna nazwa Koreańska Republika Ludowo-Demokratyczna, w skrócie KRLD – państwo w Azji Wschodniej, powstałe w północnej części Półwyspu Koreańskiego po II wojnie światowej na terenach zajętych przez Armię Czerwoną. Jedno z nielicznych na świecie państw totalitarnych.",
+    "url": "https://pl.wikipedia.org/wiki/Korea_P%C3%B3%C5%82nocna",
+    "język": "pl"
+   },
+   "tagi": [
+    "Koreą Północną",
+    "Pjongjangu",
+    "Przyjaźni Chińsko-Koreańskiej",
+    "Chin Wen Jiabao"
+   ],
+   "emotki": [
+    "🌡️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Czekali na to 12 lat. Chiny i Korea Północna oficjalnie otworzyły potężną inwestycję",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-czekali-na-to-12-lat-chiny-i-korea-polnocna-oficjalnie-otwor,nIdn,1022003"
+    },
+    {
+     "nazwa": "BBC News",
+     "tytuł": "North Korea and China open new bridge after 12-year delay",
+     "url": "https://www.bbc.co.uk/news/articles/ck1exgw3j115o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "North Korea, China open border bridge after 12-year delay",
+     "url": "https://www.dw.com/en/north-korea-china-open-border-bridge-after-12-year-delay/a-79666112?maca=en-rss-en-world-4025-rdf"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.099,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.665,
+     "eksponowanie": 0.18,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.378,
+     "treściwość": 0.226,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Dodatkowa wartość zwycięstwa Jagiellonii. Oto sytuacja w rankingu UEFA",
+   "lead": "Trwająca kampania europejskich pucharów wznieciła ogromne oczekiwania polskich kibiców. Po raz pierwszy w historii na starcie zmagań w rozgrywkach organizowanych przez UEFA znalazło się pięć klubów Ekstraklasy - w tym dwa walczyły o awans do fazy ligowej Ligi Mistrzów.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-15T21:11:15+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/liga-europy/news-wygrana-jagiellonii-tuz-po-tym-komunikat-uefa-potwierdza-nag,nId,23559054",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NEZWHWD7TLHNV-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nadzieję rozpalała również dziesiąta pozycja w rankingu UEFA , na której polska federacja rozpoczęła ten sezon.",
+      "To miejsce w ostatecznym rozrachunku dałby mistrzowi Polski w sezonie 2027/28 automatyczny awans do fazy ligowej Ligi Mistrzów.",
+      "Sytuacja na finiszu eliminacji jednak znacząco się skomplikowała.",
+      "Głównym \"winowajcą\" jest Raków Częstochowa - to właśnie przez porażkę \"Medalików\" w ostatniej rundzie Polska nie ma żadnego przedstawiciela w rozgrywkach Ligi Konferencji, na których Polacy w ostatnich latach uzbierali mnóstwo punktów.",
+      "W grze pozostały tylko dwa kluby z naszego kraju - występujący w Lidze Europy Jagiellonia Białystok i Lech Poznań.",
+      "Z tego względu zajęcie dziesiątego miejsca stało się bardzo mało prawdopodobne .",
+      "Zwłaszcza dlatego, że bezpośrednio konkurujący z Polakami Czesi i Grecy mają po dwóch przedstawicieli w Lidze Konferencji.",
+      "Po czwartkowych spotkaniach sytuacja polskich klubów stała się jeszcze trudniejsza.",
+      "Mocne słowa po kolejnym blamażu Lecha w Lidze Europy."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Prowadzenie po 11 minutach objęli goście, ale potem strzelała już tylko ekipa z Podlasia.",
+      "Po wcześniejszym blamażu Lecha Poznań (0:4 z Bayerem Leverkusen) w czwartkowy wieczór polskiego kibica nie mogło spotkać nic lepszego.",
+      "Ranking krajowy UEFA: Polska zachowała 11. miejsce."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jagiellonia Białystok – klub piłki nożnej z siedzibą w Białymstoku. W sezonie 2026/2027 występuje w Ekstraklasie. Jagiellonia jest jednokrotnym mistrzem Polski, dwukrotnym wicemistrzem Polski oraz jednokrotnym zdobywcą Pucharu Polski. Zajmuje 14. miejsce w tabeli wszech czasów Ekstraklasy."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Jagiellonia Białystok",
+     "url": "https://pl.wikipedia.org/wiki/Jagiellonia_Bia%C5%82ystok"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "28",
+    "0.400 punktu",
+    "0.200 punktów",
+    "11",
+    "0.200 punktu",
+    "0.800"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Sport",
+     "ujęcie": "Jagiellonia Białystok pokonała 3:1 (2:1) Ararat-Armenię Erywań w drugiej kolejce Ligi Europy.",
+     "url": "https://sport.interia.pl/pilka-nozna/liga-europy/news-jagiellonia-nieustraszona-historyczny-triumf-w-lidze-europy,nId,23559103"
+    },
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "Sytuacja jest jednak trudniejsza",
+     "url": "https://sport.tvp.pl/95949982/ranking-krajowy-uefa-polska-zachowala-11-miejsce-sytuacja-jest-jednak-trudniejsza"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Jagiellonia Białystok",
+    "opis": "polski klub piłkarski",
+    "tekst": "Jagiellonia Białystok – klub piłki nożnej z siedzibą w Białymstoku. W sezonie 2026/2027 występuje w Ekstraklasie. Jagiellonia jest jednokrotnym mistrzem Polski, dwukrotnym wicemistrzem Polski oraz jednokrotnym zdobywcą Pucharu Polski. Zajmuje 14. miejsce w tabeli wszech czasów Ekstraklasy.",
+    "url": "https://pl.wikipedia.org/wiki/Jagiellonia_Bia%C5%82ystok",
+    "język": "pl"
+   },
+   "tagi": [
+    "Lidze Konferencji",
+    "Ligi Mistrzów",
+    "Lidze Europy",
+    "Lech Poznań"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Dodatkowa wartość zwycięstwa Jagiellonii. Oto sytuacja w rankingu UEFA",
+     "url": "https://sport.interia.pl/pilka-nozna/liga-europy/news-wygrana-jagiellonii-tuz-po-tym-komunikat-uefa-potwierdza-nag,nId,23559054"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Cztery gole w Białymstoku. Pierwsze takie zwycięstwo Jagiellonii. Brawo!",
+     "url": "https://sport.interia.pl/pilka-nozna/liga-europy/news-jagiellonia-nieustraszona-historyczny-triumf-w-lidze-europy,nId,23559103"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Ranking krajowy UEFA: Polska zachowała 11. miejsce. Sytuacja jest jednak trudniejsza",
+     "url": "https://sport.tvp.pl/95949982/ranking-krajowy-uefa-polska-zachowala-11-miejsce-sytuacja-jest-jednak-trudniejsza"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Liga Europy. Jagiellonia Białystok z pierwszą wygraną. Pokonała Ararat-Armenia",
+     "url": "https://sport.tvp.pl/95949203/liga-europy-jagiellonia-bialystok-z-pierwsza-wygrana-pokonala-ararat-armenia"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.273,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.508,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.515,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Koszmar Lecha i cenna wygrana Jagiellonii. Tak wygląda tabela Ligi Europy",
+   "lead": "Tegoroczna edycja Ligi Europy jest wyjątkowa z perspektywy polskich klubów. Po raz pierwszy w historii w fazie ligowej tych rozgrywek mamy aż dwóch reprezentantów - Lecha Poznań oraz Jagiellonię Białystok .",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-15T21:00:50+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/liga-europy/news-blamaz-lecha-poznaniacy-siegneli-dna-uefa-potwierdza-ws-mist,nId,23559049",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NEZU3TKD5KHP4-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Pierwsze mecze w ich wykonaniu okazały się jednak nieudane.",
+      "We wrześniu jako pierwsi do akcji przystąpili Białostoczanie.",
+      "Zespół Adriana Siemieńca rywalizował na wyjeździe z greckim Olympiakosem Pireus .",
+      "Jagiellonia zaskoczyła wyżej notowanego przeciwnika obejmując prowadzenie po golu Kajetana Szmyta.",
+      "Triumfator Ligi Konferencji z 2024 roku ostatecznie odrobił straty, a triumf 2:1 w końcówce dał im Ukrainiec Roman Jaremczuk.",
+      "Mistrz Polski na inaugurację zmagań w fazie ligowej Ligi Europy poleciał na Wyspy Brytyjskie i zmierzył się z Crystal Palace .",
+      "Przedstawiciel angielskiej Premier League udzielił \"Kolejorzowi\" niezwykle surowej lekcji.",
+      "Lech przegrał 0:4 i po pierwszej serii spotkań wylądował na przedostatnim, 35 miejscu w tabeli fazy ligowej.",
+      "Polak mógł dać swojej drużynie sygnał do ataku."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Kiedy gra Lech Poznań i Jagiellonia Białystok w fazie ligowej Ligi Europy 2026/27?",
+      "Tabela Ligi Europy – faza ligowa 2026/27.",
+      "Sprawdź terminarz 2026/27"
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jagiellonia Białystok – klub piłki nożnej z siedzibą w Białymstoku. W sezonie 2026/2027 występuje w Ekstraklasie. Jagiellonia jest jednokrotnym mistrzem Polski, dwukrotnym wicemistrzem Polski oraz jednokrotnym zdobywcą Pucharu Polski. Zajmuje 14. miejsce w tabeli wszech czasów Ekstraklasy."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Jagiellonia Białystok",
+     "url": "https://pl.wikipedia.org/wiki/Jagiellonia_Bia%C5%82ystok"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "35",
+    "12",
+    "17",
+    "22",
+    "18",
+    "45"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "Na którym miejscu Lech i Jagiellonia?",
+     "url": "https://sport.tvp.pl/95421701/tabela-ligi-europy-faza-ligowa-202627-na-ktorym-miejscu-lech-i-jagiellonia-aktualizacja"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Jagiellonia Białystok",
+    "opis": "polski klub piłkarski",
+    "tekst": "Jagiellonia Białystok – klub piłki nożnej z siedzibą w Białymstoku. W sezonie 2026/2027 występuje w Ekstraklasie. Jagiellonia jest jednokrotnym mistrzem Polski, dwukrotnym wicemistrzem Polski oraz jednokrotnym zdobywcą Pucharu Polski. Zajmuje 14. miejsce w tabeli wszech czasów Ekstraklasy.",
+    "url": "https://pl.wikipedia.org/wiki/Jagiellonia_Bia%C5%82ystok",
+    "język": "pl"
+   },
+   "tagi": [
+    "Ligi Europy",
+    "Adriana Siemieńca",
+    "Białostoczanie",
+    "Lecha Poznań"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Koszmar Lecha i cenna wygrana Jagiellonii. Tak wygląda tabela Ligi Europy",
+     "url": "https://sport.interia.pl/pilka-nozna/liga-europy/news-blamaz-lecha-poznaniacy-siegneli-dna-uefa-potwierdza-ws-mist,nId,23559049"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Kiedy gra Lech Poznań i Jagiellonia Białystok w fazie ligowej Ligi Europy 2026/27? [TERMINARZ]",
+     "url": "https://sport.tvp.pl/95078367/liga-europy-202627-kiedy-gra-lech-poznan-i-jagiellonia-bialystok-w-fazie-ligowej-terminarz"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Tabela Ligi Europy – faza ligowa 2026/27. Na którym miejscu Lech i Jagiellonia? [AKTUALIZACJA]",
+     "url": "https://sport.tvp.pl/95421701/tabela-ligi-europy-faza-ligowa-202627-na-ktorym-miejscu-lech-i-jagiellonia-aktualizacja"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Kiedy mecze Jagiellonii Białystok w Lidze Europy? Sprawdź terminarz 2026/27",
+     "url": "https://sport.tvp.pl/94439809/kiedy-mecze-jagiellonii-bialystok-w-lidze-europy-202627-terminarz"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Kiedy mecze Lecha Poznań w Lidze Europy? Sprawdź terminarz 2026/27",
+     "url": "https://sport.tvp.pl/94433751/kiedy-mecze-lecha-poznan-w-lidze-europy-202627-terminarz"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.001,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.65,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.519,
+     "treściwość": 0.432,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "0:3 jeszcze przed przerwą. To nie był koniec. Znów blamaż mistrza Polski",
+   "lead": "Już po losowaniu w Lechu mieli świadomość, że ugranie choćby trzech punktów w pierwszych czterech kolejkach Ligi Europy będzie rezultatem... fantastycznym. Trudno wyobrazić sobie gorszy układ niż kolejne spotkania z Crystal Palace, Bayerem Leverkusen, Sunderlandem i Benficą.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-15T18:37:47+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/liga-europy/news-0-3-jeszcze-przed-przerwa-to-nie-byl-koniec-znow-blamaz-mist,nId,23559055",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NEZPGXJY5V1HC-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Potwierdziło to pierwsze starcie na Selhurst Park w Londynie - lanie 0:4 od Palace było bolesne, ale zasłużone , otwiera się w nowym oknie .",
+      "Lech może i miał jakieś sytuacje na początku meczu, szybko jednak został sprowadzony na ziemię.",
+      "W meczu z \"Aptekarzami\" jego atutem miał być własny stadion, fanatyczna publiczność, świetny doping 40 tysięcy fanów. - Stadion wygląda znakomicie, fajnie móc zobaczyć go na żywo.",
+      "Będzie dużo kibiców, którzy są jedną z najmocniejszych stron Lecha - mówił przed spotkaniem Carles Martinez, trener Bayeru.",
+      "I może jeszcze to, że Bayer za trzy dni ma zagrać w Bundeslidze z niespodziewanym liderem - Freiburgiem.",
+      "Tyle że trener Martinez niespecjalnie chciał oszczędzać swoje gwiazdy - dokonał nielicznych roszad, na ławce usiedli m.in.",
+      "Ale i tak zestawienie uczestnika 1/8 finału Ligi Mistrzów z poprzedniego sezonu wyglądało imponująco.",
+      "Tak jak można było się spodziewać, Bayer zamknął mistrza Polski na jego połowie.",
+      "Zanim \"Kolejorz\" pierwszy raz przedostał się z piłką w okolice pola karnego gości, zespół z Leverkusem oddał już trzy strzały."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "40 tysięcy",
+    "13",
+    "17",
+    "45",
+    "89",
+    "29"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Schick",
+    "Londynie",
+    "Polski",
+    "Lecha"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "0:3 jeszcze przed przerwą. To nie był koniec. Znów blamaż mistrza Polski",
+     "url": "https://sport.interia.pl/pilka-nozna/liga-europy/news-0-3-jeszcze-przed-przerwa-to-nie-byl-koniec-znow-blamaz-mist,nId,23559055"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Premier League: 10 things to look out for this weekend",
+     "url": "https://www.theguardian.com/football/2026/oct/16/premier-league-10-things-to-look-out-for-this-weekend"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Southgate does not see return to Premier League management",
+     "url": "https://www.bbc.co.uk/sport/football/articles/c9kgj41jgm5go?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Southgate ‘hardly watches’ football and does not envisage Premier League return",
+     "url": "https://www.theguardian.com/football/2026/oct/15/gareth-southgate-premier-league-return-manager-hardly-watches-football"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.69,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.672,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.538,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Martinez przeprasza za wybuch i ukarany grzywną przez Man Utd",
+   "lead": "Obrońca Manchesteru United Lisandro Martinez przeprasza po kontrowersyjnych uwagach krytykujących hierarchię klubu.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-15T18:03:28+00:00",
+   "źródło": {
+    "nazwa": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cw77p152jz64o?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/89af/live/f4ecd4f0-c8ba-11f1-bdfb-e3788aeae9ec.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Obrońca przeprasza po rozmowach z Michaelem Carrickiem Klub Lisandro Martínez przeprosił za twierdzenie, że Jason Wilcox, dyrektor Manchester United ds. piłki nożnej, nie wzmocnił się wystarczająco w oknie letnim po rozmowach z menedżerem, Michaelem Carrickiem i hierarchią klubową w czwartek.",
+      "Chociaż wszelkie działania dyscyplinarne podjęte przeciwko niemu nie zostaną upublicznione przez klub, uważa się, że Martínez został ukarany grzywną.",
+      "Przeprosiny obrońcy nadeszły w czwartek wieczorem po tym, jak 28-latek nie złożył pierwszego oświadczenia w środę w związku z jego wybuchem po wtorkowej przegranej 2-0 Ligi Mistrzów w Atlético Madryt.",
+      "Była to bardzo pozytywna rozmowa, w której mogliśmy wymieniać poglądy i otwarcie mówić o tym, co działo się po wtorkowym meczu. „Wszyscy wiedzą, że jestem osobą z pasją i że żyję piłką nożną z wielką intensywnością.",
+      "Frustracja po porażce skłoniła mnie do wyrażenia tego, jak się czułem w czasie i miejscu, które być może nie były właściwe, i za to chcę przeprosić.„ Przeprosiny to znaczne zejście na dół.",
+      "Eksperci Ligi Mistrzów dnia Nedum Onuoha, Stephen Warnock i Rory Smith analizują komentarze Lisandro Martineza po przegranej 2: 0 Manchesteru United z Atletico Madrid i ich wpływie na klub.",
+      "Od roli Jasona Wilcoxa po poglądy reszty drużyny, zajmujemy się głównymi tematami rozmów w Old Trafford po wybuchu obrońcy Po przegranej 2-0 Manchesteru United w Atlético Madryt, Lisandro Martínez podrywał dyrektora piłki nożnej, Jasona Wilcoxa i resztę kadry kierowniczej. „W tej chwili nie mamy najlepszej drużyny w porównaniu z innymi najlepszymi drużynami” - powiedział obrońca. „Oczekuję więcej [inwestycji], 100%."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Manchester United Football Club, powszechnie nazywany Man United lub po prostu United, jest profesjonalnym klubem piłkarskim z siedzibą w Old Trafford, Stretford, Greater Manchester, Anglia. Rywalizują w Premier League, najwyższym poziomie angielskiej piłki nożnej. Manchester United to jeden z najbardziej utytułowanych klubów piłkarskich w Anglii, a także jeden z najbardziej utytułowanych klubów piłkarskich na świecie. W kraju zdobyli wspólnie dwadzieścia tytułów mistrzowskich, trzynaście Pucharów Anglii, sześć Pucharów Ligi i rekordowe dwadzieścia jeden Tarcz Społecznościowych FA. Dodatkowo w piłce nożnej międzynarodowej trzykrotnie wygrali Puchar Europy/Ligę Mistrzów UEFA, a po raz pierwszy Ligę Europejską UEFA, Puchar Zdobywców Pucharów UEFA, Superpuchar UEFA, Puchar Międzykontynentalny i Klubowe Mistrzostwa Świata FIFA."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Manchester United F.C.",
+     "url": "https://en.wikipedia.org/wiki/Manchester_United_F.C."
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "28",
+    "100%",
+    "155",
+    "17",
+    "55",
+    "45"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Manchester United F.C.",
+    "opis": "Association football club in England",
+    "tekst": "Manchester United Football Club, commonly referred to as Man United or simply United, is a professional football club based in Old Trafford, Stretford, Greater Manchester, England. They compete in the Premier League, the top tier of English football. Manchester United are among the most successful football clubs in England, as well as one of the most successful football clubs in the world. Domestically, they have won a joint-record twenty top-flight league titles, thirteen FA Cups, six League Cups and a record twenty-one FA Community Shields. Additionally, in international football, they have won the European Cup/UEFA Champions League three times, and the UEFA Europa League, the UEFA Cup Winners' Cup, the UEFA Super Cup, the Intercontinental Cup and the FIFA Club World Cup once each.",
+    "url": "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
+    "język": "en"
+   },
+   "tagi": [
+    "Man Utd Manchester United",
+    "Lisandro Martinez"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Martinez apologises for outburst and fined by Man Utd",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cw77p152jz64o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Martínez apologises to Manchester United’s director of football Wilcox after outburst",
+     "url": "https://www.theguardian.com/football/2026/oct/15/lisandro-martinez-apologises-to-manchester-united-director-wilcox"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "'Players won't like it' - Martinez apologises, but is the damage done?",
+     "url": "https://www.bbc.co.uk/sport/football/videos/cw2409qg6pe0o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Man Utd a circus after Martinez comments - Keane",
+     "url": "https://www.bbc.co.uk/sport/football/articles/c3n04gy12r91o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "‘I expect more’: the key questions from Martínez’s Manchester United broadside | Jamie Jackson",
+     "url": "https://www.theguardian.com/football/2026/oct/14/key-questions-lisandro-martinez-manchester-united-michael-carrick"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Football Daily | Guardiola returns to Manchester as City spin into dizzy mess against PSG",
+     "url": "https://www.theguardian.com/football/2026/oct/15/guardiola-returns-to-manchester-as-city-spin-into-dizzy-mess-against-psg"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "PSG pummel Manchester City while Villa and Liverpool hit six: Football Weekly Extra – podcast",
+     "url": "https://www.theguardian.com/football/audio/2026/oct/15/psg-pummel-manchester-city-villa-and-liverpool-hit-six-football-weekly-extra-podcast"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "PSG pummel Manchester City while Villa and Liverpool hit six | Football Weekly Extra – video",
+     "url": "https://www.theguardian.com/football/video/2026/oct/15/psg-pummel-manchester-city-while-villa-and-liverpool-hit-six-football-weekly-extra-video"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "Martinez apologises for outburst after Wilcox talks",
+     "url": "https://www.skysports.com/football/news/12040/13599725/lisandro-martinez-man-utd-defender-apologises-for-outburst-and-holds-talks-with-jason-wilcox-and-michael-carrick"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "Man Utd latest: Martinez met hierarchy before apology - should he start vs Leeds?",
+     "url": "https://www.skysports.com/football/live-blog/12040/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.932,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 2.74,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.492,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Martinez apologises for outburst and fined by Man Utd",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Świat się kończy. Microsoft Defender wchodzi do... Linuksa",
+   "lead": "Defender ochroni nie tylko Windowsa, ale również... maszyny z Linuksem używane do codziennej pracy, w tym także i te używane przez programistów. Wersja testowa tego rozwiązania ukazuje kierunek rozwoju uznanego pakietu bezpieczeństwa Microsoftu: gigant coraz mocniej meandruje już nie tyle na rubieże Windowsa, ile…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-15T12:23:57+00:00",
+   "źródło": {
+    "nazwa": "Antyweb",
+    "url": "https://antyweb.pl/defender-linux-endpoint",
+    "domena": "antyweb.pl"
+   },
+   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2026/10/Secure-Linux-desktops-with-Microsoft-Defender.png",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jeszcze dwie dekady temu byłoby to nie do pomyślenia.",
+      "Microsoft kieruje to nowe rozwiązanie przede wszystkim do organizacji korzystających z linuksowych stacji roboczych.",
+      "Defender był już obecny na serwerach z tym OS-em, więc naturalnym krokiem było poprowadzenie go jeszcze dalej wgłąb.",
+      "Microsoft pomyślał trzeźwo: komputer np. programisty, który zajmuje się serwerową stroną funkcjonowania firmy, często \"napchany\" jest zasobami znacznie cenniejszymi niż w przypadku innych.",
+      "Choćby dostęp do repozytoriów kodu, firmowej chmury i narzędzi, bez których organizacja żyć nie może.",
+      "Przejęcie takiej maszyny może stanowić minimum mocny punkt zaczepienia do dalszego ataku na organizację, a w najgorszym przypadku skończyć się realną stratą dla całej firmy.",
+      "A Microsoft mówi wprost, że takie linuksowe desktopy łatwo przeoczyć w nadzorze.",
+      "Ba, pokutuje nawet przekonanie o \"kuloodporności\" Linuksów na tyle mocno, że niektórzy intencjonalnie traktują je po macoszemu, jak chodzi o detekcję zagrożeń.",
+      "I nie chodzi tutaj już nawet o skanowanie plików przy ich pobieraniu, absolutny standard prewencji w ramach ochrony przed cyberzagrożeniami."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Dystrybucja Linuksa – uniksopodobny kompletny system operacyjny zbudowany na bazie jądra Linux. Znakomita większość dystrybucji zawiera dużo elementów projektu GNU, co sprawia, że są one dystrybucjami GNU/Linuksa. W skład dystrybucji, oprócz samego jądra, wchodzą podstawowe programy i usługi takie jak powłoka, skrypty startowe, narzędzia konfiguracyjne, a także często duży zestaw aplikacji użytkowych. W obrębie dystrybucji używana jest jednolita organizacja plików konfiguracyjnych oraz wspólny mechanizm instalowania nowych aplikacji. Niekiedy terminem „dystrybucja” określa się także systemy zbudowane na bazie jąder innych niż Linux ; szczególnie można tutaj wyróżnić klony dystrybucji uniksowych."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Dystrybucja Linuksa",
+     "url": "https://pl.wikipedia.org/wiki/Dystrybucja_Linuksa"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "365",
+    "63.75%",
+    "250 million",
+    "60%",
+    "63%",
+    "2026, 78%"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Dystrybucja Linuksa",
+    "opis": "system operacyjny oparty na jądrze Linuksa i zazwyczaj podstawowych komponentach GNU",
+    "tekst": "Dystrybucja Linuksa – uniksopodobny kompletny system operacyjny zbudowany na bazie jądra Linux. Znakomita większość dystrybucji zawiera dużo elementów projektu GNU, co sprawia, że są one dystrybucjami GNU/Linuksa. W skład dystrybucji, oprócz samego jądra, wchodzą podstawowe programy i usługi takie jak powłoka, skrypty startowe, narzędzia konfiguracyjne, a także często duży zestaw aplikacji użytkowych. W obrębie dystrybucji używana jest jednolita organizacja plików konfiguracyjnych oraz wspólny mechanizm instalowania nowych aplikacji. Niekiedy terminem „dystrybucja” określa się także systemy zbudowane na bazie jąder innych niż Linux ; szczególnie można tutaj wyróżnić klony dystrybucji uniksowych.",
+    "url": "https://pl.wikipedia.org/wiki/Dystrybucja_Linuksa",
+    "język": "pl"
+   },
+   "tagi": [
+    "Microsoft",
+    "Linuksa",
+    "Defendera",
+    "Defender"
+   ],
+   "emotki": [
+    "💻"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Antyweb",
+     "tytuł": "Świat się kończy. Microsoft Defender wchodzi do... Linuksa",
+     "url": "https://antyweb.pl/defender-linux-endpoint"
+    },
+    {
+     "nazwa": "Phys.org Technology",
+     "tytuł": "Canada could save millions by developing its own operating system instead of relying on Microsoft Windows",
+     "url": "https://techxplore.com/news/2026-10-canada-millions-microsoft-windows.html"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.91,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.235,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.425,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Tesla Roadster poleciał, jechał do góry nogami i osiągnął prędkość 60 mil na godzinę w mniej niż sekundę",
+   "lead": "Roadster nowej generacji jest rozwijany od prawie dekady. Ale może warto było poczekać.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-16T01:28:27+00:00",
+   "źródło": {
+    "nazwa": "The Verge",
+    "url": "https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk",
+    "domena": "theverge.com"
+   },
+   "obraz": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Roadster_94.jpg?quality=90&strip=all&crop=0%2C5.1234106207928%2C100%2C89.753178758414&w=1200",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Elon Musk obiecał latający samochód.",
+      "I właśnie to zrobił Tesla Roadster.",
+      "Tesla zademonstrował swoją nową generację Roadster podczas imprezy w Waco w Teksasie, gdzie elektryczny supersamochód jechał do góry nogami, na krótko poleciał i przyspieszył do 60 mil na godzinę w niecałą sekundę.",
+      "To była imponująca demonstracja samochodu, który prawdopodobnie będzie miał pewne ciężkie zastrzeżenia i ograniczenia, jeśli kiedykolwiek trafi do produkcji.",
+      "Wydarzenie trwało mniej niż 30 minut i wydawało się bardziej pokazem kaskaderskim niż ujawnieniem produktu.",
+      "Rzeczywiście, nie było żadnej wzmianki o cenie, dacie wydania ani innych takich przyziemnych szczegółach.",
+      "Musk obiecał, że hiper-samochód ruszy do produkcji w 2028 roku, ale po prawie dziewięciu latach, kto by pomyślał.",
+      "Ludzie byli tutaj, aby zobaczyć latający samochód i to właśnie dał im Tesla.",
+      "Najpierw Roadster wjechał na bardzo wysoką, wielopiętrową rampę, wykorzystując swoją niesamowitą siłę docisku do przylgnięcia do pionowej jezdni."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Samochód używał również silników manewrowych do podnoszenia się nad Cybercabem, Cybertruckiem, Teslą Semi, Modelem Y i Modelem 3 podczas jazdy. „To będzie rzeczywisty samochód, który jest na drogach” - powiedział Musk o samochodzie, który Tesla pokazał, że przyspiesza od 0 do 60 mil na godzinę w ciągu jednej sekundy. - Dosłownie po prostu się nadyma i będzie w stanie to zrobić, te manewry, kiedy tylko zechcesz. „Musk powiedział, że Tesla w końcu zbuduje pojazd z długim opóźnieniem w 2028 roku, ale nie podał ceny.",
+      "Pierwszym z nich jest „Wydajność”, którą Tesla opisuje jako „gotowość do drogi”. Siedzi na dwóch miejscach, ma aktywną aerodynamikę i wyposażony jest w „wielomodowy system ssący zapewniający wydajność na najwyższym poziomie na torze i poza nim. Drugie przycięcie to„ Ciąg ”, który jest„ gotowy do wyścigu ”i ma dwa miejsca oraz zamontowane z tyłu silniki strumieniowe zimnego gazu, które umożliwiają przyspieszenie od 0 do 60 mil na godzinę w ciągu jednej sekundy.",
+      "Trzeci to „Rakieta”, która jest „gotowa na powietrze” i mieści jedną, i ma 10 silników strumieniowych zimnego gazu umieszczonych wokół samochodu.",
+      "Wszystkie trzy przegłębienia będą miały zasięg 300 mil i będą w stanie osiągać prędkości przekraczające 230 mil na godzinę.",
+      "Strona internetowa Tesli pokazała w czwartek, że firma dokonuje rezerwacji samochodu, pobierając 50 000 $ za rezerwację Performance i 250 000 $ za Thrust.",
+      "Wykończenie Rocket jest rozliczane jako „tylko na zaproszenie”. \"Wiceprezes inżynierii Lars Moravy powiedział na imprezie, że Roadster używa 10 silników manewrowych podłączonych do 600 litrów sprężonego powietrza do podnoszenia i obracania samochodu w powietrzu."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Elon Reeve Musk – południowoafrykański przedsiębiorca, założyciel, współzałożyciel lub finansista przedsiębiorstw SpaceX, Tesla, Neuralink, X.com, The Boring Company oraz SpaceXAI. Pochodzi z Republiki Południowej Afryki, mieszka i pracuje w Stanach Zjednoczonych. Dyrektor generalny i techniczny w SpaceX, dyrektor generalny i główny architekt w Tesla Inc. W styczniu 2021 został uznany najbogatszym człowiekiem świata przez magazyn „Forbes” i agencję Bloomberg. Od 28 października 2022 właściciel serwisu X. W okresie od 20 stycznia do 28 maja 2025 szef Departamentu Wydajności Rządu w drugim gabinecie Donalda Trumpa. Na dzień 16 czerwca 2026 roku, według magazynu „Forbes”, jego majątek szacowany jest na 1,3 biliona dolarów amerykańskich (USD)."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Elon Musk",
+     "url": "https://pl.wikipedia.org/wiki/Elon_Musk"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "60",
+    "30",
+    "11",
+    "10",
+    "250",
+    "71"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Elon Musk",
+    "opis": "południowoafrykański przedsiębiorca",
+    "tekst": "Elon Reeve Musk – południowoafrykański przedsiębiorca, założyciel, współzałożyciel lub finansista przedsiębiorstw SpaceX, Tesla, Neuralink, X.com, The Boring Company oraz SpaceXAI. Pochodzi z Republiki Południowej Afryki, mieszka i pracuje w Stanach Zjednoczonych. Dyrektor generalny i techniczny w SpaceX, dyrektor generalny i główny architekt w Tesla Inc. W styczniu 2021 został uznany najbogatszym człowiekiem świata przez magazyn „Forbes” i agencję Bloomberg. Od 28 października 2022 właściciel serwisu X. W okresie od 20 stycznia do 28 maja 2025 szef Departamentu Wydajności Rządu w drugim gabinecie Donalda Trumpa. Na dzień 16 czerwca 2026 roku, według magazynu „Forbes”, jego majątek szacowany jest na 1,3 biliona dolarów amerykańskich (USD).",
+    "url": "https://pl.wikipedia.org/wiki/Elon_Musk",
+    "język": "pl"
+   },
+   "tagi": [
+    "Roadster",
+    "Tesla",
+    "Musk",
+    "Model"
+   ],
+   "emotki": [
+    "🚀"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "The Verge",
+     "tytuł": "The Tesla Roadster flew, drove upside down, and hit 60mph in under a second",
+     "url": "https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk"
+    },
+    {
+     "nazwa": "TechCrunch",
+     "tytuł": "Tesla reveals SpaceX-powered Roadster that flies and falls with style",
+     "url": "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 3,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.055,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 1.62,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.568,
+     "treściwość": 0.417,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "The Tesla Roadster flew, drove upside down, and hit 60mph in under a second",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Kubity silikonowe przekraczają 99,99% dokładności bramki podczas pracy trzech na raz",
+   "lead": "Krzemowe kubity spinowe są obiecującą platformą do budowy skalowalnych komputerów kwantowych, ponieważ są kompatybilne z półprzewodnikowymi technologiami produkcyjnymi stosowanymi do produkcji dzisiejszych chipów komputerowych. Mają jednak ważną słabość: silikonowe kubity spinowe zwykle tracą dokładność, gdy kilka kubitów jest poniżej…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-15T21:20:05+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-10-silicon-qubits-surpass-gate-fidelity.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-path-toward-larger-q.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Aby być użytecznym, komputery kwantowe będą musiały obsługiwać wiele kubitów jednocześnie, bez uszczerbku dla dokładności ich działania.",
+      "Teraz, w badaniu opublikowanym w Nature Physics , naukowcy z RIKEN Center for Emergent Matter Science i współpracownicy zajęli się tym wyzwaniem, uzyskując kontrolę wysokiej wierności wielu kubitów spinowych krzemu działających równolegle.",
+      "Korzystając z pięciokubitowej matrycy krzemowej kontrolowanej przez pojedynczą wspólną linię mikrofalową, zidentyfikowali kluczowe źródło błędów podczas jednoczesnej pracy kubitów i opracowali sposób na złagodzenie jego skutków.",
+      "Według Leona Camenzinda, naukowca z RIKEN i współautora, który nadzorował eksperymenty, „pokazuje to, że kontrola wysokiej wierności może być utrzymywana nawet wtedy, gdy kilka kubitów jest obsługiwanych w tym samym czasie i stanowi ważny krok w kierunku skalowania krzemowych procesorów kwantowych.„ Komputery kwantowe przetwarzają informacje przy użyciu bitów kwantowych lub kubitów, które reprezentują kombinacje konwencjonalnych stanów binarnych 0 i 1.",
+      "W krzemowych kubitach spinowych informacja jest kodowana w spinie elektronu uwięzionego w podłożu krzemowym.",
+      "Precyzyjne kontrolowanie tych spinów jest niezbędne do przeprowadzania operacji kwantowych.",
+      "Jednak stosowanie sygnałów sterujących mikrofalami do wielu kubitów jednocześnie może wprowadzać błędy, które zmniejszają dokładność obliczeniową.",
+      "Naukowcy rozpoczęli swoją pracę od odkrycia, że głównym źródłem tej degradacji jest zjawisko znane jako przesunięcie AC Starka, które jest indukowane przez sygnały sterujące mikrofalami.",
+      "Efekt ten zmienia efektywne poziomy energii kubitu, przesuwając fazę jego stanu kwantowego i czyniąc jego działanie mniej precyzyjnym."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "99.99%",
+    "99.999%",
+    "99.9%",
+    "10.1038",
+    "026",
+    "03466"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Camenzind",
+    "Stark",
+    "High-Fidelity Single-Qubit Gates",
+    "Spin Qubit Array Nature Physics"
+   ],
+   "emotki": [
+    "⚛️",
+    "🛒",
+    "💻"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Silicon qubits surpass 99.99% gate fidelity while operating three at once",
+     "url": "https://phys.org/news/2026-10-silicon-qubits-surpass-gate-fidelity.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.727,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.517,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Silicon qubits surpass 99.99% gate fidelity while operating three at once",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Impulsy laserowe wprowadzają porządek w maleńkich obszarach elektrycznych materiału kwantowego",
+   "lead": "Fizycy z Uniwersytetu Auburn wykorzystali błyski światła laserowego, aby uporządkować małe, naładowane elektrycznie „wyspy” wewnątrz kryształu. Odkrycie pomaga odpowiedzieć na kilkudziesięcioletnie pytanie o to, jak materiał się organizuje i pokazuje, w jaki sposób można wykorzystać światło do kontrolowania jego zachowania - krok w kierunku odkrywania nowych…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-15T17:00:07+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-10-laser-pulses-quantum-material-tiny.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/laser-pulses-bring-ord.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Badania prowadził Wencan Jin, profesor nadzwyczajny Wydziału Fizyki w Auburn, Thomas i Jean Walter oraz absolwent Mohamed Kandil.",
+      "Ich badanie „ Optical Poling of a Quantum Ferroelectric Metal across the Order-Disorder Phase Transition” zostało wybrane jako sugestia redaktorów w pismach dotyczących przeglądu fizycznego.",
+      "Współpracownicy z japońskiego Narodowego Instytutu Zaawansowanych Nauk i Technologii Przemysłowych hodowali kryształy wykorzystane w eksperymentach.",
+      "Zespół badał zmodyfikowaną formę tytanianu strontu, monokryształu o nietypowym połączeniu właściwości elektrycznych.",
+      "Pozwala elektronom poruszać się przez nią, a jednocześnie zawiera małe wyspy o wyraźnych dodatnich i ujemnych stronach.",
+      "Wyspy te, znane jako nanoregiony polarne, mogą wskazywać różne kierunki lub układać się w zorganizowany wzór.",
+      "Zrozumienie, co sprawia, że układają się w szeregu, może pomóc naukowcom wyjaśnić zachowanie materiału i znaleźć nowe sposoby jego kontrolowania.",
+      "Czy atomy przesuwają się razem, tworząc stan spolaryzowany, czy też istnieją już małe wyspy polarne i po prostu ustawiają się w jednej linii, gdy materiał stygnie?",
+      "Wyobraź sobie różnicę między tworzeniem tłumu a zmuszaniem ludzi już w tłumie do zmierzenia się z tym samym kierunkiem."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Kandil odnosi się do pięciu islamskich nocy świętych, obchodzonych w społecznościach osmańskich i muzułmańskich na Bałkanach, związanych z życiem islamskiego proroka Mahometa, kiedy to minarety są oświetlane i odprawiane są specjalne modlitwy. Jest to tradycja sięgająca XVI-wiecznego sułtana osmańskiego Selima II, który przy wsparciu ówczesnego „Głównego Prawoznawcy” Szejka al-Islama uważał, że na te błogosławione okazje należy rozświetlić minarety na meczetach."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Kandil",
+     "url": "https://en.wikipedia.org/wiki/Kandil"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10",
+    "2608.18427"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Kandil",
+    "opis": "Five Islamic holy nights and festival",
+    "tekst": "Kandil refers to five Islamic holy nights, celebrated in Ottoman and Muslim Balkan communities, related to the life of the Islamic prophet Muhammad, when the minarets are illuminated and special prayers are made. It is a tradition dated back to the Ottoman Sultan Selim II of the 16th century, who with the support of the Shaykh al-Islām \"Chief Jurisconsult\" of the time, thought it was appropriate to light up the minarets on mosques for these blessed occasions.",
+    "url": "https://en.wikipedia.org/wiki/Kandil",
+    "język": "en"
+   },
+   "tagi": [
+    "Auburn",
+    "Jin",
+    "Quantum Ferroelectric Metal",
+    "Physical Review Letters"
+   ],
+   "emotki": [
+    "⚛️",
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Laser pulses bring order to a quantum material's tiny electrical regions",
+     "url": "https://phys.org/news/2026-10-laser-pulses-quantum-material-tiny.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.539,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.72,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.463,
+     "treściwość": 0.456,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Laser pulses bring order to a quantum material's tiny electrical regions",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Gwiazdy gospodarzy kształtują swoje systemy planetarne w dwie rodziny",
+   "lead": "Era nauki o egzoplanetach nabrała kształtu wraz z misją Keplera i nabrała rozpędu wraz z misją TESS. Początkowy cel miał prostą definicję: użyj metody tranzytu, aby znaleźć planety krążące wokół innych gwiazd.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-15T17:07:40+00:00",
+   "źródło": {
+    "nazwa": "Universe Today",
+    "url": "https://www.universetoday.com/articles/host-stars-shape-their-planetary-systems-into-two-families",
+    "domena": "universetoday.com"
+   },
+   "obraz": "https://www.universetoday.com/article_images/solar_system_architecture_20261015_154150.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Poza tym naukowcy ciężko pracowali i używali wielu narzędzi, którymi dysponowali, aby określić skład egzoplanet i inne cechy charakterystyczne.",
+      "Obecnie nauka o egzoplanetach wykracza poza te początkowe etapy.",
+      "Naukowcy planetarni chcą zrozumieć nie tylko dużą różnorodność populacji egzoplanet; chcą również zrozumieć różne typy układów słonecznych, które wykrywają.",
+      "W latach 90. astronomowie myśleli, że nasz Układ Słoneczny jest swego rodzaju szablonem, w którym masywne planety znajdują się dalej od swoich gwiazd, podczas gdy mniej masywne są bliżej.",
+      "Pomysł ten wypadł z łask, ponieważ obserwacje egzoplanet pokazują nam, że nie jest to prawda.",
+      "Jednym z pomysłów było to, że gigantyczne planety na mimośrodowych orbitach są przypisywane rozproszeniu planeta-planeta, a innym był pomysł, że występowanie gigantycznych planet wzrastało z gwiazdową metalicznością.",
+      "Ale artykuł z 2020 roku był szczególnie ważny, ponieważ przedstawił sposób porównania, jak gwałtowne są dynamiczne historie różnych układów słonecznych.",
+      "NAMD porównuje łączny orbitalny pęd kątowy układu z pędem kątowym układu hipotetycznego o tych samych masach planet i charakterystyce orbitalnej.",
+      "Nowe badania w dziedzinie astronomii przyrodniczej opierają się na podstawowych ideach dotyczących gwiazd-gospodarzy i sposobu, w jaki kształtują one swoje układy słoneczne."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Astronomowie z Międzynarodowego Instytutu Kosmonautyki powiedzieli 13 października 2026 r., że układy planetarne wydają się należeć do jednej z dwóch rodzin w zależności od ich gwiazdy macierzystej.",
+      "Po zbadaniu 300 najlepiej scharakteryzowanych układów planetarnych w galaktyce Drogi Mlecznej odkryli, że mniej masywne gwiazdy mają tendencję do tworzenia układów planetarnych, które mają mniejszą masę i szerokość, ale więcej planet.",
+      "Z drugiej strony, bardziej masywne gwiazdy mają tendencję do tworzenia układów planetarnych, które są bardziej chaotyczne i szersze, z bardziej masywnymi, choć mniejszą liczbą planet.",
+      "Naukowcy opublikowali wyniki swoich badań w recenzowanym czasopiśmie Nature Astronomy 13 października 2026 roku."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Układ planetarny składa się z zestawu ciał niegwiezdnych, które są grawitacyjnie związane z i na orbicie gwiazdy lub układu gwiezdnego. Ogólnie rzecz biorąc, takie układy będą obejmować planety i mogą obejmować inne obiekty, takie jak planety karłowate, asteroidy, satelity naturalne, meteoroidy, komety, planetozymale i dyski okołogwiazdowe. Układ Słoneczny jest przykładem układu planetarnego, w którym Ziemia, siedem innych planet i inne obiekty niebieskie są związane i obracają się wokół Słońca. Termin układ egzoplanetarny jest czasami używany w odniesieniu do układów planetarnych innych niż Układ Słoneczny. Zgodnie z konwencją systemy planetarne są nazwane na cześć ich gospodarza lub macierzystej gwiazdy, jak ma to miejsce w przypadku Układu Słonecznego nazwanego na cześć „Sol”."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Planetary system",
+     "url": "https://en.wikipedia.org/wiki/Planetary_system"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "1,000",
+    "300",
+    "13, 2026"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Planetary system",
+    "opis": "Set of non-stellar objects in orbit around a star",
+    "tekst": "A planetary system consists of a set of non-stellar bodies which are gravitationally bound to and in orbit of a star or star system. Generally speaking, such systems will include planets, and may include other objects such as dwarf planets, asteroids, natural satellites, meteoroids, comets, planetesimals, and circumstellar discs. The Solar System is an example of a planetary system, in which Earth, seven other planets, and other celestial objects are bound to and revolve around the Sun. The term exoplanetary system is sometimes used in reference to planetary systems other than the Solar System. By convention planetary systems are named after their host, or parent, star, as is the case with the Solar System being named after \"Sol\".",
+    "url": "https://en.wikipedia.org/wiki/Planetary_system",
+    "język": "en"
+   },
+   "tagi": [
+    "Solar System",
+    "Solar System-like",
+    "Diego Turrini",
+    "Sun"
+   ],
+   "emotki": [
+    "🪐",
+    "🛒"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Universe Today",
+     "tytuł": "Host Stars Shape Their Planetary Systems Into Two Families",
+     "url": "https://www.universetoday.com/articles/host-stars-shape-their-planetary-systems-into-two-families"
+    },
+    {
+     "nazwa": "EarthSky",
+     "tytuł": "Planetary systems fall into 2 distinct families, astronomers say",
+     "url": "https://earthsky.org/space/planetary-systems-2-distinct-families/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.865,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.143,
+     "eksponowanie": 1.62,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.464,
+     "treściwość": 0.338,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Host Stars Shape Their Planetary Systems Into Two Families",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "The Sky Today w czwartek, 15 października: podwójny krater Messier",
+   "lead": "Szukasz wydarzenia na niebie w tym tygodniu? Sprawdź naszą pełną kolumnę „Niebo w tym tygodniu”.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-15T08:00:00+00:00",
+   "źródło": {
+    "nazwa": "Astronomy Magazine",
+    "url": "https://www.astronomy.com/observing/the-sky-today-thursday-october-15-2026/",
+    "domena": "astronomy.com"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "14 października: Io pokrywa Callisto Godzinę po zachodzie słońca tego wieczoru, znajdziesz woskujący półksiężyc nisko na południowym zachodzie, wiszący nad plecami Scorpiusa i tuż przy wylocie czajniczka Strzelca.",
+      "Zbliżenie z teleskopem na Mare Czytaj dalej „The Sky Today on Thursday, October 15: Double crater Messier” The post The Sky Today on Thursday, October 15: Double crater Messier appeared first on Astronomy Magazine ."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "14",
+    "15"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Thursday October",
+    "Sky Today",
+    "Double",
+    "Messier"
+   ],
+   "emotki": [
+    "🔭"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Astronomy Magazine",
+     "tytuł": "The Sky Today on Thursday, October 15: Double crater Messier",
+     "url": "https://www.astronomy.com/observing/the-sky-today-thursday-october-15-2026/"
+    },
+    {
+     "nazwa": "EarthSky",
+     "tytuł": "Visible planets and night sky guide for October",
+     "url": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.293,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.193,
+     "eksponowanie": 1.26,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.39,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "The Sky Today on Thursday, October 15: Double crater Messier",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Pomiar głębokiego tlenu oceanicznego za pomocą mikroskopijnych skamielin magnetycznych",
+   "lead": "Naukowcy wykorzystali wskazówki pochodzące od bakterii magnetotaktycznych, których organelle są tutaj widoczne, aby dowiedzieć się więcej o temperaturach oceanów w odległej przeszłości Ziemi. Źródło: Frank Mickoleit/Wikimedia Commons , CC BY-SA 3.0",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-15T13:05:38+00:00",
+   "źródło": {
+    "nazwa": "Eos (AGU)",
+    "url": "https://eos.org/research-spotlights/measuring-deep-ocean-oxygen-with-microscopic-magnetic-fossils",
+    "domena": "eos.org"
+   },
+   "obraz": "https://eos.org/wp-content/uploads/2026/10/magnetic-crystals-in-bacteria-1024x576.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Ciągłe zakłócenie przez ludzkość stężenia dwutlenku węgla (CO₂) w atmosferze, temperatur i globalnych cykli składników odżywczych powoduje, że oceany są pozbawione tlenu.",
+      "Chociaż możemy zmierzyć bieżące zmiany w cyrkulacji oceanicznej i życiu morskim, nadal nie wiemy, jak daleko może dojść do utraty tlenu i szkód w ekosystemach oceanicznych.",
+      "Jednym ze sposobów przewidywania przyszłości oceanów jest spojrzenie wstecz na to, jak nasze morza i ich mieszkańcy reagowali w przeszłości na wyższe poziomy CO₂ i cieplejszy klimat.",
+      "Mikroorganizmy morskie rejestrują oznaki minionych warunków w maleńkich skamielinach, które pozostawiają, ale większość skamielin oferuje wskazówki na temat względnych zmian tlenu w oceanach w czasie, zamiast rejestrować bezwzględne stężenie tlenu.",
+      "Aby rozwiązać ten problem, Huang i jego zespół zbadali ponad 200 nowoczesnych próbek osadów oceanicznych z basenów oceanicznych na całym świecie, aby połączyć nanoskopowe minerały magnetyczne pozostawione przez bakterie z obecnym poziomem tlenu w wodzie."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "3.0",
+    "200",
+    "4,500",
+    "10.1029"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Microscopic Magnetic Fossils Scientists",
+    "Frank Mickoleit/Wikimedia Commons",
+    "Deep-Ocean Oxygen",
+    "Earth’s"
+   ],
+   "emotki": [
+    "🌊"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Eos (AGU)",
+     "tytuł": "Measuring Deep-Ocean Oxygen with Microscopic Magnetic Fossils",
+     "url": "https://eos.org/research-spotlights/measuring-deep-ocean-oxygen-with-microscopic-magnetic-fossils"
+    },
+    {
+     "nazwa": "Phys.org Earth",
+     "tytuł": "Measuring deep-ocean oxygen with microscopic magnetic fossils",
+     "url": "https://phys.org/news/2026-10-deep-ocean-oxygen-microscopic-magnetic.html"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.343,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.372,
+     "eksponowanie": 1.35,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.521,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Measuring Deep-Ocean Oxygen with Microscopic Magnetic Fossils",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Poza parkami narodowymi: Naukowcy badają szerszą przyszłość ochrony przyrody",
+   "lead": "Podczas gdy rządy przygotowują się do spotkania w Armenii na szczycie ONZ w sprawie różnorodności biologicznej, naukowcy podkreślają podejście do ochrony, które rozpoznaje miejsca, w których przyroda kwitnie poza konwencjonalnymi obszarami chronionymi. Obszary te, znane jako „inne skuteczne środki ochrony obszarowej” lub OECM, utrzymują różnorodność biologiczną przez…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-15T22:00:01+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Earth",
+    "url": "https://phys.org/news/2026-10-national-explore-broader-future.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/national-park.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Mogłyby pomóc krajom osiągnąć globalny cel „30 na 30”, aby do 2030 r. chronić co najmniej 30% lądu, wód śródlądowych, obszarów przybrzeżnych i oceanów.",
+      "Naukowcy z University of Exeter, Jersey International Centre for Advanced Studies, University of Kent, Manchester Metropolitan University i University of Gibraltar dokonali przeglądu wyłaniającej się roli OECM w globalnej polityce ochrony przyrody w czasopiśmie Annual Review of Environment and Resources .",
+      "Ich analiza bada, w jaki sposób obszary te mogą wspierać różnorodność biologiczną, jednocześnie uznając lokalne zarządzanie, źródła utrzymania i wartości kulturowe.",
+      "Naczelna autorka Catherine Wensink, dyrektor wykonawcza UK Overseas Territories Conservation Forum i doktorantka z University of Exeter and Jersey International Centre for Advanced Studies, powiedziała: „Kraje nie czekały na rozstrzygnięcie globalnej debaty na temat OECM; już zaczęły je wprowadzać w życie.",
+      "„To, co było fascynujące w tych badaniach, to prześledzenie ich rozwoju poprzez szybko rozwijającą się globalną debatę i w dół do praktycznych realiów małej, bioróżnorodnej wyspy karaibskiej.",
+      "Pokazuje, w jaki sposób globalna koncepcja ochrony może wyglądać zupełnie inaczej w miejscach, w których faktycznie musi działać.„ W przeglądzie przeanalizowano warunki potrzebne do tego, aby OECM przyniosły trwałe korzyści, w tym skuteczne zarządzanie, poszanowanie praw i odporność na zmiany klimatu.",
+      "Ustalenia są istotne dla COP17 - następnego spotkania rządów pod egidą ONZ.",
+      "Konwencja o różnorodności biologicznej, która odbędzie się od października",
+      "19 do 30 w Erywaniu, Armenia."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "W ostatnich latach istniał stały strumień zobowiązań dotyczących ochrony oceanów, od Polinezji Francuskiej rozszerzającej ochronę morską na prawie 5 milionów kilometrów kwadratowych wyłącznej strefy ekonomicznej, w tym ponad 1 milion kilometrów kwadratowych wysoce lub w pełni chronionych wód, po Wschodni Tropikalny Korytarz Morski Pacyfiku (CMAR), gdzie Kolumbia, Kostaryka, Ekwador i Panama zgodziły się na ustanowienie przyległego, transgranicznego bezpiecznego przejścia ponad 500 000 kilometrów (193 000 mil kwadratowych) dla gatunków wędrownych.",
+      "Znacznie większe uznanie zyskują również tradycyjni zarządcy, w tym społeczności rdzenne, rybacy rzemieślnicy i inne społeczności nadbrzeżne.",
+      "Na papierze wydaje się to dobrze wróżyć postępowi w kierunku ochrony 30% oceanów do 2030 roku .",
+      "Latem, przeglądając literaturę akademicką i wielojęzyczny zasięg Mongabay, próbowałem ustalić, co faktycznie pokazują dowody na temat wyników ochrony mórz w obu Amerykach.",
+      "Łączenie recenzowanych zestawów danych ze sprawozdaniami terenowymi ma swoje ograniczenia, ale pomaga pokonać wspólny podział: badania dokumentują szersze trendy ekologiczne, podczas gdy dziennikarze śledzą kompromisy polityczne i przestoje w egzekwowaniu prawa, które kształtują to, co dzieje się na wodzie.",
+      "The Sea Around Us Paper Park Index stwierdził, że około 30% ze 184 morskich obszarów chronionych, które ocenił, to prawdopodobnie „parki papierowe”, z presją połowową niezgodną z ich statusem ochronnym."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Badania to twórcza i systematyczna praca podejmowana w celu zwiększenia zasobu wiedzy. Polega na gromadzeniu, organizowaniu i analizie dowodów w celu zwiększenia zrozumienia tematu, charakteryzującego się szczególną uwagą na kontrolowanie źródeł uprzedzeń i błędów. Działania te charakteryzują się rozliczaniem i kontrolowaniem uprzedzeń. Projekt badawczy może być rozwinięciem dotychczasowych prac w tej dziedzinie. Aby przetestować ważność instrumentów, procedur lub eksperymentów, badania mogą powielać elementy wcześniejszych projektów lub projektu jako całości."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Research",
+     "url": "https://en.wikipedia.org/wiki/Research"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "30",
+    "19",
+    "100,000",
+    "10.1146",
+    "121124",
+    "060839"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Research",
+    "opis": "Systematic study undertaken to increase knowledge",
+    "tekst": "Research is creative and systematic work undertaken to increase the stock of knowledge. It involves the collection, organization, and analysis of evidence to increase understanding of a topic, characterized by a particular attentiveness to controlling sources of bias and error. These activities are characterized by accounting and controlling for biases. A research project may be an expansion of past work in the field. To test the validity of instruments, procedures, or experiments, research may replicate elements of prior projects or the project as a whole.",
+    "url": "https://en.wikipedia.org/wiki/Research",
+    "język": "en"
+   },
+   "tagi": [
+    "OECMs",
+    "University",
+    "Advanced Studies",
+    "Environment"
+   ],
+   "emotki": [
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Earth",
+     "tytuł": "Beyond national parks: Researchers explore a broader future for conservation",
+     "url": "https://phys.org/news/2026-10-national-explore-broader-future.html"
+    },
+    {
+     "nazwa": "Mongabay",
+     "tytuł": "From paper parks to lasting protection, here’s what works in marine conservation",
+     "url": "https://news.mongabay.com/2026/10/from-paper-parks-to-lasting-protection-heres-what-works-in-marine-conservation/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 3,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.201,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.307,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.525,
+     "treściwość": 0.489,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Beyond national parks: Researchers explore a broader future for conservation",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Zagrał założyciela Facebooka. Czemu nie powrócił w sequelu?",
+   "lead": "W 2010 roku Jesse Eisenberg wcielił się w jednego z najpotężniejszych ludzi na świecie - założyciela Facebooka, Marka Zuckerberga. Mimo wielu próśb ze strony reżysera, odmówił udziału w sequelu zatytułowanym \"The Social Reckoning\".",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-14T16:39:18+00:00",
+   "źródło": {
+    "nazwa": "Interia Film",
+    "url": "https://film.interia.pl/wiadomosci/news-zagral-zalozyciela-facebooka-czemu-nie-powrocil-w-sequelu,nId,23558446",
+    "domena": "film.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NERWOPCM2F0PN-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nominowany do Oscara aktor nareszcie wyjawił, co było powodem jego nieobecności w filmie.",
+      "Już wiemy, że \"The Social Reckoning\" to jedna z największych finansowych wpadek ostatnich lat.",
+      "Po gigantycznym sukcesie \"The Social Network\" Davida Finchera, określanego jako jeden z najważniejszych filmów XXI wieku, jego sequel w reżyserii Aarona Sorkina zbiera mieszane opinie krytyków i kiepsko radzi sobie w kinach.",
+      "Kontynuacja historii Marka Zuckerberga powstała w zupełnie innym składzie niż jej filmowy poprzednik.",
+      "Tym razem stery reżyserskie przejął Aaron Sorkin, autor scenariusza do \"The Social Network\", który zastąpił Finchera zajętego kręceniem \"Dalszych perypetii Cliffa Bootha\".",
+      "Spore zmiany zadziały się również w samej obsadzie filmu - zamiast Jessego Eisenberga w rolę założyciela Facebooka wcielił się gwiazdor \"Sukcesji\", Jeremy Strong.",
+      "Jak przyznał w jednym z wywiadów reżyser, długo starał się namówić aktora, by ten powrócił do swojej roli sprzed ponad dekady.",
+      "Bardzo martwi się tym, by nie wychowywać dzieci w nadmiarze pieniędzy\" - zdradził w rozmowie z Entertainment Weekly Sorkin.",
+      "Głos w sprawie swojej nieobecności w sequelu zabrał w końcu sam zainteresowany."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Facebook – serwis społecznościowy, w ramach którego zarejestrowani użytkownicy mogą tworzyć sieci i grupy, dzielić się wiadomościami i zdjęciami oraz korzystać z aplikacji, będący własnością Meta Platforms z siedzibą w Menlo Park. Został uruchomiony 4 lutego 2004 na Uniwersytecie Harvarda i był początkowo przeznaczony przede wszystkim dla osób studiujących na tej uczelni. Od 2006 roku Facebook jest dostępny dla wszystkich użytkowników mających 13 lat lub więcej. Jego głównym autorem jest Mark Zuckerberg, obecnie pełniący funkcję dyrektora generalnego."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Facebook",
+     "url": "https://pl.wikipedia.org/wiki/Facebook"
+    }
+   ],
+   "dlaczego_to_ważne": "Eisenberg konsekwentnie odmawiał jednak producentom, nawet gdy ci znacząco zaoferowali mu znacznie wyższe wynagrodzenie.",
+   "liczby": [
+    "30 milionów",
+    "16",
+    "00",
+    "10"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Facebook",
+    "opis": "serwis społecznościowy",
+    "tekst": "Facebook – serwis społecznościowy, w ramach którego zarejestrowani użytkownicy mogą tworzyć sieci i grupy, dzielić się wiadomościami i zdjęciami oraz korzystać z aplikacji, będący własnością Meta Platforms z siedzibą w Menlo Park. Został uruchomiony 4 lutego 2004 na Uniwersytecie Harvarda i był początkowo przeznaczony przede wszystkim dla osób studiujących na tej uczelni. Od 2006 roku Facebook jest dostępny dla wszystkich użytkowników mających 13 lat lub więcej. Jego głównym autorem jest Mark Zuckerberg, obecnie pełniący funkcję dyrektora generalnego.",
+    "url": "https://pl.wikipedia.org/wiki/Facebook",
+    "język": "pl"
+   },
+   "tagi": [
+    "Social Reckoning",
+    "Aarona Sorkina",
+    "Facebooka",
+    "Social Network Davida Finchera"
+   ],
+   "emotki": [
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Film",
+     "tytuł": "Zagrał założyciela Facebooka. Czemu nie powrócił w sequelu?",
+     "url": "https://film.interia.pl/wiadomosci/news-zagral-zalozyciela-facebooka-czemu-nie-powrocil-w-sequelu,nId,23558446"
+    },
+    {
+     "nazwa": "The Guardian Culture",
+     "tytuł": "Your full attention: Jesse Eisenberg’s 10 best film performances – ranked!",
+     "url": "https://www.theguardian.com/film/2026/oct/15/jesse-eisenberg-10-best-film-performances-ranked"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.331,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.193,
+     "eksponowanie": 0.45,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.388,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Tim Burton i Kazuo Ishiguro szykują film. Noblista napisze scenariusz",
+   "lead": "Tim Burton dopiero skończył zdjęcia do trzeciego sezonu serialu \" Wednesday \", a już ma na oku kolejny projekt. Jego współpracownikiem będzie tym razem Kazuo",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-15T18:39:00+00:00",
+   "źródło": {
+    "nazwa": "Filmweb",
+    "url": "https://www.filmweb.pl/news/Tim+Burton+i+Kazuo+Ishiguro+szykuj%C4%85+film.+Noblista+napisze+scenariusz-169135",
+    "domena": "filmweb.pl"
+   },
+   "obraz": "https://fwcdn.pl/nph/1985708/2026/78049_1.16.jpg",
+   "sekcje": [],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "14"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Kazuo Ishiguro",
+    "Tim Burton",
+    "Wednesday",
+    "Burton"
+   ],
+   "emotki": [
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Filmweb",
+     "tytuł": "Tim Burton i Kazuo Ishiguro szykują film. Noblista napisze scenariusz",
+     "url": "https://www.filmweb.pl/news/Tim+Burton+i+Kazuo+Ishiguro+szykuj%C4%85+film.+Noblista+napisze+scenariusz-169135"
+    },
+    {
+     "nazwa": "The Guardian Film",
+     "tytuł": "Klara and the Sun review – Taika Waititi’s manic pixie dream robot sci-fi is a sentimental mess",
+     "url": "https://www.theguardian.com/film/2026/oct/15/klara-and-the-sun-review-taika-waititi-kazuo-ishiguro"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.518,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.315,
+     "eksponowanie": 0.45,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.503,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  }
+ ],
+ "braki": [],
+ "statystyki": {
+  "kanały_ok": 71,
+  "kanały_błędne": 1,
+  "znaki_tłumaczone": 17989,
+  "niedziałające_kanały": [
+   {
+    "url": "https://earthobservatory.nasa.gov/feeds/earth-observatory.rss",
+    "powód": "brak wpisów / nieznany format"
+   }
+  ],
+  "działy": 18,
+  "artykuły_w_oknie": 54
+ }
+}
