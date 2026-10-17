@@ -1,0 +1,2005 @@
+{
+ "wersja": "1.0.0",
+ "wydanie": "2026-10-17",
+ "dotyczy_dnia": "2026-10-16",
+ "wygenerowano": "2026-10-17T10:03:52+00:00",
+ "strefa": "Europe/Warsaw",
+ "tryb": "ekstrakcyjny",
+ "demo": false,
+ "pozycje": [
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Rosyjska eskalacja jeszcze „przed Wigilią”. Tusk mówił o granicy i torach kolejowych",
+   "lead": "Premier Tusk powiedział w piątek dziennikarzom po szczycie Rady Europejskiej, że podczas rozmów w Brukseli dominowała jednolita postawa dotycząca wspierania Kijowa w obliczu zmiany podejścia administracji USA pod wodzą prezydenta Donalda Trumpa. Jeśli Ukraina padnie, to będziemy mieli wszyscy bardzo, bardzo poważne…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-16T19:07:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/fakty/polska/news-rosyjska-eskalacja-jeszcze-przed-wigilia-tusk-mowil-o-granic,nIdn,1022269",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/66/aa/donald-tus-fot-636x421-66aad484.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Zwrócił również uwagę na dramatyczną sytuację energetyczną Ukrainy, która zmaga się z brakiem prądu i problemami z gazem.",
+      "Podczas briefingu został zapytany również o słowa byłego szefa BBN Jacka Siewiery, który powiedział, że tej zimy należy spodziewać się „zasadniczego akordu” w prowadzonej przez Rosję przeciwko Europie wojnie hybrydowej.",
+      "Nie bawię się w „moje prognozy” ani intuicje.",
+      "Dla mnie istotna jest wiedza i konkretne komunikaty, co robić i jak działać - zarówno od służb specjalnych naszych, ukraińskich, jak i sojuszniczych.",
+      "Wszystko to składa się na jeden oczywisty komunikat: można spodziewać się jakiejś eskalacji jeszcze przed Wigilią - powiedział premier Tusk.",
+      "Dodał, że „zima będzie bardzo trudna, przede wszystkim, jeśli chodzi o granice, tory kolejowe - to wszystko, co po stronie ukraińskiej może służyć transportowi, w tym gazu, ropy czy jedzenia”.",
+      "Spodziewajmy się, tak jak do tej pory, tylko na większą skalę, prób sabotażu czy jakichś prowokacji w Polsce.",
+      "Na Łotwie już widziano jakichś ludzi w mundurach, Litwa spodziewa się jakiejś poważnej prowokacji.",
+      "Natomiast jeden komunikat jest oczywisty: Rosja będzie tę eskalację potęgowała i będzie testowała naszą reakcję - na tym polega problem – powiedział Donald Tusk."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Premier Donald Tusk powiedział w piątek, że „można spodziewać się jakiejś eskalacji” ze strony Rosji „jeszcze przed Wigilią”.",
+      "Podczas briefingu po szczycie Rady Europejskiej w Brukseli Tusk został zapytany o słowa byłego szefa BBN Jacka Siewiery, który powiedział w rozmowie w radiu Zet m.in., że tej zimy należy spodziewać się „zasadniczego akordu” w prowadzonej przez Rosję przeciwko Europie wojnie hybrydowej. - Ja nie bawię się w moje prognozy ani intuicje.",
+      "Jeśli Ukraina padnie, to będziemy mieli wszyscy bardzo, bardzo poważne problemy - powiedział w piątek dziennikarzom po szczycie UE premier Donald Tusk.",
+      "- Zima będzie bardzo trudna, jeśli chodzi o granice, tory kolejowe - mówił w kontekście zagrożenia ze strony Rosji premier Donald Tusk.",
+      "Szef rządu stwierdził, że \"jeszcze przed Wigilią\" może dojść do \"jakiejś eskalacji\". - Spodziewajmy się prób sabotażu, prowokacji na większą skalę - dodał Tusk.",
+      "Dla mnie istotna jest wiedza i konkretne komunikaty co robić i jak działać - zarówno od służb specjalnych naszych, ukraińskich, jak i sojuszniczych.",
+      "Jak mówił, \"zima będzie bardzo trudna, przede wszystkim, jeśli chodzi o granice, tory kolejowe - to wszystko, co po stronie ukraińskiej może służyć transportowi, w tym gazu, ropy czy jedzenia\". - Spodziewajmy się, tak, jak do tej pory, tylko na większą skalę , prób sabotażu czy jakichś prowokacji w Polsce ."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "20"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Bankier.pl",
+     "ujęcie": "Dodał, że „zima będzie bardzo trudna, przede wszystkim, jeśli chodzi o granice, tory kolejowe”.",
+     "url": "https://www.bankier.pl/wiadomosc/Premier-Jeszcze-przed-Wigilia-mozna-spodziewac-sie-eskalacji-ze-strony-Rosji-9214131.html"
+    },
+    {
+     "źródło": "Gazeta.pl",
+     "ujęcie": "Donald Tusk rozmawiał z dziennikarzami podczas powrotu ze szczytu Rady Europejskiej w Brukseli.",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33083318,tusk-ostrzega-przed-eskalacja-ze-strony-rosji-jeszcze-przed.html"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Wigilią",
+    "Tusk",
+    "Rady Europejskiej",
+    "Donalda Trumpa"
+   ],
+   "emotki": [
+    "🏛️",
+    "🗺️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Rosyjska eskalacja jeszcze „przed Wigilią”. Tusk mówił o granicy i torach kolejowych",
+     "url": "https://www.rmf24.pl/fakty/polska/news-rosyjska-eskalacja-jeszcze-przed-wigilia-tusk-mowil-o-granic,nIdn,1022269"
+    },
+    {
+     "nazwa": "Bankier.pl",
+     "tytuł": "Premier: Jeszcze przed Wigilią można spodziewać się eskalacji ze strony Rosji",
+     "url": "https://www.bankier.pl/wiadomosc/Premier-Jeszcze-przed-Wigilia-mozna-spodziewac-sie-eskalacji-ze-strony-Rosji-9214131.html"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Premier mówi o eskalacji ze strony Rosji. \"Jeszcze przed Wigilią\"",
+     "url": "https://wydarzenia.interia.pl/kraj/news-premier-mowi-o-eskalacji-ze-strony-rosji-jeszcze-przed-wigil,nId,23559650"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Tusk ostrzega przed eskalacją ze strony Rosji. \"Jeszcze przed Wigilią\"",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33083318,tusk-ostrzega-przed-eskalacja-ze-strony-rosji-jeszcze-przed.html"
+    }
+   ],
+   "liczba_źródeł": 4,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 10.212,
+    "składowe": {
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 1.615,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.517,
+     "treściwość": 0.37,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Zawiadomienie do prokuratury ws. TV Republika. „W związku z narastającą agresją”",
+   "lead": "Kierwiński wyjaśnił, że zawiadomienia będą złożone m.in. w związku ze zniesławieniem policjantów, zniewagami pod ich adresem , w związku z nawoływaniem do odstąpienia od czynności służbowych i nawoływaniem do udostępnienia informacji dotyczących życia prywatnego policjantów, wywieraniem wpływu na czynności urzędowe…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-16T15:26:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/fakty/polska/news-zawiadomienie-do-prokuratury-ws-tv-republika-w-zwiazku-z-nar,nIdn,1022241",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/6d/8c/tomasz-sakiewicz-w-okolicy-trybunalu-konstytucyjnego-14-636x421-6d8cd996.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Agresorką miała być kobieta, a pobity miał zostać mężczyzna związany z protestem.",
+      "Również prezes PiS Jarosław Kaczyński na portalu X pisał o siłowym ataku.",
+      "Stołeczna policja zdementowała tę informację , przekazując, że na ul.",
+      "Marszałkowskiej zatrzymali mężczyznę, który zaatakował policjantkę.",
+      "Jak bowiem poinformowały służby, funkcjonariusze zabezpieczający zgromadzenie w Alei Szucha zauważyli w pobliżu mężczyznę, którego nienaturalne zachowanie i nerwowość zwróciły ich uwagę.",
+      "W pewnym momencie zaczął się on oddalać w kierunku ul.",
+      "Policjanci postanowili sprawdzić jego tożsamość.",
+      "Gdy mundurowi szli w jego stronę, rzucił się do ucieczki i wbiegł do jednego z budynków przy ul.",
+      "Marszałkowskiej w pobliżu Alei Szucha i Placu Unii Lubelskiej."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "W związku z narastającą agresją w stosunku do policjantów zdecydowaliśmy się złożyć zawiadomienie o możliwości popełnienia przestępstwa przez dziennikarzy telewizji Republika i pana Sakiewicza - powiedział w piątek na briefingu szef MSWiA Marcin Kierwiński.",
+      "Telewizja Republika, relacjonując piątkowe zgromadzenie pod TK, informowała, że doszło tam do ataku na biuro Adama Borowskiego.",
+      "Każda osoba, która dopuszcza się znieważenia funkcjonariusza, próby wywierania na niego nacisku, przemocy wobec funkcjonariusza, prędzej czy później trafi pod sąd - powiedział w piątek szef MSWiA Marcin Kierwiński.",
+      "Prokurator Andrzej Piaseczny i funkcjonariusze policji weszli do siedziby Trybunału Konstytucyjnego. \"(Prokurator) Usiłuje dokonać przeszukania siedziby niezależnego organu władzy sądowniczej\" - czytamy w komunikacie.",
+      "\"Prezes Święczkowski uważa jednocześnie, że najście na Trybunał Konstytucyjny przez prokuratora ma charakter prowokacyjny i wyczerpuje znamiona przestępstwa z art.",
+      "128 Kodeksu karnego\" - czytamy.",
+      "Prokuratura Krajowa potwierdziła w piątek, że czynności w TK wykonywał prokurator z Zespołu do spraw zapobiegania negatywnym skutkom orzeczeń wydanych przez sędziów powołanych przy udziale Krajowej Rady Sądownictwa po 2017 r."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "128",
+    "16",
+    "11",
+    "14"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Fakty",
+     "ujęcie": "Zgodnie z Konstytucją RP i ustawą o statusie sędziów, sędzią Trybunału zostaje się po wyborze przez Sejm i złożeniu ślubowania wobec prezydenta.",
+     "url": "https://wydarzenia.interia.pl/kraj/news-prokurator-wszedl-do-tk-swieczkowski-reaguje-zawiadomil-prez,nId,23559308"
+    },
+    {
+     "źródło": "Gazeta.pl",
+     "ujęcie": "\"Prokurator Andrzej Piaseczny wraz z funkcjonariuszami Policji przybył do siedziby Trybunału Konstytucyjnego i usiłuje dokonać przeszukania siedziby niezależnego organu władzy sądowniczej\" - przekazano w komunikacie TK opublikowanym na portalu X w piątek 16 października przed godz.",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33082373,prokurator-i-policja-w-tk-berek-do-swieczkowskiego-dlaczego.html"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "MSWiA",
+    "Alei Szucha",
+    "Komenda Stołeczna Policji",
+    "Komendant Główny Policji"
+   ],
+   "emotki": [
+    "⚖️",
+    "🪐"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Zawiadomienie do prokuratury ws. TV Republika. „W związku z narastającą agresją”",
+     "url": "https://www.rmf24.pl/fakty/polska/news-zawiadomienie-do-prokuratury-ws-tv-republika-w-zwiazku-z-nar,nIdn,1022241"
+    },
+    {
+     "nazwa": "Bankier.pl",
+     "tytuł": "Kierwiński składa zawiadomienie na Republikę i Sakiewicza",
+     "url": "https://www.bankier.pl/wiadomosc/Kierwinski-sklada-zawiadomienie-na-Republike-i-Sakiewicza-9214032.html"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Prokurator wszedł do TK. Święczkowski reaguje, zawiadomił prezydenta",
+     "url": "https://wydarzenia.interia.pl/kraj/news-prokurator-wszedl-do-tk-swieczkowski-reaguje-zawiadomil-prez,nId,23559308"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Prokurator i policja w TK. Berek do Święczkowskiego: Dlaczego tak się pan obawia?",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33082373,prokurator-i-policja-w-tk-berek-do-swieczkowskiego-dlaczego.html"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Policja w Trybunale Konstytucyjnym. Święczkowski wydał dokumenty",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198072,33081900,policja-w-trybunale-konstytucyjnym-swieczkowski-wydal-dokumenty.html"
+    }
+   ],
+   "liczba_źródeł": 4,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 9.546,
+    "składowe": {
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 1.765,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.465,
+     "treściwość": 0.416,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Putin i Nawrocki na szczycie G20? Trump chce obecności rosyjskiego przywódcy",
+   "lead": "Tegoroczny szczyt G20 odbędzie się w dniach 14-15 grudnia w Miami na Florydzie , a jego gospodarzem będzie prezydent USA. Polska została zaproszona do udziału w tym wydarzeniu.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-16T20:48:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/polityka/news-putin-i-nawrocki-na-szczycie-g20-trump-chce-obecnosci-rosyjs,nIdn,1022272",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/d3/66/fot-636x421-d366af6a.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "W USA nasz kraj reprezentował będzie prezydent Karol Nawrocki.",
+      "Donald Trump pytany o to, czy Putin będzie na grudniowym szczycie w Miami, odparł, że nie wie, czy prezydent Rosji przyleci.",
+      "Z pewnością chciałbym, żeby tam był – stwierdził prezydent USA.",
+      "We wrześniu sekretarz stanu USA Marco Rubio poinformował o zaproszeniu na grudniowy szczyt G20 na Florydzie rosyjskiego przywódcy.",
+      "Uważamy, że jest to dla niego okazja, by zaangażować się w rozmowy nie tylko z prezydentem, ale również z innymi światowymi przywódcami.",
+      "Mamy nadzieję, że (Putin – przyp. red.) przyjmie to zaproszenie – przekazał Rubio dziennikarzom.",
+      "Grupa amerykańskich senatorów z Partii Demokratycznej i Partii Republikańskiej wezwała prezydenta Trumpa, by wycofał zaproszenie dla przywódcy Rosji.",
+      "G20 zrzesza 19 największych gospodarek narodowych oraz Unię Europejską i Unię Afrykańską.",
+      "Jej członkowie odpowiadają za ok."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "\"To był zaszczyt pracować dla niego [Donalda Trumpa]\" — napisała na X Katie Zacharia, rzeczniczka Białego Domu, która swoje obowiązki pełniła jedynie przez pięć dni.",
+      "Prezydenta USA opisała sześcioma przymiotnikami, a CNN zdradza okoliczności, w jakich zostawała rzeczniczką amerykańskiego przywódcy.",
+      "W nocy z piątku na sobotę czasu polskiego Biały Dom opublikował dokument o uchyleniu stosowania części sankcji na Rosję wynikających z tzw. ustawy Lindseya Grahama.",
+      "Prezydent USA Donald Trump powiedział w piątek, że nie wie, czy przywódca Rosji Władimir Putin będzie na grudniowym szczycie G20 na Florydzie, ale przyznał, że chciałby, żeby przyleciał."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "14",
+    "15",
+    "19",
+    "85 proc.",
+    "75 proc.",
+    "70"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Onet Świat",
+     "ujęcie": "Decyzja została uzasadniona interesem USA.",
+     "url": "https://wiadomosci.onet.pl/swiat/donald-trump-znosi-czesc-sankcji-na-rosje-podsumowanie-nocy/359peyn"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "USA",
+    "Florydzie",
+    "Miami",
+    "Putin"
+   ],
+   "emotki": [
+    "🏛️",
+    "🤝"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Putin i Nawrocki na szczycie G20? Trump chce obecności rosyjskiego przywódcy",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-putin-i-nawrocki-na-szczycie-g20-trump-chce-obecnosci-rosyjs,nIdn,1022272"
+    },
+    {
+     "nazwa": "Onet Świat",
+     "tytuł": "Katie Zacharia nie jest już rzeczniczką Donalda Trumpa. Zabrała głos",
+     "url": "https://wiadomosci.onet.pl/swiat/katie-zacharia-nie-jest-juz-rzeczniczka-donalda-trumpa-teraz-zabrala-glos/ywvlh5x"
+    },
+    {
+     "nazwa": "Onet Świat",
+     "tytuł": "Donald Trump znosi część sankcji na Rosję. Podsumowanie nocy",
+     "url": "https://wiadomosci.onet.pl/swiat/donald-trump-znosi-czesc-sankcji-na-rosje-podsumowanie-nocy/359peyn"
+    },
+    {
+     "nazwa": "Onet Świat",
+     "tytuł": "Obecność Władimira Putina na szczycie G20. Donald Trump zabrał głos",
+     "url": "https://wiadomosci.onet.pl/swiat/obecnosc-wladimira-putina-na-szczycie-g20-donald-trump-zabral-glos/6yrcxsh"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Starlink access still not fully restored for Ukraine’s military, says Zelenskyy",
+     "url": "https://www.theguardian.com/world/2026/oct/16/ukraine-military-starlink-access-starshield-volodymyr-zelenskyy"
+    },
+    {
+     "nazwa": "BBC Europe",
+     "tytuł": "Zelensky says Ukraine has right to defend itself after Trump calls latest strikes a 'disgrace'",
+     "url": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Europe",
+     "tytuł": "Watch: What does Starlink have to do with the Ukraine-Russia war?",
+     "url": "https://www.bbc.co.uk/news/videos/cqr7yzpxm083o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Europe",
+     "tytuł": "Trump denies limiting Ukraine access to Starlink network",
+     "url": "https://www.bbc.co.uk/news/articles/ckz65g34wyd8o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "Politico Europe",
+     "tytuł": "EU faces growing pressure to plug Ukraine’s Starlink gap",
+     "url": "https://www.politico.eu/article/eu-ukraine-starlink-dependence-european-satellite-alternatives/"
+    },
+    {
+     "nazwa": "Politico Europe",
+     "tytuł": "Zelenskyy warns 20M Ukrainians could flee to Europe if Russia wins war",
+     "url": "https://www.politico.eu/article/zelenskyy-warns-20m-ukrainians-could-flee-to-europe-if-russia-wins-war/"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "Russia's view amid Ukraine's strikes and Zelenskyy's growing rift with the U.S.",
+     "url": "https://www.npr.org/2026/10/16/nx-s1-6004281/russias-view-amid-ukraines-strikes-and-zelenskyys-growing-rift-with-the-u-s"
+    }
+   ],
+   "liczba_źródeł": 6,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 15.591,
+    "składowe": {
+     "potwierdzenia": 9.5,
+     "ranga_źródła": 2.805,
+     "eksponowanie": 0.99,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.596,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Problemy z siecią Starlink w Ukrainie. Trump: To nie ja wydałem polecenie",
+   "lead": "Trump kilkakrotnie przecząco odpowiadał na pytania o to, czy wydał polecenie ograniczenia działania sieci Starlink i Starshield w Ukrainie. Prezydent USA powiedział, że nie wie, kto wydał polecenie, sugerując, że nic takiego nie miało miejsca.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-16T18:52:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-problemy-z-siecia-starlink-w-ukrainie-trump-to-nie-ja-wydale,nIdn,1022268",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/fb/ab/nurphoto-via-afp-636x421-fbab3a16.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nie wiem, czy to zrobił ktokolwiek, bo to nie byłem ja i nie sądzę, żeby to był Elon – powiedział.",
+      "Tymczasem w czwartek agencja Reutera donosiła, że decyzję podjęto w Białym Domu.",
+      "Trump stwierdził, że system działa obecnie normalnie.",
+      "Podobnie wyraził się prezydent Ukrainy Wołodymyr Zełenski, który powiedział w piątek, że sieć Starlink (i jej wojskowy odpowiednik, Starshield) wraca do normalnego funkcjonowania .",
+      "Powtórzył jednak, że wcześniejsze ograniczenie jej dla obiektów poruszających się z szybkością mniejszą niż 160 km/h uderzyła w zdolności Ukrainy do przechwytywania rosyjskich dronów, a także do uderzania w rosyjskich siły na terenie Ukrainy.",
+      "Donald Trump został również zapytany o to, dlaczego wzywa Wołodymyra Zełenskiego do ustąpienia , kiedy to Władimir Putin rozpoczął wojnę.",
+      "Wiesz, ja znam szczegóły?",
+      "I w pewnym momencie je ujawnię.",
+      "Ale nic mnie nie obchodzi, poza jednym: chcę, żeby ta wojna się skończyła – odparł."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "160 km/h",
+    "12",
+    "80 billion",
+    "70 billion",
+    "100 billion",
+    "90 billion"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Starlink",
+    "Starshield",
+    "Ukrainie",
+    "Ukrainy"
+   ],
+   "emotki": [
+    "🏛️",
+    "⚔️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Problemy z siecią Starlink w Ukrainie. Trump: To nie ja wydałem polecenie",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-problemy-z-siecia-starlink-w-ukrainie-trump-to-nie-ja-wydale,nIdn,1022268"
+    },
+    {
+     "nazwa": "BBC Europe",
+     "tytuł": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
+     "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump",
+     "url": "https://www.dw.com/en/ukrainian-president-zelenskyy-speaks-at-eu-summit-amid-spat-with-donald-trump/a-79684340?maca=en-rss-en-world-4025-rdf"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.74,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.465,
+     "eksponowanie": 1.53,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.496,
+     "treściwość": 0.249,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Dla Świątek to priorytet, Chwalińska jest przeszkodą. Kluczowe 260 punktów",
+   "lead": "Maja Chwalińska grała już w tym roku w finale Roland Garros - tamten turniej zupełnie zmienił jej sytuację w świecie tenisa. Była zawodniczką z drugiej setki, została tą ze ścisłej czołówki, bo tak można nazwać TOP 30 rankingu WTA.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-16T16:38:16+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/iga-swiatek/news-dla-swiatek-to-priorytet-chwalinska-jest-przeszkoda-kluczowe,nId,23559490",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NF4T4MCVD95YF-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Mają inny status w tourze, praktycznie pewne wejście do każdego turnieju, rozstawienie w największych imprezach.",
+      "W Wuhanie Maja po raz drugi awansowała do najlepszej \"4\" w wielkim tenisowym turnieju - po Wielkim Szlemie z Paryża jest to impreza rangi 1000.",
+      "Pokonała Marię Sakkari, po pasjonującym boju, w którym łatwo przyszedł jej pierwszy set (6:0), a w trzecim toczyła się gra \"na ząbki\" , otwiera się w nowym oknie .",
+      "To Polka zaliczyła pierwsze przełamanie, to ona jednak awansowała.",
+      "Maja nie ma jednak szans na miejsce w WTA Finals, jej straty do siódmej obecnie Karoliny Muchovej są za duże.",
+      "W Wuhanie i tak sytuacja toczy się po jej myśli, w 1/8 finału z rywalizacją pożegnała się Czeszka, Iga zaś wciąż walczy.",
+      "Jednocześnie sytuacja zawodniczki z Raszyna pozostaje skomplikowana.",
+      "W Wuhan Open Muchova dorzuciła do swojego dorobku 120 oczek, Iga już, pokonując Ann Li - 390.",
+      "Tyle że strata Igi wciąż wynosi 546 punktów ."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Maja Chwalińska wygrała w trzech setach wojnę nerwów z Marią Sakkari (6:0, 3:6, 7:5) i zagra w półfinale Wuhan Open.",
+      "Wiemy już, że jej rywalką będzie Iga Świątek. - Dla kibiców to świetna sprawa, a dla Mai nagroda za to, że włożyła nogę między drzwi, a potem nie kombinowała i nie szukała złotych recept.",
+      "Należą się jej ukłony za szybką adaptację i za to, jak radziła sobie z zaczepkami w trudnym dla niej okresie - mówi nam były trener Igi Świątek Michał Kaznowski.",
+      "Iga Świątek w piątkowe popołudnie zapewniła sobie awans do półfinału turnieju WTA 1000 w Wuhan.",
+      "Polka pokonała w ćwierćfinale Ann Li, rewanżując się za porażkę w trzeciej rundzie WTA 1000 w Madrycie.",
+      "W sobotę wczesnym popołudniem dojdzie do pojedynku Iga Świątek - Maja Chwalińska w turnieju WTA 1000 w Wuhan.",
+      "Zanim 15-latki wyszły na kort, stanęły wspólnie przed kamerą."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Maja Ewa Chwalińska is a Polish professional tennis player. She has career-high WTA rankings of No. 21 in singles, achieved on 8 June 2026, and No. 91 in doubles, reached on 9 June 2025. Chwalińska's best result is reaching the final of the 2026 French Open, the first qualifier to achieve the feat at the event."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Maja Chwalińska",
+     "url": "https://en.wikipedia.org/wiki/Maja_Chwali%C5%84ska"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "30",
+    "1000",
+    "120",
+    "390",
+    "546 punktów",
+    "500"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Sport",
+     "ujęcie": "Polskich kibiców czeka nie lada gratka.",
+     "url": "https://sport.interia.pl/tenis/news-nagrali-swiatek-i-chwalinska-poza-kortem-byly-nastolatkami-w,nId,23559554"
+    },
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "Iga Świątek kontra Maja Chwalińska w Wuhan.",
+     "url": "https://sport.tvp.pl/95964849/iga-swiatek-kontra-maja-chwalinska-w-wuhan-spotkanie-po-10-latach"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Maja Chwalińska",
+    "opis": "Polish tennis player (born 2001)",
+    "tekst": "Maja Ewa Chwalińska is a Polish professional tennis player. She has career-high WTA rankings of No. 21 in singles, achieved on 8 June 2026, and No. 91 in doubles, reached on 9 June 2025. Chwalińska's best result is reaching the final of the 2026 French Open, the first qualifier to achieve the feat at the event.",
+    "url": "https://en.wikipedia.org/wiki/Maja_Chwali%C5%84ska",
+    "język": "en"
+   },
+   "tagi": [
+    "Ningbo",
+    "Chwalińska",
+    "Świątek",
+    "Wuhanie"
+   ],
+   "emotki": [
+    "🎾"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Dla Świątek to priorytet, Chwalińska jest przeszkodą. Kluczowe 260 punktów",
+     "url": "https://sport.interia.pl/iga-swiatek/news-dla-swiatek-to-priorytet-chwalinska-jest-przeszkoda-kluczowe,nId,23559490"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "\"Sabotuje\". Były trener Świątek wprost o tym, co zrobiła Chwalińska",
+     "url": "https://sport.interia.pl/tenis/news-sabotuje-byly-trener-swiatek-wprost-o-tym-co-zrobila-chwalin,nId,23559432"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Alarm ws. Świątek. Tuż przed meczem z Chwalińską. Niepokojące sygnały",
+     "url": "https://sport.interia.pl/iga-swiatek/news-niepokojace-sygnaly-z-wuhan-swiatek-odwolala-konferencje-tuz,nId,23559616"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Chwalińska kontra Świątek. Już raz do tego doszło. Wideo jest hitem sieci",
+     "url": "https://sport.interia.pl/tenis/news-nagrali-swiatek-i-chwalinska-poza-kortem-byly-nastolatkami-w,nId,23559554"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Iga Świątek kontra Maja Chwalińska w Wuhan. Spotkanie po 10 latach",
+     "url": "https://sport.tvp.pl/95964849/iga-swiatek-kontra-maja-chwalinska-w-wuhan-spotkanie-po-10-latach"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.455,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.673,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.482,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Trwa fatalna passa Widzewa Łódź. Bez przełomu w hicie z Wisłą Kraków",
+   "lead": "W ostatni weekend po czterech latach powrócił ligowy klasyk pomiędzy Wisła Kraków i Legią Warszawa. Mecz w stolicy, rozgrywany w tle nieobecności kibiców gości przy Łazienkowskiej, zakończył się triumfem 2:0 piłkarzy Marka Papszuna.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-16T20:32:27+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/news-pudlo-rodado-z-rzutu-karnego-walka-do-konca-w-hicie-widzewa,nId,23559629",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NF5B49PU56HTR-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nie minął nawet tydzień, a kibice Wisły Kraków mogą emocjonować się powrotem kolejnego ligowego szlagieru.",
+      "Tym razem atmosfera wokół tego starcia była zgoła inna, bowiem \"Biała Gwiazda\" w piątkowy wieczór mierzyła się na wyjeździe z zaprzyjaźnionym kibicowsko Widzewem Łódź .",
+      "Zespół z Łodzi ma aktualnie ogromne problemy.",
+      "Jedyne zwycięstwo w lidze odnotował 9 sierpnia, a ostatnia, przegrana w końcówce 1:2 potyczka z Piastem Gliwice była dla Widzewa już siódmym kolejnym meczem w Ekstraklasie bez zwycięstwa .",
+      "Bilans ten będzie jeszcze gorszy, gdy doliczymy do tego porażkę z Koroną Kielce w Pucharze Polski.",
+      "Niewiele brakło, by już w 2. minucie Marcel Łubik został skarcony za fatalny błąd przy wprowadzaniu piłki do gry.",
+      "Golkiper Wisły fatalnie skiksował, po czym futbolówka trafiła pod nogi Frana Alvareza .",
+      "Hiszpan podjął jednak zbyt pochopną decyzję, przez co próba lobu została przez Łubika udaremniona.",
+      "Zdecydowanie lepiej golkiper gości zachował się w 19. minucie, gdy w świetnym stylu sparował na poprzeczkę piłkę po uderzeniu z dystansu Alvareza."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Niezbędnik kibica 11. kolejki PKO BP Ekstraklasy 2026/27.",
+      "Sprawdź terminarz i wyniki (16.-19.10.2026)",
+      "Tabela Betclic 1 Ligi 2026/27.",
+      "Sprawdź obecną kolejność miejsc [AKTUALIZACJA 16.10.2026]"
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Stadion Miejski Widzewa Łódź – wielofunkcyjny stadion sportowy znajdujący się przy al. marsz. Józefa Piłsudskiego 138 w Łodzi, położony na Widzewie pomiędzy ulicami: Franciszka Smudy, Piłsudskiego, Sępią oraz ul. Włodzimierza Smolarka i torami linii kolejowej nr 458."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Stadion Widzewa Łódź",
+     "url": "https://pl.wikipedia.org/wiki/Stadion_Widzewa_%C5%81%C3%B3d%C5%BA"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "19",
+    "49",
+    "65",
+    "84",
+    "88",
+    "13"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "Terminarz Betclic 1 Ligi 2026/27.",
+     "url": "https://sport.tvp.pl/92873939/terminarz-betclic-1-ligi-202627-kiedy-mecze-kalendarz"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Stadion Widzewa Łódź",
+    "opis": "stadion piłkarski w Łodzi, Polska",
+    "tekst": "Stadion Miejski Widzewa Łódź – wielofunkcyjny stadion sportowy znajdujący się przy al. marsz. Józefa Piłsudskiego 138 w Łodzi, położony na Widzewie pomiędzy ulicami: Franciszka Smudy, Piłsudskiego, Sępią oraz ul. Włodzimierza Smolarka i torami linii kolejowej nr 458.",
+    "url": "https://pl.wikipedia.org/wiki/Stadion_Widzewa_%C5%81%C3%B3d%C5%BA",
+    "język": "pl"
+   },
+   "tagi": [
+    "Widzewa",
+    "Wisły",
+    "Biała Gwiazda",
+    "Wisła Kraków"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Trwa fatalna passa Widzewa Łódź. Bez przełomu w hicie z Wisłą Kraków",
+     "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/news-pudlo-rodado-z-rzutu-karnego-walka-do-konca-w-hicie-widzewa,nId,23559629"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "PKO BP Ekstraklasa. Kolejny remis Widzewa. Tym razem z Wisłą Kraków",
+     "url": "https://sport.tvp.pl/95972491/pko-bp-ekstraklasa-kolejny-remis-widzewa-tym-razem-z-wisla-krakow"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Niezbędnik kibica 11. kolejki PKO BP Ekstraklasy 2026/27. Sprawdź terminarz i wyniki (16.-19.10.2026)",
+     "url": "https://sport.tvp.pl/95940394/niezbednik-kibica-11-kolejki-pko-bp-ekstraklasy-202627-sprawdz-terminarz-i-wyniki-16-19102026"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Tabela Betclic 1 Ligi 2026/27. Sprawdź obecną kolejność miejsc [AKTUALIZACJA 16.10.2026]",
+     "url": "https://sport.tvp.pl/94509395/tabela-betclic-1-liga-202627-ranking-aktualizacja"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Terminarz Betclic 1 Ligi 2026/27. Kiedy mecze w nowym sezonie? Sprawdź kalendarz",
+     "url": "https://sport.tvp.pl/92873939/terminarz-betclic-1-ligi-202627-kiedy-mecze-kalendarz"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.376,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.65,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.507,
+     "treściwość": 0.469,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Broncos pokonał mistrzów Super Bowl Seahawks w dogrywce",
+   "lead": "Zdobywca 53 jardów Wil Lutz na boisku pokonuje w dogrywce w NFL mistrzów Seattle Seahawks 17-14 z Denver Broncos.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-16T10:02:21+00:00",
+   "źródło": {
+    "nazwa": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/american-football/videos/cm87z38014p1o?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6f46/live/bbfdfa30-c940-11f1-a64c-550be9e3c66b.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Seattle Seahawks 14-17 Denver Broncos (OT) Denver przechodzi do 4-2 pomimo walk ofensywnych Wil Lutz kopnął 53 jardową bramkę w dogrywce, gdy gospodarz Denver Broncos pokonał obrońcę tytułu mistrza Super Bowl Seattle Seahawks 17-14 w czwartek wieczorem.",
+      "Rezultat oznacza, że Broncos wyszli z trudnego sześciotygodniowego sezonu otwarcia z rekordem 4-2 pomimo pogrążonego w kontuzjach grafiku i niepewnej ofensywy.",
+      "Zwycięski kop został ustawiony, gdy Ja 'Quan McMillian z Denver przechwycił podanie Sama Darnolda na linii 43 jardów w Seattle. „Bitwa obronna i właśnie tego chcieliśmy, i skończyliśmy na szczycie” - powiedział Alex Singleton, linebacker Broncos po meczu.",
+      "J.K. Dobbins i R.J. ​Harvey rzucili się na przyłożenia w drugiej kwarcie dla Broncos, którzy wygrali pomimo skasowania wszystkich sześciu posiadłości z drugiej połowy, z wyłączeniem gry w klękanie podczas jednego meczu i wyprodukowania zaledwie 168 jardów całkowitej ofensywy w nocy.",
+      "Rozgrywający z Denver Bo Nix ukończył 17 z 27 podań na 107 jardów.",
+      "Czy Trenholm zdobędzie ortezę prób, gdy Gloucester spadnie tuż przed pobiciem posiadaczy Pucharu Mistrzów Bordeaux w ekscytującym 36-36 remisie; Edynburg poniósł 27-17 porażek z Tulonem w otwieraczu do Pucharu Challenge Will Trenholm orteza nie wystarczyła, aby pomóc Gloucesterowi pokonać posiadaczy Pucharu Mistrzów Bordeaux, ponieważ byli zmuszeni zadowolić się remisem 36-36 po dramatycznym konkursie.",
+      "Gloucester prowadził 24-17 razy w połowie, zanim Trenholm rozbił się dwa razy, ale podwójny Louis Bielle-Biarrey uratował część łupów za wizytę w Bordeaux."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Super Bowl to finałowy mecz ligowy National Football League (NFL) Stanów Zjednoczonych. Służył jako ostatni mecz każdego sezonu NFL od 1966 roku zastępując mecz o mistrzostwo NFL, a także jako ostatni mecz każdego sezonu American Football League od 1966 do 1967 roku przed fuzją AFL–NFL zastępującą mecz o mistrzostwo AFL. Od 2022 roku gra toczy się w drugą niedzielę lutego. Poprzednie Super Bowl rozgrywano w niedziele od początku do połowy stycznia 1967 r. do 1978 r., pod koniec stycznia 1979 r. do 2003 r. oraz w pierwszą niedzielę lutego 2004 r. do 2021 r. Zwycięskie drużyny otrzymują Trofeum Vince 'a Lombardiego, nazwane na cześć trenera, który wygrał pierwsze dwa Super Bowl. Ponieważ NFL ogranicza używanie swojego znaku towarowego „Super Bowl”, jest on często określany jako „wielka gra” lub inne ogólne terminy przez korporacje nie sponsorujące."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Super Bowl",
+     "url": "https://en.wikipedia.org/wiki/Super_Bowl"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "53",
+    "17",
+    "14",
+    "43",
+    "168",
+    "27"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Super Bowl",
+    "opis": "National Football League championship game",
+    "tekst": "The Super Bowl is the league championship final game of the National Football League (NFL) of the United States. It has served as the final game of every NFL season since 1966 replacing the NFL Championship Game and also served as the final game of every American Football League season from 1966 to 1967 prior to the AFL–NFL merger replacing the AFL championship game. Since 2022, the game has been played on the second Sunday in February. Prior Super Bowls were played on Sundays in early to mid-January from 1967 to 1978, late January from 1979 to 2003, and the first Sunday of February from 2004 to 2021. Winning teams are awarded the Vince Lombardi Trophy, named after the coach who won the first two Super Bowls. Because the NFL restricts the use of its \"Super Bowl\" trademark, it is frequently referred to as the \"big game\" or other generic terms by non-sponsoring corporations. The day the…",
+    "url": "https://en.wikipedia.org/wiki/Super_Bowl",
+    "język": "en"
+   },
+   "tagi": [
+    "Seattle Seahawks",
+    "Denver Broncos",
+    "Super Bowl",
+    "Seahawks"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Broncos beat Super Bowl champions Seahawks in overtime",
+     "url": "https://www.bbc.co.uk/sport/american-football/videos/cm87z38014p1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Super Bowl champions slump again as Darnold’s picks cost Seahawks against Broncos",
+     "url": "https://www.theguardian.com/sport/2026/oct/16/seahawks-broncos-nfl-thursday-night-football"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "Gloucester claim thrilling draw against Champions Cup holders Bordeaux",
+     "url": "https://www.skysports.com/rugby-union/news/12040/13600079/champions-cup-gloucester-claim-thrilling-draw-against-holders-bordeaux"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.058,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.63,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.528,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Broncos beat Super Bowl champions Seahawks in overtime",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Czy \"Wielka Szóstka\" Premier League nadal istnieje?",
+   "lead": "Od lat Premier League ma zdefiniowaną „Wielką Szóstkę”, składającą się z Arsenału, Chelsea, Liverpoolu, Manchesteru City, Manchesteru United i Tottenhamu Hotspur, ale czy ta era może dobiec końca?",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-16T05:53:57+00:00",
+   "źródło": {
+    "nazwa": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ckj0lrjzjgqno?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0fa7/live/42928a00-c317-11f1-8f04-85217d686658.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Niektórym graczom pisane jest wywierać największy wpływ poza ławką rezerwowych, ale kto jest w pierwszej dziesiątce super rezerwowych Premier League wszechczasów?",
+      "Henderson z powrotem na Merseyside, Farke grozi większym nieszczęściem dla Carrick i Forest są zagrożeniem dla najlepszych strzelców Arsenalu Premier League | Śledź nas na TikToku Żywe przyjęcie czeka na byłych pomocników Liverpoolu Jordana Hendersona i Xabiego Alonso w Evertonie, a w przypadku tych pierwszych wszelkie drwiny można uznać za niezamierzony hołd.",
+      "Będą mówić o tym, co 36-latek jest w stanie wyprodukować teraz, a co i gdzie dostarczył w przeszłości.",
+      "Dzięki dwóm golom i pomocy przeciwko Bournemouth w zeszłą sobotę, Henderson stał się najstarszym graczem, który bezpośrednio przyczynił się do trzech bramek w meczu Premier League i wykazał, że jego rolą w Chelsea nie jest po prostu podniesienie standardów poza boisko.",
+      "Jego partnerstwo z Moisésem Caicedo zapewniło zespołowi Alonso równowagę i pozwoliło rozkwitnąć pierwszej trójce Morgana Rogersa, João Pedro i Cole 'a Palmera.",
+      "Ich konfrontacja z obroną Evertonu, która wywarła wrażenie w tym sezonie, tylko po to, aby zaśmiecić losowanie w Hull kosztownymi błędami, zapewni surową próbę niezwyciężonego startu gospodarzy i może być podyktowana przez weterana stojącego za nimi.",
+      "Sześciu austriackich mistrzów Lask pokazało, jak dobrzy mogą być na przodzie, ale napotkają znacznie mniej uprzejmych gospodarzy na stadionie Gtech Community Stadium."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Wielka Szóstka to nieformalne określenie grupy sześciu klubów w Premier League: Arsenal, Chelsea, Liverpool, Manchester City, Manchester United i Tottenham Hotspur. To sześć klubów o największych rozmiarach bazy fanów. Często są również doceniani za swój trwały sukces i siłę finansową w konkurencji. Chociaż nie jest to oficjalne oznaczenie, kluby z tej grupy zazwyczaj stanowiły co najmniej połowę całkowitych rocznych przychodów generowanych przez kluby Premier League od 2004 roku."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Big Six (Premier League)",
+     "url": "https://en.wikipedia.org/wiki/Big_Six_(Premier_League)"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10",
+    "36",
+    "18",
+    "22",
+    "3.60",
+    "32"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Big Six (Premier League)",
+    "opis": "Group of English football clubs",
+    "tekst": "The Big Six is an informal term used to describe a group of six clubs in the Premier League: Arsenal, Chelsea, Liverpool, Manchester City, Manchester United, and Tottenham Hotspur. These are the six clubs with the largest fan base sizes. They are also often recognised for their sustained success and financial strength in the competition. While not an official designation, clubs in this group have typically accounted for at least half of the total annual revenue generated by Premier League clubs since 2004.",
+    "url": "https://en.wikipedia.org/wiki/Big_Six_(Premier_League)",
+    "język": "en"
+   },
+   "tagi": [
+    "Arsenal Chelsea Liverpool Manchester City Manchester United",
+    "Premier League Big Six",
+    "Tottenham Hotspur",
+    "Premier League"
+   ],
+   "emotki": [
+    "⚽",
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Does the Premier League 'Big Six' still exist?",
+     "url": "https://www.bbc.co.uk/sport/football/articles/ckj0lrjzjgqno?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Ranking the Premier League's all-time greatest super subs",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cqn73xe5eelgo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Premier League: 10 things to look out for this weekend",
+     "url": "https://www.theguardian.com/football/2026/oct/16/premier-league-10-things-to-look-out-for-this-weekend"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Premier League news: go bananas: Maresca loving fans’ show of defiance; Alonso backs his defence",
+     "url": "https://www.theguardian.com/football/2026/oct/16/premier-league-news-go-bananas-maresca-loving-fans-show-of-defiance-james-injury-blow-for-blues"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "How to follow the Premier League on the BBC this weekend",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cp30ggvqj0do?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Do Premier League teams really need to run more to win matches?",
+     "url": "https://www.theguardian.com/football/2026/oct/16/premier-league-teams-run-more-win-matches-distance-opta"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Premier League action, Champions Day and Dubois v Wardley II – follow with us",
+     "url": "https://www.theguardian.com/sport/2026/oct/16/premier-league-action-champions-day-and-dubois-v-wardley-ii-follow-with-us"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.924,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 2.335,
+     "eksponowanie": 1.62,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.519,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Does the Premier League 'Big Six' still exist?",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Doczekaliśmy się latających samochodów. Tesla szokuje nowym modelem",
+   "lead": "Nowa Tesla Roadster wygląda tak, jakby wyrwała się z filmu science fiction. To spełnienie marzeń każdego fana futurystycznej motoryzacji.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-16T10:30:17+00:00",
+   "źródło": {
+    "nazwa": "Antyweb",
+    "url": "https://antyweb.pl/doczekalismy-sie-latajacych-samochodow-tesla-szokuje-nowym-modelem",
+    "domena": "antyweb.pl"
+   },
+   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2026/10/tesla-1.png",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jako dziecko myślałem, że latające samochody pojawią się maksymalnie do 2020 roku, ale nie będę narzekać – ważne, że pojawiły się za mojego życia.",
+      "To oczywiście pół żartem, pół serio, bo nowa wersja Tesli Roadster w powietrzu unosi się tylko przez chwilę, ale chyba jeszcze nigdy nie byliśmy tak blisko scenariuszy z filmów science fiction.",
+      "Najszybszy na świecie, o rekordowych osiągach i po prostu futurystycznie przepiękny.",
+      "Oto samochód przyszłości Tesli.",
+      "Dzisiejszy poranek wziął nas z zaskoczenia, bo chyba nikt nie spodziewał się, że Tesla zaprezentuje tak widowiskowe show.",
+      "Podczas nocnego pokazu w obiekcie SpaceX w Teksasie Tesla zagwarantowała opuszczenie szczęk z wrażenia co najmniej trzy razy.",
+      "Auto najpierw bowiem wjechało niemal do góry nogami do połowy odwróconej rampy niczym zabawkowy Hot Wheels, potem wybiło się z niej z widowiskowym obrotem w powietrzu i zakończyło lot miękkim lądowaniem w chmurze zimnego gazu.",
+      "Kaskaderski popis powtórzono również nad ustawionymi w rzędzie pojazdami Tesli różnego typu – Roadster ponownie wybił się, obrócił w powietrzu i wylądował jak gdyby nigdy nic.",
+      "Jak Tesli udało się to osiągnąć?"
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Turbina Tesli – turbina konstrukcji Nikoli Tesli, wykorzystująca zjawisko adhezji do przeniesienia ruchu płynu na ruch obrotowy równolegle ustawionych talerzy, zamocowanych na osi w niewielkich odstępach. Gaz lub ciecz jest wprowadzana przez dyszę ustawioną w płaszczyźnie obrotu talerzy pomiędzy talerze. Talerze mają wokół osi otwory pozwalające na wypływ płynu. Obieg czynnika jest spiralny – od krawędzi zewnętrznej do środka."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Turbina Tesli",
+     "url": "https://pl.wikipedia.org/wiki/Turbina_Tesli"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10",
+    "600",
+    "97 km/h",
+    "0,59",
+    "480 km",
+    "370 km/h"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Turbina Tesli",
+    "opis": "",
+    "tekst": "Turbina Tesli – turbina konstrukcji Nikoli Tesli, wykorzystująca zjawisko adhezji do przeniesienia ruchu płynu na ruch obrotowy równolegle ustawionych talerzy, zamocowanych na osi w niewielkich odstępach. Gaz lub ciecz jest wprowadzana przez dyszę ustawioną w płaszczyźnie obrotu talerzy pomiędzy talerze. Talerze mają wokół osi otwory pozwalające na wypływ płynu. Obieg czynnika jest spiralny – od krawędzi zewnętrznej do środka.",
+    "url": "https://pl.wikipedia.org/wiki/Turbina_Tesli",
+    "język": "pl"
+   },
+   "tagi": [
+    "Tesla",
+    "Tesli",
+    "Roadster",
+    "Performance Thrust Rocket"
+   ],
+   "emotki": [
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Antyweb",
+     "tytuł": "Doczekaliśmy się latających samochodów. Tesla szokuje nowym modelem",
+     "url": "https://antyweb.pl/doczekalismy-sie-latajacych-samochodow-tesla-szokuje-nowym-modelem"
+    },
+    {
+     "nazwa": "Ars Technica",
+     "tytuł": "Tesla turns to 50-year-old stunt technology as it tries to Roadster again",
+     "url": "https://arstechnica.com/cars/2026/10/tesla-turns-to-50-year-old-stunt-technology-as-it-tries-to-roadster-again/"
+    },
+    {
+     "nazwa": "TechCrunch",
+     "tytuł": "Tesla reveals SpaceX-powered Roadster that flies and falls with style",
+     "url": "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.052,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.535,
+     "eksponowanie": 0.27,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.426,
+     "treściwość": 0.171,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Briefing Chat: Niewidoczny tatuaż, który pojawia się w świetle UV – a następnie znika",
+   "lead": "Pobierz podcast Nature Briefing 16 października 2026 Nature: Obejrzyj ten niewidzialny tatuaż pojawiający się w świetle UV Nature: Duże psy starzeją się szybciej niż małe — winą za to mogą być nieuczciwe „skaczące geny” Nigdy nie przegapisz żadnego odcinka. Zasubskrybuj podcast Nature w Apple Podcasts , Spotify , YouTube Music lub swoim ulubionym…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-16T00:00:00+00:00",
+   "źródło": {
+    "nazwa": "Nature",
+    "url": "https://www.nature.com/articles/d41586-026-03341-3",
+    "domena": "nature.com"
+   },
+   "obraz": "https://media.nature.com/lw1200/magazine-assets/d41586-026-03341-3/d41586-026-03341-3_53869046.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Przewodnik po najnowszych edytorach genomu Transkrypcja oparta na Rb ogranicza jej działanie supresyjne na guzy w raku piersi Rola asystenta wydawniczego jest szeroko zakrojona i niezbędna do sprawnego funkcjonowania portfolio czasopism.",
+      "Pekin czy Londyn - hybrydowy model pracy Szkoła Nauk Przyrodniczych i Technologii (SLST) zaprasza na liczne etaty i etaty.",
+      "Wydział Medycyny Jądrowej i Teranostyki oraz Wydział Nauk Radiologicznych, Sekcja Onkologii, UCLA wspólnie rekrutują Wydział Inżynierii Materiałowej (MSE), College of Engineering, University of Michigan, poszukuje wybitnych kandydatów na tenura...",
+      "Open Rank Faculty (All Levels) in Dept of Oncology Science Nowo utworzony Zakład Nauk Onkologicznych, College of Medicine, na Uniwersytecie..."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Nature, Opublikowano online: 16 października 2026 r.; doi:10.1038/d41586-026-03308-4 Budowanie eksperymentu z neutrinami nagrodzonego Nagrodą Nobla było dużym ryzykiem.",
+      "Nature, Opublikowano online: 16 października 2026 r.; doi: 10.1038/d41586-026-03195-9 Mitoproteomy pięciu pasożytów i rośliny posiadają potencjał medyczny — i ponownie rozpalają pytanie, kiedy mitochondrium ewoluowało.",
+      "Nature, opublikowano online: 16 października 2026 r.; doi: 10.1038/d41586-026-03303-9 Dane z mózgów myszy i 13 mózgów ludzkich pokazują związek między poziomem enzymu rozkładającego lipidy a odpornością poznawczą.",
+      "Nature, Published online: 16 October 2026; doi: 10.1038/d41586-026-03253-2Absolwenci studiów doktoranckich w USA, którzy korzystali ze sztucznej inteligencji, częściej pracowali w przemyśle.",
+      "Nature, Opublikowano online: 16 października 2026 r.; doi: 10.1038/d41586-026-03338-y Skrzynki odbiorcze kryptografów są zalewane wnioskami o walidację rozwiązań szyfrujących.",
+      "Naukowcy od dawna wiedzą, że kortyzol, hormon uwalniany w stresujących sytuacjach, może wzmacniać wspomnienia emocjonalne.",
+      "Ich badanie ujawnia, że kortyzol wzmacnia wspomnienia emocjonalne, zmieniając sposób, w jaki sieci mózgowe zaangażowane w emocje i pamięć funkcjonują i komunikują się ze sobą."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "16",
+    "10.1038",
+    "026",
+    "03341",
+    "03308",
+    "03195"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Department",
+    "Nature Podcast",
+    "Radiological Sciences Oncology Section",
+    "Apple Podcasts Spotify YouTube Music"
+   ],
+   "emotki": [
+    "🧬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Nature",
+     "tytuł": "Briefing Chat: An invisible tattoo that appears under UV light – and then disappears",
+     "url": "https://www.nature.com/articles/d41586-026-03341-3"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "IceCube just won a Nobel prize. Protect astroparticle physics projects with the same potential",
+     "url": "https://www.nature.com/articles/d41586-026-03308-4"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Unprecedented atlas explores mitochondria across the tree of life",
+     "url": "https://www.nature.com/articles/d41586-026-03195-9"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Memory stays strong in old age when this brain enzyme is active",
+     "url": "https://www.nature.com/articles/d41586-026-03303-9"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "PhD students who write dissertation with AI less likely to stay in academia",
+     "url": "https://www.nature.com/articles/d41586-026-03253-2"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "History’s long-secret codes are being cracked by amateurs using AI",
+     "url": "https://www.nature.com/articles/d41586-026-03338-y"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "The pianist who never played",
+     "url": "https://www.nature.com/articles/d41586-026-03112-0"
+    },
+    {
+     "nazwa": "ScienceDaily",
+     "tytuł": "Yale scientists discover how stress changes the brain to make memories stronger",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261014015517.htm"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 9.283,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 2.62,
+     "eksponowanie": 3.6,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.399,
+     "treściwość": 0.414,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Briefing Chat: An invisible tattoo that appears under UV light – and then disappears",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Nowa metoda wysokiej częstotliwości zwiększa odczyt materiałów 2D dla komputerów kwantowych nowej generacji",
+   "lead": "Komputery kwantowe stanowią kolejny krok w szybkiej ewolucji technologii. Korzystając z bitów kwantowych (kubitów), mogą wykonywać pewne obliczenia wykładniczo szybciej niż konwencjonalne komputery.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-16T22:00:01+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-10-high-frequency-method-boosts-2d.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-high-frequency-met.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jednak tworzenie i dostrajanie komputerów kwantowych wymaga ogromnej liczby powtarzalnych testów.",
+      "Aby przyspieszyć rozwój technologii kwantowej, potrzebujemy metody, która może odczytywać stany kwantowe z ultrawysokimi prędkościami.",
+      "Zespół badawczy z Uniwersytetu Tohoku i Narodowego Instytutu Nauki o Materiałach (NIMS) opracował metodę, która umożliwia ultraczułą, szybką detekcję ładunku w dwuwymiarowych urządzeniach kwantowych opartych na materiałach niezbędnych do przyspieszenia tego rozwoju.",
+      "Przybliża nas o krok do realizacji komputerów kwantowych nowej generacji, które ostatecznie mogą zrewolucjonizować branże takie jak medycyna, logistyka i cyberbezpieczeństwo.",
+      "Badanie, opublikowane w czasopiśmie npj 2D Materials and Applications , rozwiązuje techniczne wąskie gardło w fizyce kwantowej: brak możliwości pomiaru wysokorozdzielczych urządzeń kwantowych opartych na materiałach 2D przy dużych prędkościach.",
+      "Zespół osiągnął to poprzez zintegrowanie kondensatora o zmiennej pojemności wykonanego z tytanianu strontu (SrTiO3) w obwodzie rezonansowym o wysokiej częstotliwości.",
+      "Ta konfiguracja osiągnęła niemal doskonałe dopasowanie impedancji z wysoce rezystancyjnymi urządzeniami kwantowymi opartymi na materiale 2D, umożliwiając naukowcom wychwycenie „oscylacji kulombowskich”- sygnałów elektronów wchodzących i wychodzących z kropki kwantowej jeden po drugim.",
+      "System pozostaje stabilny w prostopadłym polu magnetycznym, co jest warunkiem obowiązkowym dla pracy kubitów z zagłębieniem obrotowym.",
+      "„Stosując kondensatory zmienne na bazie tytanianu strontu do urządzeń kwantowych opartych na materiałach 2D, osiągnęliśmy prawie idealne dopasowanie impedancji, nawet pod prostopadłymi polami magnetycznymi” - mówi profesor nadzwyczajny Tomohiro Otsuka z Advanced Institute for Materials Research (WPI-AIMR) Uniwersytetu Tohoku."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Materiał to substancja lub mieszanina substancji, która stanowi przedmiot. Materiały mogą być czyste lub nieczyste, żywe lub nieożywione. Materiały można klasyfikować na podstawie ich właściwości fizycznych i chemicznych, pochodzenia geologicznego lub funkcji biologicznej. Materiałoznawstwo to nauka o materiałach, ich właściwościach i zastosowaniach."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Material",
+     "url": "https://en.wikipedia.org/wiki/Material"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10.1038",
+    "026",
+    "00730"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Material",
+    "opis": "Substance or mixture of substances that constitutes an object",
+    "tekst": "A material is a substance or mixture of substances that constitutes an object. Materials can be pure or impure, living or non-living matter. Materials can be classified on the basis of their physical and chemical properties, or on their geological origin or biological function. Materials science is the study of materials, their properties, and their applications.",
+    "url": "https://en.wikipedia.org/wiki/Material",
+    "język": "en"
+   },
+   "tagi": [
+    "Applications",
+    "Materials",
+    "Coulomb",
+    "Tohoku University's Advanced Institute"
+   ],
+   "emotki": [
+    "⚛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "New high-frequency method boosts 2D material readout for next-gen quantum computers",
+     "url": "https://phys.org/news/2026-10-high-frequency-method-boosts-2d.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.475,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.525,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "New high-frequency method boosts 2D material readout for next-gen quantum computers",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Autostrada zamiast toru wyścigowego: silne sprzężenie światła i dźwięku w światłowodzie",
+   "lead": "Po raz pierwszy naukowcy osiągnęli silne sprzężenie między światłowodem a długotrwałymi wibracjami akustycznymi. Światłowody są używane zarówno w klasycznej telekomunikacji, jak i komunikacji kwantowej i mogą służyć nie tylko jako połączenia między węzłami obliczeniowymi, ale także jako procesory kwantowe…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-16T21:20:01+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-10-highway-racetrack-strong-coupling-optical.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/highway-instead-of-a-r.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Wyniki, opublikowane w Nature Physics , torują drogę dla nowych technologii w przetwarzaniu sygnałów kwantowych.",
+      "Drgania mechaniczne i akustyczne mogą być wykorzystywane do konwersji sygnałów w różnych zakresach częstotliwości, od częstotliwości optycznych (teraherc) do mikrofal (gigaherc), a nawet niższych częstotliwości (megaherc lub kiloherc).",
+      "Na przykład zdolność ta jest niezbędna do połączenia wielu komputerów kwantowych pracujących na częstotliwościach gigahercowych za pomocą łączy optycznych.",
+      "Ponadto fale akustyczne rozchodzą się z prędkościami znacznie niższymi niż prędkość światła.",
+      "Zapewniają więc nośnik zdolny do przenoszenia wolno poruszających się informacji - co jest bardzo interesujące dla przechowywania danych i tymczasowego buforowania informacji.",
+      "Jednak aby wykorzystać jedną z tych możliwości przetwarzania informacji kwantowej za pomocą wibracji mechanicznych, potrzebny jest jeden warunek wstępny: reżim silnego sprzężenia.",
+      "System ten zapewnia wymianę informacji kwantowych, zanim zostaną utracone z powodu strat i dekoherencji.",
+      "Decoherencja opisuje stan, w którym fale nie oscylują już zgodnie.",
+      "W reżimie silnego sprzężenia informacje kwantowe mogą być przetwarzane szybciej niż prędkość, z jaką szum wchodzi do systemu - bez utraty właściwości kwantowych."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10.1038",
+    "026",
+    "03458"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Nature Physics",
+    "Brillouin",
+    "Science",
+    "Strong"
+   ],
+   "emotki": [
+    "⚛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "A highway instead of a racetrack: Strong coupling of light and sound in an optical fiber",
+     "url": "https://phys.org/news/2026-10-highway-racetrack-strong-coupling-optical.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.377,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.517,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "A highway instead of a racetrack: Strong coupling of light and sound in an optical fiber",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Feniks rodem z popiołów białego karła. Niob rozwiązuje zagadkę układu HS 0209+0832",
+   "lead": "Większość znanych planet pozasłonecznych to obiekty pierwszej generacji, uformowane wraz ze swoimi gwiazdami z pierwotnego obłoku gazu i pyłu. W najnowszej publikacji na łamach prestiżowego czasopisma Nature Astronomy międzynarodowy zespół astronomów pod kierunkiem badaczy z University of Warwick ogłosił teraz odkrycie…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-16T09:20:00+00:00",
+   "źródło": {
+    "nazwa": "Puls Kosmosu",
+    "url": "https://www.pulskosmosu.pl/2026/10/feniks-rodem-z-popiolow-bialego-karla-niob-rozwiazuje-zagadke-ukladu-hs-02090832/",
+    "domena": "pulskosmosu.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Mowa tutaj o obiekcie planetarnym, który krąży wokół białego karła HS 0209+0832 , oddalonego od Ziemi o zaledwie 270 lat świetlnych.",
+      "Ten pozornie zwyczajny obiekt w rzeczywistości rozwiązuje astronomiczną zagadkę nierozstrzygniętą od niemal trzech dekad.",
+      "Początki tej sprawy sięgają 1999 roku, gdy Kosmiczny Teleskop Hubble’a zarejestrował w widmie HS 0209+0832 około stu zagadkowych linii absorpcyjnych, których ówcześni badacze nie potrafili zidentyfikować.",
+      "Współczesna, ponowna analiza spektroskopowa ujawniła obecność miedzi, cynku oraz pierwiastka kluczowego dla rozwiązania problemu: niobu, którego stężenie okazało się ponad 1000 razy wyższe niż w naszym Słońcu.",
+      "Boris Gänsicke z University of Warwick, niob nigdy wcześniej nie był obserwowany w atmosferze żadnego białego karła.",
+      "Z kolei astrofizyk teoretyczny Nicholas Stone z University of Wisconsin-Madison wyjaśnia, że ten specyficzny zestaw pierwiastków to bezpośredni odcisk procesu powolnego wychwytu neutronów (tzw. procesu s), zachodzącego w fazie czerwonego olbrzyma.",
+      "Taka sygnatura chemiczna wyklucza planetę pierwszej generacji, dowodząc, że ciało to skondensowało się bezpośrednio z odrzuconych powłok gwiazdy .",
+      "Pomiary fotometryczne zrealizowane m.in. przez teleskop kosmiczny TESS (Transiting Exoplanet Survey Satellite) ujawniły falowe wahania jasności gwiazdy, wskazujące na obecność gazowego olbrzyma o rozmiarach zbliżonych do Jowisza.",
+      "Choć biały karzeł liczy sobie zaledwie 5 milionów lat, wciąż pozostaje rozżarzony do temperatury efektywnej około 35 000°C."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "Planeta obiega pozostałość po gwieździe co zaledwie 4,4 dnia po orbicie 25-krotnie ciaśniejszej niż orbita Ziemi wokół Słońca, co niemal na pewno wymusiło synchronizację obrotu z obiegiem (obrót synchroniczny), co oznacza, że część powierzchni jest stale oświetlona, a część wiecznie skąpana w ciemności.",
+   "liczby": [
+    "0209",
+    "0832",
+    "270 lat",
+    "1000",
+    "4,4 dni",
+    "25"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "University",
+    "Warwick",
+    "Słońca",
+    "Ziemi"
+   ],
+   "emotki": [
+    "🪐",
+    "🔬",
+    "🔭"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Puls Kosmosu",
+     "tytuł": "Feniks rodem z popiołów białego karła. Niob rozwiązuje zagadkę układu HS 0209+0832",
+     "url": "https://www.pulskosmosu.pl/2026/10/feniks-rodem-z-popiolow-bialego-karla-niob-rozwiazuje-zagadke-ukladu-hs-02090832/"
+    },
+    {
+     "nazwa": "Phys.org Astronomy",
+     "tytuł": "New 3D model reveals how shadows reshape chemistry in stellar nurseries",
+     "url": "https://phys.org/news/2026-10-3d-reveals-shadows-reshape-chemistry.html"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.528,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.335,
+     "eksponowanie": 1.71,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.533,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Niebo w tym tygodniu od 16 do 23 października: szczyty deszczu meteorytów Orionidów",
+   "lead": "Piątek, 16 październikaPluto nie porusza się w Koziorożcu O 7:00 tego wieczoru, Księżyc osiąga apogeum, najdalszy punkt od Ziemi na swojej lekko eliptycznej orbicie, O 18:56.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-16T05:00:00+00:00",
+   "źródło": {
+    "nazwa": "Astronomy Magazine",
+    "url": "https://www.astronomy.com/the-sky-this-week/the-sky-this-week-from-october-16-to-23-2026/",
+    "domena": "astronomy.com"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nasz satelita będzie wówczas oddalony o 251 434 mil (404 644 km).",
+      "Chociaż Pluton jest zbyt ciemny, aby można było do niego dotrzeć, zwłaszcza z lekturą \"Niebo w tym tygodniu od 16 do 23 października: Szczyty deszczu meteorytów Orionidów\". The post The Sky This Week od 16 do 23 października: Szczyty deszczu meteorytów Orionidów pojawiły się jako pierwsze w Astronomy Magazine ."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "15 października: Podwójny krater Messier Późnym wieczorem dla większości Stanów Zjednoczonych, mały księżyc Saturna Tetyda tranzytuje dysk pierścieniowej planety wraz z jej cieniem.",
+      "To najlepsze wydarzenie w całym miesiącu dla amerykańskich obserwatorów, zaczynające się wkrótce po północy EDT (czytaj dalej „The Sky Today on Friday, October 16: Tethys and its shadow transit”). Post The Sky Today w piątek, October 16: Tethys and its shadow transit pojawił się jako pierwszy w Astronomy Magazine .",
+      "Jego trójkątny dziobek znajduje się poniżej Księżyca, a jego czterogwiazdkowy uchwyt znajduje się w lewym górnym rogu Księżyca (w godzinach zmierzchu w Ameryce Północnej). ■ Przed i we wczesnym świcie Mars, Jowisz i Regulus nadal łączą się wysoko na południowym wschodzie, jak pokazano poniżej.",
+      "Mars i Jowisz miną się (o 1,2°) rankiem 16 listopada.",
+      "Wszystkie trzy najściślej skupią się około 25 listopada. ■ Teraz Księżyc świeci nieco w prawym górnym rogu uchwytu imbryka tuż po zmroku (dla Ameryki Północnej). ■ Algol, prototyp zaćmieniowej gwiazdy podwójnej, powinien mieć swoją minimalną jasność, wielkość 3,4 zamiast zwykłego 2,1, przez kilka godzin wyśrodkowaną na 21:52.",
+      "Tabela porównawcza. ■ Pierwsza kwadra Księżyca (dokładnie o 12:13.",
+      "Obie są białymi gwiazdami o pierwszej wielkości, które znajdują się dość blisko gwiazd: odpowiednio 17 i 25 lat świetlnych stąd. ■ Deneb, głowa Północnego Krzyża, całkowicie wyparł Vegę jako gwiazdę zenitalną o zmierzchu."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Deszcz meteorytów Orionidów, często skracany do Orionidów, jest jednym z dwóch deszczy meteorytów związanych z kometą Halleya. Orionidy są nazywane, ponieważ punkt, z którego wydają się pochodzić, leży w gwiazdozbiorze Oriona. Prysznic odbywa się corocznie, trwając około tygodnia pod koniec października. W niektórych latach meteoryty mogą występować w tempie 50–70 na godzinę."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Orionids",
+     "url": "https://en.wikipedia.org/wiki/Orionids"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "16",
+    "56",
+    "251,434",
+    "404,644 km",
+    "23",
+    "15"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Orionids",
+    "opis": "Meteor shower",
+    "tekst": "The Orionids meteor shower, often shortened to the Orionids, is one of two meteor showers associated with Halley's Comet. The Orionids are named because the point they appear to come from lies in the constellation of Orion. The shower occurs annually, lasting approximately one week in late October. In some years, meteors may occur at rates of 50–70 per hour.",
+    "url": "https://en.wikipedia.org/wiki/Orionids",
+    "język": "en"
+   },
+   "tagi": [
+    "October",
+    "Orionid",
+    "Week",
+    "Sky"
+   ],
+   "emotki": [
+    "☄️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Astronomy Magazine",
+     "tytuł": "The Sky This Week from October 16 to 23: The Orionid meteor shower peaks",
+     "url": "https://www.astronomy.com/the-sky-this-week/the-sky-this-week-from-october-16-to-23-2026/"
+    },
+    {
+     "nazwa": "Astronomy Magazine",
+     "tytuł": "The Sky Today on Friday, October 16: Tethys and its shadow transit",
+     "url": "https://www.astronomy.com/observing/the-sky-today-friday-october-16-2026/"
+    },
+    {
+     "nazwa": "Sky & Telescope News",
+     "tytuł": "This Week's Sky at a Glance, October 16 – 25",
+     "url": "https://skyandtelescope.org/astronomy-news/observing-news/this-weeks-sky-at-a-glance-october-16-25/"
+    },
+    {
+     "nazwa": "EarthSky",
+     "tytuł": "Visible planets and night sky guide for October",
+     "url": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 9.294,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.508,
+     "eksponowanie": 2.07,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.366,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "The Sky This Week from October 16 to 23: The Orionid meteor shower peaks",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Niejednoznaczne koszty zmian klimatycznych",
+   "lead": "W 2017 roku ulewne deszcze z huraganu Harvey zalały okolice Teksasu i spowodowały miliardy dolarów szkód. Następstwa są widoczne na tym zdjęciu satelitarnym obszaru w pobliżu Houston.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-16T13:28:13+00:00",
+   "źródło": {
+    "nazwa": "Eos (AGU)",
+    "url": "https://eos.org/research-spotlights/the-ambiguous-costs-of-climate-change",
+    "domena": "eos.org"
+   },
+   "obraz": "https://eos.org/wp-content/uploads/2026/10/harvey-satellite-image-1024x576.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Źródło: Sentinel Hub/Flickr , CC BY 2.0"
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Jednak zrozumienie zachowania chmur w regionach takich jak Płaskowyż Tybetański, który dostarcza wodę setkom milionów ludzi, ma kluczowe znaczenie - zwłaszcza że zmniejszająca się pokrywa śnieżna i zmienione wzorce opadów zagrażają temu krytycznemu źródłu wody.",
+      "Korzystając z obserwacji satelitarnych i danych klimatycznych z lat 2003-2022, przeanalizowali frakcję chmur, górną temperaturę chmur i wysokość chmur nad Płaskowyżem Tybetańskim, Alpami Europejskimi, Andami, Appalachami i Górami Skalistymi oraz ich sąsiednimi nizinami.",
+      "W odpowiedzi na globalne ocieplenie chmury mogą zmieniać swoją pionową strukturę i fazę, w tym fazy ciekłe, lodowe i przejściowe przechłodzone.",
+      "Popyt na metale gwałtownie wzrósł w ostatnich dziesięcioleciach dzięki wzrostowi liczby ludności, innowacjom technologicznym i rozwojowi gospodarczemu.",
+      "Zidentyfikowali sześć regionów, w których nakładające się zagrożenia stanowią najwyższe ryzyko: Ameryka Północna, Ameryka Południowa, Europa Północna, Morze Śródziemne, Azja Wschodnia i Australia. „Wyodrębniamy sześć gorących punktów, ale to stanowi dużą część świata” - powiedział Mongabayowi naczelny autor badania Adam Sproson, naukowiec z Narodowego Centrum Oceanografii w Wielkiej Brytanii. - Jest dość dużo linii brzegowej do pokonania. Badanie z 2023 roku wykazało, że około 23 miliony ludzi na całym świecie żyje wzdłuż rzek i terenów zalewowych o potencjalnie niebezpiecznych stężeniach zanieczyszczeń górnictwa metali.",
+      "Jest to problem dotyczący jakości żywności. Aby zbadać, w jaki sposób kopalnie mogą wpływać na obszary przybrzeżne, naukowcy zebrali pierwszą globalną bazę danych 4094 aktywnych kopalń, 28 563 nieaktywnych kopalń i 1427 składowisk odpadów poflotacyjnych, które mogą zanieczyścić środowiska morskie.",
+      "Odkryli, że prawie 293 000 kilometrów (182 000 mil) linii brzegowej jest zagrożone skażeniem przez wydobycie metali."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "2.0",
+    "10.1029",
+    "23 million",
+    "4,094",
+    "28,563",
+    "1,427"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Sentinel Hub/Flickr",
+    "Hurricane Harvey",
+    "Ambiguous Costs",
+    "Climate Change"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Eos (AGU)",
+     "tytuł": "The Ambiguous Costs of Climate Change",
+     "url": "https://eos.org/research-spotlights/the-ambiguous-costs-of-climate-change"
+    },
+    {
+     "nazwa": "Phys.org Earth",
+     "tytuł": "Supercooled clouds over the highest mountains respond differently to climate change",
+     "url": "https://phys.org/news/2026-10-supercooled-clouds-highest-mountains-differently.html"
+    },
+    {
+     "nazwa": "Mongabay",
+     "tytuł": "Climate change could send more toxic mining waste into coastal waters, study warns",
+     "url": "https://news.mongabay.com/2026/10/climate-change-could-send-more-toxic-mining-waste-into-coastal-waters-study-warns/"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.627,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.53,
+     "eksponowanie": 1.62,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.477,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "The Ambiguous Costs of Climate Change",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Zimowa utrata lodu morskiego może być niedoceniana, starożytne wskazówki z cieplejszej Arktyki sugerują",
+   "lead": "Przyszły zimowy lód morski w Arktyce prawdopodobnie skurczy się o około 1 milion kilometrów kwadratowych (386 000 mil kwadratowych) więcej niż wcześniej sądzono, po tym, jak naukowcy wykorzystali wskazówki z ciepłego okresu 6000 lat temu, aby poprawić niezawodność modeli klimatycznych. Wyniki, opisane w czasopiśmie Nature Geoscience , mogą mieć…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-16T09:00:04+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Earth",
+    "url": "https://phys.org/news/2026-10-winter-sea-ice-loss-underestimated.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/winter-sea-ice-loss-ma.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Powszechnie mówi się o odwrocie arktycznego lodu morskiego w miesiącach letnich.",
+      "Jednak utrata zimowego lodu morskiego cieszyła się znacznie mniejszą uwagą, pomimo faktu, że modele klimatyczne nie zgadzają się ze sobą najbardziej w miesiącach zimowych.",
+      "Zimowa pokrywa lodowa odgrywa ogromną rolę we wzorcach pogodowych poza Arktyką, ponieważ reguluje uwalnianie ciepła i wilgoci do atmosfery.",
+      "Jego utrata wiązała się z chłodniejszymi zimami i cięższymi opadami śniegu w Wielkiej Brytanii, pozostałej części Europy Północnej i Ameryce Północnej.",
+      "W marcu 2025 roku Arktyka zanotowała najniższy maksymalny zasięg lodu morskiego od rozpoczęcia współczesnych pomiarów.",
+      "Obecnie naukowcy z Uniwersytetu Cambridge i Centro de Investigación en Matematicas w Meksyku (CIMAT) skompilowali największą w historii bazę danych kluczowego biomarkera wytwarzanego przez glony żyjące w lodzie morskim, aby poprawić zimowe projekcje lodu morskiego.",
+      "Próbki pobrano z rdzeni osadów oceanicznych z okresu środkowego holocenu, kiedy subtelne przesunięcia orbity Ziemi przyczyniły się do ocieplenia warunków i zmniejszenia pokrywy lodowej w Arktyce, dając wskazówki, jak region może zareagować na przyszłe ocieplenie.",
+      "Mierząc poziomy biomarkera, zwanego IP₂ ⏰, wraz z komplementarnymi biomarkerami organizmów żyjących na otwartej wodzie, naukowcy byli w stanie oszacować zasięg pokrywy lodowej morza tysiące lat temu.",
+      "Te starożytne pomiary porównano następnie z symulacjami z 27 modeli klimatycznych z tego samego okresu."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Lód morski na Antarktydzie osiągnął swój szczyt zimowy we wrześniu 2026 r., ale pokrył mniej oceanów niż w prawie każdym innym roku od rozpoczęcia pomiarów satelitarnych.",
+      "Jego maksymalny zasięg był trzecim najniższym w historii, co potwierdza rosnące dowody na dramatyczną zmianę w zamarzniętych wodach Antarktydy.",
+      "Antarktyda jest otoczona rozległym oceanem, dzięki czemu jej lód morski ma dużo miejsca do rozprzestrzeniania się na zewnątrz podczas zimy na półkuli południowej.",
+      "Chociaż geografia Antarktydy pozwala na rozszerzanie się zimowego lodu morskiego na ogromne odległości, popycha go również na cieplejsze szerokości geograficzne, gdzie topnienie staje się bardziej prawdopodobne latem.",
+      "W rezultacie lód morski na Antarktydzie osiąga swój największy zasięg we wrześniu, a w lutym zmniejsza się do rocznego minimum."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Arktyka to polarny region Ziemi otaczający Biegun Północny, leżący na północ od koła podbiegunowego. Region arktyczny, od południka referencyjnego IERS biegnącego na wschód, składa się z części północnej Norwegii, najbardziej wysuniętej na północ Szwecji, północnej Finlandii, Rosji, Stanów Zjednoczonych (Alaska), Kanady, Królestwa Danii (Grenlandia) i północnej Islandii, wraz z Oceanem Arktycznym i przylegającymi morzami."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Arctic",
+     "url": "https://en.wikipedia.org/wiki/Arctic"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "1 million",
+    "386,000",
+    "6,000",
+    "27",
+    "85%",
+    "10.1038"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Arctic",
+    "opis": "Polar region of the Earth's northern hemisphere",
+    "tekst": "The Arctic is the polar region of Earth that surrounds the North Pole, lying north of the Arctic Circle. The Arctic region, from the IERS Reference Meridian travelling east, consists of parts of northern Norway, northernmost Sweden, northern Finland, Russia, the United States (Alaska), Canada, Danish Realm (Greenland), and northern Iceland, along with the Arctic Ocean and adjacent seas.",
+    "url": "https://en.wikipedia.org/wiki/Arctic",
+    "język": "en"
+   },
+   "tagi": [
+    "Arctic",
+    "Europe",
+    "Nature Geoscience",
+    "Greenland"
+   ],
+   "emotki": [
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Earth",
+     "tytuł": "Winter sea ice loss may be underestimated, ancient clues from a warmer Arctic suggest",
+     "url": "https://phys.org/news/2026-10-winter-sea-ice-loss-underestimated.html"
+    },
+    {
+     "nazwa": "ScienceDaily Earth",
+     "tytuł": "Antarctica’s sea ice has undergone a stunning reversal",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261015073210.htm"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.406,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.3,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.363,
+     "treściwość": 0.333,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Winter sea ice loss may be underestimated, ancient clues from a warmer Arctic suggest",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Owca syta i rolnik cały - Recenzja filmu Baranek Shaun i kudłata bestia (2 026)",
+   "lead": "Plan na Halloween jest banalnie prosty. Owieczki w sekrecie przed mało rozgarniętym rolnikiem hodują coraz dorodniej prezentujące się dynie, które mają uświetnić wieńczący październik bal",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-15T17:16:00+00:00",
+   "źródło": {
+    "nazwa": "Filmweb",
+    "url": "https://www.filmweb.pl/reviews/recenzja-filmu-Baranek+Shaun+i+kud%C5%82ata+bestia-27743",
+    "domena": "filmweb.pl"
+   },
+   "obraz": "https://fwcdn.pl/nph/1985708/2026/78048_1.16.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "\"Austin Abrams ma zły dzień\" to ostatnio mój ulubiony gatunek filmowy – stwierdziła koleżanka, gdy wychodziłyśmy z pokazu \" Upadku wieloryba \".",
+      "Trudno ocenić ekranizację gry, w której Eric André liże buty jednej z aktorek, ujęcia Calliny Liang przypominają niesławne zbliżenia na ciało Mirandy"
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10,000",
+    "90",
+    "16",
+    "50"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Baranek Shaun",
+    "Halloween",
+    "Recenzja",
+    "Plan"
+   ],
+   "emotki": [
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Filmweb",
+     "tytuł": "Owca syta i rolnik cały - Recenzja filmu Baranek Shaun i kudłata bestia (2 026)",
+     "url": "https://www.filmweb.pl/reviews/recenzja-filmu-Baranek+Shaun+i+kud%C5%82ata+bestia-27743"
+    },
+    {
+     "nazwa": "Filmweb",
+     "tytuł": "Austin Abrams ma zły dzień - Recenzja filmu Upadek wieloryba (2 026)",
+     "url": "https://www.filmweb.pl/reviews/recenzja-filmu-Upadek+wieloryba-27744"
+    },
+    {
+     "nazwa": "Filmweb",
+     "tytuł": "Najpierw walcz, potem gadaj - Recenzja filmu Street Fighter. Uliczny wojownik (2 026)",
+     "url": "https://www.filmweb.pl/reviews/recenzja-filmu-Street+Fighter.+Uliczny+wojownik-27742"
+    },
+    {
+     "nazwa": "BBC Kultura",
+     "tytuł": "Street Fighter movie is 'made by fans for fans' - but can it KO the critics?",
+     "url": "https://www.bbc.co.uk/news/articles/cj040z4ngnz1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Film",
+     "tytuł": "Street Fighter review – nostalgia only goes so far in junky fighting game movie",
+     "url": "https://www.theguardian.com/film/2026/oct/15/street-fighter-movie-review"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.598,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.867,
+     "eksponowanie": 0.18,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.401,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Fani czekali na to latami! U2 zapowiadają nowy krążek i trasę koncertową",
+   "lead": "Do sieci trafił właśnie najnowszy teledysk U2, stworzony na potrzeby piosenki \"The Greatest Show On Earth\". Singiel jest zapowiedzią albumu \"Carnaval de Luz\" - pierwszego wydawnictwa kultowej grupy od dziewięciu lat.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-15T18:31:36+00:00",
+   "źródło": {
+    "nazwa": "Interia Muzyka",
+    "url": "https://muzyka.interia.pl/rock/news-u2-szykuja-sie-do-premiery-krazka-carnaval-de-luz-podzielili,nId,23559075",
+    "domena": "muzyka.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NEZOKK79QWC27-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Premierę zapowiedziano na 13 listopada 2026 r., a fani zdecydowanie mają na co czekać.",
+      "Formacja, na czele z Bono, planuje także trasę koncertową po stadionach - pierwszą od 2019 r.!",
+      "W czwartkowe popołudnie do sieci trafił najnowszy klip U2 .",
+      "Legendarny zespół podzielił się z fanami obrazem do piosenki \"The Greatest Show On Earth\" .",
+      "Utwór opowiada historię zakochanych, walczących o wiarę w siebie nawzajem.",
+      "Z kolei wideo, nagrane na jednej z kalifornijskich pustyń, w satyryczny sposób przedstawia członków zespołu jako przedstawicieli religijnego zrzeszenia, w którym kobiety wykonują najcięższą pracę.",
+      "Reżyserem teledysku jest Anton Corbijn .",
+      "Singiel \"The Greatest Show On Earth\" jest zapowiedzią nadchodzącego albumu irlandzkiego zespołu.",
+      "Płyta nosić będzie tytuł \"Carnaval de Luz\" i w całości ma ukazać się już 13 listopada 2026 r."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "13",
+    "23",
+    "30",
+    "10"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Greatest Show",
+    "Earth",
+    "Carnaval",
+    "Luz"
+   ],
+   "emotki": [
+    "🎵",
+    "📖"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Muzyka",
+     "tytuł": "Fani czekali na to latami! U2 zapowiadają nowy krążek i trasę koncertową",
+     "url": "https://muzyka.interia.pl/rock/news-u2-szykuja-sie-do-premiery-krazka-carnaval-de-luz-podzielili,nId,23559075"
+    },
+    {
+     "nazwa": "The Guardian Music",
+     "tytuł": "‘The mainstream has come to them’: how did Fontaines DC go from Dublin dive bars to headlining stadiums?",
+     "url": "https://www.theguardian.com/music/2026/oct/16/the-mainstream-has-come-to-them-how-did-fontaines-dc-go-from-dublin-dive-bars-to-headlining-stadiums"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.32,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.185,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.375,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  }
+ ],
+ "braki": [],
+ "statystyki": {
+  "kanały_ok": 71,
+  "kanały_błędne": 1,
+  "znaki_tłumaczone": 18486,
+  "niedziałające_kanały": [
+   {
+    "url": "https://earthobservatory.nasa.gov/feeds/earth-observatory.rss",
+    "powód": "brak wpisów / nieznany format"
+   }
+  ],
+  "działy": 18,
+  "artykuły_w_oknie": 74
+ }
+}
