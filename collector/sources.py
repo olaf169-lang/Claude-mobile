@@ -204,7 +204,7 @@ SEGMENTS: tuple[Segment, ...] = (
         emoji="🗺️",
         blurb="Ziemia, klimat, oceany, wulkany, mapy i granice",
         feeds=(
-            _f("https://earthobservatory.nasa.gov/feeds/earth-observatory.rss", "NASA Earth Observatory", lang=EN, weight=1.25),
+            _f("https://phys.org/rss-feed/earth-news/earth-sciences/", "Phys.org Earth Sciences", lang=EN, weight=1.05),
             _f("https://eos.org/feed", "Eos (AGU)", lang=EN, weight=1.2),
             _f("https://news.mongabay.com/feed/", "Mongabay", lang=EN, weight=1.05),
             _f("https://phys.org/rss-feed/earth-news/", "Phys.org Earth", lang=EN, weight=1.15),
