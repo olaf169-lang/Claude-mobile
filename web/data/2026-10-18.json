@@ -1,0 +1,1764 @@
+{
+ "wersja": "1.0.0",
+ "wydanie": "2026-10-18",
+ "dotyczy_dnia": "2026-10-17",
+ "wygenerowano": "2026-10-18T10:15:33+00:00",
+ "strefa": "Europe/Warsaw",
+ "tryb": "ekstrakcyjny",
+ "demo": false,
+ "pozycje": [
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Policja opublikowała nagranie z kontrowersyjnej interwencji przy Marszałkowskiej",
+   "lead": "Marszałkowskiej w Warszawie policjanci zabezpieczający zgromadzenie przed Trybunałem Konstytucyjnym zatrzymali mężczyznę, który - jak podawała policja - zaatakował policjantkę. Stan kobiety wymagał przewiezienia jej do szpitala.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-17T13:56:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/regiony/warszawa/news-policja-opublikowala-nagranie-z-kontrowersyjnej-interwencji-,nIdn,1022317",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/92/68/kadr-z-filmu-pokazujacego-interwencje-636x421-9268ef60.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Komenda Stołeczna Policji przekazała, że w trakcie przeszukania zatrzymanego okazało się, że miał on przy sobie nóż.",
+      "Opublikowano też jego zdjęcie.",
+      "W mediach pojawiały się doniesienia, że funkcjonariuszka została zaatakowana nożem, co okazało się nieprawdą.",
+      "Zastrzeżenia do działań i sposobu komunikacji policji oraz mediów wyraził m.in. były minister kultury Piotr Gliński.",
+      "We wpisie w mediach społecznościowych przekazał, że zna zatrzymanego mężczyznę – pana Piotra – ponieważ był on członkiem straży obywatelskiej i obsługi technicznej od początku protestu pod Trybunałem Konstytucyjnym.",
+      "„Informacja dla kłamców z obecnej władzy i ich mediów: p.",
+      "Piotr miał przy sobie nożyk, turystyczny, niewielki, składany, w drewnianej oprawie.",
+      "Wiem, bo pożyczyliśmy kiedyś od niego to narzędzie zbrodni do pokrojenia... jabłka.",
+      "Zwykła rzecz w miasteczku namiotowym, na proteście, który trwa tygodniami i normalny sprzęt turystyczny jest w nim używany."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Oprac.: Karolina Głodowska , Michał Szpojankowski Policja udostępniła nagranie z interwencji przed Trybunałem Konstytucyjnym, a także z czynności przeprowadzonych z Piotrem W. w celi.",
+      "Marszałkowskiej w Warszawie policjanci zabezpieczający zgromadzenie przed Trybunałem Konstytucyjnym zatrzymali mężczyznę, który - jak podawała policja - zaatakował policjantkę .",
+      "W sobotę Komenda Stołeczna Policji opublikowała w serwisie X nagranie dokumentujące przebieg czynności z udziałem zatrzymanego mężczyzny.",
+      "- Rządzi jakaś ponura banda, ponury gang - ocenił Jarosław Kaczyński na sobotnim proteście przed siedzibą Trybunału Konstytucyjnego.",
+      "Zaznaczył, że obecna władza przedstawiała \"różnego rodzaju oszukańcze propozycje, o których oni świetnie wiedzą, że nie dało się ich przeprowadzić\". - My musimy zabezpieczyć Polskę raz na zawsze przed takimi zagrożeniami - dodał prezes PiS.",
+      "Do zdarzenia doszło w piątek (16 października) na ul.",
+      "Marszałkowskiej 7 w Warszawie, gdzie mieści się biuro Adama Borowskiego, jednego z inicjatorów protestów pod Trybunałem Konstytucyjnym."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Ulica Marszałkowska – jedna z głównych ulic Warszawy, ważna arteria komunikacyjna w kierunku północ-południe."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Ulica Marszałkowska w Warszawie",
+     "url": "https://pl.wikipedia.org/wiki/Ulica_Marsza%C5%82kowska_w_Warszawie"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "16",
+    "17"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Fakty",
+     "ujęcie": "Funkcjonariusze dementują doniesienia o blokowaniu zatrzymanemu dostępu do adwokatów.",
+     "url": "https://wydarzenia.interia.pl/kraj/news-interwencja-w-poblizu-trybunalu-konstytucyjnego-policja-publ,nId,23559759"
+    },
+    {
+     "źródło": "Gazeta.pl",
+     "ujęcie": "Prokuratura zarzuciła Piotrowi W. między innymi naruszenie nietykalności cielesnej policjantki, które zagrażało jej życiu lub zdrowiu - przekazał adwokat mężczyzny mec.",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198073,33084198,interwencja-policji-w-poblizu-trybunalu-konstytucyjnego-piotr.html"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Ulica Marszałkowska w Warszawie",
+    "opis": "ulica w Warszawie",
+    "tekst": "Ulica Marszałkowska – jedna z głównych ulic Warszawy, ważna arteria komunikacyjna w kierunku północ-południe.",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Marsza%C5%82kowska_w_Warszawie",
+    "język": "pl"
+   },
+   "tagi": [
+    "Trybunałem Konstytucyjnym",
+    "Jerzego Kwaśniewskiego",
+    "Magdalena Leszczyńska",
+    "Bartosza Malewskiego"
+   ],
+   "emotki": [
+    "🪐"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Policja opublikowała nagranie z kontrowersyjnej interwencji przy Marszałkowskiej",
+     "url": "https://www.rmf24.pl/regiony/warszawa/news-policja-opublikowala-nagranie-z-kontrowersyjnej-interwencji-,nIdn,1022317"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Interwencja w pobliżu Trybunału Konstytucyjnego. Policja publikuje nagrania",
+     "url": "https://wydarzenia.interia.pl/kraj/news-interwencja-w-poblizu-trybunalu-konstytucyjnego-policja-publ,nId,23559759"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "\"Rządzi jakaś ponura banda\". Protest przed Trybunałem Konstytucyjnym",
+     "url": "https://wydarzenia.interia.pl/kraj/news-rzadzi-jakas-ponura-banda-protest-przed-trybunalem-konstytuc,nId,23559753"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Interwencja przy ul. Marszałkowskiej. Policja ujawniła nagranie",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198072,33084041,interwencja-policji-przy-ul-marszalkowskiej-policja.html"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Interwencja policji w pobliżu Trybunału Konstytucyjnego. Piotr W. z zarzutami",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198073,33084198,interwencja-policji-w-poblizu-trybunalu-konstytucyjnego-piotr.html"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.438,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.75,
+     "eksponowanie": 0.36,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.501,
+     "treściwość": 0.477,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Nadali sygnał „Ratunek”. Służby na miejscu tragicznego pożaru w Nisku",
+   "lead": "Strażacy całą noc dogaszali pogorzelisko na miejscu piątkowego pożaru magazynu oraz sklepu z częściami do ciągników rolniczych w Nisku. Występowały bowiem punktowe zarzewia ognia, m.in. w strukturze i konstrukcji dachu.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-17T06:32:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/regiony/rzeszow/news-nadali-sygnal-ratunek-sluzby-na-miejscu-tragicznego-pozaru-w,nIdn,1022283",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/2b/b2/pozar-magazynu-z-czesciami-do-ciagnikow-rolniczych-w-nisku-636x421-2bb2cda1.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Podjęto również częściową rozbiórkę poszycia dachowego , żeby można było bezpośrednio lać wodę na to źródło ognia.",
+      "Działania prowadzono również z wykorzystaniem podnośnika – mówi zastępca komendanta powiatowego PSP w Nisku i oficer prasowy Ireneusz Szewczyk.",
+      "Jak podkreślił, pożar jest ugaszony, ale działania nie zostały całkowicie zakończone .",
+      "Obecnie strażacy prowadzą bowiem czynności nadzorowe, zabezpieczają miejsce zdarzenia.",
+      "Trwają też czynności rozbiórkowe – dodał Szewczyk.",
+      "W tych działaniach bierze udział kilkunastu strażaków z PSP i Ochotniczej Straży Pożarnej.",
+      "W sumie w akcji wzięło udział ponad 150 strażaków.",
+      "Straż pożarna została zaalarmowana o godz.",
+      "8:24 i po siedmiu minutach zastępy straży były na miejscu."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "W związku z piątkową tragedią wojewoda podkarpacka zarządziła opuszczenie flag do połowy masztu na budynkach samorządowych.",
+      "Jeden z nich miał zaledwie 27 lat.",
+      "\"W tym zawodzie wspólnie spędzane dyżury i wyjazdy do najtrudniejszych akcji hartują więzi silniejsze niż w jakiejkolwiek innej pracy."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "150",
+    "24",
+    "27 lat",
+    "16",
+    "18",
+    "19"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "RMF24",
+     "ujęcie": "Jest śledztwo po tragicznym pożarze w Nisku",
+     "url": "https://www.rmf24.pl/regiony/rzeszow/news-zginelo-dwoch-strazakow-jest-sledztwo-po-tragicznym-pozarze-,nIdn,1022327"
+    },
+    {
+     "źródło": "Interia Fakty",
+     "ujęcie": "Jeden ze strażaków, który zginął podczas akcji gaśniczej w Nisku, oczekiwał narodzin pierwszego dziecka.",
+     "url": "https://wydarzenia.interia.pl/podkarpackie/news-tragiczna-smierc-strazakow-w-nisku-jeden-z-nich-mial-wkrotce,nId,23559674"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Nisku",
+    "Komendy Powiatowej Państwowej Straży Pożarnej",
+    "Ochotniczej Straży Pożarnej",
+    "Państwowej Straży Pożarnej"
+   ],
+   "emotki": [
+    "🚑"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Nadali sygnał „Ratunek”. Służby na miejscu tragicznego pożaru w Nisku",
+     "url": "https://www.rmf24.pl/regiony/rzeszow/news-nadali-sygnal-ratunek-sluzby-na-miejscu-tragicznego-pozaru-w,nIdn,1022283"
+    },
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Zginęło dwóch strażaków. Jest śledztwo po tragicznym pożarze w Nisku",
+     "url": "https://www.rmf24.pl/regiony/rzeszow/news-zginelo-dwoch-strazakow-jest-sledztwo-po-tragicznym-pozarze-,nIdn,1022327"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Tragiczna śmierć strażaków w Nisku. Jeden z nich miał wkrótce zostać ojcem",
+     "url": "https://wydarzenia.interia.pl/podkarpackie/news-tragiczna-smierc-strazakow-w-nisku-jeden-z-nich-mial-wkrotce,nId,23559674"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.769,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.472,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.442,
+     "treściwość": 0.405,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Problemy z siecią Starlink w Ukrainie. Trump: To nie ja wydałem polecenie",
+   "lead": "Trump kilkakrotnie przecząco odpowiadał na pytania o to, czy wydał polecenie ograniczenia działania sieci Starlink i Starshield w Ukrainie. Prezydent USA powiedział, że nie wie, kto wydał polecenie, sugerując, że nic takiego nie miało miejsca.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-16T18:52:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-problemy-z-siecia-starlink-w-ukrainie-trump-to-nie-ja-wydale,nIdn,1022268",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/fb/ab/nurphoto-via-afp-636x421-fbab3a16.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nie wiem, czy to zrobił ktokolwiek, bo to nie byłem ja i nie sądzę, żeby to był Elon – powiedział.",
+      "Tymczasem w czwartek agencja Reutera donosiła, że decyzję podjęto w Białym Domu.",
+      "Trump stwierdził, że system działa obecnie normalnie.",
+      "Podobnie wyraził się prezydent Ukrainy Wołodymyr Zełenski, który powiedział w piątek, że sieć Starlink (i jej wojskowy odpowiednik, Starshield) wraca do normalnego funkcjonowania .",
+      "Powtórzył jednak, że wcześniejsze ograniczenie jej dla obiektów poruszających się z szybkością mniejszą niż 160 km/h uderzyła w zdolności Ukrainy do przechwytywania rosyjskich dronów, a także do uderzania w rosyjskich siły na terenie Ukrainy.",
+      "Donald Trump został również zapytany o to, dlaczego wzywa Wołodymyra Zełenskiego do ustąpienia , kiedy to Władimir Putin rozpoczął wojnę.",
+      "Wiesz, ja znam szczegóły?",
+      "I w pewnym momencie je ujawnię.",
+      "Ale nic mnie nie obchodzi, poza jednym: chcę, żeby ta wojna się skończyła – odparł."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "160 km/h",
+    "12",
+    "80 billion",
+    "70 billion",
+    "100 billion",
+    "90 billion"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Starlink",
+    "Starshield",
+    "Ukrainie",
+    "Ukrainy"
+   ],
+   "emotki": [
+    "🏛️",
+    "⚔️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Problemy z siecią Starlink w Ukrainie. Trump: To nie ja wydałem polecenie",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-problemy-z-siecia-starlink-w-ukrainie-trump-to-nie-ja-wydale,nIdn,1022268"
+    },
+    {
+     "nazwa": "BBC Europe",
+     "tytuł": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
+     "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Europe",
+     "tytuł": "Trump denies limiting Ukraine access to Starlink network",
+     "url": "https://www.bbc.co.uk/news/articles/ckz65g34wyd8o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "Politico Europe",
+     "tytuł": "Starlink restrictions in Ukraine a ‘planned operation’, Zelenskyy says",
+     "url": "https://www.politico.eu/article/volodymyr-zelenskyy-says-vladimir-putin-looking-cause-ukraine-wide-blackout/"
+    },
+    {
+     "nazwa": "Politico Europe",
+     "tytuł": "EU faces growing pressure to plug Ukraine’s Starlink gap",
+     "url": "https://www.politico.eu/article/eu-ukraine-starlink-dependence-european-satellite-alternatives/"
+    },
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump",
+     "url": "https://www.dw.com/en/ukrainian-president-zelenskyy-speaks-at-eu-summit-amid-spat-with-donald-trump/a-79684340?maca=en-rss-en-world-4025-rdf"
+    }
+   ],
+   "liczba_źródeł": 4,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 10.691,
+    "składowe": {
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 1.967,
+     "eksponowanie": 1.17,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.405,
+     "treściwość": 0.249,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Donald Trump a sankcje na Rosję. Prezydent USA tłumaczy swoją decyzję",
+   "lead": "Prezydent USA Donald Trump powiedział, że jego decyzja w sprawie odstąpienia od nałożenia nowych sankcji na Rosję jest dobra dla kraju i świata. Zasugerował jednak, że sprawa nie jest jeszcze rozstrzygnięta.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-18T03:21:30+00:00",
+   "źródło": {
+    "nazwa": "Onet Świat",
+    "url": "https://wiadomosci.onet.pl/swiat/donald-trump-a-sankcje-na-rosje-prezydent-usa-tlumaczy-swoja-decyzje/nxbtp6w",
+    "domena": "wiadomosci.onet.pl"
+   },
+   "obraz": "https://cdn.wiadomosci.onet.pl/1/s6nk9lGaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy8wYjJjMGY1MS0xZDcwLTQ5ODYtOWQ3NS1mODk2MWExYWM5ZGEuanBlZ5KVAwLM6M0Uos0LnpMFzQlgzQZA3gACoTAHoTEE",
+   "sekcje": [],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "25",
+    "41.8%",
+    "3,335",
+    "1,236",
+    "71.2%",
+    "33.9%"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Rosję",
+    "Prezydent USA Donald Trump",
+    "Trump",
+    "USA"
+   ],
+   "emotki": [
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Onet Świat",
+     "tytuł": "Donald Trump a sankcje na Rosję. Prezydent USA tłumaczy swoją decyzję",
+     "url": "https://wiadomosci.onet.pl/swiat/donald-trump-a-sankcje-na-rosje-prezydent-usa-tlumaczy-swoja-decyzje/nxbtp6w"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Brazilian Amazon deforestation falls to lowest on record as pivotal vote looms",
+     "url": "https://www.theguardian.com/environment/2026/oct/16/brazil-amazon-deforestation-lowest-on-record-election"
+    },
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "Ilhan Omar: The US Democrat targeted by Donald Trump",
+     "url": "https://www.dw.com/en/ilhan-omar-the-us-democrat-targeted-by-donald-trump/a-79688445?maca=en-rss-en-world-4025-rdf"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.849,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.507,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.592,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Gorąco po tym zachowaniu Yamala. Trener wybuchł po meczu. \"Żałosne\"",
+   "lead": "FC Barcelona kontynuuje perfekcyjny początek sezonu 2026/2027. \"Duma Katalonii\" w sobotni wieczór rozegrała jedenasty mecz w tym sezonie i jedenasty raz schodziła z boiska jako zwycięzca.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-17T20:47:03+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-goraco-po-tym-zachowaniu-yamala-trener-wybuchl-po-meczu-zalo,nId,23559964",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NF6MHNILGJB04-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Tym razem w pokonanym polu \"Blaugrana\" pozostawiła Real Betis w wyjazdowym meczu.",
+      "Włosi kompletnie zaskoczeni.",
+      "Zastosowano specjalny manewr , otwiera się w nowym oknie Spotkanie zakończyło się wynikiem 5:2 dla gości, ale nie sposób napisać, że arbiter nie wpłynął na końcowy rezultat.",
+      "Sędzia Ricardo De Burgos Bengoextea ma za sobą bardzo wymagające ponad 100 boiskowych minut.",
+      "Nie zabrakło kontrowersyjnych decyzji, interwencji VAR, a nawet czerwonej kartki.",
+      "Spójrzmy na wszystko w kolejności chronologicznej.",
+      "W 43. minucie arbiter anulował trafienie Lo Celso z powodu zagrania ręką we wczesnej fazie budowania akcji.",
+      "W 51. minucie uznał trafienie Gabriela Jesusa, gdy wcześniej potencjalnie zbyt wysoko nogę podniósł Fermin Lopez.",
+      "Trzy minuty później wyrzucił Bernala po spięciu z Lamine Yamalem."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Sobotnie święto polskiego tenisa, jakim był niewątpliwie półfinał Maja Chwalińska - Iga Świątek (7:5, 6:1) w Wuhan popsuły problemy zdrowotne Raszynianki, dodając przy tym sporo dramaturgii do całego spotkania."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "100",
+    "43",
+    "51",
+    "41",
+    "5, 6"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Sport",
+     "ujęcie": "W sztabie Igi Świątek zrobiło się gorąco.",
+     "url": "https://sport.interia.pl/iga-swiatek/news-goraco-w-obozie-swiatek-telefon-poszedl-w-ruch-trzykrotnie-t,nId,23559968"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Betisu",
+    "Barcelona",
+    "Yamala",
+    "Ricardo De Burgos Bengoextea"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Gorąco po tym zachowaniu Yamala. Trener wybuchł po meczu. \"Żałosne\"",
+     "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-goraco-po-tym-zachowaniu-yamala-trener-wybuchl-po-meczu-zalo,nId,23559964"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Telefon poszedł w ruch. Trener Świątek ujawnia. Gorąco po boju z Chwalińską",
+     "url": "https://sport.interia.pl/iga-swiatek/news-goraco-w-obozie-swiatek-telefon-poszedl-w-ruch-trzykrotnie-t,nId,23559968"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.12,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.208,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.512,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Zwrot akcji ze Świątek. Chwalińska podała powód. Od razu mówi, co dalej",
+   "lead": "Problemy zdrowotne, z jakimi Iga Świątek zakończyła pierwszego seta półfinału w Wuhanie, wcale nie umniejszają tego, czego dokonała Maja Chwalińska . Obie tenisistki spisywały się w pierwszej odsłonie rywalizacji iście koncertowo, a nasza finalistka Rolanda Garrosa pokazała ogromny charakter.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-18T02:10:24+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/iga-swiatek/news-zwrot-akcji-w-meczu-ze-swiatek-chwalinska-wskazala-powod-i-o,nId,23559981",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NF6XS4P950M2E-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Było go widać zwłaszcza wówczas, gdy przy stanie 5:3 na korzyść Raszynianki broniła piłek setowych.",
+      "A robiła to ze stoickim spokojem, w swoim stylu i do bólu skutecznie.",
+      "Menedżer Mai Chwalińskiej zaskakuje przed finałem w Wuhanie Sama zawodniczka skomentowała potem swój wyczyn w rozmowie opublikowanej na kanale \"TennisLegends\". - Co zrobiło różnicę i sprawiło, że doprowadziłaś do zwrotu akcji w pierwszym secie? - zapytała prowadząca. - Pierwszy set był trudny i bardzo fizyczny .",
+      "Wywalczyłam szybkie przełamanie na 3:2, a potem miałam piłki na 4:2.",
+      "Były momenty, z których nie wyciągnęłam tego, co mogłam, a zrobiła to Iga .",
+      "Mogła zamknąć seta - odpowiedziała.",
+      "Po czym wprost przekazała, czemu zawdzięcza swój końcowy triumf. - Ja po prostu starałam się walczyć o każdą pojedynczą piłkę.",
+      "To właśnie było moją intencją - przekazała Maja Chwalińska, której upór okazał się niezwykle efektowny i efektywny.",
+      "Finałową rywalką naszej reprezentantki będzie Brytyjka Sonay Kartal , która w pierwszym półfinale pokonała po dwóch tie-breakach Łotyszkę Jelenę Ostapenko 7:6(9), 7:6(5)."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Maja Ewa Chwalińska – polska tenisistka, reprezentantka kraju w rozgrywkach Pucharu Federacji. Finalistka French Open 2026."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Maja Chwalińska",
+     "url": "https://pl.wikipedia.org/wiki/Maja_Chwali%C5%84ska"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "1000",
+    "12",
+    "30"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Maja Chwalińska",
+    "opis": "polska tenisistka",
+    "tekst": "Maja Ewa Chwalińska – polska tenisistka, reprezentantka kraju w rozgrywkach Pucharu Federacji. Finalistka French Open 2026.",
+    "url": "https://pl.wikipedia.org/wiki/Maja_Chwali%C5%84ska",
+    "język": "pl"
+   },
+   "tagi": [
+    "Chwalińska",
+    "Łotyszkę Jelenę Ostapenko",
+    "Chwalińska Sonay Kartal",
+    "Brytyjka Sonay Kartal"
+   ],
+   "emotki": [
+    "🎾",
+    "🎵"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Zwrot akcji ze Świątek. Chwalińska podała powód. Od razu mówi, co dalej",
+     "url": "https://sport.interia.pl/iga-swiatek/news-zwrot-akcji-w-meczu-ze-swiatek-chwalinska-wskazala-powod-i-o,nId,23559981"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.027,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.577,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Maja Chwalińska - Sonay Kartal w finale turnieju WTA 1000 w Wuhan. Relacja na żywo",
+   "lead": "Maja Chwalińska gra w Wuhan o pierwszy w karierze tytuł w turnieju rangi WTA 1000. W sobotnim półfinale nasza tegoroczna finalistka Rolanda Garrosa pokonała w dwóch setach (7:5, 6:1) swoją wielką rodaczkę - Igę Świątek.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-17T21:21:37+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/tenis/na-zywo-maja-chwalinska-sonay-kartal-w-finale-turnieju-wta-1000-w-wu,nzId,9321",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NF63BP4H42226-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Do upragnionego trofeum pozostał jej już tylko jeden krok.",
+      "Finałową rywalką 25-latki jest 170. w rankingu WTA reprezentantka Wielkiej Brytanii Sonay Kartal, która w sobotę pokonała 7:6(9), 7:6(5) Jelenę Ostapenko.",
+      "Kto będzie górą w tym pojedynku?",
+      "Tu pozycja w światowym zestawieniu nie będzie miała żadnego znaczenia.",
+      "Ale rozpędzona i pięknie grająca w Wuhan Maja Chwalińska na pewno zrobi wszystko, by wykonać kolejny wielki krok w swojej karierze, dla której rok 2026 jest…"
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Bez dwóch zdań sobotnie starcie pomiędzy Mają Chwalińską a Igą Świątek w półfinale WTA 1000 w Wuhan było niezwykle interesujące.",
+      "Po kapitalnej walce w pierwszym secie lepsza 7:5 okazała się Chwalińska, a niestety uraz drugiej z naszych reprezentantek sprawił, że druga partia aż tak wyrównana nie była.",
+      "Finalnie 6:1 wygrała turniejowa \"16\", dzięki czemu zameldowała się w wielkim finale.",
+      "Zdecydowanie nie tak półfinał rywalizacji w półfinale turnieju WTA 1000 w Wuhan przeciwko Mai Chwalińskiej wyobrażała sobie Iga Świątek.",
+      "25-latka pod koniec pierwszego seta musiała brać przerwę medyczną, a w drugim ze względu na problemy z udem nie przypominała siebie, przez co uległa 5:7, 1:6.",
+      "Niedługo po meczu na konferencji prasowej oceniła grę drugiej z naszych reprezentantek oraz poinformowała, że zagra w turnieju WTA 500 w Ningbo.",
+      "Porażka w półfinale turnieju WTA 1000 w Wuhan (5:7, 1:6) jest dla Igi Świątek bolesna, zwłaszcza wobec toczącej się walki o awans do wieńczącego sezon turnieju WTA Finals."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Maja Ewa Chwalińska – polska tenisistka, reprezentantka kraju w rozgrywkach Pucharu Federacji. Finalistka French Open 2026."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Maja Chwalińska",
+     "url": "https://pl.wikipedia.org/wiki/Maja_Chwali%C5%84ska"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "1000",
+    "5, 6",
+    "25",
+    "170",
+    "16",
+    "7, 1"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Sport",
+     "ujęcie": "Raszynianka opuszcza jednak tamtejsze korty zadowolona z tego, co była w stanie na nich zaprezentować.",
+     "url": "https://sport.interia.pl/iga-swiatek/news-swiatek-oglasza-przed-finalem-chwalinskiej-zero-watpliwosci,nId,23559975"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Maja Chwalińska",
+    "opis": "polska tenisistka",
+    "tekst": "Maja Ewa Chwalińska – polska tenisistka, reprezentantka kraju w rozgrywkach Pucharu Federacji. Finalistka French Open 2026.",
+    "url": "https://pl.wikipedia.org/wiki/Maja_Chwali%C5%84ska",
+    "język": "pl"
+   },
+   "tagi": [
+    "Wuhan",
+    "Chwalińska",
+    "Wielkiej Brytanii Sonay Kartal",
+    "Chwalińska Sonay Kartal"
+   ],
+   "emotki": [
+    "🎾"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Maja Chwalińska - Sonay Kartal w finale turnieju WTA 1000 w Wuhan. Relacja na żywo",
+     "url": "https://sport.interia.pl/tenis/na-zywo-maja-chwalinska-sonay-kartal-w-finale-turnieju-wta-1000-w-wu,nzId,9321"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Chwalińska ograła Świątek. Celt wydał werdykt. \"Doprowadza do łez\"",
+     "url": "https://sport.interia.pl/tenis/news-celt-przemowil-po-polskim-starciu-werdykt-juz-wydany-pojawil,nId,23559788"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Świątek już zdradziła, oto plany na najbliższe dni. Wiadomo, co z Ningbo",
+     "url": "https://sport.interia.pl/iga-swiatek/news-swiatek-oglosila-ws-wystepu-w-ningbo-i-mowi-stanowczo-o-wta,nId,23559817"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Świątek zabrała głos przed finałem. Publiczna deklaracja ws. Chwalińskiej",
+     "url": "https://sport.interia.pl/iga-swiatek/news-swiatek-oglasza-przed-finalem-chwalinskiej-zero-watpliwosci,nId,23559975"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Nie grała pół roku. Ogromny spadek w rankingu. Oto finałowa rywalka Mai",
+     "url": "https://sport.interia.pl/tenis/news-przez-kontuzje-wypadla-z-czolowki-rankingu-teraz-zmierzy-sie,nId,23559812"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Organizatorzy Roland Garros zareagowali na finał Chwalińskiej. Wpis w sieci",
+     "url": "https://sport.interia.pl/tenis/news-chwalinska-nie-przestaje-zachwycac-reaguja-nawet-francuzi-je,nId,23559960"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Chwalińska górą nad Świątek. Tuż po meczu takie słowa. Oto jak ją nazwała",
+     "url": "https://sport.interia.pl/iga-swiatek/news-chwalinska-przemowila-tuz-po-wygranej-oto-jak-nazwala-swiate,nId,23559747"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Świat mówi jednym głosem o Chwalińskiej. \"Wschodząca gwiazda\"",
+     "url": "https://sport.interia.pl/tenis/news-glosno-o-pojedynku-chwalinskiej-i-swiatek-padly-slowa-o-wsch,nId,23559763"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "To Świątek powiedziała Chwalińskiej pod siatką. Maja się wygadała",
+     "url": "https://sport.interia.pl/iga-swiatek/news-to-swiatek-powiedziala-chwalinskiej-po-porazce-maja-wszystko,nId,23559820"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Świątek podeszła do siatki. Tak potraktowała Chwalińską po przegranej",
+     "url": "https://sport.interia.pl/iga-swiatek/news-swiatek-podeszla-do-siatki-tak-potraktowala-chwalinska-po-pr,nId,23559782"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Czesi świętują porażkę Świątek. Piszą o \"polskich derbach\" w Wuhan",
+     "url": "https://sport.interia.pl/iga-swiatek/news-czesi-swietuja-porazke-swiatek-pisza-o-polskich-derbach-w-wu,nId,23559806"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Znana godzina finału Chwalińskiej. Doskonałe wieści dla polskich fanów",
+     "url": "https://sport.interia.pl/tenis/news-o-ktorej-mecz-maja-chwalinska-sonay-kartal-gdzie-ogladac-tra,nId,23559786"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Kartal reaches Wuhan final as dream week continues",
+     "url": "https://www.bbc.co.uk/sport/tennis/articles/c9dr83p610vno?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "Kartal hails mentality after 'dream come true' run to Wuhan Open final",
+     "url": "https://www.skysports.com/tennis/news/12040/13600293/sonay-kartal-on-dream-come-true-wuhan-open-run-as-she-reaches-first-wta-1000-final"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 9.626,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 3.25,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.526,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Gorący mecz Barcelony. Fala kontrowersji, czerwona kartka i aż siedem goli",
+   "lead": "Mogło się wydawać, że początek sezonu 2026/2027 musi być dla FC Barcelona bardzo trudny. W końcu minionego lata \"Blaugrana\" straciła dwóch swoich podstawowych napastników i nie sprowadziła w to miejsce żadnego jakościowego następcy , przynajmniej na papierze.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-17T18:30:49+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-goracy-mecz-barcelony-fala-kontrowersji-var-w-akcji-czerwona,nId,23559797",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NF6IC115OXMF8-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Dramat w meczu Premier League.",
+      "Mistrz świata opuścił boisko na noszach , otwiera się w nowym oknie Hansi Flick postawił jednak na człowieka od zadań specjalnych.",
+      "Rolę \"dziewiątki\" powierzył Raphinhi , a Brazylijczyk spisuje się absolutnie wybitnie.",
+      "W dużej mierze to właśnie dzięki niemu \"Duma Katalonii\" ma perfekcyjny ligowy bilans.",
+      "Na osiem ligowych spotkań Barcelona zawsze w tym sezonie wygrywała.",
+      "W związku z tym w dziewiątej kolejce zespół dowodzony przez Flicka na mecz wyjazdowy z Realem Betis poleciał nie tylko po zwycięstwo, ale także wyrównanie historycznego rekordu Realu Madryt.",
+      "\"Królewscy\" sezon 1968/69 rozpoczęli od dziewięciu kolejnych ligowych wygranych.",
+      "Teoretycznie Manuel Pellegrini ułatwił gościom zadanie, bo skład na ten mecz był daleki od \"once de gala\".",
+      "Do kadry Barcelony wrócili z kolei właśnie Raphinha oraz Frenkie de Jong."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Barcelona – miasto w północno-wschodniej Hiszpanii, nad Morzem Śródziemnym, około 110 km na południe od grzbietu Pirenejów i granicy hiszpańsko-francuskiej. Stolica prowincji o tej samej nazwie oraz wspólnoty autonomicznej Katalonii. Drugie co do wielkości miasto Hiszpanii, z liczbą mieszkańców wynoszącą 1 620 809 wewnątrz centrum administracyjnego. Zespół miejski Barcelony wykracza poza centrum administracyjne, z liczbą ludności wynoszącą 4 588 000, jest piątym co do wielkości zespołem miejskim w Unii Europejskiej. Cała metropolia ma około 5 milionów mieszkańców."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Barcelona",
+     "url": "https://pl.wikipedia.org/wiki/Barcelona"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "69",
+    "10",
+    "27",
+    "34",
+    "41",
+    "30"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Barcelona",
+    "opis": "miasto w Hiszpanii",
+    "tekst": "Barcelona – miasto w północno-wschodniej Hiszpanii, nad Morzem Śródziemnym, około 110 km na południe od grzbietu Pirenejów i granicy hiszpańsko-francuskiej. Stolica prowincji o tej samej nazwie oraz wspólnoty autonomicznej Katalonii. Drugie co do wielkości miasto Hiszpanii, z liczbą mieszkańców wynoszącą 1 620 809 wewnątrz centrum administracyjnego. Zespół miejski Barcelony wykracza poza centrum administracyjne, z liczbą ludności wynoszącą 4 588 000, jest piątym co do wielkości zespołem miejskim w Unii Europejskiej. Cała metropolia ma około 5 milionów mieszkańców.",
+    "url": "https://pl.wikipedia.org/wiki/Barcelona",
+    "język": "pl"
+   },
+   "tagi": [
+    "Barcelona",
+    "Barcelony",
+    "Adeyemi",
+    "Betisu"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Gorący mecz Barcelony. Fala kontrowersji, czerwona kartka i aż siedem goli",
+     "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-goracy-mecz-barcelony-fala-kontrowersji-var-w-akcji-czerwona,nId,23559797"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "How 'dangerous' Man City maintained 100 per cent record",
+     "url": "https://www.bbc.co.uk/sport/football/videos/cx7vpl5qd008o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "European football: Barcelona thrash Real Betis to maintain 100% record",
+     "url": "https://www.theguardian.com/football/2026/oct/17/european-football-bayern-munich-barcelona-psg-inter"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Lamine Yamal opens scoring as Barcelona beat Real Betis",
+     "url": "https://www.bbc.co.uk/sport/football/videos/cmewe0wq0wj1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Football Daily",
+     "url": "https://www.bbc.co.uk/sounds/play/p0ph4183?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.698,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.96,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.538,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Pod Krakowem wykryto pierwsze w Polsce osobniki inwazyjnego gatunku szerszenia azjatyckiego",
+   "lead": "Pod Krakowem wykryto pierwsze w Polsce osobniki inwazyjnego gatunku szerszenia azjatyckiego tryton sob., 10/17/2026 - 09:20 4 minuty",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-17T07:20:00+00:00",
+   "źródło": {
+    "nazwa": "Nauka w Polsce",
+    "url": "https://naukawpolsce.pl/aktualnosci/news%2C115471%2Cpod-krakowem-wykryto-pierwsze-w-polsce-osobniki-inwazyjnego-gatunku",
+    "domena": "naukawpolsce.pl"
+   },
+   "obraz": null,
+   "sekcje": [],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10",
+    "17",
+    "09",
+    "20 4",
+    "2,5 cm",
+    "200"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Antyweb",
+     "ujęcie": "Jest niezwykle agresywny i stanowi realne zagrożenie dla naszych pszczół.",
+     "url": "https://antyweb.pl/uwaga-krakowianie-inwazyjny-gatunek-szerszenia-wykryto-po-raz-pierwszy-a-polsce"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Krakowem",
+    "Polsce"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Nauka w Polsce",
+     "tytuł": "Pod Krakowem wykryto pierwsze w Polsce osobniki inwazyjnego gatunku szerszenia azjatyckiego",
+     "url": "https://naukawpolsce.pl/aktualnosci/news%2C115471%2Cpod-krakowem-wykryto-pierwsze-w-polsce-osobniki-inwazyjnego-gatunku"
+    },
+    {
+     "nazwa": "Antyweb",
+     "tytuł": "Uwaga Krakowianie. Inwazyjny gatunek szerszenia wykryto po raz pierwszy a Polsce",
+     "url": "https://antyweb.pl/uwaga-krakowianie-inwazyjny-gatunek-szerszenia-wykryto-po-raz-pierwszy-a-polsce"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.667,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.335,
+     "eksponowanie": 0.27,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.413,
+     "treściwość": 0.249,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "TikTok blokuje konto dokumentu Musk",
+   "lead": "TikTok Larry 'ego Ellisona zamknął konto promocyjne filmu dokumentalnego Alexa Gibneya Elona Muska. Tuż przed szerszym wydaniem dokumentu Alexa Gibneya Musk, TikTok zablokował konto filmu w mediach społecznościowych na swojej platformie.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-17T19:32:23+00:00",
+   "źródło": {
+    "nazwa": "The Verge",
+    "url": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
+    "domena": "theverge.com"
+   },
+   "obraz": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/gettyimages-2194418432.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "TikTok nie odpowiedział od razu na prośbę o komentarz.",
+      "Według The Hollywood Reporter , dystrybutor filmu, Bleecker Street, został poinformowany w piątek po południu, że „trwałe zawieszenie” jest bliskie.",
+      "Bleecker Street nie odpowiedziała jeszcze na prośbę o komentarz ze strony The Verge .",
+      "Chociaż TikTok nie ma oficjalnego powiązania z Elonem Muskiem, współwłaściciel Larry Ellison pojawia się w filmie za pośrednictwem wiadomości tekstowej oferującej pomoc Muskowi w sfinansowaniu zakupu na Twitterze.",
+      "W zeszłym miesiącu YouTube, Meta, X i TikTok spotkały się z reakcją za odrzucenie reklam filmu.",
+      "YouTube i Google szybko odwróciły kurs, nazywając go „ błędem .\" Jednak TikTok i X odmówili zmiany stanowiska, a żadna platforma nie zezwoliła na płatne reklamy filmu.",
+      "Zablokowanie konta filmu oznacza jednak poważną eskalację i ironię — na krótko przed usunięciem konta napisano, że ludzie powinni obejrzeć film „zanim zostanie zamknięty. Zaloguj się, aby zobaczyć powiadomienia lub utwórz konto, aby dołączyć do rozmowy."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Czterogodzinny dokument o Elonie Musku nadal napotyka opór platform społecznościowych, a TikTok blokuje konto reklamowe filmu.",
+      "Według artykułu w The Hollywood Reporter , dystrybutor filmu Bleecker Street został niedawno powiadomiony przez TikToka, że konto zostało „trwale zawieszone” ze względu na jego treść polityczną.",
+      "Reklamy promujące zwiastun „Musk” — wyreżyserowane przez nagrodzonego Oscarem filmowca Alexa Gibneya — zostały początkowo odrzucone również przez Metę i YouTube, chociaż platformy te ostatecznie zezwoliły na reklamę, a Meta winiła odrzucenie za „błąd.\" Gibney niedawno potwierdził, że międzynarodowy dystrybutor filmu, Universal, wahał się w planach wydania \"Musk\", chociaż teraz idzie do przodu.",
+      "X, którego właścicielem jest Musk, odmówił noszenia reklam „Musk.„ Amerykańskie operacje TikToka są częściowo własnością Larry 'ego Ellisona — który, podobnie jak Musk, był znaczącym zwolennikiem prezydenta Donalda Trumpa. „Musk” został otwarty w zaledwie cztery teatry w zeszły weekend, a teraz rozwija się szerzej."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "TikTok to chiński serwis społecznościowy i krótkometrażowa internetowa platforma wideo. Przechowuje filmy przesłane przez użytkownika, które trwają od trzech sekund do 60 minut. Dostęp do niego można uzyskać za pośrednictwem aplikacji mobilnej lub jej strony internetowej. Pomimo tego, że jest to aplikacja wyprodukowana w Chinach, TikTok jest zablokowany w Chinach kontynentalnych i Hongkongu, a Douyin jest tam dostępny. Podczas gdy TikTok i Douyin mają podobny interfejs użytkownika, platformy działają osobno."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: TikTok",
+     "url": "https://en.wikipedia.org/wiki/TikTok"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "TikTok",
+    "opis": "Chinese video-focused social media platform",
+    "tekst": "TikTok is a Chinese social networking service and short-form online video platform. It hosts user-submitted videos, which range in duration from three seconds to 60 minutes. It can be accessed through a mobile app or through its website. Despite being a Chinese-made app, TikTok is blocked in mainland China and Hong Kong, and Douyin is available there instead. While TikTok and Douyin share a similar user interface, the platforms operate separately.",
+    "url": "https://en.wikipedia.org/wiki/TikTok",
+    "język": "en"
+   },
+   "tagi": [
+    "TikTok",
+    "Musk",
+    "Alex Gibney’s Elon Musk",
+    "Larry Ellison’s TikTok"
+   ],
+   "emotki": [
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "The Verge",
+     "tytuł": "TikTok bans Musk documentary account",
+     "url": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary"
+    },
+    {
+     "nazwa": "TechCrunch",
+     "tytuł": "TikTok permanently bans ‘Musk’ documentary advertising account",
+     "url": "https://techcrunch.com/2026/10/17/tiktok-permanently-bans-musk-documentary-advertising-account/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.787,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 1.71,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.512,
+     "treściwość": 0.465,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "TikTok bans Musk documentary account",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Czyszczenie stanu magii kwantowej tnie błędy 40-krotnie w pierwszym udanym teście sprzętowym",
+   "lead": "Qubity, kwantowy odpowiednik bitów cyfrowych, są delikatne i podatne na błędy. To sprawia, że budowanie niezawodnych komputerów kwantowych jest niezwykle trudne.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-17T18:00:02+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-10-quantum-magic-state-cleanup-errors.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-error-correction-t.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jednym z rozwiązań było zastosowanie tradycyjnej destylacji w magicznym stanie, która odfiltrowuje wady, ale jest niezwykle zasobochłonna.",
+      "Innym potencjalnym rozwiązaniem jest uprawa w stanie magicznym, która oczyszcza hałaśliwy stan magiczny (specjalnie przygotowany stan kwantowy, który jest potrzebny do zaawansowanych obliczeń) bezpośrednio wewnątrz chronionego kubitu.",
+      "Ale to podejście nigdy nie zostało pomyślnie przetestowane na prawdziwym sprzęcie.",
+      "Jednak w pierwszym dla obliczeń kwantowych badacze Google Quantum AI zademonstrowali uprawę stanu magicznego na Willow, procesorze nadprzewodzącym, i radykalnie wycięli błędy.",
+      "Tak więc w swoim eksperymencie zakodowali hałaśliwy stan magiczny na kilku kubitach fizycznych, rozkładając informację kwantową na małą siatkę kubitów, aby chronić ją przed błędami.",
+      "Następnie próbowali wyeliminować błędy w stanie szumu za pomocą kubitów pomocniczych, aby zeskanować informacje pod kątem błędów bez niszczenia samych delikatnych danych.",
+      "Jeśli kontrole wykazały jakiekolwiek wady, system odrzucił tę próbę i zaczął od nowa.",
+      "Jeśli próba przeszła każdy test, wyrafinowany magiczny stan był zachowywany do dalszego przetwarzania.",
+      "Wyniki opublikowane w czasopiśmie Science były uderzające."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "40",
+    "99.99%",
+    "8%",
+    "10.1126"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Science",
+    "Magic",
+    "Google Quantum AI",
+    "BSc Biology"
+   ],
+   "emotki": [
+    "⚛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Quantum magic state cleanup cuts errors 40-fold in first successful hardware test",
+     "url": "https://phys.org/news/2026-10-quantum-magic-state-cleanup-errors.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.269,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.475,
+     "treściwość": 0.344,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Quantum magic state cleanup cuts errors 40-fold in first successful hardware test",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Nowa metoda wysokiej częstotliwości zwiększa odczyt materiałów 2D dla komputerów kwantowych nowej generacji",
+   "lead": "Komputery kwantowe stanowią kolejny krok w szybkiej ewolucji technologii. Korzystając z bitów kwantowych (kubitów), mogą wykonywać pewne obliczenia wykładniczo szybciej niż konwencjonalne komputery.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-16T22:00:01+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-10-high-frequency-method-boosts-2d.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-high-frequency-met.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jednak tworzenie i dostrajanie komputerów kwantowych wymaga ogromnej liczby powtarzalnych testów.",
+      "Aby przyspieszyć rozwój technologii kwantowej, potrzebujemy metody, która może odczytywać stany kwantowe z ultrawysokimi prędkościami.",
+      "Zespół badawczy z Uniwersytetu Tohoku i Narodowego Instytutu Nauki o Materiałach (NIMS) opracował metodę, która umożliwia ultraczułą, szybką detekcję ładunku w dwuwymiarowych urządzeniach kwantowych opartych na materiałach niezbędnych do przyspieszenia tego rozwoju.",
+      "Przybliża nas o krok do realizacji komputerów kwantowych nowej generacji, które ostatecznie mogą zrewolucjonizować branże takie jak medycyna, logistyka i cyberbezpieczeństwo.",
+      "Badanie, opublikowane w czasopiśmie npj 2D Materials and Applications , rozwiązuje techniczne wąskie gardło w fizyce kwantowej: brak możliwości pomiaru wysokorozdzielczych urządzeń kwantowych opartych na materiałach 2D przy dużych prędkościach.",
+      "Zespół osiągnął to poprzez zintegrowanie kondensatora o zmiennej pojemności wykonanego z tytanianu strontu (SrTiO3) w obwodzie rezonansowym o wysokiej częstotliwości.",
+      "Ta konfiguracja osiągnęła niemal doskonałe dopasowanie impedancji z wysoce rezystancyjnymi urządzeniami kwantowymi opartymi na materiale 2D, umożliwiając naukowcom wychwycenie „oscylacji kulombowskich”- sygnałów elektronów wchodzących i wychodzących z kropki kwantowej jeden po drugim.",
+      "System pozostaje stabilny w prostopadłym polu magnetycznym, co jest warunkiem obowiązkowym dla pracy kubitów z zagłębieniem obrotowym.",
+      "„Stosując kondensatory zmienne na bazie tytanianu strontu do urządzeń kwantowych opartych na materiałach 2D, osiągnęliśmy prawie idealne dopasowanie impedancji, nawet pod prostopadłymi polami magnetycznymi” - mówi profesor nadzwyczajny Tomohiro Otsuka z Advanced Institute for Materials Research (WPI-AIMR) Uniwersytetu Tohoku."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Materiał to substancja lub mieszanina substancji, która stanowi przedmiot. Materiały mogą być czyste lub nieczyste, żywe lub nieożywione. Materiały można klasyfikować na podstawie ich właściwości fizycznych i chemicznych, pochodzenia geologicznego lub funkcji biologicznej. Materiałoznawstwo to nauka o materiałach, ich właściwościach i zastosowaniach."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Material",
+     "url": "https://en.wikipedia.org/wiki/Material"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10.1038",
+    "026",
+    "00730"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Material",
+    "opis": "Substance or mixture of substances that constitutes an object",
+    "tekst": "A material is a substance or mixture of substances that constitutes an object. Materials can be pure or impure, living or non-living matter. Materials can be classified on the basis of their physical and chemical properties, or on their geological origin or biological function. Materials science is the study of materials, their properties, and their applications.",
+    "url": "https://en.wikipedia.org/wiki/Material",
+    "język": "en"
+   },
+   "tagi": [
+    "Applications",
+    "Materials",
+    "Coulomb",
+    "Tohoku University's Advanced Institute"
+   ],
+   "emotki": [
+    "⚛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "New high-frequency method boosts 2D material readout for next-gen quantum computers",
+     "url": "https://phys.org/news/2026-10-high-frequency-method-boosts-2d.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.085,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.225,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "New high-frequency method boosts 2D material readout for next-gen quantum computers",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Nowy model 3D pokazuje, jak cienie zmieniają chemię w gwiezdnych żłobkach",
+   "lead": "juliana Fischer, University of Duisburg-Essen Jak młode gwiazdy zmieniają kształt chmur, z których pochodzą? Nowy model 3D o wysokiej rozdzielczości opracowany przez międzynarodowy zespół pod kierownictwem dr Brandta Gachesa z Uniwersytetu Duisburg-Essen pokazuje, jak nierówna struktura szkółek gwiezdnych tworzy cienie, które zmieniają...",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-16T22:40:04+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Astronomy",
+    "url": "https://phys.org/news/2026-10-3d-reveals-shadows-reshape-chemistry.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-3d-model-reveals-h.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Model został opublikowany w czasopiśmie Astronomy & Astrophysics .",
+      "Gwiazdy rodzą się w rozległych chmurach zimnego gazu i pyłu.",
+      "Gdy masywne młode gwiazdy zaczynają świecić, ich intensywne światło ultrafioletowe podgrzewa gaz, rozdziela cząsteczki i wywołuje kaskadę reakcji chemicznych w zewnętrznych warstwach chmur.",
+      "Te strefy graniczne są znane jako regiony fotodysocjacji lub zdominowane przez fotony.",
+      "Ich światło dostarcza astronomom ważnych wskazówek na temat tego, jak tworzą się gwiazdy i jak gaz jest zawracany, aby tworzyć przyszłe pokolenia gwiazd i planet zarówno w naszej galaktyce, jak i w badaniach nad powstawaniem gwiazd w historii kosmologii.",
+      "„Orion Bar jest idealnym naturalnym laboratorium do badania tych procesów” - mówi dr.",
+      "Znajduje się około 1350 lat świetlnych od Ziemi i można go zaobserwować w wyjątkowych szczegółach.",
+      "„Widzimy, że jest prawie na krawędzi, więc jego różne warstwy chemiczne są szczególnie łatwe do rozróżnienia.",
+      "To sprawia, że jest to wzorzec do testowania modeli regionów zdominowanych przez fotony ” - dodaje Gaches, który kieruje grupą badawczą Emmy Noether zajmującą się astrofizyką molekularną na Uniwersytecie Duisburg-Essen (UDE)."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Od momentu powstania w 1990 roku, projekt dotyczący ludzkiego genomu doprowadził do przełomu w naszym zrozumieniu genetyki.",
+      "W kwietniu 2003 r. projekt został uznany za zakończony po określeniu przez naukowców sekwencji 3 miliardów chemicznych par zasad, które składają się na ludzkie DNA.",
+      "Nowe badanie prowadzone przez naukowców z Center for Soft Matter Research na Uniwersytecie Nowojorskim (NYU) ma na celu rozwiązanie tego problemu, aby pomóc złagodzić skutki lotów kosmicznych.",
+      "Dzięki dziesięcioleciom wypraw na Międzynarodową Stację Kosmiczną (ISS) naukowcy dowiedzieli się, że wydłużony czas przebywania w przestrzeni kosmicznej może znacząco wpłynąć na fizjologię człowieka."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Mgławica Oriona jest mgławicą rozproszoną w Drodze Mlecznej położoną na południe od Pasa Oriona w gwiazdozbiorze Oriona i jest znana jako środkowa „gwiazda” w „mieczu” Oriona. Jest to jedna z najjaśniejszych mgławic i jest widoczna gołym okiem na nocnym niebie o pozornej wielkości 4,0. Znajduje się w odległości 1267,0 ± 5,4 lat świetlnych (388,5 ± 1,7 pc) i jest najbliższym obszarem masywnego formowania się gwiazd względem Ziemi. Szerokość M42 szacuje się na 25 lat świetlnych. Ma masę około 2000 razy większą niż Słońce. Starsze teksty często odnoszą się do Mgławicy Oriona jako Wielkiej Mgławicy w Orionie lub Wielkiej Mgławicy Oriona."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Orion Nebula",
+     "url": "https://en.wikipedia.org/wiki/Orion_Nebula"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "1,350",
+    "10.1051",
+    "0004",
+    "6361",
+    "202660769",
+    "3 billion"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Orion Nebula",
+    "opis": "Diffuse nebula in the constellation Orion",
+    "tekst": "The Orion Nebula is a diffuse nebula in the Milky Way situated south of Orion's Belt in the constellation of Orion, and is known as the middle \"star\" in the \"sword\" of Orion. It is one of the brightest nebulae and is visible to the naked eye in the night sky with an apparent magnitude of 4.0. It is 1,267.0 ± 5.4 light-years (388.5 ± 1.7 pc) away and is the closest region of massive star formation to Earth. M42 is estimated to be 25 light-years across. It has a mass of about 2,000 times that of the Sun. Older texts frequently refer to the Orion Nebula as the Great Nebula in Orion or the Great Orion Nebula.",
+    "url": "https://en.wikipedia.org/wiki/Orion_Nebula",
+    "język": "en"
+   },
+   "tagi": [
+    "Orion Bar",
+    "Duisburg-Essen",
+    "University",
+    "Astronomy"
+   ],
+   "emotki": [
+    "🔭"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Astronomy",
+     "tytuł": "New 3D model reveals how shadows reshape chemistry in stellar nurseries",
+     "url": "https://phys.org/news/2026-10-3d-reveals-shadows-reshape-chemistry.html"
+    },
+    {
+     "nazwa": "Universe Today",
+     "tytuł": "New Research Reveals How Long Stays in Space Affects the Human Genome",
+     "url": "https://www.universetoday.com/articles/new-research-reveals-how-long-stays-in-space-affects-the-human-genome"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.96,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.35,
+     "eksponowanie": 1.62,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.54,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "New 3D model reveals how shadows reshape chemistry in stellar nurseries",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Samotna, pozbawiona gwiazd chmura może być „ciemną” galaktyką",
+   "lead": "Astronomowie korzystający z SZYBKIEGO radioteleskopu w Chinach odkryli zwartą chmurę wodoru, wokół której nie ma widocznych gwiazd ani galaktyk. Może to być jeden z najsilniejszych dotychczasowych kandydatów na odizolowaną „ciemną galaktykę”, zawierającą prawie 500 000 razy więcej masy Słońca w neutralnym wodorze.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-17T13:40:04+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Astronomy",
+    "url": "https://phys.org/news/2026-10-lone-starless-cloud-dark-galaxy.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-lone-starless-cloud.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Dokument odkrycia został wysłany na serwer druku wstępnego arXiv we wrześniu",
+      "W modelu zimnej ciemnej materii lambda (ΛCDM) struktura tworzy się hierarchicznie: najpierw tworzą się małe aureole ciemnej materii, a następnie łączą się, tworząc większe aureole i galaktyki.",
+      "Model przewiduje również, że niektóre aureole o niskiej masie nigdy nie tworzą gwiazd.",
+      "Kilka procesów może powstrzymać powstawanie gwiazd przy niskiej masie.",
+      "Jednym z nich jest to, że po rejonizacji kosmicznej gaz halo jest ogrzewany przez promieniowanie ultrafioletowe (UV) (rozproszone promieniowanie z kwazarów i galaktyk), a więc nigdy nie staje się wystarczająco zimny i gęsty, aby tworzyć gwiazdy.",
+      "Przewiduje się, że takie bezgwiezdne, gazonośne aureole będą istniały i nazywane są ograniczonymi do rejonizacji chmurami H I (RELHICs) lub „ciemnymi galaktykami”. „Ponieważ mają niewiele gwiazd lub nie mają ich wcale, można je znaleźć tylko dzięki światłu emitowanemu przez neutralny gaz wodorowy, zwany 21-centymetrową linią wodoru.",
+      "Istnieje pewien haczyk: słaba galaktyka karłowata może wyglądać ciemno tylko z powodu granic jasności powierzchni, więc astronomowie muszą odróżnić je od prawdziwie bezgwiezdnych aureoli.",
+      "Do tej pory tylko jeden RELHIC został potwierdzony obserwacyjnie i znaleziono dwóch obiecujących kandydatów.",
+      "W tym nowym badaniu Jin-Long Xu z National Astronomical Observatories w Chinach i zespół badają izolowaną neutralną chmurę wodoru, J1351 +0039, znalezioną w ślepym badaniu H za pomocą pięciuset metrów Aperture Spherical Radio Telescope (FAST)."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "500,000",
+    "24",
+    "21",
+    "0039",
+    "1.5",
+    "100"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Five-hundred-meter Aperture Spherical",
+    "National Astronomical Observatories",
+    "James Webb Space Telescope",
+    "Hubble Space Telescope"
+   ],
+   "emotki": [
+    "🌌",
+    "🔭"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Astronomy",
+     "tytuł": "Lone, starless cloud may be a 'dark' galaxy",
+     "url": "https://phys.org/news/2026-10-lone-starless-cloud-dark-galaxy.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.015,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.421,
+     "treściwość": 0.444,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Lone, starless cloud may be a 'dark' galaxy",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Niejednoznaczne koszty zmian klimatycznych",
+   "lead": "Ponieważ działalność człowieka wzrosła na całym świecie, określenie kosztów bezpośrednio ponoszonych przez zmiany klimatyczne jest wyzwaniem. Wpływ zmian klimatycznych na ekstremalne zjawiska pogodowe - takie jak huragany i fale upałów - może być lokalnie specyficzny i zmienny, a obserwacje i modelowanie klimatu mogą nie być dokładne…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-17T14:20:01+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Earth",
+    "url": "https://phys.org/news/2026-10-ambiguous-climate.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2019/1-flood.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jednym ze sposobów, w jaki badacze próbują oszacować koszty zmian klimatycznych, jest porównanie rzeczywistego ekstremalnego zdarzenia pogodowego z hipotetycznym scenariuszem, w którym zmiany klimatyczne nie były czynnikiem.",
+      "Istnieje jednak wiele wersji EEIA: podejście oparte na zmianie częstotliwości pyta, o ile bardziej prawdopodobne jest, że jakieś zdarzenie miało miejsce w wyniku zmiany klimatu, podczas gdy podejście oparte na zmianie intensywności pyta, o ile bardziej szkodliwe zdarzenie miało miejsce w wyniku zmiany klimatu.",
+      "Podejścia te mogą prowadzić do znacznie różniących się szacunków kosztów zmian klimatycznych.",
+      "Na przykład huragan Harvey z 2017 roku spowodował szkody szacowane na 90 miliardów $.",
+      "Gdyby te dwa szacunki miały się zgadzać, to ta duża rozbieżność zdawałaby się sugerować, że co najmniej jedna z metod ma ograniczenia techniczne lub teoretycznie nie jest prawidłowa.",
+      "Aby ustalić, czy metoda jest teoretycznie uzasadniona, A.",
+      "Match i współpracownicy wprowadzają ramy spójności w swoim artykule opublikowanym w AGU Advances .",
+      "Metoda jest spójna, jeśli po zastosowaniu do grupy zdarzeń w czasie całkowite koszty przypisane do zmian klimatycznych przez EEIA odpowiadają faktycznie poniesionym kosztom nadwyżkowym.",
+      "Naukowcy twierdzą, że zarówno podejścia oparte na częstotliwości, jak i intensywności mogą być spójne."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Jednak zrozumienie zachowania chmur w regionach takich jak Płaskowyż Tybetański, który dostarcza wodę setkom milionów ludzi, ma kluczowe znaczenie - zwłaszcza że zmniejszająca się pokrywa śnieżna i zmienione wzorce opadów zagrażają temu krytycznemu źródłu wody.",
+      "Korzystając z obserwacji satelitarnych i danych klimatycznych z lat 2003-2022, przeanalizowali frakcję chmur, górną temperaturę chmur i wysokość chmur nad Płaskowyżem Tybetańskim, Alpami Europejskimi, Andami, Appalachami i Górami Skalistymi oraz ich sąsiednimi nizinami.",
+      "W odpowiedzi na globalne ocieplenie chmury mogą zmieniać swoją pionową strukturę i fazę, w tym fazy ciekłe, lodowe i przejściowe przechłodzone."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Science Advances to recenzowane, multidyscyplinarne, ogólnodostępne czasopismo naukowe założone na początku 2015 roku i opublikowane przez American Association for the Advancement of Science. Zakres czasopisma obejmuje wszystkie dziedziny nauki."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Science Advances",
+     "url": "https://en.wikipedia.org/wiki/Science_Advances"
+    }
+   ],
+   "dlaczego_to_ważne": "Przypisanie wpływu ekstremalnych zdarzeń (EEIA) wykorzystuje te porównania do oszacowania szkód i kosztów związanych ze zmianami klimatycznymi.",
+   "liczby": [
+    "90 billion",
+    "75%",
+    "15%",
+    "10.1029"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Science Advances",
+    "opis": "American academic journal",
+    "tekst": "Science Advances is a peer-reviewed multidisciplinary open-access scientific journal established in early 2015 and published by the American Association for the Advancement of Science. The journal's scope includes all areas of science.",
+    "url": "https://en.wikipedia.org/wiki/Science_Advances",
+    "język": "en"
+   },
+   "tagi": [
+    "Advances",
+    "Extreme Event Costs Attributed",
+    "American Geophysical Union",
+    "Inherent Ambiguity"
+   ],
+   "emotki": [
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Earth",
+     "tytuł": "The ambiguous costs of climate change",
+     "url": "https://phys.org/news/2026-10-ambiguous-climate.html"
+    },
+    {
+     "nazwa": "Phys.org Earth Sciences",
+     "tytuł": "Supercooled clouds over the highest mountains respond differently to climate change",
+     "url": "https://phys.org/news/2026-10-supercooled-clouds-highest-mountains-differently.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.466,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.307,
+     "eksponowanie": 1.53,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.429,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "The ambiguous costs of climate change",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Arizona dołącza do Nevady, aby walczyć z proponowanymi cięciami w ich udziałach w rzece Kolorado",
+   "lead": "Ruch następuje po tym, jak administracja Trumpa ogłosiła ograniczenia, które mogą odciąć dostawy wody. Arizona dołączyła do Nevady w swojej prawnej walce z proponowanymi przez administrację Trumpa cięciami udziałów w kurczącej się rzece Kolorado. Przeprowadzka nastąpiła po ogłoszeniu przez departament spraw wewnętrznych ograniczeń tego lata…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-17T23:40:11+00:00",
+   "źródło": {
+    "nazwa": "The Guardian Environment",
+    "url": "https://www.theguardian.com/us-news/2026/oct/17/arizona-nevada-water-rights-colorado-river",
+    "domena": "theguardian.com"
+   },
+   "obraz": "https://i.guim.co.uk/img/media/f8fe947b0a00f1b3d03b455048ff132f2feafcf9/720_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=a1825e373dc059a7d60ace440568f406",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Główne zbiorniki rzeki, Jezioro Mead i Jezioro Powell, spadły do historycznie niskich poziomów ze względu na nadmierne użytkowanie i zmieniający się klimat.",
+      "Państwa dzielące drogę wodną znalazły się w impasie z państwami górnego basenu, twierdząc, że ich dolne odpowiedniki są odpowiedzialne za niedobory wody w zbiorniku i dlatego powinny stanąć w obliczu największych cięć.",
+      "Interwencja rządu federalnego nastąpiła po tym, jak państwa nie dotrzymały kilku terminów osiągnięcia konsensusu.",
+      "Lęk przed stanem rzeki polega na tym, że jeśli poziomy zbiorników spadną wystarczająco daleko, droga wodna nie będzie w stanie płynąć w dół rzeki, tzw. deadpool.",
+      "Górne stany basenu – Wyoming, Kolorado, Utah i Nowy Meksyk – zostały oszczędzone przed cięciami wody, co spotkało się z ostrą reprymendą ze strony przywódców dolnych stanów basenu. - Wyznaczamy granicę na piasku - powiedziała gubernatorka Arizony Katie Hobbs w piątkowym oświadczeniu . „Podejmuję te działania prawne wraz z Nevadą, ponieważ rząd federalny odmawia pociągnięcia Górnego Basenu do odpowiedzialności za dostawy wody, które są winni Arizonie , i grozi, że zmusi drakońskich cięć, które wykraczają daleko poza porozumienie w sprawie basenu dolnego ”- kontynuował Hobbs, odnosząc się do dwuletniego dobrowolnego paktu na rzecz ochrony wody między jej stanem, Kalifornią i Nevadą.",
+      "Tom Buschatzke, dyrektor departamentu wodnego w Arizonie, powiedział, że „interwencja w proces sądowy w Nevadzie jest obecnie konieczna, aby Arizona mogła chronić swoje prawa do wody w rzece Kolorado, jednocześnie zachowując drogę do osiągnięcia wspólnego wyniku z Kalifornią i Nevadą w celu ochrony systemu rzeki Kolorado”.",
+      "Rzecznik Departamentu Spraw Wewnętrznych nie udzielił natychmiastowej odpowiedzi na prośbę o komentarz w sprawie wspólnego postępowania sądowego."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nevada to stan bez dostępu do morza w zachodnich Stanach Zjednoczonych. Czasami umieszcza się go również w górach zachodnich i południowo-zachodnich Stanach Zjednoczonych. Graniczy z Idaho na północnym wschodzie, Oregonem na północnym zachodzie, Kalifornią na zachodzie, Arizoną na południowym wschodzie i Utah na wschodzie. Nevada jest siódmym najbardziej rozległym i 31 najbardziej zaludnionym stanem USA. Prawie trzy czwarte populacji Nevady mieszka w hrabstwie Clark, które obejmuje obszar metropolitalny Las Vegas-Paradise. Stolicą Nevady jest Carson City. Las Vegas jest największym miastem w stanie."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Nevada",
+     "url": "https://en.wikipedia.org/wiki/Nevada"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Nevada",
+    "opis": "U.S. state",
+    "tekst": "Nevada is a landlocked state in the Western United States. It is also sometimes placed in the Mountain West and Southwestern United States. It borders Idaho to the northeast, Oregon to the northwest, California to the west, Arizona to the southeast, and Utah to the east. Nevada is the seventh-most extensive and the 31st-most populous U.S. state. Nearly three-quarters of Nevada's population live in Clark County, which contains the Las Vegas–Paradise metropolitan area. Nevada's capital is Carson City. Las Vegas is the largest city in the state.",
+    "url": "https://en.wikipedia.org/wiki/Nevada",
+    "język": "en"
+   },
+   "tagi": [
+    "Nevada",
+    "Arizona",
+    "Colorado River",
+    "California"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "The Guardian Environment",
+     "tytuł": "Arizona joins Nevada to fight proposed cuts to their shares of Colorado River",
+     "url": "https://www.theguardian.com/us-news/2026/oct/17/arizona-nevada-water-rights-colorado-river"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.256,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.546,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Arizona joins Nevada to fight proposed cuts to their shares of Colorado River",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Zabrała głos w sprawie incydentu. Wskazuje na problemy zdrowotne",
+   "lead": "Selma Blair odniosła się do głośnego incydentu na pokładzie samolotu, po którym została aresztowana. Nie przyznaje się do winy, a jej przedstawiciele zwracają uwagę na zmagania aktorki ze stwardnieniem rozsianym.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-17T08:01:46+00:00",
+   "źródło": {
+    "nazwa": "Interia Film",
+    "url": "https://film.interia.pl/mocny-temat/news-selma-blair-zabiera-glos-w-sprawie-incydentu-wskazuje-na-pro,nId,23559686",
+    "domena": "film.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NF5SGVI0G909A-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Według doniesień aktorka miała dopuścić się przemocy wobec członków załogi.",
+      "Blair miała m.in. próbować otworzyć drzwi samolotu podczas lotu, uderzyć pięścią i pogryźć członków załogi samolotu.",
+      "Po wylądowaniu w Nowym Jorku do akcji wkroczyli funkcjonariusze organów ścigania.",
+      "54-letnia aktorka została zatrzymana, a ze względu na swój stan przewieziona na badania do szpitala.",
+      "W trakcie transportu Blair rzekomo kilkukrotnie kopnęła w głowę policjanta.",
+      "Po dotarciu do placówki medycznej zaatakowała także pielęgniarkę, która ostatecznie wniosła przeciwko niej formalne oskarżenie.",
+      "Aktorka została zwolniona za kaucją w wysokości 60 tysięcy dolarów.",
+      "Jej obrońcy przekonują, że wybuch agresji był spowodowany nagłym brakiem leków oraz skrajnym przemęczeniem.",
+      "Sama Blair nie przyznała się do postawionych jej zarzutów."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "W przypadku skazania grozi jej jednak od dwóch do siedmiu lat pozbawienia wolności.",
+   "liczby": [
+    "11",
+    "54",
+    "60 tysięcy",
+    "938"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Blair",
+    "Nowego Jorku",
+    "Selma Blair",
+    "Los Angeles"
+   ],
+   "emotki": [
+    "🎭"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Film",
+     "tytuł": "Zabrała głos w sprawie incydentu. Wskazuje na problemy zdrowotne",
+     "url": "https://film.interia.pl/mocny-temat/news-selma-blair-zabiera-glos-w-sprawie-incydentu-wskazuje-na-pro,nId,23559686"
+    },
+    {
+     "nazwa": "BBC Kultura",
+     "tytuł": "Actress Selma Blair says she 'did not intend to harm anyone' in plane altercation",
+     "url": "https://www.bbc.co.uk/news/articles/cwly3zd1r45ro?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Film",
+     "tytuł": "Selma Blair ‘did not intend to harm anyone’ during airplane incident, representatives say",
+     "url": "https://www.theguardian.com/film/2026/oct/17/selma-blair-airplane-incident"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.278,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.515,
+     "eksponowanie": 0.54,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.423,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  }
+ ],
+ "braki": [],
+ "statystyki": {
+  "kanały_ok": 72,
+  "kanały_błędne": 0,
+  "znaki_tłumaczone": 16108,
+  "niedziałające_kanały": [],
+  "działy": 17,
+  "artykuły_w_oknie": 54
+ }
+}
