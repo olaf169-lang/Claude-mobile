@@ -1,8 +1,8 @@
 {
  "wersja": "1.0.0",
- "wydanie": "2026-10-19",
- "dotyczy_dnia": "2026-10-18",
- "wygenerowano": "2026-10-19T11:54:01+00:00",
+ "wydanie": "2026-10-20",
+ "dotyczy_dnia": "2026-10-19",
+ "wygenerowano": "2026-10-20T10:50:46+00:00",
  "strefa": "Europe/Warsaw",
  "tryb": "ekstrakcyjny",
  "demo": false,
@@ -14,128 +14,121 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "„Sąd przyznał nam rację”. Jest decyzja ws. tymczasowego aresztu dla Piotra W.",
-   "lead": "16.00 mężczyzna opuścił budynek Sądu Rejonowego Warszawa-Śródmieście, gdzie rozpatrywano wniosek prokuratury o miesięczny areszt dla niego. W krótkim wystąpieniu m.in. podziękował posłom, którzy go wsparli, a także mecenasom.",
+   "nagłówek": "Myśliwce znów poderwane. Alert RCB i komunikat wojska",
+   "lead": "„Zgodnie z obowiązującymi procedurami Dowództwo Operacyjne RSZ, poprzez Centrum Operacji Powietrznych – Dowództwo Komponentu Powietrznego, uruchomiło niezbędne siły i środki pozostające w jego dyspozycji. Naziemne systemy obrony powietrznej oraz rozpoznania radiolokacyjnego osiągnęły stan gotowości ” - poinformowało w…",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-18T14:14:00+00:00",
+   "opublikowano": "2026-10-19T19:10:00+00:00",
    "źródło": {
     "nazwa": "RMF24",
-    "url": "https://www.rmf24.pl/regiony/warszawa/news-sad-przyznal-nam-racje-jest-decyzja-ws-tymczasowego-aresztu-,nIdn,1022399",
+    "url": "https://www.rmf24.pl/fakty/polska/news-mysliwce-znow-poderwane-alert-rcb-i-komunikat-wojska,nIdn,1022579",
     "domena": "rmf24.pl"
    },
-   "obraz": "https://rmf.rmffm.pl/news/attachments/80/37/kadr-z-filmu-udostepnionego-przez-komende-stoleczna-policji-636x421-80371ea0.jpg",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/a5/e7/operacja-lotnictwa-w-polskiej-przestrzeni-powietrznej-fot-darek-delmanowicz-zdj-636x421-a5e7338a.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Przyznał, że jest zmęczony.",
-      "Posiedzenie aresztowe odbyło się w niedzielne południe w Sądzie Rejonowym Warszawa-Śródmieście.",
-      "„Sąd nie uwzględnił absurdalnego wniosku prokuratury o areszt dla Piotra W. i podzielił stanowisko obrony.",
-      "Pan Piotr po ponad 50 godzinach wraca do domu” - napisała mec.",
-      "Prządka-Leszczyńska w serwisie X.",
-      "„Areszt to ostateczność, a nie poczekalnia do prokuratora” – komentowała.",
-      "„W tej sprawie nie ma ani jednej przesłanki, która pozwala pozbawić człowieka wolności przed wyrokiem, a z całą pewnością nie zostały one spełnione łącznie.",
-      "Nóż składany, nie wiem, czy to był nóż, czy scyzoryk, bo ja się na tym nie znam, ale to nie ma znaczenia.",
-      "I nóż, i scyzoryk rzeczywiście jest narzędziem niebezpiecznym, którego nie można przy sobie posiadać, biorąc udział w zgromadzeniu - powiedziała."
+      "Jak podkreślono, „ działania te mają charakter prewencyjny i są ukierunkowane na zabezpieczenie i ochronę polskiej przestrzeni powietrznej, zwłaszcza w rejonach przyległych do zagrożonych obszarów”.",
+      "„Dowództwo Operacyjne RSZ monitoruje bieżącą sytuację, a podległe siły i środki pozostają w gotowości do reakcji” - zapewniono w komunikacie.",
+      "Rosyjski atak powietrzny na terenie Ukrainy.",
+      "W przestrzeni RP operuje polskie lotnictwo.",
+      "Oczekuj dalszych komunikatów” - poinformowało Rządowe Centrum Bezpieczeństwa.",
+      "Wydano alert dla województwa lubelskiego, a następnie dla podkarpackiego.",
+      "Alert został wysłany do odbiorców w województwie lubelskim w powiatach : puławskim, opolskim, Lublin, lubelskim, kraśnickim, janowskim, włodawskim, łęczyńskim, świdnickim, Chełm, chełmskim, krasnostawskim, hrubieszowskim, Zamość, zamojskim, tomaszowskim, biłgorajskim, łukowskim, Biała Podlaska, bialskim, ryckim, radzyńskim, parczewskim, lubartowskim.",
+      "Komunikat otrzymali również odbiorcy w województwie podkarpackim w powiatach : Tarnobrzeg, tarnobrzeskim, stalowowolskim, niżańskim, leżajskim, kolbuszowskim, mieleckim, dębickim, ropczycko-sędziszowskim, Rzeszów, rzeszowskim, łańcuckim, przeworskim, jarosławskim, lubaczowskim, jasielskim, strzyżowskim, brzozowskim, Przemyśl, przemyskim, sanockim, leskim, Krosno, krośnieńskim, bieszczadzkim.",
+      "W związku z koniecznością zapewnienia swobody działania lotnictwa wojskowego przestrzeń powietrzna nad lotniskiem w Rzeszowie została zamknięta - poinformowała Polska Agencja Żeglugi Powietrznej."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Kiedy próbowali go wylegitymować, pobiegł do budynku przy ulicy Marszałkowskiej w pobliżu Alei Szucha i Placu Unii Lubelskiej.",
-      "Zaatakował policjantkę, naruszając nietykalność funkcjonariuszki i doprowadzając u niej do urazu głowy\" - poinformowała KSP.",
-      "Prokuratura Rejonowa Warszawa Śródmieście zarzuciła Piotrowi W. naruszenie nietykalności cielesnej policjantki, które mogło zagrażać jej życiu lub zdrowiu.",
-      "Jedna z obrończyń Piotra W. potwierdziła, że nie trafi on do aresztu. \" Zdaniem Sądu nie ma potrzeby zastosowania jakichkolwiek środków zapobiegawczych \" - podkreśliła Magdalena Majkowska za pośrednictwem platformy X."
+      "Mieszkańcy województw lubelskiego i podkarpackiego w poniedziałek wieczorem otrzymali po dwa alerty Rządowego Centrum Bezpieczeństwa.",
+      "W związku z uderzeniami Federacji Rosyjskiej na cele w zachodniej części Ukrainy , otwiera się w nowym oknie , prowadzonymi z wykorzystaniem środków napadu powietrznego, operuje lotnictwo wojskowe w polskiej przestrzeni powietrznej\" - przekazało w poniedziałek po godz.",
+      "21 Dowództwo Operacyjne Rodzajów Sił Zbrojnych (DORSZ).",
+      "Rządowe Centrum Bezpieczeństwa wysłało nad ranem alerty do mieszkańców województwa lubelskiego z powodu ataków Rosji na terenie Ukrainy.",
+      "Alert Rządowego Centrum Bezpieczeństwa wysłany w poniedziałek (19 października) wieczorem brzmi: \"ALERT RCB: UWAGA!",
+      "Komunikat został wysłany do odbiorców w województwie lubelskim w powiatach: puławskim, opolskim, Lublin, lubelskim, kraśnickim, janowskim, włodawskim, łęczyńskim, świdnickim, Chełm, chełmskim, krasnostawskim, hrubieszowskim, Zamość, zamojskim, tomaszowskim, biłgorajskim, łukowskim, Biała Podlaska, bialskim, ryckim, radzyńskim, parczewskim, lubartowskim."
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Piotra – żeński odpowiednik imienia Piotr, chrześcijańskiego imienia męskiego pochodzenia grecko-łacińskiego, wywiedzionego od przydomku Szymona apostoła nadanego mu przez Jezusa Chrystusa. Imię Piotr (Πέτρος) jest czasami tłumaczone jako „Skała”, co w języku polskim oznacza z reguły wielki kamienny masyw. Polska forma Piotr z „o” zamiast „e” jest regularną zmianą spowodowaną przez przegłos lechicki"
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Piotra",
-     "url": "https://pl.wikipedia.org/wiki/Piotra"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "16.00",
-    "50 godzinach",
-    "224",
-    "222"
+    "21",
+    "22.30",
+    "23",
+    "11 lat",
+    "14",
+    "19"
    ],
    "inne_spojrzenia": [
     {
      "źródło": "RMF24",
-     "ujęcie": "Piotr W. ma trafić do prokuratury.",
-     "url": "https://www.rmf24.pl/regiony/warszawa/news-piotr-w-ma-trafic-do-prokuratury-policja-chce-tymczasowego-a,nIdn,1022340"
-    },
-    {
-     "źródło": "Gazeta.pl",
-     "ujęcie": "Sprawa dotyczy piątkowej interwencji w pobliżu Trybunału Konstytucyjnego.",
-     "url": "https://wiadomosci.gazeta.pl/polska/7,198073,33084793,atak-na-policjantke-sad-zdecydowal-w-sprawie-piotra-w.html"
+     "ujęcie": "Drugi alert RCB jednego dnia.",
+     "url": "https://www.rmf24.pl/regiony/lublin/news-drugi-alert-rcb-jednego-dnia-ukraina-atakowana,nIdn,1022585"
     },
     {
      "źródło": "Interia Fakty",
-     "ujęcie": "Sąd w Warszawie nie zgodził się na areszt dla Piotra W. - informuje Polsat News.",
-     "url": "https://wydarzenia.interia.pl/kraj/news-glosne-zatrzymanie-piotra-w-jest-decyzja-sadu,nId,23560066"
+     "ujęcie": "Po kilkudziesięciu minutach poinformowano o braku zagrożenia na terytorium Polski.",
+     "url": "https://wydarzenia.interia.pl/kraj/news-alert-rcb-na-lubelszczyznie-poderwano-mysliwce-sytuacja-jest,nId,23560802"
+    },
+    {
+     "źródło": "Gazeta.pl",
+     "ujęcie": "W związku z uderzeniami Federacji Rosyjskiej na cele w zachodniej części Ukrainy, prowadzonymi z użyciem środków napadu powietrznego, Dowództwo Operacyjne Rodzajów Sił Zbrojnych poinformowało, że w polskiej przestrzeni powietrznej operuje lotnictwo wojskowe.",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198072,33087340,alert-rcb-dla-dwoch-wojewodztw-po-ataku-na-zachodnia-ukraine.html"
     }
    ],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Piotra",
-    "opis": "imię żeńskie",
-    "tekst": "Piotra – żeński odpowiednik imienia Piotr, chrześcijańskiego imienia męskiego pochodzenia grecko-łacińskiego, wywiedzionego od przydomku Szymona apostoła nadanego mu przez Jezusa Chrystusa. Imię Piotr (Πέτρος) jest czasami tłumaczone jako „Skała”, co w języku polskim oznacza z reguły wielki kamienny masyw. Polska forma Piotr z „o” zamiast „e” jest regularną zmianą spowodowaną przez przegłos lechicki",
-    "url": "https://pl.wikipedia.org/wiki/Piotra",
-    "język": "pl"
-   },
+   "tło": null,
    "tagi": [
-    "Piotra",
-    "Piotr",
-    "Prokuratury Okręgowej",
-    "Warszawie"
+    "Ukrainę",
+    "Centrum Operacji Powietrznych Dowództwo Komponentu Powietrznego",
+    "Dowództwo Operacyjne Rodzajów Sił Zbrojnych",
+    "Polska Agencja Żeglugi Powietrznej"
    ],
    "emotki": [
-    "⚖️"
+    "⚔️"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "RMF24",
-     "tytuł": "„Sąd przyznał nam rację”. Jest decyzja ws. tymczasowego aresztu dla Piotra W.",
-     "url": "https://www.rmf24.pl/regiony/warszawa/news-sad-przyznal-nam-racje-jest-decyzja-ws-tymczasowego-aresztu-,nIdn,1022399"
+     "tytuł": "Myśliwce znów poderwane. Alert RCB i komunikat wojska",
+     "url": "https://www.rmf24.pl/fakty/polska/news-mysliwce-znow-poderwane-alert-rcb-i-komunikat-wojska,nIdn,1022579"
     },
     {
      "nazwa": "RMF24",
-     "tytuł": "Piotr W. ma trafić do prokuratury. Policja chce tymczasowego aresztu",
-     "url": "https://www.rmf24.pl/regiony/warszawa/news-piotr-w-ma-trafic-do-prokuratury-policja-chce-tymczasowego-a,nIdn,1022340"
-    },
-    {
-     "nazwa": "Gazeta.pl",
-     "tytuł": "Piotr W. na wolności. Prokuratura zarzuciła mu atak na policjantkę. Sąd nie zgodził się na areszt",
-     "url": "https://wiadomosci.gazeta.pl/polska/7,198073,33084793,atak-na-policjantke-sad-zdecydowal-w-sprawie-piotra-w.html"
+     "tytuł": "Drugi alert RCB jednego dnia. Ukraina atakowana",
+     "url": "https://www.rmf24.pl/regiony/lublin/news-drugi-alert-rcb-jednego-dnia-ukraina-atakowana,nIdn,1022585"
     },
     {
      "nazwa": "Interia Fakty",
-     "tytuł": "Głośne zatrzymanie Piotra W. Jest decyzja sądu",
-     "url": "https://wydarzenia.interia.pl/kraj/news-glosne-zatrzymanie-piotra-w-jest-decyzja-sadu,nId,23560066"
+     "tytuł": "Niebezpiecznie na zachodzie Ukrainy. Polska poderwała myśliwce",
+     "url": "https://wydarzenia.interia.pl/kraj/news-niebezpiecznie-na-zachodzie-ukrainy-polska-poderwala-mysliwc,nId,23560774"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Alert RCB na Lubelszczyźnie, poderwano myśliwce. \"Sytuacja jest monitorowana\"",
+     "url": "https://wydarzenia.interia.pl/kraj/news-alert-rcb-na-lubelszczyznie-poderwano-mysliwce-sytuacja-jest,nId,23560802"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Alert RCB dla dwóch województw po ataku na zachodnią Ukrainę. Polska poderwała myśliwce",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198072,33087340,alert-rcb-dla-dwoch-wojewodztw-po-ataku-na-zachodnia-ukraine.html"
     }
    ],
    "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 7.117,
+    "wynik": 7.455,
     "składowe": {
      "potwierdzenia": 3.8,
-     "ranga_źródła": 1.622,
+     "ranga_źródła": 1.772,
      "eksponowanie": 0.0,
      "słowa_kluczowe": 0.35,
-     "świeżość": 0.428,
-     "treściwość": 0.417,
+     "świeżość": 0.598,
+     "treściwość": 0.435,
      "język_działu": 0.5
     }
    },
@@ -148,105 +141,120 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "„Polska nie będzie płacić za błędy innych państw”. Tusk o polityce migracyjnej",
-   "lead": "Donald Tusk odniósł się w mediach społecznościowych do rozmów, które odbył podczas unijnego szczytu w Brukseli. „Polska nie powtórzy błędów innych europejskich państw, nie będzie też za nie płacić” – napisał premier w serwisie X.",
+   "nagłówek": "RPO zajął się sprawą Piotra W., zatrzymanego przez policję w okolicy Trybunału",
+   "lead": "W związku ze sporem politycznym wokół Trybunału Konstytucyjnego przed siedzibą instytucji trwają protesty środowisk prawicowych. Marszałkowskiej w Warszawie został zatrzymany przez policjantów zabezpieczających zgromadzenie Piotr W.",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-18T17:54:00+00:00",
+   "opublikowano": "2026-10-19T15:49:00+00:00",
    "źródło": {
     "nazwa": "RMF24",
-    "url": "https://www.rmf24.pl/fakty/polska/news-polska-nie-bedzie-placic-za-bledy-innych-panstw-tusk-o-polit,nIdn,1022413",
+    "url": "https://www.rmf24.pl/regiony/warszawa/news-rpo-zajal-sie-sprawa-piotra-w-zatrzymanego-przez-policje-w-o,nIdn,1022554",
     "domena": "rmf24.pl"
    },
-   "obraz": "https://rmf.rmffm.pl/news/attachments/84/2e/donald-tusk-w-drugim-dniu-szczytu-rady-europejskiej-w-brukseli-fot-636x421-842ee890.jpg",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/8f/0f/w-sobote-komenda-stoleczna-policji-opublikowala-nagranie-z-kamery-funkcjonariusza-uczestniczacego-w-interwencji-636x421-8f0fcd82.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Szef rządu zaznaczył, że Polska prowadzi własną politykę w sprawie migracji i azylu.",
-      "„Twardo bronimy granicy przed nielegalną migracją, mamy własną politykę azylową, nie przyjmujemy wniosków, deportujemy tych, którzy łamią polskie prawo ” – stwierdził Tusk.",
-      "Dodał, że w kwestii bezpieczeństwa polskie władze będą działać bezwzględnie.",
-      "„To usłyszeli ode mnie liderzy Europy w Brukseli” – podkreślił premier.",
-      "Donald Tusk wrócił do kraju w piątek po zakończeniu unijnego szczytu.",
-      "Wizytę w stolicy Belgii rozpoczął od spotkania z przywódcami państw Grupy Wyszehradzkiej.",
-      "W czwartek, przed posiedzeniem Rady Europejskiej, premier uczestniczył również w spotkaniach grupy Przyjaciół Spójności, formatu „Northern Nine” oraz Europejskiej Partii Ludowej.",
-      "Rozmawiał także z przewodniczącą Parlamentu Europejskiego Robertą Metsolą.",
-      "W kuluarach szczytu Tusk spotkał się z prezydentem Ukrainy Wołodymyrem Zełenskim ."
+      "Według policji miał on zaatakować funkcjonariuszkę, która doznała urazu głowy i trafiła do szpitala.",
+      "Biuro RPO przekazało w komunikacie opublikowanym na stronie instytucji, że „Rzecznik Praw Obywatelskich podjął z urzędu sprawę dotyczącą interwencji funkcjonariuszy Policji wobec mężczyzny w okolicy Trybunału Konstytucyjnego w Warszawie, w dniu 16 października 2026 r.”.",
+      "Jak czytamy, zastępca RPO Stanisław Trociuk i dyrektor Zespołu Prawa Karnego BRPO Marek Łukaszuk zwrócili się do komendanta stołecznego policji Krzysztofa Ogrońskiego o wyjaśnienia dotyczące podstaw i przebiegu interwencji, w tym zastosowania środków przymusu bezpośredniego, podstaw zatrzymania oraz kwestii dostępu zatrzymanego do adwokata.",
+      "Zwrócili się również do prokuratora okręgowego Michała Mistygacza o przedstawienie informacji o dotychczasowym przebiegu postępowania prowadzonego przez prokuraturę w sprawie oraz o tym, jakie czynności procesowe w tej sprawie zostały dotychczas podjęte oraz są planowane.",
+      "W sobotę Komenda Stołeczna Policji opublikowała nagranie z kamery funkcjonariusza uczestniczącego w interwencji.",
+      "Widać na nim, że mężczyzna nie odpowiada na prośbę o okazanie dokumentu, następnie odpycha policjantów i ucieka.",
+      "Zostaje obezwładniony w przedsionku lokalu przy Marszałkowskiej.",
+      "W trakcie przeszukania znaleziono przy nim nóż.",
+      "Politycy prawicy kwestionowali przebieg zatrzymania."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Donald Tusk wziął udział w szczycie Rady Europejskiej w Brukseli, który odbywał się w dniach 15-16 października.",
-      "Odbył wówczas szereg spotkań między innymi z: premierami Włoch, Łotwy, Słowenii, Grecji , Węgier, Bułgarii, Czech, Malty, Portugalii i Estonii oraz prezydentami Ukrainy, Litwy i Rumunii.",
-      "Premier w niedzielę (18 października) poinformował o stanowisku, które przedstawił europejskim liderom.",
-      "Twardo bronimy granicy przed nielegalną migracją, mamy własną politykę azylową (nie przyjmujemy wniosków), deportujemy tych, którzy łamią polskie prawo."
+      "Rzecznik Praw Obywatelskich podjął z urzędu sprawę dotyczącą interwencji policjantów wobec Piotra W. pod budynkiem Trybunału Konstytucyjnego.",
+      "Działania podjęte przez BRPO to reakcja na wydarzenia, które w piątek rozegrały się przed budynkiem Trybunału Konstytucyjnego .",
+      "Funkcjonariusze, zabezpieczający zgromadzenie, zatrzymali tam Piotra W. , który, jak przekazała policja, zaatakował policjantkę.",
+      "Sprawa dotyczy piątkowej (16 października) interwencji w pobliżu Trybunału Konstytucyjnego.",
+      "Na nagraniu opublikowanym przez policję widać, że funkcjonariusze przedstawili się i zapytali mężczyznę o dokument potwierdzający tożsamość.",
+      "Zaatakował policjantkę, naruszając nietykalność funkcjonariuszki i doprowadzając u niej do urazu głowy\" - poinformowała Komenda Stołeczna Policji."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Przewodniczący Rady Europejskiej – stanowisko głównego reprezentanta Unii Europejskiej na zewnątrz w sprawach dotyczących wspólnej polityki zagranicznej i bezpieczeństwa i kierownika prac Rady Europejskiej. Jest wybierany przez Radę Europejską większością kwalifikowaną na okres 2,5 roku z jednokrotną możliwością odnowienia kadencji. Przewodniczącym Rady Europejskiej nie może być zwyczajny członek Rady Europejskiej, ani osoba która sprawuje jakąkolwiek krajową funkcję publiczną. Zwyczajowo procedurę jego wyboru koordynuje państwo sprawujące rotacyjną prezydencję. Szef jego rządu – jako przedstawiciel prezydencji – prowadzi też posiedzenie Rady Europejskiej w części poświęconej wyborowi przewodniczącego. Przewodniczący ma też własne ścisłe grono współpracowników, tzw. gabinet. Biura – jego i współpracowników – mieszczą się w budynku Europa w Brukseli."
+      "Trybunał Stanu (TS) – konstytucyjny organ władzy sądowniczej w Polsce, którego główne zadanie polega na egzekwowaniu odpowiedzialności najwyższych organów i urzędników państwowych za naruszenie Konstytucji lub ustawy w związku z zajmowanym stanowiskiem lub w zakresie swojego urzędowania oraz za przestępstwa pospolite i skarbowe w przypadku Prezydenta RP."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Przewodniczący Rady Europejskiej",
-     "url": "https://pl.wikipedia.org/wiki/Przewodnicz%C4%85cy_Rady_Europejskiej"
+     "przypis": "Wikipedia: Trybunał Stanu",
+     "url": "https://pl.wikipedia.org/wiki/Trybuna%C5%82_Stanu"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "15",
     "16",
-    "18",
-    "70 tysięcy",
-    "24 godziny",
-    "50 tysięcy"
+    "50 godzinach",
+    "19"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Fakty",
+     "ujęcie": "Pracownicy Biura RPO zwrócili się o informację do stołecznej policji i prokuratury.",
+     "url": "https://wydarzenia.interia.pl/kraj/news-rpo-reaguje-w-tle-zatrzymanie-piotra-w-wnioski-do-policji-i,nId,23560719"
+    },
+    {
+     "źródło": "Gazeta.pl",
+     "ujęcie": "Zdaniem funkcjonariuszy mężczyzna zachowywał się nerwowo i nienaturalnie.",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33087075,sprawa-zatrzymania-piotra-w-tvp-info-publikuje-zdjecia-z-protestu.html"
+    }
+   ],
    "pojęcia": [],
    "tło": {
-    "hasło": "Przewodniczący Rady Europejskiej",
-    "opis": "Tzw. Prezydent Europy",
-    "tekst": "Przewodniczący Rady Europejskiej – stanowisko głównego reprezentanta Unii Europejskiej na zewnątrz w sprawach dotyczących wspólnej polityki zagranicznej i bezpieczeństwa i kierownika prac Rady Europejskiej. Jest wybierany przez Radę Europejską większością kwalifikowaną na okres 2,5 roku z jednokrotną możliwością odnowienia kadencji. Przewodniczącym Rady Europejskiej nie może być zwyczajny członek Rady Europejskiej, ani osoba która sprawuje jakąkolwiek krajową funkcję publiczną. Zwyczajowo procedurę jego wyboru koordynuje państwo sprawujące rotacyjną prezydencję. Szef jego rządu – jako przedstawiciel prezydencji – prowadzi też posiedzenie Rady Europejskiej w części poświęconej wyborowi przewodniczącego. Przewodniczący ma też własne ścisłe grono współpracowników, tzw. gabinet. Biura – jego i współpracowników – mieszczą się w budynku Europa w Brukseli.",
-    "url": "https://pl.wikipedia.org/wiki/Przewodnicz%C4%85cy_Rady_Europejskiej",
+    "hasło": "Trybunał Stanu",
+    "opis": "konstytucyjny organ władzy sądowniczej i politycznej w Polsce",
+    "tekst": "Trybunał Stanu (TS) – konstytucyjny organ władzy sądowniczej w Polsce, którego główne zadanie polega na egzekwowaniu odpowiedzialności najwyższych organów i urzędników państwowych za naruszenie Konstytucji lub ustawy w związku z zajmowanym stanowiskiem lub w zakresie swojego urzędowania oraz za przestępstwa pospolite i skarbowe w przypadku Prezydenta RP.",
+    "url": "https://pl.wikipedia.org/wiki/Trybuna%C5%82_Stanu",
     "język": "pl"
    },
    "tagi": [
-    "Tusk",
-    "Rady Europejskiej",
-    "Brukseli",
-    "Parlamentu Europejskiego Robertą Metsolą"
+    "Piotra",
+    "Trybunału Konstytucyjnego",
+    "Warszawie",
+    "Piotr"
    ],
    "emotki": [
-    "🏛️",
-    "🤝"
+    "🪐",
+    "⚖️"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "RMF24",
-     "tytuł": "„Polska nie będzie płacić za błędy innych państw”. Tusk o polityce migracyjnej",
-     "url": "https://www.rmf24.pl/fakty/polska/news-polska-nie-bedzie-placic-za-bledy-innych-panstw-tusk-o-polit,nIdn,1022413"
+     "tytuł": "RPO zajął się sprawą Piotra W., zatrzymanego przez policję w okolicy Trybunału",
+     "url": "https://www.rmf24.pl/regiony/warszawa/news-rpo-zajal-sie-sprawa-piotra-w-zatrzymanego-przez-policje-w-o,nIdn,1022554"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "RPO reaguje, w tle zatrzymanie Piotra W. Wnioski do policji i prokuratury",
+     "url": "https://wydarzenia.interia.pl/kraj/news-rpo-reaguje-w-tle-zatrzymanie-piotra-w-wnioski-do-policji-i,nId,23560719"
     },
     {
      "nazwa": "Gazeta.pl",
-     "tytuł": "Tusk o nielegalnej migracji. \"Polska nie będzie płacić za błędy innych krajów\"",
-     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33084993,tusk-postawil-granice-ws-migracji-polska-nie-bedzie-placic.html"
+     "tytuł": "Sprawa zatrzymania Piotra W. TVP Info publikuje zdjęcia z protestu przed TK. \"Atakował policję\"",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33087075,sprawa-zatrzymania-piotra-w-tvp-info-publikuje-zdjecia-z-protestu.html"
     }
    ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.065,
+    "wynik": 7.346,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.3,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.45,
      "eksponowanie": 0.0,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.474,
-     "treściwość": 0.191,
+     "świeżość": 0.475,
+     "treściwość": 0.421,
      "język_działu": 0.5
     }
    },
@@ -259,110 +267,121 @@
     "emoji": "🌍",
     "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
    },
-   "nagłówek": "Cztery osoby zabite w „gwałtownym, szybkim” pożarze w kanadyjskiej bazie wojskowej",
-   "lead": "Premier Mark Carney opisuje pożar jako „jedną z najgorszych tragedii dla sił na kanadyjskiej ziemi w czasie pokoju” Cztery osoby zostały zabite, a dziesiątki poważnie rannych po „gwałtownym, szybko poruszającym się” pożarze, który przeszedł przez jedną z najbardziej ruchliwych baz szkoleniowych Kanady w Albercie, premiera kraju…",
+   "nagłówek": "„To nie jest poker”: Alberta idzie na wybory w referendum, które ujawniły podziały, nie tylko wśród separatystów",
+   "lead": "Należy zapytać wyborców, czy prowincja powinna pozostać częścią Kanady, czy też przeprowadzić drugie, wiążące głosowanie niepodległościowe. Albertanie idą do urn, aby zdecydować o swoim miejscu w Kanadzie , w referendum, które ujawniło głębokie podziały w prowincji, nie tylko w samym ruchu separatystycznym. Mniejszość od dawna się kłóci...",
    "język_źródła": "en",
-   "opublikowano": "2026-10-18T23:53:13+00:00",
+   "opublikowano": "2026-10-19T05:00:22+00:00",
    "źródło": {
     "nazwa": "The Guardian",
-    "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright",
+    "url": "https://www.theguardian.com/world/2026/oct/19/alberta-goes-to-polls-in-referendum-divisions-separatists-canada",
     "domena": "theguardian.com"
    },
-   "obraz": "https://i.guim.co.uk/img/media/fd2fce9d5801c1379f2c9034bd7fd12e94a8a1be/1408_22_5652_4521/master/5652.jpg?width=140&quality=85&auto=format&fit=max&s=d0ae93ec314abf587a38476a01cc10a1",
+   "obraz": "https://i.guim.co.uk/img/media/55528ca5d03b953be278cb5d9988c4a444d24f87/245_0_5016_4013/master/5016.jpg?width=140&quality=85&auto=format&fit=max&s=2d1ddbb41ea62584cba2f3a3c178cbe3",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Premier Alberty Danielle Smith powiedziała na niedzielnej konferencji prasowej, że 39 osób było w szpitalu po pożarze, a co najmniej 19 z nich było w stanie krytycznym.",
-      "Generał dywizji Wade Rutland, dowódca 1 Dywizji Kanadyjskiej, powiedział, że na poligonie bazy wojskowej wybuchł pożar trawy, który szybko się rozprzestrzenił.",
-      "Powiedział, że trwa dochodzenie w sprawie przyczyny pożaru.",
-      "Wojsko zidentyfikowało zabitych jako sierżanta Morgana Wonga z lojalnego pułku Edmonton oraz szeregowców Shauna Farrella, Aidana Gouldinga i Haydena Lykkemarka z 3 batalionu, kanadyjskiej piechoty lekkiej księżnej Patricii.",
-      "Cała czwórka służyła w batalionie stacjonującym w Edmonton.",
-      "Rutland powiedział, że urzędnicy wojskowi wiedzieli o pożarze od wielu godzin, ale wierzyli, że został opanowany, zanim wiatr nagle się przesunął, wysyłając płomienie w stronę żołnierzy. „Ogień był oddalony o kilometr, gdy wiatr się zmienił.",
-      "To nie jest normalne, że pożar porusza się na kilometr w 36 sekund ”- powiedział na konferencji prasowej w Edmonton. - Z pewnością nigdy czegoś takiego nie widziałem - dodał.",
-      "Ogień wybuchł podczas intensywnego treningu bojowego z udziałem Kompanii Charliego 3 Batalionu, kanadyjskiej piechoty lekkiej księżnej Patrycji, zamiatającej w obszar, w którym miały miejsce symulowane ataki.",
-      "W kompanii znajdowało się około 84 żołnierzy, którzy zostali podzieleni między zasięg granatów i obszar, w którym żołnierze ćwiczyli ataki na symulowane pozycje wroga. „Naród opłakuje tych odważnych członków naszych sił zbrojnych, których straciliśmy."
+      "Entuzjazm, jaki obie strony mogły mieć, idąc do referendum, został stłumiony po wybuchu śmiertelnego pożaru w dużej bazie wojskowej w prowincji.",
+      "W sobotnie popołudnie ogień przedarł się przez CFB Wainwright do pobliskiego miasta.",
+      "Siły zbrojne Kanady ogłosiły z „głębokim smutkiem”, że było wiele ofiar śmiertelnych i rannych.",
+      "Premier Alberty, Danielle Smith, przez lata przekonywała, że referendum nie jest potrzebne, ale i tak je zwołała po naciskach ze strony niektórych członków jej Zjednoczonej Partii Konserwatywnej.",
+      "Niemniej jednak Smith nie prowadziła kampanii na rzecz niepodległości, mówiąc w czerwcu, że szacuje koszt separacji na około 400 miliardów C$ (212 miliardów £) na przejście i kolejne 25 miliardów $ - 50 miliardów $ rocznych kosztów związanych z założeniem nowego kraju.",
+      "Przeciwnicy niepodległości skupili się głównie na kosztach separacji, a szkoła polityki publicznej Uniwersytetu Calgary stwierdziła w czerwcu, że może ona wynieść do 170 miliardów $ w ciągu pięciu lat i być wysoce nieprzewidywalna w dłuższej perspektywie.",
+      "Były premier Jason Kenney i Rachel Notley – z prawicowej Partii Konserwatywnej i lewicowej Nowej Demokracji – wystąpili razem na scenie, odkładając na bok gorzką rywalizację ideologiczną, która częściej definiuje politykę albertańską.",
+      "Mark Carney, który dorastał w prowincji, odwiedził w zeszłym tygodniu Calgary i Edmonton, aby prowadzić kampanię na rzecz zjednoczonej Kanady. „W tym kluczowym momencie Albertanie mają wybór: zbudować silniejszą Albertę i większą Kanadę, aby wyjechać dla naszych dzieci, lub obciążyć je latami głębokiego podziału i wielkiej niepewności” - powiedział premier hałaśliwym tłumom.",
+      "Carney, który wcześniej pełnił funkcję prezesa Banku Anglii, widział z pierwszej ręki skutki głosowania w sprawie Brexitu i wynikającego z niego wstrząsu gospodarczego. „To nie jest poker."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Ratownicy medyczni pracują w Centrum Zdrowia Wainwright, ponieważ ranni wojskowi są leczeni po pożarze w Canadian Forces Base Wainwright, poza Wainwright, Alberta Sobota, październik",
-      "John Ulan/The Canadian Press/ AP hide caption EDMONTON, Alberta — kanadyjski premier Mark Carney powiedział w niedzielę, że czterech członków służby zostało zabitych, a dziesiątki poważnie rannych w pożarze bazy wojskowej w Albercie, opisując to jako jedną z najgorszych tragedii pokojowych dla armii Kanady na jej terytorium.",
-      "Ekipy strażackie wdarły się pod koniec soboty, gdy gwałtowne wiatry uniosły płomienie poza bazę Kanadyjskich Sił Zbrojnych Wainwright i w pobliskie obszary wiejskie.",
-      "Kanadyjskie wojsko stwierdziło, że w niedzielę nic nie wskazywało na to, że incydent był wynikiem terroryzmu, ale sprawa pozostała przedmiotem dochodzenia.",
-      "Nie było od razu jasne, ile osób zostało rannych Cathy Keane, kandydatka na burmistrza w Ontario, powiedziała, że jej najstarszy syn był krytycznie ranny wśród personelu wojskowego.",
-      "„Jako matka muszę teraz być z synem i rodziną” - napisała na Facebooku, mówiąc, że podróżuje do Alberty."
+      "Mieszkańcy Alberty w Kanadzie głosują w referendum, czy prowincja powinna rozpocząć proces, który ostatecznie może doprowadzić do niepodległości.",
+      "Wydaje się, że projekt nie odniesie sukcesu, ale głosowanie, które w ogóle się odbywa, oznacza, że w ogromnym regionie bogatym w ropę naftową pojawiają się problemy gospodarcze i polityczne.",
+      "Przywódcy separatystyczni mają nadzieję, że stosunkowo silne działania w ich sprawie mogą jednak wywrzeć presję na rząd premiera Marka Carneya w Ottawie, aby w przyszłości zwracał na nich większą uwagę.",
+      "Sondaże rozpoczęły się o godzinie 9:00 czasu lokalnego w stolicy prowincji Edmonton (1500 GMT/UTC) w poniedziałek.",
+      "Ich zamknięcie zaplanowano na godzinę 20:00 tego wieczoru (wtorek, 02:00 GMT/UTC).",
+      "Poniedziałkowe referendum jest pierwszym poświęconym pojęciu oderwania się od Kanady w prowincji innej niż francuskojęzyczna prowincja Quebec, która ma lepiej znany ruch separatystyczny założony w różnicach językowych i kulturowych.",
+      "W Kanadzie bogata w ropę prowincja Alberta głosuje w referendum, które może skierować ją na drogę separacji, ponieważ premier Mark Carney ostrzega przed zagrożeniami dla jedności Kanady."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Kanadyjczycy to osoby utożsamiane z krajem Kanady. Powiązanie to może mieć charakter mieszkalny, prawny, historyczny lub kulturowy. Dla większości Kanadyjczyków wiele z tych powiązań istnieje i razem są źródłem ich kanadyjskiego pochodzenia."
+      "Alberta to prowincja w Kanadzie. Jest częścią zachodniej Kanady i jedną z trzech prowincji prerii. Na zachodzie Alberta graniczy z Kolumbią Brytyjską, na wschodzie z Saskatchewanem, na północy z Terytoriami Północno-Zachodnimi, a na południu z amerykańskim stanem Montana. Alberta i Saskatchewan to jedyne dwie prowincje bez dostępu do morza. Wschodnią część prowincji zajmują Wielkie Równiny, a zachodnią Góry Skaliste. Prowincja ma głównie klimat kontynentalny, ale sezonowe temperatury mają tendencję do gwałtownych wahań ze względu na jej suchość. Te huśtawki są mniej wyraźne w zachodniej Albercie ze względu na okazjonalne wiatry Chinook. Alberta jest czwartą co do wielkości prowincją Kanady, o powierzchni 661 848 kilometrów kwadratowych (255 541 mil kwadratowych) i czwartą pod względem liczby ludności, z 4 262 635 mieszkańcami. Stolicą Alberty jest Edmonton; jej największym miastem jest Calgary."
      ],
      "język": "en",
-     "przypis": "Wikipedia: Canadians",
-     "url": "https://en.wikipedia.org/wiki/Canadians"
+     "przypis": "Wikipedia: Alberta",
+     "url": "https://en.wikipedia.org/wiki/Alberta"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "96km/h",
-    "60",
-    "39",
-    "19",
-    "36",
-    "84"
+    "400",
+    "212",
+    "25",
+    "50",
+    "170",
+    "40,000km"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Canadians",
-    "opis": "People of Canada",
-    "tekst": "Canadians are people identified with the country of Canada. This connection may be residential, legal, historical or cultural. For most Canadians, many of these connections exist and are collectively the source of their being Canadian.",
-    "url": "https://en.wikipedia.org/wiki/Canadians",
+    "hasło": "Alberta",
+    "opis": "Province of Canada",
+    "tekst": "Alberta is a province in Canada. It is a part of Western Canada and is one of the three prairie provinces. Alberta is bordered by British Columbia to its west, Saskatchewan to its east, the Northwest Territories to its north, and the U.S. state of Montana to its south. Alberta and Saskatchewan are the only two landlocked provinces. The eastern part of the province is occupied by the Great Plains, while the western part borders the Rocky Mountains. The province has a predominantly continental climate, but seasonal temperatures tend to swing rapidly due to its aridity. Those swings are less pronounced in western Alberta because of its occasional Chinook winds. Alberta is Canada's fourth-largest province by area, at 661,848 square kilometres (255,541 sq mi), and the fourth-most populous, with 4,262,635 residents. Alberta's capital is Edmonton; its largest city is Calgary. The two cities are…",
+    "url": "https://en.wikipedia.org/wiki/Alberta",
     "język": "en"
    },
    "tagi": [
-    "Wainwright",
-    "Canadian",
-    "Edmonton",
-    "Alberta"
+    "Alberta",
+    "Canada",
+    "Albertans",
+    "Carney"
    ],
    "emotki": [
-    "🏛️"
+    "🗳️"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "The Guardian",
-     "tytuł": "Four people killed in ‘violent, fast-moving’ fire at Canadian military base",
-     "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright"
+     "tytuł": "‘This is not poker’: Alberta goes to polls in referendum that has exposed divisions, not least among separatists",
+     "url": "https://www.theguardian.com/world/2026/oct/19/alberta-goes-to-polls-in-referendum-divisions-separatists-canada"
+    },
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "Canada: Alberta votes on holding independence referendum",
+     "url": "https://www.dw.com/en/canada-alberta-votes-on-holding-independence-referendum/a-79700283?maca=en-rss-en-world-4025-rdf"
     },
     {
      "nazwa": "NPR",
-     "tytuł": "Carney says 4 service members killed and dozens injured in fire at Alberta military base",
-     "url": "https://www.npr.org/2026/10/18/nx-s1-6007276/fire-alberta-deadly-canada-military-base"
+     "tytuł": "Alberta voters decide whether to take a step toward separating from Canada",
+     "url": "https://www.npr.org/2026/10/19/nx-s1-6005810/alberta-voters-decide-whether-to-take-a-step-toward-separating-from-canada"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "Alberta voters weigh future in Canada",
+     "url": "https://www.npr.org/2026/10/18/nx-s1-6004877/alberta-referendum-canada-vote"
     }
    ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 2,
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 3,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.009,
+    "wynik": 8.818,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.35,
-     "eksponowanie": 0.36,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.657,
+     "eksponowanie": 1.98,
      "słowa_kluczowe": 0.35,
-     "świeżość": 0.549,
+     "świeżość": 0.531,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Four people killed in ‘violent, fast-moving’ fire at Canadian military base",
+   "oryginalny_nagłówek": "‘This is not poker’: Alberta goes to polls in referendum that has exposed divisions, not least among separatists",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -376,72 +395,98 @@
     "emoji": "🌍",
     "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
    },
-   "nagłówek": "Papież Leon XIV dziękuje życzliwym w pierwszym zdarzeniu po operacji raka",
-   "lead": "W pierwszym wydarzeniu papieża od czasu diagnozy i operacji raka płuc recytował tradycyjną modlitwę Angelusa z balkonu Pałacu Apostolskiego.",
+   "nagłówek": "Niedobory finansowania zmuszają Światowy Program Żywnościowy do cięcia pomocy dla Gazy",
+   "lead": "Liczba osób wspomaganych przez agendę ONZ na terytorium Palestyny spadnie o około jedną trzecią - z 1,6 mln do 1,1 mln.",
    "język_źródła": "en",
-   "opublikowano": "2026-10-18T11:09:32+00:00",
+   "opublikowano": "2026-10-19T06:00:18+00:00",
    "źródło": {
-    "nazwa": "BBC Europe",
-    "url": "https://www.bbc.co.uk/news/videos/cq70px6pjkg5o?at_medium=RSS&at_campaign=rss",
+    "nazwa": "BBC News",
+    "url": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_medium=RSS&at_campaign=rss",
     "domena": "bbc.co.uk"
    },
-   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/21f0/live/4a3b0720-cae5-11f1-a64c-550be9e3c66b.jpg",
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a2c/live/e6934370-cb7c-11f1-8d42-dd1c1e8413a3.jpg",
    "sekcje": [
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "18, 2026 r., dzień po powrocie ze szpitala, gdzie we wtorek usunięto mu raka płuc.",
-      "Piotra w niedzielę na modlitwę, gdy był hospitalizowany na operację usunięcia złośliwego guza i powiedział, że planuje stopniowo powrócić do swoich zwykłych obowiązków.",
-      "Delegacja z Afryki na kongres w Rzymie tańczyła i urażona błogosławieństwem papieża. „Zawsze był w naszych modlitwach, kiedy był chory, i cieszymy się, że go dziś widzimy” - powiedział Alain Kalembu z Demokratycznej Republiki Konga. „To wyraz naszej radości.\" 71-letni papież miał usunięty dolny płat prawego płuca we wtorek w pierwszym poważnym wydarzeniu zdrowotnym swojego 17-miesięcznego pontyfikatu."
+      "Dwie trzecie populacji boryka się z kryzysowym poziomem braku bezpieczeństwa żywnościowego, a 200 000 osób jest zagrożonych głodem. Ta zima prawdopodobnie pogłębi głód wśród Palestyńczyków w Strefie Gazy, po tym jak ogromne cięcia pomocy zmusiły Światowy Program Żywnościowy (WFP) ONZ do zaprzestania wspierania ponad pół miliona ludzi miesięcznie, powiedział dyrektor agencji ds. Palestyny.",
+      "Ponad rok po wejściu w życie zawieszenia broni przez Trumpa, obiecana odbudowa jeszcze się nie rozpoczęła, miejsc pracy jest niewiele, a zdecydowana większość w Gazie nadal polega na pomocy w jedzeniu.",
+      "Tego lata programy WFP pomogły wyżywić trzy czwarte ludności Gazy, około 1,6 miliona osób, ale finansowanie spadło o ponad połowę w porównaniu z poziomem z 2025 roku.",
+      "W rezultacie od października pomoc jest zmniejszana do 1,1 miliona osób miesięcznie.",
+      "WFP potrzebuje ponad 300 mln £ w ciągu najbliższych sześciu miesięcy, aby przywrócić i utrzymać krytyczne programy w Palestynie.",
+      "Rok dużych dostaw pomocy zakończył głód ogłoszony latem 2025 roku i zmniejszył najpoważniejszy głód, ale bez działań na rzecz odbudowy gospodarki Gazy większość rodzin nadal polega na dostawach żywności. „Są to bardzo kruche zyski, które można łatwo odwrócić, a sytuacja jest nadal brutalna” - powiedział Shaun Hughes, przedstawiciel WFP i dyrektor krajowy ds. Palestyny.",
+      "Światowy Program Żywnościowy ONZ mówi, że 1,4 miliona ludzi w Strefie Gazy cierpi z powodu poważnych niedoborów żywności, a luki w finansowaniu wymuszają cięcia w krytycznej pomocy, mimo że USA pośredniczyły w zawieszeniu broni między Hamasem a Izraelem."
      ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Światowy Program Żywnościowy (WFP) jest międzynarodową organizacją w ramach Organizacji Narodów Zjednoczonych (ONZ), która zapewnia pomoc żywnościową na całym świecie. Jest największą organizacją humanitarną na świecie i wiodącym dostawcą posiłków szkolnych. Założona w 1961 roku, WFP ma siedzibę w Rzymie i biura w 87 krajach. W 2023 r. wsparła ponad 152 mln osób i jest obecna w ponad 120 krajach i terytoriach."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: World Food Programme",
+     "url": "https://en.wikipedia.org/wiki/World_Food_Programme"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "18, 2026",
-    "71",
-    "17",
-    "10"
+    "1.6 million",
+    "1.1 million",
+    "200,000",
+    "300",
+    "80%",
+    "40"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "World Food Programme",
+    "opis": "Food-assistance branch of the UN",
+    "tekst": "The World Food Programme (WFP) is an international organization within the United Nations (UN) that provides food assistance worldwide. It is the world's largest humanitarian organization and the leading provider of school meals. Founded in 1961, WFP is headquartered in Rome and has offices in 87 countries. In 2023 it supported over 152 million people, and it is present in more than 120 countries and territories.",
+    "url": "https://en.wikipedia.org/wiki/World_Food_Programme",
+    "język": "en"
+   },
    "tagi": [
-    "Apostolic Palace",
-    "Angelus",
-    "Pope's",
-    "Leo"
+    "World Food Programme",
+    "Palestinian",
+    "Gaza"
    ],
    "emotki": [],
    "wszystkie_źródła": [
     {
-     "nazwa": "BBC Europe",
-     "tytuł": "Pope Leo XIV thanks wellwishers in first event after cancer surgery",
-     "url": "https://www.bbc.co.uk/news/videos/cq70px6pjkg5o?at_medium=RSS&at_campaign=rss"
+     "nazwa": "BBC News",
+     "tytuł": "Funding shortages force World Food Programme to cut aid to Gaza",
+     "url": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Cuts force World Food Programme to end support for half a million Palestinians in Gaza",
+     "url": "https://www.theguardian.com/world/2026/oct/19/cuts-world-food-programme-end-support-palestinians-gaza"
     },
     {
      "nazwa": "NPR",
-     "tytuł": "Pope Leo says he will gradually resume duties after cancer surgery",
-     "url": "https://www.npr.org/2026/10/18/g-s1-148654/pope-leo-says-he-will-gradually-resume-duties-after-cancer-surgery"
+     "tytuł": "'Life is absolutely brutal in Gaza,' says World Food Programme head",
+     "url": "https://www.npr.org/2026/10/18/nx-s1-6001709/life-is-absolutely-brutal-in-gaza-says-world-food-programme-head"
     }
    ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 4.374,
+    "wynik": 7.144,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.3,
-     "eksponowanie": 0.54,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.411,
-     "treściwość": 0.223,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.68,
+     "eksponowanie": 0.09,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.374,
+     "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Pope Leo XIV thanks wellwishers in first event after cancer surgery",
+   "oryginalny_nagłówek": "Funding shortages force World Food Programme to cut aid to Gaza",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -455,94 +500,97 @@
     "emoji": "🏅",
     "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
    },
-   "nagłówek": "Real tym razem bez potknięcia w La Liga. Padło pięć goli. Teraz El Clasico",
-   "lead": "Po sobotniej wygranej Barcelony z Betisem (wyjazdowe 5:2) przewaga obrońców tytułu nad Realem urosła do dziewięciu punktów. Dzień później \"Królewscy\" podjęli próbę zredukowania tego dystansu w starciu z Sevillą .",
+   "nagłówek": "Widzew Łódź - Górnik Zabrze w 12. kolejce PKO BP Ekstraklasy. Relacja na żywo",
+   "lead": "Drugim piątkowym starciem w ramach 12. kolejki PKO BP Ekstraklasy będzie klasyczny pojedynek w „Sercu Łodzi”, gdzie Widzew Łódź podejmie Górnika Zabrze. Pierwszy gwizdek na stadionie przy al.",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-18T21:04:34+00:00",
+   "opublikowano": "2026-10-19T21:00:15+00:00",
    "źródło": {
     "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-real-odpowiada-barcelonie-deklasacja-w-madrycie-mocna-zapowi,nId,23560221",
+    "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/na-zywo-widzew-lodz-gornik-zabrze-w-12-kolejce-pko-bp-ekstraklasy-re,nzId,9333",
     "domena": "sport.interia.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000NF8S25TOYUD95-C321.webp",
+   "obraz": "https://i.iplsc.com/-/000N03GMQ38UOT6B-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Szarżę przypuścili z czwartego miejsca w tabeli.",
-      "W dniu meczu hiszpańskie media obiegła plotka, że trenerska posada Jose Mourinho w Madrycie jest poważnie zagrożona.",
-      "Piłkarze chcą z nim współpracować.",
-      "Szefostwo klubu rzekomo skłania się jednak ku opcji angażu Didiera Deschampsa , otwiera się w nowym oknie .",
-      "\"Los Blancos\" nie rzucili się na niżej notowanego rywala od pierwszych minut.",
-      "Premierowe pół godziny gry rozczarowało.",
-      "Prowadzenie gospodarzom mógł da Yan Diomande, ale trafił tylko w boczną siatkę.",
-      "W odpowiedzi minimalnie niecelnie uderzał Ruben Vargas.",
-      "Zaraz potem Real przystąpił do egzekucji."
+      "Piłsudskiego wybrzmi 23 października 2026 roku o godzinie 20:30.",
+      "Gospodarze przystępują do tego spotkania z zamiarem zdobycia upragnionego kompletu punktów przed własną publicznością.",
+      "Z kolei zespól Górnika Zabrze, prezentujący stabilną formę w czołowej części ligowej tabeli, powalczy o przedłużenie udanej serii bez porażki w lidze na trudnym terenie."
      ]
     },
     {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
      "treść": [
-      "Primera División – najwyższa w hierarchii klasa męskich ligowych rozgrywek piłkarskich w Hiszpanii, będąca jednocześnie najwyższym szczeblem centralnym, utworzona w 1929 i zarządzana przez Liga de Fútbol Profesional (LFP), a wcześniej przez Królewską Hiszpańską Federację Piłki Nożnej (RFEF). Zmagania w jej ramach toczą się cyklicznie i przeznaczone są dla 20 najlepszych krajowych klubów piłkarskich. Jej triumfator zostaje Mistrzem Hiszpanii, zaś najsłabsze drużyny są relegowane do Segunda División."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Primera División",
-     "url": "https://pl.wikipedia.org/wiki/Primera_Divisi%C3%B3n"
+      "W inaugurującym 12. kolejkę PKO BP Ekstraklasy spotkaniu Motor Lublin podejmie na Motor Lublin Arenie zespół Zagłębia Lubin.",
+      "Mecz odbędzie się w piątek, 23 października 2026 roku, a pierwszy gwizdek sędziego zabrzmi o godzinie 18:00.",
+      "Gospodarze z Lublina przystępują do tego starcia naładowani po wygranej z Radomiakiem i Śląskiem Wrocław przed własną publicznością.",
+      "Z kolei zespół Zagłębia Lubin, znajdujący się w czołowej części tabeli (7. miejsce), liczy na wywiezienie z Lublina kompletu punktów.",
+      "Faworytem tej konfrontacji będą gospodarze ze Szczecina, którzy znajdują się w czołowej części ligowej tabeli i prezentują dobrą, stabilną formę.",
+      "Z kolei zespół Radomiaka zderza się w bieżącym sezonie z kryzysem i musi pilnie szukać punktów, by oddalić się od strefy spadkowej.",
+      "Portowcy liczą na wykorzystanie atutu własnego boiska, jednak starcia obu ekip bywały w przeszłości zacięte, m.in. remis w ostatnim meczu tych ekip 2:2 co zapowiada spory ładunek emocji."
+     ]
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "80",
-    "120"
+    "12",
+    "23",
+    "20",
+    "30",
+    "18",
+    "00"
    ],
    "inne_spojrzenia": [
     {
      "źródło": "TVP Sport",
-     "ujęcie": "Real Madryt z ważnym zwycięstwem przed El Clasico.",
-     "url": "https://sport.tvp.pl/95998731/la-liga-real-madryt-z-waznym-zwyciestwem-przed-el-clasico-pewna-wygrana"
+     "ujęcie": "PKO BP Ekstraklasa: Wisła Płock wygrała z Radomiakiem Radom",
+     "url": "https://sport.tvp.pl/96015096/pko-bp-ekstraklasa-wisla-plock-wygrala-z-radomiakiem-radom"
     }
    ],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Primera División",
-    "opis": "1. poziom rozgrywek ligowych w piłce nożnej w Hiszpanii",
-    "tekst": "Primera División – najwyższa w hierarchii klasa męskich ligowych rozgrywek piłkarskich w Hiszpanii, będąca jednocześnie najwyższym szczeblem centralnym, utworzona w 1929 i zarządzana przez Liga de Fútbol Profesional (LFP), a wcześniej przez Królewską Hiszpańską Federację Piłki Nożnej (RFEF). Zmagania w jej ramach toczą się cyklicznie i przeznaczone są dla 20 najlepszych krajowych klubów piłkarskich. Jej triumfator zostaje Mistrzem Hiszpanii, zaś najsłabsze drużyny są relegowane do Segunda División.",
-    "url": "https://pl.wikipedia.org/wiki/Primera_Divisi%C3%B3n",
-    "język": "pl"
-   },
+   "tło": null,
    "tagi": [
-    "Barcelony",
-    "Odysseas Vlachodimos",
-    "Didiera Deschampsa",
-    "Thibaut Courtois"
+    "Górnika Zabrze",
+    "Ekstraklasy",
+    "Łódź Górnik Zabrze",
+    "Sercu Łodzi"
    ],
-   "emotki": [
-    "⚽"
-   ],
+   "emotki": [],
    "wszystkie_źródła": [
     {
      "nazwa": "Interia Sport",
-     "tytuł": "Real tym razem bez potknięcia w La Liga. Padło pięć goli. Teraz El Clasico",
-     "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-real-odpowiada-barcelonie-deklasacja-w-madrycie-mocna-zapowi,nId,23560221"
+     "tytuł": "Widzew Łódź - Górnik Zabrze w 12. kolejce PKO BP Ekstraklasy. Relacja na żywo",
+     "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/na-zywo-widzew-lodz-gornik-zabrze-w-12-kolejce-pko-bp-ekstraklasy-re,nzId,9333"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Motor Lublin - KGHM Zagłębie Lubin w 12. kolejce PKO BP Ekstraklasy. Relacja na żywo",
+     "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/na-zywo-motor-lublin-kghm-zaglebie-lubin-w-12-kolejce-pko-bp-ekstrak,nzId,9332"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Pogoń Szczecin - Radomiak Radom w 12. kolejce PKO BP Ekstraklasy. Relacja na żywo",
+     "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/na-zywo-pogon-szczecin-radomiak-radom-w-12-kolejce-pko-bp-ekstraklas,nzId,9335"
     },
     {
      "nazwa": "TVP Sport",
-     "tytuł": "La Liga. Real Madryt z ważnym zwycięstwem przed El Clasico. Pewna wygrana",
-     "url": "https://sport.tvp.pl/95998731/la-liga-real-madryt-z-waznym-zwyciestwem-przed-el-clasico-pewna-wygrana"
+     "tytuł": "PKO BP Ekstraklasa: Wisła Płock wygrała z Radomiakiem Radom",
+     "url": "https://sport.tvp.pl/96015096/pko-bp-ekstraklasa-wisla-plock-wygrala-z-radomiakiem-radom"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 4.614,
+    "wynik": 5.279,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.2,
+     "ranga_źródła": 1.515,
      "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.0,
+     "słowa_kluczowe": 0.35,
      "świeżość": 0.514,
      "treściwość": 0.5,
      "język_działu": 0.5
@@ -557,98 +605,140 @@
     "emoji": "🏅",
     "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
    },
-   "nagłówek": "Znany trener o triumfie Mai Chwalińskiej w Wuhanie. Tak podsumował Polkę",
-   "lead": "Maja Chwalińska w Wuhan osiągnęła największy sukces w dotychczasowej karierze. W finale zmierzyła się z Sonay Kartal i choć początkowo musiała gonić wynik, ostatecznie odwróciła losy spotkania.",
+   "nagłówek": "Raphinha, Yamal i dwaj piłkarze z Ekstraklasy. Ujawniono listę. To megahit",
+   "lead": "Aktualny kształt klasyfikacji wygląda zgoła sensacyjnie. W zestawieniu uwzględniającym sumę bramek oraz asyst Pablo Rodriguez i Bartosz Nowak wyprzedzają m.in.",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-18T20:40:58+00:00",
+   "opublikowano": "2026-10-19T20:53:26+00:00",
    "źródło": {
     "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/tenis/news-byly-trener-williams-wprost-o-sukcesie-chwalinskiej-tak-ja-p,nId,23560224",
+    "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/news-sensacyjne-doniesienia-dwaj-pilkarze-ekstraklasy-obok-gwiazd,nId,23560782",
     "domena": "sport.interia.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000MZIR95UTMMCQP-C321.webp",
+   "obraz": "https://i.iplsc.com/-/000NFF3S23A73WBV-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Zwycięstwo 2:6, 6:4, 6:2 , otwiera się w nowym oknie nad Brytyjką zapewniło jej pierwszy tytuł w karierze w imprezie tej rangi.",
-      "Znakomity występ naszej zawodniczki nie przeszedł bez echa - sukces Polki skomentowali m.in. organizatorzy turnieju Rolanda Garrosa, Hubert Hurkacz, Magda Linette i Martyna Kubka.",
-      "Teraz do tego grona dołączył Rick Macci , szkoleniowiec znany ze współpracy między innymi z Sereną i Venus Williams , Andym Roddickiem oraz Marią Szarapową.",
-      "Amerykanin opublikował wpis w mediach społecznościowych, w którym podkreślił, że historia Chwalińskiej pokazuje, jak ważne jest to, dokąd ostatecznie zmierza sportowiec, a nie miejsce, z którego rozpoczyna swoją drogę.",
-      "Zdecydował się przy okazji na nadanie Polce dość... nietypowego pseudonimu.",
-      "\"Chwalińska to świetny przykład, że nie liczy się, od czego zaczynasz, ale gdzie kończysz.",
-      "\"Polski Wiatraczek\" może się zresetować i lądować lewoskrętne pętle jak spadochroniarz.",
-      "Wspaniała historia powrotu, która kończy się dopiero, gdy się poddasz, a mimo przeciwności losu jej umysł stał się silniejszy, a ciało sprawniejsze\" - przekazał na swoim profilu na platformie X.",
-      "Brytyjczycy przemówili po wygranej Chwalińskiej."
+      "Kyliana Mbappe i Mohameda Salaha .",
+      "A ustępują jedynie gwiazdorom Barcelony - Raphinhi i Lamine Yamalowi .",
+      "Zestawienie prezentuje serwis Flashscore.pl.",
+      "Pod uwagę wzięto TOP 15 lig europejskich.",
+      "Rodriguez i Nowak to w Europie ścisła elita.",
+      "Zaskakujący układ sił w klasyfikacji kanadyjskiej Rejestr otwiera Raphinha, który znajduje się obecnie w życiowej formie.",
+      "Brazylijczyk przewodzi klasyfikacji strzelców La Liga .",
+      "W bieżącym cyklu zdobył już 12 bramek i dołożył do tego trzy asysty.",
+      "W liczbie podań otwierających drogę do bramki wyprzedza gol Yamal."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Druga część \"Magazynu Betclic 1 Ligi\" po meczach 11. kolejki.",
+      "Magazyn \"Gol\" po 11. kolejce sezonu PKO BP Ekstraklasy.",
+      "Tabela PKO BP Ekstraklasy 2026/27.",
+      "Sprawdź obecną kolejność miejsc [AKTUALIZACJA 19.10.2026]",
+      "Klasyfikacja strzelców Betclic 1 Ligi 2026/27 – kto prowadzi w zestawieniu?"
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Maja Ewa Chwalińska – polska tenisistka, reprezentantka kraju w rozgrywkach Pucharu Federacji. Zwyciężczyni jednego turnieju WTA w grze pojedynczej. Finalistka French Open 2026. Trzecia polska zawodniczka, która wygrała turniej rangi WTA 1000."
+      "Lamine Yamal Nasraoui Ebana – hiszpański piłkarz pochodzenia marokańsko-gwinejskiego, występujący na pozycji prawego skrzydłowego w hiszpańskim klubie FC Barcelona oraz w reprezentacji Hiszpanii. Uważany jest za jednego z najlepszych piłkarzy na świecie."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Maja Chwalińska",
-     "url": "https://pl.wikipedia.org/wiki/Maja_Chwali%C5%84ska"
+     "przypis": "Wikipedia: Lamine Yamal",
+     "url": "https://pl.wikipedia.org/wiki/Lamine_Yamal"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "6, 6",
-    "4, 6",
-    "20",
-    "500"
+    "15",
+    "12",
+    "11",
+    "27",
+    "19.10.2026"
    ],
    "inne_spojrzenia": [
     {
      "źródło": "TVP Sport",
-     "ujęcie": "Wielka klasa Mai Chwalińskiej.",
-     "url": "https://sport.tvp.pl/95995122/wielka-klasa-mai-chwalinskiej-oto-co-powiedziala-o-triumfie-w-wuhan"
+     "ujęcie": "W programie prowadzący Rafał Kędzior oraz Wojciech Łobodziński i Łukasz Gikiewicz.",
+     "url": "https://sport.tvp.pl/95781564/magazyn-betclic-1-ligi-po-11-kolejce-czesc-2-transmisja-na-zywo-online-live-stream-19102026"
     }
    ],
    "pojęcia": [],
    "tło": {
-    "hasło": "Maja Chwalińska",
-    "opis": "polska tenisistka",
-    "tekst": "Maja Ewa Chwalińska – polska tenisistka, reprezentantka kraju w rozgrywkach Pucharu Federacji. Zwyciężczyni jednego turnieju WTA w grze pojedynczej. Finalistka French Open 2026. Trzecia polska zawodniczka, która wygrała turniej rangi WTA 1000.",
-    "url": "https://pl.wikipedia.org/wiki/Maja_Chwali%C5%84ska",
+    "hasło": "Lamine Yamal",
+    "opis": "hiszpański piłkarz",
+    "tekst": "Lamine Yamal Nasraoui Ebana – hiszpański piłkarz pochodzenia marokańsko-gwinejskiego, występujący na pozycji prawego skrzydłowego w hiszpańskim klubie FC Barcelona oraz w reprezentacji Hiszpanii. Uważany jest za jednego z najlepszych piłkarzy na świecie.",
+    "url": "https://pl.wikipedia.org/wiki/Lamine_Yamal",
     "język": "pl"
    },
    "tagi": [
-    "Chwalińskiej",
-    "Chwalińska",
-    "Ningbo",
-    "Wuhan"
+    "Pablo Rodriguez",
+    "Ekstraklasy",
+    "Yamal",
+    "Mbappe Real Madryt Vangelis Pavlidis Benfica Lizbona"
    ],
    "emotki": [
-    "🎾"
+    "⚽"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Interia Sport",
-     "tytuł": "Znany trener o triumfie Mai Chwalińskiej w Wuhanie. Tak podsumował Polkę",
-     "url": "https://sport.interia.pl/tenis/news-byly-trener-williams-wprost-o-sukcesie-chwalinskiej-tak-ja-p,nId,23560224"
+     "tytuł": "Raphinha, Yamal i dwaj piłkarze z Ekstraklasy. Ujawniono listę. To megahit",
+     "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/news-sensacyjne-doniesienia-dwaj-pilkarze-ekstraklasy-obok-gwiazd,nId,23560782"
     },
     {
      "nazwa": "TVP Sport",
-     "tytuł": "Wielka klasa Mai Chwalińskiej. Oto, co powiedziała o triumfie w Wuhan",
-     "url": "https://sport.tvp.pl/95995122/wielka-klasa-mai-chwalinskiej-oto-co-powiedziala-o-triumfie-w-wuhan"
+     "tytuł": "Magazyn Betclic 1 Ligi po 11. kolejce, część 2. (19.10.2026)",
+     "url": "https://sport.tvp.pl/95781564/magazyn-betclic-1-ligi-po-11-kolejce-czesc-2-transmisja-na-zywo-online-live-stream-19102026"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "GOL – magazyn piłkarski po 11. kolejce PKO BP Ekstraklasy (19.10.2026)",
+     "url": "https://sport.tvp.pl/95781626/gol-magazyn-pilkarski-po-11-kolejce-pko-bp-ekstraklasy-transmisja-na-zywo-online-live-stream-19102026"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Tabela PKO BP Ekstraklasy 2026/27. Sprawdź obecną kolejność miejsc [AKTUALIZACJA 19.10.2026]",
+     "url": "https://sport.tvp.pl/94509492/tabela-pko-bp-ekstraklasa-202627-ranking-aktualizacja"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Klasyfikacja strzelców PKO BP Ekstraklasy 2026/27 – kto prowadzi w zestawieniu? [AKTUALIZACJA]",
+     "url": "https://sport.tvp.pl/94509600/klasyfikacja-strzelcow-ekstraklasy-202627-kto-prowadzi-aktualizacja"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Terminarz PKO BP Ekstraklasy 2026/27. Kiedy mecze w sezonie? Sprawdź kalendarz i wyniki",
+     "url": "https://sport.tvp.pl/92868963/terminarz-pko-bp-ekstraklasy-202627-kiedy-mecze-w-kolejnym-sezonie-sprawdz-kalendarz"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Klasyfikacja strzelców Betclic 1 Ligi 2026/27 – kto prowadzi w zestawieniu? [AKTUALIZACJA]",
+     "url": "https://sport.tvp.pl/94509856/klasyfikacja-strzelcow-betclic-1-ligi-202627-kto-prowadzi-aktualizacja"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Tabela Betclic 1 Ligi 2026/27. Sprawdź obecną kolejność miejsc [AKTUALIZACJA 19.10.2026]",
+     "url": "https://sport.tvp.pl/94509395/tabela-betclic-1-liga-202627-ranking-aktualizacja"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 4.578,
+    "wynik": 5.485,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.2,
+     "ranga_źródła": 2.1,
      "eksponowanie": 0.0,
      "słowa_kluczowe": 0.0,
-     "świeżość": 0.509,
-     "treściwość": 0.469,
+     "świeżość": 0.511,
+     "treściwość": 0.474,
      "język_działu": 0.5
     }
    },
@@ -661,147 +751,100 @@
     "emoji": "🌐",
     "opis": "wielkie ligi, turnieje i rekordy poza Polską"
    },
-   "nagłówek": "Chwalińska podjęła decyzję ws. Ningbo. Dojdzie do rewanżu za niedzielę",
-   "lead": "W niedzielę w Wuhanie Maja Chwalińska zdobyła swój pierwszy tytuł w karierze w głównym cyklu WTA - zarazem od razu jeden z najważniejszych, jakie są w sezonie. Wyżej od imprez rangi 1000 są tylko Wielkie Szlemy.",
+   "nagłówek": "Lech Poznań - Sunderland w fazie ligowej Ligi Europy. Relacja na żywo",
+   "lead": "Mistrzowie Polski szukają przełamania na europejskiej arenie po dwóch dotkliwych porażkach bez zdobytej bramki (0:4 z Crystal Palace oraz 0:4 z Bayerem Leverkusen). Piłkarze z Poznania przystępują jednak do rywalizacji w podbudowanych nastrojach po efektownym ligowym zwycięstwie 6:1 nad Koroną Kielce.",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-19T03:52:32+00:00",
+   "opublikowano": "2026-10-19T20:40:01+00:00",
    "źródło": {
     "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/tenis/news-chwalinska-podjela-decyzje-ws-ningbo-dojdzie-do-rewanzu-za-n,nId,23560240",
+    "url": "https://sport.interia.pl/pilka-nozna/liga-europy/na-zywo-lech-poznan-sunderland-w-fazie-ligowej-ligi-europy-relacja-n,nzId,9329",
     "domena": "sport.interia.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000NF8ZD6H1N9APN-C321.webp",
+   "obraz": "https://i.iplsc.com/-/000N895AYVHTQ6OV-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "A tych turniejów \"1000\" w całym roku jest zaledwie 10.",
-      "Jedynie Arynie Sabalence udało się w tym sezonie wygrać więcej niż jeden - w marcu triumfowała w Indian Wells i Miami.",
-      "A pozostałe zawodniczki wygrywały co najwyżej raz - w tym Iga Świątek (Toronto).",
-      "Teraz dołączyła do tego grona 25-latka z Bielska Białej.",
-      "W Wuhanie Maja pokonała w finale Sonay Kartal 2:6, 6:4, 6:2 , otwiera się w nowym oknie .",
-      "Ten skłąd meczu był sporą sensacją, bo przecież Brytyjka niespełna miesiąc temu wróciła do gry po kontuzji, pauzowała przez sześć miesięcy.",
-      "A nigdy też nie była tenisistką z pierwszych stron gazet.",
-      "Dzięki tej wygranej Chwalińska awansowała na 11. miejsce na świecie.",
-      "Od razu zostało to potwierdzone przez WTA , otwiera się w nowym oknie ."
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Sięgnęła po niego w Wuhan Open, pokonując w finale Sonay Kartal 2:6, 6:4, 6:2.",
-      "Bezkonkurencyjna okazała się na kortach twardych, zaprzeczając w ten sposób teorii, że groźna dla rywalek potrafi być tylko na mączce.",
-      "Takie przekonanie żywiła do tej pory Rosjanka Anna Kalinska, która wcześniej o potencjale Polki wypowiadała się nad wyraz lekceważąco.",
-      "Maja Chwalińska w niedzielne popołudnie przeszła do historii jako pierwsza Polka, która sięgnęła po końcowy triumf w turnieju rangi WTA 1000 w Wuhan.",
-      "Po wygranej z Sonay Kartal 2:6, 6:4, 6:2 nasza zawodniczka zamieściła w mediach społecznościowych wymowny wpis.",
-      "Maja Chalińska była 8-letnią dziewczynką, gdy uruchomiono format imprezy WTA 1000.",
-      "Od tamtej pory aż do dzisiaj tylko trzy zawodniczki sięgnęły po swój premierowy tytuł w karierze, startując właśnie w turnieju tej rangi."
+      "Z kolei rywal z Premier League prezentuje świetną formę na pucharowym podwórku – Sunderland wygrał oba dotychczasowe mecze (1:0 z AZ Alkmaar i 2:1 z SCU Torreense) i z kompletem 6 punktów plasuje się w czołówce tabeli."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Maja Ewa Chwalińska – polska tenisistka, reprezentantka kraju w rozgrywkach Pucharu Federacji. Zwyciężczyni jednego turnieju WTA w grze pojedynczej. Finalistka French Open 2026. Trzecia polska zawodniczka, która wygrała turniej rangi WTA 1000."
+      "Sunderland Association Football Club – profesjonalny klub piłki nożnej z siedzibą w Sunderlandzie. Został założony w 1879 roku. Sunderland AFC to sześciokrotny mistrz Anglii i wieloletni angielski pierwszoligowiec, który obecnie występuje w Premier League."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Maja Chwalińska",
-     "url": "https://pl.wikipedia.org/wiki/Maja_Chwali%C5%84ska"
+     "przypis": "Wikipedia: Sunderland A.F.C.",
+     "url": "https://pl.wikipedia.org/wiki/Sunderland_A.F.C."
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "1000",
-    "25",
-    "6, 6",
-    "4, 6",
-    "11",
-    "16"
+    "6 punktów",
+    "90",
+    "148",
+    "89",
+    "88",
+    "87"
    ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "Interia Sport",
-     "ujęcie": "Maja Chwalińska ma na koncie pierwszy w karierze tytuł wywalczony w głównym cyklu WTA.",
-     "url": "https://sport.interia.pl/tenis/news-rosjanka-nie-okazala-chwalinskiej-respektu-odpowiedz-polki-w,nId,23560210"
-    }
-   ],
+   "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Maja Chwalińska",
-    "opis": "polska tenisistka",
-    "tekst": "Maja Ewa Chwalińska – polska tenisistka, reprezentantka kraju w rozgrywkach Pucharu Federacji. Zwyciężczyni jednego turnieju WTA w grze pojedynczej. Finalistka French Open 2026. Trzecia polska zawodniczka, która wygrała turniej rangi WTA 1000.",
-    "url": "https://pl.wikipedia.org/wiki/Maja_Chwali%C5%84ska",
+    "hasło": "Sunderland A.F.C.",
+    "opis": "angielski klub piłkarski",
+    "tekst": "Sunderland Association Football Club – profesjonalny klub piłki nożnej z siedzibą w Sunderlandzie. Został założony w 1879 roku. Sunderland AFC to sześciokrotny mistrz Anglii i wieloletni angielski pierwszoligowiec, który obecnie występuje w Premier League.",
+    "url": "https://pl.wikipedia.org/wiki/Sunderland_A.F.C.",
     "język": "pl"
    },
    "tagi": [
-    "Chwalińska",
-    "Wuhanie",
-    "Advantage Bielsko-Biała Katarzyna Kawa",
-    "Marie Bouzkova Kamilla Rachimowa"
+    "Bayerem Leverkusen",
+    "Poznań Sunderland",
+    "Mistrzowie Polski",
+    "Crystal Palace"
    ],
    "emotki": [
-    "🎾"
+    "⚽"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Interia Sport",
-     "tytuł": "Chwalińska podjęła decyzję ws. Ningbo. Dojdzie do rewanżu za niedzielę",
-     "url": "https://sport.interia.pl/tenis/news-chwalinska-podjela-decyzje-ws-ningbo-dojdzie-do-rewanzu-za-n,nId,23560240"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Tak Chwalińska odpowiedziała zarozumiałej Rosjance. \"Jak to leciało?\"",
-     "url": "https://sport.interia.pl/tenis/news-rosjanka-nie-okazala-chwalinskiej-respektu-odpowiedz-polki-w,nId,23560210"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Wpis Mai Chwalińskiej po finale w Wuhan. Lawina komentarzy",
-     "url": "https://sport.interia.pl/tenis/news-chwalinska-zrobila-to-po-triumfie-blyskawiczna-reakcja-kibic,nId,23560111"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Chwalińska nie do zatrzymania. Kapitalna wiadomość. Jest 4. na liście",
-     "url": "https://sport.interia.pl/tenis/news-chwalinska-triumfuje-trafila-do-ekskluzywnego-grona-17-lat-i,nId,23560092"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Nawrocki reaguje na sukces Chwalińskiej. Oto jak się do niej zwrócił",
-     "url": "https://sport.interia.pl/tenis/news-po-wielkim-triumfie-reakcja-prezydenta-tak-nawrocki-zwrocil,nId,23560106"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Brytyjczycy jednogłośnie o Chwalińskiej. \"Wciągnęła Kartal w zaciętą walkę\"",
-     "url": "https://sport.interia.pl/tenis/news-brytyjczycy-przemowili-po-wygranej-chwalinskiej-wciagnela-ka,nId,23560118"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Sukces Chwalińskiej zauważony nawet we Francji. French Open ogłasza",
-     "url": "https://sport.interia.pl/tenis/news-francuzi-zobaczyli-co-zrobila-chwalinska-roland-garros-nadal,nId,23560100"
+     "tytuł": "Lech Poznań - Sunderland w fazie ligowej Ligi Europy. Relacja na żywo",
+     "url": "https://sport.interia.pl/pilka-nozna/liga-europy/na-zywo-lech-poznan-sunderland-w-fazie-ligowej-ligi-europy-relacja-n,nzId,9329"
     },
     {
      "nazwa": "BBC Sport",
-     "tytuł": "Kartal reflects on becoming British number one",
-     "url": "https://www.bbc.co.uk/sport/tennis/videos/c68jzpr8jvz9o?at_medium=RSS&at_campaign=rss"
+     "tytuł": "Who has made Troy's Premier League team of the week?",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cqgm0zy4d23po?at_medium=RSS&at_campaign=rss"
     },
     {
-     "nazwa": "BBC Tennis",
-     "tytuł": "Britain's Kartal misses out on biggest title of her career",
-     "url": "https://www.bbc.co.uk/sport/tennis/articles/cqm2411vp3dgo?at_medium=RSS&at_campaign=rss"
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Tottenham beat Coventry to claim first Premier League win of season – as it happened",
+     "url": "https://www.theguardian.com/football/live/2026/oct/19/tottenham-v-coventry-premier-league-live"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "Spurs beat Coventry to claim first win as Kulusevski makes long-awaited return",
+     "url": "https://www.skysports.com/football/tottenham-hotspur-vs-coventry-city/report/559513"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "Maddison and Marmoush score as Spurs get their first PL win of season",
+     "url": "https://www.skysports.com/watch/video/13601159/spurs-3-1-coventry-premier-league-highlights"
     }
    ],
-   "liczba_źródeł": 2,
+   "liczba_źródeł": 4,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 7.055,
+    "wynik": 9.882,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 2.507,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.598,
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 1.93,
+     "eksponowanie": 0.36,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.542,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -815,54 +858,43 @@
     "emoji": "🌐",
     "opis": "wielkie ligi, turnieje i rekordy poza Polską"
    },
-   "nagłówek": "James zdobywa błyskotliwego sobowtóra, gdy Chelsea stawia sześć minionych Spurs",
-   "lead": "Chelsea wygrała piątą z rzędu Superligę Kobiet, wygrywając z Tottenhamem w 50. meczu menadżerki Sonii Bompastor.",
-   "język_źródła": "en",
-   "opublikowano": "2026-10-18T17:02:19+00:00",
+   "nagłówek": "Liga Mistrzów. Multiliga ze środowych rywalizacji. Relacja na żywo",
+   "lead": "Środowa Multiliga Ligi Mistrzów przyniesie emocje najwyższego formatu, serwując kibicom zestaw pasjonujących meczów. Hitem wieczoru będzie pojedynek na Allianz Arena – Bayern Monachium podejmie Arsenal FC.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-19T20:26:53+00:00",
    "źródło": {
-    "nazwa": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c962yd2ykejmo?at_medium=RSS&at_campaign=rss",
-    "domena": "bbc.co.uk"
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/liga-mistrzow/na-zywo-liga-mistrzow-multiliga-ze-srodowych-rywalizacji-relacja-na,nzId,9327",
+    "domena": "sport.interia.pl"
    },
-   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f416/live/9fdaed40-cb16-11f1-bc2e-018d645d8d21.jpg",
+   "obraz": "https://i.iplsc.com/-/000NAGHVFYHMOKUI-C321.webp",
    "sekcje": [
     {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
      "treść": [
-      "Kylian Mbappe zdobywa dwa razy więcej punktów niż Real Madryt pokonał Sewillę 4: 1 w La Liga, aby zmniejszyć różnicę w Barcelonie do sześciu punktów przed El Clasico w następny weekend.",
-      "Khadija Shaw zdobywa dwa razy tyle punktów, ile Manchester City zdobyło sześć zwycięstw z sześciu w Super Lidze Kobiet po zwycięstwie 3-2 nad Brighton.",
-      "London City Lionesses kontynuują swój imponujący start w sezonie Superligi Kobiet, wygrywając w domu z Evertonem.",
-      "Zapierający dech w piersiach zawodnik sezonu Diego Gómez z połowy sezonu, à la David Beckham, był punktem kulminacyjnym kolejnego niezwykle imponującego występu najlepszych strzelców Premier League, którzy kontynuowali swój start do sezonu.",
-      "Od czasu uderzenia 4-1 tutaj w lutym 2024 roku pod rządami Roberto De Zerbiego Brighton nie próbowało zwycięstwa nad swoimi rywalami z A23 – serii czterech meczów.",
-      "Ale po otrzymaniu inicjatywy od Jaydee Canvot, oszołomiony Pałac znalazł się 3: 0 w dół po 10 minutach.",
-      "Jeszcze bardziej pogorszyło się w przypadku Pierre 'a Sage' a po tym, jak Brighton rozszerzyło swoją przewagę przez cudowny strajk Gómeza i Yasina Ayariego, z Charalamposem Kostoulasem dodanym czwartym po przerwie i późnym strajkiem Jacka Hinshelwooda pasującym do ich rekordowego zwycięstwa 5-0 nad Pałacem z 1956 roku w Trzeciej Dywizji Południowej."
+      "W tym samym czasie Real Madryt zmierzy się przed własną publicznością z RB Lipsk, a w Mediolanie Inter stawi czoła Szachtarowi Donieck.",
+      "Stawkę zamykają dosyć wyrównane spotkania: Betis zagra z Feyenoordem, Club Brugge podejmie Lens, a Sporting spotka się z LASK-iem."
      ]
     }
    ],
    "dlaczego_to_ważne": "",
-   "liczby": [
-    "50",
-    "10",
-    "20",
-    "51",
-    "58"
-   ],
+   "liczby": [],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Women's Super League",
-    "Sonia Bompastor's",
-    "Spurs Chelsea",
-    "Tottenham"
+    "Środowa Multiliga Ligi Mistrzów",
+    "Allianz Arena Bayern Monachium",
+    "Feyenoordem Club Brugge",
+    "Szachtarowi Donieck"
    ],
    "emotki": [],
    "wszystkie_źródła": [
     {
-     "nazwa": "BBC Sport",
-     "tytuł": "James scores brilliant double as Chelsea put six past Spurs",
-     "url": "https://www.bbc.co.uk/sport/football/videos/c962yd2ykejmo?at_medium=RSS&at_campaign=rss"
+     "nazwa": "Interia Sport",
+     "tytuł": "Liga Mistrzów. Multiliga ze środowych rywalizacji. Relacja na żywo",
+     "url": "https://sport.interia.pl/pilka-nozna/liga-mistrzow/na-zywo-liga-mistrzow-multiliga-ze-srodowych-rywalizacji-relacja-na,nzId,9327"
     },
     {
      "nazwa": "BBC Sport",
@@ -880,273 +912,23 @@
      "url": "https://www.bbc.co.uk/sport/football/videos/cjx23n23wd05o?at_medium=RSS&at_campaign=rss"
     },
     {
-     "nazwa": "BBC Sport",
-     "tytuł": "Gomez scores extraordinary goal as Brighton put five past Palace",
-     "url": "https://www.bbc.co.uk/sport/football/videos/ckm23z2qem45o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "The Guardian Sport",
-     "tytuł": "Gómez halfway-line wondergoal sparks Brighton’s 5-0 thrashing of sorry Crystal Palace",
-     "url": "https://www.theguardian.com/football/2026/oct/18/brighton-crystal-palace-premier-league-match-report"
-    },
-    {
-     "nazwa": "BBC Football",
-     "tytuł": "Lamine Yamal opens scoring as Barcelona beat Real Betis",
-     "url": "https://www.bbc.co.uk/sport/football/videos/cmewe0wq0wj1o?at_medium=RSS&at_campaign=rss"
+     "nazwa": "Sky Sports",
+     "tytuł": "Mbappe shines in Real Madrid's win over Sevilla",
+     "url": "https://www.skysports.com/football/live-blog/12040/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more"
     }
    ],
-   "liczba_źródeł": 2,
+   "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.406,
+    "wynik": 7.996,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 2.425,
-     "eksponowanie": 0.36,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.521,
-     "treściwość": 0.5,
-     "język_działu": 0.0
-    }
-   },
-   "oryginalny_nagłówek": "James scores brilliant double as Chelsea put six past Spurs",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   },
-   "miejsce": 2
-  },
-  {
-   "dział": {
-    "id": "technologia",
-    "nazwa": "Technologia i nauka",
-    "emoji": "🧪",
-    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
-   },
-   "nagłówek": "Naukowcy odkrywają, że skóra męska i żeńska gra według różnych zasad",
-   "lead": "Samice myszy leczą rany szybciej niż samce, a naukowcy odkryli zaskakującą różnicę biologiczną, która może pomóc wyjaśnić dlaczego. Obserwując komórki macierzyste skóry u żywych myszy przez pięć miesięcy, naukowcy odkryli, że komórki żeńskie współpracują ze sobą w bardziej skoordynowany sposób, podczas gdy komórki męskie zachowują się bardziej…",
-   "język_źródła": "en",
-   "opublikowano": "2026-10-18T10:52:51+00:00",
-   "źródło": {
-    "nazwa": "ScienceDaily",
-    "url": "https://www.sciencedaily.com/releases/2026/10/261017230020.htm",
-    "domena": "sciencedaily.com"
-   },
-   "obraz": "https://www.sciencedaily.com/images/1920/man-woman-skincare-beauty.webp",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Różnice te są regulowane przez hormony płciowe i mogą ostatecznie pomóc naukowcom w opracowaniu bardziej spersonalizowanych metod leczenia gojenia się ran i chorób skóry.",
-      "Odkrycie pochodzi od naukowców z Université libre de Bruxelles (ULB), pracujących z naukowcami z Uniwersytetu Cambridge.",
-      "Ich odkrycia sugerują, że płeć biologiczna wpływa na sposób, w jaki skóra odnawia się i naprawia, nawet jeśli skóra nie jest częścią układu rozrodczego.",
-      "Historycznie rzecz biorąc, większość badań nad biologicznymi różnicami między samcami i samicami koncentrowała się na narządach rozrodczych.",
-      "Jednak płeć może również wpływać na inne tkanki i narządy w całym organizmie.",
-      "Zrozumienie tych różnic może być ważne dla poprawy profilaktyki i leczenia chorób zapalnych i nowotworów, jednak naukowcy często pomijali ich znaczenie.",
-      "Opublikowane w Nature , badaniem kierował prof.",
-      "Dr n. med. Cédric Blanpain, badacz w Instytucie Badań WEL, dyrektor Laboratorium Komórek Macierzystych i Raka oraz profesor na Université libre de Bruxelles.",
-      "Benjamin Simons i jego zespół na Uniwersytecie Cambridge, wraz z naukowcami z kilku innych instytucji."
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Naukowcy odkryli trzy szlaki mózgowe związane z trwałą poprawą u osób otrzymujących głęboką stymulację mózgu z powodu ciężkiej, opornej na leczenie depresji.",
-      "Odkryli również, że pacjenci, u których nie nastąpiła poprawa po dwóch latach, dzielili uderzający schemat: niewystarczającą stymulację kluczowego połączenia mózgowego.",
-      "W nowym badaniu japońscy naukowcy odkryli, że związek pochodzenia sojowego o nazwie LPC70 pomaga chronić myszy przed kilkoma szkodliwymi skutkami diety o wysokiej zawartości soli.",
-      "Myszy, którym podawano suplement, miały niższe ciśnienie krwi, lepszą pamięć i lepsze interakcje społeczne w porównaniu z myszami spożywającymi tylko nadmiar soli.",
-      "Archeolodzy odkryli 1200-letnie szczątki słynnych peruwiańskich bezwłosych psów w starożytnym miejscu pochówku Imperium Wari, w tym niezwykle zachowane mumie i szczenięta pochowane obok ludzi.",
-      "Ich niezwykłe zęby, diety i ustalenia dotyczące pochówku ujawniają zaskakujące wskazówki na temat tego, jak starożytni Peruwiańczycy opiekowali się, hodowali, a czasami odrzucali swoje psy.",
-      "Katastrofalna erupcja wulkanu sprzed 7300 lat spustoszyła Japonię, ale nowe badania pokazują, że jej wpływ na populacje prehistoryczne był znacznie bardziej złożony niż wcześniej sądzono."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Université Laval to publiczna uczelnia badawcza w Quebecu w Kanadzie. Université Laval wywodzi swoje korzenie z Séminaire de Québec, która została założona przez François de Montmorency-Laval w 1663 roku. Université Laval jest najstarszą instytucją szkolnictwa wyższego w Kanadzie, a także pierwszą instytucją północnoamerykańską, która oferuje szkolnictwo wyższe w języku francuskim. Jest jednym z 10 najlepszych kanadyjskich uniwersytetów pod względem finansowania badań i posiada cztery Katedry Badań Doskonałości Kanady."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Université Laval",
-     "url": "https://en.wikipedia.org/wiki/Universit%C3%A9_Laval"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "1,200",
-    "7,300",
-    "100"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Université Laval",
-    "opis": "Public research university in Quebec City, Canada",
-    "tekst": "Université Laval is a public research university in Quebec City, Quebec, Canada. Université Laval traces its roots to the Séminaire de Québec, which was founded by François de Montmorency-Laval in 1663. Université Laval is the oldest institution of higher education in Canada, as well as the first North American institution to offer higher education in French. It is ranked among the top 10 Canadian universities in research funding and holds four Canada Excellence Research Chairs.",
-    "url": "https://en.wikipedia.org/wiki/Universit%C3%A9_Laval",
-    "język": "en"
-   },
-   "tagi": [
-    "Prof",
-    "Université",
-    "University",
-    "Bruxelles"
-   ],
-   "emotki": [
-    "🔬"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "ScienceDaily",
-     "tytuł": "Scientists discover that male and female skin play by different rules",
-     "url": "https://www.sciencedaily.com/releases/2026/10/261017230020.htm"
-    },
-    {
-     "nazwa": "ScienceDaily",
-     "tytuł": "Scientists uncover 3 key brain pathways linked to lasting depression relief",
-     "url": "https://www.sciencedaily.com/releases/2026/10/261017230021.htm"
-    },
-    {
-     "nazwa": "ScienceDaily",
-     "tytuł": "Scientists discover a natural compound that could protect the brain from too much salt",
-     "url": "https://www.sciencedaily.com/releases/2026/10/261017230032.htm"
-    },
-    {
-     "nazwa": "ScienceDaily",
-     "tytuł": "Archaeologists discover 1,200-year-old mummified hairless dog in Peru",
-     "url": "https://www.sciencedaily.com/releases/2026/10/261016070644.htm"
-    },
-    {
-     "nazwa": "ScienceDaily",
-     "tytuł": "Scientists discover a surprising twist in Japan's 7,300-year-old volcanic apocalypse",
-     "url": "https://www.sciencedaily.com/releases/2026/10/261017230023.htm"
-    },
-    {
-     "nazwa": "ScienceDaily",
-     "tytuł": "Scientists find a youth protein that helps aging brain cells act young again",
-     "url": "https://www.sciencedaily.com/releases/2026/10/261016070646.htm"
-    },
-    {
-     "nazwa": "ScienceDaily",
-     "tytuł": "Scientists who discovered a third form of magnetism win major physics prize",
-     "url": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm"
-    }
-   ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 2,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 5.952,
-    "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.9,
-     "eksponowanie": 2.43,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.422,
-     "treściwość": 0.5,
-     "język_działu": 0.0
-    }
-   },
-   "oryginalny_nagłówek": "Scientists discover that male and female skin play by different rules",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "technologia",
-    "nazwa": "Technologia i nauka",
-    "emoji": "🧪",
-    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
-   },
-   "nagłówek": "Ładowanie z mocą 710 kW i ponad 1000 KM. Oto Mercedes-AMG GT SUV",
-   "lead": "Mercedes-AMG otworzył nowy rozdział w swojej historii, prezentując elektryczny model GT SUV, zbudowany od podstaw na wysokowydajnej architekturze AMG.EA. To pierwszy w pełni elektryczny, pełnowymiarowy SUV tej marki, który łączy w sobie muskularną, sportową sylwetkę z osiągami i rozwiązaniami technologicznymi…",
-   "język_źródła": "pl",
-   "opublikowano": "2026-10-18T11:00:44+00:00",
-   "źródło": {
-    "nazwa": "Antyweb",
-    "url": "https://antyweb.pl/ladowanie-z-moca-710-kw-i-ponad-1000-km-oto-mercedes-amd-gt-suv",
-    "domena": "antyweb.pl"
-   },
-   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2026/10/mercedes-amg-gt-suv-05.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Niemiecki producent udowadnia tym modelem, że współczesne pojazdy elektryczne mogą bez problemu oferować zarówno imponującą moc maksymalną, jak i powtarzalną wydajność układu w najbardziej wymagających warunkach.",
-      "To, co najbardziej intryguje w nowym Mercedesie-AMG GT 63 SUV, ukryto pod jego aerodynamiczną karoserią.",
-      "Topowe warianty tego modelu wprawiane są w ruch przez trzy innowacyjne silniki o strumieniu osiowym, które potrafią wygenerować łącznie moc szczytową na oszałamiającym poziomie 860 kW, czyli aż 1169 koni mechanicznych.",
-      "Co równie istotne z inżynieryjnego punktu widzenia, układ jest w stanie wykrzesać z siebie aż 530 kW mocy ciągłej, wyznaczając zupełnie nowe standardy w segmencie elektrycznych pojazdów sportowych, gwarantując wysoką dynamikę na drodze.",
-      "Najmocniejsza konfiguracja pozwala na katapultowanie się od zera do setki w 2,5 sekundy, 200 km/h pojawia się po niespełna 7 sekundach, a prędkość maksymalna to 270 km/h.",
-      "Nad precyzją prowadzenia czuwa aktywne zawieszenie AMG ACTIVE RIDE CONTROL+ wyposażone w hydrauliczną redukcję przechyłów i nurkowania nadwozia, co pozwala połączyć komfort długich podróży z precyzją rasowego modelu sportowego.",
-      "I co nie mniej ważne, GT SUV wygląda po prostu obłędnie.",
-      "Inżynierowie z Affalterbach doskonale zdają sobie sprawę, że dostarczenie ekstremalnej mocy na koła wymaga perfekcyjnie zaprojektowanego zasilania.",
-      "Architektura pojazdu opiera się na 800-woltowej instalacji elektrycznej współpracującej z akumulatorem, który wykorzystuje ogniwa cylindryczne chłodzone cieczą."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Mercedes-AMG GmbH – firma od 2005 roku należąca w całości do koncernu Mercedes-Benz Group, zajmująca się produkcją samochodów sportowych. Siedziba mieści się w Affalterbach, niedaleko Stuttgartu w Niemczech. Roczna sprzedaż (2015) wynosi 70 000 pojazdów."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Mercedes-AMG",
-     "url": "https://pl.wikipedia.org/wiki/Mercedes-AMG"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "63",
-    "860",
-    "1169",
-    "530",
-    "2,5",
-    "200 km/h"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Mercedes-AMG",
-    "opis": "niemiecki producent samochodów sportowych",
-    "tekst": "Mercedes-AMG GmbH – firma od 2005 roku należąca w całości do koncernu Mercedes-Benz Group, zajmująca się produkcją samochodów sportowych. Siedziba mieści się w Affalterbach, niedaleko Stuttgartu w Niemczech. Roczna sprzedaż (2015) wynosi 70 000 pojazdów.",
-    "url": "https://pl.wikipedia.org/wiki/Mercedes-AMG",
-    "język": "pl"
-   },
-   "tagi": [
-    "Mercedes-AMG",
-    "Mercedesie-AMG",
-    "Affalterbach",
-    "Formuły"
-   ],
-   "emotki": [
-    "🔋"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Antyweb",
-     "tytuł": "Ładowanie z mocą 710 kW i ponad 1000 KM. Oto Mercedes-AMG GT SUV",
-     "url": "https://antyweb.pl/ladowanie-z-moca-710-kw-i-ponad-1000-km-oto-mercedes-amd-gt-suv"
-    }
-   ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 2.679,
-    "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 0.9,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.99,
      "eksponowanie": 0.0,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.388,
-     "treściwość": 0.191,
+     "świeżość": 0.506,
+     "treściwość": 0.5,
      "język_działu": 0.5
     }
    },
@@ -1154,92 +936,278 @@
   },
   {
    "dział": {
-    "id": "fizyka",
-    "nazwa": "Fizyka",
-    "emoji": "⚛️",
-    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
    },
-   "nagłówek": "Fizycy tworzą nowy dziwny stan kwantowy zwany ułamkowym morzem Fermiego",
-   "lead": "Fizycy odkryli dziwną nową formę zachowania kwantowego, w której cząstki organizują się w sposób kwestionujący ustalone teorie. Jeszcze bardziej zaskakujące jest to, że cząstki utrzymują niezwykły ukryty porządek, mimo że są doprowadzane do niezwykle energetycznego stanu.",
-   "język_źródła": "en",
-   "opublikowano": "2026-10-18T13:37:21+00:00",
+   "nagłówek": "Samsung odpala One UI 9.0 dla Galaxy S23 i serii A. Już do pobrania",
+   "lead": "Samsung odpala One UI 9.0 dla Galaxy S23 i serii A.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-19T14:47:00+00:00",
    "źródło": {
-    "nazwa": "ScienceDaily Physics",
-    "url": "https://www.sciencedaily.com/releases/2026/10/261018084644.htm",
-    "domena": "sciencedaily.com"
+    "nazwa": "Spider's Web",
+    "url": "https://spidersweb.pl/2026/10/samsung-aktualizacja-one-ui-9-0-s23-a56-a37-a27.html",
+    "domena": "spidersweb.pl"
    },
-   "obraz": "https://www.sciencedaily.com/images/1920/ultracold-cesium-atoms-locked-into-hidden-ordered-state.webp",
+   "obraz": null,
+   "sekcje": [],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "9.0",
+    "23",
+    "90"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Galaxy",
+    "One",
+    "Samsung"
+   ],
+   "emotki": [
+    "🌌"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Spider's Web",
+     "tytuł": "Samsung odpala One UI 9.0 dla Galaxy S23 i serii A. Już do pobrania",
+     "url": "https://spidersweb.pl/2026/10/samsung-aktualizacja-one-ui-9-0-s23-a56-a37-a27.html"
+    },
+    {
+     "nazwa": "IEEE Spectrum",
+     "tytuł": "The Robot I Didn’t Expect to Build",
+     "url": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.345,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.435,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Światło i lustra zbliżają duże komputery kwantowe do rzeczywistości",
+   "lead": "Wiodące podejście do budowy komputerów kwantowych wykorzystuje atomy neutralne do tworzenia jednostek informacji zwanych kubitami. Takie komputery kwantowe mogą obejmować tysiące atomów, a teraz innowacyjne podejście może pomóc jeszcze bardziej zwiększyć skalę tej techniki.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-19T00:00:00+00:00",
+   "źródło": {
+    "nazwa": "Nature",
+    "url": "https://www.nature.com/articles/d41586-026-03237-2",
+    "domena": "nature.com"
+   },
+   "obraz": "https://media.nature.com/lw1200/magazine-assets/d41586-026-03237-2/d41586-026-03237-2_53851632.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "W badaniu opublikowanym w Physical Review Letters badacze z grupy kierowanej przez Hannsa-Christopha Nägerla, współpracującego z fizykiem teoretycznym Alvise 'em Bastianello z CNRS i Université Paris-Dauphine, opisują, jak zaprojektować egzotyczny stan kwantowy znany jako „ułamkowe morze Fermiego.„ Przełom polega na wypychaniu ultrazimnych atomów cezu daleko poza ich normalne warunki, wielokrotnie zmieniając to, jak silnie się przyciągają lub odpychają.",
-      "Zamiast po prostu stać się nieuporządkowanymi, cząstki zmieniają swój układ w nietypową konfigurację, która zachowuje się inaczej niż systemy kwantowe, które naukowcy tradycyjnie badali.",
-      "Teoretyczne odkrycia stanowią podstawę dla ostatnich badań eksperymentalnych prowadzonych przez zespół Nägerla na Wydziale Fizyki Eksperymentalnej.",
-      "Wypychając cząstki kwantowe poza ich normalne granice W zwykłych warunkach cząstki kwantowe przestrzegają ugruntowanych zasad, które określają sposób ich ułożenia, szczególnie w ekstremalnie niskich temperaturach.",
-      "Jednym z ważnych przykładów są fermiony, kategoria cząstek, która obejmuje elektrony.",
-      "Cząstki te nie mogą zajmować tego samego stanu kwantowego, więc wypełniają dostępne poziomy energetyczne zgodnie z określonymi ograniczeniami.",
-      "W bardzo niskich temperaturach ten układ wytwarza to, co fizycy nazywają morzem Fermiego.",
-      "Ale co się dzieje, gdy naukowcy celowo zakłócają warunki, które normalnie rządzą zachowaniem cząstek?",
-      "Jak wyjaśnia Alvise Bastianello: „Na przykład Fermiony starannie układają się w dostępne stany energetyczne, tworząc tak zwane„ morze Fermiego ”."
+      "Ceny mogą podlegać lokalnym podatkom, które są obliczane podczas doi płatności: https://doi.org/10.1038/d41586-026-03237-2 Shaw, A.",
+      "Nature 650 , 320–326 (2026).",
+      "NSF zmienia podejście do finansowania zgodnie z priorytetami Białego Domu Narzędzie AI pozwala badaczom na „kod wibracji” w sferze kwantowej Cząstka zbudowana z siły: fizycy twierdzą, że znaleźli tajemniczą „kulkę kleju” na wielu stanowiskach uniwersyteckich (asystent, asystent i profesor zwyczajny) University of Miami Miller School of Medicine Dołączyć do globalnego zespołu wydziałów HZAU, aby przyspieszyć badania przynosząc konkurencyjne korzyści.",
+      "Stanowisko: zastępca redaktora, Nature Progress Tissue Engineering Lokalizacja: Szanghaj, Pekin, Pune, New Delhi - hybrydowy model pracy Data zamknięcia: 30...",
+      "Shanghai, Beijing, Pune, New Delhi - hybrydowy model pracy Postdoctoral Fellow Position to study Cancer Immunology & design novel Cancer Immunotherapies @ University of Maryland School of Medicine, Baltimore.",
+      "University of Maryland School of Medicine, Baltimore Rola asystenta wydawniczego jest szeroka i niezbędna do sprawnego prowadzenia portfolio czasopism."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Jednocześnie teraz ważniejsze niż kiedykolwiek jest przygotowanie sprzętu na zbliżające się ataki przy użyciu komputerów kwantowych.",
+      "Są one wszędzie, ale w dużej mierze niewidoczne: układy scalone, lepiej znane jako chipy, można obecnie znaleźć w prawie każdym urządzeniu technicznym.",
+      "Podczas gdy wciąż brakuje przysłowiowego „dymiącego pistoletu”- czyli niepodważalnego dowodu celowo wbudowanych, tajnych tylnych drzwi w chipach - często pojawiają się przesłanki, że gracze na poziomie państwowym ingerują w systemy sprzętowe.",
+      "Na przykład już pod koniec lat 80. szwajcarska firma Crypto AG była podejrzewana o celową sprzedaż osłabionej technologii szyfrowania we współpracy z CIA w USA i BND w Niemczech.",
+      "„Prawie wszystkie obwody, które nas otaczają, a także cała nasza cyfrowa infrastruktura bezprzewodowa, opierają się na chipach wyprodukowanych na Tajwanie, w Chinach, Korei Południowej lub, w niewielkim stopniu, w USA” - mówi Christof Paar, który kieruje grupą Embedded Security w Instytucie Bezpieczeństwa i Prywatności im. Maxa Plancka w Bochum.",
+      "Naukowcy z firmy Quantinuum wykorzystali metody korekcji błędów, aby ich komputer kwantowy Helios-1 przechowywał informacje z bezprecedensowym stopniem niezawodności, co jest kluczowym warunkiem wstępnym do przeprowadzenia złożonych obliczeń w przyszłości.",
+      "Komputery kwantowe mają ogromny potencjał do rozwiązywania problemów i dokonywania odkryć naukowych, które do tej pory były poza zasięgiem nawet najlepszych superkomputerów."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Enrico Fermi był włoskim i naturalizowanym amerykańskim fizykiem, znanym z tego, że jest twórcą pierwszego na świecie sztucznego reaktora jądrowego Chicago Pile-1 i członkiem Manhattan Project. Otrzymał Nagrodę Nobla w dziedzinie fizyki w 1938 r. „za demonstracje istnienia nowych pierwiastków promieniotwórczych wytwarzanych przez napromieniowanie neutronowe i za związane z tym odkrycie reakcji jądrowych powodowanych przez powolne neutrony”. Nazywa się go „architektem ery nuklearnej” i „architektem bomby atomowej”. Był jednym z niewielu fizyków, którzy wyróżniali się zarówno w fizyce teoretycznej, jak i eksperymentalnej. Wraz z kolegami Fermi zgłosił kilka patentów związanych z wykorzystaniem energii jądrowej, z których wszystkie zostały przejęte przez rząd USA. Wniósł znaczący wkład w rozwój mechaniki statystycznej, teorii kwantowej oraz fizyki jądrowej i cząsteczkowej."
+      "Baltimore, znane również jako Baltimore City, jest najbardziej zaludnionym miastem w stanie Maryland w Stanach Zjednoczonych. Jest to 30. najbardziej popularne miasto w Stanach Zjednoczonych, z populacją 585 708 mieszkańców według spisu powszechnego z 2020 roku i szacowaną na 569 997 w 2025 roku; obszar metropolitalny Baltimore, liczący 2,86 miliona mieszkańców, jest 22. co do wielkości obszarem metropolitalnym w kraju. Miasto jest również częścią połączonego obszaru statystycznego Waszyngton-Baltimore, który w 2020 roku liczył 9,97 miliona mieszkańców. Baltimore zostało wyznaczone jako niezależne miasto przez Konstytucję Maryland w 1851 roku. Chociaż nie znajduje się pod jurysdykcją żadnego hrabstwa w stanie, stanowi część regionu środkowego Maryland wraz z otaczającym hrabstwem, które nosi jego nazwę."
      ],
      "język": "en",
-     "przypis": "Wikipedia: Enrico Fermi",
-     "url": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+     "przypis": "Wikipedia: Baltimore",
+     "url": "https://en.wikipedia.org/wiki/Baltimore"
     }
    ],
-   "dlaczego_to_ważne": "Oznacza to, że atomy są ograniczone do poruszania się w jednym kierunku, tworząc środowisko, w którym ich interakcje kwantowe mogą być badane z wyjątkową kontrolą.",
-   "liczby": [],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10.1038",
+    "026",
+    "03237",
+    "650 , 320",
+    "326",
+    "16 , 041009"
+   ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Enrico Fermi",
-    "opis": "Italian-American physicist (1901–1954)",
-    "tekst": "Enrico Fermi was an Italian and naturalized-American physicist, renowned for being the creator of the world's first artificial nuclear reactor, Chicago Pile-1, and a member of the Manhattan Project. He won the 1938 Nobel Prize in Physics \"for his demonstrations of the existence of new radioactive elements produced by neutron irradiation, and for his related discovery of nuclear reactions brought about by slow neutrons\". He has been called the \"architect of the nuclear age\" and the \"architect of the atomic bomb\". He was one of very few physicists to excel in both theoretical and experimental physics. With his colleagues, Fermi filed several patents related to the use of nuclear power, all of which were taken over by the US government. He made significant contributions to the development of statistical mechanics, quantum theory, and nuclear and particle physics.",
-    "url": "https://en.wikipedia.org/wiki/Enrico_Fermi",
+    "hasło": "Baltimore",
+    "opis": "Largest city in Maryland, United States",
+    "tekst": "Baltimore, also known as Baltimore City, is the most populous city in the U.S. state of Maryland. It is the 30th-most-populous U.S. city, with a population of 585,708 at the 2020 census and estimated at 569,997 in 2025; the Baltimore metropolitan area, at 2.86 million residents, is the 22nd-largest metropolitan area in the nation. The city is also part of the Washington–Baltimore combined statistical area, which had a population of 9.97 million in 2020. Baltimore was designated as an independent city by the Constitution of Maryland in 1851. Though not located under the jurisdiction of any county in the state, it forms part of the Central Maryland region together with the surrounding county that shares its name.",
+    "url": "https://en.wikipedia.org/wiki/Baltimore",
     "język": "en"
    },
    "tagi": [
-    "Fermi",
-    "Hanns-Christoph Nägerl",
-    "Alvise Bastianello",
-    "Université Paris-Dauphine"
+    "Medicine Baltimore",
+    "Maryland School",
+    "Delhi",
+    "Title Deputy Editor Nature Progress Tissue Engineering Location Shanghai Beijing Pune"
    ],
    "emotki": [
-    "⚛️",
-    "🔬"
+    "⚛️"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "ScienceDaily Physics",
-     "tytuł": "Physicists create a bizarre new quantum state called a fractional fermi sea",
-     "url": "https://www.sciencedaily.com/releases/2026/10/261018084644.htm"
+     "nazwa": "Nature",
+     "tytuł": "Light and mirrors move large quantum computers closer to reality",
+     "url": "https://www.nature.com/articles/d41586-026-03237-2"
+    },
+    {
+     "nazwa": "Phys.org Technology",
+     "tytuł": "How to detect hardware tampering and protect chips against attacks by quantum computers",
+     "url": "https://techxplore.com/news/2026-10-hardware-tampering-chips-quantum.html"
+    },
+    {
+     "nazwa": "New Scientist",
+     "tytuł": "Error-correction record pushes quantum computers closer to usefulness",
+     "url": "https://www.newscientist.com/article/2594366-error-correction-record-pushes-quantum-computers-closer-to-usefulness/"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 3,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.59,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.623,
+     "eksponowanie": 0.72,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.4,
+     "treściwość": 0.347,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Light and mirrors move large quantum computers closer to reality",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Normalnie zabronione emisje z grafenu mogą narazić na fluktuacje kwantowe w dopływającym świetle",
+   "lead": "Wahania napięcia, wahania światła, wahania temperatury - wszelkie wahania są uciążliwe, a tym samym niepożądane. Nie tylko powodują dyskomfort; w zastosowaniach inżynieryjnych i medycznych wpływają na dokładność pomiarów lub wprowadzają błędy w kontrolach.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-19T17:40:04+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-10-forbidden-emissions-graphene-expose-quantum.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/turning-quantum-uncert.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nawet na minimalnym poziomie zjawisk kwantowych fluktuacje uznaje się za niepożądane.",
+      "Badanie teoretyczne przeprowadzone przez Indian Institute of Technology Bombay (IIT Bombay) pokazuje, że ustrukturyzowane fluktuacje kwantowe w świetle mogą być wykorzystywane do wykrywania i generowania użytecznych kwantowych sygnałów optycznych.",
+      "Kartik Prabhu i profesor Gopal Dixit z Wydziału Fizyki IIT Bombay zaproponowali nowy sposób wykrywania fluktuacji kwantowych w świetle przy użyciu grafenu materiału kwantowego jako czujnika.",
+      "Ich badanie , opublikowane w Physical Review B , pokazuje, że gdy specjalnie przygotowane światło kwantowe świeci na grafen, jego interakcja z grafenem może ujawnić informacje o kwantowej naturze padającego światła.",
+      "Pokazuje również, że starannie projektując fluktuacje kwantowe w padającym świetle, możemy generować dostosowaną emisję o wysokiej częstotliwości.",
+      "Generowanie wysokich harmonicznych jest nową techniką obrazowania dynamiki elektronowej i umożliwia śledzenie złożonych reakcji chemicznych w czasie rzeczywistym.",
+      "Metoda polega na świeceniu krótkimi, intensywnymi impulsami lasera na gazy szlachetne lub określone ciała stałe w celu uzyskania bardzo krótkiego impulsu o czasie trwania attosekundy (jedna miliardowa miliarda sekundy) z częstotliwością, która jest dokładną całkowitą wielokrotnością częstotliwości oryginalnego lasera.",
+      "Skalując się do najmniejszych poziomów w czasie, przestrzeni i intensywności, wkraczamy w sferę fizyki kwantowej.",
+      "Na przykład możemy precyzyjnie określić albo położenie cząstki, albo jej pęd, ale nie oba jednocześnie."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Bombaj, znany również jako Bombaj, jest stolicą indyjskiego stanu Maharasztra i finansową stolicą Indii. Położony na wybrzeżu Konkan wzdłuż zachodniego wybrzeża Indii, ma głęboki naturalny port. Według spisu ludności Indii z 2011 roku jest to najbardziej zaludnione miasto w Indiach, z populacją prawie 12,5 miliona mieszkańców, podczas gdy Mumbai Metropolitan Region, który jest jednym z najbardziej zaludnionych obszarów metropolitalnych na świecie, ma populację ponad 20 milionów. Miasto stanowi część dzielnic Mumbai City i Mumbai Suburban i jest zarządzane przez Brihanmumbai Municipal Corporation, która została założona w 1888 roku."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Mumbai",
+     "url": "https://en.wikipedia.org/wiki/Mumbai"
+    }
+   ],
+   "dlaczego_to_ważne": "„Nasze badanie po raz pierwszy łączy w sobie światło kwantowe, materiał kwantowy i generację wysokich harmonicznych w skrajnym zakresie częstotliwości ultrafioletu” - mówi Dixit.",
+   "liczby": [
+    "100,000",
+    "10.1103"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Mumbai",
+    "opis": "Capital of Maharashtra, India",
+    "tekst": "Mumbai, also known as Bombay, is the capital city of the Indian state of Maharashtra and the financial capital of India. Located on the Konkan coast along the west coast of India, it has a deep natural harbour. As per the 2011 Census of India, it is the most populous city proper in India, with a population of almost 12.5 million, while the Mumbai Metropolitan Region, which is among the most populous metropolitan areas in the world, has a population of over 20 million. The city forms part of the Mumbai City and Mumbai Suburban districts and is administered by the Brihanmumbai Municipal Corporation, which was established in 1888.",
+    "url": "https://en.wikipedia.org/wiki/Mumbai",
+    "język": "en"
+   },
+   "tagi": [
+    "Dixit",
+    "Physical Review",
+    "Bombay",
+    "Prabhu"
+   ],
+   "emotki": [
+    "⚛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Normally forbidden emissions from graphene could expose quantum fluctuations in incoming light",
+     "url": "https://phys.org/news/2026-10-forbidden-emissions-graphene-expose-quantum.html"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.529,
+    "wynik": 3.279,
     "składowe": {
      "potwierdzenia": 0.0,
-     "ranga_źródła": 1.05,
-     "eksponowanie": 0.9,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.42,
-     "treściwość": 0.459,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.471,
+     "treściwość": 0.448,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Physicists create a bizarre new quantum state called a fractional fermi sea",
+   "oryginalny_nagłówek": "Normally forbidden emissions from graphene could expose quantum fluctuations in incoming light",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -1253,74 +1221,94 @@
     "emoji": "⚛️",
     "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
    },
-   "nagłówek": "Nowy sposób wykrywania właściwości stabilizujących urządzeń optycznych",
-   "lead": "W światłowodach, chipach i innych urządzeniach światłowodowych drobne wady mogą rozpraszać fotony i zakłócać ich drogę. Nowe badanie pokazuje sposób na ujawnienie właściwości, które w niektórych systemach pomagają zachować się falom świetlnym odpornym na takie wady.",
+   "nagłówek": "Naukowcy ponownie określają kluczową częstotliwość strontu z 50 razy lepszą precyzją dla technologii kwantowych",
+   "lead": "przez National Research Council of Science and Technology Korea Research Institute of Standards and Science (KRISS) dokonał ponownego pomiaru kluczowej częstotliwości przejścia atomu strontu (Sr) po raz pierwszy od 88 lat, od 1938 roku, za pomocą fotonicznego chipu kratowego. Ustanowił nową bezwzględną wartość częstotliwości z…",
    "język_źródła": "en",
-   "opublikowano": "2026-10-18T18:00:01+00:00",
+   "opublikowano": "2026-10-19T17:20:18+00:00",
    "źródło": {
     "nazwa": "Phys.org",
-    "url": "https://phys.org/news/2026-10-stabilizing-properties-optical-devices.html",
+    "url": "https://phys.org/news/2026-10-scientists-redetermine-key-strontium-frequency.html",
     "domena": "phys.org"
    },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-new-way-to-detect-st.jpg",
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/after-88-years-kriss-r.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Metoda ta może przyspieszyć poszukiwanie nowych rodzajów elektroniki i technologii optycznych oraz przyczynić się do zwiększenia niezawodności urządzeń kwantowych.",
-      "Raportując w Physical Review Letters , naukowcy z KTH Royal Institute of Technology demonstrują programowalny chip, który może wykrywać i mierzyć „właściwości topologiczne” lub cechy zachowania fal, które nie zmieniają się nawet w przypadku zmiany systemu.",
-      "KTH Associate Professor Ali Elshaari mówi, że zrozumienie tych właściwości może pomóc w utrzymaniu pracy urządzeń pomimo niedoskonałości.",
-      "Właściwości topologiczne mogą sprawić, że materiały będą niezwykle stabilne, mówi Elshaari.",
-      "„Kiedy wyjaśniam topologię uczniom, zaczynam od węzła na linie” - mówi.",
-      "- Możesz go rozciągnąć, przekręcić lub potrząsnąć, ale węzeł pozostaje, dopóki nie przetniesz liny.",
-      "„Fizycy odkryli, że niektóre materiały i urządzenia mają podobne węzły w sposobie, w jaki poruszają się przez nie fale.\" KTH doktorant Andrea Cataldo, główna autorka badania, mówi, że rodzaj stabilności jest atrakcyjny dla technologii, które muszą działać pomimo hałasu i wad, takich jak przyszła elektronika i urządzenia kwantowe.",
-      "„W prawdziwym świecie każdy system traci trochę energii” - mówi Cataldo.",
-      "„Potrzebujemy więc sposobów na badanie tych właściwości w realistycznych warunkach.„ Chip oparty na świetle może imitować systemy tracące energię i bezpośrednio ujawniać ich ukryte stabilne właściwości ”- mówi."
+      "Zapewniając dokładną wartość odniesienia dla technologii kwantowych nowej generacji, oczekuje się, że osiągnięcie to przyczyni się do precyzyjnej kontroli i miniaturyzacji urządzeń kwantowych, w tym zegarów atomowych i komputerów kwantowych o neutralnych atomach.",
+      "Praca opublikowana w czasopiśmie Metrologia .",
+      "Stront jest atomem szeroko stosowanym w precyzyjnych technologiach kwantowych, takich jak zegary sieci optycznej i czujniki kwantowe.",
+      "Aby wykorzystać stront w tych technologiach, szybko poruszające się atomy muszą być spowolnione i uwięzione za pomocą precyzyjnie dostrojonych laserów.",
+      "Wymaga to znajomości dokładnej częstotliwości rezonansowej światła laserowego dla przejścia atomowego.",
+      "Jednak poprzednią wartość częstotliwości uzyskano w 1938 roku, porównując widmo słoneczne ze światłem łukowym strontu, a jego niepewność była zbyt duża dla dzisiejszych precyzyjnych ustawień częstotliwości lasera.",
+      "W rezultacie badacze musieli bezpośrednio obserwować reakcję atomów i dostosowywać częstotliwość lasera w razie potrzeby, podobnie jak obracając pokrętło radia analogowego, aby dostroić się do stacji.",
+      "Wraz z postępem technologii kontroli i pomiaru częstotliwości światła oraz dążeniem do miniaturyzacji urządzeń kwantowych, wzrosła potrzeba dokładnej bezwzględnej wartości częstotliwości.",
+      "W odpowiedzi zespół badawczy zmierzył bezwzględną częstotliwość 461-nanometrów (nm) przejścia optycznego atomów strontu."
      ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Metrologia to dwumiesięcznik zajmujący się naukowymi aspektami metrologii. Działa od 1965 roku i jest publikowany przez Międzynarodowe Biuro Miar i Wag od 1991 roku. Od 2003 roku czasopismo jest wydawane przez IOP Publishing w imieniu Biura. Czasopismo obejmuje podstawy pomiarów, w szczególności te dotyczące siedmiu podstawowych jednostek Międzynarodowego Układu Jednostek Miar lub propozycje ich zastąpienia."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Metrologia",
+     "url": "https://en.wikipedia.org/wiki/Metrologia"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "10.1103",
-    "64",
-    "10.48550"
+    "88",
+    "50",
+    "461",
+    "10.1088",
+    "1681",
+    "7575"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Metrologia",
+    "opis": "Journal dealing with the scientific aspects of metrology",
+    "tekst": "Metrologia is a bimonthly journal dealing with the scientific aspects of metrology. It has been running since 1965 and has been published by the International Bureau of Weights and Measures since 1991. Since 2003 the journal has been published by IOP Publishing on behalf of the bureau. The journal covers the fundamentals of measurements, in particular those dealing with the seven base units of the International System of Units or proposals to replace them.",
+    "url": "https://en.wikipedia.org/wiki/Metrologia",
+    "język": "en"
+   },
    "tagi": [
-    "Physical Review Letters",
-    "Royal Institute",
-    "Cataldo",
-    "Associate Professor Ali Elshaari"
+    "Science",
+    "Technology",
+    "National Research Council",
+    "Metrologia"
    ],
    "emotki": [
+    "⚛️",
     "💻"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Phys.org",
-     "tytuł": "A new way to detect stabilizing properties of optical devices",
-     "url": "https://phys.org/news/2026-10-stabilizing-properties-optical-devices.html"
+     "tytuł": "Scientists redetermine a key strontium frequency with 50 times better precision for quantum technologies",
+     "url": "https://phys.org/news/2026-10-scientists-redetermine-key-strontium-frequency.html"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.319,
+    "wynik": 3.237,
     "składowe": {
      "potwierdzenia": 0.0,
      "ranga_źródła": 1.2,
-     "eksponowanie": 0.81,
+     "eksponowanie": 0.72,
      "słowa_kluczowe": 0.35,
-     "świeżość": 0.475,
-     "treściwość": 0.484,
+     "świeżość": 0.467,
+     "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "A new way to detect stabilizing properties of optical devices",
+   "oryginalny_nagłówek": "Scientists redetermine a key strontium frequency with 50 times better precision for quantum technologies",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -1334,164 +1322,208 @@
     "emoji": "🔭",
     "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
    },
-   "nagłówek": "W poniedziałek na marsjańskie księżyce rusza misja MMX",
-   "lead": "19 października Japonia ma rozpocząć nową misję na dwa księżyce Marsa, Fobosa i Dejmosa. Jej głównym celem jest zebranie gleby od Fobosa i sprowadzenie jej z powrotem na Ziemię, gdzie naukowcy mają nadzieję, że ujawni, skąd pochodzą księżyce.",
+   "nagłówek": "Świt marsjański",
+   "lead": "Ciekawość NASA uchwyca świt na Marsie – a także wydłużone grzbiety utworzone przez erozję wiatru lub yardangi – w tym zbliżeniu z panoramy wydanej w październiku. Jest to najbardziej szczegółowy widok jak dotąd odległych, wyrzeźbionych przez wiatr marsjańskich klifów, podkreślający cechy, które naukowcy misji od dawna czekali, aby zobaczyć…",
    "język_źródła": "en",
-   "opublikowano": "2026-10-18T11:30:00+00:00",
+   "opublikowano": "2026-10-19T16:03:51+00:00",
    "źródło": {
-    "nazwa": "EarthSky",
-    "url": "https://earthsky.org/space/mmx-mission-mars-moons-phobos-deimos/",
-    "domena": "earthsky.org"
+    "nazwa": "NASA",
+    "url": "https://www.nasa.gov/image-article/martian-dawn/",
+    "domena": "nasa.gov"
    },
-   "obraz": "https://earthsky.org/upl/2026/10/MMX_landing_on_Phobos_pillars-JAXA-ESA-e1791916607929.png",
+   "obraz": "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26728-fig-a-curiosity-captures-dawn-breaking-on-wind-carved-cliffs.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Japońska Agencja Badań Kosmicznych ( Jaxa ) przygotowuje się do rozpoczęcia misji eXploration Marsjańskich Księżyców ( MMX ) z Centrum Kosmicznego Tanegashima w Japonii o godzinie 19:41 UTC (14:41).",
-      "CDT) w dniu 19 października 2026 roku.",
-      "Japoński czas standardowy 20 października.",
-      "Po około 10 miesiącach podróży statek dotrze na Marsa i jego księżyce Fobos i Dejmos.",
-      "Tam misja wyśle łazika, aby wylądował i zbadał Fobosa.",
-      "Po pobraniu próbki gleby Fobosa powróci na Ziemię w 2031 roku, składając swój cenny ładunek w Australii w celu odzyskania.",
-      "Fascynująca nauka, nocne wydarzenia na niebie i piękne zdjęcia w jednym miejscu.",
-      "Kliknij tutaj, aby zapisać się do naszego bezpłatnego codziennego newslettera .",
-      "Astronomowie od dawna zakładali, że te księżyce w kształcie ziemniaków były przechwyconymi asteroidami, które skręciły zbyt blisko Marsa."
+      "11, 4982 dzień marsjański, czyli Sol, misji, i składa się z sześciu pojedynczych obrazów, które zostały zszyte po wysłaniu na Ziemię."
      ]
     },
     {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
      "treść": [
-      "Mars jest czwartą planetą od Słońca. Znana jest również jako „Czerwona Planeta”, ze względu na swój pomarańczowo-czerwony wygląd. Mars to skalista planeta podobna do pustyni, z wątłą atmosferą, która jest przede wszystkim dwutlenkiem węgla. Na średnim poziomie powierzchni ciśnienie atmosferyczne wynosi kilka tysięcznych ziemskiego, temperatura atmosferyczna waha się od −153 do 20°C, a promieniowanie kosmiczne jest wysokie. Mars zatrzymuje pewną ilość wody, zarówno w ziemi, jak i cienko w atmosferze, tworząc chmury Cirrus, mgłę, mróz, większe regiony polarne wiecznej zmarzliny i czap lodowych, ale bez zbiorników płynnych wód powierzchniowych. Jego grawitacja powierzchniowa stanowi mniej więcej jedną trzecią ziemskiej lub dwa razy więcej grawitacji Księżyca. Jego średnia średnica, 6779 km (4212 mil), wynosi około połowy powierzchni Ziemi lub dwa razy więcej niż powierzchni Księżyca, a jego powierzchnia jest około wielkości całego suchego lądu Ziemi."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Mars",
-     "url": "https://en.wikipedia.org/wiki/Mars"
-    }
-   ],
-   "dlaczego_to_ważne": "Fobos — co oznacza strach — i Dejmos — co oznacza terror — to jedyne dwa znane księżyce Marsa, które wzięły swoją nazwę od rzymskiego boga wojny.",
-   "liczby": [
-    "19",
-    "41",
-    "20",
-    "10"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Mars",
-    "opis": "Fourth planet from the Sun",
-    "tekst": "Mars is the fourth planet from the Sun. It is also known as the \"Red Planet\", for its orange-red appearance. Mars is a desert-like rocky planet with a tenuous atmosphere that is primarily carbon dioxide. At the average surface level the atmospheric pressure is a few thousandths of Earth's, atmospheric temperature ranges from −153 to 20 °C, and cosmic radiation is high. Mars retains some water, in the ground as well as thinly in the atmosphere, forming cirrus clouds, fog, frost, larger polar regions of permafrost and ice caps, but no bodies of liquid surface water. Its surface gravity is roughly a third of Earth's or double that of the Moon. Its mean diameter, 6,779 km (4,212 mi), is about half the Earth's, or twice the Moon's, and its surface area is around the size of all the dry land of Earth.",
-    "url": "https://en.wikipedia.org/wiki/Mars",
-    "język": "en"
-   },
-   "tagi": [
-    "Phobos",
-    "Mars",
-    "Earth",
-    "October"
-   ],
-   "emotki": [
-    "🪐",
-    "🚀"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "EarthSky",
-     "tytuł": "The MMX mission launches to Mars’ moons on Monday",
-     "url": "https://earthsky.org/space/mmx-mission-mars-moons-phobos-deimos/"
-    }
-   ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 3.306,
-    "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 0.95,
-     "eksponowanie": 0.63,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.394,
-     "treściwość": 0.282,
-     "język_działu": 0.0
-    }
-   },
-   "oryginalny_nagłówek": "The MMX mission launches to Mars’ moons on Monday",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "astronomia",
-    "nazwa": "Astronomia",
-    "emoji": "🔭",
-    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
-   },
-   "nagłówek": "18, 1977: Zagadka Chirona",
-   "lead": "18, 1977, Charles Kowal był na 1,2-metrowym teleskopie Schmidta w Obserwatorium Palomar w Kalifornii – podobno jego ulubiony sprzęt do obserwacji – kiedy to nieświadomie odkrył zupełnie nową klasę obiektów. Kowal przeprowadzał badanie dla wolno poruszających się obiektów poza pasem głównym, biorąc…",
-   "język_źródła": "en",
-   "opublikowano": "2026-10-18T13:00:00+00:00",
-   "źródło": {
-    "nazwa": "Astronomy Magazine",
-    "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/oct-18-1977-the-enigma-of-chiron/",
-    "domena": "astronomy.com"
-   },
-   "obraz": null,
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "18, 1977: The enigma of Chiron\" The post Oct."
+      "19, Japońska Agencja Badań Kosmicznych (Jaxa) z powodzeniem rozpoczęła misję eXploration księżyców marsjańskich (MMX) na pokładzie rakiety H3-24L z Centrum Kosmicznego Tanegashima w południowej Japonii o 15:41.",
+      "MMX zbada marsjańskie księżyce Fobos i Dejmos i ma na celu zwrócenie próbki z Fobosa Kontynuuj czytanie „Japonia wysyła MMX w kierunku marsjańskich księżyców”. Po tym, jak Japonia wysyła MMX w kierunku marsjańskich księżyców, pierwszy pojawił się w Astronomy Magazine .",
+      "Dwustopniowa rakieta H3-24L oświetliła niebo przed świtem nad Centrum Kosmicznym Tanegashima na południowym krańcu Japonii wczesnym wtorkiem 20 października (15:41).",
+      "EDT 19 października), z misją skierowaną na Czerwoną Planetę: Japońska Agencja Eksploracji Przestrzeni Kosmicznej (Jaxa) Marsjańskie Księżyce eXploration (MMX).",
+      "Misja jest złożona, ma na celu zbadanie księżyców Marsa z serią przelotów obok Deimos przed spotkaniem i lądowaniem na Fobosie.",
+      "Misja Nozomi nie weszła na orbitę Marsa i została zakończona w 2003 roku.",
+      "Od tego czasu Jaxa zdobyła znaczne doświadczenie w powrocie próbek asteroid, wraz z zakończeniem podróży w obie strony Hayabusa 1 do 25143 Itokawa w 2010 roku i powrotu próbek Hayabusa 2 z 162173 Ryugu w 2020 roku."
      ]
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "18, 1977",
-    "1.2"
+    "6, 2026",
+    "11",
+    "4,982",
+    "19",
+    "24",
+    "41"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Chiron",
-    "Oct",
-    "Palomar Observatory",
-    "Astronomy Magazine"
+    "Martian",
+    "Dawn NASA’s Curiosity",
+    "Curiosity’s Mastcam",
+    "Earth"
    ],
    "emotki": [
-    "🔭"
+    "🪐"
    ],
    "wszystkie_źródła": [
     {
+     "nazwa": "NASA",
+     "tytuł": "Martian Dawn",
+     "url": "https://www.nasa.gov/image-article/martian-dawn/"
+    },
+    {
      "nazwa": "Astronomy Magazine",
-     "tytuł": "Oct. 18, 1977: The enigma of Chiron",
-     "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/oct-18-1977-the-enigma-of-chiron/"
+     "tytuł": "Japan sends MMX toward the martian moons",
+     "url": "https://www.astronomy.com/whats-launching-this-week/japan-sends-mmx-toward-the-martian-moons/"
+    },
+    {
+     "nazwa": "Sky & Telescope News",
+     "tytuł": "Japan Launches the Martian Moons Exploration Mission",
+     "url": "https://skyandtelescope.org/astronomy-news/japan-launches-the-martian-moons-exploration-mission/"
     }
    ],
-   "liczba_źródeł": 1,
+   "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.033,
+    "wynik": 9.43,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.05,
-     "eksponowanie": 0.72,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.413,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.615,
+     "eksponowanie": 1.89,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.575,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Oct. 18, 1977: The enigma of Chiron",
+   "oryginalny_nagłówek": "Martian Dawn",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Euclid odkrywa nową kometę",
+   "lead": "Kosmiczny teleskop Euclid Europejskiej Agencji Kosmicznej odkrył swoją pierwszą wcześniej nieznaną kometę na zdjęciach wykonanych między 16 a 24 września 2026 roku. Odkrycie [ 1 ] jest imponujące dla misji, która została zaprojektowana do wykonywania głębokich, stabilnych zdjęć odległych galaktyk – nie do śledzenia szybko poruszających się obiektów Układu Słonecznego…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-19T12:00:00+00:00",
+   "źródło": {
+    "nazwa": "ESA",
+    "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet",
+    "domena": "esa.int"
+   },
+   "obraz": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/comet_c_2026_s1_euclid_streaks_across_the_sky/27582276-1-eng-GB/Comet_C_2026_S1_Euclid_streaks_across_the_sky_pillars.gif",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Co więcej, szybki zwrot między identyfikacją a walidacją dowodzi, że Euklides może wykryć nowe komety, gdy są one nadal stosunkowo daleko od Słońca, potencjalnie prowadząc do odpowiedniego celu dla przyszłej misji przechwytującej ESA.",
+      "Przewidując jego położenie, mogłem zidentyfikować go na innych obrazach, w sumie znajdując go w pięciu zestawach obrazów [ 4 ].",
+      "Dalsza inspekcja wykazała, że wokół niego znajdowała się rozmyta chmura, wskazująca na aktywny obiekt, taki jak kometa, która rozrzuca pył i gaz.\" Kontrole z katalogami znanych komet i asteroid nie wykazały zgodności, więc Mikko zgłosił obserwacje do Międzynarodowego Centrum Planet Mniejszych (MPC) Międzynarodowej Unii Astronomicznej jako nową kometę [ 5 ].",
+      "Zaalarmowało to astronomów naziemnych, którzy mogliby następnie wnieść wkład w dalsze obserwacje.",
+      "Następnie 8 października MPC potwierdziła, że jest to kometa, a obecnie jest identyfikowana jako C/2026 S1 (Euclid).",
+      "Kometa znajduje się w odległości około 1,3 miliarda kilometrów od Ziemi, co odpowiada odległości Słońca od orbit Jowisza i Saturna.",
+      "Nie leży jednak w tej samej płaszczyźnie poziomej co planety, ale jest obecnie „prosto w górę” z perspektywy Słońca, wyginając się nad Układem Słonecznym na orbicie, której ukończenie zajmie tysiące lat.",
+      "Euklides celowo unika bogatego w asteroidy i komety pasma nieba wzdłuż płaszczyzny Układu Słonecznego, aby zmniejszyć niepożądane odblaski od pyłu, które utrudniałyby czułe obrazowanie głębokiego nieba, co sprawia, że odkrycie nowych obiektów Układu Słonecznego jest szczególnie trudne.",
+      "Ponadto strategia obrazowania \"step-and-stare\" teleskopu zazwyczaj odwiedza każdą część nieba tylko raz, więc komety nie można po prostu ponownie odwiedzić na żądanie, aby potwierdzić jej cechy."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Teleskop został wystrzelony na początku lipca 2023 roku, a jego misją jest obserwacja około 1,5 miliarda galaktyk do przesunięcia ku czerwieni z=2, co odpowiada obserwacji około 10 miliardów lat w przeszłości.",
+      "Celem jest zmierzenie przesunięcia ku czerwieni ogromnej liczby galaktyk, aby rzucić światło na historię ekspansji Wszechświata i siłę, która go napędza, ciemną energię.",
+      "Kometę znaleziono na wielu zdjęciach wykonanych między 16 a 24 września 2026 roku.",
+      "Dla teleskopu zbudowanego do wykonywania głębokich zdjęć odległych galaktyk, odkrycie szybko poruszającej się komety w Drodze Mlecznej jest zaskakującym bonusem."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Układ Słoneczny jest grawitacyjnie związanym układem Słońca i mas, które go okrążają, a przede wszystkim jego ośmiu planet, z których Ziemia jest jedną. Układ Słoneczny jest izolowanym, jednogwiazdkowym układem planetarnym w Galaktyce Drogi Mlecznej. System powstał około 4,6 miliarda lat temu, kiedy zapadł się gęsty obszar chmury molekularnej, tworząc Słońce i dysk protoplanetarny, z którego zmontowały się orbitujące ciała."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Solar System",
+     "url": "https://en.wikipedia.org/wiki/Solar_System"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "16",
+    "24",
+    "1.3 billion",
+    "4.6 billion",
+    "10 billion",
+    "300"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Solar System",
+    "opis": "Planetary system consisting of the Sun and objects orbiting it",
+    "tekst": "The Solar System is the gravitationally bound system of the Sun and the masses that orbit it, most prominently its eight planets, of which Earth is one. The Solar System is an isolated single-star planetary system within the Milky Way Galaxy. The system formed about 4.6 billion years ago when a dense region of a molecular cloud collapsed, creating the Sun and a protoplanetary disc from which the orbiting bodies assembled.",
+    "url": "https://en.wikipedia.org/wiki/Solar_System",
+    "język": "en"
+   },
+   "tagi": [
+    "Solar System",
+    "Euclid",
+    "Euclid Consortium",
+    "Euclid’s"
+   ],
+   "emotki": [
+    "🔭",
+    "🪐"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "ESA",
+     "tytuł": "Euclid discovers new comet",
+     "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet"
+    },
+    {
+     "nazwa": "Universe Today",
+     "tytuł": "The ESA's Euclid Space Telescope Has Discovered A New Comet",
+     "url": "https://www.universetoday.com/articles/the-esas-euclid-space-telescope-has-discovered-a-new-comet"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.663,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.35,
+     "eksponowanie": 1.44,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.499,
+     "treściwość": 0.424,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Euclid discovers new comet",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -1505,96 +1537,108 @@
     "emoji": "🗺️",
     "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
    },
-   "nagłówek": "Plaże kalifornijskiego miasta zmywają się. Czy jego mieszkańcy mogą odwrócić bieg wydarzeń?",
-   "lead": "Szybka erozja wybrzeża zagraża przybrzeżnym domom i gospodarkom, a gdy Super El Niño zbliża się do końca, miasto liczy się z rzeczywistością kryzysu klimatycznego S an Clemente jest jednym z najbardziej perfekcyjnych miast na plaży w południowej Kalifornii – stolicą amerykańskiej kultury surfingowej od lat 50. XX wieku. W ciągu dwóch lat, 2028 Olympic…",
+   "nagłówek": "UN biodiversity summit opens with nature goals off track",
+   "lead": "Nearly 200 nations kicked off crucial U.N. biodiversity talks in Armenia on Monday as governments face pressure to salvage a landmark nature pact whose goals are slipping out of reach. Most countries joined a historic call four years ago to halt and reverse the destruction of nature by 2030 but governments have been…",
    "język_źródła": "en",
-   "opublikowano": "2026-10-18T11:00:03+00:00",
+   "opublikowano": "2026-10-19T09:40:01+00:00",
    "źródło": {
-    "nazwa": "The Guardian Environment",
-    "url": "https://www.theguardian.com/us-news/2026/oct/18/california-beach-erosion-san-clemente",
-    "domena": "theguardian.com"
+    "nazwa": "Phys.org Earth",
+    "url": "https://phys.org/news/2026-10-nations-reset-nature-goals-track.html",
+    "domena": "phys.org"
    },
-   "obraz": "https://i.guim.co.uk/img/media/6e094a4a6106c307ef4374556750b743b4a5d555/0_0_5590_4470/master/5590.jpg?width=140&quality=85&auto=format&fit=max&s=88187eae26c33dc0533b9e9b27d82cac",
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/armenia-is-hosting-the.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Ale zagrożone są obecnie wieloletnie kulturowe i ekonomiczne motory miasta, jego plaże.",
-      "W miarę jak uderzające fale napędzane są późnymi letnimi burzami na pacyficznych kawałkach wybrzeża Kalifornii, niektóre plaże San Clemente zwężają się, a piasek coraz bardziej zżera.",
-      "Erozja plaży stała się kryzysem wzdłuż południowej linii brzegowej Kalifornii w tym roku, a miasta od Dana Point i Long Beach do Malibu poniosły dramatyczne szkody.",
-      "Jest to miejsce, w którym główna regionalna linia kolejowa, która przewozi ładunek o wartości 1 miliarda $ rocznie i jest drugą najbardziej ruchliwą linią pasażerską w kraju, biegnie wzdłuż granicy Oceanu Spokojnego.",
-      "Eksperci twierdzą, że obecny sezon ekstremalnych warunków pogodowych w Kalifornii dopiero się zaczyna. „Czeka nas seria dość wyjątkowych zdarzeń związanych z erozją, jeśli Super El Niño rozwinie się zgodnie z oczekiwaniami” - powiedział Sean Vitousek, oceanograf z US Geological Survey (USGS).",
-      "Ponieważ potencjalnie historyczny sezon El Niño pokrywa się z ogromnym przypływem ciepłej wody zwanym falą Kelvina, mieszkańcy obawiają się, że pozostawi on infrastrukturę przybrzeżną w kawałkach, zrównane z ziemią nieruchomości przy plaży i więcej plaż wyrzeźbionych w rozpadających się kawałkach żwiru i nagich skał.",
-      "Donald Trump nadal zaprzecza, że zmiany klimatyczne są „mistyfikacją”, „oszustwem” lub oszustwem ”.",
-      "Ale w południowej Kalifornii, historycznie konserwatywnym obszarze, skutki ekstremalnych zjawisk pogodowych związanych z kryzysem klimatycznym nagle stały się bardzo, bardzo realne. „Przewidywaliśmy wzrost poziomu mórz za 50 lat” - powiedziała Hallie Jones, burmistrz Laguna Beach w Kalifornii. „To lato udowodniło, że podniesienie się poziomu morza już nadeszło.„ W gorący, pogodny dzień Cameron Cosgrove, działacz na rzecz renowacji plaży w San Clemente, zabrał mnie na państwową plażę po południowej stronie miasta, gdzie pływacy i osoby opalające się wędrowały po torach głównej linii kolejowej, siadając na bardzo wąskim pasie piasku, który stromo schodzi do głębokiej błękitnej wody. - Widzisz, kiedy robi się tak stromo, jesteś po prostu na grze w wyczerpanie - powiedział mi Cosgrove. „To tylko kwestia czasu, zanim kolejna duża fala zacznie się ruszać i zacznie to znosić.„ Duże burze na początku września już spowodowały erozję niektórych z tych linii brzegowych na tory kolejowe. Według rzecznika Orange County Transportation Authority (OCTA) „silne fale i wysokie pływy przewyższały tory”.",
-      "Po prawie stu latach niezawodnej obsługi, przybrzeżna linia kolejowa została siedmiokrotnie zamknięta od 2021 roku w celu naprawy po osunięciach ziemi i gwałtownych pływach na odcinkach linii w San Clemente i dalej na południe wzdłuż wybrzeża."
+      "Many goals of the so-called \"Paris Agreement for Nature\" are falling behind, including a centerpiece commitment to protect 30% of Earth's land and oceans.",
+      "Some of the toughest objectives of the pact, such as cutting subsidies for fossil fuels and other powerful industries, have made little progress.",
+      "Armenia's Environment Minister Hambardzum Matevosyan, who is presiding over the political negotiations known as COP17, said nations had \"a unique chance to correct the course\" in Yerevan.",
+      "\"Over the next two weeks our task will be to bridge the differences, build consensus and ensure that COP17 ... delivers results commensurate with the urgency of the challenges before us,\" he said at the summit's opening session.",
+      "U.N. biodiversity chief Astrid Schomaker said that global progress toward the 2030 nature goals \"is not yet occurring at the pace and scale needed\" and a reset was needed.",
+      "\"What happens here in Yerevan matters.",
+      "The hosts expect up to 15,000 attendees at different events during the biodiversity summit, which finishes on Oct.",
+      "The summit comes at a difficult time, with public finances under strain and political attention fixed on conflicts, geopolitical tensions and a global energy crisis.",
+      "Only a handful of world leaders, including U.N. chief Antonio Guterres but mostly heads of state from nearby Central Asian nations, turned up for a high-level session on Friday ahead of the formal negotiations."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Convention on Biological Diversity’s 17th summit opens in Yerevan, Armenia, on Oct.",
+      "30, marks the halfway point to the deadlines for a first set of 23 action-oriented global targets .",
+      "Three of the world’s “megadiverse” countries are in Africa: The Democratic Republic of the Congo, Madagascar and South Africa make the list of 17 countries that are each home to at least 5,000 of the world’s plant species that are endemic.",
+      "The headline goal — to see 30% of the earth’s water and land protected by 2030 — is running behind schedule.",
+      "On the other hand, there are significant risks if formal protection of biodiversity is extended without the active involvement of Indigenous peoples and local communities. “Around the globe, protected areas have led to widespread evictions, hunger, ill health and human rights violations,” Stefania Carrer, a litigation and advocacy officer at Minority Rights Group, told Mongabay in 2024 , ahead of COP 16 in Cali. “MRG is concerned that the push to achieve the 30 by 30 target will result in an increase of fortress conservation projects worldwide, inevitably leading to more of these grievous rights violations.” The Cali COP took place as Indigenous Maasai faced violent eviction from their homes in the Ngorongoro Conservation Area.",
+      "OECMs — “other effective area-based conservation measures” that now make up around 5% of protected areas worldwide — have been advanced as a format for conservation that could better recognize local communities’ needs and rights, allowing them to continue sustainable fishing, forestry and agriculture in areas recognized under 30×30 scorekeeping."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Kalifornia to stan w zachodnich Stanach Zjednoczonych. Od północy graniczy z Oregonem, od południa z meksykańskim stanem Dolna Kalifornia, od wschodu z Nevadą, od południowego wschodu z Arizoną, a od zachodu z Oceanem Spokojnym. Z populacją ponad 39 milionów na obszarze 423 970 km ², jest to najbardziej zaludniony stan USA i trzeci co do wielkości pod względem powierzchni lądowej."
+      "Armenia, officially the Republic of Armenia, is a landlocked country in the Armenian highlands of West Asia. It is a part of the Caucasus region and is bordered by Turkey to the west, Georgia to the north, Azerbaijan to the east, and Iran and the Azerbaijani exclave of Nakhchivan to the south. Yerevan is the capital, largest city and financial center."
      ],
      "język": "en",
-     "przypis": "Wikipedia: California",
-     "url": "https://en.wikipedia.org/wiki/California"
+     "przypis": "Wikipedia: Armenia",
+     "url": "https://en.wikipedia.org/wiki/Armenia"
     }
    ],
-   "dlaczego_to_ważne": "",
+   "dlaczego_to_ważne": "Billions of people whose lives are being upended by the impacts of biodiversity loss depend on progress being made here in the next two weeks.\" The summit is one of the largest international events ever hosted in Armenia, a mountainous country in the Caucasus region.",
    "liczby": [
-    "50",
-    "25%",
-    "75%",
-    "2100",
-    "90",
-    "1%"
+    "200",
+    "30%",
+    "15,000",
+    "23",
+    "17",
+    "19"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "California",
-    "opis": "U.S. state",
-    "tekst": "California is a state in the Western United States. It is bordered by Oregon to the north, the Mexican state of Baja California to the south, Nevada to the east, Arizona to the southeast, and the Pacific Ocean to the west. With a population of over 39 million across an area of 163,696 square miles (423,970 km2), it is the most populous U.S. state and the third largest by land area.",
-    "url": "https://en.wikipedia.org/wiki/California",
+    "hasło": "Armenia",
+    "opis": "Country in West Asia",
+    "tekst": "Armenia, officially the Republic of Armenia, is a landlocked country in the Armenian highlands of West Asia. It is a part of the Caucasus region and is bordered by Turkey to the west, Georgia to the north, Azerbaijan to the east, and Iran and the Azerbaijani exclave of Nakhchivan to the south. Yerevan is the capital, largest city and financial center.",
+    "url": "https://en.wikipedia.org/wiki/Armenia",
     "język": "en"
    },
    "tagi": [
-    "California’s",
-    "San Clemente",
-    "California",
-    "Cosgrove"
+    "Armenia",
+    "Friday",
+    "Lambrechts",
+    "Guterres"
    ],
    "emotki": [
-    "🏅"
+    "🪐"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "The Guardian Environment",
-     "tytuł": "A California town’s beaches are washing away. Can its residents turn the tide?",
-     "url": "https://www.theguardian.com/us-news/2026/oct/18/california-beach-erosion-san-clemente"
+     "nazwa": "Phys.org Earth",
+     "tytuł": "UN biodiversity summit opens with nature goals off track",
+     "url": "https://phys.org/news/2026-10-nations-reset-nature-goals-track.html"
+    },
+    {
+     "nazwa": "Mongabay",
+     "tytuł": "Finance and Indigenous rights top Africans’ agenda as biodiversity summit opens in Yerevan",
+     "url": "https://news.mongabay.com/2026/10/finance-and-indigenous-rights-top-africans-agenda-as-biodiversity-summit-opens-in-yerevan/"
     }
    ],
-   "liczba_źródeł": 1,
+   "liczba_źródeł": 2,
    "czas_czytania_min": 3,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.708,
+    "wynik": 4.648,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.05,
-     "eksponowanie": 0.72,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.388,
-     "treściwość": 0.5,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.307,
+     "eksponowanie": 0.45,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.505,
+     "treściwość": 0.486,
      "język_działu": 0.0
     }
-   },
-   "oryginalny_nagłówek": "A California town’s beaches are washing away. Can its residents turn the tide?",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
    },
    "miejsce": 1
   },
@@ -1605,89 +1649,89 @@
     "emoji": "🗺️",
     "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
    },
-   "nagłówek": "Warming could help make the Indian Ocean a stronger climate buffer",
-   "lead": "The world's oceans help slow climate change by absorbing carbon dioxide (CO₂) from the atmosphere, but how much they take up can vary throughout the year. New research, published in Geophysical Research Letters , suggests these seasonal patterns are changing across the Indian Ocean, potentially affecting how it helps…",
+   "nagłówek": "NZ's climate in 'uncharted territory,' with more extreme weather events ahead",
+   "lead": "Much is being made of a record-strength El Niño event that could well spell a drier, windier summer for the north and east of New Zealand. But, as a major new assessment shows, it is forming against a backdrop of warming that's pushed the country's climate into \"uncharted territory.\" The Our Atmosphere and Climate 2026…",
    "język_źródła": "en",
-   "opublikowano": "2026-10-18T15:20:01+00:00",
+   "opublikowano": "2026-10-20T03:00:01+00:00",
    "źródło": {
-    "nazwa": "Phys.org Earth Sciences",
-    "url": "https://phys.org/news/2026-10-indian-ocean-stronger-climate-buffer.html",
+    "nazwa": "Phys.org Earth",
+    "url": "https://phys.org/news/2026-10-nz-climate-uncharted-territory-extreme.html",
     "domena": "phys.org"
    },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/warming-could-help-mak.jpg",
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/floods-in-new-zealand.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "CO₂ moves continuously between the ocean and the atmosphere.",
-      "When seawater absorbs more CO₂ than it releases, the ocean acts as a carbon sink, storing some of the greenhouse gas that would otherwise remain in the atmosphere and contribute to global warming.",
-      "But the exchange also works in reverse: The ocean can release dissolved CO₂ back into the air.",
-      "This balance is influenced by several factors, including water temperature, winds and ocean circulation.",
-      "These processes change throughout the year, with seasonal shifts in temperature, winds and the movement of water altering how quickly CO₂ enters or leaves the ocean.",
-      "Cooler water can generally hold more dissolved CO₂ than warmer water, favoring absorption from the atmosphere, while warming can encourage the gas to escape.",
-      "However, the outcome also depends on how much CO₂ is already dissolved in the water and how ocean currents bring carbon-rich water to the surface.",
-      "According to the Global Carbon Budget 2024, the ocean absorbed around 26% of total human-caused CO₂ emissions between 2014 and 2023.",
-      "However, research suggests its capacity to absorb additional carbon has shown little growth since 2016, partly because of increased climate variability."
+      "Carbon dioxide (CO₂) levels, as measured at a monitoring station at Baring Head, are up by 30% since 1972, and the annual rate of increase has tripled since the 1960s.",
+      "Globally, CO₂ levels are now higher than they have been for millions of years .",
+      "Ocean surface temperatures around New Zealand have warmed 34% faster than the global average, and the Tasman Sea region has become a hot spot for marine heat waves , with profound effects on marine ecosystems .",
+      "The warming will continue to accelerate an already dramatic loss of glacial ice in New Zealand, with glaciers expected to lose 50% to 85% of their remaining mass this century and some possibly disappearing completely unless emissions are brought down fast enough.",
+      "With El Niño on top of the ongoing warming, some parts of the country can expect stronger rainfall extremes this summer , particularly in the west of the South Island, while some eastern regions will experience more intense drought.",
+      "The report also highlights New Zealand's contribution to global emissions.",
+      "While New Zealanders account for only 0.06% of the world's population, they contribute 0.17% of total emissions.",
+      "On a per capita basis, New Zealanders are among the top 40 emitters internationally.",
+      "While tracking background warming trends, the report also discusses changes in episodic extreme events that can cost lives and damage housing, infrastructure and livelihoods."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "The Indian Ocean is the third-largest of the world's five oceanic divisions, covering 70,560,000 km2 (27,240,000 sq mi) or approximately 20% of the water area of Earth's surface. It is bounded by Asia to the north, Africa to the west and Australia to the east. To the south it is bounded by the Southern Ocean or Antarctica, depending on the definition in use. The Indian Ocean has large marginal or regional seas, including the Andaman Sea, the Arabian Sea, the Bay of Bengal, and the Laccadive Sea."
+      "Zealand is the largest and most populous island in Denmark proper at 7,031 km2. Zealand had a population of 2,319,705 on 1 January 2020, comprising 40% of the country's population."
      ],
      "język": "en",
-     "przypis": "Wikipedia: Indian Ocean",
-     "url": "https://en.wikipedia.org/wiki/Indian_Ocean"
+     "przypis": "Wikipedia: Zealand",
+     "url": "https://en.wikipedia.org/wiki/Zealand"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "26%",
-    "48%",
-    "23%",
-    "14%",
-    "7%",
-    "100,000"
+    "1.36°C",
+    "10",
+    "30%",
+    "34%",
+    "50%",
+    "85%"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Indian Ocean",
-    "opis": "Oceanic division",
-    "tekst": "The Indian Ocean is the third-largest of the world's five oceanic divisions, covering 70,560,000 km2 (27,240,000 sq mi) or approximately 20% of the water area of Earth's surface. It is bounded by Asia to the north, Africa to the west and Australia to the east. To the south it is bounded by the Southern Ocean or Antarctica, depending on the definition in use. The Indian Ocean has large marginal or regional seas, including the Andaman Sea, the Arabian Sea, the Bay of Bengal, and the Laccadive Sea.",
-    "url": "https://en.wikipedia.org/wiki/Indian_Ocean",
+    "hasło": "Zealand",
+    "opis": "Most populous island of Denmark",
+    "tekst": "Zealand is the largest and most populous island in Denmark proper at 7,031 km2. Zealand had a population of 2,319,705 on 1 January 2020, comprising 40% of the country's population.",
+    "url": "https://en.wikipedia.org/wiki/Zealand",
     "język": "en"
    },
    "tagi": [
-    "Indian Ocean",
-    "Bengal",
-    "Arabian Sea",
-    "Arabian Sea Bay"
+    "Zealand",
+    "Zealand's",
+    "Zealanders",
+    "El Niño"
    ],
    "emotki": [
     "🌊"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Phys.org Earth Sciences",
-     "tytuł": "Warming could help make the Indian Ocean a stronger climate buffer",
-     "url": "https://phys.org/news/2026-10-indian-ocean-stronger-climate-buffer.html"
+     "nazwa": "Phys.org Earth",
+     "tytuł": "NZ's climate in 'uncharted territory,' with more extreme weather events ahead",
+     "url": "https://phys.org/news/2026-10-nz-climate-uncharted-territory-extreme.html"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.344,
+    "wynik": 3.253,
     "składowe": {
      "potwierdzenia": 0.0,
-     "ranga_źródła": 1.05,
-     "eksponowanie": 0.72,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.442,
-     "treściwość": 0.432,
+     "ranga_źródła": 1.15,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.588,
+     "treściwość": 0.355,
      "język_działu": 0.0
     }
    },
@@ -1700,124 +1744,39 @@
     "emoji": "🎬",
     "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
    },
-   "nagłówek": "Taylor Swift, Inde Navarrette i Charlize Theron na gali Muzeum Akademii Filmowej w Los Angeles",
-   "lead": "W sobotę wieczorem odbyła się gala Muzeum Akademii Filmowej w Los Angeles. Wydarzenie, którego celem jest wsparcie misji upowszechniania i ochrony dziedzictwa kina, zgromadziło hollywoodzką śmietankę.",
+   "nagłówek": "\"Pamiętam uśmiech jak u klauna\". Wstrząsające zeznania kobiety na procesie Russella Branda",
+   "lead": "Russell Brand złapał kobietę za piersi 30 sekund po poznaniu jej — ujawnia sąd. Kobieta, która zeznawała w sądzie, powiedziała policji, że aktor miał \"dziwny maniakalny uśmiech\" podczas domniemanego zdarzenia w 2004 r.",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-18T08:19:00+00:00",
-   "źródło": {
-    "nazwa": "Filmweb",
-    "url": "https://www.filmweb.pl/news/Taylor+Swift%2C+Inde+Navarrette+i+Charlize+Theron+na+gali+Muzeum+Akademii+Filmowej+w+Los+Angeles-169163",
-    "domena": "filmweb.pl"
-   },
-   "obraz": "https://fwcdn.pl/nph/49468/2026/78129.16.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Współprzewodniczącymi tegorocznej gali byli Robert Rodriguez , <a class='internal'"
-     ]
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": null,
-   "tagi": [
-    "Muzeum Akademii Filmowej",
-    "Los Angeles",
-    "Swift Inde Navarrette",
-    "Robert Rodriguez"
-   ],
-   "emotki": [
-    "🎬"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Filmweb",
-     "tytuł": "Taylor Swift, Inde Navarrette i Charlize Theron na gali Muzeum Akademii Filmowej w Los Angeles",
-     "url": "https://www.filmweb.pl/news/Taylor+Swift%2C+Inde+Navarrette+i+Charlize+Theron+na+gali+Muzeum+Akademii+Filmowej+w+Los+Angeles-169163"
-    },
-    {
-     "nazwa": "Pitchfork",
-     "tytuł": "Watch Taylor Swift Debut “The Fate of Ophelia” Live at the Academy Museum Gala",
-     "url": "https://pitchfork.com/story/watch-taylor-swift-debut-the-fate-of-ophelia-live-at-the-academy-museum-gala/"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 5.37,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.258,
-     "eksponowanie": 0.9,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.458,
-     "treściwość": 0.354,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "popkultura",
-    "nazwa": "Popkultura",
-    "emoji": "🎬",
-    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
-   },
-   "nagłówek": "Widzowie podzieleni po bitwie w \"The Voice of Poland\". \"Powinny wygrać obie\"",
-   "lead": "Za nami pierwsze odcinki etapu Bitew w 17. edycji \"The Voice of Poland\". Jednym z najmocniej komentowanych momentów wieczoru okazało się starcie Zofii Kosińskiej i Agnieszki Moskwy z drużyny Tomsona i Barona. — To było bardzo teatralne, ale osadzone też w muzyce.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-10-18T05:55:02+00:00",
+   "opublikowano": "2026-10-19T17:00:30+00:00",
    "źródło": {
     "nazwa": "Onet Kultura",
-    "url": "https://kultura.onet.pl/muzyka/wiadomosci/widzowie-podzieleni-po-bitwie-w-the-voice-powinny-wygrac-obie/kcc69qq",
+    "url": "https://kultura.onet.pl/telewizja/aktualnosci/russell-brand-oskarzony-o-gwalty-i-napasc-maniakalny-smiech/84yp9b7",
     "domena": "kultura.onet.pl"
    },
-   "obraz": "https://cdn.kultura.onet.pl/1/4JTk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy8zNzQ3YWEzOWUzZmJmYjEyZDUyMDk4ZDU1MDI0NTQxOS5wbmeSlQMkEs0HQM0EFJMFzQlgzQZA3gACoTAHoTEE",
+   "obraz": "https://cdn.kultura.onet.pl/1/4Wzk9lGaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy81NzUyNDg5OC05ZmE5LTQ4YTEtYmNlMi0wMmMyNDY5NzU5MjIuanBlZ5KVAwBpzQyczQcZkwXNCWDNBkDeAAKhMAehMQQ",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Wtedy uświadomiłem sobie, że obydwie zasługujecie, żeby pójść dalej — mówił Kuba Badach.",
-      "Podobnego zdania są widzowie."
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Kuba Badach do jednego z pojedynków wystawił Kubę Gąsowskiego i Gosię Stępień , którzy zaśpiewali razem w przeboju \"Wonderwall\" grupy Oasis .",
-      "I co ja mam wtedy myśleć pod kątem tego, że my mamy pracować dalej? (...) Jestem trochę rozczarowany, jestem w kropce\" - komentował Kuba Badach .",
-      "Trenerzy złamali regulamin programu i to aż dwukrotnie - w dwóch przypadkach uznali bowiem, że nie są w stanie rozstrzygnąć rywalizacji.",
-      "Modelka, tancerka i prezenterka od lipca 2024 r. jest żoną Tribbsa, obecnego trenera \"The Voice Kids\"."
+      "Trwa proces brytyjskiego komika.",
+      "Nagle podszedł do mnie i bardzo szybko chwycił mnie za obie piersi, potem puścił, złapał mnie za ramię i po prostu pociągnął.",
+      "To było kompletnie nie na miejscu i bardzo mnie to zszokowało.",
+      "Gdy wciągnął mnie do środka [toalety], nadal byłam w szoku po tym, co się stało.",
+      "Sam fakt, że zrobił to w miejscu publicznym z kimś, kogo dopiero co poznał, był dla mnie ogromnym szokiem, nie wiedziałam, jak to przetrawić."
      ]
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "17",
-    "31"
+    "30",
+    "51"
    ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "Interia Muzyka",
-     "ujęcie": "Sporo emocji w programie wywołało starcie Małgorzaty Stępień z Jakubem Gąsowskim w przeboju \"Wonderwall\" grupy Oasis.",
-     "url": "https://muzyka.interia.pl/the-voice-of-poland/news-kuba-gasowski-odpadl-z-the-voice-of-poland-kradziez-michala,nId,23559995"
-    }
-   ],
+   "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Poland",
-    "Voice",
-    "Zofii Kosińskiej",
-    "Agnieszki Moskwy"
+    "Russella Branda Russell Brand"
    ],
    "emotki": [
     "🎭"
@@ -1825,37 +1784,106 @@
    "wszystkie_źródła": [
     {
      "nazwa": "Onet Kultura",
-     "tytuł": "Widzowie podzieleni po bitwie w \"The Voice of Poland\". \"Powinny wygrać obie\"",
-     "url": "https://kultura.onet.pl/muzyka/wiadomosci/widzowie-podzieleni-po-bitwie-w-the-voice-powinny-wygrac-obie/kcc69qq"
+     "tytuł": "\"Pamiętam uśmiech jak u klauna\". Wstrząsające zeznania kobiety na procesie Russella Branda",
+     "url": "https://kultura.onet.pl/telewizja/aktualnosci/russell-brand-oskarzony-o-gwalty-i-napasc-maniakalny-smiech/84yp9b7"
     },
     {
-     "nazwa": "Interia Muzyka",
-     "tytuł": "Kuba Gąsowski odpadł z \"The Voice of Poland\". Kradzież nie wystarczyła",
-     "url": "https://muzyka.interia.pl/the-voice-of-poland/news-kuba-gasowski-odpadl-z-the-voice-of-poland-kradziez-michala,nId,23559995"
-    },
-    {
-     "nazwa": "Interia Muzyka",
-     "tytuł": "W \"The Voice of Poland\" trenerzy złamali regulamin. \"Jestem zgruzowana\"",
-     "url": "https://muzyka.interia.pl/the-voice-of-poland/news-w-the-voice-of-poland-trenerzy-zlamali-regulamin-kto-przesze,nId,23560039"
-    },
-    {
-     "nazwa": "Interia Muzyka",
-     "tytuł": "Nowa osoba w ekipie \"The Voice of Poland\". To żona trenera innego show TVP",
-     "url": "https://muzyka.interia.pl/the-voice-of-poland/news-zona-tribbsa-wrocila-do-the-voice-of-poland-jakie-ma-zadania,nId,23560007"
+     "nazwa": "BBC Kultura",
+     "tytuł": "Woman says she 'closed eyes and tried not to be there' during alleged Russell Brand rape",
+     "url": "https://www.bbc.co.uk/news/articles/cvj6jylk3456o?at_medium=RSS&at_campaign=rss"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.018,
+    "wynik": 5.686,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.405,
-     "eksponowanie": 0.0,
+     "ranga_źródła": 1.35,
+     "eksponowanie": 0.81,
      "słowa_kluczowe": 0.35,
-     "świeżość": 0.386,
-     "treściwość": 0.477,
+     "świeżość": 0.48,
+     "treściwość": 0.296,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Jessie Eisenberg zdradza, że zaczął reżyserować, bo dostał Złotą Malinę",
+   "lead": "\" Prawdziwy ból \" Jesse'ego Eisenberga zdobył nominację do Oscara za najlepszy scenariusz i przyniósł statuetkę Kieranowi",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-19T08:55:00+00:00",
+   "źródło": {
+    "nazwa": "Filmweb",
+    "url": "https://www.filmweb.pl/news/Jessie+Eisenberg+zdradza%2C+%C5%BCe+zacz%C4%85%C5%82+re%C5%BCyserowa%C4%87%2C+bo+dosta%C5%82+Z%C5%82ot%C4%85+Malin%C4%99-169176",
+    "domena": "filmweb.pl"
+   },
+   "obraz": "https://fwcdn.pl/nph/1985708/2026/78150_1.16.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Ogromny wpływ miała na to Złota Malina, którą otrzymał za drugoplanowy występ w filmie \"Batman v Superman: Świt sprawiedliwości\".",
+      "Film Zacka Snydera miał swoją premierę w 2016 roku.",
+      "Aktor debiutował jako reżyser w 2022 roku za sprawą \"When You Finish Saving the World\"."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "25"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Film",
+     "ujęcie": "Jesse Eisenberg promuje swój najnowszy film \"Debiut\", który znalazł się w programie BFI London Film Festival.",
+     "url": "https://film.interia.pl/wiadomosci/news-dlaczego-stanal-za-kamera-wszystko-przez-zlota-maline,nId,23560662"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Złotą Malinę Prawdziwy",
+    "Jesse'ego Eisenberga",
+    "Eisenberg",
+    "Kieranowi"
+   ],
+   "emotki": [
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Filmweb",
+     "tytuł": "Jessie Eisenberg zdradza, że zaczął reżyserować, bo dostał Złotą Malinę",
+     "url": "https://www.filmweb.pl/news/Jessie+Eisenberg+zdradza%2C+%C5%BCe+zacz%C4%85%C5%82+re%C5%BCyserowa%C4%87%2C+bo+dosta%C5%82+Z%C5%82ot%C4%85+Malin%C4%99-169176"
+    },
+    {
+     "nazwa": "Interia Film",
+     "tytuł": "Jesse Eisenberg dostał Złotą Malinę. Tak uratował swoją karierę",
+     "url": "https://film.interia.pl/wiadomosci/news-dlaczego-stanal-za-kamera-wszystko-przez-zlota-maline,nId,23560662"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.461,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.243,
+     "eksponowanie": 0.27,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.423,
+     "treściwość": 0.425,
      "język_działu": 0.5
     }
    },
@@ -1866,9 +1894,9 @@
  "statystyki": {
   "kanały_ok": 72,
   "kanały_błędne": 0,
-  "znaki_tłumaczone": 19994,
+  "znaki_tłumaczone": 19979,
   "niedziałające_kanały": [],
   "działy": 18,
-  "artykuły_w_oknie": 50
+  "artykuły_w_oknie": 56
  }
 }
