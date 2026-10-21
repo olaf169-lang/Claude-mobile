@@ -1,0 +1,1866 @@
+{
+ "wersja": "1.0.0",
+ "wydanie": "2026-10-21",
+ "dotyczy_dnia": "2026-10-20",
+ "wygenerowano": "2026-10-21T11:03:03+00:00",
+ "strefa": "Europe/Warsaw",
+ "tryb": "ekstrakcyjny",
+ "demo": false,
+ "pozycje": [
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Kraków ma prezydenta. Łukasz Gibała złożył ślubowanie",
+   "lead": "Nowy prezydent otrzymał od przewodniczącego miejskiej komisji wyborczej Krzysztofa Dyla dokument potwierdzający wybór na stanowisko. Po złożeniu ślubowania odebrał insygnia władzy – łańcuch oraz klucz do bram miasta.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-20T17:06:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/regiony/krakow/news-krakow-ma-prezydenta-lukasz-gibala-zlozyl-slubowanie,nIdn,1022692",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/a1/b6/lukasz-gibala-na-uroczystosci-zaprzysiezenia-na-prezydenta-miasta-636x421-a1b651c2.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Przekazał je Stanisław Kracik, który przez ostatnie miesiące pełnił obowiązki prezydenta Krakowa.",
+      "Kracik przejął kierowanie miastem po majowym referendum, w którym ze stanowiska odwołano Aleksandra Miszalskiego (KO).",
+      "Zwracam się do wszystkich państwa tu siedzących, do wszystkich radnych z propozycją współpracy: odłóżmy na bok to, co nas dzieliło, i to, co nas dzieli, a skupmy się na tym, co nas łączy – zaapelował Gibała, dodając, że łączyć powinna przede wszystkim determinacja w wyprowadzeniu miasta z kryzysu.",
+      "Ocenił, że miasto znalazło się w nim po ponad 20 latach „niezbyt udanych rządów”.",
+      "Gibała wygrał drugą turę wyborów, która odbyła się 11 października.",
+      "Poparło go 62,12 proc. głosujących, czyli ponad 162 tys. osób.",
+      "Jego kontrkandydatka, senator Monika Piątkowska popierana przez KO i PSL, uzyskała 37,88 proc. poparcia – ponad 98 tys. głosów.",
+      "Frekwencja w drugiej turze wyniosła 44,27 proc.",
+      "W Krakowie uprawnionych do głosowania jest niemal 600 tys. osób."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Wśród gości znalazła się między innymi senatorka Monika Piątkowska - kontrkandydatka Gibały w październikowych wyborach. - Dzisiaj stoimy u progu nowego rozdziału w historii naszego miasta - mówił włodarz.",
+      "\"Obejmując urząd prezydenta miasta, uroczyście ślubuję, że dochowam wierności prawu, a powierzony mi urząd sprawować będę tylko dla dobra publicznego i pomyślności mieszkańców miasta\" - głosi treść ślubowania, które we wtorek - podczas uroczystej sesji Rady Miasta - złożył Łukasz Gibała , otwiera się w nowym oknie . - Mieszkańcy mają dość kłótni, awantur politycznych (…).",
+      "W trakcie wtorkowej (20 października) ceremonii Łukasz Gibała otrzymał od przewodniczącego miejskiej komisji wyborczej Krzysztofa Dyla dokument potwierdzający wybór na prezydenta Krakowa.",
+      "Następnie złożył ślubowanie i odebrał od pełniącego przez ostatnie miesiące obowiązki prezydenta Krakowa Stanisława Kracika insygnia władzy - łańcuch i klucz do bram miasta .",
+      "Przemawiając podczas uroczystości, Gibała ocenił, że poparcie go w trakcie wyborów przez osoby o różnych poglądach świadczy o tym, że klasyczne podziały polityczne w samorządzie tracą na znaczeniu, a mieszkańcy oczekują od lokalnych władz ponadpolitycznego porozumienia.",
+      "Odwołał się do słów ślubowania, w którym zadeklarował sprawowanie urzędu \"tylko dla dobra publicznego i pomyślności mieszkańców miasta\".",
+      "Ocenił, że miasto znalazło się w nim po ponad 20 latach \"niezbyt udanych rządów\"."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "20 lat",
+    "11",
+    "62,12 proc.",
+    "162 tys.",
+    "37,88 proc.",
+    "98 tys."
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Fakty",
+     "ujęcie": "Łukasz Gibała został zaprzysiężony na urząd prezydenta Krakowa.",
+     "url": "https://wydarzenia.interia.pl/malopolskie/news-lukasz-gibala-nowym-prezydentem-krakowa-zlozyl-slubowanie,nId,23561395"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Gibała",
+    "Ruchu Palikota",
+    "Wydziale Filozofii Uniwersytetu Jagiellońskiego",
+    "Aleksandra Miszalskiego"
+   ],
+   "emotki": [
+    "🏛️",
+    "🗳️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Kraków ma prezydenta. Łukasz Gibała złożył ślubowanie",
+     "url": "https://www.rmf24.pl/regiony/krakow/news-krakow-ma-prezydenta-lukasz-gibala-zlozyl-slubowanie,nIdn,1022692"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Łukasz Gibała nowym prezydentem Krakowa. Złożył ślubowanie",
+     "url": "https://wydarzenia.interia.pl/malopolskie/news-lukasz-gibala-nowym-prezydentem-krakowa-zlozyl-slubowanie,nId,23561395"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Kraków. Łukasz Gibała oficjalnie objął urząd prezydenta",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33089325,krakow-lukasz-gibala-oficjalnie-objal-urzad-prezydenta.html"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.727,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.45,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.464,
+     "treściwość": 0.463,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Dekryminalizacja aborcji. Sejm zagłosował „za”. Drugi projekt również przyjęty",
+   "lead": "Sejm uchwalił we wtorek nowelizację Kodeksu karnego, która przewiduje częściową dekryminalizację aborcji za zgodą kobiety. Za głosowało 217 posłów, przeciw było 213, a trzy osoby wstrzymały się od głosu.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-20T17:18:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/fakty/polityka/news-dekryminalizacja-aborcji-sejm-zaglosowal-za-drugi-projekt-ro,nIdn,1022726",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/c5/eb/sejm-uchwalil-nowelizacje-kodeksu-karnego-dotyczaca-czesciowej-dekryminalizacji-aborcji-fot-636x421-c5eb1645.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Teraz nowelizacja trafi do Senatu.",
+      "Nowelizację poparli wszyscy głosujący posłowie klubu Koalicji Obywatelskiej (152), Lewicy (21), Centrum (14) i koła poselskiego Razem (4).",
+      "Za głosowało również 10 posłów PSL-TD, 12 posłów Polski 2050 i czworo posłów niezrzeszonych: Marcin Józefaciuk, Paulina Matysiak, Joanna Mucha i Tomasz Zimoch.",
+      "Przeciwko zagłosowali wszyscy głosujący członkowie klubu PiS (137), Rozwoju Plus (38), Konfederacji (15), Demokracji (4), Konfederacji KP (3) oraz jeden poseł niezrzeszony – Janusz Kowalski.",
+      "Głos przeciwko oddało także 14 posłów PSL-TD, w tym: Władysław Kosiniak-Kamysz, Dariusz Klimczak, Marek Biernacki i Marek Sawicki.",
+      "Henryk Smolarz i Piotr Zgorzelski z PSL-TD wstrzymali się od głosu.",
+      "Przeciwny uchwaleniu noweli był również Szymon Hołownia z Polski 2050 , a inny członek tego klubu, Adam Gomoła, wstrzymał się od głosu.",
+      "Wcześniej posłowie nie poparli wniosku o odrzucenie projektu nowelizacji Kodeksu karnego.",
+      "Wniosek złożyły Konfederacja i koło Demokracja Bezpośrednia."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Pierwsza z nich to nowela ustawy o planowaniu rodziny, która zakłada przywrócenie możliwości terminacji ciąży w razie ciężkiego i nieodwracalnego uszkodzenia płodu (przesłankę tą usunął w 2020 r.",
+      "Druga to zmiany w Kodeksie karnym - ich celem jest odejście od karania za pomoc w aborcji (chodzi o organizacje pozarządowe i osoby bliskie kobiet, które zdecydują się na przerwanie ciąży).",
+      "Wtorkowe rozstrzygnięcia najbardziej ucieszyły Lewicę, która tuż zakończeniu głosowań zorganizowała konferencję prasową w Sejmie. - Dzisiaj zrobiliśmy naprawdę duży krok odpowiedzialnie, wspólnie jako wszystkie ugrupowania koalicji rządzącej do tego, żeby być bliżej cywilizowanej Europy, bo jesteśmy jednym z ostatnich krajów UE, w które mają naprawdę drakońskie przepisy dotyczące przerywania ciąży.",
+      "Posłanka KO Dorota Łoboda przyznała, iż wtorkowe głosowanie to przełom, bo prawo aborcyjne udało się choć trochę zliberalizować. - Ale tak naprawdę sukces będziemy mogli odtrąbić, jak kiedyś aborcja w Polsce będzie bezpieczna, legalna do 12 tygodnia bez podawania powodów.",
+      "Sejm przyjął ustawę częściowo dekryminalizującą aborcję i pomoc przy niej - za głosowało 217 posłów, przeciw - 213, a wstrzymało się trzech.",
+      "Za było 233, przeciw - 203, wstrzymał się jeden.",
+      "W przypadku polityków PiS 136 obecnych na sali plenarnej posłów sprzeciwiło się przyjęciu takich przepisów."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Konfederacja targowicka – spisek magnacki zawiązany w nocy z 18 na 19 maja 1792 w Targowicy, na życzenie i pod patronatem cesarzowej Rosji Katarzyny II, skierowany przeciwko reformom Sejmu Czteroletniego i Konstytucji 3 maja, uznany za symbol zdrady narodowej."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Konfederacja targowicka",
+     "url": "https://pl.wikipedia.org/wiki/Konfederacja_targowicka"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "217",
+    "213",
+    "152",
+    "14",
+    "10",
+    "12"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Fakty",
+     "ujęcie": "Wszyscy obecni przedstawiciele Lewicy - 21 posłów, Centrum oraz Polski 2050 - po 14 parlamentarzystów, a także czterej członkowie Razem - zagłosowali za ustawą.",
+     "url": "https://wydarzenia.interia.pl/kraj/news-dwie-ustawy-w-sprawie-aborcji-sejm-zaglosowal,nId,23561423"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Konfederacja targowicka",
+    "opis": "sojusz polskich magnatów i carycy przeciwko reformom sejmu czteroletniego",
+    "tekst": "Konfederacja targowicka – spisek magnacki zawiązany w nocy z 18 na 19 maja 1792 w Targowicy, na życzenie i pod patronatem cesarzowej Rosji Katarzyny II, skierowany przeciwko reformom Sejmu Czteroletniego i Konstytucji 3 maja, uznany za symbol zdrady narodowej.",
+    "url": "https://pl.wikipedia.org/wiki/Konfederacja_targowicka",
+    "język": "pl"
+   },
+   "tagi": [
+    "Kodeksu",
+    "Konfederacji",
+    "Lewicy",
+    "Polski"
+   ],
+   "emotki": [
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Dekryminalizacja aborcji. Sejm zagłosował „za”. Drugi projekt również przyjęty",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-dekryminalizacja-aborcji-sejm-zaglosowal-za-drugi-projekt-ro,nIdn,1022726"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Sejm łagodzi prawo do aborcji. Lewica triumfuje. PSL wraca do pomysłu referendum",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,197990,33089021,sejm-lagodzi-prawo-do-aborcji-lewica-triumfuje-psl-wraca-do.html"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Dwie ustawy w sprawie aborcji. Sejm zagłosował",
+     "url": "https://wydarzenia.interia.pl/kraj/news-dwie-ustawy-w-sprawie-aborcji-sejm-zaglosowal,nId,23561423"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.399,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.45,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.498,
+     "treściwość": 0.451,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Nigeria potwierdza przypadek Eboli, gdy epidemia rozprzestrzeniła się na Afrykę Zachodnią",
+   "lead": "Ministerstwo zdrowia stwierdziło, że przypadek w najludniejszym kraju Afryki wykryto u kobiety, która podróżowała z Ugandy w Nigerii, potwierdził przypadek Eboli w jej stolicy, Abudży, po tym, jak kobieta, która przybyła z Ugandy, uzyskała pozytywny wynik testu na obecność wirusa. Kobieta zaczęła wykazywać objawy 7 października i została przyjęta do…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-21T00:14:55+00:00",
+   "źródło": {
+    "nazwa": "The Guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest",
+    "domena": "theguardian.com"
+   },
+   "obraz": "https://i.guim.co.uk/img/media/cc9a6ec270dac6b02b8ff0b829657c9fed193c1b/671_0_4033_3227/master/4033.jpg?width=140&quality=85&auto=format&fit=max&s=16352e02a522e9bb6270cae4acc5a411",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Minister zdrowia, Muhammad Pate, powiedział, że władze zaczęły śledzić 44 osoby zidentyfikowane jako kontakty pacjenta. „Robimy wszystko, co w naszej mocy, aby opanować tę sprawę, śledząc wszystkie kontakty, jakie dana osoba mogła mieć” - powiedział.",
+      "Ministerstwo zdrowia Ugandy poinformowało, że pacjentka przejechała tylko przez Ugandę i że jest Nigeryjką, która była w podróży służbowej do wschodniego regionu Konga.",
+      "Władze Nigerii nie ujawniły jej obywatelstwa. „Podróż przez Ugandę nie dowodzi, że infekcja wystąpiła tutaj.",
+      "Miejsce narażenia jest nadal badane ”- stwierdziło ministerstwo w oświadczeniu.",
+      "Ministerstwo nalegało, że Uganda „nie ma potwierdzonych aktywnych przypadków eboli”.",
+      "Nigeria jest ostatnim krajem, który zgłosił przypadek eboli, gdy epidemia rozprzestrzeniła się w całym regionie.",
+      "Kenia potwierdziła swój pierwszy przypadek na początku tego miesiąca i od tego czasu zanotowała dziewięć infekcji.",
+      "Uganda wcześniej zgłaszała przypadki Eboli, ale później ogłosiła, że jest wolna od wirusa.",
+      "Dr Jean Kaseya, dyrektor generalny Afrykańskich Centrów Kontroli Chorób, powiedział na X, że „stoimy w obliczu niezwykle poważnego zagrożenia”, a śmiertelność wynosi prawie 50% przypadków. „Epidemia eboli Bundibugyo stała się już najbardziej rozległą geograficznie w historii, dotykając kilka krajów w trzech regionach Afryki” - powiedział."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "We wtorek nigeryjskie Ministerstwo Zdrowia potwierdziło, że kraj odnotował swój pierwszy znany przypadek eboli podczas obecnej epidemii.",
+      "Uważa się, że wybuch epidemii rozpoczął się na wschodzie Demokratycznej Republiki Konga , niedaleko granicy z Ugandą, a Uganda jest drugim krajem, który odnotował infekcje.",
+      "Powiedział, że władze rozpoczęły już śledzenie 44 osób zidentyfikowanych jako kontakty pacjenta.",
+      "Nigeryjskie Centrum Kontroli Chorób oświadczyło dwa tygodnie temu, że zwiększa nadzór po pierwszych odnotowanych przypadkach w Kenii, twierdząc, że poprawia gotowość kraju na ewentualną epidemię.",
+      "Pracownik służby zdrowia podaje dawkę szczepionki Ervebo przeciwko wirusowi Ebola w Beni, prowincja Kiwu Północne, wschodnie Kongo, w dniu",
+      "Sebastien Kitsa Musayi/AP hide caption LAGOS, Nigeria — Nigeria potwierdziła przypadek Eboli w swojej stolicy, Abudży, we wtorek po tym, jak kobieta, która przybyła z Ugandy, uzyskała pozytywny wynik testu na obecność wirusa, poinformowało Ministerstwo Zdrowia.",
+      "11, gdzie później zdiagnozowano u niej Ebolę."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Ebola, znana również jako choroba wywołana wirusem Ebola (EVD) i gorączka krwotoczna Ebola (ehf), jest odzwierzęcą wirusową gorączką krwotoczną u ludzi i innych naczelnych, wywołaną przez cztery z sześciu znanych ebolawirusów. Objawy zwykle pojawiają się od dwóch dni do trzech tygodni po zakażeniu. Pierwsze objawy to zwykle gorączka, ból gardła, ból mięśni i ból głowy. Po nich zwykle następują wymioty, biegunka, wysypka, zaburzenia czynności wątroby i nerek, w którym to momencie niektóre osoby zaczynają krwawić zarówno wewnętrznie, jak i zewnętrznie. Ogniska choroby charakteryzowały się śmiertelnością od 25 do 90%, średnio na poziomie około 50%. Zaangażowane gatunki wirusa i czas leczenia odgrywają kluczową rolę w jego prognozowaniu. Śmierć jest często spowodowana wstrząsem spowodowanym utratą płynów i zwykle występuje między 6 a 16 dniem po pojawieniu się pierwszych objawów."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Ebola",
+     "url": "https://en.wikipedia.org/wiki/Ebola"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "44",
+    "50%",
+    "9,500",
+    "4,600",
+    "11,000",
+    "9,000"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Ebola",
+    "opis": "Hemorrhagic fever caused by ebolaviruses",
+    "tekst": "Ebola, also known as Ebola virus disease (EVD) and Ebola hemorrhagic fever (EHF), is a zoonotic viral hemorrhagic fever in humans and other primates, caused by four of the six known ebolaviruses. Symptoms typically start anywhere between two days and three weeks after infection. The first symptoms are usually fever, sore throat, muscle pain, and headaches. These are usually followed by vomiting, diarrhoea, rash, hepatic and renal dysfunction, at which point some people begin to bleed both internally and externally. Outbreaks of the disease have had a mortality rate of between 25 and 90%, averaging out at approximately 50%. The viral species involved and timing of treatment play a critical role in its prognosis. Death is often due to shock from fluid loss, and typically occurs between 6 and 16 days after the first symptoms appear.",
+    "url": "https://en.wikipedia.org/wiki/Ebola",
+    "język": "en"
+   },
+   "tagi": [
+    "Ebola",
+    "Uganda",
+    "Disease Control",
+    "Nigerian"
+   ],
+   "emotki": [
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Nigeria confirms Ebola case as outbreak spreads into western Africa",
+     "url": "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest"
+    },
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "Nigeria records its first Ebola case, in capital Abuja",
+     "url": "https://www.dw.com/en/nigeria-records-its-first-ebola-case-in-capital-abuja/a-79717377?maca=en-rss-en-world-4025-rdf"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "Nigeria confirms an Ebola case in Abuja as a woman arriving from Uganda tests positive",
+     "url": "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 3,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.6,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.507,
+     "eksponowanie": 1.89,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.553,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Nigeria confirms Ebola case as outbreak spreads into western Africa",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Trump o prośbie skierowanej do Putina. \"Zobaczymy, co się wydarzy”",
+   "lead": "Stephen Hubbard został zatrzymany w 2022 r. Rosja oskarżyła go o udział w walkach po stronie Ukrainy jako najemnik.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-20T21:11:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-trump-o-prosbie-skierowanej-do-putina-zobaczymy-co-sie-wydar,nIdn,1022746",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/ac/9b/pool-636x421-ac9b27eb.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Ponad 70-letni Amerykanin został w 2024 r. skazany na prawie 7 lat kolonii karnej.",
+      "Rozmawiałem z prezydentem Putinem o panu Hubbardzie.",
+      "Rozmawiałem z nim na ten temat bardzo długo.",
+      "Poprosiłem go o uwolnienie Hubbarda.",
+      "Zobaczymy, co się wydarzy - powiedział Donald Trump dziennikarzom w Gabinecie Owalnym.",
+      "Bardzo chciałbym sprowadzić go z powrotem.",
+      "Czas, żeby pan Hubbard wrócił do domu - dodał.",
+      "Według agencji Reutera uwolnienie Amerykanina ma być jednym z tematów rozmów wysłannika Trumpa Steve'a Witkoffa ze stroną rosyjską w Petersburgu.",
+      "Witkoff ma udać się do Rosji w środę."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "70",
+    "7 lat",
+    "20"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Trumpa Steve'a Witkoffa",
+    "Gabinecie Owalnym",
+    "Stephen Hubbard",
+    "Donald Trump"
+   ],
+   "emotki": [
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Trump o prośbie skierowanej do Putina. \"Zobaczymy, co się wydarzy”",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-trump-o-prosbie-skierowanej-do-putina-zobaczymy-co-sie-wydar,nIdn,1022746"
+    },
+    {
+     "nazwa": "Politico Europe",
+     "tytuł": "Maybe it’s personal: Europeans worry Trump just likes Putin more than Zelenskyy",
+     "url": "https://www.politico.eu/article/europe-worries-donald-trump-prefers-vladimir-putin-volodymyr-zelenskyy-ukraine-war/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.898,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.258,
+     "eksponowanie": 0.18,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.519,
+     "treściwość": 0.191,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Atlanta United - Chicago Fire w 31. kolejce Major League Soccer. Relacja na żywo",
+   "lead": "Atlanta United zmierzy się na własnym stadionie z Chicago Fire na Mercedes-Benz Stadium w Atlancie. Będzie to konfrontacja zespołów znajdujących się na przeciwległych biegunach tabeli Konferencji Wschodniej.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-20T17:53:54+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/robert-lewandowski/na-zywo-atlanta-united-chicago-fire-w-31-kolejce-major-league-soccer,nzId,9345",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NFFHHLXXXUGSJ-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Gospodarze z Atlanty zajmują przedostatnie, 14. miejsce w tabeli i pilnie potrzebują punktów, aby spróbować poprawić swój bilans przed zakończeniem rozgrywek.",
+      "Z kolei Chicago Fire rozgrywa bardzo udaną kampanię – plasuje się na wysokiej, 4. pozycji w Konferencji Wschodniej i przyjeżdża do Atlanty z zamiarem umocnienia swojej lokaty w strefie gwarantującej bezpośredni awans do fazy play-off.",
+      "Zapraszamy na relację live!"
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Rywalizacja na torze w USA tradycyjnie dostarcza ogromnych emocji, a spektakularny układ pierwszych zakrętów sprzyja niezwykle intensywnym startom i nieprzewidywalnemu przebiegowi wyścigu.",
+      "Pytanie o formę poszczególnych zespołów pozostaje otwarte, zwłaszcza że w dwóch poprzednich rundach triumfowali Max Verstappen i Red Bull.",
+      "Zmiana charakterystyki toru w Austin w porównaniu do Sepang i Marina Bay Circuit zweryfikuje, czy konstrukcja z Milton Keynes zdoła utrzymać swoją dominację również w Teksasie.",
+      "Gospodarze z Białegostoku, godzący zmagania ligowe z występami w fazie ligowej Ligi Europy, spróbują wykorzystać atut własnego boiska, by przełamać zmienną formę i dopisać do swojego konta cenny komplet punktów.",
+      "Z kolei Wisła Płock przyjeżdża na Podlasie z zamiarem wywiezienia zdobyczy punktowej i poprawienia swojej pozycji w środkowej strefie tabeli.",
+      "Po zawodach w Wiśle, francuskim Courchevel i wrześniowych zmaganiach w rumuńskim Rasnovie, reprezentacja Polski zaprezentuje się w najmocniejszym zestawieniu."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Chicago Fire Football Club – amerykański klub piłkarski z Chicago, występujący w Major League Soccer. Popularnie nazywany Strażakami. Nazwa zespołu pochodzi od wielkiego pożaru Chicago i założony został 8 października 1997, w 126. rocznicę pożaru. W swoim pierwszym sezonie w 1998 roku drużyna wygrała zarówno MLS Cup, jak i U.S. Open Cup. Inne tryumfy w U.S. Open Cup odnosiła w latach: 2000, 2003, 2006. Zdobyła także MLS Supporters’ Shield w roku 2003."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Chicago Fire",
+     "url": "https://pl.wikipedia.org/wiki/Chicago_Fire"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "14"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Sport",
+     "ujęcie": "Jagiellonia Białystok podejmie na Chorten Arenie zespół Wisły Płock.",
+     "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/na-zywo-jagiellonia-bialystok-wisla-plock-w-12-kolejce-pko-bp-ekstra,nzId,9344"
+    },
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "Robert Kolendowicz: chcę wygrywać i budować w Kielcach coś fajnego",
+     "url": "https://sport.tvp.pl/96035506/pko-bp-ekstraklasa-robert-kolendowicz-chce-wygrywac-i-budowac-w-kielcach-cos-fajnego"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Chicago Fire",
+    "opis": "amerykański klub piłki nożnej",
+    "tekst": "Chicago Fire Football Club – amerykański klub piłkarski z Chicago, występujący w Major League Soccer. Popularnie nazywany Strażakami. Nazwa zespołu pochodzi od wielkiego pożaru Chicago i założony został 8 października 1997, w 126. rocznicę pożaru. W swoim pierwszym sezonie w 1998 roku drużyna wygrała zarówno MLS Cup, jak i U.S. Open Cup. Inne tryumfy w U.S. Open Cup odnosiła w latach: 2000, 2003, 2006. Zdobyła także MLS Supporters’ Shield w roku 2003.",
+    "url": "https://pl.wikipedia.org/wiki/Chicago_Fire",
+    "język": "pl"
+   },
+   "tagi": [
+    "Konferencji Wschodniej",
+    "Chicago Fire",
+    "Atlanty",
+    "Mercedes-Benz Stadium"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Atlanta United - Chicago Fire w 31. kolejce Major League Soccer. Relacja na żywo",
+     "url": "https://sport.interia.pl/robert-lewandowski/na-zywo-atlanta-united-chicago-fire-w-31-kolejce-major-league-soccer,nzId,9345"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "F1. GP USA 2026. Relacja na żywo",
+     "url": "https://sport.interia.pl/f1/na-zywo-f1-gp-usa-2026-relacja-na-zywo,nzId,9346"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Jagiellonia Białystok - Wisła Płock w 12. kolejce PKO BP Ekstraklasy. Relacja na żywo",
+     "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/na-zywo-jagiellonia-bialystok-wisla-plock-w-12-kolejce-pko-bp-ekstra,nzId,9344"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Letnie Grand Prix Klingenthal 2026 (dzień drugi). Relacja na żywo",
+     "url": "https://sport.interia.pl/skoki-narciarskie/na-zywo-letnie-grand-prix-klingenthal-2026-dzien-drugi-relacja-na-zy,nzId,9347"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "PKO BP Ekstraklasa. Robert Kolendowicz: chcę wygrywać i budować w Kielcach coś fajnego",
+     "url": "https://sport.tvp.pl/96035506/pko-bp-ekstraklasa-robert-kolendowicz-chce-wygrywac-i-budowac-w-kielcach-cos-fajnego"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.753,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.673,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.48,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Tymoteusz Puchacz błysnął z Borussią Dortmund. Sabah postawił się faworytowi",
+   "lead": "Awans Sabahu Baku do rozgrywek Ligi Mistrzów to rzecz absolutnie historyczna. Gdy myślimy bowiem o azerskich drużynach występujących w europejskiej elicie w głowie pojawia się raczej Karabach, który dał się we znaki polskim drużynom.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-20T18:34:54+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/liga-mistrzow/news-tymoteusz-puchacz-blysnal-z-borussia-dortmund-sabah-postawil,nId,23561419",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NFL6425I8K530-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "W tym sezonie Azerbejdżan reprezentuje jednak Sabah Baku.",
+      "Gwiazda odeszła z Barcelony, Hansi Flick wściekły.",
+      "Media: wciąż nie może się z tym pogodzić , otwiera się w nowym oknie W ekipie Sabahu bardzo ważną rolę odgrywa z kolei Tymoteusz Puchacz, który był niezwykle istotnym graczem dla drużyny w kontekście awansu do Ligi Mistrzów.",
+      "Rywalizacja o punkty rozpoczęła się dla Sabahu od wyjazdu na Old Trafford.",
+      "Manchester United zgodnie z przewidywaniami wywiązał się z roli faworyta.",
+      "W drugiej kolejce Sabah na własnym terenie rozprawił się z zespołem Slavii Praga, wygrywając 2:0.",
+      "Dzięki temu do spotkania kolejki numer trzy - z Borussią Dortmund Sabah mógł podchodzić z większym spokojem.",
+      "Dla Niemców wyjazd do Azerbejdżanu bez wątpienia nie zapowiadał się jako spacerek.",
+      "BVB weszło jednak w rywalizację w Baku lepiej niż gospodarze."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10",
+    "58",
+    "30",
+    "39",
+    "75"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "Tymoteusz Puchacz zanotował asystę w Lidze Mistrzów.",
+     "url": "https://sport.tvp.pl/96032933/liga-mistrzow-tymoteusz-puchacz-kluczowym-graczem-sabah-baku-reprezentant-polski-zanotowal-asyste-w-meczu-z-bvb-wideo"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Sabahu",
+    "Sabah",
+    "Ligi Mistrzów",
+    "Guirassy"
+   ],
+   "emotki": [
+    "🎮"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Tymoteusz Puchacz błysnął z Borussią Dortmund. Sabah postawił się faworytowi",
+     "url": "https://sport.interia.pl/pilka-nozna/liga-mistrzow/news-tymoteusz-puchacz-blysnal-z-borussia-dortmund-sabah-postawil,nId,23561419"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Tymoteusz Puchacz zanotował asystę w Lidze Mistrzów. Drużyna Polaka postawiła się potędze [WIDEO]",
+     "url": "https://sport.tvp.pl/96032933/liga-mistrzow-tymoteusz-puchacz-kluczowym-graczem-sabah-baku-reprezentant-polski-zanotowal-asyste-w-meczu-z-bvb-wideo"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.932,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.482,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Polska chce zorganizować wielką imprezę. Będzie walka z gigantami",
+   "lead": "Tegoroczne mistrzostwa Europy w futsalu zakończyły się sporym rozczarowaniem dla reprezentacji Polski . \"Biało-Czerwoni\" przegrali wszystkie trzy potyczki i z kiepskimi humorami wrócili do ojczyzny.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-20T18:20:29+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/reprezentacja-polski/news-polska-chce-zorganizowac-wielka-impreze-i-to-juz-za-cztery-l,nId,23561417",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NFL5B7SDHB5RE-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Za cztery lata ich przygoda z kontynentalnym czempionatem może wyglądać jednak zupełnie inaczej.",
+      "Choćby dlatego, że istnieje szansa na to, że powalczą o punkty przed własną publicznością.",
+      "PZPN w drugiej połowie października oficjalnie zgłosił chęć organizacji wspomnianej imprezy.",
+      "Walka nie będzie łatwa, ponieważ poza Polakami turniej marzy się także sześciu innym federacjom .",
+      "Na liście znajdziemy między innymi Francuzów czy Hiszpanów.",
+      "Czołowe europejskie kadry widzieliby także u siebie Chorwaci, Finowie, Gruzini oraz Kazachowie.",
+      "Znany komentator ma radę dla Urbana.",
+      "\"Trzeba planu, żeby kreować rzeczy\" , otwiera się w nowym oknie \"Organizacja UEFA Futsal EURO 2030 byłaby okazją do popularyzacji tej dyscypliny, zwiększenia zainteresowania nią wśród kibiców oraz promocji futsalu wśród kolejnych pokoleń zawodniczek i zawodników\" - czytamy w oficjalnym komunikacie PZPN.",
+      "Głos w temacie nadchodzącej imprezy zabrała także sama Unia Europejskich Związków Piłkarskich ."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Liga Europy UEFA – międzynarodowy klubowy turniej piłki nożnej, organizowany przez Unię Europejskich Federacji Piłkarskich, w którym biorą udział zespoły zajmujące czołowe lokaty w narodowych rozgrywkach najwyższego szczebla, z wyłączeniem drużyn biorących udział w Lidze Mistrzów. Utworzony został w 2009 roku jako kontynuacja Pucharu UEFA."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Liga Europy UEFA",
+     "url": "https://pl.wikipedia.org/wiki/Liga_Europy_UEFA"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10",
+    "90",
+    "57"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Liga Europy UEFA",
+    "opis": "międzynarodowy klubowy turniej piłki nożnej",
+    "tekst": "Liga Europy UEFA – międzynarodowy klubowy turniej piłki nożnej, organizowany przez Unię Europejskich Federacji Piłkarskich, w którym biorą udział zespoły zajmujące czołowe lokaty w narodowych rozgrywkach najwyższego szczebla, z wyłączeniem drużyn biorących udział w Lidze Mistrzów. Utworzony został w 2009 roku jako kontynuacja Pucharu UEFA.",
+    "url": "https://pl.wikipedia.org/wiki/Liga_Europy_UEFA",
+    "język": "pl"
+   },
+   "tagi": [
+    "Europy",
+    "Futsal",
+    "Unia Europejskich Związków Piłkarskich",
+    "Chorwaci Finowie Gruzini"
+   ],
+   "emotki": [
+    "🏅",
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Polska chce zorganizować wielką imprezę. Będzie walka z gigantami",
+     "url": "https://sport.interia.pl/pilka-nozna/reprezentacja-polski/news-polska-chce-zorganizowac-wielka-impreze-i-to-juz-za-cztery-l,nId,23561417"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "No jeopardy but loads of fun - is new Champions League format a success?",
+     "url": "https://www.bbc.co.uk/sport/football/articles/ckg5je34l0q5o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Champions League roundup: McTominay double leads Napoli past Bodø/Glimt",
+     "url": "https://www.theguardian.com/football/2026/oct/20/champions-league-roundup-mctominay-scores-twice-on-return-from-heart-surgery"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "PSG 4-2 Barcelona, Manchester City 5-1 AEK, Napoli 4-3 Bodø/Glimt: Champions League – as it happened",
+     "url": "https://www.theguardian.com/football/live/2026/oct/20/psg-v-barcelona-manchester-city-v-aek-athens-and-more-champions-league-live"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Liverpool 4-3 Villarreal: Champions League – as it happened",
+     "url": "https://www.theguardian.com/football/live/2026/oct/20/liverpool-v-villarreal-champions-league-live"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "What are the yellow card suspension rules in Champions League?",
+     "url": "https://www.bbc.co.uk/sport/football/articles/c54g1vpypgw3o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "David Squires on … Manchester City sailing into unknown Premier League waters",
+     "url": "https://www.theguardian.com/football/picture/2026/oct/20/david-squires-on-manchester-city-sailing-into-unknown-premier-league-waters"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 9.05,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 2.312,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.538,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Piękna historia w NBA. 36-latek z nowym rekordem, tak rozpoczął się sezon",
+   "lead": "Wspomniany na wstępie Paul George nie został początkowo zbyt miło przyjęty w Bostonie . Wielu kibicom nie spodobało się to, że zespół postawił na 36-letniego koszykarza kosztem bardziej perspektywicznego Jaylena Browna.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-20T21:57:06+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/koszykowka/nba/news-36-latek-szaleje-w-nba-pobil-nowy-rekord-tak-rozpoczal-sie-n,nId,23561452",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NFLGT2977GNXS-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Negatywne głosy dochodziły do samego zawodnika, który nie zamierzał milczeć na konferencjach prasowych.",
+      "\"Kiedy słyszysz: 'On już tego nie potrafi' albo 'jest skończony', to z jednej strony jest zabawne, ale z drugiej frustrujące.",
+      "Wiem, że nadal potrafię robić te rzeczy, kiedy jestem zdrowy \" - przyznał w pewnym momencie, cytowany przez portal \"probasket.pl\".",
+      "I słowa rzeczywiście dotrzymał, ponieważ we wtorkowy wieczór był absolutnie kluczową postacią Boston Celtics.",
+      "Rekord debiutantów w organizacji padł już w trakcie trzeciej kwarty.",
+      "Dotychczas dzierżył go Kristaps Porzingis.",
+      "Łotysz uzyskał równe trzydzieści punktów w 2023 roku .",
+      "Amerykanin złamał tę magiczną barierę jeszcze zanim rozpoczęła się ostatnia część potyczki.",
+      "Ostatecznie do szatni 36-latek zszedł z dorobkiem 38 \"oczek\", co jest naprawdę rewelacyjnym wynikiem."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Boston Celtics – amerykański klub koszykarski uczestniczący w rozgrywkach ligi NBA, w której są członkami Dywizji Atlantyckiej. Swoje mecze rozgrywa w hali TD Garden. Celtics wygrywając finały w 2024 roku i zdobywając 18 mistrzowski tytuł stali się najbardziej utytułowanym klubem NBA – wyprzedzili tym samym LA Lakers, którzy zdobyli 17 tytułów mistrzowskich. Ich zawodnicy otrzymali łącznie 10 tytułów najbardziej wartościowego zawodnika sezonu, a 28 osób związanych z Celtics jest członkami koszykarskiej galerii sław."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Boston Celtics",
+     "url": "https://pl.wikipedia.org/wiki/Boston_Celtics"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "36",
+    "38",
+    "121",
+    "113",
+    "27",
+    "32"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Boston Celtics",
+    "opis": "",
+    "tekst": "Boston Celtics – amerykański klub koszykarski uczestniczący w rozgrywkach ligi NBA, w której są członkami Dywizji Atlantyckiej. Swoje mecze rozgrywa w hali TD Garden. Celtics wygrywając finały w 2024 roku i zdobywając 18 mistrzowski tytuł stali się najbardziej utytułowanym klubem NBA – wyprzedzili tym samym LA Lakers, którzy zdobyli 17 tytułów mistrzowskich. Ich zawodnicy otrzymali łącznie 10 tytułów najbardziej wartościowego zawodnika sezonu, a 28 osób związanych z Celtics jest członkami koszykarskiej galerii sław.",
+    "url": "https://pl.wikipedia.org/wiki/Boston_Celtics",
+    "język": "pl"
+   },
+   "tagi": [
+    "Boston Celtics",
+    "Duren Robinson Cunningham",
+    "Kristaps Porzingis",
+    "Jaylena Browna"
+   ],
+   "emotki": [
+    "🏀",
+    "📈"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Piękna historia w NBA. 36-latek z nowym rekordem, tak rozpoczął się sezon",
+     "url": "https://sport.interia.pl/koszykowka/nba/news-36-latek-szaleje-w-nba-pobil-nowy-rekord-tak-rozpoczal-sie-n,nId,23561452"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "LeBron James and Sixers spoil Knicks’ title party as Thunder and Pistons win NBA openers",
+     "url": "https://www.theguardian.com/sport/2026/oct/20/nba-opening-night-2026-results-pistons-celtics-sixers-knicks-spurs-thunder"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.732,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.35,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.532,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "\"Każde dziecko dostanie akcję SpaceX\". Elon Musk odleciał",
+   "lead": "\"Każde dziecko dostanie akcję SpaceX\".",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-20T05:00:00+00:00",
+   "źródło": {
+    "nazwa": "Spider's Web",
+    "url": "https://spidersweb.pl/2026/10/elon-musk-spacex-akcje-dzieci.html",
+    "domena": "spidersweb.pl"
+   },
+   "obraz": "https://cdn-sw.spidersweb.pl/2026/10/elon-musk-spacex-akcje-dzieci.webp",
+   "sekcje": [],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "50",
+    "3.6 trillion",
+    "3, 2026",
+    "1.5 million",
+    "16",
+    "60"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "SpaceX",
+    "Każde",
+    "Musk"
+   ],
+   "emotki": [
+    "🚀"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Spider's Web",
+     "tytuł": "\"Każde dziecko dostanie akcję SpaceX\". Elon Musk odleciał",
+     "url": "https://spidersweb.pl/2026/10/elon-musk-spacex-akcje-dzieci.html"
+    },
+    {
+     "nazwa": "Ars Technica",
+     "tytuł": "Merging SpaceX and Tesla would be a \"good idea,\" Musk says",
+     "url": "https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/"
+    },
+    {
+     "nazwa": "The Verge",
+     "tytuł": "Tesla and SpaceX are discussing a possible merger, Musk says",
+     "url": "https://www.theverge.com/science/1014984/spacex-tesla-merger-elon-musk-special-committees"
+    },
+    {
+     "nazwa": "The Verge",
+     "tytuł": "SpaceX will try catching Starship and its booster for first time, Musk says",
+     "url": "https://www.theverge.com/science/1014913/spacex-will-try-catching-starship-and-its-booster-for-first-time-musk-says"
+    },
+    {
+     "nazwa": "New Scientist",
+     "tytuł": "Parasite-infected mosquitoes released in Europe for first time",
+     "url": "https://www.newscientist.com/article/2594886-parasite-infected-mosquitoes-released-in-europe-for-first-time/"
+    },
+    {
+     "nazwa": "TechCrunch",
+     "tytuł": "SpaceX and Tesla boards form special committees to review merger",
+     "url": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/"
+    }
+   ],
+   "liczba_źródeł": 5,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 13.698,
+    "składowe": {
+     "potwierdzenia": 7.6,
+     "ranga_źródła": 2.022,
+     "eksponowanie": 2.61,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.537,
+     "treściwość": 0.429,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Osobista inteligencja Gemini zbliża się do samochodów",
+   "lead": "Prawdopodobnie nadszedł czas, aby sprawdzić ustawienia Gemini.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-20T20:00:33+00:00",
+   "źródło": {
+    "nazwa": "Ars Technica",
+    "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
+    "domena": "arstechnica.com"
+   },
+   "obraz": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/google-gemini-android-auto-1152x648.png",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Asystent sztucznej inteligencji może pobrać szczegóły lotu z wiadomości potwierdzającej w Gmailu, a następnie użyć tych informacji do sprawdzenia statusu.",
+      "Możesz również poprosić Gemini, aby „zabrała mnie na wizytę lekarską” zamiast ręcznie wyciągać wskazówki lub poprosić o „znalezienie myjni ze zdjęcia, które zrobiłem w zeszłym tygodniu i nawigację tam.„ Google sprowadził swojego asystenta Gemini do Android Auto w zeszłym roku, zanim wprowadził go do samochodów z wbudowanym Google w kwietniu .",
+      "Kilku producentów samochodów - w tym Ford, GM, Honda, Nissan, Volvo i Polestar - wysłało nowsze samochody z wbudowanym Google, co dodaje obsługę natywnych aplikacji na Androida.",
+      "Google sprawia, że asystent Gemini AI, który jest już w milionach samochodów, ciężarówek i SUV-ów, jest o wiele bardziej osobisty — jest to krok, który może jeszcze bardziej wepchnąć konsumentów w ekosystem produktów firmy.",
+      "Firma powiedziała, że we wtorek aktualizuje Gemini w pojazdach z funkcją osobistej inteligencji, która może czerpać z informacji z Gmaila, Kalendarza Google, YouTube, Map, historii Wyszukiwarki Google i innych połączonych usług Google, aby zrozumieć Twoje preferencje, działania i wcześniejsze doświadczenia.",
+      "Google zapowiedziało, że wdroży „Personal Intelligence with Gemini” w pojazdach na dwa sposoby — za pośrednictwem Android Auto, aplikacji, która działa na telefonie użytkownika i bezprzewodowo komunikuje się z nawigacją i projektuje nawigację, media i wiadomości do systemu informacyjno-rozrywkowego pojazdu oraz wbudowanego oprogramowania i usług Google, które zostały bezpośrednio zintegrowane z pojazdem.",
+      "W międzyczasie funkcja „Personal Intelligence” firmy Gemini została wprowadzona w marcu w całych Stanach Zjednoczonych i jest obecnie w fazie beta na rynkach globalnych."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Personal Intelligence",
+    "Gemini",
+    "It's"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Ars Technica",
+     "tytuł": "Gemini's Personal Intelligence is coming to cars",
+     "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/"
+    },
+    {
+     "nazwa": "The Verge",
+     "tytuł": "Google’s more personalized Gemini AI is heading to your car",
+     "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto"
+    },
+    {
+     "nazwa": "TechCrunch",
+     "tytuł": "Google is bringing a more personal version of its Gemini AI assistant to your car",
+     "url": "https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.661,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.557,
+     "eksponowanie": 1.35,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.527,
+     "treściwość": 0.427,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Gemini's Personal Intelligence is coming to cars",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Kolizje tlenowe wykazują ślady hartowania strumieniowego, sygnatura materii wczesnego wszechświata",
+   "lead": "Nowe wyniki eksperymentu STAR w Relatywistycznym Ciężkim Zderzaczu Jonów (RHIC) dostarczają mocnych dowodów na to, że rozbijanie jąder tlenu razem z prędkością zbliżoną do prędkości światła generuje plazmę kwarkowo-gluonową (QGP), rodzaj materii, która istniała tuż po narodzinach wszechświata. Dane, właśnie opublikowane w Physical…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-20T21:20:01+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-10-oxygen-collisions-evidence-jet-quenching.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/illustration-shows-bac.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "To zjawisko utraty energii, znane jako hartowanie strumieniowe, było jedną z sygnatur powstawania QGP w zderzeniach większych jąder atomowych w RHIC, amerykańskim",
+      "Zakład użytkownika Departamentu Energii (Doe) Office of Science, który działał w DOE's Brookhaven National Laboratory od 2000 roku do początku tego roku.",
+      "Sygnatura ta została również zaobserwowana w zderzeniach tlen-tlen w Wielkim Zderzaczu Hadronów (LHC), znajdującym się w CERN, Europejskim Laboratorium Fizyki Cząstek.",
+      "Analiza z RHIC przy znacznie niższej energii zderzenia wyznacza nową dolną granicę dla warunków zdolnych do wytworzenia pierwotnego QGP w tym małym systemie kolizyjnym.",
+      "\"Uważa się, że QGP jest formą materii, która wypełniła wczesny wszechświat - przed powstaniem protonów i neutronów, które tworzą dzisiejsze atomy.",
+      "Zrozumienie jego właściwości jest niezbędne do odkrycia, w jaki sposób wczesny wszechświat ewoluował w pierwszych mikrosekundach ” - powiedział Li Yi, profesor fizyki na Uniwersytecie w Shandong, który nadzorował analizę GWIAZD.",
+      "„Jednym z najpotężniejszych sposobów badania QGP przez naukowców jest określenie, gdzie pojawiają się jego podpisy - i co równie ważne, gdzie te podpisy się wyłączają” - powiedziała.",
+      "Rongrong Ma, GWIAZDA fizyki z Brookhaven Lab, powiedział: „Ta analiza przesuwa granice do skrajnego przypadku, aby pomóc nam dowiedzieć się czegoś o tym zjawisku gaszenia strumieniowego i warunkach potrzebnych do wygenerowania QGP.„ RHIC został stworzony do tworzenia i badania QGP.",
+      "Jego zderzenia z jądrami złota, z których każde zawiera 79 protonów i 118 neutronów, skutecznie topią granice protonów i neutronów tych atomów, uwalniając w ten sposób ich składowe kwarki i gluony."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Shandong University to publiczny uniwersytet w Jinan w Shandong w Chinach. Jest powiązana z Ministerstwem Edukacji Chin. Uczelnia jest częścią Project 211, Project 985 i Double First-Class Construction."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Shandong University",
+     "url": "https://en.wikipedia.org/wiki/Shandong_University"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "79",
+    "118",
+    "100,000",
+    "200 billion",
+    "20%",
+    "5,000"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Shandong University",
+    "opis": "Public university in Jinan, Shandong, China",
+    "tekst": "Shandong University is a public university in Jinan, Shandong, China. It is affiliated with the Ministry of Education of China. The university is part of Project 211, Project 985, and the Double First-Class Construction.",
+    "url": "https://en.wikipedia.org/wiki/Shandong_University",
+    "język": "en"
+   },
+   "tagi": [
+    "LHC",
+    "Shandong University",
+    "GeV",
+    "Physical Review Letters"
+   ],
+   "emotki": [
+    "⚛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Oxygen collisions show evidence of jet quenching, a signature of early-universe matter",
+     "url": "https://phys.org/news/2026-10-oxygen-collisions-evidence-jet-quenching.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.077,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.517,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Oxygen collisions show evidence of jet quenching, a signature of early-universe matter",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Ukryta rywalizacja między dwoma stanami kwantowymi w sercu nadprzewodników",
+   "lead": "Przesyłanie energii elektrycznej bez utraty energii może wydawać się niemożliwe, ale jest to właśnie obietnica nadprzewodnictwa. Od prawie 40 lat naukowcy pracują nad zrozumieniem materiałów, które wykazują tę niezwykłą właściwość w stosunkowo wysokich temperaturach.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-20T22:00:07+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-10-hidden-rivalry-quantum-states-heart.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-new-light-on-one-of.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Uwolnienie ich tajemnic może pewnego dnia pomóc w zwiększeniu wydajności sieci energetycznych, udoskonaleniu technologii medycznych i wspieraniu rozwoju obliczeń kwantowych.",
+      "Do najbardziej obiecujących z tych materiałów należą miedziany, rodzina związków na bazie miedzi odkryta w 1986 roku.",
+      "Przełom był tak znaczący, że jego odkrywcy, Bednorz i Müller, otrzymali Nagrodę Nobla w dziedzinie fizyki w następnym roku.",
+      "Pomimo dziesięcioleci badań mechanizmy, które pozwalają miedzianom stać się nadprzewodzącymi, pozostają jednak słabo poznane.",
+      "U podstaw tej układanki leży pseudoprzerwa, tajemniczy stan kwantowy, którego dokładna rola nadal wywołuje debatę.",
+      "Niektórzy naukowcy uważają, że pomaga on w powstawaniu nadprzewodnictwa, podczas gdy inni postrzegają go jako zjawisko konkurencyjne.",
+      "To pytanie jest dokładnie tym, czym jest zespół kierowany przez profesora INRS Fabio Boschiniego, Kanadyjskiego Katedry Badań Dynamiki Materiałów Kwantowych i laureata nagrody Alfreda P.",
+      "W badaniu opublikowanym w Nature Physics naukowcy dostarczają nowych dowodów sugerujących, że pseudoprzerwanie i nadprzewodnictwo konkurują ze sobą, a nie współpracują.",
+      "„Pseudoprzerwa jest jedną z największych tajemnic fizyki materii skondensowanej."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "40",
+    "10.1038",
+    "026",
+    "03446"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Énergie Matériaux Télécommunications Research Center",
+    "Computational Quantum Physics",
+    "Nature Physics",
+    "Fabio Boschini Canada Research Chair"
+   ],
+   "emotki": [
+    "⚛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "A hidden rivalry between two quantum states at the heart of superconductors",
+     "url": "https://phys.org/news/2026-10-hidden-rivalry-quantum-states-heart.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.825,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.525,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "A hidden rivalry between two quantum states at the heart of superconductors",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Japonia wysyła MMX na marsjańskie księżyce",
+   "lead": "Rakieta wystartuje w tym tygodniu W poniedziałek, 19 października, Japońska Agencja Eksploracji Przestrzeni Kosmicznej (Jaxa) z powodzeniem rozpoczęła misję eXploration Księżyców Marsa (MMX) na pokładzie rakiety H3-24L z Centrum Kosmicznego Tanegashima w południowej Japonii o 15:41.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-19T21:37:51+00:00",
+   "źródło": {
+    "nazwa": "Astronomy Magazine",
+    "url": "https://www.astronomy.com/whats-launching-this-week/japan-sends-mmx-toward-the-martian-moons/",
+    "domena": "astronomy.com"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "MMX zbada marsjańskie księżyce Fobos i Dejmos i ma na celu zwrócenie próbki z Fobosa Kontynuuj czytanie „Japonia wysyła MMX w kierunku marsjańskich księżyców”. Po tym, jak Japonia wysyła MMX w kierunku marsjańskich księżyców, pierwszy pojawił się w Astronomy Magazine ."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Dwustopniowa rakieta H3-24L oświetliła niebo przed świtem nad Centrum Kosmicznym Tanegashima na południowym krańcu Japonii wczesnym wtorkiem 20 października (15:41).",
+      "EDT 19 października), z misją skierowaną na Czerwoną Planetę: Japońska Agencja Eksploracji Przestrzeni Kosmicznej (Jaxa) Marsjańskie Księżyce eXploration (MMX).",
+      "Misja jest złożona, ma na celu zbadanie księżyców Marsa z serią przelotów obok Deimos przed spotkaniem i lądowaniem na Fobosie.",
+      "Misja Nozomi nie weszła na orbitę Marsa i została zakończona w 2003 roku.",
+      "Od tego czasu Jaxa zdobyła znaczne doświadczenie w powrocie próbek asteroid, wraz z zakończeniem podróży w obie strony Hayabusa 1 do 25143 Itokawa w 2010 roku i powrotu próbek Hayabusa 2 z 162173 Ryugu w 2020 roku.",
+      "Start nastąpił o 04:41:03 JST 20 października 2026 roku z Tanegashima Space Center, głównego portu kosmicznego Japonii.",
+      "17 minut po starcie MMX oddzielił się od pojazdu startowego i rozpoczął podróż na Marsa i Fobosa, największy z dwóch księżyców planety."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "19",
+    "24",
+    "41",
+    "20",
+    "25143",
+    "162173"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Japan",
+    "Japan Aerospace Exploration Agency",
+    "Tanegashima Space Center",
+    "Astronomy Magazine"
+   ],
+   "emotki": [
+    "🚀"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Astronomy Magazine",
+     "tytuł": "Japan sends MMX toward the martian moons",
+     "url": "https://www.astronomy.com/whats-launching-this-week/japan-sends-mmx-toward-the-martian-moons/"
+    },
+    {
+     "nazwa": "Sky & Telescope News",
+     "tytuł": "Japan Launches the Martian Moons Exploration Mission",
+     "url": "https://skyandtelescope.org/astronomy-news/japan-launches-the-martian-moons-exploration-mission/"
+    },
+    {
+     "nazwa": "Universe Today",
+     "tytuł": "JAXA's Martian Moons eXploration Mission is on its Way to Mars and Phobos",
+     "url": "https://www.universetoday.com/articles/jaxas-martian-moons-exploration-mission-is-on-its-way-to-mars-and-phobos"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 9.629,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.357,
+     "eksponowanie": 2.07,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.502,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Japan sends MMX toward the martian moons",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Magnetar może się narodzić, gdy dwie gwiazdy neutronowe stykają się",
+   "lead": "Wszystkie gwiazdy neutronowe mają intensywne pola magnetyczne. Typowe pole magnetyczne gwiazdy neutronowej jest około 100 000 razy silniejsze niż najsilniejsze pola magnetyczne, jakie możemy wytworzyć na Ziemi.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-21T02:40:08+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Astronomy",
+    "url": "https://phys.org/news/2026-10-magnetar-born-neutron-stars.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/illustration-of-a-bina.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Są one prawdopodobną przyczyną silnych zdarzeń przejściowych, takich jak miękkie powtarzacze promieniowania gamma i szybkie impulsy radiowe.",
+      "Nowe badanie analizuje, w jaki sposób mogą powstawać magnetary.",
+      "Praca skupia się na połączeniach binarnych gwiazd neutronowych.",
+      "Często, gdy zderzają się dwie gwiazdy neutronowe, tworzą czarną dziurę.",
+      "Dzieje się tak, ponieważ łączna masa dwóch gwiazd neutronowych jest większa niż granica Tolmana-Oppenheimera-Volkoffa (TOV), która wynosi około 2,6 masy Słońca.",
+      "Jeśli mają całkowitą masę mniejszą niż limit TOV, mogą połączyć się i stać się pojedynczą gwiazdą neutronową.",
+      "Korzystając z symulacji o wysokiej rozdzielczości przeprowadzonych na japońskim superkomputerze FUGAKU, zespół przyjrzał się połączeniu binariów gwiazd neutronowych o niskiej masie.",
+      "Dla uproszczenia założyli gwiazdy o identycznych masach, ale poza tym typowe gwiazdy neutronowe.",
+      "Założyli, że natężenie pola magnetycznego tych gwiazd wynosi około 3 bln gausów, co mieści się w górnym zakresie typowych gwiazd neutronowych."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Typowe pole magnetyczne gwiazdy neutronowej jest około 100 000 razy silniejsze niż najsilniejsze pola magnetyczne, jakie możemy wytworzyć na Ziemi.",
+      "Założyli, że natężenie pola magnetycznego tych gwiazd wynosi około 3 bln Gaussów, co mieści się w górnym zakresie typowych gwiazd neutronowych."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Niestabilność Kelvina-Helmholtza to niestabilność płynu, która występuje, gdy występuje ścinanie prędkości w pojedynczym ciągłym płynie lub różnica prędkości na granicy faz między dwoma płynami. Niestabilności Kelvina-Helmholtza są widoczne w atmosferach planet i księżyców, takich jak formacje chmur na Ziemi lub Czerwona Plama na Jowiszu, atmosfera Słońca i powierzchnia Słońca."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Kelvin–Helmholtz instability",
+     "url": "https://en.wikipedia.org/wiki/Kelvin%E2%80%93Helmholtz_instability"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "100,000",
+    "1%",
+    "1,000",
+    "2.6",
+    "1.4",
+    "3 trillion"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Kelvin–Helmholtz instability",
+    "opis": "Phenomenon of fluid mechanics",
+    "tekst": "The Kelvin–Helmholtz instability is a fluid instability that occurs when there is velocity shear in a single continuous fluid or a velocity difference across the interface between two fluids. Kelvin-Helmholtz instabilities are visible in the atmospheres of planets and moons, such as in cloud formations on Earth or the Red Spot on Jupiter, the atmosphere of the Sun, and the surface of the Sun.",
+    "url": "https://en.wikipedia.org/wiki/Kelvin%E2%80%93Helmholtz_instability",
+    "język": "en"
+   },
+   "tagi": [
+    "Kelvin–Helmholtz",
+    "Tolman-Oppenheimer-Volkoff",
+    "High-resolution",
+    "Chandrasekhar"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Astronomy",
+     "tytuł": "A magnetar can be born when two neutron stars touch",
+     "url": "https://phys.org/news/2026-10-magnetar-born-neutron-stars.html"
+    },
+    {
+     "nazwa": "Universe Today",
+     "tytuł": "A Magnetar Can Be Born When Two Neutron Stars Touch",
+     "url": "https://www.universetoday.com/articles/a-magnetar-can-be-born-when-two-neutron-stars-touch"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.213,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.35,
+     "eksponowanie": 1.53,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.583,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "A magnetar can be born when two neutron stars touch",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Korzystanie z technik uczenia maszynowego do przewidywania wirów biegunowych",
+   "lead": "Zakłócenia wiru polarnego wprowadzają mroźne temperatury do Ameryki Północnej. Nowy model może pokazać sposób na lepsze ich przewidywanie.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-20T13:30:09+00:00",
+   "źródło": {
+    "nazwa": "Eos (AGU)",
+    "url": "https://eos.org/research-spotlights/using-machine-learning-techniques-for-polar-vortex-predictions",
+    "domena": "eos.org"
+   },
+   "obraz": "https://eos.org/wp-content/uploads/2026/10/chicago-vortex-1024x576.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Źródło: Edward stojakovic/Flickr , CC BY 2.0"
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Wir polarny, wirująca masa zimnego powietrza otaczająca biegun północny, jest czasami zakłócana przez nagłe ocieplenie stratosfery (SSW), uwalniające fale zimnego powietrza, które przenikają dalej na południe niż zwykle.",
+      "Temperatury w Ameryce Północnej i Europie gwałtownie spadają, ale takie zdarzenia pozostają trudne do przewidzenia, co oznacza, że nie możemy łatwo ostrzec ludzi, gdy SSW jest nieuchronne.",
+      "Boscu i zespół wykorzystali technikę uczenia maszynowego (ML), aby nauczyć się zachowania SSW z symulacji opartej na fizyce, która odtwarza ważną dynamikę atmosfery, przyspieszając symulacje wirów polarnych.",
+      "Poszli o krok dalej, analizując sam model ML, aby zrozumieć, w jaki sposób reprezentuje on różne aspekty wiru polarnego.",
+      "Autorzy wyszkolili swój model na modelu zmienności stratosferycznej Holtona-Massa, który wytwarza dwa metastabilne reżimy dla wiru polarnego: jeden słaby i jeden silny."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "2.0",
+    "10.1029"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Polar Vortex Predictions Disruptions",
+    "Machine Learning Techniques",
+    "North America"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Eos (AGU)",
+     "tytuł": "Using Machine Learning Techniques for Polar Vortex Predictions",
+     "url": "https://eos.org/research-spotlights/using-machine-learning-techniques-for-polar-vortex-predictions"
+    },
+    {
+     "nazwa": "Phys.org Earth Sciences",
+     "tytuł": "Machine learning reveals potential warning signal for polar vortex disruptions",
+     "url": "https://phys.org/news/2026-10-machine-reveals-potential-polar-vortex.html"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.89,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.357,
+     "eksponowanie": 1.62,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.521,
+     "treściwość": 0.492,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Using Machine Learning Techniques for Polar Vortex Predictions",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Jakie zmiany klimatyczne kosztują Kalifornię",
+   "lead": "Od chorób i zgonów związanych z upałem po utratę godzin pracy oraz wyższe rachunki za ubezpieczenie i media, zmiany klimatyczne już teraz wpływają na gospodarkę Kalifornii. Nowy ogólnokrajowy raport Piątej Oceny Zmian Klimatu w Kalifornii pokazuje, jak koszty rosną, falują między sektorami i spadają nierównomiernie w…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-20T20:30:01+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Earth",
+    "url": "https://phys.org/news/2026-10-climate-california.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2019/californiafl.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Raport stwierdza, że największe straty pieniężne dotyczą zdrowia i pracy.",
+      "Jednak skutki gospodarcze mogą wykraczać daleko poza początkowy szok, ponieważ zakłócenia w jednym sektorze zwiększają koszty w innych i zwiększają straty w całej gospodarce.",
+      "„Duży wpływ na rolnictwo przekłada się na ceny żywności dla gospodarstw domowych i przedsiębiorstw.",
+      "To, co dzieje się w jednej części gospodarki, może rozprzestrzeniać się na inne.„Straty te są również nierównomiernie rozłożone, a niektóre regiony, społeczności i branże są narażone na znacznie większe ryzyko niż inne.",
+      "Hrabstwa śródlądowe w Dolinie Centralnej, Imperium Wewnętrznym i południowo-wschodniej pustyni borykają się z nieproporcjonalnymi obciążeniami ekonomicznymi.",
+      "Gospodarstwa domowe o niskich dochodach, osoby pracujące na świeżym powietrzu, społeczności plemienne i wiejskie, osoby starsze, małe dzieci i osoby z wcześniejszymi warunkami należą do najbardziej narażonych na szkody związane z klimatem.",
+      "Opierając się na opublikowanych badaniach, raport łączy szacunki aktualnych kosztów związanych z klimatem i prognozy wzrostu tych kosztów.",
+      "Wśród ustaleń: W przypadku gospodarstw domowych te szersze skutki ekonomiczne mogą stać się bardzo osobiste: wyższe koszty żywności, energii i wody; rosnące składki ubezpieczeniowe; wydatki na zdrowie; oraz koszty uczynienia domów bardziej odpornymi na ciepło i pożary.",
+      "Przywołane przez naukowców krajowe szacunki szacują, że koszty związane z klimatem w ciągu całego życia Amerykanina urodzonego w 2024 roku wynoszą od 500 000 do 1 miliona dolarów."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Środkowe Wybrzeże Kalifornii zmierza w kierunku bardziej ekstremalnych warunków klimatycznych, z cieplejszymi dniami, silniejszymi burzami i bardziej intensywnymi suszami.",
+      "Wielkie stada słoni niegdyś krzyżowały Afrykę, a naukowcy nie mają wątpliwości, że ukształtowały krajobraz, ekosystemy i — jak pokazała najnowsza nauka — równowagę węgla.",
+      "Chociaż trudno jest być pewnym dokładnych liczb , niektórzy naukowcy uważają, że w ciągu ostatnich pięciu stuleci ludzie spowodowali stratę 98% słoni kontynentalnych.",
+      "Nowsza, często cytowana postać z IUCN , globalnego urzędu ochrony przyrody, oszacowała populację słoni na 1,3 miliona w latach 70. XX wieku.",
+      "Od tego czasu badania sugerują, że ogólna liczba słoni sawannowych ( Loxodonta africana ) spadła o 70%, co było spowodowane polowaniami i utratą siedlisk.",
+      "Gdy naukowcy zaczęli odkrywać interakcje między węglem a dużymi zwierzętami, takimi jak słonie, nastąpił nacisk na „ponowne dzikie” krajobrazy z korzyścią dla klimatu.",
+      "Wieki polowań zmniejszyły populacje wielu gatunków do ułamka tego, czym kiedyś były, ale ochrona wielorybów jest czasami przedstawiana jako sposób na przeciwdziałanie zmianom klimatycznym. „Próba połączenia tych rzeczy w całość jest całkiem kusząca, a nauka naprawdę umieściła te rzeczy na mapie” - mówi Mongabay Andrew Abraham, pracownik naukowy Uniwersytetu Północnej Arizony w USA."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Kalifornia to stan w zachodnich Stanach Zjednoczonych. Od północy graniczy z Oregonem, od południa z meksykańskim stanem Dolna Kalifornia, od wschodu z Nevadą, od południowego wschodu z Arizoną, a od zachodu z Oceanem Spokojnym. Z populacją ponad 39 milionów na obszarze 423 970 km ², jest to najbardziej zaludniony stan USA i trzeci co do wielkości pod względem powierzchni lądowej."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: California",
+     "url": "https://en.wikipedia.org/wiki/California"
+    }
+   ],
+   "dlaczego_to_ważne": "Raport „ Climate Impacts to the Economy ”, prowadzony przez Gordona McCorda i Teevrat Garg z University of California San Diego School of Global Policy and Strategy, jest jednym z czterech ogólnokrajowych raportów tematycznych w ramach Piątej Oceny, wieloletnich badań prowadzonych przez Biuro Gubernatora ds. Użytkowania Gruntów i Innowacji Klimatycznych (LCI) z partnerami państwowymi, akademickimi, plemiennymi i społecznymi.",
+   "liczby": [
+    "500,000",
+    "1 million",
+    "50 billion",
+    "750 billion",
+    "100,000",
+    "2.2°C"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "California",
+    "opis": "U.S. state",
+    "tekst": "California is a state in the Western United States. It is bordered by Oregon to the north, the Mexican state of Baja California to the south, Nevada to the east, Arizona to the southeast, and the Pacific Ocean to the west. With a population of over 39 million across an area of 163,696 square miles (423,970 km2), it is the most populous U.S. state and the third largest by land area.",
+    "url": "https://en.wikipedia.org/wiki/California",
+    "język": "en"
+   },
+   "tagi": [
+    "Global Policy",
+    "San Diego",
+    "Strategy",
+    "San Diego School"
+   ],
+   "emotki": [
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Earth",
+     "tytuł": "What climate change is costing California",
+     "url": "https://phys.org/news/2026-10-climate-california.html"
+    },
+    {
+     "nazwa": "Phys.org Earth",
+     "tytuł": "Central Coast will face more extremes, regional report of California's Fifth Climate Assessment finds",
+     "url": "https://phys.org/news/2026-10-central-coast-extremes-regional-california.html"
+    },
+    {
+     "nazwa": "Mongabay",
+     "tytuł": "Large animals are living carbon stores. Does that make saving them a climate solution?",
+     "url": "https://news.mongabay.com/2026/10/large-animals-are-living-carbon-stores-does-that-make-saving-them-a-climate-solution/"
+    },
+    {
+     "nazwa": "Phys.org Earth Sciences",
+     "tytuł": "Can restoring large animals help mitigate climate change? It's complicated",
+     "url": "https://phys.org/news/2026-10-large-animals-mitigate-climate-complicated.html"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 3,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.613,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.637,
+     "eksponowanie": 0.72,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.506,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "What climate change is costing California",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Widziałam dokument o Elizabeth Holmes. To najlepszy film roku",
+   "lead": "Nie sądzę, że kiedykolwiek obejrzałam coś podobnego do filmu dokumentalnego \"Zobaczysz wszystko\". Nathan Fielder zabrał mnie do świata hochsztaplerki i w ciągu trzech godzin sprawił, że niemal uwierzyłam w jej wersję zdarzeń.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-20T12:56:55+00:00",
+   "źródło": {
+    "nazwa": "Onet Kultura",
+    "url": "https://kultura.onet.pl/film/widzialam-dokument-o-elizabeth-holmes-to-najlepszy-film-roku/yjyqjs9",
+    "domena": "kultura.onet.pl"
+   },
+   "obraz": "https://cdn.kultura.onet.pl/1/Mdxk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy85YTBkY2QzYTNjZWU5OThmYjRkZmZlZjIxMGMyZjA2MC5qcGeSlQMAAM0Iwc0E7pMFzQlgzQZA3gACoTAHoTEE",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Wiem jedno: dzieło, na które przed amerykańskimi kinami ustawiają się kolejki, zostanie ze mną na długo.",
+      "Może przyśni mi się nawet w formie naprawdę pokręconego koszmaru.",
+      "Kłamała, zdefraudowała pieniądze inwestorów, zniszczyła ludzkie życia i dziś odsiaduje 11 lat więzienia.",
+      "Zanim tam jednak trafiła, zaprosiła do siebie Fieldera.",
+      "Zaoferowała dokumentaliście, by pomieszkał z nią i jej rodziną 34 dni przed rozpoczęciem kary.",
+      "Drodzy widzowie, prawdziwa bomba spadnie znienacka, dokładnie w chwili, gdy zaczniecie łączyć kropki albo przynajmniej tak wam się będzie wydawać.",
+      "Zastanowicie się — tak jak ja, wychodząc z kina — czy rzeczywiście zobaczyliście wszystko."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "11 lat",
+    "34 dni",
+    "186%",
+    "12",
+    "92%",
+    "16"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Elizabeth Holmes",
+    "Zobaczysz",
+    "Fieldera",
+    "Fielder"
+   ],
+   "emotki": [
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Onet Kultura",
+     "tytuł": "Widziałam dokument o Elizabeth Holmes. To najlepszy film roku",
+     "url": "https://kultura.onet.pl/film/widzialam-dokument-o-elizabeth-holmes-to-najlepszy-film-roku/yjyqjs9"
+    },
+    {
+     "nazwa": "The Guardian Film",
+     "tytuł": "You Can See Everything mania lifts viewership for The Dropout by 186%",
+     "url": "https://www.theguardian.com/film/2026/oct/20/you-can-see-everything-dropout-viewership"
+    },
+    {
+     "nazwa": "The Guardian Culture",
+     "tytuł": "Secrets, lies and a shock A-list cameo: how You Can See Everything became the film of the year",
+     "url": "https://www.theguardian.com/film/2026/oct/19/you-can-see-everything-movie-spoilers-success"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.554,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.458,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.516,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Legendy kina znowu razem! Na ten powrót fani czekali osiem lat",
+   "lead": "Jeden z najbardziej ikonicznych duetów reżyserskich w historii kina powraca! Skłóceni bracia Ethan i Joel Coenowie po ośmiu latach przerwy od wspólnych projektów nakręcą razem nowy film.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-20T07:38:49+00:00",
+   "źródło": {
+    "nazwa": "Interia Film",
+    "url": "https://film.interia.pl/wiadomosci/news-legendy-kina-znowu-razem-na-ten-powrot-fani-czekali-osiem-la,nId,23560874",
+    "domena": "film.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NFFNAJ3SP6SFR-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Na razie twórcy słynnych \"Fargo\" i \"To nie jest kraj dla starych ludzi\" trzymają swoje plany w tajemnicy.",
+      "Świetna wiadomość dla miłośników amerykańskiego kina autorskiego!",
+      "Ethan i Joel Coenowie, którzy przed laty stworzyli jedyny w swoim rodzaju język filmowy, ponownie złączą siły.",
+      "Po ośmiu latach realizacji solowych projektów słynny duet reżyserski nakręci wspólnie nowy film.",
+      "Utalentowani bracia po raz ostatni stanęli razem za kamerą w 2018 roku przy okazji \"Ballady o Busterze Scruggsie\".",
+      "Fani reżyserów przez osiem lat zmuszeni byli czekać na ich wielki powrót.",
+      "W tym czasie Ethan Coen nakręcił m.in.",
+      "\"Żegnajcie, laleczki\" i \"Honey, Don't!\", a Joel wypuścił do kin \"Tragedię Makbeta\".",
+      "W mediach pojawiły się wówczas doniesienia o rzekomym konflikcie braci, przez który zmuszeni byli zredefiniować swoje kariery jako niezależni twórcy."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Ellie Goulding dołącza do programu Colours of Ostrava 2027.",
+      "Brytyjska wokalistka wystąpi 23 lipca, a podczas koncertu zaprezentuje materiał z albumu \"I Know Too Much\".",
+      "Ellie Goulding miała po raz pierwszy wystąpić na Colours of Ostrava w 2023 roku.",
+      "Ostatecznie Goulding pojawi się na festiwalu w piątek 23 lipca 2027 roku.",
+      "Udało się dopiero teraz, co cieszy nas tym bardziej, że Ellie przyjedzie z nowym albumem\" - mówi Filip Koštálek, dyrektor artystyczny Colours of Ostrava."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Joel i Ethan Coenowie – amerykańscy filmowcy, scenarzyści, reżyserzy i producenci. Laureaci czterech Oscarów."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Joel i Ethan Coenowie",
+     "url": "https://pl.wikipedia.org/wiki/Joel_i_Ethan_Coenowie"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "23",
+    "50",
+    "21",
+    "24",
+    "890"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Joel i Ethan Coenowie",
+    "opis": "",
+    "tekst": "Joel i Ethan Coenowie – amerykańscy filmowcy, scenarzyści, reżyserzy i producenci. Laureaci czterech Oscarów.",
+    "url": "https://pl.wikipedia.org/wiki/Joel_i_Ethan_Coenowie",
+    "język": "pl"
+   },
+   "tagi": [
+    "Joel Coenowie",
+    "Busterze Scruggsie",
+    "Gangi Nowego Jorku",
+    "Tragedię Makbeta"
+   ],
+   "emotki": [
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Film",
+     "tytuł": "Legendy kina znowu razem! Na ten powrót fani czekali osiem lat",
+     "url": "https://film.interia.pl/wiadomosci/news-legendy-kina-znowu-razem-na-ten-powrot-fani-czekali-osiem-la,nId,23560874"
+    },
+    {
+     "nazwa": "Interia Muzyka",
+     "tytuł": "Fani czekali na jej koncert cztery lata. \"Udało się dopiero teraz\"",
+     "url": "https://muzyka.interia.pl/koncerty/news-ellie-goulding-dolacza-do-robbiego-williamsa-kultowy-festiwa,nId,23561099"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.914,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.085,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.364,
+     "treściwość": 0.365,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  }
+ ],
+ "braki": [],
+ "statystyki": {
+  "kanały_ok": 72,
+  "kanały_błędne": 0,
+  "znaki_tłumaczone": 17296,
+  "niedziałające_kanały": [],
+  "działy": 18,
+  "artykuły_w_oknie": 54
+ }
+}
