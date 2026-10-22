@@ -1,0 +1,1876 @@
+{
+ "wersja": "1.0.0",
+ "wydanie": "2026-10-22",
+ "dotyczy_dnia": "2026-10-21",
+ "wygenerowano": "2026-10-22T11:01:37+00:00",
+ "strefa": "Europe/Warsaw",
+ "tryb": "ekstrakcyjny",
+ "demo": false,
+ "pozycje": [
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Tusk chce awansu Domańskiego. Jest już komentarz Pałacu Prezydenckiego",
+   "lead": "Rzecznik prezydenta Rafał Leśkiewicz ostro ocenił plan awansu Andrzeja Domańskiego na wicepremiera. W Radiu ZET nazwał go \"najgorszym ministrem finansów\" po 1989 r. i zakpił z nominacji.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-21T09:17:12+00:00",
+   "źródło": {
+    "nazwa": "Money.pl",
+    "url": "https://www.money.pl/gospodarka/tusk-chce-awansu-domanskiego-jest-juz-komentarz-palacu-prezydenckiego-7342377785673760a.html",
+    "domena": "money.pl"
+   },
+   "obraz": "https://v.wpimg.pl/OTEwYTUwYDUkFS9negxtIGdNez08VWN2MFVjdnpGdmZ1D3YyPBsqJiAHNnoyBTokJAApeiUbYDU1HnYiZFgrPTYHNTUsWCo5JxI9ezcVKjB1Tj82eEB9MiBabWdtEWJtdRNheWZEfW10RzhhZRF7ZGcK",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nie przesądził jednak, czy Karol Nawrocki podpisze wniosek Donalda Tuska.",
+      "Pan premier równie dobrze mógł złożyć podpis pod wnioskiem o powołanie na wicepremiera pana posła Zembaczyńskiego i może byłby nawet lepszym wicepremierem i ministrem odpowiedzialnym za finanse publiczne.",
+      "To niezła nagroda za obniżony rating, gigantyczną dziurę budżetową, zadłużenie, które plasuje nas na 2. miejscu – ocenił rzecznik prezydenta. – Nie pytajcie mnie, jak się zachowa prezydent Nawrocki – powiedział premier w środę rano na briefingu przed wylotem do Indii.",
+      "Dodał, że chciałby móc powiedzieć \"z czystym sumieniem i bez chwili wahania\", że nie sądzi, by prezydent \"jawnie chciał łamać konstytucję\". – Znamy przepisy konstytucji i kto za co odpowiada w państwie polskim.",
+      "Absolwentka Stosunków Międzynarodowych, Administracji i Prawa.",
+      "Zawodowe doświadczenie zdobywała m.in. w Gazecie Wrocławskiej i Radiu Wrocław.",
+      "Polowanie na informacje i polityków ma we krwi.",
+      "Nie gubi się także w gąszczu prawniczych paragrafów.",
+      "Od dziecka zajmowała ją polityka, zamiast bajek ciekawsze było dla niej zaprzysiężenie prezydenta."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Andrzej Jan Domański – polski ekonomista i polityk, poseł na Sejm X kadencji, w latach 2023–2025 minister finansów, a od 2025 minister finansów i gospodarki w trzecim rządzie Donalda Tuska, wiceprzewodniczący Koalicji Obywatelskiej."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Andrzej Domański",
+     "url": "https://pl.wikipedia.org/wiki/Andrzej_Doma%C5%84ski"
+    }
+   ],
+   "dlaczego_to_ważne": "Jeśli miałby się zdecydować na złamanie konstytucji w tej kwestii, no to musiałbym powiedzieć, że ten scenariusz byłby bardzo dla Polski ryzykowny – powiedział Tusk.",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Andrzej Domański",
+    "opis": "polski polityk i ekonomista, poseł na Sejm RP (od 2023), minister finansów (od 2023)",
+    "tekst": "Andrzej Jan Domański – polski ekonomista i polityk, poseł na Sejm X kadencji, w latach 2023–2025 minister finansów, a od 2025 minister finansów i gospodarki w trzecim rządzie Donalda Tuska, wiceprzewodniczący Koalicji Obywatelskiej.",
+    "url": "https://pl.wikipedia.org/wiki/Andrzej_Doma%C5%84ski",
+    "język": "pl"
+   },
+   "tagi": [
+    "Domańskiego",
+    "Andrzeja Domańskiego",
+    "Gazecie Wrocławskiej",
+    "Karol Nawrocki"
+   ],
+   "emotki": [
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Money.pl",
+     "tytuł": "Tusk chce awansu Domańskiego. Jest już komentarz Pałacu Prezydenckiego",
+     "url": "https://www.money.pl/gospodarka/tusk-chce-awansu-domanskiego-jest-juz-komentarz-palacu-prezydenckiego-7342377785673760a.html"
+    },
+    {
+     "nazwa": "Notes from Poland",
+     "tytuł": "Polish leaders condemn Hegseth’s “scandalous” remarks downplaying role of US allies in Afghanistan",
+     "url": "https://notesfrompoland.com/2026/10/20/polish-leaders-condemn-hegseths-scandalous-remarks-downplaying-role-of-us-allies-in-afghanistan/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.646,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.135,
+     "eksponowanie": 0.72,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.366,
+     "treściwość": 0.325,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Prezydent Nawrocki twierdzi, że nie ma z kim rozmawiać o sprawach Polski",
+   "lead": "Prezydent spotkał się z mieszkańcami Kulesz Kościelnych oraz powiatu wysokomazowieckiego. Mówił o potrzebie „głębokiego dialogu i dyskusji” między ośrodkiem prezydenckim a rządem – zarówno w sprawach lokalnych i wojewódzkich, jak i tych dotyczących całego kraju.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-21T16:49:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/fakty/polityka/news-prezydent-nawrocki-twierdzi-ze-nie-ma-z-kim-rozmawiac-o-spra,nIdn,1022917",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/58/1c/karol-nawrocki-636x421-581c3213.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Potrzebuję dziś dialogu, tylko niestety, nie mam z kim go prowadzić.",
+      "Nie mam z kim rozmawiać o sprawach polskich . (...) Potrzebujemy dialogu w sprawach fundamentalnych i zasadniczych, do którego strona rządowa nie jest gotowa – powiedział Nawrocki.",
+      "Jednym z najważniejszych problemów, zdaniem prezydenta, jest sytuacja finansów publicznych.",
+      "Nawrocki ocenił, że „dziura finansów publicznych” nie może czekać na zmianę rządów i powinna stać się przedmiotem natychmiastowej dyskusji.",
+      "Jak mówił, nakładane są na nie kolejne obowiązki, bez zapewnienia odpowiednich środków finansowych.",
+      "Problem, który trzeba rozwiązać, bynajmniej nie awansem na stanowisko wicepremiera człowieka, który za to odpowiada.",
+      "To rzecz, którą trzeba naprawić jak najszybciej, bo nasz dom cierpi i będzie cierpiał – stwierdził prezydent.",
+      "We wtorek wieczorem premier Donald Tusk poinformował, że podpisał wniosek do prezydenta w sprawie powołania ministra finansów i gospodarki Andrzeja Domańskiego na stanowisko wicepremiera.",
+      "Zgodnie z konstytucją członków Rady Ministrów powołuje prezydent na wniosek premiera."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "W środę (21 października) Karol Nawrocki spotkał się z mieszkańcami Kulesz Kościelnych i powiatu wysokomazowieckiego. - Dziś już widzimy, że łatwo nie jest i może w nadchodzącym roku dla Rzeczpospolitej łatwo nie będzie.",
+      "Dlatego państwa wiara, entuzjazm i gotowość do budowania silnej, ambitnej, rozwijającej się Polski, która pozostaje Polską, ze stolicą w Warszawie, nie w Brukseli, jest dla mnie bardzo budująca - mówił. - Potrzebuję dziś dialogu, tylko niestety, nie mam z kim go prowadzić.",
+      "Nie mam z kim rozmawiać o sprawach polskich. (...) Potrzebujemy dialogu w sprawach fundamentalnych i zasadniczych, do którego strona rządowa nie jest gotowa - podkreślił Nawrocki.",
+      "Zaznaczył, że \"są sprawy, z którymi nie można czekać rok, które są niepokojące, które trzeba naprawić\". - A my w tym czasie jesteśmy widzami teatru i spektaklu o rzeczach mało ważnych albo nieistotnych - stwierdził. - Potrzebujemy głębokiego dialogu i dyskusji, ośrodka prezydenckiego z polskim rządem, o prawdziwych problemach - podkreślił Nawrocki.",
+      "Ocenił, że jedną z ważniejszych spraw jest \"dziura finansów publicznych\", która \"nie może czekać na zmianę gospodarza i trzeba zacząć o tym dyskutować\"."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "Zwrócił uwagę, że konsekwencje deficytu są widoczne szczególnie w samorządach.",
+   "liczby": [
+    "21"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Nawrocki",
+    "Andrzeja Domańskiego",
+    "Kulesz Kościelnych",
+    "Polski Prezydent"
+   ],
+   "emotki": [
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Prezydent Nawrocki twierdzi, że nie ma z kim rozmawiać o sprawach Polski",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-prezydent-nawrocki-twierdzi-ze-nie-ma-z-kim-rozmawiac-o-spra,nIdn,1022917"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "\"To rzecz, którą trzeba naprawić jak najszybciej\". Nawrocki apeluje do Tuska: Trzeba rozmawiać",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33091517,to-rzecz-ktora-trzeba-naprawic-jak-najszybciej-nawrocki.html"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.173,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.3,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.476,
+     "treściwość": 0.297,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "„Jest pan humanitarystą”. Fala oburzenia po słowach Witkoffa o Putinie",
+   "lead": "Steve Witkoff dziękował w środę w Petersburgu Władimirowi Putinowi z a zwolnienie z więzienia Stephena Hubbarda, 74-letniego Amerykanina mieszkającego w Iziumie w Ukrainie, który został przez Rosję pojmany i skazany za rzekomą walkę po stronie ukraińskiego wojska. Tyle pan mówi o tym, że Trump jest humanitarystą, pan…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-21T15:23:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-jest-pan-humanitarysta-fala-oburzenia-po-slowach-witkoffa-o-,nIdn,1022904",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/26/50/kristina-solovyova-636x421-265065b4.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Wyrażam dla pana uznanie - powiedział Witkoff do Putina.",
+      "Według Słownika Języka Polskiego, humanitaryzm to postawa, którą cechuje szacunek dla człowieka i troska o jego dobro.",
+      "Jak relacjonuje Paweł Żuchowski, korespondent RMF FM w USA, słowa Witkoffa są już wszędzie na czołówkach amerykańskich mediów.",
+      "Zareagował na nie między innymi republikański senator John Cornyn.",
+      "Putin jest bezwzględnym mordercą” - napisał.",
+      "Komentator „Washington Post” Max Boot określił wypowiedź Witkoffa jako obrzydliwą i kompromitującą.",
+      "Piers Morgan , jeden z najbardziej rozpoznawalnych dziennikarzy i publicystów, zasugerował, zamieszczając stosowne emoji, że „ma ochotę zwymiotować”.",
+      "Senator Partii Republikańskiej Thom Tillis ocenił słowa dyplomaty jako kompromitujące.",
+      "Sprawdź definicję słowa »humanitarysta«” - napisał Tillis we wpisie na platformie X, używając wulgarnego skrótu wyrażającego zdziwienie."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Paweł Żuchowski – polski dziennikarz radiowy i telewizyjny, autor książek, e-booków i audiobooków poświęconych Stanom Zjednoczonym oraz polityce międzynarodowej, związany z RMF FM, korespondent zagraniczny specjalizujący się w tematyce amerykańskiej oraz międzynarodowej. Honorowy Ambasador Szczecina. Członek Stowarzyszenia Korespondentów Białego Domu oraz Stowarzyszenia Korespondentów Zagranicznych Białego Domu"
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Paweł Żuchowski",
+     "url": "https://pl.wikipedia.org/wiki/Pawe%C5%82_%C5%BBuchowski"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "74",
+    "17,500",
+    "300,000 tonnes",
+    "10"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Paweł Żuchowski",
+    "opis": "",
+    "tekst": "Paweł Żuchowski – polski dziennikarz radiowy i telewizyjny, autor książek, e-booków i audiobooków poświęconych Stanom Zjednoczonym oraz polityce międzynarodowej, związany z RMF FM, korespondent zagraniczny specjalizujący się w tematyce amerykańskiej oraz międzynarodowej. Honorowy Ambasador Szczecina. Członek Stowarzyszenia Korespondentów Białego Domu oraz Stowarzyszenia Korespondentów Zagranicznych Białego Domu",
+    "url": "https://pl.wikipedia.org/wiki/Pawe%C5%82_%C5%BBuchowski",
+    "język": "pl"
+   },
+   "tagi": [
+    "Witkoffa",
+    "Paweł Żuchowski",
+    "Ukrainie",
+    "Witkoff"
+   ],
+   "emotki": [
+    "⚔️",
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "„Jest pan humanitarystą”. Fala oburzenia po słowach Witkoffa o Putinie",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-jest-pan-humanitarysta-fala-oburzenia-po-slowach-witkoffa-o-,nIdn,1022904"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Putin orders release of jailed American as he meets Trump envoy for Ukraine talks",
+     "url": "https://www.theguardian.com/world/2026/oct/21/putin-witkoff-russia-ukraine-trump-stephen-hubbard-release"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Indian court orders release of two leaders of Cockroach movement",
+     "url": "https://www.theguardian.com/world/2026/oct/21/india-cockroach-movement-leaders-released-protests-government-crackdown"
+    },
+    {
+     "nazwa": "BBC Europe",
+     "tytuł": "Zelensky says intelligence sharing 'works now' as US envoy to meet Putin in Russia",
+     "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "Russia frees jailed American Stephen Hubbard during Witkoff talks",
+     "url": "https://www.dw.com/en/russia-frees-jailed-american-stephen-hubbard-during-witkoff-talks/a-79719452?maca=en-rss-en-world-4025-rdf"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "Putin releases American Stephen Hubbard from Russian prison",
+     "url": "https://www.npr.org/2026/10/21/nx-s1-6010608/putin-releases-american-stephen-hubbard-from-russian-prison"
+    }
+   ],
+   "liczba_źródeł": 5,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 12.514,
+    "składowe": {
+     "potwierdzenia": 7.6,
+     "ranga_źródła": 2.018,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.566,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Kyle Kennedy nie żyje. Wnuczka Roberta F. Kennedy’ego odeszła w wieku 42 lat",
+   "lead": "Kyle Kennedy zmarła 21 września w swoim domu w Westwood w stanie Massachusetts. Jak informują amerykańskie media, przyczyna zgonu 42-letniej kobiety nie została jeszcze ustalona.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-21T10:42:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-kyle-kennedy-nie-zyje-wnuczka-roberta-f-kennedyego-odeszla-w,nIdn,1022843",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/6f/03/zdj-636x421-6f03ebc4.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Kyle Kennedy była córką Michaela Kennedy’ego i Victorii Gifford Kennedy.",
+      "Ukończyła prestiżowe uczelnie: Georgetown University, Pace University oraz Harvard Graduate School of Education.",
+      "Po zakończeniu edukacji rozpoczęła karierę nauczycielki, angażując się w program Teach for America.",
+      "Pracowała w nowojorskich szkołach publicznych, gdzie walczyła o równość szans edukacyjnych dla dzieci z mniej uprzywilejowanych środowisk.",
+      "Prywatnie była zapaloną sportsmenką – w 2019 roku przebiegła Maraton Bostoński, uzyskując czas lepszy od swojego ojca.",
+      "Jej życie zmieniło się diametralnie w 2020 roku, gdy doznała poważnego urazu rdzenia kręgowego.",
+      "W wyniku wypadku została sparaliżowana – mimo to nie zrezygnowała z aktywnego życia.",
+      "Ostatnie lata poświęciła działalności na rzecz osób z niepełnosprawnościami, angażując się w walkę z dyskryminacją w opiece zdrowotnej.",
+      "W życiu prywatnym Kyle była mamą trojga dzieci: dwóch synów – 12-letniego Conora i 10-letniego Declana; Josie - bliźniaczka Conora - zmarła kilka dni po narodzinach."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "Rodzina, która wywarła ogromny wpływ na historię Stanów Zjednoczonych, wielokrotnie doświadczała przedwczesnych śmierci i tragicznych wypadków.",
+   "liczby": [
+    "21",
+    "42",
+    "12",
+    "10",
+    "39 lat",
+    "1.6"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Kennedy",
+    "Conora",
+    "Georgetown University Pace University",
+    "Kennedy Hill Maeve Kennedy McKean"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Kyle Kennedy nie żyje. Wnuczka Roberta F. Kennedy’ego odeszła w wieku 42 lat",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-kyle-kennedy-nie-zyje-wnuczka-roberta-f-kennedyego-odeszla-w,nIdn,1022843"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "RFK Jr’s ‘deities of vaccine research’ raided by police in Guinea-Bissau",
+     "url": "https://www.theguardian.com/world/2026/oct/20/rfk-jr-vaccine-researchers-offices-raided-guinea-bissau"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.621,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.357,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.384,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Ponad 1500 mieszkań. Jedną decyzją 35-latek ustawił się do końca życia",
+   "lead": "Przez ostatnie cztery lata pozycja głównego napastnika FC Barcelony należała do Roberta Lewandowskiego. Zanim jednak Polak trafił do Katalonii, działacze Blaugrany wykonali ruch, który wśród kibiców wzbudził duże kontrowersje.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-22T03:40:02+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/sportowe-zycie/news-ponad-1500-mieszkan-jedna-decyzja-ustawil-rodzine-na-kolejne,nId,23561914",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NFUDRN281F4B8-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "W lutym 2020 roku w obliczu poważnych urazów Luisa Suareza i Ousmanne'a Dembele Barcelona otrzymała od hiszpańskiej federacji zgodę na awaryjny transfer.",
+      "Wybór padł na występującego w Leganes Martina Braithwaite'a - uaktywniono klauzulę odejścia wynoszącą 18 milionów euro.",
+      "Sprowadzenie Duńczyka od samego początku wzbudzało duże wątpliwości sympatyków.",
+      "Braithwaite na murawie furory nie zrobił, a dwa lata później w obliczu poważnych problemów finansowych był wręcz wypychany z klubu, pomimo jego deklaracji o chęci pozostania.",
+      "Braithwaite jako piłkarz Barcelony nie zawojował.",
+      "Wówczas już pisano o nim jako o jednym z najbardziej zamożnych piłkarzy w klubie .",
+      "O wszystkim przesądził jeden ruch biznesowy, który usadowił go w czołówce najbogatszych zawodników na całym świecie.",
+      "Cała Polska usłyszała o decyzji Lewandowskiego.",
+      "Ponad 200 milionów na stole , otwiera się w nowym oknie Wszystko zaczęło się w 2017 roku, gdy Braithwaite zdecydował się zainwestować w biznes prowadzony przez jego wuja Philipa Michaela."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Barcelona – miasto w północno-wschodniej Hiszpanii, nad Morzem Śródziemnym, około 110 km na południe od grzbietu Pirenejów i granicy hiszpańsko-francuskiej. Stolica prowincji o tej samej nazwie oraz wspólnoty autonomicznej Katalonii. Drugie co do wielkości miasto Hiszpanii, z liczbą mieszkańców wynoszącą 1 713 247 wewnątrz centrum administracyjnego. Zespół miejski Barcelony wykracza poza centrum administracyjne, z liczbą ludności wynoszącą 4 588 000, jest piątym co do wielkości zespołem miejskim w Unii Europejskiej. Cała metropolia ma około 5 milionów mieszkańców."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Barcelona",
+     "url": "https://pl.wikipedia.org/wiki/Barcelona"
+    }
+   ],
+   "dlaczego_to_ważne": "Rozstanie ostatecznie doszło do skutku w wyjątkowo burzliwych okolicznościach.",
+   "liczby": [
+    "18 milionów eur",
+    "200 milionów",
+    "850 tysięcy",
+    "100 000 milionerów",
+    "500",
+    "1500"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Barcelona",
+    "opis": "miasto w Hiszpanii",
+    "tekst": "Barcelona – miasto w północno-wschodniej Hiszpanii, nad Morzem Śródziemnym, około 110 km na południe od grzbietu Pirenejów i granicy hiszpańsko-francuskiej. Stolica prowincji o tej samej nazwie oraz wspólnoty autonomicznej Katalonii. Drugie co do wielkości miasto Hiszpanii, z liczbą mieszkańców wynoszącą 1 713 247 wewnątrz centrum administracyjnego. Zespół miejski Barcelony wykracza poza centrum administracyjne, z liczbą ludności wynoszącą 4 588 000, jest piątym co do wielkości zespołem miejskim w Unii Europejskiej. Cała metropolia ma około 5 milionów mieszkańców.",
+    "url": "https://pl.wikipedia.org/wiki/Barcelona",
+    "język": "pl"
+   },
+   "tagi": [
+    "Barcelony",
+    "Companies",
+    "Braithwaite'a",
+    "Duńczyka"
+   ],
+   "emotki": [
+    "⚽",
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Ponad 1500 mieszkań. Jedną decyzją 35-latek ustawił się do końca życia",
+     "url": "https://sport.interia.pl/sportowe-zycie/news-ponad-1500-mieszkan-jedna-decyzja-ustawil-rodzine-na-kolejne,nId,23561914"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.696,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.596,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Blamaż mistrzów Polski w Europie. Legia dokonała cudu. Było już 1:13",
+   "lead": "Lech Poznań marzył o Lidze Mistrzów, ale w tym sezonie musi się zadowolić startem w Lidze Europy. Już dwa pierwsze spotkania pokazały, że brak awansu do Champions League nie był przypadkowy.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-22T03:00:01+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/liga-europy/news-wraca-koszmar-po-10-latach-najpierw-legia-teraz-lech-to-juz,nId,23561631",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NFPIPG2V8K5YJ-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "\"Kolejorz\" zamyka tabelę bez punktu i z bilansem bramek 0-8 .",
+      "Wyjazdowa porażka z Crystal Palace 0:4 miała być tylko falstartem.",
+      "Wszyscy wierzyli, że prawdziwy potencjał ekipa Nielsa Frederiksena pokaże w domowym starciu z Bayerem Leverkusen.",
+      "Skończyło się na kolejnym blamażu, dokładnie w takich samych rozmiarach.",
+      "Od kiedy europejskie puchary rozgrywane są system innym niż pucharowy, tylko dwukrotnie polskie zespoły straciły aż osiem goli w dwóch pierwszych występach.",
+      "Udało się to jedynie Amice Wronki w nieistniejącym już Pucharze UEFA (2004/05) i Legii Warszawa w Lidze Mistrzów (2016/17).",
+      "Amica przegrała wszystkie cztery mecze fazy grupowej.",
+      "Drużyna prowadzona przez Macieja Skorżę mierzyła się wówczas z Rangers FC, Grazer AK, AZ Alkmaar i AJ Auxerre.",
+      "Do zerowego konta punktowego dobrze pasował bramkowy bilans 3-16 (szczegóły w zestawieniu poniżej)."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "05",
+    "17",
+    "16",
+    "100",
+    "13",
+    "10 lat"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Lidze Mistrzów",
+    "Polski",
+    "Legii",
+    "Sezon"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Blamaż mistrzów Polski w Europie. Legia dokonała cudu. Było już 1:13",
+     "url": "https://sport.interia.pl/pilka-nozna/liga-europy/news-wraca-koszmar-po-10-latach-najpierw-legia-teraz-lech-to-juz,nId,23561631"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 2.988,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.588,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Szalona końcówka na Bernabeu, Real pokazał wielkość. Mbappe krok od przełomu",
+   "lead": "Ekipa Realu Madryt , od nie tak dawna dowodzona po raz drugi w historii przez Jose Mourinho, zaliczyła całkiem udane pod względem wynikowym wejście w zmagania nowej edycji Ligi Mistrzów , otwiera się w nowym oknie . \"Królewscy\" najpierw bowiem ograli Inter Mediolan 2:1, a następnie pokonali AS Roma 4:3.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-21T20:55:39+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/liga-mistrzow/news-szalona-koncowka-na-bernabeu-real-pokazal-wielkosc-mbappe-kr,nId,23561995",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NFVJNL9GH45FO-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "W trzeciej kolejce gier tymczasem ekipa z Bernabeu podjęła RB Lipsk , który w początkach kampanii 26/27 wciąż poszukiwał naprawdę optymalnej formy.",
+      "Surowa kara, wyrok już zapadł , otwiera się w nowym oknie Pierwszy gwizdek wybrzmiał w tym przypadku w środę 21 października o godz.",
+      "Pierwsze minuty przebiegały tu raczej spokojnie - piłka była rozgrywana głównie w środkowej strefie boiska i z reguły tempo gry nadawali \"Los Blancos\".",
+      "Pierwsza naprawdę dogodna szansa na zdobycie gola wpadła jednak na konto \"Die Bullen\" - w 6. minucie długie podanie otrzymał Romulo, ale nie był on w stanie odpowiednio prędko opanować piłki i dość szybko został zneutralizowany przez Rudigera.",
+      "Na ripostę gospodarzy nie trzeba było długo czekać - \"szarpnąć z przodu próbowali kolejno Guler i Mbappe, ale nie przyniosło to konkretnego pożytku.",
+      "Francuz mógł przymierzać się do uderzenia głową po wysokiej wrzutce w \"szesnastkę\", ale świetnym refleksem popisał się tu bramkarz Lipska, Vandevoordt.",
+      "W kolejnych minutach zdecydowanie najbardziej wartym odnotowania atakiem była szarża Musy na lewym skrzydle - jego widowiskowy drybling nie zakończył się jednak czystym strzałem na bramkę Courtoisa.",
+      "Gdy mijała 16. minuta inicjatywa znów przeszła w ręce Realu - Vinicius zdołał odegrać do Bernardo Silvy, ale ten w polu karnym miał niemałe problem z odpowiednim przyjęciem.",
+      "Niemniej gospodarze stale naciskali, choć szeregi obrony \"Byków\" były nie do przerwania."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Bernabéu – stadion piłkarski w stolicy Hiszpanii, Madrycie. Jest macierzystym obiektem Realu Madryt, mecze rozgrywa na nim także reprezentacja Hiszpanii. 22 maja 2010 roku odbył się tu 55. finał Ligi Mistrzów UEFA."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Bernabéu",
+     "url": "https://pl.wikipedia.org/wiki/Bernab%C3%A9u"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "26",
+    "27",
+    "21",
+    "16",
+    "20",
+    "23"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Bernabéu",
+    "opis": "stadion piłkarski w Madrycie",
+    "tekst": "Bernabéu – stadion piłkarski w stolicy Hiszpanii, Madrycie. Jest macierzystym obiektem Realu Madryt, mecze rozgrywa na nim także reprezentacja Hiszpanii. 22 maja 2010 roku odbył się tu 55. finał Ligi Mistrzów UEFA.",
+    "url": "https://pl.wikipedia.org/wiki/Bernab%C3%A9u",
+    "język": "pl"
+   },
+   "tagi": [
+    "Mbappe",
+    "Vandevoordt",
+    "Die Bullen",
+    "Courtoisa"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Szalona końcówka na Bernabeu, Real pokazał wielkość. Mbappe krok od przełomu",
+     "url": "https://sport.interia.pl/pilka-nozna/liga-mistrzow/news-szalona-koncowka-na-bernabeu-real-pokazal-wielkosc-mbappe-kr,nId,23561995"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Saka injury 'does not look good' - how will Arsenal cope?",
+     "url": "https://www.bbc.co.uk/sport/football/articles/ckg5j1zdn4m3o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "‘It doesn’t look good’: Arteta concerned as Saka limps off against Bayern Munich",
+     "url": "https://www.theguardian.com/football/2026/oct/21/champions-league-bayern-munich-arsenal-mikel-arteta-bukayo-saka-injury"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Bayern Munich 2-2 Arsenal: Champions League – as it happened",
+     "url": "https://www.theguardian.com/football/live/2026/oct/21/bayern-munich-v-arsenal-champions-league-live"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Aston Villa 3-1 Viking, Real Madrid 4-1 RB Leipzig and more: Champions League – as it happened",
+     "url": "https://www.theguardian.com/football/live/2026/oct/21/real-madrid-v-rb-leipzig-aston-villa-v-viking-and-more-champions-league-live"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.647,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.99,
+     "eksponowanie": 0.27,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.537,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Cztery gole i karny w meczu gigantów. Nieudany rewanż w Bawarii",
+   "lead": "Spotkanie w Monachium niezbyt dobrze zaczęło się dla gości z Londynu. Już po upływie 10 minut trener Mikel Arteta zmuszony był do przeprowadzenia zmiany.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-21T20:52:28+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/liga-mistrzow/news-cztery-gole-w-starciu-gigantow-rzut-karny-potem-zwrot-w-konc,nId,23561999",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NFVI6KTC9APO9-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Bukayo Saka po podaniu piłki lewą nogą złapał się za kończynę i krzyknął z bólu.",
+      "Chwilę później wolnym krokiem opuścił boisko, a w jego miejsce pojawił się Eberechi Eze.",
+      "Bawarczycy , zaskoczeni nieco długim utrzymywaniem się Arsenalu przy piłce, wreszcie - po kwadransie - postanowili spróbować swoich sił z kontry.",
+      "Ismael Saibari wypuścił podaniem między dwóch obrońców Alphonso Daviesa , a Kanadyjczyk korzystając ze swojej szybkości wpadł w pole karne i chciał zagrać wzdłuż bramki.",
+      "Został jednak dogoniony, pogubił się z piłką w \"szesnastce\" i futbolówka opuściła plac gry.",
+      "W 20. minucie nadeszła kolejna kontra Bayernu.",
+      "Davies przed polem karnym podał do Saibariego, a ten podał na drugie skrzydło do Serge'a Gnabry'ego.",
+      "Niemiec uderzył płasko, ale w sam środek bramki , więc David Raya obronił tę próbę.",
+      "Arteta miał nosa, wpuszczając na boisko Eze, bo ten kwadrans po zmianie wyprowadził Anglików na prowadzenie."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10",
+    "20",
+    "60",
+    "82"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Bayern",
+    "Kane",
+    "Kanadyjczyk",
+    "Saibari"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Cztery gole i karny w meczu gigantów. Nieudany rewanż w Bawarii",
+     "url": "https://sport.interia.pl/pilka-nozna/liga-mistrzow/news-cztery-gole-w-starciu-gigantow-rzut-karny-potem-zwrot-w-konc,nId,23561999"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Is it 'phenomenal' Kane's year to lift the Ballon d'Or?",
+     "url": "https://www.bbc.co.uk/sport/football/videos/crpdg21y070jo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Goal, assist... goal-kick - Kane underlines Ballon d'Or credentials",
+     "url": "https://www.bbc.co.uk/sport/football/articles/ck79p7qq1q9ro?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.505,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.645,
+     "eksponowanie": 0.72,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.54,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Multimodalna diagnostyka precyzyjna w ksenotransplantacji klinicznej",
+   "lead": "Nature, Opublikowano online: 21 października 2026 r.; doi: 10.1038/s41586-026-11096-0 Teraz, gdy można niezawodnie zapobiec nadostremu odrzuceniu ksenoprzeszczepów świń, pojawiły się subtelniejsze uszkodzenia przeszczepów o podłożu immunologicznym, których często brakuje w konwencjonalnej diagnostyce; proponuje się multimodalne precyzyjne ramy diagnostyczne w celu ich wykrycia…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-21T00:00:00+00:00",
+   "źródło": {
+    "nazwa": "Nature",
+    "url": "https://www.nature.com/articles/s41586-026-11096-0",
+    "domena": "nature.com"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Nature, Opublikowano online: 21 października 2026 r.; doi: 10.1038/d41586-026-03285-8 450 000-letni zapis stalagmitowy opadów w dorzeczu Amazonki w połączeniu z istniejącymi zapisami azjatyckimi pokazuje, że globalny system monsunowy oscylował regularnie, wzmacniając się w jednej półkuli, a osłabiając w drugiej.",
+      "Nature, Opublikowano online: 21 października 2026 r.; doi: 10.1038/s41586-026-11192-1 Prawie całkowita głębinowa degradacja osadzonych w enzymach kompostowalnych poliestrów pokazuje, że osadzanie enzymów termicznych znacznie przyspiesza rozkład w środowiskach morskich przy jednoczesnym zachowaniu wydajności materiałowej, oferując obiecującą strategię łagodzenia trwałego zanieczyszczenia tworzywami sztucznymi oceanów.",
+      "Nature, Opublikowano online: 21 października 2026 r.; doi: 10.1038/s41586-026-11185-0 Do wytwarzania pojedynczych kryształów Ti-6Al-4V, a także trudno przetwarzalnych metali ogniotrwałych, w tym stopów W, Mo, Nb i MoNb, opisano dowolną metodę wytwarzania addytywnego, która wykorzystuje naprzemienne i pulsacyjne źródła ciepła.",
+      "Nature, Opublikowano online: 21 października 2026 r.; doi:10.1038/s41586-026-10733-y Stres proteotoksyczny napędza tworzenie agregatów białek zależnych od GRP75, które sygnalizują przez miejsca kontaktu mitochondriów z ER w celu aktywacji ukierunkowanych ścieżek kontroli jakości, umożliwiając selektywne usuwanie uszkodzonych białek i zachowanie integralności mitochondriów.",
+      "Nature, Opublikowano online: 21 października 2026 r.; doi: 10.1038/s41586-026-11205-z Pinal, 16-miliardowy model sztucznej inteligencji, projektuje funkcjonalne białka z opisów w języku naturalnym, demonstrując eksperymentalnie zwalidowane działania i poprawiając wydajność produktów utrwalania CO2 bez iteracyjnej optymalizacji.",
+      "Nature, Opublikowano online: 21 października 2026 r.; doi: 10.1038/s41586-026-11207-x Methanoglobus dolicholipophagus AA-75 to termofilny archeon wyizolowany ze zbiornika chińskiej ropy naftowej, który przekształca metanol w metan, dwutlenek węgla i octan oraz wykorzystuje nasycone i nienasycone kwasy tłuszczowe do produkcji metanu.",
+      "Nature, Opublikowano online: 21 października 2026 r.; doi: 10.1038/s41586-026-11172-5 All-antiferromagnetic tunnel junctions can display both a large TMR and a reciprocal switching effect, octupole-driven spin-transfer torque, enabling nanoscale magnetic memory and potentially room-temperature terahertz spintronic devices."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "21",
+    "10.1038",
+    "026",
+    "11096",
+    "03285",
+    "450,000"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Nature Published",
+    "October",
+    "Now"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Nature",
+     "tytuł": "Multimodal precision diagnostics in clinical xenotransplantation",
+     "url": "https://www.nature.com/articles/s41586-026-11096-0"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Cave stalagmites document global patterns in monsoon rainfall over the past 450,000 years",
+     "url": "https://www.nature.com/articles/d41586-026-03285-8"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Enzyme-embedded polyesters for accelerated biodegradation in the deep sea",
+     "url": "https://www.nature.com/articles/s41586-026-11192-1"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Additive manufacturing of ultralong and architected single crystals",
+     "url": "https://www.nature.com/articles/s41586-026-11185-0"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "GRP75-dependent SIMPA mediates inter-organellar quality control",
+     "url": "https://www.nature.com/articles/s41586-026-10733-y"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Programmable design of functional proteins from natural language",
+     "url": "https://www.nature.com/articles/s41586-026-11205-z"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "A single archaeon couples long-chain fatty acid oxidation to methanogenesis",
+     "url": "https://www.nature.com/articles/s41586-026-11207-x"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Octupole-driven spin torque switching of antiferromagnetic tunnel junctions",
+     "url": "https://www.nature.com/articles/s41586-026-11172-5"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Persistent neuronal stress signalling underlies Angelman syndrome phenotypes",
+     "url": "https://www.nature.com/articles/s41586-026-11165-4"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "The proteome of Middle Pleistocene Xujiayao and common Denisovan morphology",
+     "url": "https://www.nature.com/articles/s41586-026-11132-z"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Functional architecture of the human insula",
+     "url": "https://www.nature.com/articles/s41586-026-11175-2"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Touch-sensing digital pixel fibre enables interactive garment GUI",
+     "url": "https://www.nature.com/articles/s41586-026-11128-9"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "The contribution of salt marshes to wave attenuation during extreme storms",
+     "url": "https://www.nature.com/articles/s41586-026-11145-8"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Zeolite-catalysed olefin carbonylation based on tuning spatial confinement",
+     "url": "https://www.nature.com/articles/s41586-026-11183-2"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "The anatomy of a personal health agent",
+     "url": "https://www.nature.com/articles/s41586-026-11161-8"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "WEE1 opposes APC/C CDH1 activity to promote S phase entry",
+     "url": "https://www.nature.com/articles/s41586-026-11188-x"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Amazon carbon emissions driven by human actions amplified by droughts",
+     "url": "https://www.nature.com/articles/s41586-026-11168-1"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Drought and disease trigger novel interactions among top predators",
+     "url": "https://www.nature.com/articles/s41586-026-11194-z"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Worms live longer in cool conditions thanks to a muscle-derived molecule",
+     "url": "https://www.nature.com/articles/d41586-026-03066-3"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Large-scale single crystals printed layer by layer",
+     "url": "https://www.nature.com/articles/d41586-026-03257-y"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Fabric user interface can be worn on your sleeve — and machine-washed",
+     "url": "https://www.nature.com/articles/d41586-026-03064-5"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "An environmentally regulated dichotomy in cell lineages of the root",
+     "url": "https://www.nature.com/articles/s41586-026-11179-y"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "How tech billionaires are disrupting biomedical science",
+     "url": "https://www.nature.com/articles/d41586-026-03311-9"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "CD51 delineates functionally distinct astrocyte subtypes in neural circuits",
+     "url": "https://www.nature.com/articles/s41586-026-11186-z"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Can plants defend coasts against storms?",
+     "url": "https://www.nature.com/articles/d41586-026-03063-6"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "How a new wave of science philanthropists can have the greatest impact",
+     "url": "https://www.nature.com/articles/d41586-026-03326-2"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Cold activates a BH2 metabolic network promoting longevity and proteostasis",
+     "url": "https://www.nature.com/articles/s41586-026-11152-9"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Structural basis for protocadherin-1 recognition by New World hantaviruses",
+     "url": "https://www.nature.com/articles/s41586-026-11184-1"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "A single antimatter particle in a cage opens door to ‘revolutionary’ physics",
+     "url": "https://www.nature.com/articles/d41586-026-03342-2"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "This is what the mysterious Denisovans looked like",
+     "url": "https://www.nature.com/articles/d41586-026-03360-0"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Robert Williamson obituary: geneticist who mapped genes for muscular dystrophy and cystic fibrosis",
+     "url": "https://www.nature.com/articles/d41586-026-03375-7"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "De novo design of enantioselective artificial metalloenzyme photocatalysts",
+     "url": "https://www.nature.com/articles/s41586-026-11317-6"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "The Bursar",
+     "url": "https://www.nature.com/articles/d41586-026-03110-2"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 9.89,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 7.54,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.25,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Multimodal precision diagnostics in clinical xenotransplantation",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "EA tnie bez litości. Setki zwolnień i anulowane gry",
+   "lead": "Electronic Arts potwierdziło właśnie jedną z największych restrukturyzacji na rynku gier. Najbardziej dotkliwym elementem zmian jest zamknięcie legendarnego studia BioWare i anulowanie nowej odsłony Mass Effect.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-22T03:45:58+00:00",
+   "źródło": {
+    "nazwa": "Antyweb",
+    "url": "https://antyweb.pl/ea-tnie-bez-litosci-setki-zwolnien-i-anulowane-gry",
+    "domena": "antyweb.pl"
+   },
+   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2017/08/mass-effect.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "EA to kiedyś jedno z najważniejszych studiów tworzących hitowe gry wideo.",
+      "Ogłoszono właśnie radykalną zmianę strategii, której konsekwencje odczują zarówno pracownicy, jak i miliony graczy na całym świecie.",
+      "W dość długim oświadczeniu Cam Weber i David Tinson opowiadają o konieczności wprowadzenia zmian, ale nie wspominają o tym, że ze swoimi stanowiskami pożegnają się setki pracowników.",
+      "Według Bloomberga pracę straci około 400 osób, czyli blisko 3 proc. zatrudnionych, w tym około 50 członków zespołu BioWare, które znika z powierzchni ziemi i zostaje całkowicie zlikwidowane.",
+      "BioWare to studio, która działało od 1995 roku i odpowiadało za takie serie jak „Baldur's Gate”, „Dragon Age” i „Mass Effect”, a także „Star Wars: Knights of the Old Republic”.",
+      "Jego ostatnie lata nie należały jednak do najlepszych.",
+      "Ogromnym rozczarowaniem był Anthem z 2019 r., którego serwery zamknięto na początku tego roku, a sprzedaż „Dragon Age: The Veilguard” pozostawia wiele do życzenia.",
+      "Nowy „Mass Effect”, zapowiedziany jeszcze w 2020 roku, znajdował się jeszcze na wczesnym etapie produkcji i miał być powrotem studia do topki deweloperów, jednak EA zdecydowało się całkowicie zakończyć prace i zamknąć studio.",
+      "Koncern ma skupiać swoje inwestycje na największych markach i ograniczyć liczbę kosztownych projektów realizowanych jednocześnie."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Mass Effect – komputerowa fabularna gra akcji stworzona przez studio BioWare, wydana pierwotnie w 2007 roku przez Microsoft Game Studios na konsolę Xbox 360, będąca pierwszą częścią serii Mass Effect. Jej akcja rozgrywa się w XXII wieku, kiedy Drodze Mlecznej grozi zagłada ze strony wysokozaawansowanej rasy maszyn znanych jako Żniwiarze. Gracz wciela się w komandora Sheparda, elitarnego żołnierza próbującego powstrzymać inwazję. Rozgrywka składa się z kilku głównych elementów: wykonywania zadań, walki, eksplorowania kosmosu i interakcji z bohaterami niezależnymi."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Mass Effect",
+     "url": "https://pl.wikipedia.org/wiki/Mass_Effect"
+    }
+   ],
+   "dlaczego_to_ważne": "Obecnie nie ma już większego wpływu na rozwój rynku i najwyraźniej nie podobało się to tym, którzy firmą zarządzali.",
+   "liczby": [
+    "400",
+    "3 proc.",
+    "50"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Mass Effect",
+    "opis": "komputerowa gra fabularna z 2007 roku",
+    "tekst": "Mass Effect – komputerowa fabularna gra akcji stworzona przez studio BioWare, wydana pierwotnie w 2007 roku przez Microsoft Game Studios na konsolę Xbox 360, będąca pierwszą częścią serii Mass Effect. Jej akcja rozgrywa się w XXII wieku, kiedy Drodze Mlecznej grozi zagłada ze strony wysokozaawansowanej rasy maszyn znanych jako Żniwiarze. Gracz wciela się w komandora Sheparda, elitarnego żołnierza próbującego powstrzymać inwazję. Rozgrywka składa się z kilku głównych elementów: wykonywania zadań, walki, eksplorowania kosmosu i interakcji z bohaterami niezależnymi.",
+    "url": "https://pl.wikipedia.org/wiki/Mass_Effect",
+    "język": "pl"
+   },
+   "tagi": [
+    "Mass Effect",
+    "BioWare",
+    "Sims",
+    "Baldur's Gate Dragon Age"
+   ],
+   "emotki": [
+    "🎮"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Antyweb",
+     "tytuł": "EA tnie bez litości. Setki zwolnień i anulowane gry",
+     "url": "https://antyweb.pl/ea-tnie-bez-litosci-setki-zwolnien-i-anulowane-gry"
+    },
+    {
+     "nazwa": "Ars Technica",
+     "tytuł": "RIP BioWare: EA shuts down storied RPG studio after over three decades",
+     "url": "https://arstechnica.com/gaming/2026/10/rip-bioware-ea-shuts-down-storied-rpg-studio-after-over-three-decades/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.096,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.385,
+     "eksponowanie": 0.45,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.597,
+     "treściwość": 0.264,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Laserowa kratownica ujawnia dyskretne solitony światła w przestrajalnych oparach atomowych",
+   "lead": "Naukowcy z Quantum Technologies Group w Instytucie Fizyki w Zagrzebiu, we współpracy z kolegą z Wydziału Fizyki na Wydziale Nauk (PMF), po raz pierwszy eksperymentalnie wykazali istnienie dyskretnych jednowymiarowych (1D) solitonów w optycznie indukowanym fotonie…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-21T22:20:07+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-10-laser-lattice-reveals-discrete-solitons.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/discrete-optical-solit.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Wyniki te otwierają nowe możliwości badań w dziedzinie optyki nieliniowej, fizyki sieci fotonicznych i złożonych układów kwantowych.",
+      "Sieci fotoniczne to struktury okresowe, przez które rozchodzi się światło w sposób analogiczny do ruchu elektronów w kryształach.",
+      "Konwencjonalne implementacje takich sieci, na przykład w półprzewodnikach, niobianach litu, szkle lub falowodach optycznych, na ogół mają stałe właściwości.",
+      "W niniejszej pracy badacze wykorzystali ciepłą parę rubidu jako dynamiczne i przestrajalne medium, w którym sieć jest tworzona przez światło laserowe.",
+      "Dwie łączące się wiązki laserowe przecinają się pod małym kątem wewnątrz szklanej komórki zawierającej parę rubidu, tworząc wzór interferencyjny, który przestrzennie moduluje współczynnik załamania pary.",
+      "Dodatkowa wiązka laserowa sondy, skupiona na pojedynczym miejscu sieci, następnie rozprzestrzenia się przez sieć.",
+      "Zjawisko to znane jest jako dyfrakcja dyskretna: ze względu na okresową strukturę ośrodka, propagacja światła różni się od dyfrakcji w ośrodku jednorodnym.",
+      "Wraz ze wzrostem intensywności wiązki sondy odpowiedź pary atomowej staje się nieliniowa, a wiązka zaczyna się skupiać.",
+      "Przy wystarczająco dużej mocy efekt ten może równoważyć dyfrakcję dyskretną."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Laser & Photonics Reviews to dwumiesięczne recenzowane czasopismo naukowe obejmujące badania nad wszystkimi aspektami nauk optycznych. Jest publikowany przez Wiley-VCH i zawiera recenzje oraz oryginalne prace/listy. Czasopismo zostało założone w 2007 roku przez założyciela redaktora naczelnego Theodora W. Pierwotnie czasopismo publikowało tylko artykuły przeglądowe. Od 2012 roku zawiera również oryginalne prace i listy."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Laser & Photonics Reviews",
+     "url": "https://en.wikipedia.org/wiki/Laser_%26_Photonics_Reviews"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10.1002"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Laser & Photonics Reviews",
+    "opis": "Academic journal",
+    "tekst": "Laser & Photonics Reviews is a bimonthly peer-reviewed scientific journal covering research on all aspects of optical science. It is published by Wiley-VCH and contains reviews and original papers/letters. The journal was established in 2007 by the founding editor-in-chief Theodor W. Hänsch. Originally, the journal only published review articles. Since 2012, it also contains original papers and letters.",
+    "url": "https://en.wikipedia.org/wiki/Laser_%26_Photonics_Reviews",
+    "język": "en"
+   },
+   "tagi": [
+    "Photonics Reviews",
+    "Discrete",
+    "Rubidium Atomic Vapor Laser",
+    "Quantum Technologies Group"
+   ],
+   "emotki": [
+    "⚛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Laser-made lattice reveals discrete light solitons in tunable atomic vapor",
+     "url": "https://phys.org/news/2026-10-laser-lattice-reveals-discrete-solitons.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.767,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.529,
+     "treściwość": 0.438,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Laser-made lattice reveals discrete light solitons in tunable atomic vapor",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Pamięć atomowa utrzymuje odległe jony splątane przez około 10 sekund",
+   "lead": "Sieci kwantowe, systemy łączące urządzenia i umożliwiające im wymianę informacji zakodowanych w stanach kwantowych cząstek, mogłyby umożliwić bezpieczniejszą komunikację. Naukowcy z Uniwersytetu Oksfordzkiego niedawno zrealizowali sieć kwantową z czterema kubitami (tj. jednostkami informacji kwantowej) zakodowanymi w pułapce…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-21T11:40:12+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-10-atomic-memory-distant-ions-entangled.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-link-4-ato.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Sieć ta, opisana w artykule opublikowanym w Physical Review Letters , opierała się na elektrycznie naładowanych atomach utrzymywanych w miejscu przez pola elektromagnetyczne, znane również jako jony uwięzione.",
+      "„Praca wyrosła z naszych wysiłków na rzecz zbudowania sieci kwantowej, w której każdy węzeł może zrobić więcej niż tylko stworzyć splątane połączenie z innym węzłem”, dr.",
+      "Gabriel Araneda, współautor artykułu, powiedział Phys.org.",
+      "„Przydatna sieć musi również przetwarzać i przechowywać informacje kwantowe lokalnie.",
+      "Różne gatunki atomów mogą oferować różne korzyści, dlatego chcieliśmy połączyć je w tej samej sieci i zbadać, czy możemy kontrolować splątanie między nimi, w tym gdy znajdują się w oddzielnych węzłach.\" Głównym celem badania zespołu było połączenie operacji wykonywanych na atomach w każdym węźle (tj. lokalizacji zawierającej kubity) w sieci z połączeniami między lokalizacjami, w celu utworzenia wspólnego stanu kwantowego, który obejmuje kilka atomów.",
+      "„Każdy węzeł zawiera jeden jon atomowy strontu i jeden jon atomowy wapnia” - wyjaśnił Dougal Main, pierwszy autor artykułu.",
+      "Aby ustalić splątanie między dwoma odległymi jonami strontu w ich sieci, Araneda i jego koledzy wykonali pomiar stanu dzwonka na fotonach lub cząstkach światła emitowanych przez dwa jony.",
+      "Określony wzorzec detekcji fotonów zasygnalizował, że jony zostały splątane.",
+      "„W ten sposób stworzyliśmy stany splątane obejmujące trzy lub cztery jony w poprzek dwóch węzłów."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Efraín Antonio Araneda Estay, znany również jako Chico, jest trenerem piłki nożnej i byłym zawodnikiem. Urodzony w Chile, grał w reprezentacji Tahiti na arenie międzynarodowej."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Efraín Araneda",
+     "url": "https://en.wikipedia.org/wiki/Efra%C3%ADn_Araneda"
+    }
+   ],
+   "dlaczego_to_ważne": "\"Używamy jonów strontu do ustanowienia połączenia: każdy emituje foton, a fotony są łączone i mierzone na stacji centralnej.„ Termin „splątanie” oznacza, że cząstki mają wspólny stan kwantowy, którego nie można opisać jako niezależnych stanów dla każdej cząstki.",
+   "liczby": [
+    "10"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Efraín Araneda",
+    "opis": "Footballer (born 1978)",
+    "tekst": "Efraín Antonio Araneda Estay, also known as Chico, is a football manager and former player. Born in Chile, he played for the Tahiti national team at international level.",
+    "url": "https://en.wikipedia.org/wiki/Efra%C3%ADn_Araneda",
+    "język": "en"
+   },
+   "tagi": [
+    "Araneda",
+    "Multipartite Mixed-Species Entanglement",
+    "Quantum Network Physical Review Letters",
+    "Physical Review Letters Freelance"
+   ],
+   "emotki": [
+    "⚛️",
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Atomic memory keeps distant ions entangled for about 10 seconds",
+     "url": "https://phys.org/news/2026-10-atomic-memory-distant-ions-entangled.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.48,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.36,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.396,
+     "treściwość": 0.474,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Atomic memory keeps distant ions entangled for about 10 seconds",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Biały karzeł Chartreuse pokazuje, że niektóre gwiazdy są naprawdę zielone",
+   "lead": "Gwiazdy w naszej galaktyce występują w pięknym asortymencie kolorów. Widzimy nadolbrzymy, takie jak Betelgeza, które mają ciepły czerwony blask, i inne, takie jak Rigel, które lśnią błękitno-białym blaskiem.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-21T12:00:00+00:00",
+   "źródło": {
+    "nazwa": "Sky & Telescope News",
+    "url": "https://skyandtelescope.org/astronomy-news/a-chartreuse-white-dwarf-shows-some-stars-really-are-green/",
+    "domena": "skyandtelescope.org"
+   },
+   "obraz": "https://dq0hsqwjhea1.cloudfront.net/green_wd_credit_mark-garlick_university-of-warwick.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jednak w gwiazdowej tęczy zawsze brakowało jednego koloru: zielonego.",
+      "Astronomowie zidentyfikowali gwiazdę, która łamie tę zasadę.",
+      "Nowe badanie pokazuje, że biały karzeł o nazwie WD J1330 +6435, około 280 lat świetlnych od Ziemi, wyglądałby na zielony, gdybyśmy mogli spojrzeć na niego z bliska.",
+      "Co ciekawe, ta gwiazda nie jest sama w swoim niezwykłym kolorze.",
+      "Naukowcy przeanalizowali, jak światło emitowane przez próbkę białych karłów wyglądałoby w ludzkim oku i znaleźli olśniewającą gamę kolorów, od subtelnych różów i fioletów po dzikie żółcie i lipowe zielenie.",
+      "Naprawdę nie spodziewamy się zobaczyć zielonych gwiazdek .",
+      "Kolor gwiazdy pochodzi z ciepła jej widocznej powierzchni, co powoduje emisję w szerokim zakresie długości fal.",
+      "Gorętsze gwiazdy emitują więcej niebieskiego światła, podczas gdy chłodniejsze gwiazdy emitują więcej czerwieni, ale nawet niebieskawe i czerwonawe gwiazdy emitują dużo światła o innych długościach fal.",
+      "Nawet gwiazdy, których emisja osiąga szczyt przy zielonych długościach fal, wytwarzają również dużo czerwonego i niebieskiego światła."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Naukowcy z Uniwersytetu Warwick w Wielkiej Brytanii powiedzieli 15 października 2026 r., że białe karły mogą świecić w kolorze różowym, cyjanowym, żółtym, fioletowym i zielonym.",
+      "Naukowcy opublikowali swoje recenzowane odkrycia w RAS Techniques and Instruments 15 października 2026 roku."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Zielony to kolor między cyjanem a żółtym w widmie widzialnym. Ma 295-350 różnych odcieni. Jest on wywoływany przez światło, które ma dominującą długość fali około 495–570 nm. W subtraktywnych systemach kolorystycznych, wykorzystywanych w malarstwie i druku kolorystycznym, tworzony jest przez połączenie koloru żółtego i cyjanowego; w modelu koloru RGB, wykorzystywanym na ekranach telewizorów i komputerów, jest jednym z addytywnych kolorów podstawowych, obok koloru czerwonego i niebieskiego, które mieszają się w różnych kombinacjach, tworząc wszystkie pozostałe kolory. Zdecydowanie największym składnikiem zieleni w przyrodzie jest chlorofil, substancja chemiczna, dzięki której rośliny fotosyntetyzują i przekształcają światło słoneczne w energię chemiczną. Wiele stworzeń przystosowało się do swojego zielonego środowiska, przyjmując zielony odcień jako kamuflaż. Kilka minerałów ma zielony kolor, w tym szmaragd, który jest zielony ze względu na zawartość chromu."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Green",
+     "url": "https://en.wikipedia.org/wiki/Green"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "6435",
+    "280",
+    "152",
+    "65",
+    "2845",
+    "97%"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Green",
+    "opis": "Additive primary color visible between cyan and yellow",
+    "tekst": "Green is the color between cyan and yellow on the visible spectrum. It has 295–350 different shades. It is evoked by light which has a dominant wavelength of roughly 495–570 nm. In subtractive color systems, used in painting and color printing, it is created by a combination of yellow and cyan; in the RGB color model, used on television and computer screens, it is one of the additive primary colors, along with red and blue, which are mixed in different combinations to create all other colors. By far the largest contributor to green in nature is chlorophyll, the chemical by which plants photosynthesize and convert sunlight into chemical energy. Many creatures have adapted to their green environments by taking on a green hue themselves as camouflage. Several minerals have a green color, including the emerald, which is colored green by its chromium content.",
+    "url": "https://en.wikipedia.org/wiki/Green",
+    "język": "en"
+   },
+   "tagi": [
+    "Earth",
+    "Sun",
+    "Chartreuse White Dwarf Shows",
+    "Mark Hollands University"
+   ],
+   "emotki": [
+    "🌌"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Sky & Telescope News",
+     "tytuł": "A Chartreuse White Dwarf Shows Some Stars Really Are Green",
+     "url": "https://skyandtelescope.org/astronomy-news/a-chartreuse-white-dwarf-shows-some-stars-really-are-green/"
+    },
+    {
+     "nazwa": "EarthSky",
+     "tytuł": "Surprising colors of white dwarf stars revealed for 1st time",
+     "url": "https://earthsky.org/space/surprising-colors-of-white-dwarf-stars-revealed-for-1st-time/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.592,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.193,
+     "eksponowanie": 1.71,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.4,
+     "treściwość": 0.339,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "A Chartreuse White Dwarf Shows Some Stars Really Are Green",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "JWST zwiedza ukryty gwiezdny żłobek Oriona",
+   "lead": "Niewiele widoków tak ekscytuje obserwatorów na podwórku, jak Mgławica Oriona (M42). Najjaśniejszy gwiezdny żłobek widoczny ze środkowych północnych szerokości geograficznych rozdziela się w złożoną sieć świetlistego gazu i zakurzonych wici nawet przez skromne teleskopy.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-20T16:36:55+00:00",
+   "źródło": {
+    "nazwa": "Astronomy Magazine",
+    "url": "https://www.astronomy.com/science/jwst-tours-orions-hidden-stellar-nursery/",
+    "domena": "astronomy.com"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "A w jego centrum zobaczysz wspaniałe młode gwiazdy Gromady Trapezu, które dostarczają energii do ustawienia Czytaj dalej „JWST wycieczki po ukrytym gwiezdnym żłobku Oriona” Po tym, jak JWST wycieczki po ukrytym gwiezdnym żłobku Oriona pojawiły się jako pierwsze w Astronomy Magazine ."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Kosmiczny Teleskop Jamesa Webba NASA/ESA/CSA nadal ujawnia ukryte części kosmosu dzięki zaawansowanemu zestawowi instrumentów na podczerwień.",
+      "Na nowo wydanym zdjęciu Webb ujawnił wiele gwiazd ukrytych wcześniej przez chmury pyłu NGC 7129 , gwiezdnego żłobka położonego około 3300 lat świetlnych od Ziemi w gwiazdozbiorze Cefeusza.",
+      "W tych kokonach gaz i pył powoli łączą się i tworzą masę, ostatecznie wywołując zapaść grawitacyjną i narodziny nowej gwiazdy.",
+      "Ze względu na zakurzone środowisko młode gwiazdy są często niewidoczne za pomocą teleskopów, które nie są w stanie wychwycić światła podczerwonego."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "7129",
+    "3,300",
+    "1 million",
+    "130",
+    "234"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Orion’s",
+    "Astronomy Magazine",
+    "Trapezium Cluster",
+    "Orion Nebula"
+   ],
+   "emotki": [
+    "🔭",
+    "🌌"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Astronomy Magazine",
+     "tytuł": "JWST tours Orion’s hidden stellar nursery",
+     "url": "https://www.astronomy.com/science/jwst-tours-orions-hidden-stellar-nursery/"
+    },
+    {
+     "nazwa": "Universe Today",
+     "tytuł": "Webb Captures Stars in the Early Stages of Life in a Nearby Stellar Nursery",
+     "url": "https://www.universetoday.com/articles/webb-captures-stars-in-the-early-stages-of-life-in-a-nearby-stellar-nursery"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.068,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 1.26,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.508,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "JWST tours Orion’s hidden stellar nursery",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Lawina skał pogrzebała lodowiec arktyczny. Czy winą obarczono zmiany klimatyczne?",
+   "lead": "Z powodu lawiny skalnej w 2025 roku lodowiec Kjerulf na wyspie Jan Mayen jest obecnie częściowo pokryty skałami, których zatopienie w lodzie zajmie dziesięciolecia (po lewej). Przed lawiną lodowiec dotarł do brzegu wody jak jego sąsiad, lodowiec Weyprecht (po prawej).",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-21T13:18:48+00:00",
+   "źródło": {
+    "nazwa": "Eos (AGU)",
+    "url": "https://eos.org/articles/a-rock-avalanche-buried-an-arctic-glacier-was-climate-change-to-blame",
+    "domena": "eos.org"
+   },
+   "obraz": "https://eos.org/wp-content/uploads/2026/10/kjerulf-glacier-beerenberg-volcano-jan-mayen-island-1024x576.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Od chorób i zgonów związanych z upałem po utratę godzin pracy oraz wyższe rachunki za ubezpieczenie i media, zmiany klimatyczne już teraz wpływają na gospodarkę Kalifornii.",
+      "Nowy raport na temat Piątej Oceny Zmian Klimatu w Kalifornii pokazuje, w jaki sposób koszty rosną, rozprzestrzeniają się między sektorami i nierównomiernie spadają w całym stanie - a w San Diego społeczność będzie musiała przygotować się do adaptacji na dużą skalę do znacznie cieplejszych warunków.",
+      "Raport „ Climate Impacts to the Economy ”, prowadzony przez Gordona McCorda i Teevrat Garg z University of California San Diego School of Global Policy and Strategy, jest jednym z czterech ogólnokrajowych raportów tematycznych w ramach Piątej Oceny, wieloletnich badań prowadzonych przez Biuro Gubernatora ds. Użytkowania Gruntów i Innowacji Klimatycznych (LCI) z partnerami państwowymi, akademickimi, plemiennymi i społecznymi.",
+      "Przywołane przez naukowców krajowe szacunki szacują, że koszty związane z klimatem w ciągu całego życia Amerykanina urodzonego w 2024 roku wynoszą od 500 000 do 1 miliona dolarów.",
+      "Kwota mienia ubezpieczonego w ramach Kalifornijskiego Planu FAIR, stanowego ubezpieczyciela ostatniej szansy, wzrosła z około 50 miliardów $ w ubezpieczonej ekspozycji w 2018 roku do około 750 miliardów $ w marcu 2026 roku.",
+      "Większe inwestycje w wojsko nie są rozwiązaniem problemu zmian klimatycznych i mogą nas kosztować bezpieczeństwo - ostrzegają eksperci BMJ w kwestii klimatu.",
+      "W pierwszym artykule Neta Crawford z University of St Andrews mówi, że pogląd, że zmiany klimatyczne są „mnożnikiem zagrożeń”, który może powodować niestabilność i prowokować konflikty, prowadzi rządy do uzasadnienia wyższych wydatków na obronność."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "500,000",
+    "1 million",
+    "50 billion",
+    "750 billion",
+    "100,000",
+    "2.2°C"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Jan Mayen Island’s Kjerulf Glacier",
+    "Rock Avalanche Buried",
+    "Weyprecht Glacier",
+    "Arctic Glacier"
+   ],
+   "emotki": [
+    "🧊"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Eos (AGU)",
+     "tytuł": "A Rock Avalanche Buried an Arctic Glacier. Was Climate Change to Blame?",
+     "url": "https://eos.org/articles/a-rock-avalanche-buried-an-arctic-glacier-was-climate-change-to-blame"
+    },
+    {
+     "nazwa": "Phys.org Earth",
+     "tytuł": "What climate change is costing California",
+     "url": "https://phys.org/news/2026-10-climate-california.html"
+    },
+    {
+     "nazwa": "Phys.org Earth",
+     "tytuł": "Rising military spending could worsen climate change and undermine security, experts warn",
+     "url": "https://phys.org/news/2026-10-military-worsen-climate-undermine-experts.html"
+    },
+    {
+     "nazwa": "Phys.org Earth",
+     "tytuł": "UN projections say world is losing ground in fight to curb climate change, faulting US a bit",
+     "url": "https://phys.org/news/2026-10-world-ground-curb-climate-faulting.html"
+    },
+    {
+     "nazwa": "Phys.org Earth",
+     "tytuł": "How climate change, new technology are shaping the future of extremes in peak power demands",
+     "url": "https://phys.org/news/2026-10-climate-technology-future-extremes-peak.html"
+    },
+    {
+     "nazwa": "Phys.org Earth",
+     "tytuł": "How 39 young people experience climate education in a rapidly changing world",
+     "url": "https://phys.org/news/2026-10-young-people-climate-rapidly-world.html"
+    },
+    {
+     "nazwa": "The Guardian Environment",
+     "tytuł": "This Norwegian village is one of the fastest-warming places on Earth. How can its people save it?",
+     "url": "https://www.theguardian.com/environment/2026/oct/21/norway-svalbard-environment-longyearbyen-climate-heating-glacier-permafrost"
+    },
+    {
+     "nazwa": "Phys.org Earth Sciences",
+     "tytuł": "How life on Earth experiences climate change",
+     "url": "https://phys.org/news/2026-10-life-earth-climate.html"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 11.078,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 2.377,
+     "eksponowanie": 2.43,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.571,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "A Rock Avalanche Buried an Arctic Glacier. Was Climate Change to Blame?",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Spotkanie Użytkowników Serwisów Programu Copernicus 2026",
+   "lead": "Instytut Ochrony Środowiska PIB zaprasza na Spotkanie Użytkowników Serwisów Programu Copernicus 2026, które odbędzie się w dniach 18 20 listopada br. w siedzibie Instytutu ul. Słowicza 32 w Warszawie oraz w formule on-line.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-22T00:00:00+00:00",
+   "źródło": {
+    "nazwa": "Geoforum",
+    "url": "https://geoforum.pl/news/37449/spotkanie-uzytkownikow-serwisow-programu-copernicus-2026",
+    "domena": "geoforum.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Wydarzenie poświęcone będzie wykorzystaniu danych o atmosferze, klimacie i powierzchni lądów w podejmowaniu decyzji dotyczących środowiska.",
+      "Europejski program Copernicus dostarcza danych i informacji wspierających monitoring środowiska, analizę zmian klimatu..."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "18 20",
+    "32"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Spotkanie Użytkowników Serwisów Programu Copernicus",
+    "Użytkowników Serwisów Programu Copernicus",
+    "Instytut Ochrony Środowiska",
+    "Copernicus"
+   ],
+   "emotki": [
+    "🌡️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Geoforum",
+     "tytuł": "Spotkanie Użytkowników Serwisów Programu Copernicus 2026",
+     "url": "https://geoforum.pl/news/37449/spotkanie-uzytkownikow-serwisow-programu-copernicus-2026"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.8,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.55,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Trzygodzinny dokument najlepiej zarabiającym filmem w USA",
+   "lead": "\"Zobaczysz wszystko\" Nathana Fiedlera i Lance'a Oppenheima, trzygodzinny dokument o Elizabeth Holmes, jest obecnie najpopularniejszym filmem w Stanach Zjednoczonych. Wygrał między innymi ze \"Street Fighterem.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-21T17:44:03+00:00",
+   "źródło": {
+    "nazwa": "Interia Film",
+    "url": "https://film.interia.pl/wiadomosci/news-trzygodzinny-dokument-zarabia-najlepiej-w-usa-pokonal-adapta,nId,23561979",
+    "domena": "film.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NFFCBDET0ILEA-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Ulicznym wojownikiem\", adaptacją popularnej gry wideo, która również weszła na ekrany w ten weekend.",
+      "\"Zobaczysz wszystko\" skupia się na Elizabeth Holmes, założycielce firmy Theranos, która została skazana na 11 lat więzienia za oszustwo inwestorów i defraudację.",
+      "Odbywanie wyroku rozpoczęła 30 maja 2023 roku.",
+      "Na 34 dni przed pójściem do więzienia zaprosiła do swojego domu ekipę dokumentalną, która miała zarejestrować jej codzienność.",
+      "Na jej czele stał Nathan Fielder - komik znany z seriali \"Złoty dotyk Nathana\", \"The Curse\" i \"Próba generalna\".",
+      "Analitycy przewidywali, że \"Zobaczysz wszystko\" zarobi w swój pierwszy weekend maksymalnie 8 milionów dolarów.",
+      "Wynik był jednak dwa razy większy.",
+      "Z kolei w poniedziałek i wtorek dokument Fiedlera i Oppenheima okazał się najpopularniejszym filmem w amerykańskich kinach.",
+      "Zarobił kolejno 2,5 miliona i 2,6 miliona dolarów."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Elizabeth Anne Holmes – amerykańska bizneswoman, założycielka firmy Theranos, oskarżona o oszukanie inwestorów i skazana na 10-letni zakaz zajmowania stanowisk managerskich w spółkach publicznych."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Elizabeth Holmes",
+     "url": "https://pl.wikipedia.org/wiki/Elizabeth_Holmes"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "11 lat",
+    "30",
+    "34 dni",
+    "8 milionów",
+    "2,5 miliona",
+    "2,6 miliona"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Elizabeth Holmes",
+    "opis": "amerykańska przedsiębiorczyni",
+    "tekst": "Elizabeth Anne Holmes – amerykańska bizneswoman, założycielka firmy Theranos, oskarżona o oszukanie inwestorów i skazana na 10-letni zakaz zajmowania stanowisk managerskich w spółkach publicznych.",
+    "url": "https://pl.wikipedia.org/wiki/Elizabeth_Holmes",
+    "język": "pl"
+   },
+   "tagi": [
+    "Elizabeth Holmes",
+    "Oppenheima",
+    "Zobaczysz",
+    "Fiedlera"
+   ],
+   "emotki": [
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Film",
+     "tytuł": "Trzygodzinny dokument najlepiej zarabiającym filmem w USA",
+     "url": "https://film.interia.pl/wiadomosci/news-trzygodzinny-dokument-zarabia-najlepiej-w-usa-pokonal-adapta,nId,23561979"
+    },
+    {
+     "nazwa": "The Guardian Film",
+     "tytuł": "‘I’m always being real’: what on earth persuades disgraced people like Elizabeth Holmes to let the cameras in?",
+     "url": "https://www.theguardian.com/film/2026/oct/21/elizabeth-holmes-you-can-see-everything-disgrace-documentary"
+    },
+    {
+     "nazwa": "The Guardian Film",
+     "tytuł": "UK cinemas report ‘bonkers’ demand for documentary You Can See Everything",
+     "url": "https://www.theguardian.com/film/2026/oct/21/uk-cinemas-report-bonkers-demand-for-documentary-you-can-see-everything"
+    },
+    {
+     "nazwa": "The Guardian Culture",
+     "tytuł": "You Can See Everything mania lifts viewership for The Dropout by 186%",
+     "url": "https://www.theguardian.com/film/2026/oct/20/you-can-see-everything-dropout-viewership"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.944,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.622,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.472,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "\"Glee\" wraca! Disney+ zamawia reboot kultowego serialu",
+   "lead": "Fani \" Glee \" mają powód do radości. Kilka tygodni po tym, jak Ryan Murphy zapowiadał, że wróciłby do tego serialu, Disney+ i Hulu rzeczywiście zamówiły reboot.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-21T13:31:43+00:00",
+   "źródło": {
+    "nazwa": "Filmweb",
+    "url": "https://www.filmweb.pl/news/%22Glee%22+wraca+Disney%2B+zamawia+reboot+kultowego+serialu-169238",
+    "domena": "filmweb.pl"
+   },
+   "obraz": "https://fwcdn.pl/nph/1433332/2026/75530_1.16.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Na razie szczegóły nowej wersji pozostają tajemnicą, nie wiadomo też, kto znajdzie się"
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Ryan Murphy",
+    "Fani Glee",
+    "Disney+",
+    "Hulu"
+   ],
+   "emotki": [
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Filmweb",
+     "tytuł": "\"Glee\" wraca! Disney+ zamawia reboot kultowego serialu",
+     "url": "https://www.filmweb.pl/news/%22Glee%22+wraca+Disney%2B+zamawia+reboot+kultowego+serialu-169238"
+    },
+    {
+     "nazwa": "BBC Kultura",
+     "tytuł": "Don't Stop Believin'! - high school musical Glee set for reboot",
+     "url": "https://www.bbc.co.uk/news/articles/c6x2vpn4xy0yo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.747,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.365,
+     "eksponowanie": 0.54,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.433,
+     "treściwość": 0.309,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  }
+ ],
+ "braki": [],
+ "statystyki": {
+  "kanały_ok": 72,
+  "kanały_błędne": 0,
+  "znaki_tłumaczone": 12205,
+  "niedziałające_kanały": [],
+  "działy": 18,
+  "artykuły_w_oknie": 78
+ }
+}
