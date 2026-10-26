@@ -1,8 +1,8 @@
 {
  "wersja": "1.0.0",
- "wydanie": "2026-10-25",
- "dotyczy_dnia": "2026-10-24",
- "wygenerowano": "2026-10-25T10:34:25+00:00",
+ "wydanie": "2026-10-26",
+ "dotyczy_dnia": "2026-10-25",
+ "wygenerowano": "2026-10-26T12:07:51+00:00",
  "strefa": "Europe/Warsaw",
  "tryb": "ekstrakcyjny",
  "demo": false,
@@ -14,157 +14,123 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "„Miałkie, przemocowe zagrywki” i „zagubiony kompas” koalicji. Pełczyńska-Nałęcz kontratakuje",
-   "lead": "Swoją decyzję o odejściu ze stanowiska szefowej resortu funduszy i polityki regionalnej oraz funkcji liderki Polski 2050 Katarzyna Pełczyńska-Nałęcz ogłosiła w czwartek w mediach społecznościowych. „Wartości są dla mnie ważniejsze niż stołki” - wyjaśniła.",
+   "nagłówek": "Referendum w Częstochowie zakończone. Czy udało się odwołać prezydenta Matyjaszczyka?",
+   "lead": "Wpłynęły natomiast pojedyncze skargi na słabe w niektórych przypadkach oznakowanie lokali wyborczych, np. tabliczki kierujące do nich wywieszano już po otwarciu lokali wyborczych. W Częstochowie działało 135 obwodów: 126 stałych i 9 odrębnych (w szpitalach, domach pomocy społecznej, hospicjum i areszcie śledczym).",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-23T17:48:00+00:00",
+   "opublikowano": "2026-10-25T20:26:00+00:00",
    "źródło": {
     "nazwa": "RMF24",
-    "url": "https://www.rmf24.pl/fakty/polityka/news-mialkie-przemocowe-zagrywki-i-zagubiony-kompas-koalicji-pelc,nIdn,1023213",
+    "url": "https://www.rmf24.pl/regiony/slaskie/news-referendum-w-czestochowie-zakonczone-czy-udalo-sie-odwolac-p,nIdn,1023350",
     "domena": "rmf24.pl"
    },
-   "obraz": "https://rmf.rmffm.pl/news/attachments/d6/29/katarzyna-pelczynska-nalecz-fot-636x421-d62967c6.jpg",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/ee/5b/glosowanie-w-referendum-ws-636x421-ee5b01a2.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Odniosła się też w ostrym tonie do wyników głosowania w sprawie dwukadencyjności w samorządach.",
-      "Dwukadencyjność samorządów została utrzymana.",
-      "Tak zdecydował dziś Sejm.",
-      "Wygraliśmy! (...) Stało się to jednak pomimo głosów K15X.",
-      "Koalicja, w tym niestety znaczna część posłów Polski 2050, stanęła przeciw ludziom, a za politykierskimi układami.",
-      "To nie pierwsza taka decyzja koalicji, ale fundamentalnie ważna - napisała Pełczyńska-Nałęcz.",
-      "Po decyzji Pełczyńskiej-Nałęcz do dymisji podał się także wiceszef jej resortu - Jan Szyszko . „ Odwołanie Pana Ministra podpisano w KPRM w pół godziny - życzyłabym sobie podobnej mobilizacji przy robieniu reform” - stwierdziła odchodząca szefowa Polski 2050 na portalu X.",
-      "W wywiadzie dla Wirtualnej Polski zwróciła uwagę, że jej dymisja nie została jeszcze formalnie przyjęta.",
-      "Pracowaliśmy tu przez trzy lata na cztery ręce."
+      "Aby referendum w sprawie odwołania prezydenta było ważne, w głosowaniu musi uczestniczyć co najmniej 46 625 mieszkańców Częstochowy, czyli minimum 3/5 liczby osób biorących udział w jego wyborze w II turze w 2024 r.",
+      "Taki próg przewidują przepisy.",
+      "W przypadku częstochowskiej rady miasta minimum to 48 754 głosów.",
+      "Delegatura Krajowego Biura Wyborczego przewiduje, że wyniki referendum powinny być znane w nocy, a najpóźniej nad ranem.",
+      "W tej kadencji jest to druga próba odwołania prezydenta Częstochowy; w 2025 r. nie zebrano wystarczającej liczby podpisów.",
+      "Krzysztof Matyjaszczyk prezydentem Częstochowy jest od 16 lat, urząd objął w 2010 r. w wyniku przedterminowych wyborów po odwołaniu w referendum poprzedniego, prawicowego prezydenta.",
+      "Obecnie miastem rządzi koalicja Nowej Lewicy i Koalicji Obywatelskiej.",
+      "Obecną inicjatywę, która doprowadziła do referendum, zgłoszono po zatrzymaniu prezydenta Krzysztofa Matyjaszczyka 25 lutego br. przez Centralne Biuro Antykorupcyjne.",
+      "Prokuratura przedstawiła mu zarzut przyjęcia co najmniej 40 tys. zł w zamian za wprowadzenie zmian w budżecie miasta pozwalających na realizację zamówienia publicznego z korzyścią dla jednego z przedsiębiorców oraz przyjęcie od wielu osób korzyści majątkowych w łącznej kwocie nie mniejszej niż 129 tys. zł."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Katarzyna Pełczyńska-Nałęcz usunięta z Polski 2050",
-      "Przebywająca w sobotę w Poznaniu ministra kultury i dziedzictwa narodowego Marta Cienkowska, komentując we wcześniejszej rozmowie z PAP sytuację w partii po odejściu z rządu Pełczyńskiej-Nałęcz, podkreśliła, że Polska 2050 wciąż będzie funkcjonowała bardzo dobrze.",
-      "To jest szczęście dla rządu, bo oni rzeczywiście pozbyli się problemu - powiedziała Dorota Gawryluk w programie Polsat News \"Kalejdoskop Wydarzeń\".",
-      "Gawryluk, komentując sytuację, oceniła, że Katarzyna Pełczyńska-Nałęcz \"była fatalnym politykiem\" . - Udawała generała, który nie ma armii.",
-      "Jak tłumaczyła, stało się to w związku z głosowaniem w Sejmie w sprawie dwukadencyjności wójtów, burmistrzów i prezydentów miast.",
-      "Cienkowska podkreśliła, że Polska 2050 wciąż będzie funkcjonowała bardzo dobrze. - Po prostu pani przewodnicząca postanowiła zrezygnować ze swojego stanowiska, przed nami wybory.",
-      "Dodała, że aktualnie obowiązki w partii przejęła pierwsza zastępczyni, posłanka Ewa Schädler. - Cały zarząd poza panią przewodniczącą dalej funkcjonuje."
+      "Za pozbawieniem go urzędu oddano 97 proc. głosów.",
+      "Próg frekwencyjny wynosił 46625 głosów w przypadku pytania o prezydenta i 48754, gdy chodzi o radę.",
+      "97 proc. opowiedziało się za usunięciem Matyjaszczyka z urzędu, natomiast 96,2 proc. poparło rozwiązanie rady.",
+      "Prezydent Krzysztof Matyjaszczyk od ośmiu miesięcy nie mógł pełnić swej funkcji, wchodzić do urzędu miasta ani kontaktować się z pracownikami.",
+      "Został nim w 2010 r. w przedterminowych wyborach po odwołaniu w referendum prawicowego prezydenta Tadeusza Wrony."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Katarzyna Pełczyńska-Nałęcz – polska socjolog i politolog, specjalistka w zakresie problematyki wschodnioeuropejskiej, podsekretarz stanu w Ministerstwie Spraw Zagranicznych (2012–2014), ambasador Polski w Federacji Rosyjskiej (2014–2016), minister funduszy i polityki regionalnej w trzecim rządzie Donalda Tuska, przewodnicząca Polski 2050 (2026)."
+      "Uniwersytet Jana Długosza w Częstochowie (UJD) – polska państwowa szkoła wyższa w Częstochowie utworzona w 1971 jako Wyższa Szkoła Nauczycielska w Częstochowie. Od 2004 nosi imię Jana Długosza."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Katarzyna Pełczyńska-Nałęcz",
-     "url": "https://pl.wikipedia.org/wiki/Katarzyna_Pe%C5%82czy%C5%84ska-Na%C5%82%C4%99cz"
+     "przypis": "Wikipedia: Uniwersytet Jana Długosza w Częstochowie",
+     "url": "https://pl.wikipedia.org/wiki/Uniwersytet_Jana_D%C5%82ugosza_w_Cz%C4%99stochowie"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "15",
-    "30",
-    "1,5 proc.",
-    "12",
-    "75 proc."
+    "135",
+    "126",
+    "46 625",
+    "48 754",
+    "29,47 proc.",
+    "30,81 proc."
    ],
    "inne_spojrzenia": [
     {
      "źródło": "RMF24",
-     "ujęcie": "„Musi to wytłumaczyć, „Nie jest posłanką”.",
-     "url": "https://www.rmf24.pl/rozmowy/sprawdzam/news-musi-to-wytlumaczyc-nie-jest-poslanka-pelczynska-nalecz-odch,nIdn,1023204"
-    },
-    {
-     "źródło": "Bankier.pl",
-     "ujęcie": "Zarząd Polski 2050 zdecydował o usunięciu z partii Katarzyny Pełczyńskiej-Nałęcz m.in. za działanie na szkodę ugrupowania - poinformował w sobotę przewodniczący klubu parlamentarnego Polski 2050 Szymon Hołownia.",
-     "url": "https://www.bankier.pl/wiadomosc/Holownia-Pelczynska-Nalecz-usunieta-z-partii-Polska-2050-9217890.html"
+     "ujęcie": "Referendum w Częstochowie.",
+     "url": "https://www.rmf24.pl/regiony/slaskie/news-referendum-w-czestochowie-mieszkancy-zdecydowali-o-losach-pr,nIdn,1023357"
     },
     {
      "źródło": "Interia Fakty",
-     "ujęcie": "W sobotnim wydaniu programu Polsat News \"Kalejdoskop Wydarzeń\" prowadzący Dorota Gawryluk oraz Jan Wróbel odnieśli się do niedawnej rezygnacji Katarzyny Pełczyńskiej-Nałęcz z funkcji ministry funduszy i polityki regionalnej Polski , otwiera się w nowym oknie .",
-     "url": "https://wydarzenia.interia.pl/kraj/news-gawryluk-wprost-o-pelczynskiej-nalecz-najgorszy-polityk-osta,nId,23563268"
+     "ujęcie": "Prezydent Częstochowy Krzysztof Matyjaszczyk został odwołany w referendum.",
+     "url": "https://wydarzenia.interia.pl/slaskie/news-nokaut-w-czestochowie-prezydent-odwolany-mieszkancy-zdecydow,nId,23563861"
     }
    ],
    "pojęcia": [],
    "tło": {
-    "hasło": "Katarzyna Pełczyńska-Nałęcz",
-    "opis": "polska socjolożka, politolożka i polityczka",
-    "tekst": "Katarzyna Pełczyńska-Nałęcz – polska socjolog i politolog, specjalistka w zakresie problematyki wschodnioeuropejskiej, podsekretarz stanu w Ministerstwie Spraw Zagranicznych (2012–2014), ambasador Polski w Federacji Rosyjskiej (2014–2016), minister funduszy i polityki regionalnej w trzecim rządzie Donalda Tuska, przewodnicząca Polski 2050 (2026).",
-    "url": "https://pl.wikipedia.org/wiki/Katarzyna_Pe%C5%82czy%C5%84ska-Na%C5%82%C4%99cz",
+    "hasło": "Uniwersytet Jana Długosza w Częstochowie",
+    "opis": "szkoła wyższa w Polsce",
+    "tekst": "Uniwersytet Jana Długosza w Częstochowie (UJD) – polska państwowa szkoła wyższa w Częstochowie utworzona w 1971 jako Wyższa Szkoła Nauczycielska w Częstochowie. Od 2004 nosi imię Jana Długosza.",
+    "url": "https://pl.wikipedia.org/wiki/Uniwersytet_Jana_D%C5%82ugosza_w_Cz%C4%99stochowie",
     "język": "pl"
    },
    "tagi": [
-    "Polski",
-    "Katarzyna Pełczyńska-Nałęcz",
-    "Pełczyńska-Nałęcz",
-    "Donalda Tuska Katarzyna Pełczyńska-Nałęcz"
+    "Częstochowie",
+    "Częstochowy",
+    "Matyjaszczyk",
+    "Krajowego Biura Wyborczego"
    ],
    "emotki": [
-    "🏛️"
+    "🗳️",
+    "🏛️",
+    "⚖️"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "RMF24",
-     "tytuł": "„Miałkie, przemocowe zagrywki” i „zagubiony kompas” koalicji. Pełczyńska-Nałęcz kontratakuje",
-     "url": "https://www.rmf24.pl/fakty/polityka/news-mialkie-przemocowe-zagrywki-i-zagubiony-kompas-koalicji-pelc,nIdn,1023213"
+     "tytuł": "Referendum w Częstochowie zakończone. Czy udało się odwołać prezydenta Matyjaszczyka?",
+     "url": "https://www.rmf24.pl/regiony/slaskie/news-referendum-w-czestochowie-zakonczone-czy-udalo-sie-odwolac-p,nIdn,1023350"
     },
     {
      "nazwa": "RMF24",
-     "tytuł": "„Musi to wytłumaczyć, „Nie jest posłanką”. Pełczyńska-Nałęcz odchodzi, politycy komentują",
-     "url": "https://www.rmf24.pl/rozmowy/sprawdzam/news-musi-to-wytlumaczyc-nie-jest-poslanka-pelczynska-nalecz-odch,nIdn,1023204"
-    },
-    {
-     "nazwa": "RMF24",
-     "tytuł": "Katarzyna Pełczyńska-Nałęcz usunięta z Polski 2050",
-     "url": "https://www.rmf24.pl/fakty/polityka/news-katarzyna-pelczynska-nalecz-usunieta-z-polski-2050,nIdn,1023279"
-    },
-    {
-     "nazwa": "Bankier.pl",
-     "tytuł": "Hołownia: Pełczyńska-Nałęcz usunięta z partii Polska 2050",
-     "url": "https://www.bankier.pl/wiadomosc/Holownia-Pelczynska-Nalecz-usunieta-z-partii-Polska-2050-9217890.html"
+     "tytuł": "Referendum w Częstochowie. Mieszkańcy zdecydowali o losach prezydenta i rady miasta",
+     "url": "https://www.rmf24.pl/regiony/slaskie/news-referendum-w-czestochowie-mieszkancy-zdecydowali-o-losach-pr,nIdn,1023357"
     },
     {
      "nazwa": "Interia Fakty",
-     "tytuł": "Gawryluk wprost o Pełczyńskiej-Nałęcz. \"Najgorszy polityk ostatnich lat\"",
-     "url": "https://wydarzenia.interia.pl/kraj/news-gawryluk-wprost-o-pelczynskiej-nalecz-najgorszy-polityk-osta,nId,23563268"
-    },
-    {
-     "nazwa": "Interia Fakty",
-     "tytuł": "Koniec Pełczyńskiej-Nałęcz w partii. Jest decyzja",
-     "url": "https://wydarzenia.interia.pl/kraj/news-dzialanie-na-szkode-partii-holownia-oglasza-w-sprawie-pelczy,nId,23563392"
-    },
-    {
-     "nazwa": "Gazeta.pl",
-     "tytuł": "Cienkowska po rezygnacji Pełczyńskiej-Nałęcz: Nie wychodzimy z koalicji",
-     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33096883,cienkowska-po-rezygnacji-pelczynskiej-nalecz-nie-wychodzimy.html"
-    },
-    {
-     "nazwa": "Gazeta.pl",
-     "tytuł": "Pełczyńska-Nałęcz komentuje słowa Tuska. \"Nie będę się w takie przepychanki wdawać\"",
-     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33096175,pelczynska-nalecz-komentuje-slowa-tuska-nie-bede-sie-w-takie.html"
-    },
-    {
-     "nazwa": "Gazeta.pl",
-     "tytuł": "Katarzyna Pełczyńska-Nałęcz usunięta z Polski 2050. \"Działanie na szkodę partii\"",
-     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33097263,polska-2050-zadecydowala-ws-pelczynskiej-nalecz-dzialanie.html"
+     "tytuł": "Nokaut na Śląsku, prezydent Częstochowy odwołany. Wyniki referendum",
+     "url": "https://wydarzenia.interia.pl/slaskie/news-nokaut-w-czestochowie-prezydent-odwolany-mieszkancy-zdecydow,nId,23563861"
     }
    ],
-   "liczba_źródeł": 4,
-   "czas_czytania_min": 2,
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 10.417,
+    "wynik": 5.067,
     "składowe": {
-     "potwierdzenia": 5.7,
-     "ranga_źródła": 2.41,
-     "eksponowanie": 0.18,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.452,
-     "treściwość": 0.475,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.472,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.591,
+     "treściwość": 0.254,
      "język_działu": 0.5
     }
    },
@@ -177,293 +143,66 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "Protesty we Francji. Zatrzymano prawie 1000 osób, na ulicach tysiące policjantów",
-   "lead": "Szef MSW Francji Laurent Nunez poinformował w sobotę wieczorem, że podczas demonstracji, które odbyły się w kraju tego dnia, zatrzymano prawie 1000 osób. Zastrzegł, że liczba ta wzrośnie.",
+   "nagłówek": "Największe państwo Ameryki Łacińskiej głosuje. Stawką polityczny zwrot",
+   "lead": "W Brazylii rozpoczęła się druga tura wyborów prezydenckich. O najwyższy urząd w państwie walczą urzędujący prezydent Luiz Inacio Lula da Silva i prawicowy senator Flavio Bolsonaro, syn byłego przywódcy kraju.",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-24T13:53:00+00:00",
+   "opublikowano": "2026-10-25T13:07:39+00:00",
    "źródło": {
-    "nazwa": "Bankier.pl",
-    "url": "https://www.bankier.pl/wiadomosc/Protesty-we-Francji-Zatrzymano-135-osob-na-ulicach-tysiace-policjantow-9217864.html",
-    "domena": "bankier.pl"
+    "nazwa": "Interia Fakty",
+    "url": "https://wydarzenia.interia.pl/zagranica/news-najwieksze-panstwo-ameryki-lacinskiej-glosuje-stawka-polityc,nId,23563633",
+    "domena": "wydarzenia.interia.pl"
    },
-   "obraz": "https://galeria.bankier.pl/p/6/3/45a2230b71436c-945-560-0-0-1500-899.jpg",
+   "obraz": "https://i.iplsc.com/-/000NGCGEBEYQRO4I-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Przyznał, że dochodziło do zniszczeń i grabieży, ale zapewnił, że policja zapobiegła wielu innym przestępstwom tego typu.",
-      "Nunez na briefingu dla prasy powiedział, że dane dotyczące zatrzymań nie są ostateczne, i przypomniał, że podczas zamieszek przed tygodniem o tej samej porze liczba zatrzymanych wynosiła ponad 380 osób (a ostatecznie było ich ponad 2 tys. - PAP).",
-      "Przekonywał, że przypadki grabieży były nie do porównania z ubiegłym tygodniem, a wielu takim próbom policja zapobiegła.",
-      "Zapewnił, że również dzięki działaniom policji nie doszło do „zorganizowanych ataków na budynki publiczne, jak 17 października”.",
-      "Szef resortu ocenił, że ogółem demonstracje, których odnotowano 289, przebiegły dobrze.",
-      "Jak relacjonował, na końcu demonstracji w Paryżu pojawiły się grupy ultralewicy, które atakowały policjantów.",
-      "Krótko po briefingu ministra prefektura policji podała, że manifestacja została „całkowicie rozproszona”.",
-      "Nunez poinformował także, że dwie osoby zostały w sobotę poważnie ranne, jedna w Tuluzie, a druga w Clermont-Ferrand.",
-      "Mer Marsylii Benoit Payan powiedział, że w tym mieście doszło do prób grabieży."
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Laurent Nunez na briefingu dla prasy powiedział, że dane dotyczące zatrzymań nie są ostateczne , i przypomniał, że podczas zamieszek przed tygodniem o tej samej porze liczba zatrzymanych wynosiła ponad 380 osób (a ostatecznie było ich ponad 2 tys.).",
-      "Zapewnił, że również dzięki działaniom policji nie doszło do \"zorganizowanych ataków na budynki publiczne, jak 17 października\".",
-      "Na ulice wyjdą wspólnie związki zawodowe, studenci, licealiści oraz obywatele protestujący przeciwko rosnącym kosztom życia.",
-      "Władze wprowadziły lokalne godziny policyjne w rejonach, które wcześniej padły ofiarą wandalizmu, a sądy rozpatrują odwołania od zakazów zgromadzeń (oficjalnie dozwolone są tylko te organizowane przez związki zawodowe).",
-      "Paryski marsz ma wyruszyć 24 października o godzinie 14, jednak stolica już szykuje się na paraliż.",
-      "Zamknięto 24 stacje metra (m.in. przy Polach Elizejskich i parlamencie) oraz największe muzea, w tym Luwr i Musée d'Orsay.",
-      "Symbolem pokoleniowego pęknięcia i narastających napięć na linii młodzież-władza stało się nowe, na pozór pozbawione sensu hasło: \"Bismillah, c’est les ténèbres\" (w dosłownym tłumaczeniu: \"W imię Boga, to są ciemności\")."
-     ]
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "1000",
-    "380",
-    "2 tys.",
-    "17",
-    "289",
-    "18"
-   ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "Interia Fakty",
-     "ujęcie": "Podczas demonstracji, które przetoczyły się przez całą Francję, zatrzymano prawie tysiąc osób.",
-     "url": "https://wydarzenia.interia.pl/zagranica/news-protesty-w-europejskich-krajach-zatrzymania-i-incydenty-nie,nId,23563409"
-    },
-    {
-     "źródło": "Gazeta.pl",
-     "ujęcie": "Setki tysięcy osób wyszły na ulice francuskich miast, domagając się lepszych warunków nauki i niższych kosztów życia.",
-     "url": "https://wiadomosci.gazeta.pl/swiat/7,198075,33097331,rzucanie-kamieniami-gaz-i-armatki-wodne-tak-wygladaly-protesty.html"
-    }
-   ],
-   "pojęcia": [],
-   "tło": null,
-   "tagi": [
-    "Francji Laurent Nunez",
-    "Marsylii Benoit Payan",
-    "Zjednoczenie Narodowe",
-    "Clermont-Ferrand"
-   ],
-   "emotki": [
-    "🪐"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Bankier.pl",
-     "tytuł": "Protesty we Francji. Zatrzymano prawie 1000 osób, na ulicach tysiące policjantów",
-     "url": "https://www.bankier.pl/wiadomosc/Protesty-we-Francji-Zatrzymano-135-osob-na-ulicach-tysiace-policjantow-9217864.html"
-    },
-    {
-     "nazwa": "Interia Fakty",
-     "tytuł": "Protesty w europejskich krajach. Zatrzymania nie tylko we Francji",
-     "url": "https://wydarzenia.interia.pl/zagranica/news-protesty-w-europejskich-krajach-zatrzymania-i-incydenty-nie,nId,23563409"
-    },
-    {
-     "nazwa": "Gazeta.pl",
-     "tytuł": "Nowe hasło protestujących Francuzów: \"W imię Boga, to są ciemności\". Strach przed demonstracjami",
-     "url": "https://wiadomosci.gazeta.pl/polityka/7,198013,33096739,nowe-haslo-protestujacych-francuzow-w-imie-boga-to-sa-ciemnosci.html"
-    },
-    {
-     "nazwa": "Interia Fakty",
-     "tytuł": "Protesty we Francji. Dziesiątki zatrzymanych, w Paryżu wielka demonstracja",
-     "url": "https://wydarzenia.interia.pl/zagranica/news-francja-w-ogniu-protestow-dziesiatki-zatrzymanych-w-paryzu-w,nId,23563350"
-    },
-    {
-     "nazwa": "Gazeta.pl",
-     "tytuł": "Rzucanie kamieniami, gaz i armatki wodne. Tak wyglądały protesty we Francji",
-     "url": "https://wiadomosci.gazeta.pl/swiat/7,198075,33097331,rzucanie-kamieniami-gaz-i-armatki-wodne-tak-wygladaly-protesty.html"
-    }
-   ],
-   "liczba_źródeł": 3,
-   "czas_czytania_min": 2,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 8.007,
-    "składowe": {
-     "potwierdzenia": 3.8,
-     "ranga_źródła": 1.7,
-     "eksponowanie": 0.36,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.476,
-     "treściwość": 0.471,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 2
-  },
-  {
-   "dział": {
-    "id": "swiat",
-    "nazwa": "Świat",
-    "emoji": "🌍",
-    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
-   },
-   "nagłówek": "Starlink w Ukrainie znów działa bez ograniczeń. Zełenski dziękuje Amerykanom",
-   "lead": "Najważniejsza wiadomość tego dnia: przywrócono działanie Starlinka i Starshielda przy takich prędkościach, jakie były możliwe przed wprowadzeniem wszystkich tych ograniczeń. Teraz prędkości odpowiadają naszym potrzebom – podkreślił prezydent.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-10-24T14:08:00+00:00",
-   "źródło": {
-    "nazwa": "RMF24 Świat",
-    "url": "https://www.rmf24.pl/fakty/swiat/news-starlink-w-ukrainie-znow-dziala-bez-ograniczen-zelenski-dzie,nIdn,1023272",
-    "domena": "rmf24.pl"
-   },
-   "obraz": "https://rmf.rmffm.pl/news/attachments/64/e0/abaca-636x421-64e07a20.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Zełenski zaznaczył, że przywrócenie pełnej funkcjonalności systemów rozpoczęło się już poprzedniej nocy, a rano prędkości były już wystarczające do realizacji kluczowych zadań.",
-      "To bardzo ważne, gdyż ma duże znaczenie dla naszej logistyki na froncie i obrony Ukrainy przed odrzutowymi dronami Shahedami – dodał prezydent.",
-      "Przypomnijmy, że rosyjskie drony poruszają się z prędkością nawet 380 km/h , podczas gdy wcześniejsze ograniczenia Starlinka powodowały zrywanie połączenia przy ruchu powyżej 160 km/h.",
-      "Prezydent Ukrainy nie krył wdzięczności wobec amerykańskich partnerów, którzy – jak podkreślił – poważnie potraktowali sprawę ograniczeń w działaniu Starlinka.",
-      "Dziękuję wszystkim Amerykanom, wszystkim naszym partnerom, którzy potraktowali tę sprawę poważnie i rzeczywiście nam pomagają.",
-      "Dziękuję kongresmenom, senatorom, wszystkim mediom, Departamentowi Stanu USA i prezydentowi Donaldowi Trumpowi – powiedział Zełenski.",
-      "Pierwsze sygnały o problemach z działaniem Starlinka i Starshielda pojawiły się 14 października.",
-      "Użytkownicy zgłaszali zaniki połączenia podczas przemieszczania się z większą prędkością, co utrudniało skuteczną obronę przed rosyjskimi dronami.",
-      "Doniesienia o ograniczeniach pojawiły się niedługo po oświadczeniu Donalda Trumpa o porozumieniu z Władimirem Putinem w sprawie powrotu rosyjskiego oleju napędowego na światowe rynki."
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "W sobotę Elon Musk po raz pierwszy publicznie potwierdził, że w Ukrainie zastosowano limity prędkości satelitarnego internetu."
+      "Wynik głosowania może wpłynąć na układ sił w Ameryce Łacińskiej i relacje regionu z USA.",
+      "Wybory w Brazylii uznawane są za jedne z najważniejszych na świecie w tym roku i kluczowe dla politycznej mapy regionu.",
+      "Obaj kandydaci prezentują bardzo odmienną wizję polityki gospodarczej, społecznej i zagranicznej.",
+      "Od wyniku głosowania zależeć będzie współpraca kraju z USA, Chinami i Europą oraz ochrona Puszczy Amazońskiej.",
+      "Uprawnionych do udziału w wyborach jest ponad 158 mln obywateli , w tym prawie milion Brazylijczyków, przebywających za granicą.",
+      "Głosowanie dla piśmiennych osób w wieku 18-70 lat jest obowiązkowe.",
+      "Według sondaży faworytem jest Bolsonaro, ale jego przewaga nad Lulą w ostatnich tygodniach zmniejszyła się.",
+      "W najnowszych badaniach nie przekraczała 2 punktów procentowych i mieściła się w granicach błędu statystycznego.",
+      "W pierwszej turze Bolsonaro otrzymał 47 proc., a Lula - 45 proc . głosów."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Starlink – telekomunikacyjny system satelitarny obsługiwany przez Starlink Services, LLC, spółkę zależną będącą w całości własnością amerykańskiej firmy SpaceX, zapewniając zasięg w 105 państwach. Głównym celem działania systemu jest dostarczanie łączności internetowej na całym świecie."
+      "Flávio Nantes Bolsonaro – brazylijski prawnik, senator ze stanu Rio de Janeiro. Syn Jaira Bolsonaro."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Starlink",
-     "url": "https://pl.wikipedia.org/wiki/Starlink"
+     "przypis": "Wikipedia: Flávio Bolsonaro",
+     "url": "https://pl.wikipedia.org/wiki/Fl%C3%A1vio_Bolsonaro"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "380 km/h",
-    "160 km/h",
-    "14",
-    "10",
-    "160km/h",
-    "99"
-   ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "Onet Świat",
-     "ujęcie": "Równocześnie zarzucił ukraińskiej armii korzystanie z usługi w sposób sprzeczny z jej regulaminem.",
-     "url": "https://wiadomosci.onet.pl/swiat/elon-musk-potwierdzil-limity-starlinka-zarzucil-ukrainie-naruszenie-zasad/dd1zwtb"
-    }
-   ],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Starlink",
-    "opis": "konstelacja satelitarna; telekomunikacyjny system satelitarny",
-    "tekst": "Starlink – telekomunikacyjny system satelitarny obsługiwany przez Starlink Services, LLC, spółkę zależną będącą w całości własnością amerykańskiej firmy SpaceX, zapewniając zasięg w 105 państwach. Głównym celem działania systemu jest dostarczanie łączności internetowej na całym świecie.",
-    "url": "https://pl.wikipedia.org/wiki/Starlink",
-    "język": "pl"
-   },
-   "tagi": [
-    "Starlinka",
-    "Starshielda",
-    "Ukrainy",
-    "Amerykanom Najważniejsza"
-   ],
-   "emotki": [
-    "🏛️"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "RMF24 Świat",
-     "tytuł": "Starlink w Ukrainie znów działa bez ograniczeń. Zełenski dziękuje Amerykanom",
-     "url": "https://www.rmf24.pl/fakty/swiat/news-starlink-w-ukrainie-znow-dziala-bez-ograniczen-zelenski-dzie,nIdn,1023272"
-    },
-    {
-     "nazwa": "Onet Świat",
-     "tytuł": "Elon Musk przyznał, że wprowadził ograniczenia Starlinka. \"Ukraińskie wojsko naruszyło warunki\"",
-     "url": "https://wiadomosci.onet.pl/swiat/elon-musk-potwierdzil-limity-starlinka-zarzucil-ukrainie-naruszenie-zasad/dd1zwtb"
-    },
-    {
-     "nazwa": "The Guardian",
-     "tytuł": "Ukraine’s military says Starlink satellite connection stable after recent restrictions",
-     "url": "https://www.theguardian.com/world/2026/oct/24/ukraine-zelenskyy-military-starlink-satellite-connection-stable-after-restrictions"
-    },
-    {
-     "nazwa": "Politico Europe",
-     "tytuł": "Starlink connection restored at high speed in Ukraine, defense minister says",
-     "url": "https://www.politico.eu/article/starlink-connection-high-speed-ukraine-defense-minister-yevhenii-khmara/"
-    },
-    {
-     "nazwa": "NPR",
-     "tytuł": "Ukraine says Starlink is back to normal after disruptions",
-     "url": "https://www.npr.org/2026/10/24/nx-s1-6015482/ukraine-starlink-working-after-disruptions"
-    }
-   ],
-   "liczba_źródeł": 5,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 12.559,
-    "składowe": {
-     "potwierdzenia": 7.6,
-     "ranga_źródła": 1.822,
-     "eksponowanie": 1.26,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.527,
-     "treściwość": 0.5,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "swiat",
-    "nazwa": "Świat",
-    "emoji": "🌍",
-    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
-   },
-   "nagłówek": "Barack Obama wbija szpilkę Donaldowi Trumpowi. \"Biały Dom wygląda tak, jakby Saddam Husajn otworzył Cheesecake Factory\"",
-   "lead": "Ostatnia prosta kampanii przed wyborami połówkowymi w USA. Barack Obama wygłosił w sobotę przemówienie w liceum w Detroit, wspierając demokratycznego kandydata do Senatu, Abdula El-Sayeda.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-10-25T03:37:45+00:00",
-   "źródło": {
-    "nazwa": "Onet Świat",
-    "url": "https://wiadomosci.onet.pl/swiat/demokraci-walcza-o-mandat-w-michigan-barack-obama-kpi-z-donalda-trumpa/xgz4w9p",
-    "domena": "wiadomosci.onet.pl"
-   },
-   "obraz": "https://cdn.wiadomosci.onet.pl/1/QG7k9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy84ZjU2MjYwYTU4OTE2OWJiYjM3NDg2OGI2MDFiNjVlYS5qcGeSlQMAzJbNF3DNDS-TBc0JYM0GQN4AAqEwB6ExBA",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Dodaj Onet Wiadomości do preferowanych źródeł w Google Nasze materiały będą się częściej pojawiać w Twoich wynikach"
-     ]
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "30",
-    "51%",
-    "45%",
-    "25",
-    "50%",
-    "48%"
+    "158 mln",
+    "18",
+    "70 lat",
+    "2 punktów",
+    "47 proc.",
+    "45"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Flávio Bolsonaro",
+    "opis": "brazylijski polityk",
+    "tekst": "Flávio Nantes Bolsonaro – brazylijski prawnik, senator ze stanu Rio de Janeiro. Syn Jaira Bolsonaro.",
+    "url": "https://pl.wikipedia.org/wiki/Fl%C3%A1vio_Bolsonaro",
+    "język": "pl"
+   },
    "tagi": [
-    "Obama",
-    "Cheesecake Factory Ostatnia",
-    "Senatu Abdula El-Sayeda",
-    "Donaldowi Trumpowi"
+    "Puszczy Amazońskiej",
+    "Ameryki Łacińskiej",
+    "Flavio Bolsonaro",
+    "Brazylijczyków"
    ],
    "emotki": [
     "🏛️",
@@ -471,47 +210,254 @@
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Onet Świat",
-     "tytuł": "Barack Obama wbija szpilkę Donaldowi Trumpowi. \"Biały Dom wygląda tak, jakby Saddam Husajn otworzył Cheesecake Factory\"",
-     "url": "https://wiadomosci.onet.pl/swiat/demokraci-walcza-o-mandat-w-michigan-barack-obama-kpi-z-donalda-trumpa/xgz4w9p"
+     "nazwa": "Interia Fakty",
+     "tytuł": "Największe państwo Ameryki Łacińskiej głosuje. Stawką polityczny zwrot",
+     "url": "https://wydarzenia.interia.pl/zagranica/news-najwieksze-panstwo-ameryki-lacinskiej-glosuje-stawka-polityc,nId,23563633"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.323,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.402,
+     "treściwość": 0.371,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Lula wygrywa wybory w Brazylii. Bolsonaro nie uznaje porażki i podważa wyniki",
+   "lead": "W niedzielnych wyborach prezydenckich w Brazylii Luiz Inacio Lula da Silva zdobył 51,8 proc. głosów, pokonując swojego rywala Flavia Bolsonaro, który uzyskał 48,2 proc. Przewaga Luli to aż 4,4 mln głosów .",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-26T04:28:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-lula-wygrywa-wybory-w-brazylii-bolsonaro-nie-uznaje-porazki-,nIdn,1023358",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/c5/19/luiz-inacio-lula-da-silva-636x421-c519ca1f.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "To historyczny moment – Lula jako pierwszy polityk w najnowszej historii Brazylii wygrał w drugiej turze po zajęciu drugiego miejsca w pierwszej.",
+      "Tym samym zostanie prezydentem po raz czwarty, co też jest rekordem.",
+      "W swoim pierwszym przemówieniu po ogłoszeniu wyników Lula dziękował narodowi brazylijskiemu za zaufanie i podkreślał, że Brazylia nie będzie „niczyim podwórkiem”.",
+      "Flavio Bolsonaro nie zamierza pogodzić się z porażką.",
+      "Zapowiedział, że złoży wniosek o unieważnienie wyborów , krytykując decyzję Sądu Najwyższego o przedłużeniu głosowania o dwie godziny.",
+      "Jego zdaniem zamieszanie wokół godzin otwarcia lokali wyborczych mogło wpłynąć na wynik i jest „nie do zaakceptowania”.",
+      "Przypomnijmy, że ojciec Flavia, były prezydent Jair Bolsonaro, odsiaduje obecnie wyrok 27 lat więzienia za próbę zamachu stanu po przegranych wyborach w 2022 roku.",
+      "Wówczas jego zwolennicy szturmowali budynki rządowe w Brasilii, domagając się interwencji wojska.",
+      "Gratulacje dla Luli napływają z całego świata – od przywódców Meksyku, Urugwaju, innych państw Ameryki Łacińskiej, a także od amerykańskiego senatora Berniego Sandersa."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Brazylia, oficjalnie Federacyjna Republika Brazylii – państwo w Ameryce Południowej, położone we wschodniej części kontynentu, nad Oceanem Atlantyckim. Największe i najludniejsze państwo tego kontynentu, a jednocześnie jedno z największych i najludniejszych państw świata. Zajmuje obszar 8 515 767 km², a zamieszkane jest przez 217 240 060 ludzi. Stolicą kraju jest Brasília."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Brazylia",
+     "url": "https://pl.wikipedia.org/wiki/Brazylia"
+    }
+   ],
+   "dlaczego_to_ważne": "Słowa te komentatorzy odczytali jako aluzję do napiętych relacji z USA i rosnących wpływów Waszyngtonu w regionie.",
+   "liczby": [
+    "51,8 proc.",
+    "48,2 proc.",
+    "4,4 mln",
+    "27 lat",
+    "100%",
+    "80"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "RMF24 Świat",
+     "ujęcie": "Bolsonaro znów obejmie stery w Brazylii?",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-wybory-prezydenckie-2026-w-brazylii-czy-bolsonaro-powroci,nIdn,1023302"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Brazylia",
+    "opis": "państwo w Ameryce Południowej",
+    "tekst": "Brazylia, oficjalnie Federacyjna Republika Brazylii – państwo w Ameryce Południowej, położone we wschodniej części kontynentu, nad Oceanem Atlantyckim. Największe i najludniejsze państwo tego kontynentu, a jednocześnie jedno z największych i najludniejszych państw świata. Zajmuje obszar 8 515 767 km², a zamieszkane jest przez 217 240 060 ludzi. Stolicą kraju jest Brasília.",
+    "url": "https://pl.wikipedia.org/wiki/Brazylia",
+    "język": "pl"
+   },
+   "tagi": [
+    "Brazylii",
+    "Lula",
+    "Luli",
+    "USA"
+   ],
+   "emotki": [
+    "🗳️",
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Lula wygrywa wybory w Brazylii. Bolsonaro nie uznaje porażki i podważa wyniki",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-lula-wygrywa-wybory-w-brazylii-bolsonaro-nie-uznaje-porazki-,nIdn,1023358"
+    },
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Bolsonaro znów obejmie stery w Brazylii? „Najważniejsze wybory poza USA”",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-wybory-prezydenckie-2026-w-brazylii-czy-bolsonaro-powroci,nIdn,1023302"
+    },
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Wybory w Bułgarii – są wyniki sondażu exit poll",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-wybory-w-bulgarii-sa-wyniki-sondazu-exit-poll,nIdn,1023346"
     },
     {
      "nazwa": "BBC News",
-     "tytuł": "White House lifts tariffs on some Canadian goods as midterm elections loom",
-     "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC News",
-     "tytuł": "Obama attacks Trump as he campaigns for Democrats ahead of midterm elections",
-     "url": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC News",
-     "tytuł": "The rise of AI election ads in US midterms campaign",
-     "url": "https://www.bbc.co.uk/news/videos/cm62y59zw8zko?at_medium=RSS&at_campaign=rss"
+     "tytuł": "Watch: How President Lula turned it around to beat Flávio Bolsonaro",
+     "url": "https://www.bbc.co.uk/news/videos/cmp8g0x4l11yo?at_medium=RSS&at_campaign=rss"
     },
     {
      "nazwa": "The Guardian",
-     "tytuł": "Obama rallies rapturous Michigan crowd for El-Sayed: ‘He’ll finish the job we started’",
-     "url": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan"
+     "tytuł": "Lula wins historic fourth term as Brazilian president in defeat of far-right Flávio Bolsonaro",
+     "url": "https://www.theguardian.com/world/2026/oct/26/lula-wins-brazil-election"
     },
     {
-     "nazwa": "Al Jazeera",
-     "tytuł": "Obama joins El-Sayed in Michigan rally cry before key midterms",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/obama-joins-el-sayed-in-michigan-rally-cry-before-key-midterms?traffic_source=rss"
+     "nazwa": "NPR",
+     "tytuł": "U.S. influence in Latin America at stake in runoff election in Brazil",
+     "url": "https://www.npr.org/2026/10/25/nx-s1-6011223/u-s-influence-in-latin-america-at-stake-in-runoff-election-in-brazil"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "Brazil's left-wing President Lula elected for fourth term",
+     "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election"
     }
    ],
    "liczba_źródeł": 4,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 10.502,
+    "wynik": 10.826,
     "składowe": {
      "potwierdzenia": 5.7,
-     "ranga_źródła": 2.243,
-     "eksponowanie": 0.27,
+     "ranga_źródła": 2.303,
+     "eksponowanie": 0.18,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.593,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Przedterminowe wybory w Serbii. Tłumy głosujących, część przyszła z własnymi długopisami",
+   "lead": "Niecodzienny widok to wyborcy, którzy przyszli głosować z własnymi długopisami. Wielu z nich deklaruje, że w ten sposób chcą zapobiec ewentualnym fałszerstwom.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-25T14:27:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-przedterminowe-wybory-w-serbii-tlumy-glosujacych-czesc-przys,nIdn,1023325",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/4f/c6/przed-lokalami-wyborczymi-w-belgradzie-od-rana-ustawiaja-sie-dlugie-kolejki-osob-fot-636x421-4fc624bd.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Po zaznaczeniu listy, na którą głosowałam, na wszelki wypadek przekreśliłam wszystkie pozostałe.",
+      "Przyszłam też ze swoim długopisem, gdyby w komisji dawali nam znikający atrament – mówi Maja, 40-letnia mieszkanka Belgradu.",
+      "Podobnie postąpiła Jovana, głosująca w centrum miasta, która podkreśla, że pierwszy raz widzi taką frekwencję w swojej komisji.",
+      "Oczekuję najlepszego, czyli wygranej listy studenckiej.",
+      "Jeśli wygra obecny rząd, nie uwierzę w uczciwość wyborów – dodaje.",
+      "W dniu głosowania policja zamknęła ulicę, przy której mieści się Republikańska Komisja Wyborcza.",
+      "Jasne jest, że boją się reakcji ludzi, bo już przygotowują swoje fałszerstwa – komentuje jeden z mieszkańców przy policyjnej barierce.",
+      "Organizacja pozarządowa CRTA poinformowała, że do godziny 13:00 zagłosowało już 41,1 procent uprawnionych obywateli.",
+      "Lokale wyborcze będą otwarte do godziny 20:00, a łącznie do urn może pójść ponad 6,4 miliona Serbów."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "40",
+    "13",
+    "00",
+    "41,1 procent",
+    "20",
+    "6,4 miliona"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "RMF24 Świat",
+     "ujęcie": "Obóz rządzący przegrywa wybory w Serbii, „Lista Studencka” triumfuje",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-oboz-rzadzacy-przegrywa-wybory-w-serbii-lista-studencka-triu,nIdn,1023354"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Aleksandar Vuczić Zjednoczona Serbia",
+    "Lista Studencka Studenci Zwyciężają",
+    "Republikańska Komisja Wyborcza",
+    "Niecodzienny"
+   ],
+   "emotki": [
+    "🗳️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Przedterminowe wybory w Serbii. Tłumy głosujących, część przyszła z własnymi długopisami",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-przedterminowe-wybory-w-serbii-tlumy-glosujacych-czesc-przys,nIdn,1023325"
+    },
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Obóz rządzący przegrywa wybory w Serbii, „Lista Studencka” triumfuje",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-oboz-rzadzacy-przegrywa-wybory-w-serbii-lista-studencka-triu,nIdn,1023354"
+    },
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Serbia wybrała. Koniec ery Vuczicia, „Lista Studencka” triumfuje",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-serbia-wybrala-koniec-ery-vuczicia-lista-studencka-triumfuje,nIdn,1023359"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "‘Door to EU is open’ new Serbian government told after Vučić concedes election – Europe live as it happened",
+     "url": "https://www.theguardian.com/world/live/2026/oct/25/europe-serbia-elections-aleksander-vucic-student-list-protests-bulgaria-latest-news-updates"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.871,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.672,
+     "eksponowanie": 0.0,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.589,
+     "świeżość": 0.599,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -525,85 +471,70 @@
     "emoji": "🏅",
     "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
    },
-   "nagłówek": "Ratajski fatalnie zaczął, ale odwrócił losy meczu na ME. Półfinał o krok",
-   "lead": "Krzysztof Ratajski w ostatnich latach stał się w Polsce postacią niezwykle rozpoznawalną. Nasz darter zyskał popularność dzięki swoim występom na międzynarodowej scenie.",
+   "nagłówek": "Krzysztof Ratajski - Martin Schindler w półfinale mistrzostw Europy w darcie 2026",
+   "lead": "Krzysztof Ratajski sensacyjnie rozprawił się z obecnym mistrzem świata w Luke'iem Littlerem dzięki czemu awansował do półfinału trwających obecnie mistrzostw Europy w darcie 2026. W niedzielny wieczór zmierzy się on tym samym z Martinem Schindlerem.",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-24T19:12:11+00:00",
+   "opublikowano": "2026-10-25T19:08:06+00:00",
    "źródło": {
     "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/inne-sporty/news-koszmarny-poczatek-ratajskiego-a-potem-zwrot-polak-powalczy,nId,23563407",
+    "url": "https://sport.interia.pl/inne-sporty/na-zywo-krzysztof-ratajski-martin-schindler-w-polfinale-mistrzostw-e,nzId,9351",
     "domena": "sport.interia.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000N6T99LFERKK66-C321.webp",
+   "obraz": "https://i.iplsc.com/-/000M3N1ZR2226NQU-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Największym sukcesem Ratajskiego jest triumf z 2017 roku.",
-      "Wówczas wygrał drugi najbardziej prestiżowy turniej federacji BDO - Winmau World Masters.",
-      "Skandal w meczu Ekstraklasy.",
-      "Tym zachowaniem wywołał burzę.",
-      "Trybuny wpadły w szał [WIDEO] , otwiera się w nowym oknie Polak na mistrzostwa Europy do Dortmundu jechał z pewnością z nadziejami na dobry wynik, ale było wiadomo, że nie będzie należał do grona faworytów do końcowego triumfu.",
-      "Ratajski rozpoczął dobrze.",
-      "W 1/16 finału mierzył się z Davem Chisnallem.",
-      "Dzięki temu awansował do 1/8 finału, a na tym etapie jego przeciwnikiem był Holender Kevin Doets.",
-      "Polak rozpoczął ten sobotni mecz źle."
+      "Czy Polak zdoła wywalczyć sobie awans do wielkiego finału kontynentalnego czempionatu?",
+      "Zapraszamy na relację tekstową ze spotkania Krzysztofa Ratajskiego z Martinem Schindlerem."
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Krzysztof Ratajski – polski darter, noszący przydomek The Polish Eagle. Ratajski jest zrzeszony od 2018 w federacji Professional Darts Corporation (PDC), wcześniej uczestniczył w turniejach konkurencyjnej federacji British Darts Organisation (BDO). Jego największymi sukcesami jest dwukrotne dotarcie do ćwierćfinału Mistrzostw Świata federacji PDC w 2021 i 2026. Pierwszy z ćwierćfinałów dał mu rekordowe, 14. miejsce w rankingu PDC Order of Merit. W 2017 Ratajski wygrał turniej federacji BDO World Masters."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Krzysztof Ratajski",
-     "url": "https://pl.wikipedia.org/wiki/Krzysztof_Ratajski"
     }
    ],
    "dlaczego_to_ważne": "",
-   "liczby": [
-    "16",
-    "10"
+   "liczby": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "Krzysztof Ratajski dotarł do półfinału mistrzostw Europy.",
+     "url": "https://sport.tvp.pl/96119911/krzysztof-ratajski-w-polfinale-mistrzostw-europy-wyeliminowal-lukea-littlera"
+    }
    ],
-   "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Krzysztof Ratajski",
-    "opis": "polski gracz w darta",
-    "tekst": "Krzysztof Ratajski – polski darter, noszący przydomek The Polish Eagle. Ratajski jest zrzeszony od 2018 w federacji Professional Darts Corporation (PDC), wcześniej uczestniczył w turniejach konkurencyjnej federacji British Darts Organisation (BDO). Jego największymi sukcesami jest dwukrotne dotarcie do ćwierćfinału Mistrzostw Świata federacji PDC w 2021 i 2026. Pierwszy z ćwierćfinałów dał mu rekordowe, 14. miejsce w rankingu PDC Order of Merit. W 2017 Ratajski wygrał turniej federacji BDO World Masters.",
-    "url": "https://pl.wikipedia.org/wiki/Krzysztof_Ratajski",
-    "język": "pl"
-   },
+   "tło": null,
    "tagi": [
-    "Ratajskiego",
-    "Ratajski",
-    "Doets",
-    "Winmau World Masters"
+    "Martinem Schindlerem",
+    "Europy",
+    "Ratajski Martin Schindler",
+    "Krzysztofa Ratajskiego"
    ],
    "emotki": [
-    "📈"
+    "🏅"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Interia Sport",
-     "tytuł": "Ratajski fatalnie zaczął, ale odwrócił losy meczu na ME. Półfinał o krok",
-     "url": "https://sport.interia.pl/inne-sporty/news-koszmarny-poczatek-ratajskiego-a-potem-zwrot-polak-powalczy,nId,23563407"
+     "tytuł": "Krzysztof Ratajski - Martin Schindler w półfinale mistrzostw Europy w darcie 2026",
+     "url": "https://sport.interia.pl/inne-sporty/na-zywo-krzysztof-ratajski-martin-schindler-w-polfinale-mistrzostw-e,nzId,9351"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Krzysztof Ratajski dotarł do półfinału mistrzostw Europy. Wyeliminował Luke'a Littlera",
+     "url": "https://sport.tvp.pl/96119911/krzysztof-ratajski-w-polfinale-mistrzostw-europy-wyeliminowal-lukea-littlera"
     }
    ],
-   "liczba_źródeł": 1,
+   "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.897,
+    "wynik": 5.642,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.05,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.2,
      "eksponowanie": 0.0,
-     "słowa_kluczowe": 1.4,
-     "świeżość": 0.478,
-     "treściwość": 0.469,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.492,
+     "treściwość": 0.5,
      "język_działu": 0.5
     }
    },
@@ -616,100 +547,92 @@
     "emoji": "🏅",
     "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
    },
-   "nagłówek": "Lewandowski oceniony przez Amerykanów. To brzmi jak wyrok. \"Anonimowy\"",
-   "lead": "Powoli do końca zbliża się sezon zasadniczy MLS. Z każdą kolejką poznajemy ekipy, które są pewne gry w play-offach.",
+   "nagłówek": "Tego Papszun nie przewidział. Trener Lecha zakpił z niego przed kamerami",
+   "lead": "Marek Papszun był dobrej myśli na przedmeczowej konferencji prasowej . Liczył na kolejne punkty w niedzielnym szlagierze.",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-25T02:24:36+00:00",
+   "opublikowano": "2026-10-25T17:22:13+00:00",
    "źródło": {
     "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/robert-lewandowski/news-czarne-chmury-nad-lewandowskim-tuz-po-meczu-amerykanie-wydal,nId,23563542",
+    "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/news-tego-papszun-nie-przewidzial-trener-lecha-zakpil-z-niego-prz,nId,23563702",
     "domena": "sport.interia.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000NGBVC8MHLHP3D-C321.webp",
+   "obraz": "https://i.iplsc.com/-/000NGDPZDYRYJSEL-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "W tym gronie znalazło się już również Chicago Fire z Robertem Lewandowskim w składzie.",
-      "Jeden z czterech ostatnich meczów tej fazy sezonu ekipa Gregga Berhaltera rozegrała w nocy z soboty na niedzielę .",
-      "Po drugiej stronie boiska znaleźli się gracze Atlanty United.",
-      "Od pierwszej minuty na murawie przebywał Robert Lewandowski, który chciał nie tylko pomóc drużynie w przerwaniu passy dwóch porażek z rzędu, ale również zakończyć swoją strzelecką niemoc w klubowych barwach.",
-      "Ta wynosiła już sześć spotkań .",
-      "Mimo gry przez niemal 70 minut 38-latek na liście strzelców się nie znalazł.",
-      "Choć jego ekipa wygrała 3:2 , to sam zainteresowany meczu do udanych zaliczyć nie może.",
-      "To wskazał już portal meninred97.com.",
-      "W artykule poświęconym podsumowaniu starcia wskazano, że Polak zwyczajnie zaprezentował się bez szału."
+      "I bardzo konkretnie wytłumaczył, na czym opiera swój optymizm. - Lech w tym sezonie miał uzasadnione apetyty związane z Liga Mistrzów - przypomniał szkoleniowiec Legii. - Ale przegrał w eliminacjach z przeciętną drużyną, która teraz broni się przed spadkiem.",
+      "W tych decydujących, dużych meczach Lech często zawodzi .",
+      "Była porażka z Górnikiem, były przegrane w Lidze Europy.",
+      "Czasem Lech zawodzi i liczę, że w niedzielę będzie tak samo.",
+      "Opiekun Lecha, Niels Frederiksen , nie wziął udziału we wspomnianej konferencji z uwagi na napięty harmonogram zajęć.",
+      "W czwartek \"Kolejorz\" mierzył się z Sunderlandem (1:1) w Lidze Europy.",
+      "Duńczyk stanął jednak przed kamerą krótko przed rozpoczęciem niedzielnej potyczki.",
+      "Reporterka TVP Sport przytoczyła mu słowa Papszuna sprzed dwóch dni .",
+      "I poprosiła o ustosunkowanie się do nich."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Robert Lewandowski – polski piłkarz, występujący na pozycji środkowego napastnika w amerykańskim klubie Chicago Fire. Od 2008 reprezentant Polski, w latach 2014–2025 i ponownie od 2025 kapitan reprezentacji Polski."
+      "Marek Papszun – polski piłkarz i trener piłkarski, nauczyciel. Od 2025 trener Legii Warszawa. Prowadził również Dolcan Ząbki, GKP Targówek, KS Łomianki, Legionovię Legionowo, Świt Nowy Dwór Mazowiecki i Raków Częstochowa."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Robert Lewandowski",
-     "url": "https://pl.wikipedia.org/wiki/Robert_Lewandowski"
+     "przypis": "Wikipedia: Marek Papszun",
+     "url": "https://pl.wikipedia.org/wiki/Marek_Papszun"
     }
    ],
    "dlaczego_to_ważne": "",
-   "liczby": [
-    "70",
-    "38",
-    "69",
-    "5,5",
-    "16 lat",
-    "28"
-   ],
+   "liczby": [],
    "inne_spojrzenia": [
     {
-     "źródło": "Interia Sport",
-     "ujęcie": "Transfer Roberta Lewandowskiego do Chicago Fire rozpatrywany był w kategoriach hitu.",
-     "url": "https://sport.interia.pl/robert-lewandowski/news-bez-litosci-dla-lewandowskiego-wydal-wyrok-ws-polaka-wyglada,nId,23563396"
+     "źródło": "TVP Sport",
+     "ujęcie": "Trener Lecha Poznań przekazał informacje",
+     "url": "https://sport.tvp.pl/96123540/kontuzja-mikaela-ishaka-trener-lecha-poznan-przekazal-informacje"
     }
    ],
    "pojęcia": [],
    "tło": {
-    "hasło": "Robert Lewandowski",
-    "opis": "polski piłkarz",
-    "tekst": "Robert Lewandowski – polski piłkarz, występujący na pozycji środkowego napastnika w amerykańskim klubie Chicago Fire. Od 2008 reprezentant Polski, w latach 2014–2025 i ponownie od 2025 kapitan reprezentacji Polski.",
-    "url": "https://pl.wikipedia.org/wiki/Robert_Lewandowski",
+    "hasło": "Marek Papszun",
+    "opis": "polski trener piłkarski",
+    "tekst": "Marek Papszun – polski piłkarz i trener piłkarski, nauczyciel. Od 2025 trener Legii Warszawa. Prowadził również Dolcan Ząbki, GKP Targówek, KS Łomianki, Legionovię Legionowo, Świt Nowy Dwór Mazowiecki i Raków Częstochowa.",
+    "url": "https://pl.wikipedia.org/wiki/Marek_Papszun",
     "język": "pl"
    },
    "tagi": [
-    "Robert Lewandowski",
-    "Chicago Fire",
-    "Robertem Lewandowskim",
-    "Gregga Berhaltera"
+    "Lech",
+    "Marek Papszun",
+    "Lidze Europy",
+    "Lecha Niels Frederiksen"
    ],
    "emotki": [
-    "⚽",
-    "⚖️"
+    "⚽"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Interia Sport",
-     "tytuł": "Lewandowski oceniony przez Amerykanów. To brzmi jak wyrok. \"Anonimowy\"",
-     "url": "https://sport.interia.pl/robert-lewandowski/news-czarne-chmury-nad-lewandowskim-tuz-po-meczu-amerykanie-wydal,nId,23563542"
+     "tytuł": "Tego Papszun nie przewidział. Trener Lecha zakpił z niego przed kamerami",
+     "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/news-tego-papszun-nie-przewidzial-trener-lecha-zakpil-z-niego-prz,nId,23563702"
     },
     {
-     "nazwa": "Interia Sport",
-     "tytuł": "Przykro czytać. Te słowa Amerykanów zabolą Lewandowskiego. \"Błąd\"",
-     "url": "https://sport.interia.pl/robert-lewandowski/news-bez-litosci-dla-lewandowskiego-wydal-wyrok-ws-polaka-wyglada,nId,23563396"
+     "nazwa": "TVP Sport",
+     "tytuł": "Kontuzja Mikaela Ishaka. Trener Lecha Poznań przekazał informacje",
+     "url": "https://sport.tvp.pl/96123540/kontuzja-mikaela-ishaka-trener-lecha-poznan-przekazal-informacje"
     }
    ],
-   "liczba_źródeł": 1,
+   "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.826,
+    "wynik": 4.602,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.208,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.2,
      "eksponowanie": 0.0,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.568,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.502,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -723,426 +646,502 @@
     "emoji": "🌐",
     "opis": "wielkie ligi, turnieje i rekordy poza Polską"
    },
-   "nagłówek": "Antonelli zdobywa pole US w weekend, może wygrać tytuł",
-   "lead": "Kimi Antonelli zdobywa pole position podczas Grand Prix Stanów Zjednoczonych w weekend, w którym może potencjalnie zdobyć swój pierwszy tytuł mistrza świata.",
-   "język_źródła": "en",
-   "opublikowano": "2026-10-24T22:51:51+00:00",
+   "nagłówek": "Barcelona zatrzymana na Camp Nou. Mbappe katem mistrzów Hiszpanii",
+   "lead": "Mistrzowie Hiszpanii celowali w 10. z rzędu komplet punktów . Tak udanie do rozgrywek La Liga nie przystąpiła nigdy wcześniej żadna inna drużyna.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-25T22:01:14+00:00",
    "źródło": {
-    "nazwa": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/formula1/articles/cqy7lvp7n57lo?at_medium=RSS&at_campaign=rss",
-    "domena": "bbc.co.uk"
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-barcelona-zatrzymana-na-camp-nou-mbappe-katem-mistrzow-hiszp,nId,23563743",
+    "domena": "sport.interia.pl"
    },
-   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/194c/live/7fe6e240-cff9-11f1-b0ff-614e4f91e969.jpg",
+   "obraz": "https://i.iplsc.com/-/000NGE89YJVR6MM9-C321.webp",
    "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Rekord wszech czasów miał zostać ustanowiony spektakularnie, bo w wyczekiwanym od wiosny El Clasico.",
+      "Kibice nie tylko w Hiszpanii wierzyli w kanonadę na Camp Nou.",
+      "We wcześniejszych dziewięciu potyczkach Barcelona zdobywała przecież średnio 4,33 gola na mecz.",
+      "W dodatku naprzeciw siebie stanęli dwa najlepsi w tym sezonie strzelcy ligi - Raphinha (aż do dziś 12 trafień na koncie) i Kylian Mbappe (9).",
+      "W pierwszych minutach Real oddał inicjatywę gospodarzom i niespecjalnie kwapił się do wysokiego pressingu.",
+      "Efektem były dwa celne strzały Barcelony już po kwadransie .",
+      "Za każdym razem w światło bramki uderzał Anthony Gordon, ale Andrij Łunin nie miał problemów z neutralizacją zagrożenia.",
+      "Minęło raptem pół godziny gry, gdy trener Hansi Flick zmuszony został do dokonania pierwszej zmiany.",
+      "Z powodu urazu murawę opuścił rewelacyjny w tym sezonie Xavi Espart ."
+     ]
+    },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Antonelli ma 102-punktową przewagę nad Georgem Russellem. Po niedzielnym wyścigu Kimi Antonelli zdobył pole position w Grand Prix USA z imponującym okrążeniem dla Mercedesa na torze Circuit of the Americas.",
-      "Pokonując Maxa Verstappena z Red Bull na drugim miejscu, Antonelli zrobił dokładnie to, co było wymagane, aby dać mu szansę na zamknięcie swojego pierwszego mistrzostwa świata w ten weekend.",
-      "Isack Hadjar dobrze zrobił, zdobywając trzecie miejsce dla Red Bulla, z Charlesem Leclercem i Lewisem Hamiltonem na czwartym i piątym miejscu dla Ferrari i kolegą z zespołu Mercedesa Antonelliego, Georgem Russellem na szóstym miejscu.",
-      "Pierwszy biegun Antonellego od czasu belgijskiego GP w lipcu nie mógł być lepiej wyczuwalny, ponieważ próbował zdobyć swój pierwszy tytuł.",
-      "Aby zdobyć tytuł, musi wygrać w niedzielę, a Russell musi skończyć poza pierwszą ósemką, a Hamilton poza pierwszą czwórką.",
-      "Może tylko zrobić, co w jego mocy i wie, że nawet jeśli tytuł nie zostanie tutaj zabezpieczony, na tym formularzu z pewnością zostanie to zrobione i odkurzone do następnej rundy w Meksyku. - Mamy pole, więc spróbujemy jutro wygrać - powiedział Antonelli. „Max był bardzo szybki i wykonał niesamowitą pracę w kwalifikacjach, więc nie będzie to łatwe.",
-      "Kimi Antonelli wziął pole, gdy tempo Ferrari zniknęło i każdy dostał wiatr je pod koniec Q3, aby umieścić mistrzostwo świata w zasięgu wzroku Davidson następnie prowadzi nas przez Hamilton FP3 najlepszy, który jest najszybszym legalnym okrążeniem, jakie ktokolwiek miał przez cały weekend."
+      "25 października odbyło się jedno z najbardziej polaryzujących spotkań w świecie futbolu - El Clasico.",
+      "Podczas spotkania doszło jednak do mocno kontrowersyjnej sytuacji, która mogła mieć niebagatelny wpływ na końcowy rezultat.",
+      "25 października stał się dniem piłkarskich klasyków - pod tą datą w Hiszpanii zaplanowano bowiem starcie FC Barcelona z Realem Madryt, z kolei na naszym polskim, ligowym podwórku doszło do meczu Legii Warszawa z Lechem Poznań.",
+      "Tym samym ekipa z Wielkopolski wspięła się na pozycję lidera PKO BP Ekstraklasy, mając jeden punkt zapasu nad Górnikiem Zabrze.",
+      "W 10. kolejce La Liga dojdzie do szlagieru weekendu i zarazem hitu rundy jesiennej.",
+      "Na Camp Nou naprzeciw Barcelony stanie Real Madryt (21:00)."
      ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Camp Nou, również znany pod nazwą sponsorską Spotify Camp Nou – stadion piłkarski w Barcelonie, w Katalonii, w Hiszpanii, na którym są rozgrywane mecze FC Barcelony. Jego trybuny mieszczą 99 354 osób, czyniąc go największym piłkarskim stadionem w Europie i jednym z największych na świecie. W sezonie 1998/99 UEFA przyznała Camp Nou 5 gwiazdek, jako że arena spełniała najwyższe standardy konstrukcyjne. W 2010 r., ze względu na nowe regulacje UEFA, stadion otrzymał „Kategorię 4”. Na jego trybunach widoczna jest dewiza klubu, Més que un club. Na stadionie rozgrywane są także mecze reprezentacji Katalonii w piłce nożnej, a niegdyś na murawie obiektu występowała reprezentacja Hiszpanii."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Camp Nou",
+     "url": "https://pl.wikipedia.org/wiki/Camp_Nou"
+    }
+   ],
+   "dlaczego_to_ważne": "Po raz kolejny w roli głównej wystąpił Gordon - tym razem stanął oko w oko z Łuninem, ale Ukrainiec po raz kolejny nie pozwolił się pokonać.",
+   "liczby": [
+    "10",
+    "4,33",
+    "12",
+    "41",
+    "88",
+    "25"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Sport",
+     "ujęcie": "Wbrew wielu przedmeczowym przewidywaniom, stroną dominującą był tego dnia Real Madryt.",
+     "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-w-hiszpanii-wrze-kontrowersja-w-el-clasico-to-moglo-wypaczyc,nId,23563747"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Camp Nou",
+    "opis": "Stadion piłkarski w Barcelonie, Hiszpania",
+    "tekst": "Camp Nou, również znany pod nazwą sponsorską Spotify Camp Nou – stadion piłkarski w Barcelonie, w Katalonii, w Hiszpanii, na którym są rozgrywane mecze FC Barcelony. Jego trybuny mieszczą 99 354 osób, czyniąc go największym piłkarskim stadionem w Europie i jednym z największych na świecie. W sezonie 1998/99 UEFA przyznała Camp Nou 5 gwiazdek, jako że arena spełniała najwyższe standardy konstrukcyjne. W 2010 r., ze względu na nowe regulacje UEFA, stadion otrzymał „Kategorię 4”. Na jego trybunach widoczna jest dewiza klubu, Més que un club. Na stadionie rozgrywane są także mecze reprezentacji Katalonii w piłce nożnej, a niegdyś na murawie obiektu występowała reprezentacja Hiszpanii.",
+    "url": "https://pl.wikipedia.org/wiki/Camp_Nou",
+    "język": "pl"
+   },
+   "tagi": [
+    "Camp Nou",
+    "Barcelona",
+    "Raphinha",
+    "Łunina"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Barcelona zatrzymana na Camp Nou. Mbappe katem mistrzów Hiszpanii",
+     "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-barcelona-zatrzymana-na-camp-nou-mbappe-katem-mistrzow-hiszp,nId,23563743"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "W Hiszpanii wrze. Kontrowersja w El Clasico. To mogło wypaczyć wynik",
+     "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-w-hiszpanii-wrze-kontrowersja-w-el-clasico-to-moglo-wypaczyc,nId,23563747"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Zwroty akcji godne hitu ekstraklasy. Trzy gole w starciu Legii z Lechem",
+     "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/news-trzy-gole-w-hicie-legia-lech-goracy-polski-klasyk-oto-nowy-l,nId,23563698"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Flick i Mourinho odkryli karty. Oto wyjściowe składy na El Clasico",
+     "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-pierwsze-el-clasico-w-tym-sezonie-oto-wyjsciowe-jedenastki-b,nId,23563690"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Mourinho keeps Clasico midas touch 13 years on as La Liga heats up",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cr3wvz20pglqo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "Mbappe's late strike earns Mourinho and Real Clasico glory at Barca",
+     "url": "https://www.skysports.com/football/barcelona-vs-real-madrid/report/563017"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.989,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 2.05,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.539,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Sensacyjnie wygrał z mistrzem świata. Od Niemców dostanie ogromny czek",
+   "lead": "Krzysztof Ratajski osiągnął w Polsce status żywej legendy darta. Co jakiś czas dobitnie przypomina on kibicom o swojej wielkości, osiągając kolejne kamienie milowe.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-25T17:55:39+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/inne-sporty/news-glosny-sukces-a-to-nie-koniec-tyle-ratajski-dostanie-za-poko,nId,23563711",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NGDS2UAUGQDM2-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Taka sytuacja miała miejsce między innymi 25 października.",
+      "To właśnie tego dnia reprezentant kraju nad Wisłą stoczył pojedynek z Luke'iem Littlerem .",
+      "Ratajski podejmował obecnego mistrza świata w ramach ćwierćfinału mistrzostw Europy w darcie 2026 .",
+      "Wcześniej Polak pokonał między innymi Dave'a Chisnalla (6:2) oraz Kevina Doetsa (10:8).",
+      "Początek spotkania należał do Littlera, który wygrał pierwszego lega.",
+      "Był to jednak niezwykle krótki moment chwały Anglika, bowiem... siedem kolejnych odsłon pojedynku wpadło na konto reprezentanta kraju nad Wisłą.",
+      "Ostatecznie to pasjonujące spotkanie zakończyło się przy wyniku 10:6 dla Krzysztofa Ratajskiego .",
+      "Polak w widowiskowy sposób poskromił obecnego mistrza świata, awansując do półfinału czempionatu Starego Kontynentu.",
+      "Tego typu rozstrzygnięcie to nie tylko sukces sportowy."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Liga Europy UEFA – międzynarodowy klubowy turniej piłki nożnej, organizowany przez Unię Europejskich Federacji Piłkarskich, w którym biorą udział zespoły zajmujące czołowe lokaty w narodowych rozgrywkach najwyższego szczebla, z wyłączeniem drużyn biorących udział w Lidze Mistrzów. Utworzony został w 2009 roku jako kontynuacja Pucharu UEFA."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Liga Europy UEFA",
+     "url": "https://pl.wikipedia.org/wiki/Liga_Europy_UEFA"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "102",
-    "125",
-    "20",
-    "34.035",
-    "6.30",
-    "25 5"
+    "25",
+    "10",
+    "50.000",
+    "262.000 zł",
+    "80.000",
+    "420.000 zł"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Liga Europy UEFA",
+    "opis": "międzynarodowy klubowy turniej piłki nożnej",
+    "tekst": "Liga Europy UEFA – międzynarodowy klubowy turniej piłki nożnej, organizowany przez Unię Europejskich Federacji Piłkarskich, w którym biorą udział zespoły zajmujące czołowe lokaty w narodowych rozgrywkach najwyższego szczebla, z wyłączeniem drużyn biorących udział w Lidze Mistrzów. Utworzony został w 2009 roku jako kontynuacja Pucharu UEFA.",
+    "url": "https://pl.wikipedia.org/wiki/Liga_Europy_UEFA",
+    "język": "pl"
+   },
    "tagi": [
-    "United States Grand Prix",
-    "Kimi Antonelli"
+    "Europy",
+    "Wisłą",
+    "Krzysztof Ratajski",
+    "Polaka"
    ],
    "emotki": [
-    "🏎️"
+    "🏅"
    ],
    "wszystkie_źródła": [
     {
+     "nazwa": "Interia Sport",
+     "tytuł": "Sensacyjnie wygrał z mistrzem świata. Od Niemców dostanie ogromny czek",
+     "url": "https://sport.interia.pl/inne-sporty/news-glosny-sukces-a-to-nie-koniec-tyle-ratajski-dostanie-za-poko,nId,23563711"
+    },
+    {
      "nazwa": "BBC Sport",
-     "tytuł": "Antonelli takes US pole on weekend he can win title",
-     "url": "https://www.bbc.co.uk/sport/formula1/articles/cqy7lvp7n57lo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "The Guardian Sport",
-     "tytuł": "Kimi Antonelli seizes F1 US GP pole and chance to seal first world title",
-     "url": "https://www.theguardian.com/sport/2026/oct/24/kimi-antonelli-seizes-f1-us-gp-pole-and-chance-to-seal-first-world-title"
-    },
-    {
-     "nazwa": "The Guardian Sport",
-     "tytuł": "United States Grand Prix: Kimi Antonelli takes pole – as it happened",
-     "url": "https://www.theguardian.com/sport/live/2026/oct/24/united-states-grand-prix-formula-one-qualifying-live"
-    },
-    {
-     "nazwa": "The Guardian Football",
-     "tytuł": "Premier League, Antonelli goes for F1 title, plus WSL and clásico action – follow with us",
-     "url": "https://www.theguardian.com/sport/2026/oct/23/premier-league-antonelli-goes-for-f1-title-plus-wsl-and-clasico-action-follow-with-us"
+     "tytuł": "Smith holds on to beat Schindler in Euros final",
+     "url": "https://www.bbc.co.uk/sport/darts/articles/cv5yn4w8x378o?at_medium=RSS&at_campaign=rss"
     },
     {
      "nazwa": "Sky Sports",
-     "tytuł": "'Not realistic' - Can Wolff's assessment of Antonelli's title chance be trusted?",
-     "url": "https://www.skysports.com/f1/news/12040/13603166/united-states-gp-how-likely-is-pole-sitter-kimi-antonelli-to-win-2026-f1-drivers-championship-on-sunday-in-austin"
-    },
-    {
-     "nazwa": "Sky Sports",
-     "tytuł": "Antonelli takes surprise pole to boost chances of sealing title in USA",
-     "url": "https://www.skysports.com/f1/news/12040/13603149/united-states-gp-qualifying-kimi-antonelli-beats-max-verstappen-to-surprise-pole-to-boost-chances-of-sealing-maiden-f1-title-on-sunday"
+     "tytuł": "Smith beats Schindler in Dortmund thriller after Littler's QF exit",
+     "url": "https://www.skysports.com/darts/news/12040/13603670/european-championship-darts-ross-smith-beats-martin-schindler-to-dortmund-title-after-luke-littlers-quarter-final-exit"
     }
    ],
    "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 9.826,
+    "wynik": 8.512,
     "składowe": {
      "potwierdzenia": 3.8,
-     "ranga_źródła": 2.118,
-     "eksponowanie": 1.8,
+     "ranga_źródła": 1.6,
+     "eksponowanie": 0.54,
      "słowa_kluczowe": 1.05,
-     "świeżość": 0.558,
+     "świeżość": 0.522,
      "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Ten gramofon kosztuje tyle, co samochód. Sprawdź samodzielnie po co mu magnetyczna lewitacja",
+   "lead": "Ten gramofon kosztuje tyle, co samochód. Sprawdź samodzielnie po co mu magnetyczna lewitacja",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-25T12:16:00+00:00",
+   "źródło": {
+    "nazwa": "Spider's Web",
+    "url": "https://spidersweb.pl/2026/10/audio-video-show-2026-esoteric-t-01.html",
+    "domena": "spidersweb.pl"
+   },
+   "obraz": "https://cdn-sw.spidersweb.pl/2026/10/audio-video-show-2026-esoteric-t-01.webp",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Niezwykły egzemplarz Pokémon Red, jednej z najważniejszych gier w historii, pojawił się na aukcji z ceną, która zwala z nóg.",
+      "Choć firma PSA (lider branży zajmujący się niezależną weryfikacją autentyczności oraz oceną stanu kart sportowych, kolekcjonerskich i innych przedmiotów kolekcjonerskich) uznała go za autentyczny egzemplarz, nie udało się odczytać całej zapisanej na nim zawartości.",
+      "Egzemplarz wystawiony na aukcji Goldin obecnie wyceniony jest na 40 tys. dolarów, czyli w bezpośrednim przeliczeniu daje niecałe 158 tys. zł.",
+      "Moduł deweloperski wyposażono w pamięć flash i oznaczenia identyfikacyjne DMG-(F)KGDB-01 oraz DMB-MBC-16M-FLASH."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "40 tys.",
+    "158 tys. zł",
+    "01",
+    "16",
+    "32",
+    "55"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Spider's Web",
+     "tytuł": "Ten gramofon kosztuje tyle, co samochód. Sprawdź samodzielnie po co mu magnetyczna lewitacja",
+     "url": "https://spidersweb.pl/2026/10/audio-video-show-2026-esoteric-t-01.html"
+    },
+    {
+     "nazwa": "Antyweb",
+     "tytuł": "Ta gra Pokémon kosztuje tyle co samochód. Nikt nie zna jej pełnej zawartości",
+     "url": "https://antyweb.pl/ta-gra-pokemon-kosztuje-tyle-co-samochod-nikt-nie-zna-jej-zawartosci"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.106,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.135,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.416,
+     "treściwość": 0.155,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Google usuwa konta Gmail. Sprawdź, co zrobić, by nie stracić swojego",
+   "lead": "Google usuwa nieużywane konta, a konsekwencje mogą być znacznie poważniejsze, niż tylko utrata dostępu do poczty elektronicznej. Wraz z kontem Google można stracić wiadomości z Gmaila, pliki na Dysku Google, multimedia przechowywane w usłudze Zdjęcia oraz inne zgromadzone dane.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-25T08:00:08+00:00",
+   "źródło": {
+    "nazwa": "Antyweb",
+    "url": "https://antyweb.pl/google-usuwa-konta-gmail-sprawdz-co-zrobic-by-nie-stracic-swojego",
+    "domena": "antyweb.pl"
+   },
+   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2026/05/Google-logo.jpeg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Zasada obowiązuje w przypadku prywatnych kont, które pozostają nieaktywne przez co najmniej dwa lata.",
+      "Google przed usunięciem wysyła ostrzeżenia, dlatego warto upewnić się, że nie przegapimy powiadomienia dotyczącego starego adresu e-mail.",
+      "Polityka nieaktywnych kont Google obowiązuje od 2023 roku.",
+      "Firma uzasadnia ją przede wszystkim względami bezpieczeństwa.",
+      "Konta, z których nikt od dawna nie korzysta, często nie mają włączonego uwierzytelniania dwuskładnikowego i mogą być zabezpieczone słabymi hasłami.",
+      "W efekcie stają się łatwiejszym celem dla cyberprzestępców, którzy mogą wykorzystać je do kradzieży danych lub podszywania się pod właściciela.",
+      "Google zastrzega sobie prawo do usunięcia konta, jeśli przez dwa lata nie wykazuje ono aktywności.",
+      "Firma zapowiada wcześniejsze powiadomienia wysyłane na nieaktywne konto oraz na przypisany do niego adres odzyskiwania, o ile został skonfigurowany.",
+      "Najprostsze rozwiązanie to regularne korzystanie z konta Google."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Gmail – bezpłatny serwis webmail stworzony i rozwijany przez przedsiębiorstwo Google. W październiku 2018 roku miał 1,5 mld użytkowników na całym świecie."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Gmail",
+     "url": "https://pl.wikipedia.org/wiki/Gmail"
+    }
+   ],
+   "dlaczego_to_ważne": "Nie oznacza to jednak, że po upływie dokładnie 24 miesięcy każdy użytkownik automatycznie straci dostęp do swoich danych.",
+   "liczby": [
+    "24"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Gmail",
+    "opis": "usługa poczty elektronicznej Google",
+    "tekst": "Gmail – bezpłatny serwis webmail stworzony i rozwijany przez przedsiębiorstwo Google. W październiku 2018 roku miał 1,5 mld użytkowników na całym świecie.",
+    "url": "https://pl.wikipedia.org/wiki/Gmail",
+    "język": "pl"
+   },
+   "tagi": [
+    "Google",
+    "Dysku Google",
+    "Gmail",
+    "Zdjęcia Google"
+   ],
+   "emotki": [
+    "💻"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Antyweb",
+     "tytuł": "Google usuwa konta Gmail. Sprawdź, co zrobić, by nie stracić swojego",
+     "url": "https://antyweb.pl/google-usuwa-konta-gmail-sprawdz-co-zrobic-by-nie-stracic-swojego"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 2.588,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 0.9,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.338,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Nadprąd umożliwia odczyt informacji kwantowych bez ich niszczenia",
+   "lead": "Jednym z fundamentalnych wyzwań obliczeń kwantowych jest uzyskiwanie informacji z bitu kwantowego, czyli kubitu. W przeciwieństwie do konwencjonalnego bitu, który można odczytywać wielokrotnie bez zmiany jego zawartości, bezpośredni pomiar układu kwantowego zwykle powoduje zapadnięcie się stanu, zanim można go określić.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-25T19:00:20+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-10-supercurrent-enables-quantum-destroying.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/supercurrent-enables-t.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nowe badanie proponuje obejście tego problemu poprzez zastosowanie unikalnej właściwości pewnego typu kubitu zwanego „kubitem Andriejewa.„ Ten kubit wytwarza oscylujący nadprąd elektryczny poprzez własną dynamikę kwantową.",
+      "Ten nadprąd służyłby jako makroskopowy wskaźnik stanu kubitu, umożliwiając jego rekonstrukcję w sposób praktycznie nieniszczący.",
+      "Badanie zostało opublikowane w czasopiśmie Physical Review B i było prowadzone przez José Carlosa Eguesa, profesora zwyczajnego w São Carlos Institute of Physics na Uniwersytecie w São Paulo (IFSC-USP) w Brazylii oraz Yugui Yao ze Szkoły Fizyki w Pekin Institute of Technology w Chinach.",
+      "Zdaniem autorów metoda ta mogłaby wyeliminować potrzebę ancillas, kubitów pomocniczych wykorzystywanych w obecnych technikach niedestrukcyjnego odczytu kwantowego.",
+      "Podczas gdy bit klasyczny może mieć tylko 0 lub 1, kubit może istnieć w różnych superpozycjach tych dwóch stanów.",
+      "Właściwość ta daje obliczeniom kwantowym niektóre z ich najpotężniejszych cech, ale także sprawia, że informacje są niezwykle podatne na interakcję z otoczeniem i samym procesem pomiaru.",
+      "„W konwencjonalnym sformułowaniu mechaniki kwantowej pomiar rzutowy powoduje, że układ przyjmuje jeden ze stanów związanych z mierzoną wielkością.",
+      "Tak więc, jeśli kubit został przygotowany w pewnej superpozycji 0 i 1, jego bezpośredni pomiar ma tendencję do niszczenia tej superpozycji, a w konsekwencji zawartych w niej informacji ” - mówi Egues.",
+      "Aby przezwyciężyć tę trudność, opracowano „kwantowe pomiary nieniszczące” (ang. quantum nondemolition measurements, QND)."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Josephson to nazwisko patronimiczne oznaczające „syn Józefa”. Do znanych osób o nazwisku należą:Andy Josephson, amerykański prawnik i polityk Brian David Josephson, walijski fizyk Duane Josephson (1942-1997), amerykański baseballista Erland Josephson (1923–2012), szwedzki aktor i pisarz Erik Josephson (1864–1929), szwedzki architekt Ernst Josephson (1851-1906), szwedzki malarz Ian Josephson, kanadyjski sędzia Julien Josephson (1881–1959), amerykańska scenarzystka filmowa Karen Josephson, amerykański pływak Les Josephson (1942–2020), amerykański piłkarz Mark Josephson (1943–2017), amerykański elektrofizjolog Matthew Josephson (1899–1978), amerykańska dziennikarka i pisarka Samantha Josephson, amerykańska ofiara morderstwa Sarah Josephson, amerykański pływak Timothy Josephson, amerykański polityk Mark Josephson (przedsiębiorca), amerykański przedsiębiorca i trener wykonawczy"
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Josephson",
+     "url": "https://en.wikipedia.org/wiki/Josephson"
+    }
+   ],
+   "dlaczego_to_ważne": "Słowo „ancilla” pochodzi z łaciny i oznacza „niewolnika” lub „sługę”. „Dziś, mówiąc w przenośni, termin ten jest używany w odniesieniu do czegoś, co służy innej rzeczy.",
+   "liczby": [
+    "100,000",
+    "99.52%",
+    "99.81%",
+    "99.85%",
+    "10.1103"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Josephson",
+    "opis": "Surname list",
+    "tekst": "Josephson is a patronymic surname meaning \"son of Joseph\". Notable people with the surname include:Andy Josephson, American lawyer and politician Brian David Josephson, Welsh physicist Duane Josephson (1942–1997), American baseball player Erland Josephson (1923–2012), Swedish actor and author Erik Josephson (1864–1929), Swedish architect Ernst Josephson (1851–1906), Swedish painter Ian Josephson, Canadian judge Julien Josephson (1881–1959), American motion picture screenwriter Karen Josephson, American swimmer Les Josephson (1942–2020), American football player Mark Josephson (1943–2017), American cardiac electrophysiologist Matthew Josephson (1899–1978), American journalist and author Samantha Josephson, American murder victim Sarah Josephson, American swimmer Timothy Josephson, American politician Mark Josephson (entrepreneur), American entrepreneur and Executive coach",
+    "url": "https://en.wikipedia.org/wiki/Josephson",
+    "język": "en"
+   },
+   "tagi": [
+    "Andreev",
+    "Egues",
+    "Physical Review",
+    "Josephson"
+   ],
+   "emotki": [
+    "⚛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Supercurrent enables the reading of quantum information without destroying it",
+     "url": "https://phys.org/news/2026-10-supercurrent-enables-quantum-destroying.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.369,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.475,
+     "treściwość": 0.444,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Antonelli takes US pole on weekend he can win title",
+   "oryginalny_nagłówek": "Supercurrent enables the reading of quantum information without destroying it",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
    },
    "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "sport-swiat",
-    "nazwa": "Sport na świecie",
-    "emoji": "🌐",
-    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
-   },
-   "nagłówek": "Kłopoty Realu przed El Clasico. Trudna sytuacja Mourinho, są powody do obaw",
-   "lead": "Seria czterech zwycięstw z rzędu. Dwa z nich wymęczone (z Villarrealem i Romą) ale dwa bardzo pewne (z Sevillą i RB Lipsk ).",
-   "język_źródła": "pl",
-   "opublikowano": "2026-10-25T04:30:02+00:00",
-   "źródło": {
-    "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-klopoty-realu-przed-el-clasico-trudna-sytuacja-mourinho-musi,nId,23563190",
-    "domena": "sport.interia.pl"
-   },
-   "obraz": "https://i.iplsc.com/-/000NG9VBFCHEIFLS-C321.webp",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Mogłoby się wydawać, że jest to wręcz wymarzony moment dla Realu Madryt, aby rozegrać El Clasico .",
-      "Moment nie jest, co prawda, najgorszy z możliwych, ale do wymarzonego nadal wiele brakuje.",
-      "Cień na całą sytuację rzuca bowiem dyspozycja Realu Madryt na przestrzeni całego sezonu.",
-      "W drużynie Los Blancos wciąż nie udało się rozwiązać wielu poważnych problemów, co z pewnością nie ułatwi w wywalczeniu zadowalającego wyniku na Camp Nou.",
-      "W swoim pierwszym El Clasico w 2010 roku Jose Mourinho przegrał z Barceloną Pepa Guardioli 0:5.",
-      "Teraz Portugalczyk przystępuje do swojego kolejnego \"pierwszego\" klasyku.",
-      "Kibice Realu Madryt mają nadzieję, że tym razem uda się uniknąć takiego blamażu.",
-      "A mają uzasadnione powody do obaw, biorać pod uwagę to, jak oba zespoły wyglądają od początku sezonu 2026/27.",
-      "Jose Mourinho zaczyna w końcu wystawiać poszczególnych piłkarzy na odpowiednich pozycjach."
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "El Clasico zbliża się wielkimi krokami - już w najbliższą niedzielę oczy całego piłkarskiego świata zwrócą się ku Katalonii, gdzie FC Barcelona podejmie swych najzacieklejszych rywali z Realu Madryt.",
-      "Wygląda przy tym na to, że trener Hansi Flick szykuje pewną niespodziankę - szeregi jego kadry ma zasilić gracz, który doczekał się już miana \"perły z La Masii\".",
-      "Dziś Barcelona ma bardzo zgrany zespół, z kolei Real to indywidualności, więc spodziewam się bardzo ciekawego widowiska - mówi przed niedzielnym El Clasico (godz.",
-      "21) Mariusz Pawełek, były bramkarz Wisły Kraków, która 18 lat temu pokonała Katalończyków."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "El Clásico – mecz piłkarski rozgrywany pomiędzy FC Barceloną a Realem Madryt, dwoma najbardziej utytułowanymi hiszpańskimi klubami."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: El Clásico",
-     "url": "https://pl.wikipedia.org/wiki/El_Cl%C3%A1sico"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "27",
-    "60",
-    "70",
-    "21",
-    "00",
-    "23"
-   ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "Interia Sport",
-     "ujęcie": "- Magia Camp Nou jest niesamowita.",
-     "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-polak-wystapil-na-camp-nou-i-ogral-barcelone-to-sie-w-glowie,nId,23563346"
-    }
-   ],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "El Clásico",
-    "opis": "rywalizacja między Realem Madryt i FC Barceloną",
-    "tekst": "El Clásico – mecz piłkarski rozgrywany pomiędzy FC Barceloną a Realem Madryt, dwoma najbardziej utytułowanymi hiszpańskimi klubami.",
-    "url": "https://pl.wikipedia.org/wiki/El_Cl%C3%A1sico",
-    "język": "pl"
-   },
-   "tagi": [
-    "El Clasico",
-    "Realu Madryt",
-    "Jose Mourinho",
-    "Mourinho"
-   ],
-   "emotki": [
-    "🏛️"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Kłopoty Realu przed El Clasico. Trudna sytuacja Mourinho, są powody do obaw",
-     "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-klopoty-realu-przed-el-clasico-trudna-sytuacja-mourinho-musi,nId,23563190"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Sensacyjny ruch Flicka. Roszada przed El Clasico. Ma zaledwie 17 lat",
-     "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-padlo-sensacyjne-nazwisko-kluczowa-decyzja-flicka-wzmocnieni,nId,23563400"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Jedyna taka porażka Barcelony. Sensacyjni Polacy. \"W głowie się nie mieści”",
-     "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-polak-wystapil-na-camp-nou-i-ogral-barcelone-to-sie-w-glowie,nId,23563346"
-    },
-    {
-     "nazwa": "The Guardian Football",
-     "tytuł": "Older, calmer, but still playing the hits: Mourinho and Madrid primed for clásico",
-     "url": "https://www.theguardian.com/football/2026/oct/24/la-liga-clasico-barcelona-real-madrid-jose-mourinho"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 5.344,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.5,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.594,
-     "treściwość": 0.5,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 2
-  },
-  {
-   "dział": {
-    "id": "technologia",
-    "nazwa": "Technologia i nauka",
-    "emoji": "🧪",
-    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
-   },
-   "nagłówek": "Nowy MacBook już za kilka dni. Przecieki nie napawają optymizmem",
-   "lead": "Apple szykuje jedną z największych zmian w historii MacBooka Pro od czasu przeprojektowania laptopów w 2021 roku. Nowa generacja ma otrzymać ekran OLED, obsługę dotyku, smuklejszą obudowę i Dynamic Island zamiast charakterystycznego wcięcia w wyświetlaczu.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-10-24T08:30:59+00:00",
-   "źródło": {
-    "nazwa": "Antyweb",
-    "url": "https://antyweb.pl/nowy-macbook-juz-za-kilka-dni-przecieki-nie-napawaja-optymizmem",
-    "domena": "antyweb.pl"
-   },
-   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2026/04/macbook-odpowiedniki-popularnych-aplikacji-z-windows-3.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Jest jednak jeden problem: jak wynika z dotychczasowych przecieków, wydajność urządzenia może pozostać praktycznie bez zmian.",
-      "Wszystko przez decyzję o wykorzystaniu znanych już procesorów M5 Pro i M5 Max zamiast układów nowej generacji.",
-      "Największą nowością ma być zmiana technologii wyświetlacza.",
-      "Obecne modele wykorzystują ekran mini-LED, natomiast nadchodząca generacja ma przejść na OLED.",
-      "Taka matryca pozwala uzyskać najczarniejszą czerń, ponadto oferuje wysoki kontrast i bardzo dobrą reprodukcję kolorów.",
-      "Powinna więc zainteresować przede wszystkim osoby pracujące z fotografią, wideo i grafiką.",
-      "Oznaczałoby to istotną zmianę filozofii obsługi komputerów firmy, które przez lata opierały się na klawiaturze, gładziku i tradycyjnym interfejsie macOS.",
-      "Charakterystyczne wcięcie w ekranie może natomiast ustąpić miejsca Dynamic Island, rozwiązaniu znanemu z iPhone'ów.",
-      "Nowy projekt ma być dostępny w wariantach z ekranami o przekątnej 14 i 16 cali."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "MacBook – seria laptopów z rodziny Macintosh wyprodukowanych i wydawanych przez firmę Apple Inc. Rodzina komputerów MacBook jest następcą serii iBook. Pierwsza seria została wprowadzona na rynek 16 maja 2006. MacBook bazuje na procesorze Intel Core 2 Duo i dostępny jest w dwóch konfiguracjach zegara: 2.1 GHz oraz 2,4 GHz. W przeciwieństwie do poprzednika, który dostępny był jedynie w kolorze białym, MacBook dostępny był w kolorach czarnym lub białym, lecz produkcję czarnych wstrzymano po wprowadzeniu modelu Unibody. MacBook towarzyszy linii profesjonalnych laptopów MacBook Pro. 20 lipca 2011 roku Apple zakończyło produkcje MacBooków. W roku 2015 Apple wznowiło serię MacBook i uzupełniono ją o wersję 12\" w czterech kolorach: srebrnym, szarym, złotym i rose gold. Nowy MacBook pozbawiony został wentylatorów, na co pozwoliła implementacja procesora Intel Core M."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: MacBook",
-     "url": "https://pl.wikipedia.org/wiki/MacBook"
-    }
-   ],
-   "dlaczego_to_ważne": "Apple ma po raz pierwszy wprowadzić do MacBooka Pro ekran dotykowy.",
-   "liczby": [
-    "14",
-    "16",
-    "2999",
-    "28",
-    "27"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "MacBook",
-    "opis": "",
-    "tekst": "MacBook – seria laptopów z rodziny Macintosh wyprodukowanych i wydawanych przez firmę Apple Inc. Rodzina komputerów MacBook jest następcą serii iBook. Pierwsza seria została wprowadzona na rynek 16 maja 2006. MacBook bazuje na procesorze Intel Core 2 Duo i dostępny jest w dwóch konfiguracjach zegara: 2.1 GHz oraz 2,4 GHz. W przeciwieństwie do poprzednika, który dostępny był jedynie w kolorze białym, MacBook dostępny był w kolorach czarnym lub białym, lecz produkcję czarnych wstrzymano po wprowadzeniu modelu Unibody. MacBook towarzyszy linii profesjonalnych laptopów MacBook Pro. 20 lipca 2011 roku Apple zakończyło produkcje MacBooków. W roku 2015 Apple wznowiło serię MacBook i uzupełniono ją o wersję 12\" w czterech kolorach: srebrnym, szarym, złotym i rose gold. Nowy MacBook pozbawiony został wentylatorów, na co pozwoliła implementacja procesora Intel Core M.",
-    "url": "https://pl.wikipedia.org/wiki/MacBook",
-    "język": "pl"
-   },
-   "tagi": [
-    "Pro",
-    "Max",
-    "MacBooka Pro",
-    "MacBook Pro"
-   ],
-   "emotki": [
-    "💻"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Antyweb",
-     "tytuł": "Nowy MacBook już za kilka dni. Przecieki nie napawają optymizmem",
-     "url": "https://antyweb.pl/nowy-macbook-juz-za-kilka-dni-przecieki-nie-napawaja-optymizmem"
-    },
-    {
-     "nazwa": "The Verge",
-     "tytuł": "I hope Apple’s touchscreen MacBook takes some lessons from this Lenovo laptop",
-     "url": "https://www.theverge.com/report/1018131/apple-macbook-touchscreen-stylus-pencil-lenovo-laptop-analysis"
-    },
-    {
-     "nazwa": "The Verge",
-     "tytuł": "What to expect from Apple’s ‘Pro and tell’ event",
-     "url": "https://www.theverge.com/tech/1018169/what-to-expect-apple-pro-and-tell-event-touchscreen-macbook-pro"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 5.649,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.343,
-     "eksponowanie": 0.99,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.416,
-     "treściwość": 0.5,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "technologia",
-    "nazwa": "Technologia i nauka",
-    "emoji": "🧪",
-    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
-   },
-   "nagłówek": "Google zmienia zasady. Zajrzy do skrzynki Gmail aby dopasować reklamy",
-   "lead": "Google przygotowuje grunt pod głębszą integrację sztucznej inteligencji ze swoimi usługami i w tym celu zmienia polityką prywatności. Usługa Personal Intelligence ma na celu ułatwienie codziennego korzystania z wyszukiwarki oraz asystenta Gemini poprzez bezpośrednią analizę treści przechowywanych w naszych prywatnych…",
-   "język_źródła": "pl",
-   "opublikowano": "2026-10-24T11:00:02+00:00",
-   "źródło": {
-    "nazwa": "Antyweb",
-    "url": "https://antyweb.pl/google-zmienia-zasady-zajrzy-do-skrzynki-gmail-aby-dopasowac-reklamy",
-    "domena": "antyweb.pl"
-   },
-   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2026/09/google-gemini.png",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Zamiast udzielania generycznych odpowiedzi, cyfrowy asystent będzie mógł na przykład wyciągnąć szczegóły rezerwacji hotelowej z wiadomości e-mail i automatycznie zasugerować restauracje znajdujące się w pobliżu.",
-      "Choć brzmi to jak potężne ułatwienie życia, niesie za sobą istotny kompromis w obszarze prywatności.",
-      "Wraz z wdrażaniem nowej technologii gigant zaktualizował swoją politykę prywatności .",
-      "Zgodnie z nowymi zapisami, zawartość poczty, zdjęć czy dysku nadal nie jest domyślnie używana do personalizowania reklam.",
-      "Kluczowy wyjątek dotyczy jednak sytuacji, w której użytkownik dobrowolnie zdecyduje się połączyć te prywatne aplikacje z usługami Google .",
-      "Wyrażenie zgody na działanie Personal Intelligence może więc sprawić, że dane udostępnione w celu uzyskania sprawniejszych odpowiedzi posłużą również systemom reklamowym do jeszcze dokładniejszego profilowania naszych opinii i potrzeb.",
-      "Choć firma podkreśla, że nie sprzedaje danych osobowych i nie analizuje automatycznie całej zawartości skrzynek bez naszej zgody, granica między inteligentnym asystentem, a targetowaniem reklam zaczyna się niebezpiecznie zacierać.",
-      "Obecnie mieszkańcy Unii Europejskiej, w tym użytkownicy w Polsce, nie muszą jeszcze podejmować natychmiastowych działań, ponieważ usługa Personal Intelligence nie została u nas oficjalnie udostępniona.",
-      "Wejście tego rozwiązania na rynek europejski pozostaje jednak kwestią czasu, dlatego warto zachować czujność przy ponownym akceptowaniu regulaminów polityki prywatności."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Google LLC – amerykańskie przedsiębiorstwo informatyczne. Sztandarowym produktem spółki jest wyszukiwarka Google, a deklarowaną misją – „uporządkowanie światowych zasobów informacji tak, by stały się powszechnie dostępne i użyteczne dla każdego”."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Google",
-     "url": "https://pl.wikipedia.org/wiki/Google"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Google",
-    "opis": "amerykańskie przedsiębiorstwo",
-    "tekst": "Google LLC – amerykańskie przedsiębiorstwo informatyczne. Sztandarowym produktem spółki jest wyszukiwarka Google, a deklarowaną misją – „uporządkowanie światowych zasobów informacji tak, by stały się powszechnie dostępne i użyteczne dla każdego”.",
-    "url": "https://pl.wikipedia.org/wiki/Google",
-    "język": "pl"
-   },
-   "tagi": [
-    "Personal Intelligence",
-    "Google",
-    "Gmail Zdjęcia Google",
-    "Unii Europejskiej"
-   ],
-   "emotki": [
-    "💻"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Antyweb",
-     "tytuł": "Google zmienia zasady. Zajrzy do skrzynki Gmail aby dopasować reklamy",
-     "url": "https://antyweb.pl/google-zmienia-zasady-zajrzy-do-skrzynki-gmail-aby-dopasowac-reklamy"
-    },
-    {
-     "nazwa": "Ars Technica",
-     "tytuł": "Updated Google privacy policy says your Gmail might be used for advertising",
-     "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 4.866,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.385,
-     "eksponowanie": 0.54,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.375,
-     "treściwość": 0.166,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 2
   },
   {
    "dział": {
@@ -1222,13 +1221,13 @@
    "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.775,
+    "wynik": 3.295,
     "składowe": {
      "potwierdzenia": 0.0,
      "ranga_źródła": 1.2,
-     "eksponowanie": 0.9,
+     "eksponowanie": 0.72,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.475,
+     "świeżość": 0.175,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
@@ -1238,104 +1237,6 @@
     "z": "en",
     "silnik": "MyMemory"
    },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "fizyka",
-    "nazwa": "Fizyka",
-    "emoji": "⚛️",
-    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
-   },
-   "nagłówek": "„Cyklotron jednopozycyjny” może przetestować kluczowe przewidywania Modelu Standardowego",
-   "lead": "Pozyton jest antymateryjnym odpowiednikiem elektronu, o identycznej masie, ale przenoszącym równy i przeciwny ładunek elektryczny. Podobnie jak elektron, zachowuje się również jak mały magnes prętowy i zgodnie z kluczową prognozą Standardowego Modelu fizyki cząstek elementarnych, jego moment magnetyczny powinien być dokładnie równy i…",
-   "język_źródła": "en",
-   "opublikowano": "2026-10-24T17:20:02+00:00",
-   "źródło": {
-    "nazwa": "Phys.org",
-    "url": "https://phys.org/news/2026-10-positron-cyclotron-key-standard.html",
-    "domena": "phys.org"
-   },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/one-positron-cyclotron-2.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Poprzez nowe badania opublikowane w Physical Review Letters , Gerald Gabrielse i współpracownicy z Northwestern University w Illinois ujawnili obiecujący nowy sposób testowania tego założenia, poprzez uwięzienie pojedynczego pozytronu w „cyklotronie kwantowym.„ Prognoza wynika z zasady zwanej symetrią CPT.",
-      "Stwierdza, że gdybyśmy zamienili każdą cząstkę na jej antycząstkę (C), odwrócili wszechświat do jego lustrzanego odbicia (P) i cofnęli czas (T), wszystko naraz, prawa fizyki pozostałyby niezmienione.",
-      "W tym procesie obserwatorzy tacy jak my prawdopodobnie nawet by tego nie zauważyli.",
-      "Jednym z najbardziej czułych testów tej zasady byłoby porównanie momentu magnetycznego pozytronu z momentem elektronu.",
-      "Gdyby między tymi dwiema wartościami pojawiła się jakakolwiek różnica, wskazywałoby to na nową fizykę wykraczającą poza Model Standardowy.",
-      "Jednak podczas gdy pomiary elektronów osiągnęły dokładność około 1 części na 10 bilionów, najlepsze porównanie pozytonów jest o kilka rzędów wielkości mniej precyzyjne.",
-      "Główną przeszkodą jest umieszczenie pozytronu w środowisku odizolowanym i wystarczająco zimnym, aby umożliwić znacznie bardziej precyzyjne pomiary.",
-      "W swoim badaniu zespół Gabrielse podjął to wyzwanie, pobierając pozytony z radioaktywnego źródła sodu, które wyrzuca je z ekstremalnie dużymi prędkościami, a następnie dramatycznie je spowalniając.",
-      "Aby zamknąć pojedynczy pozyton, najpierw pozwolili mu połączyć się z elektronem, tworząc elektrycznie neutralny atom zwany pozytonium, który został rozerwany wewnątrz pułapki, pozostawiając pozyton za sobą."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Standardowy Model fizyki cząstek to teoria opisująca trzy z czterech znanych sił podstawowych we wszechświecie i klasyfikująca wszystkie znane cząstki elementarne. Została opracowana etapami w drugiej połowie XX wieku, dzięki pracy wielu naukowców na całym świecie, a obecne sformułowanie zostało sfinalizowane w połowie lat 70. po eksperymentalnym potwierdzeniu istnienia kwarków. Od tego czasu dowód kwarku górnego (1995), neutrino tau (2000) i bozon Higgsa (2012) dodały modelowi standardowemu dodatkowej wiarygodności. Ponadto Model Standardowy z dużą dokładnością przewidział różne właściwości słabych prądów neutralnych oraz bozonów W i Z."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Standard Model",
-     "url": "https://en.wikipedia.org/wiki/Standard_Model"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "10 trillion",
-    "30",
-    "10.1103",
-    "2605.08147"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Standard Model",
-    "opis": "Theory of forces and subatomic particles",
-    "tekst": "The Standard Model of particle physics is the theory describing three of the four known fundamental forces in the universe and classifying all known elementary particles. It was developed in stages throughout the latter half of the 20th century, through the work of many scientists worldwide, with the current formulation being finalized in the mid-1970s upon experimental confirmation of the existence of quarks. Since then, proof of the top quark (1995), the tau neutrino (2000), and the Higgs boson (2012) have added further credence to the Standard Model. In addition, the Standard Model has predicted with great accuracy the various properties of weak neutral currents and the W and Z bosons.",
-    "url": "https://en.wikipedia.org/wiki/Standard_Model",
-    "język": "en"
-   },
-   "tagi": [
-    "Standard Model",
-    "Physical Review Letters",
-    "Penning",
-    "Science"
-   ],
-   "emotki": [
-    "⚛️"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Phys.org",
-     "tytuł": "'One-positron cyclotron' could test a key prediction of the Standard Model",
-     "url": "https://phys.org/news/2026-10-positron-cyclotron-key-standard.html"
-    }
-   ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 2,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 3.24,
-    "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.2,
-     "eksponowanie": 0.81,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.454,
-     "treściwość": 0.426,
-     "język_działu": 0.0
-    }
-   },
-   "oryginalny_nagłówek": "'One-positron cyclotron' could test a key prediction of the Standard Model",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   },
    "miejsce": 2
   },
   {
@@ -1345,56 +1246,110 @@
     "emoji": "🔭",
     "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
    },
-   "nagłówek": "\"Radio Planet i Komet\" leci \"Ze smokami ku gwiazdom\"",
-   "lead": "\"Ze smokami ku gwiazdom\", czyli jak Chiny zdobywają kosmos - oto temat specjalnego wydania \"Radia Planet i Komet\" w Polskim Radiu PiK. Premiera w niedzielę 25 października o 21:05.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-10-24T13:04:11+00:00",
+   "nagłówek": "APOD: 2026 25 października – Ciemna materia w symulowanym wszechświecie",
+   "lead": "Każdego dnia pojawia się inny obraz lub fotografia naszego fascynującego wszechświata, wraz z krótkim wyjaśnieniem napisanym przez profesjonalnego astronoma. Może to wyglądać w ten sposób na tej mapie ciemnej materii.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-25T08:19:48+00:00",
    "źródło": {
-    "nazwa": "Urania",
-    "url": "https://www.urania.edu.pl/wiadomosci/radio-planet-i-komet-leci-ze-smokami-ku-gwiazdom",
-    "domena": "urania.edu.pl"
+    "nazwa": "NASA",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/",
+    "domena": "science.nasa.gov"
    },
-   "obraz": null,
-   "sekcje": [],
+   "obraz": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2021/october/DarkMatter_KipacAmnh_1200.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Grawitacja niewidzialnej ciemnej materii jest wiodącym wyjaśnieniem, dlaczego galaktyki obracają się tak szybko , dlaczego galaktyki okrążają gromady tak szybko , dlaczego soczewki grawitacyjne tak silnie odchylają światło i jak rozprzestrzenia się widzialna materia.",
+      "Prezentowany obraz z pokazu kosmicznego Hayden Planetarium w Amerykańskim Muzeum Historii Naturalnej, Dark Universe, podkreśla jeden z przykładów tego, jak wszechobecna ciemna materia może nawiedzać nasz wszechświat.",
+      "W tym kadrze ze szczegółowej symulacji komputerowej, złożone włókna ciemnej materii, pokazane na czarno, są porozrzucane po wszechświecie jak pajęczyny , podczas gdy stosunkowo rzadkie kępy znanej barionowej materii mają kolor pomarańczowy.",
+      "Symulacje te są dobrym statystycznym dopasowaniem do obserwacji astronomicznych.",
+      "W tym, co jest być może bardziej przerażającym zwrotem wydarzeń, ciemna materia - choć dość dziwna i w nieznanej formie - nie jest już uważana za najdziwniejsze źródło grawitacji we wszechświecie .",
+      "Honor ten spada teraz na ciemną energię , bardziej jednolite źródło odpychającej grawitacji, która wydaje się teraz dominować w ekspansji całego wszechświata .",
+      "Zdjęcie jutra: Orion Wielki"
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Kosmiczny Teleskop Jamesa Webba (JWST) i Kosmiczny Teleskop Nancy Romana szczegółowo ujawniają najwcześniejsze rozdziały wszechświata.",
+      "Aby pomóc astronomom zrozumieć, co widzą, naukowcy z Centrum Astrofizyki | Harvard & Smithsonian opracowali \"Luminę\", jedną z największych i najbardziej szczegółowych symulacji wczesnego wszechświata.",
+      "Opublikowany w Monthly Notices of the Royal Astronomical Society nowy model odtwarza sposób, w jaki zwykła materia, ciemna materia i promieniowanie wchodziły w interakcje w ciągu pierwszych 2 miliardów lat istnienia wszechświata, dając naukowcom nowe narzędzie do testowania teorii o tym, jak kosmos ewoluował po Wielkim Wybuchu.",
+      "Porównując obserwacje z JWST, Roman i innych teleskopów z przewidywaniami Luminy, astronomowie mogą określić, czy ich rozumienie praw rządzących wszechświatem pozostaje dokładne, czy też nowe odkrycia mogą wymagać od nich ponownego przemyślenia istniejących teorii.",
+      "Przez wieki astronomowie obserwowali nocne niebo i opracowywali coraz bardziej wyrafinowane modele, aby wyjaśnić, w jaki sposób tworzą się gwiazdy, galaktyki i inne struktury kosmiczne.",
+      "„Dzięki JWST wczesny wszechświat stał się ekscytującą nową granicą w astrofizyce” - powiedział naczelny autor Oliver Zier, członek ITC w Center for Astrophysics | Harvard & Smithsonian."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "W astronomii i kosmologii ciemna materia jest niewidzialną i hipotetyczną formą materii, która nie wchodzi w interakcje z promieniowaniem elektromagnetycznym, w tym ze światłem. Ciemna materia jest implikowana przez efekty grawitacyjne, których nie można wyjaśnić ogólną teorią względności, chyba że występuje więcej materii niż można zaobserwować. Takie efekty występują w kontekście powstawania i ewolucji galaktyk, soczewkowania grawitacyjnego, obecnej struktury obserwowalnego wszechświata, położenia masy w zderzeniach galaktyk, ruchu galaktyk w gromadach galaktyk oraz kosmicznych anizotropii tła mikrofalowego. Uważa się, że ciemna materia służy jako rusztowanie grawitacyjne dla struktur kosmicznych. Po Wielkim Wybuchu ciemna materia skupiła się w plamy wzdłuż wąskich włókien z supergromadami galaktyk tworzących kosmiczną sieć w skalach, na których całe galaktyki wyglądają jak małe cząstki."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Dark matter",
+     "url": "https://en.wikipedia.org/wiki/Dark_matter"
+    }
+   ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "25",
-    "21",
-    "05"
+    "2 billion",
+    "100",
+    "1.5 billion",
+    "15,000",
+    "10.1093"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Dark matter",
+    "opis": "Hypothetical invisible cosmic material",
+    "tekst": "In astronomy and cosmology, dark matter is an invisible and hypothetical form of matter that does not interact with electromagnetic radiation, including light. Dark matter is implied by gravitational effects that cannot be explained by general relativity unless more matter is present than can be observed. Such effects occur in the context of formation and evolution of galaxies, gravitational lensing, the observable universe's current structure, mass position in galactic collisions, the motion of galaxies within galaxy clusters, and cosmic microwave background anisotropies. Dark matter is thought to serve as gravitational scaffolding for cosmic structures. After the Big Bang, dark matter clumped into blobs along narrow filaments with superclusters of galaxies forming a cosmic web at scales on which entire galaxies appear like tiny particles.",
+    "url": "https://en.wikipedia.org/wiki/Dark_matter",
+    "język": "en"
+   },
    "tagi": [
-    "Komet",
-    "Polskim Radiu PiK",
-    "Radia Planet",
-    "Planet"
+    "Hayden Planetarium Space Show Dark Universe",
+    "Simulated Universe Discover",
+    "American Museum",
+    "Natural History"
    ],
    "emotki": [
     "🪐"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Urania",
-     "tytuł": "\"Radio Planet i Komet\" leci \"Ze smokami ku gwiazdom\"",
-     "url": "https://www.urania.edu.pl/wiadomosci/radio-planet-i-komet-leci-ze-smokami-ku-gwiazdom"
+     "nazwa": "NASA",
+     "tytuł": "APOD: 2026 October 25 – Dark Matter in a Simulated Universe",
+     "url": "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/"
+    },
+    {
+     "nazwa": "Phys.org Astronomy",
+     "tytuł": "Lumina simulation brings the early universe to life on a record-breaking scale",
+     "url": "https://phys.org/news/2026-10-lumina-simulation-early-universe-life.html"
     }
    ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.891,
+    "wynik": 6.596,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.15,
-     "eksponowanie": 0.9,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.48,
+     "eksponowanie": 1.53,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.401,
-     "treściwość": 0.24,
-     "język_działu": 0.5
+     "świeżość": 0.54,
+     "treściwość": 0.446,
+     "język_działu": 0.0
     }
+   },
+   "oryginalny_nagłówek": "APOD: 2026 October 25 – Dark Matter in a Simulated Universe",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
    },
    "miejsce": 1
   },
@@ -1405,101 +1360,85 @@
     "emoji": "🔭",
     "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
    },
-   "nagłówek": "NASA, Partnerzy przyspieszają rozwój lądowników dla misji Moon 2028",
-   "lead": "Gdy NASA przywraca ludzi na powierzchnię Księżyca i ustanawia długoterminową obecność na naszym najbliższym niebiańskim sąsiedztwie, agencja i komercyjni dostawcy systemów lądowania dla ludzi Blue Origin i SpaceX usprawnili projekty i zmienili obie koncepcje operacji dla swoich przyszłych załogowych lądowników.",
+   "nagłówek": "Niebo dzisiaj w niedzielę, 25 października: Dione przecina Saturna",
+   "lead": "Szukasz wydarzenia na niebie w tym tygodniu? Sprawdź naszą pełną kolumnę „Niebo w tym tygodniu”.",
    "język_źródła": "en",
-   "opublikowano": "2026-10-23T22:39:39+00:00",
+   "opublikowano": "2026-10-25T08:00:00+00:00",
    "źródło": {
-    "nazwa": "NASA",
-    "url": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/",
-    "domena": "nasa.gov"
+    "nazwa": "Astronomy Magazine",
+    "url": "https://www.astronomy.com/observing/the-sky-today-sunday-october-25-2026/",
+    "domena": "astronomy.com"
    },
-   "obraz": "https://images-assets.nasa.gov/image/art002e012632/art002e012632~large.jpg",
+   "obraz": null,
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Jednocześnie firmy opracowują również wersje załogowe i towarowe swoich lądowników do krótkoterminowych misji ARTEMIS. „Realizujemy Narodową Politykę Kosmiczną prezydenta Trumpa, aby zakończyć długo oczekiwany powrót amerykańskich astronautów na powierzchnię Księżyca w 2028 roku i ustanowić bazę księżycową” - powiedział administrator NASA Jared Isaacman. „Mamy sprawdzoną fundację w SLS i Orionie, wraz z dwoma lądownikami księżycowymi w fazie rozwoju z Blue Origin i SpaceX.",
-      "Ale NASA nie ma zamiaru siedzieć bezczynnie, ponieważ wszystkie elementy się łączą.",
-      "Nie tak Apollo odniósł sukces i nie tak osiąga się to, co prawie niemożliwe.",
-      "NASA jest pod napięciem, nasze podstawowe możliwości są odbudowywane, nasze warsztaty pracują 24 godziny na dobę, 7 dni w tygodniu, a nasi eksperci są w terenie, atakując ścieżkę krytyczną.",
-      "Budujemy zespół kalibru Super Bowl, aby bezpiecznie osiągnąć te cele i wszystko, co nadejdzie.„ Podczas pierwszych misji załogowych na Księżyc astronauci ARTEMIS wystartują w statku kosmicznym agencji Orion na szczycie rakiety SLS (Space Launch System) z Centrum Kosmicznego Kennedy 'ego NASA na Florydzie.",
-      "Podczas każdej misji ARTEMIS komercyjny system lądowania ludzi połączy się z Orionem, zanim zabierze dwóch członków załogi na powierzchnię Księżyca, podczas gdy dwóch pozostanie na pokładzie Oriona.",
-      "Aby przyspieszyć rozwój w kierunku lądowania w 2028 roku, lądowniki Artemis i Orion nie będą już spotykać się na prawie prostoliniowej orbicie halo wokół Księżyca, a zamiast tego spotkają się na orbicie, która różni się dla każdego partnera, na podstawie ich systemów.",
-      "Obie firmy są zobowiązane do wykonania bezzałogowej misji demonstracyjnej ze swoimi załogowymi lądownikami przed krótkoterminowymi misjami załogowymi Artemis na Księżyc.",
-      "Firma uruchomi wiele wersji Starship na niskiej orbicie okołoziemskiej przed uruchomieniem Starship Human Landing System (HLS) z Florydy."
+      "24 października: Merkury stoi nieruchomo, mały księżyc Saturna Dione tranzytuje dysk dziś wieczorem o 20:43.",
+      "EDT, najlepiej widoczny ze wschodniej połowy Stanów Zjednoczonych.",
+      "Jednak sam tranzyt będzie trudny do wizualnego obejrzenia bez względu na lokalizację i kontynuuj czytanie „The Sky Today on Sunday, October 25: Dione crosses Saturn” The post The Sky Today on Sunday, October 25: Dione crosses Saturn pojawił się jako pierwszy w Astronomy Magazine ."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Zanim astronauci wrócą na powierzchnię Księżyca, NASA przeprowadzi najpierw jedną z najbardziej ambitnych i złożonych misji testowych w historii agencji.",
-      "Wystrzelona w 2027 roku, ARTEMIS III wyśle astronautów NASA Randy 'ego Bresnika, Franka Rubio, Andre Douglasa i astronautę ESA (Europejskiej Agencji Kosmicznej) Luca Parmitano na pokład statku kosmicznego Orion na niską orbitę Ziemi […]"
+      "Kiedy i gdzie szukać w 2026 roku: Dla tych z nas, którzy znajdują się na półkuli północnej, jasny, okrągły Księżyc Łowcy — pełnia księżyca następująca po Księżycu Żniw — wschodzi na wschodzie około zachodu słońca 25 października.",
+      "Grzbiet pełni księżyca spada o godzinie 4:12 UTC 26 października 2026 roku.",
+      "CDT 25 października w środkowej Ameryce Północnej."
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Misje na Księżyc były liczne i reprezentują jedne z najwcześniejszych przedsięwzięć w misjach kosmicznych, z ciągłą eksploracją Księżyca rozpoczynającą się w 1959 roku."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: List of missions to the Moon",
-     "url": "https://en.wikipedia.org/wiki/List_of_missions_to_the_Moon"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "24"
+    "24",
+    "43",
+    "25",
+    "12",
+    "26, 2026",
+    "11"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "List of missions to the Moon",
-    "opis": "",
-    "tekst": "Missions to the Moon have been numerous and represent some of the earliest endeavours in space missions, with continuous exploration of the Moon beginning in 1959.",
-    "url": "https://en.wikipedia.org/wiki/List_of_missions_to_the_Moon",
-    "język": "en"
-   },
+   "tło": null,
    "tagi": [
-    "Orion",
-    "Moon",
-    "Starship",
-    "Artemis"
+    "Dione",
+    "Sunday October",
+    "Sky Today",
+    "Saturn"
    ],
    "emotki": [
-    "🚀"
+    "🪐"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "NASA",
-     "tytuł": "NASA, Partners Accelerate Lander Development for 2028 Moon Missions",
-     "url": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/"
+     "nazwa": "Astronomy Magazine",
+     "tytuł": "The Sky Today on Sunday, October 25: Dione crosses Saturn",
+     "url": "https://www.astronomy.com/observing/the-sky-today-sunday-october-25-2026/"
     },
     {
-     "nazwa": "NASA",
-     "tytuł": "NASA’s Artemis III Mission to Test Future Moon Lander Operations",
-     "url": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/"
+     "nazwa": "EarthSky",
+     "tytuł": "Hunter’s Moon falls on October 25-26, with Saturn nearby",
+     "url": "https://earthsky.org/astronomy-essentials/everything-you-need-to-know-hunters-moon/"
     }
    ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 2,
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 4.226,
+    "wynik": 6.471,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.495,
-     "eksponowanie": 1.35,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.221,
-     "treściwość": 0.46,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.193,
+     "eksponowanie": 1.44,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.388,
+     "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "NASA, Partners Accelerate Lander Development for 2028 Moon Missions",
+   "oryginalny_nagłówek": "The Sky Today on Sunday, October 25: Dione crosses Saturn",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -1513,113 +1452,60 @@
     "emoji": "🗺️",
     "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
    },
-   "nagłówek": "Tajfun Champi pozbawia mocy tysiące Tajwańczyków",
-   "lead": "Ekipy ratunkowe walczyły w sobotę, aby przywrócić zasilanie dziesiątkom tysięcy domów na Tajwanie po tym, jak gwałtowne wiatry Tajfunu Champi uderzyły w wyspę, a burza nadeszła w kierunku Chin i Japonii. Władze ewakuowały ponad 5000 osób ze swoich domów przed burzą, która obaliła drzewa, obaliła zasilanie…",
-   "język_źródła": "en",
-   "opublikowano": "2026-10-24T09:40:01+00:00",
+   "nagłówek": "Mapa Polskiej Złotej Jesieni",
+   "lead": "Kiedy i gdzie szukać złotej jesieni Mapa Polskiej Złotej Jesieni łączy wieloletnie obserwacje przyrody z danymi o polskich lasach. Pozwala sprawdzić, jak mogą zmieniać się barwy lasów od września do grudnia.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-26T00:00:00+00:00",
    "źródło": {
-    "nazwa": "Phys.org Earth",
-    "url": "https://phys.org/news/2026-10-typhoon-champi-power-thousands-taiwan.html",
-    "domena": "phys.org"
+    "nazwa": "Geoforum",
+    "url": "https://geoforum.pl/news/37456/mapa-polskiej-zlotej-jesieni",
+    "domena": "geoforum.pl"
    },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/typhoon-champi-dumped.jpg",
+   "obraz": null,
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Od czwartku, kiedy rząd zaczął ostrzegać przed zbliżającym się tajfunem, zginęła jedna osoba, a ponad 500 zostało rannych.",
-      "Około 56 000 gospodarstw domowych nadal nie ma zasilania, ponieważ Champi nadal buforuje wyspę, a w sobotę w zachodnim hrabstwie Miaoli odnotowano prawie 24 centymetry (9,4 cala) deszczu.",
-      "Większość sklepów na północnym i środkowym Tajwanie została zamknięta na drugi dzień, ponieważ tajfun stopniowo oddala się od północno-wschodniej części wyspy i kieruje się na północ w kierunku Chin i Japonii.",
-      "Champi jest najnowszym w intensywnym sezonie burzowym na Pacyfiku, turbodoładowanym przez zjawisko pogodowe El Niño, które spowodowało bezprecedensowe ocieplenie w równikowym Pacyfiku.",
-      "Burza była przez krótki czas super tajfunem, gdy w ostatnich dniach przekroczyła ocean, z maksymalną podtrzymywaną prędkością wiatru wynoszącą prawie 300 kilometrów na godzinę.",
-      "Według najnowszej aktualizacji Joint Typhoon Warning Center, w sobotę wiatr osiągał prędkość 120 km/h (75 mil na godzinę).",
-      "Intensywność burzy osłabła w ciągu nocy, gdy zapętliła się od północno-wschodniego hrabstwa Yilan na Tajwanie, gdzie od czwartku spadło 65 cm deszczu, powiedział prognosta.",
-      "Martha Wang powiedziała, że boi się, że zostanie „zdmuchnięta” przez wiatr, gdy w sobotę rano przejeżdżała skuterem przez most w Nowym Tajpej.",
-      "- Naprawdę się bałam, bo byłam na moście."
+      "Przedstawia typowy, modelowy przebieg jesieni, a nie aktualny obraz satelitarny ani prognozę na bieżący rok.",
+      "Mapa pozwala prześledzić modelowy przebieg jesiennego przebarwiania się i opadania liści w polskich lasach.",
+      "Projekt powstał na podstawie wieloletnich obserwacji fenologicznych..."
      ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "TAJPEJ, Tajwan (AP) — Tajwan zamknął szkoły i biura oraz uziemił setki lotów, gdy tajfun Champi otarł się o wyspę w piątek, powodując silne wiatry i ulewne deszcze.",
-      "Champi osiągnął maksymalną prędkość 298 km/h (185 mil/h) na początku tego tygodnia, ale osłabł do 155 km/h (96 mil/h), zbliżając się do Tajwanu od południowego zachodu.",
-      "Przewiduje się, że jego centrum pozostanie na morzu, gdy przetoczy się przez północno-wschodni wierzchołek wyspy, po czym skręci na północ w kierunku południowo-zachodnich wysp Japonii.",
-      "Tajwańska Centralna Administracja Pogodowa wezwała mieszkańców obszarów przybrzeżnych do unikania aktywności na świeżym powietrzu i jazdy samochodem oraz do zachowania ostrożności przed spadającymi przedmiotami.",
-      "Według straży pożarnej jedna osoba zginęła w czwartek po tym, jak została porwana przez fale w Liuqiu, małej wyspie u południowo-wschodniego wybrzeża głównej wyspy Tajwanu.",
-      "Rząd poinformował, że ponad 2600 osób zostało ewakuowanych z wrażliwych, górzystych obszarów."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Szampon lub chāmpi to rodzaj indyjskiego masażu głowy zwykle z użyciem jakiejś formy oleju do włosów. Angielskie słowo szampon, oznaczające środek do mycia włosów, pochodzi od tego słowa w hindi i pochodzi z 1762 roku. Słowo i usługa masażu głowy zostały wprowadzone do Wielkiej Brytanii przez indyjskiego przedsiębiorcę Deana Mahomeda. Mahomed wprowadził tę praktykę do kąpieli parowych Basila Cochrane 'a podczas pracy w Londynie na początku XIX wieku. W 1815 roku wraz ze swoją irlandzką żoną otworzył „Mahomed's Steam and Vapour Sea Water Medicated Baths” w Brighton w Anglii, gdzie klienci otrzymali indyjską kurację champi (szamponowanie), czyli masaż terapeutyczny. Praktyka stała się modna w Brighton i został mianowany „chirurgiem szamponującym” zarówno Jerzego IV, jak i Wilhelma IV."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Shampoo (massage)",
-     "url": "https://en.wikipedia.org/wiki/Shampoo_(massage)"
     }
    ],
-   "dlaczego_to_ważne": "„Chociaż minął okres najpoważniejszego wpływu tajfunu, chcielibyśmy przypomnieć wszystkim, że wiatry i fale na wodach wokół Tajwanu pozostają silne, gdy tajfun przesuwa się na północ” - powiedział na odprawie Wuu Woan-hwa z Centralnej Administracji Pogodowej.",
-   "liczby": [
-    "5,000",
-    "500",
-    "56,000",
-    "24",
-    "9.4",
-    "300"
-   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Shampoo (massage)",
-    "opis": "Traditional Indian hair massage",
-    "tekst": "Shampoo or chāmpi is a type of Indian head massage usually with some form of hair oil. The English word shampoo, for a hair cleanser, is derived from this Hindi word and dates to 1762. The word and the service of head massage were introduced to Britain by an Indian entrepreneur Dean Mahomed. Mahomed introduced the practice to Basil Cochrane's vapour baths while working there in London in the early 19th century. In 1815, together with his Irish wife, he opened \"Mahomed's Steam and Vapour Sea Water Medicated Baths\" in Brighton, England where clients received an Indian treatment of champi (shampooing), meaning therapeutic massage. The practice became fashionable in Brighton and he was appointed ‘Shampooing Surgeon’ to both George IV and William IV.",
-    "url": "https://en.wikipedia.org/wiki/Shampoo_(massage)",
-    "język": "en"
-   },
+   "tło": null,
    "tagi": [
-    "Taiwan",
-    "Saturday",
-    "Thursday",
-    "Pacific"
+    "Mapa Polskiej Złotej Jesieni",
+    "Polskiej Złotej Jesieni"
    ],
    "emotki": [
-    "🌊"
+    "🗺️"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Phys.org Earth",
-     "tytuł": "Typhoon Champi knocks out power to thousands in Taiwan",
-     "url": "https://phys.org/news/2026-10-typhoon-champi-power-thousands-taiwan.html"
-    },
-    {
-     "nazwa": "Mongabay",
-     "tytuł": "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
-     "url": "https://news.mongabay.com/short-article/2026/10/taiwan-shuts-schools-and-grounds-flights-as-typhoon-champi-brushes-by/"
+     "nazwa": "Geoforum",
+     "tytuł": "Mapa Polskiej Złotej Jesieni",
+     "url": "https://geoforum.pl/news/37456/mapa-polskiej-zlotej-jesieni"
     }
    ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 3,
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.047,
+    "wynik": 3.958,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.307,
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
      "eksponowanie": 0.72,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.358,
-     "treściwość": 0.412,
-     "język_działu": 0.0
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.538,
+     "treściwość": 0.5,
+     "język_działu": 0.5
     }
-   },
-   "oryginalny_nagłówek": "Typhoon Champi knocks out power to thousands in Taiwan",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
    },
    "miejsce": 1
   },
@@ -1630,93 +1516,84 @@
     "emoji": "🗺️",
     "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
    },
-   "nagłówek": "Wraz ze wzrostem ryzyka powodziowego niektóre społeczności kwestionują ideę odporności",
-   "lead": "Zmiany klimatyczne zwiększają ryzyko powodzi w Wielkiej Brytanii. W miarę jak powodzie stają się coraz częstsze i intensywniejsze, społeczności są coraz bardziej zachęcane do stawania się odpornymi i „żyją z wodą.„ Jednak w niektórych obszarach zagrożonych powodzią mieszkańcy odrzucają te wezwania, obawiając się, że odporność polega mniej na pomaganiu społecznościom, a więcej…",
+   "nagłówek": "Amerykańskie szelki południowo-zachodnie dla większej liczby burz po uporczywych dniach deszczu i powodzi",
+   "lead": "Więcej złych prognoz pogody w zalanym deszczem regionie Four Corners po ewakuacjach i akcjach ratunkowych w zeszłym tygodniu Kolejna runda ulewnych deszczy i burz miała uderzyć w południowo-zachodnie Stany Zjednoczone w niedzielę po tym, jak region ten przetrwał dni deszczu, które wymusiły ewakuacje, ratownictwo wodne i wielomilionowe szkody.",
    "język_źródła": "en",
-   "opublikowano": "2026-10-23T18:00:17+00:00",
+   "opublikowano": "2026-10-25T19:02:51+00:00",
    "źródło": {
-    "nazwa": "Phys.org Earth",
-    "url": "https://phys.org/news/2026-10-communities-idea-resilience.html",
-    "domena": "phys.org"
+    "nazwa": "The Guardian Environment",
+    "url": "https://www.theguardian.com/us-news/2026/oct/25/four-corners-southwest-rain-flooding-thunderstorms",
+    "domena": "theguardian.com"
    },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/flood-in-uk.jpg",
+   "obraz": "https://i.guim.co.uk/img/media/6908444a2ea983ebe5fc8fabd4ba35c9ffe2663e/85_0_1705_1365/master/1705.jpg?width=140&quality=85&auto=format&fit=max&s=7c682306dca090d2bf3a32c022a3f696",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Odporność jest często uważana za pozytywny pomysł.",
-      "Sugeruje, że ludzie mogą dostosować się do niepewności, przygotować się na zakłócenia i szybko wyzdrowieć, gdy nadejdzie powódź.",
-      "Ale moje badania sugerują, że wiele społeczności czuje się głęboko niekomfortowo z tym komunikatem.",
-      "Niektórzy całkowicie to odrzucają.",
-      "Moje badania z trzema grupami przeciwpowodziowymi w północno-zachodniej Anglii opierały się na 17 częściowo ustrukturyzowanych wywiadach i szeroko zakrojonej obserwacji uczestniczącej przez okres pięciu lat.",
-      "Jeden z rezydentów powiedział mi dość dosadnie: „Odporność daje nadzieję.",
-      "Przez większą część XX wieku zarządzanie powodzią było zdominowane przez wysiłki mające na celu ochronę ludzi i mienia poprzez konstrukcje obronne, wały i złożone systemy odwadniające.",
-      "Chociaż takie podejście trwa do dziś, rządy i decydenci polityczni zachęcają teraz również ludzi do „życia z wodą”, akceptując, że pewien stopień powodzi jest nieunikniony .",
-      "Właściciele nieruchomości powinni zainstalować drzwi przeciwpowodziowe, zmienić podłogę i zamontować wodoodporne meble i kuchnie ."
+      "Około 4 stóp (1 metr) wody zalało dom Shane 'a Ferrari, szeryfa hrabstwa San Juan w Nowym Meksyku .",
+      "Powiedział, że sytuacja w okolicy była stabilna w niedzielę, ale on i inni mieszkańcy próbowali posprzątać i poradzić sobie ze szkodami.",
+      "Gubernator Nowego Meksyku, Michelle Lujan Grisham, oświadczyła w sobotę, że organy ścigania zgłosiły setki przypadków ratowania wody między miastami Farmington i Bloomfield. „Rodziny w Bloomfield i Farmington spędziły noc na dachach, obserwując, jak rzeka zalewa ich domy, a nasze gwardie narodowe i ekipy policji stanowej zapewniły im bezpieczeństwo” - powiedział Lujan Grisham. „W tej chwili skupiamy się na ratowaniu życia.",
+      "Jeśli masz się ewakuować, idź.",
+      "Gdy woda opadnie, państwo zrobi wszystko, co w jego mocy, aby pomóc rodzinom w hrabstwie San Juan w odbudowie.-Nie zgłoszono żadnych zgonów - dodała.",
+      "Rzeka San Juan w Farmington w piątek przebiegła 2 stopy powyżej swojego poprzedniego rekordu ustanowionego w 1909 roku.",
+      "Rzecznik prasowy hrabstwa San Juan, Devin Neeley, powiedział, że hrabstwo nie ma oficjalnych danych dotyczących szkód w domach ani liczby ewakuowanych osób, ale nie był świadomy żadnych ofiar śmiertelnych.",
+      "Neeley powiedział, że wody powodziowe cofały się, ale pozostawiały błoto i muł, z których większość została zanieczyszczona ściekami z powodu awarii w zakładach utylizacji odpadów.",
+      "Po miesiącach suszy inne niedawne śmiertelne powodzie uderzyły w Wielki Kanion i obszary Nowego Meksyku."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Anglia jest krajem, który jest częścią Wielkiej Brytanii. Znajduje się na wyspie Wielka Brytania, z czego obejmuje około 62%, a w sąsiedztwie ponad 100 mniejszych wysp. Anglia dzieli granicę lądową ze Szkocją na północy i kolejną granicę lądową z Walią na zachodzie i jest otoczona Morzem Północnym na wschodzie, Kanałem La Manche na południu, Morzem Celtyckim na południowym zachodzie i Morzem Irlandzkim na zachodzie. Europa kontynentalna leży na południowym wschodzie, a Irlandia na zachodzie. Liczba mieszkańców wynosiła 56 490 048 według spisu powszechnego z 2021 roku, z dziewięcioma milionami mieszkańców w swoim największym mieście, Londynie."
+      "Meksyk, oficjalnie Meksykańskie Stany Zjednoczone, jest krajem w Ameryce Północnej. Jest to najbardziej wysunięty na północ kraj Ameryki Łacińskiej, graniczący ze Stanami Zjednoczonymi Ameryki na północy oraz Gwatemalą i Belize na południowym wschodzie, jednocześnie posiadający granice morskie z Oceanem Spokojnym na zachodzie, Morzem Karaibskim na południowym wschodzie i Zatoką Meksykańską na wschodzie. Meksyk zajmuje 1 972 550 km2 i jest trzynastym co do wielkości krajem na świecie pod względem powierzchni lądowej. Z populacją około 131 milionów w 2025 roku, Meksyk jest dziesiątym najbardziej zaludnionym krajem na świecie i jest domem dla największej liczby rodzimych użytkowników hiszpańskiego. Mexico City to stolica i największe miasto Meksyku, które należy do najbardziej zaludnionych obszarów metropolitalnych na świecie."
      ],
      "język": "en",
-     "przypis": "Wikipedia: England",
-     "url": "https://en.wikipedia.org/wiki/England"
+     "przypis": "Wikipedia: Mexico",
+     "url": "https://en.wikipedia.org/wiki/Mexico"
     }
    ],
-   "dlaczego_to_ważne": "Co zamierzasz z tym zrobić?„ Debaty na temat odporności ujawniają bardziej fundamentalne obawy: kto powinien ponosić odpowiedzialność za radzenie sobie ze skutkami zmian klimatycznych?",
-   "liczby": [
-    "17",
-    "20",
-    "100,000"
-   ],
+   "dlaczego_to_ważne": "Nadal występowały przerwy w dostawie prądu w wielu obszarach i prawdopodobnie minie kilka dni, zanim mieszkańcy odzyskają zasilanie. - To dość aktywna strefa klęski żywiołowej - powiedział. - W żaden sposób nie jesteśmy na downswingu. „Powódź jest tylko ostatnim z dwóch miesięcy ulewnych deszczy spowodowanych przez tropikalną wilgoć schodzącą na brzeg z Pacyfiku.",
+   "liczby": [],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "England",
-    "opis": "Country within the United Kingdom",
-    "tekst": "England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers about 62%, and more than 100 smaller adjacent islands. England shares a land border with Scotland to the north and another land border with Wales to the west, and is surrounded by the North Sea to the east, the English Channel to the south, the Celtic Sea to the south-west, and the Irish Sea to the west. Continental Europe lies to the south-east, and Ireland to the west. The population was 56,490,048 according to the 2021 census, with nine million inhabitants in its largest city, London.",
-    "url": "https://en.wikipedia.org/wiki/England",
+    "hasło": "Mexico",
+    "opis": "Country in North America",
+    "tekst": "Mexico, officially the United Mexican States, is a country in North America. It is the northernmost country in Latin America, bordering the United States of America to the north and Guatemala and Belize to the southeast, while having maritime boundaries with the Pacific Ocean to the west, the Caribbean Sea to the southeast, and the Gulf of Mexico to the east. Mexico covers 1,972,550 km2, and is the thirteenth-largest country in the world by land area. With a population around 131 million as of 2025, Mexico is the tenth-most populous country in the world and is home to the largest number of native Spanish speakers. Mexico City is the capital and largest city in Mexico, which ranks among the most populous metropolitan areas in the world.",
+    "url": "https://en.wikipedia.org/wiki/Mexico",
     "język": "en"
    },
    "tagi": [
-    "Resilience",
-    "England",
-    "Creative Commons",
-    "Conversation"
+    "Mexico",
+    "Farmington",
+    "Four Corners",
+    "Bloomfield"
    ],
    "emotki": [],
    "wszystkie_źródła": [
     {
-     "nazwa": "Phys.org Earth",
-     "tytuł": "As flood risk rises, some communities question the idea of resilience",
-     "url": "https://phys.org/news/2026-10-communities-idea-resilience.html"
-    },
-    {
-     "nazwa": "Phys.org Earth",
-     "tytuł": "Study maps the human side of flood risk",
-     "url": "https://phys.org/news/2026-10-human-side.html"
+     "nazwa": "The Guardian Environment",
+     "tytuł": "US south-west braces for more storms after enduring days of rain and flooding",
+     "url": "https://www.theguardian.com/us-news/2026/oct/25/four-corners-southwest-rain-flooding-thunderstorms"
     }
    ],
    "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.359,
+    "wynik": 3.186,
     "składowe": {
      "potwierdzenia": 0.0,
-     "ranga_źródła": 1.322,
-     "eksponowanie": 0.99,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.81,
      "słowa_kluczowe": 0.35,
-     "świeżość": 0.217,
-     "treściwość": 0.48,
+     "świeżość": 0.476,
+     "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "As flood risk rises, some communities question the idea of resilience",
+   "oryginalny_nagłówek": "US south-west braces for more storms after enduring days of rain and flooding",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -1730,98 +1607,91 @@
     "emoji": "🎬",
     "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
    },
-   "nagłówek": "Wiemy, które miejsce zajął Polak! Eurowizja Junior 2026 za nami!",
-   "lead": "W Ta' Qali na Malcie odbył się tegoroczny Konkurs Piosenki Eurowizji Junior. Do grona faworytów zaliczany był reprezentujący Polskę Wiktor Sas z utworem \"Gravity\".",
+   "nagłówek": "Spadkobiercy Elvisa pozwali Anthropic. Wykorzystał jego utwory do szkolenia AI",
+   "lead": "Właściciele praw do twórczości Elvisa Presleya wytoczyli proces firmie Anthropic, stojącej za popularnym chatbotem AI Claude. Według pozwu spółka miała bez zgody wykorzystać setki utworów legendarnego muzyka do trenowania swoich modeli sztucznej inteligencji.",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-24T21:28:05+00:00",
+   "opublikowano": "2026-10-25T18:40:54+00:00",
    "źródło": {
-    "nazwa": "Interia Muzyka",
-    "url": "https://muzyka.interia.pl/eurowizja-junior/news-eurowizja-junior-2026-za-nami-ktore-miejsce-zajal-polski-rep,nId,23563424",
-    "domena": "muzyka.interia.pl"
+    "nazwa": "Onet Kultura",
+    "url": "https://kultura.onet.pl/muzyka/wiadomosci/spadkobiercy-elvisa-nie-odpuszczaja-pozwali-giganta-sztucznej-inteligencji/hsqybw3",
+    "domena": "kultura.onet.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000NGBMXR92G4B6W-C321.webp",
+   "obraz": "https://cdn.kultura.onet.pl/1/u-vk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy8zNDMzZGNmYTM1MjkwYjVhNmFlYzNjMGMxMmMyZDY3ZS5wbmeSlQMAAM0HgM0EOJMFzQlgzQZA3gACoTAHoTEE",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Za nami wszystkie występy, zakończyło się też głosowanie telewidzów.",
-      "Po niezwykle emocjonującym konkursie zwycięzcą została Naré (\"BOO!\") z Armenii!",
-      "Które miejsce zajął młody Polak?",
-      "Wiktor Sas wystąpił z \" Gravity , otwiera się w nowym oknie \" jako siódmy z kolei, tuż po Alecu z Francji i przed faworytką widzów - Naré z Armenii.",
-      "Z kolei koncert otworzyła Maria z Holandii, a jako ostatniego zobaczyliśmy Lucasa Paulano z Hiszpanii.",
-      "Wiktor pojawił się na scenie w czarnej marynarce z błyszczącymi zdobieniami i jasnymi denimowymi wstawkami.",
-      "Stylizację uzupełniły łańcuchy oraz naszyjniki.",
-      "Cztery towarzyszące mu tancerki wystąpiły natomiast w ciemnoszarych strojach, kontrastując z głównym wykonawcą.",
-      "W skład tanecznej ekipy weszły: Wiktoria Wiśniewska, Kaja Ilska, Alicja Chmiel i Kamila Surynt."
+      "Powodowie domagają się odszkodowania sięgającego ponad 41 mln dol."
      ]
     },
     {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
      "treść": [
-      "Już dziś, 24 października Wiktor Sas zaprezentuje Polskę podczas wyjątkowego finału Eurowizji Junior w Ta' Qali na Malcie.",
-      "20:30 w TVP2 - chwilę przed finałem konkursu.",
-      "Właściwy koncert rozpocznie się o godzinie 21:00.",
-      "Eurowizja Junior 2026 za nami!"
-     ]
+      "Anthropic PBC – amerykańskie przedsiębiorstwo zajmujące się sztuczną inteligencją, założone w 2021 roku przez byłych pracowników OpenAI, w tym rodzeństwo Dario i Daniela Amodei. Spółka rozwija rodzinę dużych modeli językowych Claude, narzędzia dla programistów, w tym Claude Code, oraz standard Model Context Protocol."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Anthropic",
+     "url": "https://pl.wikipedia.org/wiki/Anthropic"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "24",
-    "20",
-    "30",
-    "21",
-    "00"
+    "41 mln",
+    "274",
+    "150,000",
+    "31",
+    "50",
+    "41 million"
    ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "Interia Muzyka",
-     "ujęcie": "Eurowizja Junior od kulis\" zaplanowana została na godz.",
-     "url": "https://muzyka.interia.pl/eurowizja-junior/na-zywo-eurowizja-junior-2026-final-relacja-na-zywo,nzId,9350"
-    }
-   ],
+   "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Anthropic",
+    "opis": "amerykańskie przedsiębiorstwo zajmujące się sztuczną inteligencją",
+    "tekst": "Anthropic PBC – amerykańskie przedsiębiorstwo zajmujące się sztuczną inteligencją, założone w 2021 roku przez byłych pracowników OpenAI, w tym rodzeństwo Dario i Daniela Amodei. Spółka rozwija rodzinę dużych modeli językowych Claude, narzędzia dla programistów, w tym Claude Code, oraz standard Model Context Protocol.",
+    "url": "https://pl.wikipedia.org/wiki/Anthropic",
+    "język": "pl"
+   },
    "tagi": [
-    "Gravity",
-    "Armenii",
-    "Malcie",
-    "Polak"
+    "Anthropic",
+    "Elvisa Presleya",
+    "AI Właściciele",
+    "AI Claude"
    ],
    "emotki": [
     "🎵"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Interia Muzyka",
-     "tytuł": "Wiemy, które miejsce zajął Polak! Eurowizja Junior 2026 za nami!",
-     "url": "https://muzyka.interia.pl/eurowizja-junior/news-eurowizja-junior-2026-za-nami-ktore-miejsce-zajal-polski-rep,nId,23563424"
+     "nazwa": "Onet Kultura",
+     "tytuł": "Spadkobiercy Elvisa pozwali Anthropic. Wykorzystał jego utwory do szkolenia AI",
+     "url": "https://kultura.onet.pl/muzyka/wiadomosci/spadkobiercy-elvisa-nie-odpuszczaja-pozwali-giganta-sztucznej-inteligencji/hsqybw3"
     },
     {
-     "nazwa": "Interia Muzyka",
-     "tytuł": "Eurowizja Junior 2026 - Finał [RELACJA NA ŻYWO]",
-     "url": "https://muzyka.interia.pl/eurowizja-junior/na-zywo-eurowizja-junior-2026-final-relacja-na-zywo,nzId,9350"
+     "nazwa": "The Guardian Music",
+     "tytuł": "Anthropic sued for allegedly using 274 Elvis Presley songs to train AI models",
+     "url": "https://www.theguardian.com/us-news/2026/oct/25/elvis-presley-anthropic-lawsuit-ai-models-music"
     },
     {
-     "nazwa": "Interia Muzyka",
-     "tytuł": "To ona pokonała Polaka i wygrała Eurowizję Junior 2026! Kim jest Naré?",
-     "url": "https://muzyka.interia.pl/eurowizja-junior/news-to-ona-wygrala-eurowizje-junior-2026-kim-jest-nare,nId,23563429"
+     "nazwa": "Pitchfork",
+     "tytuł": "Elvis Presley Catalog Owners Sue AI Company Anthropic for Copyright Infringement",
+     "url": "https://pitchfork.com/story/elvis-presley-catalog-owners-sue-ai-company-anthropic-for-copyright-infringement/"
     }
    ],
-   "liczba_źródeł": 1,
+   "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 4.224,
+    "wynik": 8.338,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.17,
-     "eksponowanie": 1.26,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.513,
-     "treściwość": 0.431,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.357,
+     "eksponowanie": 1.71,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.471,
+     "treściwość": 0.5,
      "język_działu": 0.5
     }
    },
@@ -1834,85 +1704,57 @@
     "emoji": "🎬",
     "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
    },
-   "nagłówek": "Gwiazda długo trzymała ten fakt w tajemnicy. Teraz wszystko wyszło na jaw",
-   "lead": "Jak zapowiedziała - tak zrobiła. Charli xcx stawia coraz poważniejsze kroki w świecie filmu, a teraz udowodniła, że transakcje wymienne w świecie show-biznesu mają się naprawdę dobrze.",
+   "nagłówek": "Quentin Tarantino pokazał 17 minut \"Cliffa Bootha\" z Bradem Pittem",
+   "lead": "Fani \" Pewnego razu… w Hollywood \" już przygotowują się na kolejne spotkanie z Cliffem Boothem. Quentin Tarantino niespodziewanie zaprezentował",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-24T15:38:00+00:00",
+   "opublikowano": "2026-10-25T09:29:13+00:00",
    "źródło": {
-    "nazwa": "Interia Muzyka",
-    "url": "https://muzyka.interia.pl/pop/news-zaprosila-go-na-okladke-on-dal-jej-angaz-do-filmu-charli-xcx,nId,23563375",
-    "domena": "muzyka.interia.pl"
+    "nazwa": "Filmweb",
+    "url": "https://www.filmweb.pl/news/Quentin+Tarantino+pokaza%C5%82+17+minut+%22Cliffa+Bootha%22+z+Bradem+Pittem-169306",
+    "domena": "filmweb.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000NGB88XQU40PIH-C321.webp",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Po tym, gdy zaprosiła reżysera Martina Scorsese'a na okładkę swojej najnowszej płyty, teraz artysta postanowił się jej odwdzięczyć.",
-      "Wokalistka zagra w produkcji zatytułowanej \"What Happens at Night\".",
-      "Charli xcx wydała swój ósmy studyjny album (\" Wuthering Heights \" niedawno zaliczyła do grona oficjalnych projektów), którego nazwała mianem \" Music, Fashion, Film \" (\" Wink Wink \", \" Rock Music \", \" Camera , otwiera się w nowym oknie \").",
-      "Wkroczenie w świat mody, filmu i muzyki o nieznanym dotąd charakterze podzieliło fanów wokalistki, która od lat słynie z manipulowania opinią publiczną i mediami.",
-      "Na czarno-białej okładce płyty pojawili się przedstawiciele tytułowych dziedzin: za muzykę na zdjęciu promocyjnym odpowiada John Cale, modę reprezentuje Marc Jacobs , zaś nazwisko Martina Scorsese'a stało się wizytówką filmowej części zamysłu krążka.",
-      "Teraz popularny reżyser zaprosił Charli xcx do swojego projektu.",
-      "Jeden z ostatnich projektów Charli xcx okazał się fenomenem na skalę światową. \" Brat \" (\" Von Dutch , otwiera się w nowym oknie \", \" 360 , otwiera się w nowym oknie \", \" Apple \"), bo taką nazwę nosi charakterystyczny album, święcił triumfy całe wakacje w 2024 roku.",
-      "Artystka promowała płytę podczas trasy \" SWEAT Tour \" we współpracy z Troyem Sivanem , wyruszyła w solowe tournée i dała show nawet w Polsce w ramach Orange Warsaw Festival czy Open'era.",
-      "Co ciekawe, piosenkarka ostatnio wielokrotnie próbowała swoich sił w świecie filmu."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Cozy Tapes Vol. 2: Too Cozy is the second studio album by American hip hop collective ASAP Mob. It was released on August 25, 2017, by ASAP Worldwide, Polo Grounds Music and RCA Records. The album features guest appearances from Big Sean, Pro Era, Quavo, Lil Uzi Vert, Lil Yachty, Chief Keef, Gucci Mane, Schoolboy Q, Frank Ocean, Jaden Smith, Smooky Margielaa and Flatbush Zombies. It was preceded by two singles, \"Raf\" featuring ASAP Rocky, Playboi Carti, Quavo, Lil Uzi Vert and Frank Ocean, and \"Feels So Good\" featuring ASAP Rocky, ASAP Ferg, ASAP Nast, ASAP Twelvyy and ASAP Ant."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Cozy Tapes Vol. 2: Too Cozy",
-     "url": "https://en.wikipedia.org/wiki/Cozy_Tapes_Vol._2%3A_Too_Cozy"
-    }
-   ],
+   "obraz": "https://fwcdn.pl/nph/1032473/2026/78415_1.16.jpg",
+   "sekcje": [],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "360"
+    "24, 25, 26",
+    "67",
+    "27"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Cozy Tapes Vol. 2: Too Cozy",
-    "opis": "2017 studio album by ASAP Mob",
-    "tekst": "Cozy Tapes Vol. 2: Too Cozy is the second studio album by American hip hop collective ASAP Mob. It was released on August 25, 2017, by ASAP Worldwide, Polo Grounds Music and RCA Records. The album features guest appearances from Big Sean, Pro Era, Quavo, Lil Uzi Vert, Lil Yachty, Chief Keef, Gucci Mane, Schoolboy Q, Frank Ocean, Jaden Smith, Smooky Margielaa and Flatbush Zombies. It was preceded by two singles, \"Raf\" featuring ASAP Rocky, Playboi Carti, Quavo, Lil Uzi Vert and Frank Ocean, and \"Feels So Good\" featuring ASAP Rocky, ASAP Ferg, ASAP Nast, ASAP Twelvyy and ASAP Ant.",
-    "url": "https://en.wikipedia.org/wiki/Cozy_Tapes_Vol._2%3A_Too_Cozy",
-    "język": "en"
-   },
+   "tło": null,
    "tagi": [
-    "What Happens",
-    "Charli",
-    "Night",
-    "Martina Scorsese'a"
+    "Tarantino",
+    "Bradem Pittem Fani Pewnego",
+    "Cliffem Boothem",
+    "Cliffa Bootha"
    ],
-   "emotki": [
-    "🎬",
-    "🎵"
-   ],
+   "emotki": [],
    "wszystkie_źródła": [
     {
-     "nazwa": "Interia Muzyka",
-     "tytuł": "Gwiazda długo trzymała ten fakt w tajemnicy. Teraz wszystko wyszło na jaw",
-     "url": "https://muzyka.interia.pl/pop/news-zaprosila-go-na-okladke-on-dal-jej-angaz-do-filmu-charli-xcx,nId,23563375"
+     "nazwa": "Filmweb",
+     "tytuł": "Quentin Tarantino pokazał 17 minut \"Cliffa Bootha\" z Bradem Pittem",
+     "url": "https://www.filmweb.pl/news/Quentin+Tarantino+pokaza%C5%82+17+minut+%22Cliffa+Bootha%22+z+Bradem+Pittem-169306"
+    },
+    {
+     "nazwa": "The Guardian Film",
+     "tytuł": "Anthony LaPaglia: ‘There is not a role I didn’t get that I ever gave more than four hours of grievance to – even Tony Soprano’",
+     "url": "https://www.theguardian.com/film/2026/oct/25/anthony-lapaglia-10-chaotic-questions-interview"
     }
    ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 2,
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.543,
+    "wynik": 4.931,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 0.9,
-     "eksponowanie": 0.18,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.433,
-     "treściwość": 0.48,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.315,
+     "eksponowanie": 0.36,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.356,
+     "treściwość": 0.5,
      "język_działu": 0.5
     }
    },
@@ -1921,16 +1763,11 @@
  ],
  "braki": [],
  "statystyki": {
-  "kanały_ok": 71,
-  "kanały_błędne": 1,
-  "znaki_tłumaczone": 15388,
-  "niedziałające_kanały": [
-   {
-    "url": "https://www.filmweb.pl/rss/news",
-    "powód": "HTTP 500"
-   }
-  ],
+  "kanały_ok": 72,
+  "kanały_błędne": 0,
+  "znaki_tłumaczone": 12885,
+  "niedziałające_kanały": [],
   "działy": 18,
-  "artykuły_w_oknie": 56
+  "artykuły_w_oknie": 44
  }
 }
