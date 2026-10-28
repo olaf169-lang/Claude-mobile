@@ -1,8 +1,8 @@
 {
  "wersja": "1.0.0",
- "wydanie": "2026-10-27",
- "dotyczy_dnia": "2026-10-26",
- "wygenerowano": "2026-10-27T11:28:18+00:00",
+ "wydanie": "2026-10-28",
+ "dotyczy_dnia": "2026-10-27",
+ "wygenerowano": "2026-10-28T12:01:31+00:00",
  "strefa": "Europe/Warsaw",
  "tryb": "ekstrakcyjny",
  "demo": false,
@@ -14,100 +14,133 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "„Tusk nie chce reformować kraju”. Prof. Dudek o odejściu Pełczyńskiej-Nałęcz",
-   "lead": "Profesor Dudek uznaje dymisję minister funduszy i polityki regionalnej za symboliczny kres „naiwnego” myślenia o obecnej władzy jako rządzie reformatorskim. W ubiegłym tygodniu Katarzyna Pełczyńska-Nałęcz zrezygnowała ze swojej funkcji, a niedługo później została usunięta także z Polski 2050.",
+   "nagłówek": "Spór o ślubowanie Macieja Berka. Trybunał ujawnia stanowisko prezydenta Nawrockiego",
+   "lead": "Maciej Berek na początku września został wybrany przez Sejm na sędziego Trybunału Konstytucyjnego. Wcześniej był m.in. ministrem w rządzie Donalda Tuska.",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-26T17:02:00+00:00",
+   "opublikowano": "2026-10-27T17:04:00+00:00",
    "źródło": {
     "nazwa": "RMF24",
-    "url": "https://www.rmf24.pl/rozmowy/popoludniowa-rozmowa/news-tusk-nie-chce-reformowac-kraju-prof-dudek-o-odejsciu-pelczyn,nIdn,1023452",
+    "url": "https://www.rmf24.pl/fakty/polityka/news-spor-o-slubowanie-macieja-berka-trybunal-ujawnia-stanowisko-,nIdn,1023643",
     "domena": "rmf24.pl"
    },
-   "obraz": "https://rmf.rmffm.pl/news/attachments/6f/2a/prof-636x421-6f2a11d4.jpg",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/ca/1e/prezydent-karol-nawrocki-i-maciej-berek-fot-636x421-ca1e1664.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Według Antoniego Dudka była minister dość naiwnie sądziła, że premier zdecyduje się na dokonanie poważnych reform w Polsce.",
-      "Celem polityki Donalda Tuska jest niedopuszczenie do władzy prawicy.",
-      "Z tego punktu widzenia reformy są politycznie niebezpieczne - powiedział gość Popołudniowej rozmowy w RMF FM.",
-      "Dudek przypomniał, że jedyną poważną reformą, na którą kiedykolwiek w trakcie trwania swoich rządów zdecydował się Tusk, była zmiana systemu emerytalnego.",
-      "Ta reforma prawdopodobnie kosztowała go przegrane ówczesne wybory parlamentarne.",
-      "Dudek wyjaśnił, że takie podejście jest typowe zarówno dla ugrupowania Tuska, jak i dla jego politycznych głównych przeciwników z PiS.",
-      "To się świetnie sprawdza, bo są przy władzy od 20 lat - stwierdził politolog, dodając, że dzięki rozpędzonej gospodarce kolejne rządy mogą sobie pozwalać na pewne pozorowanie ruchów, bez podejmowania przełomowych decyzji.",
-      "Rozmówca Grzegorza Sroczyńskiego zaznaczył, że takie podejście władz będzie dominowało, dopóki gospodarka rośnie.",
-      "Donald Tusk wykazał się politycznym zmysłem, potrafiąc podporządkować sobie koalicjantów."
+      "Karol Nawrocki nie zaprosił Berka do Pałacu Prezydenckiego na złożenie ślubowania sędziego TK.",
+      "W tej sytuacji Berek uznał, że może to zrobić w Sejmie.",
+      "Stosowną formułę wygłosił w obecności m.in. marszałka Sejmu, używając słów, że robi to „wobec prezydenta”.",
+      "Jest już kolejną osobą wybraną przez Sejm na sędziego TK, która zdecydowała się na taki krok.",
+      "Po sejmowym - i zdaniem opozycji oraz części ekspertów, nieskutecznym - ślubowaniu Maciej Berek udał się do Trybunału Konstytucyjnego.",
+      "Kierujący tą instytucją Bogdan Święczkowski nie dopuścił go do orzekania.",
+      "Skierował też do prezydenta Karola Nawrockiego pismo z pytaniem, czy uznaje on ślubowanie Berka.",
+      "We wtorek Trybunał Konstytucyjny poinformował, że otrzymał pismo szefa prezydenckiej kancelarii Zbigniewa Boguckiego, który „przedstawił stanowisko prezydenta Karola Nawrockiego w niniejszej sprawie”.",
+      "W piśmie z Kancelarii Prezydenta RP zaznaczono, że „złożenie ślubowania w siedzibie Sejmu w obecności Marszałka Sejmu i Marszałek Senatu, przy jednoczesnym braku Prezydenta RP, nie może być uznane za równoważne złożeniu ślubowania wobec Prezydenta RP”."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "W ubiegłym tygodniu ministerka funduszy i polityki regionalnej Katarzyna Pełczyńska-Nałęcz ogłosiła, że rezygnuje z zasiadania w rządzie i z funkcji szefowej Polski 2050 .",
-      "W poniedziałek (26 października) przed elektrociepłownią w Nowym Dworze Mazowieckim na konferencji dot. cen energii lider Rozwoju Plus jeden z dziennikarzy zapytał Mateusza Morawieckiego o ewentualne dołączenie Pełczyńskiej-Nałęcz do ugrupowania.",
-      "Były premier stwierdził, że żadnych takich rozmów nie ma. - W bardzo wielu obszarach jesteśmy na bardzo różnych pozycjach z panią minister - powiedział. - Natomiast muszę powiedzieć, że jej krytyka tego rządu to ta sprawa, z którą mogę się zgodzić."
+      "Do Trybunału Konstytucyjnego wpłynęło pismo przedstawiające stanowisko prezydenta Karola Nawrockiego ws. wygłoszonego w Sejmie przez Macieja Berka ślubowania sędziego - poinformowała rzeczniczka TK Weronika Ścibor.",
+      "Wybrany przez Sejm na początku września Maciej Berek złożył 14 października - podczas uroczystości w Sejmie - ślubowanie sędziego Trybunału Konstytucyjnego z formułą, że robi to „wobec prezydenta”.",
+      "Berek udał się też do biura Kancelarii Prezydenta, gdzie - jak mówił - „złożył ślubowanie sędziego TK w formie prawnie dopuszczalnej i takiej, która faktycznie była możliwa”.",
+      "Prezes TK Bogdan Święczkowski rozmawiał wtedy z Berkiem, ale - jak informował - nie dopuścił go do orzekania do czasu uzyskania odpowiedzi od prezydenta Nawrockiego, że uznaje on środowe ślubowanie „za złożone w jego obecności”.",
+      "We wtorek rzeczniczka prasowa TK poinformowała PAP, że do TK w poniedziałek wpłynęło pismo szefa KPRP Zbigniewa Boguckiego, który „ przedstawił stanowisko prezydenta Karola Nawrockiego w niniejszej sprawie ”.",
+      "1 ustawy o statusie sędziów TK - mówiącym o ślubowaniu sędziego TK - „sformułowanie »wobec Prezydenta« oznacza wymóg złożenia przez osobę wybraną na stanowisko sędziego Trybunału Konstytucyjnego ślubowania w obecności (fizycznej) Prezydenta RP ”.",
+      "Materiał \"Karol Nawrocki i tajemnice Grand Hotelu\" autorstwa Jacka Harłukowicza i Andrzeja Stankiewicza ukazał się w czasie kampanii przed ubiegłorocznymi wyborami prezydenckimi."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Katarzyna Pełczyńska-Nałęcz – polska socjolog i politolog, specjalistka w zakresie problematyki wschodnioeuropejskiej, podsekretarz stanu w Ministerstwie Spraw Zagranicznych (2012–2014), ambasador Polski w Federacji Rosyjskiej (2014–2016), minister funduszy i polityki regionalnej w trzecim rządzie Donalda Tuska, przewodnicząca Polski 2050 (2026)."
+      "Poniższe tabele opisują spotkania prezydenta Polski Karola Nawrockiego z zagranicznymi politykami i przedstawicielami różnych organizacji od chwili objęcia urzędu prezydenta Rzeczypospolitej Polskiej 6 sierpnia 2025 roku zarówno podczas wizyt prezydenta za granicą, jak i podczas wizyt przedstawicieli innych państw w Polsce."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Katarzyna Pełczyńska-Nałęcz",
-     "url": "https://pl.wikipedia.org/wiki/Katarzyna_Pe%C5%82czy%C5%84ska-Na%C5%82%C4%99cz"
+     "przypis": "Wikipedia: Wizyty zagraniczne prezydenta Karola Nawrockiego",
+     "url": "https://pl.wikipedia.org/wiki/Wizyty_zagraniczne_prezydenta_Karola_Nawrockiego"
     }
    ],
-   "dlaczego_to_ważne": "",
+   "dlaczego_to_ważne": "Oznacza to, że nie nawiązał stosunku służbowego sędziego Trybunału Konstytucyjnego - przekazała PAP rzeczniczka TK Weronika Ścibor.",
    "liczby": [
+    "14",
     "20 lat",
-    "26",
-    "24"
+    "27",
+    "18",
+    "212"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Fakty",
+     "ujęcie": "Do Trybunału Konstytucyjnego wpłynęło pismo, przedstawiające stanowisko prezydenta Karola Nawrockiego ws. wygłoszonego w Sejmie przez Macieja Berka ślubowania sędziego - poinformowała rzeczniczka TK Weronika Ścibor.",
+     "url": "https://wydarzenia.interia.pl/kraj/news-prezydent-zabral-glos-w-sprawie-macieja-berka-stanowisko-wpl,nId,23564998"
+    },
+    {
+     "źródło": "Gazeta.pl",
+     "ujęcie": "Według publikacji portalu Nawrocki, gdy około 20 lat temu pracował jako ochroniarz w sopockim Grand Hotelu, miał uczestniczyć w \"procederze sprowadzania prostytutek\" dla gości.",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198072,33102189,nawrocki-kontra-onet-wyznaczono-termin-rozprawy-z-udzialem.html"
+    }
+   ],
    "pojęcia": [],
    "tło": {
-    "hasło": "Katarzyna Pełczyńska-Nałęcz",
-    "opis": "polska socjolożka, politolożka i polityczka",
-    "tekst": "Katarzyna Pełczyńska-Nałęcz – polska socjolog i politolog, specjalistka w zakresie problematyki wschodnioeuropejskiej, podsekretarz stanu w Ministerstwie Spraw Zagranicznych (2012–2014), ambasador Polski w Federacji Rosyjskiej (2014–2016), minister funduszy i polityki regionalnej w trzecim rządzie Donalda Tuska, przewodnicząca Polski 2050 (2026).",
-    "url": "https://pl.wikipedia.org/wiki/Katarzyna_Pe%C5%82czy%C5%84ska-Na%C5%82%C4%99cz",
+    "hasło": "Wizyty zagraniczne prezydenta Karola Nawrockiego",
+    "opis": "lista w projekcie Wikimedia",
+    "tekst": "Poniższe tabele opisują spotkania prezydenta Polski Karola Nawrockiego z zagranicznymi politykami i przedstawicielami różnych organizacji od chwili objęcia urzędu prezydenta Rzeczypospolitej Polskiej 6 sierpnia 2025 roku zarówno podczas wizyt prezydenta za granicą, jak i podczas wizyt przedstawicieli innych państw w Polsce.",
+    "url": "https://pl.wikipedia.org/wiki/Wizyty_zagraniczne_prezydenta_Karola_Nawrockiego",
     "język": "pl"
    },
    "tagi": [
-    "Dudek",
-    "Tusk",
-    "Tuska",
-    "Antoniego Dudka"
+    "Trybunału Konstytucyjnego",
+    "Prezydenta",
+    "Sejm",
+    "Karola Nawrockiego"
    ],
    "emotki": [
-    "🏛️"
+    "🏛️",
+    "🪐"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "RMF24",
-     "tytuł": "„Tusk nie chce reformować kraju”. Prof. Dudek o odejściu Pełczyńskiej-Nałęcz",
-     "url": "https://www.rmf24.pl/rozmowy/popoludniowa-rozmowa/news-tusk-nie-chce-reformowac-kraju-prof-dudek-o-odejsciu-pelczyn,nIdn,1023452"
+     "tytuł": "Spór o ślubowanie Macieja Berka. Trybunał ujawnia stanowisko prezydenta Nawrockiego",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-spor-o-slubowanie-macieja-berka-trybunal-ujawnia-stanowisko-,nIdn,1023643"
+    },
+    {
+     "nazwa": "Bankier.pl",
+     "tytuł": "Ślubowanie w Sejmie nieważne? Prezydent zamyka Berkowi drogę do orzekania w TK",
+     "url": "https://www.bankier.pl/wiadomosc/Slubowanie-w-Sejmie-niewazne-Prezydent-zamyka-Berkowi-droge-do-orzekania-w-TK-9219213.html"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Prezydent zabrał głos w sprawie Macieja Berka. Stanowisko wpłynęło do TK",
+     "url": "https://wydarzenia.interia.pl/kraj/news-prezydent-zabral-glos-w-sprawie-macieja-berka-stanowisko-wpl,nId,23564998"
     },
     {
      "nazwa": "Gazeta.pl",
-     "tytuł": "Przyszłość Pełczyńskiej-Nałęcz. Morawiecki: Rozwój Plus nie prowadzi z nią rozmów",
-     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33100228,przyszlosc-pelczynskiej-nalecz-morawiecki-rozwoj-plus-nie.html"
+     "tytuł": "Nawrocki kontra Onet. Wyznaczono termin rozprawy z udziałem prezydenta",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198072,33102189,nawrocki-kontra-onet-wyznaczono-termin-rozprawy-z-udzialem.html"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Do TK wpłynęło pismo prezydenta. Berek nie nawiązał stosunku służbowego",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33102090,do-tk-wplynelo-pismo-prezydenta-berek-nie-nawiazal-stosunku.html"
     }
    ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
+   "liczba_źródeł": 4,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 4.831,
+    "wynik": 9.877,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.3,
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 1.765,
      "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.476,
-     "treściwość": 0.305,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.484,
+     "treściwość": 0.378,
      "język_działu": 0.5
     }
    },
@@ -120,101 +153,121 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "Trump skomentował wybory w innym kraju. \"Wyglądają na sfałszowane\"",
-   "lead": "Donald Trump zasugerował, że wybory prezydenckie w Brazylii, które wygrał Luiz Inacio Lula da Silva, zostały sfałszowane. - Wyglądało to jak kolejne sfałszowane wybory - stwierdził, krytykując przedłużenie głosowania o dwie godziny. Wyniku nie uznał także rywal Luli, Flavio Bolsonaro, który zażądał jego unieważnienia.",
+   "nagłówek": "Karol Nawrocki zwołał Radę Bezpieczeństwa Narodowego. Stała amerykańska baza w Polsce wśród tematów",
+   "lead": "Informację o zwołaniu przez prezydenta Karola Nawrockiego posiedzenia Rady Bezpieczeństwa Narodowego przekazał szef Biura Bezpieczeństwa Narodowego - Bartosz Grodecki. Spotkanie ma rozpocząć się 3 listopada o godz.",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-26T21:51:29+00:00",
+   "opublikowano": "2026-10-27T20:25:00+00:00",
    "źródło": {
-    "nazwa": "Interia Fakty",
-    "url": "https://wydarzenia.interia.pl/zagranica/news-trump-skomentowal-wybory-w-innym-kraju-wygladaja-na-sfalszow,nId,23564435",
-    "domena": "wydarzenia.interia.pl"
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/fakty/polityka/news-karol-nawrocki-zwolal-rade-bezpieczenstwa-narodowego-stala-a,nIdn,1023662",
+    "domena": "rmf24.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000NGJQCJGO2BDVD-C321.webp",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/54/c4/prezydent-karol-nawrocki-fot-636x421-54c4e89b.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Trump skomentował w ten sposób podczas rozmowy z dziennikarzami niedzielne wybory w Brazylii wygrane przez Lulę. - Cóż, dla mnie wyglądało to okropnie .",
-      "Nie opowiadałem się po żadnej ze stron, ale wyglądało to jak kolejne sfałszowane wybory - powiedział Trump przed odlotem na wiec wyborczy w Mississippi.",
-      "Dodał później, że nie podobało mu się przedłużenie działania lokali wyborczych i było \"bardzo dziwne\".",
-      "Pytany, co zamierza zrobić w sprawie brazylijskich wyborów, odparł, że nie jest prezydentem Brazylii. - Lubię Lulę.",
-      "Bardzo dobrze się z nim dogaduję.",
-      "Po prostu uważam, że wybory wyglądały bardzo źle .",
-      "Sposób, w jaki je podliczono - powiedział.",
-      "W przeciwieństwie do wyborów w wielu innych państwach Trump nie poparł żadnego z kandydatów w brazylijskich wyborach mimo bliskich stosunków z byłym prezydentem - ojcem oponenta Luli - Jairem Bolsonaro .",
-      "Zdaniem brazylijskich komentatorów interwencja Trumpa w wybory mogłaby zaszkodzić faworyzowanemu przez niego kandydatowi."
+      "Podczas posiedzenia o charakterze niejawnym omówione zostaną bieżące kwestie dotyczące bezpieczeństwa narodowego oraz sprawa budowy stałej bazy wojsk amerykańskich w Polsce - napisał szef BBN-u na portalu X.",
+      "16 września prezydent Karol Nawrocki mówił, że Polska jest „w przededniu realizacji” decyzji o stałej obecności amerykańskich żołnierzy.",
+      "Dzień później prezydent USA Donald Trump napisał w mediach społecznościowych o „znaczącym postępie” w kierunku utworzenia bazy US Army w Polsce, przypisując zasługę Nawrockiemu.",
+      "Zapowiedział, że jej lokalizacja może zostać wkrótce ogłoszona.",
+      "W USA trwa sześciomiesięczny przegląd obecności wojskowej w Europie, który ma się zakończyć pod koniec roku.",
+      "Według wiceszefowej resortu obrony Magdaleny Sobkowiak-Czarneckiej decyzji w sprawie bazy należy się spodziewać po jego zakończeniu, czyli w listopadzie lub grudniu.",
+      "Rada Bezpieczeństwa Narodowego to organ doradzający prezydentowi w zakresie wewnętrznego i zewnętrznego bezpieczeństwa państwa.",
+      "W skład Rady Bezpieczeństwa Narodowego wchodzą m.in. marszałkowie Sejmu i Senatu, premier, ministrowie obrony i spraw wewnętrznych , szef dyplomacji, koordynator służb specjalnych, przedstawiciele klubów i kół parlamentarnych, szefowie Kancelarii Prezydenta RP oraz Biura Bezpieczeństwa Narodowego.",
+      "W posiedzeniach Rady, na zaproszenie Prezydenta Rzeczypospolitej, mogą uczestniczyć byli Prezydenci Rzeczypospolitej Polskiej oraz byli Prezesi Rady Ministrów."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Prezydent Brazylii Luiz Inacio Lula da Silva wygrał w niedzielę 25 października drugą turę wyborów prezydenckich i wywalczył reelekcję.",
-      "Jego rywal, prawicowy senator Flavio Bolsonaro, nie uznał porażki i zapowiedział wniosek o unieważnienie wyniku wyborów .",
-      "Skrytykował decyzję sędziego Sądu Najwyższego, który w czasie wyborów zarządził przedłużenie głosowania o dwie godziny. - To wyglądało okropnie.",
-      "Nie opowiadałem się po żadnej ze stron, ale wyglądało to jak kolejne sfałszowane wybory - powiedział Donald Trump w poniedziałek przed odlotem na wiec wyborczy w Mississippi.",
-      "Pytany, co zamierza zrobić w sprawie brazylijskich wyborów, Trump odparł, że nie jest prezydentem Brazylii. - Lubię Lulę."
+      "O zwołaniu Rady Bezpieczeństwa Narodowego poinformował szef Biura Bezpieczeństwa Narodowego Bartosz Grodecki we wtorek (27 października) wieczorem we wpisie na portalu X.",
+      "\"Podczas posiedzenia o charakterze niejawnym omówione zostaną bieżące kwestie dotyczące bezpieczeństwa narodowego oraz sprawa budowy stałej bazy wojsk amerykańskich w Polsce\" - przekazał szef BBN.",
+      "135 Konstytucji Rada Bezpieczeństwa Narodowego jest organem doradczym prezydenta RP w zakresie wewnętrznego i zewnętrznego bezpieczeństwa państwa.",
+      "W połowie września Karol Nawrocki mówił, że Polska jest \"w przededniu realizacji\" decyzji o stałej obecności amerykańskich żołnierzy.",
+      "Dzień później prezydent USA Donald Trump napisał w mediach społecznościowych o \"znaczącym postępie\" w kierunku utworzenia bazy US Army w Polsce, wspominając zasługi Nawrockiego w tej materii.",
+      "Szef Biura Bezpieczeństwa Narodowego Bartosz Grodecki poinformował za pośrednictwem platformy X, że Rada Bezpieczeństwa Narodowego została zwołana przez prezydenta Karola Nawrockiego na 3 listopada na godzinę 15.",
+      "Szef BBN przypomniał również, że Rada Bezpieczeństwa Narodowego jest konstytucyjnym organem doradczym prezydenta w sprawach dotyczących bezpieczeństwa Polski ."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Brazylia, oficjalnie Federacyjna Republika Brazylii – państwo w Ameryce Południowej, położone we wschodniej części kontynentu, nad Oceanem Atlantyckim. Największe i najludniejsze państwo tego kontynentu, a jednocześnie jedno z największych i najludniejszych państw świata. Zajmuje obszar 8 515 767 km², a zamieszkane jest przez 217 240 060 ludzi. Stolicą kraju jest Brasília."
+      "Biuro Bezpieczeństwa Narodowego (BBN) – polski urząd realizujący powierzone przez Prezydenta Rzeczypospolitej Polskiej zadania w zakresie bezpieczeństwa narodowego."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Brazylia",
-     "url": "https://pl.wikipedia.org/wiki/Brazylia"
+     "przypis": "Wikipedia: Biuro Bezpieczeństwa Narodowego",
+     "url": "https://pl.wikipedia.org/wiki/Biuro_Bezpiecze%C5%84stwa_Narodowego"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "25"
+    "15",
+    "16",
+    "27",
+    "135"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Fakty",
+     "ujęcie": "Bartosz Kołodziejczyk , Krzysztof Ryncarz Prezydent Karol Nawrocki zwołał na 3 listopada posiedzenie Rady Bezpieczeństwa Narodowego m.in. w sprawie budowy stałej bazy wojsk amerykańskich w Polsce - przekazał szef BBN Bartosz Grodecki.",
+     "url": "https://wydarzenia.interia.pl/kraj/news-nawrocki-zwoluje-rade-bezpieczenstwa-narodowego-jest-termin,nId,23565051"
+    }
+   ],
    "pojęcia": [],
    "tło": {
-    "hasło": "Brazylia",
-    "opis": "państwo w Ameryce Południowej",
-    "tekst": "Brazylia, oficjalnie Federacyjna Republika Brazylii – państwo w Ameryce Południowej, położone we wschodniej części kontynentu, nad Oceanem Atlantyckim. Największe i najludniejsze państwo tego kontynentu, a jednocześnie jedno z największych i najludniejszych państw świata. Zajmuje obszar 8 515 767 km², a zamieszkane jest przez 217 240 060 ludzi. Stolicą kraju jest Brasília.",
-    "url": "https://pl.wikipedia.org/wiki/Brazylia",
+    "hasło": "Biuro Bezpieczeństwa Narodowego",
+    "opis": "polski urząd",
+    "tekst": "Biuro Bezpieczeństwa Narodowego (BBN) – polski urząd realizujący powierzone przez Prezydenta Rzeczypospolitej Polskiej zadania w zakresie bezpieczeństwa narodowego.",
+    "url": "https://pl.wikipedia.org/wiki/Biuro_Bezpiecze%C5%84stwa_Narodowego",
     "język": "pl"
    },
    "tagi": [
-    "Brazylii",
-    "Trump",
-    "Luli Flavio Bolsonaro",
-    "Luli Jairem Bolsonaro"
+    "Polsce",
+    "Rady Bezpieczeństwa Narodowego",
+    "BBN-u",
+    "Rady"
    ],
    "emotki": [
-    "🗳️",
     "🏛️"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Interia Fakty",
-     "tytuł": "Trump skomentował wybory w innym kraju. \"Wyglądają na sfałszowane\"",
-     "url": "https://wydarzenia.interia.pl/zagranica/news-trump-skomentowal-wybory-w-innym-kraju-wygladaja-na-sfalszow,nId,23564435"
+     "nazwa": "RMF24",
+     "tytuł": "Karol Nawrocki zwołał Radę Bezpieczeństwa Narodowego. Stała amerykańska baza w Polsce wśród tematów",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-karol-nawrocki-zwolal-rade-bezpieczenstwa-narodowego-stala-a,nIdn,1023662"
     },
     {
      "nazwa": "Gazeta.pl",
-     "tytuł": "Trump: Wybory w Brazylii wyglądają na sfałszowane. \"Bardzo dziwne\"",
-     "url": "https://wiadomosci.gazeta.pl/polityka/7,198013,33100298,trump-wybory-w-brazylii-wygladaja-na-sfalszowane-bardzo-dziwne.html"
+     "tytuł": "Nawrocki zwołał posiedzenie Rady Bezpieczeństwa Narodowego",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33102339,nawrocki-zwolal-posiedzenie-rady-bezpieczenstwa-narodowego.html"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Nawrocki zwołuje Radę Bezpieczeństwa Narodowego. Jest termin",
+     "url": "https://wydarzenia.interia.pl/kraj/news-nawrocki-zwoluje-rade-bezpieczenstwa-narodowego-jest-termin,nId,23565051"
+    },
+    {
+     "nazwa": "Notes from Poland",
+     "tytuł": "Witness testifies Polish president discussed “making money bringing girls” to hotel where they worked 20 years ago",
+     "url": "https://notesfrompoland.com/2026/10/27/witness-testifies-polish-president-discussed-making-money-bringing-girls-to-hotel-where-they-worked-20-years-ago/"
     }
    ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
+   "liczba_źródeł": 4,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 4.81,
+    "wynik": 9.448,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.15,
-     "eksponowanie": 0.0,
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 1.585,
+     "eksponowanie": 0.54,
      "słowa_kluczowe": 0.35,
-     "świeżość": 0.511,
-     "treściwość": 0.399,
+     "świeżość": 0.502,
+     "treściwość": 0.271,
      "język_działu": 0.5
     }
    },
@@ -227,134 +280,103 @@
     "emoji": "🌍",
     "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
    },
-   "nagłówek": "Lula wygrywa wybory w Brazylii. Bolsonaro nie uznaje porażki i podważa wyniki",
-   "lead": "W niedzielnych wyborach prezydenckich w Brazylii Luiz Inacio Lula da Silva zdobył 51,8 proc. głosów, pokonując swojego rywala Flavia Bolsonaro, który uzyskał 48,2 proc. Przewaga Luli to aż 4,4 mln głosów .",
+   "nagłówek": "Trump pomaga Putinowi pokonać Ukrainę? Ostra analiza byłego ambasadora USA w Rosji",
+   "lead": "Już na długo przed polityczną karierą Trumpa, ludzie z otoczenia Putina starali się nawiązać z nim bliskie relacje. W 2013 roku rosyjscy biznesmeni Emin i Araz Agałarowowie współorganizowali z Trumpem konkurs Miss Universe w Moskwie.",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-26T04:28:00+00:00",
+   "opublikowano": "2026-10-27T18:55:00+00:00",
    "źródło": {
     "nazwa": "RMF24 Świat",
-    "url": "https://www.rmf24.pl/fakty/swiat/news-lula-wygrywa-wybory-w-brazylii-bolsonaro-nie-uznaje-porazki-,nIdn,1023358",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-trump-pomaga-putinowi-pokonac-ukraine-ostra-analiza-bylego-a,nIdn,1023652",
     "domena": "rmf24.pl"
    },
-   "obraz": "https://rmf.rmffm.pl/news/attachments/c5/19/luiz-inacio-lula-da-silva-636x421-c519ca1f.jpg",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/a4/9e/zdjecie-z-parady-wolnosci-w-amsterdamie-636x421-a49e0e3e.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "To historyczny moment – Lula jako pierwszy polityk w najnowszej historii Brazylii wygrał w drugiej turze po zajęciu drugiego miejsca w pierwszej.",
-      "Tym samym zostanie prezydentem po raz czwarty, co też jest rekordem.",
-      "W swoim pierwszym przemówieniu po ogłoszeniu wyników Lula dziękował narodowi brazylijskiemu za zaufanie i podkreślał, że Brazylia nie będzie „niczyim podwórkiem”.",
-      "Flavio Bolsonaro nie zamierza pogodzić się z porażką.",
-      "Zapowiedział, że złoży wniosek o unieważnienie wyborów , krytykując decyzję Sądu Najwyższego o przedłużeniu głosowania o dwie godziny.",
-      "Jego zdaniem zamieszanie wokół godzin otwarcia lokali wyborczych mogło wpłynąć na wynik i jest „nie do zaakceptowania”.",
-      "Przypomnijmy, że ojciec Flavia, były prezydent Jair Bolsonaro, odsiaduje obecnie wyrok 27 lat więzienia za próbę zamachu stanu po przegranych wyborach w 2022 roku.",
-      "Wówczas jego zwolennicy szturmowali budynki rządowe w Brasilii, domagając się interwencji wojska.",
-      "Gratulacje dla Luli napływają z całego świata – od przywódców Meksyku, Urugwaju, innych państw Ameryki Łacińskiej, a także od amerykańskiego senatora Berniego Sandersa."
+      "Michael McFaul przypomina, że Kreml nie ograniczał się jedynie do budowania kontaktów towarzyskich.",
+      "W 2016 roku Rosja przeprowadziła bezprecedensową operację ingerencji w wybory prezydenckie w USA.",
+      "Hakerzy wykradli maile Hillary Clinton i zaatakowali serwery Krajowego Komitetu Demokratów, a następnie rozpowszechnili zdobyte informacje, prowadząc szeroko zakrojoną kampanię dezinformacyjną w mediach społecznościowych.",
+      "Celem było zwiększenie szans Trumpa na zwycięstwo.",
+      "„Czy zmieniło to wynik wyborów w 2016 roku – nie sposób dowieść, ale że Putin próbował na to wpłynąć – nie ulega żadnej wątpliwości” – podkreśla McFaul.",
+      "Choć podczas pierwszej kadencji Trumpa nie doszło do spektakularnego zbliżenia z Kremlem – głównie dzięki stanowczemu oporowi doradców i członków gabinetu – to sytuacja zmieniła się po reelekcji w 2024 roku.",
+      "Prezydent USA zdecydował się zakończyć bezpośrednią pomoc wojskową i ekonomiczną dla Ukrainy, co znacząco osłabiło pozycję Kijowa na froncie.",
+      "Trump wyraźnie sprzeciwiał się również przyjęciu Ukrainy do NATO, a podczas szczytu z Putinem na Alasce rozwinął przed rosyjskim przywódcą czerwony dywan.",
+      "W ostatnich tygodniach prezydent USA coraz mocniej atakował Wołodymyra Zełenskiego, ograniczał dostęp ukraińskiej armii do danych wywiadowczych, a nawet publicznie stwierdził, że „nadszedł czas, by Ukraina miała nowego prezydenta”."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Brazylia, oficjalnie Federacyjna Republika Brazylii – państwo w Ameryce Południowej, położone we wschodniej części kontynentu, nad Oceanem Atlantyckim. Największe i najludniejsze państwo tego kontynentu, a jednocześnie jedno z największych i najludniejszych państw świata. Zajmuje obszar 8 515 767 km², a zamieszkane jest przez 217 240 060 ludzi. Stolicą kraju jest Brasília."
+      "Inwazja Rosji na Ukrainę, wojna rosyjsko-ukraińska – pełnoskalowa inwazja na Ukrainę rozpoczęta 24 lutego 2022 roku przez Rosję, stanowiąca eskalację wojny trwającej od 2014 roku. Została poprzedzona rosyjskimi żądaniami wykluczenia możliwości dalszego poszerzania NATO i redukcji potencjału militarnego sojuszu w Europie Środkowo-Wschodniej do stanu sprzed 1997 roku."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Brazylia",
-     "url": "https://pl.wikipedia.org/wiki/Brazylia"
+     "przypis": "Wikipedia: Inwazja Rosji na Ukrainę",
+     "url": "https://pl.wikipedia.org/wiki/Inwazja_Rosji_na_Ukrain%C4%99"
     }
    ],
-   "dlaczego_to_ważne": "Słowa te komentatorzy odczytali jako aluzję do napiętych relacji z USA i rosnących wpływów Waszyngtonu w regionie.",
+   "dlaczego_to_ważne": "To właśnie wtedy zaczęła się sieć powiązań, która – jak się okazuje – miała dalekosiężne konsekwencje.",
    "liczby": [
-    "51,8 proc.",
-    "48,2 proc.",
-    "4,4 mln",
-    "27 lat",
-    "15",
-    "00"
+    "2,000",
+    "5km",
+    "11",
+    "1,500",
+    "15"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Brazylia",
-    "opis": "państwo w Ameryce Południowej",
-    "tekst": "Brazylia, oficjalnie Federacyjna Republika Brazylii – państwo w Ameryce Południowej, położone we wschodniej części kontynentu, nad Oceanem Atlantyckim. Największe i najludniejsze państwo tego kontynentu, a jednocześnie jedno z największych i najludniejszych państw świata. Zajmuje obszar 8 515 767 km², a zamieszkane jest przez 217 240 060 ludzi. Stolicą kraju jest Brasília.",
-    "url": "https://pl.wikipedia.org/wiki/Brazylia",
+    "hasło": "Inwazja Rosji na Ukrainę",
+    "opis": "inwazja na Ukrainę rozpoczęta 24 lutego 2022 roku przez Federację Rosyjską",
+    "tekst": "Inwazja Rosji na Ukrainę, wojna rosyjsko-ukraińska – pełnoskalowa inwazja na Ukrainę rozpoczęta 24 lutego 2022 roku przez Rosję, stanowiąca eskalację wojny trwającej od 2014 roku. Została poprzedzona rosyjskimi żądaniami wykluczenia możliwości dalszego poszerzania NATO i redukcji potencjału militarnego sojuszu w Europie Środkowo-Wschodniej do stanu sprzed 1997 roku.",
+    "url": "https://pl.wikipedia.org/wiki/Inwazja_Rosji_na_Ukrain%C4%99",
     "język": "pl"
    },
    "tagi": [
-    "Brazylii",
-    "Lula",
-    "Luli",
-    "USA"
+    "USA",
+    "Trumpa",
+    "Ukrainy",
+    "McFaul"
    ],
    "emotki": [
-    "🗳️",
-    "🏛️"
+    "🏛️",
+    "⚔️"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "RMF24 Świat",
-     "tytuł": "Lula wygrywa wybory w Brazylii. Bolsonaro nie uznaje porażki i podważa wyniki",
-     "url": "https://www.rmf24.pl/fakty/swiat/news-lula-wygrywa-wybory-w-brazylii-bolsonaro-nie-uznaje-porazki-,nIdn,1023358"
-    },
-    {
-     "nazwa": "BBC News",
-     "tytuł": "Watch: How President Lula turned it around to beat Flávio Bolsonaro",
-     "url": "https://www.bbc.co.uk/news/videos/cmp8g0x4l11yo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC News",
-     "tytuł": "Who is Lula? From ex-worker and prisoner to Brazil's president again",
-     "url": "https://www.bbc.co.uk/news/articles/c35yn2ye1x85o?at_medium=RSS&at_campaign=rss"
+     "tytuł": "Trump pomaga Putinowi pokonać Ukrainę? Ostra analiza byłego ambasadora USA w Rosji",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-trump-pomaga-putinowi-pokonac-ukraine-ostra-analiza-bylego-a,nIdn,1023652"
     },
     {
      "nazwa": "The Guardian",
-     "tytuł": "Reader Q&A: After Lula’s sensational victory in Brazil’s presidential election, post your questions for the Guardian’s Latin America correspondent",
-     "url": "https://www.theguardian.com/world/live/2026/oct/27/brazil-election-reader-questions-lula-bolsonaro"
+     "tytuł": "Oleshky truce appears to hold as two European leaders have ‘frank’ call with Putin",
+     "url": "https://www.theguardian.com/world/2026/oct/27/oleshky-truce-ukraine-russia-putin"
     },
     {
-     "nazwa": "The Guardian",
-     "tytuł": "How the streets and social media drove Lula to a historic comeback in Brazil",
-     "url": "https://www.theguardian.com/world/2026/oct/26/lula-victory-brazil-bolsonaro-analysis"
+     "nazwa": "BBC Europe",
+     "tytuł": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
+     "url": "https://www.bbc.co.uk/news/videos/c687z5ne1w4ro?at_medium=RSS&at_campaign=rss"
     },
     {
-     "nazwa": "The Guardian",
-     "tytuł": "How Lula beat far-right Bolsonaro in Brazil – The Latest",
-     "url": "https://www.theguardian.com/news/audio/2026/oct/26/how-lula-beat-far-right-bolsonaro-in-brazil-the-latest"
-    },
-    {
-     "nazwa": "The Guardian",
-     "tytuł": "Brazil runoff as it happened: world leaders congratulate Lula on historic election win as Bolsonaro refuses to concede",
-     "url": "https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula"
-    },
-    {
-     "nazwa": "The Guardian",
-     "tytuł": "Brazil: defeated Flávio Bolsonaro ordered to surrender passports",
-     "url": "https://www.theguardian.com/world/2026/oct/26/flavio-bolsonaro-brazil-lula-election"
-    },
-    {
-     "nazwa": "NPR",
-     "tytuł": "U.S. influence in Latin America at stake in runoff election in Brazil",
-     "url": "https://www.npr.org/2026/10/25/nx-s1-6011223/u-s-influence-in-latin-america-at-stake-in-runoff-election-in-brazil"
-    },
-    {
-     "nazwa": "NPR",
-     "tytuł": "Brazil's left-wing President Lula elected for fourth term",
-     "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election"
+     "nazwa": "BBC Europe",
+     "tytuł": "Norway and Finland leaders hold rare call with Putin",
+     "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "liczba_źródeł": 4,
+   "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 12.358,
+    "wynik": 9.228,
     "składowe": {
-     "potwierdzenia": 5.7,
-     "ranga_źródła": 2.91,
-     "eksponowanie": 0.81,
-     "słowa_kluczowe": 1.4,
-     "świeżość": 0.538,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.702,
+     "eksponowanie": 1.53,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.496,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -368,84 +390,87 @@
     "emoji": "🌍",
     "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
    },
-   "nagłówek": "Radość i niedowierzanie na serbskich ulicach, gdy Vučić przyznaje się do porażki w wyborach",
-   "lead": "Korespondent BBC Nick Thorpe relacjonuje z Belgradu, gdzie odbywały się zachwycające uroczystości po zwycięstwie ruchu kierowanego przez studentów.",
+   "nagłówek": "Co wybory Izraela oznaczają dla Gazy i całego świata?",
+   "lead": "Korespondent dyplomatyczny BBC James Landale donosi z Jerozolimy o oddawaniu głosów.",
    "język_źródła": "en",
-   "opublikowano": "2026-10-25T22:59:00+00:00",
+   "opublikowano": "2026-10-27T10:17:36+00:00",
    "źródło": {
-    "nazwa": "BBC Europe",
-    "url": "https://www.bbc.co.uk/news/videos/c8x23x1yn6w6o?at_medium=RSS&at_campaign=rss",
+    "nazwa": "BBC News",
+    "url": "https://www.bbc.co.uk/news/videos/ck240dg5n4gjo?at_medium=RSS&at_campaign=rss",
     "domena": "bbc.co.uk"
    },
-   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c357/live/315a7280-d0c2-11f1-b63a-2f4562e77934.jpg",
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/054f/live/2e8109b0-d1f4-11f1-a701-fddedf244c16.jpg",
    "sekcje": [
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "12-letni populistyczny prawicowy przywódca mówi, że „jasne” jest, że jego partia przegrała głosowanie zaplanowane jako referendum w sprawie przyszłości kraju.",
-      "W ciągu niespełna dwóch lat uczniom udało się zerwać z 14-letnią dominacją polityczną Aleksandara Vučicia.",
-      "25 po tym, jak Aleksandar Vučić przyznał się do porażki w wyborach parlamentarnych, które przyniosły zwycięstwo serbskiemu ruchowi studenckiemu.",
-      "Andrej Ivanov/Getty Images ukrywa podpis BELGRAD, Serbia — W stolicy Serbii, Belgradzie, nie ma poniedziałkowego bluesa.",
-      "Lista studentów zdobyła ponad połowę głosów, co spowodowało, że serbski lider populistyczny Aleksandar Vučić i jego Serbska Partia Postępowa (SNS) zajęli odległe drugie miejsce."
+      "Głosowanie Izraela w ten wtorek to pierwsze wybory parlamentarne w tym kraju od czasu ataku Hamasu 7 października 2023 r. — ataku, który doprowadził do jednego z najgłębszych kryzysów bezpieczeństwa w historii Izraela.",
+      "Ponieważ obecny premier Benjamin Netanjahu walczy o utrzymanie władzy, nie chodzi tylko o to, kto poprowadzi następny rząd Izraela, ale także o to, jak rząd ten poradzi sobie z kryzysem bezpieczeństwa w całym regionie wywołanym atakiem i reakcją Izraela, która obejmowała rozpoczęcie wojny z Iranem .",
+      "Niedawno prezydent USA Donald Trump wyraził pełne poparcie dla urzędującego prezydenta Izraela jako „premiera-wojownika” i ostrzegł, że każdy inny wybór wpłynie na sojusz Izraela z Waszyngtonem.",
+      "„Jeśli Izrael ma niewłaściwego przywódcę, którym byłby ktokolwiek inny niż Bibi (Benjamin Netanyahu), Ameryka będzie musiała sama wykonać tę pracę, a ja nie jestem do tego skłonny” - powiedział Trump w internetowym poście, odnosząc się do konfliktu w Iranie.",
+      "Według The Financial Times , izraelskie wojsko zamierzało rozpocząć kolejną rundę ataków na irańskie obiekty jądrowe, centra rządowe i infrastrukturę energetyczną około 10 października.",
+      "Izraelska rasa przerodziła się w zacięty pojedynek Netanjahu z jego głównym rywalem, Gadim Eisenkotem — byłym szefem sztabu IDF (Izraelskich Sił Obronnych) i przywódcą czołowej partii centralnej „Yashar”. „Ale Raz Zimmt, szef irańskiego programu w Instytucie Studiów nad Bezpieczeństwem Narodowym (INSS) w Tel Awiwie, ostrzega, że podziały polityczne między tymi dwiema opcjami nie są wystarczająco głębokie, aby mówić o„ fundamentalnej zmianie w podejściu Tel Awiwu do Teheranu ”po wybory",
+      "Na ścianie wideo można zobaczyć zdjęcia Benjamina Netanjahu z prezydentem Trumpem podczas imprezy w Likudzie, zanim we wtorek w Jerozolimie odbyły się pierwsze wybory parlamentarne w Izraelu."
      ]
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "12",
-    "14",
-    "25",
-    "16"
+    "7, 2023",
+    "10",
+    "77.7%",
+    "30",
+    "120"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Nick Thorpe",
-    "Belgrade",
-    "Serbian",
-    "Vučić"
+    "James Landale",
+    "Jerusalem",
+    "Israel's",
+    "BBC's"
    ],
    "emotki": [],
    "wszystkie_źródła": [
     {
-     "nazwa": "BBC Europe",
-     "tytuł": "Joy and disbelief on Serbian streets as Vučić concedes election defeat",
-     "url": "https://www.bbc.co.uk/news/videos/c8x23x1yn6w6o?at_medium=RSS&at_campaign=rss"
+     "nazwa": "BBC News",
+     "tytuł": "What does Israel's election mean for Gaza and the wider world?",
+     "url": "https://www.bbc.co.uk/news/videos/ck240dg5n4gjo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "nazwa": "BBC Europe",
-     "tytuł": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
-     "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss"
+     "nazwa": "BBC News",
+     "tytuł": "Watch: What happens now after close vote in Israeli election?",
+     "url": "https://www.bbc.co.uk/news/videos/cm79p5pxqey2o?at_medium=RSS&at_campaign=rss"
     },
     {
-     "nazwa": "BBC Europe",
-     "tytuł": "How a movement of students brought down Serbia's Vučić",
-     "url": "https://www.bbc.co.uk/news/articles/c574pvy82k0mo?at_medium=RSS&at_campaign=rss"
+     "nazwa": "Deutsche Welle",
+     "tytuł": "Will elections in Israel change its Iran approach?",
+     "url": "https://www.dw.com/en/will-elections-in-israel-change-its-iran-approach/a-79776122?maca=en-rss-en-world-4025-rdf"
     },
     {
      "nazwa": "NPR",
-     "tytuł": "'The smell of freedom': Serbia's student movement celebrates election triumph",
-     "url": "https://www.npr.org/2026/10/26/nx-s1-6016298/serbia-student-list-vucic-election"
+     "tytuł": "Israel's voter turnout soars as Netanyahu faces a tight election",
+     "url": "https://www.npr.org/2026/10/27/nx-s1-6019381/israel-elections"
     }
    ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.163,
+    "wynik": 7.753,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.645,
-     "eksponowanie": 1.62,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.86,
+     "eksponowanie": 0.9,
      "słowa_kluczowe": 0.35,
-     "świeżość": 0.42,
-     "treściwość": 0.228,
+     "świeżość": 0.592,
+     "treściwość": 0.251,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Joy and disbelief on Serbian streets as Vučić concedes election defeat",
+   "oryginalny_nagłówek": "What does Israel's election mean for Gaza and the wider world?",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -459,240 +484,79 @@
     "emoji": "🏅",
     "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
    },
-   "nagłówek": "Polonia Warszawa - Korona Kielce w 1/16 STS Pucharu Polski. Relacja na żywo",
-   "lead": "W ramach 1/16 finału STS Pucharu Polski dojdzie do niezwykle interesującej konfrontacji, w której Polonia Warszawa zmierzy się przed własną publicznością z Koroną Kielce. „Czarne Koszule”, wspierane przez żywiołową widownię na własnym boisku, staną przed szansą sprawienia pucharowej niespodzianki i wyeliminowania wyżej…",
+   "nagłówek": "Górnik w opałach w hicie Pucharu Polski. Zdecydowały rzuty karne",
+   "lead": "Gdy 17 września Łukasz Wachowski i Jakub Wawrzyniak wylosowali parę Piast Gliwice - Górnik Zabrze do 1/16 finału Pucharu Polski, stało się jasne, że będzie to hit tej rundy rozgrywek . Mecz zaczął się kilka minut po planowanej 20:30.",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-27T00:24:00+00:00",
+   "opublikowano": "2026-10-27T22:34:33+00:00",
    "źródło": {
     "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/pilka-nozna/na-zywo-polonia-warszawa-korona-kielce-w-1-16-sts-pucharu-polski-rel,nzId,9359",
+    "url": "https://sport.interia.pl/pilka-nozna/puchar-polski/news-39-strzalow-na-nic-obronca-tytulu-byl-nad-przepascia-karne-w,nId,23565040",
     "domena": "sport.interia.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000KW64W8MHI549W-C321.webp",
+   "obraz": "https://i.iplsc.com/-/000NGQ1MOAGDIIYD-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Z kolei występująca na co dzień w PKO BP Ekstraklasie Korona Kielce przyjeżdża do stolicy z jasnym celem potwierdzenia swojej wyższości, narzucenia własnego stylu gry i wywalczenia awansu do kolejnej rundy.",
-      "Zapraszamy na relację live!"
+      "Gospodarze wyszli z odpowiednim animuszem, by wyeliminować faworyta.",
+      "Goście jednak szybko pojedynczymi zagraniami pokazali, że mają wielką jakość, niewiele brakło, by Kacper Urbański nagle znalazł się w sytuacji sam na sam z bramkarzem.",
+      "Podopieczni Daniela Myśliwca składali kolejne akcje, raz brakowało dokładności na ostatnich metrach, innym razem przestrzeni przy strzale.",
+      "Na koniec pierwszego kwadransa Oskar Leśniak mógł otworzyć wynik, piłka poleciała tuż obok słupka.",
+      "Zabrzanie wyglądali na stłamszonych, sygnał do wyjścia do przodu dał im uderzeniem z 30 metrów Urbański.",
+      "Mieli niezłą szansę po rzucie rożnym, Gril wypuścił futbolówkę, lecz znajdujący się w niezłym położeniu Jarosław Kubicki fatalnie się pomylił.",
+      "Około 21. minuty mieliśmy przerwę z powodu zadymienia boiska przez race.",
+      "Zespoły w międzyczasie słuchały wskazówek trenerów oraz zrobiły sobie rozgrzewki.",
+      "Świetnie skontrolował piłkę, ale nie trafił do siatki - na przeszkodzie stanął Gril, a następnie poprzeczka."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "W ramach 1/16 finału STS Pucharu Polski dojdzie do niezwykle ciekawie zapowiadającego się pucharowego starcia, w którym Siarka Tarnobrzeg podejmie na własnym stadionie Lecha Poznań.",
-      "Dla gospodarzy konfrontacja z aktualnym mistrzem kraju to prawdziwe piłkarskie święto i historyczna szansa na sprawienie wielkiej niespodzianki przed własną publicznością.",
-      "Z kolei Poznanianie przyjeżdżają w roli zdecydowanego faworyta, choć pucharowe realia wymagają od wyżej notowanej drużyny maksymalnej koncentracji od pierwszej do ostatniej minuty.",
-      "Lechia Gdańsk, grająca przed własną publicznością, spróbuje wykorzystać atut swojego boiska, pamiętając zarazem udane dla siebie akcenty w rywalizacji z tym przeciwnikiem.",
-      "Z kolei Jagiellonia, łącząca trudne zmagania na krajowym podwórku z występami na europejskich boiskach zamierza zrehabilitować się za ostatnie niepowodzenia i udowodnić swoją wyższość w Gdańsku.",
-      "W ramach 6. kolejki Ligi Mistrzów piłkarzy ręcznych Industria Kielce podejmie przed własną publicznością w Hali Legionów norweski zespół Kolstad Handball.",
-      "Kielczanie, wspierani przez żywiołową publiczność na własnym parkiecie, zamierzają po raz kolejny udowodnić swoją wyższość i narzucić rywalom szybkie, ofensywne tempo od pierwszych minut."
+      "Mecze 1/16 finału STS Pucharu Polski przyniosły sporo emocji."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Korona Kielce – polski klub piłkarski z siedzibą w Kielcach. W sezonie 2026/2027 występuje w Ekstraklasie."
+      "Kacper Urbański – polski piłkarz, występujący na pozycji środkowego pomocnika w Górniku Zabrze, reprezentant Polski. Uczestnik Mistrzostw Europy 2024."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Korona Kielce",
-     "url": "https://pl.wikipedia.org/wiki/Korona_Kielce"
+     "przypis": "Wikipedia: Kacper Urbański",
+     "url": "https://pl.wikipedia.org/wiki/Kacper_Urba%C5%84ski"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
+    "17",
     "16",
-    "12",
-    "13",
-    "28.10.2026",
-    "29.10.2026"
-   ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "Interia Sport",
-     "ujęcie": "W ramach 1/16 finału STS Pucharu Polski dojdzie do niezwykle interesującego meczu, w którym Lechia Gdańsk podejmie na własnym stadionie Jagiellonię Białystok.",
-     "url": "https://sport.interia.pl/pilka-nozna/puchar-polski/na-zywo-lechia-gdansk-jagiellonia-bialystok-w-1-16-sts-pucharu-polsk,nzId,9356"
-    },
-    {
-     "źródło": "TVP Sport",
-     "ujęcie": "Magazyn Betclic 1 Ligi po meczach 12. kolejki.",
-     "url": "https://sport.tvp.pl/96140745/magazyn-betclic-1-ligi-po-12-kolejce-26102026"
-    }
-   ],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Korona Kielce",
-    "opis": "polski klub piłki nożnej",
-    "tekst": "Korona Kielce – polski klub piłkarski z siedzibą w Kielcach. W sezonie 2026/2027 występuje w Ekstraklasie.",
-    "url": "https://pl.wikipedia.org/wiki/Korona_Kielce",
-    "język": "pl"
-   },
-   "tagi": [
-    "Pucharu Polski",
-    "Ekstraklasie Korona Kielce",
-    "Warszawa Korona Kielce",
-    "Polonia Warszawa"
-   ],
-   "emotki": [],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Polonia Warszawa - Korona Kielce w 1/16 STS Pucharu Polski. Relacja na żywo",
-     "url": "https://sport.interia.pl/pilka-nozna/na-zywo-polonia-warszawa-korona-kielce-w-1-16-sts-pucharu-polski-rel,nzId,9359"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Siarka Tarnobrzeg - Lech Poznań w 1/16 STS Pucharu Polski. Relacja na żywo",
-     "url": "https://sport.interia.pl/pilka-nozna/puchar-polski/na-zywo-siarka-tarnobrzeg-lech-poznan-w-1-16-sts-pucharu-polski-rela,nzId,9355"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Lechia Gdańsk - Jagiellonia Białystok w 1/16 STS Pucharu Polski. Relacja na żywo",
-     "url": "https://sport.interia.pl/pilka-nozna/puchar-polski/na-zywo-lechia-gdansk-jagiellonia-bialystok-w-1-16-sts-pucharu-polsk,nzId,9356"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Industria Kielce - Kolstad Handball w 6. kolejce Ligi Mistrzów piłkarzy ręcznych. Relacja na żywo",
-     "url": "https://sport.interia.pl/pilka-reczna/na-zywo-industria-kielce-kolstad-handball-w-6-kolejce-ligi-mistrzow,nzId,9358"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Motor Lublin - Raków Częstochowa w 1/16 STS Pucharu Polski. Relacja na żywo",
-     "url": "https://sport.interia.pl/pilka-nozna/puchar-polski/na-zywo-motor-lublin-rakow-czestochowa-w-1-16-sts-pucharu-polski-rel,nzId,9353"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Orlen Wisła Płock - HBC Nantes w 6. kolejce Ligi Mistrzów piłkarzy ręcznych. Relacja na żywo",
-     "url": "https://sport.interia.pl/pilka-reczna/na-zywo-orlen-wisla-plock-hbc-nantes-w-6-kolejce-ligi-mistrzow-pilka,nzId,9357"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Piast Gliwice - Górnik Zabrze w 1/16 STS Pucharu Polski. Relacja na żywo",
-     "url": "https://sport.interia.pl/pilka-nozna/puchar-polski/na-zywo-piast-gliwice-gornik-zabrze-w-1-16-sts-pucharu-polski-relacj,nzId,9354"
-    },
-    {
-     "nazwa": "TVP Sport",
-     "tytuł": "Magazyn Betclic 1 Ligi po 12. kolejce (26.10.2026)",
-     "url": "https://sport.tvp.pl/96140745/magazyn-betclic-1-ligi-po-12-kolejce-26102026"
-    },
-    {
-     "nazwa": "TVP Sport",
-     "tytuł": "Magazyn Betclic 2 Ligi po 13. kolejce (26.10.2026)",
-     "url": "https://sport.tvp.pl/95961254/magazyn-betclic-2-ligi-po-13-kolejce-transmisja-na-zywo-online-live-stream-26102026"
-    },
-    {
-     "nazwa": "TVP Sport",
-     "tytuł": "Lechia Gdańsk – Jagiellonia Białystok: transmisja z kamerą na komentatorów meczu 1/16 finału STS Pucharu Polski (28.10.2026)",
-     "url": "https://sport.tvp.pl/96140720/lechia-gdansk-jagiellonia-bialystok-z-kamera-na-komentatorow-na-zywo-transmisja-online-live-stream-28102026"
-    },
-    {
-     "nazwa": "TVP Sport",
-     "tytuł": "Odra Opole – Śląsk Wrocław: transmisja z kamerą na komentatorów meczu 1/16 finału STS Pucharu Polski (29.10.2026)",
-     "url": "https://sport.tvp.pl/96141420/odra-opole-slask-wroclaw-z-kamera-na-komentatorow-na-zywo-transmisja-online-live-stream-29102026"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 6.738,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 2.595,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.543,
-     "treściwość": 0.5,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "sport-pl",
-    "nazwa": "Sport w Polsce",
-    "emoji": "🏅",
-    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
-   },
-   "nagłówek": "Oto on! Najlepszy z najlepszych. Ogłoszono zdobywcę Złotej Piłki",
-   "lead": "Od wielu lat nie mieliśmy sytuacji, gdy w walce o triumf w plebiscycie Złotej Piłki pojawiało się przynajmniej pięć naprawdę mocnych nazwisk. Tak naprawdę, patrząc na punktację, ostatni taki przypadek miał miejsce równo 20 lat temu.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-10-26T22:53:40+00:00",
-   "źródło": {
-    "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/pilka-nozna/news-oto-on-najlepszy-z-najlepszych-ogloszono-tegorocznego-zdobyw,nId,23564300",
-    "domena": "sport.interia.pl"
-   },
-   "obraz": "https://i.iplsc.com/-/000MWH9VG5DF3390-C321.webp",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Wówczas triumfował Fabio Cannavaro, który piątego Zinedine'a Zidane'a wyprzedził o ledwie 102 punkty.",
-      "Czekał na ten moment pół roku.",
-      "Klub dumnie ogłasza ws. reprezentanta Polski , otwiera się w nowym oknie Oczywiście trzeba brać poprawkę na inny sposób punktacji, ale nie sposób myśleć o tegorocznym plebiscycie jak o najbardziej wyrównanym od lat.",
-      "Nie może więc dziwić, że swoich szans na końcowe zwycięstwo upatrywali: Michael Olise, Chwicza Kwaracchelia, Lionel Messi, Lamine Yamal, Kylian Mbappe oraz przede wszystkim Harry Kane.",
-      "To właśnie Anglik był faworytem do końcowego triumfu przed rozpoczęciem gali, ale ostatnie lata - szczególnie przypadek Viniciusa Juniora, pokazały, że tym notowaniom niekoniecznie należy ufać.",
-      "W Anglii wszyscy wierzyli jednak oczywiście, że w Londynie to ich rodak zostanie ukoronowany.",
-      "Fatalne wieści tuż po El Clasico.",
-      "Barcelona traci kolejną gwiazdę.",
-      "Dwa miesiące przerwy , otwiera się w nowym oknie Gala w London Palladium rozpoczęła się w poniedziałek 26 października o godzinie 21:30."
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Piotr Kozłowski, pierwszy trener Ewy Pajor , na rozstrzygnięcie plebiscytu Złotej Piłki czekał jako gość \"Sportowego Wieczoru\" TVP Sport.",
-      "Mógł więc na żywo podzielić się swoimi odczuciami wobec drugiego miejsca reprezentantki Polski w tym konkursie. – Na pewno w każdym człowieku siedziałaby gorycz porażki.",
-      "Harry Kane zdobywcą Złotej Piłki 2026."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "France Football – francuski miesięcznik sportowy, a wcześniej tygodnik i dwutygodnik o tematyce piłkarskiej, wydawany od 8 stycznia 1946 w Boulogne-Billancourt koło Paryża. Jedno z najbardziej prestiżowych czasopism o tematyce piłkarskiej. Słynie z wręczanej corocznie od 1956 r. Złotej Piłki – nagrody dla najlepszego piłkarza świata."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: France Football",
-     "url": "https://pl.wikipedia.org/wiki/France_Football"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "20 lat",
-    "102 punkty",
-    "26",
-    "21",
+    "20",
     "30",
-    "23"
+    "21",
+    "75"
    ],
    "inne_spojrzenia": [
     {
      "źródło": "TVP Sport",
-     "ujęcie": "Lista laureatów poprzednich lat.",
-     "url": "https://sport.tvp.pl/63992905/zwyciezcy-zlotej-pilki-laureaci-ostatnich-lat-lista-kto-ma-ich-najwiecej"
+     "ujęcie": "Starcie Piasta Gliwice z Górnikiem Zabrze rozstrzygnęły dopiero rzuty karne.",
+     "url": "https://sport.tvp.pl/96159353/sts-puchar-polski-wyrownane-starcie-gornika-z-piastem-zobacz-rzuty-karne-wideo"
     }
    ],
    "pojęcia": [],
    "tło": {
-    "hasło": "France Football",
-    "opis": "francuski tygodnik sportowy",
-    "tekst": "France Football – francuski miesięcznik sportowy, a wcześniej tygodnik i dwutygodnik o tematyce piłkarskiej, wydawany od 8 stycznia 1946 w Boulogne-Billancourt koło Paryża. Jedno z najbardziej prestiżowych czasopism o tematyce piłkarskiej. Słynie z wręczanej corocznie od 1956 r. Złotej Piłki – nagrody dla najlepszego piłkarza świata.",
-    "url": "https://pl.wikipedia.org/wiki/France_Football",
+    "hasło": "Kacper Urbański",
+    "opis": "piłkarz",
+    "tekst": "Kacper Urbański – polski piłkarz, występujący na pozycji środkowego pomocnika w Górniku Zabrze, reprezentant Polski. Uczestnik Mistrzostw Europy 2024.",
+    "url": "https://pl.wikipedia.org/wiki/Kacper_Urba%C5%84ski",
     "język": "pl"
    },
    "tagi": [
-    "France Football",
-    "Złotej Piłki",
-    "Harry Kane",
-    "Londynie"
+    "Ntamack",
+    "Vallejo",
+    "Pucharu Polski",
+    "Urbańskiego"
    ],
    "emotki": [
     "⚽"
@@ -700,41 +564,133 @@
    "wszystkie_źródła": [
     {
      "nazwa": "Interia Sport",
-     "tytuł": "Oto on! Najlepszy z najlepszych. Ogłoszono zdobywcę Złotej Piłki",
-     "url": "https://sport.interia.pl/pilka-nozna/news-oto-on-najlepszy-z-najlepszych-ogloszono-tegorocznego-zdobyw,nId,23564300"
+     "tytuł": "Górnik w opałach w hicie Pucharu Polski. Zdecydowały rzuty karne",
+     "url": "https://sport.interia.pl/pilka-nozna/puchar-polski/news-39-strzalow-na-nic-obronca-tytulu-byl-nad-przepascia-karne-w,nId,23565040"
     },
     {
      "nazwa": "TVP Sport",
-     "tytuł": "Piotr Kozłowski zareagował na wynik Ewy Pajor w plebiscycie Złotej Piłki [WIDEO]",
-     "url": "https://sport.tvp.pl/96141596/piotr-kozlowski-zareagowal-na-wynik-ewy-pajor-w-plebiscycie-zlotej-pilki-wideo"
-    },
-    {
-     "nazwa": "TVP Sport",
-     "tytuł": "Zwycięzcy Złotej Piłki. Lista laureatów poprzednich lat. Kto ma ich najwięcej w karierze?",
-     "url": "https://sport.tvp.pl/63992905/zwyciezcy-zlotej-pilki-laureaci-ostatnich-lat-lista-kto-ma-ich-najwiecej"
-    },
-    {
-     "nazwa": "TVP Sport",
-     "tytuł": "Harry Kane zdobywcą Złotej Piłki 2026. Wielkie święto Anglików w Londynie",
-     "url": "https://sport.tvp.pl/96137793/zlota-pilka-2026-harry-kane-triumfatorem-plebiscytu-wielkie-swieto-anglikow-w-londynie"
-    },
-    {
-     "nazwa": "TVP Sport",
-     "tytuł": "Ewa Pajor zajęła drugie miejsce w plebiscycie Złotej Piłki. Alexia Putellas najlepszą piłkarką świata",
-     "url": "https://sport.tvp.pl/96137713/zlota-pilka-2026-ewa-pajor-zajela-drugie-miejsce-w-plebiscycie-alexia-putellas-najlepsza-pilkarka-swiata"
+     "tytuł": "STS Puchar Polski. Wyrównane starcie Górnika z Piastem. Zobacz rzuty karne [WIDEO]",
+     "url": "https://sport.tvp.pl/96159353/sts-puchar-polski-wyrownane-starcie-gornika-z-piastem-zobacz-rzuty-karne-wideo"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.074,
+    "wynik": 5.321,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.65,
+     "ranga_źródła": 1.2,
      "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.524,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.521,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Blamaż Arsenalu. Mistrz Anglii wyeliminowany przez klub z czwartej ligi",
+   "lead": "Poprzedni sezon dla kibiców Arsenalu był takim, o jakim śnili od bardzo dawna. \"Kanonierzy\" po raz pierwszy od 2004 roku sięgnęli po mistrzostwo Anglii.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-27T22:48:43+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/premier-league/news-arsenal-na-kolanach-klub-z-czwartej-ligi-upokorzyl-mistrza-a,nId,23565063",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NGQ3W2MY05QA9-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Zespół Mikela Artety dodatkowo zagrał w finale Ligi Mistrzów oraz Carabao Cup.",
+      "Start trwającej kampanii również jest wyjątkowo owocny dla klubu z Londynu.",
+      "Arsenal dotychczas przegrał tylko raz - w lidze 0:3 z Brighton and Howe.",
+      "Pozycja wicelidera Premier League oraz miejsce w czołówce fazy ligowej Ligi Mistrzów są ogromną nobilitacją.",
+      "We wtorkowy wieczór w ramach 1/8 finału Carabao Cup wszyscy związani z Arsenalem szykowali się na \"spacerek\".",
+      "Bo jak inaczej określić mecz aktualnego mistrza Anglii z Fleetwood Town , zespołem okupującym dolne rejony tabeli czwartej ligi (League Two).",
+      "Rzeczywistość okazała się w tym wypadku wyjątkowo przewrotna.",
+      "Interwencja UEFA ws. meczu Polaków.",
+      "Mecz przełożony, już nie ma odwrotu , otwiera się w nowym oknie Mikel Arteta w starciu ze zdecydowanie niżej notowanym przeciwnikiem zdecydował się na przeprowadzenie kilku roszad w wyjściowym składzie."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Fleetwood Town F.C. – angielski klub piłkarski z siedzibą we Fleetwood. Drużyna aktualnie występuje w League Two. Domowym stadionem klubu jest Highbury Stadium."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Fleetwood Town F.C.",
+     "url": "https://pl.wikipedia.org/wiki/Fleetwood_Town_F.C."
+    }
+   ],
+   "dlaczego_to_ważne": "Nie oznaczało to jednak gry kompletnymi anonimami - od pierwszych minut na murawie przebywali m.in.",
+   "liczby": [
+    "21",
+    "50",
+    "90",
+    "26",
+    "86",
+    "16"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "Carabao Cup: Arsenal wyeliminowany przez Fleetwood!",
+     "url": "https://sport.tvp.pl/96159237/carabao-cup-arsenal-wyeliminowany-przez-fleetwood"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Fleetwood Town F.C.",
+    "opis": "",
+    "tekst": "Fleetwood Town F.C. – angielski klub piłkarski z siedzibą we Fleetwood. Drużyna aktualnie występuje w League Two. Domowym stadionem klubu jest Highbury Stadium.",
+    "url": "https://pl.wikipedia.org/wiki/Fleetwood_Town_F.C.",
+    "język": "pl"
+   },
+   "tagi": [
+    "Anglii",
+    "Arsenalu",
+    "Fleetwood Town",
+    "Carabao Cup"
+   ],
+   "emotki": [
+    "🏅",
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Blamaż Arsenalu. Mistrz Anglii wyeliminowany przez klub z czwartej ligi",
+     "url": "https://sport.interia.pl/pilka-nozna/premier-league/news-arsenal-na-kolanach-klub-z-czwartej-ligi-upokorzyl-mistrza-a,nId,23565063"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Carabao Cup: Arsenal wyeliminowany przez Fleetwood!",
+     "url": "https://sport.tvp.pl/96159237/carabao-cup-arsenal-wyeliminowany-przez-fleetwood"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.973,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.523,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -748,102 +704,118 @@
     "emoji": "🌐",
     "opis": "wielkie ligi, turnieje i rekordy poza Polską"
    },
-   "nagłówek": "Kane został przedwcześnie ogłoszony zwycięzcą Ballon d'Or - ale nie był tylko jednym",
-   "lead": "Marzenie Harry 'ego Kane' a o wygraniu Ballon d'Or spełniło się w poniedziałek, ale kilka godzin wcześniej organizatorzy przedwcześnie opublikowali artykuł, w którym stwierdzili, że zdobył nagrodę.",
+   "nagłówek": "„Największa noc w historii klubu” dla nieustraszonego Fleetwood",
+   "lead": "Ogromne 83 miejsca w lidze oddzieliły Fleetwood od Arsenalu, ale gospodarze zarezerwowali swoje miejsce w ćwierćfinale Pucharu Carabao dzięki wygranej w rzutach karnych z Gunnerami.",
    "język_źródła": "en",
-   "opublikowano": "2026-10-26T23:35:27+00:00",
+   "opublikowano": "2026-10-28T00:39:30+00:00",
    "źródło": {
     "nazwa": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmly0g2y7q2zo?at_medium=RSS&at_campaign=rss",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqgkv2vxeengo?at_medium=RSS&at_campaign=rss",
     "domena": "bbc.co.uk"
    },
-   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9beb/live/3c6000b0-d166-11f1-87df-afb7a168a1f2.jpg",
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5033/live/74cba6c0-d256-11f1-aea4-e9d772bed98c.jpg",
    "sekcje": [
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Harry Kane zostaje pierwszym angielskim graczem, który wygrał Ballon d'Or od czasu Michaela Owena w 2001 roku po tym, jak został koronowany na najlepszego gracza na świecie podczas ceremonii w Londynie.",
-      "Obejrzyj najlepsze gole Harry 'ego Kane' a z sezonu 2025/26 Bundesligi z Bayernem, ponieważ strajkujący w Anglii zostaje koronowany na zwycięzcę Ballon d'Or w 2026 roku.",
-      "Alexia Putellas odbiera nagrodę dla kobiet po raz trzeci. Kapitan Anglii został doceniony podczas ceremonii w Londynie. Harry Kane jest zwycięzcą Ballon d'Or w 2026 roku, pierwszym Anglikiem, który zdobył najbardziej prestiżowe indywidualne trofeum piłkarskie od 25 lat.",
-      "Dwie godziny po wystawnie ekscytującej ceremonii w Palladium Theatre w Londynie, nazwisko Kane 'a wyłoniło się z ostatniej koperty i rozbrzmiewało wiwatami w auli.",
-      "Damską Ballon d'Or, nagrodzoną chwilę wcześniej, zdobyła Alexia Putellas z London City Lionesses, trzecia Ballon, pięć lat po jej pierwszej edycji w barwach Barcelony.",
-      "W głosowaniu mężczyzn Kane skończył przed ulubieńcami Lamine Yamal z Barcelony i Kylianem Mbappé z Realu Madryt, co być może wywoła znajomą konsternację wśród hierarchii tych klubów, nie wspominając o rozległej armii kibiców online dołączonej do supergwiazd za Kane 'em.",
-      "Dla Kane 'a jest to nagroda za rok, podczas którego zdobył European Golden Boot, odegrał główną rolę w mistrzostwach Bayernu Monachium w Bundeslidze, poprowadził Anglię do półfinału Mistrzostw Świata, a przede wszystkim okazał się cudownie skromnym supergwiazdą. „W tym roku było naprawdę ciężko, niesamowici gracze, z którymi walczyłem” - powiedział Kane, otrzymując trofeum, gratulując wszystkim nominowanym za cokolwiek innego i dziękując prawie wszystkim, których kiedykolwiek bawiłem się. - Niemal zaniemówiłem."
+      "BBC Sport przygląda się historii największego rozdrażnienia Pucharu Anglii i Pucharu Ligi po wstrząsającym zwycięstwie Fleetwood Town przeciwko Arsenalowi.",
+      "Menedżer Lawlor zastanawia się nad „niewiarygodnie wyjątkową” nocą, kiedy młody zawodnik Arsenalu wysłany w odwecie przed strzelaniną, menedżer Fleetwood, Matt Lawlor, okrzyknął zwycięstwo klubu jako jedno dla całej piłki nożnej, po tym jak jego strona zszokowała mistrza Premier League, Arsenalu, karami w Pucharze Carabao.",
+      "Strona 18 w lidze drugiej trzymała nerwy na wodzy w strzelaninie, Conor Haughey uderzając zwycięzcę, aby dotrzeć do ćwierćfinału.",
+      "Aaron Loupalo‑Bi i Viktor Gyökeres zapewnili, że skończy 1: 1 w normalnym czasie, ale Arsenal skończył jako mężczyzna po tym, jak Max Dowman otrzymał czerwoną kartkę za reakcję na wyzwanie.",
+      "Czwarty poziom Fleetwood wywołał jeden z największych wstrząsów w historii Pucharu Ligi, pokonując mistrzów 5-3 w rzutach karnych po remisie 1: 1 Oto główny trener Fleetwood, Matt Lawlor: „Musieliśmy wprowadzić zmiany, z mistrzami w mieście.",
+      "Arsenal okazał nam wiele szacunku, nazywając tak silny zespół … to bardzo trudne wyzwanie, ale takie, które powinno nam się podobać i nie być przesadzonym.„Właśnie myślałem, że z dwoma Highburysami – mogę myśleć tylko o parkach St James(’) (Exeter i Newcastle), ale czy są jakieś inne powody o bardzo podobnych nazwach?” pyta Shaun T.",
+      "Mecz Arsenalu z Fleetwood Town w ostatnich 16 meczach Pucharu Carabao jest opóźniony o ponad osiem minut po tym, jak dron zostanie zauważony nad stadionem podczas meczu."
      ]
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "26",
-    "25",
-    "89",
-    "100",
-    "30",
+    "83",
+    "18",
+    "4,000",
+    "84",
+    "19",
     "16"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Ballon",
-    "Harry Kane's",
-    "Monday"
+    "Fleetwood",
+    "Carabao Cup",
+    "Arsenal",
+    "Gunners"
    ],
    "emotki": [],
    "wszystkie_źródła": [
     {
      "nazwa": "BBC Sport",
-     "tytuł": "Kane prematurely announced as Ballon d'Or winner - but he wasn't only one",
-     "url": "https://www.bbc.co.uk/sport/football/articles/cmly0g2y7q2zo?at_medium=RSS&at_campaign=rss"
+     "tytuł": "'Biggest night in club's history' for fearless Fleetwood",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cqgkv2vxeengo?at_medium=RSS&at_campaign=rss"
     },
     {
      "nazwa": "BBC Sport",
-     "tytuł": "Kane ends England's 25-year Ballon d'Or wait - how he bucked the trend",
-     "url": "https://www.bbc.co.uk/sport/football/articles/cqlye4jpzzxyo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC Sport",
-     "tytuł": "Ballon d'Or winner Kane's best Bundesliga goals",
-     "url": "https://www.bbc.co.uk/sport/football/videos/cmd93gqn8119o?at_medium=RSS&at_campaign=rss"
+     "tytuł": "Where does Fleetwood beating Arsenal rank in biggest cup upsets?",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cq62y7yzjdmzo?at_medium=RSS&at_campaign=rss"
     },
     {
      "nazwa": "The Guardian Sport",
-     "tytuł": "Harry Kane claims men’s Ballon d’Or to end England’s 25-year wait for winner",
-     "url": "https://www.theguardian.com/football/2026/oct/26/harry-kane-ends-englands-25-year-wait-for-a-mens-ballon-dor"
+     "tytuł": "‘What you live for’: Fleetwood revel in seismic Arsenal shock after Dowman sees red",
+     "url": "https://www.theguardian.com/football/2026/oct/27/that-was-what-you-live-for-fleetwood-revel-in-unbelievably-special-arsenal-win"
     },
     {
      "nazwa": "The Guardian Sport",
-     "tytuł": "Harry Kane ends England's 25-year wait for a Ballon d'Or winner – video",
-     "url": "https://www.theguardian.com/football/video/2026/oct/27/harry-kane-ends-englands-25-year-wait-for-a-ballon-dor-winner-video"
+     "tytuł": "Fleetwood Town stun Arsenal on penalties: Carabao Cup fourth round – as it happened",
+     "url": "https://www.theguardian.com/football/live/2026/oct/27/fleetwood-town-v-arsenal-carabao-cup-fourth-round-live"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Fleetwood-Arsenal halted for eight minutes because of drone",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cmqlngxw6lv3o?at_medium=RSS&at_campaign=rss"
     },
     {
      "nazwa": "Sky Sports",
-     "tytuł": "From forgettable EFL loans to Ballon d'Or winner - Kane's 'Cinderella story'",
-     "url": "https://www.skysports.com/football/news/12040/13602662/harry-kane-wins-ballon-dor-bayern-munich-striker-completes-cinderella-story-from-efl-loans-to-worlds-best-player"
+     "tytuł": "Arsenal dumped out of Carabao Cup by League Two Fleetwood",
+     "url": "https://www.skysports.com/football/fleetwood-town-vs-arsenal/report/578610"
     },
     {
      "nazwa": "Sky Sports",
-     "tytuł": "'Beyond my wildest dreams' - Kane first English winner of Ballon d'Or in 25 years",
-     "url": "https://www.skysports.com/football/news/12040/13601934/harry-kane-wins-2026-ballon-dor-bayern-munich-striker-becomes-first-english-winner-of-award-in-25-years"
+     "tytuł": "Merson critical of Arteta's reaction to Dowman after red",
+     "url": "https://www.skysports.com/watch/video/13604600/fleetwood-vs-arsenal-paul-merson-critical-of-mikel-artetas-reaction-to-max-dowman-after-red"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "'Fleetwood's fantasy moment!' - Loupalo-Bi goal STUNS Arsenal with shock lead",
+     "url": "https://www.skysports.com/watch/video/13604521/fleetwood-vs-arsenal-the-league-two-side-take-a-shock-lead-against-the-premier-league-champions"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "Arsenal OUT on pens to League Two Fleetwood!",
+     "url": "https://www.skysports.com/watch/video/13604607/fleetwood-1-1-arsenal-5-3-pens-carabao-cup-highlights"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "'Really harsh call' - Dowman SENT OFF against Fleetwood",
+     "url": "https://www.skysports.com/watch/video/13604572/fleetwood-vs-arsenal-max-dowman-sent-off-as-gunners-go-down-to-10-men"
     }
    ],
    "liczba_źródeł": 3,
-   "czas_czytania_min": 2,
+   "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 8.663,
+    "wynik": 9.666,
     "składowe": {
      "potwierdzenia": 3.8,
-     "ranga_źródła": 2.35,
-     "eksponowanie": 0.72,
+     "ranga_źródła": 2.77,
+     "eksponowanie": 1.35,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.593,
+     "świeżość": 0.546,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Kane prematurely announced as Ballon d'Or winner - but he wasn't only one",
+   "oryginalny_nagłówek": "'Biggest night in club's history' for fearless Fleetwood",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -857,76 +829,74 @@
     "emoji": "🌐",
     "opis": "wielkie ligi, turnieje i rekordy poza Polską"
    },
-   "nagłówek": "Putellas z Londynu wygrywa rekordową trzecią Ballon d'Or",
-   "lead": "Reprezentantka Barcelony i Hiszpanii Alexia Putellas zdobywa Ballon d'Or Feminin po raz trzeci.",
+   "nagłówek": "Wymień każdego zwycięzcę męskiego turnieju Ballon d'Or",
+   "lead": "Czy znasz każdego zwycięzcę od pierwszego zwycięzcy Ballon d'Or w 1956 roku?",
    "język_źródła": "en",
-   "opublikowano": "2026-10-26T23:14:39+00:00",
+   "opublikowano": "2026-10-27T09:31:58+00:00",
    "źródło": {
     "nazwa": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqp9gky38lj3o?at_medium=RSS&at_campaign=rss",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cn5q170dnwlo?at_medium=RSS&at_campaign=rss",
     "domena": "bbc.co.uk"
    },
-   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f75b/live/cfdebc20-d191-11f1-8c41-0bbbeafdc6d4.jpg",
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ae9/live/edcc8450-d1e7-11f1-93e1-3b657b665bcf.png",
    "sekcje": [
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Alexia Putellas wygrała damski Ballon d'Or po raz trzeci, podczas gdy Harry Kane zabrał męski, pierwszy Anglik od 25 lat Righto, raport z meczu Barneya Ronaya jest tutaj… …co oznacza, że to wszystko ode mnie.",
-      "Dzięki wszystkim za towarzystwo i komentarze – przepraszam, że nie mogłem dotrzeć do wszystkich – mazal tov do wszystkich zwycięzców, w szczególności Alexii i Aitcha, i spokój.",
-      "Myślę, że to rodzaj opanowania, który daje 77 bramek w 68 występach, absolutny skandal sezonu. - I na koniec dla mnie to tylko podróż.",
-      "Żyją swoimi emocjami razem, sprawiają, że czuje się częścią rodziny, odkąd wszedł do ich domu w wieku 18 lat i pozwalają mu robić to, co robi na boisku poprzez to, co z niego robią. „Wow, wow, wow” rozpoczyna nasza Ballon d'Or laurearte, mówiąc, że to szczęście, że ma listę.",
-      "Przechodzi do garniturów Bayernu, zastanawiając się, jaki to zaszczyt grać dla klubu, potem opowiada o Anglii, mówiąc, że to nie było dokładnie to, czego chcieli, ale mieli wspaniały rok, to zaszczyt być kapitanem drużyny, a Thomas Tuchel również go popchnął."
+      "Alexia Putellas odbiera nagrodę dla kobiet po raz trzeci. Kapitan Anglii został doceniony podczas ceremonii w Londynie. Harry Kane jest zwycięzcą Ballon d'Or w 2026 roku, pierwszym Anglikiem, który zdobył najbardziej prestiżowe indywidualne trofeum piłkarskie od 25 lat.",
+      "Dwie godziny po wystawnie ekscytującej ceremonii w Palladium Theatre w Londynie, nazwisko Kane 'a wyłoniło się z ostatniej koperty i rozbrzmiewało wiwatami w auli.",
+      "Damską Ballon d'Or, nagrodzoną chwilę wcześniej, zdobyła Alexia Putellas z London City Lionesses, trzecia Ballon, pięć lat po jej pierwszej edycji w barwach Barcelony.",
+      "W głosowaniu mężczyzn Kane skończył przed ulubieńcami Lamine Yamal z Barcelony i Kylianem Mbappé z Realu Madryt, co być może wywoła znajomą konsternację wśród hierarchii tych klubów, nie wspominając o rozległej armii kibiców online dołączonej do supergwiazd za Kane 'em.",
+      "Trofeum, organizowane przez magazyn France Football (należący do L'Équipe Group), jest przyznawane głosem dziennikarzy i administratorów w całym superprzestrzeni piłkarskiej.",
+      "Dla Kane 'a jest to nagroda za rok, podczas którego zdobył European Golden Boot, odegrał główną rolę w mistrzostwach Bayernu Monachium w Bundeslidze, poprowadził Anglię do półfinału Mistrzostw Świata, a przede wszystkim okazał się cudownie skromnym supergwiazdą. „W tym roku było naprawdę ciężko, niesamowici gracze, z którymi walczyłem” - powiedział Kane, otrzymując trofeum, gratulując wszystkim nominowanym za cokolwiek innego i dziękując prawie wszystkim, których kiedykolwiek bawiłem się. - Niemal zaniemówiłem."
      ]
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
     "25",
-    "77",
-    "68",
-    "18",
-    "11",
-    "14"
+    "89",
+    "100",
+    "30",
+    "16",
+    "91"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Ballon",
-    "City's Putellas",
-    "Alexia Putellas",
-    "Barcelona"
+    "Ballon"
    ],
    "emotki": [],
    "wszystkie_źródła": [
     {
      "nazwa": "BBC Sport",
-     "tytuł": "London City's Putellas wins record-equalling third Ballon d'Or",
-     "url": "https://www.bbc.co.uk/sport/football/articles/cqp9gky38lj3o?at_medium=RSS&at_campaign=rss"
+     "tytuł": "Quiz: Kane and who else? Name every men's Ballon d'Or winner",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cn5q170dnwlo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "nazwa": "The Guardian Sport",
-     "tytuł": "Ballon d’Or 2026: Harry Kane crowned in London ceremony as Putellas wins award for third time – as it happened",
-     "url": "https://www.theguardian.com/football/live/2026/oct/26/ballon-dor-2026-updates-from-70th-edition-in-london-live"
+     "nazwa": "The Guardian Football",
+     "tytuł": "Harry Kane claims men’s Ballon d’Or to end England’s 25-year wait for winner",
+     "url": "https://www.theguardian.com/football/2026/oct/26/harry-kane-ends-englands-25-year-wait-for-a-mens-ballon-dor"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.08,
+    "wynik": 4.915,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.48,
-     "eksponowanie": 0.27,
-     "słowa_kluczowe": 1.4,
-     "świeżość": 0.53,
+     "ranga_źródła": 1.458,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.357,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "London City's Putellas wins record-equalling third Ballon d'Or",
+   "oryginalny_nagłówek": "Quiz: Kane and who else? Name every men's Ballon d'Or winner",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -940,299 +910,190 @@
     "emoji": "🧪",
     "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
    },
-   "nagłówek": "Nowy rywal Spotify w Polsce. Audiofile zachwyceni",
-   "lead": "Spotify i Apple Music zyskały nowego rywala. Do Polski wszedł uwielbiany przez audiofilów Qobuz.",
+   "nagłówek": "Nowy MacBook Pro M6. Wolę wydać 10 000 zł na to niż na iPhone Duo",
+   "lead": "Wolę wydać 10 000 zł na to niż na iPhone Duo",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-26T07:30:58+00:00",
+   "opublikowano": "2026-10-27T14:03:00+00:00",
    "źródło": {
-    "nazwa": "Antyweb",
-    "url": "https://antyweb.pl/nowy-rywal-spotify-w-polsce-audiofile-zachwyceni",
-    "domena": "antyweb.pl"
+    "nazwa": "Spider's Web",
+    "url": "https://spidersweb.pl/2026/10/macbook-pro-m6-premiera-specyfikacja-ulepszenia.html",
+    "domena": "spidersweb.pl"
    },
-   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2026/10/Qobuz-wchodzi-do-Polski-nowy-rywal-Spotify-i-Apple-Music.jpg",
+   "obraz": "https://cdn-sw.spidersweb.pl/2026/10/macbook-pro-m6-iphone-duo.webp",
    "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Dla osób znudzonych dominacją Spotify i Apple Music mamy dobre wieści.",
-      "Nowy gracz na rynku ma doprawdy ciekawą ofertę i wysoką jakość dźwięku.",
-      "Rynek streamingu muzyki w Polsce przynajmniej od kilku dobrych lat praktycznie się nie zmieniał, a wśród jakkolwiek liczących się platform należało wymieniać przede wszystkim popularne Spotify , do tego Apple Music i Tidal.",
-      "Choć każda z platform próbowała wprowadzać jakieś rozwiązania dla najbardziej wymagających słuchaczy (np. bezstratne formaty czy słuchanie muzyki z plików FLAC), to część audiofilów nie była wystarczająco zadowolona z istniejącej oferty.",
-      "To się jednak zmienia, wraz z wejściem do Polski francuskiej platformy Qobuz.",
-      "Ta zasłynęła z kierowania swojej oferty nie do mainstreamu, tylko właśnie w kierunku tych najbardziej wymagających, który na sprzęt do słuchania muzyki potrafią wydać sporo kasy i oczekują najwyższej jakości brzmienia.",
-      "Co ciekawe, staliśmy się tym samym 27. krajem świata, który otrzymał oficjalny dostęp do aplikacji.",
-      "Jeżeli wiecie, czym jest stratna kompresja plików audio i obawiacie się ich jak ognia, to Qobuz może mieć dla was coś fajnego.",
-      "Platforma chwali się, że jej bogata w około 100 milionów utworów biblioteka jest streamowana w najwyższym, bezstratnym standardzie jakość CD (16-bit / 44,1 kHz), a setki tysięcy płyt można odsłuchać w studyjnej rozdzielczości Hi-Res sięgającej 24 bitów i 192 kHz."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Qobuz is a digital music store and music streaming service, launched in France in 2007. The service is owned and operated by Xandrie SA. By June 2023, Qobuz offered over 100 million tracks."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Qobuz",
-     "url": "https://en.wikipedia.org/wiki/Qobuz"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "27",
-    "100 milionów",
-    "16",
-    "44,1",
-    "24",
-    "192"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Qobuz",
-    "opis": "Online music service",
-    "tekst": "Qobuz is a digital music store and music streaming service, launched in France in 2007. The service is owned and operated by Xandrie SA. By June 2023, Qobuz offered over 100 million tracks.",
-    "url": "https://en.wikipedia.org/wiki/Qobuz",
-    "język": "en"
-   },
-   "tagi": [
-    "Qobuz",
-    "Spotify",
-    "Apple Music",
-    "Polsce"
-   ],
-   "emotki": [
-    "📈",
-    "🎵",
-    "💻"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Antyweb",
-     "tytuł": "Nowy rywal Spotify w Polsce. Audiofile zachwyceni",
-     "url": "https://antyweb.pl/nowy-rywal-spotify-w-polsce-audiofile-zachwyceni"
-    },
-    {
-     "nazwa": "Ars Technica",
-     "tytuł": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
-     "url": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/"
-    },
-    {
-     "nazwa": "The Verge",
-     "tytuł": "iPhone Duo now supports Apple Pencil with iOS 27.2",
-     "url": "https://www.theverge.com/tech/1018827/ios-27-2-iphone-duo-apple-pencil"
-    },
-    {
-     "nazwa": "The Verge",
-     "tytuł": "Apple acknowledges iPhone Duo display ‘issue’ after reports of cracked screens",
-     "url": "https://www.theverge.com/tech/1018760/iphone-duo-crackgate-inside-screen-hinge-crack"
-    }
-   ],
-   "liczba_źródeł": 3,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 7.99,
-    "składowe": {
-     "potwierdzenia": 3.8,
-     "ranga_źródła": 1.7,
-     "eksponowanie": 1.08,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.488,
-     "treściwość": 0.422,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "technologia",
-    "nazwa": "Technologia i nauka",
-    "emoji": "🧪",
-    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
-   },
-   "nagłówek": "Apple szykuje się do najciekawszej premiery tej jesieni. Co o niej wiadomo?",
-   "lead": "Apple jeszcze w tym tygodniu ma zaprezentować nowego iPada mini, który przyniesie największe zmiany w tej serii od kilku lat. Jak wynika z przecieków: urządzenie otrzyma ekran OLED, znacznie wydajniejszy procesor A20 Pro i przeprojektowane elementy obudowy.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-10-26T06:00:20+00:00",
-   "źródło": {
-    "nazwa": "Antyweb",
-    "url": "https://antyweb.pl/apple-szykuje-sie-do-najciekawszej-premiery-tej-jesieni-co-o-niej-wiadomo",
-    "domena": "antyweb.pl"
-   },
-   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2026/10/apple-store-9.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Producent ma również pracować nad poprawioną odpornością na zachlapania.",
-      "Jest jednak haczyk: cena podstawowej wersji może wzrosnąć z 599 dolarów (w Polsce: 2999 zł) do nawet 799 dolarów (3999 zł?).",
-      "Jeśli przecieki się potwierdzą, niewielki tablet Apple stanie się znacznie lepszy, ale też... skandalicznie drogi.",
-      "Najważniejszą nowością ma być przejście z ekranu LCD na OLED.",
-      "Obecny iPad mini 7, zaprezentowany w 2024 roku, wykorzystuje 8,3-calowy wyświetlacz Liquid Retina.",
-      "Następca może zaoferować nieco większy panel, węższe ramki i przede wszystkim znacznie wyższy kontrast.",
-      "Technologia OLED pozwala uzyskać głębsze czernie, ponieważ poszczególne piksele mogą być całkowicie wyłączane.",
-      "Powinna też zapewnić bardziej nasycone kolory i lepszą jakość obrazu podczas oglądania filmów czy przeglądania zdjęć.",
-      "Nie wiadomo jednak, czy Apple zdecyduje się na zaoferowanie odświeżania 120 Hz z technologią ProMotion."
-     ]
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "599",
-    "2999 zł",
-    "799",
-    "3999 zł",
-    "8,3",
-    "120"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": null,
-   "tagi": [
-    "Apple",
-    "Pro",
-    "Polsce",
-    "Stanach Zjednoczonych"
-   ],
-   "emotki": [
-    "💻"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Antyweb",
-     "tytuł": "Apple szykuje się do najciekawszej premiery tej jesieni. Co o niej wiadomo?",
-     "url": "https://antyweb.pl/apple-szykuje-sie-do-najciekawszej-premiery-tej-jesieni-co-o-niej-wiadomo"
-    },
-    {
-     "nazwa": "Ars Technica",
-     "tytuł": "Apple reveals updated iPad mini with a bigger OLED screen for $700",
-     "url": "https://arstechnica.com/apple/2026/10/apple-reveals-updated-ipad-mini-with-a-bigger-oled-screen-for-700/"
-    },
-    {
-     "nazwa": "TechCrunch",
-     "tytuł": "Apple unveils new iPad mini with OLED display and faster A20 Pro chip",
-     "url": "https://techcrunch.com/2026/10/26/apple-unveils-new-ipad-mini-with-oled-display-and-faster-a20-pro-chip/"
-    }
-   ],
-   "liczba_źródeł": 3,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 7.701,
-    "składowe": {
-     "potwierdzenia": 3.8,
-     "ranga_źródła": 1.535,
-     "eksponowanie": 0.54,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.476,
-     "treściwość": 0.5,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 2
-  },
-  {
-   "dział": {
-    "id": "fizyka",
-    "nazwa": "Fizyka",
-    "emoji": "⚛️",
-    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
-   },
-   "nagłówek": "Małe przesunięcia w zawartości żelaza wskazują na potencjalny materiał pamięciowy między konkurującymi stanami magnetycznymi",
-   "lead": "Zespół naukowców z Yale odkrył, co nadaje materiałowi magnetycznemu jego tajemnicze właściwości, odkrycie, które może pomóc zwiększyć pamięć obliczeniową i dziedzinę „spintroniki.„ Ich praca jest publikowana w Physical Review Letters . Dwusiarczek niobu interkalowany żelazem (Fe-NbS ₂) jest materiałem, w którym atomy żelaza są…",
-   "język_źródła": "en",
-   "opublikowano": "2026-10-26T14:28:02+00:00",
-   "źródło": {
-    "nazwa": "Phys.org",
-    "url": "https://phys.org/news/2026-10-tiny-shifts-iron-content-potential.html",
-    "domena": "phys.org"
-   },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/tiny-shifts-in-iron-co.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Materiałoznawcy bardzo zainteresowali się materiałem, ponieważ mogą przełączać jego stany rezystancji, wysyłając przez niego impulsy prądu elektrycznego.",
-      "„To bardzo zaskakujące, ponieważ zazwyczaj trudno jest przełączyć takie stany prądem elektrycznym przy niskiej gęstości” - powiedział profesor Yu He, który prowadził badanie.",
-      "Pierwszym autorem jest Wenxin Li, doktorant w laboratorium He's.",
-      "Ta zdolność do zmiany swoich stanów oporności w taki sposób sprawia, że materiał jest obiecujący dla spintroniki , w której spin elektronów jest wykorzystywany do przechowywania lub manipulowania informacjami.",
-      "Może to potencjalnie zwiększyć pamięć obliczeniową przy jednoczesnym zużyciu znacznie mniejszej ilości energii.",
-      "Ponadto może pomóc między innymi w rozwoju obliczeń kwantowych i neuromorficznych.",
-      "To, co nadaje temu materiałowi tak interesujące właściwości, było jednak tajemnicą.",
-      "Chociaż naukowcy wiedzieli, że ten materiał może łatwo przełączać stany magnetyczne, nie było jasne, dlaczego.",
-      "Wcześniej naukowcy w tej dziedzinie wykorzystywali technologię znaną jako rozpraszanie promieniowania rentgenowskiego do badania porządków magnetycznych."
-     ]
-    },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Małe struktury magnetyczne zwane skyrmionami mogą pomóc utorować drogę nowej generacji komputerów, które przetwarzają informacje bardziej jak ludzki mózg, zużywając znacznie mniej energii elektrycznej.",
-      "Chociaż większość ludzi nigdy nie słyszała o skyrmionach, te mikroskopijne wiry magnetyczne mogą ostatecznie odegrać ważną rolę w sposobie przechowywania i przetwarzania danych przez komputery.",
-      "Badanie opublikowane w czasopiśmie Nature Nanotechnology dostarcza nowych informacji na temat tego, jak zachowują się skyrmiony i jak naukowcy mogą je kontrolować.",
-      "Odkrycia mogą pomóc naukowcom opracować mniejsze, bardziej wydajne systemy obliczeniowe i rozwinąć nowe technologie kwantowe.",
-      "Większość badań przeprowadzono w Instytucie Fizyki Uniwersytetu Johannesa Gutenberga w Moguncji, Niemcy, przy udziale profesora Norweskiego Uniwersytetu Naukowo-Technicznego (NTNU).",
-      "„Skyrmiony to małe, magnetyczne wiry, które mogą przechowywać informacje w zupełnie nowy sposób” - wyjaśnia Asle Sudbø, który kieruje Centrum Spintroniki Kwantowej NTNU (QuSpin)."
+      "Apple prezentuje 14-calowego MacBooka Pro z układem M6.",
+      "Tym razem jest to podstawowy model MacBooka Pro napędzany nowym układem M6, który zaprezentowany został kilka miesięcy temu i w pierwszej kolejności trafił do Maca mini .",
+      "M6 w tym modelu to w 12‑rdzeniowe CPU z 2 super rdzeniami, 4 rdzeniami zapewniającymi wydajność i 6 rdzeniami energooszczędnymi oraz 12-rdzeniowy układ graficzny.",
+      "Według danych Apple nowe GPU zapewniać ma do 30 proc. wyższą wydajność graficzną, a zadania związane ze sztuczną inteligencją mogą być wykonywane nawet o 25 proc. szybciej niż w przypadku procesora M5.",
+      "Podwójny, 16-rdzeniowy system Neural Engine ma z kolei osiągać do 1,9 raza lepsze wyniki od poprzednika.",
+      "Komputer ma w swojej podstawowej specyfikacji 16 GB pamięci RAM , którą można rozbudować do 24 lub 32 GB."
      ]
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "2%",
-    "3%",
-    "10.1103",
-    "99",
-    "2509.03327"
+    "10 000 zł",
+    "14",
+    "12",
+    "30 proc.",
+    "25 proc.",
+    "16"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "FeₓNbS₂",
-    "Physical Review Letters",
-    "X-ray",
-    "FeₓNbS₂ Physical Review Letters"
+    "Duo Nowy MacBook Pro",
+    "Duo"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Spider's Web",
+     "tytuł": "Nowy MacBook Pro M6. Wolę wydać 10 000 zł na to niż na iPhone Duo",
+     "url": "https://spidersweb.pl/2026/10/macbook-pro-m6-premiera-specyfikacja-ulepszenia.html"
+    },
+    {
+     "nazwa": "Antyweb",
+     "tytuł": "Nowy MacBook Pro kosztuje majątek. W zamian ma być ogromny skok wydajności",
+     "url": "https://antyweb.pl/nowy-macbook-pro-kosztuje-majatek-w-zamian-ma-byc-ogromny-skok-wydajnosci"
+    },
+    {
+     "nazwa": "Ars Technica",
+     "tytuł": "Apple refreshes the iMac, entry-level MacBook Pro with the M6 chip",
+     "url": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/"
+    },
+    {
+     "nazwa": "TechCrunch",
+     "tytuł": "Apple unveils new 14-inch MacBook Pro with M6 chip",
+     "url": "https://techcrunch.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-with-m6-chip/"
+    }
+   ],
+   "liczba_źródeł": 4,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 9.746,
+    "składowe": {
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 1.685,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.52,
+     "treściwość": 0.181,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Świetna nowość w Google Play. Wyczekiwana funkcja już jest",
+   "lead": "Google Play kopiuje najlepszą funkcję Nintendo. Gracze na Androidzie czekali na to latami.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-27T14:48:12+00:00",
+   "źródło": {
+    "nazwa": "Antyweb",
+    "url": "https://antyweb.pl/swietna-nowosc-w-google-play-wyczekiwana-funkcja-juz-jest",
+    "domena": "antyweb.pl"
+   },
+   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2026/04/google-play.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Do sklepu Google na Androidzie trafi wreszcie wyczekiwana nowość, z której ucieszą się szczególnie zapaleni gracze.",
+      "Smartfony od lat są szalenie ważnym elementem świata interaktywnej rozgrywki, oferując swoim posiadaczom dostęp do mnóstwa zaawansowanych i popularnych tytułów - niekiedy niekoniecznie ustępujących odpowiednikom z konsol czy pecetów, a zwłaszcza pod kątem popularności.",
+      "Jednak doskonale wiemy, że telefony to nie konsole - i nie chodzi tu wyłącznie o oferowaną moc obliczeniową.",
+      "Nie ulega bowiem wątpliwości, że nasze przenośne urządzenia nie mają szeregu funkcji dedykowanych graczom, które można spotkać na sprzętach przeznaczonych niemal wyłącznie do grania.",
+      "Czy mieliście kiedyś sytuację, w której w jakiejś grze udało wam się zrobić coś niesamowitego - na przykład jakiś trik czy inny popis umiejętności - ale nijak nie było szans, aby komukolwiek się tych pochwalić?",
+      "Wkrótce problem ten zniknie, a to za sprawą nowości, którą przygotowało Google.",
+      "Chodzi o Playbacks, czyli funkcję zintegrowaną z nakładką do gier sklepu Google Play.",
+      "Choć gigant z Mountain View zapowiadał to narzędzie na początku miesiąca, dopiero najnowsza kompilacja Sklepu Google Play oznaczona numerem v53.8 faktycznie odblokowuje je na telefonach użytkowników.",
+      "O co dokładnie chodzi i jak to działa?"
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Google Play – internetowy sklep Google z aplikacjami, grami, muzyką, książkami, magazynami, filmami i programami TV. Treści ze sklepu są przeznaczone do korzystania za pomocą urządzeń działających pod kontrolą systemów operacyjnych Android, Wear OS, Android TV, ChromeOS lub Chromium OS. Google Play powstało w wyniku przekształcenia Google Music oraz Android Market w ujednoliconą usługę. 12 kwietnia 2012 udostępniono polskim deweloperom możliwość sprzedaży programów."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Google Play",
+     "url": "https://pl.wikipedia.org/wiki/Google_Play"
+    }
+   ],
+   "dlaczego_to_ważne": "To mechanizm, który pozwoli nam utrwalić najbardziej ekscytujące momenty rozgrywki w formie wideo i czego na smartfonach brakowało.",
+   "liczby": [
+    "30",
+    "39",
+    "24",
+    "75%",
+    "10.1016"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Google Play",
+    "opis": "cyfrowa platforma dystrybucji oprogramowania firmy Google",
+    "tekst": "Google Play – internetowy sklep Google z aplikacjami, grami, muzyką, książkami, magazynami, filmami i programami TV. Treści ze sklepu są przeznaczone do korzystania za pomocą urządzeń działających pod kontrolą systemów operacyjnych Android, Wear OS, Android TV, ChromeOS lub Chromium OS. Google Play powstało w wyniku przekształcenia Google Music oraz Android Market w ujednoliconą usługę. 12 kwietnia 2012 udostępniono polskim deweloperom możliwość sprzedaży programów.",
+    "url": "https://pl.wikipedia.org/wiki/Google_Play",
+    "język": "pl"
+   },
+   "tagi": [
+    "Google Play",
+    "Nintendo",
+    "Google",
+    "Androidzie"
    ],
    "emotki": [
-    "🔬"
+    "🎮",
+    "💻"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Phys.org",
-     "tytuł": "Tiny shifts in iron content tip a potential memory material between competing magnetic states",
-     "url": "https://phys.org/news/2026-10-tiny-shifts-iron-content-potential.html"
+     "nazwa": "Antyweb",
+     "tytuł": "Świetna nowość w Google Play. Wyczekiwana funkcja już jest",
+     "url": "https://antyweb.pl/swietna-nowosc-w-google-play-wyczekiwana-funkcja-juz-jest"
     },
     {
-     "nazwa": "ScienceDaily Physics",
-     "tytuł": "Tiny magnetic vortices could help computers work more like your brain",
-     "url": "https://www.sciencedaily.com/releases/2026/10/261025073038.htm"
+     "nazwa": "Ars Technica",
+     "tytuł": "Google begins certifying Registered App Stores for Android, but not in the US",
+     "url": "https://arstechnica.com/gadgets/2026/10/googles-android-registered-app-stores-program-launches-dec-1-applications-now-open/"
+    },
+    {
+     "nazwa": "Phys.org Technology",
+     "tytuł": "Why were you shown that ad? Most platforms still won't say, despite EU law",
+     "url": "https://techxplore.com/news/2026-10-shown-ad-platforms-wont-eu.html"
     }
    ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 2,
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.688,
+    "wynik": 7.403,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.357,
-     "eksponowanie": 1.26,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.418,
-     "treściwość": 0.403,
-     "język_działu": 0.0
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.55,
+     "eksponowanie": 0.54,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.513,
+     "treściwość": 0.5,
+     "język_działu": 0.5
     }
    },
-   "oryginalny_nagłówek": "Tiny shifts in iron content tip a potential memory material between competing magnetic states",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   },
-   "miejsce": 1
+   "miejsce": 2
   },
   {
    "dział": {
@@ -1241,93 +1102,189 @@
     "emoji": "⚛️",
     "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
    },
-   "nagłówek": "Wady diamentowe potwierdzają 80-letnią teorię stresu krystalicznego",
-   "lead": "Po raz pierwszy naukowcy w Japonii bezpośrednio zmapowali kilka składników pola naprężeń otaczających wadę w skali atomowej w strukturze krystalicznej diamentu. Zespół pod kierunkiem Tokuyuki Teraji z Japońskiego Narodowego Instytutu Nauki o Materiałach osiągnął swój wynik przy użyciu centrów azot-wakancja (NV) w…",
+   "nagłówek": "KRĘGOSŁUP: program uczenia maszynowego jest na tropie cząstek duchów",
+   "lead": "ali Sundermier, SLAC National Accelerator Laboratory Neutrinos są jednymi z najliczniejszych cząstek we wszechświecie, ale są również jednymi z najbardziej nieuchwytnych. Niemal bezmasowe są wytwarzane przez reakcje jądrowe w słońcu, wybuchające gwiazdy, akceleratory cząstek, a nawet rozpad pierwiastków promieniotwórczych na…",
    "język_źródła": "en",
-   "opublikowano": "2026-10-26T14:30:01+00:00",
+   "opublikowano": "2026-10-27T19:10:01+00:00",
    "źródło": {
     "nazwa": "Phys.org",
-    "url": "https://phys.org/news/2026-10-diamond-defects-year-theory-crystal.html",
+    "url": "https://phys.org/news/2026-10-spine-machine-trail-ghost-particles.html",
     "domena": "phys.org"
    },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/diamond-defects-confir.jpg",
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/icarus.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Opublikowana w czasopiśmie Applied Physics Letters , technika ta potwierdza 80-letnią teorię o tym, jak miniaturowe pola naprężeń są rozmieszczone w diamentach.",
-      "Może również pomóc w ulepszeniu procesów wykorzystywanych do produkcji wysokiej jakości diamentu wymaganego przez pojawiające się technologie.",
-      "Nawet w innych uporządkowanych kryształach, takich jak diament, zawsze można znaleźć skazy w skali atomowej, w których sąsiednie rzędy atomów nie są ze sobą wyrównane.",
-      "Nazywane „dyslokacjami”, te wady tworzą drobne pola naprężeń, które przenikają przez otaczające atomy.",
-      "W całej sieci mogą one silnie wpływać na właściwości mechaniczne, elektryczne i magnetyczne materiału.",
-      "Ponad 80 lat temu fizycy wykorzystali teorię elastyczności do uzyskania matematycznego opisu tych pól naprężeń, znanego jako „tensor naprężeń”, który definiuje naprężenie w dowolnym punkcie otaczającym zwichnięcie.",
-      "Od tego czasu opis ten ugruntował nasze zrozumienie tego, jak zachowują się dyslokacje, od energii, którą magazynują, po siły, które na siebie wywierają.",
-      "Jednak bezpośredni pomiar tych mikroskopijnych pól naprężeń okazał się znacznie trudniejszy: istniejące techniki mogą uchwycić tylko niektóre aspekty naprężenia, więc teoria nigdy nie została w pełni przetestowana.",
-      "Niedawno trudność ta stała się bardziej nagląca w projektowaniu urządzeń elektroenergetycznych i kwantowych nowej generacji."
+      "Współdziałają tak słabo ze zwykłą materią, że tryliony przechodzą przez każdą osobę co sekundę, nie pozostawiając śladu.",
+      "Badanie tych upiornych cząstek może pomóc odpowiedzieć na niektóre z największych pytań w fizyce, od natury ciemnej materii po to, dlaczego materia w ogóle istnieje.",
+      "Ponieważ neutrina są tak nieuchwytne, naukowcy budują ogromne detektory i intensywne wiązki cząstek, aby złapać nawet niewielką ich liczbę w akcji.",
+      "Naukowcy muszą następnie zrekonstruować to, co się wydarzyło z niezwykle skomplikowanego obrazu torów cząstek, nakładających się sygnałów i aktywności tła.",
+      "Naukowcy z Krajowego Laboratorium Akceleratora Departamentu Energii (Doe) SLAC opracowali program uczenia maszynowego o nazwie SPINE, aby sprostać temu wyzwaniu.",
+      "SPINE, co oznacza Scalable Particle Imaging with Neural Embeddings, analizuje dane z komór projekcji czasowej ciekłego argonu, technologii detektora stosowanej w eksperymentach, w tym w programie Short-Baseline Neutrino w DOE's Fermi National Accelerator Laboratory w Illinois i Deep Underground Neutrino Experiment (DUNE), obecnie w budowie w Illinois i Dakocie Południowej i oczekuje się, że zacznie zbierać dane w 2030 roku.",
+      "SPINE uczy się na podstawie symulowanych obrazów detektorów, aby zidentyfikować cząstki, prześledzić ich ścieżki i połączyć ze sobą interakcje, które je wytworzyły.",
+      "„Wiele efektów, których szukamy w fizyce neutrin, to teraz dość małe efekty” - powiedział fizyk SLAC Mark Convery.",
+      "KRĘGOSŁUP jest trzecią nogą stołka.\"Detektory ciekłego argonu mieszczą od setek do tysięcy ton ultraczystego ciekłego argonu utrzymywanego w temperaturze około -300 F."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Kenshiro Teraji , znany również jako Ken Shiro , jest japońskim zawodowym bokserem. Od lipca 2026 roku zdobył tytuły mistrza świata w trzech kategoriach wagowych od wagi lekkiej do wagi junior-bantam, w tym tytuł mistrza świata w boksie (WBO) wagi junior-bantam."
+      "Jacques Adam Drielsma (14 października 1886 – 31 lipca 1974) był surinamskim prawnikiem i notariuszem, który pełnił obowiązki p.o. premiera Surinamu w 1951 roku, a w latach 1949-1952 ministra finansów. W 1957 roku został skazany na dwa lata więzienia za defraudację."
      ],
      "język": "en",
-     "przypis": "Wikipedia: Kenshiro Teraji",
-     "url": "https://en.wikipedia.org/wiki/Kenshiro_Teraji"
+     "przypis": "Wikipedia: Jacques Drielsma",
+     "url": "https://en.wikipedia.org/wiki/Jacques_Drielsma"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "80",
+    "-300",
+    "25",
     "100,000",
-    "45",
-    "12",
-    "10.1063",
-    "5.0353643"
+    "60%",
+    "800",
+    "1,300"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Kenshiro Teraji",
-    "opis": "Japanese boxer (born 1992)",
-    "tekst": "Kenshiro Teraji , also known as Ken Shiro , is a Japanese professional boxer. He has held world titles in three weight divisions from light-flyweight to junior-bantamweight including the World Boxing Organization (WBO) junior-bantamweight title since July 2026.",
-    "url": "https://en.wikipedia.org/wiki/Kenshiro_Teraji",
+    "hasło": "Jacques Drielsma",
+    "opis": "Surinamese politician",
+    "tekst": "Jacques Adam Drielsma (14 October 1886 – 31 July 1974) was a Surinamese lawyer and notary who served as acting Prime Minister of Suriname in 1951, and Finance minister between 1949 and 1952. In 1957, he was sentenced to two years in prison for embezzlement.",
+    "url": "https://en.wikipedia.org/wiki/Jacques_Drielsma",
     "język": "en"
    },
    "tagi": [
-    "Teraji",
-    "Applied Physics Letters",
-    "Teraji's",
-    "Japan's National Institute"
+    "Drielsma",
+    "Illinois",
+    "National Accelerator Laboratory",
+    "Short-Baseline Neutrino"
    ],
    "emotki": [
-    "🔬"
+    "⚛️"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Phys.org",
-     "tytuł": "Diamond defects confirm 80-year-old theory of crystal stress",
-     "url": "https://phys.org/news/2026-10-diamond-defects-year-theory-crystal.html"
+     "tytuł": "SPINE: A machine-learning program is on the trail of ghost particles",
+     "url": "https://phys.org/news/2026-10-spine-machine-trail-ghost-particles.html"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.009,
+    "wynik": 3.857,
     "składowe": {
      "potwierdzenia": 0.0,
      "ranga_źródła": 1.2,
-     "eksponowanie": 0.54,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.419,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.477,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Diamond defects confirm 80-year-old theory of crystal stress",
+   "oryginalny_nagłówek": "SPINE: A machine-learning program is on the trail of ghost particles",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Nowy konwerter może wypełnić lukę długości fali światła w komunikacji kwantowej",
+   "lead": "Sieci kwantowe, systemy łączące urządzenia wykorzystujące efekty mechaniki kwantowej, mogą potencjalnie pozwolić użytkownikom na bezpieczniejsze i skuteczniejsze udostępnianie informacji. Budowanie tych sieci zazwyczaj wiąże się z łączeniem stacjonarnych kubitów, jednostek informacji kwantowej zakodowanych w uwięzionych jonach lub innych systemach fizycznych, przy użyciu…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-27T12:40:01+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-10-bridge-wavelength-gap-quantum-communications.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-converter-could-br.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jednym z wyzwań przy próbie realizacji sieci kwantowych jest to, że niektóre układy fizyczne, które służą jako kubity, emitują promieniowanie ultrafioletowe, elektromagnetyczne o długościach fali w zakresie od około 100 do 400 nanometrów.",
+      "Jest to problematyczne, ponieważ wiadomo, że włókna światłowodowe, cienkie nici światłowodowe stosowane do łączenia urządzeń kwantowych, słabo przepuszczają światło o tych długościach fal.",
+      "Naukowcy z University of Science and Technology of China, Jinan Institute of Quantum Technology i innych instytucji opracowali niedawno nowy konwerter, który może pomóc w wypełnieniu luki między światłem ultrafioletowym emitowanym przez te systemy a długościami fal świetlnych przesyłanych przy mniejszych stratach przez światłowody.",
+      "Ich urządzenie, przedstawione w artykule opublikowanym w Physical Review Letters , opiera się na cienkowarstwowym niobianie litu, krystalicznym materiale, który umożliwia interakcje między falami świetlnymi o różnych długościach fal, uformowanymi w strukturę, która ogranicza i kieruje światło. \" Systemy uwięzionych jonów z dominującą emisją w ultrafiolecie i niebieskich obszarach spektralnych mają wyjątkowe właściwości, w tym długie czasy koherencji i kontrolę wysokiej wierności, co czyni je jednym z wiodących platform dla skalowalnych sieci kwantowych ”- powiedział Phys.org Qiang Zhang, współautor artykułu.",
+      "\"Jednak dla tych pasm długości fali tłumienie włókien jest poważne.„ Jednym ze znanych podejść do konwersji fotonów na długości fal telekomunikacyjnych, które przemieszczają się przez światłowody z niskimi stratami, jest kwantowa konwersja częstotliwości (QFC).",
+      "Metoda ta polega na zmianie częstotliwości fotonów przy jednoczesnym zachowaniu informacji kwantowej, którą niosą.",
+      "„Poprzednie konwertery generalnie cierpiały z powodu niskiej wydajności i wysokiego poziomu hałasu, ograniczając dystrybucję splątania w tym paśmie do odległości w skali metrowej” - powiedział Zhang.",
+      "„Aby temu zaradzić, chcieliśmy zrealizować wysokowydajne, niskoszumowe QFC od ultrafioletu do pasma telekomunikacyjnego, kładąc w ten sposób podwaliny pod zdalne połączenie uwięzionych węzłów jonowych w skalowalnych sieciach kwantowych.„ Opracowany przez autorów konwerter działa zgodnie z zasadą oszczędności energii.",
+      "Zasada ta mówi, że energii nie można wytworzyć ani zniszczyć, więc energia oddziałującego światła musi się równoważyć podczas jej konwersji."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Inżynierowie kwantowi Uniwersytetu Adelaide znaleźli nowy sposób na ulepszenie jednych z najbardziej czułych na świecie czujników pól elektromagnetycznych, przełom, który może pomóc w rozwoju obrazowania mózgu, diagnostyki medycznej, technologii komunikacyjnej i urządzeń kwantowych nowej generacji."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "100",
+    "400",
+    "527",
+    "393",
+    "1550",
+    "28.8%"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Zhang",
+    "Physical Review Letters",
+    "Phys.org",
+    "High-Performance Quantum Frequency Conversion"
+   ],
+   "emotki": [
+    "⚛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "New converter could bridge light wavelength gap in quantum communications",
+     "url": "https://phys.org/news/2026-10-bridge-wavelength-gap-quantum-communications.html"
+    },
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Quantum sensor loop design could improve magnetic measurements for medicine and communications",
+     "url": "https://phys.org/news/2026-10-quantum-sensor-loop-magnetic-medicine.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.645,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.38,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.458,
+     "treściwość": 0.477,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "New converter could bridge light wavelength gap in quantum communications",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -1341,114 +1298,109 @@
     "emoji": "🔭",
     "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
    },
-   "nagłówek": "Symulacja Lumina ożywia wczesny wszechświat na rekordową skalę",
-   "lead": "Kosmiczny Teleskop Jamesa Webba (JWST) i Kosmiczny Teleskop Nancy Romana szczegółowo ujawniają najwcześniejsze rozdziały wszechświata. Aby pomóc astronomom zrozumieć, co widzą, naukowcy z Centrum Astrofizyki | Harvard & Smithsonian opracowali „Luminę”, jedną z największych i najbardziej szczegółowych…",
+   "nagłówek": "Podwójny dysk szczątków krążący wokół martwej gwiazdy wskazuje na przyszłość naszego Układu Słonecznego",
+   "lead": "Astronomowie korzystający z Bardzo Dużego Teleskopu (VLT) Europejskiego Obserwatorium Południowego (ESO) znaleźli rzadki dysk ze szczątkami wokół martwej gwiazdy, który zapewnia wgląd w to, co może się stać z naszym Układem Słonecznym. W przeciwieństwie do podobnych systemów wcześniej odkrytych, szczątki - pozostałości planet, które niegdyś orbitowały wokół gwiazdy - są…",
    "język_źródła": "en",
-   "opublikowano": "2026-10-26T00:10:01+00:00",
+   "opublikowano": "2026-10-27T22:00:12+00:00",
    "źródło": {
     "nazwa": "Phys.org Astronomy",
-    "url": "https://phys.org/news/2026-10-lumina-simulation-early-universe-life.html",
+    "url": "https://phys.org/news/2026-10-debris-disk-orbiting-dead-star.html",
     "domena": "phys.org"
    },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/smithsonian-scientists-1.jpg",
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/dead-star-and-planetar.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Opublikowany w Monthly Notices of the Royal Astronomical Society nowy model odtwarza sposób, w jaki zwykła materia, ciemna materia i promieniowanie wchodziły w interakcje w ciągu pierwszych 2 miliardów lat istnienia wszechświata, dając naukowcom nowe narzędzie do testowania teorii o tym, jak kosmos ewoluował po Wielkim Wybuchu.",
-      "Porównując obserwacje z JWST, Roman i innych teleskopów z przewidywaniami Luminy, astronomowie mogą określić, czy ich rozumienie praw rządzących wszechświatem pozostaje dokładne, czy też nowe odkrycia mogą wymagać od nich ponownego przemyślenia istniejących teorii.",
-      "Przez wieki astronomowie obserwowali nocne niebo i opracowywali coraz bardziej wyrafinowane modele, aby wyjaśnić, w jaki sposób tworzą się gwiazdy, galaktyki i inne struktury kosmiczne.",
-      "Dziś symulacje superkomputerowe pozwalają badaczom przekształcić te teorie w szczegółowe przewidywania.",
-      "Kiedy obserwacje pasują do tych przewidywań, wzrasta zaufanie do istniejących teorii.",
-      "Kiedy tego nie robią, naukowcy zyskują możliwość odkrycia nowych spostrzeżeń na temat tego, jak działa wszechświat.",
-      "„Dzięki JWST wczesny wszechświat stał się ekscytującą nową granicą w astrofizyce” - powiedział naczelny autor Oliver Zier, członek ITC w Center for Astrophysics | Harvard & Smithsonian.",
-      "„Aby zrozumieć, co widzimy za pomocą tego teleskopu, musimy przełożyć nasze teorie na szczegółowe przewidywania.",
-      "Po kilku latach pracy, z mnóstwem wzlotów i upadków, niezwykle satysfakcjonujące jest oglądanie wyników symulacji i oglądanie naszych przewidywań na wideo.„ Lumina reprezentuje największą kiedykolwiek stworzoną symulację promieniowania i hydrodynamiki kosmologicznej."
+      "Dysk wydaje się być ukształtowany przez dwa ciała planetarne, prawdopodobnie tak duże jak Pluton, które przetrwały gwałtowną śmierć gwiazdy.",
+      "„Od jakiegoś czasu wiemy, że planety mogą przetrwać transformację swojej gwiazdy centralnej, ale jest to pierwszy przykład złożonego systemu z podwójnym dyskiem szczątków i potencjalnie dwoma zachowanymi planetozymalami” - mówi Nicola Gentile Fusillo, astronom z Università degli Studi di Trieste we Włoszech i naczelna autorka badania opublikowanego w tym tygodniu w Nature Astronomy .",
+      "Centralną gwiazdą tego systemu jest biały karzeł J1328 −1450, gęsty i wypalony rdzeń pozostawiony przez gwiazdę podobną do naszego słońca, któremu zabrakło paliwa.",
+      "Gdy gwiazdy takie jak Słońce wchodzą w ostatnie etapy swojego życia, rozszerzają się i zrzucają swoje zewnętrzne warstwy, pochłaniając i niszcząc pobliskie planety.",
+      "Zachowane ciała skaliste mogą się rozpadać, tworząc dysk wokół centralnej, martwej gwiazdy.",
+      "Jednak dysk wokół J1328 −1450 różni się od tych obserwowanych wokół innych martwych gwiazd: zamiast tylko jednego pierścienia wyparowanego gruzu planetarnego, gwiazda jest otoczona dwoma koncentrycznymi pierścieniami gruzu.",
+      "„Struktura, którą widzimy w tym systemie, jest szczególnie intrygująca, ponieważ dwa pierścienie gazowe są niezwykle stabilne i pozostają oddzielone przerwą” - mówi współautor Felipe Lagos-Vilches, astronom z University of Warwick w Wielkiej Brytanii i na Universidad Técnica Federico Santa María w Chile.",
+      "„System jest rzadkim spojrzeniem na gwałtowny, chaotyczny proces, w którym układ planetarny spotyka swój koniec, i wskazuje, że martwe gwiazdy mogą mieć struktury dyskowe znacznie bardziej złożone niż wcześniej sądzono” - dodaje Gentile Fusillo, który jest również stowarzyszony z Obserwatorium Autonomicznym INAF w Trieście.",
+      "Według zespołu, ta złożona podwójna struktura jest prawdopodobnie utrzymywana przez dwa zachowane ciała podobne do planety, na oddzielnych orbitach."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Położony przy przesunięciu ku czerwieni 6,5488 obiekt J1440 +0019zawiera szybko przybierającą na sile supermasywną czarną dziurę o masie około 1,1 miliarda słońc.",
-      "Współczesna astronomia oferuje ogromne teleskopy z segmentowanymi lustrami, ogromne aparaty cyfrowe, wyrafinowane strumienie danych i zestawy potężnych instrumentów o różnych konkretnych celach.",
-      "Kosmiczny Teleskop Jamesa Webba (JWST) i Kosmiczny Teleskop Nancy Grace 'a (NGRST) to dwa najbardziej wydajne istniejące teleskopy kosmiczne.",
-      "„Przedstawiamy Lumina, wielkoobjętościową symulację hydrodynamiczną promieniowania, która konsekwentnie śledzi sprzężoną ewolucję IGM, galaktyk i AGN poprzez rejonizację H i, He i i He ii aż do przesunięcia ku czerwieni z = 3.„ Redshift z=3 odpowiada czasowi wstecznemu około 11,7 miliarda lat, czyli około 2,1 miliarda lat po Wielkim Wybuchu."
+      "Tylko najbardziej masywne gwiazdy giną w eksplozjach supernowych, a te katastrofalne eksplozje ogłaszają ich śmierć w wybuchu stłumionego światła, wykrzyknika oznaczającego koniec ich życia w fuzji.",
+      "Rozszerzy się, a zewnętrzne warstwy gazu zostaną wyrzucone w przestrzeń wokół gwiazdy, tworząc wspaniałą mgławicę planetarną, prawdopodobnie najpiękniejsze dzieło natury.",
+      "Odkrycia te zostały zaprezentowane w badaniach zatytułowanych „ Podwójny dysk wokół białego karła wyrzeźbionego przez dwa ciała planetarne. \" Jest opublikowany w Nature Astronomy, a głównym autorem jest Nicola Gentille Fusillo.",
+      "Gentille Fusillo jest astronomem na Università degli Studi di Trieste (Wszechświecie Triestu) we Włoszech. „System jest rzadkim spojrzeniem na gwałtowny, chaotyczny proces, w którym układ planetarny spotyka swój koniec, i wskazuje, że martwe gwiazdy mogą mieć struktury dyskowe znacznie bardziej złożone niż wcześniej sądzono.” - Nicola Gentille Fusillo, Università degli Studi di Trieste."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Królewskie Towarzystwo Astronomiczne (RAS) jest wyuczonym społeczeństwem i organizacją charytatywną, która zachęca i promuje naukę o astronomii, nauce o układzie słonecznym, geofizyce i ściśle powiązanych gałęziach nauki. Jej siedziba znajduje się w Burlington House, na Piccadilly w Londynie. Stowarzyszenie liczy ponad 4000 członków, zwanych stypendystami, z których większość to profesjonalni badacze lub studenci podyplomowi. Około jedna czwarta stypendystów mieszka poza Wielką Brytanią."
+      "Nature Astronomy to recenzowane czasopismo naukowe wydawane przez Nature Portfolio. Po raz pierwszy został opublikowany w styczniu 2017 roku, choć pierwsze treści pojawiły się w Internecie w grudniu 2016 roku. Redaktorem naczelnym jest Paul Woods, który jest etatowym profesjonalnym redaktorem zatrudnionym przez czasopismo. Woods objął kierownictwo czasopisma w kwietniu 2024 roku od May Chiao, która je założyła. Redaktorami założycielami tego czasopisma, oprócz May Chiao, byli Paul Woods, Luca Maltagliati i Marios Karouzos."
      ],
      "język": "en",
-     "przypis": "Wikipedia: Royal Astronomical Society",
-     "url": "https://en.wikipedia.org/wiki/Royal_Astronomical_Society"
+     "przypis": "Wikipedia: Nature Astronomy",
+     "url": "https://en.wikipedia.org/wiki/Nature_Astronomy"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "2 billion",
-    "100",
-    "1.5 billion",
-    "15,000",
-    "10.1093",
-    "6.5488"
+    "1450",
+    "10.1038",
+    "026",
+    "03004",
+    "21",
+    "0.14"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Royal Astronomical Society",
-    "opis": "British learned society and charity",
-    "tekst": "The Royal Astronomical Society (RAS) is a learned society and charity that encourages and promotes the study of astronomy, solar-system science, geophysics and closely related branches of science. Its headquarters are in Burlington House, on Piccadilly in London. The society has over 4,000 members, known as fellows, most of whom are professional researchers or postgraduate students. Around a quarter of Fellows live outside the UK.",
-    "url": "https://en.wikipedia.org/wiki/Royal_Astronomical_Society",
+    "hasło": "Nature Astronomy",
+    "opis": "Academic journal",
+    "tekst": "Nature Astronomy is a peer reviewed scientific journal published by Nature Portfolio. It was first published in January 2017, although the first content appeared online in December 2016. The editor-in-chief is Paul Woods, who is a full-time professional editor employed by the journal. Woods took over the leadership of the journal in April 2024 from May Chiao, who launched the journal. The founding editors of this journal, in addition to May Chiao, were Paul Woods, Luca Maltagliati and Marios Karouzos.",
+    "url": "https://en.wikipedia.org/wiki/Nature_Astronomy",
     "język": "en"
    },
    "tagi": [
-    "Lumina",
-    "Royal Astronomical Society",
-    "Monthly Notices",
-    "Astrophysics"
+    "Nature Astronomy",
+    "Pluto",
+    "Universidad Técnica Federico Santa María",
+    "European Southern Observatory's"
    ],
    "emotki": [
-    "🔭",
-    "🔬"
+    "🪐",
+    "🔭"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Phys.org Astronomy",
-     "tytuł": "Lumina simulation brings the early universe to life on a record-breaking scale",
-     "url": "https://phys.org/news/2026-10-lumina-simulation-early-universe-life.html"
-    },
-    {
-     "nazwa": "Phys.org Astronomy",
-     "tytuł": "JWST and ALMA reveal a dusty, rapidly growing black hole in the early universe",
-     "url": "https://phys.org/news/2026-10-jwst-alma-reveal-dusty-rapidly.html"
+     "tytuł": "Double debris disk orbiting a dead star hints at our solar system's future",
+     "url": "https://phys.org/news/2026-10-debris-disk-orbiting-dead-star.html"
     },
     {
      "nazwa": "Universe Today",
-     "tytuł": "A Huge and Powerful New Simulation Helps Explain the Universe's Reionization",
-     "url": "https://www.universetoday.com/articles/a-huge-and-powerful-new-simulation-helps-explain-the-universes-reionization"
+     "tytuł": "Dead Planets Orbiting a Dead Star",
+     "url": "https://www.universetoday.com/articles/dead-planets-orbiting-a-dead-star"
     }
    ],
    "liczba_źródeł": 2,
-   "czas_czytania_min": 2,
+   "czas_czytania_min": 3,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 7.027,
+    "wynik": 7.283,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.53,
-     "eksponowanie": 1.98,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.471,
-     "treściwość": 0.446,
+     "ranga_źródła": 1.35,
+     "eksponowanie": 1.62,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.513,
+     "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Lumina simulation brings the early universe to life on a record-breaking scale",
+   "oryginalny_nagłówek": "Double debris disk orbiting a dead star hints at our solar system's future",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -1551,13 +1503,13 @@
    "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.883,
+    "wynik": 4.683,
     "składowe": {
      "potwierdzenia": 1.9,
      "ranga_źródła": 1.495,
-     "eksponowanie": 1.17,
+     "eksponowanie": 0.27,
      "słowa_kluczowe": 0.35,
-     "świeżość": 0.523,
+     "świeżość": 0.223,
      "treściwość": 0.445,
      "język_działu": 0.0
     }
@@ -1576,57 +1528,107 @@
     "emoji": "🗺️",
     "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
    },
-   "nagłówek": "Podgląd plików GML z planem ogólnym gminy na e-mapie",
-   "lead": "Firma Geo-System poinformowała na swoim blogu o rozbudowie narzędzia do wyświetlania plików w portalach e-mapa o obsługę plików GML z planem ogólnym gminy. Nowa funkcjonalność umożliwia przeglądanie zawartości plików bezpośrednio w przeglądarce internetowej.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-10-27T00:00:00+00:00",
+   "nagłówek": "Climate health harms outpace action, prompting calls for global health emergency",
+   "lead": "The 2026 Report of The Lancet Countdown on Health and Climate Change finds that many of the health risks and harms of climate change grew faster in the decade since the Paris Agreement was introduced (2016–2025) than in the decade before it (2006–2015). Clean energy investment, health system leadership, more…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-28T00:10:02+00:00",
    "źródło": {
-    "nazwa": "Geoforum",
-    "url": "https://geoforum.pl/news/37460/podglad-plikow-gml-z-planem-ogolnym-gminy-na-e-mapie",
-    "domena": "geoforum.pl"
+    "nazwa": "Phys.org Earth",
+    "url": "https://phys.org/news/2026-10-climate-health-outpace-action-prompting.html",
+    "domena": "phys.org"
    },
-   "obraz": null,
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2019/7-climatechange.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Wczytane pliki nie są przesyłane na serwer pozostają w pamięci przeglądarki na komputerze użytkownika.",
-      "Aby skorzystać z narzędzia, należy wybrać przycisk PLIK znajdujący się pod drzewkiem warstw, a następnie kliknąć..."
+      "The 10th Lancet Countdown annual report , led by University College London (UCL) and produced in collaboration with the World Health Organization (WHO) and published in The Lancet , represents the work of 146 multidisciplinary researchers from more than 100 institutions across more than 30 countries.",
+      "New this year, the report includes an updated media engagement indicator (indicator 5.1) and now also attributes estimated heat-related deaths to human-caused climate change (indicator 1.1.5).",
+      "That is why we are calling for climate change to be formally recognized as a global health emergency, with health placed at the center of every climate decision.\" Heat was linked to an average of 540,800 estimated deaths per year between 2016 and 2023, 68% of them (369,900) caused by climate change, up from 55% (219,100) per year in 2006–2015.",
+      "In 2023 alone, the hottest year in that period, heat was linked to a record 710,000 estimated deaths, exceeding those from malaria or HIV, with 71.5% of them driven by climate change.",
+      "Heat also reduced people's capacity to work productively in 2025, costing the global economy an estimated $1.07 trillion in potential income (0.91% of global economic output), the third consecutive year that losses topped $1 trillion.",
+      "Southeast Asia and Africa were hit hardest, with losses equivalent to 3.9% and 3.2% of GDP, respectively, compared with 0.2% in Europe and 1.5% in the Americas.",
+      "The agriculture and construction sectors, both largely outdoor and physically demanding, absorbed the biggest share of the losses (38% and 29%, respectively), because heat directly affects people's labor productivity and puts workers' health at risk.",
+      "More than half the world's land (51.8%) was hit by extreme drought for at least a month in 2025, the second-worst year on record after 2023.",
+      "Since 2016, the area affected by drought has grown more than 700% faster than it did in 2006–2015."
      ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "An estimated 350,000 synthetic chemicals had been registered for production as of 2020, and for the vast majority, we know next to nothing about their health effects.",
+      "But “we have really good data on the health effects for only 30 or 40 of these chemicals,” he warns.",
+      "CO 2 has soared upwards from roughly 280 ppm in the pre-industrial period to 429 ppm in 2026.",
+      "In the European Union, hundreds of hazardous chemicals have recently been banned under the Registration, Evaluation, Authorisation, and Restriction of Chemicals (REACH) regulation, which came into force in 2007, with plans to ban thousands more by 2030.",
+      "Environmental science & technology, 54 (5), 2575-2584. doi: 10.1021/acs.est.9b06379.s001 Monclús, L., Arp, H.",
+      "Nature , 643 (8071), 349-355. doi: 10.1038/s41586-025-09184-8 Mulders, Y., Cann, S., Carpenter, C., Chiles, T."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "The Paris Agreement is an international treaty on climate change that was signed in 2016. The treaty covers climate change mitigation, adaptation, and finance. The Paris Agreement was negotiated by 196 parties at the 2015 United Nations Climate Change Conference near Paris, France. As of January 2026, 194 members of the United Nations Framework Convention on Climate Change (UNFCCC) are parties to the agreement. Of the three UNFCCC member states which have not ratified the agreement, the only major emitter is Iran. The United States, the second largest emitter, withdrew from the agreement in 2020, rejoined in 2021, and withdrew again in 2026."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Paris Agreement",
+     "url": "https://en.wikipedia.org/wiki/Paris_Agreement"
     }
    ],
-   "dlaczego_to_ważne": "",
-   "liczby": [],
+   "dlaczego_to_ważne": "Conference of the Parties (COP31), it tracks 54 indicators of the health impacts of climate change and the health effects of climate action, including four new indicators introduced this year covering the availability of water in land (indicator 1.2.2), health care sector greenhouse gas footprint assessments (indicator 3.5.2), climate-related health research funding (indicator 4.3.4) and…",
+   "liczby": [
+    "10",
+    "146",
+    "30",
+    "31",
+    "54",
+    "1.2.2"
+   ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Paris Agreement",
+    "opis": "2015 international treaty regarding climate change",
+    "tekst": "The Paris Agreement is an international treaty on climate change that was signed in 2016. The treaty covers climate change mitigation, adaptation, and finance. The Paris Agreement was negotiated by 196 parties at the 2015 United Nations Climate Change Conference near Paris, France. As of January 2026, 194 members of the United Nations Framework Convention on Climate Change (UNFCCC) are parties to the agreement. Of the three UNFCCC member states which have not ratified the agreement, the only major emitter is Iran. The United States, the second largest emitter, withdrew from the agreement in 2020, rejoined in 2021, and withdrew again in 2026.",
+    "url": "https://en.wikipedia.org/wiki/Paris_Agreement",
+    "język": "en"
+   },
    "tagi": [
-    "Firma Geo-System"
+    "Lancet Countdown",
+    "Paris Agreement",
+    "WHO",
+    "University College London"
    ],
    "emotki": [
-    "🗺️"
+    "🔬"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Geoforum",
-     "tytuł": "Podgląd plików GML z planem ogólnym gminy na e-mapie",
-     "url": "https://geoforum.pl/news/37460/podglad-plikow-gml-z-planem-ogolnym-gminy-na-e-mapie"
+     "nazwa": "Phys.org Earth",
+     "tytuł": "Climate health harms outpace action, prompting calls for global health emergency",
+     "url": "https://phys.org/news/2026-10-climate-health-outpace-action-prompting.html"
+    },
+    {
+     "nazwa": "Mongabay",
+     "tytuł": "Global framework urgently needed to assess emerging health risks of novel chemicals, experts say",
+     "url": "https://news.mongabay.com/2026/10/global-framework-urgently-needed-to-assess-emerging-health-risks-of-novel-chemicals-experts-say/"
     }
    ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 3,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 4.138,
+    "wynik": 5.051,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.0,
-     "eksponowanie": 0.9,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.538,
-     "treściwość": 0.5,
-     "język_działu": 0.5
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.307,
+     "eksponowanie": 0.54,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.54,
+     "treściwość": 0.414,
+     "język_działu": 0.0
     }
    },
    "miejsce": 1
@@ -1638,53 +1640,90 @@
     "emoji": "🗺️",
     "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
    },
-   "nagłówek": "GUGiK szuka wykonawcy skanowania materiałów CZGiK",
-   "lead": "Do 3 listopada br. można składać oferty w przetargu Głównego Urzędu Geodezji i Kartografii na skanowanie materiałów centralnego zasobu geodezyjnego i kartograficznego w zakresie materiałów topograficznych i kartograficznych. Przedmiot zamówienia obejmuje: Przetworzenie do postaci cyfrowej analogowych materiałów…",
-   "język_źródła": "pl",
-   "opublikowano": "2026-10-27T00:00:00+00:00",
+   "nagłówek": "Antarctic rocks reveal a missing chapter of glacier history",
+   "lead": "Antarctica's glaciers were changing long before satellites, weather stations or cameras captured their transformations, and they left behind clues. Along Marguerite Bay on the western Antarctic Peninsula, ridges of rocks and debris mark former glacier margins.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-27T20:30:05+00:00",
    "źródło": {
-    "nazwa": "Geoforum",
-    "url": "https://geoforum.pl/news/37459/gugik-szuka-wykonawcy-skanowania-materialow-czgik",
-    "domena": "geoforum.pl"
+    "nazwa": "Phys.org Earth Sciences",
+    "url": "https://phys.org/news/2026-10-antarctic-reveal-chapter-glacier-history.html",
+    "domena": "phys.org"
    },
-   "obraz": null,
-   "sekcje": [],
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/marguerite-bay-antarct.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Now, researchers have assigned dates to some of them, filling a key gap in the region's glacier history.",
+      "The study presents the first direct surface-exposure ages for late-Neoglacial moraines, including Little Ice Age moraines, in Marguerite Bay, the largest bay on the western Antarctic Peninsula.",
+      "The scientists dated a moraine on Shoesmith Glacier on Horseshoe Island to 496 ± 79 years ago, placing its formation during the Little Ice Age.",
+      "Published in Quaternary Science Reviews , these findings offer new physical evidence of how glaciers in this part of Antarctica responded during one of the peninsula's most recent cooling periods.",
+      "Determining when the rocks were exposed allows us to map past glacier positions before direct observations.",
+      "Marguerite Bay was a key missing piece in that historical puzzle,\" explained professor Attila Çiner of the Eurasia Institute of Earth Sciences at Istanbul Technical University.",
+      "A key period is the Neoglacial, a cooling phase that began around 4,000 years ago and ended roughly 200 years ago.",
+      "Previous studies indicate that glaciers advanced in parts of the Antarctic Peninsula during this period, as evidenced by lake and marine sediments, raised beaches, buried mosses and glacial landforms.",
+      "This research does not claim to pinpoint the Little Ice Age in Antarctica but offers a missing piece by providing directly dated moraines that show when glaciers advanced there during this recent climate period."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "The Little Ice Age (LIA) was a period of regional cooling, particularly pronounced in the North Atlantic region. It was not a true ice age of global extent. The term was introduced into scientific literature by François E. Matthes in 1939. The period has been conventionally defined as extending from the 16th to the 19th centuries, but some experts prefer an alternative time-span from about 1300 to about 1850."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Little Ice Age",
+     "url": "https://en.wikipedia.org/wiki/Little_Ice_Age"
+    }
+   ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "300"
+    "496",
+    "79",
+    "4,000",
+    "200",
+    "1300",
+    "1850"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Little Ice Age",
+    "opis": "Climatic cooling after the Medieval Warm Period (16th–19th centuries)",
+    "tekst": "The Little Ice Age (LIA) was a period of regional cooling, particularly pronounced in the North Atlantic region. It was not a true ice age of global extent. The term was introduced into scientific literature by François E. Matthes in 1939. The period has been conventionally defined as extending from the 16th to the 19th centuries, but some experts prefer an alternative time-span from about 1300 to about 1850.",
+    "url": "https://en.wikipedia.org/wiki/Little_Ice_Age",
+    "język": "en"
+   },
    "tagi": [
-    "Głównego Urzędu Geodezji",
-    "Przetworzenie",
-    "Kartografii",
-    "CZGiK"
+    "Little Ice Age",
+    "Antarctic Peninsula",
+    "Marguerite Bay",
+    "Neoglacial"
    ],
    "emotki": [
-    "🗺️"
+    "🧊"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Geoforum",
-     "tytuł": "GUGiK szuka wykonawcy skanowania materiałów CZGiK",
-     "url": "https://geoforum.pl/news/37459/gugik-szuka-wykonawcy-skanowania-materialow-czgik"
+     "nazwa": "Phys.org Earth Sciences",
+     "tytuł": "Antarctic rocks reveal a missing chapter of glacier history",
+     "url": "https://phys.org/news/2026-10-antarctic-reveal-chapter-glacier-history.html"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.698,
+    "wynik": 3.658,
     "składowe": {
      "potwierdzenia": 0.0,
-     "ranga_źródła": 1.0,
-     "eksponowanie": 0.81,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.538,
-     "treściwość": 0.5,
-     "język_działu": 0.5
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.494,
+     "treściwość": 0.434,
+     "język_działu": 0.0
     }
    },
    "miejsce": 2
@@ -1696,72 +1735,103 @@
     "emoji": "🎬",
     "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
    },
-   "nagłówek": "Nie żyje Walter Koenig. Był gwiazdą serialu \"Star Trek\"",
-   "lead": "Walter Koenig zmarł w wieku 90 lat w Los Angeles — donosi tygodnik \"Variety\". Aktor zagrał rolę Pavla Chekova w serialu \"Star Trek\".",
+   "nagłówek": "Został gwiazdą jednego z najważniejszych wydarzeń w USA. Sam się wybrał?",
+   "lead": "Podczas poniedziałkowego meczu ligi NFL potwierdzono, że muzyczną gwiazdą przyszłorocznego Super Bowl został Jay-Z. W sieci od dawna krążyły plotki, że to właśnie raper wystąpi w ramach Halftime Show, choć wskazywano jeszcze na Justina Biebera czy Miley Cyrus.",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-26T17:27:54+00:00",
+   "opublikowano": "2026-10-27T07:54:56+00:00",
    "źródło": {
-    "nazwa": "Onet Kultura",
-    "url": "https://kultura.onet.pl/film/wiadomosci/nie-zyje-walter-koenig-byl-gwiazda-serialu-star-trek/t0rbvwj",
-    "domena": "kultura.onet.pl"
+    "nazwa": "Interia Muzyka",
+    "url": "https://muzyka.interia.pl/hip-hop/news-jay-z-zostal-ogloszony-gwiazda-super-bowl-2027-od-kilku-lat,nId,23564484",
+    "domena": "muzyka.interia.pl"
    },
-   "obraz": "https://cdn.kultura.onet.pl/1/iHHk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy8yOTYwOTI1NmU2NTY4NzljNTZjODE5ZmRlNjJkMjBjZi5qcGeSlQMAe80HMs0EC5MFzQlgzQZA3gACoTAHoTEE",
-   "sekcje": [],
+   "obraz": "https://i.iplsc.com/-/000NGKE4ESUX4TQ8-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Teraz wszystko stało się jasne - jako właściciel firmy Roc Nation, organizującej całe przedsięwzięcie, Jay-Z wybrał samego siebie.",
+      "To świetna okazja na kontynuację obchodów 30-lecia gwiazdora na scenie.",
+      "Raper pojawi się na scenie podczas przerwy meczu ligi futbolu amerykańskiego NFL 14 lutego 2027 r.",
+      "Widowisko sportowo-muzyczne będzie miało miejsce na stadionie SoFi w Inglewood w Kalifornii.",
+      "Wieści te przekazano podczas poniedziałkowej transmisji telewizyjnej meczu \"Monday Night Football\".",
+      "W przerwie od gry oczom widzów ukazał się krótki, czarno-biały klip, przedstawiający Jaya-Z siedzącego na trybunach.",
+      "W tle usłyszeć można było \"Public Service Announcement (Interlude)\" z wydanego w 2003 r. albumu \"The Black Album\".",
+      "\"Pozwólcie, że jeszcze raz się przedstawię.",
+      "Nazywam się Hov, H-O-V\" - zaśpiewał muzyk, a na ekranie pojawił się napis: \"GOAT's out of the bag\"."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Super Bowl – finałowy mecz o mistrzostwo w futbolu amerykańskim zawodowej ligi National Football League (NFL), będący najważniejszym sportowym wydarzeniem roku w Stanach Zjednoczonych. Całość ceremonii określana jest jako Super Bowl Sunday w skrócie Super Sunday i stała się nieformalnym amerykańskim świętem narodowym. Dzień finału jest także drugim dniem z największą ilością spożytego jedzenia w Stanach Zjednoczonych."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Super Bowl",
+     "url": "https://pl.wikipedia.org/wiki/Super_Bowl"
+    }
+   ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "90 lat",
-    "36",
-    "50",
-    "83",
-    "41",
-    "46"
+    "30",
+    "14",
+    "25",
+    "56",
+    "44",
+    "89"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Super Bowl",
+    "opis": "finałowy mecz o mistrzostwo w futbolu amerykańskim zawodowej ligi National Football League",
+    "tekst": "Super Bowl – finałowy mecz o mistrzostwo w futbolu amerykańskim zawodowej ligi National Football League (NFL), będący najważniejszym sportowym wydarzeniem roku w Stanach Zjednoczonych. Całość ceremonii określana jest jako Super Bowl Sunday w skrócie Super Sunday i stała się nieformalnym amerykańskim świętem narodowym. Dzień finału jest także drugim dniem z największą ilością spożytego jedzenia w Stanach Zjednoczonych.",
+    "url": "https://pl.wikipedia.org/wiki/Super_Bowl",
+    "język": "pl"
+   },
    "tagi": [
-    "Star Trek Walter Koenig",
-    "Pavla Chekova",
-    "Los Angeles",
-    "Star Trek"
+    "Jay-Z",
+    "Super Bowl",
+    "Halftime Show",
+    "Miley Cyrus"
    ],
    "emotki": [
-    "🎬",
-    "🎭"
+    "🎵"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Onet Kultura",
-     "tytuł": "Nie żyje Walter Koenig. Był gwiazdą serialu \"Star Trek\"",
-     "url": "https://kultura.onet.pl/film/wiadomosci/nie-zyje-walter-koenig-byl-gwiazda-serialu-star-trek/t0rbvwj"
+     "nazwa": "Interia Muzyka",
+     "tytuł": "Został gwiazdą jednego z najważniejszych wydarzeń w USA. Sam się wybrał?",
+     "url": "https://muzyka.interia.pl/hip-hop/news-jay-z-zostal-ogloszony-gwiazda-super-bowl-2027-od-kilku-lat,nId,23564484"
     },
     {
      "nazwa": "BBC Kultura",
-     "tytuł": "Star Trek actor Walter Koenig, who played Pavel Chekov, dies aged 90",
-     "url": "https://www.bbc.co.uk/news/articles/cv0ldjzg9xppo?at_medium=RSS&at_campaign=rss"
+     "tytuł": "Jay-Z to perform at Super Bowl half-time show",
+     "url": "https://www.bbc.co.uk/news/articles/cq8ezg4364epo?at_medium=RSS&at_campaign=rss"
     },
     {
      "nazwa": "The Guardian Culture",
-     "tytuł": "Walter Koenig, actor best known as Chekov on Star Trek, dies aged 90",
-     "url": "https://www.theguardian.com/culture/2026/oct/26/walter-koenig-actor-star-trek-dies"
+     "tytuł": "Jay-Z picks headliner for 2027 Super Bowl half-time show … Jay-Z",
+     "url": "https://www.theguardian.com/music/2026/oct/27/jay-z-to-headline-2027-super-bowl-half-time-show"
     },
     {
-     "nazwa": "The Guardian Culture",
-     "tytuł": "Eric Bauza, award-winning Looney Tunes voice actor, dies aged 46",
-     "url": "https://www.theguardian.com/culture/2026/oct/26/eric-bauza-award-winning-looney-tunes-voice-actor-dies-aged-46"
+     "nazwa": "Pitchfork",
+     "tytuł": "Jay-Z Confirmed for Super Bowl 2027 Halftime Show",
+     "url": "https://pitchfork.com/story/jay-z-confirmed-for-super-bowl-2027-halftime-show/"
     }
    ],
-   "liczba_źródeł": 3,
+   "liczba_źródeł": 4,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 9.166,
+    "wynik": 8.866,
     "składowe": {
-     "potwierdzenia": 3.8,
-     "ranga_źródła": 1.665,
-     "eksponowanie": 1.53,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.471,
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 1.65,
+     "eksponowanie": 0.18,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.336,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -1775,66 +1845,66 @@
     "emoji": "🎬",
     "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
    },
-   "nagłówek": "AI splagiatowało Elvisa Presleya? Sprawa zostanie rozwiązana w sądzie!",
-   "lead": "Właściciele praw do kultowych piosenek Elvisa Presleya rozpoczęli batalię sądową z firmą Anthropic, która stworzyła chatbota z funkcjami AI i postanowiła wytrenować go w specyficzny sposób. Użyła utworów Króla Rock and Rolla, aby rozwijać swoje modele sztucznej inteligencji.",
+   "nagłówek": "Cały świat żył aferą z Macklemorem. Teraz przekuł ją w coś dobrego!",
+   "lead": "We wrześniu media na całym świecie żyły aferą między Edem Sheeranem i Macklemorem. Drugi z wymienionych występował w roli supportu podczas amerykańskiej części trasy \"Loop Tour\".",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-26T08:13:21+00:00",
+   "opublikowano": "2026-10-27T10:52:52+00:00",
    "źródło": {
     "nazwa": "Interia Muzyka",
-    "url": "https://muzyka.interia.pl/mocny-temat/news-wlasciciele-praw-do-tworczosci-elvisa-presleya-pozwali-firme,nId,23563914",
+    "url": "https://muzyka.interia.pl/mocny-temat/news-charytatywna-trasa-koncertowa-macklemore-a-ruszyla-jesli-mas,nId,23564645",
     "domena": "muzyka.interia.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000NGFIAMGDKQYM9-C321.webp",
+   "obraz": "https://i.iplsc.com/-/000NGLWVQKLD0VHR-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Mowa aż o 274 kawałkach, które zostały wykorzystane bez zgody spadkobierców.",
-      "Kilka dni temu do sądu trafił pozew wystosowany przez właścicieli praw do utworów Elvisa Presleya .",
-      "Oskarżają oni firmę Anthropic Brands Group o niedozwolone praktyki dotyczące trenowania stworzonego przez nich chatbota Claude .",
-      "Firma ta od lat zarządza dużą częścią praw do wizerunku oraz twórczości Króla Rock and Rolla i rzekomo miała to wykorzystać.",
-      "Pozostali właściciele praw uważają, że Anthropic bez zgody wykorzystał słowa piosenek Presleya oraz słynne melodie do rozwoju swoich modeli sztucznej inteligencji.",
-      "Ma chodzić aż o 274 kawałki , a wśród nich wymieniono m.in.",
-      "\"Can't Help Falling in Love\", \"All Shook Up\", \"Don't Be Cruel\", \"A Little Less Conversation\", \"Return to Sender\" czy \"(You're the) Devil in Disguise\" .",
-      "Na liście wskazanej przez spadkobierców znalazły się również \"Farther Along\", \"If You Think I Don't Need You\" i \"Run On\" .",
-      "Zarządzający twórczością Presleya rozpoczęli sądową batalię i domagają się od firmy aż 150 tys. dolarów za każdy z blisko 300 kawałków."
+      "Gdy pewnego wieczoru na scenie okazał wsparcie Palestyńczykom i wprost mówił o sytuacji panującej w Strefie Gazy, promotor oznajmił o jego odsunięciu.",
+      "Niedługo później Macklemore postanowił przekuć skandal w coś dobrego - ogłosił charytatywne tournee \"Free Palestine\", z którego dochód ma zostać przeznaczony na pomoc poszkodowanym Palestyńczykom.",
+      "26 października amerykański raper Macklemore ruszył ze swoją charytatywną trasą koncertową \"Free Palestine\" .",
+      "Pierwszego wieczoru zagrał dla 13 tys. widzów na dublińskiej 3Arena.",
+      "Wraz z nim na scenie pojawili się goście specjalni: folkowy zespół Beoga , który odszedł z trasy Eda Sheerana po wrześniowej aferze, wokalista Hozier oraz hip-hopowe trio Kneecap , które głośno wspiera poszkodowane na całym świecie narody, przez co m.in. objęte zostało trzyletnim zakazem wjazdu na Węgry i usunięte z line-upu Sziget Festivalu w 2025 r.",
+      "Całkowity dochód z rozpoczętej właśnie trasy koncertowej ma trafić na pomoc dla Palestyńczyków.",
+      "Kolejnymi przystankami tournee będą Londyn oraz Paryż.",
+      "Zagraniczne media, w tym BBC, poinformowały, co działo się podczas pierwszego z charytatywnych wydarzeń.",
+      "Fani Macklemore'a mieli zgromadzić się pod areną kilka godzin przed rozpoczęciem koncertu."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Anthropic PBC – amerykańskie przedsiębiorstwo zajmujące się sztuczną inteligencją, założone w 2021 roku przez byłych pracowników OpenAI, w tym rodzeństwo Dario i Daniela Amodei. Spółka rozwija rodzinę dużych modeli językowych Claude, narzędzia dla programistów, w tym Claude Code, oraz standard Model Context Protocol."
+      "Macklemore, właśc. Ben Haggerty – amerykański raper. Rozpoczął tworzenie muzyki w 2000 roku, a następnie podjął współpracę z producentem Ryanem Lewisem, skrzypkiem Andrew Joslynem oraz trębaczem Owuor Arunga. Przed podpisaniem kontraktu z wytwórnią płytową wydał jeden mixtape, trzy minialbumy oraz jeden album."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Anthropic",
-     "url": "https://pl.wikipedia.org/wiki/Anthropic"
+     "przypis": "Wikipedia: Macklemore",
+     "url": "https://pl.wikipedia.org/wiki/Macklemore"
     }
    ],
-   "dlaczego_to_ważne": "",
+   "dlaczego_to_ważne": "Ed Sheeran nie stanął w obronie rapera, co skutkowało znaczną utratą odbiorców i kolejnych artystów, którzy szykowali się do gościnnych występów z piosenkarzem.",
    "liczby": [
-    "274",
-    "150 tys.",
-    "300",
-    "41,1 mln",
-    "150,000",
-    "31"
+    "26",
+    "13 tys.",
+    "35",
+    "13,000",
+    "19",
+    "55"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Anthropic",
-    "opis": "amerykańskie przedsiębiorstwo zajmujące się sztuczną inteligencją",
-    "tekst": "Anthropic PBC – amerykańskie przedsiębiorstwo zajmujące się sztuczną inteligencją, założone w 2021 roku przez byłych pracowników OpenAI, w tym rodzeństwo Dario i Daniela Amodei. Spółka rozwija rodzinę dużych modeli językowych Claude, narzędzia dla programistów, w tym Claude Code, oraz standard Model Context Protocol.",
-    "url": "https://pl.wikipedia.org/wiki/Anthropic",
+    "hasło": "Macklemore",
+    "opis": "amerykański raper i autor piosenek",
+    "tekst": "Macklemore, właśc. Ben Haggerty – amerykański raper. Rozpoczął tworzenie muzyki w 2000 roku, a następnie podjął współpracę z producentem Ryanem Lewisem, skrzypkiem Andrew Joslynem oraz trębaczem Owuor Arunga. Przed podpisaniem kontraktu z wytwórnią płytową wydał jeden mixtape, trzy minialbumy oraz jeden album.",
+    "url": "https://pl.wikipedia.org/wiki/Macklemore",
     "język": "pl"
    },
    "tagi": [
-    "Elvisa Presleya",
-    "Anthropic",
-    "Presleya",
-    "Króla Rock"
+    "Macklemore",
+    "Palestyńczykom",
+    "Macklemore'a",
+    "Sheeran"
    ],
    "emotki": [
     "🎵"
@@ -1842,36 +1912,31 @@
    "wszystkie_źródła": [
     {
      "nazwa": "Interia Muzyka",
-     "tytuł": "AI splagiatowało Elvisa Presleya? Sprawa zostanie rozwiązana w sądzie!",
-     "url": "https://muzyka.interia.pl/mocny-temat/news-wlasciciele-praw-do-tworczosci-elvisa-presleya-pozwali-firme,nId,23563914"
+     "tytuł": "Cały świat żył aferą z Macklemorem. Teraz przekuł ją w coś dobrego!",
+     "url": "https://muzyka.interia.pl/mocny-temat/news-charytatywna-trasa-koncertowa-macklemore-a-ruszyla-jesli-mas,nId,23564645"
     },
     {
      "nazwa": "BBC Kultura",
-     "tytuł": "Owners of Elvis music rights sue Anthropic for copyright violations",
-     "url": "https://www.bbc.co.uk/news/articles/c6rmyl0kxyxjo?at_medium=RSS&at_campaign=rss"
+     "tytuł": "Macklemore begins Free Palestine tour after Ed Sheeran fallout",
+     "url": "https://www.bbc.co.uk/news/articles/cqkgl82nm43po?at_medium=RSS&at_campaign=rss"
     },
     {
-     "nazwa": "The Guardian Culture",
-     "tytuł": "Anthropic sued for allegedly using 274 Elvis Presley songs to train AI models",
-     "url": "https://www.theguardian.com/us-news/2026/oct/25/elvis-presley-anthropic-lawsuit-ai-models-music"
-    },
-    {
-     "nazwa": "Pitchfork",
-     "tytuł": "Elvis Presley Catalog Owners Sue AI Company Anthropic for Copyright Infringement",
-     "url": "https://pitchfork.com/story/elvis-presley-catalog-owners-sue-ai-company-anthropic-for-copyright-infringement/"
+     "nazwa": "The Guardian Music",
+     "tytuł": "Macklemore’s Free Palestine tour review – a triumph of a show with performances from Hozier, Kneecap and more",
+     "url": "https://www.theguardian.com/music/2026/oct/27/macklemore-free-palestine-tour-review-a-triumph-with-hozier-kneecap-dublin"
     }
    ],
-   "liczba_źródeł": 4,
+   "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 8.95,
+    "wynik": 7.726,
     "składowe": {
-     "potwierdzenia": 5.7,
-     "ranga_źródła": 1.65,
-     "eksponowanie": 0.18,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.42,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.492,
+     "eksponowanie": 0.36,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.374,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -1881,16 +1946,20 @@
  ],
  "braki": [],
  "statystyki": {
-  "kanały_ok": 71,
-  "kanały_błędne": 1,
-  "znaki_tłumaczone": 14910,
+  "kanały_ok": 70,
+  "kanały_błędne": 2,
+  "znaki_tłumaczone": 19866,
   "niedziałające_kanały": [
+   {
+    "url": "https://geoforum.pl/rss",
+    "powód": "HTTP 403"
+   },
    {
     "url": "https://www.filmweb.pl/rss/news",
     "powód": "HTTP 404"
    }
   ],
   "działy": 18,
-  "artykuły_w_oknie": 68
+  "artykuły_w_oknie": 57
  }
 }
