@@ -1,0 +1,1859 @@
+{
+ "wersja": "1.0.0",
+ "wydanie": "2026-10-30",
+ "dotyczy_dnia": "2026-10-29",
+ "wygenerowano": "2026-10-30T12:02:40+00:00",
+ "strefa": "Europe/Warsaw",
+ "tryb": "ekstrakcyjny",
+ "demo": false,
+ "pozycje": [
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Tusk odpowiedział Kaczyńskiemu, chodzi o UE. \"Tak się zaczyna katastrofa\"",
+   "lead": "Wybory w 2027 roku będą wstępem do referendum, czy Polska pozostanie w Unii Europejskiej, czy z niej wychodzi - ocenił Donald Tusk. Premier odniósł się tym samym do wcześniejszego wystąpienia Jarosława Kaczyńskiego, podczas którego prezes PiS wymienił m.in. możliwe metody wprowadzenia zmian we Wspólnocie. - Nie ulega…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-29T16:24:53+00:00",
+   "źródło": {
+    "nazwa": "Interia Fakty",
+    "url": "https://wydarzenia.interia.pl/kraj/news-tusk-odpowiedzial-kaczynskiemu-chodzi-o-ue-tak-sie-zaczyna-k,nId,23566161",
+    "domena": "wydarzenia.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NH1BUKPT3V7EC-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Szef rządu wskazał, że w jego ocenie proces ten \"może zacząć się tak, jak to właśnie niedawno ogłosił Kaczyński\" . - Będziemy renegocjować, rozpoczniemy jakieś twarde rozmowy i że będą to rozmowy na temat warunków wyjścia Polski z Unii Europejskiej.",
+      "Tak się zaczyna katastrofa - podkreślił.",
+      "Donald Tusk zaapelował jednocześnie do Polaków, aby ci pamiętali i notowali \"każde słowo Kaczyńskiego, Mentzen, Brauna czy Nawrockiego\". - Każde słowo o Unii Europejskiej, bo z tego układa się właśnie taki obraz.",
+      "Obraz determinacji tych ludzi, aby Polska była znowu poza Europą .",
+      "Musimy być razem - zaznaczył. - W szystkie spory powinny być unieważnione wtedy, kiedy stawką jest polskie bezpieczeństwo, Unia Europejska, wolności i prawa obywatelskie.",
+      "Chciałbym jeszcze raz przypomnieć, że właśnie ta stawka jest wysoka i absolutnie fundamentalna.",
+      "Pamiętajmy o tym - zaapelował premier Dodajmy, że szef rządu w nagraniu wymienił też gospodarcze korzyści, wynikające z członkostwa Warszawy w Unii Europejskiej .",
+      "Jak zaznaczył, od 2004 roku polska gospodarka urosła nominalnie trzykrotnie, a eksport do Europy zwiększył się dwunastokrotnie.",
+      "Jak podkreślił, kraj uzyskał z unijnego budżetu netto ponad 160 mld euro. - I to wszystko zainwestowaliśmy we wszystkie dziedziny życia w Polsce właściwie, dzięki czemu dzisiaj Polska uchodzi za kraj absolutnego sukcesu - ocenił."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jarosław Aleksander Kaczyński – polski polityk i doktor nauk prawnych, w latach 2006–2007 prezes Rady Ministrów."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Jarosław Kaczyński",
+     "url": "https://pl.wikipedia.org/wiki/Jaros%C5%82aw_Kaczy%C5%84ski"
+    }
+   ],
+   "dlaczego_to_ważne": "Premier zaznaczył przy tym, że zdaje sobie sprawę z faktu, iż \"nie każdy myśli o tym, jakie są prawdziwe konsekwencje wyborów politycznych\". - Chciałbym i będę to głośno powtarzał, żeby nikt już nie mógł udawać przed samym sobą, że nie wie, o co się gra toczy, o jaką stawkę - mówił. - Między innymi o to, czy Polska będzie częścią Unii Europejskiej, a jest dzisiaj jednym z liderów Unii…",
+   "liczby": [
+    "160 mld eur"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Jarosław Kaczyński",
+    "opis": "polski polityk i prawnik, prezes partii Prawo i Sprawiedliwość od 2003 roku, były premier",
+    "tekst": "Jarosław Aleksander Kaczyński – polski polityk i doktor nauk prawnych, w latach 2006–2007 prezes Rady Ministrów.",
+    "url": "https://pl.wikipedia.org/wiki/Jaros%C5%82aw_Kaczy%C5%84ski",
+    "język": "pl"
+   },
+   "tagi": [
+    "Unii Europejskiej",
+    "Polska",
+    "Polski",
+    "Jarosława Kaczyńskiego"
+   ],
+   "emotki": [
+    "🗳️",
+    "🏛️",
+    "🚑"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Tusk odpowiedział Kaczyńskiemu, chodzi o UE. \"Tak się zaczyna katastrofa\"",
+     "url": "https://wydarzenia.interia.pl/kraj/news-tusk-odpowiedzial-kaczynskiemu-chodzi-o-ue-tak-sie-zaczyna-k,nId,23566161"
+    },
+    {
+     "nazwa": "Notes from Poland",
+     "tytuł": "Polish opposition leader sparks controversy with speech on potential EU exit talks",
+     "url": "https://notesfrompoland.com/2026/10/29/polish-opposition-leader-sparks-controversy-with-speech-on-potential-eu-exit-talks/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.428,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.135,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.443,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Wyniki wyborów w Izraelu. Partia Netanjahu na czele",
+   "lead": "Partia Binjamina Netanjahu wygrywa wybory w Izraelu. Rezultaty po przeliczeniu 99,9 proc. oddanych głosów wskazują, że Likud, ugrupowanie obecnego premiera, otrzyma najwięcej miejsc w 120-osobowym Knesecie.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-29T19:58:28+00:00",
+   "źródło": {
+    "nazwa": "Interia Fakty",
+    "url": "https://wydarzenia.interia.pl/zagranica/news-wyniki-wyborow-w-izraelu-partia-netanjahu-na-czele,nId,23565223",
+    "domena": "wydarzenia.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NH2AGMCVEBCUA-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Polityk będzie miał jednak problem z utworzeniem rządu - jego blok nie zdobył bowiem większości parlamentarnej.",
+      "Blok premiera Binjamina Netanjahu zdobył 53 miejsca w Knesecie , otwiera się w nowym oknie , podczas gdy ugrupowania opozycyjne skupione wokół byłego szefa sztabu armii Gadiego Ajzenkota zdobyły 48 miejsc - poinformowała Centralna Komisja Wyborcza Izraela , otwiera się w nowym oknie po podliczeniu 99,9 proc. głosów oddanych we wtorkowych wyborach parlamentarnych.",
+      "Żaden z bloków nie zdobył 61 mandatów niezbędnych do uzyskania większości w Knesecie bez poparcia partii arabskich , które zdobyły łącznie rekordową liczbę 19 miejsc .",
+      "Centralna Komisja Wyborcza ma zakończyć liczenie głosów w czwartek wieczorem.",
+      "Wyniki podano w trakcie prowadzonego przez izraelski kontrwywiad (Szin Bet) śledztwa w sprawie podejrzeń, że podmioty zagraniczne, w tym rzekomo Katar , otwiera się w nowym oknie i Turcja , otwiera się w nowym oknie , nielegalnie finansowały działania mające zwiększyć frekwencję wśród arabskich wyborców.",
+      "Przewodniczący Centralnej Komisji Wyborczej Izraela Noam Sohlberg polecił szefowi Shin Betu Davidowi Ziniemu wszcząć dochodzenie w sprawie podejrzeń o zagraniczne finansowanie kampanii i korupcję wyborczą .",
+      "Centralna Komisja Wyborcza oświadczyła później, że integralność głosowania w lokalach wyborczych została zachowana.",
+      "Według niemal pełnych wyników partia Likud premiera Netanjahu zdobyła 27 mandatów (o pięć mniej niż w poprzednich wyborach) co ponownie uczyni ją największą formacją w Knesecie.",
+      "Nowa, centrowa partia Prosto (Jaszar) byłego szefa sztabu armii i lidera bloku opozycyjnego Gadiego Ajzenkota uzyskała 21 miejsc , a centroprawicowe ugrupowanie Razem byłego premiera Naftalego Beneta - 12."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Co istotne, oba bloki nie zdobyły 61 mandatów potrzebnych do uzyskania większości w Knesecie bez poparcia partii arabskich, które zdobyły rekordową łączną liczbę 19 mandatów.",
+      "Oficjalne dane potwierdzają wygraną prawicowego Likudu, który wprowadzi do izby 27 posłów .",
+      "W skład bloku premiera wchodzą ponadto Zjednoczony Judaizm Toru - 7 mandatów, Otzma Jehudit - 7 mandatów, Partia Religijnego Syjonizmu - 6 mandatów oraz Szas - 6 mandatów.",
+      "Najwięcej miejsc w jego ramach przypadło partii Yashar Gadiego Eisenkota, która uzyskała 21 mandatów.",
+      "Ugrupowanie B’Jachad Naftalego Bennetta zdobyło 12 miejsc, Demokraci Ja’ira Golana - 8, a Jisra’el Betenu Awigdora Liebermana - 7.",
+      "Trzecią siłę stanowi blok partii arabskich, a w nich Zjednoczona Lista - 11 mandatów oraz Ra’am - 8 mandatów."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Wybory parlamentarne w Izraelu w 2026 roku – wybory do Knesetu XXVI kadencji, które odbyły się 27 października 2026. O utrzymanie władzy ubiegała się, zwycięska w poprzednich wyborach, partia Likud pod wodzą premiera Binjamina Netanjahu."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Wybory parlamentarne w Izraelu w 2026 roku",
+     "url": "https://pl.wikipedia.org/wiki/Wybory_parlamentarne_w_Izraelu_w_2026_roku"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "99,9 proc.",
+    "120",
+    "53",
+    "48",
+    "61",
+    "19"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Wybory parlamentarne w Izraelu w 2026 roku",
+    "opis": "",
+    "tekst": "Wybory parlamentarne w Izraelu w 2026 roku – wybory do Knesetu XXVI kadencji, które odbyły się 27 października 2026. O utrzymanie władzy ubiegała się, zwycięska w poprzednich wyborach, partia Likud pod wodzą premiera Binjamina Netanjahu.",
+    "url": "https://pl.wikipedia.org/wiki/Wybory_parlamentarne_w_Izraelu_w_2026_roku",
+    "język": "pl"
+   },
+   "tagi": [
+    "Netanjahu",
+    "Knesecie",
+    "Izraelu",
+    "Likud"
+   ],
+   "emotki": [
+    "🗳️",
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Wyniki wyborów w Izraelu. Partia Netanjahu na czele",
+     "url": "https://wydarzenia.interia.pl/zagranica/news-wyniki-wyborow-w-izraelu-partia-netanjahu-na-czele,nId,23565223"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Wyniki wyborów w Izraelu. Likud Netanjahu największą partią",
+     "url": "https://wiadomosci.gazeta.pl/swiat/7,198075,33106551,wyniki-wyborow-w-izraelu-likud-netanjahu-najwieksza-partia.html"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.485,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.15,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.487,
+     "treściwość": 0.398,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Izraelska opozycja oskarża Netanjahu o próbę „delegitymizacji” wyborów",
+   "lead": "Likud zarzucił zagraniczną ingerencję i powiedział, że partie arabskie „ukradły” wybory po tym, jak jego koalicja straciła większość.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-29T20:21:54+00:00",
+   "źródło": {
+    "nazwa": "BBC News",
+    "url": "https://www.bbc.co.uk/news/articles/ckdd8qdl9e0eo?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/213a/live/ecf64a00-d3d3-11f1-9c32-1532a6164171.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Machado, który przebywał na emigracji przez prawie rok, powiedział, że transformacja w rządzie Wenezueli będzie „nieodwracalna, zorganizowana, pokojowa”.",
+      "Skrajnie prawicowy senator i rodzinna ziemia w USA po przejściu z Brazylii do Argentyny, a następnie przelocie przez Ekwador Flávio Bolsonaro ogłosił się „prawdziwym prezydentem” Brazylii po przegranych niedzielnych wyborach prezydenckich i ucieczce do Stanów Zjednoczonych.",
+      "Po wylądowaniu prywatnym odrzutowcem ze swoją rodziną w Miami na Florydzie w środę rano, skrajnie prawicowy senator opublikował roszczenie w liście – mimo że jego własna partia uznała prawomocne zwycięstwo Luiza Inácio Luli da Silvy , podobnie jak wszystkie brazylijskie instytucje i międzynarodowi obserwatorzy, którzy monitorowali i poparli głosowanie.",
+      "Trzy główne brazylijskie gazety – Folha de S Paulo, O Globo i O Estado de S Paulo – opisały deklarację Bolsonaro jako „podżeganie do zamachu stanu”.",
+      "Senator usunął później list i opublikował nowy, w którym zamiast nazywać siebie „prawdziwym prezydentem”, określił siebie jako „przywódcę Brazylii”.",
+      "Po przegranej niedzielnej drugiej turze głosowania na Lulę, Bolsonaro zniknął na ponad 24 godziny, dopóki argentyńskie władze migracyjne nie poinformowały, że we wtorek wieczorem wjechał do kraju lądem.",
+      "Stamtąd wsiadł do Gulfstream IV, zarejestrowanego LV-JQW, który był zaparkowany na lotnisku Puerto Iguazú od wczesnych godzin poprzedniego ranka, kiedy w argentyńskich mediach pojawiły się pierwsze doniesienia, że zamierza na nim uciec."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "24",
+    "11.30",
+    "9.24",
+    "81",
+    "12",
+    "680"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "PM's Likud",
+    "Netanyahu",
+    "Arab-led"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC News",
+     "tytuł": "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
+     "url": "https://www.bbc.co.uk/news/articles/ckdd8qdl9e0eo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC News",
+     "tytuł": "Venezuela opposition leader María Machado calls for elections upon return",
+     "url": "https://www.bbc.co.uk/news/articles/ck054d5mnzreo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC News",
+     "tytuł": "Flávio Bolsonaro calls himself 'leader of Brazil' after election loss",
+     "url": "https://www.bbc.co.uk/news/articles/c3x2w4109pj8o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Flávio Bolsonaro calls himself the ‘leader of Brazil’ after fleeing to Miami",
+     "url": "https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat"
+    },
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "Flavio Bolsonaro lands in US, declares himself 'leader' of Brazil",
+     "url": "https://www.dw.com/en/flavio-bolsonaro-lands-in-us-declares-himself-leader-of-brazil/a-79788659?maca=en-rss-en-world-4025-rdf"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "Brazilian political drama unfolds as defeated Flavio Bolsonaro arrives in Miami",
+     "url": "https://www.npr.org/2026/10/28/nx-s1-6020518/brazilian-political-drama-unfolds-as-defeated-flavio-bolsonaro-arrives-in-miami"
+    }
+   ],
+   "liczba_źródeł": 4,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 10.884,
+    "składowe": {
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 2.243,
+     "eksponowanie": 0.54,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.501,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Szefowa Europejskiego Banku Centralnego rezygnuje",
+   "lead": "Costa poinformował, że proces wyboru następcy Lagarde zostanie wszczęty jeszcze tego samego dnia i będzie przebiegał bez zbędnej zwłoki, tak aby Rada Europejska - w składzie obejmującym państwa strefy euro - mogła podjąć decyzję w odpowiednim czasie. Lagarde była wskazywana jako potencjalna kandydatka w wyścigu o fotel…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-29T10:42:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/ekonomia/news-szefowa-europejskiego-banku-centralnego-rezygnuje,nIdn,1023914",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/a6/74/christine-lagarde-fot-636x421-a674705c.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Sama zainteresowana do tej pory jednak nie potwierdziła takich zamiarów.",
+      "Costa podziękował Francuzce za jej pracę jako prezeski EBC od listopada 2019 r.",
+      "„Przez cały okres swojej kadencji kierowała Europejskim Bankiem Centralnym z silnym poczuciem obowiązku i odpowiedzialności .",
+      "Jej przywództwo w niepewnych czasach oraz niezachwiane oddanie projektowi europejskiemu przyniosły Europie ogromne korzyści\" - napisał w oświadczeniu szef Rady Europejskiej.",
+      "Według Costy Lagarde, w obliczu globalnej pandemii Covid-19, wojny w Europie, kryzysów energetycznych i szoków inflacyjnych, sprawowała funkcję zdecydowanie i stabilnie, przyczyniając się do ochrony strefy euro.",
+      "Rada Europejska ograniczona do szefów państw i rządów strefy euro mianuje prezesa i wiceprezesa EBC, a także sześciu członków zarządu.",
+      "W tej sprawie obowiązuje specjalna, wzmocniona większość kwalifikowana.",
+      "Oznacza to, że spośród 21 państw UE posiadających wspólną walutę za nominacją musi opowiedzieć się co najmniej 16 państw reprezentujących 65 proc. ludności strefy euro.",
+      "Rezygnacja w lutym przyszłego roku pozwoli Lagarde na zaangażowanie się w kampanię prezydencką ."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Zarząd Europejskiego Banku Centralnego – jeden z organów decyzyjnych Eurosystemu i Europejskiego Systemu Banków Centralnych. W jego skład wchodzi Prezes EBC, Wiceprezes EBC oraz czterech członków. Do zadań Zarządu zalicza się przygotowanie posiedzeń Rady Prezesów, realizacją polityki monetarnej strefy euro i bieżące kierowanie Europejskim Bankiem Centralnym. Kadencja członków Zarządu trwa 8 lat."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Zarząd Europejskiego Banku Centralnego",
+     "url": "https://pl.wikipedia.org/wiki/Zarz%C4%85d_Europejskiego_Banku_Centralnego"
+    }
+   ],
+   "dlaczego_to_ważne": "Ustąpienie Lagarde przed upływem jej ośmioletniej kadencji pozwoli na wybranie jej następcy na stanowisku prezesa EBC jeszcze w porozumieniu z obecnym francuskim prezydentem Emmanuelem Macronem.",
+   "liczby": [
+    "19",
+    "21",
+    "16",
+    "65 proc.",
+    "18",
+    "70 lat"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Zarząd Europejskiego Banku Centralnego",
+    "opis": "",
+    "tekst": "Zarząd Europejskiego Banku Centralnego – jeden z organów decyzyjnych Eurosystemu i Europejskiego Systemu Banków Centralnych. W jego skład wchodzi Prezes EBC, Wiceprezes EBC oraz czterech członków. Do zadań Zarządu zalicza się przygotowanie posiedzeń Rady Prezesów, realizacją polityki monetarnej strefy euro i bieżące kierowanie Europejskim Bankiem Centralnym. Kadencja członków Zarządu trwa 8 lat.",
+    "url": "https://pl.wikipedia.org/wiki/Zarz%C4%85d_Europejskiego_Banku_Centralnego",
+    "język": "pl"
+   },
+   "tagi": [
+    "Lagarde",
+    "Europie",
+    "Międzynarodowego Funduszu Walutowego",
+    "Europejskiego Banku Centralnego"
+   ],
+   "emotki": [
+    "🗳️",
+    "🏎️",
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Szefowa Europejskiego Banku Centralnego rezygnuje",
+     "url": "https://www.rmf24.pl/fakty/ekonomia/news-szefowa-europejskiego-banku-centralnego-rezygnuje,nIdn,1023914"
+    },
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends",
+     "url": "https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-world-4025-rdf"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.484,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.208,
+     "eksponowanie": 0.54,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.371,
+     "treściwość": 0.265,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Zalewski uratował Atalantę. Co za występ Polaka przeciwko Fiorentinie",
+   "lead": "Nicola Zalewski w zespole Atalanty Bergamo w tym sezonie nie odgrywa tak znaczącej roli, jak to miało miejsce u poprzedniego trenera. Zmiana na stanowisku szkoleniowca sprawiła, że skurczyła się liczba pozycji, na których może grać Polak i Nicola niestety to boleśnie odczuwa w minutach na boisku.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-29T21:48:07+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/serie-a/news-zalewski-czekal-na-taki-mecz-od-walentynek-polak-na-ratunek,nId,23566235",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NH2DVFH3XKX3L-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Zmarł sir Patrick Stewart.",
+      "Angielski klub żegna gwiazdę kina , otwiera się w nowym oknie Wydaje się jednak, że z każdym upływającym tygodniem Polak staje się nieco bardziej wartościową opcją dla Maurizzio Sarriego.",
+      "Włoski szkoleniowiec widzi naszego reprezentanta na skrzydle, a tam rywalizacja jest naprawdę poważna.",
+      "Zalewski w tym sezonie w podstawowym składzie wychodził tylko w europejskich rozgrywkach.",
+      "W tych właśnie prezentował się jednak dobrze, podobnie wchodząc z ławki w Serie A.",
+      "Nie mogło się to skończyć inaczej, jak szansą występu od pierwszej minuty.",
+      "Taka pojawiła się w dziewiątej kolejce Serie A.",
+      "W tej Atalanta Bergamo na wyjeździe mierzyła się z ekipą słabej w tym sezonie Fiorentiny.",
+      "Zalewski zagrał od początku i wynagrodził to swojemu trenerowi świetnym występem."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "41",
+    "61",
+    "74",
+    "14",
+    "84"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "Nicola Zalewski z golem i asystą przeciwko Fiorentinie",
+     "url": "https://sport.tvp.pl/96202253/serie-a-nicola-zalewski-z-golem-i-asysta-przeciwko-fiorentinie"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Polak",
+    "Serie",
+    "Fiorentinie Nicola Zalewski",
+    "Maurizzio Sarriego"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Zalewski uratował Atalantę. Co za występ Polaka przeciwko Fiorentinie",
+     "url": "https://sport.interia.pl/pilka-nozna/serie-a/news-zalewski-czekal-na-taki-mecz-od-walentynek-polak-na-ratunek,nId,23566235"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Serie A. Nicola Zalewski z golem i asystą przeciwko Fiorentinie",
+     "url": "https://sport.tvp.pl/96202253/serie-a-nicola-zalewski-z-golem-i-asysta-przeciwko-fiorentinie"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.96,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.51,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Pogrom Barcelony w Lidze Mistrzyń. Padło aż 8 goli. Pajor jedną z bohaterek",
+   "lead": "- To był tydzień, w którym wiele osób podróżowało do Londynu, a my odbyliśmy dwa treningi w bardzo krótkim odstępie czasu. Przyjeżdżamy w dobrej formie, z niecierpliwością czekamy na Ligę Mistrzyń.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-29T21:58:10+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/news-pogrom-barcelony-w-lidze-mistrzyn-padlo-az-8-goli-pajor-jedn,nId,23566203",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NH2DYSGYFBAIR-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "To rozgrywki, które niezwykle nas ekscytują i naprawdę nie możemy się doczekać dobrego meczu.",
+      "Gramy ze świetnym przeciwnikiem, który gra bardzo dobrze i będziemy musieli zaprezentować się dobrze - mówił przed meczem trener \"Dumy Katalonii\" Pere Romeu.",
+      "Mówiąc o stolicy Anglii, nawiązywał do poniedziałkowej gali Złotej Piłki.",
+      "Ewa Pajor została uznana drugą najlepszą piłkarką sezonu 2025/26, przegrała tylko z Alexią Putellas.",
+      "Polka została w czwartek wystawiona do wyjściowego składu.",
+      "Tuż przed pierwszym gwizdkiem miała miejsce minuta ciszy upamiętniająca ofiary katastrofy kolejowej w hiszpańskiej prowincji Toledo.",
+      "Jak można się było spodziewać, od początku to przyjezdne nadawały tempo rywalizacji.",
+      "Polka z Aitaną Bonmati doprowadziły do rzutu rożnego już w 2. minucie.",
+      "\"Blaugrana\" dominowała na boisku, ale też musiała uważać na kontry - jedna z nich skończyła się spalonym Madsen, inna zablokowaniem przez Aichę Camarę."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Barcelona – miasto w północno-wschodniej Hiszpanii, nad Morzem Śródziemnym, około 110 km na południe od grzbietu Pirenejów i granicy hiszpańsko-francuskiej. Stolica prowincji o tej samej nazwie oraz wspólnoty autonomicznej Katalonii. Drugie co do wielkości miasto Hiszpanii, z liczbą mieszkańców wynoszącą 1 713 247 wewnątrz centrum administracyjnego. Zespół miejski Barcelony wykracza poza centrum administracyjne, z liczbą ludności wynoszącą 4 588 000, jest piątym co do wielkości zespołem miejskim w Unii Europejskiej. Cała metropolia ma około 5 milionów mieszkańców."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Barcelona",
+     "url": "https://pl.wikipedia.org/wiki/Barcelona"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "26",
+    "12",
+    "54., 59., 62., 67",
+    "70",
+    "85",
+    "63"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "Skrót spotkania 3. kolejki Ligi Mistrzyń: HB Koege – FC Barcelona.",
+     "url": "https://sport.tvp.pl/96203045/hb-koege-fc-barcelona-liga-mistrzyn-3-kolejka-skrot"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Barcelona",
+    "opis": "miasto w Hiszpanii",
+    "tekst": "Barcelona – miasto w północno-wschodniej Hiszpanii, nad Morzem Śródziemnym, około 110 km na południe od grzbietu Pirenejów i granicy hiszpańsko-francuskiej. Stolica prowincji o tej samej nazwie oraz wspólnoty autonomicznej Katalonii. Drugie co do wielkości miasto Hiszpanii, z liczbą mieszkańców wynoszącą 1 713 247 wewnątrz centrum administracyjnego. Zespół miejski Barcelony wykracza poza centrum administracyjne, z liczbą ludności wynoszącą 4 588 000, jest piątym co do wielkości zespołem miejskim w Unii Europejskiej. Cała metropolia ma około 5 milionów mieszkańców.",
+    "url": "https://pl.wikipedia.org/wiki/Barcelona",
+    "język": "pl"
+   },
+   "tagi": [
+    "Nazareth",
+    "Pajor",
+    "Koge",
+    "Pina"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Pogrom Barcelony w Lidze Mistrzyń. Padło aż 8 goli. Pajor jedną z bohaterek",
+     "url": "https://sport.interia.pl/pilka-nozna/news-pogrom-barcelony-w-lidze-mistrzyn-padlo-az-8-goli-pajor-jedn,nId,23566203"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "HB Koege – FC Barcelona. Liga Mistrzyń, 3. kolejka [SKRÓT]",
+     "url": "https://sport.tvp.pl/96203045/hb-koege-fc-barcelona-liga-mistrzyn-3-kolejka-skrot"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "HB Koege – FC Barcelona. Liga Mistrzyń, 3. kolejka [MECZ]",
+     "url": "https://sport.tvp.pl/96024588/hb-koege-fc-barcelona-liga-mistrzyn-3-kolejka-transmisja-na-zywo-online-live-stream-29102026"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Liga Mistrzyń. Ewa Pajor z golem, FC Barcelona gromi Koge",
+     "url": "https://sport.tvp.pl/96202313/liga-mistrzyn-ewa-pajor-z-golem-fc-barcelona-gromi-koge"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.901,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.5,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.52,
+     "treściwość": 0.481,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Grealish spadł z powodu „naruszenia dyscypliny klubowej” - co teraz?",
+   "lead": "Jack Grealish zostaje wykluczony ze zwycięstwa w Pucharze EFL Evertonu nad Newcastle United w czwartek z powodu „naruszenia dyscypliny klubowej”.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-29T19:31:36+00:00",
+   "źródło": {
+    "nazwa": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmwy4vyl9nplo?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8012/live/29492fb0-d3f0-11f1-93e1-3b657b665bcf.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Największa noc w sezonie Evertonu rozpoczęła się od dużego telefonu od Davida Moyesa i wymagała dużego występu od jego graczy.",
+      "Ćwierćfinał w Fleetwood Town to ich nagroda po klinicznej, zaangażowanej wystawie, która zniszczyła nadzieje Newcastle na podniesienie Pucharu Carabao po raz drugi w ciągu trzech sezonów.",
+      "Newcastle zdominowało zaklęcia czwartej rundy i statystyki – rejestrując 28 strzałów do 11 Evertona, chociaż tylko dziewięć prób odwiedzin było na celu – ale indywidualne błędy obronne i nieskuteczny atak okazały się zrujnowaną kombinacją.",
+      "Matthias Jaissle zaprzeczył, że jego zespół jest delikatny, pomimo przekonujących dowodów, że jest inaczej, ale nazwał Newcastle „naiwnym”, a porażkę, na oczach prawie 8000 fanów, „szokującą”.",
+      "James Garner, ze swoim pierwszym golem w sezonie, Hayden Hackney, ze swoim pierwszym golem dla klubu, i Thierno Barry byli na celowniku, aby wziąć Everton do ostatniej ósemki zawodów, których nigdy nie wygrali.",
+      "Angielski zawodnik pozostawiony poza drużyną, aby zmierzyć się z Newcastle Moyes potwierdza, że \"popiera\" decyzję klubu, że Jack Grealish został wyrzucony z wygranej Everton Carabao Cup nad Newcastle po naruszeniu dyscypliny klubowej.",
+      "Everton podjął niezwykły krok, ogłaszając, że pominięcie Grealisha w remisie czwartej rundy było spowodowane względami dyscyplinarnymi w mediach społecznościowych, po umieszczeniu drużyny Davida Moyesa w remisie czwartej rundy na Hill Dickinson Stadium."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "28",
+    "11",
+    "8,000",
+    "31",
+    "20",
+    "16"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Newcastle United",
+    "Everton's",
+    "Grealish",
+    "Thursday"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Grealish dropped over 'breach of club discipline' - what now?",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cmwy4vyl9nplo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Everton ease past Newcastle to set up Fleetwood trip after Grealish is dropped",
+     "url": "https://www.theguardian.com/football/2026/oct/29/everton-newcastle-carabao-cup-fourth-round-match-report"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Everton drop Jack Grealish from Carabao Cup tie over ‘breach of club discipline’",
+     "url": "https://www.theguardian.com/football/2026/oct/29/jack-grealish-axed-everton-breach-club-discipline-newcastle-caraboao-cup"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Everton 3-1 Newcastle: Carabao Cup fourth round – as it happened",
+     "url": "https://www.theguardian.com/football/live/2026/oct/29/everton-v-newcastle-carabao-cup-fourth-round-live"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Fleetwood to face Everton in EFL Cup quarters",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cmp3glnle0wdo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "Everton see off Newcastle to reach Carabao Cup quarter-finals",
+     "url": "https://www.skysports.com/football/everton-vs-newcastle-united/report/578609"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.319,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 2.155,
+     "eksponowanie": 0.99,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.524,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Grealish dropped over 'breach of club discipline' - what now?",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Czy podwójny spadek z Premier League staje się coraz bardziej powszechny?",
+   "lead": "Równoległe spadki do trzeciego poziomu angielskiej piłki nożnej stają się coraz bardziej powszechne, a w tym sezonie Burnley może sprawić, że będzie to hat-trick po Luton Town i Leicester.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-29T13:19:52+00:00",
+   "źródło": {
+    "nazwa": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cv2d6ze63gk2o?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/660e/live/5ff58e70-d1ff-11f1-b30f-21253679b290.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Bruno Fernandes jest winien Manchesterowi United występ, Mathys Tel przybył do Spurs, a Liverpool ulepsza Michaela Carricka, a Bruno Fernandes przeprowadził w tym tygodniu czyste rozmowy.",
+      "Fernandes był niewykorzystanym substytutem Bournemouth po tym, jak skrytykował taktykę Carricka podczas porażki Ligi Mistrzów w Como, ale wygląda na to, że sytuacja została rozwiązana – na razie.",
+      "Upuszczenie Fernandesa nie przyniosło United nic dobrego przeciwko Bournemouth, które prowadziło zamieszki pod Old Trafford , a od kapitana oczekuje się powrotu do początkowego składu na podróż do Chelsea.",
+      "Jacob Steinberg Odkąd Manchester City został uznany winnym seryjnego naruszenia zasad finansowych Premier League, drużyna Enzo Maresca wygrała cztery mecze (w tym środowe zwycięstwo w strzelankach Pucharu Carabao nad Brighton) i przegrała dwa.",
+      "Po tym, jak Rodri doznał poważnego urazu kolana w meczu z Arsenalem we wrześniu 2024 roku, drużyna Pep Guardioli pozostała niepokonana w siedmiu meczach, wygrywając sześć.",
+      "Ale potem koła zatrzasnęły się, z jednym zwycięstwem i 10 porażkami w następnych 13.",
+      "Zespół BBC Sport Ask Me Anything wyjaśnia, gdzie w niedzielę o 14:00 GMT rozpocznie się mecz Premier League w ten weekend."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Premier League to profesjonalna liga piłkarska w Anglii i najwyższy poziom systemu angielskiej ligi piłkarskiej. Konkurując z 20 klubami, działa w systemie awansów i spadków z Angielską Ligą Piłki Nożnej (EFL). Sezony zwykle trwają od sierpnia do maja, a każda drużyna rozgrywa 38 meczów: dwa przeciwko sobie, jeden w domu i jeden poza domem. Większość gier rozgrywana jest w weekendy po południu, z okazjonalnymi wieczorami w dni powszednie."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Premier League",
+     "url": "https://en.wikipedia.org/wiki/Premier_League"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10",
+    "13",
+    "12",
+    "21",
+    "86",
+    "18"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Premier League",
+    "opis": "English association football league",
+    "tekst": "The Premier League is a professional association football league in England and the highest level of the English football league system. Contested by 20 clubs, it operates on a system of promotion and relegation with the English Football League (EFL). Seasons usually run from August to May, with each team playing 38 matches: two against each other team, one home and one away. Most games are played on weekend afternoons, with occasional weekday evening fixtures.",
+    "url": "https://en.wikipedia.org/wiki/Premier_League",
+    "język": "en"
+   },
+   "tagi": [
+    "Premier League",
+    "Luton Town",
+    "Leicester",
+    "English"
+   ],
+   "emotki": [
+    "⚽",
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Is the double drop from the Premier League becoming more common?",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cv2d6ze63gk2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Premier League: 10 things to look out for this weekend",
+     "url": "https://www.theguardian.com/football/2026/oct/30/premier-league-10-things-to-look-out-for-this-weekend"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Why is there only one Premier League match on Sunday?",
+     "url": "https://www.bbc.co.uk/sport/articles/cwx2836e1mp7o?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.073,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.645,
+     "eksponowanie": 0.09,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.538,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Is the double drop from the Premier League becoming more common?",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Google nadgania dystans. Gemini 4 Carbon bryluje w testach",
+   "lead": "Google zaprezentowało swój najnowszy i najbardziej zaawansowany model sztucznej inteligencji, Gemini 4 Carbon, ustanawiając nowy punkt odniesienia w wyścigu gigantów technologicznych. W ogólnym zestawieniu Artificial Analysis Intelligence Index v5.0 nowy model osiągnął wynik 59 punktów, co pozwoliło mu wyprzedzić…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-29T08:00:48+00:00",
+   "źródło": {
+    "nazwa": "Antyweb",
+    "url": "https://antyweb.pl/google-nadgania-dystans-gemini-4-carbon-bryluje-w-testach",
+    "domena": "antyweb.pl"
+   },
+   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2026/10/gemini_carbon.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Pierwsza grupa użytkowników i partnerów otrzyma dostęp do systemu w ciągu najbliższych kilku dni, a udostępnienie szerokiej publice ma nastąpić dopiero po zebraniu wstępnych opinii.",
+      "Głównym atutem Gemini 4 Carbon jest wysoka wydajność w analizie długiego horyzontu oraz zaawansowanych zadaniach z zakresu cyberbezpieczeństwa.",
+      "Model został zaprojektowany do realizowania złożonych, wieloetapowych celów inżynieryjnych, potrafiąc pracować ciągle nawet przez kilka dni nad identyfikacją oraz naprawą błędów strukturalnych w obszernych repozytoriach kodu.",
+      "Potwierdzają to wyniki w testach branżowych: Carbon uzyskał 88,2% w SEC-bench Pro dotyczącym wykrywania podatności, 54,8% w sprawdzającym luki do wykorzystania ExploitGym oraz 71,0% w CWE-bench oceniającym automatyczne łatanie błędów.",
+      "W każdym z tych obszarów sztuczna inteligencja Google wyraźnie przewyższa konkurencję ze strony OpenAI i Anthropic.",
+      "Istotnym elementem nowej architektury jest także wysoki poziom odporności i przewidywalność.",
+      "Model cechuje się zerowym wskaźnikiem podatności na ataki typu indirect prompt injection w teście Gray Swan oraz znaczną redukcją powstawania niepotwierdzonych informacji (halucynacji).",
+      "Podczas wewnętrznych testów kodowania Gemini 4 Carbon wykazał blisko dwukrotny spadek generowania błędnych wniosków w porównaniu do udostępnionego zaledwie dwa tygodnie wcześniej modelu Gemini 4 Argon.",
+      "Ponadto w weryfikacji kontekstowej GraphWalks model osiągnął 96,2%, deklasując GPT-6 Astra i Claude Opus 5.5."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Google LLC – amerykańskie przedsiębiorstwo informatyczne. Sztandarowym produktem spółki jest wyszukiwarka Google, a deklarowaną misją – „uporządkowanie światowych zasobów informacji tak, by stały się powszechnie dostępne i użyteczne dla każdego”."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Google",
+     "url": "https://pl.wikipedia.org/wiki/Google"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "59 punktów",
+    "57 punktów",
+    "5.5",
+    "58 punktów",
+    "88,2%",
+    "54,8%"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Google",
+    "opis": "amerykańskie przedsiębiorstwo",
+    "tekst": "Google LLC – amerykańskie przedsiębiorstwo informatyczne. Sztandarowym produktem spółki jest wyszukiwarka Google, a deklarowaną misją – „uporządkowanie światowych zasobów informacji tak, by stały się powszechnie dostępne i użyteczne dla każdego”.",
+    "url": "https://pl.wikipedia.org/wiki/Google",
+    "język": "pl"
+   },
+   "tagi": [
+    "Carbon",
+    "Gemini",
+    "Google",
+    "Claude Opus"
+   ],
+   "emotki": [
+    "🏎️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Antyweb",
+     "tytuł": "Google nadgania dystans. Gemini 4 Carbon bryluje w testach",
+     "url": "https://antyweb.pl/google-nadgania-dystans-gemini-4-carbon-bryluje-w-testach"
+    },
+    {
+     "nazwa": "Ars Technica",
+     "tytuł": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
+     "url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/"
+    },
+    {
+     "nazwa": "Phys.org Technology",
+     "tytuł": "Improving AI-generated images, pixel by pixel",
+     "url": "https://techxplore.com/news/2026-10-ai-generated-images-pixel.html"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.998,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.55,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.454,
+     "treściwość": 0.344,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Codzienna odprawa: Trzy sygnały ostrzegawcze dotyczące podejrzanych dzienników",
+   "lead": "Witajcie, czytelnicy Nature! Czy chcielibyście codziennie otrzymywać tę odprawę za darmo w swojej skrzynce odbiorczej? Mniej więcej w czasie narodzin rozwijający się ludzki mózg w tajemniczy sposób usuwa ogromną liczbę neuronów pogrążonych w mutacjach.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-29T00:00:00+00:00",
+   "źródło": {
+    "nazwa": "Nature",
+    "url": "https://www.nature.com/articles/d41586-026-03548-4",
+    "domena": "nature.com"
+   },
+   "obraz": "https://media.nature.com/lw1200/magazine-assets/d41586-026-03548-4/d41586-026-03548-4_53920628.png",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Naukowcy odkryli, że ponad jedna czwarta neuronów pobranych od ludzkich płodów miała jakieś nieprawidłowości chromosomalne, ale odsetek ten spadł do 6% w mózgach dzieci, które właśnie się urodziły.",
+      "Odkrycia ujawniają nowy mechanizm regulacji liczby neuronów u danej osoby i podejmowania decyzji, które neurony płodowe mogą przetrwać w mózgu, mówi neurogenetyk dziecięcy i współautorka badania Diane Shao.",
+      "Nowy raport sugeruje, że możliwe jest wystrzelenie roju satelitów, które odbijają światło słoneczne z dala od planety, aby ochłodzić globalne temperatury w ciągu zaledwie 20-40 lat .",
+      "Jak czytamy w raporcie, oś czasu takiej \"osłony przeciwsłonecznej planety\" zależałaby od tempa rozwoju rakiet o dużej sile nośnej, które mogłyby przenosić materiały w głąb kosmosu.",
+      "Wiele osób uważa, że ten pomysł jest „tylko fantazją”, mówi inżynier systemów kosmicznych Chantal Cappelletti.",
+      "Ale spadające koszty wystrzeliwania statków kosmicznych sprawiły, że perspektywa geoinżynierii słonecznej opartej na przestrzeni kosmicznej wydaje się bardziej realistyczna.",
+      "Referencje: Raport Instytutu Planetarnych Osłon Przeciwsłonecznych Badacze zidentyfikowali trzy znaki ostrzegawcze, które sugerują, że czasopisma mogą angażować się w podejrzane działania wydawnicze.",
+      "Te sygnały ostrzegawcze to, dla każdego czasopisma w ciągu jednego roku: podwojenie nakładu publikacji; posiadanie ponad 70% opublikowanych artykułów pochodzących z jednego kraju; oraz posiadanie co najmniej 15% artykułów oznaczonych przez Problematyczny Papierowy Screener, bezpłatne narzędzie online.",
+      "Korzystając z tytułów w bazie danych OpenAlex, zespół zidentyfikował 3 753 czasopisma, które spełniały co najmniej jedno z tych kryteriów."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Nature, Published online: 30 October 2026; doi: 10.1038/d41586-026-03512-2 Fossils of dinosaurs, mammals and other glamourous species are over-represented in high-profile titles, sugeruje badanie tysięcy prac paleontologicznych.",
+      "Nature, Opublikowano online: 29 października 2026 r.; doi: 10.1038/d41586-026-03386-4 Teoretyczne obiekty pozostawiłyby większy ślad na promieniowaniu kosmicznym, gdyby były źródłem niewidzialnej siły przyciągającej galaktyki.",
+      "Nature, Opublikowano online: 29 października 2026 r.; doi: 10.1038/d41586-026-03479-0 Demokratyczne zwycięstwo w Kongresie może powstrzymać kontrowersyjny plan przeglądu dotacji administracji Trumpa i ograniczyć niektóre z jej działań finansowych.",
+      "Nature, Published online: 30 October 2026; doi:10.1038/d41586-026-03543-9 Badacze twierdzą, że jego portret postaci ze Star Treka reprezentował ciekawość, troskę i wysiłek zrozumienia innych.",
+      "Patrick Stewart, najbardziej znany ze swoich ról w Star Treku i X-Menach , zmarł w wieku 86 lat.",
+      "Wiadomość opublikowana na koncie Stewarta na Instagramie mówi, że aktor zmarł w swoim domu w Los Angeles w środę „po krótkiej i przejmującej podróży z chorobą Alzheimera i demencją Lewy 'ego.\" Urodzony w 1940 roku w Mirfield, Yorkshire, Anglia, Stewart rozpoczął karierę aktorską w teatrze .",
+      "Stewart powrócił jako kapitan Star Treka w kolejnych filmach , m.in. Star Trek: Generations (1994), Star Trek: First Contact (1996), Star Trek: Insurrection (1998), Star Trek: Nemesis (2002)."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "6%",
+    "20",
+    "40",
+    "70%",
+    "15%",
+    "3,753"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Shenzhen International Graduate School Nankai University",
+    "Guangdong-Hong Kong-Macao Greater Bay Area",
+    "Guangdong-Hong Kong-Macau Greater Bay Area",
+    "Overseas Outstanding Young Scholars Fund"
+   ],
+   "emotki": [
+    "🪐",
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Nature",
+     "tytuł": "Daily briefing: The three red flags of suspicious journals",
+     "url": "https://www.nature.com/articles/d41586-026-03548-4"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Are dinosaur fossils hogging top journals? Analysis sparks debate over ‘charismatic’ finds",
+     "url": "https://www.nature.com/articles/d41586-026-03512-2"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Even stupendous black holes can’t explain dark matter",
+     "url": "https://www.nature.com/articles/d41586-026-03386-4"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "How the US mid-term elections could shake up science",
+     "url": "https://www.nature.com/articles/d41586-026-03479-0"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Patrick Stewart dies: how Captain Picard inspired today’s science leaders",
+     "url": "https://www.nature.com/articles/d41586-026-03543-9"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Somewhere over the transcontinental burrito tunnel",
+     "url": "https://www.nature.com/articles/d41586-026-03368-6"
+    },
+    {
+     "nazwa": "The Verge",
+     "tytuł": "Patrick Stewart has died at age 86",
+     "url": "https://www.theverge.com/news/1022626/patrick-stewart-star-trek-death"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 9.053,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 2.433,
+     "eksponowanie": 3.42,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.538,
+     "treściwość": 0.412,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Daily briefing: The three red flags of suspicious journals",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Jak zrobić zdjęcie czarnej dziury?",
+   "lead": "Kliknij, aby powiedzieć Google, aby nadał priorytet Quancie i zobaczył więcej najlepszego zakresu nauk ścisłych i matematyki w wynikach wyszukiwania i sztucznej inteligencji. Czarne dziury są jednym z najbardziej egzotycznych i nieuchwytnych obiektów wszechświata.",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-29T15:11:57+00:00",
+   "źródło": {
+    "nazwa": "Quanta Magazine",
+    "url": "https://www.quantamagazine.org/how-do-you-take-a-picture-of-a-black-hole-20261029/",
+    "domena": "quantamagazine.org"
+   },
+   "obraz": "https://www.quantamagazine.org/wp-content/uploads/2026/10/JOW-S5-E11-cr.Chanelle-Nibbelink-Default-NO-LOGO.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Kiedy nic, nawet światło, nie może uciec przed ich potężnym chwytem grawitacyjnym, zrobienie zdjęcia wydaje się niewyobrażalne.",
+      "Ale obraz czarnej dziury, a dokładniej jej cienia, może dostarczyć spostrzeżeń, których sama teoria może nie dostarczyć podczas testowania przewidywań.",
+      "Astrofizyk z Harvardu Shep Doeleman i zespół 250 badaczy dokonali tego niezwykłego wyczynu, łącząc grupę radioteleskopów na całym świecie.",
+      "Sieć ta, zwana Teleskopem Event Horizon, stworzyła pierwszy obraz supermasywnej czarnej dziury w galaktyce M87, oddalonej o około 55 milionów lat świetlnych, oraz pierwszy obraz czarnej dziury w sercu naszej galaktyki.",
+      "W tym odcinku Doeleman opowiada współgospodarzowi Jannie Levin, jak zamienił Ziemię w teleskop zdolny do widzenia czarnej dziury, jak niesamowity poziom nauki i współpracy był niezbędny do osiągnięcia tego celu, jak obrazy poszerzyły nasze zrozumienie tych egzotycznych obiektów i jak filmy o czarnych dziurach mogą być możliwe do początku lat 2030.",
+      "Słuchaj podcastów Apple, Spotify , TuneIn lub swojej ulubionej aplikacji do podcastów, możesz też przesyłać strumieniowo z Quanty .",
+      "STROGATZ: Podcast z Quanta Magazine, w którym przyglądamy się niektórym z największych pytań bez odpowiedzi w dzisiejszej matematyce i naukach ścisłych.",
+      "Mówimy nie tylko o obszarze, w którym spędziłem wiele mojego życia czarne dziury — najwspanialszy, najdziwniejszy temat na świecie — ale także miałem okazję porozmawiać ze starym przyjacielem.",
+      "Wszystkie nasze dowody były pośrednie jeszcze około 10 lat temu i grupa ta pracowała przez ponad dekadę, dla niektórych osób do dwóch dekad, próbując uchwycić pierwsze zdjęcie czarnej dziury."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Mechanika kwantowa rozszerza zasadę nieoznaczoności Heisenberga - która mówi, że nie możemy zmierzyć położenia i prędkości obiektu dokładnie w tym samym czasie - o próżnię.",
+      "Fizycy z Uniwersytetu Cambridge w Wielkiej Brytanii przedstawili niedawno wstępne badania pokazujące bezpośrednie obrazowanie tych wahań w laboratoryjnej próżni kwantowej.",
+      "Na przykład, istnieje ciągły wysiłek mający na celu obserwację próżni kwantowej bezpośrednio w eksperymencie przy użyciu wiązek laserowych o wysokiej intensywności."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Take-Two Interactive Software, Inc. – wydawca, producent i dystrybutor gier komputerowych. Siedziba firmy znajduje się w Nowym Jorku. Studio producenckie znajdują się w San Diego, Vancouver, Toronto, Wiedniu i w Austin w Teksasie."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Take-Two Interactive",
+     "url": "https://pl.wikipedia.org/wiki/Take-Two_Interactive"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "250",
+    "55 million",
+    "10",
+    "13, 1980",
+    "15",
+    "19"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Take-Two Interactive",
+    "opis": "amerykański wydawca, producent i dystrybutor gier komputerowych",
+    "tekst": "Take-Two Interactive Software, Inc. – wydawca, producent i dystrybutor gier komputerowych. Siedziba firmy znajduje się w Nowym Jorku. Studio producenckie znajdują się w San Diego, Vancouver, Toronto, Wiedniu i w Austin w Teksasie.",
+    "url": "https://pl.wikipedia.org/wiki/Take-Two_Interactive",
+    "język": "pl"
+   },
+   "tagi": [
+    "Earth",
+    "Event Horizon Telescope",
+    "Milky Way",
+    "Sagittarius"
+   ],
+   "emotki": [
+    "🔭"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Quanta Magazine",
+     "tytuł": "How Do You Take a Picture of a Black Hole?",
+     "url": "https://www.quantamagazine.org/how-do-you-take-a-picture-of-a-black-hole-20261029/"
+    },
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "How the quantum vacuum perturbs atoms, could shrink black holes and may have helped form galaxies",
+     "url": "https://phys.org/news/2026-10-quantum-vacuum-perturbs-atoms-black.html"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.126,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.43,
+     "eksponowanie": 1.44,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.506,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "How Do You Take a Picture of a Black Hole?",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Naukowcy właśnie złamali podręcznikową zasadę fizyki",
+   "lead": "Naukowcy przekroczyli długo akceptowaną granicę generacji promieniowania rentgenowskiego w fizyce laserowej, ujawniając zaskakujący efekt kwantowy, którego konwencjonalna teoria nie uwzględnia. Kierując silne lasery ultrafioletowe na atomy helu, naukowcy wytworzyli promieniowanie rentgenowskie o znacznie wyższej energii niż standardowy model…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-29T03:39:27+00:00",
+   "źródło": {
+    "nazwa": "ScienceDaily Physics",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261027063713.htm",
+    "domena": "sciencedaily.com"
+   },
+   "obraz": "https://www.sciencedaily.com/images/1920/physics-discovery-breaking-textbook-rule.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Przełom zależy od nietypowej interakcji między dwoma elektronami, która pozwala im wspólnie uwalniać energię.",
+      "Odkrycie pochodzi ze współpracy między TU Wien a Uniwersytetem Kalifornijskim w San Diego i opiera się na badaniach, które pomogły ustalić dziedzinę fizyki attosekundowej.",
+      "Techniki laserowe opracowane w TU Wien w latach 90. przyczyniły się do postępów uznanych przez Nagrodę Nobla w dziedzinie fizyki 2023.",
+      "Przez dziesięciolecia naukowcy rozumieli, że kierowanie światła laserowego na niektóre atomy może powodować emitowanie przez nie niezwykle krótkich impulsów światła o znacznie wyższej częstotliwości, w tym promieni rentgenowskich.",
+      "Jednak ustalona teoria przewiduje maksymalną energię dla tych emisji na podstawie właściwości przychodzącego lasera.",
+      "Poza tą granicą, znaną jako odcięcie energii, produkcja promieniowania rentgenowskiego staje się niezwykle słaba.",
+      "Nowy eksperyment pokazuje, że ta znana granica może zostać przekroczona, gdy dwa elektrony oddziałują w określony sposób.",
+      "Jak lasery generują silne impulsy rentgenowskie „Mechanizm krótkich impulsów rentgenowskich jest dobrze znany od dawna” - mówi prof.",
+      "Tenio Popmintchev z Instytutu Fotoniki TU Wien."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Promieniowanie rentgenowskie jest formą wysokoenergetycznego promieniowania elektromagnetycznego o długości fali krótszej niż długość fali promieniowania ultrafioletowego i dłuższej niż długość fali promieniowania gamma. Z grubsza, promienie rentgenowskie mają długość fali w zakresie od 10 nanometrów do 10 pikometrów, co odpowiada częstotliwościom w zakresie od 30 petaherców do 30 eksaherców (3×1016 Hz do 3×1019 Hz) i energii fotonów w zakresie odpowiednio od 100 eV do 100 keV."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: X-ray",
+     "url": "https://en.wikipedia.org/wiki/X-ray"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "X-ray",
+    "opis": "Form of electromagnetic radiation",
+    "tekst": "An X-ray is a form of high-energy electromagnetic radiation with a wavelength shorter than those of ultraviolet rays and longer than those of gamma rays. Roughly, X-rays have a wavelength ranging from 10 nanometers to 10 picometers, corresponding to frequencies in the range of 30 petahertz to 30 exahertz (3×1016 Hz to 3×1019 Hz) and photon energies in the range of 100 eV to 100 keV, respectively.",
+    "url": "https://en.wikipedia.org/wiki/X-ray",
+    "język": "en"
+   },
+   "tagi": [
+    "X-ray",
+    "Wien",
+    "X-rays",
+    "Dimitar Popmintchev"
+   ],
+   "emotki": [
+    "⚛️",
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "ScienceDaily Physics",
+     "tytuł": "Scientists just broke a textbook rule of physics",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261027063713.htm"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.218,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.283,
+     "treściwość": 0.375,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Scientists just broke a textbook rule of physics",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Mgławica Ghostly Cat's Head czai się w zasięgu wzroku Hubble 'a i Webba",
+   "lead": "NASA/ESA Hubble i Kosmiczne Teleskopy NASA/ESA/CSA Jamesa Webba niedawno wpatrywały się w niesamowitą scenę formowania się gwiazd w Mgławicy Carina, masywnej obłoku gazu i pyłu znajdującego się około 7500 lat świetlnych od Ziemi. Te dwa teleskopy oferują uzupełniające się widoki cienistej formy, zwanej Kotią Głową…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-29T14:00:00+00:00",
+   "źródło": {
+    "nazwa": "ESA",
+    "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Ghostly_Cat_s_Head_Nebula_lurks_within_sight_of_Hubble_and_Webb",
+    "domena": "esa.int"
+   },
+   "obraz": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/cat_s_head_nebula_hubble_wfc3_webb_nircam_and_webb_miri_images/27592599-1-eng-GB/Cat_s_Head_Nebula_Hubble_WFC3_Webb_NIRCam_and_Webb_MIRI_images_pillars.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Widok na światło widzialne pokazuje kota jako ciemny, wydłużony słup kurzu i ślady młodych formujących się gwiazd, podczas gdy obrazy Webba w podczerwieni ujawniają wiele gwiazd i innych ukrytych szczegółów.",
+      "Podobnie jak forma widmowa wyrastająca z zimnej mgły, Kosmiczne Teleskopy Hubble 'a i Jamesa Webba natknęły się na niezwykle dynamiczną scenę formowania się gwiazd w rozległej Mgławicy Carina, rozproszonym regionie formowania się gwiazd.",
+      "Niewielki, wyselekcjonowany obszar, który był obserwowany przez oba teleskopy, jest nazywany Mgławicą Głowy Kota ze względu na podobieństwo do kota siedzącego tyłem do widza.",
+      "„Głowa” kota zwrócona jest w prawo, odsłaniając świecące oko.",
+      "Charakterystyczny kształt Mgławicy Głowa Kota został prawdopodobnie z czasem wyrzeźbiony przez intensywne promieniowanie ultrafioletowe i wiatry z masywnych gwiazd w Mgławicy Carina.",
+      "Ponieważ to gwiezdne sprzężenie zwrotne niszczy otaczający gaz i pył, gęstszy materiał w filarze w kształcie kota jest odporny na erozję, przynajmniej na razie.",
+      "Świecące czerwone oko kota może oznaczać młodą gwiazdę, która wciąż jest częściowo osadzona w kurzu.",
+      "Grzbiet mglistej żółci wydaje się podążać za krawędzią prawej strony żarnika.",
+      "Ta jasna krawędź jest zgodna z gazem oświetlonym i zjonizowanym promieniowaniem ultrafioletowym z pobliskich masywnych gwiazd, potencjalnie napędzającym fotoodparowywanie."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Kosmiczne teleskopy Hubble 'a i Jamesa Webba z NASA uchwyciły niezwykle dynamiczną scenę formowania się gwiazd, przypominającą widmową formę wyrastającą z zimnej mgły.",
+      "Leży w rozległej Mgławicy Carina, rozproszonym regionie gwiazdotwórczym położonym około 7500 lat świetlnych od Ziemi.",
+      "Niewielki, wyselekcjonowany obszar obserwowany przez oba teleskopy jest nazywany Mgławicą Głowy Kota ze względu na jego podobieństwo do kota siedzącego tyłem do widza.",
+      "Chociaż Mgławica Głowa Kota jest tymczasową sceną, która ostatecznie rozproszy się, gdy gwiazdy uformują się i ewoluują w czasie, region jest pełen informacji.",
+      "Uzupełniające się poglądy Hubble 'a i Webba na Mgławicę Cat's Head pomagają astronomom dowiedzieć się więcej o nieuchwytnym, chaotycznym i złożonym procesie znanym jako powstawanie gwiazd.",
+      "Mgławica Cat's Head bierze swoją nazwę od swojego wyglądu: wygląda jak kot siedzący tak, że jest odwrócony od widza, z głową odwróconą dookoła na czubku szyi, podkreśloną gwiazdą, która wygląda jak świecące oko.",
+      "Niedawno zarówno Hubble, jak i JWST rzucili wzrok na Kocią Głowę, starając się dowiedzieć więcej o powstawaniu gwiazd, nieustannym przedmiocie badań w astronomii."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Mgławica Głowa Kota to kula znajdująca się w odległości około 7500-8500 lat świetlnych w konstelacji Carina, a konkretnie w Mgławicy Carina. JWST uchwycił obiekt, a jego wizerunek został opublikowany 29 października 2026 roku."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Cat's Head Nebula",
+     "url": "https://en.wikipedia.org/wiki/Cat's_Head_Nebula"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "7500",
+    "50%",
+    "7,500",
+    "5 million"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Cat's Head Nebula",
+    "opis": "Nebula in the constellation Carina",
+    "tekst": "The Cat's Head Nebula is a globule located approximately 7,500–8,500 light years away in the constellation Carina, specifically within the Carina Nebula. JWST captured the object and its image was published on October 29, 2026.",
+    "url": "https://en.wikipedia.org/wiki/Cat's_Head_Nebula",
+    "język": "en"
+   },
+   "tagi": [
+    "Cat’s Head Nebula",
+    "Hubble",
+    "Webb’s",
+    "Carina Nebula"
+   ],
+   "emotki": [
+    "🔭",
+    "🌌"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "ESA",
+     "tytuł": "Ghostly Cat’s Head Nebula lurks within sight of Hubble and Webb",
+     "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Ghostly_Cat_s_Head_Nebula_lurks_within_sight_of_Hubble_and_Webb"
+    },
+    {
+     "nazwa": "Phys.org Astronomy",
+     "tytuł": "Ghostly Cat's Head Nebula lurks within sight of NASA's Hubble, Webb",
+     "url": "https://phys.org/news/2026-10-ghostly-cat-nebula-lurks-sight.html"
+    },
+    {
+     "nazwa": "Universe Today",
+     "tytuł": "Examining the Cat's Head Nebula with the Hubble and JWST",
+     "url": "https://www.universetoday.com/articles/examining-the-cats-head-nebula-with-the-hubble-and-jwst"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 10.181,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.53,
+     "eksponowanie": 2.43,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.521,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Ghostly Cat’s Head Nebula lurks within sight of Hubble and Webb",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Gwiezdna iluzja",
+   "lead": "Behyar Bakhshandeh z Carlsbad w Kalifornii Mgławica emisyjna IC 1318, znana również jako Mgławica Gamma Cygni, świeci w odległości około 5300 lat świetlnych na Cygnusie — daleko za Sadrem, jasną nadolbrzymią gwiazdą, którą wydaje się tylko otaczać. Kamera spędziła 24 godziny na ekspozycji w palecie Hubble 'a (Hα/OIII/Sii) plus RGB przez…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-29T21:01:42+00:00",
+   "źródło": {
+    "nazwa": "Astronomy Magazine",
+    "url": "https://www.astronomy.com/picture-of-the-day/photo/a-stellar-illusion/",
+    "domena": "astronomy.com"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Astronomowie korzystający z Obserwatorium Rentgenowskiego Chandra (CXO) i Kosmicznego Teleskopu Jamesa Webba (JWST) skupili się na mądrze wyglądającym regionie Mgławicy Carina i znaleźli upiornie wyglądającą chmurę pozornie unoszącą się w izolacji wśród innych chmur gazu i pyłu.",
+      "Badając ten region w promieniowaniu rentgenowskim i podczerwonym, astronomowie dobrze przyglądają się strukturze chmury, a także gwiazdom, które uformowała.",
+      "Nie tylko to, ale pomaga im zebrać więcej informacji o większej Mgławicy Carina, która leży ponad 7500 lat świetlnych od nas.",
+      "Wygląda jak jedna gwiazda, ale w rzeczywistości jest to układ podwójny, który ma połączoną jasność około 5 milionów razy większą niż nasze Słońce."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "1318",
+    "5,300",
+    "24",
+    "7,500",
+    "5 million",
+    "1840"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Carlsbad California",
+    "Behyar Bakhshandeh",
+    "Gamma Cygni Nebula",
+    "Astronomy Magazine"
+   ],
+   "emotki": [
+    "🌌",
+    "🔭"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Astronomy Magazine",
+     "tytuł": "A stellar illusion",
+     "url": "https://www.astronomy.com/picture-of-the-day/photo/a-stellar-illusion/"
+    },
+    {
+     "nazwa": "Universe Today",
+     "tytuł": "It's a Ghost! No, It's a Stellar Crèche!",
+     "url": "https://www.universetoday.com/articles/its-a-ghost-no-its-a-stellar-crche"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.71,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 1.53,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.53,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "A stellar illusion",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Philippine island fights rising seas with nature, not concrete",
+   "lead": "For years, residents of a flood-prone Philippine island north of Manila have elevated their homes atop layer upon layer of concrete, only to see floodwaters threaten them again. Burdened by strong storm surges, land subsidence and rising seas exacerbated by climate change, the 3,000 residents of tiny Pamarawan Island…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-29T09:23:55+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Earth",
+    "url": "https://phys.org/news/2026-10-philippine-island-seas-nature-concrete.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/workers-lay-coconut-fi.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "The unusual approach offers a nature-based alternative for a country still grappling with a multibillion-dollar scandal that drove public fury over substandard—and at times nonexistent—concrete flood-control projects.",
+      "\"We were terrified whenever there were typhoons.",
+      "We couldn't sleep at night,\" fisherman Edgar Javier told AFP on a recent visit, recalling how strong waves once brought down one of his home's concrete walls.",
+      "\"Whenever the waves hit, the wall shakes.\" The project began when the city government of Malolos, home to the island, launched a study with a Dutch engineering consultancy. \"(Concrete infrastructure) projects won't suffice,\" Mayor Christian Natividad told AFP.",
+      "While the project, the first of its kind in the country, initially faced resistance from officials and residents working without a blueprint, Natividad said they had \"nothing to lose.\" \"It's like you accept daily flooding or you do something else with risk,\" he said.",
+      "By May last year, workers, many of them residents, had begun installing bamboo poles packed with brushwood along the coast.",
+      "They are designed to slow water flow and trap sediment, with the goal of gradually raising the seabed and supporting mangrove growth.",
+      "When AFP journalists visited the site, workers were building an oyster-shell breakwater about 100 meters (330 feet) offshore.",
+      "Under the searing heat, men in caps pounded wooden stakes used to secure coconut-fiber bags filled with shells on an artificial shore first created with sea sand."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "PAMARAWAN, Philippines — For years, residents of Pamarawan barangay, or village, in the City of Malolos, had to live with floodwater inundating their streets as the southwest monsoon, known locally as hagabat , brought strong waves into the fishing village.",
+      "It got even worse during typhoons. “When there was a typhoon, the waves would go over the breakwater by almost a meter, a direct hit on the houses beside the dike,” said Roldan Dayao, secretary of Pamarawan, a low-lying fishing village at North Manila Bay that is only accessible by boat.",
+      "The village already has a concrete breakwater that stands 3 to 4 meters (9-13 feet) high, Dayao said.",
+      "It used locally available materials, such as bamboo poles, oyster shells and coconut husks, to protect Pamarawan from tidal waves and storm surges.",
+      "Interlocking, interconnected bamboo cribs now cover 14 hectares (35 acres) off the coast.",
+      "Malolos Mayor Christian Natividad greenlit the proposed project developed by Dutch engineering firm Haskoning in 2023."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Dizon is a Filipino surname derived from the Hokkien Chinese term 二孫 which means second grandchild. Notable people with the surname include:Allen Dizon, Filipino actor Charlie Dizon, Filipina actress José Dizon, Filipino revolutionary Lilia Dizon (1927–2020), postwar Filipino actress Mylene Dizon, Filipino actress Princess Ann Lei Dizon, Filipino musician Rolando Ramos Dizon (1944–2012), Filipino politician Ryzza Mae Dizon, Filipina teen actress and television personality Sunshine Dizon, Filipino actress Vince Dizon, Filipino economist, consultant, and political aide Rodante Dizon Marcoleta, Filipino television host, lawyer, and politician and senator of the Philippines since 2025. Edgardo Dizon Pamintuan Sr., Filipino lawyer and politician"
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Dizon",
+     "url": "https://en.wikipedia.org/wiki/Dizon"
+    }
+   ],
+   "dlaczego_to_ważne": "\"This breakwater's main purpose is to lessen the impact of the wave before it can reach the community,\" project manager Lyana Galang told AFP, adding that the oyster-shell barriers work in concert with bamboo sediment traps.",
+   "liczby": [
+    "3,000",
+    "100",
+    "330",
+    "14",
+    "35",
+    "70 million"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Mongabay",
+     "ujęcie": "In a TV interview in August 2026, Natividad said that the 130 million Philippine peso ($2 million) project began because of severe flooding that recurs annually not only in the provincial capital, Malolos, but also in other towns in Bulacan province. “And for the longest time, coastal protection is really heavily…",
+     "url": "https://news.mongabay.com/2026/10/philippine-village-uses-nature-to-defend-against-floods-with-bamboo-shells-and-husks/"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Dizon",
+    "opis": "Surname list",
+    "tekst": "Dizon is a Filipino surname derived from the Hokkien Chinese term 二孫 which means second grandchild. Notable people with the surname include:Allen Dizon, Filipino actor Charlie Dizon, Filipina actress José Dizon, Filipino revolutionary Lilia Dizon (1927–2020), postwar Filipino actress Mylene Dizon, Filipino actress Princess Ann Lei Dizon, Filipino musician Rolando Ramos Dizon (1944–2012), Filipino politician Ryzza Mae Dizon, Filipina teen actress and television personality Sunshine Dizon, Filipino actress Vince Dizon, Filipino economist, consultant, and political aide Rodante Dizon Marcoleta, Filipino television host, lawyer, and politician and senator of the Philippines since 2025. Edgardo Dizon Pamintuan Sr., Filipino lawyer and politician",
+    "url": "https://en.wikipedia.org/wiki/Dizon",
+    "język": "en"
+   },
+   "tagi": [
+    "Natividad",
+    "Pamarawan",
+    "Pamarawan Island",
+    "Dizon"
+   ],
+   "emotki": [
+    "🚀"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Earth",
+     "tytuł": "Philippine island fights rising seas with nature, not concrete",
+     "url": "https://phys.org/news/2026-10-philippine-island-seas-nature-concrete.html"
+    },
+    {
+     "nazwa": "Mongabay",
+     "tytuł": "Philippine village uses nature to defend against floods with bamboo, shells and husks",
+     "url": "https://news.mongabay.com/2026/10/philippine-village-uses-nature-to-defend-against-floods-with-bamboo-shells-and-husks/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 3,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.173,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.307,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.554,
+     "treściwość": 0.432,
+     "język_działu": 0.0
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Ostatni dzień na wypełnienie ankiety o Geoportalu",
+   "lead": "Jeszcze tylko dziś 29 października można wypełniać ankietę dotyczącą nowej odsłony Geoportalu Krajowego. 5 października br. zadebiutowała nowa wersja Geoportalu Krajowego.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-29T00:00:00+00:00",
+   "źródło": {
+    "nazwa": "Geoforum",
+    "url": "https://geoforum.pl/news/37466/ostatni-dzien-na-wypelnienie-ankiety-o-geoportalu",
+    "domena": "geoforum.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Odświeżony interfejs i nowy silnik mapowy, znane już użytkownikom z modułów tematycznych, m.in.",
+      "Geodezja i Kartografia oraz Planowanie Przestrzenne , trafiły do głównego serwisu.",
+      "Chcąc poznać opinię środowiska na temat wprowadzonych zmian, przygotowaliśmy krótką ankietę."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "29"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Geoportalu Krajowego",
+    "Planowanie Przestrzenne",
+    "Geoportalu Jeszcze",
+    "Kartografia"
+   ],
+   "emotki": [
+    "🗺️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Geoforum",
+     "tytuł": "Ostatni dzień na wypełnienie ankiety o Geoportalu",
+     "url": "https://geoforum.pl/news/37466/ostatni-dzien-na-wypelnienie-ankiety-o-geoportalu"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.038,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.45,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.238,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Patrick Stewart nie żyje. Kapitan Picard i Profesor Xavier miał 86 lat",
+   "lead": "Nie żyje Patrick Stewart , angielski aktor filmowy, telewizyjny i teatralny. Znany jest z repertuaru szekspirowskiego oraz ról profesora Xaviera w serii \" X-Men \" i <a",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-29T20:39:00+00:00",
+   "źródło": {
+    "nazwa": "Filmweb",
+    "url": "https://www.filmweb.pl/news/Patrick+Stewart+nie+%C5%BCyje.+Kapitan+Picard+i+Profesor+Xavier+mia%C5%82+86+lat-169400",
+    "domena": "filmweb.pl"
+   },
+   "obraz": "https://fwcdn.pl/nph/1985708/2026/78622_1.16.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Patrick Stewart zmarł w wieku 86 lat."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "86 lat",
+    "47",
+    "40",
+    "13",
+    "12",
+    "15"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Onet Kultura",
+     "ujęcie": "Słynny brytyjski aktor zostanie zapamiętany przede wszystkim ze swoich ról w \"Star Treku\" oraz \"X-Menach\".",
+     "url": "https://kultura.onet.pl/film/wiadomosci/patrick-stewart-nie-zyje-zagral-kapitana-pickarda-w-star-treku/tg3qjpp"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Profesor Xavier",
+    "Patrick Stewart",
+    "Stewart",
+    "Xaviera"
+   ],
+   "emotki": [
+    "🎭",
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Filmweb",
+     "tytuł": "Patrick Stewart nie żyje. Kapitan Picard i Profesor Xavier miał 86 lat",
+     "url": "https://www.filmweb.pl/news/Patrick+Stewart+nie+%C5%BCyje.+Kapitan+Picard+i+Profesor+Xavier+mia%C5%82+86+lat-169400"
+    },
+    {
+     "nazwa": "Onet Kultura",
+     "tytuł": "Nie żyje Patrick Stewart. Zagrał kapitana Picarda w \"Star Treku\"",
+     "url": "https://kultura.onet.pl/film/wiadomosci/patrick-stewart-nie-zyje-zagral-kapitana-pickarda-w-star-treku/tg3qjpp"
+    },
+    {
+     "nazwa": "BBC Kultura",
+     "tytuł": "Sir Patrick Stewart: A life in pictures",
+     "url": "https://www.bbc.co.uk/news/articles/cj1dw9dynn2xo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Kultura",
+     "tytuł": "'A big loss' - Fans react to death of Sir Patrick Stewart",
+     "url": "https://www.bbc.co.uk/news/videos/c6e9lpg2j5z3o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Kultura",
+     "tytuł": "Sir Patrick Stewart: Actor who moved effortlessly between Star Trek and Shakespeare",
+     "url": "https://www.bbc.co.uk/news/articles/cye0l23lx15o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Culture",
+     "tytuł": "Patrick Stewart, Star Trek and X-Men actor and acclaimed thespian, dies aged 86",
+     "url": "https://www.theguardian.com/culture/2026/oct/29/patrick-stewart-dead"
+    }
+   ],
+   "liczba_źródeł": 4,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 11.469,
+    "składowe": {
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 2.032,
+     "eksponowanie": 1.8,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.587,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Bryan Adams nie odpuszcza. Krytykuje Donalda Trumpa w nowej piosence",
+   "lead": "Kanadyjski rockman Bryan Adams ponownie zabrał głos w sprawie napięć między Kanadą a Stanami Zjednoczonymi. Artysta wydał utwór \"Lake Ontario\", w którym krytykuje działania prezydenta USA Donalda Trumpa i nawiązuje do jednej z najgłośniejszych politycznych kontrowersji ostatnich miesięcy.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-10-29T20:02:16+00:00",
+   "źródło": {
+    "nazwa": "Onet Kultura",
+    "url": "https://kultura.onet.pl/muzyka/wiadomosci/bryan-adams-uderza-w-trumpa-nowa-piosenka-wywolala-burze/8zpkbc8",
+    "domena": "kultura.onet.pl"
+   },
+   "obraz": "https://cdn.kultura.onet.pl/1/en2k9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy83NGIzZDFiYTkyYWNiZmI5YmI4Njc3OGRkYWU3NzIwNS5wbmeSlQMAAM0HgM0EOJMFzQlgzQZA3gACoTAHoTEE",
+   "sekcje": [],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "5%",
+    "32%",
+    "200",
+    "5,000",
+    "52%"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Stanami Zjednoczonymi",
+    "USA Donalda Trumpa",
+    "Donalda Trumpa",
+    "Lake Ontario"
+   ],
+   "emotki": [
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Onet Kultura",
+     "tytuł": "Bryan Adams nie odpuszcza. Krytykuje Donalda Trumpa w nowej piosence",
+     "url": "https://kultura.onet.pl/muzyka/wiadomosci/bryan-adams-uderza-w-trumpa-nowa-piosenka-wywolala-burze/8zpkbc8"
+    },
+    {
+     "nazwa": "The Guardian Culture",
+     "tytuł": "Jimmy Kimmel on Trump’s racist remarks at rallies: ‘really takes you back about 200 years’",
+     "url": "https://www.theguardian.com/culture/2026/oct/29/jimmy-kimmel-trump-rallies-midterms"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.169,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.72,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.488,
+     "treściwość": 0.361,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  }
+ ],
+ "braki": [],
+ "statystyki": {
+  "kanały_ok": 72,
+  "kanały_błędne": 0,
+  "znaki_tłumaczone": 19810,
+  "niedziałające_kanały": [],
+  "działy": 18,
+  "artykuły_w_oknie": 56
+ }
+}
