@@ -69,6 +69,33 @@ print('yml i json OK')"
 Rozpoznanie takiej awarii: jeśli przebiegi uruchamiane ręcznie przechodzą,
 a te z pusha padają z „No jobs were run”, to plik workflow się nie parsuje.
 
+## Stabilność połączenia (2026-11-02)
+
+Objaw zgłaszany z imprez: u prowadzącego wszystko gra, a graczom zawiesza
+ekran. Przyczyna nie była w logice gry, tylko w transporcie: klient MQTT
+wysyłał PING i **nigdy nie sprawdzał odpowiedzi**. Telefon potrafi zostawić
+gniazdo w `readyState === 1` długo po śmierci łącza (wi-fi na LTE, uśpienie,
+zamknięcie sesji NAT przez operatora), więc `onclose` nie leciało, wznawianie
+się nie uruchamiało, a pasek pokazywał „w sieci”.
+
+Teraz każdy pakiet od brokera to dowód życia (`ostatniSygnal`), `czyOdpowiada()`
+pilnuje ciszy, a ping po około minucie zrywa łącze sam przez `zerwij()`, co
+uruchamia zwykłą ścieżkę wznawiania. `Pokoj.sprawdzLacze()` robi to samo na
+żądanie i jest wołane po powrocie z tła oraz po zdarzeniu `online`, bo wtedy
+telefon najczęściej ma martwe gniazdo.
+
+Czego tu świadomie NIE MA: automatycznego przeskoku na inny broker po zerwaniu.
+Gracz i prowadzący muszą siedzieć na tym samym, więc rozbieżny przeskok
+rozsypałby pokój. Ten rzadki przypadek pokrywa przycisk „Połącz ponownie”,
+który przechodzi pełną procedurę dołączania przez wszystkie brokery.
+
+**Powrót do przerwanej gry**: `localStorage['jtm:ostatniaGra']` trzyma kod
+pokoju i brokera przez 8 godzin. Ekran startowy pokazuje wtedy „Połącz
+ponownie”, a adres `#/wroc/KOD/BROKER` wchodzi od razu, bez klikania
+w formularz. Identyfikator urządzenia przeżywa odświeżenie, więc prowadzący
+oddaje punkty. Test przeglądarkowy odtwarza ten scenariusz na prawdziwym
+brokerze, razem ze sprawdzeniem, że licznik punktów pokazuje je od razu.
+
 ## Testy
 
 - `npm test`: jednostkowe (silnik gry, katalog, MQTT, narzędzia). Zawsze
