@@ -1,0 +1,1559 @@
+{
+ "wersja": "1.0.0",
+ "wydanie": "2026-11-02",
+ "dotyczy_dnia": "2026-11-01",
+ "wygenerowano": "2026-11-02T14:34:10+00:00",
+ "strefa": "Europe/Warsaw",
+ "tryb": "ekstrakcyjny",
+ "demo": false,
+ "pozycje": [
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Korwin-Piotrowska zapowiada w sprawie Święczkowskiego. \"W poniedziałek\"",
+   "lead": "-Podniesionym głosem wypowiedział słowa: \"idzie prezydent\" - relacjonowała w TVN24 sędzia Anna Korwin-Piotrowska, opisując nocne wejście Karola Nawrockiego do Trybunału Konstytucyjnego. Zapowiedziała również zarządzenie, które rozszerzy porządek wtorkowych obrad Zgromadzenia Ogólnego Sędziów TK o losowanie składów…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-01T19:32:58+00:00",
+   "źródło": {
+    "nazwa": "Interia Fakty",
+    "url": "https://wydarzenia.interia.pl/kraj/news-korwin-piotrowska-zapowiada-w-sprawie-swieczkowskiego-w-poni,nId,23567390",
+    "domena": "wydarzenia.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NHD8I42VC16RC-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "W niedzielę w rozmowie z TVN24 sędzia Anna Korwin-Piotrowska powiedziała, że w zarządzeniu dotyczącym przerwy w czynnościach służbowych prezesa TK Bogdana Święczkowskiego oraz wiceprezesa TK Bartłomieja Sochańskiego na okres miesiąca \"opisane zarzuty (co do pracy Święczkowskiego i Sochańskiego - red.) muszą służyć wszczęciu postępowania dyscyplinarnego wobec tych sędziów\". - Na końcu dyscyplinarnego postępowania jest zawsze w przypadku Trybunału Konstytucyjnego sąd dyscyplinarny.",
+      "Jest to skład trzyosobowy w pierwszej instancji, pięcioosobowy w drugiej instancji składający się wyłącznie z sędziów Trybunału Konstytucyjnego , który ja wylosuję - przekazała Korwin-Piotrowska.",
+      "Celem tego zarządzenia - jak argumentowała - ma by ć losowanie sędziów \"w warunkach absolutnej transparentności, żeby nie mogło być żadnych zarzutów co do tego losowania\".",
+      "Dodała, że w ciągu 30 dni sąd dyscyplinarny \"musi z urzędu rozpoznać natychmiastową przerwę\" w czynnościach służbowych Święczkowskiego i Sochańskiego.",
+      "Jak napisał w serwisie X, we wtorek ma dojść do podjęcia uchwały dotyczącej uchylenia immunitetu prezesa TK Bogdana Święczkowskiego , a prawdopodobnie również wiceprezesa Trybunału Bartłomieja Sochańskiego.",
+      "\"Uzurpatorzy w TK planują podjąć nielegalny akt, który nazwą 'uchwałą o uchyleniu immunitetu sędziemu TK Bogdanowi Święczkowskiemu'\" - napisał Zaradkiewicz.",
+      "Według autora wpisu kolejnym krokiem może być wystąpienie prokuratury do sądu z wnioskiem o tymczasowe aresztowanie prezesa Trybunału.",
+      "\"Prokurator podległy panu Żurkowi zwróci się do sądu o zastosowanie tymczasowego aresztu wobec Prezesa TK\" - przewiduje Zaradkiewicz.",
+      "Zaznaczył jednocześnie, że nie wiadomo, jaką decyzję podejmie sąd."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Bogdan Roman Święczkowski – polski prawnik, prokurator. Od 2022 sędzia Trybunału Konstytucyjnego, którego od 9 grudnia 2024 jest prezesem."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Bogdan Święczkowski",
+     "url": "https://pl.wikipedia.org/wiki/Bogdan_%C5%9Awi%C4%99czkowski"
+    }
+   ],
+   "dlaczego_to_ważne": "Sędzia Sądu Najwyższego Kamil Zaradkiewicz ostrzegł przed możliwymi konsekwencjami planowanych działań w Trybunale Konstytucyjnym .",
+   "liczby": [
+    "30 dni"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Bogdan Święczkowski",
+    "opis": "polski prawnik i prokurator",
+    "tekst": "Bogdan Roman Święczkowski – polski prawnik, prokurator. Od 2022 sędzia Trybunału Konstytucyjnego, którego od 9 grudnia 2024 jest prezesem.",
+    "url": "https://pl.wikipedia.org/wiki/Bogdan_%C5%9Awi%C4%99czkowski",
+    "język": "pl"
+   },
+   "tagi": [
+    "Korwin-Piotrowska",
+    "Trybunału Konstytucyjnego",
+    "Święczkowskiego",
+    "Zgromadzenia Ogólnego Sędziów TK"
+   ],
+   "emotki": [
+    "⚖️",
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Korwin-Piotrowska zapowiada w sprawie Święczkowskiego. \"W poniedziałek\"",
+     "url": "https://wydarzenia.interia.pl/kraj/news-korwin-piotrowska-zapowiada-w-sprawie-swieczkowskiego-w-poni,nId,23567390"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.532,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.482,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "\"Nie zamierzam\". Estoński premier odpiera rzekome naciski ze strony USA",
+   "lead": "Jeśli Rosja wciąż zabija cywilów, kobiety i dzieci, to nie zamierzam powstrzymywać się od mówienia o rosyjskim zagrożeniu - stwierdził Kristen Michal. To reakcja szefa estońskiego rządu na doniesienia, wedle których USA miały naciskać na państwa bałtyckie, by te złagodziły swoją narrację na temat Rosji.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-02T04:52:47+00:00",
+   "źródło": {
+    "nazwa": "Interia Fakty",
+    "url": "https://wydarzenia.interia.pl/ukraina-rosja/news-nie-zamierzam-estonski-premier-odpiera-rzekome-naciski-ze-st,nId,23567411",
+    "domena": "wydarzenia.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NHDO2GA1DPJMF-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Czołowi estońscy politycy również zapowiedzieli, że nie zmienią swojej retoryki, choć zdaniem jednego z dyplomatów, powinni oni ostrożnie dobierać słowa.",
+      "O działaniach administracji USA podjętych wobec władz państw bałtyckich, by te zmieniły ton wypowiedzi wobec Rosji i ograniczyły akcentowanie zagrożenia w publicznych wystąpieniach, poinformowała agencja Reutera, powołując się na anonimowe źródła. - Nie dotarły do mnie bezpośrednio żadne takie uwagi - oświadczył premier Michal, zapytany przez radio ERR.",
+      "Przyznał przy tym, że ostatni raz gdy spotkał się z prezydentem USA Donaldem Trumpem latem w Ankarze , podczas szczytu NATO , przekaz strony amerykańskiej był taki, że państwa europejskie muszą poważnie potraktować własną obronę przed rosyjskim zagrożeniem i przeznaczać więcej środków na obronność. - Estonia z pewnością to robi - dodał.",
+      "Jego zdaniem \"należy raczej kontynuować presję, wspierając Ukrainę \". - To jedyny sposób, aby zmusić Putina do zmiany celów - stwierdził premier.",
+      "Według niego dyplomaci muszą dokładnie przemyśleć każde swoje słowo. - Można odczuwać silne emocje, ale przekaz publiczny należy wyważyć - podsumował."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Inwazja Rosji na Ukrainę, wojna rosyjsko-ukraińska – pełnoskalowa inwazja na Ukrainę rozpoczęta 24 lutego 2022 roku przez Rosję, stanowiąca eskalację wojny trwającej od 2014 roku. Została poprzedzona rosyjskimi żądaniami wykluczenia możliwości dalszego poszerzania NATO i redukcji potencjału militarnego sojuszu w Europie Środkowo-Wschodniej do stanu sprzed 1997 roku."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Inwazja Rosji na Ukrainę",
+     "url": "https://pl.wikipedia.org/wiki/Inwazja_Rosji_na_Ukrain%C4%99"
+    }
+   ],
+   "dlaczego_to_ważne": "Jednak zdaniem niektórych dyplomatów - skomentowało w niedzielę radio ERR - przedstawiciele najwyższych władz Estonii powinni ostrożnie dostosowywać swoje publiczne oświadczenia na temat Rosji, aby uniknąć marginalizacji na arenie międzynarodowej. - Przekaz Estonii w polityce zagranicznej stał się przewidywalny, a dalsze utrzymywanie ostrego tonu grozi znużeniem wśród międzynarodowych partnerów -…",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Inwazja Rosji na Ukrainę",
+    "opis": "inwazja na Ukrainę rozpoczęta 24 lutego 2022 roku przez Federację Rosyjską",
+    "tekst": "Inwazja Rosji na Ukrainę, wojna rosyjsko-ukraińska – pełnoskalowa inwazja na Ukrainę rozpoczęta 24 lutego 2022 roku przez Rosję, stanowiąca eskalację wojny trwającej od 2014 roku. Została poprzedzona rosyjskimi żądaniami wykluczenia możliwości dalszego poszerzania NATO i redukcji potencjału militarnego sojuszu w Europie Środkowo-Wschodniej do stanu sprzed 1997 roku.",
+    "url": "https://pl.wikipedia.org/wiki/Inwazja_Rosji_na_Ukrain%C4%99",
+    "język": "pl"
+   },
+   "tagi": [
+    "Rosji",
+    "USA",
+    "Estonii",
+    "Michal"
+   ],
+   "emotki": [
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "\"Nie zamierzam\". Estoński premier odpiera rzekome naciski ze strony USA",
+     "url": "https://wydarzenia.interia.pl/ukraina-rosja/news-nie-zamierzam-estonski-premier-odpiera-rzekome-naciski-ze-st,nId,23567411"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.298,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.598,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Firma kryptograficzna Binance pokrywa 90% strat po włamaniu za 6,3 mld $",
+   "lead": "Federalne Biuro Śledcze (FBI) twierdzi, że Korea Północna jest odpowiedzialna za włamanie.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-01T13:11:37+00:00",
+   "źródło": {
+    "nazwa": "BBC News",
+    "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e52/live/ccbb9490-d53e-11f1-93de-81de9e959fac.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Giełda kryptowalut twierdzi, że pokryła 90% strat, podczas gdy FBI obwinia sponsorowaną przez państwo Koreę Północną grupę TraderTraitor Giełda kryptowalut Binance umożliwiła swoim klientom wypłacanie środków z platformy, ponieważ firma odzyskała równowagę po rekordowym ataku hakerskim na kwotę 6,3 mld dolarów (4,7 mld funtów).",
+      "Giełda została zaatakowana przez kradzież w czwartek, która od tego czasu została opisana jako największy skok w historii, a eksperci zidentyfikowali Koreę Północną jako prawdopodobnego winowajcę.",
+      "Binance początkowo zamroził wypłaty, gdy badał naruszenie, ale w niedzielę ogłosił, że rozpoczął stopniowe ponowne otwarcie po godzinie 14:00 czasu singapurskiego.",
+      "Pozostałe 10% żetonów było mniej płynnych, co oznacza, że ich zakup może potrwać ​dłużej - poinformowała firma w poście na X w sobotę.",
+      "Richard Teng, dyrektor naczelny Binance, powiedział osobno, że firma była „zaangażowana w pokrycie pozostałych 10%”, a użytkownicy nie zniosą finansowego wpływu włamania.",
+      "FBI poinformowało w sobotę, że Korea Północna stoi za kradzieżą ponad 6 miliardów dolarów (5,36 miliarda euro) wirtualnych aktywów z giełdy kryptowalut Binance.",
+      "Skradzione aktywa obejmowały bitcoiny, ethereum i stablecoiny, takie jak tether i USD Coin, których wartości są powiązane z tradycyjnymi walutami."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "90%",
+    "6.3",
+    "4.7",
+    "10%",
+    "29",
+    "5%"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Federal Bureau",
+    "Investigation",
+    "North Korea",
+    "Binance"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC News",
+     "tytuł": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+     "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Binance resumes customer withdrawals after record $6.3bn hack",
+     "url": "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency"
+    },
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "FBI says North Korea behind $6 billion Binance crypto theft",
+     "url": "https://www.dw.com/en/fbi-says-north-korea-behind-6-billion-binance-crypto-theft/a-79819998?maca=en-rss-en-world-4025-rdf"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.36,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.688,
+     "eksponowanie": 0.27,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.402,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Takiego kostiumu nikt się nie spodziewał. Szokujące przebranie Heidi Klum na Halloween",
+   "lead": "Tegoroczna impreza zorganizowana przez Heidi Klum była szczególna – modelka świętowała 25-lecie swojego słynnego halloweenowego balu. Wydarzenie to od lat uchodzi za jedno z istotniejszych w kalendarzu celebrytów, którzy zjeżdżają się do Nowego Jorku z całego świata, by zaprezentować swoje często ekstrawaganckie…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-01T14:06:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-takiego-kostiumu-nikt-sie-nie-spodziewal-szokujace-przebrani,nIdn,1024280",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/6b/a8/shutterstock-636x421-6ba8aa28.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "53-letnia Klum była nie do poznania , gdy pojawiła się w przebraniu ogromnej, odciętej „lewej dłoni”.",
+      "Jak przyznała w rozmowie z dziennikarzami, do stworzenia tej niezwykłej kreacji potrzebowała pomocy wielu osób.",
+      "To wymagało naprawdę wielu rąk – myślę, że około 10 albo 20 – żartowała, pozując do zdjęć.",
+      "Inspiracją do tegorocznego przebrania była… własna dłoń.",
+      "Spojrzałam na swoją rękę i pomyślałam: „chyba zmieszczę swoje ciało w środku”.",
+      "Zawsze staram się wymyślić coś nietypowego i nie sądzę, by ktoś wcześniej chodził przebrany za dłoń.",
+      "To coś nowego i innego – tłumaczyła Klum.",
+      "Heidi Klum znana jest z zamiłowania do oryginalnych i widowiskowych kostiumów.",
+      "W poprzednich latach pojawiała się na swojej imprezie jako olbrzymi robak, Meduza czy księżniczka Fiona z serii filmów „Shrek”."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "25",
+    "53",
+    "10",
+    "20"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Heidi Klum",
+    "Klum",
+    "Halloween Tegoroczna",
+    "Nowego Jorku"
+   ],
+   "emotki": [
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Takiego kostiumu nikt się nie spodziewał. Szokujące przebranie Heidi Klum na Halloween",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-takiego-kostiumu-nikt-sie-nie-spodziewal-szokujace-przebrani,nIdn,1024280"
+    },
+    {
+     "nazwa": "BBC News",
+     "tytuł": "Watch: Heidi Klum as giant severed hand for Halloween bash",
+     "url": "https://www.bbc.co.uk/news/videos/cj040yd1xdrlo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.429,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.508,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.414,
+     "treściwość": 0.107,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Szaleństwo na punkcie Lewandowskiego. Kibice z Barcelony nie dają spokoju",
+   "lead": "Na ośmiu meczach zakończyła się niekorzystna seria Roberta Lewandowskiego bez choćby jednego gola w Major League Soccer. Napastnik wreszcie odetchnął z ulgą ostatniego dnia października czasu amerykańskiego, kiedy to wraz z kolegami pokonał na wyjeździe Colorado Rapids 4:2 , otwiera się w nowym oknie .",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-02T04:00:01+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/robert-lewandowski/news-w-barcelonie-szalenstwo-na-punkcie-lewandowskiego-wystarczyl,nId,23567160",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000MU98RNE0VD7X4-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Polak co prawda rozpoczął potyczkę na ławce rezerwowych.",
+      "Wejście na podmęczonych rywali zaowocowało jednak golem oraz asystą.",
+      "\"Trzy mecze w osiem dni to ciężka rzecz, biorąc pod uwagę podróże i wysokość.",
+      "Wiedzieliśmy, że będzie moment, gdy przeciwnik odczuje zmęczenie i zacznie słabnąć i właśnie wtedy wprowadziliśmy go do gry\" - tłumaczył Gregg Belhalter, opiekun \"Strażaków\" na łamach serwisu MLS , otwiera się w nowym oknie .",
+      "Trener mógł być więc dumny z postawy największej gwiazdy swojego zespołu.",
+      "Tak samo zresztą jak kibice, którzy właśnie dają o sobie znać w mediach społecznościowych.",
+      "A wszystko zapoczątkował sam Polak, wrzucając kilka zdjęć ze zwycięskiego spotkania na Instagram .",
+      "Opisał je krótko, wykorzystując emotikonę ognia.",
+      "\"Vamos\" - odpisało mu oficjalne konto Chicago Fire."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Robert Lewandowski – polski piłkarz, występujący na pozycji środkowego napastnika w amerykańskim klubie Chicago Fire. Od 2008 reprezentant Polski, w latach 2014–2025 i ponownie od 2025 kapitan reprezentacji Polski."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Robert Lewandowski",
+     "url": "https://pl.wikipedia.org/wiki/Robert_Lewandowski"
+    }
+   ],
+   "dlaczego_to_ważne": "Musieliśmy więc być mądrzy i wiedzieliśmy, że wpłynie na spotkanie .",
+   "liczby": [
+    "38"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Robert Lewandowski",
+    "opis": "polski piłkarz",
+    "tekst": "Robert Lewandowski – polski piłkarz, występujący na pozycji środkowego napastnika w amerykańskim klubie Chicago Fire. Od 2008 reprezentant Polski, w latach 2014–2025 i ponownie od 2025 kapitan reprezentacji Polski.",
+    "url": "https://pl.wikipedia.org/wiki/Robert_Lewandowski",
+    "język": "pl"
+   },
+   "tagi": [
+    "Roberta Lewandowskiego",
+    "Major League Soccer",
+    "Anna Lewandowska",
+    "Colorado Rapids"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Szaleństwo na punkcie Lewandowskiego. Kibice z Barcelony nie dają spokoju",
+     "url": "https://sport.interia.pl/robert-lewandowski/news-w-barcelonie-szalenstwo-na-punkcie-lewandowskiego-wystarczyl,nId,23567160"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.338,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.588,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Lorenzo Musetti - Hubert Hurkacz w turnieju ATP w Paryżu. Relacja na żywo",
+   "lead": "Po nieudanej przygodzie w Bazylei przed Hubertem Hurkaczem kolejny turniej. Tym razem Polak weźmie udział w zawodach ATP w Paryżu.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-01T21:30:17+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/tenis/hubert-hurkacz/na-zywo-lorenzo-musetti-hubert-hurkacz-w-turnieju-atp-w-paryzu-relac,nzId,9379",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NGWNFFIAVK9L9-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jego rywalem w 1. rundzie będzie Lorenzo Musetti, który w ostatnim czasie dość szybko odpadł z turnieju rozgrywanym w Wiedniu.",
+      "Zapowiada się bardzo emocjonujące i wyrównane widowisko.",
+      "Czy Hubert awansuje do kolejnej rundy?",
+      "Zapraszamy na relację na żywo."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Paryżu",
+    "Musetti Hubert Hurkacz",
+    "Hubertem Hurkaczem",
+    "Lorenzo Musetti"
+   ],
+   "emotki": [
+    "🎾"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Lorenzo Musetti - Hubert Hurkacz w turnieju ATP w Paryżu. Relacja na żywo",
+     "url": "https://sport.interia.pl/tenis/hubert-hurkacz/na-zywo-lorenzo-musetti-hubert-hurkacz-w-turnieju-atp-w-paryzu-relac,nzId,9379"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.236,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.506,
+     "treściwość": 0.48,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Pechowe zagranie gwiazdy Realu, ucierpiał 4-latek. Wyjątkowa reakcja",
+   "lead": "Po efektownym zwycięstwie Barcelony ( 6:1 z Deportivo Alaves ), Real Madryt był zmuszony do przekonującej odpowiedzi. Szansa na to nadarzyła się 1 listopada, kiedy to \"Królewscy\" mierzyli się z Racingiem Santander .",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-01T20:40:08+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-chwile-strachu-w-meczu-realu-w-roli-glownej-4-letni-kibic-gw,nId,23567388",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NHD8R5XCT6C83-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Zawodnicy ze stolicy Hiszpanii bardzo dobrze wykorzystali swoją szansę.",
+      "Wpierw rzut karny wykorzystał Kylian Mbappe .",
+      "Raptem 10 minut później wynik podwyższył natomiast Jude Bellingham .",
+      "Jeszcze w pierwszej połowie meczu trzecią bramkę dla \"Królewskich\" zdobył Yan Diomande .",
+      "Tym sposobem podopieczni Jose Mourinho zwyciężyli niedzielny mecz wynikiem 3:0 i utrzymali bezpieczną stratę do liderującej \"Dumy Katalonii\".",
+      "W okolicy 50. minuty telewidzowie oglądający mecz Realu Madryt z Racingiem Santander byli świadkami sceny, która wywołała grozę.",
+      "Po bardzo silnym, lecz kompletnie nieudanym strzale Aureliena Tchouameniego piłka poszybowała w kierunku trybun.",
+      "Ze sporym impetem uderzyła ona w... młodego kibica Racingu Santander.",
+      "Na innym ujęciu widać, jak rodzice z dużą troską zajmują się poszkodowanym chłopcem."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Kylian Mbappé Lottin – francuski piłkarz, występujący na pozycji napastnika w hiszpańskim klubie Real Madryt oraz w reprezentacji Francji, której jest kapitanem."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Kylian Mbappé",
+     "url": "https://pl.wikipedia.org/wiki/Kylian_Mbapp%C3%A9"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10",
+    "50",
+    "20",
+    "43",
+    "65",
+    "01"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Kylian Mbappé",
+    "opis": "francuski piłkarz",
+    "tekst": "Kylian Mbappé Lottin – francuski piłkarz, występujący na pozycji napastnika w hiszpańskim klubie Real Madryt oraz w reprezentacji Francji, której jest kapitanem.",
+    "url": "https://pl.wikipedia.org/wiki/Kylian_Mbapp%C3%A9",
+    "język": "pl"
+   },
+   "tagi": [
+    "Kylian Mbappe",
+    "Racingiem Santander",
+    "Realu Madryt",
+    "Tchouameni"
+   ],
+   "emotki": [
+    "📺"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Pechowe zagranie gwiazdy Realu, ucierpiał 4-latek. Wyjątkowa reakcja",
+     "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-chwile-strachu-w-meczu-realu-w-roli-glownej-4-letni-kibic-gw,nId,23567388"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Bellingham & Mbappe score as Real Madrid earn statement win",
+     "url": "https://www.bbc.co.uk/sport/football/videos/cv0ldye7k4g3o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "European football: Mbappé penalty helps Real Madrid stroll to sixth straight win",
+     "url": "https://www.theguardian.com/football/2026/nov/01/european-football-real-madrid-lazio-juventus-napoli-kylian-mbappe"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Football Daily",
+     "url": "https://www.bbc.co.uk/sounds/play/p0pks2xb?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.845,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.795,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.55,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Jak Antonelli „rozwalił wszystkich”, aby stworzyć historię F1",
+   "lead": "Kimi Antonelli wydaje się być przeznaczony do wielkości Formuły 1 po zdobyciu pierwszego tytułu mistrza świata, pisze Andrew Benson.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-02T01:47:30+00:00",
+   "źródło": {
+    "nazwa": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/formula1/articles/c6m2dj7ze9v2o?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6698/live/f3d07d40-d654-11f1-93e1-3b657b665bcf.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "20-letnie mistrzostwa SEALs po zajęciu trzeciego miejsca w Meksyku Kierowcy Fellow zjednoczyli się w chwale najmłodszego mistrza sportu Po chwili radości powiedział, że będzie pamiętał na zawsze, emocjonalny Kimi Antonelli został ponownie wzruszony pamięcią o swoim dziadku po tym, jak Włoch wygrał mistrzostwo świata w Formule 1 podczas meksykańskiego Grand Prix.",
+      "Z kolei jego koledzy kierowcy chwalili nowego mistrza, który zadebiutował na trzecim miejscu w Autódromo Hermanos Rodríguez.",
+      "Wśród nich był Lewis Hamilton, ale brytyjski kierowca wygłosił również surową reprymendę swojemu koledze z drużyny Ferrari, Charlesowi Leclercowi.",
+      "Antonelli został najmłodszym mistrzem świata w wieku 20 lat w Meksyku, dzieląc podium ze zwycięzcą wyścigu Maxem Verstappenem i Hamiltonem na drugim miejscu.",
+      "Samotnie na froncie podium po ceremonii wręczenia nagród Antonelli był wyraźnie dotknięty, ponieważ PA zagrała Nessun Dormę z Turandot Pucciniego.",
+      "20-letni zdobywca tytułu z czterema wyścigami Verstappen wygrywa wyścig przed Hamilton Kimi Antonelli, wpisując się w księgi rekordów Formuły 1 jako mistrz świata i zasłużony i popularny zwycięzca, którego werwę i niezwykłe umiejętności ekscytują, zamieniając to, co wielu uważało za nieprawdopodobne, w triumfalny marsz, zapieczętowany łzami radości podczas meksykańskiego Grand Prix.",
+      "Podejmując swój debiutancki tytuł F1 dla Mercedesa, 20-letni Antonelli, z potarganymi włosami i uroczym chłopięcym wyglądem, jest najmłodszym kierowcą, który zdobył koronę sportową i pierwszym Włochem, który to zrobił, odkąd Alberto Ascari wygrał w 1953 roku."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "20",
+    "100%",
+    "12",
+    "28",
+    "71"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Kimi Antonelli",
+    "Andrew Benson",
+    "Antonelli",
+    "Formula"
+   ],
+   "emotki": [
+    "🏎️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "How Antonelli 'blew everyone away' to make F1 history",
+     "url": "https://www.bbc.co.uk/sport/formula1/articles/c6m2dj7ze9v2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "How much do you know about F1 champion Antonelli?",
+     "url": "https://www.bbc.co.uk/sport/formula1/articles/c98rzkv5y115o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "‘I’ve cried way too much today’: Kimi Antonelli fights back tears after F1 title win",
+     "url": "https://www.theguardian.com/sport/2026/nov/01/kimi-antonelli-world-champion-mexican-grand-prix-lando-norris-lewis-hamilton-max-verstappen"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Kimi Antonelli becomes youngest F1 champion with third place in Mexican GP",
+     "url": "https://www.theguardian.com/sport/2026/nov/01/kimi-antonelli-youngest-f1-champion-mexican-gp"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Mexican Formula One Grand Prix: Antonelli becomes youngest F1 champion as Verstappen wins – as it happened",
+     "url": "https://www.theguardian.com/sport/live/2026/nov/01/mexican-formula-one-grand-prix-kimi-antonelli-aims-to-seal-title-live"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.221,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 2.035,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.576,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "How Antonelli 'blew everyone away' to make F1 history",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Sztuczna inteligencja może podnosić koszty leczenia",
+   "lead": "Sztuczna inteligencja może podnosić koszty leczenia tryton ndz., 11/01/2026 - 19:10 2 minuty",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-01T18:10:00+00:00",
+   "źródło": {
+    "nazwa": "Nauka w Polsce",
+    "url": "https://naukawpolsce.pl/aktualnosci/news%2C115677%2Csztuczna-inteligencja-moze-podnosic-koszty-leczenia.html",
+    "domena": "naukawpolsce.pl"
+   },
+   "obraz": null,
+   "sekcje": [],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "11",
+    "01",
+    "19",
+    "10 2"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Sztuczna"
+   ],
+   "emotki": [
+    "🤖"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Nauka w Polsce",
+     "tytuł": "Sztuczna inteligencja może podnosić koszty leczenia",
+     "url": "https://naukawpolsce.pl/aktualnosci/news%2C115677%2Csztuczna-inteligencja-moze-podnosic-koszty-leczenia.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 2.99,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.36,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.465,
+     "treściwość": 0.115,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Badaczka: z cyfrowym życiem po śmierci łatwo przekroczyć granicę",
+   "lead": "Badaczka: z cyfrowym życiem po śmierci łatwo przekroczyć granicę tryton ndz., 11/01/2026 - 19:15 4 minuty",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-01T18:15:00+00:00",
+   "źródło": {
+    "nazwa": "Nauka w Polsce",
+    "url": "https://naukawpolsce.pl/aktualnosci/news%2C115727%2Cbadaczka-z-cyfrowym-zyciem-po-smierci-latwo-przekroczyc-granice.html",
+    "domena": "naukawpolsce.pl"
+   },
+   "obraz": null,
+   "sekcje": [],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "11",
+    "01",
+    "19",
+    "15 4"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Badaczka"
+   ],
+   "emotki": [
+    "🔬",
+    "🗺️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Nauka w Polsce",
+     "tytuł": "Badaczka: z cyfrowym życiem po śmierci łatwo przekroczyć granicę",
+     "url": "https://naukawpolsce.pl/aktualnosci/news%2C115727%2Cbadaczka-z-cyfrowym-zyciem-po-smierci-latwo-przekroczyc-granice.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 2.747,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.45,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.466,
+     "treściwość": 0.131,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Przełamywanie lodu: naukowcy wykorzystują przyciągające cząsteczki, aby utworzyć lód zapobiegający wirowaniu",
+   "lead": "W niedawnym badaniu Nature Communications naukowcy donoszą o realizacji lodu antyspinowego, systemu, który działa odwrotnie niż konwencjonalne lody spinowe, łamiąc regułę Ice, która nimi rządzi. Lody wirujące to systemy magnetyczne, które naśladują zasadę występującą w lodzie wodnym.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-01T11:40:01+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-10-ice-scientists-particles-anti.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/breaking-the-ice-scien.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "W lodzie wodnym każdy atom tlenu utrzymuje dwa atomy wodoru blisko i dwa dalej.",
+      "Ponieważ wiele układów spełnia tę zasadę równie dobrze, atomy wodoru w lodzie są nieuporządkowane, co oznacza, że nie ma powtarzającego się wzoru.",
+      "Jest to oznaka geometrycznej frustracji, która pojawia się, gdy konkurujące ze sobą interakcje w systemie nie mogą być spełnione jednocześnie, pozostawiając wiele równie dobrych kompromisów.",
+      "Naukowcy odtworzyli to zachowanie w systemach inżynieryjnych zwanych sztucznymi lodami spinowymi, zbudowanych z macierzy maleńkich magnesów lub mikroskopijnych cząstek zwanych koloidami.",
+      "W lodach koloidalnych cząstki znajdują się w małych rowkach lub studzienkach, rozmieszczonych wzdłuż sieci, z których każda spoczywa w pobliżu jednego lub drugiego końca.",
+      "Ponieważ cząstki odpychają się wzajemnie, rozkładają się równomiernie, utrzymując jak najmniejszą nierównowagę cząstek na każdym złączu (jego ładunek topologiczny).",
+      "W większości badacze badali lody koloidalne przy użyciu odpychających cząstek.",
+      "W nowym badaniu naukowcy zbadali, co się dzieje, gdy cząstki przyciągają się nawzajem, tworząc coś, co nazywają lodem zapobiegającym wirowaniu.",
+      "Phys.org rozmawiał ze współautorem badania Pietro Tierno z Uniwersytetu w Barcelonie."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Naukowcy zaproponowali zaskakujące nowe wyjaśnienie istnienia wszechświata i koncentruje się ono na tajemniczej cząstce, którą fizycy w dużej mierze przeoczyli przez dziesięciolecia.",
+      "Ich teoria sugeruje, że ta zapomniana cząstka mogła odegrać kluczową rolę w kształtowaniu wczesnego kosmosu i umożliwieniu przetrwania materii po Wielkim Wybuchu.",
+      "Naukowcy z University of Southampton i Indian Institute of Technology Kanpur uważają, że mogli znaleźć ważny element układanki.",
+      "Ich wyjaśnienie dotyczy mało rozumianego krewnego neutrina, niezwykle lekkiej cząstki, która rzadko wchodzi w interakcje ze zwykłą materią.",
+      "Zapomniana cząstka o potężnej roli we wczesnym wszechświecie Zespół skupił się na typie cząstki znanym jako „oddzielone” ciężkie neutrino.",
+      "W przeciwieństwie do zwykłych neutrin, ten hipotetyczny cięższy krewny był ogólnie uważany za zbyt słabo połączony z innymi cząstkami, aby znacząco wpływać na wszechświat."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Naukowiec jest ekspertem w jednej lub kilku konkretnych dziedzinach nauki i zwykle wykorzystuje metody naukowe w prowadzeniu badań naukowych w celu rozwijania wiedzy w nauce."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Scientist",
+     "url": "https://en.wikipedia.org/wiki/Scientist"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "100,000",
+    "2.8",
+    "50",
+    "54.7",
+    "10.1038",
+    "026"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Scientist",
+    "opis": "Person who conducts scientific research",
+    "tekst": "A scientist is an expert in one or more specific fields of science and who habitually uses scientific methods in carrying out scientific research to advance knowledge in science.",
+    "url": "https://en.wikipedia.org/wiki/Scientist",
+    "język": "en"
+   },
+   "tagi": [
+    "Tierno",
+    "Nature Communications",
+    "Nature Communications Freelance",
+    "Pietro Tierno"
+   ],
+   "emotki": [
+    "⚛️",
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Breaking the ice: Scientists use attracting particles to form an anti-spin ice",
+     "url": "https://phys.org/news/2026-10-ice-scientists-particles-anti.html"
+    },
+    {
+     "nazwa": "ScienceDaily Physics",
+     "tytuł": "Scientists say a forgotten particle may explain why the universe exists",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261031221201.htm"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.715,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.357,
+     "eksponowanie": 1.62,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.383,
+     "treściwość": 0.405,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Breaking the ice: Scientists use attracting particles to form an anti-spin ice",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Ultrazimne atomy symulują trudną do zaobserwowania produkcję pary materia-antymateria",
+   "lead": "Według elektrodynamiki kwantowej, teorii opisującej interakcje między światłem a cząstkami naładowanymi elektrycznie, wystarczająco silne pole elektryczne może w zasadzie przekształcić część swojej energii w cząstki i ich partnerów antymaterii. Partner antymaterii cząstki ma taką samą masę i dla…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-31T17:00:01+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-10-ultracold-atoms-simulate-hard-antimatter.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/using-cold-atoms-to-ex.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Tworzenie par cząstka-antycząstka poprzez pole elektryczne i z próżni znane jest jako efekt Schwingera.",
+      "Ponieważ produkcja tych par jest silnie tłumiona przy natężeniach pola elektrycznego, które można zrealizować w warunkach laboratoryjnych, obserwacja tego efektu eksperymentalnie okazała się do tej pory trudna.",
+      "Naukowcy z Uniwersytetu Naukowo-Technicznego w Chinach i innych instytucji wprowadzili obecnie eksperyment, który można wykorzystać do symulacji i badania tego rzadkiego procesu produkcji cząstek.",
+      "Ich eksperyment, opisany w artykule opublikowanym w Physical Review Letters , pociąga za sobą reprezentację cząstek i pól elektrycznych poprzez rozmieszczenie i ruch ultrazimnych atomów rubidu uwięzionych w sieci optycznej , wzorcu opartym na świetle laserowym, który może uwięzić atomy.",
+      "„Zainspirował nas efekt Schwingera, przewidywanie, że silne pole elektryczne może spontanicznie tworzyć pary elektron-pozytron z próżni” - powiedział Phys.org Zhen-Sheng Yuan, współautor artykułu.",
+      "„Jest to przykład„ fałszywego rozpadu próżniowego ”i w swojej pierwotnej formie nigdy nie był bezpośrednio obserwowany.",
+      "Naszym celem było zbudowanie prostego, kontrolowanego modelu laboratoryjnego z zimnymi atomami, w którym moglibyśmy symulować ten proces i dostroić jego przebieg.„ W swoich eksperymentach Yuan i jego koledzy użyli światła laserowego, aby uwięzić ultrazimne atomy rubidu w jednowymiarowym łańcuchu, prostym rzędzie małych pułapek optycznych.",
+      "Co druga pułapka na tym łańcuchu zawierała dwa atomy, podczas gdy pułapki pomiędzy nimi były puste.",
+      "„Ten układ jest„ fałszywą próżnią ”, stanem, który może uwolnić energię poprzez tworzenie par cząstka-antycząstka” - wyjaśnił Yuan."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "100,000",
+    "10.1103",
+    "2411.12565"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Schwinger",
+    "Yuan",
+    "Physical Review Letters",
+    "Phys.org"
+   ],
+   "emotki": [
+    "⚛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Ultracold atoms simulate hard-to-observe matter-antimatter pair production",
+     "url": "https://phys.org/news/2026-10-ultracold-atoms-simulate-hard-antimatter.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.235,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.72,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.15,
+     "treściwość": 0.465,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Ultracold atoms simulate hard-to-observe matter-antimatter pair production",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Ciężki wodór w metanie 3I/ATLAS wskazuje na mroźne miejsce urodzenia",
+   "lead": "Międzygwiezdna kometa 3I/ATLAS niesie chemiczną wskazówkę do warunków w układzie planetarnym swojego pochodzenia, zamkniętą na długo przed dotarciem do naszego Słońca. Jego metanowa sygnatura jest niezwykle bogata w ciężki wodór, co sugeruje, że zamrożone składniki komety nabrały kształtu w intensywnie zimnym środowisku wokół innego…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-01T15:20:02+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Astronomy",
+    "url": "https://phys.org/news/2026-10-heavy-hydrogen-3iatlas-methane-frigid.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/heavy-hydrogen-in-3iat.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Używając Kosmicznego Teleskopu Jamesa Webba, Nathan Roth z Uniwersytetu Amerykańskiego i Centrum Lotów Kosmicznych Goddarda NASA wraz z kolegami zmierzyli stosunek ciężkiego do normalnego wodoru w 3I/ATLASIE, który jest około 13 razy wyższy niż stosunek komety 67P/Churyumov-Gerasimenko (która prawdopodobnie pochodzi z naszego Układu Słonecznego).",
+      "Ich odkrycia, opublikowane w czasopiśmie Nature Astronomy , dają naukowcom rzadką możliwość zbadania wczesnej chemii innego układu planetarnego.",
+      "Wyzwaniem jest praca wstecz od uciekającego gazu do warunków, w których powstał jego lód.",
+      "Ciężki wodór, zwany deuterem, ma dodatkowy neutron w swoim jądrze.",
+      "Może zająć miejsce zwykłego wodoru w cząsteczce metanu, która składa się z jednego atomu węgla połączonego z czterema atomami wodoru.",
+      "Ta substytucja zmienia sygnaturę cząsteczki w podczerwieni, umożliwiając astronomom rozróżnienie między tymi dwiema formami, ale wersja zawierająca deuter wytwarza znacznie słabszy sygnał.",
+      "Webb zaobserwował 3I/ATLAS w grudniu",
+      "22 i 23, 2025 r., gdy znajdowała się około 2,4 razy dalej od Słońca niż Ziemia.",
+      "Teleskop badał światło podczerwone ze śpiączki, chmurę gazu otaczającą lodowe jądro komety."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nature Astronomy to recenzowane czasopismo naukowe wydawane przez Nature Portfolio. Po raz pierwszy został opublikowany w styczniu 2017 roku, choć pierwsze treści pojawiły się w Internecie w grudniu 2016 roku. Redaktorem naczelnym jest Paul Woods, który jest etatowym profesjonalnym redaktorem zatrudnionym przez czasopismo. Woods objął kierownictwo czasopisma w kwietniu 2024 roku od May Chiao, która je założyła. Redaktorami założycielami tego czasopisma, oprócz May Chiao, byli Paul Woods, Luca Maltagliati i Marios Karouzos."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Nature Astronomy",
+     "url": "https://en.wikipedia.org/wiki/Nature_Astronomy"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "13",
+    "67",
+    "22",
+    "23, 2025",
+    "2.4",
+    "3.2%"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Nature Astronomy",
+    "opis": "Academic journal",
+    "tekst": "Nature Astronomy is a peer reviewed scientific journal published by Nature Portfolio. It was first published in January 2017, although the first content appeared online in December 2016. The editor-in-chief is Paul Woods, who is a full-time professional editor employed by the journal. Woods took over the leadership of the journal in April 2024 from May Chiao, who launched the journal. The founding editors of this journal, in addition to May Chiao, were Paul Woods, Luca Maltagliati and Marios Karouzos.",
+    "url": "https://en.wikipedia.org/wiki/Nature_Astronomy",
+    "język": "en"
+   },
+   "tagi": [
+    "Nature Astronomy",
+    "Master's",
+    "James Webb Space Telescope Nathan Roth",
+    "NASA's Goddard Space Flight Center"
+   ],
+   "emotki": [
+    "🪐",
+    "🔭"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Astronomy",
+     "tytuł": "Heavy hydrogen in 3I/ATLAS's methane points to a frigid birthplace",
+     "url": "https://phys.org/news/2026-10-heavy-hydrogen-3iatlas-methane-frigid.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.284,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.429,
+     "treściwość": 0.445,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Heavy hydrogen in 3I/ATLAS's methane points to a frigid birthplace",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Listopad 2026: Co jest na niebie półkuli południowej w tym miesiącu?",
+   "lead": "Chociaż Wenus zdominowała wieczorne niebo od zeszłego lata, jej długie objawienie zakończyło się pod koniec października w gorszej koniunkcji. To sprawia, że Saturn jest jedyną widoczną planetą z gołym okiem, gdy niebo ciemnieje w tym miesiącu.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-01T05:00:00+00:00",
+   "źródło": {
+    "nazwa": "Astronomy Magazine",
+    "url": "https://www.astronomy.com/observing/november-2026-whats-in-the-southern-hemisphere-sky-this-month/",
+    "domena": "astronomy.com"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Obrączkowana planeta świeci z jasnością 0,5, gdy graniczy na zachód z gwiazdami tła z książki „Listopad 2026: Co jest na niebie półkuli południowej w tym miesiącu?„ Post November 2026: What's in the Southern Hemisphere sky this month? ukazał się po raz pierwszy w Astronomy Magazine ."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Mars i Jowisz dominują na porannym niebie, a w godzinie Czytaj dalej „Listopad 2026: Co jest na niebie w tym miesiącu?„ The post November 2026: What's in the sky this month? appeared first on Astronomy Magazine ."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Listopad to jedenasty i przedostatni miesiąc roku w kalendarzu juliańskim i gregoriańskim. Listopad był dziewiątym miesiącem kalendarza Romulusa ok. Listopad zachował swoją nazwę, gdy styczeń i luty zostały dodane do kalendarza rzymskiego. Listopad to miesiąc późnej wiosny na półkuli południowej i późnej jesieni na półkuli północnej. Dlatego listopad na półkuli południowej jest sezonowym odpowiednikiem maja na półkuli północnej i odwrotnie. W starożytnym Rzymie Ludi Plebeii odbył się w dniach 4–17 listopada, Epulum Jovis odbył się 13 listopada, a uroczystości w Brumalii rozpoczęły się 24 listopada. Daty te nie odpowiadają współczesnemu kalendarzowi gregoriańskiemu."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: November",
+     "url": "https://en.wikipedia.org/wiki/November"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "0.5"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "November",
+    "opis": "Eleventh month in the Julian and Gregorian calendars",
+    "tekst": "November is the eleventh and penultimate month of the year in the Julian and Gregorian calendars. Its length is 30 days. November was the ninth month of the calendar of Romulus c. 750 BC. November retained its name when January and February were added to the Roman calendar. November is a month of late spring in the Southern Hemisphere and late autumn in the Northern Hemisphere. Therefore, November in the Southern Hemisphere is the seasonal equivalent of May in the Northern Hemisphere and vice versa. In Ancient Rome, Ludi Plebeii was held from November 4–17, Epulum Jovis was held on November 13 and Brumalia celebrations began on November 24. These dates do not correspond to the modern Gregorian calendar.",
+    "url": "https://en.wikipedia.org/wiki/November",
+    "język": "en"
+   },
+   "tagi": [
+    "Southern Hemisphere",
+    "What’s",
+    "November",
+    "Astronomy Magazine"
+   ],
+   "emotki": [
+    "🪐"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Astronomy Magazine",
+     "tytuł": "November 2026: What’s in the Southern Hemisphere sky this month?",
+     "url": "https://www.astronomy.com/observing/november-2026-whats-in-the-southern-hemisphere-sky-this-month/"
+    },
+    {
+     "nazwa": "Astronomy Magazine",
+     "tytuł": "November 2026: What’s in the sky this month?",
+     "url": "https://www.astronomy.com/observing/sky-this-month-november-2026/"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.048,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.208,
+     "eksponowanie": 0.99,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.3,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "November 2026: What’s in the Southern Hemisphere sky this month?",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Nowości w SmartGML - operat techniczny i dostęp do księgi wieczystej prosto z aplikacji",
+   "lead": "Geo-System udostępnił wersję 1.1.0 programu SmartGML. Oprócz szeregu nowych narzędzi do pracy z danymi GML program ułatwia przygotowywanie operatu technicznego, a najnowsza wersja pozwala również otworzyć treść księgi wieczystej działki bezpośrednio z poziomu mapy bez zbędnego klikania.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-02T00:00:00+00:00",
+   "źródło": {
+    "nazwa": "Geoforum",
+    "url": "https://geoforum.pl/news/37477/nowosci-w-smartgml-operat-techniczny-i-dostep-do-ksiegi-wieczystej-prosto-z-aplikacji",
+    "domena": "geoforum.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Najważniejszą spośród nowości w wersji 1.1.0 jest integracja z systemem Elektronicznych Ksiąg Wieczystych.",
+      "Pozycja Zobacz treść KW w systemie EKW w menu podręcznym działki oraz przycisk..."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "1.1.0"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "SmartGML",
+    "Elektronicznych Ksiąg Wieczystych",
+    "Geo-System",
+    "Zobacz"
+   ],
+   "emotki": [
+    "💻"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Geoforum",
+     "tytuł": "Nowości w SmartGML - operat techniczny i dostęp do księgi wieczystej prosto z aplikacji",
+     "url": "https://geoforum.pl/news/37477/nowosci-w-smartgml-operat-techniczny-i-dostep-do-ksiegi-wieczystej-prosto-z-aplikacji"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.698,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.538,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Prezes Geo-System o potrzebie wdrożenia API dla Rejestru Urbanistycznego",
+   "lead": "Zbigniew Malinowski, prezes firmy Geo-System, przedstawił swoje stanowisko w sprawie zasilania Rejestru Urbanistycznego RU danymi o obowiązujących miejscowych planach zagospodarowania przestrzennego. Jego zdaniem niezbędne jest wdrożenie interfejsu API, który umożliwiłby automatyczne przekazywanie danych z systemów…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-02T00:00:00+00:00",
+   "źródło": {
+    "nazwa": "Geoforum",
+    "url": "https://geoforum.pl/news/37476/prezes-geo-system-o-potrzebie-wdrozenia-api-dla-rejestru-urbanistycznego",
+    "domena": "geoforum.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Obecnie wprowadzanie danych do RU odbywa się ręcznie pracownicy urzędów logują się do systemu za pomocą profilu..."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Rejestru Urbanistycznego",
+    "Geo-System",
+    "Rejestru Urbanistycznego Zbigniew Malinowski"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Geoforum",
+     "tytuł": "Prezes Geo-System o potrzebie wdrożenia API dla Rejestru Urbanistycznego",
+     "url": "https://geoforum.pl/news/37476/prezes-geo-system-o-potrzebie-wdrozenia-api-dla-rejestru-urbanistycznego"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.608,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.72,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.538,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Michael Mann w szpitalu. Reżyser postrzelił się przypadkowo",
+   "lead": "Michael Mann trafił do szpitala. Jak donosi TMZ, 83-letni reżyser, twórca \" Gorączki \", \" Zakładnika \" i \"<a class='internal'",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-01T15:41:00+00:00",
+   "źródło": {
+    "nazwa": "Filmweb",
+    "url": "https://www.filmweb.pl/news/Michael+Mann+w+szpitalu.+Re%C5%BCyser+przypadkowo+postrzeli%C5%82+si%C4%99+sam-169443",
+    "domena": "filmweb.pl"
+   },
+   "obraz": "https://fwcdn.pl/nph/1985708/2026/78703_1.16.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Jak podaje serwis TMZ, który jako pierwszy poinformował o tym zdarzeniu, reżyser doznał obrażeń, próbując schować broń do kabury, gdy ta przypadkowo wystrzeliła.",
+      "Do zdarzenia doszło w sobotę około godziny 16:00 na strzelnicy Range L.A., a policja w Los Angeles potwierdziła, że w momencie zgłoszenia jego stan był stabilny.",
+      "\"W sobotę na strzelnicy doszło do przypadkowego wystrzału z broni znajdującej się w kaburze, w wyniku czego reżyser filmowy Michael Mann odniósł powierzchowne obrażenia."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "83",
+    "16",
+    "00"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Film",
+     "ujęcie": "Michael Mann trafił do szpitala po nieszczęśliwym wypadku na strzelnicy w Los Angeles.",
+     "url": "https://film.interia.pl/mocny-temat/news-niefortunny-wypadek-na-strzelnicy-znany-rezyser-trafil-do-sz,nId,23567144"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Gorączki Zakładnika",
+    "Michael Mann"
+   ],
+   "emotki": [
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Filmweb",
+     "tytuł": "Michael Mann w szpitalu. Reżyser postrzelił się przypadkowo",
+     "url": "https://www.filmweb.pl/news/Michael+Mann+w+szpitalu.+Re%C5%BCyser+przypadkowo+postrzeli%C5%82+si%C4%99+sam-169443"
+    },
+    {
+     "nazwa": "Interia Film",
+     "tytuł": "Niefortunny wypadek na strzelnicy. Znany reżyser trafił do szpitala",
+     "url": "https://film.interia.pl/mocny-temat/news-niefortunny-wypadek-na-strzelnicy-znany-rezyser-trafil-do-sz,nId,23567144"
+    },
+    {
+     "nazwa": "The Guardian Film",
+     "tytuł": "Director Michael Mann accidentally shoots himself in the leg at gun range",
+     "url": "https://www.theguardian.com/film/2026/nov/01/michael-mann-accidentally-shoots-himself-leg"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.414,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.458,
+     "eksponowanie": 0.36,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.446,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Gwiazdy \"Avengers: Doomsday\" zamieniły się rolami. Pedro Pascal jako Doom, Robert Downey Jr jako Richards",
+   "lead": "A co, gdyby Pedro Pascal zagrał Doktora Dooma , a Robert Downey Jr – <a class='internal' href='/character/Mr+Fantastic-505'",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-01T08:24:00+00:00",
+   "źródło": {
+    "nazwa": "Filmweb",
+    "url": "https://www.filmweb.pl/news/Gwiazdy+%22Avengers%3ADoomsday%22+zamieni%C5%82y+si%C4%99+rolami.+Pedro+Pascal+jako+Doom%2C+Robert+Downey+Jr+jako+Richards-169436",
+    "domena": "filmweb.pl"
+   },
+   "obraz": "https://fwcdn.pl/nph/1985708/2026/78688_1.16.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Filmowi Doktor Doom i Reed Richards w noc duchów zamienili się rolami, dzięki czemu po raz pierwszy mogliśmy zobaczyć, jak Pascal prezentowałby się jako marvelowski złoczyńca i jak Robert Downey Jr. sprawdziłby się w roli Mistera Fantastica.",
+      "Halloween to niepowtarzalna okazja do najbardziej szalonych eksperymentów z kostiumami i wcielania się w role, o które nikt by nas wcześniej nie podejrzewał.",
+      "Podobne motto przyświecało zeszłej nocy gwiazdom nadchodzącego filmu \"Avengers: Doomsday\", które postanowiły... zamienić się rolami.",
+      "Tym sposobem powracający do superbohaterskiego uniwersum Robert Downey Jr. pokazał się fanom w kostiumie Reeda Richardsa z \"Fantastycznej Czwórki\".",
+      "Z kolei filmowy Mister Fantastic, czyli Pedro Pascal, zapozował w słynnej masce Doktora Dooma i jego charakterystycznej zielonej pelerynie."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Avengers: Doomsday – produkowany amerykański film akcji sci-fi, na podstawie serii komiksów Marvela o tytułowych superbohaterach. Za reżyserię odpowiadają Anthony i Joe Russo, a za scenariusz Michael Waldron i Stephen McFeely. Wystąpią Chris Hemsworth, Vanessa Kirby, Anthony Mackie, Sebastian Stan, Letitia Wright, Paul Rudd, Wyatt Russell, Ténoch Huerta, Ebon Moss-Bachrach, Simu Liu, Florence Pugh, Kelsey Grammer, Lewis Pullman, Danny Ramirez, Joseph Quinn, David Harbour, Winston Duke, Hannah John-Kamen, Tom Hiddleston, Patrick Stewart, Ian McKellen, Alan Cumming, Rebecca Romijn, James Marsden, Channing Tatum, Pedro Pascal oraz Robert Downey Jr."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Avengers: Doomsday",
+     "url": "https://pl.wikipedia.org/wiki/Avengers%3A_Doomsday"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "505",
+    "18"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Film",
+     "ujęcie": "Robert Downey Jr. i Pedro Pascal tegoroczne Halloween obchodzili w dość osobliwy sposób.",
+     "url": "https://film.interia.pl/wiadomosci/news-tak-gwiazdy-avengers-swietowaly-halloween-zamiana-kostiumow,nId,23567043"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Avengers: Doomsday",
+    "opis": "amerykański film superbohaterski z 2026 roku",
+    "tekst": "Avengers: Doomsday – produkowany amerykański film akcji sci-fi, na podstawie serii komiksów Marvela o tytułowych superbohaterach. Za reżyserię odpowiadają Anthony i Joe Russo, a za scenariusz Michael Waldron i Stephen McFeely. Wystąpią Chris Hemsworth, Vanessa Kirby, Anthony Mackie, Sebastian Stan, Letitia Wright, Paul Rudd, Wyatt Russell, Ténoch Huerta, Ebon Moss-Bachrach, Simu Liu, Florence Pugh, Kelsey Grammer, Lewis Pullman, Danny Ramirez, Joseph Quinn, David Harbour, Winston Duke, Hannah John-Kamen, Tom Hiddleston, Patrick Stewart, Ian McKellen, Alan Cumming, Rebecca Romijn, James Marsden, Channing Tatum, Pedro Pascal oraz Robert Downey Jr.",
+    "url": "https://pl.wikipedia.org/wiki/Avengers%3A_Doomsday",
+    "język": "pl"
+   },
+   "tagi": [
+    "Doom Robert Downey Jr",
+    "Avengers Doomsday",
+    "Robert Downey Jr",
+    "Doktora Dooma"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Filmweb",
+     "tytuł": "Gwiazdy \"Avengers: Doomsday\" zamieniły się rolami. Pedro Pascal jako Doom, Robert Downey Jr jako Richards",
+     "url": "https://www.filmweb.pl/news/Gwiazdy+%22Avengers%3ADoomsday%22+zamieni%C5%82y+si%C4%99+rolami.+Pedro+Pascal+jako+Doom%2C+Robert+Downey+Jr+jako+Richards-169436"
+    },
+    {
+     "nazwa": "Interia Film",
+     "tytuł": "Tak gwiazdy \"Avengers\" świętowały Halloween. \"Zamiana kostiumów!\"",
+     "url": "https://film.interia.pl/wiadomosci/news-tak-gwiazdy-avengers-swietowaly-halloween-zamiana-kostiumow,nId,23567043"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.77,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.243,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.365,
+     "treściwość": 0.412,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  }
+ ],
+ "braki": [],
+ "statystyki": {
+  "kanały_ok": 72,
+  "kanały_błędne": 0,
+  "znaki_tłumaczone": 11280,
+  "niedziałające_kanały": [],
+  "działy": 18,
+  "artykuły_w_oknie": 33
+ }
+}

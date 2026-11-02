@@ -1,8 +1,8 @@
 {
  "wersja": "1.0.0",
- "wydanie": "2026-11-01",
- "dotyczy_dnia": "2026-10-31",
- "wygenerowano": "2026-11-01T12:33:24+00:00",
+ "wydanie": "2026-11-02",
+ "dotyczy_dnia": "2026-11-01",
+ "wygenerowano": "2026-11-02T14:34:10+00:00",
  "strefa": "Europe/Warsaw",
  "tryb": "ekstrakcyjny",
  "demo": false,
@@ -14,147 +14,84 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "Komisja Europejska zabrała głos ws. TK. Jasny komunikat dla polskich władz",
-   "lead": "Zapewniła, że Komisja uważnie śledzi ostatnie wydarzenia dotyczące TK. Powołanie ośmiu nowych członków Trybunału Konstytucyjnego mieści się w konstytucyjnych kompetencjach Sejmu, co potwierdziła Komisja Wenecka w swojej opinii z 13 października 2026 r. - poinformowała PAP rzeczniczka Bogey.",
+   "nagłówek": "Korwin-Piotrowska zapowiada w sprawie Święczkowskiego. \"W poniedziałek\"",
+   "lead": "-Podniesionym głosem wypowiedział słowa: \"idzie prezydent\" - relacjonowała w TVN24 sędzia Anna Korwin-Piotrowska, opisując nocne wejście Karola Nawrockiego do Trybunału Konstytucyjnego. Zapowiedziała również zarządzenie, które rozszerzy porządek wtorkowych obrad Zgromadzenia Ogólnego Sędziów TK o losowanie składów…",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-31T21:26:00+00:00",
+   "opublikowano": "2026-11-01T19:32:58+00:00",
    "źródło": {
-    "nazwa": "RMF24",
-    "url": "https://www.rmf24.pl/fakty/polska/news-komisja-europejska-zabrala-glos-ws-tk-jasny-komunikat-dla-po,nIdn,1024256",
-    "domena": "rmf24.pl"
+    "nazwa": "Interia Fakty",
+    "url": "https://wydarzenia.interia.pl/kraj/news-korwin-piotrowska-zapowiada-w-sprawie-swieczkowskiego-w-poni,nId,23567390",
+    "domena": "wydarzenia.interia.pl"
    },
-   "obraz": "https://rmf.rmffm.pl/news/attachments/7f/0b/komisja-europejska-zabrala-glos-ws-636x421-7f0b7e95.jpg",
+   "obraz": "https://i.iplsc.com/-/000NHD8I42VC16RC-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "W przekazanym oświadczeniu dodała: 5 maja 2026 r.",
-      "Europejski Trybunał Praw Człowieka wydał środki tymczasowe, zobowiązujące właściwe polskie organy do powstrzymania się od utrudniania sędziom – powołanym przez Sejm w marcu 2026 r. – objęcia urzędu oraz wykonywania obowiązków sędziowskich.",
-      "Do kryzysu w Trybunale doszło po ogłoszeniu w piątek przerwy w czynnościach prezesa TK Bogdana Święczkowskiego i wiceprezesa Bartłomieja Sochańskiego .",
-      "Za osobę kierującą pracami Trybunału została uznana wybrana przez obecny Sejm sędzia Anna Korwin-Piotrowska.",
-      "Następnie przed siedzibą TK doszło do napięć i demonstracji, a na miejscu pojawiła się policja.",
-      "Prezydent Karol Nawrocki przerwał lot do Senegalu i w nocy z piątku na sobotę przybył do siedziby TK.",
-      "W mediach opublikowano nagrania pokazujące jego wejście do budynku oraz spór między przedstawicielami prezydenta a osobami wybranymi przez obecny Sejm na sędziów Trybunału.",
-      "Strony przedstawiają odmienne wersje wydarzeń dotyczących przebiegu zajścia.",
-      "Po opuszczeniu budynku TK prezydent ogłosił zwołanie pilnych konsultacji z udziałem sił parlamentarnych, argumentując, że doszło do naruszenia porządku konstytucyjnego."
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Kanada przekaże pół miliarda dolarów do unijnego systemu pożyczek dla Ukrainy – poinformował w piątek premier Mark Carney na konferencji prasowej po zakończeniu dwudniowego szczytu Kanada-Unia Europejska w Montrealu. - To będzie nasz początkowy udział.",
-      "To jest bardzo ważny i skuteczny mechanizm (…) używający zamrożonych aktywów, by udostępnić bardzo potrzebne finansowanie dla Ukrainy .",
-      "Mieliśmy szerszą dyskusję o szerszych potrzebach finansowych” – powiedział Carney, wyrażając uznanie dla Unii Europejskiej za stworzenie tej formy finansowania dla Ukrainy.",
-      "Dodał, że celem pomocy jest wsparcie Ukrainy w obronie zasad integralności terytorialnej, wolności i demokracji oraz koncentracja na gwarancjach bezpieczeństwa .",
-      "Z unijnej pożyczki dla Ukrainy o wartości 90 mld euro, przeznaczonej na lata 2026–27, 60 mld euro ma wesprzeć zdolności obronne i przemysł zbrojeniowy Ukrainy, a 30 mld euro – jej budżet.",
-      "Atak na Trybunał Konstytucyjny i jego sędziów to kolejna odsłona procesu niszczenia rządów prawa w Polsce przez PiS i prezydentów Andrzeja Dudę i Karola Nawrockiego — oświadczył w sobotnim orędziu premier Donald Tusk.",
-      "Zaznaczył, że demokratyczne państwo musi być silne i zdolne do egzekwowania sprawiedliwości. — Sposobem na spokój nie może być ustępowanie przed bezprawiem — podkreślił."
+      "W niedzielę w rozmowie z TVN24 sędzia Anna Korwin-Piotrowska powiedziała, że w zarządzeniu dotyczącym przerwy w czynnościach służbowych prezesa TK Bogdana Święczkowskiego oraz wiceprezesa TK Bartłomieja Sochańskiego na okres miesiąca \"opisane zarzuty (co do pracy Święczkowskiego i Sochańskiego - red.) muszą służyć wszczęciu postępowania dyscyplinarnego wobec tych sędziów\". - Na końcu dyscyplinarnego postępowania jest zawsze w przypadku Trybunału Konstytucyjnego sąd dyscyplinarny.",
+      "Jest to skład trzyosobowy w pierwszej instancji, pięcioosobowy w drugiej instancji składający się wyłącznie z sędziów Trybunału Konstytucyjnego , który ja wylosuję - przekazała Korwin-Piotrowska.",
+      "Celem tego zarządzenia - jak argumentowała - ma by ć losowanie sędziów \"w warunkach absolutnej transparentności, żeby nie mogło być żadnych zarzutów co do tego losowania\".",
+      "Dodała, że w ciągu 30 dni sąd dyscyplinarny \"musi z urzędu rozpoznać natychmiastową przerwę\" w czynnościach służbowych Święczkowskiego i Sochańskiego.",
+      "Jak napisał w serwisie X, we wtorek ma dojść do podjęcia uchwały dotyczącej uchylenia immunitetu prezesa TK Bogdana Święczkowskiego , a prawdopodobnie również wiceprezesa Trybunału Bartłomieja Sochańskiego.",
+      "\"Uzurpatorzy w TK planują podjąć nielegalny akt, który nazwą 'uchwałą o uchyleniu immunitetu sędziemu TK Bogdanowi Święczkowskiemu'\" - napisał Zaradkiewicz.",
+      "Według autora wpisu kolejnym krokiem może być wystąpienie prokuratury do sądu z wnioskiem o tymczasowe aresztowanie prezesa Trybunału.",
+      "\"Prokurator podległy panu Żurkowi zwróci się do sądu o zastosowanie tymczasowego aresztu wobec Prezesa TK\" - przewiduje Zaradkiewicz.",
+      "Zaznaczył jednocześnie, że nie wiadomo, jaką decyzję podejmie sąd."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Unia Europejska, UE – gospodarczo-polityczny związek 27 demokratycznych państw europejskich. Unia powstała 1 listopada 1993 roku na mocy podpisanego 7 lutego 1992 traktatu z Maastricht – jako efekt wieloletniego procesu integracji politycznej, gospodarczej i społecznej. Korzenie współczesnej integracji europejskiej sięgają okresu powojennego i ograniczały się do 6 państw zachodnioeuropejskich. Państwa te tworzyły wiele form i sposobów współpracy, powoływały organizacje, instytucje i organy, których celem było wzmocnienie jedności między nimi. W 1993 nadrzędną wobec wszystkich poprzednich organizacji została Unia Europejska, sama otrzymując nieznaną wcześniej hybrydową formułę sui generis."
+      "Bogdan Roman Święczkowski – polski prawnik, prokurator. Od 2022 sędzia Trybunału Konstytucyjnego, którego od 9 grudnia 2024 jest prezesem."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Unia Europejska",
-     "url": "https://pl.wikipedia.org/wiki/Unia_Europejska"
+     "przypis": "Wikipedia: Bogdan Święczkowski",
+     "url": "https://pl.wikipedia.org/wiki/Bogdan_%C5%9Awi%C4%99czkowski"
     }
    ],
-   "dlaczego_to_ważne": "",
+   "dlaczego_to_ważne": "Sędzia Sądu Najwyższego Kamil Zaradkiewicz ostrzegł przed możliwymi konsekwencjami planowanych działań w Trybunale Konstytucyjnym .",
    "liczby": [
-    "13",
-    "90 mld eur",
-    "27, 60 mld eur",
-    "30 mld eur",
-    "1,3 mln",
-    "300 tys."
+    "30 dni"
    ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "Business Insider Polska",
-     "ujęcie": "Orędzie premiera zostało wyemitowane w sobotę wieczorem i było związane z sytuacją wokół Trybunału Konstytucyjnego. — Byliśmy wczoraj świadkami gorszących zdarzeń pod budynkiem Trybunału Konstytucyjnego.",
-     "url": "https://businessinsider.com.pl/wiadomosci/premier-w-oredziu-zabral-glos-w-sprawie-tk-gorszace-zdarzenia/wv98vvy"
-    },
-    {
-     "źródło": "Interia Fakty",
-     "ujęcie": "Członkowie Prezydium Konferencji Episkopatu Polski zaapelowali w sobotę o nieeskalowanie konfliktu wokół Trybunału Konstytucyjnego, podjęcie konstruktywnego dialogu oraz pokojowe rozwiązywanie sporów.",
-     "url": "https://wydarzenia.interia.pl/kraj/news-episkopat-zabiera-glos-w-sprawie-tk-gleboki-kryzys-panstwa,nId,23566888"
-    },
-    {
-     "źródło": "Money.pl",
-     "ujęcie": "- Według mnie mnie z punktu widzenia finansów, giełdy, złotego, nie będzie to miało najmniejszego znaczenia - mówi analityk Piotr Kuczyński, odnosząc się do piątkowego zaognienia sytuacji wokół Trybunału Konstytucyjnego.",
-     "url": "https://www.money.pl/polityka/burza-wokol-tk-analityk-mowi-czy-bedzie-miala-jakies-przelozenie-na-rynki-7345727460911584a.html"
-    }
-   ],
+   "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Unia Europejska",
-    "opis": "gospodarczo-polityczny związek 27 państw europejskich",
-    "tekst": "Unia Europejska, UE – gospodarczo-polityczny związek 27 demokratycznych państw europejskich. Unia powstała 1 listopada 1993 roku na mocy podpisanego 7 lutego 1992 traktatu z Maastricht – jako efekt wieloletniego procesu integracji politycznej, gospodarczej i społecznej. Korzenie współczesnej integracji europejskiej sięgają okresu powojennego i ograniczały się do 6 państw zachodnioeuropejskich. Państwa te tworzyły wiele form i sposobów współpracy, powoływały organizacje, instytucje i organy, których celem było wzmocnienie jedności między nimi. W 1993 nadrzędną wobec wszystkich poprzednich organizacji została Unia Europejska, sama otrzymując nieznaną wcześniej hybrydową formułę sui generis.",
-    "url": "https://pl.wikipedia.org/wiki/Unia_Europejska",
+    "hasło": "Bogdan Święczkowski",
+    "opis": "polski prawnik i prokurator",
+    "tekst": "Bogdan Roman Święczkowski – polski prawnik, prokurator. Od 2022 sędzia Trybunału Konstytucyjnego, którego od 9 grudnia 2024 jest prezesem.",
+    "url": "https://pl.wikipedia.org/wiki/Bogdan_%C5%9Awi%C4%99czkowski",
     "język": "pl"
    },
    "tagi": [
-    "Trybunału",
-    "Sejm",
-    "PiS",
-    "Anna Korwin-Piotrowska"
+    "Korwin-Piotrowska",
+    "Trybunału Konstytucyjnego",
+    "Święczkowskiego",
+    "Zgromadzenia Ogólnego Sędziów TK"
    ],
    "emotki": [
+    "⚖️",
     "🏛️"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "RMF24",
-     "tytuł": "Komisja Europejska zabrała głos ws. TK. Jasny komunikat dla polskich władz",
-     "url": "https://www.rmf24.pl/fakty/polska/news-komisja-europejska-zabrala-glos-ws-tk-jasny-komunikat-dla-po,nIdn,1024256"
-    },
-    {
-     "nazwa": "Bankier.pl",
-     "tytuł": "Kanada wchodzi do gry u boku Unii Europejskiej. Wielkie pieniądze popłyną na front",
-     "url": "https://www.bankier.pl/wiadomosc/Kanada-wchodzi-do-gry-u-boku-Unii-Europejskiej-Wielkie-pieniadze-poplyna-na-front-9221446.html"
-    },
-    {
-     "nazwa": "Business Insider Polska",
-     "tytuł": "Premier w orędziu zabrał głos w sprawie TK. \"Gorszące zdarzenia\"",
-     "url": "https://businessinsider.com.pl/wiadomosci/premier-w-oredziu-zabral-glos-w-sprawie-tk-gorszace-zdarzenia/wv98vvy"
-    },
-    {
      "nazwa": "Interia Fakty",
-     "tytuł": "Episkopat zabiera głos w sprawie TK. \"Głęboki kryzys państwa\"",
-     "url": "https://wydarzenia.interia.pl/kraj/news-episkopat-zabiera-glos-w-sprawie-tk-gleboki-kryzys-panstwa,nId,23566888"
-    },
-    {
-     "nazwa": "Interia Fakty",
-     "tytuł": "Głos z Brukseli w sprawie TK. Komisja Europejska \"uważnie śledzi\" kryzys",
-     "url": "https://wydarzenia.interia.pl/kraj/news-glos-z-brukseli-w-sprawie-tk-komisja-europejska-uwaznie-sled,nId,23567000"
-    },
-    {
-     "nazwa": "Interia Fakty",
-     "tytuł": "Ruch Beaty Szydło w sprawie TK. \"Fala poruszenia w całej Unii Europejskiej\"",
-     "url": "https://wydarzenia.interia.pl/kraj/news-ruch-beaty-szydlo-w-sprawie-tk-fala-poruszenia-w-calej-unii,nId,23566953"
-    },
-    {
-     "nazwa": "Money.pl",
-     "tytuł": "Burza wokół Trybunału. Ekonomista zabiera głos",
-     "url": "https://www.money.pl/polityka/burza-wokol-tk-analityk-mowi-czy-bedzie-miala-jakies-przelozenie-na-rynki-7345727460911584a.html"
+     "tytuł": "Korwin-Piotrowska zapowiada w sprawie Święczkowskiego. \"W poniedziałek\"",
+     "url": "https://wydarzenia.interia.pl/kraj/news-korwin-piotrowska-zapowiada-w-sprawie-swieczkowskiego-w-poni,nId,23567390"
     }
    ],
-   "liczba_źródeł": 5,
-   "czas_czytania_min": 2,
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 12.689,
+    "wynik": 3.532,
     "składowe": {
-     "potwierdzenia": 7.6,
-     "ranga_źródła": 2.072,
-     "eksponowanie": 0.09,
-     "słowa_kluczowe": 1.4,
-     "świeżość": 0.527,
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.482,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -168,152 +105,77 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "Pierwsza reakcja Kosiniaka-Kamysza na spór ws. Trybunału i spotkanie z Nawrockim",
-   "lead": "O godzinie 13:00 w Pałacu Prezydenckim, jak zapowiadał szef gabinetu prezydenta, Paweł Szefernaker, rozpoczęła się seria spotkań prezydenta Karola Nawrockiego z liderami środowisk parlamentarnych. Celem konsultacji jest stabilizacja sytuacji politycznej oraz przywrócenie porządku konstytucyjnego w kraju.",
+   "nagłówek": "\"Nie zamierzam\". Estoński premier odpiera rzekome naciski ze strony USA",
+   "lead": "Jeśli Rosja wciąż zabija cywilów, kobiety i dzieci, to nie zamierzam powstrzymywać się od mówienia o rosyjskim zagrożeniu - stwierdził Kristen Michal. To reakcja szefa estońskiego rządu na doniesienia, wedle których USA miały naciskać na państwa bałtyckie, by te złagodziły swoją narrację na temat Rosji.",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-31T12:04:00+00:00",
+   "opublikowano": "2026-11-02T04:52:47+00:00",
    "źródło": {
-    "nazwa": "RMF24",
-    "url": "https://www.rmf24.pl/fakty/polska/news-pierwsza-reakcja-kosiniaka-kamysza-na-spor-ws-trybunalu-i-sp,nIdn,1024214",
-    "domena": "rmf24.pl"
+    "nazwa": "Interia Fakty",
+    "url": "https://wydarzenia.interia.pl/ukraina-rosja/news-nie-zamierzam-estonski-premier-odpiera-rzekome-naciski-ze-st,nId,23567411",
+    "domena": "wydarzenia.interia.pl"
    },
-   "obraz": "https://rmf.rmffm.pl/news/attachments/4e/e8/wladyslaw-kosiniak-kamysz-fot-636x421-4ee8cd73.jpg",
+   "obraz": "https://i.iplsc.com/-/000NHDO2GA1DPJMF-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Wicepremier, szef MON i szef PSL Władysław Kosiniak-Kamysz, zapowiadając swoje uczestnictwo w spotkaniu, podkreślił, że zamierza poruszyć kwestie fundamentalne dla funkcjonowania państwa.",
-      "„Bezpieczeństwo państwa, poszanowanie demokracji, spokój społeczny i pokój publiczny są wartościami fundamentalnymi.",
-      "Te tematy podniosę podczas spotkania z prezydentem” – napisał Kosiniak-Kamysz.",
-      "Spotkania w Pałacu Prezydenckim mają być początkiem szerokich konsultacji, które – jak zapowiada Kancelaria Prezydenta – mają doprowadzić do wypracowania rozwiązań gwarantujących stabilność polityczną i społeczną.",
-      "Do eskalacji napięcia doszło po ogłoszeniu przerwy w czynnościach prezesa TK Bogdana Święczkowskiego oraz wiceprezesa Bartłomieja Sochańskiego.",
-      "Kierowanie pracami Trybunału powierzono sędzi Annie Korwin-Piotrowskiej, wybranej przez obecny Sejm.",
-      "Przed siedzibą TK pojawiły się demonstracje i policja.",
-      "W nocy z piątku na sobotę prezydent Nawrocki przerwał lot do Senegalu i natychmiast udał się do siedziby Trybunału Konstytucyjnego.",
-      "Po opuszczeniu budynku ogłosił zwołanie pilnych konsultacji, argumentując, że doszło do poważnego naruszenia porządku konstytucyjnego."
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Donald Tusk co miesiąc otrzymuje średnio łącznie około 68 tys. zł – wynika z oświadczenia majątkowego premiera za 2025 r.",
-      "Na tę kwotę składają się: dochody z pracy w Kancelarii Prezesa Rady Ministrów, dieta parlamentarna, a także trzy świadczenia emerytalne – z ZUS, Komisji Europejskiej i z belgijskiego systemu emerytalnego.",
-      "Łączna suma wykazanych dochodów to blisko 820 tys. zł.",
-      "PiS, Rozwój Plus, PSL oraz Konfederacja zapowiedziały udział w rozmowach z prezydentem Karolem Nawrockim ws. sytuacji w Trybunale Konstytucyjnym.",
-      "\"Nie można przyjąć zaproszenia od kogoś, kto sam jest odpowiedzialny za aktualną sytuację związaną z Trybunałem\" - wskazała.",
-      "Nikt z Lewicy nie weźnie udziału w zwołanym spotkaniu\" - napisała w mediach społecznościowych przewodnicząca Klubu Parlamentarnego Lewicy.",
-      "\"Jeżeli Pan Prezydent chce zrobić cokolwiek dobrego, koncyliacyjnego i propaństwowego, niech potwierdzi przesłane do jego Kancelarii ślubowania złożone wobec niego na piśmie przez wszystkich sędziów\" - dodała."
+      "Czołowi estońscy politycy również zapowiedzieli, że nie zmienią swojej retoryki, choć zdaniem jednego z dyplomatów, powinni oni ostrożnie dobierać słowa.",
+      "O działaniach administracji USA podjętych wobec władz państw bałtyckich, by te zmieniły ton wypowiedzi wobec Rosji i ograniczyły akcentowanie zagrożenia w publicznych wystąpieniach, poinformowała agencja Reutera, powołując się na anonimowe źródła. - Nie dotarły do mnie bezpośrednio żadne takie uwagi - oświadczył premier Michal, zapytany przez radio ERR.",
+      "Przyznał przy tym, że ostatni raz gdy spotkał się z prezydentem USA Donaldem Trumpem latem w Ankarze , podczas szczytu NATO , przekaz strony amerykańskiej był taki, że państwa europejskie muszą poważnie potraktować własną obronę przed rosyjskim zagrożeniem i przeznaczać więcej środków na obronność. - Estonia z pewnością to robi - dodał.",
+      "Jego zdaniem \"należy raczej kontynuować presję, wspierając Ukrainę \". - To jedyny sposób, aby zmusić Putina do zmiany celów - stwierdził premier.",
+      "Według niego dyplomaci muszą dokładnie przemyśleć każde swoje słowo. - Można odczuwać silne emocje, ale przekaz publiczny należy wyważyć - podsumował."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Marta Nawrocka, z d. Smoleń – polska urzędniczka i emerytowana funkcjonariuszka Służby Celno-Skarbowej w stopniu rachmistrza. Od 6 sierpnia 2025 pierwsza dama Polski jako żona Prezydenta Rzeczypospolitej Polskiej Karola Nawrockiego."
+      "Inwazja Rosji na Ukrainę, wojna rosyjsko-ukraińska – pełnoskalowa inwazja na Ukrainę rozpoczęta 24 lutego 2022 roku przez Rosję, stanowiąca eskalację wojny trwającej od 2014 roku. Została poprzedzona rosyjskimi żądaniami wykluczenia możliwości dalszego poszerzania NATO i redukcji potencjału militarnego sojuszu w Europie Środkowo-Wschodniej do stanu sprzed 1997 roku."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Marta Nawrocka",
-     "url": "https://pl.wikipedia.org/wiki/Marta_Nawrocka"
+     "przypis": "Wikipedia: Inwazja Rosji na Ukrainę",
+     "url": "https://pl.wikipedia.org/wiki/Inwazja_Rosji_na_Ukrain%C4%99"
     }
    ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "13",
-    "00",
-    "68 tys. zł",
-    "820 tys. zł",
-    "16",
-    "45"
-   ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "RMF24",
-     "ujęcie": "Hołownia po spotkaniu z Nawrockim.",
-     "url": "https://www.rmf24.pl/fakty/polityka/news-holownia-po-spotkaniu-z-nawrockim-jest-wola-ze-strony-prezyd,nIdn,1024234"
-    },
-    {
-     "źródło": "Interia Fakty",
-     "ujęcie": "Unia Centrum nie weźmie udziału w spotkaniu z prezydentem Karolem Nawrockim.",
-     "url": "https://wydarzenia.interia.pl/kraj/news-odmawiaja-spotkania-z-nawrockim-pozaru-nie-gasi-sie-z-podpal,nId,23566914"
-    },
-    {
-     "źródło": "Gazeta.pl",
-     "ujęcie": "W nocy do siedziby Trybunału Konstytucyjnego wszedł Karol Nawrocki w towarzystwie m.in. wiceprezesa TK Bartłomieja Sochańskiego.",
-     "url": "https://wiadomosci.gazeta.pl/polityka/7,197990,33109267,holownia-zwraca-sie-do-tuska-i-nawrockiego-nie-pozwolimy-wam.html"
-    }
-   ],
+   "dlaczego_to_ważne": "Jednak zdaniem niektórych dyplomatów - skomentowało w niedzielę radio ERR - przedstawiciele najwyższych władz Estonii powinni ostrożnie dostosowywać swoje publiczne oświadczenia na temat Rosji, aby uniknąć marginalizacji na arenie międzynarodowej. - Przekaz Estonii w polityce zagranicznej stał się przewidywalny, a dalsze utrzymywanie ostrego tonu grozi znużeniem wśród międzynarodowych partnerów -…",
+   "liczby": [],
+   "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Marta Nawrocka",
-    "opis": "polska urzędniczka państwowa, pierwsza dama III RP (od 2025)",
-    "tekst": "Marta Nawrocka, z d. Smoleń – polska urzędniczka i emerytowana funkcjonariuszka Służby Celno-Skarbowej w stopniu rachmistrza. Od 6 sierpnia 2025 pierwsza dama Polski jako żona Prezydenta Rzeczypospolitej Polskiej Karola Nawrockiego.",
-    "url": "https://pl.wikipedia.org/wiki/Marta_Nawrocka",
+    "hasło": "Inwazja Rosji na Ukrainę",
+    "opis": "inwazja na Ukrainę rozpoczęta 24 lutego 2022 roku przez Federację Rosyjską",
+    "tekst": "Inwazja Rosji na Ukrainę, wojna rosyjsko-ukraińska – pełnoskalowa inwazja na Ukrainę rozpoczęta 24 lutego 2022 roku przez Rosję, stanowiąca eskalację wojny trwającej od 2014 roku. Została poprzedzona rosyjskimi żądaniami wykluczenia możliwości dalszego poszerzania NATO i redukcji potencjału militarnego sojuszu w Europie Środkowo-Wschodniej do stanu sprzed 1997 roku.",
+    "url": "https://pl.wikipedia.org/wiki/Inwazja_Rosji_na_Ukrain%C4%99",
     "język": "pl"
    },
    "tagi": [
-    "Pałacu Prezydenckim",
-    "TK Bogdana Święczkowskiego",
-    "Władysław Kosiniak-Kamysz",
-    "Annie Korwin-Piotrowskiej"
+    "Rosji",
+    "USA",
+    "Estonii",
+    "Michal"
    ],
    "emotki": [
     "🏛️"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "RMF24",
-     "tytuł": "Pierwsza reakcja Kosiniaka-Kamysza na spór ws. Trybunału i spotkanie z Nawrockim",
-     "url": "https://www.rmf24.pl/fakty/polska/news-pierwsza-reakcja-kosiniaka-kamysza-na-spor-ws-trybunalu-i-sp,nIdn,1024214"
-    },
-    {
-     "nazwa": "RMF24",
-     "tytuł": "Hołownia po spotkaniu z Nawrockim. „Jest wola ze strony prezydenta”",
-     "url": "https://www.rmf24.pl/fakty/polityka/news-holownia-po-spotkaniu-z-nawrockim-jest-wola-ze-strony-prezyd,nIdn,1024234"
-    },
-    {
-     "nazwa": "Money.pl",
-     "tytuł": "Ile zarabia premier? Donald Tusk pobiera pensję i trzy emerytury",
-     "url": "https://www.money.pl/polityka/ile-zarabia-premier-donald-tusk-pobiera-pensje-i-trzy-emerytury-7343156228727361v.html"
-    },
-    {
      "nazwa": "Interia Fakty",
-     "tytuł": "Odmawiają prezydentowi, nie przyjdą na spotkanie. \"Jest odpowiedzialny\"",
-     "url": "https://wydarzenia.interia.pl/kraj/news-odmawiaja-prezydentowi-nie-przyjda-na-spotkanie-jest-odpowie,nId,23566873"
-    },
-    {
-     "nazwa": "Interia Fakty",
-     "tytuł": "Odmawiają spotkania z Nawrockim. \"Pożaru nie gasi się z podpalaczem\"",
-     "url": "https://wydarzenia.interia.pl/kraj/news-odmawiaja-spotkania-z-nawrockim-pozaru-nie-gasi-sie-z-podpal,nId,23566914"
-    },
-    {
-     "nazwa": "Gazeta.pl",
-     "tytuł": "Hołownia zwraca się do Tuska i Nawrockiego. \"Nie pozwolimy wam uchylić się od odpowiedzialności\"",
-     "url": "https://wiadomosci.gazeta.pl/polityka/7,197990,33109267,holownia-zwraca-sie-do-tuska-i-nawrockiego-nie-pozwolimy-wam.html"
-    },
-    {
-     "nazwa": "Interia Fakty",
-     "tytuł": "Spór o Trybunał. Donald Tusk wygłosi orędzie",
-     "url": "https://wydarzenia.interia.pl/kraj/news-spor-o-trybunal-donald-tusk-wyglosi-oredzie,nId,23566940"
-    },
-    {
-     "nazwa": "Notes from Poland",
-     "tytuł": "Polish president in physical confrontation with judges amid power struggle at constitutional court",
-     "url": "https://notesfrompoland.com/2026/10/31/polish-president-in-physical-confrontation-with-judges-amid-power-struggle-at-constitutional-court/"
+     "tytuł": "\"Nie zamierzam\". Estoński premier odpiera rzekome naciski ze strony USA",
+     "url": "https://wydarzenia.interia.pl/ukraina-rosja/news-nie-zamierzam-estonski-premier-odpiera-rzekome-naciski-ze-st,nId,23567411"
     }
    ],
-   "liczba_źródeł": 5,
-   "czas_czytania_min": 2,
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 12.292,
+    "wynik": 3.298,
     "składowe": {
-     "potwierdzenia": 7.6,
-     "ranga_źródła": 2.207,
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
      "eksponowanie": 0.0,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.435,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.598,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -327,84 +189,86 @@
     "emoji": "🌍",
     "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
    },
-   "nagłówek": "Donald Trump o możliwym końcu wojny w Ukrainie. Podał przybliżony termin",
-   "lead": "Prezydent USA Donald Trump powiedział w sobotę, że jest skłonny zaprosić prezydenta Ukrainy Wołodymyra Zełenskiego na szczyt G20 w Miami w grudniu. Ocenił przy tym, że wojna w Ukrainie zakończy się w \"niezbyt odległej przyszłości\".",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-01T04:33:33+00:00",
+   "nagłówek": "Firma kryptograficzna Binance pokrywa 90% strat po włamaniu za 6,3 mld $",
+   "lead": "Federalne Biuro Śledcze (FBI) twierdzi, że Korea Północna jest odpowiedzialna za włamanie.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-01T13:11:37+00:00",
    "źródło": {
-    "nazwa": "Onet Świat",
-    "url": "https://wiadomosci.onet.pl/swiat/donald-trump-o-mozliwym-koncu-wojny-w-ukrainie-podal-przyblizony-termin/kh31dgg",
-    "domena": "wiadomosci.onet.pl"
+    "nazwa": "BBC News",
+    "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
    },
-   "obraz": "https://cdn.wiadomosci.onet.pl/1/Bq8k9lGaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy8zMzFhYWEwNS1mMzU0LTQwZmEtOGFkMC05YTk1Y2Q0YTdlNzAuanBlZ5KVAwBkzQ-ezQjKkwXNCWDNBkDeAAKhMAehMQQ",
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e52/live/ccbb9490-d53e-11f1-93de-81de9e959fac.jpg",
    "sekcje": [
     {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
      "treść": [
-      "Dodaj Onet Wiadomości do preferowanych źródeł w Google Nasze materiały będą się częściej pojawiać w Twoich wynikach"
+      "Giełda kryptowalut twierdzi, że pokryła 90% strat, podczas gdy FBI obwinia sponsorowaną przez państwo Koreę Północną grupę TraderTraitor Giełda kryptowalut Binance umożliwiła swoim klientom wypłacanie środków z platformy, ponieważ firma odzyskała równowagę po rekordowym ataku hakerskim na kwotę 6,3 mld dolarów (4,7 mld funtów).",
+      "Giełda została zaatakowana przez kradzież w czwartek, która od tego czasu została opisana jako największy skok w historii, a eksperci zidentyfikowali Koreę Północną jako prawdopodobnego winowajcę.",
+      "Binance początkowo zamroził wypłaty, gdy badał naruszenie, ale w niedzielę ogłosił, że rozpoczął stopniowe ponowne otwarcie po godzinie 14:00 czasu singapurskiego.",
+      "Pozostałe 10% żetonów było mniej płynnych, co oznacza, że ich zakup może potrwać ​dłużej - poinformowała firma w poście na X w sobotę.",
+      "Richard Teng, dyrektor naczelny Binance, powiedział osobno, że firma była „zaangażowana w pokrycie pozostałych 10%”, a użytkownicy nie zniosą finansowego wpływu włamania.",
+      "FBI poinformowało w sobotę, że Korea Północna stoi za kradzieżą ponad 6 miliardów dolarów (5,36 miliarda euro) wirtualnych aktywów z giełdy kryptowalut Binance.",
+      "Skradzione aktywa obejmowały bitcoiny, ethereum i stablecoiny, takie jak tether i USD Coin, których wartości są powiązane z tradycyjnymi walutami."
      ]
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "250",
-    "76",
-    "100",
-    "30",
-    "67",
-    "106"
+    "90%",
+    "6.3",
+    "4.7",
+    "10%",
+    "29",
+    "5%"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Ukrainie",
-    "Ukrainy Wołodymyra Zełenskiego",
-    "Prezydent USA Donald Trump",
-    "Onet Wiadomości"
+    "Federal Bureau",
+    "Investigation",
+    "North Korea",
+    "Binance"
    ],
-   "emotki": [
-    "🏛️",
-    "⚔️",
-    "🤝"
-   ],
+   "emotki": [],
    "wszystkie_źródła": [
     {
-     "nazwa": "Onet Świat",
-     "tytuł": "Donald Trump o możliwym końcu wojny w Ukrainie. Podał przybliżony termin",
-     "url": "https://wiadomosci.onet.pl/swiat/donald-trump-o-mozliwym-koncu-wojny-w-ukrainie-podal-przyblizony-termin/kh31dgg"
+     "nazwa": "BBC News",
+     "tytuł": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+     "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss"
     },
     {
      "nazwa": "The Guardian",
-     "tytuł": "Virginia and DC sue to stop Trump’s arch as government looks to start construction",
-     "url": "https://www.theguardian.com/us-news/2026/oct/31/trump-arch-lawsuits-dc-virginia"
-    },
-    {
-     "nazwa": "The Guardian",
-     "tytuł": "Maurene Comey ruling offers hope of check on Trump’s assault on rule of law",
-     "url": "https://www.theguardian.com/us-news/2026/oct/31/maurene-comey-firing-ruling-legal-implications"
+     "tytuł": "Binance resumes customer withdrawals after record $6.3bn hack",
+     "url": "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency"
     },
     {
      "nazwa": "Deutsche Welle",
-     "tytuł": "Canadian PM Mark Carney discusses talks with the EU, overdependence on the US and how to deal with Donald Trump in a DW interview.",
-     "url": "https://www.dw.com/en/canadian-pm-mark-carney-discusses-talks-with-the-eu-overdependence-on-the-us-and-how-to-deal-with-donald-trump-in-a-dw-interview/a-79811469?maca=en-rss-en-world-4025-rdf"
+     "tytuł": "FBI says North Korea behind $6 billion Binance crypto theft",
+     "url": "https://www.dw.com/en/fbi-says-north-korea-behind-6-billion-binance-crypto-theft/a-79819998?maca=en-rss-en-world-4025-rdf"
     }
    ],
    "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 8.322,
+    "wynik": 7.36,
     "składowe": {
      "potwierdzenia": 3.8,
      "ranga_źródła": 1.688,
-     "eksponowanie": 0.54,
+     "eksponowanie": 0.27,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.594,
+     "świeżość": 0.402,
      "treściwość": 0.5,
-     "język_działu": 0.5
+     "język_działu": 0.0
     }
+   },
+   "oryginalny_nagłówek": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
    },
    "miejsce": 1
   },
@@ -415,123 +279,78 @@
     "emoji": "🌍",
     "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
    },
-   "nagłówek": "Starcie policji z zamaskowanymi buntownikami po w dużej mierze pokojowych protestach we Francji",
-   "lead": "Demonstracje odbywają się również w Niemczech, gdzie funkcjonariusze strzelają łzami, aby rozproszyć tłumy, gdy zapada wieczór. W sobotę w Paryżu, Marsylii i innych miastach wybuchły starcia po tym, jak dziesiątki tysięcy demonstrantów, niektórych w przebraniu na Halloween, przemaszerowało przez Francję w trzeciej fali protestów dotyczących kosztów życia…",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-01T01:43:02+00:00",
+   "nagłówek": "Takiego kostiumu nikt się nie spodziewał. Szokujące przebranie Heidi Klum na Halloween",
+   "lead": "Tegoroczna impreza zorganizowana przez Heidi Klum była szczególna – modelka świętowała 25-lecie swojego słynnego halloweenowego balu. Wydarzenie to od lat uchodzi za jedno z istotniejszych w kalendarzu celebrytów, którzy zjeżdżają się do Nowego Jorku z całego świata, by zaprezentować swoje często ekstrawaganckie…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-01T14:06:00+00:00",
    "źródło": {
-    "nazwa": "The Guardian",
-    "url": "https://www.theguardian.com/world/2026/oct/31/police-clash-rioters-after-largely-peaceful-protests-across-france",
-    "domena": "theguardian.com"
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-takiego-kostiumu-nikt-sie-nie-spodziewal-szokujace-przebrani,nIdn,1024280",
+    "domena": "rmf24.pl"
    },
-   "obraz": "https://i.guim.co.uk/img/media/3546bec1281afb0dcb3d211110686c453d00fa3e/0_0_4914_3933/master/4914.jpg?width=140&quality=85&auto=format&fit=max&s=28e4f98442489f9988db1c362c0869cb",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/6b/a8/shutterstock-636x421-6ba8aa28.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Jeden z policjantów został uderzony koktajlem Mołotowa w Paryżu , opisując ten incydent jako „próbę morderstwa”. „Jesteśmy w pełni przygotowani na dzisiejszą konfrontację” - dodał.",
-      "Około 320 000 osób – mniej niż około 410 000 w zeszłym tygodniu – wzięło udział w wiecach w całym kraju, poinformowało ministerstwo spraw wewnętrznych, w tym 70 000 w Paryżu, które maszerowało bulwarami na południowo-wschodnich obrzeżach, omijając centrum miasta.",
-      "Gdy zbliżał się wieczór i zakończyły się w dużej mierze pokojowe demonstracje, policja w kilku miastach wypaliła łzy i granaty ogłuszające, aby rozproszyć tłumy, do których dołączyły – jak w poprzednią sobotę – grupy zamaskowanych buntowników.",
-      "Ministerstwo Spraw Wewnętrznych poinformowało późną sobotę, że policja aresztowała 565 osób w całym kraju.",
-      "W Paryżu rannych zostało czterech policjantów i jeden żandarm.",
-      "Nuñez powiedział na początku tego tygodnia, że 70 000 policjantów i żandarmów, w tym elitarne jednostki, zostanie rozmieszczonych w celu stłumienia przemocy na uboczu protestujących, ostrzegając, że sobota wygląda na dzień „bardzo wysokiego ryzyka”.",
-      "Protestujący w Paryżu wyruszyli spokojnie z Porte de Bagnolet w pobliżu obwodnicy, trzymając tabliczki z hasłami, w tym „Nie ma potrzeby łzawienia, aby nasza przyszłość wyglądała ponuro” i „Przebrany za wściekłego obywatela na Halloween”, gdy helikopter przeleciał nad głową i wokół miejsca docelowego, Porte de Charenton, dziesiątki zamaskowanych ludzi ubranych na czarno używało młotków do podważania kostki brukowej i rzucania nimi w policję, a co najmniej jedno urządzenie zapalające zostało rzucone w bezpieczeństwo siły,",
-      "Policja odpowiedziała łzami i pałeczkami. Prefektura paryskiej policji stwierdziła, że „kilkuset uczestników zamieszek” zaatakowało policję pociskami.",
-      "Dodał, że oficerowie „manewrowali w celu przywrócenia porządku publicznego”."
+      "53-letnia Klum była nie do poznania , gdy pojawiła się w przebraniu ogromnej, odciętej „lewej dłoni”.",
+      "Jak przyznała w rozmowie z dziennikarzami, do stworzenia tej niezwykłej kreacji potrzebowała pomocy wielu osób.",
+      "To wymagało naprawdę wielu rąk – myślę, że około 10 albo 20 – żartowała, pozując do zdjęć.",
+      "Inspiracją do tegorocznego przebrania była… własna dłoń.",
+      "Spojrzałam na swoją rękę i pomyślałam: „chyba zmieszczę swoje ciało w środku”.",
+      "Zawsze staram się wymyślić coś nietypowego i nie sądzę, by ktoś wcześniej chodził przebrany za dłoń.",
+      "To coś nowego i innego – tłumaczyła Klum.",
+      "Heidi Klum znana jest z zamiłowania do oryginalnych i widowiskowych kostiumów.",
+      "W poprzednich latach pojawiała się na swojej imprezie jako olbrzymi robak, Meduza czy księżniczka Fiona z serii filmów „Shrek”."
      ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Ponad 320 000 osób we Francji demonstrowało przeciwko rosnącym kosztom życia i złym usługom publicznym, a także starciom między niektórymi protestującymi a policją.",
-      "Aurelien Morissard/AP hide caption PARIS — Setki tysięcy głównie młodych protestujących wyszło w sobotę na ulice Francji w trzeci z rzędu weekend demonstracji dotyczących kosztów życia i edukacji.",
-      "W całym kraju rozmieszczono około 70 000 policjantów i żandarmów, a marsze paryskie przekierowano na skraj stolicy.",
-      "Rząd Francji oszacował, że w sobotę w całym kraju protestowało 320 000 osób, mniej niż w poprzednich protestach, ale wciąż znaczna frekwencja.",
-      "17, które pogorszyły się do jednych z najgorszych od lat zamieszek we Francji, przyciągnęły ponad 500 000 osób w całej Francji, a demonstracje w październiku",
-      "24 wylosowało 410 000, zgodnie z szacunkami rządu."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Francja, oficjalnie Republika Francuska, jest krajem położonym przede wszystkim w Europie Zachodniej. Jego zamorskie regiony i terytoria obejmują Gujanę Francuską w Ameryce Południowej, Saint-Pierre i Miquelon na północnym Atlantyku, francuskie Indie Zachodnie oraz wiele wysp na Oceanii i Oceanie Indyjskim. Francja metropolitalna graniczy na północy z Belgią i Luksemburgiem, na północnym wschodzie z Niemcami, na wschodzie ze Szwajcarią, na południowym wschodzie z Włochami i Monako, na południu z Andorą i Hiszpanią, a na północnym zachodzie z Wielką Brytanią. Obszar metropolitalny rozciąga się od Renu po Ocean Atlantycki, od Morza Śródziemnego po Kanał La Manche i Morze Północne. Jego 18 regionów integralnych - z których pięć znajduje się za granicą - ma łączną powierzchnię 632 702 km2 (244 288 mil kwadratowych), a łączna liczba ludności szacowana jest na ponad 69,1 miliona w 2026 roku. Jego stolica, największe miasto i główna kultura…"
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: France",
-     "url": "https://en.wikipedia.org/wiki/France"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "150",
-    "320,000",
-    "410,000",
-    "70,000",
-    "565",
-    "17"
+    "25",
+    "53",
+    "10",
+    "20"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "France",
-    "opis": "Country primarily in Western Europe",
-    "tekst": "France, officially the French Republic, is a country primarily located in Western Europe. Its overseas regions and territories include French Guiana in South America, Saint Pierre and Miquelon in the North Atlantic, the French West Indies, and many islands in Oceania and the Indian Ocean. Metropolitan France shares borders with Belgium and Luxembourg to the north; Germany to the northeast; Switzerland to the east; Italy and Monaco to the southeast; Andorra and Spain to the south; and a maritime border with the United Kingdom to the northwest. Its metropolitan area extends from the Rhine to the Atlantic Ocean and from the Mediterranean Sea to the English Channel and the North Sea. Its 18 integral regions—five of which are overseas—span a combined area of 632,702 km2 (244,288 sq mi), with a total population estimated at over 69.1 million in 2026. Its capital, largest city and main cultural…",
-    "url": "https://en.wikipedia.org/wiki/France",
-    "język": "en"
-   },
+   "tło": null,
    "tagi": [
-    "Paris",
-    "Saturday",
-    "Halloween",
-    "Germany"
+    "Heidi Klum",
+    "Klum",
+    "Halloween Tegoroczna",
+    "Nowego Jorku"
    ],
    "emotki": [
-    "🪐"
+    "🎬"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "The Guardian",
-     "tytuł": "Police clash with masked rioters after largely peaceful protests across France",
-     "url": "https://www.theguardian.com/world/2026/oct/31/police-clash-rioters-after-largely-peaceful-protests-across-france"
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Takiego kostiumu nikt się nie spodziewał. Szokujące przebranie Heidi Klum na Halloween",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-takiego-kostiumu-nikt-sie-nie-spodziewal-szokujace-przebrani,nIdn,1024280"
     },
     {
-     "nazwa": "BBC Europe",
-     "tytuł": "Thousands demonstrate in Paris as protests spread across Europe",
-     "url": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "Politico Europe",
-     "tytuł": "Hundreds of thousands of protesters march across France for third week in a row",
-     "url": "https://www.politico.eu/article/france-youth-protests-cost-of-living-spread-europe/"
-    },
-    {
-     "nazwa": "NPR",
-     "tytuł": "France seethes again as youth-led protests sweep Europe",
-     "url": "https://www.npr.org/2026/10/31/g-s1-151121/france-seethes-again-as-youth-led-protests-sweep-europe"
+     "nazwa": "BBC News",
+     "tytuł": "Watch: Heidi Klum as giant severed hand for Halloween bash",
+     "url": "https://www.bbc.co.uk/news/videos/cj040yd1xdrlo?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "liczba_źródeł": 4,
-   "czas_czytania_min": 3,
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 10.597,
+    "wynik": 4.429,
     "składowe": {
-     "potwierdzenia": 5.7,
-     "ranga_źródła": 1.688,
-     "eksponowanie": 1.8,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.559,
-     "treściwość": 0.5,
-     "język_działu": 0.0
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.508,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.414,
+     "treściwość": 0.107,
+     "język_działu": 0.5
     }
-   },
-   "oryginalny_nagłówek": "Police clash with masked rioters after largely peaceful protests across France",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
    },
    "miejsce": 2
   },
@@ -542,81 +361,61 @@
     "emoji": "🏅",
     "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
    },
-   "nagłówek": "Przełomowy ruch trenera Chicago Fire. Lewandowski posadzony na ławce",
-   "lead": "Sezon zasadniczy amerykańskiej MLS wchodzi w decydującą fazę. Na ten weekend zaplanowano przedostatnią, 33. serię spotkań.",
+   "nagłówek": "Szaleństwo na punkcie Lewandowskiego. Kibice z Barcelony nie dają spokoju",
+   "lead": "Na ośmiu meczach zakończyła się niekorzystna seria Roberta Lewandowskiego bez choćby jednego gola w Major League Soccer. Napastnik wreszcie odetchnął z ulgą ostatniego dnia października czasu amerykańskiego, kiedy to wraz z kolegami pokonał na wyjeździe Colorado Rapids 4:2 , otwiera się w nowym oknie .",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-01T00:38:10+00:00",
+   "opublikowano": "2026-11-02T04:00:01+00:00",
    "źródło": {
     "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/robert-lewandowski/news-lewandowski-odstawiony-przez-trenera-chicago-fire-nagly-zwro,nId,23566998",
+    "url": "https://sport.interia.pl/robert-lewandowski/news-w-barcelonie-szalenstwo-na-punkcie-lewandowskiego-wystarczyl,nId,23567160",
     "domena": "sport.interia.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000NGTHWB17Y7547-C321.webp",
+   "obraz": "https://i.iplsc.com/-/000MU98RNE0VD7X4-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Cały czas ważą się dalsze losy zawodników Chicago Fire .",
-      "Drużyna Roberta Lewandowskiego co prawda jest już pewna gry w fazie play off, lecz wciąż nie wiadomo, z jakiej pozycji wystartuje w finałowym etapie rywalizacji.",
-      "W nocy z soboty na niedzielę polskiego czasu \"Strażacy\" zagrają na wyjeździe z Colorado Rapids .",
-      "Rywal zespołu Polaka wciąż nie jest pewny gry w fazie play off.",
-      "Przed spotkaniem z Chicago podopieczni Matta Wellsa zajmowali ósme miejsce w tabeli konferencji zachodniej, co w ostatecznym rozrachunku daje prawo gry w barażu o awans do finałowej fazy sezonu.",
-      "Godziny do meczu Lewandowskiego, nagle taki komunikat Amerykanów.",
-      "Z dumą ogłaszają , otwiera się w nowym oknie Dla Polaka wyprawa do Kolorado jest kolejną okazją, by przerwać fatalną serię, o której w USA jest coraz głośniej.",
-      "Lewandowski po raz ostatni strzelił gola dla Chicago Fire 10 września w zremisowanym 1:1 ligowym meczu z Interem Miami.",
-      "Od tego momentu Polak zanotował osiem kolejnych spotkań MLS bez zdobyczy strzeleckiej."
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "I na kilka godzin przed rozpoczęciem tego starcia klub naszego reprezentanta opublikował wpis z \"trzema kluczami do meczu\".",
-      "Wśród nich znalazło się podkreślenie siły ofensywnej, która w przypadku 38-latka ostatnio nieco kuleje.",
-      "Polak pojawił się na murawie w 63. minucie, gdy na murawie był remis 2:2.",
-      "Po jedenastu minutach obecności na boisku \"Lewy\" strzelił gola, przełamując tym samym passę ośmiu kolejnych spotkań bez strzelonego gola."
+      "Polak co prawda rozpoczął potyczkę na ławce rezerwowych.",
+      "Wejście na podmęczonych rywali zaowocowało jednak golem oraz asystą.",
+      "\"Trzy mecze w osiem dni to ciężka rzecz, biorąc pod uwagę podróże i wysokość.",
+      "Wiedzieliśmy, że będzie moment, gdy przeciwnik odczuje zmęczenie i zacznie słabnąć i właśnie wtedy wprowadziliśmy go do gry\" - tłumaczył Gregg Belhalter, opiekun \"Strażaków\" na łamach serwisu MLS , otwiera się w nowym oknie .",
+      "Trener mógł być więc dumny z postawy największej gwiazdy swojego zespołu.",
+      "Tak samo zresztą jak kibice, którzy właśnie dają o sobie znać w mediach społecznościowych.",
+      "A wszystko zapoczątkował sam Polak, wrzucając kilka zdjęć ze zwycięskiego spotkania na Instagram .",
+      "Opisał je krótko, wykorzystując emotikonę ognia.",
+      "\"Vamos\" - odpisało mu oficjalne konto Chicago Fire."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Chicago Fire Football Club – amerykański klub piłkarski z Chicago, występujący w Major League Soccer. Popularnie nazywany Strażakami. Nazwa zespołu pochodzi od wielkiego pożaru Chicago i założony został 8 października 1997, w 126. rocznicę pożaru. W swoim pierwszym sezonie w 1998 roku drużyna wygrała zarówno MLS Cup, jak i U.S. Open Cup. Inne tryumfy w U.S. Open Cup odnosiła w latach: 2000, 2003, 2006. Zdobyła także MLS Supporters’ Shield w roku 2003."
+      "Robert Lewandowski – polski piłkarz, występujący na pozycji środkowego napastnika w amerykańskim klubie Chicago Fire. Od 2008 reprezentant Polski, w latach 2014–2025 i ponownie od 2025 kapitan reprezentacji Polski."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Chicago Fire",
-     "url": "https://pl.wikipedia.org/wiki/Chicago_Fire"
+     "przypis": "Wikipedia: Robert Lewandowski",
+     "url": "https://pl.wikipedia.org/wiki/Robert_Lewandowski"
     }
    ],
-   "dlaczego_to_ważne": "",
+   "dlaczego_to_ważne": "Musieliśmy więc być mądrzy i wiedzieliśmy, że wpłynie na spotkanie .",
    "liczby": [
-    "33",
-    "10",
-    "30",
-    "38",
-    "63"
+    "38"
    ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "Interia Sport",
-     "ujęcie": "Już podczas najbliższej nocy, z soboty na niedzielę odbędzie się kolejny mecz Chicago Fire.",
-     "url": "https://sport.interia.pl/robert-lewandowski/news-godziny-do-meczu-lewandowskiego-nagle-taki-komunikat-ameryka,nId,23566980"
-    }
-   ],
+   "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Chicago Fire",
-    "opis": "amerykański klub piłki nożnej",
-    "tekst": "Chicago Fire Football Club – amerykański klub piłkarski z Chicago, występujący w Major League Soccer. Popularnie nazywany Strażakami. Nazwa zespołu pochodzi od wielkiego pożaru Chicago i założony został 8 października 1997, w 126. rocznicę pożaru. W swoim pierwszym sezonie w 1998 roku drużyna wygrała zarówno MLS Cup, jak i U.S. Open Cup. Inne tryumfy w U.S. Open Cup odnosiła w latach: 2000, 2003, 2006. Zdobyła także MLS Supporters’ Shield w roku 2003.",
-    "url": "https://pl.wikipedia.org/wiki/Chicago_Fire",
+    "hasło": "Robert Lewandowski",
+    "opis": "polski piłkarz",
+    "tekst": "Robert Lewandowski – polski piłkarz, występujący na pozycji środkowego napastnika w amerykańskim klubie Chicago Fire. Od 2008 reprezentant Polski, w latach 2014–2025 i ponownie od 2025 kapitan reprezentacji Polski.",
+    "url": "https://pl.wikipedia.org/wiki/Robert_Lewandowski",
     "język": "pl"
    },
    "tagi": [
-    "Chicago Fire",
-    "Polaka",
-    "Colorado Rapids",
-    "Lewandowski"
+    "Roberta Lewandowskiego",
+    "Major League Soccer",
+    "Anna Lewandowska",
+    "Colorado Rapids"
    ],
    "emotki": [
     "⚽"
@@ -624,31 +423,21 @@
    "wszystkie_źródła": [
     {
      "nazwa": "Interia Sport",
-     "tytuł": "Przełomowy ruch trenera Chicago Fire. Lewandowski posadzony na ławce",
-     "url": "https://sport.interia.pl/robert-lewandowski/news-lewandowski-odstawiony-przez-trenera-chicago-fire-nagly-zwro,nId,23566998"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Niemoc Lewandowskiego trwa, mimo to ogłoszenie Fire. \"Idealny moment\"",
-     "url": "https://sport.interia.pl/robert-lewandowski/news-godziny-do-meczu-lewandowskiego-nagle-taki-komunikat-ameryka,nId,23566980"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Wielkie przełamanie Roberta Lewandowskiego. Polak bohaterem Chicago Fire",
-     "url": "https://sport.interia.pl/robert-lewandowski/news-lewandowski-wreszcie-przerwal-fatalna-serie-wielkie-przelama,nId,23567014"
+     "tytuł": "Szaleństwo na punkcie Lewandowskiego. Kibice z Barcelony nie dają spokoju",
+     "url": "https://sport.interia.pl/robert-lewandowski/news-w-barcelonie-szalenstwo-na-punkcie-lewandowskiego-wystarczyl,nId,23567160"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.648,
+    "wynik": 3.338,
     "składowe": {
      "potwierdzenia": 0.0,
-     "ranga_źródła": 1.365,
+     "ranga_źródła": 1.05,
      "eksponowanie": 0.0,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.583,
+     "świeżość": 0.588,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -662,66 +451,38 @@
     "emoji": "🏅",
     "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
    },
-   "nagłówek": "Zaskakująca decyzja Chwalińskiej. Co więc ze Świątek? Szykuje się debiut",
-   "lead": "W niedzielę finał między Leylah Fernandez i Dianą Sznajder wyłoni ostatnią w tym sezonie triumfatorkę turnieju rangi 500 - zmierzą się o tytuł w Tokio. Zarazem ten turniej, ale i rozgrywany równolegle w Kantonie (WTA 250) zakończą rywalizację w WTA Race o miejsca w finałowym Mastersie.",
+   "nagłówek": "Lorenzo Musetti - Hubert Hurkacz w turnieju ATP w Paryżu. Relacja na żywo",
+   "lead": "Po nieudanej przygodzie w Bazylei przed Hubertem Hurkaczem kolejny turniej. Tym razem Polak weźmie udział w zawodach ATP w Paryżu.",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-31T14:04:35+00:00",
+   "opublikowano": "2026-11-01T21:30:17+00:00",
    "źródło": {
     "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/tenis/news-zaskakujaca-decyzja-chwalinskiej-co-wiec-ze-swiatek-szykuje,nId,23566898",
+    "url": "https://sport.interia.pl/tenis/hubert-hurkacz/na-zywo-lorenzo-musetti-hubert-hurkacz-w-turnieju-atp-w-paryzu-relac,nzId,9379",
     "domena": "sport.interia.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000NHA9KDXK4UX5U-C321.webp",
+   "obraz": "https://i.iplsc.com/-/000NGWNFFIAVK9L9-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Odbywające się od najbliższego poniedziałku rywalizacje w Ćennaj i Hongkongu (oba WTA 250) będą liczyły się już tylko do ogólnej klasyfikacji.",
-      "Od niespełna półtora tygodnia znamy już bowiem osiem nazwisk tenisistek, które wystąpią od 8 listopada w Indian Wells.",
-      "A dziś w Tokio wyjaśniła się ostatecznie sprawa drugiej rezerwowej - do Marty Kostiuk może dołączyć Sznajder , otwiera się w nowym oknie , a nie Iva Jovic.",
-      "Iga Świątek, wycofując się z Ningbo, straciła szansę na miejsce w ósemce, a później ogłosiła zakończenie sezonu.",
-      "Maja Chwalińska nie rozegrała z kolei wystarczającej liczby imprez rangi 500 i 1000, by być liczoną w tym wyścigu.",
-      "Pierwszy więc raz od 2019 roku (w 2020 nie było WTA Finals) w rywalizacji nie będzie uczestniczyła nasza reprezentantka.",
-      "Chwalińska sezonu jeszcze nie zakończyła , została zgłoszona do gry w meczu Polska - Szwecja w BJK Cup (20-21 listopada we Włocławku).",
-      "Jednocześnie już zapadają decyzje odnośnie pierwszych występów w kolejnym sezonie.",
-      "I choć termin zapisów do imprez WTA następuje cztery tygodnie przed rozpoczęciem zmagań, to są pewne wyjątki."
+      "Jego rywalem w 1. rundzie będzie Lorenzo Musetti, który w ostatnim czasie dość szybko odpadł z turnieju rozgrywanym w Wiedniu.",
+      "Zapowiada się bardzo emocjonujące i wyrównane widowisko.",
+      "Czy Hubert awansuje do kolejnej rundy?",
+      "Zapraszamy na relację na żywo."
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Maja Ewa Chwalińska – polska tenisistka, reprezentantka kraju w rozgrywkach Pucharu Federacji. Zwyciężczyni jednego turnieju WTA w grze pojedynczej. Finalistka French Open 2026. Trzecia polska zawodniczka, która wygrała turniej rangi WTA 1000."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Maja Chwalińska",
-     "url": "https://pl.wikipedia.org/wiki/Maja_Chwali%C5%84ska"
     }
    ],
    "dlaczego_to_ważne": "",
-   "liczby": [
-    "500",
-    "250",
-    "1000",
-    "20",
-    "21",
-    "12"
-   ],
+   "liczby": [],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Maja Chwalińska",
-    "opis": "polska tenisistka",
-    "tekst": "Maja Ewa Chwalińska – polska tenisistka, reprezentantka kraju w rozgrywkach Pucharu Federacji. Zwyciężczyni jednego turnieju WTA w grze pojedynczej. Finalistka French Open 2026. Trzecia polska zawodniczka, która wygrała turniej rangi WTA 1000.",
-    "url": "https://pl.wikipedia.org/wiki/Maja_Chwali%C5%84ska",
-    "język": "pl"
-   },
+   "tło": null,
    "tagi": [
-    "Świątek",
-    "United Cup",
-    "Chwalińskiej",
-    "Polska"
+    "Paryżu",
+    "Musetti Hubert Hurkacz",
+    "Hubertem Hurkaczem",
+    "Lorenzo Musetti"
    ],
    "emotki": [
     "🎾"
@@ -729,22 +490,22 @@
    "wszystkie_źródła": [
     {
      "nazwa": "Interia Sport",
-     "tytuł": "Zaskakująca decyzja Chwalińskiej. Co więc ze Świątek? Szykuje się debiut",
-     "url": "https://sport.interia.pl/tenis/news-zaskakujaca-decyzja-chwalinskiej-co-wiec-ze-swiatek-szykuje,nId,23566898"
+     "tytuł": "Lorenzo Musetti - Hubert Hurkacz w turnieju ATP w Paryżu. Relacja na żywo",
+     "url": "https://sport.interia.pl/tenis/hubert-hurkacz/na-zywo-lorenzo-musetti-hubert-hurkacz-w-turnieju-atp-w-paryzu-relac,nzId,9379"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.513,
+    "wynik": 3.236,
     "składowe": {
      "potwierdzenia": 0.0,
      "ranga_źródła": 1.05,
      "eksponowanie": 0.0,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.413,
-     "treściwość": 0.5,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.506,
+     "treściwość": 0.48,
      "język_działu": 0.5
     }
    },
@@ -757,126 +518,103 @@
     "emoji": "🌐",
     "opis": "wielkie ligi, turnieje i rekordy poza Polską"
    },
-   "nagłówek": "Druga porażka z rzędu Manchesteru City. Możliwa zmiana lidera tabeli",
-   "lead": "Przed startem tego sezonu Premier League faworytem do końcowego triumfu był Arsenal, który poprzednie rozgrywki zakończył z triumfem. Zwykle jako kontrkandydat pojawiał się Manchester City, ale tego lata w Manchesterze doszło do bardzo znaczących zmian na ławce trenerskiej.",
+   "nagłówek": "Pechowe zagranie gwiazdy Realu, ucierpiał 4-latek. Wyjątkowa reakcja",
+   "lead": "Po efektownym zwycięstwie Barcelony ( 6:1 z Deportivo Alaves ), Real Madryt był zmuszony do przekonującej odpowiedzi. Szansa na to nadarzyła się 1 listopada, kiedy to \"Królewscy\" mierzyli się z Racingiem Santander .",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-31T17:21:13+00:00",
+   "opublikowano": "2026-11-01T20:40:08+00:00",
    "źródło": {
     "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/pilka-nozna/premier-league/news-kolejna-niespodzianka-druga-z-rzedu-porazka-giganta-zmiana-l,nId,23566955",
+    "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-chwile-strachu-w-meczu-realu-w-roli-glownej-4-letni-kibic-gw,nId,23567388",
     "domena": "sport.interia.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000NHAIQEIFLNKWS-C321.webp",
+   "obraz": "https://i.iplsc.com/-/000NHD8R5XCT6C83-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Łukasz Skorupski mówi \"jestem\".",
-      "Parada na wagę triumfu , otwiera się w nowym oknie Pep Guardiola opuścił klub, a jego miejsce zajął Enzo Mareska.",
-      "Włoch w Chelsea pokazał się z niezłej strony, ale wciąż pozostaje pewną niewiadomą.",
-      "W sezon \"Obywatele\" weszli jednak w imponującym stylu.",
-      "Pierwsze siedem ligowych meczów zakończyło się bowiem triumfami City.",
-      "Później pojawił się jednak werdykt ws.",
-      "115 zarzutów dla klubu i zdaje się, że ten mocno wpłynął na dyspozycję \"Obywateli\".",
-      "Po przerwie na mecze reprezentacji narodowych City wygrało 3:2 z Ipswich , co już mogło być pewnym sygnałem do niepokoju dla kibiców, ale najważniejsze są trzy zdobyte punkty.",
-      "Tych nie udało się zainkasować w 8. kolejce Premier League."
+      "Zawodnicy ze stolicy Hiszpanii bardzo dobrze wykorzystali swoją szansę.",
+      "Wpierw rzut karny wykorzystał Kylian Mbappe .",
+      "Raptem 10 minut później wynik podwyższył natomiast Jude Bellingham .",
+      "Jeszcze w pierwszej połowie meczu trzecią bramkę dla \"Królewskich\" zdobył Yan Diomande .",
+      "Tym sposobem podopieczni Jose Mourinho zwyciężyli niedzielny mecz wynikiem 3:0 i utrzymali bezpieczną stratę do liderującej \"Dumy Katalonii\".",
+      "W okolicy 50. minuty telewidzowie oglądający mecz Realu Madryt z Racingiem Santander byli świadkami sceny, która wywołała grozę.",
+      "Po bardzo silnym, lecz kompletnie nieudanym strzale Aureliena Tchouameniego piłka poszybowała w kierunku trybun.",
+      "Ze sporym impetem uderzyła ona w... młodego kibica Racingu Santander.",
+      "Na innym ujęciu widać, jak rodzice z dużą troską zajmują się poszkodowanym chłopcem."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Manchester City Football Club – angielski klub piłkarski z siedzibą w Manchesterze. W sezonie 2026/2027 występuje w Premier League."
+      "Kylian Mbappé Lottin – francuski piłkarz, występujący na pozycji napastnika w hiszpańskim klubie Real Madryt oraz w reprezentacji Francji, której jest kapitanem."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Manchester City F.C.",
-     "url": "https://pl.wikipedia.org/wiki/Manchester_City_F.C."
+     "przypis": "Wikipedia: Kylian Mbappé",
+     "url": "https://pl.wikipedia.org/wiki/Kylian_Mbapp%C3%A9"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "115",
-    "16",
-    "19"
+    "10",
+    "50",
+    "20",
+    "43",
+    "65",
+    "01"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Manchester City F.C.",
-    "opis": "angielski klub piłki nożnej",
-    "tekst": "Manchester City Football Club – angielski klub piłkarski z siedzibą w Manchesterze. W sezonie 2026/2027 występuje w Premier League.",
-    "url": "https://pl.wikipedia.org/wiki/Manchester_City_F.C.",
+    "hasło": "Kylian Mbappé",
+    "opis": "francuski piłkarz",
+    "tekst": "Kylian Mbappé Lottin – francuski piłkarz, występujący na pozycji napastnika w hiszpańskim klubie Real Madryt oraz w reprezentacji Francji, której jest kapitanem.",
+    "url": "https://pl.wikipedia.org/wiki/Kylian_Mbapp%C3%A9",
     "język": "pl"
    },
    "tagi": [
-    "City",
-    "Premier League",
-    "Obywateli",
-    "Brighton"
+    "Kylian Mbappe",
+    "Racingiem Santander",
+    "Realu Madryt",
+    "Tchouameni"
    ],
    "emotki": [
-    "⚽",
-    "🏛️"
+    "📺"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Interia Sport",
-     "tytuł": "Druga porażka z rzędu Manchesteru City. Możliwa zmiana lidera tabeli",
-     "url": "https://sport.interia.pl/pilka-nozna/premier-league/news-kolejna-niespodzianka-druga-z-rzedu-porazka-giganta-zmiana-l,nId,23566955"
+     "tytuł": "Pechowe zagranie gwiazdy Realu, ucierpiał 4-latek. Wyjątkowa reakcja",
+     "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-chwile-strachu-w-meczu-realu-w-roli-glownej-4-letni-kibic-gw,nId,23567388"
     },
     {
      "nazwa": "BBC Sport",
-     "tytuł": "AC Milan score three first-half goals to seal derby victory over Inter",
-     "url": "https://www.bbc.co.uk/sport/football/videos/cmqln15wdyxgo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC Sport",
-     "tytuł": "How 'brave & balanced' Brighton beat Man City",
-     "url": "https://www.bbc.co.uk/sport/football/videos/cmx23wyk769eo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC Sport",
-     "tytuł": "Brighton pick up first away league victory over Man City",
-     "url": "https://www.bbc.co.uk/sport/football/videos/cqx28l2gdepxo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC Sport",
-     "tytuł": "AC Milan v Inter and the tale of an iconic image",
-     "url": "https://www.bbc.co.uk/sport/football/articles/cq99zlpzm87ro?at_medium=RSS&at_campaign=rss"
+     "tytuł": "Bellingham & Mbappe score as Real Madrid earn statement win",
+     "url": "https://www.bbc.co.uk/sport/football/videos/cv0ldye7k4g3o?at_medium=RSS&at_campaign=rss"
     },
     {
      "nazwa": "The Guardian Sport",
-     "tytuł": "Enzo Maresca rues ‘silly’ errors after Manchester City defeat against Brighton",
-     "url": "https://www.theguardian.com/football/2026/oct/31/enzo-maresca-manchester-city-brighton-premier-league"
+     "tytuł": "European football: Mbappé penalty helps Real Madrid stroll to sixth straight win",
+     "url": "https://www.theguardian.com/football/2026/nov/01/european-football-real-madrid-lazio-juventus-napoli-kylian-mbappe"
     },
     {
      "nazwa": "BBC Football",
-     "tytuł": "Verbruggen spreads belief as impressive Brighton beat Man City",
-     "url": "https://www.bbc.co.uk/sport/football/articles/c6d7qwnz1jnjo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC Football",
-     "tytuł": "'We fell behind' - what does new San Siro deal mean for AC Milan and Inter?",
-     "url": "https://www.bbc.co.uk/sport/football/articles/c84g15r12xn3o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "Sky Sports",
-     "tytuł": "Brighton condemn Man City to back-to-back PL defeats",
-     "url": "https://www.skysports.com/watch/video/13606301/manchester-city-0-1-brighton-premier-league-highlights"
+     "tytuł": "Football Daily",
+     "url": "https://www.bbc.co.uk/sounds/play/p0pks2xb?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "liczba_źródeł": 4,
+   "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 10.812,
+    "wynik": 7.845,
     "składowe": {
-     "potwierdzenia": 5.7,
-     "ranga_źródła": 2.695,
-     "eksponowanie": 0.18,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.795,
+     "eksponowanie": 0.0,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.537,
+     "świeżość": 0.55,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -890,677 +628,94 @@
     "emoji": "🌐",
     "opis": "wielkie ligi, turnieje i rekordy poza Polską"
    },
-   "nagłówek": "Błąd zdobywcy Złotej Piłki, potem odpowiedź. Cztery gole w niemieckim hicie",
-   "lead": "Znakomicie w tym sezonie niemieckiej Bundesligi radzą sobie Bayern Monachium oraz Borussia Dortmund. Ekipy te po 7 kolejkach zajmowały odpowiednio 1. i 2. miejsce w ligowej tabeli, a ich bezpośrednie starcie zapowiadało się niezwykle interesująco.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-10-31T19:30:47+00:00",
+   "nagłówek": "Jak Antonelli „rozwalił wszystkich”, aby stworzyć historię F1",
+   "lead": "Kimi Antonelli wydaje się być przeznaczony do wielkości Formuły 1 po zdobyciu pierwszego tytułu mistrza świata, pisze Andrew Benson.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-02T01:47:30+00:00",
    "źródło": {
-    "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/pilka-nozna/bundesliga/news-cztery-gole-w-hicie-i-ogromna-pomylka-zdobywcy-zlotej-pilki,nId,23566961",
-    "domena": "sport.interia.pl"
+    "nazwa": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/formula1/articles/c6m2dj7ze9v2o?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
    },
-   "obraz": "https://i.iplsc.com/-/000NHB01B8AOJR9W-C321.webp",
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6698/live/f3d07d40-d654-11f1-93e1-3b657b665bcf.jpg",
    "sekcje": [
     {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
      "treść": [
-      "Co więcej, emocji dodawał potencjalny występ Harry'ego Kane'a - świeżo upieczonego zdobywcy Złotej Piłki.",
-      "I wiele działo się już od pierwszego gwizdka.",
-      "Obie ekipy starały się przejąć inicjatywne, lecz lepiej prezentował się Bayern.",
-      "Mistrzowie Niemiec wynik mogli otworzyć już w 10. minucie .",
-      "Po zamieszaniu w okolicach jedenastki do piłki dopadł Michael Olise, który uderzył z pierwszej piłki.",
-      "Ekipa Niko Kovaca starała się odpowiedzieć na próby rywali, lecz brakowało szybkości oraz dokładności .",
-      "Przełom nastąpił w 22. minucie.",
-      "Wtedy BVB po składnej akcji oddało groźny strzał za sprawą Jobe'a Bellinghama.",
-      "Anglik uderzył tuż sprzed pola karnego, jednak na wysokości zadania stanął Jonas Urbig."
+      "20-letnie mistrzostwa SEALs po zajęciu trzeciego miejsca w Meksyku Kierowcy Fellow zjednoczyli się w chwale najmłodszego mistrza sportu Po chwili radości powiedział, że będzie pamiętał na zawsze, emocjonalny Kimi Antonelli został ponownie wzruszony pamięcią o swoim dziadku po tym, jak Włoch wygrał mistrzostwo świata w Formule 1 podczas meksykańskiego Grand Prix.",
+      "Z kolei jego koledzy kierowcy chwalili nowego mistrza, który zadebiutował na trzecim miejscu w Autódromo Hermanos Rodríguez.",
+      "Wśród nich był Lewis Hamilton, ale brytyjski kierowca wygłosił również surową reprymendę swojemu koledze z drużyny Ferrari, Charlesowi Leclercowi.",
+      "Antonelli został najmłodszym mistrzem świata w wieku 20 lat w Meksyku, dzieląc podium ze zwycięzcą wyścigu Maxem Verstappenem i Hamiltonem na drugim miejscu.",
+      "Samotnie na froncie podium po ceremonii wręczenia nagród Antonelli był wyraźnie dotknięty, ponieważ PA zagrała Nessun Dormę z Turandot Pucciniego.",
+      "20-letni zdobywca tytułu z czterema wyścigami Verstappen wygrywa wyścig przed Hamilton Kimi Antonelli, wpisując się w księgi rekordów Formuły 1 jako mistrz świata i zasłużony i popularny zwycięzca, którego werwę i niezwykłe umiejętności ekscytują, zamieniając to, co wielu uważało za nieprawdopodobne, w triumfalny marsz, zapieczętowany łzami radości podczas meksykańskiego Grand Prix.",
+      "Podejmując swój debiutancki tytuł F1 dla Mercedesa, 20-letni Antonelli, z potarganymi włosami i uroczym chłopięcym wyglądem, jest najmłodszym kierowcą, który zdobył koronę sportową i pierwszym Włochem, który to zrobił, odkąd Alberto Ascari wygrał w 1953 roku."
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Bayern Monachium – klub piłki nożnej z siedzibą w Monachium. Został założony 27 lutego 1900 przez jedenastu piłkarzy pod przewodnictwem Franza Johna. W sezonie 2025/2026 występuje w Bundeslidze. Bayern jest dwukrotnym mistrzem świata, dwukrotnym zdobywcą Pucharu Interkontynentalnego, sześciokrotnym zwycięzcą Ligi Mistrzów, jednokrotnym zdobywcą Pucharu UEFA, jednokrotnym zdobywcą Pucharu Zdobywców Pucharów, trzydziestopięciokrotnym mistrzem Niemiec, dziesięciokrotnym wicemistrzem Niemiec, dwudziestojednokrotnym zdobywcą Pucharu Niemiec oraz sześciokrotnym zdobywcą Pucharu Ligi Niemieckiej."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Bayern Monachium",
-     "url": "https://pl.wikipedia.org/wiki/Bayern_Monachium"
     }
    ],
-   "dlaczego_to_ważne": "W 34. minucie piłka znalazła się w sieci po raz pierwszy.",
+   "dlaczego_to_ważne": "",
    "liczby": [
-    "10",
-    "22",
-    "34",
-    "38",
-    "56",
-    "60"
+    "20",
+    "100%",
+    "12",
+    "28",
+    "71"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Bayern Monachium",
-    "opis": "niemiecki klub piłki nożnej",
-    "tekst": "Bayern Monachium – klub piłki nożnej z siedzibą w Monachium. Został założony 27 lutego 1900 przez jedenastu piłkarzy pod przewodnictwem Franza Johna. W sezonie 2025/2026 występuje w Bundeslidze. Bayern jest dwukrotnym mistrzem świata, dwukrotnym zdobywcą Pucharu Interkontynentalnego, sześciokrotnym zwycięzcą Ligi Mistrzów, jednokrotnym zdobywcą Pucharu UEFA, jednokrotnym zdobywcą Pucharu Zdobywców Pucharów, trzydziestopięciokrotnym mistrzem Niemiec, dziesięciokrotnym wicemistrzem Niemiec, dwudziestojednokrotnym zdobywcą Pucharu Niemiec oraz sześciokrotnym zdobywcą Pucharu Ligi Niemieckiej.",
-    "url": "https://pl.wikipedia.org/wiki/Bayern_Monachium",
-    "język": "pl"
-   },
+   "tło": null,
    "tagi": [
-    "Niemiec",
-    "Złotej Piłki",
-    "Bayernowi",
-    "Bayernu"
+    "Kimi Antonelli",
+    "Andrew Benson",
+    "Antonelli",
+    "Formula"
    ],
    "emotki": [
-    "⚽"
+    "🏎️"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Interia Sport",
-     "tytuł": "Błąd zdobywcy Złotej Piłki, potem odpowiedź. Cztery gole w niemieckim hicie",
-     "url": "https://sport.interia.pl/pilka-nozna/bundesliga/news-cztery-gole-w-hicie-i-ogromna-pomylka-zdobywcy-zlotej-pilki,nId,23566961"
+     "nazwa": "BBC Sport",
+     "tytuł": "How Antonelli 'blew everyone away' to make F1 history",
+     "url": "https://www.bbc.co.uk/sport/formula1/articles/c6m2dj7ze9v2o?at_medium=RSS&at_campaign=rss"
     },
     {
      "nazwa": "BBC Sport",
-     "tytuł": "Kane misses Bayern penalty before late Dortmund goal earns draw",
-     "url": "https://www.bbc.co.uk/sport/football/videos/ckpdg3eq06z5o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC Sport",
-     "tytuł": "Enciso's stunning goal earns Ipswich draw at Hull",
-     "url": "https://www.bbc.co.uk/sport/football/videos/c8qln4qq2656o?at_medium=RSS&at_campaign=rss"
+     "tytuł": "How much do you know about F1 champion Antonelli?",
+     "url": "https://www.bbc.co.uk/sport/formula1/articles/c98rzkv5y115o?at_medium=RSS&at_campaign=rss"
     },
     {
      "nazwa": "The Guardian Sport",
-     "tytuł": "European football: Kane misses penalty as Dortmund share spoils in Der Klassiker",
-     "url": "https://www.theguardian.com/football/2026/oct/31/european-football-harry-kane-bayern-munich-borussia-dortmund-milan-inter-barcelona"
+     "tytuł": "‘I’ve cried way too much today’: Kimi Antonelli fights back tears after F1 title win",
+     "url": "https://www.theguardian.com/sport/2026/nov/01/kimi-antonelli-world-champion-mexican-grand-prix-lando-norris-lewis-hamilton-max-verstappen"
     },
     {
-     "nazwa": "The Guardian Football",
-     "tytuł": "Julio Enciso strikes again to earn Ipswich a point against Hull",
-     "url": "https://www.theguardian.com/football/2026/oct/31/hull-ipswich-premier-league-match-report"
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Kimi Antonelli becomes youngest F1 champion with third place in Mexican GP",
+     "url": "https://www.theguardian.com/sport/2026/nov/01/kimi-antonelli-youngest-f1-champion-mexican-gp"
     },
     {
-     "nazwa": "Sky Sports",
-     "tytuł": "Suzuki makes string of saves before conceding own goal in draw with Fulham",
-     "url": "https://www.skysports.com/football/aston-villa-vs-fulham/report/559524"
-    }
-   ],
-   "liczba_źródeł": 4,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 10.678,
-    "składowe": {
-     "potwierdzenia": 5.7,
-     "ranga_źródła": 2.132,
-     "eksponowanie": 0.27,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.526,
-     "treściwość": 0.5,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 2
-  },
-  {
-   "dział": {
-    "id": "technologia",
-    "nazwa": "Technologia i nauka",
-    "emoji": "🧪",
-    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
-   },
-   "nagłówek": "NASA szuka kogoś, kto uratuje Hubble’a. Zegar już tyka",
-   "lead": "NASA szuka kogoś, kto uratuje Hubble’a.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-10-31T15:30:00+00:00",
-   "źródło": {
-    "nazwa": "Spider's Web",
-    "url": "https://spidersweb.pl/2026/10/ratowanie-teleskopu-hubble.html",
-    "domena": "spidersweb.pl"
-   },
-   "obraz": "https://cdn-sw.spidersweb.pl/2026/10/ratowanie-teleskopu-hubble.webp",
-   "sekcje": [],
-   "dlaczego_to_ważne": "",
-   "liczby": [],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": null,
-   "tagi": [
-    "Hubble’a",
-    "NASA"
-   ],
-   "emotki": [
-    "🔭"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Spider's Web",
-     "tytuł": "NASA szuka kogoś, kto uratuje Hubble’a. Zegar już tyka",
-     "url": "https://spidersweb.pl/2026/10/ratowanie-teleskopu-hubble.html"
-    },
-    {
-     "nazwa": "Ars Technica",
-     "tytuł": "Once again, NASA is asking for ideas to rescue Hubble from certain death",
-     "url": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/"
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Mexican Formula One Grand Prix: Antonelli becomes youngest F1 champion as Verstappen wins – as it happened",
+     "url": "https://www.theguardian.com/sport/live/2026/nov/01/mexican-formula-one-grand-prix-kimi-antonelli-aims-to-seal-title-live"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.075,
+    "wynik": 7.221,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.4,
-     "eksponowanie": 0.72,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.431,
-     "treściwość": 0.124,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "technologia",
-    "nazwa": "Technologia i nauka",
-    "emoji": "🧪",
-    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
-   },
-   "nagłówek": "Microsoft i Windows w tarapatach. Zagrali va banque, a wyszło jak zwykle",
-   "lead": "A może decyzja o \"ubiciu\" Windowsa nie była zbyt fortunna? Wychodzi bowiem na to, że ilość sprzedanych licencji partnerom OEM-owym na Windowsa 11 spadła o 27% rok do roku.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-10-30T17:00:09+00:00",
-   "źródło": {
-    "nazwa": "Antyweb",
-    "url": "https://antyweb.pl/microsoft-windows-10-vs-windows-11-udzialy",
-    "domena": "antyweb.pl"
-   },
-   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2026/10/windows-11-oled.jpeg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Ubiegłoroczna fala wymiany sprzętów właśnie się kończy: skończyły się zapasy i weszło osłabienie rynku spowodowane m.in. cenami RAM-u, a prognoza na kolejny kwartał jest... jeszcze gorsza.",
-      "Windows sprzedawany w ramach licencji OEM (chodzi o takie Windowsy, które są dostarczane razem z nowym sprzętem) to pieniądze, które Microsoft otrzymuje od producentów w zamian za to, że ów Windows w ogóle znajduje się na tych maszynach.",
-      "A skoro we wrześniu skończył się pierwszy kwartał fiskalny już za rok 2027, to przyszedł czas na podsumowania.",
-      "I tak oto, w szerszej kategorii, uwzględniającej również Surface'y, przychody spadły z 4,551 do 3,551 mld dolarów.",
-      "Za ów stan rzeczy nie są odpowiedzialne tylko Windowsy, ale trend widać jak na dłoni i zapewne spadek sprzedaży nowych licencji istotnie się tutaj do tego wyniku, przyłożył.",
-      "Nieco przymusowo: branża została popchnięta w kierunku \"jedenastki\" w związku z datą końca wsparcia dla Windowsa 10: co odbyło się 14 października, w zeszłym roku.",
-      "Wtedy to (za Gartnerem), dostawy komputerów w trzecim kwartale wzrosły o 8,2%, do niemal 70 mln maszyn.",
-      "Analitycy widzieli tam motor wzrostu w większości regionów w postaci wymiany maszyn przed terminem końca wsparcia.",
-      "Ów efekt jednak wypalił się i dochodzi do nagłego hamowania, które kończy się serią poślizgów."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Microsoft Windows – rodzina systemów operacyjnych stworzonych przez firmę Microsoft. Systemy rodziny Windows działają na telefonach, smartfonach, serwerach, systemach wbudowanych oraz na komputerach osobistych, z którymi są najczęściej kojarzone."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Microsoft Windows",
-     "url": "https://pl.wikipedia.org/wiki/Microsoft_Windows"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "11",
-    "27%",
-    "4,551",
-    "3,551 mld",
-    "10",
-    "14"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Microsoft Windows",
-    "opis": "rodzina systemów operacyjnych stworzonych przez Microsoft",
-    "tekst": "Microsoft Windows – rodzina systemów operacyjnych stworzonych przez firmę Microsoft. Systemy rodziny Windows działają na telefonach, smartfonach, serwerach, systemach wbudowanych oraz na komputerach osobistych, z którymi są najczęściej kojarzone.",
-    "url": "https://pl.wikipedia.org/wiki/Microsoft_Windows",
-    "język": "pl"
-   },
-   "tagi": [
-    "Windows",
-    "Windowsa",
-    "Windowsy",
-    "Redmond"
-   ],
-   "emotki": [
-    "💻"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Antyweb",
-     "tytuł": "Microsoft i Windows w tarapatach. Zagrali va banque, a wyszło jak zwykle",
-     "url": "https://antyweb.pl/microsoft-windows-10-vs-windows-11-udzialy"
-    },
-    {
-     "nazwa": "The Verge",
-     "tytuł": "Windows 11 tries new shortcuts for Xbox gaming mode and search",
-     "url": "https://www.theverge.com/tech/1024058/windows-11-search-improvements-xbox-quick-settings"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 4.913,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.185,
-     "eksponowanie": 0.45,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.428,
-     "treściwość": 0.45,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 2
-  },
-  {
-   "dział": {
-    "id": "fizyka",
-    "nazwa": "Fizyka",
-    "emoji": "⚛️",
-    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
-   },
-   "nagłówek": "Cztery kable nadprzewodzące łączą dwa duże procesory kwantowe w jeden",
-   "lead": "Ponieważ komputery kwantowe stają się coraz bardziej ambitne, wielu badaczy uważa, że najlepszym rozwiązaniem jest zbudowanie ich w wielu połączonych ze sobą częściach. W tych modułowych konstrukcjach oddzielne procesory kwantowe są ze sobą połączone, dzięki czemu mogą współpracować jako jedna większa maszyna.",
-   "język_źródła": "en",
-   "opublikowano": "2026-10-31T16:00:02+00:00",
-   "źródło": {
-    "nazwa": "Phys.org",
-    "url": "https://phys.org/news/2026-10-superconducting-cables-link-large-quantum.html",
-    "domena": "phys.org"
-   },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/four-cables-link-two-q.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Aby tak się stało, połączenia muszą jednak przenosić kruche informacje kwantowe, nie niszcząc ich.",
-      "Zespół IBM Research osiągnął to po raz pierwszy: połączenie dwóch dużych procesorów nadprzewodzących przy użyciu czterech oddzielnych wysokiej jakości łączy kwantowych, wszystkie zainstalowane po tym, jak oba chipy były już na swoim miejscu.",
-      "Ich praca jest szczegółowo opisana w nowej pracy opublikowanej na serwerze preprintowym arXiv.",
-      "Dotychczas powiązania kwantowe między chipami nadprzewodzącymi obejmowały głównie pojedyncze połączenie między małymi procesorami eksperymentalnymi.",
-      "Powiązania te pozwoliły badaczom przenieść stany kwantowe z jednego chipu do drugiego i stworzyć splątanie kwantowe.",
-      "Aby jednak zbudować większe maszyny, inżynierowie będą musieli zainstalować wiele połączeń między procesorami, które są już zamontowane w ich lodówkach.",
-      "Te przystawki muszą być ściśle ze sobą spakowane, tracą bardzo mało przechodzącego przez nie sygnału i pracować dalej, ponieważ system jest wielokrotnie ogrzewany i chłodzony.",
-      "Aby sprostać temu wyzwaniu, zespół IBM połączył dwa ze swoich 120-qubitowych procesorów Nighthawk R1.",
-      "W każdym linku kubit wewnątrz jednego procesora przekazywał swoje informacje do dedykowanego „interfejsu” kubitu."
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Badacze kwantowi poszukują topologicznego nadprzewodnika - materiału, który, gdyby został odkryty, pozwoliłby na duży postęp w obliczeniach kwantowych poprzez połączenie dwóch różnych „smaków” nadprzewodnictwa."
-     ]
-    }
-   ],
-   "dlaczego_to_ważne": "W przypadku procesorów nadprzewodzących oznacza to zbudowanie niezawodnych łączy o długości około metra (3,3 stopy) wewnątrz sprzętu schłodzonego do temperatury nieco powyżej zera bezwzględnego.",
-   "liczby": [
-    "3.3",
-    "120",
-    "80 cm",
-    "31",
-    "99%",
-    "99.29%"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": null,
-   "tagi": [
-    "Meter-scale",
-    "Bachelor's",
-    "Nighthawk",
-    "Research"
-   ],
-   "emotki": [
-    "⚛️",
-    "🔬",
-    "💻"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Phys.org",
-     "tytuł": "Four superconducting cables link two large quantum processors into one",
-     "url": "https://phys.org/news/2026-10-superconducting-cables-link-large-quantum.html"
-    },
-    {
-     "nazwa": "Phys.org",
-     "tytuł": "UTe₂ reveals two flavors of superconductivity under extreme pressure",
-     "url": "https://phys.org/news/2026-10-ute-reveals-flavors-superconductivity-extreme.html"
-    }
-   ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 4.222,
-    "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.38,
-     "eksponowanie": 1.26,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.438,
-     "treściwość": 0.444,
-     "język_działu": 0.0
-    }
-   },
-   "oryginalny_nagłówek": "Four superconducting cables link two large quantum processors into one",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "fizyka",
-    "nazwa": "Fizyka",
-    "emoji": "⚛️",
-    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
-   },
-   "nagłówek": "Naukowcy twierdzą, że zapomniana cząstka może wyjaśnić, dlaczego wszechświat istnieje",
-   "lead": "Naukowcy zaproponowali zaskakujące nowe wyjaśnienie istnienia wszechświata i koncentruje się ono na tajemniczej cząstce, którą fizycy w dużej mierze przeoczyli przez dziesięciolecia. Ich teoria sugeruje, że ta zapomniana cząstka mogła odegrać kluczową rolę w kształtowaniu wczesnego kosmosu i umożliwieniu przetrwania materii po…",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-01T04:33:36+00:00",
-   "źródło": {
-    "nazwa": "ScienceDaily Physics",
-    "url": "https://www.sciencedaily.com/releases/2026/10/261031221201.htm",
-    "domena": "sciencedaily.com"
-   },
-   "obraz": "https://www.sciencedaily.com/images/1920/high-energy-atomic-particle-physics.webp",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Badania dotyczą jednej z najbardziej fundamentalnych tajemnic fizyki: dlaczego wszechświat zawiera materię, a nie nic?",
-      "Naukowcy uważają, że materia i antymateria były produkowane w niemal równych ilościach we wczesnym wszechświecie.",
-      "Kiedy te przeciwieństwa napotykają się nawzajem, unicestwiają się i uwalniają energię.",
-      "Gdyby istniały w idealnie równych ilościach, praktycznie cała materia mogła zniknąć, nie pozostawiając żadnego materiału do tworzenia gwiazd, planet ani życia.",
-      "Naukowcy z University of Southampton i Indian Institute of Technology Kanpur uważają, że mogli znaleźć ważny element układanki.",
-      "Ich wyjaśnienie dotyczy mało rozumianego krewnego neutrina, niezwykle lekkiej cząstki, która rzadko wchodzi w interakcje ze zwykłą materią.",
-      "Zapomniana cząstka o potężnej roli we wczesnym wszechświecie Zespół skupił się na typie cząstki znanym jako „oddzielone” ciężkie neutrino.",
-      "W przeciwieństwie do zwykłych neutrin, ten hipotetyczny cięższy krewny był ogólnie uważany za zbyt słabo połączony z innymi cząstkami, aby znacząco wpływać na wszechświat.",
-      "Naukowcy odkryli jednak, że jego niezwykle długa żywotność mogła sprawić, że był znacznie ważniejszy niż wcześniej sądzono."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Wielki Wybuch to teoria fizyczna, która opisuje, w jaki sposób wszechświat rozszerzył się z wczesnego stanu wysokiej gęstości i temperatury. Różne modele kosmologiczne oparte na koncepcji Wielkiego Wybuchu wyjaśniają szeroki zakres zjawisk, w tym obfitość elementów świetlnych, promieniowanie kosmicznego tła mikrofalowego (CMB), przesunięcie ku czerwieni galaktyk i wielkoskalową strukturę wszechświata. Obserwowana jednorodność wszechświata, która prowadzi do problemów z horyzontem i płaskością, wyjaśniana jest przez kosmiczną inflację: fazę przyspieszonej ekspansji na najwcześniejszych etapach. Szczegółowe pomiary tempa ekspansji wszechświata wskazują, że inflacja kosmiczna wynosiła około 13,787 ±0,02 miliarda lat temu, co jest uważane za wiek wszechświata. Szeroki wachlarz dowodów empirycznych zdecydowanie przemawia za modelem Wielkiego Wybuchu, który jest obecnie powszechnie akceptowany."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Big Bang",
-     "url": "https://en.wikipedia.org/wiki/Big_Bang"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Big Bang",
-    "opis": "Physical theory of the cosmos",
-    "tekst": "The Big Bang is a physical theory that describes how the universe expanded from an early state of high density and temperature. Various cosmological models based on the Big Bang concept explain a broad range of phenomena, including the abundance of light elements, the cosmic microwave background (CMB) radiation, the redshift of galaxies and the large-scale structure of the universe. The observed uniformity of the universe, which leads to the horizon and flatness problems, is explained through cosmic inflation: a phase of accelerated expansion during the earliest stages. Detailed measurements of the expansion rate of the universe place the cosmic inflation at an estimated 13.787±0.02 billion years ago, which is considered the age of the universe. A wide range of empirical evidence strongly favors the Big Bang model, which is now widely accepted.",
-    "url": "https://en.wikipedia.org/wiki/Big_Bang",
-    "język": "en"
-   },
-   "tagi": [
-    "Southampton",
-    "University",
-    "Big Bang",
-    "Technology Kanpur"
-   ],
-   "emotki": [
-    "⚛️"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "ScienceDaily Physics",
-     "tytuł": "Scientists say a forgotten particle may explain why the universe exists",
-     "url": "https://www.sciencedaily.com/releases/2026/10/261031221201.htm"
-    }
-   ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 2,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 4.0,
-    "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.05,
-     "eksponowanie": 0.9,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.595,
-     "treściwość": 0.405,
-     "język_działu": 0.0
-    }
-   },
-   "oryginalny_nagłówek": "Scientists say a forgotten particle may explain why the universe exists",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   },
-   "miejsce": 2
-  },
-  {
-   "dział": {
-    "id": "astronomia",
-    "nazwa": "Astronomia",
-    "emoji": "🔭",
-    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
-   },
-   "nagłówek": "APOD: 2026 1 listopada – Kolory Księżyca",
-   "lead": "Każdego dnia pojawia się inny obraz lub fotografia naszego fascynującego wszechświata, wraz z krótkim wyjaśnieniem napisanym przez profesjonalnego astronoma. Wyjaśnienie: Jakiego koloru jest Księżyc?",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-01T04:05:00+00:00",
-   "źródło": {
-    "nazwa": "NASA",
-    "url": "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/",
-    "domena": "science.nasa.gov"
-   },
-   "obraz": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/november/MoonColors_Pace_960.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "To zależy od nocy - i godziny.",
-      "Poza ziemską atmosferą ciemny Księżyc, który świeci odbitym światłem słonecznym, wydaje się wspaniały, lśniąco brązowobrązowy szary.",
-      "Prezentowany obraz przedstawia zbiór widocznych kolorów pełni księżyca na Ziemi, udokumentowanych przez jednego astrofotografa w ciągu 10 lat z różnych miejsc we Włoszech .",
-      "Czerwony lub żółty księżyc zwykle oznacza księżyc widziany w pobliżu horyzontu .",
-      "Tam część niebieskiego światła została rozproszona długą ścieżką przez ziemską atmosferę , czasami obładowaną drobnym pyłem.",
-      "Niebieski księżyc jest rzadszy i może wskazywać na atmosferę niosącą większe cząstki pyłu.",
-      "To, co stworzyło fioletowy księżyc, jest niejasne - może być połączeniem kilku efektów.",
-      "Ostatni obraz przedstawia całkowite zaćmienie Księżyca w lipcu 2018 roku - kiedy to księżyc w cieniu Ziemi wydawał się lekko czerwony - z powodu światła załamanego w powietrzu wokół Ziemi.",
-      "Czy kiedykolwiek widziałeś niezwykle kolorowy Księżyc?"
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "APOD Science APOD APOD: 2026 31 października –…",
-      "Dzisiejszy kalendarz APOD Archive Submissions Index Search RSS Education About Discuss APOD Astronomy Picture of the Day Odkryj kosmos!",
-      "Każdego dnia pojawia się inny obraz lub fotografia naszego fascynującego wszechświata, wraz z krótkim wyjaśnieniem napisanym przez profesjonalnego astronoma.",
-      "W tej rozmowie z irlandzką folklorystką Jenny Butler odkrywamy starożytny irlandzki festiwal Samhain i tradycje, które pomogły ukształtować Halloween.",
-      "Halloween to święto astronomii, ponieważ jest to jeden z czterech dni w ciągu roku — mniej więcej w połowie między równonocą a przesileniem."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Kolor jest percepcją wzrokową wytwarzaną przez aktywację różnych typów komórek czopkowych w oku spowodowaną światłem. Chociaż kolor nie jest nieodłączną właściwością materii, postrzeganie koloru jest związane z absorpcją światła, emisją, odbiciem i transmisją obiektu. Dla większości ludzi widzialne długości fali światła to te postrzegane w widmie światła widzialnego, z trzema rodzajami komórek czopków (trichromacja). Inne zwierzęta mogą mieć różną liczbę typów komórek stożkowych lub mieć oczy wrażliwe na różne długości fal, takie jak pszczoły, które mogą rozróżniać promieniowanie ultrafioletowe, a zatem mają różny zakres czułości kolorów. Postrzeganie koloru przez zwierzęta pochodzi z różnych długości fali światła lub czułości widmowej w typach komórek stożkowych, które są następnie przetwarzane przez mózg."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Color",
-     "url": "https://en.wikipedia.org/wiki/Color"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "10",
-    "31"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Color",
-    "opis": "Perception caused by wavelengths of light",
-    "tekst": "Color is the visual perception produced by the activation of the different types of cone cells in the eye caused by light. Though color is not an inherent property of matter, color perception is related to an object's light absorption, emission, reflection and transmission. For most humans, visible wavelengths of light are the ones perceived in the visible light spectrum, with three types of cone cells (trichromacy). Other animals may have a different number of cone cell types or have eyes sensitive to different wavelengths, such as bees that can distinguish ultraviolet, and thus have a different color sensitivity range. Animal perception of color originates from different light wavelength or spectral sensitivity in cone cell types, which is then processed by the brain.",
-    "url": "https://en.wikipedia.org/wiki/Color",
-    "język": "en"
-   },
-   "tagi": [
-    "Earth's",
-    "Moon",
-    "Earth",
-    "Moon Discover"
-   ],
-   "emotki": [
-    "⚛️"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "NASA",
-     "tytuł": "APOD: 2026 November 1 – Colors of the Moon",
-     "url": "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/"
-    },
-    {
-     "nazwa": "NASA",
-     "tytuł": "APOD: 2026 October 31 – Night on a Spooky Planet",
-     "url": "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/"
-    },
-    {
-     "nazwa": "EarthSky",
-     "tytuł": "Visible planets and night sky guide for October and November",
-     "url": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 2,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 7.602,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.637,
-     "eksponowanie": 2.34,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.589,
-     "treściwość": 0.436,
-     "język_działu": 0.0
-    }
-   },
-   "oryginalny_nagłówek": "APOD: 2026 November 1 – Colors of the Moon",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "astronomia",
-    "nazwa": "Astronomia",
-    "emoji": "🔭",
-    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
-   },
-   "nagłówek": "Posterunki kosmiczne poza Księżycem mogą polegać na sztucznej inteligencji planetarnej",
-   "lead": "NASA planuje powrót astronautów na powierzchnię Księżyca w 2028 roku po raz pierwszy od czasu Apollo 17 w 1972 roku. Ale sławna agencja nie ma zamiaru na tym poprzestać, ponieważ planuje ustanowić stałą obecność człowieka na Księżycu poprzez powolny i drobiazgowy proces obejmujący moc, wydobycie zasobów i siedlisko…",
-   "język_źródła": "en",
-   "opublikowano": "2026-10-31T19:24:37+00:00",
-   "źródło": {
-    "nazwa": "Universe Today",
-    "url": "https://www.universetoday.com/articles/space-outposts-beyond-the-moon-may-rely-on-planetary-ai",
-    "domena": "universetoday.com"
-   },
-   "obraz": "https://www.universetoday.com/article_images/500_landing_regions_cutaway_20261031_191707.png",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Jednak w związku z rosnącym wykorzystaniem sztucznej inteligencji (AI) w naszym codziennym życiu, jak ta nowa technologia może być wykorzystana do identyfikacji nowych miejsc lądowania dla przyszłych posterunków na Księżycu i ewentualnie na Marsie?",
-      "Teraz zespół naukowców z Ohio State University mógł przyczynić się do tego, jak sztuczna inteligencja może być wykorzystywana w przyszłych placówkach kosmicznych.",
-      "Jak omówiono w niedawnym badaniu przedstawionym na 58. dorocznym spotkaniu Wydziału Nauk Planetarnych (DPS 58) Amerykańskiego Towarzystwa Astronomicznego, naukowcy przedstawili, w jaki sposób można wykorzystać nowy model sztucznej inteligencji zarówno do identyfikacji bezpiecznych miejsc lądowania, jak i opracowania strategii placówek ludzkich w tych miejscach lądowania.",
-      "Model nazywa się LUMINA, jest to szkielet sztucznej inteligencji zaprojektowany, aby pomóc planistom misji ocenić bezpieczne miejsca lądowania na powierzchni Księżyca, koncentrując się w szczególności na kluczowych zasobach, takich jak lód wodny, wraz z potencjalną wartością naukową.",
-      "Aby zidentyfikować główne miejsca lądowania, LUMINA nie opiera się tylko na obrazach orbitalnych.",
-      "Zawiera niezliczone dane dotyczące powierzchni Księżyca, w tym topografię i zagrożenia terenowe, wartość naukową, geologię, właściwości powierzchni, a nawet porównanie potencjalnych miejsc lądowania ze sobą.",
-      "W rezultacie LUMINA wykazuje umiejętność identyfikacji miejsc lądowania na powierzchni Księżyca, co może zmaksymalizować sukces i skuteczność misji zarówno w przypadku ludzkich siedlisk, jak i nauki.",
-      "Ale naukowcy nie chcą ograniczać LUMINY do Księżyca, ponieważ przewidują, że LUMINA przyczyni się do powstania innych ciał planetarnych, w szczególności Marsa. „Systemy sztucznej inteligencji staną się kluczowymi narzędziami do eksploracji kosmosu, które pomogą ludziom analizować miliony obrazów i zestawów danych, których będą potrzebować przyszłe misje” - powiedział Gokce Inal , który jest doktorantem w dziedzinie inżynierii środowiska i geodezyjnej na Uniwersytecie Stanowym Ohio i naczelnym autorem badania. „Ta praca jest miał służyć jako pomost między tymi dwoma światami, sztuczną inteligencją i planetologią.„ LUMINA opiera się na wcześniejszych badaniach tej samej grupy, zwanej Wielkim Asystentem Języka i Widzenia do Eksploracji Księżyca (LLaVA-LE), który wykazał swoją zdolność do analizy i opisu obrazów orbitalnych powierzchni Księżyca.",
-      "Model LLaVA-LE jest obecnie dostępny na arXiv , został niedawno zaprezentowany podczas warsztatów CVPR2026 AI4Space w czerwcu 2026 roku i można go znaleźć na GitHub ."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Księżyc jest jedynym naturalnym satelitą Ziemi. Krąży po orbicie wokół Ziemi po ścieżce eliptycznej, w odległości zmieniającej się w ciągu roku, wynoszącej średnio około 378 000 kilometrów (235 000 mil). Wypełnia orbitę względem Ziemi i Słońca (synodycznie) co 29,5 dnia. Księżyc i Ziemia są związane przyciąganiem grawitacyjnym, które jest silniejsze po bokach zwróconych do siebie. Powstałe siły pływowe są głównym motorem pływów Ziemi i przyciągnęły Księżyc, aby zawsze stawał twarzą do Ziemi z tej samej strony. Ta blokada pływów skutecznie synchronizuje okres obrotu Księżyca z jego okresem orbitalnym."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Moon",
-     "url": "https://en.wikipedia.org/wiki/Moon"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "17",
-    "58"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Moon",
-    "opis": "Natural satellite orbiting Earth",
-    "tekst": "The Moon is the only natural satellite of Earth. It orbits Earth in an elliptical path, at a distance that varies over the year, averaging around 378,000 kilometers (235,000 mi). It completes an orbit in relation to Earth and the Sun (synodically) every 29.5 days. The Moon and Earth are bound by gravitational attraction, which is stronger on the sides facing each other. The resulting tidal forces are the main driver of Earth's tides, and have pulled the Moon to always face Earth with the same near side. This tidal locking effectively synchronizes the Moon's rotation period to its orbital period.",
-    "url": "https://en.wikipedia.org/wiki/Moon",
-    "język": "en"
-   },
-   "tagi": [
-    "Moon",
-    "Mars",
-    "Ohio State University",
-    "Earth"
-   ],
-   "emotki": [
-    "🪐",
-    "🔬"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Universe Today",
-     "tytuł": "Space Outposts Beyond the Moon May Rely on Planetary AI",
-     "url": "https://www.universetoday.com/articles/space-outposts-beyond-the-moon-may-rely-on-planetary-ai"
-    }
-   ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 2,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 4.1,
-    "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.0,
-     "eksponowanie": 0.72,
+     "ranga_źródła": 2.035,
+     "eksponowanie": 0.81,
      "słowa_kluczowe": 1.4,
-     "świeżość": 0.48,
+     "świeżość": 0.576,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Space Outposts Beyond the Moon May Rely on Planetary AI",
+   "oryginalny_nagłówek": "How Antonelli 'blew everyone away' to make F1 history",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -1569,174 +724,643 @@
   },
   {
    "dział": {
-    "id": "geografia",
-    "nazwa": "Geografia",
-    "emoji": "🗺️",
-    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
    },
-   "nagłówek": "Narody zobowiązują się do przywrócenia celów związanych z przyrodą na właściwe tory",
-   "lead": "Blisko 200 krajów zawarło w piątek na szczycie ONZ w sprawie bioróżnorodności trudne porozumienia, ale rezultatowi towarzyszyło rozczarowanie z powodu straconych okazji do zajęcia się niszczycielskim wpływem ludzkości na przyrodę. Delegaci wiwatowali, ponieważ kluczowe teksty zostały zatwierdzone w nadgodzinach, ale uroczystości zostały złagodzone przez…",
-   "język_źródła": "en",
-   "opublikowano": "2026-10-31T10:37:02+00:00",
-   "źródło": {
-    "nazwa": "Phys.org Earth",
-    "url": "https://phys.org/news/2026-10-nations-commit-nature-goals-track.html",
-    "domena": "phys.org"
-   },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/delegates-cheered-as-t.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Szczyt COP17 w Armenii miał na celu ożywienie przełomowego zobowiązania do powstrzymania i odwrócenia procesu niszczenia przyrody do 2030 r., gdy globalne wysiłki na rzecz osiągnięcia tego celu okazały się niewystarczające.",
-      "W ciągu dwóch tygodni w Erywaniu narody zostały wezwane do skorygowania kursu, aby utrzymać pakt przy życiu i chronić rośliny, zwierzęta i ekosystemy, które podtrzymują życie na Ziemi.",
-      "Organizacja Narodów Zjednoczonych ostrzegła, że postępy są niewystarczające, aby osiągnąć cele wyznaczone na 2030 r., w tym ochronę 30% lądów i oceanów na Ziemi, walkę z zanieczyszczeniem i gatunkami inwazyjnymi oraz zwiększenie środków na ochronę.",
-      "Doskonale - powiedział prezydent Hambardzum Matevosyan na konferencji COP17 w Armenii, obniżając poprzeczkę dwóch głównych tekstów, których ostateczna wersja nie była jeszcze dostępna na początku soboty.",
-      "Ale wynik był „niewspółmierny” do kryzysu, który ogarnął świat przyrody - powiedziała w sobotę francuska minister ds. transformacji ekologicznej Monique Barbut.",
-      "„Postęp, którego nie udało nam się osiągnąć, to seria straconych okazji do przyspieszenia naszej reakcji na utratę różnorodności biologicznej” - powiedział Barbut w długim oświadczeniu wysłanym do AFP, podkreślając, że „natura nie będzie czekać na tempo naszych negocjacji.„ Ostatnia sesja plenarna trwała do piątku wieczorem i do następnego ranka, a negocjacje stawały się kwaśne w miarę przeciągania się godzin.",
-      "Nawet gdy niektórzy delegaci zostawali, aby złapać loty, inni zostawali, aby dyskutować o kwestiach technicznych.",
-      "Weteranka obserwacji COP Juliette Landry z think tanku IDDRI powiedziała AFP, że „przez cały szczyt było dużo popychania i ciągnięcia w każdym kierunku” i w tym kontekście trudno jest uzyskać akceptację. Szefowa ONZ ds. bioróżnorodności Astrid Schomaker powiedziała, że szczyt osiągnął kilka niezwykłych rzeczy w momencie, gdy multilateralizm rzekomo nie funkcjonuje. \"\" Niektóre z tych trudniejszych tematów, nie mogliśmy oczekiwać silnych wynegocjowanych zobowiązań.",
-      "Tego nigdy nie było w planie - powiedziała dziennikarzom po zamknięciu szczytu."
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "COP17, koncentrując się na ochronie przyrody i odbudowie ekosystemów, kończy się w sobotę stwierdzeniem krytyków, że system pozwala „jednemu idiocie” opóźniać postępy. Rośnie liczba wezwań do przeprowadzenia poważnych reform na szczytach ONZ dotyczących różnorodności biologicznej, ponieważ kraje nie dotrzymują obietnic dotyczących powstrzymania niszczenia świata przyrody, a rządy prawdopodobnie będą nadal na dobrej drodze do kontynuowania swoich rekordów, że nigdy nie osiągnęły celu w 34-letniej historii konwencji.",
-      "Dwutygodniowe negocjacje w sprawie bioróżnorodności COP17 w Erywaniu w Armenii zakończyły się w sobotę rano obietnicą podwojenia wysiłków na rzecz osiągnięcia celów tej dekady, które obejmują zobowiązania do ochrony 30% planety dla przyrody, przywrócenia prawie jednej trzeciej zdegradowanych ekosystemów Ziemi i zreformowania 500 miliardów dolarów (410 miliardów funtów) dotacji szkodliwych dla środowiska.",
-      "Uzgodnione zaledwie cztery lata temu przez prawie każdy rząd na świecie, mają na celu przekształcenie relacji ludzkości z naturą .",
-      "Po rozmowach, które trwały od piątku do soboty rano, kraje podpisały kilka środków, w tym zobowiązanie do przyspieszenia działań na rzecz osiągnięcia istniejących celów i potwierdzenie celu zwiększenia finansowania różnorodności biologicznej do 30 mld $ rocznie do końca dekady.",
-      "Podczas konferencji ministrowie środowiska, aktywiści i urzędnicy zaapelowali o znaczące zmiany w sposobie funkcjonowania szczytów, aby zapewnić, że rządy podejmą znaczące działania na rzecz czynników prowadzących do utraty różnorodności biologicznej."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Armenia, oficjalnie Republika Armenii, jest krajem bez dostępu do morza na ormiańskich wyżynach Azji Zachodniej. Jest częścią regionu Kaukazu i graniczy z Turcją na zachodzie, Gruzją na północy, Azerbejdżanem na wschodzie oraz Iranem i azerbejdżańską eksklawą Nachiczewańską na południu. Erywań jest stolicą, największym miastem i centrum finansowym."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Armenia",
-     "url": "https://en.wikipedia.org/wiki/Armenia"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "200",
-    "30%",
-    "100,000",
-    "34",
-    "500",
-    "410"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Armenia",
-    "opis": "Country in West Asia",
-    "tekst": "Armenia, officially the Republic of Armenia, is a landlocked country in the Armenian highlands of West Asia. It is a part of the Caucasus region and is bordered by Turkey to the west, Georgia to the north, Azerbaijan to the east, and Iran and the Azerbaijani exclave of Nakhchivan to the south. Yerevan is the capital, largest city and financial center.",
-    "url": "https://en.wikipedia.org/wiki/Armenia",
-    "język": "en"
-   },
-   "tagi": [
-    "Saturday",
-    "Friday",
-    "Armenia",
-    "Nearly"
-   ],
-   "emotki": [
-    "🌊"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Phys.org Earth",
-     "tytuł": "Nations commit to get nature goals back on track",
-     "url": "https://phys.org/news/2026-10-nations-commit-nature-goals-track.html"
-    },
-    {
-     "nazwa": "The Guardian Environment",
-     "tytuł": "‘Bunch of baloney’: calls grow for Cop summit reforms as countries on track to fail nature targets",
-     "url": "https://www.theguardian.com/environment/2026/oct/31/cop17-reforms-fails-to-deliver-targets"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 3,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 5.811,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.307,
-     "eksponowanie": 1.71,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.394,
-     "treściwość": 0.5,
-     "język_działu": 0.0
-    }
-   },
-   "oryginalny_nagłówek": "Nations commit to get nature goals back on track",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "geografia",
-    "nazwa": "Geografia",
-    "emoji": "🗺️",
-    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
-   },
-   "nagłówek": "Utrata lodu wokół Antarktydy zmienia oceaniczną cyrkulację",
-   "lead": "Utrata lodu wokół Antarktydy zmienia oceaniczną cyrkulację tryton sob., 10/31/2026 - 16:10 2 minuty",
+   "nagłówek": "Sztuczna inteligencja może podnosić koszty leczenia",
+   "lead": "Sztuczna inteligencja może podnosić koszty leczenia tryton ndz., 11/01/2026 - 19:10 2 minuty",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-31T15:10:00+00:00",
+   "opublikowano": "2026-11-01T18:10:00+00:00",
    "źródło": {
     "nazwa": "Nauka w Polsce",
-    "url": "https://naukawpolsce.pl/aktualnosci/news%2C115698%2Cutrata-lodu-wokol-antarktydy-zmienia-oceaniczna-cyrkulacje.html",
+    "url": "https://naukawpolsce.pl/aktualnosci/news%2C115677%2Csztuczna-inteligencja-moze-podnosic-koszty-leczenia.html",
     "domena": "naukawpolsce.pl"
    },
    "obraz": null,
    "sekcje": [],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "10",
-    "31",
-    "16"
+    "11",
+    "01",
+    "19",
+    "10 2"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Antarktydy",
-    "Utrata"
+    "Sztuczna"
    ],
    "emotki": [
-    "🌊",
-    "🧊"
+    "🤖"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Nauka w Polsce",
-     "tytuł": "Utrata lodu wokół Antarktydy zmienia oceaniczną cyrkulację",
-     "url": "https://naukawpolsce.pl/aktualnosci/news%2C115698%2Cutrata-lodu-wokol-antarktydy-zmienia-oceaniczna-cyrkulacje.html"
+     "tytuł": "Sztuczna inteligencja może podnosić koszty leczenia",
+     "url": "https://naukawpolsce.pl/aktualnosci/news%2C115677%2Csztuczna-inteligencja-moze-podnosic-koszty-leczenia.html"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 2.941,
+    "wynik": 2.99,
     "składowe": {
      "potwierdzenia": 0.0,
-     "ranga_źródła": 1.1,
-     "eksponowanie": 0.09,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.36,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.465,
+     "treściwość": 0.115,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Badaczka: z cyfrowym życiem po śmierci łatwo przekroczyć granicę",
+   "lead": "Badaczka: z cyfrowym życiem po śmierci łatwo przekroczyć granicę tryton ndz., 11/01/2026 - 19:15 4 minuty",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-01T18:15:00+00:00",
+   "źródło": {
+    "nazwa": "Nauka w Polsce",
+    "url": "https://naukawpolsce.pl/aktualnosci/news%2C115727%2Cbadaczka-z-cyfrowym-zyciem-po-smierci-latwo-przekroczyc-granice.html",
+    "domena": "naukawpolsce.pl"
+   },
+   "obraz": null,
+   "sekcje": [],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "11",
+    "01",
+    "19",
+    "15 4"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Badaczka"
+   ],
+   "emotki": [
+    "🔬",
+    "🗺️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Nauka w Polsce",
+     "tytuł": "Badaczka: z cyfrowym życiem po śmierci łatwo przekroczyć granicę",
+     "url": "https://naukawpolsce.pl/aktualnosci/news%2C115727%2Cbadaczka-z-cyfrowym-zyciem-po-smierci-latwo-przekroczyc-granice.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 2.747,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.45,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.466,
+     "treściwość": 0.131,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Przełamywanie lodu: naukowcy wykorzystują przyciągające cząsteczki, aby utworzyć lód zapobiegający wirowaniu",
+   "lead": "W niedawnym badaniu Nature Communications naukowcy donoszą o realizacji lodu antyspinowego, systemu, który działa odwrotnie niż konwencjonalne lody spinowe, łamiąc regułę Ice, która nimi rządzi. Lody wirujące to systemy magnetyczne, które naśladują zasadę występującą w lodzie wodnym.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-01T11:40:01+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-10-ice-scientists-particles-anti.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/breaking-the-ice-scien.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "W lodzie wodnym każdy atom tlenu utrzymuje dwa atomy wodoru blisko i dwa dalej.",
+      "Ponieważ wiele układów spełnia tę zasadę równie dobrze, atomy wodoru w lodzie są nieuporządkowane, co oznacza, że nie ma powtarzającego się wzoru.",
+      "Jest to oznaka geometrycznej frustracji, która pojawia się, gdy konkurujące ze sobą interakcje w systemie nie mogą być spełnione jednocześnie, pozostawiając wiele równie dobrych kompromisów.",
+      "Naukowcy odtworzyli to zachowanie w systemach inżynieryjnych zwanych sztucznymi lodami spinowymi, zbudowanych z macierzy maleńkich magnesów lub mikroskopijnych cząstek zwanych koloidami.",
+      "W lodach koloidalnych cząstki znajdują się w małych rowkach lub studzienkach, rozmieszczonych wzdłuż sieci, z których każda spoczywa w pobliżu jednego lub drugiego końca.",
+      "Ponieważ cząstki odpychają się wzajemnie, rozkładają się równomiernie, utrzymując jak najmniejszą nierównowagę cząstek na każdym złączu (jego ładunek topologiczny).",
+      "W większości badacze badali lody koloidalne przy użyciu odpychających cząstek.",
+      "W nowym badaniu naukowcy zbadali, co się dzieje, gdy cząstki przyciągają się nawzajem, tworząc coś, co nazywają lodem zapobiegającym wirowaniu.",
+      "Phys.org rozmawiał ze współautorem badania Pietro Tierno z Uniwersytetu w Barcelonie."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Naukowcy zaproponowali zaskakujące nowe wyjaśnienie istnienia wszechświata i koncentruje się ono na tajemniczej cząstce, którą fizycy w dużej mierze przeoczyli przez dziesięciolecia.",
+      "Ich teoria sugeruje, że ta zapomniana cząstka mogła odegrać kluczową rolę w kształtowaniu wczesnego kosmosu i umożliwieniu przetrwania materii po Wielkim Wybuchu.",
+      "Naukowcy z University of Southampton i Indian Institute of Technology Kanpur uważają, że mogli znaleźć ważny element układanki.",
+      "Ich wyjaśnienie dotyczy mało rozumianego krewnego neutrina, niezwykle lekkiej cząstki, która rzadko wchodzi w interakcje ze zwykłą materią.",
+      "Zapomniana cząstka o potężnej roli we wczesnym wszechświecie Zespół skupił się na typie cząstki znanym jako „oddzielone” ciężkie neutrino.",
+      "W przeciwieństwie do zwykłych neutrin, ten hipotetyczny cięższy krewny był ogólnie uważany za zbyt słabo połączony z innymi cząstkami, aby znacząco wpływać na wszechświat."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Naukowiec jest ekspertem w jednej lub kilku konkretnych dziedzinach nauki i zwykle wykorzystuje metody naukowe w prowadzeniu badań naukowych w celu rozwijania wiedzy w nauce."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Scientist",
+     "url": "https://en.wikipedia.org/wiki/Scientist"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "100,000",
+    "2.8",
+    "50",
+    "54.7",
+    "10.1038",
+    "026"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Scientist",
+    "opis": "Person who conducts scientific research",
+    "tekst": "A scientist is an expert in one or more specific fields of science and who habitually uses scientific methods in carrying out scientific research to advance knowledge in science.",
+    "url": "https://en.wikipedia.org/wiki/Scientist",
+    "język": "en"
+   },
+   "tagi": [
+    "Tierno",
+    "Nature Communications",
+    "Nature Communications Freelance",
+    "Pietro Tierno"
+   ],
+   "emotki": [
+    "⚛️",
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Breaking the ice: Scientists use attracting particles to form an anti-spin ice",
+     "url": "https://phys.org/news/2026-10-ice-scientists-particles-anti.html"
+    },
+    {
+     "nazwa": "ScienceDaily Physics",
+     "tytuł": "Scientists say a forgotten particle may explain why the universe exists",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261031221201.htm"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.715,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.357,
+     "eksponowanie": 1.62,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.383,
+     "treściwość": 0.405,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Breaking the ice: Scientists use attracting particles to form an anti-spin ice",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Ultrazimne atomy symulują trudną do zaobserwowania produkcję pary materia-antymateria",
+   "lead": "Według elektrodynamiki kwantowej, teorii opisującej interakcje między światłem a cząstkami naładowanymi elektrycznie, wystarczająco silne pole elektryczne może w zasadzie przekształcić część swojej energii w cząstki i ich partnerów antymaterii. Partner antymaterii cząstki ma taką samą masę i dla…",
+   "język_źródła": "en",
+   "opublikowano": "2026-10-31T17:00:01+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-10-ultracold-atoms-simulate-hard-antimatter.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/using-cold-atoms-to-ex.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Tworzenie par cząstka-antycząstka poprzez pole elektryczne i z próżni znane jest jako efekt Schwingera.",
+      "Ponieważ produkcja tych par jest silnie tłumiona przy natężeniach pola elektrycznego, które można zrealizować w warunkach laboratoryjnych, obserwacja tego efektu eksperymentalnie okazała się do tej pory trudna.",
+      "Naukowcy z Uniwersytetu Naukowo-Technicznego w Chinach i innych instytucji wprowadzili obecnie eksperyment, który można wykorzystać do symulacji i badania tego rzadkiego procesu produkcji cząstek.",
+      "Ich eksperyment, opisany w artykule opublikowanym w Physical Review Letters , pociąga za sobą reprezentację cząstek i pól elektrycznych poprzez rozmieszczenie i ruch ultrazimnych atomów rubidu uwięzionych w sieci optycznej , wzorcu opartym na świetle laserowym, który może uwięzić atomy.",
+      "„Zainspirował nas efekt Schwingera, przewidywanie, że silne pole elektryczne może spontanicznie tworzyć pary elektron-pozytron z próżni” - powiedział Phys.org Zhen-Sheng Yuan, współautor artykułu.",
+      "„Jest to przykład„ fałszywego rozpadu próżniowego ”i w swojej pierwotnej formie nigdy nie był bezpośrednio obserwowany.",
+      "Naszym celem było zbudowanie prostego, kontrolowanego modelu laboratoryjnego z zimnymi atomami, w którym moglibyśmy symulować ten proces i dostroić jego przebieg.„ W swoich eksperymentach Yuan i jego koledzy użyli światła laserowego, aby uwięzić ultrazimne atomy rubidu w jednowymiarowym łańcuchu, prostym rzędzie małych pułapek optycznych.",
+      "Co druga pułapka na tym łańcuchu zawierała dwa atomy, podczas gdy pułapki pomiędzy nimi były puste.",
+      "„Ten układ jest„ fałszywą próżnią ”, stanem, który może uwolnić energię poprzez tworzenie par cząstka-antycząstka” - wyjaśnił Yuan."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "100,000",
+    "10.1103",
+    "2411.12565"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Schwinger",
+    "Yuan",
+    "Physical Review Letters",
+    "Phys.org"
+   ],
+   "emotki": [
+    "⚛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Ultracold atoms simulate hard-to-observe matter-antimatter pair production",
+     "url": "https://phys.org/news/2026-10-ultracold-atoms-simulate-hard-antimatter.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.235,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.72,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.427,
-     "treściwość": 0.124,
+     "świeżość": 0.15,
+     "treściwość": 0.465,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Ultracold atoms simulate hard-to-observe matter-antimatter pair production",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Ciężki wodór w metanie 3I/ATLAS wskazuje na mroźne miejsce urodzenia",
+   "lead": "Międzygwiezdna kometa 3I/ATLAS niesie chemiczną wskazówkę do warunków w układzie planetarnym swojego pochodzenia, zamkniętą na długo przed dotarciem do naszego Słońca. Jego metanowa sygnatura jest niezwykle bogata w ciężki wodór, co sugeruje, że zamrożone składniki komety nabrały kształtu w intensywnie zimnym środowisku wokół innego…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-01T15:20:02+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Astronomy",
+    "url": "https://phys.org/news/2026-10-heavy-hydrogen-3iatlas-methane-frigid.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/heavy-hydrogen-in-3iat.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Używając Kosmicznego Teleskopu Jamesa Webba, Nathan Roth z Uniwersytetu Amerykańskiego i Centrum Lotów Kosmicznych Goddarda NASA wraz z kolegami zmierzyli stosunek ciężkiego do normalnego wodoru w 3I/ATLASIE, który jest około 13 razy wyższy niż stosunek komety 67P/Churyumov-Gerasimenko (która prawdopodobnie pochodzi z naszego Układu Słonecznego).",
+      "Ich odkrycia, opublikowane w czasopiśmie Nature Astronomy , dają naukowcom rzadką możliwość zbadania wczesnej chemii innego układu planetarnego.",
+      "Wyzwaniem jest praca wstecz od uciekającego gazu do warunków, w których powstał jego lód.",
+      "Ciężki wodór, zwany deuterem, ma dodatkowy neutron w swoim jądrze.",
+      "Może zająć miejsce zwykłego wodoru w cząsteczce metanu, która składa się z jednego atomu węgla połączonego z czterema atomami wodoru.",
+      "Ta substytucja zmienia sygnaturę cząsteczki w podczerwieni, umożliwiając astronomom rozróżnienie między tymi dwiema formami, ale wersja zawierająca deuter wytwarza znacznie słabszy sygnał.",
+      "Webb zaobserwował 3I/ATLAS w grudniu",
+      "22 i 23, 2025 r., gdy znajdowała się około 2,4 razy dalej od Słońca niż Ziemia.",
+      "Teleskop badał światło podczerwone ze śpiączki, chmurę gazu otaczającą lodowe jądro komety."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nature Astronomy to recenzowane czasopismo naukowe wydawane przez Nature Portfolio. Po raz pierwszy został opublikowany w styczniu 2017 roku, choć pierwsze treści pojawiły się w Internecie w grudniu 2016 roku. Redaktorem naczelnym jest Paul Woods, który jest etatowym profesjonalnym redaktorem zatrudnionym przez czasopismo. Woods objął kierownictwo czasopisma w kwietniu 2024 roku od May Chiao, która je założyła. Redaktorami założycielami tego czasopisma, oprócz May Chiao, byli Paul Woods, Luca Maltagliati i Marios Karouzos."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Nature Astronomy",
+     "url": "https://en.wikipedia.org/wiki/Nature_Astronomy"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "13",
+    "67",
+    "22",
+    "23, 2025",
+    "2.4",
+    "3.2%"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Nature Astronomy",
+    "opis": "Academic journal",
+    "tekst": "Nature Astronomy is a peer reviewed scientific journal published by Nature Portfolio. It was first published in January 2017, although the first content appeared online in December 2016. The editor-in-chief is Paul Woods, who is a full-time professional editor employed by the journal. Woods took over the leadership of the journal in April 2024 from May Chiao, who launched the journal. The founding editors of this journal, in addition to May Chiao, were Paul Woods, Luca Maltagliati and Marios Karouzos.",
+    "url": "https://en.wikipedia.org/wiki/Nature_Astronomy",
+    "język": "en"
+   },
+   "tagi": [
+    "Nature Astronomy",
+    "Master's",
+    "James Webb Space Telescope Nathan Roth",
+    "NASA's Goddard Space Flight Center"
+   ],
+   "emotki": [
+    "🪐",
+    "🔭"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Astronomy",
+     "tytuł": "Heavy hydrogen in 3I/ATLAS's methane points to a frigid birthplace",
+     "url": "https://phys.org/news/2026-10-heavy-hydrogen-3iatlas-methane-frigid.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.284,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.429,
+     "treściwość": 0.445,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Heavy hydrogen in 3I/ATLAS's methane points to a frigid birthplace",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Listopad 2026: Co jest na niebie półkuli południowej w tym miesiącu?",
+   "lead": "Chociaż Wenus zdominowała wieczorne niebo od zeszłego lata, jej długie objawienie zakończyło się pod koniec października w gorszej koniunkcji. To sprawia, że Saturn jest jedyną widoczną planetą z gołym okiem, gdy niebo ciemnieje w tym miesiącu.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-01T05:00:00+00:00",
+   "źródło": {
+    "nazwa": "Astronomy Magazine",
+    "url": "https://www.astronomy.com/observing/november-2026-whats-in-the-southern-hemisphere-sky-this-month/",
+    "domena": "astronomy.com"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Obrączkowana planeta świeci z jasnością 0,5, gdy graniczy na zachód z gwiazdami tła z książki „Listopad 2026: Co jest na niebie półkuli południowej w tym miesiącu?„ Post November 2026: What's in the Southern Hemisphere sky this month? ukazał się po raz pierwszy w Astronomy Magazine ."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Mars i Jowisz dominują na porannym niebie, a w godzinie Czytaj dalej „Listopad 2026: Co jest na niebie w tym miesiącu?„ The post November 2026: What's in the sky this month? appeared first on Astronomy Magazine ."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Listopad to jedenasty i przedostatni miesiąc roku w kalendarzu juliańskim i gregoriańskim. Listopad był dziewiątym miesiącem kalendarza Romulusa ok. Listopad zachował swoją nazwę, gdy styczeń i luty zostały dodane do kalendarza rzymskiego. Listopad to miesiąc późnej wiosny na półkuli południowej i późnej jesieni na półkuli północnej. Dlatego listopad na półkuli południowej jest sezonowym odpowiednikiem maja na półkuli północnej i odwrotnie. W starożytnym Rzymie Ludi Plebeii odbył się w dniach 4–17 listopada, Epulum Jovis odbył się 13 listopada, a uroczystości w Brumalii rozpoczęły się 24 listopada. Daty te nie odpowiadają współczesnemu kalendarzowi gregoriańskiemu."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: November",
+     "url": "https://en.wikipedia.org/wiki/November"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "0.5"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "November",
+    "opis": "Eleventh month in the Julian and Gregorian calendars",
+    "tekst": "November is the eleventh and penultimate month of the year in the Julian and Gregorian calendars. Its length is 30 days. November was the ninth month of the calendar of Romulus c. 750 BC. November retained its name when January and February were added to the Roman calendar. November is a month of late spring in the Southern Hemisphere and late autumn in the Northern Hemisphere. Therefore, November in the Southern Hemisphere is the seasonal equivalent of May in the Northern Hemisphere and vice versa. In Ancient Rome, Ludi Plebeii was held from November 4–17, Epulum Jovis was held on November 13 and Brumalia celebrations began on November 24. These dates do not correspond to the modern Gregorian calendar.",
+    "url": "https://en.wikipedia.org/wiki/November",
+    "język": "en"
+   },
+   "tagi": [
+    "Southern Hemisphere",
+    "What’s",
+    "November",
+    "Astronomy Magazine"
+   ],
+   "emotki": [
+    "🪐"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Astronomy Magazine",
+     "tytuł": "November 2026: What’s in the Southern Hemisphere sky this month?",
+     "url": "https://www.astronomy.com/observing/november-2026-whats-in-the-southern-hemisphere-sky-this-month/"
+    },
+    {
+     "nazwa": "Astronomy Magazine",
+     "tytuł": "November 2026: What’s in the sky this month?",
+     "url": "https://www.astronomy.com/observing/sky-this-month-november-2026/"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.048,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.208,
+     "eksponowanie": 0.99,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.3,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "November 2026: What’s in the Southern Hemisphere sky this month?",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Nowości w SmartGML - operat techniczny i dostęp do księgi wieczystej prosto z aplikacji",
+   "lead": "Geo-System udostępnił wersję 1.1.0 programu SmartGML. Oprócz szeregu nowych narzędzi do pracy z danymi GML program ułatwia przygotowywanie operatu technicznego, a najnowsza wersja pozwala również otworzyć treść księgi wieczystej działki bezpośrednio z poziomu mapy bez zbędnego klikania.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-02T00:00:00+00:00",
+   "źródło": {
+    "nazwa": "Geoforum",
+    "url": "https://geoforum.pl/news/37477/nowosci-w-smartgml-operat-techniczny-i-dostep-do-ksiegi-wieczystej-prosto-z-aplikacji",
+    "domena": "geoforum.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Najważniejszą spośród nowości w wersji 1.1.0 jest integracja z systemem Elektronicznych Ksiąg Wieczystych.",
+      "Pozycja Zobacz treść KW w systemie EKW w menu podręcznym działki oraz przycisk..."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "1.1.0"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "SmartGML",
+    "Elektronicznych Ksiąg Wieczystych",
+    "Geo-System",
+    "Zobacz"
+   ],
+   "emotki": [
+    "💻"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Geoforum",
+     "tytuł": "Nowości w SmartGML - operat techniczny i dostęp do księgi wieczystej prosto z aplikacji",
+     "url": "https://geoforum.pl/news/37477/nowosci-w-smartgml-operat-techniczny-i-dostep-do-ksiegi-wieczystej-prosto-z-aplikacji"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.698,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.538,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Prezes Geo-System o potrzebie wdrożenia API dla Rejestru Urbanistycznego",
+   "lead": "Zbigniew Malinowski, prezes firmy Geo-System, przedstawił swoje stanowisko w sprawie zasilania Rejestru Urbanistycznego RU danymi o obowiązujących miejscowych planach zagospodarowania przestrzennego. Jego zdaniem niezbędne jest wdrożenie interfejsu API, który umożliwiłby automatyczne przekazywanie danych z systemów…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-02T00:00:00+00:00",
+   "źródło": {
+    "nazwa": "Geoforum",
+    "url": "https://geoforum.pl/news/37476/prezes-geo-system-o-potrzebie-wdrozenia-api-dla-rejestru-urbanistycznego",
+    "domena": "geoforum.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Obecnie wprowadzanie danych do RU odbywa się ręcznie pracownicy urzędów logują się do systemu za pomocą profilu..."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Rejestru Urbanistycznego",
+    "Geo-System",
+    "Rejestru Urbanistycznego Zbigniew Malinowski"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Geoforum",
+     "tytuł": "Prezes Geo-System o potrzebie wdrożenia API dla Rejestru Urbanistycznego",
+     "url": "https://geoforum.pl/news/37476/prezes-geo-system-o-potrzebie-wdrozenia-api-dla-rejestru-urbanistycznego"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.608,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.72,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.538,
+     "treściwość": 0.5,
      "język_działu": 0.5
     }
    },
@@ -1749,94 +1373,77 @@
     "emoji": "🎬",
     "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
    },
-   "nagłówek": "Nie żyje Paweł Tucholski. Głos Simby i Aladyna miał 57 lat",
-   "lead": "Nie żyje Paweł Tucholski , polski aktor teatralny, dubbingowy i filmowy. Jego głosem mówili bohaterowie disnejowskich animacji, m.in.",
+   "nagłówek": "Michael Mann w szpitalu. Reżyser postrzelił się przypadkowo",
+   "lead": "Michael Mann trafił do szpitala. Jak donosi TMZ, 83-letni reżyser, twórca \" Gorączki \", \" Zakładnika \" i \"<a class='internal'",
    "język_źródła": "pl",
-   "opublikowano": "2026-10-31T19:07:00+00:00",
+   "opublikowano": "2026-11-01T15:41:00+00:00",
    "źródło": {
     "nazwa": "Filmweb",
-    "url": "https://www.filmweb.pl/news/Nie+%C5%BCyje+Pawe%C5%82+Tucholski.+G%C5%82os+Simby+i+Aladyna+mia%C5%82+57+lat-169433",
+    "url": "https://www.filmweb.pl/news/Michael+Mann+w+szpitalu.+Re%C5%BCyser+przypadkowo+postrzeli%C5%82+si%C4%99+sam-169443",
     "domena": "filmweb.pl"
    },
-   "obraz": "https://fwcdn.pl/nph/1985708/2026/78684_1.16.jpg",
+   "obraz": "https://fwcdn.pl/nph/1985708/2026/78703_1.16.jpg",
    "sekcje": [
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Paweł Tucholski — pochodzący ze Żnina aktor teatralny, filmowy i dubbingowy — zmarł 30 października.",
-      "Tucholski miał ponownie występować pod jej szyldem wiosną 2027 r.",
-      "Poinformowało o tym Marvel Studios w komunikacie żegnającym zmarłego 28 października aktora.",
-      "Uwielbiany gwiazdor filmów Marvela a także serii \"Star Trek\" zmarł w wieku 86 lat.",
-      "\"Z wielkim smutkiem zawiadamiamy, że wczoraj w swoim domu w Los Angeles, u boku ukochanej żony Sunny, odszedł sir Patrick Stewart.",
-      "Jego śmierć poprzedziła krótka i poruszająca walka z chorobą Alzheimera oraz otępieniem z ciałami Lewy'ego\" - można było przeczytać w oświadczeniu na profilu aktora w mediach społecznościowych.",
-      "Towarzyszyła im żywa muzyka, modlitwa, łzy, śmiech i głębokie emocje - takie, jakie tylko on potrafił wywołać po całym życiu poświęconym nam wszystkim\" - dodali bliscy Stewarta."
+      "Jak podaje serwis TMZ, który jako pierwszy poinformował o tym zdarzeniu, reżyser doznał obrażeń, próbując schować broń do kabury, gdy ta przypadkowo wystrzeliła.",
+      "Do zdarzenia doszło w sobotę około godziny 16:00 na strzelnicy Range L.A., a policja w Los Angeles potwierdziła, że w momencie zgłoszenia jego stan był stabilny.",
+      "\"W sobotę na strzelnicy doszło do przypadkowego wystrzału z broni znajdującej się w kaburze, w wyniku czego reżyser filmowy Michael Mann odniósł powierzchowne obrażenia."
      ]
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "30",
-    "28",
-    "86 lat",
-    "25 lat"
+    "83",
+    "16",
+    "00"
    ],
    "inne_spojrzenia": [
     {
-     "źródło": "Onet Kultura",
-     "ujęcie": "Cztery dni wcześniej dołączył do zespołu Teatru im.",
-     "url": "https://kultura.onet.pl/wiadomosci/pawel-tucholski-nie-zyje-ceniony-aktor-mial-57-lat/jp83rsl"
+     "źródło": "Interia Film",
+     "ujęcie": "Michael Mann trafił do szpitala po nieszczęśliwym wypadku na strzelnicy w Los Angeles.",
+     "url": "https://film.interia.pl/mocny-temat/news-niefortunny-wypadek-na-strzelnicy-znany-rezyser-trafil-do-sz,nId,23567144"
     }
    ],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Paweł Tucholski",
-    "Aladyna",
-    "Simby"
+    "Gorączki Zakładnika",
+    "Michael Mann"
    ],
    "emotki": [
-    "🎭",
     "🎬"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Filmweb",
-     "tytuł": "Nie żyje Paweł Tucholski. Głos Simby i Aladyna miał 57 lat",
-     "url": "https://www.filmweb.pl/news/Nie+%C5%BCyje+Pawe%C5%82+Tucholski.+G%C5%82os+Simby+i+Aladyna+mia%C5%82+57+lat-169433"
-    },
-    {
-     "nazwa": "Onet Kultura",
-     "tytuł": "Paweł Tucholski nie żyje. Ceniony aktor miał 57 lat",
-     "url": "https://kultura.onet.pl/wiadomosci/pawel-tucholski-nie-zyje-ceniony-aktor-mial-57-lat/jp83rsl"
+     "tytuł": "Michael Mann w szpitalu. Reżyser postrzelił się przypadkowo",
+     "url": "https://www.filmweb.pl/news/Michael+Mann+w+szpitalu.+Re%C5%BCyser+przypadkowo+postrzeli%C5%82+si%C4%99+sam-169443"
     },
     {
      "nazwa": "Interia Film",
-     "tytuł": "Legendarny aktor nie żyje. Znamy jego ostatni film",
-     "url": "https://film.interia.pl/wiadomosci/news-legendarny-aktor-nie-zyje-znamy-jego-ostatni-film,nId,23566817"
+     "tytuł": "Niefortunny wypadek na strzelnicy. Znany reżyser trafił do szpitala",
+     "url": "https://film.interia.pl/mocny-temat/news-niefortunny-wypadek-na-strzelnicy-znany-rezyser-trafil-do-sz,nId,23567144"
     },
     {
-     "nazwa": "BBC Kultura",
-     "tytuł": "Sir Patrick Stewart remembered as 'Mirfield's finest'",
-     "url": "https://www.bbc.co.uk/news/articles/cm0qk2e9deqeo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "The Guardian Culture",
-     "tytuł": "‘We freed Patrick Stewart!’ Star Trek’s Marina Sirtis on breaking in her beloved but very serious co-star",
-     "url": "https://www.theguardian.com/culture/2026/oct/31/patrick-stewart-star-trek-marina-sirtis-picard-shakespearean"
+     "nazwa": "The Guardian Film",
+     "tytuł": "Director Michael Mann accidentally shoots himself in the leg at gun range",
+     "url": "https://www.theguardian.com/film/2026/nov/01/michael-mann-accidentally-shoots-himself-leg"
     }
    ],
-   "liczba_źródeł": 5,
+   "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 11.335,
+    "wynik": 7.414,
     "składowe": {
-     "potwierdzenia": 7.6,
-     "ranga_źródła": 1.815,
-     "eksponowanie": 0.09,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.458,
+     "eksponowanie": 0.36,
      "słowa_kluczowe": 0.35,
-     "świeżość": 0.48,
+     "świeżość": 0.446,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -1850,108 +1457,103 @@
     "emoji": "🎬",
     "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
    },
-   "nagłówek": "- \"To mnie dobija!„ Zwycięzcy Celebrity Traitors uwolnili się od sekretu",
-   "lead": "Druga seria hitowego show dotarła do finału w piątek, przyciągając aż 11,2 miliona widzów na żywo.",
-   "język_źródła": "en",
-   "opublikowano": "2026-10-31T16:49:18+00:00",
+   "nagłówek": "Gwiazdy \"Avengers: Doomsday\" zamieniły się rolami. Pedro Pascal jako Doom, Robert Downey Jr jako Richards",
+   "lead": "A co, gdyby Pedro Pascal zagrał Doktora Dooma , a Robert Downey Jr – <a class='internal' href='/character/Mr+Fantastic-505'",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-01T08:24:00+00:00",
    "źródło": {
-    "nazwa": "BBC Kultura",
-    "url": "https://www.bbc.co.uk/news/articles/cm4g18l8l4wgo?at_medium=RSS&at_campaign=rss",
-    "domena": "bbc.co.uk"
+    "nazwa": "Filmweb",
+    "url": "https://www.filmweb.pl/news/Gwiazdy+%22Avengers%3ADoomsday%22+zamieni%C5%82y+si%C4%99+rolami.+Pedro+Pascal+jako+Doom%2C+Robert+Downey+Jr+jako+Richards-169436",
+    "domena": "filmweb.pl"
    },
-   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7499/live/ba968590-d4b2-11f1-88a4-835788f4f80e.jpg",
+   "obraz": "https://fwcdn.pl/nph/1985708/2026/78688_1.16.jpg",
    "sekcje": [
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Drugi cykl hitowego show osiągnął swój punkt kulminacyjny w piątek po przyciągnięciu 15 milionów widzów.",
-      "Końcowa rozgrywka nadeszła z idealnymi akcentami zamieszania, od chybotania w ostatniej chwili po jeszcze bardziej umyślną pomyłkę. Hej, zabraliśmy to prosto do drutu, ale w końcu dostaliśmy chwilę prawdziwej zdrady w tej serii Zdrajców Gwiazd, w której żaden z uczestników zdawał się nie rozumieć briefu.",
-      "Przy finałowym okrągłym stole król Kenny odwrócił się od królowej i zagłosował na Majkę – z jej kośćmi policzkowymi Cruella de Vil, ale bez dorównującego jej nikczemnego serca.",
-      "Jakby nie było to wystarczająco niespodziewane podniecenie pod koniec pięciotygodniowego, 10-cio pokazowego biegu, którego rekordowe postacie widzów nieco zaprzeczyły jego stosunkowo wyciszonej naturze, mieliśmy w ostatniej chwili zachwianie ze strony Romesha, które wprawiło grę końcową w zamęt.",
-      "Przyda ci się. Romesh uznał Jamesa Blunta za nietypowo lekceważącego to, co to może oznaczać, i – à la Nick Mohammed z Joe Marlerem w zeszłym roku – został nagle wstrząśnięty wątpliwościami i głosował za wygnaniem mężczyzny, który nie mógł być bardziej wierny niż gdyby był … cóż, Joe Marler.",
-      "Blunt, który przez cały serial pozostawał tak wytrawnie nietknięty zwątpieniem w siebie, mimo że 32 miliardy razy się mylił – „Boże, daj mi pewność siebie idealnie miłego białego człowieka” mogło stać się jego nowym herbem rodzinnym – został zdruzgotany przez volt-face.",
-      "Jeden południowy londyński bar zapewnił koktajle o tematyce Claudii Winkleman i własną ceremonię wygnania. W piątkowy wieczór krzyki, okrzyki i buczenie z pubów w całym kraju były mniej prawdopodobne, aby były powiązane z jakimkolwiek wydarzeniem sportowym niż spotkanie narodu z dramatycznym punktem kulminacyjnym The Celebrity Traitors BBC."
+      "Filmowi Doktor Doom i Reed Richards w noc duchów zamienili się rolami, dzięki czemu po raz pierwszy mogliśmy zobaczyć, jak Pascal prezentowałby się jako marvelowski złoczyńca i jak Robert Downey Jr. sprawdziłby się w roli Mistera Fantastica.",
+      "Halloween to niepowtarzalna okazja do najbardziej szalonych eksperymentów z kostiumami i wcielania się w role, o które nikt by nas wcześniej nie podejrzewał.",
+      "Podobne motto przyświecało zeszłej nocy gwiazdom nadchodzącego filmu \"Avengers: Doomsday\", które postanowiły... zamienić się rolami.",
+      "Tym sposobem powracający do superbohaterskiego uniwersum Robert Downey Jr. pokazał się fanom w kostiumie Reeda Richardsa z \"Fantastycznej Czwórki\".",
+      "Z kolei filmowy Mister Fantastic, czyli Pedro Pascal, zapozował w słynnej masce Doktora Dooma i jego charakterystycznej zielonej pelerynie."
      ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Avengers: Doomsday – produkowany amerykański film akcji sci-fi, na podstawie serii komiksów Marvela o tytułowych superbohaterach. Za reżyserię odpowiadają Anthony i Joe Russo, a za scenariusz Michael Waldron i Stephen McFeely. Wystąpią Chris Hemsworth, Vanessa Kirby, Anthony Mackie, Sebastian Stan, Letitia Wright, Paul Rudd, Wyatt Russell, Ténoch Huerta, Ebon Moss-Bachrach, Simu Liu, Florence Pugh, Kelsey Grammer, Lewis Pullman, Danny Ramirez, Joseph Quinn, David Harbour, Winston Duke, Hannah John-Kamen, Tom Hiddleston, Patrick Stewart, Ian McKellen, Alan Cumming, Rebecca Romijn, James Marsden, Channing Tatum, Pedro Pascal oraz Robert Downey Jr."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Avengers: Doomsday",
+     "url": "https://pl.wikipedia.org/wiki/Avengers%3A_Doomsday"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "11.2 million",
-    "15 million",
-    "10",
-    "32"
+    "505",
+    "18"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Film",
+     "ujęcie": "Robert Downey Jr. i Pedro Pascal tegoroczne Halloween obchodzili w dość osobliwy sposób.",
+     "url": "https://film.interia.pl/wiadomosci/news-tak-gwiazdy-avengers-swietowaly-halloween-zamiana-kostiumow,nId,23567043"
+    }
+   ],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Avengers: Doomsday",
+    "opis": "amerykański film superbohaterski z 2026 roku",
+    "tekst": "Avengers: Doomsday – produkowany amerykański film akcji sci-fi, na podstawie serii komiksów Marvela o tytułowych superbohaterach. Za reżyserię odpowiadają Anthony i Joe Russo, a za scenariusz Michael Waldron i Stephen McFeely. Wystąpią Chris Hemsworth, Vanessa Kirby, Anthony Mackie, Sebastian Stan, Letitia Wright, Paul Rudd, Wyatt Russell, Ténoch Huerta, Ebon Moss-Bachrach, Simu Liu, Florence Pugh, Kelsey Grammer, Lewis Pullman, Danny Ramirez, Joseph Quinn, David Harbour, Winston Duke, Hannah John-Kamen, Tom Hiddleston, Patrick Stewart, Ian McKellen, Alan Cumming, Rebecca Romijn, James Marsden, Channing Tatum, Pedro Pascal oraz Robert Downey Jr.",
+    "url": "https://pl.wikipedia.org/wiki/Avengers%3A_Doomsday",
+    "język": "pl"
+   },
    "tagi": [
-    "Celebrity Traitors",
-    "Friday"
+    "Doom Robert Downey Jr",
+    "Avengers Doomsday",
+    "Robert Downey Jr",
+    "Doktora Dooma"
    ],
    "emotki": [],
    "wszystkie_źródła": [
     {
-     "nazwa": "BBC Kultura",
-     "tytuł": "'It's been killing me!' Celebrity Traitors winners relieved the secret is out",
-     "url": "https://www.bbc.co.uk/news/articles/cm4g18l8l4wgo?at_medium=RSS&at_campaign=rss"
+     "nazwa": "Filmweb",
+     "tytuł": "Gwiazdy \"Avengers: Doomsday\" zamieniły się rolami. Pedro Pascal jako Doom, Robert Downey Jr jako Richards",
+     "url": "https://www.filmweb.pl/news/Gwiazdy+%22Avengers%3ADoomsday%22+zamieni%C5%82y+si%C4%99+rolami.+Pedro+Pascal+jako+Doom%2C+Robert+Downey+Jr+jako+Richards-169436"
     },
     {
-     "nazwa": "BBC Kultura",
-     "tytuł": "Who are the real winners of Celebrity Traitors?",
-     "url": "https://www.bbc.co.uk/news/articles/cmx2qg0nezrgo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC Kultura",
-     "tytuł": "Celebrity Traitors comes to a climax in nail-biting final",
-     "url": "https://www.bbc.co.uk/news/articles/cw4g17z11l45o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "The Guardian Culture",
-     "tytuł": "The Celebrity Traitors final review – more muted but still thrilling to the last",
-     "url": "https://www.theguardian.com/tv-and-radio/2026/oct/30/the-celebrity-traitors-final-review-more-muted-but-still-thrilling-to-the-last"
-    },
-    {
-     "nazwa": "The Guardian Culture",
-     "tytuł": "‘They cheer like it’s football’: Celebrity Traitors fans hit bars to watch climax",
-     "url": "https://www.theguardian.com/tv-and-radio/2026/oct/31/celebrity-traitors-watch-parties"
+     "nazwa": "Interia Film",
+     "tytuł": "Tak gwiazdy \"Avengers\" świętowały Halloween. \"Zamiana kostiumów!\"",
+     "url": "https://film.interia.pl/wiadomosci/news-tak-gwiazdy-avengers-swietowaly-halloween-zamiana-kostiumow,nId,23567043"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 7.854,
+    "wynik": 4.77,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.875,
-     "eksponowanie": 2.34,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.539,
-     "treściwość": 0.5,
-     "język_działu": 0.0
+     "ranga_źródła": 1.243,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.365,
+     "treściwość": 0.412,
+     "język_działu": 0.5
     }
-   },
-   "oryginalny_nagłówek": "'It's been killing me!' Celebrity Traitors winners relieved the secret is out",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
    },
    "miejsce": 2
   }
  ],
  "braki": [],
  "statystyki": {
-  "kanały_ok": 71,
-  "kanały_błędne": 1,
-  "znaki_tłumaczone": 19996,
-  "niedziałające_kanały": [
-   {
-    "url": "https://geoforum.pl/rss",
-    "powód": "HTTP 403"
-   }
-  ],
+  "kanały_ok": 72,
+  "kanały_błędne": 0,
+  "znaki_tłumaczone": 11280,
+  "niedziałające_kanały": [],
   "działy": 18,
-  "artykuły_w_oknie": 66
+  "artykuły_w_oknie": 33
  }
 }
