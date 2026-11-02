@@ -102,10 +102,10 @@ async function wejdzJakoProwadzacy() {
   await prowadzacyWczytany;
 }
 
-async function wejdzJakoGracz(kod = '', broker = null) {
+async function wejdzJakoGracz(kod = '', broker = null, odRazu = false) {
   graczWczytany ??= import('./gracz.js').then((m) => m.uruchom());
   const gracz = await graczWczytany;
-  gracz.pokazFormularz(kod, broker);
+  gracz.pokazFormularz(kod, broker, odRazu);
 }
 
 async function wejdzWyzwanie() {
@@ -126,6 +126,22 @@ $('#rola-turniej')?.addEventListener('click', () => { location.hash = '#/turniej
 // Powiadomienie push o cudzym ruchu czasem nie dochodzi (wyłączony telefon,
 // zablokowana zgoda, appka zamknięta), bez tego linku z powrotem ciężko
 // było w ogóle trafić na przerwany pojedynek.
+/* Powrót do przerwanej gry. Kod pokoju czyta się z pamięci przeglądarki, więc
+   nikt nie musi go zdobywać drugi raz od prowadzącego. Przycisk prowadzi pod
+   zwykły adres dołączania, tyle że z dopiskiem, żeby wejść od razu. */
+const przyciskWrocDoGry = $('#wroc-do-gry');
+if (przyciskWrocDoGry) {
+  import('./gracz.js').then(({ zapamietanaGra }) => {
+    const gra = zapamietanaGra();
+    if (!gra) return;
+    przyciskWrocDoGry.hidden = false;
+    $('#wroc-do-gry-opis').textContent = `pokój ${gra.kod}, wrócisz z punktami`;
+    przyciskWrocDoGry.addEventListener('click', () => {
+      location.hash = `#/wroc/${gra.kod}/${gra.broker ?? ''}`;
+    });
+  });
+}
+
 const przyciskWrocTurniej = $('#wroc-do-turnieju');
 const aktywnyPojedynek = localStorage.getItem('jtm:aktywnyPojedynek');
 if (przyciskWrocTurniej && aktywnyPojedynek) {
@@ -144,9 +160,13 @@ async function obsluzAdres() {
     await wejdzJakoProwadzacy();
     return;
   }
-  if (sciezka[0] === 'dolacz') {
-    const broker = sciezka[2] === undefined ? null : Number(sciezka[2]);
-    await wejdzJakoGracz((sciezka[1] || '').toUpperCase(), Number.isInteger(broker) ? broker : null);
+  if (sciezka[0] === 'dolacz' || sciezka[0] === 'wroc') {
+    const broker = sciezka[2] === undefined || sciezka[2] === '' ? null : Number(sciezka[2]);
+    await wejdzJakoGracz(
+      (sciezka[1] || '').toUpperCase(),
+      Number.isInteger(broker) ? broker : null,
+      sciezka[0] === 'wroc',
+    );
     return;
   }
   if (sciezka[0] === 'wyzwanie') {

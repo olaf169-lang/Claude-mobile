@@ -110,6 +110,25 @@ class Pokoj {
     this.klient?.rozlacz();
   }
 
+  /**
+   * Sprawdza, czy łącze naprawdę żyje, i w razie czego wznawia od razu.
+   *
+   * Wołane po powrocie aplikacji z tła i po odzyskaniu sieci, bo to wtedy
+   * telefon najczęściej zostaje z gniazdem, które wygląda na otwarte, a nic
+   * już nie przepuszcza. Czekanie na własny odstęp wznawiania trwałoby wtedy
+   * kilkanaście sekund, czyli połowę rundy, więc licznik prób zerujemy.
+   */
+  sprawdzLacze() {
+    if (this.zamkniety) return;
+    if (this.klient?.czyOdpowiada()) return;
+    this._probaNr = 0;
+    // Gniazdo, które udaje żywe, musi najpierw paść, bo dopiero jego
+    // zamknięcie uruchamia zwykłą ścieżkę wznawiania.
+    if (this.klient?.zywy) { this.klient.zerwij(); return; }
+    this.onStanLacza('zerwane');
+    this._wznow();
+  }
+
   _podepnij(klient) {
     this.klient = klient;
     klient.onWiadomosc = (_temat, tresc) => {

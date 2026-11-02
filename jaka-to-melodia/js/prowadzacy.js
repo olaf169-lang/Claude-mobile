@@ -1177,9 +1177,14 @@ export function uruchom() {
   // Ekran nie ma gasnąć w środku rundy; po powrocie z tła blokadę trzeba wziąć na nowo.
   document.addEventListener('visibilitychange', async () => {
     if (document.visibilityState === 'visible' && stan.faza !== 'ustawienia') {
+      // Telefon odłożony na chwilę zwykle wraca z gniazdem, które tylko wygląda
+      // na otwarte. U prowadzącego boli to podwójnie, bo to on nadaje stan gry.
+      pokoj.sprawdzLacze();
       stan.blokadaEkranu = await trzymajEkran();
     }
   });
+
+  window.addEventListener('online', () => pokoj.sprawdzLacze());
 
   window.addEventListener('beforeunload', () => { clearInterval(nadawanie); pokoj.zamknij(); });
 

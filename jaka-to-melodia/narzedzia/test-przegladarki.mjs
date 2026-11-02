@@ -260,6 +260,30 @@ try {
   assert.equal(await gracze[3].strona.getAttribute('#werdykt', 'data-jak'), 'brak');
   zapisz(`szybciej znaczy więcej: Zosia ${punkty.Zosia} pkt, Bartek ${punkty.Bartek} pkt`);
 
+  /* --- telefon, któremu urwało grę, wraca przyciskiem --- */
+
+  // To jest scenariusz z realnej imprezy: komuś zamyka się karta albo telefon
+  // wyrzuca stronę z pamięci. Automatyczne wznawianie nie ma wtedy czego
+  // wznawiać, bo nie ma już strony. Liczy się, czy gracz wróci bez proszenia
+  // prowadzącego o kod i czy odzyska punkty.
+  const wracajacy = gracze[0];                       // Zosia, ma już punkty
+  const punktyPrzed = punkty[wracajacy.ksywka];
+  await wracajacy.strona.goto(ADRES, { waitUntil: 'domcontentloaded' });
+  await wracajacy.strona.waitForSelector('#wroc-do-gry:not([hidden])', { timeout: 10_000 });
+  const opisPowrotu = await wracajacy.strona.textContent('#wroc-do-gry-opis');
+  assert.match(opisPowrotu, new RegExp(kod), `przycisk powrotu nie podaje kodu pokoju: ${opisPowrotu}`);
+
+  await wracajacy.strona.click('#wroc-do-gry');
+  await wracajacy.strona.waitForSelector(
+    '[data-ekran="poczekalnia"]:not([hidden]), [data-ekran="gracz-runda"]:not([hidden]), [data-ekran="gracz-odslona"]:not([hidden])',
+    { timeout: 15_000 },
+  );
+  assert.equal(await wracajacy.strona.textContent('#moja-ksywka'), wracajacy.ksywka);
+  const punktyPoPowrocie = await wracajacy.strona.$eval('#moje-punkty', (e) => Number(e.textContent.match(/\d+/)?.[0] ?? -1));
+  assert.equal(punktyPoPowrocie, punktyPrzed,
+    `po powrocie punkty się nie zgadzają: było ${punktyPrzed}, jest ${punktyPoPowrocie}`);
+  zapisz(`telefon po utracie strony wraca jednym kliknięciem i odzyskuje ${punktyPrzed} pkt`);
+
   /* --- telefon wchodzący w środku pytania 2 --- */
 
   const spozniony = await nowaKarta('Spóźnialski', 390, 844);
