@@ -90,6 +90,23 @@ await assert.rejects(
 );
 zapisz('martwy adres odrzuca obietnicę zamiast wisieć');
 
+/* Gniazdo, które tylko wygląda na otwarte. Tak właśnie wraca telefon
+   z uśpienia albo po przeskoku z wi-fi na LTE: onclose nie leci wcale, więc
+   bez pilnowania ciszy gracz siedziałby przed zamrożonym ekranem z napisem
+   „w sieci”. Udajemy ciszę, cofając czas ostatniego sygnału. */
+const zombi = new KlientMqtt({ adres, klientId: 'test-zombi', keepAlive: 2 });
+await zombi.polacz();
+assert.equal(zombi.czyOdpowiada(), true, 'świeże połączenie powinno odpowiadać');
+
+let zombiZerwany = false;
+zombi.onRozlaczenie = () => { zombiZerwany = true; };
+zombi.ostatniSygnal = Date.now() - 10_000;        // broker milczy od dziesięciu sekund
+assert.equal(zombi.czyOdpowiada(), false, 'cisza brokera powinna być widoczna');
+await czekaj(1300);                                // tyle, by ping zdążył zajrzeć
+assert.equal(zombiZerwany, true, 'martwe łącze nie zostało zerwane samo');
+assert.equal(zombi.zywy, false, 'po zerwaniu klient nie może udawać żywego');
+zapisz('gniazdo, które udaje żywe, zostaje zerwane i uruchamia wznawianie');
+
 prowadzacy.rozlacz();
 broker.close();
 gniazda.close();

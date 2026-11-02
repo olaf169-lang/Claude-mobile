@@ -23,6 +23,36 @@ import { swietuj, odblokujDzwiekSwieta } from './swietowanie.js';
 
 const KSZTALTY = ['▲', '◆', '●', '■'];
 const ODSTEP_PUKANIA_MS = 6000;
+
+/* Ostatni pokój, do którego ten telefon wszedł. Trzymamy go, bo gra potrafi
+   się urwać inaczej niż przez zerwane łącze: ktoś przypadkiem zamknie kartę,
+   przeglądarka wyrzuci stronę z pamięci przy przełączaniu aplikacji, telefon
+   się zrestartuje. Wtedy automatyczne wznawianie nie ma czego wznawiać, a bez
+   tego wpisu gracz musiałby jeszcze raz zdobyć kod pokoju od prowadzącego.
+   Identyfikator urządzenia i tak przeżywa odświeżenie, więc po powrocie
+   prowadzący odda punkty. */
+const KLUCZ_OSTATNIEJ_GRY = 'jtm:ostatniaGra';
+// Kod pokoju starszy niż kilka godzin to już nie ta impreza.
+const WAZNOSC_POWROTU_MS = 8 * 60 * 60 * 1000;
+
+export function zapamietanaGra() {
+  try {
+    const zapis = JSON.parse(localStorage.getItem(KLUCZ_OSTATNIEJ_GRY) || 'null');
+    if (!zapis?.kod) return null;
+    if (Date.now() - (zapis.kiedy || 0) > WAZNOSC_POWROTU_MS) return null;
+    return zapis;
+  } catch { return null; }
+}
+
+const zapamietajGre = (kod, broker) => {
+  try {
+    localStorage.setItem(KLUCZ_OSTATNIEJ_GRY, JSON.stringify({ kod, broker, kiedy: Date.now() }));
+  } catch { /* tryb prywatny, trudno */ }
+};
+
+const zapomnijGre = () => {
+  try { localStorage.removeItem(KLUCZ_OSTATNIEJ_GRY); } catch { /* jak wyżej */ }
+};
 // Musi się zgadzać z CZAS_WYBRZMIENIA_MS w prowadzacy.js, telefon gracza nie
 // dostaje tej wartości w wiadomości, więc obie strony trzymają tę samą liczbę.
 const CZAS_WYBRZMIENIA_MS = 4000;
@@ -59,11 +89,18 @@ export function uruchom() {
 
   /* ------------------------------------------------------------ dołączanie */
 
-  function pokazFormularz(kod = '', broker = null) {
+  function pokazFormularz(kod = '', broker = null, odRazu = false) {
     $('#pole-kodu').value = kod;
     $('#pole-ksywki').value = stan.ksywka;
     $('#formularz-dolaczenia').dataset.broker = broker === null ? '' : String(broker);
     pokazEkran('dolaczanie');
+    // Powrót do przerwanej gry: kod i ksywka są znane, więc nie każemy nikomu
+    // klikać drugi raz. Prowadzący rozpozna telefon po identyfikatorze
+    // urządzenia i odda dotychczasowe punkty.
+    if (odRazu && kod && stan.ksywka) {
+      $('#formularz-dolaczenia').requestSubmit();
+      return;
+    }
     // Kod z QR jest już wpisany, więc od razu kursor tam, gdzie trzeba coś zrobić.
     setTimeout(() => (kod ? $('#pole-ksywki') : $('#pole-kodu')).focus(), 120);
   }
@@ -100,6 +137,10 @@ export function uruchom() {
       stan.ksywka = powitanie.ksywka || ksywka;
       stan.punkty = powitanie.punkty || 0;
       localStorage.setItem('jtm:ksywka', stan.ksywka);
+      zapamietajGre(kod, pokoj.brokerNr);
+      // Wracający z przerwanej gry musi zobaczyć swoje punkty od razu. Bez tego
+      // licznik stoi na zerze do końca pytania i wygląda, jakby przepadły.
+      $('#moje-punkty').textContent = `${stan.punkty} pkt`;
       $('#moja-ksywka').textContent = stan.ksywka;
       $('#stan-dolaczania').textContent = '';
       stan.blokadaEkranu = await trzymajEkran();
@@ -507,6 +548,8 @@ export function uruchom() {
     clearInterval(tykanie);
     wygaszanieId += 1;
     odtwarzacz.uciszWszystko();
+    // Gra skończona, nie ma już do czego wracać.
+    zapomnijGre();
     const tabela = wiadomosc.ranking || [];
     const ja = tabela.find((g) => g.id === mojeId);
 
@@ -546,9 +589,16 @@ export function uruchom() {
 
   document.addEventListener('visibilitychange', async () => {
     if (document.visibilityState === 'visible' && stan.ksywka) {
+      // Najpierw łącze, potem pukanie. Samo pukanie w martwe gniazdo niczego
+      // nie załatwi, a to właśnie po powrocie z tła telefon najczęściej je ma.
+      pokoj.sprawdzLacze();
       stan.blokadaEkranu = await trzymajEkran();
       pokoj.nadaj({ t: 'puk', id: mojeId });
     }
+  });
+
+  window.addEventListener('online', () => {
+    if (stan.ksywka) pokoj.sprawdzLacze();
   });
 
   return { pokazFormularz, stan };

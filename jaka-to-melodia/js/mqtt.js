@@ -20,6 +20,12 @@ const PING = 0xc0;
 const ODPOWIEDZ_PING = 0xd0;
 const ROZLACZ = 0xe0;
 
+/* Ile okresów keepAlive ciszy od brokera uznajemy za zerwane łącze. Przy
+   domyślnych 45 sekundach daje to nieco ponad minutę: dość, żeby przeżyć
+   chwilowy przeskok sieci, i na tyle mało, żeby gracz nie siedział przed
+   zamrożonym ekranem przez całą rundę. */
+const CISZA_DO_ROZLACZENIA = 1.5;
+
 const koder = new TextEncoder();
 const dekoder = new TextDecoder();
 
@@ -79,6 +85,28 @@ export class KlientMqtt {
     this.onWiadomosc = () => {};
     this.onRozlaczenie = () => {};
     this._ping = null;
+    this.ostatniSygnal = 0;
+  }
+
+  /**
+   * Czy broker jeszcze się odzywa. Telefon potrafi zostawić gniazdo
+   * w `readyState === 1` długo po tym, jak łącze faktycznie padło: przy
+   * przejściu z wi-fi na LTE, po uśpieniu ekranu albo gdy operator zamknie
+   * sesję NAT. Wtedy `onclose` nie leci wcale, więc samo gniazdo nie powie
+   * nam prawdy. Mówi ją czas ostatniego pakietu od brokera.
+   */
+  czyOdpowiada(teraz = Date.now()) {
+    if (!this.zywy) return false;
+    return teraz - this.ostatniSygnal < this.keepAlive * 1000 * CISZA_DO_ROZLACZENIA;
+  }
+
+  /** Zrywa łącze tak, jakby zrobiła to sieć, czyli z wywołaniem onRozlaczenie. */
+  zerwij() {
+    clearInterval(this._ping);
+    if (!this.zywy) return;
+    this.zywy = false;
+    try { this.gniazdo?.close(); } catch { /* już zamknięte */ }
+    this.onRozlaczenie();
   }
 
   /** Łączy się i czeka na CONNACK. Odrzuca obietnicę po `limitMs`. */
@@ -117,6 +145,8 @@ export class KlientMqtt {
       };
 
       gniazdo.onmessage = (zdarzenie) => {
+        // Każdy pakiet od brokera, także odpowiedź na ping, jest dowodem życia.
+        this.ostatniSygnal = Date.now();
         this._dolozDoBufora(new Uint8Array(zdarzenie.data));
         this._przetworzBufor((typ, pakiet) => {
           if (typ === POTWIERDZENIE_POLACZENIA) {
@@ -126,7 +156,15 @@ export class KlientMqtt {
             if (zamkniete) return;
             zamkniete = true;
             this.zywy = true;
-            this._ping = setInterval(() => this._wyslij(zlozPakiet(PING, [])), this.keepAlive * 500);
+            this.ostatniSygnal = Date.now();
+            // Ping nie jest tu grzecznościowy: to on wymusza odpowiedź, po
+            // której poznajemy, że łącze jeszcze żyje. Gdy broker milczy zbyt
+            // długo, zrywamy sami, bo inaczej gracz patrzyłby na napis
+            // „w sieci” i zamrożony ekran do końca rundy.
+            this._ping = setInterval(() => {
+              if (!this.czyOdpowiada()) { this.zerwij(); return; }
+              this._wyslij(zlozPakiet(PING, []));
+            }, this.keepAlive * 500);
             spelnij(this);
           } else if (typ === PUBLIKUJ) {
             this._odbierzPublikacje(pakiet);
