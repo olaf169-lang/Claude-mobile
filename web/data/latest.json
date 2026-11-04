@@ -1,8 +1,8 @@
 {
  "wersja": "1.0.0",
- "wydanie": "2026-11-03",
- "dotyczy_dnia": "2026-11-02",
- "wygenerowano": "2026-11-03T13:30:58+00:00",
+ "wydanie": "2026-11-04",
+ "dotyczy_dnia": "2026-11-03",
+ "wygenerowano": "2026-11-04T13:41:35+00:00",
  "strefa": "Europe/Warsaw",
  "tryb": "ekstrakcyjny",
  "demo": false,
@@ -14,106 +14,119 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "1171 – tyle spraw zalega w Trybunale Konstytucyjnym. Na stronie TK pojawiło się nagranie",
-   "lead": "W piątek wieczorem przedstawiciele grupy wybranej w tej kadencji Sejmu na sędziów Trybunału Konstytucyjnego przekazali informację, że Anna Korwin-Piotrowska - jako najstarszy stażem sędzia - została kierującą TK i wydała zarządzenie o przerwie w czynnościach prezesa TK Bogdana Święczkowskiego i wiceprezesa Bartłomieja…",
+   "nagłówek": "Tusk: Jestem gotów na spotkanie z Nawrockim „w cztery oczy”",
+   "lead": "Nie dowiecie się, gdzie i kiedy, bo chcemy rozmawiać z prezydentem „w cztery oczy” - zwrócił się do dziennikarzy Donald Tusk, dodając, że taka formuła spotkania umożliwi być może osiągnięcie porozumienia w sprawie Trybunału Konstytucyjnego. Powinniśmy razem z prezydentem pracować na rzecz bezpieczeństwa kraju - mówił…",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-02T20:32:00+00:00",
+   "opublikowano": "2026-11-03T19:35:00+00:00",
    "źródło": {
     "nazwa": "RMF24",
-    "url": "https://www.rmf24.pl/fakty/polityka/news-1171-tyle-spraw-zalega-w-trybunale-konstytucyjnym-na-stronie,nIdn,1024481",
+    "url": "https://www.rmf24.pl/fakty/polityka/news-tusk-jestem-gotow-na-spotkanie-z-nawrockim-w-cztery-oczy,nIdn,1024656",
     "domena": "rmf24.pl"
    },
-   "obraz": "https://rmf.rmffm.pl/news/attachments/e2/91/sedzia-anna-korwin-piotroska-636x421-e291f2d0.jpg",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/b7/51/donald-tusk-na-konferencji-prasowej-636x421-b7518c9f.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "W poniedziałek wieczorem nagranie z jej wystąpieniem opublikowano na stronie Trybunału Konstytucyjnego.",
-      "Jest 2 listopada, Trybunał Konstytucyjny działa.",
-      "Dodała, że wstępnego audytu wynika, iż w TK „zalega aż 1 tys.",
-      "171 spraw, z czego ponad 700 nie nadano żadnego biegu”.",
-      "Skarg konstytucyjnych, a więc tych wnoszonych przez obywateli, zalega niemal 350 - powiedziała.",
-      "Mogę już teraz zapewnić, że sprawy według jasnych i przejrzystych kryteriów będą wyznaczane i sprawnie rozpoznawane - zaznaczyła Korwin-Piotrowska.",
-      "Według zamieszczonych w poniedziałek wieczorem na stronie TK statystyk wynika, że z 1171 spraw oczekujących na rozpoznanie, na etapie kontroli wstępnej pozostaje 706 - z czego skarg konstytucyjnych 682, a ponadto dziewięć wniosków o kontrolę konstytucyjności ustaw i 15 wniosków o kontrolę konstytucyjności aktów rangi podustawowej.",
-      "Natomiast wśród pozostałych oczekujących spraw bieg nadano: 349 skargom konstytucyjnym, 70 wnioskom skierowanym w trybie kontroli abstrakcyjnej, sześciu wnioskom Prezydenta RP skierowanym w trybie kontroli prewencyjnej, trzem sporom kompetencyjnym pomiędzy centralnymi, konstytucyjnymi organami państwa oraz 37 pytaniom prawnym, sformułowanym przez sądy.",
-      "Wśród nierozpoznanych skarg konstytucyjnych oraz pytań prawnych ponad pięć lat badanych jest odpowiednio 55 skarg i osiem pytań prawnych."
+      "Jego zdaniem prezydent Karol Nawrocki „powinien skorzystać z tej oferty”.",
+      "Odczuwamy obaj taką wspólną odpowiedzialność, prezydent i ja, żeby w sytuacji tego narastającego zagrożenia ze Wschodu, żeby w sprawach bezpieczeństwa i ładu wewnętrznego starać się szukać, tam, gdzie to jest tylko możliwe, porozumienia i żeby łagodzić te emocje - powiedział szef rządu.",
+      "Tusk poinformował także, że otrzymał podpisane dokumenty ws. nominacji na wicepremiera dla Andrzeja Domańskiego.",
+      "W trakcie pierwszej części briefingu prasowego, szef polskiego rządu podkreślił, że wśród sił politycznych w kraju panuje pełen konsensus, dotyczący bezpieczeństwa zewnętrznego Polski i ewentualnego zagrożenia ze wschodu.",
+      "Premier Tusk wspomniał o informacjach podanych w trakcie RBN przez generała Wiesława Kukułę, który przekazał kolejne doniesienia na temat sytuacji bezpieczeństwa kraju.",
+      "Te informacje każą nam przygotować się do tej jesieni i zimy w sposób szczególny - przekazał premier.",
+      "Szef rządu powiedział też, że konkluzje z posiedzenia RBN są „dość obiecujące”.",
+      "Jednym z głównych tematów rozmów miała być kwestia utworzenia amerykańskiej bazy w Polsce oraz dalszego wzmacniania obecności wojsk USA.",
+      "Donald Tusk zaznaczył, że po długiej dyskusji uczestnicy posiedzenia uznali, iż główne ośrodki władzy współpracują w tej sprawie."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Hanna Machińska poinformowała, że Rada Helsińskiej Fundacji Praw Człowieka nie zgadza się z sobotnim stanowiskiem Zarządu HFPC ws.",
-      "Uważamy, że podstawa prawna do m.in. odsunięcia Bogdana Święczkowskiego była jasno określona; postanowiliśmy ustąpić z Rady - przekazała.",
-      "W sobotnim oświadczeniu Zarząd Helsińskiej Fundacji Praw Człowieka ocenił, że podstawy prawne odsunięcia prezesa Trybunału Konstytucyjnego Bogdana Święczkowskiego i wiceprezesa Bartłomieja Sochańskiego od czynności są wątpliwe, a ostatnie wydarzenia pogłębiają kryzys.",
-      "Zaznaczyła, że w większości Rada nie zgadza się co do „wątpliwości dotyczących podstaw prawnych”, na których opierały się działania kierującej TK Anny Korwin-Piotrowskiej. - My uważamy, że podstawa prawna była jasno określona. (...) Przede wszystkim nie pogłębiono pewnej analizy i konkretnych przyczyn tego dramatycznego kryzysu Trybunału - oceniła.",
-      "Machińska odniosła się także do fragmentu oświadczenia Zarządu HFPC, w którym podkreślono, że „przepychanki między sędziami a Prezydentem RP przed wejściem do budynku Trybunału godzą w powagę instytucji państwa i są wymownym symbolem kryzysu państwa”. - Co to w ogóle jest?"
+      "- Jestem gotów na spotkanie w cztery oczy - powiedział Donald Tusk podczas wieczornej konferencji prasowej po zakończeniu posiedzenia Rady Bezpieczeństwa Narodowego.",
+      "Premier ogłosił, że zaproponował Karolowi Nawrockiemu rozmowę w sprawie sporu toczącego się wokół Trybunału Konstytucyjnego.",
+      "Wcześniej, przed rozpoczęciem posiedzenia, prezydent nie szczędził szefowi rządu gorzkich słów. - Włożyliśmy wszyscy dużo wysiłku, żeby posiedzenie Rady Bezpieczeństwa Narodowego pomogło rozładować pewne nieporozumienia, czy emocje - powiedział Donald Tusk .",
+      "15 i trwało niemal cztery godziny , a jednym z poruszonych podczas niego wątków była sytuacja wokół Trybunału Konstytucyjnego .",
+      "Jak podkreślił szef rządu, \"tu nie chodzi o to, żeby ktoś zatriumfował, ktoś kogoś upokarzał\". - Zaoferowałem także panu prezydentowi, że jestem gotów w tym tygodniu na spotkanie w cztery oczy, żebyśmy zastanowili się, jak na trwałe obniżyć to napięcie - zadeklarował premier. - Pewnie zostaniemy przy swoich opiniach, przy swoich zdaniach w wielu sprawach, ale odczuwamy obaj taką wspólną odpowiedzialność (...) żeby w sytuacji narastającego zagrożenia ze wschodu, żeby w sprawach bezpieczeństwa i ładu wewnętrznego starać się szukać tam, gdzie to jest tylko możliwe, porozumienia, i żeby łagodzić te emocje - mówił Tusk.",
+      "Wtorek (3 listopada) to pokłosie wydarzeń, które rozegrały się w piątek (30 października) w Trybunale Konstytucyjnym.",
+      "Służby podjęły działania w odpowiedzi na pismo sędzi Anny Korwin-Piotrowskiej, która zgłosiła potencjalne zagrożenie dla zdrowia i życia sędziów oraz pracowników instytucji, a także ryzyko zakłócenia porządku publicznego."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Kryzys wokół Trybunału Konstytucyjnego w Polsce – kryzys ustrojowy rozpoczęty w 2015 roku sporem o wybór i zaprzysiężenie sędziów Trybunału Konstytucyjnego (TK). Jego bezpośrednią przyczyną był wybór pięciu sędziów przez Sejm VII kadencji w październiku 2015 roku, a następnie ponowny wybór pięciu osób przez Sejm VIII kadencji. W wyroku z 3 grudnia 2015 roku TK uznał, że wybór trzech sędziów przez Sejm VII kadencji był zgodny z Konstytucją, natomiast wybór dwóch pozostałych – niedopuszczalny."
+      "Karol Tadeusz Nawrocki – polski historyk, polityk, działacz społeczny i samorządowy, doktor nauk humanistycznych. Prezydent Rzeczypospolitej Polskiej od 6 sierpnia 2025."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Kryzys wokół Trybunału Konstytucyjnego w Polsce",
-     "url": "https://pl.wikipedia.org/wiki/Kryzys_wok%C3%B3%C5%82_Trybuna%C5%82u_Konstytucyjnego_w_Polsce"
+     "przypis": "Wikipedia: Karol Nawrocki",
+     "url": "https://pl.wikipedia.org/wiki/Karol_Nawrocki"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "1 tys.",
-    "171",
-    "700",
-    "350",
-    "1171",
-    "706"
+    "15",
+    "30",
+    "130",
+    "14",
+    "28",
+    "18"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Gazeta.pl",
+     "ujęcie": "Trybunał Konstytucyjny poinformował na swojej stronie o zarządzeniu przerwy w czynnościach służbowych prezesa Bogdana Święczkowskiego i wiceprezesa Bartłomieja Sochańskiego.",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198072,33114749,spor-wokol-tk-nawrocki-obarczyl-wina-tuska-co-wiemy.html"
+    }
+   ],
    "pojęcia": [],
    "tło": {
-    "hasło": "Kryzys wokół Trybunału Konstytucyjnego w Polsce",
-    "opis": "kryzys ustrojowy w Polsce",
-    "tekst": "Kryzys wokół Trybunału Konstytucyjnego w Polsce – kryzys ustrojowy rozpoczęty w 2015 roku sporem o wybór i zaprzysiężenie sędziów Trybunału Konstytucyjnego (TK). Jego bezpośrednią przyczyną był wybór pięciu sędziów przez Sejm VII kadencji w październiku 2015 roku, a następnie ponowny wybór pięciu osób przez Sejm VIII kadencji. W wyroku z 3 grudnia 2015 roku TK uznał, że wybór trzech sędziów przez Sejm VII kadencji był zgodny z Konstytucją, natomiast wybór dwóch pozostałych – niedopuszczalny.",
-    "url": "https://pl.wikipedia.org/wiki/Kryzys_wok%C3%B3%C5%82_Trybuna%C5%82u_Konstytucyjnego_w_Polsce",
+    "hasło": "Karol Nawrocki",
+    "opis": "polski historyk i polityk, 7. prezydent III RP (od 2025)",
+    "tekst": "Karol Tadeusz Nawrocki – polski historyk, polityk, działacz społeczny i samorządowy, doktor nauk humanistycznych. Prezydent Rzeczypospolitej Polskiej od 6 sierpnia 2025.",
+    "url": "https://pl.wikipedia.org/wiki/Karol_Nawrocki",
     "język": "pl"
    },
    "tagi": [
-    "Korwin-Piotrowska",
+    "Tusk",
+    "Polsce",
     "Trybunału Konstytucyjnego",
-    "Święczkowski",
-    "Anna Korwin-Piotrowska"
+    "Andrzeja Domańskiego"
    ],
    "emotki": [
     "🏛️",
-    "⚖️"
+    "🤝"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "RMF24",
-     "tytuł": "1171 – tyle spraw zalega w Trybunale Konstytucyjnym. Na stronie TK pojawiło się nagranie",
-     "url": "https://www.rmf24.pl/fakty/polityka/news-1171-tyle-spraw-zalega-w-trybunale-konstytucyjnym-na-stronie,nIdn,1024481"
+     "tytuł": "Tusk: Jestem gotów na spotkanie z Nawrockim „w cztery oczy”",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-tusk-jestem-gotow-na-spotkanie-z-nawrockim-w-cztery-oczy,nIdn,1024656"
     },
     {
-     "nazwa": "Bankier.pl",
-     "tytuł": "Burza wokół Trybunału Konstytucyjnego. Członkowie Rady HFPC rezygnują",
-     "url": "https://www.bankier.pl/wiadomosc/Burza-wokol-Trybunalu-Konstytucyjnego-Czlonkowie-Rady-HFPC-rezygnuja-9222471.html"
+     "nazwa": "Interia Fakty",
+     "tytuł": "Tusk zabrał głos po RBN. \"Jestem gotów na spotkanie w cztery oczy\"",
+     "url": "https://wydarzenia.interia.pl/kraj/news-tusk-zabral-glos-po-rbn-jestem-gotow-na-spotkanie-w-cztery-o,nId,23568473"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Spór wokół TK. Nawrocki obarczył winą Tuska. Premier chce spotkania w cztery oczy [CO WIEMY]",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198072,33114749,spor-wokol-tk-nawrocki-obarczyl-wina-tuska-co-wiemy.html"
     }
    ],
-   "liczba_źródeł": 2,
+   "liczba_źródeł": 3,
    "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.278,
+    "wynik": 8.226,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.315,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.45,
      "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.494,
-     "treściwość": 0.369,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.594,
+     "treściwość": 0.482,
      "język_działu": 0.5
     }
    },
@@ -126,185 +139,220 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "Starcie byłych premierów wokół TK. \"To nie jest zamach stanu\"",
-   "lead": "- Według mnie to nie jest zamach stanu - ocenił Leszek Miller w programie \"Wieczór Rymanowskiego\" na antenie Polsat News. Były lider SLD zabrał głos ws. kryzysu wokół Trybunału Konstytucyjnego.",
+   "nagłówek": "Klęska republikanów w wyborach połówkowych. Demokraci tryumfują",
+   "lead": "Partia Demokratyczna w wyborach połówkowych do Kongresu zapewniła sobie wyraźną większość w Izbie Reprezentantów i Senacie, przejmując do Partii Republikańskiej kontrolę nad Kongresem. Republikanie przegrywali nawet w swoich bastionach.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-02T18:58:37+00:00",
+   "opublikowano": "2026-11-03T16:42:00+00:00",
    "źródło": {
-    "nazwa": "Interia Fakty",
-    "url": "https://wydarzenia.interia.pl/kraj/news-starcie-bylych-premierow-wokol-tk-to-nie-jest-zamach-stanu,nId,23567889",
-    "domena": "wydarzenia.interia.pl"
+    "nazwa": "Rzeczpospolita",
+    "url": "https://www.rp.pl/polityka/art45439971-kleska-republikanow-w-wyborach-polowkowych-demokraci-tryumfuja",
+    "domena": "rp.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000NHM35OT57MJVR-C321.webp",
+   "obraz": "https://i.gremicdn.pl/image/free/304d074cc237bdcbe0dc321aa39d298e/partia-demokratyczna-zdobyla-kontrole-nad-kongresem-w-wyborach-polowkowych?t=crop:3840:1679:nowe:0:441,resize:fill:600:300,enlarge:1",
    "sekcje": [
     {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
      "treść": [
-      "Zdaniem Mateusza Morawieckiego obecna sytuacja stanowi \"jak najbardziej naruszenie porządku konstytucyjnego\".",
-      "Miller zauważył, że scenariusz resetu TK jest mało prawdopodobny, ponieważ w Sejmie brakuje większości do nowelizacji Konstytucji.",
-      "Zdaniem Leszka Millera w kontekście ostatnich wydarzeń dotyczących TK mówimy o \"próbie siłowego wprowadzenia jakiegoś ładu do funkcjonowania Trybunału Konstytucyjnego \" .",
-      "Jak zaznaczył, \"musimy sobie zadać pytanie, czy siłą można czynić praworządność\".",
-      "Wcześniej prowadzący Bogdan Romanowski zastanawiał się, \"czy działania pani sędzi Anny Korwin-Piotrowskiej , rządu i policji wyczerpują znamiona zamachu na organ konstytucyjny państwa z art.",
-      "Jak zaznaczył, swoje stanowisko opiera \"na pewnej woli, którą widzi dość powszechnie w narodzie, aby skończyć z tym diabelskim kontredansem wokół Trybunału \".",
-      "Leszek Miller, zabierając głos w sprawie \"resetu TK\", zwrócił uwagę, że w Sejmie nie ma większości do przyjęcia takiego rozwiązania. - To potrzeba, zdaje się, 307 głosów, żeby dokonać nowelizacji Konstytucji, bo bez tego nie będzie żadnego resetu.",
-      "Więc ci, którzy mówią głośno dzisiaj o tym, że to jest potrzebne i niezbędne, powinni najpierw się zorientować, czy jak już uruchomią procedurę, czy ona się skończy sukcesem.",
-      "Ja mam bardzo poważne wątpliwości - ocenił gość Rymanowskiego."
+      "Czy \"niebieska fala\" Demokratów zatopi Republikanów w Kongresie USA? - śledź relację na żywo na Wyborcza.pl W Stanach Zjednoczonych trwa liczenie głosów po wtorkowych wyborach połówkowych (ang. midterms).",
+      "Amerykanie wybierali wszystkich 435 członków Izby Reprezentantów oraz 35 ze 100 senatorów.",
+      "O tym, kto będzie sprawował kontrolę nad Izbą Reprezentantów i Senatem, zdecydują wyniki w kluczowych wyścigach wyborczych.",
+      "Największe zainteresowanie budzą wyścigi o mandaty senatorskie w Teksasie, Michigan, na Alasce, w Ohio, Kansas, Maine i Iowa.",
+      "NBC przewiduje, że ostateczny układ sił będzie wynosił 244-191, co oznaczałoby zdobycie przez Demokratów dodatkowych 30 mandatów. - Jeśli Demokraci odniosą dziś sukces - a wszystko wskazuje na to, że tak właśnie może się stać - będzie to przede wszystkim wyraz odrzucenia prezydenta.",
+      "W wyścigu o mandat do Senatu w Karolinie Południowej wygra demokratka Annie Andrews - prognozują telewizje CNN i NBC News.",
+      "Kandydaci Demokratów do Senatu USA wygrali w Teksasie, Iowa, Kansas i Ohio - ogłosiły telewizje NBC i CNN na podstawie nieoficjalnych wyników."
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Kryzys wokół Trybunału Konstytucyjnego w Polsce – kryzys ustrojowy rozpoczęty w 2015 roku sporem o wybór i zaprzysiężenie sędziów Trybunału Konstytucyjnego (TK). Jego bezpośrednią przyczyną był wybór pięciu sędziów przez Sejm VII kadencji w październiku 2015 roku, a następnie ponowny wybór pięciu osób przez Sejm VIII kadencji. W wyroku z 3 grudnia 2015 roku TK uznał, że wybór trzech sędziów przez Sejm VII kadencji był zgodny z Konstytucją, natomiast wybór dwóch pozostałych – niedopuszczalny."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Kryzys wokół Trybunału Konstytucyjnego w Polsce",
-     "url": "https://pl.wikipedia.org/wiki/Kryzys_wok%C3%B3%C5%82_Trybuna%C5%82u_Konstytucyjnego_w_Polsce"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "128",
-    "307"
+    "435",
+    "35",
+    "100",
+    "36",
+    "244",
+    "191"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Gazeta.pl",
+     "ujęcie": "Oznacza to, że Demokraci zapewnili sobie większość w obu izbach Kongresu.",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198013,33115131,wybory-polowkowe-w-usa-cnn-pelna-kontrola-demokratow-nad-kongresem.html"
+    }
+   ],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Kryzys wokół Trybunału Konstytucyjnego w Polsce",
-    "opis": "kryzys ustrojowy w Polsce",
-    "tekst": "Kryzys wokół Trybunału Konstytucyjnego w Polsce – kryzys ustrojowy rozpoczęty w 2015 roku sporem o wybór i zaprzysiężenie sędziów Trybunału Konstytucyjnego (TK). Jego bezpośrednią przyczyną był wybór pięciu sędziów przez Sejm VII kadencji w październiku 2015 roku, a następnie ponowny wybór pięciu osób przez Sejm VIII kadencji. W wyroku z 3 grudnia 2015 roku TK uznał, że wybór trzech sędziów przez Sejm VII kadencji był zgodny z Konstytucją, natomiast wybór dwóch pozostałych – niedopuszczalny.",
-    "url": "https://pl.wikipedia.org/wiki/Kryzys_wok%C3%B3%C5%82_Trybuna%C5%82u_Konstytucyjnego_w_Polsce",
-    "język": "pl"
-   },
+   "tło": null,
    "tagi": [
-    "Trybunału Konstytucyjnego",
-    "Rozwoju Plus",
-    "Morawiecki",
-    "Mateusza Morawieckiego"
+    "Partii Republikańskiej",
+    "Partia Demokratyczna",
+    "Izbie Reprezentantów",
+    "Kongresem"
    ],
    "emotki": [
-    "🏛️",
-    "📺",
-    "📉"
+    "🗳️"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Interia Fakty",
-     "tytuł": "Starcie byłych premierów wokół TK. \"To nie jest zamach stanu\"",
-     "url": "https://wydarzenia.interia.pl/kraj/news-starcie-bylych-premierow-wokol-tk-to-nie-jest-zamach-stanu,nId,23567889"
-    }
-   ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 3.875,
-    "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.0,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 1.4,
-     "świeżość": 0.475,
-     "treściwość": 0.5,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 2
-  },
-  {
-   "dział": {
-    "id": "swiat",
-    "nazwa": "Świat",
-    "emoji": "🌍",
-    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
-   },
-   "nagłówek": "Wieczorny lot do Teheranu. Trump: Iran chce zawrzeć porozumienie",
-   "lead": "Reuters podał, powołując się na urzędnika zaznajomionego z przebiegiem negocjacji, że Katarczycy polecieli w poniedziałek wieczorem do stolicy Iranu, by rozmawiać z szefem dyplomacji Abbasem Aragczim. Przedmiotem dyskusji jest wersja projektu porozumienia między USA a Iranem, nad którą trwają negocjacje od ośmiu dni -…",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-02T19:59:00+00:00",
-   "źródło": {
-    "nazwa": "RMF24 Świat",
-    "url": "https://www.rmf24.pl/fakty/swiat/news-wieczorny-lot-do-teheranu-trump-iran-chce-zawrzec-porozumien,nIdn,1024477",
-    "domena": "rmf24.pl"
-   },
-   "obraz": "https://rmf.rmffm.pl/news/attachments/be/c9/donald-trump-w-waszyngtonie-636x421-bec9f0d9.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Tuż przed wyborami połówkowymi Donald Trump w Waszyngtonie próbował przekonać Amerykanów i cały świat, że możliwe jest zawarcie porozumienia z Iranem.",
-      "O negocjacjach mówił też wiceprezydent USA.",
-      "Osiągnęliśmy pewny postęp, zobaczymy, czy uda nam się osiągnąć jeszcze więcej.",
-      "Nie ustaliliśmy terminów wznowienia uderzeń (na Iran – przyp.",
-      "RMF FM) - stwierdził J.D.",
-      "Teheran przekazał z kolei, że rozmowy w sprawie zakończenia konfliktu trwają.",
-      "Konsultacje za pośrednictwem mediatorów są bardzo intensywne.",
-      "Przedstawiliśmy nasze warunki i propozycje, a wszystko zależy od politycznej racjonalności Waszyngtonu – powiedział irański minister spraw zagranicznych Abbas Aragczi.",
-      "Jego wypowiedź cytuje Reuters, powołując się na irańską agencję informacyjną IRNA."
-     ]
+     "nazwa": "Rzeczpospolita",
+     "tytuł": "Klęska republikanów w wyborach połówkowych. Demokraci tryumfują",
+     "url": "https://www.rp.pl/polityka/art45439971-kleska-republikanow-w-wyborach-polowkowych-demokraci-tryumfuja"
     },
     {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Donald John Trump – amerykański polityk, przedsiębiorca i osobowość telewizyjna, 45. prezydent Stanów Zjednoczonych w latach 2017–2021 oraz 47. prezydent Stanów Zjednoczonych od 2025. Człowiek Roku tygodnika „Time” w 2016 i 2024."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Donald Trump",
-     "url": "https://pl.wikipedia.org/wiki/Donald_Trump"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "27",
-    "20%"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Donald Trump",
-    "opis": "amerykański polityk, 47. prezydent USA (od 2025) oraz 45. prezydent USA w latach 2017–2021",
-    "tekst": "Donald John Trump – amerykański polityk, przedsiębiorca i osobowość telewizyjna, 45. prezydent Stanów Zjednoczonych w latach 2017–2021 oraz 47. prezydent Stanów Zjednoczonych od 2025. Człowiek Roku tygodnika „Time” w 2016 i 2024.",
-    "url": "https://pl.wikipedia.org/wiki/Donald_Trump",
-    "język": "pl"
-   },
-   "tagi": [
-    "Iran",
-    "Donald Trump",
-    "Teheranu",
-    "Reuters"
-   ],
-   "emotki": [
-    "🤝"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "RMF24 Świat",
-     "tytuł": "Wieczorny lot do Teheranu. Trump: Iran chce zawrzeć porozumienie",
-     "url": "https://www.rmf24.pl/fakty/swiat/news-wieczorny-lot-do-teheranu-trump-iran-chce-zawrzec-porozumien,nIdn,1024477"
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Wybory połówkowe w USA. CNN: Demokraci wygrywają Izbę Reprezentantów i Senat",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198013,33115099,wybory-polowkowe-w-usa-cnn-demokraci-przejma-kontrole-nad.html"
     },
     {
-     "nazwa": "Deutsche Welle",
-     "tytuł": "What might Trump have planned for Iran following the midterm election?",
-     "url": "https://www.dw.com/en/what-might-trump-have-planned-for-iran-following-the-midterm-election/a-79831816?maca=en-rss-en-world-4025-rdf"
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Wybory połówkowe w USA. \"Ameryka powróciła\". CNN: Pełna kontrola Demokratów nad Kongresem",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198013,33115131,wybory-polowkowe-w-usa-cnn-pelna-kontrola-demokratow-nad-kongresem.html"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Wybory połówkowe w USA. Demokraci nokautują Republikanów w Teksasie",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198013,33115119,demokraci-nokautuja-republikanow-w-teksasie.html"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.513,
+    "wynik": 6.487,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.208,
-     "eksponowanie": 0.45,
+     "ranga_źródła": 1.55,
+     "eksponowanie": 0.9,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.487,
-     "treściwość": 0.268,
+     "świeżość": 0.597,
+     "treściwość": 0.34,
      "język_działu": 0.5
     }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "ANC spotyka się z gniewem z powodu słabych usług, ponieważ mieszkańcy RPA głosują w wyborach lokalnych",
+   "lead": "Partia spodziewa się uzyskać mniej niż jedną trzecią głosów wśród frustracji z powodu przerw w dostawie wody i przerw w dostawie prądu Afrykański Kongres Narodowy jest na dobrej drodze do uzyskania zasinienia w wyborach lokalnych w Republice Południowej Afryki w środę, gdy wyborcy idą do urn wśród głębokiego niezadowolenia z przerw w dostawie wody, przerw w dostawie prądu i rozpadu…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-04T04:00:23+00:00",
+   "źródło": {
+    "nazwa": "The Guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts",
+    "domena": "theguardian.com"
+   },
+   "obraz": "https://i.guim.co.uk/img/media/ab849d0dfce7fca0440c040983efe4e27460cf1e/1440_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=d1afb9ab291e0f9db2fa068014f10740",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jednak sondaże pokazują, że uzyskał mniej niż jedną trzecią głosów, co oznacza spadek z 45,6% w ostatnich wyborach lokalnych w 2021 roku i 40,2% w wyborach krajowych w 2024 roku.",
+      "Niestabilne koalicje są już cechą wielu z 257 południowoafrykańskich gmin, a analitycy wskazują na ich wysokie obroty jako główny powód słabego świadczenia usług.",
+      "Johannesburg, miasto liczące 4,8 miliona mieszkańców, które od ponad tygodnia boryka się z niedoborami wody, ma 10 burmistrzów w ciągu tylu lat.",
+      "Sąsiednia gmina Ekurhuleni ma od 2021 roku trzech burmistrzów.",
+      "Na północy, w Tshwane, w której znajduje się stolica Pretoria, burmistrzowie od 2020 roku czterokrotnie rotowali między partiami.",
+      "W październiku ponad 800 osób zachorowało na chorobę żołądkowo-jelitową spowodowaną zanieczyszczoną wodą w Bronkhorstspruit we wschodnim Tshwane.",
+      "Johannesburg, Ekurhuleni i Tshwane znajdują się w Gauteng, najbardziej zaludnionej i gęsto zaludnionej prowincji RPA i jej motorze gospodarczym.",
+      "Centroprawicowy, biały Sojusz Demokratyczny prowadzi w sondażach we wszystkich trzech metrach, ale nie przekracza 40%.",
+      "Narodowe przywództwo ANC jest otwarte na współpracę z DA w Gauteng, według południowoafrykańskich mediów , odzwierciedlając rząd jedności narodowej, gdzie obie partie są największe w koalicji narodowej."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "RPA i Rwanda mają zostać usunięte z amerykańskiej inicjatywy handlowej, która od 26 lat zapewnia bezcłowy dostęp do rynku USA dla tysięcy produktów z krajów Afryki Subsaharyjskiej.",
+      "W poniedziałek amerykański przedstawiciel ds. handlu Jamieson Greer powiedział, że prezydent Donald Trump zamierza „wypowiedzieć” obu krajom program preferencji handlowych African Growth and Opportunity Act (AGOA) od stycznia 2027 roku.",
+      "W oświadczeniu Greer powiedział, że „rządy Rwandy i Republiki Południowej Afryki angażują się w praktyki niezgodne z kryteriami kwalifikowalności AGOA.„ Greer powiedziała, że praktyki te obejmują ”bariery, które podważają amerykański handel i inwestycje oraz praktyki, które stanowią zagrożenie dla bezpieczeństwa narodowego USA i interesów polityki zagranicznej w regionie.„ W oświadczeniu nie podano konkretnych przykładów omawianych barier handlowych czy kwestii bezpieczeństwa i polityki zagranicznej.",
+      "AGOA został wprowadzony w 2000 roku przez byłego prezydenta USA Billa Clintona i stał się centralnym elementem amerykańskiego zaangażowania gospodarczego w Afryce Subsaharyjskiej.",
+      "Bezcłowy dostęp do rynku amerykańskiego jest postrzegany jako krytyczny impuls gospodarczy dla ponad 30 krajów AGOA.",
+      "Mieszkańcy RPA udają się w środę do urn w związku z niedoborami wody, frustracją lokalnymi służbami i pytaniami o to, czy poparcie Afrykańskiego Kongresu Narodowego będzie nadal spadać.",
+      "Wyniki będą miały decydujące znaczenie dla przyszłości Stanów Zjednoczonych i rozstrzygnięcia drugiej kadencji prezydenta Donalda Trumpa."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Republika Południowej Afryki, oficjalnie Republika Południowej Afryki (RSA), jest najbardziej wysuniętym na południe krajem w Afryce. Kraj składa się z dziewięciu prowincji i jest ograniczony od południa 2798 kilometrami linii brzegowej, która rozciąga się wzdłuż południowego Atlantyku i Oceanu Indyjskiego; od północy przez sąsiednie kraje Namibii, Botswany i Zimbabwe; a od wschodu i północnego wschodu przez Mozambik i Eswatini. Republika Południowej Afryki obejmuje również Lesotho. Zajmujący powierzchnię 1 221 037 kilometrów kwadratowych kraj ma ponad 63 mln mieszkańców, co czyni go szóstym najbardziej zaludnionym krajem w Afryce i 24. najbardziej zaludnionym na świecie. Pretoria jest stolicą administracyjną, podczas gdy Kapsztad, jako siedziba Parlamentu, jest stolicą ustawodawczą, a Bloemfontein jest uważany za stolicę sądowniczą. Największym i najbardziej zaludnionym miastem jest Johannesburg, a następnie Kapsztad i Durban."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: South Africa",
+     "url": "https://en.wikipedia.org/wiki/South_Africa"
+    }
+   ],
+   "dlaczego_to_ważne": "Fragmentacja głosowania oznacza, że ANC może nadal przewodzić wielu rządom koalicji miejskich, tracąc jednocześnie kontrolę nad innymi.",
+   "liczby": [
+    "45.6%",
+    "40.2%",
+    "257",
+    "4.8 million",
+    "10",
+    "800"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "South Africa",
+    "opis": "Country in Southern Africa",
+    "tekst": "South Africa, officially the Republic of South Africa (RSA), is the southernmost country in Africa. The country consists of nine provinces, and is bounded to the south by 2,798 kilometres of coastline that stretches along the South Atlantic and Indian Ocean; to the north by the neighbouring countries of Namibia, Botswana, and Zimbabwe; and to the east and northeast by Mozambique and Eswatini. South Africa also encloses Lesotho. Covering an area of 1,221,037 square kilometres, the country has a population of over 63 million people, making it the sixth-most populated country in Africa, and 24th-most in the world. Pretoria is the administrative capital, while Cape Town, as the seat of Parliament, is the legislative capital, and Bloemfontein is regarded as the judicial capital. The largest and most populous city is Johannesburg, followed by Cape Town and Durban.",
+    "url": "https://en.wikipedia.org/wiki/South_Africa",
+    "język": "en"
+   },
+   "tagi": [
+    "South Africa’s",
+    "Johannesburg",
+    "Cape Town",
+    "Tshwane"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "ANC faces anger over poor services as South Africans vote in local elections",
+     "url": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts"
+    },
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "US to drop South Africa, Rwanda from duty-free trade initiative",
+     "url": "https://www.dw.com/en/us-to-drop-south-africa-rwanda-from-duty-free-trade-initiative/a-79834508?maca=en-rss-en-world-4025-rdf"
+    },
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "Why South Africa's local elections matter",
+     "url": "https://www.dw.com/en/why-south-africa-s-local-elections-matter/a-79842695?maca=en-rss-en-world-4025-rdf"
+    },
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "US midterm election: Why it's important and races to watch",
+     "url": "https://www.dw.com/en/us-midterm-election-why-it-s-important-and-races-to-watch/a-79789932?maca=en-rss-en-world-4025-rdf"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 3,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.24,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.672,
+     "eksponowanie": 1.53,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.588,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "ANC faces anger over poor services as South Africans vote in local elections",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
    },
    "miejsce": 1
   },
@@ -315,501 +363,511 @@
     "emoji": "🌍",
     "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
    },
-   "nagłówek": "28 lat w drodze do domu: Karl Bushby ukończył pieszą wyprawę dookoła świata",
-   "lead": "Wszystko zaczęło się w Chile, skąd 29-letni wówczas Karl Bushby wyruszył w listopadzie 1998 roku. Jego plan był prosty w założeniach, lecz niemal niewyobrażalny w realizacji: okrążyć świat pieszo, nie korzystając z żadnego środka transportu mechanicznego , i wrócić do domu dopiero po przejściu całej zaplanowanej trasy.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-02T12:53:00+00:00",
-   "źródło": {
-    "nazwa": "RMF24 Świat",
-    "url": "https://www.rmf24.pl/fakty/swiat/news-28-lat-w-drodze-do-domu-karl-bushby-ukonczyl-piesza-wyprawe-,nIdn,1024418",
-    "domena": "rmf24.pl"
-   },
-   "obraz": "https://rmf.rmffm.pl/news/attachments/50/4c/karl-bushby-po-28-latach-konczy-epicka-piesza-wyprawe-dookola-swiata-foto-adam-vaughan-636x421-504c8a3a.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "W kieszeni miał zaledwie kilkaset dolarów i własnoręcznie narysowaną linię na mapie, prowadzącą przez cztery kontynenty, pustynie, dżungle, góry i zamarznięte morza.",
-      "Bushby nie ukrywa, że impulsem do podjęcia wyzwania był trudny moment życiowy: rozpad małżeństwa i rozłąka z synem.",
-      "W trakcie wyprawy zakochał się dwa razy – w Kolumbijce i Japonce – lecz oba związki nie przetrwały długiej rozłąki.",
-      "W trakcie swojej wędrówki Bushby przemierzył ponad 50 tysięcy kilometrów, odwiedzając 29 krajów .",
-      "Przeszedł przez Amerykę Południową i Północną, aż dotarł na Alaskę.",
-      "Tam wraz z francusko-amerykańskim podróżnikiem Dimitrim Kiefferem dokonał historycznego wyczynu – wspólnie przeszli po krze przez zamarzniętą Cieśninę Beringa, stając się pierwszymi, którzy pokonali ten odcinek pieszo.",
-      "W Azji Bushby musiał zmierzyć się nie tylko z surowym klimatem Syberii, ale także z trudnościami biurokratycznymi i politycznymi.",
-      "Gdy nie mógł przejść przez Iran, zdecydował się na niezwykły wyczyn – przepłynął Morze Kaspijskie przez 31 dni, używając kamizelki asekuracyjnej i pianki.",
-      "Wielokrotnie napotykał przeszkody, których nie był w stanie przewidzieć."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Karl Bushby – brytyjski podróżnik, były żołnierz wojsk powietrznodesantowych i autor książek, znany z realizacji Goliath Expedition – próby pokonania pieszo trasy dookoła świata z Punta Arenas w Chile do rodzinnego Hull w Anglii. Wyprawę rozpoczął w 1998 roku."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Karl Bushby",
-     "url": "https://pl.wikipedia.org/wiki/Karl_Bushby"
-    }
-   ],
-   "dlaczego_to_ważne": "W Rosji spędził aż 10 lat, a przez pewien czas groziła mu nawet deportacja za nielegalne przekroczenie granicy.",
-   "liczby": [
-    "29",
-    "50 tysięcy",
-    "10 lat",
-    "31 dni",
-    "19",
-    "5 600"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Karl Bushby",
-    "opis": "",
-    "tekst": "Karl Bushby – brytyjski podróżnik, były żołnierz wojsk powietrznodesantowych i autor książek, znany z realizacji Goliath Expedition – próby pokonania pieszo trasy dookoła świata z Punta Arenas w Chile do rodzinnego Hull w Anglii. Wyprawę rozpoczął w 1998 roku.",
-    "url": "https://pl.wikipedia.org/wiki/Karl_Bushby",
-    "język": "pl"
-   },
-   "tagi": [
-    "Bushby",
-    "Karl Bushby",
-    "Amerykę Południową",
-    "Dimitrim Kiefferem"
-   ],
-   "emotki": [
-    "🌊"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "RMF24 Świat",
-     "tytuł": "28 lat w drodze do domu: Karl Bushby ukończył pieszą wyprawę dookoła świata",
-     "url": "https://www.rmf24.pl/fakty/swiat/news-28-lat-w-drodze-do-domu-karl-bushby-ukonczyl-piesza-wyprawe-,nIdn,1024418"
-    },
-    {
-     "nazwa": "Deutsche Welle",
-     "tytuł": "Global pedestrian Karl Bushby returns home to UK after 28-year trek",
-     "url": "https://www.dw.com/en/global-pedestrian-karl-bushby-returns-home-to-uk-after-28-year-trek/a-79829564?maca=en-rss-en-world-4025-rdf"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 4.547,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.208,
-     "eksponowanie": 0.27,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.399,
-     "treściwość": 0.27,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 2
-  },
-  {
-   "dział": {
-    "id": "sport-pl",
-    "nazwa": "Sport w Polsce",
-    "emoji": "🏅",
-    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
-   },
-   "nagłówek": "Benfica - Lech Poznań w 4. kolejce fazy ligowej Ligi Europy. Relacja na żywo",
-   "lead": "Lech Poznań w Lidze Europy nie radzi sobie tak dobrze jak w Ekstraklasie. W trzech meczach drużyna z Polski zdobyła tylko jeden punkt.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-03T02:01:20+00:00",
-   "źródło": {
-    "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/pilka-nozna/liga-europy/na-zywo-benfica-lech-poznan-w-4-kolejce-fazy-ligowej-ligi-europy-rel,nzId,9386",
-    "domena": "sport.interia.pl"
-   },
-   "obraz": "https://i.iplsc.com/-/000NE4BDXCXNJNRT-C321.webp",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Kolejne spotkanie będzie jednak bardzo wymagające.",
-      "W 4. kolejce fazy ligowej europejskich rozgrywek Kolejorz podejmie Benficę.",
-      "Będzie to szczególne spotkanie dla Jakuba Kamińskiego, który będzie miał szansą zmierzyć się ze swoją byłą drużyną.",
-      "Kto wyjdzie zwycięsko z tego starcia?",
-      "Zapraszamy na relację na żywo."
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Podopieczni Hansiego Flicka po ostatniej porażce z PSG z pewnością będą chcieli się zrehabilitować i tym razem zwyciężyć.",
-      "W 4. kolejce fazy ligowej Ligi Europy Jagiellonia Białystok wybierze się do Bułgarii, gdzie jej rywalem będzie Levski Sofia.",
-      "Przed podopiecznymi Adriana Siemieńca bardzo ważne mecze w europejskich rozgrywkach, które mogą zdecydować o awansie do fazy pucharowej."
-     ]
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [],
-   "inne_spojrzenia": [
-    {
-     "źródło": "Interia Sport",
-     "ujęcie": "Przed Janem Bednarkiem, Jakubem Kiwiorem i Oskarem Pietuszewskim kolejne wymagające spotkanie.",
-     "url": "https://sport.interia.pl/pilka-nozna/liga-mistrzow/na-zywo-fc-porto-napoli-w-4-kolejce-fazy-ligowej-ligi-mistrzow-relac,nzId,9383"
-    }
-   ],
-   "pojęcia": [],
-   "tło": null,
-   "tagi": [
-    "Lech Poznań",
-    "Jakuba Kamińskiego",
-    "Lidze Europy",
-    "Ekstraklasie"
-   ],
-   "emotki": [],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Benfica - Lech Poznań w 4. kolejce fazy ligowej Ligi Europy. Relacja na żywo",
-     "url": "https://sport.interia.pl/pilka-nozna/liga-europy/na-zywo-benfica-lech-poznan-w-4-kolejce-fazy-ligowej-ligi-europy-rel,nzId,9386"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "FC Porto - Napoli w 4. kolejce fazy ligowej Ligi Mistrzów. Relacja na żywo",
-     "url": "https://sport.interia.pl/pilka-nozna/liga-mistrzow/na-zywo-fc-porto-napoli-w-4-kolejce-fazy-ligowej-ligi-mistrzow-relac,nzId,9383"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "FC Barcelona - Aston Villa w 4. kolejce fazy ligowej Ligi Mistrzów. Relacja na żywo",
-     "url": "https://sport.interia.pl/pilka-nozna/liga-mistrzow/na-zywo-fc-barcelona-aston-villa-w-4-kolejce-fazy-ligowej-ligi-mistr,nzId,9380"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "AEK Ateny - Real Madryt w 4. kolejce fazy ligowej Ligi Mistrzów. Relacja na żywo",
-     "url": "https://sport.interia.pl/pilka-nozna/liga-mistrzow/na-zywo-aek-ateny-real-madryt-w-4-kolejce-fazy-ligowej-ligi-mistrzow,nzId,9382"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Levski Sofia - Jagiellonia Białystok w fazie ligowej Ligi Europy. Relacja na żywo",
-     "url": "https://sport.interia.pl/pilka-nozna/liga-europy/na-zywo-levski-sofia-jagiellonia-bialystok-w-fazie-ligowej-ligi-euro,nzId,9385"
-    }
-   ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 3.593,
-    "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.68,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.563,
-     "treściwość": 0.5,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "sport-pl",
-    "nazwa": "Sport w Polsce",
-    "emoji": "🏅",
-    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
-   },
-   "nagłówek": "Liga Mistrzów. Multiliga ze środowych rywalizacji. Relacja na żywo",
-   "lead": "Multiliga ze środowych rywalizacji w Lidze Mistrzów z pewnością przyniesie kibicom sporo emocji. Szczególnie interesująco zapowiada się starcie AEK Ateny - Real Madryt, czy też RB Lipsk - Manchester City.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-03T01:45:55+00:00",
-   "źródło": {
-    "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/pilka-nozna/liga-mistrzow/na-zywo-liga-mistrzow-multiliga-ze-srodowych-rywalizacji-relacja-na,nzId,9384",
-    "domena": "sport.interia.pl"
-   },
-   "obraz": "https://i.iplsc.com/-/000NE8Z9JUOS0KWS-C321.webp",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Nie zabraknie też polskich akcentów.",
-      "FC Porto podejmie u siebie Napoli, Slavia Praga Wiktora Nowaka spróbuje postawić się Arsenalowi na własnym boisku.",
-      "Lens natomiast, w którym występuje Michał Skóraś zagra z rewelacyjnym Como.",
-      "Sabah FC Tymoteusza Puchacza poleci do Norwegii na mecz z miejscowym Vikingiem.",
-      "Zapraszamy na relację na żywo."
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Piątkowe starcie Motoru Lublin z Wisłą Płock zapoczątkuje 14. kolejkę PKO Ekstraklasy.",
-      "Nie ulega wątpliwości, że Polacy będą w tym spotkaniu faworytami, a każdy inny wynik niż zwycięstwo naszej reprezentacji będzie niemałą niespodzianką."
-     ]
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "14"
-   ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "Interia Sport",
-     "ujęcie": "Już w najbliższy piątek 6. listopada w Krakowie czeka nas prawdziwe piłkarskie święto.",
-     "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/na-zywo-wisla-krakow-cracovia-w-14-kolejce-pko-bank-polski-ekstrakla,nzId,9388"
-    }
-   ],
-   "pojęcia": [],
-   "tło": null,
-   "tagi": [
-    "Napoli Slavia Praga Wiktora Nowaka",
-    "Lipsk Manchester City",
-    "Tymoteusza Puchacza",
-    "Ateny Real Madryt"
-   ],
-   "emotki": [],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Liga Mistrzów. Multiliga ze środowych rywalizacji. Relacja na żywo",
-     "url": "https://sport.interia.pl/pilka-nozna/liga-mistrzow/na-zywo-liga-mistrzow-multiliga-ze-srodowych-rywalizacji-relacja-na,nzId,9384"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Wisła Kraków - Cracovia w 14. kolejce PKO Bank Polski Ekstraklasy 2026/2027. Relacja na żywo",
-     "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/na-zywo-wisla-krakow-cracovia-w-14-kolejce-pko-bank-polski-ekstrakla,nzId,9388"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Motor Lublin - Wisła Płock w 14. kolejce PKO Bank Polski Ekstraklasy 2026/2027. Relacja na żywo",
-     "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/na-zywo-motor-lublin-wisla-plock-w-14-kolejce-pko-bank-polski-ekstra,nzId,9387"
-    },
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Polska - Łotwa w kwalifikacjach do Mistrzostw Europy piłkarzy ręcznych. Relacja na żywo",
-     "url": "https://sport.interia.pl/pilka-reczna/na-zywo-polska-lotwa-w-kwalifikacjach-do-mistrzostw-europy-pilkarzy,nzId,9381"
-    }
-   ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 4.137,
-    "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.522,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.565,
-     "treściwość": 0.5,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 2
-  },
-  {
-   "dział": {
-    "id": "sport-swiat",
-    "nazwa": "Sport na świecie",
-    "emoji": "🌐",
-    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
-   },
-   "nagłówek": "Szef nowego mistrza F1 ma polskie korzenie. Dysponuje wielkim majątkiem",
-   "lead": "Toto Wolff, choć sam nie prowadzi bolidu, jest jedną z najważniejszych postaci Formuły 1 ostatnich lat. Pod wodzą Austriaka Mercedes odniósł mnóstwo spektakularnych sukcesów.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-03T04:40:01+00:00",
-   "źródło": {
-    "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/f1/news-wielki-majatek-szefa-nowego-mistrza-f1-ma-polskie-korzenie-i,nId,23567897",
-    "domena": "sport.interia.pl"
-   },
-   "obraz": "https://i.iplsc.com/-/000NHMCTPCN868LB-C321.webp",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Kolejny nadszedł w niedzielny wieczór polskiego czasu.",
-      "Andrea Kimi Antonelli nie wygrał co prawda wyścigu w Meksyku, ale trzecie miejsce dało mu historyczny mistrzowski tytuł , otwiera się w nowym oknie .",
-      "Włoch został nowym czempionem mając zaledwie dwadzieścia lat.",
-      "Nikt przed nim nie dokonał tego wyczynu w młodszym wieku.",
-      "Od razu przy bohaterze znalazł się Toto Wolff, bo to także ogromna zasługa 54-latka pełniącego funkcję szefa zespołu.",
-      "Austriak szybko pojawił się także przed kamerami Eleven Sports.",
-      "I udzielił wywiadu w języku polskim.",
-      "\"Będzie dzisiaj dobra noc.",
-      "Nie wiem czy z wódką, ale zobaczymy\" - wyznał prosto z mostu."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Toto Wolff, właściwie Torger Christian Wolff – austriacki dyrektor generalny i szef zespołu Formuły 1 Mercedes AMG Petronas Motorsport Formula One Team pochodzenia polsko-rumuńskiego, inwestor, a wcześniej kierowca wyścigowy austriackiej i niemieckiej Formule Ford oraz serii FIA GT Championship."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Toto Wolff",
-     "url": "https://pl.wikipedia.org/wiki/Toto_Wolff"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "54",
-    "33%",
-    "300 milionów",
-    "2,7 miliarda",
-    "10 miliardów zł",
-    "1600"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Toto Wolff",
-    "opis": "austriacki szef zespołu Formuły 1 i kierowca wyścigowy",
-    "tekst": "Toto Wolff, właściwie Torger Christian Wolff – austriacki dyrektor generalny i szef zespołu Formuły 1 Mercedes AMG Petronas Motorsport Formula One Team pochodzenia polsko-rumuńskiego, inwestor, a wcześniej kierowca wyścigowy austriackiej i niemieckiej Formule Ford oraz serii FIA GT Championship.",
-    "url": "https://pl.wikipedia.org/wiki/Toto_Wolff",
-    "język": "pl"
-   },
-   "tagi": [
-    "Toto Wolff",
-    "Doradcą Technologicznym",
-    "George Kurtz Oprócz",
-    "Austriaka Mercedes"
-   ],
-   "emotki": [
-    "💰"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Szef nowego mistrza F1 ma polskie korzenie. Dysponuje wielkim majątkiem",
-     "url": "https://sport.interia.pl/f1/news-wielki-majatek-szefa-nowego-mistrza-f1-ma-polskie-korzenie-i,nId,23567897"
-    },
-    {
-     "nazwa": "BBC Sport",
-     "tytuł": "Russell says F1 title loss 'tough to deal with'",
-     "url": "https://www.bbc.co.uk/sport/formula1/articles/cmq8n95ppwd4o?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 5.296,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.45,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.596,
-     "treściwość": 0.5,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "sport-swiat",
-    "nazwa": "Sport na świecie",
-    "emoji": "🌐",
-    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
-   },
-   "nagłówek": "Znowu drwiny, gdy domowe nieszczęścia trwają - Jaissle ma duże problemy w Newcastle",
-   "lead": "Trzy miesiące w czteroletnim kontrakcie, problemy narastają dla szefa Newcastle, Matthiasa Jaissle 'a, ponieważ jego strona zostaje wygwizdana z boiska przez fanów po kolejnej porażce.",
+   "nagłówek": "„Całe to jedzenie jest teraz bezużyteczne”: Stosy śmieci po zamrażarkach sklepowych trafionych przez cyberatak",
+   "lead": "Dziesiątki supermarketów w siedmiu krajach europejskich wyrzuciło ogromne ilości żywności po tym, jak lodówki i zamrażarki zostały zaatakowane w cyberataku.",
    "język_źródła": "en",
-   "opublikowano": "2026-11-02T23:53:46+00:00",
+   "opublikowano": "2026-11-02T17:34:58+00:00",
    "źródło": {
-    "nazwa": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmly05n114gjo?at_medium=RSS&at_campaign=rss",
+    "nazwa": "BBC Europe",
+    "url": "https://www.bbc.co.uk/news/videos/cmwyvrgk9p0ro?at_medium=RSS&at_campaign=rss",
     "domena": "bbc.co.uk"
    },
-   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/342b/live/53db6f00-d719-11f1-93e1-3b657b665bcf.png",
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ffe/live/f76751a0-d6ee-11f1-93e1-3b657b665bcf.png",
    "sekcje": [
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Czwarty gol Thierno Barry 'ego w sześciu meczach wystarczył, aby Everton wygrał z biednym Newcastle, który wysłał Jacoba Ramseya późno na Aha, raport z meczu Milesa Starfortha jest z nami.",
-      "Wielkie dzięki za firmę i komentarze – spokój. „Od góry do dołu PL jest najlepszą ligą piłkarską na świecie” - mówi Mary Waltz. „Ten mecz nie przekonałby nikogo do tego argumentu.",
-      "Nie chciałbym być po przegranej stronie tego śmierdziela.- Myślałem, że pierwsza połowa meczu Liverpool vs Arsenal nie była zła, ale jak dotąd widziałem bardzo niewiele meczów Premier League o wymaganym standardzie w tym sezonie, a poziom emocji również nie był świetny.",
-      "Większość klubów w pobliżu dna widzę poprawę, ale Newcastle, na 13 miejscu, widzę, że pozostają mniej więcej takie same, gdy są mijane.",
-      "90+8 minut Hall próbuje podnieść Armstronga z ziemi, ale to było paskudne wyzwanie i jest ranny.",
-      "90+6 min Sprytne podanie od Hackneya znajduje Johnsona, ale sędzia postanawia nie grać przewagi, gdy Ramsey uderza w to pierwsze; jest zarezerwowany.",
-      "Niedzielne zwycięstwo w Liverpoolu pokazało, że strzelcy są głębsi, bardziej doświadczeni i grają przeciwko słabszej klasie zawodników niż w poprzednim sezonie. Zarejestruj się, aby otrzymać nasz bezpłatny biuletyn tutaj. Arsenał ma trzy punkty na szczycie tabeli Premier League."
+      "Podobno temperatura zamrażarek w kilku sklepach w całej Europie wzrosła nawet do 50°C.",
+      "Polskie władze poinformowały, że we wtorek przeprowadziły inspekcje dwóch samolotów pasażerskich, które były celem gróźb bombowych, ale nie znalazły żadnych materiałów wybuchowych w serii gróźb bombowych, które uderzyły w kilka europejskich lotnisk.",
+      "Alarm bombowy zmusił LOT z londyńskiego Heathrow do nieplanowanego lądowania na lotnisku Warszawa-Modlin, skłaniając lotnisko do zamknięcia.",
+      "„Lotnisko zostało ponownie otwarte i działa normalnie.„ Lot SAS Scandinavian Airlines z Kopenhagi również otrzymał groźbę bombową przed bezpiecznym lądowaniem na warszawskim centralnym lotnisku Chopina, gdzie został poddany inspekcji bezpieczeństwa."
      ]
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "13",
+    "50"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "European",
+    "Dozens",
+    "Piles"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC Europe",
+     "tytuł": "'All this food is now useless': Piles of rubbish after shop freezers hit by cyber-attack",
+     "url": "https://www.bbc.co.uk/news/videos/cmwyvrgk9p0ro?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Europe",
+     "tytuł": "UK meat industry hit by cyber-attack which targeted European supermarket freezers",
+     "url": "https://www.bbc.co.uk/news/articles/ckq6ndq8l6v0o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Europe",
+     "tytuł": "Seven flights across Europe targeted by suspected bomb threats",
+     "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Business",
+     "tytuł": "Shop freezers in seven European countries hit by cyber-attack",
+     "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "Multiple flights to European airports targeted by bomb threats",
+     "url": "https://www.dw.com/en/multiple-flights-to-european-airports-targeted-by-bomb-threats/a-79842434?maca=en-rss-en-world-4025-rdf"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.922,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.825,
+     "eksponowanie": 1.08,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.496,
+     "treściwość": 0.271,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "'All this food is now useless': Piles of rubbish after shop freezers hit by cyber-attack",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Atletico Madryt - FC Barcelona w 12. kolejce La Liga EA Sports. Relacja na żywo",
+   "lead": "Czas na prawdziwy hit 12. kolejki La Liga EA Sports. Atletico Madryt podejmie na własnym stadionie FC Barcelonę.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-04T00:06:18+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/na-zywo-atletico-madryt-fc-barcelona-w-12-kolejce-la-liga-ea-sports,nzId,9401",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NHJ8FVQ1YQU1J-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Która z drużyn potwierdzi dobrą formę i okaże się lepsza?",
+      "Atletico po tym starciu może objąć pozycję lidera.",
+      "Blaugrana z kolei ma szansę na powiększenie przewagi nad zespołem Diego Simeone do 5. punktów.",
+      "Czeka nas zatem bardzo emocjonujące widowisko.",
+      "Zapraszamy na relację na żywo."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Już w najbliższą niedzielę czeka nas prawdziwy hit 14. kolejki PKO Bank Polski Ekstraklasy.",
+      "To spotkanie z pewnością będzie szczególne dla Marka Papszuna, który zmierzy się ze swoja byłą drużyną, której trenerem jest dobrze mu znany Dawid Szwagra.",
+      "Podopieczni Nielsa Frederiksena są liderami w ligowej tabeli, a po tym spotkaniu mogą zwiększyć przewagę nad Górnikiem Zabrze nawet do 6. punktów.",
+      "Z kolei Zagłębie Lubin zajmuje wysoką 5. pozycję z 22. punktami na koncie.",
+      "W kolejnym meczu w ramach 3. rundy kwalfikacji do mistrzostw Europy piłkarzy ręcznych reprezentacja Polski zmierzy się z Rumunią.",
+      "Trwa sezon PKO BP Ekstraklasy 2026/27.",
+      "Jeden mecz z każdej kolejki można oglądać w Telewizji Polskiej, w TVP Sport i online na stronie tvpsport.pl oraz w aplikacjach: mobilnej i smart TV."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "Dla obu ekip to będzie bardzo poważny sprawdzian, którego rezultat może mieć duży wpływ na ligową tabelę.",
+   "liczby": [
+    "12",
+    "14",
+    "22",
+    "27",
+    "13"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Sport",
+     "ujęcie": "Legia Warszawa na własnym stadionie zmierzy się z Rakowem Częstochowa.",
+     "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/na-zywo-legia-warszawa-rakow-czestochowa-w-14-kolejce-pko-bank-polsk,nzId,9397"
+    },
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "To rywalizacja o mistrzostwo Polski i europejskie puchary, a także zmagania o utrzymanie.",
+     "url": "https://sport.tvp.pl/94567051/pko-bp-ekstraklasa-20262027-ogladaj-transmisje-meczow-w-tvp-sport-zapowiedz"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "La Liga",
+    "Madryt",
+    "Sports",
+    "Diego Simeone"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Atletico Madryt - FC Barcelona w 12. kolejce La Liga EA Sports. Relacja na żywo",
+     "url": "https://sport.interia.pl/pilka-nozna/na-zywo-atletico-madryt-fc-barcelona-w-12-kolejce-la-liga-ea-sports,nzId,9401"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Legia Warszawa - Raków Częstochowa w 14. kolejce PKO Bank Polski Ekstraklasy 2026/2027. Relacja na żywo",
+     "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/na-zywo-legia-warszawa-rakow-czestochowa-w-14-kolejce-pko-bank-polsk,nzId,9397"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Lech Poznań - KGHM Zagłębie Lubin w 14. kolejce PKO Bank Polski Ekstraklasy 2026/2027. Relacja na żywo",
+     "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/na-zywo-lech-poznan-kghm-zaglebie-lubin-w-14-kolejce-pko-bank-polski,nzId,9400"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Formuła 1. Grand Prix Brazylii. Relacja na żywo",
+     "url": "https://sport.interia.pl/inne-sporty/na-zywo-formula-1-grand-prix-brazylii-relacja-na-zywo,nzId,9398"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Rumunia - Polska w kwalifikacjach do mistrzostw Europy piłkarzy ręcznych. Relacja na żywo",
+     "url": "https://sport.interia.pl/pilka-reczna/na-zywo-rumunia-polska-w-kwalifikacjach-do-mistrzostw-europy-pilkarz,nzId,9399"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "PKO BP Ekstraklasa 2026/2027: oglądaj transmisje meczów w TVP Sport! [ZAPOWIEDŹ]",
+     "url": "https://sport.tvp.pl/94567051/pko-bp-ekstraklasa-20262027-ogladaj-transmisje-meczow-w-tvp-sport-zapowiedz"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "GOL – magazyn piłkarski po 13. kolejce PKO BP Ekstraklasy (3.11.2026)",
+     "url": "https://sport.tvp.pl/96029935/gol-magazyn-pilkarski-po-13-kolejce-pko-bp-ekstraklasy-transmisja-na-zywo-online-live-stream-3112026"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.469,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.98,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.539,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Polacy usłyszeli, jak nazwał syna i wybuchła burza. Musiał prostować",
+   "lead": "W 2010 roku Euzebiusz Smolarek był jednym z największych piłkarskich nazwisk w świecie futbolu. Było to jeszcze zanim rozbłysła gwiazda Roberta Lewandowskiego.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-04T04:20:04+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/sportowe-zycie/news-polacy-uslyszeli-jak-nazwal-swoje-dziecko-i-wybuchla-burza-m,nId,23568477",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NHRH01F36J9OO-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Ebi natomiast był jeszcze dość świeżo po zapewnieniu Biało-Czerwonym zwycięstwa nad Portugalią.",
+      "Właśnie w tamtym roku urodził się jego pierwszy syn.",
+      "W polskich mediach poniosła się informacja, że piłkarz, którym sam nosi imię po słynnym Eusebio, nazwał go Messi.",
+      "Polacy nie mogli uwierzyć, że jest to prawda.",
+      "Choć początkowo temat imienia syna Ebiego Smolarka wywołał w kraju dość spore kontrowersje.",
+      "Piłkarz musiał wytłumaczyć później, że tak naprawdę jego syn nosi tradycyjne imię, ale holenderskie.",
+      "Wymarzony transfer Flicka, padły twarde warunki.",
+      "Barcelona walczy o wielki hit - Nie wiem, skąd wzięła się ta informacja, ale mój syn ma na imię Mees .",
+      "Mieliśmy kilka pomysłów na imię, ale w końcu wygrała propozycja żony."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Euzebiusz Łukasz Smolarek znany również jako Ebi – polski piłkarz, który występował na pozycji pomocnika lub napastnika i działacz piłkarski. Syn Włodzimierza Smolarka. Od 2019 prezes Polskiego Związku Piłkarzy."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Euzebiusz Smolarek",
+     "url": "https://pl.wikipedia.org/wiki/Euzebiusz_Smolarek"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "536"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Euzebiusz Smolarek",
+    "opis": "polski piłkarz",
+    "tekst": "Euzebiusz Łukasz Smolarek znany również jako Ebi – polski piłkarz, który występował na pozycji pomocnika lub napastnika i działacz piłkarski. Syn Włodzimierza Smolarka. Od 2019 prezes Polskiego Związku Piłkarzy.",
+    "url": "https://pl.wikipedia.org/wiki/Euzebiusz_Smolarek",
+    "język": "pl"
+   },
+   "tagi": [
+    "Mees",
+    "Euzebiusz Smolarek",
+    "Ebiego Smolarka",
+    "Eusebio"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Polacy usłyszeli, jak nazwał syna i wybuchła burza. Musiał prostować",
+     "url": "https://sport.interia.pl/sportowe-zycie/news-polacy-uslyszeli-jak-nazwal-swoje-dziecko-i-wybuchla-burza-m,nId,23568477"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 2.992,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.592,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Manchester United 3-2 Roma: Liga Mistrzów – jak to się stało",
+   "lead": "Manchester United wykonał oszałamiający powrót, aby pokonać Romę w piękną noc w Old Trafford. W związku z tym... oto raport Davida Hyntera z Old Trafford. Michael Carrick: „To była dobra noc, muszę pochwalić płatników za charakter i zwolenników.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-03T22:40:54+00:00",
+   "źródło": {
+    "nazwa": "The Guardian Sport",
+    "url": "https://www.theguardian.com/football/live/2026/nov/03/manchester-united-v-roma-champions-league-live",
+    "domena": "theguardian.com"
+   },
+   "obraz": "https://i.guim.co.uk/img/media/790283a41236bf402a35ea1734fb1c275cb22c82/408_0_3880_3104/master/3880.jpg?width=140&quality=85&auto=format&fit=max&s=731c6d0573dc85b750da1a7458dde673",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Chłopcy robili wszystko przy każdej okazji. „Powiedziałem im, żeby się nie rozczarowywali, myślałem, że wchodzimy do gry.",
+      "Gracze, którzy nosili w sobie wiele rozczarowań, nie czuli się w ten sposób. „To jedna gra, więc zależy od tego, co będzie dalej.",
+      "Miło było znów zobaczyć to miejsce w takim stanie. - Jestem zachwycona Shea, jest taki utalentowany.",
+      "Aby zobaczyć, jak młodzi gracze wykorzystują takie okazje, nie ma wielu lepszych rzeczy. „Żyjemy po to, by widzieć, jak zwolennicy wracają szczęśliwi do domu. „Pokazaliśmy wiele charakteru jako grupa, mam nadzieję, że gracze dowiedzieli się dużo o mnie, ja dowiedziałem się dużo o nich.„ Kobbie Mainoo: „To było niewiarygodne, magia tego stadionu i klubu polegała na zdobyciu dwóch bramek w dół.",
+      "Wszyscy brzęczą.- Jakieś szczere i znaczące słowa od Fernandesa.",
+      "Bruno Fernandes: „Trudno nam coś powiedzieć, to był dla nas trudny okres, nie byliśmy w stanie działać tak, jak chcieliśmy.",
+      "Dziś był jeden z tych dni, kiedy Old Trafford ożył i sprawiliśmy, że Romowie tego doświadczyli. „Chodzi o osiąganie wyników w tym klubie.",
+      "Ludzie myśleli, że to kara za słowa, które powiedziałem i jeśli tak było, to miał rację, to kierownik jest tym, który podejmuje decyzję i muszę się z tym zgodzić.\" Youri Tielemans: \"To genialne.",
+      "Joshua Keeling zastanawia się : „Matheus Robins?„ Berrada i Wilcox nie zdradzają zbytnio swoich emocji na trybunach."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Manchester United pochodzi z dwóch bramek, aby pokonać Roma 3-2 - ale jakie są inne najlepsze walki w historii Ligi Mistrzów?",
+      "W Old Trafford doszło do protestów i chociaż wyróżniały się dwa produkty akademii, przyszłość Michaela Carricka jest daleka od bezpiecznych zielonych i żółtych balonów kołyszących się wokół Stretford End.",
+      "Piłki tenisowe spadły na boisko w proteście przeciwko chronicznemu, trwale kinematograficznemu upadkowi, któremu przewodniczył właściciel Manchesteru United.",
+      "Gracze United odeszli zwycięsko, w jakiś sposób wygrywając grę w grze, oddzielając się od mgły nieszczęśliwego kontekstu wirującego ze wszystkich stron i zamieniającego drugą połowę we własną szybującą, rozdzierającą historię na wieki.",
+      "Czy wystarczy uratować Michaela Carricka, który po raz kolejny był serenadowany, gdy umysły wędrowały po wspólnych plagach rodziny Glazerów i Jima Ratcliffe 'a?",
+      "Michael Carrick spojrzał na krawędź, kiedy jego rozkojarzona drużyna została całkowicie rozwiązana dla otwieracza Matiasa Soule 'a, a Donyell Malen wkrótce dotarł do punktu karnego.",
+      "United został wygwizdany na przerwie, a kiedy Carlos Baleba musiał wyjść na początku drugiej połowy z urazem ścięgna podkolanowego, wszystko wyglądało ponuro dla United."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Associazione Sportiva Roma to zawodowy klub piłkarski z siedzibą w Rzymie we Włoszech. Założona w wyniku fuzji w 1927 roku, Roma uczestniczyła w najwyższej klasie włoskiej piłki nożnej przez cały okres swojego istnienia, z wyjątkiem sezonu 1951–52. Roma trzykrotnie zdobyła Serie A, w latach 1941–42, 1982–83 i 2000–01, a także dziewięć tytułów Coppa Italia i dwa tytuły Supercoppa Italiana. W europejskich rozgrywkach Romowie wygrali Puchar Miast Targowych w latach 1960–61 i inauguracyjną Ligę Konferencyjną UEFA w latach 2021–22, a w drugiej kolejności Puchar Europy 1983–84, Puchar UEFA 1990–91 i Ligę Europy UEFA 2022–23."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: AS Roma",
+     "url": "https://en.wikipedia.org/wiki/AS_Roma"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "45",
     "90",
+    "10",
     "89",
     "88",
-    "87",
     "85"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
+   "tło": {
+    "hasło": "AS Roma",
+    "opis": "Association football club in Italy",
+    "tekst": "Associazione Sportiva Roma is a professional football club based in Rome, Italy. Founded by a merger in 1927, Roma has participated in the top tier of Italian football for all of its existence, except for the 1951–52 season. Roma has won Serie A three times, in 1941–42, 1982–83 and 2000–01, as well as nine Coppa Italia titles and two Supercoppa Italiana titles. In European competitions, Roma won the Inter-Cities Fairs Cup in 1960–61 and the inaugural UEFA Conference League in 2021–22, while they finished runners-up in the 1983–84 European Cup, the 1990–91 UEFA Cup and the 2022–23 UEFA Europa League.",
+    "url": "https://en.wikipedia.org/wiki/AS_Roma",
+    "język": "en"
+   },
+   "tagi": [
+    "United",
+    "Roma",
+    "Cunha",
+    "Fernandes"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Manchester United 3-2 Roma: Champions League – as it happened",
+     "url": "https://www.theguardian.com/football/live/2026/nov/03/manchester-united-v-roma-champions-league-live"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Man Utd beat Roma - the other great Champions League comebacks",
+     "url": "https://www.bbc.co.uk/sport/football/articles/c64g1dg0d84ko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Mainoo and Lacey raise the spirits but systemic change still required at Manchester United | Nick Ames",
+     "url": "https://www.theguardian.com/football/2026/nov/03/michael-carrick-manchester-united-roma-old-trafford-champions-league"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "Cunha completes wild Man Utd comeback win over Roma from two down",
+     "url": "https://www.skysports.com/football/manchester-united-vs-roma/report/577657"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 3,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.209,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.672,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.537,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Manchester United 3-2 Roma: Champions League – as it happened",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Jak konflikty na Bliskim Wschodzie wpływają na wydarzenia sportowe",
+   "lead": "BBC Sport przygląda się, jak trwający konflikt na Bliskim Wschodzie wpłynął na wydarzenia sportowe w Arabii Saudyjskiej, Katarze, Bahrajnie i na całym obszarze.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-03T16:01:24+00:00",
+   "źródło": {
+    "nazwa": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/articles/ck0j0l65nzlvo?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/754d/live/85ccd330-d798-11f1-801d-cf196dc7232c.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Turniej przesunięty o 11 miesięcy z proponowanym rozpoczęciem 23 grudnia Nowe daty 21 stycznia 2028 r. muszą zostać zatwierdzone przez FIFA. Puchar Azji 2027 w Arabii Saudyjskiej został przełożony w wyniku konfliktu na Bliskim Wschodzie.",
+      "Po miesiącu spekulacji po ataku na międzynarodowe lotnisko w Rijadzie, Azjatycka Konfederacja Piłkarska (AFC) potwierdziła we wtorek, że turniej został przesunięty o 11 miesięcy.",
+      "Przydatność Arabii Saudyjskiej do organizacji turnieju była gorącym tematem od czasu ataku na lotnisko w Rijadzie przez wspieranych przez Iran rebeliantów Huti w Jemenie.",
+      "Inne kraje, które miały podróżować do Arabii Saudyjskiej w listopadowym oknie międzynarodowym, zostały zmuszone do przeniesienia swoich sojuszników.",
+      "Inny kraj-gospodarz miał niewielki apetyt na wkroczenie w tak krótkim czasie – turniej miał się rozpocząć 7 stycznia 2027 r. – ale postęp zgodnie z planem w obecnym klimacie był obarczony ryzykiem.",
+      "W Australii opóźniony turniej może mieć konsekwencje dla trenera Tony 'ego Popovica, który podpisał krótkoterminowe przedłużenie w przeddzień Mistrzostw Świata."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "11",
+    "23",
+    "21",
+    "40"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Matthias Jaissle",
-    "Newcastle Three",
-    "Newcastle",
-    "Jaissle"
+    "Middle East",
+    "Saudi Arabia Qatar Bahrain",
+    "Sport"
    ],
    "emotki": [],
    "wszystkie_źródła": [
     {
      "nazwa": "BBC Sport",
-     "tytuł": "Jeers again as home woes continue - Jaissle has big problems at Newcastle",
-     "url": "https://www.bbc.co.uk/sport/football/articles/cmly05n114gjo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "The Guardian Sport",
-     "tytuł": "Newcastle United 0-1 Everton: Premier League – as it happened",
-     "url": "https://www.theguardian.com/football/live/2026/nov/02/newcastle-united-v-everton-premier-league-live"
-    },
-    {
-     "nazwa": "The Guardian Sport",
-     "tytuł": "Arsenal have everything they need to repeat as Premier League champions | Jonathan Wilson",
-     "url": "https://www.theguardian.com/football/2026/nov/02/arsenal-liverpool-premier-league"
-    },
-    {
-     "nazwa": "The Guardian Sport",
-     "tytuł": "Newcastle unrest grows as Barry and Everton give Jaissle another headache",
-     "url": "https://www.theguardian.com/football/2026/nov/02/newcastle-everton-premier-league-match-report"
-    },
-    {
-     "nazwa": "BBC Football",
-     "tytuł": "Which Premier League players are set for yellow card suspensions?",
-     "url": "https://www.bbc.co.uk/sport/articles/cr3wj7wg35pxo?at_medium=RSS&at_campaign=rss"
+     "tytuł": "How sporting events are being affected by Middle East conflict",
+     "url": "https://www.bbc.co.uk/sport/articles/ck0j0l65nzlvo?at_medium=RSS&at_campaign=rss"
     },
     {
      "nazwa": "The Guardian Football",
-     "tytuł": "Premier League: 10 talking points from the weekend’s action",
-     "url": "https://www.theguardian.com/football/2026/nov/02/premier-league-10-talking-points-from-the-weekends-action"
-    },
-    {
-     "nazwa": "The Guardian Football",
-     "tytuł": "Should Premier League strugglers stick or twist as pressure on managers mounts? | Andrew Beasley",
-     "url": "https://www.theguardian.com/football/2026/nov/01/michael-carrick-manchester-united-favourite-premier-league-sack-race"
+     "tytuł": "AFC postpones Asian Cup in Saudi Arabia to late 2027 due to conflict in Middle East",
+     "url": "https://www.theguardian.com/football/2026/nov/03/2027-asian-cup-saudi-arabia-postponed-conflict-middle-east"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.846,
+    "wynik": 4.996,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 2.32,
-     "eksponowanie": 0.54,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.536,
+     "ranga_źródła": 1.458,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.438,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Jeers again as home woes continue - Jaissle has big problems at Newcastle",
+   "oryginalny_nagłówek": "How sporting events are being affected by Middle East conflict",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -823,70 +881,204 @@
     "emoji": "🧪",
     "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
    },
-   "nagłówek": "Spotify pozwoli przerabiać znane piosenki. Za tę przyjemność słono dopłacisz",
-   "lead": "Spotify pozwoli przerabiać znane piosenki. Za tę przyjemność słono dopłacisz",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-02T10:26:00+00:00",
+   "nagłówek": "Ten lek cholesterolowy miał być przełomowy. Dlaczego upadł w klinice — i czy jest jeszcze nadzieja?",
+   "lead": "Na początku września gigant farmaceutyczny Novartis wydał komunikat prasowy, który wywołał fale szoku wśród społeczności kardiologicznej. Lek o nazwie pelacarsen, który kiedyś miał być potencjalnym hitem, nie zmniejszył ryzyka problemów z sercem i udaru u osób z podstawowymi chorobami sercowo-naczyniowymi.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-03T00:00:00+00:00",
    "źródło": {
-    "nazwa": "Spider's Web",
-    "url": "https://spidersweb.pl/2026/11/spotify-remiksy-ai.html",
-    "domena": "spidersweb.pl"
+    "nazwa": "Nature",
+    "url": "https://www.nature.com/articles/d41586-026-03504-2",
+    "domena": "nature.com"
    },
-   "obraz": "https://cdn-sw.spidersweb.pl/2026/11/spotify-remiksy-ai.webp",
+   "obraz": "https://media.nature.com/lw1200/magazine-assets/d41586-026-03504-2/d41586-026-03504-2_53916570.jpg",
    "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Michelle O’Donoghue, kardiolog ze szpitala Brigham and Women's Hospital w Bostonie, Massachusetts, mówi, że jej początkową reakcją na tę wiadomość był „stan niedowierzania”.",
+      "Pelacarsen obniża poziom pewnego rodzaju cząsteczki przenoszącej cholesterol zwanej lipoproteiną(a), często określanej jako Lp(a) lub Lp little a.",
+      "Podobnie jak w przypadku lipoprotein o niskiej gęstości lub LDL, wysoki poziom Lp(a) zwiększa ryzyko zawału serca i innych problemów związanych z sercem.",
+      "Ale w przeciwieństwie do LDL (czasami nazywanego złym cholesterolem), poziomy Lp(a) są określane głównie przez genetykę, a nie styl życia.",
+      "Tak więc mniej więcej jedna na pięć osób, które mają wysoki poziom Lp(a), nie może ich zmniejszyć poprzez zmiany w diecie i ćwiczeniach.",
+      "I chociaż ludzie mogą obniżyć swój poziom LDL za pomocą statyn i innych leków, nie ma zatwierdzonych leków, które znacznie obniżają Lp(a).",
+      "Dlatego kardiolodzy byli tak podekscytowani pelacarsenem i kilkoma innymi lekami obniżającymi poziom Lp(a), które są obecnie w fazie późnych badań klinicznych. „Lp(a) naprawdę było tematem rozmów w mieście w ciągu ostatnich kilku lat w społeczności sercowo-naczyniowej, częściowo z powodu dużego entuzjazmu związanego z tymi terapiami” - mówi O’Donoghue, który jest badaczem w jednym z badań.",
+      "Terapie obniżają Lp(a) o 80% lub więcej .",
+      "Wszyscy badacze musieli udowodnić, że redukcja ta prowadzi do lepszych wyników klinicznych — mniej zgonów związanych z sercem, zawałów serca, udarów i nagłych operacji pomostowania aortalno-wieńcowego."
+     ]
+    },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Słuchanie muzyki, podcastów, a także audiobooków, które niedawno trafiły do Polski , wkrótce wejdzie na wyższy poziom Jak informuje Financial Times , powołując się na osoby znające plany firmy, Spotify pracuje nad narzędziem umożliwiającym przygotowywanie własnych remiksów i coverów utworów dostępnych w katalogu platformy.",
-      "Wszystko z wykorzystaniem sztucznej inteligencji, która pozwoli nadać znanej piosence zupełnie inne brzmienie, bez konieczności posiadania profesjonalnego sprzętu czy doświadczenia w produkcji muzycznej.",
-      "W ręce użytkowników trafić ma dodatkowo funkcja tworzenia coveru brzmiącego tak, jakby piosenkę jednego wykonawcy zaśpiewał ktoś inny."
+      "Nature, Opublikowano online: 03 listopada 2026 r.; doi: 10.1038/d41586-026-03545-7 Tegoroczni zwycięzcy to materiałoznawca i mistrzyni edukacji naukowej kobiet.",
+      "Nature, Opublikowano online: 03 listopada 2026 r.; doi:10.1038/d41586-026-03554-6 Światowi liderzy na szczycie COP17 w sprawie różnorodności biologicznej skarżyli się, że firmy korzystające z publicznych danych genetycznych nie wpłacają pieniędzy na dobrowolny fundusz ochrony przyrody.",
+      "Nature, Opublikowano online: 03 listopada 2026 r.; doi: 10.1038/d41586-026-03277-8 Ekologia i ewolucja skrzydlatych legendarnych bestii i małp, które pokazują swoje tyłki swoim kumplom, w tym tygodniu wybierają z archiwum Nature.",
+      "Nature, Opublikowano online: 03 listopada 2026 r.; doi: 10.1038/d41586-026-03397-1 Skala dzisiejszych wyzwań wymaga nowego podejścia — we wszystkich dyscyplinach.",
+      "Nature, Opublikowano online: 03 listopada 2026 r.; doi: 10.1038/d41586-026-03540-y Amerykańska Narodowa Fundacja Nauki jest głównym fundatorem badań ekonomicznych i archeologicznych, ale w 2026 r. nie przyznała żadnych nowych grantów w tych dyscyplinach.",
+      "Nature, Opublikowano online: 03 listopada 2026 r.; doi: 10.1038/d41586-026-03340-4 Badacze kwestionują, czy outsourcing decyzji o finansowaniu badań do sztucznej inteligencji zmniejszy nowość naukową.",
+      "Nature, Opublikowano online: 03 listopada 2026 r.; doi: 10.1038/d41586-026-03510-4 Zweryfikowane informacje od zaufanych ekspertów są kluczowe, aby pomóc społeczeństwu i rządom w szybkich zmianach i rosnącej złożoności."
      ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Terapia genowa to technologia medyczna, która ma na celu uzyskanie efektu terapeutycznego poprzez manipulację ekspresją genów lub zmianę właściwości biologicznych żywych komórek."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Gene therapy",
+     "url": "https://en.wikipedia.org/wiki/Gene_therapy"
     }
    ],
    "dlaczego_to_ważne": "",
-   "liczby": [],
-   "inne_spojrzenia": [
-    {
-     "źródło": "Antyweb",
-     "ujęcie": "Spotify przygotowuje prawdziwą rewolucję AI.",
-     "url": "https://antyweb.pl/spotify-pozwoli-ci-przerabiac-ulubione-piosenki-jest-jeden-haczyk"
-    }
+   "liczby": [
+    "80%",
+    "30",
+    "40",
+    "10.1038",
+    "026",
+    "03504"
    ],
+   "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Gene therapy",
+    "opis": "Medical technology",
+    "tekst": "Gene therapy is medical technology that aims to produce a therapeutic effect through the manipulation of gene expression or through altering the biological properties of living cells.",
+    "url": "https://en.wikipedia.org/wiki/Gene_therapy",
+    "język": "en"
+   },
    "tagi": [
-    "Spotify"
+    "Lp(a",
+    "Gene Therapy Institute",
+    "Lp(a)-lowering",
+    "Nordestgaard"
    ],
    "emotki": [
-    "🎵"
+    "🔬"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Spider's Web",
-     "tytuł": "Spotify pozwoli przerabiać znane piosenki. Za tę przyjemność słono dopłacisz",
-     "url": "https://spidersweb.pl/2026/11/spotify-remiksy-ai.html"
+     "nazwa": "Nature",
+     "tytuł": "This cholesterol drug promised to be a game-changer. Why did it flop in the clinic — and is there still hope?",
+     "url": "https://www.nature.com/articles/d41586-026-03504-2"
     },
     {
-     "nazwa": "Antyweb",
-     "tytuł": "Spotify pozwoli ci przerabiać ulubione piosenki. Jest jeden haczyk",
-     "url": "https://antyweb.pl/spotify-pozwoli-ci-przerabiac-ulubione-piosenki-jest-jeden-haczyk"
+     "nazwa": "Nature",
+     "tytuł": "Nature awards recognize inspiring women in science",
+     "url": "https://www.nature.com/articles/d41586-026-03545-7"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Biotech firms are meant to pay to use Earth’s genetic data. They’re not.",
+     "url": "https://www.nature.com/articles/d41586-026-03554-6"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Cities are changing — and architects must adapt",
+     "url": "https://www.nature.com/articles/d41586-026-03508-y"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Whence dragons?",
+     "url": "https://www.nature.com/articles/d41586-026-03277-8"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Why we’re setting up an institute for radically broad thinking",
+     "url": "https://www.nature.com/articles/d41586-026-03397-1"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "US social sciences face existential crisis after NSF cuts",
+     "url": "https://www.nature.com/articles/d41586-026-03540-y"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Will AI grant reviews make science more conservative?",
+     "url": "https://www.nature.com/articles/d41586-026-03340-4"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "How democracy depends on science — and must protect it",
+     "url": "https://www.nature.com/articles/d41586-026-03510-4"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Historic Marburg outbreak hints at long-term viral hideout",
+     "url": "https://www.nature.com/articles/d41586-026-03538-6"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Mysterious anthrax outbreak kills hippos in Africa — raising concerns for human spread",
+     "url": "https://www.nature.com/articles/d41586-026-03580-4"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Trump’s executive order on women’s health feels like déjà vu",
+     "url": "https://www.nature.com/articles/d41586-026-03503-3"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "When humans disappear, biodiversity takes a surprising turn",
+     "url": "https://www.nature.com/articles/d41586-026-03505-1"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Ecosystems depend on people: don’t abandon them",
+     "url": "https://www.nature.com/articles/d41586-026-03544-8"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Chinese doctoral students in clinical medicine can graduate without a thesis — more degrees to follow",
+     "url": "https://www.nature.com/articles/d41586-026-03480-7"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "China should share the evidence behind animal-testing alternatives openly",
+     "url": "https://www.nature.com/articles/d41586-026-03561-7"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Universities must measure learning, both with and without AI assistance",
+     "url": "https://www.nature.com/articles/d41586-026-03559-1"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Safety alerts must reach visiting PhD students",
+     "url": "https://www.nature.com/articles/d41586-026-03560-8"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Research bonuses need clear and fair rules",
+     "url": "https://www.nature.com/articles/d41586-026-03562-6"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "The oracle of the second quadrant",
+     "url": "https://www.nature.com/articles/d41586-026-03369-5"
     }
    ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 4.162,
+    "wynik": 10.226,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.135,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.368,
-     "treściwość": 0.259,
-     "język_działu": 0.5
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 5.005,
+     "eksponowanie": 3.6,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.538,
+     "treściwość": 0.383,
+     "język_działu": 0.0
     }
+   },
+   "oryginalny_nagłówek": "This cholesterol drug promised to be a game-changer. Why did it flop in the clinic — and is there still hope?",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
    },
    "miejsce": 1
   },
@@ -897,111 +1089,215 @@
     "emoji": "🧪",
     "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
    },
-   "nagłówek": "Apple „nie jest w stanie przewidzieć” , kiedy będzie wystarczająco dużo iPhone Duos do obejścia",
-   "lead": "John Ternus mówi, że Apple widzi „bezprecedensową” cenę pamięci. Dyrektor generalny Apple, John Ternus, nie ma osi czasu, w której mogłyby zostać zniesione ograniczenia podaży iPhone 'a Duo.",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-02T22:56:11+00:00",
+   "nagłówek": "Nowa wersja Android Auto trafia do użytkowników. A co w niej?",
+   "lead": "Google rozpoczęło udostępnianie stabilnej wersji systemu Android Auto 18.1. Najnowsza aktualizacja nie przynosi na razie dużych zmian widocznych dla kierowców, ale analiza jej kodu zdradza już teraz, nad czym pracuje producent.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-04T04:15:45+00:00",
    "źródło": {
-    "nazwa": "The Verge",
-    "url": "https://www.theverge.com/tech/1024915/apple-iphone-duo-supply-chain-constraints",
-    "domena": "theverge.com"
+    "nazwa": "Antyweb",
+    "url": "https://antyweb.pl/nowa-wersja-android-auto-trafia-do-uzytkownikow-a-co-w-niej",
+    "domena": "antyweb.pl"
    },
-   "obraz": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268762_iPhone_Duo_AKrales_1378.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2025/08/android-auto-15-wersja-beta.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Podczas wywiadu z agencją Reuters Ternus powiedział, że firma „ciężko pracuje, aby jak najszybciej dotrzeć do jak największej liczby klientów, ale w tym ​momencie nie jesteśmy w stanie przewidzieć, kiedy podaż i popyt będą w równowadze. W zeszłym miesiącu firma Apple wprowadziła na rynek swój pierwszy składany produkt za 1 999 $, wyposażony w 5,4-calowy wyświetlacz zewnętrzny i 7,6-calowy ekran wewnętrzny.",
-      "Zamówienia w przedsprzedaży na iPhone Duo szybko się wyprzedały, a niektóre przesyłki mają dotrzeć w 2027 roku.",
-      "Apple udostępniło również ograniczoną liczbę modeli iPhone Duo w sklepie podczas premiery.",
-      "W wywiadzie dla agencji Reuters Ternus odniósł się również do doniesień o popękanych ekranach , mówiąc, że „bardzo mały procent” iPhone Duos został zwrócony w związku z tym problemem i że Apple je zastępuje.",
-      "Firma od miesięcy zmaga się z ograniczeniami w łańcuchu dostaw i rosnącymi kosztami pamięci.",
-      "Ternus dodał, że firma spodziewa się „jeszcze wyższych kosztów pamięci” w grudniu, ale zauważa, że jest to „częściowo zrównoważone” przez niedawne podwyżki cen.",
-      "Nawet bez standardowego modelu iPhone 'a 18 Apple odnotowało rekordowe przychody z iPhone' a na poziomie 57,58 miliarda $ w czwartym kwartale .",
-      "Zaloguj się, aby zobaczyć powiadomienia lub utwórz konto, aby dołączyć do rozmowy."
+      "Chodzi przede wszystkim o przygotowania do nowego interfejsu o nazwie Cielo, który ma przebudować wygląd platformy, wprowadzić dodatkowe animacje i rozbudować obsługę widżetów.",
+      "W kodzie pojawiają się również kolejne ślady trybu jasnego oraz nowych elementów dostosowanych do smartfonów Samsunga.",
+      "Aktualizacja Android Auto 18.1 była wcześniej dostępna w kanale beta.",
+      "Teraz Google rozpoczęło wdrażanie w stabilnej wersji za pośrednictwem Sklepu Google Play.",
+      "Nie należy jednak oczekiwać, że po instalacji interfejs samochodowy nagle będzie wyglądał inaczej.",
+      "Obecna wersja nie wprowadza istotnych nowości bezpośrednio widocznych dla użytkowników.",
+      "Najważniejsze zmiany dotyczą kodu aplikacji i przygotowań do funkcji, które mogą pojawić się w przyszłości.",
+      "Google rozwija je stopniowo, ale nie udostępniło informacji, kiedy będą gotowe do publicznego wdrożenia.",
+      "Najciekawsze odkrycia dotyczą projektu Cielo, czyli nazwy kodowej przyszłej przebudowy Android Auto."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Dyrektor operacyjny Apple, Sabih Khan, przyznał, że opóźnienia w wysyłce nowego iPhone 'a Duo nękają podczas rozmowy fiskalnej firmy w czwartym kwartale, ale nie wyjaśnił, kiedy klienci mogą spodziewać się ulgi.",
-      "Opóźnienia były tylko jednym z powodów do niepokoju podczas rozmowy o zarobkach wypełnionej pytaniami o rosnące koszty chipów pamięci, spowodowane rosnącym popytem ze strony branży sztucznej inteligencji. „Na dzień dzisiejszy iPhone Duo jest ograniczony.",
-      "Rampa idzie dobrze, a my ciężko pracujemy, aby ten rewolucyjny nowy produkt trafił w ręce naszych klientów tak szybko, jak to możliwe.",
-      "Klienci, którzy nie czekali w kolejce w sklepie Apple Store lub od razu skorzystali z zamówień w przedsprzedaży, widzą teraz, że czas wysyłki wydłuża się do przyszłego roku ."
+      "Aktualizacja One UI 9, czyli pierwsze oprogramowanie Samsunga oparte na Androidzie 17, serwuje właścicielom smartfonów z rodziny Galaxy kolejne problemy.",
+      "Użytkownicy zgłaszają, że po zainstalowaniu nowego oprogramowania smartfony nie mogą połączyć się z systemem multimedialnym pojazdu albo regularnie tracą połączenie podczas jazdy."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "John Patrick Ternus jest amerykańskim inżynierem i dyrektorem biznesowym, który jest dyrektorem generalnym (CEO) Apple od września 2026 roku. Ternus dołączył do zespołu projektowego Apple w 2001 roku i był starszym wiceprezesem firmy ds. inżynierii sprzętu w latach 2021-2026."
+      "Android Auto – aplikacja mobilna stworzona przez firmę Google, pozwalająca zarządzać i strumieniować obraz z urządzenia działającego z systemem Android na wyświetlacz komputera pokładowego samochodu. Obecnie dostępna jest ona w 46 krajach świata."
      ],
-     "język": "en",
-     "przypis": "Wikipedia: John Ternus",
-     "url": "https://en.wikipedia.org/wiki/John_Ternus"
+     "język": "pl",
+     "przypis": "Wikipedia: Android Auto",
+     "url": "https://pl.wikipedia.org/wiki/Android_Auto"
+    }
+   ],
+   "dlaczego_to_ważne": "Oznacza to, że instalacja Android Auto 18.1 nie aktywuje jeszcze nowego wyglądu ani dodatkowych możliwości.",
+   "liczby": [
+    "18.1",
+    "17"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Antyweb",
+     "ujęcie": "Tym razem dotyczą one Android Auto.",
+     "url": "https://antyweb.pl/aktualizacja-samsunga-powoduje-problemy-warto-wiedziec-nim-zainstalujesz"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Android Auto",
+    "opis": "Aplikacja do komunikacji urządzenia mobilnego z systemem infotainment samochodu",
+    "tekst": "Android Auto – aplikacja mobilna stworzona przez firmę Google, pozwalająca zarządzać i strumieniować obraz z urządzenia działającego z systemem Android na wyświetlacz komputera pokładowego samochodu. Obecnie dostępna jest ona w 46 krajach świata.",
+    "url": "https://pl.wikipedia.org/wiki/Android_Auto",
+    "język": "pl"
+   },
+   "tagi": [
+    "Android Auto",
+    "Cielo",
+    "Samsunga",
+    "Coolwalk"
+   ],
+   "emotki": [
+    "💻",
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Antyweb",
+     "tytuł": "Nowa wersja Android Auto trafia do użytkowników. A co w niej?",
+     "url": "https://antyweb.pl/nowa-wersja-android-auto-trafia-do-uzytkownikow-a-co-w-niej"
+    },
+    {
+     "nazwa": "Antyweb",
+     "tytuł": "Aktualizacja Samsunga psuje Android Auto",
+     "url": "https://antyweb.pl/aktualizacja-samsunga-powoduje-problemy-warto-wiedziec-nim-zainstalujesz"
+    },
+    {
+     "nazwa": "Ars Technica",
+     "tytuł": "Google dismantles botnet secretly running on 1.3 million Android TV boxes",
+     "url": "https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.371,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.52,
+     "eksponowanie": 0.36,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.591,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Fizycy przybliżają się do „Zeptoverse” po 42-letnim wyszukiwaniu cząstek",
+   "lead": "jessiki Marsh, Fizycy Uniwersytetu w Manchesterze znaleźli dowody na rozpad cząstek tak rzadki, że oczekuje się, że wystąpi tylko raz na 10 miliardów „pięknych” cząstek. Wynik, pochodzący z ulepszonego eksperymentu LHCb w Wielkim Zderzaczu Hadronów (LHC) CERN, jest wynikiem poszukiwań trwających ponad 40 lat…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-03T15:40:30+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-11-physicists-closer-zeptoverse-year-particle.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/manchester-physicists.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Naukowcy z Uniwersytetu w Manchesterze odegrali kluczową rolę w eksperymencie LHCb i jego głównej modernizacji - która może teraz gromadzić dane nawet pięciokrotnie szybciej niż poprzednio - w tym opracowaniu technologii detektora, która umożliwiła nowy pomiar.",
+      "Odkrycie to umożliwi fizykom przetestowanie Modelu Standardowego, naszej obecnej najlepszej teorii cząstek podstawowych i ich oddziaływań, z większą precyzją oraz poszukiwanie śladów cząstek lub sił, które mogą leżeć poza nim.",
+      "LHCb bada cząstki zawierające kwarki kosmetyczne, cięższe krewne kwarków górnych i dolnych występujących w otaczającej nas materii zwykłej.",
+      "Kwarki kosmetyczne są produkowane w ogromnych ilościach w zderzeniach w LHC, ale istnieją tylko przez około półtorej trylionowej sekundy przed rozpadem.",
+      "Wykonując precyzyjne pomiary różnych sposobów rozpadu kwarków kosmetycznych, fizycy mogą wykryć wpływ nowych cząstek, które mogą być zbyt małe, aby je zobaczyć w LHC.",
+      "Nowy wynik dotyczy szczególnie rzadkiego rozpadu znanego jako „Bd to mu mu”, w którym cząstka zawierająca kwark piękna rozpada się na dwa miony, cięższe krewne elektronów.",
+      "Do tej pory żaden eksperyment nie znalazł solidnych dowodów na ten proces.",
+      "Jest to wystarczające, aby fizycy opisali wynik jako pierwszy dowód rozpadu, chociaż potrzebne będą dalsze dane, aby osiągnąć próg pięciu sigm wymagany do twierdzenia odkrycia w fizyce cząstek elementarnych.",
+      "Profesor Chris Parkes, kierownik Wydziału Fizyki i Astronomii Uniwersytetu w Manchesterze, poprowadził międzynarodową współpracę LHCb przez budowę modernizacji i poprowadził zatwierdzenie nowego wyniku współpracy."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "LHCb – jeden z siedmiu eksperymentów używających detektorów cząstek elementarnych do gromadzenia danych w Wielkim Zderzaczu Hadronów (LHC) w CERN."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: LHCb",
+     "url": "https://pl.wikipedia.org/wiki/LHCb"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "1,999",
-    "5.4",
-    "7.6",
-    "18",
-    "57.58 billion"
+    "10 billion",
+    "40",
+    "3.2",
+    "15",
+    "1,900",
+    "90"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "John Ternus",
-    "opis": "American engineer and business executive (born 1975)",
-    "tekst": "John Patrick Ternus is an American engineer and business executive who has been the chief executive officer (CEO) of Apple since September 2026. Ternus joined Apple's product design team in 2001, and was the company's senior vice president of hardware engineering from 2021 to 2026.",
-    "url": "https://en.wikipedia.org/wiki/John_Ternus",
-    "język": "en"
+    "hasło": "LHCb",
+    "opis": "",
+    "tekst": "LHCb – jeden z siedmiu eksperymentów używających detektorów cząstek elementarnych do gromadzenia danych w Wielkim Zderzaczu Hadronów (LHC) w CERN.",
+    "url": "https://pl.wikipedia.org/wiki/LHCb",
+    "język": "pl"
    },
    "tagi": [
-    "Apple",
-    "Duo",
-    "Reuters Ternus",
-    "John Ternus"
+    "LHCb",
+    "University",
+    "Manchester",
+    "LHC"
    ],
    "emotki": [
-    "🚀"
+    "⚛️",
+    "🪐"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "The Verge",
-     "tytuł": "Apple is ‘not able to predict’ when it’ll have enough iPhone Duos to go around",
-     "url": "https://www.theverge.com/tech/1024915/apple-iphone-duo-supply-chain-constraints"
-    },
-    {
-     "nazwa": "TechCrunch",
-     "tytuł": "Apple says it’s ‘hard to predict’ when iPhone Duo constraints will improve",
-     "url": "https://techcrunch.com/2026/11/02/apple-says-its-hard-to-predict-when-iphone-duo-constraints-will-improve/"
+     "nazwa": "Phys.org",
+     "tytuł": "Physicists step closer to the 'Zeptoverse' after 42-year particle search",
+     "url": "https://phys.org/news/2026-11-physicists-closer-zeptoverse-year-particle.html"
     }
    ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 2,
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 4.918,
+    "wynik": 3.633,
     "składowe": {
-     "potwierdzenia": 1.9,
+     "potwierdzenia": 0.0,
      "ranga_źródła": 1.2,
-     "eksponowanie": 0.9,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.53,
-     "treściwość": 0.388,
+     "eksponowanie": 0.45,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.433,
+     "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Apple is ‘not able to predict’ when it’ll have enough iPhone Duos to go around",
+   "oryginalny_nagłówek": "Physicists step closer to the 'Zeptoverse' after 42-year particle search",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
    },
-   "miejsce": 2
+   "miejsce": 1
   },
   {
    "dział": {
@@ -1082,13 +1378,13 @@
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.891,
+    "wynik": 3.591,
     "składowe": {
      "potwierdzenia": 0.0,
      "ranga_źródła": 1.05,
      "eksponowanie": 0.72,
      "słowa_kluczowe": 1.05,
-     "świeżość": 0.571,
+     "świeżość": 0.271,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
@@ -1098,85 +1394,6 @@
     "z": "en",
     "silnik": "MyMemory"
    },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "fizyka",
-    "nazwa": "Fizyka",
-    "emoji": "⚛️",
-    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
-   },
-   "nagłówek": "Dokładnie rozwiązalny model ujawnia, w jaki sposób uwięzione światło może tworzyć porządek magnetyczny w jednowymiarowych łańcuchach spinowych",
-   "lead": "Zespół badawczy chciał lepiej zrozumieć, w jaki sposób zmieniają się siły między cząstkami wewnątrz materiału. Odkryli, że ograniczając jednowymiarowe klasyczne łańcuchy spinowe wewnątrz wnęki lustrzanej za pomocą światła, mogą zmusić te cząstki magnetyczne do zorganizowania się i przejścia fazowego.",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-02T22:00:13+00:00",
-   "źródło": {
-    "nazwa": "Phys.org",
-    "url": "https://phys.org/news/2026-11-solvable-reveals-magnetic-dimensional-chains.html",
-    "domena": "phys.org"
-   },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/team-discovers-exactly.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Ich praca dostarcza najprostszych dokładnie możliwych do rozwiązania przykładów pokazujących, że światło może tworzyć nowe przejścia fazowe z materiałami.",
-      "W 1925 roku Ernst Ising wykazał, że pojedynczy jednowymiarowy łańcuch małych cząstek magnetycznych o interakcjach najbliższego sąsiada nie wykazuje magnetycznego przejścia fazowego w skończonych temperaturach.",
-      "Jednak dziś naukowcy wiedzą, że magnetyczne przejścia fazowe mogą zachodzić w dwóch lub więcej wymiarach, pozycjonując model Isinga jako proste, kluczowe narzędzie matematyczne do badania zachowania dużych grup oddziałujących cząstek.",
-      "Ponadto naukowcy wykorzystują systemy wnękowe, w których materia i światło są uwięzione i silnie oddziałują ze sobą, co prowadzi do możliwego odkrycia nowych zjawisk w fizyce.",
-      "W ostatniej dekadzie ultrawysokie sprzężenie materii świetlnej przeszło od koncepcji teoretycznych do różnorodnych systemów eksperymentalnych.",
-      "Te układy doświadczalne obejmują fonony, przejścia międzypasmowe w półprzewodnikowych studniach kwantowych, obwody nadprzewodzące, cząsteczki organiczne, ruch cyklotronów elektronowych i magnony.",
-      "Postęp ten pokazał naukowcom potencjalne zastosowania zarówno w fizyce, jak i chemii.",
-      "Naukowcy byli szczególnie zainteresowani obserwacją nadpromienistej przemiany fazowej, która jest spontanicznym gromadzeniem się koherentnego pola elektromagnetycznego w równowadze termicznej z powodu sprzężenia światła z materią.",
-      "W swoich badaniach opublikowanych w czasopiśmie Physical Review Research zespół badawczy zastosował minimalną drogę interakcji, badając dokładnie rozwiązalny model klasyczny 1D sprzężony z jamą."
-     ]
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "10.1103"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": null,
-   "tagi": [
-    "Ising",
-    "Bamba",
-    "Physical Review Research",
-    "Yokohama National University BSc Life Sciences"
-   ],
-   "emotki": [
-    "⚛️"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Phys.org",
-     "tytuł": "Exactly solvable model reveals how trapped light can create magnetic order in one-dimensional spin chains",
-     "url": "https://phys.org/news/2026-11-solvable-reveals-magnetic-dimensional-chains.html"
-    }
-   ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 3.813,
-    "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.2,
-     "eksponowanie": 0.9,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.513,
-     "treściwość": 0.5,
-     "język_działu": 0.0
-    }
-   },
-   "oryginalny_nagłówek": "Exactly solvable model reveals how trapped light can create magnetic order in one-dimensional spin chains",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   },
    "miejsce": 2
   },
   {
@@ -1186,300 +1403,294 @@
     "emoji": "🔭",
     "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
    },
-   "nagłówek": "Niebo w listopadzie 2026 - a planety szaleją...",
-   "lead": "2026 jest jak u Hitchcocka - najpierw trzęsienie... nieba, a potem napięcie rośnie ; ) Startujemy od porannej gonitwy Księżyca z Marsem, Jowiszem oraz Regulusem - najjaśniejszą gwiazdą Lwa. W kolejnych dniach oglądamy stary Księżyc w bliskim złączeniu z Wenus oraz gwiazdą Spika.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-02T13:21:16+00:00",
-   "źródło": {
-    "nazwa": "Urania",
-    "url": "https://www.urania.edu.pl/wiadomosci/niebo-w-listopadzie-2026-planety-szaleja",
-    "domena": "urania.edu.pl"
-   },
-   "obraz": null,
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Mało tego - na poranny firmament w drugiej połowie miesiąca wkracza Merkury!",
-      "A przez całą noc podziwiać możemy trzy najdalsze planety Układu Słonecznego: Saturna, Neptuna i Urana w opozycji.",
-      "Już dawno nie było takiego szaleństwa na niebie...",
-      "Po szczegóły zapraszamy do naszego filmowego kalendarza astronomicznego."
-     ]
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": null,
-   "tagi": [
-    "Układu Słonecznego Saturna Neptuna",
-    "Marsem Jowiszem",
-    "Hitchcocka",
-    "Startujemy"
-   ],
-   "emotki": [
-    "🪐"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Urania",
-     "tytuł": "Niebo w listopadzie 2026 - a planety szaleją...",
-     "url": "https://www.urania.edu.pl/wiadomosci/niebo-w-listopadzie-2026-planety-szaleja"
-    },
-    {
-     "nazwa": "EarthSky",
-     "tytuł": "Visible planets and night sky guide for November",
-     "url": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 7.346,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.292,
-     "eksponowanie": 1.35,
-     "słowa_kluczowe": 1.4,
-     "świeżość": 0.404,
-     "treściwość": 0.5,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "astronomia",
-    "nazwa": "Astronomia",
-    "emoji": "🔭",
-    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
-   },
-   "nagłówek": "Hubble NASA odkrywa przypadek braku tlenu w pobliskich galaktykach karłowatych",
-   "lead": "Kosmiczny Teleskop Hubble 'a NASA właśnie ujawnił tajemnicę w naszej kosmicznej dzielnicy. W artykule opublikowanym w poniedziałek w czasopiśmie The Astrophysical Journal naukowcy korzystający z Hubble' a zbadali 37 pobliskich galaktyk karłowatych — małych galaktyk zawierających od kilku tysięcy do setek milionów gwiazd — i odkryli, że znaczna część tlenu...",
+   "nagłówek": "JWST mógł znaleźć miejsce, w którym utworzyły się nasiona ciężkich czarnych dziur",
+   "lead": "Astrofizycy uważają, że supermasywne czarne dziury (SMBH), które widzimy we współczesnym wszechświecie, są wynikiem długiego, wyciągniętego procesu. Proces ten jest określany jako hierarchiczne ramy łączenia się czarnych dziur.",
    "język_źródła": "en",
-   "opublikowano": "2026-11-02T15:00:39+00:00",
+   "opublikowano": "2026-11-03T15:20:01+00:00",
    "źródło": {
-    "nazwa": "NASA",
-    "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/",
-    "domena": "science.nasa.gov"
+    "nazwa": "Phys.org Astronomy",
+    "url": "https://phys.org/news/2026-11-jwst-heavy-black-hole-seeds.html",
+    "domena": "phys.org"
    },
-   "obraz": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2026/11/STScI-01M4RST3TGWT2T53FVXQBSP75D.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-jwst-may-have-foun.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Symulacje przewidują, że znacznie więcej tlenu, znacznika szerszego zestawu ciężkich pierwiastków, powinno znajdować się w tych galaktykach.",
-      "Więc gdzie to się podziało? „Tlen jest wytwarzany przez gwiazdy, które znajdują się wewnątrz galaktyk.",
-      "Wiemy, że w pewnym momencie w przeszłości tlen musiał znajdować się wewnątrz galaktyk, więc musiał zostać wyrzucony ” - powiedziała współbadaczka Grace Telford, adiunkt na Wydziale Fizyki i Astronomii Uniwersytetu Utah. „Aby to zrobić, potrzebna jest energia z masywnych gwiazd i wybuchów supernowych, aby wypchnąć materiał z galaktyk macierzystych w przestrzeń między galaktykami.„Wiatry galaktyczne uwalniane przez supernowe są najwyraźniej skuteczniejsze w jak wynika z nowych badań, usuwanie tlenu z galaktyk o niskiej masie, jak przewidują obecne modele.",
-      "Odkrycia pokazują, że galaktyki karłowate mogą utrzymać tylko niewielką część tlenu wytwarzanego przez gwiazdy.",
-      "W ramach projektu Galaktyki tracące tlen przez wiatry (GLOW), finansowanego przez NASA i Narodową Fundację Nauki, naukowcy prześledzili tlen, aby zrozumieć, w jaki sposób jest on rozprowadzany wewnątrz gwiazd, w gazie między gwiazdami i w przestrzeni między galaktykami.",
-      "Tlen, najliczniejszy pierwiastek po wodorze i helu, jest stosunkowo łatwy do wykrycia i zmierzenia, a jego produkcja jest dobrze poznana — co czyni go wiarygodnym wskaźnikiem rozkładu pierwiastków chemicznych w galaktyce. „Tak więc to naprawdę ze względów praktycznych wybraliśmy tlen” - powiedziała Kristen Wingfield McQuinn, główny badacz GLOW i szef misji Centrum Operacji Naukowych NASA dla nowo uruchomionego, panoramicznego Kosmicznego Teleskopu Nancy Grace Roman na space Telescope Science Institute w Baltimore w stanie Maryland.",
-      "Jest również profesorem nadzwyczajnym na Uniwersytecie Rutgersa w Nowym Brunszwiku w stanie New Jersey. „Tlen jest jednym z podstawowych pierwiastków tworzonych przez gwiazdy.",
-      "Możliwość śledzenia, ile tlenu powstaje, a następnie, ile jest rozprowadzane wewnątrz i na zewnątrz galaktyk, pomaga nam zrozumieć ewolucję galaktyk ” - powiedział McQuinn. „Pomaga nam również dowiedzieć się, gdzie i jak wiele galaktyk wzbogaca przestrzeń między galaktykami, zwaną ośrodkiem międzygalaktycznym.\" W badaniu wykorzystano archiwalne dane z obrazowania optycznego z Hubble 'a, aby rozwiązać populacje gwiazd i określić historie i kompozycje formacji gwiazd.",
-      "Wraz z danymi z przestarzałego Kosmicznego Teleskopu Spitzera NASA, a także naziemnej bazy Very Large Array i Australian Telescope Compact Array, naukowcy przeanalizowali 37 pobliskich galaktyk karłowatych, aby prześledzić atomy tlenu wytwarzane przez gwiazdy."
+      "Chodzi o to, że te SMBH zaczynają się jako nasiona, a te nasiona są czarnymi dziurami o masie gwiaździstej.",
+      "Po pierwsze, masywne gwiazdy o masie od około 8 do 50 mas Słońca kończą okres syntezy jądrowej.",
+      "Albo eksplodują jako supernowe, a ich rdzenie zapadają się, tworząc czarne dziury, albo zapadają się bezpośrednio w czarne dziury.",
+      "Te czarne dziury mają masę od około 100 mas Słońca do 100 000 mas Słońca.",
+      "Artykuł z 2024 roku koncentrował się na Omega Centauri, kulistej gromadzie na obrzeżach Drogi Mlecznej, jako miejscu IMBH.",
+      "Według tej pracy grupę szybko poruszających się gwiazd w centrum Omega Centauri można wyjaśnić tylko obecnością IMBH o około 8200 masach Słońca.",
+      "W artykule z 2020 r. przedstawiono jedyny bezpośredni dowód na istnienie IMBH, gdy fale wykazały, że dwie czarne dziury o masie 85 i 66 mas Słońca połączyły się, tworząc IMBH o masie około 142 mas Słońca.",
+      "\"Kosmiczny Teleskop Jamesa Webba (JWST) ujawnił populację gęstych układów gwiezdnych przy wysokich przesunięciach ku czerwieni, w tym łuk 'Kosmicznych Klejnotów' (z ~ 10.2) i 'Błysk Świetlika' (z ~ 8.3).",
+      "„Nasze szacunki pozwalają uzyskać typowe masy IMBH w zakresie od ~10² M do ~4 × 10³ M, co oznacza typową wydajność tworzenia na poziomie kilku procent.„ Kosmiczne Klejnoty to galaktyka soczewkowana grawitacyjnie, a JWST obserwował jej światło, gdy wszechświat miał zaledwie około 460 milionów lat."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Naukowcy badający dane zebrane przez Kosmiczny Teleskop Hubble 'a NASA odkryli, że dziesiątki małych galaktyk zawierają znacznie mniej tlenu niż ich gwiazdy.",
-      "Naukowcy, w tym astrofizyk Rutgersa, zbadali 37 galaktyk karłowatych, które są znacznie mniejsze niż Droga Mleczna i uważane za znajdujące się w pobliżu, w odległości 22 milionów lat świetlnych od Ziemi.",
-      "Galaktyki zatrzymywały od 4% do 25% tlenu, ze średnią około 11%.",
-      "„Tlen jest jednym z podstawowych elementów tworzonych przez gwiazdy” - powiedziała Kristen Wingfield McQuinn, profesor nadzwyczajny na Wydziale Fizyki i Astronomii w Rutgers School of Arts and Sciences i współautorka badania.",
-      "- Więc tak naprawdę ze względów praktycznych wybraliśmy tlen. \"Tlen emituje światło o określonych kolorach, które instrumenty na teleskopach na Ziemi mogą łatwo wykryć.",
-      "„Aby to zrobić, potrzebna jest energia z masywnych gwiazd i wybuchów supernowych, aby wypchnąć materiał z galaktyk macierzystych w przestrzeń między galaktykami.„ Naukowcy wykorzystali wcześniej zebrane obrazy z Hubble 'a, aby rozróżnić poszczególne gwiazdy w galaktykach."
+      "Astrofizycy uważają, że supermasywne czarne dziury (SMBH), które widzimy we współczesnym Wszechświecie, są wynikiem długotrwałego procesu.",
+      "\"Kosmiczny Teleskop Jamesa Webba (JWST) ujawnił populację gęstych układów gwiezdnych przy wysokich przesunięciach ku czerwieni, w tym łuk\"Kosmicznych Klejnotów\"(z ~ 10.2) i\" Błysk Świetlika \" (z ~ 8.3).",
+      "Przy masach mieszczących się w zakresie 10 5 M –10 7 M i promieniach o połowie masy mieszczących się w zakresie ~0,4-15 szt., układy te idealnie nadają się do tworzenia czarnych dziur o średniej masie (IMBH) za pomocą modeli opartych na kolizjach \", piszą autorzy."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Kosmiczny Teleskop Hubble 'a to kosmiczny teleskop, który został wystrzelony na niską orbitę Ziemi w 1990 roku i nadal działa. Nie był to pierwszy kosmiczny teleskop, ale jeden z największych i najbardziej wszechstronnych, znany jako ważne narzędzie badawcze i dobrodziejstwo public relations dla astronomii. Kosmiczny Teleskop Hubble' a został nazwany na cześć astronoma Edwina Hubble 'a i jest jednym z Wielkich Obserwatoriów NASA. Space Telescope Science Institute (STScI) wybiera cele Hubble 'a i przetwarza uzyskane dane, podczas gdy Goddard Space Flight Center (GSFC) kontroluje statek kosmiczny."
+      "Czarna dziura o średniej masie (IMBH) to klasa czarnej dziury o masie w zakresie od 100 do 100 000 (102–105) mas Słońca: znacznie wyższej niż czarne dziury gwiazdowe, ale niższej niż sto tysięcy do ponad miliarda (105–109) supermasywnych czarnych dziur o masie Słońca. Kilka obiektów kandydujących IMBH zostało odkrytych w galaktyce Drogi Mlecznej, a inne w pobliżu, w oparciu o obserwacje pośredniej prędkości chmury gazu i widm dysku akrecyjnego o różnej sile dowodowej."
      ],
      "język": "en",
-     "przypis": "Wikipedia: Hubble Space Telescope",
-     "url": "https://en.wikipedia.org/wiki/Hubble_Space_Telescope"
+     "przypis": "Wikipedia: Intermediate-mass black hole",
+     "url": "https://en.wikipedia.org/wiki/Intermediate-mass_black_hole"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "37",
-    "4449",
-    "22 million",
-    "4%",
-    "25%",
-    "11%"
+    "50",
+    "100",
+    "8,200",
+    "85",
+    "66",
+    "142"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Hubble Space Telescope",
-    "opis": "NASA/ESA space telescope launched in 1990",
-    "tekst": "The Hubble Space Telescope is a space telescope that was launched into low Earth orbit in 1990 and remains in operation. It was not the first space telescope, but it is one of the largest and most versatile, renowned as a vital research tool and as a public relations boon for astronomy. The Hubble Space Telescope is named after astronomer Edwin Hubble and is one of NASA's Great Observatories. The Space Telescope Science Institute (STScI) selects Hubble's targets and processes the resulting data, while the Goddard Space Flight Center (GSFC) controls the spacecraft.",
-    "url": "https://en.wikipedia.org/wiki/Hubble_Space_Telescope",
+    "hasło": "Intermediate-mass black hole",
+    "opis": "Class of black holes with a mass range of 100 to 100000 solar masses",
+    "tekst": "An intermediate-mass black hole (IMBH) is a class of black hole with mass in the range of 100 to 100,000 (102–105) solar masses: significantly higher than stellar black holes but lower than the hundred thousand to more than one billion (105–109) solar mass supermassive black holes. Several IMBH candidate objects have been discovered in the Milky Way galaxy and others nearby, based on indirect gas cloud velocity and accretion disk spectra observations of various evidentiary strength.",
+    "url": "https://en.wikipedia.org/wiki/Intermediate-mass_black_hole",
     "język": "en"
    },
    "tagi": [
-    "Hubble",
-    "McQuinn",
-    "NASA",
-    "Space Telescope Science Institute"
+    "IMBHs",
+    "SMBHs",
+    "Cosmic Gems",
+    "Firefly Sparkle"
    ],
    "emotki": [
-    "🔭",
-    "🔬"
+    "🔭"
    ],
    "wszystkie_źródła": [
-    {
-     "nazwa": "NASA",
-     "tytuł": "NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies",
-     "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/"
-    },
     {
      "nazwa": "Phys.org Astronomy",
-     "tytuł": "Stars make oxygen for small galaxies, but they lose most of it",
-     "url": "https://phys.org/news/2026-11-stars-oxygen-small-galaxies.html"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 3,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 6.408,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.48,
-     "eksponowanie": 0.99,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.488,
-     "treściwość": 0.5,
-     "język_działu": 0.0
-    }
-   },
-   "oryginalny_nagłówek": "NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   },
-   "miejsce": 2
-  },
-  {
-   "dział": {
-    "id": "geografia",
-    "nazwa": "Geografia",
-    "emoji": "🗺️",
-    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
-   },
-   "nagłówek": "Drobnoustroje na końcu Ziemi: ukryta bioróżnorodność Antarktydy",
-   "lead": "caray A Walker, Melody Clark, The Conversation Kiedy myślimy o Antarktyce, wiele osób wyobraża sobie pingwiny, foki i wieloryby. Jednak większości cudów naukowych Antarktydy nie da się dostrzec bez mikroskopu.",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-03T00:20:01+00:00",
-   "źródło": {
-    "nazwa": "Phys.org Earth",
-    "url": "https://phys.org/news/2026-11-microbes-earth-antarctica-hidden-biodiversity.html",
-    "domena": "phys.org"
-   },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2021/antarctica.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Te zbiorowiska drobnoustrojów stanowią podstawę ekosystemów Antarktyki, ale pozostają w dużej mierze niewidoczne dla większości odwiedzających.",
-      "Ostatnie badania opublikowane w Proceedings of the National Academy of Sciences wykazały, że niektóre drobnoustroje żyjące na antarktycznych glebach wydają się nie występować nigdzie indziej na Ziemi.",
-      "Podważa to długoletnie przekonanie naukowców, że drobnoustroje są łatwo rozproszone i dlatego można je znaleźć wszędzie.",
-      "Antarktyda jest jednym z najbardziej odizolowanych i surowych środowisk na Ziemi.",
-      "Jej organizmy muszą radzić sobie z ekstremalnym zimnem, suchością, intensywnym promieniowaniem UV i ograniczonymi składnikami odżywczymi, tworząc wybiórcze presje unikalne dla kontynentu.",
-      "Temperatura gleby może wahać się od około 8°C (46 stopni Fahrenheita) w lecie do poniżej -25°C (-13 stopni Fahrenheita) w zimie, podczas gdy temperatura powietrza może spaść poniżej -40°C (-40 stopni Fahrenheita).",
-      "Powszechne są gwałtowne wahania temperatury, co stwarza szczególnie trudne warunki dla życia.",
-      "Podczas gdy ekstremalne zimno występuje również w Arktyce, to historyczna izolacja geograficzna charakteryzuje ewolucję w kierunku zimna na Antarktydzie.",
-      "Gatunki antarktyczne były skutecznie izolowane w zimnie od reszty planety przez prąd okołobiegunowy przez 10–15 milionów lat, podczas gdy Arktyka jest nadal silnie związana z innymi kontynentami i była zimna tylko przez około 1,5 miliona lat ."
-     ]
+     "tytuł": "JWST may have found where heavy black hole seeds formed",
+     "url": "https://phys.org/news/2026-11-jwst-heavy-black-hole-seeds.html"
     },
     {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Położona na Morzu Weddella, na wschód od Półwyspu Antarktycznego, wyspa Vega ma szczególnie nawiedzający wygląd, patrząc z góry.",
-      "Obrazy zostały przechwycone przez Olimp (Operational Land Imager) na pokładzie Landsat 9 odpowiednio 22 marca 2025 r. i 10 października 2026 r.",
-      "(Chmury zasłoniły wyspę w marcu 2026 roku.) Kilka naturalnych punktów orientacyjnych tworzy charakterystyczny wygląd czaszki."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Antarktyda jest najdalej na południe wysuniętym i najsłabiej zaludnionym kontynentem Ziemi. Położony prawie w całości na południe od koła antarktycznego i otoczony Oceanem Południowym, zawiera geograficzny biegun południowy. Antarktyda jest piątym co do wielkości kontynentem, około 40% większym od Europy, o powierzchni 14 200 000 km2. Większość Antarktydy pokryta jest pokrywą lodową Antarktydy, o średniej grubości 1,9 km (1,2 mili)."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Antarctica",
-     "url": "https://en.wikipedia.org/wiki/Antarctica"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "8°C",
-    "46",
-    "-25°C",
-    "-13",
-    "-40°C",
-    "10"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Antarctica",
-    "opis": "Earth's southernmost continent",
-    "tekst": "Antarctica is Earth's southernmost and least-populated continent. Situated almost entirely south of the Antarctic Circle and surrounded by the Southern Ocean, it contains the geographic South Pole. Antarctica is the fifth-largest continent, being about 40% larger than Europe, and has an area of 14,200,000 km2 (5,500,000 sq mi). Most of Antarctica is covered by the Antarctic ice sheet, with an average thickness of 1.9 km (1.2 mi).",
-    "url": "https://en.wikipedia.org/wiki/Antarctica",
-    "język": "en"
-   },
-   "tagi": [
-    "Antarctic",
-    "Antarctica",
-    "Fahrenheit",
-    "National Academy"
-   ],
-   "emotki": [
-    "🪐"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Phys.org Earth",
-     "tytuł": "Microbes at the end of the Earth: Antarctica's hidden biodiversity",
-     "url": "https://phys.org/news/2026-11-microbes-earth-antarctica-hidden-biodiversity.html"
-    },
-    {
-     "nazwa": "ScienceDaily Earth",
-     "tytuł": "NASA reveals a haunting skull hidden in Antarctica’s ice",
-     "url": "https://www.sciencedaily.com/releases/2026/11/261101010538.htm"
+     "nazwa": "Universe Today",
+     "tytuł": "The JWST May Have Found Where Heavy Black Hole Seeds Formed",
+     "url": "https://www.universetoday.com/articles/the-jwst-may-have-found-where-heavy-black-hole-seeds-formed"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.831,
+    "wynik": 5.87,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.3,
-     "eksponowanie": 1.26,
-     "słowa_kluczowe": 1.4,
-     "świeżość": 0.542,
-     "treściwość": 0.429,
+     "ranga_źródła": 1.35,
+     "eksponowanie": 1.35,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.429,
+     "treściwość": 0.491,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Microbes at the end of the Earth: Antarctica's hidden biodiversity",
+   "oryginalny_nagłówek": "JWST may have found where heavy black hole seeds formed",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "The Sky Today on Tuesday, November 3: The Moon passes Regulus",
+   "lead": "Looking for a sky event this week? Check out our full Sky This Week column.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-03T09:00:00+00:00",
+   "źródło": {
+    "nazwa": "Astronomy Magazine",
+    "url": "https://www.astronomy.com/observing/the-sky-today-tuesday-november-3-2026/",
+    "domena": "astronomy.com"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "November 2: The Moon passes Jupiter and Mars The Moon now passes 0.8° south of the bright star Regulus in Leo at 4 A.M.",
+      "Some regions of the world will see our satellite pass in front of Regulus in an occultation, Continue reading \"The Sky Today on Tuesday, November 3: The Moon passes Regulus\" The post The Sky Today on Tuesday, November 3: The Moon passes Regulus appeared first on Astronomy Magazine ."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "In 2026, its annual conference, titled Under One Sky , will be held virtually on November 6-7.",
+      "The 24-hour event brings together a growing global community committed to reducing light pollution and protecting the night through advocacy and conservation.",
+      "DarkSky International describes what you can expect from the conference: Under One Sky unites leading experts, inspiring storytellers and dedicated advocates to share solutions and tools for preserving the night."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Regulus is the brightest object in the constellation Leo and one of the brightest stars in the night sky. It has the Bayer designation designated α Leonis, which is Latinized to Alpha Leonis, and abbreviated Alpha Leo or α Leo. Regulus appears single, but is actually a quadruple star system composed of four stars that are organized into two pairs. The system lies approximately 79 light years from the Solar System."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Regulus",
+     "url": "https://en.wikipedia.org/wiki/Regulus"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "0.8",
+    "24",
+    "99%",
+    "80%",
+    "7, 2026"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Regulus",
+    "opis": "Brightest star in the constellation Leo",
+    "tekst": "Regulus is the brightest object in the constellation Leo and one of the brightest stars in the night sky. It has the Bayer designation designated α Leonis, which is Latinized to Alpha Leonis, and abbreviated Alpha Leo or α Leo. Regulus appears single, but is actually a quadruple star system composed of four stars that are organized into two pairs. The system lies approximately 79 light years from the Solar System.",
+    "url": "https://en.wikipedia.org/wiki/Regulus",
+    "język": "en"
+   },
+   "tagi": [
+    "Moon",
+    "Regulus",
+    "Tuesday November",
+    "Sky Today"
+   ],
+   "emotki": [
+    "🪐"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Astronomy Magazine",
+     "tytuł": "The Sky Today on Tuesday, November 3: The Moon passes Regulus",
+     "url": "https://www.astronomy.com/observing/the-sky-today-tuesday-november-3-2026/"
+    },
+    {
+     "nazwa": "EarthSky",
+     "tytuł": "Dark sky conference: Under One Sky, November 6-7",
+     "url": "https://earthsky.org/human-world/dark-sky-conference-under-one-sky-november-6-7-2026/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.822,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.193,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.369,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Mapping Kīlauea’s Magma Reservoirs",
+   "lead": "A fountain of lava rises from Kīlauea’s Halemaʻumaʻu crater on 17 October 2026. Credit: Hawaiian Volcano Observatory, USGS , Public Domain",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-03T13:43:59+00:00",
+   "źródło": {
+    "nazwa": "Eos (AGU)",
+    "url": "https://eos.org/research-spotlights/mapping-kilaueas-magma-reservoirs",
+    "domena": "eos.org"
+   },
+   "obraz": "https://eos.org/wp-content/uploads/2026/10/halema-uma-u-lava-fountain-1024x576.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Not only did it erupt almost continuously from 1983 to 2018, but it also began a new series of eruptions in late 2024 that continue as of late 2026.",
+      "For their study published in the Journal of Geophysical Research: Solid Earth , Guoqing Lin and colleagues used a large network of seismometers to map the magma storage beneath Kīlauea's summit at high resolution.",
+      "Using a seismic array that tracked both natural seismic activity and controlled artificial vibrations, the researchers identified two reservoirs for magma: one beneath the Halemaʻumaʻu crater in the main Kīlauea caldera and the other beneath the south caldera."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "17",
+    "1,815",
+    "12",
+    "7.5",
+    "10.1029"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Phys.org Earth Sciences",
+     "ujęcie": "The Hawaiian volcano Kīlauea is among the most active on Earth.",
+     "url": "https://phys.org/news/2026-11-klauea-magma-reservoirs-high-resolution.html"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Hawaiian Volcano Observatory",
+    "Kīlauea’s Magma Reservoirs",
+    "Kīlauea’s Halemaʻumaʻu",
+    "Public Domain"
+   ],
+   "emotki": [
+    "🌋"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Eos (AGU)",
+     "tytuł": "Mapping Kīlauea’s Magma Reservoirs",
+     "url": "https://eos.org/research-spotlights/mapping-kilaueas-magma-reservoirs"
+    },
+    {
+     "nazwa": "Phys.org Earth Sciences",
+     "tytuł": "Mapping Kīlauea's magma reservoirs at high resolution",
+     "url": "https://phys.org/news/2026-11-klauea-magma-reservoirs-high-resolution.html"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.265,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.357,
+     "eksponowanie": 1.44,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.479,
+     "treściwość": 0.389,
+     "język_działu": 0.0
+    }
    },
    "miejsce": 1
   },
@@ -1490,57 +1701,119 @@
     "emoji": "🗺️",
     "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
    },
-   "nagłówek": "Czwarte posiedzenie zespołu ds. GML",
-   "lead": "GUGIK udostępnił notatkę z posiedzenia Zespołu ds. ujednolicenia stosowania modelu pojęciowego, schematów aplikacyjnych oraz standardów wymiany danych w formacie GML, które miało miejsce 13 października br. Przedmiotem dyskusji czwartego spotkania była interpretacja przepisów dotyczących przekazywania wyników prac…",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-03T00:00:00+00:00",
+   "nagłówek": "Diverse forests can better withstand extreme weather events, study finds. Here’s why",
+   "lead": "Forests around the world face mounting pressures as the climate changes. In order to understand how they will fare, new research suggests looking at the forest for the trees — more specifically, the different types of trees within.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-02T21:04:55+00:00",
    "źródło": {
-    "nazwa": "Geoforum",
-    "url": "https://geoforum.pl/news/37481/czwarte-posiedzenie-zespolu-ds-gml",
-    "domena": "geoforum.pl"
+    "nazwa": "Mongabay",
+    "url": "https://news.mongabay.com/2026/11/diverse-forests-can-better-withstand-extreme-weather-events-study-finds-heres-why/",
+    "domena": "news.mongabay.com"
    },
-   "obraz": null,
+   "obraz": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/02164751/andy-holmes-TxkisEuUs7w-unsplash-768x512.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "W trakcie posiedzenia m.in.: Zwrócono uwagę na różnice w interpretacji zakresu..."
+      "The study, published in July in Nature Communications , examined thousands of acres of U.S. woodlands.",
+      "It found that the higher diversity of tree species in a forest, the better equipped it will be to handle the compound climate extremes that result from global warming, such as when extreme heat occurs at the same time as drought or unusually high rainfall.",
+      "Previous research had already shown that diversity among tree species, broadly, made forests stronger.",
+      "But most of this research had been smaller in scale, or on human-planted experimental plots.",
+      "Confirming that diversity does indeed have a positive effect on the vast, complicated systems of natural forests somewhat surprised the paper’s lead author, Xuetao Qiao. “Before completing the analyses, we were genuinely uncertain whether we would be able to detect this relationship in real forests,” wrote Qiao, a postdoctoral researcher in ecology at Peking University in China, in an email to Mongabay.",
+      "Additionally, most research into forests’ climate resilience has focused on how they weather single events, such as heat waves.",
+      "The reality of a shifting climate, however, will be one of intersecting extremes .",
+      "With this in mind, the study’s authors decided to investigate the effect of these compound events using one of the largest and most comprehensive forest datasets that exists: The U.S.",
+      "Forest Inventory and Analysis program, for which Forest Service researchers have been repeatedly measuring trunk width and cataloging species in forest plots across the continental U.S. since 1990."
      ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "There was a time when, across large swathes of the world, the seasons fed into each other in a relatively predictable cycle of warmer and colder weather.",
+      "When they coincide, their combined effects can place greater pressure on water resources, agriculture, ecosystems, energy systems and public health.",
+      "A new study by researchers at Sultan Qaboos University and the Environment Authority of Oman examined where and how compound drought–heat wave events have occurred across Oman.",
+      "The researchers analyzed ERA5-Land climate data covering 1950–2024 to assess the frequency, duration and severity of droughts, heat waves and events in which both occurred at the same time.",
+      "Heat waves were identified using relative temperature thresholds, allowing unusually hot conditions to be assessed in relation to the normal climate of each location.",
+      "The article, \" Assessing compound drought-heatwave events in Oman using non-stationary copula models ,\" was published in Journal of Hydrology .",
+      "The years 2023–2024 stood out for exceptional compound-event severity within the analyzed historical record."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Schnabel is a German surname meaning \"beak\". Notable people with the surname include:Arthur Schnabel (1948–2018), German judoka Artur Schnabel (1882–1951), Polish-Austrian classical pianist and composer, husband of Therese Schnabel Charles Schnabel (1895–1974), American agricultural chemist Enrico Schnabel, German rower Ernst Schnabel (1913–1986), German writer Isabel Schnabel, German economist, board member of the European Central Bank Johann Gottfried Schnabel (1692–1751/8), German author Julian Schnabel, American painter and filmmaker Stella Schnabel, daughter of Julian, American actress and producer Vito Schnabel, son of Julian, American art dealer, actor, writer and producer Lola Schnabel, daughter of Julian, American artist Karl Ulrich Schnabel (1909–2001), German classical pianist, son of Artur and Therese Schnabel Parker Schnabel, American gold miner and cast member of the…"
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Schnabel",
+     "url": "https://en.wikipedia.org/wiki/Schnabel"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "13"
+    "88,116",
+    "10.1038",
+    "026",
+    "75370",
+    "60.32%",
+    "87%"
    ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": null,
-   "tagi": [
-    "Zwrócono",
-    "Zespołu"
-   ],
-   "emotki": [],
-   "wszystkie_źródła": [
+   "inne_spojrzenia": [
     {
-     "nazwa": "Geoforum",
-     "tytuł": "Czwarte posiedzenie zespołu ds. GML",
-     "url": "https://geoforum.pl/news/37481/czwarte-posiedzenie-zespolu-ds-gml"
+     "źródło": "Mongabay",
+     "ujęcie": "In temperate nations, frigid winter thawed into spring.",
+     "url": "https://news.mongabay.com/2026/11/extreme-heat-no-longer-confined-to-summer-extending-health-risks-study-finds/"
     }
    ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Schnabel",
+    "opis": "Surname list",
+    "tekst": "Schnabel is a German surname meaning \"beak\". Notable people with the surname include:Arthur Schnabel (1948–2018), German judoka Artur Schnabel (1882–1951), Polish-Austrian classical pianist and composer, husband of Therese Schnabel Charles Schnabel (1895–1974), American agricultural chemist Enrico Schnabel, German rower Ernst Schnabel (1913–1986), German writer Isabel Schnabel, German economist, board member of the European Central Bank Johann Gottfried Schnabel (1692–1751/8), German author Julian Schnabel, American painter and filmmaker Stella Schnabel, daughter of Julian, American actress and producer Vito Schnabel, son of Julian, American art dealer, actor, writer and producer Lola Schnabel, daughter of Julian, American artist Karl Ulrich Schnabel (1909–2001), German classical pianist, son of Artur and Therese Schnabel Parker Schnabel, American gold miner and cast member of the…",
+    "url": "https://en.wikipedia.org/wiki/Schnabel",
+    "język": "en"
+   },
+   "tagi": [
+    "Schnabel",
+    "Qiao",
+    "Mongabay",
+    "Forests"
+   ],
+   "emotki": [
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Mongabay",
+     "tytuł": "Diverse forests can better withstand extreme weather events, study finds. Here’s why",
+     "url": "https://news.mongabay.com/2026/11/diverse-forests-can-better-withstand-extreme-weather-events-study-finds-heres-why/"
+    },
+    {
+     "nazwa": "Mongabay",
+     "tytuł": "Extreme heat no longer confined to summer, extending health risks, study finds",
+     "url": "https://news.mongabay.com/2026/11/extreme-heat-no-longer-confined-to-summer-extending-health-risks-study-finds/"
+    },
+    {
+     "nazwa": "Phys.org Earth Sciences",
+     "tytuł": "New study reveals where drought and extreme heat converge across Oman",
+     "url": "https://phys.org/news/2026-11-reveals-drought-extreme-converge-oman.html"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 3,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.788,
+    "wynik": 4.975,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.0,
-     "eksponowanie": 0.9,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.365,
+     "eksponowanie": 0.54,
      "słowa_kluczowe": 0.35,
-     "świeżość": 0.538,
-     "treściwość": 0.5,
-     "język_działu": 0.5
+     "świeżość": 0.388,
+     "treściwość": 0.432,
+     "język_działu": 0.0
     }
    },
    "miejsce": 2
@@ -1552,59 +1825,79 @@
     "emoji": "🎬",
     "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
    },
-   "nagłówek": "Oficjalnie! \"Cliff Booth\" w IMAX-ach w Polsce. Znamy datę premiery",
-   "lead": "Po tygodniach niepewności i pytań o polską dystrybucję netflixowego widowiska \" Dalsze perypetie Cliffa Bootha \" pojawiło się oficjalne potwierdzenie: film zobaczymy również na ekranach IMAX w Polsce. Nowy zwiastun potwierdza też datę premiery.",
+   "nagłówek": "Gwiazdor chciał porzucić aktorstwo. Ten film był dla niego traumą",
+   "lead": "Film, który otworzył mu drzwi do kariery, okazał się jego największą traumą. Dustin Hoffman ujawnił szokujące kulisy prac nad \"Absolwentem\", które zostawiły niezmywalny ślad na jego psychice.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-02T16:21:00+00:00",
+   "opublikowano": "2026-11-02T17:38:07+00:00",
    "źródło": {
-    "nazwa": "Filmweb",
-    "url": "https://www.filmweb.pl/news/Oficjalnie+%22Cliff+Booth%22+w+IMAX-ach.+Znamy+dat%C4%99+premiery-169455",
-    "domena": "filmweb.pl"
+    "nazwa": "Interia Film",
+    "url": "https://film.interia.pl/mocny-temat/news-gwiazdor-chcial-porzucic-aktorstwo-ten-film-byl-dla-niego-tr,nId,23567851",
+    "domena": "film.interia.pl"
    },
-   "obraz": "https://fwcdn.pl/nph/1032473/2026/78727_1.16.jpg",
-   "sekcje": [],
+   "obraz": "https://i.iplsc.com/-/000NHLF9EIEG47OT-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Na łamach \"The New Yorkera\" aktor opowiedział o przemocy, jaką stosował wobec niego reżyser Mike Nichols.",
+      "Kariera Dustina Hoffmana potoczyłaby się zupełnie inaczej, gdyby nie jego rola w \"Absolwencie\" - melodramacie z 1967 roku, w którym wystąpił u boku Katharine Ross.",
+      "Film Mike'a Nicholsa otworzył przed 30-letnim wówczas aktorem nieskończenie wiele możliwości, jednak ten od początku czuł na planie zdjęciowym pewien dyskomfort.",
+      "Nie wynikało to bynajmniej z braku pewności siebie czy obawy przed porażką.",
+      "Głównym źródłem zmartwień Hoffmana była współpraca z reżyserem, którą podsumował jako \"najgorsze doświadczenie\" w swoim zawodowym życiu. \" Od razu poczułem się jakoś nieswojo, jakbym na to nie zasługiwał .",
+      "Grałem główną rolę w filmie Mike'a Nicholsa - reżysera, który był wówczas na szczycie - a mimo to czułem, że nie powinno mnie tam w ogóle być\" - wyjawił w eseju opublikowanym na łamach \"The New Yorkera\".",
+      "Aktor odsłonił w nim szokujące kulisy powstawania filmu, które sprawiły, że zaczął kwestionować swój talent i umiejętności w zawodzie.",
+      "Dustin Hoffman przyznał, że \" praca nad filmem, który zmienił jego życie, była dla niego koszmarnym doświadczeniem \".",
+      "Powodem owego dyskomfortu był wybuchowy charakter reżysera, który sugerował, że obsadził w swojej produkcji niewłaściwą osobę."
+     ]
+    }
+   ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "25",
-    "23",
-    "50"
+    "30",
+    "27",
+    "22",
+    "60",
+    "89",
+    "40"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Polsce",
-    "Cliffa Bootha",
-    "IMAX-ach",
-    "Dalsze"
+    "Hoffman",
+    "Hoffmana",
+    "Nichols",
+    "Mike'a Nicholsa"
    ],
    "emotki": [
-    "🎬"
+    "🎬",
+    "🎭"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Filmweb",
-     "tytuł": "Oficjalnie! \"Cliff Booth\" w IMAX-ach w Polsce. Znamy datę premiery",
-     "url": "https://www.filmweb.pl/news/Oficjalnie+%22Cliff+Booth%22+w+IMAX-ach.+Znamy+dat%C4%99+premiery-169455"
+     "nazwa": "Interia Film",
+     "tytuł": "Gwiazdor chciał porzucić aktorstwo. Ten film był dla niego traumą",
+     "url": "https://film.interia.pl/mocny-temat/news-gwiazdor-chcial-porzucic-aktorstwo-ten-film-byl-dla-niego-tr,nId,23567851"
     },
     {
-     "nazwa": "Pitchfork",
-     "tytuł": "Trent Reznor and Atticus Ross Are Back at It (Scoring David Fincher Movies)",
-     "url": "https://pitchfork.com/story/trent-reznor-and-atticus-ross-david-fincher-mis-adventures-of-cliff-booth/"
+     "nazwa": "The Guardian Film",
+     "tytuł": "Dustin Hoffman says filming The Graduate was ‘a terrible experience’ due to Mike Nichols’ ‘sadism’",
+     "url": "https://www.theguardian.com/film/2026/nov/03/dustin-hoffman-memoir-look-at-me-the-graduate-mike-nichols"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.504,
+    "wynik": 5.141,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.258,
-     "eksponowanie": 0.72,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.471,
-     "treściwość": 0.305,
+     "ranga_źródła": 1.292,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.249,
+     "treściwość": 0.5,
      "język_działu": 0.5
     }
    },
@@ -1617,99 +1910,84 @@
     "emoji": "🎬",
     "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
    },
-   "nagłówek": "Polacy uwielbiają tę legendę hard rocka. \"Jedna z ostatnich okazji\"",
-   "lead": "Działająca od połowy lat 60. grupa Scorpions ogłosiła szczegóły kolejnej trasy \"Love, Peace & Rock'N'Roll Tour 2027\". W jej ramach tradycyjnie odwiedzi też Polskę, gdzie ma liczne grono oddanych fanów.",
+   "nagłówek": "Christina Aguilera po raz pierwszy w Polsce. Kolejne gwiazdy dołączają do Orange Warsaw Festival 2027",
+   "lead": "Po długich latach oczekiwań spełni się marzenie polskich fanów amerykańskiego popu — Christina Aguilera po raz pierwszy wystąpi w naszym kraju i będzie jedną z głównych gwiazd Orange Warsaw Festival 2027. Organizatorzy ujawnili także kolejne nazwiska w składzie imprezy, czyli Tove Lo oraz Davida Kushnera.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-02T11:37:09+00:00",
+   "opublikowano": "2026-11-03T14:05:15+00:00",
    "źródło": {
-    "nazwa": "Interia Muzyka",
-    "url": "https://muzyka.interia.pl/rock/news-scorpions-wracaja-do-polski-w-2027-r-jedna-z-ostatnich-okazj,nId,23567669",
-    "domena": "muzyka.interia.pl"
+    "nazwa": "Onet Kultura",
+    "url": "https://kultura.onet.pl/muzyka/wiadomosci/christina-aguilera-po-raz-pierwszy-w-polsce-kolejne-gwiazdy-dolaczaja-do-orange/5eb96bj",
+    "domena": "kultura.onet.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000NHIMQQ38VR7NO-C321.webp",
+   "obraz": "https://cdn.kultura.onet.pl/1/7B7k9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy9kYzM4ZmZmYzQxMWQxMjAwMmRhOGIwNzJiYWExZjgzZi5qcGeSlQN9zQHszQzXzQc6kwXNCWDNBkDeAAKhMAehMQQ",
    "sekcje": [
     {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
      "treść": [
-      "\"Dla wielbicieli zespołu może to być jedna z ostatnich okazji, by przeżyć te emocje na żywo\" - zapraszają organizatorzy.",
-      "Pod koniec kwietnia 2027 r. koncertem w Barcelonie rozpocznie się trasa \"Love, Peace & Rock'N'Roll Tour 2027\" , która obejmie 24 występy w Europie.",
-      "Z kolei na przełomie sierpnia i września grupa Scorpions powróci do Meksyku na trzy koncerty, które odwołano jesienią tego roku.",
-      "Hardrockowa legenda tradycyjnie odwiedzi też Polskę - 3 czerwca zagra w Tauron Arenie Kraków.",
-      "To wyjątkowe miasto dla basisty Pawła Mąciwody , który urodził się w pobliskiej Wieliczce.",
-      "Sprzedaż biletów rozpocznie się 6 listopada o godzinie 11:00.",
-      "Dzień wcześniej wejściówki w przedsprzedaży będą mogły kupić osoby zapisane do newslettera Bilet Serwisu.",
-      "\"Scorpions to absolutna legenda, a ich znaczenie dla światowej muzyki rockowej trudno przecenić.",
-      "Mówimy o zespole, który od ponad 60 lat tworzy przeboje, wzrusza, inspiruje i przyciąga na koncerty kolejne pokolenia fanów."
+      "Tove Lo i David Kushner dołączają do programu Orange Warsaw Festival 2027.",
+      "Szwedzka wokalistka pojawi się na Orange Stage 14 sierpnia, a autor przeboju \"Daylight\" dzień wcześniej.",
+      "Tove Lo zdobyła międzynarodową popularność w 2014 roku dzięki albumowi \"Queen of the Clouds\".",
+      "To właśnie na nim znalazły się \"Habits (Stay High)\" oraz \"Talking Body\", które otworzyły Szwedce drogę do światowej kariery.",
+      "Amerykańska wokalistka Christina Aguilera została ogłoszona drugą headlinerką przyszłorocznej edycji Orange Warsaw Festivalu."
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Scorpions – zespół założony 12 listopada 1965 roku w Hanowerze (Niemcy), wykonujący muzykę z pogranicza hard rocka i heavy metalu. Trzon zespołu stanowią założyciel grupy Rudolf Schenker, gitarzysta Matthias Jabs oraz wokalista Klaus Meine."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Scorpions",
-     "url": "https://pl.wikipedia.org/wiki/Scorpions"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "60",
-    "24",
-    "11",
-    "00",
-    "23",
-    "25"
+    "14",
+    "13"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Muzyka",
+     "ujęcie": "Organizatorzy największego metalowego święta w Polsce nie zwalniają tempa i poszerzają program o kolejne zespoły.",
+     "url": "https://muzyka.interia.pl/metal/news-kolejne-zespoly-dolaczaja-do-mystic-festival-2027-blues-z-pu,nId,23568228"
+    }
+   ],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Scorpions",
-    "opis": "niemiecki zespół muzyczny (zał. 1965)",
-    "tekst": "Scorpions – zespół założony 12 listopada 1965 roku w Hanowerze (Niemcy), wykonujący muzykę z pogranicza hard rocka i heavy metalu. Trzon zespołu stanowią założyciel grupy Rudolf Schenker, gitarzysta Matthias Jabs oraz wokalista Klaus Meine.",
-    "url": "https://pl.wikipedia.org/wiki/Scorpions",
-    "język": "pl"
-   },
+   "tło": null,
    "tagi": [
-    "Scorpions",
-    "Rock'N'Roll Tour",
-    "Love Peace",
-    "Mikkey Dee"
+    "Orange Warsaw Festival",
+    "Christina Aguilera",
+    "Davida Kushnera",
+    "Aguilera"
    ],
-   "emotki": [
-    "🎵"
-   ],
+   "emotki": [],
    "wszystkie_źródła": [
     {
+     "nazwa": "Onet Kultura",
+     "tytuł": "Christina Aguilera po raz pierwszy w Polsce. Kolejne gwiazdy dołączają do Orange Warsaw Festival 2027",
+     "url": "https://kultura.onet.pl/muzyka/wiadomosci/christina-aguilera-po-raz-pierwszy-w-polsce-kolejne-gwiazdy-dolaczaja-do-orange/5eb96bj"
+    },
+    {
      "nazwa": "Interia Muzyka",
-     "tytuł": "Polacy uwielbiają tę legendę hard rocka. \"Jedna z ostatnich okazji\"",
-     "url": "https://muzyka.interia.pl/rock/news-scorpions-wracaja-do-polski-w-2027-r-jedna-z-ostatnich-okazj,nId,23567669"
+     "tytuł": "Orange Warsaw Festival odsłania kolejne karty. Fani czekali na te nazwiska",
+     "url": "https://muzyka.interia.pl/orange-warsaw-festival/news-orange-warsaw-festival-odslania-kolejne-karty-fani-czekali-n,nId,23568434"
     },
     {
-     "nazwa": "The Guardian Music",
-     "tytuł": "Steve Ellis, frontman of Everlasting Love hitmakers Love Affair, dies aged 76",
-     "url": "https://www.theguardian.com/music/2026/nov/02/steve-ellis-frontman-of-everlasting-love-hitmakers-love-affair-dies-aged-76"
+     "nazwa": "Interia Muzyka",
+     "tytuł": "Mystic Festival ujawnia kolejne nazwy! \"Blues z pustyni, punk z trzewi\"",
+     "url": "https://muzyka.interia.pl/metal/news-kolejne-zespoly-dolaczaja-do-mystic-festival-2027-blues-z-pu,nId,23568228"
     },
     {
-     "nazwa": "The Guardian Culture",
-     "tytuł": "Juan Atkins, pioneer of Detroit techno sound, dies aged 64",
-     "url": "https://www.theguardian.com/music/2026/nov/01/juan-atkins-pioneer-of-detroit-techno-sound-dies-aged-64"
+     "nazwa": "Interia Muzyka",
+     "tytuł": "Sprzedała 100 mln płyt, po raz pierwszy będzie w Polsce. \"Absolutna ikona\"",
+     "url": "https://muzyka.interia.pl/pop/news-christina-aguilera-glowna-gwiazda-orange-warsaw-festival-202,nId,23568222"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.426,
+    "wynik": 4.971,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.343,
-     "eksponowanie": 0.45,
+     "ranga_źródła": 1.405,
+     "eksponowanie": 0.0,
      "słowa_kluczowe": 0.35,
-     "świeżość": 0.383,
-     "treściwość": 0.5,
+     "świeżość": 0.433,
+     "treściwość": 0.383,
      "język_działu": 0.5
     }
    },
@@ -1720,9 +1998,9 @@
  "statystyki": {
   "kanały_ok": 72,
   "kanały_błędne": 0,
-  "znaki_tłumaczone": 14774,
+  "znaki_tłumaczone": 19994,
   "niedziałające_kanały": [],
   "działy": 18,
-  "artykuły_w_oknie": 43
+  "artykuły_w_oknie": 70
  }
 }
