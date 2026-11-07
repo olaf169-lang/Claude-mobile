@@ -1,8 +1,8 @@
 {
  "wersja": "1.0.0",
- "wydanie": "2026-11-06",
- "dotyczy_dnia": "2026-11-05",
- "wygenerowano": "2026-11-06T13:39:55+00:00",
+ "wydanie": "2026-11-07",
+ "dotyczy_dnia": "2026-11-06",
+ "wygenerowano": "2026-11-07T12:19:10+00:00",
  "strefa": "Europe/Warsaw",
  "tryb": "ekstrakcyjny",
  "demo": false,
@@ -14,112 +14,128 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "Szef dyplomacji USA może opuścić rząd Trumpa. Chodzi o wybory w 2028 roku",
-   "lead": "Sekretarz stanu i doradca ds. bezpieczeństwa narodowego prezydenta Marco Rubio rozważa odejście z administracji Donalda Trumpa - podały w czwartek agencja Bloomberga i brytyjski „Independent”. Według cytowanych źródeł miałby to być krok ku startowi w wyborach prezydenckich 2028 r.",
+   "nagłówek": "Pomoc w aborcji, limity zarobków lekarzy, nowy próg podatkowy. Senat zdecydował",
+   "lead": "Senat poparł dziś nowelizację Kodeksu karnego zakładającą dekryminalizację pomocy w aborcji. Zmiana przewiduje zniesienie odpowiedzialności karnej za udzielanie pomocy w przerwaniu ciąży z naruszeniem przepisów ustawy lub nakłanianie do tego.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-05T20:36:00+00:00",
+   "opublikowano": "2026-11-06T12:12:00+00:00",
    "źródło": {
-    "nazwa": "Bankier.pl",
-    "url": "https://www.bankier.pl/wiadomosc/Szef-dyplomacji-USA-moze-opuscic-rzad-Trumpa-Chodzi-o-wybory-w-2028-roku-9224581.html",
-    "domena": "bankier.pl"
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/fakty/polityka/news-pomoc-w-aborcji-limity-zarobkow-lekarzy-nowy-prog-podatkowy-,nIdn,1025136",
+    "domena": "rmf24.pl"
    },
-   "obraz": "https://galeria.bankier.pl/p/f/5/13f611c22a94b9-948-568-14-91-2786-1671.jpg",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/6c/5b/radek-pietruszka-636x421-6c5ba66f.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Sam zainteresowany zdementował te doniesienia.",
-      "Według osób zaznajomionych ze sprawą, na których powołuje się Bloomberg, Rubio rozważa odejście z administracji i kolejne kroki po wtorkowej wyborczej klęsce Republikanów.",
-      "Jak podała agencja, Rubio i jego doradcy analizują opcje na przyszłość, lecz nie zapadła decyzja, czy zrezygnuje ze stanowisk sekretarza stanu.",
-      "Według tych samych źródeł Rubio rozmawiał już z urzędnikami Białego Domu o potencjalnym odejściu i został poproszony, by został.",
-      "„Independent”, który powołuje się na republikańskich insiderów w Waszyngtonie, sojusznika Rubio i brytyjskich urzędników, twierdzi, że szef dyplomacji USA może odejść, by zdystansować się od niepopularnego prezydenta i przygotować się do walki o nominację republikańską w 2028 r.",
-      "Departament Stanu jednoznacznie zaprzecza rewelacjom.",
-      "Dylan Johnson, zastępca sekretarza stanu ds. globalnych spraw publicznych, nazwał doniesienia „fake newsem” i oznajmił, że Rubio nie rozmawiał o odejściu i nadal będzie służył w administracji Trumpa.",
-      "W 2016 r. był głównym rywalem i krytykiem Trumpa w republikańskich prawyborach.",
-      "Później utrzymywał pewien dystans, lecz jego poglądy ewoluowały w kierunku filozofii „America First” i przed wyborami 2024 r. całkowicie poparł Trumpa."
+      "Senatorowie poparli nowelizację bez wniesienia do niej poprawek.",
+      "Za było 56 senatorów, 34 przeciw.",
+      "Ustawa trafi teraz na biurko prezydenta Karola Nawrockiego.",
+      "Senat opowiedział się także za ustawą ws. limitu zarobków i czasu pracy lekarzy z poprawkami.",
+      "Ustawa wprowadza ograniczenia dotyczące czasu pracy medyków, którego łączny wymiar nie będzie mógł przekraczać równoważnika dwóch etatów oraz maksymalną stawkę za godzinę - to jedna dwudziesta minimalnego wynagrodzenia brutto, czyli ok.",
+      "Ponadto ustawa m.in. poszerza możliwości kontrolne NFZ oraz kompetencje Agencji Oceny Technologii Medycznych i Taryfikacji.",
+      "Poprawki, za którymi opowiedział się Senat, dotyczą m.in. minimalnego wymiaru zatrudnienia.",
+      "Senatorowie przyjęli, że ma to być nie nie pół, lecz jedna czwarta etatu.",
+      "Celem tej ustawy, jak wskazuje resort sprawiedliwości, jest uporządkowanie statusu sędziów powołanych w procedurze z udziałem Krajowej Rady Sądownictwa z lat 2018-2026."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Wicemarszałek Sejmu ujawnił, że o swojej decyzji poinformował już m.in. premiera, prezydenta oraz polityków Polski 2050.",
-      "Szymon Hołownia udzielił \"Rzeczpospolitej\" wywiadu, w którym odniósł się między innymi do swojej przyszłości politycznej .",
-      "Wicemarszałek Sejmu podkreślił przy tym, że decyzja ta pozwala mu \"stanąć dziś w pozycji kogoś, kto n ie ma już żadnego osobistego interesu politycznego \". - Nie prowadzę żadnej przedwyborczej akcji, którą chciałbym kogoś uwieść - dodał.",
-      "Hołownia zapewnił przy tym, że mimo to nie zmieni swojego podejście do polityki. - Nadal nie będę widział nic złego w kolacji z Kaczyńskim ani w obiedzie z Tuskiem .",
-      "Uchwała dotycząca budżetu Trybunału Konstytucyjnego na 2027 r. trafiła do Sejmu.",
-      "Tę decyzję i kształt tego budżetu przekazałem do Komisji Finansów i będzie w związku z tym dalej ta sprawa procedowana – powiedział.",
-      "W piątek wieczorem przedstawiciele grupy wybranej w tej kadencji Sejmu na sędziów TK przekazali informację, że Anna Korwin-Piotrowska – jako najstarszy stażem sędzia – została kierującą Trybunałem Konstytucyjnym i wydała zarządzenie o przerwie w czynnościach prezesa TK Bogdana Święczkowskiego i wiceprezesa Bartłomieja Sochańskiego."
+      "W piątek Senat zgłosił poprawki do ustawy ograniczającej Krajowej Administracji Skarbowej dostęp do danych o rachunkach bankowych.",
+      "Za ustawą o zmianie ustawy o Krajowej Administracji Skarbowej oraz ustawy - Prawo bankowe głosowało 95 senatorów, nikt nie był przeciw, nikt się też nie wstrzymał.",
+      "Zgodnie z jej zapisami, taki dostęp będzie możliwy w przypadku osób podejrzanych o popełnienie przestępstwa lub wykroczenia oraz przestępstwa skarbowego lub wykroczenia skarbowego, a nie każdej osoby fizycznej.",
+      "Maksymalna stawka godzinowa ma wynosić około 240 zł, a miesięczne wynagrodzenie przy dwóch etatach – około 76,9 tys. zł.",
+      "Senatorowie wprowadzili jednak poprawki, w tym usunięcie przepisów dotyczących zakazu pracy na NFZ dla lekarzy poświadczających nieprawdę.",
+      "Za nowelizacją opowiedziało się 61 senatorów, przeciw było 32, od głosu wstrzymało się dwóch senatorów.",
+      "Ustawa wprowadza ograniczenia dotyczące czasu pracy medyków, którego łączny wymiar nie będzie mógł przekraczać równoważnika dwóch etatów oraz maksymalną stawkę za godzinę – to jedna dwudziesta minimalnego wynagrodzenia brutto (ok."
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Partia Republikańska – amerykańska konserwatywna partia polityczna założona w 1854. Jedna z dwóch głównych sił politycznych w Stanach Zjednoczonych, obok Partii Demokratycznej. Potocznie: „Grand Old Party” (GOP) lub Republikanie."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Partia Republikańska (Stany Zjednoczone)",
-     "url": "https://pl.wikipedia.org/wiki/Partia_Republika%C5%84ska_(Stany_Zjednoczone)"
     }
    ],
    "dlaczego_to_ważne": "",
-   "liczby": [],
+   "liczby": [
+    "56",
+    "34",
+    "61",
+    "32",
+    "240 zł",
+    "76 900 zł"
+   ],
    "inne_spojrzenia": [
     {
+     "źródło": "Bankier.pl",
+     "ujęcie": "Senackimi poprawkami zajmie się teraz Sejm.",
+     "url": "https://www.bankier.pl/wiadomosc/Skarbowka-straci-czesc-dostepu-do-kont-bankowych-Senat-zdecydowal-9225035.html"
+    },
+    {
      "źródło": "Interia Fakty",
-     "ujęcie": "- Nie będę kandydował w kolejnych wyborach parlamentarnych - ogłosił Szymon Hołownia w rozmowie z \"Rzeczpospolitą\".",
-     "url": "https://wydarzenia.interia.pl/kraj/news-holownia-podjal-decyzje-chodzi-o-wybory-poinformowalem-juz-p,nId,23569608"
+     "ujęcie": "Zadaniem dokumentu ma być uporządkowanie statusu tzw. neosędziów, powołanych w latach 2018-2026.",
+     "url": "https://wydarzenia.interia.pl/kraj/news-senat-zdecydowal-ws-ustawy-praworzadnosciowej-chodzi-o-tzw-n,nId,23570104"
+    },
+    {
+     "źródło": "Money.pl",
+     "ujęcie": "Senat przyjął bez poprawek ustawę, która zmienia zasady rozliczania PIT.",
+     "url": "https://www.money.pl/podatki/zmiany-w-podatkach-senat-zdecydowal-teraz-czas-na-ruch-prezydenta-7348086529518048a.html"
     }
    ],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Partia Republikańska (Stany Zjednoczone)",
-    "opis": "partia polityczna w Stanach Zjednoczonych",
-    "tekst": "Partia Republikańska – amerykańska konserwatywna partia polityczna założona w 1854. Jedna z dwóch głównych sił politycznych w Stanach Zjednoczonych, obok Partii Demokratycznej. Potocznie: „Grand Old Party” (GOP) lub Republikanie.",
-    "url": "https://pl.wikipedia.org/wiki/Partia_Republika%C5%84ska_(Stany_Zjednoczone)",
-    "język": "pl"
-   },
+   "tło": null,
    "tagi": [
-    "Trumpa",
-    "Rubio",
-    "Republikanów",
-    "Donalda Trumpa"
+    "Senat",
+    "Funduszu Termomodernizacji",
+    "Krajowej Rady Sądownictwa",
+    "Czyste Powietrze"
    ],
    "emotki": [
-    "🗳️",
-    "🏛️"
+    "🏛️",
+    "💰"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Bankier.pl",
-     "tytuł": "Szef dyplomacji USA może opuścić rząd Trumpa. Chodzi o wybory w 2028 roku",
-     "url": "https://www.bankier.pl/wiadomosc/Szef-dyplomacji-USA-moze-opuscic-rzad-Trumpa-Chodzi-o-wybory-w-2028-roku-9224581.html"
+     "nazwa": "RMF24",
+     "tytuł": "Pomoc w aborcji, limity zarobków lekarzy, nowy próg podatkowy. Senat zdecydował",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-pomoc-w-aborcji-limity-zarobkow-lekarzy-nowy-prog-podatkowy-,nIdn,1025136"
     },
     {
-     "nazwa": "Interia Fakty",
-     "tytuł": "Hołownia podjął decyzję, chodzi o wybory. \"Poinformowałem już przyjaciół\"",
-     "url": "https://wydarzenia.interia.pl/kraj/news-holownia-podjal-decyzje-chodzi-o-wybory-poinformowalem-juz-p,nId,23569608"
+     "nazwa": "Bankier.pl",
+     "tytuł": "Skarbówka straci część dostępu do kont bankowych. Senat zdecydował",
+     "url": "https://www.bankier.pl/wiadomosc/Skarbowka-straci-czesc-dostepu-do-kont-bankowych-Senat-zdecydowal-9225035.html"
     },
     {
      "nazwa": "Money.pl",
-     "tytuł": "Budżet TK trafił do Sejmu. Marszałek podjął decyzję",
-     "url": "https://www.money.pl/gospodarka/budzet-tk-trafil-do-sejmu-marszalek-podjal-decyzje-7347661260753376a.html"
+     "tytuł": "Limit zarobków lekarzy. Senat zdecydował",
+     "url": "https://www.money.pl/gospodarka/limit-zarobkow-lekarzy-senat-zdecydowal-7348090365110720a.html"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Senat zdecydował ws. ustawy praworządnościowej. Chodzi o tzw. neosędziów",
+     "url": "https://wydarzenia.interia.pl/kraj/news-senat-zdecydowal-ws-ustawy-praworzadnosciowej-chodzi-o-tzw-n,nId,23570104"
+    },
+    {
+     "nazwa": "Money.pl",
+     "tytuł": "Zmiany w podatkach. Senat zdecydował. Teraz czas na ruch prezydenta",
+     "url": "https://www.money.pl/podatki/zmiany-w-podatkach-senat-zdecydowal-teraz-czas-na-ruch-prezydenta-7348086529518048a.html"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Zmiana przepisów o aborcji. Senat zdecydował w sprawie dwóch ustaw",
+     "url": "https://wydarzenia.interia.pl/kraj/news-zmiana-przepisow-o-aborcji-senat-zdecydowal-w-sprawie-dwoch,nId,23570106"
     }
    ],
-   "liczba_źródeł": 3,
-   "czas_czytania_min": 2,
+   "liczba_źródeł": 4,
+   "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 8.05,
+    "wynik": 10.324,
     "składowe": {
-     "potwierdzenia": 3.8,
-     "ranga_źródła": 1.4,
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 1.915,
      "eksponowanie": 0.0,
      "słowa_kluczowe": 1.4,
-     "świeżość": 0.495,
-     "treściwość": 0.455,
+     "świeżość": 0.405,
+     "treściwość": 0.404,
      "język_działu": 0.5
     }
    },
@@ -132,81 +148,90 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "Kierwiński: To trzecia próba odwołania, uznanie mojej ciężkiej pracy",
-   "lead": "Za negatywnym zaopiniowaniem wniosku o wyrażenie wotum nieufności zagłosowało 21 posłów, 12 było przeciw, nikt nie wstrzymał się od głosu. W uzasadnieniu wniosku podkreślono, że jest on następstwem m.in. negatywnej oceny sposobu, w jaki szef MSWiA sprawuje nadzór nad kluczowymi instytucjami odpowiedzialnymi za…",
+   "nagłówek": "Pracodawca sprawdzi autentyczność dyplomu? Sejm podjął decyzję",
+   "lead": "Nowelizację ustawy Prawo o szkolnictwie wyższym i nauce przygotował resort nauki w ramach pakietu deregulacyjnego. Za przyjęciem noweli było 423 posłów , jedna osoba była przeciw, 21 posłów wstrzymało się od głosu.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-05T20:31:00+00:00",
+   "opublikowano": "2026-11-06T17:21:00+00:00",
    "źródło": {
     "nazwa": "RMF24",
-    "url": "https://www.rmf24.pl/fakty/polityka/news-kierwinski-to-trzecia-proba-odwolania-uznanie-mojej-ciezkiej,nIdn,1025034",
+    "url": "https://www.rmf24.pl/fakty/polska/news-pracodawca-sprawdzi-autentycznosc-dyplomu-sejm-podjal-decyzj,nIdn,1025187",
     "domena": "rmf24.pl"
    },
-   "obraz": "https://rmf.rmffm.pl/news/attachments/a6/4e/minister-spraw-wewnetrznych-i-administracji-marcin-kierwinski-z-prawej-i-minister-sprawiedliwosci-prokurator-generalny-waldemar-zurek-na-sali-plenarnej-sejmu-fot-636x421-a64e8fc5.jpg",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/d1/18/fot-636x421-d118f252.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Posłowie zwrócili uwagę m.in. na problemy z systemem ostrzegania ludności, wciąganie policji w konflikt wokół Trybunału Konstytucyjnego, braki kadrowe w Centralnym Biurze Zwalczania Cyberprzestępczości, niewystarczające zabezpieczenie infrastruktury krytycznej i działania w obliczu aktów dywersji, czy odpowiedzialność polityczną za aferę wokół Szpitala Południowego.",
-      "Minister Marcin Kierwiński, komentując wniosek PiS, przypomniał, że jest to już trzecia taka próba (poprzednie wnioski zostały odrzucone przez Sejm w 2024 r. i w czerwcu 2026 r.).",
-      "Rozumiem, nawet na swój sposób muszę powiedzieć, że traktuję to jako uznanie mojej ciężkiej pracy, aby sprzątać bałagan, który pan (przedstawiciel wnioskodawców – przyp. red.) i pańscy koledzy zrobiliście w tym resorcie, jeżeli chodzi o kwestię polskiego bezpieczeństwa przez wiele lat - powiedział.",
-      "Odnosząc się do sformułowanych we wniosku i zaprezentowanych na komisji zarzutów o udział policji w wydarzeniach wokół Trybunału Konstytucyjnego, podkreślił, że policja jest w okolicach TK, aby bronić przestrzegania prawa, budynku Trybunału i zgromadzonych przed nim protestujących.",
-      "Dlaczego tak niedawno krzyczeliście „murem za polskim mundurem”, a teraz stoicie w awangardzie, w ataku na polskich policjantów?",
-      "Ataku, który jest cyniczny, który jest niesprawiedliwy.",
-      "Ataku, który naprawdę obnaża cały wasz brak kultury.",
-      "Wycofajcie się z tej drogi, bo żyjemy w niebezpiecznych czasach, wiele jest zagrożeń, z którymi radzi sobie policja - powiedział Kierwiński.",
-      "Wnioskiem o wyrażenie wotum nieufności wobec szefa MSWiA Sejm zajmie się w piątek."
+      "Ustawa trafi teraz do Senatu.",
+      "Nowelizowane przepisy mają wejść w życie po upływie 30 dni od dnia ogłoszenia.",
+      "Ta nowelizacja będzie dotyczyła dyplomów papierowych , czyli wszystkich, które zostały wydane przed 1 stycznia 2027 roku, bowiem od 1 stycznia wchodzimy w erę dyplomów elektronicznych , gdzie ta weryfikacja będzie odbywała się w sposób automatyczny przez udostępniany przez nas system – uściśliła wiceszefowa resortu nauki Maria Mrówczyńska.",
+      "Zgodnie z zapisami noweli, uczelnie – na wniosek pracodawcy posiadającego interes prawny – będą udzielały informacji o danych zawartych w dyplomie ukończenia studiów wydanym w postaci papierowej , na podstawie zamieszczonych we wniosku danych posiadacza tego dyplomu, w szczególności imienia i nazwiska oraz numeru dyplomu ukończenia studiów.",
+      "Wedle noweli przesłanką wystąpienia z wnioskiem będzie „powzięcie uzasadnionych wątpliwości co do autentyczności danych zawartych w dyplomie ukończenia studiów – m.in. po weryfikacji zabezpieczeń przed fałszerstwem określonych w przepisach wydanych na podstawie ustawy z dnia 22 listopada 2018 r. o dokumentach publicznych, w odniesieniu do dokumentów posiadających takie zabezpieczenia”.",
+      "Zdaniem resortu nauki ustawa ma charakter deregulacji.",
+      "Pracodawca nie musi występować do kandydata do pracy o zgodę na to, aby uzyskać dostęp do weryfikacji jego dyplomu – wyjaśniła wiceminister Mrówczyńska.",
+      "Wątpliwości parlamentarzystów budziły opłaty, jakie za weryfikację dyplomów pracodawcy mieliby płacić uczelniom.",
+      "Pozyskanie informacji, które potwierdzają prawidłowość dyplomów, wymaga nie tylko sięgnięcia do cyfrowych baz, bo nie wszystkie uczelnie posiadają scyfryzowane bazy wszystkich swoich absolwentów, ale zwykłej pracy archiwisty czy (...) pracownika administracji akademickiej, który musi zejść do archiwum, musi odnaleźć teczkę, musi wydobyć z niej odpowiednie dokumenty i na tej podstawie zweryfikować dyplom."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Sejmowa Komisja Administracji i Spraw Wewnętrznych negatywnie zaopiniowała poselski wniosek o wotum nieufności wobec Marcina Kierwińskiego.",
-      "Politycy negatywnie ocenili sposób, w jaki szef MSWiA reaguje na sytuacje kryzysowe i sprawuje nadzór nad kluczowymi instytucjami.",
-      "Za negatywnym zaopiniowaniem wniosku zagłosowało 21 posłów, 12 było przeciw.",
-      "Paweł Hreniak , który reprezentował ugrupowanie podczas posiedzenia, pokreślił, że główny zarzut wobec szefa resortu \"jest dziś czytelny\". - Pod kierownictwem ministra Kierwińskiego Ministerstwo Spraw Wewnętrznych i Administracji stało się niestety narzędziem walki politycznej , walki z opozycją, z wolnymi mediami, z niezależnymi instytucjami, stowarzyszeniami i partiami opozycyjnymi.",
-      "Hreniak zaznaczył również, że \"rzeczą skandaliczną jest to, że dzieje się to w sytuacji realnego zagrożenia ze strony putinowskiej Rosji \".",
-      "W pisemnym uzasadnieniu wniosku posłowie PiS punktowali między innymi niewystarczające zabezpieczenie infrastruktury krytycznej i reakcję na akty dywersji, braki kadrowe w Centralnym Biurze Zwalczania Cyberprzestępczości, problemy z funkcjonowaniem systemu ostrzegania ludności oraz zaangażowanie policji w spór wokół Trybunału Konstytucyjnego."
+      "Prezydent Karol Nawrocki z jakichś powodów wolał się na razie wycofać z zaproszenia - powiedział w piątek wieczorem premier Donald Tusk, pytany o planowane spotkanie w cztery oczy z prezydentem.",
+      "Tusk był też pytany o to, jak przebiegała rozmowa z prezydentem przy okazji spotkania wtorkowej Radzie Bezpieczeństwa Narodowego.",
+      "Poinformował, że on sam najpierw zadeklarował, że „dobrze byłoby się spotkać”, potem prezydent „potwierdził, że dobrze byłoby się spotkać”. - Następnie już w kuluarach zapytałem (go) jak to robimy, a pan prezydent powiedział, że wyśle sms-a z propozycją miejsca i daty.",
+      "Premier został też zapytany o pomysł resetu Trybunału Konstytucyjnego, który zprezentował wcześniej lider ludowców Władysław Kosiniak-Kamysz.",
+      "Premier odniósł się też do tematu TK odpowiadając na pytanie dotyczące głosowania nad wotum nieufności wobec szefa MSWiA Marcina Kierwińskiego. - Niestety bardzo często są w Sejmie są takie same groteskowe przedsięwzięcia jak to pod Trybunałem.",
+      "\"11 listopada, w tym szczególnym momencie dla Polski, wezmę, jak co roku, udział w Marszu Niepodległości w Warszawie\" - napisał Nawrocki na X.",
+      "Na potwierdzenie obecności Nawrockiego podczas wydarzenia zareagowali również sami organizatorzy, którzy napisali: \"Wielkim zaszczytem jest dla nas obecność Prezydenta Karola Nawrockiego na Marszu Niepodległości\" - napisali na oficjalnym profilu wydarzenia w mediach społecznościowych."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Kryzys wokół Trybunału Konstytucyjnego w Polsce – kryzys ustrojowy rozpoczęty w 2015 roku sporem o wybór i zaprzysiężenie sędziów Trybunału Konstytucyjnego (TK). Jego bezpośrednią przyczyną był wybór pięciu sędziów przez Sejm VII kadencji w październiku 2015 roku, a następnie ponowny wybór pięciu osób przez Sejm VIII kadencji. W wyroku z 3 grudnia 2015 roku TK uznał, że wybór trzech sędziów przez Sejm VII kadencji był zgodny z Konstytucją, natomiast wybór dwóch pozostałych – niedopuszczalny."
+      "Maria Magdalena Mrówczyńska z domu Kaniewska – polska inżynier, specjalistka w zakresie geodezji i kartografii, profesor nauk inżynieryjno-technicznych, profesor uczelni na Uniwersytecie Zielonogórskim i jego prorektor (2020–2024), podsekretarz stanu w Ministerstwie Edukacji i Nauki (2023–2024) oraz Ministerstwie Nauki i Szkolnictwa Wyższego."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Kryzys wokół Trybunału Konstytucyjnego w Polsce",
-     "url": "https://pl.wikipedia.org/wiki/Kryzys_wok%C3%B3%C5%82_Trybuna%C5%82u_Konstytucyjnego_w_Polsce"
+     "przypis": "Wikipedia: Maria Mrówczyńska",
+     "url": "https://pl.wikipedia.org/wiki/Maria_Mr%C3%B3wczy%C5%84ska"
     }
    ],
-   "dlaczego_to_ważne": "",
+   "dlaczego_to_ważne": "„Zakłada się wprowadzenie opłaty za każdorazowe potwierdzenie przez uczelnię danych zawartych w dyplomie ukończenia studiów w wysokości równej 1 proc. minimalnego wynagrodzenia za pracę obowiązującego w dniu złożenia wniosku, która pokrywałaby jednostkowy koszt obsługi zapytania” – podkreślono w Ocenie Skutków Regulacji.",
    "liczby": [
+    "423",
     "21",
-    "12",
-    "30"
+    "30 dni",
+    "1 proc.",
+    "22",
+    "44 zł"
    ],
    "inne_spojrzenia": [
     {
+     "źródło": "RMF24",
+     "ujęcie": "Prezydent Karol Nawrocki podjął decyzję",
+     "url": "https://www.rmf24.pl/fakty/polska/news-marsz-niepodleglosci-prezydent-karol-nawrocki-podjal-decyzje,nIdn,1025168"
+    },
+    {
      "źródło": "Gazeta.pl",
-     "ujęcie": "Za negatywnym zaopiniowaniem wniosku o wyrażenie wotum nieufności zagłosowało 21 posłów , 12 było przeciw, nikt nie wstrzymał się od głosu.",
-     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33119286,trzecie-podejscie-pis-do-odwolania-kierwinskiego-traktuje.html"
+     "ujęcie": "Prezydent przekazał swoją decyzję w piątek po południu za pośrednictwem mediów społecznościowych.",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33120923,trwaja-przygotowania-do-marszu-niepodleglosci-nawrocki-oglosil.html"
     }
    ],
    "pojęcia": [],
    "tło": {
-    "hasło": "Kryzys wokół Trybunału Konstytucyjnego w Polsce",
-    "opis": "kryzys ustrojowy w Polsce",
-    "tekst": "Kryzys wokół Trybunału Konstytucyjnego w Polsce – kryzys ustrojowy rozpoczęty w 2015 roku sporem o wybór i zaprzysiężenie sędziów Trybunału Konstytucyjnego (TK). Jego bezpośrednią przyczyną był wybór pięciu sędziów przez Sejm VII kadencji w październiku 2015 roku, a następnie ponowny wybór pięciu osób przez Sejm VIII kadencji. W wyroku z 3 grudnia 2015 roku TK uznał, że wybór trzech sędziów przez Sejm VII kadencji był zgodny z Konstytucją, natomiast wybór dwóch pozostałych – niedopuszczalny.",
-    "url": "https://pl.wikipedia.org/wiki/Kryzys_wok%C3%B3%C5%82_Trybuna%C5%82u_Konstytucyjnego_w_Polsce",
+    "hasło": "Maria Mrówczyńska",
+    "opis": "polska inżynier, specjalistka w zakresie geodezji i kartografii",
+    "tekst": "Maria Magdalena Mrówczyńska z domu Kaniewska – polska inżynier, specjalistka w zakresie geodezji i kartografii, profesor nauk inżynieryjno-technicznych, profesor uczelni na Uniwersytecie Zielonogórskim i jego prorektor (2020–2024), podsekretarz stanu w Ministerstwie Edukacji i Nauki (2023–2024) oraz Ministerstwie Nauki i Szkolnictwa Wyższego.",
+    "url": "https://pl.wikipedia.org/wiki/Maria_Mr%C3%B3wczy%C5%84ska",
     "język": "pl"
    },
    "tagi": [
-    "Trybunału Konstytucyjnego",
-    "Sejm",
-    "Centralnym Biurze Zwalczania Cyberprzestępczości",
-    "Szpitala Południowego"
+    "Maria Mrówczyńska",
+    "Mrówczyńska",
+    "Zintegrowanego Systemu Informacji",
+    "Urzędu Ochrony Danych Osobowych"
    ],
    "emotki": [
     "🏛️"
@@ -214,32 +239,37 @@
    "wszystkie_źródła": [
     {
      "nazwa": "RMF24",
-     "tytuł": "Kierwiński: To trzecia próba odwołania, uznanie mojej ciężkiej pracy",
-     "url": "https://www.rmf24.pl/fakty/polityka/news-kierwinski-to-trzecia-proba-odwolania-uznanie-mojej-ciezkiej,nIdn,1025034"
+     "tytuł": "Pracodawca sprawdzi autentyczność dyplomu? Sejm podjął decyzję",
+     "url": "https://www.rmf24.pl/fakty/polska/news-pracodawca-sprawdzi-autentycznosc-dyplomu-sejm-podjal-decyzj,nIdn,1025187"
     },
     {
-     "nazwa": "Interia Fakty",
-     "tytuł": "PiS chciało odwołania Kierwińskiego. Sejmowa komisja podjęła decyzję",
-     "url": "https://wydarzenia.interia.pl/kraj/news-pis-chcialo-odwolania-kierwinskiego-sejmowa-komisja-podjela,nId,23569580"
+     "nazwa": "RMF24",
+     "tytuł": "Marsz Niepodległości. Prezydent Karol Nawrocki podjął decyzję",
+     "url": "https://www.rmf24.pl/fakty/polska/news-marsz-niepodleglosci-prezydent-karol-nawrocki-podjal-decyzje,nIdn,1025168"
+    },
+    {
+     "nazwa": "Bankier.pl",
+     "tytuł": "Tusk ujawnia kulisy spotkania z Nawrockim. „Prezydent póki co się wycofał”",
+     "url": "https://www.bankier.pl/wiadomosc/Tusk-ujawnia-kulisy-spotkania-z-Nawrockim-Prezydent-poki-co-sie-wycofal-9225276.html"
     },
     {
      "nazwa": "Gazeta.pl",
-     "tytuł": "Trzecie podejście PiS do odwołania Kierwińskiego. \"Traktuję to jako uznanie mojej ciężkiej pracy\"",
-     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33119286,trzecie-podejscie-pis-do-odwolania-kierwinskiego-traktuje.html"
+     "tytuł": "Trwają przygotowania do Marszu Niepodległości. Nawrocki ogłosił swoje plany",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33120923,trwaja-przygotowania-do-marszu-niepodleglosci-nawrocki-oglosil.html"
     }
    ],
    "liczba_źródeł": 3,
    "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 7.776,
+    "wynik": 7.821,
     "składowe": {
      "potwierdzenia": 3.8,
-     "ranga_źródła": 1.45,
+     "ranga_źródła": 1.637,
      "eksponowanie": 0.0,
      "słowa_kluczowe": 1.05,
-     "świeżość": 0.504,
-     "treściwość": 0.472,
+     "świeżość": 0.454,
+     "treściwość": 0.38,
      "język_działu": 0.5
     }
    },
@@ -252,89 +282,120 @@
     "emoji": "🌍",
     "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
    },
-   "nagłówek": "„Dlaczego Pete Hegseth wciąż tu jest?”. Trump złożył deklarację",
-   "lead": "Reporter telewizji ABC Jon Karl rozmawiał z Donaldem Trumpem telefonicznie. Jak donosi dziennikarz, prezydent oznajmił mu, że „ma w pełni zamiar zatrzymać” Pete’a Hegsetha na czele resortu obrony (oficjalnie: Departamentu Wojny USA - przyp. red.).",
+   "nagłówek": "„Wszyscy będą zachwyceni”. Trump: Porozumienie ws. Ukrainy może objąć całą Europę",
+   "lead": "Podczas czwartkowej rozmowy z dziennikarzami w Białym Domu Trump ujawnił, że spotkał się ze specjalnym wysłannikiem Kremla, Kiriłłem Dmitrijewem, który tego dnia był w Waszyngtonie na wydarzeniu zorganizowanym przez pierwszą damę Melanię Trump, poświęconym rozejmowi w Ołeszkach w Ukrainie. Jednocześnie prezydent USA…",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-05T16:01:00+00:00",
+   "opublikowano": "2026-11-05T22:08:00+00:00",
    "źródło": {
     "nazwa": "RMF24 Świat",
-    "url": "https://www.rmf24.pl/fakty/swiat/news-dlaczego-pete-hegseth-wciaz-tu-jest-trump-zlozyl-deklaracje,nIdn,1025001",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-wszyscy-beda-zachwyceni-trump-porozumienie-ws-ukrainy-moze-o,nIdn,1025040",
     "domena": "rmf24.pl"
    },
-   "obraz": "https://rmf.rmffm.pl/news/attachments/c1/b9/pete-hegseth-i-donald-trump-636x421-c1b9f28e.jpg",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/c6/33/donald-trump-636x421-c633f90c.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Trump przyznał jednocześnie, że odbiera telefony od osób niezadowolonych z Hegsetha.",
-      "Dzwonią do mnie w jego sprawie.",
-      "Ale nie rozumiem, dlaczego - powiedział.",
-      "Nie krył też, że łatwiej byłoby zatwierdzić nowego sekretarza jeszcze w obecnej kadencji Kongresu, zanim demokraci przejmą większość w Senacie w styczniu.",
-      "To kolejna odsłona sporu o szefa Pentagonu.",
-      "Wczoraj telewizja CBS doniosła, że jeszcze podczas nocy wyborczej prezydent wypytywał doradców, czy powinien zdymisjonować Hegsetha.",
-      "Według stacji jego potencjalnym następcą miałby być odchodzący gubernator Florydy i były rywal Trumpa w prezydenckich prawyborach Ron DeSantis.",
-      "DeSantis w środę ostro skrytykował polityków swojej partii za ich postawę w przegranej kampanii wyborczej, uznając wybory za „wydarzenie na miarę politycznego wymarcia”.",
-      "Krytykował również polityków, którzy handlują akcjami, mając dostęp do wrażliwych informacji."
+      "Czwartkowe wydarzenie było pierwszą od 2019 r. publiczną wizytą przedstawiciela rosyjskich władz w Białym Domu.",
+      "Dmitrijew był już jednak w Białym Domu w 2025 r., kiedy przyjął go – bez obecności kamer – wysłannik Trumpa Steve Witkoff.",
+      "Dmitrijew jako szef państwowego Rosyjskiego Funduszu Inwestycji Bezpośrednich jest objęty amerykańskimi sankcjami.",
+      "Restrykcje te zostały jednak zawieszone , odkąd urzędnik bierze udział w negocjacjach dotyczących wojny w Ukrainie.",
+      "Trump ocenił, że „rozstrzygnięcie” wojny w Ukrainie jest bardzo bliskie.",
+      "Zaznaczył, że wypracowywane porozumienie może objąć nie tylko Ukrainę, ale całą Europę.",
+      "To będzie wielkie, piękne porozumienie i wszyscy będą zachwyceni – stwierdził prezydent USA.",
+      "Według Trumpa, do osiągnięcia porozumienia konieczne będzie szerokie zaangażowanie Europy.",
+      "To ⁠będzie wielkie porozumienie i ono obejmie więcej niż tylko Ukrainę..."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Prezydent Donald Trump ogłosił w piątkowe popołudnie na platformie Truth Social, że szefowa gabinetu Susie Wiles odchodzi ze stanowiska, a jej miejsce zajmie dotychczasowy zastępca, Stephen Miller."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Peter Brian Hegseth – amerykański prezenter telewizyjny, przez lata związany ze stacją Fox News, major Wojsk Lądowych Gwardii Narodowej, weteran wojen w Afganistanie i w Iraku, od 25 stycznia 2025 roku sekretarz obrony Stanów Zjednoczonych."
+      "Inwazja Rosji na Ukrainę, wojna rosyjsko-ukraińska – pełnoskalowa inwazja na Ukrainę rozpoczęta 24 lutego 2022 roku przez Rosję, stanowiąca eskalację wojny trwającej od 2014 roku. Została poprzedzona rosyjskimi żądaniami wykluczenia możliwości dalszego poszerzania NATO i redukcji potencjału militarnego sojuszu w Europie Środkowo-Wschodniej do stanu sprzed 1997 roku."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Pete Hegseth",
-     "url": "https://pl.wikipedia.org/wiki/Pete_Hegseth"
+     "przypis": "Wikipedia: Inwazja Rosji na Ukrainę",
+     "url": "https://pl.wikipedia.org/wiki/Inwazja_Rosji_na_Ukrain%C4%99"
     }
    ],
    "dlaczego_to_ważne": "",
-   "liczby": [],
-   "inne_spojrzenia": [],
+   "liczby": [
+    "10",
+    "11"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Onet Świat",
+     "ujęcie": "Donald Trump uważa, że konflikt w Ukrainie może niedługo dobiec końca.",
+     "url": "https://wiadomosci.onet.pl/swiat/donald-trump-o-rozmowach-rosji-i-ukrainy-widzi-postepy-w-negocjacjach/2y8p6tl"
+    }
+   ],
    "pojęcia": [],
    "tło": {
-    "hasło": "Pete Hegseth",
-    "opis": "sekretarz obrony Stanów Zjednoczonych",
-    "tekst": "Peter Brian Hegseth – amerykański prezenter telewizyjny, przez lata związany ze stacją Fox News, major Wojsk Lądowych Gwardii Narodowej, weteran wojen w Afganistanie i w Iraku, od 25 stycznia 2025 roku sekretarz obrony Stanów Zjednoczonych.",
-    "url": "https://pl.wikipedia.org/wiki/Pete_Hegseth",
+    "hasło": "Inwazja Rosji na Ukrainę",
+    "opis": "inwazja na Ukrainę rozpoczęta 24 lutego 2022 roku przez Federację Rosyjską",
+    "tekst": "Inwazja Rosji na Ukrainę, wojna rosyjsko-ukraińska – pełnoskalowa inwazja na Ukrainę rozpoczęta 24 lutego 2022 roku przez Rosję, stanowiąca eskalację wojny trwającej od 2014 roku. Została poprzedzona rosyjskimi żądaniami wykluczenia możliwości dalszego poszerzania NATO i redukcji potencjału militarnego sojuszu w Europie Środkowo-Wschodniej do stanu sprzed 1997 roku.",
+    "url": "https://pl.wikipedia.org/wiki/Inwazja_Rosji_na_Ukrain%C4%99",
     "język": "pl"
    },
    "tagi": [
-    "Hegsetha",
-    "Pentagonu",
-    "Hegseth",
-    "Iranem"
+    "USA",
+    "Ukrainie",
+    "Europę",
+    "Białym Domu"
    ],
    "emotki": [
+    "🤝",
     "🏛️",
-    "📺",
-    "⚔️"
+    "🕊️"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "RMF24 Świat",
-     "tytuł": "„Dlaczego Pete Hegseth wciąż tu jest?”. Trump złożył deklarację",
-     "url": "https://www.rmf24.pl/fakty/swiat/news-dlaczego-pete-hegseth-wciaz-tu-jest-trump-zlozyl-deklaracje,nIdn,1025001"
+     "tytuł": "„Wszyscy będą zachwyceni”. Trump: Porozumienie ws. Ukrainy może objąć całą Europę",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-wszyscy-beda-zachwyceni-trump-porozumienie-ws-ukrainy-moze-o,nIdn,1025040"
+    },
+    {
+     "nazwa": "Onet Świat",
+     "tytuł": "Donald Trump wymienia swoją \"prawą rękę\". Ważna decyzja w Białym Domu",
+     "url": "https://wiadomosci.onet.pl/swiat/zmiana-w-najblizszym-otoczeniu-trumpa-odchodzi-kluczowa-postac-bialego-domu/b367g0l"
+    },
+    {
+     "nazwa": "Onet Świat",
+     "tytuł": "Donald Trump mówi o końcu wojny w Ukrainie. \"To będzie duże porozumienie, obejmie Europę\"",
+     "url": "https://wiadomosci.onet.pl/swiat/donald-trump-o-rozmowach-rosji-i-ukrainy-widzi-postepy-w-negocjacjach/2y8p6tl"
     },
     {
      "nazwa": "BBC News",
-     "tytuł": "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
-     "url": "https://www.bbc.co.uk/news/articles/cqg7xxg4jdv5o?at_medium=RSS&at_campaign=rss"
+     "tytuł": "With Stephen Miller pick, Trump readies for a battle",
+     "url": "https://www.bbc.co.uk/news/articles/crp3gg2z171go?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "Politico Europe",
+     "tytuł": "Trump’s ‘big, beautiful’ European security plan isn’t convincing Europe",
+     "url": "https://www.politico.eu/article/jared-kushner-european-security-plan-is-not-convincing-europe/"
     }
    ],
-   "liczba_źródeł": 2,
+   "liczba_źródeł": 4,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.277,
+    "wynik": 10.969,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.508,
-     "eksponowanie": 0.9,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.564,
-     "treściwość": 0.205,
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 1.973,
+     "eksponowanie": 1.62,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.58,
+     "treściwość": 0.246,
      "język_działu": 0.5
     }
    },
@@ -362,24 +423,24 @@
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Samoloty zmuszone do lądowań awaryjnych lub dywersji dwa dni po tym, jak fałszywe alarmy wpłynęły na podróże lotnicze Dlaczego w tym tygodniu ponad 30 europejskich lotów zostało dotkniętych zagrożeniami bombowymi?",
-      "W tym tygodniu fałszywe groźby bombowe zakłóciły co najmniej 34 loty w całej Europie, a niektóre z nich zmuszone były do lądowań awaryjnych, ponieważ pojawiły się pytania o pozornie skoordynowane działania mające na celu wywołanie chaosu wśród podróżnych.",
-      "Co najmniej 25 zagrożeń bombowych dotyczyło lotów w czwartek między Włochami, Irlandią, Wielką Brytanią, Hiszpanią, Bułgarią, Rumunią, Polską, Finlandią, Austrią, Danią, Belgią, Portugalią, Francją, Grecją, Serbią i Czechami.",
-      "Zagrożenia dotyczyły lotów Ryanair, Aer Lingus, Wizz Air, Finnair, easyJet, Aegean Airlines, Iberia, Sky Express, Air Serbia i LOT Polish Airlines.",
-      "W Wielkiej Brytanii Heathrow, główne lotnisko Londynu, i lotnisko Birmingham otrzymały groźby z dnia na dzień, ale ustalono, że były to mistyfikacje z pomocą wyspecjalizowanych śledczych z dowództwa policji lotniczej Metropolitan Police.",
-      "Co najmniej 21 lotów w całej Europie jest dotkniętych tym, co rząd Wielkiej Brytanii nazywa „złośliwym zagrożeniem oszustwem”.",
-      "Według władz różnych krajów co najmniej kilkanaście lotów komercyjnych odbyło nieplanowane lub alarmowe lądowania w Austrii, Francji, Włoszech, Belgii, Czechach, Hiszpanii, Serbii i Bułgarii."
+      "Organizacje medialne w Irlandii i Wielkiej Brytanii również ucierpiały, ponieważ najwyraźniej kontynuowane są skoordynowane wysiłki w celu wywołania chaosu. W piątek nowa fala zagrożeń bombowych zakłóciła ruch lotniczy w Europie, ale samoloty, których to dotyczy, wylądowały bezpiecznie, a poszukiwania nie ujawniły żadnych urządzeń wybuchowych.",
+      "Najnowsze wpisy dotyczyły co najmniej 18 lotów do lub z Bułgarii , Cypru, Czech, Francji, Węgier, Włoch, Portugalii, Rumunii i Wielkiej Brytanii.",
+      "Duńska policja badała zagrożenie dla lotniska w Kopenhadze, ale kierownictwo lotniska stwierdziło, że działa ono normalnie.",
+      "Ostrzeżenia pojawiły się po oddzielnych groźbach we wtorek i czwartek, które zmusiły do przekierowania lub przeszukania co najmniej 35 lotów, co rodziło pytania o pozornie skoordynowane wysiłki mające na celu wywołanie chaosu wśród podróżnych.",
+      "Szereg europejskich mediów – w tym organizacje informacyjne w Bułgarii, Irlandii i Wielkiej Brytanii – poinformowało, że grupa ponosząca odpowiedzialność za groźby z tego tygodnia wysłała e-mail do kilku mediów ostrzegając o dalszych atakach na transport w całej Europie. - To dopiero początek - rzekomo powiedział.",
+      "Najnowsze zagrożenia dotknęły co najmniej dziewięć lotów do i z Pragi, cztery loty nad Francją , dwa loty w drodze do Sofii i lot z Lizbony do Rzymu.",
+      "Ten blog jest teraz zamknięty, możesz przeczytać więcej o tej historii tutaj Rumuńskie linie lotnicze Tarom lecące z Pragi do Bukaresztu są ostatnimi, które prawdopodobnie zostały dotknięte dzisiejszymi zagrożeniami bombowymi."
      ]
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "30 Eur",
-    "34",
-    "25",
-    "60",
-    "27,400",
-    "35,000"
+    "18",
+    "35",
+    "0.0674%",
+    "26,709",
+    "10",
+    "7700"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
@@ -397,14 +458,29 @@
      "url": "https://www.bbc.co.uk/news/videos/cq398m8w41lyo?at_medium=RSS&at_campaign=rss"
     },
     {
+     "nazwa": "BBC News",
+     "tytuł": "Spate of bomb threats poses serious challenge to airline industry",
+     "url": "https://www.bbc.co.uk/news/articles/cv8ezz9yn6pyo?at_medium=RSS&at_campaign=rss"
+    },
+    {
      "nazwa": "The Guardian",
-     "tytuł": "Bomb threats disrupt dozens of flights across Europe, raising hybrid war fears",
-     "url": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears"
+     "tytuł": "Further bomb threats disrupt at least another 18 flights across Europe",
+     "url": "https://www.theguardian.com/world/2026/nov/06/further-bomb-threats-disrupt-flights-across-europe"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Bomb threats against European flights ‘likely a coordinated campaign of disruption’, Ireland says – as it happened",
+     "url": "https://www.theguardian.com/world/live/2026/nov/06/high-alert-hoax-bomb-threats-france-air-lingus-belgium-pope-leo-europe-live"
     },
     {
      "nazwa": "BBC Europe",
-     "tytuł": "Hoax bomb threats target European airlines and airports for second time in a week",
-     "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss"
+     "tytuł": "Russian extremist group denies sending hoax bomb threats",
+     "url": "https://www.bbc.co.uk/news/articles/cm2d66n0lx1yo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Europe",
+     "tytuł": "New wave of bomb threats hit European airlines",
+     "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss"
     },
     {
      "nazwa": "BBC Europe",
@@ -412,22 +488,27 @@
      "url": "https://www.bbc.co.uk/news/articles/cx8dzzjg3g9zo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "nazwa": "Deutsche Welle",
-     "tytuł": "Bomb threats disrupt several flights across Europe",
-     "url": "https://www.dw.com/en/bomb-threats-disrupt-several-flights-across-europe/a-79861216?maca=en-rss-en-world-4025-rdf"
+     "nazwa": "Politico Europe",
+     "tytuł": "Wave of bomb threats target Irish media outlets and more European flights",
+     "url": "https://www.politico.eu/article/bomb-threats-target-irish-media-and-more-european-flights/"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "European flights and broadcasters are targeted with another wave of bomb threats",
+     "url": "https://www.npr.org/2026/11/06/nx-s1-6032612/europe-flights-hoaxes"
     }
    ],
-   "liczba_źródeł": 3,
+   "liczba_źródeł": 4,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 7.97,
+    "wynik": 11.548,
     "składowe": {
-     "potwierdzenia": 3.8,
-     "ranga_źródła": 2.033,
-     "eksponowanie": 0.45,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.487,
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 2.745,
+     "eksponowanie": 1.8,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.453,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
@@ -446,84 +527,90 @@
     "emoji": "🏅",
     "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
    },
-   "nagłówek": "Tak w TVP Sport potraktowano Szaranowicza. Jest komunikat",
-   "lead": "Kariera Włodzimierza Szaranowicza rozpoczęła się w 1976 roku w Polskim Radiu . Rok później dziennikarz zadebiutował w Telewizji Polskiej , z którą na kolejne dekady związał swoją zawodową przyszłość.",
+   "nagłówek": "Skandaliczne sceny na derbach Krakowa. Festiwal nienawiści",
+   "lead": "To kolejne żenujące derby Krakowa. Bluzgi szły w setki, a może nawet i tysiące, ale tego akurat można było się spodziewać.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-06T04:20:02+00:00",
+   "opublikowano": "2026-11-06T20:42:19+00:00",
    "źródło": {
     "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/sportowe-zycie/news-zapadla-decyzja-tvp-sport-tak-potraktowano-szaranowicza-stac,nId,23569667",
+    "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/news-festiwal-nienawisci-zenujace-zachowanie-kibicow-na-derbach-k,nId,23570437",
     "domena": "sport.interia.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000NI2N8LJY9C0YU-C321.webp",
+   "obraz": "https://i.iplsc.com/-/000NIBG9POBIOWHO-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Komentował między innymi lekkoatletykę, skoki narciarskie, koszykówkę oraz igrzyska olimpijskie.",
-      "W trakcie swojej kariery pracował przy aż 19 edycjach letnich i zimowych igrzysk, co stanowi rekord wśród polskich dziennikarzy sportowych.",
-      "W latach 2009-2017 Szaranowicz miał okazję pełnić funkcję dyrektora redakcji sportowej Telewizji Polskiej oraz TVP Sport.",
-      "Za swoją działalność otrzymał liczne wyróżnienia, w tym Złotą Telekamerę, Superwiktora i Nagrodę im.",
-      "W 2013 roku został również odznaczony Krzyżem Oficerskim Orderu Odrodzenia Polski przez ówczesnego prezydenta Rzeczypospolitej Polski, Bronisława Komorowskiego.",
-      "W 2019 roku Włodzimierz Szaranowicz zakończył regularną pracę zawodową.",
-      "Włodzimierz Szaranowicz zmienił imię i nazwisko.",
-      "Tak nazywał się wcześniej , otwiera się w nowym oknie Jak się okazuje, teraz redakcja TVP Sport postanowiła \"odwdzięczyć się\" Włodzimierzowi Szaranowiczowi za lata ciężkiej pracy.",
-      "\"Włodzimierz Szaranowicz, jeden z najwybitniejszych komentatorów sportowych w historii Telewizji Polskiej, uhonorowany w szczególny sposób."
+      "Gorsze były jednak oprawy przygotowane przez kiboli z obu stron.",
+      "Pierwsze osoby na sektorze gości pojawiły się godzinę przed meczem i zaczęły rozkładać na sektorze symbol przekreślonej białej gwiazdy.",
+      "Z kolei Wisła przygotowała dwie oprawy - pierwsza to był ogromny napis: \"Wisła pany!\", ale druga była już skandaliczna.",
+      "Nad napisem \"Strefa Ciągłego Terroru\" widniały dwie postacie w kominiarkach.",
+      "Jedna z nich była w barwach Cracovii, druga Wisły.",
+      "To nawiązanie do tego, co od lat dzieje się na ulicach Krakowa.",
+      "Kilka miesięcy temu kibole z \"Młodej Ferajny\", identyfikujący się z Wisłą zamordowali \"Yankesa\" związanego z Hutnikiem Kraków.",
+      "Po tym wydarzeniu Jarosław Królewski, prezes Wisły zapowiedział, że wszelkie gangsterskie nawiązania będą ze stadionu Wisły usuwane, ale podczas derbów po raz kolejny przegrał z pseudokibicami.",
+      "W pierwszej połowie po obu stronach stadionu palono także race oraz szaliki."
      ]
     },
     {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
      "treść": [
-      "Włodzimierz Szaranowicz – polski dziennikarz radiowy i telewizyjny, prezenter i komentator sportowy, a także koszykarz, pedagog i trener pochodzenia czarnogórskiego."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Włodzimierz Szaranowicz",
-     "url": "https://pl.wikipedia.org/wiki/W%C5%82odzimierz_Szaranowicz"
+      "Wisła lepsza w 204. derbach Krakowa."
+     ]
     }
    ],
-   "dlaczego_to_ważne": "Nie oznaczało to jednak całkowitego rozstania z dziennikarstwem - pozostał on bowiem wierny redakcji TVP Sport, dla której obecnie przygotowuje felietony.",
+   "dlaczego_to_ważne": "Kibole obu klubów walczą o wpływy w świecie przestępczym, przez co dochodzi do bójek, a także morderstw.",
    "liczby": [
-    "19"
+    "12",
+    "204"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "Skandaliczna oprawa na derbach Krakowa.",
+     "url": "https://sport.tvp.pl/96348009/skandaliczna-oprawa-na-derbach-krakowa-kibole-znow-dali-popis"
+    }
+   ],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Włodzimierz Szaranowicz",
-    "opis": "polski dziennikarz, koszykarz, pedagog i trener czarnogórskiego pochodzenia",
-    "tekst": "Włodzimierz Szaranowicz – polski dziennikarz radiowy i telewizyjny, prezenter i komentator sportowy, a także koszykarz, pedagog i trener pochodzenia czarnogórskiego.",
-    "url": "https://pl.wikipedia.org/wiki/W%C5%82odzimierz_Szaranowicz",
-    "język": "pl"
-   },
+   "tło": null,
    "tagi": [
-    "Sport",
-    "Szaranowicz",
-    "Telewizji Polskiej",
-    "Woronicza"
+    "Krakowa",
+    "Wisła",
+    "Wisły",
+    "Wisły Kraków"
    ],
-   "emotki": [
-    "📺"
-   ],
+   "emotki": [],
    "wszystkie_źródła": [
     {
      "nazwa": "Interia Sport",
-     "tytuł": "Tak w TVP Sport potraktowano Szaranowicza. Jest komunikat",
-     "url": "https://sport.interia.pl/sportowe-zycie/news-zapadla-decyzja-tvp-sport-tak-potraktowano-szaranowicza-stac,nId,23569667"
+     "tytuł": "Skandaliczne sceny na derbach Krakowa. Festiwal nienawiści",
+     "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/news-festiwal-nienawisci-zenujace-zachowanie-kibicow-na-derbach-k,nId,23570437"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Skandaliczna oprawa na derbach Krakowa. Kibole znów dali popis",
+     "url": "https://sport.tvp.pl/96348009/skandaliczna-oprawa-na-derbach-krakowa-kibole-znow-dali-popis"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Wisła lepsza w 204. derbach Krakowa. Biała Gwiazda wciąż niepokonana na własnym stadionie",
+     "url": "https://sport.tvp.pl/96346602/wisla-lepsza-w-204-derbach-krakowa-biala-gwiazda-wciaz-niepokonana-na-wlasnym-stadionie"
     }
    ],
-   "liczba_źródeł": 1,
+   "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 2.992,
+    "wynik": 4.57,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.05,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.35,
      "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.592,
-     "treściwość": 0.5,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.511,
+     "treściwość": 0.309,
      "język_działu": 0.5
     }
    },
@@ -536,22 +623,22 @@
     "emoji": "🏅",
     "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
    },
-   "nagłówek": "Sportowy wieczór (05.11.2026)",
-   "lead": "Magazyn „Sportowy wieczór”, a w nim między innymi: Włodzimierz Szaranowicz patronem studia TVP Sport, Cristiano Ronaldo żegna się z reprezentacją Portugalii oraz bolesna porażka Jagiellonii po golu straconym w końcówce. Tajniki enduro zdradzili specjalni goście – reprezentanci Polski Maciej Więckowski i Szymon…",
+   "nagłówek": "Magda Linette - Anastazja Zacharowa w półfinale turnieju WTA Ćennaj. Relacja na żywo",
+   "lead": "Półfinałowe starcie WTA w Indiach (Chennai Open) pomiędzy Magdą Linette a Anastasiją Zacharową zapowiada się niezwykle interesująco. Magda Linette w drodze do tego etapu stoczyła m.in. zacięty, trwający trzy sety pojedynek ćwierćfinałowy przeciwko Japonce Mai Hontamie, odrabiając straty w kryzysowych momentach meczu.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-05T22:05:00+00:00",
+   "opublikowano": "2026-11-06T21:56:17+00:00",
    "źródło": {
-    "nazwa": "TVP Sport",
-    "url": "https://sport.tvp.pl/96148461/sportowy-wieczor-05112026-transmisja-na-zywo-online-live-stream",
-    "domena": "sport.tvp.pl"
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/tenis/na-zywo-magda-linette-anastazja-zacharowa-w-polfinale-turnieju-wta-c,nzId,9403",
+    "domena": "sport.interia.pl"
    },
-   "obraz": null,
+   "obraz": "https://i.iplsc.com/-/000NI9HVUEJFKL9K-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Program poprowadził Jacek Kurowski."
+      "Z kolei Anastasia Zacharowa również melduje się w walce o finał, a obie zawodniczki miały już okazję zmierzyć się ze sobą w końcówce października 2026 roku, gdzie górą była Polka - zapraszamy na relację live!"
      ]
     }
    ],
@@ -561,33 +648,34 @@
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Polski Maciej Więckowski",
-    "Włodzimierz Szaranowicz",
-    "Sport Cristiano Ronaldo",
-    "Szymon Zajączkowski"
+    "Linette Anastazja Zacharowa",
+    "Indiach Chennai Open",
+    "Anastasiją Zacharową",
+    "Japonce Mai Hontamie"
    ],
    "emotki": [
-    "📺"
+    "🎾",
+    "📉"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "TVP Sport",
-     "tytuł": "Sportowy wieczór (05.11.2026)",
-     "url": "https://sport.tvp.pl/96148461/sportowy-wieczor-05112026-transmisja-na-zywo-online-live-stream"
+     "nazwa": "Interia Sport",
+     "tytuł": "Magda Linette - Anastazja Zacharowa w półfinale turnieju WTA Ćennaj. Relacja na żywo",
+     "url": "https://sport.interia.pl/tenis/na-zywo-magda-linette-anastazja-zacharowa-w-polfinale-turnieju-wta-c,nzId,9403"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 2.815,
+    "wynik": 3.612,
     "składowe": {
      "potwierdzenia": 0.0,
-     "ranga_źródła": 1.0,
+     "ranga_źródła": 1.05,
      "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.514,
-     "treściwość": 0.451,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.512,
+     "treściwość": 0.5,
      "język_działu": 0.5
     }
    },
@@ -600,199 +688,159 @@
     "emoji": "🌐",
     "opis": "wielkie ligi, turnieje i rekordy poza Polską"
    },
-   "nagłówek": "Prognozy Suttona v. Football Manager, gra",
-   "lead": "Ekspert piłkarski BBC Sport Chris Sutton bierze na siebie grę komputerową Football Manager 27, a także czytelników BBC i AI, ze swoimi przewidywaniami na weekendowe mecze Premier League.",
+   "nagłówek": "Cały zespół australijski wiedział o stosowaniu papieru ściernego - Khawaja",
+   "lead": "Usman Khawaja twierdzi, że cała drużyna australijska wiedziała o użyciu papieru ściernego do manipulowania piłką w ostatecznym teście swojej serii z 2018 roku z RPA.",
    "język_źródła": "en",
-   "opublikowano": "2026-11-05T18:02:15+00:00",
+   "opublikowano": "2026-11-06T23:11:56+00:00",
    "źródło": {
     "nazwa": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ck5ynzry64p2o?at_medium=RSS&at_campaign=rss",
+    "url": "https://www.bbc.co.uk/sport/cricket/articles/cjdx33kyzk3lo?at_medium=RSS&at_campaign=rss",
     "domena": "bbc.co.uk"
    },
-   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2355/live/30c520d0-d627-11f1-93e1-3b657b665bcf.png",
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7397/live/29b455a0-da27-11f1-a78c-49bd6dfbb9b5.jpg",
    "sekcje": [
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Dowiedz się, jak słuchać innych stacji BBC Radio 5 Live , 5 listopada 2026 r., 46 minut Do Ricka Edwardsa dołączają Charlie Adam i Nedum Onuoha, aby zareagować na odejście Cristiano Ronaldo z międzynarodowej piłki nożnej po 234 meczach i 146 golach.",
-      "W innym miejscu, gdy JJ Gabriel z Manchesteru United szuka jednego z byłych klubów Ronaldo – Realu Madryt – Charlie i Nedum omawiają wyzwania i możliwości, przed którymi stoją młodzi gracze we współczesnej piłce nożnej, zastanawiając się nad własną karierą i doświadczeniami jako rodzice z dziećmi w systemie akademii.",
-      "MKOl otwarty na dialog, a Fifa chce informacji od innych Fifa zaniepokojona zatłoczeniem obiektów i obciążeniem pracą Fifa chce rozmów z Międzynarodowym Komitetem Olimpijskim na temat ograniczenia olimpijskiego turnieju piłki nożnej kobiet do osób poniżej 23 roku życia ze względu na obawy związane z zatłoczeniem obiektów i obciążeniem pracą starszych zawodniczek.",
-      "Kryteria kwalifikacji do Olimpiady w Los Angeles w 2028 r. zostały ustalone, a turnieje kwalifikacyjne rozpoczęły się w niektórych regionach, więc nie można ich zmienić najwcześniej do Brisbane w 2032 r., ale źródła w obu organizacjach podały, że są otwarte na dialog.",
-      "Chociaż nie złożono formalnej propozycji, rozumie się, że Fifa jest zainteresowana zbadaniem tej sprawy w rozmowach z MKOl i innymi kluczowymi interesariuszami, takimi jak gracze i wiodące związki członkowskie, których strony narodowe rutynowo kwalifikują się do igrzysk.",
-      "Taka zmiana byłaby kontrowersyjna i mogłaby wywołać reakcję ze strony czołowych międzynarodowych graczy, ponieważ igrzyska olimpijskie od dawna uważane są za jeden z najważniejszych wydarzeń w kalendarzu kobiet, a drużyna Emmy Hayes ze Stanów Zjednoczonych zdobyła złoto w Paryżu dwa lata temu.",
-      "Piłka nożna kobiet ma również duży komercyjny wydźwięk dla MKOl, szczególnie na rynkach takich jak USA, Europa i Australia, więc może opierać się sugestiom Fify."
-     ]
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "27",
-    "05",
-    "46",
-    "234",
-    "146",
-    "08000 289 369"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": null,
-   "tagi": [
-    "Football Manager",
-    "Premier League",
-    "Chris Sutton",
-    "Sport"
-   ],
-   "emotki": [
-    "⚽",
-    "🏛️"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "BBC Sport",
-     "tytuł": "Sutton's predictions v Football Manager, the game",
-     "url": "https://www.bbc.co.uk/sport/football/articles/ck5ynzry64p2o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC Football",
-     "tytuł": "Football Daily",
-     "url": "https://www.bbc.co.uk/sounds/play/m003434x?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "The Guardian Football",
-     "tytuł": "Fifa wants talks over restricting women’s Olympic football to under-23s",
-     "url": "https://www.theguardian.com/football/2026/nov/05/fifa-wants-womens-olympic-football-under-23s"
-    },
-    {
-     "nazwa": "The Guardian Football",
-     "tytuł": "Uefa faces political flashpoint over Sevastopol’s ascent in Russian football",
-     "url": "https://www.theguardian.com/football/2026/nov/05/uefa-fifa-ukraine-crimea-sevastopol-promotion-russia-war"
-    },
-    {
-     "nazwa": "The Guardian Football",
-     "tytuł": "Football Daily | Como turn on the style and hammer nine past out-of-focus Lens",
-     "url": "https://www.theguardian.com/football/2026/nov/05/football-daily-email-como-lens"
-    },
-    {
-     "nazwa": "The Guardian Football",
-     "tytuł": "Fenerbahce thwart Liverpool and Arsenal pushed in Prague: Football Weekly – podcast",
-     "url": "https://www.theguardian.com/football/audio/2026/nov/05/fenerbahce-thwart-liverpool-and-arsenal-pushed-in-prague-football-weekly"
-    },
-    {
-     "nazwa": "The Guardian Football",
-     "tytuł": "Fenerbahce thwart Liverpool and Arsenal pushed in Prague | Football Weekly Extra – video",
-     "url": "https://www.theguardian.com/football/video/2026/nov/05/fenerbahce-thwart-liverpool-and-arsenal-pushed-in-prague-football-weekly-video"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 2,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 6.204,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 2.252,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.502,
-     "treściwość": 0.5,
-     "język_działu": 0.0
-    }
-   },
-   "oryginalny_nagłówek": "Sutton's predictions v Football Manager, the game",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "sport-swiat",
-    "nazwa": "Sport na świecie",
-    "emoji": "🌐",
-    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
-   },
-   "nagłówek": "Co nowa umowa Kane oznacza dla Anglii i rekordu Premier League",
-   "lead": "Nowa umowa Harry 'ego Kane' a w Bayern Monachium może zakończyć jego karierę w Premier League, ale daje nową nadzieję, że poprowadzi Anglię do chwały, pisze Phil McNulty.",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-05T14:44:34+00:00",
-   "źródło": {
-    "nazwa": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cm93zvzzl33zo?at_medium=RSS&at_campaign=rss",
-    "domena": "bbc.co.uk"
-   },
-   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2669/live/3768f3a0-d91d-11f1-ad94-e17fee4cd332.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Docenienie Lamparda w Evertonie, Glasner iskrzący pożar lasu, Zubimendi i Kroupi w świetle reflektorów i Carrick v Emery Nic lepiej nie oddaje dysfunkcji, jaką Everton sprawował pod rządami Farhada Moshiriego, niż myśl, że nieznany wandal z puszką farby w sprayu może wpłynąć na kierunek zarządzania klubem. „Pereira wypadła, Lampard wszedł” - zaznaczyli na ścianie w Goodison Park, kiedy okazało się, że Vítor Pereira był w kolejce do zastąpienia Rafaela Beníteza w 2022 roku.",
-      "Zaalarmowany protestami kibiców zarząd Evertonu zdecydował się na Franka Lamparda i chociaż jego kadencja zakończyła się 12 miesięcy później, gdy klub pogrążył się w kolejnej bitwie o spadek, menedżer Coventry doceni jego pierwszą wizytę na stadionie Hill Dickinson w piątek.",
-      "Związek między Lampardem a Evertonianami był prawdziwy i przyczynił się do utrzymania klubu w 2022 roku.",
-      "Od tego czasu strona Daniela Farke 'a zremisowała trzy razy i przegrała dwa kolejne mecze Premier League, strzelając po drodze tylko dwie bramki.",
-      "Marzenie o Europie jest dozwolone, ale wiemy, że naszym głównym celem jest jak najszybsze osiągnięcie 40 punktów.\" Louise Taylor Martín Zubimendi nie rozpoczęła jeszcze meczu Premier League w tym sezonie po upadku w Arsenalu, a hiszpański pomocnik prawdopodobnie będzie przedmiotem spekulacji, że może starać się odejść w styczniu.",
-      "Pojawienie się Mylesa Lewisa-Skelly 'ego jako alternatywy na pozycji nr 6 pod koniec zeszłego sezonu miało wpływ na Zubimendiego po tym, jak był on stałym graczem przez większość swojej kampanii debiutanckiej w Premier League.",
-      "Nasz zespół Ask Me Anything wyjaśnia, jak śledzić mecze od 10 tygodnia sezonu Premier League w BBC w ten weekend."
+      "Były otwieracz testu twierdzi, że obiekt używany również w Port Elizabeth Cricket Australia jest nadal „wygodny” z zakazami tylko dla trio Usman Khawaja twierdzi, że „wszyscy” australijskiej grupy turystycznej wiedzieli o spisku majstrowania przy piłce przeciwko Republice Południowej Afryki w Kapsztadzie w 2018 roku, a zespół również użył papieru ściernego podczas drugiego testu w Port Elizabeth.",
+      "Były australijski pałkarz powiedział, że zespół użył papieru ściernego do manipulowania piłką, zanim Cameron Bancroft został uchwycony przez kamerę podczas obsługi obiektu podczas trzeciego testu, przed wydaniem we wtorek autobiografii Khawaja Sabr.",
+      "Bancroft, David Warner i Steve Smith byli jedynymi graczami objętymi sankcjami po tym, jak dochodzenie w sprawie Cricket Australia wykazało, że trio miało wcześniejszą wiedzę na temat planu wykorzystania papieru ściernego jako środka do manipulowania piłkami w Kapsztadzie.",
+      "Kapitan Smith i wicekapitan Warner zostali zawieszeni na 12 miesięcy za swoje części na działce, podczas gdy Bancroft otrzymał dziewięciomiesięczny zakaz używania papieru ściernego na piłce . - To byliśmy my wszyscy.",
+      "Problem w tym, że naprawdę myślałem, że po ośmiu latach prawda już wyszłaby na jaw.\" Khawaja dedykuje rozdział\"sandpapergate \"w swojej książce Bancroftowi, Warnerowi i Smithowi. -Może myślałem, że Davey to ujawni, albo ktoś inny powie o tym więcej.",
+      "Khawaja, który przeszedł na emeryturę po tym, jak zeszłej zimy Australijczycy zrzucili 4-1 Popiołów na Anglię, powiedział: „To byliśmy my wszyscy.",
+      "Wszyscy.\"Kapitan w tamtym czasie Smith, Bancroft i Warner, który okazał się architektem działki\" Sandpapergate \", wszyscy otrzymali zakazy po incydencie, a Smith i Warner zostali zawieszeni na rok, a Bancroft na dziewięć miesięcy."
      ]
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
     "12",
-    "40",
-    "27",
-    "55",
-    "15",
-    "38"
+    "150",
+    "6,000",
+    "88",
+    "16",
+    "28"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Premier League",
-    "England",
-    "Bayern Munich",
-    "Harry Kane's"
+    "Australia",
+    "Khawaja Usman Khawaja",
+    "South Africa",
+    "Test"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Whole Australia team knew of sandpaper use - Khawaja",
+     "url": "https://www.bbc.co.uk/sport/cricket/articles/cjdx33kyzk3lo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "‘It was all of us’: Khawaja says entire Australia team knew about sandpaper ball tampering plot",
+     "url": "https://www.theguardian.com/sport/2026/nov/07/usman-khawaja-australia-cricket-team-sandpaper-ball-tampering-plot"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "Khawaja: Entire Australia team knew about ball-tampering scheme",
+     "url": "https://www.skysports.com/cricket/news/12040/13609070/australia-cricket-usman-khawaja-says-entire-team-knew-about-ball-tampering-scandal-in-south-africa-in-2018"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.622,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.63,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.532,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Whole Australia team knew of sandpaper use - Khawaja",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Problem Hamiltona-Leclerca Ferrari - i inne historie F1 do naśladowania",
+   "lead": "W ten weekend Grand Prix Sao Paulo jest pod wieloma względami pierwszą stroną pierwszego rozdziału następnej bitwy o mistrzostwo.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-06T20:52:24+00:00",
+   "źródło": {
+    "nazwa": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/formula1/articles/cm62y4283534o?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/511a/live/712d8810-da0f-11f1-bbd1-cf41b7fd4e9b.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Scuderia mają nadzieję na udział w mistrzostwach świata w przyszłym sezonie, ale ryzykują utratę szans, jeśli nie będą mogli zagonić swoich ludzi do kokpitu, biorąc udział w tym weekendowym Grand Prix São Paulo. Wszystko wskazuje na to, że status quo w Ferrari nie będzie już wystarczający dla Lewisa Hamiltona, jeśli ambicja Scuderii, aby powrócić do swoich pierwszych mistrzostw Formuły 1 od 2007 roku, ma być traktowana poważnie.",
+      "Tegoroczny tytuł kierowcy jest już rozstrzygnięty, a Kimi Antonelli triumfuje w ostatniej rundzie w Meksyku, a Ferrari spodziewa się kolejnego sezonu, w którym ma nadzieję na prawdziwe zmierzenie się z Włochami i Mercedesem.",
+      "Jednak po tym, jak Hamilton i jego kolega z zespołu Charles Leclerc starli się w Autódromo Hermanos Rodríguez , Brytyjczycy wyraźnie wierzą, że pochylenie tytułu w 2027 roku może być zagrożone, ponieważ zespół najwyraźniej waha się, jak poradzić sobie z dwoma kierowcami nr 1, obaj zdeterminowani, aby być najlepszym psem, wokół którego Ferrari powinno się łączyć.",
+      "W Meksyku, gdy Leclerc próbował wyprzedzić Hamiltona, ruch kosztował ich obu, Leclerca z karą i Hamiltona, który poszedł na całość i został wyprzedzony przez Maxa Verstappena, który wygrał.",
+      "Dyrektor zespołu, Fred Vasseur, potępił incydent jako przejaw braku szacunku dla zespołu i miał zorganizować spotkanie z nimi obojgiem na Interlagos w piątek."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Sao Paulo Grand Prix",
+    "Hamilton-Leclerc"
    ],
    "emotki": [
-    "⚽",
-    "🏛️"
+    "🏎️"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "BBC Sport",
-     "tytuł": "What new Kane deal means for England and the Premier League record",
-     "url": "https://www.bbc.co.uk/sport/football/articles/cm93zvzzl33zo?at_medium=RSS&at_campaign=rss"
+     "tytuł": "Ferrari's Hamilton-Leclerc problem - and other F1 stories to follow",
+     "url": "https://www.bbc.co.uk/sport/formula1/articles/cm62y4283534o?at_medium=RSS&at_campaign=rss"
     },
     {
      "nazwa": "The Guardian Sport",
-     "tytuł": "Premier League: 10 things to look out for this weekend",
-     "url": "https://www.theguardian.com/football/2026/nov/06/premier-league-10-things-to-look-out-for-this-weekend"
-    },
-    {
-     "nazwa": "BBC Football",
-     "tytuł": "How to follow the Premier League on the BBC this weekend",
-     "url": "https://www.bbc.co.uk/sport/football/articles/cp30ggvqj0do?at_medium=RSS&at_campaign=rss"
+     "tytuł": "Hamilton v Leclerc: how can Ferrari solve problem of two number one drivers?",
+     "url": "https://www.theguardian.com/sport/2026/nov/06/hamilton-v-leclerc-how-can-ferrari-solve-problem-of-two-number-one-drivers"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.083,
+    "wynik": 5.878,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.645,
+     "ranga_źródła": 1.48,
      "eksponowanie": 0.45,
      "słowa_kluczowe": 1.05,
-     "świeżość": 0.538,
+     "świeżość": 0.498,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "What new Kane deal means for England and the Premier League record",
+   "oryginalny_nagłówek": "Ferrari's Hamilton-Leclerc problem - and other F1 stories to follow",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -806,74 +854,99 @@
     "emoji": "🧪",
     "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
    },
-   "nagłówek": "Wygląda jak owad, a to dopiero początek zalet. motorola signature 27 ujawniona",
-   "lead": "Wygląda jak owad, a to dopiero początek zalet. motorola signature 27 ujawniona",
+   "nagłówek": "To koniec Cybertrucka. Elon Musk przekazał smutną wiadomość",
+   "lead": "Tesla Cybertruck miała zrewolucjonizować rynek uwielbianych przez Amerykanów pickupów. Jak pokazały trzy lata sprzedaży, nic z tego nie wyszło.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-05T13:00:00+00:00",
+   "opublikowano": "2026-11-06T11:24:40+00:00",
    "źródło": {
-    "nazwa": "Spider's Web",
-    "url": "https://spidersweb.pl/2026/11/motorola-signature-27-ceny-specyfikacja.html",
-    "domena": "spidersweb.pl"
+    "nazwa": "Antyweb",
+    "url": "https://antyweb.pl/to-koniec-cybertrucka-elon-musk-przekazal-smutna-wiadomosc",
+    "domena": "antyweb.pl"
    },
-   "obraz": "https://cdn-sw.spidersweb.pl/2026/11/motorola-signature-27-cena-specyfikacja.webp",
+   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2023/11/uswhnubzcx/czarna-tesla-cybertruck.jpg",
    "sekcje": [
     {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
      "treść": [
-      "Najwydajniejszy na rynku procesor mobilny, system audio od Bang & Olufsen, ekran o szczytowej jasności sięgającej aż 12 000 nitów i nietuzinkowe aparaty.",
-      "Jak jest w przypadku modelu Signature 27?",
-      "Przed przegrzewaniem chroni Motorola ArcticMesh, czyli połączenie żelu termicznego, zawierającego mikrodrobinki diamentu, z komorą parową o powierzchni 8384 mm² – o 40% większej niż w poprzedniej generacji Signature.",
-      "Równie mocny jest wyświetlacz, bo Motorola postawiła na 6,78-calowy Extreme AMOLED Duo Tandem o szczytowej jasności sięgającej aż 12 000 nitów – to naprawdę dużo – odświeżaniu na poziomie 120 Hz i gęstości pikseli na poziomie 450 ppi.",
-      "Główny aparat to 50-megapikselowa matryca Sony LYTIA 910 z OIS i nagrywaniem w 8K – pierwszy sensor Sony w technologii LOFIC."
+      "Dziś Elon Musk przekazał jednoznaczną wiadomość.",
+      "Pickup Tesli od początku wzbudzał kontrowersje.",
+      "Nietypowe wzornictwo czy sterowanie to tylko pierwsze z brzegu.",
+      "Poza Stanami Zjednoczonymi doszły też spore wymiary pojazdu.",
+      "Cybertruck okazał się do tego stopnia nietypowy, że w wielu państwach nie można go zarejestrować.",
+      "Co ciekawe, również w Stanach Zjednoczonych samochód nie sprzedawał się wyjątkowo dobrze.",
+      "Tesla zakładała osiągnięcie produkcji na poziomie 125 tysięcy egzemplarzy rocznie.",
+      "Udało się osiągnąć zaledwie 70 tysięcy i to w trzy lata.",
+      "Decyzja mogła być tylko jedna."
      ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Elon Reeve Musk – południowoafrykański przemysłowiec, założyciel, współzałożyciel lub finansista przedsiębiorstw SpaceX, Tesla, Neuralink, X.com, The Boring Company oraz SpaceXAI. Pochodzi z Republiki Południowej Afryki, mieszka i pracuje w Stanach Zjednoczonych. Dyrektor generalny i techniczny w SpaceX, dyrektor generalny i główny architekt w Tesla Inc. W styczniu 2021 został uznany najbogatszym człowiekiem świata przez magazyn „Forbes” i agencję Bloomberg. Od 28 października 2022 właściciel serwisu X. W okresie od 20 stycznia do 28 maja 2025 szef Departamentu Wydajności Rządu w drugim gabinecie Donalda Trumpa. Na dzień 2 listopada 2026 roku, według magazynu „Forbes”, jego majątek szacowany jest na 902,1 miliarda dolarów amerykańskich (USD)."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Elon Musk",
+     "url": "https://pl.wikipedia.org/wiki/Elon_Musk"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "27",
-    "12 000",
-    "4.1",
-    "8384 mm",
-    "40%",
-    "6,78"
+    "125 tysięcy",
+    "70 tysięcy",
+    "2500",
+    "150",
+    "250,000",
+    "40,000"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Elon Musk",
+    "opis": "południowoafrykański przedsiębiorca",
+    "tekst": "Elon Reeve Musk – południowoafrykański przemysłowiec, założyciel, współzałożyciel lub finansista przedsiębiorstw SpaceX, Tesla, Neuralink, X.com, The Boring Company oraz SpaceXAI. Pochodzi z Republiki Południowej Afryki, mieszka i pracuje w Stanach Zjednoczonych. Dyrektor generalny i techniczny w SpaceX, dyrektor generalny i główny architekt w Tesla Inc. W styczniu 2021 został uznany najbogatszym człowiekiem świata przez magazyn „Forbes” i agencję Bloomberg. Od 28 października 2022 właściciel serwisu X. W okresie od 20 stycznia do 28 maja 2025 szef Departamentu Wydajności Rządu w drugim gabinecie Donalda Trumpa. Na dzień 2 listopada 2026 roku, według magazynu „Forbes”, jego majątek szacowany jest na 902,1 miliarda dolarów amerykańskich (USD).",
+    "url": "https://pl.wikipedia.org/wiki/Elon_Musk",
+    "język": "pl"
+   },
    "tagi": [
-    "Wygląda"
+    "Cybertrucka",
+    "Elon Musk",
+    "Tesla",
+    "Polsce Tesla Cybertruck"
    ],
-   "emotki": [],
+   "emotki": [
+    "🛒"
+   ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Spider's Web",
-     "tytuł": "Wygląda jak owad, a to dopiero początek zalet. motorola signature 27 ujawniona",
-     "url": "https://spidersweb.pl/2026/11/motorola-signature-27-ceny-specyfikacja.html"
-    },
-    {
      "nazwa": "Antyweb",
-     "tytuł": "Motorola Signature 27 chce podbić segment premium. Ten flagowiec ma naprawdę mocne argument",
-     "url": "https://antyweb.pl/motorola-signature-27-chce-podbic-segment-premium-ten-flagowiec-ma-naprawde-mocne-argument"
+     "tytuł": "To koniec Cybertrucka. Elon Musk przekazał smutną wiadomość",
+     "url": "https://antyweb.pl/to-koniec-cybertrucka-elon-musk-przekazal-smutna-wiadomosc"
     },
     {
      "nazwa": "Ars Technica",
-     "tytuł": "Motorola's new Signature 27 has it all if you can stomach the $1,600 price tag",
-     "url": "https://arstechnica.com/gadgets/2026/11/motorolas-new-signature-27-has-it-all-if-you-can-stomach-the-1600-price-tag/"
+     "tytuł": "No more Cybertrucks; Musk moves on from the angular metallic flop",
+     "url": "https://arstechnica.com/cars/2026/11/the-cybertruck-is-dead-makes-way-for-cybercab-says-elon-musk/"
+    },
+    {
+     "nazwa": "TechCrunch",
+     "tytuł": "Tesla will stop making the Cybertruck in 2027",
+     "url": "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/"
     }
    ],
    "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.601,
+    "wynik": 6.514,
     "składowe": {
      "potwierdzenia": 3.8,
      "ranga_źródła": 1.535,
      "eksponowanie": 0.0,
      "słowa_kluczowe": 0.0,
-     "świeżość": 0.4,
-     "treściwość": 0.366,
+     "świeżość": 0.41,
+     "treściwość": 0.269,
      "język_działu": 0.5
     }
    },
@@ -886,94 +959,75 @@
     "emoji": "🧪",
     "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
    },
-   "nagłówek": "Gęstnieje atmosfera wokół OpenAI. GPT-6.2 Astra i Sol tuż za rogiem?",
-   "lead": "Idąc klasykiem: \"wiedz, że coś się dzieje\". Tym razem w OpenAI: tym bardziej, że wiele osób na to czeka.",
+   "nagłówek": "Uważaj na tę aplikację. Wykończy twój telefon z Androidem",
+   "lead": "Wykończy twój telefon z Androidem",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-05T18:30:36+00:00",
+   "opublikowano": "2026-11-05T17:21:00+00:00",
    "źródło": {
-    "nazwa": "Antyweb",
-    "url": "https://antyweb.pl/gpt-6-2-astra-sol-premiera-kiedy-przecieki",
-    "domena": "antyweb.pl"
+    "nazwa": "Spider's Web",
+    "url": "https://spidersweb.pl/2026/11/aplikacja-android-luka-wirus.html",
+    "domena": "spidersweb.pl"
    },
-   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2026/11/gpt-6-2-astra-sol-16x9-1.png",
+   "obraz": "https://cdn-sw.spidersweb.pl/2026/11/android-wirus-luki-bezpieczenstwo-petla.webp",
    "sekcje": [
     {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
      "treść": [
-      "Nowe wersje Sola i Astry mogą pojawić się już w piątek: na co wskazuje The Information.",
-      "W Codexie i Google Cloud pojawiły się poszlaki dotyczące modeli GPT-6.2 Sol i Astra, a OpenAI podgrzewa atmosferę i ujawniło wyniki dla modelu przewyższającego po wielokroć całkiem niezłą, choć przegrywającą ze świeżymi modelami, Astrę właśnie: ale w wersji GPT-6.",
-      "Już w piątek mogą zadebiutować nowe modele Sol i Astra.",
-      "Na to wskazują zrzuty dwóch różnych paneli, z których jeden rozlicza zużycie w narzędziach OpenAI, a drugi służy do zarządzania limitami w chmurze Google.",
-      "Tu robi się ciekawie, bo TestingCatalog opisał zrzuty, na których zadania z 31 października rozliczono częściowo pod nazwą gpt-6.2-astra: tak, jakby GPT-6 routowało wprost do nowszego modelu w ramach testów.",
-      "Niewykluczone, że może to być błąd albo po stronie mechanizmu w OpenAI rozliczającego zużycie, albo efekt wyjątkowo słabej w ostatnim czasie desktopowej aplikacji ChatGPT, którą OpenAI chyba vibecode'uje na potęgę.",
-      "Aczkolwiek, skoro już tam pojawia się takie oznaczenie, to coś jest na rzeczy.",
-      "W nocy z 4 na 5 listopada ujawniono również zrzuty z Google Cloud, na których obok gpt-6.2-astra widniał także gpt-6.2-sol.",
-      "Ale: konfiguracja usługi a realna możliwość użycia modelu, to dwie osobne kwestie."
+      "100% wcale nie oznacza maksimum Nasze telefony mają funkcję, z której korzystamy każdego dnia wierząc, że działa ona dokładnie tak, jak sugeruje komunikat na ekranie.",
+      "Chyba każdy z nas niejednokrotnie w ciągu dnia zsuwa górną belkę powiadomień w telefonie aby dostać się do podręcznych opcji sterowania urządzeniem."
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "OpenAI – amerykańskie przedsiębiorstwo i laboratorium badawcze założone 8 grudnia 2015, specjalizujące się w dziedzinie sztucznej inteligencji. Celem organizacji jest rozwijanie ogólnej sztucznej inteligencji mającej przynosić korzyści całej ludzkości. OpenAI opracowało między innymi ChatGPT, DALL-E, Sorę oraz modele z rodziny GPT."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: OpenAI",
-     "url": "https://pl.wikipedia.org/wiki/OpenAI"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "6.2",
-    "31",
-    "0,875",
-    "2.0",
-    "0,594",
-    "10 tys."
+    "100%",
+    "10%",
+    "20%",
+    "80%",
+    "90%",
+    "0,5"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Antyweb",
+     "ujęcie": "Chodzi o suwak jasności, który okazuje się być jednym wielkim... kłamstwem.",
+     "url": "https://antyweb.pl/twoj-telefon-klamie-chodzi-o-jasnosc-ekranu"
+    }
+   ],
    "pojęcia": [],
-   "tło": {
-    "hasło": "OpenAI",
-    "opis": "amerykańska organizacja badawcza w dziedzinie sztucznej inteligencji",
-    "tekst": "OpenAI – amerykańskie przedsiębiorstwo i laboratorium badawcze założone 8 grudnia 2015, specjalizujące się w dziedzinie sztucznej inteligencji. Celem organizacji jest rozwijanie ogólnej sztucznej inteligencji mającej przynosić korzyści całej ludzkości. OpenAI opracowało między innymi ChatGPT, DALL-E, Sorę oraz modele z rodziny GPT.",
-    "url": "https://pl.wikipedia.org/wiki/OpenAI",
-    "język": "pl"
-   },
+   "tło": null,
    "tagi": [
-    "OpenAI",
-    "Astra",
-    "Sol",
-    "Astry"
+    "Androidem Uważaj",
+    "Androidem"
    ],
    "emotki": [
-    "🤖"
+    "💻"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Antyweb",
-     "tytuł": "Gęstnieje atmosfera wokół OpenAI. GPT-6.2 Astra i Sol tuż za rogiem?",
-     "url": "https://antyweb.pl/gpt-6-2-astra-sol-premiera-kiedy-przecieki"
+     "nazwa": "Spider's Web",
+     "tytuł": "Uważaj na tę aplikację. Wykończy twój telefon z Androidem",
+     "url": "https://spidersweb.pl/2026/11/aplikacja-android-luka-wirus.html"
     },
     {
-     "nazwa": "Phys.org Technology",
-     "tytuł": "Some AI agents use personal information to upsell wealthier individuals",
-     "url": "https://techxplore.com/news/2026-11-ai-agents-personal-upsell-wealthier.html"
+     "nazwa": "Antyweb",
+     "tytuł": "Twój telefon kłamie. Chodzi o jasność ekranu",
+     "url": "https://antyweb.pl/twoj-telefon-klamie-chodzi-o-jasnosc-ekranu"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.654,
+    "wynik": 4.054,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.235,
+     "ranga_źródła": 1.135,
      "eksponowanie": 0.0,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.469,
-     "treściwość": 0.5,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.425,
+     "treściwość": 0.094,
      "język_działu": 0.5
     }
    },
@@ -986,64 +1040,130 @@
     "emoji": "⚛️",
     "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
    },
-   "nagłówek": "Przypinanie struktury plazmy kwarkowo-gluonowej, pierwszego płynu wszechświata",
-   "lead": "jennifer Chu, Massachusetts Institute of Technology W pierwszym ułamku sekundy po Wielkim Wybuchu materia istniała jako trylion-stopniowa plazma kwarków i cząstek gluonów-subatomowych, które krążyły wokół z prędkością bliską prędkości światła. Ta roilingowa zupa trwała zaledwie kilka mikrosekund przed…",
+   "nagłówek": "Mikroskop gazowy kwantowy ujawnia poszczególne atomy w pierwszym przestrajalnym trójskładnikowym systemie Hubbarda",
+   "lead": "Po raz pierwszy międzynarodowy zespół naukowców z Niemiec, Tajlandii, Indii, Chin i Stanów Zjednoczonych stworzył trójskładnikowy system Hubbarda z regulowanymi interakcjami w laboratorium. W tym celu zespół wykorzystał kwantowy mikroskop gazowy, aby uwidocznić poszczególne atomy.",
    "język_źródła": "en",
-   "opublikowano": "2026-11-05T23:10:01+00:00",
+   "opublikowano": "2026-11-06T20:20:01+00:00",
    "źródło": {
     "nazwa": "Phys.org",
-    "url": "https://phys.org/news/2026-11-pinning-quark-gluon-plasma-universe.html",
+    "url": "https://phys.org/news/2026-11-quantum-gas-microscope-reveals-individual.html",
     "domena": "phys.org"
    },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/pinning-down-the-struc-1.jpg",
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/quantum-gas-microscope.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Aby zbadać ten pierwotny płyn, naukowcy odtwarzają plazmę kwarkowo-gluonową w akceleratorach dużych cząstek, w których jony są rozbijane razem z prędkością bliską prędkości światła.",
-      "Zderzenia te tworzą kropelki plazmy mniej więcej wielkości jądra atomowego, które istnieją tylko przez dziesiątki miliardowych części sekundy.",
-      "Jednym ze sposobów badania tej plazmy jest śledzenie innych cząstek, takich jak ciężkie kwarki, które nie są częścią plazmy, ale zdarza się, że się przez nią poruszają.",
-      "Sposób, w jaki ciężka cząstka przemieszcza się przez płyn, powinien powiedzieć coś o mikroskopijnej strukturze samego płynu.",
-      "Ta ogólna relacja została ustanowiona przez fizyka Alberta Einsteina w 1905 roku.",
-      "Ale w tak ekstremalnych warunkach, gdy cząstki poruszają się z prędkością bliską prędkości światła, coś w teorii Einsteina zaczyna się rozpadać; istnieją interakcje w plazmie, których teoria nie może do końca uchwycić.",
-      "Teraz fizycy Z MIT i Uniwersytetu Kalifornijskiego w Santa Barbara (UCSB) zajęli się teorią Einsteina.",
-      "Opracowali teorię, która przewiduje, w jaki sposób cząstka relatywistyczna, poruszająca się z prędkością bliską prędkości światła, może być popychana i ciągnięta przez płyn podczas przelotu przez nią.",
-      "Naukowcy przewidują, że nową teorię można zastosować do przewidywania, w jaki sposób ciężki kwark będzie przemieszczał się przez plazmę kwarkowo-gluonową."
+      "Badanie , opublikowane w Science , stanowi ważny fundament dla przyszłych symulacji kwantowych fizyki jądrowej i materiałoznawstwa.",
+      "Ultrazimne atomy są często wykorzystywane do konstruowania układów, które przypominają te spotykane w fizyce ciała stałego.",
+      "W tym kontekście atomy fermionowe odgrywają rolę elektronów w ciele stałym.",
+      "System ten jest wyjątkowy, ponieważ realizuje model Hubbarda, który jest jednym z najważniejszych modeli opisujących interakcje fermionów na sieci.",
+      "Podejście to jest uważane za szczególnie obiecujące dla zrozumienia nadprzewodnictwa wysokotemperaturowego .",
+      "Standardowy model Hubbarda zazwyczaj uwzględnia dwa stany spinu: spin-up i spin-down.",
+      "Trzeci komponent sprawia, że system jest znacznie bardziej wszechstronny, umożliwiając badaczom badanie bogatszych faz kwantowo-mechanicznych.",
+      "„Chociaż model Hubbarda jest ważny i prosty do zapisania, nie jest łatwy do rozwiązania.",
+      "Teoretycy walą głowami w dwuskładnikowy model Hubbarda od dziesięcioleci, ale wciąż pozostają poważne pytania otwarte."
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Albert Einstein był urodzonym w Niemczech fizykiem teoretycznym, najbardziej znanym z rozwijania teorii względności. Einstein wniósł również istotny wkład w teorię kwantową. Jego formuła równoważności masy i energii E = mc2, która wynika ze szczególnej teorii względności, została nazwana „najsłynniejszym równaniem świata”. Otrzymał Nagrodę Nobla w dziedzinie fizyki w 1921 r. za „zasługi dla fizyki teoretycznej, a zwłaszcza za odkrycie prawa efektu fotoelektrycznego”."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Albert Einstein",
-     "url": "https://en.wikipedia.org/wiki/Albert_Einstein"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "1827",
-    "20",
     "100,000",
-    "10.1103"
+    "10.1126",
+    "10.48550"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Albert Einstein",
-    "opis": "German-born theoretical physicist (1879–1955)",
-    "tekst": "Albert Einstein was a German-born theoretical physicist best known for developing the theory of relativity. Einstein also made important contributions to quantum theory. His mass–energy equivalence formula E = mc2, which arises from special relativity, has been called \"the world's most famous equation\". He received the 1921 Nobel Prize in Physics for \"his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect\".",
-    "url": "https://en.wikipedia.org/wiki/Albert_Einstein",
-    "język": "en"
-   },
+   "tło": null,
    "tagi": [
-    "Du Plessis",
-    "Einstein's",
-    "Brownian",
-    "Einstein"
+    "Hubbard",
+    "Mott",
+    "Science",
+    "Schauss"
+   ],
+   "emotki": [
+    "⚛️",
+    "🔬",
+    "🛒"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Quantum gas microscope reveals individual atoms in first tunable three-component Hubbard system",
+     "url": "https://phys.org/news/2026-11-quantum-gas-microscope-reveals-individual.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.352,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.492,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Quantum gas microscope reveals individual atoms in first tunable three-component Hubbard system",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Sparowane, ale poza etapem: Dlaczego samo parowanie elektronów nie wystarcza do nadprzewodnictwa w temperaturze pokojowej",
+   "lead": "Lewitacja pociągów, ultra-wydajne magazynowanie energii i komputery kwantowe: nadprzewodnictwo może otworzyć wiele możliwości na przyszłość. Nowe badania prowadzone przez naukowców z Utrechtu, Lejdy i Monachium rzuciły teraz światło na jeden z kluczowych wymogów osiągnięcia nadprzewodnictwa w temperaturze pokojowej.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-06T13:54:34+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-11-paired-electron-pairing-room-temperature.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-research-offers-ho.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Ich odkrycia, opublikowane w Science , przybliżają naukowców do zrozumienia, w jaki sposób można to osiągnąć.",
+      "Po włączeniu tostera prąd przepływa przez metalowy drut.",
+      "Dzieje się tak, ponieważ przewód jest odporny na przepływ prądu elektrycznego, przekształcając energię elektryczną w ciepło.",
+      "Na przykład, gdy chcesz naładować telefon, opór powoduje utratę cennej energii.",
+      "Nadprzewodnictwo oferuje sposób na obejście tego problemu.",
+      "Jest to zjawisko fizyczne, w którym niektóre materiały przewodzą energię elektryczną bez żadnego oporu.",
+      "Naukowcy po raz pierwszy odkryli nadprzewodnictwo w 1911 roku.",
+      "W połowie lat 80. dokonali kolejnego przełomu: odkrycia materiałów, które stają się nadprzewodzące w znacznie wyższych temperaturach, chociaż temperatury te nadal wynosiły około -173°C.",
+      "Teoria, która wyjaśnia konwencjonalne, niskotemperaturowe nadprzewodnictwo, nie mogła odpowiadać za ten nowy rodzaj nadprzewodnictwa."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "W przypadku wielu materiałów oznacza to schłodzenie ich do około -260°C przy użyciu ciekłego helu.",
+   "liczby": [
+    "-260°C",
+    "-173°C",
+    "10"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Swart",
+    "Science",
+    "Utrecht Leiden",
+    "Ingmar Swart"
    ],
    "emotki": [
     "⚛️"
@@ -1051,124 +1171,26 @@
    "wszystkie_źródła": [
     {
      "nazwa": "Phys.org",
-     "tytuł": "Pinning down the structure of quark-gluon plasma, the universe's first fluid",
-     "url": "https://phys.org/news/2026-11-pinning-quark-gluon-plasma-universe.html"
+     "tytuł": "Paired but out of step: Why electron pairing alone is not enough for room-temperature superconductivity",
+     "url": "https://phys.org/news/2026-11-paired-electron-pairing-room-temperature.html"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.631,
+    "wynik": 3.351,
     "składowe": {
      "potwierdzenia": 0.0,
      "ranga_źródła": 1.2,
-     "eksponowanie": 0.81,
+     "eksponowanie": 0.54,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.527,
-     "treściwość": 0.394,
+     "świeżość": 0.411,
+     "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Pinning down the structure of quark-gluon plasma, the universe's first fluid",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "fizyka",
-    "nazwa": "Fizyka",
-    "emoji": "⚛️",
-    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
-   },
-   "nagłówek": "Sterowanie elektryczne niekonwencjonalnym stanem transportu kwantowego przedstawione w magnesie po raz pierwszy",
-   "lead": "Naukowcy z Uniwersytetu Tohoku i Japońskiej Agencji Energii Atomowej (JAEA) po raz pierwszy z powodzeniem opanowali unikalne zjawisko kwantowe - nieliniową halę kwantowo-geometryczną (QgNLH) wykorzystującą prąd elektryczny. Przełom został osiągnięty poprzez ujawnienie i wykorzystanie połączenia między spinem…",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-05T21:40:09+00:00",
-   "źródło": {
-    "nazwa": "Phys.org",
-    "url": "https://phys.org/news/2026-11-electrical-unconventional-quantum-state-magnet.html",
-    "domena": "phys.org"
-   },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/electrical-control-of-1.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Osiągnięcia, opublikowane w czasopiśmie Newton w listopadzie",
-      "4, 2026, oferują potencjalne podejście do opracowywania elektrycznie dostrajalnych urządzeń, które wykorzystują efekty kwantowo-geometryczne do wykonywania nieliniowych funkcji przetwarzania sygnału.",
-      "Przewodnictwo elektryczne jest podstawą nowoczesnej elektroniki.",
-      "W zwykłym przewodniku napięcie i prąd są proporcjonalne, jak opisuje to prawo Ohma i efekt Halla.",
-      "Typowym przykładem jest nieliniowy efekt Halla, w którym napięcie Halla pojawiające się w kierunku poprzecznym prądu nie podąża już za zwykłą zależnością liniową.",
-      "Geometria kwantowa - geometryczna struktura elektronicznych stanów kwantowych - odgrywa kluczową rolę w wytwarzaniu tak niekonwencjonalnej nieliniowej odpowiedzi napięciowo-prądowej.",
-      "Odpowiedni kwantowo-geometryczny nieliniowy stan Halla (QgNLH) jest zatem interesujący zarówno jako sposób badania kwantowych właściwości ciał stałych, jak i jako nowa podstawa nieliniowego przetwarzania sygnału.",
-      "W przypadku praktycznych urządzeń elektronicznych konieczne jest jednak nie tylko obserwowanie tej reakcji, ale także kontrolowanie jej za pomocą prądu elektrycznego.",
-      "Pozostaje to wyzwaniem, ponieważ geometria kwantowa została zinterpretowana jako wbudowana właściwość materiału."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "W architekturze sala to stosunkowo duża przestrzeń zamknięta dachem i ścianami. W epoce żelaza i wczesnym średniowieczu w północnej Europie sala miodowa była miejscem, w którym pan i jego podopieczni jedli, a także spali. Później, w średniowieczu, wielka sala była największym pokojem w zamkach i dużych domach, w którym zwykle spali służący. Wraz z rozwojem bardziej złożonych planów domu, sala pozostała dużym pokojem do tańca i dużych uczt, często jeszcze ze spaniem służących. Zwykle znajdował się bezpośrednio za głównymi drzwiami. W nowoczesnych brytyjskich domach nieodzownym elementem pozostaje korytarz wejściowy przy drzwiach wejściowych, nawet jeśli jest to w zasadzie tylko korytarz."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Hall",
-     "url": "https://en.wikipedia.org/wiki/Hall"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "4, 2026",
-    "100,000",
-    "10.1016"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Hall",
-    "opis": "Large room used for meetings, social affairs or events",
-    "tekst": "In architecture, a hall is a relatively large space enclosed by a roof and walls. In the Iron Age and the Early Middle Ages in northern Europe, a mead hall was where a lord and his retainers ate and also slept. Later in the Middle Ages, the great hall was the largest room in castles and large houses, and where the servants usually slept. As more complex house plans developed, the hall remained a large room for dancing and large feasts, often still with servants sleeping there. It was usually immediately inside the main door. In modern British houses, an entrance hall next to the front door remains an indispensable feature, even if it is essentially merely a corridor.",
-    "url": "https://en.wikipedia.org/wiki/Hall",
-    "język": "en"
-   },
-   "tagi": [
-    "Hall",
-    "QgNLH",
-    "Mn₃Sn",
-    "Tomohiro Uchimura"
-   ],
-   "emotki": [
-    "⚛️",
-    "🔬"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Phys.org",
-     "tytuł": "Electrical control of an unconventional quantum transport state demonstrated in a magnet for the first time",
-     "url": "https://phys.org/news/2026-11-electrical-unconventional-quantum-state-magnet.html"
-    }
-   ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 3.624,
-    "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.2,
-     "eksponowanie": 0.72,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.508,
-     "treściwość": 0.496,
-     "język_działu": 0.0
-    }
-   },
-   "oryginalny_nagłówek": "Electrical control of an unconventional quantum transport state demonstrated in a magnet for the first time",
+   "oryginalny_nagłówek": "Paired but out of step: Why electron pairing alone is not enough for room-temperature superconductivity",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -1182,30 +1204,144 @@
     "emoji": "🔭",
     "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
    },
-   "nagłówek": "Hubble uczy się historii galaktyki od gwiazd",
-   "lead": "Ten obraz Kosmicznego Teleskopu Hubble 'a NASA/ESA stanowi lekcję historii galaktyki. Błyskotliwa kolekcja gwiazd nosi nazwę Messier 30 (M30) na cześć francuskiego astronoma Charlesa Messiera , który skatalogował M30 i inne obiekty rozproszone, które można pomylić z kometami we wczesnych teleskopach czasów Messiera.",
+   "nagłówek": "Niebo w tym tygodniu od 6 do 13 listopada: Wenus w centrum uwagi",
+   "lead": "Piątek, 6 listopada Ubywający Księżyc pozostawia nam idealne niebo do obserwacji głębokiego nieba. Rozpocznijmy tydzień jasną mgławicą planetarną w Wodniku: NGC 7293, powszechnie znana jako Mgławica Helisa.",
    "język_źródła": "en",
-   "opublikowano": "2026-11-05T12:56:21+00:00",
+   "opublikowano": "2026-11-06T06:00:00+00:00",
    "źródło": {
-    "nazwa": "NASA",
-    "url": "https://science.nasa.gov/missions/hubble/hubble-learns-galactic-history-from-stars/",
-    "domena": "science.nasa.gov"
+    "nazwa": "Astronomy Magazine",
+    "url": "https://www.astronomy.com/the-sky-this-week/the-sky-this-week-from-november-6-to-13-2026/",
+    "domena": "astronomy.com"
    },
-   "obraz": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/stars/globular-clusters/Hubble_M30_potm2610a.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "obraz": null,
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "M30 leży około 27 500 lat świetlnych od nas w gwiazdozbiorze Koziorożca.",
-      "M30 to gromada kulista: z grubsza sferyczna grupa gwiazd zawierająca od kilkudziesięciu tysięcy do milionów gwiazd.",
-      "Gromady te na ogół znajdują się na obrzeżach galaktyk, orbitując w rozległym, rozproszonym regionie zwanym aureolą jak rój ciem wokół żarówki.",
-      "Nasza galaktyka Drogi Mlecznej ma co najmniej 150 gromad kulistych, z których najbliższa znajduje się w odległości około 6000 lat świetlnych.",
-      "Gromady te są imponująco stare: astronomowie szacują, że ich wiek wynosi od 11,5 do 13,5 miliarda lat, co sprawia, że niektóre gromady kuliste są prawie tak stare, jak sam wszechświat.",
-      "Gromady kuliste od dawna odgrywają ważną rolę w poznawaniu naszej galaktyki.",
-      "Ponad sto lat temu astronom Harlow Shapley wykorzystał obserwacje określonego typu gwiazd zmiennych do pomiaru lokalizacji i odległości do dziesiątek gromad kulistych w naszej galaktyce.",
-      "Jego praca pokazała, że Słońce nie znajduje się w centrum naszej galaktyki, a centrum galaktyki leży w kierunku konstelacji Strzelca.",
-      "(Jego pomiary odległości były jednak nieprawidłowe i doszedł do wniosku, że nasza galaktyka jest około dwa razy większa niż w rzeczywistości.) Dziś astronomowie nadal uczą się o naszej galaktyce, obserwując gromady kuliste."
+      "Pomimo imponującej wielkości 7,3, Helisa stanowi wyzwanie: jest szeroka na 13stóp, która rozprzestrzenia swoje światło nad Czytaj dalej „Niebo w tym tygodniu od 6 do 13 listopada: Wenus w centrum uwagi” Post „Niebo w tym tygodniu” od 6 do 13 listopada: Wenus w centrum uwagi pojawiła się jako pierwsza w Astronomy Magazine ."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "O 18:00 czasu lokalnego, Trójkąt Letni — który lata wysoko nad głową w krótkie letnie noce — zaczyna teraz czytać \"The Sky Today w piątek, 6 listopada: Nab the North America Nebula\" Post The Sky Today w piątek, 6 listopada: Nab the North America Nebula pojawił się jako pierwszy w Astronomy Magazine .",
+      "■ Algol powinien mieć minimalną jasność, wielkość 3,4 zamiast zwykłego 2,1, przez około dwie godziny, wyśrodkowaną na 22:34.",
+      "Wykres porównawczy . ■ Gdy świt zaczyna się rozjaśniać w sobotę rano 7-go, szukaj Wenus nisko na wschodzie-południowym wschodzie.",
+      "W odległości 2° (w zależności od Twojej lokalizacji) znajduje się nieśmiała Spica i bardzo cienki ubywający półksiężyc, zaledwie dwa dni od nowego, mniej więcej tak, jak pokazano poniżej.",
+      "A około 22:00 (w zależności od Twojej lokalizacji) Orion oczyści wschodni horyzont poniżej Aldebaran. ■ Gdy tylko gwiazdy wyjdą, Wielki Plac Pegaza nadal balansuje na swoim rogu, mniej więcej, wysoko na południowym wschodzie.",
+      "SZAC. ■ nowiu (dokładnie o 02:02 w tym dniu est). ■ Wszystkiego najlepszego z okazji 92. urodzin Carla Sagana (9 listopada 1934 – 20 grudnia 1996).",
+      "Mars i Jowisz (odpowiednio wielkości +0,8 i -2,1) wznoszą się na wschodzie-północnym wschodzie około 11 lub północy w odstępie zaledwie około 10 minut."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Wenus jest drugą planetą od Słońca. Podobnie pod względem wielkości i masy jak Ziemia, Wenus nie ma płynnej wody, a jej atmosfera jest znacznie gęstsza i gęstsza niż w jakimkolwiek innym skalistym ciele w Układzie Słonecznym. Atmosfera składa się głównie z dwutlenku węgla i ma grubą warstwę chmurową kwasu siarkowego, która rozciąga się na całą planetę. Na średnim poziomie powierzchni atmosfera osiąga temperaturę 737 K, co czyni ją najgorętszą planetą w Układzie Słonecznym, a także ciśnienie 92 razy większe niż ciśnienie Ziemi na poziomie morza, zamieniając najniższą warstwę atmosfery w płyn nadkrytyczny. Z Ziemi Wenus jest widoczna jako punkt świetlny przypominający gwiazdę, wydaje się jaśniejsza niż jakikolwiek inny naturalny punkt świetlny na niebie, jako najjaśniejsza „gwiazda poranna” lub „gwiazda wieczorna”. Nadawano mu również poetycką nazwę ⏰arendel w języku staroangielskim, oznaczającą „promień światła” wraz z dwoma poprzednimi epitetami."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Venus",
+     "url": "https://en.wikipedia.org/wiki/Venus"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "7293",
+    "7.3",
+    "13",
+    "3.4",
+    "2.1",
+    "10"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Venus",
+    "opis": "Second planet from the Sun",
+    "tekst": "Venus is the second planet from the Sun. Similar in size and mass to Earth, Venus has no liquid water, and its atmosphere is far thicker and denser than that of any other rocky body in the Solar System. The atmosphere is composed mostly of carbon dioxide and has a thick cloud layer of sulfuric acid that spans the whole planet. At the mean surface level, the atmosphere reaches a temperature of 737 K, making it the hottest planet in the solar system and also a pressure 92 times greater than Earth's at sea level, turning the lowest layer of the atmosphere into a supercritical fluid. From Earth, Venus is visible as a star-like point of light, appearing brighter than any other natural point of light in the sky, as either the brightest \"morning star\" or \"evening star\". It was also given the poetic name Ēarendel in Old English, meaning \"ray of light\" along with the two previous epithets.",
+    "url": "https://en.wikipedia.org/wiki/Venus",
+    "język": "en"
+   },
+   "tagi": [
+    "November",
+    "Venus",
+    "Week",
+    "Sky"
+   ],
+   "emotki": [
+    "🌌",
+    "🪐"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Astronomy Magazine",
+     "tytuł": "The Sky This Week from November 6 to 13: Venus in the spotlight",
+     "url": "https://www.astronomy.com/the-sky-this-week/the-sky-this-week-from-november-6-to-13-2026/"
+    },
+    {
+     "nazwa": "Astronomy Magazine",
+     "tytuł": "The Sky Today on Friday, November 6: Nab the North America Nebula",
+     "url": "https://www.astronomy.com/observing/the-sky-today-friday-november-6-2026/"
+    },
+    {
+     "nazwa": "Sky & Telescope News",
+     "tytuł": "This Week's Sky at a Glance, November 6 – 15",
+     "url": "https://skyandtelescope.org/astronomy-news/observing-news/this-weeks-sky-at-a-glance-november-6-15/"
+    },
+    {
+     "nazwa": "EarthSky",
+     "tytuł": "Visible planets and night sky guide for November",
+     "url": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 9.829,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.508,
+     "eksponowanie": 2.61,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.361,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "The Sky This Week from November 6 to 13: Venus in the spotlight",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Mieniące się gwiazdy M30",
+   "lead": "To zdjęcie Kosmicznego Teleskopu Hubble 'a NASA/ESA opublikowane 5 listopada 2026 roku stanowi lekcję historii galaktyki.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-06T16:23:41+00:00",
+   "źródło": {
+    "nazwa": "NASA",
+    "url": "https://www.nasa.gov/image-article/m30s-sparkling-stars/",
+    "domena": "nasa.gov"
+   },
+   "obraz": "https://www.nasa.gov/wp-content/uploads/2026/11/hubble-m30-potm2610a.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Błyskotliwa kolekcja gwiazd nosi nazwę Messier 30 (M30) na cześć francuskiego astronoma Charlesa Messiera , który skatalogował M30 i inne obiekty rozproszone, które można pomylić z kometami we wczesnych teleskopach czasów Messiera.",
+      "M30 leży około 27 500 lat świetlnych od nas w gwiazdozbiorze Koziorożca."
      ]
     },
     {
@@ -1214,53 +1350,37 @@
      "treść": [
       "Błyskotliwa kolekcja gwiazd nosi nazwę Messier 30 (M30) na cześć francuskiego astronoma Charlesa Messiera, który skatalogował M30 i inne obiekty rozproszone, które można pomylić z kometami we wczesnych teleskopach czasów Messiera.",
       "M30 to gromada kulista: z grubsza sferyczna grupa gwiazd zawierająca od kilkudziesięciu tysięcy do milionów gwiazd.",
+      "Nasza galaktyka Drogi Mlecznej ma co najmniej 150 gromad kulistych, z których najbliższa znajduje się w odległości około 6000 lat świetlnych.",
       "Gromady te są imponująco stare: astronomowie szacują, że ich wiek wynosi od 11,5 do 13,5 miliarda lat, co sprawia, że niektóre gromady kuliste są prawie tak stare, jak sam wszechświat."
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Gwiazda to świetlisty sferoid plazmy trzymany razem przez grawitację własną. Najbliższa Ziemi gwiazda to Słońce. Wiele innych gwiazd jest widocznych gołym okiem w nocy; ich ogromne odległości od Ziemi sprawiają, że pojawiają się jako stałe punkty światła. Najwybitniejsze gwiazdy zostały podzielone na konstelacje i gwiazdozbiory, a wiele z najjaśniejszych gwiazd ma nazwy własne. Astronomowie zebrali katalogi gwiazd, które identyfikują znane gwiazdy i zapewniają znormalizowane oznaczenia gwiazd. Obserwowalny wszechświat zawiera około 1022 do 1024 gwiazd. Tylko około 4000 z tych gwiazd jest widocznych gołym okiem - wszystko w galaktyce Drogi Mlecznej."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Star",
-     "url": "https://en.wikipedia.org/wiki/Star"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
+    "5, 2026",
     "30",
     "27,500",
     "150",
     "6,000",
-    "11.5",
-    "13.5 billion"
+    "11.5"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Star",
-    "opis": "Large self-illuminated object in space",
-    "tekst": "A star is a luminous spheroid of plasma held together by self-gravity. The nearest star to Earth is the Sun. Many other stars are visible to the naked eye at night; their immense distances from Earth make them appear as fixed points of light. The most prominent stars have been categorised into constellations and asterisms, and many of the brightest stars have proper names. Astronomers have assembled star catalogues that identify the known stars and provide standardized stellar designations. The observable universe contains an estimated 1022 to 1024 stars. Only about 4,000 of these stars are visible to the naked eye—all within the Milky Way galaxy.",
-    "url": "https://en.wikipedia.org/wiki/Star",
-    "język": "en"
-   },
+   "tło": null,
    "tagi": [
-    "Milky Way",
-    "Hubble",
     "Hubble Space Telescope",
-    "Hubble’s"
+    "Sparkling Stars",
+    "Charles Messier",
+    "Capricornus"
    ],
    "emotki": [
-    "🔭",
-    "🌌"
+    "🔭"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "NASA",
-     "tytuł": "Hubble Learns Galactic History From Stars",
-     "url": "https://science.nasa.gov/missions/hubble/hubble-learns-galactic-history-from-stars/"
+     "tytuł": "M30’s Sparkling Stars",
+     "url": "https://www.nasa.gov/image-article/m30s-sparkling-stars/"
     },
     {
      "nazwa": "Phys.org Astronomy",
@@ -1269,136 +1389,21 @@
     }
    ],
    "liczba_źródeł": 2,
-   "czas_czytania_min": 2,
+   "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.913,
+    "wynik": 6.867,
     "składowe": {
      "potwierdzenia": 1.9,
      "ranga_źródła": 1.48,
      "eksponowanie": 1.17,
      "słowa_kluczowe": 1.4,
-     "świeżość": 0.488,
+     "świeżość": 0.442,
      "treściwość": 0.475,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Hubble Learns Galactic History From Stars",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "astronomia",
-    "nazwa": "Astronomia",
-    "emoji": "🔭",
-    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
-   },
-   "nagłówek": "Kosmiczna „dmuchawa do liści”: Wiatry napędzane światłem pomagają wyjaśnić jasne galaktyki wczesnego wszechświata",
-   "lead": "Kiedy astronomowie spojrzeli na zdjęcia wczesnego wszechświata zrobione przez Kosmiczny Teleskop Jamesa Webba, odkryli coś dziwnego: nadmiar jasnych galaktyk . W oparciu o to, co wiedzieli o wczesnym wszechświecie, takie galaktyki powinny być znacznie mniej powszechne w ciągu kilkuset milionów lat po Wielkim Wybuchu.",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-04T21:00:11+00:00",
-   "źródło": {
-    "nazwa": "Phys.org Astronomy",
-    "url": "https://phys.org/news/2026-11-cosmic-leaf-blower-propelled-early.html",
-    "domena": "phys.org"
-   },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-cosmic-leaf-blower-l.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Teraz, korzystając z najnowocześniejszych symulacji, naukowcy z Instytutu Flatiron Fundacji Simonsa w Nowym Jorku i Uniwersytetu Teksańskiego w Dallas mają odpowiedź na tę zagadkę: potężne promieniowanie ultrafioletowe wytwarzane przez gromady młodych gwiazd działało jak dmuchawa do liści, wyrzucając z galaktyki gaz blokujący światło i pył, a tym samym sprawiając, że galaktyki wydają się jaśniejsze.",
-      "Naukowcy donoszą o swoich odkryciach dotyczących tego światła ultrafioletowego, zwanego promieniowaniem Lyman-alfa, w listopadzie",
-      "4 w The Astrophysical Journal .",
-      "„Nasze wyniki pokazują, że promieniowanie Lyman-alfa może bardzo, bardzo szybko odpychać gaz i pył o niskiej gęstości” - mówi Shyam Menon, pracownik naukowy Centrum Astrofizyki Komputerowej Instytutu Flatiron i główny autor badania.",
-      "„Może w pewnym sensie oczyścić 'mgłę', pozwalając nam widzieć gwiazdy we wczesnym wszechświecie znacznie wyraźniej niż w innym przypadku.„ Promieniowanie Lyman-alfa powstaje, gdy elektron i atom wodoru zderzają się lub gdy elektron łączy się z jonem wodoru.",
-      "W silnych środowiskach gwiezdnych, w których promieniowanie Lyman-alfa jest obfite, uważa się, że nacisk światła odgrywa rolę w rzeźbieniu szkółek gwiezdnych.",
-      "Efekt ten wyrzuca materiał na zewnątrz, pozostawiając mniej dostępnego materiału do utworzenia gwiazdy.",
-      "Niektórzy astronomowie zastanawiali się, czy w skrajnych przypadkach efekt może być wystarczająco silny, aby powstrzymać powstawanie gwiazd.",
-      "„Od bardzo dawna wiemy, że promieniowanie Lyman-alfa może być ważne, ponieważ niesie ze sobą dużą siłę” - mówi Menon."
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Zaledwie kilkaset milionów lat po Wielkim Wybuchu, podczas Kosmicznego Świtu, jasne galaktyki zaludniły Wszechświat w liczbie większej niż oczekiwano.",
-      "Dlaczego ich powstawanie gwiazd skupiało się w tak gęstych gromadach, jest zagadką, podobnie jak jasność ich galaktyk macierzystych.",
-      "Ich praca nosi tytuł „ Lyα Radiation Pressure in Dense Star Clusters: Implications for Star Formation and Winds at Cosmic Dawn” i jest opublikowana w The Astrophysical Journal.",
-      "Naczelny autor Menon jest pracownikiem naukowym w Centrum Astrofizyki Komputerowej Instytutu Flatiron, a współautor Smith jest adiunktem fizyki na Uniwersytecie Teksańskim w Dallas.",
-      "Ponieważ wodór jest zdecydowanie najliczniejszym pierwiastkiem we Wszechświecie, Lyα jest podstawowym sposobem badania najwcześniejszych galaktyk Wszechświata, w tym ośrodka międzygwiezdnego (ISM) i ośrodka międzygalaktycznego (IGM)."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Lyman-alfa, zwykle oznaczany przez Ly-α lub Lyα, jest linią widmową wodoru (lub, bardziej ogólnie, dowolnego atomu jednego elektronu) w szeregu Lymana. Foton jest emitowany, gdy elektron atomowy przechodzi z orbitalu n = 2 do stanu podstawowego (n = 1), gdzie n jest główną liczbą kwantową. W wodorze jego długość fali 1215,67 angstremów (121,567 nm lub 1,21567 ×10−7 m), odpowiadająca częstotliwości około 2,46607 ×1015 Hz, umieszcza Lyman-alfa w ultrafioletowej (UV) części widma elektromagnetycznego, o energii fotonu 10,2 eV. Dokładniej, Ly-α znajduje się w próżniowym UV (VUV), charakteryzującym się silną absorpcją w powietrzu."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Lyman-alpha",
-     "url": "https://en.wikipedia.org/wiki/Lyman-alpha"
-    }
-   ],
-   "dlaczego_to_ważne": "Kiedy promieniowanie Lyman-alfa uderza w gaz lub pył, materiał pochłania energię i odsuwa się od uderzenia jak rękawica łapacza baseballa łapiącego szybką piłkę.",
-   "liczby": [
-    "10.3847",
-    "1538",
-    "4357",
-    "460 million",
-    "2.5"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Lyman-alpha",
-    "opis": "Spectral line of hydrogen in the Lyman series",
-    "tekst": "Lyman-alpha, typically denoted by Ly-α or Lyα, is a spectral line of hydrogen (or, more generally, of any one-electron atom) in the Lyman series. A photon is emitted when the atomic electron transitions from an n = 2 orbital to the ground state (n = 1), where n is the principal quantum number. In hydrogen, its wavelength of 1215.67 angstroms (121.567 nm or 1.21567×10−7 m), corresponding to a frequency of about 2.46607×1015 Hz, places Lyman-alpha in the ultraviolet (UV) part of the electromagnetic spectrum, with a photon energy of 10.2 eV. More specifically, Ly-α lies in vacuum UV (VUV), characterized by a strong absorption in the air.",
-    "url": "https://en.wikipedia.org/wiki/Lyman-alpha",
-    "język": "en"
-   },
-   "tagi": [
-    "Lyman-alpha",
-    "Menon",
-    "Astrophysical Journal",
-    "University"
-   ],
-   "emotki": [
-    "🔭"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Phys.org Astronomy",
-     "tytuł": "A cosmic 'leaf blower': Light-propelled winds help explain early universe's bright galaxies",
-     "url": "https://phys.org/news/2026-11-cosmic-leaf-blower-propelled-early.html"
-    },
-    {
-     "nazwa": "Universe Today",
-     "tytuł": "A Mighty Wind Blew Away Gas and Made Early Galaxies Brighter",
-     "url": "https://www.universetoday.com/articles/a-mighty-wind-blew-away-gas-and-made-early-galaxies-brighter"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 3,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 6.592,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.35,
-     "eksponowanie": 0.99,
-     "słowa_kluczowe": 1.4,
-     "świeżość": 0.452,
-     "treściwość": 0.5,
-     "język_działu": 0.0
-    }
-   },
-   "oryginalny_nagłówek": "A cosmic 'leaf blower': Light-propelled winds help explain early universe's bright galaxies",
+   "oryginalny_nagłówek": "M30’s Sparkling Stars",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -1412,63 +1417,129 @@
     "emoji": "🗺️",
     "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
    },
-   "nagłówek": "Konkurs kartograficzny dla dzieci",
-   "lead": "Międzynarodowa Asocjacja Kartograficzna oraz Instytut Geodezji i Kartografii zapraszają dzieci i młodzież do udziału w XVII Międzynarodowym Konkursie Kartograficznym im. Prace można nadsyłać do 15 marca 2027 r.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-06T00:00:00+00:00",
+   "nagłówek": "Im gorsze zmiany klimatyczne, tym trudniej je powstrzymać",
+   "lead": "Ten rok może być postrzegany jako punkt zwrotny w kryzysie klimatycznym. ONZ zaakceptowało, że globalne ocieplenie przekroczy 1,5°C, a klimatolodzy doszli do wniosku, że tempo ocieplenia w ciągu ostatniej dekady faktycznie się podwoiło.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-06T18:20:01+00:00",
    "źródło": {
-    "nazwa": "Geoforum",
-    "url": "https://geoforum.pl/news/37494/konkurs-kartograficzny-dla-dzieci",
-    "domena": "geoforum.pl"
+    "nazwa": "Phys.org Earth",
+    "url": "https://phys.org/news/2026-11-worse-climate-harder.html",
+    "domena": "phys.org"
    },
-   "obraz": null,
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/orange-sky.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "W tej edycji konkursu uczestnicy mają za zadanie wykonać pracę plastyczną o charakterze kartograficznym o tematyce Mapy w życiu codziennym Maps in everyday life .",
-      "Celem konkursu jest zaprezentowanie przez ucznia w zrozumiały sposób swojego..."
+      "Co gorsza, świat może zbliżać się do punktów krytycznych dla klimatu, które mogą wywołać dalsze ogrzewanie i katastrofalne zmiany środowiskowe.",
+      "W 2018 roku międzynarodowy zespół pod kierownictwem naukowca Willa Steffena ostrzegał, że ciągła emisja gazów cieplarnianych i niszczenie bioróżnorodności może spowodować kaskadę ocieplenia, która zakończy się przekroczeniem progu przez systemy klimatyczne w tak zwaną „Ziemię szklarniową”. „Silnikiem tej kaskady byłyby indywidualne punkty krytyczne w klimacie.",
+      "Na przykład zamknięcie niektórych prądów Oceanu Atlantyckiego nie tylko pogrążyłoby Europę w mroźnych zimach, ale mogłoby znacznie zagłodzić lasy deszczowe Amazonii w postaci pary wodnej.",
+      "Dalsze ocieplenie przyspieszyłoby utratę pokrywy lodowej i wzrost temperatury.",
+      "Gdy mijają różne punkty krytyczne, system ziemski osiąga próg, który może spowodować wzrost temperatur większy niż jakikolwiek w ciągu ostatnich 1,2 miliona lat.",
+      "Rzeczywiście, trudno jest dostrzec, jak złożona, uprzemysłowiona cywilizacja byłaby w stanie istnieć w świecie, który szybko ocieplił się powyżej 4°C.",
+      "W jakim stopniu system ziemski ma zdolność do wytwarzania tego rodzaju kaskadowego ocieplenia jest przedmiotem intensywnych badań naukowych.",
+      "Możemy mieć szczęście, ponieważ poszczególne elementy przechylające, takie jak załamanie prądu atlantyckiego, wymagają znacznie wyższego poziomu ocieplenia , lub bardziej zasadniczo obecny klimat Ziemi może okazać się bardziej odporny niż myślimy.",
+      "Niestety może być odwrotnie i próg planetarny może czaić się na niższych poziomach ocieplenia niż zaproponowali Steffen i współpracownicy."
      ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Wraz ze wzrostem zmian klimatycznych susza rozszerza się na całym świecie, powodując zmiany w zależnych od wody wzorcach patogenów, co sprawia, że naukowcy usiłują zrozumieć, w jaki sposób rozwija się przenoszenie chorób zakaźnych.",
+      "Będą musieli działać szybko, aby przewidzieć i przygotować się na przyszłe epidemie: w 2025 roku roczna susza dotknęła około 30% powierzchni Ziemi, prawie podwojenie powierzchni od 2000 roku .",
+      "W artykule przeglądowym opublikowanym w czasopiśmie Trends in Ecology & Evolution przeanalizowano 100 wcześniejszych badań skupiających się wyłącznie na chorobach wodnych powodowanych przez pasożyty i patogeny, które są krytycznie uzależnione od wody przez niektóre lub wszystkie ich cykle życiowe.",
+      "W czasie suszy i po jej zakończeniu złożoność siedlisk wodnych może stać się bardzo uproszczona, powiedział Johnson. „Możesz mieć mniej drapieżników, mniej konkurentów i więcej składników odżywczych lub zasobów organicznych” - wyjaśnił - „wszystko to może pomóc w rozwoju komarów.„ Wiele chorób przenoszonych przez komary może nasilić się podczas suszy, mimo że w krajobrazie jest mniej wody. „Jeśli susza prowadzi do mniejszych zastoisk wody, które wiemy, że komary naprawdę kochają, a jeśli te baseny (z powodu suszy), tracą gatunki, które albo zjadają komary, albo konkurują z komarami, wtedy ogólne wskaźniki pojawiania się komarów mogą faktycznie wzrosnąć ”- powiedział Stewart Merrill -„co może prowadzić do większej liczby wektorów w krajobrazie, co oznacza większe szanse, że te wektory napotkają żywiciela rezerwuarowego, a następnie przenoszą tę infekcję na ludzi. Na przykład oddzielne badanie z 2026 r. wykazało, że susza i komary łącznie odgrywają kluczową rolę w miejskim wybuchu żółtej febry w Brazylii. „W populacji miejskiej od prawie wieku nie było żółtej gorączki, co również wiązało się z suszą raz w wieku” - powiedział Mongabay w wywiadzie wideo Jamie Caldwell, naukowiec z Uniwersytetu Princeton w USA, który kierował badaniami.",
+      "Jednak kilka okoliczności doprowadziło do wybuchu epidemii w 2017 r.: wylesianie i intensywna zmiana użytkowania gruntów w połączeniu z suszą w Brazylii w latach 2014-2017 (najgorszą od co najmniej 80 lat ) spowodowały, że komary zamieszkujące lasy (rodzaj Haemagogus ), małpy wyjące (rodzaj Alouatta) i marmozety (rodzaj Callithrix ) opuściły swoje typowe siedliska i wkroczyły na obszary miejskie w poszukiwaniu wody.",
+      "W latach 1988-1989 liczba badań pozytywnych wzrosła z 1,9% do 71,5%.",
+      "christine Xuan Müller, Wolny Uniwersytet w Berlinie Ekstremalne fale upałów, które widzieliśmy w ciągu ostatnich kilku lat, mogą służyć jedynie jako zapowiedź tego, co ma nadejść w wyniku zmian klimatycznych."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "W całej historii klimatu na Ziemi (paleoklimat) jego klimat wahał się między dwoma pierwotnymi stanami: szklarnią i lodową ziemią. Oba stany klimatyczne trwają miliony lat i nie należy ich mylić ze znacznie mniejszymi okresami lodowcowymi i interglacjalnymi, które występują jako naprzemienne fazy w okresie lodowcowym i zwykle trwają mniej niż milion lat. W historii klimatu na Ziemi występuje kilka okresów lodowcowych, a mianowicie zlodowacenie hurońskie, kriogeniczne, andyjsko-saharyjskie, późnego paleozoiku, kredy i późnego kenozoiku."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Greenhouse and icehouse Earth",
+     "url": "https://en.wikipedia.org/wiki/Greenhouse_and_icehouse_Earth"
     }
    ],
-   "dlaczego_to_ważne": "",
+   "dlaczego_to_ważne": "Susza, która zamieni Amazon w sawannę, miałaby ogromne konsekwencje dla globalnego obiegu węgla i systemu klimatycznego.",
    "liczby": [
-    "15"
+    "1.5°C",
+    "1.2 million",
+    "4°C",
+    "100,000",
+    "30%",
+    "90"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Greenhouse and icehouse Earth",
+    "opis": "Opposing climate states on Earth",
+    "tekst": "Throughout Earth's climate history (Paleoclimate) its climate has fluctuated between two primary states: greenhouse and icehouse Earth. Both climate states last for millions of years and should not be confused with the much smaller glacial and interglacial periods, which occur as alternating phases within an icehouse period and tend to last less than one million years. There are several icehouse periods in Earth's climate history, namely the Huronian, Cryogenian, Andean-Saharan, Late Paleozoic, Cretaceous, and Late Cenozoic glaciations.",
+    "url": "https://en.wikipedia.org/wiki/Greenhouse_and_icehouse_Earth",
+    "język": "en"
+   },
    "tagi": [
-    "Międzynarodowym Konkursie Kartograficznym",
-    "Międzynarodowa Asocjacja Kartograficzna",
-    "Instytut Geodezji",
-    "Kartografii"
+    "Earth",
+    "Hothouse Earth",
+    "Steffen",
+    "Amazon"
    ],
    "emotki": [
-    "🗺️"
+    "🪐"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Geoforum",
-     "tytuł": "Konkurs kartograficzny dla dzieci",
-     "url": "https://geoforum.pl/news/37494/konkurs-kartograficzny-dla-dzieci"
+     "nazwa": "Phys.org Earth",
+     "tytuł": "The worse climate change gets, the harder it becomes to stop it",
+     "url": "https://phys.org/news/2026-11-worse-climate-harder.html"
+    },
+    {
+     "nazwa": "Phys.org Earth",
+     "tytuł": "Societies could lose ability to respond to climate change",
+     "url": "https://phys.org/news/2026-11-societies-ability-climate.html"
+    },
+    {
+     "nazwa": "Mongabay",
+     "tytuł": "Drought driven by climate change is redefining how disease spreads, study finds",
+     "url": "https://news.mongabay.com/2026/11/drought-driven-by-climate-change-is-redefining-how-disease-spreads-study-finds/"
+    },
+    {
+     "nazwa": "Phys.org Earth Sciences",
+     "tytuł": "Future warming events will outdo the extreme heat waves of the recent past, new study finds",
+     "url": "https://phys.org/news/2026-11-future-events-outdo-extreme.html"
+    },
+    {
+     "nazwa": "Phys.org Earth Sciences",
+     "tytuł": "Ice-age abrupt climate shifts were not as fast as thought, new study finds",
+     "url": "https://phys.org/news/2026-11-ice-age-abrupt-climate-shifts.html"
     }
    ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 4,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.788,
+    "wynik": 7.012,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.0,
-     "eksponowanie": 0.9,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.538,
-     "treściwość": 0.5,
-     "język_działu": 0.5
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.795,
+     "eksponowanie": 1.62,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.5,
+     "treściwość": 0.497,
+     "język_działu": 0.0
     }
+   },
+   "oryginalny_nagłówek": "The worse climate change gets, the harder it becomes to stop it",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
    },
    "miejsce": 1
   },
@@ -1479,107 +1550,74 @@
     "emoji": "🗺️",
     "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
    },
-   "nagłówek": "Czy inżynieria może rozwiązać wieczny problem chemiczny?",
-   "lead": "Wśród zapytań technicznych obejmujących takie tematy, jak polimery cyklodekstryny i spektrometria mas, które zostały ułożone w skrzynce odbiorczej Damiana Helblinga, było pytanie o cztery golden retrievery. Lokalna kobieta skontaktowała się z Helblingiem, profesorem w Cornell's School of Civil and Environmental Engineering i czołowym badaczem…",
+   "nagłówek": "Co wywołało starożytny przypływ magmy w północnych kaskadach?",
+   "lead": "Postępy w precyzyjnym datowaniu skał pomagają wyjaśnić złożoną historię geologiczną Północnych Kaskad w Waszyngtonie.",
    "język_źródła": "en",
-   "opublikowano": "2026-11-06T02:40:05+00:00",
+   "opublikowano": "2026-11-06T14:10:58+00:00",
    "źródło": {
-    "nazwa": "Phys.org Earth",
-    "url": "https://phys.org/news/2026-11-chemical-problem.html",
-    "domena": "phys.org"
+    "nazwa": "Eos (AGU)",
+    "url": "https://eos.org/research-spotlights/what-triggered-an-ancient-magma-surge-in-the-north-cascades",
+    "domena": "eos.org"
    },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/three-researchers-in-l.jpg",
+   "obraz": "https://eos.org/wp-content/uploads/2026/11/north-cascades-1024x576.jpg",
    "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "„Mam też golden retrievera, który uwielbia pływać i absolutnie sympatyzuję z tym pytaniem” - powiedział Helbling - „ale waham się dać konkretną odpowiedź, gdy ludzie zadają mi tak konkretne pytania dotyczące bezpieczeństwa ich wody.",
-      "Jako badacz mam tendencję do patrzenia na sytuację z zupełnie innej perspektywy.- Dla Helblinga nie chodzi po prostu o to, czy staw jest bezpieczny.",
-      "Chodzi o to, co nauka może zrobić, aby lepiej zrozumieć problem i co inżynieria może zrobić, aby go rozwiązać.",
-      "Ich charakterystyczną cechą jest niezwykle silne wiązanie między atomami węgla i fluoru, co sprawia, że są one wyjątkowo trwałe, ale także niezwykle trudne do rozpadu w środowisku.",
-      "Trwałość ta sprawiła, że PFAS stał się coraz większym problemem dla zdrowia publicznego, a badania wykazały, że narażenie na niektóre PFAS może być związane z różnymi szkodliwymi skutkami zdrowotnymi.",
-      "Podczas gdy decydenci ponownie rozważają standardy wody pitnej i monitorowanie przemysłowych zrzutów PFAS, inżynierowie środowiska, tacy jak Helbling, ścigają się, aby lepiej zrozumieć, wykryć i usunąć chemikalia z zapasów wody.",
-      "Przemysłowa produkcja PFAS zaczęła rosnąć w latach 40. XX wieku i trwa do dziś.",
-      "W rezultacie „chemikalia na zawsze” znajdują się prawie wszędzie - w wodzie, powietrzu, glebie, a nawet we krwi ludzi i zwierząt na całym świecie, zgodnie z amerykańskim",
-      "Jednym z najlepszych sposobów rozwiązania tego problemu, powiedział Helbling, jest przede wszystkim ograniczenie produkcji i stosowania PFAS."
-     ]
-    },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Producent chemikaliów 3M zapłaci do 7,35 miliarda $ za rozstrzyganie spraw sądowych przez osoby, które twierdzą, że były chore na skażenie wód gruntowych związkami stosowanymi w piance gaśniczej i innych produktach konsumenckich.",
-      "W ciągu dziewięciu lat wypłaci pieniądze aż 120 000 osobom, które twierdzą, że zostały skrzywdzone przez kontakt z substancjami per- i polifluoroalkilowymi, znanymi łącznie jako PFAS .",
-      "Chemikalia zanieczyszczały wody gruntowe w pobliżu baz wojskowych, lotnisk i innych miejsc, w których pianka była używana do gaszenia pożarów.",
-      "Nazywane „chemikaliami na zawsze”, ponieważ nie rozkładają się naturalnie w środowisku, PFAS zostały powiązane z problemami zdrowotnymi, w tym uszkodzeniem wątroby i układu odpornościowego oraz niektórymi nowotworami.",
-      "Prezes 3M William Brown nazwał ugodę „znaczącym kamieniem milowym”, który znacznie zmniejsza niepewność związaną z postępowaniem sądowym."
+      "Położone na całym świecie łuki te mogą ulegać epizodycznym rozbłyskom magmy - dramatycznym skokom przepływu magmy do skorupy kontynentalnej w tempie do 20 razy wyższym niż zwykle.",
+      "Analizując skały z gór Północnych Kaskad w Waszyngtonie, Karmakar i jego zespół zbudowali nową, wysoce precyzyjną oś czasu i połączyli ją z pełnymi skałami geochemicznymi, aby zawęzić zakres tego, co spowodowało rozbłysk, który trwał od 79 milionów do 60 milionów lat temu.",
+      "Rozbłysk nastąpił wzdłuż starożytnego łuku kontynentalnego, który był aktywny od około 150 milionów do 50 milionów lat temu."
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Never Let Me Go to ósmy album studyjny brytyjskiej grupy rockowej Placebo, nagrany w latach 2019-2021 i wydany 25 marca 2022 roku. Album został udostępniony do przedsprzedaży 9 listopada 2021 roku."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Never Let Me Go (Placebo album)",
-     "url": "https://en.wikipedia.org/wiki/Never_Let_Me_Go_(Placebo_album)"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "100,000",
-    "7.35 billion",
-    "120,000",
-    "450 million",
-    "10 billion",
-    "1 billion"
+    "20",
+    "79 million",
+    "60 million",
+    "150 million",
+    "50 million",
+    "40 million"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Never Let Me Go (Placebo album)",
-    "opis": "2022 studio album by Placebo",
-    "tekst": "Never Let Me Go is the eighth studio album by British alternative rock band Placebo, recorded between 2019 and 2021 and released on 25 March 2022. The album was made available for pre-order on 9 November 2021.",
-    "url": "https://en.wikipedia.org/wiki/Never_Let_Me_Go_(Placebo_album)",
-    "język": "en"
-   },
+   "tło": null,
    "tagi": [
-    "Helbling",
-    "Forever Chemicals",
-    "Faster Solutions",
-    "Dichtel"
+    "North Cascades",
+    "Ancient Magma Surge",
+    "Washington",
+    "Triggered"
    ],
    "emotki": [],
    "wszystkie_źródła": [
     {
-     "nazwa": "Phys.org Earth",
-     "tytuł": "Can engineering solve the forever chemical problem?",
-     "url": "https://phys.org/news/2026-11-chemical-problem.html"
+     "nazwa": "Eos (AGU)",
+     "tytuł": "What Triggered an Ancient Magma Surge in the North Cascades?",
+     "url": "https://eos.org/research-spotlights/what-triggered-an-ancient-magma-surge-in-the-north-cascades"
     },
     {
-     "nazwa": "Mongabay",
-     "tytuł": "3M agrees to pay more than $7 billion to settle ‘forever chemical’ groundwater contamination claims",
-     "url": "https://news.mongabay.com/short-article/2026/11/3m-agrees-to-pay-more-than-7-billion-to-settle-forever-chemical-groundwater-contamination-claims/"
+     "nazwa": "Phys.org Earth Sciences",
+     "tytuł": "High-precision timeline helps clarify an ancient magma surge in the North Cascades",
+     "url": "https://phys.org/news/2026-11-high-precision-timeline-ancient-magma.html"
     }
    ],
    "liczba_źródeł": 2,
-   "czas_czytania_min": 2,
+   "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 4.847,
+    "wynik": 6.279,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.307,
-     "eksponowanie": 0.63,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.571,
-     "treściwość": 0.439,
+     "ranga_źródła": 1.357,
+     "eksponowanie": 1.35,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.483,
+     "treściwość": 0.489,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Can engineering solve the forever chemical problem?",
+   "oryginalny_nagłówek": "What Triggered an Ancient Magma Surge in the North Cascades?",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -1593,70 +1631,94 @@
     "emoji": "🎬",
     "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
    },
-   "nagłówek": "Russell Brand uznany za winnego gwałtu i napaści seksualnych. Aktor trafił do aresztu",
-   "lead": "Russell Brand został uznany przez londyńską ławę przysięgłych za winnego gwałtu i trzech przypadków napaści seksualnej. Wyrok zapadł po trwającym cztery tygodnie procesie przed sądem Southwark Crown Court.",
+   "nagłówek": "Nie żyje Sebastián Lelio. Twórca \"Fantastycznej kobiety\" miał 52 lata",
+   "lead": "W wieku 52 lat zmarł Sebastián Lelio – chilijski reżyser i scenarzysta, autor m.in. \" Glorii \", \" Nieposłusznych \" czy nagrodzonej Oscarem \"<a",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-05T15:22:00+00:00",
+   "opublikowano": "2026-11-06T19:04:00+00:00",
    "źródło": {
     "nazwa": "Filmweb",
-    "url": "https://www.filmweb.pl/news/Russell+Brand+uznany+za+winnego+gwa%C5%82tu+i+napa%C5%9Bci+seksualnych.+Aktor+trafi%C5%82+do+aresztu-169530",
+    "url": "https://www.filmweb.pl/news/Nie+%C5%BCyje+Sebasti%C3%A1n+Lelio.+Tw%C3%B3rca+%22Fantastycznej+kobiety%22+mia%C5%82+52+lata-169552",
     "domena": "filmweb.pl"
    },
-   "obraz": "https://fwcdn.pl/nph/1433332/2026/78878_1.16.jpg",
+   "obraz": "https://fwcdn.pl/nph/2025458/2026/78911_1.16.jpg",
    "sekcje": [
     {
-     "tytuł": "Co się stało",
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "52-latek zdobył Oscara za film \"Fantastyczna kobieta\"."
+     ]
+    },
+    {
+     "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Aktor i komik, znany między innymi z filmów \"<a class='internal'"
-     ]
+      "Sebastián Lelio – chilijski reżyser, scenarzysta, montażysta i producent filmowy."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Sebastián Lelio",
+     "url": "https://pl.wikipedia.org/wiki/Sebasti%C3%A1n_Lelio"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "51",
-    "10"
+    "52 lat",
+    "20",
+    "21",
+    "1862"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Onet Kultura",
+     "ujęcie": "O śmierci Sebastiana Lelio poinformowała jego partnerka Amalia Kassai.",
+     "url": "https://kultura.onet.pl/film/wiadomosci/sebastian-lelio-nie-zyje-laureat-oscara-mial-52-lata/rydv8en"
+    }
+   ],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Sebastián Lelio",
+    "opis": "",
+    "tekst": "Sebastián Lelio – chilijski reżyser, scenarzysta, montażysta i producent filmowy.",
+    "url": "https://pl.wikipedia.org/wiki/Sebasti%C3%A1n_Lelio",
+    "język": "pl"
+   },
    "tagi": [
-    "Southwark Crown Court",
-    "Russell Brand",
-    "Brand"
+    "Sebastián Lelio",
+    "Glorii Nieposłusznych",
+    "Fantastycznej",
+    "Oscarem"
    ],
    "emotki": [
-    "🎭",
-    "⚖️"
+    "🎬"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Filmweb",
-     "tytuł": "Russell Brand uznany za winnego gwałtu i napaści seksualnych. Aktor trafił do aresztu",
-     "url": "https://www.filmweb.pl/news/Russell+Brand+uznany+za+winnego+gwa%C5%82tu+i+napa%C5%9Bci+seksualnych.+Aktor+trafi%C5%82+do+aresztu-169530"
+     "tytuł": "Nie żyje Sebastián Lelio. Twórca \"Fantastycznej kobiety\" miał 52 lata",
+     "url": "https://www.filmweb.pl/news/Nie+%C5%BCyje+Sebasti%C3%A1n+Lelio.+Tw%C3%B3rca+%22Fantastycznej+kobiety%22+mia%C5%82+52+lata-169552"
     },
     {
-     "nazwa": "BBC Kultura",
-     "tytuł": "The Russell Brand I saw in court was not the flamboyant character most people will know",
-     "url": "https://www.bbc.co.uk/news/articles/cwvgdjyg6qrqo?at_medium=RSS&at_campaign=rss"
+     "nazwa": "Onet Kultura",
+     "tytuł": "Nie żyje Sebastian Lelio. Reżyser \"Fantastycznej kobiety\" miał 52 lata",
+     "url": "https://kultura.onet.pl/film/wiadomosci/sebastian-lelio-nie-zyje-laureat-oscara-mial-52-lata/rydv8en"
     },
     {
-     "nazwa": "The Guardian Culture",
-     "tytuł": "Russell Brand faces ‘significant’ prison term for rape and sexual assault",
-     "url": "https://www.theguardian.com/culture/2026/nov/05/russell-brand-found-guilty-rape-sexual-assault"
+     "nazwa": "The Guardian Film",
+     "tytuł": "Sebastián Lelio was a fascinating film-maker of great passion and poetry",
+     "url": "https://www.theguardian.com/film/2026/nov/06/sebastian-lelio-chilean-film-maker"
     }
    ],
    "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 7.933,
+    "wynik": 8.994,
     "składowe": {
      "potwierdzenia": 3.8,
-     "ranga_źródła": 1.522,
-     "eksponowanie": 0.81,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.451,
+     "ranga_źródła": 1.465,
+     "eksponowanie": 1.53,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.499,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -1670,87 +1732,61 @@
     "emoji": "🎬",
     "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
    },
-   "nagłówek": "Gwiazdor postawił sprawę jasno. Już nigdy nie wróci do tej roli",
-   "lead": "\"Gwiezdne wojny\" to dla Adama Drivera zamknięty etap. Odtwórca roli Kylo Rena w nowej trylogii \"Star Wars\" w niedawnym wywiadzie wykluczył możliwość powrotu do uniwersum, mimo wcześniejszych prób ekranowego wskrzeszenia jego bohatera.",
+   "nagłówek": "Nie żyje Kimmarie Johnson. Aktorka z \"Beverly Hills, 90210\" miała 50 lat",
+   "lead": "Nie żyje Kimmarie Johnson , amerykańska aktorka, modelka i przedsiębiorczyni. Zagrała epizodyczne role w \" Stary, gdzie moja bryka? \" i serialu \"<a class='internal'",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-05T14:48:42+00:00",
+   "opublikowano": "2026-11-05T20:25:00+00:00",
    "źródło": {
-    "nazwa": "Interia Film",
-    "url": "https://film.interia.pl/wiadomosci/news-gwiazdor-postawil-sprawe-jasno-juz-nigdy-nie-wroci-do-tej-ro,nId,23569536",
-    "domena": "film.interia.pl"
+    "nazwa": "Filmweb",
+    "url": "https://www.filmweb.pl/news/Nie+%C5%BCyje+Kimmarie+Johnson.+Aktorka+z+%22Beverly+Hills%2C+90210%22+mia%C5%82a+50+lat-169534",
+    "domena": "filmweb.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000NI2HVCEYQPFXF-C321.webp",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Jeśli mieliście nadzieję na ponowne zobaczenie Adama Drivera w czarnej pelerynie z mieczem świetlnym w dłoni - możecie o niej zapomnieć.",
-      "Aktor postawił sprawę jasno: już nigdy nie ma zamiaru powracać do roli sprzed lat, którą - podobnie jak całą nową trylogię \"Star Wars\" - spotkał dość marny los.",
-      "Goszcząc w programie \"The Rich Eisen Show\" Driver został zapytany przez prowadzącego, czy rozważyłby ponowne wcielenie się w czarny charakter w kultowej sadze.",
-      "Odpowiedź gwiazdora była jednoznaczna.",
-      "Koniec z 'Gwiezdnymi wojnami'\" - oświadczył.",
-      "Aktor przypomniał, że wraz z reżyserem Stevenem Soderberghiem próbował wskrzesić swojego bohatera w ramach osobnego projektu.",
-      "Pomysł ten nie został jednak zaakceptowany przez Boba Igera i Alana Bergmana z wytwórni Disneya.",
-      "Tym sposobem temat ucichł na zawsze, a Driver stracił zainteresowanie kontynuowaniem tej przygody.",
-      "\"Zawsze chciałem stworzyć kolejne 'Gwiezdne wojny'."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Gwiezdne wojny – amerykańska franczyza filmowa z gatunku space opera oparta na trylogii filmów stworzonej przez George’a Lucasa."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Gwiezdne wojny",
-     "url": "https://pl.wikipedia.org/wiki/Gwiezdne_wojny"
-    }
-   ],
+   "obraz": "https://fwcdn.pl/nph/1985708/2026/78885_1.16.jpg",
+   "sekcje": [],
    "dlaczego_to_ważne": "",
-   "liczby": [],
+   "liczby": [
+    "40",
+    "86",
+    "50",
+    "70",
+    "16, 17, 18",
+    "543"
+   ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Gwiezdne wojny",
-    "opis": "amerykańska epicka saga fantastyczna / franczyza medialna",
-    "tekst": "Gwiezdne wojny – amerykańska franczyza filmowa z gatunku space opera oparta na trylogii filmów stworzonej przez George’a Lucasa.",
-    "url": "https://pl.wikipedia.org/wiki/Gwiezdne_wojny",
-    "język": "pl"
-   },
+   "tło": null,
    "tagi": [
-    "Adama Drivera",
-    "Gwiezdne",
-    "Alana Bergmana",
-    "Boba Igera"
+    "Kimmarie Johnson",
+    "Beverly Hills",
+    "Stary"
    ],
    "emotki": [
-    "⚔️",
-    "🎭"
+    "🎭",
+    "🎬"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Interia Film",
-     "tytuł": "Gwiazdor postawił sprawę jasno. Już nigdy nie wróci do tej roli",
-     "url": "https://film.interia.pl/wiadomosci/news-gwiazdor-postawil-sprawe-jasno-juz-nigdy-nie-wroci-do-tej-ro,nId,23569536"
+     "nazwa": "Filmweb",
+     "tytuł": "Nie żyje Kimmarie Johnson. Aktorka z \"Beverly Hills, 90210\" miała 50 lat",
+     "url": "https://www.filmweb.pl/news/Nie+%C5%BCyje+Kimmarie+Johnson.+Aktorka+z+%22Beverly+Hills%2C+90210%22+mia%C5%82a+50+lat-169534"
     },
     {
-     "nazwa": "The Guardian Film",
-     "tytuł": "‘George Lucas told me off for wearing lipstick’: Celia Imrie on Traitors, Star Wars and treating the lens like a lover",
-     "url": "https://www.theguardian.com/film/2026/nov/05/celia-imrie-interview-traitors-star-wars-george-lucas"
+     "nazwa": "The Guardian Music",
+     "tytuł": "‘It’s a new world. It’s a little fascistic. And it needs a different response’: U2 on 50 years together – and why Bono can’t work with Trump",
+     "url": "https://www.theguardian.com/music/2026/nov/06/its-a-new-world-its-a-little-fascistic-and-it-needs-a-different-response-u2-on-50-years-together-and-their-undimmed-faith-in-humanity"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.515,
+    "wynik": 5.788,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.292,
-     "eksponowanie": 0.9,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.423,
+     "ranga_źródła": 1.258,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.3,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -1762,7 +1798,7 @@
  "statystyki": {
   "kanały_ok": 71,
   "kanały_błędne": 1,
-  "znaki_tłumaczone": 19101,
+  "znaki_tłumaczone": 17388,
   "niedziałające_kanały": [
    {
     "url": "https://www.esa.int/rssfeed/Our_Activities/Space_Science",
@@ -1770,6 +1806,6 @@
    }
   ],
   "działy": 18,
-  "artykuły_w_oknie": 44
+  "artykuły_w_oknie": 58
  }
 }
