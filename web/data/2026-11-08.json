@@ -1,0 +1,1918 @@
+{
+ "wersja": "1.0.0",
+ "wydanie": "2026-11-08",
+ "dotyczy_dnia": "2026-11-07",
+ "wygenerowano": "2026-11-08T12:39:54+00:00",
+ "strefa": "Europe/Warsaw",
+ "tryb": "ekstrakcyjny",
+ "demo": false,
+ "pozycje": [
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Żałoba narodowa po strzelaninie w Krakowie. Prezydent Karol Nawrocki podpisał rozporządzenie",
+   "lead": "Informację o podpisaniu rozporządzenia przez prezydenta podał na portalu X jego rzecznik Rafał Leśkiewicz. Niedziela i poniedziałek będą w Polsce dniami żałoby narodowej, moja kancelaria uzgodni, jaka będzie forma żałoby narodowej, ale wszyscy będziemy przez te dwa dni na pewno przeżywać wspólnie te trudne chwile -…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-07T21:46:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/fakty/polska/news-zaloba-narodowa-po-strzelaninie-w-krakowie-prezydent-karol-n,nIdn,1025285",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/29/6f/piotr-nowak-636x421-296f36fc.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "24-latek z Ostrowca Świętokrzyskiego wjechał samochodem na Rynek Główny i otworzył ogień.",
+      "Zastrzelił 6 osób, a 15 zostało rannych.",
+      "Sprawca został postrzelony i ujęty przez policję.",
+      "Podstawą prawną wprowadzenia żałoby narodowej jest ustawa o godle, barwach i hymnie Rzeczypospolitej Polskiej oraz o pieczęciach państwowych.",
+      "Zgodnie z nią żałobę narodową może wprowadzić prezydent w drodze rozporządzenia.",
+      "W szczególności powinno ono określać przyczyny wprowadzenia oraz czas trwania żałoby narodowej, uwzględniając uwarunkowania kulturowe i historyczne oraz przyjęte w tym zakresie zwyczaje.",
+      "W czasie żałoby narodowej flagi państwowe na gmachach publicznych zostają opuszczone do połowy masztu i przepasane kirem.",
+      "Odwoływane są imprezy masowe, rozrywkowe, koncerty i imprezy sportowe."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "\"Karol Nawrocki podpisał rozporządzenie w sprawie wprowadzenia żałoby narodowej na terytorium Rzeczypospolitej Polskiej w dniach 8 i 9 listopada\" - przekazał rzecznik prezydenta Rafał Leśkiewicz. - Moja kancelaria uzgodni, jaka będzie forma żałoby narodowej, ale wszyscy będziemy przez te dwa dni na pewno przeżywać wspólnie te trudne chwile - zakomunikował premier.",
+      "Rzecznik prezydenta Karola Nawrockiego ogłosił w serwisie X, że rozpoczęła się formalna procedura ogłoszenia żałoby narodowej po tragedii, jaka miała miejsce na krakowskim Rynku Głównym.",
+      "Obecnie wiadomo o sześciu ofiarach śmiertelnych i 16 poważnie rannych .",
+      "\"Niebawem projekt rozporządzenia w tej sprawie trafi do kontrasygnaty premiera Donalda Tuska \" - powiadomił we wpisie Rafał Leśkiewicz .",
+      "Wcześniej po dramatycznych wydarzeniach w stolicy Małopolski zabrał głos prezydent Karol Nawrocki. \" Z ogromnym niepokojem przyjmuję doniesienia o tragicznych wydarzeniach w centrum Krakowa .",
+      "18, że zginęło sześć osób, a 15 zostało rannych.",
+      "\"Około godziny 15 mężczyzna z samochodu, którym wjechał do rynku, zaczął oddawać strzały do przypadkowych osób."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Kraków, Stołeczne Królewskie Miasto Kraków – miasto na prawach powiatu położone w południowej Polsce nad Wisłą, drugie co do liczby mieszkańców. Formalna stolica Polski do 1795 r. i miasto koronacyjne oraz nekropolia królów Polski. Od 1000 r. nieprzerwanie stolica diecezji krakowskiej, a od 1925 r. archidiecezji i metropolii. Lokowany przed 1228 r., ponownie w 1257 r. Od odzyskania niepodległości w 1918 r. miasto wojewódzkie, jest także centralnym ośrodkiem metropolitalnym aglomeracji krakowskiej i Krakowskiego Obszaru Metropolitalnego. Kraków jest stolicą historycznej Małopolski. Leży na obszarze Bramy Krakowskiej, Niecki Nidziańskiej i Pogórza Zachodniobeskidzkiego."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Kraków",
+     "url": "https://pl.wikipedia.org/wiki/Krak%C3%B3w"
+    }
+   ],
+   "dlaczego_to_ważne": "W sobotnie popołudnie w ścisłym centrum Krakowa doszło do tragicznej w skutkach strzelaniny.",
+   "liczby": [
+    "24",
+    "15",
+    "16",
+    "17",
+    "22.30",
+    "52 lat"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "RMF24",
+     "ujęcie": "Prezydent Krakowa ogłasza żałobę po strzelaninie w centrum miasta",
+     "url": "https://www.rmf24.pl/regiony/krakow/news-prezydent-krakowa-oglasza-zalobe-po-strzelaninie-w-centrum-m,nIdn,1025266"
+    },
+    {
+     "źródło": "Gazeta.pl",
+     "ujęcie": "W sobotę (7 listopada) po południu doszło do strzelaniny przy Rynku Głównym w Krakowie.",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198073,33121809,strzelanina-w-krakowie-prezydent-i-premier-reaguja.html"
+    },
+    {
+     "źródło": "Interia Fakty",
+     "ujęcie": "\"W magistracie działa sztab kryzysowy.",
+     "url": "https://wydarzenia.interia.pl/malopolskie/news-zaloba-w-krakowie-po-strzelaninie-prezydent-gibala-oglasza,nId,23570598"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Kraków",
+    "opis": "miasto w Polsce, stolica województwa małopolskiego i historyczna stolica Małopolski",
+    "tekst": "Kraków, Stołeczne Królewskie Miasto Kraków – miasto na prawach powiatu położone w południowej Polsce nad Wisłą, drugie co do liczby mieszkańców. Formalna stolica Polski do 1795 r. i miasto koronacyjne oraz nekropolia królów Polski. Od 1000 r. nieprzerwanie stolica diecezji krakowskiej, a od 1925 r. archidiecezji i metropolii. Lokowany przed 1228 r., ponownie w 1257 r. Od odzyskania niepodległości w 1918 r. miasto wojewódzkie, jest także centralnym ośrodkiem metropolitalnym aglomeracji krakowskiej i Krakowskiego Obszaru Metropolitalnego. Kraków jest stolicą historycznej Małopolski. Leży na obszarze Bramy Krakowskiej, Niecki Nidziańskiej i Pogórza Zachodniobeskidzkiego.",
+    "url": "https://pl.wikipedia.org/wiki/Krak%C3%B3w",
+    "język": "pl"
+   },
+   "tagi": [
+    "Krakowie",
+    "Ostrowca Świętokrzyskiego",
+    "Rzeczypospolitej Polskiej",
+    "Rafał Leśkiewicz"
+   ],
+   "emotki": [
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Żałoba narodowa po strzelaninie w Krakowie. Prezydent Karol Nawrocki podpisał rozporządzenie",
+     "url": "https://www.rmf24.pl/fakty/polska/news-zaloba-narodowa-po-strzelaninie-w-krakowie-prezydent-karol-n,nIdn,1025285"
+    },
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Prezydent Krakowa ogłasza żałobę po strzelaninie w centrum miasta",
+     "url": "https://www.rmf24.pl/regiony/krakow/news-prezydent-krakowa-oglasza-zalobe-po-strzelaninie-w-centrum-m,nIdn,1025266"
+    },
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Żałoba narodowa po strzelaninie w Krakowie. Prezydent zdecydował",
+     "url": "https://www.rmf24.pl/fakty/polska/news-zaloba-narodowa-po-strzelaninie-w-krakowie-prezydent-zdecydo,nIdn,1025276"
+    },
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Żałoba narodowa po tragedii w Krakowie. Co oznacza?",
+     "url": "https://www.rmf24.pl/fakty/polska/news-zaloba-narodowa-po-tragedii-w-krakowie-co-oznacza,nIdn,1025278"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Tragedia w Krakowie. Pałac ogłasza, będzie żałoba narodowa",
+     "url": "https://wydarzenia.interia.pl/kraj/news-tragedia-w-krakowie-palac-oglasza-bedzie-zaloba-narodowa,nId,23570634"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Strzelanina w Krakowie. Prezydent i premier reagują",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198073,33121809,strzelanina-w-krakowie-prezydent-i-premier-reaguja.html"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Żałoba w Krakowie po strzelaninie. Prezydent Gibała ogłasza",
+     "url": "https://wydarzenia.interia.pl/malopolskie/news-zaloba-w-krakowie-po-strzelaninie-prezydent-gibala-oglasza,nId,23570598"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Nowe informacje po tragedii w Krakowie. Tusk: W domu sprawcy znaleziono ciała trzech osób",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33122098,tusk-o-strzelaninie-w-krakowie-trzeba-to-nazwac-zamachem-terrorystycznym.html"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Strzelanina w Krakowie. Prezydent ogłosił żałobę narodową",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33121991,zaloba-narodowa-po-strzelanine-w-krakowie-prezydent-rozpoczal.html"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.735,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 2.417,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.51,
+     "treściwość": 0.458,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "S&P obniża rating Polski. Agencja ostrzega przed długiem i deficytem",
+   "lead": "Agencja S&P Global Ratings potwierdziła w piątek wieczorem długoterminowy rating Polski w walucie obcej na poziomie \"A-\", a w walucie lokalnej obniżyła długoterminowy rating do \"A-\" z \"A\" - poinformowała agencja w komunikacie. \"Korekta perspektywy odzwierciedla zwiększone ryzyko, że gwałtownie rosnące zadłużenie Polski…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-06T21:17:00+00:00",
+   "źródło": {
+    "nazwa": "Bankier.pl",
+    "url": "https://www.bankier.pl/wiadomosc/S-P-obniza-rating-Polski-Agencja-ostrzega-przed-dlugiem-i-deficytem-9225364.html",
+    "domena": "bankier.pl"
+   },
+   "obraz": "https://galeria.bankier.pl/p/6/2/20ca0a8f24156e-948-568-65-390-3105-1863.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Prognozujemy, że do 2029 r. dług netto przekroczy 70 proc.",
+      "Deficyty sektora gg gwałtownie wzrosły w ostatnich latach, osiągając średnio ponad 7 proc.",
+      "PKB w latach 2025 i 2026, co wynika z wysokich wydatków na obronność (4–5 proc.",
+      "PKB), rosnących wydatków socjalnych oraz znacznych kosztów wynagrodzeń w sektorze publicznym\" - dodano.",
+      "Niższy rating mógłby również wynikać z ewentualnej eskalacji wojny Rosji z Ukrainą, co mogłoby wywrzeć presję na finanse publiczne Polski i perspektywy wzrostu, przy podwyższonych ryzykach dla bezpieczeństwa.",
+      "Rewizja perspektywy ratingu do stabilnej byłaby możliwa, gdyby polski rząd podjął kroki zmierzające do trwałego i znacznego ograniczenia dużych deficytów fiskalnych, co wywołałoby stopniową redukcję zadłużenia, przy uniknięciu znacznych skutków dla wzrostu gospodarczego.",
+      "Agencja wskazuje, że przed wyborami parlamentarnymi w 2027 r. mało prawdopodobna jest znacząca konsolidacja budżetowa, a deficyt sektora general government szacowany jest na 7,1 proc.",
+      "PKB w 2027 r. (aktualna prognoza MF to 6,7 proc. - PAP) i 6,2 proc. w 2028 r.",
+      "\"Rząd Polski może być zmuszony do gwałtownej konsolidacji budżetowej w latach 2029 i 2030 – ze względu na zbliżające się konstytucyjne limity zadłużenia – o ile rosnące koszty finansowania nie spowodują wcześniejszych, wymuszonych przez rynek korekt fiskalnych."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "W piątek wieczorem agencja S&P potwierdziła rating Polski w walucie obcej na poziomie \"A-\" , ale obniżyła perspektywę do negatywnej.",
+      "\"Obniżenie ratingu do poziomu A- odzwierciedla opinię Morningstar DBRS, że sytuacja budżetowa Polski uległa pogorszeniu .",
+      "Wyższe wydatki rządowe na konsumpcję, dyskrecjonalne transfery socjalne, wydatki na obronność oraz koszty pożyczkowe nie zostały w pełni zrównoważone przez wzrost dochodów, co przyczyniło się do pogłębienia strukturalnego deficytu budżetowego\" — napisano. \" Prognozuje się, że deficyt sektora gg wyniesie około 7 proc.",
+      "PKB w latach 2026 i 2027.",
+      "Nie spodziewamy się znaczącej korekty budżetowej przed wyborami parlamentarnymi w 2027 r.",
+      "S&P Global Ratings obniżyła perspektywę oceny kredytowej kraju do negatywnej, a w raporcie wskazała, że prezydenckie weta utrudniają rządowi Donalda Tuska realizację planów legislacyjnych i porządkowanie finansów publicznych.",
+      "Według S&P, rząd Donalda Tuska nadal boryka się z trudnościami w realizacji programu legislacyjnego i konsolidacji budżetowej, biorąc pod uwagę prawo weta prezydenta Karola Nawrockiego oraz brak w rządzie większości trzech piątych głosów niezbędnej do odrzucenia prezydenckiego weta."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Język polski, polszczyzna – język lechicki z grupy zachodniosłowiańskiej, stanowiącej część rodziny indoeuropejskiej. Jest językiem urzędowym w Polsce oraz należy do oficjalnych języków Unii Europejskiej."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Język polski",
+     "url": "https://pl.wikipedia.org/wiki/J%C4%99zyk_polski"
+    }
+   ],
+   "dlaczego_to_ważne": "PKB, co oznacza wzrost o ponad 20 pp. w ciągu pięciu lat - takie pogorszenie sytuacji budżetowej należy do najpoważniejszych na świecie.",
+   "liczby": [
+    "70 proc.",
+    "20",
+    "7 proc.",
+    "5 proc.",
+    "7,1 proc.",
+    "6,7 proc."
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Money.pl",
+     "ujęcie": "Minister finansów Andrzej Domański w swoim komentarzu do ratingu Polski zacytował uzasadnienie agencji: \"Rząd premiera Donalda Tuska napotyka ograniczenia w realizacji swoich planów legislacyjnych i konsolidacji finansów publicznych ze względu na weta prezydenta Karola Nawrockiego , politycznie związanego z opozycyjnym…",
+     "url": "https://www.money.pl/gospodarka/polityczna-wojna-ma-swoja-cene-agencja-ostrzega-przed-problemami-7348345109928416a.html"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Język polski",
+    "opis": "język zachodniosłowiański z gałęzi lechickiej",
+    "tekst": "Język polski, polszczyzna – język lechicki z grupy zachodniosłowiańskiej, stanowiącej część rodziny indoeuropejskiej. Jest językiem urzędowym w Polsce oraz należy do oficjalnych języków Unii Europejskiej.",
+    "url": "https://pl.wikipedia.org/wiki/J%C4%99zyk_polski",
+    "język": "pl"
+   },
+   "tagi": [
+    "Polski",
+    "Trybunałem Konstytucyjnym",
+    "Polska",
+    "Polsce"
+   ],
+   "emotki": [
+    "📈",
+    "🏛️",
+    "💰"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Bankier.pl",
+     "tytuł": "S&P obniża rating Polski. Agencja ostrzega przed długiem i deficytem",
+     "url": "https://www.bankier.pl/wiadomosc/S-P-obniza-rating-Polski-Agencja-ostrzega-przed-dlugiem-i-deficytem-9225364.html"
+    },
+    {
+     "nazwa": "Business Insider Polska",
+     "tytuł": "Nie tylko S&P. Inna agencja ratingowa obniża ocenę kredytową Polski",
+     "url": "https://businessinsider.com.pl/finanse/morningstar-dbrs-tnie-ocene-kredytowa-polski-w-tle-deficyt-i-polityka/w9jq3ce"
+    },
+    {
+     "nazwa": "Money.pl",
+     "tytuł": "Polityczna wojna ma swoją cenę. Agencja ostrzega przed problemami",
+     "url": "https://www.money.pl/gospodarka/polityczna-wojna-ma-swoja-cene-agencja-ostrzega-przed-problemami-7348345109928416a.html"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.815,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.408,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.376,
+     "treściwość": 0.381,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Zełenski ostrzega przed \"Jałtą 2.0\". „Nie chcemy, żeby Rosja nas podzieliła”",
+   "lead": "W wywiadzie dla CNN, cytowanym przez agencję Interfax-Ukraina, prezydent Wołodymyr Zełenski podkreślił, że jakiekolwiek rozmowy o przyszłości bezpieczeństwa w Europie muszą być poprzedzone zakończeniem rosyjskiej agresji na Ukrainę . Bardzo jasno powiedziałem wszystkim partnerom: najpierw musimy omówić, jak zakończyć…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-07T12:56:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-zelenski-ostrzega-przed-jalta-20-nie-chcemy-zeby-rosja-nas-p,nIdn,1025248",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/d0/95/imago-stock-and-people-636x421-d095af6b.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Po drugie, jak będzie wyglądała architektura bezpieczeństwa Ukrainy.",
+      "Jakie gwarancje bezpieczeństwa otrzyma Ukraina - zaznaczył Zełenski.",
+      "I dopiero potem, w zależności od odpowiedzi na te pytania, strony będą mogły rozmawiać o architekturze bezpieczeństwa między Europą - albo Unią Europejską - a Rosją - dodał.",
+      "Prezydent Ukrainy wyraził obawy, że inicjatywa Rosji, by rozpocząć dyskusję od nowej architektury bezpieczeństwa w Europie, jest niebezpieczna i może prowadzić do marginalizacji interesów Ukrainy.",
+      "Zełenski zwrócił uwagę na zagrożenia, jakie niesie za sobą pomijanie Ukrainy w rozmowach dotyczących przyszłości kontynentu.",
+      "Nawiasem mówiąc, dla Unii Europejskiej zagrożenie jest znacznie większe.",
+      "Nie jesteśmy też członkiem NATO.",
+      "Nie próbuję wypowiadać się w ich imieniu.",
+      "Wszyscy żyjemy w Europie."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Prezydent Wołodymyr Zełenski ostrzegł, że proponowane przez prezydenta USA Donalda Trumpa porozumienie z Rosją w sprawie bezpieczeństwa, które mogłoby objąć całą Europę, może być niebezpieczne i grozi podzieleniem kontynentu na strefy wpływów."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jałta – miasto na Ukrainie leżące w południowej części okupowanego przez Rosję Półwyspu Krymskiego, na brzegu Morza Czarnego. Liczy 79 tys. mieszkańców (2020). Z Jałty do Symferopola prowadzi najdłuższa w Europie linia trolejbusowa długości około 86 km."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Jałta",
+     "url": "https://pl.wikipedia.org/wiki/Ja%C5%82ta"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "2.0",
+    "10",
+    "11",
+    "15",
+    "12",
+    "67"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Onet Świat",
+     "ujęcie": "Dodaj Onet Wiadomości do preferowanych źródeł w Google Nasze materiały będą się częściej pojawiać w Twoich wynikach",
+     "url": "https://wiadomosci.onet.pl/swiat/wolodymyr-zelenski-ostrzega-przed-planem-donalda-trumpa-nie-chcemy-jalty-20/rq056tn"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Jałta",
+    "opis": "miasto na Krymie, Ukraina",
+    "tekst": "Jałta – miasto na Ukrainie leżące w południowej części okupowanego przez Rosję Półwyspu Krymskiego, na brzegu Morza Czarnego. Liczy 79 tys. mieszkańców (2020). Z Jałty do Symferopola prowadzi najdłuższa w Europie linia trolejbusowa długości około 86 km.",
+    "url": "https://pl.wikipedia.org/wiki/Ja%C5%82ta",
+    "język": "pl"
+   },
+   "tagi": [
+    "Ukrainy",
+    "Europy",
+    "Ukrainie",
+    "Europie"
+   ],
+   "emotki": [
+    "🏛️",
+    "⚔️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Zełenski ostrzega przed \"Jałtą 2.0\". „Nie chcemy, żeby Rosja nas podzieliła”",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-zelenski-ostrzega-przed-jalta-20-nie-chcemy-zeby-rosja-nas-p,nIdn,1025248"
+    },
+    {
+     "nazwa": "Onet Świat",
+     "tytuł": "Wołodymyr Zełenski ostrzega przed planem Donalda Trumpa. \"Nie chcemy Jałty 2.0\"",
+     "url": "https://wiadomosci.onet.pl/swiat/wolodymyr-zelenski-ostrzega-przed-planem-donalda-trumpa-nie-chcemy-jalty-20/rq056tn"
+    },
+    {
+     "nazwa": "BBC News",
+     "tytuł": "US offers $20m reward for information about Iran's nuclear programme",
+     "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "US midterm results may help unite Israeli coalition to unseat Netanyahu",
+     "url": "https://www.theguardian.com/world/2026/nov/07/us-midterm-results-may-help-unite-israeli-coalition-to-unseat-netanyahu"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "US carries out another round of ‘minor’ strikes on Iran, Trump says",
+     "url": "https://www.theguardian.com/world/2026/nov/07/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Strait of Hormuz could reopen as part of Qatari plan for Iran nuclear inspections",
+     "url": "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections"
+    }
+   ],
+   "liczba_źródeł": 4,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 11.314,
+    "składowe": {
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 2.198,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.466,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Prezydent Izraela zleca liderowi opozycji Eisenkot utworzenie rządu",
+   "lead": "Ani blok Benjamina Netanjahu, ani blok jego rywala nie uzyskały większości w ubiegłotygodniowych wyborach.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-07T22:19:59+00:00",
+   "źródło": {
+    "nazwa": "BBC News",
+    "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ff8/live/d9aea170-daf1-11f1-a701-fddedf244c16.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Kneset jest w impasie od czasu wyborów w zeszłym miesiącu, kiedy koalicja Benjamina Netanjahu straciła większość. Prezydent Izraela wybrał Gadiego Eisenkota, najsilniejszego rywala premiera Benjamina Netanjahu, aby spróbować utworzyć nowy rząd po impasie wyborczym, który nie pozostawił nikomu jasnej drogi do władzy.",
+      "Biuro Isaaca Herzoga poinformowało Eisenkota, lidera partii Yashar, w sobotnią noc „o zamiarze zadania mu utworzenia rządu”.",
+      "Dodał, że formalne spotkanie odbędzie się w niedzielę podczas oficjalnej ceremonii w rezydencji prezydenta w Jerozolimie. „Nadszedł czas, aby utworzyć krajowy rząd kryzysowy.",
+      "Zrobię wszystko, aby upewnić się, że jesteśmy godni ”- napisał Eisenkot na X w swojej pierwszej reakcji na ogłoszenie jego nominacji.",
+      "Netanjahu walczy o urząd po tym, jak jego koalicja religijno-nacjonalistyczna straciła większość w wyborach 27 października, ale nadal stała się największym blokiem w parlamencie.",
+      "Szeroko zakrojony blok opozycyjny Eisenkotu zdobył 48 ze 120 mandatów izraelskiego parlamentu w październikowych wyborach, podczas gdy obóz Netanjahu uzyskał 53 mandaty, nie pozostawiając żadnej większości.",
+      "Prezydent Izraela Isaac Herzog wybrał Gadiego Eisenkota na pierwszą okazję do utworzenia nowego rządu izraelskiego, zgodnie z oświadczeniem wydanym przez jego urząd w sobotni wieczór."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Gadi Eisenkot, pisany również jako Eizenkot, jest izraelskim generałem, politykiem i przywódcą partii Yashar. W latach 2015-2019 był 21. szefem sztabu Sił Obronnych Izraela (IDF), a w latach 2023-2024 ministrem bez teki w rządzie jedności Izraela. Prowadził Jaszara w izraelskich wyborach parlamentarnych w 2026 roku jako głównego rywala premiera Benjamina Netanjahu. Eisenkot, który dorastał w Ejlacie, kontynuował studia morskie, a później służył w Brygadzie Golani IDF. Posiada tytuł licencjata z historii na Uniwersytecie w Tel Awiwie oraz stopień podyplomowy z nauk politycznych na Uniwersytecie w Hajfie. Żonaty, z pięciorgiem dzieci, mieszka w Herclijji. Jeden z jego synów, Gal, zginął w akcji podczas wojny w Gazie."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Gadi Eisenkot",
+     "url": "https://en.wikipedia.org/wiki/Gadi_Eisenkot"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "27",
+    "48",
+    "120",
+    "53",
+    "66",
+    "28"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Gadi Eisenkot",
+    "opis": "Israeli general and politician (born 1960)",
+    "tekst": "Gadi Eisenkot, also spelled Eizenkot, is an Israeli general, politician, and leader of the Yashar party. He served from 2015 to 2019 as the 21st chief of staff of the Israel Defense Forces (IDF) and from 2023 to 2024 as a minister without portfolio in Israel's unity government. He led Yashar in the 2026 Israeli legislative election as the main challenger to Prime Minister Benjamin Netanyahu. Eisenkot, who grew up in Eilat, pursued maritime studies and later served in the IDF's Golani Brigade. He holds a B.A. in history from Tel Aviv University and a post-graduate degree in political science from Haifa University. Married with five children, he resides in Herzliya. One of his sons, Gal, was killed in action during the Gaza war.",
+    "url": "https://en.wikipedia.org/wiki/Gadi_Eisenkot",
+    "język": "en"
+   },
+   "tagi": [
+    "Benjamin Netanyahu's",
+    "Eisenkot",
+    "Neither"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC News",
+     "tytuł": "Israel's president tasks opposition leader Eisenkot with forming government",
+     "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Israel’s president picks Yashar leader Gadi Eisenkot to form government",
+     "url": "https://www.theguardian.com/world/2026/nov/07/israel-president-gadi-eisenkot-form-government"
+    },
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "Israeli president tasks Gadi Eisenkot with forming government",
+     "url": "https://www.dw.com/en/israeli-president-tasks-gadi-eisenkot-with-forming-government/a-79888288?maca=en-rss-en-world-4025-rdf"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "Israel's president taps opposition candidate, not Netanyahu, to form a government",
+     "url": "https://www.npr.org/2026/11/07/g-s1-152536/netanyahu-israel-government-eisenkot-herzog"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "Israeli president invites Netanyahu's opposition leader to broker new government",
+     "url": "https://www.npr.org/2026/11/07/nx-s1-6032606/israeli-president-invites-netanyahus-opposition-leader-to-broker-new-government"
+    }
+   ],
+   "liczba_źródeł": 4,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 12.635,
+    "składowe": {
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 1.988,
+     "eksponowanie": 2.88,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.517,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Israel's president tasks opposition leader Eisenkot with forming government",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Nie będzie starcia Rybakiny z Sabalenką w WTA Finals. Kazaszka wycofała się",
+   "lead": "W amerykańskim Indian Wells niebawem rozpocznie się WTA Finals , czyli impreza z udziałem najlepszych singlistek i deblistek kończącego się sezonu. Wśród zawodniczek walczących o tytuł pierwszy raz od kilku lat zabraknie Igi Świątek, która mogła wprawdzie jeszcze powalczyć z Karoliną Muchovą w rankingu WTA Race, który…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-07T19:37:14+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/tenis/wta-finals/news-nie-bedzie-starcia-rybakiny-z-sabalenka-w-wta-finals-liderka,nId,23570637",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NID25PVAS6GTR-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Do rywalizacji zakwalifikowały się Jelena Rybakina, Coco Gauff, Jessica Pegula i Linda Noskova, które trafiły do pierwszej grupy oraz Aryna Sabalenka, Mirra Andriejewa, Elina Switolina i Karolina Muchova rywalizujące w grupie drugiej.",
+      "Na dzień przed rozpoczęciem zmagań singlistek doszło jednak do ważnej roszady.",
+      "Informacja o tym, że Jelena Rybakina wycofała się z turnieju WTA Finals , pojawiła się w sobotę wieczorem czasu polskiego.",
+      "Nazwisko Kazaszki zostało już skreślone z drabinki turniejowej na oficjalnej stronie WTA, zastąpi ją Marta Kostiuk, która do Stanów Zjednoczonych przyleciała jako zawodniczka rezerwowa.",
+      "Tym samym liderka światowego rankingu nie powalczy o obronę tytułu, który 12 miesięcy temu wywalczyła w Rijadzie.",
+      "\"Miałam niesamowity sezon, ale moje ciało po prostu nie jest fizycznie gotowe do rywalizacji.",
+      "Zamierzam spędzić trochę czasu na odpoczynku i rekonwalescencji w domu oraz przygotować się na sezon 2027.",
+      "Finały WTA to bardzo specjalny turniej i życzę wszystkim powodzenia w tym tygodniu.",
+      "Nie mogę się doczekać powrotu do Indian Wells w marcu!\" - przekazała Rybakina w oświadczeniu cytowanym przez WTA."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "23-latka rywalizowała dzisiaj o największy finał w karierze.",
+      "Jej sobotnią rywalką podczas turnieju WTA 125 w Luandzie była rozstawiona z \"1\" Anna Blinkowa.",
+      "Nasza reprezentantka zaskoczyła faworyzowaną przeciwniczkę w pierwszym secie, ale ostatecznie to zawodniczka występująca w barwach Francji zwyciężyła 5:7, 6:4, 6:2."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jelena Andriejewna Rybakina, ros. Елена Андреевна Рыбакина – kazachska tenisistka narodowości rosyjskiej, do czerwca 2018 roku reprezentująca Rosję, zwyciężczyni 15 turniejów rangi WTA w grze pojedynczej, w tym Wimbledonu 2022, Australian Open 2026, US Open 2026 i WTA Finals 2025. Od 14 września 2026 liderka rankingu singlowego WTA."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Jelena Rybakina",
+     "url": "https://pl.wikipedia.org/wiki/Jelena_Rybakina"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "12",
+    "23",
+    "7, 6",
+    "4, 6"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "W Indians Wells nie zagra liderka światowego rankingu Jelena Rybakina",
+     "url": "https://sport.tvp.pl/96362676/wta-finals-w-indians-wells-nie-zagra-liderka-swiatowego-rankingu-jelena-rybakina"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Jelena Rybakina",
+    "opis": "kazachska tenisistka narodowości rosyjskiej",
+    "tekst": "Jelena Andriejewna Rybakina, ros. Елена Андреевна Рыбакина – kazachska tenisistka narodowości rosyjskiej, do czerwca 2018 roku reprezentująca Rosję, zwyciężczyni 15 turniejów rangi WTA w grze pojedynczej, w tym Wimbledonu 2022, Australian Open 2026, US Open 2026 i WTA Finals 2025. Od 14 września 2026 liderka rankingu singlowego WTA.",
+    "url": "https://pl.wikipedia.org/wiki/Jelena_Rybakina",
+    "język": "pl"
+   },
+   "tagi": [
+    "Finals",
+    "Indian Wells",
+    "Rybakiny",
+    "Rybakina"
+   ],
+   "emotki": [
+    "🎾"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Nie będzie starcia Rybakiny z Sabalenką w WTA Finals. Kazaszka wycofała się",
+     "url": "https://sport.interia.pl/tenis/wta-finals/news-nie-bedzie-starcia-rybakiny-z-sabalenka-w-wta-finals-liderka,nId,23570637"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Trzysetowe starcie Polki z turniejową \"1\" o finał WTA. Będzie ogromny awans",
+     "url": "https://sport.interia.pl/tenis/news-trzysetowe-starcie-polki-z-turniejowa-1-o-final-wta-bedzie-o,nId,23570579"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "WTA Finals. W Indians Wells nie zagra liderka światowego rankingu Jelena Rybakina",
+     "url": "https://sport.tvp.pl/96362676/wta-finals-w-indians-wells-nie-zagra-liderka-swiatowego-rankingu-jelena-rybakina"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.806,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.357,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.499,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Wieczysta Kraków zdecydowała ws. trenera. Jest komunikat klubu",
+   "lead": "I właśnie porażka w Zabrzu przelała czarę goryczy. Wieczysta stawiała się Górnikowi, ale w doliczonym czasie gry straciła gola na 1:2 , otwiera się w nowym oknie .",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-07T23:46:55+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/news-wieczysta-krakow-podjela-decyzje-ws-trenera-oficjalny-komuni,nId,23570661",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NID9TC26RA6XA-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Kilka godzin po tej porażce, tuż przed północą, krakowski klub zamieścił w sieci komunikat, w którym poinformował o zakończeniu współpracy z dotychczasowym szkoleniowcem, trenerem Kopiciem .",
+      "\"Chorwacki szkoleniowiec poprowadził nasz zespół w jedenastu spotkaniach - dziesięciu ligowych oraz jednym w rozgrywkach Pucharu Polski.",
+      "W tym czasie Wieczysta odniosła jedno zwycięstwo i dwukrotnie zremisowała\" - podkreślono w komunikacie klubu. \" Wraz z trenerem Kopiciem pracę w Klubie kończą również jego asystent Florentin Petre oraz analityk Cosmin Bujor.",
+      "Dziękujemy całemu sztabowi za pracę i zaangażowanie oraz życzymy powodzenia w dalszej karierze\" - dodano.",
+      "Po 14 meczach w PKO Ekstraklasie Wieczysta, beniaminek rozrywek, zajmuje ostatnie 18. miejsce w tabeli.",
+      "Krakowianie tracą punkt do 17.",
+      "Rakowa Częstochowa i dwa \"oczka\" do 16."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "14",
+    "18",
+    "17",
+    "16"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "Żeljko Kopić przestał pełnić obowiązki trenera Wieczystej Kraków",
+     "url": "https://sport.tvp.pl/96363506/pko-bp-ekstraklasa-zeljko-kopic-przestal-pelnic-obowiazki-trenera-wieczystej-krakow"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Kopiciem",
+    "Ekstraklasie Wieczysta",
+    "Florentin Petre",
+    "Pucharu Polski"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Wieczysta Kraków zdecydowała ws. trenera. Jest komunikat klubu",
+     "url": "https://sport.interia.pl/pilka-nozna/ekstraklasa/news-wieczysta-krakow-podjela-decyzje-ws-trenera-oficjalny-komuni,nId,23570661"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "PKO BP Ekstraklasa. Żeljko Kopić przestał pełnić obowiązki trenera Wieczystej Kraków",
+     "url": "https://sport.tvp.pl/96363506/pko-bp-ekstraklasa-zeljko-kopic-przestal-pelnic-obowiazki-trenera-wieczystej-krakow"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "PKO BP Ekstraklasa: Widzew Łódź z pierwszą domową wygraną od maja. Pokonał Pogoń Szczecin [WIDEO]",
+     "url": "https://sport.tvp.pl/96361708/pko-bp-ekstraklasa-widzew-lodz-z-pierwsza-domowa-wygrana-od-maja-pokonal-pogon-szczecin"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.001,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.35,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.535,
+     "treściwość": 0.366,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Warunki kwalifikacji graniczne - ale Norris i Russell mają nadzieję na więcej deszczu",
+   "lead": "Polesitter Lando Norris mówi, że zakwalifikowanie się do Grand Prix Sao Paulo przyniosło „jedne z najwilgotniejszych warunków”, w jakich kiedykolwiek jeździł.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-07T23:53:30+00:00",
+   "źródło": {
+    "nazwa": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/formula1/articles/cmde81d9nkxko?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/85f6/live/ade06d60-db02-11f1-969c-27c4482e95aa.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Kierowca McLaren najszybciej wyprzedził duet Mercedes Antonelli, aby wystartować w pierwszym rzędzie wraz z Norrisem Opanowując najbardziej zdradliwe warunki na Interlagos, Lando Norris miał przewagę, aby zająć pozycję pole position dla McLarena podczas Grand Prix São Paulo, pokonując ulewę, która testowała każdego kierowcę.",
+      "Myślę, że na sucho po prostu nie mieliśmy tempa, więc z pewnością będę bardziej szczęśliwy, jeśli obudzę się rano i zobaczę deszcz. „Mercedes 'George Russell był drugi na torze, ale brytyjski kierowca ma karę w siatce, awansując swojego kolegę z drużyny Kimi Antonelli, nowego mistrza świata, na drugie miejsce i Liama Lawsona z Racing Bulls na trzecie miejsce, z Nico Hülkenbergiem Audi na czwartym miejscu.",
+      "Uwielbiam jeździć w deszczu, ale jeśli to był wyścig, to nie ma mowy, żebyśmy nim jechali ”- powiedział. -Ponieważ szanse na zobaczenie naprawdę, naprawdę przerażającego incydentu są bardzo, bardzo duże.„ Max Verstappen i Lewis Hamilton byli również jednymi z wielu kierowców, którzy otrzymali karę za zabranie nowego silnika, a Holender zdecydował się nie ustawiać czasu po pierwszym kwartale, aby zachować opony na wyścig, i zacznie od 21.",
+      "Hamilton musiał również wziąć pełną gamę komponentów silnika: mając nowy silnik spalinowy wewnętrznego spalania (ICE) do ostatecznej praktyki, który następnie napotkał problem i zacznie od 20.",
+      "Jego kolega z zespołu Ferrari Charles Leclerc zajął czwarte miejsce, ale ma 10-miejscową karę za zdobycie nowego LODU i zacznie od 14."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "21",
+    "20",
+    "10",
+    "14",
+    "16",
+    "17"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Polesitter Lando Norris",
+    "Sao Paulo Grand Prix",
+    "Russell",
+    "Norris"
+   ],
+   "emotki": [
+    "🏎️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Qualifying conditions borderline - but Norris and Russell hoping for more rain",
+     "url": "https://www.bbc.co.uk/sport/formula1/articles/cmde81d9nkxko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Lando Norris claims F1 São Paulo GP pole as ‘crazy’ rain disrupts qualifying",
+     "url": "https://www.theguardian.com/sport/2026/nov/07/lando-norris-claims-pole-for-f1-sao-paulo-gp-as-rain-disrupts-qualifying"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.936,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.48,
+     "eksponowanie": 1.17,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.536,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Qualifying conditions borderline - but Norris and Russell hoping for more rain",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Leśne zwycięstwo nad Man City „punktem zwrotnym” - Murphy",
+   "lead": "Match of the Day Danny Murphy przełamuje imponujące zwycięstwo 3-1 Nottingham Forest nad Manchesterem City, zwycięstwo, które jego zdaniem może być „punktem zwrotnym” w pierwszym sezonie Forest pod rządami Olivera Glasnera.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-08T00:00:14+00:00",
+   "źródło": {
+    "nazwa": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c893zr4rlzp1o?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a390/live/b108e540-dafc-11f1-a701-fddedf244c16.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Pierwszy hat-trick sezonu Superligi Kobiet Khadija Shaw pomaga Manchesterowi City wygrać 5-0 z West Hamem, gdy panujący mistrzowie wracają na szczyt tabeli WSL.",
+      "Kapitan York City, Ollie Pearce, zdobywa gola po zaledwie 10 sekundach, po których następuje sekunda w 13 minucie, jako jego rejs boczny do zwycięstwa w pierwszej rundzie Pucharu Anglii 4-0 w domu do Northampton.",
+      "Uroczystości Olivera Glasnera i dwa gole dla Liama Delapa dobrze wróżą drużynie Nottingham Forest, która chce zacząć po swoim pierwszym zwycięstwie w Premier League w tym sezonie.",
+      "Liam Delap zdobywa znakomitego sobowtóra jako ogłuszający Nottingham Forest Manchester City 3-1 za swoje pierwsze zwycięstwo w Premier League na stadionie City Ground w tym sezonie.",
+      "Dziko optymistyczny Evertonian - jeśli taka istota istnieje – nie mógł przewidzieć piątej strony Davida Moyesa w Premier League z Thierno Barrym tuż za Erlingiem Haalandem w tabeli strzelców, gdy ich okno transferowe zamknęło się w katastrofalny sposób.",
+      "Frank Lampard przeżył torturującą noc w swoim starym klubie, co Coventry zaimponowało, ale odmówiono mu dwóch silnych roszczeń karnych.",
+      "Menedżer Coventry poczuł, że jego drużyna została po raz trzeci odrzucona przez sędziego asystenta wideo za widoczną piłkę ręczną Barry 'ego, gdy wyprzedzał Evertona."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Manchester City Football Club, powszechnie nazywany Man City lub po prostu City, to profesjonalny klub piłkarski z siedzibą w Manchesterze w Anglii, który rywalizuje w Premier League, najwyższym locie angielskiej piłki nożnej. Marka, w 1887 roku zostali klubem piłkarskim Ardwick Association, a w 1894 roku Manchester City. Stadionem klubu jest City of Manchester Stadium we wschodnim Manchesterze, do którego przeniósł się w 2003 roku, grając na Maine Road od 1923 roku. Manchester City przyjął swoje niebieskie koszule domowe w 1894 roku, pierwszym sezonie z obecną nazwą."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Manchester City F.C.",
+     "url": "https://en.wikipedia.org/wiki/Manchester_City_F.C."
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10",
+    "13",
+    "592"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Manchester City F.C.",
+    "opis": "Association football club in England",
+    "tekst": "Manchester City Football Club, commonly referred to as Man City or simply City, is a professional football club based in Manchester, England, that competes in the Premier League, the top flight of English football. Founded in 1880 as St. Mark's, they became Ardwick Association Football Club in 1887 and Manchester City in 1894. The club's home ground is the City of Manchester Stadium in east Manchester, to which they moved in 2003, having played at Maine Road since 1923. Manchester City adopted their sky blue home shirts in 1894, the first season with the current name.",
+    "url": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
+    "język": "en"
+   },
+   "tagi": [
+    "Nottingham Forest's",
+    "Day's Danny Murphy",
+    "Manchester City",
+    "Oliver Glasner"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Forest win over Man City 'a turning point' - Murphy",
+     "url": "https://www.bbc.co.uk/sport/football/videos/c893zr4rlzp1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Shaw hat-trick gives five-star Man City dominant win over West Ham",
+     "url": "https://www.bbc.co.uk/sport/football/videos/cqlyek7wpnl0o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Pearce double fires York City past Northampton Town",
+     "url": "https://www.bbc.co.uk/sport/football/videos/cqj34km75eydo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Glasner glee and Delap double - win could be lift-off for Forest",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cvy0red8yl69o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Delap double inspires Forest to stunning win over Man City",
+     "url": "https://www.bbc.co.uk/sport/football/videos/crp3gewxj77eo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Thierno Barry double fires Everton to comeback win against Coventry",
+     "url": "https://www.theguardian.com/football/2026/nov/06/everton-coventry-premier-league-match-report"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.876,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 2.238,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.538,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Forest win over Man City 'a turning point' - Murphy",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Rekordowy, szybko obracający się magnes może pomóc odkryć nową fizykę",
+   "lead": "Malutki magnes, który lewituje w pułapce na nadprzewodniki, może być najszybszym wirującym przedmiotem widocznym gołym okiem i jednym z najszybszych wirujących przedmiotów, jakie kiedykolwiek powstały. W przyszłości mógłby być wykorzystywany w eksperymentach poszukujących tajemniczych cząstek ciemnej materii i wspomagać rozwój technologii kwantowych.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-06T19:00:00+00:00",
+   "źródło": {
+    "nazwa": "New Scientist",
+    "url": "https://www.newscientist.com/article/2597816-record-breaking-fast-spinning-magnet-could-help-uncover-new-physics/",
+    "domena": "newscientist.com"
+   },
+   "obraz": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI_319645963.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nadprzewodniki to materiały, które przewodzą energię elektryczną z doskonałą wydajnością, a także wydalają każde pole magnetyczne, które próbuje je przeniknąć – zjawisko znane jako efekt Meissnera.",
+      "Z tego powodu magnes umieszczony nad nadprzewodnikiem doświadcza odpychających sił magnetycznych i zaczyna lewitować.",
+      "Tao Wang z Agencji ds. Nauki, Technologii i Badań w Singapurze i jego koledzy ustawili teraz jeden z takich lewitujących magnesów wirujących w bezprecedensowo szybkim tempie.",
+      "Umieścili go w cylindrycznym pojemniku wykonanym z ołowiu, a następnie zamknęli ten pojemnik w komorze pozbawionej powietrza lub komorze próżniowej.",
+      "Następnie użyli ciekłego helu do schłodzenia całego zestawu do około -269°C (-452°F), tylko kilka stopni powyżej najniższej możliwej temperatury .",
+      "W tych ekstremalnych okolicznościach ołów zachowywał się jak nadprzewodnik, a brak powietrza powodował, że magnes mógł w nim lewitować bez wpadania na jakiekolwiek cząstki.",
+      "Zespół ustawił magnes na wirowanie za pomocą cewki magnetycznej, ostatecznie popychając ten malutki wirnik do 138 milionów obrotów na minutę.",
+      "Wang mówi, że wirowanie magnesu było również bardzo stabilne: zmniejszenie prędkości wirowania o 50 procent zajęłoby 17 dni, co zwykle następowałoby szybciej ze względu na interakcje między magnesem a jego otoczeniem. „Jeśli chodzi o liczbę obrotów, które wykonuje, zanim znacznie zwolni, jest to ta sama liga, co wirująca Ziemia” - mówi. „Jak dotąd jest to najszybszy magnetycznie lewitowany wirnik.„ Rekord dla najszybciej rotujących ludzkich obiekt jest również trzymany przez lewitującą kulę, ale ta była nanometryczna, tak niewidoczna gołym okiem i lewitowana przez wiązki laserowe.",
+      "Fizyka światła i magnetyzm przepisane po prawie dwóch stuleciach Ponieważ wirnik zasadniczo nie doświadcza tarcia, a jest magnetyczny i zimny, jego zachowanie jest bardzo wrażliwe na jego środowisko, co czyni go obiecującym czujnikiem."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Naukowcy osiągnęli nowy rekord świata, wytwarzając niezwykle intensywne błyski rentgenowskie, które trwają zaledwie 300 attosekund, co jest prawie niewyobrażalnie krótkim okresem czasu.",
+      "Korzystając z europejskiego XFEL, potężnego rentgenowskiego obiektu badawczego, zespół skoncentrował błyski na obszarze około 100 000 razy mniejszym niż przekrój typowego ludzkiego włosa.",
+      "Wciskając tak dużo energii promieniowania rentgenowskiego w tak małą przestrzeń, naukowcy stworzyli wyjątkowo potężną wiązkę, która może otworzyć nowe możliwości badania zachowania elektronów wewnątrz atomów i cząsteczek.",
+      "Przełom może ostatecznie pomóc naukowcom obserwować szybkie ruchy elektronów podczas reakcji chemicznych, a potencjalnie nawet nauczyć się je kontrolować.",
+      "Eksperyment odbył się w kwietniu 2026 roku, a jego wyniki zostały opublikowane w czasopiśmie naukowym Optica .",
+      "Rekordowe przebicie rentgenowskie trwa zaledwie 300 attosekund „Jest to światowy rekord intensywności i płynności dla twardego impulsu attosekundowego promieniowania rentgenowskiego” - mówi Ichiro Inoue z Uniwersytetu w Tokio, pierwszy autor publikacji."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "Miniaturowy magnes po raz pierwszy rywalizuje z behemotami w sile Badacze użyli kulistego magnesu wykonanego z neodymu, żelaza i boru o szerokości około 30 mikrometrów, podobnej do szerokości cienkiego ludzkiego włosa.",
+   "liczby": [
+    "30",
+    "-269°C",
+    "-452",
+    "138 million",
+    "17",
+    "50"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "National Research Council",
+    "Science Technology",
+    "Ulm University",
+    "Andrea Vinante"
+   ],
+   "emotki": [
+    "⚛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "New Scientist",
+     "tytuł": "Record-breaking, fast-spinning magnet could help uncover new physics",
+     "url": "https://www.newscientist.com/article/2597816-record-breaking-fast-spinning-magnet-could-help-uncover-new-physics/"
+    },
+    {
+     "nazwa": "ScienceDaily",
+     "tytuł": "Scientists squeeze record-breaking X-ray power into an incredibly tiny spot",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261104012329.htm"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.12,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.72,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.585,
+     "treściwość": 0.365,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Record-breaking, fast-spinning magnet could help uncover new physics",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "OpenAI wyceniono na 1,25 biliona $, ponieważ rywal Anthropic zbliża się do swojej pierwszej oferty publicznej",
+   "lead": "Dyrektor generalny Sam Altman powiedział niedawno, że OpenAI stawia bezpieczeństwo na pierwszym miejscu, zamiast iść „z bronią w ręku” w kierunku pierwszej oferty publicznej.Według Bloomberga OpenAI jest teraz wyceniane na 1,25 biliona $ w nowej rundzie finansowania, która zebrała kolejne 11 miliardów $. To uczyniłoby ją jedną z najcenniejszych firm na świecie, niedługo po...",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-06T23:46:18+00:00",
+   "źródło": {
+    "nazwa": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+    "domena": "theverge.com"
+   },
+   "obraz": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK155_OPEN_AI_CVirginia_2_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Powtarzając raporty FT i Wall Street Journal z zeszłego tygodnia, Bloomberg mówi, że OpenAI nadal dąży do dodatkowych inwestycji, które mogłyby zwiększyć kwotę do 20 miliardów $, i że początkowo miało nadzieję zebrać aż 30 miliardów $ przy wyższej wycenie 1,4 biliona $.",
+      "To było zanim akcje technologiczne spadły, a wyniki semestrów pokazały, jak bardzo opinia publiczna zwróciła się przeciwko firmom zajmującym się sztuczną inteligencją i projektom centrów danych.",
+      "W zeszłym tygodniu rywal OpenAI, Anthropic, złożył wniosek S-1, aby wejść na giełdę.",
+      "Na początku tego roku prezes OpenAI Sam Altman powiedział, że wstrzymuje się z własną pierwszą ofertą publiczną, dopóki nie będzie w stanie przedstawić bardziej pewnych twierdzeń na temat bezpieczeństwa swoich modeli.",
+      "Nie podał konkretnej osi czasu pierwszej oferty publicznej, ale powiedział wtedy: „Myślę, że to jest również trochę złe dla świata, jeśli OpenAI czeka zbyt długo, aby wejść na giełdę. Zaloguj się, aby zobaczyć powiadomienia lub utwórz konto, aby dołączyć do rozmowy."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "OpenAI podobno zebrało do tej pory 11 miliardów $ w nowej rundzie finansowania, która wyceniła laboratorium AI na 1,25 biliona $.",
+      "11 miliardów $ jest częścią większej rundy finansowania, która nie została jeszcze zamknięta.",
+      "Oczekuje się, że runda zakończy się w nadchodzących tygodniach i może wynieść około 20 miliardów $, powiedział Bloomberg.",
+      "Pod koniec września Bloomberg poinformował, że OpenAI planuje zebrać 30 miliardów $ w nadchodzącej rundzie."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Anthropic, PBC to amerykańska korporacja pożytku publicznego zajmująca się sztuczną inteligencją (AI) z siedzibą w San Francisco w Kalifornii. Jej flagowym produktem jest Claude, seria autorskich dużych modeli językowych (LLM). W styczniu 2021 r., w celu promowania bezpieczeństwa sztucznej inteligencji, firma Anthropic została założona przez byłych członków OpenAI, w tym rodzeństwo Daniela Amodei i Dario Amodei, którzy są odpowiednio prezesami i dyrektorami generalnymi. Firma jest prywatna, ale planuje pierwszą ofertę publiczną w listopadzie 2026 roku. Wyceniony na 965 miliardów $ w maju 2026 r. Seria H, Anthropic jest najcenniejszą na świecie czystą sztuczną inteligencją, rywalizującą z OpenAI."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Anthropic",
+     "url": "https://en.wikipedia.org/wiki/Anthropic"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "1.25 trillion",
+    "11 billion",
+    "122 billion",
+    "852 billion",
+    "20 billion",
+    "30 billion"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Anthropic",
+    "opis": "American artificial intelligence company",
+    "tekst": "Anthropic, PBC is an American artificial intelligence (AI) public benefit corporation headquartered in San Francisco, California. Its flagship product is Claude, a series of proprietary large language models (LLMs). In January 2021, with the goal of promoting AI safety, Anthropic was founded by former members of OpenAI, including siblings Daniela Amodei and Dario Amodei, who are president and CEO, respectively. The company is privately held but plans an initial public offering in November 2026. Valued at $965 billion in a May 2026 Series H capital raise, Anthropic is the world's most valuable AI pure play, rivaled by OpenAI.",
+    "url": "https://en.wikipedia.org/wiki/Anthropic",
+    "język": "en"
+   },
+   "tagi": [
+    "OpenAI",
+    "Sam Altman",
+    "Anthropic",
+    "Bloomberg"
+   ],
+   "emotki": [
+    "🤖"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "The Verge",
+     "tytuł": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
+    },
+    {
+     "nazwa": "TechCrunch",
+     "tytuł": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+     "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.004,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.27,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.235,
+     "treściwość": 0.399,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Ukryty limit przestrzeni i czasu może odblokować elektronikę 100 000 razy szybciej",
+   "lead": "Fizyka kwantowa nakłada fundamentalne ograniczenia na to, co naukowcy mogą wiedzieć o zachowaniu cząstek. Słynna zasada niepewności Wernera Heisenberga mówi, że pewnych właściwości, takich jak położenie i pęd cząstki, nie można mierzyć z nieograniczoną precyzją.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-07T23:34:19+00:00",
+   "źródło": {
+    "nazwa": "ScienceDaily Physics",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261106174537.htm",
+    "domena": "sciencedaily.com"
+   },
+   "obraz": "https://www.sciencedaily.com/images/1920/extremely-short-electron-wave-packet-at-limits-of-space-and-time.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Ograniczenie to nie jest spowodowane wadami instrumentów naukowych.",
+      "Zasada nieoznaczoności Heisenberga nie nakłada takiego samego ograniczenia na te wielkości.",
+      "Teraz naukowcy eksperymentalnie wykazali inne podstawowe ograniczenie: lokalizacja elektronu i jego zachowanie w czasie nie mogą być określone z dowolną precyzją.",
+      "Ta nowo zaobserwowana relacja, znana jako „limit czasoprzestrzenny”, może mieć poważne implikacje dla przyszłości technologii kwantowej i ultraszybkiej elektroniki.",
+      "Odkrycie pochodzi z międzynarodowej współpracy z udziałem grup badawczych w Regensburg Center for Ultrafast Nanoscopy (RUN), kierowanym przez prof.",
+      "Jascha Repp, Rupert Huber, Franz Giessibl i Klaus Richter, wraz z zespołem w Instytucie Maxa Plancka w Hamburgu prowadzonym przez Angela Rubio.",
+      "Obserwowanie, jak elektrony poruszają się z niewiarygodną prędkością Zrozumienie, jak zachowuje się materia w najmniejszych skalach, jest niezbędne do rozwoju nowej generacji technologii.",
+      "Postępy w zakresie czystej energii, obliczeń kwantowych i potężnej elektroniki dla sztucznej inteligencji zależą od wiedzy o tym, jak przebiegają reakcje chemiczne, jak światło oddziałuje na materiały i jak elektrony przemieszczają się przez urządzenia elektroniczne.",
+      "Ich ruch jest zgodny z niezwykłymi prawami mechaniki kwantowej, a nie ze znajomymi regułami fizyki klasycznej."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Regensburg to miasto we wschodniej Bawarii, u zbiegu rzek Dunaj, Naab i Regen, najbardziej wysuniętego na północ punktu Dunaju. Jest stolicą podregionu Górnego Palatynatu państwa. Z ponad 150 000 mieszkańców Ratyzbona jest czwartym co do wielkości miastem w Bawarii po Monachium, Norymberdze i Augsburgu oraz ósmym co do wielkości ze wszystkich miast nad Dunajem. Od założenia jako imperialny rzymski fort rzeczny, miasto było politycznym, gospodarczym i kulturalnym centrum otaczającego regionu. Później, pod rządami Świętego Cesarstwa Rzymskiego, mieścił się w nim Wieczysty Sejm Ratyzbony."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Regensburg",
+     "url": "https://en.wikipedia.org/wiki/Regensburg"
+    }
+   ],
+   "dlaczego_to_ważne": "Około dziesięciu lat temu naukowcy w Regensburgu po raz pierwszy wykorzystali ultraszybką skaningową mikroskopię tunelową, aby rozwiązać problem ruchu pojedynczej cząsteczki w przestrzeni i czasie.",
+   "liczby": [
+    "500",
+    "1 trillion"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Regensburg",
+    "opis": "City in Bavaria, Germany",
+    "tekst": "Regensburg is a city in eastern Bavaria, at the confluence of the rivers Danube, Naab and Regen, Danube's northernmost point. It is the capital of the Upper Palatinate subregion of the state. With more than 150,000 inhabitants, Regensburg is the fourth-largest city in the State of Bavaria after Munich, Nuremberg and Augsburg and the eighth-largest of all cities on the river Danube. From its foundation as an imperial Roman river fort, the city has been the political, economic, and cultural centre of the surrounding region. Later, under the rule of the Holy Roman Empire, it housed the Perpetual Diet of Regensburg.",
+    "url": "https://en.wikipedia.org/wiki/Regensburg",
+    "język": "en"
+   },
+   "tagi": [
+    "Prof",
+    "Regensburg",
+    "Repp",
+    "Quantum Electronics Become Hundreds"
+   ],
+   "emotki": [
+    "⚛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "ScienceDaily Physics",
+     "tytuł": "A hidden limit of space and time could unlock electronics 100,000 times faster",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261106174537.htm"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.216,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.532,
+     "treściwość": 0.384,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "A hidden limit of space and time could unlock electronics 100,000 times faster",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Dwie ścieżki, jeden strumień: uwięzione jony symulują zakłócenia Aharonova-Bohma w teorii cechowania sieci",
+   "lead": "W nowym badaniu fizyki przyrody naukowcy wykazali efekt Aharonova-Bohma w symulacji kwantowej teorii cechowania sieci przy użyciu hybrydowego komputera kwantowego z uwięzionymi jonami. Teorie pomiarowe opisują, w jaki sposób materia wchodzi w interakcje poprzez pola zwane polami pomiarowymi, które przenoszą siły elektromagnetyczne, słabe i silne.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-07T18:00:02+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-11-paths-flux-ions-simulate-aharonovbohm.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/two-paths-one-flux-tra.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Stanowią one podstawę Standardowego Modelu fizyki cząstek elementarnych.",
+      "W teoriach cechowania kratowego przestrzeń jest modelowana jako siatka z materią na wierzchołkach i polami cechowania na łączących je ogniwach.",
+      "Symulatory kwantowe oferują sposób badania tych teorii.",
+      "Jednak większość symulacji kwantowych najprostszej wersji - teorii cechowania sieci Z₂ - została ograniczona do jednego wymiaru przestrzennego, w którym nie mogą wystąpić efekty związane ze strumieniem magnetycznym.",
+      "Aby rozwiązać ten problem, naukowcy z Uniwersytetu Oksfordzkiego wykorzystali jony uwięzione do symulacji teorii cechowania sieci Z₂ w quasi-dwuwymiarowej pętli.",
+      "Ich stany elektroniczne kodują pola miernika, a ich wibracje kodują materię.",
+      "Phys.org rozmawiał o pracy z pierwszym autorem badania, Sebastianem Sanerem.",
+      "„Po raz pierwszy zaczęliśmy burzę mózgów, jak wykorzystać hybrydowy system kwantowy z jonami uwięzionymi do symulacji teorii cechowania sieci w 2022 roku.",
+      "Później, w trakcie projektu, wpadliśmy na pomysł wykorzystania splątanych kubitów do kodowania strumienia pola miernika."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Efekt Aharonova-Bohma, czasami nazywany efektem Ehrenberga-Sidaya-Aharonova-Bohma, jest zjawiskiem kwantowo-mechanicznym, w którym na naładowaną elektrycznie cząstkę wpływa potencjał elektromagnetyczny, mimo że jest ograniczona do obszaru, w którym zarówno pole magnetyczne, jak i pole elektryczne są zerowe. Podstawowym mechanizmem jest sprzężenie potencjału elektromagnetycznego ze złożoną fazą funkcji fali naładowanej cząstki, a efekt Aharonova-Bohma jest odpowiednio zilustrowany eksperymentami interferencyjnymi."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Aharonov–Bohm effect",
+     "url": "https://en.wikipedia.org/wiki/Aharonov%E2%80%93Bohm_effect"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "100,000",
+    "10.1038",
+    "026",
+    "03400"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Aharonov–Bohm effect",
+    "opis": "Electromagnetic quantum-mechanical effect in regions of zero magnetic and electric field",
+    "tekst": "The Aharonov–Bohm effect, sometimes called the Ehrenberg–Siday–Aharonov–Bohm effect, is a quantum-mechanical phenomenon in which an electrically charged particle is affected by an electromagnetic potential, despite being confined to a region in which both the magnetic field and electric field are zero. The underlying mechanism is the coupling of the electromagnetic potential with the complex phase of a charged particle's wave function, and the Aharonov–Bohm effect is accordingly illustrated by interference experiments.",
+    "url": "https://en.wikipedia.org/wiki/Aharonov%E2%80%93Bohm_effect",
+    "język": "en"
+   },
+   "tagi": [
+    "Saner",
+    "Aharonov–Bohm",
+    "Nature Physics",
+    "Sebastian Saner"
+   ],
+   "emotki": [
+    "⚛️",
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Two paths, one flux: Trapped ions simulate Aharonov–Bohm interference in a lattice gauge theory",
+     "url": "https://phys.org/news/2026-11-paths-flux-ions-simulate-aharonovbohm.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.132,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.463,
+     "treściwość": 0.219,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Two paths, one flux: Trapped ions simulate Aharonov–Bohm interference in a lattice gauge theory",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "The Sky Today w sobotę, 7 listopada: Wenus spotyka Księżyc",
+   "lead": "Szukasz wydarzenia na niebie w tym tygodniu? Sprawdź naszą pełną kolumnę „Niebo w tym tygodniu”.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-07T09:00:00+00:00",
+   "źródło": {
+    "nazwa": "Astronomy Magazine",
+    "url": "https://www.astronomy.com/observing/the-sky-today-saturday-november-7-2026/",
+    "domena": "astronomy.com"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "6 listopada: Nab Mgławica Wenus w Ameryce Północnej jest już przygotowana do przyciągnięcia uwagi nad wschodnim horyzontem przed wschodem słońca.",
+      "Dziś rano Księżyc mija 1,1° na południe od siostrzanej planety Ziemi O 7 RANO.",
+      "Możesz łatwo złapać parę Czytaj dalej \"The Sky Today w sobotę, 7 listopada: Venus meets the Moon\" Post The Sky Today w sobotę, 7 listopada: Venus meets the Moon pojawił się jako pierwszy w Astronomy Magazine ."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Wenus jest drugą planetą od Słońca. Podobnie pod względem wielkości i masy jak Ziemia, Wenus nie ma płynnej wody, a jej atmosfera jest znacznie gęstsza i gęstsza niż w jakimkolwiek innym skalistym ciele w Układzie Słonecznym. Atmosfera składa się głównie z dwutlenku węgla i ma grubą warstwę chmurową kwasu siarkowego, która rozciąga się na całą planetę. Na średnim poziomie powierzchni atmosfera osiąga temperaturę 737 K, co czyni ją najgorętszą planetą w Układzie Słonecznym, a także ciśnienie 92 razy większe niż ciśnienie Ziemi na poziomie morza, zamieniając najniższą warstwę atmosfery w płyn nadkrytyczny. Z Ziemi Wenus jest widoczna jako punkt świetlny przypominający gwiazdę, wydaje się jaśniejsza niż jakikolwiek inny naturalny punkt świetlny na niebie, jako najjaśniejsza „gwiazda poranna” lub „gwiazda wieczorna”. Nadawano mu również poetycką nazwę ⏰arendel w języku staroangielskim, oznaczającą „promień światła” wraz z dwoma poprzednimi epitetami."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Venus",
+     "url": "https://en.wikipedia.org/wiki/Venus"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "1.1"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Venus",
+    "opis": "Second planet from the Sun",
+    "tekst": "Venus is the second planet from the Sun. Similar in size and mass to Earth, Venus has no liquid water, and its atmosphere is far thicker and denser than that of any other rocky body in the Solar System. The atmosphere is composed mostly of carbon dioxide and has a thick cloud layer of sulfuric acid that spans the whole planet. At the mean surface level, the atmosphere reaches a temperature of 737 K, making it the hottest planet in the solar system and also a pressure 92 times greater than Earth's at sea level, turning the lowest layer of the atmosphere into a supercritical fluid. From Earth, Venus is visible as a star-like point of light, appearing brighter than any other natural point of light in the sky, as either the brightest \"morning star\" or \"evening star\". It was also given the poetic name Ēarendel in Old English, meaning \"ray of light\" along with the two previous epithets.",
+    "url": "https://en.wikipedia.org/wiki/Venus",
+    "język": "en"
+   },
+   "tagi": [
+    "Saturday November",
+    "Sky Today",
+    "Venus",
+    "Moon"
+   ],
+   "emotki": [
+    "🪐"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Astronomy Magazine",
+     "tytuł": "The Sky Today on Saturday, November 7: Venus meets the Moon",
+     "url": "https://www.astronomy.com/observing/the-sky-today-saturday-november-7-2026/"
+    },
+    {
+     "nazwa": "EarthSky",
+     "tytuł": "Visible planets and night sky guide for November",
+     "url": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.257,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.193,
+     "eksponowanie": 1.26,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.354,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "The Sky Today on Saturday, November 7: Venus meets the Moon",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "NASA Awards Moon Base Transportation, Technology, Science Projects",
+   "lead": "NASA announced a suite of awards and mission updates on Saturday to expand the agency’s Moon Base exploration, science, and infrastructure capabilities. The investments will advance commercial robotic deliveries, a nuclear-powered rover named PROMISE, launch and orbital transfer services, and surface infrastructure as…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-07T22:47:03+00:00",
+   "źródło": {
+    "nazwa": "NASA",
+    "url": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
+    "domena": "nasa.gov"
+   },
+   "obraz": "https://www.nasa.gov/wp-content/uploads/2026/11/moon-base-artists-concept.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "The agency shared the news at the MAX POWER aerospace expo and air show at NASA’s Kennedy Space Center in Florida. “We are building the Moon Base mission by mission,” said NASA Administrator Jared Isaacman. “Today’s announcements expand nearly every part of that campaign, using the playbook that carried NASA through its greatest eras: fly often, learn, apply those lessons, and get more better and more capable with every mission.",
+      "When our astronauts return to the Moon, they will arrive with the first elements of the Moon Base already waiting for them on the surface.” “In the eight months since Ignition, we’ve made incredible strides in accomplishing the near impossible: establishing a permanent outpost on the lunar surface,” said Carlos García-Galán, manager, Moon Base Program. “We’ve consolidated numerous efforts into a streamlined program, evolving our human exploration architecture into an iterative and sustained campaign for Moon Base technology development and implementation.",
+      "Most importantly, we’ve taken action, awarding new contracts and forging new partnerships to accelerate development.” To strengthen the cargo lander network needed to support the Moon Base, NASA selected eight companies for the next phase of its CLPS ( Commercial Lunar Payload Services ) initiative.",
+      "The companies are eligible to compete for future lunar surface delivery missions under the new CLPS 2 contract: Under the CLPS 2 framework, the companies will provide lunar delivery services, including managing, building, and operating landers that transport NASA science, technology, and infrastructure payloads to the Moon.",
+      "The CLPS 2 framework is a 10-year, multiple-award, indefinite-delivery/indefinite-quantity master contract with a combined maximum value of $10 billion.",
+      "NASA increased the value of the current CLPS 1.0 contract from $2.6 billion to $4.2 billion to support initial Phase One Moon Base objectives.",
+      "The original CLPS contract will remain in place through November 2028, with an additional five-year period to complete awarded lunar deliveries through November 2033.",
+      "NASA also announced it is moving forward with development of PROMISE (Polar Rover for Observation, Mapping, and In-Situ Exploration) .",
+      "The nuclear-powered rover can operate during long lunar nights and within permanently shadowed regions thought to harbor ice, which is crucial for a sustained human presence on the Moon."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "A moonbase is a human outpost on or beneath the surface of the Moon. More than a mere site of activity or temporary camp, moonbases are extraterrestrial bases, supporting robotic or human activity, by providing surface infrastructure. Missions to the Moon have realized single-mission bases, as well as some small permanent infrastructure like lunar laser ranging installations."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Moonbase",
+     "url": "https://en.wikipedia.org/wiki/Moonbase"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10",
+    "1.0",
+    "2.6 billion",
+    "4.2 billion",
+    "18",
+    "94 million"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Moonbase",
+    "opis": "Long-term human settlement on the Moon",
+    "tekst": "A moonbase is a human outpost on or beneath the surface of the Moon. More than a mere site of activity or temporary camp, moonbases are extraterrestrial bases, supporting robotic or human activity, by providing surface infrastructure. Missions to the Moon have realized single-mission bases, as well as some small permanent infrastructure like lunar laser ranging installations.",
+    "url": "https://en.wikipedia.org/wiki/Moonbase",
+    "język": "en"
+   },
+   "tagi": [
+    "Moon Base",
+    "NASA",
+    "Moon",
+    "Moon’s South Pole"
+   ],
+   "emotki": [
+    "🚀",
+    "🤖"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "NASA",
+     "tytuł": "NASA Awards Moon Base Transportation, Technology, Science Projects",
+     "url": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.832,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.3,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.522,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Scientists discovered an unknown baby right whale off Canada. They say it’s a cause for joy",
+   "lead": "PORTLAND, Maine (AP) — Scientists who study whales are heartened by an unexpected discovery of a baby right whale off Canada. Researchers in Canada captured images of an unidentified baby North Atlantic right whale, one of the rarest sea mammals in the world, off Anticosti Island in Quebec in September.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-06T17:03:15+00:00",
+   "źródło": {
+    "nazwa": "Mongabay",
+    "url": "https://news.mongabay.com/short-article/2026/11/scientists-discovered-an-unknown-baby-right-whale-off-canada-they-say-its-a-cause-for-joy/",
+    "domena": "news.mongabay.com"
+   },
+   "obraz": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/06170019/AP26203535889739-768x512.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Scientists with the New England Aquarium in Boston said this week that after analyzing photos and data about right whales, they have determined it was a calf likely born months ago that went unseen during winter surveys for the giant animals.",
+      "The discovery puts the number of baby right whales discovered from the most recent birthing season at 24.",
+      "Banner image: A North Atlantic right whale Image courtesy of Robert F.",
+      "Bukaty, NOAA permit # 21371 As the EU’s deforestation regulation (EUDR) approaches enforcement after multiple delays, Mongabay’s Solutions Desk is examining how industries are working to comply, and where the shortfalls are.",
+      "From soy traders in Brazil to cocoa companies in Ghana and palm oil farmers in Southeast Asia, this Special Issue examines how businesses are adapting to new traceability […]"
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Picture the wilderness of central Europe 100,000 years ago, or even a million years ago.",
+      "Instead, much of the continent was a vibrant landscape of scattered trees, open woodlands, grassy clearings, and colorful wildflower meadows.",
+      "Researchers led by Aarhus University have found that this mixture of habitats dominated Europe's landscapes for more than 20 million years.",
+      "Far from being the continent's original natural condition, the dense, dark forests common in many parts of Europe today appear to be a relatively recent development in its ecological history."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "24",
+    "21371",
+    "100,000",
+    "20 million",
+    "23 Million"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "ScienceDaily Earth",
+     "ujęcie": "But according to a major new study, that familiar image of Europe's ancient forests is probably misleading.",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261104012333.htm"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Canada",
+    "North Atlantic",
+    "Mongabay’s Solutions Desk",
+    "Anticosti Island"
+   ],
+   "emotki": [
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Mongabay",
+     "tytuł": "Scientists discovered an unknown baby right whale off Canada. They say it’s a cause for joy",
+     "url": "https://news.mongabay.com/short-article/2026/11/scientists-discovered-an-unknown-baby-right-whale-off-canada-they-say-its-a-cause-for-joy/"
+    },
+    {
+     "nazwa": "ScienceDaily Earth",
+     "tytuł": "Scientists discover Europe's ancient forests were nothing like we imagined",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261104012333.htm"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.648,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 1.35,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.359,
+     "treściwość": 0.489,
+     "język_działu": 0.0
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "This riverside border town is fueling an illegal gold rush",
+   "lead": "Mongabay’s reporter Max Radwin went to Suriname’s Amazon to investigate the advance of illegal gold mining on Indigenous territories. Despite a government pledge to combat the activity, Indigenous Wayana communities are facing an influx of miners who cut down the forest and pollute rivers with mercury on the border of…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-07T11:08:19+00:00",
+   "źródło": {
+    "nazwa": "Mongabay",
+    "url": "https://news.mongabay.com/short-article/2026/11/this-riverside-border-town-is-fueling-an-illegal-gold-rush/",
+    "domena": "news.mongabay.com"
+   },
+   "obraz": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/07110725/Mongabay_Thumbnail_Max_Featured-338x512.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "To learn more about Max’s findings, read the full story.",
+      "As the EU’s deforestation regulation (EUDR) approaches enforcement after multiple delays, Mongabay’s Solutions Desk is examining how industries are working to comply, and where the shortfalls are.",
+      "From soy traders in Brazil to cocoa companies in Ghana and palm oil farmers in Southeast Asia, this Special Issue examines how businesses are adapting to new traceability […]"
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Mongabay’s Solutions Desk",
+    "Suriname’s Amazon",
+    "Indigenous Wayana",
+    "Southeast Asia"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Mongabay",
+     "tytuł": "This riverside border town is fueling an illegal gold rush",
+     "url": "https://news.mongabay.com/short-article/2026/11/this-riverside-border-town-is-fueling-an-illegal-gold-rush/"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.377,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.377,
+     "treściwość": 0.44,
+     "język_działu": 0.0
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Nie żyje Sebastián Lelio. Twórca \"Fantastycznej kobiety\" miał 52 lata",
+   "lead": "W wieku 52 lat zmarł Sebastián Lelio – chilijski reżyser i scenarzysta, autor m.in. \" Glorii \", \" Nieposłusznych \" czy nagrodzonej Oscarem \"<a",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-06T19:04:00+00:00",
+   "źródło": {
+    "nazwa": "Filmweb",
+    "url": "https://www.filmweb.pl/news/Nie+%C5%BCyje+Sebasti%C3%A1n+Lelio.+Tw%C3%B3rca+%22Fantastycznej+kobiety%22+mia%C5%82+52+lata-169552",
+    "domena": "filmweb.pl"
+   },
+   "obraz": "https://fwcdn.pl/nph/2025458/2026/78911_1.16.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "52-latek zdobył Oscara za film \"Fantastyczna kobieta\"."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Sebastián Lelio Watt – chilijski reżyser, scenarzysta, montażysta i producent filmowy. W swojej twórczości tworzył przenikliwe portrety postaci kobiecych, granych przez wybitne aktorki. Jego Fantastyczna kobieta (2017) to pierwszy i jedyny chilijski film nagrodzony Oscarem dla najlepszego filmu nieanglojęzycznego."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Sebastián Lelio",
+     "url": "https://pl.wikipedia.org/wiki/Sebasti%C3%A1n_Lelio"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "52 lat",
+    "20",
+    "21",
+    "1862"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Onet Kultura",
+     "ujęcie": "O śmierci Sebastiana Lelio poinformowała jego partnerka Amalia Kassai.",
+     "url": "https://kultura.onet.pl/film/wiadomosci/sebastian-lelio-nie-zyje-laureat-oscara-mial-52-lata/rydv8en"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Sebastián Lelio",
+    "opis": "",
+    "tekst": "Sebastián Lelio Watt – chilijski reżyser, scenarzysta, montażysta i producent filmowy. W swojej twórczości tworzył przenikliwe portrety postaci kobiecych, granych przez wybitne aktorki. Jego Fantastyczna kobieta (2017) to pierwszy i jedyny chilijski film nagrodzony Oscarem dla najlepszego filmu nieanglojęzycznego.",
+    "url": "https://pl.wikipedia.org/wiki/Sebasti%C3%A1n_Lelio",
+    "język": "pl"
+   },
+   "tagi": [
+    "Sebastián Lelio",
+    "Glorii Nieposłusznych",
+    "Fantastycznej",
+    "Oscarem"
+   ],
+   "emotki": [
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Filmweb",
+     "tytuł": "Nie żyje Sebastián Lelio. Twórca \"Fantastycznej kobiety\" miał 52 lata",
+     "url": "https://www.filmweb.pl/news/Nie+%C5%BCyje+Sebasti%C3%A1n+Lelio.+Tw%C3%B3rca+%22Fantastycznej+kobiety%22+mia%C5%82+52+lata-169552"
+    },
+    {
+     "nazwa": "Onet Kultura",
+     "tytuł": "Nie żyje Sebastian Lelio. Reżyser \"Fantastycznej kobiety\" miał 52 lata",
+     "url": "https://kultura.onet.pl/film/wiadomosci/sebastian-lelio-nie-zyje-laureat-oscara-mial-52-lata/rydv8en"
+    },
+    {
+     "nazwa": "The Guardian Film",
+     "tytuł": "Sebastián Lelio was a fascinating film-maker of great passion and poetry",
+     "url": "https://www.theguardian.com/film/2026/nov/06/sebastian-lelio-chilean-film-maker"
+    },
+    {
+     "nazwa": "The Guardian Film",
+     "tytuł": "Sebastián Lelio, director of A Fantastic Woman and Gloria, dies aged 52",
+     "url": "https://www.theguardian.com/film/2026/nov/06/sebastian-lelio-chilean-director-dies"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.966,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.637,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.199,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "ToruńCAMERIMAGE 2026: 10 filmów, które warto obejrzeć",
+   "lead": "W Toruniu wystartował dziś festiwal CAMERIMAGE – jeden z najważniejszych festiwali filmowych na świecie, wyróżniający się tym, że w centrum uwagi stawia sztukę operatorską i wizualną stronę kina. W programie znalazło się ponad 200 projekcji, w tym konkursowe fabuły, dokumenty, debiuty, seriale i etiudy studenckie.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-07T09:14:39+00:00",
+   "źródło": {
+    "nazwa": "Filmweb",
+    "url": "https://www.filmweb.pl/news/Toru%C5%84CAMERIMAGE+2026%3A+10+film%C3%B3w%2C+kt%C3%B3re+warto+obejrze%C4%87-169556",
+    "domena": "filmweb.pl"
+   },
+   "obraz": "https://fwcdn.pl/nph/49468/2026/78919.16.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Międzynarodowego Festiwalu Filmowego ToruńCamerimage rywalizuje 15 filmów w konkursie głównym i 7 w konkursie polskim.",
+      "Do Torunia przyjadą również twórcy i ekipa \"The Idiot(s)\" - Małgorzata Szumowska, Michał Englert, Aimee Lou Wood oraz Johnny Flynn .",
+      "Obraz, którego światowa premiera odbyła się na Telluride Film Festival w Kolorado, opowiada o Fiodorze Dostojewskim i jego żonie Annie podczas ich europejskiej podróży poślubnej."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "200",
+    "34",
+    "15",
+    "100",
+    "30",
+    "35"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Film",
+     "ujęcie": "Nagroda THR Visionary in Cinematography trafi do Janusza Kamińskiego , zdobywcy Oscarów za \"Listę Schindlera\" i \"Szeregowca Ryana\" Stevena Spielberga, stałego współpracownika amerykańskiego reżysera.",
+     "url": "https://film.interia.pl/wiadomosci/news-34-toruncamerimage-najwieksze-swieto-operatorow-filmowych-fi,nId,23570477"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Toruniu"
+   ],
+   "emotki": [
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Filmweb",
+     "tytuł": "ToruńCAMERIMAGE 2026: 10 filmów, które warto obejrzeć",
+     "url": "https://www.filmweb.pl/news/Toru%C5%84CAMERIMAGE+2026%3A+10+film%C3%B3w%2C+kt%C3%B3re+warto+obejrze%C4%87-169556"
+    },
+    {
+     "nazwa": "Interia Film",
+     "tytuł": "ToruńCamerimage: święto operatorów filmowych. Filmy Polaków34 w konkursie",
+     "url": "https://film.interia.pl/wiadomosci/news-34-toruncamerimage-najwieksze-swieto-operatorow-filmowych-fi,nId,23570477"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.196,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.243,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.353,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  }
+ ],
+ "braki": [],
+ "statystyki": {
+  "kanały_ok": 71,
+  "kanały_błędne": 1,
+  "znaki_tłumaczone": 19895,
+  "niedziałające_kanały": [
+   {
+    "url": "https://www.esa.int/rssfeed/Our_Activities/Space_Science",
+    "powód": "HTTP 404"
+   }
+  ],
+  "działy": 18,
+  "artykuły_w_oknie": 55
+ }
+}
