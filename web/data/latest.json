@@ -1,8 +1,8 @@
 {
  "wersja": "1.0.0",
- "wydanie": "2026-11-10",
- "dotyczy_dnia": "2026-11-09",
- "wygenerowano": "2026-11-10T14:10:52+00:00",
+ "wydanie": "2026-11-11",
+ "dotyczy_dnia": "2026-11-10",
+ "wygenerowano": "2026-11-11T13:27:15+00:00",
  "strefa": "Europe/Warsaw",
  "tryb": "ekstrakcyjny",
  "demo": false,
@@ -14,89 +14,97 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "Wulgarne krzyki uczniów przed TK. Założycielka szkoły rezygnuje. Nowacka: To nie zamyka sprawy",
-   "lead": "Sprawa dotyczy sytuacji, do której doszło w piątek (6 listopada). Uczniowie niepublicznego Liceum Ogólnokształcącego Centrum Szkół Mundurowych Zamość im.",
+   "nagłówek": "„Wykryty i zatrzymany”. Cyberatak na państwowy system ePUAP",
+   "lead": "„Zespoły odpowiadające za bezpieczeństwo systemu podjęły natychmiastowe działania pozwalające zachować stabilność systemu i obecnie trwają prace techniczne związane z przywróceniem pełnej funkcjonalności” – przekazał wicepremier we wpisie na platformie X. Gawkowski zaznaczył, że „Infrastruktura Centralnego Ośrodka…",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-09T19:58:00+00:00",
+   "opublikowano": "2026-11-10T20:28:00+00:00",
    "źródło": {
-    "nazwa": "Gazeta.pl",
-    "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33124444,wulgarne-krzyki-uczniow-przed-tk-zalozycielka-szkoly-rezygnuje.html",
-    "domena": "wiadomosci.gazeta.pl"
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/fakty/polska/news-wykryty-i-zatrzymany-cyberatak-na-panstwowy-system-epuap,nIdn,1025689",
+    "domena": "rmf24.pl"
    },
-   "obraz": "https://bi.im-g.pl/im/90/9a/1d/z31041168IHG,Barbara-Nowacka--zdjecie-archiwalne-.jpg",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/63/00/krzysztof-gawkowski-fot-636x421-63005aa5.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Powstania Zamojskiego pojechali na wycieczkę szkolną do Parlamentu.",
-      "Do Sejmu zaprosił ich poseł Sławomir Zawiślak z Konfederacji Korony Polskiej.",
-      "Działaczką tej partii jest również założycielka szkoły Agnieszka Macek, która - jak sama przyznała - podjęła decyzję, żeby pójść z uczniami przed Trybunał Konstytucyjny.",
-      "Tam jej podopieczni krzyczeli hasła \"j***ć Tuska, \"j***ć TVN\".",
-      "Macek podczas poniedziałkowej konferencji w Zamościu poinformowała, że w wycieczce edukacyjnej do Sejmu i Senatu uczestniczyło około 50 uczniów w wieku 15-19 lat.",
-      "16 uczniowie wraz z nauczycielami wyszli z Sejmu i skierowali się do autokaru.",
-      "Wówczas Macek miała \"spontanicznie\" i \"z ciekawości\" zadecydować, żeby udać się pod TK .",
-      "Jej zdaniem młodzież \"wyraziła taką wolę\", a opiekunowie \"ulegli jej presji\".",
-      "Według Macek w pewnym momencie dwie osoby zaczęły skandować i wykrzykiwać hasła, które było słychać na filmie, a młodzież \"dała się ponieść emocjom, tzw. psychologii tłumu\"."
+      "Dodał, że o incydencie zgodnie z procedurami poinformowana została także Agencja Bezpieczeństwa Bezpiecznego.",
+      "Elektroniczna Platforma Usług Administracji Publicznej (ePUAP) to ogólnopolski system umożliwiający obywatelom internetową komunikację z jednostkami administracji publicznej.",
+      "Służy m.in. do wysyłania wniosków, podań i dokumentów do urzędów, a także do podpisywania pism za pomocą Profilu Zaufanego."
      ]
     },
     {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
      "treść": [
-      "Skrócenie kadencji Sejmu – uchwała Sejmu bądź postanowienie Prezydenta Rzeczypospolitej skracające konstytucyjną 4-letnią kadencję Sejmu, skutkujące jednocześnie skróceniem kadencji Senatu i prowadzące do przeprowadzenia przedterminowych wyborów parlamentarnych."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Skrócenie kadencji Sejmu",
-     "url": "https://pl.wikipedia.org/wiki/Skr%C3%B3cenie_kadencji_Sejmu"
+      "Dyrektor biura komunikacji MC Marek Gieorgica przekazał PAP, że pełne przywrócenie systemu ePUAP nastąpi po zakończeniu prac zespołu Centralnego Ośrodka Informatyki, aby mieć pewność, że nie ma zagrożenia dla jego funkcjonowania.",
+      "Gieorgica dodał, że „obecnie nie można zadeklarować konkretnego terminu, kiedy system ePUAP wróci do pełnej funkcjonalności”. - Naszym priorytetem jest zapewnienie bezpieczeństwa systemu i jak najszybsze przywrócenie pełnej jego dostępności.",
+      "We wtorek wieczorem na portalu X wicepremier, minister cyfryzacji Krzysztof Gawkowski przekazał informację o cyberataku na państwowy system i wskazał, że zespoły odpowiadające za bezpieczeństwo podjęły natychmiastowe działania pozwalające zachować stabilność systemu.",
+      "\"Infrastruktura Centralnego Ośrodka Informatyki jest bezpieczna\" - poinformował, dodając, że trwają prace techniczne związane z przywróceniem pełnej funkcjonalności.",
+      "\"W sprawę pełnego wyjaśnienia incydentu, zgodnie z procedurami włączona została Agencja Bezpieczeństwa Wewnętrznego \" - napisał.",
+      "\"Wykryty i zatrzymany został cyberatak na państwowy system ePUAP\" - poinformował minister cyfryzacji Krzysztof Gawkowski we wpisie na X, opublikowanym przed godz.",
+      "21 we wtorek 10 listopada."
+     ]
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "50",
-    "15",
-    "19 lat",
-    "16",
-    "10",
-    "18 lat"
+    "23",
+    "19 milionów",
+    "21",
+    "10"
    ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Skrócenie kadencji Sejmu",
-    "opis": "",
-    "tekst": "Skrócenie kadencji Sejmu – uchwała Sejmu bądź postanowienie Prezydenta Rzeczypospolitej skracające konstytucyjną 4-letnią kadencję Sejmu, skutkujące jednocześnie skróceniem kadencji Senatu i prowadzące do przeprowadzenia przedterminowych wyborów parlamentarnych.",
-    "url": "https://pl.wikipedia.org/wiki/Skr%C3%B3cenie_kadencji_Sejmu",
-    "język": "pl"
-   },
-   "tagi": [
-    "Macek",
-    "Sejmu",
-    "Niepublicznego Liceum Ogólnokształcącego Centrum Szkół Mundurowych Zamość",
-    "Liceum Ogólnokształcącego Centrum Szkół Mundurowych Zamość"
-   ],
-   "emotki": [
-    "🏛️"
-   ],
-   "wszystkie_źródła": [
+   "inne_spojrzenia": [
     {
-     "nazwa": "Gazeta.pl",
-     "tytuł": "Wulgarne krzyki uczniów przed TK. Założycielka szkoły rezygnuje. Nowacka: To nie zamyka sprawy",
-     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33124444,wulgarne-krzyki-uczniow-przed-tk-zalozycielka-szkoly-rezygnuje.html"
+     "źródło": "Interia Fakty",
+     "ujęcie": "Wykryto i zatrzymano cyberatak na państwowy system ePUAP - przekazał Krzysztof Gawkowski.",
+     "url": "https://wydarzenia.interia.pl/kraj/news-cyberatak-na-system-epuap-pilny-komunikat-wicepremiera,nId,23572066"
     }
    ],
-   "liczba_źródeł": 1,
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Infrastruktura Centralnego Ośrodka Informatyki",
+    "Platforma Usług Administracji Publicznej",
+    "Agencja Bezpieczeństwa Bezpiecznego",
+    "Profilu Zaufanego"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24",
+     "tytuł": "„Wykryty i zatrzymany”. Cyberatak na państwowy system ePUAP",
+     "url": "https://www.rmf24.pl/fakty/polska/news-wykryty-i-zatrzymany-cyberatak-na-panstwowy-system-epuap,nIdn,1025689"
+    },
+    {
+     "nazwa": "Bankier.pl",
+     "tytuł": "Cyberatak na państwowy system ePUAP. Nie wiadomo, kiedy w pełni wróci",
+     "url": "https://www.bankier.pl/wiadomosc/Cyberatak-na-panstwowy-system-ePUAP-ABW-natychmiast-wkracza-do-akcji-9227177.html"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Cyberatak na system ePUAP. Pilny komunikat wicepremiera",
+     "url": "https://wydarzenia.interia.pl/kraj/news-cyberatak-na-system-epuap-pilny-komunikat-wicepremiera,nId,23572066"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Cyberatak na państwowy system ePUAP. Gawkowski: Zespoły podjęły natychmiastowe działania",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33126651,cyberatak-na-panstwowy-system-epuap-gawkowski-zespoly-podjely.html"
+    }
+   ],
+   "liczba_źródeł": 4,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.116,
+    "wynik": 9.62,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.0,
-     "eksponowanie": 0.0,
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 1.615,
+     "eksponowanie": 0.18,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.487,
-     "treściwość": 0.429,
+     "świeżość": 0.508,
+     "treściwość": 0.417,
      "język_działu": 0.5
     }
    },
@@ -109,71 +117,112 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "Trump podważa wynik wyborów. \"Czy ktokolwiek naprawdę wierzy?\"",
-   "lead": "\"Czy ktokolwiek naprawdę wierzy, że te 'wybory' były uczciwe?\" - napisał Donald Trump. W niedawnych wyborach połówkowych demokraci odnieśli zdecydowane zwycięstwo, przejmując kontrolę nad obiema izbami Kongresu.",
+   "nagłówek": "Wyszedł na dach kościoła i postawił służby na nogi. „Okazało się, że to ksiądz”",
+   "lead": "W tamtym momencie nie było wiadomo, czy sprawca ataku działał sam – podkreśla młodszy aspirant Rafał Wawrzuta z biura prasowego Komendy Miejskiej Policji w Krakowie. Mundurowi potraktowali więc obecność podejrzanej osoby na dachu bardzo poważnie, mając świadomość skali zagrożenia.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-09T19:10:06+00:00",
+   "opublikowano": "2026-11-10T13:09:00+00:00",
    "źródło": {
-    "nazwa": "Interia Fakty",
-    "url": "https://wydarzenia.interia.pl/zagranica/news-trump-podwaza-wynik-wyborow-czy-ktokolwiek-naprawde-wierzy,nId,23571459",
-    "domena": "wydarzenia.interia.pl"
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/regiony/krakow/news-wyszedl-na-dach-kosciola-i-postawil-sluzby-na-nogi-okazalo-s,nIdn,1025631",
+    "domena": "rmf24.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000NIM7N91BKWVOT-C321.webp",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/b3/ba/na-zdjeciu-plac-mariacki-fot-636x421-b3ba7155.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Jak sondaże mogły tak bardzo się mylić???\" - napisał Donald Trump w komunikacie na swoim portalu społecznościowym Truth Social.",
-      "Jak dodał, niektóre transze głosów z wczesnego głosowania były tak duże, że \"niemożliwe było wygrać, niezależnie od tego, jak wielu ludzi poszło głosować\". \" Tu chodzi o maszyny, które są znacznie ważniejsze niż wyborca \" - zakończył wpis Trump.",
-      "Prezydent nie podał żadnych dowodów na swoje teorie.",
-      "Jego wpis dotyczy sytuacji, w której m.in. w Teksasie kandydat demokratów na senatora James Talarico zdobył tyle głosów oddanych przed dniem wyborczym, że wygrałby nawet wówczas, gdyby wszyscy wyborcy głosujący we wtorek poparli jego rywala.",
-      "W Teksasie i wielu różnych stanach większość wyborców oddała swój głos przed dniem wyborów , korespondencyjnie lub osobiście.",
-      "Od około dekady wyborcy głosujący wcześnie chętniej popierają demokratów.",
-      "Wbrew twierdzeniom Trumpa, przedwyborcze sondaże wskazywały na zdecydowaną wygraną demokratów , choć w niektórych przypadkach kandydaci opozycji okazali się nieco niedoszacowani.",
-      "Demokraci zdobyli większość w obu izbach Kongresu, w tym co najmniej 252 mandaty w Izbie Reprezentantów.",
-      "Z dotychczasowych rezultatów wynika, że na polityków Partii Demokratycznej w wyborach do Izby głosowało o 13 proc. więcej wyborców niż na republikanów."
+      "W trakcie interwencji okazało się, że nieznajomy to ksiądz, który wyszedł na dach kościoła.",
+      "Nie miał złych intencji, jednak – jak mówi Rafał Wawrzuta – ciekawość czasem bierze górę nad rozsądkiem .",
+      "Duchowny , z którym rozmawiał portal Deon.pl, wspomina, że sytuacja dla niego również była bardzo stresująca.",
+      "Poszedłem po pranie na taras, a że w telewizji właśnie informowali, że złapali sprawcę i wszystko się uspokoiło, postanowiłem spojrzeć na Rynek – mówi.",
+      "Ledwie pojawiłem się przy murku, usłyszałem: „Ręce do góry!”.",
+      "Trzy światła celowały we mnie, policjanci krzyczeli, bym się nie ruszał.",
+      "Jak opowiada ksiądz , stał tak około dziesięciu minut, zanim służby dostały się na dach.",
+      "W końcu zawołałem, że już mi ręce odpadają, a oni: „Spokój, spokój!",
+      "Jak możemy się tam dostać?” Odesłałem ich do zakrystii, gdzie siostra mogła otworzyć drzwi."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Prokuratura Okręgowa w Warszawie wszczęła śledztwo w sprawie Michała Kołodziejczaka, byłego wiceministra rolnictwa i posła KO.",
+      "Prokurator Piotr Antoni Skiba poinformował, że dochodzenie dotyczy \"udzielenia nieustalonych środków odurzających w różnych datach, w jednej znanej i jednej nieznanej dacie, dwóm różnym osobom, czyli ustalonej i nieustalonej\".",
+      "W związku z odmową prokuratura podjęła działania zmierzające do ustalenia tych osób , m.in. wystąpiła do różnych instytucji, np. ministerstwa, o nadesłanie niezbędnej dokumentacji pracowniczej osób współpracujących z posłem Kołodziejczakiem.",
+      "Rzecznik podkreślił, że dziennikarze Kanału Zero przyszli z jedną z kobiet, która została przesłuchana w charakterze świadka - pokrzywdzonej. - Nie jest to jednak osoba, która brała udział w nagraniu dla Kanału Zero i dysponowała odpowiednimi nagraniami.",
+      "W październiku Kanał Zero opublikował materiał, w którym dwie kobiety oskarżyły Michała Kołodziejczaka o stosowanie przemocy fizycznej i psychicznej, kierowanie gróźb w ich kierunku oraz zażywanie i podawania im środków odurzających .",
+      "Kanał Zero na początku października podał, że byłe współpracownice oskarżają Michała Kołodziejczaka o przemocowe, agresywne zachowania oraz nakłanianie do zażywania substancji, \"którą przedstawiał jako kokainę\"."
      ]
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "252",
-    "13 proc.",
-    "787 mln"
+    "24",
+    "27"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "RMF24",
+     "ujęcie": "Tajemnicza przesyłka postawiła służby na nogi.",
+     "url": "https://www.rmf24.pl/regiony/rzeszow/news-tajemnicza-przesylka-postawila-sluzby-na-nogi-prokuratura-um,nIdn,1025639"
+    },
+    {
+     "źródło": "Gazeta.pl",
+     "ujęcie": "Prokuratura Okręgowa w Warszawie wszczęła dochodzenie 27 października.",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33126517,afera-w-sprawie-kolodziejczaka-prokuratura-wszczela-sledztwo.html"
+    }
+   ],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Donald Trump",
-    "Kongresu",
-    "Teksasie",
-    "Trump"
+    "Rafał Wawrzuta",
+    "Komendy Miejskiej Policji",
+    "Prokuratury Krajowej",
+    "Rynku Głównym"
    ],
    "emotki": [
-    "🗳️",
-    "🏛️"
+    "⚽"
    ],
    "wszystkie_źródła": [
     {
+     "nazwa": "RMF24",
+     "tytuł": "Wyszedł na dach kościoła i postawił służby na nogi. „Okazało się, że to ksiądz”",
+     "url": "https://www.rmf24.pl/regiony/krakow/news-wyszedl-na-dach-kosciola-i-postawil-sluzby-na-nogi-okazalo-s,nIdn,1025631"
+    },
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Tajemnicza przesyłka postawiła służby na nogi. Prokuratura umorzyła śledztwo",
+     "url": "https://www.rmf24.pl/regiony/rzeszow/news-tajemnicza-przesylka-postawila-sluzby-na-nogi-prokuratura-um,nIdn,1025639"
+    },
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Prokuratura wszczęła śledztwo w sprawie Michała Kołodziejczaka",
+     "url": "https://www.rmf24.pl/fakty/polska/news-prokuratura-wszczela-sledztwo-w-sprawie-michala-kolodziejcza,nIdn,1025672"
+    },
+    {
      "nazwa": "Interia Fakty",
-     "tytuł": "Trump podważa wynik wyborów. \"Czy ktokolwiek naprawdę wierzy?\"",
-     "url": "https://wydarzenia.interia.pl/zagranica/news-trump-podwaza-wynik-wyborow-czy-ktokolwiek-naprawde-wierzy,nId,23571459"
+     "tytuł": "Kłopoty Michała Kołodziejczaka. Prokuratura wszczęła śledztwo",
+     "url": "https://wydarzenia.interia.pl/kraj/news-klopoty-michala-kolodziejczaka-prokuratura-wszczela-sledztwo,nId,23572059"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Afera w sprawie Kołodziejczaka. Prokuratura wszczęła śledztwo. Pojawił się problem",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33126517,afera-w-sprawie-kolodziejczaka-prokuratura-wszczela-sledztwo.html"
     }
    ],
-   "liczba_źródeł": 1,
+   "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.039,
+    "wynik": 7.781,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.0,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.795,
      "eksponowanie": 0.0,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.477,
-     "treściwość": 0.362,
+     "świeżość": 0.486,
+     "treściwość": 0.5,
      "język_działu": 0.5
     }
    },
@@ -186,99 +235,103 @@
     "emoji": "🌍",
     "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
    },
-   "nagłówek": "Miliony ludzi na papieskiej mszy w Buenos Aires",
-   "lead": "To pierwsza wizyta głowy Kościoła w Argentynie od 1987 r. W Światowych Dniach Młodzieży ze św.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-09T15:52:00+00:00",
+   "nagłówek": "Pierwszy dzień ukraińskich rozmów pokojowych konstruktywny, mówi Zełenski",
+   "lead": "Pierwsze od lutego rozmowy trójstronne odbędą delegacje z Kijowa, Waszyngtonu i Moskwy w Zjednoczonych Emiratach Arabskich.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-10T21:21:55+00:00",
    "źródło": {
-    "nazwa": "RMF24 Świat",
-    "url": "https://www.rmf24.pl/fakty/swiat/news-miliony-ludzi-na-papieskiej-mszy-w-buenos-aires,nIdn,1025480",
-    "domena": "rmf24.pl"
+    "nazwa": "BBC Europe",
+    "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
    },
-   "obraz": "https://rmf.rmffm.pl/news/attachments/6b/d9/papiez-636x421-6bd942a4.jpg",
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d8b/live/22dad050-dd25-11f1-93e1-3b657b665bcf.jpg",
    "sekcje": [
     {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
      "treść": [
-      "Janem Pawłem II, które odbyły się wtedy w Buenos Aires, również wzięło udział 2 mln osób.",
-      "Na mszę Leona XIV przybyli także przedstawiciele argentyńskiej Polonii.",
-      "W homilii papież, entuzjastycznie powitany na mszy przy Pomniku Hiszpanów, mówił jej uczestnikom, że dostrzega na ich twarzach entuzjazm wiary.",
-      "Zwrócił uwagę na trudności, z jakimi zmagają się rodziny : „brak stabilizacji, problemy społeczne, niepewność zatrudnienia, przemoc domowa, bolesne rozstania, uzależnienia, które niszczą przyszłość młodych ludzi i osłabiają więzi rodzinne”.",
-      "W Chrystusie, który jest skałą, nasze rodziny i całe społeczeństwo znajdują fundament, na którym wspiera się dom i który chroni go przed uderzającymi weń nawałnicami - powiedział Leon XIV.",
-      "Podkreślił, że dzięki Chrystusowi „każda rodzina może stać się ziarnem prawdziwej odnowy tego kraju”.",
-      "Jak przypomniał papież, w dziejach, kulturze i życiu społecznym Argentyny rodzina była źródłem, z którego czerpano podstawowe wartości narodu.",
-      "Na waszej ziemi, będącej miejscem spotkania różnych kultur i grup etnicznych, rodzina stanowiła środowisko przekazywania wiary , cnót ludzkich, kultury pracy, szacunku dla starszych, troski o ochronę życia oraz wierności danemu słowu - dodał.",
-      "Nie ulegajcie głosom, które powtarzają, że rodzina chrześcijańska jest już przeżytkiem ."
+      "Rustem Umerow, szef ukraińskiego wywiadu zagranicznego (trzeci z prawej), przemawia podczas spotkania koordynacyjnego przed trójstronnymi rozmowami między Rosją a Ukrainą, które odbyły się we wtorek w Abu Zabi w Zjednoczonych Emiratach Arabskich.",
+      "Altaf Qadri/Pool AP hide caption ABU DHABI, Zjednoczone Emiraty Arabskie — Rosja i Ukraina we wtorek przeprowadziły pierwsze od dziewięciu miesięcy rozmowy z USA na temat zakończenia 4 i pół letniej wojny.",
+      "Sekretarz stanu Marco Rubio nazwał spotkanie „bardzo produktywnym”, a prezydent Ukrainy Wołodymyr Zełenski powiedział, że sesja była „konstruktywna i dość merytoryczna.„ Nadzieje na zakończenie największego konfliktu w Europie od czasów II wojny światowej są jednak zahamowane przez brak znaczących przełomów w trzech poprzednich rundach rozmów na początku tego roku.",
+      "Nie ma nic, co sugerowałoby nową postawę, która doprowadziłaby do przełomu, ale okoliczności rozmów zostały zmienione przez wynik wyborów śródokresowych w USA, a także zwiększoną presję na gospodarkę wojenną Rosji.",
+      "„Wygląda na to, że rozmowy w Abu Zabi były bardzo produktywne” - powiedział Rubio w Paryżu na spotkaniu Grupy Siedmiu, choć nawoływał do cierpliwości."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Buenos Aires – miasto i stolica Argentyny, położone nad Río de la Plata, stanowiące samodzielną jednostkę administracyjną. Buenos Aires jest największym miastem w Argentynie, jej centrum handlu, przemysłu, polityki, kultury i technologii, a jednocześnie także trzecim co do wielkości miastem Ameryki Południowej. Według tradycji założycielem miasta był hiszpański kolonizator Pedro de Mendoza. Powierzchnia miasta wynosi 203 km², obszaru metropolitarnego 3885 km². W skład Wielkiego Buenos Aires wchodzą m.in.: San Justo, Morón, Lanús, Lomas de Zamora, San Martín, Quilmes, Avellaneda, General Sarmiento. W 2022 roku miasto zamieszkiwało 3 121 707 osób, a obszar metropolitarny 17 529 996 osób. Od grudnia 2023 roku burmistrzem miasta jest Jorgi Marci."
+      "Wołodymyr Ołeksandrowicz Zełenski jest ukraińskim politykiem i byłym artystą estradowym, który od 2019 roku jest szóstym prezydentem Ukrainy. Objął urząd pięć lat po rozpoczęciu wojny rosyjsko-ukraińskiej z aneksją Krymu i inwazją na Donbas, a także nadal służył podczas pełnoskalowej rosyjskiej inwazji na Ukrainę, która trwa od lutego 2022 roku."
      ],
-     "język": "pl",
-     "przypis": "Wikipedia: Buenos Aires",
-     "url": "https://pl.wikipedia.org/wiki/Buenos_Aires"
+     "język": "en",
+     "przypis": "Wikipedia: Volodymyr Zelenskyy",
+     "url": "https://en.wikipedia.org/wiki/Volodymyr_Zelenskyy"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "2 mln",
-    "12",
-    "71",
-    "1.4 billion",
-    "68",
-    "26"
+    "4 1",
+    "24",
+    "162",
+    "155"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Buenos Aires",
-    "opis": "stolica Argentyny",
-    "tekst": "Buenos Aires – miasto i stolica Argentyny, położone nad Río de la Plata, stanowiące samodzielną jednostkę administracyjną. Buenos Aires jest największym miastem w Argentynie, jej centrum handlu, przemysłu, polityki, kultury i technologii, a jednocześnie także trzecim co do wielkości miastem Ameryki Południowej. Według tradycji założycielem miasta był hiszpański kolonizator Pedro de Mendoza. Powierzchnia miasta wynosi 203 km², obszaru metropolitarnego 3885 km². W skład Wielkiego Buenos Aires wchodzą m.in.: San Justo, Morón, Lanús, Lomas de Zamora, San Martín, Quilmes, Avellaneda, General Sarmiento. W 2022 roku miasto zamieszkiwało 3 121 707 osób, a obszar metropolitarny 17 529 996 osób. Od grudnia 2023 roku burmistrzem miasta jest Jorgi Marci.",
-    "url": "https://pl.wikipedia.org/wiki/Buenos_Aires",
-    "język": "pl"
+    "hasło": "Volodymyr Zelenskyy",
+    "opis": "President of Ukraine since 2019",
+    "tekst": "Volodymyr Oleksandrovych Zelenskyy is a Ukrainian politician and former entertainer who has served as the sixth president of Ukraine since 2019. He took office five years after the start of the Russo-Ukrainian war with Russia's annexation of Crimea and invasion of the Donbas, and has continued to serve during the full-scale Russian invasion of Ukraine, which has been ongoing since February 2022.",
+    "url": "https://en.wikipedia.org/wiki/Volodymyr_Zelenskyy",
+    "język": "en"
    },
    "tagi": [
-    "Buenos Aires",
-    "Światowych Dniach Młodzieży",
-    "Pomniku Hiszpanów",
-    "Chrystusowi"
+    "United Arab Emirates",
+    "Kyiv Washington",
+    "Delegations",
+    "Zelensky"
    ],
    "emotki": [],
    "wszystkie_źródła": [
     {
-     "nazwa": "RMF24 Świat",
-     "tytuł": "Miliony ludzi na papieskiej mszy w Buenos Aires",
-     "url": "https://www.rmf24.pl/fakty/swiat/news-miliony-ludzi-na-papieskiej-mszy-w-buenos-aires,nIdn,1025480"
+     "nazwa": "BBC Europe",
+     "tytuł": "First day of Ukraine peace talks constructive, Zelensky says",
+     "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss"
     },
     {
-     "nazwa": "BBC News",
-     "tytuł": "Millions fill Buenos Aires streets to welcome Pope Leo XIV",
-     "url": "https://www.bbc.co.uk/news/videos/cvp8g82pled5o?at_medium=RSS&at_campaign=rss"
+     "nazwa": "Politico Europe",
+     "tytuł": "Zelenskyy tells Europe to hurry up and pick a rep for peace talks with Russia",
+     "url": "https://www.politico.eu/article/zelenskyy-tells-europe-pick-negotiator-peace-talks-russia-ukraine/"
     },
     {
-     "nazwa": "The Guardian",
-     "tytuł": "Pope Leo delivers stinging rebuke of Milei’s austerity measures during Argentina visit",
-     "url": "https://www.theguardian.com/world/2026/nov/09/pope-leo-argentina-visit-speech-javier-milei-austerity"
+     "nazwa": "NPR",
+     "tytuł": "Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi",
+     "url": "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "Kushner and Witkoff renew peace talks to end war between Russia and Ukraine",
+     "url": "https://www.npr.org/2026/11/10/nx-s1-6034616/kushner-and-witkoff-renew-peace-talks-to-end-war-between-russia-and-ukraine"
     }
    ],
    "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 8.025,
+    "wynik": 7.939,
     "składowe": {
      "potwierdzenia": 3.8,
-     "ranga_źródła": 1.688,
-     "eksponowanie": 0.36,
+     "ranga_źródła": 1.615,
+     "eksponowanie": 1.08,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.477,
-     "treściwość": 0.5,
-     "język_działu": 0.5
+     "świeżość": 0.514,
+     "treściwość": 0.23,
+     "język_działu": 0.0
     }
+   },
+   "oryginalny_nagłówek": "First day of Ukraine peace talks constructive, Zelensky says",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
    },
    "miejsce": 1
   },
@@ -289,94 +342,97 @@
     "emoji": "🌍",
     "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
    },
-   "nagłówek": "Donald Trump: Ukraina będzie miała nieco zmieniony kształt",
-   "lead": "Pytany o to, czy bardziej ufa przywódcy Rosji Władimirowi Putinowi czy prezydentowi Ukrainy Wołodymyrowi Zełenskiemu, Donald Trump odparł: „Wolałbym nie mówić, ale dogaduję się z oboma”. Zdaniem amerykańskiego przywódcy na jednym z poprzednich spotkań Rosji „okazano ogromny brak szacunku”.",
+   "nagłówek": "Amerykański żołnierz w rękach brytyjskiej policji. Miał szpiegować na rzecz Rosji",
+   "lead": "We wtorek wieczorem brytyjska policja poinformowała o zatrzymaniu 41-letniego amerykańskiego żołnierza, który jest podejrzany o współpracę z rosyjskim wywiadem . Wysoki rangą wojskowy wpadł w ręce funkcjonariuszy w pobliżu miasta Gloucester w południowo-zachodniej Anglii.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-09T04:26:00+00:00",
+   "opublikowano": "2026-11-10T19:14:00+00:00",
    "źródło": {
     "nazwa": "RMF24 Świat",
-    "url": "https://www.rmf24.pl/fakty/swiat/news-donald-trump-ukraina-bedzie-miala-nieco-zmieniony-ksztalt,nIdn,1025368",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-amerykanski-zolnierz-w-rekach-brytyjskiej-policji-mial-szpie,nIdn,1025684",
     "domena": "rmf24.pl"
    },
-   "obraz": "https://rmf.rmffm.pl/news/attachments/a0/6e/prezydent-usa-donald-trump-fot-636x421-a06ee863.jpg",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/6a/00/zdjecie-ilustracyjne-636x421-6a00116d.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Trump nie uważa też, by był zwodzony przez Putina.",
-      "Zapewnił, że nikt nie był tak twardy względem Rosji jak on.",
-      "Myślę, że uda nam się to doprowadzić do końca.",
-      "Sądzę, że tak właśnie się stanie i ostatecznie Ukraina będzie miała nieco zmieniony kształt – powiedział.",
-      "We wtorek i w środę Rosja i Ukraina mają przeprowadzić rozmowy w Abu Zabi z udziałem delegacji USA.",
-      "W wywiadzie Trump został też zapytany, czy sądzi, że demokraci znów rozpoczną wobec niego procedurę impeachmentu.",
-      "Nie potrafię sobie tego wyobrazić (...).",
-      "Mam za sobą najlepsze dwa lata w całej historii prezydentury - przekonywał.",
-      "Uważam, że za uszczelnienie granicy zasłużyłem na najwyższą ocenę."
+      "W związku z jego aresztowaniem mundurowi przeprowadzili przeszukania w dwóch lokalizacjach na terenie hrabstwa Gloucestershire.",
+      "Mężczyzna został przewieziony do Londynu, gdzie jest przesłuchiwany.",
+      "41-latek został zatrzymany w związku z podejrzeniem popełnienia przestępstw przewidzianych w artykułach 1. i 3. ustawy o bezpieczeństwie narodowym.",
+      "Dotyczą one pozyskiwania lub ujawniania chronionych informacji oraz udzielania pomocy zagranicznej służbie wywiadowczej.",
+      "Brytyjska policja przekazała, że zarzuty dotyczą współpracy z Rosją .",
+      "Brytyjska policja zaznaczyła, że aresztowanie nie jest powiązane z żadnym innym, rozpoczętym wcześniej śledztwem.",
+      "„To ważne aresztowanie i śledztwo są wynikiem ścisłej współpracy między władzami Wielkiej Brytanii i Stanów Zjednoczonych.",
+      "Zarzuty są poważne, a nasze śledztwo wciąż trwa.",
+      "„To ważne aresztowanie wiąże się z zarzutami szpiegostwa, co budzi ogromne zaniepokojenie Stanów Zjednoczonych i naszych sojuszników."
      ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Brytyjska policja poinformowała we wtorek o aresztowaniu 41-letniego amerykańskiego żołnierza w związku z podejrzeniami, że szpiegował na rzecz Rosji."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Inwazja Rosji na Ukrainę, wojna rosyjsko-ukraińska – pełnoskalowa inwazja na Ukrainę rozpoczęta 24 lutego 2022 roku przez Rosję, stanowiąca eskalację wojny trwającej od 2014 roku. Została poprzedzona rosyjskimi żądaniami wykluczenia możliwości dalszego poszerzania NATO i redukcji potencjału militarnego sojuszu w Europie Środkowo-Wschodniej do stanu sprzed 1997 roku."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Inwazja Rosji na Ukrainę",
+     "url": "https://pl.wikipedia.org/wiki/Inwazja_Rosji_na_Ukrain%C4%99"
     }
    ],
-   "dlaczego_to_ważne": "",
+   "dlaczego_to_ważne": "Będziemy współpracować, aby podjąć zdecydowane działania przeciwko osobom podejrzanym o jakąkolwiek działalność przestępczą, która mogłaby zagrozić naszemu bezpieczeństwu narodowemu” - oświadczyła Vicki Evans, krajowa koordynatorka ds. przeciwdziałania terroryzmowi.",
    "liczby": [
-    "3.1%",
-    "500"
+    "41"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Inwazja Rosji na Ukrainę",
+    "opis": "inwazja na Ukrainę rozpoczęta 24 lutego 2022 roku przez Federację Rosyjską",
+    "tekst": "Inwazja Rosji na Ukrainę, wojna rosyjsko-ukraińska – pełnoskalowa inwazja na Ukrainę rozpoczęta 24 lutego 2022 roku przez Rosję, stanowiąca eskalację wojny trwającej od 2014 roku. Została poprzedzona rosyjskimi żądaniami wykluczenia możliwości dalszego poszerzania NATO i redukcji potencjału militarnego sojuszu w Europie Środkowo-Wschodniej do stanu sprzed 1997 roku.",
+    "url": "https://pl.wikipedia.org/wiki/Inwazja_Rosji_na_Ukrain%C4%99",
+    "język": "pl"
+   },
    "tagi": [
-    "Ukraina",
-    "Rosji",
-    "Ukrainy Wołodymyrowi Zełenskiemu Donald Trump",
-    "Rosji Władimirowi Putinowi"
+    "Stanów Zjednoczonych",
+    "Kontrwywiadu Wojsk Lądowych Stanów Zjednoczonych",
+    "Stanom Zjednoczonym",
+    "Wielkiej Brytanii"
    ],
    "emotki": [
-    "🏛️"
+    "⚖️",
+    "⚔️"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "RMF24 Świat",
-     "tytuł": "Donald Trump: Ukraina będzie miała nieco zmieniony kształt",
-     "url": "https://www.rmf24.pl/fakty/swiat/news-donald-trump-ukraina-bedzie-miala-nieco-zmieniony-ksztalt,nIdn,1025368"
+     "tytuł": "Amerykański żołnierz w rękach brytyjskiej policji. Miał szpiegować na rzecz Rosji",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-amerykanski-zolnierz-w-rekach-brytyjskiej-policji-mial-szpie,nIdn,1025684"
     },
     {
-     "nazwa": "The Guardian",
-     "tytuł": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
-     "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation"
-    },
-    {
-     "nazwa": "BBC Business",
-     "tytuł": "What do we know about Nvidia CEO’s affair with a suspected Chinese spy?",
-     "url": "https://www.bbc.co.uk/news/videos/cq3989nkzn3ko?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC Business",
-     "tytuł": "Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond",
-     "url": "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC Business",
-     "tytuł": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
-     "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC Business",
-     "tytuł": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
-     "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss"
+     "nazwa": "Onet Świat",
+     "tytuł": "Żołnierz z USA aresztowany w Anglii. Miał szpiegować dla służb Władimira Putina",
+     "url": "https://wiadomosci.onet.pl/swiat/zolnierz-z-usa-aresztowany-w-anglii-mial-szpiegowac-dla-sluzb-wladimira-putina/fvy5gyt"
     }
    ],
-   "liczba_źródeł": 3,
+   "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 7.823,
+    "wynik": 4.36,
     "składowe": {
-     "potwierdzenia": 3.8,
-     "ranga_źródła": 2.047,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.2,
      "eksponowanie": 0.09,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.536,
-     "treściwość": 0.5,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.482,
+     "treściwość": 0.188,
      "język_działu": 0.5
     }
    },
@@ -389,54 +445,61 @@
     "emoji": "🏅",
     "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
    },
-   "nagłówek": "Piękny gest reprezentacji Hiszpanii. Nagranie ze zgrupowania obiegło świat",
-   "lead": "Do tragedii doszło podczas meczu CD Tenerife z FC Andorra (2:2). Jesus de Miguel nieszczęśliwie zderzył się z bramkarzem rywali, Jesusem Owono , który zdecydował się opuścić pole karne i ruszyć do piłki.",
+   "nagłówek": "Rumunia - Polska w 5. kolejce Ligi Narodów UEFA. Relacja na żywo",
+   "lead": "W ramach 5. kolejki Ligi Narodów UEFA reprezentacja Polski zmierzy się na wyjeździe z Rumunią. Czas na listopadowe zgrupowanie i kluczowe mecze.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-09T22:44:19+00:00",
+   "opublikowano": "2026-11-10T22:16:58+00:00",
    "źródło": {
     "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/pilka-nozna/news-przepiekny-gest-reprezentacji-hiszpanii-oddali-hold-zmarlemu,nId,23571513",
+    "url": "https://sport.interia.pl/pilka-nozna/liga-narodow/na-zywo-rumunia-polska-w-5-kolejce-ligi-narodow-uefa-relacja-na-zywo,nzId,9414",
     "domena": "sport.interia.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000NIMMZOWHP3BBP-C321.webp",
+   "obraz": "https://i.iplsc.com/-/000MVU89ACYQSUVW-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Golkiper Andorry kolanem uderzył 30-latka w klatkę piersiową , a ten natychmiast upadł na murawę i stracił przytomność.",
-      "Na boisku doszło do interwencji służb medycznych, a de Miguel przetransportowany został do pobliskiego szpitala.",
-      "Choć jeszcze w nocy klub przekazał, że piłkarz ma się już lepiej, nad ranem doszło jednak do gwałtownego pogorszenia jego stanu.",
-      "Niestety, jego życia nie udało się uratować.",
-      "Jesus de Miguel zmarł 3 listopada.",
-      "Wobec tragicznej śmierci 30-letniego piłkarza obojętnie nie przeszła reprezentacja Hiszpanii.",
-      "Podczas jednego z treningów kadry przed meczami Ligi Narodów z Czechami i Anglią doszło do poruszających scen, a nagranie opublikował hiszpański oddział telewizji DAZN.",
-      "Na udostępnionym materiale widać, jak na czele grupy piłkarzy idą Ferran Torres, Unai Simon oraz Luis de la Fuente.",
-      "Wspólnie nieśli koszulkę reprezentacyjną z nazwiskiem zmarłego zawodnika , a także bukiet kwiatów."
+      "Już w najbliższych dniach polskich piłkarzy czeka wyjazd do Bukaresztu i starcie z Rumunią, z którą Biało-Czerwoni zwyciężyli w Warszawie aż 6:0.",
+      "Nie tylko utrzymanie w Lidze B, ale również awans do Ligi A.",
+      "Czy podopieczni Jana Urbana zdobędą komplet punktów?",
+      "Zapraszamy na relację na żywo."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Zwycięstwo w tym spotkaniu niewątpliwie przybliży do tego zarówno jedną, jak i drugą drużynę, co będzie miało również wpływ na pozycję Biało-Czerwonych w tabeli grupy 4.",
+      "W najbliższy poniedziałek 16. listopada, dzień przed meczem odbędzie się konferencja prasowa, podczas której między innymi Jan Urban będzie odpowiadał na pytania dziennikarzy.",
+      "Po meczu z Izraelem nasze zawodniczki powalczą o kolejne punkty i postarają się przybliżyć do awansu na prestiżową imprezę, jaką z pewnością są mistrzostwa Europy.",
+      "Plan zgrupowania reprezentacji Polski w listopadzie 2026."
      ]
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "30",
-    "11",
-    "14",
-    "17"
+    "16"
    ],
    "inne_spojrzenia": [
     {
+     "źródło": "Interia Sport",
+     "ujęcie": "W ramach 6. kolejki Ligi Narodów UEFA reprezentacja Niemiec podejmie na własnym stadionie Holandię.",
+     "url": "https://sport.interia.pl/pilka-nozna/liga-narodow/na-zywo-niemcy-holandia-w-6-kolejce-ligi-narodow-uefa-relacja-na-zyw,nzId,9418"
+    },
+    {
      "źródło": "TVP Sport",
-     "ujęcie": "Polacy zagrają w Bukareszcie i we Wrocławiu, ale zgrupowanie rozpoczynają w Warszawie.",
-     "url": "https://sport.tvp.pl/96392646/reprezentacja-polski-rozpoczela-zgrupowanie-przed-ostatnimi-meczami-ligi-narodow-wideo"
+     "ujęcie": "Zapowiedź meczów 5. i 6. kolejki Ligi Narodów UEFA.",
+     "url": "https://sport.tvp.pl/96192967/liga-narodow-uefa-zapowiedz-meczow-polski-w-5-i-6-kolejce-transmisja-na-zywo-online-live-stream-10112026"
     }
    ],
    "pojęcia": [],
    "tło": null,
    "tagi": [
     "Ligi Narodów",
-    "Hiszpanii",
-    "Miguel",
-    "Ferran Torres Unai Simon"
+    "Rumunią",
+    "Biało-Czerwoni",
+    "Jana Urbana"
    ],
    "emotki": [
     "⚽"
@@ -444,41 +507,56 @@
    "wszystkie_źródła": [
     {
      "nazwa": "Interia Sport",
-     "tytuł": "Piękny gest reprezentacji Hiszpanii. Nagranie ze zgrupowania obiegło świat",
-     "url": "https://sport.interia.pl/pilka-nozna/news-przepiekny-gest-reprezentacji-hiszpanii-oddali-hold-zmarlemu,nId,23571513"
+     "tytuł": "Rumunia - Polska w 5. kolejce Ligi Narodów UEFA. Relacja na żywo",
+     "url": "https://sport.interia.pl/pilka-nozna/liga-narodow/na-zywo-rumunia-polska-w-5-kolejce-ligi-narodow-uefa-relacja-na-zywo,nzId,9414"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Niemcy - Holandia w 6. kolejce Ligi Narodów UEFA. Relacja na żywo",
+     "url": "https://sport.interia.pl/pilka-nozna/liga-narodow/na-zywo-niemcy-holandia-w-6-kolejce-ligi-narodow-uefa-relacja-na-zyw,nzId,9418"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Szwecja - Bośnia i Hercegowina w 5. kolejce Ligi Narodów UEFA. Relacja na żywo",
+     "url": "https://sport.interia.pl/pilka-nozna/na-zywo-szwecja-bosnia-i-hercegowina-w-5-kolejce-ligi-narodow-uefa-r,nzId,9415"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Hiszpania - Anglia w 6. kolejce Ligi Narodów UEFA. Relacja na żywo",
+     "url": "https://sport.interia.pl/pilka-nozna/liga-narodow/na-zywo-hiszpania-anglia-w-6-kolejce-ligi-narodow-uefa-relacja-na-zy,nzId,9416"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Konferencja prasowa reprezentacji Polski przed meczem ze Szwecją. Relacja na żywo",
+     "url": "https://sport.interia.pl/pilka-nozna/na-zywo-konferencja-prasowa-reprezentacji-polski-przed-meczem-ze-szw,nzId,9417"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Czarnogóra - Polska w kwalifikacjach do mistrzostw Europy koszykarek. Relacja na żywo",
+     "url": "https://sport.interia.pl/koszykowka/na-zywo-czarnogora-polska-w-kwalifikacjach-do-mistrzostw-europy-kosz,nzId,9413"
     },
     {
      "nazwa": "TVP Sport",
-     "tytuł": "Reprezentacja Polski rozpoczęła zgrupowanie przed ostatnimi meczami Ligi Narodów [WIDEO]",
-     "url": "https://sport.tvp.pl/96392646/reprezentacja-polski-rozpoczela-zgrupowanie-przed-ostatnimi-meczami-ligi-narodow-wideo"
+     "tytuł": "Liga Narodów UEFA: zapowiedź meczów reprezentacji Polski w 5. i 6. kolejce [ZAPIS]",
+     "url": "https://sport.tvp.pl/96192967/liga-narodow-uefa-zapowiedz-meczow-polski-w-5-i-6-kolejce-transmisja-na-zywo-online-live-stream-10112026"
     },
     {
      "nazwa": "TVP Sport",
-     "tytuł": "Reprezentacja Polski rozpoczęła zgrupowanie. Wielu kibiców czekało na piłkarzy przed hotelem",
-     "url": "https://sport.tvp.pl/96388877/reprezentacja-polski-rozpoczela-zgrupowanie-robert-lewandowski-zaskoczyl-juz-na-poczatku"
-    },
-    {
-     "nazwa": "TVP Sport",
-     "tytuł": "Robert Lewandowski przyleciał na zgrupowanie reprezentacji Polski z USA. Sztab kadry gotowy pomóc kapitanowi",
-     "url": "https://sport.tvp.pl/96389074/robert-lewandowski-przylecial-na-zgrupowanie-reprezentacji-polski-z-usa-sztab-kadry-gotowy-pomoc-kapitanowi"
-    },
-    {
-     "nazwa": "TVP Sport",
-     "tytuł": "Reprezentacja Polski czeka na Jana Bednarka. Lekarz kadry odniósł się do stanu zdrowia defensora",
-     "url": "https://sport.tvp.pl/96389124/reprezentacja-polski-czeka-na-jana-bednarka-lekarz-kadry-odniosl-sie-do-stanu-zdrowia-defensora"
+     "tytuł": "Plan zgrupowania reprezentacji Polski w listopadzie 2026. Kiedy mecze, konferencje i treningi kadry? [TERMINARZ]",
+     "url": "https://sport.tvp.pl/96413041/plan-zgrupowania-reprezentacji-polski-w-listopadzie-2026-kiedy-mecze-konferencje-i-treningi-kadry-terminarz"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.772,
+    "wynik": 6.259,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.65,
+     "ranga_źródła": 2.138,
      "eksponowanie": 0.0,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.522,
+     "świeżość": 0.521,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -492,30 +570,157 @@
     "emoji": "🏅",
     "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
    },
-   "nagłówek": "Sabalenka miała 5:3 w 2. secie. Muchova odrobiła stratę. Oto triumfatorka",
-   "lead": "Trudno w to uwierzyć, ale Aryna Sabalenka, która ma już na swoim koncie mnóstwo tytułów, nigdy nie wygrała singlowych zmagań podczas WTA Finals. Dwukrotnie docierała do finału, ale w 2022 roku lepsza w decydującym starciu okazała się Caroline Garcia, a 12 miesięcy temu - Jelena Rybakina .",
+   "nagłówek": "Zwrot już na ostatniej prostej. Kłopot dla Polski tuż przed losowaniem",
+   "lead": "W Indian Wells trwa WTA Finals, w niedzielę poznamy ostatnią niewiadomą w całym sezonie - kto otrzyma Billie Jean King Trophy dla najlepsze zawodniczki tegorocznego Mastersa. Wiadomo, że nie będzie to Jelena Rybakina, najlepsza zawodniczka całego sezonu, która jednak wycofała się z rywalizacji w Kalifornii.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-09T22:10:11+00:00",
+   "opublikowano": "2026-11-10T19:58:34+00:00",
    "źródło": {
     "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/tenis/wta-finals/news-sabalenka-prowadzila-5-3-w-2-secie-muchova-ruszyla-w-pogon-1,nId,23571503",
+    "url": "https://sport.interia.pl/tenis/news-zwrot-juz-na-ostatniej-prostej-klopot-dla-polski-tuz-przed-l,nId,23572051",
     "domena": "sport.interia.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000NIMINU2PF0QRJ-C321.webp",
+   "obraz": "https://i.iplsc.com/-/000MVUZK3IDCIML5-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Na dobę przed startem tegorocznej edycji reprezentantka Kazachstanu wycofała się z imprezy, co automatycznie zwiększyło szanse Białorusinki na premierowy sukces w rozgrywkach wieńczących sezon w głównym cyklu WTA.",
-      "Za Sabalenką przemawiała także lokalizacja.",
-      "W tym roku turniej WTA Finals zawitał do Indian Wells, gdzie w marcu Aryna sięgała po tytuł rangi \"1000\", pokonując w finale aktualną liderkę rankingu.",
-      "Białorusinka znalazła się w grupie z Mirrą Andriejewą, Eliną Switoliną oraz Karoliną Muchovą.",
-      "To właśnie Czeszka, która niemal do samego końca walczyła z Igą Świątek o ostatnie miejsce premierowe bezpośrednią kwalifikacją do WTA Finals, okazała się pierwszą rywalką tenisistki z Mińska .",
-      "Mecz rozpoczął się od serwisu Sabalenki.",
-      "Na \"dzień dobry\" obie dość pewnie utrzymały swoje podanie.",
-      "Wówczas Muchova prowadziła 30-0 na returnie, ale później cztery punkty z rzędu trafiły na konto Aryny.",
-      "W trakcie kolejnego rozdania przy podaniu Białorusinki znów zobaczyliśmy taki stan, po podwójnym błędzie serwisowym tenisistki z Mińska."
+      "Panowie mają jeszcze przed sobą swoje ATP Finals w Turynie, później zaś Bologna przywita jeszcze ośmiu uczestników finałowego turnieju Pucharu Davisa.",
+      "I na kilka tygodni nastanie tenisowy spokój, przerywany tylko meczami pokazowymi.",
+      "A 1 stycznia w Perth maszyna znów ruszy - rywalizacją w United Cup.",
+      "Niedługo później zaczną się zmagania w Sydney, Brisbane i kilku innych miejscach na świecie.",
+      "Biało-Czerwoni będą bronić tytułu w United Cup - łączonej imprezie ATP oraz WTA.",
+      "W czterech edycjach Polacy odgrywali tam kluczowe role - był finał, później dwa finały, wreszcie i tytuł.",
+      "I zawsze motorem napędowym była Iga Świątek, której teraz zabraknie.",
+      "Ona zacznie sezon w Brisbane, w zmaganiach drużynowych tym razem zagra Maja Chwalińska.",
+      "Termin zgłoszeń do tych zawodów minął w poniedziałek - Polska była pewna startu."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Przed listopadowym zgrupowaniem reprezentacji Polski więcej mówi się o posadzie Jana Urbana niż o nadchodzących meczach biało-czerwonych."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "United Cup – międzynarodowy turniej tenisowy rozgrywany na przełomie roku w dwóch australijskich miastach, w ramach przygotowań do Australian Open. Jest to pierwszy turniej drużynowy dla obu płci, który przyznaje graczom zarówno punkty rankingowe ATP, jak i rankingowe WTA."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: United Cup",
+     "url": "https://pl.wikipedia.org/wiki/United_Cup"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "18",
+    "16",
+    "28",
+    "29",
+    "1000",
+    "30"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "Czy selekcjonera faktycznie powinien drżeć o posadę?",
+     "url": "https://sport.tvp.pl/96412250/jan-urban-ma-drzec-o-posade-selekcjonera-w-reprezentacji-polski-dyskusja-w-studio-tvp-sport"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "United Cup",
+    "opis": "międzynarodowy turniej tenisowy",
+    "tekst": "United Cup – międzynarodowy turniej tenisowy rozgrywany na przełomie roku w dwóch australijskich miastach, w ramach przygotowań do Australian Open. Jest to pierwszy turniej drużynowy dla obu płci, który przyznaje graczom zarówno punkty rankingowe ATP, jak i rankingowe WTA.",
+    "url": "https://pl.wikipedia.org/wiki/United_Cup",
+    "język": "pl"
+   },
+   "tagi": [
+    "United Cup",
+    "Polacy",
+    "Chwalińska",
+    "Polski"
+   ],
+   "emotki": [
+    "🎾"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Zwrot już na ostatniej prostej. Kłopot dla Polski tuż przed losowaniem",
+     "url": "https://sport.interia.pl/tenis/news-zwrot-juz-na-ostatniej-prostej-klopot-dla-polski-tuz-przed-l,nId,23572051"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Jan Urban ma drżeć o posadę selekcjonera w reprezentacji Polski? Dyskusja w studio TVP Sport",
+     "url": "https://sport.tvp.pl/96412250/jan-urban-ma-drzec-o-posade-selekcjonera-w-reprezentacji-polski-dyskusja-w-studio-tvp-sport"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Reprezentacja Polski w trzecim koszyku? Lewy: Czasem ważniejsze jest losowanie",
+     "url": "https://sport.tvp.pl/96402465/reprezentacja-polski-w-trzecim-koszyku-lewy-czasem-wazniejsze-jest-losowanie"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.444,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.35,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.494,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Pierwsza zagadka WTA Finals rozwiązana. Ważny wynik także dla Igi Świątek",
+   "lead": "Wśród ośmiu uczestniczek WTA Finals zabrakło tym razem Igi Świątek - po raz pierwszy, odkąd zawodniczka z Raszyna znalazła się w elicie tego sportu. Miała prawo zostać rezerwową, mogła przylecieć do Kalifornii, ale zrezygnowała z tego przywileju.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-10T21:47:52+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/tenis/wta-finals/news-pierwsza-zagadka-wta-finals-rozwiazana-swiatek-juz-dostala-k,nId,23572069",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NIRY41IJ545CC-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Wybrała wakacje i w końcu dłuższy odpoczynek.",
+      "W tej sytuacji pierwszą rezerwową została Marta Kostiuk.",
+      "I to ona ostafecznie w niedzielę przystąpiła do spotkania z Lindą Noskovą, mistrzynią Wimbledonu.",
+      "Przegrała 2:6, 4:6 - bez większej walki. , otwiera się w nowym oknie A to był ważny wynik także dla...",
+      "Polka, co zostało obwieszczone, zakończyła sezon na dziewiątej pozycji, skoro nie mogła go już w Indian Wells poprawić.",
+      "Tyle że nagle Ukrainka dostała szansę, by wyprzedzić 25-latkę, potrzebowała do tego dwóch zwycięstw w fazie grupowej WTA Finals.",
+      "Już w niedzielę ograniczyła sobie tę możliwość, dziś miała mecz ostatniej szansy.",
+      "Z Pegulą, którą na początku sezonu rozbiła w półfinale Brisbane 6:0, 6:3 , a później w trzeciej rundzie w Madrycie - 6:1, 6:4.",
+      "Pierwsze z tamtych spotkań trwało 55 minut, drugie - 73."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "W czwartej kolejce Ligi Mistrzyń Paris Saint-Germain z Katarzyną Kiedrzynek i Pauliną Dudek w składzie mierzyło się w hicie kolejki z Bayernem Monachium.",
+      "Jako pierwsza na ustach komentatorów znalazła się Kiedrzynek, która w 29. minucie popełniła fatalny błąd, a ten doprowadził do gola dla przyjezdnych.",
+      "W 65. minucie swój moment miała Dudek, która wykorzystała rzut karny."
      ]
     },
     {
@@ -529,22 +734,16 @@
      "url": "https://pl.wikipedia.org/wiki/WTA_Finals"
     }
    ],
-   "dlaczego_to_ważne": "",
+   "dlaczego_to_ważne": "Ukrainka skorzystała na wycofaniu się Jeleny Rybakiny - liderce światowego rankingu na występ nie pozwoliło zdrowie.",
    "liczby": [
-    "12",
-    "1000",
-    "21",
-    "00",
-    "30",
-    "15"
+    "6, 4",
+    "25",
+    "0, 6",
+    "1, 6",
+    "55",
+    "73"
    ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "TVP Sport",
-     "ujęcie": "Aryna Sabalenka rozpoczęła WTA Finals od zwycięstwa.",
-     "url": "https://sport.tvp.pl/96394011/wta-finals-aryna-sabalenka-rozpoczela-rywalizacje-od-zwyciestwa-bialorusinka-wygrala-z-karolina-muchova"
-    }
-   ],
+   "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
     "hasło": "WTA Finals",
@@ -554,10 +753,10 @@
     "język": "pl"
    },
    "tagi": [
-    "Czeszka",
     "Finals",
-    "Karoliny",
-    "Muchova"
+    "Ukrainki",
+    "Kostiuk",
+    "Pegula"
    ],
    "emotki": [
     "🎾"
@@ -565,109 +764,57 @@
    "wszystkie_źródła": [
     {
      "nazwa": "Interia Sport",
-     "tytuł": "Sabalenka miała 5:3 w 2. secie. Muchova odrobiła stratę. Oto triumfatorka",
-     "url": "https://sport.interia.pl/tenis/wta-finals/news-sabalenka-prowadzila-5-3-w-2-secie-muchova-ruszyla-w-pogon-1,nId,23571503"
+     "tytuł": "Pierwsza zagadka WTA Finals rozwiązana. Ważny wynik także dla Igi Świątek",
+     "url": "https://sport.interia.pl/tenis/wta-finals/news-pierwsza-zagadka-wta-finals-rozwiazana-swiatek-juz-dostala-k,nId,23572069"
     },
     {
-     "nazwa": "TVP Sport",
-     "tytuł": "Aryna Sabalenka rozpoczęła WTA Finals od zwycięstwa. Białorusinka wygrała z Karoliną Muchovą",
-     "url": "https://sport.tvp.pl/96394011/wta-finals-aryna-sabalenka-rozpoczela-rywalizacje-od-zwyciestwa-bialorusinka-wygrala-z-karolina-muchova"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 4.97,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.2,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.52,
-     "treściwość": 0.5,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 2
-  },
-  {
-   "dział": {
-    "id": "sport-swiat",
-    "nazwa": "Sport na świecie",
-    "emoji": "🌐",
-    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
-   },
-   "nagłówek": "30 milionów euro za Polaka, są kolejni chętni. Padł sensacyjny kierunek",
-   "lead": "Bartosz Mazurek pierwszy raz światu przedstawił się podczas wyjazdowego meczu Ligi Konferencji Europy z włoską Fiorentiną. W tamtym spotkaniu młody pomocnik Jagielloni popisał się bowiem sensacyjnym hat-trickiem.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-09T20:32:30+00:00",
-   "źródło": {
-    "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/pilka-nozna/reprezentacja-polski/news-30-milionow-euro-za-polaka-sa-kolejni-chetni-padl-sensacyjny,nId,23571497",
-    "domena": "sport.interia.pl"
-   },
-   "obraz": "https://i.iplsc.com/-/000NDX7VAVLCVHQA-C321.webp",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Nie ma wątpliwości, że wówczas jego nazwisko znalazło się w notesach wielu skautów.",
-      "Kluczowa postać w życiu Kiwiora.",
-      "Ogromne poświęcenie, postawił wszystko na jedną kartę , otwiera się w nowym oknie Najskuteczniejsi okazali się Ci znani z wyławiania wielkich talentów pracujący dla RB Salzburg .",
-      "Austriacki klub okazał się najbardziej zdeterminowany i ostatecznie przekonał Mazurka do swojego projektu.",
-      "Pomocnik Jagiellonii zmienił barwy latem tego roku, a \"Byki\" zapłaciły za niego ledwie sześć milionów euro.",
-      "Obecnie nie ma wątpliwości, że to kwota maksymalnie promocyjna.",
-      "Mazurek błyskawicznie wywalczył sobie miejsce w wyjściowym składzie RB Salzburg, stał się jedną z gwiazd zespołu, a co za tym idzie, także austriackiej Bundesligi.",
-      "Nie może więc dziwić, że eksperci domagali się powołania dla 19-latka już na wrześniowe zgrupowanie kadry.",
-      "Wówczas Mazurek trafił jednak do zespołu Jerzego Brzęczka, który walczył o awans na mistrzostwa Europy U-21."
-     ]
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "19",
-    "21",
-    "30 milionów eur",
-    "10 milionów eur"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": null,
-   "tagi": [
-    "Mazurka",
-    "Salzburg",
-    "Crystal Palace",
-    "Jana Urbana"
-   ],
-   "emotki": [
-    "⚽"
-   ],
-   "wszystkie_źródła": [
-    {
      "nazwa": "Interia Sport",
-     "tytuł": "30 milionów euro za Polaka, są kolejni chętni. Padł sensacyjny kierunek",
-     "url": "https://sport.interia.pl/pilka-nozna/reprezentacja-polski/news-30-milionow-euro-za-polaka-sa-kolejni-chetni-padl-sensacyjny,nId,23571497"
+     "tytuł": "Ależ błąd Polki w meczu Ligi Mistrzyń. Katastrofalne zachowanie",
+     "url": "https://sport.interia.pl/pilka-nozna/news-alez-blad-polki-w-meczu-ligi-mistrzyn-katastrofalne-zachowan,nId,23572078"
     },
     {
      "nazwa": "BBC Sport",
-     "tytuł": "Four 'huge mistakes' that show Man Utd's defensive problems",
-     "url": "https://www.bbc.co.uk/sport/football/videos/c64g1n1wezvyo?at_medium=RSS&at_campaign=rss"
+     "tytuł": "Man City thrash Inter to claim first CL win of season",
+     "url": "https://www.bbc.co.uk/sport/football/videos/cwzd6d9zrlz7o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Fujino’s double sparks WCL comeback win for Manchester City against Inter",
+     "url": "https://www.theguardian.com/football/2026/nov/10/inter-manchester-city-womens-champions-league-match-report"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Inter 1-4 Manchester City: Women’s Champions League – as it happened",
+     "url": "https://www.theguardian.com/football/live/2026/nov/10/inter-v-manchester-city-womens-champions-league-live"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Manchester City’s Kerstin Casparij: ‘I love football – but it takes over your life’",
+     "url": "https://www.theguardian.com/football/2026/nov/10/manchester-citys-kerstin-casparij-i-love-football-but-it-takes-over-your-life"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Bunny Shaw shines again for five-star Manchester City – Women’s Football Weekly",
+     "url": "https://www.theguardian.com/football/audio/2026/nov/10/bunny-shaw-shines-again-for-five-star-manchester-city-womens-football-weekly"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Rui Pinto’s lawyers in talks with UK authorities over deal for Manchester City whistleblower",
+     "url": "https://www.theguardian.com/football/2026/nov/10/rui-pinto-lawyers-talks-uk-authorities-cooperation-deal-whistleblower"
     }
    ],
-   "liczba_źródeł": 2,
+   "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.502,
+    "wynik": 9.147,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.45,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 2.433,
      "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.494,
-     "treściwość": 0.458,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.514,
+     "treściwość": 0.5,
      "język_działu": 0.5
     }
    },
@@ -680,79 +827,94 @@
     "emoji": "🌐",
     "opis": "wielkie ligi, turnieje i rekordy poza Polską"
    },
-   "nagłówek": "Brady kończy współpracę z Birmingham City",
-   "lead": "Legenda NFL Tom Brady po trzech latach kończy współpracę z czołową drużyną mistrzostw Birmingham City.",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-09T22:18:17+00:00",
+   "nagłówek": "Media: Formuła 1 zdecydowała ws. końcówki sezonu. Tor został poinformowany",
+   "lead": "22 listopada Grand Prix Las Vegas, 29 listopada GP Kataru i 6 grudnia GP Abu Dhabi - tak wygląda finał sezonu Formuły 1. W kalendarzu nie dojdzie do zmian, o których spekulowano w kontekście działań wojennych na Bliskim Wschodzie.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-10T22:59:17+00:00",
    "źródło": {
-    "nazwa": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmd6d63vegd4o?at_medium=RSS&at_campaign=rss",
-    "domena": "bbc.co.uk"
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/f1/news-media-formula-1-zdecydowala-ws-koncowki-sezonu-tor-zostal-po,nId,23572086",
+    "domena": "sport.interia.pl"
    },
-   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9e9a/live/f4e649d0-dc85-11f1-851a-19e868620cad.jpg",
+   "obraz": "https://i.iplsc.com/-/000NIS2INKVR8VOR-C321.webp",
    "sekcje": [
     {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
      "treść": [
-      "Klub nie podał powodu odejścia Brady 'ego. Tom Brady zakończył swoje trzyletnie zaangażowanie jako inwestor mniejszościowy w Birmingham City - powiedział w poniedziałek angielski klub drugiego poziomu, dziękując siedmiokrotnemu mistrzowi Super ​Bowl za jego wsparcie. „Klub Piłkarski Birmingham City wyraża swoją szczerą wdzięczność Tomowi Brady' emu za jego zaangażowanie i niezachwiane poparcie dla klubu w ciągu ostatnich trzech lat” - stwierdziła strona mistrzowska w oświadczeniu. „To było naprawdę Niesamowite, że ktoś z doświadczeniem i pasją Toma jest związany z klubem, a klub z niecierpliwością oczekuje dalszego budowania na tym fundamencie od poligonu po społeczność Birmingham.- Klub nie podał powodu odejścia Brady 'ego i nie określił, co stanie się z jego stawką.",
-      "Były rozgrywający NFL dołączył do grupy kapitałowej Birmingham w sierpniu 2023 roku poprzez partnerstwo z Knighthead Capital Management, stając się inwestorem mniejszościowym i przewodniczącym nowej rady doradczej.",
-      "Brady, 49 lat, ma również mniejszościowe udziały w NFL Las Vegas Raiders ​i WNBA Las Vegas Aces.",
-      "Jego odejście ​następuje, gdy Birmingham cieszy się ​silną kampanią mistrzowską, siedząc na szczycie tabeli pod względem różnicy goli z 29 punktami po 15 meczach."
+      "Włoski tor Imola - który wypadł z terminarza po sezonie 2025 - przygotowywał się wstępnie do ugoszczenia ostatniego wyścigu.",
+      "Jedno Grand Prix w Emilii-Romanii miało zastąpić dwa ostatnie z wymienionych.",
+      "Imola została we wtorek poinformowana przez F1, że może zakończyć szykowanie się do ewentualnego przyjęcia najszybszych kierowców świata.",
+      "Zdążyła już postawić trybuny i przygotować obiekty niezbędne do zakwaterowania zespołów, widzów i innych osób.",
+      "O tyle dobrze, że otrzymała zapewnienie zwrotu poniesionych kosztów.",
+      "Co istotne, jeśli na Bliskim Wschodzie pojawi się wzmożony alert bezpieczeństwa, zwłaszcza w dniach poprzedzających GP Kataru, Formuła 1 może być zmuszona do odwołania dwóch ostatnich wyścigów w kalendarzu na rok 2026. - Jeśli sytuacja pogorszy się w nadchodzących tygodniach, nie zawahamy się zrobić tego, co słuszne, a bezpieczeństwo wszystkich będzie zawsze priorytetem.",
+      "Decyzja o przeprowadzeniu wyścigów w Katarze i Abu Zabi została podjęta, ponieważ sytuacja w obu krajach nie rozwijała się negatywnie w ostatnich miesiącach.",
+      "Zalecenia ich rządów zezwalają na podróże, ubezpieczenia są ważne, wydarzenia się odbywają, a działalność gospodarcza wróciła do normy.",
+      "Wszystkie zespoły opowiadają się za zakończeniem sezonu zgodnie z planem - powiedział rzecznik F1."
      ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Wojna na Bliskim Wschodzie – międzynarodowy konflikt zbrojny, który rozpoczął się 28 lutego 2026 roku od zbombardowania Iranu w ramach izraelskiej operacji „Ryczący Lew” i amerykańskiej „Epicka Furia”, na co Iran odpowiedział atakami odwetowymi na kraje regionu w ramach operacji „Dotrzymana Obietnica 4”. Konflikt rozszerzył się o działania zbrojne Izraela w Libanie, który w ramach walk z wspierającymi Iran podległymi mu bojówkami dokonał inwazji lądowej na ten kraj. Do ataków na Iran bądź jego sojuszników przyłączyły się potajemnie również ostrzeliwane przez niego Arabia Saudyjska, Zjednoczone Emiraty Arabskie i Kuwejt. Działania zbrojne doprowadziły do zablokowania przez Iran kluczowej dla światowej gospodarki cieśniny Ormuz, co spowodowało światowy kryzys paliwowy."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Wojna na Bliskim Wschodzie (2026)",
+     "url": "https://pl.wikipedia.org/wiki/Wojna_na_Bliskim_Wschodzie_(2026)"
     }
    ],
-   "dlaczego_to_ważne": "",
+   "dlaczego_to_ważne": "To jednak nie dojdzie do skutku.",
    "liczby": [
-    "49",
+    "22",
     "29",
-    "15"
+    "20"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Wojna na Bliskim Wschodzie (2026)",
+    "opis": "atak Izraela i Stanów Zjednoczonych na Iran w 2026 roku",
+    "tekst": "Wojna na Bliskim Wschodzie – międzynarodowy konflikt zbrojny, który rozpoczął się 28 lutego 2026 roku od zbombardowania Iranu w ramach izraelskiej operacji „Ryczący Lew” i amerykańskiej „Epicka Furia”, na co Iran odpowiedział atakami odwetowymi na kraje regionu w ramach operacji „Dotrzymana Obietnica 4”. Konflikt rozszerzył się o działania zbrojne Izraela w Libanie, który w ramach walk z wspierającymi Iran podległymi mu bojówkami dokonał inwazji lądowej na ten kraj. Do ataków na Iran bądź jego sojuszników przyłączyły się potajemnie również ostrzeliwane przez niego Arabia Saudyjska, Zjednoczone Emiraty Arabskie i Kuwejt. Działania zbrojne doprowadziły do zablokowania przez Iran kluczowej dla światowej gospodarki cieśniny Ormuz, co spowodowało światowy kryzys paliwowy.",
+    "url": "https://pl.wikipedia.org/wiki/Wojna_na_Bliskim_Wschodzie_(2026)",
+    "język": "pl"
+   },
    "tagi": [
-    "Birmingham City",
-    "Championship",
-    "Tom Brady"
+    "Bliskim Wschodzie",
+    "Grand Prix Las Vegas",
+    "Arabii Saudyjskiej",
+    "Emilii-Romanii"
    ],
-   "emotki": [],
+   "emotki": [
+    "🏎️",
+    "🌳"
+   ],
    "wszystkie_źródła": [
     {
-     "nazwa": "BBC Sport",
-     "tytuł": "Brady ends association with Birmingham City",
-     "url": "https://www.bbc.co.uk/sport/football/articles/cmd6d63vegd4o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC Sport",
-     "tytuł": "London City thump Birmingham to close gap on second",
-     "url": "https://www.bbc.co.uk/sport/football/videos/c62kel300wwxo?at_medium=RSS&at_campaign=rss"
+     "nazwa": "Interia Sport",
+     "tytuł": "Media: Formuła 1 zdecydowała ws. końcówki sezonu. Tor został poinformowany",
+     "url": "https://sport.interia.pl/f1/news-media-formula-1-zdecydowala-ws-koncowki-sezonu-tor-zostal-po,nId,23572086"
     },
     {
      "nazwa": "The Guardian Sport",
-     "tytuł": "Tom Brady ends tenure as investor in Birmingham City after three years",
-     "url": "https://www.theguardian.com/football/2026/nov/09/tom-brady-birmingham-city-investor-sale-exit"
+     "tytuł": "F1 presses ahead with plan to hold season finale in Middle East despite safety concerns",
+     "url": "https://www.theguardian.com/sport/2026/nov/10/f1-season-finale-middle-east-conflict-formula-one-abu-dhabi-imola-qatar"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.936,
+    "wynik": 5.925,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.675,
-     "eksponowanie": 0.63,
+     "ranga_źródła": 1.35,
+     "eksponowanie": 0.45,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.531,
+     "świeżość": 0.525,
      "treściwość": 0.5,
-     "język_działu": 0.0
+     "język_działu": 0.5
     }
-   },
-   "oryginalny_nagłówek": "Brady ends association with Birmingham City",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
    },
    "miejsce": 2
   },
@@ -835,26 +997,31 @@
     },
     {
      "nazwa": "Phys.org Technology",
-     "tytuł": "Anthropic launches powerful new models ahead of Wall Street debut",
-     "url": "https://techxplore.com/news/2026-11-anthropic-powerful-wall-street-debut.html"
+     "tytuł": "Five things to know about Anthropic",
+     "url": "https://techxplore.com/news/2026-11-anthropic.html"
     },
     {
      "nazwa": "TechCrunch",
-     "tytuł": "Anthropic releases new Mythos and Fable models amid RSI concerns",
-     "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/"
+     "tytuł": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+     "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/"
+    },
+    {
+     "nazwa": "TechCrunch",
+     "tytuł": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+     "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
     }
    ],
    "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 7.876,
+    "wynik": 8.107,
     "składowe": {
      "potwierdzenia": 3.8,
-     "ranga_źródła": 1.385,
-     "eksponowanie": 0.45,
+     "ranga_źródła": 1.535,
+     "eksponowanie": 0.63,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.597,
+     "świeżość": 0.498,
      "treściwość": 0.444,
      "język_działu": 0.5
     }
@@ -868,72 +1035,194 @@
     "emoji": "🧪",
     "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
    },
-   "nagłówek": "Nowa aplikacja Biedronki. Zakupy zrobisz w telefonie",
-   "lead": "Nowa aplikacja Biedronki. Zakupy zrobisz w telefonie",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-09T12:38:00+00:00",
+   "nagłówek": "Codzienny briefing: Gdzie wolność akademicka maleje — a gdzie rośnie",
+   "lead": "Witajcie, czytelnicy Nature! Czy chcielibyście codziennie otrzymywać tę odprawę za darmo w swojej skrzynce odbiorczej? Inżynier Matthew Montgomery był jednym z czteroosobowej załogi, która spędziła ponad rok w 158-metrowym siedlisku wydrukowanym w 3D do symulowanej misji na czerwonej planecie.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-10T00:00:00+00:00",
    "źródło": {
-    "nazwa": "Spider's Web",
-    "url": "https://spidersweb.pl/2026/11/nowa-aplikacja-biedronki-zakupy-zrobisz-w-telefonie.html",
-    "domena": "spidersweb.pl"
+    "nazwa": "Nature",
+    "url": "https://www.nature.com/articles/d41586-026-03664-1",
+    "domena": "nature.com"
    },
-   "obraz": "https://cdn-sw.spidersweb.pl/2026/11/biek-biedronka-nowa-aplikacja.webp",
+   "obraz": "https://media.nature.com/lw1200/magazine-assets/d41586-026-03664-1/d41586-026-03664-1_53962178.png",
    "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Konsultant ds. projektowania sprzętu (i współwłaściciel firmy produkującej filmy) zajął się ogrodem hydroponicznym i uczestniczył w symulowanym „Marswalks” w kombinezonie ochronnym.",
+      "Oprócz realistycznego 13-22-minutowego opóźnienia w połączeniu z kontrolą misji, załoga doświadczyła całkowitej przerwy w komunikacji przez dwa tygodnie.",
+      "Nowe narzędzie sztucznej inteligencji może zidentyfikować pojedynczego ptaka po jego pieśni i może być używane do śledzenia jego ruchów w czasie.",
+      "System zapewnia mniej inwazyjny sposób monitorowania ptaków niż stosowanie fizycznych znaczników.",
+      "Badacze przetestowali model na nagraniach samców pieca ( Seiurus aurocapilla) — gatunku, który śpiewa indywidualnie unikalne piosenki — z ponad 100 miejsc i odkryli, że może dopasowywać piosenki do konkretnych ptaków z dokładnością do 96%. „To prawie święty Graal” - mówi biolog Scott Sillett.",
+      "Naukowcy twierdzą, że ochrona kluczowych podziemnych sieci grzybów w Mongolii może pomóc w zachowaniu bioróżnorodności, zwiększeniu odporności na zmiany klimatu i ożywieniu kultowych muraw w całym kraju.",
+      "We wrześniu biolog ewolucyjny Toby Kiers i jej zespół ogłosili, że odkryli ponad 500 rodzajów grzybów w sieciach w całej Mongolii, z których 90% to nowości w nauce.",
+      "Mykolog Burenjargal Otgonsuren ma nadzieję, że wykorzystanie tych sieci może pomóc w odbudowie obszarów zdegradowanych w Mongolii — i zachowaniu 3000-letniego stylu życia praktykowanego przez 230 000 wędrownych rodzin pasterzy Mongolii.",
+      "Według sieci Scholars at Risk (SAR), organizacji zajmującej się prawami człowieka z siedzibą na Uniwersytecie Nowojorskim, wolność akademicka pogarsza się na całym świecie."
+     ]
+    },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Teraz umożliwi swoim klientom zamawianie produktów bezpośrednio w autorskiej aplikacji mobilnej : „Biek – Biedronka Express”, która dziś pojawiła się w App Store na smartfonach z iOS i niedługo powinna pojawić się w Google Play na urządzeniach z Androidem.",
-      "Taki model sprzedaży przez internet obchodził niedawno piąte urodziny, a jego rozwój opiera się między innymi na specjalnych punktach kompletowania zamówień."
+      "Nature, Opublikowano online: 10 listopada 2026 r.; doi: 10.1038/d41586-026-03625-8 Od lat naukowcy badają osoby z genetycznymi predyspozycjami do choroby Alzheimera i innych demencji.",
+      "Nature, Opublikowano w Internecie: 11 listopada 2026 r.; doi: 10.1038/d41586-026-03621-y Biotechnologia rolnicza znalazła się kiedyś w opozycji do nauk o środowisku.",
+      "Nature, Opublikowano online: 10 listopada 2026 r.; doi: 10.1038/d41586-026-03635-6 Infuzja gotówki, przeznaczona na badania immunologiczne, jest największą w historii na naukę zatwierdzoną w głosowaniu publicznym w USA — ale spotkała się z krytyką.",
+      "Nature, Opublikowano online: 10 listopada 2026 r.; doi: 10.1038/d41586-026-03278-7 Bardzo dobrze zachowany starożytny gad morski i poemat łaciński, który opisuje zjawisko optyczne, w tym tygodniu wybór z archiwum Nature.",
+      "Nature, Opublikowano online: 10 listopada 2026 r.; doi: 10.1038/d41586-026-03629-4 Aby utrzymać dostawy kluczowych metali, decydenci powinni wspierać infrastrukturę potrzebną do wdrażania biotechnologii górniczych na dużą skalę.",
+      "Nature, Opublikowano online: 10 listopada 2026 r.; doi: 10.1038/d41586-026-03017-y Inicjatywy wspierane przez rząd na całym świecie mają na celu zmianę doktoratu, w celu dostarczenia nowych talentów do sektora prywatnego.",
+      "Nature, Opublikowano online: 11 listopada 2026 r.; doi: 10.1038/d41586-026-03448-7 Analiza, kto jest bardziej skłonny do uzyskania autorstwa niż uznania, podkreśla wpływ płci i statusu badacza."
      ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Mongolia to kraj bez dostępu do morza w Azji Wschodniej. Graniczy z Rosją na północy i Chinami na południu i zajmuje obszar 1 564 116 kilometrów kwadratowych, co czyni go 18. największym krajem na świecie i drugim co do wielkości krajem bez dostępu do morza po Kazachstanie, a także największym krajem bez dostępu do morza, który nie graniczy z morzem śródlądowym. Mongolia, licząca 3,5 miliona mieszkańców, jest najsłabiej zaludnionym suwerennym państwem na świecie. Kraj stanowi znaczną część Wyżyny Mongolskiej, a jego środowisko naturalne charakteryzuje się trawiastym stepem, górami na północy i zachodzie oraz pustynią Gobi na południu. Ułan Bator, stolica i największe miasto, zamieszkuje około połowa populacji kraju."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Mongolia",
+     "url": "https://en.wikipedia.org/wiki/Mongolia"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "30"
+    "158",
+    "13",
+    "22",
+    "100",
+    "96%",
+    "500"
    ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "Antyweb",
-     "ujęcie": "Biedronka udostępniła właśnie własną aplikację do ekspresowych zakupów spożywczych.",
-     "url": "https://antyweb.pl/biedronka-odpala-petarde-zakupy-bez-wychodzenia-z-domu-nawet-w-niedziele"
-    }
-   ],
+   "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Mongolia",
+    "opis": "Country in East Asia",
+    "tekst": "Mongolia is a landlocked country in East Asia. It is bordered by Russia to the north and China to the south and covers an area of 1,564,116 square kilometers, making it the 18th-largest country in the world and the second largest landlocked nation after Kazakhstan, as well as the largest landlocked country that does not border an inland sea. With a population of 3.5 million, Mongolia is the world's most sparsely populated sovereign state. The country constitutes a significant portion of the Mongolian Plateau, and its natural environment is characterized by grassy steppe, mountains to the north and west, and the Gobi Desert to the south. Ulaanbaatar, the capital and largest city, is home to roughly half of the country's population.",
+    "url": "https://en.wikipedia.org/wiki/Mongolia",
+    "język": "en"
+   },
    "tagi": [
-    "Biedronki",
-    "Nowa"
+    "Mongolia",
+    "Artificial Intelligence",
+    "Alzheimer’s",
+    "Voyager"
    ],
    "emotki": [
-    "💻"
+    "🪐"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Spider's Web",
-     "tytuł": "Nowa aplikacja Biedronki. Zakupy zrobisz w telefonie",
-     "url": "https://spidersweb.pl/2026/11/nowa-aplikacja-biedronki-zakupy-zrobisz-w-telefonie.html"
+     "nazwa": "Nature",
+     "tytuł": "Daily briefing: Where academic freedom is declining — and where it’s on the rise",
+     "url": "https://www.nature.com/articles/d41586-026-03664-1"
     },
     {
-     "nazwa": "Antyweb",
-     "tytuł": "Biedronka odpala petardę. Zakupy bez wychodzenia z domu nawet w niedzielę",
-     "url": "https://antyweb.pl/biedronka-odpala-petarde-zakupy-bez-wychodzenia-z-domu-nawet-w-niedziele"
+     "nazwa": "Nature",
+     "tytuł": "Some people are resistant to dementia — here’s what their genes can teach us",
+     "url": "https://www.nature.com/articles/d41586-026-03625-8"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Biotech innovations are an opportunity to limit climate change",
+     "url": "https://www.nature.com/articles/d41586-026-03621-y"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "California votes to give record $8.4 billion to medical research",
+     "url": "https://www.nature.com/articles/d41586-026-03635-6"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "A practically perfect plesiosaur",
+     "url": "https://www.nature.com/articles/d41586-026-03278-7"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "How microbes can secure the critical minerals the world needs",
+     "url": "https://www.nature.com/articles/d41586-026-03629-4"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "PhDs worldwide are having a shake up — why now?",
+     "url": "https://www.nature.com/articles/d41586-026-03017-y"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Author or just ‘acknowledged’? How women are not gaining full credit for research",
+     "url": "https://www.nature.com/articles/d41586-026-03448-7"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Why your physics project needs an anthropologist",
+     "url": "https://www.nature.com/articles/d41586-026-03623-w"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "The public trusts scientists with AI — more than it does anyone else",
+     "url": "https://www.nature.com/articles/d41586-026-03578-y"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Mongolia’s iconic grasslands are in crisis — invisible fungi could help save them",
+     "url": "https://www.nature.com/articles/d41586-026-03589-9"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Metascience should be a source of evidence, not a means of control",
+     "url": "https://www.nature.com/articles/d41586-026-03620-z"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Hideki Shirakawa obituary: chemist who showed that plastics can conduct electricity",
+     "url": "https://www.nature.com/articles/d41586-026-03633-8"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Retractions of old papers are on the rise: when should bad science be culled?",
+     "url": "https://www.nature.com/articles/d41586-026-03624-9"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "PhD funding mechanisms should protect the right to disagree with supervisors",
+     "url": "https://www.nature.com/articles/d41586-026-03645-4"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Students need AI-free spaces to learn core skills",
+     "url": "https://www.nature.com/articles/d41586-026-03644-5"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Chile’s postdoc rules risk driving talent away",
+     "url": "https://www.nature.com/articles/d41586-026-03643-6"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "How to avoid aliens and live",
+     "url": "https://www.nature.com/articles/d41586-026-03515-z"
     }
    ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 3,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 4.151,
+    "wynik": 9.486,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.135,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.395,
-     "treściwość": 0.221,
-     "język_działu": 0.5
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 4.615,
+     "eksponowanie": 3.6,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.538,
+     "treściwość": 0.383,
+     "język_działu": 0.0
     }
+   },
+   "oryginalny_nagłówek": "Daily briefing: Where academic freedom is declining — and where it’s on the rise",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
    },
    "miejsce": 2
   },
@@ -944,65 +1233,71 @@
     "emoji": "⚛️",
     "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
    },
-   "nagłówek": "Ulepszony mikroskop może teraz obserwować ruch poszczególnych cząstek kwantowych",
-   "lead": "ellen Neff, Columbia University Quantum Initiative Energy można przenosić na wiele sposobów: przez elektrony, cząstki, które leżą u podstaw współczesnej elektroniki, a także przez kwazicząstki, wyniki interakcji różnych cząstek ze sobą na poziomie kwantowym. Chemik z Kolumbii Milan Delor był…",
+   "nagłówek": "Wykorzystanie uciążliwości lasera osiąga rekordową rozdzielczość dla pomiarów atomowych",
+   "lead": "Według nowych badań prowadzonych przez Uniwersytet w Adelaide, urządzenie do wykrywania kolorów w rozmiarze pudełka na buty może umożliwić precyzyjne pomiary w rekordowej rozdzielczości. Międzynarodowy zespół wykorzystał sferę integrującą - wysoce odblaskową pustą przestrzeń, która powoduje, że światło odbija się wielokrotnie w środku przed wyjściem - aby zademonstrować…",
    "język_źródła": "en",
-   "opublikowano": "2026-11-09T22:30:05+00:00",
+   "opublikowano": "2026-11-10T23:00:07+00:00",
    "źródło": {
     "nazwa": "Phys.org",
-    "url": "https://phys.org/news/2026-11-microscope-individual-quantum-particles-motion.html",
+    "url": "https://phys.org/news/2026-11-harnessing-laser-nuisance-resolution-atomic.html",
     "domena": "phys.org"
    },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/columbia-researchers-c.jpg",
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/measuring-laser-nuisan-1.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Może również obserwować ich interakcje z większą precyzją niż istniejące techniki obrazowania.",
-      "Elektrony można łatwo śledzić za pomocą pomiarów transportowych, które rejestrują rezystancję elektryczną.",
-      "Ale takie techniki nie mogą bezpośrednio wychwytywać kwazicząstek, takich jak wzbudzenia neutralne pod względem ładunku lub wzbudzenia spinowe.",
-      "Delor po raz pierwszy opracował StroboSCAT jako postdoc współpracujący z Naomi Ginsberg na Uniwersytecie Kalifornijskim w Berkeley w 2019 roku.",
-      "Sposób dyfuzji kropli może ujawnić ważne szczegóły dotyczące ośrodka, ale tylko do pewnego momentu.",
-      "W końcu poszczególne cząstki atramentu stają się zbyt rozproszone, aby zobaczyć coś znaczącego.",
-      "„Aby wykonać pomiary pojedynczych cząstek, trzeba zacząć od niskiej gęstości nośników, ale gdy się poruszają, gubią się w szumie pomiarów.„ Kilka lat temu zespół badaczy z Uniwersytetu w Würzburgu i Uniwersytetu w Ottawie opublikował technikę rozróżniania pojedynczych cząstek kwantowych poprzez wykonywanie pomiarów spektroskopowych przy różnych natężeniach lasera.",
-      "„To piękny papier, zaimplementowany w spektroskopii, ale nie przechwytuje informacji przestrzennych.",
-      "Zdaliśmy sobie sprawę, że nasza technika jest niezwykle dobrze dopasowana do podobnej prostej poprawki: przełączania różnych intensywności światła w celu wytworzenia ekscytacji ”- powiedział Delor."
+      "„Z perspektywy czasu jest to jak pomiar dokładnej wysokości Mount Everestu i wiedza, czy ktoś położył pojedynczy kosmyk ludzkich włosów na samym szczycie szczytu” - powiedział Gabriel Britto Monteiro, doktorant i główny autor artykułu opublikowanego w Nature Communications .",
+      "„Spektrometry optyczne mają znaczenie, ponieważ pozwalają nam mierzyć skład barwny (długość fali) światła z niezwykłą precyzją, a światło niesie informacje o świecie fizycznym.",
+      "„Spektrometr pokazuje nam składniki, które składają się na światło i ilość każdego z nich.",
+      "Znajdują szerokie zastosowanie w środowiskowym wykrywaniu zanieczyszczeń, diagnostyce nowotworów i technologiach kwantowych.„Plamka laserowa, ziarnisty wzór wytwarzany, gdy koherentne światło rozprasza się z szorstkiej lub złożonej powierzchni, jest znanym zjawiskiem w optyce.",
+      "Wygląda jak brokat wygenerowany światłem.",
+      "Stwierdziliśmy, że powstały wzór plamki stał się niezwykle wrażliwy na drobne zmiany długości fali (koloru), umożliwiając urządzeniu działanie jako spektrometr o ultrawysokiej rozdzielczości.",
+      "„Podczas gdy plamka była często uważana za uciążliwość, badacze coraz częściej uznawali, że wzory te są bogate w informacje na temat światła, które je generowało.",
+      "Wykorzystując te bogate informacje, zademonstrowaliśmy zupełnie nowy poziom rozdzielczości.„ Zespół wykorzystał spektrometr do pomiaru nadsubtelnej struktury rubidu, pierwiastka, który jest kluczowy w fizyce atomowej i stanowi podstawę zegarów atomowych nowej generacji oraz wielu technologii kwantowych.",
+      "Stanowi to pierwszy bezpośredni pomiar nadsubtelnej struktury atomowej przy użyciu spektrometru opartego na kropkach."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Możliwość sterowania „zakazanymi” wzbudzeniami drgań w cząsteczkach mogłaby stanowić podstawę niezwykle dokładnych zegarów, bitów kwantowych i precyzyjnych testów podstawowych praw fizyki.",
+      "Naukowcy z Uniwersytetu w Bazylei zidentyfikowali i kontrolowali takie „zabronione” przejścia w pojedynczych wyizolowanych cząsteczkach azotu bez ich niszczenia."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Nature Materials to comiesięczne recenzowane czasopismo naukowe wydawane przez Nature Portfolio. Został uruchomiony we wrześniu 2002 roku. Vincent Dusastre jest startującym i obecnym redaktorem naczelnym."
+      "Nature Communications to recenzowane, ogólnodostępne czasopismo naukowe wydawane przez Nature Portfolio od 2010 roku. Jest to interdyscyplinarne czasopismo, które obejmuje nauki przyrodnicze, w tym fizykę, chemię, nauki o Ziemi, medycynę i biologię. Czasopismo posiada redakcje w Londynie, Berlinie, Nowym Jorku i Szanghaju."
      ],
      "język": "en",
-     "przypis": "Wikipedia: Nature Materials",
-     "url": "https://en.wikipedia.org/wiki/Nature_Materials"
+     "przypis": "Wikipedia: Nature Communications",
+     "url": "https://en.wikipedia.org/wiki/Nature_Communications"
     }
    ],
-   "dlaczego_to_ważne": "Najnowsza iteracja stroboSCAT, opisana w Nature Materials , może teraz rozwiązywać poszczególne kwantowe nośniki energii, gdy poruszają się po materiałach po raz pierwszy.",
+   "dlaczego_to_ważne": "",
    "liczby": [
-    "26",
     "10.1038",
     "026",
-    "02800",
-    "02785"
+    "78325"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Nature Materials",
-    "opis": "Academic journal",
-    "tekst": "Nature Materials is a monthly peer-reviewed scientific journal published by Nature Portfolio. It was launched in September 2002. Vincent Dusastre is the launching and current chief editor.",
-    "url": "https://en.wikipedia.org/wiki/Nature_Materials",
+    "hasło": "Nature Communications",
+    "opis": "Scientific journal",
+    "tekst": "Nature Communications is a peer-reviewed, open access, scientific journal published by Nature Portfolio since 2010. It is a multidisciplinary journal that covers the natural sciences, including physics, chemistry, earth sciences, medicine, and biology. The journal has editorial offices in London, Berlin, New York City, and Shanghai.",
+    "url": "https://en.wikipedia.org/wiki/Nature_Communications",
     "język": "en"
    },
    "tagi": [
-    "Nature Materials",
-    "Delor",
-    "University",
-    "Columbia"
+    "Nature Communications",
+    "Britto Monteiro",
+    "Gabriel Britto Monteiro PhD",
+    "Adelaide University"
    ],
    "emotki": [
     "⚛️"
@@ -1010,26 +1305,31 @@
    "wszystkie_źródła": [
     {
      "nazwa": "Phys.org",
-     "tytuł": "Upgraded microscope can now watch individual quantum particles in motion",
-     "url": "https://phys.org/news/2026-11-microscope-individual-quantum-particles-motion.html"
+     "tytuł": "Harnessing laser nuisance achieves record resolution for atomic measurements",
+     "url": "https://phys.org/news/2026-11-harnessing-laser-nuisance-resolution-atomic.html"
+    },
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Repeatable laser measurements reveal 'forbidden' vibrations in single molecules without destroying them",
+     "url": "https://phys.org/news/2026-11-laser-reveal-forbidden-vibrations-molecules.html"
     }
    ],
    "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.459,
+    "wynik": 4.455,
     "składowe": {
      "potwierdzenia": 0.0,
-     "ranga_źródła": 1.2,
-     "eksponowanie": 0.54,
+     "ranga_źródła": 1.38,
+     "eksponowanie": 1.35,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.519,
+     "świeżość": 0.525,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Upgraded microscope can now watch individual quantum particles in motion",
+   "oryginalny_nagłówek": "Harnessing laser nuisance achieves record resolution for atomic measurements",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -1043,66 +1343,74 @@
     "emoji": "⚛️",
     "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
    },
-   "nagłówek": "Nowy system perowskitowy rozszerza polaryzację spinu w temperaturze pokojowej poprzez kolejne studnie kwantowe",
-   "lead": "przez Uniwersytet Nauki i Technologii w Hongkongu Zespół badawczy kierowany przez Lu Haipenga, profesora na Wydziale Chemii Uniwersytetu Nauki i Technologii w Hongkongu (HKUST), osiągnął przełom w zachowaniu informacji o spinie dla technologii optoelektronicznych. Zespół opracował perowskit…",
+   "nagłówek": "Najbardziej czułe na świecie laboratoryjne wyszukiwanie Axion prezentuje swoje pierwsze wyniki",
+   "lead": "Fizycy przy współpracy ALPS II podali pierwsze wyniki z eksperymentu Any-Light-Particle-Search (ALPS) II: najbardziej czułego instrumentu tego typu w poszukiwaniu hipotetycznych „aksji”. „Na czele z Axelem Lindnerem w Centrum Badawczym DESY w Niemczech, współpraca nie znalazła dowodów na…",
    "język_źródła": "en",
-   "opublikowano": "2026-11-09T22:20:10+00:00",
+   "opublikowano": "2026-11-10T13:40:01+00:00",
    "źródło": {
     "nazwa": "Phys.org",
-    "url": "https://phys.org/news/2026-11-perovskite-room-temperature-polarization-successive.html",
+    "url": "https://phys.org/news/2026-11-world-sensitive-lab-based-axion.html",
     "domena": "phys.org"
    },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-develop-no-2.jpg",
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/worlds-most-sensitive.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Badanie otwiera nowe możliwości dla przyszłych technologii kwantowych i aplikacji opartych na spinach nowej generacji.",
-      "Badanie zostało opublikowane w czasopiśmie Nature Photonics .",
-      "Półprzewodniki stanowią podstawę nowoczesnych urządzeń optoelektronicznych, jednak branża nadal stoi przed wyzwaniami związanymi z poprawą szybkości przetwarzania przy jednoczesnym zmniejszeniu zużycia energii.",
-      "Aby przezwyciężyć te ograniczenia, naukowcy badają nowe podejścia, zwłaszcza technologie oparte na spinie.",
-      "Jednak manipulowanie stanami wirowania w temperaturze pokojowej pozostaje niezwykle trudne ze względu na szybki proces dekoherencji wirowania.",
-      "Aby sprostać tym wyzwaniom, zespół badawczy HKUST opracował nowy chiralny system wielu studzienek kwantowych perowskitu, który umożliwia wydajny proces „kaskady spinu”.",
-      "Stosując dwuetapowe podejście do krystalizacji wspomaganej nasionami, zespół skonstruował dobrze zorientowane studnie kwantowe o różnych szerokościach i ciągłej wewnętrznej chiralności w dwuwymiarowych (n = 1), quasi-dwuwymiarowych (n = 2, 3, 4, …) i trójwymiarowych (n = ∞) fazach perowskitu.",
-      "Strukturalnie sprzężone studnie kwantowe tworzą środowisko o gradiencie energetycznym i w pełni chiralne, generując szereg pośrednich stanów spolaryzowanych spinowo.",
-      "Ta unikalna architektura sprzyja wydajnemu transferowi spinu przez kolejne chiralne studzienki kwantowe, jednocześnie zmniejszając straty spinu międzyfazowego i hamując relaksację spinu w fazach objętościowych."
+      "Gdyby cząstka została jednocześnie zamieniona z odpowiadającą jej antycząstką i odwrócona przestrzennie do swojego lustrzanego odbicia, intuicyjnie można by przewidzieć, że prawa fizyki rządzące jej zachowaniem pozostaną dokładnie takie same.",
+      "Ale w słabej sile jądrowej, która napędza niektóre rodzaje rozpadu radioaktywnego, ta zasada „parzystości ładunkowej (CP)-symetrii” może zostać naruszona.",
+      "Naruszenie CP jest teraz wbudowane w Model Standardowy, który przedstawia nasze najbardziej aktualne zrozumienie najbardziej podstawowych sił i cząstek wszechświata.",
+      "Co dziwne, symetria CP wydaje się jednak doskonale utrzymywać w silnej sile jądrowej, która wiąże kwarki, tworząc protony, neutrony i inne, bardziej krótkotrwałe hadrony.",
+      "W 1977 roku Roberto Peccei i Helen Quinn przedstawili nową teorię, która miała na celu wyjaśnienie, dlaczego silna siła nie narusza symetrii CP.",
+      "Steven Weinberg i Frank Wilczek pokazali następnie, że ich pomysł wymaga zupełnie nowej cząstki, która nie pojawia się w Modelu Standardowym.",
+      "Powiązana z symetrią łamiącą się przy ekstremalnie wysokich energiach, cząstka ta naturalnie wyeliminowałaby wszelkie naruszenia CP przy silnej sile.",
+      "Ta hipotetyczna cząstka, nazwana „aksjonem”, byłaby niezwykle lekka i oddziaływałaby tylko bardzo słabo ze zwykłą materią i światłem, co czyni ją niezwykle trudną do wykrycia.",
+      "„Aksje i podobne bardzo lekkie, bardzo słabo oddziałujące cząstki są głównymi kandydatami do fizyki poza standardowym modelem fizyki cząstek” - mówi Lindner."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Międzynarodowa współpraca fizyków przedstawiła swoje pierwsze wyniki w poszukiwaniu hipotetycznych cząstek, które mogłyby pomóc wyjaśnić ogromną dysproporcję między siłą grawitacji a trzema podstawowymi siłami opisanymi w Modelu Standardowym.",
+      "Po trzech latach gromadzenia danych w eksperymencie FASER Wielkiego Zderzacza Hadronów (LHC), zespół FASER Collaboration nie znalazł dowodów na istnienie tych ciężkich, wolno poruszających się „dziwactw”."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Nature Photonics to recenzowane czasopismo naukowe wydawane przez Nature Publishing Group. Redaktorem naczelnym jest Oliver Graydon. Czasopismo obejmuje badania związane z optoelektroniką, laseroznawstwem, obrazowaniem, komunikacją i innymi aspektami fotoniki i powstało w styczniu 2007 roku. Nature Photonics publikuje artykuły przeglądowe, artykuły badawcze, artykuły News and Views oraz artykuły badawcze podsumowujące najnowsze odkrycia naukowe w dziedzinie optoelektroniki. Uzupełnieniem jest zestaw artykułów dedykowanych biznesowej stronie branży obejmujących takie obszary jak komercjalizacja technologii i analiza rynku. Publikowane w tym czasopiśmie prace cieszą się międzynarodowym uznaniem za utrzymanie wysokich standardów badawczych. Czasopismo uznawane jest za wiodące w dziedzinie fotoniki."
+      "Standardowy Model fizyki cząstek to teoria opisująca trzy z czterech znanych sił podstawowych we wszechświecie i klasyfikująca wszystkie znane cząstki elementarne. Została opracowana etapami w drugiej połowie XX wieku, dzięki pracy wielu naukowców na całym świecie, a obecne sformułowanie zostało sfinalizowane w połowie lat 70. po eksperymentalnym potwierdzeniu istnienia kwarków. Od tego czasu dowód kwarku górnego (1995), neutrino tau (2000) i bozon Higgsa (2012) dodały modelowi standardowemu dodatkowej wiarygodności. Ponadto Model Standardowy z dużą dokładnością przewidział różne właściwości słabych prądów neutralnych oraz bozonów W i Z."
      ],
      "język": "en",
-     "przypis": "Wikipedia: Nature Photonics",
-     "url": "https://en.wikipedia.org/wiki/Nature_Photonics"
+     "przypis": "Wikipedia: Standard Model",
+     "url": "https://en.wikipedia.org/wiki/Standard_Model"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "300",
-    "2, 3, 4",
-    "1.4",
-    "10",
-    "80%",
-    "026"
+    "12",
+    "100,000",
+    "24",
+    "20",
+    "10.1103",
+    "61"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Nature Photonics",
-    "opis": "Scientific journal on photonics",
-    "tekst": "Nature Photonics is a peer-reviewed scientific journal published by the Nature Publishing Group. The editor-in-chief is Oliver Graydon. The journal covers research related to optoelectronics, laser science, imaging, communications, and other aspects of photonics and was established in January 2007. Nature Photonics publishes review articles, research papers, News and Views pieces, and research highlights summarizing the latest scientific findings in optoelectronics. This is complemented by a mix of articles dedicated to the business side of the industry covering areas such as technology commercialization and market analysis. The papers that have been published in this journal are internationally acclaimed for maintaining high research standards. The journal is regarded as top-ranking in the field of photonics.",
-    "url": "https://en.wikipedia.org/wiki/Nature_Photonics",
+    "hasło": "Standard Model",
+    "opis": "Theory of forces and subatomic particles",
+    "tekst": "The Standard Model of particle physics is the theory describing three of the four known fundamental forces in the universe and classifying all known elementary particles. It was developed in stages throughout the latter half of the 20th century, through the work of many scientists worldwide, with the current formulation being finalized in the mid-1970s upon experimental confirmation of the existence of quarks. Since then, proof of the top quark (1995), the tau neutrino (2000), and the Higgs boson (2012) have added further credence to the Standard Model. In addition, the Standard Model has predicted with great accuracy the various properties of weak neutral currents and the W and Z bosons.",
+    "url": "https://en.wikipedia.org/wiki/Standard_Model",
     "język": "en"
    },
    "tagi": [
-    "Science",
-    "Hong Kong University",
-    "Technology",
-    "Nature Photonics"
+    "Standard Model",
+    "Lindner",
+    "Physical Review Letters",
+    "CP-symmetry"
    ],
    "emotki": [
     "⚛️"
@@ -1110,26 +1418,31 @@
    "wszystkie_źródła": [
     {
      "nazwa": "Phys.org",
-     "tytuł": "New perovskite system extends room-temperature spin polarization via successive quantum wells",
-     "url": "https://phys.org/news/2026-11-perovskite-room-temperature-polarization-successive.html"
+     "tytuł": "World's most sensitive lab-based axion search presents its first results",
+     "url": "https://phys.org/news/2026-11-world-sensitive-lab-based-axion.html"
+    },
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "LHC collaboration presents first result in the hunt for 'quirks'",
+     "url": "https://phys.org/news/2026-11-lhc-collaboration-result-quirks.html"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.367,
+    "wynik": 3.738,
     "składowe": {
      "potwierdzenia": 0.0,
-     "ranga_źródła": 1.2,
-     "eksponowanie": 0.45,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.517,
+     "ranga_źródła": 1.38,
+     "eksponowanie": 0.36,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.448,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "New perovskite system extends room-temperature spin polarization via successive quantum wells",
+   "oryginalny_nagłówek": "World's most sensitive lab-based axion search presents its first results",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -1143,79 +1456,70 @@
     "emoji": "🔭",
     "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
    },
-   "nagłówek": "Rubiny na Marsie?",
-   "lead": "Eksploracja Marsa okazuje się nieoczekiwana. Wytrwałość wyposażona jest w fantastyczny zestaw instrumentów do badania zapisu skalnego tej starożytnej planety.",
+   "nagłówek": "APOD: 2026 10 listopada – Saturn za Księżycem",
+   "lead": "Każdego dnia pojawia się inny obraz lub fotografia naszego fascynującego wszechświata, wraz z krótkim wyjaśnieniem napisanym przez profesjonalnego astronoma. Wyjaśnienie: Czasami Saturn znika.",
    "język_źródła": "en",
-   "opublikowano": "2026-11-09T22:27:12+00:00",
+   "opublikowano": "2026-11-10T05:05:00+00:00",
    "źródło": {
     "nazwa": "NASA",
-    "url": "https://science.nasa.gov/blog/rubies-on-mars/",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/",
     "domena": "science.nasa.gov"
    },
-   "obraz": "https://assets.science.nasa.gov/content/dam/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perseverance_SIF_2023_0846549705_738EBY_N0930000SRLC02503_0000LMJ.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
+   "obraz": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/november/Moonsaturn6_Ortu_2124.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Zarówno PIXL, jak i SuperCam mają duże możliwości wykrywania wszelkiego rodzaju elementów.",
-      "SHERLOC, SuperCam i PIXL mogą wykrywać minerały przy użyciu różnych technik, w tym fluorescencji rentgenowskiej, spektroskopii ramanowskiej i spektroskopii w podczerwieni.",
-      "Jako dodatkową korzyść ze sposobu, w jaki SuperCam wykonuje swoją spektroskopię ramanowską, może również badać luminescencję o rozdzielczości czasowej.",
-      "Normalnie luminescencja występuje w szerokim zakresie długości fal (większość oświetlenia komercyjnego Ziemi w jakiś sposób wykorzystuje luminescencję).",
-      "Dwa lata temu zespół SuperCam był zaskoczony znalezieniem silnych, wąskich szczytów luminescencji na dwóch długościach fal 692,7 i 694,1 nanometrów, gdy wystrzelili jasną skałę za pomocą lasera.",
-      "Ta luminescencja pochodzi z opóźnionych przemian atomowych w atomach chromu obecnych w strukturze mineralnej korundu.",
-      "SuperCam może mierzyć opóźnienie przejść atomowych przez powstałe fotony, dzięki czemu możemy sprawdzić, czy ta emisja pochodzi z chromu w korundzie.",
-      "Wyniki zostały opublikowane w Geophysical Research Letters przez zespół pod kierownictwem Ann Ollila na początku tego roku, więc można przeczytać o tym wszystkim.",
-      "Kamienna wersja korundu zawierającego chrom to rubin."
+      "Oczywiście tak naprawdę nie odchodzi - po prostu znika z naszego widoku, gdy Księżyc Ziemi porusza się z przodu.",
+      "Takie zaćmienie Saturna, bardziej formalnie zwane okultacją , było widoczne na początku 2025 roku wzdłuż niewielkiego pasma Ziemi - od Grenlandii przez Europę Środkową po północną Afrykę .",
+      "Prezentowany obraz to cyfrowa fuzja trzech obrazów, pierwszego z samego Saturna przed jego zniknięciem, a następnie dwóch kolejnych z Księżyca o różnych długościach ekspozycji.",
+      "Zdjęcia zostały wykonane z Sardynii we Włoszech po zachodzie słońca.",
+      "Jasna kropka w pobliżu Saturna nie jest księżycem Saturna , ale gwiazdą 85 Aquarii , która znajduje się dalej za Saturnem niż Saturn jest za Księżycem.",
+      "Następnym razem, gdy Księżyc poruszy się przed Saturnem, jak widać z jakiegoś miejsca na Ziemi , będzie w 2031 roku.",
+      "Jutrzejsze zdjęcie: małe, ale potężne"
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Coś przecieka z ziemi w pobliżu jednego z największych wulkanów Marsa, a naukowcy uważają, że jest to znak, że pod ziemią zakopana jest aktywna magma.",
-      "4 W Science Advances naukowcy donoszą o wykryciu gazu chlorowodorowego (HCl) w promieniu 10 kilometrów od powierzchni planety w pobliżu wulkanu Alba Mons.",
-      "Czytaj dalej „Tajemniczy gaz na Marsie sugeruje magmę poniżej” Post Tajemniczy gaz na Marsie sugeruje, że magma poniżej pojawiła się jako pierwsza w Astronomy Magazine .",
-      "Podobnie jak pył księżycowy, jego drobny rozmiar i naładowana elektrostatycznie natura pozwalają mu przykleić się do skafandrów kosmicznych, metalu i prawie każdej innej powierzchni, z którą mają kontakt.",
-      "Burze pyłowe są również powszechne na Marsie, od małych trąb powietrznych, które zdarzają się codziennie, po globalne burze pyłowe, które występują raz na 3 lata marsjańskie (~ 5,5 lat ziemskich) i obejmują całą planetę.",
-      "Louis (WashU) podkreśla potrzebę, wykorzystując dane z łazika Perseverance NASA, wystarczającego przeszkolenia astronautów, aby przygotować się do środowiska marsjańskiego.",
-      "Adiunkt Scott VanBommel kierował pracami badawczymi wraz z pracownikiem naukowym Abigail Knight , którzy są członkami McDonnell Center for the Space Sciences (MCSS)."
+      "9 listopada: Chase Comet 161P/Hartley-IRAS rzuć sobie wyzwanie, aby podnieść księżyc Saturna Iapetus, który dziś osiąga największe wydłużenie wschodnie 9,4’ na wschód od okrążonej planety.",
+      "Dwutonowy księżyc jest ściśle związany ze swoim macierzystym światem, co oznacza, że obraca się w czasie wraz z czytaniem \"The Sky Today on Tuesday, November 10: Seek Saturn's two-toned moon\" The post The Sky Today on Tuesday, November 10: Seek Saturn's two-toned moon appeared first on Astronomy Magazine ."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Mars jest czwartą planetą od Słońca. Znana jest również jako „Czerwona Planeta”, ze względu na swój pomarańczowo-czerwony wygląd. Mars to skalista planeta podobna do pustyni, z wątłą atmosferą, która jest przede wszystkim dwutlenkiem węgla. Na średnim poziomie powierzchni ciśnienie atmosferyczne wynosi kilka tysięcznych ziemskiego, temperatura atmosferyczna waha się od −153 do 20°C, a promieniowanie kosmiczne jest wysokie. Mars zatrzymuje pewną ilość wody, zarówno w ziemi, jak i cienko w atmosferze, tworząc chmury Cirrus, mgłę, mróz, większe regiony polarne wiecznej zmarzliny i czap lodowych, ale bez zbiorników płynnych wód powierzchniowych. Jego grawitacja powierzchniowa stanowi mniej więcej jedną trzecią ziemskiej lub dwa razy więcej grawitacji Księżyca. Jego średnia średnica, 6779 km (4212 mil), wynosi około połowy powierzchni Ziemi lub dwa razy więcej niż powierzchni Księżyca, a jego powierzchnia jest około wielkości całego suchego lądu Ziemi."
+      "Saturn V to wycofany amerykański superciężki pojazd nośny opracowany przez NASA w ramach programu Apollo do badania Księżyca przez człowieka. Rakieta była przystosowana do użytku przez człowieka, miała trzy stopnie i była napędzana płynem. W latach 1967-1973 wystrzelono trzynaście pojazdów Saturn V, wszystkie z Kompleksu startowego 39 Centrum Kosmicznego Kennedy 'ego, z których dziewięć wystrzeliło 24 astronautów w kierunku Księżyca z Apollo 8 do Apollo 17. Jego ostatnim startem był Skylab, pierwsza amerykańska stacja kosmiczna, przerobiona z własnego trzeciego etapu."
      ],
      "język": "en",
-     "przypis": "Wikipedia: Mars",
-     "url": "https://en.wikipedia.org/wiki/Mars"
+     "przypis": "Wikipedia: Saturn V",
+     "url": "https://en.wikipedia.org/wiki/Saturn_V"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "692.7",
-    "694.1",
-    "10",
-    "5.5",
-    "20 km",
-    "2.5"
+    "85",
+    "161",
+    "9.4",
+    "10"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Mars",
-    "opis": "Fourth planet from the Sun",
-    "tekst": "Mars is the fourth planet from the Sun. It is also known as the \"Red Planet\", for its orange-red appearance. Mars is a desert-like rocky planet with a tenuous atmosphere that is primarily carbon dioxide. At the average surface level the atmospheric pressure is a few thousandths of Earth's, atmospheric temperature ranges from −153 to 20 °C, and cosmic radiation is high. Mars retains some water, in the ground as well as thinly in the atmosphere, forming cirrus clouds, fog, frost, larger polar regions of permafrost and ice caps, but no bodies of liquid surface water. Its surface gravity is roughly a third of Earth's or double that of the Moon. Its mean diameter, 6,779 km (4,212 mi), is about half the Earth's, or twice the Moon's, and its surface area is around the size of all the dry land of Earth.",
-    "url": "https://en.wikipedia.org/wiki/Mars",
+    "hasło": "Saturn V",
+    "opis": "American super heavy-lift expendable rocket",
+    "tekst": "The Saturn V is a retired American super heavy-lift launch vehicle developed by NASA under the Apollo program for human exploration of the Moon. The rocket was human-rated, had three stages, and was liquid-fueled. Thirteen Saturn V vehicles were launched, from 1967 to 1973, all from Kennedy Space Center Launch Complex 39, nine of which launched 24 astronauts toward the Moon from Apollo 8 to Apollo 17. Its final launch was Skylab, the first American space station, converted from its own third stage.",
+    "url": "https://en.wikipedia.org/wiki/Saturn_V",
     "język": "en"
    },
    "tagi": [
-    "SuperCam",
-    "Mars",
-    "Raman",
-    "Mars’"
+    "Saturn",
+    "Moon",
+    "Earth",
+    "Sometimes Saturn"
    ],
    "emotki": [
     "🪐"
@@ -1223,41 +1527,31 @@
    "wszystkie_źródła": [
     {
      "nazwa": "NASA",
-     "tytuł": "Rubies on Mars?",
-     "url": "https://science.nasa.gov/blog/rubies-on-mars/"
+     "tytuł": "APOD: 2026 November 10 – Saturn Behind the Moon",
+     "url": "https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/"
     },
     {
      "nazwa": "Astronomy Magazine",
-     "tytuł": "Mysterious gas on Mars suggests magma below",
-     "url": "https://www.astronomy.com/science/mysterious-gas-on-mars-suggests-magma-below/"
-    },
-    {
-     "nazwa": "Sky & Telescope News",
-     "tytuł": "Noxious Smoke Hints at Active Volcanoes on Mars",
-     "url": "https://skyandtelescope.org/astronomy-news/noxious-smoke-hints-at-active-volcanoes-on-mars/"
-    },
-    {
-     "nazwa": "Universe Today",
-     "tytuł": "A Perseverance Experiment Could Help Astronauts Prepare for Dust Storms on Mars",
-     "url": "https://www.universetoday.com/articles/a-perseverance-experiment-could-help-astronauts-prepare-for-dust-storms-on-mars"
+     "tytuł": "The Sky Today on Tuesday, November 10: Seek Saturn’s two-toned moon",
+     "url": "https://www.astronomy.com/observing/the-sky-today-tuesday-november-10-2026/"
     }
    ],
-   "liczba_źródeł": 4,
-   "czas_czytania_min": 3,
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 11.523,
+    "wynik": 6.598,
     "składowe": {
-     "potwierdzenia": 5.7,
-     "ranga_źródła": 1.765,
-     "eksponowanie": 2.34,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.518,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.458,
+     "eksponowanie": 0.99,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.35,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Rubies on Mars?",
+   "oryginalny_nagłówek": "APOD: 2026 November 10 – Saturn Behind the Moon",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -1271,109 +1565,94 @@
     "emoji": "🔭",
     "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
    },
-   "nagłówek": "Chandra z NASA znajduje źródło tajemniczych wybuchów Gwiazdy",
-   "lead": "Korzystając z obserwatorium rentgenowskiego Chandra NASA, astronomowie odkryli, co wywołuje powtarzające się wybuchy gigantycznej, niestabilnej gwiazdy. Nowe badanie , opublikowane w poniedziałek w najnowszym numerze The Astrophysical Journal, szczegółowo opisuje odkrycie wcześniej ukrytego obiektu towarzyszącego, który odciąga materiał od…",
+   "nagłówek": "Naukowcy z NASA pokazują, jak fale grawitacyjne mogą ujawnić nowe światy",
+   "lead": "Obserwatorium LISA (Laser Interferometer Space Antenna), obecnie w fazie rozwoju, wykryje fale grawitacyjne, drobne zmarszczki w czasoprzestrzeni spowodowane przez orbitujące masy. Teraz dwa badania prowadzone przez astrofizyków NASA pokazują w nowych szczegółach, w jaki sposób LISA może ujawnić nową i unikalną populację egzoplanet — światów wykraczających poza nasze…",
    "język_źródła": "en",
-   "opublikowano": "2026-11-09T18:55:50+00:00",
+   "opublikowano": "2026-11-10T16:00:26+00:00",
    "źródło": {
     "nazwa": "NASA",
-    "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts/",
+    "url": "https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/",
     "domena": "science.nasa.gov"
    },
-   "obraz": "https://assets.science.nasa.gov/content/dam/science/missions/chandra/2026/at2016blu.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "obraz": "https://assets.science.nasa.gov/content/dam/science/missions/lisa/news/2026/l3harris-award-for-test-telescope/LISA_key_visual_ESA_lg_ac.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Partner ten jest albo czarną dziurą o masie gwiazdowej, albo gęstym, zapadniętym jądrem masywnej gwiazdy zwanej gwiazdą neutronową.",
-      "Jest to pierwsze rentgenowskie wykrycie jednej z tej klasy erupcyjnych gwiazd.",
-      "Jest to również pierwszy z tych obiektów znaleziony z czarną dziurą lub towarzyszem gwiazdy neutronowej.",
-      "Lotna gwiazda, znana jako AT 2016blu, znajduje się w galaktyce spiralnej NGC 4559, położonej około 30 milionów lat świetlnych od Ziemi.",
-      "Astronomowie szacują, że masa tej gwiazdy jest co najmniej 33 razy większa od masy Słońca. „Od 15 lat astronomowie obserwują, jak gwiazda ta staje się naprawdę jasna, a następnie regularnie przyciemnia się” - powiedziała Mojgan Aghakhanloo z Uniwersytetu Wirginia w Charlottesville, która kierowała tymi badaniami. „Dopóki nie byliśmy w stanie uzyskać danych Chandry we właściwym czasie, nie mogliśmy dowiedzieć się, co to spowodowało.„ Gwiazda AT 2016blu to rodzaj jasnoniebieskiej zmiennej, która jest gorąca, masywna gwiazdki charakteryzujące się zmianami jasności.",
-      "Na przykład Eta Carinae jest szczególnie dobrze znaną zmienną błękitu świetlnego.) AT 2016blu jest specjalnym typem jasnoniebieskiej zmiennej, która ulega szybkiemu i powtarzającemu się wzrostowi jasności.",
-      "Skoki jasności są tak ekstremalne, że przypominają eksplozje supernowych, w których masywna gwiazda zapada się na siebie, a materiał wylatuje w przestrzeń kosmiczną.",
-      "Jednak w przeciwieństwie do eksplozji supernowej, gwiazda nie zostaje zniszczona, więc AT 2016blu jest również określany jako „oszust supernowej”. W latach 2012-2026 astronomowie wykryli co najmniej 27 wiązek światła optycznego lub światła o długościach fal, które są widoczne dla naszych oczu, z AT 2016blu mniej więcej co 113 dni. „Zachowanie tej gwiazdy było na początku mylące, ponieważ zachowywała się jak supernowa, ale najwyraźniej nie dlatego, że przetrwała te wybuchy około trzy razy. roku” - powiedziała współautorka Núria Torres-Albà, również z Uniwersytetu Wirginii. „Aby zrozumieć przyczynę tych erupcji, zdaliśmy sobie sprawę, że potrzebujemy danych rentgenowskich, tak abyśmy mogli obserwować gwiazdę podczas wybuchu.\" Zespół użył Chandra, ponieważ jest to jedyny teleskop rentgenowski z wystarczająco ostrą wizją, aby odróżnić AT 2016blu od innego pobliskiego źródła jasnego promieniowania rentgenowskiego. „Podejrzewaliśmy, że jasne powtarzające się błyski na optycznych długościach fal mogą być w rzeczywistości zasilane przez okresowe podmuchy wysokoenergetycznych promieni rentgenowskich ” - powiedział współautor Nathan Smith z Uniwersytetu Arizony w Tucson. „Gęsty gaz otaczający system jest podgrzewany przez promieniowanie rentgenowskie, a następnie świeci w układzie optycznym.",
-      "Dlatego musieliśmy ostrożnie zaplanować obserwacje rentgenowskie Chandry, aby były równoczesne z wybuchem optycznym.\"Dane Chandry z marca 2026 r. ujawniły, że AT 2016blu był co najmniej 100 razy jaśniejszy w promieniach rentgenowskich niż w danych Chandry z lat 2001-2002, czyli przed wybuchem."
+      "Pierwszy , autorstwa wyłącznie McGratha, bada metodę detekcji i określa masy planet oraz okresy orbitalne, w których będzie ona najlepiej działać.",
+      "Drugi artykuł , autorstwa McGratha i współautorów, bada, w jaki sposób takie planety można potwierdzić za pomocą Kosmicznego Teleskopu Jamesa Webba NASA.",
+      "Możliwość wykrywania egzoplanet wokół podwójnych białych karłów LISY została po raz pierwszy zaproponowana przez japońskiego astronoma Naokiego Seto w 2008 roku.",
+      "Misja LISA, kierowana przez ESA (Europejską Agencję Kosmiczną), ma wystartować w połowie lat 30.",
+      "Jako partner współpracujący, NASA zapewnia teleskopy, inny krytyczny sprzęt oraz wsparcie inżynieryjne i naukowe w ramach swojej misji, aby lepiej zrozumieć, jak działa wszechświat.",
+      "Metoda wykrywania LISA jest podobna do metody zwanej prędkością radialną, która wykorzystuje światło i jest już stosowana do znajdowania egzoplanet wokół pobliskich gwiazd.",
+      "Gdy planeta krąży po orbicie, jej grawitacja szarpie gwiazdę macierzystą, nadając jej mały ruch refleksyjny lub chwieje się.",
+      "To chybotanie powoduje, że widmo gwiazdy oscyluje, z liniami widmowymi przesuwającymi się od długości fal czerwieni, gdy gwiazda oddala się od nas do niebieskich, gdy gwiazda zbliża się do nas.",
+      "Przesunięcie spowodowane jest zjawiskiem zwanym efektem Dopplera. „Coś podobnego dzieje się z falami grawitacyjnymi” - powiedział Scott Noble, teoretyczny astrofizyk z NASA Goddard i współautor dokumentu potwierdzającego. „Samoistnie podwójne białe karły emitują fale grawitacyjne o niemal ciągłej częstotliwości."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Korzystając z obserwatorium rentgenowskiego Chandra NASA, astronomowie odkryli, co wywołuje powtarzające się wybuchy gigantycznej, niestabilnej gwiazdy.",
-      "Nowy artykuł , opublikowany w najnowszym numerze The Astrophysical Journal , szczegółowo opisuje odkrycie wcześniej ukrytego obiektu towarzyszącego, który co 113 dni odciąga materiał od masywnej gwiazdy, gdy obiegają się nawzajem.",
-      "„Od 15 lat astronomowie obserwują, jak gwiazda ta staje się naprawdę jasna, a następnie regularnie przyciemnia się” - powiedziała Mojgan Aghakhanloo z Uniwersytetu Wirginia w Charlottesville, która prowadziła te badania.",
-      "„Dopóki nie byliśmy w stanie uzyskać danych Chandry we właściwym czasie, nie mogliśmy dowiedzieć się, co to spowodowało.„ Gwiazda AT 2016blu to rodzaj jasnoniebieskiej zmiennej, gorącej, masywnej gwiazdy charakteryzującej się dużymi zmianami jasności.",
-      "Jednak w przeciwieństwie do wybuchu supernowej, gwiazda nie zostaje zniszczona, więc astronomowie nazywają AT 2016blu „oszustem supernowej”. „W latach 2012-2026 astronomowie wykryli co najmniej 27 błysków światła optycznego, w tym długości fal widoczne dla naszych oczu, z AT 2016blu mniej więcej co 113 dni."
+      "whitney Clavin, California Institute of Technology Gdy najmasywniejsze gwiazdy we wszechświecie umierają, często wybuchają w ognistych supernowych, dramatycznie wyrzucając większość swojej materii w przestrzeń kosmiczną.",
+      "Jednak teorie sugerują, że niektóre masywne gwiazdy mogą umrzeć bez wybuchu, zamiast tego bezpośrednio zapadając się do wewnątrz, stając się gwiazdami neutronowymi lub czarnymi dziurami.",
+      "Teraz nowe badanie prowadzone przez Caltech, wykorzystujące dane z sieci obserwatoriów fal grawitacyjnych LIGO-Virgo-KAGRA, znajduje ślady wyraźnej populacji czarnych dziur, które mogły powstać z takich nieudanych supernowych.",
+      "LIGO, Laser Interferometer Gravitational-wave Observatory, które składa się z detektorów w Luizjanie i Waszyngtonie, przeszło do historii w 2015 roku wraz z pierwszym bezpośrednim wykryciem fal grawitacyjnych, czyli fal w czasoprzestrzeni, z pary zderzających się czarnych dziur.",
+      "Od tego czasu detektor Panny we Włoszech i detektor fal grawitacyjnych Kamioka (KAGRA) w Japonii połączyły się w jedną sieć, która wykryła ponad 300 zderzeń czarnych dziur."
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Promieniowanie rentgenowskie jest formą wysokoenergetycznego promieniowania elektromagnetycznego o długości fali krótszej niż długość fali promieniowania ultrafioletowego i dłuższej niż długość fali promieniowania gamma. Z grubsza, promienie rentgenowskie mają długość fali w zakresie od 10 nanometrów do 10 pikometrów, co odpowiada częstotliwościom w zakresie od 30 petaherców do 30 eksaherców (3×1016 Hz do 3×1019 Hz) i energii fotonów w zakresie odpowiednio od 100 eV do 100 keV."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: X-ray",
-     "url": "https://en.wikipedia.org/wiki/X-ray"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "113",
-    "4559",
-    "30 million",
-    "33",
-    "15",
-    "27"
+    "10 million",
+    "10,000",
+    "100",
+    "500",
+    "1.6 million",
+    "2.5 million"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "X-ray",
-    "opis": "Form of electromagnetic radiation",
-    "tekst": "An X-ray is a form of high-energy electromagnetic radiation with a wavelength shorter than those of ultraviolet rays and longer than those of gamma rays. Roughly, X-rays have a wavelength ranging from 10 nanometers to 10 picometers, corresponding to frequencies in the range of 30 petahertz to 30 exahertz (3×1016 Hz to 3×1019 Hz) and photon energies in the range of 100 eV to 100 keV, respectively.",
-    "url": "https://en.wikipedia.org/wiki/X-ray",
-    "język": "en"
-   },
+   "tło": null,
    "tagi": [
-    "X-ray",
-    "Chandra",
-    "X-rays",
-    "University"
+    "NASA",
+    "University",
+    "McGrath",
+    "Doppler"
    ],
    "emotki": [
+    "🪐",
     "🔭"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "NASA",
-     "tytuł": "NASA’s Chandra Finds Source of Star’s Mysterious Outbursts",
-     "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts/"
+     "tytuł": "NASA Scientists Show How Gravitational Waves Can Reveal New Worlds",
+     "url": "https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/"
     },
     {
      "nazwa": "Phys.org Astronomy",
-     "tytuł": "The supernova impostor: Chandra finds likely source of giant star's repeated outbursts",
-     "url": "https://phys.org/news/2026-11-supernova-impostor-chandra-source-giant.html"
+     "tytuł": "Gravitational waves hint at black holes born from failed supernovae",
+     "url": "https://phys.org/news/2026-11-gravitational-hint-black-holes-born.html"
     }
    ],
    "liczba_źródeł": 2,
-   "czas_czytania_min": 4,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.033,
+    "wynik": 6.565,
     "składowe": {
      "potwierdzenia": 1.9,
      "ranga_źródła": 1.48,
-     "eksponowanie": 0.99,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.508,
-     "treściwość": 0.455,
+     "eksponowanie": 1.17,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.49,
+     "treściwość": 0.475,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "NASA’s Chandra Finds Source of Star’s Mysterious Outbursts",
+   "oryginalny_nagłówek": "NASA Scientists Show How Gravitational Waves Can Reveal New Worlds",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -1387,8 +1666,8 @@
     "emoji": "🗺️",
     "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
    },
-   "nagłówek": "Senat przyspiesza ustawę, aby przyspieszyć projekty od gazociągów do czystej energii",
-   "lead": "Kluczowe grupy ekologiczne sprzeciwiają się dwupartyjnej ustawie Baaja ze względu na obawy, że może to pobudzić centra danych i więzienia LODOWE Senat w poniedziałek opracował zaawansowane ustawodawstwo dwupartyjne mające na celu przyspieszenie przeglądów centrów danych i innych projektów infrastrukturalnych, w pierwszej ważnej akcji od ubiegłotygodniowych wyborów, która…",
+   "nagłówek": "Senate advances bill to speed up projects from gas pipelines to clean energy",
+   "lead": "Key environmental groups come out against bipartisan Baaja bill over fears it could spur datacenters and ICE jails The Senate on Monday advanced bipartisan legislation aimed at speeding up permitting reviews for datacenters and other infrastructure projects, in the first major action since last week’s election that…",
    "język_źródła": "en",
    "opublikowano": "2026-11-10T02:28:00+00:00",
    "źródło": {
@@ -1402,34 +1681,35 @@
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Aby osiągnąć ten cel, wycofałby się z ochrony środowiska i ochrony socjalnej.",
-      "Dlatego zwolennicy klimatu są rozdarci na punkcie amerykańskiej ustawy Baaja (Bipartisan American Affordability and Jobs Act).",
-      "Senat przegłosował w poniedziałek otwarcie debaty na temat Baaja w pierwszym z kilku głosowań proceduralnych.",
-      "Senatorowie głosowali 73-25 nad ruchem zakrzepowym, który nie doprowadził do uchwalenia ustawy, ale przesunął ją o kolejny krok do przodu.",
-      "Trump wezwał wszystkich senatorów do głosowania za 417-stronicową ustawą, która jest sponsorowana przez dwóch republikanów i dwóch demokratów w Senacie, ale po historycznych wyborach „niebieskiej fali” w zeszłym tygodniu niektórzy zwolennicy ochrony środowiska i plemienia wezwali demokratyczne przywództwo do zahamowania.",
-      "Przeciwko ustawie wystąpiły Earthjustice, Sierra Club i ACLU, ponieważ znacznie osłabiłoby to przepisy środowiskowe, w tym National Environmental Policy Act (Nepa) i przyspieszyło budowę gazociągów i aresztów śledczych.",
-      "W piątek rdzenni mieszkańcy zwołali konferencję prasową wzywającą senatorów do głosowania przeciwko Baaja, ponieważ osłabiłoby to prawny obowiązek rządu federalnego do konsultowania się z plemionami w sprawie projektów, które ich dotyczą. „To jest takie egzystencjalne zagrożenie dla kraju indyjskiego” - powiedział Mark Macarro, przewodniczący Narodowego Kongresu Indian Amerykańskich.",
-      "Protestujący zebrali się w piątek przed budynkiem lidera mniejszości senackiej Chucka Schumera z powodu obaw, że ustawa może wzmocnić centra danych. „Byłoby bardzo ironiczne, gdyby po wygraniu wyborów, w których opozycja w centrach danych znajdowała się na pierwszym miejscu, pierwszym aktem Kongresu było ułatwienie budowy centrów danych” - powiedział Bill McKibben .",
-      "Demokraci wybrani w niebieskiej fali zajmą swoje miejsca dopiero w styczniu, więc zwolennicy ustawy mają jeszcze czas, aby przepchnąć ją przez Senat i technicznie jest czas, aby przejść do Izby przed nowym Kongresem i udać się do Trumpa."
+      "And it would roll back environmental and social protections to achieve this goal.",
+      "That is why climate advocates are torn over the Bipartisan American Affordability and Jobs act (Baaja).",
+      "The Senate voted on Monday to open debate on Baaja in the first of several procedural votes.",
+      "Senators voted 73-25 on the cloture motion, which did not result in the bill being passed, but pushed it another step forward.",
+      "Trump urged all senators to vote for the 417-page bill, which is sponsored by two Republicans and two Democrats in the Senate, but after last week’s historic “blue wave” elections , some environmental and tribal advocates called on Democratic leadership to pump the brakes.",
+      "Earthjustice, the Sierra Club and the ACLU have come out against the bill because it would significantly weaken environmental laws including the National Environmental Policy Act (Nepa) and accelerate the construction of gas pipelines and ICE detention centers.",
+      "Indigenous groups held a press conference on Friday calling on senators to vote against Baaja because it would weaken the federal government’s legal obligation to consult tribes on projects that affect them. “This is such an existential threat to Indian country,” said Mark Macarro, president of the National Congress of American Indians.",
+      "Protesters rallied outside Senate minority leader Chuck Schumer ’s building on Friday over concerns that the bill could boost datacenters. “It would be highly ironic if, having won an election where datacenter opposition was at the front and center, the first act of Congress was to make it easier to build datacenters,” said Bill McKibben .",
+      "Democrats elected in the blue wave will not take their seats until January, so the bill’s proponents still have time to rush it through the Senate, and technically there is time for it to pass in the House before new Congress and go to Trump."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Przewiduje się, że globalna emisja dwutlenku węgla z paliw kopalnych zmniejszy się o 0,4% w 2026 r., co będzie spowodowane ekspansją energii słonecznej i wiatrowej oraz konfliktem w Iranie - zgodnie z nowymi badaniami przeprowadzonymi przez Global Carbon Project.",
-      "Wydanie 2026 (21. raport roczny) opublikowano w czasopiśmie Earth System Science Data .",
-      "Globalny budżet węglowy na 2026 r. przewiduje w tym roku 38,2 mld ton metrycznych emisji kopalnego dwutlenku węgla (CO₂).",
-      "Emisje z ropy naftowej mają spaść o 1,9%, co prawdopodobnie będzie krótkoterminową reakcją na szok energetyczny wywołany przez konflikt w Iranie.",
-      "Pozostały budżet węglowy (ilość CO₂, którą można wyemitować przed ociepleniem, osiąga 1,5°C powyżej poziomów sprzed epoki przemysłowej) wynosi obecnie 150 miliardów ton metrycznych, co odpowiada mniej niż czterem latom emisji w obecnym tempie.",
-      "Stwierdzono, że zapadlisko lądowe powróciło do dawnych poziomów po poważnym osłabieniu w okresie pogody 2023–24 El Niño."
+      "Global carbon emissions from fossil fuels are projected to decrease by 0.4% in 2026—driven by expansion of solar and wind power and the Iran conflict—according to new research by the Global Carbon Project.",
+      "The 2026 edition (the 21st annual report) is published in the journal Earth System Science Data .",
+      "The 2026 Global Carbon Budget projects 38.2 billion metric tons of fossil carbon dioxide (CO₂) emissions this year.",
+      "Emissions from oil are projected to decrease by 1.9%—likely a short-term response to the energy shock triggered by the Iran conflict.",
+      "The remaining carbon budget (the amount of CO₂ that can be emitted before warming reaches 1.5°C above preindustrial levels) is now 150 billion metric tons—equivalent to less than four years of emissions at the current rate.",
+      "It finds that the land sink returned to former levels after a severe weakening during the 2023–24 El Niño weather pattern.",
+      "Global carbon dioxide emissions from fossil fuels are expected to decline slightly in 2026, offering a promising sign that the world's transition to cleaner energy is beginning to make a measurable difference."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Senat jest zgromadzeniem deliberatywnym, często izbą wyższą lub izbą dwuizbowej legislatury. Nazwa pochodzi od starożytnego senatu rzymskiego, tzw. zgromadzenia seniorów i dlatego uważanego za mądrzejszych i bardziej doświadczonych członków społeczeństwa lub klasy rządzącej. Senat rzymski nie był jednak w żadnym sensie przodkiem ani poprzednikiem nowoczesnego parlamentaryzmu, ponieważ senat rzymski nie był organem ustawodawczym de iure."
+      "A senate is a deliberative assembly, often the upper house or chamber of a bicameral legislature. The name comes from the ancient Roman Senate, so-called as an assembly of the senior and therefore considered wiser and more experienced members of the society or ruling class. However the Roman Senate was not the ancestor or predecessor of modern parliamentarism in any sense, because the Roman senate was not a de jure legislative body."
      ],
      "język": "en",
      "przypis": "Wikipedia: Senate",
@@ -1445,7 +1725,13 @@
     "85%",
     "30"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "ScienceDaily Earth",
+     "ujęcie": "According to the latest Global Carbon Budget from the Global Carbon Project, fossil fuel CO 2 emissions are projected to fall by 0.4%, partly because of growing solar and wind power generation and disruptions linked to the Iran conflict.",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261109205358.htm"
+    }
+   ],
    "pojęcia": [],
    "tło": {
     "hasło": "Senate",
@@ -1473,27 +1759,27 @@
      "nazwa": "Phys.org Earth Sciences",
      "tytuł": "Fossil CO₂ emissions projected to decrease in 2026 amid clean energy growth and Iran conflict",
      "url": "https://phys.org/news/2026-11-fossil-emissions-decrease-energy-growth.html"
+    },
+    {
+     "nazwa": "ScienceDaily Earth",
+     "tytuł": "Global fossil fuel emissions set to fall in 2026, but total CO2 keeps rising",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261109205358.htm"
     }
    ],
-   "liczba_źródeł": 2,
+   "liczba_źródeł": 3,
    "czas_czytania_min": 3,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.236,
+    "wynik": 8.121,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.208,
-     "eksponowanie": 1.71,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.357,
+     "eksponowanie": 1.8,
      "słowa_kluczowe": 0.35,
-     "świeżość": 0.568,
+     "świeżość": 0.314,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
-   },
-   "oryginalny_nagłówek": "Senate advances bill to speed up projects from gas pipelines to clean energy",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
    },
    "miejsce": 1
   },
@@ -1504,62 +1790,80 @@
     "emoji": "🗺️",
     "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
    },
-   "nagłówek": "Nowy projekt nowelizacji Pgik bez zakazu wykonywania prac geodezyjnych przez urzędników",
-   "lead": "9 listopada na stronie Rządowego Centrum Legislacji opublikowano nową wersję projektu ustawy o zmianie ustawy Prawo geodezyjne i kartograficzne oraz ustawy o infrastrukturze informacji przestrzennej. Nie znajdziemy w niej zakazu wykonywania prac geodezyjnych przez urzędników zatrudnionych na stanowiskach kierowniczych…",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-10T00:00:00+00:00",
+   "nagłówek": "Airborne Imaging Explores a Mosaic of Thawing Permafrost",
+   "lead": "A winter road in Canada’s Mackenzie Valley is seen alongside the Mackenzie River, which is now the site of a new all-weather road.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-10T13:40:10+00:00",
    "źródło": {
-    "nazwa": "Geoforum",
-    "url": "https://geoforum.pl/news/37503/nowy-projekt-nowelizacji-pgik-bez-zakazu-wykonywania-prac-geodezyjnych-przez-urzednikow",
-    "domena": "geoforum.pl"
+    "nazwa": "Eos (AGU)",
+    "url": "https://eos.org/research-spotlights/airborne-imaging-explores-a-mosaic-of-thawing-permafrost",
+    "domena": "eos.org"
    },
-   "obraz": null,
+   "obraz": "https://eos.org/wp-content/uploads/2026/11/mackenzie-valley-1024x576.jpg",
    "sekcje": [
     {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
      "treść": [
-      "Projekt z 27 października przekazał do Stałego Komitetu Rady Ministrów sekretarz stanu w..."
+      "Permafrost in many of Earth's northern regions is thawing, a process that unlocks greenhouse gases, threatens infrastructure, and could alter landscapes and ecosystems.",
+      "The Arctic and subarctic are vast, and gaining a comprehensive picture of permafrost distribution is difficult, as it requires seeing under the ground.",
+      "Now, with a new method that can map permafrost from the air, researchers may get a much more spatially cohesive view of permafrost thickness and distribution.",
+      "Moshtaghian and team report on the results of a frequency-domain airborne electromagnetic (AEM) survey conducted in northern Canada's Mackenzie Valley.",
+      "The researchers gathered new information on where permafrost is located and how features such as bodies of water, soil makeup, and wildfire history affect it.",
+      "The study, which includes data from a colocated electrical resistivity tomography profile and borehole data, helps to validate AEM surveys as a useful method for studying permafrost."
      ]
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "27"
+    "1.2",
+    "75",
+    "250",
+    "10.1029"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Phys.org Earth Sciences",
+     "ujęcie": "One large talik found under the Mackenzie River was 2 kilometers (1.2 miles) wide and extended to more than 75 meters (250 feet) deep in some areas.",
+     "url": "https://phys.org/news/2026-11-airborne-imaging-explores-mosaic-permafrost.html"
+    }
+   ],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Stałego Komitetu Rady Ministrów",
-    "Rządowego Centrum Legislacji",
-    "Prawo",
-    "Pgik"
+    "Canada’s Mackenzie Valley",
+    "Thawing Permafrost",
+    "Imaging Explores",
+    "Mackenzie River"
    ],
    "emotki": [
-    "🏛️",
-    "🗺️"
+    "🧊"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Geoforum",
-     "tytuł": "Nowy projekt nowelizacji Pgik bez zakazu wykonywania prac geodezyjnych przez urzędników",
-     "url": "https://geoforum.pl/news/37503/nowy-projekt-nowelizacji-pgik-bez-zakazu-wykonywania-prac-geodezyjnych-przez-urzednikow"
+     "nazwa": "Eos (AGU)",
+     "tytuł": "Airborne Imaging Explores a Mosaic of Thawing Permafrost",
+     "url": "https://eos.org/research-spotlights/airborne-imaging-explores-a-mosaic-of-thawing-permafrost"
+    },
+    {
+     "nazwa": "Phys.org Earth Sciences",
+     "tytuł": "Airborne imaging explores a mosaic of thawing permafrost",
+     "url": "https://phys.org/news/2026-11-airborne-imaging-explores-mosaic-permafrost.html"
     }
    ],
-   "liczba_źródeł": 1,
+   "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.788,
+    "wynik": 6.29,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.0,
-     "eksponowanie": 0.9,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.538,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.357,
+     "eksponowanie": 1.35,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.483,
      "treściwość": 0.5,
-     "język_działu": 0.5
+     "język_działu": 0.0
     }
    },
    "miejsce": 2
@@ -1571,63 +1875,99 @@
     "emoji": "🎬",
     "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
    },
-   "nagłówek": "Denis Villeneuve o nowym Bondzie. \"Każde moje słowo będzie analizowane\"",
-   "lead": "Niecierpliwie czekamy na kolejne oficjalne wieści na temat nowego filmu o Jamesie Bondzie (przede wszystkim na wieść, kto zagra agenta 007), ale reżyser Denis Villeneuve nie zamierza na razie zdradzać",
+   "nagłówek": "Gigantyczna fortuna 84-letniego gwiazdora. Na czym zarabia najwięcej?",
+   "lead": "Według najnowszego notowania magazynu \"Forbes\", majątek Paula McCartneya szacowany jest na 1,4 miliarda dolarów. Tym samym 84-letni Beatles znalazł się na trzecim miejscu listy najbogatszych muzyków na świecie.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-09T07:45:00+00:00",
+   "opublikowano": "2026-11-10T11:44:07+00:00",
    "źródło": {
-    "nazwa": "Filmweb",
-    "url": "https://www.filmweb.pl/news/Denis+Villeneuve+o+nowym+Bondzie.+%22Ka%C5%BCde+moje+s%C5%82owo+b%C4%99dzie+analizowane%22-169572",
-    "domena": "filmweb.pl"
+    "nazwa": "Interia Muzyka",
+    "url": "https://muzyka.interia.pl/pop/news-paul-mccartney-i-jego-imponujacy-majatek-na-czym-zarabia-naj,nId,23571802",
+    "domena": "muzyka.interia.pl"
    },
-   "obraz": "https://fwcdn.pl/nph/1433332/2026/78954_1.16.jpg",
-   "sekcje": [],
+   "obraz": "https://i.iplsc.com/-/000NIOWB76B183PA-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Na liście \"Forbesa\" Paula McCartneya wyprzedzają tylko Taylor Swift (2 mld dol.) i Jay-Z (2,8 mld dol.).",
+      "Barierę 1 mld funtów (to ok.",
+      "1,33 mld dol.) przekroczył już w 2024 r., ale od tego czasu jego fortuna ciągle rośnie.",
+      "Głównym filarem finansowego imperium Paula McCartneya jest jego niezależna firma wydawnicza MPL Communications, założona w 1969 roku tuż przed rozpadem The Beatles .",
+      "Artysta wykazał się niezwykłą intuicją rynkową, skupując prawa autorskie do cudzych katalogów muzycznych na długo przed tym, jak stało się to popularnym sposobem inwestowania w branży.",
+      "Dziś jego spółka, wyceniana na co najmniej 250 milionów dol., kontroluje tysiące kultowych dzieł, w tym klasyki Buddy'ego Holly'ego , musicale oraz standardy świąteczne, generując dla muzyka kilkadziesiąt milionów dolarów czystego zysku rocznie.",
+      "Kluczowe źródło dochodu dla McCartneya stanowią zyski bezpośrednio powiązane z dziedzictwem The Beatles oraz odzyskanymi prawami autorskimi.",
+      "Artysta posiada 25 proc. udziałów w holdingu Apple Corps , który zarządza marką zespołu i generuje około 50 milionów dolarów rocznie ze streamingu, sprzedaży płyt winylowych oraz oficjalnych gadżetów.",
+      "Dodatkowo, po trwającej ponad dwie dekady batalii prawnej, muzyk skutecznie zabezpieczył swoje prawa do katalogu kompozycji stworzonych wspólnie z Johnem Lennonem ."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "The Beatles – brytyjski rockowy zespół muzyczny z Liverpoolu, działający w latach 1960–1970. Przez większość tego okresu w jego skład wchodzili John Lennon, Paul McCartney, George Harrison i Ringo Starr."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: The Beatles",
+     "url": "https://pl.wikipedia.org/wiki/The_Beatles"
+    }
+   ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "007",
-    "40",
-    "17"
+    "1,4 miliarda",
+    "84",
+    "2 mld",
+    "2,8 mld",
+    "1 mld",
+    "1,33 mld"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "The Beatles",
+    "opis": "brytyjski zespół rockowy",
+    "tekst": "The Beatles – brytyjski rockowy zespół muzyczny z Liverpoolu, działający w latach 1960–1970. Przez większość tego okresu w jego skład wchodzili John Lennon, Paul McCartney, George Harrison i Ringo Starr.",
+    "url": "https://pl.wikipedia.org/wiki/The_Beatles",
+    "język": "pl"
+   },
    "tagi": [
-    "Denis Villeneuve",
-    "Jamesie Bondzie",
-    "Niecierpliwie",
-    "Villeneuve"
+    "Beatles",
+    "Paula McCartneya",
+    "Johnem Lennonem",
+    "McCartney"
    ],
    "emotki": [
-    "🎬"
+    "🎵",
+    "💰"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Filmweb",
-     "tytuł": "Denis Villeneuve o nowym Bondzie. \"Każde moje słowo będzie analizowane\"",
-     "url": "https://www.filmweb.pl/news/Denis+Villeneuve+o+nowym+Bondzie.+%22Ka%C5%BCde+moje+s%C5%82owo+b%C4%99dzie+analizowane%22-169572"
+     "nazwa": "Interia Muzyka",
+     "tytuł": "Gigantyczna fortuna 84-letniego gwiazdora. Na czym zarabia najwięcej?",
+     "url": "https://muzyka.interia.pl/pop/news-paul-mccartney-i-jego-imponujacy-majatek-na-czym-zarabia-naj,nId,23571802"
     },
     {
-     "nazwa": "BBC Kultura",
-     "tytuł": "James Bond: What we know so far about the next 007 film",
-     "url": "https://www.bbc.co.uk/news/articles/ck79p0lev47po?at_medium=RSS&at_campaign=rss"
+     "nazwa": "The Guardian Music",
+     "tytuł": "Paul McCartney becomes a billionaire and world’s third richest musician",
+     "url": "https://www.theguardian.com/music/2026/nov/09/paul-mccartney-billionaire"
     },
     {
-     "nazwa": "The Guardian Film",
-     "tytuł": "Robert Pattinson has auditioned for James Bond – and finally the 007 race is interesting | Sian Cain",
-     "url": "https://www.theguardian.com/film/2026/nov/09/robert-pattinson-nicholas-hoult-josh-oconnor-new-james-bond-contenders"
+     "nazwa": "The Guardian Music",
+     "tytuł": "One step beyond! Janette Beckman on her era-defining 2 Tone and ska images – in pictures",
+     "url": "https://www.theguardian.com/artanddesign/gallery/2026/nov/10/janette-beckman-2-tone-ska-images-in-pictures-the-specials-paul-weller"
     }
    ],
-   "liczba_źródeł": 3,
+   "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 7.911,
+    "wynik": 6.507,
     "składowe": {
-     "potwierdzenia": 3.8,
-     "ranga_źródła": 1.537,
-     "eksponowanie": 0.54,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.334,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.343,
+     "eksponowanie": 1.53,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.384,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -1641,61 +1981,59 @@
     "emoji": "🎬",
     "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
    },
-   "nagłówek": "Russell Brand skazany na ponad 10 lat więzienia. Sąd ogłosił wyrok",
-   "lead": "Do sieci trafiła informacja, że Russell Brand został skazany na 10 lat i 6 miesięcy więzienia za gwałt i napaści na tle seksualnym. Wyrok zapadł w poniedziałek w londyńskim sądzie, po tym, jak w zeszłym tygodniu ława przysięgłych uznała aktora i komika za winnego czterech przestępstw.",
+   "nagłówek": "Gwiazdy \"Krainy lodu\" zapraszają do \"Prawdziwej krainy lodu\"",
+   "lead": "National Geographic łączy siły z Walt Disney Animation Studios. Efektem ich współpracy będzie serial dokumentalny \" The Real Frozen \", w którym wezmą udział gwiazdy oscarowej animacji \" Kraina lodu \".",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-09T15:16:00+00:00",
+   "opublikowano": "2026-11-10T10:30:39+00:00",
    "źródło": {
     "nazwa": "Filmweb",
-    "url": "https://www.filmweb.pl/news/Russell+Brand+skazany+na+ponad+10+lat+wi%C4%99zienia.+S%C4%85d+og%C5%82osi%C5%82+wyrok-169581",
+    "url": "https://www.filmweb.pl/news/%22The+Real+Frozen%22%3A+Bell%2C+Menzel%2C+Groff+i+Gad+narratorami+serialu+National+Geographic-169595",
     "domena": "filmweb.pl"
    },
-   "obraz": "https://fwcdn.pl/nph/1433332/2026/78968_1.16.jpg",
+   "obraz": "https://fwcdn.pl/nph/2025458/2026/79001_1.16.jpg",
    "sekcje": [],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "10 lat"
+    "92",
+    "25",
+    "80"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Russell Brand",
-    "Brand"
+    "Walt Disney Animation Studios",
+    "National Geographic",
+    "Real Frozen",
+    "Prawdziwej"
    ],
    "emotki": [
-    "⚖️",
-    "🎭"
+    "🎬"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Filmweb",
-     "tytuł": "Russell Brand skazany na ponad 10 lat więzienia. Sąd ogłosił wyrok",
-     "url": "https://www.filmweb.pl/news/Russell+Brand+skazany+na+ponad+10+lat+wi%C4%99zienia.+S%C4%85d+og%C5%82osi%C5%82+wyrok-169581"
+     "tytuł": "Gwiazdy \"Krainy lodu\" zapraszają do \"Prawdziwej krainy lodu\"",
+     "url": "https://www.filmweb.pl/news/%22The+Real+Frozen%22%3A+Bell%2C+Menzel%2C+Groff+i+Gad+narratorami+serialu+National+Geographic-169595"
     },
     {
-     "nazwa": "BBC Kultura",
-     "tytuł": "Jemima Goldsmith accuses Russell Brand of violence and abuse against her",
-     "url": "https://www.bbc.co.uk/news/articles/c95ynylr8j6xo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC Kultura",
-     "tytuł": "Russell Brand sentenced to 10-and-a-half years in prison for rape and sexual assault",
-     "url": "https://www.bbc.co.uk/news/articles/ckzd6dl18dmyo?at_medium=RSS&at_campaign=rss"
+     "nazwa": "The Guardian Film",
+     "tytuł": "Donnie Dunagan, original voice of Disney’s Bambi and triple Purple Heart marine, dies aged 92",
+     "url": "https://www.theguardian.com/film/2026/nov/09/donnie-dunagan-bambi-voice-triple-purple-heart-marine-dies"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.306,
+    "wynik": 5.984,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.545,
-     "eksponowanie": 1.08,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.575,
-     "treściwość": 0.356,
+     "ranga_źródła": 1.315,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.369,
+     "treściwość": 0.5,
      "język_działu": 0.5
     }
    },
@@ -1706,7 +2044,7 @@
  "statystyki": {
   "kanały_ok": 71,
   "kanały_błędne": 1,
-  "znaki_tłumaczone": 17456,
+  "znaki_tłumaczone": 19779,
   "niedziałające_kanały": [
    {
     "url": "https://www.esa.int/rssfeed/Our_Activities/Space_Science",
@@ -1714,6 +2052,6 @@
    }
   ],
   "działy": 18,
-  "artykuły_w_oknie": 45
+  "artykuły_w_oknie": 76
  }
 }
