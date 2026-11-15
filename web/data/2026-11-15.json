@@ -1,0 +1,1905 @@
+{
+ "wersja": "1.0.0",
+ "wydanie": "2026-11-15",
+ "dotyczy_dnia": "2026-11-14",
+ "wygenerowano": "2026-11-15T13:21:01+00:00",
+ "strefa": "Europe/Warsaw",
+ "tryb": "ekstrakcyjny",
+ "demo": false,
+ "pozycje": [
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Donald Tusk uderzył w Nawrockiego. Pałac odpowiedział: Obrzydliwe",
+   "lead": "Prezydent Karol Nawrocki zawetował w piątek rządową nowelę wdrażającą Akt o usługach cyfrowych (DSA) . Celem zmian było wprowadzenie procedury, dzięki której możliwe byłoby szybkie wydawanie nakazów ograniczających dostęp do treści naruszających prawo w internecie.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-14T15:00:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/fakty/polityka/news-donald-tusk-uderzyl-w-nawrockiego-palac-odpowiedzial-obrzydl,nIdn,1026120",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/d8/d5/donald-tusk-karol-nawrocki-fot-636x421-d8d52de1.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "„Z prezydenckiego weta zadowoleni są hejterzy, rosyjskie farmy trolli, pedofile, ekstremalni nihiliści i lobbyści.",
+      "Ofiarami tego weta są polskie dzieci, rodzice, bezpieczeństwo wszystkich obywateli.",
+      "Tego nie da się w żaden sposób usprawiedliwić” – napisał w sobotę na platformie X szef rządu.",
+      "Do decyzji prezydenta Tusk odniósł się też w piątek, pisząc, że trudno wyobrazić sobie ważniejszą sprawę, która – jak stwierdził – powinna łączyć ponad politycznymi podziałami, niż ochronę dzieci przed internetowymi przestępcami.",
+      "Donaldowi Tuskowi odpowiedział w sobotę szef gabinetu prezydenta Paweł Szefernaker.",
+      "„Wystarczyło napisać dobre prawo.",
+      "Dzieci trzeba chronić realnie, a nie używać ich bezpieczeństwa jako tarczy dla wprowadzania cenzury.",
+      "Tak nie buduje się odpowiedzialnej polityki.",
+      "Tak buduje się atmosferę szantażu i strachu."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "\"Z prezydenckiego weta zadowoleni są hejterzy, rosyjskie farmy trolli (...), ekstremalni nihiliści i lobbyści\" - ocenił Donald Tusk.",
+      "Premier odniósł się w ten sposób do decyzji prezydenta Karola Nawrockiego o zawetowaniu Aktu o usługach cyfrowych, czyli tzw.",
+      "Według premiera \"ofiarami tego weta są polskie dzieci, rodzice, bezpieczeństwo wszystkich obywateli\". \" Tego nie da się w żaden sposób usprawiedliwić \" - skwitował Tusk.",
+      "W piątek (13 listopada) prezydent Karol Nawrocki po raz kolejny zawetował rządową ustawę wdrażającą do polskiego prawa unijny akt o usługach cyfrowych (DSA ).",
+      "Celem zmian było wprowadzenie procedury, dzięki której możliwe byłoby szybkie wydawanie nakazów ograniczających dostęp do treści naruszających prawo w internecie.",
+      "Tego nie da się w żaden sposób usprawiedliwić\" - napisał w sobotę (14 listopada) na platformie X Donald Tusk.",
+      "Do decyzji głowy państwa szef rządu odniósł się też w piątek, pisząc, że trudno wyobrazić sobie ważniejszą sprawę, która - jak stwierdził - powinna łączyć ponad politycznymi podziałami, niż ochronę dzieci przed internetowymi przestępcami ."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Karol Tadeusz Nawrocki – polski historyk, polityk, działacz społeczny i samorządowy, doktor nauk humanistycznych. Prezydent Rzeczypospolitej Polskiej od 6 sierpnia 2025."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Karol Nawrocki",
+     "url": "https://pl.wikipedia.org/wiki/Karol_Nawrocki"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "15",
+    "13",
+    "14"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Fakty",
+     "ujęcie": "- Premier zapraszający na opłatek jest groźniejszy niż ten wchodzący z policją do Trybunału Konstytucyjnego - oceniła Dorota Gawryluk, odnosząc się do zaproszenia, które premier skierował do prezydenta w dniu Narodowego Święta Niepodległości.",
+     "url": "https://wydarzenia.interia.pl/kraj/news-tusk-zaprosil-nawrockiego-do-domu-gawryluk-to-jest-grozniejs,nId,23573406"
+    },
+    {
+     "źródło": "Gazeta.pl",
+     "ujęcie": "Premier Donald Tusk oświadczył, że nie weźmie udziału w poniedziałkowym spotkaniu w Pałacu Prezydenckim, które będzie poświęcone przyszłości TK. - Sprawa Trybunału Konstytucyjnego jest rozstrzygnięta - powiedział szef rządu.",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33131635,tusk-odpowiada-na-zaproszenie-do-palacu-prezydenckiego-ja.html"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Karol Nawrocki",
+    "opis": "polski historyk i polityk, 7. prezydent III RP (od 2025)",
+    "tekst": "Karol Tadeusz Nawrocki – polski historyk, polityk, działacz społeczny i samorządowy, doktor nauk humanistycznych. Prezydent Rzeczypospolitej Polskiej od 6 sierpnia 2025.",
+    "url": "https://pl.wikipedia.org/wiki/Karol_Nawrocki",
+    "język": "pl"
+   },
+   "tagi": [
+    "Tusk",
+    "Obrzydliwe Prezydent Karol Nawrocki",
+    "Krzysztof Gawkowski",
+    "Paweł Szefernaker"
+   ],
+   "emotki": [
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Donald Tusk uderzył w Nawrockiego. Pałac odpowiedział: Obrzydliwe",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-donald-tusk-uderzyl-w-nawrockiego-palac-odpowiedzial-obrzydl,nIdn,1026120"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Tusk ostro o wecie Nawrockiego. Pisze o \"ofiarach\"",
+     "url": "https://wydarzenia.interia.pl/kraj/news-tusk-ostro-o-wecie-nawrockiego-pisze-o-ofiarach,nId,23573485"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Tusk o wecie Nawrockiego: \"Zadowoleni są hejterzy i pedofile\". Jest odpowiedź Pałacu Prezydenckiego",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33132111,tusk-o-wecie-nawrockiego-zadowoleni-sa-hejterzy-i-pedofile.html"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Tusk zaprosił Nawrockiego do domu. Gawryluk: To jest groźniejszy premier",
+     "url": "https://wydarzenia.interia.pl/kraj/news-tusk-zaprosil-nawrockiego-do-domu-gawryluk-to-jest-grozniejs,nId,23573406"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Tusk odpowiada na zaproszenie do Pałacu Prezydenckiego. \"Ja się nie wybieram\"",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33131635,tusk-odpowiada-na-zaproszenie-do-palacu-prezydenckiego-ja.html"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.036,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.75,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.436,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Odbyły się pogrzeby ofiar ataku w Krakowie. „Jeszcze kilka dni temu miała plany”",
+   "lead": "W Sędziszowie Małopolskim w Kościele pw. Narodzenia NMP pożegnano 47-letnią panią Ewelinę, która była m.in. wolontariuszką Szlachetnej Paczki .",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-14T18:12:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/regiony/news-odbyly-sie-pogrzeby-ofiar-ataku-w-krakowie-jeszcze-kilka-dni,nIdn,1026132",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/40/23/krakow-miejsce-smierci-pana-roberta-fot-636x421-40235cac.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "W uroczystościach uczestniczyli rodzina, przyjaciele, władze samorządowe oraz mieszkańcy miasta.",
+      "Podczas mszy świętej żałobnej ksiądz Tomasz Rusyn zwrócił uwagę na nagły charakter śmierci zmarłej i przypomniał o jej zaangażowaniu w akcje pomocowe.",
+      "Jeszcze kilka dni temu była wśród nas, chodziła, rozmawiała, witała się, miała swoje plany.",
+      "Może jakieś działania czy akcje charytatywne wobec ludzi czy zwierząt, a może już miała plan na kolejną Szlachetną Paczkę – powiedział ksiądz.",
+      "Podkreślił, że zmarła była osobą zawsze bliską tym, którzy potrzebowali wsparcia.",
+      "Wezwał zgromadzonych w świątyni do modlitwy w intencji zmarłej oraz jej najbliższych.",
+      "Samorządowiec zaznaczył, że wiadomość o śmierci mieszkanki poruszyła całą lokalną społeczność.",
+      "Dziś cała nasza sędziszowska wspólnota staje tutaj jak jedna wielka rodzina, by pożegnać kogoś bardzo bliskiego.",
+      "Ten ból jest bólem nas wszystkich: rodziny, przyjaciół, znajomych i całej lokalnej społeczności – mówił."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "- Nie możemy pozwolić, aby wraz z twoim odejściem odeszło także dobro, które tak hojnie rozdawałaś - powiedział burmistrz Sędziszowa Małopolskiego Bogusław Kmieć podczas pogrzebu 47-letniej kobiety, ofiary zamachu w Krakowie.",
+      "W sobotę odbyły się także uroczystości pogrzebowe 55-latka, który także zginął w wyniku ataku na krakowskim Rynku Głównym.",
+      "Narodzenia NMP pożegnano 47-letnią kobietę, która była m.in. wolontariuszką Szlachetnej Paczki , otwiera się w nowym oknie .",
+      "Podczas mszy świętej żałobnej ksiądz Tomasz Rusyn zwrócił uwagę na nagły charakter śmierci zmarłej i przypomniał o jej zaangażowaniu w akcje pomocowe. - Jeszcze kilka dni temu była wśród nas, chodziła, rozmawiała, witała się, miała swoje plany .",
+      "Może jakieś działania czy akcje charytatywne wobec ludzi czy zwierząt, a może już miała plan na kolejną Szlachetną Paczkę - powiedział ksiądz.",
+      "W opublikowanym w piątek (13 listopada) uzasadnieniu do projektu Ministerstwa Finansów wskazano, że \"kierując się uzasadnionym interesem publicznym, jak również ważnym interesem\" minister Andrzej Domański proponuje zaniechanie poboru podatku od spadków i darowizn od podatników.",
+      "Będzie ono dotyczyć tych, którzy \"odnieśli obrażenia ciała w wyniku działań o charakterze terrorystycznym, które miały miejsce w dniu 7 listopada 2026 roku w Krakowie\", a także osób, będących \"małżonkami, zstępnymi lub wstępnymi osób, które poniosły śmierć, w wyniku tych działań\"."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Strzelanina w Krakowie w 2026 roku – masowa strzelanina, zakwalifikowana przez prokuraturę jako przestępstwo o charakterze terrorystycznym, do której doszło 7 listopada 2026 roku około godziny 15 w centrum Krakowa. Napastnik, poruszając się samochodem, oddawał strzały z karabinka AR-15 do przypadkowych osób na Rynku Głównym i okolicznych ulicach, a także ostrzelał tramwaj komunikacji miejskiej. Po kilkuminutowym pościgu został obezwładniony w wyniku wymiany ognia z funkcjonariuszami Policji w rejonie skrzyżowania ulic Dietla i Stradomskiej. W wyniku strzelaniny zginęło 6 osób – cztery kobiety i dwóch mężczyzn – a 15 zostało rannych, w tym dwóch policjantów. Ciężko ranny sprawca zmarł 9 listopada w szpitalu."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Strzelanina w Krakowie (2026)",
+     "url": "https://pl.wikipedia.org/wiki/Strzelanina_w_Krakowie_(2026)"
+    }
+   ],
+   "dlaczego_to_ważne": "Nie możemy pozwolić, aby wraz z twoim odejściem odeszło także dobro, które tak hojnie rozdawałaś.",
+   "liczby": [
+    "47",
+    "55",
+    "20 lat",
+    "24",
+    "15",
+    "13"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "RMF24",
+     "ujęcie": "Darowizny na rzecz ofiar ataku w Krakowie zwolnione z podatku",
+     "url": "https://www.rmf24.pl/fakty/polska/news-darowizny-na-rzecz-ofiar-ataku-w-krakowie-zwolnione-z-podatk,nIdn,1026056"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Strzelanina w Krakowie (2026)",
+    "opis": "zamach terrorystyczny o charakterze masowej strzelaniny w Krakowie z 7 listopada 2026",
+    "tekst": "Strzelanina w Krakowie w 2026 roku – masowa strzelanina, zakwalifikowana przez prokuraturę jako przestępstwo o charakterze terrorystycznym, do której doszło 7 listopada 2026 roku około godziny 15 w centrum Krakowa. Napastnik, poruszając się samochodem, oddawał strzały z karabinka AR-15 do przypadkowych osób na Rynku Głównym i okolicznych ulicach, a także ostrzelał tramwaj komunikacji miejskiej. Po kilkuminutowym pościgu został obezwładniony w wyniku wymiany ognia z funkcjonariuszami Policji w rejonie skrzyżowania ulic Dietla i Stradomskiej. W wyniku strzelaniny zginęło 6 osób – cztery kobiety i dwóch mężczyzn – a 15 zostało rannych, w tym dwóch policjantów. Ciężko ranny sprawca zmarł 9 listopada w szpitalu.",
+    "url": "https://pl.wikipedia.org/wiki/Strzelanina_w_Krakowie_(2026)",
+    "język": "pl"
+   },
+   "tagi": [
+    "Krakowie",
+    "Stowarzyszenia Kupców Prowadzących Handel Obwoźny",
+    "Sędziszowa Małopolskiego Bogusław Kmieć",
+    "Dziennikowi Polskiemu Adam Szyfko"
+   ],
+   "emotki": [
+    "🚑"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Odbyły się pogrzeby ofiar ataku w Krakowie. „Jeszcze kilka dni temu miała plany”",
+     "url": "https://www.rmf24.pl/regiony/news-odbyly-sie-pogrzeby-ofiar-ataku-w-krakowie-jeszcze-kilka-dni,nIdn,1026132"
+    },
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Darowizny na rzecz ofiar ataku w Krakowie zwolnione z podatku",
+     "url": "https://www.rmf24.pl/fakty/polska/news-darowizny-na-rzecz-ofiar-ataku-w-krakowie-zwolnione-z-podatk,nIdn,1026056"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Pogrzeby ofiar zamachu w Krakowie. \"Ten ból, jest bólem nas wszystkich\"",
+     "url": "https://wydarzenia.interia.pl/kraj/news-pozegnano-ofiary-zamachu-w-krakowie-ten-bol-jest-bolem-nas-w,nId,23573504"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Darowizny na rzecz ofiar ataku w Krakowie i ich rodzin mają być zwolnione z podatku. Jest projekt",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198072,33131640,darowizny-na-rzecz-ofiar-ataku-w-krakowie-i-ich-rodzin-maja.html"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.172,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.622,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.465,
+     "treściwość": 0.435,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Przełom w lotach kosmicznych. Starship powrócił do wieży startowej",
+   "lead": "Starship po raz pierwszy powrócił do wieży startowej SpaceX w Teksasie po 22-godzinnym locie.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-14T21:58:29+00:00",
+   "źródło": {
+    "nazwa": "Onet Świat",
+    "url": "https://wiadomosci.onet.pl/swiat/przelom-w-lotach-kosmicznych-starship-powrocil-do-wiezy-startowej/1mqtt9k",
+    "domena": "wiadomosci.onet.pl"
+   },
+   "obraz": "https://cdn.wiadomosci.onet.pl/1/weUk9lGaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy9hMDJlMGEyNi0zMDkwLTQ1MTAtODQ2OC1mYWEwN2IwMDgyZjYuanBlZ5KVAwDMvc0XcM0NL5MFzQlgzQZA3gACoTAHoTEE",
+   "sekcje": [],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "22",
+    "171",
+    "52",
+    "14",
+    "15",
+    "26"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Starship",
+    "Teksasie",
+    "SpaceX"
+   ],
+   "emotki": [
+    "🚀"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Onet Świat",
+     "tytuł": "Przełom w lotach kosmicznych. Starship powrócił do wieży startowej",
+     "url": "https://wiadomosci.onet.pl/swiat/przelom-w-lotach-kosmicznych-starship-powrocil-do-wiezy-startowej/1mqtt9k"
+    },
+    {
+     "nazwa": "BBC News",
+     "tytuł": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
+     "url": "https://www.bbc.co.uk/news/videos/cwlym2gy3y3eo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "SpaceX’s Starship returns to launch pad from orbit in victory for company",
+     "url": "https://www.theguardian.com/science/2026/nov/14/spacex-starship-double-catch"
+    },
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "SpaceX launches Starship rocket, fails to recover booster",
+     "url": "https://www.dw.com/en/spacex-launches-starship-rocket-fails-to-recover-booster/a-79946091?maca=en-rss-en-world-4025-rdf"
+    }
+   ],
+   "liczba_źródeł": 4,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 9.407,
+    "składowe": {
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 1.837,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.52,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Rząd Serbii rozwiązał umowę z zięciem Donalda Trumpa",
+   "lead": "Minister budownictwa Serbii Aleksandra Sofronijević poinformowała, że rząd rozwiązał kontrowersyjną umowę z firmą Jareda Kushnera, zięcia prezydenta USA Donalda Trumpa. Umowa dotyczyła budowy luksusowego kompleksu w miejscu dawnego budynku Sztabu Generalnego w Belgradzie, zbombardowanego w 1999 r. przez NATO.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-15T02:58:16+00:00",
+   "źródło": {
+    "nazwa": "Onet Świat",
+    "url": "https://wiadomosci.onet.pl/swiat/serbia-zerwala-umowe-z-firma-jareda-kushnera-chodzi-o-belgrad/f8yf8ts",
+    "domena": "wiadomosci.onet.pl"
+   },
+   "obraz": "https://cdn.wiadomosci.onet.pl/1/spYk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy8yYzQ5ZTg4YWI5NDkyNmRhODc1YWU3MzM5ZWRiMDNmYi5qcGeSlQMAIs0FLc0C6ZMFzQlgzQZA3gACoTAHoTEE",
+   "sekcje": [],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "60%",
+    "2.0"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Serbii Aleksandra Sofronijević",
+    "Donalda Trumpa Minister",
+    "USA Donalda Trumpa",
+    "Sztabu Generalnego"
+   ],
+   "emotki": [
+    "🏛️",
+    "🤝"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Onet Świat",
+     "tytuł": "Rząd Serbii rozwiązał umowę z zięciem Donalda Trumpa",
+     "url": "https://wiadomosci.onet.pl/swiat/serbia-zerwala-umowe-z-firma-jareda-kushnera-chodzi-o-belgrad/f8yf8ts"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "World leaders head to Asia for back-to-back diplomatic summits",
+     "url": "https://www.theguardian.com/world/2026/nov/15/asia-diplomatic-summits-trump-xi-putin-apec-asean"
+    },
+    {
+     "nazwa": "Politico Europe",
+     "tytuł": "Finland rejects reported Russian demand to leave NATO as part of peace talks",
+     "url": "https://www.politico.eu/article/finland-rejects-reported-russian-demand-to-leave-nato-as-part-of-peace-talks/"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.663,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.515,
+     "eksponowanie": 0.36,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.588,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Tabela \"polskiej grupy\" Ligi Narodów. Oto sytuacja po meczu z Rumunią",
+   "lead": "W sobotę wieczorem piłkarze reprezentacji Polski przystąpili do pierwszego z dwóch zaplanowanych na listopadowe zgrupowanie spotkań w ramach Dywizji B Ligi Narodów. Po drugiej stronie boiska w Bukareszcie znaleźli się Rumuni.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-14T21:43:39+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/reprezentacja-polski/news-koniec-marzen-polakow-porazka-z-rumunia-przekresla-wszystko,nId,23573079",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NJ4USOWK5XBS4-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Ci chcieli się zrewanżować za wydarzenia z Warszawy i porażki aż 0:6.",
+      "\"Trójkolorowi\" wykorzystali słabszą dyspozycję Polaków w defensywie i strzelili dwa gole... w cztery minuty.",
+      "Choć kadra Jana Urbana próbowała odpowiedzieć, to jedno trafienie zdało się na nic.",
+      "Finalnie \"Biało-Czerwoni\" ulegli 1:2 , przez co stracili jakiekolwiek szanse na awans do dywizji A, a także na drugi koszyk podczas losowania grup do kwalifikacji mistrzostw Europy.",
+      "Przed dzisiejszymi meczami w \"polskiej grupie\" Ligi Narodów UEFA , otwiera się w nowym oknie Szwecja prowadziła z dorobkiem 10 punktów i przewagą dwóch nad drugą Bośnią i Hercegowiną.",
+      "Trzecie miejsce zajmowali Polacy z czterema \"oczkami\", a ostatnie Rumuni, którzy pozostawali bez punktów.",
+      "W sobotę do sporych zmian nie doszło.",
+      "Szwedzi poradzili sobie z Bośniakami 3:2 , dzięki czemu zapewnili sobie awans do wyższej dywizji.",
+      "Bośnia natomiast jest pewna baraży."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Liga Narodów UEFA 2026/2027: tabela grupy B4 po meczu Rumunia – Polska.",
+      "Liga Narodów UEFA 2026/27 – terminarz, wyniki i tabele."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "W przypadku Rumunów wygrana nad Polską oznacza, że mogą jeszcze marzyć o utrzymaniu w Dywizji B.",
+   "liczby": [
+    "10 punktów",
+    "17",
+    "20",
+    "45",
+    "27",
+    "12"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "Skrót spotkania 5. kolejki Ligii Narodów UEFA : Rumunia – Polska .",
+     "url": "https://sport.tvp.pl/96482135/rumunia-polska-liga-narodow-uefa-bukareszt-skrot"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Ligi Narodów",
+    "Dywizji",
+    "Polski",
+    "Rumuni"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Tabela \"polskiej grupy\" Ligi Narodów. Oto sytuacja po meczu z Rumunią",
+     "url": "https://sport.interia.pl/pilka-nozna/reprezentacja-polski/news-koniec-marzen-polakow-porazka-z-rumunia-przekresla-wszystko,nId,23573079"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Liga Narodów UEFA: Rumunia – Polska [SKRÓT]",
+     "url": "https://sport.tvp.pl/96482135/rumunia-polska-liga-narodow-uefa-bukareszt-skrot"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Liga Narodów UEFA 2026/2027: tabela grupy B4 po meczu Rumunia – Polska. Na którym miejscu reprezentacja Polski w piłce nożnej?",
+     "url": "https://sport.tvp.pl/95591970/tabela-grupy-polakow-w-lidze-narodow-20262027-na-ktorym-miejscu-reprezentacja-polski"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Liga Narodów UEFA 2026/27 – terminarz, wyniki i tabele. Kiedy gra reprezentacja Polski? [AKTUALIZACJA]",
+     "url": "https://sport.tvp.pl/95581586/liga-narodow-uefa-202627-terminarz-wyniki-i-tabele-kiedy-gra-polska-aktualizacja"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Liga Narodów UEFA: terminarz i wyniki 5. kolejki fazy grupowej. Które spotkania w TVP? (12.-14.11.2026)",
+     "url": "https://sport.tvp.pl/96402189/liga-narodow-uefa-terminarz-i-wyniki-5-kolejki-fazy-grupowej-ktore-spotkania-w-tvp-12-14112026"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.766,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.65,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.516,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Urban zabrał głos po porażce. \"Czy mnie zwolnią?\". Topór wisi w powietrzu",
+   "lead": "Niestety, sobotni mecz w Bukareszcie zakończył się w sposób, którego nie przewidywał chyba nawet najczarniejszy scenariusz. Reprezentacja Polski opuszcza Rumunię na tarczy po dotkliwej porażce 1:2 , która odarła nas z marzeń o drugim miejscu w grupie i sprawiła, że w oczy zajrzała nam możliwa wizja spadku do dywizji C…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-14T23:10:13+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/reprezentacja-polski/news-urban-zabral-glos-po-porazce-czy-mnie-zwolnia-topor-wisi-w-p,nId,23573558",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NJ4W3S6FO7X3O-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Drużyna, która przegrała wszystko i gra przed własną publicznością, będzie miała cechy wolicjonalne na najwyższym poziomie.",
+      "Pod tym względem byliśmy na podobnym poziomie co rywale .",
+      "Straciliśmy dwie bramki pomagając przeciwnikowi. (...) Gdy budujesz coś, musisz wiedzieć, że możesz za to drogo zapłacić.",
+      "Wiktor Nowak zagrał dobre spotkanie, ale miał swoje błędy.",
+      "Kacper Potulski też zagrał dobre spotkanie, a stawia pierwsze kroki w reprezentacji.",
+      "To samo można powiedzieć o Marcelu Regule.",
+      "Zostawił zdrowie na murawie i dostał za to nagrodę w postaci bramki.",
+      "A Oskar Kubiak nie zaczyna przygody w reprezentacji?",
+      "Potem wszedł jeszcze Bartosz Mazurek."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Reprezentacja Polski po ograniu w październiku Rumunii 6:0 tym razem musiała przełknąć gorzką pigułkę w starciu z \"Trójkolorowymi\" - w sobotni wieczór \"Biało-Czerwoni\" ulegli tym rywalom w Lidze Narodów 1:2.",
+      "Kacper Potulski po zakończeniu spotkania wskazał potencjalną przyczynę tej przegranej. – Zabrakło nam kreatywności szczególnie w ostatniej tercji boiska.",
+      "Nie mieliśmy aż tak wielu sytuacji, żeby można było powiedzieć, że zdominowaliśmy Rumunów, a piłka nie chciała wpaść do siatki.",
+      "Będziemy mieli materiał w postaci zawodników do oceny, którzy w niedalekiej przyszłości mogą grać tu dłużej – powiedział po meczu z Rumunią selekcjoner polskiej kadry, Jan Urban."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "A może akurat będzie dobrze, bo materiał jest naprawdę dobry i to nie będzie miało wpływu na wynik - powiedział na starcie swojej pomeczowej konferencji prasowej selekcjoner Jan Urban. - Dzisiaj od samego początku mieliśmy czterech młodych zawodników.",
+   "liczby": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Sport",
+     "ujęcie": "Jan Urban po końcowym gwizdku stawił się przed kamerą TVP Sport i odpowiedział na kilka pytań Huberta Bugaja.",
+     "url": "https://sport.interia.pl/pilka-nozna/reprezentacja-polski/news-urban-przemowil-przed-kamera-po-porazce-z-rumunia-tak-odpowi,nId,23573570"
+    },
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "Reprezentacja Polski poniosła bolesną porażkę w Lidze Narodów UEFA , ulegając w Bukareszcie Rumunii 1:2.",
+     "url": "https://sport.tvp.pl/96483266/reprezentacja-polski-nie-wywalczyla-nawet-punktu-w-bukareszcie-kacper-potulski-zabraklo-nam-kreatywnosci-wideo"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Jan Urban",
+    "Polski",
+    "Ligi Narodów Wiedzieliśmy",
+    "Robert Lewandowski"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Urban zabrał głos po porażce. \"Czy mnie zwolnią?\". Topór wisi w powietrzu",
+     "url": "https://sport.interia.pl/pilka-nozna/reprezentacja-polski/news-urban-zabral-glos-po-porazce-czy-mnie-zwolnia-topor-wisi-w-p,nId,23573558"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Urban przemówił po porażce z Rumunią. To powiedział o przyszłości w kadrze",
+     "url": "https://sport.interia.pl/pilka-nozna/reprezentacja-polski/news-urban-przemowil-przed-kamera-po-porazce-z-rumunia-tak-odpowi,nId,23573570"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Reprezentacja Polski nie wywalczyła nawet punktu w Bukareszcie. Kacper Potulski: zabrakło nam kreatywności [WIDEO]",
+     "url": "https://sport.tvp.pl/96483266/reprezentacja-polski-nie-wywalczyla-nawet-punktu-w-bukareszcie-kacper-potulski-zabraklo-nam-kreatywnosci-wideo"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Jan Urban po porażce z Rumunią: awans nie był naszym celem",
+     "url": "https://sport.tvp.pl/96483599/jan-urban-po-porazce-z-rumunia-awans-nie-byl-naszym-celem"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Jan Urban po porażce z Rumunią: nie zrealizowaliśmy celu [WIDEO]",
+     "url": "https://sport.tvp.pl/96483669/jan-urban-po-porazce-z-rumunia-nie-zrealizowalismy-celu-wideo"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Jan Urban zabrał głos na temat zwolnienia z reprezentacji Polski. \"To nie zależy ode mnie\"",
+     "url": "https://sport.tvp.pl/96483469/jan-urban-zabral-glos-na-temat-zwolnienia-z-reprezentacji-polski-to-nie-zalezy-ode-mnie"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Oskar Kubiak zadebiutował w reprezentacji Polski. Kadra ma ciekawą opcję na lewej obronie",
+     "url": "https://sport.tvp.pl/96482122/oskar-kubiak-zadebiutowal-w-reprezentacji-polski-dodatkowy-bol-glowy-na-lewej-obronie"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Reprezentacja Polski jest przeciętna. Nie wygrała z nikim poważnym od dłuższego czasu",
+     "url": "https://sport.tvp.pl/96483357/reprezentacja-polski-jest-przecietna-nie-wygrala-z-nikim-powaznym-od-dluzszego-czasu"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.887,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 2.107,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.53,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Deklasacja w meczu pogromczyni Sabalenki. Znamy drugą finalistkę WTA Finals",
+   "lead": "Drugą parę półfinałową podczas WTA Finals 2026 stworzyły Linda Noskova oraz Elina Switolina. Ich droga do najlepszej \"4\" przebiegała zupełnie inaczej.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-15T04:45:00+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/tenis/wta-finals/news-deklasacja-w-meczu-pogromczyni-sabalenki-niespodziewany-wyni,nId,23573571",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000MYKKL198C2CGA-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Czeszka zainaugurowała rywalizację w mocnym stylu.",
+      "Pierwsze dwa pojedynki wygrała bez straty seta.",
+      "Dzięki temu miała już zapewniony awans do fazy pucharowej.",
+      "Podczas starcia z Jessicą Pegulą zagwarantowała sobie pierwsze miejsce w grupie, ale ostatecznie zanotowała porażkę w tej potyczce, mimo meczbola w trzeciej partii.",
+      "Z kolei Ukrainka musiała walczyć o miejsce w półfinale do ostatniej kolejki.",
+      "Switolina przegrała pierwsze trzy sety w turnieju, źle wyglądał także początek drugiej partii spotkania z Karoliną Muchovą.",
+      "Tenisistka z Odessy zdołała jednak odwrócić losy rywalizacji w tym starciu.",
+      "Dzięki temu grała bezpośredni pojedynek z Aryną Sabalenką o wyjście z grupy.",
+      "Elina zwyciężyła po trzysetowej batalii i w związku z tym zameldowała się w najlepszej \"4\"."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Za nami pierwszy półfinał WTA Finals 2026.",
+      "Rywalką niepokonanej do tej pory w tym turnieju Mirry Andriejewej była Jessica Pegula, która awansowała do najlepszej \"4\" po obronie meczbola.",
+      "Ostatecznie Rosjanka zwyciężyła 6:3, 6:4 i zagwarantowała sobie pozycję wiceliderki rankingu po rozgrywkach w Indian Wells.",
+      "Oto z kim 19-latka może się zmierzyć w batalii o tytuł."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Aryna Siarhiejeuna Sabalenka – białoruska tenisistka, zwyciężczyni 24 turniejów WTA w grze pojedynczej, w tym Australian Open 2023 i 2024 oraz US Open 2024 i 2025. Od 11 września 2023 do 6 listopada 2023 i od 21 października 2024 roku do 13 września 2026 liderka rankingu singlowego WTA."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Aryna Sabalenka",
+     "url": "https://pl.wikipedia.org/wiki/Aryna_Sabalenka"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "30",
+    "21",
+    "11",
+    "2, 6",
+    "6, 0",
+    "00"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Aryna Sabalenka",
+    "opis": "białoruska tenisistka",
+    "tekst": "Aryna Siarhiejeuna Sabalenka – białoruska tenisistka, zwyciężczyni 24 turniejów WTA w grze pojedynczej, w tym Australian Open 2023 i 2024 oraz US Open 2024 i 2025. Od 11 września 2023 do 6 listopada 2023 i od 21 października 2024 roku do 13 września 2026 liderka rankingu singlowego WTA.",
+    "url": "https://pl.wikipedia.org/wiki/Aryna_Sabalenka",
+    "język": "pl"
+   },
+   "tagi": [
+    "Switolina",
+    "Ukrainka",
+    "Ukrainki",
+    "Finals"
+   ],
+   "emotki": [
+    "🎾"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Deklasacja w meczu pogromczyni Sabalenki. Znamy drugą finalistkę WTA Finals",
+     "url": "https://sport.interia.pl/tenis/wta-finals/news-deklasacja-w-meczu-pogromczyni-sabalenki-niespodziewany-wyni,nId,23573571"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Było już 3:1 dla Peguli w 2. secie meczu z Andriejewą. Oto nowa wiceliderka",
+     "url": "https://sport.interia.pl/tenis/wta-finals/news-bylo-juz-3-1-dla-peguli-w-2-secie-meczu-z-andriejewa-oto-now,nId,23573546"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Andreeva to face Svitolina in WTA Finals showpiece as Sabalenka apologises",
+     "url": "https://www.theguardian.com/sport/2026/nov/14/mirra-andreeva-jessica-pegula-wta-finals-semi-final-indian-wells"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Clara Luvanga strikes as Washington Spirit beat Utah to reach third straight NWSL final",
+     "url": "https://www.theguardian.com/football/2026/nov/14/washington-spirit-utah-royals-nwsl-semi-final-clara-luvanga"
+    },
+    {
+     "nazwa": "BBC Tennis",
+     "tytuł": "Sabalenka's season ended by Svitolina at WTA Finals",
+     "url": "https://www.bbc.co.uk/sport/tennis/articles/cw30gl912vq9o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Tennis",
+     "tytuł": "Svitolina races into WTA Finals showpiece against Andreeva",
+     "url": "https://www.bbc.co.uk/sport/tennis/articles/ck5y1xdrne28o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "Andreeva beats rival Pegula to reach maiden final at WTA Finals",
+     "url": "https://www.skysports.com/watch/video/13612362/mirra-andreeva-vs-jessica-pegula-wta-finals-highlights"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "Svitolina to meet Andreeva in final after thrashing Noskova",
+     "url": "https://www.skysports.com/watch/video/13612371/elina-svitolina-vs-linda-noskova-wta-finals-highlights"
+    }
+   ],
+   "liczba_źródeł": 4,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 11.239,
+    "składowe": {
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 2.272,
+     "eksponowanie": 0.27,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.597,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Mecz z Hiszpanią pokaże, czy Tuchel i reprezentacja Anglii wyciągnęli wnioski z mistrzostw świata",
+   "lead": "Mecz Anglii z mistrzami świata, Hiszpanią, pokaże, czy trener Thomas Tuchel wyciągnął wnioski z letniego rozczarowania – mówi główny dziennikarz piłkarski Phil McNulty.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-14T20:22:00+00:00",
+   "źródło": {
+    "nazwa": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cq2d9l3e313zo?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a93/live/1896ea50-e038-11f1-9ca9-b3b288fceb81.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Pomocnik potrzebował przerwy, „aby wrócić silniejszym”. James Trafford został wybrany na bramkarza reprezentacji Anglii. Declan Rice przyznał, że po wyczerpującym sezonie jego występ na Mistrzostwach Świata był „przeciętny” i potrzebował przerwy podczas przerwy reprezentacyjnej we wrześniu i październiku, aby wrócić silniejszym.",
+      "Pomocnik Arsenalu uważa, że przerwa spełniła swoje zadanie, ponieważ w ostatnich tygodniach zawodnicy zaprezentowali się znakomicie w meczach z Bayernem Monachium i Liverpoolem.",
+      "Teraz jest gotowy, aby pokazać się z najlepszej strony w barwach Anglii w niedzielnym meczu Ligi Narodów ze Hiszpanią na stadionie Metropolitano.",
+      "Rice radził sobie z bólem nerwu w ścięgnie podkolanowym, który dawał się we znaki w dolnej części pleców przez całą drugą połowę ubiegłego sezonu, a jego kondycja była przedmiotem dyskusji podczas Mistrzostw Świata.",
+      "27-latek rozegrał kilka dobrych meczów, zwłaszcza przeciwko Demokratycznej Republice Konga w 1/16 finału, kiedy to pod koniec spotkania awaryjnie zajął pozycję prawego obrońcy.",
+      "Teoretycznie oznaczałoby to łatwiejsze losowanie do ćwierćfinałów rozgrywanych w marcu w systemie mecz i rewanż. „Z mojego punktu widzenia były to przeciętne mistrzostwa świata” – powiedział Rice. „Mecz z Francją był chyba moim najlepszym występem, z Kongiem też zagrałem naprawdę dobrze; w niektórych innych meczach nie grałem zbyt dobrze, ale jak się tak spojrzy wstecz…",
+      "Przed niedzielnym meczem Ligi Narodów z Hiszpanią w Madrycie trener Thomas Tuchel przypomni angielskim piłkarzom o procedurach antyrasistowskich UEFA."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "27",
+    "32",
+    "69",
+    "100%",
+    "16",
+    "18"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Thomas Tuchel",
+    "Phil McNulty",
+    "World Cup",
+    "England's"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Spain test will reveal if Tuchel and England have learned World Cup lessons",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cq2d9l3e313zo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Declan Rice accepts he had an ‘average World Cup’ as England gear up for Spain showdown",
+     "url": "https://www.theguardian.com/football/2026/nov/14/declan-rice-england-spain-nations-league-world-cup-thomas-tuchel"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Tuchel to remind England of anti-racism protocols before Spain game",
+     "url": "https://www.bbc.co.uk/sport/football/articles/c60mdzn2dk1eo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Who would make your England-Spain combined XI?",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cw77p0v78exlo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "‘No one is unbeatable’: Tuchel eager for England to impose style on Spain",
+     "url": "https://www.theguardian.com/football/2026/nov/13/no-one-is-unbeatable-tuchel-eager-for-england-to-impose-style-on-spain"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.182,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.968,
+     "eksponowanie": 0.27,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.494,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Spain test will reveal if Tuchel and England have learned World Cup lessons",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "FAA zniosła trzeci w historii ogólnokrajowy zakaz startów",
+   "lead": "Sekretarz transportu Sean Duffy obwinił za awarię przestarzały sprzęt.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-13T23:17:38+00:00",
+   "źródło": {
+    "nazwa": "Ars Technica",
+    "url": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
+    "domena": "arstechnica.com"
+   },
+   "obraz": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/air-traffic-1000x648.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Znużeni podróżni przygotowywali się w sobotę na kolejne zakłócenia w ruchu lotniczym, gdy w amerykańskich portach lotniczych wznowiono obsługę po wielogodzinnym przestoju, który administracja Trumpa przypisała wadliwemu sprzętowi lub błędowi wykonawcy odpowiedzialnego za wymianę starych miedzianych linii komunikacyjnych.",
+      "Ogólnokrajowe wstrzymanie lotów w piątek wywołało powszechny chaos i sprawiło, że setki tysięcy pasażerów znalazło się w zawieszeniu. Niektórzy z nich zostali wyproszeni z samolotów na krótko przed odlotem przez personel linii lotniczych, który najwyraźniej nie był świadomy rozwijających się wydarzeń.",
+      "Tak, wiesz, to po prostu bałagan, prawda? Lisa Beraid, 48 lat, pracownica firmy ubezpieczeniowej, powiedziała agencji AFP, czekając na lot w sobotę rano na nowojorskim lotnisku LaGuardia.",
+      "Szef Federalnej Administracji Lotnictwa (FAA) Bryan Bedford powiedział, że w piątek odwołano 12 000 lotów, a pomiędzy 4000 a 5000 lotów z 41 000 zaplanowanych na sobotę prawdopodobnie również zostanie odwołanych.",
+      "W wypowiedzi na konferencji prasowej w Waszyngtonie złożył „szczere przeprosiny amerykańskim podróżnym”. Sekretarz transportu Sean Duffy powiedział, że piątkowa czterogodzinna przerwa w ruchu lotniczym została ogłoszona po tym, jak prace konserwacyjne związane z wymianą starego przewodu miedzianego na szybki kabel światłowodowy spowodowały „problemy” z komunikacją z samolotami i działaniem radarów.",
+      "„Czy to z powodu błędu wykonawcy, czy też wadliwego elementu wyposażenia... zaczęło to zalewać inne routery w naszym systemie kontroli ruchu lotniczego” – powiedział Duffy dziennikarzom.",
+      "Na dzisiejszej konferencji prasowej sekretarz transportu Sean Duffy powiedział, że piątkowe wstrzymanie lotów na terenie całego kraju, zarządzone przez FAA, było związane z pracami nad wymianą przestarzałych przewodów miedzianych na światłowód w „odległym obiekcie FAA”. Sekretarz powiedział, że były to „rutynowe prace konserwacyjne”, a nie efekt szeroko zakrojonych działań modernizacyjnych."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "48",
+    "12,000",
+    "4,000",
+    "5,000",
+    "41,000",
+    "11"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Transportation Sean Duffy",
+    "Secretary"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Ars Technica",
+     "tytuł": "FAA has lifted its third-ever nationwide ground stop",
+     "url": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/"
+    },
+    {
+     "nazwa": "Phys.org Technology",
+     "tytuł": "Repair of old copper wiring caused US flight disruption: Trump administration",
+     "url": "https://techxplore.com/news/2026-11-copper-wiring-flight-disruption-trump.html"
+    },
+    {
+     "nazwa": "The Verge",
+     "tytuł": "Work to replace old copper wire led to the FAA’s ground stop",
+     "url": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire"
+    },
+    {
+     "nazwa": "TechCrunch",
+     "tytuł": "Transportation secretary blames ‘routine’ equipment upgrade for grounding flights nationwide",
+     "url": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/"
+    }
+   ],
+   "liczba_źródeł": 4,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 10.76,
+    "składowe": {
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 1.723,
+     "eksponowanie": 2.43,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.473,
+     "treściwość": 0.434,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "FAA has lifted its third-ever nationwide ground stop",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Tesla otwiera sprzedaż Cybercab dla „wybranych klientów”",
+   "lead": "W piątek firma Tesla poinformowała, że niektórzy klienci będą mogli kupić jej autonomiczny Cybercab do użytku osobistego. Dwumiejscowy pojazd bez kierownicy i pedałów został zaprezentowany w październiku 2024 r. i jest już używany w niektórych miastach USA w ramach usługi „Robotaxi” firmy Tesla.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-14T11:22:10+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Technology",
+    "url": "https://techxplore.com/news/2026-11-tesla-cybercab-sales-customers.html",
+    "domena": "techxplore.com"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-tesla-cybercab-drive.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "„Wybrani klienci są obecnie zapraszani do zakupu Cybercab do użytku osobistego” – napisał producent samochodów na platformie X.",
+      "Na zdjęciu dołączonym do posta widoczna była szacunkowa cena zakupu wynosząca 29 990 USD bez podatków oraz szacunkowy termin dostawy przypadający na grudzień.",
+      "Pojazd wymaga również miesięcznej „subskrypcji autonomii” w wysokości 299 USD oraz bezzwrotnej kaucji w wysokości 1000 USD.",
+      "W ubiegłym roku firma Tesla wprowadziła na rynek swoje autonomiczne samochody w Austin, wykorzystując do tego celu SUV-y Model Y. Usługa Robotaxi stopniowo rozszerzała się na kilka innych miast w Teksasie, na Florydzie i w Kalifornii.",
+      "Jednak przepisy stanowe wymagają, aby w wielu pojazdach znajdował się człowiek pełniący funkcję osoby nadzorującej lub kierowcy gotowego w razie potrzeby przejąć kontrolę.",
+      "Waymo, spółka zależna firmy Alphabet, spółki dominującej Google, zajmująca się pojazdami autonomicznymi, oferuje swoje usługi w 11 miastach w USA.",
+      "We wrześniu amerykańskie organy nadzoru ds. bezpieczeństwa pojazdów wszczęły postępowanie wyjaśniające w sprawie Cybercaba, kwestionując sposób, w jaki Tesla doszła do wniosku, że pojazd pozbawiony kierownicy, pedałów i lusterek spełnia federalne przepisy dotyczące bezpieczeństwa.",
+      "Firma Tesla chwaliła to, co nazwała bezpieczeństwem i łatwością użytkowania pojazdu przez osoby z niepełnosprawnościami, i stwierdziła, że Cybercab „demokratyzuje czysty transport dla wszystkich”. Magister fizyki z doświadczeniem badawczym.",
+      "Od dawna pasjonat wiadomości naukowych."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Jeśli pominąć cenę katalogową wynoszącą 29 990 USD, obliczenia – i ryzyko regulacyjne – szybko stają się skomplikowane.",
+      "Tesla podwaja, a może nawet potraja swoje śmiałe deklaracje dotyczące autonomicznej przyszłości, oferując „wybranym klientom” możliwość zakupu Cybercaba do „użytku osobistego”. Jednak ten luksusowy, pozbawiony kierownicy dwumiejscowy pojazd będzie „dostępny tylko na obsługiwanych obszarach serwisowych” – co oznacza, że będzie można go kupić wyłącznie w jednym z miast, w których Tesla obecnie świadczy usługi Robotaxi.",
+      "Cena Cybercaba wynosi 29 990 USD plus obowiązkowa „subskrypcja autonomii” w wysokości 299 USD miesięcznie. Na koncie Robotaxi firmy Tesla na platformie X ogłoszono nową ofertę, w tym zamieszczono zrzuty ekranu strony zamówienia i e-maila z zaproszeniem.",
+      "Firma ma obecnie w eksploatacji 278 Cybercabów, co stanowi około 40 procent jej floty, według danych z crowdsourcingowego serwisu Robotaxi Tracker.",
+      "Wprowadzenie obowiązkowej subskrypcji w wysokości 299 USD miesięcznie z pewnością zirytuje niektórych fanów, którzy mogli marzyć o jeździe autonomicznym Teslą za 30 000 USD, jak pierwotnie obiecywał dyrektor generalny Tesli, Elon Musk, gdy po raz pierwszy zaprezentował Cybercaba w 2024 roku.",
+      "W piątek wieczorem Tesla poinformowała, że „wybrani klienci” mają teraz możliwość złożenia zamówienia w przedsprzedaży na autonomiczny, złoty Cybercab firmy „do użytku osobistego”. Więcej szczegółów stało się jasnych, gdy ci wybrani klienci zapoznali się ze stroną zamówienia.",
+      "Recenzent technologii Marques Brownlee napisał, że kupujący „muszą odebrać dostawę” w jednym z kilku miast w Teksasie i że Cybercab będzie działał tylko w określonych obszarach objętych geofencingiem."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Tesla Cybercab to dwumiejscowy, akumulatorowy robotaxi produkowany przez firmę Tesla, Inc. na potrzeby jej usługi zamawiania przejazdów Robotaxi. Zaprojektowany wyłącznie do jazdy autonomicznej, nie ma kierownicy, pedałów, lusterek bocznych ani tylnej szyby i wykorzystuje system jazdy autonomicznej oparty wyłącznie na kamerach, a nie na lidarze i radarze, z których korzystają niektóre konkurencyjne robotaxi."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Tesla Cybercab",
+     "url": "https://en.wikipedia.org/wiki/Tesla_Cybercab"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "29,990",
+    "299",
+    "1,000",
+    "11",
+    "278",
+    "40"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Tesla Cybercab",
+    "opis": "Fully-autonomous electric car",
+    "tekst": "The Tesla Cybercab is a two-passenger battery-electric robotaxi manufactured by Tesla, Inc. for its Robotaxi ride-hailing service. Designed exclusively for autonomous operation, it has no steering wheel, pedals, side mirrors, or rear window and uses a camera-only autonomous-driving system rather than the lidar and radar used by some competing robotaxis.",
+    "url": "https://en.wikipedia.org/wiki/Tesla_Cybercab",
+    "język": "en"
+   },
+   "tagi": [
+    "Cybercab",
+    "Tesla",
+    "Tesla's Robotaxi",
+    "Texas Florida"
+   ],
+   "emotki": [
+    "🤖"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Technology",
+     "tytuł": "Tesla opens Cybercab sales to 'select customers'",
+     "url": "https://techxplore.com/news/2026-11-tesla-cybercab-sales-customers.html"
+    },
+    {
+     "nazwa": "The Verge",
+     "tytuł": "Tesla is inviting some people to buy a Cybercab ‘for personal use’ — but read the fine print",
+     "url": "https://www.theverge.com/transportation/1033844/tesla-personal-cybercab-orders-299-subscription-fine-print"
+    },
+    {
+     "nazwa": "TechCrunch",
+     "tytuł": "Tesla opens Cybercab pre-orders ‘for personal use,’ with geo restrictions and a $299 monthly fee",
+     "url": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 3,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.277,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.408,
+     "eksponowanie": 1.17,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.488,
+     "treściwość": 0.411,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Tesla opens Cybercab sales to 'select customers'",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Eksperymenty ujawniają, że niestabilna plazma nagrzewa się za pomocą generowanych przez siebie fal",
+   "lead": "Autor: Narodowe Instytuty Nauk Przyrodniczych Oczekuje się, że energia termojądrowa będzie zrównoważonym źródłem energii, które nie emituje dwutlenku węgla podczas wytwarzania energii elektrycznej. Aby to osiągnąć, na całym świecie prowadzone są badania nad utrzymywaniem plazmy o wysokiej temperaturze za pomocą pól magnetycznych.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-13T23:20:02+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-11-unstable-plasma-generates-reveal.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/self-heating-in-unstab-1.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Aby zainicjować reakcję syntezy jądrowej, należy wprowadzić z zewnątrz cząstki lub fale o wysokiej energii, aby podgrzać plazmę do wyjątkowo wysokich temperatur.",
+      "Gdy rozpoczyna się reakcja syntezy jądrowej, następuje „samonagrzewanie”, w trakcie którego wysokoenergetyczne cząstki wytwarzane w reakcji dodatkowo ogrzewają plazmę, co pozwala utrzymać stan wysokiej temperatury nawet przy zmniejszeniu ogrzewania zewnętrznego.",
+      "Ten proces samonagrzewania jest złożony i do jego pełnego zademonstrowania potrzebne są wielkoskalowe obiekty doświadczalne, takie jak ITER.",
+      "Demonstracja samonagrzewania jest przewidywana około 2040 roku.",
+      "Jednak jeden z kluczowych procesów leżących u podstaw samonagrzewania – zjawiska, w którym „fale generowane przez niestabilności plazmy ogrzewają samą plazmę” – można zweryfikować nawet przy użyciu obecnych instalacji eksperymentalnych.",
+      "W ramach tego badania eksperymenty z wykorzystaniem urządzenia Large Helical Device (LHD) zademonstrowały proces, w którym „plazma ogrzewa się za pomocą generowanych przez siebie fal”. Osiągnięcie to stanowi ważny krok w kierunku zrozumienia mechanizmów samonagrzewania niezbędnych do wytwarzania energii termojądrowej.",
+      "Do tej pory uważano, że gdy plazma staje się niestabilna i powstają fale, plazma traci energię, a jej temperatura spada.",
+      "W związku z tym badania koncentrowały się na sposobach tłumienia niestabilności plazmy.",
+      "Zespół badawczy kierowany przez profesora Katsumiego Idę odszedł od tego konwencjonalnego sposobu myślenia i stwierdził: „Czy zamiast tłumić niestabilność nie jest ważniejsze szczegółowe obserwowanie niestabilnej plazmy i wyjaśnienie jej właściwości?” Celowo wytworzyli niestabilną plazmę i szczegółowo zbadali jej stan."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Naukowcy z Narodowego Uniwersytetu Tajwańskiego (NTU) przedstawili pierwsze eksperymentalne dowody na poprzeczne gromadzenie orbitalnego momentu pędu elektronów pod wpływem przepływu ciepła – zjawisko znane jako efekt orbitalny Nernsta."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10.1038",
+    "026",
+    "02939"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Communications Physics",
+    "National Institutes",
+    "Communications Physics Provided",
+    "Natural Sciences Swati Mestri"
+   ],
+   "emotki": [
+    "⚛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Unstable plasma heats itself with waves it generates, experiments reveal",
+     "url": "https://phys.org/news/2026-11-unstable-plasma-generates-reveal.html"
+    },
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Heat drives electron orbital currents, revealing first experimental evidence of orbital Nernst effect",
+     "url": "https://phys.org/news/2026-11-electron-orbital-currents-revealing-experimental.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.388,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.38,
+     "eksponowanie": 1.62,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.229,
+     "treściwość": 0.459,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Unstable plasma heats itself with waves it generates, experiments reveal",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Fizycy wykorzystują światło lasera, aby uwolnić ukryte właściwości elektryczne kryształu",
+   "lead": "Fizycy z Uniwersytetu Auburn odkryli, jak za pomocą krótkich impulsów światła laserowego organizować maleńkie obszary elektryczne ukryte w kryształach. Ich odkrycia rzucają nowe światło na zagadkę, która od dziesięcioleci zastanawia naukowców, i pokazują, w jaki sposób lasery mogą wpływać na właściwości elektryczne materiału.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-15T02:18:16+00:00",
+   "źródło": {
+    "nazwa": "ScienceDaily Physics",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261112230500.htm",
+    "domena": "sciencedaily.com"
+   },
+   "obraz": "https://www.sciencedaily.com/images/1920/laser-light-crystal-quantum-material.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Przełom ten może ostatecznie pomóc naukowcom w odkryciu szybszych sposobów przetwarzania i przechowywania informacji.",
+      "Badania prowadził Wencan Jin, profesor nadzwyczajny z Katedry Fizyki Uniwersytetu Auburn, uhonorowany stypendium Thomasa i Jean Walter, oraz student studiów podyplomowych Mohamed Kandil.",
+      "Ich artykuł „Optical Poling of a Quantum Ferroelectric Metal across the Order-Disorder Phase Transition” („Optyczne polaryzowanie kwantowego metalu ferroelektrycznego w trakcie przemiany fazowej uporządkowanie-nieuporządkowanie”) otrzymał wyróżnienie „Editors' Suggestion” („Propozycja redaktorów”) od czasopisma Physical Review Letters.",
+      "Kryształy wykorzystane w badaniu zostały wyprodukowane przez naukowców z japońskiego Narodowego Instytutu Zaawansowanej Nauki i Technologii Przemysłowej.",
+      "Tajemnica sprzed dziesięcioleci ukryta w krysztale Naukowcy zbadali zmodyfikowaną wersję tytanianu strontu, materiału o wyjątkowym połączeniu właściwości elektrycznych.",
+      "Chociaż elektrony mogą przemieszczać się przez kryształ, zawiera on również niezwykle małe obszary o dodatnich i ujemnych ładunkach elektrycznych.",
+      "Te mikroskopijne „wyspy”, znane jako polarne nanobszary, mogą być skierowane w różne strony lub ustawione względem siebie w linii.",
+      "Zrozumienie, w jaki sposób i dlaczego dochodzi do tego uporządkowania, jest niezbędne do wyjaśnienia właściwości materiału i nauczenia się, jak nimi manipulować.",
+      "Naukowcy od dziesięcioleci próbują ustalić, co się dzieje, gdy te obszary ulegają organizacji."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Auburn",
+    "Jin",
+    "Physics",
+    "Experiments Reveal How Electrical Order Emerges"
+   ],
+   "emotki": [
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "ScienceDaily Physics",
+     "tytuł": "Physicists use laser light to unlock a crystal's hidden electrical powers",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261112230500.htm"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.282,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.566,
+     "treściwość": 0.416,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Physicists use laser light to unlock a crystal's hidden electrical powers",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Niebo dziś, w sobotę 14 listopada: Wenus i Merkury w Pannie",
+   "lead": "Szukasz wydarzenia na niebie w tym tygodniu? Zapoznaj się z naszą pełną kolumną „Niebo w tym tygodniu”.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-14T09:00:00+00:00",
+   "źródło": {
+    "nazwa": "Astronomy Magazine",
+    "url": "https://www.astronomy.com/observing/the-sky-today-saturday-november-14-2026/",
+    "domena": "astronomy.com"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "13 listopada: Zobacz ducha Miracha Po koniunkcji dolnej na początku tego miesiąca Merkury znów pojawił się na porannym niebie.",
+      "Obecnie, przy jasności 0,3 magnitudo, małą planetę można znaleźć około 5° nad wschodnim horyzontem na godzinę przed wschodem Słońca.",
+      "Znajduje się w dolnej Continue reading „Niebo dziś, w sobotę 14 listopada: Wenus i Merkury w Pannie” The post Niebo dziś, w sobotę 14 listopada: Wenus i Merkury w Pannie appeared first on Astronomy Magazine."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Wenus jest drugą planetą od Słońca. Wenus, podobna do Ziemi pod względem wielkości i masy, nie ma ciekłej wody, a jej atmosfera jest znacznie grubsza i gęstsza niż atmosfera jakiegokolwiek innego skalistego ciała w Układzie Słonecznym. Atmosfera składa się głównie z dwutlenku węgla i posiada grubą warstwę chmur kwasu siarkowego, która rozciąga się nad całą planetą. Na średnim poziomie powierzchni atmosfera osiąga temperaturę 737 K, co czyni Wenus najgorętszą planetą w Układzie Słonecznym. Panuje tam również ciśnienie 92 razy wyższe niż na Ziemi na poziomie morza, co sprawia, że najniższa warstwa atmosfery staje się płynem nadkrytycznym. Z Ziemi Wenus jest widoczna jako gwiazdopodobny punkt świetlny, jaśniejszy niż jakikolwiek inny naturalny punkt świetlny na niebie, jako najjaśniejsza „gwiazda poranna” lub „gwiazda wieczorna”. Nadano jej również poetycką nazwę Ēarendel w staroangielskim, oznaczającą „promień światła”, obok dwóch poprzednich epitetów."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Venus",
+     "url": "https://en.wikipedia.org/wiki/Venus"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "13",
+    "0.3",
+    "14",
+    "1.2"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Venus",
+    "opis": "Second planet from the Sun",
+    "tekst": "Venus is the second planet from the Sun. Similar in size and mass to Earth, Venus has no liquid water, and its atmosphere is far thicker and denser than that of any other rocky body in the Solar System. The atmosphere is composed mostly of carbon dioxide and has a thick cloud layer of sulfuric acid that spans the whole planet. At the mean surface level, the atmosphere reaches a temperature of 737 K, making it the hottest planet in the solar system and also a pressure 92 times greater than Earth's at sea level, turning the lowest layer of the atmosphere into a supercritical fluid. From Earth, Venus is visible as a star-like point of light, appearing brighter than any other natural point of light in the sky, as either the brightest \"morning star\" or \"evening star\". It was also given the poetic name Ēarendel in Old English, meaning \"ray of light\" along with the two previous epithets.",
+    "url": "https://en.wikipedia.org/wiki/Venus",
+    "język": "en"
+   },
+   "tagi": [
+    "Mercury",
+    "Saturday November",
+    "Sky Today",
+    "Venus"
+   ],
+   "emotki": [
+    "🪐"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Astronomy Magazine",
+     "tytuł": "The Sky Today on Saturday, November 14: Venus and Mercury in Virgo",
+     "url": "https://www.astronomy.com/observing/the-sky-today-saturday-november-14-2026/"
+    },
+    {
+     "nazwa": "EarthSky",
+     "tytuł": "Visible planets and night sky guide for November",
+     "url": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.813,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.193,
+     "eksponowanie": 1.17,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.35,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "The Sky Today on Saturday, November 14: Venus and Mercury in Virgo",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Kosmiczna lupa może ukazać tę samą supernową jeszcze dwa razy w ciągu około 70 lat",
+   "lead": "Dzięki soczewkowaniu grawitacyjnemu spowodowanemu przez masywną gromadę galaktyk oraz zdjęciom o wysokiej rozdzielczości z Kosmicznego Teleskopu Jamesa Webba (JWST) astronomowie odkryli eksplodującą gwiazdę z czasu, gdy Wszechświat miał 4,9 miliarda lat. Artykuł na temat tego odkrycia został opublikowany na serwerze preprintów arXiv 1 października.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-14T18:20:01+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Astronomy",
+    "url": "https://phys.org/news/2026-11-cosmic-magnifying-glass-reveal-supernova.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-cosmic-magnifying-gl.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "23, przedstawia przewidywania dotyczące tego, kiedy dotrą pozostałe zniekształcone obrazy SN Ares.",
+      "Gdy masywna gromada galaktyk znajduje się między nami a odległą galaktyką, grawitacja gromady galaktyk działa jak naturalna soczewka, zakrzywiając i powiększając światło dochodzące z galaktyki w tle.",
+      "Zjawisko to nazywa się soczewkowaniem grawitacyjnym i może prowadzić do powstania wielu obrazów tej samej galaktyki.",
+      "Gdy różne promienie świetlne podążają nieco innymi ścieżkami, obrazy docierają w różnym czasie – czasami z odstępem kilku godzin, a czasami kilkudziesięciu lat.",
+      "Do znanych przykładów soczewkowania wielokrotnego obrazu należą Krzyż Einsteina, Stopiony Pierścień i Uśmiechnięta Buźka.",
+      "W ramach tego badania astronomowie pod kierunkiem Conora Larisona z Instytutu Naukowego Kosmicznego Teleskopu informują o odkryciu supernowej, która eksplodowała około 8,8 miliarda lat temu.",
+      "Odkryli SN Ares w sierpniu 2025 roku na zdjęciach w bliskiej podczerwieni wykonanych przez JWST w obszarze gromady galaktyk MACS J0308.9+2645.",
+      "Spektroskopia JWST ujawniła cechy helu i wodoru, które są charakterystycznymi oznakami gwiazdy tracącej większość swojej zewnętrznej warstwy wodoru przed wybuchem – kategorii zwanej supernową typu IIb.",
+      "Naukowcy twierdzą, że jest to „obiekt o najwyższym przesunięciu ku czerwieni w swojej klasie zidentyfikowany spektroskopowo”. Na razie astronomowie widzą tylko jeden powiększony obraz Aresa."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Supernowa typu II, czyli SN II, powstaje w wyniku gwałtownej eksplozji masywnej gwiazdy po szybkim zapadnięciu się jej jądra. Aby doszło do tego typu eksplozji, masa gwiazdy musi być co najmniej 8 razy, ale nie więcej niż 40–50 razy większa od masy Słońca (M☉). Supernowe typu II odróżniają się od innych typów supernowych obecnością wodoru w ich widmach. Zazwyczaj obserwuje się je w ramionach spiralnych galaktyk i w obszarach H II, ale nie w galaktykach eliptycznych. Te ostatnie składają się na ogół ze starszych gwiazd o małej masie, z niewielką liczbą młodych, bardzo masywnych gwiazd niezbędnych do powstania supernowej."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Type II supernova",
+     "url": "https://en.wikipedia.org/wiki/Type_II_supernova"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "4.9 billion",
+    "23",
+    "8.8 billion",
+    "2645",
+    "73",
+    "76"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Type II supernova",
+    "opis": "Explosion of a star 8 to 45 times the mass of the Sun",
+    "tekst": "A Type II supernova or SNII results from the violent explosion of a massive star following the rapid collapse of its core. A star's mass must be at least 8 times, but no more than 40 to 50 times, the mass of the Sun (M☉) to undergo this type of explosion. Type II supernovae are distinguished from other types of supernovae by the presence of hydrogen in their spectra. They are usually observed in the spiral arms of galaxies and in H II regions, but not in elliptical galaxies; those are generally composed of older, low-mass stars, with few of the young, very massive stars necessary to cause a supernova.",
+    "url": "https://en.wikipedia.org/wiki/Type_II_supernova",
+    "język": "en"
+   },
+   "tagi": [
+    "SN Ares",
+    "Type IIb",
+    "Strongly Lensed Type IIb Supernova",
+    "Space Telescope Science Institute"
+   ],
+   "emotki": [
+    "🔭",
+    "🌌"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Astronomy",
+     "tytuł": "A cosmic magnifying glass could reveal the same supernova two more times in roughly 70 years",
+     "url": "https://phys.org/news/2026-11-cosmic-magnifying-glass-reveal-supernova.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.177,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.467,
+     "treściwość": 0.48,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "A cosmic magnifying glass could reveal the same supernova two more times in roughly 70 years",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Zaatakowany przez Al-Szabab za obronę ekosystemów Kenii: założyciel fundacji otrzymuje nagrodę",
+   "lead": "Ochrona przyrody rzadko odbywa się bez konfliktów. Na północnym wybrzeżu Kenii, w hrabstwach Lamu i Tana River – w punkcie gorącym bioróżnorodności, gdzie najdłuższa rzeka kraju wpada do Oceanu Indyjskiego – działania na rzecz ochrony siedlisk morskich i lądowych często wymagają gotowości do przeciwstawienia się rybołówstwu przemysłowemu i przemysłowi wydobywczemu…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-15T02:07:52+00:00",
+   "źródło": {
+    "nazwa": "Mongabay",
+    "url": "https://news.mongabay.com/2026/11/targeted-by-al-shabaab-for-defending-kenyas-ecosystems-foundation-founder-gets-award/",
+    "domena": "news.mongabay.com"
+   },
+   "obraz": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/15020457/2S3A4056_PuQCwKvR-768x512.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Dla Raabii Hawy obrona przyrody przed tymi działaniami oznaczała prowadzenie działalności na obszarach w dużej mierze zaniedbanych przez oficjalne organy ochrony przyrody.",
+      "Od tego czasu jej działalność wykracza poza zwalczanie kłusownictwa i obejmuje walkę z nielegalnymi przemysłowymi połowami włokami dennymi oraz wspieranie lokalnych społeczności sprzeciwiających się koncesjom na wydobycie surowców.",
+      "Działalność w pobliżu granicy z Somalią wiąże się z dużym brakiem bezpieczeństwa politycznego.",
+      "Otwarty sprzeciw Hawy wobec niszczenia środowiska wiąże się z ryzykiem osobistym, w tym z groźbami śmierci i byciem celem ugrupowania zbrojnego Asz-Szabab.",
+      "Pomimo tych zagrożeń Ulinzi nadal działa, dysponując minimalnymi środkami i licząc na wsparcie ze strony rodzin wolontariuszy.",
+      "Hawa, która przyjechała do Londynu, aby odebrać nagrodę Tusk Award for Conservation in Africa 2026 – zapewniającą organizacji Ulinzi trzyletnie finansowanie o kluczowym znaczeniu – rozmawiała z redakcją Mongabay o rzeczywistości związanej z przeciwdziałaniem połowom przemysłowym i mobilizowaniem kobiet ze wsi do walki z gigantami górniczymi, podkreślając rozbieżność między globalnymi celami w zakresie różnorodności biologicznej a codziennymi zmaganiami obrońców przyrody na pierwszej linii frontu.",
+      "Raabia dedykuje nagrodę swojemu ojcu, Abdulowi Kadir Hawa, któremu zawdzięcza swój sukces. „Naprawdę wierzył w to, że powinnam sama znaleźć swoją drogę i nią podążać. Po prostu każdego dnia dodawał mi sił” – mówi.",
+      "Raabia Hawa: Pracujemy w dość trudnej sytuacji, ponieważ jest to obszar o wysokim poziomie bezpieczeństwa, nieco odmienny od niektórych innych terenów objętych ochroną.",
+      "Mam zespół ds. zwalczania kłusownictwa, który jest jednostką pierwszej linii obrony lub szybkiego reagowania."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Kenia, oficjalnie Republika Kenii, to kraj położony w Afryce Wschodniej. Z szacowaną liczbą ludności przekraczającą 54,2 miliona na połowę 2026 roku jest to 26. najludniejszy kraj na świecie i siódmy najludniejszy w Afryce. Stolicą i największym miastem Kenii jest Nairobi. Drugim co do wielkości i najstarszym miastem jest Mombasa – miasto portowe położone na wyspie Mombasa. Inne duże miasta w Kenii to Kisumu, Nakuru i Eldoret. Kenia graniczy – w kierunku zgodnym z ruchem wskazówek zegara – z Sudanem Południowym na północnym zachodzie, Etiopią na północy, Somalią na wschodzie, Oceanem Indyjskim na południowym wschodzie, Tanzanią na południowym zachodzie oraz Jeziorem Wiktorii i Ugandą na zachodzie. Jego geografia, klimat i liczba ludności są zróżnicowane. W zachodnich hrabstwach Wielkiej Rifty krajobraz obejmuje zimne, ośnieżone szczyty górskie otoczone lasami, dziką przyrodę oraz żyzne regiony rolnicze o klimacie umiarkowanym."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Kenya",
+     "url": "https://en.wikipedia.org/wiki/Kenya"
+    }
+   ],
+   "dlaczego_to_ważne": "Hawa, była dziennikarka radiowa i nauczycielka Montessori, która została obrończynią środowiska, w 2014 roku założyła Fundację Ulinzi Africa („Ulinzi” w języku suahili oznacza „obrońcy”), aby zapewnić patrole strażników pierwszej linii walczących z kłusownictwem słoni i przestępczością przeciwko dzikiej przyrodzie.",
+   "liczby": [
+    "15",
+    "48",
+    "20",
+    "71",
+    "11"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Kenya",
+    "opis": "Country in East Africa",
+    "tekst": "Kenya, officially the Republic of Kenya, is a country located in East Africa. With an estimated population of more than 54.2 million as of mid-2026, it is the 26th-most populous country in the world and the seventh-most populous in Africa. Kenya's capital and largest city is Nairobi. The second-largest and oldest city is Mombasa, a port city located on Mombasa Island. Other major cities within the country include Kisumu, Nakuru and Eldoret. Going clockwise, Kenya is bordered by South Sudan to the northwest, Ethiopia to the north, Somalia to the east, the Indian Ocean to the southeast, Tanzania to the southwest, and Lake Victoria and Uganda to the west. Its geography, climate and population vary. In western Rift Valley counties, the landscape includes cold, snow-capped mountaintops with surrounding forests, wildlife, and fertile agricultural regions in temperate climates. In other areas…",
+    "url": "https://en.wikipedia.org/wiki/Kenya",
+    "język": "en"
+   },
+   "tagi": [
+    "Ulinzi",
+    "Hawa",
+    "Conservation",
+    "Ministry"
+   ],
+   "emotki": [
+    "🌊"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Mongabay",
+     "tytuł": "Targeted by al-Shabaab for defending Kenya’s ecosystems: Foundation founder gets award",
+     "url": "https://news.mongabay.com/2026/11/targeted-by-al-shabaab-for-defending-kenyas-ecosystems-foundation-founder-gets-award/"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.696,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.564,
+     "treściwość": 0.482,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Targeted by al-Shabaab for defending Kenya’s ecosystems: Foundation founder gets award",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Największe na świecie jezioro słodkowodne odradza się po dziesięcioleciach zaniku",
+   "lead": "Jezioro Bajkał na Syberii zawiera około 20% światowych zasobów słodkiej wody powierzchniowej, co czyni je jeziorem o największej objętości słodkiej wody (Jezioro Górne na granicy Stanów Zjednoczonych i Kanady jest największe pod względem powierzchni). Dzięki temu jezioro jest jednym z najważniejszych środowisk pod względem różnorodności biologicznej – zostało ono nawet wpisane na listę UNESCO…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-14T15:40:01+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Earth Sciences",
+    "url": "https://phys.org/news/2026-11-world-largest-freshwater-lake-recovering.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-worlds-largest-fre-2.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jednak w ciągu ostatniego stulecia nastąpił znaczny spadek jej poziomu, a zjawisko pustynnienia rozprzestrzeniło się na całą Azję Wschodnią.",
+      "W miarę wysychania jeziora rosły obawy o bezpieczeństwo wodne lokalnego środowiska, a także ludności, która korzysta z niego jako źródła wody pitnej, do celów rolniczych i wytwarzania energii hydroelektrycznej.",
+      "Jednak nowe badanie opublikowane w czasopiśmie Geophysical Research Letters daje nadzieję, że ten schemat może zacząć się zmieniać.",
+      "Doktorant Shijie Wang z Uniwersytetu Yunnan i jego współpracownicy zwrócili się ku drzewom, aby lepiej zrozumieć tę transformację.",
+      "Drzewa rosnące w pobliżu jeziora mogą służyć jako wskaźnik tego, jak na przestrzeni czasu zmieniał się poziom wody w jeziorze.",
+      "Nauka ta, znana jako dendrochronologia, wykorzystuje jako wskazówkę słoje w pniach drzew: szersze słoje wskazują na lata wilgotne lub ciepłe, natomiast węższe sugerują występowanie suszy, chłodów lub silnego stresu.",
+      "Naukowcy pobrali niewielkie próbki z pni sosen rosnących wokół jeziora, a także skorzystali z informacji zgromadzonych w Międzynarodowym Banku Danych o Słojach Drzew (International Tree-Ring Data Bank).",
+      "Analizując słoje drzew w tym rejonie z ostatnich 343 lat, zespół odtworzył zmniejszony dopływ wody z rzeki Selenga do jeziora w ciągu XX wieku.",
+      "Stwierdzili, że w najtrudniejszych okresach przepływ w strugach wodnych zmniejszał się nawet o 90%, przy czym około połowa lat z ekstremalną suszą wystąpiła po roku 1900."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Arktyka to obszar polarny Ziemi otaczający biegun północny, położony na północ od koła podbiegunowego północnego. Region Arktyki, licząc od południka odniesienia IERS w kierunku wschodnim, obejmuje części północnej Norwegii, najbardziej wysuniętej na północ Szwecji, północnej Finlandii, Rosji, Stanów Zjednoczonych (Alaski), Kanady, Królestwa Danii (Grenlandii) i północnej Islandii, a także Ocean Arktyczny i przyległe do niego morza."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Arctic",
+     "url": "https://en.wikipedia.org/wiki/Arctic"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "20%",
+    "343",
+    "90%",
+    "145%",
+    "2.5 million",
+    "965,000"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Arctic",
+    "opis": "Polar region of the Earth's northern hemisphere",
+    "tekst": "The Arctic is the polar region of Earth that surrounds the North Pole, lying north of the Arctic Circle. The Arctic region, from the IERS Reference Meridian travelling east, consists of parts of northern Norway, northernmost Sweden, northern Finland, Russia, the United States (Alaska), Canada, Danish Realm (Greenland), and northern Iceland, along with the Arctic Ocean and adjacent seas.",
+    "url": "https://en.wikipedia.org/wiki/Arctic",
+    "język": "en"
+   },
+   "tagi": [
+    "Lake Baikal",
+    "Arctic",
+    "Selenga River",
+    "Voluminous Freshwater Lake Geophysical Research Letters"
+   ],
+   "emotki": [
+    "🛒"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Earth Sciences",
+     "tytuł": "World's largest freshwater lake is recovering after decades of decline",
+     "url": "https://phys.org/news/2026-11-world-largest-freshwater-lake-recovering.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.143,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.433,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "World's largest freshwater lake is recovering after decades of decline",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Europejskie Nagrody Filmowe 2027: znamy nominacje. \"Ojczyzna\" Pawła Pawlikowskiego liderem!",
+   "lead": "Europejska Akademia Filmowa ogłosiła nominacje w 16 głównych kategoriach do 39. Europejskich Nagród Filmowych .",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-14T11:10:00+00:00",
+   "źródło": {
+    "nazwa": "Filmweb",
+    "url": "https://www.filmweb.pl/news/Europejskie+Nagrody+Filmowe+2027%3A+znamy+nominacje.+%22Ojczyzna%22+Paw%C5%82a+Pawlikowskiego+liderem-169666",
+    "domena": "filmweb.pl"
+   },
+   "obraz": "https://fwcdn.pl/nph/49468/2026/79164.16.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Miło nam poinformować, że najwięcej nominacji zdobyło najnowsze dzieło Pawła Pawlikowskiego"
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Nowy film Pawła Pawlikowskiego może okazać się jednym z największych triumfatorów tegorocznych Europejskich Nagród Filmowych.",
+      "\"Ojczyzna\" (\"Fatherland\") otrzymała aż 11 nominacji, najwięcej spośród wszystkich produkcji ubiegających się o nagrody przyznawane przez Europejską Akademię Filmową.",
+      "Największe szanse zwycięstwo ma \"Ojczyzna\" Pawła Pawlikowskiego - film z Sandrą Hüller otrzymał aż 11 nominacji.",
+      "Najlepsze produkcje minionych miesięcy wskazała Europejska Akademia Filmowa, w skład której wchodzi 5700 przedstawicieli branży.",
+      "Liderem wśród nominowanych jest \"Ojczyzna\" Pawła Pawlikowskiego - film wyróżniony w Cannes za najlepszą reżyserię ma szansę na 11 statuetek.",
+      "Tuż za nim na podium znalazła się \"Czarna kula\" Javiera Calvo i Javiera Ambrossiego z 10 nominacjami."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "16",
+    "39",
+    "11",
+    "5700",
+    "10"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Pawła Pawlikowskiego",
+    "Akademia Filmowa",
+    "Nagród Filmowych",
+    "Nagrody Filmowe"
+   ],
+   "emotki": [
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Filmweb",
+     "tytuł": "Europejskie Nagrody Filmowe 2027: znamy nominacje. \"Ojczyzna\" Pawła Pawlikowskiego liderem!",
+     "url": "https://www.filmweb.pl/news/Europejskie+Nagrody+Filmowe+2027%3A+znamy+nominacje.+%22Ojczyzna%22+Paw%C5%82a+Pawlikowskiego+liderem-169666"
+    },
+    {
+     "nazwa": "Onet Kultura",
+     "tytuł": "Wielki sukces Pawła Pawlikowskiego w Europie. \"Ojczyzna\" z 11 nominacjami",
+     "url": "https://kultura.onet.pl/film/wiadomosci/wielki-sukces-pawlikowskiego-w-europie-ojczyzna-z-11-nominacjami/mffbgyb"
+    },
+    {
+     "nazwa": "Interia Film",
+     "tytuł": "Wielki sukces polskiego filmu. Zdobył najwięcej nominacji",
+     "url": "https://film.interia.pl/wiadomosci/news-wielki-sukces-polskiego-filmu-zdobyl-najwiecej-nominacji,nId,23573455"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.734,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.393,
+     "eksponowanie": 0.27,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.407,
+     "treściwość": 0.364,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Czy \"Zobaczysz wszystko\" pokazuje prawdę o Elizabeth Holmes? Billy Evans odpowiada",
+   "lead": "Nathan Fielder is not in love with Elizabeth Holmes, the partner of the imprisoned Theranos founder, Billy Evans, told @mattgutman. “I think Nathan cares a lot about Elizabeth. And I didn’t get the impression for a minute that it was romantic.” Watch more of their conversation Sunday.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-14T10:39:00+00:00",
+   "źródło": {
+    "nazwa": "Filmweb",
+    "url": "https://www.filmweb.pl/news/%22Zobaczysz+wszystko%22%3A+Billy+Holmes+%28partner+Elizabeth+Holmes%29+komentuje+film-169663",
+    "domena": "filmweb.pl"
+   },
+   "obraz": "https://fwcdn.pl/nph/2025458/2026/79156.16.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "That I somehow control Liz.",
+      "Anyone who actually knows her would find that idea hilarious.",
+      "She's fiercely independent, strongwilled, and my best friend.",
+      "We are partners in every sense.",
+      "We challenge each other, disagree, and face the world together.",
+      "Her closest friends are also some of my closest friends.",
+      "If I ever mistreated her, they'd have my head."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Dokument Nathana Fieldera i Lance'a Oppenheima bije rekordy popularności w kinach, a na jaw wychodzą nowe fakty z życia oszustki finansowej Elizabeth Holmes.",
+      "Efekt pracy reżyserów ocenił partner życiowy Holmes, Billy Evans, który został przedstawiony w filmie skrajnie negatywnie.",
+      "\"Zobaczysz wszystko\" to trzygodzinny dokument w reżyserii Nathana Fieldera i Lance'a Oppenheima, który od wielu tygodni nie schodzi z ust widzów i krytyków.",
+      "Zjawiskowy tytul studia A24 to zapis 34 dni z życia Elizabeth Holmes - prezeski Theranosa skazanej za defraudację setek milionów dolarów pozyskanych od inwestorów.",
+      "Kobieta zaprosiła do swojego domu w Kalifornni ekipę filmową, która następnie towarzyszyła jej na chwilę przed rozpoczęciem odsiadki."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Zobaczysz wszystko – amerykański film dokumentalny typu cinéma-vérité z 2026 roku w reżyserii Nathana Fieldera i Lance’a Oppenheima. Przedstawia historię Elizabeth Holmes, założycielki przedsiębiorstwa biotechnologicznego Theranos, i jej partnera Billy’ego Evansa, którzy zaprosili ekipę filmową do pokazania ich życia przed rozpoczęciem przez Holmes odsiadywania wyroku za oszustwa."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Zobaczysz wszystko",
+     "url": "https://pl.wikipedia.org/wiki/Zobaczysz_wszystko"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "34 dni",
+    "96 proc.",
+    "100 milionów"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Film",
+     "ujęcie": "Kto jest prawdziwym czarnym charakterem w filmie \"Zobaczysz wszystko\"?",
+     "url": "https://film.interia.pl/mocny-temat/news-film-o-elizabeth-holmes-jest-przeklamany-jej-partner-odpowia,nId,23573446"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Zobaczysz wszystko",
+    "opis": "amerykański film dokumentalny (2026)",
+    "tekst": "Zobaczysz wszystko – amerykański film dokumentalny typu cinéma-vérité z 2026 roku w reżyserii Nathana Fieldera i Lance’a Oppenheima. Przedstawia historię Elizabeth Holmes, założycielki przedsiębiorstwa biotechnologicznego Theranos, i jej partnera Billy’ego Evansa, którzy zaprosili ekipę filmową do pokazania ich życia przed rozpoczęciem przez Holmes odsiadywania wyroku za oszustwa.",
+    "url": "https://pl.wikipedia.org/wiki/Zobaczysz_wszystko",
+    "język": "pl"
+   },
+   "tagi": [
+    "Elizabeth Holmes",
+    "Nathan Fielder",
+    "Billy Evans",
+    "Zobaczysz"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Filmweb",
+     "tytuł": "Czy \"Zobaczysz wszystko\" pokazuje prawdę o Elizabeth Holmes? Billy Evans odpowiada",
+     "url": "https://www.filmweb.pl/news/%22Zobaczysz+wszystko%22%3A+Billy+Holmes+%28partner+Elizabeth+Holmes%29+komentuje+film-169663"
+    },
+    {
+     "nazwa": "Interia Film",
+     "tytuł": "Film o Elizabeth Holmes jest przekłamany? Jej partner odpowiada",
+     "url": "https://film.interia.pl/mocny-temat/news-film-o-elizabeth-holmes-jest-przeklamany-jej-partner-odpowia,nId,23573446"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.268,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.243,
+     "eksponowanie": 0.09,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.396,
+     "treściwość": 0.439,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  }
+ ],
+ "braki": [],
+ "statystyki": {
+  "kanały_ok": 71,
+  "kanały_błędne": 1,
+  "znaki_tłumaczone": 19509,
+  "niedziałające_kanały": [
+   {
+    "url": "https://www.esa.int/rssfeed/Our_Activities/Space_Science",
+    "powód": "HTTP 404"
+   }
+  ],
+  "działy": 18,
+  "artykuły_w_oknie": 62
+ }
+}
