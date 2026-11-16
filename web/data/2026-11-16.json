@@ -1,0 +1,1729 @@
+{
+ "wersja": "1.0.0",
+ "wydanie": "2026-11-16",
+ "dotyczy_dnia": "2026-11-15",
+ "wygenerowano": "2026-11-16T14:33:46+00:00",
+ "strefa": "Europe/Warsaw",
+ "tryb": "ekstrakcyjny",
+ "demo": false,
+ "pozycje": [
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Napisy „Slava UPA” na pomnikach. Trzaskowski: Musimy brać to pod uwagę",
+   "lead": "Napisy „Slava UPA” wymalowano na dwóch warszawskich pomnikach : Pomniku Żołnierzy 1. Armii Wojska Polskiego na Skwerze Więźniów Politycznych Stalinizmu oraz Pomniku Bohaterów Getta, znajdującym się przy Muzeum Historii Żydów Polskich POLIN.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-15T16:06:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/regiony/warszawa/news-napisy-slava-upa-na-pomnikach-trzaskowski-musimy-brac-to-pod,nIdn,1026194",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/40/6d/napis-slava-upa-na-pomniku-zolnierzy-1-armii-wojska-polskiego-przy-ul-gen-636x421-406d87ac.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Do sprawy odniósł się w niedzielę prezydent Warszawy Rafał Trzaskowski.",
+      "W opublikowanym na platformie X wpisie stanowczo potępił dewastację miejsc pamięci.",
+      "„Nie ma zgody na wandalizm w Warszawie” – zaznaczył.",
+      "Trzaskowski poinformował, że minionej nocy służby miejskie wyczyściły pomniki oszpecone przez wandali.",
+      "Policja prowadzi natomiast działania mające na celu ustalenie osób odpowiedzialnych za te incydenty.",
+      "Prezydent stolicy zwrócił uwagę, że podobne zdarzenia odnotowano również w innych polskich miastach.",
+      "Jego zdaniem należy brać pod uwagę możliwość zorganizowanej prowokacji. „ Patrząc na skalę podobnych incydentów w innych miastach, musimy brać pod uwagę, że mamy do czynienia z zaplanowaną prowokacją.",
+      "Nie dajmy się podzielić – służby pracują nad ustaleniem zarówno wykonawców, jak i zleceniodawców tych działań ” – napisał Trzaskowski.",
+      "W sprawie zniszczenia warszawskich pomników czynności prowadzi policja."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "\"Minionej nocy służby miejskie wyczyściły pomniki oszpecone przez wandali - między innymi Pomnik Bohaterów Getta\" - napisał Rafał Trzaskowski.",
+      "\"Patrząc na skalę podobnych incydentów w innych miastach, musimy brać pod uwagę, że mamy do czynienia z zaplanowaną prowokacją ."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Slava – chrześcijańskie święto rodzinne, obchodzone przez prawosławnych mieszkańców Europy, podczas którego czci się pamięć świętego patrona danej rodziny. Zwyczaj ten, praktykowany przede wszystkim w Serbii, gdzie uchodzi za ważny element narodowego dziedzictwa, jest elementem kultury obecnym w serbskiej diasporze na całym świecie. Obchodzą je również Serbowie przebywający w Polsce."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Slava",
+     "url": "https://pl.wikipedia.org/wiki/Slava"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "11",
+    "17",
+    "500"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Fakty",
+     "ujęcie": "Do sprawy odniósł się Rafał Trzaskowski , który na platformie X napisał, że \"nie ma zgody na wandalizm w Warszawie\".",
+     "url": "https://wydarzenia.interia.pl/mazowieckie/news-pomniki-z-napisami-wychwalajacymi-upa-trzaskowski-reaguje-ni,nId,23573732"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Slava",
+    "opis": "",
+    "tekst": "Slava – chrześcijańskie święto rodzinne, obchodzone przez prawosławnych mieszkańców Europy, podczas którego czci się pamięć świętego patrona danej rodziny. Zwyczaj ten, praktykowany przede wszystkim w Serbii, gdzie uchodzi za ważny element narodowego dziedzictwa, jest elementem kultury obecnym w serbskiej diasporze na całym świecie. Obchodzą je również Serbowie przebywający w Polsce.",
+    "url": "https://pl.wikipedia.org/wiki/Slava",
+    "język": "pl"
+   },
+   "tagi": [
+    "Polsce",
+    "Ukrainy",
+    "Slava",
+    "Skwerze Więźniów Politycznych Stalinizmu"
+   ],
+   "emotki": [
+    "⚔️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Napisy „Slava UPA” na pomnikach. Trzaskowski: Musimy brać to pod uwagę",
+     "url": "https://www.rmf24.pl/regiony/warszawa/news-napisy-slava-upa-na-pomnikach-trzaskowski-musimy-brac-to-pod,nIdn,1026194"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Pomniki z napisami wychwalającymi UPA, Trzaskowski reaguje. \"Nie ma zgody\"",
+     "url": "https://wydarzenia.interia.pl/mazowieckie/news-pomniki-z-napisami-wychwalajacymi-upa-trzaskowski-reaguje-ni,nId,23573732"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.929,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.3,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.48,
+     "treściwość": 0.399,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Ogromna manifestacja u sąsiada Polski. Nawet 400 tys. ludzi na ulicach",
+   "lead": "Na ulice czeskiej Pragi wyszło nawet 400 tys. osób - poinformowali organizatorzy manifestacji w obronie mediów publicznych. Czeskie radio przekazało, że mogła być to największa demonstracja w historii Republiki Czeskiej.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-15T21:58:43+00:00",
+   "źródło": {
+    "nazwa": "Interia Fakty",
+    "url": "https://wydarzenia.interia.pl/zagranica/news-ogromna-manifestacja-u-sasiada-polski-nawet-400-tys-ludzi-na,nId,23573951",
+    "domena": "wydarzenia.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NJ7UZG7PWGLNF-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Zgromadzeni protestujący sprzeciwiali się planom rządu na obniżenie opłaty abonamentowej na media i przeniesienia ich finansowania do budżetu państwa.",
+      "Niedzielną demonstrację w czeskiej Pradze zwołało stowarzyszenie Milion Chwil dla Demokracji.",
+      "Odbyła się pod hasłem \"Nigdy więcej 4.36\" .",
+      "To nawiązanie do godziny przyjęcia w pierwszym czytaniu i skierowaniu do dalszych prac rządowego projektu likwidacji abonamentu i finansowania mediów publicznych z budżetu państwa .",
+      "Protestujący nie zgadzają się z planami rządu.",
+      "Są zdania, że zmiany mogą doprowadzić do upolitycznienia telewizji i radia oraz zagrażają ich niezależności.",
+      "Agencja Reutera zauważyła, że część krytyków porównuje projekt ustawy do zmian wprowadzonych przez Viktora Orbana na Węgrzech .",
+      "Doprowadziło to do tego, że lwia część węgierskich mediów była przychylna władzy.",
+      "Mikulasz Minarz, lider Miliona Chwil i jeden z organizatorów protestu, poinformował, że wzięło w nim udział od 350 tys. do 450 tys. osób."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "400 tys.",
+    "4.36",
+    "350 tys.",
+    "450 tys.",
+    "72"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Republiki Czeskiej",
+    "Reutera",
+    "Milion Chwil Pokażcie",
+    "Milana Rudolfova"
+   ],
+   "emotki": [
+    "🏛️",
+    "📺"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Ogromna manifestacja u sąsiada Polski. Nawet 400 tys. ludzi na ulicach",
+     "url": "https://wydarzenia.interia.pl/zagranica/news-ogromna-manifestacja-u-sasiada-polski-nawet-400-tys-ludzi-na,nId,23573951"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.526,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.512,
+     "treściwość": 0.464,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Donald Trump na celowniku irańskich służb? Mosad ostrzega przed zamachem",
+   "lead": "Jak donosi izraelski dziennik „Israel Hayom”, powołując się na wysokich rangą izraelskich i amerykańskich urzędników, Mosad przekazał CIA informacje o możliwym zamachu na Donalda Trumpa oraz najważniejszych przedstawicieli jego administracji . Według źródeł dziennika, które zastrzegły anonimowość, Iran miał planować…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-15T17:29:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-donald-trump-na-celowniku-iranskich-sluzb-mosad-ostrzega-prz,nIdn,1026199",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/25/cc/donald-trump-636x421-25ccc596.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Przekazane przez izraelskie służby dane wskazują na konkretne, niedawne zagrożenia, w tym możliwość użycia dronów wyposażonych w ładunki wybuchowe.",
+      "Jak wskazują eksperci, to metoda, której trudno przeciwdziałać tradycyjnymi środkami bezpieczeństwa.",
+      "W związku z zagrożeniem, Donald Trump oraz najwyżsi urzędnicy jego administracji zostali objęci nadzwyczajnymi środkami bezpieczeństwa.",
+      "Publiczne wystąpienia prezydenta zostały ograniczone do minimum , a każde z nich odbywa się przy wzmożonej ochronie.",
+      "Kilku kluczowych urzędników, w tym sekretarz skarbu Scott Bessent oraz sekretarz stanu Marco Rubio , opuściło swoje domy i przeniosło się do specjalnie zabezpieczonych obiektów , w tym baz wojskowych.",
+      "Podobne środki zastosowano wobec szefa Pentagonu Pete’a Hegsetha .",
+      "Sytuacja jest dynamiczna, a służby wywiadowcze nieustannie monitorują wszelkie sygnały mogące świadczyć o realnym zagrożeniu.",
+      "Administracja USA nie komentuje oficjalnie sprawy."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "Według informatorów Amerykanie już wcześniej byli świadomi ryzyka zamachów, jednak najnowsze informacje miały wpłynąć na zmianę podejścia do negocjacji z Teheranem.",
+   "liczby": [
+    "100%",
+    "6.1%",
+    "49,000"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Pentagonu Pete’a Hegsetha",
+    "Alego Chameneiego",
+    "Donalda Trumpa",
+    "Scott Bessent"
+   ],
+   "emotki": [
+    "⚔️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Donald Trump na celowniku irańskich służb? Mosad ostrzega przed zamachem",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-donald-trump-na-celowniku-iranskich-sluzb-mosad-ostrzega-prz,nIdn,1026199"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Canada could work with Chinese automakers if US trade talks fail, says Carney",
+     "url": "https://www.theguardian.com/world/2026/nov/16/canada-carney-cars-evs-tariffs-xi-jinping-china-trump-trade-talks"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.253,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.357,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.596,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Megaspeed, firma powiązana z upadkiem szefa Nvidii, twierdzi, że prowadzi „legalną i zgodną z prawem działalność”",
+   "lead": "Firma utrzymuje, że Alice Huang, oskarżona o bycie chińską szpiegką, odeszła z pracy pod koniec 2023 r. Elon Musk dołącza do 165 tys. innych osób, apelując do firmy Nvidia o przywrócenie Jensena Huanga Megaspeed International, firma powiązana z upadkiem szefa Nvidii, Jensena Huanga, twierdzi, że jest „legalnym i zgodnym z prawem przedsiębiorstwem” oraz…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-16T01:17:04+00:00",
+   "źródło": {
+    "nazwa": "The Guardian",
+    "url": "https://www.theguardian.com/technology/2026/nov/16/megaspeed-company-breaks-slience-nvidia-jensen-huang-alice-huang",
+    "domena": "theguardian.com"
+   },
+   "obraz": "https://i.guim.co.uk/img/media/2c2f610959bc39253f07a4995c553a3099e2c600/203_0_4826_3863/master/4826.jpg?width=140&quality=85&auto=format&fit=max&s=cfd4682eae9415da0b32b4c20bfbe26a",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Firma Megaspeed oświadczyła, że „zatrudniła zewnętrznego doradcę prawnego do przeprowadzenia szczegółowego dochodzenia wewnętrznego”.",
+      "Jensen Huang zrezygnował z funkcji dyrektora generalnego producenta układów scalonych Nvidia po doniesieniach o pozamałżeńskich romansach z Alice Huang i dwoma pracownicami firmy.",
+      "Amerykańskie agencje wywiadowcze uważają, że dyrektor ds. technologii, którego produkty odegrały kluczową rolę w rozwoju sztucznej inteligencji, był celem Alice Huang, byłej dyrektor firmy Megaspeed International.",
+      "Według doniesień „The New York Times” urzędnicy amerykańscy podejrzewają, że Alice Huang mogła działać jako agentka chińskiego wywiadu, przekazując Pekinowi informacje handlowe.",
+      "W ciągu ostatnich trzech lat Megaspeed był jednym z największych zagranicznych klientów Nvidii, kupując układy scalone do sztucznej inteligencji i zaawansowany sprzęt za prawie 5 mld USD (7,4 mld AUD, 3,8 mld GBP).",
+      "Senator USA zwrócił się do Departamentu Handlu z prośbą o zbadanie, czy firma Megaspeed przekierowała chipy firmy Nvidia do Chin.",
+      "W niedzielę firma Megaspeed oświadczyła, że nie będzie komentować „spraw osobistych i prywatnych” Alice Huang. „Alice Huang oficjalnie odeszła z Megaspeed z dniem 30 sierpnia 2025 roku i obecnie nie pełni żadnej funkcji w firmie” – czytamy w oświadczeniu.",
+      "Globalne fasady Megaspeed International tworzą zagadkowy obraz firmy, w którym pojawiają się punkt sprzedaży losów na loterię w wiejskiej miejscowości w Australii, zniszczona witryna sklepowa w Kuala Lumpur i prawie puste biuro w Singapurze.",
+      "W niedzielę firma oświadczyła: „Megaspeed projektuje i utrzymuje swoje globalne ramy kontroli operacyjnej i łańcucha dostaw w taki sposób, aby były one zgodne ze wszystkimi obowiązującymi przepisami prawa i regulacjami, w tym z amerykańskimi wymogami dotyczącymi kontroli eksportu oraz z lokalnymi przepisami obowiązującymi na każdym rynku, na którym prowadzimy działalność”. W maju firma Culper Research, zajmująca się krótką sprzedażą, przytoczyła wypowiedź pracownika Megaspeed, który stwierdził, że Alice Huang „nadal jest naszą szefową”. W raporcie tym oskarżono firmę Nvidia o posiadanie „problemu z Chinami”."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nvidia Corporation to amerykańska międzynarodowa firma technologiczna z siedzibą w Santa Clarze w stanie Kalifornia. Firma opracowuje jednostki przetwarzania grafiki (GPU), systemy na chipach (SoC) oraz interfejsy programistyczne (API) dla gier, data science, systemów obliczeniowych o wysokiej wydajności, sprzętu do sztucznej inteligencji (AI) oraz aplikacji mobilnych i samochodowych. Firma Nvidia, założona w 1993 roku przez Jensena Huanga, Chrisa Malachowsky'ego i Curtisa Priema, należy do największych pod względem kapitalizacji rynkowej."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Nvidia",
+     "url": "https://en.wikipedia.org/wiki/Nvidia"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "165,000",
+    "7.4",
+    "3.8",
+    "30, 2025",
+    "29",
+    "90"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Nvidia",
+    "opis": "American multinational technology company",
+    "tekst": "Nvidia Corporation is an American multinational technology company headquartered in Santa Clara, California. The company develops graphics processing units (GPUs), systems on chips (SoCs), and application programming interfaces (APIs) for gaming, data science, high-performance computing, artificial intelligence (AI) hardware, and mobile and automotive applications. Founded in 1993 by Jensen Huang, Chris Malachowsky, and Curtis Priem, Nvidia is among the largest companies by market capitalization.",
+    "url": "https://en.wikipedia.org/wiki/Nvidia",
+    "język": "en"
+   },
+   "tagi": [
+    "Alice Huang",
+    "Megaspeed",
+    "Nvidia",
+    "Chinese"
+   ],
+   "emotki": [
+    "💻"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Megaspeed, the company linked to the downfall of Nvidia boss, says it’s a ‘legitimate and lawful business’",
+     "url": "https://www.theguardian.com/technology/2026/nov/16/megaspeed-company-breaks-slience-nvidia-jensen-huang-alice-huang"
+    },
+    {
+     "nazwa": "BBC Business",
+     "tytuł": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+     "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.302,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.372,
+     "eksponowanie": 0.27,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.56,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Megaspeed, the company linked to the downfall of Nvidia boss, says it’s a ‘legitimate and lawful business’",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Spektakl w Madrycie. Mistrzowie globu zatrzymani. Koniec rekordu świata",
+   "lead": "Oba zespoły już przed tym meczem awans do fazy pucharowej miały zapewniony. Stawką starcia w Madrycie pozostawało pierwsze miejsce w grupie .",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-15T21:45:06+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/liga-narodow/news-spektakularna-kanonada-w-madrycie-mistrzowie-globu-zatrzyman,nId,23573947",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NJ7S4JTKC17UP-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Pozwala ono rozegrać ćwierćfinałowy rewanż na swoim terenie - z potencjalnie łatwiejszym rywalem.",
+      "Mistrzowie świata przystępowali do potyczki jako lider z kompletem punktów na koncie.",
+      "Anglicy z kolei pałali żądzą rewanżu za wrześniową porażkę na Wembley .",
+      "Po zaciekłym boju przegrali wówczas 2:3.",
+      "W pierwszym kwadransie publika zgromadzona na obiekcie Atletico Madryt wprowadzona została w stan głębokiej konsternacji.",
+      "Goście momentami mieli aż 70-procentowy wskaźnik posiadana piłki .",
+      "Na domiar złego już w 20. minucie murawę z powodu kontuzji musiał opuścić Marc Pubill.",
+      "W jego miejsce desygnowany do gry został Pedro Porro , który świetnie wypadł na tegorocznym mundialu.",
+      "Hiszpanie szybko przegrupowali szyki, ale obraz gry nie uległ zmianie - bliżej otwarcia wyniku byli Synowie Albionu."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "70",
+    "20",
+    "57",
+    "43",
+    "26",
+    "25"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "Skrót spotkania 6. kolejki Ligi Narodów UEFA: Hiszpania – Anglia na Metropolitano w Madrycie.",
+     "url": "https://sport.tvp.pl/96494144/liga-narodow-hiszpania-zatrzymana-przez-anglie-koniec-niesamowitej-serii-mistrzow-swiata"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Półwyspu Pirenejskiego",
+    "Jamesa Trafforda",
+    "Atletico Madryt",
+    "Synowie Albionu"
+   ],
+   "emotki": [
+    "📈",
+    "⚽",
+    "🎭"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Spektakl w Madrycie. Mistrzowie globu zatrzymani. Koniec rekordu świata",
+     "url": "https://sport.interia.pl/pilka-nozna/liga-narodow/news-spektakularna-kanonada-w-madrycie-mistrzowie-globu-zatrzyman,nId,23573947"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Liga Narodów: Hiszpania zatrzymana przez Anglię. Koniec niesamowitej serii mistrzów świata [WIDEO]",
+     "url": "https://sport.tvp.pl/96494144/liga-narodow-hiszpania-zatrzymana-przez-anglie-koniec-niesamowitej-serii-mistrzow-swiata"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.309,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.509,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Komunikat WTA nie zostawia złudzeń. Rybakina może nie być \"1\" w Melbourne",
+   "lead": "W kalendarzu WTA na 2026 rok zostało jeszcze pięć turniejów rangi WTA 125, ale to już rywalizacje spoza głównego kalendarza. I co najważniejsze - nie będą liczyły się już do zgłoszeń od styczniowych imprez w Australii Nowej Zelandii.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-16T04:25:04+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/tenis/news-komunikat-wta-nie-zostawia-zludzen-rybakina-moze-nie-byc-1-w,nId,23573955",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NJ7W1F0OG8UI3-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Wzorem męskiego ATP, także i WTA postanowiła, że decydujący będzie wcześniejszy ranking, w jej przypadku z 16 listopada.",
+      "Czyli ten, który formalnie kończy cały sezon.",
+      "Ostatnią wielką imprezą był oczywiście turniej WTA Finals - formalnie dla ośmiu najlepszych tenisistek sezonu, choć w Indian Wells zagrała i dziesiąta w rankingu Diana Sznajder.",
+      "To efekt zaskakującej decyzji Jeleny Rybakiny o rezygnacji z całych zawodów, a później i wycofania się z ostatniego meczu Karoliny Muchovej.",
+      "Jeszcze przed pierwszym spotkaniem WTA Finals było jasne, że aż cztery tenisistki mają szanse na drugą pozycję na koniec sezonu, za Rybakiną.",
+      "Doszło chyba do najgorszego dla niej rozwiązania, bo realnie może nie być najwyżej rozstawioną tenisistką w Australian Open.",
+      "A tego chyba nikt jeszcze półtora tygodnia temu nie zakładał.",
+      "Turniej w Indian Wells w imponującym stylu wygrała bowiem Mirra Andriejewa - 19-letnia Rosjanka idealnie trafiła z formą na sam koniec sezonu.",
+      "Te korty znakomicie czuje, wygrała tu półtora roku temu WTA 1000, pokonując najpierw Igę Świątek, a później - w finale - Arynę Sabalenkę."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "WTA Finals – tenisowy turniej kobiet rozgrywany corocznie na zakończenie sezonu. Awans do niego uzyskuje 8 czołowych tenisistek i par deblowych w danym roku. Turniej jest piątym co do prestiżu wydarzeniem w ciągu roku, zaraz po turniejach Wielkiego Szlema: Australian Open, French Open, Wimbledonie, US Open. Jest też uważany za nieoficjalne mistrzostwa świata."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: WTA Finals",
+     "url": "https://pl.wikipedia.org/wiki/WTA_Finals"
+    }
+   ],
+   "dlaczego_to_ważne": "Absencja Kazaszki może mieć dla niej bardzo poważne konsekwencje.",
+   "liczby": [
+    "125",
+    "16",
+    "19",
+    "1000",
+    "18",
+    "11"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "WTA Finals",
+    "opis": "",
+    "tekst": "WTA Finals – tenisowy turniej kobiet rozgrywany corocznie na zakończenie sezonu. Awans do niego uzyskuje 8 czołowych tenisistek i par deblowych w danym roku. Turniej jest piątym co do prestiżu wydarzeniem w ciągu roku, zaraz po turniejach Wielkiego Szlema: Australian Open, French Open, Wimbledonie, US Open. Jest też uważany za nieoficjalne mistrzostwa świata.",
+    "url": "https://pl.wikipedia.org/wiki/WTA_Finals",
+    "język": "pl"
+   },
+   "tagi": [
+    "Indian Wells",
+    "Finals",
+    "Australian Open",
+    "Andriejewa"
+   ],
+   "emotki": [
+    "🎾"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Komunikat WTA nie zostawia złudzeń. Rybakina może nie być \"1\" w Melbourne",
+     "url": "https://sport.interia.pl/tenis/news-komunikat-wta-nie-zostawia-zludzen-rybakina-moze-nie-byc-1-w,nId,23573955"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.693,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.593,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Nowa mistrzyni po boju Ukrainki i Rosjanki. Rekord Świątek wciąż aktualny",
+   "lead": "Zaledwie sześć dni minęło od pierwszej potyczki między Mirrą Anriejewą a Eliną Switoliną - 19-latka pokazała już wtedy, że jest w Indian Wells w znakomitej formie. Wygrała 6:4, 6:0, to był pierwszy z czterech pokazów mocy , otwiera się w nowym oknie .",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-15T22:02:07+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/tenis/wta-finals/news-nowa-mistrzyni-wta-finals-po-boju-ukrainki-z-rosjanka-rekord,nId,23573735",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NJ7PCHTMNE37R-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Czy na starcie imprezy była faworytką do tytułu?",
+      "Z jednym dużym sukcesem w całym sezonie, triumfem w Roland Garros po pokonaniu Mai Chwalińskiej.",
+      "A także kilkoma mniejszymi - tytułami WTA 500.",
+      "Po US Open przegrała tylko dwa spotkania - z Leylah Fernandez w Seulu i Qinwen Zheng w Pekinie, ale też... wystąpiła w zaledwie dwóch turniejach.",
+      "W stolicy Chin do finału też dostała się w imponującym stylu, ale jednak go przegrała.",
+      "Podobnie jak w maju uległa w tej decydującej potyczce Marcie Kostiuk , otwiera się w nowym oknie w Madrycie.",
+      "W Kalifornii spisywała się w tym tygodniu wyśmienicie - cztery zwycięstwa, 8:0 w setach, zaledwie 18 przegranych gemów.",
+      "Bajgle \"sprzedane\" nie tylko Switolinie, ale też samej Arynie Sabalence.",
+      "T o 18 gemów w drodze do finału było najlepszym wynikiem w historii WTA Finals , odkąd ustanowiono fazę grupową, czyli od 2003 roku."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Gdyby turniej WTA Finals odbył się w tym roku w Rijadzie, a tak miało być, Mirra Andriejewa być może poprawiłaby ubiegłoroczny rekord Jeleny Rybakiny, dotyczący zarobku.",
+      "19-latka z Krasnojarska i tak została główną beneficjentką, dostanie za swój sukces najwyższy przelew, na 3,37 mln dolarów."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "19",
+    "4, 6",
+    "500",
+    "18",
+    "20",
+    "21"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Sport",
+     "ujęcie": "Mastersa przeniesiono jednak do Indian Wells, budżet turnieju okrojono o ponad 1/3.",
+     "url": "https://sport.interia.pl/tenis/news-peklo-10-milionow-dolarow-dla-19-latki-to-byl-ostatni-brakuj,nId,23573963"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Indian Wells",
+    "Ukrainka",
+    "Rosjanka",
+    "Świątek"
+   ],
+   "emotki": [
+    "🎾",
+    "📈"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Nowa mistrzyni po boju Ukrainki i Rosjanki. Rekord Świątek wciąż aktualny",
+     "url": "https://sport.interia.pl/tenis/wta-finals/news-nowa-mistrzyni-wta-finals-po-boju-ukrainki-z-rosjanka-rekord,nId,23573735"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Pękło 10 milionów dolarów dla 19-latki. To był ostatni brakujący element",
+     "url": "https://sport.interia.pl/tenis/news-peklo-10-milionow-dolarow-dla-19-latki-to-byl-ostatni-brakuj,nId,23573963"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Teenager Andreeva caps stunning week with WTA Finals title",
+     "url": "https://www.bbc.co.uk/sport/tennis/articles/c61740145y7wo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Mirra Andreeva holds nerve against Svitolina to win WTA Finals for first time",
+     "url": "https://www.theguardian.com/sport/2026/nov/15/mirra-andreeva-elina-svitolina-wta-finals-tennis"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "WTA Finals final: Mirra Andreeva beats Elina Svitolina in straight sets – as it happened",
+     "url": "https://www.theguardian.com/sport/live/2026/nov/15/wta-finals-final-elina-svitolina-v-mirra-andreeva-live"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "ATP Finals tennis: Alexander Zverev beats Rafael Jódar in straight sets – as it happened",
+     "url": "https://www.theguardian.com/sport/live/2026/nov/15/atp-finals-tennis-alexander-zverev-v-rafael-jodar-and-more-live"
+    },
+    {
+     "nazwa": "BBC Tennis",
+     "tytuł": "Svitolina races into WTA Finals showpiece against Andreeva",
+     "url": "https://www.bbc.co.uk/sport/tennis/articles/ck5y1xdrne28o?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.925,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 2.298,
+     "eksponowanie": 0.18,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.597,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Kubica przerwał milczenie. Polak ujawnia prawdę ws. rozstania z Włochami",
+   "lead": "Przygoda Roberta Kubicy z zespołem AF Corse na dobre rozpoczęła się w sezonie 2024. To właśnie wtedy po raz pierwszy legendarny polski kierowca wziął udział w Długodystansowych Mistrzostw Świata FIA WEC pod szyldem włoskiej drużyny.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-15T20:37:08+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/motorowe/news-koniec-domyslow-nowe-fakty-ws-rozstania-kubicy-z-wlochami-po,nId,23573736",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NJ7LX32113A9D-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Wcześniej występował bowiem w barwach belgijskiego Team WRT.",
+      "Okres największej chwały przypadł jednak na sezon 2025.",
+      "To właśnie wtedy żółte Ferrari 499P, w który zasiadali Robert Kubica , Philip Hanson oraz Yifei Ye jako pierwsze zameldowało się na mecie legendarnego 24-godzinnego wyścigu Le Mans .",
+      "Drużyna Polaka zakończyła także sezon na 2. miejscu w klasyfikacji generalnej FIA Hypercar World Endurance Drivers' Championship, co dla prywatnego zespołu było dużym sukcesem.",
+      "Wszystko zaczęło się jednak zmieniać bardzo szybko, bowiem już w roku 2026.",
+      "Mogliśmy w nim obserwować wyraźnie postępujący spadek żółtego AF Corse z numerem #83.",
+      "Ekipa uzbierała raptem 49 punktów, co zapewniło jej 14. miejsce w klasyfikacji generalnej.",
+      "Kubica sam dawał również do zrozumienia, że współpraca z włoskim zespołem wzbudzała pewne zastrzeżenia .",
+      "Ostatnim wyścigiem sezonu 2026 był 6 Hours of Monza."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Robert Józef Kubica is a Polish racing and rally driver who most recently competed in the FIA World Endurance Championship for AF Corse. He competed in Formula One between 2006 and 2010, and again in 2019 and 2021, and the WRC from 2013 to 2016. He won the 2008 Canadian Grand Prix with BMW Sauber, and remains the only Polish driver to compete in Formula One. In endurance racing, Kubica won the 2025 24 Hours of Le Mans for AF Corse, as well as three LMP2 titles across WEC and ELMS."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Robert Kubica",
+     "url": "https://en.wikipedia.org/wiki/Robert_Kubica"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "499",
+    "24",
+    "83",
+    "49 punktów",
+    "14"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Robert Kubica",
+    "opis": "Polish racing and rally driver (born 1984)",
+    "tekst": "Robert Józef Kubica is a Polish racing and rally driver who most recently competed in the FIA World Endurance Championship for AF Corse. He competed in Formula One between 2006 and 2010, and again in 2019 and 2021, and the WRC from 2013 to 2016. He won the 2008 Canadian Grand Prix with BMW Sauber, and remains the only Polish driver to compete in Formula One. In endurance racing, Kubica won the 2025 24 Hours of Le Mans for AF Corse, as well as three LMP2 titles across WEC and ELMS.",
+    "url": "https://en.wikipedia.org/wiki/Robert_Kubica",
+    "język": "en"
+   },
+   "tagi": [
+    "Corse",
+    "Robert Kubica",
+    "Polaka",
+    "Hypercar World Endurance Drivers Championship"
+   ],
+   "emotki": [
+    "🏅",
+    "🏎️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Kubica przerwał milczenie. Polak ujawnia prawdę ws. rozstania z Włochami",
+     "url": "https://sport.interia.pl/motorowe/news-koniec-domyslow-nowe-fakty-ws-rozstania-kubicy-z-wlochami-po,nId,23573736"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "McIlroy wins Race to Dubai after thrilling final day",
+     "url": "https://www.bbc.co.uk/sport/golf/videos/c5lyk087yxjko?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.075,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.45,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.495,
+     "treściwość": 0.33,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Amazon wysyła właśnie na orbitę 40 satelitów. Zaczyna się wielka wojna ze Starlinkiem",
+   "lead": "Starlink Elona Muska ma już ponad 11 tys. satelitów na orbicie, miliony klientów i ogromną przewagę nad konkurencją. Amazon nie zamierza jednak oddawać mu całego rynku internetu satelitarnego bez walki.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-15T15:20:00+00:00",
+   "źródło": {
+    "nazwa": "Spider's Web",
+    "url": "https://spidersweb.pl/2026/11/amazon-leo-vulcan-start-2026.html",
+    "domena": "spidersweb.pl"
+   },
+   "obraz": "https://cdn-sw.spidersweb.pl/2026/11/vulcan-ula-40-satelitow-amazon.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Na Florydzie do startu przygotowano właśnie rakietę Vulcan z 40 satelitami Amazon Leo, największym jednorazowym ładunkiem tej konstelacji w historii.",
+      "To początek znacznie większej operacji, bo Amazon zakontraktował 38 lotów Vulcana, które mają wynieść ponad 1500 satelitów.",
+      "Gigant inwestuje nawet we własną infrastrukturę na kosmodromie, żeby kolejne rakiety mogły startować w odstępach liczonych w tygodniach, a nie miesiącach.",
+      "Misja Leo Vulcan 1, oznaczona LV-01, ma wystartować 15 listopada z kompleksu SLC-41 na przylądku Canaveral na Florydzie.",
+      "Pierwotnie rakieta miała polecieć 13 listopada, ale start przełożono najpierw z powodu awarii instalacji dostarczającej azot, a następnie problemu z komunikacją między systemami naziemnymi a rakietą.",
+      "Ładunkiem jest 40 satelitów Amazon Leo, czyli sieci wcześniej znanej jako Project Kuiper.",
+      "Dotychczas największą partią urządzeń wysłanych przez firmę podczas pojedynczej misji było 36 egzemplarzy.",
+      "Rakieta otrzymała 6 bocznych silników wspomagających na paliwo stałe oraz zmodyfikowany, krótszy górny stopień Centaur V, zoptymalizowany pod kątem lotów na niską orbitę okołoziemską.",
+      "W lutym doszło do usterki dyszy jednego z silników pomocniczych, a Vulcan przez 9 miesięcy nie wykonywał kolejnych lotów."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Starlink – telekomunikacyjny system satelitarny obsługiwany przez Starlink Services, LLC, spółkę zależną będącą w całości własnością amerykańskiej firmy SpaceX, zapewniając zasięg w 105 państwach. Głównym celem działania systemu jest dostarczanie łączności internetowej na całym świecie."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Starlink",
+     "url": "https://pl.wikipedia.org/wiki/Starlink"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "11 tys.",
+    "40",
+    "38",
+    "1500",
+    "01",
+    "41"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Starlink",
+    "opis": "konstelacja satelitarna; telekomunikacyjny system satelitarny",
+    "tekst": "Starlink – telekomunikacyjny system satelitarny obsługiwany przez Starlink Services, LLC, spółkę zależną będącą w całości własnością amerykańskiej firmy SpaceX, zapewniając zasięg w 105 państwach. Głównym celem działania systemu jest dostarczanie łączności internetowej na całym świecie.",
+    "url": "https://pl.wikipedia.org/wiki/Starlink",
+    "język": "pl"
+   },
+   "tagi": [
+    "Amazon Leo",
+    "Vulcan",
+    "SpaceX",
+    "Elona Muska"
+   ],
+   "emotki": [
+    "🚀",
+    "⚔️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Spider's Web",
+     "tytuł": "Amazon wysyła właśnie na orbitę 40 satelitów. Zaczyna się wielka wojna ze Starlinkiem",
+     "url": "https://spidersweb.pl/2026/11/amazon-leo-vulcan-start-2026.html"
+    },
+    {
+     "nazwa": "The Verge",
+     "tytuł": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
+     "url": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.8,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.27,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.501,
+     "treściwość": 0.429,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Najtrudniejsze lądowanie w historii zakończyło się sukcesem. Starship w szczękach wieży",
+   "lead": "Gdy Starship wyłonił się z chmur nad Teksasem, do finału manewru pozostały zaledwie sekundy. Silniki wyhamowały opadanie, statek obrócił się do pionu, a stalowe ramiona wieży zamknęły się wokół niego.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-15T15:00:00+00:00",
+   "źródło": {
+    "nazwa": "Spider's Web",
+    "url": "https://spidersweb.pl/2026/11/starship-lot-15-ladowanie-wieza-mechazilla.html",
+    "domena": "spidersweb.pl"
+   },
+   "obraz": "https://cdn-sw.spidersweb.pl/2026/11/starship-flight-15-historyczny-sukces.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "To najważniejszy rezultat 15. lotu testowego Starshipa, ale nie wszystkie plany się powiodły.",
+      "Dolny stopień rakiety został utracony nad Zatoką Meksykańską.",
+      "Starship wystartował 13 listopada ze Starbase w Teksasie.",
+      "Po rozdzieleniu stopni Ship 42 wszedł na orbitę około 275 km nad Ziemią i wypuścił 26 satelitów Starlink V3.",
+      "Statek pozostawał w kosmosie 22 godziny i wykonał około 14 okrążeń Ziemi.",
+      "Kontrolerzy analizowali stan pojazdu i osłony termicznej, także dzięki kamerom zainstalowanym na 3 satelitach.",
+      "Gdyby pojawił się problem, statek mógł zostać skierowany do wodowania.",
+      "14 listopada kontrolerzy zgodzili się na przechwycenie.",
+      "Starship uruchomił silnik, zszedł z orbity, przetrwał rozgrzaną atmosferę i wrócił do stanowiska startowego."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Po ponad 20 godzinach spędzonych na orbicie statek Starship jest gotowy do najważniejszego etapu swojej misji.",
+      "Około godziny 22:20 Starship precyzyjnie wyhamował nad stanowiskiem startowym w Starbase i bezpiecznie spoczął w mechanicznych ramionach wieży.",
+      "Osłona termiczna bez problemu wytrzymała ekstremalne temperatury podczas przejścia przez atmosferę, a sam manewr podejścia przebiegł z zegarmistrzowską precyzją.",
+      "SpaceX właśnie udowodniło, że pełna wielokrotność użytku najpotężniejszej rakiety w dziejach przestała być wizją z prezentacji, a stała się faktem.",
+      "Zespół SpaceX potwierdził, że wszystkie systemy pokładowe działają bez zarzutu, co otwiera drogę do najbardziej widowiskowego manewru w historii współczesnej astronautyki.",
+      "Zamiast wodowania w oceanie, gigantyczny statek podejmie próbę powrotu bezpośrednio na miejsce startu w kompleksie Starbase w Teksasie, gdzie mają go przechwycić mechaniczne ramiona wieży startowej."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Space Exploration Technologies Corporation – amerykańskie przedsiębiorstwo przemysłu kosmicznego z siedzibą w ośrodku rozwojowym Starbase w miejscowości Starbase w stanie Teksas. Założone w 2002 roku przez Elona Muska, SpaceX zajmuje się opracowywaniem rakiet nośnych wielokrotnego użytku, załogowych lotów kosmicznych oraz budową konstelacji satelitarnej Starlink. W połowie lat 20. XXI wieku była największym na świecie dostawcą usług wynoszenia ładunków użytecznych w przestrzeń kosmiczną, przewyższając pod względem liczby startów zarówno komercyjnych konkurentów, jak i narodowe agencje kosmiczne. SpaceX ściśle współpracuje z NASA oraz Siłami Zbrojnymi Stanów Zjednoczonych w ramach kontraktów rządowych. W transakcjach sprzedaży udziałów z grudnia 2025 roku spółkę wyceniono na około 800 miliardów dolarów. Zadebiutowała na giełdzie NASDAQ 12 czerwca 2026 roku. Cena akcji na otwarciu wynosiła…"
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: SpaceX",
+     "url": "https://pl.wikipedia.org/wiki/SpaceX"
+    }
+   ],
+   "dlaczego_to_ważne": "Po raz pierwszy SpaceX złapał w locie pojazd powracający z orbity.",
+   "liczby": [
+    "15",
+    "13",
+    "42",
+    "275 km",
+    "26",
+    "22 godziny"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "SpaceX",
+    "opis": "amerykańskie przedsiębiorstwo przemysłu kosmicznego",
+    "tekst": "Space Exploration Technologies Corporation – amerykańskie przedsiębiorstwo przemysłu kosmicznego z siedzibą w ośrodku rozwojowym Starbase w miejscowości Starbase w stanie Teksas. Założone w 2002 roku przez Elona Muska, SpaceX zajmuje się opracowywaniem rakiet nośnych wielokrotnego użytku, załogowych lotów kosmicznych oraz budową konstelacji satelitarnej Starlink. W połowie lat 20. XXI wieku była największym na świecie dostawcą usług wynoszenia ładunków użytecznych w przestrzeń kosmiczną, przewyższając pod względem liczby startów zarówno komercyjnych konkurentów, jak i narodowe agencje kosmiczne. SpaceX ściśle współpracuje z NASA oraz Siłami Zbrojnymi Stanów Zjednoczonych w ramach kontraktów rządowych. W transakcjach sprzedaży udziałów z grudnia 2025 roku spółkę wyceniono na około 800 miliardów dolarów. Zadebiutowała na giełdzie NASDAQ 12 czerwca 2026 roku. Cena akcji na otwarciu wynosiła…",
+    "url": "https://pl.wikipedia.org/wiki/SpaceX",
+    "język": "pl"
+   },
+   "tagi": [
+    "SpaceX",
+    "Super Heavy",
+    "Starshipa",
+    "Starship"
+   ],
+   "emotki": [
+    "🚀"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Spider's Web",
+     "tytuł": "Najtrudniejsze lądowanie w historii zakończyło się sukcesem. Starship w szczękach wieży",
+     "url": "https://spidersweb.pl/2026/11/starship-lot-15-ladowanie-wieza-mechazilla.html"
+    },
+    {
+     "nazwa": "Antyweb",
+     "tytuł": "Starship wraca na Ziemię i wylądował w ramionach wieży!",
+     "url": "https://antyweb.pl/starship-wraca-na-ziemie-i-wyladuje-w-ramionach-wiezy-oto-plan-na-dzisiejszy-wieczor"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.098,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.135,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.425,
+     "treściwość": 0.138,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Fizycy przeciwstawiają się oczekiwaniom, kontrolując magnetyczne „serce” pojedynczego atomu",
+   "lead": "Naukowcom z Politechniki w Delft (Holandia) udało się dokonać czegoś, co fizycy wcześniej uważali za niemożliwe. Wykorzystując fale radiowe, udało im się bezpośrednio kontrolować spin magnetyczny jądra w pojedynczym atomie.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-16T02:56:02+00:00",
+   "źródło": {
+    "nazwa": "ScienceDaily Physics",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261114202232.htm",
+    "domena": "sciencedaily.com"
+   },
+   "obraz": "https://www.sciencedaily.com/images/1920/electron-and-nucleus-spins-controlled-by-wave-signals.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nieoczekiwany wynik podważa istniejące założenia dotyczące zachowania się magnetyzmu atomowego i może ostatecznie doprowadzić do opracowania nowych sposobów przechowywania i odzyskiwania informacji kwantowych.",
+      "Wyniki, opublikowane w czasopiśmie Nature Communications, stawiają naukowców również przed nową zagadką.",
+      "Chociaż eksperyment wykazał, że taki niezwykły poziom kontroli jest możliwy, naukowcy nie do końca jeszcze rozumieją mechanizm, który sprawia, że to działa.",
+      "Atomy w metalach magnetycznych, takich jak żelazo i nikiel, zachowują się jak maleńkie magnesy.",
+      "Zarówno elektrony, jak i – w niektórych przypadkach – jądro atomowe posiadają właściwość kwantową zwaną spinem, którą można sobie wyobrazić jako miniaturową igłę kompasu magnetycznego.",
+      "„Zdecydowanie najsilniejszy magnetyzm pochodzi od elektronów” – mówi główny badacz Sander Otte.",
+      "„Ale w niektórych atomach jądro również ma spin.",
+      "Ten spin jest znacznie słabszy, ale także znacznie lepiej osłonięty przed światem zewnętrznym”. Ta ochrona sprawia, że spin jądrowy jest szczególnie interesujący dla badaczy kwantowych.",
+      "Ponieważ jest mniej narażony na zakłócenia ze strony otoczenia, może stanowić obiecujący sposób na zachowanie delikatnych informacji kwantowych."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Politechnika w Delft to najstarsza i największa holenderska publiczna uczelnia techniczna, która mieści się w Delft w Holandii. Specjalizuje się w inżynierii, technologii, informatyce, projektowaniu i naukach przyrodniczych."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Delft University of Technology",
+     "url": "https://en.wikipedia.org/wiki/Delft_University_of_Technology"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Delft University of Technology",
+    "opis": "Dutch university",
+    "tekst": "The Delft University of Technology is the oldest and largest Dutch public technical university, located in Delft, Netherlands. It specializes in engineering, technology, computing, design, and natural sciences.",
+    "url": "https://en.wikipedia.org/wiki/Delft_University_of_Technology",
+    "język": "en"
+   },
+   "tagi": [
+    "Delft University",
+    "Technology",
+    "Otte",
+    "Quantum Spins Like Guitar Strings Achieving"
+   ],
+   "emotki": [
+    "🔬",
+    "⚛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "ScienceDaily Physics",
+     "tytuł": "Physicists defy expectations by controlling the magnetic heart of a single atom",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261114202232.htm"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.617,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.574,
+     "treściwość": 0.393,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Physicists defy expectations by controlling the magnetic heart of a single atom",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Sploty kwantowych wirów rozplątują się w ultrazimnym gazie",
+   "lead": "Gdy chmura atomów zostanie schłodzona do temperatury bliskiej zeru absolutnemu, jej atomy mogą połączyć się w kondensat Bosego-Einsteina (BEC): egzotyczny płyn, w którym atomy w całej chmurze mają ten sam stan kwantowy. Obecne teorie przewidują, że gdy uporządkowany gaz kwantowy przechodzi w ten uporządkowany stan, powstaje splot drobnych wirów…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-15T16:40:01+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-11-tangled-quantum-whirlpools-caught-unraveling.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/tangled-quantum-whirlp.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Stosując nowatorską metodę obrazowania, bezpośrednio zaobserwowali zanikanie tych wirów, potwierdzając teorię „turbulencji Vinena”. W kondensacie Bosego-Einsteina zjawiska kwantowe, które zwykle ograniczają się do pojedynczych cząstek, występują w skali makroskopowej.",
+      "Podobnie jak inne płyny kwantowe, kondensat Bosego-Einsteina nie może swobodnie krążyć jak woda: zamiast tego wszelki ruch obrotowy koncentruje się w cienkich, przypominających nici wirach, z których każdy charakteryzuje się skwantowaną cyrkulacją.",
+      "Zgodnie z teorią zwaną „turbulencją Vinena” nowo utworzone kondensaty Bosego-Einsteina będą zawierać chaotycznie splątane nici, które stopniowo się rozplątują w miarę rozprężania się kondensatu.",
+      "Do tej pory fizycy dostrzegali oznaki tego efektu w helu nadciekłym, ale tylko pośrednio.",
+      "W gazach atomowych wiry były najczęściej obrazowane w płaskich układach 2D.",
+      "Aby prawidłowo przetestować tę koncepcję w gazie 3D, naukowcy musieli zarówno zobaczyć wiry, jak i je policzyć.",
+      "W swoim badaniu zespół Morrisa rozpoczął od kondensatu Bosego-Einsteina złożonego z atomów potasu, utrzymywanego w jednolitej, cylindrycznej pułapce świetlnej o średnicy mniejszej niż jedna dziesiąta milimetra.",
+      "Najpierw zakłócili stan uporządkowany gazu, a następnie uruchomili oddziaływania między atomami i pozostawili układ do samoczynnego ustabilizowania się.",
+      "W różnych momentach podczas tego rozprężania uwalniali gaz, powiększali go około 3,5 raza i fotografowali cienki płat rozszerzonej chmury."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "Dzięki nowym eksperymentom, których szczegóły opisano w czasopiśmie „Physical Review Letters”, zespół pod kierunkiem Sebastiana Morrisa z Uniwersytetu Cambridge po raz pierwszy uchwycił ten proces w akcji.",
+   "liczby": [
+    "3.5",
+    "10.1103"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Vinen",
+    "Bose–Einstein",
+    "BECs",
+    "Far-from-Equilibrium Bose-Einstein Condensation Physical Review Letters"
+   ],
+   "emotki": [
+    "⚛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Tangled quantum whirlpools caught unraveling in an ultracold gas",
+     "url": "https://phys.org/news/2026-11-tangled-quantum-whirlpools-caught-unraveling.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.154,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.72,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.446,
+     "treściwość": 0.438,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Tangled quantum whirlpools caught unraveling in an ultracold gas",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Kosmiczna lupa może ukazać tę samą supernową jeszcze dwa razy w ciągu około 70 lat",
+   "lead": "Dzięki soczewkowaniu grawitacyjnemu wywołanemu przez masywną gromadę galaktyk oraz zdjęciom o wysokiej rozdzielczości z Kosmicznego Teleskopu Jamesa Webba (JWST) astronomowie odkryli wybuchającą gwiazdę, gdy Wszechświat miał 4,9 miliarda lat. Artykuł na temat tego odkrycia został opublikowany na serwerze preprintów arXiv 1 października.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-14T18:20:01+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Astronomy",
+    "url": "https://phys.org/news/2026-11-cosmic-magnifying-glass-reveal-supernova.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-cosmic-magnifying-gl.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "23, przedstawia przewidywania dotyczące tego, kiedy dotrą pozostałe zniekształcone obrazy SN Ares.",
+      "Gdy masywna gromada galaktyk znajduje się między nami a odległą galaktyką, grawitacja gromady galaktyk działa jak naturalna soczewka, zakrzywiając i powiększając światło dochodzące z galaktyki w tle.",
+      "Zjawisko to nazywa się soczewkowaniem grawitacyjnym i może prowadzić do powstania wielu obrazów tej samej galaktyki.",
+      "Gdy różne promienie świetlne podążają nieco innymi torami, obrazy docierają w różnym czasie – czasami z odstępem kilku godzin, a czasami kilkudziesięciu lat.",
+      "Do znanych przykładów soczewkowania wielokrotnego obrazu należą Krzyż Einsteina, Roztopiony Pierścień i Uśmiechnięta Buźka.",
+      "W tym badaniu astronomowie pod kierunkiem Conora Larisona z Instytutu Naukowego Kosmicznego Teleskopu informują o odkryciu supernowej, która eksplodowała około 8,8 miliarda lat temu.",
+      "Odkryli oni SN Ares w sierpniu 2025 roku na wykonanych przez JWST zdjęciach w bliskiej podczerwieni obszaru gromady galaktyk MACS J0308.9+2645.",
+      "Spektroskopia JWST ujawniła cechy helu i wodoru, które są charakterystycznymi oznakami gwiazdy tracącej większość swojej zewnętrznej warstwy wodoru przed wybuchem – kategorii zwanej supernową typu IIb.",
+      "Naukowcy twierdzą, że jest to „obiekt o najwyższym przesunięciu ku czerwieni w swojej klasie zidentyfikowany spektroskopowo”. Na razie astronomowie widzą tylko jeden powiększony obraz Aresa."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Naukowcy z UBC pomogli odkryć 15 000 nowych potencjalnych silnych soczewek grawitacyjnych – największą kolekcję tych kosmicznych narzędzi, które pomagają astronomom badać ciemną materię."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Supernowa typu II, czyli SNII, powstaje w wyniku gwałtownej eksplozji masywnej gwiazdy po szybkim zapadnięciu się jej jądra. Aby doszło do tego typu eksplozji, masa gwiazdy musi wynosić co najmniej 8 razy, ale nie więcej niż 40–50 razy, masę Słońca (M☉). Supernowe typu II odróżniają się od innych typów supernowych obecnością wodoru w ich widmach. Zazwyczaj obserwuje się je w ramionach spiralnych galaktyk i w obszarach H II, ale nie w galaktykach eliptycznych. Galaktyki eliptyczne składają się na ogół ze starszych gwiazd o małej masie, z niewielką liczbą młodych, bardzo masywnych gwiazd niezbędnych do powstania supernowej."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Type II supernova",
+     "url": "https://en.wikipedia.org/wiki/Type_II_supernova"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "4.9 billion",
+    "23",
+    "8.8 billion",
+    "2645",
+    "73",
+    "76"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Type II supernova",
+    "opis": "Explosion of a star 8 to 45 times the mass of the Sun",
+    "tekst": "A Type II supernova or SNII results from the violent explosion of a massive star following the rapid collapse of its core. A star's mass must be at least 8 times, but no more than 40 to 50 times, the mass of the Sun (M☉) to undergo this type of explosion. Type II supernovae are distinguished from other types of supernovae by the presence of hydrogen in their spectra. They are usually observed in the spiral arms of galaxies and in H II regions, but not in elliptical galaxies; those are generally composed of older, low-mass stars, with few of the young, very massive stars necessary to cause a supernova.",
+    "url": "https://en.wikipedia.org/wiki/Type_II_supernova",
+    "język": "en"
+   },
+   "tagi": [
+    "SN Ares",
+    "Type IIb",
+    "Strongly Lensed Type IIb Supernova",
+    "Space Telescope Science Institute"
+   ],
+   "emotki": [
+    "🔭",
+    "🌌"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Astronomy",
+     "tytuł": "A cosmic magnifying glass could reveal the same supernova two more times in roughly 70 years",
+     "url": "https://phys.org/news/2026-11-cosmic-magnifying-glass-reveal-supernova.html"
+    },
+    {
+     "nazwa": "Phys.org Astronomy",
+     "tytuł": "Dark matter–hunting satellite Euclid reveals record number of cosmic 'magnifying glasses'",
+     "url": "https://phys.org/news/2026-11-dark-matterhunting-satellite-euclid-reveals.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.918,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.38,
+     "eksponowanie": 1.17,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.488,
+     "treściwość": 0.48,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "A cosmic magnifying glass could reveal the same supernova two more times in roughly 70 years",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Nowe obserwacje podważają dowody na istnienie „gigantycznej” czarnej dziury we wczesnym Wszechświecie",
+   "lead": "Niedawna ponowna analiza galaktyki UHZ1 z olbrzymią czarną dziurą, przeprowadzona przy użyciu istniejących danych rentgenowskich i nowych obserwacji w podczerwieni, podważa wcześniejsze przełomowe twierdzenie. Trzy lata temu galaktyka ta stała się tematem doniesień medialnych, ponieważ znajdowała się w niej niezwykle masywna i silnie przesłonięta pyłem czarna dziura powstała w wyniku bezpośredniego zapadnięcia się.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-15T14:00:04+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Astronomy",
+    "url": "https://phys.org/news/2026-11-evidence-outsize-black-hole-early.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-observations-chall-1.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "W nowym badaniu, prowadzonym przez Fana Zou z Uniwersytetu Michigan, nie stwierdzono oznak ukrytej aktywności czarnej dziury.",
+      "Artykuł opublikowany w The Astrophysical Journal 10 października",
+      "14, sugeruje, że UHZ1 może być galaktyką o małej masie, ubogą w metale i tworzącą gwiazdy.",
+      "UHZ1 została po raz pierwszy zauważona na zdjęciach z kamerą NIRCam wykonanych przez Kosmiczny Teleskop Jamesa Webba.",
+      "Później astronomowie oszacowali, że galaktykę zaobserwowano, gdy Wszechświat miał około 480 milionów lat, przy przesunięciu ku czerwieni wynoszącym 10.",
+      "Korzystając z teleskopu rentgenowskiego Chandra, naukowcy zaobserwowali niewielką nadwyżkę promieniowania rentgenowskiego o wysokiej energii pochodzącego z tego miejsca.",
+      "Zinterpretowali ten sygnał jako czarną dziurę żywiącą się gazem, co czyni UHZ1 aktywnym jądrem galaktycznym (AGN).",
+      "Niektóre cechy sugerowały również, że czarna dziura jest ukryta w gęstym gazie.",
+      "Szacują, że waży od 10 milionów do 100 milionów mas Słońca, co jest porównywalne z masą wszystkich gwiazd w całej galaktyce."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Promieniowanie rentgenowskie to rodzaj wysokoenergetycznego promieniowania elektromagnetycznego o długości fali krótszej niż długość fali promieniowania ultrafioletowego i dłuższej niż długość fali promieniowania gamma. Z grubsza promieniowanie rentgenowskie ma długość fali w zakresie od 10 nanometrów do 10 pikometrów, co odpowiada częstotliwościom w zakresie od 30 petaherców do 30 eksaherców (od 3×1016 Hz do 3×1019 Hz) oraz energiom fotonów w zakresie od 100 eV do 100 keV."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: X-ray",
+     "url": "https://en.wikipedia.org/wiki/X-ray"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "14",
+    "480 million",
+    "10",
+    "0.95 million",
+    "0.1%",
+    "1,000"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "X-ray",
+    "opis": "Form of electromagnetic radiation",
+    "tekst": "An X-ray is a form of high-energy electromagnetic radiation with a wavelength shorter than those of ultraviolet rays and longer than those of gamma rays. Roughly, X-rays have a wavelength ranging from 10 nanometers to 10 picometers, corresponding to frequencies in the range of 30 petahertz to 30 exahertz (3×1016 Hz to 3×1019 Hz) and photon energies in the range of 100 eV to 100 keV, respectively.",
+    "url": "https://en.wikipedia.org/wiki/X-ray",
+    "język": "en"
+   },
+   "tagi": [
+    "X-ray",
+    "Astrophysical Journal",
+    "Chandra",
+    "Astrophysical Journal Shreejaya Karantha"
+   ],
+   "emotki": [
+    "🌌",
+    "🔭"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Astronomy",
+     "tytuł": "New observations challenge evidence for an 'outsize' black hole in the early universe",
+     "url": "https://phys.org/news/2026-11-evidence-outsize-black-hole-early.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.883,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.72,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.413,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "New observations challenge evidence for an 'outsize' black hole in the early universe",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Nowa wersja wtyczki do wizualizacji mapy glebowo-rolniczej",
+   "lead": "W repozytorium wtyczek QGIS udostępniono zaktualizowaną wtyczkę Mapa glebowo-rolnicza wersja 1.0.3 , która służy do wizualizacji wektorowej mapy glebowo-rolniczej w skali 1:5000, zapisanej w formacie GML, oraz sprawdzania zgodności plików GML ze schematem aplikacyjnym XSD. Nowa wersja wtyczki została dostosowana…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-16T00:00:00+00:00",
+   "źródło": {
+    "nazwa": "Geoforum",
+    "url": "https://geoforum.pl/news/37519/nowa-wersja-wtyczki-do-wizualizacji-mapy-glebowo-rolniczej",
+    "domena": "geoforum.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "W aktualnym schemacie wprowadzono niewielkie zmiany w strukturze atrybutowej oraz uwzględniono..."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "1.0.3",
+    "5000"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Mapa"
+   ],
+   "emotki": [
+    "🗺️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Geoforum",
+     "tytuł": "Nowa wersja wtyczki do wizualizacji mapy glebowo-rolniczej",
+     "url": "https://geoforum.pl/news/37519/nowa-wersja-wtyczki-do-wizualizacji-mapy-glebowo-rolniczej"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.868,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.538,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "RaportyGML: nowe funkcjonalności w aplikacji",
+   "lead": "Jak informuje producent, program RaportyGML, początkowo służący przede wszystkim do przeglądania danych w formacie GML, został rozszerzony o funkcje związane z przygotowywaniem dokumentacji geodezyjnej. Obecnie aplikacja obejmuje narzędzia wykorzystywane m.in. przy ustalaniu i przyjmowaniu granic, podziałach…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-16T00:00:00+00:00",
+   "źródło": {
+    "nazwa": "Geoforum",
+    "url": "https://geoforum.pl/news/37520/raportygml-nowe-funkcjonalnosci-w-aplikacji",
+    "domena": "geoforum.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Program umożliwia generowanie zawiadomień i protokołów dotyczących ustalania i przyjmowania..."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "RaportyGML"
+   ],
+   "emotki": [
+    "💻",
+    "🗺️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Geoforum",
+     "tytuł": "RaportyGML: nowe funkcjonalności w aplikacji",
+     "url": "https://geoforum.pl/news/37520/raportygml-nowe-funkcjonalnosci-w-aplikacji"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.608,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.72,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.538,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Zagra w kolejnej części kultowej serii? Szanse na to właśnie mocno wzrosły",
+   "lead": "Chris Pratt, gwiazdor serii \"Strażnicy Galaktyki\", wyznał niedawno, że \"bardzo chciałby\" nakręcić czwartą część tej franczyzy z uniwersum Marvela pod okiem Jamesa Gunna. Zwłaszcza teraz, gdy wraz z Peterem Safranem opuścił on DC Studios w obliczu zmian wprowadzonych przez Davida Ellisona i firmę Skydance.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-15T13:10:31+00:00",
+   "źródło": {
+    "nazwa": "Interia Film",
+    "url": "https://film.interia.pl/wiadomosci/news-zagra-w-kolejnej-czesci-kultowej-serii-szanse-na-to-wlasnie,nId,23573643",
+    "domena": "film.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NJ6RSL4RKK3SP-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Uwielbiam pracować z Jamesem\" - powiedział Chris Pratt w rozmowie z serwisem MovieZine. - \"To świetny facet.",
+      "Nie miałem jeszcze okazji z nim porozmawiać, odkąd pojawiły się te wieści (o opuszczeniu przez Gunna DC Studios - przyp. red.).",
+      "Z drugiej strony, gdy porusza się takie tematy, trzeba uważać - każde wypowiedziane słowo może od razu trafić do nagłówków gazet\".",
+      "\"Powiem tylko tyle: uwielbiam Jamesa.",
+      "Wyreżyserował wszystkie trzy części, a w przypadku tego typu trylogii to dość rzadkie, by za każdą z nich odpowiadał ten sam reżyser.",
+      "Gdyby więc chciał wrócić i ponownie zająć się tą serią - cóż, byłbym zachwycony\" - przyznał aktor.",
+      "Przypomnijmy, że na początku tego tygodnia serwis Deadline poinformował, że Gunn i Safran przestają pełnić funkcje współdyrektorów generalnych (co-CEO) oraz prezesów DC Studios po czterech latach sprawowania tych stanowisk, jednak nadal będą zajmować się produkcją różnych projektów związanych z DC.",
+      "Jednocześnie Jeremy Latcham, były starszy wiceprezes ds. produkcji i rozwoju w Marvelu, został mianowany nowym prezesem oraz dyrektorem kreatywnym (Chief Creative Officer) w DC w ramach przejęcia firmy przez Skydance.",
+      "Zanim w 2022 roku objął stanowisko współszefa nowo utworzonego studia DC Studios (należącego do WBD) wraz z Peterem Safranem, Gunn wyreżyserował dla studia Marvel Studios (należącego do Disneya) filmy \"Strażnicy Galaktyki\" (2014), \"Strażnicy Galaktyki vol."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Marvel Studios – amerykańska wytwórnia filmowa, w latach 1993–1996 funkcjonująca pod nazwą Marvel Films, z siedzibą w The Walt Disney Studios w Burbank, w Kalifornii. Od 2015 roku jest spółką zależną The Walt Disney Studios, należącego do The Walt Disney Company. Prezesem studia jest producent filmowy, Kevin Feige."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Marvel Studios",
+     "url": "https://pl.wikipedia.org/wiki/Marvel_Studios"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "80"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Marvel Studios",
+    "opis": "amerykańska wytwórnia filmów i komiksów.",
+    "tekst": "Marvel Studios – amerykańska wytwórnia filmowa, w latach 1993–1996 funkcjonująca pod nazwą Marvel Films, z siedzibą w The Walt Disney Studios w Burbank, w Kalifornii. Od 2015 roku jest spółką zależną The Walt Disney Studios, należącego do The Walt Disney Company. Prezesem studia jest producent filmowy, Kevin Feige.",
+    "url": "https://pl.wikipedia.org/wiki/Marvel_Studios",
+    "język": "pl"
+   },
+   "tagi": [
+    "Strażnicy Galaktyki",
+    "Studios",
+    "Chris Pratt",
+    "Skydance"
+   ],
+   "emotki": [
+    "🌌"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Film",
+     "tytuł": "Zagra w kolejnej części kultowej serii? Szanse na to właśnie mocno wzrosły",
+     "url": "https://film.interia.pl/wiadomosci/news-zagra-w-kolejnej-czesci-kultowej-serii-szanse-na-to-wlasnie,nId,23573643"
+    },
+    {
+     "nazwa": "The Guardian Culture",
+     "tytuł": "Saturday Night Live: is John Mulaney the best modern host we have?",
+     "url": "https://www.theguardian.com/tv-and-radio/2026/nov/15/saturday-night-live-john-mulaney-host"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.48,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.193,
+     "eksponowanie": 0.27,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.417,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Red Hot Chili Peppers jako Rick Rubin. Skradli show na wielkiej gali",
+   "lead": "Tegoroczna gala Rock & Roll Hall of Fame wielu widzom zapisze się w pamięci głównie ze względu na nietypowy hołd muzyków Red Hot Chili Peppers złożony Rickowi Rubinowi. Wszyscy przebrali się za niego i wykonali niezapomniane \"Give It Away\".",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-15T13:10:44+00:00",
+   "źródło": {
+    "nazwa": "Onet Kultura",
+    "url": "https://kultura.onet.pl/muzyka/wiadomosci/red-hot-chili-peppers-jako-rick-rubin-skradli-show-na-wielkiej-gali/4rh3t2r",
+    "domena": "kultura.onet.pl"
+   },
+   "obraz": "https://cdn.kultura.onet.pl/1/Pzjk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy9iMmIwMjYxOGI0N2ZlYmUxNmY2MDQyZDg2NzU4MTI4Yi5qcGeSlQMAds0Lts0GmJMFzQlgzQZA3gACoTAHoTEE",
+   "sekcje": [
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Red Hot Chili Peppers – kalifornijska grupa muzyczna grająca głównie funk rock, powstała w Los Angeles w 1983. Obecny skład grupy tworzą wokalista Anthony Kiedis, gitarzysta John Frusciante, basista Michael „Flea” Balzary i perkusista Chad Smith. Zróżnicowany styl muzyczny zespołu połączył tradycyjny funk z elementami innych stylów, w tym rocka alternatywnego, punk rocka, i rocka psychodelicznego."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Red Hot Chili Peppers",
+     "url": "https://pl.wikipedia.org/wiki/Red_Hot_Chili_Peppers"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "14",
+    "51"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Red Hot Chili Peppers",
+    "opis": "",
+    "tekst": "Red Hot Chili Peppers – kalifornijska grupa muzyczna grająca głównie funk rock, powstała w Los Angeles w 1983. Obecny skład grupy tworzą wokalista Anthony Kiedis, gitarzysta John Frusciante, basista Michael „Flea” Balzary i perkusista Chad Smith. Zróżnicowany styl muzyczny zespołu połączył tradycyjny funk z elementami innych stylów, w tym rocka alternatywnego, punk rocka, i rocka psychodelicznego.",
+    "url": "https://pl.wikipedia.org/wiki/Red_Hot_Chili_Peppers",
+    "język": "pl"
+   },
+   "tagi": [
+    "Red Hot Chili Peppers",
+    "Hot Chili Peppers",
+    "Rickowi Rubinowi",
+    "Rick Rubin"
+   ],
+   "emotki": [
+    "🎵"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Onet Kultura",
+     "tytuł": "Red Hot Chili Peppers jako Rick Rubin. Skradli show na wielkiej gali",
+     "url": "https://kultura.onet.pl/muzyka/wiadomosci/red-hot-chili-peppers-jako-rick-rubin-skradli-show-na-wielkiej-gali/4rh3t2r"
+    },
+    {
+     "nazwa": "Pitchfork",
+     "tytuł": "Watch St. Vincent, Metallica, More Cover Iron Maiden at Rock & Roll Hall of Fame 2026 Induction Ceremony",
+     "url": "https://pitchfork.com/story/watch-st-vincent-metallica-more-cover-iron-maiden-at-rock-and-roll-hall-of-fame-2026-induction-ceremony/"
+    },
+    {
+     "nazwa": "Pitchfork",
+     "tytuł": "Peter Hook, Lauren Mayberry, Deftones Play Joy Division and New Order Songs at 2026 Rock Hall",
+     "url": "https://pitchfork.com/story/deftones-lauren-mayberry-peter-hook-play-joy-division-and-new-order-songs-at-2026-rock-hall/"
+    },
+    {
+     "nazwa": "Pitchfork",
+     "tytuł": "Watch Wu-Tang Clan Perform at the Rock & Roll Hall of Fame 2026 Induction Ceremony",
+     "url": "https://pitchfork.com/story/watch-wu-tang-clan-perform-at-the-rock-and-roll-hall-of-fame-2026-induction-ceremony/"
+    },
+    {
+     "nazwa": "Pitchfork",
+     "tytuł": "Phil Collins Gets Rare Two-Time Inductee Status at Rock & Roll Hall of Fame",
+     "url": "https://pitchfork.com/story/phil-collins-gets-rare-two-time-inductee-status-at-rock-and-roll-hall-of-fame/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.383,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.673,
+     "eksponowanie": 0.54,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.47,
+     "treściwość": 0.3,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  }
+ ],
+ "braki": [],
+ "statystyki": {
+  "kanały_ok": 71,
+  "kanały_błędne": 1,
+  "znaki_tłumaczone": 10270,
+  "niedziałające_kanały": [
+   {
+    "url": "https://www.esa.int/rssfeed/Our_Activities/Space_Science",
+    "powód": "HTTP 404"
+   }
+  ],
+  "działy": 18,
+  "artykuły_w_oknie": 37
+ }
+}
