@@ -1,0 +1,1807 @@
+{
+ "wersja": "1.0.0",
+ "wydanie": "2026-11-17",
+ "dotyczy_dnia": "2026-11-16",
+ "wygenerowano": "2026-11-17T15:25:36+00:00",
+ "strefa": "Europe/Warsaw",
+ "tryb": "ekstrakcyjny",
+ "demo": false,
+ "pozycje": [
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Tusk apeluje do prezydenta ws. ustawy cyfrowej: Liczę na pana przyzwoitość",
+   "lead": "13 listopada prezydent Karol Nawrocki zawetował rządową nowelizację wdrażającą Akt o usługach cyfrowych (DSA), czyli tzw. ustawę cyfrową. Chodzi o zmiany w ustawie o świadczeniu usług drogą elektroniczną.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-16T19:52:00+00:00",
+   "źródło": {
+    "nazwa": "Gazeta.pl",
+    "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33135618,tusk-apeluje-do-prezydenta-ws-ustawy-cyfrowej-licze-na-pana.html",
+    "domena": "wiadomosci.gazeta.pl"
+   },
+   "obraz": "https://bi.im-g.pl/im/b1/99/1f/z33135025IHG.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Ich celem było wprowadzenie procedury umożliwiającej szybkie wydawanie nakazów ograniczających dostęp do nielegalnych treści w internecie.",
+      "Uzasadniając decyzję, prezydent oświadczył w nagraniu opublikowanym w serwisie X, że nie będzie ulegał \"szantażom rządzących\", zwłaszcza jeśli zakładnikami miałyby być bezpieczeństwo i wolność.",
+      "Dodał, że państwo już teraz ma możliwość ochrony społeczeństwa w tym zakresie.",
+      "Do weta Karola Nawrockiego odniósł się w poniedziałek (16 listopada) premier Donald Tusk.",
+      "Opublikował na portalu X nagranie, w którym zaapelował do prezydenta a o zmianę stanowiska. - Masz 40 lat i 12-letnią córkę, którą prześladują w szkole.",
+      "Posunęli się do tego, że spreparowali jej zdjęcia i jej nagi wizerunek pojawił się w internecie.",
+      "Piszesz do tych, którzy decydują o tym, co na ich platformie cyfrowej się znajduje i czekasz dzień, tydzień, może miesiąc na ich decyzje - mówi na nagraniu premier. - Jeśli pójdziesz na policję policja może się postarać złapać autorów tego zdjęcia, ale nie ma możliwości zablokowania tych zdjęć w internecie.",
+      "Po to właśnie była ustawa, która została zawetowana przez prezydenta - kontynuuje Donald Tusk.",
+      "Szef rządu podkreślił, że \"co drugi dzień\" dochodzi do samobójstwa osoby nieletniej."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "13",
+    "16",
+    "40 lat",
+    "12"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Tusk",
+    "Karola Nawrockiego",
+    "Donald Tusk",
+    "Polsce"
+   ],
+   "emotki": [
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Tusk apeluje do prezydenta ws. ustawy cyfrowej: Liczę na pana przyzwoitość",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33135618,tusk-apeluje-do-prezydenta-ws-ustawy-cyfrowej-licze-na-pana.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.465,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.486,
+     "treściwość": 0.429,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "NBP wstrzymuje płatności dla TK. Święczkowski: Rozmawiałem z Glapińskim",
+   "lead": "Narodowy Bank Polski zdecydował w poniedziałek (16 listopada) o zablokowaniu wszystkich zleceń płatniczych dla Trybunału Konstytucyjnego . Poinformował o tym w specjalnym oświadczeniu.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-16T21:55:00+00:00",
+   "źródło": {
+    "nazwa": "Gazeta.pl",
+    "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33135716,nbp-wstrzymuje-platnosci-dla-tk-swieczkowski-rozmawialem-z.html",
+    "domena": "wiadomosci.gazeta.pl"
+   },
+   "obraz": "https://bi.im-g.pl/im/af/97/1f/z33126575IHG,Bogdan-Swieczkowski.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "\"W uzupełnieniu komunikatu Departamentu Prawnego NBP uprzejmie wyjaśniamy, że - z uwagi na zaistniałe okoliczności - w NBP podjęta została decyzja o wstrzymaniu wszelkich zleceń płatniczych dotyczących środków pieniężnych zgromadzonych na rachunkach Trybunału Konstytucyjnego prowadzonych przez Narodowy Bank Polski\" - czytamy w uzupełnieniu oświadczenia.",
+      "Raz jeszcze podkreślić bowiem należy, że NBP nie jest właściwy do rozstrzygnięcia sporu dotyczącego kierowania Trybunałem Konstytucyjnym\" - dodano w notatce.",
+      "Zdaniem szefa resortu finansów takie działanie wskazuje na upolitycznienie banku.",
+      "W rozmowie z dziennikarzem Bogdanem Rymanowskim na jego kanale YouTube prezes Trybunału Konstytucyjnego Bogdan Święczkowski powiedział, że zwrócił się do prezesa NBP, aby ten nie uznawał \"pełnomocnictw osoby nieupoważnionej, czyli pani Korwin-Piotrowskiej, która uzurpuje sobie funkcję kierowania TK\".",
+      "Powiedział również, że decyzja NBP o wstrzymaniu wszystkich zleceń płatniczych jest tymczasowa. - Mam nadzieję, że pan prezes Glapiński podejmie ostateczną decyzję, z której będzie wynikało, iż to ja jestem dysponentem [środków] Trybunału Konstytucyjnego w Narodowym Banku Polskim - podkreślił.",
+      "Święczkowski dodał, że jeśli Glapiński podejmie inną decyzję, zgodnie z którą to nie on będzie dysponentem TK, to uzna ją \"za sprzeczną z prawem, z ustawą i z konstytucją\".",
+      "Potwierdził również, że rozmawiał z prezesem NBP. - Zamieniłem z nim kilka słów, ale nie jesteśmy w jakichś bliskich relacjach - dodał.",
+      "Do decyzji NBP odniosła się sędzia Anna Korwin-Piotrowska.",
+      "Zapewniła, że wszystkie wymagane płatności, w tym płatności wynagrodzeń dla pracowników Trybunału, zostaną wykonane w najbliższych dniach."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Trybunał Konstytucyjny – polski sąd konstytucyjny, organ władzy sądowniczej, utworzony w 1982 r., który rozpoczął działalność orzeczniczą w 1986 r. Jego podstawowym zadaniem jest sądowa kontrola konstytucyjności prawa: kontrolowanie zgodności norm prawnych niższego rzędu z normami prawnymi wyższego rzędu, przede wszystkim z Konstytucją i niektórymi umowami międzynarodowymi."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Trybunał Konstytucyjny (Polska)",
+     "url": "https://pl.wikipedia.org/wiki/Trybuna%C5%82_Konstytucyjny_(Polska)"
+    }
+   ],
+   "dlaczego_to_ważne": "\"Oznacza to, że nie są realizowane zlecenia płatnicze niezależnie od tego, przez kogo są one zlecane.",
+   "liczby": [
+    "16"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Trybunał Konstytucyjny (Polska)",
+    "opis": "polski sąd konstytucyjny",
+    "tekst": "Trybunał Konstytucyjny – polski sąd konstytucyjny, organ władzy sądowniczej, utworzony w 1982 r., który rozpoczął działalność orzeczniczą w 1986 r. Jego podstawowym zadaniem jest sądowa kontrola konstytucyjności prawa: kontrolowanie zgodności norm prawnych niższego rzędu z normami prawnymi wyższego rzędu, przede wszystkim z Konstytucją i niektórymi umowami międzynarodowymi.",
+    "url": "https://pl.wikipedia.org/wiki/Trybuna%C5%82_Konstytucyjny_(Polska)",
+    "język": "pl"
+   },
+   "tagi": [
+    "NBP",
+    "Trybunału Konstytucyjnego",
+    "Glapiński",
+    "Trybunału Konstytucyjnego Bogdan Święczkowski"
+   ],
+   "emotki": [
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "NBP wstrzymuje płatności dla TK. Święczkowski: Rozmawiałem z Glapińskim",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33135716,nbp-wstrzymuje-platnosci-dla-tk-swieczkowski-rozmawialem-z.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.072,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.511,
+     "treściwość": 0.361,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Putin, Trump i Xi przy jednym stole. O czym będą rozmawiać w Shenzen?",
+   "lead": "Szczyt odbędzie się w ramach Wspólnoty Gospodarczej Azji i Pacyfiku (APEC). To pierwsze spotkanie tego rodzaju – zaznaczył, cytowany przez agencję Reutera Uszakow.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-16T16:41:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-putin-trump-i-xi-przy-jednym-stole-o-czym-beda-rozmawiac-w-s,nIdn,1026353",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/3f/a1/watchvqucptxfd-ty-636x421-3fa19f02.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Spotkanie odbędzie się w oficjalnej rezydencji Xi Jinpinga.",
+      "W centrum uwagi rozmów mają znaleźć się wojna w Ukrainie, sytuacja na Półwyspie Koreańskim oraz kwestie związane z bezpieczeństwem nuklearnym.",
+      "Prezydent Donald Trump zapowiedział, że podczas spotkania nie zabraknie również rozmów o Iranie .",
+      "Będziemy rozmawiać o denuklearyzacji.",
+      "To trudny temat, bo każdemu z nas bardzo trudno powiedzieć, że pozbędziemy się broni jądrowej, prawda?",
+      "Iran jest w bardzo dobrej kondycji, ale porozmawiamy o nim trochę.",
+      "Porozmawiamy o moim ulubionym temacie, Ukrainie – mówił dziś prezydent Trump.",
+      "W środę, dzień przed kluczowym szczytem, Władimir Putin spotka się z Xi Jinpingiem na rozmowach dwustronnych.",
+      "Rosyjski przywódca ma także przekazać Xi wyniki wcześniejszych negocjacji z USA, które odbyły się w Abu Zabi."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "30",
+    "500",
+    "380",
+    "26",
+    "2,300",
+    "8,000"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Ukrainie",
+    "Półwyspie Koreańskim",
+    "Władimir Putin",
+    "Putinem"
+   ],
+   "emotki": [
+    "🤝",
+    "🏛️",
+    "⚔️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Putin, Trump i Xi przy jednym stole. O czym będą rozmawiać w Shenzen?",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-putin-trump-i-xi-przy-jednym-stole-o-czym-beda-rozmawiac-w-s,nIdn,1026353"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Trump to embark on Asia trip in apparent foreign policy push before end of term",
+     "url": "https://www.theguardian.com/us-news/2026/nov/16/trump-asia-foreign-domestic-policy"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "FAA ground stop still affecting thousands of flights. And, Trump meets Xi, Putin in Asia",
+     "url": "https://www.npr.org/2026/11/16/g-s1-153841/up-first-newsletter-faa-ground-stop-democratic-leaders-congress-trump-asia-trip"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "What to expect from Trump and Xi's upcoming meeting in China",
+     "url": "https://www.npr.org/2026/11/15/nx-s1-6038814/what-to-expect-from-trump-and-xis-upcoming-meeting-in-china"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "Trump heads to Asia to meet with Xi and Putin amid Nvidia fallout",
+     "url": "https://www.npr.org/2026/11/16/nx-s1-6041738/trump-xi-and-putin-china-nvidia"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 9.083,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.807,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.446,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Gerard Depardieu przeprasza za zachowanie wobec kobiet. „Chowałem się za prowokacją”",
+   "lead": "Gerard Depardieu został skazany na 18 miesięcy więzienia w zawieszeniu. Chodziło o molestowanie dwóch kobiet na planie filmu “Les Volets verts”.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-16T14:34:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-gerard-depardieu-przeprasza-za-zachowanie-wobec-kobiet-chowa,nIdn,1026335",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/d8/95/gerard-depardieu-fot-636x421-d8959e26.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Aktor miał pozwalać sobie na niestosowne uwagi czy chwytać jedną z kobiet za pośladki i biust.",
+      "Depardieu zaprzeczał oskarżeniom.",
+      "Na procesie przekonywał, że jest „z innej epoki”.",
+      "Przyznał, że dopuszcza się obscenicznych uwag, ale też zapewniał, że „napaść seksualna” jest „czymś poważniejszym” niż zarzucane mu czyny.",
+      "Dziś aktor wycofał złożoną wcześniej apelację od zeszłorocznego wyroku.",
+      "„Sprawiedliwość wydała wyrok.",
+      "Zostałem uznany za winnego.",
+      "Akceptuję to i biorę na siebie odpowiedzialność za ten wyrok” – stwierdził Depardieu w oświadczeniu, cytowanym m.in. przez dziennik „Le Monde”.",
+      "Złożył też „głębokie i szczere przeprosiny”, choć jednocześnie zapewnił, że nie chciał nikogo skrzywdzić."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "18"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Depardieu",
+    "Delphine Meillet",
+    "Obelixa Dantona",
+    "Monte Christo"
+   ],
+   "emotki": [
+    "🎬",
+    "🎭",
+    "⚖️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Gerard Depardieu przeprasza za zachowanie wobec kobiet. „Chowałem się za prowokacją”",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-gerard-depardieu-przeprasza-za-zachowanie-wobec-kobiet-chowa,nIdn,1026335"
+    },
+    {
+     "nazwa": "BBC Europe",
+     "tytuł": "Gérard Depardieu drops appeal against sexual assault conviction",
+     "url": "https://www.bbc.co.uk/news/articles/cm20vexye1d0o?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.086,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.307,
+     "eksponowanie": 0.45,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.42,
+     "treściwość": 0.159,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Anglia – Polska. Mistrzostwa Świata AMP Futbol 2026 [MECZ]",
+   "lead": "Drugie spotkanie reprezentacji Polski w grupie F mistrzostw świata w amp futbolu, przeciwko drużynie Anglii. Biało-czerwoni pokonali Kostarykę 2:1, otrzymali też walkowerem zwycięstwo 3:0 za odwołany mecz z Iranem (drużyna z Bliskiego Wschodu zrezygnowała z występu w turnieju).",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-16T22:45:00+00:00",
+   "źródło": {
+    "nazwa": "TVP Sport",
+    "url": "https://sport.tvp.pl/96317868/anglia-polska-mistrzostwa-swiata-amp-futbol-2026-transmisja-na-zywo-online-live-stream-16112026",
+    "domena": "sport.tvp.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Mistrzostwa świata w piłce nożnej, w Polsce nazywane również mundialem lub Pucharem Świata – międzynarodowy turniej piłki nożnej, w którym biorą udział męskie reprezentacje narodowe federacji należących do FIFA. Pierwsze mistrzostwa odbyły się w 1930 roku w Urugwaju. Od tego czasu odbywają się co cztery lata, z wyjątkiem 1942 i 1946 roku, gdyż z powodu II wojny światowej nie odbywały się kongresy FIFA, na których podejmowano decyzję o organizacji turnieju."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Mistrzostwa świata w piłce nożnej mężczyzn",
+     "url": "https://pl.wikipedia.org/wiki/Mistrzostwa_%C5%9Bwiata_w_pi%C5%82ce_no%C5%BCnej_m%C4%99%C5%BCczyzn"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "Skrót drugiego spotkania reprezentacji Polski w grupie F mistrzostw świata w amp futbolu, przeciwko drużynie Anglii.",
+     "url": "https://sport.tvp.pl/96513396/anglia-polska-mistrzostwa-swiata-amp-futbol-2026-skrot"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Mistrzostwa świata w piłce nożnej mężczyzn",
+    "opis": "międzynarodowy turniej piłkarski",
+    "tekst": "Mistrzostwa świata w piłce nożnej, w Polsce nazywane również mundialem lub Pucharem Świata – międzynarodowy turniej piłki nożnej, w którym biorą udział męskie reprezentacje narodowe federacji należących do FIFA. Pierwsze mistrzostwa odbyły się w 1930 roku w Urugwaju. Od tego czasu odbywają się co cztery lata, z wyjątkiem 1942 i 1946 roku, gdyż z powodu II wojny światowej nie odbywały się kongresy FIFA, na których podejmowano decyzję o organizacji turnieju.",
+    "url": "https://pl.wikipedia.org/wiki/Mistrzostwa_%C5%9Bwiata_w_pi%C5%82ce_no%C5%BCnej_m%C4%99%C5%BCczyzn",
+    "język": "pl"
+   },
+   "tagi": [
+    "Bliskiego Wschodu",
+    "Kostarykę",
+    "Świata",
+    "Futbol"
+   ],
+   "emotki": [
+    "⚽",
+    "🏅"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Anglia – Polska. Mistrzostwa Świata AMP Futbol 2026 [MECZ]",
+     "url": "https://sport.tvp.pl/96317868/anglia-polska-mistrzostwa-swiata-amp-futbol-2026-transmisja-na-zywo-online-live-stream-16112026"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Anglia – Polska. Mistrzostwa Świata AMP Futbol 2026 [SKRÓT]",
+     "url": "https://sport.tvp.pl/96513396/anglia-polska-mistrzostwa-swiata-amp-futbol-2026-skrot"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.226,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.15,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.529,
+     "treściwość": 0.347,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Yasin Ayari: każdy mecz traktujemy poważnie [WIDEO]",
+   "lead": "Reprezentacja Szwecji zapewniła sobie już pierwsze miejsce w grupie 4 dywizji B Ligi Narodów. Mimo to piłkarze nie zamierzają lekceważyć spotkania z Polską. – Każdy mecz traktujemy poważnie.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-16T22:44:00+00:00",
+   "źródło": {
+    "nazwa": "TVP Sport",
+    "url": "https://sport.tvp.pl/96513302/yasin-ayari-kazdy-mecz-traktujemy-powaznie-wideo",
+    "domena": "sport.tvp.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Mamy wielką szansę pokazać, że nawet jeśli ten mecz nic dla nas nie znaczy, wciąż postaramy się wygrać – stwierdził Yasin Ayari.",
+      "Zawodnik opowiedział także o tym, jak drużyna zmieniła się na przestrzeni ostatnich sezonów. – To proces, kilka lat temu nie było tak idealnie.",
+      "Teraz jesteśmy w momencie, w którym czujemy się komfortowo w naszej drużynie, gramy dobrze i wygrywamy mecze – wyjaśnił."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Yasin Abbas Ayari – szwedzki piłkarz marokańsko-tunezyjskiego pochodzenia, występujący na pozycji pomocnika w angielskim klubie Brighton & Hove Albion oraz w reprezentacji Szwecji."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Yasin Ayari",
+     "url": "https://pl.wikipedia.org/wiki/Yasin_Ayari"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Yasin Ayari",
+    "opis": "szwedzki piłkarz",
+    "tekst": "Yasin Abbas Ayari – szwedzki piłkarz marokańsko-tunezyjskiego pochodzenia, występujący na pozycji pomocnika w angielskim klubie Brighton & Hove Albion oraz w reprezentacji Szwecji.",
+    "url": "https://pl.wikipedia.org/wiki/Yasin_Ayari",
+    "język": "pl"
+   },
+   "tagi": [
+    "Reprezentacja Szwecji",
+    "Ligi Narodów",
+    "Polską Każdy",
+    "Yasin Ayari"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Yasin Ayari: każdy mecz traktujemy poważnie [WIDEO]",
+     "url": "https://sport.tvp.pl/96513302/yasin-ayari-kazdy-mecz-traktujemy-powaznie-wideo"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.222,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.522,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Kluczowe obszary, na których Walia może oprzeć się, aby wykorzystać swoje historyczne zwycięstwo",
+   "lead": "Po oszałamiającym zwycięstwie nad Nową Zelandią w historyczne popołudnie w Cardiff reprezentacja Walii musi wrócić na ziemię w meczu z Australią w ramach Mistrzostw Narodów.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-17T04:29:45+00:00",
+   "źródło": {
+    "nazwa": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6vg202j9dj0o?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3543/live/9bcc8ab0-e1f0-11f1-9f14-b33806cfd783.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Stany Zjednoczone pokonały Kanadę 6:2 i zdobyły 12. tytuł mistrzyń świata Knight i Pannek zdobyły po dwie bramki w zwycięskim meczu Stany Zjednoczone 6:2 Kanada – przebieg meczu W poniedziałek Stany Zjednoczone pokonały Kanadę 6:2 i zdobyły tytuł mistrzyń świata w hokeju na lodzie kobiet w Herning w Danii, stając się pierwszą drużyną z USA, która zdobyła tytuły olimpijski i mistrzowski w tym samym roku kalendarzowym.",
+      "Hilary Knight i Kelly Pannek zdobyły po dwie bramki, a Amerykanki zdobyły swój 12. tytuł mistrzyń świata, dołączając go do złotego medalu olimpijskiego wywalczonego w lutym w Mediolanie.",
+      "Dla reprezentacji USA bramkę zdobyła również Lacey Eden, natomiast obie bramki dla Kanady, która walczyła o 14. tytuł mistrzyń świata, strzeliła Sarah Fillier.",
+      "Knight wyrównała pięć minut później, zanim Pannek wyprowadziła Amerykanki na prowadzenie w 11:33 drugiej tercji.",
+      "Pannek zdobyła swoją drugą bramkę zaledwie 89 sekund po rozpoczęciu trzeciej tercji, odbijając strzał Cayli Barnes, a następnie Eden podwyższyła wynik na 5:1 w 2:48.",
+      "Czasami gramy zawzięcie, czasami gramy z umiejętnościami, a udział w tym wszystkim to po prostu super zabawa”. Knight zakończyła turniej z dziewięcioma bramkami na koncie, co jest jej rekordem życiowym. 37-letnia kapitan reprezentacji USA",
+      "USA pokonały Kanadę i zdobyły tytuł mistrzyń świata w hokeju na lodzie Caroline Harvey została wybrana MVP turnieju Te dwie drużyny wspólnie wygrały wszystkie 25 edycji USA 0:0 Kanada, 16:16, 1. tercja Kanada ma pierwszą dobrą okazję do zdobycia gola, gdy Jessie Eldridge wjeżdża z krążkiem w strefę Amerykanek i wysyła backhanda w kierunku bramki."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "12",
+    "14",
+    "11",
+    "03",
+    "33",
+    "09"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Nations Championship",
+    "Cardiff Wales",
+    "Australia",
+    "Zealand"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Key areas for Wales to build on historic win",
+     "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6vg202j9dj0o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "USA thrash Canada to win women’s hockey worlds and complete historic golden double",
+     "url": "https://www.theguardian.com/sport/2026/nov/16/usa-canada-womens-ice-hockey-world-championship-final"
+    },
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "United States 6-2 Canada: women’s ice hockey world championship 2026 final – as it happened",
+     "url": "https://www.theguardian.com/sport/live/2026/nov/16/usa-canada-womens-ice-hockey-world-championship-final-live"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.594,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.66,
+     "eksponowanie": 0.54,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.594,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Key areas for Wales to build on historic win",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Carlos Alcaraz pokonuje Francisa Tiafoe w fazie grupowej ATP Finals w tenisie – relacja z meczu",
+   "lead": "Carlos Alcaraz okazał się zdecydowanie lepszy od Francisa Tiafoe, pokonując amerykańskiego debiutanta 6:2, 6:2 w niecałą godzinę. Carlos Alcaraz zrobił sobie prawie pięciomiesięczną przerwę, by dojść do siebie po kontuzji nadgarstka, ale wrócił w swoim typowym, miażdżącym stylu, pokonując Francisa Tiafoe 6:2, 6:2 w pierwszym meczu w grupie Ivana Lendla. Chociaż…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-16T22:46:10+00:00",
+   "źródło": {
+    "nazwa": "The Guardian Sport",
+    "url": "https://www.theguardian.com/sport/live/2026/nov/16/carlos-alcaraz-v-frances-tiafoe-atp-finals-tennis-group-stage-live",
+    "domena": "theguardian.com"
+   },
+   "obraz": "https://i.guim.co.uk/img/media/9bf64e16e924f464b740c92b8db8fa1358b93e91/672_0_4489_3592/master/4489.jpg?width=140&quality=85&auto=format&fit=max&s=0d3331e22c499d96b0539da48cbb04f9",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "W rezultacie pierwszy set zakończył się niemal zanim się zaczął. Alcaraz szybko objął prowadzenie 6:2, nawet nie pokazując pełni swojego talentu – jego skróty i gra przy siatce były w dużej mierze nieobecne, bo nie były potrzebne.",
+      "Tiafoe nieco poprawił się w drugim secie, starając się grać bardziej agresywnie, ale stracił podanie przy stanie 2:1, a następnie nie wykorzystał trzech break pointów, by odrobić przełamanie, i przegrywał 2:4.",
+      "Przyjeżdżając tutaj, mam dużo energii i ambicji i pragnę więcej”. W późniejszym meczu Daniił Miedwiediew pokonał lokalną nadzieję, Flavia Cobolliego, 7:6 (4), 6:3, co oznacza, że w środę może dojść do decydującego meczu grupowego z Alcarazem.",
+      "Dziś wieczorem w Grupie Ivana Lendla Daniił Miedwiediew, były zwycięzca tej imprezy, zmierzy się z Flaviem Cobollim, lokalnym faworytem.",
+      "Ostatecznie Alcaraz i Sinner nadal znacznie wyprzedzają resztę i chociaż każdego można pokonać w jednym meczu, nie wygląda na to, żeby ktokolwiek w tourze mógł osiągnąć na tyle dobry poziom, by robić to regularnie w ciągu najbliższych kilku lat.",
+      "Jest absolutnym geniuszem i wystarczająco młody, by pobić praktycznie każdy rekord wart pobicia, jeśli utrzyma formę i koncentrację. * Alcaraz 6:2 6:2 Tiafoe Tiafoe posyła piłkę na aut, a odpowiedź Alcaraza forhendem trafia w siatkę; 0:15.",
+      "Ale potem bekhend leci spokojnie na aut, szybko robi się 30:15, a gdy Amerykanin podchodzi do siatki, źle ustawiony forehand wzdłuż linii zaskakuje go i daje dwa piłki meczowe.",
+      "Alcaraz 6:2 5:2 Tiafoe* Nie zdziwiłbym się, gdyby Alcaraz przełamał tutaj serwis. Gdy forhend Tiafoe leci na aut, Alcaraz wyrównuje na 15:15, a potem świetnym forhendem wzdłuż linii ułatwia sobie kolejny strzał z przeciwnego narożnika, tym razem wygrywający. Jest 15:30, a Tiafoe wygląda na równie bezradnego, co zdezorientowanego.",
+      "Po krótkiej przerwie będzie serwował o wygraną w meczu. To zwiastuje coś złego i potwierdza obawy. *Alcaraz 6:2 4:2 Tiafoe Alcaraz podchodzi do siatki, aby wykonać woleja poniżej poziomu siatki. Pięknie kontrolowany ruch daje mu wynik 15:0. Następnie, po nieudanym pierwszym serwisie, trafia forhendem w siatkę; 15:15."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Carlos Alcaraz ostrzega swoich rywali, że nigdy nie czuł się lepiej na tym etapie sezonu po tym, jak rozpoczął walkę o ATP Finals od efektownego zwycięstwa nad Francesem Tiafoe."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Frances Tiafoe Jr. jest amerykańskim profesjonalnym tenisistą. Jego najwyższym miejscem w rankingu Association of Tennis Professionals (ATP) jest 8. pozycja w singlu mężczyzn, którą osiągnął we wrześniu 2026 r., a najwyższym miejscem w rankingu gry deblistów jest 160. pozycja, którą osiągnął w listopadzie 2021 r. Tiafoe zdobył cztery tytuły w singlu w ramach ATP Tour na wszystkich trzech nawierzchniach. Jego najlepsze wyniki w turniejach wielkoszlemowych to trzy półfinały US Open. Obecnie jest amerykańskim numerem"
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Frances Tiafoe",
+     "url": "https://en.wikipedia.org/wiki/Frances_Tiafoe"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "2 6",
+    "15",
+    "30",
+    "2 5",
+    "2 4",
+    "40"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Frances Tiafoe",
+    "opis": "American tennis player (born 1998)",
+    "tekst": "Frances Tiafoe Jr. is an American professional tennis player. He has a career-high ranking of world No. 8 in men's singles by the Association of Tennis Professionals (ATP), achieved in September 2026, and a best doubles ranking of No. 160, reached in November 2021. Tiafoe has won four ATP Tour singles titles across all three surfaces. His best performances at the majors have been three semifinals at the US Open. He is the current American No. 2 in men's singles.",
+    "url": "https://en.wikipedia.org/wiki/Frances_Tiafoe",
+    "język": "en"
+   },
+   "tagi": [
+    "Tiafoe",
+    "Alcaraz",
+    "Tiafoe*",
+    "Carlos Alcaraz"
+   ],
+   "emotki": [
+    "🎾"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Carlos Alcaraz blazes past Frances Tiafoe in ATP Finals tennis group stage – as it happened",
+     "url": "https://www.theguardian.com/sport/live/2026/nov/16/carlos-alcaraz-v-frances-tiafoe-atp-finals-tennis-group-stage-live"
+    },
+    {
+     "nazwa": "BBC Tennis",
+     "tytuł": "'Best I've felt' - Alcaraz makes statement start at ATP Finals",
+     "url": "https://www.bbc.co.uk/sport/tennis/articles/ckvg294x5yzqo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.789,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.357,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.522,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Carlos Alcaraz blazes past Frances Tiafoe in ATP Finals tennis group stage – as it happened",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Umożliwienie recenzowania naukowego naukowcom na wczesnym etapie kariery",
+   "lead": "Naukowcy na wczesnym etapie kariery stanowią siłę napędową nauki, a jednak stanowią niewielką część recenzentów. Gdy biorą udział w recenzowaniu, ich wkład nie zawsze jest doceniany.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-17T00:00:00+00:00",
+   "źródło": {
+    "nazwa": "Nature",
+    "url": "https://www.nature.com/articles/d41586-026-03707-7",
+    "domena": "nature.com"
+   },
+   "obraz": "https://media.nature.com/lw1200/magazine-assets/d41586-026-03707-7/d41586-026-03707-7_53983212.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "W niektórych przypadkach to one wykonują pracę, ale uznanie zbierają ich starsi koledzy.",
+      "Jest to niedopuszczalne, a czasopisma z grupą Nature Portfolio pracują nad zmianą tej sytuacji.",
+      "Naukowcy na wszystkich etapach kariery powinni mieć możliwość pełnienia roli recenzentów – zwłaszcza naukowcy na wczesnym etapie kariery (ECR).",
+      "Teraz pierwsza analiza na dużą skalę programu Nature Portfolio Early Career Researcher Co-Review ujawnia korzyści dla naukowców i nauki.",
+      "Chociaż doświadczeni naukowcy mogą przekazać wiedzę na temat szerszego kontekstu, to jednak naukowcy na wczesnym etapie kariery często lepiej znają najnowsze techniki przeprowadzania praktycznych eksperymentów i analizowania danych.",
+      "Mają też zwykle większą wiedzę na temat szybko zmieniających się technologii.",
+      "Zaangażowanie naukowców na wczesnym etapie kariery w proces wzajemnej oceny daje im niezbędny głos, który może pomóc w kształtowaniu dorobku naukowego.",
+      "Na początku 2025 r. czasopismo „Nature” dołączyło do programu ECR Co-Review prowadzonego przez Nature Portfolio (zob. Nature 641 , 560; 2025) .",
+      "Inicjatywa ta, która rozpoczęła się od czasopism Nature Reviews, a później objęła Nature Communications, zachęca uznanych recenzentów do angażowania w proces recenzji naukowców na wczesnym etapie kariery, przy jednoczesnym zachowaniu odpowiedzialności za ostateczną recenzję."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Nature, opublikowano online: 17 listopada 2026 r.; doi:10.1038/d41586-026-03714-8 Wspólne działania rządów, społeczności i przedsiębiorstw mające na celu monitorowanie skutków działań na rzecz ochrony i odbudowy przyrody są niezbędne do utrzymania przyrody i funkcji, jakie pełni.",
+      "Nature, opublikowano online: 17 listopada 2026 r.; doi:10.1038/d41586-026-03711-x Jak zachowują się neurony ludzkie w ich naturalnym środowisku?",
+      "Nature, opublikowano online: 16 listopada 2026 r.; doi:10.1038/d41586-026-03715-7 Naukowcy muszą monitorować ocieplające się oceany i wykorzystywać zdobytą wiedzę do opracowywania strategii na rzecz utrzymania rybołówstwa i społeczności, które od niego zależą.",
+      "Nature, opublikowano online: 16 listopada 2026 r.; doi:10.1038/d41586-026-03706-8 Rozciągliwe żołądki pozwalają tym latającym ssakom połykać duże ilości krwi, a geny odpowiedzialne za przetwarzanie płynów pomagają im odlecieć do domu po spożyciu tak dużej ilości płynu.",
+      "Nature, opublikowano online: 16 listopada 2026 r.; doi:10.1038/d41586-026-03763-z Kraje zobowiązują się do korzystania z narzędzi sztucznej inteligencji w celu przyspieszenia wdrażania czystej energii – ale potencjał ten nie został udowodniony.",
+      "Nature, opublikowano online: 17 listopada 2026 r.; doi:10.1038/d41586-026-03772-y Nessa Carey twierdzi, że strach przed porażką może sprawić, że naukowcy pozostaną w swojej strefie komfortu, co będzie miało wpływ na innowacyjność.",
+      "Nature, opublikowano online: 16 listopada 2026 r.; doi:10.1038/d41586-026-03762-0 DNA pochodzące od starożytnego hominina może powodować zmniejszenie niektórych części naszego mózgu – i chronić przed schizofrenią."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "System odzyskiwania wydatków i kosztów (ECRS) to wyspecjalizowany podzbiór procesu „ekstrakcji, transformacji i ładowania” (ETL), który funkcjonuje jako potężny i elastyczny zestaw aplikacji, w tym programów, skryptów i baz danych, zaprojektowanych w celu poprawy przepływów pieniężnych firm i organizacji poprzez automatyzację przesyłania danych między systemami odzyskiwania kosztów, systemami fakturowania elektronicznego dostawców oraz systemami księgowymi. Ma ono największe zastosowanie w firmach, które obciążają klientów fakturami za czas i koszty. Zmniejsza to nakład pracy ręcznej wymaganej do wymiany danych między dostawcami a fakturami klientów."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Expense and cost recovery system",
+     "url": "https://en.wikipedia.org/wiki/Expense_and_cost_recovery_system"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "641 , 560",
+    "17%",
+    "11%",
+    "78,661",
+    "24,645",
+    "31"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Expense and cost recovery system",
+    "opis": "Subset of \"extract, transform, load\"",
+    "tekst": "An expense and cost recovery system (ECRS) is a specialized subset of \"extract, transform, load\" (ETL) functioning as a powerful and flexible set of applications, including programs, scripts and databases designed to improve the cash flow of businesses and organizations by automating the movement of data between cost recovery systems, electronic billing from vendors, and accounting systems. It is most applicable to companies that bill back clients for time and costs. It reduces the amount of manual effort required to exchange data between vendors and clients' bills.",
+    "url": "https://en.wikipedia.org/wiki/Expense_and_cost_recovery_system",
+    "język": "en"
+   },
+   "tagi": [
+    "ECRs",
+    "Nature",
+    "Nature Communications",
+    "York Philadelphia"
+   ],
+   "emotki": [
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Nature",
+     "tytuł": "Open up peer review to early-career researchers",
+     "url": "https://www.nature.com/articles/d41586-026-03707-7"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "How measuring the state of nature can reverse biodiversity loss",
+     "url": "https://www.nature.com/articles/d41586-026-03714-8"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "The world’s most precious brain samples — and what they teach us about being human",
+     "url": "https://www.nature.com/articles/d41586-026-03711-x"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "As El Niño builds, studies of extreme marine heatwaves must start now",
+     "url": "https://www.nature.com/articles/d41586-026-03715-7"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Secrets of the vampires: genomes reveal how these bats live off blood alone",
+     "url": "https://www.nature.com/articles/d41586-026-03706-8"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Is the sixth great extinction imminent? Scientists must draw on natural history for clues",
+     "url": "https://www.nature.com/articles/d41586-026-03712-w"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Can AI actually help the climate? Nations want to harness the technology to cut emissions",
+     "url": "https://www.nature.com/articles/d41586-026-03763-z"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Is academia’s risk-averse culture stifling scientific discovery?",
+     "url": "https://www.nature.com/articles/d41586-026-03772-y"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Genetic variant that reshaped the human brain was inherited from Neanderthals",
+     "url": "https://www.nature.com/articles/d41586-026-03762-0"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "The psychology of imaginary friends — and why they are good for kids",
+     "url": "https://www.nature.com/articles/d41586-026-03713-9"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Voyager 1 is about to achieve a cosmic first: one ‘light day’ from Earth",
+     "url": "https://www.nature.com/articles/d41586-026-03672-1"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "The climate is in crisis — here’s four things we can do",
+     "url": "https://www.nature.com/articles/d41586-026-03760-2"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "New US Congress should ‘reimagine’ science — not just return to the past",
+     "url": "https://www.nature.com/articles/d41586-026-03709-5"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Chinese scientist sacked after child died in gene-editing trial",
+     "url": "https://www.nature.com/articles/d41586-026-03752-2"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "The prospect of a ‘super’ El Niño demands better ocean monitoring",
+     "url": "https://www.nature.com/articles/d41586-026-03744-2"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Should we move from artificial intelligence to artificial life?",
+     "url": "https://www.nature.com/articles/d41586-026-03743-3"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Architecture of a portal complex embedded in the poxvirus core",
+     "url": "https://www.nature.com/articles/s41586-026-11399-2"
+    },
+    {
+     "nazwa": "ScienceDaily",
+     "tytuł": "Hidden ecosystem: Scientists discover 245 animals living inside a single deep-sea rock",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261114202133.htm"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 11.088,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 4.57,
+     "eksponowanie": 2.88,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.538,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Open up peer review to early-career researchers",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Koniec spekulacji. Robert Pattinson to nowy James Bond",
+   "lead": "Robert Pattinson będzie kolejnym Jamesem Bondem po Danielu Craigu. Amazon MGM Studios potwierdza wybór aktora, który zagra agenta 007 w filmie Denisa Villeneuve’a: będzie to pierwsza odsłona serii już pod kreatywną kontrolą kierownictwa studia należącego do Amazona.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-16T15:45:43+00:00",
+   "źródło": {
+    "nazwa": "Antyweb",
+    "url": "https://antyweb.pl/robert-pattinson-james-bond-007-oficjalnie",
+    "domena": "antyweb.pl"
+   },
+   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2026/11/007-logo.jpeg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Na oficjalnej stronie serii filmów o Agencie 007 zamieszczono komunikat potwierdzający angaż Pattinsona .",
+      "Kończy to właściwie lata spekulacji oraz kawalkady nazwisk typowanych do objęcia zaszczytnego tytułu w światowej kinematografii.",
+      "40-letni Brytyjczyk będzie siódmym Bondem w ramach głównego cyklu.",
+      "Daniel Craig pożegnał się z serią przygód 007 w obrazie \"Nie czas umierać\" z 2021 roku.",
+      "Kamerę przejmuje w kolejnym filmie o 007 Denis Villeneuve, scenariusz zaś szykuje Steven Knight, twórca \"Peaky Blinders\".",
+      "Wśród producentów znaleźli się: Amy Pascal i David Heyman, a funkcję producentki wykonawczej pełni Tanya Lapointe.",
+      "Były to informacje znane już od ponad roku, niemniej wybór następcy Craiga ogłoszono dopiero teraz.",
+      "Pattinson wsławił się w świecie kina zarówno we \"franczyzowych lokomotywach\", jak i kinie autorskim.",
+      "Kojarzy się go z, rzecz jasna, sagi \"Zmierzch\", \"Batmana\", \"Good Time\", \"Teneta\" i wielu innych produkcji."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Robert Douglas Thomas Pattinson – brytyjski aktor filmowy i teatralny, muzyk i kompozytor. Znany jest z ról zarówno w wielkich produkcjach studyjnych, jak i w filmach niezależnych. Pattinson zaliczany był do grona najlepiej opłacanych aktorów na świecie, a filmy z jego udziałem zarobiły globalnie ponad 4,7 miliarda dolarów. W 2010 roku magazyn Time umieścił go na liście 100 najbardziej wpływowych ludzi na świecie, znalazł się również w zestawieniu Forbes Celebrity 100."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Robert Pattinson",
+     "url": "https://pl.wikipedia.org/wiki/Robert_Pattinson"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "007",
+    "40",
+    "24"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Robert Pattinson",
+    "opis": "brytyjski aktor, muzyk i kompozytor",
+    "tekst": "Robert Douglas Thomas Pattinson – brytyjski aktor filmowy i teatralny, muzyk i kompozytor. Znany jest z ról zarówno w wielkich produkcjach studyjnych, jak i w filmach niezależnych. Pattinson zaliczany był do grona najlepiej opłacanych aktorów na świecie, a filmy z jego udziałem zarobiły globalnie ponad 4,7 miliarda dolarów. W 2010 roku magazyn Time umieścił go na liście 100 najbardziej wpływowych ludzi na świecie, znalazł się również w zestawieniu Forbes Celebrity 100.",
+    "url": "https://pl.wikipedia.org/wiki/Robert_Pattinson",
+    "język": "pl"
+   },
+   "tagi": [
+    "Pattinsona",
+    "Pattinson",
+    "Zmierzch Batmana Good Time Teneta",
+    "James Bond Robert Pattinson"
+   ],
+   "emotki": [
+    "🎬",
+    "🎭",
+    "🗳️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Antyweb",
+     "tytuł": "Koniec spekulacji. Robert Pattinson to nowy James Bond",
+     "url": "https://antyweb.pl/robert-pattinson-james-bond-007-oficjalnie"
+    },
+    {
+     "nazwa": "Ars Technica",
+     "tytuł": "Meet the new James Bond: Robert Pattinson",
+     "url": "https://arstechnica.com/culture/2026/11/meet-the-new-james-bond-robert-pattinson/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.691,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.385,
+     "eksponowanie": 0.09,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.483,
+     "treściwość": 0.333,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Ultrazimny laser mikrofalowy na diamentach wzmacnia sygnały kwantowe tysiąckrotnie",
+   "lead": "Autor: Adrian Skov, Okinawa Institute of Science and Technology Naukowcy z Okinawa Institute of Science and Technology (OIST) stworzyli wzmacniacz mikrofalowy oparty na spinie, który działa w temperaturze bliskiej zera absolutnego, wzmacniając sygnały ponad tysiąckrotnie, przy jednoczesnym dodaniu szumu bliskiego minimalnej wartości wymaganej przez prawa…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-16T22:40:10+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-11-ultracold-diamond-microwave-laser-amplifies.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/ultracold-diamond-micr.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "„Mimo że masery – lasery mikrofalowe – zostały wynalezione wcześniej niż lasery optyczne, pozostały daleko w tyle, ponieważ często do działania wymagają warunków kriogenicznych, co do niedawna czyniło je niepraktycznymi” – wyjaśnia dr",
+      "Yuimaru Kubo, kierownik zespołu ds. hybrydowych urządzeń kwantowych w OIST.",
+      "„Ale teraz, gdy komputery kwantowe działają w temperaturach bardzo zbliżonych do zera absolutnego, nadaliśmy im nowe życie jako bardzo obiecującym kandydatom do wzmacniania sygnałów kwantowych przy bardzo niskim poziomie szumów”. Urządzenie zostało opisane w czasopiśmie „Nature Communications” i jest obecnie przedmiotem dalszych prac rozwojowych mających na celu jego komercjalizację.",
+      "Odczytywanie informacji w komputerach kwantowych można porównać do robienia notatek podczas konferencji światowych przywódców, ale na zewnątrz sali, aby nie przeszkadzać w dyskusjach, mając dostęp tylko do dźwięku z jednego mikrofonu znajdującego się w środku.",
+      "Jeśli sala jest pełna, zbiorowa rozmowa utrudnia słyszenie poszczególnych mówców.",
+      "Jeśli w pomieszczeniu jest tylko kilka osób rozmieszczonych w różnych miejscach, możesz nie usłyszeć tych, które znajdują się dalej od mikrofonu.",
+      "Zwiększenie wzmocnienia może pomóc, ale sprzęt nagrywający wprowadza szum tła, nawet w całkowicie cichym pomieszczeniu.",
+      "A jeśli ktoś blisko mikrofonu nagle zacznie mówić głośno, nagranie może zostać zniekształcone.",
+      "Zamiast nagrywać głosy w klimatyzowanej sali konferencyjnej, wzmacniacze w nadprzewodzących komputerach kwantowych działają w temperaturach bardzo zbliżonych do zera absolutnego, aby zminimalizować szum termiczny i dokładnie wykrywać niezwykle słabe sygnały mikrofalowe niosące informacje kwantowe."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nature Communications to recenzowane, ogólnodostępne czasopismo naukowe wydawane przez Nature Portfolio od 2010 roku. Jest to czasopismo multidyscyplinarne, obejmujące nauki przyrodnicze, w tym fizykę, chemię, nauki o Ziemi, medycynę i biologię. Redakcje czasopisma znajdują się w Londynie, Berlinie, Nowym Jorku i Szanghaju."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Nature Communications",
+     "url": "https://en.wikipedia.org/wiki/Nature_Communications"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "1,000",
+    "100,000",
+    "2.55",
+    "0.5",
+    "10.1038",
+    "026"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Nature Communications",
+    "opis": "Scientific journal",
+    "tekst": "Nature Communications is a peer-reviewed, open access, scientific journal published by Nature Portfolio since 2010. It is a multidisciplinary journal that covers the natural sciences, including physics, chemistry, earth sciences, medicine, and biology. The journal has editorial offices in London, Berlin, New York City, and Shanghai.",
+    "url": "https://en.wikipedia.org/wiki/Nature_Communications",
+    "język": "en"
+   },
+   "tagi": [
+    "Science",
+    "Josephson",
+    "Nature Communications",
+    "Okinawa Institute"
+   ],
+   "emotki": [
+    "⚛️",
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Ultracold diamond microwave laser amplifies quantum signals 1,000-fold",
+     "url": "https://phys.org/news/2026-11-ultracold-diamond-microwave-laser-amplifies.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.811,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.54,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.521,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Ultracold diamond microwave laser amplifies quantum signals 1,000-fold",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Pomiary ujawniają związek między spinem kwantowym a drganiami przenoszącymi dźwięk w ultracienkim półprzewodniku",
+   "lead": "Naukowcy z UCLA Samueli School of Engineering i Auburn University dokonali naukowego precedensu: zmierzyli drgania atomowe przenoszące fale cieplne i dźwiękowe oraz powiązali je z właściwością kwantową zwaną spinem, która jest sposobem charakteryzowania wrodzonego magnetyzmu cząstki subatomowej.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-16T21:40:01+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-11-reveal-link-quantum-vibrations-ultrathin.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-advanced-measureme.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "W temperaturze pokojowej spin elektronów materiału jest przypadkowy.",
+      "Jednak po schłodzeniu do temperatury około -118 stopni Celsjusza spin elektronów układa się w wzór zygzakowaty, przy czym bieguny sąsiednich elektronów są skierowane w przeciwne strony.",
+      "W badaniu opublikowanym w czasopiśmie Nature Communications stwierdzono, że spiny kwantowe i drgania zwane fononami akustycznymi wykazują silniejszą korelację w temperaturze poniżej -180 F (-118 C), gdy spiny elektronów są uporządkowane.",
+      "W pobliżu temperatury, w której zachodzi zmiana, fonony akustyczne na powierzchni półprzewodnika ulegają spowolnieniu.",
+      "Łącznie wyniki wskazują, że uporządkowanie magnetyczne materiału wpływa na sposób, w jaki drgania przemieszczają się przez jego strukturę krystaliczną.",
+      "Procesy stojące za popularnymi obecnie aplikacjami opartymi na sztucznej inteligencji wymagają dużej ilości energii do zasilania serwerów i wody do ich chłodzenia.",
+      "Jednocześnie gromadzenie się ciepła na układach komputerowych może wkrótce utrudnić dodawanie coraz to nowych funkcji z roku na rok, co od lat 50. XX wieku stanowiło podstawę postępu w informatyce.",
+      "Kontrolowanie spinu kwantowego i jego oddziaływania z fononami mogłoby pomóc w przezwyciężeniu tych ograniczeń.",
+      "Możliwości obejmują systemy przetwarzające dane przy użyciu spinu, fononów lub fal magnetycznych."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nature Communications to recenzowane, ogólnodostępne czasopismo naukowe wydawane przez Nature Portfolio od 2010 roku. Jest to czasopismo multidyscyplinarne, obejmujące nauki przyrodnicze, w tym fizykę, chemię, nauki o Ziemi, medycynę i biologię. Redakcje czasopisma znajdują się w Londynie, Berlinie, Nowym Jorku i Szanghaju."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Nature Communications",
+     "url": "https://en.wikipedia.org/wiki/Nature_Communications"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "180",
+    "-180",
+    "100,000",
+    "10.1038",
+    "026",
+    "77234"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Nature Communications",
+    "opis": "Scientific journal",
+    "tekst": "Nature Communications is a peer-reviewed, open access, scientific journal published by Nature Portfolio since 2010. It is a multidisciplinary journal that covers the natural sciences, including physics, chemistry, earth sciences, medicine, and biology. The journal has editorial offices in London, Berlin, New York City, and Shanghai.",
+    "url": "https://en.wikipedia.org/wiki/Nature_Communications",
+    "język": "en"
+   },
+   "tagi": [
+    "Nature Communications",
+    "Engineering",
+    "Brillouin—Mandelstam Inelastic Light Scattering Spectroscopy",
+    "California NanoSystems Institute BSc Life Sciences"
+   ],
+   "emotki": [
+    "⚛️",
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Measurements reveal link between quantum spin and sound-carrying vibrations in an ultrathin semiconductor",
+     "url": "https://phys.org/news/2026-11-reveal-link-quantum-vibrations-ultrathin.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.588,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.45,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.508,
+     "treściwość": 0.38,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Measurements reveal link between quantum spin and sound-carrying vibrations in an ultrathin semiconductor",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Wczesne czarne dziury mogły rosnąć dzięki produktywnemu chaosowi",
+   "lead": "Gdy Wszechświat miał mniej niż 700 milionów lat, supermasywna czarna dziura zasilająca kwazar o nazwie J0313-1806 osiągnęła już masę około 3 miliardów razy większą od masy Słońca. Jest to jeden z najbardziej ekstremalnych przykładów zagadki, nad którą astrofizycy zastanawiają się od dwóch dekad: w jaki sposób supermasywne czarne dziury…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-17T01:00:05+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Astronomy",
+    "url": "https://phys.org/news/2026-11-early-black-holes-grown-productive.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/early-black-holes-may.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Czarna dziura rośnie, pochłaniając lub akreując gaz, ale wpadająca do niej materia nagrzewa się i świeci, a promieniowanie oddziałuje na nadal napływający gaz.",
+      "Przy tak zwanym limicie Eddingtona ciśnienie promieniowania równoważy grawitację, a prędkość opadania nie może dalej wzrastać.",
+      "Ponieważ granica ta jest proporcjonalna do masy czarnej dziury, jej wzrost jest wykładniczy.",
+      "Jeśli, jak się zwykle przyjmuje, około 10% masy wpadającej jest przekształcane w promieniowanie, masa wzrasta o współczynnik e (około 2,7) co 45 milionów lat.",
+      "Czarna dziura o masie gwiazdowej wynoszącej około stu mas Słońca potrzebowałaby około 17 takich etapów, czyli mniej więcej 770 milionów lat, aby osiągnąć masę 3 miliardów mas Słońca.",
+      "Biorąc pod uwagę czas potrzebny na uformowanie się gwiazdowych czarnych dziur, Wszechświat miał na to mniej niż 600 milionów lat.",
+      "Jednym z nich jest rozpoczęcie od „ciężkiego zarodka” o masie co najmniej 10 000 mas Słońca, powstałego w wyniku bezpośredniego zapadnięcia się ogromnych obłoków gazu.",
+      "Drugi sposób to przekroczenie granicy Eddingtona: jeśli energia uwalniana przez wpadający gaz jest odprowadzana w inny sposób niż promieniowanie, czarna dziura może rosnąć znacznie szybciej.",
+      "W nowej pracy naukowej napisanej wraz z moim kolegą Matasem Tartėnasem, opublikowanej w czasopiśmie „Astronomy & Astrophysics”, zastanawiamy się, czy trzecia, starsza i prostsza koncepcja przetrwa konfrontację z najnowszymi danymi."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Wynika to przede wszystkim z faktu, że dosłownie nie można ich zaobserwować, jeśli nie wchodzą w interakcje z czymś w otaczającym je środowisku, a zwłaszcza z gwiazdą.",
+      "Tajemniczość czarnych dziur potęguje fakt, że istnieje kilka ich typów, w tym swobodnie unoszące się czarne dziury, które dryfują niezależnie w przestrzeni kosmicznej, czarne dziury o masie gwiazdowej, powstające w wyniku wybuchu gwiazd, oraz supermasywne czarne dziury, które znajdują się w centrum galaktyk, takich jak nasza.",
+      "Jednak prawdopodobnie jedną z najbardziej oszałamiających zagadek dotyczących czarnych dziur jest ustalenie, co się dzieje, gdy się zderzają, a nawet łączą.",
+      "Obecnie zespół ponad 70 naukowców może być o krok bliżej rozwiązania tej trwającej od dziesięcioleci zagadki, ponieważ wykorzystał połączenie modeli komputerowych i przeglądu literatury, aby przeanalizować, jak zachowują się czarne dziury podczas zderzenia, koncentrując się w szczególności na dobrze znanym zjawisku „dźwięku”, które występuje, gdy czarne dziury zderzają się i scalają.",
+      "W niedawno opublikowanym w czasopiśmie „Classical and Quantum Gravity” artykule głównym celem badania było rozwinięcie badań nad czarnymi dziurami poprzez przekształcenie znanego od dawna sposobu zwanego spektroskopią czarnych dziur z koncepcji teoretycznej w praktyczną."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "700 million",
+    "1806",
+    "3 billion",
+    "10%",
+    "2.7",
+    "45 million"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Eddington",
+    "Physical Sciences",
+    "Matas Tartėnas",
+    "Astrophysics"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Astronomy",
+     "tytuł": "Early black holes may have grown through productive chaos",
+     "url": "https://phys.org/news/2026-11-early-black-holes-grown-productive.html"
+    },
+    {
+     "nazwa": "Universe Today",
+     "tytuł": "Ringing Black Holes Offer Precision Tests of Relativity",
+     "url": "https://www.universetoday.com/articles/ringing-black-holes-offer-precision-tests-of-relativity"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.216,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.35,
+     "eksponowanie": 1.17,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.596,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Early black holes may have grown through productive chaos",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "APOD: 16 listopada 2026 r. – NGC 7129: Powstawanie gwiazd z dżetami na zdjęciu z teleskopu Webba",
+   "lead": "Każdego dnia prezentowany jest inny obraz lub zdjęcie naszego fascynującego wszechświata wraz z krótkim wyjaśnieniem napisanym przez profesjonalnego astronoma. Objaśnienie: Jak powstają gwiazdy?",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-16T05:05:00+00:00",
+   "źródło": {
+    "nazwa": "NASA",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-16-ngc-7129-star-formation-with-jets-from-webb/",
+    "domena": "science.nasa.gov"
+   },
+   "obraz": "https://assets.science.nasa.gov/content/dam/science/missions/webb/science/2026/10/weic2620a.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Aby pomóc odpowiedzieć na to pytanie, NASA wykorzystała Kosmiczny Teleskop Jamesa Webba do wykonania prezentowanego szczegółowego zdjęcia obszaru gwiazdotwórczego NGC 7129 w świetle podczerwonym.",
+      "Proces formowania się gwiazd postępuje, gdy grawitacja przyciąga do siebie ogromne ilości gazu, ale wkrótce sytuacja może się skomplikować, gdy wcześniej uformowane gwiazdy zaczną emitować potężne dżety i wiatry, a niektóre z nich eksplodują.",
+      "W chłodnych atmosferach gwiazd może powstawać nieprzezroczysty pył, który po rozproszeniu może utrudniać uzyskiwanie obrazów w świetle widzialnym.",
+      "Na prezentowanym zdjęciu widać, jak powstaje wiele gwiazd. Młode gwiazdy po lewej stronie, w gazie o złotym kolorze, są zazwyczaj bardziej dojrzałe niż młode gwiazdy po prawej stronie – w czerwonym obszarze.",
+      "Strumienie i wiatry prawdopodobnie powodują włóknisty charakter czerwonego gazu.",
+      "Badanie gwiazd na różnych etapach rozwoju pogłębia wiedzę o tym, jakie procesy fizyczne są najważniejsze i kiedy zachodzą.",
+      "Jutrzejsze zdjęcie: pojedynek na niebie"
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "W niedawnym badaniu światła podczerwonego zarejestrowanego przez Kosmiczny Teleskop Jamesa Webba (JWST) grupa astronomów po raz pierwszy wykryła lód wokół młodej gwiazdy Beta Pictoris.",
+      "Zespół twierdzi, że te nowe szczegóły dostarczają wskazówek na temat wczesnego powstawania układu Beta Pictoris i kolizji, które mogą nadal mieć miejsce.",
+      "Beta Pictoris to gwiazda licząca około 20 milionów lat, oddalona o około 64 lata świetlne, otoczona pyłowym dyskiem zawierającym planety i mniejsze ciała.",
+      "Chociaż wiek 20 milionów lat może nie brzmieć jak wiek młody, nasz własny Układ Słoneczny ma około 4,6 miliarda lat."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Powstawanie gwiazd to proces, w którym gęste obszary w obłokach molekularnych w przestrzeni międzygwiazdowej – czasami nazywane „żłobkami gwiazdowymi” lub „obszarami gwiazdotwórczymi” – zapadają się i tworzą gwiazdy. Jako gałąź astronomii, powstawanie gwiazd obejmuje badanie ośrodka międzygwiazdowego (ISM) i olbrzymich obłoków molekularnych (GMC) jako prekursorów procesu powstawania gwiazd oraz badanie protogwiazd i młodych obiektów gwiazdowych jako jego bezpośrednich produktów. Jest ona ściśle związana z powstawaniem planet, inną dziedziną astronomii. Teoria formowania się gwiazd, oprócz wyjaśnienia procesu powstawania pojedynczej gwiazdy, musi również uwzględniać statystyki gwiazd podwójnych i funkcję masy początkowej. Większość gwiazd nie powstaje w izolacji, lecz w ramach grupy gwiazd zwanej gromadą gwiazd lub asocjacją gwiazd."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Star formation",
+     "url": "https://en.wikipedia.org/wiki/Star_formation"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "7129",
+    "20",
+    "64",
+    "4.6 billion",
+    "50",
+    "300"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Star formation",
+    "opis": "Gravitational process studied in astronomy",
+    "tekst": "Star formation is the process by which dense regions within molecular clouds in interstellar space—sometimes referred to as \"stellar nurseries\" or \"star-forming regions\"—collapse and form stars. As a branch of astronomy, star formation includes the study of the interstellar medium (ISM) and giant molecular clouds (GMC) as precursors to the star formation process, and the study of protostars and young stellar objects as its immediate products. It is closely related to planet formation, another branch of astronomy. Star formation theory, as well as accounting for the formation of a single star, must also account for the statistics of binary stars and the initial mass function. Most stars do not form in isolation but as part of a group of stars referred to as star clusters or stellar associations.",
+    "url": "https://en.wikipedia.org/wiki/Star_formation",
+    "język": "en"
+   },
+   "tagi": [
+    "James Webb Space Telescope",
+    "Star Formation",
+    "Webb Discover",
+    "November"
+   ],
+   "emotki": [
+    "🔭"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "NASA",
+     "tytuł": "APOD: 2026 November 16 – NGC 7129: Star Formation with Jets from Webb",
+     "url": "https://science.nasa.gov/image-article/apod-2026-november-16-ngc-7129-star-formation-with-jets-from-webb/"
+    },
+    {
+     "nazwa": "Phys.org Astronomy",
+     "tytuł": "Dirty ice around young star Beta Pictoris suggests frequent collisions and sheds light on the system's formation",
+     "url": "https://phys.org/news/2026-11-dirty-ice-young-star-beta.html"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.836,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.48,
+     "eksponowanie": 0.45,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.456,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "APOD: 2026 November 16 – NGC 7129: Star Formation with Jets from Webb",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Civil Security Hub Poland rozszerza wsparcie dla polskich służb ratowniczych o rozwiązania ICEYE",
+   "lead": "12 listopada br. w Warszawie ICEYE oraz Centrum Badań Kosmicznych Polskiej Akademii Nauk CBK PAN ogłosiły zawarcie umowy, na mocy której usługi ICEYE realizowane w ramach inicjatywy ESA Space Resilience Nodes zapewnią Państwowej Straży Pożarnej i zespołom zarządzania kryzysowego stały dostęp do danych satelitarnych…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-16T00:00:00+00:00",
+   "źródło": {
+    "nazwa": "Geoforum",
+    "url": "https://geoforum.pl/news/37518/civil-security-hub-poland-rozszerza-wsparcie-dla-polskich-sluzb-ratowniczych-o-rozwiazania",
+    "domena": "geoforum.pl"
+   },
+   "obraz": null,
+   "sekcje": [],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "12",
+    "11",
+    "10",
+    "40",
+    "30",
+    "15"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Centrum Badań Kosmicznych Polskiej Akademii Nauk",
+    "ESA Space Resilience Nodes",
+    "Państwowej Straży Pożarnej",
+    "Space Resilience Nodes"
+   ],
+   "emotki": [
+    "🚑",
+    "📉"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Geoforum",
+     "tytuł": "Civil Security Hub Poland rozszerza wsparcie dla polskich służb ratowniczych o rozwiązania ICEYE",
+     "url": "https://geoforum.pl/news/37518/civil-security-hub-poland-rozszerza-wsparcie-dla-polskich-sluzb-ratowniczych-o-rozwiazania"
+    },
+    {
+     "nazwa": "Mongabay",
+     "tytuł": "Pataxó Indigenous people protest the arrest of a female vice-chief in Brazil’s Bahia",
+     "url": "https://news.mongabay.com/short-article/2026/11/pataxo-indigenous-people-protest-the-arrest-of-a-female-vice-chief-in-brazils-bahia/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.151,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.18,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.521,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Obserwacja przepływów lawy z kosmosu",
+   "lead": "W ramach nowych badań testuje się wykorzystanie radaru z syntezą apertury (SAR) do szacowania powierzchni jezior lawowych, takich jak to w kraterze Halemaʻumaʻu wulkanu Kīlauea na Hawajach. Służba Geologiczna / Flickr, domena publiczna",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-16T12:33:56+00:00",
+   "źródło": {
+    "nazwa": "Eos (AGU)",
+    "url": "https://eos.org/research-spotlights/tracking-lava-flows-from-space",
+    "domena": "eos.org"
+   },
+   "obraz": "https://eos.org/wp-content/uploads/2026/09/kilauea-lava-lake-1024x576.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Autor: Rebecca Owen, Amerykańska Unia Geofizyczna Powoli płynąca lawa podczas erupcji wulkanicznej typu efuzywnego może zmienić krajobraz.",
+      "Jednak ulatniające się gazy, zachmurzenie, problemy z dostępem i ograniczone zasoby lokalne mogą sprawić, że monitorowanie rozwoju pola przepływu będzie niebezpieczne i trudne.",
+      "Radar satelitarny, znany również jako radar z aperturą syntetyczną (SAR), to narzędzie, którego można używać do monitorowania aktywności wulkanicznej przez gęste smugi i chmury, a także w nocy.",
+      "Jednak SAR mierzy również rozproszenie wsteczne, czyli sygnał radarowy, który odbija się od ziemi i wraca do satelity.",
+      "Bardzo aktywny wulkan Kīlauea na Wielkiej Wyspie Hawajów jest idealnym miejscem do testowania pomiarów wstecznego rozpraszania SAR, ponieważ znajduje się tam wiele stacji monitorujących, które zebrały szczegółowe zestawy danych geochemicznych, geologicznych i geofizycznych."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "167",
+    "105",
+    "10.1029"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Kīlauea’s Halemaʻumaʻu Crater",
+    "Survey/Flickr Public Domain",
+    "Lava Flows",
+    "Hawaii"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Eos (AGU)",
+     "tytuł": "Tracking Lava Flows from Space",
+     "url": "https://eos.org/research-spotlights/tracking-lava-flows-from-space"
+    },
+    {
+     "nazwa": "Phys.org Earth Sciences",
+     "tytuł": "Satellite radar tracks lava flows and crater changes at Hawaii's Kilauea volcano",
+     "url": "https://phys.org/news/2026-11-satellite-radar-tracks-lava-crater.html"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.256,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.357,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.45,
+     "treściwość": 0.299,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Tracking Lava Flows from Space",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "To oni powalczą o nagrody Grammy 2027! Ogłoszono nominacje",
+   "lead": "Recording Academy ogłosiło nominacje do nagród Grammy 2027. Uroczyste rozdanie statuetek zaplanowane jest na 7 lutego przyszłego roku.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-16T13:51:25+00:00",
+   "źródło": {
+    "nazwa": "Interia Muzyka",
+    "url": "https://muzyka.interia.pl/pop/news-kto-ma-szanse-na-statuetke-grammy-2027-recording-academy-ogl,nId,23574338",
+    "domena": "muzyka.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NJAOL6X62RP96-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "W najważniejszych kategoriach o zwycięstwo powalczą m.in.",
+      "Madonna, Olivia Dean, Ariana Grande, Slayyyter, Tame Impala, Bruno Mars, Raye, The Rolling Stones, Phoebe Bridgers, Olivia Rodrigo czy ROSALÍA.",
+      "Oto szczegóły jednego z najważniejszych muzycznych wydarzeń roku.",
+      "Nagrody Grammy , nazywane \"muzycznymi Oscarami\" , to jedne z najbardziej prestiżowych wyróżnień w światowej branży muzycznej.",
+      "Przyznawane są przez amerykańską Narodową Akademię Sztuk i Nauk Nagraniowych ( Recording Academy ), a statuetki otrzymują wokaliści, muzycy, producenci, autorzy tekstów i inni artyści pracujący przy projektach fonograficznych.",
+      "Nagrody rozdawane są w blisko 100 kategoriach, lecz za najważniejsze uznaje się: album roku, nagranie roku (przyznawana wykonawcom i producentom piosenki), piosenka roku (przyznawana kompozytorom i autorom tekstu piosenki) i najlepszy nowy artysta.",
+      "W 2026 r. najważniejsze wyróżnienia trafiły w ręce m.in.",
+      "Lady Gagi, Olivii Dean, Kendricka Lamara, Billie Eilish oraz Bad Bunny'ego , który stał się najgorętszym nazwiskiem wieczoru.",
+      "Przed nami 69. ceremonia wręczenia nagród Grammy, którą zaplanowano na 7 lutego 2027 r."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nagroda Grammy – nagroda muzyczna przyznawana corocznie przez Narodową Akademię Sztuk i Nauk Nagraniowych z USA, honorująca wyróżniające się osiągnięcia w branży fonograficznej. Ceremonie rozdania nagród uświetniają występy cenionych artystów. Grammy należy do czwórki najważniejszych nagród amerykańskich w rozrywce tzw. EGOT, obok telewizyjnej Emmy, filmowego Oscara i teatralnego Tony."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Nagroda Grammy",
+     "url": "https://pl.wikipedia.org/wiki/Nagroda_Grammy"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "100",
+    "69",
+    "11",
+    "35",
+    "16"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Nagroda Grammy",
+    "opis": "wyróżnienie muzyczne przyznawane przez National Academy of Recording Arts and Sciences",
+    "tekst": "Nagroda Grammy – nagroda muzyczna przyznawana corocznie przez Narodową Akademię Sztuk i Nauk Nagraniowych z USA, honorująca wyróżniające się osiągnięcia w branży fonograficznej. Ceremonie rozdania nagród uświetniają występy cenionych artystów. Grammy należy do czwórki najważniejszych nagród amerykańskich w rozrywce tzw. EGOT, obok telewizyjnej Emmy, filmowego Oscara i teatralnego Tony.",
+    "url": "https://pl.wikipedia.org/wiki/Nagroda_Grammy",
+    "język": "pl"
+   },
+   "tagi": [
+    "Grammy",
+    "Recording Academy",
+    "Olivia Dean Ariana Grande Slayyyter Tame Impala Bruno Mars Raye",
+    "Gagi Olivii Dean Kendricka Lamara Billie Eilish"
+   ],
+   "emotki": [
+    "🎵"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Muzyka",
+     "tytuł": "To oni powalczą o nagrody Grammy 2027! Ogłoszono nominacje",
+     "url": "https://muzyka.interia.pl/pop/news-kto-ma-szanse-na-statuetke-grammy-2027-recording-academy-ogl,nId,23574338"
+    },
+    {
+     "nazwa": "BBC Kultura",
+     "tytuł": "Raye, Rosalía and Dolly Parton recognised in Grammy nominations",
+     "url": "https://www.bbc.co.uk/news/articles/cq9vwkggpx73o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Music",
+     "tytuł": "Grammys 2027: Raye, Rosalía and Olivia Rodrigo lead female-heavy nominations",
+     "url": "https://www.theguardian.com/music/2026/nov/16/grammy-nominations-2027-female-artists"
+    },
+    {
+     "nazwa": "Pitchfork",
+     "tytuł": "Angine de Poitrine Nominated for Best New Artist at 2027 Grammys",
+     "url": "https://pitchfork.com/story/angine-de-poitrine-nominated-for-best-new-artist-at-2027-grammys/"
+    },
+    {
+     "nazwa": "Pitchfork",
+     "tytuł": "Watch Phoebe Bridgers Play “Bobby” and “Still Standing” on Saturday Night Live",
+     "url": "https://pitchfork.com/story/watch-phoebe-bridgers-play-bobby-and-still-standing-on-saturday-night-live/"
+    },
+    {
+     "nazwa": "Pitchfork",
+     "tytuł": "Tinashe, Slayyyter, Underscores Are Officially Grammy Nominees",
+     "url": "https://pitchfork.com/story/tinashe-slayyyter-underscores-are-officially-grammy-nominees/"
+    },
+    {
+     "nazwa": "Pitchfork",
+     "tytuł": "Grammy Nominations 2027: See the Full List Here",
+     "url": "https://pitchfork.com/story/grammy-nominations-2027-see-the-full-list-here/"
+    },
+    {
+     "nazwa": "Pitchfork",
+     "tytuł": "Phoebe Bridgers, Charli XCX, Rosalía, and Geese Face Off for Best Alternative Album Grammy",
+     "url": "https://pitchfork.com/story/phoebe-bridgers-charli-xcx-rosalia-and-geese-face-off-for-best-alternative-album-grammy/"
+    },
+    {
+     "nazwa": "Pitchfork",
+     "tytuł": "Geese Earn First Grammy Nominations",
+     "url": "https://pitchfork.com/story/geese-earn-first-grammys-nominations/"
+    }
+   ],
+   "liczba_źródeł": 4,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 12.581,
+    "składowe": {
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 2.438,
+     "eksponowanie": 1.62,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.423,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "\"Harry Potter\": Malfoy i spółka na nowych plakatach serialu HBO",
+   "lead": "HBO zaprezentowało kolejne plakaty promujące pierwszy sezon \" Harry'ego Pottera \". Znaleźli się na nich: Lox Pratt (Draco Malfoy), Rory Wilmot (<a",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-16T16:08:00+00:00",
+   "źródło": {
+    "nazwa": "Filmweb",
+    "url": "https://www.filmweb.pl/news/%22Harry+Potter%22+Malfoy+i+sp%C3%B3%C5%82ka+na+nowych+plakatach+serialu+HBO-169683",
+    "domena": "filmweb.pl"
+   },
+   "obraz": "https://fwcdn.pl/nph/49468/2026/79226.16.jpg",
+   "sekcje": [],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "007",
+    "25",
+    "1.1",
+    "40",
+    "26",
+    "28"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Lox Pratt Draco Malfoy Rory Wilmot",
+    "Harry'ego Pottera",
+    "Potter Malfoy"
+   ],
+   "emotki": [
+    "📺",
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Filmweb",
+     "tytuł": "\"Harry Potter\": Malfoy i spółka na nowych plakatach serialu HBO",
+     "url": "https://www.filmweb.pl/news/%22Harry+Potter%22+Malfoy+i+sp%C3%B3%C5%82ka+na+nowych+plakatach+serialu+HBO-169683"
+    },
+    {
+     "nazwa": "The Guardian Film",
+     "tytuł": "New James Bond announced ... and the name’s Pattinson, Robert Pattinson",
+     "url": "https://www.theguardian.com/film/2026/nov/16/new-james-bond-announced-and-the-names-pattinson-robert-pattinson"
+    },
+    {
+     "nazwa": "The Guardian Film",
+     "tytuł": "Robert Pattinson’s gift for cool, sensual menace makes him an exquisite choice as James Bond | Peter Bradshaw",
+     "url": "https://www.theguardian.com/film/2026/nov/16/robert-pattinson-choice-bond"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.526,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.487,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.439,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  }
+ ],
+ "braki": [],
+ "statystyki": {
+  "kanały_ok": 71,
+  "kanały_błędne": 1,
+  "znaki_tłumaczone": 17966,
+  "niedziałające_kanały": [
+   {
+    "url": "https://www.esa.int/rssfeed/Our_Activities/Space_Science",
+    "powód": "HTTP 404"
+   }
+  ],
+  "działy": 18,
+  "artykuły_w_oknie": 59
+ }
+}
