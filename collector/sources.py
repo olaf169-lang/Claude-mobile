@@ -184,7 +184,6 @@ SEGMENTS: tuple[Segment, ...] = (
             _f("https://naukawpolsce.pl/rss.xml", "Nauka w Polsce", weight=1.0, topical=False),
             _f("https://phys.org/rss-feed/space-news/astronomy/", "Phys.org Astronomy", lang=EN, weight=1.2),
             _f("https://www.nasa.gov/feed/", "NASA", lang=EN, weight=1.3),
-            _f("https://www.esa.int/rssfeed/Our_Activities/Space_Science", "ESA", lang=EN, weight=1.2),
             _f("https://skyandtelescope.org/astronomy-news/feed/", "Sky & Telescope News", lang=EN, weight=1.05),
             _f("https://www.universetoday.com/feed/", "Universe Today", lang=EN, weight=1.0),
             _f("https://earthsky.org/feed/", "EarthSky", lang=EN, weight=0.95),
