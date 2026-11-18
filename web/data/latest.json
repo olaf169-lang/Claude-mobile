@@ -1,8 +1,8 @@
 {
  "wersja": "1.0.0",
- "wydanie": "2026-11-17",
- "dotyczy_dnia": "2026-11-16",
- "wygenerowano": "2026-11-17T15:25:36+00:00",
+ "wydanie": "2026-11-18",
+ "dotyczy_dnia": "2026-11-17",
+ "wygenerowano": "2026-11-18T15:00:59+00:00",
  "strefa": "Europe/Warsaw",
  "tryb": "ekstrakcyjny",
  "demo": false,
@@ -14,71 +14,116 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "Tusk apeluje do prezydenta ws. ustawy cyfrowej: Liczę na pana przyzwoitość",
-   "lead": "13 listopada prezydent Karol Nawrocki zawetował rządową nowelizację wdrażającą Akt o usługach cyfrowych (DSA), czyli tzw. ustawę cyfrową. Chodzi o zmiany w ustawie o świadczeniu usług drogą elektroniczną.",
+   "nagłówek": "Co z immunitetami Święczkowskiego i Sochańskiego? Komunikat będzie w środę",
+   "lead": "We wtorek Zgromadzenie Ogólne Sędziów Trybunału Konstytucyjnego, zwołane przez sędzię Annę Korwin-Piotrowską, zajmowało się wnioskami o uchylenie immunitetów prezesowi TK Bogdanowi Święczkowskiemu i wiceprezesowi Bartłomiejowi Sochańskiemu. Niektóre z wniosków w sprawie Święczkowskiego obejmują także wnioski o zgodę na…",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-16T19:52:00+00:00",
+   "opublikowano": "2026-11-17T19:33:00+00:00",
    "źródło": {
-    "nazwa": "Gazeta.pl",
-    "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33135618,tusk-apeluje-do-prezydenta-ws-ustawy-cyfrowej-licze-na-pana.html",
-    "domena": "wiadomosci.gazeta.pl"
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/fakty/polityka/news-co-z-immunitetami-swieczkowskiego-i-sochanskiego-komunikat-b,nIdn,1026535",
+    "domena": "rmf24.pl"
    },
-   "obraz": "https://bi.im-g.pl/im/b1/99/1f/z33135025IHG.jpg",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/5b/7d/bogdan-swieczkowski-w-srodku-przed-siedziba-trybunalu-konstytucyjnego-fot-636x421-5b7dafcf.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Ich celem było wprowadzenie procedury umożliwiającej szybkie wydawanie nakazów ograniczających dostęp do nielegalnych treści w internecie.",
-      "Uzasadniając decyzję, prezydent oświadczył w nagraniu opublikowanym w serwisie X, że nie będzie ulegał \"szantażom rządzących\", zwłaszcza jeśli zakładnikami miałyby być bezpieczeństwo i wolność.",
-      "Dodał, że państwo już teraz ma możliwość ochrony społeczeństwa w tym zakresie.",
-      "Do weta Karola Nawrockiego odniósł się w poniedziałek (16 listopada) premier Donald Tusk.",
-      "Opublikował na portalu X nagranie, w którym zaapelował do prezydenta a o zmianę stanowiska. - Masz 40 lat i 12-letnią córkę, którą prześladują w szkole.",
-      "Posunęli się do tego, że spreparowali jej zdjęcia i jej nagi wizerunek pojawił się w internecie.",
-      "Piszesz do tych, którzy decydują o tym, co na ich platformie cyfrowej się znajduje i czekasz dzień, tydzień, może miesiąc na ich decyzje - mówi na nagraniu premier. - Jeśli pójdziesz na policję policja może się postarać złapać autorów tego zdjęcia, ale nie ma możliwości zablokowania tych zdjęć w internecie.",
-      "Po to właśnie była ustawa, która została zawetowana przez prezydenta - kontynuuje Donald Tusk.",
-      "Szef rządu podkreślił, że \"co drugi dzień\" dochodzi do samobójstwa osoby nieletniej."
+      "Zgromadzenie rozpoczęło się we wtorek przed godz.",
+      "12 planowano wysłuchanie Święczkowskiego i Sochańskiego w Sądzie Okręgowym w Warszawie, ale obaj byli nieobecni - byli za to ich pełnomocnicy, którzy zgłosili szereg zastrzeżeń proceduralnych.",
+      "Część dotycząca wysłuchania została zamknięta, a zgromadzenie wróciło do dalszych obrad w siedzibie TK.",
+      "Wieczorem we wtorek na stronie Trybunału Konstytucyjnego poinformowano, że „komunikat w przedmiocie wniosków Prokuratora Generalnego rozpoznawanych na posiedzeniu Zgromadzenia Ogólnego sędziów Trybunału Konstytucyjnego 17 listopada 2026 r. będzie podany do publicznej wiadomości 18 listopada 2026 r.” W ciągu ostatnich tygodni szef Ministerstwa Sprawiedliwości, prokurator generalny Waldemar Żurek skierował już kilka wniosków o uchylenie immunitetu Święczkowskiemu.",
+      "Jak informowała rzeczniczka prasowa PG prok.",
+      "Anna Adamiak, wnioski o uchylenie immunitetu odnoszą się m.in. do nieuprawnionego wykorzystania materiałów z kontroli operacyjnej i ujawnienia informacji niejawnych w ramach śledztwa dotyczącego systemu Pegasus.",
+      "Chodzi o czas, gdy Święczkowski był prokuratorem krajowym (lata 2016-2022).",
+      "Prokuratura wnioskuje też o zgodę na pociągnięcie Święczkowskiego do odpowiedzialności karnej ws. przekroczenia uprawnień, niedopełnienia obowiązków poprzez uniemożliwianie sędziom TK wykonywania funkcji i naruszania ich praw pracowniczych oraz delegowania prokuratorów wbrew przepisom w czasie, gdy Święczkowski pełnił funkcję prokuratora krajowego.",
+      "Wnioski te zostały skierowane do TK 30 października, po tym, jak przedstawiciele grupy wybranej w tej kadencji Sejmu na sędziów TK przekazali informację, że Anna Korwin-Piotrowska jako najstarszy stażem sędzia została kierującą Trybunałem Konstytucyjnym i wydała zarządzenie o przerwie w czynnościach prezesa Święczkowskiego i wiceprezesa Sochańskiego."
      ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "\"Hipokryzja ma krótkie nogi\" - tak minister sprawiedliwości Waldemar Żurek ocenił odmowną odpowiedź Europejskiego Trybunału Praw Człowieka na wnioski Bogdana Święczkowskiego i Bartłomieja Sochańskiego.",
+      "Minister przekazał, że jeszcze w maju Święczkowski \"lekceważył środek tymczasowy ETPCz nakazujący dopuszczenie do orzekania sędziów TK wybranych przez Sejm , otwiera się w nowym oknie \", a w sierpniu na antenie TV Republika \"przekonywał, że jako szef ABW miał informacje z wnętrza strasburskiego trybunału podważające niezawisłość tamtejszych sędziów \".",
+      "Wystarczyło jednak - jak ocenił Żurek - że 30 października \" skończyło się bezprawne blokowanie Trybunału Konstytucyjnego \" i \"nagle sąd w Strasburgu przestał być taki straszny\".",
+      "\"12 listopada Bogdan Święczkowski i Bartłomiej Sochański sami pobiegli do ETPCz z wnioskiem o wydanie środka zabezpieczającego we własnej sprawie .",
+      "Przez lata Bogdan Święczkowski mówił, że europejskie trybunały są złe, nie mają w Polsce nic do powiedzenia i nie zasługują na miano niezależnych sądów.",
+      "Po zapoznaniu się z wyjaśnieniami rządu RP z 16.11.2026 r. sędziowie uznali, że skarżący nie wykazali bezpośredniego ryzyka nieodwracalnej szkody dla swoich praw z art."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Bogdan Roman Święczkowski – polski prawnik, prokurator. Od 2022 sędzia Trybunału Konstytucyjnego, którego od 9 grudnia 2024 jest prezesem."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Bogdan Święczkowski",
+     "url": "https://pl.wikipedia.org/wiki/Bogdan_%C5%9Awi%C4%99czkowski"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "13",
-    "16",
-    "40 lat",
-    "12"
+    "12",
+    "17",
+    "18",
+    "30",
+    "16"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Gazeta.pl",
+     "ujęcie": "Minister sprawiedliwości Waldemar Żurek poinformował, że we wtorek (17 listopada) przyszła odmowna odpowiedź Europejskiego Trybunału Praw Człowieka na wnioski sędziów TK Bogdana Święczkowskiego i Bartłomieja Sochańskiego o wydanie tymczasowego środka zabezpieczającego w sprawie ich odsunięcia od czynności.",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33137538,swieczkowski-zwrocil-sie-do-europejskiego-trybunalu-zurek.html"
+    }
+   ],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Bogdan Święczkowski",
+    "opis": "polski prawnik i prokurator",
+    "tekst": "Bogdan Roman Święczkowski – polski prawnik, prokurator. Od 2022 sędzia Trybunału Konstytucyjnego, którego od 9 grudnia 2024 jest prezesem.",
+    "url": "https://pl.wikipedia.org/wiki/Bogdan_%C5%9Awi%C4%99czkowski",
+    "język": "pl"
+   },
    "tagi": [
-    "Tusk",
-    "Karola Nawrockiego",
-    "Donald Tusk",
-    "Polsce"
+    "Święczkowskiego",
+    "Trybunału Konstytucyjnego",
+    "Sochańskiego",
+    "Bartłomiejowi Sochańskiemu"
    ],
    "emotki": [
     "🏛️"
    ],
    "wszystkie_źródła": [
     {
+     "nazwa": "RMF24",
+     "tytuł": "Co z immunitetami Święczkowskiego i Sochańskiego? Komunikat będzie w środę",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-co-z-immunitetami-swieczkowskiego-i-sochanskiego-komunikat-b,nIdn,1026535"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Odpowiedź z Europy w sprawie Święczkowskiego. Ważą się losy immunitetu",
+     "url": "https://wydarzenia.interia.pl/kraj/news-decyzja-europejskiego-trybunalu-i-immunitet-swieczkowskiego,nId,23575109"
+    },
+    {
      "nazwa": "Gazeta.pl",
-     "tytuł": "Tusk apeluje do prezydenta ws. ustawy cyfrowej: Liczę na pana przyzwoitość",
-     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33135618,tusk-apeluje-do-prezydenta-ws-ustawy-cyfrowej-licze-na-pana.html"
+     "tytuł": "Święczkowski zwrócił się do Europejskiego Trybunału. Żurek: \"Jak trwoga, to do Europy\"",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33137538,swieczkowski-zwrocil-sie-do-europejskiego-trybunalu-zurek.html"
     }
    ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.465,
+    "wynik": 7.451,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.0,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.45,
      "eksponowanie": 0.0,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.486,
-     "treściwość": 0.429,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.501,
+     "treściwość": 0.5,
      "język_działu": 0.5
     }
    },
@@ -91,84 +136,82 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "NBP wstrzymuje płatności dla TK. Święczkowski: Rozmawiałem z Glapińskim",
-   "lead": "Narodowy Bank Polski zdecydował w poniedziałek (16 listopada) o zablokowaniu wszystkich zleceń płatniczych dla Trybunału Konstytucyjnego . Poinformował o tym w specjalnym oświadczeniu.",
+   "nagłówek": "NBP wstrzymał przelewy TK. Minister reaguje",
+   "lead": "Rząd szuka sposobu na finansowanie Trybunału Konstytucyjnego po wstrzymaniu przelewów przez NBP. Minister finansów Andrzej Domański zapewnia, że analizy już trwają, a rozważane rozwiązania będą zgodne z prawem.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-16T21:55:00+00:00",
+   "opublikowano": "2026-11-17T19:39:08+00:00",
    "źródło": {
-    "nazwa": "Gazeta.pl",
-    "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33135716,nbp-wstrzymuje-platnosci-dla-tk-swieczkowski-rozmawialem-z.html",
-    "domena": "wiadomosci.gazeta.pl"
+    "nazwa": "Money.pl",
+    "url": "https://www.money.pl/finanse/nbp-wstrzymal-przelewy-tk-minister-reaguje-7352075124451328a.html",
+    "domena": "money.pl"
    },
-   "obraz": "https://bi.im-g.pl/im/af/97/1f/z33126575IHG,Bogdan-Swieczkowski.jpg",
+   "obraz": "https://v.wpimg.pl/OGY4MDgyYCY4Vjt3SAJtM3sOby0OW2NlLBZ3ZkhIdnVpTGIiDhUqNTxEImoACzo3OEM9ahcVYCYpXWIyVlYrLipEISUeVioqO1Epa1QfdndgAHl3SkEscjwZeSdSQGJ-OA0oaVdBeX8_DH18VUEsdXtJ",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "\"W uzupełnieniu komunikatu Departamentu Prawnego NBP uprzejmie wyjaśniamy, że - z uwagi na zaistniałe okoliczności - w NBP podjęta została decyzja o wstrzymaniu wszelkich zleceń płatniczych dotyczących środków pieniężnych zgromadzonych na rachunkach Trybunału Konstytucyjnego prowadzonych przez Narodowy Bank Polski\" - czytamy w uzupełnieniu oświadczenia.",
-      "Raz jeszcze podkreślić bowiem należy, że NBP nie jest właściwy do rozstrzygnięcia sporu dotyczącego kierowania Trybunałem Konstytucyjnym\" - dodano w notatce.",
-      "Zdaniem szefa resortu finansów takie działanie wskazuje na upolitycznienie banku.",
-      "W rozmowie z dziennikarzem Bogdanem Rymanowskim na jego kanale YouTube prezes Trybunału Konstytucyjnego Bogdan Święczkowski powiedział, że zwrócił się do prezesa NBP, aby ten nie uznawał \"pełnomocnictw osoby nieupoważnionej, czyli pani Korwin-Piotrowskiej, która uzurpuje sobie funkcję kierowania TK\".",
-      "Powiedział również, że decyzja NBP o wstrzymaniu wszystkich zleceń płatniczych jest tymczasowa. - Mam nadzieję, że pan prezes Glapiński podejmie ostateczną decyzję, z której będzie wynikało, iż to ja jestem dysponentem [środków] Trybunału Konstytucyjnego w Narodowym Banku Polskim - podkreślił.",
-      "Święczkowski dodał, że jeśli Glapiński podejmie inną decyzję, zgodnie z którą to nie on będzie dysponentem TK, to uzna ją \"za sprzeczną z prawem, z ustawą i z konstytucją\".",
-      "Potwierdził również, że rozmawiał z prezesem NBP. - Zamieniłem z nim kilka słów, ale nie jesteśmy w jakichś bliskich relacjach - dodał.",
-      "Do decyzji NBP odniosła się sędzia Anna Korwin-Piotrowska.",
-      "Zapewniła, że wszystkie wymagane płatności, w tym płatności wynagrodzeń dla pracowników Trybunału, zostaną wykonane w najbliższych dniach."
+      "W poniedziałek bank centralny, powołując się na przepisy ustawy o usługach płatniczych oraz regulamin prowadzenia rachunku w NBP, poinformował, że podjął decyzję o wstrzymaniu realizacji zleceń płatniczych na rachunkach Trybunału Konstytucyjnego \"niezależnie od tego, przez kogo są one zlecane\".",
+      "NBP dodał, iż \"za uzasadnione uznane zostały wątpliwości co do właściwej reprezentacji TK w stosunkach z NBP\".",
+      "Jednocześnie bank centralny zaznaczył, że nie jest właściwy do rozstrzygnięcia sporu dotyczącego kierowania TK.",
+      "O tę sprawę pytany był we wtorek na antenie TVN24 minister finansów Andrzej Domański. – Ja bardzo żałuję, że Narodowy Bank Polski włączył się w tę dyskusję polityczną, włączył się w ten konflikt polityczny, nazwijmy to wprost.",
+      "NBP de facto odciął od finansowania Trybunał Konstytucyjny , który w końcu zaczął działać, zaczął podejmować decyzje – tak sprawę na antenie TVN24 komentował minister finansów Andrzej Domański. – Naszym zadaniem jako rządu jest zapewnienie warunków do pracy TK.",
+      "Trwają w tej chwili analizy różnych możliwości.",
+      "Nie będę w tej chwili na antenie zdradzał wszystkich opcji, które są rozważane.",
+      "Takie narzędzia wstępnie widzimy i rozwiązania zostaną wypracowane – powiedział Andrzej Domański.",
+      "Andrzej Domański dodał, że wiele osób wskazuje np. na Bank Gospodarstwa Krajowego."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Trybunał Konstytucyjny – polski sąd konstytucyjny, organ władzy sądowniczej, utworzony w 1982 r., który rozpoczął działalność orzeczniczą w 1986 r. Jego podstawowym zadaniem jest sądowa kontrola konstytucyjności prawa: kontrolowanie zgodności norm prawnych niższego rzędu z normami prawnymi wyższego rzędu, przede wszystkim z Konstytucją i niektórymi umowami międzynarodowymi."
+      "Andrzej Jan Domański – polski ekonomista i polityk, poseł na Sejm X kadencji, w latach 2023–2025 minister finansów, a od 2025 minister finansów i gospodarki w trzecim rządzie Donalda Tuska, wiceprzewodniczący Koalicji Obywatelskiej."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Trybunał Konstytucyjny (Polska)",
-     "url": "https://pl.wikipedia.org/wiki/Trybuna%C5%82_Konstytucyjny_(Polska)"
+     "przypis": "Wikipedia: Andrzej Domański",
+     "url": "https://pl.wikipedia.org/wiki/Andrzej_Doma%C5%84ski"
     }
    ],
-   "dlaczego_to_ważne": "\"Oznacza to, że nie są realizowane zlecenia płatnicze niezależnie od tego, przez kogo są one zlecane.",
-   "liczby": [
-    "16"
-   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Trybunał Konstytucyjny (Polska)",
-    "opis": "polski sąd konstytucyjny",
-    "tekst": "Trybunał Konstytucyjny – polski sąd konstytucyjny, organ władzy sądowniczej, utworzony w 1982 r., który rozpoczął działalność orzeczniczą w 1986 r. Jego podstawowym zadaniem jest sądowa kontrola konstytucyjności prawa: kontrolowanie zgodności norm prawnych niższego rzędu z normami prawnymi wyższego rzędu, przede wszystkim z Konstytucją i niektórymi umowami międzynarodowymi.",
-    "url": "https://pl.wikipedia.org/wiki/Trybuna%C5%82_Konstytucyjny_(Polska)",
+    "hasło": "Andrzej Domański",
+    "opis": "polski ekonomista i polityk",
+    "tekst": "Andrzej Jan Domański – polski ekonomista i polityk, poseł na Sejm X kadencji, w latach 2023–2025 minister finansów, a od 2025 minister finansów i gospodarki w trzecim rządzie Donalda Tuska, wiceprzewodniczący Koalicji Obywatelskiej.",
+    "url": "https://pl.wikipedia.org/wiki/Andrzej_Doma%C5%84ski",
     "język": "pl"
    },
    "tagi": [
     "NBP",
+    "Andrzej Domański",
     "Trybunału Konstytucyjnego",
-    "Glapiński",
-    "Trybunału Konstytucyjnego Bogdan Święczkowski"
+    "Gazecie Wrocławskiej"
    ],
    "emotki": [
     "🏛️"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Gazeta.pl",
-     "tytuł": "NBP wstrzymuje płatności dla TK. Święczkowski: Rozmawiałem z Glapińskim",
-     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33135716,nbp-wstrzymuje-platnosci-dla-tk-swieczkowski-rozmawialem-z.html"
+     "nazwa": "Money.pl",
+     "tytuł": "NBP wstrzymał przelewy TK. Minister reaguje",
+     "url": "https://www.money.pl/finanse/nbp-wstrzymal-przelewy-tk-minister-reaguje-7352075124451328a.html"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.072,
+    "wynik": 3.826,
     "składowe": {
      "potwierdzenia": 0.0,
      "ranga_źródła": 1.0,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.511,
-     "treściwość": 0.361,
+     "eksponowanie": 0.18,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.483,
+     "treściwość": 0.263,
      "język_działu": 0.5
     }
    },
@@ -181,178 +224,213 @@
     "emoji": "🌍",
     "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
    },
-   "nagłówek": "Putin, Trump i Xi przy jednym stole. O czym będą rozmawiać w Shenzen?",
-   "lead": "Szczyt odbędzie się w ramach Wspólnoty Gospodarczej Azji i Pacyfiku (APEC). To pierwsze spotkanie tego rodzaju – zaznaczył, cytowany przez agencję Reutera Uszakow.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-16T16:41:00+00:00",
+   "nagłówek": "Brytyjscy liderzy biznesu twierdzą, że zasady dotyczące podróży służbowych w związku z Brexitem wymagają pilnej poprawy",
+   "lead": "CBI twierdzi, że ograniczenia dotyczące podróży służbowych przez kanał La Manche utrudniają inwestycje i handel między Wielką Brytanią a Europą. Szefowie przedsiębiorstw wezwali rząd Wielkiej Brytanii i Komisję Europejską do pilnego złagodzenia wynikających z Brexitu ograniczeń dotyczących podróży służbowych przez kanał La Manche. Grupa reprezentująca szefów przedsiębiorstw stwierdziła, że chce…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-18T00:01:25+00:00",
    "źródło": {
-    "nazwa": "RMF24 Świat",
-    "url": "https://www.rmf24.pl/fakty/swiat/news-putin-trump-i-xi-przy-jednym-stole-o-czym-beda-rozmawiac-w-s,nIdn,1026353",
-    "domena": "rmf24.pl"
+    "nazwa": "The Guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/18/brexit-work-travel-rules-urgent-improvement-cbi",
+    "domena": "theguardian.com"
    },
-   "obraz": "https://rmf.rmffm.pl/news/attachments/3f/a1/watchvqucptxfd-ty-636x421-3fa19f02.jpg",
+   "obraz": "https://i.guim.co.uk/img/media/ffeba253961c8f7d3f85d079735e35f48a624de6/333_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=4978f0a03098cb202b57f4709e279314",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Spotkanie odbędzie się w oficjalnej rezydencji Xi Jinpinga.",
-      "W centrum uwagi rozmów mają znaleźć się wojna w Ukrainie, sytuacja na Półwyspie Koreańskim oraz kwestie związane z bezpieczeństwem nuklearnym.",
-      "Prezydent Donald Trump zapowiedział, że podczas spotkania nie zabraknie również rozmów o Iranie .",
-      "Będziemy rozmawiać o denuklearyzacji.",
-      "To trudny temat, bo każdemu z nas bardzo trudno powiedzieć, że pozbędziemy się broni jądrowej, prawda?",
-      "Iran jest w bardzo dobrej kondycji, ale porozmawiamy o nim trochę.",
-      "Porozmawiamy o moim ulubionym temacie, Ukrainie – mówił dziś prezydent Trump.",
-      "W środę, dzień przed kluczowym szczytem, Władimir Putin spotka się z Xi Jinpingiem na rozmowach dwustronnych.",
-      "Rosyjski przywódca ma także przekazać Xi wyniki wcześniejszych negocjacji z USA, które odbyły się w Abu Zabi."
+      "Konfederacja Przemysłu Brytyjskiego (CBI), która reprezentuje niektóre z największych brytyjskich firm, z zadowoleniem przyjęła niedawne apele premiera o zresetowanie relacji z Europą, mające na celu naprawienie części szkód wyrządzonych brytyjskiej gospodarce przez Brexit.",
+      "Jednak, jak stwierdzono w raporcie, ograniczenia związane z brexitem, które obejmują m.in. obowiązek uzyskania przez pracowników zezwoleń na pracę w celu odbywania podróży służbowych, zniechęcają inwestorów transgranicznych i utrudniają handel właśnie w momencie, gdy obie strony starają się wzmocnić swoją odporność wobec Chin.",
+      "Sean McGuire, dyrektor CBI ds. Europy i spraw międzynarodowych, stwierdził, że rozmowy na ten temat powinny być priorytetem podczas spotkań w tym tygodniu, zwłaszcza że na szczycie Wielka Brytania – UE w 2025 roku, zorganizowanym przez Keira Starmera, również poruszono kwestię poprawy mobilności biznesowej. „Osiągnięto bardzo niewiele.",
+      "W rzeczywistości nie osiągnięto praktycznie niczego.",
+      "Położono nacisk na mobilność młodzieży” – powiedział McGuire.",
+      "Dyplomaci UE twierdzili w przeszłości, że Wielka Brytania usilnie dążyła do poprawy mobilności przedsiębiorstw, ale napotykała na opór ze strony bloku, w którym państwa członkowskie postrzegają brytyjskie usługi – stanowiące znaczący eksport, zwłaszcza w sektorze finansowym – jako zagrożenie.",
+      "McGuire stwierdził, że szefowie sektorów energetycznego, obronnego i motoryzacyjnego twierdzą, iż przeszkadza im brak możliwości swobodnego podróżowania po Europie w celu świadczenia usług lub prowadzenia działalności międzynarodowej.",
+      "Stwierdził, że kwestia ta powinna leżeć w interesie wszystkich stron, ponieważ opiera się ona na wielu obowiązujących przepisach mających na celu ochronę europejskich łańcuchów dostaw. „Teraz, gdy w piątkowym porozumieniu potencjalnie uwzględniono mobilność młodzieży, powinniśmy poważnie zająć się kwestią mobilności biznesowej, która dotyczyłaby zarówno sektora towarów, jak i sektora usług” – powiedział.",
+      "Obywatele brytyjscy podróżujący do UE po Brexicie mogą przebywać w UE maksymalnie 90 dni naraz w ramach łącznego okresu 180 dni w roku, co ogranicza możliwości firm w zakresie awansowania pracowników i organizowania podróży służbowych. „Jeśli jesteś dyrektorem generalnym międzynarodowej firmy, możesz bardzo szybko wykorzystać 90 dni” – powiedział McGuire."
      ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Dowiedz się, jak słuchać innych stacji BBC World Service , · 17 listopada 2026 r., · 17 min Jensen Huang odszedł z Nvidii, ale pieniądze związane z chipami AI nadal trafiają do kilku firm.",
+      "Pięć miesięcy po naszej pierwszej analizie chipów napędzających sztuczną inteligencję Sam Fenwick ponownie przygląda się kwestii pieniędzy, badając gwałtowny wzrost cen pamięci, rosnącą konkurencję ze strony Chin oraz to, dlaczego koszty boomu związanego ze sztuczną inteligencją są coraz bardziej odczuwalne poza branżą technologiczną.",
+      "(Zdjęcie: Logo Nvidia widoczne przed siedzibą firmy w Tajpej na Tajwanie, 9 listopada 2026 r."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Bruksela, oficjalnie Region Stołeczny Brukseli, jest regionem Belgii obejmującym 19 gmin, w tym miasto Bruksela, które jest stolicą Belgii. Region Stołeczny Brukseli położony jest w centralnej części kraju. Należy zarówno do Wspólnoty Francuskiej Belgii, jak i Wspólnoty Flamandzkiej, a jednocześnie jest odrębnym terytorium od Regionu Flamandzkiego (Flandrii), w którym tworzy enklawę, oraz od Regionu Walońskiego (Walonii), położonego mniej niż 4 km na południe."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Brussels",
+     "url": "https://en.wikipedia.org/wiki/Brussels"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
+    "90",
+    "180",
     "30",
-    "500",
-    "380",
-    "26",
-    "2,300",
-    "8,000"
+    "17"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Brussels",
+    "opis": "Federal region of Belgium including the capital",
+    "tekst": "Brussels, officially the Brussels-Capital Region, is a region of Belgium comprising 19 municipalities, including the City of Brussels, which is the capital of Belgium. The Brussels-Capital Region is located in the central portion of the country. It is a part of both the French Community of Belgium and the Flemish Community, and is separate from the Flemish Region (Flanders), within which it forms an enclave, and the Walloon Region (Wallonia), located less than 4 km (2.5 mi) south.",
+    "url": "https://en.wikipedia.org/wiki/Brussels",
+    "język": "en"
+   },
    "tagi": [
-    "Ukrainie",
-    "Półwyspie Koreańskim",
-    "Władimir Putin",
-    "Putinem"
+    "McGuire",
+    "Brexit",
+    "Brussels",
+    "Europe"
    ],
    "emotki": [
-    "🤝",
-    "🏛️",
-    "⚔️"
+    "🏛️"
    ],
    "wszystkie_źródła": [
-    {
-     "nazwa": "RMF24 Świat",
-     "tytuł": "Putin, Trump i Xi przy jednym stole. O czym będą rozmawiać w Shenzen?",
-     "url": "https://www.rmf24.pl/fakty/swiat/news-putin-trump-i-xi-przy-jednym-stole-o-czym-beda-rozmawiac-w-s,nIdn,1026353"
-    },
     {
      "nazwa": "The Guardian",
-     "tytuł": "Trump to embark on Asia trip in apparent foreign policy push before end of term",
-     "url": "https://www.theguardian.com/us-news/2026/nov/16/trump-asia-foreign-domestic-policy"
+     "tytuł": "Brexit work travel rules need urgent improvement, say UK business leaders",
+     "url": "https://www.theguardian.com/world/2026/nov/18/brexit-work-travel-rules-urgent-improvement-cbi"
     },
     {
-     "nazwa": "NPR",
-     "tytuł": "FAA ground stop still affecting thousands of flights. And, Trump meets Xi, Putin in Asia",
-     "url": "https://www.npr.org/2026/11/16/g-s1-153841/up-first-newsletter-faa-ground-stop-democratic-leaders-congress-trump-asia-trip"
-    },
-    {
-     "nazwa": "NPR",
-     "tytuł": "What to expect from Trump and Xi's upcoming meeting in China",
-     "url": "https://www.npr.org/2026/11/15/nx-s1-6038814/what-to-expect-from-trump-and-xis-upcoming-meeting-in-china"
-    },
-    {
-     "nazwa": "NPR",
-     "tytuł": "Trump heads to Asia to meet with Xi and Putin amid Nvidia fallout",
-     "url": "https://www.npr.org/2026/11/16/nx-s1-6041738/trump-xi-and-putin-china-nvidia"
-    }
-   ],
-   "liczba_źródeł": 3,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 9.083,
-    "składowe": {
-     "potwierdzenia": 3.8,
-     "ranga_źródła": 1.807,
-     "eksponowanie": 0.63,
-     "słowa_kluczowe": 1.4,
-     "świeżość": 0.446,
-     "treściwość": 0.5,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "swiat",
-    "nazwa": "Świat",
-    "emoji": "🌍",
-    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
-   },
-   "nagłówek": "Gerard Depardieu przeprasza za zachowanie wobec kobiet. „Chowałem się za prowokacją”",
-   "lead": "Gerard Depardieu został skazany na 18 miesięcy więzienia w zawieszeniu. Chodziło o molestowanie dwóch kobiet na planie filmu “Les Volets verts”.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-16T14:34:00+00:00",
-   "źródło": {
-    "nazwa": "RMF24 Świat",
-    "url": "https://www.rmf24.pl/fakty/swiat/news-gerard-depardieu-przeprasza-za-zachowanie-wobec-kobiet-chowa,nIdn,1026335",
-    "domena": "rmf24.pl"
-   },
-   "obraz": "https://rmf.rmffm.pl/news/attachments/d8/95/gerard-depardieu-fot-636x421-d8959e26.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Aktor miał pozwalać sobie na niestosowne uwagi czy chwytać jedną z kobiet za pośladki i biust.",
-      "Depardieu zaprzeczał oskarżeniom.",
-      "Na procesie przekonywał, że jest „z innej epoki”.",
-      "Przyznał, że dopuszcza się obscenicznych uwag, ale też zapewniał, że „napaść seksualna” jest „czymś poważniejszym” niż zarzucane mu czyny.",
-      "Dziś aktor wycofał złożoną wcześniej apelację od zeszłorocznego wyroku.",
-      "„Sprawiedliwość wydała wyrok.",
-      "Zostałem uznany za winnego.",
-      "Akceptuję to i biorę na siebie odpowiedzialność za ten wyrok” – stwierdził Depardieu w oświadczeniu, cytowanym m.in. przez dziennik „Le Monde”.",
-      "Złożył też „głębokie i szczere przeprosiny”, choć jednocześnie zapewnił, że nie chciał nikogo skrzywdzić."
-     ]
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "18"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": null,
-   "tagi": [
-    "Depardieu",
-    "Delphine Meillet",
-    "Obelixa Dantona",
-    "Monte Christo"
-   ],
-   "emotki": [
-    "🎬",
-    "🎭",
-    "⚖️"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "RMF24 Świat",
-     "tytuł": "Gerard Depardieu przeprasza za zachowanie wobec kobiet. „Chowałem się za prowokacją”",
-     "url": "https://www.rmf24.pl/fakty/swiat/news-gerard-depardieu-przeprasza-za-zachowanie-wobec-kobiet-chowa,nIdn,1026335"
-    },
-    {
-     "nazwa": "BBC Europe",
-     "tytuł": "Gérard Depardieu drops appeal against sexual assault conviction",
-     "url": "https://www.bbc.co.uk/news/articles/cm20vexye1d0o?at_medium=RSS&at_campaign=rss"
+     "nazwa": "BBC Business",
+     "tytuł": "Business Daily",
+     "url": "https://www.bbc.co.uk/sounds/play/w3ct8grt?at_medium=RSS&at_campaign=rss"
     }
    ],
    "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.086,
+    "wynik": 5.36,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.307,
-     "eksponowanie": 0.45,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.42,
-     "treściwość": 0.159,
-     "język_działu": 0.5
+     "ranga_źródła": 1.372,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.538,
+     "treściwość": 0.5,
+     "język_działu": 0.0
     }
+   },
+   "oryginalny_nagłówek": "Brexit work travel rules need urgent improvement, say UK business leaders",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Według Ministerstwa Zdrowia 72-letnia Palestyńka została zastrzelona przez izraelskich osadników na Zachodnim Brzegu Jordanu",
+   "lead": "Palestyńczycy twierdzą, że doszło do ataku osadników w al-Duyuk al-Tahta, podczas gdy izraelskie wojsko twierdzi, że osadnicy otworzyli ogień po tym, jak sami zostali zaatakowani.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-17T20:30:20+00:00",
+   "źródło": {
+    "nazwa": "BBC News",
+    "url": "https://www.bbc.co.uk/news/articles/cqrlg377638yo?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d277/live/17a72100-e286-11f1-a094-5fdc692f3e33.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Według relacji mieszkańców 72-letnia Fadha Wadha została trafiona pociskiem w głowę przed swoim domem w al-Duyuk al-Tahta na Zachodnim Brzegu. 72-letnia Palestyńka została zastrzelona podczas nocnego ataku izraelskich osadników na wieś w pobliżu Jerycha, do której osadnicy niedawno się wprowadzili po przejęciu kilku palestyńskich domów.",
+      "Abu Younis, kuzyn męża Wadhy, powiedział dziennikowi „The Guardian”, że przemoc rozpoczęła się, gdy grupa osadników zaatakowała młodego chłopca, którego oskarżyli o wejście na dziedziniec odebrany palestyńskim mieszkańcom.",
+      "Dwa tygodnie temu dziesiątki izraelskich osadników, z których część była uzbrojona, wprowadziło się do ośmiu budynków w al-Duyuk al-Tahta przy wsparciu organizacji osadniczej Nachala oraz rady regionalnej reprezentującej nielegalne osiedla w centralnej części Zachodniego Brzegu. „Pojazd przewożący osadników ścigał go” – powiedział Younis. „W kilku pojazdach znajdowało się około 15 osadników.",
+      "Zaczęli strzelać bezładnie, zabijając kobietę”. Świadkowie twierdzą, że palestyńscy mieszkańcy zaczęli rzucać kamieniami, aby się bronić, gdy na miejsce przybywało coraz więcej osadników, którzy strzelali do cywilów i zranili sześciu mężczyzn.",
+      "„Nic nie zrobiliśmy” – powiedziała. „To nasz dom, to oni przyszli z bronią… My byliśmy bez broni, spaliśmy”. Armia izraelska poinformowała, że grupa Palestyńczyków w samochodzie „przyspieszyła jazdę w kierunku izraelskiego pojazdu i w niego uderzyła”.",
+      "Minister spraw zagranicznych Penny Wong twierdzi, że szybka ekspansja osiedli i przemoc ze strony osadników „niweczą możliwość rozwiązania dwupaństwowego”. Otrzymuj nasze wiadomości z ostatniej chwili e-mailem, w bezpłatnej aplikacji lub w codziennym podcaście informacyjnym. Australia ogłosiła kolejną transzę sankcji wobec osób i organizacji zaangażowanych w „nielegalną ekspansję osiedli i naruszanie praw człowieka wobec Palestyńczyków” na Zachodnim Brzegu.",
+      "W oświadczeniu minister spraw zagranicznych Penny Wong stwierdziła, że to pierwszy przypadek, gdy australijskie sankcje zostały nałożone na firmę budowlaną zaangażowaną w tworzenie osiedli."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Zachodni Brzeg jest większym z dwóch terytoriów palestyńskich, które tworzą Palestynę. Jest to terytorium śródlądowe położone na zachodnim brzegu Jordanu, w pobliżu wybrzeża Morza Śródziemnego w regionie Lewantu w Azji Zachodniej. Graniczy z Jordanią i Morzem Martwym od wschodu oraz z Izraelem od południa, zachodu i północy. Od 1967 roku terytorium to znajduje się pod okupacją izraelską, co jest niezgodne z prawem międzynarodowym."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: West Bank",
+     "url": "https://en.wikipedia.org/wiki/West_Bank"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "72",
+    "15",
+    "47",
+    "53",
+    "5.3",
+    "1,100"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "West Bank",
+    "opis": "Palestinian territory occupied by Israel",
+    "tekst": "The West Bank is the larger of the two Palestinian territories that make up Palestine. A landlocked territory located on the western bank of the Jordan River near the coast of the Mediterranean Sea in West Asia's Levant region, it is bordered by Jordan and the Dead Sea to the east, and by Israel to the south, west, and north. Since 1967, the territory has been under Israeli occupation, which is illegal under international law.",
+    "url": "https://en.wikipedia.org/wiki/West_Bank",
+    "język": "en"
+   },
+   "tagi": [
+    "Israeli",
+    "Palestinians",
+    "West Bank"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC News",
+     "tytuł": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
+     "url": "https://www.bbc.co.uk/news/articles/cqrlg377638yo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Palestinian woman shot dead by Israeli settlers near Jericho, witnesses say",
+     "url": "https://www.theguardian.com/world/2026/nov/17/palestinian-woman-shot-dead-israeli-settlers-near-jericho-witnesses-say"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "‘Godmother’ of illegal Israeli West Bank settler project Daniella Weiss among group sanctioned by Australia",
+     "url": "https://www.theguardian.com/world/2026/nov/18/australia-sanctions-construction-company-west-bank-settlement-expansion-ntwnfb"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.304,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.71,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.494,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
    },
    "miejsce": 2
   },
@@ -363,98 +441,13 @@
     "emoji": "🏅",
     "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
    },
-   "nagłówek": "Anglia – Polska. Mistrzostwa Świata AMP Futbol 2026 [MECZ]",
-   "lead": "Drugie spotkanie reprezentacji Polski w grupie F mistrzostw świata w amp futbolu, przeciwko drużynie Anglii. Biało-czerwoni pokonali Kostarykę 2:1, otrzymali też walkowerem zwycięstwo 3:0 za odwołany mecz z Iranem (drużyna z Bliskiego Wschodu zrezygnowała z występu w turnieju).",
+   "nagłówek": "Jan Bednarek: zawiedliśmy samych siebie, naszych kibiców i rodziny [WIDEO]",
+   "lead": "Reprezentacja Polski zakończyła rywalizację w fazie grupowej Ligi Narodów. Biało-czerwoni, którzy zgromadzili tylko pięć punktów, nie mogą być zadowoleni ze swoich występów w tym roku kalendarzowym. – Zawiedliśmy samych siebie, naszych kibiców i nasze rodziny.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-16T22:45:00+00:00",
+   "opublikowano": "2026-11-17T22:47:00+00:00",
    "źródło": {
     "nazwa": "TVP Sport",
-    "url": "https://sport.tvp.pl/96317868/anglia-polska-mistrzostwa-swiata-amp-futbol-2026-transmisja-na-zywo-online-live-stream-16112026",
-    "domena": "sport.tvp.pl"
-   },
-   "obraz": null,
-   "sekcje": [
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Mistrzostwa świata w piłce nożnej, w Polsce nazywane również mundialem lub Pucharem Świata – międzynarodowy turniej piłki nożnej, w którym biorą udział męskie reprezentacje narodowe federacji należących do FIFA. Pierwsze mistrzostwa odbyły się w 1930 roku w Urugwaju. Od tego czasu odbywają się co cztery lata, z wyjątkiem 1942 i 1946 roku, gdyż z powodu II wojny światowej nie odbywały się kongresy FIFA, na których podejmowano decyzję o organizacji turnieju."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Mistrzostwa świata w piłce nożnej mężczyzn",
-     "url": "https://pl.wikipedia.org/wiki/Mistrzostwa_%C5%9Bwiata_w_pi%C5%82ce_no%C5%BCnej_m%C4%99%C5%BCczyzn"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [],
-   "inne_spojrzenia": [
-    {
-     "źródło": "TVP Sport",
-     "ujęcie": "Skrót drugiego spotkania reprezentacji Polski w grupie F mistrzostw świata w amp futbolu, przeciwko drużynie Anglii.",
-     "url": "https://sport.tvp.pl/96513396/anglia-polska-mistrzostwa-swiata-amp-futbol-2026-skrot"
-    }
-   ],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Mistrzostwa świata w piłce nożnej mężczyzn",
-    "opis": "międzynarodowy turniej piłkarski",
-    "tekst": "Mistrzostwa świata w piłce nożnej, w Polsce nazywane również mundialem lub Pucharem Świata – międzynarodowy turniej piłki nożnej, w którym biorą udział męskie reprezentacje narodowe federacji należących do FIFA. Pierwsze mistrzostwa odbyły się w 1930 roku w Urugwaju. Od tego czasu odbywają się co cztery lata, z wyjątkiem 1942 i 1946 roku, gdyż z powodu II wojny światowej nie odbywały się kongresy FIFA, na których podejmowano decyzję o organizacji turnieju.",
-    "url": "https://pl.wikipedia.org/wiki/Mistrzostwa_%C5%9Bwiata_w_pi%C5%82ce_no%C5%BCnej_m%C4%99%C5%BCczyzn",
-    "język": "pl"
-   },
-   "tagi": [
-    "Bliskiego Wschodu",
-    "Kostarykę",
-    "Świata",
-    "Futbol"
-   ],
-   "emotki": [
-    "⚽",
-    "🏅"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "TVP Sport",
-     "tytuł": "Anglia – Polska. Mistrzostwa Świata AMP Futbol 2026 [MECZ]",
-     "url": "https://sport.tvp.pl/96317868/anglia-polska-mistrzostwa-swiata-amp-futbol-2026-transmisja-na-zywo-online-live-stream-16112026"
-    },
-    {
-     "nazwa": "TVP Sport",
-     "tytuł": "Anglia – Polska. Mistrzostwa Świata AMP Futbol 2026 [SKRÓT]",
-     "url": "https://sport.tvp.pl/96513396/anglia-polska-mistrzostwa-swiata-amp-futbol-2026-skrot"
-    }
-   ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 3.226,
-    "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.15,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.529,
-     "treściwość": 0.347,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "sport-pl",
-    "nazwa": "Sport w Polsce",
-    "emoji": "🏅",
-    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
-   },
-   "nagłówek": "Yasin Ayari: każdy mecz traktujemy poważnie [WIDEO]",
-   "lead": "Reprezentacja Szwecji zapewniła sobie już pierwsze miejsce w grupie 4 dywizji B Ligi Narodów. Mimo to piłkarze nie zamierzają lekceważyć spotkania z Polską. – Każdy mecz traktujemy poważnie.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-16T22:44:00+00:00",
-   "źródło": {
-    "nazwa": "TVP Sport",
-    "url": "https://sport.tvp.pl/96513302/yasin-ayari-kazdy-mecz-traktujemy-powaznie-wideo",
+    "url": "https://sport.tvp.pl/96533017/jan-bednarek-zawiedlismy-samych-siebie-naszych-kibicow-i-rodziny-wideo",
     "domena": "sport.tvp.pl"
    },
    "obraz": null,
@@ -463,59 +456,108 @@
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Mamy wielką szansę pokazać, że nawet jeśli ten mecz nic dla nas nie znaczy, wciąż postaramy się wygrać – stwierdził Yasin Ayari.",
-      "Zawodnik opowiedział także o tym, jak drużyna zmieniła się na przestrzeni ostatnich sezonów. – To proces, kilka lat temu nie było tak idealnie.",
-      "Teraz jesteśmy w momencie, w którym czujemy się komfortowo w naszej drużynie, gramy dobrze i wygrywamy mecze – wyjaśnił."
+      "Nie jesteśmy zadowoleni z tego roku.",
+      "Wydaję mi się, że każdy z nas ma tego świadomość i bije się w pierś, że powinno być lepiej – wyznał Jan Bednarek po meczu ze Szwecją."
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Yasin Abbas Ayari – szwedzki piłkarz marokańsko-tunezyjskiego pochodzenia, występujący na pozycji pomocnika w angielskim klubie Brighton & Hove Albion oraz w reprezentacji Szwecji."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Yasin Ayari",
-     "url": "https://pl.wikipedia.org/wiki/Yasin_Ayari"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Yasin Ayari",
-    "opis": "szwedzki piłkarz",
-    "tekst": "Yasin Abbas Ayari – szwedzki piłkarz marokańsko-tunezyjskiego pochodzenia, występujący na pozycji pomocnika w angielskim klubie Brighton & Hove Albion oraz w reprezentacji Szwecji.",
-    "url": "https://pl.wikipedia.org/wiki/Yasin_Ayari",
-    "język": "pl"
-   },
+   "tło": null,
    "tagi": [
-    "Reprezentacja Szwecji",
+    "Reprezentacja Polski",
     "Ligi Narodów",
-    "Polską Każdy",
-    "Yasin Ayari"
+    "Jan Bednarek",
+    "Zawiedliśmy"
    ],
    "emotki": [],
    "wszystkie_źródła": [
     {
      "nazwa": "TVP Sport",
-     "tytuł": "Yasin Ayari: każdy mecz traktujemy poważnie [WIDEO]",
-     "url": "https://sport.tvp.pl/96513302/yasin-ayari-kazdy-mecz-traktujemy-powaznie-wideo"
+     "tytuł": "Jan Bednarek: zawiedliśmy samych siebie, naszych kibiców i rodziny [WIDEO]",
+     "url": "https://sport.tvp.pl/96533017/jan-bednarek-zawiedlismy-samych-siebie-naszych-kibicow-i-rodziny-wideo"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.222,
+    "wynik": 2.872,
     "składowe": {
      "potwierdzenia": 0.0,
      "ranga_źródła": 1.0,
      "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.7,
+     "słowa_kluczowe": 0.35,
      "świeżość": 0.522,
      "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Polska – Szwecja: W kadrze i mecz z kamerą na komentatorów [MECZ]",
+   "lead": "Ostatni występ reprezentacji Polski w grupie Ligi Narodów UEFA. Biało-czerwoni podejmą Szwedów we Wrocławiu.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-17T22:00:00+00:00",
+   "źródło": {
+    "nazwa": "TVP Sport",
+    "url": "https://sport.tvp.pl/96500908/polska-szwecja-w-kadrze-i-mecz-z-kamera-na-komentatorow-transmisja-na-zywo-online-live-stream-17112026",
+    "domena": "sport.tvp.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Najpierw zapraszamy na program \"W kadrze\".",
+      "Potem prowadzone przez Patryka Gańka studio przedmeczowe.",
+      "W trakcie spotkania pokażemy kamerę na komentatorów (Mateusza Borka i Grzegorza Mielcarskiego), dzięki której będzie można śledzić ich reakcje na najważniejsze wydarzenia na boisku."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Grzegorza Mielcarskiego",
+    "Mateusza Borka",
+    "Patryka Gańka",
+    "Ligi Narodów"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Polska – Szwecja: W kadrze i mecz z kamerą na komentatorów [MECZ]",
+     "url": "https://sport.tvp.pl/96500908/polska-szwecja-w-kadrze-i-mecz-z-kamera-na-komentatorow-transmisja-na-zywo-online-live-stream-17112026"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 2.852,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.513,
+     "treściwość": 0.489,
      "język_działu": 0.5
     }
    },
@@ -528,83 +570,88 @@
     "emoji": "🌐",
     "opis": "wielkie ligi, turnieje i rekordy poza Polską"
    },
-   "nagłówek": "Kluczowe obszary, na których Walia może oprzeć się, aby wykorzystać swoje historyczne zwycięstwo",
-   "lead": "Po oszałamiającym zwycięstwie nad Nową Zelandią w historyczne popołudnie w Cardiff reprezentacja Walii musi wrócić na ziemię w meczu z Australią w ramach Mistrzostw Narodów.",
+   "nagłówek": "Bellamy jest przekonany o umiejętnościach Walii pomimo porażki z Portugalią",
+   "lead": "Walia zajęła ostatnie miejsce w swojej grupie Ligi Narodów, ale trener Craig Bellamy uważa, że jego drużyna udowodniła, iż zasługuje na miejsce w najwyższej klasie rozgrywkowej.",
    "język_źródła": "en",
-   "opublikowano": "2026-11-17T04:29:45+00:00",
+   "opublikowano": "2026-11-17T23:37:45+00:00",
    "źródło": {
     "nazwa": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6vg202j9dj0o?at_medium=RSS&at_campaign=rss",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmn507wn6gg3o?at_medium=RSS&at_campaign=rss",
     "domena": "bbc.co.uk"
    },
-   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3543/live/9bcc8ab0-e1f0-11f1-9f14-b33806cfd783.jpg",
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5735/live/f46405e0-e2e5-11f1-8e58-ef8e322f3c98.jpg",
    "sekcje": [
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Stany Zjednoczone pokonały Kanadę 6:2 i zdobyły 12. tytuł mistrzyń świata Knight i Pannek zdobyły po dwie bramki w zwycięskim meczu Stany Zjednoczone 6:2 Kanada – przebieg meczu W poniedziałek Stany Zjednoczone pokonały Kanadę 6:2 i zdobyły tytuł mistrzyń świata w hokeju na lodzie kobiet w Herning w Danii, stając się pierwszą drużyną z USA, która zdobyła tytuły olimpijski i mistrzowski w tym samym roku kalendarzowym.",
-      "Hilary Knight i Kelly Pannek zdobyły po dwie bramki, a Amerykanki zdobyły swój 12. tytuł mistrzyń świata, dołączając go do złotego medalu olimpijskiego wywalczonego w lutym w Mediolanie.",
-      "Dla reprezentacji USA bramkę zdobyła również Lacey Eden, natomiast obie bramki dla Kanady, która walczyła o 14. tytuł mistrzyń świata, strzeliła Sarah Fillier.",
-      "Knight wyrównała pięć minut później, zanim Pannek wyprowadziła Amerykanki na prowadzenie w 11:33 drugiej tercji.",
-      "Pannek zdobyła swoją drugą bramkę zaledwie 89 sekund po rozpoczęciu trzeciej tercji, odbijając strzał Cayli Barnes, a następnie Eden podwyższyła wynik na 5:1 w 2:48.",
-      "Czasami gramy zawzięcie, czasami gramy z umiejętnościami, a udział w tym wszystkim to po prostu super zabawa”. Knight zakończyła turniej z dziewięcioma bramkami na koncie, co jest jej rekordem życiowym. 37-letnia kapitan reprezentacji USA",
-      "USA pokonały Kanadę i zdobyły tytuł mistrzyń świata w hokeju na lodzie Caroline Harvey została wybrana MVP turnieju Te dwie drużyny wspólnie wygrały wszystkie 25 edycji USA 0:0 Kanada, 16:16, 1. tercja Kanada ma pierwszą dobrą okazję do zdobycia gola, gdy Jessie Eldridge wjeżdża z krążkiem w strefę Amerykanek i wysyła backhanda w kierunku bramki."
+      "Być może było więc nieuniknione, że pierwsza wygrana w erze po Cristiano Ronaldo nastąpi dzięki graczowi noszącemu odświeżoną koszulkę – z numerem przekreślonym krzyżykiem, aby uczcić wieczne dziedzictwo Ronaldo, jak to ujęła Portugalska Federacja Piłkarska.",
+      "Wspaniałe wykończenie akcji przez Carlosa Forbsa, który wszedł na boisko w drugiej połowie, ostatecznie wystarczyło do odniesienia zwycięstwa w tym pełnym zwrotów akcji meczu, w którym Portugalia przetrwała mimo czerwonej kartki dla Pedro Neto za dwie żółte kartki.",
+      "W marcu Walię czeka dwumecz barażowy o utrzymanie w Lidze Narodów. Potencjalnymi przeciwnikami, którzy zostaną wyłonieni w piątkowym losowaniu w Szwajcarii, są Słowenia, Węgry, Irlandia lub Bośnia i Hercegowina – ta ostatnia wyeliminowała Walię z eliminacji do tegorocznych mistrzostw świata.",
+      "Po meczu Craig Bellamy podkreślił, jak ważne jest granie z najlepszymi drużynami, aby przyspieszyć postępy, ale powtórzył, że nie będzie pełnił swojej funkcji po Euro 2028, kiedy to wygaśnie jego kontrakt. „Jeśli chcemy się rozwijać jako naród piłkarski i nadal iść naprzód, musimy grać z najlepszymi drużynami” – powiedział Bellamy. „To tylko sprawi, że będziemy lepsi.",
+      "Nie będzie mnie tutaj podczas następnej edycji Ligi Narodów, nie będę wtedy trenerem, więc robię to z myślą o kolejnej edycji”. Było to upragnione zwycięstwo dla ­Portugalii, która awansowała do ćwierćfinału jako zwycięzca grupy po bolesnej porażce 1:4 u siebie z Danią w Brasze.",
+      "Relacja z meczu, w którym Walia przegrała u siebie 2:3 z grającą w dziesiątkę Portugalią ostatni mecz w grupie A4 Ligi Narodów; bramkę otwierającą mecz zdobył Bruno Fernandes z Manchesteru United; drugiego gola dla Portugalii strzelił Pedro Neto z Chelsea, ale w drugiej połowie został wyrzucony z boiska za dwie żółte kartki w ciągu dwóch minut; Portugalia zakończyła rozgrywki na pierwszym miejscu w grupie, a Walia na ostatnim. Aby skorzystać z odtwarzacza wideo o wyższej dostępności, użyj przeglądarki Chrome. Walia zakończyła rozgrywki grupowe Ligi Narodów porażką 2:3 z grającą w dziesiątkę Portugalią w Cardiff po tym, jak Pedro Neto z Chelsea został(a) odesłany(a).",
+      "Chociaż stawka meczu była niewielka – Walia miała zagwarantowany udział w meczach barażowych o spadek/awans w marcu, a Portugalia awansowała do ćwierćfinałów – obie drużyny zapewniły kibicom ciekawe widowisko."
      ]
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "12",
-    "14",
+    "45",
+    "40",
     "11",
-    "03",
-    "33",
-    "09"
+    "1.2",
+    "170",
+    "10"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Nations Championship",
-    "Cardiff Wales",
-    "Australia",
-    "Zealand"
+    "Portugal Wales",
+    "Nations League",
+    "Craig Bellamy",
+    "Wales"
    ],
    "emotki": [],
    "wszystkie_źródła": [
     {
      "nazwa": "BBC Sport",
-     "tytuł": "Key areas for Wales to build on historic win",
-     "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6vg202j9dj0o?at_medium=RSS&at_campaign=rss"
+     "tytuł": "Bellamy convinced of Wales credentials despite defeat by Portugal",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cmn507wn6gg3o?at_medium=RSS&at_campaign=rss"
     },
     {
-     "nazwa": "The Guardian Sport",
-     "tytuł": "USA thrash Canada to win women’s hockey worlds and complete historic golden double",
-     "url": "https://www.theguardian.com/sport/2026/nov/16/usa-canada-womens-ice-hockey-world-championship-final"
+     "nazwa": "BBC Sport",
+     "tytuł": "Highlights: Ten-man Portugal beat Wales to top group",
+     "url": "https://www.bbc.co.uk/sport/football/videos/cmwy8p49xp25o?at_medium=RSS&at_campaign=rss"
     },
     {
-     "nazwa": "The Guardian Sport",
-     "tytuł": "United States 6-2 Canada: women’s ice hockey world championship 2026 final – as it happened",
-     "url": "https://www.theguardian.com/sport/live/2026/nov/16/usa-canada-womens-ice-hockey-world-championship-final-live"
+     "nazwa": "The Guardian Football",
+     "tytuł": "Portugal’s new No 7 Forbs channels Ronaldo for winner as Wales are denied",
+     "url": "https://www.theguardian.com/football/2026/nov/17/wales-portugal-nations-league-match-report"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "Wales beaten by 10-man Portugal as Neto scores but is sent off",
+     "url": "https://www.skysports.com/football/wales-vs-portugal/report/554136"
     }
    ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.594,
+    "wynik": 6.636,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.66,
-     "eksponowanie": 0.54,
-     "słowa_kluczowe": 1.4,
-     "świeżość": 0.594,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.803,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.533,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Key areas for Wales to build on historic win",
+   "oryginalny_nagłówek": "Bellamy convinced of Wales credentials despite defeat by Portugal",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -618,105 +665,95 @@
     "emoji": "🌐",
     "opis": "wielkie ligi, turnieje i rekordy poza Polską"
    },
-   "nagłówek": "Carlos Alcaraz pokonuje Francisa Tiafoe w fazie grupowej ATP Finals w tenisie – relacja z meczu",
-   "lead": "Carlos Alcaraz okazał się zdecydowanie lepszy od Francisa Tiafoe, pokonując amerykańskiego debiutanta 6:2, 6:2 w niecałą godzinę. Carlos Alcaraz zrobił sobie prawie pięciomiesięczną przerwę, by dojść do siebie po kontuzji nadgarstka, ale wrócił w swoim typowym, miażdżącym stylu, pokonując Francisa Tiafoe 6:2, 6:2 w pierwszym meczu w grupie Ivana Lendla. Chociaż…",
+   "nagłówek": "Bezlitosny Zverev awansował do fazy pucharowej ATP Finals",
+   "lead": "Lider światowego rankingu Alexander Zverev prezentuje mistrzowski serwis, pokonuje Bena Sheltona i awansuje do fazy pucharowej ATP Finals z jednym meczem zapasu.",
    "język_źródła": "en",
-   "opublikowano": "2026-11-16T22:46:10+00:00",
+   "opublikowano": "2026-11-17T22:30:24+00:00",
    "źródło": {
-    "nazwa": "The Guardian Sport",
-    "url": "https://www.theguardian.com/sport/live/2026/nov/16/carlos-alcaraz-v-frances-tiafoe-atp-finals-tennis-group-stage-live",
-    "domena": "theguardian.com"
+    "nazwa": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/tennis/articles/c6x2eveyyxp0o?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
    },
-   "obraz": "https://i.guim.co.uk/img/media/9bf64e16e924f464b740c92b8db8fa1358b93e91/672_0_4489_3592/master/4489.jpg?width=140&quality=85&auto=format&fit=max&s=0d3331e22c499d96b0539da48cbb04f9",
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa9e/live/2f3ee070-e2d4-11f1-99ed-7de3e5932968.jpg",
    "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "W rezultacie pierwszy set zakończył się niemal zanim się zaczął. Alcaraz szybko objął prowadzenie 6:2, nawet nie pokazując pełni swojego talentu – jego skróty i gra przy siatce były w dużej mierze nieobecne, bo nie były potrzebne.",
-      "Tiafoe nieco poprawił się w drugim secie, starając się grać bardziej agresywnie, ale stracił podanie przy stanie 2:1, a następnie nie wykorzystał trzech break pointów, by odrobić przełamanie, i przegrywał 2:4.",
-      "Przyjeżdżając tutaj, mam dużo energii i ambicji i pragnę więcej”. W późniejszym meczu Daniił Miedwiediew pokonał lokalną nadzieję, Flavia Cobolliego, 7:6 (4), 6:3, co oznacza, że w środę może dojść do decydującego meczu grupowego z Alcarazem.",
-      "Dziś wieczorem w Grupie Ivana Lendla Daniił Miedwiediew, były zwycięzca tej imprezy, zmierzy się z Flaviem Cobollim, lokalnym faworytem.",
-      "Ostatecznie Alcaraz i Sinner nadal znacznie wyprzedzają resztę i chociaż każdego można pokonać w jednym meczu, nie wygląda na to, żeby ktokolwiek w tourze mógł osiągnąć na tyle dobry poziom, by robić to regularnie w ciągu najbliższych kilku lat.",
-      "Jest absolutnym geniuszem i wystarczająco młody, by pobić praktycznie każdy rekord wart pobicia, jeśli utrzyma formę i koncentrację. * Alcaraz 6:2 6:2 Tiafoe Tiafoe posyła piłkę na aut, a odpowiedź Alcaraza forhendem trafia w siatkę; 0:15.",
-      "Ale potem bekhend leci spokojnie na aut, szybko robi się 30:15, a gdy Amerykanin podchodzi do siatki, źle ustawiony forehand wzdłuż linii zaskakuje go i daje dwa piłki meczowe.",
-      "Alcaraz 6:2 5:2 Tiafoe* Nie zdziwiłbym się, gdyby Alcaraz przełamał tutaj serwis. Gdy forhend Tiafoe leci na aut, Alcaraz wyrównuje na 15:15, a potem świetnym forhendem wzdłuż linii ułatwia sobie kolejny strzał z przeciwnego narożnika, tym razem wygrywający. Jest 15:30, a Tiafoe wygląda na równie bezradnego, co zdezorientowanego.",
-      "Po krótkiej przerwie będzie serwował o wygraną w meczu. To zwiastuje coś złego i potwierdza obawy. *Alcaraz 6:2 4:2 Tiafoe Alcaraz podchodzi do siatki, aby wykonać woleja poniżej poziomu siatki. Pięknie kontrolowany ruch daje mu wynik 15:0. Następnie, po nieudanym pierwszym serwisie, trafia forhendem w siatkę; 15:15."
-     ]
-    },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Carlos Alcaraz ostrzega swoich rywali, że nigdy nie czuł się lepiej na tym etapie sezonu po tym, jak rozpoczął walkę o ATP Finals od efektownego zwycięstwa nad Francesem Tiafoe."
+      "Lider rankingu wygrał 6:2, 7:6 (4) w rewanżu za tegoroczny finał US Open, po tym jak Arthur Fils odrobił straty i pokonał Rafaela Jódara. Alexander Zverev awansował do półfinału ATP Finals w Turynie po zwycięstwie w setach z Benem Sheltonem.",
+      "Lider rankingu ATP wygrał 6:2, 7:6 (4) w rewanżu za tegoroczny finał US Open, w którym Niemiec triumfował w czterech setach, zdobywając swój drugi tytuł wielkoszlemowy.",
+      "Oznacza to, że zwycięzca French Open i US Open awansował do półfinałów przed swoim ostatnim meczem w grupie Johna McEnroea z Arthurem Filsem.",
+      "Mecz rozstrzygnął się w decydującym secie, w którym Fils z łatwością odniósł zwycięstwo, stając się pierwszym Francuzem od czasów Jo-Wilfrieda Tsongi w 2011 roku, który wygrał mecz ATP Finals.",
+      "Ale jestem bardzo zadowolona z tego, jak poradziłam sobie w drugim i trzecim secie, i teraz czuję lekką ulgę. Press Association To już wszystko z naszej strony na dziś wieczór, ale zapraszamy ponownie jutro o 12:30 GMT na emocjonujące spotkanie Carlosa Alcaraza z Daniiłem Miedwiediewem.",
+      "Prawdopodobnie nie, biorąc pod uwagę, że teraz pojawia się seria błędów. To słabe podejście, które doprowadziło do mini-breaka. As serwisowy zmniejsza stratę o połowę. * Zverev 6:2 6:6 Shelton Potężny serwis, czysty forhend; 15:0."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Frances Tiafoe Jr. jest amerykańskim profesjonalnym tenisistą. Jego najwyższym miejscem w rankingu Association of Tennis Professionals (ATP) jest 8. pozycja w singlu mężczyzn, którą osiągnął we wrześniu 2026 r., a najwyższym miejscem w rankingu gry deblistów jest 160. pozycja, którą osiągnął w listopadzie 2021 r. Tiafoe zdobył cztery tytuły w singlu w ramach ATP Tour na wszystkich trzech nawierzchniach. Jego najlepsze wyniki w turniejach wielkoszlemowych to trzy półfinały US Open. Obecnie jest amerykańskim numerem"
+      "Alexander „Sascha” Zverev – niemiecki tenisista pochodzenia rosyjskiego, lider rankingu ATP, triumfator French Open 2026 oraz US Open 2026, złoty medalista igrzysk olimpijskich z Tokio (2020) w grze pojedynczej, dwukrotny zwycięzca ATP Finals, triumfator Australian Open 2014 w grze pojedynczej chłopców, reprezentant w Pucharze Davisa."
      ],
-     "język": "en",
-     "przypis": "Wikipedia: Frances Tiafoe",
-     "url": "https://en.wikipedia.org/wiki/Frances_Tiafoe"
+     "język": "pl",
+     "przypis": "Wikipedia: Alexander Zverev",
+     "url": "https://pl.wikipedia.org/wiki/Alexander_Zverev"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "2 6",
-    "15",
-    "30",
-    "2 5",
-    "2 4",
-    "40"
+    "2, 7",
+    "6, 6",
+    "2, 6",
+    "12.30",
+    "37.5%",
+    "15"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Frances Tiafoe",
-    "opis": "American tennis player (born 1998)",
-    "tekst": "Frances Tiafoe Jr. is an American professional tennis player. He has a career-high ranking of world No. 8 in men's singles by the Association of Tennis Professionals (ATP), achieved in September 2026, and a best doubles ranking of No. 160, reached in November 2021. Tiafoe has won four ATP Tour singles titles across all three surfaces. His best performances at the majors have been three semifinals at the US Open. He is the current American No. 2 in men's singles.",
-    "url": "https://en.wikipedia.org/wiki/Frances_Tiafoe",
-    "język": "en"
+    "hasło": "Alexander Zverev",
+    "opis": "niemiecki tenisista pochodzenia rosyjskiego",
+    "tekst": "Alexander „Sascha” Zverev – niemiecki tenisista pochodzenia rosyjskiego, lider rankingu ATP, triumfator French Open 2026 oraz US Open 2026, złoty medalista igrzysk olimpijskich z Tokio (2020) w grze pojedynczej, dwukrotny zwycięzca ATP Finals, triumfator Australian Open 2014 w grze pojedynczej chłopców, reprezentant w Pucharze Davisa.",
+    "url": "https://pl.wikipedia.org/wiki/Alexander_Zverev",
+    "język": "pl"
    },
    "tagi": [
-    "Tiafoe",
-    "Alcaraz",
-    "Tiafoe*",
-    "Carlos Alcaraz"
+    "Finals",
+    "Alexander Zverev",
+    "Ben Shelton",
+    "Zverev"
    ],
    "emotki": [
     "🎾"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "The Guardian Sport",
-     "tytuł": "Carlos Alcaraz blazes past Frances Tiafoe in ATP Finals tennis group stage – as it happened",
-     "url": "https://www.theguardian.com/sport/live/2026/nov/16/carlos-alcaraz-v-frances-tiafoe-atp-finals-tennis-group-stage-live"
+     "nazwa": "BBC Sport",
+     "tytuł": "Ruthless Zverev through to ATP Finals knockout stage",
+     "url": "https://www.bbc.co.uk/sport/tennis/articles/c6x2eveyyxp0o?at_medium=RSS&at_campaign=rss"
     },
     {
-     "nazwa": "BBC Tennis",
-     "tytuł": "'Best I've felt' - Alcaraz makes statement start at ATP Finals",
-     "url": "https://www.bbc.co.uk/sport/tennis/articles/ckvg294x5yzqo?at_medium=RSS&at_campaign=rss"
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Zverev takes straight-sets win against Shelton in ATP Finals group stage – as it happened",
+     "url": "https://www.theguardian.com/sport/live/2026/nov/17/alexander-zverev-v-ben-shelton-atp-finals-tennis-group-stage-live"
     }
    ],
    "liczba_źródeł": 2,
-   "czas_czytania_min": 2,
+   "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.789,
+    "wynik": 5.449,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.357,
-     "eksponowanie": 0.81,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.522,
+     "ranga_źródła": 1.48,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.519,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Carlos Alcaraz blazes past Frances Tiafoe in ATP Finals tennis group stage – as it happened",
+   "oryginalny_nagłówek": "Ruthless Zverev through to ATP Finals knockout stage",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -730,194 +767,121 @@
     "emoji": "🧪",
     "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
    },
-   "nagłówek": "Umożliwienie recenzowania naukowego naukowcom na wczesnym etapie kariery",
-   "lead": "Naukowcy na wczesnym etapie kariery stanowią siłę napędową nauki, a jednak stanowią niewielką część recenzentów. Gdy biorą udział w recenzowaniu, ich wkład nie zawsze jest doceniany.",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-17T00:00:00+00:00",
+   "nagłówek": "Były szef Nvidii kaja się po skandalu i chce wrócić. \"Przyznaję się do błędów\"",
+   "lead": "Huang, który zrezygnował z funkcji CEO w Nvidii w ubiegły czwartek, po niecałym tygodniu przerywa milczenie. Przedsiębiorca przyjął postawę pełną skruchy i twierdzi, że jest gotowy współpracować z zarządem w sprawie swoich powiązań z potencjalną chińską agentką.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-17T19:23:00+00:00",
    "źródło": {
-    "nazwa": "Nature",
-    "url": "https://www.nature.com/articles/d41586-026-03707-7",
-    "domena": "nature.com"
+    "nazwa": "Spider's Web",
+    "url": "https://spidersweb.pl/2026/11/jensen-huang-byly-dyrektor-nvidii-stanowisko-pierwsze.html",
+    "domena": "spidersweb.pl"
    },
-   "obraz": "https://media.nature.com/lw1200/magazine-assets/d41586-026-03707-7/d41586-026-03707-7_53983212.jpg",
+   "obraz": "https://cdn-sw.spidersweb.pl/2026/11/jensen-huang-dyrektor-nvidia-chce-powrotu.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "W niektórych przypadkach to one wykonują pracę, ale uznanie zbierają ich starsi koledzy.",
-      "Jest to niedopuszczalne, a czasopisma z grupą Nature Portfolio pracują nad zmianą tej sytuacji.",
-      "Naukowcy na wszystkich etapach kariery powinni mieć możliwość pełnienia roli recenzentów – zwłaszcza naukowcy na wczesnym etapie kariery (ECR).",
-      "Teraz pierwsza analiza na dużą skalę programu Nature Portfolio Early Career Researcher Co-Review ujawnia korzyści dla naukowców i nauki.",
-      "Chociaż doświadczeni naukowcy mogą przekazać wiedzę na temat szerszego kontekstu, to jednak naukowcy na wczesnym etapie kariery często lepiej znają najnowsze techniki przeprowadzania praktycznych eksperymentów i analizowania danych.",
-      "Mają też zwykle większą wiedzę na temat szybko zmieniających się technologii.",
-      "Zaangażowanie naukowców na wczesnym etapie kariery w proces wzajemnej oceny daje im niezbędny głos, który może pomóc w kształtowaniu dorobku naukowego.",
-      "Na początku 2025 r. czasopismo „Nature” dołączyło do programu ECR Co-Review prowadzonego przez Nature Portfolio (zob. Nature 641 , 560; 2025) .",
-      "Inicjatywa ta, która rozpoczęła się od czasopism Nature Reviews, a później objęła Nature Communications, zachęca uznanych recenzentów do angażowania w proces recenzji naukowców na wczesnym etapie kariery, przy jednoczesnym zachowaniu odpowiedzialności za ostateczną recenzję."
+      "Stacja CNBC dotarła do pisemnego oświadczenia Jensena Huanga: Stworzyłem problemy dla zarządu, których głęboko żałuję.",
+      "W pełni przyznaję się do swoich błędów i jestem zdecydowany współpracować w ramach niezależnego dochodzenia zarządu.",
+      "Były szef przedsiębiorstwa twierdzi, że uzyskał wsparcie ze strony inwestorów oraz pracowników firmy Nvidia.",
+      "Jednocześnie jest gotów na powrót na stanowisko dyrektora generalnego, aby pomóc spółce w kwestiach \"skomplikowanej technologii, rynku, konkurencji i dynamiki geopolitycznej\".",
+      "Jeśli rada dyrektorów uzna, że mój powrót leży w najlepszym interesie naszych akcjonariuszy, pracowników, firmy i Ameryki, z przyjemnością odbiorę te telefony i wrócę jako dyrektor generalny - mówi Huang w oświadczeniu.",
+      "Jensen Huang podszedł do sprawy w wyjątkowo zachowawczy sposób.",
+      "Nie decydował się wcześniej na niepotrzebne publiczne wypowiedzi i zachował spokój mimo trudnej sytuacji - zmuszenia do ustąpienia ze stanowiska po 33 latach od założenia firmy w 1993 r.",
+      "W miniony poniedziałek Donald Trump wypowiedział się na temat Jensena Huanga.",
+      "Prezydent USA stwierdził, iż nie ma nic przeciwko i jest w pełni otwarty na pomysł powrotu Huanga na dotychczasowe stanowisko."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Nature, opublikowano online: 17 listopada 2026 r.; doi:10.1038/d41586-026-03714-8 Wspólne działania rządów, społeczności i przedsiębiorstw mające na celu monitorowanie skutków działań na rzecz ochrony i odbudowy przyrody są niezbędne do utrzymania przyrody i funkcji, jakie pełni.",
-      "Nature, opublikowano online: 17 listopada 2026 r.; doi:10.1038/d41586-026-03711-x Jak zachowują się neurony ludzkie w ich naturalnym środowisku?",
-      "Nature, opublikowano online: 16 listopada 2026 r.; doi:10.1038/d41586-026-03715-7 Naukowcy muszą monitorować ocieplające się oceany i wykorzystywać zdobytą wiedzę do opracowywania strategii na rzecz utrzymania rybołówstwa i społeczności, które od niego zależą.",
-      "Nature, opublikowano online: 16 listopada 2026 r.; doi:10.1038/d41586-026-03706-8 Rozciągliwe żołądki pozwalają tym latającym ssakom połykać duże ilości krwi, a geny odpowiedzialne za przetwarzanie płynów pomagają im odlecieć do domu po spożyciu tak dużej ilości płynu.",
-      "Nature, opublikowano online: 16 listopada 2026 r.; doi:10.1038/d41586-026-03763-z Kraje zobowiązują się do korzystania z narzędzi sztucznej inteligencji w celu przyspieszenia wdrażania czystej energii – ale potencjał ten nie został udowodniony.",
-      "Nature, opublikowano online: 17 listopada 2026 r.; doi:10.1038/d41586-026-03772-y Nessa Carey twierdzi, że strach przed porażką może sprawić, że naukowcy pozostaną w swojej strefie komfortu, co będzie miało wpływ na innowacyjność.",
-      "Nature, opublikowano online: 16 listopada 2026 r.; doi:10.1038/d41586-026-03762-0 DNA pochodzące od starożytnego hominina może powodować zmniejszenie niektórych części naszego mózgu – i chronić przed schizofrenią."
+      "Jensen Huang bez owijania w bawełnę przyznaje, że nie sprostał standardom wymaganym od każdego pracownika NVIDII i popełnił poważne błędy w życiu osobistym, ale mimo tego chce wrócić na stanowisko.",
+      "Wyraził przy tym głęboki żal z powodu problemów, jakie przysporzył radzie dyrektorów, biorąc na siebie pełną odpowiedzialność za zaistniałą sytuację i deklarując ścisłą współpracę w ramach prowadzonego przez radę niezależnego dochodzenia.",
+      "Jednocześnie przypomniał o swojej 53-letniej historii w Stanach Zjednoczonych oraz o tym, że zbudowanie NVIDII było dziełem jego życia.",
+      "Były CEO podkreślił, że od momentu odejścia otrzymuje falę wsparcia od pracowników, inwestorów, partnerów biznesowych oraz klientów, którzy domagają się jego powrotu na stanowisko.",
+      "Huang zadeklarował wprost, że jeśli rada dyrektorów uzna jego powrót za leżący w najlepszym interesie akcjonariuszy, pracowników, samej spółki oraz Stanów Zjednoczonych, zaszczytem będzie dla niego odpowiedzieć na te wezwania i ponownie objąć funkcję dyrektora generalnego."
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "System odzyskiwania wydatków i kosztów (ECRS) to wyspecjalizowany podzbiór procesu „ekstrakcji, transformacji i ładowania” (ETL), który funkcjonuje jako potężny i elastyczny zestaw aplikacji, w tym programów, skryptów i baz danych, zaprojektowanych w celu poprawy przepływów pieniężnych firm i organizacji poprzez automatyzację przesyłania danych między systemami odzyskiwania kosztów, systemami fakturowania elektronicznego dostawców oraz systemami księgowymi. Ma ono największe zastosowanie w firmach, które obciążają klientów fakturami za czas i koszty. Zmniejsza to nakład pracy ręcznej wymaganej do wymiany danych między dostawcami a fakturami klientów."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Expense and cost recovery system",
-     "url": "https://en.wikipedia.org/wiki/Expense_and_cost_recovery_system"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "641 , 560",
-    "17%",
-    "11%",
-    "78,661",
-    "24,645",
-    "31"
+    "33 lat",
+    "180 tys.",
+    "53",
+    "22",
+    "00",
+    "109 miliardów"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Expense and cost recovery system",
-    "opis": "Subset of \"extract, transform, load\"",
-    "tekst": "An expense and cost recovery system (ECRS) is a specialized subset of \"extract, transform, load\" (ETL) functioning as a powerful and flexible set of applications, including programs, scripts and databases designed to improve the cash flow of businesses and organizations by automating the movement of data between cost recovery systems, electronic billing from vendors, and accounting systems. It is most applicable to companies that bill back clients for time and costs. It reduces the amount of manual effort required to exchange data between vendors and clients' bills.",
-    "url": "https://en.wikipedia.org/wiki/Expense_and_cost_recovery_system",
-    "język": "en"
-   },
+   "tło": null,
    "tagi": [
-    "ECRs",
-    "Nature",
-    "Nature Communications",
-    "York Philadelphia"
+    "Nvidii",
+    "Jensena Huanga",
+    "Huang",
+    "USA"
    ],
    "emotki": [
-    "🔬"
+    "🎮"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Nature",
-     "tytuł": "Open up peer review to early-career researchers",
-     "url": "https://www.nature.com/articles/d41586-026-03707-7"
+     "nazwa": "Spider's Web",
+     "tytuł": "Były szef Nvidii kaja się po skandalu i chce wrócić. \"Przyznaję się do błędów\"",
+     "url": "https://spidersweb.pl/2026/11/jensen-huang-byly-dyrektor-nvidii-stanowisko-pierwsze.html"
     },
     {
-     "nazwa": "Nature",
-     "tytuł": "How measuring the state of nature can reverse biodiversity loss",
-     "url": "https://www.nature.com/articles/d41586-026-03714-8"
+     "nazwa": "Antyweb",
+     "tytuł": "Jensen Huang jest gotowy wrócić. Tylko czy NVIDIA tego chce?",
+     "url": "https://antyweb.pl/jensen-huang-jest-gotowy-wrocic-tylko-czy-nvidia-tego-chce"
     },
     {
-     "nazwa": "Nature",
-     "tytuł": "The world’s most precious brain samples — and what they teach us about being human",
-     "url": "https://www.nature.com/articles/d41586-026-03711-x"
+     "nazwa": "Ars Technica",
+     "tytuł": "“Trump was in bed with Jensen”: Critics balk at Huang’s wish to return to Nvidia",
+     "url": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/"
     },
     {
-     "nazwa": "Nature",
-     "tytuł": "As El Niño builds, studies of extreme marine heatwaves must start now",
-     "url": "https://www.nature.com/articles/d41586-026-03715-7"
+     "nazwa": "TechCrunch",
+     "tytuł": "Nvidia promises that revenue will keep soaring — for now",
+     "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/"
     },
     {
-     "nazwa": "Nature",
-     "tytuł": "Secrets of the vampires: genomes reveal how these bats live off blood alone",
-     "url": "https://www.nature.com/articles/d41586-026-03706-8"
+     "nazwa": "TechCrunch",
+     "tytuł": "SEC reportedly investigating Nvidia amid Huang exit",
+     "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/"
     },
     {
-     "nazwa": "Nature",
-     "tytuł": "Is the sixth great extinction imminent? Scientists must draw on natural history for clues",
-     "url": "https://www.nature.com/articles/d41586-026-03712-w"
+     "nazwa": "TechCrunch",
+     "tytuł": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+     "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/"
     },
     {
-     "nazwa": "Nature",
-     "tytuł": "Can AI actually help the climate? Nations want to harness the technology to cut emissions",
-     "url": "https://www.nature.com/articles/d41586-026-03763-z"
+     "nazwa": "TechCrunch",
+     "tytuł": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+     "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/"
     },
     {
-     "nazwa": "Nature",
-     "tytuł": "Is academia’s risk-averse culture stifling scientific discovery?",
-     "url": "https://www.nature.com/articles/d41586-026-03772-y"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "Genetic variant that reshaped the human brain was inherited from Neanderthals",
-     "url": "https://www.nature.com/articles/d41586-026-03762-0"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "The psychology of imaginary friends — and why they are good for kids",
-     "url": "https://www.nature.com/articles/d41586-026-03713-9"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "Voyager 1 is about to achieve a cosmic first: one ‘light day’ from Earth",
-     "url": "https://www.nature.com/articles/d41586-026-03672-1"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "The climate is in crisis — here’s four things we can do",
-     "url": "https://www.nature.com/articles/d41586-026-03760-2"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "New US Congress should ‘reimagine’ science — not just return to the past",
-     "url": "https://www.nature.com/articles/d41586-026-03709-5"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "Chinese scientist sacked after child died in gene-editing trial",
-     "url": "https://www.nature.com/articles/d41586-026-03752-2"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "The prospect of a ‘super’ El Niño demands better ocean monitoring",
-     "url": "https://www.nature.com/articles/d41586-026-03744-2"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "Should we move from artificial intelligence to artificial life?",
-     "url": "https://www.nature.com/articles/d41586-026-03743-3"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "Architecture of a portal complex embedded in the poxvirus core",
-     "url": "https://www.nature.com/articles/s41586-026-11399-2"
-    },
-    {
-     "nazwa": "ScienceDaily",
-     "tytuł": "Hidden ecosystem: Scientists discover 245 animals living inside a single deep-sea rock",
-     "url": "https://www.sciencedaily.com/releases/2026/11/261114202133.htm"
+     "nazwa": "TechCrunch",
+     "tytuł": "Nvidia is abandoning China after Jensen Huang’s ouster",
+     "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/"
     }
    ],
-   "liczba_źródeł": 2,
+   "liczba_źródeł": 4,
    "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 11.088,
+    "wynik": 10.432,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 4.57,
-     "eksponowanie": 2.88,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.538,
-     "treściwość": 0.5,
-     "język_działu": 0.0
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 2.285,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.541,
+     "treściwość": 0.246,
+     "język_działu": 0.5
     }
-   },
-   "oryginalny_nagłówek": "Open up peer review to early-career researchers",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
    },
    "miejsce": 1
   },
@@ -928,789 +892,834 @@
     "emoji": "🧪",
     "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
    },
-   "nagłówek": "Koniec spekulacji. Robert Pattinson to nowy James Bond",
-   "lead": "Robert Pattinson będzie kolejnym Jamesem Bondem po Danielu Craigu. Amazon MGM Studios potwierdza wybór aktora, który zagra agenta 007 w filmie Denisa Villeneuve’a: będzie to pierwsza odsłona serii już pod kreatywną kontrolą kierownictwa studia należącego do Amazona.",
+   "nagłówek": "Mapy Google dostają potężną nowość. Z nawigacją pogadasz jak z człowiekiem",
+   "lead": "Google poinformował, że funkcja Zapytaj Mapy (Ask Maps) wreszcie trafia do Europy. Dzięki tej zmianie sztuczna inteligencja Gemini w popularnej nawigacji w końcu stanie się realnie przydatna.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-16T15:45:43+00:00",
+   "opublikowano": "2026-11-17T16:44:00+00:00",
    "źródło": {
-    "nazwa": "Antyweb",
-    "url": "https://antyweb.pl/robert-pattinson-james-bond-007-oficjalnie",
-    "domena": "antyweb.pl"
+    "nazwa": "Spider's Web",
+    "url": "https://spidersweb.pl/2026/11/mapy-google-zapytaj-mapy-w-polsce-europa-udostpenienie.html",
+    "domena": "spidersweb.pl"
    },
-   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2026/11/007-logo.jpeg",
+   "obraz": "https://cdn-sw.spidersweb.pl/2026/11/mapy-google-rozmawianie-zapytaj-mapy.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Na oficjalnej stronie serii filmów o Agencie 007 zamieszczono komunikat potwierdzający angaż Pattinsona .",
-      "Kończy to właściwie lata spekulacji oraz kawalkady nazwisk typowanych do objęcia zaszczytnego tytułu w światowej kinematografii.",
-      "40-letni Brytyjczyk będzie siódmym Bondem w ramach głównego cyklu.",
-      "Daniel Craig pożegnał się z serią przygód 007 w obrazie \"Nie czas umierać\" z 2021 roku.",
-      "Kamerę przejmuje w kolejnym filmie o 007 Denis Villeneuve, scenariusz zaś szykuje Steven Knight, twórca \"Peaky Blinders\".",
-      "Wśród producentów znaleźli się: Amy Pascal i David Heyman, a funkcję producentki wykonawczej pełni Tanya Lapointe.",
-      "Były to informacje znane już od ponad roku, niemniej wybór następcy Craiga ogłoszono dopiero teraz.",
-      "Pattinson wsławił się w świecie kina zarówno we \"franczyzowych lokomotywach\", jak i kinie autorskim.",
-      "Kojarzy się go z, rzecz jasna, sagi \"Zmierzch\", \"Batmana\", \"Good Time\", \"Teneta\" i wielu innych produkcji."
+      "Funkcja jak dotąd była dostępna wyłącznie w krajach spoza UE - m.in. w Stanach Zjednoczonych czy Wielkiej Brytanii.",
+      "Teraz Google informuje, że rozwiązanie jest wdrażane w ponad 30 europejskich państwach .",
+      "Gigant nie wymienił wprost Polski, ale wdrożenie zmiany w naszym kraju zostało już potwierdzone przez media.",
+      "Zapytaj Mapy wprowadza do aplikacji pełnoprawną sztuczną inteligencję.",
+      "Gemini jest głęboko zintegrowany z systemami nawigacyjnymi Google oraz informacjami zapisanymi na koncie użytkownika.",
+      "Ma dostęp do ponad 300 mln miejsc i opinii 500 mln osób.",
+      "Co potrafi opcja Zapytaj Mapy w Mapach Google?",
+      "To wszechstronny asystent AI.",
+      "Google wymienia następujące możliwości: Obsługa nowej funkcji wygląda nieco inaczej niż rozmowa ze sztuczną inteligencją Gemini podczas aktywnej nawigacji."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Funkcja Zapytaj Map, oparta na modelach sztucznej inteligencji Gemini, zaczyna być udostępniana w kilkudziesięciu krajach - w tym również i Polsce.",
+      "Teraz zamiast samodzielnego przeglądania dziesiątek wyników, użytkownicy będą mogli po prostu opisać czego szukają, lub zadać pytanie dotyczące konkretnego miejsca."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Robert Douglas Thomas Pattinson – brytyjski aktor filmowy i teatralny, muzyk i kompozytor. Znany jest z ról zarówno w wielkich produkcjach studyjnych, jak i w filmach niezależnych. Pattinson zaliczany był do grona najlepiej opłacanych aktorów na świecie, a filmy z jego udziałem zarobiły globalnie ponad 4,7 miliarda dolarów. W 2010 roku magazyn Time umieścił go na liście 100 najbardziej wpływowych ludzi na świecie, znalazł się również w zestawieniu Forbes Celebrity 100."
+      "Google LLC – amerykańskie przedsiębiorstwo informatyczne. Sztandarowym produktem spółki jest wyszukiwarka Google, a deklarowaną misją – „uporządkowanie światowych zasobów informacji tak, by stały się powszechnie dostępne i użyteczne dla każdego”."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Robert Pattinson",
-     "url": "https://pl.wikipedia.org/wiki/Robert_Pattinson"
+     "przypis": "Wikipedia: Google",
+     "url": "https://pl.wikipedia.org/wiki/Google"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "007",
-    "40",
+    "30 eur",
+    "300 mln",
+    "500 mln",
+    "300 milionów",
+    "500 milionów",
     "24"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Robert Pattinson",
-    "opis": "brytyjski aktor, muzyk i kompozytor",
-    "tekst": "Robert Douglas Thomas Pattinson – brytyjski aktor filmowy i teatralny, muzyk i kompozytor. Znany jest z ról zarówno w wielkich produkcjach studyjnych, jak i w filmach niezależnych. Pattinson zaliczany był do grona najlepiej opłacanych aktorów na świecie, a filmy z jego udziałem zarobiły globalnie ponad 4,7 miliarda dolarów. W 2010 roku magazyn Time umieścił go na liście 100 najbardziej wpływowych ludzi na świecie, znalazł się również w zestawieniu Forbes Celebrity 100.",
-    "url": "https://pl.wikipedia.org/wiki/Robert_Pattinson",
+    "hasło": "Google",
+    "opis": "amerykańskie przedsiębiorstwo",
+    "tekst": "Google LLC – amerykańskie przedsiębiorstwo informatyczne. Sztandarowym produktem spółki jest wyszukiwarka Google, a deklarowaną misją – „uporządkowanie światowych zasobów informacji tak, by stały się powszechnie dostępne i użyteczne dla każdego”.",
+    "url": "https://pl.wikipedia.org/wiki/Google",
     "język": "pl"
    },
    "tagi": [
-    "Pattinsona",
-    "Pattinson",
-    "Zmierzch Batmana Good Time Teneta",
-    "James Bond Robert Pattinson"
+    "Google",
+    "Gemini",
+    "Zapytaj Mapy",
+    "Zapytaj Mapy Ask Maps"
    ],
    "emotki": [
-    "🎬",
-    "🎭",
-    "🗳️"
+    "🤖",
+    "💻"
    ],
    "wszystkie_źródła": [
     {
+     "nazwa": "Spider's Web",
+     "tytuł": "Mapy Google dostają potężną nowość. Z nawigacją pogadasz jak z człowiekiem",
+     "url": "https://spidersweb.pl/2026/11/mapy-google-zapytaj-mapy-w-polsce-europa-udostpenienie.html"
+    },
+    {
      "nazwa": "Antyweb",
-     "tytuł": "Koniec spekulacji. Robert Pattinson to nowy James Bond",
-     "url": "https://antyweb.pl/robert-pattinson-james-bond-007-oficjalnie"
+     "tytuł": "Mapy Google odpalają petardę. Rewolucyjna opcja trafia do Polski!",
+     "url": "https://antyweb.pl/mapy-google-odpalaja-petarde-rewolucyjna-opcja-trafia-do-polski"
     },
     {
      "nazwa": "Ars Technica",
-     "tytuł": "Meet the new James Bond: Robert Pattinson",
-     "url": "https://arstechnica.com/culture/2026/11/meet-the-new-james-bond-robert-pattinson/"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 4.691,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.385,
-     "eksponowanie": 0.09,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.483,
-     "treściwość": 0.333,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 2
-  },
-  {
-   "dział": {
-    "id": "fizyka",
-    "nazwa": "Fizyka",
-    "emoji": "⚛️",
-    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
-   },
-   "nagłówek": "Ultrazimny laser mikrofalowy na diamentach wzmacnia sygnały kwantowe tysiąckrotnie",
-   "lead": "Autor: Adrian Skov, Okinawa Institute of Science and Technology Naukowcy z Okinawa Institute of Science and Technology (OIST) stworzyli wzmacniacz mikrofalowy oparty na spinie, który działa w temperaturze bliskiej zera absolutnego, wzmacniając sygnały ponad tysiąckrotnie, przy jednoczesnym dodaniu szumu bliskiego minimalnej wartości wymaganej przez prawa…",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-16T22:40:10+00:00",
-   "źródło": {
-    "nazwa": "Phys.org",
-    "url": "https://phys.org/news/2026-11-ultracold-diamond-microwave-laser-amplifies.html",
-    "domena": "phys.org"
-   },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/ultracold-diamond-micr.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "„Mimo że masery – lasery mikrofalowe – zostały wynalezione wcześniej niż lasery optyczne, pozostały daleko w tyle, ponieważ często do działania wymagają warunków kriogenicznych, co do niedawna czyniło je niepraktycznymi” – wyjaśnia dr",
-      "Yuimaru Kubo, kierownik zespołu ds. hybrydowych urządzeń kwantowych w OIST.",
-      "„Ale teraz, gdy komputery kwantowe działają w temperaturach bardzo zbliżonych do zera absolutnego, nadaliśmy im nowe życie jako bardzo obiecującym kandydatom do wzmacniania sygnałów kwantowych przy bardzo niskim poziomie szumów”. Urządzenie zostało opisane w czasopiśmie „Nature Communications” i jest obecnie przedmiotem dalszych prac rozwojowych mających na celu jego komercjalizację.",
-      "Odczytywanie informacji w komputerach kwantowych można porównać do robienia notatek podczas konferencji światowych przywódców, ale na zewnątrz sali, aby nie przeszkadzać w dyskusjach, mając dostęp tylko do dźwięku z jednego mikrofonu znajdującego się w środku.",
-      "Jeśli sala jest pełna, zbiorowa rozmowa utrudnia słyszenie poszczególnych mówców.",
-      "Jeśli w pomieszczeniu jest tylko kilka osób rozmieszczonych w różnych miejscach, możesz nie usłyszeć tych, które znajdują się dalej od mikrofonu.",
-      "Zwiększenie wzmocnienia może pomóc, ale sprzęt nagrywający wprowadza szum tła, nawet w całkowicie cichym pomieszczeniu.",
-      "A jeśli ktoś blisko mikrofonu nagle zacznie mówić głośno, nagranie może zostać zniekształcone.",
-      "Zamiast nagrywać głosy w klimatyzowanej sali konferencyjnej, wzmacniacze w nadprzewodzących komputerach kwantowych działają w temperaturach bardzo zbliżonych do zera absolutnego, aby zminimalizować szum termiczny i dokładnie wykrywać niezwykle słabe sygnały mikrofalowe niosące informacje kwantowe."
-     ]
+     "tytuł": "Google makes it easier to use Gemini without training AI on your data",
+     "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/"
     },
     {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Nature Communications to recenzowane, ogólnodostępne czasopismo naukowe wydawane przez Nature Portfolio od 2010 roku. Jest to czasopismo multidyscyplinarne, obejmujące nauki przyrodnicze, w tym fizykę, chemię, nauki o Ziemi, medycynę i biologię. Redakcje czasopisma znajdują się w Londynie, Berlinie, Nowym Jorku i Szanghaju."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Nature Communications",
-     "url": "https://en.wikipedia.org/wiki/Nature_Communications"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "1,000",
-    "100,000",
-    "2.55",
-    "0.5",
-    "10.1038",
-    "026"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Nature Communications",
-    "opis": "Scientific journal",
-    "tekst": "Nature Communications is a peer-reviewed, open access, scientific journal published by Nature Portfolio since 2010. It is a multidisciplinary journal that covers the natural sciences, including physics, chemistry, earth sciences, medicine, and biology. The journal has editorial offices in London, Berlin, New York City, and Shanghai.",
-    "url": "https://en.wikipedia.org/wiki/Nature_Communications",
-    "język": "en"
-   },
-   "tagi": [
-    "Science",
-    "Josephson",
-    "Nature Communications",
-    "Okinawa Institute"
-   ],
-   "emotki": [
-    "⚛️",
-    "🔬"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Phys.org",
-     "tytuł": "Ultracold diamond microwave laser amplifies quantum signals 1,000-fold",
-     "url": "https://phys.org/news/2026-11-ultracold-diamond-microwave-laser-amplifies.html"
-    }
-   ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 3.811,
-    "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.2,
-     "eksponowanie": 0.54,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.521,
-     "treściwość": 0.5,
-     "język_działu": 0.0
-    }
-   },
-   "oryginalny_nagłówek": "Ultracold diamond microwave laser amplifies quantum signals 1,000-fold",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "fizyka",
-    "nazwa": "Fizyka",
-    "emoji": "⚛️",
-    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
-   },
-   "nagłówek": "Pomiary ujawniają związek między spinem kwantowym a drganiami przenoszącymi dźwięk w ultracienkim półprzewodniku",
-   "lead": "Naukowcy z UCLA Samueli School of Engineering i Auburn University dokonali naukowego precedensu: zmierzyli drgania atomowe przenoszące fale cieplne i dźwiękowe oraz powiązali je z właściwością kwantową zwaną spinem, która jest sposobem charakteryzowania wrodzonego magnetyzmu cząstki subatomowej.",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-16T21:40:01+00:00",
-   "źródło": {
-    "nazwa": "Phys.org",
-    "url": "https://phys.org/news/2026-11-reveal-link-quantum-vibrations-ultrathin.html",
-    "domena": "phys.org"
-   },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-advanced-measureme.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "W temperaturze pokojowej spin elektronów materiału jest przypadkowy.",
-      "Jednak po schłodzeniu do temperatury około -118 stopni Celsjusza spin elektronów układa się w wzór zygzakowaty, przy czym bieguny sąsiednich elektronów są skierowane w przeciwne strony.",
-      "W badaniu opublikowanym w czasopiśmie Nature Communications stwierdzono, że spiny kwantowe i drgania zwane fononami akustycznymi wykazują silniejszą korelację w temperaturze poniżej -180 F (-118 C), gdy spiny elektronów są uporządkowane.",
-      "W pobliżu temperatury, w której zachodzi zmiana, fonony akustyczne na powierzchni półprzewodnika ulegają spowolnieniu.",
-      "Łącznie wyniki wskazują, że uporządkowanie magnetyczne materiału wpływa na sposób, w jaki drgania przemieszczają się przez jego strukturę krystaliczną.",
-      "Procesy stojące za popularnymi obecnie aplikacjami opartymi na sztucznej inteligencji wymagają dużej ilości energii do zasilania serwerów i wody do ich chłodzenia.",
-      "Jednocześnie gromadzenie się ciepła na układach komputerowych może wkrótce utrudnić dodawanie coraz to nowych funkcji z roku na rok, co od lat 50. XX wieku stanowiło podstawę postępu w informatyce.",
-      "Kontrolowanie spinu kwantowego i jego oddziaływania z fononami mogłoby pomóc w przezwyciężeniu tych ograniczeń.",
-      "Możliwości obejmują systemy przetwarzające dane przy użyciu spinu, fononów lub fal magnetycznych."
-     ]
+     "nazwa": "TechCrunch",
+     "tytuł": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+     "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/"
     },
     {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Nature Communications to recenzowane, ogólnodostępne czasopismo naukowe wydawane przez Nature Portfolio od 2010 roku. Jest to czasopismo multidyscyplinarne, obejmujące nauki przyrodnicze, w tym fizykę, chemię, nauki o Ziemi, medycynę i biologię. Redakcje czasopisma znajdują się w Londynie, Berlinie, Nowym Jorku i Szanghaju."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Nature Communications",
-     "url": "https://en.wikipedia.org/wiki/Nature_Communications"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "180",
-    "-180",
-    "100,000",
-    "10.1038",
-    "026",
-    "77234"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Nature Communications",
-    "opis": "Scientific journal",
-    "tekst": "Nature Communications is a peer-reviewed, open access, scientific journal published by Nature Portfolio since 2010. It is a multidisciplinary journal that covers the natural sciences, including physics, chemistry, earth sciences, medicine, and biology. The journal has editorial offices in London, Berlin, New York City, and Shanghai.",
-    "url": "https://en.wikipedia.org/wiki/Nature_Communications",
-    "język": "en"
-   },
-   "tagi": [
-    "Nature Communications",
-    "Engineering",
-    "Brillouin—Mandelstam Inelastic Light Scattering Spectroscopy",
-    "California NanoSystems Institute BSc Life Sciences"
-   ],
-   "emotki": [
-    "⚛️",
-    "🔬"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Phys.org",
-     "tytuł": "Measurements reveal link between quantum spin and sound-carrying vibrations in an ultrathin semiconductor",
-     "url": "https://phys.org/news/2026-11-reveal-link-quantum-vibrations-ultrathin.html"
-    }
-   ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 3.588,
-    "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.2,
-     "eksponowanie": 0.45,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.508,
-     "treściwość": 0.38,
-     "język_działu": 0.0
-    }
-   },
-   "oryginalny_nagłówek": "Measurements reveal link between quantum spin and sound-carrying vibrations in an ultrathin semiconductor",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   },
-   "miejsce": 2
-  },
-  {
-   "dział": {
-    "id": "astronomia",
-    "nazwa": "Astronomia",
-    "emoji": "🔭",
-    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
-   },
-   "nagłówek": "Wczesne czarne dziury mogły rosnąć dzięki produktywnemu chaosowi",
-   "lead": "Gdy Wszechświat miał mniej niż 700 milionów lat, supermasywna czarna dziura zasilająca kwazar o nazwie J0313-1806 osiągnęła już masę około 3 miliardów razy większą od masy Słońca. Jest to jeden z najbardziej ekstremalnych przykładów zagadki, nad którą astrofizycy zastanawiają się od dwóch dekad: w jaki sposób supermasywne czarne dziury…",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-17T01:00:05+00:00",
-   "źródło": {
-    "nazwa": "Phys.org Astronomy",
-    "url": "https://phys.org/news/2026-11-early-black-holes-grown-productive.html",
-    "domena": "phys.org"
-   },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/early-black-holes-may.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Czarna dziura rośnie, pochłaniając lub akreując gaz, ale wpadająca do niej materia nagrzewa się i świeci, a promieniowanie oddziałuje na nadal napływający gaz.",
-      "Przy tak zwanym limicie Eddingtona ciśnienie promieniowania równoważy grawitację, a prędkość opadania nie może dalej wzrastać.",
-      "Ponieważ granica ta jest proporcjonalna do masy czarnej dziury, jej wzrost jest wykładniczy.",
-      "Jeśli, jak się zwykle przyjmuje, około 10% masy wpadającej jest przekształcane w promieniowanie, masa wzrasta o współczynnik e (około 2,7) co 45 milionów lat.",
-      "Czarna dziura o masie gwiazdowej wynoszącej około stu mas Słońca potrzebowałaby około 17 takich etapów, czyli mniej więcej 770 milionów lat, aby osiągnąć masę 3 miliardów mas Słońca.",
-      "Biorąc pod uwagę czas potrzebny na uformowanie się gwiazdowych czarnych dziur, Wszechświat miał na to mniej niż 600 milionów lat.",
-      "Jednym z nich jest rozpoczęcie od „ciężkiego zarodka” o masie co najmniej 10 000 mas Słońca, powstałego w wyniku bezpośredniego zapadnięcia się ogromnych obłoków gazu.",
-      "Drugi sposób to przekroczenie granicy Eddingtona: jeśli energia uwalniana przez wpadający gaz jest odprowadzana w inny sposób niż promieniowanie, czarna dziura może rosnąć znacznie szybciej.",
-      "W nowej pracy naukowej napisanej wraz z moim kolegą Matasem Tartėnasem, opublikowanej w czasopiśmie „Astronomy & Astrophysics”, zastanawiamy się, czy trzecia, starsza i prostsza koncepcja przetrwa konfrontację z najnowszymi danymi."
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Wynika to przede wszystkim z faktu, że dosłownie nie można ich zaobserwować, jeśli nie wchodzą w interakcje z czymś w otaczającym je środowisku, a zwłaszcza z gwiazdą.",
-      "Tajemniczość czarnych dziur potęguje fakt, że istnieje kilka ich typów, w tym swobodnie unoszące się czarne dziury, które dryfują niezależnie w przestrzeni kosmicznej, czarne dziury o masie gwiazdowej, powstające w wyniku wybuchu gwiazd, oraz supermasywne czarne dziury, które znajdują się w centrum galaktyk, takich jak nasza.",
-      "Jednak prawdopodobnie jedną z najbardziej oszałamiających zagadek dotyczących czarnych dziur jest ustalenie, co się dzieje, gdy się zderzają, a nawet łączą.",
-      "Obecnie zespół ponad 70 naukowców może być o krok bliżej rozwiązania tej trwającej od dziesięcioleci zagadki, ponieważ wykorzystał połączenie modeli komputerowych i przeglądu literatury, aby przeanalizować, jak zachowują się czarne dziury podczas zderzenia, koncentrując się w szczególności na dobrze znanym zjawisku „dźwięku”, które występuje, gdy czarne dziury zderzają się i scalają.",
-      "W niedawno opublikowanym w czasopiśmie „Classical and Quantum Gravity” artykule głównym celem badania było rozwinięcie badań nad czarnymi dziurami poprzez przekształcenie znanego od dawna sposobu zwanego spektroskopią czarnych dziur z koncepcji teoretycznej w praktyczną."
-     ]
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "700 million",
-    "1806",
-    "3 billion",
-    "10%",
-    "2.7",
-    "45 million"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": null,
-   "tagi": [
-    "Eddington",
-    "Physical Sciences",
-    "Matas Tartėnas",
-    "Astrophysics"
-   ],
-   "emotki": [],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Phys.org Astronomy",
-     "tytuł": "Early black holes may have grown through productive chaos",
-     "url": "https://phys.org/news/2026-11-early-black-holes-grown-productive.html"
-    },
-    {
-     "nazwa": "Universe Today",
-     "tytuł": "Ringing Black Holes Offer Precision Tests of Relativity",
-     "url": "https://www.universetoday.com/articles/ringing-black-holes-offer-precision-tests-of-relativity"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 2,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 6.216,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.35,
-     "eksponowanie": 1.17,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.596,
-     "treściwość": 0.5,
-     "język_działu": 0.0
-    }
-   },
-   "oryginalny_nagłówek": "Early black holes may have grown through productive chaos",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "astronomia",
-    "nazwa": "Astronomia",
-    "emoji": "🔭",
-    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
-   },
-   "nagłówek": "APOD: 16 listopada 2026 r. – NGC 7129: Powstawanie gwiazd z dżetami na zdjęciu z teleskopu Webba",
-   "lead": "Każdego dnia prezentowany jest inny obraz lub zdjęcie naszego fascynującego wszechświata wraz z krótkim wyjaśnieniem napisanym przez profesjonalnego astronoma. Objaśnienie: Jak powstają gwiazdy?",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-16T05:05:00+00:00",
-   "źródło": {
-    "nazwa": "NASA",
-    "url": "https://science.nasa.gov/image-article/apod-2026-november-16-ngc-7129-star-formation-with-jets-from-webb/",
-    "domena": "science.nasa.gov"
-   },
-   "obraz": "https://assets.science.nasa.gov/content/dam/science/missions/webb/science/2026/10/weic2620a.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Aby pomóc odpowiedzieć na to pytanie, NASA wykorzystała Kosmiczny Teleskop Jamesa Webba do wykonania prezentowanego szczegółowego zdjęcia obszaru gwiazdotwórczego NGC 7129 w świetle podczerwonym.",
-      "Proces formowania się gwiazd postępuje, gdy grawitacja przyciąga do siebie ogromne ilości gazu, ale wkrótce sytuacja może się skomplikować, gdy wcześniej uformowane gwiazdy zaczną emitować potężne dżety i wiatry, a niektóre z nich eksplodują.",
-      "W chłodnych atmosferach gwiazd może powstawać nieprzezroczysty pył, który po rozproszeniu może utrudniać uzyskiwanie obrazów w świetle widzialnym.",
-      "Na prezentowanym zdjęciu widać, jak powstaje wiele gwiazd. Młode gwiazdy po lewej stronie, w gazie o złotym kolorze, są zazwyczaj bardziej dojrzałe niż młode gwiazdy po prawej stronie – w czerwonym obszarze.",
-      "Strumienie i wiatry prawdopodobnie powodują włóknisty charakter czerwonego gazu.",
-      "Badanie gwiazd na różnych etapach rozwoju pogłębia wiedzę o tym, jakie procesy fizyczne są najważniejsze i kiedy zachodzą.",
-      "Jutrzejsze zdjęcie: pojedynek na niebie"
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "W niedawnym badaniu światła podczerwonego zarejestrowanego przez Kosmiczny Teleskop Jamesa Webba (JWST) grupa astronomów po raz pierwszy wykryła lód wokół młodej gwiazdy Beta Pictoris.",
-      "Zespół twierdzi, że te nowe szczegóły dostarczają wskazówek na temat wczesnego powstawania układu Beta Pictoris i kolizji, które mogą nadal mieć miejsce.",
-      "Beta Pictoris to gwiazda licząca około 20 milionów lat, oddalona o około 64 lata świetlne, otoczona pyłowym dyskiem zawierającym planety i mniejsze ciała.",
-      "Chociaż wiek 20 milionów lat może nie brzmieć jak wiek młody, nasz własny Układ Słoneczny ma około 4,6 miliarda lat."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Powstawanie gwiazd to proces, w którym gęste obszary w obłokach molekularnych w przestrzeni międzygwiazdowej – czasami nazywane „żłobkami gwiazdowymi” lub „obszarami gwiazdotwórczymi” – zapadają się i tworzą gwiazdy. Jako gałąź astronomii, powstawanie gwiazd obejmuje badanie ośrodka międzygwiazdowego (ISM) i olbrzymich obłoków molekularnych (GMC) jako prekursorów procesu powstawania gwiazd oraz badanie protogwiazd i młodych obiektów gwiazdowych jako jego bezpośrednich produktów. Jest ona ściśle związana z powstawaniem planet, inną dziedziną astronomii. Teoria formowania się gwiazd, oprócz wyjaśnienia procesu powstawania pojedynczej gwiazdy, musi również uwzględniać statystyki gwiazd podwójnych i funkcję masy początkowej. Większość gwiazd nie powstaje w izolacji, lecz w ramach grupy gwiazd zwanej gromadą gwiazd lub asocjacją gwiazd."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Star formation",
-     "url": "https://en.wikipedia.org/wiki/Star_formation"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "7129",
-    "20",
-    "64",
-    "4.6 billion",
-    "50",
-    "300"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Star formation",
-    "opis": "Gravitational process studied in astronomy",
-    "tekst": "Star formation is the process by which dense regions within molecular clouds in interstellar space—sometimes referred to as \"stellar nurseries\" or \"star-forming regions\"—collapse and form stars. As a branch of astronomy, star formation includes the study of the interstellar medium (ISM) and giant molecular clouds (GMC) as precursors to the star formation process, and the study of protostars and young stellar objects as its immediate products. It is closely related to planet formation, another branch of astronomy. Star formation theory, as well as accounting for the formation of a single star, must also account for the statistics of binary stars and the initial mass function. Most stars do not form in isolation but as part of a group of stars referred to as star clusters or stellar associations.",
-    "url": "https://en.wikipedia.org/wiki/Star_formation",
-    "język": "en"
-   },
-   "tagi": [
-    "James Webb Space Telescope",
-    "Star Formation",
-    "Webb Discover",
-    "November"
-   ],
-   "emotki": [
-    "🔭"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "NASA",
-     "tytuł": "APOD: 2026 November 16 – NGC 7129: Star Formation with Jets from Webb",
-     "url": "https://science.nasa.gov/image-article/apod-2026-november-16-ngc-7129-star-formation-with-jets-from-webb/"
-    },
-    {
-     "nazwa": "Phys.org Astronomy",
-     "tytuł": "Dirty ice around young star Beta Pictoris suggests frequent collisions and sheds light on the system's formation",
-     "url": "https://phys.org/news/2026-11-dirty-ice-young-star-beta.html"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 2,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 5.836,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.48,
-     "eksponowanie": 0.45,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.456,
-     "treściwość": 0.5,
-     "język_działu": 0.0
-    }
-   },
-   "oryginalny_nagłówek": "APOD: 2026 November 16 – NGC 7129: Star Formation with Jets from Webb",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   },
-   "miejsce": 2
-  },
-  {
-   "dział": {
-    "id": "geografia",
-    "nazwa": "Geografia",
-    "emoji": "🗺️",
-    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
-   },
-   "nagłówek": "Civil Security Hub Poland rozszerza wsparcie dla polskich służb ratowniczych o rozwiązania ICEYE",
-   "lead": "12 listopada br. w Warszawie ICEYE oraz Centrum Badań Kosmicznych Polskiej Akademii Nauk CBK PAN ogłosiły zawarcie umowy, na mocy której usługi ICEYE realizowane w ramach inicjatywy ESA Space Resilience Nodes zapewnią Państwowej Straży Pożarnej i zespołom zarządzania kryzysowego stały dostęp do danych satelitarnych…",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-16T00:00:00+00:00",
-   "źródło": {
-    "nazwa": "Geoforum",
-    "url": "https://geoforum.pl/news/37518/civil-security-hub-poland-rozszerza-wsparcie-dla-polskich-sluzb-ratowniczych-o-rozwiazania",
-    "domena": "geoforum.pl"
-   },
-   "obraz": null,
-   "sekcje": [],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "12",
-    "11",
-    "10",
-    "40",
-    "30",
-    "15"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": null,
-   "tagi": [
-    "Centrum Badań Kosmicznych Polskiej Akademii Nauk",
-    "ESA Space Resilience Nodes",
-    "Państwowej Straży Pożarnej",
-    "Space Resilience Nodes"
-   ],
-   "emotki": [
-    "🚑",
-    "📉"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Geoforum",
-     "tytuł": "Civil Security Hub Poland rozszerza wsparcie dla polskich służb ratowniczych o rozwiązania ICEYE",
-     "url": "https://geoforum.pl/news/37518/civil-security-hub-poland-rozszerza-wsparcie-dla-polskich-sluzb-ratowniczych-o-rozwiazania"
-    },
-    {
-     "nazwa": "Mongabay",
-     "tytuł": "Pataxó Indigenous people protest the arrest of a female vice-chief in Brazil’s Bahia",
-     "url": "https://news.mongabay.com/short-article/2026/11/pataxo-indigenous-people-protest-the-arrest-of-a-female-vice-chief-in-brazils-bahia/"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 5.151,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.2,
-     "eksponowanie": 0.18,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.521,
-     "treściwość": 0.5,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "geografia",
-    "nazwa": "Geografia",
-    "emoji": "🗺️",
-    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
-   },
-   "nagłówek": "Obserwacja przepływów lawy z kosmosu",
-   "lead": "W ramach nowych badań testuje się wykorzystanie radaru z syntezą apertury (SAR) do szacowania powierzchni jezior lawowych, takich jak to w kraterze Halemaʻumaʻu wulkanu Kīlauea na Hawajach. Służba Geologiczna / Flickr, domena publiczna",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-16T12:33:56+00:00",
-   "źródło": {
-    "nazwa": "Eos (AGU)",
-    "url": "https://eos.org/research-spotlights/tracking-lava-flows-from-space",
-    "domena": "eos.org"
-   },
-   "obraz": "https://eos.org/wp-content/uploads/2026/09/kilauea-lava-lake-1024x576.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Autor: Rebecca Owen, Amerykańska Unia Geofizyczna Powoli płynąca lawa podczas erupcji wulkanicznej typu efuzywnego może zmienić krajobraz.",
-      "Jednak ulatniające się gazy, zachmurzenie, problemy z dostępem i ograniczone zasoby lokalne mogą sprawić, że monitorowanie rozwoju pola przepływu będzie niebezpieczne i trudne.",
-      "Radar satelitarny, znany również jako radar z aperturą syntetyczną (SAR), to narzędzie, którego można używać do monitorowania aktywności wulkanicznej przez gęste smugi i chmury, a także w nocy.",
-      "Jednak SAR mierzy również rozproszenie wsteczne, czyli sygnał radarowy, który odbija się od ziemi i wraca do satelity.",
-      "Bardzo aktywny wulkan Kīlauea na Wielkiej Wyspie Hawajów jest idealnym miejscem do testowania pomiarów wstecznego rozpraszania SAR, ponieważ znajduje się tam wiele stacji monitorujących, które zebrały szczegółowe zestawy danych geochemicznych, geologicznych i geofizycznych."
-     ]
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "167",
-    "105",
-    "10.1029"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": null,
-   "tagi": [
-    "Kīlauea’s Halemaʻumaʻu Crater",
-    "Survey/Flickr Public Domain",
-    "Lava Flows",
-    "Hawaii"
-   ],
-   "emotki": [],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Eos (AGU)",
-     "tytuł": "Tracking Lava Flows from Space",
-     "url": "https://eos.org/research-spotlights/tracking-lava-flows-from-space"
-    },
-    {
-     "nazwa": "Phys.org Earth Sciences",
-     "tytuł": "Satellite radar tracks lava flows and crater changes at Hawaii's Kilauea volcano",
-     "url": "https://phys.org/news/2026-11-satellite-radar-tracks-lava-crater.html"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 5.256,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.357,
-     "eksponowanie": 0.9,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.45,
-     "treściwość": 0.299,
-     "język_działu": 0.0
-    }
-   },
-   "oryginalny_nagłówek": "Tracking Lava Flows from Space",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   },
-   "miejsce": 2
-  },
-  {
-   "dział": {
-    "id": "popkultura",
-    "nazwa": "Popkultura",
-    "emoji": "🎬",
-    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
-   },
-   "nagłówek": "To oni powalczą o nagrody Grammy 2027! Ogłoszono nominacje",
-   "lead": "Recording Academy ogłosiło nominacje do nagród Grammy 2027. Uroczyste rozdanie statuetek zaplanowane jest na 7 lutego przyszłego roku.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-16T13:51:25+00:00",
-   "źródło": {
-    "nazwa": "Interia Muzyka",
-    "url": "https://muzyka.interia.pl/pop/news-kto-ma-szanse-na-statuetke-grammy-2027-recording-academy-ogl,nId,23574338",
-    "domena": "muzyka.interia.pl"
-   },
-   "obraz": "https://i.iplsc.com/-/000NJAOL6X62RP96-C321.webp",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "W najważniejszych kategoriach o zwycięstwo powalczą m.in.",
-      "Madonna, Olivia Dean, Ariana Grande, Slayyyter, Tame Impala, Bruno Mars, Raye, The Rolling Stones, Phoebe Bridgers, Olivia Rodrigo czy ROSALÍA.",
-      "Oto szczegóły jednego z najważniejszych muzycznych wydarzeń roku.",
-      "Nagrody Grammy , nazywane \"muzycznymi Oscarami\" , to jedne z najbardziej prestiżowych wyróżnień w światowej branży muzycznej.",
-      "Przyznawane są przez amerykańską Narodową Akademię Sztuk i Nauk Nagraniowych ( Recording Academy ), a statuetki otrzymują wokaliści, muzycy, producenci, autorzy tekstów i inni artyści pracujący przy projektach fonograficznych.",
-      "Nagrody rozdawane są w blisko 100 kategoriach, lecz za najważniejsze uznaje się: album roku, nagranie roku (przyznawana wykonawcom i producentom piosenki), piosenka roku (przyznawana kompozytorom i autorom tekstu piosenki) i najlepszy nowy artysta.",
-      "W 2026 r. najważniejsze wyróżnienia trafiły w ręce m.in.",
-      "Lady Gagi, Olivii Dean, Kendricka Lamara, Billie Eilish oraz Bad Bunny'ego , który stał się najgorętszym nazwiskiem wieczoru.",
-      "Przed nami 69. ceremonia wręczenia nagród Grammy, którą zaplanowano na 7 lutego 2027 r."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Nagroda Grammy – nagroda muzyczna przyznawana corocznie przez Narodową Akademię Sztuk i Nauk Nagraniowych z USA, honorująca wyróżniające się osiągnięcia w branży fonograficznej. Ceremonie rozdania nagród uświetniają występy cenionych artystów. Grammy należy do czwórki najważniejszych nagród amerykańskich w rozrywce tzw. EGOT, obok telewizyjnej Emmy, filmowego Oscara i teatralnego Tony."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Nagroda Grammy",
-     "url": "https://pl.wikipedia.org/wiki/Nagroda_Grammy"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "100",
-    "69",
-    "11",
-    "35",
-    "16"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Nagroda Grammy",
-    "opis": "wyróżnienie muzyczne przyznawane przez National Academy of Recording Arts and Sciences",
-    "tekst": "Nagroda Grammy – nagroda muzyczna przyznawana corocznie przez Narodową Akademię Sztuk i Nauk Nagraniowych z USA, honorująca wyróżniające się osiągnięcia w branży fonograficznej. Ceremonie rozdania nagród uświetniają występy cenionych artystów. Grammy należy do czwórki najważniejszych nagród amerykańskich w rozrywce tzw. EGOT, obok telewizyjnej Emmy, filmowego Oscara i teatralnego Tony.",
-    "url": "https://pl.wikipedia.org/wiki/Nagroda_Grammy",
-    "język": "pl"
-   },
-   "tagi": [
-    "Grammy",
-    "Recording Academy",
-    "Olivia Dean Ariana Grande Slayyyter Tame Impala Bruno Mars Raye",
-    "Gagi Olivii Dean Kendricka Lamara Billie Eilish"
-   ],
-   "emotki": [
-    "🎵"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Interia Muzyka",
-     "tytuł": "To oni powalczą o nagrody Grammy 2027! Ogłoszono nominacje",
-     "url": "https://muzyka.interia.pl/pop/news-kto-ma-szanse-na-statuetke-grammy-2027-recording-academy-ogl,nId,23574338"
-    },
-    {
-     "nazwa": "BBC Kultura",
-     "tytuł": "Raye, Rosalía and Dolly Parton recognised in Grammy nominations",
-     "url": "https://www.bbc.co.uk/news/articles/cq9vwkggpx73o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "The Guardian Music",
-     "tytuł": "Grammys 2027: Raye, Rosalía and Olivia Rodrigo lead female-heavy nominations",
-     "url": "https://www.theguardian.com/music/2026/nov/16/grammy-nominations-2027-female-artists"
-    },
-    {
-     "nazwa": "Pitchfork",
-     "tytuł": "Angine de Poitrine Nominated for Best New Artist at 2027 Grammys",
-     "url": "https://pitchfork.com/story/angine-de-poitrine-nominated-for-best-new-artist-at-2027-grammys/"
-    },
-    {
-     "nazwa": "Pitchfork",
-     "tytuł": "Watch Phoebe Bridgers Play “Bobby” and “Still Standing” on Saturday Night Live",
-     "url": "https://pitchfork.com/story/watch-phoebe-bridgers-play-bobby-and-still-standing-on-saturday-night-live/"
-    },
-    {
-     "nazwa": "Pitchfork",
-     "tytuł": "Tinashe, Slayyyter, Underscores Are Officially Grammy Nominees",
-     "url": "https://pitchfork.com/story/tinashe-slayyyter-underscores-are-officially-grammy-nominees/"
-    },
-    {
-     "nazwa": "Pitchfork",
-     "tytuł": "Grammy Nominations 2027: See the Full List Here",
-     "url": "https://pitchfork.com/story/grammy-nominations-2027-see-the-full-list-here/"
-    },
-    {
-     "nazwa": "Pitchfork",
-     "tytuł": "Phoebe Bridgers, Charli XCX, Rosalía, and Geese Face Off for Best Alternative Album Grammy",
-     "url": "https://pitchfork.com/story/phoebe-bridgers-charli-xcx-rosalia-and-geese-face-off-for-best-alternative-album-grammy/"
-    },
-    {
-     "nazwa": "Pitchfork",
-     "tytuł": "Geese Earn First Grammy Nominations",
-     "url": "https://pitchfork.com/story/geese-earn-first-grammys-nominations/"
+     "nazwa": "TechCrunch",
+     "tytuł": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+     "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/"
     }
    ],
    "liczba_źródeł": 4,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 12.581,
+    "wynik": 9.36,
     "składowe": {
      "potwierdzenia": 5.7,
-     "ranga_źródła": 2.438,
-     "eksponowanie": 1.62,
-     "słowa_kluczowe": 1.4,
-     "świeżość": 0.423,
+     "ranga_źródła": 1.835,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.475,
      "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Mikroskop do obserwacji gazu kwantowego rozróżnia „kolor” poszczególnych atomów na jednym zdjęciu",
+   "lead": "W 2024 roku naukowcy z grupy Ultracold Quantum Gases w ICFO skonstruowali mikroskop do gazów kwantowych, który po raz pierwszy umożliwił obrazowanie pojedynczych atomów w kwantowych gazach strontu, co stanowiło kluczowy krok umożliwiający symulację kwantową. W tamtym czasie naukowcy wykonali obraz strontu-84, bozonu, który nie ma spinu.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-18T00:00:01+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-11-quantum-gas-microscope-individual-atoms.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/quantum-gas-microscope-3.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Teraz Carlos Gas-Ferrer, dr",
+      "Dr Antonio Rubio-Abadal",
+      "Jonatan Höschele, pod kierunkiem profesor Leticii Tarruell z ICREA, wykorzystali swój aparat do zobrazowania strontu-87.",
+      "Ten fermion charakteryzuje się 10 różnymi stanami spinowymi, tworzącymi kolorowe obrazy, na których można wyróżnić każdy pojedynczy stan.",
+      "Jak podano w czasopiśmie „Physical Review X ”, jest to pierwsze zastosowanie mikroskopu do gazów kwantowych, który może wykrywać pojedyncze atomy o tak dużej liczbie dostępnych spinów za jednym razem.",
+      "Ta zdolność otwiera nowe możliwości symulacji kwantowej materiałów, w której atomy fermionowe przejmują rolę elektronów, a struktura krystaliczna ciała stałego jest zastępowana przez sieć optyczną utworzoną przez interferujące ze sobą wiązki laserowe.",
+      "Tego rodzaju układy są tradycyjnie wykorzystywane do badania modelu Hubbarda, który stanowi kamień węgielny w zrozumieniu nadprzewodników o wysokiej temperaturze krytycznej.",
+      "Co godne uwagi, stront-87 umożliwi naukowcom z ICFO wyjście poza dwa stany spinowe elektronów i stworzenie sztucznych materiałów charakteryzujących się trzema lub większą liczbą stanów spinowych.",
+      "Ta swoboda wielu spinów jest szczególnie istotna dla realizacji egzotycznego magnetyzmu kwantowego, w którym spiny ustawiają się w złożonych konfiguracjach magnetycznych."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "84",
+    "87",
+    "10"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Gas-Ferrer",
+    "Fermi-Hubbard Systems Physical Review",
+    "Spin-Resolved Microscopy",
+    "Ultracold Quantum Gases"
+   ],
+   "emotki": [
+    "⚛️",
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Quantum-gas microscope resolves the 'color' of individual atoms in a single shot",
+     "url": "https://phys.org/news/2026-11-quantum-gas-microscope-individual-atoms.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.893,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.72,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.538,
+     "treściwość": 0.385,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Quantum-gas microscope resolves the 'color' of individual atoms in a single shot",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Fluktuacje fotonów oferują nowy sposób badania dynamiki elektronów w krysztalach",
+   "lead": "Intensywne światło lasera może spowodować, że kryształ będzie emitował nowe kolory o częstotliwościach wielokrotnie wyższych niż częstotliwość wiązki pierwotnej. Proces ten, znany jako generacja wysokich harmonicznych, stanowi skuteczną metodę badania szybkiego ruchu elektronów w ciałach stałych.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-18T03:40:08+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-11-photon-fluctuations-probe-electron-dynamics.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/reading-electron-dynam.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Naukowcy zazwyczaj badają jasność i widmo emitowanego światła.",
+      "Jednak te pomiary obejmują tylko część dostępnych informacji.",
+      "Fluktuacje między poszczególnymi impulsami laserowymi mogą również ujawnić sposób wytwarzania emisji.",
+      "Jasna próżnia ściśnięta (BSV), kwantowy stan światła, oferuje nietypowy sposób na zbadanie tych informacji.",
+      "Pomimo swojej nazwy, BSV może zawierać wiele fotonów i silnie oddziaływać z materią.",
+      "Jego fotony powstają parami, powodując duże wahania intensywności i korelacje między różnymi częściami jego widma.",
+      "Zrozumienie, w jaki sposób właściwości te wpływają na generację wysokich harmonicznych, może dostarczyć nowych sposobów badania procesów elektronicznych i eksploracji światła kwantowego o krótszych długościach fal.",
+      "Jak podano w czasopiśmie Advanced Photonics, naukowcy z Państwowego Laboratorium Kluczowego Fizyki Mezoskopowej i Centrum Nauki Granicznej Nanooptoelektroniki na Wydziale Fizyki Uniwersytetu Pekińskiego, wraz z naukowcami z Instytutu im. Maxa Borna, zbadali te kwestie, oświetlając kryształ niobianu litu za pomocą BSV.",
+      "W ich badaniu analizowane są zarówno fluktuacje od impulsu do impulsu poszczególnych harmonicznych, jak i korelacje między różnymi składowymi widmowymi emitowanego światła."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Advanced Photonics to recenzowane czasopismo naukowe typu open access, wydawane co dwa miesiące przez SPIE i Chinese Laser Press. Obejmuje badania podstawowe i stosowane w dziedzinie optyki i fotoniki. Czasopismo zostało założone w 2019 roku, a jego redaktorami naczelnymi są Xiao-Cong Yuan i Anatolij Zajac."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Advanced Photonics",
+     "url": "https://en.wikipedia.org/wiki/Advanced_Photonics"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "200",
+    "2,060",
+    "10"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Advanced Photonics",
+    "opis": "Academic journal",
+    "tekst": "Advanced Photonics is a peer-reviewed open access scientific journal published bimonthly by SPIE and Chinese Laser Press. It covers fundamental and applied research in optics and photonics. It was established in 2019 and the editors-in-chief are Xiao-Cong Yuan and Anatoly Zayats.",
+    "url": "https://en.wikipedia.org/wiki/Advanced_Photonics",
+    "język": "en"
+   },
+   "tagi": [
+    "Advanced Photonics",
+    "Peking University's School",
+    "Frontiers Science Center",
+    "Electronics Engineering"
+   ],
+   "emotki": [
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Photon fluctuations offer new way to probe electron dynamics in crystals",
+     "url": "https://phys.org/news/2026-11-photon-fluctuations-probe-electron-dynamics.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.443,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.583,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Photon fluctuations offer new way to probe electron dynamics in crystals",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Ta supernowa znajduje się w odległości 50 milionów lat świetlnych, ale to wystarczająco blisko dla astronomów.",
+   "lead": "W galaktyce spiralnej NGC 1433, oddalonej o około 50 milionów lat świetlnych, zaobserwowano nową supernową. To dość blisko, jak na obserwacje supernowych, i jest to okazja do szczegółowych dalszych badań.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-17T17:40:14+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Astronomy",
+    "url": "https://phys.org/news/2026-11-supernova-million-years-astronomers.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/this-supernova-is-50-m.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nie jest to supernowa powstała w wyniku zapadnięcia się jądra, kiedy to masywna gwiazda wypala swoje paliwo, zapada się i wybuch.﻿a.",
+      "To supernowa typu Ia.",
+      "Materia gromadzi się na powierzchni białego karła, aż przekroczy granicę Chandrasekhara, wynoszącą około 1,44 masy Słońca.",
+      "Ta supernowa nosi nazwę SN 2026ahvu, gdzie przyrostek ahvu jest identyfikatorem chronologicznym.",
+      "Oznacza to, że supernowa jest 41 855. zjawiskiem przejściowym odkrytym w 2026 roku.",
+      "Jednak mimo że w tym roku odkryto tysiące obiektów przejściowych i supernowych, ta supernowa nadal zasługuje na szczególną uwagę ze względu na swoją względną bliskość Ziemi oraz fakt, że została wykryta wcześnie.",
+      "SN 2026ahvu została odkryta",
+      "ATLAS został zaprojektowany i zoptymalizowany pod kątem wykrywania zbliżających się obiektów bliskich Ziemi na krótko przed ich dotarciem do Ziemi, ale może również wykrywać inne obiekty przejściowe.",
+      "Nowe obiekty przejściowe są rejestrowane w Transient Name Server (TNS), rejestrze obiektów przejściowych zatwierdzonym przez Międzynarodową Unię Astronomiczną (IAU)."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "W galaktyce spiralnej NGC 1433, oddalonej o około 50 milionów lat świetlnych, zaobserwowano nową supernową.",
+      "W przypadku supernowej typu Ia biały karzeł, zwany gwiazdą akrecyjną, odciąga materię od innej gwiazdy, zwanej gwiazdą dawcą."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Supernowa typu Ia to supernowa, która powstaje w układach podwójnych, w których jedna z gwiazd jest białym karłem. Druga gwiazda może być dowolnym obiektem – od gwiazdy olbrzyma po jeszcze mniejszego białego karła."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Type Ia supernova",
+     "url": "https://en.wikipedia.org/wiki/Type_Ia_supernova"
+    }
+   ],
+   "dlaczego_to_ważne": "Oznacza to, że dochodzi do tego w układzie podwójnym gwiazd, w którym wybuchająca gwiazda jest białym karłem.",
+   "liczby": [
+    "1433",
+    "50 million",
+    "1.44",
+    "41,855",
+    "0.5",
+    "-50"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Type Ia supernova",
+    "opis": "Type of supernova in binary systems",
+    "tekst": "A Type Ia supernova is a supernova that occurs in binary systems in which one of the stars is a white dwarf. The other star can be anything from a giant star to an even smaller white dwarf.",
+    "url": "https://en.wikipedia.org/wiki/Type_Ia_supernova",
+    "język": "en"
+   },
+   "tagi": [
+    "Type Ia",
+    "AstroNotes",
+    "Transient Name Server",
+    "Earth"
+   ],
+   "emotki": [
+    "🌌"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Astronomy",
+     "tytuł": "This supernova is 50 million light-years away, but that's close enough for astronomers",
+     "url": "https://phys.org/news/2026-11-supernova-million-years-astronomers.html"
+    },
+    {
+     "nazwa": "Universe Today",
+     "tytuł": "This Supernova is 50 Million Light Years Away, But That's Close Enough For Astronomers",
+     "url": "https://www.universetoday.com/articles/this-supernova-is-50-million-light-years-away-but-thats-close-enough-for-astronomers"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.338,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.35,
+     "eksponowanie": 1.08,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.458,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "This supernova is 50 million light-years away, but that's close enough for astronomers",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Teleskop Webba NASA ujawnia, że wyrzuty materii z galaktyk prawdopodobnie regulują proces powstawania gwiazd w „kosmicznym południu”",
+   "lead": "Siedząc tutaj, na obrzeżach naszej galaktyki Drogi Mlecznej, trudno jest sobie wyobrazić galaktyczne machinacje, które doprowadziły do powstania naszej strefy Złotowłosej wokół bardzo przyjaznej żółtej gwiazdy karłowatej. Jednak od dziesięcioleci astronomowie podejrzewają, że wewnętrzna dynamika masywnych galaktyk, takich jak nasza, odgrywa ogromną rolę w regulowaniu…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-17T15:20:15+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Astronomy",
+    "url": "https://phys.org/news/2026-11-galaxy-outflows-star-formation-cosmic.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/galaxy-outflows-likely.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Obserwacje prowadzone przez Kosmiczny Teleskop Jamesa Webba (JWST) NASA ujawniają obecnie, że masywne galaktyki charakteryzują się rozległymi wypływami gazu, które znacznie hamują powstawanie w nich gwiazd.",
+      "Jak opisują autorzy nowego badania, JWST zaobserwował związek między wypływami z centralnego jądra masywnej galaktyki a wygaszaniem procesów formowania się gwiazd w okresie zwanym „kosmicznym południem”. Oznacza to, że około 8–12 miliardów lat temu liczba gwiazd powstających na jednostkę objętości w kosmosie osiągnęła szczyt.",
+      "Artykuł zostanie opublikowany jako recenzja na zaproszenie w czasopiśmie „Astrophysics and Space Science”.",
+      "Wypływy to masowe strumienie gazu z wnętrza galaktyki na zewnątrz, zwykle spowodowane przez supernowe lub energetyczne wybuchy z supermasywnych czarnych dziur.",
+      "Zazwyczaj galaktyki są bogate w gaz, a gdy gaz jest wystarczająco zimny, zapada się pod własnym ciężarem i tworzy gęsty obłok, z którego powstają nowe gwiazdy.",
+      "Jednak takie wypływy prawdopodobnie usuwają z galaktyk duże ilości gazu, co uniemożliwia im tworzenie nowych gwiazd.",
+      "Rosnące supermasywne czarne dziury w centrach galaktyk wytwarzają potężne wiatry, które zdmuchują gaz, z którego w przeciwnym razie powstawałyby gwiazdy – napisała mi w e-mailu Rebecca Davies, główna autorka artykułu i astrofizyczka z australijskiego Uniwersytetu Technologicznego Swinburne w Melbourne.",
+      "Dzięki teleskopowi JWST możemy zmierzyć ilość wyrzucanego zimnego gazu, z którego powstają gwiazdy – powiedział mi Davies.",
+      "Jednak JWST ujawnił również, że wypływy napędzane przez akrecję na supermasywne czarne dziury są związane z szybkim zatrzymaniem lub „wygaszeniem” procesów gwiazdotwórczych."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Siedząc tutaj, na obrzeżach naszej Galaktyki Drogi Mlecznej, trudno jest sobie wyobrazić galaktyczne machinacje, które doprowadziły do powstania naszej strefy Złotowłosej wokół bardzo przyjaznej żółtej gwiazdy karłowatej.",
+      "Jednak od dziesięcioleci astronomowie podejrzewają, że wewnętrzna dynamika masywnych galaktyk, takich jak nasza, odgrywa ogromną rolę w regulowaniu powstawania gwiazd.",
+      "Jak wskazują obecne obserwacje prowadzone przez Kosmiczny Teleskop Jamesa Webba (JWST) należący do NASA, masywne galaktyki charakteryzują się rozległymi wypływami gazu, które znacznie hamują proces powstawania gwiazd.",
+      "Jak opisują autorzy nowego artykułu w czasopiśmie „Astrophysics and Space Science”, teleskop JWST zaobserwował związek między wypływami z centralnego jądra masywnej galaktyki a zatrzymaniem procesu powstawania gwiazd w okresie zwanym „kosmicznym południem”. Oznacza to, że około 8–12 miliardów lat temu liczba gwiazd powstających na jednostkę objętości w kosmosie osiągnęła swój szczyt.",
+      "Odpływy to masywne strumienie gazu, kierujące się z wnętrza galaktyki na zewnątrz, zwykle wywołane przez supernowe lub energetyczne wybuchy supermasywnych czarnych dziur.",
+      "Wzrastające supermasywne czarne dziury w centrach galaktyk wywołują potężne wiatry, które zdmuchują gaz, z którego w przeciwnym razie powstawałyby gwiazdy – napisała mi w e-mailu Rebecca Davies, główna autorka artykułu i astrofizyczka z australijskiego Uniwersytetu Technologicznego Swinburne w Melbourne."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "Te obserwacje JWST ujawniły, że wypływy są bardziej obfite i silniejsze, niż sądziliśmy, co sugeruje, że ewolucja galaktyk jest silnie zależna od wypływów – powiedział mi w e-mailu Sirio Belli, profesor nadzwyczajny na Uniwersytecie w Bologni we Włoszech i współautor artykułu.",
+   "liczby": [
+    "12 billion",
+    "10 billion",
+    "5 billion",
+    "10.48550"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Davies",
+    "Belli",
+    "Space Science",
+    "Astrophysics"
+   ],
+   "emotki": [
+    "🌌",
+    "🔭"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Astronomy",
+     "tytuł": "Galaxy outflows likely regulate star formation at 'cosmic noon,' NASA's Webb reveals",
+     "url": "https://phys.org/news/2026-11-galaxy-outflows-star-formation-cosmic.html"
+    },
+    {
+     "nazwa": "Universe Today",
+     "tytuł": "Galaxy Outflows Likely Regulate Star Formation At ‘Cosmic Noon’ NASA’s Webb Reveals",
+     "url": "https://www.universetoday.com/articles/galaxy-outflows-likely-regulate-star-formation-at-cosmic-noon-nasas-webb-reveals"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.31,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.35,
+     "eksponowanie": 1.17,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.429,
+     "treściwość": 0.411,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Galaxy outflows likely regulate star formation at 'cosmic noon,' NASA's Webb reveals",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "These US coal plants on the Ohio River shut down years ago. Now, residents say their waste is destroying lives",
+   "lead": "Landfill owner’s data show lithium above groundwater standards near the drinking water source for millions Down winding roads and past quiet homesteads, all that can be heard in the otherwise bucolic air of rural Clermont county, Ohio , is the roar of dump trucks. The speeding vehicles are headed for a massive…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-17T13:00:48+00:00",
+   "źródło": {
+    "nazwa": "The Guardian Environment",
+    "url": "https://www.theguardian.com/us-news/2026/nov/17/coal-plants-ohio-river-landfill",
+    "domena": "theguardian.com"
+   },
+   "obraz": "https://i.guim.co.uk/img/media/0c57dac28d92b40748c59c4dd7c04e2bd8aabbd0/959_0_4801_3840/master/4801.jpg?width=140&quality=85&auto=format&fit=max&s=3458bb9f773f486489b4970e933a4c21",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "For residents Brian and Rhonda Brittain, the sight of the trucks fills them with fear and anger. “Everything that’s coming out of [the landfill] is coming right through this pipe and into this pond,” says Brian, pointing to a neighbor’s watering hole surrounded by a half dozen livestock. “These people raise cattle to feed their family.” He and his wife, Rhonda, have been battling sulfuric odors and concerns about environmental hazards associated with the landfill.",
+      "But as bad as the smell can get, that’s no longer their main concern. “The smell is only the warning system,” says Brian.",
+      "Their property abuts the Little Indian Creek, a waterway upon which the landfill was constructed and which flows into the Ohio River four miles downstream.",
+      "In consecutive rounds of testing conducted this year and for several previous years, Dynegy Zimmer’s own reporting showed “statistically significant levels above the applicable groundwater protection standards” for lithium at the landfill.",
+      "Millions of people downstream in Cincinnati and Louisville depend on the Ohio River for drinking water.",
+      "While coal-powered electricity plants have been phased out in recent years, their presence has cast a long, dangerous shadow in the form of coal combustion residual (CCR) landfills.",
+      "Communities along this stretch of the Ohio River have been suffering with the fallout for years.",
+      "While the national incidence rate of lung and bronchus cancer is 51.8 per 100,000 residents, in Clermont county, it’s 69.6 .",
+      "In the neighboring Hamilton county, from where much of the waste being dumped comes from, the rate is 62 per 100,000."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "A remarkable archaeological discovery in southern Saudi Arabia is revealing what life was like 125,000 years ago, when parts of the Arabian Peninsula were covered in lakes, grasslands, and thriving wildlife.",
+      "Researchers have uncovered ancient stone tools, fossils of large animals, and rare plant remains that offer an unusually detailed look at how early humans survived in this dramatically different environment.",
+      "Announced by the Saudi Heritage Commission, the findings are the result of a joint investigation involving the Commission, King Abdullah University of Science and Technology (KAUST), and Griffith University.",
+      "Published in Science , the research brings together specialists in geology, archaeology, botany, and micropaleontology, along with experts from several international institutions.",
+      "A Lost Green Arabia Filled With Lakes and Wildlife Today, much of this region is dominated by desert, but the landscape looked very different during the last Interglacial period, around 125,000 years ago."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "The Ohio River is a 981-mile-long (1,579 km) river in the United States. It begins in the Northeast and serves as the boundary between the Midwestern and Southern United States, flowing in a southwesterly direction from Pittsburgh, Pennsylvania, to its mouth on the Mississippi River at Cairo, Illinois. It is the third largest river by discharge volume in the United States and the largest tributary by volume of the Mississippi River. It is also the sixth oldest river on the North American continent. The river flows through or along the border of six states, and its drainage basin includes parts of 14 states. Through its largest tributary, the Tennessee River, the basin includes several states of the southeastern United States. It is the source of drinking water for five million people."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Ohio River",
+     "url": "https://en.wikipedia.org/wiki/Ohio_River"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "1,400",
+    "51.8",
+    "100,000",
+    "69.6",
+    "62",
+    "20"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Ohio River",
+    "opis": "Major river in the Eastern United States",
+    "tekst": "The Ohio River is a 981-mile-long (1,579 km) river in the United States. It begins in the Northeast and serves as the boundary between the Midwestern and Southern United States, flowing in a southwesterly direction from Pittsburgh, Pennsylvania, to its mouth on the Mississippi River at Cairo, Illinois. It is the third largest river by discharge volume in the United States and the largest tributary by volume of the Mississippi River. It is also the sixth oldest river on the North American continent. The river flows through or along the border of six states, and its drainage basin includes parts of 14 states. Through its largest tributary, the Tennessee River, the basin includes several states of the southeastern United States. It is the source of drinking water for five million people.",
+    "url": "https://en.wikipedia.org/wiki/Ohio_River",
+    "język": "en"
+   },
+   "tagi": [
+    "Ohio River",
+    "Vistra Corp",
+    "Clermont",
+    "Brian"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "The Guardian Environment",
+     "tytuł": "These US coal plants on the Ohio River shut down years ago. Now, residents say their waste is destroying lives",
+     "url": "https://www.theguardian.com/us-news/2026/nov/17/coal-plants-ohio-river-landfill"
+    },
+    {
+     "nazwa": "ScienceDaily Earth",
+     "tytuł": "125,000 years ago, hippos roamed what is now the vast Arabian Desert",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261115085537.htm"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 3,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.681,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 1.17,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.561,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "How enhanced rock weathering can speed up carbon capture",
+   "lead": "Water flooded the pasture, spilling from an irrigation pipe tucked alongside a hill at the Sierra Foothill Research and Extension Center, a University of California research facility located about 20 miles (32 kilometers) east of Yuba City. For more than three hours, starting at 6 a.m. this summer day, the water had…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-17T02:20:01+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Earth Sciences",
+    "url": "https://phys.org/news/2026-11-weathering-carbon-capture.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/rustic-corrugated-roof.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Downhill, Jaeeun Sohng donned rubber gloves and grabbed a sampling bottle.",
+      "She stood inside an open-air shed built inside a trench cut into the hillside.",
+      "Sohng knelt and collected water from one of the four spouts releasing the liquid after it had flowed down through the soil.",
+      "A staccato-like clacking sound punctuated the white noise of running water.",
+      "\"We are trying to be very particular about sampling,\" said Sohng, a postdoctoral scholar at the UC Davis Institute of the Environment.",
+      "\"We want to capture the water sample before it interacts with the atmosphere too much.",
+      "For us, it's vital to understand the chemistry of the water as it exists in the soil.\" Sohng is part of the California Collaborative for Natural Climate Change Solutions, a UC Davis interdisciplinary research team studying the efficacy of enhanced rock weathering, one of Earth's most powerful and ancient natural chemical reactions.",
+      "For billions of years, the Earth's climate has been regulated by the ebbs and flows of this process, in which excess carbon dioxide in the atmosphere is soaked up by the natural breakdown of silicate rocks around the planet.",
+      "Since the Industrial Revolution, the planet's atmospheric carbon dioxide levels have increased exponentially, hitting levels not seen in nearly 14 million years ."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "A newly developed material from Oregon State University could help solve one of the biggest challenges in industrial carbon capture: removing carbon dioxide from emissions that contain large amounts of water vapor.",
+      "Instead of allowing moisture to interfere with the process, the material uses it to help maintain effective carbon capture.",
+      "The researchers have filed a patent application for the innovation, which belongs to a class of materials known as metal-organic frameworks, or MOFs.",
+      "Their findings, published in Angewandte Chemie , could help make carbon capture more practical and affordable for factories and other industrial facilities.",
+      "In the United States, industry accounts for 30% of total greenhouse gas emissions, according to the Environmental Protection Agency ."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "The DC Multiverse is a fictional continuity construct used in numerous DC Comics publications. The Multiverse has undergone numerous changes since its introduction and has included various universes, listed below between the original Multiverse and its successors."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: List of DC Multiverse worlds",
+     "url": "https://en.wikipedia.org/wiki/List_of_DC_Multiverse_worlds"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "20",
+    "32",
+    "14 million",
+    "425",
+    "50%",
+    "100,000"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "List of DC Multiverse worlds",
+    "opis": "List of alternate universes set in the DC Comics media",
+    "tekst": "The DC Multiverse is a fictional continuity construct used in numerous DC Comics publications. The Multiverse has undergone numerous changes since its introduction and has included various universes, listed below between the original Multiverse and its successors.",
+    "url": "https://en.wikipedia.org/wiki/List_of_DC_Multiverse_worlds",
+    "język": "en"
+   },
+   "tagi": [
+    "Montañez",
+    "O'Geen",
+    "Earth's",
+    "Sierra Foothill Research"
+   ],
+   "emotki": [
+    "🪐"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Earth Sciences",
+     "tytuł": "How enhanced rock weathering can speed up carbon capture",
+     "url": "https://phys.org/news/2026-11-weathering-carbon-capture.html"
+    },
+    {
+     "nazwa": "ScienceDaily Earth",
+     "tytuł": "This remarkable new material could solve a major carbon capture problem",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261116023405.htm"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.331,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 1.35,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.381,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Robert Pattinson przewidział swoją przyszłość? Już w 2012 roku mówił o zagraniu Bonda",
+   "lead": "Okazuje się, że Robert Pattinson od dawna widział siebie w roli Jamesa Bonda . Czternaście lat przed oficjalnym angażem do roli agenta 007 aktor przyznał w wywiadzie, że chętnie wcieliłby się w słynnego szpiega.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-17T08:03:00+00:00",
+   "źródło": {
+    "nazwa": "Filmweb",
+    "url": "https://www.filmweb.pl/news/Robert+Pattinson+przewidzia%C5%82+swoj%C4%85+przysz%C5%82o%C5%9B%C4%87+Ju%C5%BC+w+2012+roku+m%C3%B3wi%C5%82+o+zagraniu+Bonda-169689",
+    "domena": "filmweb.pl"
+   },
+   "obraz": "https://fwcdn.pl/nph/1433332/2026/79251_1.16.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "W poniedziałek, po wielu miesiącach domysłów i spekulacji, producenci nowego filmu o Jamesie Bondzie potwierdzili, że w roli agenta 007 zobaczymy Roberta",
+      "Amazon MGM Studios potwierdziło, że to Robert Pattinson zagra w nowym filmie o Jamesie Bondzie w reżyserii Denisa Villeneuve'a.",
+      "Z okazji tej głośnej decyzji przypominamy wyjątkowy polski wątek w karierze aktora - kulisy jego spotkania z Agatą Buzek, która bez castingu trafiła u jego boku do głośnej produkcji science fiction.",
+      "16 listopada Amazon MGM Studios oficjalnie ogłosiło, że nowym odtwórcą roli legendarnego Jamesa Bonda został Robert Pattinson.",
+      "Gwiazdor zastąpi tym samym Daniela Craiga, który pożegnał się z kultową serią w filmie \"Nie czas umierać\" z 2021 roku.",
+      "Nowa odsłona przygód najsłynniejszego szpiega zapowiada się spektakularnie nie tylko ze względu na obsadę - za kamerą stanie wizjoner kina Denis Villeneuve, a scenariusz napisze Steven Knight.",
+      "Pattinson, który zaczynał karierę od hitów takich jak \"Harry Potter\" czy \"Zmierzch\", w ostatnich latach udowodnił swój ogromny aktorski kunszt w produkcjach takich jak \"Odyseja\", \"Primetime\" oraz mroczny \"Batman\" Matta Reevesa."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "007",
+    "16"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Film",
+     "ujęcie": "Nawet jeśli nie było to zamierzone, wygląda na to, że Robert Pattinson przewidział swój angaż do roli Jamesa Bonda już kilkanaście lat temu.",
+     "url": "https://film.interia.pl/wiadomosci/news-robert-pattinson-jako-james-bond-aktor-przewidzial-to-juz-ki,nId,23574618"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Robert Pattinson",
+    "Bonda Okazuje",
+    "Jamesa Bonda",
+    "Pattinson"
+   ],
+   "emotki": [
+    "🎭"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Filmweb",
+     "tytuł": "Robert Pattinson przewidział swoją przyszłość? Już w 2012 roku mówił o zagraniu Bonda",
+     "url": "https://www.filmweb.pl/news/Robert+Pattinson+przewidzia%C5%82+swoj%C4%85+przysz%C5%82o%C5%9B%C4%87+Ju%C5%BC+w+2012+roku+m%C3%B3wi%C5%82+o+zagraniu+Bonda-169689"
+    },
+    {
+     "nazwa": "Filmweb",
+     "tytuł": "Robert Pattinson nowym Bondem! Kto zagra jego dziewczynę? Typujemy",
+     "url": "https://www.filmweb.pl/news/Robert+Pattinson+nowym+Bondem+Kto+zagra+jego+dziewczyn%C4%99+Typujemy-169697"
+    },
+    {
+     "nazwa": "Interia Film",
+     "tytuł": "Pattinson nowym Agentem 007! Tak przed laty oceniła go polska aktorka",
+     "url": "https://film.interia.pl/wiadomosci/news-pattinson-nowym-agentem-007-tak-przed-laty-ocenila-go-polska,nId,23575064"
+    },
+    {
+     "nazwa": "Interia Film",
+     "tytuł": "Robert Pattinson jako James Bond. Aktor przewidział to kilkanaście lat temu",
+     "url": "https://film.interia.pl/wiadomosci/news-robert-pattinson-jako-james-bond-aktor-przewidzial-to-juz-ki,nId,23574618"
+    },
+    {
+     "nazwa": "BBC Kultura",
+     "tytuł": "Jeff Bezos says he was 'heavily involved' in casting Robert Pattinson as new Bond",
+     "url": "https://www.bbc.co.uk/news/articles/cm5y1eejk292o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Kultura",
+     "tytuł": "Batman to James Bond: The clues about what to expect from Robert Pattinson's 007",
+     "url": "https://www.bbc.co.uk/news/articles/c8x2r6gyy2pzo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 9.32,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.995,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.588,
+     "treściwość": 0.407,
      "język_działu": 0.5
     }
    },
@@ -1723,66 +1732,76 @@
     "emoji": "🎬",
     "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
    },
-   "nagłówek": "\"Harry Potter\": Malfoy i spółka na nowych plakatach serialu HBO",
-   "lead": "HBO zaprezentowało kolejne plakaty promujące pierwszy sezon \" Harry'ego Pottera \". Znaleźli się na nich: Lox Pratt (Draco Malfoy), Rory Wilmot (<a",
+   "nagłówek": "Kiedy zdjęcia do \"Ocean’s 14\"? Brad Pitt ma złe wieści",
+   "lead": "Jeszcze niedawno wydawało się, że kolejna część cyklu \" Ocean’s \" – \" Ocean’s 14 \" – ma szansę powstać już bardzo niedługo, na początek zdjęć wskazywano nawet na przyszły miesiąc. <a class='internal'",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-16T16:08:00+00:00",
+   "opublikowano": "2026-11-17T13:42:00+00:00",
    "źródło": {
     "nazwa": "Filmweb",
-    "url": "https://www.filmweb.pl/news/%22Harry+Potter%22+Malfoy+i+sp%C3%B3%C5%82ka+na+nowych+plakatach+serialu+HBO-169683",
+    "url": "https://www.filmweb.pl/news/Kiedy+zdj%C4%99cia+do+%22Ocean%E2%80%99s+14%22+Brad+Pitt+ma+z%C5%82e+wie%C5%9Bci-169706",
     "domena": "filmweb.pl"
    },
-   "obraz": "https://fwcdn.pl/nph/49468/2026/79226.16.jpg",
+   "obraz": "https://fwcdn.pl/nph/1032473/2026/79280_1.16.jpg",
    "sekcje": [],
    "dlaczego_to_ważne": "",
    "liczby": [
+    "14",
     "007",
-    "25",
-    "1.1",
-    "40",
     "26",
-    "28"
+    "24",
+    "6.5",
+    "12"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Lox Pratt Draco Malfoy Rory Wilmot",
-    "Harry'ego Pottera",
-    "Potter Malfoy"
+    "Ocean’s Ocean’s",
+    "Ocean’s",
+    "Jeszcze",
+    "Pitt"
    ],
    "emotki": [
-    "📺",
-    "🎬"
+    "🌊"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Filmweb",
-     "tytuł": "\"Harry Potter\": Malfoy i spółka na nowych plakatach serialu HBO",
-     "url": "https://www.filmweb.pl/news/%22Harry+Potter%22+Malfoy+i+sp%C3%B3%C5%82ka+na+nowych+plakatach+serialu+HBO-169683"
+     "tytuł": "Kiedy zdjęcia do \"Ocean’s 14\"? Brad Pitt ma złe wieści",
+     "url": "https://www.filmweb.pl/news/Kiedy+zdj%C4%99cia+do+%22Ocean%E2%80%99s+14%22+Brad+Pitt+ma+z%C5%82e+wie%C5%9Bci-169706"
+    },
+    {
+     "nazwa": "BBC Kultura",
+     "tytuł": "Brad Pitt and Florence Pugh pitch for James Bond villain role",
+     "url": "https://www.bbc.co.uk/news/articles/cq4gnpgl0zkxo?at_medium=RSS&at_campaign=rss"
     },
     {
      "nazwa": "The Guardian Film",
-     "tytuł": "New James Bond announced ... and the name’s Pattinson, Robert Pattinson",
-     "url": "https://www.theguardian.com/film/2026/nov/16/new-james-bond-announced-and-the-names-pattinson-robert-pattinson"
+     "tytuł": "‘Sorry, I’m still in love with Daniel Craig’: Ralph Fiennes, Brad Pitt and more react to Robert Pattinson as James Bond",
+     "url": "https://www.theguardian.com/film/2026/nov/17/brad-pitt-ralph-fiennes-react-to-robert-pattinson-as-james-bond"
     },
     {
      "nazwa": "The Guardian Film",
-     "tytuł": "Robert Pattinson’s gift for cool, sensual menace makes him an exquisite choice as James Bond | Peter Bradshaw",
-     "url": "https://www.theguardian.com/film/2026/nov/16/robert-pattinson-choice-bond"
+     "tytuł": "What will Robert Pattinson bring to the James Bond role? – video explainer",
+     "url": "https://www.theguardian.com/film/video/2026/nov/17/what-will-robert-pattinson-bring-to-the-james-bond-role-video-explainer"
+    },
+    {
+     "nazwa": "The Guardian Culture",
+     "tytuł": "Call my (estate) agent! Why celebrities are always buying each other’s homes",
+     "url": "https://www.theguardian.com/film/2026/nov/17/celebrities-buying-each-others-homes-brad-pitt-sylvester-stallone-joe-pesci"
     }
    ],
-   "liczba_źródeł": 2,
+   "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.526,
+    "wynik": 7.813,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.487,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.867,
      "eksponowanie": 0.0,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.439,
+     "świeżość": 0.446,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -1794,7 +1813,7 @@
  "statystyki": {
   "kanały_ok": 71,
   "kanały_błędne": 1,
-  "znaki_tłumaczone": 17966,
+  "znaki_tłumaczone": 19898,
   "niedziałające_kanały": [
    {
     "url": "https://www.esa.int/rssfeed/Our_Activities/Space_Science",
@@ -1802,6 +1821,6 @@
    }
   ],
   "działy": 18,
-  "artykuły_w_oknie": 59
+  "artykuły_w_oknie": 51
  }
 }
