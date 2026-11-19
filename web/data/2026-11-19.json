@@ -1,0 +1,1861 @@
+{
+ "wersja": "1.0.0",
+ "wydanie": "2026-11-19",
+ "dotyczy_dnia": "2026-11-18",
+ "wygenerowano": "2026-11-19T15:06:21+00:00",
+ "strefa": "Europe/Warsaw",
+ "tryb": "ekstrakcyjny",
+ "demo": false,
+ "pozycje": [
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Brak zgody na areszt dla Święczkowskiego. Korwin-Piotrowska tłumaczy",
+   "lead": "W trzech wnioskach dotyczących Bogdana Święczkowskiego zachodzi uzasadnione podejrzenie popełnienia przestępstwa - ogłosiła Anna Korwin-Piotrowska, relacjonując wielogodzinne obrady zgromadzenia sędziów wybranych do TK. Święczkowski i wiceprezes Trybunału Bartłomiej Sochański nie stawili się na sali, zaś w roli…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-18T21:19:57+00:00",
+   "źródło": {
+    "nazwa": "Interia Fakty",
+    "url": "https://wydarzenia.interia.pl/kraj/news-dlaczego-nie-wyrazono-zgody-na-areszt-dla-swieczkowskiego-ko,nId,23575740",
+    "domena": "wydarzenia.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NJNJ4VR8R8SB9-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Korwin-Piotrowska zdradziła, dlaczego nie wyrażono zgody na aresztowanie prezesa TK. - Immunitet formalny przysługujący sędziom to nie jest licencja na bezkarność.",
+      "Przeszkoda ta może być usunięta, ale orzec o tym musi niezależny organ od innych władz - przekazała na początku nowego nagrania sędzia Anna Korwin-Piotrowska.",
+      "Przypomnijmy, we zgromadzenie sędziów wybranych przez Sejm do TK podjęło decyzję o odebraniu immunitetu prezesowi i wiceprezesowi TK, czyli odpowiednio: Bogdanowi Święczkowskiemu i Bartłomiejowi Sochańskiemu . - Prokurator generalny, aby móc wszcząć postępowanie przeciwko sędziom TK musiał uzyskać zgodę zgromadzenia ogólnego sędziów Trybunału na to, żeby takie postępowanie karne przeciwko sędziom Święczkowskiemu i Sochańskiemu wszcząć - tłumaczyła Korwin-Piotrowska.",
+      "Jak dodała, ustawa , otwiera się w nowym oknie o statusie sędziów z 2016 roku zawiera szczątkowe informacje nt. procedury, w jaki sposób odebranie immunitetu sędziom TK ma się odbyć.",
+      "Dlatego zgromadzenie ośmiorga sędziów skorzystało z przepisów zawartych w ustawie o organizacji sądów powszechnych . - Prowadziliśmy bardzo długą naradę i obrady, w jaki sposób rozstrzygnąć wnioski prokuratora generalnego, te, co do których nie doszło do odmowy ich przyjęcia ze względu na braki formalne - relacjonowała Korwin-Piotrowska.",
+      "Przypomnijmy, dwa z sześciu wniosków prokuratury zostały odrzucone .",
+      "Podobnie zadecydowano w jednej sprawie dotyczącej Bartłomieja Sochańskiego. - Zgromadzenie ogólnie nie wyraziło zgody na pozbawienie pana sędziego Bogdana Święczkowskiego wolności przez zatrzymanie i tymczasowe aresztowanie.",
+      "Doszliśmy do przekonania, że prokurator niedostatecznie uargumentował konieczność zastosowania takiego środka zapobiegawczego i nie wykazał, żeby w tym danym momencie było to konieczne - podkreśliła Anna Korwin-Piotrowska.",
+      "W Sądzie Okręgowym w Warszawie , gdzie rozpatrywano wnioski o odebranie immunitetów Święczkowskiemu i Sochańskiemu, obaj zainteresowani nie pojawili się."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Bogdan Roman Święczkowski – polski prawnik, prokurator. Od 2022 sędzia Trybunału Konstytucyjnego, którego od 9 grudnia 2024 jest prezesem."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Bogdan Święczkowski",
+     "url": "https://pl.wikipedia.org/wiki/Bogdan_%C5%9Awi%C4%99czkowski"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Bogdan Święczkowski",
+    "opis": "polski prawnik i prokurator",
+    "tekst": "Bogdan Roman Święczkowski – polski prawnik, prokurator. Od 2022 sędzia Trybunału Konstytucyjnego, którego od 9 grudnia 2024 jest prezesem.",
+    "url": "https://pl.wikipedia.org/wiki/Bogdan_%C5%9Awi%C4%99czkowski",
+    "język": "pl"
+   },
+   "tagi": [
+    "Anna Korwin-Piotrowska",
+    "Bogdana Święczkowskiego",
+    "Korwin-Piotrowska",
+    "Święczkowskiemu"
+   ],
+   "emotki": [
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Brak zgody na areszt dla Święczkowskiego. Korwin-Piotrowska tłumaczy",
+     "url": "https://wydarzenia.interia.pl/kraj/news-dlaczego-nie-wyrazono-zgody-na-areszt-dla-swieczkowskiego-ko,nId,23575740"
+    },
+    {
+     "nazwa": "Notes from Poland",
+     "tytuł": "Disputed Polish constitutional court announces chief justice stripped of immunity to face charges",
+     "url": "https://notesfrompoland.com/2026/11/18/polish-constitutional-court-strips-chief-justice-of-immunity-to-face-criminal-charges/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.429,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.135,
+     "eksponowanie": 0.54,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.504,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Pałac reaguje po decyzji w sprawie Święczkowskiego. \"Bez żadnych podstaw\"",
+   "lead": "Nie ma decyzji Zgromadzenia Ogólnego, ponieważ Zgromadzenie Ogólne nigdy się nie zebrało - stwierdził szef kancelarii prezydenta Zbigniew Bogucki. W ten sposób odniósł się do decyzji o pozbawieniu immunitetu prezesa TK Bogdana Święczkowskiego.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-18T19:01:39+00:00",
+   "źródło": {
+    "nazwa": "Interia Fakty",
+    "url": "https://wydarzenia.interia.pl/kraj/news-palac-reaguje-po-decyzji-w-sprawie-swieczkowskiego-bez-zadny,nId,23575712",
+    "domena": "wydarzenia.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NJNFUKX070GC9-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Przedstawiciel prezydenta ocenił, że decyzja ta jest \"fatalna, w kontrze do konstytucji\".",
+      "Zgromadzenie Ogólne musi stanowić 2/3 sędziów TK, a konstytucja przesądza, że sędziów TK jest 15.",
+      "Tam się zbiera osiem osób, z których trzech jest sędziami TK, a reszta jest sędziami elektami, a więc nie mają prawa orzekania - dodał.",
+      "Samą decyzję o odebraniu Święczkowskiemu immunitetu określił mianem \"fatalnej\". - Po pierwsze ona jest bez żadnych podstaw prawnych, jest w kontrze do prawa, do konstytucji, do logiki prawnej i elementarnej etyki, moralności - stwierdził .",
+      "Bogucki ocenił, że są środowiska, które sytuację wokół TK \"wolą podpalać\", niż szukać rozwiązania.",
+      "Jednocześnie zaznaczył, że środowiska biorące udział w spotkaniach w kancelarii prezydenta chcą \"wygaszać\" emocje.",
+      "Bogucki podsumował również spotkanie, które chwilę wcześniej zakończyło się w kancelarii prezydenta, i które dotyczyło rozwiązania sporu wokół Trybunału Konstytucyjnego. - T o było bardzo dobre, bardzo merytoryczne i rzeczowe spotkanie - powiedział. - W około 70 proc. rozwiązań jesteśmy zgodni.",
+      "To bardzo ważna informacja.",
+      "Zdecydowana większość rozwiązań została już przyjęta i zaaprobowana."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Bogdan Roman Święczkowski – polski prawnik, prokurator. Od 2022 sędzia Trybunału Konstytucyjnego, którego od 9 grudnia 2024 jest prezesem."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Bogdan Święczkowski",
+     "url": "https://pl.wikipedia.org/wiki/Bogdan_%C5%9Awi%C4%99czkowski"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "15. 2",
+    "10",
+    "70 proc.",
+    "18",
+    "17"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Fakty",
+     "ujęcie": "Nikt nie stoi ponad prawem - stwierdził minister sprawiedliwości Waldemar Żurek.",
+     "url": "https://wydarzenia.interia.pl/kraj/news-poruszenie-po-decyzji-w-sprawie-tk-i-bogdana-swieczkowskiego,nId,23575700"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Bogdan Święczkowski",
+    "opis": "polski prawnik i prokurator",
+    "tekst": "Bogdan Roman Święczkowski – polski prawnik, prokurator. Od 2022 sędzia Trybunału Konstytucyjnego, którego od 9 grudnia 2024 jest prezesem.",
+    "url": "https://pl.wikipedia.org/wiki/Bogdan_%C5%9Awi%C4%99czkowski",
+    "język": "pl"
+   },
+   "tagi": [
+    "Trybunału Konstytucyjnego",
+    "Zgromadzenia Ogólnego",
+    "Zgromadzenie Ogólne",
+    "Zbigniew Bogucki"
+   ],
+   "emotki": [
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Pałac reaguje po decyzji w sprawie Święczkowskiego. \"Bez żadnych podstaw\"",
+     "url": "https://wydarzenia.interia.pl/kraj/news-palac-reaguje-po-decyzji-w-sprawie-swieczkowskiego-bez-zadny,nId,23575712"
+    },
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Poruszenie po decyzji w sprawie TK i Bogdana Święczkowskiego. \"Bójcie się\"",
+     "url": "https://wydarzenia.interia.pl/kraj/news-poruszenie-po-decyzji-w-sprawie-tk-i-bogdana-swieczkowskiego,nId,23575700"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.325,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.15,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.475,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "„Jest moim przyjacielem”. Donald Trump spotkał się z Władimirem Putinem",
+   "lead": "W czwartek rano, około godz. 5:20 czasu polskiego, na marginesie szczytu Wspólnoty Gospodarczej Azji i Pacyfiku (APEC) w chińskim Shenzhen doszło do spotkania prezydentów Stanów Zjednoczonych i Rosji.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-19T04:54:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-jest-moim-przyjacielem-donald-trump-spotkal-sie-z-wladimirem,nIdn,1026727",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/17/38/w-shenzhen-doszlo-do-spotkania-donalda-trumpa-i-wladimira-putina-fot-636x421-1738d58f.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Podczas krótkiego przywitania przywódców Donald Trump, wchodząc do sali i wskazując na Władimira Putina, powiedział: „Kim on jest?",
+      "Jest moim przyjacielem” .",
+      "Z radością zapatruje się na nasze spotkanie.",
+      "Od lat utrzymujemy świetne relacje.",
+      "Znamy się od dawna i myślę, że może z tego wyniknąć wiele wspaniałych rzeczy, a przynajmniej coś się zacznie - powiedział Amerykanin.",
+      "Prezydent Rosji odpowiedział kilkoma słowami, lecz nie były one wyraźnie słyszalne.",
+      "W skład rosyjskiej delegacji na spotkanie z USA weszli: minister spraw zagranicznych Siergiej Ławrow, minister finansów Anton Siłuanow, doradca prezydenta Jurij Uszakow i specjalny przedstawiciel głowy państwa Kiriłł Dmitrijew.",
+      "Stany Zjednoczone reprezentowali również sekretarz stanu Marco Rubio i sekretarz skarbu Scott Bessent.",
+      "Później jednak Jurij Uszakow poinformował, że rozmowę przywódców zdominował temat wojny w Ukrainie."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "20",
+    "30",
+    "60",
+    "10.2",
+    "33",
+    "40"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "USA",
+    "Chin Xi Jinpingiem",
+    "Jurij Uszakow",
+    "Shenzhen"
+   ],
+   "emotki": [
+    "🏛️",
+    "🤝"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "„Jest moim przyjacielem”. Donald Trump spotkał się z Władimirem Putinem",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-jest-moim-przyjacielem-donald-trump-spotkal-sie-z-wladimirem,nIdn,1026727"
+    },
+    {
+     "nazwa": "BBC News",
+     "tytuł": "This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
+     "url": "https://www.bbc.co.uk/news/articles/cr9d75we51j1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Apec summit as it happened: Xi welcomes Trump on China visit as Putin claims Europe in ‘humiliating decline’",
+     "url": "https://www.theguardian.com/world/live/2026/nov/18/apec-summit-live-updates-xi-putin-trump-world-leaders-gather-in-china"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Pakistani man sentenced to 27 years in US prison over Trump murder plot",
+     "url": "https://www.theguardian.com/us-news/2026/nov/17/pakistani-man-jailed-trump-murder-plot"
+    },
+    {
+     "nazwa": "BBC Europe",
+     "tytuł": "Steve Rosenberg: Historic talks with Xi and Trump are a coup for Putin",
+     "url": "https://www.bbc.co.uk/news/articles/c9n70gd320mpo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Europe",
+     "tytuł": "BBC correspondents discuss historic Trump, Xi and Putin meeting",
+     "url": "https://www.bbc.co.uk/news/videos/cqp86k23d84ro?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Europe",
+     "tytuł": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
+     "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "Politico Europe",
+     "tytuł": "Die Koalition der Wartenden: Europa blickt nach Shenzhen",
+     "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/die-koalition-der-wartenden-europa-blickt-nach-shenzhen/"
+    },
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "APEC summit: What Trump, Xi and Putin want",
+     "url": "https://www.dw.com/en/apec-summit-what-trump-xi-and-putin-want/a-79970462?maca=en-rss-en-world-4025-rdf"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "Trump lands in China with key meetings with Xi and Putin on the agenda",
+     "url": "https://www.npr.org/2026/11/18/nx-s1-6045518/trump-china-xi-putin"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "Trump to meet with Russia's Putin and China's Xi for historic joint meeting",
+     "url": "https://www.npr.org/2026/11/18/nx-s1-6027645/trump-to-meet-with-russias-putin-and-chinas-xi-for-historic-joint-meeting"
+    }
+   ],
+   "liczba_źródeł": 6,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 15.797,
+    "składowe": {
+     "potwierdzenia": 9.5,
+     "ranga_źródła": 3.008,
+     "eksponowanie": 0.99,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.599,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Trump, Putin i Xi spotykają się w willi Kylin. To najbardziej luksusowe miejsce w Chinach",
+   "lead": "Kylin Villa znajduje się w dzielnicy Nanshan, w północno-zachodniej części Shenzhen, u podnóża góry Qilin. Kompleks zajmuje 38 hektarów.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-18T12:09:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-trump-putin-i-xi-spotykaja-sie-w-willi-kylin-to-najbardziej-,nIdn,1026645",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/11/ee/donald-trump-xi-jinping-i-wladimir-putin-podczas-powitania-18-listopada-fot-636x421-11ee0bc2.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Położony jest nad jeziorem Tian'e, znanym również jako Swan Lake (Jezioro Łabędzie), około pół godziny jazdy samochodem od międzynarodowego lotniska Shenzhen Bao'an.",
+      "To nie jest zwykły hotel, a rozległy kompleks złożony z kilku budynków.",
+      "Znajdują się tam wille w europejskim stylu, osobne budynki dla najważniejszych gości, ogrody, sale konferencyjne i bankietowe.",
+      "W pobliżu są także pole golfowe Xili i park safari w Shenzhen.",
+      "Obiekt został otwarty w 1997 roku i od lat służy jako miejsce przyjmowania chińskich przywódców oraz ważnych zagranicznych gości odwiedzających Shenzhen.",
+      "Wybór tego typu miejsca zamiast oficjalnego centrum konferencyjnego nie jest bez znaczenia politycznego.",
+      "Pekinowi zależy zapewne na tym, aby rozmowy Xi Jinpinga, Donalda Trumpa i Władimira Putina nie przyćmiły pozostałych wydarzeń.",
+      "Rozległy, odizolowany teren jest też stosunkowo łatwy do zabezpieczenia, a bliskość lotniska pozwala na szybki wyjazd po zakończeniu rozmów.",
+      "Jeśli rozmowy nie przyniosą konkretnych efektów, łatwiej będzie wyjaśnić, że miały jedynie roboczy charakter, a nie były wielkim szczytem z przełomowymi ambicjami."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Kylin OS – system operacyjny, opracowany przez naukowców w Narodowym Uniwersytecie Technologii Obronnych w Chińskiej Republice Ludowej. Pierwsze wersje były oparte na FreeBSD i są przeznaczone do stosowania przez chińskich wojskowych i innych organizacji rządowych. Od wersji 3.0 Kylin został oparty na systemie GNU/Linux."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Kylin",
+     "url": "https://pl.wikipedia.org/wiki/Kylin"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "38",
+    "401",
+    "20",
+    "480",
+    "600",
+    "1600"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Kylin",
+    "opis": "system operacyjny",
+    "tekst": "Kylin OS – system operacyjny, opracowany przez naukowców w Narodowym Uniwersytecie Technologii Obronnych w Chińskiej Republice Ludowej. Pierwsze wersje były oparte na FreeBSD i są przeznaczone do stosowania przez chińskich wojskowych i innych organizacji rządowych. Od wersji 3.0 Kylin został oparty na systemie GNU/Linux.",
+    "url": "https://pl.wikipedia.org/wiki/Kylin",
+    "język": "pl"
+   },
+   "tagi": [
+    "Shenzhen",
+    "Xi Jinpinga Donalda Trumpa",
+    "Władimira Putina",
+    "Kylin Villa"
+   ],
+   "emotki": [
+    "🌊"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Trump, Putin i Xi spotykają się w willi Kylin. To najbardziej luksusowe miejsce w Chinach",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-trump-putin-i-xi-spotykaja-sie-w-willi-kylin-to-najbardziej-,nIdn,1026645"
+    },
+    {
+     "nazwa": "BBC Business",
+     "tytuł": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
+     "url": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "NPR",
+     "tytuł": "Former U.S. ambassador on Trump's joint summit with leaders of China and Russia",
+     "url": "https://www.npr.org/2026/11/18/nx-s1-6044067/former-u-s-ambassador-on-trumps-joint-summit-with-leaders-of-china-and-russia"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.671,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.458,
+     "eksponowanie": 0.27,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.389,
+     "treściwość": 0.204,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Angola – Polska. Mistrzostwa Świata AMP Futbol 2026, mecz 1/8 finału [SKRÓT]",
+   "lead": "Skrót spotkania 1/8 finału rozgrywanych w Meksyku mistrzostw świata w amp futbolu: Angola – Polska.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-18T23:05:00+00:00",
+   "źródło": {
+    "nazwa": "TVP Sport",
+    "url": "https://sport.tvp.pl/96551571/angola-polska-mistrzostwa-swiata-amp-futbol-2026-mecz-18-finalu-skrot",
+    "domena": "sport.tvp.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "XXIII Mistrzostwa Świata w Piłce Nożnej odbywały się w Kanadzie, Meksyku i Stanach Zjednoczonych w 2026. Był to pierwszy turniej o mistrzostwo świata zorganizowany wspólnie przez trzy państwa. Po raz pierwszy wzięło w nim również udział 48 reprezentacji narodowych."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Mistrzostwa Świata w Piłce Nożnej 2026",
+     "url": "https://pl.wikipedia.org/wiki/Mistrzostwa_%C5%9Awiata_w_Pi%C5%82ce_No%C5%BCnej_2026"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "Spotkanie 1/8 finału rozgrywanych w Meksyku mistrzostw świata w amp futbolu: Angola – Polska.",
+     "url": "https://sport.tvp.pl/96523429/angola-polska-mistrzostwa-swiata-amp-futbol-2026-mecz-18-finalu-transmisja-na-zywo-online-live-stream-18112026"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Mistrzostwa Świata w Piłce Nożnej 2026",
+    "opis": "23. turniej mistrzostw świata w piłce nożnej odbywający się w Kanadzie, Meksyku i Stanach Zjednoczonych",
+    "tekst": "XXIII Mistrzostwa Świata w Piłce Nożnej odbywały się w Kanadzie, Meksyku i Stanach Zjednoczonych w 2026. Był to pierwszy turniej o mistrzostwo świata zorganizowany wspólnie przez trzy państwa. Po raz pierwszy wzięło w nim również udział 48 reprezentacji narodowych.",
+    "url": "https://pl.wikipedia.org/wiki/Mistrzostwa_%C5%9Awiata_w_Pi%C5%82ce_No%C5%BCnej_2026",
+    "język": "pl"
+   },
+   "tagi": [
+    "Angola Polska",
+    "Meksyku",
+    "Świata",
+    "Futbol"
+   ],
+   "emotki": [
+    "⚽",
+    "🏅"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Angola – Polska. Mistrzostwa Świata AMP Futbol 2026, mecz 1/8 finału [SKRÓT]",
+     "url": "https://sport.tvp.pl/96551571/angola-polska-mistrzostwa-swiata-amp-futbol-2026-mecz-18-finalu-skrot"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Angola – Polska. Mistrzostwa Świata AMP Futbol 2026, mecz 1/8 finału [MECZ]",
+     "url": "https://sport.tvp.pl/96523429/angola-polska-mistrzostwa-swiata-amp-futbol-2026-mecz-18-finalu-transmisja-na-zywo-online-live-stream-18112026"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Chelsea – Paris SG. Liga Mistrzyń, 5. kolejka [SKRÓT]",
+     "url": "https://sport.tvp.pl/96549639/chelsea-paris-sg-liga-mistrzyn-5-kolejka-skrot"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Chelsea – Paris SG. Liga Mistrzyń, 5. kolejka [MECZ]",
+     "url": "https://sport.tvp.pl/96422886/chelsea-paris-sg-liga-mistrzyn-5-kolejka-transmisja-na-zywo-online-live-stream-18112026"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "MŚ w ampfutbolu: Polacy przegrali z Angolą w 1/8 finału",
+     "url": "https://sport.tvp.pl/96551497/ms-w-ampfutbolu-polacy-przegrali-z-angola-w-18-finalu"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.8,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.6,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.526,
+     "treściwość": 0.124,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "2:0 dla Polaka w ME, trzecią rundę wygrał 5:0. A Niemiec i tak awansował",
+   "lead": "Młodzieżowe mistrzostwa Europy w boksie, do lat 23, zaczęły się w chorwackim Poreču w poniedziałek - potrwają do 25 listopada. Patrząc na ich rangę, to druga co do ważności impreza w kalendarzu, po wrześniowych seniorskich w Sofii.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-18T20:03:35+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/boks/news-2-0-dla-polaka-w-me-trzecia-runde-wygral-5-0-a-niemiec-i-tak,nId,23575733",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NJNNH0XR1VC29-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Polska drużyna nie poleciała może w najmocniejszym składzie, jest kilka braków, choćby Kingi Krówki.",
+      "Debiutuje za to w mistrzowskich zawodach na seniorskich zasadach Fabian Urbański - największa chyba nadzieja męskiego pięściarstwa na najbliższe lata.",
+      "Pierwszą walkę już wygrał, w czwartek powalczy o ćwierćfinał.",
+      "W środę o ten etap rywalizowało zaś trzech innych pięściarzy z kadry Tomasza Dylaka.",
+      "Najpierw niesmakiem zakończyła się walka Jakuba Pałki w kategorii 60 kg - z Alenem Rustemowskim z Macedonii Północnej.",
+      "Zawodnik z Mielca przegrywał po dwóch rundach 0:2, na trzech kartach był remis.",
+      "Wciąż miał więc szansę na awans.",
+      "W trzecim starciu został jednak trafiony, sędzia ringowy zaczął liczenie.",
+      "Widać było, że Polak od razu był gotowy do wznowienia rywalizacji, skakał, chciał się odegrać."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "23",
+    "25",
+    "60 kg",
+    "20",
+    "10",
+    "18"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Polaka",
+    "Niemiec",
+    "Nwanya",
+    "Polak"
+   ],
+   "emotki": [
+    "🥊",
+    "🏅"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "2:0 dla Polaka w ME, trzecią rundę wygrał 5:0. A Niemiec i tak awansował",
+     "url": "https://sport.interia.pl/boks/news-2-0-dla-polaka-w-me-trzecia-runde-wygral-5-0-a-niemiec-i-tak,nId,23575733"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.588,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.488,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Głośne rozstanie z Barceloną. Flick czeka na pożegnanie. Decyzja już zapadła",
+   "lead": "W ostatnich meczach Hansi Flick musiał dość solidnie przemeblować formację obronną. Wszystko ze względu na liczne kontuzje i absencje poszczególnych zawodników.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-18T19:15:57+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-nagle-rozstanie-z-barcelona-flick-czeka-na-pozegnanie-niemie,nId,23575708",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NJNCDM8D7UQ7O-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Na problemy zdrowotne narzekali m.in.",
+      "Jules Kounde, Xavi Espart, czy Andreas Christensen .",
+      "Sytuacja kadrowa była na tyle słaba, że swoją szansę dostał nawet Alejandro Balde .",
+      "Hiszpański obrońca przez większą część sezonu nie ruszał się z ławki rezerwowych.",
+      "W ostatnich tygodniach zagrał łącznie ponad sto minut, ale ani razu nie pojawił się w wyjściowym składzie.",
+      "To kolejny dowód na to, że Balde dość zdecydowanie spadł w hierarchii obrońców i Flick nie widzi miejsca dla Hiszpana w składzie.",
+      "Nie jest to jednak niczym nowym, bo już latem mówiło się o możliwym odejściu Balde z FC Barcelona .",
+      "Wówczas nie udało się znaleźć nowego pracodawcy dla defensora.",
+      "Sam zawodnik deklarował, że chce zostać w Barcelonie i powalczyć o uznanie trenera."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Hans-Dieter „Hansi” Flick – niemiecki piłkarz, który występował na pozycji pomocnika oraz trener piłkarski. Obecnie pełni funkcję trenera hiszpańskiego klubu FC Barcelona."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Hansi Flick",
+     "url": "https://pl.wikipedia.org/wiki/Hansi_Flick"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Hansi Flick",
+    "opis": "niemiecki piłkarz i trener piłkarski",
+    "tekst": "Hans-Dieter „Hansi” Flick – niemiecki piłkarz, który występował na pozycji pomocnika oraz trener piłkarski. Obecnie pełni funkcję trenera hiszpańskiego klubu FC Barcelona.",
+    "url": "https://pl.wikipedia.org/wiki/Hansi_Flick",
+    "język": "pl"
+   },
+   "tagi": [
+    "Balde",
+    "Barcelonie",
+    "Flick",
+    "Andreas Christensen"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Głośne rozstanie z Barceloną. Flick czeka na pożegnanie. Decyzja już zapadła",
+     "url": "https://sport.interia.pl/pilka-nozna/la-liga/news-nagle-rozstanie-z-barcelona-flick-czeka-na-pozegnanie-niemie,nId,23575708"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Man Utd pursuing Como's Paz - Thursday's gossip",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cxnv4q2qnvjvo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.357,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.25,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.52,
+     "treściwość": 0.487,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Sześć błędów sędziowskich w miniony weekend Premier League – rekordowa liczba",
+   "lead": "Komisja ds. Kluczowych Zdarzeń Meczowych Premier League orzekła, że w ostatniej kolejce meczów doszło do sześciu błędów na boisku – to najwyższa liczba w ciągu jednego weekendu.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-18T12:38:38+00:00",
+   "źródło": {
+    "nazwa": "BBC Football",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c69q8jy924y4o?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d44c/live/1634e590-e345-11f1-99aa-0f40b013ad11.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Analizujemy, w jaki sposób wszystkie 20 drużyn podchodzi do zagrania polegającego na dublowaniu się.",
+      "Wystarczy zapytać obrońcę prawego skrzydła, Bena White'a, który – wraz z Riccardo Calafiorim po lewej stronie – odegrał ważną rolę w znakomitym starcie Arsenalu w sezonie.",
+      "Aby grać u niego na pozycji obrońcy bocznego, trzeba być środkowym pomocnikiem, środkowym obrońcą, skrzydłowym i „dziesiątką”. White i Calafiori przyczynili się już do zdobycia sześciu goli dla Arsenalu w Premier League w tym sezonie (White: trzy asysty; Calafiori: jeden gol, dwie asysty).",
+      "Najbardziej oczywistym wnioskiem jest to, że obrońcy Arsenalu mają najwyższą średnią pozycję kontaktu z piłką spośród wszystkich drużyn Premier League w tym sezonie, wynoszącą 58,2 metra od własnej bramki.",
+      "White średnio 3,4 razy na 90 minut dotyka piłki w polu karnym przeciwnika, co jest najwyższym wynikiem wśród wszystkich obrońców bocznych i skrzydłowych w lidze.",
+      "Zajmuje pierwsze miejsce wśród obrońców Premier League pod względem liczby biegów pod linią, zarówno ogółem (23), jak i na 90 minut (2,9), a także czwarte miejsce pod względem liczby biegów nad linią na 90 minut (1,8).",
+      "Oglądaj mecz Newcastle – Arsenal na żywo w Sky Sports w sobotę; pierwszy gwizdek o 17:30. Dziennikarz zajmujący się felietonami piłkarskimi @nicholaspwright Witamy w The Radar, felietonie Sky Sports, w którym Nick Wright, łącząc dane i opinie, rzuca światło na najważniejsze wydarzenia w Premier League."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Premier League to profesjonalna liga piłkarska w Anglii i najwyższy szczebel w angielskim systemie ligowym. W rozgrywkach uczestniczy 20 klubów, a liga działa w systemie awansów i spadków z English Football League (EFL). Sezony trwają zazwyczaj od sierpnia do maja, a każda drużyna rozgrywa 38 meczów: po dwa z każdą drużyną – jeden u siebie i jeden na wyjeździe. Większość meczów odbywa się w sobotnie lub niedzielne popołudnia, a sporadycznie również w dni powszednie wieczorem."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Premier League",
+     "url": "https://en.wikipedia.org/wiki/Premier_League"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "20",
+    "10",
+    "58.2",
+    "3.4",
+    "90",
+    "2.9"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Premier League",
+    "opis": "English association football league",
+    "tekst": "The Premier League is a professional association football league in England and the highest level of the English football league system. Contested by 20 clubs, it operates on a system of promotion and relegation with the English Football League (EFL). Seasons usually run from August to May, with each team playing 38 matches: two against each other team, one home and one away. Most games are played on weekend afternoons, with occasional weekday evening fixtures.",
+    "url": "https://en.wikipedia.org/wiki/Premier_League",
+    "język": "en"
+   },
+   "tagi": [
+    "Premier League's Key Match Incidents Panel",
+    "Premier League"
+   ],
+   "emotki": [
+    "⚽",
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Joint-record six referee errors in last Premier League weekend",
+     "url": "https://www.bbc.co.uk/sport/football/articles/c69q8jy924y4o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Overlap, underlap or sit back? How Premier League teams use their full-backs",
+     "url": "https://www.theguardian.com/football/2026/nov/18/premier-league-teams-full-backs-opta-analyst"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "Why Raya is the Premier League's best goalkeeper",
+     "url": "https://www.skysports.com/football/news/12040/13613642/david-rayas-shot-stopping-cross-claiming-and-passing-make-him-premier-leagues-best-goalkeeper-the-radar"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.836,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.408,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.428,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Joint-record six referee errors in last Premier League weekend",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Były szef Nvidii kaja się po skandalu i chce wrócić. \"Przyznaję się do błędów\"",
+   "lead": "Huang, który zrezygnował z funkcji CEO w Nvidii w ubiegły czwartek, po niecałym tygodniu przerywa milczenie. Przedsiębiorca przyjął postawę pełną skruchy i twierdzi, że jest gotowy współpracować z zarządem w sprawie swoich powiązań z potencjalną chińską agentką.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-17T19:23:00+00:00",
+   "źródło": {
+    "nazwa": "Spider's Web",
+    "url": "https://spidersweb.pl/2026/11/jensen-huang-byly-dyrektor-nvidii-stanowisko-pierwsze.html",
+    "domena": "spidersweb.pl"
+   },
+   "obraz": "https://cdn-sw.spidersweb.pl/2026/11/jensen-huang-dyrektor-nvidia-chce-powrotu.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Stacja CNBC dotarła do pisemnego oświadczenia Jensena Huanga: Stworzyłem problemy dla zarządu, których głęboko żałuję.",
+      "W pełni przyznaję się do swoich błędów i jestem zdecydowany współpracować w ramach niezależnego dochodzenia zarządu.",
+      "Były szef przedsiębiorstwa twierdzi, że uzyskał wsparcie ze strony inwestorów oraz pracowników firmy Nvidia.",
+      "Jednocześnie jest gotów na powrót na stanowisko dyrektora generalnego, aby pomóc spółce w kwestiach \"skomplikowanej technologii, rynku, konkurencji i dynamiki geopolitycznej\".",
+      "Jeśli rada dyrektorów uzna, że mój powrót leży w najlepszym interesie naszych akcjonariuszy, pracowników, firmy i Ameryki, z przyjemnością odbiorę te telefony i wrócę jako dyrektor generalny - mówi Huang w oświadczeniu.",
+      "Jensen Huang podszedł do sprawy w wyjątkowo zachowawczy sposób.",
+      "Nie decydował się wcześniej na niepotrzebne publiczne wypowiedzi i zachował spokój mimo trudnej sytuacji - zmuszenia do ustąpienia ze stanowiska po 33 latach od założenia firmy w 1993 r.",
+      "W miniony poniedziałek Donald Trump wypowiedział się na temat Jensena Huanga.",
+      "Prezydent USA stwierdził, iż nie ma nic przeciwko i jest w pełni otwarty na pomysł powrotu Huanga na dotychczasowe stanowisko."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Jensen Huang bez owijania w bawełnę przyznaje, że nie sprostał standardom wymaganym od każdego pracownika NVIDII i popełnił poważne błędy w życiu osobistym, ale mimo tego chce wrócić na stanowisko.",
+      "Wyraził przy tym głęboki żal z powodu problemów, jakie przysporzył radzie dyrektorów, biorąc na siebie pełną odpowiedzialność za zaistniałą sytuację i deklarując ścisłą współpracę w ramach prowadzonego przez radę niezależnego dochodzenia.",
+      "Jednocześnie przypomniał o swojej 53-letniej historii w Stanach Zjednoczonych oraz o tym, że zbudowanie NVIDII było dziełem jego życia.",
+      "Były CEO podkreślił, że od momentu odejścia otrzymuje falę wsparcia od pracowników, inwestorów, partnerów biznesowych oraz klientów, którzy domagają się jego powrotu na stanowisko.",
+      "Huang zadeklarował wprost, że jeśli rada dyrektorów uzna jego powrót za leżący w najlepszym interesie akcjonariuszy, pracowników, samej spółki oraz Stanów Zjednoczonych, zaszczytem będzie dla niego odpowiedzieć na te wezwania i ponownie objąć funkcję dyrektora generalnego."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "33 lat",
+    "180 tys.",
+    "53",
+    "22",
+    "00",
+    "109 miliardów"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Nvidii",
+    "Jensena Huanga",
+    "Huang",
+    "USA"
+   ],
+   "emotki": [
+    "🎮"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Spider's Web",
+     "tytuł": "Były szef Nvidii kaja się po skandalu i chce wrócić. \"Przyznaję się do błędów\"",
+     "url": "https://spidersweb.pl/2026/11/jensen-huang-byly-dyrektor-nvidii-stanowisko-pierwsze.html"
+    },
+    {
+     "nazwa": "Antyweb",
+     "tytuł": "Jensen Huang jest gotowy wrócić. Tylko czy NVIDIA tego chce?",
+     "url": "https://antyweb.pl/jensen-huang-jest-gotowy-wrocic-tylko-czy-nvidia-tego-chce"
+    },
+    {
+     "nazwa": "TechCrunch",
+     "tytuł": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
+     "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/"
+    },
+    {
+     "nazwa": "TechCrunch",
+     "tytuł": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
+     "url": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/"
+    },
+    {
+     "nazwa": "TechCrunch",
+     "tytuł": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
+     "url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.291,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.585,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.53,
+     "treściwość": 0.246,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Preordery na GTA VI schodzą jak świeże bułeczki. Pękło 1,5 mld USD",
+   "lead": "Na dwa dni przed oficjalnym debiutem Grand Theft Auto VI, zaplanowanym na 19 listopada 2026 roku, najnowsza produkcja Rockstar Games udowadnia, że wieloletnie oczekiwanie graczy przekłada się na ogromny sukces sprzedażowy. Według najnowszych szacunków firmy analitycznej Sensor Tower, tytuł sprzedał się już w liczbie…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-17T18:30:40+00:00",
+   "źródło": {
+    "nazwa": "Antyweb",
+    "url": "https://antyweb.pl/preordery-na-gta-vi-schodza-jak-swieze-buleczki-peklo-15-mld-usd",
+    "domena": "antyweb.pl"
+   },
+   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2026/11/gta.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Wygenerowany w ten sposób przychód netto (po odliczeniu zwrotów) osiągnął zawrotny poziom 1,54 miliarda dolarów.",
+      "Zestawienie tych danych pokazuje wyraźną dominację jednej platformy.",
+      "Aż 75 procent wszystkich zamówień przedpremierowych przypada na konsolę Sony.",
+      "Posiadacze konsol Microsoftu odpowiadają za pozostałe 25 procent rynku.",
+      "Co istotne, są to wyłącznie szacunki dotyczące konsolowej przedsprzedaży.",
+      "Do dnia premiery wyniki te z pewnością jeszcze się poprawią.",
+      "Skala przedsprzedaży Grand Theft Auto VI staje się jeszcze bardziej imponująca, gdy zestawimy ją z dotychczasowymi liderami rynku.",
+      "Przez blisko sześć lat niekwestionowanym rekordzistą w kategorii zamówień przedpremierowych był rodzimy Cyberpunk 2077.",
+      "Produkcja studia CD Projekt RED przed swoim debiutem w grudniu 2020 roku zgromadziła ponad 8 milionów preorderów (łącznie w wersji cyfrowej i pudełkowej na wszystkich platformach, w tym PC), a w całym miesiącu premierowym sprzedała się w nakładzie około 10 milionów kopii."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Grand Theft Auto (GTA) is an action-adventure video game series created by the Scottish programmers David Jones and Mike Dailly at DMA Design, now known as Rockstar North. Later titles were developed under the oversight of brothers Dan and Sam Houser, Leslie Benzies and Aaron Garbut. It is primarily developed by Rockstar North and published by its American parent company, Rockstar Games. The name of the series is a term for motor vehicle theft in the United States."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Grand Theft Auto",
+     "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto"
+    }
+   ],
+   "dlaczego_to_ważne": "Czy oznacza to, że GTA VI automatycznie stanie się najlepiej sprzedającą się grą w historii?",
+   "liczby": [
+    "19",
+    "15,88 miliona",
+    "1,54 miliarda",
+    "75 procent",
+    "25 procent",
+    "8 milionów"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Grand Theft Auto",
+    "opis": "Video game series",
+    "tekst": "Grand Theft Auto (GTA) is an action-adventure video game series created by the Scottish programmers David Jones and Mike Dailly at DMA Design, now known as Rockstar North. Later titles were developed under the oversight of brothers Dan and Sam Houser, Leslie Benzies and Aaron Garbut. It is primarily developed by Rockstar North and published by its American parent company, Rockstar Games. The name of the series is a term for motor vehicle theft in the United States.",
+    "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto",
+    "język": "en"
+   },
+   "tagi": [
+    "Grand Theft Auto",
+    "Duty Modern Warfare",
+    "Rockstar Games",
+    "Sensor Tower"
+   ],
+   "emotki": [
+    "🎮"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Antyweb",
+     "tytuł": "Preordery na GTA VI schodzą jak świeże bułeczki. Pękło 1,5 mld USD",
+     "url": "https://antyweb.pl/preordery-na-gta-vi-schodza-jak-swieze-buleczki-peklo-15-mld-usd"
+    },
+    {
+     "nazwa": "Ars Technica",
+     "tytuł": "Grand Theft Auto VI: The Ars Technica review",
+     "url": "https://arstechnica.com/gaming/2026/11/grand-theft-auto-vi-the-ars-technica-review/"
+    },
+    {
+     "nazwa": "Phys.org Technology",
+     "tytuł": "'Grand Theft Auto VI' cops rave reviews after 13-year wait",
+     "url": "https://techxplore.com/news/2026-11-grand-theft-auto-vi-cops.html"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.62,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.55,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.492,
+     "treściwość": 0.278,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Atomy w synchronizacji: superradiacja oferuje nowy rodzaj grzebienia częstotliwości",
+   "lead": "Kimm Fesenmaier, California Institute of Technology Gdy naukowcy kierują wiązkę lasera na kryształ, zazwyczaj spodziewają się stałego świecenia, ponieważ atomy kryształu są pobudzane i zaczynają emitować światło. Jednak na początku 2024 roku, poszukując czegoś zupełnie innego, naukowcy z laboratorium Andreia Faraona z Caltech…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-19T00:00:04+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-11-atoms-sync-superradiance-kind-frequency.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-laser-shines-on-a-de.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Połączone z niewielkim obwodem nadprzewodzącym atomy zsynchronizowały się i zaczęły wspólnie emitować światło dzięki szczególnemu zjawisku kwantowemu określanemu jako superradiacja.",
+      "A kiedy naukowcy przyjrzeli się bliżej, odkryli coś jeszcze bardziej zaskakującego.",
+      "„Co ciekawe, atomy migotały jednocześnie w dwóch bardzo różnych rodzajach światła – mikrofalowym i podczerwonym – w idealnej synchronizacji ze sobą.",
+      "Tego wcześniej nie zaobserwowano” – mówi Faraon (BS '04), William L. z Caltechu.",
+      "Profesor fizyki stosowanej i inżynierii elektrycznej oraz dyrektor Instytutu Nanonauki Kavli z ramienia Fundacji Fletchera Jonesa.",
+      "Obecnie, współpracując z naukowcami z Uniwersytetu Stanforda pod kierunkiem Joonhee Choia, zespół Faraona odkrył, co powoduje to zsynchronizowane migotanie.",
+      "Wykorzystali ten mechanizm do stworzenia nowego typu specjalistycznego lasera, zwanego superradiacyjnym grzebieniem częstotliwości, który może być bardziej stabilny niż inne lasery.",
+      "W przeciwieństwie do konwencjonalnych laserów, które emitują światło o jednym kolorze, grzebienie częstotliwości działają jak linijka dla światła w zakresie różnych częstotliwości, czyli kolorów. Odstępy między sąsiadującymi kolorami są dokładnie takie same, jak zęby grzebienia.",
+      "Odkryty grzebień częstotliwości superradiacyjnych jednocześnie wytwarzałby mikrofale i światło optyczne, a tym samym mógłby umożliwić połączenia między urządzeniami kwantowymi."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "W fizyce superradiacja, rozpraszanie superradiacyjne lub superradiacja to zjawiska wzmocnienia promieniowania w różnych kontekstach, w tym w mechanice kwantowej, astrofizyce i teorii względności."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Superradiance",
+     "url": "https://en.wikipedia.org/wiki/Superradiance"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "04",
+    "25",
+    "50",
+    "100,000",
+    "460",
+    "273"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Superradiance",
+    "opis": "Various physical phenomena",
+    "tekst": "In physics, superradiance, superradiant scattering or superradiation, is the radiation enhancement effects in several contexts including quantum mechanics, astrophysics and relativity.",
+    "url": "https://en.wikipedia.org/wiki/Superradiance",
+    "język": "en"
+   },
+   "tagi": [
+    "Xie",
+    "Stanford University",
+    "Caltech",
+    "Faraon"
+   ],
+   "emotki": [
+    "🔬",
+    "⚛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Atoms in sync: Superradiance offers a new kind of frequency comb",
+     "url": "https://phys.org/news/2026-11-atoms-sync-superradiance-kind-frequency.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.828,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.54,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.538,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Atoms in sync: Superradiance offers a new kind of frequency comb",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Skalowalny fotoniczny komputer kwantowy dostarcza nowych spostrzeżeń na temat podstaw, które kształtują jego wydajność",
+   "lead": "Komputery kwantowe oparte na fotonice otwierają nowe możliwości badania wysoce złożonych problemów matematycznych i mogą zrewolucjonizować różne dziedziny, od badań nad energią i chemią po bezpieczną komunikację. Wykorzystując niezwykłe właściwości cząstek światła, mogą one wykonywać obliczenia…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-18T22:10:12+00:00",
+   "źródło": {
+    "nazwa": "Phys.org",
+    "url": "https://phys.org/news/2026-11-scalable-photonic-quantum-insights-fundamentals.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/photonic-quantum-compu.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Naukowcy z Uniwersytetu w Paderborn badają obecnie fundamentalne pytanie przy użyciu pierwszego w Niemczech skalowalnego fotonicznego komputera kwantowego, „próbkowacza bozonów Gaussa”: jakie zasoby kwantowe są najważniejsze dla wydajności tych urządzeń?",
+      "Zespół badawczy z Instytutu Fotonowych Systemów Kwantowych (PhoQS) i Wydziału Fizyki Uniwersytetu w Paderborn, kierowany przez dr.",
+      "Christine Silberhorn, opublikowała nowe odkrycia – uzyskane przy użyciu „Paderborn Quantum Sampler (PaQS)” – w czasopiśmie PRX Quantum.",
+      "To nowe badanie wykracza poza zwykłą demonstrację systemu kwantowego na dużą skalę.",
+      "Badacze analizują, w jaki sposób poszczególne zasoby kwantowe przyczyniają się do zwiększenia możliwości tzw. próbkowacza bozonów gaussowskich – rodzaju fotonicznego komputera kwantowego zaprojektowanego do przetwarzania i próbkowania złożonych wzorców światła.",
+      "Łącząc wiedzę specjalistyczną w dziedzinie fotoniki zintegrowanej zgromadzoną w Paderborn z wnioskami z informatyki i teoretycznej optyki kwantowej, naukowcy opracowali elastycznie programowalny fotoniczny komputer kwantowy oparty na skalowalnych komponentach, a także nowe metody oceny roli różnych zasobów kwantowych w jego wydajności.",
+      "Tim Bartley ściśle współpracowali w ramach ogólnoniemieckiej współpracy badawczej.",
+      "Prace obejmowały nie tylko opracowanie i integrację specjalistycznego sprzętu, ale także nowe metody analizy danych oraz ramy teoretyczne interpretacji wyników pomiarów.",
+      "„Wyniki podkreślają, że budowa użytecznych komputerów kwantowych to znacznie więcej niż po prostu skalowanie systemu."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Carl Friedrich Gauss (1777–1855) jest patronem wszystkich wymienionych poniżej zagadnień. Istnieje ponad 100 terminów nazwanych imieniem tego niemieckiego matematyka i naukowca, wszystkie z dziedziny matematyki, fizyki i astronomii. Angielski przymiotnik utworzony od jego nazwiska, Gaussian, wymawia się ."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: List of things named after Carl Friedrich Gauss",
+     "url": "https://en.wikipedia.org/wiki/List_of_things_named_after_Carl_Friedrich_Gauss"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10.1103"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "List of things named after Carl Friedrich Gauss",
+    "opis": "",
+    "tekst": "Carl Friedrich Gauss (1777–1855) is the eponym of all of the topics listed below. There are over 100 topics all named after this German mathematician and scientist, all in the fields of mathematics, physics, and astronomy. The English eponymous adjective Gaussian is pronounced.",
+    "url": "https://en.wikipedia.org/wiki/List_of_things_named_after_Carl_Friedrich_Gauss",
+    "język": "en"
+   },
+   "tagi": [
+    "Gaussian",
+    "Paderborn University",
+    "Paderborn",
+    "Stefszky"
+   ],
+   "emotki": [
+    "⚛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org",
+     "tytuł": "Scalable photonic quantum computer provides new insights into the fundamentals that shape its performance",
+     "url": "https://phys.org/news/2026-11-scalable-photonic-quantum-insights-fundamentals.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.715,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.45,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.515,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Scalable photonic quantum computer provides new insights into the fundamentals that shape its performance",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Dziwne sygnały radiowe z kosmosu mogą pochodzić z martwej gwiazdy",
+   "lead": "Nocne niebo to równie dobre miejsce na tajemnicę jak każde inne. W 2002 roku astronom Scott Hyman wraz ze współpracownikami wykrył pięć tajemniczych rozbłysków fal radiowych pochodzących z okolicy centrum naszej galaktyki, występujących w odstępach około 77 minut.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-18T18:24:12+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Astronomy",
+    "url": "https://phys.org/news/2026-11-strange-radio-space-dead-star.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/strange-radio-signals.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Sygnały te zostały ponownie wykryte w latach 2003 i 2004, ale potem zniknęły.",
+      "Pomimo wielu lat poszukiwań nie było żadnego znaku ich powrotu.",
+      "Jednak podczas analizowania obserwacji teleskopowych z 2022 roku Hyman i jego współpracownicy odkryli inne ciekawe źródło fal radiowych.",
+      "Tym razem jednak te sygnały były nieco inne.",
+      "Ich niezwykłe właściwości dostarczyły kilku wskazówek co do tego, co mogło je wytworzyć.",
+      "Te tajemnicze źródła fal radiowych mają w rzeczywistości nazwę.",
+      "Nazywa się je długookresowymi impulsami radiowymi i emitują one serie fal radiowych w odstępach czasu wynoszących od kilku minut do kilku godzin.",
+      "Naukowcy nie mają pewności, co dokładnie je powoduje, choć do możliwych źródeł należą gwiazdy neutronowe i białe karły – gęste pozostałości po martwych gwiazdach.",
+      "Zespół rozpoczął od przeanalizowania archiwalnych obserwacji z radioteleskopu MeerKAT w Południowej Afryce, wykonanych w maju 2022 roku w ramach badania pozostałości po supernowych."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "W takim razie spodoba Ci się również kalendarz księżycowy EarthSky na 2027 rok!",
+      "Naukowcy z Międzynarodowego Centrum Badań nad Radioastronomią (ICRAR) w Australii twierdzą, że niezwykły sygnał radiowy pochodzi z układu podwójnego gwiazd, w którym jedna gwiazda jest białym karłem, a druga gwiazdą podobną do Słońca.",
+      "Jest to pierwszy potwierdzony przypadek układu podwójnego emitującego regularne sygnały radiowe, który zawiera białego karła i gwiazdę podobną do Słońca.",
+      "Naukowcy opublikowali swoje zweryfikowane przez recenzentów wyniki w czasopiśmie Nature Astronomy 12 listopada 2026 roku."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "77",
+    "5631",
+    "15",
+    "62",
+    "114153",
+    "12, 2026"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Astrophysical Journal BSc Biology",
+    "Astrophysical Journal",
+    "South Africa",
+    "Scott Hyman"
+   ],
+   "emotki": [
+    "🌌",
+    "🔭",
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Astronomy",
+     "tytuł": "Strange radio signals from space could come from a dead star",
+     "url": "https://phys.org/news/2026-11-strange-radio-space-dead-star.html"
+    },
+    {
+     "nazwa": "EarthSky",
+     "tytuł": "Mysterious radio signals traced to rare binary star system",
+     "url": "https://earthsky.org/space/mysterious-radio-signals-rare-binary-star-system-white-dwarf-sun-like-star/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.861,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.343,
+     "eksponowanie": 0.99,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.468,
+     "treściwość": 0.46,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Strange radio signals from space could come from a dead star",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "18 listopada 1989 roku: wystrzelenie sondy Cosmic Background Explorer",
+   "lead": "Wszechświat przenika blask niewidoczny dla ludzkiego oka. Światło to jest pozostałością po początku wszechświata – gęstej, gorącej kuli ognia, która eksplodowała i stworzyła całą materię, energię i czas.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-18T14:00:00+00:00",
+   "źródło": {
+    "nazwa": "Astronomy Magazine",
+    "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/nov-18-1989-the-cosmic-background-explorer-launches/",
+    "domena": "astronomy.com"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Pierwotne kosmiczne mikrofalowe promieniowanie tła (CMB) przebyło od tego czasu około 13,8 miliarda lat przez rozszerzający się kosmos, docierając do nas. Czytaj dalej „1 listopada",
+      "18 listopada 1989 r.: wystrzelenie sondy Cosmic Background Explorer”. Post z dnia"
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Chociaż potężne teleskopy nadal prowadzą szczegółowe obserwacje pojedynczych obiektów i zawsze będą to robić, szerokie przeglądy mają swoją własną moc.",
+      "Na przykład misja Gaia Europejskiej Agencji Kosmicznej (ESA) zakończyła badanie miliardów gwiazd i wygenerowała ogromną ilość podstawowych danych, z których naukowcy będą korzystać przez dziesięciolecia.",
+      "Istnieją automatyczne przeglądy zjawisk przejściowych, takich jak supernowe i asteroidy, przeglądy nieba radiowego mające na celu wykrywanie obiektów zasłoniętych przez grubą warstwę pyłu, a także dopiero rozpoczynające się przeglądy na dużą skalę, takie jak Legacy Survey of Space and Time (LSST) Obserwatorium Very Rubin i trzy podstawowe przeglądy Teleskopu Kosmicznego Nancy Grace Roman.",
+      "Obserwatorium Simonsa (SO) składa się z czterech współpracujących ze sobą teleskopów: trzech małych teleskopów o średnicy apertury 0,5 metra w ramach Teleskopu o Małej Aperturze (SAT) oraz jednego dużego teleskopu o średnicy apertury 6 metrów w ramach Teleskopu o Dużej Aperturze (LAT)."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Cosmic Background Explorer, zwany także Explorer 66, był satelitą NASA przeznaczonym do badań kosmologicznych, który działał w latach 1989–1993. Jego celem było zbadanie kosmicznego mikrofalowego promieniowania tła Wszechświata i dostarczenie pomiarów, które pomogłyby pogłębić wiedzę o kosmosie."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Cosmic Background Explorer",
+     "url": "https://en.wikipedia.org/wiki/Cosmic_Background_Explorer"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "13.8 billion",
+    "18, 1989",
+    "0.5",
+    "380,000",
+    "10",
+    "3.0"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Cosmic Background Explorer",
+    "opis": "NASA satellite of the Explorer program",
+    "tekst": "The Cosmic Background Explorer, also referred to as Explorer 66, was a NASA satellite dedicated to cosmology, which operated from 1989 to 1993. Its goals were to investigate the cosmic microwave background radiation of the universe and provide measurements that would help shape the understanding of the cosmos.",
+    "url": "https://en.wikipedia.org/wiki/Cosmic_Background_Explorer",
+    "język": "en"
+   },
+   "tagi": [
+    "Cosmic Background Explorer",
+    "Nov",
+    "Astronomy Magazine",
+    "Continue"
+   ],
+   "emotki": [
+    "🚀"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Astronomy Magazine",
+     "tytuł": "Nov. 18, 1989: The Cosmic Background Explorer launches",
+     "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/nov-18-1989-the-cosmic-background-explorer-launches/"
+    },
+    {
+     "nazwa": "Universe Today",
+     "tytuł": "The Simons Observatory is Online and Surveying the Cosmic Microwave Background",
+     "url": "https://www.universetoday.com/articles/the-simons-observatory-is-online-and-surveying-the-cosmic-microwave-background"
+    },
+    {
+     "nazwa": "Universe Today",
+     "tytuł": "Searching for Elusive Signals in the Cosmic Microwave Background from the South Pole",
+     "url": "https://www.universetoday.com/articles/searching-for-elusive-signals-in-the-cosmic-microwave-background-from-the-south-pole"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.669,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.35,
+     "eksponowanie": 1.08,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.489,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Nov. 18, 1989: The Cosmic Background Explorer launches",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Zmiany klimatyczne mogą pogłębić nierówności dochodowe",
+   "lead": "Badanie opublikowane w czasopiśmie „Sustainable Development”, w którym przeanalizowano związek między zmianami klimatycznymi a nierównościami dochodowymi w 23 gospodarkach rynków wschodzących w latach 2002–2022, wykazało, że większa presja klimatyczna jest pozytywnie skorelowana z nierównościami dochodowymi w odniesieniu do trzech różnych wskaźników nierówności (współczynnik Giniego…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-18T08:10:07+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Earth",
+    "url": "https://phys.org/news/2026-11-climate-worsen-income-inequality.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/looking-for-job.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Zamiast polegać na jednym wskaźniku środowiskowym, naukowcy opracowali złożony wskaźnik presji klimatycznej łączący emisje gazów cieplarnianych na mieszkańca, narażenie na działanie drobnoziarnistego pyłu zawieszonego, zmienność temperatury i zmienność opadów.",
+      "Pozytywny związek między presją klimatyczną a nierównościami dochodowymi był konsekwentnie obserwowany we wszystkich wskaźnikach nierówności, choć jego skala była zróżnicowana.",
+      "Pozytywny związek między presją klimatyczną a nierównościami dochodowymi podkreśla znaczenie podejścia do polityki klimatycznej nie tylko z perspektywy zrównoważonego rozwoju środowiska, ale także w powiązaniu z aspektami sprawiedliwości społecznej i redystrybucji dochodów.",
+      "Również tworzenie nowych możliwości zatrudnienia w obszarach takich jak energia odnawialna, efektywność energetyczna i infrastruktura dostosowawcza do zmian klimatu, tak aby obejmowały one w szczególności pracowników o niskich kwalifikacjach, mogłoby przyczynić się do zrównoważenia skutków dystrybucyjnych polityki klimatycznej.",
+      "„Zmian klimatycznych nie należy postrzegać wyłącznie jako wyzwania środowiskowego; są one również ściśle związane z kwestią tego, w jaki sposób ryzyka i szanse gospodarcze są rozłożone w społeczeństwie” – powiedział autor korespondencyjny, dr Umut Üzar z Uniwersytetu Technicznego Karadeniz w Turcji.",
+      "„Nasze ustalenia podkreślają znaczenie umieszczenia kwestii nierówności dochodowych i sprawiedliwości społecznej w centrum polityki klimatycznej, zwłaszcza w gospodarkach wschodzących, w których grupy ludności znajdujące się w trudnej sytuacji mogą być narażone na nieproporcjonalne ryzyko”. Pominięty aspekt zmian klimatycznych: czy zmiany klimatyczne pogłębiają nierówności dochodowe?",
+      "DOI: 10.1002/sd.71880 Magister filologii angielskiej, redaktor językowy od 2021 r. z doświadczeniem w zakresie szkolnictwa wyższego i treści medycznych.",
+      "Poświęcony wiarygodnym wiadomościom naukowym.",
+      "Pełny profil → Magister fizyki z doświadczeniem w prowadzeniu badań."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "26 września 2026 roku ogromna masa skał i lodu oderwała się na wysokości około 5200 metrów w Himalajach.",
+      "W ciągu kilku minut zamieniła się w lawinę gruzu i wody, która runęła w kierunku granicy Nepalu z Tybetem z taką siłą, że sygnały sejsmiczne początkowo zostały błędnie zinterpretowane jako trzęsienie ziemi.",
+      "Międzynarodowe konferencje klimatyczne, takie jak szczyt klimatyczny COP31, który trwa obecnie drugi tydzień, zwykle koncentrują się na roli poszczególnych krajów.",
+      "Thomas Jones, geomikrobiolog i naukowiec na początku kariery w CSIRO, australijskiej krajowej agencji naukowej, wie, że pozory mylą.",
+      "Na grubości włosa zmieściłoby się ich 100”. To aktywność na skalę sięgającą od mikroskopijnej po planetarną."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "Autorzy zauważyli, że opracowanie ukierunkowanych programów ochrony socjalnej dla gospodarstw domowych o niskich dochodach, które w nieproporcjonalnym stopniu odczuwają skutki ekstremalnych zjawisk pogodowych, wstrząsów w produkcji rolnej i wahań cen energii, wraz z ukierunkowanym wsparciem dla regionów silnie narażonych na skutki zmian klimatu, mogłoby pomóc ograniczyć konsekwencje dystrybucyjne związane z utratą dochodów w związku ze zmianami klimatu.",
+   "liczby": [
+    "23",
+    "10.1002",
+    "26, 2026",
+    "5,200",
+    "17,100",
+    "100"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Climate Change Does Climate Change Deepen Income Inequality",
+    "Emerging Economies Sustainable Development",
+    "Karadeniz Technical University",
+    "Sustainable Development"
+   ],
+   "emotki": [
+    "🛒"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Earth",
+     "tytuł": "Climate change can worsen income inequality",
+     "url": "https://phys.org/news/2026-11-climate-worsen-income-inequality.html"
+    },
+    {
+     "nazwa": "Phys.org Earth",
+     "tytuł": "An atlas of vanished places: How climate change is rewriting the books on our shelves",
+     "url": "https://phys.org/news/2026-11-atlas-climate-rewriting-shelves.html"
+    },
+    {
+     "nazwa": "Phys.org Earth",
+     "tytuł": "Large companies can still fall short on their climate commitments. Here's what must change",
+     "url": "https://phys.org/news/2026-11-large-companies-fall-short-climate.html"
+    },
+    {
+     "nazwa": "Phys.org Earth Sciences",
+     "tytuł": "Small life, big job: Enlisting microbes to fight climate change",
+     "url": "https://phys.org/news/2026-11-small-life-big-job-microbes.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.812,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.652,
+     "eksponowanie": 0.27,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.34,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Climate change can worsen income inequality",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Nowe spojrzenie na to, gdzie zaczynają się rzeki",
+   "lead": "Siedem typów cieków źródłowych na obszarze kontynentalnej części Stanów Zjednoczonych różni się pod względem klimatu, ukształtowania terenu, gleb i szaty roślinnej. W siatce kolor niebieski oznacza wyższe wartości, a czerwony – niższe wartości każdej cechy w porównaniu z innymi klastrami.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-18T13:00:00+00:00",
+   "źródło": {
+    "nazwa": "Eos (AGU)",
+    "url": "https://eos.org/editor-highlights/rethinking-where-rivers-begin",
+    "domena": "eos.org"
+   },
+   "obraz": "https://eos.org/wp-content/uploads/2026/11/2026GL123244-1024x576.png",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Mapy przedstawiają regionalne wzorce utrzymywania się pokrywy śnieżnej, zawartości gliny, pokrycia lasami oraz potencjału przepływu wody w pobliżu powierzchni terenu dla wszystkich siedmiu klastrów cieków źródłowych."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Where Rivers Begin Seven",
+    "United States"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Eos (AGU)",
+     "tytuł": "Rethinking Where Rivers Begin",
+     "url": "https://eos.org/editor-highlights/rethinking-where-rivers-begin"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.78,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.4,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Rethinking Where Rivers Begin",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Kto zagra przeciwnika nowego Bonda? Mamy swoje typy",
+   "lead": "Wiemy już, że nowego agenta 007 w najnowszej odsłonie serii o Bondzie zagra Robert Pattinson , ale zanim rozpocznie się właściwa misja, do obsadzenia pozostaje jeszcze kilka kluczowych ról. Jedną z najważniejszych jest oczywiście główny przeciwnik Bonda – postać, która powinna dorównywać agentowi 007 nie",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-18T12:36:00+00:00",
+   "źródło": {
+    "nazwa": "Filmweb",
+    "url": "https://www.filmweb.pl/news/Kto+zagra+przeciwnika+nowego+Bonda+Mamy+swoje+typy-169717",
+    "domena": "filmweb.pl"
+   },
+   "obraz": "https://fwcdn.pl/nph/1032473/2026/79313_1.16.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "W nadchodzącym filmie o losach agenta 007 główną rolę zagra Robert Pattinson.",
+      "Tuż po ogłoszeniu, że Robert Pattinson zostanie siódmym agentem 007, w sieci wręcz zawrzało.",
+      "Nawet Daniel Craig był ostro oceniany przez fanów, gdy w 2005 roku producenci wybrali go do roli Jamesa Bonda.",
+      "Wyobrażenie postaci Bonda zostało ukształtowane przez poprzednich aktorów, którzy wcielili się w tę rolę, więc początkowo trudno jest pogodzić się z nowymi wyborami.",
+      "Po ogłoszeniu decyzji, że nowym agentem 007 został Robert Pattinson, 87-letni aktor powitał go słowami: \"Witaj w najbardziej ekskluzywnym klubie na świecie\".",
+      "Nowy film z serii o Agencie 007 będzie 26. odsłoną.",
+      "Rola agenta 007 przypadła tym razem Robertowi Pattinsonowi, który przejmie ją po Danielu Craigu, przez lata występującym w kolejnych odsłonach kultowej serii."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "007",
+    "26",
+    "40",
+    "17",
+    "87",
+    "100"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Film",
+     "ujęcie": "George Lazenby to najstarszy żyjący odtwórca roli Jamesa Bonda.",
+     "url": "https://film.interia.pl/wiadomosci/news-bond-do-nowego-bonda-witaj-w-najbardziej-ekskluzywnym-klubie,nId,23575095"
+    },
+    {
+     "źródło": "Interia Muzyka",
+     "ujęcie": "Rolę agenta 007 przejmie po Danielu Craigu , który w 2021 r. ostatni raz odegrał główną postać w legendarnej serii.",
+     "url": "https://muzyka.interia.pl/pop/news-caly-swiat-zyje-nowym-jamesem-bondem-kto-ma-szanse-nagrac-ut,nId,23575203"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Bonda",
+    "Robert Pattinson",
+    "Bondzie",
+    "Wiemy"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Filmweb",
+     "tytuł": "Kto zagra przeciwnika nowego Bonda? Mamy swoje typy",
+     "url": "https://www.filmweb.pl/news/Kto+zagra+przeciwnika+nowego+Bonda+Mamy+swoje+typy-169717"
+    },
+    {
+     "nazwa": "Interia Film",
+     "tytuł": "Lawina komentarzy po wyborze nowego Bonda. Internauci nie gryzą się w język",
+     "url": "https://film.interia.pl/wiadomosci/news-lawina-komentarzy-po-wyborze-nowego-bonda-internauci-nie-gry,nId,23575202"
+    },
+    {
+     "nazwa": "Interia Film",
+     "tytuł": "Bond do nowego Bonda: \"Witaj w najbardziej ekskluzywnym klubie na świecie\"",
+     "url": "https://film.interia.pl/wiadomosci/news-bond-do-nowego-bonda-witaj-w-najbardziej-ekskluzywnym-klubie,nId,23575095"
+    },
+    {
+     "nazwa": "Interia Film",
+     "tytuł": "Kiedy zobaczymy nowego Bonda w kinach? Są pierwsze informacje",
+     "url": "https://film.interia.pl/wiadomosci/news-kiedy-zobaczymy-nowego-bonda-w-kinach-sa-pierwsze-informacje,nId,23575240"
+    },
+    {
+     "nazwa": "Interia Muzyka",
+     "tytuł": "Po ogłoszeniu nowego Bonda spekulacje nie ustają. Kto nagra piosenkę?",
+     "url": "https://muzyka.interia.pl/pop/news-caly-swiat-zyje-nowym-jamesem-bondem-kto-ma-szanse-nagrac-ut,nId,23575203"
+    },
+    {
+     "nazwa": "BBC Kultura",
+     "tytuł": "Jeff Bezos says he was 'heavily involved' in casting Robert Pattinson as new Bond",
+     "url": "https://www.bbc.co.uk/news/articles/cm5y1eejk292o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Film",
+     "tytuł": "Bond role was ‘Josh O’Connor’s to lose’ but actor pulled out of the running, report suggests",
+     "url": "https://www.theguardian.com/film/2026/nov/18/james-bond-josh-oconnor-robert-pattinson-denis-villeneuve"
+    }
+   ],
+   "liczba_źródeł": 5,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 11.795,
+    "składowe": {
+     "potwierdzenia": 7.6,
+     "ranga_źródła": 2.1,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.395,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Na ten dzień czekały miliony. Te gwiazdy uzyskały angaż do głośnej premiery",
+   "lead": "Na tę światową premierę czekają gamerzy z całego świata - 19 listopada br. na rynek wychodzi wyczekiwana przez miliony gra Grand Theft Auto VI (GTA VI). Tworzona i wydawana przez Rockstar Games jest ósmą częścią głównej serii, następczynią Grand Theft Auto V z 2013 roku.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-19T04:55:00+00:00",
+   "źródło": {
+    "nazwa": "Interia Muzyka",
+    "url": "https://muzyka.interia.pl/pop/news-wielka-premiera-gry-gta-vi-ktore-gwiazdy-uslyszymy-w-grand-t,nId,23575444",
+    "domena": "muzyka.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NJK1F2CM4N13G-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jak przy okazji starszych części, w GTA VI rozgrywce będą towarzyszyć starannie wyselekcjonowane utwory.",
+      "Jakie gwiazdy w swoich głośnikach usłyszą gracze, którzy będą skupiać się na kolejnych misjach?",
+      "Niektóre nazwiska nie schodzą z list przebojów!",
+      "Nastał dzień, na który czekało wielu graczy.",
+      "Po latach oczekiwania na rynku ukazała się gra GTA VI - tym razem akcja gry rozgrywa się w fikcyjnym stanie Leonida, inspirowanym Florydą, i będzie śledzić losy przestępczyni Lucii Caminos oraz jej partnera, Jasona Duvala.",
+      "Gracz będzie mógł swobodnie przemierzać otwarty świat Leonidy, w tym wzorowane na Miami Vice City.",
+      "W mediach społecznościowych pojawiły się niedawno zdjęcia i nagrania przedstawiające wydanie winylowe płyty \" Grand Theft Auto VI: The Album \", ujawniając pełną listę 34 utworów rozmieszczonych na dwóch płytach.",
+      "Kto zaangażował się do nagrania soundtracku gry?",
+      "W skład zestawienia wchodzą artyści reprezentujący różne gatunki muzyczne, m.in."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Grand Theft Auto (GTA) is an action-adventure video game series created by the Scottish programmers David Jones and Mike Dailly at DMA Design, now known as Rockstar North. Later titles were developed under the oversight of brothers Dan and Sam Houser, Leslie Benzies and Aaron Garbut. It is primarily developed by Rockstar North and published by its American parent company, Rockstar Games. The name of the series is a term for motor vehicle theft in the United States."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Grand Theft Auto",
+     "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "19",
+    "34",
+    "14",
+    "30",
+    "70",
+    "18"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Grand Theft Auto",
+    "opis": "Video game series",
+    "tekst": "Grand Theft Auto (GTA) is an action-adventure video game series created by the Scottish programmers David Jones and Mike Dailly at DMA Design, now known as Rockstar North. Later titles were developed under the oversight of brothers Dan and Sam Houser, Leslie Benzies and Aaron Garbut. It is primarily developed by Rockstar North and published by its American parent company, Rockstar Games. The name of the series is a term for motor vehicle theft in the United States.",
+    "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto",
+    "język": "en"
+   },
+   "tagi": [
+    "Grand Theft Auto",
+    "Rockstar Games",
+    "Leonidy",
+    "Album"
+   ],
+   "emotki": [
+    "🎮",
+    "🎵",
+    "🛒"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Muzyka",
+     "tytuł": "Na ten dzień czekały miliony. Te gwiazdy uzyskały angaż do głośnej premiery",
+     "url": "https://muzyka.interia.pl/pop/news-wielka-premiera-gry-gta-vi-ktore-gwiazdy-uslyszymy-w-grand-t,nId,23575444"
+    },
+    {
+     "nazwa": "BBC Kultura",
+     "tytuł": "Grand Theft Auto 6 is a masterpiece, say critics",
+     "url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Culture",
+     "tytuł": "Grand Theft Auto VI review – gaming’s most depraved world is now also its greatest love story",
+     "url": "https://www.theguardian.com/games/2026/nov/18/grand-theft-auto-vi-gta-6-review-playstation-rockstar"
+    },
+    {
+     "nazwa": "The Guardian Culture",
+     "tytuł": "We made GTA 6, the world’s biggest video game – we should have working conditions to match | Nestor Uriarte",
+     "url": "https://www.theguardian.com/commentisfree/2026/nov/18/gta-6-grand-theft-auto-vi-rockstar-employees-union-recognition"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.019,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.65,
+     "eksponowanie": 0.27,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.599,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  }
+ ],
+ "braki": [],
+ "statystyki": {
+  "kanały_ok": 71,
+  "kanały_błędne": 0,
+  "znaki_tłumaczone": 12992,
+  "niedziałające_kanały": [],
+  "działy": 18,
+  "artykuły_w_oknie": 60
+ }
+}
