@@ -7,9 +7,11 @@ Pełny opis systemu i uzasadnienie każdej reguły: `README.md` obok.
 ## Gałęzie
 
 - **`claude/pan-piateczki-badminton-k02uyh`**: gałąź robocza tej aplikacji.
+  Po scaleniu z produkcyjną bywa usuwana: jeśli jej nie ma, utwórz ją od nowa
+  od `claude/przeglad-news-app-iqyboa`.
 - **`claude/przeglad-news-app-iqyboa`**: gałąź produkcyjna; dopiero po
   scaleniu tam GitHub Pages publikuje zmianę (workflow „Przegląd News -
-  wydanie poranne”, krok „Dołóż Turniej Pana Piąteczki do strony”).
+  wydanie poranne”, krok „Dołóż pozostałe aplikacje do strony”).
   **Nie pushuj tam bez wyraźnej zgody użytkownika.**
 - Monorepo, poza `piateczka/` siedzą tu inne, niepowiązane projekty
   (`web/`, `collector/`, `jaka-to-melodia/`...). Nie ruszaj ich, z jednym

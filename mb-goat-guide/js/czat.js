@@ -25,7 +25,7 @@ function kbSearch(q, limit=5){
 }
 const docOut = d => ({id:d.id, tytul:d.t, wersja:d.v, zrodla:(d.s||[]).map(k=>SRC[k]?.[0]).filter(Boolean), tresc:d.x.slice(0,1800)});
 
-/* --- narzędzia dla Claude'a --- */
+/* --- narzędzia dla modelu --- */
 function unitOut(u){ const o = {en:u.n, pl:u.pl, kultura:CULT[u.c]?.n, tier:u.t, rola:ROLE[u.r], typ:u.sub, ocena:u.g||"bd", pancerz:u.a??"bd", zold:WAGE[u.t], opis:u.note};
   o.umiejetnosci = Object.fromEntries(SK.map((n,i)=>[n, u.sk[i]??"bd"])); if(u.ws) o.war_sails = true; return o; }
 const CHAT_TOOLS = [
@@ -41,7 +41,7 @@ const CHAT_TOOLS = [
     inputSchema:{type:"object", properties:{}},
     execute:() => battleOut(BT) },
   { name:"battle_estimate", description:"Liczy szansę bitwy modelem aplikacji dla podanych danych. mode: siegeAtt (gracz szturmuje), siegeDef (gracz broni miasta), fieldAtt, fieldDef. you i foe: {n, elite (procent T4 do T6), inf, rng, cav, ha (procenty składu)}. town (gdy siegeAtt): {g garnizon, m milicja, gElite, dr procent strzelców, wall 1 do 3, breach 0 do 2, eng machiny obrońców 0 do 4, ram true/false, towers 0 do 2, starve dni głodu}. mine (gdy siegeDef): {g, m, gElite, pn ludzie gracza w środku, pElite, dr, wall, eng, breach, starve}. lead: lead (gracz dowodzi) albo auto. Pola pominięte biorą wartości z bitwy ustawionej w aplikacji.",
-    inputSchema:{type:"object", properties:{mode:{type:"string"}, you:{type:"object"}, foe:{type:"object"}, town:{type:"object"}, mine:{type:"object"}, lead:{type:"string"}, tac:{type:"number"}, high:{type:"boolean"}, relief:{type:"boolean"}}},
+    inputSchema:{type:"object", properties:{mode:{type:"string"}, you:{type:"object", properties:{n:{type:"number"}, elite:{type:"number"}, inf:{type:"number"}, rng:{type:"number"}, cav:{type:"number"}, ha:{type:"number"}}}, foe:{type:"object", properties:{n:{type:"number"}, elite:{type:"number"}, inf:{type:"number"}, rng:{type:"number"}, cav:{type:"number"}, ha:{type:"number"}}}, town:{type:"object", properties:{g:{type:"number"}, m:{type:"number"}, gElite:{type:"number"}, pn:{type:"number"}, pElite:{type:"number"}, dr:{type:"number"}, wall:{type:"integer"}, breach:{type:"integer"}, eng:{type:"integer"}, ram:{type:"boolean"}, towers:{type:"integer"}, starve:{type:"number"}}}, mine:{type:"object", properties:{g:{type:"number"}, m:{type:"number"}, gElite:{type:"number"}, pn:{type:"number"}, pElite:{type:"number"}, dr:{type:"number"}, wall:{type:"integer"}, breach:{type:"integer"}, eng:{type:"integer"}, ram:{type:"boolean"}, towers:{type:"integer"}, starve:{type:"number"}}}, lead:{type:"string"}, tac:{type:"number"}, high:{type:"boolean"}, relief:{type:"boolean"}}},
     execute:(a) => { const S = deep(BT);
       ["mode","lead","tac","high","relief"].forEach(k => { if(a[k]!==undefined) S[k]=a[k]; });
       if(!MODES[S.mode]) throw new Error("Nieznany tryb: "+S.mode);
@@ -59,7 +59,7 @@ function battleOut(S){
 }
 
 /* --- polecenia dla modelu --- */
-const CHAT_SYS = `Jesteś Claude, doradca wbudowany w aplikację M&B Goat Guide. Rozmawiasz z Olafem, który gra w Mount & Blade II: Bannerlord.
+const CHAT_SYS = `Jesteś doradcą wbudowanym w aplikację M&B Goat Guide. Rozmawiasz z Olafem, który gra w Mount & Blade II: Bannerlord.
 KONTEKST GRACZA: PS5, łatka 1.5 (na PC to 1.5.7, wyszła 11 listopada 2026) z opcjami startu i przeszukiwaniem pobojowisk. Ma zainstalowany War Sails, ale gra starą kampanię bez morza. Królestwo Bakalland, klan battański, miasto Ortyzja (kultura cesarska), zamek Taraktor. Na konsoli nie ma modów ani komend: nigdy ich nie proponuj.
 ZASADY:
 1. Pisz po polsku, rzeczowo, pod ekran telefonu. Nigdy nie używaj pauzy ani półpauzy (znaków \u2014 i \u2013). Zamiast nich przecinek, dwukropek, kropka albo słowo "do" w zakresach (np. "3 do 5").
@@ -106,8 +106,15 @@ function md(src){
 }
 
 
-/* --- poza claude.ai: własny klucz API Anthropic, trzymany tylko w tym telefonie --- */
-const API = { key: store.get("apiKey","") };
+/* --- poza claude.ai: własny klucz, trzymany tylko w tym telefonie ---
+   gemini: darmowy klucz z Google AI Studio (domyślnie), claude: płatny klucz API Anthropic. */
+const API = { prov: store.get("apiProv","gemini"), keys: { claude: store.get("apiKey",""), gemini: store.get("gemKey","") } };
+const PROV = {
+  gemini: { nazwa:"Gemini (Google)", krotko:"Gemini", store:"gemKey", ph:"AIza…", koszt:"Darmowy klucz z limitem pytań na minutę i na dzień." },
+  claude: { nazwa:"Claude (Anthropic)", krotko:"Claude", store:"apiKey", ph:"sk-ant-…", koszt:"Płatny według zużycia. Tryb Zwykły używa modelu Sonnet, Mastermind droższego Opus." }
+};
+const apiKey = () => API.keys[API.prov] || "";
+const makeSample = () => API.prov==="gemini" ? geminiSample() : apiSample();
 const API_MODEL = { std:"claude-sonnet-5-5", mm:"claude-opus-5-5" };
 function apiSample(){
   return async function(input, opts={}){
@@ -120,7 +127,7 @@ function apiSample(){
       let res;
       try{
         res = await fetch("https://api.anthropic.com/v1/messages", { method:"POST", signal:opts.signal,
-          headers:{ "content-type":"application/json", "x-api-key":API.key, "anthropic-version":"2023-06-01", "anthropic-dangerous-direct-browser-access":"true" },
+          headers:{ "content-type":"application/json", "x-api-key":API.keys.claude, "anthropic-version":"2023-06-01", "anthropic-dangerous-direct-browser-access":"true" },
           body:JSON.stringify({ model: mm ? API_MODEL.mm : API_MODEL.std, max_tokens: mm ? 8000 : 3000, stream:true, tools, messages }) });
       }catch(e){ if(opts.signal?.aborted) throw e; throw fail("offline", "Brak połączenia z internetem."); }
       if(!res.ok){ let m = ""; try{ m = (await res.json()).error?.message || ""; }catch(e){}
@@ -153,9 +160,69 @@ function apiSample(){
   };
 }
 
+/* Gemini: ten sam kontrakt co sample(input, opts) z claude.ai. Modele Google często
+   zmieniają nazwy, więc próbujemy po kolei, aż któryś odpowie. */
+const GEM_MODELE = ["gemini-flash-latest", "gemini-3.8-flash", "gemini-3.6-flash", "gemini-flash-lite-latest"];
+function gemSchema(s){
+  if(!s || typeof s!=="object") return s;
+  const o = {}; for(const [k,v] of Object.entries(s)){ if(k==="properties") o.properties = Object.fromEntries(Object.entries(v).map(([n,p]) => [n, gemSchema(p)])); else o[k] = v; }
+  return o;
+}
+function geminiSample(){
+  return async function(input, opts={}){
+    const mm = opts.modelTier==="complex";
+    const decl = (opts.tools||[]).map(t => { const d = {name:t.name, description:t.description}; const p = t.inputSchema;
+      if(p && p.properties && Object.keys(p.properties).length) d.parameters = gemSchema(p); return d; });
+    const msgs = typeof input==="string" ? [{role:"user", content:input}] : input;
+    const contents = msgs.map(m => ({role: m.role==="assistant" ? "model" : "user", parts:[{text:m.content}]}));
+    let full = "";
+    const fail = (code, msg) => { const e = new Error(msg); e.code = code; e.text = full; return e; };
+    let mi = Math.max(0, GEM_MODELE.indexOf(store.get("gemModel", GEM_MODELE[0])));
+    for(let krok=0; krok<10; krok++){
+      let res;
+      for(;;){
+        try{
+          res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${GEM_MODELE[mi]}:streamGenerateContent?alt=sse`, { method:"POST", signal:opts.signal,
+            headers:{ "content-type":"application/json", "x-goog-api-key":API.keys.gemini },
+            body:JSON.stringify({ contents, tools: decl.length ? [{functionDeclarations:decl}] : undefined, generationConfig:{ maxOutputTokens: mm ? 8192 : 3072 } }) });
+        }catch(e){ if(opts.signal?.aborted) throw e; throw fail("offline", "Brak połączenia z internetem."); }
+        if(res.status===404 && mi < GEM_MODELE.length-1){ mi++; continue; }
+        break;
+      }
+      if(!res.ok){ let m = ""; try{ m = (await res.json()).error?.message || ""; }catch(e){}
+        throw fail(res.status===429 ? "rate_limited" : (res.status===400 && /api key/i.test(m)) || res.status===401 || res.status===403 ? "bad_key" : "api_error", m || "HTTP "+res.status); }
+      store.set("gemModel", GEM_MODELE[mi]);
+      const czesci = []; let koniec = null, buf = "";
+      const rd = res.body.getReader(), dec = new TextDecoder();
+      for(;;){ const {value, done} = await rd.read(); if(done) break; buf += dec.decode(value, {stream:true}).replace(/\r\n/g, "\n");
+        let i; while((i = buf.indexOf("\n\n")) >= 0){ const kaw = buf.slice(0,i); buf = buf.slice(i+2);
+          const linia = kaw.split("\n").find(l => l.startsWith("data:")); if(!linia) continue;
+          let ev; try{ ev = JSON.parse(linia.slice(5)); }catch(e){ continue; }
+          if(ev.error) throw fail(ev.error.code===429 ? "rate_limited" : "api_error", ev.error.message || "Błąd Gemini");
+          const kand = ev.candidates?.[0]; if(!kand) continue;
+          for(const p of kand.content?.parts || []){
+            czesci.push(p);
+            if(p.text && !p.thought){ full += p.text; opts.onText?.({text:full, delta:p.text}); }
+          }
+          if(kand.finishReason) koniec = kand.finishReason;
+        } }
+      const wywolania = czesci.filter(p => p.functionCall);
+      if(!wywolania.length) return {text:full, truncated:koniec==="MAX_TOKENS"};
+      contents.push({role:"model", parts:czesci});   // całe części, z podpisami myśli, tak jak przyszły
+      const odp = [];
+      for(const p of wywolania){ const {name, args} = p.functionCall; const t = (opts.tools||[]).find(t => t.name===name); let out;
+        try{ if(!t) throw new Error("Nie ma takiego narzędzia"); out = await t.execute(args||{}); }catch(e){ out = {blad:String(e?.message||e)}; }
+        odp.push({functionResponse:{name, response: Array.isArray(out) || typeof out!=="object" ? {wynik:out} : out}}); }
+      contents.push({role:"user", parts:odp});
+      if(full && !/\n\n$/.test(full)) full += "\n\n";
+    }
+    return {text:full, truncated:true};
+  };
+}
+
 /* --- UI --- */
 document.body.insertAdjacentHTML("beforeend", `
-<button class="ask-fab" id="ask-fab" type="button" aria-label="Zapytaj Claude'a">${ico("quill")}<span>Zapytaj</span></button>
+<button class="ask-fab" id="ask-fab" type="button" aria-label="Zapytaj doradcę">${ico("quill")}<span>Zapytaj</span></button>
 <div class="chat" id="chat" role="dialog" aria-modal="true" aria-labelledby="chat-h">
   <div class="chat-top">
     <div class="chat-top-in">
@@ -181,7 +248,7 @@ document.body.insertAdjacentHTML("beforeend", `
     <p class="chat-note">Odpowiada Claude na podstawie Biblii Bannerlorda w aplikacji. Sprawdzaj kluczowe liczby w grze.</p>
   </div>
 </div>`);
-$("flags").insertAdjacentHTML("beforebegin", `<button class="ask-band" id="ask-band" type="button">${ico("quill")}<div><b>Zapytaj Claude'a</b><span>Czego nie ma w aplikacji, wyjaśnię tutaj. Tryb Mastermind liczy strategię do spodu.</span></div></button>`);
+$("flags").insertAdjacentHTML("beforebegin", `<button class="ask-band" id="ask-band" type="button">${ico("quill")}<div><b>Zapytaj doradcę</b><span>Czego nie ma w aplikacji, wyjaśnię tutaj. Tryb Mastermind liczy strategię do spodu.</span></div></button>`);
 
 const MODE_NOTE = { std:"Szybka, konkretna odpowiedź oparta na Biblii Bannerlorda.", mm:"Głęboka analiza: wyliczenia, porównanie strategii graczy, plan z punktami decyzji. Trwa dłużej." };
 function setChatMode(m){ CHAT.mode = m; store.set("chatMode", m);
@@ -210,27 +277,42 @@ function chips(){
   return [...new Set(c)].slice(0,5);
 }
 function keyCard(){
-  const has = !!API.key;
-  return `<div class="chat-empty key-card"><h3>${has?"Twój klucz API":"Podłącz czat"}</h3>
-    <p>Poza claude.ai czat łączy się z Claude'em przez Twój własny klucz API Anthropic. Klucz zostaje tylko w tym telefonie i trafia wyłącznie do Anthropic.</p>
-    ${has ? `<p>Klucz jest zapisany: <b>…${esc(API.key.slice(-4))}</b>. Możesz go podmienić albo usunąć.</p>` : `<ol class="key-steps">
+  const P = PROV[API.prov], has = !!apiKey();
+  const kroki = API.prov==="gemini" ? `<ol class="key-steps">
+      <li>Wejdź na <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a> i zaloguj się kontem Google.</li>
+      <li>Stuknij „Create API key” (Utwórz klucz). Nie podajesz karty, klucz jest darmowy.</li>
+      <li>Skopiuj klucz, wklej go poniżej i zapisz.</li></ol>`
+    : `<ol class="key-steps">
       <li>Wejdź na <a href="https://console.anthropic.com" target="_blank" rel="noopener">console.anthropic.com</a> i załóż konto. To osobne konto od subskrypcji Claude.</li>
       <li>W zakładce Billing doładuj kilka dolarów i ustaw miesięczny limit wydatków.</li>
-      <li>W zakładce API Keys utwórz klucz i skopiuj go.</li>
-      <li>Wklej go poniżej i zapisz.</li></ol>`}
-    <div class="key-row"><input id="key-in" type="password" placeholder="sk-ant-…" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Klucz API"><button class="btn" type="button" id="key-save">Zapisz</button></div>
-    ${has ? `<div class="key-row"><button class="btn ghost" type="button" id="key-del">Usuń klucz</button><button class="btn ghost" type="button" id="key-back">Wróć do rozmowy</button></div>` : ""}
-    <p class="hint">Płacisz za zużycie z konta API. Tryb Zwykły używa modelu Sonnet, Mastermind droższego Opus.</p></div>`;
+      <li>W zakładce API Keys utwórz klucz, wklej go poniżej i zapisz.</li></ol>`;
+  return `<div class="chat-empty key-card"><h3>${has?"Twój klucz":"Podłącz czat"}</h3>
+    <p>Poza claude.ai czat potrzebuje klucza do modelu językowego. Klucz zostaje tylko w tym telefonie i trafia wyłącznie do wybranej usługi.</p>
+    <div class="seg prov-seg" role="group" aria-label="Kto odpowiada">
+      <button type="button" data-p="gemini" aria-pressed="${API.prov==="gemini"}">Gemini, darmowo</button>
+      <button type="button" data-p="claude" aria-pressed="${API.prov==="claude"}">Claude, płatnie</button></div>
+    <p class="hint">${esc(P.koszt)}${API.prov==="gemini" ? " Google może używać pytań z darmowego klucza do ulepszania swoich modeli." : ""}</p>
+    ${has ? `<p>Klucz ${esc(P.krotko)} jest zapisany: <b>…${esc(apiKey().slice(-4))}</b>. Możesz go podmienić albo usunąć.</p>` : kroki}
+    <div class="key-row"><input id="key-in" type="password" placeholder="${P.ph}" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Klucz ${esc(P.krotko)}"><button class="btn" type="button" id="key-save">Zapisz</button></div>
+    ${has ? `<div class="key-row"><button class="btn ghost" type="button" id="key-del">Usuń klucz</button><button class="btn ghost" type="button" id="key-back">Wróć do rozmowy</button></div>` : ""}</div>`;
 }
+function setProv(p){ API.prov = p; store.set("apiProv", p); CHAT.sample = apiKey() ? makeSample() : null; syncKeyUI(); }
 function bindKey(){
-  $("key-save")?.addEventListener("click", () => { const v = $("key-in").value.trim(); if(!v) return; API.key = v; store.set("apiKey", v); CHAT.sample = apiSample(); CHAT.showKey = false; render(); syncKeyUI(); });
-  $("key-del")?.addEventListener("click", () => { API.key = ""; store.set("apiKey", ""); CHAT.sample = null; render(); syncKeyUI(); });
+  document.querySelectorAll(".prov-seg [data-p]").forEach(b => b.addEventListener("click", () => { setProv(b.dataset.p); CHAT.showKey = true; render(); }));
+  $("key-save")?.addEventListener("click", () => { const v = $("key-in").value.trim(); if(!v) return; API.keys[API.prov] = v; store.set(PROV[API.prov].store, v); CHAT.sample = makeSample(); CHAT.showKey = false; render(); syncKeyUI(); });
+  $("key-del")?.addEventListener("click", () => { API.keys[API.prov] = ""; store.set(PROV[API.prov].store, ""); CHAT.sample = null; render(); syncKeyUI(); });
   $("key-back")?.addEventListener("click", () => { CHAT.showKey = false; render(); });
 }
-function syncKeyUI(){ const api = CHAT.via==="api"; $("chat-key").hidden = !api || !API.key; $("chat-in").disabled = api && !API.key; $("chat-send").disabled = api && !API.key; }
+function syncKeyUI(){
+  const api = CHAT.via==="api", has = !!apiKey();
+  $("chat-key").hidden = !api || !has; $("chat-in").disabled = api && !has; $("chat-send").disabled = api && !has;
+  const kto = api ? PROV[API.prov].krotko : "Claude";
+  $("chat-h").textContent = api && API.prov==="gemini" ? "Zapytaj doradcę" : "Zapytaj Claude'a";
+  document.querySelector(".chat-note").textContent = `Odpowiada ${kto} na podstawie Biblii Bannerlorda w aplikacji. Sprawdzaj kluczowe liczby w grze.`;
+}
 function render(){
   const L = $("chat-list");
-  if(CHAT.via==="api" && (!API.key || CHAT.showKey)){ L.innerHTML = keyCard(); bindKey(); return; }
+  if(CHAT.via==="api" && (!apiKey() || CHAT.showKey)){ L.innerHTML = keyCard(); bindKey(); return; }
   if(!CHAT.hist.length){
     L.innerHTML = `<div class="chat-empty"><h3>O co chcesz zapytać?</h3><p>Mam w głowie mechaniki, wzory, łatkę 1.5, War Sails i sprawdzone strategie graczy. Znam Twoją kampanię i bitwę z Doradcy.</p>
       <div class="chat-chips">${chips().map(q=>`<button class="chip" type="button" data-q="${esc(q)}">${esc(q)}</button>`).join("")}</div></div>`;
@@ -289,8 +371,9 @@ ${ctx ? "TERAZ W APLIKACJI: "+ctx+"\n" : ""}<biblia>\n${found.map(d => `## ${d.t
     if(e?.text) ai.t = nodash(e.text);
     if(e?.name==="AbortError" || CHAT.ctrl.signal.aborted) ai.err = "Zatrzymane.";
     else if(e?.code==="not_granted"){ ai.err = "Czat nie ma zgody na pytania do Claude'a, więc go ukrywam."; chatOff(); }
-    else if(e?.code==="bad_key") ai.err = "Klucz API nie działa. Stuknij ikonę klucza u góry i wklej go jeszcze raz.";
+    else if(e?.code==="bad_key") ai.err = "Klucz nie działa. Stuknij ikonę klucza u góry i wklej go jeszcze raz.";
     else if(e?.code==="offline") ai.err = "Brak internetu. Czat potrzebuje zasięgu, reszta aplikacji działa bez niego.";
+    else if(e?.code==="rate_limited" && CHAT.via==="api" && API.prov==="gemini") ai.err = "Darmowy limit Gemini chwilowo się wyczerpał. Odczekaj minutę; jeśli to limit dzienny, odnowi się rano.";
     else if(e?.code==="rate_limited") ai.err = "Za dużo pytań w krótkim czasie. Odczekaj chwilę i zapytaj ponownie.";
     else ai.err = "Nie udało się dostać odpowiedzi. " + (e?.message ? "Szczegóły: "+e.message : "Spróbuj jeszcze raz.");
   }
@@ -304,7 +387,7 @@ function chatOn(){ $("ask-fab").classList.add("on"); $("ask-band").classList.add
 (async () => {
   CHAT.via = (window.claude && typeof claude.use==="function") ? "claude" : "api";
   if(CHAT.via==="claude"){ try{ const s = await claude.use("sample"); if(s){ CHAT.sample = s; chatOn(); } }catch(e){} }
-  else { if(API.key) CHAT.sample = apiSample(); chatOn(); }
+  else { if(apiKey()) CHAT.sample = makeSample(); chatOn(); }
   syncKeyUI();
 })();
 const posSync = () => { document.body.classList.toggle("tray-on", $("tray").classList.contains("on")); document.body.classList.toggle("mini-on", !$("sg-mini").hidden); };

@@ -20,14 +20,19 @@ i bez sklepu, a po pierwszym otwarciu także bez internetu.
 
 ## Czat
 
-Czat ma dwa tryby połączenia i sam wybiera właściwy:
+Czat sam wybiera, przez co się łączy:
 
 - **na claude.ai** (wersja jednoplikowa jako artefakt) korzysta z konta Claude, bez klucza;
-- **tutaj, na GitHub Pages**, potrzebuje klucza API Anthropic. Klucz wkleja się w czacie
-  (ikona klucza), zostaje tylko w pamięci telefonu i trafia wyłącznie do `api.anthropic.com`.
-  Płaci się za zużycie z konta na console.anthropic.com. Tryb Zwykły używa modelu
-  `claude-sonnet-5-5`, Mastermind `claude-opus-5-5` (stała `API_MODEL` w `js/czat.js`).
+- **tutaj, na GitHub Pages**, potrzebuje klucza, który wkleja się w czacie (ikona klucza).
+  Do wyboru:
+  - **Gemini, darmowo** (domyślnie): klucz z aistudio.google.com/apikey, bez karty,
+    z limitem pytań na minutę i na dzień. Modele próbowane po kolei: `GEM_MODELE`
+    w `js/czat.js` (Google często zmienia nazwy). Darmowe zapytania Google może
+    wykorzystywać do ulepszania modeli.
+  - **Claude, płatnie**: klucz API z console.anthropic.com, rozliczenie za zużycie.
+    Zwykły `claude-sonnet-5-5`, Mastermind `claude-opus-5-5` (stała `API_MODEL`).
 
+Klucz zostaje tylko w pamięci telefonu i trafia wyłącznie do wybranej usługi.
 Model dostaje przy każdym pytaniu pasujące fragmenty Biblii i cztery narzędzia:
 `search_kb`, `get_units`, `get_my_battle`, `battle_estimate`.
 

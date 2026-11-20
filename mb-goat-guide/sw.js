@@ -5,7 +5,7 @@
    Zapytania czatu do api.anthropic.com idą zawsze prosto do sieci.
    Przy każdej zmianie plików podbij numer w POLKA. */
 
-const POLKA = 'mb-goat-guide-v1';
+const POLKA = 'mb-goat-guide-v2';
 const SZKIELET = [
   './', './index.html', './styles.css', './manifest.webmanifest',
   './dane/jednostki.js', './dane/drzewka.js', './dane/kodeks.js', './dane/biblia.js',
