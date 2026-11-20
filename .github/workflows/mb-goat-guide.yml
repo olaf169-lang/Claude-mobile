@@ -1,0 +1,40 @@
+name: M&B Goat Guide, kontrola
+
+# Sama strona publikuje się razem z Przeglądem News (workflow przeglad.yml
+# dokłada katalog mb-goat-guide/ do wydania Pages jako podstronę). Tutaj zostaje
+# to, co trzeba sprawdzić przy każdej zmianie aplikacji.
+on:
+  push:
+    paths:
+      - "mb-goat-guide/**"
+      - ".github/workflows/mb-goat-guide.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sprawdz:
+    name: Sprawdź aplikację
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Składnia, dane, tryb offline, brak pauz
+        working-directory: mb-goat-guide
+        run: node narzedzia/sprawdz.mjs >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Sklej wersję jednoplikową
+        working-directory: mb-goat-guide
+        run: node narzedzia/jeden-plik.mjs
+
+      # Jeden plik HTML, ten sam, który trafia na claude.ai jako artefakt.
+      - name: Zachowaj plik jednoplikowy
+        uses: actions/upload-artifact@v4
+        with:
+          name: mb-goat-guide-jeden-plik
+          path: mb-goat-guide/dist/mb-goat-guide.html

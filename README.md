@@ -1,17 +1,31 @@
 # Claude-mobile
 
-Cztery aplikacje na telefon, każda osobno, w jednym repozytorium. Wszystkie stoją
-na GitHub Pages pod wspólnym adresem i każda ma własne README ze szczegółami.
+Pięć aplikacji na telefon, każda osobno, w jednym repozytorium. Wszystkie stoją
+na GitHub Pages pod wspólnym adresem, instalują się na ekranie telefonu i każda
+ma własne README ze szczegółami.
 
 | aplikacja | co robi | katalog | adres |
 |---|---|---|---|
-| **Przegląd News** | codzienny przegląd świata z 80 kanałów RSS — opis niżej | `collector/`, `web/`, `android/` | [/Claude-mobile/](https://olaf169-lang.github.io/Claude-mobile/) |
+| **Przegląd News** | codzienny przegląd świata z 80 kanałów RSS, opis niżej | `collector/`, `web/`, `android/` | [/Claude-mobile/](https://olaf169-lang.github.io/Claude-mobile/) |
 | **[BANGladesz26](bangladesz26/)** | losownik miast świata na daną literę | `bangladesz26/` | [/bangladesz26/](https://olaf169-lang.github.io/Claude-mobile/bangladesz26/) |
 | **[Jaka to Melodia](jaka-to-melodia/)** | muzyczny quiz na imprezę, gra się z telefonów | `jaka-to-melodia/` | [/jaka-to-melodia/](https://olaf169-lang.github.io/Claude-mobile/jaka-to-melodia/) |
 | **[Turniej Pana Piąteczki](piateczka/)** | badmintonowa liga wtorkowa czterech graczy | `piateczka/` | [/piateczka/](https://olaf169-lang.github.io/Claude-mobile/piateczka/) |
+| **[M&B Goat Guide](mb-goat-guide/)** | kodeks Bannerlorda: porady, wojska, drzewka, doradca bitwy, czat | `mb-goat-guide/` | [/mb-goat-guide/](https://olaf169-lang.github.io/Claude-mobile/mb-goat-guide/) |
 
-Reszta tego pliku dotyczy **Przeglądu News** — to on zajmuje główny katalog
-repozytorium i to on publikuje stronę, do której trzy pozostałe aplikacje
+## Jak to jest poukładane
+
+- **Gałąź produkcyjna** to `claude/przeglad-news-app-iqyboa` (domyślna). Tylko z niej
+  publikuje się strona. Każda aplikacja ma swoją gałąź roboczą, opisaną w jej `CLAUDE.md`.
+- **Publikacja:** workflow `przeglad.yml` buduje Przegląd News i w jednym kroku dokłada
+  pozostałe aplikacje jako podstrony. Nowa aplikacja to jedna nazwa w pętli tego kroku
+  i jedna ścieżka w `on.push.paths`.
+- **Kontrole:** każda aplikacja ma własny workflow (`bangladesz26.yml`, `jaka-to-melodia.yml`,
+  `mb-goat-guide.yml`), który przy zmianie w jej katalogu odpala testy.
+- Na stronę trafia tylko to, co działa w przeglądarce. Katalogi `narzedzia/`, `docs/`,
+  `dist/`, pliki README i CLAUDE.md zostają w repozytorium.
+
+Reszta tego pliku dotyczy **Przeglądu News**: to on zajmuje główny katalog
+repozytorium i to on publikuje stronę, do której cztery pozostałe aplikacje
 dokładają się jako podstrony.
 
 ---

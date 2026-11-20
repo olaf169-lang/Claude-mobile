@@ -16,6 +16,7 @@ on:
       - "bangladesz26/**"
       - "jaka-to-melodia/**"
       - "piateczka/**"
+      - "mb-goat-guide/**"
       - ".github/workflows/przeglad.yml"
   schedule:
     - cron: "0 6 * * *"
@@ -149,44 +150,25 @@ jobs:
               print(f"\n⚠️ Brak materiału w działach: {', '.join(d['braki'])}")
           PY
 
-      # Druga aplikacja z repozytorium jedzie tym samym wydaniem Pages, tyle że
-      # pod adresem /bangladesz26/. Kopiujemy tylko to, co ma stanąć na stronie —
-      # narzędzia, zrzuty i README zostają w repozytorium.
-      - name: Dołóż BANGladesz26 do strony
+      # Pozostałe aplikacje z repozytorium jadą tym samym wydaniem Pages, każda
+      # pod własnym adresem (/bangladesz26/, /jaka-to-melodia/, /piateczka/,
+      # /mb-goat-guide/). Na stronę idzie tylko to, co ma działać w przeglądarce:
+      # narzędzia, zrzuty, README, notatki dla Claude'a i zależności testowe
+      # zostają w repozytorium. Nowa aplikacja = jedna nazwa więcej w pętli
+      # i jedna ścieżka więcej w `on.push.paths` na górze pliku.
+      - name: Dołóż pozostałe aplikacje do strony
         run: |
           set -euo pipefail
-          rm -rf web/bangladesz26
-          mkdir -p web/bangladesz26
-          cp -r bangladesz26/. web/bangladesz26/
-          rm -rf web/bangladesz26/narzedzia web/bangladesz26/docs \
-                 web/bangladesz26/dist web/bangladesz26/README.md web/bangladesz26/.gitignore
-          test -f web/bangladesz26/index.html
-
-      # Trzecia aplikacja z repozytorium, pod adresem /jaka-to-melodia/.
-      # Na stronę idzie tylko to, co ma działać w przeglądarce — narzędzia,
-      # zrzuty i README zostają w repozytorium.
-      - name: Dołóż Jaką to Melodię do strony
-        run: |
-          set -euo pipefail
-          rm -rf web/jaka-to-melodia
-          mkdir -p web/jaka-to-melodia
-          cp -r jaka-to-melodia/. web/jaka-to-melodia/
-          rm -rf web/jaka-to-melodia/narzedzia web/jaka-to-melodia/docs \
-                 web/jaka-to-melodia/node_modules web/jaka-to-melodia/README.md \
-                 web/jaka-to-melodia/package.json web/jaka-to-melodia/package-lock.json \
-                 web/jaka-to-melodia/.gitignore
-          test -f web/jaka-to-melodia/index.html
-
-      # Czwarta aplikacja, pod adresem /piateczka/ — badmintonowy Turniej Pana
-      # Piąteczki. Znów tylko to, co ma działać w przeglądarce.
-      - name: Dołóż Turniej Pana Piąteczki do strony
-        run: |
-          set -euo pipefail
-          rm -rf web/piateczka
-          mkdir -p web/piateczka
-          cp -r piateczka/. web/piateczka/
-          rm -rf web/piateczka/narzedzia web/piateczka/docs web/piateczka/README.md
-          test -f web/piateczka/index.html
+          for app in bangladesz26 jaka-to-melodia piateczka mb-goat-guide; do
+            rm -rf "web/$app"
+            mkdir -p "web/$app"
+            cp -r "$app/." "web/$app/"
+            rm -rf "web/$app/narzedzia" "web/$app/docs" "web/$app/dist" \
+                   "web/$app/node_modules" "web/$app/README.md" "web/$app/CLAUDE.md" \
+                   "web/$app/package.json" "web/$app/package-lock.json" "web/$app/.gitignore"
+            test -f "web/$app/index.html"
+            echo "Dołożono /$app/"
+          done
 
       - name: Przygotuj stronę
         uses: actions/upload-pages-artifact@v3

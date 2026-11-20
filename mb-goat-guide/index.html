@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0B1322">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="M&amp;B Goat Guide">
+<title>M&amp;B Goat Guide</title>
+<meta name="description" content="Kodeks Mount &amp; Blade II: Bannerlord na telefon: porady, wojska, drzewka awansów, doradca bitwy i czat.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600;800&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="appbar"><div class="appbar-in">
+  <div class="mark" aria-hidden="true"></div>
+  <h1 id="bar-title">M&amp;B Goat Guide</h1>
+  <button class="iconbtn" id="theme" type="button" aria-label="Zmień motyw jasny lub ciemny"></button>
+</div></header>
+
+<div class="wrap">
+
+<!-- START -->
+<section class="view" id="v-start" aria-label="Start">
+  <div class="hero">
+    <h2>M&amp;B<br>Goat Guide</h2>
+    <p>Kodeks Mount &amp; Blade II: Bannerlord na telefon. Porady od giermka do mistrza, wszystkie wojska z porównywarką i drzewka awansów razem z dodatkiem War Sails.</p>
+    <div class="stamp"><span>Twoja gra: <b>PS5, łatka 1.5</b>, kampania bez morza</span></div>
+  </div>
+  <nav class="flags" id="flags" aria-label="Działy"></nav>
+
+  <section class="sec" aria-labelledby="camp-h">
+    <h2 class="sec-h" id="camp-h">Twoja kampania: Bakalland</h2>
+    <div class="panel camp" id="camp"></div>
+  </section>
+</section>
+
+<!-- KODEKS -->
+<section class="view" id="v-kodeks" aria-label="Kodeks">
+  <div class="sec" style="margin-top:18px">
+    <h2 class="sec-h">Kodeks wiedzy</h2>
+    <p class="note">Każdy temat ma cztery poziomy: giermek, rycerz, baron i mistrz. Zaczynasz od podstaw i schodzisz głębiej, kiedy chcesz.</p>
+    <input type="search" class="search" id="kq" placeholder="Szukaj w kodeksie, np. lojalność, karawana" aria-label="Szukaj w kodeksie">
+  </div>
+  <div class="topics" id="topics"></div>
+</section>
+
+<section class="view" id="v-topic" aria-label="Temat">
+  <div id="topic"></div>
+</section>
+
+<!-- WOJSKA -->
+<section class="view" id="v-wojska" aria-label="Wojska">
+  <div class="sec" style="margin-top:18px">
+    <h2 class="sec-h">Wojska</h2>
+    <p class="note">Wszystkie jednostki z tierów 3, 4, 5 i 6, także Nordowie i oddziały morskie. Polska nazwa, pod nią angielska z gry. Każdy żołnierz ma 100 punktów życia, więc o przeżywalności decyduje pancerz.</p>
+  </div>
+  <div class="sec" style="margin-top:14px">
+    <h3 style="font-size:18px">Najlepsi w swojej roli</h3>
+    <div class="best-row" id="best"></div>
+  </div>
+  <div class="panel" style="margin-top:8px; display:grid; gap:12px">
+    <h3 style="font-family:var(--display); font-size:26px; font-weight:800; line-height:1">Jak złożyć armię</h3>
+    <div class="mix" role="img" aria-label="Proponowany skład: 45% piechoty, 30% strzelców, 15% jazdy, 10% konnych łuczników">
+      <div style="flex:45; background:var(--t-azure)">Piechota</div><div style="flex:30; background:var(--t-vert)">Strzelcy</div><div style="flex:15; background:var(--t-gules)">Jazda</div><div style="flex:10; background:var(--t-teal)">KŁ</div>
+    </div>
+    <div class="mix-legend"><div><b>40-50%</b> piechota</div><div><b>25-35%</b> strzelcy</div><div><b>10-20%</b> jazda</div><div><b>5-10%</b> konni łucznicy</div></div>
+    <details class="more"><summary>Żołd i porada dla Ortyzji</summary><div>
+      <p style="margin:0">Cesarstwo daje komplet: Legioniści w ścianie, Elitarni menawliatoni przeciw jeździe, Sierżanci kusznicy z tyłu i Elitarni katafrakci jako młot. Nordowie nie mają jazdy: ściana Huskarlów, Łamacze tarcz i łucznicy z tarczami.</p>
+      <div class="wages"><div><b>5</b><span>tier 3</span></div><div><b>8</b><span>tier 4</span></div><div><b>12</b><span>tier 5</span></div><div><b>17</b><span>tier 6</span></div></div>
+    </div></details>
+  </div>
+  <div class="filters">
+    <input type="search" id="q" class="search" placeholder="Szukaj: polska albo angielska nazwa" aria-label="Szukaj jednostki">
+    <div class="row" id="f-cult" role="group" aria-label="Kultura"></div>
+    <div class="row" id="f-role" role="group" aria-label="Rola"></div>
+    <div class="row" id="f-tier" role="group" aria-label="Tier i zawartość"></div>
+    <div class="toolbar"><span id="count" aria-live="polite"></span>
+      <label>Sortuj <select id="sort"><option value="grade">Ocena</option><option value="armor">Pancerz</option><option value="main">Główna broń</option><option value="tier">Tier</option></select></label></div>
+    <div class="legend">Ocena graczy:
+      <span class="gb" style="--g:var(--gS)">S</span><span class="gb" style="--g:var(--gA)">A</span><span class="gb" style="--g:var(--gB)">B</span><span class="gb" style="--g:var(--gC)">C</span><span class="gb" style="--g:var(--gD)">D</span>
+      <span>Tier 3 i 4 nie mają ocen S do D, „bd” to brak danych.</span></div>
+  </div>
+  <main class="list" id="list"></main>
+</section>
+
+<!-- DRZEWKA -->
+<section class="view" id="v-drzewka" aria-label="Drzewka awansów">
+  <div class="sec" style="margin-top:18px">
+    <h2 class="sec-h">Drzewka awansów</h2>
+    <p class="note">Od rekruta na górze po elitę na dole. Przesuwaj palcem w dół i na boki. Ikona mówi, dokąd prowadzi ścieżka. Dotknij jednostki, żeby zobaczyć jej kartę.</p>
+    <div class="row" id="t-cult" role="group" aria-label="Kultura"></div>
+  </div>
+  <div class="tree-tools">
+    <div class="seg" role="group" aria-label="Widok"><button type="button" id="m-graph" aria-pressed="true">Schemat</button><button type="button" id="m-list" aria-pressed="false">Lista</button></div>
+    <div class="zoom" id="zoomctl"><button class="iconbtn" type="button" id="z-out" aria-label="Pomniejsz">−</button><button class="iconbtn" type="button" id="z-in" aria-label="Powiększ">+</button></div>
+  </div>
+  <div class="tree-box" id="tree-box"><div class="tree-sizer" id="tree-sizer"><div class="tree-canvas" id="tree-canvas"></div></div></div>
+  <div class="olist" id="olist" hidden></div>
+  <div class="tree-legend" id="tree-legend">
+    <span><b class="ri" style="--rc:var(--t-azure)">${"r_inf"}</b>piechota</span><span><b class="ri" style="--rc:var(--t-vert)">${"r_rng"}</b>strzelcy</span><span><b class="ri" style="--rc:var(--t-gules)">${"r_cav"}</b>jazda</span><span><b class="ri" style="--rc:var(--t-teal)">${"r_ha"}</b>konni łucznicy</span><span><i style="border:1.5px dashed var(--muted)"></i>War Sails</span>
+  </div>
+</section>
+
+<!-- NARZĘDZIA -->
+<section class="view" id="v-narzedzia" aria-label="Narzędzia">
+  <div class="sec" style="margin-top:18px">
+    <h2 class="sec-h">Narzędzia</h2>
+    <p class="note">Szybkie przeliczniki na kanapę obok konsoli.</p>
+  </div>
+  <div class="sec" id="tools"></div>
+</section>
+
+<!-- OBLĘŻENIE -->
+<section class="view" id="v-doradca" aria-label="Doradca bitwy">
+  <div class="sec" style="margin-top:18px">
+    <h2 class="sec-h">Doradca bitwy</h2>
+    <p class="note">Wybierz sytuację i wpisz, co wiesz. Doradca oszacuje szansę, pokaże, co ją najbardziej podniesie, i rozpisze plan. Pola, których nie znasz, zostaw na „nie wiem”, wtedy przedział wyniku będzie szerszy.</p>
+    <div class="modes" id="bt-modes" role="group" aria-label="Sytuacja"></div>
+  </div>
+  <div class="sg-live" id="sg-live" aria-live="polite"></div>
+  <div class="panel" id="sg-out" style="margin-top:14px"></div>
+  <div class="sec"><h3 class="sub-h">Co da największy skok</h3><div class="panel gains" id="sg-gains"></div></div>
+  <div class="sec"><h3 class="sub-h">Dane bitwy</h3><div id="sg-form" class="sg-form"></div></div>
+  <div class="sec"><h3 class="sub-h">Plan krok po kroku</h3><div class="panel"><ol class="steps" id="sg-plan"></ol></div></div>
+  <div class="sec" id="eng-sec"><h3 class="sub-h">Machiny w skrócie</h3>
+    <div class="panel eng-list">
+      <div><b>Trebusz</b><p>Najlepszy do burzenia murów. Buduj go pierwszy i w kilku sztukach. Wolno się buduje.</p></div>
+      <div><b>Onager, czyli mangonela</b><p>Szybszy w budowie, dobry do niszczenia machin obrońców. Wersja zapalająca rani też żołnierzy, ale wymaga Inżynierii 150.</p></div>
+      <div><b>Taran</b><p>Rozbija tylko zewnętrzną bramę i może zostać zniszczony. Ściąga obrońców z murów pod bramę.</p></div>
+      <div><b>Wieża oblężnicza</b><p>Chroni ludzi w drodze i wpuszcza więcej naraz niż drabina, ale obrońcy łatwo ją niszczą. Stawiaj ją, gdy ich machiny już padły.</p></div>
+      <div><b>Drabiny</b><p>Zawsze dostępne, ale szczyt drabiny to wąskie gardło, na którym giną atakujący.</p></div>
+      <div class="src">Źródła: <a href="https://www.taleworlds.com/en/Games/Bannerlord/Blog/53" target="_blank" rel="noopener">dziennik twórców TaleWorlds</a>, <a href="https://sevenswords.uk/bannerlord-siege-guide/" target="_blank" rel="noopener">SevenSwords</a>, <a href="https://gamerguides.com/mount-and-blade-ii-bannerlord/guide/perks/intelligence/engineering" target="_blank" rel="noopener">GamerGuides: Inżynieria</a></div>
+    </div>
+  </div>
+  <div class="panel" style="margin-top:14px">
+    <b>Jak liczy doradca</b>
+    <p class="note" style="margin-top:6px">Gra nie podaje wzoru na bitwę, więc to mój model, a nie kod gry. Siłę obu stron liczę z liczby ludzi, ich tieru i składu. W oblężeniu mury, machiny i strzelcy na murach to mnożnik przewagi obrońcy, a wyłomy, taran i głód go zmniejszają. W polu jazda i konni łucznicy ważą więcej, a skład liczy się przeciw składowi wroga: jazda na łuczników, piechota na jazdę. Wynik to szacunek z przedziałem. Elementy wzięte z mechaniki gry: wyłomy i machiny według poradników, Taktyka +0,1% za punkt w automatycznej bitwie. Traktuj procenty jako kierunek, nie wyrocznię.</p>
+  </div>
+</section>
+
+<!-- INSTALACJA -->
+<section class="view" id="v-instalacja" aria-label="Instalacja na telefonie">
+  <div class="sec" style="margin-top:18px">
+    <h2 class="sec-h">Na ekran główny</h2>
+    <p class="note">M&amp;B Goat Guide to aplikacja z przeglądarki: instalujesz ją na ekranie telefonu, bez sklepu i bez logowania. Potem otwierasz ją jednym dotknięciem ikony, także bez internetu.</p>
+    <div class="linkbox"><code id="applink">https://olaf169-lang.github.io/Claude-mobile/mb-goat-guide/</code><button class="btn" type="button" id="copy">Kopiuj</button></div>
+    <div class="seg" role="group" aria-label="Telefon"><button type="button" id="os-and" aria-pressed="true">Android</button><button type="button" id="os-ios" aria-pressed="false">iPhone</button></div>
+  </div>
+  <div class="panel" style="margin-top:14px">
+    <ol class="steps" id="steps"></ol>
+  </div>
+  <div class="panel" style="margin-top:14px; display:grid; gap:8px">
+    <b>Dobrze wiedzieć</b>
+    <p style="margin:0">Nie potrzebujesz konta ani logowania. Po pierwszym otwarciu aplikacja zapisuje się w telefonie i działa bez internetu (bez internetu nie zadziała tylko czat). Gdy pojawi się nowa wersja, wczyta się sama przy następnym otwarciu z zasięgiem.</p>
+  </div>
+  <div class="panel sources" style="margin-top:14px">
+    <b>Wszystkie źródła</b>
+    <ul id="srclist"></ul>
+  </div>
+</section>
+</div>
+
+<nav class="nav" aria-label="Nawigacja"><div class="nav-in" id="nav"></div></nav>
+
+<a class="sg-mini" id="sg-mini" href="#doradca" hidden></a>
+<div class="tray" id="tray"><div class="tray-in">
+  <div class="names" id="tray-names"></div>
+  <div style="display:flex; gap:8px"><button class="btn ghost" id="tray-clear" type="button">Wyczyść</button><button class="btn" id="tray-open" type="button">Porównaj</button></div>
+</div></div>
+
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-h"><div class="sheet-in">
+  <h2 class="sheet-h" id="sheet-h"></h2>
+  <div class="sheet-body" id="sheet-body"></div>
+  <div style="display:flex; gap:8px" id="sheet-actions"></div>
+</div></div>
+
+<script src="dane/jednostki.js"></script>
+<script src="dane/drzewka.js"></script>
+<script src="dane/kodeks.js"></script>
+<script src="js/app.js"></script>
+<script src="js/doradca.js"></script>
+<script src="dane/biblia.js"></script>
+<script src="js/czat.js"></script>
+<script src="js/start.js"></script>
+</body>
+</html>

@@ -11,6 +11,9 @@ android/app/build/
 android/local.properties
 *.apk
 
-# Podstrona BANGladesz26 składana w czasie publikacji, nie w repozytorium
+# Podstrony składane w czasie publikacji (przeglad.yml), nie w repozytorium
 web/bangladesz26/
+web/jaka-to-melodia/
+web/piateczka/
+web/mb-goat-guide/
 piateczka/_*.html
