@@ -1,8 +1,8 @@
 {
  "wersja": "1.0.0",
- "wydanie": "2026-11-20",
- "dotyczy_dnia": "2026-11-19",
- "wygenerowano": "2026-11-20T14:48:23+00:00",
+ "wydanie": "2026-11-21",
+ "dotyczy_dnia": "2026-11-20",
+ "wygenerowano": "2026-11-21T14:04:12+00:00",
  "strefa": "Europe/Warsaw",
  "tryb": "ekstrakcyjny",
  "demo": false,
@@ -14,87 +14,122 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "NBP zablokował kasę dla TK. Będzie ruch rządu",
-   "lead": "Minister finansów i gospodarki Andrzej Domański poinformował w czwartek, że trwają prace nad przywróceniem możliwości realizowania płatności z rachunków Trybunału Konstytucyjnego. Szef resortu zaapelował też o szybkie podpisanie przez prezydenta Karola Nawrockiego zmian w podatku PIT.",
+   "nagłówek": "Premier Tusk ujawnił, co usłyszał od prezydenta Nawrockiego. „Powiedział mi...”",
+   "lead": "Premier Donald Tusk kilka dni temu zaprosił prezydenta Karola Nawrockiego na spotkanie opłatkowe do swojego domu w Sopocie. „Panie prezydencie, tak od serca chcę pana zaprosić z małżonką, rodziną, dziećmi, do mnie do domu w Sopocie.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-19T16:36:11+00:00",
+   "opublikowano": "2026-11-20T11:59:00+00:00",
    "źródło": {
-    "nazwa": "Money.pl",
-    "url": "https://www.money.pl/finanse/zablokowane-konta-tk-minister-finansow-powiedzial-co-robi-rzad-7352745833580576a.html",
-    "domena": "money.pl"
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/fakty/polityka/news-premier-tusk-ujawnil-co-uslyszal-od-prezydenta-nawrockiego-p,nIdn,1026994",
+    "domena": "rmf24.pl"
    },
-   "obraz": "https://v.wpimg.pl/YmZhOTA2dgw7Cjlnbkl7GXhSbT0oEHVPL0p1dm4DYF9qEGAyKF48Hz8YIHomQCwdOx8_ejFedgwqAWAicB09BCkYIzU4HTwAOA0reyQDa1hpCncxbAY8Dj9Fe2F0CnQMP1oueXcGPA88CXZkdwduX3gV",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/d8/11/karol-nawrocki-636x421-d81137d3.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Minister Andrzej Domański odniósł się do decyzji Narodowego Banku Polskiego dotyczącej rachunków Trybunału Konstytucyjnego.",
-      "NBP przekazał w tym tygodniu, że wstrzymał możliwość składania dyspozycji płatniczych z tych kont .",
-      "Powodem są wątpliwości, jakie wskazano, dotyczące tego, kto jest uprawniony do wykonywania takich zleceń . – Pracujemy nad rozwiązaniem – powiedział Domański.",
-      "Dodał, że niepokoi go upolitycznienie banku centralnego, a rząd powinien zagwarantować Trybunałowi możliwość wykonywania obowiązków wobec obywateli.",
-      "Minister był również pytany o możliwe wręczenie mu przez prezydenta nominacji na stanowisko wicepremiera. – To nie jest temat numer jeden – odrzekł.",
-      "Priorytetem, jaki wskazał Domański, pozostaje obecnie podpisanie przez prezydenta zmian w podatku dochodowym od osób fizycznych.",
-      "Szef MF przekonywał, że nowe przepisy mogą objąć 3,5 mln Polaków, a roczne oszczędności rodziny mogą wynieść do 7,2 tys. zł.",
-      "Domański wskazał także na ustawę dotyczącą kosztów energii dla firm z sektorów energochłonnych. – To jest ważne, żeby pan prezydent podpisał ustawę, dzięki której tysiące polskich firm zapłacą niższe rachunki za energię w sektorach energochłonnych w zamian za inwestycje poprawiające ich efektywność energetyczną – dodał.",
-      "Minister skomentował również środowe weto prezydenta do ustawy podnoszącej VAT do 23 proc. na bezalkoholowe odpowiedniki napojów alkoholowych zawierające soki oraz na napoje energetyczne. – To jest dosyć zła sytuacja, w której napoje o wysokiej zawartości cukru mają niższą stawkę VAT niż chociażby woda mineralna."
+      "Podzielmy się opłatkiem przed Wigilią.",
+      "Porozmawiajmy, jak to się kiedyś mówiło, jak Polak z Polakiem.",
+      "Polska warta jest naszej rozmowy” - powiedział premier Donald Tusk podczas obchodów Narodowego Święta Niepodległości w Szczecinie.",
+      "O reakcję głowy państwa został zapytany w piątek podczas konferencji prasowej po powołaniu Andrzeja Domańskiego i Agnieszki Bartol .",
+      "Jak powiedział, prezydent Nawrocki nie przyjął zaproszenia. „ Prezydent powiedział, że nie zobaczymy się na opłatku przed świętami, ale że prześle serdeczne życzenia do mnie i do mojej rodziny ” - mogliśmy usłyszeć.",
+      "Premier podkreślił jednak, że w kwestiach szeroko pojętego bezpieczeństwa naszego kraju współpracuje z prezydentem Nawrockim i tutaj „wszystko wygląda tak, jak powinno”.",
+      "Będziemy się spierać o różne rzeczy, nie zgadzam się z prezydentem w większości spraw domowych, ale w kwestiach szeroko pojętego bezpieczeństwa musimy działać razem i działamy razem.",
+      "Tak będzie również w przyszłości.",
+      "Nie powiem złego słowa w tej sprawie ani na prezydenta, ani na jego ludzi."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Premier Donald Tusk powiedział w piątek, że niestosowne jest ocenianie przez ministrów kancelarii prezydenta ministrów tworzących rząd.",
+      "Szefernaker stwierdził w piątek, przed powołaniem Andrzeja Domańskiego na wicepremiera i Agnieszki Bartol na minister funduszy i polityki regionalnej , że - gdyby decyzja zależała od prezydenta Karola Nawrockiego - to „awansu dla ministra Domańskiego by nie było”.",
+      "Dodał, że pełną odpowiedzialność za tę nominację bierze premier, który wystąpił z wnioskiem do prezydenta o dokonanie zmian w składzie Rady Ministrów.",
+      "Premier, pytany o tę wypowiedź podczas konferencji prasowej, stwierdził, że to „miłe i kulturalne słowa pana Szefernakera”. - Dobrze, że przynajmniej przyznał, że to nie zależy od prezydenta Nawrockiego, kto jest ministrem.",
+      "Dodał, że uważa za niestosowne, by minister kancelarii prezydenta oceniał, „kto powinien być (ministrem) i kto jest dobrym ministrem w rządzie”. - Ja mógłbym godzinami opowiadać, co myślę o panu Szefernakerze, panu (Marcinie) Przydaczu, panu (Zbigniewie) Boguckim.",
+      "Od 13 grudnia 2023 r. pełni on stanowisko ministra finansów, a od 24 lipca 2025 r. jest ministrem finansów i gospodarki."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Spór o obsadę Trybunału Konstytucyjnego – konflikt dotyczący skuteczności objęcia obowiązków przez osoby wybrane przez Sejm w 2026 roku do Trybunału Konstytucyjnego, dopuszczenia ich do orzekania oraz tego, kto jest uprawniony do kierowania pracami tej instytucji. Pierwszych sześciu sędziów Sejm wybrał 13 marca 2026 roku, a prezydent Karol Nawrocki nie odebrał ślubowania od czterech z nich. W kolejnych miesiącach Sejm wybrał jeszcze dwóch kandydatów, a spór objął postępowania prokuratorskie, rozstrzygnięcia i działania instytucji krajowych oraz stanowiska organów międzynarodowych."
+      "Karol Tadeusz Nawrocki – polski historyk, polityk, działacz społeczny i samorządowy, doktor nauk humanistycznych. Prezydent Rzeczypospolitej Polskiej od 6 sierpnia 2025."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Spór o obsadę Trybunału Konstytucyjnego",
-     "url": "https://pl.wikipedia.org/wiki/Sp%C3%B3r_o_obsad%C4%99_Trybuna%C5%82u_Konstytucyjnego"
+     "przypis": "Wikipedia: Karol Nawrocki",
+     "url": "https://pl.wikipedia.org/wiki/Karol_Nawrocki"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "3,5 mln",
-    "7,2 tys. zł",
-    "23 proc."
+    "13",
+    "24",
+    "20",
+    "27",
+    "161",
+    "151"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "RMF24",
+     "ujęcie": "Awantura o fałszywą galę z udziałem prezydenta Nawrockiego.",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-awantura-o-falszywa-gale-z-udzialem-prezydenta-nawrockiego-m,nIdn,1026939"
+    }
+   ],
    "pojęcia": [],
    "tło": {
-    "hasło": "Spór o obsadę Trybunału Konstytucyjnego",
-    "opis": "konflikt polityczny o wybór i dopuszczenie do orzekania sędziów Trybunału Konstytucyjnego w Polsce",
-    "tekst": "Spór o obsadę Trybunału Konstytucyjnego – konflikt dotyczący skuteczności objęcia obowiązków przez osoby wybrane przez Sejm w 2026 roku do Trybunału Konstytucyjnego, dopuszczenia ich do orzekania oraz tego, kto jest uprawniony do kierowania pracami tej instytucji. Pierwszych sześciu sędziów Sejm wybrał 13 marca 2026 roku, a prezydent Karol Nawrocki nie odebrał ślubowania od czterech z nich. W kolejnych miesiącach Sejm wybrał jeszcze dwóch kandydatów, a spór objął postępowania prokuratorskie, rozstrzygnięcia i działania instytucji krajowych oraz stanowiska organów międzynarodowych.",
-    "url": "https://pl.wikipedia.org/wiki/Sp%C3%B3r_o_obsad%C4%99_Trybuna%C5%82u_Konstytucyjnego",
+    "hasło": "Karol Nawrocki",
+    "opis": "polski historyk i polityk, 7. prezydent III RP (od 2025)",
+    "tekst": "Karol Tadeusz Nawrocki – polski historyk, polityk, działacz społeczny i samorządowy, doktor nauk humanistycznych. Prezydent Rzeczypospolitej Polskiej od 6 sierpnia 2025.",
+    "url": "https://pl.wikipedia.org/wiki/Karol_Nawrocki",
     "język": "pl"
    },
    "tagi": [
-    "Domański",
-    "Trybunału Konstytucyjnego",
-    "Andrzej Domański",
-    "Narodowego Banku Polskiego"
+    "Sopocie",
+    "Narodowego Święta Niepodległości",
+    "Andrzeja Domańskiego",
+    "Premier Donald Tusk"
    ],
    "emotki": [
-    "🏛️",
-    "💰"
+    "🏛️"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Money.pl",
-     "tytuł": "NBP zablokował kasę dla TK. Będzie ruch rządu",
-     "url": "https://www.money.pl/finanse/zablokowane-konta-tk-minister-finansow-powiedzial-co-robi-rzad-7352745833580576a.html"
+     "nazwa": "RMF24",
+     "tytuł": "Premier Tusk ujawnił, co usłyszał od prezydenta Nawrockiego. „Powiedział mi...”",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-premier-tusk-ujawnil-co-uslyszal-od-prezydenta-nawrockiego-p,nIdn,1026994"
+    },
+    {
+     "nazwa": "RMF24",
+     "tytuł": "Awantura o fałszywą galę z udziałem prezydenta Nawrockiego. Minister reaguje",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-awantura-o-falszywa-gale-z-udzialem-prezydenta-nawrockiego-m,nIdn,1026939"
+    },
+    {
+     "nazwa": "Bankier.pl",
+     "tytuł": "Premier: To niestosowne, by minister kancelarii prezydenta oceniał ministrów w rządzie",
+     "url": "https://www.bankier.pl/wiadomosc/Premier-To-niestosowne-by-minister-kancelarii-prezydenta-ocenial-ministrow-w-rzadzie-9232554.html"
+    },
+    {
+     "nazwa": "Notes from Poland",
+     "tytuł": "Two Russian missiles and a drone hit Poland",
+     "url": "https://notesfrompoland.com/2026/11/20/unidentified-object-hits-poland-amid-russian-attacks-on-western-ukraine/"
     }
    ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.701,
+    "wynik": 8.72,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.0,
-     "eksponowanie": 0.0,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.622,
+     "eksponowanie": 0.63,
      "słowa_kluczowe": 1.4,
-     "świeżość": 0.445,
-     "treściwość": 0.356,
+     "świeżość": 0.396,
+     "treściwość": 0.372,
      "język_działu": 0.5
     }
    },
@@ -107,86 +142,105 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "Tusk liczy na to, że Nawrocki udzieli mu głosu w Pałacu Prezydenckim. \"Jakby się obawiał, co powiem\"",
-   "lead": "Uroczystość poświęcona zmianom w składzie Rady Ministrów odbędzie się w piątek o 11 w Pałacu Prezydenckim. W środę (18 listopada) wieczorem rzecznik rządu Adam Szłapka potwierdził, że Kancelaria Premiera otrzymała oficjalne zaproszenie do Pałacu.",
+   "nagłówek": "Domański wicepremierem. Prezydent powołał go, bo musiał",
+   "lead": "Na wniosek premiera Donalda Tuska prezydent powołał w piątek ministra finansów i gospodarki Andrzeja Domańskiego na wicepremiera a Agnieszkę Bartol na minister funduszy i polityki regionalnej . Domański został tym samym czwartym wicepremierem w rządzie Donalda Tuska.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-19T20:52:00+00:00",
+   "opublikowano": "2026-11-20T10:17:00+00:00",
    "źródło": {
-    "nazwa": "Gazeta.pl",
-    "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33141768,tusk-liczy-na-to-ze-nawrocki-udzieli-mu-glosu-w-palacu-prezydenckim.html",
-    "domena": "wiadomosci.gazeta.pl"
+    "nazwa": "RMF24",
+    "url": "https://www.rmf24.pl/fakty/polityka/news-domanski-wicepremierem-prezydent-powolal-go-bo-musial,nIdn,1026968",
+    "domena": "rmf24.pl"
    },
-   "obraz": "https://bi.im-g.pl/im/86/94/1f/z33115270IHG,Karol-Nawrocki--Donald-Tusk.jpg",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/34/65/prezydent-karol-nawrocki-wrecza-nominacje-andrzejowi-domanskiemu-fot-636x421-346516cd.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Podczas wydarzenia Andrzej Domański , obecny minister finansów i gospodarki, obejmie dodatkowo stanowisko wicepremiera.",
-      "Z kolei Agnieszka Bartol, która do tej pory pełniła funkcję przedstawicielki Polski przy Unii Europejskiej, zostanie ministrą funduszy i polityki regionalnej.",
-      "Zastąpi na tym stanowisku Katarzynę Pełczyńską-Nałęcz, która zrezygnowała z funkcji pod koniec października.",
-      "W czwartek (19 listopada) dziennikarze w Berlinie zapytali Donalda Tuska, czego spodziewa się po spotkaniu z prezydentem.",
-      "Premier przyznał, że liczy na zachowanie dotychczasowych zwyczajów. - Ja mam nadzieję, chociaż może to jest nadzieja płonna, że jeśli pan prezydent, wyręczając nominację pani Agnieszce Bartol i panu - od jutra - wicepremierowi Andrzejowi Domańskiemu, (...) zechce zabrać głos, to zgodnie z tradycją, zawsze tak było, udzieli także mi głosu - powiedział Tusk dziennikarzom.",
-      "Szef rządu dodał, że nie ma pewności co do przebiegu uroczystości. - Mam wrażenie, że ostatnio prezydent jakby obawiał się tego, co ja mogę powiedzieć na jego temat, wtedy, kiedy on mówi takie brzydkie rzeczy na mój temat - powiedział premier.",
-      "Jak dodał, jest ciekawy czy prezydent tym razem \"odważy się być bardziej taki demokratyczny\".",
-      "Wypowiedź premiera nawiązuje do posiedzenia Rady Bezpieczeństwa Narodowego z 3 listopada.",
-      "Wówczas w części spotkania otwartej dla mediów głos zabrał wyłącznie Karol Nawrocki , który oskarżył premiera Donalda Tuska o nielegalne działania wobec Trybunału Konstytucyjnego ."
+      "Na wcześniejszym briefingu szef Gabinetu Prezydenta RP Paweł Szefernaker powiedział, że wydarzenie to ma charakter techniczny.",
+      "Szefernaker oświadczył też, że gdyby decyzja zależała od prezydenta Nawrockiego, to „awansu dla ministra Domańskiego by nie było”.",
+      "Pan prezydent wręczy tę nominację dzisiaj, ale jasno chcę powiedzieć, że pełną odpowiedzialność za tę nominację bierze pan premier Donald Tusk, który to wystąpił z wnioskiem (...) do pana prezydenta o dokonanie zmian w składzie Rady Ministrów – powiedział Szefernaker.",
+      "Premier, pytany o tę wypowiedź podczas konferencji prasowej, stwierdził, że to „miłe i kulturalne słowa pana Szefernakera”.",
+      "Dobrze, że przynajmniej przyznał, że to nie zależy od prezydenta Nawrockiego , kto jest ministrem.",
+      "Więc w jakimś sensie dobrze skomentował cały ten proces wyczekiwania na podpis pana prezydenta - powiedział szef rządu.",
+      "Dodał, że uważa za niestosowne, by minister kancelarii prezydenta oceniał, „kto powinien być (ministrem) i kto jest dobrym ministrem w rządzie”.",
+      "Ja mógłbym godzinami opowiadać, co myślę o panu Szefernakerze, panu (Marcinie) Przydaczu, panu (Zbigniewie) Boguckim.",
+      "Ale po pierwsze domyślacie się państwo, co myślę, a po drugie, to nie jest moje zadanie - zaznaczył Tusk."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "- Nominacja na wicepremiera to kolejny dowód na to, że gospodarka jest absolutnym priorytetem dla rządu Donalda Tuska - powiedział w piątek minister finansów i gospodarki Andrzej Domański, który w piątek odebrał z rąk prezydenta nominację na wicepremiera.",
+      "Polska to dziś najszybciej rosnąca duża gospodarka Unii Europejskiej, jesteśmy szóstą największa gospodarką Unii Europejskiej, bierzemy udział w pracach grupy G20 , zarówno w tym, jak i w 2027 r.",
+      "Nasz PKB przekroczył ten magiczny poziom 1 bln dolarów – powiedział Domański na podczas piątkowej konferencji prasowej w KPRM.",
+      "Podkreślił, że priorytetami rządu są transformacja energetyczna oraz transformacja cyfrowa. - W styczniu w Warszawie obędzie się szczyt liderów AI, przedsiębiorców, naukowców, polityków."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Pierwszy rząd Donalda Tuska – Rada Ministrów pod kierownictwem Donalda Tuska, powołana przez prezydenta RP Lecha Kaczyńskiego i zaprzysiężona 16 listopada 2007. 8 listopada 2011 premier Donald Tusk złożył dymisję na ręce marszałka seniora Józefa Zycha."
+      "Katarzyna Pełczyńska-Nałęcz – polska socjolog i politolog, specjalistka w zakresie problematyki wschodnioeuropejskiej, podsekretarz stanu w Ministerstwie Spraw Zagranicznych (2012–2014), ambasador Polski w Federacji Rosyjskiej (2014–2016), minister funduszy i polityki regionalnej w trzecim rządzie Donalda Tuska (2023–2026), przewodnicząca Polski 2050 (2026)."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Pierwszy rząd Donalda Tuska",
-     "url": "https://pl.wikipedia.org/wiki/Pierwszy_rz%C4%85d_Donalda_Tuska"
+     "przypis": "Wikipedia: Katarzyna Pełczyńska-Nałęcz",
+     "url": "https://pl.wikipedia.org/wiki/Katarzyna_Pe%C5%82czy%C5%84ska-Na%C5%82%C4%99cz"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "11",
-    "18",
-    "19"
+    "200 miliardów zł"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Money.pl",
+     "ujęcie": "Prezydent Karol Nawrocki powołał w piątek ministra finansów i gospodarki Andrzeja Domańskiego na funkcję wicepremiera .",
+     "url": "https://www.money.pl/gospodarka/domanski-nowym-wicepremierem-wskazal-priorytet-rzadu-tuska-7353040801777696a.html"
+    }
+   ],
    "pojęcia": [],
    "tło": {
-    "hasło": "Pierwszy rząd Donalda Tuska",
-    "opis": "Rada Ministrów w Polsce pod kierownictwem Donalda Tuska (16.11.2007–18.11.2011)",
-    "tekst": "Pierwszy rząd Donalda Tuska – Rada Ministrów pod kierownictwem Donalda Tuska, powołana przez prezydenta RP Lecha Kaczyńskiego i zaprzysiężona 16 listopada 2007. 8 listopada 2011 premier Donald Tusk złożył dymisję na ręce marszałka seniora Józefa Zycha.",
-    "url": "https://pl.wikipedia.org/wiki/Pierwszy_rz%C4%85d_Donalda_Tuska",
+    "hasło": "Katarzyna Pełczyńska-Nałęcz",
+    "opis": "polska socjolożka, politolożka i polityczka",
+    "tekst": "Katarzyna Pełczyńska-Nałęcz – polska socjolog i politolog, specjalistka w zakresie problematyki wschodnioeuropejskiej, podsekretarz stanu w Ministerstwie Spraw Zagranicznych (2012–2014), ambasador Polski w Federacji Rosyjskiej (2014–2016), minister funduszy i polityki regionalnej w trzecim rządzie Donalda Tuska (2023–2026), przewodnicząca Polski 2050 (2026).",
+    "url": "https://pl.wikipedia.org/wiki/Katarzyna_Pe%C5%82czy%C5%84ska-Na%C5%82%C4%99cz",
     "język": "pl"
    },
    "tagi": [
-    "Pałacu Prezydenckim",
+    "Katarzynę Pełczyńską-Nałęcz",
+    "Agnieszkę Bartol",
     "Donalda Tuska",
-    "Tusk",
-    "Rady Bezpieczeństwa Narodowego"
+    "Nawrockiego"
    ],
    "emotki": [
     "🏛️"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Gazeta.pl",
-     "tytuł": "Tusk liczy na to, że Nawrocki udzieli mu głosu w Pałacu Prezydenckim. \"Jakby się obawiał, co powiem\"",
-     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33141768,tusk-liczy-na-to-ze-nawrocki-udzieli-mu-glosu-w-palacu-prezydenckim.html"
+     "nazwa": "RMF24",
+     "tytuł": "Domański wicepremierem. Prezydent powołał go, bo musiał",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-domanski-wicepremierem-prezydent-powolal-go-bo-musial,nIdn,1026968"
+    },
+    {
+     "nazwa": "Money.pl",
+     "tytuł": "Domański nowym wicepremierem. Wskazał priorytet rządu Tuska",
+     "url": "https://www.money.pl/gospodarka/domanski-nowym-wicepremierem-wskazal-priorytet-rzadu-tuska-7353040801777696a.html"
     }
    ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.358,
+    "wynik": 6.443,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.0,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.498,
-     "treściwość": 0.31,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.3,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.394,
+     "treściwość": 0.319,
      "język_działu": 0.5
     }
    },
@@ -199,80 +253,80 @@
     "emoji": "🌍",
     "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
    },
-   "nagłówek": "Zachwycony Trump nadaje prosto z samolotu: Spotkanie w Chinach „12 na 10”",
-   "lead": "Reporter NBC News Gabe Gutierrez rozmawiał telefonicznie z Trumpem, gdy prezydent USA wracał z Chin . Pytany o słowa Wołodymyra Zełenskiego, który podkreślał, że decyzje w sprawie Ukrainy nie powinny zapadać bez Ukrainy, Trump przyznał mu rację.",
+   "nagłówek": "„Ma teraz ciężki okres, bo toczy wojnę, która powinna trwać jeden dzień”. Trump o Putinie",
+   "lead": "Podczas konferencji prasowej, podsumowującej wizytę na Filipinach i w Chinach, Donald Trump odniósł się m.in. do spotkania z prezydentem Rosji Władimirem Putinem. Trump ujawnił, że rosyjski przywódca wyraził gotowość do zakończenia wojny na Ukrainie środkami dyplomatycznymi.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-19T17:28:00+00:00",
+   "opublikowano": "2026-11-20T18:53:00+00:00",
    "źródło": {
     "nazwa": "RMF24 Świat",
-    "url": "https://www.rmf24.pl/fakty/swiat/news-zachwycony-trump-nadaje-prosto-z-samolotu-spotkanie-w-chinac,nIdn,1026868",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-ma-teraz-ciezki-okres-bo-toczy-wojne-ktora-powinna-trwac-jed,nIdn,1027055",
     "domena": "rmf24.pl"
    },
-   "obraz": "https://rmf.rmffm.pl/news/attachments/e7/fc/donald-trump-w-air-force-one-636x421-e7fcd86a.jpg",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/5b/b2/donald-trump-636x421-5bb21554.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Nie zrobiłbym niczego bez niego – on jest głową tego kraju, więc nie zrobiłbym tego – powiedział amerykański przywódca.",
-      "Trump bardzo wysoko ocenił zakończone w czwartek spotkanie trójstronne z przywódcą Chin Xi Jinpingiem i prezydentem Rosji Władimirem Putinem.",
-      "W skali od zera do 10, myślę, że to było 12.",
-      "Zbudowaliśmy fantastyczne relacje – miał powiedzieć prezydent USA.",
-      "Była to jego pierwsza publiczna wypowiedź po zakończeniu szczytu w Shenzhen.",
-      "Prezydent odniósł się również do środowego wywiadu Elona Muska.",
-      "Biznesmen miał w nim mówić, że czuje się „głupio” z powodu milionów dolarów wydanych na przegraną kampanię republikanów.",
-      "Trump podkreślił, że Musk jest jego przyjacielem i towarzyszył mu podczas wizyty w Chinach.",
-      "MAGA dla mnie oznacza coś bardzo konkretnego i kiedy ludzie od tego odchodzą, nie radzą sobie najlepiej."
+      "Odbyłem dwustronne spotkanie z prezydentem Rosji Putinem, który jasno wyraził chęć zakończenia wojny między Rosją a Ukrainą środkami dyplomatycznymi i rozmawiałem z naszymi przedstawicielami, którzy dobrze sobie z tym radzą, ale to trudne zadanie – relacjonował Trump.",
+      "Według relacji prezydenta USA, Władimir Putin zapewnił go, że nie doszłoby do inwazji na Ukrainę, gdyby Trump był wówczas prezydentem.",
+      "Powiedziałem: „Czy wszedłbyś tam (na Ukrainę), gdybym był prezydentem?” Odpowiedział: „Nie, to nigdy by się nie wydarzyło”.",
+      "Nasz kraj tak źle to rozegrał.",
+      "Pytany o to, czy uważa Putina za przyjaciela Ameryki, Trump powiedział, że nie może powiedzieć, czy jest przyjacielem Ameryki, ale zaznaczył, że łączą ich „fantastyczne” relacje osobiste.",
+      "Powiedział, że od dawna ma do czynienia z Putinem i podczas afery związanej z powiązaniami jego otoczenia z Rosją Putin był „bardzo miły”.",
+      "Uważam go za kogoś, z kim mam bardzo dobre relacje i to naprawdę bardzo dobre.",
+      "Ma mnóstwo broni jądrowej.",
+      "Jest drugi po nas w arsenale nuklearnym - mówił."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Elon Reeve Musk – południowoafrykański przemysłowiec, założyciel, współzałożyciel lub finansista przedsiębiorstw SpaceX, Tesla, Neuralink, X.com, The Boring Company oraz SpaceXAI. Pochodzi z Republiki Południowej Afryki, mieszka i pracuje w Stanach Zjednoczonych. Dyrektor generalny i techniczny w SpaceX, dyrektor generalny i główny architekt w Tesla Inc. W styczniu 2021 został uznany najbogatszym człowiekiem świata przez magazyn „Forbes” i agencję Bloomberg. Od 28 października 2022 właściciel serwisu X. W okresie od 20 stycznia do 28 maja 2025 szef Departamentu Wydajności Rządu w drugim gabinecie Donalda Trumpa. Na dzień 2 listopada 2026 roku, według magazynu „Forbes”, jego majątek szacowany jest na 902,1 miliarda dolarów amerykańskich (USD)."
+      "Donald John Trump – amerykański polityk, przedsiębiorca i osobowość telewizyjna, 45. prezydent Stanów Zjednoczonych w latach 2017–2021 oraz 47. prezydent Stanów Zjednoczonych od 2025. Człowiek Roku tygodnika „Time” w 2016 i 2024."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Elon Musk",
-     "url": "https://pl.wikipedia.org/wiki/Elon_Musk"
+     "przypis": "Wikipedia: Donald Trump",
+     "url": "https://pl.wikipedia.org/wiki/Donald_Trump"
     }
    ],
-   "dlaczego_to_ważne": "Twierdził też, że nie należy do MAGA i jeśli przynależność do ruchu „oznacza ślepe posłuszeństwo zasadom Partii Republikańskiej, to z pewnością tego nie robi”.",
+   "dlaczego_to_ważne": "",
    "liczby": [
-    "12",
     "10",
-    "458 milionów",
-    "21",
-    "500",
-    "5,000"
+    "11",
+    "50 lat",
+    "12",
+    "900,000"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Elon Musk",
-    "opis": "południowoafrykański przedsiębiorca",
-    "tekst": "Elon Reeve Musk – południowoafrykański przemysłowiec, założyciel, współzałożyciel lub finansista przedsiębiorstw SpaceX, Tesla, Neuralink, X.com, The Boring Company oraz SpaceXAI. Pochodzi z Republiki Południowej Afryki, mieszka i pracuje w Stanach Zjednoczonych. Dyrektor generalny i techniczny w SpaceX, dyrektor generalny i główny architekt w Tesla Inc. W styczniu 2021 został uznany najbogatszym człowiekiem świata przez magazyn „Forbes” i agencję Bloomberg. Od 28 października 2022 właściciel serwisu X. W okresie od 20 stycznia do 28 maja 2025 szef Departamentu Wydajności Rządu w drugim gabinecie Donalda Trumpa. Na dzień 2 listopada 2026 roku, według magazynu „Forbes”, jego majątek szacowany jest na 902,1 miliarda dolarów amerykańskich (USD).",
-    "url": "https://pl.wikipedia.org/wiki/Elon_Musk",
+    "hasło": "Donald Trump",
+    "opis": "amerykański polityk, 45. i 47. prezydent USA (2017–2021, od 2025)",
+    "tekst": "Donald John Trump – amerykański polityk, przedsiębiorca i osobowość telewizyjna, 45. prezydent Stanów Zjednoczonych w latach 2017–2021 oraz 47. prezydent Stanów Zjednoczonych od 2025. Człowiek Roku tygodnika „Time” w 2016 i 2024.",
+    "url": "https://pl.wikipedia.org/wiki/Donald_Trump",
     "język": "pl"
    },
    "tagi": [
-    "Chinach",
-    "Musk",
-    "USA",
-    "Rosji Władimirem Putinem"
+    "Trump",
+    "Donald Trump",
+    "Ukrainę",
+    "Ameryki"
    ],
    "emotki": [
+    "⚔️",
     "🏛️"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "RMF24 Świat",
-     "tytuł": "Zachwycony Trump nadaje prosto z samolotu: Spotkanie w Chinach „12 na 10”",
-     "url": "https://www.rmf24.pl/fakty/swiat/news-zachwycony-trump-nadaje-prosto-z-samolotu-spotkanie-w-chinac,nIdn,1026868"
+     "tytuł": "„Ma teraz ciężki okres, bo toczy wojnę, która powinna trwać jeden dzień”. Trump o Putinie",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-ma-teraz-ciezki-okres-bo-toczy-wojne-ktora-powinna-trwac-jed,nIdn,1027055"
     },
     {
      "nazwa": "The Guardian",
-     "tytuł": "New page in history? Xi, Trump and Putin summit was more of a footnote",
-     "url": "https://www.theguardian.com/world/2026/nov/19/new-page-in-history-xi-trump-and-putin-summit-was-more-of-a-footnote"
+     "tytuł": "Trump threatens ‘tremendous penalties’ for US tech firms that build datacenters abroad",
+     "url": "https://www.theguardian.com/us-news/2026/nov/20/trump-datacenters-white-house"
     },
     {
      "nazwa": "The Guardian",
@@ -280,37 +334,22 @@
      "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars"
     },
     {
-     "nazwa": "The Guardian",
-     "tytuł": "Trump accused of falling asleep during Xi Jinping speech at Apec summit in China",
-     "url": "https://www.theguardian.com/us-news/2026/nov/19/trump-apec-asleep-china"
-    },
-    {
-     "nazwa": "Deutsche Welle",
-     "tytuł": "Xi Jinping, Donald Trump and Vladimir Putin have held trilateral talks ― but what did they achieve?",
-     "url": "https://www.dw.com/en/xi-jinping-donald-trump-and-vladimir-putin-have-held-trilateral-talks-―-but-what-did-they-achieve/a-79996668?maca=en-rss-en-world-4025-rdf"
-    },
-    {
      "nazwa": "NPR",
-     "tytuł": "Trump, Xi and Putin meet as global alliances hang in the balance",
-     "url": "https://www.npr.org/2026/11/18/nx-s1-6040432/trump-xi-and-putin-shenzhen-china-russia-usa"
-    },
-    {
-     "nazwa": "NPR",
-     "tytuł": "Top House Democrat questions what Trump accomplished in Xi-Putin summit",
-     "url": "https://www.npr.org/2026/11/19/nx-s1-6046487/gregory-meeks-trump-xi-putin-summit"
+     "tytuł": "Trump touts meeting with Xi and Putin but offers little results",
+     "url": "https://www.npr.org/2026/11/20/nx-s1-6047594/trump-asia-trip-xi-putin-press-conference"
     }
    ],
-   "liczba_źródeł": 4,
+   "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 10.826,
+    "wynik": 8.588,
     "składowe": {
-     "potwierdzenia": 5.7,
-     "ranga_źródła": 2.175,
-     "eksponowanie": 0.09,
-     "słowa_kluczowe": 1.4,
-     "świeżość": 0.461,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.688,
+     "eksponowanie": 0.54,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.51,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -324,86 +363,89 @@
     "emoji": "🌍",
     "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
    },
-   "nagłówek": "USA otrzymały wyraźne ostrzeżenie od Chin. Trump odpowiedział ws. Tajwanu",
-   "lead": "Według komunikatu chińskiego resortu spraw zagranicznych obaj przywódcy uzgodnili przygotowanie planu dotyczącego rozwoju dwustronnych relacji. Mają być one oparte na „szacunku, sprawiedliwości i wzajemności”.",
+   "nagłówek": "Złoto traci na wartości. Najgorszy tydzień dla kruszcu od marca",
+   "lead": "W piątek złoto potaniało nawet o 2,4 proc., schodząc poniżej 3540 dolarów za uncję (ok. W skali całego tygodnia jego cena może spaść o blisko 9 proc.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-19T14:42:00+00:00",
+   "opublikowano": "2026-11-20T08:27:00+00:00",
    "źródło": {
     "nazwa": "RMF24 Świat",
-    "url": "https://www.rmf24.pl/fakty/swiat/news-usa-otrzymaly-wyrazne-ostrzezenie-od-chin-trump-odpowiedzial,nIdn,1026849",
+    "url": "https://www.rmf24.pl/fakty/ekonomia/news-zloto-traci-na-wartosci-najgorszy-tydzien-dla-kruszcu-od-mar,nIdn,1026932",
     "domena": "rmf24.pl"
    },
-   "obraz": "https://rmf.rmffm.pl/news/attachments/6e/0f/donald-trump-i-xi-jinping-636x421-6e0f2129.jpg",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/e5/e8/zdjecie-ilustracyjne-636x421-e5e896d4.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "W czasie rozmów omawiano także handel, współpracę w zwalczaniu przemytu narkotyków oraz oszustw telekomunikacyjnych i internetowych.",
-      "Poruszono również kwestie deportacji nielegalnych migrantów oraz utrzymania systemów sztucznej inteligencji „pod kontrolą człowieka”.",
-      "Chińskie MSZ przekazało, że Xi Jinping podniósł podczas rozmowy sprawę Tajwanu – demokratycznie rządzonej wyspy, którą Pekin uważa za część swojego terytorium.",
-      "Według relacji Pekinu Donald Trump zadeklarował gotowość USA do utrzymywania stabilnych relacji z Chinami i współpracy gospodarczej.",
-      "Miał też powiedzieć, że Waszyngton „nie popiera niepodległości Tajwanu”.",
-      "To formuła używana w amerykańskiej dyplomacji od lat i stanowiąca element polityki wobec Chin.",
-      "USA z jednej strony popierają koncepcję „jednych Chin”, a z drugiej utrzymują relacje z Tajpej i zobowiązania do umożliwienia wyspie samoobrony.",
-      "Chiny oczekują od Stanów Zjednoczonych dalej idącego stanowiska, czyli otwartego sprzeciwu wobec tajwańskiej niepodległości .",
-      "Biały Dom nie opublikował dotąd własnego komunikatu po spotkaniu."
+      "Ostatni raz kruszec kosztował tyle we wrześniu 2025 r.",
+      "Jeszcze mocniej traci srebro, którego notowania obniżyły się w tym czasie o około 14 proc.",
+      "Presję na metale szlachetne wywierają wypowiedzi przedstawicieli Fed.",
+      "Prezes chicagowskiego oddziału Rezerwy Federalnej Austan Goolsbee stwierdził w czwartek, że wobec utrzymującej się inflacji w USA rozważałby wszystkie dostępne działania.",
+      "Rynek odebrał to jako kolejny sygnał, że stopy procentowe mogą nadal rosnąć – pisze Bloomberg.",
+      "Perspektywa bardziej restrykcyjnej polityki pieniężnej utrzymuje rentowności amerykańskich obligacji na wysokim poziomie.",
+      "Wyższe stopy i rentowności obligacji zwykle nie sprzyjają złotu, które nie przynosi odsetek.",
+      "Dodatkowo w tym tygodniu indeks dolara wzrósł o 0,7 proc., co podnosi koszt zakupu złota dla inwestorów posługujących się innymi walutami.",
+      "Justin Lin – strateg firmy zarządzającej funduszami giełdowymi Global X ETFs uważa, że złoto jest obecnie w bardzo słabej sytuacji."
      ]
     }
    ],
-   "dlaczego_to_ważne": "„W kwestii Tajwanu strona amerykańska powinna konsekwentnie postępować właściwie, aby uniknąć poważnych zawirowań w stosunkach chińsko-amerykańskich ” – wskazano w komunikacie.",
-   "liczby": [],
-   "inne_spojrzenia": [],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "2,4 proc.",
+    "3540",
+    "14,3 tys. zł",
+    "9 proc.",
+    "14 proc.",
+    "0,7 proc."
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "RMF24 Świat",
+     "ujęcie": "Gwałtowne spadki na Wall Street.",
+     "url": "https://www.rmf24.pl/fakty/ekonomia/news-gwaltowne-spadki-na-wall-street-najgorszy-tydzien-od-pandemi,nIdn,1027070"
+    }
+   ],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Tajwanu",
-    "Chin",
     "USA",
-    "Stanów Zjednoczonych"
+    "Rezerwy Federalnej Austan Goolsbee",
+    "Bloomberg",
+    "Global"
    ],
    "emotki": [
-    "🗺️"
+    "💰"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "RMF24 Świat",
-     "tytuł": "USA otrzymały wyraźne ostrzeżenie od Chin. Trump odpowiedział ws. Tajwanu",
-     "url": "https://www.rmf24.pl/fakty/swiat/news-usa-otrzymaly-wyrazne-ostrzezenie-od-chin-trump-odpowiedzial,nIdn,1026849"
+     "tytuł": "Złoto traci na wartości. Najgorszy tydzień dla kruszcu od marca",
+     "url": "https://www.rmf24.pl/fakty/ekonomia/news-zloto-traci-na-wartosci-najgorszy-tydzien-dla-kruszcu-od-mar,nIdn,1026932"
     },
     {
-     "nazwa": "BBC News",
-     "tytuł": "BBC correspondents discuss what Trump, Xi and Putin got out of historic talks",
-     "url": "https://www.bbc.co.uk/news/videos/c63rgnq05pdwo?at_medium=RSS&at_campaign=rss"
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Gwałtowne spadki na Wall Street. Najgorszy tydzień od pandemii",
+     "url": "https://www.rmf24.pl/fakty/ekonomia/news-gwaltowne-spadki-na-wall-street-najgorszy-tydzien-od-pandemi,nIdn,1027070"
     },
     {
-     "nazwa": "BBC News",
-     "tytuł": "This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
-     "url": "https://www.bbc.co.uk/news/articles/cr9d75we51j1o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC News",
-     "tytuł": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
-     "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC Europe",
-     "tytuł": "Trump says he and Putin have a 'great relationship' at meeting",
-     "url": "https://www.bbc.co.uk/news/videos/cm4gn31yn0x9o?at_medium=RSS&at_campaign=rss"
+     "nazwa": "The Guardian",
+     "tytuł": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
+     "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.959,
+    "wynik": 5.463,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 2.085,
-     "eksponowanie": 0.09,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.458,
-     "treściwość": 0.226,
+     "ranga_źródła": 1.515,
+     "eksponowanie": 0.18,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.518,
+     "treściwość": 0.5,
      "język_działu": 0.5
     }
    },
@@ -416,177 +458,191 @@
     "emoji": "🏅",
     "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
    },
-   "nagłówek": "Barcelona gromi w LM. To była miazga. Pajor na pierwszej linii ognia",
-   "lead": "W ekipie pokonanych od pierwszej minuty zagrała Magdalena Sobal . Co ciekawe, z dwóch Polek na murawie to ona była bliżej zdobycia gola, mimo że zeszła z murawy w 69. minucie.",
+   "nagłówek": "Polska mistrzyni Europy liczona. Ale jaki rewanż. Potężna bitwa o półfinał",
+   "lead": "Rok temu z Budapesztu kadra Tomasza Dylaka przywiozła aż siedem medali, cztery z nich były złotego koloru. O powtórce teraz w Poreču nie było mowy, z prostego powodu.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-19T21:54:40+00:00",
+   "opublikowano": "2026-11-20T18:53:09+00:00",
    "źródło": {
     "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/pilka-nozna/news-barcelona-gromi-w-lidze-mistrzyn-to-byla-miazga-pajor-na-pie,nId,23576308",
+    "url": "https://sport.interia.pl/boks/news-polska-mistrzyni-europy-liczona-ale-jaki-rewanz-potezna-bitw,nId,23576879",
     "domena": "sport.interia.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000NB6COHDDPKNKV-C321.webp",
+   "obraz": "https://i.iplsc.com/-/000NK1NM767HW4RK-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Ewa Pajor zaliczyła całe spotkanie , ale nie zanotowała na swoim koncie ani bramki, ani asysty.",
-      "Dla najlepszej polskiej piłkarki to drugi mecz z rzędu w Lidze Mistrzyń, w którym nie trafia do siatki.",
-      "Przed tygodniem pusty przebieg zaliczyła w starciu z londyńskim Arsenalem (1:1).",
-      "Tym razem okazji bramkowych nie brakowało, ale kapitan drużyny narodowej w decydujących momentach raziła brakiem precyzji .",
-      "\"Choć nie udało jej się strzelić gola, nie przeszkodziło jej to w atakowaniu i zdobywaniu przestrzeni\" - cenzurkę występu naszej zawodniczki \"Mundo Deportivo\" ograniczyło do jednego zdania.",
-      "Ta strona jest chroniona przez reCAPTCHA Jeszcze przed przerwą oko w oko z golkiperką Barcelony stanęła Sobal .",
-      "Minęła rywalkę i skierowała piłkę do pustej bramki.",
-      "Gol nie został jednak uznany z powodu ofsajdu.",
-      "Po zmianie stron Katalonki kontynuowały egzekucję."
+      "O ile męskie kategoria zostały obsadzone bardzo bogato przez nasz zespół, to te kobiece zaledwie w połowie.",
+      "A dwie nasze zawodniczki, Nadia Formela i Amelia Kostrzewa, przegrały swoje pierwsze walki.",
+      "Zostały więc tylko trzy medalowe szanse - Natalia Niewiadomska, Aleksandra Cyrek i właśnie Emilia Koterska zaczynały swoją rywalizację w piątek, już od fazy ćwierćfinałów.",
+      "Dwie pierwsze spisały się świetnie, wygrały swoje potyczki po 5:0.",
+      "A na końcu, w sesji wieczornej, do ringu weszła Koterska.",
+      "Aby bronić złota wywalczonego w Budapeszcie.",
+      "Ta strona jest chroniona przez reCAPTCHA Rywalką Koterskiej była Zsofia Szira - Węgierka rok temu zastopowała w swoim kraju Julię Oleś, a później sięgnęła po złoto.",
+      "Tyle że w kategorii najcięższej, +80 kilogramów.",
+      "W niej też wystąpiła w seniorskich ME w Sofii - stanęła na podium, obok naszej Elżbiety Wójcik."
      ]
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "69",
-    "13 punktami",
-    "11"
-   ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "TVP Sport",
-     "ujęcie": "FC Barcelona zdemolowała Servette Genewa 6:0.",
-     "url": "https://sport.tvp.pl/96572276/fc-barcelona-zdemolowala-servette-genewa-60-ewa-pajor-bez-gola"
-    }
-   ],
-   "pojęcia": [],
-   "tło": null,
-   "tagi": [
-    "Pina Graham Hansen",
-    "Athletikiem Bilbao",
-    "Magdalena Sobal",
-    "Mundo Deportivo"
-   ],
-   "emotki": [
-    "⚽"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Interia Sport",
-     "tytuł": "Barcelona gromi w LM. To była miazga. Pajor na pierwszej linii ognia",
-     "url": "https://sport.interia.pl/pilka-nozna/news-barcelona-gromi-w-lidze-mistrzyn-to-byla-miazga-pajor-na-pie,nId,23576308"
     },
     {
-     "nazwa": "TVP Sport",
-     "tytuł": "FC Barcelona zdemolowała Servette Genewa 6:0. Ewa Pajor bez gola",
-     "url": "https://sport.tvp.pl/96572276/fc-barcelona-zdemolowala-servette-genewa-60-ewa-pajor-bez-gola"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 4.558,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.2,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.518,
-     "treściwość": 0.44,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "sport-pl",
-    "nazwa": "Sport w Polsce",
-    "emoji": "🏅",
-    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
-   },
-   "nagłówek": "Są pierwsze skutki decyzji Maciusiaka. \"Zyskaliśmy\" pięć lat",
-   "lead": "Po wielomiesięcznej przerwie w końcu naszedł czas na rozpoczęcie sezonu 2026/2027 Pucharu Świata w skokach narciarskich. Premierowy weekend odbędzie się w norweskim Lillehammer, a szczególną uwagę polskich kibiców będzie skupiał na sobie Kacper Tomasiak .",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-20T04:00:03+00:00",
-   "źródło": {
-    "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/skoki-narciarskie/news-sa-pierwsze-skutki-decyzji-maciusiaka-zyskalismy-piec-lat,nId,23576115",
-    "domena": "sport.interia.pl"
-   },
-   "obraz": "https://i.iplsc.com/-/000MCUF57C3DOAE5-C321.webp",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
      "treść": [
-      "Nasz trzykrotny medalista olimpijski z Predazzo po dobrym występie podczas niedawnym mistrzostw Polski jedynie podsycił oczekiwania kibiców.",
-      "Poza nim na starcie pośród Polaków zobaczymy również Dawida Kubackiego, Pawła Wąska, Klemensa Joniaka, Macieja Kota oraz Jakuba Wolnego.",
-      "Poza składem znalazł się natomiast Piotr Żyła, jeden z najbardziej doświadczonych zawodników .",
-      "Takie wybory Macieja Maciusiaka, a także brak ostatniego ze wspomnianych sprawił, że Polacy nie są już najstarszą nacją w czołówce.",
-      "Żadną tajemnicą nie jest, że zespół polskich skoczków był zdecydowanie jednym z najstarszych , a średnia wieku podczas zakończenia minionego sezonu w Planicy wynosiła 33,2 roku.",
-      "Dla porównania, kilka dni wcześniej w Vikersund było to już 31,3 roku (wtedy upadek zaliczył Tomasiak).",
-      "Teraz sytuacja prezentuje się nieco inaczej.",
-      "Wspomniana szóstka jest młodsza od składu z Planicy aż o pięć lat.",
-      "Jak natomiast sprawa wygląda na tle innych nacji?"
+      "Skrót meczu półfinałowego o miejsca 9.-12. na mistrzostwach świata w amp futbolu Meksyk 2026: Polska – Kostaryka."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Maciej Maciusiak – polski skoczek narciarski, złoty medalista drużynowych mistrzostw Polski z 2004 roku, serwismen, w latach 2012–2023 trener grupy szkoleniowej B i C polskiej kadry w skokach narciarskich. Od 2024 asystent trenera reprezentacji Polski w skokach narciarskich Thomasa Thurnbichlera. Od sezonu 2025/2026 główny trener reprezentacji Polski w skokach narciarskich."
+      "Liga Europy UEFA – międzynarodowy klubowy turniej piłki nożnej, organizowany przez Unię Europejskich Federacji Piłkarskich, w którym biorą udział zespoły zajmujące czołowe lokaty w narodowych rozgrywkach najwyższego szczebla, z wyłączeniem drużyn biorących udział w Lidze Mistrzów. Utworzony został w 2009 roku jako kontynuacja Pucharu UEFA."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Maciej Maciusiak",
-     "url": "https://pl.wikipedia.org/wiki/Maciej_Maciusiak"
+     "przypis": "Wikipedia: Liga Europy UEFA",
+     "url": "https://pl.wikipedia.org/wiki/Liga_Europy_UEFA"
     }
    ],
-   "dlaczego_to_ważne": "Do tego będzie to pierwszy sezon bez Kamila Stocha, który jest już na sportowej emeryturze.",
+   "dlaczego_to_ważne": "",
    "liczby": [
-    "33,2",
-    "31,3",
-    "28,2",
-    "26,3",
-    "26,4",
-    "27 lat"
+    "+80",
+    "20",
+    "10",
+    "15",
+    "30",
+    "27"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "Mecz półfinałowy o miejsca 9.-12. na mistrzostwach świata w amp futbolu Meksyk 2026: Polska – Kostaryka.",
+     "url": "https://sport.tvp.pl/96569370/polska-kostaryka-mistrzostwa-swiata-amp-futbol-2026-polfinal-o-miejsca-9-12-transmisja-na-zywo-online-live-stream"
+    }
+   ],
    "pojęcia": [],
    "tło": {
-    "hasło": "Maciej Maciusiak",
-    "opis": "polski skoczek narciarski",
-    "tekst": "Maciej Maciusiak – polski skoczek narciarski, złoty medalista drużynowych mistrzostw Polski z 2004 roku, serwismen, w latach 2012–2023 trener grupy szkoleniowej B i C polskiej kadry w skokach narciarskich. Od 2024 asystent trenera reprezentacji Polski w skokach narciarskich Thomasa Thurnbichlera. Od sezonu 2025/2026 główny trener reprezentacji Polski w skokach narciarskich.",
-    "url": "https://pl.wikipedia.org/wiki/Maciej_Maciusiak",
+    "hasło": "Liga Europy UEFA",
+    "opis": "międzynarodowy klubowy turniej piłki nożnej",
+    "tekst": "Liga Europy UEFA – międzynarodowy klubowy turniej piłki nożnej, organizowany przez Unię Europejskich Federacji Piłkarskich, w którym biorą udział zespoły zajmujące czołowe lokaty w narodowych rozgrywkach najwyższego szczebla, z wyłączeniem drużyn biorących udział w Lidze Mistrzów. Utworzony został w 2009 roku jako kontynuacja Pucharu UEFA.",
+    "url": "https://pl.wikipedia.org/wiki/Liga_Europy_UEFA",
     "język": "pl"
    },
    "tagi": [
-    "Lillehammer",
-    "Polaków",
-    "Planicy",
-    "Dawida Kubackiego Pawła Wąska Klemensa Joniaka Macieja Kota"
+    "Budapesztu",
+    "Koterska",
+    "Natalia Niewiadomska Aleksandra Cyrek",
+    "Zsofia Szira Węgierka"
    ],
    "emotki": [
-    "🎿",
-    "📈",
     "🏅"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Interia Sport",
-     "tytuł": "Są pierwsze skutki decyzji Maciusiaka. \"Zyskaliśmy\" pięć lat",
-     "url": "https://sport.interia.pl/skoki-narciarskie/news-sa-pierwsze-skutki-decyzji-maciusiaka-zyskalismy-piec-lat,nId,23576115"
+     "tytuł": "Polska mistrzyni Europy liczona. Ale jaki rewanż. Potężna bitwa o półfinał",
+     "url": "https://sport.interia.pl/boks/news-polska-mistrzyni-europy-liczona-ale-jaki-rewanz-potezna-bitw,nId,23576879"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Polska – Kostaryka. Mistrzostwa Świata AMP Futbol 2026, półfinał o miejsca 9-12 [SKRÓT]",
+     "url": "https://sport.tvp.pl/96593350/polska-kostaryka-mistrzostwa-swiata-amp-futbol-2026-polfinal-o-miejsca-9-12-skrot"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Polska – Kostaryka. Mistrzostwa Świata AMP Futbol 2026, półfinał o miejsca 9-12 [MECZ]",
+     "url": "https://sport.tvp.pl/96569370/polska-kostaryka-mistrzostwa-swiata-amp-futbol-2026-polfinal-o-miejsca-9-12-transmisja-na-zywo-online-live-stream"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.161,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.35,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.511,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Gwizdy w Chorwacji po walce Polaka. 140-kilogramowy kolos pobity w ringu",
+   "lead": "Poreč i Pula to dla wielu Polaków miejsca wakacyjnych wypadów - Istria przez lata była urlopowym celem. W tym pierwszym mieście Chorwaci zorganizowali w tym roku Mistrzostwa Europy do lat 23 w boksie, w tym drugim mieszka zaś Elvis Mahmutović - miejscowa nadzieja na medal.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-20T20:23:27+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/boks/news-gwizdy-w-chorwacji-po-walce-polaka-140-kilogramowy-kolos-pob,nId,23576895",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NK1QVA9E950HI-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "21-letni zawodnik nie jest wybitnym technikiem.",
+      "Ba, nie jest nawet przeciętnym technikiem.",
+      "Ma za to ogromną siłę, mierzy blisko dwa metry i ma ponad 140 kilogramów wagi.",
+      "A to, w połączeniu z całkiem nienajgorszą koordynacją i szybkością, ma ogromne znaczenie.",
+      "Przekonał się o tym Irlandczyk Thomas Stokes.",
+      "Ta strona jest chroniona przez reCAPTCHA Teraz przeciwko potężnie zbudowanemu Chorwatowi wyszedł walczyć Krzysztof Zakrzewski - 19-latek z Polski, który przebojem wdarł się do czołówki Polskiej Ligi Boksu.",
+      "A w tak młodym wieku, w kategorii superciężkiej (powyżej 90 kilogramów), nie jest o to łatwo.",
+      "Dziś jednak pokazał, że ścieżka wytyczona przez Fabiana Urbańskiego może być też i dla niego.",
+      "Piątek był w Chorwacji pierwszym dniem walki o strefę medalową."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "23",
+    "21",
+    "140",
+    "19",
+    "90",
+    "30"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Chorwacji",
+    "Polski",
+    "Polak",
+    "Natalia Niewiadomska Aleksandra Cyrek Emilia Koterska"
+   ],
+   "emotki": [
+    "🏅",
+    "🥊"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Gwizdy w Chorwacji po walce Polaka. 140-kilogramowy kolos pobity w ringu",
+     "url": "https://sport.interia.pl/boks/news-gwizdy-w-chorwacji-po-walce-polaka-140-kilogramowy-kolos-pob,nId,23576895"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.688,
+    "wynik": 3.942,
     "składowe": {
      "potwierdzenia": 0.0,
      "ranga_źródła": 1.05,
      "eksponowanie": 0.0,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.588,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.492,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -600,48 +656,42 @@
     "emoji": "🌐",
     "opis": "wielkie ligi, turnieje i rekordy poza Polską"
    },
-   "nagłówek": "Głosuj na pierwszego Piłkarza Roku BBC w kategorii mężczyzn",
-   "lead": "Jude Bellingham, Harry Kane, Kylian Mbappe, Rodri i Lamine Yamal znaleźli się na krótkiej liście nominowanych do nagrody BBC dla Piłkarza Roku wśród mężczyzn.",
+   "nagłówek": "Wielki gwiazdor NFL Brady może kupić udziały w Chelsea",
+   "lead": "Wybitny amerykański futbolista Tom Brady chce zainwestować w Chelsea za pośrednictwem grupy właścicielskiej Clearlake Capital.",
    "język_źródła": "en",
-   "opublikowano": "2026-11-19T06:30:04+00:00",
+   "opublikowano": "2026-11-20T22:36:35+00:00",
    "źródło": {
     "nazwa": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c61wrqr7l1d8o?at_medium=RSS&at_campaign=rss",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmg46k97k92do?at_medium=RSS&at_campaign=rss",
     "domena": "bbc.co.uk"
    },
-   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eca1/live/e82d49d0-e335-11f1-a094-5fdc692f3e33.jpg",
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb77/live/3264bae0-e52c-11f1-964d-a1d5fe40573e.jpg",
    "sekcje": [
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Dowiedz się, jak słuchać innych stacji BBC Radio 5 Live , · 19 listopada 2026 r. , · 38 min Ellen White dołącza do Ricka i Lloyda, aby porozmawiać o nominowanych w zupełnie nowej kategorii nagrody BBC Sports Personality of the Year: Piłkarz roku w kategorii mężczyzn.",
-      "W wyścigu biorą udział Jude Bellingham, Harry Kane, Kylian Mbappé, Rodri i Lamine Yamal, wybrani przez zespół ekspertów złożony z byłych zawodników, w tym Ellen.",
-      "Dziennikarz i prezenter radiowy, który zmarł w ubiegłym tygodniu w wieku 69 lat, znał trwałą siłę radia, nawet gdy rzeczywistość zmieniała się tak szybko. To doliczony czas gry na stadionie Emirates 29 października 2008 roku, Arsenal prowadzi 4:3 z Tottenhamem.",
-      "Piłka przelatuje nad Manuelem Almunią i odbija się od słupka, trafiając na drogę Aarona Lennona, który wpakowuje ją do bramki i zaczyna biec w kierunku kibiców Spurs, po czym pada na murawę i zostaje otoczony przez Modricia, Benoîta Assou-Ekotto, Darrena Benta i kilku kibiców, którzy wdarli się na boisko.",
-      "Ale prawdziwa zabawa toczy się w studziu radiowym przy 18 Hatfields w Londynie (SE1), dawnej siedzibie TalkSport.",
-      "14-letnia wojna domowa zdewastowała kraj i całkowicie sparaliżowała kobiecą piłkę nożną.",
-      "Dziś, pośród trudności, zaczynają pojawiać się pierwsze promyki nadziei. W grudniu 2024 roku syryjska żeńska drużyna piłkarska do lat 18 wsiadła o północy do autobusu odjeżdżającego w ostatniej chwili z Akaby do Damaszku."
+      "Legenda NFL była gościem Chelsea na Klubowych Mistrzostwach Świata Brady ma dobre relacje z Behdadem Eghbalim Tom Brady prowadzi rozmowy na temat zakupu niewielkiego udziału w Chelsea.",
+      "Legenda NFL sprzedała w tym miesiącu mniejszościowy pakiet udziałów w Birmingham City po trzech latach. Według źródeł był to krok mający utorować drogę do inwestycji na Stamford Bridge.",
+      "Brady był gościem Chelsea, gdy ta wygrała Klubowe Mistrzostwa Świata w New Jersey w ubiegłym roku i został zauważony, gdy świętował z zawodnikami po ich niezwykłym zwycięstwie 3:0 w finale z Paris Saint-Germain.",
+      "Uważa się, że siedmiokrotny zwycięzca Super Bowl ma dobre relacje z Behdadem Eghbalim, którego fundusz Clearlake Capital posiada 86,5% akcji Chelsea po tym, jak Todd Boehly i Mark Walter sprzedali swoje udziały we wrześniu.",
+      "Brady zainwestował w Birmingham w sierpniu 2023 roku, niespełna rok po swoim drugim i ostatnim odejściu z NFL, po przejęciu klubu przez firmę Knighthead Capital Toma Wagnera.",
+      "Brady został mianowany przewodniczącym rady doradczej klubu i odegrał znaczącą rolę w filmie dokumentalnym Amazon Prime z 2025 roku „Built in Birmingham: Brady & The Blues”, który trafił na pierwsze strony gazet, gdy Brady zakwestionował „etykę pracy” Wayne’a Rooneya, ówczesnego menedżera klubu."
      ]
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "19",
-    "38",
-    "27",
-    "08000 289 369",
-    "00",
-    "44"
+    "86.5%"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Year Jude Bellingham Harry Kane Kylian Mbappe Rodri",
-    "BBC's Men's Footballer",
-    "Men's Footballer",
-    "Lamine Yamal"
+    "Chelsea",
+    "Clearlake Capital",
+    "Tom Brady",
+    "American"
    ],
    "emotki": [
     "⚽"
@@ -649,51 +699,31 @@
    "wszystkie_źródła": [
     {
      "nazwa": "BBC Sport",
-     "tytuł": "Vote for the first BBC Men's Footballer of the Year",
-     "url": "https://www.bbc.co.uk/sport/football/articles/c61wrqr7l1d8o?at_medium=RSS&at_campaign=rss"
+     "tytuł": "NFL great Brady could buy Chelsea stake",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cmg46k97k92do?at_medium=RSS&at_campaign=rss"
     },
     {
-     "nazwa": "BBC Football",
-     "tytuł": "Football Daily",
-     "url": "https://www.bbc.co.uk/sounds/play/m003501m?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "The Guardian Football",
-     "tytuł": "Danny Kelly loved football and never forgot the absurdity of earning a living talking about it | Max Rushden",
-     "url": "https://www.theguardian.com/football/2026/nov/19/danny-kelly-death-football-radio"
-    },
-    {
-     "nazwa": "The Guardian Football",
-     "tytuł": "Inside women’s football’s difficult rise in Syria: ‘A joy that everyone in the country needed’",
-     "url": "https://www.theguardian.com/football/2026/nov/19/syria-womens-football"
-    },
-    {
-     "nazwa": "The Guardian Football",
-     "tytuł": "Football Daily | Football’s political gamers face off at Fifa with the real-life final boss",
-     "url": "https://www.theguardian.com/football/2026/nov/19/football-daily-fifa-presidential-election"
-    },
-    {
-     "nazwa": "The Guardian Football",
-     "tytuł": "Scotland smashed by the Swiss and Mauricio Pochettino takes charge | Football Weekly – video",
-     "url": "https://www.theguardian.com/football/video/2026/nov/19/scotland-smashed-by-the-swiss-and-mauricio-pochettino-takes-charge-football-weekly-video"
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Tom Brady in talks over buying Chelsea stake after Birmingham City exit",
+     "url": "https://www.theguardian.com/football/2026/nov/20/tom-brady-chelsea-talks-stake-birmingham-city"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.081,
+    "wynik": 5.72,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 2.095,
-     "eksponowanie": 0.09,
+     "ranga_źródła": 1.48,
+     "eksponowanie": 0.27,
      "słowa_kluczowe": 1.05,
-     "świeżość": 0.446,
+     "świeżość": 0.52,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Vote for the first BBC Men's Footballer of the Year",
+   "oryginalny_nagłówek": "NFL great Brady could buy Chelsea stake",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -707,89 +737,70 @@
     "emoji": "🌐",
     "opis": "wielkie ligi, turnieje i rekordy poza Polską"
    },
-   "nagłówek": "Jak wielka szóstka Premier League wciąż się bogaci",
-   "lead": "Po dziesięciu kolejkach sezonu Premier League w pięciu najwyższych miejscach dominują kluby z tzw. „wielkiej szóstki”. Nie powinno to dziwić, ponieważ mają one coraz większą przewagę wynoszącą setki milionów funtów.",
+   "nagłówek": "Spektakularny początek Pochettina, mecz Anglia – All Blacks i finał ATP Finals – śledź to wszystko z nami",
+   "lead": "Oto jak śledzić nasze relacje – najlepsze artykuły i najświeższe wiadomości Czytaj dalej...",
    "język_źródła": "en",
-   "opublikowano": "2026-11-19T07:38:22+00:00",
+   "opublikowano": "2026-11-20T17:27:24+00:00",
    "źródło": {
-    "nazwa": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c6x28e93zv3jo?at_medium=RSS&at_campaign=rss",
-    "domena": "bbc.co.uk"
+    "nazwa": "The Guardian Football",
+    "url": "https://www.theguardian.com/sport/2026/nov/20/pochettinos-fiery-start-plus-england-v-all-blacks-and-atp-finals-finale-follow-with-us",
+    "domena": "theguardian.com"
    },
-   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c612/live/1f6a6e00-e291-11f1-b166-176de21e2352.jpg",
+   "obraz": "https://i.guim.co.uk/img/media/7680afc70975a891a74a4d3ee5d80fd3440b9947/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=26ff89da867c397ebcf230d12ef12caf",
    "sekcje": [
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Bruno Guimarães poczuje gorącą atmosferę w Tyneside, powrót Alex Scott jeszcze bardziej ucieszy „Wiśnie”, a Manchester City zmierzy się ze swoim ulubionym chłopcem do bicia. Po trzech porażkach z rzędu w Premier League Manchester City potrzebuje czegoś lub kogoś, kto doda mu energii, a Fulham wydaje się być właśnie tym, czego potrzebuje – w końcu w ciągu ostatnich 15 lat te drużyny rozegrały 20 meczów we wszystkich rozgrywkach, a City wygrało dokładnie 20 z tych spotkań.",
-      "Ich obecna seria 17 kolejnych zwycięstw ligowych z Fulham to najdłuższa seria zwycięstw jednego klubu z jednym przeciwnikiem w historii najwyższej ligi angielskiej.",
-      "Jest to odzwierciedlenie zmieniającej się rzeczywistości angielskiej piłki nożnej oraz przepaści, która pojawiła się między zespołami dominującymi a tymi, które starają się im dorównać. Wśród 10 najdłuższych serii zwycięstw wszystkie oprócz jednej miały miejsce w całości lub częściowo po 2010 roku, a sześć z nich zostało osiągniętych przez Manchester City szejka Mansoura. Za dwie kolejne odpowiada Chelsea, za jedną Manchester United, a za powojenną serię 13 zwycięstw nad Evertonem – Portsmouth. Była to szalona jazda, która obejmowała dwa wyniki 5:0, 5:1, 6:3 i 7:0 – to ta anomalia.",
-      "Simon Burnton Atmosfera wokół Aston Villi jest pozytywna, mimo że drużyna nie wygrała czterech meczów, z których ostatni zakończył się w bardzo bolesny sposób. Villa musiała zadowolić się remisem 4:4 z Manchesterem United po tym, jak dwukrotnie zaprzepaściła dwubramkowe prowadzenie.",
-      "W zeszłym sezonie ten mecz był klasycznym pojedynkiem, w którym Tammy Abraham zdobył zwycięską bramkę w doliczonym czasie gry, pogarszając tym samym fatalne statystyki gości na Villa Park.",
-      "Sunderland wygrał tylko dwa z ostatnich 17 meczów wyjazdowych w lidze. Ostatnie zwycięstwo odniósł w 2011 roku dzięki byłemu wypożyczonemu z Villi Philowi Bardsleyowi.",
-      "Kluby Premier League głosują za zapewnieniem ochrony prawnej pięciu członkom zarządu organizacji na wypadek, gdyby sponsorzy Manchesteru City pozwali ich do sądu."
+      "Wyniki na żywo, aktualności dotyczące drużyn, relacja tekstowa, analiza ze stadionu Allianz w Twickenham z meczu Anglia – Nowa Zelandia (początek o 14:10) oraz ze stadionu Aviva w Dublinie z meczu Irlandia – RPA (początek o 16:40); trzecia runda meczów testowych w ramach Mistrzostw Narodów na półkuli północnej w tym miesiącu. Przepraszamy, ten blog jest obecnie niedostępny."
      ]
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "15",
-    "20",
-    "17",
-    "10",
-    "13",
-    "23"
+    "2.10",
+    "4.40"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Premier League's",
-    "Premier League"
+    "All Blacks",
+    "Continue",
+    "England",
+    "Finals"
    ],
    "emotki": [
-    "⚽",
-    "🏛️"
+    "🎾"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "BBC Sport",
-     "tytuł": "How Premier League's big six keep getting richer",
-     "url": "https://www.bbc.co.uk/sport/football/articles/c6x28e93zv3jo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "The Guardian Sport",
-     "tytuł": "Premier League: 10 things to look out for this weekend",
-     "url": "https://www.theguardian.com/football/2026/nov/20/premier-league-10-things-to-look-out-for-this-weekend"
-    },
-    {
-     "nazwa": "BBC Football",
-     "tytuł": "Premier League clubs to cover legal costs if Man City sponsors sue",
-     "url": "https://www.bbc.co.uk/sport/football/articles/cqy4jvdw7jdlo?at_medium=RSS&at_campaign=rss"
-    },
-    {
      "nazwa": "The Guardian Football",
-     "tytuł": "Premier League clubs vote through new rules to increase legal protection for board",
-     "url": "https://www.theguardian.com/football/2026/nov/19/premier-league-vote-new-rules-financial-indemnity-lawsuits"
+     "tytuł": "Pochettino’s fiery start, plus England v All Blacks and ATP Finals finale – follow with us",
+     "url": "https://www.theguardian.com/sport/2026/nov/20/pochettinos-fiery-start-plus-england-v-all-blacks-and-atp-finals-finale-follow-with-us"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "England vs New Zealand LIVE! Freeman ruled out late for All Blacks clash",
+     "url": "https://www.skysports.com/rugby-union/live-blog/12040/13614305/england-vs-new-zealand-ireland-vs-south-africa-live-nations-championship-updates-latest-scores-team-news-commentary-from-twickenham-dublin"
     }
    ],
    "liczba_źródeł": 2,
-   "czas_czytania_min": 2,
+   "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.441,
+    "wynik": 5.118,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.803,
-     "eksponowanie": 0.0,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.72,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.538,
-     "treściwość": 0.5,
+     "świeżość": 0.456,
+     "treściwość": 0.142,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "How Premier League's big six keep getting richer",
+   "oryginalny_nagłówek": "Pochettino’s fiery start, plus England v All Blacks and ATP Finals finale – follow with us",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -803,120 +814,139 @@
     "emoji": "🧪",
     "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
    },
-   "nagłówek": "Menu w Gemini to był chaos. Google posprzątał i dorzucił mocną nowość",
-   "lead": "Przez ostatnie dni lista modeli w aplikacji Gemini przypominała tablicę Mendelejewa pomieszaną ze starą ofertą. Obok starszych nazw 3.1 Pro i 3.5 Flash-Lite pojawiły się nagle Hydrogen, Argon oraz Carbon.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-19T06:28:00+00:00",
+   "nagłówek": "Claude, znajdź mi planetę: astronomowie amatorzy korzystają ze sztucznej inteligencji, uzyskując różne wyniki",
+   "lead": "We wrześniu Paweł Rabcewicz usiadł przy komputerze i poprosił model sztucznej inteligencji o odkrycie planety. Rabcewicz skierował bota do konkretnego zbioru danych z teleskopu i przekazał mu ogólny plan poszukiwania dowodów na istnienie nieodkrytych planet.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-20T00:00:00+00:00",
    "źródło": {
-    "nazwa": "Spider's Web",
-    "url": "https://spidersweb.pl/2026/11/menu-w-gemini-to-byl-chaos-google-posprzatal-i-dorzucil-mocna-nowosc.html",
-    "domena": "spidersweb.pl"
+    "nazwa": "Nature",
+    "url": "https://www.nature.com/articles/d41586-026-03790-w",
+    "domena": "nature.com"
    },
-   "obraz": "https://cdn-sw.spidersweb.pl/2026/11/gemini-4-neon-nowy-model.webp",
+   "obraz": "https://media.nature.com/lw1200/magazine-assets/d41586-026-03790-w/d41586-026-03790-w_53997324.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Zamiast szybko streścić PDF-a czy porównać oferty, trzeba było zgadywać, która opcja, do czego służy.",
-      "Najnowsza aktualizacja robi z tym porządek.",
-      "Google udostępnił właśnie model Gemini 4 Neon, który zastępuje Argona w środku oferty zaledwie tydzień po premierze Carbona i Hydrogena.",
-      "Nowe nazwy nawiązują do układu okresowego pierwiastków: lekki wodór (Hydrogen) odpowiada za szybkie, codzienne zapytania, ciężki węgiel (Carbon) bierze na siebie najbardziej złożone projekty, a gaz szlachetny Neon wypełnia lukę między nimi.",
-      "Przy okazji z menu aplikacji znika wysłużony 3.1 Pro, a dawny 3.5 Flash-Lite chowa się u płacących użytkowników pod etykietą Auto.",
-      "Na liście zostają teraz cztery czytelne pozycje: Auto (dla osób, które nie chcą wybierać ręcznie), 4 Hydrogen do prostych pytań, 4 Neon do głębszej analizy oraz 4 Carbon do programowania i najcięższych zadań.",
-      "Nowy model ma być złotym środkiem między szybkością a jakością.",
-      "Oferuje poziom rozumowania zbliżony do flagowego Carbona - a w części zadań nawet wyższy - ale według pierwszych testów działa nawet trzy razy szybciej i wolniej zużywa limity konta.",
-      "Jednocześnie ma to samo ogromne okno kontekstowe na milion tokenów, więc w jednym wątku bez problemu przerobi duże paczki danych: arkusze kalkulacyjne, gęste wykresy, PDF-y, zdjęcia, a nawet nagrania audio i wideo."
+      "W ciągu około dwóch tygodni bot dostarczył wyniki: dwie potencjalne planety krążące wokół gwiazdy oddalonej od Ziemi o 116 lat świetlnych.",
+      "Profesjonalni astronomowie sprawdzają obecnie odkrycia bota.",
+      "Rabcewicz, który pracuje w Hiszpanii jako specjalista ds. sztucznej inteligencji i nie ma formalnego wykształcenia astronomicznego, jest jednym z najbardziej utalentowanych przedstawicieli fali astronomów-amatorów, którzy wykorzystują modele sztucznej inteligencji do poszukiwania światów poza Układem Słonecznym.",
+      "Obywatele-naukowcy od dziesięcioleci korzystają z publicznie dostępnych narzędzi opracowanych przez NASA i innych badaczy, aby odkrywać planety.",
+      "Jednak dzięki temu, że sztuczna inteligencja potrafi przeszukiwać Internet w poszukiwaniu takich narzędzi i wykorzystywać je do przetwarzania ogromnych ilości danych, osoby niebędące specjalistami, które chcą zostać łowcami planet, mają łatwiejszy dostęp do tej dziedziny.",
+      "Jednak nowo odkryta dostępność narzędzi do analizy danych oznacza, że nie wszyscy amatorzy prowadzą badania w sposób odpowiedzialny – mówi Michelle Kunimoto, badaczka egzoplanet z Uniwersytetu Kolumbii Brytyjskiej w Vancouver w Kanadzie.",
+      "Niektórzy łowcy planet nie do końca rozumieją algorytmy stosowane przez narzędzia oparte na sztucznej inteligencji, a zatem nie są w stanie zweryfikować wyników uzyskanych przez modele – mówi Kunimoto. „Nastąpił ogromny, przytłaczający wzrost liczby artykułów opartych na sztucznej inteligencji, w których zazwyczaj pojawiają się kandydaci na [planety] o nienajlepszej jakości” – mówią.",
+      "W rezultacie „systemy, których używamy do rozpowszechniania wiedzy naukowej, są przeciążone”.",
+      "Do swoich poszukiwań Rabcewicz zaangażował Claude Code – narzędzie do kodowania oparte na sztucznej inteligencji, stworzone przez firmę Anthropic."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Nowa funkcja Temporary Threads pozwala zadawać pytania bez zapisywania rozmów w historii konta i wpływania na przyszłe odpowiedzi.",
-      "W końcu możemy prowadzić tymczasowe rozmowy, które nie zapisują się w historii wyszukiwania i nie wpływają na późniejszą personalizację odpowiedzi.",
-      "Rozwiązanie przypomina tryb incognito, ale zostało zaprojektowane specjalnie z myślą o rozmowach ze sztuczną inteligencją.",
-      "Jeśli zdarza ci się kończyć rozmowę wideo i natychmiast wskakiwać w kolejne spotkanie, bez chwili na oddech, Kalendarz Google ma dla ciebie dobrą wiadomość."
+      "Nature, opublikowano online: 20 listopada 2026 r.; doi:10.1038/d41586-026-03812-7 Naukowcy twierdzą, że twierdzenie o uzyskaniu dowodu na rozwiązanie przełomowego problemu matematycznego będzie wymagało rygorystycznej weryfikacji.",
+      "Nature, opublikowano online: 20 listopada 2026 r.; doi:10.1038/d41586-026-03465-6 Uciążliwe poczucie, że nie pasujesz do otoczenia, może sprawiać, że będziesz twardo stąpać po ziemi, i pomóc Ci poprawić wyniki.",
+      "Nature, opublikowano online: 20 listopada 2026 r.; doi:10.1038/d41586-026-03811-8 Inwestowanie w obserwacje w krajach o niskich dochodach pomoże zapobiegać katastrofom klimatycznym na całym świecie.",
+      "Jeśli ubiegły rok był „matapokalipsą ”, to twierdzenie, że sztuczna inteligencja pomogła udowodnić hipotezę Riemanna, jest jej jak dotąd najbardziej zaskakującym jeźdźcem.",
+      "Levent Alpöge z firmy zajmującej się sztuczną inteligencją Anthropic twierdzi, że wykorzystał sztuczną inteligencję do rozwiązania tego problemu, który od prawie 200 lat stanowi sedno matematyki.",
+      "To nie tylko najnowszy z szeregu słynnych problemów matematycznych rozwiązanych przez sztuczną inteligencję, ale być może największe osiągnięcie matematyczne stulecia.",
+      "W związku z tym matematycy przyjęli tę wiadomość z mieszaniną radości, zdumienia i ostrożności. „Jeśli to prawda, byłoby to moim zdaniem największe jak dotąd osiągnięcie sztucznej inteligencji i jeden z najważniejszych dowodów w historii matematyki” – mówi Thomas Bloom z Uniwersytetu w Manchesterze w Wielkiej Brytanii. „Hipoteza Riemanna stanowiła poważną przeszkodę w naszym obecnym rozumieniu sposobu, w jaki zachowują się liczby – jeśli dowód oparty na sztucznej inteligencji prawidłowo ją rozwiązał, oznaczałoby to stanowią ogromny krok naprzód w naszej wiedzy”. Rainer Dietmann z Royal Holloway University of London jest równie pod wrażeniem. „Jeśli okaże się, że jest to poprawne, to będzie to nie tylko ogromne osiągnięcie, ale największy wynik w historii matematyki czystej…"
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Adobe Flash Lite – wersja Adobe Flash Player zoptymalizowana dla telefonów komórkowych i innych urządzeń przenośnych. Flash Lite 1.1 obsługuje język programowania Flash 4 ActionScript. Flash Lite 2.0, bazuje na Flash Player 7, który obsługuje bardziej zaawansowany język programowania – ActionScript 2.0. Obie wersje są zgodne ze standardem W3C Standard SVG Tiny (profil dla urządzeń przenośnych zgodny z rekomendacją SVG opracowaną przez konsorcjum W3C). Przewagą Flash Lite 2.0 nad SVG jest możliwość obsługiwania dźwięków i elementów interaktywnych bez konieczności używania dodatkowych technologii takich jak JavaScript. Wśród niedogodności można wspomnieć o tym że aplikacje Flash Lite nie mają możliwości komunikacji z Bluetoothem, podczerwienią oraz aparatem cyfrowym."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Adobe Flash Lite",
-     "url": "https://pl.wikipedia.org/wiki/Adobe_Flash_Lite"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "3.1",
-    "3.5",
-    "24 godziny",
-    "17"
+    "116",
+    "120,000",
+    "4206066",
+    "25",
+    "10.1038",
+    "026"
    ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "Antyweb",
-     "ujęcie": "Tymczasowe wątki mają jednak pewne ograniczenia, a Google nadal może przetwarzać część danych.",
-     "url": "https://antyweb.pl/google-wprowadza-tryb-incognito-do-wyszukiwarki-ai"
-    }
-   ],
+   "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Adobe Flash Lite",
-    "opis": "",
-    "tekst": "Adobe Flash Lite – wersja Adobe Flash Player zoptymalizowana dla telefonów komórkowych i innych urządzeń przenośnych. Flash Lite 1.1 obsługuje język programowania Flash 4 ActionScript. Flash Lite 2.0, bazuje na Flash Player 7, który obsługuje bardziej zaawansowany język programowania – ActionScript 2.0. Obie wersje są zgodne ze standardem W3C Standard SVG Tiny (profil dla urządzeń przenośnych zgodny z rekomendacją SVG opracowaną przez konsorcjum W3C). Przewagą Flash Lite 2.0 nad SVG jest możliwość obsługiwania dźwięków i elementów interaktywnych bez konieczności używania dodatkowych technologii takich jak JavaScript. Wśród niedogodności można wspomnieć o tym że aplikacje Flash Lite nie mają możliwości komunikacji z Bluetoothem, podczerwienią oraz aparatem cyfrowym.",
-    "url": "https://pl.wikipedia.org/wiki/Adobe_Flash_Lite",
-    "język": "pl"
-   },
+   "tło": null,
    "tagi": [
-    "Gemini",
-    "Neon",
-    "Carbon",
-    "Flash-Lite"
+    "Delhi Hybrid",
+    "Claude",
+    "Nanjing Beijing Pune",
+    "Job Title Associate"
    ],
    "emotki": [
-    "💻"
+    "🪐",
+    "🔭"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Spider's Web",
-     "tytuł": "Menu w Gemini to był chaos. Google posprzątał i dorzucił mocną nowość",
-     "url": "https://spidersweb.pl/2026/11/menu-w-gemini-to-byl-chaos-google-posprzatal-i-dorzucil-mocna-nowosc.html"
+     "nazwa": "Nature",
+     "tytuł": "Claude, find me a planet: amateur astronomers are using AI with mixed results",
+     "url": "https://www.nature.com/articles/d41586-026-03790-w"
     },
     {
-     "nazwa": "Antyweb",
-     "tytuł": "Długo na to czekaliśmy. Ta nowość w Google zmieni sposób zadawania osobistych pytań",
-     "url": "https://antyweb.pl/google-wprowadza-tryb-incognito-do-wyszukiwarki-ai"
+     "nazwa": "Nature",
+     "tytuł": "Mathematician says he and AI solved Riemann hypothesis — the field’s biggest outstanding challenge",
+     "url": "https://www.nature.com/articles/d41586-026-03812-7"
     },
     {
-     "nazwa": "Antyweb",
-     "tytuł": "Użytkownicy Kalendarza Google dostają praktyczną nowość",
-     "url": "https://antyweb.pl/uzytkownicy-kalendarza-google-dostaja-praktyczna-nowosc"
+     "nazwa": "Nature",
+     "tytuł": "How to turn impostor syndrome into a superpower",
+     "url": "https://www.nature.com/articles/d41586-026-03465-6"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "These gaps in weather data affect forecasts everywhere: plugging them is not charity",
+     "url": "https://www.nature.com/articles/d41586-026-03811-8"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Ruminations on a last movement",
+     "url": "https://www.nature.com/articles/d41586-026-03519-9"
+    },
+    {
+     "nazwa": "New Scientist",
+     "tytuł": "Mathematicians are amazed by ‘holy grail’ proof of Riemann hypothesis",
+     "url": "https://www.newscientist.com/article/2600235-mathematicians-are-amazed-by-holy-grail-proof-of-riemann-hypothesis/"
+    },
+    {
+     "nazwa": "New Scientist",
+     "tytuł": "What is the Riemann hypothesis and why is its solution so monumental?",
+     "url": "https://www.newscientist.com/article/2600226-what-is-the-riemann-hypothesis-and-why-is-its-solution-so-monumental/"
+    },
+    {
+     "nazwa": "New Scientist",
+     "tytuł": "Anthropic mathematician claims AI-assisted proof of the Riemann hypothesis",
+     "url": "https://www.newscientist.com/article/2600134-anthropic-mathematician-claims-ai-assisted-proof-of-the-riemann-hypothesis/"
+    },
+    {
+     "nazwa": "ScienceDaily",
+     "tytuł": "A 3-million-year-old child just made human evolution far more complicated",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261118065531.htm"
     },
     {
      "nazwa": "TechCrunch",
-     "tytuł": "Google gives Gemini the ability to use your Mac for you",
-     "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/"
+     "tytuł": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+     "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
     }
    ],
-   "liczba_źródeł": 3,
-   "czas_czytania_min": 2,
+   "liczba_źródeł": 4,
+   "czas_czytania_min": 3,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.53,
+    "wynik": 11.149,
     "składowe": {
-     "potwierdzenia": 3.8,
-     "ranga_źródła": 1.42,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.464,
-     "treściwość": 0.346,
-     "język_działu": 0.5
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 2.853,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.519,
+     "treściwość": 0.477,
+     "język_działu": 0.0
     }
+   },
+   "oryginalny_nagłówek": "Claude, find me a planet: amateur astronomers are using AI with mixed results",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
    },
    "miejsce": 1
   },
@@ -927,94 +957,101 @@
     "emoji": "🧪",
     "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
    },
-   "nagłówek": "Wszyscy nienawidzą GPT-6.2? OpenAI zebrało cięgi od swoich użytkowników",
-   "lead": "Czyżby coś było nie tak z GPT-6.2? Po długich sesjach z Astrą niejako Theo Browne, jeden z programistów, nie dawał sobie z nią rady i przełączał się na Claude'a.",
+   "nagłówek": "Polski akcent w GTA VI. Znajdziesz go słuchając muzyki",
+   "lead": "Od kilkunastu godzin wiodącym tematem w branży gier komputerowych są GTA VI i fragmenty rozgrywki publikowane przez graczy z całego świata. Miłego akcentu dopatrzyli się również Polacy, którzy w hicie od Rockstar Games usłyszą muzykę jednego z wybitnych polskich kompozytorów.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-19T17:00:46+00:00",
+   "opublikowano": "2026-11-19T18:14:44+00:00",
    "źródło": {
     "nazwa": "Antyweb",
-    "url": "https://antyweb.pl/gpt-6-2-opinie-oceny",
+    "url": "https://antyweb.pl/polski-akcent-w-gta-vi-znajdziesz-go-sluchajac-muzyki",
     "domena": "antyweb.pl"
    },
-   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2026/11/gpt-6-2.jpeg",
+   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2026/11/nuty.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Inni użytkownicy narzekają albo na lenistwo modelu, albo na jego odchodzenie od pierwotnych instrukcji i zupełny brak \"pomysłowości\".",
-      "Jeszcze ostrzejsi w ocenach są ci, którzy model testowali przed oficjalną premierą.",
-      "Dwa dni temu odbyła się premiera GPT-6.2 w ChatGPT Work, Codexie i przez API.",
-      "Astrę poleca się do trudnych projektów, a Sola do tej bardziej \"codziennej\" roboty.",
-      "W API, za jeden milion tokenów na wyjściu Astry, płaci się 40 dolarów (20% mniej, niż w GPT-6 Astra), podczas gdy w Solu ta sama jednostka kosztuje 10 dolarów.",
-      "Jeszcze ostrzejszy w ocenie jest Matt Schumer , który nazwał mocniejszy model... bezużytecznym i też testował go przedpremierowo.",
-      "Browne dał do przeanalizowania Astrze eksperymentalny kompilator TypeScript napisany w języku Rust .",
-      "Jak się okazało, model tak bardzo skupił się na tym drugim celu, że po siedmiu dniach pracy kompilator był o ponad połowę wolniejszy.",
-      "Za to w przeglądzie kodu, model zebrał od Browne'a pochwałę, bo znalazł te przeoczone przez inne \"sztuczne inteligencje\"."
+      "Witold Lutosławski to nazwisko, którego nie trzeba przedstawiać żadnemu miłośnikowi muzyki klasycznej.",
+      "Dość powiedzieć, że jest to jeden z najwybitniejszych kompozytorów urodzonych w naszym kraju.",
+      "Jedno z jego najpopularniejszych dzieł można usłyszeć w GTA VI.",
+      "Wystarczy, że podczas jazdy samochodem przełączymy radio na stację Symphony FM .",
+      "Jak sama nazwa wskazuje, jest to stacja z muzyką symfoniczną.",
+      "Twórcy gry postanowili sięgnąć po dzieła tak wybitnych postaci, jak Georg Händel, Franz Liszt, Claude Debussy czy Jean Sibelius.",
+      "Obok ich twórczości znalazł się również utwór Witolda Lutosławskiego.",
+      "Utworem tym jest Koncert na orkiestrę , a konkretnie jego pierwsza część nosząca nazwę Intrada .",
+      "Można go również posłuchać chociażby w serwisie YouTube."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "OpenAI – amerykańskie przedsiębiorstwo i laboratorium badawcze założone 8 grudnia 2015, specjalizujące się w dziedzinie sztucznej inteligencji. Celem organizacji jest rozwijanie ogólnej sztucznej inteligencji mającej przynosić korzyści całej ludzkości. OpenAI opracowało między innymi ChatGPT, DALL-E, Sorę oraz modele z rodziny GPT."
+      "Rockstar Games, Inc. – grupa przedsiębiorstw produkujących gry komputerowe założona w 1998 przez wydawcę Take-Two Interactive, po przejęciu brytyjskiej spółki BMG Interactive. Rockstar Games zostało założone przez Sama Housera, Terry’ego Donovana, Dana Housera, Jamiego Kinga i Gary’ego Foremana."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: OpenAI",
-     "url": "https://pl.wikipedia.org/wiki/OpenAI"
+     "przypis": "Wikipedia: Rockstar Games",
+     "url": "https://pl.wikipedia.org/wiki/Rockstar_Games"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "6.2",
-    "40",
-    "20%",
-    "10",
-    "20 procent",
-    "15%"
+    "3.79 billion",
+    "13",
+    "32.5 million",
+    "1 billion",
+    "230 million",
+    "470 million"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "OpenAI",
-    "opis": "amerykańska organizacja badawcza w dziedzinie sztucznej inteligencji",
-    "tekst": "OpenAI – amerykańskie przedsiębiorstwo i laboratorium badawcze założone 8 grudnia 2015, specjalizujące się w dziedzinie sztucznej inteligencji. Celem organizacji jest rozwijanie ogólnej sztucznej inteligencji mającej przynosić korzyści całej ludzkości. OpenAI opracowało między innymi ChatGPT, DALL-E, Sorę oraz modele z rodziny GPT.",
-    "url": "https://pl.wikipedia.org/wiki/OpenAI",
+    "hasło": "Rockstar Games",
+    "opis": "międzynarodowy producent i wydawca gier komputerowych",
+    "tekst": "Rockstar Games, Inc. – grupa przedsiębiorstw produkujących gry komputerowe założona w 1998 przez wydawcę Take-Two Interactive, po przejęciu brytyjskiej spółki BMG Interactive. Rockstar Games zostało założone przez Sama Housera, Terry’ego Donovana, Dana Housera, Jamiego Kinga i Gary’ego Foremana.",
+    "url": "https://pl.wikipedia.org/wiki/Rockstar_Games",
     "język": "pl"
    },
    "tagi": [
-    "OpenAI",
-    "Astra",
-    "Claude'a",
-    "Sol"
+    "Witolda Lutosławskiego",
+    "Rockstar Games",
+    "Georg Händel Franz Liszt Claude Debussy",
+    "Filharmonii Narodowej"
    ],
    "emotki": [
-    "🤖"
+    "🎵",
+    "🎮",
+    "💻"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Antyweb",
-     "tytuł": "Wszyscy nienawidzą GPT-6.2? OpenAI zebrało cięgi od swoich użytkowników",
-     "url": "https://antyweb.pl/gpt-6-2-opinie-oceny"
+     "tytuł": "Polski akcent w GTA VI. Znajdziesz go słuchając muzyki",
+     "url": "https://antyweb.pl/polski-akcent-w-gta-vi-znajdziesz-go-sluchajac-muzyki"
     },
     {
-     "nazwa": "TechCrunch",
-     "tytuł": "Apple may be developing its own AI agent that runs your Mac",
-     "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/"
+     "nazwa": "Phys.org Technology",
+     "tytuł": "'Grand Theft Auto VI' sets record with $3.79B in first-day retail sales, Rockstar Games reports",
+     "url": "https://techxplore.com/news/2026-11-grand-theft-auto-vi-billion.html"
+    },
+    {
+     "nazwa": "The Verge",
+     "tytuł": "Rockstar says GTA VI made $3.79 billion in its first day",
+     "url": "https://www.theverge.com/games/1036279/gta-vi-sales"
     }
    ],
-   "liczba_źródeł": 2,
+   "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.468,
+    "wynik": 7.486,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.135,
-     "eksponowanie": 0.54,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.549,
-     "treściwość": 0.494,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.393,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.492,
+     "treściwość": 0.401,
      "język_działu": 0.5
     }
    },
@@ -1027,91 +1064,75 @@
     "emoji": "⚛️",
     "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
    },
-   "nagłówek": "Tajemnica „dziwnych metali” może tkwić w statystyce kwantowej, a nie w zderzeniach",
-   "lead": "W zwykłym metalu elektrony zachowują się jak dobrze zdefiniowane cząstki, które od czasu do czasu zderzają się z niedoskonałościami lub drganiami kryształu. Wiele materiałów o silnych oddziaływaniach elektron-elektron, w tym nadprzewodniki tlenkowe miedzi (kupraty), nie przestrzega tych zasad.",
+   "nagłówek": "Oprogramowanie kwantowe osiąga klasyczny wynik odniesienia dla interakcji molekularnej",
+   "lead": "Przewidywanie sposobu oddziaływania cząsteczek ma kluczowe znaczenie dla odkrywania leków: dostarcza ważnych informacji na temat tego, jak nowy lek może działać w organizmie człowieka, jakie skutki uboczne może wywoływać i wiele innych. Komputerowe modelowanie tych interakcji może ograniczyć potrzebę długotrwałych i kosztownych prac laboratoryjnych, ale niektóre interakcje nadal…",
    "język_źródła": "en",
-   "opublikowano": "2026-11-19T23:20:11+00:00",
+   "opublikowano": "2026-11-21T03:00:01+00:00",
    "źródło": {
     "nazwa": "Phys.org",
-    "url": "https://phys.org/news/2026-11-secret-strange-metals-quantum-statistics.html",
+    "url": "https://phys.org/news/2026-11-quantum-software-classical-benchmark-molecular.html",
     "domena": "phys.org"
    },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-secret-of-strange.jpg",
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/section-of-a-dna-stran.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "W tych „dziwnych metalach” rezystancja elektryczna rośnie liniowo wraz ze wzrostem temperatury w bardzo szerokim zakresie.",
-      "Wydaje się, że elektrony tracą swój pęd w najszybszym tempie, na jakie pozwala mechanika kwantowa, czyli w tak zwanym limicie Plancka.",
-      "Co jest tego przyczyną, pozostaje pytaniem otwartym.",
-      "W badaniu opublikowanym w czasopiśmie „Nature Physics” zespół pod kierunkiem Simone Fratiniego z Institut Néel (CNRS / Uniwersytet Grenoble Alpes), wraz z Arnaudem Ralko (Institut Néel), Ivanem Ducheminem (CEA, Grenoble) i Sergio Ciuchim (Uniwersytet w L’Aquili), proponuje prostą odpowiedź.",
-      "Zachowanie planckowskie nie wynika ze sposobu zderzania się elektronów.",
-      "Wynika to z kwantowej natury ich reakcji na pole elektryczne.",
-      "Zespół wykorzystał model t–J, standardowy opis silnie oddziałujących elektronów w płaszczyznach tlenku miedzi.",
-      "Dzięki ulepszonym technikom numerycznym obliczyli jej właściwości elektryczne z dokładnością do temperatur odpowiadających około 40 kelwinom w rzeczywistych kupratach, osiągając rekordowo niskie temperatury (niższe niż efektywne temperatury, które można uzyskać w symulatorach zimnych atomów) – zakres, którego wcześniejsze obliczenia nie były w stanie osiągnąć.",
-      "Wyniki odzwierciedlają główne cechy dziwnych metali zaobserwowane w eksperymentach: kluczowe spostrzeżenie wynika ze sposobu, w jaki materiał reaguje na różne częstotliwości i w czasie."
+      "Duńska firma zajmująca się oprogramowaniem kwantowym Kvantify poczyniła znaczący krok w kierunku przezwyciężenia tego wyzwania, precyzyjnie rejestrując interakcję istotną dla stabilności biomolekularnej przy użyciu nowatorskiego modelu obliczeniowego przetestowanego na komputerze kwantowym System Model H2 firmy Quantinuum.",
+      "Badanie koncentruje się na oddziaływaniach dyspersyjnych.",
+      "Te oddziaływania są niewielkie, jeśli rozpatrywać je pojedynczo, ale łącznie mają ogromne znaczenie, na przykład pomagając stabilizować struktury biologiczne, takie jak DNA i białka, a także wpływając na sposób, w jaki cząsteczki wiążą się ze sobą.",
+      "Dokładne opisanie tych interakcji jest trudne, ponieważ wymaga przewidywania zachowania się elektronów.",
+      "Modelowanie takiego zachowania wymaga ogromnych zasobów obliczeniowych.",
+      "Wykorzystując parę cząsteczek pochodzących ze struktury DNA, firma Kvantify zbadała, jak zmienia się interakcja wraz z oddalaniem się cząsteczek od siebie.",
+      "Zespół zastosował swój algorytm kwantowy BEAST-VQE w połączeniu z dokładną symulacją obwodu kwantowego dzięki zoptymalizowanej integracji Qrunch z NVIDIA cuTensorNet i porównał wyniki z uznaną metodą chemii kwantowej CCSD(T).",
+      "Rezultatem jest molekularny punkt odniesienia, pokazujący, jak testować dokładność predykcji obliczeniowych, a nie twierdzenie o komercyjnej przewadze kwantowej.",
+      "W badaniu zastosowano uproszczony model, w którym obliczenia dotyczące elementów konstrukcyjnych obejmują dwie geometrie, a nie pełną krzywą interakcji."
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "W fizyce i nauce o barwach krzywa Plancka, czyli krzywa ciała czarnego, to ścieżka, po której porusza się barwa rozżarzonego ciała czarnego w określonej przestrzeni chromatyczności wraz ze zmianą temperatury ciała czarnego. Rozciąga się od głębokiej czerwieni w niskich temperaturach, przez pomarańczowy, żółtawy, biały, aż po niebieskawo-biały w bardzo wysokich temperaturach."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Planckian locus",
-     "url": "https://en.wikipedia.org/wiki/Planckian_locus"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "40",
-    "10.1038",
-    "026",
-    "03441"
+    "236",
+    "53"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Planckian locus",
-    "opis": "Locus of colors of incandescent black bodies within a color space",
-    "tekst": "In physics and color science, the Planckian locus, or black body locus, is the path, or locus, that the color of an incandescent black body would take in a particular chromaticity space as the blackbody temperature changes. It goes from deep red at low temperatures through orange, yellowish, white, and finally bluish white at very high temperatures.",
-    "url": "https://en.wikipedia.org/wiki/Planckian_locus",
-    "język": "en"
-   },
+   "tło": null,
    "tagi": [
-    "Planckian",
-    "Nature Physics",
-    "Institut Néel",
-    "L'Aquila"
+    "Kvantify",
+    "Quantinuum's System Model",
+    "DNA-derived",
+    "Predicting"
    ],
    "emotki": [
-    "⚛️"
+    "⚛️",
+    "💻",
+    "🛒"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Phys.org",
-     "tytuł": "The secret of 'strange metals' may lie in quantum statistics, not collisions",
-     "url": "https://phys.org/news/2026-11-secret-strange-metals-quantum-statistics.html"
+     "tytuł": "Quantum software matches classical benchmark for a molecular interaction",
+     "url": "https://phys.org/news/2026-11-quantum-software-classical-benchmark-molecular.html"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.819,
+    "wynik": 3.478,
     "składowe": {
      "potwierdzenia": 0.0,
      "ranga_źródła": 1.2,
-     "eksponowanie": 0.54,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.529,
-     "treściwość": 0.5,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.575,
+     "treściwość": 0.453,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "The secret of 'strange metals' may lie in quantum statistics, not collisions",
+   "oryginalny_nagłówek": "Quantum software matches classical benchmark for a molecular interaction",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -1125,90 +1146,93 @@
     "emoji": "⚛️",
     "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
    },
-   "nagłówek": "Budowanie systemów światła strukturalnego w trzech wymiarach",
-   "lead": "Światło ustrukturyzowane stało się ważnym narzędziem w nowoczesnej optyce. Poprzez kształtowanie takich właściwości, jak amplituda, faza, polaryzacja i moduł przestrzenny, naukowcy mogą tworzyć pola świetlne o możliwościach wykraczających poza możliwości konwencjonalnych wiązek laserowych.",
+   "nagłówek": "Rekordowy laser rentgenowski niezawodnie generuje błyski o długościach fal krótszych niż odległości między atomami",
+   "lead": "Naukowcy z DESY i European XFEL zademonstrowali w European XFEL niezawodną produkcję i transport impulsów lasera rentgenowskiego o długości fali około 0,04 nanometra (lub energii fotonów wynoszącej 30 000 elektronowoltów), ustanawiając własny rekord świata. Oznacza to, że długość fali promieniowania rentgenowskiego jest znacznie krótsza niż zwykle…",
    "język_źródła": "en",
-   "opublikowano": "2026-11-20T02:40:01+00:00",
+   "opublikowano": "2026-11-20T21:00:01+00:00",
    "źródło": {
     "nazwa": "Phys.org",
-    "url": "https://phys.org/news/2026-11-dimensions.html",
+    "url": "https://phys.org/news/2026-11-ray-laser-reliably-generates-wavelengths.html",
     "domena": "phys.org"
    },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/building-structured-li.jpg",
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/instruments-such-as-th.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Te zaprojektowane pola świetlne znajdują zastosowanie w komunikacji, obrazowaniu, detekcji, obliczeniach optycznych i fotonice kwantowej.",
-      "Jednak wiele systemów światła strukturalnego nadal opiera się na wielu dyskretnych elementach optycznych, które wymagają starannego wyrównania i zajmują dużo miejsca.",
-      "W nowym artykule przeglądowym w czasopiśmie Journal of Nanophotonics przeanalizowano, w jaki sposób femtosekundowa mikrofabrykacja laserowa 3D pomaga przezwyciężyć te ograniczenia, umożliwiając integrację funkcji optycznych w kompaktowych trójwymiarowych strukturach fotonicznych.",
-      "W przeglądzie przygotowanym przez zespół badawczy z Uniwersytetu Nauki i Technologii Huazhong podsumowano najnowsze postępy zgłoszone przez grupy badawcze z całego świata w zakresie generowania i manipulowania światłem strukturalnym przy użyciu urządzeń fotonicznych zapisywanych laserem femtosekundowym oraz omówiono przyszłe kierunki rozwoju tej dziedziny.",
-      "Lasery femtosekundowe wytwarzają ultrakrótkie impulsy świetlne, które mogą modyfikować materiały przezroczyste z dużą precyzją.",
-      "Koncentrując te impulsy w materiale, naukowcy mogą bezpośrednio zapisywać struktury optyczne w trzech wymiarach bez konieczności stosowania masek lub skomplikowanych procesów montażu.",
-      "Według autorów, ta możliwość otwiera drogę do kompaktowych i stabilnych systemów światła strukturalnego, w których wiele funkcji optycznych jest zintegrowanych w ramach jednego urządzenia.",
-      "W przeglądzie najnowsze osiągnięcia zostały podzielone na trzy szerokie kategorie struktur fotonicznych.",
-      "W jednym z podejść światło jest prowadzone przez trójwymiarowe światłowody, których geometria decyduje o sposobie ewolucji modów optycznych podczas propagacji."
+      "Praca opublikowana w czasopiśmie „Optica” może pomóc naukowcom w badaniu materiałów o dużej gęstości i obserwowaniu szybkich zmian w eksperymentach, w których próbki poddawane są ekstremalnym ciśnieniom, co ma znaczenie dla badania materiałów funkcjonalnych, katalitycznych i kwantowych.",
+      "Zespół wygenerował 800 błysków na sekundę i przesyłał je wzdłuż linii wiązki o długości około jednego kilometra, przy czym prawie 60% ekstremalnego promieniowania rentgenowskiego zostało zachowane po przejściu przez optykę sterującą.",
+      "„Ostatni postęp zwiększa zakres długości fal, które European XFEL może zapewnić użytkownikom, i jest wyjątkowy wśród światowych obiektów FEL” – mówi Anders Madsen, czołowy naukowiec przy instrumencie MID w European XFEL i jeden ze współautorów publikacji.",
+      "Ten kamień milowy został osiągnięty po kilku latach symulacji dynamiki wiązki elektronów i testów akceleratora i stanowi znaczący krok w kierunku rutynowego udostępniania tych błysków o jeszcze krótszej długości fali do eksperymentów w European XFEL.",
+      "„Kluczowym czynnikiem umożliwiającym ustanowienie tego światowego rekordu w dziedzinie laserów rentgenowskich była wysoka jakość wiązki elektronów, osiągnięta dzięki szeroko zakrojonym badaniom dynamiki wiązki i optymalizacji akceleratora” – mówi naukowiec z DESY Ye Chen, który wraz z Frankiem Brinkerem kierował pracami nad akceleratorem elektronów.",
+      "Wysiłki w tym kierunku czerpią korzyści ze strategicznego programu koordynującego rozwój detektorów, optyki, diagnostyki i możliwości eksperymentalnych wraz z postępami w dziedzinie akceleratorów, aby dążyć do dalszej poprawy wydajności przy krótszych długościach fal.",
+      "Inna trwająca inicjatywa strategiczna dotycząca rozwoju undulatorów nadprzewodzących w European XFEL również przyczyni się do rozwoju tego programu naukowego w ciągu najbliższych kilku lat.",
+      "Ye Chen i in., Fundamental-mode lasing at 30 keV in an X-ray free-electron laser, Optica (2026).",
+      "DOI: 10.1364/optica.610411 Magister filologii angielskiej, redaktor językowy od 2021 r., z doświadczeniem w zakresie treści związanych ze szkolnictwem wyższym i opieką zdrowotną."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Nanofotonika lub nanooptyka to nauka zajmująca się badaniem zachowania światła w skali nanometrycznej oraz oddziaływania obiektów o wielkości nanometrycznej ze światłem. Jest to dziedzina optyki, inżynierii optycznej, elektrotechniki i nanotechnologii. Często obejmuje struktury dielektryczne, takie jak nanoanteny lub elementy metalowe, które mogą przenosić i ogniskować światło za pośrednictwem polarytonów plazmonów powierzchniowych."
+      "Promieniowanie rentgenowskie to rodzaj wysokoenergetycznego promieniowania elektromagnetycznego o długości fali krótszej niż promieniowanie ultrafioletowe i dłuższej niż promieniowanie gamma. Z grubsza promieniowanie rentgenowskie ma długość fali od 10 nanometrów do 10 pikometrów, co odpowiada częstotliwościom w zakresie od 30 petaherców do 30 eksaherców (od 3×1016 Hz do 3×1019 Hz) oraz energiom fotonów w zakresie od 100 eV do 100 keV, odpowiednio."
      ],
      "język": "en",
-     "przypis": "Wikipedia: Nanophotonics",
-     "url": "https://en.wikipedia.org/wiki/Nanophotonics"
+     "przypis": "Wikipedia: X-ray",
+     "url": "https://en.wikipedia.org/wiki/X-ray"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "100,000",
-    "10.1117"
+    "0.04",
+    "30,000",
+    "800",
+    "0.6",
+    "60%",
+    "10.1364"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Nanophotonics",
-    "opis": "Study of light on the nanometer scale",
-    "tekst": "Nanophotonics or nano-optics is the study of the behavior of light on the nanometer scale, and of the interaction of nanometer-scale objects with light. It is a branch of optics, optical engineering, electrical engineering, and nanotechnology. It often involves dielectric structures such as nanoantennas, or metallic components, which can transport and focus light via surface plasmon polaritons.",
-    "url": "https://en.wikipedia.org/wiki/Nanophotonics",
+    "hasło": "X-ray",
+    "opis": "Form of electromagnetic radiation",
+    "tekst": "An X-ray is a form of high-energy electromagnetic radiation with a wavelength shorter than those of ultraviolet rays and longer than those of gamma rays. Roughly, X-rays have a wavelength ranging from 10 nanometers to 10 picometers, corresponding to frequencies in the range of 30 petahertz to 30 exahertz (3×1016 Hz to 3×1019 Hz) and photon energies in the range of 100 eV to 100 keV, respectively.",
+    "url": "https://en.wikipedia.org/wiki/X-ray",
     "język": "en"
    },
    "tagi": [
-    "Nanophotonics",
-    "Structured",
-    "Journal",
-    "Bessel"
+    "European",
+    "X-ray",
+    "Optica",
+    "Fundamental-mode"
    ],
    "emotki": [
-    "🔬",
-    "🛒"
+    "🔬"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Phys.org",
-     "tytuł": "Building structured-light systems in three dimensions",
-     "url": "https://phys.org/news/2026-11-dimensions.html"
+     "tytuł": "Record-setting X-ray laser reliably generates flashes with wavelengths shorter than distances between atoms",
+     "url": "https://phys.org/news/2026-11-ray-laser-reliably-generates-wavelengths.html"
     }
    ],
    "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.691,
+    "wynik": 3.36,
     "składowe": {
      "potwierdzenia": 0.0,
      "ranga_źródła": 1.2,
-     "eksponowanie": 0.72,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.571,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.5,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Building structured-light systems in three dimensions",
+   "oryginalny_nagłówek": "Record-setting X-ray laser reliably generates flashes with wavelengths shorter than distances between atoms",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -1222,94 +1246,182 @@
     "emoji": "🔭",
     "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
    },
-   "nagłówek": "Sonda Voyager 1 NASA zapisuje się w historii, docierając w odległość jednego dnia świetlnego od Ziemi",
-   "lead": "Sonda Voyager 1 NASA, najdalej podróżujący statek kosmiczny w historii ludzkości, po ponad 49 latach nieprzerwanej podróży znalazła się w odległości jednego dnia świetlnego od Ziemi. Dzień świetlny to odległość, jaką światło pokonuje w ciągu 24 godzin, co odpowiada około 16,1 miliarda mil (25,9 miliarda kilometrów).",
+   "nagłówek": "Niebo dziś, w piątek 20 listopada: Księżyc mija Saturna i Neptuna",
+   "lead": "Szukasz wydarzenia na niebie w tym tygodniu? Zapoznaj się z naszą pełną kolumną „Niebo w tym tygodniu”.",
    "język_źródła": "en",
-   "opublikowano": "2026-11-19T14:31:15+00:00",
+   "opublikowano": "2026-11-20T09:00:00+00:00",
    "źródło": {
-    "nazwa": "NASA",
-    "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
-    "domena": "nasa.gov"
+    "nazwa": "Astronomy Magazine",
+    "url": "https://www.astronomy.com/observing/the-sky-today-friday-november-20-2026/",
+    "domena": "astronomy.com"
    },
-   "obraz": "https://www.youtube.com/embed/0Ke0s62W4yY",
+   "obraz": null,
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Sonda kosmiczna osiągnęła ten kamień milowy o 2:16.",
-      "Członkowie zespołu Voyager w Laboratorium Napędu Odrzutowego NASA w południowej Kalifornii, zarządzanym przez Caltech, odebrali sygnał z sondy 24 godziny później, we wczesnych godzinach czwartku. Tyle czasu potrzebował sygnał radiowy statku kosmicznego, poruszający się z prędkością światła, aby dotrzeć na Ziemię. „Przebycie odległości równej jednemu dniu świetlnemu to wyjątkowe osiągnięcie dla statku kosmicznego, ale Voyager jest czymś znacznie więcej niż tylko dalekim podróżnikiem.",
-      "Misja Voyager byłaby godna uwagi już tylko ze względu na swój wkład w planetologię dzięki Wielkiej Podróży do planet zewnętrznych” – powiedział Joe Westlake, dyrektor Wydziału Heliofizyki w siedzibie NASA w Waszyngtonie. „Ale stała się ona kluczowym elementem floty misji heliofizycznych NASA, dostarczając informacji o gwieździe, wokół której wszyscy krążymy – o Słońcu”. Naukowcy wykorzystują światło do pomiaru ogromnych odległości w kosmosie.",
-      "Światło porusza się w próżni z prędkością około 299 000 kilometrów na sekundę.",
-      "Promień światła słonecznego przechodzący przez Ziemię potrzebuje około 1,3 sekundy, aby dotrzeć do Księżyca, około czterech godzin, aby dotrzeć do Neptuna, i kolejnych 20 godzin, aby dotrzeć do sondy Voyager 1.",
-      "Dla porównania – rok świetlny to 5,88 biliona mil (9,46 biliona kilometrów).",
-      "Mimo że zespół nie otrzymał danych naukowych i inżynieryjnych z sondy Voyager 1 od listopada,",
-      "14, sonda kosmiczna wysyła tak zwany sygnał nośny, który zazwyczaj przekazuje te dane na Ziemię.",
-      "Inżynierowie misji wykorzystali sygnał nośny i obliczenia trajektorii, aby potwierdzić osiągnięcie kamienia milowego, jakim jest odległość jednego dnia świetlnego."
+      "19 listopada: Merkury wchodzi w znak Wagi Księżyc przechodzi 5° na północ od Neptuna o 8:00.",
+      "czasu EST; 12 godzin później, o 20:00, nasz satelita przeleci 7° na północ od Saturna.",
+      "Trio jest widoczne na południowo-wschodnim niebie dwie godziny po Czytaj dalej „Niebo dziś, w piątek 20 listopada: Księżyc mija Saturna i Neptuna” Post „Niebo dziś, w piątek 20 listopada: Księżyc mija Saturna i Neptuna” pojawił się najpierw w magazynie Astronomy."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Astronomowie odkryli układ gwiazdowy znajdujący się zaledwie 28 lat świetlnych od Ziemi, który podważa nasze rozumienie tego, jak gwiazdy żyją, umierają i wchodzą w interakcje w miarę ewolucji.",
-      "Ten niezwykły układ potrójny, któremu nadano nazwę Welopōʻai, został odkryty przez międzynarodowy zespół naukowców pod kierunkiem Instytutu Badań nad Egzoplanetami Trottiera (IREx) przy Uniwersytecie w Montrealu.",
-      "„Zamiast tego odkryliśmy coś znacznie bardziej zaskakującego”. Odkrycie rozpoczęło się od użycia instrumentu SPectropolarimètre InfraROUge (SPIRou) w Obserwatorium Canada-France-Hawaii na wulkanie Mauna Kea na Hawajach.",
-      "Po raz pierwszy astronomowie obserwowali trwające wiele lat opadanie gwiazdy, która spiralnie wpadła do swojej olbrzymiej gwiazdy towarzyszącej – ostatecznie uderzając w jej jądro.",
-      "Dwie gwiazdy mogą początkowo krążyć wokół siebie po stabilnych orbitach, ale gdy zbliżą się do siebie zbyt mocno, jedna z nich nieuchronnie pochłonie drugą.",
-      "Ale teraz, po raz pierwszy, astronomowie uchwycili cały proces, gromadząc obserwacje obejmujące pełne, trwające siedem lat wpadanie małego obiektu towarzyszącego do czerwonego olbrzyma w galaktyce Andromedy.",
-      "Viraj Karambelkar (Uniwersytet Columbia) i jego współpracownicy przedstawili wyniki w wydaniu czasopisma „Nature” z 19 listopada."
+      "Piątek, 20 listopada Księżyc przechodzi 5° na północ od Neptuna o 8:00.",
+      "Księżyc i Saturn są widoczne gołym okiem, ale Neptun będzie niewidoczny bez lornetki lub Czytaj dalej „Niebo w tym tygodniu od 20 do 27 listopada: Uran w opozycji” Post „Niebo w tym tygodniu od 20 do 27 listopada: Uran w opozycji” pojawił się najpierw na stronie Astronomy Magazine.",
+      "Spróbuj sobie wyobrazić, że Saturn znajduje się 3500 razy dalej i ma 35 razy większą średnicę niż Księżyc.",
+      "Gdyby Księżyc był jasną kulką z marmuru znajdującą się zaledwie dwa metry przed wami, Saturn byłby dużą, oświetloną słońcem piłką plażową w odległości sześciu kilometrów za wami. ■ Orion, zwiastun nadchodzącej zimy, pojawia się teraz na wschodnim horyzoncie już około godziny 20:00.",
+      "Teraz możesz dodać Feniksa, a przynajmniej jego część, do swojej listy gwiazdozbiorów. ■ Drugie, wyżej położone wczesnoporanne trio składające się z dwóch planet i gwiazdy – Jowisza, Marsa i Regulusa – zbliża się do siebie, jak pokazano poniżej.",
+      "Obserwuj, jak ich trójkąt szybko zmienia się z poranka na poranek, gdy Mars pędzi na wschód. ■ Pełnia Księżyca dziś i jutro wieczorem; Księżyc będzie dokładnie w pełni o 9:54.",
+      "Za te przesunięcia odpowiadają nachylenie osi Ziemi i ekscentryczność jej orbity. ■ Algol powinien mieć minimalną jasność – wielkość gwiazdową 3,4 zamiast zwykłej 2,1 – przez kilka godzin około godziny 21:17."
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "One More Light to siódmy studyjny album amerykańskiego zespołu rockowego Linkin Park. Został wydany 19 maja 2017 roku przez wytwórnie Warner Bros. Records i Machine Shop. Jest to pierwszy album zespołu, który zawiera utwór tytułowy, ponieważ członkowie zespołu uznali, że piosenka „One More Light” stanowi sedno albumu. Jest to również ostatni album zespołu, na którym pojawiają się dwaj jego wieloletni członkowie: współwokalista Chester Bennington, który popełnił samobójstwo dwa miesiące po premierze albumu, oraz perkusista i współzałożyciel Rob Bourdon, który postanowił nie wracać do zespołu po jego reaktywacji w 2024 roku."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: One More Light",
-     "url": "https://en.wikipedia.org/wiki/One_More_Light"
     }
    ],
-   "dlaczego_to_ważne": "Nadal analizują problem wpływający na dane naukowe i inżynieryjne.",
+   "dlaczego_to_ważne": "",
    "liczby": [
-    "49",
-    "24",
-    "16.1 billion",
-    "25.9 billion",
-    "18",
-    "299,000"
+    "19",
+    "12",
+    "20",
+    "27",
+    "3,500",
+    "35"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "One More Light",
-    "opis": "2017 studio album by Linkin Park",
-    "tekst": "One More Light is the seventh studio album by American rock band Linkin Park. It was released on May 19, 2017, through Warner Bros. Records and Machine Shop. It is the band's first album to have a title track, as they felt that the song \"One More Light\" was the heart of the album. It is also the band's final album to feature two of their longtime members: co-lead vocalist Chester Bennington, who died by suicide two months after the album's release, and drummer and co-founder Rob Bourdon, who opted not to return for the band's reformation in 2024.",
-    "url": "https://en.wikipedia.org/wiki/One_More_Light",
-    "język": "en"
-   },
+   "tło": null,
    "tagi": [
-    "Voyager",
-    "Earth",
-    "Caltech",
-    "Neptune"
+    "Saturn",
+    "Moon",
+    "Friday November",
+    "Sky Today"
    ],
    "emotki": [
     "🪐"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "NASA",
-     "tytuł": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
-     "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     "nazwa": "Astronomy Magazine",
+     "tytuł": "The Sky Today on Friday, November 20: The Moon passes Saturn and Neptune",
+     "url": "https://www.astronomy.com/observing/the-sky-today-friday-november-20-2026/"
     },
     {
-     "nazwa": "Phys.org Astronomy",
-     "tytuł": "Astronomers discover remarkable triple-star system just 28 light-years from Earth",
-     "url": "https://phys.org/news/2026-11-astronomers-remarkable-triple-star-years.html"
+     "nazwa": "Astronomy Magazine",
+     "tytuł": "The Sky This Week from November 20 to 27: Uranus at opposition",
+     "url": "https://www.astronomy.com/the-sky-this-week/the-sky-this-week-from-november-20-to-27-2026/"
     },
+    {
+     "nazwa": "Sky & Telescope News",
+     "tytuł": "This Week's Sky at a Glance, November 20 – 29",
+     "url": "https://skyandtelescope.org/astronomy-news/observing-news/this-weeks-sky-at-a-glance-november-20-29/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.619,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.365,
+     "eksponowanie": 1.44,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.364,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "The Sky Today on Friday, November 20: The Moon passes Saturn and Neptune",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Astronimowie obserwują, jak jedna gwiazda pożera drugą",
+   "lead": "Po raz pierwszy astronomowie obserwowali trwający wiele lat proces opadania gwiazdy, która kręcąc się po spirali zbliżała się do swojej olbrzymiej gwiazdy towarzyszącej, aż w końcu wpadła w jej jądro. Zderzenia gwiazd zwiastują kosmiczne fajerwerki.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-19T20:19:59+00:00",
+   "źródło": {
+    "nazwa": "Sky & Telescope News",
+    "url": "https://skyandtelescope.org/astronomy-news/astronomers-watch-one-star-swallow-another/",
+    "domena": "skyandtelescope.org"
+   },
+   "obraz": "https://dq0hsqwjhea1.cloudfront.net/Full-Res-For-Display.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Dwie gwiazdy mogą początkowo krążyć wokół siebie po stabilnych orbitach, ale gdy zbliżą się do siebie zbyt mocno, jedna z nich nieuchronnie pochłonie drugą.",
+      "Uwalniana energia wyrzuca gaz tworzący pył, nadając nowym charakterystyczny czerwony odcień – zjawisko, które astronomowie zaobserwowali już wcześniej.",
+      "Viraj Karambelkar (Uniwersytet Columbia) i jego współpracownicy przedstawili wyniki w wydaniu czasopisma „Nature” z 19 listopada.",
+      "To zjawisko, nazwane AT 2025abao, jest wyjątkowe – mówi członek zespołu Morgan MacLeod (Centrum Astrofizyki, Harvard i Smithsonian). „Widzieliśmy już wcześniej zderzenia gwiazd, ale zawsze obserwowaliśmy „wybuch” na samym końcu” – zauważa. „W tym przypadku mogliśmy zobaczyć proces upadku znacznie dokładniej”. (MacLeod napisał artykuł „When Stars Collide” („Gdy gwiazdy się zderzają”) do czerwcowego wydania czasopisma Sky & Telescope z 2024 roku). Ten sam zespół pod kierownictwem Karambelkara jako pierwszy zauważył w danych nietypowe rozjaśnienie czerwonego olbrzyma w naszej galaktyce siostrzanej. z Near-Earth Object Wide-Field Infrared Survey Explorer (NEOWISE).",
+      "Obserwacje archiwalne wykazały, że zaczęła się rozjaśniać już kilka lat temu, w 2018 roku.",
+      "(Obserwacje sięgające 1989 roku wykazały, że przed tym momentem gwiazda w ogóle nie była zmienna). Ich zdaniem rozjaśnienie oznaczało pierwszą fazę pochłaniania gwiazdy towarzyszącej przez gwiazdę olbrzyma.",
+      "Gwiazda główna jest typowa jak na gwiazdy olbrzymy, ale z drugiej strony gwiazdy olbrzymy są dziwne.",
+      "Ma ona siedmiokrotnie większą masę niż Słońce, ale jest setki razy szersza od niego.",
+      "Oznacza to, że podczas gdy gęste jądro gwiazdy nadal walczy z grawitacją, łącząc atomy helu, zewnętrzna otoczka rozszerza się na zewnątrz."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Nawet 40% gwiazd Drogi Mlecznej to układy podwójne, choć nie ma co do tego całkowitej pewności.",
+      "Obserwacje i szczegóły przedstawiono w nowym artykule opublikowanym w czasopiśmie Nature, zatytułowanym „An inspiral of a star inside a common envelope with its giant companion” („Wpadanie gwiazdy na spiralnej orbicie do wnętrza wspólnej otoczki z jej olbrzymim towarzyszem”). Pierwszym autorem jest Viraj Karambelkar, stypendysta programu NASA Hubble Fellow na Uniwersytecie Columbia w Nowym Jorku.",
+      "„Przedstawiamy obserwacje AT 2025abao, przejściowej erupcji w galaktyce Andromedy” – piszą badacze.",
+      "Webb obserwował Bao zaledwie 47 dni po osiągnięciu przez gwiazdy szczytu wybuchu – to najwcześniejsza w historii obserwacja następcza takiego zdarzenia."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Słońce to gwiazda znajdująca się w centrum Układu Słonecznego. Jest to ogromna kula gorącej plazmy, rozgrzana do stanu żarzenia w wyniku reakcji syntezy jądrowej zachodzących w jej jądrze. Energia promieniuje z jej powierzchni głównie w postaci światła widzialnego i promieniowania podczerwonego, a 10% tej energii ma postać promieniowania ultrafioletowego. Jest ono głównym źródłem energii dla życia na Ziemi. Słońce było przedmiotem czci w wielu kulturach i od czasów starożytnych stanowi główny przedmiot badań astronomicznych."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Sun",
+     "url": "https://en.wikipedia.org/wiki/Sun"
+    }
+   ],
+   "dlaczego_to_ważne": "Ale teraz, po raz pierwszy, astronomowie uchwycili cały proces, gromadząc obserwacje obejmujące trwające siedem lat całkowite wpadanie małego obiektu towarzyszącego do czerwonego olbrzyma w galaktyce Andromedy.",
+   "liczby": [
+    "19",
+    "10",
+    "40%",
+    "4.0",
+    "55287112",
+    "47"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Sun",
+    "opis": "Star at the centre of the Solar System",
+    "tekst": "The Sun is the star located at the centre of the Solar System. It is a massive sphere of hot plasma, heated to incandescence by nuclear fusion reactions in its core, radiating the energy from its surface mainly as visible light and infrared radiation, with 10% at ultraviolet energies. It is the main source of energy for life on Earth. The Sun has been an object of veneration in many cultures and a central subject of astronomical research since antiquity.",
+    "url": "https://en.wikipedia.org/wiki/Sun",
+    "język": "en"
+   },
+   "tagi": [
+    "MacLeod",
+    "Sun’s",
+    "Telescope",
+    "November"
+   ],
+   "emotki": [
+    "🌌"
+   ],
+   "wszystkie_źródła": [
     {
      "nazwa": "Sky & Telescope News",
      "tytuł": "Astronomers Watch One Star Swallow Another",
@@ -1317,152 +1429,148 @@
     },
     {
      "nazwa": "Universe Today",
-     "tytuł": "Reconstructing Cosmic History and Earth's Evolution From Cosmic Explosions",
-     "url": "https://www.universetoday.com/articles/reconstructing-cosmic-history-and-earths-evolution-from-cosmic-explosions"
-    },
-    {
-     "nazwa": "EarthSky",
-     "tytuł": "Will Voyager 1 ever again be closer than 1 light-day?",
-     "url": "https://earthsky.org/space/voyager-spacecraft-getting-closer-to-earth/"
-    }
-   ],
-   "liczba_źródeł": 5,
-   "czas_czytania_min": 3,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 13.258,
-    "składowe": {
-     "potwierdzenia": 7.6,
-     "ranga_źródła": 1.93,
-     "eksponowanie": 2.07,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.492,
-     "treściwość": 0.466,
-     "język_działu": 0.0
-    }
-   },
-   "oryginalny_nagłówek": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "astronomia",
-    "nazwa": "Astronomia",
-    "emoji": "🔭",
-    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
-   },
-   "nagłówek": "Poszukiwania silnych soczewek grawitacyjnych przez sondę Euclid rozpoczęły się z przytupem",
-   "lead": "Gdyby ciemna materia i ciemna energia były częścią naszego codziennego życia, żylibyśmy w stanie ciągłego oszołomienia. Wyobraź sobie życie w świecie, w którym 95% materii i energii jest niewidzialnych i niewykrywalnych.",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-19T23:20:06+00:00",
-   "źródło": {
-    "nazwa": "Phys.org Astronomy",
-    "url": "https://phys.org/news/2026-11-euclid-strong-gravitational-lenses.html",
-    "domena": "phys.org"
-   },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/euclids-image-of-the-a.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Nie bylibyśmy w stanie zrozumieć otaczającego nas świata.",
-      "Na szczęście ciemna energia i ciemna materia nie są problemami, z którymi mamy do czynienia na co dzień.",
-      "Są to interesujące problemy dla osób, które wykazują intelektualną ciekawość przyrody.",
-      "Jednak dla fizyków znacznie bardziej palące są pytania dotyczące ciemnej materii i ciemnej energii.",
-      "Niektórzy z nich poświęcają całe życie na poznawanie ciemnej materii i ciemnej energii.",
-      "Projektują i budują specjalne teleskopy, instrumenty i statki kosmiczne, aby zbliżyć się do odpowiedzi.",
-      "Jednym z pojazdów kosmicznych zbudowanych przez astrofizyków do badania ciemnej materii i energii jest teleskop kosmiczny Euclid Europejskiej Agencji Kosmicznej.",
-      "„Okazuje się, że materia, z której zbudowani są ludzie, jest stosunkowo rzadka we Wszechświecie” – powiedział dr",
-      "Douglas Scott, profesor na Wydziale Fizyki i Astronomii (PHAS) Uniwersytetu Kolumbii Brytyjskiej i członek konsorcjum Euclid."
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Wyobraź sobie, że żyjesz w świecie, w którym 95% materii i energii jest niewidzialnych i niewykrywalnych.",
-      "Jednym z statków kosmicznych zbudowanych przez astrofizyków do badania ciemnej materii i energii jest teleskop kosmiczny Euclid Europejskiej Agencji Kosmicznej.",
-      "Źródło ilustracji: ESA, CC BY-SA IGO 3.0, CC BY-SA 3.0 igo, https://commons.wikimedia.org/wiki/Special:Redirect/page/128347141 Ciemna materia i ciemna energia są podstawowymi elementami naszego Wszechświata.",
-      "To zdjęcie pochodzi z wczesnych obserwacji wykonanych przez teleskop Euclid i przedstawia obszar gwiazdotwórczy Messier 78 znajdujący się w odległości około 1300 lat świetlnych w gwiazdozborze Oriona.",
-      "Satelita Anselmi Euclid został wystrzelony w lipcu 2023 r. i krąży wokół punktu Lagrange'a 2 (L2) układu Słońce-Ziemia, znajdującego się w odległości około 1,5 miliona kilometrów od Ziemi – jest to popularne miejsce dla teleskopów kosmicznych."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Euklides był starożytnym greckim matematykiem, który zajmował się geometrią i logiką. Uważany za „ojca geometrii”, jest znany przede wszystkim z traktatu „Elementy”, który ustanowił podstawy geometrii dominujące w tej dziedzinie aż do początku XIX wieku. Jego system, obecnie nazywany geometrią euklidesową, obejmował innowacje połączone z syntezą teorii wcześniejszych greckich matematyków, w tym Eudoksosa z Knidos, Hipokratesa z Chios, Talesa i Teajetosa. Wraz z Archimedesem i Apolloniuszem z Pergi Euklides jest powszechnie uważany za jednego z najwybitniejszych matematyków starożytności i jednego z najbardziej wpływowych w historii matematyki."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Euclid",
-     "url": "https://en.wikipedia.org/wiki/Euclid"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "95%",
-    "1.5 million",
-    "930,000",
-    "600",
-    "10 billion",
-    "3.7 billion"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Euclid",
-    "opis": "Ancient Greek mathematician (fl. 300 BC)",
-    "tekst": "Euclid was an ancient Greek mathematician active as a geometer and logician. Considered the \"father of geometry\", he is chiefly known for the Elements treatise, which established the foundations of geometry that largely dominated the field until the early 19th century. His system, now referred to as Euclidean geometry, involved innovations in combination with a synthesis of theories from earlier Greek mathematicians, including Eudoxus of Cnidus, Hippocrates of Chios, Thales and Theaetetus. With Archimedes and Apollonius of Perga, Euclid is generally considered among the greatest mathematicians of antiquity, and one of the most influential in the history of mathematics.",
-    "url": "https://en.wikipedia.org/wiki/Euclid",
-    "język": "en"
-   },
-   "tagi": [
-    "Euclid",
-    "Lambda-CDM",
-    "Big Bang",
-    "European Space Agency's Euclid"
-   ],
-   "emotki": [
-    "🔭"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Phys.org Astronomy",
-     "tytuł": "Euclid's hunt for strong gravitational lenses is off to a strong start",
-     "url": "https://phys.org/news/2026-11-euclid-strong-gravitational-lenses.html"
-    },
-    {
-     "nazwa": "Universe Today",
-     "tytuł": "Euclid's Hunt for Strong Gravitational Lenses is Off to a Strong Start",
-     "url": "https://www.universetoday.com/articles/euclids-hunt-for-strong-gravitational-lenses-is-off-to-a-strong-start"
+     "tytuł": "This is the First Time Astronomers Have Seen One of These Stellar Mergers",
+     "url": "https://www.universetoday.com/articles/this-is-the-first-time-astronomers-have-seen-one-of-these-stellar-mergers"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.387,
+    "wynik": 5.809,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.35,
+     "ranga_źródła": 1.2,
      "eksponowanie": 1.17,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.529,
-     "treściwość": 0.388,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.401,
+     "treściwość": 0.438,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Euclid's hunt for strong gravitational lenses is off to a strong start",
+   "oryginalny_nagłówek": "Astronomers Watch One Star Swallow Another",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
    },
    "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Rozmowy ONZ w sprawie klimatu wchodzą w decydującą fazę, a porozumienie nie jest w zasięgu wzroku",
+   "lead": "W piątek dobiega końca konferencja klimatyczna ONZ COP31. Kraje są mocno podzielone w kwestii projektu porozumienia, w którym nie ma wzmianki o paliwach kopalnych przyczyniających się do globalnego ocieplenia, co grozi przedłużeniem negocjacji. Negocjatorzy z prawie 200 krajów usiłowali przezwyciężyć różnice zdań po dwóch tygodniach rozmów…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-20T08:43:01+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Earth",
+    "url": "https://phys.org/news/2026-11-climate-crunch-sight.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/negotiators-from-nearl.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Rozmowy odbywają się w cieniu szeregu dobitnych przypomnień o pilnej potrzebie podjęcia działań na rzecz klimatu, od fal upałów w Europie i niszczycielskich powodzi w Nepalu po rekordowe zjawisko El Niño, które sieje spustoszenie na całym świecie.",
+      "Wojna w Iranie i szok cenowy na rynku ropy naftowej jeszcze bardziej skomplikowały rozmowy, pogłębiając podziały w kwestii bezpieczeństwa energetycznego i przyszłości paliw kopalnych.",
+      "Wstępny projekt porozumienia z początku tego tygodnia zawierał apele o przyspieszenie działań na rzecz stopniowego wycofywania paliw kopalnych.",
+      "Jednak w nowej wersji opublikowanej w czwartek przez Australię, współgospodarza COP31, pominięto wszelkie wzmianki o ropie naftowej, gazie i węglu – głównych czynnikach odpowiedzialnych za zmiany klimatu.",
+      "Nieobecność to „czarna plama” – powiedziała francuska minister ds. transformacji ekologicznej Monique Barbut.",
+      "„Będziemy prowadzić konsultacje i negocjacje, dopóki nie będzie dla nas całkowicie jasne, że osiągnęliśmy konsensus” – powiedział dziennikarzom australijski minister ds. klimatu Chris Bowen, który kieruje negocjacjami na COP31.",
+      "Podczas konferencji COP28 w Dubaju w 2023 roku państwa zgodziły się na odejście od paliw kopalnych, nie wyznaczając jednak celów ani terminów, a kraje produkujące ropę naftową zaciekle sprzeciwiały się wszelkim próbom ponownego poruszenia tej kwestii.",
+      "Ubiegłoroczny szczyt w Brazylii zakończył się bez wzmianki o paliwach kopalnych, co skłoniło kraje do podjęcia własnych działań poza procesem ONZ w celu odejścia od węgla, ropy naftowej i gazu.",
+      "„Kraje zależne od interesów związanych z paliwami kopalnymi blokują postępy w szybkim, sprawiedliwym odejściu od paliw kopalnych” – powiedziała Rachel Cleetus, dyrektor programu klimatycznego w Union of Concerned Scientists."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Ministrowie z Afryki twierdzą, że „nie przyjechali tu prosić o pomoc”, a organizacje społeczeństwa obywatelskiego nazywają to spotkanie „najgorszym szczytem COP w historii”. Kluczowe rozmowy na temat klimatu weszły w fazę dogrywki w ostatnim oficjalnym dniu szczytu ONZ COP31, ponieważ kraje nadal spierają się o projekt porozumienia, w którym nie ma wzmianki o paliwach kopalnych, a liczne inne sporne kwestie komplikują negocjacje.",
+      "Prawie 200 krajów miało trudności z pokonaniem różnic zdań po dwóch tygodniach intensywnych rozmów i emocjonalnych przemówień w tureckiej Antalyi na temat skutków katastrofy klimatycznej na całym świecie. Planowane zakończenie szczytu w piątek wieczorem zostało przekroczone. „W tym momencie nikt nie jest zadowolony” – powiedział dziennikarzom brazylijski sekretarz ds. zmian klimatycznych Aloisio Lopes Pereira de Melo.",
+      "The Guardian dowiedział się, że prawdopodobnie do soboty rano nie pojawi się nowy projekt porozumienia, nad którym negocjatorzy mogliby się pochylić.",
+      "W piątek rano doszło do dramatycznej interwencji afrykańskich ministrów, z których jeden powiedział: „Nie przyjechaliśmy tu, żeby błagać”. Grupy społeczeństwa obywatelskiego, które mają przypisaną rolę w rozmowach, uznały tę konferencję za „najgorszą w historii”, ponieważ żaden z ich priorytetów nie został uwzględniony w negocjacjach.",
+      "Uważa się, że Arabia Saudyjska należy do krajów, które naciskają na to, by w ostatecznym porozumieniu znalazło się wyraźne odniesienie do wychwytywania i składowania dwutlenku węgla (CCUS) jako sposobu na to, by pomóc planecie zminimalizować przekroczenie celu dotyczącego temperatury wynoszącego 1,5°C, uzgodnionego w Paryżu.",
+      "Neil Grant, starszy ekspert ds. ograniczania emisji w grupie doradczej Climate Analytics, powiedział, że CCUS zostało włączone do tekstu, „ponieważ chcą tego podmioty związane z paliwami kopalnymi”.",
+      "Paliwa kopalne i finansowanie działań na rzecz klimatu to jedne z kwestii, które wywołały głębokie podziały i sprawiły, że szczyt ONZ trwał dłużej niż przewidywano. Antalya 2026 to „najgorszy szczyt COP w historii” – stwierdzili aktywiści społeczeństwa obywatelskiego podczas zatłoczonej końcowej konferencji prasowej na szczycie klimatycznym ONZ."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "200",
+    "35%",
+    "1.5",
+    "120 billion",
+    "32.3",
+    "27"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "French Ecological Transition Minister Monique Barbut",
+    "Australian Climate Minister Chris Bowen",
+    "Climate Minister Ralph Regenvanu",
+    "U.N.'s Intergovernmental Panel"
+   ],
+   "emotki": [
+    "🪐"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Earth",
+     "tytuł": "UN climate talks enter crunch time with no deal in sight",
+     "url": "https://phys.org/news/2026-11-climate-crunch-sight.html"
+    },
+    {
+     "nazwa": "The Guardian Environment",
+     "tytuł": "Cop31 talks go into overtime as debate rages over lack of fossil fuels in draft deal",
+     "url": "https://www.theguardian.com/environment/2026/nov/20/cop31-talks-overtime-fossil-fuels-vanish-from-draft-deal"
+    },
+    {
+     "nazwa": "The Guardian Environment",
+     "tytuł": "Factious climate talks enter overtime without new draft deal in sight – as it happened",
+     "url": "https://www.theguardian.com/world/live/2026/nov/20/cop31-climate-crisis-talks-turkey-latest-news-updates"
+    },
+    {
+     "nazwa": "Mongabay",
+     "tytuł": "Fossil fuels’ role in Africa’s energy transition contested as UN climate conference closes",
+     "url": "https://news.mongabay.com/2026/11/fossil-fuels-role-in-africas-energy-transition-contested-as-un-climate-conference-closes/"
+    },
+    {
+     "nazwa": "Mongabay",
+     "tytuł": "UN climate talks slammed by activists, leaders as fossil fuels go unmentioned in draft agreement",
+     "url": "https://news.mongabay.com/short-article/2026/11/un-climate-talks-slammed-by-activists-leaders-as-fossil-fuels-go-unmentioned-in-draft-agreement/"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 3,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.008,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.78,
+     "eksponowanie": 0.09,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.488,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "UN climate talks enter crunch time with no deal in sight",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
   },
   {
    "dział": {
@@ -1533,80 +1641,13 @@
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 4.138,
+    "wynik": 3.838,
     "składowe": {
      "potwierdzenia": 0.0,
      "ranga_źródła": 1.0,
      "eksponowanie": 0.9,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.538,
-     "treściwość": 0.5,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "geografia",
-    "nazwa": "Geografia",
-    "emoji": "🗺️",
-    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
-   },
-   "nagłówek": "ICEYE prezentuje Gen5 - komercyjnego satelitę SAR o najwyższej rozdzielczości",
-   "lead": "Piąta generacja satelitów ICEYE oferuje klientom rządowym rozdzielczość 11 cm, większą elastyczność w działaniu i pokładową sztuczną inteligencję, umożliwiając szybsze podejmowanie decyzji w oparciu o precyzyjne dane. Gen5 umożliwia odbiorcom obrazowanie przy szerokości pasma 1800 MHz, uzyskując rozdzielczość do 11 cm…",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-20T00:00:00+00:00",
-   "źródło": {
-    "nazwa": "Geoforum",
-    "url": "https://geoforum.pl/news/37539/iceye-prezentuje-gen5-komercyjnego-satelite-sar-o-najwyzszej-rozdzielczosci",
-    "domena": "geoforum.pl"
-   },
-   "obraz": null,
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Takie rozwiązanie pozwala na wykrywanie i identyfikowanie obiektów z większą pewnością..."
-     ]
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "11 cm",
-    "1800"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": null,
-   "tagi": [
-    "Międzynarodowego Związku Telekomunikacyjnego",
-    "Piąta",
-    "Gen5",
-    "MHz"
-   ],
-   "emotki": [
-    "🏛️"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Geoforum",
-     "tytuł": "ICEYE prezentuje Gen5 - komercyjnego satelitę SAR o najwyższej rozdzielczości",
-     "url": "https://geoforum.pl/news/37539/iceye-prezentuje-gen5-komercyjnego-satelite-sar-o-najwyzszej-rozdzielczosci"
-    }
-   ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 3.608,
-    "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.0,
-     "eksponowanie": 0.72,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.538,
+     "świeżość": 0.238,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -1620,75 +1661,88 @@
     "emoji": "🎬",
     "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
    },
-   "nagłówek": "\"GTA VI\". Gracze w szoku. Po 25 latach Rockstar usunął te postaci",
-   "lead": "Już prawie cały świat ma możliwość gry w \" Grand Theft Auto VI \". I choć tytuł spotkał się z powszechnym zachwytem wśród krytyków, to jednak nie wszyscy gracze są zadowoleni.",
+   "nagłówek": "Trwają prace nad nową częścią \"Kevina\". Macaulay Culkin i Seth Rogen zaangażowani w projekt",
+   "lead": "Deadline poinformowało, że po wielu latach Macaulay Culkin może ponownie wcielić się w Kevina McCallistera w filmie pełnometrażowym. Według doniesień w studiu 20th Century należącym do Disneya rozpoczęły się wczesne prace nad kolejną odsłoną \"<a class='internal' href='/film/Kevin+sam+w+domu-1990-6721'",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-19T09:27:23+00:00",
+   "opublikowano": "2026-11-20T18:54:00+00:00",
    "źródło": {
     "nazwa": "Filmweb",
-    "url": "https://www.filmweb.pl/news/%22GTA+VI%22.+Gracze+w+szoku.+Po+25+latach+Rockstar+usun%C4%85%C5%82+te+postaci-169737",
+    "url": "https://www.filmweb.pl/news/Trwaj%C4%85+prace+nad+now%C4%85+cz%C4%99%C5%9Bci%C4%85+%22Kevina%22.+Macaulay+Culkin+i+Seth+Rogen+zaanga%C5%BCowani+w+projekt-169768",
     "domena": "filmweb.pl"
    },
-   "obraz": "https://fwcdn.pl/nph/867323/2026/79356_1.16.jpg",
+   "obraz": "https://fwcdn.pl/nph/1433332/2026/79418.16.jpg",
    "sekcje": [
     {
-     "tytuł": "Co się stało",
+     "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Jedna zmiana już wywołała falę narzekań w mediach społecznościowych."
-     ]
+      "Macaulay Macaulay Culkin Culkin, dawniej Macaulay Carson Culkin – amerykański aktor i muzyk, który zdobył międzynarodową sławę dzięki roli Kevina McCallistera w filmach Kevin sam w domu oraz Kevin sam w Nowym Jorku."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Macaulay Culkin",
+     "url": "https://pl.wikipedia.org/wiki/Macaulay_Culkin"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "70",
-    "11",
-    "1.6",
-    "13"
+    "20",
+    "6721",
+    "46",
+    "476",
+    "359"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Onet Kultura",
+     "ujęcie": "W wytwórni Disney ruszyły wczesne prace nad sequelem filmu \"Kevin sam w domu\" — ustalił serwis Variety.",
+     "url": "https://kultura.onet.pl/film/powstaje-nowy-kevin-sam-w-domu-macaulay-culkin-pracuje-nad-scenariuszem/ns86ds3"
+    }
+   ],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Macaulay Culkin",
+    "opis": "amerykański aktor",
+    "tekst": "Macaulay Macaulay Culkin Culkin, dawniej Macaulay Carson Culkin – amerykański aktor i muzyk, który zdobył międzynarodową sławę dzięki roli Kevina McCallistera w filmach Kevin sam w domu oraz Kevin sam w Nowym Jorku.",
+    "url": "https://pl.wikipedia.org/wiki/Macaulay_Culkin",
+    "język": "pl"
+   },
    "tagi": [
-    "Grand Theft Auto",
-    "Rockstar"
+    "Kevina McCallistera",
+    "Macaulay Culkin",
+    "Seth Rogen",
+    "Deadline"
    ],
    "emotki": [
-    "🎮"
+    "🎬"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Filmweb",
-     "tytuł": "\"GTA VI\". Gracze w szoku. Po 25 latach Rockstar usunął te postaci",
-     "url": "https://www.filmweb.pl/news/%22GTA+VI%22.+Gracze+w+szoku.+Po+25+latach+Rockstar+usun%C4%85%C5%82+te+postaci-169737"
+     "tytuł": "Trwają prace nad nową częścią \"Kevina\". Macaulay Culkin i Seth Rogen zaangażowani w projekt",
+     "url": "https://www.filmweb.pl/news/Trwaj%C4%85+prace+nad+now%C4%85+cz%C4%99%C5%9Bci%C4%85+%22Kevina%22.+Macaulay+Culkin+i+Seth+Rogen+zaanga%C5%BCowani+w+projekt-169768"
     },
     {
-     "nazwa": "BBC Kultura",
-     "tytuł": "Who decides that Grand Theft Auto is for adults only?",
-     "url": "https://www.bbc.co.uk/news/articles/c6m25ver32rpo?at_medium=RSS&at_campaign=rss"
+     "nazwa": "Onet Kultura",
+     "tytuł": "Powstaje nowy \"Kevin sam w domu\". Macaulay Culkin pracuje nad scenariuszem",
+     "url": "https://kultura.onet.pl/film/powstaje-nowy-kevin-sam-w-domu-macaulay-culkin-pracuje-nad-scenariuszem/ns86ds3"
     },
     {
-     "nazwa": "The Guardian Culture",
-     "tytuł": "Grand Theft Auto would be a huge TV series – here’s why it will never happen",
-     "url": "https://www.theguardian.com/tv-and-radio/2026/nov/19/grand-theft-auto-would-be-a-huge-tv-series-heres-why-it-will-never-happen"
-    },
-    {
-     "nazwa": "The Guardian Culture",
-     "tytuł": "Grand Theft Auto fans skip work and pull all-nighters to play new instalment",
-     "url": "https://www.theguardian.com/games/2026/nov/19/grand-theft-auto-six-fans-skip-work-pull-all-nighters"
+     "nazwa": "The Guardian Film",
+     "tytuł": "Home Alone sequel reportedly in development with Macaulay Culkin returning",
+     "url": "https://www.theguardian.com/film/2026/nov/20/home-alone-sequel-macaulay-culkin"
     }
    ],
    "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 8.199,
+    "wynik": 7.808,
     "składowe": {
      "potwierdzenia": 3.8,
-     "ranga_źródła": 1.68,
-     "eksponowanie": 0.18,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.489,
+     "ranga_źródła": 1.465,
+     "eksponowanie": 0.36,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.483,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -1702,72 +1756,95 @@
     "emoji": "🎬",
     "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
    },
-   "nagłówek": "Widzowie obsadzili ją już u boku Bonda. Ona sama zabrała głos",
-   "lead": "Wokół nowego filmu o Jamesie Bondzie nie milkną emocje. Po ogłoszeniu, że w agenta 007 wcieli się Robert Pattinson, coraz częściej pojawiają się także spekulacje dotyczące obsady kobiecych ról.",
+   "nagłówek": "\"Rocky\": Kultowy film ma już 50 lat. Czego o nim nie wiecie?",
+   "lead": "Muzykę, która towarzyszy treningowi początkującego boksera, przygotowującego się do pokazowej walki z mistrzem świata, zna każdy kinoman. W 1976 roku, po porażce w Wietnamie i aferze Watergate, amerykańska publiczność pokochała inspirująca historię sportowca, który dostał szansę od losu i ją wykorzystał.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-19T14:04:09+00:00",
+   "opublikowano": "2026-11-20T10:28:48+00:00",
    "źródło": {
-    "nazwa": "Onet Kultura",
-    "url": "https://kultura.onet.pl/film/wiadomosci/gemma-chan-o-roli-w-filmie-o-jamesie-bondzie-bylabym-zaszczycona/8f7008x",
-    "domena": "kultura.onet.pl"
+    "nazwa": "Interia Film",
+    "url": "https://film.interia.pl/kultowe-filmy/news-rocky-kultowy-film-ma-juz-50-lat-czego-o-nim-nie-wiecie,nId,5655260",
+    "domena": "film.interia.pl"
    },
-   "obraz": "https://cdn.kultura.onet.pl/1/cHVk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy8wYjcxMGQ2ZGI2NTZmYjhiOTk0ZDM2OTMwYTNjMmNmYy5qcGeSlQMAzQEOzR6lzRE9kwXNCWDNBkDeAAKhMAehMQQ",
+   "obraz": "https://i.iplsc.com/-/000NJVIWBF4EKR4A-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Jedną z aktorek, które często wymieniają fani, jest Gemma Chan.",
-      "Gwiazda właśnie odniosła się do tych doniesień."
+      "20 listopada mija 50 lat od premiery \"Rocky'ego\" Johna G.",
+      "Avildsena. \" Rocky , otwiera się w nowym oknie \" opowiada historię ubogiego boksera-amatora (Sylvester Stallone), ściągającego haracze dla lokalnego lichwiarza.",
+      "Mistrz bokserski Apollo Creed (Carl Weathers) na kilka tygodni przed walką traci przeciwnika.",
+      "Gdy okazuje się, że nie uda się szybko znaleźć godnego zastępcy, sportowiec wpada na pomysł medialnego show, w którym stoczy pojedynek z lokalnym zawodnikiem.",
+      "Jednocześnie stara się rozpocząć związek z Adrian (Talia Shire), nieśmiałą pracownicą sklepu zoologicznego.",
+      "Podczas walki, ku zaskoczeniu Apolla, Rocky okazuje się groźnym przeciwnikiem.",
+      "Ostatecznie mistrz zwycięża na punkty, ale Rocky'ego to nie obchodzi - najważniejsza jest dla niego Adrian, której rzuca się w ramiona.",
+      "Stallone wpadł na pomysł filmu w 1975 roku po zobaczeniu walki bokserskiej między Muhammadem Alim i Chuckiem Wepnerem, zakończonej nokautem tego drugiego w ostatnich chwilach piętnastej rundy.",
+      "Czując, że ten film zapewni mu sławę, zaczął rozsyłać tekst do studiów filmowych."
      ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Rocky – amerykański dramat sportowy z 1976 roku z Sylvestrem Stallone w roli Rocky’ego Balboa – tytułowego bohatera. Rolę Apollo Creeda zagrał Carl Weathers. Slogan reklamowy tego filmu brzmiał His whole life was a milion-to-one shot. Zdjęcia kręcono w Filadelfii i Los Angeles."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Rocky",
+     "url": "https://pl.wikipedia.org/wiki/Rocky"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "007",
-    "10",
-    "90,000"
+    "20",
+    "50 lat",
+    "100 tysięcy",
+    "32",
+    "35 godzin",
+    "225 milionów"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Rocky",
+    "opis": "film z 1976, reż. John Avildsen",
+    "tekst": "Rocky – amerykański dramat sportowy z 1976 roku z Sylvestrem Stallone w roli Rocky’ego Balboa – tytułowego bohatera. Rolę Apollo Creeda zagrał Carl Weathers. Slogan reklamowy tego filmu brzmiał His whole life was a milion-to-one shot. Zdjęcia kręcono w Filadelfii i Los Angeles.",
+    "url": "https://pl.wikipedia.org/wiki/Rocky",
+    "język": "pl"
+   },
    "tagi": [
-    "Robert Pattinson",
-    "Jamesie Bondzie",
-    "Gemma Chan",
-    "Bonda"
+    "Rocky'ego",
+    "Stallone'a",
+    "Stallone",
+    "Rocky"
    ],
    "emotki": [
-    "🎬"
+    "🥊",
+    "🎬",
+    "🎵"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Onet Kultura",
-     "tytuł": "Widzowie obsadzili ją już u boku Bonda. Ona sama zabrała głos",
-     "url": "https://kultura.onet.pl/film/wiadomosci/gemma-chan-o-roli-w-filmie-o-jamesie-bondzie-bylabym-zaszczycona/8f7008x"
+     "nazwa": "Interia Film",
+     "tytuł": "\"Rocky\": Kultowy film ma już 50 lat. Czego o nim nie wiecie?",
+     "url": "https://film.interia.pl/kultowe-filmy/news-rocky-kultowy-film-ma-juz-50-lat-czego-o-nim-nie-wiecie,nId,5655260"
     },
     {
-     "nazwa": "The Guardian Film",
-     "tytuł": "Alex Cox: ‘John Lydon said Sid and Nancy was a nightmarish piece of garbage’",
-     "url": "https://www.theguardian.com/film/2026/nov/19/alex-cox-john-lydon-said-sid-and-nancy-was-a-nightmarish-piece-of-garbage"
-    },
-    {
-     "nazwa": "The Guardian Film",
-     "tytuł": "Robert Pattinson to apply for 90,000 more jobs? UK government trolls James Bond actor",
-     "url": "https://www.theguardian.com/film/2026/nov/19/robert-pattinson-james-bond-uk-government-youth-employment-scheme"
+     "nazwa": "The Guardian Culture",
+     "tytuł": "NFL legend John Madden’s unlikely, unfiltered brilliance: ‘Coach was indeed animated’",
+     "url": "https://www.theguardian.com/film/2026/nov/20/john-madden-nfl-football-biopic"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.147,
+    "wynik": 5.722,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.472,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.425,
+     "ranga_źródła": 1.193,
+     "eksponowanie": 1.26,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.369,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -1779,9 +1856,9 @@
  "statystyki": {
   "kanały_ok": 71,
   "kanały_błędne": 0,
-  "znaki_tłumaczone": 13735,
+  "znaki_tłumaczone": 18209,
   "niedziałające_kanały": [],
   "działy": 18,
-  "artykuły_w_oknie": 51
+  "artykuły_w_oknie": 52
  }
 }
