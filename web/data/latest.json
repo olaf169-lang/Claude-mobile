@@ -1,8 +1,8 @@
 {
  "wersja": "1.0.0",
- "wydanie": "2026-11-21",
- "dotyczy_dnia": "2026-11-20",
- "wygenerowano": "2026-11-21T14:04:12+00:00",
+ "wydanie": "2026-11-22",
+ "dotyczy_dnia": "2026-11-21",
+ "wygenerowano": "2026-11-22T13:56:52+00:00",
  "strefa": "Europe/Warsaw",
  "tryb": "ekstrakcyjny",
  "demo": false,
@@ -14,122 +14,126 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "Premier Tusk ujawnił, co usłyszał od prezydenta Nawrockiego. „Powiedział mi...”",
-   "lead": "Premier Donald Tusk kilka dni temu zaprosił prezydenta Karola Nawrockiego na spotkanie opłatkowe do swojego domu w Sopocie. „Panie prezydencie, tak od serca chcę pana zaprosić z małżonką, rodziną, dziećmi, do mnie do domu w Sopocie.",
+   "nagłówek": "„Największe potencjalne zagrożenie w Lipowcu”. Prokuratura o działaniach po upadku rosyjskich maszyn",
+   "lead": "Ewentualną obecność materiałów wybuchowych sprawdzała prokuratura, a także specjalistyczne grupy zajmujące się zagrożeniami radiologicznymi i chemicznymi, które nadal prowadzą oględziny m.in. w okolicy Mołodycza na Podkarpaciu. Wczoraj w rejonie stawów Miłków, na dużym obszarze, znaleziono tam rozrzucone metalowe…",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-20T11:59:00+00:00",
+   "opublikowano": "2026-11-21T11:48:00+00:00",
    "źródło": {
     "nazwa": "RMF24",
-    "url": "https://www.rmf24.pl/fakty/polityka/news-premier-tusk-ujawnil-co-uslyszal-od-prezydenta-nawrockiego-p,nIdn,1026994",
+    "url": "https://www.rmf24.pl/regiony/news-najwieksze-potencjalne-zagrozenie-w-lipowcu-prokuratura-o-dz,nIdn,1027091",
     "domena": "rmf24.pl"
    },
-   "obraz": "https://rmf.rmffm.pl/news/attachments/d8/11/karol-nawrocki-636x421-d81137d3.jpg",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/54/83/2026-fot-636x421-5483d189.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Podzielmy się opłatkiem przed Wigilią.",
-      "Porozmawiajmy, jak to się kiedyś mówiło, jak Polak z Polakiem.",
-      "Polska warta jest naszej rozmowy” - powiedział premier Donald Tusk podczas obchodów Narodowego Święta Niepodległości w Szczecinie.",
-      "O reakcję głowy państwa został zapytany w piątek podczas konferencji prasowej po powołaniu Andrzeja Domańskiego i Agnieszki Bartol .",
-      "Jak powiedział, prezydent Nawrocki nie przyjął zaproszenia. „ Prezydent powiedział, że nie zobaczymy się na opłatku przed świętami, ale że prześle serdeczne życzenia do mnie i do mojej rodziny ” - mogliśmy usłyszeć.",
-      "Premier podkreślił jednak, że w kwestiach szeroko pojętego bezpieczeństwa naszego kraju współpracuje z prezydentem Nawrockim i tutaj „wszystko wygląda tak, jak powinno”.",
-      "Będziemy się spierać o różne rzeczy, nie zgadzam się z prezydentem w większości spraw domowych, ale w kwestiach szeroko pojętego bezpieczeństwa musimy działać razem i działamy razem.",
-      "Tak będzie również w przyszłości.",
-      "Nie powiem złego słowa w tej sprawie ani na prezydenta, ani na jego ludzi."
+      "Prawdopodobnie spadł tam dron odrzutowy .",
+      "Pewnym natomiast jest to, że maszyna była rosyjska.",
+      "Przestrzeń powietrzną Polski naruszyły także dwa inne obiekty, najprawdopodobniej rosyjskie rakiety Ch-101.",
+      "W Nowym Lipowcu na Lubelszczyźnie wczoraj ok. godz.",
+      "7 było słychać potężny huk.",
+      "Szczątki obiektu znaleziono też w Rudniku nad Sanem na Podkarpaciu.",
+      "Wiadomo już bowiem, że data nie była przypadkowa - wczoraj, a więc 20 listopada, rozpoczęły się ćwiczenia „koalicji chętnych”, czyli manewry wojskowe z udziałem sił sojuszniczych, m.in. w Nowej Dębie.",
+      "Podkreślił to minister obrony narodowej, wicepremier Władysław Kosiniak-Kamysz.",
+      "Zgodnie z planem ekipy pracujące w tych trzech miejscowościach mają zakończyć działania dziś, zanim zapadnie zmierzch."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Premier Donald Tusk powiedział w piątek, że niestosowne jest ocenianie przez ministrów kancelarii prezydenta ministrów tworzących rząd.",
-      "Szefernaker stwierdził w piątek, przed powołaniem Andrzeja Domańskiego na wicepremiera i Agnieszki Bartol na minister funduszy i polityki regionalnej , że - gdyby decyzja zależała od prezydenta Karola Nawrockiego - to „awansu dla ministra Domańskiego by nie było”.",
-      "Dodał, że pełną odpowiedzialność za tę nominację bierze premier, który wystąpił z wnioskiem do prezydenta o dokonanie zmian w składzie Rady Ministrów.",
-      "Premier, pytany o tę wypowiedź podczas konferencji prasowej, stwierdził, że to „miłe i kulturalne słowa pana Szefernakera”. - Dobrze, że przynajmniej przyznał, że to nie zależy od prezydenta Nawrockiego, kto jest ministrem.",
-      "Dodał, że uważa za niestosowne, by minister kancelarii prezydenta oceniał, „kto powinien być (ministrem) i kto jest dobrym ministrem w rządzie”. - Ja mógłbym godzinami opowiadać, co myślę o panu Szefernakerze, panu (Marcinie) Przydaczu, panu (Zbigniewie) Boguckim.",
-      "Od 13 grudnia 2023 r. pełni on stanowisko ministra finansów, a od 24 lipca 2025 r. jest ministrem finansów i gospodarki."
+      "- Pocisk został wyprodukowany w czwartym kwartale tego roku - przekazał prokurator Andrzej Boroń, ujawniając nowe ustalenia o rosyjskiej rakiecie Ch-101, która spadła w Nowym Lipowcu.",
+      "Śledczy potwierdzili, że to rosyjska rakieta manewrująca Ch-101.",
+      "Andrzej Boroń. - Najważniejsze szczątki to silnik i pewne elementy manewrujące - mówił zastępca prokuratora okręgowego w Lublinie Andrzej Boroń.",
+      "Żandarmeria Wojskowa poinformowała, że w piątek rano w miejscowościach: Nowy Lipowiec (pow. biłgorajski, woj. lubelskie), Mołodycz (pow. jarosławski, woj. podkarpackie) oraz Rudnik (pow. niżański, woj. podkarpackie) spadły trzy obiekty.",
+      "Lubelska prokuratura w sobotę zakończyła czynności w miejscu upadku rakiety Ch-101 w miejscowości Nowy Lipowiec.",
+      "Nie było to łatwe zadanie, ponieważ - jak poinformowała prokuratura - do wybuchu doszło nad ziemią, co sprawiło, że szczątki zostały rozrzucone na dużym obszarze."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Karol Tadeusz Nawrocki – polski historyk, polityk, działacz społeczny i samorządowy, doktor nauk humanistycznych. Prezydent Rzeczypospolitej Polskiej od 6 sierpnia 2025."
+      "Województwo podkarpackie – jednostka podziału administracyjnego Polski, jedno z 16 województw utworzonych w 1999 roku. Powstało poprzez scalenie ziem województw przemyskiego i rzeszowskiego, oraz części krośnieńskiego, tarnobrzeskiego i tarnowskiego. Tym samym objęło obszar podobny do dawnego województwa rzeszowskiego sprzed reformy w 1975 roku. Obecnie województwo zajmuje powierzchnię 17 845,44 km² i zajmuje 11. miejsce w kraju. Pod względem liczby mieszkańców znajduje się na 8. miejscu w Polsce. Jest najdalej wysuniętym na południowy wschód województwem Polski. Według danych z ostatnich lat województwo podkarpackie należy do najbiedniejszych województw w Polsce charakteryzujących się niskim PKB na mieszkańca."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Karol Nawrocki",
-     "url": "https://pl.wikipedia.org/wiki/Karol_Nawrocki"
+     "przypis": "Wikipedia: Województwo podkarpackie",
+     "url": "https://pl.wikipedia.org/wiki/Wojew%C3%B3dztwo_podkarpackie"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "13",
-    "24",
+    "101",
     "20",
-    "27",
-    "161",
-    "151"
+    "30",
+    "6.30",
+    "280"
    ],
    "inne_spojrzenia": [
     {
      "źródło": "RMF24",
-     "ujęcie": "Awantura o fałszywą galę z udziałem prezydenta Nawrockiego.",
-     "url": "https://www.rmf24.pl/fakty/polityka/news-awantura-o-falszywa-gale-z-udzialem-prezydenta-nawrockiego-m,nIdn,1026939"
+     "ujęcie": "Prokuratura o obiekcie, który spadł w Nowym Lipowcu",
+     "url": "https://www.rmf24.pl/fakty/polska/news-to-jest-ta-rakieta-prokuratura-o-obiekcie-ktory-spadl-w-nowy,nIdn,1027109"
+    },
+    {
+     "źródło": "Interia Fakty",
+     "ujęcie": "Prokuratura wie już też, z której fabryki pochodził pocisk, ale tych danych nie zdradza.",
+     "url": "https://wydarzenia.interia.pl/kraj/news-rosyjska-rakieta-spadla-w-nowym-lipowcu-na-jaw-wychodza-nowe,nId,23577069"
     }
    ],
    "pojęcia": [],
    "tło": {
-    "hasło": "Karol Nawrocki",
-    "opis": "polski historyk i polityk, 7. prezydent III RP (od 2025)",
-    "tekst": "Karol Tadeusz Nawrocki – polski historyk, polityk, działacz społeczny i samorządowy, doktor nauk humanistycznych. Prezydent Rzeczypospolitej Polskiej od 6 sierpnia 2025.",
-    "url": "https://pl.wikipedia.org/wiki/Karol_Nawrocki",
+    "hasło": "Województwo podkarpackie",
+    "opis": "województwo w Polsce",
+    "tekst": "Województwo podkarpackie – jednostka podziału administracyjnego Polski, jedno z 16 województw utworzonych w 1999 roku. Powstało poprzez scalenie ziem województw przemyskiego i rzeszowskiego, oraz części krośnieńskiego, tarnobrzeskiego i tarnowskiego. Tym samym objęło obszar podobny do dawnego województwa rzeszowskiego sprzed reformy w 1975 roku. Obecnie województwo zajmuje powierzchnię 17 845,44 km² i zajmuje 11. miejsce w kraju. Pod względem liczby mieszkańców znajduje się na 8. miejscu w Polsce. Jest najdalej wysuniętym na południowy wschód województwem Polski. Według danych z ostatnich lat województwo podkarpackie należy do najbiedniejszych województw w Polsce charakteryzujących się niskim PKB na mieszkańca.",
+    "url": "https://pl.wikipedia.org/wiki/Wojew%C3%B3dztwo_podkarpackie",
     "język": "pl"
    },
    "tagi": [
-    "Sopocie",
-    "Narodowego Święta Niepodległości",
-    "Andrzeja Domańskiego",
-    "Premier Donald Tusk"
+    "Podkarpaciu",
+    "Władysław Kosiniak-Kamysz",
+    "Żandarmerii Wojskowej",
+    "Dariusz Rozkosz"
    ],
    "emotki": [
-    "🏛️"
+    "⚖️"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "RMF24",
-     "tytuł": "Premier Tusk ujawnił, co usłyszał od prezydenta Nawrockiego. „Powiedział mi...”",
-     "url": "https://www.rmf24.pl/fakty/polityka/news-premier-tusk-ujawnil-co-uslyszal-od-prezydenta-nawrockiego-p,nIdn,1026994"
+     "tytuł": "„Największe potencjalne zagrożenie w Lipowcu”. Prokuratura o działaniach po upadku rosyjskich maszyn",
+     "url": "https://www.rmf24.pl/regiony/news-najwieksze-potencjalne-zagrozenie-w-lipowcu-prokuratura-o-dz,nIdn,1027091"
     },
     {
      "nazwa": "RMF24",
-     "tytuł": "Awantura o fałszywą galę z udziałem prezydenta Nawrockiego. Minister reaguje",
-     "url": "https://www.rmf24.pl/fakty/polityka/news-awantura-o-falszywa-gale-z-udzialem-prezydenta-nawrockiego-m,nIdn,1026939"
+     "tytuł": "„To jest ta rakieta”. Prokuratura o obiekcie, który spadł w Nowym Lipowcu",
+     "url": "https://www.rmf24.pl/fakty/polska/news-to-jest-ta-rakieta-prokuratura-o-obiekcie-ktory-spadl-w-nowy,nIdn,1027109"
     },
     {
-     "nazwa": "Bankier.pl",
-     "tytuł": "Premier: To niestosowne, by minister kancelarii prezydenta oceniał ministrów w rządzie",
-     "url": "https://www.bankier.pl/wiadomosc/Premier-To-niestosowne-by-minister-kancelarii-prezydenta-ocenial-ministrow-w-rzadzie-9232554.html"
+     "nazwa": "Interia Fakty",
+     "tytuł": "Rosyjska rakieta spadła w Nowym Lipowcu. Na jaw wychodzą nowe fakty",
+     "url": "https://wydarzenia.interia.pl/kraj/news-rosyjska-rakieta-spadla-w-nowym-lipowcu-na-jaw-wychodza-nowe,nId,23577069"
     },
     {
-     "nazwa": "Notes from Poland",
-     "tytuł": "Two Russian missiles and a drone hit Poland",
-     "url": "https://notesfrompoland.com/2026/11/20/unidentified-object-hits-poland-amid-russian-attacks-on-western-ukraine/"
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Nowe informacje o rosyjskiej rakiecie na Lubelszczyźnie. Prokuratura ujawnia",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198073,33144472,nowe-informacje-o-rosyjskiej-rakiecie-na-lubelszczyznie-prokuratura.html"
     }
    ],
    "liczba_źródeł": 3,
    "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 8.72,
+    "wynik": 7.233,
     "składowe": {
      "potwierdzenia": 3.8,
      "ranga_źródła": 1.622,
-     "eksponowanie": 0.63,
-     "słowa_kluczowe": 1.4,
-     "świeżość": 0.396,
-     "treściwość": 0.372,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.476,
+     "treściwość": 0.485,
      "język_działu": 0.5
     }
    },
@@ -142,109 +146,225 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "Domański wicepremierem. Prezydent powołał go, bo musiał",
-   "lead": "Na wniosek premiera Donalda Tuska prezydent powołał w piątek ministra finansów i gospodarki Andrzeja Domańskiego na wicepremiera a Agnieszkę Bartol na minister funduszy i polityki regionalnej . Domański został tym samym czwartym wicepremierem w rządzie Donalda Tuska.",
+   "nagłówek": "Sikorski reaguje na wtargnięcie rosyjskich obiektów do Polski. „Ekstremalne niezadowolenie”",
+   "lead": "Minionej nocy polska przestrzeń powietrzna została naruszona przez rosyjskie obiekty podczas zmasowanego ataku Putina na zachodnią Ukrainę. W dwóch miejscach na Podkarpaciu - w Rudniku nad Sanem oraz w Mołodyczu - spadły prawdopodobnie drony odrzutowe.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-20T10:17:00+00:00",
+   "opublikowano": "2026-11-21T09:03:00+00:00",
    "źródło": {
     "nazwa": "RMF24",
-    "url": "https://www.rmf24.pl/fakty/polityka/news-domanski-wicepremierem-prezydent-powolal-go-bo-musial,nIdn,1026968",
+    "url": "https://www.rmf24.pl/fakty/polska/news-sikorski-reaguje-na-wtargniecie-rosyjskich-obiektow-do-polsk,nIdn,1027082",
     "domena": "rmf24.pl"
    },
-   "obraz": "https://rmf.rmffm.pl/news/attachments/34/65/prezydent-karol-nawrocki-wrecza-nominacje-andrzejowi-domanskiemu-fot-636x421-346516cd.jpg",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/bc/94/radoslaw-sikorski-fot-636x421-bc94bbf3.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Na wcześniejszym briefingu szef Gabinetu Prezydenta RP Paweł Szefernaker powiedział, że wydarzenie to ma charakter techniczny.",
-      "Szefernaker oświadczył też, że gdyby decyzja zależała od prezydenta Nawrockiego, to „awansu dla ministra Domańskiego by nie było”.",
-      "Pan prezydent wręczy tę nominację dzisiaj, ale jasno chcę powiedzieć, że pełną odpowiedzialność za tę nominację bierze pan premier Donald Tusk, który to wystąpił z wnioskiem (...) do pana prezydenta o dokonanie zmian w składzie Rady Ministrów – powiedział Szefernaker.",
-      "Premier, pytany o tę wypowiedź podczas konferencji prasowej, stwierdził, że to „miłe i kulturalne słowa pana Szefernakera”.",
-      "Dobrze, że przynajmniej przyznał, że to nie zależy od prezydenta Nawrockiego , kto jest ministrem.",
-      "Więc w jakimś sensie dobrze skomentował cały ten proces wyczekiwania na podpis pana prezydenta - powiedział szef rządu.",
-      "Dodał, że uważa za niestosowne, by minister kancelarii prezydenta oceniał, „kto powinien być (ministrem) i kto jest dobrym ministrem w rządzie”.",
-      "Ja mógłbym godzinami opowiadać, co myślę o panu Szefernakerze, panu (Marcinie) Przydaczu, panu (Zbigniewie) Boguckim.",
-      "Ale po pierwsze domyślacie się państwo, co myślę, a po drugie, to nie jest moje zadanie - zaznaczył Tusk."
+      "Z kolei na Lubelszczyźnie - w Nowym Lipowcu - spadła prawdopodobnie rakieta Ch-101.",
+      "Na szczęście nikt w Polsce nie ucierpiał, ale opóźnione były aż 34 pociągi, w tym 10 dalekobieżnych PKP Intercity.",
+      "Łączna suma opóźnień wyniosła 913 minut.",
+      "Problemy nie ominęły także lotnictwa cywilnego.",
+      "Średnie opóźnienie czterech samolotów wyniosło 35 minut.",
+      "Szef MSZ Radosław Sikorski był dziś pytany, jak Polska zareaguje wobec tej rosyjskiej prowokacji.",
+      "Wiadomo już bowiem, że data nie była przypadkowa - wczoraj, a więc 20 listopada rozpoczęły się ćwiczenia „koalicji chętnych”, czyli manewry wojskowe z udziałem sił sojuszniczych, m.in. w Nowej Dębie.",
+      "Będziemy komunikować nasze ekstremalne niezadowolenie stronie rosyjskiej.",
+      "Czekamy na potwierdzenie twardych faktów (...)."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "- Nominacja na wicepremiera to kolejny dowód na to, że gospodarka jest absolutnym priorytetem dla rządu Donalda Tuska - powiedział w piątek minister finansów i gospodarki Andrzej Domański, który w piątek odebrał z rąk prezydenta nominację na wicepremiera.",
-      "Polska to dziś najszybciej rosnąca duża gospodarka Unii Europejskiej, jesteśmy szóstą największa gospodarką Unii Europejskiej, bierzemy udział w pracach grupy G20 , zarówno w tym, jak i w 2027 r.",
-      "Nasz PKB przekroczył ten magiczny poziom 1 bln dolarów – powiedział Domański na podczas piątkowej konferencji prasowej w KPRM.",
-      "Podkreślił, że priorytetami rządu są transformacja energetyczna oraz transformacja cyfrowa. - W styczniu w Warszawie obędzie się szczyt liderów AI, przedsiębiorców, naukowców, polityków."
+      "Wczoraj byłem w kontakcie z panem premierem i prezydentem. (...) Mogę zapewnić, że cały sojusz jest w pełni zjednoczony z Polską.",
+      "Wczoraj operowały polskie F-16, ale też Siły Zjednoczone.",
+      "To zadziałało dobrze w sytuacji bardzo złej - przekazał w sobotę sekretarz generalny NATO Mark Rutte w rozmowie z TVP Info.",
+      "Mogę zapewnić, że to dowództwo jest w pełni gotowe robić wszystko, co konieczne zaznaczył sekretarz generalny NATO. - Jestem pod olbrzymim wrażeniem tego, w jaki sposób w Polsce współpracują przedstawiciele różnych ośrodków władzy.",
+      "Wicepremier, szef polskiej dyplomacji Radosław Sikorski zapowiedział, że naruszenie polskiej przestrzeni powietrznej przez rosyjskie obiekty spotka się z ostrą reakcją."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Katarzyna Pełczyńska-Nałęcz – polska socjolog i politolog, specjalistka w zakresie problematyki wschodnioeuropejskiej, podsekretarz stanu w Ministerstwie Spraw Zagranicznych (2012–2014), ambasador Polski w Federacji Rosyjskiej (2014–2016), minister funduszy i polityki regionalnej w trzecim rządzie Donalda Tuska (2023–2026), przewodnicząca Polski 2050 (2026)."
+      "Język polski, polszczyzna – język lechicki z grupy zachodniosłowiańskiej, stanowiącej część rodziny indoeuropejskiej. Jest językiem urzędowym w Polsce oraz należy do oficjalnych języków Unii Europejskiej."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Katarzyna Pełczyńska-Nałęcz",
-     "url": "https://pl.wikipedia.org/wiki/Katarzyna_Pe%C5%82czy%C5%84ska-Na%C5%82%C4%99cz"
+     "przypis": "Wikipedia: Język polski",
+     "url": "https://pl.wikipedia.org/wiki/J%C4%99zyk_polski"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "200 miliardów zł"
+    "101",
+    "34",
+    "913",
+    "35",
+    "20",
+    "19"
    ],
    "inne_spojrzenia": [
     {
-     "źródło": "Money.pl",
-     "ujęcie": "Prezydent Karol Nawrocki powołał w piątek ministra finansów i gospodarki Andrzeja Domańskiego na funkcję wicepremiera .",
-     "url": "https://www.money.pl/gospodarka/domanski-nowym-wicepremierem-wskazal-priorytet-rzadu-tuska-7353040801777696a.html"
+     "źródło": "Gazeta.pl",
+     "ujęcie": "Zaznaczył, że ostatnie incydenty będą tematem rozmów wśród europejskich państw.",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33144232,rosyjskie-obiekty-wtargnely-do-polski-sikorski-bedziemy-komunikowac.html"
     }
    ],
    "pojęcia": [],
    "tło": {
-    "hasło": "Katarzyna Pełczyńska-Nałęcz",
-    "opis": "polska socjolożka, politolożka i polityczka",
-    "tekst": "Katarzyna Pełczyńska-Nałęcz – polska socjolog i politolog, specjalistka w zakresie problematyki wschodnioeuropejskiej, podsekretarz stanu w Ministerstwie Spraw Zagranicznych (2012–2014), ambasador Polski w Federacji Rosyjskiej (2014–2016), minister funduszy i polityki regionalnej w trzecim rządzie Donalda Tuska (2023–2026), przewodnicząca Polski 2050 (2026).",
-    "url": "https://pl.wikipedia.org/wiki/Katarzyna_Pe%C5%82czy%C5%84ska-Na%C5%82%C4%99cz",
+    "hasło": "Język polski",
+    "opis": "język zachodniosłowiański z gałęzi lechickiej",
+    "tekst": "Język polski, polszczyzna – język lechicki z grupy zachodniosłowiańskiej, stanowiącej część rodziny indoeuropejskiej. Jest językiem urzędowym w Polsce oraz należy do oficjalnych języków Unii Europejskiej.",
+    "url": "https://pl.wikipedia.org/wiki/J%C4%99zyk_polski",
     "język": "pl"
    },
    "tagi": [
-    "Katarzynę Pełczyńską-Nałęcz",
-    "Agnieszkę Bartol",
-    "Donalda Tuska",
-    "Nawrockiego"
+    "Ukrainę",
+    "Putin",
+    "Stanów Zjednoczonych",
+    "Radosław Sikorski"
    ],
    "emotki": [
-    "🏛️"
+    "🎾",
+    "⚔️"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "RMF24",
-     "tytuł": "Domański wicepremierem. Prezydent powołał go, bo musiał",
-     "url": "https://www.rmf24.pl/fakty/polityka/news-domanski-wicepremierem-prezydent-powolal-go-bo-musial,nIdn,1026968"
+     "tytuł": "Sikorski reaguje na wtargnięcie rosyjskich obiektów do Polski. „Ekstremalne niezadowolenie”",
+     "url": "https://www.rmf24.pl/fakty/polska/news-sikorski-reaguje-na-wtargniecie-rosyjskich-obiektow-do-polsk,nIdn,1027082"
     },
     {
-     "nazwa": "Money.pl",
-     "tytuł": "Domański nowym wicepremierem. Wskazał priorytet rządu Tuska",
-     "url": "https://www.money.pl/gospodarka/domanski-nowym-wicepremierem-wskazal-priorytet-rzadu-tuska-7353040801777696a.html"
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Szef NATO o rosyjskich obiektach w Polsce. Skomentował współpracę Nawrockiego i Tuska",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198072,33144268,szef-nato-o-rosyjskich-obiektach-w-polsce-skomentowal-wspolprace.html"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Rosyjskie obiekty wtargnęły do Polski. Sikorski: Będziemy komunikować ekstremalne niezadowolenie",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33144232,rosyjskie-obiekty-wtargnely-do-polski-sikorski-bedziemy-komunikowac.html"
     }
    ],
    "liczba_źródeł": 2,
-   "czas_czytania_min": 2,
+   "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.443,
+    "wynik": 5.396,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.3,
-     "eksponowanie": 0.63,
-     "słowa_kluczowe": 1.4,
-     "świeżość": 0.394,
-     "treściwość": 0.319,
+     "ranga_źródła": 1.45,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.376,
+     "treściwość": 0.47,
      "język_działu": 0.5
     }
    },
    "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "„Drugi El Chapo” zatrzymany. Był na liście FBI 10 najbardziej poszukiwanych",
+   "lead": "Meksykanie zatrzymali barona narkotykowego Fausto Isidro Meza Floresa, nazywanego „El Chapo Isidro” lub „Drugim El Chapo” (Joaquín Archivaldo Guzmán „El Chapo” – to jeden z założycieli oraz przywódców kartelu z Sinaloi, uważany za największego handlarza narkotyków na świecie - obecnie przebywa w więzieniu w USA). Do…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-21T15:30:00+00:00",
+   "źródło": {
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-drugi-el-chapo-zatrzymany-byl-na-liscie-fbi-10-najbardziej-p,nIdn,1027106",
+    "domena": "rmf24.pl"
+   },
+   "obraz": "https://rmf.rmffm.pl/news/attachments/5c/99/w-meksyku-trwa-wojna-z-kartelami-narkotykowymi-zdj-ilustracyjne-fot-636x421-5c9965b4.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Meza Flores był poszukiwany w Meksyku pod zarzutem udziału w przestępczości zorganizowane.",
+      "FBI oskarżyło go o „zalewanie USA fentanylem, kokainą, heroiną i innymi śmiercionośnymi narkotykami”.",
+      "Oskarżono go również o porwania, wymuszenia i tortury.",
+      "Meza Flores został wpisany na listę najbardziej poszukiwanych przez FBI osób po tym, jak meksykańskie władze powiązały jego kartel z 20 milionami tabletek fentanylu , skonfiskowanymi w 2024 roku.",
+      "Stany Zjednoczone będą domagać się jego ekstradycji.",
+      "Przypuszcza się, że Meza Flores, zajmował się handlem narkotykami już od lat 90.",
+      "Meksykańskie siły specjalne wykorzystały informacje wywiadowcze USA na temat miejsca pobytu szefa kartelu.",
+      "Jak podaje BBC, w Guasave stworzono specjalną strefę, która miała uniemożliwić mu ucieczkę, a także przybycie posiłków.",
+      "Przed pojmaniem bossa i jego zastępcy wywiązała się jednak strzelanina, członkowie kartelu odpalili też materiały wybuchowe."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Joaquín Archivaldo Guzmán Loera – meksykański przestępca, przemytnik i handlarz narkotyków, jeden z założycieli oraz przywódców kartelu z Sinaloi. W 2003, po aresztowaniu jego rywala Osiela Cárdenasa Guilléna - szefa kartelu z Zatoki – został uznany przez Departament Skarbu Stanów Zjednoczonych za „najpotężniejszego handlarza narkotyków na świecie”."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Joaquín Guzmán Loera",
+     "url": "https://pl.wikipedia.org/wiki/Joaqu%C3%ADn_Guzm%C3%A1n_Loera"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "20 milionami",
+    "90",
+    "44",
+    "10",
+    "3.8"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Joaquín Guzmán Loera",
+    "opis": "meksykański baron narkotykowy",
+    "tekst": "Joaquín Archivaldo Guzmán Loera – meksykański przestępca, przemytnik i handlarz narkotyków, jeden z założycieli oraz przywódców kartelu z Sinaloi. W 2003, po aresztowaniu jego rywala Osiela Cárdenasa Guilléna - szefa kartelu z Zatoki – został uznany przez Departament Skarbu Stanów Zjednoczonych za „najpotężniejszego handlarza narkotyków na świecie”.",
+    "url": "https://pl.wikipedia.org/wiki/Joaqu%C3%ADn_Guzm%C3%A1n_Loera",
+    "język": "pl"
+   },
+   "tagi": [
+    "Sinaloa",
+    "USA",
+    "Meza Flores",
+    "Guasave"
+   ],
+   "emotki": [
+    "⚖️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "RMF24 Świat",
+     "tytuł": "„Drugi El Chapo” zatrzymany. Był na liście FBI 10 najbardziej poszukiwanych",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-drugi-el-chapo-zatrzymany-byl-na-liscie-fbi-10-najbardziej-p,nIdn,1027106"
+    },
+    {
+     "nazwa": "BBC News",
+     "tytuł": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+     "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+     "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.473,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.688,
+     "eksponowanie": 1.08,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.555,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
   },
   {
    "dział": {
@@ -324,127 +444,27 @@
      "url": "https://www.rmf24.pl/fakty/swiat/news-ma-teraz-ciezki-okres-bo-toczy-wojne-ktora-powinna-trwac-jed,nIdn,1027055"
     },
     {
+     "nazwa": "BBC News",
+     "tytuł": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
+     "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss"
+    },
+    {
      "nazwa": "The Guardian",
      "tytuł": "Trump threatens ‘tremendous penalties’ for US tech firms that build datacenters abroad",
      "url": "https://www.theguardian.com/us-news/2026/nov/20/trump-datacenters-white-house"
-    },
-    {
-     "nazwa": "The Guardian",
-     "tytuł": "China, Russia and US agree peace declaration with no mention of Ukraine and Iran wars",
-     "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars"
-    },
-    {
-     "nazwa": "NPR",
-     "tytuł": "Trump touts meeting with Xi and Putin but offers little results",
-     "url": "https://www.npr.org/2026/11/20/nx-s1-6047594/trump-asia-trip-xi-putin-press-conference"
     }
    ],
    "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 8.588,
+    "wynik": 7.878,
     "składowe": {
      "potwierdzenia": 3.8,
      "ranga_źródła": 1.688,
-     "eksponowanie": 0.54,
+     "eksponowanie": 0.0,
      "słowa_kluczowe": 1.05,
-     "świeżość": 0.51,
-     "treściwość": 0.5,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "swiat",
-    "nazwa": "Świat",
-    "emoji": "🌍",
-    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
-   },
-   "nagłówek": "Złoto traci na wartości. Najgorszy tydzień dla kruszcu od marca",
-   "lead": "W piątek złoto potaniało nawet o 2,4 proc., schodząc poniżej 3540 dolarów za uncję (ok. W skali całego tygodnia jego cena może spaść o blisko 9 proc.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-20T08:27:00+00:00",
-   "źródło": {
-    "nazwa": "RMF24 Świat",
-    "url": "https://www.rmf24.pl/fakty/ekonomia/news-zloto-traci-na-wartosci-najgorszy-tydzien-dla-kruszcu-od-mar,nIdn,1026932",
-    "domena": "rmf24.pl"
-   },
-   "obraz": "https://rmf.rmffm.pl/news/attachments/e5/e8/zdjecie-ilustracyjne-636x421-e5e896d4.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Ostatni raz kruszec kosztował tyle we wrześniu 2025 r.",
-      "Jeszcze mocniej traci srebro, którego notowania obniżyły się w tym czasie o około 14 proc.",
-      "Presję na metale szlachetne wywierają wypowiedzi przedstawicieli Fed.",
-      "Prezes chicagowskiego oddziału Rezerwy Federalnej Austan Goolsbee stwierdził w czwartek, że wobec utrzymującej się inflacji w USA rozważałby wszystkie dostępne działania.",
-      "Rynek odebrał to jako kolejny sygnał, że stopy procentowe mogą nadal rosnąć – pisze Bloomberg.",
-      "Perspektywa bardziej restrykcyjnej polityki pieniężnej utrzymuje rentowności amerykańskich obligacji na wysokim poziomie.",
-      "Wyższe stopy i rentowności obligacji zwykle nie sprzyjają złotu, które nie przynosi odsetek.",
-      "Dodatkowo w tym tygodniu indeks dolara wzrósł o 0,7 proc., co podnosi koszt zakupu złota dla inwestorów posługujących się innymi walutami.",
-      "Justin Lin – strateg firmy zarządzającej funduszami giełdowymi Global X ETFs uważa, że złoto jest obecnie w bardzo słabej sytuacji."
-     ]
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "2,4 proc.",
-    "3540",
-    "14,3 tys. zł",
-    "9 proc.",
-    "14 proc.",
-    "0,7 proc."
-   ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "RMF24 Świat",
-     "ujęcie": "Gwałtowne spadki na Wall Street.",
-     "url": "https://www.rmf24.pl/fakty/ekonomia/news-gwaltowne-spadki-na-wall-street-najgorszy-tydzien-od-pandemi,nIdn,1027070"
-    }
-   ],
-   "pojęcia": [],
-   "tło": null,
-   "tagi": [
-    "USA",
-    "Rezerwy Federalnej Austan Goolsbee",
-    "Bloomberg",
-    "Global"
-   ],
-   "emotki": [
-    "💰"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "RMF24 Świat",
-     "tytuł": "Złoto traci na wartości. Najgorszy tydzień dla kruszcu od marca",
-     "url": "https://www.rmf24.pl/fakty/ekonomia/news-zloto-traci-na-wartosci-najgorszy-tydzien-dla-kruszcu-od-mar,nIdn,1026932"
-    },
-    {
-     "nazwa": "RMF24 Świat",
-     "tytuł": "Gwałtowne spadki na Wall Street. Najgorszy tydzień od pandemii",
-     "url": "https://www.rmf24.pl/fakty/ekonomia/news-gwaltowne-spadki-na-wall-street-najgorszy-tydzien-od-pandemi,nIdn,1027070"
-    },
-    {
-     "nazwa": "The Guardian",
-     "tytuł": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
-     "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 5.463,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.515,
-     "eksponowanie": 0.18,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.518,
+     "świeżość": 0.34,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -458,79 +478,49 @@
     "emoji": "🏅",
     "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
    },
-   "nagłówek": "Polska mistrzyni Europy liczona. Ale jaki rewanż. Potężna bitwa o półfinał",
-   "lead": "Rok temu z Budapesztu kadra Tomasza Dylaka przywiozła aż siedem medali, cztery z nich były złotego koloru. O powtórce teraz w Poreču nie było mowy, z prostego powodu.",
+   "nagłówek": "Polsko-ukraińska bitwa na pięści. Pięć razy 18:18. Szalony finał tej walki",
+   "lead": "W piątek reprezentanci Polski wygrali pięć ćwierćfinałowych walk - medale zapewnili sobie: Natalia Niewiadomska, Aleksandra Cyrek, Emilia Koterska, Kacper Skiba i Krzysztof Zakrzewski. Dziś w pierwszej sesji dołączyli do nich: Bartłomiej Rośkowicz i Fabian Urbański.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-20T18:53:09+00:00",
+   "opublikowano": "2026-11-21T19:35:30+00:00",
    "źródło": {
     "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/boks/news-polska-mistrzyni-europy-liczona-ale-jaki-rewanz-potezna-bitw,nId,23576879",
+    "url": "https://sport.interia.pl/boks/news-polak-bil-sie-z-ukraincem-o-medal-me-byl-idealny-remis-po-dw,nId,23577066",
     "domena": "sport.interia.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000NK1NM767HW4RK-C321.webp",
+   "obraz": "https://i.iplsc.com/-/000NK32JLOL1AD12-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "O ile męskie kategoria zostały obsadzone bardzo bogato przez nasz zespół, to te kobiece zaledwie w połowie.",
-      "A dwie nasze zawodniczki, Nadia Formela i Amelia Kostrzewa, przegrały swoje pierwsze walki.",
-      "Zostały więc tylko trzy medalowe szanse - Natalia Niewiadomska, Aleksandra Cyrek i właśnie Emilia Koterska zaczynały swoją rywalizację w piątek, już od fazy ćwierćfinałów.",
-      "Dwie pierwsze spisały się świetnie, wygrały swoje potyczki po 5:0.",
-      "A na końcu, w sesji wieczornej, do ringu weszła Koterska.",
-      "Aby bronić złota wywalczonego w Budapeszcie.",
-      "Ta strona jest chroniona przez reCAPTCHA Rywalką Koterskiej była Zsofia Szira - Węgierka rok temu zastopowała w swoim kraju Julię Oleś, a później sięgnęła po złoto.",
-      "Tyle że w kategorii najcięższej, +80 kilogramów.",
-      "W niej też wystąpiła w seniorskich ME w Sofii - stanęła na podium, obok naszej Elżbiety Wójcik."
+      "I już mogliśmy mówić o gigantycznym sukcesie polskiej drużyny, w którym to wreszcie męska część zespołu stanęła na wysokości zadania.",
+      "Rok temu z Budapesztu to panie bowiem przywiozły siedem krążków, w tym cztery złote.",
+      "A panowie - skromny jeden brąz.",
+      "A to nie był koniec - na deser zostały jeszcze dwie szanse, w ringu B znów pojawili się Polacy.",
+      "Najpierw Nikolas Pawlik , który jednak nie sprostał Wagharszakowi Kejanowi z Armenii, przegrał wszystkie rundy (0:5, 2:3, 2:3), a jeszcze dostał ostrzeżenie.",
+      "Ta strona jest chroniona przez reCAPTCHA A chwilę po nim między liny wszedł Michał Pierzchała , który w kategorii 75 kg walczył o strefę medalową z Nikitą Zacharczenko z Ukrainy.",
+      "I gdyby patrzeć na same sukcesy w kategoriach juniorskich, ten drugi był faworytem.",
+      "Nawet w tym samym Poreču 2,5 roku wcześniej wygrał złoto w mistrzostwach Europy EUBC, w półfinale pokonał wtedy 5:0 Fabiana Urbańskieg o .",
+      "W tym roku wygrał turnieje w Budvie i Eindhoven, zaś mistrzostwa Europy zaczął od triumfu przed czasem."
      ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Skrót meczu półfinałowego o miejsca 9.-12. na mistrzostwach świata w amp futbolu Meksyk 2026: Polska – Kostaryka."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Liga Europy UEFA – międzynarodowy klubowy turniej piłki nożnej, organizowany przez Unię Europejskich Federacji Piłkarskich, w którym biorą udział zespoły zajmujące czołowe lokaty w narodowych rozgrywkach najwyższego szczebla, z wyłączeniem drużyn biorących udział w Lidze Mistrzów. Utworzony został w 2009 roku jako kontynuacja Pucharu UEFA."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Liga Europy UEFA",
-     "url": "https://pl.wikipedia.org/wiki/Liga_Europy_UEFA"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "+80",
-    "20",
-    "10",
-    "15",
-    "30",
-    "27"
+    "5, 2",
+    "3, 2",
+    "75 kg",
+    "2,5",
+    "18"
    ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "TVP Sport",
-     "ujęcie": "Mecz półfinałowy o miejsca 9.-12. na mistrzostwach świata w amp futbolu Meksyk 2026: Polska – Kostaryka.",
-     "url": "https://sport.tvp.pl/96569370/polska-kostaryka-mistrzostwa-swiata-amp-futbol-2026-polfinal-o-miejsca-9-12-transmisja-na-zywo-online-live-stream"
-    }
-   ],
+   "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Liga Europy UEFA",
-    "opis": "międzynarodowy klubowy turniej piłki nożnej",
-    "tekst": "Liga Europy UEFA – międzynarodowy klubowy turniej piłki nożnej, organizowany przez Unię Europejskich Federacji Piłkarskich, w którym biorą udział zespoły zajmujące czołowe lokaty w narodowych rozgrywkach najwyższego szczebla, z wyłączeniem drużyn biorących udział w Lidze Mistrzów. Utworzony został w 2009 roku jako kontynuacja Pucharu UEFA.",
-    "url": "https://pl.wikipedia.org/wiki/Liga_Europy_UEFA",
-    "język": "pl"
-   },
+   "tło": null,
    "tagi": [
-    "Budapesztu",
-    "Koterska",
-    "Natalia Niewiadomska Aleksandra Cyrek",
-    "Zsofia Szira Węgierka"
+    "Europy",
+    "Polak",
+    "Natalia Niewiadomska Aleksandra Cyrek Emilia Koterska Kacper Skiba",
+    "Wagharszakowi Kejanowi"
    ],
    "emotki": [
     "🏅"
@@ -538,31 +528,21 @@
    "wszystkie_źródła": [
     {
      "nazwa": "Interia Sport",
-     "tytuł": "Polska mistrzyni Europy liczona. Ale jaki rewanż. Potężna bitwa o półfinał",
-     "url": "https://sport.interia.pl/boks/news-polska-mistrzyni-europy-liczona-ale-jaki-rewanz-potezna-bitw,nId,23576879"
-    },
-    {
-     "nazwa": "TVP Sport",
-     "tytuł": "Polska – Kostaryka. Mistrzostwa Świata AMP Futbol 2026, półfinał o miejsca 9-12 [SKRÓT]",
-     "url": "https://sport.tvp.pl/96593350/polska-kostaryka-mistrzostwa-swiata-amp-futbol-2026-polfinal-o-miejsca-9-12-skrot"
-    },
-    {
-     "nazwa": "TVP Sport",
-     "tytuł": "Polska – Kostaryka. Mistrzostwa Świata AMP Futbol 2026, półfinał o miejsca 9-12 [MECZ]",
-     "url": "https://sport.tvp.pl/96569370/polska-kostaryka-mistrzostwa-swiata-amp-futbol-2026-polfinal-o-miejsca-9-12-transmisja-na-zywo-online-live-stream"
+     "tytuł": "Polsko-ukraińska bitwa na pięści. Pięć razy 18:18. Szalony finał tej walki",
+     "url": "https://sport.interia.pl/boks/news-polak-bil-sie-z-ukraincem-o-medal-me-byl-idealny-remis-po-dw,nId,23577066"
     }
    ],
-   "liczba_źródeł": 2,
+   "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.161,
+    "wynik": 3.932,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.35,
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
      "eksponowanie": 0.0,
      "słowa_kluczowe": 1.4,
-     "świeżość": 0.511,
+     "świeżość": 0.482,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -576,73 +556,106 @@
     "emoji": "🏅",
     "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
    },
-   "nagłówek": "Gwizdy w Chorwacji po walce Polaka. 140-kilogramowy kolos pobity w ringu",
-   "lead": "Poreč i Pula to dla wielu Polaków miejsca wakacyjnych wypadów - Istria przez lata była urlopowym celem. W tym pierwszym mieście Chorwaci zorganizowali w tym roku Mistrzostwa Europy do lat 23 w boksie, w tym drugim mieszka zaś Elvis Mahmutović - miejscowa nadzieja na medal.",
+   "nagłówek": "Celt podjął ryzyko. Nagła zmiana u Polek. Bohaterski triumf po 166 minutach",
+   "lead": "Podczas czwartego meczu w ramach spotkania Polska - Szwecja, Martyna Kubka znajdowała się o trzy piłki od zagwarantowania naszej reprezentacji udziału w przyszłorocznych kwalifikacjach do finałów BJK Cup. 25-latka notowała świetny powrót w decydującym secie ze stanu 3:5 30-30, prowadziła potem 4-1 w tie-breaku .",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-20T20:23:27+00:00",
+   "opublikowano": "2026-11-21T20:46:24+00:00",
    "źródło": {
     "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/boks/news-gwizdy-w-chorwacji-po-walce-polaka-140-kilogramowy-kolos-pob,nId,23576895",
+    "url": "https://sport.interia.pl/tenis/news-celt-podjal-ryzyko-nagla-zmiana-u-polek-bohaterski-triumf-po,nId,23577064",
     "domena": "sport.interia.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000NK1QVA9E950HI-C321.webp",
+   "obraz": "https://i.iplsc.com/-/000NK3427DAAMAIP-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "21-letni zawodnik nie jest wybitnym technikiem.",
-      "Ba, nie jest nawet przeciętnym technikiem.",
-      "Ma za to ogromną siłę, mierzy blisko dwa metry i ma ponad 140 kilogramów wagi.",
-      "A to, w połączeniu z całkiem nienajgorszą koordynacją i szybkością, ma ogromne znaczenie.",
-      "Przekonał się o tym Irlandczyk Thomas Stokes.",
-      "Ta strona jest chroniona przez reCAPTCHA Teraz przeciwko potężnie zbudowanemu Chorwatowi wyszedł walczyć Krzysztof Zakrzewski - 19-latek z Polski, który przebojem wdarł się do czołówki Polskiej Ligi Boksu.",
-      "A w tak młodym wieku, w kategorii superciężkiej (powyżej 90 kilogramów), nie jest o to łatwo.",
-      "Dziś jednak pokazał, że ścieżka wytyczona przez Fabiana Urbańskiego może być też i dla niego.",
-      "Piątek był w Chorwacji pierwszym dniem walki o strefę medalową."
+      "Od tamtej pory punkty wędrowały jednak na konto Lisy Zaar.",
+      "Pierwotnie do gry w tej potyczce była anonsowana Gina Feistel.",
+      "Po niezbyt udanym debiucie 23-latki podczas wczorajszej batalii z Kajsą Rinaldo Persson, kapitan Dawid Celt zdecydował się na roszadę przed ostatnim meczem.",
+      "Finalnie sternik polskiej kadry postawił na Lindę Klimovicovą.",
+      "Tenisistka, która reprezentuje barwy naszego kraju od 2024 roku, miała świetne otwarcie sezonu 2026.",
+      "Dotarła do drugiej rundy Australian Open , ale później mocno obniżyła loty, do tego przytrafiły się problemy zdrowotne.",
+      "W efekcie spadła na 261. miejsce w rankingu.",
+      "Dziś mierzyła się z będącą 13 lokat wyżej Caijsą Hennemann.",
+      "Ta strona jest chroniona przez reCAPTCHA Pierwsze minuty spotkania układały się nieźle dla Hennemann."
      ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "18 listopada rosyjska agencja TASS przekazała informacje ws. pary rosyjskich łyżwiarzy, którzy mieli wziąć udział w turnieju PGE Warsaw Cup 2026."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Linda Klimovičová – czeska tenisistka, w latach 2018–2024 reprezentująca Czechy, a od listopada 2024 r. Polskę."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Linda Klimovičová",
+     "url": "https://pl.wikipedia.org/wiki/Linda_Klimovi%C4%8Dov%C3%A1"
     }
    ],
-   "dlaczego_to_ważne": "",
+   "dlaczego_to_ważne": "Zawodniczka ze Skandynawii triumfowała 3:6, 6:1, 7:6(4), a to oznaczało, że pojedynek w Hali Mistrzów we Włocławku rozstrzygnie dopiero piąte starcie.",
    "liczby": [
-    "23",
-    "21",
-    "140",
-    "19",
-    "90",
-    "30"
+    "25",
+    "5 30",
+    "30",
+    "6, 6",
+    "1, 7",
+    "23"
    ],
-   "inne_spojrzenia": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Sport",
+     "ujęcie": "Ich trenerka ogłosiła, iż zostały im przyznane wizy umożliwiające wjazd do kraju nad Wisłą.",
+     "url": "https://sport.interia.pl/zimowe/news-rosjanie-chwalili-sie-przylotem-do-polski-nagla-zmiana-jest,nId,23577076"
+    }
+   ],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Linda Klimovičová",
+    "opis": "czeska tenisistka zawodowa",
+    "tekst": "Linda Klimovičová – czeska tenisistka, w latach 2018–2024 reprezentująca Czechy, a od listopada 2024 r. Polskę.",
+    "url": "https://pl.wikipedia.org/wiki/Linda_Klimovi%C4%8Dov%C3%A1",
+    "język": "pl"
+   },
    "tagi": [
-    "Chorwacji",
-    "Polski",
-    "Polak",
-    "Natalia Niewiadomska Aleksandra Cyrek Emilia Koterska"
+    "Klimovicova",
+    "Skandynawii",
+    "Hennemann",
+    "Caijsy"
    ],
    "emotki": [
-    "🏅",
-    "🥊"
+    "🎾"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Interia Sport",
-     "tytuł": "Gwizdy w Chorwacji po walce Polaka. 140-kilogramowy kolos pobity w ringu",
-     "url": "https://sport.interia.pl/boks/news-gwizdy-w-chorwacji-po-walce-polaka-140-kilogramowy-kolos-pob,nId,23576895"
+     "tytuł": "Celt podjął ryzyko. Nagła zmiana u Polek. Bohaterski triumf po 166 minutach",
+     "url": "https://sport.interia.pl/tenis/news-celt-podjal-ryzyko-nagla-zmiana-u-polek-bohaterski-triumf-po,nId,23577064"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Rosjanie już lecieli do Polski. Nagła zmiana, jest komunikat ministerstwa",
+     "url": "https://sport.interia.pl/zimowe/news-rosjanie-chwalili-sie-przylotem-do-polski-nagla-zmiana-jest,nId,23577076"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.942,
+    "wynik": 3.757,
     "składowe": {
      "potwierdzenia": 0.0,
-     "ranga_źródła": 1.05,
+     "ranga_źródła": 1.208,
      "eksponowanie": 0.0,
-     "słowa_kluczowe": 1.4,
-     "świeżość": 0.492,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.499,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -656,77 +669,111 @@
     "emoji": "🌐",
     "opis": "wielkie ligi, turnieje i rekordy poza Polską"
    },
-   "nagłówek": "Wielki gwiazdor NFL Brady może kupić udziały w Chelsea",
-   "lead": "Wybitny amerykański futbolista Tom Brady chce zainwestować w Chelsea za pośrednictwem grupy właścicielskiej Clearlake Capital.",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-20T22:36:35+00:00",
+   "nagłówek": "Rosyjsko-niemiecki pojedynek o wielki finał. Rozsztrzygnięcie po 88 minutach",
+   "lead": "Alexander Zverev nie chce pytań o to, czy jego miejsce na czele rankingu ATP jest zasłużone. Niemiec na konferencjach prasowych wścieka się na dziennikarzy, którzy sugerują, że jedynie wykorzystał sytuację pod nieobecność Carlosa Alcaraza, a potem Jannika Sinnera.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-21T21:16:15+00:00",
    "źródło": {
-    "nazwa": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmg46k97k92do?at_medium=RSS&at_campaign=rss",
-    "domena": "bbc.co.uk"
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/tenis/news-rosyjsko-niemiecki-pojedynek-o-wielki-final-rozsztrzygniecie,nId,23577050",
+    "domena": "sport.interia.pl"
    },
-   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb77/live/3264bae0-e52c-11f1-964d-a1d5fe40573e.jpg",
+   "obraz": "https://i.iplsc.com/-/000NK365SP4I7I0G-C321.webp",
    "sekcje": [
     {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
      "treść": [
-      "Legenda NFL była gościem Chelsea na Klubowych Mistrzostwach Świata Brady ma dobre relacje z Behdadem Eghbalim Tom Brady prowadzi rozmowy na temat zakupu niewielkiego udziału w Chelsea.",
-      "Legenda NFL sprzedała w tym miesiącu mniejszościowy pakiet udziałów w Birmingham City po trzech latach. Według źródeł był to krok mający utorować drogę do inwestycji na Stamford Bridge.",
-      "Brady był gościem Chelsea, gdy ta wygrała Klubowe Mistrzostwa Świata w New Jersey w ubiegłym roku i został zauważony, gdy świętował z zawodnikami po ich niezwykłym zwycięstwie 3:0 w finale z Paris Saint-Germain.",
-      "Uważa się, że siedmiokrotny zwycięzca Super Bowl ma dobre relacje z Behdadem Eghbalim, którego fundusz Clearlake Capital posiada 86,5% akcji Chelsea po tym, jak Todd Boehly i Mark Walter sprzedali swoje udziały we wrześniu.",
-      "Brady zainwestował w Birmingham w sierpniu 2023 roku, niespełna rok po swoim drugim i ostatnim odejściu z NFL, po przejęciu klubu przez firmę Knighthead Capital Toma Wagnera.",
-      "Brady został mianowany przewodniczącym rady doradczej klubu i odegrał znaczącą rolę w filmie dokumentalnym Amazon Prime z 2025 roku „Built in Birmingham: Brady & The Blues”, który trafił na pierwsze strony gazet, gdy Brady zakwestionował „etykę pracy” Wayne’a Rooneya, ówczesnego menedżera klubu."
+      "Sensacyjna przegrana Alcaraza, a potem zwrot w Turynie.",
+      "Znamy finalistę , otwiera się w nowym oknie Właściwie trudno inaczej podchodzić do sprawy, ale sytuację trzeba umieć wykorzystać.",
+      "To Zverev zrobił i podczas turnieju ATP Finals w Turynie odebrał trofeum za ukończenie sezonu na miejscu numer jeden w męskim rankingu.",
+      "Żeby pozbyć się tych wszystkich głosów, Zverev potrzebuje w Turynie zwycięstwa.",
+      "Przez fazę grupową Niemiec przeszedł, podobnie jak Alcaraz - jak burza.",
+      "Obaj nie stracili nawet seta.",
+      "Hiszpan w sobotnie popołudnie po trzech partiach wygrał półfinał z Benem Sheltonem.",
+      "Po meczu przyznał, że będzie z uwagą śledził drugi półfinał.",
+      "W tym zaś Alexander Zverev zmierzył się z Daniiłem Miedwiediewem."
      ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Alexander „Sascha” Zverev – niemiecki tenisista pochodzenia rosyjskiego, lider rankingu ATP, triumfator French Open 2026 oraz US Open 2026, złoty medalista igrzysk olimpijskich z Tokio (2020) w grze pojedynczej, dwukrotny zwycięzca ATP Finals, triumfator Australian Open 2014 w grze pojedynczej chłopców, reprezentant w Pucharze Davisa."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Alexander Zverev",
+     "url": "https://pl.wikipedia.org/wiki/Alexander_Zverev"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "86.5%"
+    "14",
+    "166",
+    "15",
+    "40",
+    "30",
+    "18"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Alexander Zverev",
+    "opis": "niemiecki tenisista pochodzenia rosyjskiego",
+    "tekst": "Alexander „Sascha” Zverev – niemiecki tenisista pochodzenia rosyjskiego, lider rankingu ATP, triumfator French Open 2026 oraz US Open 2026, złoty medalista igrzysk olimpijskich z Tokio (2020) w grze pojedynczej, dwukrotny zwycięzca ATP Finals, triumfator Australian Open 2014 w grze pojedynczej chłopców, reprezentant w Pucharze Davisa.",
+    "url": "https://pl.wikipedia.org/wiki/Alexander_Zverev",
+    "język": "pl"
+   },
    "tagi": [
-    "Chelsea",
-    "Clearlake Capital",
-    "Tom Brady",
-    "American"
+    "Zverev",
+    "Miedwiediew",
+    "Turynie",
+    "Alexander Zverev"
    ],
    "emotki": [
-    "⚽"
+    "🎾"
    ],
    "wszystkie_źródła": [
     {
+     "nazwa": "Interia Sport",
+     "tytuł": "Rosyjsko-niemiecki pojedynek o wielki finał. Rozsztrzygnięcie po 88 minutach",
+     "url": "https://sport.interia.pl/tenis/news-rosyjsko-niemiecki-pojedynek-o-wielki-final-rozsztrzygniecie,nId,23577050"
+    },
+    {
      "nazwa": "BBC Sport",
-     "tytuł": "NFL great Brady could buy Chelsea stake",
-     "url": "https://www.bbc.co.uk/sport/football/articles/cmg46k97k92do?at_medium=RSS&at_campaign=rss"
+     "tytuł": "Alcaraz to face Zverev in ATP Finals title decider",
+     "url": "https://www.bbc.co.uk/sport/tennis/articles/cw5y1gg7nyv0o?at_medium=RSS&at_campaign=rss"
     },
     {
      "nazwa": "The Guardian Sport",
-     "tytuł": "Tom Brady in talks over buying Chelsea stake after Birmingham City exit",
-     "url": "https://www.theguardian.com/football/2026/nov/20/tom-brady-chelsea-talks-stake-birmingham-city"
+     "tytuł": "Alcaraz holds off Shelton to set up final showdown with Zverev at ATP Finals",
+     "url": "https://www.theguardian.com/sport/2026/nov/21/carlos-alcaraz-holds-off-ben-shelton-to-book-his-place-in-the-atp-finals"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Pochettino’s fiery start, Las Vegas Grand Prix and ATP Finals finale – follow with us",
+     "url": "https://www.theguardian.com/sport/2026/nov/20/pochettinos-fiery-start-plus-england-v-all-blacks-and-atp-finals-finale-follow-with-us"
+    },
+    {
+     "nazwa": "Sky Sports",
+     "tytuł": "Palmowski holds off Larsen in Las Vegas thriller to win final F1 Academy race of season",
+     "url": "https://www.skysports.com/watch/video/13615089/las-vegas-grand-prix-f1-academy-race-two"
     }
    ],
-   "liczba_źródeł": 2,
+   "liczba_źródeł": 4,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.72,
+    "wynik": 10.598,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.48,
-     "eksponowanie": 0.27,
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 1.938,
+     "eksponowanie": 0.36,
      "słowa_kluczowe": 1.05,
-     "świeżość": 0.52,
+     "świeżość": 0.55,
      "treściwość": 0.5,
-     "język_działu": 0.0
+     "język_działu": 0.5
     }
-   },
-   "oryginalny_nagłówek": "NFL great Brady could buy Chelsea stake",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
    },
    "miejsce": 1
   },
@@ -737,73 +784,116 @@
     "emoji": "🌐",
     "opis": "wielkie ligi, turnieje i rekordy poza Polską"
    },
-   "nagłówek": "Spektakularny początek Pochettina, mecz Anglia – All Blacks i finał ATP Finals – śledź to wszystko z nami",
-   "lead": "Oto jak śledzić nasze relacje – najlepsze artykuły i najświeższe wiadomości Czytaj dalej...",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-20T17:27:24+00:00",
+   "nagłówek": "15 lat i koniec. Zapaść giganta na oczach świata. I to w takim momencie",
+   "lead": "Są rywalizacje, w których wytypowanie faworyta jest jedynie kwestią formalną. W ostatnich latach takim mianem cieszyły się mecze Manchesteru City z Fulham.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-21T16:04:13+00:00",
    "źródło": {
-    "nazwa": "The Guardian Football",
-    "url": "https://www.theguardian.com/sport/2026/nov/20/pochettinos-fiery-start-plus-england-v-all-blacks-and-atp-finals-finale-follow-with-us",
-    "domena": "theguardian.com"
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/premier-league/news-historyczny-dzien-w-anglii-dawid-zatrzymal-goliata-to-nie-st,nId,23577035",
+    "domena": "sport.interia.pl"
    },
-   "obraz": "https://i.guim.co.uk/img/media/7680afc70975a891a74a4d3ee5d80fd3440b9947/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=26ff89da867c397ebcf230d12ef12caf",
+   "obraz": "https://i.iplsc.com/-/000NK2R1VC0014KJ-C321.webp",
    "sekcje": [
     {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
      "treść": [
-      "Wyniki na żywo, aktualności dotyczące drużyn, relacja tekstowa, analiza ze stadionu Allianz w Twickenham z meczu Anglia – Nowa Zelandia (początek o 14:10) oraz ze stadionu Aviva w Dublinie z meczu Irlandia – RPA (początek o 16:40); trzecia runda meczów testowych w ramach Mistrzostw Narodów na półkuli północnej w tym miesiącu. Przepraszamy, ten blog jest obecnie niedostępny."
+      "Po raz ostatni \"Obywatele\" nie byli w stanie pokonać \"The Cottagers\" we wrześniu 2011 roku (2:2) .",
+      "Od tego momentu Manchester City aż 20 razy wychodził zwycięsko z pojedynku z Fulham.",
+      "Ta strona jest chroniona przez reCAPTCHA 21 listopada 2026 ekipa Enzo Maresci również miała wszystko, aby podtrzymać tę serię.",
+      "W ramach 11. kolejki Premier League mierzyli się oni bowiem z \"The Cottagers\" na własnym stadionie.",
+      "Co więcej, ostatnia passa Fulham z pewnością nie napawała kibiców tej drużyny optymizmem.",
+      "W trzech niedawnych spotkaniach ekipa zaliczyła bowiem dwa remisy oraz porażkę.",
+      "Jakież musiało być więc zdziwienie kibiców \"Obywateli\", kiedy to w 16. minucie gola dającego Fulham prowadzenie strzelił Rodrigo Muniz .",
+      "Wykorzystał on podanie, które po skutecznym indywidualnym rajdzie posłał mu Oscar Bobb .",
+      "Już w 25. minucie Erling Haaland zdołał doprowadzić do wyrównania, jednak po tym trafieniu na murawie zapanowała mocna konsternacja."
      ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Premier League – najwyższa w hierarchii klasa męskich ligowych rozgrywek piłkarskich w Anglii, będąca jednocześnie najwyższym szczeblem centralnym, utworzona 20 lutego 1992 i od tego momentu zarządzana przez FA Premier League. Zmagania w jej ramach toczą się cyklicznie, systemem kołowym i przeznaczone są dla 20 najlepszych angielskich i walijskich klubów piłkarskich. Ich zwycięzca zostaje mistrzem Anglii, zaś najsłabsze drużyny są relegowane do EFL Championship."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Premier League",
+     "url": "https://pl.wikipedia.org/wiki/Premier_League"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "2.10",
-    "4.40"
+    "20",
+    "21",
+    "11",
+    "16",
+    "25",
+    "57"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Premier League",
+    "opis": "1. poziom rozgrywek ligowych w piłce nożnej mężczyzn w Anglii",
+    "tekst": "Premier League – najwyższa w hierarchii klasa męskich ligowych rozgrywek piłkarskich w Anglii, będąca jednocześnie najwyższym szczeblem centralnym, utworzona 20 lutego 1992 i od tego momentu zarządzana przez FA Premier League. Zmagania w jej ramach toczą się cyklicznie, systemem kołowym i przeznaczone są dla 20 najlepszych angielskich i walijskich klubów piłkarskich. Ich zwycięzca zostaje mistrzem Anglii, zaś najsłabsze drużyny są relegowane do EFL Championship.",
+    "url": "https://pl.wikipedia.org/wiki/Premier_League",
+    "język": "pl"
+   },
    "tagi": [
-    "All Blacks",
-    "Continue",
-    "England",
-    "Finals"
+    "Fulham",
+    "Premier League",
+    "Enzo Maresci",
+    "Obywatele"
    ],
    "emotki": [
-    "🎾"
+    "⚽"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "The Guardian Football",
-     "tytuł": "Pochettino’s fiery start, plus England v All Blacks and ATP Finals finale – follow with us",
-     "url": "https://www.theguardian.com/sport/2026/nov/20/pochettinos-fiery-start-plus-england-v-all-blacks-and-atp-finals-finale-follow-with-us"
+     "nazwa": "Interia Sport",
+     "tytuł": "15 lat i koniec. Zapaść giganta na oczach świata. I to w takim momencie",
+     "url": "https://sport.interia.pl/pilka-nozna/premier-league/news-historyczny-dzien-w-anglii-dawid-zatrzymal-goliata-to-nie-st,nId,23577035"
     },
     {
-     "nazwa": "Sky Sports",
-     "tytuł": "England vs New Zealand LIVE! Freeman ruled out late for All Blacks clash",
-     "url": "https://www.skysports.com/rugby-union/live-blog/12040/13614305/england-vs-new-zealand-ireland-vs-south-africa-live-nations-championship-updates-latest-scores-team-news-commentary-from-twickenham-dublin"
+     "nazwa": "BBC Sport",
+     "tytuł": "'We lost two points' - Arteta on 'unacceptable' Newcastle draw",
+     "url": "https://www.bbc.co.uk/sport/football/videos/ck1wrdd9ew11o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Arsenal go six points clear after lively draw at Newcastle",
+     "url": "https://www.bbc.co.uk/sport/football/videos/cm702zzl66l6o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Madueke 'a consistent threat' - Newcastle v Arsenal player ratings",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cq4gn97e8ee4o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Anderson steps up, Berge impresses - player ratings for Man City v Fulham",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cqwy06p44g3no?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Elliot Anderson halts Manchester City’s losing run but boos greet Fulham draw",
+     "url": "https://www.theguardian.com/football/2026/nov/21/manchester-city-fulham-premier-league-match-report"
     }
    ],
-   "liczba_źródeł": 2,
+   "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.118,
+    "wynik": 8.307,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.2,
-     "eksponowanie": 0.72,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 2.133,
+     "eksponowanie": 0.18,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.456,
-     "treściwość": 0.142,
-     "język_działu": 0.0
+     "świeżość": 0.494,
+     "treściwość": 0.5,
+     "język_działu": 0.5
     }
-   },
-   "oryginalny_nagłówek": "Pochettino’s fiery start, plus England v All Blacks and ATP Finals finale – follow with us",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
    },
    "miejsce": 2
   },
@@ -814,139 +904,114 @@
     "emoji": "🧪",
     "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
    },
-   "nagłówek": "Claude, znajdź mi planetę: astronomowie amatorzy korzystają ze sztucznej inteligencji, uzyskując różne wyniki",
-   "lead": "We wrześniu Paweł Rabcewicz usiadł przy komputerze i poprosił model sztucznej inteligencji o odkrycie planety. Rabcewicz skierował bota do konkretnego zbioru danych z teleskopu i przekazał mu ogólny plan poszukiwania dowodów na istnienie nieodkrytych planet.",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-20T00:00:00+00:00",
+   "nagłówek": "GTA 6 rozbiło bank. Wystarczył jeden dzień",
+   "lead": "W branży gier słowo „rekord” zostało już zużyte niemal do cna. Rekord liczby graczy, rekord na Steamie, rekord zamówień, rekord oglądalności zwiastuna.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-21T15:00:00+00:00",
    "źródło": {
-    "nazwa": "Nature",
-    "url": "https://www.nature.com/articles/d41586-026-03790-w",
-    "domena": "nature.com"
+    "nazwa": "Spider's Web",
+    "url": "https://spidersweb.pl/2026/11/gta-vi-sprzedaz-wyniki-rekord.html",
+    "domena": "spidersweb.pl"
    },
-   "obraz": "https://media.nature.com/lw1200/magazine-assets/d41586-026-03790-w/d41586-026-03790-w_53997324.jpg",
+   "obraz": "https://cdn-sw.spidersweb.pl/2026/11/gta-vi-wyniki-sprzedazy-rekord.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "W ciągu około dwóch tygodni bot dostarczył wyniki: dwie potencjalne planety krążące wokół gwiazdy oddalonej od Ziemi o 116 lat świetlnych.",
-      "Profesjonalni astronomowie sprawdzają obecnie odkrycia bota.",
-      "Rabcewicz, który pracuje w Hiszpanii jako specjalista ds. sztucznej inteligencji i nie ma formalnego wykształcenia astronomicznego, jest jednym z najbardziej utalentowanych przedstawicieli fali astronomów-amatorów, którzy wykorzystują modele sztucznej inteligencji do poszukiwania światów poza Układem Słonecznym.",
-      "Obywatele-naukowcy od dziesięcioleci korzystają z publicznie dostępnych narzędzi opracowanych przez NASA i innych badaczy, aby odkrywać planety.",
-      "Jednak dzięki temu, że sztuczna inteligencja potrafi przeszukiwać Internet w poszukiwaniu takich narzędzi i wykorzystywać je do przetwarzania ogromnych ilości danych, osoby niebędące specjalistami, które chcą zostać łowcami planet, mają łatwiejszy dostęp do tej dziedziny.",
-      "Jednak nowo odkryta dostępność narzędzi do analizy danych oznacza, że nie wszyscy amatorzy prowadzą badania w sposób odpowiedzialny – mówi Michelle Kunimoto, badaczka egzoplanet z Uniwersytetu Kolumbii Brytyjskiej w Vancouver w Kanadzie.",
-      "Niektórzy łowcy planet nie do końca rozumieją algorytmy stosowane przez narzędzia oparte na sztucznej inteligencji, a zatem nie są w stanie zweryfikować wyników uzyskanych przez modele – mówi Kunimoto. „Nastąpił ogromny, przytłaczający wzrost liczby artykułów opartych na sztucznej inteligencji, w których zazwyczaj pojawiają się kandydaci na [planety] o nienajlepszej jakości” – mówią.",
-      "W rezultacie „systemy, których używamy do rozpowszechniania wiedzy naukowej, są przeciążone”.",
-      "Do swoich poszukiwań Rabcewicz zaangażował Claude Code – narzędzie do kodowania oparte na sztucznej inteligencji, stworzone przez firmę Anthropic."
+      "Przy Grand Theft Auto VI przyda się jednak nieco pokory, bo liczby podane przez studio odpowiedzialne za grę są naprawdę trudne do objęcia wyobraźnią.",
+      "Według danych opublikowanych przez Rockstar Games i Take-Two Interactive, sprzedaż GTA 6 w pierwszym dniu osiągnęła 3,79 mld dol. na całym świecie.",
+      "Firma określa rezultat jako nowy rekord dla całego rynku rozrywki i „największą premierę rozrywkową w historii”.",
+      "Dane bazują na szacunkach firmy obejmujących sprzedaż do końca 19 listopada.",
+      "Przy kursie rzędu 3,7 zł za dolara mówimy orientacyjnie o około 14 mld zł przychodu w jeden dzień.",
+      "Najlepszym punktem odniesienia nie jest wcale inna tegoroczna gra.",
+      "GTA V było przecież fenomenem sprzedażowym, którego większość wydawców nie byłaby w stanie powtórzyć nawet po zsumowaniu kilku swoich największych premier.",
+      "W pierwszej dobie w 2013 r.",
+      "GTA V wypracowało około 800 mln dol. przychodu, GTA 6 osiągnęło wynik niemal pięciokrotnie większy."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Nature, opublikowano online: 20 listopada 2026 r.; doi:10.1038/d41586-026-03812-7 Naukowcy twierdzą, że twierdzenie o uzyskaniu dowodu na rozwiązanie przełomowego problemu matematycznego będzie wymagało rygorystycznej weryfikacji.",
-      "Nature, opublikowano online: 20 listopada 2026 r.; doi:10.1038/d41586-026-03465-6 Uciążliwe poczucie, że nie pasujesz do otoczenia, może sprawiać, że będziesz twardo stąpać po ziemi, i pomóc Ci poprawić wyniki.",
-      "Nature, opublikowano online: 20 listopada 2026 r.; doi:10.1038/d41586-026-03811-8 Inwestowanie w obserwacje w krajach o niskich dochodach pomoże zapobiegać katastrofom klimatycznym na całym świecie.",
-      "Jeśli ubiegły rok był „matapokalipsą ”, to twierdzenie, że sztuczna inteligencja pomogła udowodnić hipotezę Riemanna, jest jej jak dotąd najbardziej zaskakującym jeźdźcem.",
-      "Levent Alpöge z firmy zajmującej się sztuczną inteligencją Anthropic twierdzi, że wykorzystał sztuczną inteligencję do rozwiązania tego problemu, który od prawie 200 lat stanowi sedno matematyki.",
-      "To nie tylko najnowszy z szeregu słynnych problemów matematycznych rozwiązanych przez sztuczną inteligencję, ale być może największe osiągnięcie matematyczne stulecia.",
-      "W związku z tym matematycy przyjęli tę wiadomość z mieszaniną radości, zdumienia i ostrożności. „Jeśli to prawda, byłoby to moim zdaniem największe jak dotąd osiągnięcie sztucznej inteligencji i jeden z najważniejszych dowodów w historii matematyki” – mówi Thomas Bloom z Uniwersytetu w Manchesterze w Wielkiej Brytanii. „Hipoteza Riemanna stanowiła poważną przeszkodę w naszym obecnym rozumieniu sposobu, w jaki zachowują się liczby – jeśli dowód oparty na sztucznej inteligencji prawidłowo ją rozwiązał, oznaczałoby to stanowią ogromny krok naprzód w naszej wiedzy”. Rainer Dietmann z Royal Holloway University of London jest równie pod wrażeniem. „Jeśli okaże się, że jest to poprawne, to będzie to nie tylko ogromne osiągnięcie, ale największy wynik w historii matematyki czystej…"
+      "Rockstar Games oficjalnie poinformowało, że Grand Theft Auto VI, które zadebiutowało 19 listopada na konsolach, wygenerowało w ciągu pierwszych 24 godzin od premiery sprzedaż detaliczną na poziomie 3,79 miliarda dolarów.",
+      "Tym samym produkcja studia należącego do Take-Two Interactive stała się największą premierą w historii całej branży rozrywkowej, zostawiając daleko w tyle dotychczasowe rekordy zarówno z rynku gier, jak i kina.",
+      "Jeszcze przed oficjalnym odblokowaniem dostępu do gry w przedsprzedaży rozeszło się aż 32,5 miliona egzemplarzy GTA VI .",
+      "Wynik finansowy z pierwszej doby jest niemal pięciokrotnie wyższy od rezultatu, jaki w 2013 roku osiągnęło Grand Theft Auto V, które na start zarobiło około 800 milionów dolarów.",
+      "Dla porównania, w zaledwie jedną dobę nowa odsłona gangsterskiej serii wygenerowała przychód przewyższający całkowite globalne wpływy z kinowych kas takiego hitu jak Avengers: Koniec gry (2,89 mld USD)."
      ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Grand Theft Auto (GTA) is an action-adventure video game series created by the Scottish programmers David Jones and Mike Dailly at DMA Design, now known as Rockstar North. Later titles were developed under the oversight of brothers Dan and Sam Houser, Leslie Benzies and Aaron Garbut. It is primarily developed by Rockstar North and published by its American parent company, Rockstar Games. The name of the series is a term for motor vehicle theft in the United States."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Grand Theft Auto",
+     "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "116",
-    "120,000",
-    "4206066",
-    "25",
-    "10.1038",
-    "026"
+    "3,79 mld",
+    "19",
+    "3,7 zł",
+    "14 mld zł",
+    "800 mln",
+    "32,5 mln"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Grand Theft Auto",
+    "opis": "Video game series",
+    "tekst": "Grand Theft Auto (GTA) is an action-adventure video game series created by the Scottish programmers David Jones and Mike Dailly at DMA Design, now known as Rockstar North. Later titles were developed under the oversight of brothers Dan and Sam Houser, Leslie Benzies and Aaron Garbut. It is primarily developed by Rockstar North and published by its American parent company, Rockstar Games. The name of the series is a term for motor vehicle theft in the United States.",
+    "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto",
+    "język": "en"
+   },
    "tagi": [
-    "Delhi Hybrid",
-    "Claude",
-    "Nanjing Beijing Pune",
-    "Job Title Associate"
+    "Grand Theft Auto",
+    "Odyssey Christophera Nolana",
+    "Take-Two Interactive",
+    "Spider-Man Brand"
    ],
    "emotki": [
-    "🪐",
-    "🔭"
+    "📈",
+    "🎮",
+    "🎬"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Nature",
-     "tytuł": "Claude, find me a planet: amateur astronomers are using AI with mixed results",
-     "url": "https://www.nature.com/articles/d41586-026-03790-w"
+     "nazwa": "Spider's Web",
+     "tytuł": "GTA 6 rozbiło bank. Wystarczył jeden dzień",
+     "url": "https://spidersweb.pl/2026/11/gta-vi-sprzedaz-wyniki-rekord.html"
     },
     {
-     "nazwa": "Nature",
-     "tytuł": "Mathematician says he and AI solved Riemann hypothesis — the field’s biggest outstanding challenge",
-     "url": "https://www.nature.com/articles/d41586-026-03812-7"
+     "nazwa": "Antyweb",
+     "tytuł": "Prawie 4 mld USD przychodu po 24h od premiery. GTA VI rozbiło bank",
+     "url": "https://antyweb.pl/prawie-4-mld-usd-przychodu-po-24h-od-premiery-gta-vi-rozbilo-bank"
     },
     {
-     "nazwa": "Nature",
-     "tytuł": "How to turn impostor syndrome into a superpower",
-     "url": "https://www.nature.com/articles/d41586-026-03465-6"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "These gaps in weather data affect forecasts everywhere: plugging them is not charity",
-     "url": "https://www.nature.com/articles/d41586-026-03811-8"
-    },
-    {
-     "nazwa": "Nature",
-     "tytuł": "Ruminations on a last movement",
-     "url": "https://www.nature.com/articles/d41586-026-03519-9"
-    },
-    {
-     "nazwa": "New Scientist",
-     "tytuł": "Mathematicians are amazed by ‘holy grail’ proof of Riemann hypothesis",
-     "url": "https://www.newscientist.com/article/2600235-mathematicians-are-amazed-by-holy-grail-proof-of-riemann-hypothesis/"
-    },
-    {
-     "nazwa": "New Scientist",
-     "tytuł": "What is the Riemann hypothesis and why is its solution so monumental?",
-     "url": "https://www.newscientist.com/article/2600226-what-is-the-riemann-hypothesis-and-why-is-its-solution-so-monumental/"
-    },
-    {
-     "nazwa": "New Scientist",
-     "tytuł": "Anthropic mathematician claims AI-assisted proof of the Riemann hypothesis",
-     "url": "https://www.newscientist.com/article/2600134-anthropic-mathematician-claims-ai-assisted-proof-of-the-riemann-hypothesis/"
-    },
-    {
-     "nazwa": "ScienceDaily",
-     "tytuł": "A 3-million-year-old child just made human evolution far more complicated",
-     "url": "https://www.sciencedaily.com/releases/2026/11/261118065531.htm"
-    },
-    {
-     "nazwa": "TechCrunch",
-     "tytuł": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
-     "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
+     "nazwa": "Phys.org Technology",
+     "tytuł": "'Grand Theft Auto VI' sets record with $3.79B in first-day retail sales, Rockstar Games reports",
+     "url": "https://techxplore.com/news/2026-11-grand-theft-auto-vi-billion.html"
     }
    ],
-   "liczba_źródeł": 4,
-   "czas_czytania_min": 3,
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 11.149,
+    "wynik": 6.758,
     "składowe": {
-     "potwierdzenia": 5.7,
-     "ranga_źródła": 2.853,
-     "eksponowanie": 0.9,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.519,
-     "treściwość": 0.477,
-     "język_działu": 0.0
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.385,
+     "eksponowanie": 0.36,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.431,
+     "treściwość": 0.282,
+     "język_działu": 0.5
     }
-   },
-   "oryginalny_nagłówek": "Claude, find me a planet: amateur astronomers are using AI with mixed results",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
    },
    "miejsce": 1
   },
@@ -957,101 +1022,94 @@
     "emoji": "🧪",
     "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
    },
-   "nagłówek": "Polski akcent w GTA VI. Znajdziesz go słuchając muzyki",
-   "lead": "Od kilkunastu godzin wiodącym tematem w branży gier komputerowych są GTA VI i fragmenty rozgrywki publikowane przez graczy z całego świata. Miłego akcentu dopatrzyli się również Polacy, którzy w hicie od Rockstar Games usłyszą muzykę jednego z wybitnych polskich kompozytorów.",
+   "nagłówek": "Zegarki Garmin za grosze. Wystartowały doskonałe promocje",
+   "lead": "Tegoroczna gorączka wyprzedaży z okazji Black Friday nabiera tempa, a wśród promocji na elektronikę użytkową mocno wyróżniają się obniżki cen zegarków marki Garmin. Amerykański producent od lat wyznacza standardy w segmencie urządzeń sportowych i outdoorowych, dlatego moment, w którym jego topowe oraz najnowsze…",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-19T18:14:44+00:00",
+   "opublikowano": "2026-11-21T12:00:01+00:00",
    "źródło": {
     "nazwa": "Antyweb",
-    "url": "https://antyweb.pl/polski-akcent-w-gta-vi-znajdziesz-go-sluchajac-muzyki",
+    "url": "https://antyweb.pl/zegarki-garmin-za-grosze-wystartowaly-doskonale-promocje",
     "domena": "antyweb.pl"
    },
-   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2026/11/nuty.jpg",
+   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2026/02/garmin-venu-4-recenzja_15.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Witold Lutosławski to nazwisko, którego nie trzeba przedstawiać żadnemu miłośnikowi muzyki klasycznej.",
-      "Dość powiedzieć, że jest to jeden z najwybitniejszych kompozytorów urodzonych w naszym kraju.",
-      "Jedno z jego najpopularniejszych dzieł można usłyszeć w GTA VI.",
-      "Wystarczy, że podczas jazdy samochodem przełączymy radio na stację Symphony FM .",
-      "Jak sama nazwa wskazuje, jest to stacja z muzyką symfoniczną.",
-      "Twórcy gry postanowili sięgnąć po dzieła tak wybitnych postaci, jak Georg Händel, Franz Liszt, Claude Debussy czy Jean Sibelius.",
-      "Obok ich twórczości znalazł się również utwór Witolda Lutosławskiego.",
-      "Utworem tym jest Koncert na orkiestrę , a konkretnie jego pierwsza część nosząca nazwę Intrada .",
-      "Można go również posłuchać chociażby w serwisie YouTube."
+      "Przyjrzeliśmy się siedmiu najciekawszym ofertom, aby podpowiedzieć, który model najlepiej dopasuje się do waszego stylu życia i treningów.",
+      "Otwierający zestawienie Garmin Fenix 8 AMOLED 47 mm w cenie 2399 zł to absolutny klasyk w nowoczesnym wydaniu, wyposażony w jasny ekran AMOLED, wbudowaną latarkę LED, mikrofon z głośnikiem do prowadzenia rozmów przez sparowany telefon oraz zaawansowane funkcje nurkowe do głębokości 40 metrów.",
+      "Będzie to idealny wybór dla wszechstronnych sportowców, biegaczy górskich i miłośników outdooru, którzy szukają kompletnego, pancernego zegarka z mapami topograficznymi i baterią wytrzymującą do 16 dni, ale nie potrzebują niezależnej łączności komórkowej.",
+      "Dla osób, które podczas treningu czy górskiej wyprawy wolą zostawić smartfon w domu lub w samochodzie, przygotowano wariant Garmin Fenix 8 Pro AMOLED 47 mm za 3199 zł .",
+      "Wersja z dopiskiem Pro wprowadza jeszcze jaśniejszy wyświetlacz oraz moduł łączności LTE i komunikację satelitarną inReach, pozwalającą na wysyłanie wiadomości, udostępnianie lokalizacji na żywo i wzywanie pomocy SOS poza zasięgiem sieci.",
+      "To propozycja stworzona z myślą o ultramaratończykach i podróżnikach, dla których bezpieczeństwo oraz stały kontakt ze światem bez konieczności zabierania telefonu są priorytetem.",
+      "Z kolei Garmin Fenix 8 Pro AMOLED 51 mm za 3599 zł oferuje dokładnie te same przełomowe możliwości komunikacyjne oraz pancerną tytanową obudowę ze szkłem szafirowym, ale zamyka je w większej kopercie.",
+      "Większe gabaryty przekładają się na zauważalnie dłuższy czas pracy na jednym ładowaniu, sięgający nawet 27 dni w trybie zegarka.",
+      "Ten model najlepiej sprawdzi się na masywniejszych nadgarstkach oraz u osób wybierających się na wielodniowe ekspedycje z dala od gniazdka elektrycznego."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Rockstar Games, Inc. – grupa przedsiębiorstw produkujących gry komputerowe założona w 1998 przez wydawcę Take-Two Interactive, po przejęciu brytyjskiej spółki BMG Interactive. Rockstar Games zostało założone przez Sama Housera, Terry’ego Donovana, Dana Housera, Jamiego Kinga i Gary’ego Foremana."
+      "Garmin Ltd. – amerykańskie przedsiębiorstwo elektroniczne z siedzibą w Szafuzie w Szwajcarii, ze spółkami zależnymi o tej samie nazwie obecnymi w różnych krajach, w tym także w Polsce. Głównymi produktami produkowanymi przez przedsiębiorstwo są odbiorniki GPS oraz urządzenia wearables."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Rockstar Games",
-     "url": "https://pl.wikipedia.org/wiki/Rockstar_Games"
+     "przypis": "Wikipedia: Garmin",
+     "url": "https://pl.wikipedia.org/wiki/Garmin"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "3.79 billion",
-    "13",
-    "32.5 million",
-    "1 billion",
-    "230 million",
-    "470 million"
+    "47 mm",
+    "2399 zł",
+    "40",
+    "16 dni",
+    "3199 zł",
+    "51 mm"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Rockstar Games",
-    "opis": "międzynarodowy producent i wydawca gier komputerowych",
-    "tekst": "Rockstar Games, Inc. – grupa przedsiębiorstw produkujących gry komputerowe założona w 1998 przez wydawcę Take-Two Interactive, po przejęciu brytyjskiej spółki BMG Interactive. Rockstar Games zostało założone przez Sama Housera, Terry’ego Donovana, Dana Housera, Jamiego Kinga i Gary’ego Foremana.",
-    "url": "https://pl.wikipedia.org/wiki/Rockstar_Games",
+    "hasło": "Garmin",
+    "opis": "Firma zajmująca się oprogramowaniem i sprzętem GPS",
+    "tekst": "Garmin Ltd. – amerykańskie przedsiębiorstwo elektroniczne z siedzibą w Szafuzie w Szwajcarii, ze spółkami zależnymi o tej samie nazwie obecnymi w różnych krajach, w tym także w Polsce. Głównymi produktami produkowanymi przez przedsiębiorstwo są odbiorniki GPS oraz urządzenia wearables.",
+    "url": "https://pl.wikipedia.org/wiki/Garmin",
     "język": "pl"
    },
    "tagi": [
-    "Witolda Lutosławskiego",
-    "Rockstar Games",
-    "Georg Händel Franz Liszt Claude Debussy",
-    "Filharmonii Narodowej"
+    "Garmin Fenix",
+    "Pro",
+    "Garmin Instinct",
+    "Garmin Venu"
    ],
    "emotki": [
-    "🎵",
-    "🎮",
-    "💻"
+    "🧬"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Antyweb",
-     "tytuł": "Polski akcent w GTA VI. Znajdziesz go słuchając muzyki",
-     "url": "https://antyweb.pl/polski-akcent-w-gta-vi-znajdziesz-go-sluchajac-muzyki"
-    },
-    {
-     "nazwa": "Phys.org Technology",
-     "tytuł": "'Grand Theft Auto VI' sets record with $3.79B in first-day retail sales, Rockstar Games reports",
-     "url": "https://techxplore.com/news/2026-11-grand-theft-auto-vi-billion.html"
+     "tytuł": "Zegarki Garmin za grosze. Wystartowały doskonałe promocje",
+     "url": "https://antyweb.pl/zegarki-garmin-za-grosze-wystartowaly-doskonale-promocje"
     },
     {
      "nazwa": "The Verge",
-     "tytuł": "Rockstar says GTA VI made $3.79 billion in its first day",
-     "url": "https://www.theverge.com/games/1036279/gta-vi-sales"
+     "tytuł": "Amazon’s first digital photo frame is up to 50 percent off for Black Friday",
+     "url": "https://www.theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale"
     }
    ],
-   "liczba_źródeł": 3,
+   "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 7.486,
+    "wynik": 5.041,
     "składowe": {
-     "potwierdzenia": 3.8,
-     "ranga_źródła": 1.393,
-     "eksponowanie": 0.9,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.492,
-     "treściwość": 0.401,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.185,
+     "eksponowanie": 0.27,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.438,
+     "treściwość": 0.398,
      "język_działu": 0.5
     }
    },
@@ -1081,13 +1139,13 @@
      "treść": [
       "Duńska firma zajmująca się oprogramowaniem kwantowym Kvantify poczyniła znaczący krok w kierunku przezwyciężenia tego wyzwania, precyzyjnie rejestrując interakcję istotną dla stabilności biomolekularnej przy użyciu nowatorskiego modelu obliczeniowego przetestowanego na komputerze kwantowym System Model H2 firmy Quantinuum.",
       "Badanie koncentruje się na oddziaływaniach dyspersyjnych.",
-      "Te oddziaływania są niewielkie, jeśli rozpatrywać je pojedynczo, ale łącznie mają ogromne znaczenie, na przykład pomagając stabilizować struktury biologiczne, takie jak DNA i białka, a także wpływając na sposób, w jaki cząsteczki wiążą się ze sobą.",
+      "Te oddziaływania są indywidualnie niewielkie, ale łącznie mają ogromne znaczenie, pomagając na przykład stabilizować struktury biologiczne, takie jak DNA i białka, a także wpływając na sposób wiązania się cząsteczek ze sobą.",
       "Dokładne opisanie tych interakcji jest trudne, ponieważ wymaga przewidywania zachowania się elektronów.",
       "Modelowanie takiego zachowania wymaga ogromnych zasobów obliczeniowych.",
-      "Wykorzystując parę cząsteczek pochodzących ze struktury DNA, firma Kvantify zbadała, jak zmienia się interakcja wraz z oddalaniem się cząsteczek od siebie.",
+      "Wykorzystując parę cząsteczek pochodzących ze struktury DNA, firma Kvantify zbadała, jak zmienia się interakcja w miarę oddalania się cząsteczek od siebie.",
       "Zespół zastosował swój algorytm kwantowy BEAST-VQE w połączeniu z dokładną symulacją obwodu kwantowego dzięki zoptymalizowanej integracji Qrunch z NVIDIA cuTensorNet i porównał wyniki z uznaną metodą chemii kwantowej CCSD(T).",
       "Rezultatem jest molekularny punkt odniesienia, pokazujący, jak testować dokładność predykcji obliczeniowych, a nie twierdzenie o komercyjnej przewadze kwantowej.",
-      "W badaniu zastosowano uproszczony model, w którym obliczenia dotyczące elementów konstrukcyjnych obejmują dwie geometrie, a nie pełną krzywą interakcji."
+      "W badaniu zastosowano uproszczony model, w którym obliczenia sprzętowe obejmują dwie geometrie, a nie pełną krzywą interakcji."
      ]
     }
    ],
@@ -1121,13 +1179,13 @@
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.478,
+    "wynik": 3.178,
     "składowe": {
      "potwierdzenia": 0.0,
      "ranga_źródła": 1.2,
      "eksponowanie": 0.9,
      "słowa_kluczowe": 0.35,
-     "świeżość": 0.575,
+     "świeżość": 0.275,
      "treściwość": 0.453,
      "język_działu": 0.0
     }
@@ -1147,7 +1205,7 @@
     "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
    },
    "nagłówek": "Rekordowy laser rentgenowski niezawodnie generuje błyski o długościach fal krótszych niż odległości między atomami",
-   "lead": "Naukowcy z DESY i European XFEL zademonstrowali w European XFEL niezawodną produkcję i transport impulsów lasera rentgenowskiego o długości fali około 0,04 nanometra (lub energii fotonów wynoszącej 30 000 elektronowoltów), ustanawiając własny rekord świata. Oznacza to, że długość fali promieniowania rentgenowskiego jest znacznie krótsza niż zwykle…",
+   "lead": "Naukowcy z DESY i European XFEL zademonstrowali w European XFEL niezawodną produkcję i transport impulsów lasera rentgenowskiego o długości fali około 0,04 nanometra (lub energii fotonów 30 000 elektronowoltów), ustanawiając tym samym swój własny rekord świata. Oznacza to, że długość fali promieniowania rentgenowskiego jest znacznie krótsza niż zwykle…",
    "język_źródła": "en",
    "opublikowano": "2026-11-20T21:00:01+00:00",
    "źródło": {
@@ -1162,11 +1220,11 @@
      "rodzaj": "akapity",
      "treść": [
       "Praca opublikowana w czasopiśmie „Optica” może pomóc naukowcom w badaniu materiałów o dużej gęstości i obserwowaniu szybkich zmian w eksperymentach, w których próbki poddawane są ekstremalnym ciśnieniom, co ma znaczenie dla badania materiałów funkcjonalnych, katalitycznych i kwantowych.",
-      "Zespół wygenerował 800 błysków na sekundę i przesyłał je wzdłuż linii wiązki o długości około jednego kilometra, przy czym prawie 60% ekstremalnego promieniowania rentgenowskiego zostało zachowane po przejściu przez optykę sterującą.",
-      "„Ostatni postęp zwiększa zakres długości fal, które European XFEL może zapewnić użytkownikom, i jest wyjątkowy wśród światowych obiektów FEL” – mówi Anders Madsen, czołowy naukowiec przy instrumencie MID w European XFEL i jeden ze współautorów publikacji.",
-      "Ten kamień milowy został osiągnięty po kilku latach symulacji dynamiki wiązki elektronów i testów akceleratora i stanowi znaczący krok w kierunku rutynowego udostępniania tych błysków o jeszcze krótszej długości fali do eksperymentów w European XFEL.",
+      "Zespół wygenerował 800 błysków na sekundę i przesyłał je wzdłuż linii wiązki o długości około jednego kilometra, przy czym prawie 60% ekstremalnego promieniowania rentgenowskiego zostało zachowane po przejściu przez optykę sterującą.",
+      "„Ostatni postęp zwiększa zakres długości fal, które European XFEL może zapewnić użytkownikom, i jest wyjątkowy wśród światowych obiektów FEL” – mówi Anders Madsen, wiodący naukowiec przy instrumencie MID w European XFEL i jeden ze współautorów publikacji.",
+      "Ten kamień milowy został osiągnięty po kilku latach symulacji dynamiki wiązki elektronów i testów akceleratora. Stanowi on istotny krok w kierunku rutynowego udostępniania jeszcze krótszych fal błysków do eksperymentów w European XFEL.",
       "„Kluczowym czynnikiem umożliwiającym ustanowienie tego światowego rekordu w dziedzinie laserów rentgenowskich była wysoka jakość wiązki elektronów, osiągnięta dzięki szeroko zakrojonym badaniom dynamiki wiązki i optymalizacji akceleratora” – mówi naukowiec z DESY Ye Chen, który wraz z Frankiem Brinkerem kierował pracami nad akceleratorem elektronów.",
-      "Wysiłki w tym kierunku czerpią korzyści ze strategicznego programu koordynującego rozwój detektorów, optyki, diagnostyki i możliwości eksperymentalnych wraz z postępami w dziedzinie akceleratorów, aby dążyć do dalszej poprawy wydajności przy krótszych długościach fal.",
+      "Wysiłki w tym kierunku czerpią korzyści ze strategicznego programu koordynującego rozwój detektorów, optyki, diagnostyki i możliwości eksperymentalnych wraz zpostępami w dziedzinie akceleratorów, aby dążyć do dalszej poprawy wydajności przy krótszych długościach fal.",
       "Inna trwająca inicjatywa strategiczna dotycząca rozwoju undulatorów nadprzewodzących w European XFEL również przyczyni się do rozwoju tego programu naukowego w ciągu najbliższych kilku lat.",
       "Ye Chen i in., Fundamental-mode lasing at 30 keV in an X-ray free-electron laser, Optica (2026).",
       "DOI: 10.1364/optica.610411 Magister filologii angielskiej, redaktor językowy od 2021 r., z doświadczeniem w zakresie treści związanych ze szkolnictwem wyższym i opieką zdrowotną."
@@ -1176,7 +1234,7 @@
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Promieniowanie rentgenowskie to rodzaj wysokoenergetycznego promieniowania elektromagnetycznego o długości fali krótszej niż promieniowanie ultrafioletowe i dłuższej niż promieniowanie gamma. Z grubsza promieniowanie rentgenowskie ma długość fali od 10 nanometrów do 10 pikometrów, co odpowiada częstotliwościom w zakresie od 30 petaherców do 30 eksaherców (od 3×1016 Hz do 3×1019 Hz) oraz energiom fotonów w zakresie od 100 eV do 100 keV, odpowiednio."
+      "Promieniowanie rentgenowskie to rodzaj wysokoenergetycznego promieniowania elektromagnetycznego o długości fali krótszej niż długość fali promieniowania ultrafioletowego i dłuższej niż długość fali promieniowania gamma. Z grubsza promieniowanie rentgenowskie ma długość fali od 10 nanometrów do 10 pikometrów, co odpowiada częstotliwościom w zakresie od 30 petaherców do 30 eksaherców (od 3×1016 Hz do 3×1019 Hz) oraz energiom fotonów w zakresie od 100 eV do 100 keV, odpowiednio."
      ],
      "język": "en",
      "przypis": "Wikipedia: X-ray",
@@ -1221,13 +1279,13 @@
    "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.36,
+    "wynik": 3.06,
     "składowe": {
      "potwierdzenia": 0.0,
      "ranga_źródła": 1.2,
      "eksponowanie": 0.81,
      "słowa_kluczowe": 0.35,
-     "świeżość": 0.5,
+     "świeżość": 0.2,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
@@ -1246,14 +1304,14 @@
     "emoji": "🔭",
     "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
    },
-   "nagłówek": "Niebo dziś, w piątek 20 listopada: Księżyc mija Saturna i Neptuna",
-   "lead": "Szukasz wydarzenia na niebie w tym tygodniu? Zapoznaj się z naszą pełną kolumną „Niebo w tym tygodniu”.",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-20T09:00:00+00:00",
+   "nagłówek": "\"Radio Planet i Komet\" dogania Voyagera 1",
+   "lead": "Bohaterem najnowszego \"Radia Planet i Komet\" będzie Voyager 1 - amerykańska sonda, która w minioną środę osiągnęła odległość 1 dnia świetlnego od Ziemi. Nadarza się więc wyjątkowa okazja do podsumowania misji i największych osiągnięć Voyagera 1.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-21T11:19:30+00:00",
    "źródło": {
-    "nazwa": "Astronomy Magazine",
-    "url": "https://www.astronomy.com/observing/the-sky-today-friday-november-20-2026/",
-    "domena": "astronomy.com"
+    "nazwa": "Urania",
+    "url": "https://www.urania.edu.pl/wiadomosci/radio-planet-i-komet-dogania-voyagera-1",
+    "domena": "urania.edu.pl"
    },
    "obraz": null,
    "sekcje": [
@@ -1261,82 +1319,50 @@
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "19 listopada: Merkury wchodzi w znak Wagi Księżyc przechodzi 5° na północ od Neptuna o 8:00.",
-      "czasu EST; 12 godzin później, o 20:00, nasz satelita przeleci 7° na północ od Saturna.",
-      "Trio jest widoczne na południowo-wschodnim niebie dwie godziny po Czytaj dalej „Niebo dziś, w piątek 20 listopada: Księżyc mija Saturna i Neptuna” Post „Niebo dziś, w piątek 20 listopada: Księżyc mija Saturna i Neptuna” pojawił się najpierw w magazynie Astronomy."
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Piątek, 20 listopada Księżyc przechodzi 5° na północ od Neptuna o 8:00.",
-      "Księżyc i Saturn są widoczne gołym okiem, ale Neptun będzie niewidoczny bez lornetki lub Czytaj dalej „Niebo w tym tygodniu od 20 do 27 listopada: Uran w opozycji” Post „Niebo w tym tygodniu od 20 do 27 listopada: Uran w opozycji” pojawił się najpierw na stronie Astronomy Magazine.",
-      "Spróbuj sobie wyobrazić, że Saturn znajduje się 3500 razy dalej i ma 35 razy większą średnicę niż Księżyc.",
-      "Gdyby Księżyc był jasną kulką z marmuru znajdującą się zaledwie dwa metry przed wami, Saturn byłby dużą, oświetloną słońcem piłką plażową w odległości sześciu kilometrów za wami. ■ Orion, zwiastun nadchodzącej zimy, pojawia się teraz na wschodnim horyzoncie już około godziny 20:00.",
-      "Teraz możesz dodać Feniksa, a przynajmniej jego część, do swojej listy gwiazdozbiorów. ■ Drugie, wyżej położone wczesnoporanne trio składające się z dwóch planet i gwiazdy – Jowisza, Marsa i Regulusa – zbliża się do siebie, jak pokazano poniżej.",
-      "Obserwuj, jak ich trójkąt szybko zmienia się z poranka na poranek, gdy Mars pędzi na wschód. ■ Pełnia Księżyca dziś i jutro wieczorem; Księżyc będzie dokładnie w pełni o 9:54.",
-      "Za te przesunięcia odpowiadają nachylenie osi Ziemi i ekscentryczność jej orbity. ■ Algol powinien mieć minimalną jasność – wielkość gwiazdową 3,4 zamiast zwykłej 2,1 – przez kilka godzin około godziny 21:17."
+      "Do wysłuchania audycji zapraszamy w niedzielę 22 listopada o 18:05 w Polskim Radiu PiK."
      ]
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "19",
-    "12",
-    "20",
-    "27",
-    "3,500",
-    "35"
+    "1 dni",
+    "22",
+    "18",
+    "05"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Saturn",
-    "Moon",
-    "Friday November",
-    "Sky Today"
+    "Voyagera",
+    "Komet",
+    "Polskim Radiu PiK",
+    "Radia Planet"
    ],
    "emotki": [
     "🪐"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Astronomy Magazine",
-     "tytuł": "The Sky Today on Friday, November 20: The Moon passes Saturn and Neptune",
-     "url": "https://www.astronomy.com/observing/the-sky-today-friday-november-20-2026/"
-    },
-    {
-     "nazwa": "Astronomy Magazine",
-     "tytuł": "The Sky This Week from November 20 to 27: Uranus at opposition",
-     "url": "https://www.astronomy.com/the-sky-this-week/the-sky-this-week-from-november-20-to-27-2026/"
-    },
-    {
-     "nazwa": "Sky & Telescope News",
-     "tytuł": "This Week's Sky at a Glance, November 20 – 29",
-     "url": "https://skyandtelescope.org/astronomy-news/observing-news/this-weeks-sky-at-a-glance-november-20-29/"
+     "nazwa": "Urania",
+     "tytuł": "\"Radio Planet i Komet\" dogania Voyagera 1",
+     "url": "https://www.urania.edu.pl/wiadomosci/radio-planet-i-komet-dogania-voyagera-1"
     }
    ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 2,
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.619,
+    "wynik": 4.045,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.365,
-     "eksponowanie": 1.44,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.364,
-     "treściwość": 0.5,
-     "język_działu": 0.0
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.15,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.379,
+     "treściwość": 0.416,
+     "język_działu": 0.5
     }
-   },
-   "oryginalny_nagłówek": "The Sky Today on Friday, November 20: The Moon passes Saturn and Neptune",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
    },
    "miejsce": 1
   },
@@ -1347,108 +1373,66 @@
     "emoji": "🔭",
     "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
    },
-   "nagłówek": "Astronimowie obserwują, jak jedna gwiazda pożera drugą",
-   "lead": "Po raz pierwszy astronomowie obserwowali trwający wiele lat proces opadania gwiazdy, która kręcąc się po spirali zbliżała się do swojej olbrzymiej gwiazdy towarzyszącej, aż w końcu wpadła w jej jądro. Zderzenia gwiazd zwiastują kosmiczne fajerwerki.",
+   "nagłówek": "Niebo dziś, w sobotę 21 listopada: Merkury daleko na zachód od Słońca",
+   "lead": "Szukasz wydarzenia na niebie w tym tygodniu? Zapoznaj się z naszą pełną kolumną „Niebo w tym tygodniu”.",
    "język_źródła": "en",
-   "opublikowano": "2026-11-19T20:19:59+00:00",
+   "opublikowano": "2026-11-21T09:00:00+00:00",
    "źródło": {
-    "nazwa": "Sky & Telescope News",
-    "url": "https://skyandtelescope.org/astronomy-news/astronomers-watch-one-star-swallow-another/",
-    "domena": "skyandtelescope.org"
+    "nazwa": "Astronomy Magazine",
+    "url": "https://www.astronomy.com/observing/the-sky-today-saturday-november-21-2026/",
+    "domena": "astronomy.com"
    },
-   "obraz": "https://dq0hsqwjhea1.cloudfront.net/Full-Res-For-Display.webp",
+   "obraz": null,
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Dwie gwiazdy mogą początkowo krążyć wokół siebie po stabilnych orbitach, ale gdy zbliżą się do siebie zbyt mocno, jedna z nich nieuchronnie pochłonie drugą.",
-      "Uwalniana energia wyrzuca gaz tworzący pył, nadając nowym charakterystyczny czerwony odcień – zjawisko, które astronomowie zaobserwowali już wcześniej.",
-      "Viraj Karambelkar (Uniwersytet Columbia) i jego współpracownicy przedstawili wyniki w wydaniu czasopisma „Nature” z 19 listopada.",
-      "To zjawisko, nazwane AT 2025abao, jest wyjątkowe – mówi członek zespołu Morgan MacLeod (Centrum Astrofizyki, Harvard i Smithsonian). „Widzieliśmy już wcześniej zderzenia gwiazd, ale zawsze obserwowaliśmy „wybuch” na samym końcu” – zauważa. „W tym przypadku mogliśmy zobaczyć proces upadku znacznie dokładniej”. (MacLeod napisał artykuł „When Stars Collide” („Gdy gwiazdy się zderzają”) do czerwcowego wydania czasopisma Sky & Telescope z 2024 roku). Ten sam zespół pod kierownictwem Karambelkara jako pierwszy zauważył w danych nietypowe rozjaśnienie czerwonego olbrzyma w naszej galaktyce siostrzanej. z Near-Earth Object Wide-Field Infrared Survey Explorer (NEOWISE).",
-      "Obserwacje archiwalne wykazały, że zaczęła się rozjaśniać już kilka lat temu, w 2018 roku.",
-      "(Obserwacje sięgające 1989 roku wykazały, że przed tym momentem gwiazda w ogóle nie była zmienna). Ich zdaniem rozjaśnienie oznaczało pierwszą fazę pochłaniania gwiazdy towarzyszącej przez gwiazdę olbrzyma.",
-      "Gwiazda główna jest typowa jak na gwiazdy olbrzymy, ale z drugiej strony gwiazdy olbrzymy są dziwne.",
-      "Ma ona siedmiokrotnie większą masę niż Słońce, ale jest setki razy szersza od niego.",
-      "Oznacza to, że podczas gdy gęste jądro gwiazdy nadal walczy z grawitacją, łącząc atomy helu, zewnętrzna otoczka rozszerza się na zewnątrz."
+      "20 listopada: Księżyc mija Saturna i Neptuna Jeśli masz miejsce obserwacyjne z czystym wschodnim horyzontem, tego poranka nadarza się świetna okazja, aby dostrzec najbardziej wewnętrzną planetę Układu Słonecznego.",
+      "Merkurego można wypatrywać około godziny przed wschodem Słońca, kiedy Continue reading „Niebo dziś – sobota, 21 listopada: Merkury daleko na zachód od Słońca” The post Niebo dziś – sobota, 21 listopada: Merkury daleko na zachód od Słońca appeared first on Astronomy Magazine."
      ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Nawet 40% gwiazd Drogi Mlecznej to układy podwójne, choć nie ma co do tego całkowitej pewności.",
-      "Obserwacje i szczegóły przedstawiono w nowym artykule opublikowanym w czasopiśmie Nature, zatytułowanym „An inspiral of a star inside a common envelope with its giant companion” („Wpadanie gwiazdy na spiralnej orbicie do wnętrza wspólnej otoczki z jej olbrzymim towarzyszem”). Pierwszym autorem jest Viraj Karambelkar, stypendysta programu NASA Hubble Fellow na Uniwersytecie Columbia w Nowym Jorku.",
-      "„Przedstawiamy obserwacje AT 2025abao, przejściowej erupcji w galaktyce Andromedy” – piszą badacze.",
-      "Webb obserwował Bao zaledwie 47 dni po osiągnięciu przez gwiazdy szczytu wybuchu – to najwcześniejsza w historii obserwacja następcza takiego zdarzenia."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Słońce to gwiazda znajdująca się w centrum Układu Słonecznego. Jest to ogromna kula gorącej plazmy, rozgrzana do stanu żarzenia w wyniku reakcji syntezy jądrowej zachodzących w jej jądrze. Energia promieniuje z jej powierzchni głównie w postaci światła widzialnego i promieniowania podczerwonego, a 10% tej energii ma postać promieniowania ultrafioletowego. Jest ono głównym źródłem energii dla życia na Ziemi. Słońce było przedmiotem czci w wielu kulturach i od czasów starożytnych stanowi główny przedmiot badań astronomicznych."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Sun",
-     "url": "https://en.wikipedia.org/wiki/Sun"
     }
    ],
-   "dlaczego_to_ważne": "Ale teraz, po raz pierwszy, astronomowie uchwycili cały proces, gromadząc obserwacje obejmujące trwające siedem lat całkowite wpadanie małego obiektu towarzyszącego do czerwonego olbrzyma w galaktyce Andromedy.",
+   "dlaczego_to_ważne": "",
    "liczby": [
-    "19",
-    "10",
-    "40%",
-    "4.0",
-    "55287112",
-    "47"
+    "20",
+    "21"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Sun",
-    "opis": "Star at the centre of the Solar System",
-    "tekst": "The Sun is the star located at the centre of the Solar System. It is a massive sphere of hot plasma, heated to incandescence by nuclear fusion reactions in its core, radiating the energy from its surface mainly as visible light and infrared radiation, with 10% at ultraviolet energies. It is the main source of energy for life on Earth. The Sun has been an object of veneration in many cultures and a central subject of astronomical research since antiquity.",
-    "url": "https://en.wikipedia.org/wiki/Sun",
-    "język": "en"
-   },
+   "tło": null,
    "tagi": [
-    "MacLeod",
-    "Sun’s",
-    "Telescope",
-    "November"
+    "Mercury",
+    "Saturday November",
+    "Sky Today",
+    "Sun"
    ],
    "emotki": [
-    "🌌"
+    "🪐"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Sky & Telescope News",
-     "tytuł": "Astronomers Watch One Star Swallow Another",
-     "url": "https://skyandtelescope.org/astronomy-news/astronomers-watch-one-star-swallow-another/"
-    },
-    {
-     "nazwa": "Universe Today",
-     "tytuł": "This is the First Time Astronomers Have Seen One of These Stellar Mergers",
-     "url": "https://www.universetoday.com/articles/this-is-the-first-time-astronomers-have-seen-one-of-these-stellar-mergers"
+     "nazwa": "Astronomy Magazine",
+     "tytuł": "The Sky Today on Saturday, November 21: Mercury far west of the Sun",
+     "url": "https://www.astronomy.com/observing/the-sky-today-saturday-november-21-2026/"
     }
    ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 2,
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.809,
+    "wynik": 3.67,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.2,
-     "eksponowanie": 1.17,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.401,
-     "treściwość": 0.438,
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.72,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.35,
+     "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Astronomers Watch One Star Swallow Another",
+   "oryginalny_nagłówek": "The Sky Today on Saturday, November 21: Mercury far west of the Sun",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -1462,110 +1446,93 @@
     "emoji": "🗺️",
     "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
    },
-   "nagłówek": "Rozmowy ONZ w sprawie klimatu wchodzą w decydującą fazę, a porozumienie nie jest w zasięgu wzroku",
-   "lead": "W piątek dobiega końca konferencja klimatyczna ONZ COP31. Kraje są mocno podzielone w kwestii projektu porozumienia, w którym nie ma wzmianki o paliwach kopalnych przyczyniających się do globalnego ocieplenia, co grozi przedłużeniem negocjacji. Negocjatorzy z prawie 200 krajów usiłowali przezwyciężyć różnice zdań po dwóch tygodniach rozmów…",
+   "nagłówek": "W jednym z najstarszych lądów Afryki ponownie budzi się starożytny, nieudany uskok.",
+   "lead": "Autor: Earth Institute na Uniwersytecie Columbia W kwietniu 2017 roku trzęsienie ziemi o magnitudzie 6,5 wstrząsnęło południową Afryką w nieprawdopodobnym miejscu: w centrum kratonu Kalahari we wschodniej Botswanie. Kratony to pradawne jądra kontynentów, a ten składa się z bloków skorupy ziemskiej liczących nawet 3,7 miliarda lat.",
    "język_źródła": "en",
-   "opublikowano": "2026-11-20T08:43:01+00:00",
+   "opublikowano": "2026-11-21T14:00:06+00:00",
    "źródło": {
-    "nazwa": "Phys.org Earth",
-    "url": "https://phys.org/news/2026-11-climate-crunch-sight.html",
+    "nazwa": "Phys.org Earth Sciences",
+    "url": "https://phys.org/news/2026-11-ancient-rift-reawakening-africa-oldest.html",
     "domena": "phys.org"
    },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/negotiators-from-nearl.jpg",
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/shaded-relief-map-of-e.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Rozmowy odbywają się w cieniu szeregu dobitnych przypomnień o pilnej potrzebie podjęcia działań na rzecz klimatu, od fal upałów w Europie i niszczycielskich powodzi w Nepalu po rekordowe zjawisko El Niño, które sieje spustoszenie na całym świecie.",
-      "Wojna w Iranie i szok cenowy na rynku ropy naftowej jeszcze bardziej skomplikowały rozmowy, pogłębiając podziały w kwestii bezpieczeństwa energetycznego i przyszłości paliw kopalnych.",
-      "Wstępny projekt porozumienia z początku tego tygodnia zawierał apele o przyspieszenie działań na rzecz stopniowego wycofywania paliw kopalnych.",
-      "Jednak w nowej wersji opublikowanej w czwartek przez Australię, współgospodarza COP31, pominięto wszelkie wzmianki o ropie naftowej, gazie i węglu – głównych czynnikach odpowiedzialnych za zmiany klimatu.",
-      "Nieobecność to „czarna plama” – powiedziała francuska minister ds. transformacji ekologicznej Monique Barbut.",
-      "„Będziemy prowadzić konsultacje i negocjacje, dopóki nie będzie dla nas całkowicie jasne, że osiągnęliśmy konsensus” – powiedział dziennikarzom australijski minister ds. klimatu Chris Bowen, który kieruje negocjacjami na COP31.",
-      "Podczas konferencji COP28 w Dubaju w 2023 roku państwa zgodziły się na odejście od paliw kopalnych, nie wyznaczając jednak celów ani terminów, a kraje produkujące ropę naftową zaciekle sprzeciwiały się wszelkim próbom ponownego poruszenia tej kwestii.",
-      "Ubiegłoroczny szczyt w Brazylii zakończył się bez wzmianki o paliwach kopalnych, co skłoniło kraje do podjęcia własnych działań poza procesem ONZ w celu odejścia od węgla, ropy naftowej i gazu.",
-      "„Kraje zależne od interesów związanych z paliwami kopalnymi blokują postępy w szybkim, sprawiedliwym odejściu od paliw kopalnych” – powiedziała Rachel Cleetus, dyrektor programu klimatycznego w Union of Concerned Scientists."
+      "Geolodzy od dawna uważali takie regiony za zbyt zimne, zbyt grube i zbyt sztywne, aby mogły ulec rozerwaniu.",
+      "Obecnie nowe badanie przeprowadzone przez naukowców z Botswańskiego Międzynarodowego Uniwersytetu Nauki i Technologii (BIUST) oraz Obserwatorium Ziemi Lamont-Doherty pokazuje, że kraton rzeczywiście ulega rozrywaniu.",
+      "Wyniki badań zostały opublikowane w czasopiśmie „Tectonics”.",
+      "„Trzęsienie ziemi miało miejsce w środku kratonu, czyli w regionie, w którym nikt nie spodziewał się aktywnego uskoku, nie mówiąc już o powstawaniu aktywnej granicy płyt tektonicznych” – mówi współautor Folarin Kolawole.",
+      "Jest geologiem strukturalnym w Lamont i adiunktem na Wydziale Nauk o Ziemi i Środowisku na Wydziale Sztuki i Nauk.",
+      "Nowy rów tektoniczny znajduje się na skrajnym południowym krańcu Wschodnioafrykańskiego Systemu Ryftowego, gdzie kontynent afrykański powoli się rozciąga.",
+      "Rozłamy takie jak ten stanowią najwcześniejszy etap powstawania granicy płyt tektonicznych typu dywergentnego, czyli takiej, która w przypadku powodzenia rozdziela kontynent i tworzy nowy ocean.",
+      "Przez dziesięciolecia naukowcy uważali, że południowy kraniec tego systemu znajduje się w strefie ryftowej Okawango w północniej Botswanie, którą po raz pierwszy zidentyfikował w latach 70. XX wieku geolog z Lamont-Doherty Earth Observatory, Christopher Scholz, wraz ze współpracownikami.",
+      "Badania trzęsienia ziemi z 2017 roku wykazały, że sięga ono prawie 320 kilometrów dalej, aż do samego kratonu."
      ]
     },
     {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
      "treść": [
-      "Ministrowie z Afryki twierdzą, że „nie przyjechali tu prosić o pomoc”, a organizacje społeczeństwa obywatelskiego nazywają to spotkanie „najgorszym szczytem COP w historii”. Kluczowe rozmowy na temat klimatu weszły w fazę dogrywki w ostatnim oficjalnym dniu szczytu ONZ COP31, ponieważ kraje nadal spierają się o projekt porozumienia, w którym nie ma wzmianki o paliwach kopalnych, a liczne inne sporne kwestie komplikują negocjacje.",
-      "Prawie 200 krajów miało trudności z pokonaniem różnic zdań po dwóch tygodniach intensywnych rozmów i emocjonalnych przemówień w tureckiej Antalyi na temat skutków katastrofy klimatycznej na całym świecie. Planowane zakończenie szczytu w piątek wieczorem zostało przekroczone. „W tym momencie nikt nie jest zadowolony” – powiedział dziennikarzom brazylijski sekretarz ds. zmian klimatycznych Aloisio Lopes Pereira de Melo.",
-      "The Guardian dowiedział się, że prawdopodobnie do soboty rano nie pojawi się nowy projekt porozumienia, nad którym negocjatorzy mogliby się pochylić.",
-      "W piątek rano doszło do dramatycznej interwencji afrykańskich ministrów, z których jeden powiedział: „Nie przyjechaliśmy tu, żeby błagać”. Grupy społeczeństwa obywatelskiego, które mają przypisaną rolę w rozmowach, uznały tę konferencję za „najgorszą w historii”, ponieważ żaden z ich priorytetów nie został uwzględniony w negocjacjach.",
-      "Uważa się, że Arabia Saudyjska należy do krajów, które naciskają na to, by w ostatecznym porozumieniu znalazło się wyraźne odniesienie do wychwytywania i składowania dwutlenku węgla (CCUS) jako sposobu na to, by pomóc planecie zminimalizować przekroczenie celu dotyczącego temperatury wynoszącego 1,5°C, uzgodnionego w Paryżu.",
-      "Neil Grant, starszy ekspert ds. ograniczania emisji w grupie doradczej Climate Analytics, powiedział, że CCUS zostało włączone do tekstu, „ponieważ chcą tego podmioty związane z paliwami kopalnymi”.",
-      "Paliwa kopalne i finansowanie działań na rzecz klimatu to jedne z kwestii, które wywołały głębokie podziały i sprawiły, że szczyt ONZ trwał dłużej niż przewidywano. Antalya 2026 to „najgorszy szczyt COP w historii” – stwierdzili aktywiści społeczeństwa obywatelskiego podczas zatłoczonej końcowej konferencji prasowej na szczycie klimatycznym ONZ."
-     ]
+      "Republika Południowej Afryki (RPA) to najbardziej wysunięte na południe państwo Afryki. Kraj składa się z dziewięciu prowincji i od południa graniczy z 2798 kilometrami linii brzegowej ciągnącej się wzdłuż południowego Atlantyku i Oceanu Indyjskiego; od północy z sąsiednimi krajami – Namibią, Botswaną i Zimbabwe; a od wschodu i północnego wschodu z Mozambikiem i Eswatini. Republika Południowej Afryki otacza również Lesotho. Kraj ten zajmuje powierzchnię 1 221 037 kilometrów kwadratowych i ma ponad 63 miliony mieszkańców, co czyni go szóstym najbardziej zaludnionym krajem w Afryce i 24. na świecie. Pretoria jest stolicą administracyjną, natomiast Kapsztad, jako siedziba parlamentu, jest stolicą legislacyjną, a Bloemfontein uważa się za stolicę sądowniczą. Największym i najludniejszym miastem jest Johannesburg, a za nim plasują się Kapsztad i Durban."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: South Africa",
+     "url": "https://en.wikipedia.org/wiki/South_Africa"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
+    "6.5",
+    "3.7 billion",
     "200",
-    "35%",
-    "1.5",
-    "120 billion",
-    "32.3",
-    "27"
+    "320",
+    "50",
+    "80"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "South Africa",
+    "opis": "Country in Southern Africa",
+    "tekst": "South Africa, officially the Republic of South Africa (RSA), is the southernmost country in Africa. The country consists of nine provinces, and is bounded to the south by 2,798 kilometres of coastline that stretches along the South Atlantic and Indian Ocean; to the north by the neighbouring countries of Namibia, Botswana, and Zimbabwe; and to the east and northeast by Mozambique and Eswatini. South Africa also encloses Lesotho. Covering an area of 1,221,037 square kilometres, the country has a population of over 63 million people, making it the sixth-most populated country in Africa, and 24th-most in the world. Pretoria is the administrative capital, while Cape Town, as the seat of Parliament, is the legislative capital, and Bloemfontein is regarded as the judicial capital. The largest and most populous city is Johannesburg, followed by Cape Town and Durban.",
+    "url": "https://en.wikipedia.org/wiki/South_Africa",
+    "język": "en"
+   },
    "tagi": [
-    "French Ecological Transition Minister Monique Barbut",
-    "Australian Climate Minister Chris Bowen",
-    "Climate Minister Ralph Regenvanu",
-    "U.N.'s Intergovernmental Panel"
+    "Kolawole",
+    "Jurassic",
+    "Botswana",
+    "Kalahari"
    ],
    "emotki": [
-    "🪐"
+    "🔬"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Phys.org Earth",
-     "tytuł": "UN climate talks enter crunch time with no deal in sight",
-     "url": "https://phys.org/news/2026-11-climate-crunch-sight.html"
-    },
-    {
-     "nazwa": "The Guardian Environment",
-     "tytuł": "Cop31 talks go into overtime as debate rages over lack of fossil fuels in draft deal",
-     "url": "https://www.theguardian.com/environment/2026/nov/20/cop31-talks-overtime-fossil-fuels-vanish-from-draft-deal"
-    },
-    {
-     "nazwa": "The Guardian Environment",
-     "tytuł": "Factious climate talks enter overtime without new draft deal in sight – as it happened",
-     "url": "https://www.theguardian.com/world/live/2026/nov/20/cop31-climate-crisis-talks-turkey-latest-news-updates"
-    },
-    {
-     "nazwa": "Mongabay",
-     "tytuł": "Fossil fuels’ role in Africa’s energy transition contested as UN climate conference closes",
-     "url": "https://news.mongabay.com/2026/11/fossil-fuels-role-in-africas-energy-transition-contested-as-un-climate-conference-closes/"
-    },
-    {
-     "nazwa": "Mongabay",
-     "tytuł": "UN climate talks slammed by activists, leaders as fossil fuels go unmentioned in draft agreement",
-     "url": "https://news.mongabay.com/short-article/2026/11/un-climate-talks-slammed-by-activists-leaders-as-fossil-fuels-go-unmentioned-in-draft-agreement/"
+     "nazwa": "Phys.org Earth Sciences",
+     "tytuł": "An ancient failed rift is reawakening inside one of Africa's oldest landmasses",
+     "url": "https://phys.org/news/2026-11-ancient-rift-reawakening-africa-oldest.html"
     }
    ],
-   "liczba_źródeł": 3,
-   "czas_czytania_min": 3,
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 7.008,
+    "wynik": 3.154,
     "składowe": {
-     "potwierdzenia": 3.8,
-     "ranga_źródła": 1.78,
-     "eksponowanie": 0.09,
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.9,
      "słowa_kluczowe": 0.35,
-     "świeżość": 0.488,
-     "treściwość": 0.5,
+     "świeżość": 0.413,
+     "treściwość": 0.441,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "UN climate talks enter crunch time with no deal in sight",
+   "oryginalny_nagłówek": "An ancient failed rift is reawakening inside one of Africa's oldest landmasses",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -1579,78 +1546,94 @@
     "emoji": "🗺️",
     "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
    },
-   "nagłówek": "Katowice w pikselach - mapa 3D z danych GUGiK, rozkładów GTFS i GML planu ogólnego",
-   "lead": "Kato Pixel to izometryczna mapa Katowic w stylu pixel art, rysowana na żywo w przeglądarce z otwartych danych publicznych. W ostatnich tygodniach podobne projekty powstały m.in. dla Warszawy, Krakowa, Wrocławia i Łodzi.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-20T00:00:00+00:00",
+   "nagłówek": "Brytyjska wyspa, która zawarła układ z naturą",
+   "lead": "WYSPA LUNDY – Wielka Brytania. Położona w kanale Bristolskim, pomiędzy Walią a Anglią, surowa wyspa Lundy to jedno z najbardziej pionierskich miejsc w Wielkiej Brytanii pod względem ochrony przyrody.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-21T09:10:37+00:00",
    "źródło": {
-    "nazwa": "Geoforum",
-    "url": "https://geoforum.pl/news/37542/katowice-w-pikselach-mapa-3d-z-danych-gugik-rozkladow-gtfs-i-gml-planu-ogolnego",
-    "domena": "geoforum.pl"
+    "nazwa": "Mongabay",
+    "url": "https://news.mongabay.com/video/2026/11/the-british-island-that-made-a-deal-with-nature/",
+    "domena": "news.mongabay.com"
    },
-   "obraz": null,
+   "obraz": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/21091238/Mongabay_Thumbnail_LudyIsland_Featured_V2-768x512.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Mapa katowicka łączy model 3D miasta z danymi dynamicznymi ruchem komunikacji miejskiej, pogodą i projektem planu ogólnego.",
-      "Model miasta Budynki pochodzą z modeli 3D tworzonych i udostępnianych przez Główny Urząd Geodezji i Kartografii.",
-      "Dane w standardzie LoD2..."
+      "Dzięki dziesięcioleciom działań na rzecz ochrony przyrody ta niewielka wyspa uległa przemianie – powróciły na nią tysiące ptaków morskich, a pod jej falami tętni życiem morska fauna.",
+      "Ale historia Lundiego nie dotyczy tylko odgradzania się od ludzi.",
+      "Miejscowi rybacy pomogli w stworzeniu morskiego obszaru chronionego, a pierwsza w historii Wielkiej Brytanii strefa całkowitego zakazu połowów została zaprojektowana z uwzględnieniem potrzeb osób, które utrzymują się z tych wód.",
+      "Obecnie na wyspie żyje bujna fauna, działa społeczność rybacka, a każdego roku przybywają tu tysiące turystów.",
+      "Zespół wideo Mongabay chce poruszać kwestie i tematy, które są dla Państwa ważne.",
+      "Czy są jacyś inspirujący ludzie, pilne sprawy lub lokalne historie, o których chcielibyście, żebyśmy napisali?",
+      "Obrazek banera: kolaż przedstawiający wyspę Lundy i maskonura. © Mongabay Odwrócenie sytuacji w przypadku inwazyjnych ryb skorpionów: jak hondurscy nurkowie stawiają opór Myślę, że w samej istocie zawsze tkwił ten dziki duch. Wraz ze wzrostem liczebności ptaków morskich coraz więcej osób przyjeżdża tu, aby je zobaczyć, zwłaszcza najważniejsze gatunki – maskonury i foki.",
+      "Lundy to surowa, wystająca z morza skała, smagana wiatrem i falami, która wznosi się w kanale Bristolskim między Anglią a Walią.",
+      "Dziś to dzika przyroda jest gwiazdą Lundy, ale jej dzikość nie jest dziełem przypadku."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Główny Urząd Geodezji i Kartografii (GUGiK) – urząd obsługujący i działający pod bezpośrednim kierownictwem Głównego Geodety Kraju. Główny Geodeta Kraju kieruje Urzędem przy pomocy wiceprezesa, dyrektora generalnego oraz dyrektorów komórek organizacyjnych."
+      "Lundy to angielska wyspa w kanale Bristolskim. Należy do dystryktu Torridge w hrabstwie Devon."
      ],
-     "język": "pl",
-     "przypis": "Wikipedia: Główny Urząd Geodezji i Kartografii",
-     "url": "https://pl.wikipedia.org/wiki/G%C5%82%C3%B3wny_Urz%C4%85d_Geodezji_i_Kartografii"
+     "język": "en",
+     "przypis": "Wikipedia: Lundy",
+     "url": "https://en.wikipedia.org/wiki/Lundy"
     }
    ],
    "dlaczego_to_ważne": "",
-   "liczby": [],
+   "liczby": [
+    "6000. 20",
+    "20",
+    "48,000",
+    "100%",
+    "35",
+    "40"
+   ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Główny Urząd Geodezji i Kartografii",
-    "opis": "urząd pod kierownictwem Głównego Geodety Kraju",
-    "tekst": "Główny Urząd Geodezji i Kartografii (GUGiK) – urząd obsługujący i działający pod bezpośrednim kierownictwem Głównego Geodety Kraju. Główny Geodeta Kraju kieruje Urzędem przy pomocy wiceprezesa, dyrektora generalnego oraz dyrektorów komórek organizacyjnych.",
-    "url": "https://pl.wikipedia.org/wiki/G%C5%82%C3%B3wny_Urz%C4%85d_Geodezji_i_Kartografii",
-    "język": "pl"
+    "hasło": "Lundy",
+    "opis": "English island in the Bristol Channel",
+    "tekst": "Lundy is an English island in the Bristol Channel. It forms part of the district of Torridge in the county of Devon.",
+    "url": "https://en.wikipedia.org/wiki/Lundy",
+    "język": "en"
    },
    "tagi": [
-    "Warszawy Krakowa Wrocławia",
-    "Główny Urząd Geodezji",
-    "Kartografii",
-    "Kato Pixel"
+    "Lundy",
+    "UK’s",
+    "England",
+    "Lundy’s"
    ],
-   "emotki": [
-    "🗺️"
-   ],
+   "emotki": [],
    "wszystkie_źródła": [
     {
-     "nazwa": "Geoforum",
-     "tytuł": "Katowice w pikselach - mapa 3D z danych GUGiK, rozkładów GTFS i GML planu ogólnego",
-     "url": "https://geoforum.pl/news/37542/katowice-w-pikselach-mapa-3d-z-danych-gugik-rozkladow-gtfs-i-gml-planu-ogolnego"
+     "nazwa": "Mongabay",
+     "tytuł": "The British island that made a deal with nature",
+     "url": "https://news.mongabay.com/video/2026/11/the-british-island-that-made-a-deal-with-nature/"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.838,
+    "wynik": 3.087,
     "składowe": {
      "potwierdzenia": 0.0,
-     "ranga_źródła": 1.0,
+     "ranga_źródła": 1.05,
      "eksponowanie": 0.9,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.238,
-     "treściwość": 0.5,
-     "język_działu": 0.5
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.352,
+     "treściwość": 0.435,
+     "język_działu": 0.0
     }
+   },
+   "oryginalny_nagłówek": "The British island that made a deal with nature",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
    },
    "miejsce": 2
   },
@@ -1673,6 +1656,15 @@
    "obraz": "https://fwcdn.pl/nph/1433332/2026/79418.16.jpg",
    "sekcje": [
     {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Jak informuje NBC News, Macaulay Culkin ponownie wcieli się w bohatera, który uczynił go jedną z największych dziecięcych gwiazd Hollywood.",
+      "Culkin ma już za sobą spotkanie z Davidem Greenbaumem, szefem Disney Motion Pictures, podczas którego zaprezentował swój pomysł na kontynuację.",
+      "O tym, jak jego zdaniem mogły potoczyć się losy Kevina, kiedyś opowiedział również publicznie: \"Kevin jest wdowcem lub rozwodnikiem."
+     ]
+    },
+    {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
@@ -1694,8 +1686,13 @@
    "inne_spojrzenia": [
     {
      "źródło": "Onet Kultura",
-     "ujęcie": "W wytwórni Disney ruszyły wczesne prace nad sequelem filmu \"Kevin sam w domu\" — ustalił serwis Variety.",
-     "url": "https://kultura.onet.pl/film/powstaje-nowy-kevin-sam-w-domu-macaulay-culkin-pracuje-nad-scenariuszem/ns86ds3"
+     "ujęcie": "Po latach spekulacji i fanowskich marzeń wszystko wskazuje na to, że Kevin McCallister wróci na ekrany.",
+     "url": "https://kultura.onet.pl/film/wiadomosci/powrot-kultowego-bohatera-macaulay-culkin-znow-zagra-kevina/3yn3rep"
+    },
+    {
+     "źródło": "Interia Film",
+     "ujęcie": "Jak informuje Deadline, istnieje duża szansa, że Macaulay Culkin powróci do kultowej roli.",
+     "url": "https://film.interia.pl/wiadomosci/news-powrot-kevina-staje-sie-faktem-gwiazdor-kultowego-filmu-prow,nId,23576940"
     }
    ],
    "pojęcia": [],
@@ -1723,8 +1720,18 @@
     },
     {
      "nazwa": "Onet Kultura",
+     "tytuł": "Macaulay Culkin znów zagra Kevina. Disney szykuje wielki powrót kultowej serii",
+     "url": "https://kultura.onet.pl/film/wiadomosci/powrot-kultowego-bohatera-macaulay-culkin-znow-zagra-kevina/3yn3rep"
+    },
+    {
+     "nazwa": "Onet Kultura",
      "tytuł": "Powstaje nowy \"Kevin sam w domu\". Macaulay Culkin pracuje nad scenariuszem",
      "url": "https://kultura.onet.pl/film/powstaje-nowy-kevin-sam-w-domu-macaulay-culkin-pracuje-nad-scenariuszem/ns86ds3"
+    },
+    {
+     "nazwa": "Interia Film",
+     "tytuł": "Powrót Kevina staje się faktem? Gwiazdor kultowego filmu prowadzi rozmowy",
+     "url": "https://film.interia.pl/wiadomosci/news-powrot-kevina-staje-sie-faktem-gwiazdor-kultowego-filmu-prow,nId,23576940"
     },
     {
      "nazwa": "The Guardian Film",
@@ -1732,17 +1739,17 @@
      "url": "https://www.theguardian.com/film/2026/nov/20/home-alone-sequel-macaulay-culkin"
     }
    ],
-   "liczba_źródeł": 3,
+   "liczba_źródeł": 4,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 7.808,
+    "wynik": 9.811,
     "składowe": {
-     "potwierdzenia": 3.8,
-     "ranga_źródła": 1.465,
-     "eksponowanie": 0.36,
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 1.757,
+     "eksponowanie": 0.18,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.483,
+     "świeżość": 0.474,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -1756,95 +1763,79 @@
     "emoji": "🎬",
     "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
    },
-   "nagłówek": "\"Rocky\": Kultowy film ma już 50 lat. Czego o nim nie wiecie?",
-   "lead": "Muzykę, która towarzyszy treningowi początkującego boksera, przygotowującego się do pokazowej walki z mistrzem świata, zna każdy kinoman. W 1976 roku, po porażce w Wietnamie i aferze Watergate, amerykańska publiczność pokochała inspirująca historię sportowca, który dostał szansę od losu i ją wykorzystał.",
+   "nagłówek": "Martin Scorsese i Agnieszka Holland stają w obronie reżysera. Grozi mu więzienie",
+   "lead": "Międzynarodowe środowisko filmowe protestuje przeciwko wyrokowi wydanemu na irańskiego reżysera Jafara Panahiego. Pod apelem potępiającym decyzję sądu podpisały się setki twórców, aktorów i szefów najważniejszych festiwali filmowych, w tym Martin Scorsese, Juliette Binoche i Agnieszka Holland.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-20T10:28:48+00:00",
+   "opublikowano": "2026-11-21T13:56:34+00:00",
    "źródło": {
-    "nazwa": "Interia Film",
-    "url": "https://film.interia.pl/kultowe-filmy/news-rocky-kultowy-film-ma-juz-50-lat-czego-o-nim-nie-wiecie,nId,5655260",
-    "domena": "film.interia.pl"
+    "nazwa": "Onet Kultura",
+    "url": "https://kultura.onet.pl/film/wiadomosci/jafar-panahi-skazany-w-iranie-swiatowe-kino-staje-w-jego-obronie/9lrd003",
+    "domena": "kultura.onet.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000NJVIWBF4EKR4A-C321.webp",
+   "obraz": "https://cdn.kultura.onet.pl/1/Vznk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy9iNDJkNTA2MzVkYzFhNTljMDY0NzczMzU1M2I3NGEzYS5wbmeSlQMAAM0HgM0EOJMFzQlgzQZA3gACoTAHoTEE",
    "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "20 listopada mija 50 lat od premiery \"Rocky'ego\" Johna G.",
-      "Avildsena. \" Rocky , otwiera się w nowym oknie \" opowiada historię ubogiego boksera-amatora (Sylvester Stallone), ściągającego haracze dla lokalnego lichwiarza.",
-      "Mistrz bokserski Apollo Creed (Carl Weathers) na kilka tygodni przed walką traci przeciwnika.",
-      "Gdy okazuje się, że nie uda się szybko znaleźć godnego zastępcy, sportowiec wpada na pomysł medialnego show, w którym stoczy pojedynek z lokalnym zawodnikiem.",
-      "Jednocześnie stara się rozpocząć związek z Adrian (Talia Shire), nieśmiałą pracownicą sklepu zoologicznego.",
-      "Podczas walki, ku zaskoczeniu Apolla, Rocky okazuje się groźnym przeciwnikiem.",
-      "Ostatecznie mistrz zwycięża na punkty, ale Rocky'ego to nie obchodzi - najważniejsza jest dla niego Adrian, której rzuca się w ramiona.",
-      "Stallone wpadł na pomysł filmu w 1975 roku po zobaczeniu walki bokserskiej między Muhammadem Alim i Chuckiem Wepnerem, zakończonej nokautem tego drugiego w ostatnich chwilach piętnastej rundy.",
-      "Czując, że ten film zapewni mu sławę, zaczął rozsyłać tekst do studiów filmowych."
-     ]
-    },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Rocky – amerykański dramat sportowy z 1976 roku z Sylvestrem Stallone w roli Rocky’ego Balboa – tytułowego bohatera. Rolę Apollo Creeda zagrał Carl Weathers. Slogan reklamowy tego filmu brzmiał His whole life was a milion-to-one shot. Zdjęcia kręcono w Filadelfii i Los Angeles."
+      "Martin Scorsese Presents: Masterpieces of Polish Cinema – cykl pokazów arcydzieł polskiej kinematografii organizowanych w 2014 roku w Stanach Zjednoczonych i Kanadzie przez amerykańskiego reżysera Martina Scorsese. W języku polskim nazwa festiwalu brzmiała „Martin Scorsese prezentuje: arcydzieła polskiego kina”."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Rocky",
-     "url": "https://pl.wikipedia.org/wiki/Rocky"
+     "przypis": "Wikipedia: Martin Scorsese Presents: Masterpieces of Polish Cinema",
+     "url": "https://pl.wikipedia.org/wiki/Martin_Scorsese_Presents%3A_Masterpieces_of_Polish_Cinema"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "20",
-    "50 lat",
-    "100 tysięcy",
-    "32",
-    "35 godzin",
-    "225 milionów"
+    "80",
+    "43",
+    "40",
+    "50",
+    "10"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Rocky",
-    "opis": "film z 1976, reż. John Avildsen",
-    "tekst": "Rocky – amerykański dramat sportowy z 1976 roku z Sylvestrem Stallone w roli Rocky’ego Balboa – tytułowego bohatera. Rolę Apollo Creeda zagrał Carl Weathers. Slogan reklamowy tego filmu brzmiał His whole life was a milion-to-one shot. Zdjęcia kręcono w Filadelfii i Los Angeles.",
-    "url": "https://pl.wikipedia.org/wiki/Rocky",
+    "hasło": "Martin Scorsese Presents: Masterpieces of Polish Cinema",
+    "opis": "cykl pokazów polskich filmów (aut. Martin Scorsese; USA, Kanada; 2014)",
+    "tekst": "Martin Scorsese Presents: Masterpieces of Polish Cinema – cykl pokazów arcydzieł polskiej kinematografii organizowanych w 2014 roku w Stanach Zjednoczonych i Kanadzie przez amerykańskiego reżysera Martina Scorsese. W języku polskim nazwa festiwalu brzmiała „Martin Scorsese prezentuje: arcydzieła polskiego kina”.",
+    "url": "https://pl.wikipedia.org/wiki/Martin_Scorsese_Presents%3A_Masterpieces_of_Polish_Cinema",
     "język": "pl"
    },
    "tagi": [
-    "Rocky'ego",
-    "Stallone'a",
-    "Stallone",
-    "Rocky"
+    "Agnieszka Holland",
+    "Martin Scorsese Juliette Binoche",
+    "Jafara Panahiego",
+    "Międzynarodowe"
    ],
    "emotki": [
-    "🥊",
     "🎬",
-    "🎵"
+    "⚖️",
+    "🎭"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Interia Film",
-     "tytuł": "\"Rocky\": Kultowy film ma już 50 lat. Czego o nim nie wiecie?",
-     "url": "https://film.interia.pl/kultowe-filmy/news-rocky-kultowy-film-ma-juz-50-lat-czego-o-nim-nie-wiecie,nId,5655260"
+     "nazwa": "Onet Kultura",
+     "tytuł": "Martin Scorsese i Agnieszka Holland stają w obronie reżysera. Grozi mu więzienie",
+     "url": "https://kultura.onet.pl/film/wiadomosci/jafar-panahi-skazany-w-iranie-swiatowe-kino-staje-w-jego-obronie/9lrd003"
     },
     {
-     "nazwa": "The Guardian Culture",
-     "tytuł": "NFL legend John Madden’s unlikely, unfiltered brilliance: ‘Coach was indeed animated’",
-     "url": "https://www.theguardian.com/film/2026/nov/20/john-madden-nfl-football-biopic"
+     "nazwa": "The Guardian Film",
+     "tytuł": "‘I’m opening the cage of a monster’: Taxi Driver scriptwriter Paul Schrader on unleashing AI at 80",
+     "url": "https://www.theguardian.com/film/2026/nov/21/taxi-driver-scriptwriter-paul-schrader-ai-film-making-martin-scorsese"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.722,
+    "wynik": 5.862,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.193,
-     "eksponowanie": 1.26,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.369,
+     "ranga_źródła": 1.3,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.412,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -1856,9 +1847,9 @@
  "statystyki": {
   "kanały_ok": 71,
   "kanały_błędne": 0,
-  "znaki_tłumaczone": 18209,
+  "znaki_tłumaczone": 9172,
   "niedziałające_kanały": [],
   "działy": 18,
-  "artykuły_w_oknie": 52
+  "artykuły_w_oknie": 45
  }
 }
