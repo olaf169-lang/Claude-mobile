@@ -246,3 +246,27 @@ Object.assign(SRC, {
   zb_st_glaive:["Steam: Long Glaive według graczy","https://steamcommunity.com/app/261550/discussions/0/2264690481983399323"],
   zb_st_armorguide:["Steam: poradnik wydawania na zbroje (2022)","https://steamcommunity.com/app/261550/discussions/0/3192490350133598944"]
 });
+
+// Źródła działu Banici i najemnicy
+Object.assign(SRC, {
+  rb_stats:["GamerGuides: statystyki wszystkich jednostek","https://gamerguides.com/mount-and-blade-ii-bannerlord/guide/troop-types/overview/all-troop-stats-overview"],
+  rb_mb:["GamerGuides: najemnicy i bandyci","https://www.gamerguides.com/mount-and-blade-ii-bannerlord/guide/troop-types/overview/mercenaries-and-bandits"],
+  rb_minor:["GamerGuides: frakcje pomniejsze","https://gamerguides.com/mount-and-blade-ii-bannerlord/guide/troop-types/overview/minor-faction-troops"],
+  rb_blox:["Bloxodes: jednostki (XI 2026)","https://bloxodes.com/wiki/bannerlord/troops"],
+  rb_lake:["Wiki: Jeziorne Szczury (Lake Rats)","https://mountandblade.fandom.com/wiki/Lake_Rats"],
+  rb_wrecker:["GamerGuides: Lake Rat Wrecker","https://www.gamerguides.com/mount-and-blade-ii-bannerlord/guide/troop-types/lake-rat-troop-tree/lake-rat-wrecker"],
+  rb_lakerec:["GamerGuides: Lake Rat Recruit","https://www.gamerguides.com/mount-and-blade-ii-bannerlord/guide/troop-types/lake-rat-troop-tree"],
+  rb_watch:["GamerGuides: Watchman","https://www.gamerguides.com/mount-and-blade-ii-bannerlord/guide/troop-types/mercenaries/watchman"],
+  rb_srw:["GamerGuides: Sea Raider Warrior","https://www.gamerguides.com/mount-and-blade-ii-bannerlord/guide/troop-types/bandits/sea-raider-warrior"],
+  rb_srb:["GamerGuides: Sea Raider Boss","https://www.gamerguides.com/mount-and-blade-ii-bannerlord/guide/troop-types/bandits/sea-raider-boss"],
+  rb_paths:["Poradnik wideo: rekrutacja bandytów i ich awanse","https://www.letsplayindex.com/video/bandit-recruitment-ultimate-guide-tips-and-tricks-types-FAwCLPxP2Jk"],
+  rb_trees:["SegmentNext: drzewka jednostek z bandytami","https://segmentnext.com/2020/04/03/mount-and-blade-2-bannerlord-troop-trees-guide"],
+  rb_trees2:["GameWatcher: drzewka jednostek","https://www.gamewatcher.com/news/mount-and-blade-2-bannerlord-troop-trees"],
+  rb_disc:["Prima Games: bandyci i perk Disciplinarian","https://primagames.com/gaming/mount-blade-ii-bannerlord-the-best-units-and-how-to-recruit-them"],
+  rb_sea:["Steam: morscy rabusie jako cel","https://steamcommunity.com/app/261550/discussions/0/2144217924383224974"],
+  rb_duel:["Steam: pojedynek z hersztem w kryjówce","https://steamcommunity.com/app/261550/discussions/0/4035853516563511166"],
+  rb_army:["Steam: armia z hersztów i leśnych bandytów","https://steamcommunity.com/app/261550/discussions/0/2792747297861430174"],
+  rb_fians:["Steam: z leśnych bandytów fianowie","https://steamcommunity.com/app/261550/discussions/0/2264689848053748013"],
+  rb_triarii:["GamersDecide: najlepszy garnizon (Triarii)","https://gamersdecide.com/articles/mount-and-blade-2-bannerlord-best-garrison-troops"],
+  rb_minorsteam:["Steam: jak zdobyć jednostki frakcji pomniejszych","https://steamcommunity.com/app/261550/discussions/0/2144217924386981767"]
+});

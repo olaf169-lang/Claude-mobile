@@ -81,7 +81,7 @@ $("theme").addEventListener("click",()=>{ const dark = document.documentElement.
 /* ---------- nawigacja ---------- */
 const NAV = [["start","Start","keep"],["kodeks","Kodeks","book"],["wojska","Wojska","ghelm"],["drzewka","Drzewka","tree"],["narzedzia","Narzędzia","tools"]];
 $("nav").innerHTML = NAV.map(([k,l,i])=>`<a href="#${k}" data-k="${k}">${ico(i)}<span>${l}</span></a>`).join("");
-const TITLES = {zbrojownia:"Zbrojownia", doradca:"Doradca bitwy", start:"M&B Goat Guide", kodeks:"Kodeks", topic:"Kodeks", wojska:"Wojska", drzewka:"Drzewka", narzedzia:"Narzędzia", instalacja:"Instalacja"};
+const TITLES = {rabusie:"Banici i najemnicy", zbrojownia:"Zbrojownia", doradca:"Doradca bitwy", start:"M&B Goat Guide", kodeks:"Kodeks", topic:"Kodeks", wojska:"Wojska", drzewka:"Drzewka", narzedzia:"Narzędzia", instalacja:"Instalacja"};
 
 function route(){
   const h = (location.hash||"#start").slice(1) || "start";
@@ -90,7 +90,7 @@ function route(){
   else if(h.startsWith("drzewka-")){ view="drzewka"; arg=h.slice(8); }
   if(!$("v-"+view)) view="start";
   document.querySelectorAll(".view").forEach(v=>v.classList.toggle("on", v.id==="v-"+view));
-  const navKey = view==="topic" ? "kodeks" : view==="doradca" ? "narzedzia" : view==="zbrojownia" ? "wojska" : view;
+  const navKey = view==="topic" ? "kodeks" : view==="doradca" ? "narzedzia" : (view==="zbrojownia"||view==="rabusie") ? "wojska" : view;
   document.querySelectorAll("#nav a").forEach(a=>{ if(a.dataset.k===navKey) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); });
   $("bar-title").textContent = TITLES[view];
   if(view==="topic") renderTopic(arg);
@@ -114,7 +114,8 @@ const FLAGS = [
   ["#drzewka","Drzewka","Ścieżki awansów 7 kultur","tree","--t-vert"],
   ["#narzedzia","Narzędzia","Żołd, jedzenie, lojalność","tools","--t-sable"],
   ["#kodeks-pieniadze","Pieniądze","Karawany, warsztaty, cła","coin","--t-or"],
-  ["#kodeks-krolestwo","Królestwo","Lordowie, wpływy, bunty","crown","--t-purpure"]
+  ["#kodeks-krolestwo","Królestwo","Lordowie, wpływy, bunty","crown","--t-purpure"],
+  ["#rabusie","Banici i najemnicy","Bandyci z niewoli, karczma, frakcje pomniejsze","r_inf","--t-sable"]
 ];
 $("flags").innerHTML = FLAGS.map(([h,t,s,i,c])=>`<a class="flag-wrap" href="${h}"><div class="flag" style="--tc:var(${c})">${ico(i)}<h3>${t}</h3><span>${s}</span></div></a>`).join("");
 $("camp").innerHTML = MYCAMP.map(([t,b,s])=>`<div class="camp-item"><div><b>${esc(t)}</b><p>${esc(b)}</p><div class="src">Źródło: ${srcLink(s)}</div></div></div>`).join("") + `<p class="note">Na podstawie tego, co pisaliśmy w rozmowie 19.11.2026.</p>`;

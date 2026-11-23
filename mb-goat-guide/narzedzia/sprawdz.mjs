@@ -27,9 +27,21 @@ for (const m of sw.matchAll(/'\.\/([^']+)'/g)) {
 
 // 3. Dane: liczby i kształt wpisów.
 const ctx = vm.createContext({});
-vm.runInContext(['dane/jednostki.js', 'dane/drzewka.js', 'dane/kodeks.js', 'dane/zbrojownia.js', 'dane/biblia.js'].map(czytaj).join('\n')
-  + '\n;globalThis.__d = { RAW, TREES, TOPICS, KB, SRC, ARMORY, ARMORY_HOW };', ctx);
-const { RAW, TREES, TOPICS, KB, SRC, ARMORY, ARMORY_HOW } = ctx.__d;
+vm.runInContext(['dane/jednostki.js', 'dane/drzewka.js', 'dane/kodeks.js', 'dane/zbrojownia.js', 'dane/rabusie.js', 'dane/biblia.js'].map(czytaj).join('\n')
+  + '\n;globalThis.__d = { RAW, TREES, TOPICS, KB, SRC, ARMORY, ARMORY_HOW, RB, RB_GROUPS, RB_PATHS, RB_TIPS };', ctx);
+const { RAW, TREES, TOPICS, KB, SRC, ARMORY, ARMORY_HOW, RB, RB_GROUPS, RB_PATHS, RB_TIPS } = ctx.__d;
+const nazwy = new Set(RAW.map((r) => r[0]));
+for (const r of RB) {
+  if (r.length !== 12) bledy.push(`Banici: ${r[0]} ma ${r.length} pól zamiast 12`);
+  if (!RB_GROUPS[r[2]]) bledy.push(`Banici: ${r[0]} ma nieznaną grupę ${r[2]}`);
+  if (!['inf', 'rng', 'cav', 'ha'].includes(r[5])) bledy.push(`Banici: ${r[0]} ma nieznaną rolę ${r[5]}`);
+  if (r[6].length !== 8) bledy.push(`Banici: ${r[0]} ma ${r[6].length} umiejętności zamiast 8`);
+  if (!'SABCD'.includes(r[7])) bledy.push(`Banici: ${r[0]} ma ocenę ${r[7]}`);
+  if (!SRC[r[11]]) bledy.push(`Banici: ${r[0]} wskazuje nieznane źródło ${r[11]}`);
+}
+for (const g of Object.values(RB_GROUPS)) if (!SRC[g.howSrc]) bledy.push(`Banici: grupa ${g.n} ma nieznane źródło`);
+for (const p of RB_PATHS) { if (!nazwy.has(p[2])) bledy.push(`Banici: ścieżka prowadzi do ${p[2]}, a nie ma takiej jednostki w Wojskach`); if (!SRC[p[4]]) bledy.push(`Banici: ścieżka ${p[0]} ma nieznane źródło`); }
+for (const t of RB_TIPS) if (!SRC[t[2]]) bledy.push(`Banici: porada ${t[0]} ma nieznane źródło`);
 const KULTURY = ['emp', 'vla', 'stu', 'bat', 'ase', 'khu', 'nor', 'any'];
 for (const a of ARMORY) {
   for (const c of a.champ) if (!KULTURY.includes(c)) bledy.push(`Zbrojownia ${a.id}: nieznana kultura mistrza ${c}`);
@@ -65,4 +77,4 @@ if (bledy.length) {
   console.error(`Problemy (${bledy.length}):\n- ${bledy.join('\n- ')}`);
   process.exit(1);
 }
-console.log(`W porządku: ${skrypty.length} skryptów, ${RAW.length} jednostek, ${Object.keys(TREES).length} drzewek, ${KB.length} wpisów Biblii, ${TOPICS.length} działów Kodeksu, ${ARMORY.length} kategorii Zbrojowni.`);
+console.log(`W porządku: ${skrypty.length} skryptów, ${RAW.length} jednostek, ${Object.keys(TREES).length} drzewek, ${KB.length} wpisów Biblii, ${TOPICS.length} działów Kodeksu, ${ARMORY.length} kategorii Zbrojowni, ${RB.length} banitów i najemników.`);

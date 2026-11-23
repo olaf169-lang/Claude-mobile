@@ -14,6 +14,13 @@ const toks = s => fold(s).split(/[^a-z0-9]+/).filter(w => w.length>2 && !STOP.ha
 const DOCS = [];
 KB.forEach(([id,t,k,x,s,v]) => DOCS.push({id, t, k, x, s, v}));
 TOPICS.forEach(tp => tp.levels.forEach((lv,li) => lv.forEach((tip,i) => DOCS.push({id:`kodeks-${tp.id}-${li}-${i}`, t:`${tip[0]} (Kodeks: ${tp.name}, ${LEVELS[li]?.n||""})`, k:tp.name+" "+tp.sub, x:tip[1], s:[tip[2]], v:tip[3]}))));
+if(typeof RB!=="undefined"){
+  const GN = {ban:"bandyci", mer:"najemnicy z karczmy", min:"frakcja pomniejsza"};
+  RB.forEach(r => DOCS.push({id:"rabusie-"+r[0].toLowerCase().replace(/[^a-z]+/g,"-"), t:`Banici i najemnicy: ${r[0]} (${r[1]})`, k:`${GN[r[2]]} ${r[3]} bandyta najemnik jeniec rekrutacja ocena`,
+    x:`${r[0]} (${r[1]}), ${GN[r[2]]}, ${r[3]}, tier ${r[4]??"bd"}, rola ${ROLE[r[5]]}, ocena aplikacji ${r[7]}. Umiejętności: ${SK.map((s,i)=>s+" "+r[6][i]).join(", ")}. Żołd: ${r[8]??"bd"}. Awans: ${r[9]}. ${r[10]}`, s:[r[11],"rb_stats"], v:"różne wersje gry"}));
+  Object.entries(RB_GROUPS).forEach(([k,G]) => DOCS.push({id:"rabusie-jak-"+k, t:"Banici i najemnicy: jak zdobyć, "+G.n, k:"jak zdobyć zwerbować jeńcy karczma "+G.n, x:G.how, s:[G.howSrc], v:"różne wersje gry"}));
+  DOCS.push({id:"rabusie-sciezki", t:"Banici i najemnicy: od bandyty do elity", k:"awans bandytów elita fian rycerz druzhinnik kheshig faris disciplinarian", x:RB_PATHS.map(p=>`${p[0]}${p[1]?" > "+p[1]:""} > ${p[2]}: ${p[3]}`).join("\n")+"\n"+RB_TIPS.map(t=>t[0]+": "+t[1]).join("\n"), s:RB_PATHS.map(p=>p[4]).concat(RB_TIPS.map(t=>t[2])), v:"różne wersje gry"});
+}
 if(typeof ARMORY!=="undefined"){
   ARMORY.forEach(a => DOCS.push({id:"zbrojownia-"+a.id, t:"Zbrojownia: "+a.n, k:"najlepszy sprzęt ekwipunek gdzie kupić kultura "+a.n+" "+a.items.map(i=>i[0]).join(" "),
     x:a.why+"\n"+a.items.map(([en,pl,c,t,v,ex,note],k)=>`${k+1}. ${en} (${pl}), ${c==="any"?"bez kultury":CULT[c].n}${t?", tier "+t:""}, ${a.stat}: ${v??"bd"}${ex?"; "+ex:""}${note?". "+note:""}`).join("\n")+(a.tip?"\nRada: "+a.tip:""),

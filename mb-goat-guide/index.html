@@ -58,7 +58,7 @@
 <!-- WOJSKA -->
 <section class="view" id="v-wojska" aria-label="Wojska">
   <div class="sec" style="margin-top:18px">
-    <div class="zb-wlink"><h2 class="sec-h">Wojska</h2><a class="chip" href="#zbrojownia">Zbrojownia: najlepszy sprzęt</a></div>
+    <div class="zb-wlink"><h2 class="sec-h">Wojska</h2><div class="zb-wchips"><a class="chip" href="#zbrojownia">Zbrojownia: najlepszy sprzęt</a><a class="chip" href="#rabusie">Banici i najemnicy</a></div></div>
     <p class="note">Wszystkie jednostki z tierów 3, 4, 5 i 6, także Nordowie i oddziały morskie. Polska nazwa, pod nią angielska z gry. Każdy żołnierz ma 100 punktów życia, więc o przeżywalności decyduje pancerz.</p>
   </div>
   <div class="sec" style="margin-top:14px">
@@ -106,6 +106,32 @@
   <div class="sec">
     <h3 class="zb-h3">Jak zdobyć najlepszy sprzęt</h3>
     <div class="panel zb-how" id="zb-how"></div>
+  </div>
+</section>
+
+<section class="view" id="v-rabusie" aria-label="Banici i najemnicy">
+  <div class="sec" style="margin-top:18px">
+    <h2 class="sec-h">Banici i najemnicy</h2>
+    <p class="note">Wojsko spoza drzewek królestw: bandyci z niewoli, najemnicy z karczmy i elity frakcji pomniejszych. Ocena S do D to ocena aplikacji z umiejętności, tieru i opinii graczy. Umiejętności z tabel GamerGuides.</p>
+  </div>
+  <div class="sec" style="margin-top:14px">
+    <h3 class="zb-h3">Najlepsze do wzięcia</h3>
+    <div class="panel rb-top" id="rb-top"></div>
+  </div>
+  <div class="sec">
+    <h3 class="zb-h3">Od bandyty do elity</h3>
+    <p class="note" style="margin-top:0">Bandyci awansują na zwykłe jednostki królestw, także szlacheckie. Stuknij cel, żeby zobaczyć jego kartę.</p>
+    <div class="panel rb-paths" id="rb-paths"></div>
+  </div>
+  <div class="sec">
+    <h3 class="zb-h3">Wszyscy</h3>
+    <div class="row" id="rb-f" role="group" aria-label="Pokaż grupę"></div>
+    <p class="rb-count" id="rb-count" aria-live="polite"></p>
+    <div id="rb-list" class="rb-list"></div>
+  </div>
+  <div class="sec">
+    <h3 class="zb-h3">Jak ich zdobyć</h3>
+    <div class="panel zb-how" id="rb-how"></div>
   </div>
 </section>
 
@@ -203,8 +229,10 @@
 <script src="dane/drzewka.js"></script>
 <script src="dane/kodeks.js"></script>
 <script src="dane/zbrojownia.js"></script>
+<script src="dane/rabusie.js"></script>
 <script src="js/app.js"></script>
 <script src="js/zbrojownia.js"></script>
+<script src="js/rabusie.js"></script>
 <script src="js/doradca.js"></script>
 <script src="dane/biblia.js"></script>
 <script src="js/czat.js"></script>

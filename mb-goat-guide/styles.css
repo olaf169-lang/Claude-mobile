@@ -475,3 +475,34 @@ div.zb-cult ul{margin:0; padding-left:18px; font-size:15px} div.zb-cult li{margi
 .zb-card .src{margin-top:10px}
 .zfit{width:auto !important; padding:0 12px; font-weight:800; font-size:14px}
 div.zb-cult[hidden]{display:none}
+/* ---------- BANICI I NAJEMNICY ---------- */
+.zb-wchips{display:flex; gap:6px; flex-wrap:wrap}
+.flags .flag-wrap:last-child:nth-child(odd){grid-column:1/-1}
+.rb-count{font-size:15px; color:var(--muted); margin:8px 2px 6px}
+.rb-list{display:grid; gap:10px}
+.rb-card{display:grid; grid-template-columns:34px minmax(0,1fr); gap:12px; background:var(--surface); border:1px solid var(--line); border-left:4px solid var(--gc); border-radius:14px; padding:12px 14px; box-shadow:var(--shadow)}
+.rb-main b{display:block; font-size:16.5px; line-height:1.2}
+.rb-main > small{display:block; color:var(--muted); font-size:14px}
+.rb-fac{font-weight:700; color:var(--ink)}
+.rb-role{display:inline-flex; align-items:center; gap:2px}
+.rb-role .ri{width:22px; height:22px; margin-right:4px}
+.rb-role .ri svg{width:14px; height:14px}
+.rb-sk{display:flex; flex-wrap:wrap; gap:5px; margin-top:7px; font-size:13.5px}
+.rb-up{margin:7px 0 0; font-size:14.5px}
+.rb-up > span:first-child{color:var(--muted)}
+.rb-w{color:var(--muted); white-space:nowrap}
+.rb-note{margin:5px 0 0; font-size:14px; font-style:italic; color:var(--muted)}
+.rb-go{border:0; background:none; padding:0; font:inherit; font-weight:700; color:var(--azure); text-decoration:underline; text-underline-offset:3px; cursor:pointer; text-align:left}
+.rb-top{display:grid; gap:10px}
+.rb-pick{display:grid; grid-template-columns:34px 1fr; gap:12px; align-items:start}
+.rb-pick + .rb-pick{border-top:1px solid var(--line); padding-top:10px}
+.rb-pick small{color:var(--muted)}
+.rb-pick p{margin:3px 0 0; font-size:15px}
+.rb-paths{display:grid; gap:12px}
+.rb-path + .rb-path{border-top:1px solid var(--line); padding-top:12px}
+.rb-chain{display:flex; flex-wrap:wrap; align-items:center; gap:4px 6px; font-size:15.5px}
+.rb-from{font-weight:800}
+.rb-arr svg{width:16px; height:16px; color:var(--or); vertical-align:middle}
+.rb-path p{margin:4px 0 0; font-size:14.5px; color:var(--muted)}
+.rb-path .src{display:inline}
+#rb-how .camp-item::before{background:var(--gc, var(--gules))}
