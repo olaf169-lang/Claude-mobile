@@ -13,7 +13,8 @@ i bez sklepu, a po pierwszym otwarciu także bez internetu.
 | **Start** | sztandary do wszystkich działów i karta Twojej kampanii |
 | **Kodeks** | 8 tematów, każdy na 4 poziomach (Giermek, Rycerz, Baron, Mistrz), ze źródłami |
 | **Wojska** | 123 jednostki z nazwami PL i EN, oceny S do D, pancerz, umiejętności, porównywarka |
-| **Drzewka** | ścieżki awansów 7 kultur z góry na dół, z ikoną roli przy każdej jednostce |
+| **Drzewka** | ścieżki awansów 7 kultur z góry na dół, z ikoną roli przy każdej jednostce; start z dalekiego widoku, przycisk „Całe” |
+| **Zbrojownia** | najlepszy sprzęt w 13 kategoriach, tablica mistrzów kultur, skąd go brać, ze źródłami |
 | **Narzędzia** | żołd, jedzenie, limit drużyny, lojalność miasta |
 | **Doradca bitwy** | szturm, obrona miasta, bitwa w polu: szansa z przedziałem niepewności, co da największy skok, plan |
 | **Czat** | pytania do Claude'a oparte na Biblii Bannerlorda (wzory, mechaniki, strategie graczy), tryb Mastermind |
@@ -48,9 +49,11 @@ mb-goat-guide/
 │   ├── jednostki.js      123 jednostki
 │   ├── drzewka.js        drzewka awansów
 │   ├── kodeks.js         źródła, poziomy, porady Kodeksu, karta kampanii
+│   ├── zbrojownia.js     najlepszy sprzęt: kategorie, przedmioty, kto wygrywa
 │   └── biblia.js         baza wiedzy dla czatu
 ├── js/
 │   ├── app.js            widoki, nawigacja, Kodeks, Wojska, Drzewka, Narzędzia
+│   ├── zbrojownia.js     widok Zbrojowni
 │   ├── doradca.js        model bitwy i Doradca
 │   ├── czat.js           czat (claude.ai albo klucz API)
 │   └── start.js          uruchomienie i rejestracja service workera

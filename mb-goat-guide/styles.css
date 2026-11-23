@@ -415,3 +415,63 @@ body.chat-open .ask-fab{display:none}
 .iconbtn[hidden]{display:none}
 .prov-seg{display:flex; margin:0 0 8px}
 .prov-seg button{flex:1}
+/* ---------- ZBROJOWNIA ---------- */
+.zb-h3{font-size:18px; margin-bottom:8px}
+.zb-wlink{display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap}
+.zb-wlink .chip{text-decoration:none; color:var(--ink)}
+.zb-install{margin:22px 2px 0; font-size:15px}
+.zb-mx{padding:10px 10px 6px}
+.zb-line{display:grid; grid-template-columns:minmax(0,1fr) repeat(7, 26px); gap:2px; align-items:center; width:100%}
+.zb-head{position:sticky; top:61px; z-index:2; background:var(--surface); padding:4px 0 6px; border-bottom:1px solid var(--line)}
+.zb-row{border:0; background:none; font:inherit; color:inherit; text-align:left; padding:5px 0; border-bottom:1px dashed color-mix(in srgb, var(--line) 70%, transparent); cursor:pointer}
+.zb-row:last-child{border-bottom:0}
+.zb-row:active{background:var(--sunk)}
+.zb-rl{display:flex; align-items:center; gap:7px; min-width:0}
+.zb-rl svg{width:19px; height:19px; flex:0 0 auto; color:var(--muted)}
+.zb-rl b{font-size:14.5px; line-height:1.15; font-weight:700; overflow:hidden; text-overflow:ellipsis}
+.zb-grp{font-family:var(--display); font-weight:800; font-size:17px; color:var(--muted); padding:9px 0 1px}
+.zb-cell{display:inline-block; width:20px; height:24px; justify-self:center; clip-path:polygon(0 0,100% 0,100% 60%,50% 100%,0 60%); background:color-mix(in srgb, var(--line) 55%, transparent); vertical-align:middle}
+.zb-cell.has{background:color-mix(in srgb, var(--cc) 32%, transparent)}
+.zb-cell.ch{background:linear-gradient(var(--cc),var(--cc)) padding-box; position:relative; box-shadow:inset 0 3px 0 #E7B94C}
+.zb-cc{border:0; background:none; padding:0; display:flex; flex-direction:column; align-items:center; gap:2px; cursor:pointer; color:var(--ink); font:inherit}
+.zb-cc small{font-size:11px; font-weight:800; letter-spacing:.2px}
+.zb-cc[aria-pressed="true"] small{text-decoration:underline; text-underline-offset:3px}
+.zb-legend{font-size:13.5px; color:var(--muted); margin:8px 2px 0; line-height:1.6}
+.zb-legend .zb-cell{width:14px; height:17px; margin:0 2px 0 6px}
+.zb-legend .zb-cell:first-child{margin-left:0}
+.zb-cult{display:inline-flex; align-items:center; gap:5px; font-weight:700}
+.zb-cult i{width:10px; height:12px; background:var(--cc); clip-path:polygon(0 0,100% 0,100% 60%,50% 100%,0 60%); flex:0 0 auto}
+div.zb-cult{display:block; margin-top:12px; background:var(--surface); border:1px solid var(--line); border-left:5px solid var(--cc); border-radius:14px; padding:12px 14px; box-shadow:var(--shadow)}
+div.zb-cult > b{font-family:var(--display); font-size:24px; font-weight:800; color:var(--cc)}
+div.zb-cult p{margin:4px 0 6px}
+div.zb-cult ul{margin:0; padding-left:18px; font-size:15px} div.zb-cult li{margin:2px 0} div.zb-cult li span{color:var(--muted)}
+.zb-card{scroll-margin-top:72px}
+.zb-card.flash .panel{animation:zbflash 1.2s ease}
+@keyframes zbflash{0%{box-shadow:0 0 0 3px var(--or)}100%{box-shadow:var(--shadow)}}
+@media (prefers-reduced-motion: reduce){ .zb-card.flash .panel{animation:none} }
+.zb-ch{display:flex; gap:12px; align-items:center}
+.zb-ch .pennant{flex:0 0 auto}
+.zb-ch h3{font-family:var(--display); font-weight:800; font-size:26px; line-height:1}
+.zb-champ{display:flex; flex-wrap:wrap; gap:4px 10px; margin-top:5px; font-size:14px; color:var(--muted); align-items:center}
+.zb-champ .zb-cult{color:var(--ink)}
+.zb-why{margin:12px 0 4px}
+.zb-stat{margin:0 0 6px; font-size:13.5px; color:var(--muted)}
+.zb-list{list-style:none; margin:0; padding:0}
+.zb-it{display:grid; grid-template-columns:22px minmax(0,1fr) 64px; gap:10px; padding:11px 0; border-top:1px solid var(--line); align-items:start}
+.zb-it.top{background:linear-gradient(90deg, color-mix(in srgb, #E7B94C 16%, transparent), transparent 70%); margin:0 -16px; padding:11px 16px; border-left:4px solid #E7B94C}
+.zb-rk{font-family:var(--display); font-weight:800; font-size:24px; line-height:1; color:var(--muted)}
+.zb-it.top .zb-rk{color:var(--or)}
+.zb-body b{display:block; font-size:16px; line-height:1.2}
+.zb-body small{display:block; color:var(--muted); font-size:14px}
+.zb-meta{display:flex; flex-wrap:wrap; gap:4px 10px; align-items:center; margin-top:5px; font-size:13.5px; color:var(--muted)}
+.zb-meta .zb-cult{color:var(--ink)}
+.zb-body p{margin:5px 0 0; font-size:14px; font-style:italic; color:var(--muted)}
+.zb-val{text-align:right}
+.zb-val strong{font-family:var(--display); font-size:30px; line-height:.95; font-weight:800; font-variant-numeric:tabular-nums}
+.zb-val.na strong{font-family:var(--body); font-size:15px; color:var(--muted); font-weight:700}
+.zb-bar{display:block; height:6px; border-radius:3px; background:var(--sunk); margin-top:5px; overflow:hidden}
+.zb-bar i{display:block; height:100%; background:var(--cc); border-radius:3px}
+.zb-tip{margin-top:12px; background:var(--sunk); border-radius:12px; padding:10px 12px; font-size:15px}
+.zb-card .src{margin-top:10px}
+.zfit{width:auto !important; padding:0 12px; font-weight:800; font-size:14px}
+div.zb-cult[hidden]{display:none}

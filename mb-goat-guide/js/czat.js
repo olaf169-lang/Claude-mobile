@@ -14,6 +14,12 @@ const toks = s => fold(s).split(/[^a-z0-9]+/).filter(w => w.length>2 && !STOP.ha
 const DOCS = [];
 KB.forEach(([id,t,k,x,s,v]) => DOCS.push({id, t, k, x, s, v}));
 TOPICS.forEach(tp => tp.levels.forEach((lv,li) => lv.forEach((tip,i) => DOCS.push({id:`kodeks-${tp.id}-${li}-${i}`, t:`${tip[0]} (Kodeks: ${tp.name}, ${LEVELS[li]?.n||""})`, k:tp.name+" "+tp.sub, x:tip[1], s:[tip[2]], v:tip[3]}))));
+if(typeof ARMORY!=="undefined"){
+  ARMORY.forEach(a => DOCS.push({id:"zbrojownia-"+a.id, t:"Zbrojownia: "+a.n, k:"najlepszy sprzęt ekwipunek gdzie kupić kultura "+a.n+" "+a.items.map(i=>i[0]).join(" "),
+    x:a.why+"\n"+a.items.map(([en,pl,c,t,v,ex,note],k)=>`${k+1}. ${en} (${pl}), ${c==="any"?"bez kultury":CULT[c].n}${t?", tier "+t:""}, ${a.stat}: ${v??"bd"}${ex?"; "+ex:""}${note?". "+note:""}`).join("\n")+(a.tip?"\nRada: "+a.tip:""),
+    s:[...new Set([...a.items.map(i=>i[7]), a.tipSrc].filter(Boolean))], v:"różne wersje gry"}));
+  DOCS.push({id:"zbrojownia-jak", t:"Zbrojownia: jak zdobyć najlepszy sprzęt", k:"sklep tier 6 zdobyć kupić warsztat żona turniej kuźnia", x:ARMORY_HOW.map(h=>h[0]+": "+h[1]).join("\n"), s:ARMORY_HOW.map(h=>h[2]), v:"różne wersje gry"});
+}
 MYCAMP.forEach((c,i) => DOCS.push({id:"kampania-"+i, t:"Twoja kampania: "+c[0], k:"bakalland ortyzja taraktor kampania moje", x:c[1], s:[c[2]], v:"kampania"}));
 DOCS.forEach(d => { d._t = fold(d.t); d._k = fold(d.k); d._x = fold(d.x); });
 function kbSearch(q, limit=5){

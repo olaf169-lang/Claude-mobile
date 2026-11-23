@@ -222,3 +222,27 @@ Object.assign(SRC, {
  ration:["Steam: głód i racjonowanie w garnizonie","https://steamcommunity.com/app/261550/discussions/0/4509877188784177798"],
  ladderkill:["Steam: obrona przed szturmem","https://steamcommunity.com/workshop/filedetails/discussion/3496296180/595155000272057922"]
 });
+
+// Źródła Zbrojowni (najlepszy sprzęt). Daty przy nazwach, bo liczby różnią się między wersjami gry.
+Object.assign(SRC, {
+  zb_blox_r:["Bloxodes: broń dystansowa (XI 2026)","https://bloxodes.com/wiki/bannerlord/ranged-weapons"],
+  zb_blox_m:["Bloxodes: wierzchowce (XI 2026)","https://bloxodes.com/wiki/bannerlord/mounts"],
+  zb_blox_w:["Bloxodes: broń biała (XI 2026)","https://bloxodes.com/wiki/bannerlord/melee-weapons"],
+  zb_nl_arm:["Nerd Lodge: najlepsze zbroje (2022)","https://nerdlodge.com/bannerlord-best-armor"],
+  zb_nl_horse:["Nerd Lodge: konie i zbroje koni (2022)","https://nerdlodge.com/best-horses-and-horse-armor-in-bannerlord"],
+  zb_nl_wpn:["Nerd Lodge: najlepsza broń","https://nerdlodge.com/best-weapons-in-bannerlord"],
+  zb_fx:["Fextralife Wiki: zbroje","https://mountandblade2bannerlord.wiki.fextralife.com/Armor"],
+  zb_ge_arm:["GamerEmpire: najlepsza zbroja","https://gamerempire.net/mount-blade-2-bannerlord-what-is-the-best-armor/"],
+  zb_ge_wpn:["GamerEmpire: najlepsza broń","https://gamerempire.net/mount-blade-2-bannerlord-what-are-the-best-weapons/"],
+  zb_ge_horse:["GamerEmpire: najlepszy koń","https://gamerempire.net/mount-blade-2-bannerlord-what-is-the-best-horse/"],
+  zb_gd_arm:["GamersDecide: najlepsze zbroje (2024)","https://gamersdecide.com/articles/mnb-bannerlord-best-armor"],
+  zb_gd_arrow:["GamersDecide: najlepsze strzały","https://gamersdecide.com/articles/mount-and-blade-2-bannerlord-best-arrows"],
+  zb_st_imp:["Steam: cesarskie rękawice i buty (2020)","https://steamcommunity.com/app/261550/discussions/0/2264689848043791206"],
+  zb_st_shops:["Steam: sklepy a warsztaty w mieście","https://steamcommunity.com/app/261550/discussions/0/2264689848031111438"],
+  zb_st_wife:["Steam: skąd brać sprzęt lordów","https://steamcommunity.com/app/261550/discussions/0/2144217924395373539"],
+  zb_st_late:["Steam: kiedy w sklepach pojawia się tier 6","https://steamcommunity.com/app/261550/discussions/0/4233889679078844524"],
+  zb_st_noble:["Steam: koń szlachecki a awans żołnierzy","https://steamcommunity.com/app/261550/discussions/0/604149013211534906"],
+  zb_st_askar:["Steam: Askar i konie bojowe","https://steamcommunity.com/app/261550/discussions/0/3482997257350459038"],
+  zb_st_glaive:["Steam: Long Glaive według graczy","https://steamcommunity.com/app/261550/discussions/0/2264690481983399323"],
+  zb_st_armorguide:["Steam: poradnik wydawania na zbroje (2022)","https://steamcommunity.com/app/261550/discussions/0/3192490350133598944"]
+});

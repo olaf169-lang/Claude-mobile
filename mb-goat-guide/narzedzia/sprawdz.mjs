@@ -27,9 +27,20 @@ for (const m of sw.matchAll(/'\.\/([^']+)'/g)) {
 
 // 3. Dane: liczby i kształt wpisów.
 const ctx = vm.createContext({});
-vm.runInContext(['dane/jednostki.js', 'dane/drzewka.js', 'dane/kodeks.js', 'dane/biblia.js'].map(czytaj).join('\n')
-  + '\n;globalThis.__d = { RAW, TREES, TOPICS, KB, SRC };', ctx);
-const { RAW, TREES, TOPICS, KB, SRC } = ctx.__d;
+vm.runInContext(['dane/jednostki.js', 'dane/drzewka.js', 'dane/kodeks.js', 'dane/zbrojownia.js', 'dane/biblia.js'].map(czytaj).join('\n')
+  + '\n;globalThis.__d = { RAW, TREES, TOPICS, KB, SRC, ARMORY, ARMORY_HOW };', ctx);
+const { RAW, TREES, TOPICS, KB, SRC, ARMORY, ARMORY_HOW } = ctx.__d;
+const KULTURY = ['emp', 'vla', 'stu', 'bat', 'ase', 'khu', 'nor', 'any'];
+for (const a of ARMORY) {
+  for (const c of a.champ) if (!KULTURY.includes(c)) bledy.push(`Zbrojownia ${a.id}: nieznana kultura mistrza ${c}`);
+  if (a.tipSrc && !SRC[a.tipSrc]) bledy.push(`Zbrojownia ${a.id}: nieznane źródło rady ${a.tipSrc}`);
+  for (const i of a.items) {
+    if (i.length !== 8) bledy.push(`Zbrojownia ${a.id}: przedmiot ${i[0]} ma ${i.length} pól zamiast 8`);
+    if (!KULTURY.includes(i[2])) bledy.push(`Zbrojownia ${a.id}: ${i[0]} ma nieznaną kulturę ${i[2]}`);
+    if (!SRC[i[7]]) bledy.push(`Zbrojownia ${a.id}: ${i[0]} wskazuje nieznane źródło ${i[7]}`);
+  }
+}
+for (const h of ARMORY_HOW) if (!SRC[h[2]]) bledy.push(`Zbrojownia, jak zdobyć: nieznane źródło ${h[2]}`);
 if (RAW.length < 100) bledy.push(`Za mało jednostek: ${RAW.length}`);
 if (Object.keys(TREES).length < 7) bledy.push(`Za mało drzewek: ${Object.keys(TREES).length}`);
 const ids = new Set();
@@ -54,4 +65,4 @@ if (bledy.length) {
   console.error(`Problemy (${bledy.length}):\n- ${bledy.join('\n- ')}`);
   process.exit(1);
 }
-console.log(`W porządku: ${skrypty.length} skryptów, ${RAW.length} jednostek, ${Object.keys(TREES).length} drzewek, ${KB.length} wpisów Biblii, ${TOPICS.length} działów Kodeksu.`);
+console.log(`W porządku: ${skrypty.length} skryptów, ${RAW.length} jednostek, ${Object.keys(TREES).length} drzewek, ${KB.length} wpisów Biblii, ${TOPICS.length} działów Kodeksu, ${ARMORY.length} kategorii Zbrojowni.`);

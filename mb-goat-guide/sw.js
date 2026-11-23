@@ -5,11 +5,11 @@
    Zapytania czatu do api.anthropic.com idą zawsze prosto do sieci.
    Przy każdej zmianie plików podbij numer w POLKA. */
 
-const POLKA = 'mb-goat-guide-v2';
+const POLKA = 'mb-goat-guide-v3';
 const SZKIELET = [
   './', './index.html', './styles.css', './manifest.webmanifest',
-  './dane/jednostki.js', './dane/drzewka.js', './dane/kodeks.js', './dane/biblia.js',
-  './js/app.js', './js/doradca.js', './js/czat.js', './js/start.js',
+  './dane/jednostki.js', './dane/drzewka.js', './dane/kodeks.js', './dane/zbrojownia.js', './dane/biblia.js',
+  './js/app.js', './js/zbrojownia.js', './js/doradca.js', './js/czat.js', './js/start.js',
   './icons/favicon.svg', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png',
 ];
 const CZCIONKI = ['fonts.googleapis.com', 'fonts.gstatic.com'];

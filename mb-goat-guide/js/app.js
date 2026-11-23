@@ -20,6 +20,14 @@ const WAGE = {1:2,2:3,3:5,4:8,5:12,6:17};
 const ROMAN = ["I","II","III","IV"];
 
 const IC = {
+  cuirass:'<path d="M8 3h8l3.5 3v4.5L17 12v9H7v-9l-2.5-1.5V6z"/><path d="M12 3v5M9 15h6M9 18h6"/>',
+  gauntlet:'<path d="M7 21v-5l-2.2-4.5a1.6 1.6 0 0 1 2.8-1.5L9 12V5a1.5 1.5 0 0 1 3 0v6V4a1.5 1.5 0 0 1 3 0v7V6a1.5 1.5 0 0 1 3 0v8.5c0 2-1 3.5-2 4.5v2z"/>',
+  boot:'<path d="M8 3h6v9.5l5.2 2.6A3.3 3.3 0 0 1 21 18v3H5v-6.5L8 12z"/><path d="M8 7h6M5 18h16"/>',
+  horse:'<path d="M4 21h11"/><path d="M5.5 21v-1.6c0-1.9 1.1-3.3 2.6-4.5L4.8 13.6c-.8-.4-1-1.4-.4-2l3.4-4.2.3-3.4 2 2.1c3 .5 4.6 3 4.6 6.4V21"/><path d="M8.2 9h.01"/><path d="M14.6 12.5c2.5.5 4.4 2.8 4.4 5.5V21"/>',
+  sword:'<path d="M20 4v3.5L10 17.5 6.5 14 16.5 4z"/><path d="M5 12.5l6.5 6.5M7.5 16.5 4 20"/>',
+  crossbow:'<path d="M12 5v16M4 9c4.5-3.5 11.5-3.5 16 0"/><path d="M4 9l8 4 8-4"/><path d="M12 3v2M11 18h3"/>',
+  arrows:'<path d="M4 20 18 6M14 5h5v5"/><path d="M4 20l-1-3M4 20l3 1"/><path d="M9 20 20 9"/>',
+  javelin:'<path d="M3 21 16 8"/><path d="M16 8l1.2-4.6L21 2.8l-1.6 3.8z"/><path d="M5.5 16.5l2 2"/>',
   keep:'<path d="M3 21V4h1.7v1.8h1.6V4H8v5h2v1.8h1.2V9h1.6v1.8H14V9h2V4h1.7v1.8h1.6V4H21v17z"/><path d="M10 21v-3.5a2 2 0 0 1 4 0V21"/><path d="M5.5 9v2.5M18.5 9v2.5"/>',
   ghelm:'<path d="M5.5 7.5C5.5 5 8.4 3.5 12 3.5s6.5 1.5 6.5 4V16c0 2-1.5 3.6-3.5 4.5H9C7 19.6 5.5 18 5.5 16z"/><path d="M5.5 10.5h13M12 3.5v17"/><path d="M8.5 14v2.5M15.5 14v2.5"/>',
   r_inf:'<path d="M3 6.5 8.5 4.5 14 6.5v4.8c0 3.8-2.4 6.6-5.5 7.9C5.4 17.9 3 15.1 3 11.3z"/><path d="M19 2.5v13M16.5 15.5h5M19 15.5V20M18 21h2"/>',
@@ -73,7 +81,7 @@ $("theme").addEventListener("click",()=>{ const dark = document.documentElement.
 /* ---------- nawigacja ---------- */
 const NAV = [["start","Start","keep"],["kodeks","Kodeks","book"],["wojska","Wojska","ghelm"],["drzewka","Drzewka","tree"],["narzedzia","Narzędzia","tools"]];
 $("nav").innerHTML = NAV.map(([k,l,i])=>`<a href="#${k}" data-k="${k}">${ico(i)}<span>${l}</span></a>`).join("");
-const TITLES = {doradca:"Doradca bitwy", start:"M&B Goat Guide", kodeks:"Kodeks", topic:"Kodeks", wojska:"Wojska", drzewka:"Drzewka", narzedzia:"Narzędzia", instalacja:"Instalacja"};
+const TITLES = {zbrojownia:"Zbrojownia", doradca:"Doradca bitwy", start:"M&B Goat Guide", kodeks:"Kodeks", topic:"Kodeks", wojska:"Wojska", drzewka:"Drzewka", narzedzia:"Narzędzia", instalacja:"Instalacja"};
 
 function route(){
   const h = (location.hash||"#start").slice(1) || "start";
@@ -82,7 +90,7 @@ function route(){
   else if(h.startsWith("drzewka-")){ view="drzewka"; arg=h.slice(8); }
   if(!$("v-"+view)) view="start";
   document.querySelectorAll(".view").forEach(v=>v.classList.toggle("on", v.id==="v-"+view));
-  const navKey = view==="topic" ? "kodeks" : view==="doradca" ? "narzedzia" : view;
+  const navKey = view==="topic" ? "kodeks" : view==="doradca" ? "narzedzia" : view==="zbrojownia" ? "wojska" : view;
   document.querySelectorAll("#nav a").forEach(a=>{ if(a.dataset.k===navKey) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); });
   $("bar-title").textContent = TITLES[view];
   if(view==="topic") renderTopic(arg);
@@ -102,11 +110,11 @@ const FLAGS = [
   ["#doradca","Doradca bitwy","Szturm, obrona, bitwa w polu","tower","--t-gules"],
   ["#kodeks","Kodeks","Porady od podstaw po mechanikę","book","--t-azure"],
   ["#wojska","Wojska","Karty, oceny, porównywarka","ghelm","--t-teal"],
+  ["#zbrojownia","Zbrojownia","Najlepszy sprzęt i kto go robi","sword","--t-brown"],
   ["#drzewka","Drzewka","Ścieżki awansów 7 kultur","tree","--t-vert"],
   ["#narzedzia","Narzędzia","Żołd, jedzenie, lojalność","tools","--t-sable"],
   ["#kodeks-pieniadze","Pieniądze","Karawany, warsztaty, cła","coin","--t-or"],
-  ["#kodeks-krolestwo","Królestwo","Lordowie, wpływy, bunty","crown","--t-purpure"],
-  ["#instalacja","Na telefon","Ikona na ekranie głównym","phone","--t-brown"]
+  ["#kodeks-krolestwo","Królestwo","Lordowie, wpływy, bunty","crown","--t-purpure"]
 ];
 $("flags").innerHTML = FLAGS.map(([h,t,s,i,c])=>`<a class="flag-wrap" href="${h}"><div class="flag" style="--tc:var(${c})">${ico(i)}<h3>${t}</h3><span>${s}</span></div></a>`).join("");
 $("camp").innerHTML = MYCAMP.map(([t,b,s])=>`<div class="camp-item"><div><b>${esc(t)}</b><p>${esc(b)}</p><div class="src">Źródło: ${srcLink(s)}</div></div></div>`).join("") + `<p class="note">Na podstawie tego, co pisaliśmy w rozmowie 19.11.2026.</p>`;
@@ -246,7 +254,7 @@ sheet.addEventListener("click",e=>{ if(e.target===sheet) closeSheet(); });
 document.addEventListener("keydown",e=>{ if(e.key==="Escape"&&sheet.classList.contains("on")) closeSheet(); });
 
 /* ---------- DRZEWKA ---------- */
-let treeCult=store.get("treeCult","emp"), treeMode="graph", treeZoom=store.get("treeZoom",0.85), treeHL=null;
+let treeCult=store.get("treeCult","emp"), treeMode="graph", treeZoom=store.get("treeZoom2",0.5), treeHL=null;
 const info = n => { const u=UBY[n]; if(u) return {pl:u.pl,t:u.t,r:u.r,ws:u.ws,g:u.g,u}; const l=LOWER[n]; return {pl:l[0],t:l[1],r:l[2],ws:n.startsWith("Nord "),g:null,u:null}; };
 function chipsTree(){
   $("t-cult").innerHTML=Object.entries(CULT).map(([k,v])=>`<button class="chip" type="button" data-c="${k}" aria-pressed="${k===treeCult}"><span class="dot" style="background:${v.c}"></span>${v.n}</button>`).join("");
@@ -291,8 +299,9 @@ function showTree(c){
   setTimeout(()=>{ const el=cv.querySelector(".tnode.hl") || cv.querySelector(".tnode"); const box=$("tree-box"); if(el&&box){ box.scrollTo({left:Math.max(0,(el.offsetLeft+NW/2)*treeZoom - box.clientWidth/2), top:treeHL?Math.max(0,el.offsetTop*treeZoom - box.clientHeight/2 + 40):0, behavior:treeHL?"smooth":"auto"}); } },60);
 }
 function applyZoom(){ const cv=$("tree-canvas"); cv.style.transform=`scale(${treeZoom})`; $("tree-sizer").style.width=(+cv.dataset.w*treeZoom)+"px"; $("tree-sizer").style.height=(+cv.dataset.h*treeZoom)+"px"; }
-$("z-in").addEventListener("click",()=>{ treeZoom=Math.min(1.6,+(treeZoom+0.15).toFixed(2)); store.set("treeZoom",treeZoom); applyZoom(); });
-$("z-out").addEventListener("click",()=>{ treeZoom=Math.max(0.45,+(treeZoom-0.15).toFixed(2)); store.set("treeZoom",treeZoom); applyZoom(); });
+$("z-in").addEventListener("click",()=>{ treeZoom=Math.min(1.6,+(treeZoom+0.1).toFixed(2)); store.set("treeZoom2",treeZoom); applyZoom(); });
+$("z-out").addEventListener("click",()=>{ treeZoom=Math.max(0.2,+(treeZoom-0.1).toFixed(2)); store.set("treeZoom2",treeZoom); applyZoom(); });
+$("z-fit").addEventListener("click",()=>{ const box=$("tree-box"), cv=$("tree-canvas"); treeZoom=Math.max(0.2,Math.min(1.6,+((box.clientWidth-8)/+cv.dataset.w).toFixed(2))); store.set("treeZoom2",treeZoom); applyZoom(); box.scrollTo({left:0, top:0}); });
 function setMode(m){ treeMode=m; $("m-graph").setAttribute("aria-pressed",m==="graph"); $("m-list").setAttribute("aria-pressed",m==="list"); $("tree-box").hidden=m!=="graph"; $("zoomctl").style.visibility=m==="graph"?"visible":"hidden"; $("olist").hidden=m!=="list"; }
 $("tree-legend").innerHTML=$("tree-legend").innerHTML.replace(/\$\{"(r_[a-z]+)"\}/g,(m,k)=>ico(k));
 $("m-graph").addEventListener("click",()=>setMode("graph")); $("m-list").addEventListener("click",()=>setMode("list"));

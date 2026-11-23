@@ -38,6 +38,7 @@
     <h2 class="sec-h" id="camp-h">Twoja kampania: Bakalland</h2>
     <div class="panel camp" id="camp"></div>
   </section>
+  <p class="zb-install"><a href="#instalacja">Jak zainstalować aplikację na telefonie</a></p>
 </section>
 
 <!-- KODEKS -->
@@ -57,7 +58,7 @@
 <!-- WOJSKA -->
 <section class="view" id="v-wojska" aria-label="Wojska">
   <div class="sec" style="margin-top:18px">
-    <h2 class="sec-h">Wojska</h2>
+    <div class="zb-wlink"><h2 class="sec-h">Wojska</h2><a class="chip" href="#zbrojownia">Zbrojownia: najlepszy sprzęt</a></div>
     <p class="note">Wszystkie jednostki z tierów 3, 4, 5 i 6, także Nordowie i oddziały morskie. Polska nazwa, pod nią angielska z gry. Każdy żołnierz ma 100 punktów życia, więc o przeżywalności decyduje pancerz.</p>
   </div>
   <div class="sec" style="margin-top:14px">
@@ -90,6 +91,24 @@
 </section>
 
 <!-- DRZEWKA -->
+<section class="view" id="v-zbrojownia" aria-label="Zbrojownia">
+  <div class="sec" style="margin-top:18px">
+    <h2 class="sec-h">Zbrojownia</h2>
+    <p class="note">Najlepszy sprzęt w każdej kategorii i kultury, które go robią. Zebrane z wiki, poradników i forów graczy, po angielsku i po polsku. Liczby pochodzą z różnych wersji gry, więc kolejność jest pewniejsza niż pojedyncza wartość.</p>
+  </div>
+  <div class="sec" style="margin-top:14px">
+    <h3 class="zb-h3">Tablica mistrzów</h3>
+    <div class="panel zb-mx" id="zb-mx"></div>
+    <p class="zb-legend"><span class="zb-cell ch" style="--cc:var(--ink)"></span> najlepsze w kategorii <span class="zb-cell has" style="--cc:var(--ink)"></span> ma coś w czołówce. Stuknij kulturę, żeby zobaczyć jej mocne strony, albo kategorię, żeby przejść do listy.</p>
+    <div class="zb-cult" id="zb-cult" hidden></div>
+  </div>
+  <div id="zb-cards"></div>
+  <div class="sec">
+    <h3 class="zb-h3">Jak zdobyć najlepszy sprzęt</h3>
+    <div class="panel zb-how" id="zb-how"></div>
+  </div>
+</section>
+
 <section class="view" id="v-drzewka" aria-label="Drzewka awansów">
   <div class="sec" style="margin-top:18px">
     <h2 class="sec-h">Drzewka awansów</h2>
@@ -98,7 +117,7 @@
   </div>
   <div class="tree-tools">
     <div class="seg" role="group" aria-label="Widok"><button type="button" id="m-graph" aria-pressed="true">Schemat</button><button type="button" id="m-list" aria-pressed="false">Lista</button></div>
-    <div class="zoom" id="zoomctl"><button class="iconbtn" type="button" id="z-out" aria-label="Pomniejsz">−</button><button class="iconbtn" type="button" id="z-in" aria-label="Powiększ">+</button></div>
+    <div class="zoom" id="zoomctl"><button class="iconbtn" type="button" id="z-out" aria-label="Pomniejsz">−</button><button class="iconbtn" type="button" id="z-in" aria-label="Powiększ">+</button><button class="iconbtn zfit" type="button" id="z-fit" aria-label="Pokaż całe drzewko">Całe</button></div>
   </div>
   <div class="tree-box" id="tree-box"><div class="tree-sizer" id="tree-sizer"><div class="tree-canvas" id="tree-canvas"></div></div></div>
   <div class="olist" id="olist" hidden></div>
@@ -183,7 +202,9 @@
 <script src="dane/jednostki.js"></script>
 <script src="dane/drzewka.js"></script>
 <script src="dane/kodeks.js"></script>
+<script src="dane/zbrojownia.js"></script>
 <script src="js/app.js"></script>
+<script src="js/zbrojownia.js"></script>
 <script src="js/doradca.js"></script>
 <script src="dane/biblia.js"></script>
 <script src="js/czat.js"></script>
