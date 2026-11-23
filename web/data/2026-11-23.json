@@ -1,0 +1,1746 @@
+{
+ "wersja": "1.0.0",
+ "wydanie": "2026-11-23",
+ "dotyczy_dnia": "2026-11-22",
+ "wygenerowano": "2026-11-23T17:10:41+00:00",
+ "strefa": "Europe/Warsaw",
+ "tryb": "ekstrakcyjny",
+ "demo": false,
+ "pozycje": [
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Premier Kanady zakpił z Trumpa. Na scenie \"sobowtór\" prezydenta USA",
+   "lead": "Żarty z wystroju Białego Domu i prezydenta USA oraz komik wystylizowany na Donalda Trumpa - tak wyglądała kolacja prasowa parlamentu w Ottawie, gdzie wystąpił premier Kanady. Mark Carney nie gryzł się w język, raz po raz wbijając szpile w przywódcę Stanów Zjednoczonych.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-22T18:35:15+00:00",
+   "źródło": {
+    "nazwa": "Interia Fakty",
+    "url": "https://wydarzenia.interia.pl/zagranica/news-premier-kanady-zakpil-z-trumpa-zaskakujace-obrazy-na-scenie,nId,23577200",
+    "domena": "wydarzenia.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NK4VG6OT7I0HH-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jeszcze dalej posunął się parodysta.",
+      "W sieci pojawiły się zdjęcia i nagrania.",
+      "Wystąpienie Marka Carneya podczas corocznej kolacji prasowej parlamentu w Ottawie miało nietypowy charakter.",
+      "Już na początku premier Kanady zażartował z wymagającej publiczności, która nie przywitała go oklaskami.",
+      "W pewnym momencie polityk nawiązał do swojej wcześniejszej wizyty w Stanach Zjednoczonych i spotkania z Donaldem Trumpem w Gabinecie Owalnym. - To wymagająca publiczność.",
+      "Z ich nowym dekoratorem wnętrz - powiedział Carney, wywołując śmiech zgromadzonych gości.",
+      "Była to aluzja do zmian, jakie Donald Trump wprowadził w wystroju Białego Domu .",
+      "Amerykański prezydent postawił na liczne złote dekoracje, a także zdecydował o budowie dużej sali balowej.",
+      "Na tym jednak żarty z amerykańskiego przywódcy się nie skończyły."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Kanada – federacja składająca się z 10 prowincji i 3 terytoriów, dzielących się na tak zwane census divisions / division de recensement. Są to jednostki podziału administracyjnego drugiego rzędu, wyznaczane na podstawie przeprowadzanego co pięć lat spisu ludności. Mogą służyć jako samorząd i wtedy nazywane są :county / comté (hrabstwo) regional county municipality / municipalité régionale de comté regional district / district régional district municipality / municipalité de district regional district municipality / municipalité régionale de district"
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Podział administracyjny Kanady",
+     "url": "https://pl.wikipedia.org/wiki/Podzia%C5%82_administracyjny_Kanady"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "22",
+    "50",
+    "20 mld",
+    "51"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Podział administracyjny Kanady",
+    "opis": "podział terytorium Kanady na poszczególne jednostki administracyjne",
+    "tekst": "Kanada – federacja składająca się z 10 prowincji i 3 terytoriów, dzielących się na tak zwane census divisions / division de recensement. Są to jednostki podziału administracyjnego drugiego rzędu, wyznaczane na podstawie przeprowadzanego co pięć lat spisu ludności. Mogą służyć jako samorząd i wtedy nazywane są :county / comté (hrabstwo) regional county municipality / municipalité régionale de comté regional district / district régional district municipality / municipalité de district regional district municipality / municipalité régionale de district",
+    "url": "https://pl.wikipedia.org/wiki/Podzia%C5%82_administracyjny_Kanady",
+    "język": "pl"
+   },
+   "tagi": [
+    "Kanady",
+    "Donalda Trumpa",
+    "Trumpa",
+    "Carney"
+   ],
+   "emotki": [
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Fakty",
+     "tytuł": "Premier Kanady zakpił z Trumpa. Na scenie \"sobowtór\" prezydenta USA",
+     "url": "https://wydarzenia.interia.pl/zagranica/news-premier-kanady-zakpil-z-trumpa-zaskakujace-obrazy-na-scenie,nId,23577200"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.105,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.47,
+     "treściwość": 0.435,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "polska",
+    "nazwa": "Polska",
+    "emoji": "🇵🇱",
+    "opis": "polityka, gospodarka, handel, sprawy krajowe"
+   },
+   "nagłówek": "Rodzice bez 800 plus chcą dodatku do emerytury. Jest stanowisko ministerstwa",
+   "lead": "Rodzice, którzy wychowali dzieci przed wprowadzeniem 800 plus, domagają się rekompensaty emerytalnej. Wpłynęła w tej sprawie petycja do Sejmu.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-22T11:03:14+00:00",
+   "źródło": {
+    "nazwa": "Money.pl",
+    "url": "https://www.money.pl/finanse/rodzice-bez-800-plus-chca-dodatku-do-emerytury-jest-stanowisko-ministerstwa-7353730456446976a.html",
+    "domena": "money.pl"
+   },
+   "obraz": "https://v.wpimg.pl/YWQ1NWQydjYwUzhkfgJ7I3MLbD44W3V1JBN0dX5IYGVhSWExOBU8JTRBIXk2CywnMEY-eSEVdjYhWGEhYFY9PiJBIjYoVjw6M1QqeGdIP2dkAXwzfEg6YTUcemNkTXQ2Zwl2emFKPDY1BHszYxxgZnNM",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jednak, jak podaje \"Fakt\", ministerstwo rodziny nie poparło tego rozwiązania.",
+      "Adam Nycz, emeryt i ojciec dwojga dzieci, zwrócił uwagę posłom na różnice między pokoleniami rodziców.",
+      "W czasie, gdy wychowywał dzieci, państwo nie oferowało podobnego wsparcia finansowego. \" Uczciwość pokoleniowa wymaga , aby rodzice dzieci, które zostały wychowane i wykształcone w Polsce, a teraz pracują w Polsce i tutaj płacą podatki, otrzymali dodatki emerytalne z tytułu wychowania swoich dzieci z budżetu państwa\" – napisał Adam Nycz.",
+      "Petycją dot. świadczenia 800 plus zajęła się sejmowa Komisja do Spraw Petycji.",
+      "Podczas posiedzenia stanowisko rządu przedstawił Zbigniew Wasiak z Ministerstwa Rodziny, Pracy i Polityki Społecznej.",
+      "Resort odrzucił pomysł dodatku dla rodziców dorosłych dzieci.",
+      "Przedstawiciel ministerstwa przypomniał, że obecny system emerytalny opiera się na zasadzie ekwiwalentności składek. – W związku z tym nie ma tutaj miejsca w systemie emerytalnym na wszelkiej maści dodatki o charakterze socjalnym – powiedział Wasiak.",
+      "Jak przypomina \"Fakt\", obecnie rodzice mogą korzystać z jednego szczególnego rozwiązania.",
+      "Świadczenie Mama 4 Plus przysługuje osobom, które wychowały co najmniej czworo dzieci i nie wypracowały minimalnej emerytury."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Autostrady i drogi ekspresowe w Polsce – część polskiej sieci dróg krajowych obejmująca najważniejsze drogi krajowe, obsługujące trasy międzynarodowe i międzyregionalne."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Autostrady i drogi ekspresowe w Polsce",
+     "url": "https://pl.wikipedia.org/wiki/Autostrady_i_drogi_ekspresowe_w_Polsce"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "800",
+    "1978 zł",
+    "49",
+    "60 tys."
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Autostrady i drogi ekspresowe w Polsce",
+    "opis": "drogi szybkiego ruchu w Polsce",
+    "tekst": "Autostrady i drogi ekspresowe w Polsce – część polskiej sieci dróg krajowych obejmująca najważniejsze drogi krajowe, obsługujące trasy międzynarodowe i międzyregionalne.",
+    "url": "https://pl.wikipedia.org/wiki/Autostrady_i_drogi_ekspresowe_w_Polsce",
+    "język": "pl"
+   },
+   "tagi": [
+    "Polsce",
+    "Fakt",
+    "Ministerstwa Rodziny Pracy",
+    "Polityki Społecznej"
+   ],
+   "emotki": [
+    "🏛️",
+    "💰"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Money.pl",
+     "tytuł": "Rodzice bez 800 plus chcą dodatku do emerytury. Jest stanowisko ministerstwa",
+     "url": "https://www.money.pl/finanse/rodzice-bez-800-plus-chca-dodatku-do-emerytury-jest-stanowisko-ministerstwa-7353730456446976a.html"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 2.851,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.376,
+     "treściwość": 0.275,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Rosyjski okręt wojenny zatonął w Bengazi po domniemanym ataku ukraińskiego drona",
+   "lead": "Nikt nie przyznał się do ataku na statek, który zawinął do portu w drodze powrotnej do Rosji. Rosyjski okręt wojenny zacumowany w libijskim porcie Bengazi został w nocy z soboty na niedzielę zaatakowany przez – jak się podejrzewa – ukraiński dron morski. Doszło do gwałtownej eksplozji, a okręt zatonął…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-22T21:33:44+00:00",
+   "źródło": {
+    "nazwa": "The Guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+    "domena": "theguardian.com"
+   },
+   "obraz": "https://i.guim.co.uk/img/media/196206fc578eb19b5303b6bfe5930996ed24961b/0_0_900_720/master/900.jpg?width=140&quality=85&auto=format&fit=max&s=4a5a7fec09c73b0d217b6d1303a01b0c",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Według wstępnych doniesień na statek wystrzelono kilka ukraińskich dronów morskich.",
+      "Według informacji przekazanych agencji Associated Press przez urzędników, przechwycono i zniszczono co najmniej cztery drony, podczas gdy dwa uderzyły w okręt wojenny, powodując eksplozję.",
+      "Zdjęcia satelitarne pokazały, że „Merkury” zatonął po ataku, do którego doszło na Morzu Śródziemnym, ponad 1600 km na południe od Ukrainy, co oznacza znaczące rozszerzenie zasięgu geograficznego trwającej już prawie pięć lat wojny.",
+      "Chociaż Ukraina rozpoczęła wojnę bez marynarki wojennej, rozwinęła zdolności w zakresie dronów morskich, które stanowiły zagrożenie dla rosyjskich okrętów wojennych na Morzu Czarnym.",
+      "Rosyjska flota została zmuszona do wycofania się do wschodniego portu w Noworosyjsku, ponieważ Sewastopol na okupowanym Krymie stał się niebezpieczny.",
+      "Kilka godzin później statek towarowy Ascalon, powiązany z Rosją i rzekomo przewożący zaopatrzenie wojskowe, został uderzony przez dron morski u wybrzeży Bengazi.",
+      "Na nagraniu widać, jak dron zmierza bezpośrednio w kierunku jednego z końców statku, ponownie powodując potężną eksplozję.",
+      "Ministerstwo zdrowia poinformowało, że stan niektórych członków załogi jest stabilny, a doznane przez nich obrażenia są niewielkie.",
+      "Bengazi znajduje się pod kontrolą samozwańczej Libijskiej Armii Narodowej dowodzonej przez generała Chalifę Haftara, która kontroluje wschodnią i południową Libię i jest powiązana z Rosją."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Incydent miał miejsce kilka godzin po ataku dronem, w wyniku którego rosyjski statek towarowy stanął w płomieniach na Zatoce Fińskiej, w najbardziej wysuniętej na wschód części Morza Bałtyckiego.",
+      "Według fińskiego Ministerstwa Obrony incydent miał miejsce o 12:34 czasu lokalnego (10:34 UTC/GMT) u wybrzeży miasta Loviisa na południowym wybrzeżu.",
+      "„To domniemane naruszenie przestrzeni powietrznej może być związane z operacjami ratunkowymi lub obserwacyjnymi prowadzonymi przez Finlandię w związku z uszkodzeniem statku towarowego na Zatoce Fińskiej” – powiedział minister obrony Antti Hakkanen, cytowany przez publicznego nadawcę YLE.",
+      "Ministerstwo dodało, że śmigłowiec mógł wlecieć na terytorium Finlandii na odległość do 4,1 kilometrów (2,5 mili).",
+      "Wcześniej w sobotę Finlandia – jeden z najnowszych członków NATO – poinformowała, że rosyjski statek towarowy płynący do rosyjskiej eksklawy bałtyckiej w Kaliningradzie zapalił się po uderzeniu dronów w Zatoce Fińskiej."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Bengazi to drugie co do wielkości miasto w Libii, a także największe miasto w Cyrenajce. Szacuje się, że w 2023 roku mieszkało w nim 859 000 osób. Bengazi, położone nad Zatoką Syrtycką na Morzu Śródziemnym, jest również ważnym portem morskim."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Benghazi",
+     "url": "https://en.wikipedia.org/wiki/Benghazi"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "1,000",
+    "16",
+    "12",
+    "34",
+    "10",
+    "4.1"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Benghazi",
+    "opis": "City in Cyrenaica, Libya",
+    "tekst": "Benghazi is the second-largest city in Libya as well as the largest city in Cyrenaica, with an estimated population of 859,000 in 2023. Located on the Gulf of Sidra in the Mediterranean, Benghazi is also a major seaport.",
+    "url": "https://en.wikipedia.org/wiki/Benghazi",
+    "język": "en"
+   },
+   "tagi": [
+    "Russian",
+    "Ukrainian",
+    "Libyan",
+    "Benghazi"
+   ],
+   "emotki": [
+    "🚀"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
+     "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya"
+    },
+    {
+     "nazwa": "BBC Europe",
+     "tytuł": "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes",
+     "url": "https://www.bbc.co.uk/news/videos/cre3dvd1k9y1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "Russian helicopter suspected of violating Finnish airspace",
+     "url": "https://www.dw.com/en/russian-helicopter-suspected-of-violating-finnish-airspace/a-80010133?maca=en-rss-en-world-4025-rdf"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.04,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.53,
+     "eksponowanie": 0.99,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.52,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Meksykański baron narkotykowy z listy 10 najbardziej poszukiwanych osób przez FBI został aresztowany w trakcie strzelaniny",
+   "lead": "Fausto Isidro „Chapo Isidro” Meza Flores, oskarżony o handel narkotykami i tortury, zostaje zatrzymany po strzelaninie z funkcjonariuszami służb porządkowych.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-22T01:25:03+00:00",
+   "źródło": {
+    "nazwa": "BBC News",
+    "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5701/live/7ac9e270-e5ad-11f1-99a1-253766e7ad8b.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Fausto Isidro Meza Flores był jednym z najbardziej poszukiwanych przez FBI zbiegów i przez ponad dekadę udawało mu się uniknąć schwytania. W piątek wieczorem meksykańskie wojsko schwytało jednego z 10 najbardziej poszukiwanych przez FBI zbiegów podczas akcji sił specjalnych w meksykańskim stanie Sinaloa.",
+      "Fausto Isidro Meza Flores, znany jako „El Chapo Isidro”, został aresztowany wraz z dwoma innymi domniemanymi przywódcami swojego gangu po strzelaninie, która wywołała powszechną panikę w mieście Guasave.",
+      "Domniemany przywódca dużego kartelu handlującego narkotykami, transnarodowej organizacji przestępczej (TCO) Meza Flores, przez ponad dekadę udawało mu się unikać aresztowania, mimo że za jego głowę wyznaczono nagrodę w wysokości do 5 milionów dolarów (3,8 miliona funtów).",
+      "Na plakacie FBI z listą „najbardziej poszukiwanych” osób stwierdza się, że jego organizacja „jest rzekomo odpowiedzialna za posiadanie, dystrybucję i import do Stanów Zjednoczonych dużych ilości heroiny, metamfetaminy, kokainy, fentanylu i marihuany oraz w przeważającej mierze kontrolowała produkcję, transport i dystrybucję narkotyków w kilku miejscach w całym Meksyku”.",
+      "Meksykańskie Ministerstwo Obrony twierdzi również, że jest on przywódcą organizacji przestępczej Beltrán Leyva, która jest sojusznikiem Mayosów, jednej z dwóch rywalizujących ze sobą frakcji w potężnym kartelu Sinaloa.",
+      "Aresztowano również domniemanego zastępcę Mezy Floresa, Germána N., którego pseudonim to „Serafín”, oraz Joségo N., domniemanego operatora finansowego grupy Beltrán Leyva.",
+      "Strzelanina między meksykańskimi żołnierzami a domniemanymi członkami gangu w mieście Guasave w stanie Sinaloa zakończyła się zatrzymaniem przez siły specjalne wysokich rangą członków siatki handlu narkotykami Beltrana Leyvy – poinformowali w sobotę meksykańscy urzędnicy."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Lista dziesięciu najbardziej poszukiwanych przez FBI zbiegów to lista najbardziej poszukiwanych osób prowadzona przez Federalne Biuro Śledcze Stanów Zjednoczonych (FBI). Lista powstała w wyniku rozmowy, która odbyła się pod koniec 1949 roku między J. Edgarem Hooverem, dyrektorem FBI, a Williamem Kinseym Hutchinsonem, redaktorem naczelnym International News Service, którzy omawiali sposoby promowania schwytania „najtwardszych typów” poszukiwanych przez FBI. Dyskusja ta przerodziła się w opublikowany artykuł, który zyskał tak szeroki pozytywny rozgłos, że 14 marca 1950 roku FBI oficjalnie ogłosiło listę, aby zwiększyć zdolność organów ścigania do schwytania niebezpiecznych zbiegów. Pierwszą osobą umieszczoną na liście w dniu jej powstania był Thomas J. Holden, rabuś i członek gangu Holden-Keating."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: FBI Ten Most Wanted Fugitives",
+     "url": "https://en.wikipedia.org/wiki/FBI_Ten_Most_Wanted_Fugitives"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10",
+    "3.8",
+    "11",
+    "44",
+    "5 million",
+    "4.56 million"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "FBI Ten Most Wanted Fugitives",
+    "opis": "US federal law enforcement most wanted list",
+    "tekst": "The FBI Ten Most Wanted Fugitives is a most wanted list maintained by the United States' Federal Bureau of Investigation (FBI). The list arose from a conversation held in late 1949 between J. Edgar Hoover, Director of the FBI, and William Kinsey Hutchinson, International News Service editor-in-chief, who were discussing ways to promote capture of the FBI's \"toughest guys\". This discussion turned into a published article, which received so much positive publicity that on March 14, 1950, the FBI officially announced the list to increase law enforcement's ability to capture dangerous fugitives. The first person added to the list was Thomas J. Holden, a robber and member of the Holden–Keating Gang on the day of the list's inception.",
+    "url": "https://en.wikipedia.org/wiki/FBI_Ten_Most_Wanted_Fugitives",
+    "język": "en"
+   },
+   "tagi": [
+    "Fausto Isidro Chapo Idisro Meza Flores",
+    "FBI's"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC News",
+     "tytuł": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+     "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian",
+     "tytuł": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+     "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested"
+    },
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "Mexican special forces arrest drug kingpin 'Chapo Isidro'",
+     "url": "https://www.dw.com/en/mexican-special-forces-arrest-drug-kingpin-chapo-isidro/a-80010745?maca=en-rss-en-world-4025-rdf"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.043,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.688,
+     "eksponowanie": 0.45,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.255,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "To najlepsza przyjaciółka Światek. Choroba paraliżuje jej karierę",
+   "lead": "Kaja Juvan jest starsza od Igi Świątek o pół roku, urodziła się w listopadzie 2000 r. Słowenka i Polka dorastały na tych samych juniorskich turniejach.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-23T04:00:05+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/iga-swiatek/news-to-najlepsza-przyjaciolka-swiatek-traktuje-ja-jak-siostre-ch,nId,23576442",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NJVJPTB5TOYT8-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Ich największym wspólnym sukcesem był triumf w deblu na Młodzieżowych Igrzyskach Olimpijskich w Buenos Aires w 2018 roku.",
+      "Wraz z upływem czasu ich relacja przerodziła się w przyjaźń, o czym mówiły otwarcie. - Z pewnością nie podobało mi się to, że wygrywałam z moją najlepszą przyjaciółką.",
+      "Ale wiedziałam, że muszę być naprawdę skupiona i nie pozwalać sobie na takie myślenie, bo to było jak granie z siostrą.",
+      "Nie mam wielu przyjaciół, ale ona jest moją najlepszą przyjaciółką.",
+      "Więc tak, to była zdecydowanie najtrudniejsza część - to słowa Igi Świątek (cytowane przez Flashscore) po ograniu Juvan w trzeciej rundzie US Open w 2023 roku (6:0, 6:1).",
+      "Wcześniej Polka pokonywała ją dwukrotnie w 2021 roku - Na Roland Garros i Gippsland Trophy w Melbourne.",
+      "Mimo olbrzymiego potencjału kariera Juvan została sparaliżowana przez szereg smutnych, a momentami dramatycznych wydarzeń.",
+      "W lipcu 2022 roku osiągnęła najwyższe w karierze 58. miejsce w rankingu WTA i wydawało się, że na stałe wejdzie do szerokiej czołówki.",
+      "Pięć miesięcy później zmarł jej ojciec Robert, który był dla niej wzorem i mentorem."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Kaja Juvan is a Slovenian professional tennis player. She has career-high rankings of world No. 58 in singles and No. 97 in doubles. Juvan won her maiden WTA Tour doubles title at the 2021 Romanian Open in Cluj-Napoca, partnering with Natela Dzalamidze."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Kaja Juvan",
+     "url": "https://en.wikipedia.org/wiki/Kaja_Juvan"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "0, 6",
+    "58",
+    "600",
+    "6, 4",
+    "456"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Kaja Juvan",
+    "opis": "Slovenian tennis player (born 2000)",
+    "tekst": "Kaja Juvan is a Slovenian professional tennis player. She has career-high rankings of world No. 58 in singles and No. 97 in doubles. Juvan won her maiden WTA Tour doubles title at the 2021 Romanian Open in Cluj-Napoca, partnering with Natela Dzalamidze.",
+    "url": "https://en.wikipedia.org/wiki/Kaja_Juvan",
+    "język": "en"
+   },
+   "tagi": [
+    "Kaja Juvan",
+    "Igi Świątek",
+    "Słowenka",
+    "Polka"
+   ],
+   "emotki": [
+    "🎾"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "To najlepsza przyjaciółka Światek. Choroba paraliżuje jej karierę",
+     "url": "https://sport.interia.pl/iga-swiatek/news-to-najlepsza-przyjaciolka-swiatek-traktuje-ja-jak-siostre-ch,nId,23576442"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.338,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.588,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Torreense – Benfica. Puchar Portugalii, 4. runda [SKRÓT]",
+   "lead": "Skrót meczu czwartej rundy Pucharu Portugalii, w którym broniące trofeum drugoligowe Torreense zmierzyło się z lizbońską Benficą.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-22T23:15:00+00:00",
+   "źródło": {
+    "nazwa": "TVP Sport",
+    "url": "https://sport.tvp.pl/96626959/torreense-benfica-puchar-portugalii-4-runda-skrot",
+    "domena": "sport.tvp.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Puchar Portugalii 2026/27 – kiedy mecze 1/16 finału?"
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "27",
+    "16"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "TVP Sport",
+     "ujęcie": "Spotkanie 4. rundy Pucharu Portugalii: Torreense – Benfica.",
+     "url": "https://sport.tvp.pl/96280222/torreense-benfica-lizbona-puchar-portugalii-4-runda-transmisja-na-zywo-online-live-stream-22112026"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Pucharu Portugalii",
+    "Portugalii",
+    "Torreense",
+    "Benficą"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Torreense – Benfica. Puchar Portugalii, 4. runda [SKRÓT]",
+     "url": "https://sport.tvp.pl/96626959/torreense-benfica-puchar-portugalii-4-runda-skrot"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Torreense – Benfica Lizbona. Puchar Portugalii, 4. runda [MECZ]",
+     "url": "https://sport.tvp.pl/96280222/torreense-benfica-lizbona-puchar-portugalii-4-runda-transmisja-na-zywo-online-live-stream-22112026"
+    },
+    {
+     "nazwa": "TVP Sport",
+     "tytuł": "Puchar Portugalii 2026/27 – kiedy mecze 1/16 finału? Sprawdź plan transmisji w TVP [TERMINARZ]",
+     "url": "https://sport.tvp.pl/96527198/puchar-portugalii-202627-kiedy-mecze-116-finalu-plan-transmisji-w-tvp-i-terminarz"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.189,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.3,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.528,
+     "treściwość": 0.161,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Boniek się wygadał. Były trener Manchesteru United zwrócił się do PZPN-u",
+   "lead": "Jednym z głównych zadań prezesa PZPN-u jest decydowanie o tym, kto prowadzić będzie seniorską reprezentację Polski. Rzadko zdarza się bowiem, aby za kadencji szefa polskiego futbolu funkcję \"sternika\" kadry narodowej pełnił tylko jeden trener.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-23T04:20:05+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/reprezentacja-polski/news-trenowal-manchester-united-nawiazal-kontakt-z-pzpn-em-boniek,nId,23577213",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000MRGARA083QIC8-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Ta strona jest chroniona przez reCAPTCHA Idealnie widać to na przykładzie obecnego prezesa PZPN-u - Cezarego Kuleszy .",
+      "Został on prezesem PZPN-u w sierpniu 2021 roku.",
+      "Wówczas selekcjonerem Polaków był jeszcze Paulo Sousa .",
+      "Od tego czasu, do dnia dzisiejszego (22 listopada 2026) trenerami naszych reprezentantów byli już: Czesław Michniewicz , Fernando Santos , Michał Probierz oraz Jan Urban .",
+      "Niewykluczone, że w niedalekiej przyszłości ta lista ulegnie zaktualizowaniu o kolejne nazwisko .",
+      "Wciąż nie wiadomo bowiem, jaki los czeka ostatniego z wymienionych szkoleniowców.",
+      "Zmiany na stanowisku selekcjonera reprezentacji Polski zachodziły również za czasów prezesury Zbigniewa Bońka (2012-2021).",
+      "W latach 2012-2013 \"sternikiem\" naszej kadry był Waldemar Fornalik .",
+      "Później doczekaliśmy się wspominanych z dużym sentymentem czasów Adama Nawałki (2013-2018)."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Ralf Rangnick – niemiecki trener i piłkarz. Obecnie selekcjoner reprezentacji Austrii."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Ralf Rangnick",
+     "url": "https://pl.wikipedia.org/wiki/Ralf_Rangnick"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "22",
+    "1846",
+    "96",
+    "04",
+    "19",
+    "40"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Ralf Rangnick",
+    "opis": "niemiecki piłkarz",
+    "tekst": "Ralf Rangnick – niemiecki trener i piłkarz. Obecnie selekcjoner reprezentacji Austrii.",
+    "url": "https://pl.wikipedia.org/wiki/Ralf_Rangnick",
+    "język": "pl"
+   },
+   "tagi": [
+    "Manchesteru United",
+    "Paulo Sousa",
+    "Rangnicka",
+    "PZPN-u"
+   ],
+   "emotki": [
+    "⚽",
+    "🏛️"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Boniek się wygadał. Były trener Manchesteru United zwrócił się do PZPN-u",
+     "url": "https://sport.interia.pl/pilka-nozna/reprezentacja-polski/news-trenowal-manchester-united-nawiazal-kontakt-z-pzpn-em-boniek,nId,23577213"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "Ngumoha stars as Liverpool thrash 10-man Man Utd",
+     "url": "https://www.bbc.co.uk/sport/football/videos/c933g77knz00o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "A 'wow' player - why Ngumoha is already a Liverpool game-changer",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cmn80y5w84qqo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "The red card that changed Liverpool-Man Utd: correct call?",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cq7827p8emmxo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Yoro sees red as Ngumoha shines - Liverpool v Man Utd player ratings",
+     "url": "https://www.bbc.co.uk/sport/football/articles/c933gzxk66yyo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Liverpool hand Pochettino nightmare Manchester United start after Yoro sees red",
+     "url": "https://www.theguardian.com/football/2026/nov/22/liverpool-manchester-united-premier-league-match-report"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.575,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 2.133,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.592,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Alcaraz przyćmił Zvereva, gdy najlepszy na świecie pokonał numer 1, zdobywając swój pierwszy tytuł ATP Finals",
+   "lead": "Hiszpan wygrywa finał 6:2, 7:6 (7) z nowym liderem rankingu ATP Alcarazem. Jest czwartym zawodnikiem, który w swojej karierze zdobył tytuł wielkoszlemowy i wygrał ATP Finals. Tytuły lidera rankingu ATP i najlepszego tenisisty świata należą do dwóch różnych zawodników. Było to zawsze oczywiste w trakcie tego chaotycznego, naznaczonego kontuzjami sezonu w tenisie męskim, ale…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-22T20:43:11+00:00",
+   "źródło": {
+    "nazwa": "The Guardian Sport",
+    "url": "https://www.theguardian.com/sport/2026/nov/22/carlos-alcaraz-first-atp-finals-title-alexander-zverev-tennis",
+    "domena": "theguardian.com"
+   },
+   "obraz": "https://i.guim.co.uk/img/media/6984924ff8a89514c7d1768a9f1d06d27e7fd5e8/699_0_6990_5592/master/6990.jpg?width=140&quality=85&auto=format&fit=max&s=bc265ab671b511a033505a6ccb93eea2",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "O szansach Alcaraza w tym sezonie w dużej mierze zadecydowała kontuzja nadgarstka, która wykluczyła go z gry na cztery i pół miesiąca wiosną i latem.",
+      "To nie ma znaczenia, bo i tak udało mu się w tym roku odhaczyć dwie najważniejsze pozycje ze swojej listy zadań.",
+      "Na początku 2026 roku został najmłodszym w historii mężczyzną, który zdobył Wielkiego Szlema w karierze. Teraz, w wieku 23 lat, jest czwartym mężczyzną, który wygrał wszystkie cztery turnieje Wielkiego Szlema i ATP Finals.",
+      "Pomimo długiej przerwy w grze opuścił tylko dwa z czterech turniejów wielkoszlemowych i dwa z dziewięciu turniejów Masters 1000: Canadian Open i Shanghai Masters.",
+      "Szybsze korty halowe były wcześniej postrzegane jako warunki, w których Alcaraz jest najbardziej narażony.",
+      "Alcaraz kończy rok serią 14 zwycięstw z rzędu po triumfach na dwóch najszybszych kortach – w Paryżu i Turynie.",
+      "To zwycięstwo robi tym większe wrażenie, że podczas środowego meczu z Daniiłem Miedwiediewem doznał kontuzji uda.",
+      "Chociaż nadal wygrywał, Hiszpan był bardziej ostrożny w swoich niezrównanych ruchach, a jego noga była mocno obandażowana.",
+      "Nauczył się, że nie zawsze musi biegać po korcie z 100% intensywnością, że może w rzeczywistości oszczędzać energię, grać bardziej efektywnie i nadal pokonywać najlepszych graczy na świecie."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Carlos Alcaraz zmierzy się z numerem jeden światowego rankingu, Alexandrem Zverevem, w meczu o tytuł ATP Finals po tym, jak odniósł fantastyczne zwycięstwo po odrobieniu strat w meczu z Benem Sheltonem."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Alexander „Sascha” Zverev – niemiecki tenisista pochodzenia rosyjskiego, lider rankingu ATP, triumfator French Open 2026 oraz US Open 2026, złoty medalista igrzysk olimpijskich z Tokio (2020) w grze pojedynczej, dwukrotny zwycięzca ATP Finals, triumfator Australian Open 2014 w grze pojedynczej chłopców, reprezentant w Pucharze Davisa."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Alexander Zverev",
+     "url": "https://pl.wikipedia.org/wiki/Alexander_Zverev"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "2, 7",
+    "23",
+    "1000",
+    "14",
+    "100%",
+    "2, 4"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Alexander Zverev",
+    "opis": "niemiecki tenisista pochodzenia rosyjskiego",
+    "tekst": "Alexander „Sascha” Zverev – niemiecki tenisista pochodzenia rosyjskiego, lider rankingu ATP, triumfator French Open 2026 oraz US Open 2026, złoty medalista igrzysk olimpijskich z Tokio (2020) w grze pojedynczej, dwukrotny zwycięzca ATP Finals, triumfator Australian Open 2014 w grze pojedynczej chłopców, reprezentant w Pucharze Davisa.",
+    "url": "https://pl.wikipedia.org/wiki/Alexander_Zverev",
+    "język": "pl"
+   },
+   "tagi": [
+    "Alcaraz",
+    "Zverev",
+    "Spaniard",
+    "Finals"
+   ],
+   "emotki": [
+    "🎾"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "The Guardian Sport",
+     "tytuł": "Alcaraz puts Zverev in shade as world’s best beats No 1 for first ATP Finals title",
+     "url": "https://www.theguardian.com/sport/2026/nov/22/carlos-alcaraz-first-atp-finals-title-alexander-zverev-tennis"
+    },
+    {
+     "nazwa": "BBC Tennis",
+     "tytuł": "Alcaraz to face Zverev in ATP Finals title decider",
+     "url": "https://www.bbc.co.uk/sport/tennis/articles/cw5y1gg7nyv0o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Tennis",
+     "tytuł": "Alcaraz outplays Zverev for first ATP Finals triumph",
+     "url": "https://www.bbc.co.uk/sport/tennis/articles/c60evlendg0jo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.081,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.515,
+     "eksponowanie": 1.62,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.496,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Alcaraz puts Zverev in shade as world’s best beats No 1 for first ATP Finals title",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Naszym obowiązkiem jest promowanie samych siebie – nawet wśród innych naukowców.",
+   "lead": "Niedawno złożyłam swoje akta pracownicze, aby ubiegać się o awans. Myślałam, że wybranie mnie na stypendystkę jednego z najbardziej prestiżowych instytutów badawczych w mojej dziedzinie – bioetyce – wzmocni moją kandydaturę.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-23T00:00:00+00:00",
+   "źródło": {
+    "nazwa": "Nature",
+    "url": "https://www.nature.com/articles/d41586-026-02203-2",
+    "domena": "nature.com"
+   },
+   "obraz": "https://media.nature.com/lw1200/magazine-assets/d41586-026-02203-2/d41586-026-02203-2_53935928.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Wydawało się jednak, że nikt, z kim rozmawiałam na uczelni, nie słyszał o stypendium, a jego wartość nie była doceniana.",
+      "Oświeciło mnie: jeśli inni nie dostrzegają wartości, to moja wina.",
+      "Muszę lepiej komunikować, dlaczego moja praca jest ważna, zamiast zakładać, że mówi sama za siebie.",
+      "W związku z tym wycofałam swój wniosek i złożę go ponownie, gdy opracuję bardziej przekonujące argumenty na rzecz znaczenia stypendium oraz uzyskam poparcie starszych stażem koleżanek i kolegów w odniesieniu do jego zasadności.",
+      "Wiem, że moja praca jest doceniana poza moją własną sferą uniwersytecką; teraz muszę to udowodnić w środowisku uniwersyteckim.",
+      "Jeśli chcemy, aby nasza praca liczyła się w kontekście awansu zawodowego, to od nas zależy, żeby pokazać naszym współpracownikom, dlaczego jest ona ważna.",
+      "Czy się mylę? – Brandon Brown, specjalista ds. zdrowia publicznego i etyki biomedycznej na Uniwersytecie Kalifornijskim w Riverside. „Nie mógłbym się bardziej nie zgodzić.",
+      "Szkoda, że naukowcy muszą niemal błagać swoich kolegów, by dostrzegli wartość ich pracy.",
+      "Większość z nas poświęca mnóstwo czasu, wysiłku i środków finansowych na to, co robimy, ponieważ naprawdę wierzymy, że to ma znaczenie."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Nature, opublikowano online: 23 listopada 2026 r.; doi:10.1038/d41586-026-03721-9 Badaczka i pedagożka wyjaśnia, dlaczego jest optymistką, jeśli chodzi o przyszłość pracy, i co ludzie mogą zrobić, aby odnosić sukcesy u boku sztucznej inteligencji.",
+      "Nature, opublikowano online: 23 listopada 2026 r.; doi:10.1038/d41586-026-03722-8 Planowanie rozwoju wymaga stałego systemu, który łączy prognozy klimatyczne z decyzjami kształtującymi budowaną infrastrukturę.",
+      "Nature, opublikowano online: 23 listopada 2026 r.; doi:10.1038/d41586-026-03724-6 Połowa naukowców, którzy wzięli udział w ankiecie przeprowadzonej przez czasopismo Nature, uważa, że zaufanie do nauki spadło.",
+      "Nature, opublikowano online: 23 listopada 2026 r.; doi:10.1038/d41586-026-03720-w Laureat Medalu Fieldsa ujawnia, w jaki sposób ciekawość liczb może prowadzić do rozwiązań w świecie rzeczywistym.",
+      "Nature, opublikowano online: 23 listopada 2026 r.; doi:10.1038/s41586-026-11458-8 Architecture of the poxvirus early-transcription machinery and portal complex [Struktura mechanizmu wczesnej transkrypcji wirusa ospy i kompleksu portalowego]",
+      "Nature, opublikowano online: 23 listopada 2026 r.; doi:10.1038/s41586-026-11449-9 Synteza heksapodstawionego benzenu z wykorzystaniem nieklasycznych karbokationów"
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "York to miasto katedralne w hrabstwie North Yorkshire w Anglii, o rzymskich korzeniach, położone u zbiegu rzek Ouse i Foss. Znajduje się tu wiele zabytkowych budynków i innych obiektów, w tym katedra, zamek i mury miejskie, które wszystkie są zabytkami klasy I. Jest to tradycyjna stolica hrabstwa Yorkshire i centrum administracyjne dystryktu City of York. Miasto położone jest 43 km na północny wschód od Leeds, 140 km na południe od Newcastle upon Tyne i 333 km na północ od Londynu. Według spisu powszechnego z 2021 roku liczba ludności w obszarze zabudowanym Yorku wynosiła 141 685 osób."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: York",
+     "url": "https://en.wikipedia.org/wiki/York"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "10.1038",
+    "026",
+    "02203",
+    "23",
+    "03721",
+    "03722"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "York",
+    "opis": "City in North Yorkshire, England",
+    "tekst": "York is a cathedral city in North Yorkshire, England, with Roman origins, sited at the confluence of the rivers Ouse and Foss. It has many historic buildings and other structures, including the minster, castle and city walls, all of which are Grade I listed. It is the traditional county town of Yorkshire, and the administrative centre of the City of York district. It is located 27 miles (43 km) north-east of Leeds, 90 miles (140 km) south of Newcastle upon Tyne and 207 miles (333 km) north of London. York's built-up area had a recorded population of 141,685 at the 2021 census.",
+    "url": "https://en.wikipedia.org/wiki/York",
+    "język": "en"
+   },
+   "tagi": [
+    "University",
+    "Delhi Hybrid",
+    "Nanjing Beijing Pune",
+    "York"
+   ],
+   "emotki": [
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Nature",
+     "tytuł": "I t’s our duty to promote ourselves: even to other scientists. Am I wrong?",
+     "url": "https://www.nature.com/articles/d41586-026-02203-2"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Ayanna Howard thinks ‘everyone has to be part of’ building ethical AI tools",
+     "url": "https://www.nature.com/articles/d41586-026-03721-9"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Build for the future climate — or waste trillions of dollars",
+     "url": "https://www.nature.com/articles/d41586-026-03722-8"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Is trust in science falling, or does it just feel that way?",
+     "url": "https://www.nature.com/articles/d41586-026-03724-6"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "How to make climate anxiety your superpower",
+     "url": "https://www.nature.com/articles/d41586-026-03818-1"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "‘Mozart of maths’ Terence Tao is your guide to what underpins reality",
+     "url": "https://www.nature.com/articles/d41586-026-03720-w"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Architecture of the poxvirus early-transcription machinery and portal complex",
+     "url": "https://www.nature.com/articles/s41586-026-11458-8"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Hexa-substituted benzene synthesis with non-classical carbocations",
+     "url": "https://www.nature.com/articles/s41586-026-11449-9"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Continuous N-to-C Peptide Synthesis",
+     "url": "https://www.nature.com/articles/s41586-026-11448-w"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 7.639,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 2.86,
+     "eksponowanie": 3.6,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.538,
+     "treściwość": 0.291,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "I t’s our duty to promote ourselves: even to other scientists. Am I wrong?",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "FBI prowadzi dochodzenie w sprawie domniemanego włamania do swojej kluczowej krajowej bazy danych dotyczących wymiaru sprawiedliwości w sprawach karnych",
+   "lead": "FBI prowadzi dochodzenie w sprawie domniemanego włamania do prowadzonej przez siebie krajowej bazy danych organów ścigania – poinformowała w sobotę osoba zaznajomiona ze sprawą. Krajowe Centrum Informacji o Przestępczości, znane jako NCIC, to skomputeryzowana baza danych zawierająca informacje dotyczące wymiaru sprawiedliwości w sprawach karnych, z której mogą korzystać lokalne, stanowe i federalne organy ścigania…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-22T15:04:37+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Technology",
+    "url": "https://techxplore.com/news/2026-11-fbi-apparent-hack-key-national.html",
+    "domena": "techxplore.com"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/virginia-corruption-pr.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "FBI odmówiło w sobotę komentarza w sprawie ewidentnego włamania, o którym po raz pierwszy poinformowała stacja CNN, a które zostało potwierdzone agencji Associated Press przez osobę zaznajomioną ze sprawą, nieupoważnioną do wypowiadania się pod nazwiskiem i przekazującą informacje pod warunkiem zachowania anonimowości.",
+      "Skala problemu nie była od razu oczywista.",
+      "Zapytany o tę sprawę w sobotę, prezydent Donald Trump powiedział w wywiadzie dla Fox News Channel: „Właśnie się o tym dowiedzieliśmy i muszę stwierdzić, że to nic dobrego”. Informacja o tym, że celem ataku było NCIC, pojawia się w momencie, gdy w kraju wystąpiła seria awarii systemów informatycznych w sektorze publicznym i prywatnym, które – jak twierdzą przedstawiciele administracji Trumpa – były spowodowane rutynowymi działaniami mającymi na celu modernizację systemów komputerowych i usuwanie luk w zabezpieczeniach, a nie atakiem cybernetycznym.",
+      "Nie było bezpośrednich przesłanek, że incydent w FBI był związany z tymi awariami.",
+      "Biuro to od dawna jest częstym celem ataków hakerskich.",
+      "Na przykład we wrześniu przestępcza grupa hakerska znana jako ShinyHunters ujawniła, że zdobyła ogromną ilość danych dotyczących pracowników FBI i osób ubiegających się o pracę w tej instytucji oraz że włamała się na portal pracy FBI.",
+      "Natomiast w marcu FBI ujawniło, że prowadzi dochodzenie w sprawie „podejrzanych działań” w systemie wewnętrznym zawierającym wrażliwe informacje związane z operacjami nadzoru i dochodzeniami.",
+      "Magister fizyki z doświadczeniem badawczym.",
+      "Od dawna pasjonat wiadomości naukowych."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Według doniesień CNN i Associated Press FBI prowadzi dochodzenie w sprawie domniemanego włamania do Krajowego Centrum Informacji o Przestępczości (NCIC).",
+      "NCIC to internetowa baza danych wykorzystywana przez federalne i lokalne organy ścigania do wymiany informacji na temat nakazów, weryfikacji danych osobowych i innych kwestii.",
+      "Były funkcjonariusz FBI powiedział CNN, że nie chodzi tylko o to, „czy hakerzy uzyskali dostęp do poufnych informacji – choć to też jest problem – ale także o to, czy mogli oni naruszyć wiarygodność informacji, na których opierają się funkcjonariusze”. Prezydent Donald Trump odniósł się do tych doniesień podczas sobotniego wywiadu dla Fox News, mówiąc: „Właśnie się o tym dowiedzieliśmy i muszę stwierdzić, że to nie jest dobra wiadomość”. Jednocześnie Trump stwierdził również, że w wyniku tego włamania „może dowiedzieć się rzeczy, których inaczej nigdy byśmy się nie dowiedzieli, ponieważ, jak wiadomo, mieliśmy do czynienia z mistyfikacją dotyczącą Rosji, Rosji, Rosji”. Według doniesień we wrześniu FBI poinformowało agentów i pracowników pomocniczych, że ich dane osobowe zostały skradzione w wyniku cyberataku."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Krajowe Centrum Informacji o Przestępczości (NCIC) to centralna baza danych i centrum informacji o przestępczości w Stanach Zjednoczonych, służące do śledzenia informacji związanych z przestępczością. NCIC jest narzędziem do wymiany informacji od 1967 roku. Jest on prowadzony przez Departament Usług Informacyjnych Wymiaru Sprawiedliwości w Sprawach Karnych (CJIS) Federalnego Biura Śledczego (FBI) i jest powiązany z agencjami i urzędami federalnymi, plemiennymi, stanowymi i lokalnymi."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: National Crime Information Center",
+     "url": "https://en.wikipedia.org/wiki/National_Crime_Information_Center"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "National Crime Information Center",
+    "opis": "US central database of crime-related information",
+    "tekst": "The National Crime Information Center (NCIC) is the United States' central database and crime information center for tracking crime-related information. The NCIC has been an information sharing tool since 1967. It is maintained by the Criminal Justice Information Services Division (CJIS) of the Federal Bureau of Investigation (FBI) and is interlinked with federal, tribal, state, and local agencies and offices.",
+    "url": "https://en.wikipedia.org/wiki/National_Crime_Information_Center",
+    "język": "en"
+   },
+   "tagi": [
+    "National Crime Information Center",
+    "Associated Press",
+    "Saturday",
+    "Saturday President Donald Trump"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Technology",
+     "tytuł": "FBI investigating apparent hack of its key national criminal justice database",
+     "url": "https://techxplore.com/news/2026-11-fbi-apparent-hack-key-national.html"
+    },
+    {
+     "nazwa": "TechCrunch",
+     "tytuł": "Trump says reported FBI database hack is ‘not good’",
+     "url": "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.761,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.25,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.426,
+     "treściwość": 0.185,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "FBI investigating apparent hack of its key national criminal justice database",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Tajemnicza luka sugeruje istnienie czarnych dziur powstałych z gwiazd, które nigdy nie eksplodowały",
+   "lead": "Największe gwiazdy we Wszechświecie często kończą swoje życie w spektakularnych eksplozjach zwanych supernowymi, wyrzucając w kosmos ogromne ilości materii. Pozostałe po nich jądra zapadają się pod wpływem grawitacji, tworząc gwiazdy neutronowe lub, w niektórych przypadkach, czarne dziury.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-22T11:46:42+00:00",
+   "źródło": {
+    "nazwa": "ScienceDaily Physics",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261121221126.htm",
+    "domena": "sciencedaily.com"
+   },
+   "obraz": "https://www.sciencedaily.com/images/1920/supermassive-black-hole-singularity.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jednak naukowcy od dawna podejrzewali, że niektóre masywne gwiazdy czekają zupełnie inne losy.",
+      "Zamiast eksplodować, mogą zapadać się bezpośrednio w gwiazdy neutronowe lub czarne dziury, skutecznie znikając bez wybuchu.",
+      "Nowe badania przeprowadzone pod kierunkiem Caltech ujawniły intrygujące dowody na to, że ta cichsza forma śmierci gwiazd może pomóc wyjaśnić pochodzenie wielu czarnych dziur.",
+      "Korzystając z obserwacji fal grawitacyjnych z sieci detektorów LIGO, Virgo i KAGRA, naukowcy zidentyfikowali wzorce sugerujące, że odrębna populacja czarnych dziur mogła powstać z gwiazd, które nigdy nie stały się supernowymi.",
+      "Chociaż wyniki nie potwierdzają bezpośrednio istnienia tych nieudanych supernowych, to jednak ściśle odpowiadają teoretycznym przewidywaniom dotyczącym sposobu rozmieszczenia takich czarnych dziur.",
+      "LIGO, czyli Laserowe Obserwatorium Interferometryczne Fal Grawitacyjnych, jest finansowane przez Narodową Fundację Nauki (NSF) i obsługuje detektory w Luizjanie i Waszyngtonie.",
+      "Od tego czasu LIGO współpracuje z obserwatorium Virgo we Włoszech i detektorem fal grawitacyjnych Kamioka (KAGRA) w Japonii.",
+      "Łącznie sieć zarejestrowała ponad 300 zderzeń czarnych dziur.",
+      "„Zdecydowana większość zlewających się czarnych dziur we Wszechświecie ma masę około 10 razy większą od masy naszego Słońca” – mówi członkini zespołu LIGO Katerina Chatziioannou, profesor fizyki na Caltech i posiadaczka stypendium im. Williama H."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "California Institute of Technology, Kalifornijski Instytut Techniczny – jedna z najlepszych amerykańskich uczelni niepublicznych, położona w Pasadenie w Kalifornii na przedmieściach Los Angeles."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: California Institute of Technology",
+     "url": "https://pl.wikipedia.org/wiki/California_Institute_of_Technology"
+    }
+   ],
+   "dlaczego_to_ważne": "W 2015 roku obserwatorium przeszło do historii, po raz pierwszy bezpośrednio wykrywając fale grawitacyjne.",
+   "liczby": [
+    "300",
+    "10",
+    "25",
+    "12",
+    "16",
+    "14"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "California Institute of Technology",
+    "opis": "prywatny uniwersytet amerykański",
+    "tekst": "California Institute of Technology, Kalifornijski Instytut Techniczny – jedna z najlepszych amerykańskich uczelni niepublicznych, położona w Pasadenie w Kalifornii na przedmieściach Los Angeles.",
+    "url": "https://pl.wikipedia.org/wiki/California_Institute_of_Technology",
+    "język": "pl"
+   },
+   "tagi": [
+    "Caltech",
+    "Virgo",
+    "Sun",
+    "National Science Foundation"
+   ],
+   "emotki": [
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "ScienceDaily Physics",
+     "tytuł": "A mysterious gap hints at black holes born from stars that never exploded",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261121221126.htm"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 2.746,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.385,
+     "treściwość": 0.411,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "A mysterious gap hints at black holes born from stars that never exploded",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "fizyka",
+    "nazwa": "Fizyka",
+    "emoji": "⚛️",
+    "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
+   },
+   "nagłówek": "Międzygwiezdne żagle słoneczne napotykają dziwny problem przy 75% prędkości światła",
+   "lead": "Dotarcie do innej gwiazdy będzie wymagało statku kosmicznego zdolnego do podróżowania znacznie szybciej niż cokolwiek, co ludzkość zbudowała do tej pory. Konwencjonalne rakiety napędzane paliwem chemicznym po prostu nie są w stanie osiągnąć ogromnych prędkości potrzebnych do pokonania odległości między gwiazdami w rozsądnym czasie.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-22T11:59:29+00:00",
+   "źródło": {
+    "nazwa": "ScienceDaily Physics",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261120071305.htm",
+    "domena": "sciencedaily.com"
+   },
+   "obraz": "https://www.sciencedaily.com/images/1920/diffractive-solar-sail.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jedną z obiecujących alternatyw jest żagiel słoneczny – ogromna, lekka powierzchnia odbijająca, która wykorzystuje pęd światła do napędzania statku kosmicznego w kosmosie.",
+      "Niektóre proponowane misje międzygwiezdne posunęłyby tę koncepcję jeszcze dalej, wykorzystując potężne lasery do nadawania żaglom niezwykłych prędkości, potencjalnie osiągając znaczną część prędkości światła.",
+      "Jednak nowe badania sugerują, że to podejście wiąże się z nieoczekiwaną komplikacją.",
+      "Przy ekstremalnych prędkościach część światła napędzającego statek kosmiczny do przodu może zacząć działać przeciwko niemu.",
+      "W niedawno opublikowanej pracy dostępnej na arXiv Chao Shen i Jiaze Li z Harbińskiego Instytutu Technologicznego badają, w jaki sposób światło oddziałuje z szybko przyspieszającym żaglem słonecznym.",
+      "Ich odkrycia ujawniają zaskakujące źródło oporu, które pojawia się, gdy statek kosmiczny zbliża się do 75% prędkości światła.",
+      "Jak światło może popychać statek kosmiczny w kosmosie Chociaż światło nie ma masy, ma pęd i może przenosić ten pęd na obiekty, w które uderza.",
+      "W normalnych warunkach efekt ten jest niezwykle słaby, ale w kosmicznej próżni duży żagiel odbijający światło może stopniowo nabierać prędkości, gdy światło wciąż pada na jego powierzchnię.",
+      "W przypadku statków kosmicznych podróżujących między gwiazdami potężne lasery mogłyby stanowić znacznie bardziej skoncentrowane źródło światła niż Słońce."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Światło, światło widzialne lub promieniowanie widzialne to promieniowanie elektromagnetyczne, które może być dostrzegane przez ludzkie oko. Światło widzialne obejmuje widmo widzialne i zazwyczaj definiuje się je jako mające długości fal w zakresie 400–700 nanometrów (nm), co odpowiada częstotliwościom 750–420 teraherców. Pasmo światła widzialnego sąsiaduje z promieniowaniem podczerwonym i ultrafioletowym, które łącznie określa się mianem promieniowania optycznego."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Light",
+     "url": "https://en.wikipedia.org/wiki/Light"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "75%"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Light",
+    "opis": "Electromagnetic radiation humans can see",
+    "tekst": "Light, visible light, or visible radiation is electromagnetic radiation that can be perceived by the human eye. Visible light spans the visible spectrum and is usually defined as having wavelengths in the range of 400–700 nanometers (nm), corresponding to frequencies of 750–420 terahertz. The visible band sits adjacent to the infrared and the ultraviolet, called collectively optical radiation.",
+    "url": "https://en.wikipedia.org/wiki/Light",
+    "język": "en"
+   },
+   "tagi": [
+    "Light",
+    "Light Speed Light Starts Working Against",
+    "Spacecraft Through Space Although",
+    "Strange Problem Emerges Near"
+   ],
+   "emotki": [
+    "🔬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "ScienceDaily Physics",
+     "tytuł": "Interstellar solar sails hit a bizarre problem at 75% of light speed",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261120071305.htm"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 2.579,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.72,
+     "słowa_kluczowe": 0.0,
+     "świeżość": 0.387,
+     "treściwość": 0.422,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Interstellar solar sails hit a bizarre problem at 75% of light speed",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Czy aktywność gwiazdy wpływa na ucieczkę atmosfery egzoplanety? Nowe obserwacje układu LHS 1140 za pomocą teleskopu XMM-Newton",
+   "lead": "Jednym z ważnych zagadnień współczesnych badań egzoplanet jest zrozumienie, w jakich warunkach planety te mogą zachować swoje atmosfery. Ma to szczególne znaczenie w odpowiedzi na fundamentalne pytanie: jak aktywność gwiazdy wpływa na ewolucję atmosfer planet krążących wokół niej.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-22T18:01:29+00:00",
+   "źródło": {
+    "nazwa": "Urania",
+    "url": "https://www.urania.edu.pl/wiadomosci/czy-aktywnosc-gwiazdy-wplywa-na-ucieczke-atmosfery-egzoplanety-nowe-obserwacje-ukladu",
+    "domena": "urania.edu.pl"
+   },
+   "obraz": null,
+   "sekcje": [],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "XMM-Newton Jednym"
+   ],
+   "emotki": [
+    "🪐",
+    "🔭"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Urania",
+     "tytuł": "Czy aktywność gwiazdy wpływa na ucieczkę atmosfery egzoplanety? Nowe obserwacje układu LHS 1140 za pomocą teleskopu XMM-Newton",
+     "url": "https://www.urania.edu.pl/wiadomosci/czy-aktywnosc-gwiazdy-wplywa-na-ucieczke-atmosfery-egzoplanety-nowe-obserwacje-ukladu"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.764,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.15,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.463,
+     "treściwość": 0.351,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Jeden dzień świetlny. Tak daleko sięgnęła ludzka ręka",
+   "lead": "Tak naprawdę nie ma to absolutnie żadnego znaczenia poza symbolicznym. Choć z drugiej strony, taka symbolika ma też miejsce w naszym życiu.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-22T19:19:41+00:00",
+   "źródło": {
+    "nazwa": "Puls Kosmosu",
+    "url": "https://www.pulskosmosu.pl/2026/11/jeden-dzien-swietlny-tak-daleko-siegnela-ludzka-reka/",
+    "domena": "pulskosmosu.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Oto sonda Voyager 1, która wystartowała z Ziemi w 1977 r. aby zbadać zewnętrzne planety Układu Słonecznego, w ostatnich dniach oddaliła się od nas na odległość 1 dnia świetlnego.",
+      "Jeszcze żaden obiekt stworzony ludzkimi rękoma nigdy tego nie dokonał.",
+      "1 dzień świetlny to nic innego, jak odległość, jaką światło pokonuje z prędkością światła w ciągu 24 godzin.",
+      "W bardziej przyziemnych jednostkach jest to odległość 25,9 miliarda kilometrów.",
+      "Trzeba przyznać, że jest to odległość imponująca, wszak Słońce znajduje się zaledwie 150 mln km od Ziemi, a ostatnia planeta Układu Słonecznego (Neptun, nie Pluton) jest „jedynie” 4,5 mld km od nas.",
+      "W skali naszego Układu Słonecznego jest to zatem naprawdę dużo.",
+      "Oczywiście wystarczy wyjść poza nasze podwórko oświetlane przez Słońce, aby zmienić zdanie.",
+      "Wyjdźcie na dwór w pogodną, bezksiężycową i bezchmurną noc i spójrzcie w górę.",
+      "Gwiazd zobaczycie tam gołym okiem całkiem sporo."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Słońce (łac. Sol, gr. Ἥλιος, trb. Hḗlios; symbol: ) – gwiazda centralna Układu Słonecznego, wokół której orbituje Ziemia, inne planety tego układu, planety karłowate oraz małe ciała Układu Słonecznego. Słońce składa się z gorącej plazmy utrzymywanej przez grawitację i kształtowanej przez pole magnetyczne. Jest prawie idealnie kuliste. Ma średnicę około 1 392 684 km, około 109 razy większą niż Ziemia, a jego masa (1,989 ×1030 kg, około 333 tysiące razy większa niż masa Ziemi (M⊕)) stanowi około 99,86% całkowitej masy Układu Słonecznego. Około trzy czwarte masy Słońca stanowi wodór, resztę głównie hel. Pozostałe 1,69% (co odpowiada około 5600 M🜨) tworzą cięższe pierwiastki, w tym m.in. tlen, węgiel, neon i żelazo."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Słońce",
+     "url": "https://pl.wikipedia.org/wiki/S%C5%82o%C5%84ce"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "1 dni",
+    "24 godzin",
+    "25,9 miliarda",
+    "150 mln",
+    "4,5 mld",
+    "4 lat"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Słońce",
+    "opis": "centralna gwiazda Układu Słonecznego",
+    "tekst": "Słońce (łac. Sol, gr. Ἥλιος, trb. Hḗlios; symbol: ) – gwiazda centralna Układu Słonecznego, wokół której orbituje Ziemia, inne planety tego układu, planety karłowate oraz małe ciała Układu Słonecznego. Słońce składa się z gorącej plazmy utrzymywanej przez grawitację i kształtowanej przez pole magnetyczne. Jest prawie idealnie kuliste. Ma średnicę około 1 392 684 km, około 109 razy większą niż Ziemia, a jego masa (1,989 ×1030 kg, około 333 tysiące razy większa niż masa Ziemi (M⊕)) stanowi około 99,86% całkowitej masy Układu Słonecznego. Około trzy czwarte masy Słońca stanowi wodór, resztę głównie hel. Pozostałe 1,69% (co odpowiada około 5600 M🜨) tworzą cięższe pierwiastki, w tym m.in. tlen, węgiel, neon i żelazo.",
+    "url": "https://pl.wikipedia.org/wiki/S%C5%82o%C5%84ce",
+    "język": "pl"
+   },
+   "tagi": [
+    "Voyager",
+    "Słońce",
+    "Ziemi",
+    "Układu Słonecznego"
+   ],
+   "emotki": [
+    "🌌"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Puls Kosmosu",
+     "tytuł": "Jeden dzień świetlny. Tak daleko sięgnęła ludzka ręka",
+     "url": "https://www.pulskosmosu.pl/2026/11/jeden-dzien-swietlny-tak-daleko-siegnela-ludzka-reka/"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.27,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 0.9,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.479,
+     "treściwość": 0.441,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "Wtyczka automatyzująca aktualizację Rejestru Urbanistycznego",
+   "lead": "Firma Geo-System udostępniła swoim klientom bezpłatną wtyczkę do przeglądarki Google Chrome, która automatyzuje przekazywanie obowiązujących miejscowych planów zagospodarowania przestrzennego do Repozytorium Rejestru Urbanistycznego. Narzędzie zostało zaprezentowane 19 listopada podczas seminarium on-line.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-23T00:00:00+00:00",
+   "źródło": {
+    "nazwa": "Geoforum",
+    "url": "https://geoforum.pl/news/37547/wtyczka-automatyzujaca-aktualizacje-rejestru-urbanistycznego",
+    "domena": "geoforum.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Obecnie wprowadzanie danych do RU odbywa się ręcznie..."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "19",
+    "30"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Rejestru Urbanistycznego Firma Geo-System",
+    "Repozytorium Rejestru Urbanistycznego",
+    "Rejestrze Urbanistycznym",
+    "Google Chrome"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Geoforum",
+     "tytuł": "Wtyczka automatyzująca aktualizację Rejestru Urbanistycznego",
+     "url": "https://geoforum.pl/news/37547/wtyczka-automatyzujaca-aktualizacje-rejestru-urbanistycznego"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.698,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.81,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.538,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "geografia",
+    "nazwa": "Geografia",
+    "emoji": "🗺️",
+    "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
+   },
+   "nagłówek": "SmartGML z uniwersalnym kreatorem wydruku map",
+   "lead": "Firma Geo-System udostępniła 22 listopada 2026 wersję 1.2.4 programu SmartGML. Najważniejszą nowością jest kreator wydruku, w którym kompozycję składa się z map, ramek, etykiet, obrazów, pieczątek, tabelek i wykazów, na wzór układów wydruku znanych z programów GIS.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-23T00:00:00+00:00",
+   "źródło": {
+    "nazwa": "Geoforum",
+    "url": "https://geoforum.pl/news/37545/smartgml-z-uniwersalnym-kreatorem-wydruku-map",
+    "domena": "geoforum.pl"
+   },
+   "obraz": null,
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Kompozycja może mieć format od A4 do A0, w pionie lub w poziomie, a w projekcie można zapisać ich wiele.",
+      "Na jednej kartce może być dowolnie wiele map, każda z własnym kadrem, skalą i obrotem, także w kształcie elipsy lub koła jako..."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "22",
+    "1.2.4"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Firma Geo-System",
+    "SmartGML"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Geoforum",
+     "tytuł": "SmartGML z uniwersalnym kreatorem wydruku map",
+     "url": "https://geoforum.pl/news/37545/smartgml-z-uniwersalnym-kreatorem-wydruku-map"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.518,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.538,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "Gwiazda po raz drugi powiedziała \"tak\". Nie była w stanie powstrzymać łez",
+   "lead": "Miley Cyrus jest już po drugim ślubie! Uroczystość utrzymywano w tajemnicy przed mediami niemal do samego końca.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-22T08:32:27+00:00",
+   "źródło": {
+    "nazwa": "Interia Muzyka",
+    "url": "https://muzyka.interia.pl/pop/news-miley-cyrus-i-maxx-morando-wzieli-slub-gwiazda-nie-kryla-lez,nId,23577117",
+    "domena": "muzyka.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NK3KVPHC70F6J-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Przysięgę małżeńską para złożyła w willi należącej do samego Franka Sinatry.",
+      "W sobotę, 21 listopada, w kalifornijskim Palm Springs na ślubnym kobiercu stanęli Miley Cyrus oraz perkusista formacji Liily, Maxx Morando .",
+      "Informację tę potwierdzili informatorzy magazynu \"People\" , zaraz po pierwszych doniesieniach opublikowanych przez \"Entertainment Tonight\".",
+      "Panna młoda zachwyciła elegancką, sięgającą ziemi białą kreacją z długim rękawem oraz efektownym trenem.",
+      "Na opublikowanych w sieci fragmentach nagrań widać, jak ogromne emocje towarzyszyły artystce.",
+      "Podczas wypowiadania słów przysięgi piosenkarka nie zdołała powstrzymać wzruszenia i ocierała spływające po policzkach łzy chusteczką.",
+      "W tym podniosłym momencie towarzyszyli im bliscy.",
+      "Na miejscu zjawili się m.in. matka piosenkarki Tish Cyrus , siostra Noah Cyrus oraz ojciec Billy Ray Cyrus , któremu towarzyszyła partnerka Elizabeth Hurley .",
+      "Świętowanie zainaugurowano zresztą już w piątek, 20 listopada, podczas przedślubnego wieczoru."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "Fani po raz pierwszy dostrzegli okazały pierścionek z brylantem na palcu gwiazdy w trakcie uroczystej premiery kinowej produkcji \"Avatar: Ogień i popiół\".",
+   "liczby": [
+    "21",
+    "20"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Franka Sinatry",
+    "Miley Cyrus",
+    "Entertainment Tonight",
+    "Liily Maxx Morando"
+   ],
+   "emotki": [
+    "🎵"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Muzyka",
+     "tytuł": "Gwiazda po raz drugi powiedziała \"tak\". Nie była w stanie powstrzymać łez",
+     "url": "https://muzyka.interia.pl/pop/news-miley-cyrus-i-maxx-morando-wzieli-slub-gwiazda-nie-kryla-lez,nId,23577117"
+    },
+    {
+     "nazwa": "BBC Kultura",
+     "tytuł": "Miley Cyrus marries Maxx Morando in California ceremony",
+     "url": "https://www.bbc.co.uk/news/articles/cq8e0p87l89lo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Culture",
+     "tytuł": "Miley Cyrus weds drummer Maxx Morando in California – reports",
+     "url": "https://www.theguardian.com/music/2026/nov/22/miley-cyrus-maxx-morando-wedding"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.917,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.492,
+     "eksponowanie": 0.72,
+     "słowa_kluczowe": 1.4,
+     "świeżość": 0.505,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "popkultura",
+    "nazwa": "Popkultura",
+    "emoji": "🎬",
+    "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
+   },
+   "nagłówek": "67-letni lider A-ha walczy z wyniszczającą chorobą. \"Tracę samego siebie\"",
+   "lead": "Nagłe skurcze mięśni, niekontrolowane ruchy, łzy pojawiające się bez powodu. Dla Mortena Harketa, wokalisty zespołu A-ha, to nie tylko objawy choroby Parkinsona, ale także doświadczenia, które sprawiają, że coraz trudniej rozpoznaje samego siebie.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-22T17:20:33+00:00",
+   "źródło": {
+    "nazwa": "Onet Kultura",
+    "url": "https://kultura.onet.pl/muzyka/wiadomosci/morten-harket-choruje-na-parkinsona-najtrudniejsze-jest-tracenie-siebie/lx82vt9",
+    "domena": "kultura.onet.pl"
+   },
+   "obraz": "https://cdn.kultura.onet.pl/1/2uJk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy8zZDhiOWI2YjQxNzk5OGQ3ZmNjOTZhYTFjNzM3MzJhZS5qcGeSlQMAUM0TH80KwZMFzQlgzQZA3gACoTAHoTEE",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Artysta przyznaje, że ma poczucie, jakby stopniowo tracił własną tożsamość."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Piosenkarka pochwaliła się tym na Instagramie, publikując zestaw fotografii dokumentujących różne obszary swojej codzienności.",
+      "Obok ujęć ze sceny, na których występuje przed wielotysięczną publicznością, znalazły się zdjęcia ze studia nagraniowego oraz zagranicznych podróży."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Muzyka",
+     "ujęcie": "Roksana Węgiel podzieliła się z obserwatorami wspomnieniem jednego z trudniejszych momentów w swoim życiu.",
+     "url": "https://muzyka.interia.pl/mocny-temat/news-roxie-wegiel-wprost-o-zyciu-z-nieuleczalna-choroba-nie-zawsz,nId,23577180"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "A-ha",
+    "Mortena Harketa",
+    "Parkinsona",
+    "Nagłe"
+   ],
+   "emotki": [],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Onet Kultura",
+     "tytuł": "67-letni lider A-ha walczy z wyniszczającą chorobą. \"Tracę samego siebie\"",
+     "url": "https://kultura.onet.pl/muzyka/wiadomosci/morten-harket-choruje-na-parkinsona-najtrudniejsze-jest-tracenie-siebie/lx82vt9"
+    },
+    {
+     "nazwa": "Interia Muzyka",
+     "tytuł": "Roxie Węgiel walczy się z nieuleczalną chorobą. Pokazała poruszające kadry",
+     "url": "https://muzyka.interia.pl/mocny-temat/news-roxie-wegiel-wprost-o-zyciu-z-nieuleczalna-choroba-nie-zawsz,nId,23577180"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.743,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.135,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.454,
+     "treściwość": 0.404,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  }
+ ],
+ "braki": [],
+ "statystyki": {
+  "kanały_ok": 70,
+  "kanały_błędne": 1,
+  "znaki_tłumaczone": 16949,
+  "niedziałające_kanały": [
+   {
+    "url": "https://www.crazynauka.pl/feed/",
+    "powód": "brak wpisów / nieznany format"
+   }
+  ],
+  "działy": 18,
+  "artykuły_w_oknie": 43
+ }
+}
