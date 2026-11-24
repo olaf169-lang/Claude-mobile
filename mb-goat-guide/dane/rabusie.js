@@ -82,7 +82,7 @@ const RB_PATHS = [
 // Porady: [tytuł, treść, źródło]
 const RB_TIPS = [
   ["Pojedynek z hersztem","W kryjówce wygraj pojedynek z hersztem: wszyscy bandyci, którzy za nim stoją, trafiają do Ciebie jako jeńcy.","rb_duel"],
-  ["Awans na żołnierzy królestwa","Starsze poradniki podają, że do awansu bandytów na zwykłe jednostki potrzebny jest perk Disciplinarian (Przywództwo 125). Sprawdź w grze, czy w 1.5 nadal tak jest.","rb_disc"],
+  ["Awans na żołnierzy królestwa","Bandyci awansują na zwykłe jednostki tylko z perkiem Disciplinarian. Potwierdzone w grze na łatce 1.5. Poradniki podają próg Przywództwa 125.","rb_disc"],
   ["Herszt nie awansuje","Szefowie i herszci band (Boss) są mocni od razu, ale nie da się ich już ulepszyć.","rb_paths"],
   ["Morale","Zbyt wielu bandytów w drużynie obniża morale, więc dorzucaj ich z umiarem.","rb_mb"]
 ];
