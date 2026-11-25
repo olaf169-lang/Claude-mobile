@@ -4,15 +4,15 @@
    Zdjęcia i czcionki: najpierw półka, bo się nie zmieniają.
    Po każdej zmianie plików podbij POLKA. */
 
-const POLKA = 'silka-v3';
+const POLKA = 'silka-v4';
 const SZKIELET = [
   './', './index.html', './styles.css', './manifest.webmanifest',
   './js/app.js', './js/dane.js', './js/logika.js', './js/magazyn.js', './js/ui.js',
   './js/koks.js', './js/swieto.js', './js/wykres.js', './js/arkusze.js', './js/odpoczynek.js',
-  './js/ekran-start.js', './js/ekran-trening.js', './js/ekran-rozciaganie.js', './js/ekran-postepy.js',
+  './js/przypomnienia.js', './js/ekran-start.js', './js/ekran-trening.js', './js/ekran-rozciaganie.js', './js/ekran-postepy.js',
   './fonts/barlow-400.woff', './fonts/barlow-600.woff',
   './fonts/barlow-condensed-700.woff', './fonts/barlow-condensed-800.woff',
-  './icons/favicon.svg', './icons/icon-192.png',
+  './icons/favicon.svg', './icons/icon-192.png', './icons/odznaka-96.png',
 ];
 // Lista zgodna z narzedzia/zdjecia.txt (pilnuje tego narzedzia/sprawdz.mjs).
 const ZDJECIA = [
@@ -189,4 +189,31 @@ self.addEventListener('fetch', (e) => {
       })
       .catch(() => caches.match(e.request).then((z) => z || caches.match('./index.html'))),
   );
+});
+
+/* Przypomnienie o przerwie. FCM dowozi je jako zwykły Web Push z czystym
+   JSON-em (tytul, tresc, url), wysyła Cloud Function silkaPrzypomnienie. */
+self.addEventListener('push', (e) => {
+  let dane = {};
+  try { dane = e.data ? e.data.json() : {}; } catch { /* puste powiadomienie */ }
+  if (dane.data) dane = dane.data;
+  e.waitUntil(self.registration.showNotification(dane.tytul || 'Siłka Piąteczki', {
+    body: dane.tresc || 'Czas na trening.',
+    icon: 'icons/icon-192.png',
+    badge: 'icons/odznaka-96.png',
+    tag: 'silka-przerwa',
+    renotify: true,
+    vibrate: [120, 60, 120],
+    data: { url: dane.url || './#/start' },
+  }));
+});
+
+self.addEventListener('notificationclick', (e) => {
+  e.notification.close();
+  // Pełna ścieżka z zakresu serwisanta, bo apka nie siedzi w katalogu głównym domeny.
+  const url = new URL(e.notification.data?.url || './', self.registration.scope).href;
+  e.waitUntil(self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then((lista) => {
+    for (const k of lista) if ('focus' in k) { k.navigate(url); return k.focus(); }
+    return self.clients.openWindow(url);
+  }));
 });

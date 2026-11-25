@@ -6,6 +6,7 @@ import { statystyki, fmtKg, tonaz } from './logika.js';
 import { esc, kolor, godloOdznaki, toast, arkusz, dataLadnie } from './ui.js';
 import { punktyCwiczenia, mini } from './wykres.js';
 import { szczegoly } from './arkusze.js';
+import { wspierane, wlaczone, wlacz, wylacz, zablokowane } from './przypomnienia.js';
 
 export function ekranPostepy(el) {
   const s = pobierz();
@@ -59,6 +60,7 @@ export function ekranPostepy(el) {
         <label class="wiersz-ust"><span>Odpoczynek między seriami</span>
           <select data-przerwa>${[60, 75, 90, 120, 150, 180].map((v) => `<option value="${v}" ${v === s.ustawienia.przerwa ? 'selected' : ''}>${Math.floor(v / 60)}:${String(v % 60).padStart(2, '0')}</option>`).join('')}</select>
         </label>
+        ${wspierane() ? `<div class="wiersz-ust"><span>Przypomnienie o przerwie<br><span class="maly cichy">${zablokowane() ? 'Powiadomienia są zablokowane w ustawieniach strony w Chrome.' : 'Push o 17:00 po 4 i 5 dniach bez treningu'}</span></span><button class="przelacznik" type="button" role="switch" aria-checked="${wlaczone()}" data-push aria-label="Przypomnienie o przerwie"></button></div>` : ''}
         <div class="wiersz-ust"><span>Dźwięki</span><button class="przelacznik" type="button" role="switch" aria-checked="${s.ustawienia.dzwiek}" data-dzwiek aria-label="Dźwięki"></button></div>
         <div class="wiersz-ust" style="display:grid;gap:8px">
           <span>Kopia zapasowa<br><span class="maly cichy">Dane są tylko w tym telefonie. Zrób kopię przed zmianą telefonu albo czyszczeniem przeglądarki.</span></span>
@@ -76,6 +78,21 @@ export function ekranPostepy(el) {
   el.querySelector('[data-dzwiek]').addEventListener('click', (e) => {
     zmien((x) => { x.ustawienia.dzwiek = !x.ustawienia.dzwiek; });
     e.currentTarget.setAttribute('aria-checked', String(pobierz().ustawienia.dzwiek));
+  });
+  el.querySelector('[data-push]')?.addEventListener('click', async (e) => {
+    const b = e.currentTarget;
+    b.disabled = true;
+    try {
+      if (wlaczone()) { await wylacz(); toast('Przypomnienia wyłączone'); } else {
+        const daty = s.treningi.map((t) => t.data).sort();
+        await wlacz(daty[daty.length - 1]);
+        toast('Przypomnienia włączone');
+      }
+    } catch (err) {
+      toast(err.message || 'Nie udało się zmienić przypomnień', 4000);
+    }
+    b.disabled = false;
+    b.setAttribute('aria-checked', String(wlaczone()));
   });
   el.querySelector('[data-eksport]').addEventListener('click', () => {
     const blob = new Blob([eksport()], { type: 'application/json' });

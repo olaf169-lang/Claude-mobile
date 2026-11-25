@@ -48,9 +48,31 @@ Przy zamianie w trakcie treningu wybierasz: tylko dziś albo na stałe w planie.
 Można też wybrać z pełnej listy podzielonej na obszary albo wpisać własne
 ćwiczenie, które zapisze się na stałe.
 
+## Przypomnienia push
+
+Codziennie o 17:00 Cloud Function `silkaPrzypomnienie` (w `jaka-to-melodia/functions`,
+ten sam projekt Firebase co Jaka to Melodia i Piąteczka) sprawdza datę ostatniego
+treningu i wysyła push: po 4 dniach („Jutro mija 5 dni”), po 5 („Minęło 5 dni”)
+i po 7 („Seria przerwana”). Działa przy zamkniętej apce.
+
+Włączanie: karta na ekranie Koks albo Postępy → Ustawienia → Przypomnienie o przerwie.
+Telefon zapisuje w Firestore (`silkaPrzypomnienia/{token}`) tylko token i datę
+ostatniego treningu, resztę danych trzyma u siebie.
+
+**Wdrożenie (raz, z komputera):**
+
+```bash
+cd jaka-to-melodia/functions && npm install && cd ..
+firebase deploy --only functions,firestore:rules
+```
+
+Do czasu wdrożenia włączenie przypomnień nie zadziała (reguły odrzucą zapis),
+a reszta apki działa normalnie.
+
 ## Dane
 
-Wszystko w `localStorage` telefonu (klucz `silka:v1`). Bez kont i serwera.
+Wszystko w `localStorage` telefonu (klucz `silka:v1`). Bez kont. Jedyny wyjątek to
+token i data ostatniego treningu dla przypomnień push, jeśli je włączysz.
 Kopia zapasowa: Postępy → Ustawienia → Zapisz kopię (plik JSON) / Wczytaj kopię.
 
 ## Pliki
@@ -66,6 +88,7 @@ js/
   swieto.js            pełnoekranowe nagrody
   ekran-*.js           cztery ekrany
   arkusze.js           szczegóły ćwiczenia, wybór zamiennika
+  przypomnienia.js     zgoda na push, token i data ostatniego treningu w Firestore
   odpoczynek.js, wykres.js, ui.js
 img/cw/                kadry ćwiczeń (start i koniec ruchu), webp
 fonts/                 Barlow i Barlow Condensed (OFL), tylko znaki łacińskie z polskimi
