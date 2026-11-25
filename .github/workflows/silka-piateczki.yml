@@ -1,0 +1,29 @@
+name: Siłka Piąteczki, kontrola
+
+# Sama strona publikuje się razem z Przeglądem News (workflow przeglad.yml
+# dokłada katalog silka-piateczki/ do wydania Pages jako podstronę). Tutaj zostaje
+# to, co trzeba sprawdzić przy każdej zmianie aplikacji.
+on:
+  push:
+    paths:
+      - "silka-piateczki/**"
+      - ".github/workflows/silka-piateczki.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sprawdz:
+    name: Sprawdź aplikację
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Składnia, dane, tryb offline, logika, brak pauz
+        working-directory: silka-piateczki
+        run: node narzedzia/sprawdz.mjs >> "$GITHUB_STEP_SUMMARY"

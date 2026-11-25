@@ -17,6 +17,7 @@ on:
       - "jaka-to-melodia/**"
       - "piateczka/**"
       - "mb-goat-guide/**"
+      - "silka-piateczki/**"
       - ".github/workflows/przeglad.yml"
   schedule:
     - cron: "0 6 * * *"
@@ -152,14 +153,14 @@ jobs:
 
       # Pozostałe aplikacje z repozytorium jadą tym samym wydaniem Pages, każda
       # pod własnym adresem (/bangladesz26/, /jaka-to-melodia/, /piateczka/,
-      # /mb-goat-guide/). Na stronę idzie tylko to, co ma działać w przeglądarce:
+      # /mb-goat-guide/, /silka-piateczki/). Na stronę idzie tylko to, co ma działać w przeglądarce:
       # narzędzia, zrzuty, README, notatki dla Claude'a i zależności testowe
       # zostają w repozytorium. Nowa aplikacja = jedna nazwa więcej w pętli
       # i jedna ścieżka więcej w `on.push.paths` na górze pliku.
       - name: Dołóż pozostałe aplikacje do strony
         run: |
           set -euo pipefail
-          for app in bangladesz26 jaka-to-melodia piateczka mb-goat-guide; do
+          for app in bangladesz26 jaka-to-melodia piateczka mb-goat-guide silka-piateczki; do
             rm -rf "web/$app"
             mkdir -p "web/$app"
             cp -r "$app/." "web/$app/"
