@@ -1,7 +1,8 @@
 /* Reguły dostępu do Firestore dla trybu wyzwań i Turnieju Piąteczki
    (jaka-to-melodia) oraz dla badmintonowego Turnieju Pana Piąteczki
-   (katalog piateczka/ — obie aplikacje dzielą jeden projekt Firebase,
-   więc i jeden zestaw reguł; sekcja badmintonowa jest na samym dole).
+   (katalog piateczka/) i dla Siłki Piąteczki (silka-piateczki/). Wszystkie
+   dzielą jeden projekt Firebase, więc i jeden zestaw reguł; sekcje Siłki
+   i badmintona są na samym dole.
 
    Aplikacja nie ma logowania — kto ma link/QR do wyzwania albo pojedynku,
    ten może je zobaczyć i dograć. To świadomy kompromis dla gry towarzyskiej
@@ -146,6 +147,17 @@ service cloud.firestore {
       allow read: if false;
       allow create, update: if request.resource.data.keys().hasAll(['token', 'ksywka', 'urzadzenie']);
       allow delete: if false;
+    }
+
+    /* Siłka Piąteczki (katalog silka-piateczki/): token push telefonu
+       i data ostatniego treningu, żeby Cloud Function silkaPrzypomnienie
+       wiedziała, komu i kiedy przypomnieć o siłowni. Id dokumentu = token.
+       Odczyt zamknięty jak przy tokenyPush, funkcja czyta przez Admin SDK. */
+    match /silkaPrzypomnienia/{token} {
+      allow read: if false;
+      allow create, update: if request.resource.data.keys().hasOnly(['token', 'ostatniTrening', 'zaktualizowano'])
+                            && request.resource.data.token == token;
+      allow delete: if true;
     }
 
     /* ------------------------------------------ Turniej Pana Piąteczki

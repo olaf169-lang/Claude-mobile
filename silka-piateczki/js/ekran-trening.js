@@ -11,6 +11,7 @@ import { esc, ruch, kolor, IKONY, arkusz, toast, wibruj, dzwiek } from './ui.js'
 import { szczegoly, wyborCwiczenia } from './arkusze.js';
 import { startOdpoczynku, stopOdpoczynku } from './odpoczynek.js';
 import { swietujRekord, swietujTrening } from './swieto.js';
+import { zglosTrening } from './przypomnienia.js';
 
 let widokPlanu = null;
 let blokada = null;
@@ -504,6 +505,7 @@ async function zapiszTrening() {
   });
   stopOdpoczynku();
   trzymajEkran(false);
+  zglosTrening(trening.data);
   const xpPo = xpLaczne(pobierz());
   await swietujTrening({
     xp, przed, po: poziom(xpPo), xpPo, nowe, rekordy: trening.rekordy,

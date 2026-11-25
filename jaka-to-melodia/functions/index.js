@@ -3,7 +3,7 @@
    karty) nie może obudzić się o określonej porze ani zareagować na cudzy
    zapis w Firestore, do tego trzeba czegoś, co działa po stronie serwera.
 
-   Trzy funkcje:
+   Cztery funkcje (trzy dla Turnieju, jedna dla Siłki Piąteczki):
      naRuchWTurnieju       : reaguje na każdy zapisany ruch w pojedynku:
                                powiadamia, czyja jest kolej, albo że pojedynek
                                się zakończył.
@@ -13,6 +13,10 @@
      podsumowanieTygodniowe, w każdą niedzielę o 18:00 czasu polskiego
                                wysyła podsumowanie do wszystkich ksywek, które
                                rozegrały choć jeden mecz w ostatnim tygodniu.
+     silkaPrzypomnienie    : codziennie o 17:00 czasu polskiego sprawdza,
+                               ile dni minęło od ostatniego treningu w Siłce
+                               Piąteczki (katalog silka-piateczki/), i pinguje,
+                               gdy mijają 4, 5 albo 7 dni.
 
    Wdrożenie (jednorazowo, z Twojego komputera, ja nie mam jak stąd tego
    zrobić, to wymaga Twojego logowania do Firebase):
@@ -145,6 +149,53 @@ exports.podsumowanieTygodniowe = onSchedule(
         tresc: 'Tydzień Turnieju Piąteczki zakończony. Sprawdź tablicę wyników!',
         url: './#/turniej/tablica',
       });
+    }));
+  },
+);
+
+/* ------------------------------------------------ Siłka Piąteczki
+   Telefon zapisuje w kolekcji silkaPrzypomnienia swój token FCM i datę
+   ostatniego treningu (silka-piateczki/js/przypomnienia.js). Zasada
+   użytkownika: między treningami najwyżej 5 dni. Ping po 4 dniach (jutro
+   ostatni dzień), po 5 (dziś ostatni dzień) i po 7 (seria przerwana).
+   Potem cisza aż do kolejnego treningu, żeby nie spamować. */
+
+const STREFA = 'Europe/Warsaw';
+const dzienWarszawa = (data) => new Intl.DateTimeFormat('en-CA', { timeZone: STREFA }).format(data);
+function dniOd(iso, teraz = new Date()) {
+  const a = Date.parse(`${dzienWarszawa(new Date(iso))}T00:00:00Z`);
+  const b = Date.parse(`${dzienWarszawa(teraz)}T00:00:00Z`);
+  return Math.round((b - a) / 86400000);
+}
+
+const SILKA_URL = 'https://olaf169-lang.github.io/Claude-mobile/silka-piateczki/#/start';
+function silkaWiadomosc(dni) {
+  if (dni === 4) return { tytul: 'Jutro mija 5 dni', tresc: 'Ostatni trening 4 dni temu. Jutro najpóźniej siłka, koks czeka.' };
+  if (dni === 5) return { tytul: 'Minęło 5 dni bez siłki', tresc: 'Dziś ostatni dzień, żeby utrzymać serię. Pakuj torbę.' };
+  if (dni === 7) return { tytul: 'Seria przerwana', tresc: 'Tydzień bez treningu. Wróć dziś, zaczniesz nową serię.' };
+  return null;
+}
+exports._silka = { dniOd, silkaWiadomosc };
+
+exports.silkaPrzypomnienie = onSchedule(
+  { schedule: '0 17 * * *', timeZone: STREFA },
+  async () => {
+    const zrzut = await db.collection('silkaPrzypomnienia').get();
+    await Promise.all(zrzut.docs.map(async (dok) => {
+      const { token, ostatniTrening } = dok.data();
+      if (!token || !ostatniTrening) return;
+      const wiadomosc = silkaWiadomosc(dniOd(ostatniTrening));
+      if (!wiadomosc) return;
+      try {
+        await getMessaging().send({
+          token,
+          data: { ...wiadomosc, url: SILKA_URL },
+          webpush: { headers: { Urgency: 'high', TTL: '43200' } },
+        });
+      } catch (blad) {
+        // Telefon odinstalował apkę albo cofnął zgodę: sprzątamy wpis.
+        if (String(blad.code || '').includes('registration-token-not-registered')) await dok.ref.delete();
+      }
     }));
   },
 );

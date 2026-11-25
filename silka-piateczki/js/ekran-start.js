@@ -6,6 +6,8 @@ import { poziom, xpLaczne, serie, nastepnyPlan, rozciaganieWTygodniu } from './l
 import { MAKS_PRZERWA, ROZCIAGANIE_W_TYGODNIU, ODZNAKI } from './dane.js';
 import { esc, godloOdznaki } from './ui.js';
 import { zacznijTrening } from './ekran-trening.js';
+import { wspierane, wlaczone, wlacz } from './przypomnienia.js';
+import { toast } from './ui.js';
 
 function przerwaOpis(dni) {
   if (dni === null) return { wartosc: 'start', jednostka: '', klasa: '', tekst: 'Pierwszy trening przed Tobą' };
@@ -68,6 +70,16 @@ export function ekranStart(el) {
            <button class="btn-tekst" type="button" data-plan="${inny}">albo trening ${inny}</button>`}
     </div>
 
+    ${wspierane() && !wlaczone() && !localStorage.getItem('silka:bezPrzypomnien') ? `
+    <section class="sekcja przypomnienie-karta">
+      <h3>Przypomnienie o przerwie</h3>
+      <p class="maly cichy">Push o 17:00, gdy od treningu miną 4 dni, i drugi, gdy minie 5. Nawet jak nie otworzysz apki.</p>
+      <div class="przypomnienie-akcje">
+        <button class="btn" type="button" data-przypomnienia>Włącz przypomnienia</button>
+        <button class="btn-tekst" type="button" data-nie-teraz>Nie teraz</button>
+      </div>
+    </section>` : ''}
+
     <section class="sekcja">
       <div class="rozciaganie-karta">
         <div style="flex:1">
@@ -87,6 +99,22 @@ export function ekranStart(el) {
   `;
 
   el.querySelectorAll('[data-plan]').forEach((b) => b.addEventListener('click', () => zacznijTrening(b.dataset.plan)));
+  el.querySelector('[data-przypomnienia]')?.addEventListener('click', async (e) => {
+    e.currentTarget.disabled = true;
+    try {
+      const daty = s.treningi.map((t) => t.data).sort();
+      await wlacz(daty[daty.length - 1]);
+      toast('Przypomnienia włączone');
+      el.querySelector('.przypomnienie-karta')?.remove();
+    } catch (err) {
+      toast(err.message || 'Nie udało się włączyć przypomnień', 4000);
+      e.currentTarget.disabled = false;
+    }
+  });
+  el.querySelector('[data-nie-teraz]')?.addEventListener('click', () => {
+    localStorage.setItem('silka:bezPrzypomnien', '1');
+    el.querySelector('.przypomnienie-karta')?.remove();
+  });
 
   // Dotknięcie koksa: pręży się. Mała nagroda za samo wejście do apki.
   let trwa = false;

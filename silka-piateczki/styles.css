@@ -168,6 +168,11 @@ h3 { font-size: 20px; font-weight: 700; }
 .sekcja { margin-top: 26px; }
 .sekcja-tytul { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 10px; }
 
+.przypomnienie-karta {
+  background: var(--grafit); border: 1px solid var(--t-zolta); border-radius: var(--r); padding: 14px;
+}
+.przypomnienie-karta p { margin: 4px 0 10px; }
+.przypomnienie-akcje { display: flex; gap: 8px; align-items: center; }
 .rozciaganie-karta {
   display: flex; align-items: center; gap: 14px; background: var(--grafit);
   border-radius: var(--r); padding: 14px; border: 1px solid var(--linia);

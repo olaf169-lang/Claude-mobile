@@ -34,6 +34,16 @@ frameworka, jak reszta aplikacji w tym monorepo. Opis funkcji: `README.md`.
   Dane tylko w telefonie, z kopią do pliku.
 - Rozciąganie: 5 do 7 minut, 3 razy w tygodniu, bo „nienawidzi tego”, więc tryb prowadzony.
 
+## Przypomnienia push (od 2026-11-25, prośba użytkownika)
+
+- Projekt Firebase `jaka-to-piosenka-8ca81` (wspólny z jaka-to-melodia i piateczka).
+  Funkcja `silkaPrzypomnienie` i reguły `silkaPrzypomnienia` siedzą w `jaka-to-melodia/`
+  (`functions/index.js`, `firestore.rules`), bo jeden projekt = jeden zestaw.
+- **Nie da się ich wdrożyć z sandboksa.** Użytkownik musi raz puścić
+  `firebase deploy --only functions,firestore:rules` z katalogu jaka-to-melodia.
+  Jak ruszasz funkcję albo reguły, przypomnij mu o tym wprost.
+- Ping po 4, 5 i 7 dniach o 17:00 Warszawa, potem cisza do kolejnego treningu.
+
 ## Wygląd
 
 - Żeliwo i kreda: tło `#1F2329`, tekst `#EFECE6`. Kolory wyłącznie z tarcz olimpijskich

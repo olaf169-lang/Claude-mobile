@@ -5,6 +5,7 @@ import { ekranStart } from './ekran-start.js';
 import { ekranTrening } from './ekran-trening.js';
 import { ekranRozciaganie } from './ekran-rozciaganie.js';
 import { ekranPostepy } from './ekran-postepy.js';
+import { zglosTrening } from './przypomnienia.js';
 
 const EKRANY = {
   start: ekranStart,
@@ -39,3 +40,7 @@ pokaz();
 if ('serviceWorker' in navigator && location.protocol !== 'file:') {
   navigator.serviceWorker.register('sw.js').catch(() => {});
 }
+
+// Serwer od przypomnień dostaje datę ostatniego treningu (gdy push włączony).
+const daty = pobierz().treningi.map((t) => t.data).sort();
+zglosTrening(daty[daty.length - 1]);
