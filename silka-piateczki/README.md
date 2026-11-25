@@ -24,11 +24,20 @@ Na iPhonie: Safari → Udostępnij → „Do ekranu początkowego”.
 
 ### Nagrody
 
-- **XP:** 10 za serię, 100 za trening, 50 za rekord, 50 za komplet serii,
+- **XP za pracę:** każda odhaczona seria daje XP = ciężar × powtórzenia × trudność / 10.
+  Więcej kilogramów albo więcej powtórzeń to od razu więcej XP. Trudność to mnożnik
+  ćwiczenia (np. wznosy bokiem ×4, uginanie na skosie ×2,6, wyciskanie hantli ×2,
+  hip thrust ×0,7), żeby 9 kg w izolacji liczyło się uczciwie obok 80 kg na biodrach.
+  Ćwiczenia z masą ciała liczą część Twojej wagi (ustawiasz ją w Postępach) plus
+  dociążenie. Typowy trening to około 1000 do 1300 XP.
+- **Premie:** 100 za trening, 50 za rekord (raz na ćwiczenie), 50 za komplet serii,
   60 za trening po przerwie najwyżej 5 dni, 40 za rozciąganie.
-- **Poziomy:** Patyczak, Świeżak, Bywalec, Twardziel, Kafar, Koks, Byk, Tur,
-  Mamut, Legenda Piąteczki. Przy 1 do 2 treningach w tygodniu Legenda wypada
-  mniej więcej po roku.
+- **Poziomy (12):** Patyczak, Świeżak, Bywalec, Twardziel, Kafar, Koks, Byk, Tur, Mamut,
+  Tytan, Atlas, Legenda Piąteczki. Pierwsze wpadają po 1 do 3 treningach, każdy kolejny
+  wymaga więcej pracy. Legenda to mniej więcej 100 treningów. Na ekranie Koks widać
+  procent do następnego poziomu, ile XP brakuje i ile to treningów takich jak ostatnie.
+  Po treningu sztanga ładuje się na oczach, a przy awansie dobija do pełna.
+- XP liczy się zawsze od nowa z historii, więc zmiana zasad działa też wstecz.
 - **Koks** rośnie płynnie z każdym treningiem, nie tylko przy awansie.
   Dotknięcie koksa na ekranie głównym: pręży się.
 - **Rekord** (większy ciężar, więcej powtórzeń tym samym ciężarem albo wyższy

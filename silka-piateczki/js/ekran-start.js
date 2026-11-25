@@ -2,7 +2,7 @@
 
 import { rysujKoksa, rysujSztange, animujKoksa } from './koks.js';
 import { pobierz } from './magazyn.js';
-import { poziom, xpLaczne, serie, nastepnyPlan, rozciaganieWTygodniu } from './logika.js';
+import { poziom, xpLaczne, xpTreningow, serie, nastepnyPlan, rozciaganieWTygodniu, fmtLiczba } from './logika.js';
 import { MAKS_PRZERWA, ROZCIAGANIE_W_TYGODNIU, ODZNAKI } from './dane.js';
 import { esc, godloOdznaki } from './ui.js';
 import { zacznijTrening } from './ekran-trening.js';
@@ -23,6 +23,12 @@ export function ekranStart(el) {
   const s = pobierz();
   const xp = xpLaczne(s);
   const p = poziom(xp);
+  const historia = xpTreningow(s);
+  // Ile treningów zostało do kolejnego poziomu, licząc średnią z ostatnich trzech.
+  const ostatnie = historia.slice(-3).map((x) => x.suma);
+  const sredniTrening = ostatnie.length ? ostatnie.reduce((a, b) => a + b, 0) / ostatnie.length : 1200;
+  const brakuje = p.nastepny ? p.nastepny.prog - xp : 0;
+  const treningow = Math.max(1, Math.ceil(brakuje / sredniTrening));
   const sr = serie(s.treningi);
   const plan = nastepnyPlan(s.treningi);
   const inny = plan === 'A' ? 'B' : 'A';
@@ -44,9 +50,10 @@ export function ekranStart(el) {
     <div class="poziom">
       <div class="poziom-wiersz">
         <div class="poziom-nazwa"><small>Poziom ${p.numer}</small>${esc(p.nazwa)}</div>
-        <div class="poziom-xp"><b>${xp}</b> XP${p.nastepny ? `<br>${esc(p.nastepny.nazwa)} od ${p.nastepny.prog}` : '<br>Szczyt osiągnięty'}</div>
+        <div class="poziom-xp"><b>${fmtLiczba(xp)}</b> XP${p.nastepny ? `<br>${Math.round(p.postep * 100)}% do poziomu ${p.numer + 1}` : '<br>Szczyt osiągnięty'}</div>
       </div>
       <div class="sztanga" role="img" aria-label="Postęp do następnego poziomu: ${Math.round(p.postep * 100)} procent">${rysujSztange(p.postep)}</div>
+      ${p.nastepny ? `<p class="do-poziomu">Do poziomu <b>${esc(p.nastepny.nazwa)}</b> brakuje <b>${fmtLiczba(brakuje)} XP</b>, czyli około ${treningow} ${treningow === 1 ? 'trening' : treningow <= 4 ? 'treningi' : 'treningów'}${ostatnie.length ? ' takich jak ostatnie' : ''}.</p>` : ''}
     </div>
 
     <div class="licznik">
