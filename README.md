@@ -27,7 +27,7 @@ ma własne README ze szczegółami.
 
 Reszta tego pliku dotyczy **Przeglądu News**: to on zajmuje główny katalog
 repozytorium i to on publikuje stronę, do której pięć pozostałych aplikacji
-dokładają się jako podstrony.
+dokłada się jako podstrony.
 
 ---
 
