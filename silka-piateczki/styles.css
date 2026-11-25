@@ -128,9 +128,14 @@ h3 { font-size: 20px; font-weight: 700; }
   background: radial-gradient(ellipse at center, rgba(242,194,48,.16), transparent 70%);
 }
 .koks { width: 100%; height: 100%; }
+.scena .koks { height: min(38vh, 320px); }
 .koks svg { width: 100%; height: 100%; overflow: visible; }
 .koks .koks-cialo { transform-origin: 120px 290px; animation: oddech 3.6s ease-in-out infinite; }
 @keyframes oddech { 50% { transform: scale(1.012, 1.018); } }
+.koks .koks-oczy { transform-box: fill-box; transform-origin: center; animation: mrug 5s infinite; }
+@keyframes mrug { 0%, 94%, 100% { transform: scaleY(1); } 96% { transform: scaleY(.1); } }
+.koks .koks-opaska { transform-box: fill-box; transform-origin: 0 50%; animation: powiew 1.6s ease-in-out infinite; }
+@keyframes powiew { 50% { transform: rotate(9deg); } }
 .scena-podpowiedz { position: absolute; top: 8px; right: 16px; font-size: 13px; color: var(--popiol); }
 
 .poziom { display: grid; gap: 4px; margin-top: 6px; }

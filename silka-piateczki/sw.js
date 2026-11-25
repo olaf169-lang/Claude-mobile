@@ -4,7 +4,7 @@
    Zdjęcia i czcionki: najpierw półka, bo się nie zmieniają.
    Po każdej zmianie plików podbij POLKA. */
 
-const POLKA = 'silka-v2';
+const POLKA = 'silka-v3';
 const SZKIELET = [
   './', './index.html', './styles.css', './manifest.webmanifest',
   './js/app.js', './js/dane.js', './js/logika.js', './js/magazyn.js', './js/ui.js',
