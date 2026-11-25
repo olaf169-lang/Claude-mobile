@@ -1,121 +1,151 @@
 // Koks: rysunkowy siłacz, który rośnie razem z poziomem.
 // Wszystko liczone z dwóch liczb: masa (0 = patyczak, 1 = legenda)
-// i poza (0 = luz, 1 = podwójny biceps). Każda część to osobna bryła
-// z obrysem, bo jedna wspólna sylwetka czytała się jak worek.
+// i poza (0 = luz, 1 = podwójny biceps).
+// Proporcje jak u człowieka, około 7,5 głowy wzrostu: krok w połowie wysokości,
+// łokieć na wysokości talii, pięść w połowie uda. Ręce i nogi rysujemy dwa razy
+// (najpierw gruby obrys, potem samo wypełnienie), więc łokieć i kolano nie mają
+// szwu i nie wyglądają jak zawiasy lalki.
 
 const SKORA = '#E2A57B';
 const CIEN = '#BF7E57';
 const BLASK = '#F4C9A4';
 const OBRYS = '#3B2720';
 
+// Pionowe punkty orientacyjne (podłoga na 290, czubek głowy na 33).
+const Y = { bark: 86, talia: 146, pas: 150, biodro: 160, krok: 188, kolano: 234, kostka: 280 };
+
 const l = (a, b, t) => a + (b - a) * t;
 const r1 = (n) => Math.round(n * 10) / 10;
 
-function ramie(m, p, strona) {
-  // strona: 1 prawa (od widza), -1 lewa, rysowana lustrzanie.
-  const L1 = 44;
-  const L2 = 40;
-  const w1 = 9 + 9 * m;
-  const b = (3 + 9 * m) * (1 + 0.55 * p);
-  const w2 = 7.5 + 5.5 * m;
-  const wr = 5 + 2 * m;
-  const fr = 8 + 3.5 * m;
-  const theta = l(-13, -100, p);
-  const phi = l(-10, -92, p);
-  const ramieKs = `M${r1(-w1)},0 Q${r1(-w1 - 2)},${L1 * 0.5} ${r1(-w1 * 0.8)},${L1} L${r1(w1 * 0.8)},${L1} C${r1(w1 + b)},${L1 * 0.78} ${r1(w1 + b)},${L1 * 0.28} ${r1(w1)},0 Z`;
-  const przed = `M${r1(-w2)},0 Q${r1(-w2 - 3)},${L2 * 0.35} ${r1(-wr)},${L2} L${r1(wr)},${L2} Q${r1(w2 + 2.5)},${L2 * 0.3} ${r1(w2)},0 Z`;
-  // Żyła na bicepsie pojawia się dopiero przy większej masie.
-  const zyla = m > 0.45
-    ? `<path d="M${r1(w1 * 0.6)},${L1 * 0.2} q${r1(b * 0.5)},${L1 * 0.25} ${r1(b * 0.15)},${L1 * 0.55}" fill="none" stroke="${CIEN}" stroke-width="1.6" stroke-linecap="round" opacity="${r1(m)}"/>`
-    : '';
-  return `
-  <g transform="translate(${r1(120 + strona * (34 + 22 * m))},92) scale(${strona},1) rotate(${r1(theta)})">
-    <g transform="translate(0,${L1}) rotate(${r1(phi)})">
-      <path d="${przed}" fill="${SKORA}" stroke="${OBRYS}" stroke-width="2.2" stroke-linejoin="round"/>
-      <path d="M${r1(-w2 * 0.4)},4 q-2,${L2 * 0.4} 0,${L2 * 0.75}" fill="none" stroke="${CIEN}" stroke-width="1.6" stroke-linecap="round" opacity=".7"/>
-      <circle cx="0" cy="${r1(L2 + fr * 0.55)}" r="${r1(fr)}" fill="${SKORA}" stroke="${OBRYS}" stroke-width="2.2"/>
-      <path d="M${r1(-fr * 0.55)},${r1(L2 + fr * 0.2)} h${r1(fr * 1.1)}" stroke="${CIEN}" stroke-width="1.5" stroke-linecap="round"/>
-    </g>
-    <circle cx="0" cy="${L1}" r="${r1(w1 * 0.82)}" fill="${SKORA}" stroke="${OBRYS}" stroke-width="2.2"/>
-    <path d="${ramieKs}" fill="${SKORA}" stroke="${OBRYS}" stroke-width="2.2" stroke-linejoin="round"/>
-    <path d="M${r1(w1 * 0.2)},${L1 * 0.22} Q${r1(w1 + b * 0.7)},${L1 * 0.5} ${r1(w1 * 0.3)},${L1 * 0.8}" fill="${BLASK}" opacity=".55"/>
-    ${zyla}
-  </g>`;
+function wymiary(m) {
+  return {
+    sx: 30 + 14 * m, // środek barku od osi ciała
+    dr: 9 + 8.5 * m, // promień naramiennego
+    nw: 7 + 5 * m, // pół szerokości szyi
+    lat: 26 + 16 * m, // najszersze plecy
+    talia: 19 + 4 * m,
+    biodra: 22 + 4 * m,
+  };
+}
+
+// tryb: 'obrys' | 'skora' | 'detal'
+function ramie(m, p, strona, tryb) {
+  const { sx } = wymiary(m);
+  const L1 = 48;
+  const L2 = 41;
+  const w1 = 7.5 + 7 * m;
+  const b = (2.5 + 7 * m) * (1 + 0.55 * p);
+  const w2 = 6.5 + 4.5 * m;
+  const wr = 4.5 + 1.5 * m;
+  const fr = 7 + 2.5 * m;
+  const theta = l(-12, -100, p);
+  const phi = l(-8, -94, p);
+  const gora = `M${r1(-w1)},0 Q${r1(-w1 - 1.5)},${L1 * 0.5} ${r1(-w1 * 0.75)},${L1} L${r1(w1 * 0.75)},${L1} C${r1(w1 + b)},${L1 * 0.76} ${r1(w1 + b)},${L1 * 0.3} ${r1(w1)},0 Z`;
+  const dol = `M${r1(-w2)},0 Q${r1(-w2 - 2.5)},${L2 * 0.35} ${r1(-wr)},${L2} L${r1(wr)},${L2} Q${r1(w2 + 2)},${L2 * 0.3} ${r1(w2)},0 Z`;
+  const fy = r1(L2 + fr * 0.6);
+  const styl = tryb === 'obrys'
+    ? `fill="${OBRYS}" stroke="${OBRYS}" stroke-width="4.6" stroke-linejoin="round"`
+    : `fill="${SKORA}"`;
+  let przed = '';
+  let ramieG = '';
+  if (tryb === 'detal') {
+    przed = `<path d="M${r1(-w2 * 0.35)},5 q-2,${L2 * 0.4} 0,${L2 * 0.72}" fill="none" stroke="${CIEN}" stroke-width="1.5" stroke-linecap="round" opacity=".7"/>
+      <path d="M${r1(-fr * 0.5)},${r1(L2 + fr * 0.3)} h${r1(fr)}" stroke="${CIEN}" stroke-width="1.5" stroke-linecap="round"/>`;
+    ramieG = `<path d="M${r1(w1 * 0.2)},${L1 * 0.24} Q${r1(w1 + b * 0.7)},${L1 * 0.5} ${r1(w1 * 0.3)},${L1 * 0.78}" fill="${BLASK}" opacity=".5"/>
+      <path d="M${r1(-w1 * 0.55)},${L1 * 0.15} q-1,${L1 * 0.35} ${r1(w1 * 0.15)},${L1 * 0.6}" fill="none" stroke="${CIEN}" stroke-width="1.4" stroke-linecap="round" opacity="${r1(0.3 + 0.5 * m)}"/>
+      ${m > 0.45 ? `<path d="M${r1(w1 * 0.55)},${L1 * 0.22} q${r1(b * 0.45)},${L1 * 0.25} ${r1(b * 0.12)},${L1 * 0.52}" fill="none" stroke="${CIEN}" stroke-width="1.5" stroke-linecap="round" opacity="${r1(m)}"/>` : ''}`;
+  } else {
+    przed = `<path d="${dol}" ${styl}/><circle cx="0" cy="${fy}" r="${r1(fr)}" ${styl}/>`;
+    ramieG = `<circle cx="0" cy="${L1}" r="${r1(w1 * 0.78)}" ${styl}/><path d="${gora}" ${styl}/>`;
+  }
+  return `<g transform="translate(${r1(120 + strona * sx)},${Y.bark}) scale(${strona},1) rotate(${r1(theta)})">
+    <g transform="translate(0,${L1}) rotate(${r1(phi)})">${przed}</g>${ramieG}</g>`;
+}
+
+function noga(m, s, tryb) {
+  const cx = 120 + s * (12 + 5 * m);
+  const w = 12 + 7.5 * m;
+  const k = Y.kolano;
+  const udo = `M${r1(cx - w)},172 C${r1(cx - w - 3)},196 ${r1(cx - w * 0.7)},${k - 12} ${r1(cx - 7)},${k} L${r1(cx + 7)},${k} C${r1(cx + w * 0.7)},${k - 12} ${r1(cx + w + 2)},196 ${r1(cx + w)},172 Z`;
+  const lydka = `M${r1(cx - 7)},${k - 2} C${r1(cx - 10 - 4 * m)},${k + 12} ${r1(cx - 6)},${Y.kostka - 12} ${r1(cx - 4)},${Y.kostka} L${r1(cx + 4)},${Y.kostka} C${r1(cx + 6)},${Y.kostka - 12} ${r1(cx + 10 + 4 * m)},${k + 12} ${r1(cx + 7)},${k - 2} Z`;
+  if (tryb === 'detal') {
+    return `<path d="M${r1(cx - 4)},${k - 3} q4,3 8,0" fill="none" stroke="${CIEN}" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M${r1(cx + s * w * 0.15)},184 q${r1(-s * 3)},20 ${r1(-s * 1)},38" fill="none" stroke="${CIEN}" stroke-width="1.4" stroke-linecap="round" opacity="${r1(0.25 + 0.5 * m)}"/>
+      <path d="M${r1(cx - 9)},${Y.kostka} h18 q5,0 5,4 v4 h-28 v-4 q0,-4 5,-4 Z" fill="#2A2F37" stroke="${OBRYS}" stroke-width="2"/>`;
+  }
+  const styl = tryb === 'obrys'
+    ? `fill="${OBRYS}" stroke="${OBRYS}" stroke-width="4.6" stroke-linejoin="round"`
+    : `fill="${SKORA}"`;
+  return `<path d="${udo}" ${styl}/><path d="${lydka}" ${styl}/>`;
 }
 
 function bark(m, strona) {
-  const sx = 34 + 22 * m;
-  const dr = 11 + 9.5 * m;
+  const { sx, dr } = wymiary(m);
   const cx = 120 + strona * sx;
-  return `<circle cx="${r1(cx)}" cy="${r1(92 - 1 * m)}" r="${r1(dr)}" fill="${SKORA}" stroke="${OBRYS}" stroke-width="2.2"/>
-    <path d="M${r1(cx - strona * dr * 0.5)},${r1(92 - dr * 0.55)} a${r1(dr * 0.7)},${r1(dr * 0.7)} 0 0 ${strona > 0 ? 1 : 0} ${r1(strona * dr * 0.9)},${r1(dr * 0.5)}" fill="none" stroke="${BLASK}" stroke-width="3" stroke-linecap="round" opacity=".8"/>`;
+  const cy = Y.bark - 1 * m;
+  return `<ellipse cx="${r1(cx)}" cy="${r1(cy)}" rx="${r1(dr)}" ry="${r1(dr * 1.08)}" fill="${SKORA}" stroke="${OBRYS}" stroke-width="2.3"/>
+    <path d="M${r1(cx - strona * dr * 0.5)},${r1(cy - dr * 0.6)} a${r1(dr * 0.7)},${r1(dr * 0.7)} 0 0 ${strona > 0 ? 1 : 0} ${r1(strona * dr * 0.9)},${r1(dr * 0.5)}" fill="none" stroke="${BLASK}" stroke-width="2.6" stroke-linecap="round" opacity=".75"/>`;
 }
 
 export function rysujKoksa(masa = 0, poza = 0, { mina = 'spokoj' } = {}) {
   const m = Math.max(0, Math.min(1, masa));
   const p = Math.max(0, Math.min(1, poza));
-  const sx = 34 + 22 * m;
-  const nw = 8 + 7 * m;
-  const lat = 30 + 21 * m;
-  const talia = 21 + 5 * m;
-  const biodra = 25 + 5 * m;
-  const trapY = 84 - 9 * m;
+  const { sx, nw, lat, talia, biodra } = wymiary(m);
+  const trapY = 80 - 7 * m;
 
-  const tulow = `M${r1(120 - nw)},76 C${r1(120 - nw - 6)},${r1(trapY)} ${r1(120 - sx + 6)},${r1(trapY + 2)} ${r1(120 - sx)},90
-    C${r1(120 - lat - 2)},104 ${r1(120 - lat)},118 ${r1(120 - lat + 4)},128
-    C${r1(120 - talia - 4)},150 ${r1(120 - talia)},168 ${r1(120 - talia)},178
-    L${r1(120 - biodra)},194 L${r1(120 + biodra)},194 L${r1(120 + talia)},178
-    C${r1(120 + talia)},168 ${r1(120 + talia + 4)},150 ${r1(120 + lat - 4)},128
-    C${r1(120 + lat)},118 ${r1(120 + lat + 2)},104 ${r1(120 + sx)},90
-    C${r1(120 + sx - 6)},${r1(trapY + 2)} ${r1(120 + nw + 6)},${r1(trapY)} ${r1(120 + nw)},76 Z`;
+  const tulow = `M${r1(120 - nw)},72 C${r1(120 - nw - 6)},${r1(trapY)} ${r1(120 - sx + 6)},${r1(trapY + 2)} ${r1(120 - sx)},${Y.bark}
+    C${r1(120 - lat - 2)},98 ${r1(120 - lat)},106 ${r1(120 - lat + 3)},114
+    C${r1(120 - talia - 3)},126 ${r1(120 - talia)},136 ${r1(120 - talia)},${Y.talia}
+    L${r1(120 - biodra)},${Y.biodro} L${r1(120 + biodra)},${Y.biodro} L${r1(120 + talia)},${Y.talia}
+    C${r1(120 + talia)},136 ${r1(120 + talia + 3)},126 ${r1(120 + lat - 3)},114
+    C${r1(120 + lat)},106 ${r1(120 + lat + 2)},98 ${r1(120 + sx)},${Y.bark}
+    C${r1(120 + sx - 6)},${r1(trapY + 2)} ${r1(120 + nw + 6)},${r1(trapY)} ${r1(120 + nw)},72 Z`;
 
-  const pw = sx - 8;
-  const pd = 118 + 8 * m;
-  const klata = (s) => `M120,${r1(98 - 2 * m)} L${r1(120 + s * pw * 0.6)},${r1(96 - 2 * m)} Q${r1(120 + s * pw)},98 ${r1(120 + s * pw)},${r1(108 + 2 * m)}
-    Q${r1(120 + s * (pw - 2))},${r1(pd)} ${r1(120 + s * pw * 0.45)},${r1(pd + 2)} Q${r1(120 + s * 6)},${r1(pd + 2)} 120,${r1(pd - 2)} Z`;
+  const pw = sx - 6;
+  const pd = 106 + 6 * m;
+  const klata = (s) => `M120,${r1(91 - 2 * m)} L${r1(120 + s * pw * 0.6)},${r1(90 - 2 * m)} Q${r1(120 + s * pw)},92 ${r1(120 + s * pw)},${r1(100 + 2 * m)}
+    Q${r1(120 + s * (pw - 2))},${r1(pd)} ${r1(120 + s * pw * 0.45)},${r1(pd + 1.5)} Q${r1(120 + s * 5)},${r1(pd + 1.5)} 120,${r1(pd - 2)} Z`;
 
   const kaloryfer = [];
   const az = 0.22 + 0.6 * m;
   for (let w = 0; w < 3; w++) {
     for (const s of [-1, 1]) {
-      const y = pd + 8 + w * 14;
-      const x = s < 0 ? 120 - 4 - (9 + 3 * m) : 120 + 4;
-      kaloryfer.push(`<rect x="${r1(x)}" y="${r1(y)}" width="${r1(9 + 3 * m)}" height="11" rx="4.5" fill="${CIEN}" opacity="${r1(az)}"/>`);
+      const y = pd + 5 + w * 11;
+      const szer = 8 + 2.5 * m;
+      const x = s < 0 ? 120 - 3 - szer : 120 + 3;
+      kaloryfer.push(`<rect x="${r1(x)}" y="${r1(y)}" width="${r1(szer)}" height="9" rx="4" fill="${CIEN}" opacity="${r1(az)}"/>`);
     }
   }
 
-  const udo = (s) => {
-    const cx = 120 + s * (14 + 6 * m);
-    const w = 12 + 9 * m;
-    return `<path d="M${r1(cx - w)},210 C${r1(cx - w - 3)},228 ${r1(cx - w * 0.7)},246 ${r1(cx - 7)},254 L${r1(cx + 7)},254 C${r1(cx + w * 0.7)},246 ${r1(cx + w + 2)},228 ${r1(cx + w)},210 Z" fill="${SKORA}" stroke="${OBRYS}" stroke-width="2.2" stroke-linejoin="round"/>
-      <path d="M${r1(cx - 7)},252 C${r1(cx - 9 - 4 * m)},262 ${r1(cx - 6)},274 ${r1(cx - 4)},282 L${r1(cx + 4)},282 C${r1(cx + 6)},274 ${r1(cx + 9 + 4 * m)},262 ${r1(cx + 7)},252 Z" fill="${SKORA}" stroke="${OBRYS}" stroke-width="2.2" stroke-linejoin="round"/>
-      <path d="M${r1(cx - 9)},282 h18 q5,0 5,4 v2 h-28 v-2 q0,-4 5,-4 Z" fill="#2A2F37" stroke="${OBRYS}" stroke-width="2"/>`;
-  };
-
   const usmiech = mina === 'radosc' || p > 0.6;
   const twarz = `
-    <ellipse cx="113" cy="51" rx="2.2" ry="${usmiech ? 1.4 : 2.6}" fill="${OBRYS}"/>
-    <ellipse cx="127" cy="51" rx="2.2" ry="${usmiech ? 1.4 : 2.6}" fill="${OBRYS}"/>
+    <g class="koks-oczy"><ellipse cx="113" cy="51" rx="2.2" ry="${usmiech ? 1.4 : 2.6}" fill="${OBRYS}"/>
+    <ellipse cx="127" cy="51" rx="2.2" ry="${usmiech ? 1.4 : 2.6}" fill="${OBRYS}"/></g>
     <path d="M108,${usmiech ? 45 : 46} l9,${usmiech ? 1 : 2.5} M132,${usmiech ? 45 : 46} l-9,${usmiech ? 1 : 2.5}" stroke="${OBRYS}" stroke-width="2.6" stroke-linecap="round"/>
     <path d="M120,53 q-1.5,4 1,6" fill="none" stroke="${CIEN}" stroke-width="1.6" stroke-linecap="round"/>
     ${usmiech ? '<path d="M112,63 q8,7 16,0 Z" fill="#fff" stroke="#3B2720" stroke-width="1.6" stroke-linejoin="round"/>' : ''}
-    <path d="M120,60 c-4,-2 -9,-2 -12,1 c-2,2 -5,3 -7,1 c2,4 7,4 10,2 c3,-2 6,-2 9,-1 c3,-1 6,-1 9,1 c3,2 8,2 10,-2 c-2,2 -5,1 -7,-1 c-3,-3 -8,-3 -12,-1 Z" fill="#4A2E22" stroke="${OBRYS}" stroke-width="1.2" stroke-linejoin="round"/>`;
+    <path class="koks-wasy" d="M120,60 c-4,-2 -9,-2 -12,1 c-2,2 -5,3 -7,1 c2,4 7,4 10,2 c3,-2 6,-2 9,-1 c3,-1 6,-1 9,1 c3,2 8,2 10,-2 c-2,2 -5,1 -7,-1 c-3,-3 -8,-3 -12,-1 Z" fill="#4A2E22" stroke="${OBRYS}" stroke-width="1.2" stroke-linejoin="round"/>`;
 
   return `<svg viewBox="-30 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Koks na poziomie siły ${Math.round(m * 100)} procent">
-  <ellipse cx="120" cy="290" rx="${r1(52 + 20 * m)}" ry="7" fill="#000" opacity=".28"/>
+  <ellipse cx="120" cy="290" rx="${r1(46 + 16 * m)}" ry="7" fill="#000" opacity=".28"/>
   <g class="koks-cialo">
-    ${udo(-1)}${udo(1)}
-    <path d="M${r1(120 - biodra - 2)},188 L${r1(120 + biodra + 2)},188 L${r1(120 + biodra + 8 + 6 * m)},222 L${r1(120 + 3)},224 L120,214 L${r1(120 - 3)},224 L${r1(120 - biodra - 8 - 6 * m)},222 Z" fill="var(--t-niebieska, #2F6FDB)" stroke="${OBRYS}" stroke-width="2.2" stroke-linejoin="round"/>
-    <rect x="${r1(120 - biodra - 2)}" y="184" width="${r1(2 * biodra + 4)}" height="8" rx="3" fill="#1D4FA8" stroke="${OBRYS}" stroke-width="2"/>
+    ${noga(m, -1, 'obrys')}${noga(m, 1, 'obrys')}
+    ${noga(m, -1, 'skora')}${noga(m, 1, 'skora')}
+    ${noga(m, -1, 'detal')}${noga(m, 1, 'detal')}
     <path d="${tulow}" fill="${SKORA}" stroke="${OBRYS}" stroke-width="2.4" stroke-linejoin="round"/>
+    <path d="M${r1(120 - biodra - 2)},${Y.pas} L${r1(120 + biodra + 2)},${Y.pas} L${r1(120 + biodra + 7 + 5 * m)},${Y.krok} L${r1(123)},${Y.krok + 2} L120,${Y.krok - 9} L${r1(117)},${Y.krok + 2} L${r1(120 - biodra - 7 - 5 * m)},${Y.krok} Z" fill="var(--t-niebieska, #2F6FDB)" stroke="${OBRYS}" stroke-width="2.2" stroke-linejoin="round"/>
+    <rect x="${r1(120 - biodra - 2)}" y="${Y.pas - 4}" width="${r1(2 * biodra + 4)}" height="8" rx="3" fill="#1D4FA8" stroke="${OBRYS}" stroke-width="2"/>
     <path d="${klata(-1)}" fill="${BLASK}" stroke="${CIEN}" stroke-width="1.8" stroke-linejoin="round" opacity=".95"/>
     <path d="${klata(1)}" fill="${BLASK}" stroke="${CIEN}" stroke-width="1.8" stroke-linejoin="round" opacity=".95"/>
-    <path d="M120,${r1(pd + 4)} V180" stroke="${CIEN}" stroke-width="1.6" opacity="${r1(az)}"/>
+    <path d="M120,${r1(pd + 3)} V${Y.pas - 5}" stroke="${CIEN}" stroke-width="1.6" opacity="${r1(az)}"/>
     ${kaloryfer.join('')}
-    ${ramie(m, p, -1)}${ramie(m, p, 1)}
+    <path d="M${r1(120 - talia - 1)},${Y.talia - 14} q5,6 4,14 M${r1(120 + talia + 1)},${Y.talia - 14} q-5,6 -4,14" fill="none" stroke="${CIEN}" stroke-width="1.4" stroke-linecap="round" opacity="${r1(0.2 + 0.5 * m)}"/>
+    ${ramie(m, p, -1, 'obrys')}${ramie(m, p, 1, 'obrys')}
+    ${ramie(m, p, -1, 'skora')}${ramie(m, p, 1, 'skora')}
+    ${ramie(m, p, -1, 'detal')}${ramie(m, p, 1, 'detal')}
     ${bark(m, -1)}${bark(m, 1)}
-    <path d="M${r1(120 - nw)},80 L${r1(120 - nw)},64 L${r1(120 + nw)},64 L${r1(120 + nw)},80 Z" fill="${SKORA}" stroke="${OBRYS}" stroke-width="2.2"/>
-    <path d="M${r1(120 - nw)},78 Q${r1(120 - sx * 0.6)},${r1(trapY - 2)} ${r1(120 - sx + 4)},${r1(86 - 2 * m)} M${r1(120 + nw)},78 Q${r1(120 + sx * 0.6)},${r1(trapY - 2)} ${r1(120 + sx - 4)},${r1(86 - 2 * m)}" fill="none" stroke="${CIEN}" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M${r1(120 - nw)},76 L${r1(120 - nw)},60 L${r1(120 + nw)},60 L${r1(120 + nw)},76 Z" fill="${SKORA}" stroke="${OBRYS}" stroke-width="2.2"/>
+    <path d="M${r1(120 - nw)},74 Q${r1(120 - sx * 0.6)},${r1(trapY - 2)} ${r1(120 - sx + 4)},${r1(Y.bark - 5 - 2 * m)} M${r1(120 + nw)},74 Q${r1(120 + sx * 0.6)},${r1(trapY - 2)} ${r1(120 + sx - 4)},${r1(Y.bark - 5 - 2 * m)}" fill="none" stroke="${CIEN}" stroke-width="1.6" stroke-linecap="round"/>
     <g class="koks-glowa">
       <circle cx="120" cy="50" r="17" fill="${SKORA}" stroke="${OBRYS}" stroke-width="2.4"/>
       <path d="M103,46 C103,30 137,30 137,46 C137,40 130,36 120,36 C110,36 103,40 103,46 Z" fill="#4A2E22" stroke="${OBRYS}" stroke-width="1.6"/>
