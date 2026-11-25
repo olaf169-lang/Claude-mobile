@@ -2,7 +2,7 @@
 
 import { ODZNAKI, OBSZARY } from './dane.js';
 import { pobierz, zmien, cwiczenie, eksport, importuj, wyczysc } from './magazyn.js';
-import { statystyki, fmtKg, tonaz } from './logika.js';
+import { statystyki, fmtKg, tonaz, xpTreningow, fmtLiczba } from './logika.js';
 import { esc, kolor, godloOdznaki, toast, arkusz, dataLadnie } from './ui.js';
 import { punktyCwiczenia, mini } from './wykres.js';
 import { szczegoly } from './arkusze.js';
@@ -11,6 +11,7 @@ import { wspierane, wlaczone, wlacz, wylacz, zablokowane } from './przypomnienia
 export function ekranPostepy(el) {
   const s = pobierz();
   const st = statystyki(s);
+  const xpy = xpTreningow(s);
   const robione = [...new Set(s.treningi.flatMap((t) => t.cwiczenia.map((c) => c.cw)))]
     .map((id) => ({ id, c: cwiczenie(id), punkty: punktyCwiczenia(s.treningi, id) }))
     .filter((x) => x.c && x.punkty.length)
@@ -45,10 +46,10 @@ export function ekranPostepy(el) {
 
     <section class="sekcja">
       <div class="sekcja-tytul"><h2>Historia</h2></div>
-      ${s.treningi.length ? `<ul class="historia">${[...s.treningi].reverse().slice(0, 30).map((t) => `
+      ${s.treningi.length ? `<ul class="historia">${s.treningi.map((t, i) => ({ t, xp: xpy[i].suma })).reverse().slice(0, 30).map(({ t, xp }) => `
         <li><details>
           <summary><span><b>Trening ${esc(t.plan)}</b><br><span class="maly cichy">${dataLadnie(t.data)}</span></span>
-          <span style="text-align:right"><span class="liczba" style="font-size:20px">+${t.xp} XP</span><br><span class="maly cichy">${t.rekordy.length ? `${t.rekordy.length} rek., ` : ''}${fmtKg(Math.round(tonaz(t)))} kg</span></span></summary>
+          <span style="text-align:right"><span class="liczba" style="font-size:20px">+${fmtLiczba(xp)} XP</span><br><span class="maly cichy">${t.rekordy.length ? `${t.rekordy.length} rek., ` : ''}${fmtLiczba(tonaz(t))} kg</span></span></summary>
           <table>${t.cwiczenia.map((c) => `<tr><td>${esc(cwiczenie(c.cw)?.nazwa || c.cw)}${t.rekordy.some((r) => r.cw === c.cw) ? ' <span style="color:var(--t-zolta)">rekord</span>' : ''}</td><td>${c.serie.map((x) => `${fmtKg(x.kg)}×${x.powt}`).join(', ')}</td></tr>`).join('')}</table>
           <button class="btn-tekst btn-zagrozenie" type="button" data-usun="${esc(t.id)}">Usuń ten trening</button>
         </details></li>`).join('')}</ul>` : '<div class="pusto">Jeszcze pusto. Pierwszy trening czeka w zakładce Trening.</div>'}
@@ -57,6 +58,9 @@ export function ekranPostepy(el) {
     <section class="sekcja">
       <div class="sekcja-tytul"><h2>Ustawienia</h2></div>
       <div class="ustawienia">
+        <label class="wiersz-ust"><span>Twoja masa ciała<br><span class="maly cichy">Do XP za dipy, podciąganie, brzuch</span></span>
+          <span style="display:flex;align-items:center;gap:6px"><input type="number" inputmode="decimal" min="40" max="200" step="0.5" value="${s.ustawienia.masaCiala || 80}" data-masa style="width:76px;min-height:42px;background:var(--grafit-2);border:1px solid var(--grafit-3);border-radius:10px;text-align:center;font-size:17px"> kg</span>
+        </label>
         <label class="wiersz-ust"><span>Odpoczynek między seriami</span>
           <select data-przerwa>${[60, 75, 90, 120, 150, 180].map((v) => `<option value="${v}" ${v === s.ustawienia.przerwa ? 'selected' : ''}>${Math.floor(v / 60)}:${String(v % 60).padStart(2, '0')}</option>`).join('')}</select>
         </label>
@@ -75,6 +79,12 @@ export function ekranPostepy(el) {
 
   el.querySelectorAll('[data-cw]').forEach((b) => b.addEventListener('click', () => szczegoly(b.dataset.cw)));
   el.querySelector('[data-przerwa]').addEventListener('change', (e) => { zmien((x) => { x.ustawienia.przerwa = Number(e.target.value); }); toast('Zapisane'); });
+  el.querySelector('[data-masa]').addEventListener('change', (e) => {
+    const v = Number(String(e.target.value).replace(',', '.'));
+    if (!(v >= 40 && v <= 200)) { toast('Wpisz masę od 40 do 200 kg'); return; }
+    zmien((x) => { x.ustawienia.masaCiala = v; });
+    toast('Zapisane, XP przeliczone');
+  });
   el.querySelector('[data-dzwiek]').addEventListener('click', (e) => {
     zmien((x) => { x.ustawienia.dzwiek = !x.ustawienia.dzwiek; });
     e.currentTarget.setAttribute('aria-checked', String(pobierz().ustawienia.dzwiek));

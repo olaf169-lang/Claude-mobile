@@ -8,9 +8,9 @@ import { execFileSync } from 'node:child_process';
 import { join, extname } from 'node:path';
 import assert from 'node:assert/strict';
 
-import { CWICZENIA, PLANY_START, ROZCIAGANIE, POZIOMY, ODZNAKI } from '../js/dane.js';
+import { CWICZENIA, PLANY_START, ROZCIAGANIE, POZIOMY, ODZNAKI, TRUDNOSC } from '../js/dane.js';
 import {
-  sprawdzRekord, podpowiedz, serie, poziom, policzXp, wTerminie, rozciaganieWTygodniu,
+  sprawdzRekord, podpowiedz, serie, poziom, policzXp, wTerminie, rozciaganieWTygodniu, praca, xpLaczne,
 } from '../js/logika.js';
 
 const bledy = [];
@@ -104,15 +104,32 @@ test('seria treningów z przerwą do 5 dni', () => {
   assert.equal(wTerminie([t('01')], '2026-11-07T18:00:00'), false);
 });
 
-test('poziomy i XP', () => {
+test('poziomy: coraz dłuższe odstępy', () => {
   assert.equal(poziom(0).numer, 1);
   assert.equal(poziom(POZIOMY[1].prog).numer, 2);
-  assert.equal(poziom(999999).masa, 1);
+  assert.equal(poziom(9999999).masa, 1);
   assert(poziom(300).masa > poziom(100).masa, 'masa rośnie w obrębie poziomu');
-  const tr = { data: '2026-11-04T18:00:00', rekordy: [{}], cwiczenia: [{ serie: [{ ok: true }, { ok: true }] }] };
-  const xp = policzXp(tr, [{ data: '2026-11-01T18:00:00' }], 1);
-  assert.equal(xp.suma, 20 + 100 + 50 + 50 + 60);
+  for (let i = 2; i < POZIOMY.length; i++) {
+    assert(POZIOMY[i].prog - POZIOMY[i - 1].prog > POZIOMY[i - 1].prog - (POZIOMY[i - 2]?.prog ?? 0), `poziom ${i + 1} nie jest dłuższy od poprzedniego`);
+  }
   assert.equal(ODZNAKI.length, new Set(ODZNAKI.map((o) => o.id)).size);
+});
+
+test('XP z ciężaru, powtórzeń i trudności', () => {
+  for (const c of CWICZENIA) assert(TRUDNOSC[c.id], `brak trudności dla ${c.id}`);
+  const s = (kg, powt) => ({ kg, powt, ok: true });
+  assert(praca('wznosy', s(10, 10)) > praca('hip-thrust', s(10, 10)), 'izolacja z małym ciężarem liczy się mocniej');
+  assert(praca('wyc-hantle', s(24, 10)) > praca('wyc-hantle', s(22, 10)), 'więcej kg, więcej XP');
+  assert(praca('wyc-hantle', s(22, 12)) > praca('wyc-hantle', s(22, 10)), 'więcej powtórzeń, więcej XP');
+  assert.equal(praca('dipy', s(0, 10), { masaCiala: 80 }), 80 * 0.9 * 10, 'dipy liczą masę ciała');
+  assert(praca('dipy', s(10, 10)) > praca('dipy', s(0, 10)), 'dociążenie podnosi XP');
+  assert(praca('podciaganie', s(-20, 8)) < praca('podciaganie', s(0, 8)), 'odciążenie obniża XP');
+  assert.equal(praca('wznosy', { kg: 10, powt: 10, ok: false }), 0, 'nieodhaczona seria nie liczy się');
+  const tr = { data: '2026-11-04T18:00:00', rekordy: [{}], cwiczenia: [{ cw: 'wznosy', serie: [s(9, 10)] }] };
+  const xp = policzXp(tr, [{ data: '2026-11-01T18:00:00' }], { planDlugosc: 1 });
+  assert.equal(xp.suma, 36 + 100 + 50 + 50 + 60);
+  const stan = { treningi: [{ ...tr, komplet: true }], rozciaganie: ['2026-11-05T10:00:00'], wlasne: {}, ustawienia: {} };
+  assert.equal(xpLaczne(stan), 36 + 100 + 50 + 50 + 40, 'przeliczanie historii (pierwszy trening bez premii za termin)');
 });
 
 test('rozciąganie liczy dni w bieżącym tygodniu', () => {

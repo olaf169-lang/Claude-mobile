@@ -325,28 +325,70 @@ export const ROZCIAGANIE = [
 export const ROZCIAGANIE_W_TYGODNIU = 3;
 
 // Poziomy koksa. prog: łączne XP potrzebne, żeby wejść na poziom.
-// Ok. 400 XP za trening, 1 do 2 treningów w tygodniu: Legenda po mniej więcej roku.
+// Pierwsze wpadają po 1 do 3 treningach, każdy kolejny wymaga więcej
+// przerzuconego ciężaru. Przy ok. 1300 XP za trening i 1 do 2 treningach
+// w tygodniu Legenda wypada po mniej więcej 100 treningach.
 export const POZIOMY = [
   { nazwa: 'Patyczak', prog: 0 },
-  { nazwa: 'Świeżak', prog: 500 },
-  { nazwa: 'Bywalec', prog: 1400 },
-  { nazwa: 'Twardziel', prog: 2800 },
-  { nazwa: 'Kafar', prog: 4700 },
-  { nazwa: 'Koks', prog: 7200 },
-  { nazwa: 'Byk', prog: 10400 },
-  { nazwa: 'Tur', prog: 14400 },
-  { nazwa: 'Mamut', prog: 19400 },
-  { nazwa: 'Legenda Piąteczki', prog: 25500 },
+  { nazwa: 'Świeżak', prog: 1000 },
+  { nazwa: 'Bywalec', prog: 3000 },
+  { nazwa: 'Twardziel', prog: 6500 },
+  { nazwa: 'Kafar', prog: 12000 },
+  { nazwa: 'Koks', prog: 20000 },
+  { nazwa: 'Byk', prog: 31000 },
+  { nazwa: 'Tur', prog: 45000 },
+  { nazwa: 'Mamut', prog: 62000 },
+  { nazwa: 'Tytan', prog: 83000 },
+  { nazwa: 'Atlas', prog: 108000 },
+  { nazwa: 'Legenda Piąteczki', prog: 140000 },
 ];
 
+// Główne źródło XP to praca: ciężar × powtórzenia × trudność ćwiczenia,
+// 1 XP za każde 10 „kilogramów pracy”. Do tego premie.
 export const XP = {
-  seria: 10, // każda odhaczona seria
-  rekord: 50, // nowy rekord w ćwiczeniu
+  kgNaXp: 10,
   trening: 100, // zakończony trening
+  rekord: 50, // nowy rekord w ćwiczeniu (raz na ćwiczenie w treningu)
   komplet: 50, // wszystkie serie z planu odhaczone
   wTerminie: 60, // trening po przerwie najwyżej 5 dni
   rozciaganie: 40, // cała sesja rozciągania
 };
+export const MASA_CIALA = 80; // domyślnie, zmienia się w ustawieniach
+
+// Trudność: mnożnik „kilogramów pracy”, żeby 9 kg we wznosach bokiem
+// liczyło się uczciwie obok 80 kg w hip thruście. Wpisany ciężar to ciężar
+// jednego hantla albo jednej strony, więc ćwiczenia na dwie ręce mają ×2
+// w cenie, a izolacje na małe mięśnie dostają więcej.
+// udzial: ćwiczenia z masą ciała liczą taki ułamek Twojej wagi plus to,
+// co wpiszesz w polu kg (dociążenie na plus, odciążenie na minus).
+// Deska: sekundy zamiast powtórzeń, stąd mały udział.
+export const TRUDNOSC = {
+  'wyc-hantle': { trud: 2 }, 'wyc-hantle-neutral': { trud: 2 }, 'wyc-maszyna': { trud: 1 },
+  pompki: { trud: 1, udzial: 0.65 }, dipy: { trud: 1, udzial: 0.9 }, 'wyc-decline': { trud: 2 },
+  'wyc-maszyna-decline': { trud: 1 }, 'smith-decline': { trud: 1 }, 'pec-deck': { trud: 1.3 },
+  'linki-krzyz': { trud: 2 }, 'rozpietki-hantle': { trud: 2.5 }, 'linki-lawka': { trud: 2 },
+  'sciaganie-szeroko': { trud: 1 }, podciaganie: { trud: 1.2, udzial: 0.95 }, 'sciaganie-waskie': { trud: 1 },
+  'sciaganie-jednoracz': { trud: 2 }, 'proste-rece': { trud: 1.3 }, 'wioslo-hantel': { trud: 2 },
+  'wioslo-skos': { trud: 2 }, 'wioslo-wyciag': { trud: 1 }, 'wioslo-maszyna': { trud: 1 }, 'high-row': { trud: 1 },
+  wznosy: { trud: 4 }, 'wznosy-siedzac': { trud: 4 }, 'wznosy-wyciag': { trud: 4 }, 'wyc-barki': { trud: 2.2 },
+  'wyc-barki-maszyna': { trud: 1.2 }, arnold: { trud: 2.4 }, 'odwrotne-maszyna': { trud: 1.8 },
+  'face-pull': { trud: 1.5 }, 'odwrotne-hantle': { trud: 4 }, 'tyl-linki': { trud: 3 },
+  'hip-thrust': { trud: 0.7 }, mostek: { trud: 0.7 }, 'mostek-jednonoz': { trud: 2, udzial: 0.5 },
+  'pull-through': { trud: 1 }, kickback: { trud: 3 }, 'uginanie-lezac': { trud: 1.3 },
+  'uginanie-siedzac': { trud: 1.3 }, 'uginanie-stojac': { trud: 2.6 }, 'uginanie-pilka': { trud: 1, udzial: 0.35 },
+  wyprosty: { trud: 1, udzial: 0.5 }, 'reverse-hyper': { trud: 1 },
+  'uginanie-skos': { trud: 2.6 }, 'uginanie-hantle': { trud: 2.4 }, modlitewnik: { trud: 1.5 },
+  'uginanie-wyciag': { trud: 1.4 }, koncentryczne: { trud: 2.6 }, mlotkowe: { trud: 2.4 },
+  'mlotkowe-lina': { trud: 1.4 }, 'triceps-glowa': { trud: 1.6 }, 'triceps-hantel': { trud: 1.6 },
+  'triceps-lina': { trud: 1.4 }, 'triceps-drazek': { trud: 1.3 }, 'kickback-triceps': { trud: 2.8 },
+  'triceps-maszyna': { trud: 1.3 },
+  'reverse-crunch': { trud: 1.5, udzial: 0.3 }, 'dead-bug': { trud: 1.5, udzial: 0.2 },
+  deska: { trud: 1, udzial: 0.05 }, 'unoszenie-zwis': { trud: 1.8, udzial: 0.35 },
+  'unoszenie-lawka': { trud: 1.5, udzial: 0.3 }, 'spiecia-lina': { trud: 1.2 },
+};
+// Własne ćwiczenia użytkownika: trudność z rodzaju sprzętu.
+export const TRUDNOSC_TYPU = { hantle: { trud: 2 }, maszyna: { trud: 1 }, wyciag: { trud: 1 }, cialo: { trud: 1, udzial: 0.5 } };
+
 export const MAKS_PRZERWA = 5; // dni między treningami
 
 // Odznaki. warunek dostaje statystyki z logika.js > statystyki().

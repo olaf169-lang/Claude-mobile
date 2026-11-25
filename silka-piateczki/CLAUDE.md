@@ -34,6 +34,13 @@ frameworka, jak reszta aplikacji w tym monorepo. Opis funkcji: `README.md`.
   Dane tylko w telefonie, z kopią do pliku.
 - Rozciąganie: 5 do 7 minut, 3 razy w tygodniu, bo „nienawidzi tego”, więc tryb prowadzony.
 
+## XP (decyzja użytkownika 2026-11-25)
+
+- XP ma rosnąć z ciężarem, powtórzeniami i trudnością ćwiczenia: `praca()` w logika.js,
+  mnożniki w `TRUDNOSC` (dane.js). Każde ćwiczenie z biblioteki musi mieć wpis
+  (sprawdzarka pilnuje). Pierwsze poziomy szybko, kolejne coraz dłużej.
+- Na każdym ćwiczeniu widoczny napis partii (klasa `.partia`), nie tylko kolor.
+
 ## Przypomnienia push (od 2026-11-25, prośba użytkownika)
 
 - Projekt Firebase `jaka-to-piosenka-8ca81` (wspólny z jaka-to-melodia i piateczka).
