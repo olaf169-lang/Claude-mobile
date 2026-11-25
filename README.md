@@ -1,6 +1,6 @@
 # Claude-mobile
 
-Pięć aplikacji na telefon, każda osobno, w jednym repozytorium. Wszystkie stoją
+Sześć aplikacji na telefon, każda osobno, w jednym repozytorium. Wszystkie stoją
 na GitHub Pages pod wspólnym adresem, instalują się na ekranie telefonu i każda
 ma własne README ze szczegółami.
 
@@ -11,6 +11,7 @@ ma własne README ze szczegółami.
 | **[Jaka to Melodia](jaka-to-melodia/)** | muzyczny quiz na imprezę, gra się z telefonów | `jaka-to-melodia/` | [/jaka-to-melodia/](https://olaf169-lang.github.io/Claude-mobile/jaka-to-melodia/) |
 | **[Turniej Pana Piąteczki](piateczka/)** | badmintonowa liga wtorkowa czterech graczy | `piateczka/` | [/piateczka/](https://olaf169-lang.github.io/Claude-mobile/piateczka/) |
 | **[M&B Goat Guide](mb-goat-guide/)** | kodeks Bannerlorda: porady, wojska, drzewka, doradca bitwy, czat | `mb-goat-guide/` | [/mb-goat-guide/](https://olaf169-lang.github.io/Claude-mobile/mb-goat-guide/) |
+| **[Siłka Piąteczki](silka-piateczki/)** | siłownia: plany A/B, rekordy, rozciąganie i rosnący koks | `silka-piateczki/` | [/silka-piateczki/](https://olaf169-lang.github.io/Claude-mobile/silka-piateczki/) |
 
 ## Jak to jest poukładane
 
@@ -25,8 +26,8 @@ ma własne README ze szczegółami.
   `dist/`, pliki README i CLAUDE.md zostają w repozytorium.
 
 Reszta tego pliku dotyczy **Przeglądu News**: to on zajmuje główny katalog
-repozytorium i to on publikuje stronę, do której cztery pozostałe aplikacje
-dokładają się jako podstrony.
+repozytorium i to on publikuje stronę, do której pięć pozostałych aplikacji
+dokłada się jako podstrony.
 
 ---
 

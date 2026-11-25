@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Siłka Piąteczki</title>
+<meta name="description" content="Dwa treningi całego ciała, rozciąganie i koks, który rośnie razem z Tobą.">
+<meta name="theme-color" content="#1F2329">
+<meta name="color-scheme" content="dark">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Siłka">
+<link rel="preload" href="fonts/barlow-condensed-800.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="fonts/barlow-400.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main id="ekran" class="ekran" tabindex="-1"></main>
+
+<div class="odpoczynek" id="odpoczynek" hidden role="timer" aria-live="polite"></div>
+
+<nav class="nawigacja" aria-label="Główne">
+  <a href="#/start" data-trasa="start">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="5.5" r="2.5"/><path d="M4 10c2-1 4-1.5 8-1.5s6 .5 8 1.5M8.5 9l.5 7h6l.5-7M9 16l-1 5M15 16l1 5"/></svg>
+    Koks
+  </a>
+  <a href="#/trening" data-trasa="trening">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M2.5 12h19"/><rect x="4.5" y="7" width="3" height="10" rx="1"/><rect x="16.5" y="7" width="3" height="10" rx="1"/><path d="M1.5 10v4M22.5 10v4"/></svg>
+    Trening
+  </a>
+  <a href="#/rozciaganie" data-trasa="rozciaganie">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="15" cy="4.5" r="2"/><path d="M14 8l-3 5 4 2v6M11 13l-6 1M14 8l4 3 3-1"/></svg>
+    Rozciąganie
+  </a>
+  <a href="#/postepy" data-trasa="postepy">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h18M6 16l4-5 3 3 5-7"/><path d="M15 7h3v3"/></svg>
+    Postępy
+  </a>
+</nav>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
