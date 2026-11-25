@@ -1,8 +1,8 @@
 {
  "wersja": "1.0.0",
- "wydanie": "2026-11-24",
- "dotyczy_dnia": "2026-11-23",
- "wygenerowano": "2026-11-24T16:54:53+00:00",
+ "wydanie": "2026-11-25",
+ "dotyczy_dnia": "2026-11-24",
+ "wygenerowano": "2026-11-25T16:42:34+00:00",
  "strefa": "Europe/Warsaw",
  "tryb": "ekstrakcyjny",
  "demo": false,
@@ -14,94 +14,84 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "Pomylili głosy Nawrockiego i Trzaskowskiego. Jest ruch prokuratury",
-   "lead": "Prokuratura Okręgowa w Gdańsku skierowała do sądu wniosek o warunkowe umorzenie postępowania wobec 11 członków komisji wyborczej w Gościcinie (Pomorskie). Sprawa dotyczy nieprawidłowości przy liczeniu głosów podczas drugiej tury wyborów prezydenckich między Karolem Nawrockim i Rafałem Trzaskowskim.",
+   "nagłówek": "Samorządowiec apeluje do premiera po atakach. Pilna prośba",
+   "lead": "\"Zwróciłem się do premiera Donalda Tuska oraz szefa MON Władysława Kosiniaka-Kamysza z prośbą o zorganizowanie spotkania z samorządowcami\" - poinformował prezydent Chełma Jakub Banaszek. To reakcja na ostatnie naruszenia polskiej przestrzeni powietrznej.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-23T19:33:14+00:00",
+   "opublikowano": "2026-11-24T20:01:10+00:00",
    "źródło": {
     "nazwa": "Interia Fakty",
-    "url": "https://wydarzenia.interia.pl/pomorskie/news-pomylili-glosy-nawrockiego-i-trzaskowskiego-jest-ruch-prokur,nId,23577920",
+    "url": "https://wydarzenia.interia.pl/lubelskie/news-prezydent-chelma-apeluje-do-premiera-po-incydentach-diametra,nId,23578506",
     "domena": "wydarzenia.interia.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000NKBT7WLANE0S2-C321.webp",
+   "obraz": "https://i.iplsc.com/-/000NKI3K656EJGQB-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "O skierowaniu wniosku do Sądu Rejonowego w Wejherowie poinformował rzecznik Prokuratury Okręgowej w Gdańsku prok.",
-      "Śledczy zarzucili 11 członkom Obwodowej Komisji Wyborczej nr 7 w Gościcinie niedopełnienie obowiązków oraz dopuszczenie się nadużycia przy obliczaniu głosów podczas wyborów prezydenckich, przeprowadzonych w dniach 1-2 czerwca 2025 r.",
-      "Prokurator wniósł o wyznaczenie podejrzanym rocznego okresu próby , liczonego od dnia uprawomocnienia się orzeczenia i o z asądzenie od nich świadczenia pieniężnego na rzecz Funduszu Pomocy Pokrzywdzonym oraz Pomocy Postpenitencjarnej w wysokości od 1,5 tys. zł do 3 tys. zł.",
-      "Jak przekazała prokuratura, wina i społeczna szkodliwość czynu nie są znaczne , a okoliczności sprawy nie budzą wątpliwości.",
-      "Podczas składania wyjaśnień podejrzani wskazali, że błąd w przypisaniu głosów mógł powstać przy sortowaniu kart do głosowania i odkładaniu ich na stosy przypisane poszczególnym kandydatom.",
-      "Przyznali również, że przed podpisaniem protokołu wydrukowanego z systemu informatycznego nie sprawdzili prawidłowości zawartych w nim danych , zakładając, że odpowiadają one rzeczywistemu przebiegowi głosowania.",
-      "Prokuratura oceniła, że właściwości i warunki osobiste podejrzanych oraz ich dotychczasowa postawa uzasadniają przypuszczenie, że będą oni przestrzegać porządku prawnego i nie popełnią ponownie przestępstwa.",
-      "Żaden z członków komisji nie był wcześniej karany za przestępstwa umyślne.",
-      "Większość z nich pracuje zarobkowo, a część wielokrotnie zasiadała już w komisjach podczas poprzednich wyborów."
+      "\"Informacje o dronach, które miały znajdować się bezpośrednio nad domami, diametralnie zmieniają dotychczasową sytuację\" - ocenił Banaszek.",
+      "Jest pierwsza odpowiedź z rządu.",
+      "Samorządowiec ocenił, że \" zagrożenie przestaje być wyłącznie kwestią bezpieczeństwa granicy, a zaczyna bezpośrednio dotyczyć codziennego życia mieszkańców \".",
+      "Zdaniem prezydenta Chełma \"obok kwestii bezpieczeństwa i obronności konieczne jest również podjęcie rozmów o sytuacji gospodarczej oraz pogłębiających się problemach naszych miast\".",
+      "Z perspektywy Warszawy wiele spraw wygląda inaczej niż tutaj, na miejscu\" - dodał.",
+      "Do apelu Banaszka nawiązano podczas wtorkowej konferencji prasowej rzecznika rządu Adama Szłapki .",
+      "Dopytywany, czy rząd odpowie na to wezwanie, przedstawiciel Rady Ministrów powiedział, że po stronie \"Ministerstwa Spraw Wewnętrznych i Administracji zawsze w takich kwestiach jest pełna otwartość \", jeśli - zaznaczył - faktycznie pojawia się chęć merytorycznego spotkania. - Rozumiem, że inicjatywa ze strony doradcy prezydenta raczej dotyczy kwestii politycznych , a niekoniecznie merytorycznych - ocenił rzecznik rządu.",
+      "Ich elementy odnaleziono w miejscowościach: Nowy Lipowiec na Lubelszczyźnie oraz w Rudniku nad Sanem i Mołodyczu na Podkarpaciu.",
+      "Polskie władze uznają te zdarzania za intencjonalne działania rosyjskie ."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Karol Tadeusz Nawrocki – polski historyk, polityk, działacz społeczny i samorządowy, doktor nauk humanistycznych. Prezydent Rzeczypospolitej Polskiej od 6 sierpnia 2025."
+      "Historia Chełma – na podstawie badań archeologicznych, przeprowadzonych w takich miejscowościach jak m.in. Łowcza, Bukowa, Okuninka stwierdzono, że początki osadnictwa na ziemiach, na których znajduje się Chełm, sięgają epoki paleolitycznej. Odkryte przedmioty wskazują, że istniał tu nieprzerwany ciąg osadniczy na przestrzeni kolejnych epok. Na terenie samego Chełma osadnictwo rozpoczęło się na początku naszej ery. Mieszkała tu wówczas ludność kultury przeworskiej. W X wieku na Wysokiej Górce istniał gród drewniano-kamienny. Na przełomie VII i VIII wieku tereny miasta obejmował związek plemienny Lędzian z siedzibą w Sandomierzu. Tereny międzyrzecza Wieprza i Bugu zostały wzmocnione przez wybudowanie sieci grodów – nazwanych później Grodami Czerwieńskimi."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Karol Nawrocki",
-     "url": "https://pl.wikipedia.org/wiki/Karol_Nawrocki"
+     "przypis": "Wikipedia: Historia Chełma",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Che%C5%82ma"
     }
    ],
-   "dlaczego_to_ważne": "",
+   "dlaczego_to_ważne": "W komunikacie na platformie X DORSZ podało, że sytuacja była na bieżąco monitorowana i wydano autoryzację na zestrzelenie obiektu , natomiast po zmianie kursu obiektu na kierunek wschodni, uwzględniając potencjalne zagrożenie dla ludności cywilnej i możliwe skutki zestrzelenia - podjęto decyzję o wstrzymaniu się od użycia uzbrojenia w związku z utrzymującym się ryzykiem wyrządzenia szkód.",
    "liczby": [
-    "11",
-    "1,5 tys. zł",
-    "3 tys. zł",
-    "17",
-    "29"
+    "101"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Karol Nawrocki",
-    "opis": "polski historyk i polityk, 7. prezydent III RP (od 2025)",
-    "tekst": "Karol Tadeusz Nawrocki – polski historyk, polityk, działacz społeczny i samorządowy, doktor nauk humanistycznych. Prezydent Rzeczypospolitej Polskiej od 6 sierpnia 2025.",
-    "url": "https://pl.wikipedia.org/wiki/Karol_Nawrocki",
+    "hasło": "Historia Chełma",
+    "opis": "",
+    "tekst": "Historia Chełma – na podstawie badań archeologicznych, przeprowadzonych w takich miejscowościach jak m.in. Łowcza, Bukowa, Okuninka stwierdzono, że początki osadnictwa na ziemiach, na których znajduje się Chełm, sięgają epoki paleolitycznej. Odkryte przedmioty wskazują, że istniał tu nieprzerwany ciąg osadniczy na przestrzeni kolejnych epok. Na terenie samego Chełma osadnictwo rozpoczęło się na początku naszej ery. Mieszkała tu wówczas ludność kultury przeworskiej. W X wieku na Wysokiej Górce istniał gród drewniano-kamienny. Na przełomie VII i VIII wieku tereny miasta obejmował związek plemienny Lędzian z siedzibą w Sandomierzu. Tereny międzyrzecza Wieprza i Bugu zostały wzmocnione przez wybudowanie sieci grodów – nazwanych później Grodami Czerwieńskimi.",
+    "url": "https://pl.wikipedia.org/wiki/Historia_Che%C5%82ma",
     "język": "pl"
    },
    "tagi": [
-    "Gdańsku",
-    "Obwodowej Komisji Wyborczej",
-    "Funduszu Pomocy Pokrzywdzonym",
-    "Pomocy Postpenitencjarnej"
+    "Chełma",
+    "Rosji",
+    "Władysława Kosiniaka-Kamysza",
+    "Donalda Tuska"
    ],
    "emotki": [
-    "⚖️",
-    "🗳️"
+    "🏛️"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Interia Fakty",
-     "tytuł": "Pomylili głosy Nawrockiego i Trzaskowskiego. Jest ruch prokuratury",
-     "url": "https://wydarzenia.interia.pl/pomorskie/news-pomylili-glosy-nawrockiego-i-trzaskowskiego-jest-ruch-prokur,nId,23577920"
-    },
-    {
-     "nazwa": "Notes from Poland",
-     "tytuł": "Public astronomical observatory opens in Warsaw",
-     "url": "https://notesfrompoland.com/2026/11/23/public-astronomical-observatory-opens-in-warsaw/"
+     "tytuł": "Samorządowiec apeluje do premiera po atakach. Pilna prośba",
+     "url": "https://wydarzenia.interia.pl/lubelskie/news-prezydent-chelma-apeluje-do-premiera-po-incydentach-diametra,nId,23578506"
     }
    ],
-   "liczba_źródeł": 2,
+   "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.371,
+    "wynik": 3.538,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.135,
-     "eksponowanie": 0.63,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.482,
-     "treściwość": 0.374,
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.488,
+     "treściwość": 0.5,
      "język_działu": 0.5
     }
    },
@@ -114,427 +104,87 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "\"Esencja silnej gospodarki\". Andrzej Domański o roli firm w systemie",
-   "lead": "– Gotowość do brania ryzyka, do podejmowania decyzji inwestycyjnych jest esencją silnej gospodarki. Gospodarka i rozwój przedsiębiorczości mają szczególne miejsce w agendzie naszego rządu.",
+   "nagłówek": "\"WiceTusk\", nie Rostowski 2.0. Nowy wicepremier ma być asem w rękawie KO",
+   "lead": "Ceni go premier, lubią koalicjanci, a on sam w trzy lata zrobił zawrotną karierę od człowieka spoza wielkiej polityki do szefa super resortu i wicepremiera. Przed Andrzejem Domańskim jednak zadanie najtrudniejsze: bycia jedną z twarzy rządu w kampanii wyborczej i zadbania o portfele Polaków.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-23T18:28:28+00:00",
+   "opublikowano": "2026-11-24T18:31:31+00:00",
    "źródło": {
-    "nazwa": "Money.pl",
-    "url": "https://www.money.pl/gospodarka/esencja-silnej-gospodarki-andrzej-domanski-o-roli-firm-w-systemie-7354189860616192a.html",
-    "domena": "money.pl"
+    "nazwa": "Interia Fakty",
+    "url": "https://wydarzenia.interia.pl/kraj/news-wicetusk-nie-rostowski-2-0-nowy-wicepremier-ma-byc-asem-w-re,nId,23578551",
+    "domena": "wydarzenia.interia.pl"
    },
-   "obraz": "https://v.wpimg.pl/MDdlYjUyYiUFDi9ZegJvMEZWewM8W2FmEU5jSHpIdHZUFHYMPBUoNgEcNkQyCzg0BRspRCUVYiUUBXYcZFYpLRccNQssVigpBgk9RTEfeXZQCGoLeBx1fQZBbQgwGmAmXFw4R2VJenRTCTtfZ08uJUYR",
+   "obraz": "https://i.iplsc.com/-/000NKHYNTW4UW1G7-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Potrzebujemy silnych firm, a rolą państwa jest stworzenie dla nich warunków do rozwoju oraz skutecznego konkurowania na świecie – mówił wicepremier Andrzej Domański podczas poniedziałkowej gali Brands from Poland.",
-      "Redakcja money.pl powołała nagrody Brands from Poland w 2025 r., z okazji swoich 25. urodzin.",
-      "Honorują one marki i osoby, które walnie przyczyniają się do kreowania wizerunku Polski jako kraju nowoczesnego, dynamicznego i innowacyjnego.",
-      "Podczas uroczystej gali w siedzibie Giełdy Papierów Wartościowych w Warszawie, podczas której wyłonieni zostali laureaci tegorocznej edycji konkursu , głos zabrał wicepremier, minister finansów Andrzej Domański. – Bardzo się cieszę, że mogliśmy spotkać się tutaj, na Giełdzie Papierów Wartościowych.",
-      "Dobrze się spotkać w dniu, w którym WIG20 rośnie o niemal 4 proc.",
-      "W dniu, w którym myślę, że dobrze widzimy, jak ważne dla firm i gospodarek są decyzje kadrowe.",
-      "Jedna decyzja kadrowa w USA i Nasdaq, S&P, wszystkie indeksy mocno do góry.",
-      "Nvidia plus 30 procent – zaczął swoje wystąpienie Domański.",
-      "W ten sposób odniósł się do poniedziałkowej informacji o powrocie Jensena Huanga na stanowisko dyrektora generalnego Nvidii. – Bardzo się cieszę, że możemy się dzisiaj spotkać w gronie liderów polskiego biznesu."
+      "Jeszcze 20 października w Sejmie posłowie głosowali wniosek o wotum nieufności dla Andrzeja Domańskiego .",
+      "Dokładnie miesiąc później minister finansów i gospodarki dostał awans na wicepremiera rządu.",
+      "W otoczeniu premiera słyszymy zresztą, że nową funkcję Domański miał obiecaną nie miesiąc, ale już rok temu. - Od dawna toczyły się między nimi takie rozmowy - zdradza nam jedno z naszych źródeł.",
+      "Jak dodaje, wysoko ceniące Domańskiego środowisko wielkiego biznesu czuło pismo nosem i na przestrzeni ostatnich 12 miesięcy niejednokrotnie dopytywało ludzi z Kancelarii Premiera, kiedy Domański zostanie zastępcą Tuska w rządzie.",
+      "W końcu do tego doszło, a Domański w ledwie trzy lata przeszedł drogę od człowieka spoza wielkiej polityki do jednego z najważniejszych polityków w kraju.",
+      "Mówi jeden z członków rządu: - Andrzej dowozi Kierownikowi (tak w Koalicji Obywatelskiej i rządzie nazywany jest Donald Tusk - przyp. red.) wszystko.",
+      "Jak nie dowozisz albo robisz to w kratkę, to dostajesz po łapach. - Andrzej doskonale wie, że bez sprawnie ogarniętych finansów premier nie jest w stanie zarządzać krajem.",
+      "Dlatego dowoził mu wszystko: ceny paliw, wzrost PKB , wejście do G20, fundusze z KPO.",
+      "Gdy Donald Tusk wrócił do polskiej polityki latem 2021 roku Andrzej Domański współpracował z Instytutem Obywatelskim - to partyjny think tank Platformy Obywatelskiej - którego był głównym ekonomistą."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Język polski, polszczyzna – język lechicki z grupy zachodniosłowiańskiej, stanowiącej część rodziny indoeuropejskiej. Jest językiem urzędowym w Polsce oraz należy do oficjalnych języków Unii Europejskiej."
+      "Jacek Rostowski, właśc. Jan Antony Vincent-Rostowski – polski i brytyjski ekonomista oraz polityk, w latach 2007–2013 minister finansów, w 2013 wiceprezes Rady Ministrów, poseł na Sejm VII kadencji, w 2015 szef Zespołu Doradców Politycznych Prezesa Rady Ministrów, od 2025 stały przedstawiciel RP przy Organizacji Współpracy Gospodarczej i Rozwoju."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Język polski",
-     "url": "https://pl.wikipedia.org/wiki/J%C4%99zyk_polski"
+     "przypis": "Wikipedia: Jacek Rostowski",
+     "url": "https://pl.wikipedia.org/wiki/Jacek_Rostowski"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "25",
-    "4 proc.",
-    "30 procent"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Język polski",
-    "opis": "język zachodniosłowiański z gałęzi lechickiej",
-    "tekst": "Język polski, polszczyzna – język lechicki z grupy zachodniosłowiańskiej, stanowiącej część rodziny indoeuropejskiej. Jest językiem urzędowym w Polsce oraz należy do oficjalnych języków Unii Europejskiej.",
-    "url": "https://pl.wikipedia.org/wiki/J%C4%99zyk_polski",
-    "język": "pl"
-   },
-   "tagi": [
-    "Polski",
-    "Andrzej Domański",
-    "Jednocześnie",
-    "Domański"
-   ],
-   "emotki": [
-    "🏛️"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "Money.pl",
-     "tytuł": "\"Esencja silnej gospodarki\". Andrzej Domański o roli firm w systemie",
-     "url": "https://www.money.pl/gospodarka/esencja-silnej-gospodarki-andrzej-domanski-o-roli-firm-w-systemie-7354189860616192a.html"
-    }
-   ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 3.518,
-    "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.0,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.468,
-     "treściwość": 0.5,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 2
-  },
-  {
-   "dział": {
-    "id": "swiat",
-    "nazwa": "Świat",
-    "emoji": "🌍",
-    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
-   },
-   "nagłówek": "Ukraina udostępnia nagranie z ataków na rosyjskie statki u wybrzeży Libii",
-   "lead": "Prezydent Zełenski powiedział, że zatopiono rosyjski okręt wojenny, a także trafiono rosyjski statek towarowy.",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-23T11:34:10+00:00",
-   "źródło": {
-    "nazwa": "BBC News",
-    "url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss",
-    "domena": "bbc.co.uk"
-   },
-   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9cc6/live/7a950f50-e738-11f1-99b6-a35a62fa4264.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Nikt nie przyznał się do ataku na statek, który zawinął do portu w drodze powrotnej do Rosji. Rosyjski okręt wojenny zacumowany w libijskim porcie Bengazi został zaatakowany we wczesnych godzinach porannych w niedzielę w ramach podejrzewanego ataku ukraińskiego drona morskiego, co spowodowało gwałtowną nocną eksplozję i zatonięcie jednostki.",
-      "Atak poważnie uszkodził „Merkurego”, rosyjską korwetę marynarki wojennej, która zatrzymała się w celu uzupełnienia paliwa i zaprowiantowania, jak twierdzą libijscy urzędnicy z rządu wschodniej części kraju.",
-      "Według informacji przekazanych agencji Associated Press przez urzędników, przechwycono i zniszczono co najmniej cztery drony, podczas gdy dwa uderzyły w okręt wojenny, powodując eksplozję.",
-      "Zdjęcia satelitarne pokazały, że „Merkury” zatonął po ataku, do którego doszło na Morzu Śródziemnym, ponad 1600 km na południe od Ukrainy, co oznacza znaczące rozszerzenie zasięgu geograficznego trwającej już prawie pięć lat wojny.",
-      "Chociaż Ukraina rozpoczęła wojnę bez marynarki wojennej, rozwinęła zdolności w zakresie dronów morskich, które zagroziły rosyjskim okrętom wojennym na Morzu Czarnym.",
-      "Służba Bezpieczeństwa Ukrainy twierdzi, że w akcji, w wyniku której zatopiono okręt wojenny „Merkury”, z okrętu-matki wystrzelono siedem dronów. Ukraina potwierdziła, że w niedzielę użyła dronów morskich do ataków na dwa rosyjskie okręty u wybrzeży Libii, w tym jednego, który zatopił korwetę „Merkury”, jeden z najnowszych rosyjskich okrętów.",
-      "Ukraińska Służba Bezpieczeństwa (SBU) poinformowała, że w ramach operacji, którą Wołodymyr Zełenski określił jako „wzorcową”, z okrętu macierzystego wystrzelono siedem dronów morskich produkcji krajowej."
-     ]
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "1,000",
-    "16",
-    "2,400",
-    "1,500",
-    "40",
-    "1,250"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": null,
-   "tagi": [
-    "Russian",
-    "Libya President Zelensky",
-    "Russia"
-   ],
-   "emotki": [],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "BBC News",
-     "tytuł": "Ukraine shares video of strikes on Russian ships off Libya",
-     "url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "The Guardian",
-     "tytuł": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
-     "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya"
-    },
-    {
-     "nazwa": "The Guardian",
-     "tytuł": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
-     "url": "https://www.theguardian.com/world/2026/nov/23/ukraine-naval-drones-strike-russian-warship-libya"
-    },
-    {
-     "nazwa": "BBC Europe",
-     "tytuł": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
-     "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC Europe",
-     "tytuł": "What strike on Russian ship in Libya says about spread of Ukraine war",
-     "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC Europe",
-     "tytuł": "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes",
-     "url": "https://www.bbc.co.uk/news/videos/cre3dvd1k9y1o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "NPR",
-     "tytuł": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval base in Libya",
-     "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya"
-    },
-    {
-     "nazwa": "NPR",
-     "tytuł": "Ukraine war spilling into NATO territory",
-     "url": "https://www.npr.org/2026/11/22/nx-s1-6050236/ukraine-war-spilling-into-nato-territory"
-    }
-   ],
-   "liczba_źródeł": 3,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 9.555,
-    "składowe": {
-     "potwierdzenia": 3.8,
-     "ranga_źródła": 2.527,
-     "eksponowanie": 1.53,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.498,
-     "treściwość": 0.5,
-     "język_działu": 0.0
-    }
-   },
-   "oryginalny_nagłówek": "Ukraine shares video of strikes on Russian ships off Libya",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "swiat",
-    "nazwa": "Świat",
-    "emoji": "🌍",
-    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
-   },
-   "nagłówek": "Pięć wniosków z nieudanych rozmów klimatycznych na COP31",
-   "lead": "Szczyt COP31 w Antalyi był najdłuższym spotkaniem poświęconym kwestiom klimatycznym w historii ONZ.",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-23T06:33:50+00:00",
-   "źródło": {
-    "nazwa": "BBC News",
-    "url": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo?at_medium=RSS&at_campaign=rss",
-    "domena": "bbc.co.uk"
-   },
-   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/55f7/live/e38ff1a0-e71f-11f1-99b6-a35a62fa4264.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Rozmowy te były najdłuższymi w historii szczytu, a negocjacje załamały się dwa dni po terminie ich zakończenia.",
-      "Podczas niedawnego szczytu Organizacji Współpracy Gospodarczej Azji i Pacyfiku (APEC) w centrum technologicznym Shenzhen japońska premier Sanae Takaichi spotkała się z chłodnym przyjęciem ze strony Chin.",
-      "Po przybyciu Takaichi do Shenzhenu 18 listopada na dwudniowy szczyt natychmiast pojawił się problem, gdy okazało się, że ruchome schody pod drzwiami jej samolotu nie sięgały progu, co zmusiło ją do trzymania się framugi drzwi, aby zejść około 40 centymetrów (około 15 cali) na najwyższy stopień.",
-      "Japońska gazeta „Yomiuri” poinformowała 20 listopada, że kiedy Takaichi spotkała się z chińskim przywódcą Xi Jinpingiem podczas przyjęcia z kolacją, „jego reakcja była chłodna”. I podczas gdy wielu innych przywódców regionalnych zdołało odbyć przynajmniej krótką rozmowę w cztery oczy z Xi przy okazji głównego wydarzenia, delegacji japońskiej nie udzielono takiej możliwości.",
-      "„Poziom chłodu ze strony chińskiej był w pełni widoczny od momentu wylądowania samolotu Takaichi” – powiedział William Yang, analityk z tajwańskiej siedziby International Crisis Group.",
-      "„Nie mogę uwierzyć, że problem ze schodami samolotu nie był czymś umyślnym i że nie było ogromnej różnicy między powitaniem, jakie otrzymała ona, a tym, jakie spotkało praktycznie wszystkich innych” – powiedział DW.",
-      "Yang dodał, że lody nie zostały przełamane, gdy Takaichi próbowała porozmawiać z Xi podczas bankietu, a całe to wydarzenie „po prostu odzwierciedla stan stosunków dwustronnych”. Chiny i Japonia mają za sobą burzliwą historię, naznaczoną japońską inwazją na Chiny w latach 30. XX wieku oraz często brutalną okupacją zdobytych i podbitych miast."
-     ]
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "18",
-    "40",
-    "15",
     "20",
-    "42%",
-    "14"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": null,
-   "tagi": [
-    "Antalya"
-   ],
-   "emotki": [],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "BBC News",
-     "tytuł": "Five takeaways from the failed climate talks COP31",
-     "url": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC Europe",
-     "tytuł": "What's next after no deal at COP31 climate talks?",
-     "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "Deutsche Welle",
-     "tytuł": "After Japan's APEC snub, what's next for its China ties?",
-     "url": "https://www.dw.com/en/after-japan-s-apec-snub-what-s-next-for-its-china-ties/a-80020823?maca=en-rss-en-world-4025-rdf"
-    },
-    {
-     "nazwa": "NPR",
-     "tytuł": "Democrats win House by largest margin in 50 years. And, COP31 ends with no deal",
-     "url": "https://www.npr.org/2026/11/23/g-s1-155021/up-first-newsletter-midterms-house-ai-stocks-poland-nato-cop31"
-    }
-   ],
-   "liczba_źródeł": 3,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 7.736,
-    "składowe": {
-     "potwierdzenia": 3.8,
-     "ranga_źródła": 1.83,
-     "eksponowanie": 0.72,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.437,
-     "treściwość": 0.249,
-     "język_działu": 0.0
-    }
-   },
-   "oryginalny_nagłówek": "Five takeaways from the failed climate talks COP31",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   },
-   "miejsce": 2
-  },
-  {
-   "dział": {
-    "id": "sport-pl",
-    "nazwa": "Sport w Polsce",
-    "emoji": "🏅",
-    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
-   },
-   "nagłówek": "Polacy szykują się na mundial w teqballu. Cel? \"Wierzymy w złoto\"",
-   "lead": "W Ząbkach reprezentacja Polski w teqballu przygotowuje się do nadchodzących mistrzostw świata. Biało-czerwoni nie ukrywają, że celują w medale.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-23T22:17:00+00:00",
-   "źródło": {
-    "nazwa": "TVP Sport",
-    "url": "https://sport.tvp.pl/96645515/polacy-szykuja-sie-na-mundial-w-teqballu-cel-wierzymy-w-zloto",
-    "domena": "sport.tvp.pl"
-   },
-   "obraz": null,
-   "sekcje": [],
-   "dlaczego_to_ważne": "",
-   "liczby": [],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": null,
-   "tagi": [
-    "Ząbkach",
-    "Polski"
-   ],
-   "emotki": [
-    "🏅"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "TVP Sport",
-     "tytuł": "Polacy szykują się na mundial w teqballu. Cel? \"Wierzymy w złoto\"",
-     "url": "https://sport.tvp.pl/96645515/polacy-szykuja-sie-na-mundial-w-teqballu-cel-wierzymy-w-zloto"
-    }
-   ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 3.616,
-    "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.0,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 1.4,
-     "świeżość": 0.516,
-     "treściwość": 0.2,
-     "język_działu": 0.5
-    }
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "sport-pl",
-    "nazwa": "Sport w Polsce",
-    "emoji": "🏅",
-    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
-   },
-   "nagłówek": "Natalia Bukowiecka (lekkoatletyka) – nominowana w Plebiscycie \"Przeglądu Sportowego\" na Najlepszego Sportowca Polski 2026 Roku [SYLWETKA WIDEO]",
-   "lead": "Znamy 25 sportowców nominowanych w 92. plebiscycie \"Przeglądu Sportowego\". W tym gronie znalazła się Natalia Bukowiecka.",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-23T22:25:00+00:00",
-   "źródło": {
-    "nazwa": "TVP Sport",
-    "url": "https://sport.tvp.pl/96645552/natalia-bukowiecka-nominowana-w-plebiscycie-przegladu-sportowego-sylwetka-wideo",
-    "domena": "sport.tvp.pl"
-   },
-   "obraz": null,
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "Przedstawiamy jej sylwetkę."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Natalia Maria Bukowiecka z domu Kaczmarek – polska lekkoatletka specjalizująca się w biegu na 400 metrów, multimedalistka olimpijska. Żołnierka zawodowa Wojska Polskiego. Wychowanka ALKS AJP Gorzów Wielkopolski."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Natalia Bukowiecka",
-     "url": "https://pl.wikipedia.org/wiki/Natalia_Bukowiecka"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "25",
-    "92"
+    "12",
+    "2.0"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Natalia Bukowiecka",
-    "opis": "polska lekkoatletka, biegaczka i żołnierka",
-    "tekst": "Natalia Maria Bukowiecka z domu Kaczmarek – polska lekkoatletka specjalizująca się w biegu na 400 metrów, multimedalistka olimpijska. Żołnierka zawodowa Wojska Polskiego. Wychowanka ALKS AJP Gorzów Wielkopolski.",
-    "url": "https://pl.wikipedia.org/wiki/Natalia_Bukowiecka",
+    "hasło": "Jacek Rostowski",
+    "opis": "polski ekonomista",
+    "tekst": "Jacek Rostowski, właśc. Jan Antony Vincent-Rostowski – polski i brytyjski ekonomista oraz polityk, w latach 2007–2013 minister finansów, w 2013 wiceprezes Rady Ministrów, poseł na Sejm VII kadencji, w 2015 szef Zespołu Doradców Politycznych Prezesa Rady Ministrów, od 2025 stały przedstawiciel RP przy Organizacji Współpracy Gospodarczej i Rozwoju.",
+    "url": "https://pl.wikipedia.org/wiki/Jacek_Rostowski",
     "język": "pl"
    },
    "tagi": [
-    "Plebiscycie Przeglądu Sportowego",
-    "Najlepszego Sportowca Polski",
-    "Przeglądu Sportowego",
-    "Natalia Bukowiecka"
+    "Domański",
+    "Domańskiego",
+    "Tuska",
+    "Koalicji Obywatelskiej"
    ],
-   "emotki": [],
+   "emotki": [
+    "🏛️",
+    "🗳️"
+   ],
    "wszystkie_źródła": [
     {
-     "nazwa": "TVP Sport",
-     "tytuł": "Natalia Bukowiecka (lekkoatletyka) – nominowana w Plebiscycie \"Przeglądu Sportowego\" na Najlepszego Sportowca Polski 2026 Roku [SYLWETKA WIDEO]",
-     "url": "https://sport.tvp.pl/96645552/natalia-bukowiecka-nominowana-w-plebiscycie-przegladu-sportowego-sylwetka-wideo"
+     "nazwa": "Interia Fakty",
+     "tytuł": "\"WiceTusk\", nie Rostowski 2.0. Nowy wicepremier ma być asem w rękawie KO",
+     "url": "https://wydarzenia.interia.pl/kraj/news-wicetusk-nie-rostowski-2-0-nowy-wicepremier-ma-byc-asem-w-re,nId,23578551"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 2.553,
+    "wynik": 3.384,
     "składowe": {
      "potwierdzenia": 0.0,
      "ranga_źródła": 1.0,
      "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.518,
-     "treściwość": 0.185,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.469,
+     "treściwość": 0.365,
      "język_działu": 0.5
     }
    },
@@ -542,326 +192,569 @@
   },
   {
    "dział": {
-    "id": "sport-swiat",
-    "nazwa": "Sport na świecie",
-    "emoji": "🌐",
-    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
    },
-   "nagłówek": "Pierwsza czerwona kartka Tarkowskiego w Premier League zepsuła wieczór Moyesowi – czy była zasłużona?",
-   "lead": "Kapitan Evertonu, James Tarkowski, został wyrzucony z boiska po raz pierwszy w swojej karierze w Premier League podczas poniedziałkowej porażki 0:4 z Brentford – ale czy była to surowa decyzja?",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-23T22:43:39+00:00",
-   "źródło": {
-    "nazwa": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmqx5eynvpqno?at_medium=RSS&at_campaign=rss",
-    "domena": "bbc.co.uk"
-   },
-   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1142/live/d8901070-e786-11f1-9baa-c1f9a8f8c840.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Leeds udziela lekcji Chelsea, letnie wzmocnienia Newcastle mają problemy, a Jules Ahoka zyskuje uznanie. Co sądzić o absolutnie fatalnym początku Manchesteru United pod wodzą Mauricio Pochettino?",
-      "Patrząc na sprawę optymistycznie, nowy trener miał tylko trzy dni na przygotowanie drużyny do wyjazdu na Anfield, więc można mieć nadzieję, że upokarzająca porażka 0:4 z Liverpoolem okaże się najbardziej nietrafionym z nietrafionych początków.",
-      "Bardzo wczesna czerwona kartka dla Leny'ego Yoro mogła być wątpliwa, ale to, że mur obronny rozpadł się i pozwolił Dominikowi Szoboszlaiowi na strzał z rzutu wolnego, który wpadł prosto do bramki, było miażdżącym dowodem na to, jak niedojrzała jest nowa drużyna Pochettino.",
-      "Jamie Jackson Liverpool pod koniec 2026 roku będzie miał w składzie trzech zawodników pozyskanych za ponad 100 mln GBP.",
-      "Ngumoha pokazał, że ma talent, by osiągnąć podobną cenę, strzelając gole i asystując w wieku 18 lat i 85 dni, stając się najmłodszym zawodnikiem Liverpoolu, któremu się to udało, od czasów Michaela Owena w meczu z Leeds w grudniu 1997 roku.",
-      "Jeśli występ Manchesteru United i dziwaczny wybór De Ligta przez Mauricio Pochettino otworzyły drzwi, to Liverpool wpadł przez nie jak burza."
-     ]
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "100",
-    "18",
-    "85",
-    "78.5",
-    "50",
-    "117"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": null,
-   "tagi": [
-    "Premier League",
-    "James Tarkowski",
-    "Brentford",
-    "Monday's"
-   ],
-   "emotki": [
-    "⚽",
-    "🏛️"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "BBC Sport",
-     "tytuł": "Tarkowski's first Premier League red ruins Moyes' night - was it deserved?",
-     "url": "https://www.bbc.co.uk/sport/football/articles/cmqx5eynvpqno?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC Sport",
-     "tytuł": "Who has made Troy's Premier League team of the week?",
-     "url": "https://www.bbc.co.uk/sport/football/articles/c34gn2p5d0zwo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "The Guardian Football",
-     "tytuł": "Premier League: 10 talking points from the weekend’s action",
-     "url": "https://www.theguardian.com/football/2026/nov/23/premier-league-10-talking-points-from-the-weekends-action"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 1,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 5.634,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.653,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.531,
-     "treściwość": 0.5,
-     "język_działu": 0.0
-    }
-   },
-   "oryginalny_nagłówek": "Tarkowski's first Premier League red ruins Moyes' night - was it deserved?",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "sport-swiat",
-    "nazwa": "Sport na świecie",
-    "emoji": "🌐",
-    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
-   },
-   "nagłówek": "Anglia, Irlandia Północna, Szkocja i Walia będą gospodarzami Mistrzostw Świata Kobiet w 2035 roku",
-   "lead": "Wielka Brytania po raz pierwszy od 1966 roku będzie gospodarzem Mistrzostw Świata w piłce nożnej.",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-23T15:09:50+00:00",
-   "źródło": {
-    "nazwa": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cx30g83716lzo?at_medium=RSS&at_campaign=rss",
-    "domena": "bbc.co.uk"
-   },
-   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/042f/live/fe5449a0-e751-11f1-99a1-253766e7ad8b.jpg",
-   "sekcje": [
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Szkocja zamierza „zburzyć” marzenia Szwecji o Pucharze Świata „i zrobić to w prawdziwie szkockim stylu” – mówi trenerka Melissa Andreatta.",
-      "Członkowie kierownictwa mieli otrzymać ogromne wypłaty. FIFA zaprzecza, jakoby Infantino miał czerpać korzyści z tego planu. Zgodnie z dokumentami, do których dotarł „The Guardian”, nieudany plan Gianniego Infantino dotyczący przedsięwzięcia FIFA Forward mógł doprowadzić do uzależnienia futbolu od FIFA na okres do 96 lat, a jednocześnie zapewnić kierownictwu wypłaty w wysokości do 5% wartości tego programu, wynoszącej wiele miliardów funtów.",
-      "Dotychczas nieujawniona korespondencja między FIFA a Thrive Capital, głównym inwestorem w ramach tej propozycji, rzuca nowe światło na transakcję sprzedaży najcenniejszych aktywów piłki nożnej.",
-      "Przedstawiają one plan, opracowany na kilka dni przed lipcowym finałem Mistrzostw Świata w piłce nożnej 2026, mający na celu czerpanie zysków z rosnących przychodów komercyjnych związanych z tą dyscypliną sportu przez okres prawie stu lat.",
-      "Wewnętrzna ocena ryzyka FIFA z dnia 17 lipca, przygotowana jako jeden z ostatnich kroków przed zawarciem umowy z FFE, szczegółowo opisuje niezwykły zakres tego przedsięwzięcia. „Umowa ta przewiduje, że FIFA utworzy spółkę zależną działającą dla zysku, na którą zostaną przeniesione wszystkie prawa handlowe do wydarzeń organizowanych przez FIFA w celu ich komercyjnego wykorzystywania przez kolejne 96 lat” – czytamy w jednym z fragmentów.",
-      "W innym wewnętrznym dokumencie FIFA sporządzonym następnego dnia, w którym przedstawiono proponowaną umowę z Thrive, stwierdza się, że okres obowiązywania umowy „będzie obejmował kolejne 12-letnie okresy licencyjne do maksymalnej łącznej sumy 96 lat” i dodaje się, że FIFA będzie posiadać 51% udziałów „na czas nieokreślony”."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Walia to kraj wchodzący w skład Zjednoczonego Królestwa. Położona jest na wyspie Wielka Brytania i graniczy z Morzem Irlandzkim od północy i zachodu, Anglią od wschodu, Kanałem Bristolskim od południa oraz Morzem Celtyckim od południowego zachodu. W 2021 roku liczyła 3,1 miliona mieszkańców. Jego całkowita powierzchnia wynosi 21 218 kilometrów kwadratowych (8192 mil kwadratowych), a długość linii brzegowej przekracza 2700 kilometrów (1680 mil). Jest to w dużej mierze kraj górzysty, a jego najwyższe szczyty znajdują się w regionach północnym i centralnym. Najwyższym z nich jest Snowdon. Kraj leży w północnej strefie umiarkowanej i ma zmienny, morski klimat. Jej stolicą i największym miastem jest Cardiff."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Wales",
-     "url": "https://en.wikipedia.org/wiki/Wales"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "96",
-    "5%",
-    "17",
-    "12",
-    "51%",
-    "50"
-   ],
-   "inne_spojrzenia": [],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Wales",
-    "opis": "Country within the United Kingdom",
-    "tekst": "Wales is a country that is part of the United Kingdom. Located on the island of Great Britain, it is bordered by the Irish Sea to the north and west, England to the east, the Bristol Channel to the south, and the Celtic Sea to the south-west. As of 2021, it had a population of 3.1 million. It has a total area of 21,218 square kilometres (8,192 sq mi) and over 2,700 kilometres (1,680 mi) of coastline. It is largely mountainous with its higher peaks in the north and central areas, including Snowdon, its highest summit. The country lies within the north temperate zone and has a changeable, maritime climate. Its capital and largest city is Cardiff.",
-    "url": "https://en.wikipedia.org/wiki/Wales",
-    "język": "en"
-   },
-   "tagi": [
-    "Northern Ireland Scotland",
-    "Women's World Cup",
-    "United Kingdom",
-    "World Cup"
-   ],
-   "emotki": [
-    "⚽"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "BBC Sport",
-     "tytuł": "England, Northern Ireland, Scotland & Wales to host 2035 Women's World Cup",
-     "url": "https://www.bbc.co.uk/sport/football/articles/cx30g83716lzo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC Football",
-     "tytuł": "Andreatta's masterplan to shock Sweden & take Scots to World Cup",
-     "url": "https://www.bbc.co.uk/sport/football/articles/c94gn2mmjr4eo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "The Guardian Football",
-     "tytuł": "Infantino’s $20bn World Cup sell-off plan was to run for up to 96 years, documents show",
-     "url": "https://www.theguardian.com/football/2026/nov/23/gianni-infantino-world-cup-sell-off-plan-96-years-documents-payouts"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 2,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 5.15,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.623,
-     "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.427,
-     "treściwość": 0.5,
-     "język_działu": 0.0
-    }
-   },
-   "oryginalny_nagłówek": "England, Northern Ireland, Scotland & Wales to host 2035 Women's World Cup",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
-   },
-   "miejsce": 2
-  },
-  {
-   "dział": {
-    "id": "technologia",
-    "nazwa": "Technologia i nauka",
-    "emoji": "🧪",
-    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
-   },
-   "nagłówek": "Jensen Huang wraca do Nvidii. Szybko zmienili zdanie",
-   "lead": "Po tym, jak na początku miesiąca wybuchła głośna afera dotycząca relacji pozamałżeńskich ówczesnego dyrektora Nvidii Jensena Huanga, 12 listopada 2026 r. został on zmuszony do rezygnacji z fotela CEO. Sprawa dotyczyła bowiem kontaktów z potencjalną agentką szpiegującą dla Chin oraz z dwiema podwładnymi z samej Nvidii .",
+   "nagłówek": "Trump komentuje aferę w Nvidii i zdradza kulisy powrotu prezesa Huanga",
+   "lead": "W poniedziałek Nvidia oficjalnie poinformowała o przywróceniu Jensena Huanga na stanowisko prezesa, zaledwie 11 dni po jego odejściu w atmosferze skandalu . Przypomnijmy, że powodem rezygnacji był romans Huanga z Alice Huang , menedżerką podejrzaną o szpiegostwo na rzecz Chin oraz przemyt zaawansowanych układów Nvidii…",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-23T14:55:00+00:00",
+   "opublikowano": "2026-11-25T04:34:00+00:00",
    "źródło": {
-    "nazwa": "Spider's Web",
-    "url": "https://spidersweb.pl/2026/11/jensen-huang-nvidia-powrot-decyzja-dyrektor-generalny-prezes.html",
-    "domena": "spidersweb.pl"
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-trump-komentuje-afere-w-nvidii-i-zdradza-kulisy-powrotu-prez,nIdn,1027535",
+    "domena": "rmf24.pl"
    },
-   "obraz": "https://cdn-sw.spidersweb.pl/2026/11/nvidia-jensen-huang-powrot.webp",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/a9/8a/donald-trump-636x421-a98a4b0d.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Sytuacja wraca jednak do punktu wyjścia.",
-      "Nvidia 23 listopada poinformowała o powrocie Jensena Huanga do firmy.",
-      "Amerykański przedsiębiorca został przywrócony na trzy dotychczasowe funkcje: Decyzja zapadła po tym, jak rada dyrektorów jednogłośnie zagłosowała za jego powrotem po serii rozmów i spotkań.",
-      "Członkowie rady uznali wyjaśnienia Huanga za szczere, a kluczowym argumentem pozostała jego rola i zdolność do kierowania Nvidią.",
-      "Swoje stanowisko przekazały również władze Stanów Zjednoczonych, według których przywrócenie Huanga nie stanowi zagrożenia dla bezpieczeństwa narodowego.",
-      "Zarząd uważa, że Jensen jest odpowiednią osobą do kierowania firmą NVIDIA [...].",
-      "Mamy pełne zaufanie do Jensena i z niecierpliwością czekamy na współpracę z nim, gdy ponownie obejmie stanowisko kierownicze w firmie - pisze Nvidia w komunikacie.",
-      "Jestem zaszczycony, że mogę wrócić do firmy NVIDIA i poprowadzić jedną z najważniejszych spółek technologicznych na świecie u progu nowej rewolucji przemysłowej.",
-      "Podejmuję tę odpowiedzialność z największą pokorą i odnowionym zaangażowaniem - powiedział Jensen Huang."
+      "Decyzja o powrocie Huanga została podjęta po wewnętrznym śledztwie, które – według prezydenta Trumpa – oczyściło go z zarzutów.",
+      "Donald Trump w rozmowie z „New York Post” przyznał, że nie zagłębiał się w szczegóły życia prywatnego Huanga.",
+      "Szczerze mówiąc, nie zagłębiałem się w to.",
+      "Zajmowałem się sprawą chipów, a nie sprawą seksu – powiedział prezydent.",
+      "Trump podkreślił, że interweniował, by przywrócić Huanga na stanowisko, ponieważ wybór „niewłaściwej osoby” mógłby być bardzo niekorzystny dla kraju.",
+      "Pytany o możliwość ułaskawienia Huanga na wypadek ewentualnych zarzutów, Trump nie wykluczył takiego scenariusza, choć – jak zaznaczył – nie uważa, by było to konieczne.",
+      "To zawsze jakaś możliwość, ale nie wydaje mi się, żeby było to potrzebne – stwierdził.",
+      "Prezydent podkreślił, że sukces Nvidii jest kluczowy dla utrzymania przewagi USA w dziedzinie sztucznej inteligencji.",
+      "W przyszłym tygodniu Jensen Huang ma stanąć przed Kongresem."
      ]
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "12",
-    "23",
-    "35%",
-    "7%",
-    "25 million",
-    "63"
+    "11 dni",
+    "10 proc.",
+    "4.8",
+    "6.5%"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Nvidii",
     "Huanga",
-    "Huang",
-    "Nvidii Jensena Huanga"
+    "Nvidii",
+    "Trump",
+    "USA"
    ],
    "emotki": [
-    "💻"
+    "🏛️",
+    "⚖️"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Spider's Web",
-     "tytuł": "Jensen Huang wraca do Nvidii. Szybko zmienili zdanie",
-     "url": "https://spidersweb.pl/2026/11/jensen-huang-nvidia-powrot-decyzja-dyrektor-generalny-prezes.html"
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Trump komentuje aferę w Nvidii i zdradza kulisy powrotu prezesa Huanga",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-trump-komentuje-afere-w-nvidii-i-zdradza-kulisy-powrotu-prez,nIdn,1027535"
     },
     {
-     "nazwa": "Ars Technica",
-     "tytuł": "Jensen Huang reinstated as Nvidia CEO, board chair",
-     "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/"
+     "nazwa": "BBC News",
+     "tytuł": "Cheers and applause as Jensen Huang returns to Nvidia office",
+     "url": "https://www.bbc.co.uk/news/videos/ckedq2edqegzo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "nazwa": "Phys.org Technology",
-     "tytuł": "Nvidia reinstates Huang as CEO after Trump intervention",
-     "url": "https://techxplore.com/news/2026-11-nvidia-reinstates-huang-ceo-trump.html"
+     "nazwa": "BBC News",
+     "tytuł": "Trump's rescue of Nvidia's Huang brings political risks",
+     "url": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "nazwa": "TechCrunch",
-     "tytuł": "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist",
-     "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/"
+     "nazwa": "The Guardian",
+     "tytuł": "The Nvidia case is just the latest episode of Trump disregarding intelligence",
+     "url": "https://www.theguardian.com/technology/2026/nov/24/nvidia-trump-huang-intelligence"
     },
     {
-     "nazwa": "TechCrunch",
-     "tytuł": "‘Outrageous,’ ‘reckless,’ ‘wow’: Here’s what politicians are saying about Jensen Huang’s return to Nvidia",
-     "url": "https://techcrunch.com/2026/11/23/outrageous-reckless-wow-heres-what-politicians-are-saying-about-jensen-huangs-return-to-nvidia/"
+     "nazwa": "BBC Business",
+     "tytuł": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+     "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss"
     },
     {
-     "nazwa": "TechCrunch",
-     "tytuł": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
-     "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/"
+     "nazwa": "BBC Business",
+     "tytuł": "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
+     "url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss"
     },
     {
-     "nazwa": "TechCrunch",
-     "tytuł": "Jensen Huang isn’t out of the woods yet",
-     "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/"
-    },
-    {
-     "nazwa": "TechCrunch",
-     "tytuł": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
-     "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/"
-    },
-    {
-     "nazwa": "TechCrunch",
-     "tytuł": "Nvidia employees greet Jensen Huang like a hero as he returns to company’s HQ",
-     "url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/"
-    },
-    {
-     "nazwa": "TechCrunch",
-     "tytuł": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
-     "url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/"
+     "nazwa": "NPR",
+     "tytuł": "Jensen Huang returns to Nvidia. And, Rep. Gomez resigns amid alleged sexual misconduct",
+     "url": "https://www.npr.org/2026/11/24/g-s1-155227/up-first-newsletter-nvidia-jensen-huang-trump-ukraine-russia-jimmy-gomez"
     }
    ],
    "liczba_źródeł": 4,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 9.648,
+    "wynik": 11.09,
     "składowe": {
      "potwierdzenia": 5.7,
-     "ranga_źródła": 2.615,
-     "eksponowanie": 0.09,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.51,
-     "treściwość": 0.233,
+     "ranga_źródła": 2.385,
+     "eksponowanie": 0.36,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.595,
+     "treściwość": 0.5,
      "język_działu": 0.5
     }
    },
    "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "swiat",
+    "nazwa": "Świat",
+    "emoji": "🌍",
+    "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
+   },
+   "nagłówek": "Szef NATO obiecuje obronę przed zagrożeniem z kosmosu po doniesieniach o rosyjskim satelicie z ładunkiem nuklearnym",
+   "lead": "Niemieckie media poinformowały, że Rosja planuje w nadchodzących tygodniach wystrzelić w kosmos satelitę z głowicą nuklearną.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-24T10:58:51+00:00",
+   "źródło": {
+    "nazwa": "BBC Europe",
+    "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f9e8/live/05da8d30-e7d7-11f1-a094-5fdc692f3e33.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Gdyby zakłócony został również sygnał GPS, kierowcy i piloci mogliby stracić wskazówki nawigacyjne, a sieci finansowe mogłyby utracić źródło precyzyjnego czasu.",
+      "Wieczorem 8 lipca 1962 roku mieszkańcy Hawajów organizowali „imprezy z obserwacją bomby” i śledzili odliczanie w radiu krótkofalowym."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "8, 1962",
+    "400",
+    "250",
+    "20,200"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Russian",
+    "German",
+    "Russia"
+   ],
+   "emotki": [
+    "🚀"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC Europe",
+     "tytuł": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
+     "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "Deutsche Welle",
+     "tytuł": "What happens if a nuclear weapon explodes in space?",
+     "url": "https://www.dw.com/en/what-happens-if-a-nuclear-weapon-explodes-in-space/a-80025827?maca=en-rss-en-world-4025-rdf"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 4.807,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.307,
+     "eksponowanie": 0.27,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.375,
+     "treściwość": 0.255,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Ważny komunikat od Igi Świątek. Ogłosiła nabór. Dołączą dwie osoby",
+   "lead": "We wrześniu 2025 r. ogłoszono, że dwa miesiące wcześniej powstała Iga Świątek Foundation. Pierwszym dużym projektem instytucji był program stypendialny. - Jest szczególnie bliski mojemu sercu, bo sport dał mi bardzo wiele: sukcesy, ale przede wszystkim doświadczenie i wartości, które ukształtowały mnie jako człowieka.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-25T04:00:02+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/iga-swiatek/news-wazny-komunikat-od-igi-swiatek-oglosila-nabor-dolacza-dwie-o,nId,23578408",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NKGR8JP225KHN-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Teraz chcę dzielić się tymi zasobami i wspierać innych sportowców na ich drodze - mówiła wtedy nasza tenisistka.",
+      "W grudniu ogłosiła pierwszych pięciu beneficjentów.",
+      "Mowa o Ignacym Andrzejczaku (lekkoatletyka), Wiktorze Chmurskim (pływanie), Liwii Kubin (łyżwiarstwo szybkie), Janie Pyle (golf) oraz Oliwii Sybickiej (tenis).",
+      "We wtorek, a więc jedenaście miesięcy później za pośrednictwem filmiku na Instagramie potwierdziła ich pozostanie na 2027 rok, bo jak sama podkreśla, progres sportowców nie zawsze jest prostoliniowy i należy patrzeć na niego z szerszej perspektywy.",
+      "\"Z własnego doświadczenia wiem, jak ważne w rozwoju sportowca jest długofalowe wsparcie.",
+      "Dlatego cała piątka naszych dotychczasowych stypendystów zostaje z nami na kolejny rok.",
+      "Chcemy dać im więcej czasu i przestrzeni do rozwoju, zarówno sportowego, jak i osobistego\" - czytamy w poście.",
+      "Ta strona jest chroniona przez reCAPTCHA Grono będzie jednak poszerzone.",
+      "\"W drugiej edycji dołączą do nas dodatkowo dwie nowe osoby."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Iga Natalia Świątek – polska tenisistka, zwyciężczyni dwudziestu sześciu turniejów WTA w grze pojedynczej, w tym sześciu turniejów wielkoszlemowych: French Open 2020, 2022, 2023 i 2024, US Open 2022 oraz Wimbledonu 2025, a także WTA Finals 2023, brązowa medalistka igrzysk olimpijskich z Paryża (2024) w grze pojedynczej, uczestniczka igrzysk olimpijskich w 2020, od kwietnia 2022 do września 2023 i ponownie od listopada 2023 do października 2024 liderka rankingu singlowego WTA."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Iga Świątek",
+     "url": "https://pl.wikipedia.org/wiki/Iga_%C5%9Awi%C4%85tek"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "15",
+    "22 lat"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Iga Świątek",
+    "opis": "polska tenisistka",
+    "tekst": "Iga Natalia Świątek – polska tenisistka, zwyciężczyni dwudziestu sześciu turniejów WTA w grze pojedynczej, w tym sześciu turniejów wielkoszlemowych: French Open 2020, 2022, 2023 i 2024, US Open 2022 oraz Wimbledonu 2025, a także WTA Finals 2023, brązowa medalistka igrzysk olimpijskich z Paryża (2024) w grze pojedynczej, uczestniczka igrzysk olimpijskich w 2020, od kwietnia 2022 do września 2023 i ponownie od listopada 2023 do października 2024 liderka rankingu singlowego WTA.",
+    "url": "https://pl.wikipedia.org/wiki/Iga_%C5%9Awi%C4%85tek",
+    "język": "pl"
+   },
+   "tagi": [
+    "Iga Świątek Foundation",
+    "Polskę",
+    "Ignacym Andrzejczaku",
+    "Wiktorze Chmurskim"
+   ],
+   "emotki": [
+    "🎾"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Ważny komunikat od Igi Świątek. Ogłosiła nabór. Dołączą dwie osoby",
+     "url": "https://sport.interia.pl/iga-swiatek/news-wazny-komunikat-od-igi-swiatek-oglosila-nabor-dolacza-dwie-o,nId,23578408"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 3.119,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.588,
+     "treściwość": 0.281,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-pl",
+    "nazwa": "Sport w Polsce",
+    "emoji": "🏅",
+    "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
+   },
+   "nagłówek": "Anna Lewandowska w Barcelonie z córkami. Pokazała, jak spędzają czas",
+   "lead": "Podczas gdy Robert Lewandowski kontynuuje swoją piłkarską przygodę w Stanach Zjednoczonych i zalicza kolejne występy w barwach Chicago Fire, jego żona nie zapomina o europejskich obowiązkach. Anna Lewandowska od kilku miesięcy dzieli życie między dwa kontynenty.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-24T22:17:06+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/sportowe-zycie/news-lewandowski-w-chicago-a-tu-anna-oglasza-z-barcelony-odliczan,nId,23578578",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NHSKZ0KVPVBWM-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Choć na co dzień mieszka z rodziną w Chicago, regularnie wraca do Europy, gdzie rozwija swoje biznesy i realizuje kolejne zawodowe projekty.",
+      "Tym razem małżonka kapitana piłkarskiej reprezentacji Polski ponownie pojawiła się w Hiszpanii.",
+      "22 listopada poprowadziła w Marbelli specjalny trening Kick the Barre dla około 150 osób, świętowała również drugą rocznicę otwarcia centrum fitness EDAN Studios w Barcelonie, czym pochwaliła się w mediach społecznościowych.",
+      "Ta strona jest chroniona przez reCAPTCHA Jeszcze przed powrotem do Stanów Zjednoczonych Anna Lewandowska znalazła czas na to, aby wraz z córkami Klarą i Laurą rozpocząć oficjalne odliczanie do zbliżających się świąt Bożego Narodzenia.",
+      "Zorganizowała bowiem wspólne pieczenie świątecznych pierniczków , a fotką podzieliła się na Insta Stories.",
+      "Nowy selekcjoner już wskazany, Michniewicz się nie wahał.",
+      "Żadnych wątpliwości , otwiera się w nowym oknie Anna Lewandowska w ostatnich latach nie ukrywała, że Hiszpania jest jej miejscem na ziemi.",
+      "38-latka w wywiadach dla polskich i hiszpańskich mediów nie raz podkreślała, że w kraju tym czuje się jak w domu, a kiedy stało się jasne, że Robert Lewandowski piłkarską karierę będzie kontynuował za oceanem, Anna zapewniła w rozmowie z Mundo Deportivo, że po zakończeniu kariery \"Lewego\" ich rodzina zamieszka w Barcelonie.",
+      "Nawiązaliśmy głęboką więź z tym miejscem i planujemy wrócić do Barcelony i osiedlić się tu na stałe, gdy Robert zakończy karierę piłkarską\" , otwiera się w nowym oknie - podkreśliła wówczas była karateczka."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Barcelona – miasto w północno-wschodniej Hiszpanii, nad Morzem Śródziemnym, około 110 km na południe od grzbietu Pirenejów i granicy hiszpańsko-francuskiej. Stolica prowincji o tej samej nazwie oraz wspólnoty autonomicznej Katalonii. Drugie co do wielkości miasto Hiszpanii, z liczbą mieszkańców wynoszącą 1 713 247 wewnątrz centrum administracyjnego. Zespół miejski Barcelony wykracza poza centrum administracyjne, z liczbą ludności wynoszącą 4 588 000, jest piątym co do wielkości zespołem miejskim w Unii Europejskiej. Cała metropolia ma około 5 milionów mieszkańców."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Barcelona",
+     "url": "https://pl.wikipedia.org/wiki/Barcelona"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "22",
+    "150",
+    "38"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Barcelona",
+    "opis": "miasto w Hiszpanii",
+    "tekst": "Barcelona – miasto w północno-wschodniej Hiszpanii, nad Morzem Śródziemnym, około 110 km na południe od grzbietu Pirenejów i granicy hiszpańsko-francuskiej. Stolica prowincji o tej samej nazwie oraz wspólnoty autonomicznej Katalonii. Drugie co do wielkości miasto Hiszpanii, z liczbą mieszkańców wynoszącą 1 713 247 wewnątrz centrum administracyjnego. Zespół miejski Barcelony wykracza poza centrum administracyjne, z liczbą ludności wynoszącą 4 588 000, jest piątym co do wielkości zespołem miejskim w Unii Europejskiej. Cała metropolia ma około 5 milionów mieszkańców.",
+    "url": "https://pl.wikipedia.org/wiki/Barcelona",
+    "język": "pl"
+   },
+   "tagi": [
+    "Barcelonie",
+    "Robert Lewandowski",
+    "Lewandowska",
+    "Stanów Zjednoczonych Anna Lewandowska"
+   ],
+   "emotki": [
+    "🌊"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Anna Lewandowska w Barcelonie z córkami. Pokazała, jak spędzają czas",
+     "url": "https://sport.interia.pl/sportowe-zycie/news-lewandowski-w-chicago-a-tu-anna-oglasza-z-barcelony-odliczan,nId,23578578"
+    }
+   ],
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 2.916,
+    "składowe": {
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.516,
+     "treściwość": 0.5,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 2
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "UEFA pod wrażeniem wyczynu Pietuszewskiego. Wyjątkowa nagroda dla Polaka",
+   "lead": "Dotychczas rozgrywki Ligi Mistrzów nie były dla kibiców FC Porto najbardziej miłym przeżyciem. Ich drużyna już na wstępie przeżyła zimny prysznic.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-24T22:39:19+00:00",
+   "źródło": {
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/liga-mistrzow/news-niezwykla-noc-pietuszewskiego-w-lidze-mistrzow-specjalne-wyr,nId,23578583",
+    "domena": "sport.interia.pl"
+   },
+   "obraz": "https://i.iplsc.com/-/000NKICUIWX09AOL-C321.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "O ile porażka 0:2 z Manchesterem City była \"wliczona w koszta\", to kolejne dwa niepowodzenia musiały zaboleć sympatyków mistrzów Portugalii.",
+      "Drużyna, w której występują Jan Bednarek , Jakub Kiwior i Oskar Pietuszewski , po trzech seriach spotkań fazy ligowej nie miała na koncie choćby jednego punktu.",
+      "Wszystko przez porażki z Realem Betis oraz PSV Eindhoven.",
+      "Przełamanie przyszło dopiero w 4. kolejce.",
+      "Porto na swoim stadionie rozbiło 4:1 Napoli, a po jednym golu zanotowali Bednarek oraz Kiwior.",
+      "Ta strona jest chroniona przez reCAPTCHA W piątej serii spotkań \"Smoki\" czekał wyjazd na stadion Feyenoordu Rotterdam .",
+      "Holendrzy nie wygrali meczu od ponad miesiąca, lecz w europejskich pucharach mogli poszczycić się takim samym dorobkiem punktowym, co ich wtorkowi przeciwnicy.",
+      "0:1 do przerwy, szok na Bernabeu.",
+      "Po zmianie stron kanonada, Mbappe znów to zrobił , otwiera się w nowym oknie Trener Porto Francesco Farioli sprawił polskim kibicom miły prezent."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Polak nie zamierza się poddawać i jak podali dziennikarze szkockiego oddziału \"The Sun\", postanowił skierować sprawę do Sądu Unii Europejskiej."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Oskar Pietuszewski – polski piłkarz, występujący na pozycji pomocnika i lewego napastnika w portugalskim klubie FC Porto."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Oskar Pietuszewski",
+     "url": "https://pl.wikipedia.org/wiki/Oskar_Pietuszewski"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "18",
+    "68",
+    "21",
+    "00",
+    "30"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Interia Sport",
+     "ujęcie": "Trwa batalia sądowa pomiędzy polskim elektrykiem, a Erlingiem Haalandem.",
+     "url": "https://sport.interia.pl/sportowe-zycie/news-polak-pozwany-przez-haalanda-poruszenie-w-anglii-to-jednak-n,nId,23578568"
+    }
+   ],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Oskar Pietuszewski",
+    "opis": "polski piłkarz",
+    "tekst": "Oskar Pietuszewski – polski piłkarz, występujący na pozycji pomocnika i lewego napastnika w portugalskim klubie FC Porto.",
+    "url": "https://pl.wikipedia.org/wiki/Oskar_Pietuszewski",
+    "język": "pl"
+   },
+   "tagi": [
+    "Pietuszewski",
+    "Pietuszewskiego",
+    "Portugalii",
+    "Porto"
+   ],
+   "emotki": [
+    "⚽"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "UEFA pod wrażeniem wyczynu Pietuszewskiego. Wyjątkowa nagroda dla Polaka",
+     "url": "https://sport.interia.pl/pilka-nozna/liga-mistrzow/news-niezwykla-noc-pietuszewskiego-w-lidze-mistrzow-specjalne-wyr,nId,23578583"
+    },
+    {
+     "nazwa": "Interia Sport",
+     "tytuł": "Polak pozwany przez Haalanda, poruszenie w Anglii. To nie koniec sporu",
+     "url": "https://sport.interia.pl/sportowe-zycie/news-polak-pozwany-przez-haalanda-poruszenie-w-anglii-to-jednak-n,nId,23578568"
+    },
+    {
+     "nazwa": "BBC Sport",
+     "tytuł": "'Pass, pass, slow, slow' - Man City's slick machine grinding to a halt",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cj3vgdp2edpxo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.728,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.6,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.596,
+     "treściwość": 0.432,
+     "język_działu": 0.5
+    }
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "sport-swiat",
+    "nazwa": "Sport na świecie",
+    "emoji": "🌐",
+    "opis": "wielkie ligi, turnieje i rekordy poza Polską"
+   },
+   "nagłówek": "Pochettino wyraża oburzenie Manchesteru United w związku z decyzją o czerwonej kartce dla Yoro",
+   "lead": "Manchester United i Mauricio Pochettino są wściekli na to, jak VAR-owiec John Brooks i szef sędziów Howard Webb poradzili sobie z czerwoną kartką dla Leny'ego Yoro.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-24T22:05:31+00:00",
+   "źródło": {
+    "nazwa": "BBC Football",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqzr5ylmeerlo?at_medium=RSS&at_campaign=rss",
+    "domena": "bbc.co.uk"
+   },
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5078/live/783a6be0-e848-11f1-a094-5fdc692f3e33.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Obrońca Manchesteru United niesłusznie wyrzucony z boiska przy porażce 0:4 „Skoro mamy VAR, to co oni robili?” – pyta trener Mauricio Pochettino. Skrytykował on sędziowanie w angielskiej piłce nożnej, mówiąc: „Mamy niesamowity samochód, ale musimy być na odpowiednim poziomie, żeby nim jeździć”, po tym jak we wtorek anulowano czerwoną kartkę Leny'ego Yoro na Anfield.",
+      "Mimo że Związek Piłki Nożnej orzekł, iż przedwczesne usunięcie Francuza z boiska podczas niedzielnej porażki 0:4 z Liverpoolem było „niesłusznym wykluczeniem”, Manchester United nadal jest wściekły z powodu tej decyzji, a także na Pro Ref, organizację zrzeszającą elitarnych sędziów.",
+      "Dominik Szoboszlai zdobył bramkę z kolejnego rzutu wolnego, co skierowało Liverpool na drogę do zwycięstwa. United było rozczarowane słowami Howarda Webba, szefa PGMOL, który powiedział, że rozumie, dlaczego Sam Barrott pokazał czerwoną kartkę, a sędziowie asystenci wideo poparli tę decyzję.",
+      "United nadal utrzymuje, że Alexander Isak nie dotarłby do piłki przed ich bramkarzem, Senne Lammenssem, ponieważ został powalony przez Yoro, i twierdzi, że można to obiektywnie udowodnić.",
+      "Klub uważa również, że doszło do błędu proceduralnego, ponieważ nagranie z kamer sędziowskich pokazuje szybkie spojrzenie na incydent bez należytego rozważenia. Klub potwierdził, że zgłosi tę kwestię do Premier League i Pro Ref.",
+      "Zapytany o to, Pochettino stwierdził również, że gol Szoboszlaia nie powinien zostać uznany, ponieważ Bradley Barcola dotknął zawodnika United ustawionego w murze."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Mauricio Pochettino",
+    "Manchester United",
+    "Leny Yoro's",
+    "John Brooks"
+   ],
+   "emotki": [
+    "🔭"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "BBC Football",
+     "tytuł": "Pochettino leads Man Utd fury at Yoro red card ruling",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cqzr5ylmeerlo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "The Guardian Football",
+     "tytuł": "Pochettino criticises Premier League officiating after Yoro red card overturned",
+     "url": "https://www.theguardian.com/football/2026/nov/23/manchester-united-appeal-leny-yoro-red-card-liverpool"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.222,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.258,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.514,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "Pochettino leads Man Utd fury at Yoro red card ruling",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 2
   },
   {
    "dział": {
@@ -870,47 +763,54 @@
     "emoji": "🧪",
     "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
    },
-   "nagłówek": "Ryszard z Wallingford i jego Rectangulus",
-   "lead": "Uzyskaj dostęp do czasopisma Nature i 54 innych czasopism z portfolio Nature. Wybierz Nature+, naszą najkorzystniejszą cenowo subskrypcję dostępu online. Ceny mogą podlegać lokalnym podatkom, które są naliczane podczas finalizowania transakcji. DOI: https://doi.org/10.1038/d41586-026-03725-5 Ten artykuł zawiera tekst z archiwum czasopisma Nature. Ze względu na swój historyczny charakter archiwum…",
+   "nagłówek": "Minimikroskop rejestruje aktywność mózgu u myszy w ruchu",
+   "lead": "Uzyskaj dostęp do czasopisma Nature i 54 innych czasopism z portfolio Nature. Wybierz Nature+, naszą subskrypcję dostępu online o najlepszym stosunku jakości do ceny. Ceny mogą podlegać lokalnym podatkom, które są obliczane podczas finalizowania transakcji. DOI: https://doi.org/10.1038/d41586-026-03380-w Zhang, Y. i in. Nature 659, 987–999 (2026).",
    "język_źródła": "en",
    "opublikowano": "2026-11-24T00:00:00+00:00",
    "źródło": {
     "nazwa": "Nature",
-    "url": "https://www.nature.com/articles/d41586-026-03725-5",
+    "url": "https://www.nature.com/articles/d41586-026-03380-w",
     "domena": "nature.com"
    },
-   "obraz": "https://media.nature.com/lw1200/magazine-assets/d41586-026-03725-5/d41586-026-03725-5_15948434.jpg",
+   "obraz": "https://media.nature.com/lw1200/magazine-assets/d41586-026-03380-w/d41586-026-03380-w_54003438.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Sztuczna inteligencja musi ponosić odpowiedzialność – deklaracje wartości nie ochronią godności człowieka. Voyager 1 osiąga pierwszy w historii kosmosu kamień milowy: jeden „dzień świetlny” od Ziemi. Pojedyncza cząstka antymaterii w klatce otwiera drzwi do „rewolucyjnej” fizyki. IceCube właśnie zdobył Nagrodę Nobla.",
-      "Ochrona projektów z dziedziny fizyki astrocząstek o podobnym potencjale Mocne dowody na to, że „spoina barionowa” nadaje protonowi jego tożsamość Sonda Voyager 1 jako pierwsza w kosmosie: jeden „dzień świetlny” od Ziemi Dlaczego w Twoim projekcie fizycznym potrzebny jest antropolog Obrazowanie egzoplanet poniżej granicy stabilności teleskopu Dr",
-      "Laboratorium Christine Hong na Uniwersytecie Waszyngtońskim w Seattle w stanie Waszyngton poszukuje naukowców na stanowiska podoktoranckie do badania chrząstki stawu skroniowo-żuchwowego.",
-      "Uniwersytet Waszyngtoński, Wydział Stomatologii Opis stanowiska Nazwa stanowiska: Redaktor ds. zleceń – Zarządzanie zbiorami i pozyskiwanie Miejsce pracy: Pekin, Szanghaj, Nanjing, Chiny – praca hybrydowa...",
-      "Pekin, Szanghaj, Nanjing, Chiny – hybrydowy model pracy Dołącz do nas, aby współtworzyć pionierskie rozwiązania problemów związanych ze środowiskiem i energią na całym świecie w instytucie światowej klasy w chińskim centrum innowacji, Shenzhen.",
-      "Szkoła Podyplomowa Uniwersytetu Pekińskiego w Shenzhen znajduje się w centrum obszaru Wielkiej Zatoki Guangdong-Hongkong-Makau, najbardziej dynamicznego regionu gospodarczego i innowacyjnego w Chinach.",
-      "Wydział Środowiska i Energii (SEE) Szkoły Doktoranckiej Uniwersytetu Pekińskiego w Shenzhen poszukuje stypendysty(stki) podoktorskiego(kiej) do kierowania badaniami skoncentrowanymi na odkrywaniu przeciwciał monoklonalnych (mAb) jako potencjalnych środków terapeutycznych w leczeniu zespołu alfa-gal.",
-      "Narodowy Instytut Alergii i Chorób Zakaźnych, NIH OBECNIE PROWADZI REKRUTACJĘ · KADRA NAUKOWA NA STANOWISKA STAŁE Stwórz swoje laboratorium w Galilei Kieruj badaniami i kształtuj młody Wydział Lekarski w Izraelu Poszukujemy wyjątkowych..."
+      "Nature Methods 8 , 871–878 (2011).",
+      "Aharoni, D. i Hoogland, T.",
+      "Nature Methods 20, 546–549 (2023).",
+      "J., Alexandre, N., Trentin, C. i Tripodi, M.",
+      "Nature 551 , 232–236 (2017 r.).",
+      "Nature 617, 360–368 (2023).",
+      "Nature 498, 65–69 (2013).",
+      "Neuron 110, 3897–3906 (2022).",
+      "Autorzy oświadczają, że nie występują konflikty interesów."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Nature, Opublikowano online: 24 listopada 2026 r.; doi:10.1038/d41586-026-03822-5 Badania naukowe nad świadomością sztucznej inteligencji muszą uwzględniać element niepewności"
+      "Nature, opublikowano online: 25 listopada 2026 r.; doi:10.1038/d41586-026-03837-y Naukowcy mogą napotykać presję ze strony decydentów i polityków, aby udzielać jednoznacznych, ostatecznych odpowiedzi na złożone wyzwania.",
+      "Nature, opublikowano online: 24 listopada 2026 r.; doi:10.1038/d41586-026-03836-z Modele językowe Anthropic i OpenAI mogą projektować białka oraz przewidywać ich sekwencje i struktury – możliwości, które wcześniej były dostępne tylko w specjalistycznych narzędziach sztucznej inteligencji.",
+      "Nature, opublikowano online: 24 listopada 2026 r.; doi:10.1038/d41586-026-03725-5 Życie człowieka, który wprowadził trygonometrię do Anglii, oraz rozpoczęcie eksperymentów na nowo ukończonym akceleratorze w CERN-ie – w naszym cotygodniowym przeglądzie archiwum czasopisma Nature.",
+      "Nature, opublikowano online: 25 listopada 2026 r.; doi:10.1038/d41586-026-03809-2 Zatwierdzono generyczne wersje skutecznego leku przeciw HIV, a szczepionka przeciw HIV jest już blisko.",
+      "Nature, opublikowano online: 24 listopada 2026 r.; doi:10.1038/d41586-026-03810-9 COP31 zakończyła się bez porozumienia, ale podejścia oparte na konsensusie są niezbędne do rozwiązywania globalnych problemów, a „porażki” mogą prowadzić do podjęcia zdecydowanych działań podczas przyszłych rozmów.",
+      "Nature, opublikowano online: 25 listopada 2026 r.; doi:10.1038/d41586-026-03474-5 Opis terminologii i metodologii zastosowanych w niniejszym suplemencie oraz przewodnik po funkcjach dostępny bezpłatnie online na stronie natureindex.com.",
+      "Nature, opublikowano online: 25 listopada 2026 r.; doi:10.1038/d41586-026-03466-5 Dane Nature Index wskazują miasta, które zyskują na znaczeniu w dziedzinie badań naukowych, ponieważ inteligentne technologie zmieniają sposób funkcjonowania centrów miejskich i konkurowania o talenty."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Rectangulus to instrument astronomiczny wynaleziony przez Ryszarda z Wallingford około 1326 roku. Niezadowolony z ograniczeń istniejących astrolabiów, Richard opracował rectangulus jako instrument do trygonometrii sferycznej oraz do pomiaru kątów między planetami i innymi ciałami niebieskimi. Był to jeden z wielu instrumentów, które stworzył, w tym Albion – rodzaj ekwatorium – oraz słynący ze swojej skomplikowanej budowy i wysokiej ceny horologium."
+      "Delhi, oficjalnie Narodowe Terytorium Stołeczne (NCT) Delhi, to megamiasto i terytorium związkowe Indii, na którym znajduje się Nowe Delhi – stolica Indii. Delhi, leżące na obu brzegach rzeki Jamuny, ale rozciągające się głównie na zachód, czyli za jej prawym brzegiem, graniczy ze stanem Uttar Pradesh na wschodzie i ze stanem Harijana w pozostałych kierunkach. Delhi stało się terytorium związkowym 1 listopada 1956 r., a NCT w 1995 r. Terytorium Stołeczne Narodowe Delhi zajmuje powierzchnię 1484 kilometrów kwadratowych (573 mil kw.). Według spisu powszechnego z 2011 roku liczba ludności samego miasta Delhi wynosiła ponad 11 milionów, podczas gdy liczba ludności Terytorium Stołecznego wynosiła około 16,8 miliona."
      ],
      "język": "en",
-     "przypis": "Wikipedia: Rectangulus",
-     "url": "https://en.wikipedia.org/wiki/Rectangulus"
+     "przypis": "Wikipedia: Delhi",
+     "url": "https://en.wikipedia.org/wiki/Delhi"
     }
    ],
    "dlaczego_to_ważne": "",
@@ -918,33 +818,133 @@
     "54",
     "10.1038",
     "026",
-    "03725",
-    "24",
-    "03822"
+    "03380",
+    "659 , 987",
+    "999"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Rectangulus",
-    "opis": "14th-century astronomical instrument",
-    "tekst": "The rectangulus is an astronomical instrument, invented by Richard of Wallingford around 1326. Dissatisfied with the limitations of existing astrolabes, Richard developed the rectangulus as an instrument for spherical trigonometry and to measure the angles between planets and other astronomical bodies. This was one of a number of instruments he created, including the Albion, a form of equatorium, and a famously complicated and expensive horologium.",
-    "url": "https://en.wikipedia.org/wiki/Rectangulus",
+    "hasło": "Delhi",
+    "opis": "Megacity and union territory of India",
+    "tekst": "Delhi, officially the National Capital Territory (NCT) of Delhi, is a megacity and a union territory of India containing New Delhi, the capital of India. Straddling the Yamuna river, but spread chiefly to the west, or beyond its right bank, Delhi shares borders with the state of Uttar Pradesh in the east and with the state of Haryana in the remaining directions. Delhi became a union territory on 1 November 1956 and the NCT in 1995. The NCT covers an area of 1,484 square kilometres (573 sq mi). According to the 2011 census, Delhi's city proper population was over 11 million, while the NCT's population was about 16.8 million.",
+    "url": "https://en.wikipedia.org/wiki/Delhi",
     "język": "en"
    },
    "tagi": [
-    "Voyager",
-    "Dentistry Job Description Title Commissioning Editor Collections Management",
-    "Acquisition Location Beijing Shanghai Nanjing China",
-    "Guangdong-Hong Kong-Macao Greater Bay Area China’s"
+    "Methods",
+    "Delhi",
+    "Pune",
+    "Photonics Location Shanghai Beijing Nanjing"
    ],
    "emotki": [
-    "⚛️"
+    "🔬"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Nature",
+     "tytuł": "Mini microscope captures brain activity while mice are on the go",
+     "url": "https://www.nature.com/articles/d41586-026-03380-w"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Succumbing to certainty is a failure in science",
+     "url": "https://www.nature.com/articles/d41586-026-03837-y"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Watch out, AlphaFold: Claude and ChatGPT’s new biology skills wow scientists",
+     "url": "https://www.nature.com/articles/d41586-026-03836-z"
+    },
+    {
+     "nazwa": "Nature",
      "tytuł": "Richard of Wallingford and his Rectangulus",
      "url": "https://www.nature.com/articles/d41586-026-03725-5"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "The world has a golden chance to improve HIV prevention: don’t squander it",
+     "url": "https://www.nature.com/articles/d41586-026-03809-2"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "‘The worst COP ever’ offers a chance to learn from failure",
+     "url": "https://www.nature.com/articles/d41586-026-03810-9"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "A guide to the Nature Index",
+     "url": "https://www.nature.com/articles/d41586-026-03474-5"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "The world’s leading science cities are changing — here’s why",
+     "url": "https://www.nature.com/articles/d41586-026-03466-5"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "How acidic compounds in human sweat open a mosquito ion channel",
+     "url": "https://www.nature.com/articles/d41586-026-03381-9"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Just eight universities dominate Nobel and other top economics prizes",
+     "url": "https://www.nature.com/articles/d41586-026-03333-3"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "‘If we can solve Riemann, what can’t we do?’: mathematicians shocked and excited by AI breakthroughs",
+     "url": "https://www.nature.com/articles/d41586-026-03835-0"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Blend public cash and private innovation to unlock drug development",
+     "url": "https://www.nature.com/articles/d41586-026-03723-7"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "William D. Nordhaus obituary: economist whose tools transformed climate policy",
+     "url": "https://www.nature.com/articles/d41586-026-03847-w"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Who did figure 3? Why scientists should make experimental contributions visible",
+     "url": "https://www.nature.com/articles/d41586-026-03542-w"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Pregnancy rewires the brain — scientists are finally mapping it",
+     "url": "https://www.nature.com/articles/d41586-026-03804-7"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "The brain keeps the score: how trauma leaves molecular scars in cells",
+     "url": "https://www.nature.com/articles/d41586-026-03821-6"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "AI is ‘the end of mathematics as we know it’ — where does the field go next?",
+     "url": "https://www.nature.com/articles/d41586-026-03719-3"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Pakistani astronaut to become first foreign visitor to China’s space station",
+     "url": "https://www.nature.com/articles/d41586-026-03829-y"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Menopause can speed up brain ageing — hormone therapy might protect it",
+     "url": "https://www.nature.com/articles/d41586-026-03667-y"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "The leading cities in the world for high-quality research in 2025",
+     "url": "https://www.nature.com/articles/d41586-026-03468-3"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Himalayan disasters demand biodiversity conservation across borders",
+     "url": "https://www.nature.com/articles/d41586-026-03825-2"
     },
     {
      "nazwa": "Nature",
@@ -963,29 +963,166 @@
     },
     {
      "nazwa": "Nature",
-     "tytuł": "Continuous N-to-C Peptide Synthesis",
-     "url": "https://www.nature.com/articles/s41586-026-11448-w"
+     "tytuł": "The Mona Lisa Lottery",
+     "url": "https://www.nature.com/articles/d41586-026-03521-1"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.233,
+    "wynik": 8.443,
     "składowe": {
      "potwierdzenia": 0.0,
-     "ranga_źródła": 2.08,
-     "eksponowanie": 2.97,
+     "ranga_źródła": 5.98,
+     "eksponowanie": 1.26,
      "słowa_kluczowe": 0.35,
      "świeżość": 0.538,
-     "treściwość": 0.295,
+     "treściwość": 0.315,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Richard of Wallingford and his Rectangulus",
+   "oryginalny_nagłówek": "Mini microscope captures brain activity while mice are on the go",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "technologia",
+    "nazwa": "Technologia i nauka",
+    "emoji": "🧪",
+    "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
+   },
+   "nagłówek": "Masażery SKG taniej na Black Friday. Sam mam jeden i szczerze polecam",
+   "lead": "Z okazji Black Friday masażery marki SKG można nabyć znacznie taniej . Pod cenowe cięcia trafiły urządzenia o przeróżnym zastosowaniu, zaprojektowane z myślą o rozmaitych partiach mięśniowych ludzkiego ciała: plecach, szyi, karku czy nawet kolanach.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-24T15:48:00+00:00",
+   "źródło": {
+    "nazwa": "Spider's Web",
+    "url": "https://spidersweb.pl/2026/11/masazery-skg-taniej-na-black-friday.html",
+    "domena": "spidersweb.pl"
+   },
+   "obraz": "https://cdn-sw.spidersweb.pl/2026/11/Masazer-plecow-SKG-W9-Pro.webp",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Pośród modeli objętych promocją znalazł się jeden, z którego sam regularnie korzystam i który mogę z czystym sumieniem polecić.",
+      "Wyprzedaż SKG z okazji Black Friday trwa od 23 do 30 listopada 2026 roku.",
+      "Warto wspomnieć, że SKG oferuje darmowe dostawy do Paczkomatów InPost na terenie całego kraju.",
+      "Trzema mieć tylko na uwadze, iż dostępność masażerów w promocyjnej cenie bywa ograniczona, stąd możliwe komunikaty „chwilowo brak na stanie”.",
+      "To model, który ląduje na moich barkach raz na kilka dni, regularnie od kilku miesięcy .",
+      "Korzystam z niego zwłaszcza po długich godzinach spędzonych przy biurku.",
+      "W przeciwieństwie do wielu tańszych urządzeń, które ograniczają się do zwykłego wibrowania, tutaj pracują fizyczne, mechaniczne głowice ugniatające.",
+      "Ruch jest na tyle głęboki i precyzyjny, że momentami można odnieść wrażenie, jakby karkiem zajmowały się dłonie prawdziwego fizjoterapeuty.",
+      "H7 Ultra oferuje trzy główne tryby pracy: ugniatanie, szczypanie i akupresurę."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Telewizory na Black Friday 2026.",
+      "Doceniane modele Bowers & Wilkins dostępne są teraz w korzystnej cenie i pełnej palecie kolorów, w której każdy znajdzie coś dla siebie.",
+      "Zacznijmy od tego, dlaczego właśnie słuchawki Bowers & Wilkins są tymi, którymi warto się zainteresować szukając czegoś dla siebie.",
+      "W swoich nausznych konstrukcjach Bowers & Wilkins sięga po technologie opracowane dla topowych kolumn głośnikowych, co stanowi gwarancję bogatego i precyzyjnego brzmienia.",
+      "Na liście najpopularniejszych produktów nie brakuje oczywiście elektroniki, ale uwagę zwracają zupełnie nowe trendy, które zaskoczyć mogą wielu.",
+      "Top Hi-Fi & Video Design startuje z tegoroczną akcją Black Friday, w ramach której w niższych cenach można kupić słuchawki klasy premium, głośniki bezprzewodowe, projektory oraz sprzęt do kina domowego."
+     ]
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "23",
+    "30",
+    "749 zł",
+    "649 zł",
+    "14",
+    "799 zł"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Spider's Web",
+     "ujęcie": "LEGO na Black Friday: najlepsze zestawy w promocji.",
+     "url": "https://spidersweb.pl/zestawy-lego-najlepsze-promocje/"
+    },
+    {
+     "źródło": "Antyweb",
+     "ujęcie": "Google przyjrzało się temu, co interesuje Polaków przed tegorocznym Black Friday.",
+     "url": "https://antyweb.pl/czego-polacy-szukaja-przed-black-friday-2026-bedziesz-zaskoczony"
+    }
+   ],
+   "pojęcia": [],
+   "tło": null,
+   "tagi": [
+    "Black Friday",
+    "Pocket",
+    "Ultra",
+    "Pro"
+   ],
+   "emotki": [
+    "🎬"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Spider's Web",
+     "tytuł": "Masażery SKG taniej na Black Friday. Sam mam jeden i szczerze polecam",
+     "url": "https://spidersweb.pl/2026/11/masazery-skg-taniej-na-black-friday.html"
+    },
+    {
+     "nazwa": "Spider's Web",
+     "tytuł": "LEGO na Black Friday: najlepsze zestawy w promocji. Oto moje pewniaki",
+     "url": "https://spidersweb.pl/zestawy-lego-najlepsze-promocje/"
+    },
+    {
+     "nazwa": "Spider's Web",
+     "tytuł": "Słuchawki na Black Friday: policzyliśmy, gdzie jest najlepsza okazja",
+     "url": "https://spidersweb.pl/2026/11/najlepsze-bezprzewodowe-sluchawki-black-friday.html"
+    },
+    {
+     "nazwa": "Spider's Web",
+     "tytuł": "Kiedy najlepiej kupić tani bilet lotniczy? Wcale nie w Black Friday",
+     "url": "https://spidersweb.pl/2026/11/black-friday-black-week-cyber-monday-2026-tanie-bilety-lotnicze.html"
+    },
+    {
+     "nazwa": "Spider's Web",
+     "tytuł": "Telewizory na Black Friday 2026. Uważaj na to, za co płacisz",
+     "url": "https://spidersweb.pl/2026/11/telewizory-black-friday-najlepsze-promocje.html"
+    },
+    {
+     "nazwa": "Antyweb",
+     "tytuł": "Bowers & Wilkins na Black Friday: stylowe słuchawki w doskonałej cenie",
+     "url": "https://antyweb.pl/bowers-wilkins-na-black-friday-stylowe-sluchawki-w-doskonalej-cenie"
+    },
+    {
+     "nazwa": "Antyweb",
+     "tytuł": "Czego Polacy szukają przed Black Friday 2026? Będziesz zaskoczony",
+     "url": "https://antyweb.pl/czego-polacy-szukaja-przed-black-friday-2026-bedziesz-zaskoczony"
+    },
+    {
+     "nazwa": "Antyweb",
+     "tytuł": "Słuchawki, głośniki i projektory w niższych cenach. Top Hi-Fi zaprasza na Black Friday",
+     "url": "https://antyweb.pl/sluchawki-glosniki-i-projektory-w-nizszych-cenach-top-hi-fi-zaprasza-na-black-friday"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 1,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 5.499,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 2.005,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.435,
+     "treściwość": 0.309,
+     "język_działu": 0.5
+    }
    },
    "miejsce": 2
   },
@@ -996,63 +1133,62 @@
     "emoji": "⚛️",
     "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
    },
-   "nagłówek": "Pomiary lokalne ujawniają globalne właściwości kwantowe w stałej liczbie przebiegów eksperymentalnych",
-   "lead": "Urządzenie kwantowe z większą liczbą kubitów jest trudniejsze do zweryfikowania. Opisanie ogólnego stanu kwantowego wymaga wykładniczej liczby parametrów, a jego pełna rekonstrukcja – procedura znana jako tomografia stanu – staje się niepraktyczna wraz ze wzrostem systemu.",
+   "nagłówek": "Plan kwantowy wyznacza praktyczną ścieżkę do testowania nietypowego splątania",
+   "lead": "Adrian Del Maestro wie, jak zaprojektować odcisk palca kwantowego. Rick Mukherjee ma dar do strojenia atomów.",
    "język_źródła": "en",
-   "opublikowano": "2026-11-24T00:00:02+00:00",
+   "opublikowano": "2026-11-24T22:30:02+00:00",
    "źródło": {
     "nazwa": "Phys.org",
-    "url": "https://phys.org/news/2026-11-local-reveal-global-quantum-properties.html",
+    "url": "https://phys.org/news/2026-11-quantum-blueprint-path-unusual-entanglement.html",
     "domena": "phys.org"
    },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/local-measurements-rev.jpg",
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/law-breaking-quantum-p.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Jednak większość eksperymentów nie wymaga pełnego opisu.",
-      "Czy kubity są splątane?",
-      "I czy system dysponuje zasobami potrzebnymi do obliczeń kwantowych?",
-      "W naszym badaniu opublikowanym w czasopiśmie „Physical Review X” zastanawialiśmy się, czy na te pytania można odpowiedzieć za pomocą znacznie uproszczonych eksperymentów.",
-      "Odpowiedź przyszła z obserwacji zjawiska, które na pierwszy rzut oka wydawało się sprzeczne z intuicją.",
-      "W kwantowych układach wielu ciał cechy globalne często przetrwają lokalne pomiary na pozostałej części układu.",
-      "Koncentruje się w małym podsystemie, którego nie zmieniasz, pozostawiając w nim ślady, które można wykryć.",
-      "Logika jest prosta: jeśli stan pierwotny nie jest splątany, pomiar części tego stanu nie może spowodować splątania w pozostałej części.",
-      "Zatem jeśli wykryjemy splątanie w stanie przewidywanym małego podukładu, to potwierdzimy, że stan pierwotny był splątany."
+      "Dzięki ich łącznej wiedzy specjalistycznej teoria naszkicowana na papierze stała się podstawą do przeprowadzenia rzeczywistych eksperymentów.",
+      "Wyniki, opublikowane w czasopiśmie Physical Review Letters, sprawiają, że „matematyczna osobliwość” sprzeczna z prawami fizyki przesuwa się choćby odrobinę w górę skali gotowości technologicznej. Fizyka kwantowa to nie ta znana nam fizyka, w której upuszczona z balkonu piłka spada na ziemię.",
+      "Na scenie kwantowej rozgrywa się inny spektakl, w którym obiekty nie podlegają regułom fizyki klasycznej, a fabuła jest nieprzewidywalna.",
+      "Del Maestro i Mukherjee chcą edytować scenariusz i wpłynąć na rozwój fabuły.",
+      "Ostatecznie chcieliby wykorzystać zjawiska kwantowe i położyć podwaliny pod przyszłe technologie.",
+      "Del Maestro jest profesorem i kierownikiem Katedry Fizyki i Astronomii na Uniwersytecie Tennessee w Knoxville.",
+      "Jednym z jego zainteresowań jest splątanie kwantowe, w którym cząstki subatomowe są tak ze sobą powiązane, że nie można ich postrzegać jako odrębne jednostki, nawet gdy znajdują się daleko od siebie.",
+      "Mukherjee jest profesorem nadzwyczajnym fizyki na Uniwersytecie Tennessee w Chattanoze i dyrektorem Centrum Kwantowego UTC.",
+      "Jego badania dotyczą fizyki atomowej, molekularnej i optycznej (AMO) oraz analizy zachowań kwantowych atomów i cząsteczek w celu zrozumienia interakcji światła i materii."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Uniwersytet Tsinghua jest publiczną uczelnią badawczą w Haidian w Pekinie w Chinach. Jest ona powiązana z chińskim Ministerstwem Edukacji i przez nie finansowana. Uczelnia jest częścią inicjatywy „Double First-Class Construction” i uczestniczyła w poprzedzających ją projektach: „Project 211” i „Project 985”. Jest również członkiem Ligi C9."
+      "Templo del Maestro to zabytkowy budynek w stylu Beaux-Arts z 1935 roku, który pierwotnie pełnił funkcję siedziby Stowarzyszenia Nauczycieli Portoryko. Budynek stoi naprzeciwko parku im. Luisa Muñoza Rivery i siedziby Sądu Najwyższego po drugiej stronie alei Juana Ponce de Leóna w zabytkowej dzielnicy Puerta de Tierra, gdzie znajduje się szereg budynków i pomników o znaczeniu historycznym i kulturowym, w tym Biblioteka Narodowa Portoryko, Ateneum i El Capitolio."
      ],
      "język": "en",
-     "przypis": "Wikipedia: Tsinghua University",
-     "url": "https://en.wikipedia.org/wiki/Tsinghua_University"
+     "przypis": "Wikipedia: Templo del Maestro",
+     "url": "https://en.wikipedia.org/wiki/Templo_del_Maestro"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "16",
-    "512",
-    "10.1103"
+    "10.1103",
+    "2603.23422"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Tsinghua University",
-    "opis": "Public university in Beijing, China",
-    "tekst": "Tsinghua University is a public research university in Haidian, Beijing, China. It is affiliated with and funded by the Ministry of Education of China. The university is part of the Double First-Class Construction, and was a part of its predecessor initiatives: Project 211 and Project 985. It is also a member of the C9 League.",
-    "url": "https://en.wikipedia.org/wiki/Tsinghua_University",
+    "hasło": "Templo del Maestro",
+    "opis": "United States historic place",
+    "tekst": "Templo del Maestro is a historic Beaux Arts building from 1935 that originally served as the seat of the Puerto Rico Teachers Association. The building faces the Luis Muñoz Rivera Park and Supreme Court Building across Juan Ponce de León Avenue in the Puerta de Tierra historic district, a sequence of historically and culturally significant buildings and monuments that includes the Puerto Rico National Library, the Athenaeum and El Capitolio.",
+    "url": "https://en.wikipedia.org/wiki/Templo_del_Maestro",
     "język": "en"
    },
    "tagi": [
-    "Tsinghua University",
-    "Science",
-    "Interdisciplinary Information Sciences",
-    "American Physical Society"
+    "Rydberg",
+    "Del Maestro",
+    "Mukherjee",
+    "Motzkin"
    ],
    "emotki": [
     "⚛️"
@@ -1060,26 +1196,26 @@
    "wszystkie_źródła": [
     {
      "nazwa": "Phys.org",
-     "tytuł": "Local measurements reveal global quantum properties in a constant number of experimental runs",
-     "url": "https://phys.org/news/2026-11-local-reveal-global-quantum-properties.html"
+     "tytuł": "Quantum blueprint maps a practical path to testing unusual entanglement",
+     "url": "https://phys.org/news/2026-11-quantum-blueprint-path-unusual-entanglement.html"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.658,
+    "wynik": 3.514,
     "składowe": {
      "potwierdzenia": 0.0,
      "ranga_źródła": 1.2,
-     "eksponowanie": 0.72,
+     "eksponowanie": 0.63,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.538,
-     "treściwość": 0.5,
+     "świeżość": 0.519,
+     "treściwość": 0.465,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Local measurements reveal global quantum properties in a constant number of experimental runs",
+   "oryginalny_nagłówek": "Quantum blueprint maps a practical path to testing unusual entanglement",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -1093,45 +1229,62 @@
     "emoji": "⚛️",
     "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
    },
-   "nagłówek": "Nowe narzędzie do konwersji światła może przyspieszyć informatykę kwantową",
-   "lead": "Chcesz poznać podstawy świata badań kwantowych przy kolacji? Naukowcy z Cockrell School of Engineering chętnie Ci pomogą.",
+   "nagłówek": "W 120-letniej teorii Einsteina może brakować czegoś ważnego na temat Wielkiego Wybuchu",
+   "lead": "W najwcześniejszych chwilach po Wielkim Wybuchu Wszechświat był wypełniony niezwykle gorącą mieszaniną cząstek zwaną plazmą kwarkowo-gluonową. Temperatury sięgały bilionów stopni, a kwarki i gluony pędziły przez tę pierwotną zupę z prędkością zbliżoną do prędkości światła.",
    "język_źródła": "en",
-   "opublikowano": "2026-11-24T03:20:01+00:00",
+   "opublikowano": "2026-11-25T01:35:04+00:00",
    "źródło": {
-    "nazwa": "Phys.org",
-    "url": "https://phys.org/news/2026-11-conversion-tool-quantum.html",
-    "domena": "phys.org"
+    "nazwa": "ScienceDaily Physics",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261121221119.htm",
+    "domena": "sciencedaily.com"
    },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-power-of-light.jpg",
+   "obraz": "https://www.sciencedaily.com/images/1920/albert-einstein-big-bang-astrophysics.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "We współpracy z siedmioma innymi instytucjami inżynierowie z UT opracowali nowe narzędzie, które przyspiesza przetwarzanie danych w informatyce kwantowej.",
-      "Komputery kwantowe wykorzystują pojęcia fizyczne do przetwarzania informacji w sposób wykraczający poza system binarny tradycyjnych komputerów.",
-      "Analizując „kubity”, czyli podstawowe jednostki informacji, które wykorzystują superpozycję i interferencję, komputery kwantowe są w stanie rozwiązywać problemy z niesamowitą szybkością.",
-      "Rozwiązanie pozwalające osiągnąć jeszcze większe prędkości, które obejmuje ułożone w stosy ultracienkie warstwy materiałów półprzewodnikowych, polega na kontrolowaniu barwy światła.",
-      "Technologia, którą zespół nazwał „asymetrycznie sprzężonymi studniami kwantowymi”, okazała się ponad siedmiokrotnie skuteczniejsza niż inne materiały w konwersji światła.",
-      "Światło ma istotne znaczenie w kwestiach kwantowych, ponieważ prędkość światła może określać prędkość fotonów, które przenoszą i przetwarzają informacje.",
-      "Wyniki badań zespołu zostały opublikowane w czasopiśmie „Optica”.",
-      "Chociaż sama prędkość światła jest stała podczas przemieszczania się w próżni, wprowadzenie różnych materiałów zmienia prędkość i długość fali światła.",
-      "Zrozumienie – a tym samym wykorzystanie – światła pozwala naukowcom uzyskać większą kontrolę nad procesami obliczeniowymi, a nawet nad rozmiarem urządzeń."
+      "Ten ekstremalny stan materii istniał zaledwie przez kilka mikrosekund, zanim kwarki zaczęły łączyć się w bardziej stabilne protony i neutrony, które ostatecznie przyczyniły się do powstania materii wokół nas.",
+      "Naukowcy mogą na krótko odtworzyć te warunki za pomocą potężnych akceleratorów cząstek.",
+      "Zderzając się ze sobą z prędkościami zbliżonymi do prędkości światła, jony wytwarzają maleńkie krople plazmy kwarkowo-gluonowej o wielkości jądra atomowego.",
+      "Każda kropla istnieje tylko przez dziesiątki septylionowych części sekundy, dając naukowcom niezwykle krótką okazję do zbadania substancji, która wypełniała nowo narodzony Wszechświat.",
+      "Jednym ze sposobów zbadania tego tajemniczego płynu jest obserwacja zachowania ciężkich kwarków podczas ich przemieszczania się przez niego.",
+      "Chociaż cząstki te nie są częścią badanego otaczającego plazmy, ich ruchy mogą ujawnić ważne szczegóły dotyczące jej mikroskopowej struktury.",
+      "Podejście to opiera się na zasadzie po raz pierwszy opisanej przez Alberta Einsteina w 1905 roku.",
+      "Jednak pierwotny model Einsteina ma swoje ograniczenia w nadzwyczajnych warunkach występujących w plazmie kwarkowo-gluonowej.",
+      "Gdy cząstki zbliżają się do prędkości światła, zachodzą interakcje, których jego teoria nie wyjaśnia w pełni."
      ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Wielki Wybuch to teoria fizyczna opisująca, w jaki sposób Wszechświat rozszerzył się ze stanu początkowego charakteryzującego się wysoką gęstością i temperaturą. Różne modele kosmologiczne oparte na koncepcji Wielkiego Wybuchu wyjaśniają szeroki zakres zjawisk, w tym obfitość pierwiastków lekkich, promieniowanie reliktowe (CMB), przesunięcie ku czerwieni galaktyk oraz wielkoskalową strukturę Wszechświata. Obserwowana jednorodność Wszechświata, która prowadzi do problemów horyzontu i płaskości, jest wyjaśniana za pomocą inflacji kosmicznej: fazy przyspieszonej ekspansji w najwcześniejszych stadiach. Szczegółowe pomiary tempa ekspansji Wszechświata wskazują, że inflacja kosmiczna miała miejsce około 13,787 ± 0,02 mld lat temu, co uważa się za wiek Wszechświata. Szeroki wachlarz dowodów empirycznych zdecydowanie przemawia za modelem Wielkiego Wybuchu, który jest obecnie powszechnie akceptowany."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Big Bang",
+     "url": "https://en.wikipedia.org/wiki/Big_Bang"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "10.1364"
+    "1827",
+    "20"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Big Bang",
+    "opis": "Physical theory of the cosmos",
+    "tekst": "The Big Bang is a physical theory that describes how the universe expanded from an early state of high density and temperature. Various cosmological models based on the Big Bang concept explain a broad range of phenomena, including the abundance of light elements, the cosmic microwave background (CMB) radiation, the redshift of galaxies and the large-scale structure of the universe. The observed uniformity of the universe, which leads to the horizon and flatness problems, is explained through cosmic inflation: a phase of accelerated expansion during the earliest stages. Detailed measurements of the expansion rate of the universe place the cosmic inflation at an estimated 13.787±0.02 billion years ago, which is considered the age of the universe. A wide range of empirical evidence strongly favors the Big Bang model, which is now widely accepted.",
+    "url": "https://en.wikipedia.org/wiki/Big_Bang",
+    "język": "en"
+   },
    "tagi": [
-    "Optica",
-    "Cockrell School",
-    "Engineering",
-    "University"
+    "Brownian",
+    "Du Plessis",
+    "Einstein's",
+    "Big Bang"
    ],
    "emotki": [
     "⚛️",
@@ -1139,27 +1292,27 @@
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Phys.org",
-     "tytuł": "New light-conversion tool could help speed up quantum computing",
-     "url": "https://phys.org/news/2026-11-conversion-tool-quantum.html"
+     "nazwa": "ScienceDaily Physics",
+     "tytuł": "Einstein’s 120-year-old theory may be missing something big about the Big Bang",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261121221119.htm"
     }
    ],
    "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.119,
+    "wynik": 3.405,
     "składowe": {
      "potwierdzenia": 0.0,
-     "ranga_źródła": 1.2,
-     "eksponowanie": 0.81,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.579,
-     "treściwość": 0.18,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.557,
+     "treściwość": 0.468,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "New light-conversion tool could help speed up quantum computing",
+   "oryginalny_nagłówek": "Einstein’s 120-year-old theory may be missing something big about the Big Bang",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -1173,45 +1326,153 @@
     "emoji": "🔭",
     "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
    },
-   "nagłówek": "Teleskop Webba NASA pokazuje, jak pył z supernowych opisuje ewolucję gwiazd",
-   "lead": "Teleskop kosmiczny Jamesa Webba należący do NASA ukazał barwny obraz legendarnej pozostałości po supernowej Cassiopeia A (Cas A). Pozostałości takie jak te to obłoki gazu i pyłu, które pozostają po wybuchu masywnej gwiazdy i ostatecznie staną się zalążkiem nowej generacji gwiazd i planet.",
+   "nagłówek": "Nowy rekord kwazara zaostrza ograniczenia dotyczące scenariuszy powstawania czarnych dziur",
+   "lead": "Zespół astronomów pod kierownictwem Juliena Wolfa, naukowca odbywającego staż podoktorski w Instytucie Astronomii im. Maxa Plancka (MPIA) w Heidelberg w Niemczech (obecnie w Europejskim Obserwatorium Południowym w Garching bei München w Niemczech), odkrył najdalszy jak dotąd kwazar. Po raz pierwszy zidentyfikowany w ramach przeglądu Euclid Wide Survey (EWS),…",
    "język_źródła": "en",
-   "opublikowano": "2026-11-23T15:00:00+00:00",
+   "opublikowano": "2026-11-24T08:00:01+00:00",
    "źródło": {
-    "nazwa": "NASA",
-    "url": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/",
-    "domena": "science.nasa.gov"
+    "nazwa": "Phys.org Astronomy",
+    "url": "https://phys.org/news/2026-11-quasar-tightens-constraints-black-hole.html",
+    "domena": "phys.org"
    },
-   "obraz": "https://assets.science.nasa.gov/content/dam/science/missions/webb/science/2026/11/STScI-01M6PRXJ9A7S81CH1C9SJP1MB0.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-quasar-record-tigh.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Ta obserwacja w średniej podczerwieni o wysokiej rozdzielczości wykonana przez teleskop Webba ujawnia nowe szczegóły, które pomagają astronomom w opisaniu struktury i ewolucji pierwotnej gwiazdy Cas A.",
-      "Dane z teleskopu Webba potwierdzają scenariusz, w którym wnętrze gwiazdy uległo radykalnej zmianie, być może zaledwie kilka godzin przed jej zniknięciem.",
-      "Wyniki te zostały opublikowane w poniedziałek w czasopiśmie The Astrophysical Journal Letters.",
-      "Gwiazdy rozpoczynają swoje życie jako duże obłoki składające się głównie z gazu wodorowego i kosmicznego pyłu, zwane obłokami molekularnymi.",
-      "Ostatecznie grawitacja powoduje zapadanie się tych obłoków molekularnych, materiał się nagrzewa i powstają protogwiazdy – młode gwiazdy.",
-      "Pod stałym naciskiem grawitacji wodór w protogwieździe zaczyna ulegać fuzji, tworząc hel. Jest to moment, w którym protogwiazdy ewoluują w pełnoprawne gwiazdy, takie jak nasze Słońce.",
-      "Proces ten powtarza się w miarę ewolucji gwiazd takich jak pierwotna gwiazda Cas A, przy czym w jądrze ulegają syntezie coraz cięższe pierwiastki (ostatecznie kończąc na żelazie), a w otaczających warstwach – lżejsze pierwiastki.",
-      "Prowadzi to do powstania wielu powłok pierwiastków, które stanowią zapis historii ewolucji gwiazdy.",
-      "Kiedy gwiazda staje się supernową, pierwiastki te są rozrzucane w przestrzeń wokół niej. Niektóre z nich ulegają kondensacji, tworząc ziarna pyłu, które mogą się zbrylać."
+      "Pierwsze wskazówki dostarczyły Obserwatorium Kecka i Kosmiczny Teleskop Hubble'a, a Duży Teleskop Binokularny i ostatecznie Kosmiczny Teleskop Jamesa Webba ujawniły przesunięcie ku czerwieni o wartości z = 8,13, odpowiadające wiekowi Wszechświata wynoszącemu 630 milionów lat po Wielkim Wybuchu.",
+      "Przesunięcie ku czerwieni to miara tego, o ile długość fali światła emitowanego przez źródło została rozciągnięta w wyniku ekspansji kosmosu do momentu, gdy światło to dotarło do teleskopu.",
+      "W zależności od tego, jak kosmos ewoluował w czasie, to przesunięcie ku czerwieni można przeliczyć na odległość.",
+      "Kwazar ten, powszechnie określany jako J1504+6252 i nazywany przez zespół „Dún Aonghasa”, istniał 40 milionów lat wcześniej niż poprzedni rekordzista i jest pierwszym kwazarem o czerwonym przesunięciu większym niż osiem.",
+      "Wyniki zostały opublikowane w czasopiśmie Astronomy & Astrophysics.",
+      "Kwazary to niezwykle jasne jądra galaktyk z supermasywnymi czarnymi dziurami w trakcie procesu żywienia: materia w ich bezpośrednim sąsiedztwie tworzy turbulentny wir gazu, który nagrzewa się do momentu, aż zacznie świecić jaśniej niż cała galaktyka, zanim wpadnie do czarnej dziury.",
+      "Kwazary są najjaśniejszymi stałymi źródłami światła we Wszechświecie, dlatego można je szczegółowo badać nawet w odniesieniu do pierwszego miliarda lat historii kosmosu.",
+      "Dalsze obserwacje wykazały, że Dún Aonghasa skrywa supermasywną czarną dziurę o masie kilkaset milionów razy większej niż masa Słońca.",
+      "Poszukiwanie kwazarów z najwcześniejszych epok Wszechświata poprzez doprowadzenie obecnych możliwości obserwacyjnych do granic możliwości to jednak nie tylko pogoń za nowymi rekordami."
      ]
     },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Teleskop kosmiczny Jamesa Webba należący do NASA ukazał barwną mozaikę legendarnej pozostałości po supernowej Cassiopeia A (Cas A).",
-      "Takie pozostałości to obłoki gazu i pyłu, które pozostają po wybuchu masywnej gwiazdy i ostatecznie staną się zarodkiem nowej generacji gwiazd i planet.",
-      "Ta obserwacja w średniej podczerwieni o wysokiej rozdzielczości wykonana przez teleskop Webba ujawnia nowe szczegóły, które pomagają astronomom w opisaniu struktury i ewolucji pierwotnej gwiazdy Cas A.",
+      "Mamy nowego rekordzistę wśród najbardziej odległych kwazarów – supermasywnej czarnej dziury pochłaniającej gaz w galaktyce, gdy Wszechświat miał zaledwie kilkaset milionów lat."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Dún Aonghasa to najbardziej znany spośród kilku prehistorycznych grodzisk na Wyspach Arańskich w hrabstwie Galway w Irlandii. Znajduje się na wyspie Inis Mór, na krawędzi klifu o wysokości 100 metrów (330 stóp)."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Dún Aonghasa",
+     "url": "https://en.wikipedia.org/wiki/D%C3%BAn_Aonghasa"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "8.13",
+    "630 million",
+    "6252",
+    "40 million",
+    "7.5",
+    "360"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Dún Aonghasa",
+    "opis": "Hill fort on Inis Mór, western Ireland",
+    "tekst": "Dún Aonghasa is the best-known of several prehistoric hill forts on the Aran Islands of County Galway, Ireland. It lies on Inis Mór, at the edge of a 100-metre-high (330 ft) cliff.",
+    "url": "https://en.wikipedia.org/wiki/D%C3%BAn_Aonghasa",
+    "język": "en"
+   },
+   "tagi": [
+    "Dún Aonghasa",
+    "Big Bang",
+    "Astronomy",
+    "Astrophysics"
+   ],
+   "emotki": [
+    "🔭"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "Phys.org Astronomy",
+     "tytuł": "New quasar record tightens constraints on black hole formation scenarios",
+     "url": "https://phys.org/news/2026-11-quasar-tightens-constraints-black-hole.html"
+    },
+    {
+     "nazwa": "Sky & Telescope News",
+     "tytuł": "Record-Breaking Black Hole Beacon Shines from the Early Universe",
+     "url": "https://skyandtelescope.org/astronomy-news/record-breaking-black-hole-beacon-shines-from-the-early-universe/"
+    }
+   ],
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 6.348,
+    "składowe": {
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.357,
+     "eksponowanie": 1.08,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.461,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "New quasar record tightens constraints on black hole formation scenarios",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Webb ujawnia nowe szczegóły dotyczące pozostałości po supernowej",
+   "lead": "Teleskop kosmiczny Jamesa Webba NASA ukazuje gorący pył, z którego składa się Kasjopea A (Cas A), na tym zdjęciu w średniej podczerwieni o wysokiej rozdzielczości opublikowanym 1 listopada. Pozostałości takie jak te to obłoki gazu i pyłu, które pozostają po wybuchu masywnej gwiazdy i ostatecznie staną się zarodkiem nowej generacji gwiazd i planet.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-24T16:51:27+00:00",
+   "źródło": {
+    "nazwa": "NASA",
+    "url": "https://www.nasa.gov/image-article/webb-reveals-new-details-in-supernova-remnant/",
+    "domena": "nasa.gov"
+   },
+   "obraz": "https://www.nasa.gov/wp-content/uploads/2026/11/cas-a-webb-miri.png",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Dane z teleskopu Webba potwierdzają scenariusz, w którym wnętrze gwiazdy uległo radykalnej zmianie, być może zaledwie kilka godzin przed jej zniknięciem.",
+      "Zobacz, czego naukowcy dowiedzieli się o Cas A dzięki obserwacjom prowadzonym przez teleskop Webba.",
+      "Źródło zdjęcia: NASA, ESA, CSA, STScI, Tea Temim (Uniwersytet Columbia), Rick Arendt (UMBC), Dan Milisavljevic (Uniwersytet Purdue); Opracowanie zdjęcia: Joseph DePasquale (STScI)"
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Teleskop kosmiczny Jamesa Webba należący do NASA ukazał żywą mozaikę legendarnej pozostałości po supernowej Kasjopeja A (Cas A).",
+      "Takie pozostałości to obłoki gazu i pyłu, które pozostają po wybuchu masywnej gwiazdy i ostatecznie dadzą początek nowej generacji gwiazd i planet.",
+      "Ta obserwacja w średniej podczerwieni o wysokiej rozdzielczości wykonana przez teleskop Webba ujawnia nowe szczegóły, które pomagają astronomom opisać strukturę i ewolucję pierwotnej gwiazdy Cas A.",
+      "Kiedy gwiazda staje się supernową, pierwiastki te są rozrzucane w przestrzeń wokół niej, gdzie niektóre z nich kondensują, tworząc ziarna pyłu, które mogą się zbijać w grudki.",
       "Badając i mapując skład tych pojedynczych skupisk pyłu w Cas A, o wielkości Układu Słonecznego, Webb znalazł dowody na zlanie się powłok – proces, w którym warstwy wewnątrz gwiazdy mieszają się przed wybuchem."
      ]
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
+    "23, 2026",
     "100,000",
     "10.3847",
     "8213",
@@ -1221,10 +1482,10 @@
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Webb",
-    "Cassiopeia",
-    "Cas A’s",
-    "Cas"
+    "Cas",
+    "Dan Milisavljevic Purdue University Image Processing Joseph DePasquale STScI",
+    "Supernova Remnant NASA’s James Webb Space Telescope",
+    "STScI Tea Temim Columbia University Rick Arendt"
    ],
    "emotki": [
     "🔭",
@@ -1233,8 +1494,8 @@
    "wszystkie_źródła": [
     {
      "nazwa": "NASA",
-     "tytuł": "NASA’s Webb Shows How Supernova Dust Chronicles Star Evolution",
-     "url": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/"
+     "tytuł": "Webb Reveals New Details in Supernova Remnant",
+     "url": "https://www.nasa.gov/image-article/webb-reveals-new-details-in-supernova-remnant/"
     },
     {
      "nazwa": "Phys.org Astronomy",
@@ -1243,26 +1504,26 @@
     }
    ],
    "liczba_źródeł": 2,
-   "czas_czytania_min": 2,
+   "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.456,
+    "wynik": 5.813,
     "składowe": {
      "potwierdzenia": 1.9,
      "ranga_źródła": 1.48,
-     "eksponowanie": 0.72,
+     "eksponowanie": 0.18,
      "słowa_kluczowe": 1.4,
-     "świeżość": 0.517,
-     "treściwość": 0.439,
+     "świeżość": 0.448,
+     "treściwość": 0.405,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "NASA’s Webb Shows How Supernova Dust Chronicles Star Evolution",
+   "oryginalny_nagłówek": "Webb Reveals New Details in Supernova Remnant",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
    },
-   "miejsce": 1
+   "miejsce": 2
   },
   {
    "dział": {
@@ -1271,13 +1532,13 @@
     "emoji": "🗺️",
     "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
    },
-   "nagłówek": "Zielony GIS - Geoprzestrzeń Jutra. Relacja z Konferencji GIS Day w Stolicy 2026",
-   "lead": "19 listopada br. na Wydziale Nauk Leśnych i Drzewnych Szkoły Głównej Gospodarstwa Wiejskiego świętowany był Międzynarodowy Dzień Systemów Informacji Geograficznej. Tegoroczna edycja konferencji koncentrowała się przede wszystkim na wykorzystaniu GIS w kontekście zrównoważonego rozwoju.",
+   "nagłówek": "Warszawski Oddział GDDKiA zleca regulację stanów prawnych dróg",
+   "lead": "Generalna Dyrekcja Dróg Krajowych i Autostrad Oddział w Warszawie ogłosiła nieograniczony przetarg pt. Regulacja stanów prawnych dróg na terenie działania GDDKiA Oddział w Warszawie mająca m.in. na celu przekazanie przez GDDKiA zbędnych odcinków dróg i nieruchomości właściwym organom administracji publicznej, zgodnie z…",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-24T00:00:00+00:00",
+   "opublikowano": "2026-11-25T00:00:00+00:00",
    "źródło": {
     "nazwa": "Geoforum",
-    "url": "https://geoforum.pl/news/37551/zielony-gis-geoprzestrzen-jutra-relacja-z-konferencji-gis-day-w-stolicy-2026",
+    "url": "https://geoforum.pl/news/37554/warszawski-oddzial-gddkia-zleca-regulacje-stanow-prawnych-drog",
     "domena": "geoforum.pl"
    },
    "obraz": null,
@@ -1286,43 +1547,39 @@
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Poruszono zagadnienia związane m.in. z zastosowaniem GIS w monitorowaniu i ochronie środowiska, wykorzystaniem geoinformacji w adaptacji miast do zmian klimatu oraz zieloną infrastrukturą i planowaniem..."
+      "Zamówienie zostało podzielone na 5 zadań części , które dotyczą nieruchomości na terenie powiatów: cz."
      ]
     }
    ],
    "dlaczego_to_ważne": "",
-   "liczby": [
-    "19"
-   ],
+   "liczby": [],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Międzynarodowy Dzień Systemów Informacji Geograficznej",
-    "Drzewnych Szkoły Głównej Gospodarstwa Wiejskiego",
-    "Wydziale Nauk Leśnych",
-    "Geoprzestrzeń Jutra"
+    "Warszawie",
+    "Generalna Dyrekcja Dróg Krajowych",
+    "Autostrad Oddział",
+    "Oddział GDDKiA"
    ],
-   "emotki": [
-    "🌳"
-   ],
+   "emotki": [],
    "wszystkie_źródła": [
     {
      "nazwa": "Geoforum",
-     "tytuł": "Zielony GIS - Geoprzestrzeń Jutra. Relacja z Konferencji GIS Day w Stolicy 2026",
-     "url": "https://geoforum.pl/news/37551/zielony-gis-geoprzestrzen-jutra-relacja-z-konferencji-gis-day-w-stolicy-2026"
+     "tytuł": "Warszawski Oddział GDDKiA zleca regulację stanów prawnych dróg",
+     "url": "https://geoforum.pl/news/37554/warszawski-oddzial-gddkia-zleca-regulacje-stanow-prawnych-drog"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.788,
+    "wynik": 3.778,
     "składowe": {
      "potwierdzenia": 0.0,
      "ranga_źródła": 1.0,
-     "eksponowanie": 0.9,
-     "słowa_kluczowe": 0.35,
+     "eksponowanie": 0.54,
+     "słowa_kluczowe": 0.7,
      "świeżość": 0.538,
      "treściwość": 0.5,
      "język_działu": 0.5
@@ -1337,54 +1594,113 @@
     "emoji": "🗺️",
     "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
    },
-   "nagłówek": "Zachodniopomorskie szuka wykonawcy aktualizacji działek ewidencyjnych dróg",
-   "lead": "Urząd Marszałkowski Województwa Zachodniopomorskiego ogłosił przetarg na analizę danych ewidencyjnych i materiałów archiwalnych działek ewidencyjnych wojewódzkiego i powiatowego pasa drogowego oraz przeprowadzenie aktualizacji działek ewidencyjnych i punktów granicznych wykazanych w analizie rozbieżności w bazach…",
-   "język_źródła": "pl",
-   "opublikowano": "2026-11-24T00:00:00+00:00",
+   "nagłówek": "Kalifornia przygotowuje się na potrójne zagrożenie powodziowe związane z ogromnymi przypływami, El Niño i ociepleniem oceanów",
+   "lead": "Wyjątkowo wysokie przypływy i pogoda spowodowana przez El Niño groziły wybrzeżu Kalifornii ewentualnymi ekstremalnymi powodziami w trakcie najbardziej ruchliwego tygodnia podróży w Stanach Zjednoczonych w całym roku. Oczekuje się, że obszar Zatoki San Francisco zostanie szczególnie mocno dotknięty podwójnym uderzeniem – niesprzyjającej pogody i gigantycznych przypływów, a synoptycy…",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-24T10:52:02+00:00",
    "źródło": {
-    "nazwa": "Geoforum",
-    "url": "https://geoforum.pl/news/37550/zachodniopomorskie-szuka-wykonawcy-aktualizacji-dzialek-ewidencyjnych-drog",
-    "domena": "geoforum.pl"
+    "nazwa": "Phys.org Earth",
+    "url": "https://phys.org/news/2026-11-california-braces-triple-threat-huge.html",
+    "domena": "phys.org"
    },
-   "obraz": null,
-   "sekcje": [],
-   "dlaczego_to_ważne": "",
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/this-years-exceptional.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "W międzyczasie władze USA wzywały mieszkańców do ponownego rozważenia planów podróży na Święto Dziękczynienia.",
+      "Burmistrz San Francisco, Daniel Lurie, ostrzegł, że sytuacja jest „wyjątkowo poważna” i poprosił mieszkańców, aby ograniczyli zbędne podróże.",
+      "Wysokie przypływy były przewidywane od dawna: tak zwane przypływy królewskie występują co roku z powodu przyciągania grawitacyjnego i układu Ziemi, Księżyca i Słońca.",
+      "Odbędą się one w tym tygodniu, a następnie w grudniu i styczniu.",
+      "Tym razem potężne przypływy – w San Francisco przewiduje się, że zbliżą się do rekordu sprzed ponad 40 lat wynoszącego 8,66 stopa (2,6 metra), a nawet go przekroczą – nadchodzą w momencie, gdy wody oceanu są już rekordowo ciepłe.",
+      "Ocean jest cieplejszy niż zwykle – a zatem jego objętość się zwiększa – zarówno z powodu zmian klimatycznych spowodowanych przez człowieka, jak i wyjątkowo silnego w tym roku zjawiska pogodowego El Niño.",
+      "Zjawisko ocieplenia oceanu w centralnej i wschodniej części Pacyfiku równikowego już zmieniło pogodę na całym świecie, powodując niszczycielskie susze i pożary.",
+      "Dial Hoang z Narodowej Służby Meteorologicznej (NWS) powiedział agencji AFP, że w obszarze Zatoki San Francisco może dojść do podtopień sięgających prawie 0,9 metra, gdy w środę przypływy osiągną szczyt.",
+      "Amerykańska agencja poinformowała w najnowszym komunikacie, że w środę wzdłuż wybrzeża Kalifornii mogą pojawić się niebezpiecznie wysokie fale przyboju, sięgające nawet 9 metrów, a niebezpieczne warunki na plażach utrzymają się do niedzieli."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "Miejscowi mieszkańcy i media udostępnili zdjęcia przedstawiające fale powodziowe zalewające nabrzeże Embarcadero w centrum dzielnicy turystycznej San Francisco oraz zalane drogi od San Rafael po Redwood Shores, mimo że nad głowami rozciągało się błękitne niebo. „Pod tą wodą zwykle znajduje się plaża o szerokości 6 metrów” – napisał jeden z użytkowników mediów społecznościowych, udostępniając zdjęcie z Aquatic Park w San Francisco.",
+      "Powódź we wtorek rano była stosunkowo niewielka, a region przygotowywał się na jeszcze wyższy stan wody w środę.",
+      "Pierwsze w tym roku najwyższe „pływy królewskie” nie zbiegły się jeszcze z intensywnymi burzami w dużej części stanu, dzięki czemu na razie udało się uniknąć najgorszego scenariusza, jakim są niekontrolowane powodzie.",
+      "We wtorek w miejscach położonych wokół Zatoki San Francisco odnotowano rekordowe miesięczne poziomy pływów, a jak podaje „San Francisco Chronicle ”, jutro mają one osiągnąć jeszcze wyższe wartości.",
+      "We wtorek rano mareograf w San Francisco pobił listopadowy rekord z 1982 roku.",
+      "Międzynarodowy port lotniczy w San Francisco, który przewidywał podtopienia, „z przyjemnością informuje, że działalność portu lotniczego nie została zakłócona przez przypływy King Tide i w tej chwili nie przewiduje się, aby miały one wpłynąć na działalność portu w dniu dzisiejszym” – czytamy w komunikacie lotniska."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "El Niño – Oscylacja Południowa (ENSO) to globalne zjawisko klimatyczne, które przejawia się wahaniami temperatury powierzchni morza nad tropikalnym Oceanem Spokojnym. Faza ocieplenia temperatury powierzchni morza jest znana jako „El Niño”, a faza ochłodzenia jako „La Niña”. Zjawisko to wpływa na klimat znacznej części obszarów tropikalnych i podzwrotnikowych oraz ma powiązania (telepołączenia) z regionami świata położonymi na wyższych szerokościach geograficznych. Oscylacja Południowa to towarzysząca oscylacja atmosferyczna, która jest powiązana ze zmianą temperatury morza. Na oscylację reaguje wiele cech atmosfery, w tym wiatr, ciśnienie powietrza przy powierzchni Ziemi i zachmurzenie."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: El Niño–Southern Oscillation",
+     "url": "https://en.wikipedia.org/wiki/El_Ni%C3%B1o%E2%80%93Southern_Oscillation"
+    }
+   ],
+   "dlaczego_to_ważne": "Fale te zbiegły się również w czasie z gwałtownymi burzami wywołanymi przez El Niño – i skutki były katastrofalne.",
    "liczby": [
-    "21"
+    "40",
+    "8.66",
+    "2.6",
+    "0.9",
+    "30",
+    "1.6"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "El Niño–Southern Oscillation",
+    "opis": "Global climate phenomenon",
+    "tekst": "El Niño–Southern Oscillation (ENSO) is a global climate phenomenon that manifests as fluctuations in sea surface temperatures over the tropical Pacific Ocean. The warming phase of the sea surface temperature is known as \"El Niño\" and the cooling phase as \"La Niña\". It affects the climate of much of the tropics and subtropics, and has links (teleconnections) to higher-latitude regions of the world. The Southern Oscillation is the accompanying atmospheric oscillation, which is coupled with the sea temperature change. Numerous atmospheric characteristics respond to the oscillation including wind, surface air pressure and cloudiness.",
+    "url": "https://en.wikipedia.org/wiki/El_Ni%C3%B1o%E2%80%93Southern_Oscillation",
+    "język": "en"
+   },
    "tagi": [
-    "Urząd Marszałkowski Województwa Zachodniopomorskiego",
-    "Państwowego Zasobu Geodezyjnego",
-    "Kartograficznego"
+    "El Niño",
+    "January",
+    "California",
+    "December"
    ],
    "emotki": [
-    "🗺️",
-    "🪐"
+    "🌊"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Geoforum",
-     "tytuł": "Zachodniopomorskie szuka wykonawcy aktualizacji działek ewidencyjnych dróg",
-     "url": "https://geoforum.pl/news/37550/zachodniopomorskie-szuka-wykonawcy-aktualizacji-dzialek-ewidencyjnych-drog"
+     "nazwa": "Phys.org Earth",
+     "tytuł": "California braces for triple flooding threat of huge tides, El Niño, warm oceans",
+     "url": "https://phys.org/news/2026-11-california-braces-triple-threat-huge.html"
+    },
+    {
+     "nazwa": "The Guardian Environment",
+     "tytuł": "California ‘king tides’ stress test San Francisco as low-lying areas flood",
+     "url": "https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel"
     }
    ],
-   "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
+   "liczba_źródeł": 2,
+   "czas_czytania_min": 3,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.518,
+    "wynik": 5.216,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.0,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.307,
      "eksponowanie": 0.63,
      "słowa_kluczowe": 0.35,
-     "świeżość": 0.538,
+     "świeżość": 0.529,
      "treściwość": 0.5,
-     "język_działu": 0.5
+     "język_działu": 0.0
     }
+   },
+   "oryginalny_nagłówek": "California braces for triple flooding threat of huge tides, El Niño, warm oceans",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
    },
    "miejsce": 2
   },
@@ -1395,93 +1711,101 @@
     "emoji": "🎬",
     "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
    },
-   "nagłówek": "RECENZJA: Czy serial \"Blade Runner 2099\" dorównuje oryginałowi?",
-   "lead": "Już za kilka dni – 25 listopada – na Prime Video zadebiutuje \" Blade Runner 2099 \", czyli pierwsza serialowa odsłona jednej z najważniejszych sag science fiction w historii kina. Akcja przenosi nas 50 lat po wydarzeniach z \"<a class='internal' href='/film/Blade+Runner+2049-2017-630798'",
+   "nagłówek": "Maria Dębska z nagrodą za rolę w \"Przez ścianę\" na festiwalu w USA",
+   "lead": "Maria Dębska została doceniona za oceanem. Za przejmującą rolę Wiesi w filmie Macieja Sobieszczańskiego \"Przez ścianę\" polska aktorka odebrała nagrodę Best Actor Award na Polish Film Festival in North America.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-23T14:15:45+00:00",
+   "opublikowano": "2026-11-24T07:27:51+00:00",
    "źródło": {
-    "nazwa": "Filmweb",
-    "url": "https://www.filmweb.pl/news/RECENZJA%3A+Czy+serial+%22Blade+Runner+2099%22+dor%C3%B3wnuje+orygina%C5%82owi-169803",
-    "domena": "filmweb.pl"
+    "nazwa": "Interia Film",
+    "url": "https://film.interia.pl/wiadomosci/news-polska-aktorka-nagrodzona-na-festiwalu-w-usa-odebrala-dwie-s,nId,23577986",
+    "domena": "film.interia.pl"
    },
-   "obraz": "https://fwcdn.pl/nph/1032473/2026/79477_1.16.jpg",
+   "obraz": "https://i.iplsc.com/-/000NKCFZS46J6B2C-C321.webp",
    "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Nagrodę publiczności otrzymała \"Lalka\" Macieja Kawalskiego.",
+      "Maria Dębska otrzymała nagrodę za przejmującą rolę Wiesi w filmie Macieja Sobieszczańskiego \"Przez ścianę\" , otwiera się w nowym oknie .",
+      "Obie nagrody - dla siebie i reżysera \"Lalki\" - aktorka odebrała 22 listopada osobiście w USA i poinformowała o tym na swoim profilu na Facebooku.",
+      "Polish Film Festival North America (PFFNA) to cykliczny, objazdowy przegląd nowego polskiego kina odbywający się w Stanach Zjednoczonych.",
+      "Filmy prezentowane są m.in. w Nowym Jorku, Chicago, Miami czy Bostonie.",
+      "Wydarzenie odbywa się co roku w listopadzie - tegoroczna edycja trwała od 6 do 22 listopada.",
+      "W listopadzie 1947 roku Wiesława Pajdak zostaje aresztowana za działalność w podziemiu antykomunistycznym i trafia do więzienia na Rakowieckiej.",
+      "Kilka dni później do celi obok trafia Jerzy Śmiechowski .",
+      "Pewnej nocy rozpoczynają rozmowę przez ścianę za pomocą kodu Morse'a ."
+     ]
+    },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Blade Runner is a 1982 science fiction film directed by Ridley Scott from a screenplay by Hampton Fancher and David Peoples. Starring Harrison Ford, Rutger Hauer, Sean Young, and Edward James Olmos, it is an adaptation of the 1968 novel Do Androids Dream of Electric Sheep? by Philip K. Dick. The film is set in a dystopian future Los Angeles of 2019, in which synthetic humans known as replicants are bio-engineered by the powerful Tyrell Corporation to work on space colonies. When a fugitive group of advanced replicants led by Roy Batty (Hauer) escapes back to Earth, former cop Rick Deckard (Ford) is recalled to hunt them down."
+      "Maria Dębska is a Polish actress. She received the Gdynia Film Festival Award for Best Actress and a nomination for the Polish Academy Award for Best Actress for her performance as Kalina Jędrusik in the biographical musical drama film Autumn Girl (2021)."
      ],
      "język": "en",
-     "przypis": "Wikipedia: Blade Runner",
-     "url": "https://en.wikipedia.org/wiki/Blade_Runner"
+     "przypis": "Wikipedia: Maria Dębska",
+     "url": "https://en.wikipedia.org/wiki/Maria_D%C4%99bska"
     }
    ],
-   "dlaczego_to_ważne": "",
+   "dlaczego_to_ważne": "Siedem lat później wzięli ślub w więzieniu, gdzie spotkali się po raz pierwszy.",
    "liczby": [
-    "25",
+    "22",
     "50 lat",
-    "630798",
-    "99",
-    "20.99",
-    "80"
+    "51",
+    "02",
+    "23",
+    "26"
    ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "Filmweb",
-     "ujęcie": "\"Ciemno, pada, jakieś Chiny\", napisał ktoś kiedyś na forum Filmwebu o \" Blade Runnerze \" Ridleya Scotta .",
-     "url": "https://www.filmweb.pl/reviews/recenzja-serialu-Blade+Runner+2099-27805"
-    }
-   ],
+   "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Blade Runner",
-    "opis": "1982 film by Ridley Scott",
-    "tekst": "Blade Runner is a 1982 science fiction film directed by Ridley Scott from a screenplay by Hampton Fancher and David Peoples. Starring Harrison Ford, Rutger Hauer, Sean Young, and Edward James Olmos, it is an adaptation of the 1968 novel Do Androids Dream of Electric Sheep? by Philip K. Dick. The film is set in a dystopian future Los Angeles of 2019, in which synthetic humans known as replicants are bio-engineered by the powerful Tyrell Corporation to work on space colonies. When a fugitive group of advanced replicants led by Roy Batty (Hauer) escapes back to Earth, former cop Rick Deckard (Ford) is recalled to hunt them down.",
-    "url": "https://en.wikipedia.org/wiki/Blade_Runner",
+    "hasło": "Maria Dębska",
+    "opis": "Polish actress (born 1991)",
+    "tekst": "Maria Dębska is a Polish actress. She received the Gdynia Film Festival Award for Best Actress and a nomination for the Polish Academy Award for Best Actress for her performance as Kalina Jędrusik in the biographical musical drama film Autumn Girl (2021).",
+    "url": "https://en.wikipedia.org/wiki/Maria_D%C4%99bska",
     "język": "en"
    },
    "tagi": [
-    "Blade Runner",
-    "Prime Video"
+    "Dębska",
+    "Macieja Sobieszczańskiego",
+    "Polish Film Festival",
+    "Nagrodę Publiczności"
    ],
    "emotki": [
-    "🎬"
+    "🎬",
+    "🎭",
+    "🌊"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Filmweb",
-     "tytuł": "RECENZJA: Czy serial \"Blade Runner 2099\" dorównuje oryginałowi?",
-     "url": "https://www.filmweb.pl/news/RECENZJA%3A+Czy+serial+%22Blade+Runner+2099%22+dor%C3%B3wnuje+orygina%C5%82owi-169803"
+     "nazwa": "Interia Film",
+     "tytuł": "Maria Dębska z nagrodą za rolę w \"Przez ścianę\" na festiwalu w USA",
+     "url": "https://film.interia.pl/wiadomosci/news-polska-aktorka-nagrodzona-na-festiwalu-w-usa-odebrala-dwie-s,nId,23577986"
     },
     {
-     "nazwa": "Filmweb",
-     "tytuł": "Owca androidów - Recenzja filmu Blade Runner 2099 (2 026)",
-     "url": "https://www.filmweb.pl/reviews/recenzja-serialu-Blade+Runner+2099-27805"
+     "nazwa": "Pitchfork",
+     "tytuł": "U2 Plot North American Stadium Tour",
+     "url": "https://pitchfork.com/story/u2-plot-north-american-stadium-tour/"
     },
     {
-     "nazwa": "The Guardian Film",
-     "tytuł": "Clashing Through the Snow review – Amazon’s Christmas romcom is a bust",
-     "url": "https://www.theguardian.com/film/2026/nov/23/clashing-through-the-snow-review-amazon"
-    },
-    {
-     "nazwa": "The Guardian Culture",
-     "tytuł": "Blade Runner 2099: fans will have no idea what is happening in this sci-fi sequel. Why is it even on TV?",
-     "url": "https://www.theguardian.com/tv-and-radio/2026/nov/21/blade-runner-2099-fans-will-have-no-idea-what-is-happening-in-this-sci-fi-sequel-why-is-it-even-on-tv"
+     "nazwa": "Pitchfork",
+     "tytuł": "Phoebe Bridgers Sets More Planetarium Listening Parties for Lost Weekend",
+     "url": "https://pitchfork.com/story/phoebe-bridgers-sets-more-planetarium-listening-parties-for-lost-weekend/"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.187,
+    "wynik": 5.77,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.637,
-     "eksponowanie": 0.45,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.5,
-     "treściwość": 0.5,
+     "ranga_źródła": 1.35,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.434,
+     "treściwość": 0.336,
      "język_działu": 0.5
     }
    },
@@ -1494,92 +1818,73 @@
     "emoji": "🎬",
     "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
    },
-   "nagłówek": "Niedawno byli skłóceni. Ojciec Miley Cyrus jednak zjawił się na jej ślubie!",
-   "lead": "Kilka dni temu Miley Cyrus i jej ukochany, Maxx Morando, wzięli ślub w luksusowej posiadłości w Palm Springs. W sekretnym wydarzeniu udział wzięli tylko najbliżsi przyjaciele pary i rodzina, ale fotoreporterom i tak udało się zrobić kilka zakulisowych zdjęć.",
+   "nagłówek": "Mimo narzekań na \"symulator pantoflarza\" \"GTA VI\" wciąż się sprzedaje",
+   "lead": "More than 39 million unique players jumped into Grand Theft Auto VI on PS5 since launch. Thank you for making GTAVI the biggest launch in PlayStation history.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-23T18:59:08+00:00",
+   "opublikowano": "2026-11-24T12:27:42+00:00",
    "źródło": {
-    "nazwa": "Interia Muzyka",
-    "url": "https://muzyka.interia.pl/pop/news-billy-ray-cyrus-pojawil-sie-na-slubie-miley-choc-do-niedawna,nId,23577906",
-    "domena": "muzyka.interia.pl"
+    "nazwa": "Filmweb",
+    "url": "https://www.filmweb.pl/news/Mimo+narzeka%C5%84+na+%22symulator+pantoflarza%22+%22GTA+VI%22+wci%C4%85%C5%BC+si%C4%99+sprzedaje-169826",
+    "domena": "filmweb.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000NKBQFMXR36MK2-C321.webp",
+   "obraz": "https://fwcdn.pl/nph/867323/2026/79522_1.16.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Na fotografiach widać, że w uroczystości wziął udział także ojciec panny młodej, z którym ta do niedawna pozostawała w konflikcie.",
-      "Billy Ray Cyrus zabrał ze sobą partnerkę, Elizabeth Hurley, która postawiła na widowiskową kreację.",
-      "Jej suknia zwróciła uwagę internautów, którzy stwierdzili jednogłośnie, że kobieta próbowała przyćmić Miley.",
-      "W sobotę, 21 listopada, Miley Cyrus i perkusista Maxx Morando oficjalnie zostali małżeństwem.",
-      "Para wzięła ślub w malowniczej, luksusowej posiadłości, która niegdyś należała do samego Franka Sinatry .",
-      "Rezydencja mieści się w Palm Springs w Kalifornii , a zakochani składali sobie przysięgę tuż nad basenem.",
-      "W tym wyjątkowym dniu młodej parze towarzyszyli najbliżsi przyjaciele oraz rodzina.",
-      "Wśród gości znaleźli się m.in. mama piosenkarki Tish Cyrus oraz jej siostra Noah Cyrus .",
-      "Ku zaskoczeniu niektórych na ślubie 34-latki pojawił się również jej ojciec, Billy Ray Cyrus ."
+      "More launch highlights: https://t.co/6FpCv7aEpe https://t.co/i94o3I1DfW"
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Miley Ray Cyrus – amerykańska piosenkarka, aktorka, kompozytorka, autorka tekstów, producentka muzyczna, producentka filmowa, reżyserka i filantropka. Laureatka trzech nagród Grammy, jednej Brit i trzech MTV Video Music Awards."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: Miley Cyrus",
-     "url": "https://pl.wikipedia.org/wiki/Miley_Cyrus"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "21",
-    "34",
-    "65",
-    "61",
-    "7 tys."
+    "39 million",
+    "30 million",
+    "364.5",
+    "41,000",
+    "32.5",
+    "3.8"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Miley Cyrus",
-    "opis": "amerykańska piosenkarka i aktorka",
-    "tekst": "Miley Ray Cyrus – amerykańska piosenkarka, aktorka, kompozytorka, autorka tekstów, producentka muzyczna, producentka filmowa, reżyserka i filantropka. Laureatka trzech nagród Grammy, jednej Brit i trzech MTV Video Music Awards.",
-    "url": "https://pl.wikipedia.org/wiki/Miley_Cyrus",
-    "język": "pl"
-   },
+   "tło": null,
    "tagi": [
-    "Miley",
-    "Palm Springs",
-    "Miley Cyrus",
-    "Hurley"
+    "Grand Theft Auto",
+    "PlayStation"
    ],
    "emotki": [
-    "🎵"
+    "🚀",
+    "🎮"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Interia Muzyka",
-     "tytuł": "Niedawno byli skłóceni. Ojciec Miley Cyrus jednak zjawił się na jej ślubie!",
-     "url": "https://muzyka.interia.pl/pop/news-billy-ray-cyrus-pojawil-sie-na-slubie-miley-choc-do-niedawna,nId,23577906"
+     "nazwa": "Filmweb",
+     "tytuł": "Mimo narzekań na \"symulator pantoflarza\" \"GTA VI\" wciąż się sprzedaje",
+     "url": "https://www.filmweb.pl/news/Mimo+narzeka%C5%84+na+%22symulator+pantoflarza%22+%22GTA+VI%22+wci%C4%85%C5%BC+si%C4%99+sprzedaje-169826"
     },
     {
-     "nazwa": "BBC Kultura",
-     "tytuł": "Miley Cyrus marries Maxx Morando in California ceremony",
-     "url": "https://www.bbc.co.uk/news/articles/cq8e0p87l89lo?at_medium=RSS&at_campaign=rss"
+     "nazwa": "The Guardian Culture",
+     "tytuł": "GTA VI’s jaw-dropping success: in figures",
+     "url": "https://www.theguardian.com/games/2026/nov/24/gta-vi-streaming-numbers-charts"
+    },
+    {
+     "nazwa": "The Guardian Culture",
+     "tytuł": "Man Theft Auto – why did so few women review GTA VI, the biggest video game of the decade?",
+     "url": "https://www.theguardian.com/games/2026/nov/24/man-theft-auto-why-did-so-few-women-review-gta-vi-the-biggest-video-game-of-the-decade"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.42,
+    "wynik": 5.765,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.335,
-     "eksponowanie": 0.36,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.475,
+     "ranga_źródła": 1.415,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 1.05,
+     "świeżość": 0.4,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -1591,14 +1896,14 @@
  "statystyki": {
   "kanały_ok": 70,
   "kanały_błędne": 1,
-  "znaki_tłumaczone": 14698,
+  "znaki_tłumaczone": 16571,
   "niedziałające_kanały": [
    {
     "url": "https://www.crazynauka.pl/feed/",
     "powód": "brak wpisów / nieznany format"
    }
   ],
-  "działy": 17,
-  "artykuły_w_oknie": 50
+  "działy": 18,
+  "artykuły_w_oknie": 66
  }
 }
