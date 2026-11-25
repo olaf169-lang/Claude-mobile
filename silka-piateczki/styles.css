@@ -145,6 +145,9 @@ h3 { font-size: 20px; font-weight: 700; }
 .poziom-xp { font-size: 15px; color: var(--popiol); text-align: right; }
 .poziom-xp b { color: var(--kreda); font-family: var(--naglowek); font-size: 20px; }
 .sztanga svg { width: 100%; height: auto; display: block; }
+.do-poziomu { margin: 2px 0 0; font-size: 15px; color: var(--popiol); }
+.do-poziomu b { color: var(--kreda); }
+.swieto-sztanga { width: min(100%, 340px); margin-top: 4px; }
 
 .licznik {
   display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 18px 0;
@@ -208,6 +211,13 @@ h3 { font-size: 20px; font-weight: 700; }
   display: grid; grid-template-columns: 92px 1fr; gap: 12px; align-items: start;
   background: none; border: none; padding: 0; text-align: left; border-radius: 10px;
 }
+.partia {
+  display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; line-height: 1.2;
+  color: var(--kreda); margin-bottom: 3px;
+}
+.partia::before { content: ''; width: 9px; height: 9px; border-radius: 50%; background: var(--kolor, var(--chrom)); flex: none; }
+.plan-lista .partia, .lista-cw .partia { display: flex; }
+.lista-cw small .partia { display: inline-flex; margin: 0 4px 0 0; }
 .cw-nazwa { font-family: var(--naglowek); font-weight: 700; font-size: 21px; line-height: 1.08; }
 .cw-meta { font-size: 14px; color: var(--popiol); margin-top: 3px; }
 .cw-ostatnio { font-size: 14px; margin-top: 6px; }

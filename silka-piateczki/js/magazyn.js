@@ -14,7 +14,7 @@ function pusty() {
     aktywny: null, // trening w toku
     rozciaganie: [], // daty ISO zakończonych sesji
     odznaki: {}, // id -> data ISO
-    ustawienia: { przerwa: 90, dzwiek: true },
+    ustawienia: { przerwa: 90, dzwiek: true, masaCiala: 80 },
   };
 }
 

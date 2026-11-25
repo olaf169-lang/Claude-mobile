@@ -5,7 +5,7 @@ import { SERII, PLANY_START, OBSZARY } from './dane.js';
 import { pobierz, zmien, zapisz, cwiczenie } from './magazyn.js';
 import {
   podpowiedz, sprawdzRekord, serieCwiczenia, krok, fmtKg, policzXp, poziom,
-  xpLaczne, noweOdznaki, tonaz, nastepnyPlan,
+  xpLaczne, noweOdznaki, tonaz, nastepnyPlan, trudnosc, fmtMnoznik,
 } from './logika.js';
 import { esc, ruch, kolor, IKONY, arkusz, toast, wibruj, dzwiek } from './ui.js';
 import { szczegoly, wyborCwiczenia } from './arkusze.js';
@@ -83,7 +83,7 @@ function rysujPlany(el) {
       ${plan.map((w, i) => {
         const c = cwiczenie(w.cw);
         return `<li style="--kolor:${kolor(c?.obszar)}">
-          <span class="nazwa">${esc(c?.nazwa || w.cw)}<small>${SERII} × ${w.zakres[0]}-${w.zakres[1]}, ${esc((OBSZARY[c?.obszar]?.nazwa || '').toLowerCase())}${w.para ? ', superseria' : ''}</small></span>
+          <span class="nazwa"><span class="partia" style="--kolor:${kolor(c?.obszar)}">${esc(OBSZARY[c?.obszar]?.nazwa || 'Inne')}</span>${esc(c?.nazwa || w.cw)}<small>${SERII} × ${w.zakres[0]}-${w.zakres[1]}${w.para ? ', superseria' : ''}</small></span>
           <button class="menu-cw" type="button" data-menu-planu="${i}" aria-label="Zmień: ${esc(c?.nazwa || '')}">${IKONY.menu}</button>
         </li>`;
       }).join('')}
@@ -200,8 +200,9 @@ function kartaCwiczenia(akt, i) {
       <button class="cw-otworz" type="button" data-tech="${i}" aria-label="Technika: ${esc(c.nazwa)}">
         ${ruch(c.img, { obszar: c.obszar, nazwa: c.nazwa })}
         <div>
+          <span class="partia" style="--kolor:${kolor(c.obszar)}">${esc(OBSZARY[c.obszar]?.nazwa || 'Inne')}${c.cel ? `: ${esc(c.cel.toLowerCase())}` : ''}</span>
           <div class="cw-nazwa">${esc(c.nazwa)}</div>
-          <div class="cw-meta">${w.serie.length} × ${w.zakres[0]}-${w.zakres[1]}${c.cel ? `, ${esc(c.cel.toLowerCase())}` : ''}</div>
+          <div class="cw-meta">${w.serie.length} × ${w.zakres[0]}-${w.zakres[1]}, trudność ${fmtMnoznik(trudnosc(w.cw, pobierz().wlasne).trud)}</div>
         </div>
       </button>
       <button class="menu-cw" type="button" data-menu="${i}" aria-label="Opcje: ${esc(c.nazwa)}">${IKONY.menu}</button>
@@ -482,7 +483,8 @@ async function zapiszTrening() {
     for (const x of c.serie) if (x.ok && x.rekord) rekordy.set(c.cw, { cw: c.cw, nazwa: cwiczenie(c.cw)?.nazwa || c.cw, ...x.rekord });
   }
   const koniec = new Date().toISOString();
-  const xp = policzXp({ data: akt.start, cwiczenia: akt.cwiczenia, rekordy: [...rekordy.values()] }, s.treningi, s.plany[akt.plan].length);
+  const xp = policzXp({ data: akt.start, cwiczenia: akt.cwiczenia, rekordy: [...rekordy.values()] }, s.treningi,
+    { planDlugosc: s.plany[akt.plan].length, wlasne: s.wlasne, masaCiala: s.ustawienia.masaCiala });
   const trening = {
     id: Date.now().toString(36),
     data: akt.start,

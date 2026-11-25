@@ -2,7 +2,7 @@
 // Bez DOM i bez localStorage, więc da się to testować w Node
 // (narzedzia/sprawdz.mjs).
 
-import { POZIOMY, XP, MAKS_PRZERWA, ODZNAKI, ROZCIAGANIE_W_TYGODNIU } from './dane.js';
+import { POZIOMY, XP, MAKS_PRZERWA, ODZNAKI, ROZCIAGANIE_W_TYGODNIU, TRUDNOSC, TRUDNOSC_TYPU, MASA_CIALA } from './dane.js';
 
 // Daty trzymamy jako ISO. Do liczenia dni bierzemy lokalny dzień kalendarzowy,
 // bo trening o 23:50 i o 0:10 to dwa różne dni dla człowieka, nie dla UTC.
@@ -84,6 +84,29 @@ export function podpowiedz(treningi, cwId, zakres, typ) {
   return null;
 }
 
+// Trudność ćwiczenia: mnożnik pracy i (przy masie ciała) udział wagi.
+// `wlasne` to własne ćwiczenia użytkownika ze stanu (id -> { typ }).
+export function trudnosc(cwId, wlasne = {}) {
+  return TRUDNOSC[cwId] || TRUDNOSC_TYPU[wlasne[cwId]?.typ] || TRUDNOSC_TYPU.maszyna;
+}
+
+// „Kilogramy pracy” jednej serii: ciężar (z masą ciała tam, gdzie trzeba)
+// × powtórzenia × trudność.
+export function praca(cwId, seria, { wlasne = {}, masaCiala = MASA_CIALA } = {}) {
+  if (!seria.ok || !(seria.powt > 0)) return 0;
+  const t = trudnosc(cwId, wlasne);
+  const kg = Number(seria.kg) || 0;
+  const efektywne = t.udzial ? Math.max(masaCiala * t.udzial * 0.25, masaCiala * t.udzial + kg) : kg;
+  return Math.max(0, efektywne) * seria.powt * t.trud;
+}
+
+export function pracaTreningu(trening, opcje) {
+  let suma = 0;
+  for (const c of trening.cwiczenia || []) for (const x of c.serie || []) suma += praca(c.cw, x, opcje);
+  return suma;
+}
+
+// Prawdziwe kilogramy podniesione (bez mnożników), do historii i odznaki.
 export function tonaz(trening) {
   let suma = 0;
   for (const c of trening.cwiczenia || []) {
@@ -111,9 +134,19 @@ export function poziom(xp) {
   };
 }
 
+// XP liczone zawsze od nowa z historii, więc zmiana zasad działa też wstecz.
+export function xpTreningow(stan) {
+  const opcje = { wlasne: stan.wlasne, masaCiala: stan.ustawienia?.masaCiala || MASA_CIALA };
+  const wcz = [];
+  return stan.treningi.map((t) => {
+    const xp = policzXp(t, wcz, opcje);
+    wcz.push(t);
+    return xp;
+  });
+}
+
 export function xpLaczne(stan) {
-  const z = stan.treningi.reduce((a, t) => a + (t.xp || 0), 0);
-  return z + stan.rozciaganie.length * XP.rozciaganie;
+  return xpTreningow(stan).reduce((a, x) => a + x.suma, 0) + stan.rozciaganie.length * XP.rozciaganie;
 }
 
 // Seria = treningi pod rząd, między którymi minęło najwyżej MAKS_PRZERWA dni.
@@ -177,20 +210,31 @@ export function noweOdznaki(stan) {
   return ODZNAKI.filter((o) => !stan.odznaki[o.id] && o.w(st));
 }
 
-// XP za zakończony trening. `trening.rekordy` wypełnia ekran treningu.
-export function policzXp(trening, wczesniejsze, planDlugosc) {
-  const serieOk = trening.cwiczenia.reduce((a, c) => a + c.serie.filter((s) => s.ok).length, 0);
-  const komplet = planDlugosc > 0 && trening.cwiczenia.length >= planDlugosc
-    && trening.cwiczenia.every((c) => c.serie.length && c.serie.every((s) => s.ok));
+// XP za trening. `planDlugosc` podajemy przy zapisie (liczy komplet z serii
+// w toku), przy przeliczaniu historii bierzemy zapisane `trening.komplet`.
+export function policzXp(trening, wczesniejsze, { planDlugosc, wlasne = {}, masaCiala = MASA_CIALA } = {}) {
+  const komplet = planDlugosc
+    ? trening.cwiczenia.length >= planDlugosc && trening.cwiczenia.every((c) => c.serie.length && c.serie.every((s) => s.ok))
+    : !!trening.komplet;
   const termin = wTerminie(wczesniejsze, trening.data);
+  const kgPracy = pracaTreningu(trening, { wlasne, masaCiala });
+  const rekordy = (trening.rekordy || []).length;
   const czesci = [
-    { co: 'Odhaczone serie', ile: serieOk * XP.seria },
+    { co: 'Praca: ciężar × powtórzenia × trudność', ile: Math.round(kgPracy / XP.kgNaXp) },
     { co: 'Zakończony trening', ile: XP.trening },
   ];
-  if (trening.rekordy.length) czesci.push({ co: `Rekordy (${trening.rekordy.length})`, ile: trening.rekordy.length * XP.rekord });
+  if (rekordy) czesci.push({ co: `Rekordy (${rekordy})`, ile: rekordy * XP.rekord });
   if (komplet) czesci.push({ co: 'Komplet serii', ile: XP.komplet });
   if (termin) czesci.push({ co: 'W terminie (do 5 dni przerwy)', ile: XP.wTerminie });
-  return { czesci, suma: czesci.reduce((a, c) => a + c.ile, 0), komplet };
+  return { czesci, suma: czesci.reduce((a, c) => a + c.ile, 0), komplet, kgPracy };
+}
+
+export function fmtLiczba(n) {
+  return Math.round(n).toLocaleString('pl-PL');
+}
+
+export function fmtMnoznik(t) {
+  return `×${String(t).replace('.', ',')}`;
 }
 
 export function nastepnyPlan(treningi) {

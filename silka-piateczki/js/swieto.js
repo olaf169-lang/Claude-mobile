@@ -1,10 +1,10 @@
 // Momenty nagrody: rekord w trakcie treningu i podsumowanie po treningu.
 // Koks pręży się na pełnym ekranie, a z góry lecą tarcze.
 
-import { rysujKoksa, animujKoksa } from './koks.js';
+import { rysujKoksa, animujKoksa, rysujSztange } from './koks.js';
 import { esc, dzwiek, wibruj, godloOdznaki } from './ui.js';
 import { ODZNAKI } from './dane.js';
-import { fmtKg } from './logika.js';
+import { fmtLiczba } from './logika.js';
 
 const KOLORY = ['var(--t-czerwona)', 'var(--t-niebieska)', 'var(--t-zolta)', 'var(--t-zielona)', 'var(--t-biala)'];
 
@@ -52,6 +52,7 @@ export function swietujRekord({ rekord, nazwa, masa }) {
 }
 
 export function swietujTrening({ xp, przed, po, xpPo, nowe, rekordy, minuty, tonaz }) {
+  const kgPracy = Math.round(xp.kgPracy || 0);
   dzwiek('rekord');
   wibruj([80, 50, 80, 50, 240]);
   const awans = po.numer > przed.numer;
@@ -62,9 +63,11 @@ export function swietujTrening({ xp, przed, po, xpPo, nowe, rekordy, minuty, ton
     <ul class="swieto-lista">
       ${xp.czesci.map((c) => `<li><span>${esc(c.co)}</span><b>+${c.ile}</b></li>`).join('')}
       <li><span>Czas</span><b>${minuty} min</b></li>
-      ${tonaz ? `<li><span>Przerzucone</span><b>${fmtKg(Math.round(tonaz))} kg</b></li>` : ''}
+      ${tonaz ? `<li><span>Podniesione</span><b>${fmtLiczba(tonaz)} kg</b></li>` : ''}
+      ${kgPracy ? `<li><span>Praca z trudnością</span><b>${fmtLiczba(kgPracy)} kg</b></li>` : ''}
     </ul>
-    ${awans ? `<p class="swieto-awans">Awans! Poziom ${po.numer}: ${esc(po.nazwa)}</p>` : (po.nastepny ? `<p class="cichy maly">Do poziomu ${po.numer + 1} brakuje ${po.nastepny.prog - xpPo} XP</p>` : '')}
+    <div class="sztanga swieto-sztanga" data-sztanga aria-hidden="true">${rysujSztange(przed.postep)}</div>
+    ${awans ? `<p class="swieto-awans">Awans! Poziom ${po.numer}: ${esc(po.nazwa)}</p>` : (po.nastepny ? `<p class="cichy maly">Poziom ${po.numer}: ${Math.round(po.postep * 100)}%. Do ${esc(po.nastepny.nazwa)} brakuje ${fmtLiczba(po.nastepny.prog - xpPo)} XP</p>` : '')}
     ${rekordy.length ? `<p class="maly">Rekordy dziś: ${rekordy.map((r) => esc(r.nazwa)).join(', ')}</p>` : ''}
     ${nowe.length ? `<div class="swieto-odznaki">${nowe.map((o) => `<div class="odznaka">${godloOdznaki(ODZNAKI.indexOf(o))}<b>${esc(o.nazwa)}</b></div>`).join('')}</div>` : ''}
     <button class="btn btn-kreda" type="button" data-gotowe>Gotowe</button>`, 'swieto-podsumowanie');
@@ -77,6 +80,25 @@ export function swietujTrening({ xp, przed, po, xpPo, nowe, rekordy, minuty, ton
     if (k < 1 && el.isConnected) requestAnimationFrame(policz);
   };
   requestAnimationFrame(policz);
+
+  // Sztanga ładuje się na oczach: przy awansie dobija do pełna, zrzuca
+  // tarcze i zaczyna ładować nowy poziom.
+  const sztanga = el.querySelector('[data-sztanga]');
+  const etapy = awans ? [[przed.postep, 1], [0, po.postep]] : [[przed.postep, po.postep]];
+  (async () => {
+    for (const [od, doCelu] of etapy) {
+      await new Promise((gotowe) => {
+        const t0 = performance.now();
+        const klatka = (t) => {
+          const k = Math.min(1, (t - t0) / 900);
+          const e = 1 - Math.pow(1 - k, 3);
+          sztanga.innerHTML = rysujSztange(od + (doCelu - od) * e);
+          if (k < 1 && el.isConnected) requestAnimationFrame(klatka); else gotowe();
+        };
+        requestAnimationFrame(klatka);
+      });
+    }
+  })();
 
   const koks = el.querySelector('.koks');
   animujKoksa(koks, { masa: przed.masa, poza: 0 }, { masa: po.masa, poza: 0 }, 1400)

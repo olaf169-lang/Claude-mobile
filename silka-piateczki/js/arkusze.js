@@ -5,9 +5,15 @@ import { OBSZARY } from './dane.js';
 import { cwiczenie, wszystkieCwiczenia, dodajWlasne, pobierz } from './magazyn.js';
 import { arkusz, esc, ruch, kolor, IKONY, toast } from './ui.js';
 import { punktyCwiczenia, duzy } from './wykres.js';
-import { fmtKg, e1rm, serieCwiczenia } from './logika.js';
+import { fmtKg, e1rm, serieCwiczenia, trudnosc, fmtMnoznik } from './logika.js';
 
 const TYPY = { hantle: 'Hantle', maszyna: 'Maszyna', wyciag: 'Wyciąg', cialo: 'Masa ciała' };
+
+function opisTrudnosci(cwId) {
+  const t = trudnosc(cwId, pobierz().wlasne);
+  const masa = pobierz().ustawienia.masaCiala || 80;
+  return `Trudność ${fmtMnoznik(t.trud)}: XP = ${t.udzial ? `(${Math.round(t.udzial * 100)}% Twojej wagi, czyli ${Math.round(masa * t.udzial)} kg, plus dociążenie)` : 'ciężar'} × powtórzenia × ${String(t.trud).replace('.', ',')} / 10.`;
+}
 
 export function szczegoly(cwId, { akcje = '' } = {}) {
   const c = cwiczenie(cwId);
@@ -30,6 +36,7 @@ export function szczegoly(cwId, { akcje = '' } = {}) {
         <span class="chip" style="--kolor:${kolor(c.obszar)}"><i></i>${esc(OBSZARY[c.obszar]?.nazwa || '')}</span>
         <h2 style="margin-top:8px">${esc(c.nazwa)}</h2>
         ${c.cel ? `<p class="cichy maly" style="margin:4px 0 0">Cel: ${esc(c.cel)}</p>` : ''}
+        <p class="cichy maly" style="margin:4px 0 0">${opisTrudnosci(cwId)}</p>
       </div>
       <button class="btn btn-ikona" type="button" data-zamknij aria-label="Zamknij">${IKONY.zamknij}</button>
     </div>
@@ -54,7 +61,7 @@ export function szczegoly(cwId, { akcje = '' } = {}) {
 function elementListy(c, wybrane = false) {
   return `<li><button type="button" data-wybierz="${esc(c.id)}" aria-pressed="${wybrane}">
     ${ruch(c.img, { obszar: c.obszar, nazwa: c.nazwa })}
-    <span><b>${esc(c.nazwa)}</b><small>${esc(OBSZARY[c.obszar]?.nazwa || '')}, ${esc((TYPY[c.typ] || '').toLowerCase())}${c.wlasne ? ', Twoje własne' : ''}</small></span>
+    <span><b>${esc(c.nazwa)}</b><small><span class="partia" style="--kolor:${kolor(c.obszar)}">${esc(OBSZARY[c.obszar]?.nazwa || '')}</span> ${esc((TYPY[c.typ] || '').toLowerCase())}, trudność ${fmtMnoznik(trudnosc(c.id, pobierz().wlasne).trud)}${c.wlasne ? ', Twoje własne' : ''}</small></span>
   </button></li>`;
 }
 
