@@ -41,6 +41,18 @@ function uzupelnij(s) {
     const teraz = (wynik.plany[k] || []).map((w) => w.cw).join();
     if (PLANY_STARE.some((st) => st[k] && st[k].join() === teraz)) wynik.plany[k] = structuredClone(PLANY_START[k]);
   }
+  // Jednorazowo (2026-11-26): wznosy na wyciągu w trwającym treningu zamieniamy
+  // na wznosy z mankietem jednorącz, jeśli nic z nich nie było jeszcze odhaczone.
+  wynik.migracje = wynik.migracje || [];
+  if (!wynik.migracje.includes('mankiet') && wynik.aktywny?.cwiczenia) {
+    for (const c of wynik.aktywny.cwiczenia) {
+      if (c.cw !== 'wznosy-wyciag' || c.serie.some((x) => x.ok)) continue;
+      c.cw = 'wznosy-mankiet';
+      const { kg, powt } = c.serie[0] || {};
+      c.serie = c.serie.flatMap(() => [{ kg, powt, ok: false, strona: 'L' }, { kg, powt, ok: false, strona: 'P' }]);
+    }
+  }
+  if (!wynik.migracje.includes('mankiet')) wynik.migracje.push('mankiet');
   return wynik;
 }
 

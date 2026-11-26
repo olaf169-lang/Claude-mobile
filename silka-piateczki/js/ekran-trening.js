@@ -42,11 +42,10 @@ function pokazKg(kg) {
 function noweSerie(cwId, zakres) {
   const c = cwiczenie(cwId);
   const pp = podpowiedz(pobierz().treningi, cwId, zakres, c?.typ);
-  return Array.from({ length: SERII }, () => ({
-    kg: pp ? pp.kg : (c?.typ === 'cialo' ? 0 : null),
-    powt: pp ? pp.powt : zakres[1],
-    ok: false,
-  }));
+  const baza = () => ({ kg: pp ? pp.kg : (c?.typ === 'cialo' ? 0 : null), powt: pp ? pp.powt : zakres[1], ok: false });
+  // Ćwiczenia jednorącz: każda seria to dwa wpisy, lewa i prawa.
+  if (c?.strony) return Array.from({ length: SERII }, () => [{ ...baza(), strona: 'L' }, { ...baza(), strona: 'P' }]).flat();
+  return Array.from({ length: SERII }, baza);
 }
 
 function pozycja(wpis) {
@@ -208,7 +207,7 @@ function kartaCwiczenia(akt, i) {
         <div>
           <span class="partia" style="--kolor:${kolor(c.obszar)}">${esc(OBSZARY[c.obszar]?.nazwa || 'Inne')}${c.cel ? `: ${esc(c.cel.toLowerCase())}` : ''}</span>
           <div class="cw-nazwa">${esc(c.nazwa)}</div>
-          <div class="cw-meta">${w.serie.length} × ${w.zakres[0]}-${w.zakres[1]}, trudność ${fmtMnoznik(trudnosc(w.cw, pobierz().wlasne).trud)}</div>
+          <div class="cw-meta">${w.serie[0]?.strona ? `${w.serie.length / 2} × ${w.zakres[0]}-${w.zakres[1]} na każdą rękę` : `${w.serie.length} × ${w.zakres[0]}-${w.zakres[1]}`}, trudność ${fmtMnoznik(trudnosc(w.cw, pobierz().wlasne).trud)}</div>
         </div>
       </button>
       <button class="menu-cw" type="button" data-menu="${i}" aria-label="Opcje: ${esc(c.nazwa)}">${IKONY.menu}</button>
@@ -217,7 +216,9 @@ function kartaCwiczenia(akt, i) {
       <div class="cw-ostatnio" style="margin:0 0 4px">${ostatnio}</div>
       ${w.serie.map((x, j) => `
       <div class="seria ${x.ok ? 'ok' : ''}" data-seria="${i}-${j}">
-        <span class="seria-nr" aria-label="Seria ${j + 1}">${j + 1}</span>
+        ${x.strona
+          ? `<span class="seria-nr seria-strona" aria-label="Seria ${Math.floor(j / 2) + 1}, ${x.strona === 'L' ? 'lewa' : 'prawa'} ręka">${Math.floor(j / 2) + 1}<small>${x.strona === 'L' ? 'lewa' : 'prawa'}</small></span>`
+          : `<span class="seria-nr" aria-label="Seria ${j + 1}">${j + 1}</span>`}
         <div class="krokomierz">
           <button type="button" data-krok="${i}|${j}|kg|-" aria-label="Mniej kilogramów">−</button>
           <label><input type="text" inputmode="decimal" autocomplete="off" enterkeyhint="done" data-pole="${i}-${j}-kg" value="${pokazKg(x.kg)}" placeholder="0" aria-label="Ciężar, seria ${j + 1}"><span>${kgEtykieta}</span></label>
@@ -399,7 +400,8 @@ async function odhacz(el, i, j) {
 
   // W superserii przerwa dopiero po drugim ćwiczeniu z pary.
   const wParze = w.para && akt.cwiczenia[i + 1]?.para === w.para;
-  if (wParze) toast('Teraz od razu drugie ćwiczenie z superserii');
+  if (seria.strona === 'L') toast('Teraz od razu prawa ręka');
+  else if (wParze) toast('Teraz od razu drugie ćwiczenie z superserii');
   else startOdpoczynku();
 
   if (rekord) {
@@ -419,7 +421,7 @@ function menuSesji(el, i) {
       <button class="btn" type="button" data-a="tech">Technika i wyniki</button>
       <button class="btn" type="button" data-a="zamien">Zamień ćwiczenie</button>
       <button class="btn" type="button" data-a="plus">Dodaj serię</button>
-      <button class="btn" type="button" data-a="minus" ${w.serie.length <= 1 ? 'disabled' : ''}>Usuń ostatnią serię</button>
+      <button class="btn" type="button" data-a="minus" ${w.serie.length <= (w.serie[0]?.strona ? 2 : 1) ? 'disabled' : ''}>Usuń ostatnią serię</button>
       <button class="btn btn-zagrozenie" type="button" data-a="usun">Pomiń dziś to ćwiczenie</button>
     </div>`);
   a.el.addEventListener('click', (e) => {
@@ -452,11 +454,16 @@ function menuSesji(el, i) {
       zmien((s) => {
         const l = s.aktywny.cwiczenia[i].serie;
         const ost = l[l.length - 1];
-        l.push({ kg: ost?.kg ?? null, powt: ost?.powt ?? w.zakres[1], ok: false });
+        const nowa = { kg: ost?.kg ?? null, powt: ost?.powt ?? w.zakres[1], ok: false };
+        if (ost?.strona) l.push({ ...nowa, strona: 'L' }, { ...nowa, strona: 'P' });
+        else l.push(nowa);
       });
       rysujSesje(el);
     }
-    if (akcja === 'minus') { zmien((s) => { s.aktywny.cwiczenia[i].serie.pop(); }); rysujSesje(el); }
+    if (akcja === 'minus') {
+      zmien((s) => { const l = s.aktywny.cwiczenia[i].serie; l.splice(l[l.length - 1]?.strona ? -2 : -1); });
+      rysujSesje(el);
+    }
     if (akcja === 'usun') { zmien((s) => { s.aktywny.cwiczenia.splice(i, 1); }); rysujSesje(el); }
   });
 }
