@@ -254,6 +254,11 @@ h3 { font-size: 20px; font-weight: 700; }
   font-family: var(--naglowek); font-weight: 800; font-size: 25px; font-variant-numeric: tabular-nums; letter-spacing: -.01em;
   -moz-appearance: textfield;
 }
+/* Przy wpisywaniu − i + chowają się, a cała szerokość idzie na liczbę. */
+.krokomierz:has(input:focus) { grid-template-columns: 0 minmax(0, 1fr) 0; background: var(--grafit-3); box-shadow: inset 0 0 0 2px var(--t-zolta); }
+.krokomierz:has(input:focus) button { visibility: hidden; }
+.krokomierz input:focus { outline: none; }
+.krokomierz:has(input:focus) input { font-size: 28px; }
 .krokomierz input::-webkit-outer-spin-button, .krokomierz input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
 .krokomierz span { font-size: 11.5px; color: var(--popiol); font-weight: 600; margin-top: 1px; }
 .odhacz {

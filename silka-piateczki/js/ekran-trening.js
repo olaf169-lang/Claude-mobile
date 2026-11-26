@@ -33,6 +33,12 @@ document.addEventListener('visibilitychange', () => {
   if (document.visibilityState === 'visible' && pobierz().aktywny) trzymajEkran(true);
 });
 
+// Ciężar po polsku, z przecinkiem. Pole jest tekstowe, bo pole liczbowe
+// w Chrome na Androidzie potrafi odrzucić przecinek z polskiej klawiatury.
+function pokazKg(kg) {
+  return kg === null || kg === undefined || kg === '' ? '' : String(kg).replace('.', ',');
+}
+
 function noweSerie(cwId, zakres) {
   const c = cwiczenie(cwId);
   const pp = podpowiedz(pobierz().treningi, cwId, zakres, c?.typ);
@@ -214,12 +220,12 @@ function kartaCwiczenia(akt, i) {
         <span class="seria-nr" aria-label="Seria ${j + 1}">${j + 1}</span>
         <div class="krokomierz">
           <button type="button" data-krok="${i}|${j}|kg|-" aria-label="Mniej kilogramów">−</button>
-          <label><input type="number" inputmode="decimal" step="0.5" data-pole="${i}-${j}-kg" value="${x.kg ?? ''}" placeholder="0" aria-label="Ciężar, seria ${j + 1}"><span>${kgEtykieta}</span></label>
+          <label><input type="text" inputmode="decimal" autocomplete="off" enterkeyhint="done" data-pole="${i}-${j}-kg" value="${pokazKg(x.kg)}" placeholder="0" aria-label="Ciężar, seria ${j + 1}"><span>${kgEtykieta}</span></label>
           <button type="button" data-krok="${i}|${j}|kg|+" aria-label="Więcej kilogramów">+</button>
         </div>
         <div class="krokomierz">
           <button type="button" data-krok="${i}|${j}|powt|-" aria-label="Mniej powtórzeń">−</button>
-          <label><input type="number" inputmode="numeric" step="1" data-pole="${i}-${j}-powt" value="${x.powt ?? ''}" placeholder="0" aria-label="Powtórzenia, seria ${j + 1}"><span>${jedn}</span></label>
+          <label><input type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off" enterkeyhint="done" data-pole="${i}-${j}-powt" value="${x.powt ?? ''}" placeholder="0" aria-label="Powtórzenia, seria ${j + 1}"><span>${jedn}</span></label>
           <button type="button" data-krok="${i}|${j}|powt|+" aria-label="Więcej powtórzeń">+</button>
         </div>
         <button class="odhacz" type="button" data-odhacz="${i}-${j}" aria-pressed="${x.ok}" aria-label="Seria ${j + 1} zrobiona">${IKONY.ok}</button>
@@ -264,11 +270,14 @@ function rysujSesje(el) {
   }, 20000);
 
   el.onclick = (e) => obsluzKlik(el, e);
+  // Dotknięcie pola zaznacza całą liczbę, więc nowa wpisuje się od razu w jej miejsce.
+  el.onfocusin = (e) => { if (e.target.dataset?.pole) setTimeout(() => e.target.select(), 0); };
   el.onchange = (e) => {
     const p = e.target.dataset.pole;
     if (!p) return;
     const [i, j, pole] = p.split('-');
-    const v = e.target.value === '' ? null : Number(String(e.target.value).replace(',', '.'));
+    const surowe = String(e.target.value).trim().replace(',', '.').replace(/[^0-9.+-]/g, '');
+    const v = surowe === '' ? null : Number(surowe);
     const wartosc = Number.isFinite(v) ? v : null;
     zmien((s) => {
       const serie = s.aktywny.cwiczenia[i].serie;
@@ -278,7 +287,7 @@ function rysujSesje(el) {
           if (x.ok) return;
           x[pole] = wartosc;
           const inp = el.querySelector(`[data-pole="${i}-${k + 1}-${pole}"]`);
-          if (inp) inp.value = wartosc ?? '';
+          if (inp) inp.value = pole === 'kg' ? pokazKg(wartosc) : (wartosc ?? '');
         });
       }
     });
@@ -312,7 +321,7 @@ function obsluzKlik(el, e) {
     zapisz();
     akt.cwiczenia[i].serie.forEach((x, k) => {
       const inp = el.querySelector(`[data-pole="${i}-${k}-${pole}"]`);
-      if (inp) inp.value = x[pole] ?? '';
+      if (inp) inp.value = pole === 'kg' ? pokazKg(x[pole]) : (x[pole] ?? '');
     });
     return;
   }

@@ -21,6 +21,7 @@ function pokaz() {
   const nazwa = EKRANY[trasa] ? trasa : 'start';
   ekran.onclick = null;
   ekran.onchange = null;
+  ekran.onfocusin = null;
   document.querySelectorAll('.zaslona, .arkusz').forEach((x) => x.remove());
   EKRANY[nazwa](ekran);
   document.querySelectorAll('.nawigacja a').forEach((a) => {
