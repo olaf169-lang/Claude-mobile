@@ -48,6 +48,7 @@ frameworka, jak reszta aplikacji w tym monorepo. Opis funkcji: `README.md`.
   przed izolacjami, pchanie na zmianę z ciąganiem. Sprawdzarka pilnuje tej kolejności.
 - Hip thrust usunięty z planu A (2026-11-26): na siłowni użytkownika nie ma maszyny, a sztangi
   na biodrach nie chce. W obu planach są wyprosty na ławce rzymskiej. Nie wracaj do hip thrustu.
+- Wznosy bokiem: użytkownik woli wyciąg w bramie niż hantle (2026-11-26), w obu planach `wznosy-wyciag`.
 - Zmieniając plany startowe, dopisz poprzednią wersję do `PLANY_STARE`, żeby nietknięte
   plany w telefonie podmieniły się same.
 
