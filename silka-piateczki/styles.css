@@ -242,6 +242,10 @@ h3 { font-size: 20px; font-weight: 700; }
   display: grid; grid-template-columns: 16px minmax(0, 1.45fr) minmax(0, 1fr) 48px; gap: 6px; align-items: center;
 }
 .seria-nr { font-family: var(--naglowek); font-weight: 700; color: var(--popiol); font-size: 17px; text-align: center; }
+.seria:has(.seria-strona) { grid-template-columns: 30px minmax(0, 1.45fr) minmax(0, 1fr) 48px; }
+.seria-strona { display: grid; line-height: 1; }
+.seria-strona small { font-family: var(--tekst); font-size: 10.5px; font-weight: 600; margin-top: 2px; }
+.seria:has(.seria-strona small) + .seria:has(.seria-strona) { margin-top: -2px; }
 .krokomierz {
   display: grid; grid-template-columns: 30px minmax(0, 1fr) 30px; align-items: center;
   background: var(--grafit-2); border-radius: 12px; height: 52px; overflow: hidden;

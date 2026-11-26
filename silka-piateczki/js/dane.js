@@ -124,15 +124,21 @@ export const CWICZENIA = [
     'Łokcie lekko ugięte, prowadzisz łokciami, nie dłońmi.',
     'Unoś do wysokości barków, bez bujania tułowiem.',
     'Opuszczaj powoli, 2 do 3 sekund. Lepiej lżej i czysto.',
-  ], ['wznosy-wyciag', 'wznosy-siedzac'], { cel: 'Szerokie barki' }),
+  ], ['wznosy-mankiet', 'wznosy-wyciag', 'wznosy-siedzac'], { cel: 'Szerokie barki' }),
   C('wznosy-siedzac', 'Unoszenie hantli bokiem siedząc', 'barki', 'hantle', 'Seated_Side_Lateral_Raise', [
     'Siedząc trudniej oszukać bujaniem, więc bark pracuje sam.',
-  ], ['wznosy', 'wznosy-wyciag']),
+  ], ['wznosy-mankiet', 'wznosy', 'wznosy-wyciag']),
   C('wznosy-wyciag', 'Unoszenie ramienia bokiem na wyciągu (brama)', 'barki', 'wyciag', 'Cable_Seated_Lateral_Raise', [
     'Brama, linka z dolnego bloczka. Stań bokiem, ćwiczysz jedną ręką, linka przechodzi przed ciałem.',
     'Łokieć lekko ugięty, unoś do wysokości barku, opuszczaj powoli. Ciężar wpisujesz na jedną rękę, obie robią tyle samo.',
     'Linka ciągnie też na dole ruchu, czego hantel nie daje.',
-  ], ['wznosy', 'wznosy-siedzac'], { cel: 'Szerokie barki' }),
+  ], ['wznosy-mankiet', 'wznosy', 'wznosy-siedzac'], { cel: 'Szerokie barki' }),
+  C('wznosy-mankiet', 'Unoszenie bokiem stojąc, z mankietem (brama)', 'barki', 'wyciag', 'Standing_Low-Pulley_Deltoid_Raise', [
+    'Brama, dolny bloczek, mankiet na nadgarstek (ten sam co na kostkę). Stań bokiem, ręka z mankietem dalej od wyciągu, linka przechodzi przed ciałem.',
+    'Drugą ręką trzymaj się bramy. Łokieć lekko ugięty, unoś bokiem do wysokości barku, opuszczaj 2 do 3 sekund.',
+    'Mankiet zamiast uchwytu: nie ściskasz dłoni, więc pracuje sam bark, nie przedramię.',
+    'Każda seria osobno na lewą i prawą rękę. Po lewej od razu prawa, potem przerwa.',
+  ], ['wznosy-wyciag', 'wznosy', 'wznosy-siedzac'], { cel: 'Szerokie barki', strony: true }),
   C('wyc-barki', 'Wyciskanie hantli nad głowę siedząc', 'barki', 'hantle', 'Seated_Dumbbell_Press', [
     'Oparcie prawie pionowo, plecy przyklejone.',
     'Hantle od wysokości uszu do góry, bez blokowania łokci na sztywno.',
@@ -302,7 +308,7 @@ export const PLANY_START = {
     { cw: 'wioslo-hantel', zakres: [8, 12] },
     { cw: 'wyprosty', zakres: [10, 15] },
     { cw: 'uginanie-lezac', zakres: [8, 12] },
-    { cw: 'wznosy-wyciag', zakres: [12, 15] },
+    { cw: 'wznosy-mankiet', zakres: [12, 15] },
     { cw: 'uginanie-skos', zakres: [8, 12], para: 'r' },
     { cw: 'triceps-glowa', zakres: [10, 12], para: 'r' },
     { cw: 'reverse-crunch', zakres: [10, 15] },
@@ -315,7 +321,7 @@ export const PLANY_START = {
     { cw: 'wyprosty', zakres: [10, 15] },
     { cw: 'uginanie-siedzac', zakres: [8, 12] },
     { cw: 'wyc-barki', zakres: [8, 12] },
-    { cw: 'wznosy-wyciag', zakres: [12, 15] },
+    { cw: 'wznosy-mankiet', zakres: [12, 15] },
     { cw: 'odwrotne-maszyna', zakres: [12, 15] },
     { cw: 'mlotkowe', zakres: [8, 12], para: 'r' },
     { cw: 'triceps-lina', zakres: [10, 12], para: 'r' },
@@ -326,6 +332,10 @@ export const PLANY_START = {
 // Poprzednie wersje planów startowych. Jeśli użytkownik ich nie zmieniał,
 // apka po aktualizacji podmienia je na nowe (magazyn.js). Zmienionych nie rusza.
 export const PLANY_STARE = [
+  {
+    A: ['wyc-hantle', 'sciaganie-szeroko', 'dipy', 'wioslo-hantel', 'wyprosty', 'uginanie-lezac', 'wznosy-wyciag', 'uginanie-skos', 'triceps-glowa', 'reverse-crunch'],
+    B: ['wyc-decline', 'podciaganie', 'pec-deck', 'wioslo-wyciag', 'wyprosty', 'uginanie-siedzac', 'wyc-barki', 'wznosy-wyciag', 'odwrotne-maszyna', 'mlotkowe', 'triceps-lina', 'dead-bug'],
+  },
   {
     A: ['wyc-hantle', 'sciaganie-szeroko', 'dipy', 'wioslo-hantel', 'wyprosty', 'uginanie-lezac', 'wznosy', 'uginanie-skos', 'triceps-glowa', 'reverse-crunch'],
   },
@@ -406,7 +416,7 @@ export const TRUDNOSC = {
   'sciaganie-szeroko': { trud: 1 }, podciaganie: { trud: 1.2, udzial: 0.95 }, 'sciaganie-waskie': { trud: 1 },
   'sciaganie-jednoracz': { trud: 2 }, 'proste-rece': { trud: 1.3 }, 'wioslo-hantel': { trud: 2 },
   'wioslo-skos': { trud: 2 }, 'wioslo-wyciag': { trud: 1 }, 'wioslo-maszyna': { trud: 1 }, 'high-row': { trud: 1 },
-  wznosy: { trud: 4 }, 'wznosy-siedzac': { trud: 4 }, 'wznosy-wyciag': { trud: 4 }, 'wyc-barki': { trud: 2.2 },
+  wznosy: { trud: 4 }, 'wznosy-siedzac': { trud: 4 }, 'wznosy-wyciag': { trud: 4 }, 'wznosy-mankiet': { trud: 2 }, 'wyc-barki': { trud: 2.2 },
   'wyc-barki-maszyna': { trud: 1.2 }, arnold: { trud: 2.4 }, 'odwrotne-maszyna': { trud: 1.8 },
   'face-pull': { trud: 1.5 }, 'odwrotne-hantle': { trud: 4 }, 'tyl-linki': { trud: 3 },
   'hip-thrust': { trud: 0.7 }, mostek: { trud: 0.7 }, 'mostek-jednonoz': { trud: 2, udzial: 0.5 },
