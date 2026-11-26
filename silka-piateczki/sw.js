@@ -4,7 +4,7 @@
    Zdjęcia i czcionki: najpierw półka, bo się nie zmieniają.
    Po każdej zmianie plików podbij POLKA. */
 
-const POLKA = 'silka-v8';
+const POLKA = 'silka-v9';
 const SZKIELET = [
   './', './index.html', './styles.css', './manifest.webmanifest',
   './js/app.js', './js/dane.js', './js/logika.js', './js/magazyn.js', './js/ui.js',
@@ -180,8 +180,10 @@ self.addEventListener('fetch', (e) => {
     })));
     return;
   }
+  // no-cache: GitHub Pages każe przeglądarce trzymać pliki 10 minut, a bez
+  // tego poprawka docierała do telefonu z opóźnieniem.
   e.respondWith(
-    fetch(e.request)
+    fetch(e.request.url, { cache: 'no-cache', credentials: 'same-origin' })
       .then((odp) => {
         const kopia = odp.clone();
         caches.open(POLKA).then((c) => c.put(e.request, kopia)).catch(() => {});
