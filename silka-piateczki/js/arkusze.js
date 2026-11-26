@@ -5,9 +5,25 @@ import { OBSZARY } from './dane.js';
 import { cwiczenie, wszystkieCwiczenia, dodajWlasne, pobierz } from './magazyn.js';
 import { arkusz, esc, ruch, kolor, IKONY, toast } from './ui.js';
 import { punktyCwiczenia, duzy } from './wykres.js';
+import { TECHNIKA, ZASADY_SERII } from './technika.js';
 import { fmtKg, e1rm, serieCwiczenia, trudnosc, fmtMnoznik } from './logika.js';
 
 const TYPY = { hantle: 'Hantle', maszyna: 'Maszyna', wyciag: 'Wyciąg', cialo: 'Masa ciała' };
+
+function opisTechniki(c) {
+  const t = TECHNIKA[c.id];
+  if (!c.rady?.length && !t) return `<p class="cichy">Ćwiczenie dodane przez Ciebie, bez opisu techniki.</p>${zasadySerii()}`;
+  return `
+    ${t?.ustawienie ? `<h3 class="tech-tytul">Ustawienie</h3><p class="tech-tekst">${esc(t.ustawienie)}</p>` : ''}
+    ${c.rady?.length ? `<h3 class="tech-tytul">Technika</h3><ul class="rady">${c.rady.map((r) => `<li>${esc(r)}</li>`).join('')}</ul>` : ''}
+    ${t?.blad ? `<h3 class="tech-tytul">Najczęstszy błąd</h3><p class="tech-tekst tech-blad">${esc(t.blad)}</p>` : ''}
+    ${t?.pro?.length ? `<h3 class="tech-tytul">Dla zaawansowanych</h3><ul class="rady">${t.pro.map((r) => `<li>${esc(r)}</li>`).join('')}</ul>` : ''}
+    ${zasadySerii()}`;
+}
+
+function zasadySerii() {
+  return `<details class="tech-zasady"><summary>Jak robić serie</summary><ul class="rady">${ZASADY_SERII.map((r) => `<li>${esc(r)}</li>`).join('')}</ul></details>`;
+}
 
 function opisTrudnosci(cwId) {
   const t = trudnosc(cwId, pobierz().wlasne);
@@ -41,7 +57,7 @@ export function szczegoly(cwId, { akcje = '' } = {}) {
       <button class="btn btn-ikona" type="button" data-zamknij aria-label="Zamknij">${IKONY.zamknij}</button>
     </div>
     ${ruch(c.img, { duzy: true, obszar: c.obszar, nazwa: c.nazwa, id: c.id })}
-    ${c.rady?.length ? `<ul class="rady">${c.rady.map((r) => `<li>${esc(r)}</li>`).join('')}</ul>` : '<p class="cichy">Ćwiczenie dodane przez Ciebie, bez opisu techniki.</p>'}
+    ${opisTechniki(c)}
     ${akcje}
     <section class="sekcja">
       <h3>Twoje wyniki</h3>

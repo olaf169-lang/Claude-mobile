@@ -4,11 +4,11 @@
    Zdjęcia i czcionki: najpierw półka, bo się nie zmieniają.
    Po każdej zmianie plików podbij POLKA. */
 
-const POLKA = 'silka-v12';
+const POLKA = 'silka-v13';
 const SZKIELET = [
   './', './index.html', './styles.css', './manifest.webmanifest',
   './js/app.js', './js/dane.js', './js/logika.js', './js/magazyn.js', './js/ui.js',
-  './js/koks.js', './js/swieto.js', './js/wykres.js', './js/arkusze.js', './js/odpoczynek.js',
+  './js/koks.js', './js/swieto.js', './js/wykres.js', './js/arkusze.js', './js/technika.js', './js/odpoczynek.js',
   './js/przypomnienia.js', './js/ekran-start.js', './js/ekran-trening.js', './js/ekran-rozciaganie.js', './js/ekran-postepy.js',
   './fonts/barlow-400.woff', './fonts/barlow-600.woff',
   './fonts/barlow-condensed-700.woff', './fonts/barlow-condensed-800.woff',

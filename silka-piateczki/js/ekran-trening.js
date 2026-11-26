@@ -12,6 +12,7 @@ import { szczegoly, wyborCwiczenia } from './arkusze.js';
 import { startOdpoczynku, stopOdpoczynku } from './odpoczynek.js';
 import { swietujRekord, swietujTrening } from './swieto.js';
 import { zglosTrening } from './przypomnienia.js';
+import { TECHNIKA } from './technika.js';
 
 let widokPlanu = null;
 let blokada = null;
@@ -208,6 +209,7 @@ function kartaCwiczenia(akt, i) {
           <span class="partia" style="--kolor:${kolor(c.obszar)}">${esc(OBSZARY[c.obszar]?.nazwa || 'Inne')}${c.cel ? `: ${esc(c.cel.toLowerCase())}` : ''}</span>
           <div class="cw-nazwa">${esc(c.nazwa)}</div>
           <div class="cw-meta">${w.serie[0]?.strona ? `${w.serie.length / 2} × ${w.zakres[0]}-${w.zakres[1]} na każdą rękę` : `${w.serie.length} × ${w.zakres[0]}-${w.zakres[1]}`}, trudność ${fmtMnoznik(trudnosc(w.cw, pobierz().wlasne).trud)}</div>
+          ${TECHNIKA[w.cw]?.ustawienie ? `<div class="cw-ustawienie">${esc(TECHNIKA[w.cw].ustawienie)}</div>` : ''}
         </div>
       </button>
       <button class="menu-cw" type="button" data-menu="${i}" aria-label="Opcje: ${esc(c.nazwa)}">${IKONY.menu}</button>

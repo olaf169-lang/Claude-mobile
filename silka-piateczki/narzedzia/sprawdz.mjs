@@ -9,6 +9,7 @@ import { join, extname } from 'node:path';
 import assert from 'node:assert/strict';
 
 import { CWICZENIA, PLANY_START, ROZCIAGANIE, POZIOMY, ODZNAKI, TRUDNOSC } from '../js/dane.js';
+import { TECHNIKA } from '../js/technika.js';
 import {
   sprawdzRekord, podpowiedz, serie, poziom, policzXp, wTerminie, rozciaganieWTygodniu, praca, xpLaczne,
 } from '../js/logika.js';
@@ -45,6 +46,14 @@ test('ćwiczenia: unikalne id, istniejące zamienniki i zdjęcia', () => {
   }
   for (const p of ['A', 'B']) for (const w of PLANY_START[p]) assert(ids.has(w.cw), `plan ${p}: nieznane ${w.cw}`);
   for (const r of ROZCIAGANIE) if (r.img) assert(existsSync(`img/cw/${r.img}-0.webp`), `rozciąganie ${r.id}: brak zdjęcia`);
+});
+
+test('każde ćwiczenie ma ustawienie, błąd i wskazówki pro', () => {
+  for (const c of CWICZENIA) {
+    const t = TECHNIKA[c.id];
+    assert(t && t.ustawienie && t.blad && t.pro?.length >= 2, `brak pełnego opisu techniki dla ${c.id}`);
+  }
+  for (const id of Object.keys(TECHNIKA)) assert(CWICZENIA.some((c) => c.id === id), `opis techniki dla nieznanego ćwiczenia ${id}`);
 });
 
 test('lista zdjęć zgodna z danymi i z sw.js', () => {
