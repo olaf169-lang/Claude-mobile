@@ -76,7 +76,7 @@ export function szczegoly(cwId, { akcje = '' } = {}) {
 
 function elementListy(c, wybrane = false) {
   return `<li><button type="button" data-wybierz="${esc(c.id)}" aria-pressed="${wybrane}">
-    ${ruch(c.img, { obszar: c.obszar, nazwa: c.nazwa })}
+    ${ruch(c.img, { obszar: c.obszar, nazwa: c.nazwa, id: c.id })}
     <span><b>${esc(c.nazwa)}</b><small><span class="partia" style="--kolor:${kolor(c.obszar)}">${esc(OBSZARY[c.obszar]?.nazwa || '')}</span> ${esc((TYPY[c.typ] || '').toLowerCase())}, trudność ${fmtMnoznik(trudnosc(c.id, pobierz().wlasne).trud)}${c.wlasne ? ', Twoje własne' : ''}</small></span>
   </button></li>`;
 }

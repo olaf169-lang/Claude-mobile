@@ -42,11 +42,11 @@ export const CWICZENIA = [
     'Tułów pochylony do przodu, łokcie lekko na boki.',
     'Schodź do kąta prostego w łokciach, nie niżej, jeśli czujesz bark.',
     'Za ciężko? Maszyna z odciążeniem. Za lekko? Pas z obciążeniem.',
-  ], ['wyc-decline', 'wyc-maszyna-decline', 'linki-krzyz'], { cel: 'Dół klatki' }),
+  ], ['wyc-decline', 'wyc-maszyna-decline', 'linki-krzyz', 'rozpietki-pochylenie'], { cel: 'Dół klatki' }),
   C('wyc-decline', 'Wyciskanie hantli na ławce głową w dół', 'klatka', 'hantle', 'Decline_Dumbbell_Bench_Press', [
     'Ławka ustawiona lekko w dół, nogi zablokowane pod wałkami.',
     'Opuszczaj hantle do dolnej części klatki, wypychaj w górę i lekko do siebie.',
-  ], ['wyc-maszyna-decline', 'smith-decline', 'dipy'], { cel: 'Dół klatki' }),
+  ], ['wyc-maszyna-decline', 'smith-decline', 'dipy', 'rozpietki-pochylenie'], { cel: 'Dół klatki' }),
   C('wyc-maszyna-decline', 'Wyciskanie na maszynie w dół', 'klatka', 'maszyna', 'Leverage_Decline_Chest_Press', [
     'Pchasz uchwyty w dół i do przodu, w stronę bioder.',
     'Łopatki cały czas dociśnięte do oparcia.',
@@ -59,16 +59,21 @@ export const CWICZENIA = [
     'Łokcie lekko ugięte, klatka wypięta, łopatki ściągnięte.',
     'Na końcu ruchu zatrzymaj ręce złączone przed sobą na 1 do 2 sekund i ściśnij.',
     'Wracaj powoli, aż poczujesz rozciągnięcie.',
-  ], ['linki-krzyz', 'rozpietki-hantle', 'linki-lawka'], { cel: 'Środek klatki' }),
+  ], ['linki-krzyz', 'rozpietki-hantle', 'linki-lawka', 'rozpietki-pochylenie'], { cel: 'Środek klatki' }),
   C('linki-krzyz', 'Krzyżowanie linek wyciągu', 'klatka', 'wyciag', 'Cable_Crossover', [
     'Krok do przodu, lekki skłon, łokcie minimalnie ugięte.',
     'Prowadź linki z góry w dół, aż dłonie skrzyżują się przed biodrami. To pracuje dół i środek klatki.',
     'Na końcu ściśnij na sekundę.',
-  ], ['pec-deck', 'rozpietki-hantle']),
+  ], ['pec-deck', 'rozpietki-hantle', 'rozpietki-pochylenie']),
   C('rozpietki-hantle', 'Rozpiętki z hantlami na ławce płaskiej', 'klatka', 'hantle', 'Dumbbell_Flyes', [
     'Łokcie lekko ugięte i zablokowane w tym kącie przez cały ruch.',
     'Opuszczaj szeroko do rozciągnięcia, na górze zbliż hantle.',
   ], ['pec-deck', 'linki-lawka']),
+  C('rozpietki-pochylenie', 'Rozpiętki w pochyleniu stojąc (hantle)', 'klatka', 'hantle', null, [
+    'Lekki rozkrok, kolana miękko, tułów pochylony do przodu o 30 do 45°, plecy proste.',
+    'Ręce prawie proste zwisają pod klatką. Rozkładaj je szerokim łukiem na boki, potem zbliż hantle do siebie przed biodrami i ściśnij dół klatki.',
+    'Lekkie hantle. Liczy się ściśnięcie na dole ruchu, nie kilogramy.',
+  ], ['linki-krzyz', 'pec-deck', 'rozpietki-hantle'], { cel: 'Dół i środek klatki' }),
   C('linki-lawka', 'Rozpiętki z linkami na ławce', 'klatka', 'wyciag', 'Flat_Bench_Cable_Flyes', [
     'Ławka między wyciągami, linki z dolnych bloczków.',
     'Linka ciągnie cały czas, więc klatka pracuje także na górze ruchu.',
@@ -412,7 +417,7 @@ export const TRUDNOSC = {
   'wyc-hantle': { trud: 2 }, 'wyc-hantle-neutral': { trud: 2 }, 'wyc-maszyna': { trud: 1 },
   pompki: { trud: 1, udzial: 0.65 }, dipy: { trud: 1, udzial: 0.9 }, 'wyc-decline': { trud: 2 },
   'wyc-maszyna-decline': { trud: 1 }, 'smith-decline': { trud: 1 }, 'pec-deck': { trud: 1.3 },
-  'linki-krzyz': { trud: 2 }, 'rozpietki-hantle': { trud: 2.5 }, 'linki-lawka': { trud: 2 },
+  'linki-krzyz': { trud: 2 }, 'rozpietki-hantle': { trud: 2.5 }, 'rozpietki-pochylenie': { trud: 2.5 }, 'linki-lawka': { trud: 2 },
   'sciaganie-szeroko': { trud: 1 }, podciaganie: { trud: 1.2, udzial: 0.95 }, 'sciaganie-waskie': { trud: 1 },
   'sciaganie-jednoracz': { trud: 2 }, 'proste-rece': { trud: 1.3 }, 'wioslo-hantel': { trud: 2 },
   'wioslo-skos': { trud: 2 }, 'wioslo-wyciag': { trud: 1 }, 'wioslo-maszyna': { trud: 1 }, 'high-row': { trud: 1 },

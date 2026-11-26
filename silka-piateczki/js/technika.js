@@ -60,6 +60,11 @@ export const TECHNIKA = {
     blad: 'Za ciężkie hantle i zbyt głębokie zejście, które przeciąża bark.',
     pro: ['Schodź tylko do linii barków. Ruch tylko w barku, kąt w łokciu stały.', 'Najwięcej daje dolna część ruchu. Górę możesz skrócić, bo tam hantel prawie nie obciąża mięśnia.'],
   },
+  'rozpietki-pochylenie': {
+    ustawienie: 'Stojąc, stopy na szerokość bioder, kolana lekko ugięte. Tułów pochylony o 30 do 45°, łokcie lekko ugięte i zablokowane w tym kącie.',
+    blad: 'Za ciężkie hantle i machanie z rozpędu. Pracują wtedy barki, a klatka prawie wcale.',
+    pro: ['Na dole zatrzymaj hantle przed biodrami na 1 do 2 s i dociśnij je do siebie, jakbyś chciał je zgnieść.', 'Hantel obciąża klatkę głównie w dolnej części ruchu. Ten sam ruch na linkach (krzyżowanie z góry w dół) trzyma napięcie cały czas, więc gdy brama jest wolna, wybierz linki.'],
+  },
   'linki-lawka': {
     ustawienie: 'Ławka płaska w środku bramy, bloczki na dole. Łokcie lekko ugięte, dłonie nad klatką.',
     blad: 'Ławka ustawiona za blisko jednej strony i nierówne ciągnięcie linek.',
