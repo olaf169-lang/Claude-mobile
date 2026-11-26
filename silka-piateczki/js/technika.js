@@ -144,6 +144,11 @@ export const TECHNIKA = {
     blad: 'Za ciężki stos i wyrzucanie ręki tułowiem. Lepiej lżej i czysto.',
     pro: ['Przechyl się lekko od bramy, około 10 do 15°. Bark jest wtedy rozciągnięty na starcie i pracuje w pełnym zakresie.', 'Unoś do wysokości barku, wyżej pracują już kaptury. Na górze zatrzymaj się na sekundę.'],
   },
+  'wznosy-przod': {
+    ustawienie: 'Stojąc, stopy na szerokość bioder, kolana miękko. Hantle przed udami, chwyt nachwytem albo młotkowy, łokcie minimalnie ugięte.',
+    blad: 'Wyrzucanie hantli z bioder i odchylanie się do tyłu. Ruch robi wtedy rozpęd, nie bark.',
+    pro: ['Unoś na zmianę jedną i drugą ręką, wtedy łatwiej trzymać tułów nieruchomo. Wyżej niż do linii oczu nie ma potrzeby.', 'Przód barku mocno pracuje już przy każdym wyciskaniu, więc wystarczą 2 lżejsze serie po 10 do 15 powtórzeń na końcu treningu.'],
+  },
   'wyc-barki': {
     ustawienie: 'Ławka skośna 75 do 85°, prawie pionowo. Hantle startują na wysokości uszu, łokcie trochę przed tułowiem.',
     blad: 'Mocne wygięcie lędźwi, które zamienia ćwiczenie w wyciskanie skośne.',

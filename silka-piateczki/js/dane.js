@@ -144,6 +144,11 @@ export const CWICZENIA = [
     'Mankiet zamiast uchwytu: nie ściskasz dłoni, więc pracuje sam bark, nie przedramię.',
     'Każda seria osobno na lewą i prawą rękę. Po lewej od razu prawa, potem przerwa.',
   ], ['wznosy-wyciag', 'wznosy', 'wznosy-siedzac'], { cel: 'Szerokie barki', strony: true }),
+  C('wznosy-przod', 'Unoszenie hantli w przód (wymachy do przodu)', 'barki', 'hantle', 'Front_Two-Dumbbell_Raise', [
+    'Stojąc, tułów lekko pochylony do przodu, hantle przy udach, ręce prawie proste.',
+    'Unoś hantle przed sobą do wysokości barków albo oczu, bez bujania tułowiem.',
+    'Opuszczaj powoli, 2 do 3 s. Pracuje głównie przód barku i trochę górna część klatki.',
+  ], ['wyc-barki', 'wznosy-mankiet', 'arnold'], { cel: 'Przód barków' }),
   C('wyc-barki', 'Wyciskanie hantli nad głowę siedząc', 'barki', 'hantle', 'Seated_Dumbbell_Press', [
     'Oparcie prawie pionowo, plecy przyklejone.',
     'Hantle od wysokości uszu do góry, bez blokowania łokci na sztywno.',
@@ -421,7 +426,7 @@ export const TRUDNOSC = {
   'sciaganie-szeroko': { trud: 1 }, podciaganie: { trud: 1.2, udzial: 0.95 }, 'sciaganie-waskie': { trud: 1 },
   'sciaganie-jednoracz': { trud: 2 }, 'proste-rece': { trud: 1.3 }, 'wioslo-hantel': { trud: 2 },
   'wioslo-skos': { trud: 2 }, 'wioslo-wyciag': { trud: 1 }, 'wioslo-maszyna': { trud: 1 }, 'high-row': { trud: 1 },
-  wznosy: { trud: 4 }, 'wznosy-siedzac': { trud: 4 }, 'wznosy-wyciag': { trud: 4 }, 'wznosy-mankiet': { trud: 2 }, 'wyc-barki': { trud: 2.2 },
+  wznosy: { trud: 4 }, 'wznosy-siedzac': { trud: 4 }, 'wznosy-wyciag': { trud: 4 }, 'wznosy-mankiet': { trud: 2 }, 'wznosy-przod': { trud: 3 }, 'wyc-barki': { trud: 2.2 },
   'wyc-barki-maszyna': { trud: 1.2 }, arnold: { trud: 2.4 }, 'odwrotne-maszyna': { trud: 1.8 },
   'face-pull': { trud: 1.5 }, 'odwrotne-hantle': { trud: 4 }, 'tyl-linki': { trud: 3 },
   'hip-thrust': { trud: 0.7 }, mostek: { trud: 0.7 }, 'mostek-jednonoz': { trud: 2, udzial: 0.5 },

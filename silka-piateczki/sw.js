@@ -4,7 +4,7 @@
    Zdjęcia i czcionki: najpierw półka, bo się nie zmieniają.
    Po każdej zmianie plików podbij POLKA. */
 
-const POLKA = 'silka-v14';
+const POLKA = 'silka-v15';
 const SZKIELET = [
   './', './index.html', './styles.css', './manifest.webmanifest',
   './js/app.js', './js/dane.js', './js/logika.js', './js/magazyn.js', './js/ui.js',
@@ -16,6 +16,8 @@ const SZKIELET = [
 ];
 // Lista zgodna z narzedzia/zdjecia.txt (pilnuje tego narzedzia/sprawdz.mjs).
 const ZDJECIA = [
+  './img/cw/Front_Two-Dumbbell_Raise-0.webp',
+  './img/cw/Front_Two-Dumbbell_Raise-1.webp',
   './img/cw/Standing_Low-Pulley_Deltoid_Raise-0.webp',
   './img/cw/Standing_Low-Pulley_Deltoid_Raise-1.webp',
   './img/cw/Dumbbell_Bench_Press-0.webp',
