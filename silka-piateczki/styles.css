@@ -222,7 +222,7 @@ h3 { font-size: 20px; font-weight: 700; }
 .cw-meta { font-size: 14px; color: var(--popiol); margin-top: 3px; }
 .cw-ostatnio { font-size: 14px; margin-top: 6px; }
 .cw-ostatnio .w-gore { color: var(--t-zolta); font-weight: 600; }
-.cw-serie { display: grid; gap: 6px; padding: 4px 12px 12px 18px; }
+.cw-serie { display: grid; gap: 6px; padding: 4px 10px 12px 16px; }
 
 .ruch { position: relative; width: 92px; aspect-ratio: 560 / 373; border-radius: 10px; overflow: hidden; background: #0f1114; }
 .ruch img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
@@ -238,25 +238,26 @@ h3 { font-size: 20px; font-weight: 700; }
 .ruch-brak svg { width: 70%; height: 70%; }
 
 .seria {
-  display: grid; grid-template-columns: 26px 1fr 1fr 56px; gap: 8px; align-items: center;
+  /* Ciężar dostaje więcej miejsca niż powtórzenia: bywa trzycyfrowy i z przecinkiem (102,5). */
+  display: grid; grid-template-columns: 16px minmax(0, 1.45fr) minmax(0, 1fr) 48px; gap: 6px; align-items: center;
 }
-.seria-nr { font-family: var(--naglowek); font-weight: 700; color: var(--popiol); font-size: 18px; text-align: center; }
+.seria-nr { font-family: var(--naglowek); font-weight: 700; color: var(--popiol); font-size: 17px; text-align: center; }
 .krokomierz {
-  display: grid; grid-template-columns: 38px 1fr 38px; align-items: center;
+  display: grid; grid-template-columns: 30px minmax(0, 1fr) 30px; align-items: center;
   background: var(--grafit-2); border-radius: 12px; height: 52px; overflow: hidden;
 }
 .krokomierz button { height: 100%; border: none; background: none; font-size: 22px; color: var(--popiol); font-weight: 600; }
 .krokomierz button:active { background: var(--grafit-3); color: var(--kreda); }
-.krokomierz label { display: grid; justify-items: center; line-height: 1; }
+.krokomierz label { display: grid; justify-items: center; line-height: 1; min-width: 0; }
 .krokomierz input {
-  width: 100%; border: none; background: none; text-align: center; padding: 0;
-  font-family: var(--naglowek); font-weight: 800; font-size: 26px; font-variant-numeric: tabular-nums;
+  width: 100%; min-width: 0; border: none; background: none; text-align: center; padding: 0;
+  font-family: var(--naglowek); font-weight: 800; font-size: 25px; font-variant-numeric: tabular-nums; letter-spacing: -.01em;
   -moz-appearance: textfield;
 }
 .krokomierz input::-webkit-outer-spin-button, .krokomierz input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
 .krokomierz span { font-size: 11.5px; color: var(--popiol); font-weight: 600; margin-top: 1px; }
 .odhacz {
-  height: 52px; border-radius: 12px; border: 2px solid var(--grafit-3); background: none;
+  height: 52px; width: 48px; border-radius: 12px; border: 2px solid var(--grafit-3); background: none;
   display: grid; place-items: center; color: var(--popiol);
 }
 .odhacz svg { width: 26px; height: 26px; }
