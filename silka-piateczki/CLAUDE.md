@@ -19,6 +19,8 @@ frameworka, jak reszta aplikacji w tym monorepo. Opis funkcji: `README.md`.
 - Nowe zdjęcie ćwiczenia: dopisz kadr do `narzedzia/zdjecia.txt`, uruchom
   `narzedzia/zasoby.py`, dopisz oba kadry do `ZDJECIA` w `sw.js`. Sprawdzarka pilnuje zgodności.
 - Nowy plik w `js/` musi trafić do `SZKIELET` w `sw.js` (sprawdzarka też to pilnuje).
+- Opis techniki (ustawienie, błąd, wskazówki pro) w `js/technika.js`. Każde ćwiczenie z biblioteki
+  musi mieć pełny wpis, sprawdzarka pilnuje. Ustawienie widać też na karcie w treningu.
 - Logika liczenia siedzi w `logika.js` bez DOM; testy w `narzedzia/sprawdz.mjs`.
 
 ## Decyzje użytkownika (2026-11-25)
