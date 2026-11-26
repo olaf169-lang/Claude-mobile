@@ -128,8 +128,9 @@ export const CWICZENIA = [
   C('wznosy-siedzac', 'Unoszenie hantli bokiem siedząc', 'barki', 'hantle', 'Seated_Side_Lateral_Raise', [
     'Siedząc trudniej oszukać bujaniem, więc bark pracuje sam.',
   ], ['wznosy', 'wznosy-wyciag']),
-  C('wznosy-wyciag', 'Unoszenie ramienia bokiem na wyciągu', 'barki', 'wyciag', 'Cable_Seated_Lateral_Raise', [
-    'Linka z dolnego bloczka, ręka przechodzi przed ciałem.',
+  C('wznosy-wyciag', 'Unoszenie ramienia bokiem na wyciągu (brama)', 'barki', 'wyciag', 'Cable_Seated_Lateral_Raise', [
+    'Brama, linka z dolnego bloczka. Stań bokiem, ćwiczysz jedną ręką, linka przechodzi przed ciałem.',
+    'Łokieć lekko ugięty, unoś do wysokości barku, opuszczaj powoli. Ciężar wpisujesz na jedną rękę, obie robią tyle samo.',
     'Linka ciągnie też na dole ruchu, czego hantel nie daje.',
   ], ['wznosy', 'wznosy-siedzac'], { cel: 'Szerokie barki' }),
   C('wyc-barki', 'Wyciskanie hantli nad głowę siedząc', 'barki', 'hantle', 'Seated_Dumbbell_Press', [
@@ -301,7 +302,7 @@ export const PLANY_START = {
     { cw: 'wioslo-hantel', zakres: [8, 12] },
     { cw: 'wyprosty', zakres: [10, 15] },
     { cw: 'uginanie-lezac', zakres: [8, 12] },
-    { cw: 'wznosy', zakres: [12, 15] },
+    { cw: 'wznosy-wyciag', zakres: [12, 15] },
     { cw: 'uginanie-skos', zakres: [8, 12], para: 'r' },
     { cw: 'triceps-glowa', zakres: [10, 12], para: 'r' },
     { cw: 'reverse-crunch', zakres: [10, 15] },
@@ -325,6 +326,9 @@ export const PLANY_START = {
 // Poprzednie wersje planów startowych. Jeśli użytkownik ich nie zmieniał,
 // apka po aktualizacji podmienia je na nowe (magazyn.js). Zmienionych nie rusza.
 export const PLANY_STARE = [
+  {
+    A: ['wyc-hantle', 'sciaganie-szeroko', 'dipy', 'wioslo-hantel', 'wyprosty', 'uginanie-lezac', 'wznosy', 'uginanie-skos', 'triceps-glowa', 'reverse-crunch'],
+  },
   {
     A: ['wyc-hantle', 'sciaganie-szeroko', 'dipy', 'wioslo-hantel', 'hip-thrust', 'uginanie-lezac', 'wznosy', 'uginanie-skos', 'triceps-glowa', 'reverse-crunch'],
   },
