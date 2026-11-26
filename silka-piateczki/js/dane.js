@@ -277,12 +277,22 @@ export const CWICZENIA = [
 ];
 
 // Plany startowe. Użytkownik może je zmieniać na stałe w apce.
+// Kolejność według zasad:
+// 1. Wielostawowe przed izolowanymi, póki jest najwięcej siły.
+// 2. Wypychanie na zmianę z przyciąganiem (klatka, plecy, barki, plecy),
+//    więc jedna grupa odpoczywa, gdy pracuje druga.
+// 3. Priorytety użytkownika (środek i dół klatki, szerokie barki) zaraz po
+//    wielostawowych, kiedy jeszcze jest świeży.
+// 4. Pośladki i tył uda w środku: nie zależą od zmęczenia góry ciała.
+// 5. Ręce na koniec, bo biceps i triceps pomagają w każdym ćwiczeniu
+//    na klatkę i plecy. Zmęczone na początku osłabiłyby całą resztę.
+// 6. Brzuch zawsze ostatni, bo stabilizuje tułów we wszystkim wcześniej.
 // para: ćwiczenia z tą samą literą robi się w superserii, jedno po drugim.
 export const PLANY_START = {
   A: [
     { cw: 'wyc-hantle', zakres: [8, 12] },
-    { cw: 'dipy', zakres: [8, 12] },
     { cw: 'sciaganie-szeroko', zakres: [8, 12] },
+    { cw: 'dipy', zakres: [8, 12] },
     { cw: 'wioslo-hantel', zakres: [8, 12] },
     { cw: 'wznosy', zakres: [12, 15] },
     { cw: 'hip-thrust', zakres: [8, 12] },
@@ -292,19 +302,29 @@ export const PLANY_START = {
     { cw: 'reverse-crunch', zakres: [10, 15] },
   ],
   B: [
-    { cw: 'pec-deck', zakres: [10, 14] },
     { cw: 'wyc-decline', zakres: [8, 12] },
-    { cw: 'wioslo-wyciag', zakres: [8, 12] },
     { cw: 'podciaganie', zakres: [6, 12] },
     { cw: 'wyc-barki', zakres: [8, 12] },
+    { cw: 'wioslo-wyciag', zakres: [8, 12] },
+    { cw: 'pec-deck', zakres: [10, 14] },
     { cw: 'wznosy-wyciag', zakres: [12, 15] },
-    { cw: 'odwrotne-maszyna', zakres: [12, 15] },
-    { cw: 'uginanie-siedzac', zakres: [8, 12] },
     { cw: 'wyprosty', zakres: [10, 15] },
+    { cw: 'uginanie-siedzac', zakres: [8, 12] },
+    { cw: 'odwrotne-maszyna', zakres: [12, 15] },
     { cw: 'mlotkowe', zakres: [8, 12], para: 'r' },
     { cw: 'triceps-lina', zakres: [10, 12], para: 'r' },
+    { cw: 'dead-bug', zakres: [8, 12] },
   ],
 };
+
+// Poprzednie wersje planów startowych. Jeśli użytkownik ich nie zmieniał,
+// apka po aktualizacji podmienia je na nowe (magazyn.js). Zmienionych nie rusza.
+export const PLANY_STARE = [
+  {
+    A: ['wyc-hantle', 'dipy', 'sciaganie-szeroko', 'wioslo-hantel', 'wznosy', 'hip-thrust', 'uginanie-lezac', 'uginanie-skos', 'triceps-glowa', 'reverse-crunch'],
+    B: ['pec-deck', 'wyc-decline', 'wioslo-wyciag', 'podciaganie', 'wyc-barki', 'wznosy-wyciag', 'odwrotne-maszyna', 'uginanie-siedzac', 'wyprosty', 'mlotkowe', 'triceps-lina'],
+  },
+];
 export const SERII = 2;
 
 // Rozciąganie: ok. 7 minut. sekundy na stronę; strony: 2 albo 1.

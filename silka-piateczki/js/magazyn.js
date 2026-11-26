@@ -1,7 +1,7 @@
 // Stan apki w localStorage telefonu. Jeden klucz, jeden obiekt.
 // Kopia zapasowa to ten sam obiekt zapisany do pliku JSON.
 
-import { CWICZENIA, PLANY_START } from './dane.js';
+import { CWICZENIA, PLANY_START, PLANY_STARE } from './dane.js';
 
 const KLUCZ = 'silka:v1';
 
@@ -36,6 +36,11 @@ function uzupelnij(s) {
   const wynik = { ...baza, ...s };
   wynik.ustawienia = { ...baza.ustawienia, ...(s.ustawienia || {}) };
   wynik.plany = { ...baza.plany, ...(s.plany || {}) };
+  // Nietknięty stary plan startowy zamieniamy na aktualny (np. po zmianie kolejności).
+  for (const k of Object.keys(PLANY_START)) {
+    const teraz = (wynik.plany[k] || []).map((w) => w.cw).join();
+    if (PLANY_STARE.some((st) => st[k] && st[k].join() === teraz)) wynik.plany[k] = structuredClone(PLANY_START[k]);
+  }
   return wynik;
 }
 

@@ -132,6 +132,19 @@ test('XP z ciężaru, powtórzeń i trudności', () => {
   assert.equal(xpLaczne(stan), 36 + 100 + 50 + 50 + 40, 'przeliczanie historii (pierwszy trening bez premii za termin)');
 });
 
+test('kolejność planów: ręce przed brzuchem, brzuch na końcu, izolacje rąk po plecach', () => {
+  const obszar = (id) => CWICZENIA.find((c) => c.id === id).obszar;
+  for (const [k, plan] of Object.entries(PLANY_START)) {
+    const o = plan.map((w) => obszar(w.cw));
+    assert.equal(o[o.length - 1], 'brzuch', `plan ${k}: brzuch nie jest ostatni`);
+    const pierwszeRece = o.indexOf('rece');
+    const ostatniePlecy = o.lastIndexOf('plecy');
+    const ostatniaKlatka = o.lastIndexOf('klatka');
+    assert(pierwszeRece > ostatniePlecy && pierwszeRece > ostatniaKlatka, `plan ${k}: ręce przed klatką albo plecami`);
+    assert(['klatka', 'plecy'].includes(o[0]), `plan ${k}: start nie od wielostawowego na klatkę albo plecy`);
+  }
+});
+
 test('rozciąganie liczy dni w bieżącym tygodniu', () => {
   const dzis = '2026-11-26T12:00:00';
   assert.equal(rozciaganieWTygodniu(['2026-11-23T08:00:00', '2026-11-23T20:00:00', '2026-11-25T08:00:00', '2026-11-21T08:00:00'], dzis), 2);
