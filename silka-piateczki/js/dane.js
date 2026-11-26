@@ -166,7 +166,7 @@ export const CWICZENIA = [
     'Łopatki na ławce, broda przy klatce, stopy na szerokość bioder.',
     'Na górze podwiń miednicę i ściśnij pośladki na sekundę.',
     'Nie wyginaj lędźwi, ruch kończą pośladki, nie plecy. Z hantlem albo na maszynie.',
-  ], ['mostek', 'mostek-jednonoz', 'pull-through'], { cel: 'Pośladki i ustawienie miednicy' }),
+  ], ['wyprosty', 'mostek-jednonoz', 'pull-through', 'mostek'], { cel: 'Pośladki i ustawienie miednicy' }),
   C('mostek', 'Mostek biodrowy z obciążeniem', 'nogi', 'hantle', 'Barbell_Glute_Bridge', [
     'Plecy na podłodze, ciężar na biodrach.',
     'Krótszy ruch niż hip thrust, ale ten sam mięsień.',
@@ -201,7 +201,7 @@ export const CWICZENIA = [
     'Ruch zaczynasz z bioder, nie z lędźwi.',
     'Górne plecy lekko zaokrąglone, wtedy pracują pośladki i tył uda.',
     'Na górze ściśnij pośladki, nie przeprostowuj się. Ciężar: talerz trzymany przy klatce.',
-  ], ['reverse-hyper', 'pull-through'], { cel: 'Pośladki i tył uda' }),
+  ], ['pull-through', 'mostek-jednonoz', 'reverse-hyper', 'hip-thrust'], { cel: 'Pośladki i tył uda' }),
   C('reverse-hyper', 'Odwrotne wyprosty na maszynie', 'nogi', 'maszyna', 'Reverse_Hyperextension', [
     'Tułów leży, ruch robią nogi unoszone pośladkami.',
   ], ['wyprosty', 'kickback']),
@@ -284,7 +284,9 @@ export const CWICZENIA = [
 // 3. Wypychanie na zmianę z przyciąganiem (klatka, plecy, klatka, plecy),
 //    więc jedna grupa odpoczywa, gdy pracuje druga.
 // 4. Góra przed nogami, bo to priorytet użytkownika (środek i dół klatki,
-//    szerokie plecy), a hip thrust i uginanie nie zależą od zmęczenia góry.
+//    szerokie plecy), a wyprosty i uginanie nie zależą od zmęczenia góry.
+//    Hip thrust wypadł z planu A na prośbę użytkownika (bez maszyny, sztangi
+//    na biodrach nie chce), zastąpiły go wyprosty na ławce rzymskiej.
 //    Pośladki i tył uda idą jednak przed wznosami bokiem: to cięższe ruchy,
 //    a lekkie wznosy dobrze znoszą ogólne zmęczenie.
 // 5. Ręce na koniec, bo biceps i triceps pomagają w każdym ćwiczeniu
@@ -297,7 +299,7 @@ export const PLANY_START = {
     { cw: 'sciaganie-szeroko', zakres: [8, 12] },
     { cw: 'dipy', zakres: [8, 12] },
     { cw: 'wioslo-hantel', zakres: [8, 12] },
-    { cw: 'hip-thrust', zakres: [8, 12] },
+    { cw: 'wyprosty', zakres: [10, 15] },
     { cw: 'uginanie-lezac', zakres: [8, 12] },
     { cw: 'wznosy', zakres: [12, 15] },
     { cw: 'uginanie-skos', zakres: [8, 12], para: 'r' },
@@ -323,6 +325,9 @@ export const PLANY_START = {
 // Poprzednie wersje planów startowych. Jeśli użytkownik ich nie zmieniał,
 // apka po aktualizacji podmienia je na nowe (magazyn.js). Zmienionych nie rusza.
 export const PLANY_STARE = [
+  {
+    A: ['wyc-hantle', 'sciaganie-szeroko', 'dipy', 'wioslo-hantel', 'hip-thrust', 'uginanie-lezac', 'wznosy', 'uginanie-skos', 'triceps-glowa', 'reverse-crunch'],
+  },
   {
     A: ['wyc-hantle', 'sciaganie-szeroko', 'dipy', 'wioslo-hantel', 'wznosy', 'hip-thrust', 'uginanie-lezac', 'uginanie-skos', 'triceps-glowa', 'reverse-crunch'],
     B: ['wyc-decline', 'podciaganie', 'wyc-barki', 'wioslo-wyciag', 'pec-deck', 'wznosy-wyciag', 'wyprosty', 'uginanie-siedzac', 'odwrotne-maszyna', 'mlotkowe', 'triceps-lina', 'dead-bug'],

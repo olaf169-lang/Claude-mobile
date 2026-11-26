@@ -46,6 +46,8 @@ frameworka, jak reszta aplikacji w tym monorepo. Opis funkcji: `README.md`.
 - Zasady opisane nad `PLANY_START` w dane.js. Użytkownik wprost chce kolejności od dużych
   partii do małych: klatka i plecy, pośladki i tył uda, barki, ręce, brzuch. Wielostawowe
   przed izolacjami, pchanie na zmianę z ciąganiem. Sprawdzarka pilnuje tej kolejności.
+- Hip thrust usunięty z planu A (2026-11-26): na siłowni użytkownika nie ma maszyny, a sztangi
+  na biodrach nie chce. W obu planach są wyprosty na ławce rzymskiej. Nie wracaj do hip thrustu.
 - Zmieniając plany startowe, dopisz poprzednią wersję do `PLANY_STARE`, żeby nietknięte
   plany w telefonie podmieniły się same.
 
