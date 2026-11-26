@@ -278,12 +278,15 @@ export const CWICZENIA = [
 
 // Plany startowe. Użytkownik może je zmieniać na stałe w apce.
 // Kolejność według zasad:
-// 1. Wielostawowe przed izolowanymi, póki jest najwięcej siły.
-// 2. Wypychanie na zmianę z przyciąganiem (klatka, plecy, barki, plecy),
+// 1. Od dużych partii do małych: klatka i plecy, potem pośladki i tył uda,
+//    potem barki w izolacji, ręce, brzuch.
+// 2. Wielostawowe przed izolowanymi, póki jest najwięcej siły.
+// 3. Wypychanie na zmianę z przyciąganiem (klatka, plecy, klatka, plecy),
 //    więc jedna grupa odpoczywa, gdy pracuje druga.
-// 3. Priorytety użytkownika (środek i dół klatki, szerokie barki) zaraz po
-//    wielostawowych, kiedy jeszcze jest świeży.
-// 4. Pośladki i tył uda w środku: nie zależą od zmęczenia góry ciała.
+// 4. Góra przed nogami, bo to priorytet użytkownika (środek i dół klatki,
+//    szerokie plecy), a hip thrust i uginanie nie zależą od zmęczenia góry.
+//    Pośladki i tył uda idą jednak przed wznosami bokiem: to cięższe ruchy,
+//    a lekkie wznosy dobrze znoszą ogólne zmęczenie.
 // 5. Ręce na koniec, bo biceps i triceps pomagają w każdym ćwiczeniu
 //    na klatkę i plecy. Zmęczone na początku osłabiłyby całą resztę.
 // 6. Brzuch zawsze ostatni, bo stabilizuje tułów we wszystkim wcześniej.
@@ -294,9 +297,9 @@ export const PLANY_START = {
     { cw: 'sciaganie-szeroko', zakres: [8, 12] },
     { cw: 'dipy', zakres: [8, 12] },
     { cw: 'wioslo-hantel', zakres: [8, 12] },
-    { cw: 'wznosy', zakres: [12, 15] },
     { cw: 'hip-thrust', zakres: [8, 12] },
     { cw: 'uginanie-lezac', zakres: [8, 12] },
+    { cw: 'wznosy', zakres: [12, 15] },
     { cw: 'uginanie-skos', zakres: [8, 12], para: 'r' },
     { cw: 'triceps-glowa', zakres: [10, 12], para: 'r' },
     { cw: 'reverse-crunch', zakres: [10, 15] },
@@ -304,12 +307,12 @@ export const PLANY_START = {
   B: [
     { cw: 'wyc-decline', zakres: [8, 12] },
     { cw: 'podciaganie', zakres: [6, 12] },
-    { cw: 'wyc-barki', zakres: [8, 12] },
-    { cw: 'wioslo-wyciag', zakres: [8, 12] },
     { cw: 'pec-deck', zakres: [10, 14] },
-    { cw: 'wznosy-wyciag', zakres: [12, 15] },
+    { cw: 'wioslo-wyciag', zakres: [8, 12] },
     { cw: 'wyprosty', zakres: [10, 15] },
     { cw: 'uginanie-siedzac', zakres: [8, 12] },
+    { cw: 'wyc-barki', zakres: [8, 12] },
+    { cw: 'wznosy-wyciag', zakres: [12, 15] },
     { cw: 'odwrotne-maszyna', zakres: [12, 15] },
     { cw: 'mlotkowe', zakres: [8, 12], para: 'r' },
     { cw: 'triceps-lina', zakres: [10, 12], para: 'r' },
@@ -320,6 +323,10 @@ export const PLANY_START = {
 // Poprzednie wersje planów startowych. Jeśli użytkownik ich nie zmieniał,
 // apka po aktualizacji podmienia je na nowe (magazyn.js). Zmienionych nie rusza.
 export const PLANY_STARE = [
+  {
+    A: ['wyc-hantle', 'sciaganie-szeroko', 'dipy', 'wioslo-hantel', 'wznosy', 'hip-thrust', 'uginanie-lezac', 'uginanie-skos', 'triceps-glowa', 'reverse-crunch'],
+    B: ['wyc-decline', 'podciaganie', 'wyc-barki', 'wioslo-wyciag', 'pec-deck', 'wznosy-wyciag', 'wyprosty', 'uginanie-siedzac', 'odwrotne-maszyna', 'mlotkowe', 'triceps-lina', 'dead-bug'],
+  },
   {
     A: ['wyc-hantle', 'dipy', 'sciaganie-szeroko', 'wioslo-hantel', 'wznosy', 'hip-thrust', 'uginanie-lezac', 'uginanie-skos', 'triceps-glowa', 'reverse-crunch'],
     B: ['pec-deck', 'wyc-decline', 'wioslo-wyciag', 'podciaganie', 'wyc-barki', 'wznosy-wyciag', 'odwrotne-maszyna', 'uginanie-siedzac', 'wyprosty', 'mlotkowe', 'triceps-lina'],

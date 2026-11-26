@@ -142,6 +142,9 @@ test('kolejność planów: ręce przed brzuchem, brzuch na końcu, izolacje rąk
     const ostatniaKlatka = o.lastIndexOf('klatka');
     assert(pierwszeRece > ostatniePlecy && pierwszeRece > ostatniaKlatka, `plan ${k}: ręce przed klatką albo plecami`);
     assert(['klatka', 'plecy'].includes(o[0]), `plan ${k}: start nie od wielostawowego na klatkę albo plecy`);
+    // Od dużych do małych: pośladki i tył uda przed barkami, klatka i plecy przed nogami.
+    assert(o.indexOf('nogi') < o.indexOf('barki'), `plan ${k}: barki przed pośladkami i tyłem uda`);
+    assert(o.lastIndexOf('klatka') < o.indexOf('nogi') && o.lastIndexOf('plecy') < o.indexOf('nogi'), `plan ${k}: nogi wchodzą przed końcem klatki i pleców`);
   }
 });
 

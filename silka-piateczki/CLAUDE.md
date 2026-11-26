@@ -43,9 +43,9 @@ frameworka, jak reszta aplikacji w tym monorepo. Opis funkcji: `README.md`.
 
 ## Kolejność ćwiczeń (2026-11-26)
 
-- Zasady opisane nad `PLANY_START` w dane.js: wielostawowe przed izolacjami, pchanie na
-  zmianę z ciąganiem, priorytety użytkownika zaraz po wielostawowych, ręce pod koniec,
-  brzuch ostatni. Sprawdzarka pilnuje rąk i brzucha.
+- Zasady opisane nad `PLANY_START` w dane.js. Użytkownik wprost chce kolejności od dużych
+  partii do małych: klatka i plecy, pośladki i tył uda, barki, ręce, brzuch. Wielostawowe
+  przed izolacjami, pchanie na zmianę z ciąganiem. Sprawdzarka pilnuje tej kolejności.
 - Zmieniając plany startowe, dopisz poprzednią wersję do `PLANY_STARE`, żeby nietknięte
   plany w telefonie podmieniły się same.
 
