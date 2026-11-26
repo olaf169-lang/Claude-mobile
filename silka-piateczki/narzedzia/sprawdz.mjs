@@ -42,6 +42,8 @@ test('ćwiczenia: unikalne id, istniejące zamienniki i zdjęcia', () => {
   }
   for (const c of CWICZENIA) {
     for (const a of c.alt) assert(ids.has(a), `${c.id}: brak zamiennika ${a}`);
+    // Bez zdjęcia tylko wtedy, gdy ćwiczenie ma narysowany piktogram (ui.js).
+    if (!c.img) { assert(readFileSync('js/ui.js', 'utf8').includes(`'${c.id}': [`), `${c.id}: ani zdjęcia, ani piktogramu`); continue; }
     for (const k of [0, 1]) assert(existsSync(`img/cw/${c.img}-${k}.webp`), `${c.id}: brak zdjęcia ${c.img}-${k}`);
   }
   for (const p of ['A', 'B']) for (const w of PLANY_START[p]) assert(ids.has(w.cw), `plan ${p}: nieznane ${w.cw}`);
@@ -58,7 +60,7 @@ test('każde ćwiczenie ma ustawienie, błąd i wskazówki pro', () => {
 
 test('lista zdjęć zgodna z danymi i z sw.js', () => {
   const lista = readFileSync('narzedzia/zdjecia.txt', 'utf8').split(/\s+/).filter(Boolean);
-  const uzyte = new Set([...CWICZENIA.map((c) => c.img), ...ROZCIAGANIE.map((r) => r.img).filter(Boolean)]);
+  const uzyte = new Set([...CWICZENIA.map((c) => c.img), ...ROZCIAGANIE.map((r) => r.img)].filter(Boolean));
   for (const u of uzyte) assert(lista.includes(u), `${u} brakuje w zdjecia.txt`);
   const sw = readFileSync('sw.js', 'utf8');
   for (const z of lista) for (const k of [0, 1]) assert(sw.includes(`./img/cw/${z}-${k}.webp`), `sw.js nie ma ${z}-${k}`);

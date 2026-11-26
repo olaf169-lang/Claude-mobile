@@ -204,7 +204,7 @@ function kartaCwiczenia(akt, i) {
   <article class="cw ${gotowe ? 'gotowe' : ''}" style="--kolor:${kolor(c.obszar)}" data-cw="${i}">
     <div class="cw-gora">
       <button class="cw-otworz" type="button" data-tech="${i}" aria-label="Technika: ${esc(c.nazwa)}">
-        ${ruch(c.img, { obszar: c.obszar, nazwa: c.nazwa })}
+        ${ruch(c.img, { obszar: c.obszar, nazwa: c.nazwa, id: c.id })}
         <div>
           <span class="partia" style="--kolor:${kolor(c.obszar)}">${esc(OBSZARY[c.obszar]?.nazwa || 'Inne')}${c.cel ? `: ${esc(c.cel.toLowerCase())}` : ''}</span>
           <div class="cw-nazwa">${esc(c.nazwa)}</div>

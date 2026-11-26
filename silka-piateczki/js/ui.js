@@ -21,13 +21,25 @@ const PIKTOGRAM_9090 = `<svg viewBox="0 0 120 80" fill="none" stroke="currentCol
   <path d="M56 54h28v16"/><path d="M60 54l-24 6 0 10"/>
 </svg>`;
 
+// Rozpiętki w pochyleniu stojąc: w bazie zdjęć ich nie ma, więc rysunek
+// z przodu, ręce z hantlami schodzą się pod klatką i rozchodzą na boki.
+const ramieRozp = (x, znak) => `<g><animateTransform attributeName="transform" type="rotate" values="${znak * 48} ${x} 27;${znak * -10} ${x} 27;${znak * 48} ${x} 27" dur="2.4s" repeatCount="indefinite"/>
+  <path d="M${x} 27 v25"/><rect x="${x - 6}" y="51" width="12" height="6" rx="2" fill="currentColor" stroke="none"/></g>`;
+const PIKTOGRAM_ROZP = `<svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <path d="M8 76h104" stroke-width="3" opacity=".4"/>
+  <circle cx="60" cy="13" r="7"/>
+  <path d="M52 27h16M60 22v26M60 48l-9 26M60 48l9 26"/>
+  ${ramieRozp(52, 1)}${ramieRozp(68, -1)}
+</svg>`;
+const PIKTOGRAMY = { '90-90': ['var(--t-zielona)', PIKTOGRAM_9090], 'rozpietki-pochylenie': ['var(--t-czerwona)', PIKTOGRAM_ROZP] };
+
 export function kolor(obszar) {
   return (OBSZARY[obszar] || {}).kolor || 'var(--chrom)';
 }
 
 export function ruch(img, { duzy = false, obszar = '', nazwa = '', id = '' } = {}) {
   const kl = duzy ? ' ruch-duzy' : '';
-  if (id === '90-90') return `<div class="ruch-brak${kl}" style="--kolor:var(--t-zielona)">${PIKTOGRAM_9090}</div>`;
+  if (PIKTOGRAMY[id]) return `<div class="ruch-brak${kl}" style="--kolor:${PIKTOGRAMY[id][0]}">${PIKTOGRAMY[id][1]}</div>`;
   if (!img) {
     const inicjaly = nazwa.split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0].toUpperCase()).join('');
     return `<div class="ruch-brak${kl}" style="--kolor:${kolor(obszar)}" aria-hidden="true">${esc(inicjaly)}</div>`;
