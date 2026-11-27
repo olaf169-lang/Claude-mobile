@@ -1644,6 +1644,46 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
 .zapros-tresc span { font-size: 13px; }
 .karta-zapros .btn { flex: 0 0 auto; }
 
+/* Twoje miejsce: osobny kafel na debla i na singla. Na każdym telefonie
+   pokazuje miejsce tego, kto wskazał swoją ksywkę. Złoto tylko na pierwszym
+   miejscu, srebro i brąz zaznaczone samą ramką, żeby nie krzyczało. */
+.karta-moje .naglowek-nota { margin-left: 0; }
+.moje-kafle { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.moje-kafel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 14px 10px;
+  border: 1px solid var(--kreska);
+  border-radius: var(--r-s);
+  background: var(--plyta);
+  text-align: center;
+}
+.moje-tryb {
+  font: 700 11px/1 var(--naglowkowy);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--tekst-cichy);
+}
+.moje-pozycja { display: inline-flex; align-items: baseline; gap: 5px; }
+.moje-pozycja b { font: 800 26px/1 var(--naglowkowy); }
+.moje-pozycja em { font-size: 12px; font-style: normal; color: var(--tekst-cichy); }
+.moje-medal { font-size: 20px; line-height: 1; align-self: center; }
+.moje-detal { font-size: 12.5px; }
+.moje-brak { font: 800 26px/1 var(--naglowkowy); color: var(--tekst-cichy); }
+.moje-podium-1 {
+  border-color: color-mix(in srgb, var(--zloto) 55%, transparent);
+  background: var(--zloto-mgla);
+}
+.moje-podium-1 .moje-pozycja b { color: var(--zloto-jasne); }
+:root[data-motyw="jasny"] .moje-podium-1 .moje-pozycja b { color: var(--zloto); }
+.moje-podium-2, .moje-podium-3 { border-color: var(--kreska-mocna); }
+
+/* Arkusz „Kim jesteś?”: chipy mają być łatwe do trafienia kciukiem. */
+.chipy-ja { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.chip-duzy { flex: 1 1 calc(50% - 8px); justify-content: center; min-height: 48px; font-size: 15px; }
+
 .pole-link {
   width: 100%;
   margin-top: 8px;
