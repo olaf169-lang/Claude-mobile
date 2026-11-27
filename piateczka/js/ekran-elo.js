@@ -7,7 +7,7 @@
 
 import { GRACZE, gracz, krotkaData } from './dane.js';
 import { ranking, przelicz, szanse, poziomFormy, znaczekSerii, START } from './elo.js';
-import { TRYBY, mecze, trybMeczu, wynikMeczu } from './liczenie.js';
+import { TRYBY } from './liczenie.js';
 import { naglowekZPomoca, dymek } from './pomoc.js';
 import { zeZnakiem, klasaSalda } from './ui.js';
 import { linie, podepnijKrzyzyk, kolorGracza } from './wykresy.js';
@@ -21,17 +21,17 @@ const ZESTAWIENIA_SINGIEL = [[[0], [1]], [[0], [2]], [[0], [3]], [[1], [2]], [[1
 
 export function render(kontener, ctx) {
   const lista = ranking(ctx.wieczory, tryb);
-  const { rating } = przelicz(ctx.wieczory, tryb);
-  const grane = ctx.wieczory
-    .filter((w) => !w.towarzyski
-      && mecze(w).some((m) => trybMeczu(m) === tryb && wynikMeczu(m).rozegrany))
-    .map((w) => w.data).sort();
+  // `dni` bierzemy z tego samego przeliczenia co historie, więc oś X ma
+  // dokładnie tyle slotów, ile punktów ma każda seria. Liczenie dni osobno
+  // rozjeżdżało wykres: tamten filtr brał mecze ledwo zaczęte, a ELO liczy
+  // tylko dograne do końca.
+  const { rating, dni } = przelicz(ctx.wieczory, tryb);
 
   const serie = GRACZE.map((g) => {
     const h = lista.find((r) => r.id === g.id)?.historia ?? [{ rating: START }];
     return { nazwa: g.imie, kolor: kolorGracza(g.id), wartosci: h.map((p) => p.rating) };
   });
-  const etykiety = ['start', ...grane.map(krotkaData)];
+  const etykiety = ['start', ...dni.map(krotkaData)];
   const jestWykres = serie[0].wartosci.length > 1;
   const zestawienia = tryb === 'debel' ? ZESTAWIENIA_DEBEL : ZESTAWIENIA_SINGIEL;
 

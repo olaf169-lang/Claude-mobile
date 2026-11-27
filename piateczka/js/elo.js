@@ -52,6 +52,7 @@ export function przelicz(wieczory, tryb = 'debel') {
     historia[g.id] = [{ data: null, rating: START }];
   });
   let zmiany = {};
+  const dni = [];           // dni, które faktycznie liczą się w tym trybie
 
   const posortowane = [...wieczory]
     .filter((w) => !w.towarzyski)
@@ -59,6 +60,7 @@ export function przelicz(wieczory, tryb = 'debel') {
 
   for (const w of posortowane) {
     const przed = { ...rating };
+    let liczone = 0;
     for (const mecz of mecze(w)) {
       if (trybMeczu(mecz) !== tryb) continue;
       const r = wynikMeczu(mecz);
@@ -66,6 +68,7 @@ export function przelicz(wieczory, tryb = 'debel') {
       // Mecz z kimkolwiek spoza czwórki nie rusza ratingu, patrz nagłówek.
       if (![...mecz.a, ...mecz.b].every((id) => id in rating)) continue;
 
+      liczone += 1;
       const ea = oczekiwanie(srednia(mecz.a, rating), srednia(mecz.b, rating));
       const ruch = K * (wartoscWyniku(r.setyA, r.setyB) - ea);
       for (const id of mecz.a) rating[id] += ruch;
@@ -78,15 +81,19 @@ export function przelicz(wieczory, tryb = 'debel') {
         }
       }
     }
-    const ruszylo = GRACZE.some((g) => rating[g.id] !== przed[g.id]);
-    if (!ruszylo) continue;
-    for (const g of GRACZE) {
-      if (rating[g.id] !== przed[g.id]) historia[g.id].push({ data: w.data, rating: rating[g.id] });
-    }
+    if (!liczone) continue;
+    dni.push(w.data);
+    // Punkt w historii dostaje KAŻDY gracz, także ten, który tego dnia nie grał
+    // w tym trybie: jego rating po prostu stoi w miejscu. Wcześniej punkt szedł
+    // tylko do tych, którym rating drgnął, więc serie miały RÓŻNE długości.
+    // Wykres rysuje je po indeksie, co przesuwało wyniki pod złe daty i urywało
+    // linie przed końcem sezonu. Bolało zwłaszcza w dniu, w którym grano i singla,
+    // i debla (zgłoszony bug 2026-11-27).
+    for (const g of GRACZE) historia[g.id].push({ data: w.data, rating: rating[g.id] });
     zmiany = Object.fromEntries(GRACZE.map((g) => [g.id, rating[g.id] - przed[g.id]]));
   }
 
-  return { rating, historia, zmiany, seria };
+  return { rating, historia, zmiany, seria, dni };
 }
 
 /* --------------------------------------------------------- poziom formy */

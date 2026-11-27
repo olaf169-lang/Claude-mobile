@@ -8,7 +8,8 @@
 
 import * as sezon from './ekran-sezon.js';
 import * as baza from './baza.js';
-import { $, zapamietajSkupienie, przywrocSkupienie, komunikat, zamknijArkusz } from './ui.js';
+import { $, zapamietajSkupienie, przywrocSkupienie, komunikat, arkusz, zamknijArkusz } from './ui.js';
+import { GRACZE } from './dane.js';
 import { pokazHaslo } from './ekran-zasady.js';
 import * as start from './ekran-start.js';
 import * as wieczor from './ekran-wieczor.js';
@@ -162,8 +163,36 @@ baza.nasluchuj((wieczory, stan) => {
   rysuj();
 });
 
-/* Pierwsze wejście: powiedz wprost, że te kółeczka ⓘ są klikalne. */
-if (!localStorage.getItem(KLUCZ_PODPOWIEDZ)) {
+/* Kim jesteś: dopóki nikt nie wybrał ksywki, appka nie wie, czyje miejsce
+   pokazać. Pytamy przy każdym starcie, aż ktoś wybierze, potem już nigdy.
+   Wybór siedzi w localStorage, więc każdy telefon ma swój. */
+function zapytajKimJestes() {
+  const { el } = arkusz({
+    tytul: 'Kim jesteś?',
+    tresc: `<p>Wybierz swoją ksywkę. Zobaczysz wtedy swoje miejsce w tabeli,
+      osobno w deblu i w singlu, a Twój wiersz będzie podświetlony.
+      Wyniki i tak może wpisywać każdy.</p>
+      <div class="chipy chipy-ja">
+        ${GRACZE.map((g) => `<button class="chip chip-duzy" type="button"
+          data-wybor-ja="${g.id}">${g.imie}</button>`).join('')}
+      </div>`,
+  });
+  const pozniej = el.querySelector('[data-zamknij]');
+  if (pozniej) { pozniej.textContent = 'Później'; pozniej.className = 'btn btn-obrys'; }
+  el.querySelectorAll('[data-wybor-ja]').forEach((b) => b.addEventListener('click', () => {
+    const wybrany = GRACZE.find((g) => g.id === b.dataset.wyborJa);
+    localStorage.setItem(KLUCZ_JA, b.dataset.wyborJa);
+    zamknijArkusz();
+    komunikat(`Cześć ${wybrany?.imie ?? ''}. Twoje miejsce masz na Starcie.`);
+    rysuj();
+  }));
+}
+
+/* Jedna zaczepka na start, nie dwie naraz: najpierw ksywka, bo bez niej
+   pół ekranu startowego jest bezimienne. Podpowiedź o ⓘ czeka na później. */
+if (!localStorage.getItem(KLUCZ_JA)) {
+  setTimeout(zapytajKimJestes, 900);
+} else if (!localStorage.getItem(KLUCZ_PODPOWIEDZ)) {
   setTimeout(() => {
     komunikat('Widzisz ⓘ przy nagłówku? Dotknij, a wytłumaczy, co jest na ekranie.');
     localStorage.setItem(KLUCZ_PODPOWIEDZ, '1');

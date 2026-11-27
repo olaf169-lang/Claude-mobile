@@ -6,7 +6,7 @@ import { GRACZE, gracz, SEZON, poPolsku, najblizszyWtorek, dzisiajIso, krotkaDat
 import { klasyfikacja, wieczorRozegrany, mvpWieczoru, TRYBY } from './liczenie.js';
 import { graczMiesiaca, przydomekGracza, godlo } from './tytuly.js';
 import { naglowekZPomoca, dymek } from './pomoc.js';
-import { bez } from './ui.js';
+import { bez, odmianaWygranych } from './ui.js';
 import { kolorGracza } from './wykresy.js';
 import { zapros } from './pochwal.js';
 
@@ -48,6 +48,7 @@ export function render(kontener, ctx) {
         : `Najbliższy wtorek: <b>${poPolsku(nastepny)}</b>`}</p>
     </section>
 
+    ${ctx.ja ? kartaMojeMiejsce(ctx.wieczory, ctx.ja) : ''}
     ${kartaCzworki(tabela, ctx.ja)}
     ${boss ? kartaBossa(boss, !aktualny, przydomekGracza(boss.zwyciezca.id, ctx.wieczory, ctx.wybory)) : ''}
     ${mvp ? kartaMvp(ostatni, mvp) : ''}
@@ -66,14 +67,15 @@ export function render(kontener, ctx) {
       <button class="btn btn-obrys" type="button" id="wyslij-link">🔗 Wyślij link</button>
     </section>
 
+    ${ctx.ja ? '' : `
     <section class="karta karta-ja">
       <h2 class="karta-tytul">Kim jesteś? ${dymek('ktowpisuje')}</h2>
       <div class="chipy">
-        ${GRACZE.map((g) => `<button class="chip ${ctx.ja === g.id ? 'wybrany' : ''}" type="button"
+        ${GRACZE.map((g) => `<button class="chip" type="button"
           data-ja="${g.id}">${g.imie}</button>`).join('')}
       </div>
-      <p class="wskazowka">Podświetla Twój wiersz w tabeli. Wpisywać może każdy.</p>
-    </section>`;
+      <p class="wskazowka">Pokaże Twoje miejsce i podświetli Twój wiersz. Wpisywać może każdy.</p>
+    </section>`}`;
 
   kontener.querySelectorAll('[data-skrot-tryb]').forEach((el) =>
     el.addEventListener('click', () => { trybSkrotu = el.dataset.skrotTryb; ctx.odswiez(); }));
@@ -81,7 +83,43 @@ export function render(kontener, ctx) {
   kontener.querySelectorAll('[data-ja]').forEach((el) =>
     el.addEventListener('click', () => ctx.ustawJa(el.dataset.ja)));
 
+  // „zmień” zdejmuje ksywkę, więc wraca karta z wyborem.
+  kontener.querySelector('[data-zmien-ja]')?.addEventListener('click', () => ctx.ustawJa(ctx.ja));
+
   kontener.querySelector('#wyslij-link')?.addEventListener('click', () => zapros());
+}
+
+const MEDALE = { 1: '🥇', 2: '🥈', 3: '🥉' };
+
+/** Twoje miejsce, osobno w deblu i w singlu, bo to dwie osobne rozgrywki.
+    Pokazuje się dopiero, gdy ktoś wskazał swoją ksywkę, więc na każdym
+    telefonie jest inne. Miejsca liczone wśród tych, którzy w danym trybie
+    w ogóle zagrali, czyli tak samo jak w tabelach. */
+function kartaMojeMiejsce(wieczory, ja) {
+  const czyste = wieczory.filter((w) => !w.towarzyski);
+  const kafle = TRYBY.map((t) => {
+    const tabela = klasyfikacja(czyste, { tryb: t.id }).filter((r) => r.mecze > 0);
+    return { nazwa: t.nazwa, moj: tabela.find((r) => r.id === ja) ?? null, ilu: tabela.length };
+  });
+
+  return `<section class="karta karta-moje">
+    <h2 class="karta-tytul">Twoje miejsce
+      <span class="naglowek-nota cichy">${bez(gracz(ja).imie)}</span>
+      <button class="naglowek-link" type="button" data-zmien-ja>zmień</button></h2>
+    <div class="moje-kafle">
+      ${kafle.map(({ nazwa, moj, ilu }) => `
+        <div class="moje-kafel${moj && moj.miejsce <= 3 ? ` moje-podium-${moj.miejsce}` : ''}">
+          <span class="moje-tryb">${nazwa}</span>
+          ${moj ? `<span class="moje-pozycja">
+              ${MEDALE[moj.miejsce] ? `<span class="moje-medal" aria-hidden="true">${MEDALE[moj.miejsce]}</span>` : ''}
+              <b>${moj.miejsce}</b><em>z ${ilu}</em>
+            </span>
+            <span class="moje-detal cichy">${moj.meczeW} ${odmianaWygranych(moj.meczeW)}</span>`
+          : `<span class="moje-pozycja moje-brak">·</span>
+             <span class="moje-detal cichy">jeszcze nie grasz</span>`}
+        </div>`).join('')}
+    </div>
+  </section>`;
 }
 
 function kartaCzworki(pelna, ja) {

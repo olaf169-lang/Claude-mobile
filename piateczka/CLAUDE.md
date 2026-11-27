@@ -232,6 +232,26 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
 - **Złoto tylko przy zaszczytach.** Pierwsze miejsce, MVP, Gracz Miesiąca,
   seria zwycięstw, Puchar.
   Jak zacznie być wszędzie, przestanie cokolwiek znaczyć.
+- **Historia ELO ma punkt dla KAŻDEGO gracza w każdym liczonym dniu**, także
+  dla tego, który tego dnia nie grał w danym trybie (jego rating po prostu
+  stoi). Wcześniej punkt dostawali tylko ci, którym rating drgnął, więc serie
+  miały różne długości, a wykres rysuje je po indeksie: wyniki lądowały pod
+  złymi datami, a linie urywały się przed końcem sezonu. Najmocniej biło to
+  w dniu, w którym grano i singla, i debla (zgłoszony bug 2026-11-27).
+  `przelicz()` zwraca też `dni`, czyli listę dni liczonych w tym trybie, i to
+  z niej `ekran-elo.js` robi oś X. **Nie licz dni osobno w ekranie**: tamten
+  filtr brał mecze ledwo zaczęte, a ELO liczy tylko dograne, co znowu
+  rozjeżdżało oś.
+- **„Kim jesteś?” pyta przy starcie, raz.** `pp:ja` w localStorage, czyli
+  per telefon. Dopóki nikt nie wybrał ksywki, przy każdym uruchomieniu wyskakuje
+  arkusz z czwórką (`zapytajKimJestes` w `app.js`); po wyborze już nigdy.
+  Świadomie JEDNA zaczepka na start: podpowiedź o dymkach ⓘ czeka wtedy na
+  kolejne wejście, żeby nie nachodziły na siebie.
+- **„Twoje miejsce” stoi na górze Startu**, zaraz pod nagłówkiem, bo to rzecz
+  osobista i ma być widoczna od razu. Osobny kafel na debla i na singla,
+  medal 🥇🥈🥉 tylko za pierwsze trzy miejsca, miejsca liczone wśród tych,
+  którzy w danym trybie zagrali (`r.mecze > 0`), czyli tak samo jak w tabelach.
+  Złoto zostaje przy pierwszym miejscu, srebro i brąz mają samą ramkę.
 - **Kolory serii na wykresach są przypisane do gracza, nie do miejsca**
   w tabeli, i przeszły walidację kontrastu i daltonizmu. Nie podmieniaj
   ich bez ponownego sprawdzenia.
