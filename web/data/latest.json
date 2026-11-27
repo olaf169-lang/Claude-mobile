@@ -1,8 +1,8 @@
 {
  "wersja": "1.0.0",
- "wydanie": "2026-11-26",
- "dotyczy_dnia": "2026-11-25",
- "wygenerowano": "2026-11-26T16:16:19+00:00",
+ "wydanie": "2026-11-27",
+ "dotyczy_dnia": "2026-11-26",
+ "wygenerowano": "2026-11-27T16:01:26+00:00",
  "strefa": "Europe/Warsaw",
  "tryb": "ekstrakcyjny",
  "demo": false,
@@ -14,88 +14,105 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "Wystarczył krótki komunikat Tuska. W koalicji zawrzało. \"Po cichu się mówi\"",
-   "lead": "Jeśli ktoś myśli\" - ten krótki komunikat Donalda Tuska narobił zamieszania w koalicji rządzącej. Premier sugerował stworzenie wspólnej listy ekipy rządowej na przyszłoroczne wybory.",
+   "nagłówek": "Sąd uchylił decyzję warszawskiego ratusza. Jarosław Kaczyński reaguje",
+   "lead": "\"To bardzo optymistyczne\" - w taki sposób prezes PiS Jarosław Kaczyński zareagował na czwartkowy werdykt sądu. Uchylił on decyzję stołecznego ratusza, który odmówił przedłużenia zgody na zgromadzenie przed Trybunałem Konstytucyjnym.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-25T17:30:03+00:00",
+   "opublikowano": "2026-11-26T22:34:54+00:00",
    "źródło": {
     "nazwa": "Interia Fakty",
-    "url": "https://wydarzenia.interia.pl/kraj/news-w-kuluarach-az-huczy-trzy-slowa-tuska-wywolaly-poploch-w-koa,nId,23578997",
+    "url": "https://wydarzenia.interia.pl/kraj/news-sad-uchylil-decyzje-warszawskiego-ratusza-jaroslaw-kaczynski,nId,23579759",
     "domena": "wydarzenia.interia.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000NKLM9THYE4DLU-C321.webp",
+   "obraz": "https://i.iplsc.com/-/000NKTH48FIB017Y-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Czy za niecały rok cały obóz wystartuje razem? - Nikt tego głośno nie przyzna, ale po cichu się o tym mówi - słyszymy.",
-      "Polityk PSL: - Wygląda to tak, jakby kierownik myślał o doduszeniu koalicjantów.",
-      "Z Polską 2050 już mu się udało.",
-      "Idzie po kolejnych. - To będzie krok, po którym nie będzie odwrotu i powrotu do samodzielności.",
-      "Wiemy o tym, ale widzimy też sondaże - mówi nam inny ważny polityk ludowców. - Niedawno byli u nas w partii sami przeciwnicy tego pomysłu, ale sytuacja się zmienia, bo widzimy, że jest Braun - słyszymy w Lewicy.",
-      "Sądząc po rozmowach z politykami partii koalicyjnych, które przeprowadziła Interia, wspólna lista w wyborach parlamentarnych w 2027 roku, może stać się rzeczywistością.",
-      "Jednej, wielkiej wspólnej listy koalicji rządzącej nikt w tym obozie władzy nie chce.",
-      "Ale jeszcze bardziej nikt nie chce porażki w wyborach i oddania władzy prawicy.",
-      "\"W dzisiejszym sondażu (Pollster dla Super Expressu) Koalicja 15 X wygrywa ze wspólną listą Kaczyńskiego, Brauna, Bosaka i Morawieckiego 54 do 46."
+      "Kaczyński na niedzielę zapowiedział spotkanie przed siedzibą TK.",
+      "\"Bądźmy tam razem\" - napisał. \" Bezprawna decyzja prezydenta Warszawy Rafała Trzaskowskiego zakazująca zgromadzenia przed Trybunałem Konstytucyjnym uchylona przez sąd\" - napisał w czwartek wieczorem w serwisie X Jarosław Kaczyński .",
+      "Prezes PiS uznał, że \"kolejni sędziowie nie chcą ochraniać nielegalnych decyzji polityków Koalicji Obywatelskiej , a tym samym żyrować ich swoim nazwiskiem\".",
+      "\"To bardzo optymistyczne , choć walka o powstrzymanie bezprawnych działań tej władzy będzie trwać aż do samych wyborów parlamentarnych\" - ocenił polityk.",
+      "Zapowiedział, że \"w niedzielę spotykamy się o godz.",
+      "Do decyzji sądu odniósł się również Piotr Duda , szef Solidarności.",
+      "\"Wolność pokojowych zgromadzeń to nasze konstytucyjne prawo, a nie przywilej przyznawany przez władzę.",
+      "Rafał Trzaskowski ma obowiązek je respektować.",
+      "Cieszę się, że dziś potwierdził to sąd."
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "- Protestować może każdy, ale blokować ulice i zamykać drzwi do instytucji na dwa miesiące - nikt - przekonywał Rafał Trzaskowski, prezydent Warszawy.",
+      "Tak uzasadniał odmowę wydania zgody na przedłużenie protestu przed Trybunałem Konstytucyjnym na okres od 30 listopada aż do 5 stycznia.",
+      "Przed siedzibą tej instytucji od tygodni zwolennicy Prawa i Sprawiedliwości protestują przeciwko odsunięciu od czynności prezesa Bogdana Święczkowskiego, powołanego do trybunału za czasów PiS.",
+      "Odwołanie w czwartek wieczorem 26 listopada rozpatrzył Sąd Okręgowy w Warszawie."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Trzeci rząd Donalda Tuska – Rada Ministrów pod kierownictwem premiera Donalda Tuska."
+      "Trybunał Konstytucyjny – polski sąd konstytucyjny, organ władzy sądowniczej, utworzony w 1982 r., który rozpoczął działalność orzeczniczą w 1986 r. Jego podstawowym zadaniem jest sądowa kontrola konstytucyjności prawa: kontrolowanie zgodności norm prawnych niższego rzędu z normami prawnymi wyższego rzędu, przede wszystkim z Konstytucją i niektórymi umowami międzynarodowymi."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Trzeci rząd Donalda Tuska",
-     "url": "https://pl.wikipedia.org/wiki/Trzeci_rz%C4%85d_Donalda_Tuska"
+     "przypis": "Wikipedia: Trybunał Konstytucyjny (Polska)",
+     "url": "https://pl.wikipedia.org/wiki/Trybuna%C5%82_Konstytucyjny_(Polska)"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
     "15",
-    "54",
-    "46",
-    "5 proc."
+    "30",
+    "24 godziny",
+    "40",
+    "26",
+    "20 tys."
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Trzeci rząd Donalda Tuska",
-    "opis": "Rada Ministrów pod kierownictwem Donalda Tuska od 13 grudnia 2023",
-    "tekst": "Trzeci rząd Donalda Tuska – Rada Ministrów pod kierownictwem premiera Donalda Tuska.",
-    "url": "https://pl.wikipedia.org/wiki/Trzeci_rz%C4%85d_Donalda_Tuska",
+    "hasło": "Trybunał Konstytucyjny (Polska)",
+    "opis": "polski sąd konstytucyjny",
+    "tekst": "Trybunał Konstytucyjny – polski sąd konstytucyjny, organ władzy sądowniczej, utworzony w 1982 r., który rozpoczął działalność orzeczniczą w 1986 r. Jego podstawowym zadaniem jest sądowa kontrola konstytucyjności prawa: kontrolowanie zgodności norm prawnych niższego rzędu z normami prawnymi wyższego rzędu, przede wszystkim z Konstytucją i niektórymi umowami międzynarodowymi.",
+    "url": "https://pl.wikipedia.org/wiki/Trybuna%C5%82_Konstytucyjny_(Polska)",
     "język": "pl"
    },
    "tagi": [
-    "Nowej Lewicy",
-    "Centrum",
-    "Tuska",
-    "Donald Tusk"
+    "Trybunałem Konstytucyjnym",
+    "PiS",
+    "Warszawy Rafała Trzaskowskiego",
+    "Konfederacji Korony Polskiej"
    ],
    "emotki": [
-    "🏛️",
-    "🗳️"
+    "⚖️",
+    "🏛️"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Interia Fakty",
-     "tytuł": "Wystarczył krótki komunikat Tuska. W koalicji zawrzało. \"Po cichu się mówi\"",
-     "url": "https://wydarzenia.interia.pl/kraj/news-w-kuluarach-az-huczy-trzy-slowa-tuska-wywolaly-poploch-w-koa,nId,23578997"
+     "tytuł": "Sąd uchylił decyzję warszawskiego ratusza. Jarosław Kaczyński reaguje",
+     "url": "https://wydarzenia.interia.pl/kraj/news-sad-uchylil-decyzje-warszawskiego-ratusza-jaroslaw-kaczynski,nId,23579759"
+    },
+    {
+     "nazwa": "Gazeta.pl",
+     "tytuł": "Protest przed TK. Prezydent Warszawy zakazał, sąd wydał decyzję",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198072,33152928,protest-przed-tk-prezydent-warszawy-zakazal-sad-wydal-decyzje.html"
     }
    ],
-   "liczba_źródeł": 1,
+   "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.41,
+    "wynik": 5.529,
     "składowe": {
-     "potwierdzenia": 0.0,
-     "ranga_źródła": 1.0,
+     "potwierdzenia": 1.9,
+     "ranga_źródła": 1.15,
      "eksponowanie": 0.0,
      "słowa_kluczowe": 1.05,
-     "świeżość": 0.456,
-     "treściwość": 0.404,
+     "świeżość": 0.52,
+     "treściwość": 0.409,
      "język_działu": 0.5
     }
    },
@@ -108,70 +125,89 @@
     "emoji": "🇵🇱",
     "opis": "polityka, gospodarka, handel, sprawy krajowe"
    },
-   "nagłówek": "Cielecka i Linda oskarżeni ws. reklam alkoholu. Wkrótce wyrok",
-   "lead": "Akt oskarżenia w tej sprawie trafił do Sądu Rejonowego Warszawa-Śródmieście w sierpniu, a proces ruszył w grudniu ub.r. Sprawa toczy się z zawiadomienia działacza społecznego Jana Śpiewaka.",
+   "nagłówek": "Sikorski wypomniał Nawrockiemu problem z ambasadorami. Podał przykład z Chile",
+   "lead": "Karol Nawrocki przebywa w Ameryce Południowej od 23 listopada. Celem jego wizyty jest uzyskanie poparcia dla członkostwa Polski w grupie G20.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-25T21:20:00+00:00",
+   "opublikowano": "2026-11-26T19:37:00+00:00",
    "źródło": {
     "nazwa": "Gazeta.pl",
-    "url": "https://wiadomosci.gazeta.pl/polska/7,198072,33151005,cielecka-i-linda-oskarzeni-ws-reklam-alkoholu-wkrotce-wyrok.html",
+    "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33152830,sikorski-wypomnial-nawrockiemu-problem-z-ambasadorami-podal.html",
     "domena": "wiadomosci.gazeta.pl"
    },
-   "obraz": "https://bi.im-g.pl/im/3e/9d/1f/z33151038IHG,Boguslaw-Linda--Zdjecie-archiwalne.jpg",
+   "obraz": "https://bi.im-g.pl/im/61/9d/1f/z33152865IHG,Radoslaw-Sikorski--zdjecie-archiwalne-.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "W środę sędzia Łukasz Grylewicz zamknął przewód sądowy i strony wygłosiły mowy końcowe.",
-      "Przedstawiciel organizacji społecznych reprezentujący fundację \"Bezpieczna Polska dla Wszystkich\" adwokat Krzysztof Nowiński podkreślił w mowie końcowej, że nie ma żadnych wątpliwości, że reklama alkoholu w portalach społecznościowych miała charakter publiczny.",
-      "Zaznaczył, że jeśli chodzi o aktorów, to są oni wybitnymi postaciami i w związku z tym powinna się wiązać pewnego rodzaju odpowiedzialność. - To osoby ważne dla naszej kultury, które są cenione.",
-      "Proszę, by to znalazło odzwierciedlenie w wymierzonych karach - mówił na sali rozpraw.",
-      "Dodał, że to, co aktorzy zarobili na tych reklamach, powinno zostać zwrócone.",
-      "Na sali rozpraw nie pojawili się ani Magdalena Cielecka (zgodziła się na podanie nazwiska), ani Bogusław Linda (zgodził się na podanie nazwiska) - oboje nie mieli takiego obowiązku.",
-      "Reklamy alkoholi z udziałem Cieleckiej i Lindy były publikowane w mediach społecznościowych w 2023 r.",
-      "Obrońcy oskarżonych zaznaczali, że prokuratura przez wiele lat akceptowała podobne przypadki i umarzała tego typu sprawy, a tylko nieliczne z nich trafiały na wokandę.",
-      "Obrończyni Magdaleny Cieleckiej wskazywała m.in., że aktorka nie miała wpływu na to, gdzie treści były publikowane."
+      "Prezydent w poniedziałek spotkał się z ze swoim argentyńskim odpowiednikiem Javierem Mileiem.",
+      "Trzy dni później - w czwartek - udał się do Chile, gdzie rozmawiał z przywódcą tego kraju José Antoniem Kastem Ristem.",
+      "Minister spraw zagranicznych, Radosław Sikorski zwrócił uwagę w serwisie X na \"godne przyjęcie prezydenta RP w Chile\".",
+      "Następnie poinformował, że wizytę przygotował charge d'affaires Michał Świetlik.",
+      "Jest to jeden z dyplomatów, którzy nadal czekają, aż prezydent mianuje ich na ambasadorów.",
+      "\"Ciekawe, czy dostanie nominację ambasadorską\" - napisał wicepremier.",
+      "Impas jest spowodowany sporem między rządem a Kancelarią Prezydenta.",
+      "W jego wyniku - jak informował Sikorski - Nawrocki nie podpisał 46 powołań na funkcję ambasadorów oraz 38 odwołań z tego stanowiska - przekazała PAP.",
+      "Wśród czekających na odwołanie są ambasadorowie RP w Chinach i Rumunii - Jakub Kumoch i Paweł Soloch, którzy zrezygnowali w odpowiedzi na zaostrzenie sporu wokół Trybunału Konstytucyjnego."
      ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Karol Tadeusz Nawrocki – polski historyk, polityk, działacz społeczny i samorządowy, doktor nauk humanistycznych. Prezydent Rzeczypospolitej Polskiej od 6 sierpnia 2025."
+     ],
+     "język": "pl",
+     "przypis": "Wikipedia: Karol Nawrocki",
+     "url": "https://pl.wikipedia.org/wiki/Karol_Nawrocki"
     }
    ],
-   "dlaczego_to_ważne": "Za zarzucane przestępstwa grozi grzywna w wysokości od 10 tys. zł do nawet 500 tys. zł.",
+   "dlaczego_to_ważne": "Wicepremier jest też ciekaw, czy Kancelaria Prezydenta pozwoli, aby Polska miała pełnych ambasadorów w dwóch ważnych krajach, jakimi są Rumunia i Chiny. - To pokazuje, jak dziwna jest polityka Kancelarii (Prezydenta) takiego paraliżowania, szantażowania Służby Zagranicznej brakami podpisów, gdy potem okazuje się, że wedle wszelkiej logiki te podpisy powinny być - powiedział Sikorski, cytowany…",
    "liczby": [
-    "10 tys. zł",
-    "500 tys. zł"
+    "23",
+    "46",
+    "38",
+    "13",
+    "50",
+    "24"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Karol Nawrocki",
+    "opis": "polski historyk i polityk, 7. prezydent III RP (od 2025)",
+    "tekst": "Karol Tadeusz Nawrocki – polski historyk, polityk, działacz społeczny i samorządowy, doktor nauk humanistycznych. Prezydent Rzeczypospolitej Polskiej od 6 sierpnia 2025.",
+    "url": "https://pl.wikipedia.org/wiki/Karol_Nawrocki",
+    "język": "pl"
+   },
    "tagi": [
-    "Sądu Rejonowego Warszawa-Śródmieście",
-    "Magdaleny Cieleckiej",
-    "Krzysztof Nowiński",
-    "Magdalena Cielecka"
+    "Polski",
+    "Sikorski",
+    "Trybunału Konstytucyjnego",
+    "Kancelaria Prezydenta"
    ],
    "emotki": [
-    "⚖️",
-    "🎭"
+    "🏛️"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Gazeta.pl",
-     "tytuł": "Cielecka i Linda oskarżeni ws. reklam alkoholu. Wkrótce wyrok",
-     "url": "https://wiadomosci.gazeta.pl/polska/7,198072,33151005,cielecka-i-linda-oskarzeni-ws-reklam-alkoholu-wkrotce-wyrok.html"
+     "tytuł": "Sikorski wypomniał Nawrockiemu problem z ambasadorami. Podał przykład z Chile",
+     "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,33152830,sikorski-wypomnial-nawrockiemu-problem-z-ambasadorami-podal.html"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.061,
+    "wynik": 3.013,
     "składowe": {
      "potwierdzenia": 0.0,
      "ranga_źródła": 1.0,
      "eksponowanie": 0.0,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.504,
-     "treściwość": 0.357,
+     "świeżość": 0.483,
+     "treściwość": 0.33,
      "język_działu": 0.5
     }
    },
@@ -184,111 +220,82 @@
     "emoji": "🌍",
     "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
    },
-   "nagłówek": "Kilmar Ábrego García, mężczyzna będący w centrum sporu o deportację, który wywołał Trump, opuszcza USA",
-   "lead": "Salwadorczyk, który został deportowany w marcu 2025 roku i wrócił do USA po orzeczeniu Sądu Najwyższego, dobrowolnie wyjechał do Hiszpanii. Kilmar Ábrego García dobrowolnie opuścił Stany Zjednoczone, potwierdzili we wtorek jego adwokaci. Departament Bezpieczeństwa Wewnętrznego potwierdził, że mężczyzna udał się do Hiszpanii.",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-24T23:50:31+00:00",
+   "nagłówek": "Kulisy rozmów Trumpa z szefem NATO. Putin pojawi się na szczycie G20 w Miami?",
+   "lead": "Prezydent Stanów Zjednoczonych Donald Trump, spędzający Święto Dziękczynienia na Florydzie, spotkał się z sekretarzem generalnym NATO Markiem Ruttem. Jak sam przyznał, rozmowy dotyczyły przede wszystkim sytuacji w Ukrainie oraz rozmieszczenia amerykańskich wojsk w Europie.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-27T04:27:00+00:00",
    "źródło": {
-    "nazwa": "The Guardian",
-    "url": "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us",
-    "domena": "theguardian.com"
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-kulisy-rozmow-trumpa-z-szefem-nato-putin-pojawi-sie-na-szczy,nIdn,1027893",
+    "domena": "rmf24.pl"
    },
-   "obraz": "https://i.guim.co.uk/img/media/15d0ddecd877f6d5df4f8e4c21bb5be5961696ea/1245_0_4004_3203/master/4004.jpg?width=140&quality=85&auto=format&fit=max&s=cc50a0643f2aa3990ed51abd6f550f8d",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/79/b7/donald-trump-636x421-79b75583.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Salwadorski imigrant znalazł się w centrum trwającej wiele miesięcy batalii prawnej, odkąd w marcu 2025 roku został deportowany do Salwadoru przez administrację Trumpa, wbrew orzeczeniu sądu przyznającemu mu ochronę.",
-      "Był przetrzymywany w Cecot, niesławnej megawięzieniu.",
-      "Ostatecznie wrócił do USA trzy miesiące później, po wydaniu decyzji przez Sąd Najwyższy.",
-      "Od tego czasu Ábrego walczy z drugą deportacją do jednego z kilku krajów afrykańskich, którą proponują urzędnicy Departamentu Bezpieczeństwa Wewnętrznego (DHS).",
-      "Gazeta „The Washington Post” poinformowała wcześniej we wtorek, że negocjował on porozumienie z władzami federalnymi w sprawie dobrowolnego opuszczenia USA, aby uniknąć przymusowego wydalenia.",
-      "W oświadczeniu amerykański senator Chris Van Hollen, który opowiadał się za Ábrego, mieszkańcem stanu Maryland, i który spotkał się z nim w Salwadorze w ubiegłym roku, określił go mianem „wolnego człowieka” i odniósł się do porozumienia Ábrego z administracją Trumpa. „Podczas gdy administracja Trumpa prowadziła mściwe postępowanie przeciwko Kilmarowi i desperacko starała się odesłać go wbrew jego woli do krajów znanych z łamania praw człowieka, została zmuszona do podjęcia takiej decyzji porozumienie, które respektuje wolę Kilmara oraz przysługujące mu i wszystkim obywatelom naszego kraju prawo do rzetelnego procesu” – powiedział Van Hollen. „Cieszę się, że będzie bezpieczny, w wybranym przez siebie kraju i wolny – także od ciągłych prześladowań ze strony tej administracji”. 31-latek ma amerykańską żonę i dziecko oraz od lat mieszka w Maryland, ale jako nastolatek nielegalnie imigrował do USA.",
-      "W 2019 roku sędzia imigracyjny orzekł, że nie można go deportować do Salwadoru, ponieważ grozi mu tam niebezpieczeństwo ze strony gangu, który groził jego rodzinie.",
-      "Sędzia zezwolił mu na zamieszkanie i pracę w USA pod nadzorem Urzędu Imigracyjnego i Celnego (ICE), ale nie przyznał mu statusu rezydenta.",
-      "Został aresztowany w Baltimore w marcu 2025 roku i deportowany do więzienia w Salwadorze w wyniku tego, co później urzędnik nazwał „błędem administracyjnym”."
+      "R ozmawialiśmy o tym długo – podkreślił Trump w rozmowie z dziennikarzami.",
+      "Trump nie szczędził słów krytyki wobec europejskich sojuszników, zarzucając im brak zaangażowania w sprawy Iranu .",
+      "Wspomniał o Grenlandii , gdzie – na mocy nowego porozumienia dotyczącego bezpieczeństwa Arktyki – Stany Zjednoczone będą mogły wybudować dwie nowe bazy wojskowe.",
+      "Większość rozmowy Trumpa z Ruttem dotyczyła wojny w Ukrainie.",
+      "Prezydent USA ponownie wyraził przekonanie, że zarówno Rosja, jak i Ukraina oraz NATO chcą zakończenia konfliktu.",
+      "Do tanga trzeba dwojga – stwierdził Trump, dodając, że zamówienie przez NATO 750 samolotów F-35 to dowód na powagę sytuacji.",
+      "Szkoda, że czują, że ich potrzebują – dodał.",
+      "Po spotkaniu wydano wspólne oświadczenie, w którym podkreślono konieczność unikania działań mogących rozszerzyć konflikt.",
+      "Jednak kilka godzin później Trump zmienił jego wydźwięk , publikując w mediach społecznościowych wpis, w którym odpowiedzialność za unikanie eskalacji przypisał zarówno Rosji, jak i Ukrainie."
      ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Zasubskrybuj tutaj, aby otrzymywać go na swoją skrzynkę odbiorczą, i posłuchaj podcastu Up First, aby poznać wszystkie wiadomości, których potrzebujesz na początek dnia.",
-      "Dziś rano armia przeprowadzi w Middletown w stanie Iowa potężną eksplozję, aby bezpiecznie zutylizować tysiące funtów azydu ołowiu, który może ulec samorzutnemu wybuchowi.",
-      "Materiał wybuchowy był używany od czasów I wojny światowej i 17 lat temu przeniesiono go do bunkra w Iowie.",
-      "Władze zarządziły ewakuację osób znajdujących się w promieniu 5 mil, a osobom przebywającym w promieniu 20 mil zaleca się pozostanie w pomieszczeniach, aby uniknąć narażenia na działanie toksyn."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Kilmar Armando Ábrego García, Salwadorczyk mieszkający w Stanach Zjednoczonych, został nielegalnie deportowany 15 marca 2025 r. przez rząd USA pod kierownictwem administracji Trumpa, która nazwała to „błędem administracyjnym”. Jego przypadek stał się najbardziej znanym spośród setek migrantów, których Stany Zjednoczone wysłały do więzienia bez procesu w salwadorskim Centrum Odosobnienia Terrorystów (CECOT) na mocy porozumienia między krajami, zgodnie z którym Stany Zjednoczone miały płacić rządowi Salwadoru za osadzanie tam deportowanych z USA osób. Administracja broniła decyzji o deportacji i oskarżyła Abrego Garcię o przynależność do MS-13 – organizacji uznanej przez Stany Zjednoczone za terrorystyczną – na podstawie raportu policji hrabstwa, o którym mowa była podczas postępowania w sprawie zwolnienia za kaucją przed sądem imigracyjnym w 2019 roku. Abrego Garcia zaprzeczył temu zarzutowi."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Deportation of Kilmar Abrego Garcia",
-     "url": "https://en.wikipedia.org/wiki/Deportation_of_Kilmar_Abrego_Garcia"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "31",
-    "17",
+    "750",
+    "35",
     "20",
-    "23, 2026",
-    "65",
-    "90,000"
+    "14",
+    "45%",
+    "10%"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Deportation of Kilmar Abrego Garcia",
-    "opis": "2025 US extrajudicial deportation",
-    "tekst": "Kilmar Armando Ábrego García, a Salvadoran man living in the United States, was illegally deported on March 15, 2025, by the U.S. government under the Trump administration, which called it \"an administrative error\". His case became the most prominent of the hundreds of migrants the U.S. sent to be jailed without trial at the Salvadoran Terrorism Confinement Center (CECOT) under the countries' agreement where the U.S. would pay the Salvadoran government to imprison U.S. deportees there. The administration defended the deportation and accused Abrego Garcia of being a member of MS-13—a US-designated terrorist organization—based on a county police report mentioned during a 2019 immigration court bail proceeding. Abrego Garcia has denied the allegation.",
-    "url": "https://en.wikipedia.org/wiki/Deportation_of_Kilmar_Abrego_Garcia",
-    "język": "en"
-   },
+   "tło": null,
    "tagi": [
+    "Miami",
     "Trump",
-    "Ábrego",
-    "Salvadorian",
-    "El Salvador"
+    "Ukrainie",
+    "Trumpa"
    ],
    "emotki": [
-    "🏛️"
+    "🏛️",
+    "⚔️",
+    "🤝"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "The Guardian",
-     "tytuł": "Kilmar Ábrego García, man at center of Trump deportation battle, leaves US",
-     "url": "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us"
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Kulisy rozmów Trumpa z szefem NATO. Putin pojawi się na szczycie G20 w Miami?",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-kulisy-rozmow-trumpa-z-szefem-nato-putin-pojawi-sie-na-szczy,nIdn,1027893"
     },
     {
-     "nazwa": "NPR",
-     "tytuł": "Army to detonate tons of lead azide after delays. And, Abrego Garcia leaves U.S.",
-     "url": "https://www.npr.org/2026/11/25/g-s1-155493/up-first-newsletter-iowa-detonation-kilmar-abrego-garcia-nvidia-jensen-huang"
+     "nazwa": "The Guardian",
+     "tytuł": "China reserves right to take ‘necessary measures’ after Trump’s new tariff proposals",
+     "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat"
     }
    ],
    "liczba_źródeł": 2,
-   "czas_czytania_min": 3,
+   "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.211,
+    "wynik": 5.55,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.35,
-     "eksponowanie": 0.72,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.391,
+     "ranga_źródła": 1.357,
+     "eksponowanie": 0.0,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.593,
      "treściwość": 0.5,
-     "język_działu": 0.0
+     "język_działu": 0.5
     }
-   },
-   "oryginalny_nagłówek": "Kilmar Ábrego García, man at center of Trump deportation battle, leaves US",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
    },
    "miejsce": 1
   },
@@ -299,73 +306,97 @@
     "emoji": "🌍",
     "opis": "polityka międzynarodowa, dyplomacja, handel globalny"
    },
-   "nagłówek": "Prokurator generalny USA unika pytań dotyczących dochodzenia w sprawie Nvidii",
-   "lead": "Kurs akcji Nvidii spadł o 7%, ponieważ ustawodawcy domagają się odpowiedzi na temat zaangażowania prezydenta Donalda Trumpa w przywrócenie Huanga na stanowisko.",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-25T03:44:07+00:00",
+   "nagłówek": "Trump o rozmowie z Putinem: Powiedziałem mu, żeby wycofał się z agresji na Europę",
+   "lead": "Donald Trump napisał w czwartek w serwisie Truth Social, że poświęcił wiele czasu na rozmowę z prezydentem Rosji Władimirem Putinem podczas spotkania w Chinach. „Chciałbym, aby prezydent Putin wycofał się ze wszelkiej agresji militarnej wymierzonej w terytoria w Europie” – przekazał amerykański prezydent, chociaż nie…",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-26T16:46:00+00:00",
    "źródło": {
-    "nazwa": "BBC Business",
-    "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
-    "domena": "bbc.co.uk"
+    "nazwa": "RMF24 Świat",
+    "url": "https://www.rmf24.pl/fakty/swiat/news-trump-o-rozmowie-z-putinem-powiedzialem-mu-zeby-wycofal-sie-,nIdn,1027862",
+    "domena": "rmf24.pl"
    },
-   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/067a/live/dc6baca0-e839-11f1-a094-5fdc692f3e33.png",
+   "obraz": "https://rmf.rmffm.pl/news/attachments/f1/a1/imago-stock-and-people-636x421-f1a1e029.jpg",
    "sekcje": [
     {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
      "treść": [
-      "Według osoby zaznajomionej ze sprawą, która otrzymała zgodę na wypowiedź na temat poufnego briefingu pod warunkiem zachowania anonimowości, przedstawiciele amerykańskich służb wywiadowczych poinformowali pracowników Kongresu, że nie ma dowodów na to, iż Alice Huang, kobieta, która miała romans z szefem Nvidii, była chińską szpiegką lub agentką wywiadu.",
-      "Nie ma też dowodów na to, że to ona zainicjowała romans w celu zbierania informacji wywiadowczych dla chińskiego rządu – powiedział Ryanowi Lucasowi z NPR-u pod warunkiem zachowania anonimowości ze względu na drażliwy charakter sprawy.",
-      "Trump powiedział, że pomógł zorganizować powrót Huanga na stanowisko dyrektora generalnego, a zarząd Nvidii utrzymuje, że jego przywrócenie nie stanowi zagrożenia dla bezpieczeństwa narodowego."
+      "W ostatnim czasie doszło do serii prowokacji militarnych na terytoria krajów NATO, w tym do upadku rakiet na terenie Polski.",
+      "Trump ocenił jednak, że osiągnięcie porozumienia między Rosją i Ukrainą jest „bardzo realną możliwością”.",
+      "Podkreślił, że w wojnie każdego miesiąca giną tysiące ludzi.",
+      "W środę wieczorem Trump spotkał się w swojej rezydencji Mar-a-Lago na Florydzie z sekretarzem generalnym NATO Markiem Ruttem.",
+      "Prezydent USA poinformował go o rozmowach z Putinem w Shenzhen.",
+      "We wspólnym komunikacie po spotkaniu wskazano, że głównymi tematami rozmów były wojna w Ukrainie oraz konflikt z Iranem.",
+      "Trump i Rutte zaznaczyli, że Rosja powinna unikać działań, które mogłyby – celowo lub przypadkowo – rozszerzyć konflikt.",
+      "Podkreślili również znaczenie jak najszybszego pokojowego rozwiązania wojny.",
+      "Rozmawiano także o zwiększaniu wydatków na obronność i inwestycjach w przemysł zbrojeniowy w państwach NATO."
      ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "The Russo-Ukrainian war began in February 2014 and is ongoing. Following Ukraine's Revolution of Dignity, Russia occupied Crimea and annexed it from Ukraine. It then supported Russian separatist armed groups who started a war in the eastern Donbas region against Ukraine's military. In 2018, Ukraine declared the region to be occupied by Russia. The first eight years of conflict also involved naval incidents and cyberwarfare. In February 2022, Russia launched a full-scale invasion of Ukraine and began occupying more of the country, starting the current phase of the war, the largest conflict in Europe since World War II. The war has resulted in a refugee crisis and hundreds of thousands of deaths."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Russo-Ukrainian war",
+     "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "7%",
-    "21, 2022"
+    "12"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Russo-Ukrainian war",
+    "opis": "Ongoing conflict since 2014",
+    "tekst": "The Russo-Ukrainian war began in February 2014 and is ongoing. Following Ukraine's Revolution of Dignity, Russia occupied Crimea and annexed it from Ukraine. It then supported Russian separatist armed groups who started a war in the eastern Donbas region against Ukraine's military. In 2018, Ukraine declared the region to be occupied by Russia. The first eight years of conflict also involved naval incidents and cyberwarfare. In February 2022, Russia launched a full-scale invasion of Ukraine and began occupying more of the country, starting the current phase of the war, the largest conflict in Europe since World War II. The war has resulted in a refugee crisis and hundreds of thousands of deaths.",
+    "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war",
+    "język": "en"
+   },
    "tagi": [
-    "President Donald Trump's",
-    "Nvidia's",
-    "Huang's",
-    "Nvidia"
+    "NATO",
+    "Ukrainie",
+    "Rosję",
+    "USA"
    ],
-   "emotki": [],
+   "emotki": [
+    "🏛️",
+    "⚔️"
+   ],
    "wszystkie_źródła": [
     {
-     "nazwa": "BBC Business",
-     "tytuł": "US attorney general dodges questions about Nvidia investigation",
-     "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss"
+     "nazwa": "RMF24 Świat",
+     "tytuł": "Trump o rozmowie z Putinem: Powiedziałem mu, żeby wycofał się z agresji na Europę",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-trump-o-rozmowie-z-putinem-powiedzialem-mu-zeby-wycofal-sie-,nIdn,1027862"
     },
     {
-     "nazwa": "NPR",
-     "tytuł": "Republican wants FBI and CIA answers before questioning Nvidia chief",
-     "url": "https://www.npr.org/2026/11/25/nx-s1-6052417/nvidia-jensen-huang-reaction-republicans-congress-investigation"
+     "nazwa": "BBC Business",
+     "tytuł": "What we know about Trump's Thanksgiving tariffs",
+     "url": "https://www.bbc.co.uk/news/videos/c3x29v11ed1xo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "nazwa": "BBC Europe",
+     "tytuł": "Zelensky questions 'strange' Trump-Putin friendship in BBC interview",
+     "url": "https://www.bbc.co.uk/news/videos/cm9309nwk7x9o?at_medium=RSS&at_campaign=rss"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 4.969,
+    "wynik": 5.225,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.3,
-     "eksponowanie": 0.45,
+     "ranga_źródła": 1.48,
+     "eksponowanie": 0.0,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.385,
-     "treściwość": 0.234,
-     "język_działu": 0.0
+     "świeżość": 0.514,
+     "treściwość": 0.131,
+     "język_działu": 0.5
     }
-   },
-   "oryginalny_nagłówek": "US attorney general dodges questions about Nvidia investigation",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
    },
    "miejsce": 2
   },
@@ -376,83 +407,87 @@
     "emoji": "🏅",
     "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
    },
-   "nagłówek": "Sądne dni przed Pajor i całą Polską. Mundial już o krok. Padła deklaracja",
-   "lead": "Jedynie kilka dni dzieli nas od pierwszego spotkania piłkarskiej reprezentacji kobiet z Irlandią w ramach finałów baraży o awans na przyszłoroczne mistrzostwa świata w Brazylii. Podopieczne Niny Patalon tak blisko turnieju tej rangi nie były nigdy, a o awansie zdecydują najbliższe dwa starcia z Irlandią.",
+   "nagłówek": "Chicago nad przepaścią. „Lewy” wie, co go czeka. Jedno potknięcie i koniec",
+   "lead": "Dokładnie przed tygodniem Stowarzyszenie Piłkarzy MLS opublikowało raport uwzględniający wysokość zarobków poszczególnych graczy. Otrzymaliśmy potwierdzenie wcześniejszych ustaleń nieoficjalnych.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-26T04:40:01+00:00",
+   "opublikowano": "2026-11-27T04:40:00+00:00",
    "źródło": {
     "nazwa": "Interia Sport",
-    "url": "https://sport.interia.pl/pilka-nozna/reprezentacja-polski/news-pajor-i-spolka-staja-do-walki-o-mundial-odwazna-deklaracja-z,nId,23578924",
+    "url": "https://sport.interia.pl/robert-lewandowski/news-chicago-fire-nad-przepascia-lewy-wie-co-go-czeka-jedno-potkn,nId,23579748",
     "domena": "sport.interia.pl"
    },
-   "obraz": "https://i.iplsc.com/-/000MWN5B3TTP13EN-C321.webp",
+   "obraz": "https://i.iplsc.com/-/000NKTCIG5GRKITP-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Może się zdarzyć również tak, że mimo wszystko będą to... trzy mecze .",
-      "Jeśli Polki pokonają Irlandki podczas dwumeczu (1 i 5 grudnia), a pozostałe mecze potoczą się zgodnie z planem.",
-      "W skrócie, ekipa najniżej notowana z uzyskanym awansem z baraży będzie musiała przystąpić jeszcze w lutym do baraży interkontynentalnych .",
-      "I wydaje się, że w przypadku naszej kadry taki scenariusz jest mało prawdopodobny.",
-      "Niżej notowanymi ekipami są m.in.",
-      "Portugalki oraz Szwajcarki, które bez szans na awans nie są.",
-      "Najpierw należy się skupić jednak na ekipie z Wysp Brytyjskich.",
-      "\"Biało-Czerwone\" zgrupowanie rozpoczęły we wtorek.",
-      "I już mają doświadczenie gry w barażach, bowiem miesiąc temu mierzyły się z Belgijkami."
+      "Na szczycie listy znajduje się Lionel Messi, tuż za nim - Robert Lewandowski .",
+      "Argentyńczyk zarabia rocznie 28,33 mln dolarów.",
+      "To pensja bazowa plus bonusy i premie lojalnościowe.",
+      "O wiele ciekawiej przytoczone kwoty wyglądają w zestawieniu z budżetami płacowymi obu klubów.",
+      "W tym zestawieniu równych sobie nie ma Inter Miami z Messim na pokładzie - na apanaże wydaje 59,38 mln dolarów.",
+      "Na drugiej lokacie figuruje Chicago Fire - tu na realizację kontraktów przeznaczono 41,28 mln dolarów.",
+      "To istotne przynajmniej z jednego powodu.",
+      "Pensja Lewandowskiego stanowi aż 47 proc. budżetu płacowego \"Strażaków\" .",
+      "Drugi na liście najlepiej wynagradzanych w tym zespole piłkarzy - Jonathan Bamba - zarabia blisko cztery razy mniej od Polaka (patrz tabela poniżej)."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Ewa Barbara Pajor – polska piłkarka, występująca na pozycji napastniczki, od sezonu 2024/25 zawodniczka FC Barcelony Femení, od 2009 reprezentantka kraju, a od 2013 członkini seniorskiej kadry narodowej."
+      "Chicago Fire Football Club – amerykański klub piłkarski z Chicago, występujący w Major League Soccer. Popularnie nazywany Strażakami. Nazwa zespołu pochodzi od wielkiego pożaru Chicago i założony został 8 października 1997, w 126. rocznicę pożaru. W swoim pierwszym sezonie w 1998 roku drużyna wygrała zarówno MLS Cup, jak i U.S. Open Cup. Inne tryumfy w U.S. Open Cup odnosiła w latach: 2000, 2003, 2006. Zdobyła także MLS Supporters’ Shield w roku 2003."
      ],
      "język": "pl",
-     "przypis": "Wikipedia: Ewa Pajor",
-     "url": "https://pl.wikipedia.org/wiki/Ewa_Pajor"
+     "przypis": "Wikipedia: Chicago Fire",
+     "url": "https://pl.wikipedia.org/wiki/Chicago_Fire"
     }
    ],
-   "dlaczego_to_ważne": "",
+   "dlaczego_to_ważne": "\"Lewy\" też nie ma na co narzekać - na jego konto wpłynie w sumie 19,51 mln dolarów.",
    "liczby": [
-    "18",
-    "00"
+    "28,33 mln",
+    "19,51 mln",
+    "59,38 mln",
+    "41,28 mln",
+    "47 proc.",
+    "38"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Ewa Pajor",
-    "opis": "polska piłkarka",
-    "tekst": "Ewa Barbara Pajor – polska piłkarka, występująca na pozycji napastniczki, od sezonu 2024/25 zawodniczka FC Barcelony Femení, od 2009 reprezentantka kraju, a od 2013 członkini seniorskiej kadry narodowej.",
-    "url": "https://pl.wikipedia.org/wiki/Ewa_Pajor",
+    "hasło": "Chicago Fire",
+    "opis": "amerykański klub piłki nożnej",
+    "tekst": "Chicago Fire Football Club – amerykański klub piłkarski z Chicago, występujący w Major League Soccer. Popularnie nazywany Strażakami. Nazwa zespołu pochodzi od wielkiego pożaru Chicago i założony został 8 października 1997, w 126. rocznicę pożaru. W swoim pierwszym sezonie w 1998 roku drużyna wygrała zarówno MLS Cup, jak i U.S. Open Cup. Inne tryumfy w U.S. Open Cup odnosiła w latach: 2000, 2003, 2006. Zdobyła także MLS Supporters’ Shield w roku 2003.",
+    "url": "https://pl.wikipedia.org/wiki/Chicago_Fire",
     "język": "pl"
    },
    "tagi": [
-    "Irlandią",
-    "Polską",
-    "Polki",
-    "Wysp Brytyjskich"
+    "Chicago Fire",
+    "Charlotte",
+    "Polaka",
+    "Stowarzyszenie Piłkarzy"
    ],
    "emotki": [
-    "🏅"
+    "🎮"
    ],
    "wszystkie_źródła": [
     {
      "nazwa": "Interia Sport",
-     "tytuł": "Sądne dni przed Pajor i całą Polską. Mundial już o krok. Padła deklaracja",
-     "url": "https://sport.interia.pl/pilka-nozna/reprezentacja-polski/news-pajor-i-spolka-staja-do-walki-o-mundial-odwazna-deklaracja-z,nId,23578924"
+     "tytuł": "Chicago nad przepaścią. „Lewy” wie, co go czeka. Jedno potknięcie i koniec",
+     "url": "https://sport.interia.pl/robert-lewandowski/news-chicago-fire-nad-przepascia-lewy-wie-co-go-czeka-jedno-potkn,nId,23579748"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.346,
+    "wynik": 2.996,
     "składowe": {
      "potwierdzenia": 0.0,
      "ranga_źródła": 1.05,
      "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.7,
+     "słowa_kluczowe": 0.35,
      "świeżość": 0.596,
      "treściwość": 0.5,
      "język_działu": 0.5
@@ -467,76 +502,71 @@
     "emoji": "🏅",
     "opis": "badminton, tenis, piłka nożna, siatkówka, lekkoatletyka i reszta"
    },
-   "nagłówek": "Luis Enrique po remisie z Romą: był to nasz najtrudniejszy mecz w sezonie [WIDEO]",
-   "lead": "Myślę, że był to nasz najtrudniejszy mecz w sezonie. Cały czas wywierali na nas presję.",
+   "nagłówek": "UEFA błyskawicznie potwierdza ws. polskich drużyn. Walka o Ligę Mistrzów",
+   "lead": "Wspomniane zestawienie przygotowywane przez Unię Europejskich Związków Piłkarskich ważne jest przede wszystkim ze względu na Ligę Mistrzów . Czołowa dziesiątka ma zagwarantowany występ w najważniejszych klubowych rozgrywkach.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-25T22:45:00+00:00",
+   "opublikowano": "2026-11-26T22:11:24+00:00",
    "źródło": {
-    "nazwa": "TVP Sport",
-    "url": "https://sport.tvp.pl/96689024/luis-enrique-po-remisie-z-roma-byl-to-nasz-najtrudniejszy-mecz-w-sezonie-wideo",
-    "domena": "sport.tvp.pl"
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-nozna/liga-europy/news-uefa-natychmiast-potwierdza-po-meczach-polskich-druzyn-walka,nId,23579741",
+    "domena": "sport.interia.pl"
    },
-   "obraz": null,
+   "obraz": "https://i.iplsc.com/-/000NKTG2K0BM755A-C321.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Nikt nie gra tak, jak oni.",
-      "Jesteśmy zadowoleni, bo mogliśmy przegrać to spotkanie – mówi Luis Enrique, trener Paris Saint-Germain po zremisowanym 2:2 spotkaniu z Romą w piątej kolejce Ligi Mistrzów. – Nasz sekret?",
-      "Praca, trochę szczęścia i każdego dnia starać się być lepszym – dodał hiszpański szkoleniowiec."
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Musimy poprawić naszą jakość w trzeciej tercji boiska, by strzelać więcej goli – powiedział Joao Neves, pomocnik Paris Saint-Germain, po remisie 2:2 z Romą w piątej kolejce Ligi Mistrzów."
+      "Obecnie walka toczy się o kampanię 2028/29.",
+      "Polacy niestety stopniowo oddalają się od wymarzonej pozycji.",
+      "To efekt kiepskiej postawy w Lidze Europy.",
+      "26 listopada wiele wskazywało na upragnione przełamanie Lecha Poznań.",
+      "\"Kolejorz\" prowadził z Royale Union SG 2:0, gdy oba zespoły schodziły do szatni.",
+      "Niestety po zmianie stron Belgowie odrobili stratę, doprowadzając do remisu , otwiera się w nowym oknie .",
+      "Zamiast 0,400 punktu, Polska otrzymała ich dwukrotnie mniej.",
+      "Ta strona jest chroniona przez reCAPTCHA W przypadku Jagiellonii taki dorobek uznalibyśmy w ciemno za sukces, bo podopieczni Adriana Siemieńca wybrali się na trudny teren do Sunderlandu.",
+      "I pierwsza połowa była naprawdę dobra w ich wykonaniu (0:0)."
      ]
     }
    ],
    "dlaczego_to_ważne": "",
-   "liczby": [],
-   "inne_spojrzenia": [
-    {
-     "źródło": "TVP Sport",
-     "ujęcie": "Byli jednym z najlepszych zespołów, przeciwko którym graliśmy.",
-     "url": "https://sport.tvp.pl/96689023/joao-neves-chwali-rome-jeden-z-najtrudniejszych-przeciwnikow-wideo"
-    }
+   "liczby": [
+    "29",
+    "26",
+    "0,400 punktu",
+    "0,200 punktu"
    ],
+   "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Romą",
-    "Paris Saint-Germain",
-    "Ligi Mistrzów",
-    "Luis Enrique"
+    "Unię Europejskich Związków Piłkarskich",
+    "Lidze Europy Lecha Poznań",
+    "Ligę Mistrzów Wspomniane",
+    "Adriana Siemieńca"
    ],
-   "emotki": [],
+   "emotki": [
+    "⚽"
+   ],
    "wszystkie_źródła": [
     {
-     "nazwa": "TVP Sport",
-     "tytuł": "Luis Enrique po remisie z Romą: był to nasz najtrudniejszy mecz w sezonie [WIDEO]",
-     "url": "https://sport.tvp.pl/96689024/luis-enrique-po-remisie-z-roma-byl-to-nasz-najtrudniejszy-mecz-w-sezonie-wideo"
-    },
-    {
-     "nazwa": "TVP Sport",
-     "tytuł": "Joao Neves chwali Romę. \"Jeden z najtrudniejszych przeciwników\" [WIDEO]",
-     "url": "https://sport.tvp.pl/96689023/joao-neves-chwali-rome-jeden-z-najtrudniejszych-przeciwnikow-wideo"
+     "nazwa": "Interia Sport",
+     "tytuł": "UEFA błyskawicznie potwierdza ws. polskich drużyn. Walka o Ligę Mistrzów",
+     "url": "https://sport.interia.pl/pilka-nozna/liga-europy/news-uefa-natychmiast-potwierdza-po-meczach-polskich-druzyn-walka,nId,23579741"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 2.668,
+    "wynik": 2.909,
     "składowe": {
      "potwierdzenia": 0.0,
-     "ranga_źródła": 1.15,
+     "ranga_źródła": 1.05,
      "eksponowanie": 0.0,
-     "słowa_kluczowe": 0.0,
-     "świeżość": 0.522,
-     "treściwość": 0.496,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.515,
+     "treściwość": 0.494,
      "język_działu": 0.5
     }
    },
@@ -549,107 +579,96 @@
     "emoji": "🌐",
     "opis": "wielkie ligi, turnieje i rekordy poza Polską"
    },
-   "nagłówek": "Jak Isak i Wirtz stają się „graczami na wielkie mecze” Liverpoolu",
-   "lead": "Stephen Warnock i Nedum Onuoha z programu „Match of the Day” analizują niedawny powrót do formy Alexandra Isaka i Floriana Wirtza, którzy poprowadzili Liverpool do zwycięstwa nad Club Brugge w debiutanckich sezonach w ubiegłym roku.",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-25T23:38:42+00:00",
+   "nagłówek": "Koniec serii zwycięstw w starciach PSG z Wisłą. Wielkie emocje w Paryżu",
+   "lead": "Po słabym poprzednim sezonie, w którym PSG musiało drżeć o awans do fazy play-off Ligi Mistrzów, ten jest już inny. Mimo bardzo jednak podobnego składu.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-26T21:21:05+00:00",
    "źródło": {
-    "nazwa": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cmqx527v3x19o?at_medium=RSS&at_campaign=rss",
-    "domena": "bbc.co.uk"
+    "nazwa": "Interia Sport",
+    "url": "https://sport.interia.pl/pilka-reczna/news-koniec-serii-zwyciestw-w-starciach-psg-z-wisla-gigantyczne-e,nId,23579745",
+    "domena": "sport.interia.pl"
    },
-   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70be/live/120c5330-e927-11f1-99b6-a35a62fa4264.jpg",
+   "obraz": "https://i.iplsc.com/-/000NKTCUL60HFO7W-C321.webp",
    "sekcje": [
     {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
      "treść": [
-      "Liverpool pokonuje Club Brugge dzięki bramkom Alexandra Isaka i Floriana Wirtza, wracając na zwycięską ścieżkę po porażce w ostatnim meczu Ligi Mistrzów.",
-      "Dzięki dwóm golom strzelonym w meczu z Club Brugge Alexander Isak ma już na koncie 10 bramek w tym sezonie. Napastnik nadal udowadnia, dlaczego Liverpool zapłacił w ubiegłym roku 125 milionów funtów, aby sprowadzić go do klubu.",
-      "Pewnej mroźnej nocy w Belgii drużyna Andoniego Iraoli zaprezentowała się na wyjeździe znakomicie, przerywając imponującą serię zwycięstw Club Brugge i przybliżając się do bezpośredniego awansu z grupy Ligi Mistrzów.",
-      "Tydzień, który miał być sprawdzianem formy Liverpoolu, przyniósł wiele pozytywnych sygnałów przed niedzielnymi derbami Merseyside.",
-      "Po rozgromieniu Manchesteru United 4:0 mieliśmy kolejny pokaz znakomitego wykańczania akcji w wykonaniu Alexandra Isaka i Floriana Wirtza.",
-      "Isak podwoił swój dorobek bramkowy w tym sezonie, zdobywając dwie bramki, a Wirtz strzelił gola w trzecim meczu klubowym z rzędu, pozbawiając szans na zwycięstwo zdeterminowaną drużynę Brugii.",
-      "To było kolejne spotkanie bez straty gola, ale tym razem było ono wywalczone z trudem przeciwko przeciwnikowi, który zdobywał bramki w każdym innym meczu w tym sezonie (łącznie 18 meczów) i wygrał 10 z 11 poprzednich spotkań."
+      "W pierwszym etapie gracze z Paryża wygrali i zremisowali z Aalborgiem, trzy punkty przenieśli do drugiego etapu.",
+      "Tydzień temu dołożyli kolejne dwa, to potężna zaliczka w walce o ćwierćfinał w tym roku.",
+      "Dziś jakakolwiek zdobycz w stolicy Francji byłaby niezwykle cenna, bo przecież w tej grupie nie ma drużyn pokroju Dinama Bukareszt.",
+      "Tak jak przez lata przegrywali z PSG raz za razem, choć dwa spotkania z 2024 roku jedną bramką, tak w trzech ostatnich byli już lepsi.",
+      "A do tego Xavier Sabate ma znacznie bardziej wyrównany skład, więcej jakości na ławce.",
+      "Wicemistrzowie Polski kapitalnie zaczęli to spotkanie - 125 sekund wystarczyło, by odskoczyć na 3:1.",
+      "Ta sielanka skończyła się dość szybko, pudło Leona Susnji z sześciu metrów, dwa rzuty w słupki, kilka strat.",
+      "W PSG pierwszoplanową postacią był Elohim Prandi, wspomagał go Yahia Omar.",
+      "Poza Siergiejem Kosorotowem ciężko było wskazać jakiś atut w drugiej linii, zawodził Miha Zarabec."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Liverpool’s Dream to trzydniowe wydarzenie artystyczne na świeżym powietrzu z udziałem gigantycznych marionetek, które odbyło się w Liverpoolu w Anglii w dniach 5–7 października 2018 roku. Wydarzenie przyciągnęło do miasta ponad milion odwiedzających i było częściowo obchodami 10. rocznicy roku, w którym Liverpool był Europejską Stolicą Kultury w 2008 roku. Zapowiadano je jako ostatni występ olbrzymów i finał „Trylogii olbrzymów” po „Morskiej Odysei” i „Wspomnieniach z sierpnia 1914 roku”."
+      "Kamil Syprzak – polski piłkarz ręczny, grający na pozycji obrotowego (kołowego), reprezentant kraju, brązowy medalista mistrzostw świata 2015, uczestnik Letnich Igrzysk Olimpijskich 2016. W latach 2015–2019 zawodnik FC Barcelony, a od 2019 r. gracz Paris Saint-Germain Handball."
      ],
-     "język": "en",
-     "przypis": "Wikipedia: Liverpool's Dream",
-     "url": "https://en.wikipedia.org/wiki/Liverpool's_Dream"
+     "język": "pl",
+     "przypis": "Wikipedia: Kamil Syprzak",
+     "url": "https://pl.wikipedia.org/wiki/Kamil_Syprzak"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "10",
     "125",
-    "18",
-    "11",
-    "37",
-    "70"
+    "20",
+    "13",
+    "17",
+    "15",
+    "27"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Liverpool's Dream",
-    "opis": "2018 performance art event in Liverpool, England",
-    "tekst": "Liverpool’s Dream was a three-day outdoor performance art event featuring giant marionettes, that took place in Liverpool, England, from 5 to 7 October 2018. The event attracted more than a million visitors to the city and was, in part, a celebration of the 10th anniversary of Liverpool’s year as European Capital of Culture in 2008. It was billed as being the last appearance of the giants and the final show of the ‘Giants Trilogy’ after Sea Odyssey and Memories of August 1914.",
-    "url": "https://en.wikipedia.org/wiki/Liverpool's_Dream",
-    "język": "en"
+    "hasło": "Kamil Syprzak",
+    "opis": "polski piłkarz ręczny",
+    "tekst": "Kamil Syprzak – polski piłkarz ręczny, grający na pozycji obrotowego (kołowego), reprezentant kraju, brązowy medalista mistrzostw świata 2015, uczestnik Letnich Igrzysk Olimpijskich 2016. W latach 2015–2019 zawodnik FC Barcelony, a od 2019 r. gracz Paris Saint-Germain Handball.",
+    "url": "https://pl.wikipedia.org/wiki/Kamil_Syprzak",
+    "język": "pl"
    },
    "tagi": [
-    "Day's Stephen Warnock",
-    "Club Brugge.debut",
-    "Alexander Isak",
-    "Florian Wirtz"
+    "Francji",
+    "Kamil Syprzak",
+    "Kosorotow",
+    "Corrales"
    ],
-   "emotki": [],
+   "emotki": [
+    "⚽"
+   ],
    "wszystkie_źródła": [
     {
-     "nazwa": "BBC Sport",
-     "tytuł": "How Isak and Wirtz are becoming Liverpool's 'big-game players'",
-     "url": "https://www.bbc.co.uk/sport/football/videos/cmqx527v3x19o?at_medium=RSS&at_campaign=rss"
+     "nazwa": "Interia Sport",
+     "tytuł": "Koniec serii zwycięstw w starciach PSG z Wisłą. Wielkie emocje w Paryżu",
+     "url": "https://sport.interia.pl/pilka-reczna/news-koniec-serii-zwyciestw-w-starciach-psg-z-wisla-gigantyczne-e,nId,23579745"
     },
     {
-     "nazwa": "BBC Sport",
-     "tytuł": "Isak scores twice as clinical Liverpool beat Brugge",
-     "url": "https://www.bbc.co.uk/sport/football/videos/cqvg28l0z8mro?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC Sport",
-     "tytuł": "'All coming together' - Isak repaying Liverpool faith",
-     "url": "https://www.bbc.co.uk/sport/football/articles/cqm2l0gelkzxo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "The Guardian Sport",
-     "tytuł": "Isak and Wirtz on target as resurgent Liverpool sweep aside Club Brugge",
-     "url": "https://www.theguardian.com/football/2026/nov/25/club-brugge-liverpool-champions-league-match-report"
+     "nazwa": "The Guardian Football",
+     "tytuł": "Football Daily | Bayern Munich go from bad to worse with own goals on and off the pitch",
+     "url": "https://www.theguardian.com/football/2026/nov/26/football-daily-newsletter-bayern-munich"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.853,
+    "wynik": 4.954,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.87,
+     "ranga_źródła": 1.2,
      "eksponowanie": 0.0,
-     "słowa_kluczowe": 1.05,
-     "świeżość": 0.533,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.504,
      "treściwość": 0.5,
-     "język_działu": 0.0
+     "język_działu": 0.5
     }
-   },
-   "oryginalny_nagłówek": "How Isak and Wirtz are becoming Liverpool's 'big-game players'",
-   "tłumaczenie": {
-    "z": "en",
-    "silnik": "MyMemory"
    },
    "miejsce": 1
   },
@@ -660,99 +679,73 @@
     "emoji": "🌐",
     "opis": "wielkie ligi, turnieje i rekordy poza Polską"
    },
-   "nagłówek": "Dlaczego Manchester City nie może nosić swoich nowych strojów w Premier League?",
-   "lead": "Zespół BBC Sport „Ask Me Anything” wyjaśnia, dlaczego Manchester City nie będzie mógł nosić swojego nowego czwartego stroju w Premier League.",
+   "nagłówek": "Bournemouth „może marzyć”, ponieważ kibice rezerwują hotele na finał Ligi Europy",
+   "lead": "Bournemouth marzy o zwycięstwie w Lidze Europy po dołączeniu do wąskiego grona drużyn, które wygrały swoje pierwsze pięć meczów w Europie.",
    "język_źródła": "en",
-   "opublikowano": "2026-11-25T09:38:16+00:00",
+   "opublikowano": "2026-11-26T22:27:52+00:00",
    "źródło": {
-    "nazwa": "BBC Football",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvgvezj19yyo?at_medium=RSS&at_campaign=rss",
+    "nazwa": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmq5v84vw818o?at_medium=RSS&at_campaign=rss",
     "domena": "bbc.co.uk"
    },
-   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0469/live/eb169590-e8b0-11f1-a094-5fdc692f3e33.jpg",
+   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/278c/live/15481e30-e9e0-11f1-9361-cd8ed0157587.jpg",
    "sekcje": [
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Podczas gdy sędziowie mają tendencję do częstszego pokazywania czerwonych kartek na początku sezonu, a następnie do łagodzenia rygoru, gracze są pod coraz większą presją, aby dotrzymać kroku w tym szalonym środowisku.",
-      "Costinha z Brightonu został wyrzucony z boiska za dwie żółte kartki w meczu z Hullem, Leny Yoro otrzymał czerwoną kartkę w meczu z Liverpoolem za przerwanie akcji bramkowej (choć jego kara została uchylona po odwołaniu), a James Tarkowski zobaczył czerwoną kartkę za poważny faul w meczu z Brentfordem.",
-      "Po ostatnich czerwonych kartkach łączna liczba czerwonych kartek w Premier League w sezonie 2026/27 wyniosła 22.",
-      "Wskaźnik 0,2 na mecz odpowiada 76 kartkom w całym sezonie, co byłoby równe rekordowi Premier League ustanowionemu w sezonie 2005/06."
+      "Trener Jagiellonii Białystok, Adrian Siemieniec, stwierdził, że wyjazd do Wearside na mecz z drużyną z Premier League był jednym z najważniejszych momentów w jego karierze, w której zdążył już zdobyć mistrzostwo Polski.",
+      "Jego zawodnicy zrobili wszystko, aby nie dopuścić do rozczarowania, i z przyjemnością podkreślali trudności Sunderlandu pod bramką dzięki inteligentnej grze obronnej.",
+      "W miarę upływu czasu zareagowali również na stratę bramki niemal natychmiastowym wyrównaniem i zmusili imponującego Robina Roefsa do bardziej wymagających parad w trakcie tego wieczoru.",
+      "W wyniku tego zespół Régisa Le Brisa zajmuje 13. miejsce w tabeli Ligi Europy przed wyjazdem do Mediolanu za dwa tygodnie.",
+      "Chociaż awans do fazy play-off pozostaje w zasięgu ręki, nadzieje Sunderlandu na bezpośredni awans do fazy pucharowej słabną, a po końcowym gwizdku rozległy się nieliczne gwizdy. „Frustrujący mecz” – powiedział Le Bris, który, mając na uwadze niedzielny mecz Premier League przeciwko Spurs, który odbędzie się tutaj, dokonał rotacji w swoim podstawowym składzie. „Przeciwnik zasłużenie zdobył punkt”. Białystok, miasto we wschodniej Polsce, leży blisko granic z Białorusią i Litwą, ale wyczerpująca podróż do północno-wschodniej Anglii… nie ponosiła odpowiedzialności za brak kibiców Jagiellonii.",
+      "Zamiast tego UEFA zakazała kibicom gości odbycia podróży w ramach kary za niewłaściwe zachowanie w meczu z Lewskim Sofia na początku tego sezonu."
      ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "Manchester City Football Club, powszechnie nazywany Man City lub po prostu City, to profesjonalny klub piłkarski z siedzibą w Manchesterze w Anglii, który rywalizuje w Premier League, najwyższej klasie rozgrywkowej angielskiej piłki nożnej. Mark's, w 1887 roku stał się Ardwick Association Football Club, a w 1894 roku – Manchesterem City. Stadionem domowym klubu jest City of Manchester Stadium we wschodnim Manchesterze, na który przeniósł się on w 2003 roku, po tym jak od 1923 roku rozgrywał mecze na stadionie Maine Road. Manchester City zaczął nosić swoje błękitne koszulki domowe w 1894 roku, w pierwszym sezonie pod obecną nazwą."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Manchester City F.C.",
-     "url": "https://en.wikipedia.org/wiki/Manchester_City_F.C."
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "22",
-    "27",
-    "0.2",
-    "76",
-    "06",
-    "0.12"
+    "13",
+    "42",
+    "30"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "Manchester City F.C.",
-    "opis": "Association football club in England",
-    "tekst": "Manchester City Football Club, commonly referred to as Man City or simply City, is a professional football club based in Manchester, England, that competes in the Premier League, the top flight of English football. Founded in 1880 as St. Mark's, they became Ardwick Association Football Club in 1887 and Manchester City in 1894. The club's home ground is the City of Manchester Stadium in east Manchester, to which they moved in 2003, having played at Maine Road since 1923. Manchester City adopted their sky blue home shirts in 1894, the first season with the current name.",
-    "url": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
-    "język": "en"
-   },
+   "tło": null,
    "tagi": [
-    "Premier League",
-    "Sport's Ask Me Anything",
-    "Manchester City",
-    "Man City"
+    "Europa League",
+    "Bournemouth",
+    "European"
    ],
-   "emotki": [
-    "⚽",
-    "🏛️"
-   ],
+   "emotki": [],
    "wszystkie_źródła": [
     {
-     "nazwa": "BBC Football",
-     "tytuł": "Why Man City can't wear their new kit in Premier League",
-     "url": "https://www.bbc.co.uk/sport/football/articles/cvgvezj19yyo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "nazwa": "BBC Football",
-     "tytuł": "Why are there 2:05pm kick-offs in the Premier League on Sunday?",
-     "url": "https://www.bbc.co.uk/sport/football/articles/cm4gn8pneklxo?at_medium=RSS&at_campaign=rss"
+     "nazwa": "BBC Sport",
+     "tytuł": "Bournemouth 'allowed to dream' as fans book Europa League final hotels",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cmq5v84vw818o?at_medium=RSS&at_campaign=rss"
     },
     {
      "nazwa": "The Guardian Football",
-     "tytuł": "Premier League’s burst of early sendings-off may not last – but red cards are on the rise for a reason",
-     "url": "https://www.theguardian.com/football/2026/nov/25/premier-league-red-cards-costinha-leny-yoro-james-tarkowski-referees"
+     "tytuł": "Reinildo error extends Sunderland woe as Jagiellonia grab Europa League draw",
+     "url": "https://www.theguardian.com/football/2026/nov/26/sunderland-jagiellonia-bialystok-europa-league-match-report"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 4.945,
+    "wynik": 5.076,
     "składowe": {
      "potwierdzenia": 1.9,
-     "ranga_źródła": 1.423,
+     "ranga_źródła": 1.458,
      "eksponowanie": 0.0,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.422,
+     "świeżość": 0.518,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Why Man City can't wear their new kit in Premier League",
+   "oryginalny_nagłówek": "Bournemouth 'allowed to dream' as fans book Europa League final hotels",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -766,82 +759,146 @@
     "emoji": "🧪",
     "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
    },
-   "nagłówek": "Podsumowanie Ars Live: nie spodziewaj się, że ataki wojskowe na centra danych ustaną",
-   "lead": "Wojsko ma wiele powodów, by w czasie wojny atakować centra danych i chmurę.",
+   "nagłówek": "Dlaczego nowy Kongres USA powinien zakazać rozwoju sztucznej inteligencji zdolnej do samodoskonalenia się?",
+   "lead": "Niedawne wybory uzupełniające w USA były demokratycznym testem szybkiego rozwoju infrastruktury sztucznej inteligencji w tym kraju. Centra danych stały się kluczową kwestią w kilku kampaniach wyborczych, a wybitni Demokraci przedstawili programy mające na celu zaostrzenie federalnych przepisów dotyczących sztucznej inteligencji po objęciu przez nich stanowisk w styczniu.",
    "język_źródła": "en",
-   "opublikowano": "2026-11-25T16:47:14+00:00",
+   "opublikowano": "2026-11-27T00:00:00+00:00",
    "źródło": {
-    "nazwa": "Ars Technica",
-    "url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
-    "domena": "arstechnica.com"
+    "nazwa": "Nature",
+    "url": "https://www.nature.com/articles/d41586-026-03849-8",
+    "domena": "nature.com"
    },
-   "obraz": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/yandex-data-center_sasovo-ryazan-russia.jpg",
+   "obraz": "https://media.nature.com/lw1200/magazine-assets/d41586-026-03849-8/d41586-026-03849-8_53998610.jpg",
    "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jestem politykiem Partii Demokratycznej z wykształceniem informatycznym, który w czerwcu ubiegał się o nominację w wyborach pierwotnych do Kongresu, co przyciągnęło miliony dolarów od grup wspieranych przez branżę technologiczną (przegrałem wyścig o włos).",
+      "Z wyników wyborów śródokresowych wyciągnąłem jeden główny wniosek: amerykańscy wyborcy są niezadowoleni z wdrażania sztucznej inteligencji przez sektor prywatny i chcą mieć większą kontrolę nad tym, jak ta technologia jest rozwijana i wdrażana.",
+      "Nowo wybrany Kongres USA musi zareagować na nastroje społeczne.",
+      "Priorytetem powinno być natychmiastowe wprowadzenie zakazu stosowania systemów sztucznej inteligencji, które mogą się doskonalić bez zgody lub nadzoru człowieka.",
+      "Uważa się, że proces ten, znany jako rekurencyjne samodoskonalenie (RSI), jest bliski realizacji w niektórych nowatorskich laboratoriach sztucznej inteligencji.",
+      "Wyborcy obawiają się, że przyznanie takiej autonomii technologii groziłoby całkowitym utraceniem kontroli człowieka nad sztuczną inteligencją.",
+      "Większość dużych firm zajmujących się sztuczną inteligencją już korzysta z tej technologii do automatyzacji niektórych etapów rozwoju sztucznej inteligencji.",
+      "Firma Anthropic poinformowała w sierpniu, że jej model Claude wspomaga ponad 90% prac badawczo-rozwojowych firmy w zakresie sztucznej inteligencji i prowadzi 26% tych prac, wykonując konkretne zadania pod nadzorem człowieka.",
+      "Tymczasem OpenAI zauważa, że jego badacze wykorzystują obecnie ponad trzy dni pracy agentów AI na każdy dzień pracy człowieka."
+     ]
+    },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "Nowe badania mają na celu pomóc rządowi Wielkiej Brytanii w zarządzaniu rozwojem centrów danych z korzyścią dla społeczności i w ograniczeniu ich wpływu na środowisko.",
-      "W związku z rosnącym zapotrzebowaniem na centra danych – głównie w celu wspierania sztucznej inteligencji – rząd stara się przyspieszyć ich rozwój poprzez takie środki, jak strefy rozwoju sztucznej inteligencji i reformy polityki planowania.",
-      "Jednak centra danych napotykają na silny sprzeciw – na przykład podczas niedawnego protestu w Edynburgu i nadchodzącego protestu planowanego w Londynie – m.in. ze względu na zużycie energii i wody oraz szerszy wpływ społeczny i środowiskowy na przyrodę i lokalne społeczności.",
-      "W nowym raporcie zatytułowanym „Governing UK data centre growth: Bringing social and environmental impacts into focus” („Zarządzanie rozwojem centrów danych w Wielkiej Brytanii: skupienie uwagi na skutkach społecznych i środowiskowych”), przygotowanym pod kierunkiem Uniwersytetu w Exeter, zwrócono uwagę na luki w zrozumieniu tych skutków oraz na kumulatywne efekty rozwoju centrów danych.",
-      "Zawiera również zalecenia, które mają przyczynić się do zwiększenia przejrzystości dla społeczności oraz pewności dla deweloperów i decydentów politycznych.",
-      "„Ludzie są coraz bardziej zaniepokojeni wpływem centrów danych sztucznej inteligencji na środowisko” – powiedział pracownik naukowy Rory Murphy z Uniwersytetu w Exeter.",
-      "W środę Federalna Komisja Łączności (FCC) udzieliła firmie SpaceX warunkowego zezwolenia na rozmieszczenie i eksploatację konstelacji liczącej do 1 miliona satelitów w ramach działalności związanej z orbitalnymi centrami danych. Jest to sukces regulacyjny Elona Muska i jego planu przeniesienia centrów danych sztucznej inteligencji w przestrzeń kosmiczną."
+      "Nature, opublikowano online: 26 listopada 2026 r.; doi:10.1038/d41586-026-03894-3 Zapoznaj się ze słynną hipotezą i posłuchaj reakcji matematyków na jej dowody.",
+      "Nature, opublikowano online: 26 listopada 2026 r.; doi:10.1038/d41586-026-03875-6 Algorytmy generowane przez sztuczną inteligencję mogą wkrótce przełamać kryptografię z kluczem publicznym – technologię kluczową dla handlu, bankowości i ochrony prywatności.",
+      "Nature, opublikowano online: 26 listopada 2026 r.; doi:10.1038/d41586-026-02752-6 Pamela Yeh miała trudności z radzeniem sobie ze żalem i wymaganiami związanymi z pracą.",
+      "Nature, Opublikowano online: 26 listopada 2026 r.; doi:10.1038/d41586-026-03874-7 System przetestowany na myszach naśladuje białko, którego poziom spada wraz z wiekiem, i może przyczynić się do poprawy skuteczności leczenia niepłodności w przyszłości.",
+      "Nature, opublikowano online: 26 listopada 2026 r.; doi:10.1038/d41586-026-03828-z Super El Niño nasiliło pożary w Indonezji, które spustoszyły siedlisko krytycznie zagrożonego orangutana borneańskiego.",
+      "Nature, opublikowano online: 26 listopada 2026 r.; doi:10.1038/s41586-026-11475-7 Oświadczenie redakcyjne o obawach: Podwójna kontrola jądrowego EIN3 przez rozwidlone kaskady MAPK w sygnalizacji C 2 H 4",
+      "Nature, opublikowano online: 27 listopada 2026 r.; doi:10.1038/d41586-026-03885-4 Andrew Robinson dokonuje przeglądu pięciu najlepszych wyborów naukowych."
      ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Kongres to formalne spotkanie przedstawicieli różnych krajów, państw składowych, organizacji, związków zawodowych, partii politycznych lub innych grup. Termin ten wywodzi się z późnego średnioangielskiego i oznaczał spotkanie w trakcie bitwy, a jego źródłem jest łacińskie słowo congressus."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Congress",
+     "url": "https://en.wikipedia.org/wiki/Congress"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "1 million",
-    "600",
-    "2,000",
-    "500",
-    "1,002",
-    "14"
+    "90%",
+    "26%",
+    "700",
+    "10.1038",
+    "026",
+    "03849"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": null,
+   "tło": {
+    "hasło": "Congress",
+    "opis": "Formal meeting of representatives",
+    "tekst": "A congress is a formal meeting of the representatives of different countries, constituent states, organizations, trade unions, political parties, or other groups. The term originated in Late Middle English to denote an encounter during battle, from the Latin congressus.",
+    "url": "https://en.wikipedia.org/wiki/Congress",
+    "język": "en"
+   },
    "tagi": [
-    "Militaries",
-    "Don’t",
-    "Live"
+    "Congress",
+    "Beijing",
+    "Democratic",
+    "London"
    ],
-   "emotki": [],
+   "emotki": [
+    "🤖"
+   ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Ars Technica",
-     "tytuł": "Ars Live recap: Don’t expect military attacks on data centers to stop",
-     "url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/"
+     "nazwa": "Nature",
+     "tytuł": "Why the incoming US Congress should ban the development of self-improving AI",
+     "url": "https://www.nature.com/articles/d41586-026-03849-8"
     },
     {
-     "nazwa": "Phys.org Technology",
-     "tytuł": "New roadmap for sustainable UK data centers",
-     "url": "https://techxplore.com/news/2026-11-roadmap-sustainable-uk-centers.html"
+     "nazwa": "Nature",
+     "tytuł": "Daily briefing: A guide to the Riemann hypothesis",
+     "url": "https://www.nature.com/articles/d41586-026-03894-3"
     },
     {
-     "nazwa": "TechCrunch",
-     "tytuł": "FCC approves SpaceX plan to put AI data centers in space",
-     "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/"
+     "nazwa": "Nature",
+     "tytuł": "Has AI just cracked Internet encryption? Rumoured ‘bombshell’ stuns scientists",
+     "url": "https://www.nature.com/articles/d41586-026-03875-6"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Navigating grief in academia: ways to find balance",
+     "url": "https://www.nature.com/articles/d41586-026-02752-6"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Chromosome ‘glue’ could boost fertility by stabilizing ageing eggs",
+     "url": "https://www.nature.com/articles/d41586-026-03874-7"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Orangutans face bleak future after Indonesia’s devastating wildfires",
+     "url": "https://www.nature.com/articles/d41586-026-03828-z"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Editorial Expression of Concern: Dual control of nuclear EIN3 by bifurcate MAPK cascades in C 2 H 4 signalling",
+     "url": "https://www.nature.com/articles/s41586-026-11475-7"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "The haunting loveliness of boglands: Books in brief",
+     "url": "https://www.nature.com/articles/d41586-026-03885-4"
+    },
+    {
+     "nazwa": "Nature",
+     "tytuł": "Postcards from your graves",
+     "url": "https://www.nature.com/articles/d41586-026-03523-z"
     }
    ],
-   "liczba_źródeł": 3,
-   "czas_czytania_min": 1,
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 7.424,
+    "wynik": 6.547,
     "składowe": {
-     "potwierdzenia": 3.8,
-     "ranga_źródła": 1.565,
-     "eksponowanie": 1.08,
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 2.86,
+     "eksponowanie": 2.88,
      "słowa_kluczowe": 0.0,
-     "świeżość": 0.567,
-     "treściwość": 0.412,
+     "świeżość": 0.538,
+     "treściwość": 0.269,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Ars Live recap: Don’t expect military attacks on data centers to stop",
+   "oryginalny_nagłówek": "Why the incoming US Congress should ban the development of self-improving AI",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -855,87 +912,93 @@
     "emoji": "🧪",
     "opis": "AI, inżynieria, medycyna, biologia — co właśnie stało się możliwe"
    },
-   "nagłówek": "Gigantyczna zmiana w ChatGPT stała się faktem. Sprawdź, czy weszła w życie u Ciebie",
-   "lead": "ChatGPT decyzją OpenAI łączy pule usług Chat i Work/Codex: to koniec dowolnie długich pogawędek w trybie czatu. Oficjalnie, szerzej, zmiana ma wejść w grudniu.",
+   "nagłówek": "GTA 6 na PS5 bez kupowania gry. Mit bezpieczeństwa konsol właśnie upadł",
+   "lead": "Od lat istniało przeświadczenie, że konsole są bezpieczne i wolne od piractwa. Łatka nielegalnego kopiowania gier od zawsze dotyczyła komputerów osobistych.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-25T13:14:45+00:00",
+   "opublikowano": "2026-11-26T12:39:00+00:00",
    "źródło": {
-    "nazwa": "Antyweb",
-    "url": "https://antyweb.pl/chatgpt-limit-codex-work-chat",
-    "domena": "antyweb.pl"
+    "nazwa": "Spider's Web",
+    "url": "https://spidersweb.pl/2026/11/gta-6-ps5-skopiowane-wycieklo-do-sieci-mit-bezpieczentswa-konsol.html",
+    "domena": "spidersweb.pl"
    },
-   "obraz": "https://static.antyweb.pl/img/w_full/wp-content/uploads/2026/09/chatgpt-astra-for-law.jpg",
+   "obraz": "https://cdn-sw.spidersweb.pl/2026/11/gta-6-ps5-wyciek-nowy.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Część użytkowników, w niewielkim gronie abonentów Pro, widzi ją już u siebie.",
-      "I w tej grupie znalazłem się między innymi... ja.",
-      "Zadowolony z tego faktu nie jestem.",
-      "Jak wynika z dokumentacji OpenAI, szersze wdrażanie scalania limitu rozpocznie się w grudniu i obejmie abonamenty Plus, Pro i Business .",
-      "Dotąd było tak, że Chat i Work/Codex miały limity rozdzielne: standardowe rozmowy z modelami rozumującymi miały osobne, bardzo luźne wręcz, ograniczenia.",
-      "Teraz, niestety, intensywne kodowanie może spowodować niemożność nawet czatowania z asystentem w ramach \"codziennych\" rozmów.",
-      "Działa to też w drugą stronę.",
-      "Ogromne prace w \"czatowej\" konwencji mogą spowodować, że braknie Wam przestrzeni na kod i typowo biznesowe zastosowania.",
-      "U niektórych zmiany wchodzą w życie jeszcze przed grudniem, aby OpenAI mogło zebrać feedback."
+      "Przez sztuczną inteligencję i zaawansowane narzędzia konsole powoli tracą swoją renomę urządzeń odpornych na piractwo.",
+      "Ktoś właśnie skopiował GTA 6 na konsoli Sony.",
+      "Kilka dni temu doszło do wycieku GTA 6 na konsole Xbox Series X|S.",
+      "Efekty tego są już widoczne.",
+      "Społeczność zaczęła przenosić grę na komputery osobiste.",
+      "Po 24 godzinach od momentu wycieku niezależnym programistom udało się uruchomić tytuł, zobaczyć ekran ładowania, wejść do prologu, a nawet załadować shadery umożliwiające częściowe wyświetlanie tekstur.",
+      "Do przełomu dochodzi dosłownie co kilka godzin.",
+      "Nie musieliśmy czekać długo na drugą platformę - tydzień po premierze GTA 6 w sieci pojawiły się liczne doniesienia o tym, że wyciekły pliki gry na PS5.",
+      "Gracze z konsol Sony poszli jednak nieco inną drogą i zamiast próbować przenosić produkcję na PC, postanowili uruchamiać GTA 6 na własnych konsolach."
      ]
     },
     {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
      "treść": [
-      "ChatGPT – chatbot opracowany przez OpenAI, oparty na generatywnej sztucznej inteligencji, służący do generowania odpowiedzi na dane wprowadzane przez użytkownika. Model ten został opracowany na podstawie dużych zbiorów danych, aby mógł prowadzić rozmowę i angażować się w różne tematy, od ogólnych rozmów po określone obszary wiedzy."
-     ],
-     "język": "pl",
-     "przypis": "Wikipedia: ChatGPT",
-     "url": "https://pl.wikipedia.org/wiki/ChatGPT"
+      "Już pierwszego dnia gdy tylko gra zaczęła być dostępna, miliony osób rzuciły wszystko i wyruszyły na podbój wirtualnego stanu Leonida, przejmując przy tym stery nad poczynaniami dwójki bohaterów.",
+      "Choć gra stawia przed nami sporo wyzwań i mnóstwo aktywności, to jej uruchomienie jest równie skomplikowanym zadaniem dla naszych konsol - jest to przy okazji niezły test przetrwania dla liczących już kilka lat konsol PlayStation 5."
+     ]
     }
    ],
    "dlaczego_to_ważne": "",
-   "liczby": [],
-   "inne_spojrzenia": [],
+   "liczby": [
+    "24 godzinach",
+    "11.60",
+    "14.23",
+    "13.60",
+    "349 zł",
+    "108255"
+   ],
+   "inne_spojrzenia": [
+    {
+     "źródło": "Antyweb",
+     "ujęcie": "Uwaga, najnowsze GTA VI jest w stanie narobić niemałych szkód naszym konsolom PS5!",
+     "url": "https://antyweb.pl/grasz-w-gta-vi-na-ps5-twoja-konsola-moze-splonac"
+    }
+   ],
    "pojęcia": [],
-   "tło": {
-    "hasło": "ChatGPT",
-    "opis": "chatbot firmy OpenAI",
-    "tekst": "ChatGPT – chatbot opracowany przez OpenAI, oparty na generatywnej sztucznej inteligencji, służący do generowania odpowiedzi na dane wprowadzane przez użytkownika. Model ten został opracowany na podstawie dużych zbiorów danych, aby mógł prowadzić rozmowę i angażować się w różne tematy, od ogólnych rozmów po określone obszary wiedzy.",
-    "url": "https://pl.wikipedia.org/wiki/ChatGPT",
-    "język": "pl"
-   },
+   "tło": null,
    "tagi": [
-    "OpenAI",
-    "ChatGPT",
-    "Work/Codex",
-    "Chat"
+    "Sony",
+    "PlayStation Store",
+    "Microsoft Store",
+    "Spider's Web"
    ],
    "emotki": [
-    "🤖"
+    "🎮",
+    "💻"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Antyweb",
-     "tytuł": "Gigantyczna zmiana w ChatGPT stała się faktem. Sprawdź, czy weszła w życie u Ciebie",
-     "url": "https://antyweb.pl/chatgpt-limit-codex-work-chat"
+     "nazwa": "Spider's Web",
+     "tytuł": "GTA 6 na PS5 bez kupowania gry. Mit bezpieczeństwa konsol właśnie upadł",
+     "url": "https://spidersweb.pl/2026/11/gta-6-ps5-skopiowane-wycieklo-do-sieci-mit-bezpieczentswa-konsol.html"
     },
     {
-     "nazwa": "TechCrunch",
-     "tytuł": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-     "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+     "nazwa": "Antyweb",
+     "tytuł": "Grasz w GTA VI na PS5? Twoja konsola może… spłonąć",
+     "url": "https://antyweb.pl/grasz-w-gta-vi-na-ps5-twoja-konsola-moze-splonac"
     }
    ],
    "liczba_źródeł": 2,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.07,
+    "wynik": 4.033,
     "składowe": {
      "potwierdzenia": 1.9,
      "ranga_źródła": 1.135,
-     "eksponowanie": 0.63,
+     "eksponowanie": 0.0,
      "słowa_kluczowe": 0.0,
-     "świeżość": 0.488,
-     "treściwość": 0.417,
+     "świeżość": 0.396,
+     "treściwość": 0.102,
      "język_działu": 0.5
     }
    },
@@ -948,81 +1011,71 @@
     "emoji": "⚛️",
     "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
    },
-   "nagłówek": "Nowy model teoretyczny umożliwia trwałe splątanie między kubitami diamentowymi w większych odległościach",
-   "lead": "W nowym badaniu opublikowanym w czasopiśmie Physical Review B zespół fizyków z Uniwersytetu Delaware być może znalazł sposób na przezwyciężenie ograniczeń w utrzymywaniu splątania kubitów diamentowych. Model ten polega na wyprowadzaniu kubitów ze stanu równowagi za pomocą promieniowania mikrofalowego, podczas gdy otaczające je…",
+   "nagłówek": "Nowa sieć kwantowa splata 123 kubity, które przechowują informacje w pozycjach atomów",
+   "lead": "Naukowcy są coraz bliżej stworzenia praktycznych komputerów kwantowych. Teraz zespół naukowców pokonał kolejną przeszkodę na tej drodze.",
    "język_źródła": "en",
-   "opublikowano": "2026-11-24T17:30:01+00:00",
+   "opublikowano": "2026-11-25T18:00:15+00:00",
    "źródło": {
     "nazwa": "Phys.org",
-    "url": "https://phys.org/news/2026-11-theoretical-sustained-entanglement-diamond-qubits.html",
+    "url": "https://phys.org/news/2026-11-quantum-network-entangles-qubits-atoms.html",
     "domena": "phys.org"
    },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-theoretical-model.jpg",
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-build-123.jpg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Podejście to umożliwia zarówno splątanie kubitów na dużą odległość, jak i w stanie ustalonym.",
-      "Centra wakancji azotowych (NVC) to defekty w diamencie o skali atomowej, które mogą działać jak kubity, czyli kwantowe bity, przydatne w technologii kwantowej i czujnikach nanoskalowych.",
-      "W stanie splątania kubity te tworzą wspólne stany kwantowe, które mogą stanowić podstawę zaawansowanych czujników i komputerów kwantowych.",
-      "Jednak bezpośrednie sprzężenie staje się zbyt słabe, gdy odległość przekracza około 10 nanometrów.",
-      "Autorzy nowego badania piszą: „Splątanie dalekozasięgowe jest konieczne, ponieważ niezależny i jednoczesny optyczny odczyt dwóch centrów NVC umieszczonych w odległości ≲ 10 nm jest praktycznie niemożliwy ze względu na nakładanie się ich fluorescencji w przestrzeni i w zakresie długości fal emisji”.",
-      "Dlatego też w ciągu ostatniej dekady intensywnie poszukiwano protokołów dotyczących takiego splątania, w którym pośredniczą fotony, fonony lub magnony. Centra NVC są również wrażliwe na szum pola magnetycznego.",
-      "Umożliwiło to przeprowadzenie eksperymentów wykazujących sprzężenie między kubitami diamentowymi a magnetycznymi falami spinowymi, których wzbudzenia kwantowe nazywane są magnonami.",
-      "Jednak eksperymenty te nie obejmowały splątania na dużą odległość między dwoma centrami NVC, a wcześniejsze modele środowiska magnetycznego często przewidywały jedynie splątanie tymczasowe.",
-      "Jednak starannie zaprojektowana utrata energii, czyli dysypacja energii, ustabilizowała splątanie w niektórych platformach, pokazując, że dysypacja nie zawsze musi niszczyć połączenia kwantowe."
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "W swoim badaniu, opublikowanym w czasopiśmie „Physical Review Letters”, opisują nową platformę do manipulowania splątanymi sieciami atomowymi w obliczeniach kwantowych opartych na pomiarach – procesie, który zazwyczaj utrudniają trudności związane z manipulowaniem tylko jednym atomem lub jedną grupą atomów naraz."
+      "Ich badanie, opublikowane w czasopiśmie „Physical Review Letters”, opisuje nową platformę do manipulowania splątanymi sieciami atomowymi w obliczeniach kwantowych opartych na pomiarach – procesie, który zazwyczaj utrudniają trudności związane z manipulowaniem tylko jednym atomem lub jedną grupą atomów naraz.",
+      "Siatki optyczne – siatki światła laserowego, które wychwytują ultraniskotemperaturowe atomy – umożliwiają jednoczesne sterowanie wieloma bitami kwantowymi, czyli kubitami.",
+      "W obliczeniach kwantowych opartych na pomiarach wykonuje się sekwencję pomiarów pojedynczych kubitów na wstępnie splątanym stanie zasobu, zwanym stanem klastrowym.",
+      "Jednak atomy są bardzo blisko siebie, co utrudnia manipulowanie nimi pojedynczo bez zakłócania ich sąsiadów.",
+      "Autorzy nowego badania piszą: „Ponieważ typowy odstęp między sąsiednimi węzłami sieci zbliża się do granic dyfrakcji optycznej stosowanej obecnie w mikroskopii gazów kwantowych, nieuchronnie powoduje to przesłuchy operacyjne podczas prób manipulacji pojedynczymi węzłami.",
+      "W konseklwencji niewystarczająca wierność operacji lokalnych stanowi znaczną przeszkodę w dokładnej weryfikacji stanów klastrowych, a także ogranicza ich dalsze zastosowania obliczeniowe”. We wcześniejszych eksperymentach z siatką optyczną uzyskano i bezpośrednio zweryfikowano splątanie między wieloma atomami za pomocą oddziaływań, które powodują wymianę ich stanów spinowych.",
+      "Jednak przekształcenie tych splątanych układów w działające zasoby obliczeniowe jest trudne.",
+      "W pracach teoretycznych stwierdzono, że stany klastrowe mogą również służyć jako zasoby do obliczeń opartych na pomiarach, co również zostało wykazane na innych platformach.",
+      "Zespół zaangażowany w nowe badanie twierdzi, że ultraniskotemperaturowe atomy neutralne uwięzione w siatkach optycznych zapewniają doskonałą skalowalność i wyjątkowo długie czasy koherencji, co skłoniło naukowców do wykorzystania tej platformy w swoich eksperymentach."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Krajowa klasyfikacja roślinności to system klasyfikacji naturalnych i kulturowych zbiorowisk roślinnych w Stanach Zjednoczonych. Celem tego ustandaryzowanego systemu klasyfikacji roślinności jest ułatwienie komunikacji między zarządcami gruntów, naukowcami i społeczeństwem podczas zarządzania zbiorowiskami roślinnymi, prowadzenia badań nad nimi i ich ochrony."
+      "Tytuł magistra to akademicki tytuł podyplomowy przyznawany przez uniwersytety lub uczelnie wyższe po ukończeniu studiów potwierdzających opanowanie lub zaawansowaną znajomość określonej dziedziny nauki lub obszaru praktyki zawodowej. Studia magisterskie zazwyczaj wymagają wcześniejszego ukończenia studiów licencjackich, niezależnie od tego, czy odbywały się one w ramach odrębnego programu, czy też w ramach studiów zintegrowanych. Oczekuje się, że absolwenci studiów magisterskich w analizowanej dziedzinie będą posiadać zaawansowaną wiedzę z zakresu specjalistycznego zbioru zagadnień teoretycznych i stosowanych, umiejętności wysokiego poziomu w zakresie analizy, oceny krytycznej lub zastosowań zawodowych oraz zdolność do rozwiązywania złożonych problemów i do rygorystycznego oraz niezależnego myślenia."
      ],
      "język": "en",
-     "przypis": "Wikipedia: U.S. National Vegetation Classification",
-     "url": "https://en.wikipedia.org/wiki/U.S._National_Vegetation_Classification"
+     "przypis": "Wikipedia: Master's degree",
+     "url": "https://en.wikipedia.org/wiki/Master's_degree"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "10",
-    "0.28",
-    "3524",
-    "86"
+    "123",
+    "95%",
+    "99.9%",
+    "10.1103",
+    "2509.10797"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "U.S. National Vegetation Classification",
-    "opis": "Classification scheme",
-    "tekst": "The U.S. National Vegetation Classification is a scheme for classifying the natural and cultural vegetation communities of the United States. The purpose of this standardized vegetation classification system is to facilitate communication between land managers, scientists, and the public when managing, researching, and protecting plant communities.",
-    "url": "https://en.wikipedia.org/wiki/U.S._National_Vegetation_Classification",
+    "hasło": "Master's degree",
+    "opis": "Postgraduate educational qualification",
+    "tekst": "A master's degree is a postgraduate academic degree awarded by universities or colleges upon completion of a course of study demonstrating mastery or a high-order overview of a specific field of study or area of professional practice. A master's degree normally requires previous study at the bachelor's level, either as a separate degree or as part of an integrated course. Within the area studied, master's graduates are expected to possess advanced knowledge of a specialized body of theoretical and applied topics; high order skills in analysis, critical evaluation, or professional application; and the ability to solve complex problems and think rigorously and independently.",
+    "url": "https://en.wikipedia.org/wiki/Master's_degree",
     "język": "en"
    },
    "tagi": [
-    "NVCs",
-    "Physical Review",
+    "Physical Review Letters",
     "Master's",
-    "Federico Garcia-Gaitan"
+    "Ultracold Atoms Physical Review Letters",
+    "Orbit-Qubit Quantum Processor"
    ],
    "emotki": [
-    "⚛️"
+    "⚛️",
+    "🔬"
    ],
    "wszystkie_źródła": [
-    {
-     "nazwa": "Phys.org",
-     "tytuł": "New theoretical model allows for sustained entanglement between diamond qubits at greater separations",
-     "url": "https://phys.org/news/2026-11-theoretical-sustained-entanglement-diamond-qubits.html"
-    },
     {
      "nazwa": "Phys.org",
      "tytuł": "New quantum network entangles 123 qubits that store information in atoms' positions",
@@ -1030,21 +1083,21 @@
     }
    ],
    "liczba_źródeł": 1,
-   "czas_czytania_min": 1,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 4.213,
+    "wynik": 3.373,
     "składowe": {
      "potwierdzenia": 0.0,
-     "ranga_źródła": 1.38,
-     "eksponowanie": 1.17,
+     "ranga_źródła": 1.2,
+     "eksponowanie": 0.81,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.463,
+     "świeżość": 0.163,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "New theoretical model allows for sustained entanglement between diamond qubits at greater separations",
+   "oryginalny_nagłówek": "New quantum network entangles 123 qubits that store information in atoms' positions",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -1058,93 +1111,94 @@
     "emoji": "⚛️",
     "opis": "cząstki, materia, energia, kwanty — świat na najgłębszym poziomie"
    },
-   "nagłówek": "Najdokładniejszy do tej pory pomiar koherentnego sprężystego rozpraszania neutrin na jądrach atomowych zaostrza ograniczenia dotyczące nowych oddziaływań",
-   "lead": "Neutrina to maleńkie cząstki elementarne o niewielkiej masie i pozbawione ładunku elektrycznego. Podczas gdy większość neutrin przechodzi przez materię bez oddziaływania, neutrino może czasami odbić się od jądra atomowego, przekazując mu niewielką ilość energii i sprawiając, że się poruszy.",
+   "nagłówek": "Maleńki chip z promieniowaniem UV z Harvardu może pomóc w zmniejszeniu komputerów kwantowych",
+   "lead": "Promieniowanie ultrafioletowe (UV) jest już niezbędne w wielu nowoczesnych technologiach. Oprócz naturalnej obecności w świetle słonecznym, światło to jest wykorzystywane do dezynfekcji powierzchni, wywoływania fluorescencji materiałów biologicznych oraz produkcji układów scalonych w procesie zwanym fotolitografią.",
    "język_źródła": "en",
-   "opublikowano": "2026-11-25T13:20:01+00:00",
+   "opublikowano": "2026-11-27T03:22:20+00:00",
    "źródło": {
-    "nazwa": "Phys.org",
-    "url": "https://phys.org/news/2026-11-precise-coherent-elastic-neutrinonucleus-date.html",
-    "domena": "phys.org"
+    "nazwa": "ScienceDaily Physics",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261126063333.htm",
+    "domena": "sciencedaily.com"
    },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/coherent-reports-the-m.jpg",
+   "obraz": "https://www.sciencedaily.com/images/1920/sidewall-poled-lithium-niobate-device.webp",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Ten ruch, znany jako odrzut jądrowy, jest niewielki i bardzo trudny do wykrycia.",
-      "Niektórzy fizycy, w tym członkowie współpracy COHERENT, przeprowadzają zaawansowane eksperymenty z dziedziny fizyki cząstek elementarnych, mające na celu pomiar tych odrzutów jądrowych.",
-      "COHERENT Collaboration to grupa badawcza skupiająca naukowców z różnych instytutów na całym świecie, którzy przeprowadzają eksperymenty w Oak Ridge National Laboratory (ORNL) i analizują uzyskane dane.",
-      "W jednej z najnowszych publikacji, opublikowanej w czasopiśmie „Physical Review Letters”, przedstawiono najdokładniejszy do tej pory pomiar koherentnego rozpraszania sprężystego, w którym neutrino rozprasza się na jądrze atomowym jako całości.",
-      "Pomiar ten wyznacza bardziej restrykcyjne granice tego, jak silnie neutrina mogą oddziaływać z kwarkami za pośrednictwem sił nieopisanych w modelu standardowym.",
-      "„Neutrina należą do nielicznych nierozwiązanych kwestii w Standardowym Modelu fizyki cząstek elementarnych, a jednym ze sposobów sprawdzenia naszej wiedzy na ich temat jest pomiar sposobów, w jakie wchodzą one w interakcje z materią, co teoria przewiduje z dużą dokładnością” – powiedział Phys.org Ryan Bouabid, współautor artykułu.",
-      "„Koherentne sprężyste rozpraszanie neutrin na jądrach atomowych (CEvNS) jest jedną z tych precyzyjnie przewidywanych interakcji: neutrino o niskiej energii rozprasza się na całym jądrze, co sprawia, że proces ten jest znacznie bardziej prawdopodobny niż rozpraszanie na poszczególnych protonach i neutronach.",
-      "Kosztem tego jest to, że jedynym znakiem, że to się wydarzyło, jest niewielki odrzut jądra, które jest znacznie cięższe od neutrina”. Odrzut jądra związany z rozpraszaniem neutrin pozostawia bardzo niewielkie ślady w detektorach cząstek.",
-      "Zespół COHERENT po raz pierwszy zaobserwował ten słaby sygnał w 2017 roku, ponad cztery dekady po tym, jak po raz pierwszy przewidziano istnienie tego procesu."
+      "W przyszłości mikroskopijne źródła światła UV wbudowane bezpośrednio w chipy fotoniczne mogą umożliwić tworzenie mniejszych komputerów kwantowych, ultraprecyzyjnych zegarów atomowych i innych zaawansowanych technologii.",
+      "Jednakże zmniejszenie źródeł światła UV do rozmiarów umożliwiających ich umieszczenie na chipie stanowiło znaczne wyzwanie inżynieryjne.",
+      "Światło ultrafioletowe szybko traci moc, gdy przemieszcza się przez światłowody, czyli maleńkie kanały przenoszące światło przez chip.",
+      "To ograniczenie znacznie utrudniło opracowanie kompaktowych źródeł promieniowania UV o mocy wystarczającej do praktycznych zastosowań.",
+      "Obecnie zespół badawczy kierowany przez naukowców z Harvardu zaprezentował mikroskopijne urządzenie fotoniczne, które wytwarza około 120 razy więcej mocy promieniowania UV niż poprzednie porównywalne urządzenia.",
+      "Naukowcy pracujący w laboratorium Marka Lončara, profesora inżynierii elektrycznej na stanowisku Tiantsai Lin Professor, dokonali przełomu, wykorzystując szeroko badany materiał zwany niobianem litu w postaci cienkiej warstwy.",
+      "Opublikowane w czasopiśmie Nature Communications wyniki badań wskazują, że niobian litu jest obiecującą platformą do generowania silnego światła ultrafioletowego w kompaktowych urządzeniach przy jednoczesnym zminimalizowaniu strat optycznych.",
+      "Przekształcanie światła czerwonego w światło ultrafioletowe Zamiast próbować kierować światło ultrafioletowe bezpośrednio przez mikroskopijne kanały, naukowcy zaprojektowali urządzenie, które generuje światło UV ze światła czerwonego w samym chipie.",
+      "W krysztale niobianu litu dwa fotony światła czerwonego łączą się, tworząc pojedynczy foton światła ultrafioletowego o wyższej energii."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Abderrahim Bouabid był marokańskim prawnikiem i politykiem oraz przewodniczącym lewicowej Socjalistycznej Unii Sił Ludowych (SUPF) w latach 1975–1992."
+      "Desanka „Beba” Lončar to była jugosłowiańska i serbska aktorka filmowa. W latach 1960–1982 wystąpiła w 52 filmach. Urodziła się w Belgradzie w Serbii. Znana ze swojej kariery filmowej w latach 60. i 70. XX wieku, najpierw stała się gwiazdą w rodzinnej Jugosławii, a następnie przeniosła się do Włoch, gdzie odniosła znaczny sukces."
      ],
      "język": "en",
-     "przypis": "Wikipedia: Abderrahim Bouabid",
-     "url": "https://en.wikipedia.org/wiki/Abderrahim_Bouabid"
+     "przypis": "Wikipedia: Beba Lončar",
+     "url": "https://en.wikipedia.org/wiki/Beba_Lon%C4%8Dar"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "20",
-    "66",
-    "60",
-    "100,000",
-    "2.2 kg",
-    "10.1103"
+    "120",
+    "50",
+    "4.2",
+    "390",
+    "23",
+    "22"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Abderrahim Bouabid",
-    "opis": "Moroccan politician (1922–1992)",
-    "tekst": "Abderrahim Bouabid was a Moroccan lawyer and politician, and head of the left-wing Socialist Union of Popular Forces (SUPF) between 1975 and 1992.",
-    "url": "https://en.wikipedia.org/wiki/Abderrahim_Bouabid",
+    "hasło": "Beba Lončar",
+    "opis": "Serbian actress",
+    "tekst": "Desanka \"Beba\" Lončar is a former Yugoslav and Serbian film actress. She appeared in 52 films between 1960 and 1982. She was born in Belgrade, Serbia. Known for her film career during the 1960s and 1970s, she first became a star in native Yugoslavia before moving to Italy where she achieved considerable success.",
+    "url": "https://en.wikipedia.org/wiki/Beba_Lon%C4%8Dar",
     "język": "en"
    },
    "tagi": [
-    "Bouabid",
-    "Standard Model",
-    "Collaboration",
-    "CEvNS"
+    "Lončar's",
+    "Lončar",
+    "Ghosh",
+    "Precision Engineering Dramatically Improves Light Conversion Instead"
    ],
    "emotki": [
+    "💻",
     "⚛️"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Phys.org",
-     "tytuł": "Most precise measurement of coherent elastic neutrino–nucleus scattering to date tightens limits on new forces",
-     "url": "https://phys.org/news/2026-11-precise-coherent-elastic-neutrinonucleus-date.html"
+     "nazwa": "ScienceDaily Physics",
+     "tytuł": "Harvard’s tiny UV light chip could help shrink quantum computers",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261126063333.htm"
     }
    ],
    "liczba_źródeł": 1,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 3.349,
+    "wynik": 3.266,
     "składowe": {
      "potwierdzenia": 0.0,
-     "ranga_źródła": 1.2,
-     "eksponowanie": 0.72,
-     "słowa_kluczowe": 0.7,
-     "świeżość": 0.404,
-     "treściwość": 0.325,
+     "ranga_źródła": 1.05,
+     "eksponowanie": 0.9,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.58,
+     "treściwość": 0.386,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Most precise measurement of coherent elastic neutrino–nucleus scattering to date tightens limits on new forces",
+   "oryginalny_nagłówek": "Harvard’s tiny UV light chip could help shrink quantum computers",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
@@ -1158,30 +1212,152 @@
     "emoji": "🔭",
     "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
    },
-   "nagłówek": "Rekordowy sygnał z czarnej dziury świeci z wczesnego Wszechświata",
-   "lead": "Mamy nowego rekordzistę w kategorii najbardziej odległego kwazara – jest to pożerająca gaz supermasywna czarna dziura w galaktyce, która istniała, gdy Wszechświat miał zaledwie kilkaset milionów lat. Zaledwie 630 milionów lat po Wielkim Wybuchu powstała czarna dziura o masie równej setkom milionów Słońc.",
+   "nagłówek": "APOD: 26 listopada 2026 r. – Oko na niebie: Droga Mleczna nad Lençóis",
+   "lead": "Każdego dnia prezentowany jest inny obraz lub zdjęcie naszego fascynującego wszechświata wraz z krótkim wyjaśnieniem napisanym przez profesjonalnego astronoma. Wyjaśnienie: Piękno tkwi w oku patrzącego.",
    "język_źródła": "en",
-   "opublikowano": "2026-11-24T17:53:00+00:00",
+   "opublikowano": "2026-11-26T05:05:00+00:00",
    "źródło": {
-    "nazwa": "Sky & Telescope News",
-    "url": "https://skyandtelescope.org/astronomy-news/record-breaking-black-hole-beacon-shines-from-the-early-universe/",
-    "domena": "skyandtelescope.org"
+    "nazwa": "NASA",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-26-eye-in-the-sky-the-milky-way-over-lencois/",
+    "domena": "science.nasa.gov"
    },
-   "obraz": "https://dq0hsqwjhea1.cloudfront.net/quasar-art.webp",
+   "obraz": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/november/Milky_Way_Lencois.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "Astronomowie wciąż próbują odpowiedzieć na pytanie, w jaki sposób się tam znalazła – jak tak duża masa mogła zgromadzić się w nieskończenie małej objętości w tak krótkim czasie.",
-      "Zespół astronomów pod kierunkiem Juliena Wolfa (Instytut Astronomii im. Maxa Plancka, Niemcy) odkrył kwazar w danych z misji Euclid Europejskiej Agencji Kosmicznej, kosmicznego obserwatorium, którego celem jest zmapowanie jednej trzeciej nieba w celu wykrycia miliardów galaktyk w odległości do 10 miliardów lat świetlnych.",
-      "Jednak kwazar, który odkryli na podstawie wstępnych danych, znajduje się jeszcze dalej.",
-      "Chociaż zespół formalnie nazywa kwazar J1504+6252, nadał mu również przydomek Dún Aonghasa, na cześć prehistorycznego kamiennego fortu na wyspie Inis Mór u zachodnich wybrzeży Irlandii.",
-      "Fort stoi naprzeciw rozległego oceanu, podobnie jak kwazar znajduje się na granicy obserwacyjnej – na razie.",
-      "Po zidentyfikowaniu potencjalnego kwazara w danych z misji Euclid naukowcy przeprowadzili dalsze obserwacje za pomocą teleskopów kosmicznych Hubble'a i Webba, a także Obserwatorium Dużego Teleskopu Binokularnego w Arizonie i Obserwatorium W.",
-      "Obserwatorium Kecka na Hawajach.",
-      "Wyniki zostały opublikowane w czasopiśmie Astronomy & Astrophysics. „Kwazary o dużym przesunięciu ku czerwieni są niezwykle rzadkie” – mówi członek zespołu Xiaohui Fan (Steward Observatory). „Ich odkrycie wymaga bardzo szerokich i głębokich przeglądów nieba w celu ich wyselekcjonowania oraz dużego teleskopu na Ziemi lub w kosmosie do potwierdzenia spektroskopowego”. Na kolejnych zdjęciach widoczne było jasne niebieskie światło, charakterystyczne dla dysków gazu, które spiralnie wpadają do supermasywnych czarnych dziur znajdujących się w centrum Kwazar",
-      "Świeci jaśniej i bardziej na niebiesko niż większość „małych czerwonych kropek” odkrytych w danych z teleskopu Webba, co może wskazywać na wcześniejszą fazę, w której nowo narodzone czarne dziury otaczają się gazem i wypełniają się nim."
+      "A na dzisiejszym zdjęciu dnia jest wiele do zobaczenia.",
+      "Droga Mleczna jaśnieje na niebie nad Brazylią, nad białymi wydmami i ciemnymi lagunami Parku Narodowego Lençóis Maranhenses.",
+      "Możemy obserwować różne części Drogi Mlecznej, gdy najwyraźniej obraca się ona na niebie każdej nocy i przez cały rok.",
+      "To zdjęcie kompozytowe zostało wykonane później tej samej nocy w lipcu na szerokości geograficznej około 2° na południe.",
+      "Widać na nim niektóre charakterystyczne cechy Drogi Mlecznej, takie jak ciemne pasma pyłu i kolorowe mgławice.",
+      "Ale czy Galaktyka naprawdę wygląda na niebie jak łuk tęczy?",
+      "Nie, to artefakt zdjęcia wykonanego obiektywem szerokokątnym.",
+      "Ponieważ Galaktyka została umiejętnie wykadrowana przez fotografa, dopasowuje się do konturu ciemnej laguny, tworząc iluzję kosmicznego oka – częściowo w kosmosie, a częściowo na Ziemi.",
+      "Czy to oko na niebie patrzy na Ciebie?"
+     ]
+    },
+    {
+     "tytuł": "Szczegóły i liczby",
+     "rodzaj": "punkty",
+     "treść": [
+      "25 listopada: Uran w opozycji Świętuj Święto Dziękczynienia z kosmicznym indykiem: słynna Mgławica Oriona (M42) jest też żartobliwie nazywana Mgławicą Indyka, ponieważ niektórym osobom przypomina indyka, zwłaszcza na zdjęciach z głębokiego kosmosu.",
+      "Ale niezależnie od tego, czy jesteś fotografem, czy… Czytaj dalej „Niebo dziś, w czwartek 26 listopada: Indyk na Święto Dziękczynienia na niebie” Post „Niebo dziś, w czwartek 26 listopada: Indyk na Święto Dziękczynienia na niebie” pojawił się najpierw w magazynie Astronomy.",
+      "Do tej pory najmniejszym poziomem szczegółowości w symulacjach, zwanym cząstkami, były gromady gwiazd o masie około 100 Słońc.",
+      "W tych symulacjach (Auriga, FIRE itp.) uśredniono zachowanie poszczególnych gwiazd. Wyniki te zostały przedstawione w  artykule zatytułowanym „Architecture-Agnostic Exascale Star-by-Star Simulation of Our Galaxy” („Niezależna od architektury symulacja naszej galaktyki w skali eksa na poziomie poszczególnych gwiazd”) z konferencji SC26: International Conference for High Performance Computing, Networking, Storage and Analysis (Międzynarodowa konferencja poświęcona obliczeniom o wysokiej wydajności, sieciom, pamięci masowej i analizie).",
+      "„W naszej symulacji Drogi Mlecznej o najwyższej rozdzielczości wykorzystano 5,4 biliona cząstek, czyli około 10 000 razy więcej niż w najnowocześniejszych symulacjach” – piszą autorzy. „Oczekujemy lepszych symulacji wraz ze wzrostem mocy obliczeniowej, ale nadal wymaga to pracy nad poprawą rozdzielczości, a w przypadku galaktyki wielkości Drogi Mlecznej nie jest to proste” – powiedziała prof. Michiko Fujii z Wydziału Astronomii Uniwersytetu Tokijskiego. „Kiedy przyglądamy się szczegółowo mniejszym obszarom, napotykamy miejsca, gdzie gaz jest gęstszy i szybko się zmienia.",
+      "U góry po lewej i na środku: NGC 4414, galaktyka dyskowa podobna do Drogi Mlecznej, sfotografowana przez Kosmiczny Teleskop Hubble'a."
+     ]
+    },
+    {
+     "tytuł": "Tło",
+     "rodzaj": "akapity",
+     "treść": [
+      "Droga Mleczna lub Galaktyka Drogi Mlecznej, albo po prostu Galaktyka, to galaktyka, w której znajduje się Układ Słoneczny. Jej nazwa opisuje wygląd galaktyki widzianej z Ziemi: mglisty pas światła widoczny na nocnym niebie, utworzony przez gwiazdy w innych ramionach galaktyki, które są tak daleko, że nie można ich rozróżnić gołym okiem."
+     ],
+     "język": "en",
+     "przypis": "Wikipedia: Milky Way",
+     "url": "https://en.wikipedia.org/wiki/Milky_Way"
+    }
+   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "25",
+    "26",
+    "100",
+    "5.4 trillion",
+    "10, 000",
+    "4414"
+   ],
+   "inne_spojrzenia": [],
+   "pojęcia": [],
+   "tło": {
+    "hasło": "Milky Way",
+    "opis": "Galaxy containing the Solar System",
+    "tekst": "The Milky Way or Milky Way Galaxy, or simply the Galaxy, is the galaxy that includes the Solar System, with the name describing the galaxy's appearance from Earth: a hazy band of light seen in the night sky formed by stars in other arms of the galaxy, which are so far away that they cannot be individually distinguished by the naked eye.",
+    "url": "https://en.wikipedia.org/wiki/Milky_Way",
+    "język": "en"
+   },
+   "tagi": [
+    "Milky Way",
+    "Galaxy",
+    "Lençóis Maranhenses National Park",
+    "Lençóis Discover"
+   ],
+   "emotki": [
+    "🌌"
+   ],
+   "wszystkie_źródła": [
+    {
+     "nazwa": "NASA",
+     "tytuł": "APOD: 2026 November 26 – Eye in the Sky: The Milky Way over Lençóis",
+     "url": "https://science.nasa.gov/image-article/apod-2026-november-26-eye-in-the-sky-the-milky-way-over-lencois/"
+    },
+    {
+     "nazwa": "Astronomy Magazine",
+     "tytuł": "The Sky Today on Thursday, November 26: Thanksgiving turkey in the sky",
+     "url": "https://www.astronomy.com/observing/the-sky-today-thursday-november-26-2026/"
+    },
+    {
+     "nazwa": "Universe Today",
+     "tytuł": "AI Helps Three Powerful Supercomputers Simulate The Milky Way In Extraordinary Detail",
+     "url": "https://www.universetoday.com/articles/ai-helps-three-powerful-supercomputers-simulate-the-milky-way-in-extraordinary-detail"
+    }
+   ],
+   "liczba_źródeł": 3,
+   "czas_czytania_min": 2,
+   "tryb": "extractive",
+   "ranking": {
+    "wynik": 8.154,
+    "składowe": {
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.607,
+     "eksponowanie": 1.44,
+     "słowa_kluczowe": 0.35,
+     "świeżość": 0.457,
+     "treściwość": 0.5,
+     "język_działu": 0.0
+    }
+   },
+   "oryginalny_nagłówek": "APOD: 2026 November 26 – Eye in the Sky: The Milky Way over Lençóis",
+   "tłumaczenie": {
+    "z": "en",
+    "silnik": "MyMemory"
+   },
+   "miejsce": 1
+  },
+  {
+   "dział": {
+    "id": "astronomia",
+    "nazwa": "Astronomia",
+    "emoji": "🔭",
+    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
+   },
+   "nagłówek": "Naukowcy odkryli kwazar, który powstał zaledwie 630 milionów lat po Wielkim Wybuchu, ustanawiając rekord.",
+   "lead": "Naukowcy odkryli jak dotąd najbardziej odległy kwazar – jądro galaktyki z powoli pochłaniającą materię czarną dziurą w centrum, pochodzące niemal z czasów narodzin Wszechświata. Kwazar uformował się w ciągu 630 milionów lat od Wielkiego Wybuchu, który doprowadził do powstania Wszechświata – poinformował we wtorek zespół naukowców pod kierownictwem niemieckich badaczy.",
+   "język_źródła": "en",
+   "opublikowano": "2026-11-26T14:00:02+00:00",
+   "źródło": {
+    "nazwa": "Phys.org Astronomy",
+    "url": "https://phys.org/news/2026-11-scientists-quasar-mere-million-years.html",
+    "domena": "phys.org"
+   },
+   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/farthest-quasar.jpg",
+   "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Uważa się to za bardzo wczesny etap rozwoju w 13,8-miliardowej historii kosmosu i jest to wynik bijący poprzednie rekordy.",
+      "„Tym razem skok w czasie kosmicznym jest ogromny!” – napisał w e-mailu Julien Wolf z Europejskiego Obserwatorium Południowego, który kierował badaniami.",
+      "„Każdy z dwóch poprzednich zapisów cofał nas o około 15 milionów lat lub mniej.",
+      "Ten kwazar przenosi nas prawie 40 milionów lat wstecz, co stanowi największy postęp od prawie dekady!” Wolf i jego zespół odkryli kwazar, przeglądając miliony obserwacji wykonanych przez teleskop Euclid Europejskiej Agencji Kosmicznej.",
+      "Uruchomiony w 2023 roku Euclid bada galaktyki, aby rzucić światło na ciemną materię i ciemną energię, które wypełniają tak dużą część Wszechświata i sprawiają, że się on rozszerza.",
+      "Według Wolfa znalezienie kwazara w tak wczesnym okresie istnienia Wszechświata to rzadkość.",
+      "Jego zdaniem jeszcze bardziej wyjątkowym elementem jest ogromny rozmiar czarnej dziury, mimo że jest ona stosunkowo powolnym pochłaniaczem wszystkiego, co ją otacza.",
+      "Naukowcy widzą go takim, jaki był 13,1 miliarda lat temu – kiedy Wszechświat miał mniej niż 5% swojego obecnego wieku.",
+      "Wolf nadał kwazarowi nazwę Dun Aonghasa, na cześć prehistorycznego kamiennego fortu na irlandzkich Wyspach Aranańskich."
      ]
     },
     {
@@ -1191,44 +1367,43 @@
       "Kwazary to najjaśniejsze obiekty w kosmosie, generowane przez supermasywne czarne dziury (SMBH), które akreują ogromne ilości materii.",
       "Teleskop Euclid Europejskiej Agencji Kosmicznej (ESA) właśnie odkrył najnowszego rekordzistę: teleskop zaobserwował go 40 milionów lat wcześniej niż poprzedniego rekordzistę, a został on znaleziony przy przesunięciu ku czerwieni z = 8,13, co odpowiada około 630 milionom lat po Wielkim Wybuchu.",
       "Nazwa techniczna kwazara to J1504+6252, ale nadano mu bardziej rozpoznawalną nazwę Dún Aonghasa.",
-      "Odkrycie to zostało opisane w badaniu opublikowanym w czasopiśmie Astronomy and Astrophysics pod tytułem „Euclid: Discovery of a quasar at z = 8.13 hosting a 360-million-solar-mass black hole”. Głównym autorem jest Julien Wolf, który w czasie prowadzenia badań był stypendystą podoktoranckim w Instytucie Astronomii im. Maxa Plancka.",
-      "Obserwacje przeprowadzone w ramach współpracy Event Horizon Telescope Collaboration pozwoliły na uzyskanie niespotykanego dotąd szczegółowego obrazu najbardziej wewnętrznego obszaru potężnego dżetu emitowanego przez blazar 3C 279."
+      "Odkrycie to zostało opisane w badaniu opublikowanym w czasopiśmie Astronomy and Astrophysics pod tytułem „Euclid: Discovery of a quasar at z = 8.13 hosting a 360-million-solar-mass black hole”. Głównym autorem jest Julien Wolf, który w czasie prowadzenia badań był stypendystą podoktoranckim w Instytucie Astronomii im. Maxa Plancka."
      ]
     },
     {
      "tytuł": "Tło",
      "rodzaj": "akapity",
      "treść": [
-      "Chronologia Wszechświata opisuje historię i przyszłość Wszechświata zgodnie z obecnym stanem wiedzy w dziedzinie kosmologii fizycznej. W tym modelu najwcześniejszy etap, który jest poparty dowodami obserwacyjnymi, znany jest jako inflacja i miał miejsce 13,8 miliarda lat temu. W tej epoce przestrzeń przeszła okres niezwykle szybkiej ekspansji, która trwała ułamek sekundy. Po zakończeniu inflacji energia, która była za nią odpowiedzialna, została przekształcona w cząstki i promieniowanie, rozgrzewając Wszechświat do bardzo gorącego i gęstego stanu oraz inicjując Wielki Wybuch."
+      "Wielki Wybuch to teoria fizyczna opisująca, w jaki sposób Wszechświat rozszerzył się ze stanu początkowego o wysokiej gęstości i temperaturze. Różne modele kosmologiczne oparte na koncepcji Wielkiego Wybuchu wyjaśniają szeroki zakres zjawisk, w tym obfitość pierwiastków lekkich, promieniowanie reliktowe (CMB), przesunięcie ku czerwieni galaktyk oraz wielkoskalową strukturę Wszechświata. Obserwowana jednorodność Wszechświata, która prowadzi do problemów horyzontu i płaskości, jest wyjaśniana przez inflację kosmiczną: fazę przyspieszonej ekspansji w najwcześniejszych stadiach. Szczegółowe pomiary tempa ekspansji Wszechświata wskazują, że inflacja kosmiczna miała miejsce około 13,787 ± 0,02 mld lat temu, co uważa się za wiek Wszechświata. Szeroki wachlarz dowodów empirycznych zdecydowanie przemawia za modelem Wielkiego Wybuchu, który jest obecnie powszechnie akceptowany."
      ],
      "język": "en",
-     "przypis": "Wikipedia: Chronology of the universe",
-     "url": "https://en.wikipedia.org/wiki/Chronology_of_the_universe"
+     "przypis": "Wikipedia: Big Bang",
+     "url": "https://en.wikipedia.org/wiki/Big_Bang"
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
     "630 million",
-    "10 billion",
-    "6252",
-    "8.13",
+    "13.8 billion",
+    "15 million",
     "40 million",
-    "200 million"
+    "13.1 billion",
+    "5%"
    ],
    "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": {
-    "hasło": "Chronology of the universe",
-    "opis": "History and future of the universe",
-    "tekst": "The chronology of the universe describes the history and future of the universe according to the current understanding of physical cosmology. In this model, the earliest stage that is supported by observational evidence is known as inflation, which occurred 13.8 billion years ago. During this epoch, space underwent a period of extremely rapid expansion in a tiny fraction of a second. Once inflation ended, the energy that was responsible for it was converted into particles and radiation, heating up the universe into a very hot and dense state, initiating the Big Bang.",
-    "url": "https://en.wikipedia.org/wiki/Chronology_of_the_universe",
+    "hasło": "Big Bang",
+    "opis": "Physical theory of the cosmos",
+    "tekst": "The Big Bang is a physical theory that describes how the universe expanded from an early state of high density and temperature. Various cosmological models based on the Big Bang concept explain a broad range of phenomena, including the abundance of light elements, the cosmic microwave background (CMB) radiation, the redshift of galaxies and the large-scale structure of the universe. The observed uniformity of the universe, which leads to the horizon and flatness problems, is explained through cosmic inflation: a phase of accelerated expansion during the earliest stages. Detailed measurements of the expansion rate of the universe place the cosmic inflation at an estimated 13.787±0.02 billion years ago, which is considered the age of the universe. A wide range of empirical evidence strongly favors the Big Bang model, which is now widely accepted.",
+    "url": "https://en.wikipedia.org/wiki/Big_Bang",
     "język": "en"
    },
    "tagi": [
-    "Euclid",
-    "Fan",
     "Big Bang",
-    "Sun’s"
+    "Wolf",
+    "Astrophysics",
+    "Astronomy"
    ],
    "emotki": [
     "🔭",
@@ -1236,154 +1411,35 @@
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Sky & Telescope News",
-     "tytuł": "Record-Breaking Black Hole Beacon Shines from the Early Universe",
-     "url": "https://skyandtelescope.org/astronomy-news/record-breaking-black-hole-beacon-shines-from-the-early-universe/"
+     "nazwa": "Phys.org Astronomy",
+     "tytuł": "Scientists discover quasar formed within a mere 630 million years of the Big Bang, setting a record",
+     "url": "https://phys.org/news/2026-11-scientists-quasar-mere-million-years.html"
     },
     {
      "nazwa": "Universe Today",
      "tytuł": "Euclid's Record-Setting Quasar Probes Black Hole Formation",
      "url": "https://www.universetoday.com/articles/euclids-record-setting-quasar-probes-black-hole-formation"
-    },
-    {
-     "nazwa": "Universe Today",
-     "tytuł": "The Event Horizon Telescope Views the Dynamics and Geometry of a Black Hole Jet in Extreme Detail",
-     "url": "https://www.universetoday.com/articles/the-event-horizon-telescope-views-the-dynamics-and-geometry-of-a-black-hole-jet-in-extreme-detailele"
     }
    ],
    "liczba_źródeł": 2,
-   "czas_czytania_min": 3,
+   "czas_czytania_min": 2,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 7.13,
+    "wynik": 5.667,
     "składowe": {
      "potwierdzenia": 1.9,
      "ranga_źródła": 1.35,
-     "eksponowanie": 1.89,
+     "eksponowanie": 0.54,
      "słowa_kluczowe": 1.05,
-     "świeżość": 0.526,
+     "świeżość": 0.413,
      "treściwość": 0.414,
      "język_działu": 0.0
     }
    },
-   "oryginalny_nagłówek": "Record-Breaking Black Hole Beacon Shines from the Early Universe",
+   "oryginalny_nagłówek": "Scientists discover quasar formed within a mere 630 million years of the Big Bang, setting a record",
    "tłumaczenie": {
     "z": "en",
     "silnik": "MyMemory"
-   },
-   "miejsce": 1
-  },
-  {
-   "dział": {
-    "id": "astronomia",
-    "nazwa": "Astronomia",
-    "emoji": "🔭",
-    "opis": "kosmos, misje, teleskopy i to, co widać nad głową"
-   },
-   "nagłówek": "NASA’s Hubble Views Ocean of Stars in Groundwork for Roman",
-   "lead": "An expanse of stars gleams in a rainbow of colors in these NASA Hubble Space Telescope images of the Milky Way. The images focus on an area of sky toward the galactic bulge, a densely packed, spherical region of stars that surrounds the center of a galaxy’s disk.",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-25T14:56:54+00:00",
-   "źródło": {
-    "nazwa": "NASA",
-    "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman/",
-    "domena": "science.nasa.gov"
-   },
-   "obraz": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/galaxies/milky-way/Hubble_GalacticBulge_HD70_1_FINAL.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "sekcje": [
-    {
-     "tytuł": "Co się stało",
-     "rodzaj": "akapity",
-     "treść": [
-      "These Hubble observations are part of a survey that will help researchers better interpret upcoming Nancy Grace Roman Space Telescope observations as they seek to characterize the stars and search for exoplanets in this busy region of our galaxy.",
-      "Astronomers study the Milky Way’s galactic bulge because it holds nearly a quarter of the galaxy’s stellar mass, and its proximity allows them to examine the region in greater detail.",
-      "Although we can see the glow from these crowded spheres of stars in other galaxies, they are too jam-packed and far away to resolve individual stars.",
-      "By studying the Milky Way’s galactic bulge, researchers hope to find new planets and better understand how galaxies form, evolve, and interact over billions of years.",
-      "Hubble views the universe primarily in ultraviolet, visible, and near-infrared light, while Roman collects data in near-infrared light and some visible light.",
-      "Because researchers wish to compare Hubble’s observations to future Roman observations, Hubble looked at the region in wavelengths that overlap with Roman’s areas of sensitivity, the red end of the visible spectrum and near-infrared wavelengths.",
-      "Hubble’s high resolution allows its instruments to collect data on the brightness, ages, composition, and motion of stars over time.",
-      "With this knowledge, astronomers can search for potential exoplanets, determine the location of black holes or dark matter, and better understand our galaxy’s environment and evolution.",
-      "A key component of Roman’s future observations is the search for exoplanets by capturing microlensing events , a type of gravitational lensing that occurs when light from a more distant object is magnified and distorted by the mass of a closer object along the line of sight."
-     ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "The images focus on an area of sky toward the galactic bulge, a densely packed, spherical region of stars that surrounds the center of a galaxy's disk.",
-      "Astronomers study the Milky Way's galactic bulge because it holds nearly a quarter of the galaxy's stellar mass, and its proximity allows them to examine the region in greater detail.",
-      "Because researchers wish to compare Hubble's observations to future Roman observations, Hubble looked at the region in wavelengths that overlap with Roman's areas of sensitivity, the red end of the visible spectrum and near-infrared wavelengths.",
-      "With this knowledge, astronomers can search for potential exoplanets, determine the location of black holes or dark matter, and better understand our galaxy's environment and evolution."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "A star is a luminous spheroid of plasma held together by self-gravity. The nearest star to Earth is the Sun. Many other stars are visible to the naked eye at night; their immense distances from Earth make them appear as fixed points of light. The most prominent stars have been categorised into constellations and asterisms, and many of the brightest stars have proper names. Astronomers have assembled star catalogues that identify the known stars and provide standardized stellar designations. The observable universe contains an estimated 1022 to 1024 stars. Only about 4,000 of these stars are visible to the naked eye—all within the Milky Way galaxy."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: Star",
-     "url": "https://en.wikipedia.org/wiki/Star"
-    }
-   ],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "180,000",
-    "17776"
-   ],
-   "inne_spojrzenia": [
-    {
-     "źródło": "Phys.org Astronomy",
-     "ujęcie": "An expanse of stars gleams in a rainbow of colors in these NASA Hubble Space Telescope images of the Milky Way.",
-     "url": "https://phys.org/news/2026-11-nasa-hubble-views-ocean-stars.html"
-    }
-   ],
-   "pojęcia": [],
-   "tło": {
-    "hasło": "Star",
-    "opis": "Large self-illuminated object in space",
-    "tekst": "A star is a luminous spheroid of plasma held together by self-gravity. The nearest star to Earth is the Sun. Many other stars are visible to the naked eye at night; their immense distances from Earth make them appear as fixed points of light. The most prominent stars have been categorised into constellations and asterisms, and many of the brightest stars have proper names. Astronomers have assembled star catalogues that identify the known stars and provide standardized stellar designations. The observable universe contains an estimated 1022 to 1024 stars. Only about 4,000 of these stars are visible to the naked eye—all within the Milky Way galaxy.",
-    "url": "https://en.wikipedia.org/wiki/Star",
-    "język": "en"
-   },
-   "tagi": [
-    "Roman",
-    "Hubble",
-    "Hubble’s",
-    "Nancy Grace Roman Space Telescope"
-   ],
-   "emotki": [
-    "🔭",
-    "🌌",
-    "🔬"
-   ],
-   "wszystkie_źródła": [
-    {
-     "nazwa": "NASA",
-     "tytuł": "NASA’s Hubble Views Ocean of Stars in Groundwork for Roman",
-     "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman/"
-    },
-    {
-     "nazwa": "Phys.org Astronomy",
-     "tytuł": "NASA's Hubble views ocean of stars in groundwork for Roman",
-     "url": "https://phys.org/news/2026-11-nasa-hubble-views-ocean-stars.html"
-    }
-   ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 3,
-   "tryb": "extractive",
-   "ranking": {
-    "wynik": 6.743,
-    "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.48,
-     "eksponowanie": 0.99,
-     "słowa_kluczowe": 1.4,
-     "świeżość": 0.473,
-     "treściwość": 0.5,
-     "język_działu": 0.0
-    }
    },
    "miejsce": 2
   },
@@ -1503,13 +1559,13 @@
    "czas_czytania_min": 3,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 6.011,
+    "wynik": 5.441,
     "składowe": {
      "potwierdzenia": 1.9,
      "ranga_źródła": 1.522,
-     "eksponowanie": 1.62,
+     "eksponowanie": 1.35,
      "słowa_kluczowe": 0.0,
-     "świeżość": 0.469,
+     "świeżość": 0.169,
      "treściwość": 0.5,
      "język_działu": 0.0
     }
@@ -1523,113 +1579,60 @@
     "emoji": "🗺️",
     "opis": "Ziemia, klimat, oceany, wulkany, mapy i granice"
    },
-   "nagłówek": "California braces for flooding threat from huge tides, El Niño",
-   "lead": "Californians are preparing for a confluence of exceptionally high tides and El Niño-fueled weather that threatens coastal areas with extreme flooding during the busiest U.S. travel week of the year. The San Francisco Bay Area is expected to get hit hard with a one-two punch of inclement weather and monster tides, which…",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-25T11:40:04+00:00",
+   "nagłówek": "Kalibracja własnych map na e-mapie",
+   "lead": "Firma Geo-System udostępniła nowe narzędzie do georeferencji obrazów w portalach działających w technologii e-mapa.net. Umożliwia ono dopasowanie do mapy własnych materiałów kartograficznych, takich jak skany map, plany czy inne opracowania.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-27T00:00:00+00:00",
    "źródło": {
-    "nazwa": "Phys.org Earth",
-    "url": "https://phys.org/news/2026-11-california-braces-threat-huge-tides.html",
-    "domena": "phys.org"
+    "nazwa": "Geoforum",
+    "url": "https://geoforum.pl/news/37566/kalibracja-wlasnych-map-na-e-mapie",
+    "domena": "geoforum.pl"
    },
-   "obraz": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-man-paddles-over-a-f.jpg",
+   "obraz": null,
    "sekcje": [
     {
      "tytuł": "Co się stało",
      "rodzaj": "akapity",
      "treść": [
-      "San Francisco International Airport officials said its runways were no longer at risk of flooding, but authorities still urged residents to reconsider travel plans during the Thanksgiving holiday week.",
-      "San Francisco Mayor Daniel Lurie warned the situation was \"extremely serious.\" Tuesday afternoon, he implored people to avoid driving through flooding that could be triggered by incoming rain that's expected to start Tuesday evening.",
-      "\"Do not drive through floodwaters,\" the mayor said.",
-      "\"We are hoping by the mid- to late afternoon the tides will have subsided considerably.\" So-called king tides occur every year due to the gravitational pull and alignments of the Earth, moon and sun.",
-      "They will occur again in December and January.",
-      "The ocean is also hotter than usual—and thus increasing in volume—both due to human-caused climate change and this year's exceptionally strong El Niño weather pattern.",
-      "The ocean-warming phenomenon in the central and eastern equatorial Pacific has already altered weather around the world, resulting in devastating droughts and wildfires.",
-      "Dial Hoang at the National Weather Service (NWS) told AFP that the Bay Area could see up to nearly 3 feet (0.9 meters) of flooding when the tides peak Wednesday.",
-      "The agency said in a bulletin that dangerously large breaking waves up to 30 feet (9 meters) could hit California's coast on Wednesday, with hazardous beach conditions persisting through Sunday."
+      "Nowa funkcja jest dostępna pod drzewkiem warstw, pod przyciskiem Kalibracja .",
+      "Aby z niej skorzystać, należy przeciągnąć wybrany plik w wyznaczone miejsce lub kliknąć pole Dodaj mapę i wskazać plik na dysku.",
+      "Obsługiwane są formaty..."
      ]
-    },
-    {
-     "tytuł": "Szczegóły i liczby",
-     "rodzaj": "punkty",
-     "treść": [
-      "Beaches close as Los Angeles and La Jolla see all-time high tides and big waves batter landmark pier in Pacifica Super El Niño weather brought record-breaking high tides up and down the California coast on Wednesday, sending seawater rushing into beachside communities and flooding roads and businesses.",
-      "As big waves battered the coast, the tip of a landmark pier in Pacifica, south of San Francisco, was slammed into the sea, local news outlets reported .",
-      "The pier, which had once housed a favorite local cafe , had previously suffered structural damage and had been closed to the public, the San Francisco Chronicle reported , and collapsed after contact with ocean swells 12 times stronger than on an average November day.",
-      "Los Angeles and Santa Barbara tied or broke all-time high tide records on Wednesday, at 8.19 and 8.21ft, respectively, according to the National Weather Service (NWS).",
-      "La Jolla, California, just north of San Diego, also set an all-time high tide record of 8.11ft (2.5 meters), according to the NWS, while preliminary data suggested that tides in Monterey, south of San Francisco, might also have set an all-time record at 8.03ft .",
-      "Monthly tide records were set across the city, with some expected to hit even higher tomorrow Explainer: What to know about flooding in California over Thanksgiving California is grappling with the stress test of record-high or close to record-high November tides up and down the coast this week, with flooding of low-lying roadways in San Francisco and an evacuation of one community in northern California.",
-      "Local residents and media outlets shared images of floodwaters rushing over the bayfront Embarcadero at the center of San Francisco’s tourist district, and flooded roadways from San Rafael to Redwood Shores , despite blue skies overhead."
-     ]
-    },
-    {
-     "tytuł": "Tło",
-     "rodzaj": "akapity",
-     "treść": [
-      "El Niño–Southern Oscillation (ENSO) is a global climate phenomenon that manifests as fluctuations in sea surface temperatures over the tropical Pacific Ocean. The warming phase of the sea surface temperature is known as \"El Niño\" and the cooling phase as \"La Niña\". It affects the climate of much of the tropics and subtropics, and has links (teleconnections) to higher-latitude regions of the world. The Southern Oscillation is the accompanying atmospheric oscillation, which is coupled with the sea temperature change. Numerous atmospheric characteristics respond to the oscillation including wind, surface air pressure and cloudiness."
-     ],
-     "język": "en",
-     "przypis": "Wikipedia: El Niño–Southern Oscillation",
-     "url": "https://en.wikipedia.org/wiki/El_Ni%C3%B1o%E2%80%93Southern_Oscillation"
     }
    ],
-   "dlaczego_to_ważne": "Those tides also coincided with vicious, El Niño-fueled storms—and the impact was catastrophic.",
-   "liczby": [
-    "0.9",
-    "30",
-    "13",
-    "12",
-    "8.19",
-    "8.21"
-   ],
+   "dlaczego_to_ważne": "",
+   "liczby": [],
    "inne_spojrzenia": [],
    "pojęcia": [],
-   "tło": {
-    "hasło": "El Niño–Southern Oscillation",
-    "opis": "Global climate phenomenon",
-    "tekst": "El Niño–Southern Oscillation (ENSO) is a global climate phenomenon that manifests as fluctuations in sea surface temperatures over the tropical Pacific Ocean. The warming phase of the sea surface temperature is known as \"El Niño\" and the cooling phase as \"La Niña\". It affects the climate of much of the tropics and subtropics, and has links (teleconnections) to higher-latitude regions of the world. The Southern Oscillation is the accompanying atmospheric oscillation, which is coupled with the sea temperature change. Numerous atmospheric characteristics respond to the oscillation including wind, surface air pressure and cloudiness.",
-    "url": "https://en.wikipedia.org/wiki/El_Ni%C3%B1o%E2%80%93Southern_Oscillation",
-    "język": "en"
-   },
+   "tło": null,
    "tagi": [
-    "Tuesday",
-    "Wednesday",
-    "El Niño-fueled",
-    "Bay Area"
+    "Firma Geo-System",
+    "Kalibracja",
+    "Dodaj"
    ],
    "emotki": [
-    "🌊"
+    "🗺️"
    ],
    "wszystkie_źródła": [
     {
-     "nazwa": "Phys.org Earth",
-     "tytuł": "California braces for flooding threat from huge tides, El Niño",
-     "url": "https://phys.org/news/2026-11-california-braces-threat-huge-tides.html"
-    },
-    {
-     "nazwa": "The Guardian Environment",
-     "tytuł": "Record-breaking California tides cause major flooding of roads and businesses",
-     "url": "https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides"
-    },
-    {
-     "nazwa": "The Guardian Environment",
-     "tytuł": "California ‘king tides’ stress test San Francisco as low-lying areas flood",
-     "url": "https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel"
+     "nazwa": "Geoforum",
+     "tytuł": "Kalibracja własnych map na e-mapie",
+     "url": "https://geoforum.pl/news/37566/kalibracja-wlasnych-map-na-e-mapie"
     }
    ],
-   "liczba_źródeł": 2,
-   "czas_czytania_min": 3,
+   "liczba_źródeł": 1,
+   "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.909,
+    "wynik": 3.778,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.465,
-     "eksponowanie": 1.17,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.524,
+     "potwierdzenia": 0.0,
+     "ranga_źródła": 1.0,
+     "eksponowanie": 0.54,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.538,
      "treściwość": 0.5,
-     "język_działu": 0.0
+     "język_działu": 0.5
     }
    },
    "miejsce": 2
@@ -1641,69 +1644,74 @@
     "emoji": "🎬",
     "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
    },
-   "nagłówek": "Andy Taylor: Duran Duran's livewire guitarist who was a true Wild Boy",
-   "lead": "How a wayward child from the north-east of England made it with the world's biggest band.",
-   "język_źródła": "en",
-   "opublikowano": "2026-11-25T22:16:14+00:00",
+   "nagłówek": "Nie żyje Mark Tildesley. Pracował m.in. przy \"Bondzie\" i \"F1\"",
+   "lead": "Mark Tildesley , jeden z najbardziej cenionych scenografów filmowych, zmarł w wieku 63 lat. Przez ponad trzy dekady swojej kariery pracował przy filmach największych reżyserów współczesnego kina.",
+   "język_źródła": "pl",
+   "opublikowano": "2026-11-26T18:42:42+00:00",
    "źródło": {
-    "nazwa": "BBC Kultura",
-    "url": "https://www.bbc.co.uk/news/articles/c0666rn4l5vo?at_medium=RSS&at_campaign=rss",
-    "domena": "bbc.co.uk"
+    "nazwa": "Filmweb",
+    "url": "https://www.filmweb.pl/news/Nie+%C5%BCyje+Mark+Tildesley.+Pracowa%C5%82+m.in.+przy+%22Bondzie%22+i+%22F1%22-169859",
+    "domena": "filmweb.pl"
    },
-   "obraz": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d5bf/live/3c0755d0-e982-11f1-99b6-a35a62fa4264.jpg",
+   "obraz": "https://fwcdn.pl/nph/1032473/2026/79574_1.16.jpg",
    "sekcje": [
+    {
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "Jego filmografia obejmuje między innymi \"<a class='internal'"
+     ]
+    },
     {
      "tytuł": "Szczegóły i liczby",
      "rodzaj": "punkty",
      "treść": [
-      "The guitarist was absolutely integral to Duran Duran’s success, and not merely because he was by far the band’s most straightforwardly talented musician Andy Taylor, guitarist in Duran Duran, dies aged 65 I t’s very easy indeed to paint Andy Taylor as the misfit within the world-beating five-man line-up of Duran Duran .",
-      "The others were fans of glam and Chic: their avowed intention was to form a band that melded the sophisticated disco of the latter with the extravagant style and experimental art-pop of Roxy Music.",
-      "Taylor – who had made what he later called “that fateful journey down to Birmingham” from his home on Tyneside after spotting an ad in the Melody Maker – had tastes that tended towards rock music of a more traditional stripe, as evidenced by the artists he covered on his second solo album, 1990’s Dangerous: Thin Lizzy, Bad Company, AC/DC, Montrose.",
-      "Happy enough initially to apply the hair dye and make-up that gave Duran Duran their hip post-punk New Romantic image, by the mid-80s he looked like he’d joined the wrong band entirely.",
-      "In the photos of Duran Duran taken at the Sanremo pop festival in 1985, his bandmates sport the kind of baggy, spendy designer gear common to British pop stars of the era who’ve done exceptionally well for themselves.",
-      "And yet, for all he appears in retrospect have stuck out like the proverbial sore thumb, Andy Taylor was absolutely integral to the success of Duran Duran, and not merely because he was by far the most straightforwardly talented musician in the band.",
-      "Musician who had huge 1980s chart success had been diagnosed with prostate cancer in 2018 Duran Duran was transformed by Andy Taylor’s rock edge – and never quite the same without him Andy Taylor, the guitarist with 80s pop megastars Duran Duran , has died aged 65."
+      "Mark Tildesley, jeden z najbardziej cenionych brytyjskich scenografów, zmarł w wieku 63 lat.",
+      "Przez ponad trzy dekady współtworzył największe sukcesy światowego kina, od bondowskiego \"Nie czas umierać\" po \"Imperium światła\".",
+      "W wieku 84 lat zmarł Michael Giles, perkusista, wokalista i współzałożyciel legendarnej grupy King Crimson."
      ]
     }
    ],
    "dlaczego_to_ważne": "",
    "liczby": [
-    "65",
+    "63 lat",
+    "84 lat",
     "80",
+    "65",
     "40",
-    "11",
-    "10"
+    "11"
    ],
    "inne_spojrzenia": [
     {
-     "źródło": "The Guardian Culture",
-     "ujęcie": "He had been diagnosed with stage four metastatic prostate cancer in 2018, which he disclosed publicly in 2022 when Duran Duran were about to be inducted into the Rock and Roll Hall of Fame. “To the world, Andy was a brilliant guitarist, but to us, he was the most wonderful husband, a loving dad and the proudest…",
-     "url": "https://www.theguardian.com/music/2026/nov/25/andy-taylor-duran-duran-guitarist-dead"
-    },
-    {
-     "źródło": "Pitchfork",
-     "ujęcie": "Duran Duran guitarist Andy Taylor, who co-wrote hits like “Girls on Film” and “Hungry Like the Wolf,” died at home on Monday of prostate cancer.",
-     "url": "https://pitchfork.com/story/duran-durans-andy-taylor-dies-at-65/"
+     "źródło": "Onet Kultura",
+     "ujęcie": "Informację o jego śmierci przekazała wytwórnia DGM, związana z zespołem.",
+     "url": "https://kultura.onet.pl/muzyka/wiadomosci/nie-zyje-michael-giles-wspolzalozyciel-king-crimson-mial-84-lata/qjcg87e"
     }
    ],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Taylor Duran Duran's",
-    "Wild Boy How",
-    "England"
+    "Mark Tildesley",
+    "Bondzie"
    ],
-   "emotki": [],
+   "emotki": [
+    "🎬"
+   ],
    "wszystkie_źródła": [
     {
-     "nazwa": "BBC Kultura",
-     "tytuł": "Andy Taylor: Duran Duran's livewire guitarist who was a true Wild Boy",
-     "url": "https://www.bbc.co.uk/news/articles/c0666rn4l5vo?at_medium=RSS&at_campaign=rss"
+     "nazwa": "Filmweb",
+     "tytuł": "Nie żyje Mark Tildesley. Pracował m.in. przy \"Bondzie\" i \"F1\"",
+     "url": "https://www.filmweb.pl/news/Nie+%C5%BCyje+Mark+Tildesley.+Pracowa%C5%82+m.in.+przy+%22Bondzie%22+i+%22F1%22-169859"
     },
     {
-     "nazwa": "The Guardian Music",
-     "tytuł": "Duran Duran were transformed by Andy Taylor’s rock edge – and never quite the same without him",
-     "url": "https://www.theguardian.com/music/2026/nov/26/andy-taylor-death-duran-duran-transformed-by-guitarists-rock-edge"
+     "nazwa": "Onet Kultura",
+     "tytuł": "Nie żyje Mark Tildesley. Wybitny scenograf miał 63 lata",
+     "url": "https://kultura.onet.pl/film/wiadomosci/nie-zyje-mark-tildesley-wybitny-scenograf-mial-63-lata/7wsdeh3"
+    },
+    {
+     "nazwa": "Onet Kultura",
+     "tytuł": "Nie żyje Michael Giles. Współzałożyciel King Crimson miał 84 lata",
+     "url": "https://kultura.onet.pl/muzyka/wiadomosci/nie-zyje-michael-giles-wspolzalozyciel-king-crimson-mial-84-lata/qjcg87e"
     },
     {
      "nazwa": "The Guardian Culture",
@@ -1711,24 +1719,29 @@
      "url": "https://www.theguardian.com/music/2026/nov/25/andy-taylor-duran-duran-guitarist-dead"
     },
     {
+     "nazwa": "The Guardian Music",
+     "tytuł": "Michael Giles, co-founder and drummer of King Crimson, dies aged 84",
+     "url": "https://www.theguardian.com/music/2026/nov/26/michael-giles-co-founder-and-drummer-of-king-crimson-dies-aged-84"
+    },
+    {
      "nazwa": "Pitchfork",
-     "tytuł": "Duran Duran’s Andy Taylor Dies at 65",
-     "url": "https://pitchfork.com/story/duran-durans-andy-taylor-dies-at-65/"
+     "tytuł": "King Crimson Co-Founder Michael Giles Dies at 84",
+     "url": "https://pitchfork.com/story/king-crimson-co-founder-michael-giles-dies-at-84/"
     }
    ],
-   "liczba_źródeł": 3,
-   "czas_czytania_min": 2,
+   "liczba_źródeł": 4,
+   "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 9.856,
+    "wynik": 10.374,
     "składowe": {
-     "potwierdzenia": 3.8,
-     "ranga_źródła": 1.672,
-     "eksponowanie": 2.97,
-     "słowa_kluczowe": 0.35,
-     "świeżość": 0.564,
+     "potwierdzenia": 5.7,
+     "ranga_źródła": 1.873,
+     "eksponowanie": 0.63,
+     "słowa_kluczowe": 0.7,
+     "świeżość": 0.471,
      "treściwość": 0.5,
-     "język_działu": 0.0
+     "język_działu": 0.5
     }
    },
    "miejsce": 1
@@ -1740,38 +1753,38 @@
     "emoji": "🎬",
     "opis": "film, seriale, muzyka, gry i to, o czym mówi internet"
    },
-   "nagłówek": "Film na ząb - Recenzja filmu Najlepsza owsianka na świecie (2 025)",
-   "lead": "Śniadanie tłuszczowe czy węglowodanowe, keto-jajecznica z dziesięciu jajek na kostce masła pobłogosławionej przez braci Rodzeń czy stara, wysłużona owsianka? Wbrew pozorom nie są to błahe dylematy,",
+   "nagłówek": "Nie uwierzycie, co planuje David Fincher. Brad Pitt zaangażowany w projekt",
+   "lead": "David Fincher promuje właśnie swój nowy film \" Dalsze perypetie Cliffa Bootha \". Dzięki temu jest gościem wielu programów i podcastów.",
    "język_źródła": "pl",
-   "opublikowano": "2026-11-25T10:52:00+00:00",
+   "opublikowano": "2026-11-26T08:51:03+00:00",
    "źródło": {
     "nazwa": "Filmweb",
-    "url": "https://www.filmweb.pl/reviews/recenzja-filmu-Najlepsza+owsianka+na+%C5%9Bwiecie-27809",
+    "url": "https://www.filmweb.pl/news/Nie+uwierzycie%2C+co+planuje+David+Fincher.+Brad+Pitt+zaanga%C5%BCowany+w+projekt-169851",
     "domena": "filmweb.pl"
    },
-   "obraz": "https://fwcdn.pl/nph/1032473/2026/79536_1.16.jpg",
-   "sekcje": [],
-   "dlaczego_to_ważne": "",
-   "liczby": [
-    "50%",
-    "42,000",
-    "60",
-    "70"
-   ],
-   "inne_spojrzenia": [
+   "obraz": "https://fwcdn.pl/nph/867323/2026/79561_1.16.jpg",
+   "sekcje": [
     {
-     "źródło": "Filmweb",
-     "ujęcie": "Przez krótką chwilę Quentin Tarantino nosił się z zamiarem nakręcenia filmu o krytyku filmowym.",
-     "url": "https://www.filmweb.pl/reviews/recenzja-filmu-Dalsze+perypetie+Cliffa+Bootha-27808"
+     "tytuł": "Co się stało",
+     "rodzaj": "akapity",
+     "treść": [
+      "W jednym z nich - \"The Big Picture\" - podzielił się"
+     ]
     }
    ],
+   "dlaczego_to_ważne": "",
+   "liczby": [
+    "164",
+    "125.06"
+   ],
+   "inne_spojrzenia": [],
    "pojęcia": [],
    "tło": null,
    "tagi": [
-    "Najlepsza",
-    "Śniadanie",
-    "Recenzja",
-    "Rodzeń"
+    "David Fincher",
+    "Cliffa Bootha",
+    "Big Picture",
+    "Dalsze"
    ],
    "emotki": [
     "🎬"
@@ -1779,31 +1792,31 @@
    "wszystkie_źródła": [
     {
      "nazwa": "Filmweb",
-     "tytuł": "Film na ząb - Recenzja filmu Najlepsza owsianka na świecie (2 025)",
-     "url": "https://www.filmweb.pl/reviews/recenzja-filmu-Najlepsza+owsianka+na+%C5%9Bwiecie-27809"
+     "tytuł": "Nie uwierzycie, co planuje David Fincher. Brad Pitt zaangażowany w projekt",
+     "url": "https://www.filmweb.pl/news/Nie+uwierzycie%2C+co+planuje+David+Fincher.+Brad+Pitt+zaanga%C5%BCowany+w+projekt-169851"
     },
     {
-     "nazwa": "Filmweb",
-     "tytuł": "Miłość, śmierć i robota - Recenzja filmu Dalsze perypetie Cliffa Bootha (2 026)",
-     "url": "https://www.filmweb.pl/reviews/recenzja-filmu-Dalsze+perypetie+Cliffa+Bootha-27808"
+     "nazwa": "BBC Kultura",
+     "tytuł": "Angelina Jolie and Brad Pitt settle legal battle over French winery",
+     "url": "https://www.bbc.co.uk/news/articles/cmvg2989wv74o?at_medium=RSS&at_campaign=rss"
     },
     {
-     "nazwa": "The Guardian Culture",
-     "tytuł": "Reeling in the years: how Hollywood fell for its own vanishing glories",
-     "url": "https://www.theguardian.com/film/2026/nov/25/hollywood-nostalgia-further-mis-adventures-of-cliff-booth-quentin-tarantino"
+     "nazwa": "The Guardian Film",
+     "tytuł": "Brad Pitt and Angelina Jolie settle years-long legal battle over joint French winery",
+     "url": "https://www.theguardian.com/film/2026/nov/25/brad-pitt-angelina-jolie-settle-french-winery-lawsuit"
     }
    ],
-   "liczba_źródeł": 2,
+   "liczba_źródeł": 3,
    "czas_czytania_min": 1,
    "tryb": "extractive",
    "ranking": {
-    "wynik": 5.499,
+    "wynik": 7.655,
     "składowe": {
-     "potwierdzenia": 1.9,
-     "ranga_źródła": 1.423,
-     "eksponowanie": 0.09,
+     "potwierdzenia": 3.8,
+     "ranga_źródła": 1.537,
+     "eksponowanie": 0.27,
      "słowa_kluczowe": 0.7,
-     "świeżość": 0.386,
+     "świeżość": 0.348,
      "treściwość": 0.5,
      "język_działu": 0.5
     }
@@ -1815,7 +1828,7 @@
  "statystyki": {
   "kanały_ok": 70,
   "kanały_błędne": 1,
-  "znaki_tłumaczone": 19904,
+  "znaki_tłumaczone": 19690,
   "niedziałające_kanały": [
    {
     "url": "https://www.crazynauka.pl/feed/",
@@ -1823,6 +1836,6 @@
    }
   ],
   "działy": 18,
-  "artykuły_w_oknie": 43
+  "artykuły_w_oknie": 46
  }
 }
