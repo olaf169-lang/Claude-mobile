@@ -83,8 +83,9 @@ export function render(kontener, ctx) {
   kontener.querySelectorAll('[data-ja]').forEach((el) =>
     el.addEventListener('click', () => ctx.ustawJa(el.dataset.ja)));
 
-  // „zmień” zdejmuje ksywkę, więc wraca karta z wyborem.
-  kontener.querySelector('[data-zmien-ja]')?.addEventListener('click', () => ctx.ustawJa(ctx.ja));
+  // „zmień” otwiera arkusz z wyborem od razu. Kasowanie ksywki wyglądało jak
+  // znikający box, bo karta z wyborem siedzi dopiero na dole Startu.
+  kontener.querySelector('[data-zmien-ja]')?.addEventListener('click', () => ctx.wybierzJa());
 
   kontener.querySelector('#wyslij-link')?.addEventListener('click', () => zapros());
 }

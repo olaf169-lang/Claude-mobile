@@ -35,6 +35,10 @@ const EKRANY = {
 };
 
 const KLUCZ_JA = 'pp:ja';
+/* Osobny ptaszek: „ten telefon świadomie wskazał ksywkę”. Samo `pp:ja` nie
+   wystarcza, bo wcześniejsza, pasywna karta na Starcie potrafiła je ustawić
+   mimochodem i wtedy pytanie nigdy by nie padło. */
+const KLUCZ_JA_OK = 'pp:ja-potwierdzone';
 const KLUCZ_PODPOWIEDZ = 'pp:widzialDymki';
 
 let aktualny = '';
@@ -51,8 +55,13 @@ const kontekst = () => ({
     const teraz = localStorage.getItem(KLUCZ_JA);
     if (teraz === id) localStorage.removeItem(KLUCZ_JA);
     else localStorage.setItem(KLUCZ_JA, id);
+    localStorage.setItem(KLUCZ_JA_OK, '1');
     rysuj();
   },
+  /* „zmień” ma OTWORZYĆ wybór, a nie skasować ksywkę. Wcześniej czyściło
+     `pp:ja`, a karta z wyborem siedzi na dole Startu, więc wyglądało to tak,
+     jakby box po prostu zniknął. */
+  wybierzJa: () => zapytajKimJestes(),
   przejdzDoWieczoru: (data) => {
     wieczor.ustawDate(data);
     location.hash = '#/wieczor';
@@ -167,14 +176,15 @@ baza.nasluchuj((wieczory, stan) => {
    pokazać. Pytamy przy każdym starcie, aż ktoś wybierze, potem już nigdy.
    Wybór siedzi w localStorage, więc każdy telefon ma swój. */
 function zapytajKimJestes() {
+  const teraz = localStorage.getItem(KLUCZ_JA);
   const { el } = arkusz({
     tytul: 'Kim jesteś?',
     tresc: `<p>Wybierz swoją ksywkę. Zobaczysz wtedy swoje miejsce w tabeli,
       osobno w deblu i w singlu, a Twój wiersz będzie podświetlony.
       Wyniki i tak może wpisywać każdy.</p>
       <div class="chipy chipy-ja">
-        ${GRACZE.map((g) => `<button class="chip chip-duzy" type="button"
-          data-wybor-ja="${g.id}">${g.imie}</button>`).join('')}
+        ${GRACZE.map((g) => `<button class="chip chip-duzy ${g.id === teraz ? 'wybrany' : ''}"
+          type="button" data-wybor-ja="${g.id}">${g.imie}</button>`).join('')}
       </div>`,
   });
   const pozniej = el.querySelector('[data-zamknij]');
@@ -182,6 +192,7 @@ function zapytajKimJestes() {
   el.querySelectorAll('[data-wybor-ja]').forEach((b) => b.addEventListener('click', () => {
     const wybrany = GRACZE.find((g) => g.id === b.dataset.wyborJa);
     localStorage.setItem(KLUCZ_JA, b.dataset.wyborJa);
+    localStorage.setItem(KLUCZ_JA_OK, '1');
     zamknijArkusz();
     komunikat(`Cześć ${wybrany?.imie ?? ''}. Twoje miejsce masz na Starcie.`);
     rysuj();
@@ -190,7 +201,7 @@ function zapytajKimJestes() {
 
 /* Jedna zaczepka na start, nie dwie naraz: najpierw ksywka, bo bez niej
    pół ekranu startowego jest bezimienne. Podpowiedź o ⓘ czeka na później. */
-if (!localStorage.getItem(KLUCZ_JA)) {
+if (!localStorage.getItem(KLUCZ_JA) || !localStorage.getItem(KLUCZ_JA_OK)) {
   setTimeout(zapytajKimJestes, 900);
 } else if (!localStorage.getItem(KLUCZ_PODPOWIEDZ)) {
   setTimeout(() => {

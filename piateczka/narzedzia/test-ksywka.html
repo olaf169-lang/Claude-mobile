@@ -1,0 +1,51 @@
+<!DOCTYPE html><html lang="pl"><head><meta charset="utf-8"><title>Test wyboru ksywki</title></head>
+<body>
+<p>Regresja dla wyboru ksywki. Odpal z serwera lokalnego, w katalogu
+<code>piateczka/narzedzia/</code>. Wszystkie linie maja wyjsc na TAK.</p>
+<pre id="log">start
+</pre>
+<iframe id="f" style="width:390px;height:800px;border:0"></iframe>
+<script>
+const log=(t)=>{document.getElementById('log').textContent+=t+"\n";};
+const sleep=(ms)=>new Promise(r=>setTimeout(r,ms));
+// stan WYJSCIOWY: ksywka juz jest (stara, pasywna karta), ale bez potwierdzenia
+localStorage.setItem('pp:wieczory', JSON.stringify([
+ {data:'2026-11-10',format:'2x15',sklad:['jacek','tomek','kafaar','piateczka'],
+  towarzyski:false,zamkniety:false,goscie:{},
+  mecze:{1:{nr:1,a:['piateczka'],b:['kafaar'],sety:[[15,9],[15,11]]},
+         2:{nr:2,a:['jacek','tomek'],b:['kafaar','piateczka'],sety:[[15,9],[15,11]]}}}]));
+localStorage.setItem('pp:motyw','jasny');
+localStorage.setItem('pp:widzialDymki','1');
+localStorage.setItem('pp:ja','piateczka');
+localStorage.removeItem('pp:ja-potwierdzone');
+
+const f=document.getElementById('f');
+f.src='../index.html#/';
+f.onload=async()=>{
+  const d=f.contentDocument;
+  await sleep(1800);
+  const arkusz1=d.querySelector('.arkusz');
+  log('1) pp:ja ustawione, brak potwierdzenia -> arkusz pyta: '+(arkusz1?'TAK':'NIE'));
+  if(!arkusz1){log('KONIEC: nie zapytal');return;}
+  const podswietlony=d.querySelector('.chipy-ja .chip.wybrany');
+  log('   biezaca ksywka podswietlona: '+(podswietlony?podswietlony.textContent.trim():'brak'));
+  d.querySelector('[data-wybor-ja="piateczka"]').click();
+  await sleep(600);
+  log('2) po wyborze arkusz zamkniety: '+(d.querySelector('.arkusz')?'NIE':'TAK'));
+  log('   pp:ja-potwierdzone = '+localStorage.getItem('pp:ja-potwierdzone'));
+  const karta=d.querySelector('.karta-moje');
+  log('   karta "Twoje miejsce" jest: '+(karta?'TAK':'NIE'));
+  // teraz klikamy "zmien"
+  d.querySelector('[data-zmien-ja]').click();
+  await sleep(500);
+  log('3) po kliknieciu "zmien" arkusz otwarty: '+(d.querySelector('.arkusz')?'TAK':'NIE'));
+  log('   karta "Twoje miejsce" NADAL jest: '+(d.querySelector('.karta-moje')?'TAK':'NIE'));
+  // zmieniamy na innego
+  d.querySelector('[data-wybor-ja="jacek"]').click();
+  await sleep(600);
+  const nota=d.querySelector('.karta-moje .naglowek-nota');
+  log('4) po zmianie karta pokazuje: '+(nota?nota.textContent.trim():'brak'));
+  log('   pp:ja = '+localStorage.getItem('pp:ja'));
+  log('GOTOWE');
+};
+</script></body></html>
