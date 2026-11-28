@@ -346,6 +346,13 @@ h3 { font-size: 20px; font-weight: 700; }
 .rady { padding-left: 20px; margin: 10px 0 0; }
 .rady li { margin-bottom: 6px; }
 
+.szukaj {
+  display: flex; align-items: center; gap: 10px; background: var(--grafit-2); border: 1px solid var(--grafit-3);
+  border-radius: 12px; padding: 0 12px; min-height: 50px; margin-bottom: 12px; color: var(--popiol);
+}
+.szukaj:focus-within { border-color: var(--t-zolta); }
+.szukaj svg { width: 20px; height: 20px; flex: none; }
+.szukaj input { flex: 1; min-width: 0; border: none; background: none; font-size: 17px; color: var(--kreda); outline: none; min-height: 48px; }
 .zakladki { display: grid; grid-auto-flow: column; gap: 4px; background: var(--grafit-2); padding: 4px; border-radius: 12px; margin-bottom: 12px; }
 .zakladki button { border: none; background: none; min-height: 40px; border-radius: 9px; font-weight: 600; color: var(--popiol); }
 .zakladki button[aria-selected="true"] { background: var(--grafit-3); color: var(--kreda); }

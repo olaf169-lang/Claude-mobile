@@ -84,6 +84,30 @@ function elementListy(c, wybrane = false) {
 // Wybór ćwiczenia. `obecny`: id zamienianego (albo null przy dodawaniu).
 // `zasiegi`: lista [{ id, etykieta }]; gdy jest więcej niż jeden, po wyborze
 // ćwiczenia apka pyta, czy zamiana jest jednorazowa, czy na stałe.
+function normalizuj(t) {
+  return String(t || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ł/g, 'l').replace(/[^a-z0-9]+/g, ' ').trim();
+}
+
+// Dodatkowe słowa, którymi ludzie nazywają sprzęt na siłowni.
+const SLOWA_TYPU = { wyciag: 'wyciag brama linka linki bloczek', maszyna: 'maszyna', hantle: 'hantle hantel', cialo: 'masa ciala bez sprzetu' };
+
+function szukaj(lista, q, { luzno = false } = {}) {
+  const slowa = q.split(' ').filter((w) => w && (!luzno || w.length >= 4));
+  return lista
+    .map((c) => {
+      const nazwa = normalizuj(c.nazwa);
+      const tlo = `${nazwa} ${normalizuj(OBSZARY[c.obszar]?.nazwa)} ${SLOWA_TYPU[c.typ] || ''} ${normalizuj(c.cel)} ${normalizuj(c.img)}`;
+      if (!slowa.length || !(luzno ? slowa.some((w) => nazwa.includes(w.slice(0, 5))) : slowa.every((w) => tlo.includes(w)))) return null;
+      // Wyżej to, co zaczyna się od wpisanego słowa w samej nazwie.
+      const punkty = (nazwa.startsWith(slowa[0]) ? 4 : 0) + slowa.filter((w) => nazwa.includes(w)).length * 2
+        + slowa.filter((w) => nazwa.split(' ').some((x) => x.startsWith(w))).length;
+      return { c, punkty };
+    })
+    .filter(Boolean)
+    .sort((a, b) => b.punkty - a.punkty || a.c.nazwa.localeCompare(b.c.nazwa, 'pl'))
+    .map((x) => x.c);
+}
+
 export function wyborCwiczenia({ tytul, obecny = null, obszarStart = null, zasiegi = [], przycisk = 'Wybierz', onWybierz }) {
   const akt = obecny ? cwiczenie(obecny) : null;
   const zamienniki = akt ? (akt.alt || []).map(cwiczenie).filter(Boolean) : [];
@@ -97,6 +121,12 @@ export function wyborCwiczenia({ tytul, obecny = null, obszarStart = null, zasie
       <button class="btn btn-ikona" type="button" data-zamknij aria-label="Zamknij">${IKONY.zamknij}</button>
     </div>
     <div data-krok="lista">
+      <label class="szukaj">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+        <input type="search" data-szukaj autocomplete="off" enterkeyhint="search" placeholder="Szukaj, np. podciąganie" aria-label="Szukaj ćwiczenia">
+      </label>
+      <div data-wyniki hidden></div>
+      <div data-zakladki-wrap>
       <div class="zakladki" role="tablist">
         ${zamienniki.length ? '<button type="button" role="tab" data-zakladka="zam">Zamienniki</button>' : ''}
         <button type="button" role="tab" data-zakladka="wsz">Wszystkie</button>
@@ -121,8 +151,10 @@ export function wyborCwiczenia({ tytul, obecny = null, obszarStart = null, zasie
         <label class="pole"><span>Sprzęt</span>
           <select name="typ">${Object.entries(TYPY).map(([k, t]) => `<option value="${k}">${t}</option>`).join('')}</select>
         </label>
+        <div data-podobne></div>
         <button class="btn btn-pelny" type="submit">Dodaj ćwiczenie</button>
       </form>
+      </div>
     </div>
     <div data-krok="zasieg" hidden></div>
   `);
@@ -138,6 +170,47 @@ export function wyborCwiczenia({ tytul, obecny = null, obszarStart = null, zasie
   };
   pokazObszar(startObszar);
   pokazZakladke(zakladkaStart);
+
+  // Wyszukiwarka: pasuje każde słowo z zapytania, bez polskich znaków
+  // i bez wielkości liter. W bazie jest też angielska nazwa ze zdjęcia,
+  // więc „pull up” albo „lateral” też coś znajdą.
+  const wszystkie = wszystkieCwiczenia().filter((c) => c.id !== obecny);
+  const wyniki = el.querySelector('[data-wyniki]');
+  const zakladkiWrap = el.querySelector('[data-zakladki-wrap]');
+  const pole = el.querySelector('[data-szukaj]');
+  const pokazWyniki = () => {
+    const q = normalizuj(pole.value);
+    zakladkiWrap.hidden = !!q;
+    wyniki.hidden = !q;
+    if (!q) return;
+    const lista = szukaj(wszystkie, q);
+    wyniki.innerHTML = lista.length
+      ? `<p class="maly cichy" style="margin:0 0 8px">Znalezione: ${lista.length}</p><ul class="lista-cw">${lista.map((c) => elementListy(c)).join('')}</ul>`
+      : `<div class="pusto">Nie ma takiego ćwiczenia w apce.</div>`;
+    wyniki.insertAdjacentHTML('beforeend', `<button class="btn btn-pelny" type="button" data-jako-wlasne style="margin-top:10px">Dodaj „${esc(pole.value.trim())}” jako własne</button>`);
+  };
+  pole.addEventListener('input', pokazWyniki);
+  el.addEventListener('click', (e) => {
+    if (!e.target.closest('[data-jako-wlasne]')) return;
+    const nazwa = pole.value.trim();
+    pole.value = '';
+    pokazWyniki();
+    pokazZakladke('wl');
+    const inp = el.querySelector('[name="nazwa"]');
+    inp.value = nazwa.charAt(0).toUpperCase() + nazwa.slice(1);
+    inp.dispatchEvent(new Event('input', { bubbles: true }));
+    inp.focus();
+  });
+
+  // Przy wpisywaniu własnego: podpowiedź, że takie ćwiczenie już jest.
+  const podobne = el.querySelector('[data-podobne]');
+  el.querySelector('[name="nazwa"]').addEventListener('input', (e) => {
+    const q = normalizuj(e.target.value);
+    const lista = q.length >= 3 ? szukaj(wszystkie, q, { luzno: true }).slice(0, 4) : [];
+    podobne.innerHTML = lista.length
+      ? `<p class="maly cichy" style="margin:0 0 8px">Może chodzi Ci o któreś z tych? Dotknij, żeby wybrać.</p><ul class="lista-cw" style="margin-bottom:12px">${lista.map((c) => elementListy(c)).join('')}</ul>`
+      : '';
+  });
 
   const zatwierdz = (id) => {
     if (zasiegi.length <= 1) {
