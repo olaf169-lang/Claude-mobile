@@ -331,14 +331,22 @@ export function zbierz(wieczory, opcje = {}) {
   return suma;
 }
 
-/** Czy w wieczorze jest cokolwiek policzalnego. */
+/** Czy w wieczorze jest cokolwiek policzalnego. Liczy się mecz DOGRANY do
+    końca, dokładnie tak jak w tabeli, MVP i ELO. Wcześniej wystarczył jeden
+    wpisany set i kalendarz chwalił się „Rozegrany” wieczorem, z którego nic
+    nie wchodziło do statystyk (zgłoszone 2026-11-28). */
 export function wieczorRozegrany(wieczor) {
-  return mecze(wieczor).some((m) => wynikMeczu(m).rozegrany);
+  return mecze(wieczor).some((m) => meczKompletny(m, wieczor));
 }
 
-/** Które tryby faktycznie padły tego wieczoru. */
+/** Czy ktoś zaczął wpisywać, ale nic nie jest jeszcze dograne do końca. */
+export function wieczorNiedograny(wieczor) {
+  return !wieczorRozegrany(wieczor) && mecze(wieczor).some((m) => wynikMeczu(m).rozegrany);
+}
+
+/** Które tryby faktycznie padły tego wieczoru, licząc tylko dograne mecze. */
 export function trybyWieczoru(wieczor) {
-  const zbior = new Set(mecze(wieczor).filter((m) => wynikMeczu(m).rozegrany).map(trybMeczu));
+  const zbior = new Set(mecze(wieczor).filter((m) => meczKompletny(m, wieczor)).map(trybMeczu));
   return TRYBY.filter((t) => zbior.has(t.id));
 }
 
@@ -396,6 +404,33 @@ export function klasyfikacja(wieczory, zakres = {}) {
 export function wFiltrze(wieczory, { od, do: dokad } = {}) {
   return wieczory.filter((w) =>
     (!od || w.data >= od) && (!dokad || w.data <= dokad));
+}
+
+/** Miejsce jednego gracza w danym trybie plus to, jak zmieniło się po ostatnim
+    liczonym dniu TEGO trybu (debel i singiel mają swoje ostatnie dni).
+    `zmiana`: dodatnia to awans o tyle miejsc, ujemna to spadek, `null` gdy nie
+    ma z czym porównać, czyli przy pierwszym wieczorze albo gdy gracz dopiero
+    wszedł do zestawienia. Zwraca `null`, gdy w tym trybie jeszcze nie grał. */
+export function miejsceGracza(wieczory, tryb, id) {
+  const czyste = wieczory.filter((w) => !w.towarzyski);
+  const teraz = klasyfikacja(czyste, { tryb }).filter((r) => r.mecze > 0);
+  const moj = teraz.find((r) => r.id === id);
+  if (!moj) return null;
+
+  const dni = czyste
+    .filter((w) => mecze(w, tryb).some((m) => meczKompletny(m, w)))
+    .map((w) => w.data).sort();
+  const ostatni = dni.at(-1);
+  const przed = klasyfikacja(czyste.filter((w) => w.data !== ostatni), { tryb })
+    .filter((r) => r.mecze > 0)
+    .find((r) => r.id === id);
+
+  return {
+    miejsce: moj.miejsce,
+    ilu: teraz.length,
+    meczeW: moj.meczeW,
+    zmiana: przed ? przed.miejsce - moj.miejsce : null,
+  };
 }
 
 /* ------------------------------------------------------------------- MVP */

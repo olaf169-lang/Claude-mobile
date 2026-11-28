@@ -230,6 +230,19 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
 - **Złoto tylko przy zaszczytach.** Pierwsze miejsce, MVP, Gracz Miesiąca,
   seria zwycięstw, Puchar.
   Jak zacznie być wszędzie, przestanie cokolwiek znaczyć.
+- **„Rozegrany” znaczy wszędzie to samo: DOGRANY.** `wieczorRozegrany`
+  i `trybyWieczoru` patrzą na `meczKompletny`, nie na sam wpisany set.
+  Wcześniej wystarczył jeden set i kalendarz chwalił się „Rozegrany · singiel”
+  wieczorem, z którego do tabeli, MVP i Formy nie wchodziło NIC. Wyglądało to
+  jak zgubiony wynik (zgłoszone 2026-11-28, wieczór 24.11). Jest też
+  `wieczorNiedograny`: coś wpisane, nic dograne. Kalendarz mówi wtedy wprost
+  „Niedograny, jeszcze się nie liczy”. Dogracie decydujący set i dzień liczy
+  się natychmiast, nic nie przepada.
+- **Zmiana miejsca liczy się względem OSTATNIEGO dnia danego trybu.**
+  `miejsceGracza(wieczory, tryb, id)` w `liczenie.js` zwraca miejsce, ilu
+  sklasyfikowanych, wygrane i `zmiana` (dodatnia to awans). Debel i singiel mają
+  swoje ostatnie dni, więc porównanie robi się per tryb. Bez ruchu nie rysujemy
+  strzałki, żeby kafel nie szumiał.
 - **Historia ELO ma punkt dla KAŻDEGO gracza w każdym liczonym dniu**, także
   dla tego, który tego dnia nie grał w danym trybie (jego rating po prostu
   stoi). Wcześniej punkt dostawali tylko ci, którym rating drgnął, więc serie

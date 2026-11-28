@@ -1671,6 +1671,15 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
 .moje-pozycja em { font-size: 12px; font-style: normal; color: var(--tekst-cichy); }
 .moje-medal { font-size: 20px; line-height: 1; align-self: center; }
 .moje-detal { font-size: 12.5px; }
+.moje-zmiana {
+  font: 700 11.5px/1 var(--zwykly);
+  padding: 2px 5px;
+  border-radius: 999px;
+  align-self: center;
+  white-space: nowrap;
+}
+.moje-w-gore { color: var(--zielen); background: color-mix(in srgb, var(--zielen) 15%, transparent); }
+.moje-w-dol  { color: var(--czerwien); background: color-mix(in srgb, var(--czerwien) 15%, transparent); }
 .moje-brak { font: 800 26px/1 var(--naglowkowy); color: var(--tekst-cichy); }
 .moje-podium-1 {
   border-color: color-mix(in srgb, var(--zloto) 55%, transparent);
