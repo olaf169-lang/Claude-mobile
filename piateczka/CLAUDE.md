@@ -51,6 +51,11 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
 - **Debel = błękit, singiel = złoto** (`--tryb-debel` / `--tryb-singiel`,
   osobne w obu motywach). Te same barwy w wyborze rodzaju, na kartach meczów
   (pasek z lewej) i w przełącznikach na Tabeli i ELO: nie rozjeżdżaj tego.
+  Rozegrany mecz dostaje PEŁNY kolor trybu (`.karta-debel.rozegrany`), wyblakły
+  znaczy „jeszcze nie grany”. Uwaga na pułapkę: wcześniej `.karta-mecz.rozegrany`
+  nadpisywał pasek złotem i przez wyższą specyficzność (dwie klasy na jedną)
+  KAŻDY rozegrany debel miał złoty pasek zamiast błękitnego. Siedziało tak
+  tygodniami, wyłapane dopiero przy audycie złota 2026-11-28.
 - **Format jest zmienny**: `{ setow: 1|2, doIlu: N }`, per mecz, dziedziczony
   z wieczoru (`formatMeczu()`). Stare klucze tekstowe ('3x15') mapuje
   `normalizujFormat()` w `dane.js`: nie usuwaj tego, bo w bazie siedzą
@@ -229,9 +234,24 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
 - **Zmiana ksywek: świadomie NIE robiona.** Zostają Jacek/Tomek/Kafaar/
   Piąteczka na sztywno w `GRACZE` (dane.js); zmiana na życzenie = edycja w
   kodzie, bez edytora w apce (decyzja użytkownika 2026-09-15).
-- **Złoto tylko przy zaszczytach.** Pierwsze miejsce, MVP, Gracz Miesiąca,
-  seria zwycięstw, Puchar.
-  Jak zacznie być wszędzie, przestanie cokolwiek znaczyć.
+- **Złoto tylko przy zaszczytach, reszta to neutralny `--akcent`.** Złote
+  zostaje: pierwsze miejsce, MVP, Gracz Miesiąca, Puchar, seria zwycięstw,
+  poziom złota w przydomkach i logo „Pan Piąteczka” w pasku. WSZYSTKO inne
+  (przycisk główny, linki, aktywna zakładka menu, wybrane chipy, kropki ⓘ,
+  notki pomocy, Twój wiersz w tabeli, ramka fokusu) jedzie na tokenach
+  `--akcent` / `--akcent-jasne` / `--akcent-mgla` / `--na-akcencie`.
+  Akcent jest monochromatyczny i związany z tekstem: w ciemnym motywie biel,
+  w jasnym atrament. Przycisk główny to więc biały guzik z granatowym tekstem
+  albo atramentowy z białym. Decyzja użytkownika 2026-11-28, bo złoto było
+  dosłownie wszędzie (96 użyć) i przestało cokolwiek znaczyć.
+  **Dokładasz nowy element UI? Bierzesz `--akcent`, nie `--zloto`.** Złoto
+  tylko wtedy, gdy element NAGRADZA kogoś za wynik. Kolor trybu singla
+  (`--tryb-singiel`) to coś innego niż złoto-zaszczyt, choć wygląda podobnie:
+  znacznik trybu bierze `--tryb-singiel`, nigdy `--zloto`.
+- **„zmień” i inne przyciski udające link mają klasę `naglowek-link` na
+  `<button>`, więc potrzebują resetu (`button.naglowek-link`).** Bez niego
+  przeglądarka dokładała jasne tło i ramkę, a w ciemnym motywie biały tekst
+  znikał na białym prostokącie.
 - **„Rozegrany” znaczy wszędzie to samo: DOGRANY.** `wieczorRozegrany`
   i `trybyWieczoru` patrzą na `meczKompletny`, nie na sam wpisany set.
   Wcześniej wystarczył jeden set i kalendarz chwalił się „Rozegrany · singiel”
@@ -282,6 +302,23 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
   wieczory, tryb)` eksportowane z `ekran-tabela.js`, które samo dolicza sobie
   klasyfikację. **Jak dokładasz gdzieś listę graczy, zrób ją klikalną tym
   samym wejściem**, bo niespójność (tu klikalne, tam nie) była osobną skargą.
+- **Start otwiera się od „co teraz”, nie od banera.** Duży nagłówek
+  (powitanie + „Jak to działa”) jest tylko przy PIERWSZYM uruchomieniu; od
+  następnego zwija się do jednej linijki (`pp:hero-zwiniety`). Stan czytany jest
+  raz przy starcie modułu, więc w obrębie jednej sesji nagłówek nie skacze.
+  Pod nim karta `kartaCoTeraz` z czterema stanami, od najpilniejszego: wieczór
+  w toku dziś (zielona ramka, pulsująca kropka, „Wróć do wpisywania”), dziś już
+  zapisany (link do podsumowania), dziś wtorek bez wpisów („Zaczynamy”) oraz
+  w pozostałe dni najbliższy wtorek z odliczaniem i obsługą wolnych wtorków
+  z `SEZON.wolne`. „Na żywo” jest ZIELONE, nie złote. Regresja:
+  `node piateczka/narzedzia/test-co-teraz.mjs` podstawia datę i przechodzi przez
+  wszystkie stany.
+- **Panel statystyk ma trzy zakładki: Wyniki / Rywale / Przydomki.** Nagłówek
+  z godłem stoi nad nimi. „Rywale” pokazują, dla jakiego trybu liczony jest
+  bilans, bo partnerów i rywali bierze się z trybu, z którego panel otwarto.
+  Po wyborze przydomka arkusz rysuje się od nowa i WRACA na zakładkę
+  „Przydomki” (`szczegoly(..., 'przydomki')`), inaczej wybór wyglądałby, jakby
+  nic się nie stało.
 - **W panelu statystyk najpierw STATY, przydomki na końcu.** Kto klika „Twoje
   staty”, ma zobaczyć wyniki od razu, a nie przewijać listę przydomków.
 - **Krzywa wieczoru** (`krzywaWieczoru` w `liczenie.js`): skuteczność w pierwszej
@@ -356,7 +393,8 @@ skrócić o połowę bez utraty treści; zwykle da się.
 ### Wyróżnione hasła w instrukcji
 
 `kluczowe: true` przy haśle w `POMOC` sprawia, że ekran „Zasady” rysuje je
-w złotym boksie z plakietką „Najważniejsze” (`.haslo-klucz`): tym samym,
+w wyróżnionym boksie z plakietką „Najważniejsze” (`.haslo-klucz`; od
+2026-11-28 w neutralnym akcencie, nie w złocie, bo to pomoc, a nie zaszczyt): tym samym,
 co karta „W 20 sekund” (`.karta-esencja`). To jeden język wizualny dla
 „to musisz przeczytać”; nie rozmnażaj wariantów.
 

@@ -106,7 +106,7 @@ export function pokazStatystyki(id, wieczory, tryb = 'debel') {
   szczegoly(id, tabela, wieczory, tryb);
 }
 
-function szczegoly(id, tabela, wieczory, tryb) {
+function szczegoly(id, tabela, wieczory, tryb, zakladka = 'wyniki') {
   const r = tabela.find((x) => x.id === id);
   if (!r) return;
   // Zawsze pokazujemy oba tryby, niezależnie od tego, którą tabelę ktoś otworzył.
@@ -134,6 +134,12 @@ function szczegoly(id, tabela, wieczory, tryb) {
         <b>${p ? bez(p.nazwa) : 'Bez przydomka'}</b>
         <em>${p ? bez(p.haslo) : 'Jeszcze nic nie wpadło, zagraj kilka meczów'}</em>
       </div>
+      <div class="zakladki" role="tablist" aria-label="Statystyki gracza">
+        <button class="zakladka" type="button" role="tab" data-zakladka="wyniki">Wyniki</button>
+        <button class="zakladka" type="button" role="tab" data-zakladka="rywale">Rywale</button>
+        <button class="zakladka" type="button" role="tab" data-zakladka="przydomki">Przydomki${trafione.length > 1 ? ` <i>${trafione.length}</i>` : ''}</button>
+      </div>
+      <div class="zakladka-panel" role="tabpanel" data-panel="wyniki">
       <h4>Wyniki: debel i singiel</h4>
       <table class="staty-tryby">
         <thead><tr><th></th><th>W:P</th><th>sety</th><th>pkt</th><th>%</th></tr></thead>
@@ -191,14 +197,33 @@ function szczegoly(id, tabela, wieczory, tryb) {
         </ul>
         <p class="pomoc-nota">Z ${sedziowanych} ${sedziowanych === 1 ? 'sędziowanego meczu' : 'sędziowanych meczów'}.
         Nie liczy się do tabeli ani do Formy.</p>` : ''}
+      </div>
+      <div class="zakladka-panel" role="tabpanel" data-panel="rywale">
+      <p class="zakladka-tryb">Liczone dla: <b>${tryb === 'singiel' ? 'singiel' : 'debel'}</b></p>
       <h4>W parze z kim (bilans W:P)</h4>
       ${lista(r.partnerzy, 'W tym trybie nie było jeszcze partnerów, singla gra się samemu.')}
       <h4>Przeciw komu (bilans W:P)</h4>
       ${lista(r.przeciwnicy, 'Brak rozegranych meczów.')}
       <p class="pomoc-nota">Na plus to Ty jesteś ich zmorą, na minus oni Twoją.</p>
+      </div>
+      <div class="zakladka-panel" role="tabpanel" data-panel="przydomki">
       ${trafione.length > 1 ? `<h4>Twoje przydomki</h4>
-        ${listaWyboru({ id, trafione, noszonyId, reczny })}` : ''}
-      <p class="pomoc-nota">Przydomki liczą się z wszystkich meczów, debla i singla razem.</p>`,
+        ${listaWyboru({ id, trafione, noszonyId, reczny })}`
+        : `<p class="pusto">${trafione.length ? 'Na razie łapiesz się na jeden przydomek, ten u góry.'
+            : 'Jeszcze nic nie wpadło, zagraj kilka meczów.'}</p>`}
+      <p class="pomoc-nota">Przydomki liczą się z wszystkich meczów, debla i singla razem.
+      Za co są pozostałe, zobaczysz w <a href="#/tytuly">Tytułach</a>.</p>
+      </div>`,
   });
-  podepnijWybor(a.el, () => szczegoly(id, tabela, wieczory, tryb));
+  const pokaz = (nazwa) => {
+    a.el.querySelectorAll('[data-zakladka]').forEach((b) =>
+      b.setAttribute('aria-selected', String(b.dataset.zakladka === nazwa)));
+    a.el.querySelectorAll('[data-panel]').forEach((pn) => { pn.hidden = pn.dataset.panel !== nazwa; });
+  };
+  pokaz(zakladka);
+  a.el.querySelectorAll('[data-zakladka]').forEach((b) =>
+    b.addEventListener('click', () => pokaz(b.dataset.zakladka)));
+  // Po wyborze przydomka arkusz rysuje się od nowa; wracamy na tę samą zakładkę,
+  // a nie na „Wyniki”, bo inaczej wybór wyglądałby, jakby nic się nie stało.
+  podepnijWybor(a.el, () => szczegoly(id, tabela, wieczory, tryb, 'przydomki'));
 }

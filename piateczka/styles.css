@@ -25,6 +25,12 @@
   --zloto:          #D9A441;
   --zloto-jasne:    #E8C77A;
   --zloto-mgla:     rgba(217, 164, 65, .14);
+  /* Akcent UI: monochromatyczny, związany z tekstem. Złoto zostaje TYLKO
+     przy zaszczytach (1. miejsce, MVP, Gracz Miesiąca, Puchar, seria). */
+  --akcent:         #EAF0F8;
+  --akcent-jasne:   #FFFFFF;
+  --akcent-mgla:    rgba(234, 240, 248, .10);
+  --na-akcencie:    #0A1628;
   --srebro:         #B9C6D8;
   --miedz:          #C4703A;
 
@@ -74,6 +80,10 @@
   --zloto:          #8A5D12;
   --zloto-jasne:    #A9761C;
   --zloto-mgla:     rgba(196, 140, 33, .18);
+  --akcent:         #0B1B33;
+  --akcent-jasne:   #0B1B33;
+  --akcent-mgla:    rgba(11, 27, 51, .08);
+  --na-akcencie:    #FFFFFF;
   --srebro:         #64748B;
   --miedz:          #9C5322;
 
@@ -202,7 +212,7 @@ a { color: inherit; }
   letter-spacing: .01em;
 }
 .dol a span { font-size: 17px; line-height: 1.1; filter: grayscale(.5) opacity(.75); }
-.dol a.aktywny { color: var(--zloto-jasne); background: var(--zloto-mgla); }
+.dol a.aktywny { color: var(--akcent-jasne); background: var(--akcent-mgla); }
 .dol a.aktywny span { filter: none; }
 
 /* ----------------------------------------------------------------- main */
@@ -239,7 +249,7 @@ main {
   inset: 0 14px auto;
   height: 1px;
   border-radius: 1px;
-  background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--zloto) 22%, transparent), transparent);
+  background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--akcent) 22%, transparent), transparent);
 }
 
 .karta-tytul {
@@ -256,7 +266,7 @@ main {
   margin-left: auto;
   font-size: 12.5px;
   font-weight: 600;
-  color: var(--zloto);
+  color: var(--akcent);
   text-decoration: none;
   border-bottom: 1px dotted currentColor;
 }
@@ -267,8 +277,8 @@ main {
 .pomoc-nota {
   margin: 12px 0 0;
   padding: 9px 12px;
-  border-left: 2px solid var(--zloto);
-  background: var(--zloto-mgla);
+  border-left: 2px solid var(--akcent);
+  background: var(--akcent-mgla);
   border-radius: 0 var(--r-xs) var(--r-xs) 0;
   font-size: 13px;
   color: var(--tekst-cichy);
@@ -283,10 +293,10 @@ main {
   width: 19px; height: 19px;
   display: inline-grid;
   place-items: center;
-  border: 1.5px solid color-mix(in srgb, var(--zloto) 62%, transparent);
+  border: 1.5px solid color-mix(in srgb, var(--akcent) 62%, transparent);
   border-radius: 50%;
-  background: var(--zloto-mgla);
-  color: var(--zloto-jasne);
+  background: var(--akcent-mgla);
+  color: var(--akcent-jasne);
   font: 700 11px/1 var(--naglowkowy);
   font-style: italic;
   cursor: pointer;
@@ -295,7 +305,7 @@ main {
   vertical-align: middle;
 }
 .dymek::after { content: ''; position: absolute; inset: -9px; }
-.dymek:active { background: color-mix(in srgb, var(--zloto) 30%, transparent); }
+.dymek:active { background: color-mix(in srgb, var(--akcent) 30%, transparent); }
 .chip .dymek { border-color: currentColor; color: inherit; background: transparent; }
 
 /* ------------------------------------------------------------ przyciski */
@@ -318,9 +328,9 @@ main {
 }
 .btn:active { transform: translateY(1px); }
 .btn-glowny {
-  background: linear-gradient(96deg, var(--zloto-jasne), var(--zloto));
+  background: var(--akcent);
   border-color: transparent;
-  color: #17120A;
+  color: var(--na-akcencie);
   font-weight: 700;
 }
 .btn-obrys { background: transparent; border-color: var(--kreska-mocna); }
@@ -365,9 +375,9 @@ main {
   min-height: 40px;
 }
 .chip.wybrany {
-  background: var(--zloto-mgla);
-  border-color: color-mix(in srgb, var(--zloto) 60%, transparent);
-  color: var(--zloto-jasne);
+  background: var(--akcent-mgla);
+  border-color: color-mix(in srgb, var(--akcent) 60%, transparent);
+  color: var(--akcent-jasne);
 }
 .chip-gosc { border-style: dashed; }
 .chipy-zakres { margin: -2px 0 0; }
@@ -391,12 +401,12 @@ main {
 }
 .pole input:focus-visible, .pole select:focus-visible, .set:focus-visible,
 .btn:focus-visible, .chip:focus-visible, .dymek:focus-visible, .wiersz:focus-visible {
-  outline: 2px solid var(--zloto);
+  outline: 2px solid var(--akcent);
   outline-offset: 2px;
 }
 
 .przelacznik { display: flex; align-items: center; gap: 10px; margin-top: 12px; font-size: 13.5px; color: var(--tekst-cichy); }
-.przelacznik input { width: 20px; height: 20px; accent-color: var(--zloto); flex: none; }
+.przelacznik input { width: 20px; height: 20px; accent-color: var(--akcent); flex: none; }
 
 /* ----------------------------------------------------------------- mecze */
 
@@ -411,7 +421,9 @@ main {
 }
 
 .karta-mecz { border-left: 3px solid var(--kreska); }
-.karta-mecz.rozegrany { border-left-color: var(--zloto); }
+/* Rozegrany mecz dostaje PEŁNY kolor swojego trybu. Wcześniej nadpisywało go
+   złoto i przez wyższą specyficzność każdy rozegrany debel miał złoty pasek
+   zamiast błękitnego (wykryte 2026-11-28). */
 .mecz-prawa { display: flex; align-items: center; gap: 4px; }
 /* Plakietka „+3 zwycięzcom” w stopce meczu, złota, bo to jednak nagroda. */
 .bonus-znacznik {
@@ -448,7 +460,7 @@ main {
   -moz-appearance: textfield;
   transition: border-color .12s ease, background .12s ease;
 }
-.set:focus { border-color: var(--zloto); background: var(--zloto-mgla); }
+.set:focus { border-color: var(--akcent); background: var(--akcent-mgla); }
 .set::-webkit-outer-spin-button, .set::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
 
 .mecz-stopka {
@@ -522,7 +534,7 @@ main {
   cursor: pointer;
 }
 .tabela-skrot .wiersz, .tabela-elo .wiersz { cursor: default; }
-.wiersz.to-ja { box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--zloto) 45%, transparent); }
+.wiersz.to-ja { box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--akcent) 45%, transparent); }
 .miejsce {
   flex: none;
   width: 24px; height: 24px;
@@ -629,7 +641,7 @@ main {
 .forma-wynik b { font-family: var(--naglowkowy); font-size: 14px; color: var(--tekst); }
 .forma-wynik b:last-child { margin-left: auto; }
 .forma-wynik em { font-style: normal; font-size: 11px; color: var(--tekst-ledwie); }
-.forma-wynik em.rowno { color: var(--zloto); font-weight: 600; }
+.forma-wynik em.rowno { color: var(--akcent); font-weight: 600; }
 
 /* ----------------------------------------------------------------- godła */
 
@@ -694,7 +706,7 @@ main {
   border-radius: var(--r-s);
   border: 1px solid transparent;
 }
-.moje-przydomki li.noszony { border-color: var(--zloto); background: var(--plyta-pelna); }
+.moje-przydomki li.noszony { border-color: var(--akcent); background: var(--plyta-pelna); }
 .moje-tresc { flex: 1; display: grid; gap: 2px; }
 .moje-tresc b { font-size: 14px; }
 .moje-tresc em { font-style: normal; font-size: 12px; color: var(--tekst-ledwie); line-height: 1.35; }
@@ -704,8 +716,8 @@ main {
   font: 700 10.5px/1 var(--naglowkowy);
   letter-spacing: .04em;
   text-transform: uppercase;
-  color: var(--zloto);
-  background: var(--zloto-mgla);
+  color: var(--akcent);
+  background: var(--akcent-mgla);
   padding: 4px 7px;
   border-radius: 999px;
 }
@@ -730,7 +742,7 @@ main {
 }
 .moje-wybor li > button:hover { background: var(--plyta-pelna); }
 .moje-wybor li.noszony > button {
-  border-color: var(--zloto);
+  border-color: var(--akcent);
   background: var(--plyta-pelna);
 }
 .moje-tag {
@@ -796,8 +808,8 @@ main {
 .termin-data { font-weight: 700; font-size: 14px; flex: none; width: 92px; }
 .termin-opis { flex: 1; font-size: 12.5px; color: var(--tekst-cichy); }
 .termin-znak { color: var(--tekst-ledwie); font-size: 13px; }
-.termin-rozegrany button { border-left-color: var(--zloto); }
-.termin-rozegrany .termin-znak { color: var(--zloto); }
+.termin-rozegrany button { border-left-color: var(--akcent); }
+.termin-rozegrany .termin-znak { color: var(--akcent); }
 .termin-dzis button { border-left-color: var(--zielen); background: var(--plyta-mocna); }
 .termin-dzis .termin-znak { color: var(--zielen); }
 .termin-zaczety button { border-left-color: var(--bursztyn); }
@@ -833,12 +845,12 @@ main {
 .sekcja-wstep { margin: -4px 0 14px; color: var(--tekst-cichy); font-size: 13.5px; }
 .haslo { padding: 14px 0; border-top: 1px solid var(--kreska); }
 .haslo:first-of-type { border-top: 0; padding-top: 0; }
-.haslo h3 { font-size: 14.5px; margin-bottom: 6px; color: var(--zloto-jasne); }
+.haslo h3 { font-size: 14.5px; margin-bottom: 6px; color: var(--akcent-jasne); }
 .haslo p { margin: 0 0 8px; font-size: 14px; line-height: 1.6; }
 .haslo p:last-child { margin-bottom: 0; }
 .haslo b { font-weight: 700; }
 
-.karta-sciaga { background: linear-gradient(160deg, var(--zloto-mgla), transparent 55%), var(--plyta-pelna); }
+.karta-sciaga { background: linear-gradient(160deg, var(--akcent-mgla), transparent 55%), var(--plyta-pelna); }
 .sciaga { width: 100%; border-collapse: collapse; font-size: 13.5px; }
 .sciaga th, .sciaga td { text-align: left; padding: 9px 0; border-top: 1px solid var(--kreska); vertical-align: top; }
 .sciaga tr:first-child th, .sciaga tr:first-child td { border-top: 0; }
@@ -861,7 +873,7 @@ main {
   font-weight: 800;
   letter-spacing: .14em;
   text-transform: uppercase;
-  color: var(--zloto);
+  color: var(--akcent);
 }
 .hero-nazwa {
   margin: 8px 0 0;
@@ -873,6 +885,46 @@ main {
 .hero-pod { margin: 12px 0 0; color: var(--tekst); font-size: 15px; line-height: 1.5; max-width: 34ch; opacity: .92; }
 .hero-akcje { display: flex; gap: 9px; margin-top: 16px; flex-wrap: wrap; }
 .hero-termin { margin: 12px 0 0; font-size: 13px; color: var(--tekst-cichy); }
+
+/* Zwinięty nagłówek: od drugiego uruchomienia zostaje jedna linijka. */
+.hero-pasek {
+  margin: 4px 2px 12px;
+  font-size: 12.5px;
+  color: var(--tekst-cichy);
+  letter-spacing: .01em;
+}
+.hero-pasek b { color: var(--tekst); font-family: var(--naglowkowy); font-weight: 700; }
+
+/* „Co teraz”: pierwsza karta Startu, mówi, co się dzieje i co kliknąć. */
+.karta-teraz { padding-top: 16px; }
+.teraz-nad {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: 0 0 6px;
+  font: 700 11px/1 var(--naglowkowy);
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--tekst-cichy);
+}
+.teraz-tytul { font-size: 24px; line-height: 1.15; margin: 0 0 6px; }
+.teraz-detal { margin: 0 0 14px; font-size: 13.5px; line-height: 1.5; color: var(--tekst-cichy); }
+/* Na żywo: zielona ramka i pulsująca kropka. Zielony, bo w tej apce znaczy
+   „dzieje się / zaliczone”, a złoto jest zarezerwowane dla zaszczytów. */
+.karta-teraz-zywa { border-color: color-mix(in srgb, var(--zielen) 45%, transparent); }
+.karta-teraz-zywa .teraz-nad { color: var(--zielen); }
+.teraz-kropka {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--zielen);
+  box-shadow: 0 0 0 0 color-mix(in srgb, var(--zielen) 60%, transparent);
+  animation: puls-teraz 1.8s ease-out infinite;
+}
+@keyframes puls-teraz {
+  0%   { box-shadow: 0 0 0 0 color-mix(in srgb, var(--zielen) 55%, transparent); }
+  70%  { box-shadow: 0 0 0 8px transparent; }
+  100% { box-shadow: 0 0 0 0 transparent; }
+}
+@media (prefers-reduced-motion: reduce) { .teraz-kropka { animation: none; } }
 
 .kafelki { display: grid; grid-template-columns: repeat(2, 1fr); gap: 9px; }
 .kafel {
@@ -968,12 +1020,12 @@ main {
   gap: 10px;
   margin-bottom: 9px;
   padding: 10px 12px;
-  background: var(--zloto-mgla);
-  border: 1px solid var(--zloto);
+  background: var(--akcent-mgla);
+  border: 1px solid var(--akcent);
   border-radius: var(--r-s);
 }
 .pasek-cofnij-opis { flex: 1; display: grid; gap: 2px; min-width: 0; }
-.pasek-cofnij-opis b { font-size: 12px; letter-spacing: .03em; text-transform: uppercase; color: var(--zloto); }
+.pasek-cofnij-opis b { font-size: 12px; letter-spacing: .03em; text-transform: uppercase; color: var(--akcent); }
 .pasek-cofnij-opis em {
   font-style: normal;
   font-size: 12.5px;
@@ -1005,7 +1057,7 @@ main {
 }
 .ile-krok:disabled { opacity: .35; cursor: default; }
 .ile-liczba { display: grid; justify-items: center; min-width: 88px; }
-.ile-liczba span { font: 700 34px/1 var(--naglowkowy); color: var(--zloto); }
+.ile-liczba span { font: 700 34px/1 var(--naglowkowy); color: var(--akcent); }
 .ile-liczba em { font-style: normal; font-size: 12px; color: var(--tekst-ledwie); }
 .sklad-ok { color: var(--zielen); font-weight: 600; }
 
@@ -1080,7 +1132,7 @@ main {
 .arkusz-tresc p { margin: 0 0 10px; font-size: 14.5px; line-height: 1.6; }
 .arkusz-tresc h4 { font-size: 13px; margin: 14px 0 0; color: var(--tekst-cichy); }
 .arkusz-godlo { display: flex; justify-content: center; margin: 4px 0 10px; }
-.arkusz-haslo { text-align: center; font-style: italic; color: var(--zloto-jasne); }
+.arkusz-haslo { text-align: center; font-style: italic; color: var(--akcent-jasne); }
 .arkusz-stopka { display: flex; gap: 9px; margin-top: 16px; }
 .arkusz-stopka .btn { flex: 1; }
 .arkusz-stopka.dwa .btn { flex: 1; }
@@ -1162,12 +1214,12 @@ main {
    z lewej) dostają wyróżnione hasła w rozwijanych sekcjach, żeby w całej
    instrukcji „ważne” miało jeden, rozpoznawalny wygląd. */
 .karta-esencja {
-  background: color-mix(in srgb, var(--zloto) 11%, var(--plyta-pelna));
-  border-color: color-mix(in srgb, var(--zloto) 42%, transparent);
-  border-left: 4px solid var(--zloto);
+  background: color-mix(in srgb, var(--akcent) 11%, var(--plyta-pelna));
+  border-color: color-mix(in srgb, var(--akcent) 42%, transparent);
+  border-left: 4px solid var(--akcent);
 }
 .karta-esencja::before { display: none; }
-.karta-esencja .karta-tytul { color: var(--zloto); }
+.karta-esencja .karta-tytul { color: var(--akcent); }
 .esencja {
   list-style: none;
   margin: 6px 0 0;
@@ -1193,8 +1245,8 @@ main {
   display: grid;
   place-items: center;
   border-radius: 50%;
-  background: linear-gradient(150deg, var(--zloto-jasne), var(--zloto));
-  color: #17120A;
+  background: linear-gradient(150deg, var(--akcent-jasne), var(--akcent));
+  color: var(--na-akcencie);
   font: 800 13px/1 var(--naglowkowy);
   margin-top: 1px;
 }
@@ -1210,10 +1262,10 @@ main {
   display: inline-grid;
   place-items: center;
   width: 17px; height: 17px;
-  border: 1.5px solid color-mix(in srgb, var(--zloto) 62%, transparent);
+  border: 1.5px solid color-mix(in srgb, var(--akcent) 62%, transparent);
   border-radius: 50%;
-  background: var(--zloto-mgla);
-  color: var(--zloto-jasne);
+  background: var(--akcent-mgla);
+  color: var(--akcent-jasne);
   font: italic 700 10px/1 var(--naglowkowy);
   vertical-align: middle;
 }
@@ -1257,7 +1309,7 @@ details.akord { padding: 0; overflow: hidden; }
   color: var(--tekst-ledwie);
   transition: transform .18s ease, color .18s ease;
 }
-details.akord[open] .akord-chevron { transform: rotate(90deg); color: var(--zloto); }
+details.akord[open] .akord-chevron { transform: rotate(90deg); color: var(--akcent); }
 details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
 .akord-tresc { padding: 4px 16px 8px; }
 .akord-tresc .haslo:first-of-type { padding-top: 12px; border-top: 0; }
@@ -1536,9 +1588,9 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
   color: var(--tekst-cichy);
 }
 .znacznik-singiel {
-  border-color: color-mix(in srgb, var(--zloto) 45%, transparent);
-  color: var(--zloto);
-  background: var(--zloto-mgla);
+  border-color: color-mix(in srgb, var(--tryb-singiel) 45%, transparent);
+  color: var(--tryb-singiel);
+  background: color-mix(in srgb, var(--tryb-singiel) 14%, transparent);
 }
 
 /* --------------------------------------------------- karta meczu */
@@ -1568,7 +1620,7 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
   font-style: normal;
 }
 .chip.strona-a { border-color: var(--zielen); color: var(--zielen); }
-.chip.strona-b { border-color: var(--zloto); color: var(--zloto); }
+.chip.strona-b { border-color: var(--akcent); color: var(--akcent); }
 .chip.strona-a .chip-strona,
 .chip.strona-b .chip-strona { color: var(--plyta-pelna); }
 
@@ -1580,16 +1632,16 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
   gap: 12px;
   margin-bottom: 14px;
   padding: 12px 14px;
-  border: 1px solid color-mix(in srgb, var(--zloto) 40%, transparent);
+  border: 1px solid color-mix(in srgb, var(--akcent) 40%, transparent);
   border-radius: var(--r-s);
-  background: var(--zloto-mgla);
+  background: var(--akcent-mgla);
 }
 .pasek-zamka-ikona { font-size: 20px; }
-.pasek-zamka b { display: block; color: var(--zloto); }
+.pasek-zamka b { display: block; color: var(--akcent); }
 .pasek-zamka span { font-size: 13px; color: var(--tekst-cichy); }
 
 .karta-zapis .btn-glowny { margin-top: 4px; }
-.karta-zapis.zapisany { border-color: color-mix(in srgb, var(--zloto) 32%, transparent); }
+.karta-zapis.zapisany { border-color: color-mix(in srgb, var(--akcent) 32%, transparent); }
 .ostrzezenie-tekst { color: var(--bursztyn); }
 
 .termin-zamkniety .termin-znak { opacity: .9; }
@@ -1685,7 +1737,59 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
 }
 .moje-w-gore { color: var(--zielen); background: color-mix(in srgb, var(--zielen) 15%, transparent); }
 .moje-w-dol  { color: var(--czerwien); background: color-mix(in srgb, var(--czerwien) 15%, transparent); }
-.moje-wiecej { margin-top: 2px; font-size: 11.5px; font-weight: 600; color: var(--zloto); }
+/* „zmień” jest przyciskiem, a styl linku pisano pod <a>. Bez tego resetu
+   przeglądarka dokładała swoje jasne tło i ramkę, przez co w ciemnym motywie
+   biały tekst znikał na białym prostokącie (wykryte 2026-11-28). */
+button.naglowek-link {
+  appearance: none;
+  background: none;
+  border: 0;
+  border-bottom: 1px dotted currentColor;
+  padding: 0;
+  font-family: inherit;
+  cursor: pointer;
+}
+.moje-wiecej { margin-top: 2px; font-size: 11.5px; font-weight: 600; color: var(--akcent); }
+
+/* Zakładki w panelu statystyk: przełącznik segmentowy. Panel był jedną długą
+   kolumną, przy pełnym sezonie robił się nie do przewinięcia. */
+.zakladki {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+  padding: 4px;
+  margin: 14px 0 6px;
+  background: var(--plyta);
+  border: 1px solid var(--kreska);
+  border-radius: 12px;
+}
+.zakladka {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  font: 600 13px/1 var(--zwykly);
+  color: var(--tekst-cichy);
+  padding: 9px 6px;
+  min-height: 36px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+.zakladka[aria-selected="true"] {
+  background: var(--plyta-pelna);
+  color: var(--tekst);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .18), 0 0 0 1px var(--kreska-mocna);
+}
+.zakladka i {
+  font-style: normal;
+  font-size: 10.5px;
+  padding: 1px 5px;
+  margin-left: 2px;
+  border-radius: 999px;
+  background: var(--akcent-mgla);
+}
+.zakladka-panel[hidden] { display: none; }
+.zakladka-tryb { margin: 10px 0 0; font-size: 12px; color: var(--tekst-cichy); }
+.zakladka-tryb b { color: var(--tekst); }
 
 /* Krzywa wieczoru: dwa kafle, początek i koniec grania. Kolor tylko wtedy,
    gdy różnica jest wyraźna, żeby szum nie udawał trendu. */
@@ -1790,6 +1894,8 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
 .karta-mecz { border-left: 4px solid transparent; }
 .karta-debel   { border-left-color: color-mix(in srgb, var(--tryb-debel) 65%, transparent); }
 .karta-singiel { border-left-color: color-mix(in srgb, var(--tryb-singiel) 70%, transparent); }
+.karta-debel.rozegrany   { border-left-color: var(--tryb-debel); }
+.karta-singiel.rozegrany { border-left-color: var(--tryb-singiel); }
 
 .znacznik-debel {
   border-color: color-mix(in srgb, var(--tryb-debel) 50%, transparent);
@@ -1811,10 +1917,10 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
   position: relative;
   margin: 14px 0;
   padding: 16px 16px 4px;
-  border: 1px solid color-mix(in srgb, var(--zloto) 42%, transparent);
-  border-left: 4px solid var(--zloto);
+  border: 1px solid color-mix(in srgb, var(--akcent) 42%, transparent);
+  border-left: 4px solid var(--akcent);
   border-radius: var(--r-s);
-  background: color-mix(in srgb, var(--zloto) 11%, var(--plyta-pelna));
+  background: color-mix(in srgb, var(--akcent) 11%, var(--plyta-pelna));
 }
 .haslo-klucz h3 { margin-top: 2px; }
 .haslo-plakietka {
@@ -1822,8 +1928,8 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
   margin-bottom: 6px;
   padding: 2px 9px;
   border-radius: 999px;
-  background: color-mix(in srgb, var(--zloto) 22%, transparent);
-  color: var(--zloto);
+  background: color-mix(in srgb, var(--akcent) 22%, transparent);
+  color: var(--akcent);
   font: 800 10.5px/1.6 var(--zwykly);
   letter-spacing: .08em;
   text-transform: uppercase;
@@ -1851,7 +1957,7 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
   font-style: normal;
   font-weight: 800;
   font-size: 11px;
-  color: var(--zloto);
+  color: var(--akcent);
   font-variant-numeric: tabular-nums;
 }
 .btn-sedzia:active { background: var(--plyta-mocna); }
@@ -1867,7 +1973,7 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
 .sedzia-mecz b {
   font: 800 20px/1 var(--naglowkowy);
   font-variant-numeric: tabular-nums;
-  color: var(--zloto);
+  color: var(--akcent);
 }
 
 .chipy-sedzia { margin-bottom: 12px; }
@@ -1922,12 +2028,12 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
 .podglad-parsera {
   margin-top: 14px;
   padding: 14px;
-  border: 1px solid color-mix(in srgb, var(--zloto) 40%, transparent);
-  border-left: 4px solid var(--zloto);
+  border: 1px solid color-mix(in srgb, var(--akcent) 40%, transparent);
+  border-left: 4px solid var(--akcent);
   border-radius: var(--r-s);
-  background: color-mix(in srgb, var(--zloto) 10%, var(--plyta-pelna));
+  background: color-mix(in srgb, var(--akcent) 10%, var(--plyta-pelna));
 }
-.podglad-tytul { font: 700 15px/1.3 var(--naglowkowy); margin-bottom: 8px; color: var(--zloto); }
+.podglad-tytul { font: 700 15px/1.3 var(--naglowkowy); margin-bottom: 8px; color: var(--akcent); }
 
 .lista-zagran { list-style: none; margin: 0; padding: 0; }
 .lista-zagran li {
