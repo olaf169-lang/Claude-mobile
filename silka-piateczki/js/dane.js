@@ -42,11 +42,11 @@ export const CWICZENIA = [
     'Tułów pochylony do przodu, łokcie lekko na boki.',
     'Schodź do kąta prostego w łokciach, nie niżej, jeśli czujesz bark.',
     'Za ciężko? Maszyna z odciążeniem. Za lekko? Pas z obciążeniem.',
-  ], ['wyc-decline', 'wyc-maszyna-decline', 'linki-krzyz', 'rozpietki-pochylenie'], { cel: 'Dół klatki' }),
+  ], ['wyc-decline', 'wyc-maszyna-decline', 'linki-krzyz'], { cel: 'Dół klatki' }),
   C('wyc-decline', 'Wyciskanie hantli na ławce głową w dół', 'klatka', 'hantle', 'Decline_Dumbbell_Bench_Press', [
     'Ławka ustawiona lekko w dół, nogi zablokowane pod wałkami.',
     'Opuszczaj hantle do dolnej części klatki, wypychaj w górę i lekko do siebie.',
-  ], ['wyc-maszyna-decline', 'smith-decline', 'dipy', 'rozpietki-pochylenie'], { cel: 'Dół klatki' }),
+  ], ['wyc-maszyna-decline', 'smith-decline', 'dipy'], { cel: 'Dół klatki' }),
   C('wyc-maszyna-decline', 'Wyciskanie na maszynie w dół', 'klatka', 'maszyna', 'Leverage_Decline_Chest_Press', [
     'Pchasz uchwyty w dół i do przodu, w stronę bioder.',
     'Łopatki cały czas dociśnięte do oparcia.',
@@ -59,21 +59,16 @@ export const CWICZENIA = [
     'Łokcie lekko ugięte, klatka wypięta, łopatki ściągnięte.',
     'Na końcu ruchu zatrzymaj ręce złączone przed sobą na 1 do 2 sekund i ściśnij.',
     'Wracaj powoli, aż poczujesz rozciągnięcie.',
-  ], ['linki-krzyz', 'rozpietki-hantle', 'linki-lawka', 'rozpietki-pochylenie'], { cel: 'Środek klatki' }),
+  ], ['linki-krzyz', 'rozpietki-hantle', 'linki-lawka'], { cel: 'Środek klatki' }),
   C('linki-krzyz', 'Krzyżowanie linek wyciągu', 'klatka', 'wyciag', 'Cable_Crossover', [
     'Krok do przodu, lekki skłon, łokcie minimalnie ugięte.',
     'Prowadź linki z góry w dół, aż dłonie skrzyżują się przed biodrami. To pracuje dół i środek klatki.',
     'Na końcu ściśnij na sekundę.',
-  ], ['pec-deck', 'rozpietki-hantle', 'rozpietki-pochylenie']),
+  ], ['pec-deck', 'rozpietki-hantle']),
   C('rozpietki-hantle', 'Rozpiętki z hantlami na ławce płaskiej', 'klatka', 'hantle', 'Dumbbell_Flyes', [
     'Łokcie lekko ugięte i zablokowane w tym kącie przez cały ruch.',
     'Opuszczaj szeroko do rozciągnięcia, na górze zbliż hantle.',
   ], ['pec-deck', 'linki-lawka']),
-  C('rozpietki-pochylenie', 'Rozpiętki w pochyleniu stojąc (hantle)', 'klatka', 'hantle', null, [
-    'Lekki rozkrok, kolana miękko, tułów pochylony do przodu o 30 do 45°, plecy proste.',
-    'Ręce prawie proste zwisają pod klatką. Rozkładaj je szerokim łukiem na boki, potem zbliż hantle do siebie przed biodrami i ściśnij dół klatki.',
-    'Lekkie hantle. Liczy się ściśnięcie na dole ruchu, nie kilogramy.',
-  ], ['linki-krzyz', 'pec-deck', 'rozpietki-hantle'], { cel: 'Dół i środek klatki' }),
   C('linki-lawka', 'Rozpiętki z linkami na ławce', 'klatka', 'wyciag', 'Flat_Bench_Cable_Flyes', [
     'Ławka między wyciągami, linki z dolnych bloczków.',
     'Linka ciągnie cały czas, więc klatka pracuje także na górze ruchu.',
@@ -144,11 +139,16 @@ export const CWICZENIA = [
     'Mankiet zamiast uchwytu: nie ściskasz dłoni, więc pracuje sam bark, nie przedramię.',
     'Każda seria osobno na lewą i prawą rękę. Po lewej od razu prawa, potem przerwa.',
   ], ['wznosy-wyciag', 'wznosy', 'wznosy-siedzac'], { cel: 'Szerokie barki', strony: true }),
-  C('wznosy-przod', 'Unoszenie hantli w przód (wymachy do przodu)', 'barki', 'hantle', 'Front_Two-Dumbbell_Raise', [
-    'Stojąc, tułów lekko pochylony do przodu, hantle przy udach, ręce prawie proste.',
-    'Unoś hantle przed sobą do wysokości barków albo oczu, bez bujania tułowiem.',
-    'Opuszczaj powoli, 2 do 3 s. Pracuje głównie przód barku i trochę górna część klatki.',
-  ], ['wyc-barki', 'wznosy-mankiet', 'arnold'], { cel: 'Przód barków' }),
+  C('wznosy-przod', 'Wymachy hantlem w przód (unoszenie w przód)', 'barki', 'hantle', 'Front_Two-Dumbbell_Raise', [
+    'Stopy na szerokość barków, tułów delikatnie pochylony do przodu, hantel przy udzie, ręka prawie prosta.',
+    'Unoś hantel przed sobą do wysokości barku, potem powoli opuść wzdłuż tułowia. Na zmianę jedną i drugą ręką albo obiema naraz.',
+    'Pracuje przede wszystkim przód barku i górna część klatki, trochę ręce.',
+  ], ['wznosy-przod-linka', 'wyc-barki', 'wznosy-mankiet'], { cel: 'Przód barków i góra klatki' }),
+  C('wznosy-przod-linka', 'Wymachy w przód z linką od dołu (brama)', 'barki', 'wyciag', 'Front_Cable_Raise', [
+    'Tyłem do bramy, uchwyt albo mankiet z dolnego bloczka, linka przechodzi między nogami albo obok uda.',
+    'Ręka prawie prosta, unoś przed sobą do wysokości barku, opuszczaj 2 do 3 s.',
+    'Każda seria osobno na lewą i prawą rękę.',
+  ], ['wznosy-przod', 'wyc-barki', 'wznosy-mankiet'], { cel: 'Przód barków i góra klatki', strony: true }),
   C('wyc-barki', 'Wyciskanie hantli nad głowę siedząc', 'barki', 'hantle', 'Seated_Dumbbell_Press', [
     'Oparcie prawie pionowo, plecy przyklejone.',
     'Hantle od wysokości uszu do góry, bez blokowania łokci na sztywno.',
@@ -422,11 +422,11 @@ export const TRUDNOSC = {
   'wyc-hantle': { trud: 2 }, 'wyc-hantle-neutral': { trud: 2 }, 'wyc-maszyna': { trud: 1 },
   pompki: { trud: 1, udzial: 0.65 }, dipy: { trud: 1, udzial: 0.9 }, 'wyc-decline': { trud: 2 },
   'wyc-maszyna-decline': { trud: 1 }, 'smith-decline': { trud: 1 }, 'pec-deck': { trud: 1.3 },
-  'linki-krzyz': { trud: 2 }, 'rozpietki-hantle': { trud: 2.5 }, 'rozpietki-pochylenie': { trud: 2.5 }, 'linki-lawka': { trud: 2 },
+  'linki-krzyz': { trud: 2 }, 'rozpietki-hantle': { trud: 2.5 }, 'linki-lawka': { trud: 2 },
   'sciaganie-szeroko': { trud: 1 }, podciaganie: { trud: 1.2, udzial: 0.95 }, 'sciaganie-waskie': { trud: 1 },
   'sciaganie-jednoracz': { trud: 2 }, 'proste-rece': { trud: 1.3 }, 'wioslo-hantel': { trud: 2 },
   'wioslo-skos': { trud: 2 }, 'wioslo-wyciag': { trud: 1 }, 'wioslo-maszyna': { trud: 1 }, 'high-row': { trud: 1 },
-  wznosy: { trud: 4 }, 'wznosy-siedzac': { trud: 4 }, 'wznosy-wyciag': { trud: 4 }, 'wznosy-mankiet': { trud: 2 }, 'wznosy-przod': { trud: 3 }, 'wyc-barki': { trud: 2.2 },
+  wznosy: { trud: 4 }, 'wznosy-siedzac': { trud: 4 }, 'wznosy-wyciag': { trud: 4 }, 'wznosy-mankiet': { trud: 2 }, 'wznosy-przod': { trud: 3 }, 'wznosy-przod-linka': { trud: 1.5 }, 'wyc-barki': { trud: 2.2 },
   'wyc-barki-maszyna': { trud: 1.2 }, arnold: { trud: 2.4 }, 'odwrotne-maszyna': { trud: 1.8 },
   'face-pull': { trud: 1.5 }, 'odwrotne-hantle': { trud: 4 }, 'tyl-linki': { trud: 3 },
   'hip-thrust': { trud: 0.7 }, mostek: { trud: 0.7 }, 'mostek-jednonoz': { trud: 2, udzial: 0.5 },

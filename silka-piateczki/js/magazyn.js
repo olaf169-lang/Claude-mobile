@@ -53,6 +53,15 @@ function uzupelnij(s) {
     }
   }
   if (!wynik.migracje.includes('mankiet')) wynik.migracje.push('mankiet');
+  // Jednorazowo (2026-11-28): „rozpiętki w pochyleniu” okazały się wymachami
+  // w przód. Historia, plany i trening w toku przechodzą na właściwe ćwiczenie.
+  if (!wynik.migracje.includes('przod')) {
+    const zamien = (c) => { if (c && c.cw === 'rozpietki-pochylenie') c.cw = 'wznosy-przod'; };
+    for (const t of wynik.treningi || []) { (t.cwiczenia || []).forEach(zamien); (t.rekordy || []).forEach(zamien); }
+    for (const k of Object.keys(wynik.plany)) (wynik.plany[k] || []).forEach(zamien);
+    (wynik.aktywny?.cwiczenia || []).forEach(zamien);
+    wynik.migracje.push('przod');
+  }
   return wynik;
 }
 

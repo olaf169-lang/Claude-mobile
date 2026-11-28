@@ -60,11 +60,6 @@ export const TECHNIKA = {
     blad: 'Za ciężkie hantle i zbyt głębokie zejście, które przeciąża bark.',
     pro: ['Schodź tylko do linii barków. Ruch tylko w barku, kąt w łokciu stały.', 'Najwięcej daje dolna część ruchu. Górę możesz skrócić, bo tam hantel prawie nie obciąża mięśnia.'],
   },
-  'rozpietki-pochylenie': {
-    ustawienie: 'Stojąc, stopy na szerokość bioder, kolana lekko ugięte. Tułów pochylony o 30 do 45°, łokcie lekko ugięte i zablokowane w tym kącie.',
-    blad: 'Za ciężkie hantle i machanie z rozpędu. Pracują wtedy barki, a klatka prawie wcale.',
-    pro: ['Na dole zatrzymaj hantle przed biodrami na 1 do 2 s i dociśnij je do siebie, jakbyś chciał je zgnieść.', 'Hantel obciąża klatkę głównie w dolnej części ruchu. Ten sam ruch na linkach (krzyżowanie z góry w dół) trzyma napięcie cały czas, więc gdy brama jest wolna, wybierz linki.'],
-  },
   'linki-lawka': {
     ustawienie: 'Ławka płaska w środku bramy, bloczki na dole. Łokcie lekko ugięte, dłonie nad klatką.',
     blad: 'Ławka ustawiona za blisko jednej strony i nierówne ciągnięcie linek.',
@@ -145,9 +140,14 @@ export const TECHNIKA = {
     pro: ['Przechyl się lekko od bramy, około 10 do 15°. Bark jest wtedy rozciągnięty na starcie i pracuje w pełnym zakresie.', 'Unoś do wysokości barku, wyżej pracują już kaptury. Na górze zatrzymaj się na sekundę.'],
   },
   'wznosy-przod': {
-    ustawienie: 'Stojąc, stopy na szerokość bioder, kolana miękko. Hantle przed udami, chwyt nachwytem albo młotkowy, łokcie minimalnie ugięte.',
-    blad: 'Wyrzucanie hantli z bioder i odchylanie się do tyłu. Ruch robi wtedy rozpęd, nie bark.',
-    pro: ['Unoś na zmianę jedną i drugą ręką, wtedy łatwiej trzymać tułów nieruchomo. Wyżej niż do linii oczu nie ma potrzeby.', 'Przód barku mocno pracuje już przy każdym wyciskaniu, więc wystarczą 2 lżejsze serie po 10 do 15 powtórzeń na końcu treningu.'],
+    ustawienie: 'Stojąc, stopy na szerokość barków, kolana miękko, delikatne pochylenie do przodu. Hantel przed udem, chwyt nachwytem albo młotkowy.',
+    blad: 'Wyrzucanie hantla z bioder i odchylanie się do tyłu. Ruch robi wtedy rozpęd, nie bark.',
+    pro: ['Na zmianę jedną i drugą ręką łatwiej utrzymać tułów nieruchomo. Wyżej niż do linii oczu nie ma potrzeby.', 'Opuszczanie 2 do 3 s, wzdłuż tułowia, bez odbicia od uda na dole.'],
+  },
+  'wznosy-przod-linka': {
+    ustawienie: 'Brama, bloczek na najniższej pozycji, pojedynczy uchwyt albo mankiet. Stań tyłem do bramy, krok od stosu.',
+    blad: 'Za duży ciężar i bujanie tułowiem do tyłu.',
+    pro: ['Linka trzyma napięcie także na dole ruchu, czego hantel nie daje.', 'Pauza 1 s na wysokości barku, potem powolny powrót.'],
   },
   'wyc-barki': {
     ustawienie: 'Ławka skośna 75 do 85°, prawie pionowo. Hantle startują na wysokości uszu, łokcie trochę przed tułowiem.',
