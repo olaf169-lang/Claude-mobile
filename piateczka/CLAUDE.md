@@ -253,9 +253,18 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
   z niej `ekran-elo.js` robi oś X. **Nie licz dni osobno w ekranie**: tamten
   filtr brał mecze ledwo zaczęte, a ELO liczy tylko dograne, co znowu
   rozjeżdżało oś.
-- **„Kim jesteś?” pyta przy starcie, raz.** `pp:ja` w localStorage, czyli
-  per telefon. Dopóki nikt nie wybrał ksywki, przy każdym uruchomieniu wyskakuje
-  arkusz z czwórką (`zapytajKimJestes` w `app.js`); po wyborze już nigdy.
+- **„Kim jesteś?” pyta przy starcie, raz, i wymaga POTWIERDZENIA.** Dwa klucze
+  w localStorage, czyli per telefon: `pp:ja` (kto) i `pp:ja-potwierdzone` (ten
+  telefon świadomie wskazał). Samo `pp:ja` nie wystarcza do uznania sprawy za
+  załatwioną, bo wcześniejsza, pasywna karta na Starcie potrafiła je ustawić
+  mimochodem i wtedy pytanie nigdy nie padało (zgłoszone 2026-11-28). „Później”
+  świadomie NIE stawia ptaszka, więc arkusz wróci przy kolejnym wejściu.
+  Arkusz podświetla bieżącą ksywkę.
+- **„zmień” OTWIERA arkusz (`ctx.wybierzJa`), nie kasuje ksywki.** Kasowanie
+  wyglądało jak znikający box: karta z wyborem renderuje się dopiero na dole
+  Startu, więc po kliknięciu nic nie było widać aż do przeładowania.
+  Regresja na to: `narzedzia/test-ksywka.html`, odpalana z serwera lokalnego,
+  przeklikuje cały przepływ i wszystkie linie mają wyjść na TAK.
   Świadomie JEDNA zaczepka na start: podpowiedź o dymkach ⓘ czeka wtedy na
   kolejne wejście, żeby nie nachodziły na siebie.
 - **„Twoje miejsce” stoi na górze Startu**, zaraz pod nagłówkiem, bo to rzecz
