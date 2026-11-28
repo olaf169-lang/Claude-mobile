@@ -66,6 +66,17 @@ export const PRZYDOMKI = [
     warunek: (r) => r.meczeKolejno.length >= 7 && ostatnie(r, 7).filter((m) => m.wygrany).length <= 2,
   },
   {
+    id: 'obecnosc', nazwa: 'Lista Obecności', poziom: 'braz',
+    haslo: 'Fajnie że jesteś. Szkoda że tylko „jesteś”...',
+    opis: 'Przychodzisz prawie na każdy wieczór, ale wygrane omijają Cię szerokim łukiem. Frekwencja wzorowa, tabela mniej. Fajnie że jesteś. Szkoda że tylko „jesteś”...',
+    // Co najmniej 80% wieczorów sezonu (min. 5) przy skuteczności poniżej 35%.
+    // Odznaka za bycie, nie za wynik: kto gra dużo i wygrywa, ten jej nie dostanie.
+    warunek: (r, ctx) => ctx.wieczorowRazem >= 5
+      && r.wieczory >= Math.max(5, Math.ceil(ctx.wieczorowRazem * 0.8))
+      && r.mecze >= 15
+      && r.meczeW / r.mecze < 0.35,
+  },
+  {
     id: 'pedal', nazwa: 'Mistrz Pedałowania', poziom: 'braz',
     haslo: 'W parze orzeł, a sam nie może',
     opis: 'Min. 60% wygranych w deblu i najwyżej 35% w singlu. Na tandemie jedzie się raźniej, bo zawsze można uznać, że to drugi mocniej pedałuje.',
@@ -288,6 +299,12 @@ export function mojePrzydomki(id, wieczory, wybory = {}) {
    `#@` w ścieżkach to podmieniany znacznik gradientu tej konkretnej odznaki. */
 const GLIFY = {
   /* ------------------------------------------------------------- brąz */
+
+  // Kartka obecności: kartka bryłą, dwie linijki listy i jeden gruby ptaszek
+  // jako najmocniejszy detal. Trzy elementy, bo przy 56 px więcej się zlewa.
+  obecnosc: '<path d="M20 12h24a3 3 0 0 1 3 3v34a3 3 0 0 1-3 3H20a3 3 0 0 1-3-3V15a3 3 0 0 1 3-3Z" fill="url(#@)" fill-opacity=".22"/>'
+    + '<path d="M24 22h16M24 29.5h10" stroke-width="2.6" stroke-linecap="round" opacity=".7"/>'
+    + '<path d="M23.5 41.5 29 47l13-13.5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>',
 
   // Łza: duża, spadająca, z refleksem światła.
   plakal: '<path d="M32 16.5c8.2 11.2 12.8 18.3 12.8 24A12.8 12.8 0 0 1 19.2 40.5c0-5.7 4.6-12.8 12.8-24Z" fill="url(#@)" fill-opacity=".2"/>'

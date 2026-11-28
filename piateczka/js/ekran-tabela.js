@@ -7,7 +7,7 @@
    ========================================================================== */
 
 import { gracz, SEZON } from './dane.js';
-import { klasyfikacja, wFiltrze, TRYBY, mecze, trybMeczu, wynikMeczu } from './liczenie.js';
+import { klasyfikacja, wFiltrze, TRYBY, mecze, trybMeczu, wynikMeczu, krzywaWieczoru } from './liczenie.js';
 import { naglowekZPomoca, dymek } from './pomoc.js';
 import { arkusz, bez, odmianaMeczow } from './ui.js';
 import { iskra, kolorGracza } from './wykresy.js';
@@ -97,6 +97,15 @@ function wiersz(r, ja, seria) {
   </li>`;
 }
 
+/** Panel „statystyki gracza” do otwarcia z DOWOLNEGO miejsca w apce, nie tylko
+    z wiersza tabeli. Sam dolicza sobie klasyfikację, więc wołający nie musi nic
+    przygotowywać. Powód: ludzie nie trafiali do tych statystyk i myśleli, że są
+    tylko dla autora (zgłoszone 2026-11-28). */
+export function pokazStatystyki(id, wieczory, tryb = 'debel') {
+  const tabela = klasyfikacja(wieczory.filter((w) => !w.towarzyski), { tryb });
+  szczegoly(id, tabela, wieczory, tryb);
+}
+
 function szczegoly(id, tabela, wieczory, tryb) {
   const r = tabela.find((x) => x.id === id);
   if (!r) return;
@@ -118,17 +127,13 @@ function szczegoly(id, tabela, wieczory, tryb) {
   const { trafione, noszonyId, reczny } = mojePrzydomki(id, wieczory, wyboryPrzydomkow());
   const p = trafione.find((x) => x.id === noszonyId) ?? null;
   const a = arkusz({
-    tytul: `${bez(gracz(id).imie)}: szczegóły`,
+    tytul: `${bez(gracz(id).imie)}: statystyki`,
     tresc: `
       <div class="szczegoly-przydomek">
         ${godlo(p?.id ?? null, { rozmiar: 60 })}
         <b>${p ? bez(p.nazwa) : 'Bez przydomka'}</b>
         <em>${p ? bez(p.haslo) : 'Jeszcze nic nie wpadło, zagraj kilka meczów'}</em>
       </div>
-      ${trafione.length > 1 ? `<h4>Twoje przydomki</h4>
-        ${listaWyboru({ id, trafione, noszonyId, reczny })}` : ''}
-      <p class="pomoc-nota">Przydomki liczą się z wszystkich meczów, debla i singla razem.
-      Oba tryby porównują tylko „Mistrz Pedałowania” i „Samotny Wilk”.</p>
       <h4>Wyniki: debel i singiel</h4>
       <table class="staty-tryby">
         <thead><tr><th></th><th>W:P</th><th>sety</th><th>pkt</th><th>%</th></tr></thead>
@@ -142,6 +147,25 @@ function szczegoly(id, tabela, wieczory, tryb) {
             : `<tr><th>${nazwa}</th><td colspan="4" class="cichy">nie grał</td></tr>`).join('')}
         </tbody>
       </table>
+      ${(() => {
+        const k = krzywaWieczoru(sezonowe, id);
+        if (!k) return '';
+        const werdykt = k.roznica >= 10
+          ? 'Rozkręcasz się. Im dłużej gracie, tym lepiej Ci idzie.'
+          : k.roznica <= -10
+            ? 'Siadasz. Najlepszy jesteś na świeżo, potem schodzi.'
+            : 'Trzymasz równe tempo przez cały wieczór.';
+        return `<h4>Krzywa wieczoru</h4>
+          <div class="krzywa">
+            <div class="krzywa-kafel"><span>Pierwsza połowa</span>
+              <b>${k.wcz.proc}%</b><em>${k.wcz.w} z ${k.wcz.ile}</em></div>
+            <div class="krzywa-kafel ${k.roznica >= 10 ? 'krzywa-gora' : k.roznica <= -10 ? 'krzywa-dol' : ''}">
+              <span>Druga połowa</span>
+              <b>${k.poz.proc}%</b><em>${k.poz.w} z ${k.poz.ile}</em></div>
+          </div>
+          <p class="pomoc-nota">${werdykt} Liczone z wieczorów, w których padły co najmniej
+          4 dograne mecze. Nie liczy się do tabeli ani do Formy, to ciekawostka.</p>`;
+      })()}
       ${zagr && zagr.razem ? `<h4>Statystyki z sędziowania ${dymek('sedzia')}</h4>
         ${(() => {
           const w = wskazniki(zagr);
@@ -171,7 +195,10 @@ function szczegoly(id, tabela, wieczory, tryb) {
       ${lista(r.partnerzy, 'W tym trybie nie było jeszcze partnerów, singla gra się samemu.')}
       <h4>Przeciw komu (bilans W:P)</h4>
       ${lista(r.przeciwnicy, 'Brak rozegranych meczów.')}
-      <p class="pomoc-nota">Na plus to Ty jesteś ich zmorą, na minus oni Twoją.</p>`,
+      <p class="pomoc-nota">Na plus to Ty jesteś ich zmorą, na minus oni Twoją.</p>
+      ${trafione.length > 1 ? `<h4>Twoje przydomki</h4>
+        ${listaWyboru({ id, trafione, noszonyId, reczny })}` : ''}
+      <p class="pomoc-nota">Przydomki liczą się z wszystkich meczów, debla i singla razem.</p>`,
   });
   podepnijWybor(a.el, () => szczegoly(id, tabela, wieczory, tryb));
 }

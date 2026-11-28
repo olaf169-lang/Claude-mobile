@@ -1650,6 +1650,11 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
 .karta-moje .naglowek-nota { margin-left: 0; }
 .moje-kafle { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .moje-kafel {
+  appearance: none;
+  width: 100%;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1680,6 +1685,38 @@ details.akord[open] .akord-glowa { border-bottom: 1px solid var(--kreska); }
 }
 .moje-w-gore { color: var(--zielen); background: color-mix(in srgb, var(--zielen) 15%, transparent); }
 .moje-w-dol  { color: var(--czerwien); background: color-mix(in srgb, var(--czerwien) 15%, transparent); }
+.moje-wiecej { margin-top: 2px; font-size: 11.5px; font-weight: 600; color: var(--zloto); }
+
+/* Krzywa wieczoru: dwa kafle, początek i koniec grania. Kolor tylko wtedy,
+   gdy różnica jest wyraźna, żeby szum nie udawał trendu. */
+/* Wejście do statystyk jest szerokie i pierwsze w menu, bo to o nie ludzie
+   pytali najczęściej, a wcześniej dało się do nich trafić tylko z tabeli. */
+.kafel-szeroki { grid-column: 1 / -1; flex-direction: row; align-items: center; gap: 12px; }
+.kafel-szeroki .kafel-ikona { margin: 0; }
+.kafel-szeroki b, .kafel-szeroki em { text-align: left; }
+
+.krzywa { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 4px 0 2px; }
+.krzywa-kafel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 12px 8px;
+  border: 1px solid var(--kreska);
+  border-radius: var(--r-s);
+  background: var(--plyta);
+  text-align: center;
+}
+.krzywa-kafel span { font-size: 11.5px; color: var(--tekst-cichy); font-weight: 600; }
+.krzywa-kafel b { font: 800 22px/1 var(--naglowkowy); }
+.krzywa-kafel em { font-size: 11.5px; font-style: normal; color: var(--tekst-cichy); }
+.krzywa-gora { border-color: color-mix(in srgb, var(--zielen) 45%, transparent); }
+.krzywa-gora b { color: var(--zielen); }
+.krzywa-dol { border-color: color-mix(in srgb, var(--czerwien) 45%, transparent); }
+.krzywa-dol b { color: var(--czerwien); }
+.moje-kafel:active { transform: translateY(1px); }
+/* Skrót tabeli na Starcie klika się tak samo jak pełna tabela. */
+.tabela-skrot .wiersz[role="button"] { cursor: pointer; }
 .moje-brak { font: 800 26px/1 var(--naglowkowy); color: var(--tekst-cichy); }
 .moje-podium-1 {
   border-color: color-mix(in srgb, var(--zloto) 55%, transparent);

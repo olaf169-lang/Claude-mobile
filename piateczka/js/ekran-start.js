@@ -9,8 +9,10 @@ import { naglowekZPomoca, dymek } from './pomoc.js';
 import { bez, odmianaWygranych } from './ui.js';
 import { kolorGracza } from './wykresy.js';
 import { zapros } from './pochwal.js';
+import { pokazStatystyki } from './ekran-tabela.js';
 
 const KAFELKI = [
+  { akcja: 'staty',      ikona: '📈', nazwa: 'Twoje staty', opis: 'Bilans, pary, rywale' },
   { href: '#/tabela',    ikona: '📊', nazwa: 'Tabela',    opis: 'Debel i singiel osobno' },
   { href: '#/elo',       ikona: '🏸', nazwa: 'Forma',     opis: 'Krzywa i seria zwycięstw' },
   { href: '#/tytuly',    ikona: '🏆', nazwa: 'Tytuły',    opis: 'MVP, Gracz Miesiąca, Puchar' },
@@ -38,7 +40,7 @@ export function render(kontener, ctx) {
     <section class="hero">
       <p class="hero-nad">Sezon ${SEZON.nazwa}</p>
       <h1 class="hero-nazwa">Turniej<br>Pana Piąteczki</h1>
-      <p class="hero-pod">Liga czterech graczy w badmintona.</p>
+      <p class="hero-pod">Elitarne zawody sportowe.</p>
       <div class="hero-akcje">
         <a class="btn btn-glowny" href="#/wieczor">${nastepny === dzis ? 'Gramy dziś, wpisz wynik' : 'Wpisz wynik'}</a>
         <a class="btn btn-obrys" href="#/zasady">Jak to działa</a>
@@ -54,9 +56,13 @@ export function render(kontener, ctx) {
     ${mvp ? kartaMvp(ostatni, mvp) : ''}
 
     <nav class="kafelki">
-      ${KAFELKI.map((k) => `<a class="kafel" href="${k.href}">
-        <span class="kafel-ikona" aria-hidden="true">${k.ikona}</span>
-        <b>${k.nazwa}</b><em>${k.opis}</em></a>`).join('')}
+      ${KAFELKI.map((k) => {
+        const srodek = `<span class="kafel-ikona" aria-hidden="true">${k.ikona}</span>
+          <b>${k.nazwa}</b><em>${k.opis}</em>`;
+        return k.akcja
+          ? `<button class="kafel kafel-szeroki" type="button" data-kafel="${k.akcja}">${srodek}</button>`
+          : `<a class="kafel" href="${k.href}">${srodek}</a>`;
+      }).join('')}
     </nav>
 
     <section class="karta karta-zapros">
@@ -88,6 +94,22 @@ export function render(kontener, ctx) {
   kontener.querySelector('[data-zmien-ja]')?.addEventListener('click', () => ctx.wybierzJa());
 
   kontener.querySelector('#wyslij-link')?.addEventListener('click', () => zapros());
+
+  /* Statystyki da się teraz otworzyć z trzech miejsc: z kafelka w menu,
+     z własnego kafla „Twoje miejsce” i z wiersza skrótu tabeli. Wcześniej
+     wejście było tylko z pełnej tabeli i ludzie go nie znajdowali. */
+  const staty = (id, tryb) => pokazStatystyki(id, ctx.wieczory, tryb ?? trybSkrotu);
+
+  kontener.querySelector('[data-kafel="staty"]')?.addEventListener('click', () => {
+    if (ctx.ja) staty(ctx.ja);
+    else ctx.wybierzJa();          // bez ksywki nie wiadomo, czyje staty pokazać
+  });
+
+  kontener.querySelectorAll('[data-staty-tryb]').forEach((el) =>
+    el.addEventListener('click', () => staty(ctx.ja, el.dataset.statyTryb)));
+
+  kontener.querySelectorAll('.tabela-skrot [data-gracz]').forEach((el) =>
+    el.addEventListener('click', () => staty(el.dataset.gracz)));
 }
 
 const MEDALE = { 1: '🥇', 2: '🥈', 3: '🥉' };
@@ -97,15 +119,16 @@ const MEDALE = { 1: '🥇', 2: '🥈', 3: '🥉' };
     telefonie jest inne. Miejsca liczone wśród tych, którzy w danym trybie
     w ogóle zagrali, czyli tak samo jak w tabelach. */
 function kartaMojeMiejsce(wieczory, ja) {
-  const kafle = TRYBY.map((t) => ({ nazwa: t.nazwa, moj: miejsceGracza(wieczory, t.id, ja) }));
+  const kafle = TRYBY.map((t) => ({ id: t.id, nazwa: t.nazwa, moj: miejsceGracza(wieczory, t.id, ja) }));
 
   return `<section class="karta karta-moje">
     <h2 class="karta-tytul">Twoje miejsce
       <span class="naglowek-nota cichy">${bez(gracz(ja).imie)}</span>
       <button class="naglowek-link" type="button" data-zmien-ja>zmień</button></h2>
     <div class="moje-kafle">
-      ${kafle.map(({ nazwa, moj }) => `
-        <div class="moje-kafel${moj && moj.miejsce <= 3 ? ` moje-podium-${moj.miejsce}` : ''}">
+      ${kafle.map(({ id, nazwa, moj }) => `
+        <button class="moje-kafel${moj && moj.miejsce <= 3 ? ` moje-podium-${moj.miejsce}` : ''}"
+          type="button" data-staty-tryb="${id}" title="Pokaż swoje statystyki">
           <span class="moje-tryb">${nazwa}</span>
           ${moj ? `<span class="moje-pozycja">
               ${MEDALE[moj.miejsce] ? `<span class="moje-medal" aria-hidden="true">${MEDALE[moj.miejsce]}</span>` : ''}
@@ -114,7 +137,8 @@ function kartaMojeMiejsce(wieczory, ja) {
             <span class="moje-detal cichy">${moj.meczeW} ${odmianaWygranych(moj.meczeW)}</span>`
           : `<span class="moje-pozycja moje-brak">·</span>
              <span class="moje-detal cichy">jeszcze nie grasz</span>`}
-        </div>`).join('')}
+          <span class="moje-wiecej">statystyki ›</span>
+        </button>`).join('')}
     </div>
   </section>`;
 }
@@ -139,7 +163,8 @@ function kartaCzworki(pelna, ja) {
         type="button" data-skrot-tryb="${t.id}" aria-pressed="${t.id === trybSkrotu}">${t.nazwa}</button>`).join('')}
     </div>
     ${cokolwiek ? `<ol class="tabela tabela-skrot">
-      ${tabela.map((r) => `<li class="wiersz ${r.id === ja ? 'to-ja' : ''} podium-${r.miejsce <= 3 ? r.miejsce : 'x'}">
+      ${tabela.map((r) => `<li class="wiersz ${r.id === ja ? 'to-ja' : ''} podium-${r.miejsce <= 3 ? r.miejsce : 'x'}"
+        data-gracz="${r.id}" tabindex="0" role="button">
         <span class="miejsce">${r.miejsce}</span>
         <span class="kropka-serii" style="background:${kolorGracza(r.id)}" aria-hidden="true"></span>
         <span class="wiersz-glowna"><span class="wiersz-imie">${gracz(r.id).imie}</span></span>
