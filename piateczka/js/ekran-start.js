@@ -3,10 +3,12 @@
    ========================================================================== */
 
 import { GRACZE, gracz, SEZON, poPolsku, najblizszyWtorek, dzisiajIso, krotkaData } from './dane.js';
-import { klasyfikacja, wieczorRozegrany, mvpWieczoru, miejsceGracza, TRYBY } from './liczenie.js';
+import { klasyfikacja, wieczorRozegrany, mvpWieczoru, miejsceGracza, TRYBY,
+  mecze as meczeZ, meczKompletny } from './liczenie.js';
+import { zamkniety } from './zamek.js';
 import { graczMiesiaca, przydomekGracza, godlo } from './tytuly.js';
 import { naglowekZPomoca, dymek } from './pomoc.js';
-import { bez, odmianaWygranych } from './ui.js';
+import { bez, odmianaWygranych, odmiana } from './ui.js';
 import { kolorGracza } from './wykresy.js';
 import { zapros } from './pochwal.js';
 import { pokazStatystyki } from './ekran-tabela.js';
@@ -25,6 +27,17 @@ const KAFELKI = [
    celowo mały, bo na Starcie chodzi o rzut oka, a pełna tabela jest obok. */
 let trybSkrotu = 'debel';
 
+/* Duży nagłówek to powitanie. Pokazujemy go przez całe PIERWSZE uruchomienie,
+   a od następnego zwija się do jednej linijki, bo przy każdym wejściu zjadał
+   ćwiartkę ekranu i spychał w dół to, po co się otwiera apkę. Stan czytamy raz
+   przy starcie modułu, więc w obrębie jednej sesji nagłówek nie skacze. */
+const KLUCZ_HERO = 'pp:hero-zwiniety';
+let heroZwiniety = false;
+try {
+  heroZwiniety = localStorage.getItem(KLUCZ_HERO) === '1';
+  localStorage.setItem(KLUCZ_HERO, '1');
+} catch { /* prywatne okno: zawsze pełny nagłówek */ }
+
 export function render(kontener, ctx) {
   const rozegrane = ctx.wieczory.filter(wieczorRozegrany);
   const ostatni = rozegrane.filter((w) => !w.towarzyski)
@@ -33,23 +46,19 @@ export function render(kontener, ctx) {
   const tabela = klasyfikacja(ctx.wieczory.filter((w) => !w.towarzyski), { tryb: trybSkrotu });
   const { aktualny, wToku } = graczMiesiaca(ctx.wieczory);
   const boss = aktualny ?? (wToku?.zwyciezca ? wToku : null);
-  const dzis = dzisiajIso();
-  const nastepny = najblizszyWtorek();
-
   kontener.innerHTML = `
-    <section class="hero">
+    ${heroZwiniety
+      ? `<p class="hero-pasek"><b>Turniej Pana Piąteczki</b> · Sezon ${SEZON.nazwa}</p>`
+      : `<section class="hero">
       <p class="hero-nad">Sezon ${SEZON.nazwa}</p>
       <h1 class="hero-nazwa">Turniej<br>Pana Piąteczki</h1>
       <p class="hero-pod">Elitarne zawody sportowe.</p>
       <div class="hero-akcje">
-        <a class="btn btn-glowny" href="#/wieczor">${nastepny === dzis ? 'Gramy dziś, wpisz wynik' : 'Wpisz wynik'}</a>
         <a class="btn btn-obrys" href="#/zasady">Jak to działa</a>
       </div>
-      <p class="hero-termin">${nastepny === dzis
-        ? 'Dziś wtorek, miłego grania.'
-        : `Najbliższy wtorek: <b>${poPolsku(nastepny)}</b>`}</p>
-    </section>
+    </section>`}
 
+    ${kartaCoTeraz(ctx.wieczory)}
     ${ctx.ja ? kartaMojeMiejsce(ctx.wieczory, ctx.ja) : ''}
     ${kartaCzworki(tabela, ctx.ja)}
     ${boss ? kartaBossa(boss, !aktualny, przydomekGracza(boss.zwyciezca.id, ctx.wieczory, ctx.wybory)) : ''}
@@ -110,6 +119,58 @@ export function render(kontener, ctx) {
 
   kontener.querySelectorAll('.tabela-skrot [data-gracz]').forEach((el) =>
     el.addEventListener('click', () => staty(el.dataset.gracz)));
+}
+
+/** „Co teraz”: jedna karta na górze, która mówi, co się dzieje i co kliknąć.
+    Cztery stany, od najpilniejszego: wieczór w toku dziś, dziś już zapisany,
+    dziś wtorek bez wpisów, a w pozostałe dni najbliższy wtorek. */
+export function kartaCoTeraz(wieczory) {
+  const dzis = dzisiajIso();
+  const dzisiejszy = wieczory.find((w) => w.data === dzis) ?? null;
+  const nastepny = najblizszyWtorek();
+  const karta = ({ nad, tytul, detal, href, przycisk, zywa = false }) => `
+    <section class="karta karta-teraz${zywa ? ' karta-teraz-zywa' : ''}">
+      <p class="teraz-nad">${zywa ? '<i class="teraz-kropka" aria-hidden="true"></i>' : ''}${nad}</p>
+      <h2 class="teraz-tytul">${tytul}</h2>
+      ${detal ? `<p class="teraz-detal">${detal}</p>` : ''}
+      <a class="btn btn-glowny szeroki" href="${href}">${przycisk}</a>
+    </section>`;
+
+  if (dzisiejszy && !zamkniety(dzisiejszy)) {
+    const lista = meczeZ(dzisiejszy);
+    const dograne = lista.filter((m) => meczKompletny(m, dzisiejszy)).length;
+    return karta({
+      nad: 'Dziś gramy', zywa: true, tytul: 'Wieczór w toku',
+      detal: lista.length
+        ? `Dograne mecze: ${dograne} z ${lista.length}.`
+        : 'Skład jeszcze nie ustawiony.',
+      href: '#/wieczor', przycisk: 'Wróć do wpisywania',
+    });
+  }
+  if (dzisiejszy) {
+    return karta({
+      nad: 'Dziś', tytul: 'Wieczór zapisany',
+      detal: 'Wyniki są już policzone. Zobacz, jak poszło.',
+      href: `#/podsumowanie/${dzis}`, przycisk: 'Podsumowanie wieczoru',
+    });
+  }
+  if (nastepny === dzis) {
+    return karta({
+      nad: 'Dziś wtorek', zywa: true, tytul: 'Gramy dziś',
+      detal: 'Ustaw skład i wpisujcie wyniki na bieżąco, zapisują się same.',
+      href: '#/wieczor', przycisk: 'Zaczynamy',
+    });
+  }
+  const dni = Math.round((new Date(`${nastepny}T12:00:00`) - new Date(`${dzis}T12:00:00`)) / 864e5);
+  const wolne = SEZON.wolne?.[nastepny];
+  return karta({
+    nad: 'Najbliższe granie',
+    tytul: poPolsku(nastepny),
+    detal: wolne
+      ? `Ten wtorek jest wolny: ${bez(wolne)}.`
+      : `Za ${dni} ${odmiana(dni, 'dzień', 'dni', 'dni')}. Gracie w inny dzień? Wpiszcie wynik od razu.`,
+    href: '#/wieczor', przycisk: 'Wpisz wynik',
+  });
 }
 
 const MEDALE = { 1: '🥇', 2: '🥈', 3: '🥉' };
