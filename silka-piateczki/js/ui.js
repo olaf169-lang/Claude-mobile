@@ -21,7 +21,19 @@ const PIKTOGRAM_9090 = `<svg viewBox="0 0 120 80" fill="none" stroke="currentCol
   <path d="M56 54h28v16"/><path d="M60 54l-24 6 0 10"/>
 </svg>`;
 
-const PIKTOGRAMY = { '90-90': ['var(--t-zielona)', PIKTOGRAM_9090] };
+// Wymachy w przód podchwytem: widok z boku, lekki skłon, prosta ręka idzie
+// w przód do wysokości barku. Otwarta dłoń przy hantlu pokazuje podchwyt.
+const PIKTOGRAM_PRZOD = `<svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <path d="M8 76h104" stroke-width="3" opacity=".4"/>
+  <circle cx="62" cy="12" r="7"/>
+  <path d="M60 21l-6 27M54 48l-3 27M54 48l6 27"/>
+  <g><animateTransform attributeName="transform" type="rotate" values="0 59 26;-82 59 26;-82 59 26;0 59 26;0 59 26" keyTimes="0;.4;.5;.9;1" dur="2.6s" repeatCount="indefinite"/>
+    <path d="M59 26v24"/>
+    <rect x="53" y="50" width="12" height="7" rx="2" fill="currentColor" stroke="none"/>
+    <path d="M66 46q5 3 2 9" stroke-width="3"/>
+  </g>
+</svg>`;
+const PIKTOGRAMY = { '90-90': ['var(--t-zielona)', PIKTOGRAM_9090], 'wznosy-przod': ['var(--t-zolta)', PIKTOGRAM_PRZOD] };
 
 export function kolor(obszar) {
   return (OBSZARY[obszar] || {}).kolor || 'var(--chrom)';

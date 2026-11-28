@@ -140,9 +140,9 @@ export const TECHNIKA = {
     pro: ['Przechyl się lekko od bramy, około 10 do 15°. Bark jest wtedy rozciągnięty na starcie i pracuje w pełnym zakresie.', 'Unoś do wysokości barku, wyżej pracują już kaptury. Na górze zatrzymaj się na sekundę.'],
   },
   'wznosy-przod': {
-    ustawienie: 'Stojąc, stopy na szerokość barków, kolana miękko, delikatne pochylenie do przodu. Hantel przed udem, chwyt nachwytem albo młotkowy.',
-    blad: 'Wyrzucanie hantla z bioder i odchylanie się do tyłu. Ruch robi wtedy rozpęd, nie bark.',
-    pro: ['Na zmianę jedną i drugą ręką łatwiej utrzymać tułów nieruchomo. Wyżej niż do linii oczu nie ma potrzeby.', 'Opuszczanie 2 do 3 s, wzdłuż tułowia, bez odbicia od uda na dole.'],
+    ustawienie: 'Stojąc, stopy na szerokość barków, kolana miękko, delikatne pochylenie do przodu. Hantel przy udzie, podchwyt: wnętrze dłoni do przodu, kciuk na zewnątrz.',
+    blad: 'Uginanie łokcia w trakcie: robi się z tego uginanie na biceps. Ręka zostaje prawie prosta. Drugi błąd to wyrzucanie hantla z bioder.',
+    pro: ['Na zmianę jedną i drugą ręką łatwiej utrzymać tułów nieruchomo. Wyżej niż do wysokości barku nie ma potrzeby.', 'Opuszczanie 2 do 3 s, wzdłuż tułowia, bez odbicia od uda. Podchwyt odciąża bark i mocniej angażuje biceps oraz górę klatki.'],
   },
   'wznosy-przod-linka': {
     ustawienie: 'Brama, bloczek na najniższej pozycji, pojedynczy uchwyt albo mankiet. Stań tyłem do bramy, krok od stosu.',

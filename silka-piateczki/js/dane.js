@@ -139,13 +139,15 @@ export const CWICZENIA = [
     'Mankiet zamiast uchwytu: nie ściskasz dłoni, więc pracuje sam bark, nie przedramię.',
     'Każda seria osobno na lewą i prawą rękę. Po lewej od razu prawa, potem przerwa.',
   ], ['wznosy-wyciag', 'wznosy', 'wznosy-siedzac'], { cel: 'Szerokie barki', strony: true }),
-  C('wznosy-przod', 'Wymachy hantlem w przód (unoszenie w przód)', 'barki', 'hantle', 'Front_Two-Dumbbell_Raise', [
-    'Stopy na szerokość barków, tułów delikatnie pochylony do przodu, hantel przy udzie, ręka prawie prosta.',
-    'Unoś hantel przed sobą do wysokości barku, potem powoli opuść wzdłuż tułowia. Na zmianę jedną i drugą ręką albo obiema naraz.',
-    'Pracuje przede wszystkim przód barku i górna część klatki, trochę ręce.',
-  ], ['wznosy-przod-linka', 'wyc-barki', 'wznosy-mankiet'], { cel: 'Przód barków i góra klatki' }),
+  C('wznosy-przod', 'Wymachy hantlem w przód podchwytem', 'barki', 'hantle', null, [
+    'Stopy na szerokość barków, tułów delikatnie pochylony do przodu, hantel przy udzie.',
+    'Podchwyt: wnętrze dłoni zwrócone do przodu (do lustra), kciuk na zewnątrz. Tak trzymasz dłoń przez cały ruch.',
+    'Prawie prostą ręką unoś hantel przed sobą do wysokości barku, potem powoli opuść wzdłuż tułowia. Na zmianę jedną i drugą ręką albo obiema naraz.',
+    'Pracuje przód barku, górna część klatki i, przez podchwyt, mocno biceps.',
+  ], ['wznosy-przod-linka', 'wyc-barki', 'wznosy-mankiet'], { cel: 'Przód barków, góra klatki, biceps' }),
   C('wznosy-przod-linka', 'Wymachy w przód z linką od dołu (brama)', 'barki', 'wyciag', 'Front_Cable_Raise', [
-    'Tyłem do bramy, uchwyt albo mankiet z dolnego bloczka, linka przechodzi między nogami albo obok uda.',
+    'Tyłem do bramy, uchwyt z dolnego bloczka, linka przechodzi między nogami albo obok uda.',
+    'Jak przy hantlu możesz trzymać podchwytem: wnętrze dłoni do przodu, kciuk na zewnątrz.',
     'Ręka prawie prosta, unoś przed sobą do wysokości barku, opuszczaj 2 do 3 s.',
     'Każda seria osobno na lewą i prawą rękę.',
   ], ['wznosy-przod', 'wyc-barki', 'wznosy-mankiet'], { cel: 'Przód barków i góra klatki', strony: true }),
