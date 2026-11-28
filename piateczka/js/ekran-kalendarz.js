@@ -6,7 +6,7 @@
    ========================================================================== */
 
 import { wtorkiSezonu, poPolsku, dzisiajIso, nazwaMiesiaca, gracz } from './dane.js';
-import { wieczorRozegrany, mvpWieczoru, mecze, trybyWieczoru } from './liczenie.js';
+import { wieczorRozegrany, wieczorNiedograny, mvpWieczoru, mecze, trybyWieczoru } from './liczenie.js';
 import { zamkniety } from './zamek.js';
 import { naglowekZPomoca } from './pomoc.js';
 import { bez } from './ui.js';
@@ -67,6 +67,11 @@ function wiersz(termin, wieczor, dzis) {
     opis = wieczor.towarzyski
       ? `Towarzyski · ${mecze(wieczor).length} mecze`
       : mvp ? `MVP: ${bez(gracz(mvp.gracze[0]).imie)} (${mvp.wygrane} W) · ${rodzaje}` : `Rozegrany · ${rodzaje}`;
+  } else if (wieczor && wieczorNiedograny(wieczor)) {
+    // Sety są wpisane, ale żaden mecz nie jest dograny do końca, więc ten dzień
+    // nie wchodzi ani do tabeli, ani do Formy. Mów to wprost, bo inaczej wygląda
+    // na zgubiony wynik.
+    stan = 'zaczety'; opis = 'Niedograny, jeszcze się nie liczy';
   } else if (wieczor) { stan = 'zaczety'; opis = 'Zaczęty, brak wyników'; }
   else if (termin.data < dzis) { stan = 'przepadl'; opis = 'Nie graliśmy'; }
   else if (termin.data === dzis) { stan = 'dzis'; opis = 'Dzisiaj!'; }

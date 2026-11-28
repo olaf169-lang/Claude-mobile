@@ -3,7 +3,7 @@
    ========================================================================== */
 
 import { GRACZE, gracz, SEZON, poPolsku, najblizszyWtorek, dzisiajIso, krotkaData } from './dane.js';
-import { klasyfikacja, wieczorRozegrany, mvpWieczoru, TRYBY } from './liczenie.js';
+import { klasyfikacja, wieczorRozegrany, mvpWieczoru, miejsceGracza, TRYBY } from './liczenie.js';
 import { graczMiesiaca, przydomekGracza, godlo } from './tytuly.js';
 import { naglowekZPomoca, dymek } from './pomoc.js';
 import { bez, odmianaWygranych } from './ui.js';
@@ -96,23 +96,19 @@ const MEDALE = { 1: '🥇', 2: '🥈', 3: '🥉' };
     telefonie jest inne. Miejsca liczone wśród tych, którzy w danym trybie
     w ogóle zagrali, czyli tak samo jak w tabelach. */
 function kartaMojeMiejsce(wieczory, ja) {
-  const czyste = wieczory.filter((w) => !w.towarzyski);
-  const kafle = TRYBY.map((t) => {
-    const tabela = klasyfikacja(czyste, { tryb: t.id }).filter((r) => r.mecze > 0);
-    return { nazwa: t.nazwa, moj: tabela.find((r) => r.id === ja) ?? null, ilu: tabela.length };
-  });
+  const kafle = TRYBY.map((t) => ({ nazwa: t.nazwa, moj: miejsceGracza(wieczory, t.id, ja) }));
 
   return `<section class="karta karta-moje">
     <h2 class="karta-tytul">Twoje miejsce
       <span class="naglowek-nota cichy">${bez(gracz(ja).imie)}</span>
       <button class="naglowek-link" type="button" data-zmien-ja>zmień</button></h2>
     <div class="moje-kafle">
-      ${kafle.map(({ nazwa, moj, ilu }) => `
+      ${kafle.map(({ nazwa, moj }) => `
         <div class="moje-kafel${moj && moj.miejsce <= 3 ? ` moje-podium-${moj.miejsce}` : ''}">
           <span class="moje-tryb">${nazwa}</span>
           ${moj ? `<span class="moje-pozycja">
               ${MEDALE[moj.miejsce] ? `<span class="moje-medal" aria-hidden="true">${MEDALE[moj.miejsce]}</span>` : ''}
-              <b>${moj.miejsce}</b><em>z ${ilu}</em>
+              <b>${moj.miejsce}</b><em>z ${moj.ilu}</em>${strzalka(moj.zmiana)}
             </span>
             <span class="moje-detal cichy">${moj.meczeW} ${odmianaWygranych(moj.meczeW)}</span>`
           : `<span class="moje-pozycja moje-brak">·</span>
@@ -120,6 +116,16 @@ function kartaMojeMiejsce(wieczory, ja) {
         </div>`).join('')}
     </div>
   </section>`;
+}
+
+/** Zmiana miejsca po ostatnim liczonym wieczorze. Bez ruchu nic nie rysujemy,
+    żeby kafel nie szumiał. */
+function strzalka(zmiana) {
+  if (!zmiana) return '';
+  const wGore = zmiana > 0;
+  return `<span class="moje-zmiana ${wGore ? 'moje-w-gore' : 'moje-w-dol'}"
+    title="${wGore ? 'Awans' : 'Spadek'} o ${Math.abs(zmiana)} po ostatnim wieczorze"
+    >${wGore ? '▲' : '▼'}${Math.abs(zmiana)}</span>`;
 }
 
 function kartaCzworki(pelna, ja) {
