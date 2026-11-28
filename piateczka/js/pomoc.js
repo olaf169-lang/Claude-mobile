@@ -119,9 +119,7 @@ export const POMOC = {
       <b>🥇 złoto</b> za wyczyn.</p>
       <p>Nosisz zawsze <b>najlepszy</b>, na jaki się łapiesz. Kto spełnia kilka warunków z tego samego
       poziomu, temu ksywka rotuje z wieczorami.</p>
-      <p><b>Debel i singiel liczą się razem</b>, do jednej puli meczów. Oba tryby porównują tylko
-      dwa przydomki: „Mistrz Pedałowania” (mocny w deblu, słaby w singlu) i „Samotny Wilk”
-      (odwrotnie).</p>
+      <p><b>Debel i singiel liczą się razem</b>, do jednej puli meczów.</p>
       <p><b>Masz kilka? Możesz wybrać, który nosisz.</b> Dotknij swojego kafelka na ekranie
       „Tytuły” albo swojego wiersza w tabeli i wskaż przydomek. „Auto” wraca na najlepszy.
       Wybór widzą wszyscy.</p>

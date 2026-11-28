@@ -406,6 +406,41 @@ export function wFiltrze(wieczory, { od, do: dokad } = {}) {
     (!od || w.data >= od) && (!dokad || w.data <= dokad));
 }
 
+/** Jak gracz wypada na POCZĄTKU wieczoru, a jak pod koniec. Mecze wieczoru idą
+    po numerach, dzielimy je na pierwszą i drugą połowę i liczymy skuteczność
+    w każdej. Bierzemy tylko wieczory z min. 4 dogranymi meczami, bo przy dwóch
+    podział nic nie znaczy. Zwraca `null`, gdy nie ma czego dzielić.
+
+    Świadomie NIE liczy się do niczego: to ciekawostka o rozkręcaniu się
+    i siadaniu, a nie kolejne kryterium. Próbka jest mała, więc oddajemy też
+    liczbę meczów, żeby ekran mógł ją uczciwie pokazać. */
+export function krzywaWieczoru(wieczory, id) {
+  const kosze = { wcz: { w: 0, p: 0 }, poz: { w: 0, p: 0 } };
+  for (const w of wieczory) {
+    if (w.towarzyski) continue;
+    const lista = mecze(w).filter((m) => meczKompletny(m, w));
+    if (lista.length < 4) continue;
+    const polowa = Math.ceil(lista.length / 2);
+    lista.forEach((m, i) => {
+      const r = wynikMeczu(m);
+      if (r.werdykt === 'remis') return;
+      const wygrani = r.werdykt === 'a' ? m.a : m.b;
+      const przegrani = r.werdykt === 'a' ? m.b : m.a;
+      const kosz = kosze[i < polowa ? 'wcz' : 'poz'];
+      if (wygrani.includes(id)) kosz.w += 1;
+      else if (przegrani.includes(id)) kosz.p += 1;
+    });
+  }
+  const razem = (k) => k.w + k.p;
+  if (!razem(kosze.wcz) || !razem(kosze.poz)) return null;
+  const proc = (k) => Math.round((k.w / razem(k)) * 100);
+  return {
+    wcz: { ...kosze.wcz, ile: razem(kosze.wcz), proc: proc(kosze.wcz) },
+    poz: { ...kosze.poz, ile: razem(kosze.poz), proc: proc(kosze.poz) },
+    roznica: proc(kosze.poz) - proc(kosze.wcz),
+  };
+}
+
 /** Miejsce jednego gracza w danym trybie plus to, jak zmieniło się po ostatnim
     liczonym dniu TEGO trybu (debel i singiel mają swoje ostatnie dni).
     `zmiana`: dodatnia to awans o tyle miejsc, ujemna to spadek, `null` gdy nie

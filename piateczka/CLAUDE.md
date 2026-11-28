@@ -274,6 +274,25 @@ ekipy. Jeśli ruszasz reguły, przypomnij mu o tym wprost.
   medal 🥇🥈🥉 tylko za pierwsze trzy miejsca, miejsca liczone wśród tych,
   którzy w danym trybie zagrali (`r.mecze > 0`), czyli tak samo jak w tabelach.
   Złoto zostaje przy pierwszym miejscu, srebro i brąz mają samą ramkę.
+- **Statystyki gracza otwiera się z CZTERECH miejsc**, nie tylko z wiersza
+  pełnej tabeli: kafel „Twoje staty” w menu Startu (szeroki, pierwszy), własny
+  kafel „Twoje miejsce”, wiersz skrótu tabeli na Starcie i wiersz pełnej tabeli.
+  Powód: ludzie nie trafiali do tych statystyk i myśleli, że są widoczne tylko
+  dla autora (zgłoszone 2026-11-28). Wejściem jest `pokazStatystyki(id,
+  wieczory, tryb)` eksportowane z `ekran-tabela.js`, które samo dolicza sobie
+  klasyfikację. **Jak dokładasz gdzieś listę graczy, zrób ją klikalną tym
+  samym wejściem**, bo niespójność (tu klikalne, tam nie) była osobną skargą.
+- **W panelu statystyk najpierw STATY, przydomki na końcu.** Kto klika „Twoje
+  staty”, ma zobaczyć wyniki od razu, a nie przewijać listę przydomków.
+- **Krzywa wieczoru** (`krzywaWieczoru` w `liczenie.js`): skuteczność w pierwszej
+  i drugiej połowie wieczoru, z wieczorów o min. 4 dogranych meczach. Świadomie
+  NIE liczy się do niczego, to ciekawostka, i zawsze pokazuje próbkę („5 z 12”),
+  bo przy tych liczbach łatwo o nadinterpretację.
+- **„Lista Obecności”**: brązowy przydomek za samą frekwencję, dla kogoś, kto
+  bywa na min. 80% wieczorów (min. 5) przy skuteczności poniżej 35% i min. 15
+  meczach. Hasło to dosłowny cytat użytkownika: „Fajnie że jesteś. Szkoda że
+  tylko »jesteś«...”. Glif to kartka z dwiema linijkami i grubym ptaszkiem;
+  pierwsze podejście (ławka) nie czytało się jako obecność.
 - **Kolory serii na wykresach są przypisane do gracza, nie do miejsca**
   w tabeli, i przeszły walidację kontrastu i daltonizmu. Nie podmieniaj
   ich bez ponownego sprawdzenia.
