@@ -20,6 +20,7 @@ Na iPhonie: Safari → Udostępnij → „Do ekranu początkowego”.
 | **Koks** | siłacz rosnący z poziomem, sztanga z tarczami jako pasek XP, licznik dni od treningu (cel: przerwa najwyżej 5 dni) i seria treningów w terminie |
 | **Trening** | plany A i B, odhaczanie serii, ciężar i powtórzenia podstawiane z ostatniego razu, podpowiedź „dołóż”, zamienniki, własne ćwiczenia, superserie, odliczanie przerwy |
 | **Rozciąganie** | 6 pozycji, tryb prowadzony: sam odlicza, zmienia strony i daje sygnał |
+| **Pomiary** | waga i wyniki z wagi Huawei (tłuszcz, mięśnie, woda, tłuszcz trzewny, BMI, metabolizm) oraz obwody z taśmy (barki, klatka, ramię, talia, biodra, udo), wykres każdej wielkości, zmiana od początku i od poprzedniego pomiaru, zielona, gdy idzie w stronę celu |
 | **Postępy** | odznaki, rekordy z wykresami, historia, ustawienia i kopia zapasowa |
 
 ### Nagrody

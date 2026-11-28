@@ -8,7 +8,7 @@ import { execFileSync } from 'node:child_process';
 import { join, extname } from 'node:path';
 import assert from 'node:assert/strict';
 
-import { CWICZENIA, PLANY_START, ROZCIAGANIE, POZIOMY, ODZNAKI, TRUDNOSC } from '../js/dane.js';
+import { CWICZENIA, PLANY_START, ROZCIAGANIE, POZIOMY, ODZNAKI, TRUDNOSC, POMIARY, GRUPY_POMIAROW } from '../js/dane.js';
 import { TECHNIKA } from '../js/technika.js';
 import {
   sprawdzRekord, podpowiedz, serie, poziom, policzXp, wTerminie, rozciaganieWTygodniu, praca, xpLaczne,
@@ -156,6 +156,15 @@ test('kolejność planów: ręce przed brzuchem, brzuch na końcu, izolacje rąk
     // Od dużych do małych: pośladki i tył uda przed barkami, klatka i plecy przed nogami.
     assert(o.indexOf('nogi') < o.indexOf('barki'), `plan ${k}: barki przed pośladkami i tyłem uda`);
     assert(o.lastIndexOf('klatka') < o.indexOf('nogi') && o.lastIndexOf('plecy') < o.indexOf('nogi'), `plan ${k}: nogi wchodzą przed końcem klatki i pleców`);
+  }
+});
+
+test('pomiary: unikalne id, znana grupa, sensowne zakresy', () => {
+  assert.equal(POMIARY.length, new Set(POMIARY.map((p) => p.id)).size);
+  for (const p of POMIARY) {
+    assert(GRUPY_POMIAROW.some((g) => g.id === p.grupa), `${p.id}: nieznana grupa`);
+    assert(p.min < p.max, `${p.id}: min >= max`);
+    assert([null, 'gora', 'dol'].includes(p.cel), `${p.id}: zły cel`);
   }
 });
 

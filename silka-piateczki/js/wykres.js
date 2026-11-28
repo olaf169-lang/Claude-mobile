@@ -50,3 +50,33 @@ export function duzy(punkty, kolor = 'var(--t-zolta)') {
   const opis = punkty[0].zCiezarem ? 'Szacowany maks na 1 powtórzenie (kg)' : 'Najwięcej powtórzeń w serii';
   return `<svg class="wykres" viewBox="0 0 ${W} ${H}" role="img" aria-label="${opis}">${siatka}<path d="${d}" fill="none" stroke="${kolor}" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>${kropki}${etykiety}</svg><p class="maly cichy">${opis}, najlepsza seria z każdego treningu.</p>`;
 }
+
+// Wykres pomiaru ciała w czasie: odstępy na osi odpowiadają dniom,
+// bo pomiary robisz nieregularnie.
+export function liniowy(punkty, { jednostka = '', kolor = 'var(--t-zolta)', dzies = 1 } = {}) {
+  if (!punkty.length) return '';
+  const W = 340;
+  const H = 170;
+  const L = 40;
+  const P = 14;
+  const t = punkty.map((p) => new Date(p.data).getTime());
+  const t0 = Math.min(...t);
+  const t1 = Math.max(...t);
+  const w = punkty.map((p) => p.wartosc);
+  let min = Math.min(...w);
+  let max = Math.max(...w);
+  const zapas = Math.max((max - min) * 0.15, Math.abs(max) * 0.01, 0.5);
+  min -= zapas;
+  max += zapas;
+  const x = (i) => (t1 === t0 ? (L + W) / 2 : L + ((t[i] - t0) / (t1 - t0)) * (W - L - P));
+  const y = (v) => 12 + (1 - (v - min) / (max - min)) * (H - 40);
+  const liczba = (v) => String(Math.round(v * 10 ** dzies) / 10 ** dzies).replace('.', ',');
+  const d = punkty.map((p, i) => `${i ? 'L' : 'M'}${x(i).toFixed(1)},${y(p.wartosc).toFixed(1)}`).join('');
+  const siatka = [min + zapas, (min + max) / 2, max - zapas].map((v) => `<line x1="${L}" x2="${W}" y1="${y(v).toFixed(1)}" y2="${y(v).toFixed(1)}" stroke="var(--linia)"/><text x="${L - 6}" y="${(y(v) + 4).toFixed(1)}" text-anchor="end" font-size="11" fill="var(--popiol)">${liczba(v)}</text>`).join('');
+  const dataTxt = (i) => new Date(punkty[i].data).toLocaleDateString('pl-PL', { day: 'numeric', month: 'short' });
+  const etykiety = punkty.length > 1
+    ? `<text x="${x(0)}" y="${H - 4}" font-size="11" fill="var(--popiol)">${dataTxt(0)}</text><text x="${x(punkty.length - 1)}" y="${H - 4}" text-anchor="end" font-size="11" fill="var(--popiol)">${dataTxt(punkty.length - 1)}</text>`
+    : `<text x="${x(0)}" y="${H - 4}" text-anchor="middle" font-size="11" fill="var(--popiol)">${dataTxt(0)}</text>`;
+  const kropki = punkty.map((p, i) => `<circle cx="${x(i).toFixed(1)}" cy="${y(p.wartosc).toFixed(1)}" r="4" fill="${kolor}"/>`).join('');
+  return `<svg class="wykres" viewBox="0 0 ${W} ${H}" role="img" aria-label="Wykres w ${jednostka || 'jednostkach'}, ${punkty.length} pomiarów">${siatka}${punkty.length > 1 ? `<path d="${d}" fill="none" stroke="${kolor}" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>` : ''}${kropki}${etykiety}</svg>`;
+}
