@@ -56,6 +56,14 @@ frameworka, jak reszta aplikacji w tym monorepo. Opis funkcji: `README.md`.
 - Zmieniając plany startowe, dopisz poprzednią wersję do `PLANY_STARE`, żeby nietknięte
   plany w telefonie podmieniły się same.
 
+## Pomiary (2026-11-28)
+
+- Zakładka Pomiary (`ekran-pomiary.js`), definicje w `POMIARY` i `GRUPY_POMIAROW` (dane.js).
+  Liczby z wagi Huawei użytkownik przepisuje ręcznie (Huawei Zdrowie nie ma prostego eksportu).
+- Najświeższa zapisana waga nadpisuje `ustawienia.masaCiala`, czyli XP za dipy i podciąganie.
+- `cel` pomiaru: kierunek dobry dla celów użytkownika (biodra i talia w dół, barki, klatka,
+  ramię, mięśnie w górę). Zmiana w tę stronę jest zielona.
+
 ## Przypomnienia push (od 2026-11-25, prośba użytkownika)
 
 - Projekt Firebase `jaka-to-piosenka-8ca81` (wspólny z jaka-to-melodia i piateczka).

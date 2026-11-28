@@ -13,6 +13,7 @@ function pusty() {
     treningi: [], // zakończone, od najstarszego
     aktywny: null, // trening w toku
     rozciaganie: [], // daty ISO zakończonych sesji
+    pomiary: [], // { id, data, wartosci: { waga: 84.2, talia: 88, ... } }
     odznaki: {}, // id -> data ISO
     ustawienia: { przerwa: 90, dzwiek: true, masaCiala: 80 },
   };

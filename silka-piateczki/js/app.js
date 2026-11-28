@@ -5,12 +5,14 @@ import { ekranStart } from './ekran-start.js';
 import { ekranTrening } from './ekran-trening.js';
 import { ekranRozciaganie } from './ekran-rozciaganie.js';
 import { ekranPostepy } from './ekran-postepy.js';
+import { ekranPomiary } from './ekran-pomiary.js';
 import { zglosTrening } from './przypomnienia.js';
 
 const EKRANY = {
   start: ekranStart,
   trening: ekranTrening,
   rozciaganie: ekranRozciaganie,
+  pomiary: ekranPomiary,
   postepy: ekranPostepy,
 };
 

@@ -464,3 +464,28 @@ export const ODZNAKI = [
   { id: 'gumka10', nazwa: 'Jak z gumy', opis: '10 sesji rozciągania', w: (s) => s.rozciagania >= 10 },
   { id: 'tona', nazwa: 'Tona w garści', opis: '5 ton przerzucone w jednym treningu', w: (s) => s.maksTonaz >= 5000 },
 ];
+
+// Pomiary ciała. grupa: skąd liczba pochodzi. cel: w którą stronę zmiana jest
+// dobra dla celów użytkownika (zielony), null = bez oceny. dzies: miejsca po przecinku.
+export const GRUPY_POMIAROW = [
+  { id: 'waga', nazwa: 'Z wagi (Huawei)', kolor: 'var(--t-niebieska)',
+    rada: 'Rano, na czczo, po toalecie, boso. Przepisz liczby z aplikacji Huawei Zdrowie, zawsze te same pozycje.' },
+  { id: 'obwody', nazwa: 'Obwody (taśma)', kolor: 'var(--t-zolta)',
+    rada: 'Taśma przylega, ale nie wciska skóry, równolegle do podłogi. Zawsze w tym samym miejscu i najlepiej przed treningiem, bo po nim mięśnie są napompowane.' },
+];
+
+export const POMIARY = [
+  { id: 'waga', nazwa: 'Waga', krotko: 'Waga', jedn: 'kg', grupa: 'waga', cel: null, min: 30, max: 250 },
+  { id: 'tluszcz', nazwa: 'Tkanka tłuszczowa', krotko: 'Tłuszcz', jedn: '%', grupa: 'waga', cel: 'dol', min: 3, max: 60 },
+  { id: 'miesnie', nazwa: 'Masa mięśniowa', krotko: 'Mięśnie', jedn: 'kg', grupa: 'waga', cel: 'gora', min: 10, max: 120, rada: 'albo mięśnie szkieletowe, byle zawsze ta sama' },
+  { id: 'woda', nazwa: 'Woda w ciele', krotko: 'Woda', jedn: '%', grupa: 'waga', cel: null, min: 30, max: 80 },
+  { id: 'trzewny', nazwa: 'Tłuszcz trzewny', krotko: 'Trzewny', jedn: 'poziom', grupa: 'waga', cel: 'dol', min: 1, max: 30, dzies: 0, rada: 'ten wokół narządów, w brzuchu' },
+  { id: 'bmi', nazwa: 'BMI', krotko: 'BMI', jedn: '', grupa: 'waga', cel: null, min: 10, max: 60 },
+  { id: 'bmr', nazwa: 'Metabolizm podstawowy', krotko: 'BMR', jedn: 'kcal', grupa: 'waga', cel: null, min: 800, max: 4000, dzies: 0 },
+  { id: 'barki', nazwa: 'Barki', krotko: 'Barki', jedn: 'cm', grupa: 'obwody', cel: 'gora', min: 60, max: 180, rada: 'dookoła, przez najszersze miejsce barków, ręce luźno' },
+  { id: 'klatka', nazwa: 'Klatka', krotko: 'Klatka', jedn: 'cm', grupa: 'obwody', cel: 'gora', min: 60, max: 170, rada: 'na wysokości sutków, po spokojnym wydechu' },
+  { id: 'ramie', nazwa: 'Ramię', krotko: 'Ramię', jedn: 'cm', grupa: 'obwody', cel: 'gora', min: 20, max: 60, rada: 'napięte, w najszerszym miejscu, zawsze ta sama ręka' },
+  { id: 'talia', nazwa: 'Talia', krotko: 'Talia', jedn: 'cm', grupa: 'obwody', cel: 'dol', min: 50, max: 160, rada: 'na wysokości pępka, brzuch luźno' },
+  { id: 'biodra', nazwa: 'Biodra', krotko: 'Biodra', jedn: 'cm', grupa: 'obwody', cel: 'dol', min: 60, max: 170, rada: 'przez najszersze miejsce pośladków, stopy razem' },
+  { id: 'udo', nazwa: 'Udo', krotko: 'Udo', jedn: 'cm', grupa: 'obwody', cel: null, min: 30, max: 90, rada: 'w połowie między biodrem a kolanem, zawsze ta sama noga' },
+];
